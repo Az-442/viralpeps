@@ -1,9 +1,26 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const compound = compounds.find((c) => c.slug === slug);
+  if (!compound) return {};
+  return {
+    title: `${compound.name} — Research Peptide Information & UK Vendor Prices`,
+    description: `Complete guide to ${compound.name} (${compound.aliases[0] || ""}). Research applications, purity specs, half-life, and compare prices from verified UK vendors. ${compound.description.slice(0, 120)}`,
+    alternates: { canonical: `/compounds/${slug}` },
+    openGraph: {
+      title: `${compound.name} — Research Peptide | ViralPeps UK`,
+      description: `${compound.name} peptide: ${compound.description.slice(0, 150)}`,
+      url: `https://www.viralpeps.co.uk/compounds/${slug}`,
+    },
+  };
+}
 
 const badgeColors: Record<string, string> = {
   "glp-1-agonists": "bg-green-50 text-green-700", "growth-factors": "bg-purple-50 text-purple-700",

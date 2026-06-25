@@ -163,7 +163,7 @@ export default function Home() {
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Research Peptides</span>
           </h1>
           <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-            The most comprehensive peptide directory. Browse compounds, compare verified vendors, and make informed purchasing decisions.
+            The UK&apos;s most comprehensive peptide directory. Browse compounds, compare verified UK vendors, and make informed purchasing decisions.
           </p>
           <div className="max-w-xl mx-auto"><SearchBar /></div>
           <div className="flex flex-wrap justify-center gap-2 mt-4">
