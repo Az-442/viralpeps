@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ViralPeps — Research Peptide Directory & Vendor Comparison",
-  description: "The most comprehensive research peptide directory. Browse compounds, compare verified vendors, and find the information you need — all in one place.",
+  title: "ViralPeps — UK Research Peptide Directory & Vendor Comparison",
+  description: "The UK's most comprehensive research peptide directory. Browse 22+ compounds including Tirzepatide, Semaglutide, BPC-157, and more. Compare verified UK and international vendors, prices, and purity specs. Free peptide tools and research guides.",
+  keywords: ["research peptides UK", "peptide directory", "buy peptides UK", "Tirzepatide UK", "Semaglutide UK", "BPC-157", "peptide vendors", "research compounds"],
 };
 
 export default function RootLayout({

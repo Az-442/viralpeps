@@ -275,6 +275,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SEO CONTENT */}
+      <section className="py-12 max-w-7xl mx-auto px-4 border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">The UK&apos;s Most Comprehensive Research Peptide Directory</h2>
+          <div className="text-sm text-gray-600 leading-relaxed space-y-3">
+            <p>ViralPeps is the leading independent directory for research peptides, bringing together detailed compound information, verified vendor listings, and price comparison tools in one place. Whether you&apos;re researching GLP-1 agonists like Tirzepatide and Semaglutide, regenerative peptides like BPC-157 and TB-500, or growth factors like IGF-1 LR3 and CJC-1295, our database covers the most studied research compounds available in the UK and internationally.</p>
+            <p>Every compound page includes detailed mechanism of action information, research applications, common dosages, purity specifications, and direct links to verified UK and international vendors with current pricing. Our directory is updated regularly with new compounds, vendor additions, and price data to help researchers make informed decisions.</p>
+            <p>Browse by category — <Link href="/category/glp-1-agonists" className="text-blue-600 hover:underline">GLP-1 Agonists</Link>, <Link href="/category/growth-factors" className="text-blue-600 hover:underline">Growth Factors</Link>, <Link href="/category/cognitive" className="text-blue-600 hover:underline">Cognitive Peptides</Link>, <Link href="/category/thymosin-bpc" className="text-blue-600 hover:underline">BPC/TB-500</Link>, <Link href="/category/melanotans" className="text-blue-600 hover:underline">Melanotans</Link>, and more — or use the search bar to find specific compounds and vendors.</p>
+          </div>
+        </div>
+      </section>
+
       {/* NEWSLETTER */}
       <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-12">
         <div className="max-w-xl mx-auto px-4 text-center">
