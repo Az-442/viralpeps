@@ -3,149 +3,1180 @@
     "id": "tirzepatide",
     "name": "Tirzepatide",
     "slug": "tirzepatide",
-    "aliases": ["Mounjaro", "Zepbound", "LY3298176"],
+    "aliases": [
+      "Mounjaro",
+      "Zepbound",
+      "LY3298176"
+    ],
     "category": "glp-1-agonists",
     "description": "Tirzepatide is a dual GIP and GLP-1 receptor agonist developed for type 2 diabetes and weight management. It is the first approved dual agonist, showing superior efficacy in glycemic control and weight reduction compared to selective GLP-1 agonists.",
     "mechanism": "Dual agonist at GIP and GLP-1 receptors. GIP enhances insulin secretion and may counteract GLP-1-mediated nausea, while GLP-1 slows gastric emptying and promotes satiety.",
     "cas": "2023788-19-2",
     "molarMass": "4813.5 g/mol",
     "sequence": "HX-EGTFTSDYSIYLDKKAQRAVQWLMNGGPSSGAPPPS-NH2",
-    "purity": "≥98%",
+    "purity": "\u226598%",
     "form": "Lyophilized powder",
     "halfLife": "5 days",
-    "researchAreas": ["Type 2 diabetes", "Weight management", "Metabolic health", "NAFLD/NASH"],
-    "commonDosages": ["2.5 mg/week", "5 mg/week", "7.5 mg/week", "10 mg/week", "12.5 mg/week", "15 mg/week"],
+    "researchAreas": [
+      "Type 2 diabetes",
+      "Weight management",
+      "Metabolic health",
+      "NAFLD/NASH"
+    ],
+    "commonDosages": [
+      "2.5 mg/week",
+      "5 mg/week",
+      "7.5 mg/week",
+      "10 mg/week",
+      "12.5 mg/week",
+      "15 mg/week"
+    ],
     "sources": [
-      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/tirzepatide", "price": "$89.00", "inStock": true },
-      { "vendor": "Limitless Life Nootropics", "url": "https://limitlesslifenootropics.com/tirzepatide", "price": "$75.00", "inStock": true },
-      { "vendor": "Core Peptides", "url": "https://corepeptides.com/tirzepatide", "price": "$82.00", "inStock": true }
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/tirzepatide",
+        "price": "$89.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Limitless Life Nootropics",
+        "url": "https://limitlesslifenootropics.com/tirzepatide",
+        "price": "$75.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/tirzepatide",
+        "price": "$82.00",
+        "inStock": true
+      }
     ]
   },
   {
     "id": "semaglutide",
     "name": "Semaglutide",
     "slug": "semaglutide",
-    "aliases": ["Ozempic", "Wegovy", "Rybelsus"],
+    "aliases": [
+      "Ozempic",
+      "Wegovy",
+      "Rybelsus"
+    ],
     "category": "glp-1-agonists",
     "description": "Semaglutide is a long-acting GLP-1 receptor agonist approved for type 2 diabetes and chronic weight management. It shares 94% sequence homology with human GLP-1 with modifications for extended half-life.",
     "mechanism": "GLP-1 receptor agonist that stimulates insulin secretion, suppresses glucagon release, slows gastric emptying, and reduces appetite through central mechanisms.",
     "cas": "910463-68-2",
     "molarMass": "4113.6 g/mol",
     "sequence": "HESGTFTSDVSSYLEEQAAKEFIAWLVKGRG",
-    "purity": "≥98%",
+    "purity": "\u226598%",
     "form": "Lyophilized powder",
     "halfLife": "7 days",
-    "researchAreas": ["Type 2 diabetes", "Weight management", "Cardiovascular health", "NAFLD"],
-    "commonDosages": ["0.25 mg/week", "0.5 mg/week", "1.0 mg/week", "1.7 mg/week", "2.4 mg/week"],
+    "researchAreas": [
+      "Type 2 diabetes",
+      "Weight management",
+      "Cardiovascular health",
+      "NAFLD"
+    ],
+    "commonDosages": [
+      "0.25 mg/week",
+      "0.5 mg/week",
+      "1.0 mg/week",
+      "1.7 mg/week",
+      "2.4 mg/week"
+    ],
     "sources": [
-      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/semaglutide", "price": "$75.00", "inStock": true },
-      { "vendor": "Xpeptides", "url": "https://xpeptides.com/semaglutide", "price": "$65.00", "inStock": true }
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/semaglutide",
+        "price": "$75.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Xpeptides",
+        "url": "https://xpeptides.com/semaglutide",
+        "price": "$65.00",
+        "inStock": true
+      }
     ]
   },
   {
     "id": "bpc-157",
     "name": "BPC-157",
     "slug": "bpc-157",
-    "aliases": ["Body Protection Compound 157", "PL 14736"],
+    "aliases": [
+      "Body Protection Compound 157",
+      "PL 14736"
+    ],
     "category": "thymosin-bpc",
     "description": "BPC-157 is a synthetic pentadecapeptide derived from a protein found in human gastric juice. It is extensively studied for its regenerative properties on various tissues including the gastrointestinal tract, muscles, tendons, and ligaments.",
     "mechanism": "Promotes angiogenesis, upregulates growth factors (VEGF, FGF), modulates nitric oxide system, and accelerates wound healing through multiple signaling pathways.",
     "cas": "137525-51-0",
     "molarMass": "1419.6 g/mol",
     "sequence": "GEPPPGKPADDAGLV",
-    "purity": "≥99%",
+    "purity": "\u226599%",
     "form": "Lyophilized powder",
     "halfLife": "Unknown (fast clearance)",
-    "researchAreas": ["GI healing", "Tendon repair", "Muscle recovery", "Bone healing", "Inflammatory bowel disease"],
-    "commonDosages": ["200-400 mcg/day", "500 mcg twice daily"],
+    "researchAreas": [
+      "GI healing",
+      "Tendon repair",
+      "Muscle recovery",
+      "Bone healing",
+      "Inflammatory bowel disease"
+    ],
+    "commonDosages": [
+      "200-400 mcg/day",
+      "500 mcg twice daily"
+    ],
     "sources": [
-      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/bpc-157", "price": "$59.00", "inStock": true },
-      { "vendor": "Limitless Life Nootropics", "url": "https://limitlesslifenootropics.com/bpc-157", "price": "$49.00", "inStock": true },
-      { "vendor": "Core Peptides", "url": "https://corepeptides.com/bpc-157", "price": "$55.00", "inStock": true }
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/bpc-157",
+        "price": "$59.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Limitless Life Nootropics",
+        "url": "https://limitlesslifenootropics.com/bpc-157",
+        "price": "$49.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/bpc-157",
+        "price": "$55.00",
+        "inStock": true
+      }
     ]
   },
   {
     "id": "tb-500",
     "name": "TB-500",
     "slug": "tb-500",
-    "aliases": ["Thymosin Beta-4", "Tβ4"],
+    "aliases": [
+      "Thymosin Beta-4",
+      "T\u03b24"
+    ],
     "category": "tb-500",
     "description": "TB-500 is the synthetic version of Thymosin Beta-4, a naturally occurring peptide that plays a crucial role in wound healing, cell migration, and tissue regeneration. It is one of the most studied regenerative peptides.",
     "mechanism": "Acts as an actin-sequestering protein, promoting cell migration and differentiation. Upregulates angiogenesis through VEGF and FGF pathways.",
     "cas": "77591-33-4",
     "molarMass": "4961.5 g/mol",
     "sequence": "Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES",
-    "purity": "≥99%",
+    "purity": "\u226599%",
     "form": "Lyophilized powder",
     "halfLife": "4-6 hours",
-    "researchAreas": ["Wound healing", "Cardiac repair", "Anti-inflammatory", "Hair growth", "Eye health"],
-    "commonDosages": ["2.5-5 mg/week", "10 mg loading then 5 mg/week"],
+    "researchAreas": [
+      "Wound healing",
+      "Cardiac repair",
+      "Anti-inflammatory",
+      "Hair growth",
+      "Eye health"
+    ],
+    "commonDosages": [
+      "2.5-5 mg/week",
+      "10 mg loading then 5 mg/week"
+    ],
     "sources": [
-      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/tb-500", "price": "$69.00", "inStock": true },
-      { "vendor": "Core Peptides", "url": "https://corepeptides.com/tb-500", "price": "$62.00", "inStock": true }
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/tb-500",
+        "price": "$69.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/tb-500",
+        "price": "$62.00",
+        "inStock": true
+      }
     ]
   },
   {
     "id": "mt2",
     "name": "Melanotan II",
     "slug": "melanotan-ii",
-    "aliases": ["MT-II", "Melanotan 2", "PT-141 analog"],
+    "aliases": [
+      "MT-II",
+      "Melanotan 2",
+      "PT-141 analog"
+    ],
     "category": "melanotans",
-    "description": "Melanotan II is a synthetic analog of the naturally occurring melanocyte-stimulating hormone (α-MSH). It stimulates melanogenesis for skin tanning and has been studied for its effects on sexual function.",
+    "description": "Melanotan II is a synthetic analog of the naturally occurring melanocyte-stimulating hormone (\u03b1-MSH). It stimulates melanogenesis for skin tanning and has been studied for its effects on sexual function.",
     "mechanism": "Non-selective agonist at melanocortin receptors (MC1R-MC5R). MC1R activation induces melanin production; MC4R activation affects appetite and sexual function.",
     "cas": "121062-08-6",
     "molarMass": "1024.2 g/mol",
     "sequence": "Ac-Nle-c[Asp-His-D-Phe-Arg-Trp-Lys]-NH2",
-    "purity": "≥98%",
+    "purity": "\u226598%",
     "form": "Lyophilized powder",
     "halfLife": "30-60 minutes (effects last days)",
-    "researchAreas": ["Skin tanning", "Sexual dysfunction", "Appetite regulation", "Erythropoietic protoporphyria"],
-    "commonDosages": ["0.5-1 mg/day", "Loading: 0.5 mg/day for 10-14 days"],
+    "researchAreas": [
+      "Skin tanning",
+      "Sexual dysfunction",
+      "Appetite regulation",
+      "Erythropoietic protoporphyria"
+    ],
+    "commonDosages": [
+      "0.5-1 mg/day",
+      "Loading: 0.5 mg/day for 10-14 days"
+    ],
     "sources": [
-      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/melanotan-ii", "price": "$39.00", "inStock": true },
-      { "vendor": "Xpeptides", "url": "https://xpeptides.com/melanotan-ii", "price": "$29.00", "inStock": true }
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/melanotan-ii",
+        "price": "$39.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Xpeptides",
+        "url": "https://xpeptides.com/melanotan-ii",
+        "price": "$29.00",
+        "inStock": true
+      }
     ]
   },
   {
     "id": "ghrp-2",
     "name": "GHRP-2",
     "slug": "ghrp-2",
-    "aliases": ["Growth Hormone Releasing Peptide-2", "Pralmorelin"],
+    "aliases": [
+      "Growth Hormone Releasing Peptide-2",
+      "Pralmorelin"
+    ],
     "category": "ghrp",
     "description": "GHRP-2 is a synthetic hexapeptide that stimulates the release of growth hormone from the pituitary gland. It is one of the most potent GHRPs and is widely used in research.",
     "mechanism": "Ghrelin receptor (GHSR-1a) agonist. Stimulates GH release from somatotrophs and may also increase cortisol and prolactin.",
     "cas": "158861-67-7",
     "molarMass": "817.0 g/mol",
-    "sequence": "D-Ala-D-β-Nal-Ala-Trp-D-Phe-Lys-NH2",
-    "purity": "≥99%",
+    "sequence": "D-Ala-D-\u03b2-Nal-Ala-Trp-D-Phe-Lys-NH2",
+    "purity": "\u226599%",
     "form": "Lyophilized powder",
     "halfLife": "30-60 minutes",
-    "researchAreas": ["GH stimulation", "Anti-aging", "Muscle growth", "Fat metabolism"],
-    "commonDosages": ["100-300 mcg/day", "100-200 mcg 2-3x/day"],
+    "researchAreas": [
+      "GH stimulation",
+      "Anti-aging",
+      "Muscle growth",
+      "Fat metabolism"
+    ],
+    "commonDosages": [
+      "100-300 mcg/day",
+      "100-200 mcg 2-3x/day"
+    ],
     "sources": [
-      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/ghrp-2", "price": "$29.00", "inStock": true },
-      { "vendor": "Limitless Life Nootropics", "url": "https://limitlesslifenootropics.com/ghrp-2", "price": "$24.00", "inStock": true }
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/ghrp-2",
+        "price": "$29.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Limitless Life Nootropics",
+        "url": "https://limitlesslifenootropics.com/ghrp-2",
+        "price": "$24.00",
+        "inStock": true
+      }
     ]
   },
   {
     "id": "aod9604",
     "name": "AOD-9604",
     "slug": "aod-9604",
-    "aliases": ["Anti-Obesity Drug 9604", "HGH Fragment 177-191"],
+    "aliases": [
+      "Anti-Obesity Drug 9604",
+      "HGH Fragment 177-191"
+    ],
     "category": "aod-fragments",
     "description": "AOD-9604 is a synthetic peptide fragment of human growth hormone (amino acids 177-191). It was developed specifically for fat loss without affecting blood sugar or growth hormone levels.",
     "mechanism": "Mimics the lipolytic (fat-burning) action of hGH without the anti-insulin effects. Stimulates lipolysis in adipose tissue while inhibiting lipogenesis.",
     "cas": "221231-10-3",
     "molarMass": "1814.0 g/mol",
     "sequence": "LAGLEDESILEAQTWPEEEQK",
-    "purity": "≥98%",
+    "purity": "\u226598%",
     "form": "Lyophilized powder",
     "halfLife": "~20 minutes",
-    "researchAreas": ["Fat loss", "Obesity", "Metabolic health", "Weight management"],
-    "commonDosages": ["300-500 mcg/day", "500 mcg twice daily"],
+    "researchAreas": [
+      "Fat loss",
+      "Obesity",
+      "Metabolic health",
+      "Weight management"
+    ],
+    "commonDosages": [
+      "300-500 mcg/day",
+      "500 mcg twice daily"
+    ],
     "sources": [
-      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/aod-9604", "price": "$45.00", "inStock": true },
-      { "vendor": "Core Peptides", "url": "https://corepeptides.com/aod-9604", "price": "$39.00", "inStock": true }
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/aod-9604",
+        "price": "$45.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/aod-9604",
+        "price": "$39.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "retatrutide",
+    "name": "Retatrutide",
+    "slug": "retatrutide",
+    "aliases": [
+      "LY3437943",
+      "Triple G Agonist"
+    ],
+    "category": "glp-1-agonists",
+    "description": "Retatrutide is a novel triple agonist targeting GIP, GLP-1, and glucagon receptors developed for obesity and type 2 diabetes. It has demonstrated unprecedented weight reduction in clinical trials, with patients achieving up to 24% body weight loss at higher doses.",
+    "mechanism": "Triple receptor agonist at GIP, GLP-1, and glucagon receptors. GIP and GLP-1 agonism drive insulin secretion and satiety while glucagon agonism increases energy expenditure through hepatic fat oxidation and thermogenesis.",
+    "cas": "2412044-12-1",
+    "molarMass": "4978.6 g/mol",
+    "sequence": "Y-X-EGTFTSDYSIYLDKKAQRAVQWLMNGGPSSGAPPPS-NH2",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "6 days",
+    "researchAreas": [
+      "Obesity",
+      "Type 2 diabetes",
+      "NAFLD/NASH",
+      "Metabolic syndrome",
+      "Cardiovascular health"
+    ],
+    "commonDosages": [
+      "1 mg/week",
+      "2 mg/week",
+      "4 mg/week",
+      "6 mg/week",
+      "8 mg/week",
+      "12 mg/week"
+    ],
+    "sources": [
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/retatrutide",
+        "price": "$95.00",
+        "inStock": true
+      },
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/retatrutide",
+        "price": "\u00a372.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/retatrutide",
+        "price": "\u00a368.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/retatrutide",
+        "price": "\u00a375.00",
+        "inStock": false
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/retatrutide",
+        "price": "$88.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "cjc-1295",
+    "name": "CJC-1295",
+    "slug": "cjc-1295",
+    "aliases": [
+      "DAC:GRF",
+      "Sustained Release GRF",
+      "Tetrasubstituted GRF(1-29)"
+    ],
+    "category": "growth-factors",
+    "description": "CJC-1295 is a synthetic analogue of growth hormone-releasing hormone (GHRH) with Drug Affinity Complex (DAC) technology that extends its half-life. It stimulates pulsatile GH release and raises IGF-1 levels for prolonged periods after a single injection.",
+    "mechanism": "GHRH receptor agonist. Binds to pituitary GHRH receptors stimulating GH synthesis and pulsatile release. The DAC modification binds to albumin, extending plasma half-life to approximately 6-8 days.",
+    "cas": "863288-34-0",
+    "molarMass": "3365.1 g/mol",
+    "sequence": "YADAIFTNSYRKVLGQLSARKLLQDIMSR-NH2",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "6-8 days",
+    "researchAreas": [
+      "GH stimulation",
+      "Anti-aging",
+      "Muscle growth",
+      "Bone density",
+      "Recovery"
+    ],
+    "commonDosages": [
+      "1-2 mg/week",
+      "100-200 mcg 2x/day (Mod GRF 1-29 equivalent)"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/cjc-1295",
+        "price": "\u00a335.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/cjc-1295",
+        "price": "\u00a339.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/cjc-1295",
+        "price": "$49.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/cjc-1295",
+        "price": "\u00a332.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "igf-1-lr3",
+    "name": "IGF-1 LR3",
+    "slug": "igf-1-lr3",
+    "aliases": [
+      "Long R3 IGF-1",
+      "Insulin-like Growth Factor-1 Long Arginine 3"
+    ],
+    "category": "growth-factors",
+    "description": "IGF-1 LR3 is a synthetic 83-amino acid analogue of human IGF-1 with an arginine substitution at position three and an N-terminal extension. It has significantly reduced binding to IGF-binding proteins, resulting in a much longer half-life and greater bioavailability than native IGF-1.",
+    "mechanism": "IGF-1 receptor agonist. Promotes protein synthesis, nitrogen retention, and cell proliferation. The LR3 modification reduces IGFBP binding affinity by 1000-fold, extending half-life to approximately 20-30 hours vs 10-12 minutes for native IGF-1.",
+    "cas": "67763-96-6",
+    "molarMass": "9142.5 g/mol",
+    "sequence": "MFPAMPLSSLFNGPRTLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "20-30 hours",
+    "researchAreas": [
+      "Muscle growth",
+      "Recovery",
+      "Anti-aging",
+      "Insulin sensitivity",
+      "Nerve regeneration"
+    ],
+    "commonDosages": [
+      "20-60 mcg/day",
+      "40-80 mcg post-workout"
+    ],
+    "sources": [
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/igf-1-lr3",
+        "price": "$79.00",
+        "inStock": true
+      },
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/igf-1-lr3",
+        "price": "\u00a355.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/igf-1-lr3",
+        "price": "\u00a352.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/igf-1-lr3",
+        "price": "\u00a358.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "tesamorelin",
+    "name": "Tesamorelin",
+    "slug": "tesamorelin",
+    "aliases": [
+      "Egrifta",
+      "TH9507"
+    ],
+    "category": "growth-factors",
+    "description": "Tesamorelin is a synthetic 44-amino acid analogue of human growth hormone-releasing hormone (GHRH) approved for HIV-associated lipodystrophy. It restores pulsatile GH secretion and raises IGF-1 levels with a favourable safety profile.",
+    "mechanism": "GHRH receptor agonist. Stimulates endogenous GH synthesis and pulsatile release from pituitary somatotrophs. Unlike CJC-1295, it does not have DAC modification and has a shorter duration of action.",
+    "cas": "218949-48-5",
+    "molarMass": "5135.9 g/mol",
+    "sequence": "YADAIFTNSYRKVLGQLSARKLLQDIMSRQQGESNQERGARARL",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "30-60 minutes",
+    "researchAreas": [
+      "HIV lipodystrophy",
+      "GH stimulation",
+      "Anti-aging",
+      "Visceral fat reduction",
+      "Cognition"
+    ],
+    "commonDosages": [
+      "2 mg/day"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/tesamorelin",
+        "price": "\u00a348.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/tesamorelin",
+        "price": "$69.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/tesamorelin",
+        "price": "\u00a352.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/tesamorelin",
+        "price": "$62.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "sermorelin",
+    "name": "Sermorelin",
+    "slug": "sermorelin",
+    "aliases": [
+      "GHRH(1-29)",
+      "GRF 1-29",
+      "Geref"
+    ],
+    "category": "growth-factors",
+    "description": "Sermorelin is a synthetic 29-amino acid fragment of human growth hormone-releasing hormone (GHRH). It acts as a GHRH agonist to stimulate endogenous GH release and is used in diagnostics and anti-aging therapy as a GH secretagogue.",
+    "mechanism": "GHRH receptor agonist. Binds specifically to GHRH receptors on pituitary somatotrophs, stimulating GH synthesis and release. The truncated 1-29 sequence retains full biological activity of the full 44-amino acid GHRH.",
+    "cas": "86168-78-7",
+    "molarMass": "3357.9 g/mol",
+    "sequence": "YADAIFTNSYRKVLGQLSARKLLQDILSR-NH2",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "12-20 minutes",
+    "researchAreas": [
+      "GH stimulation",
+      "Anti-aging",
+      "Children with GH deficiency",
+      "Muscle growth",
+      "Sleep quality"
+    ],
+    "commonDosages": [
+      "100-200 mcg/day",
+      "200 mcg 2x/day"
+    ],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/sermorelin",
+        "price": "\u00a328.00",
+        "inStock": true
+      },
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/sermorelin",
+        "price": "\u00a330.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/sermorelin",
+        "price": "$42.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/sermorelin",
+        "price": "\u00a332.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "mots-c",
+    "name": "MOTS-c",
+    "slug": "mots-c",
+    "aliases": [
+      "Mitochondrial Open Reading Frame of the 12S rRNA-c"
+    ],
+    "category": "peptide-fragments",
+    "description": "MOTS-c is a 16-amino acid mitochondrial-derived peptide encoded by the mitochondrial 12S rRNA gene. It plays a key role in metabolic regulation, acting as an exercise mimetic that improves insulin sensitivity and promotes fatty acid oxidation.",
+    "mechanism": "AMPK-dependent mechanism. Enters the nucleus and regulates gene expression in response to metabolic stress, increasing glucose uptake and fatty acid oxidation. Acts as a retrograde signal from mitochondria to the nucleus regulating adaptive thermogenesis.",
+    "cas": "1627588-39-5",
+    "molarMass": "1734.9 g/mol",
+    "sequence": "MRWQEMGYIFYPRKLR",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "~60 minutes",
+    "researchAreas": [
+      "Metabolic regulation",
+      "Insulin sensitivity",
+      "Fat oxidation",
+      "Exercise mimetic",
+      "Aging"
+    ],
+    "commonDosages": [
+      "10-15 mg/day",
+      "5-10 mg 2x/day"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/mots-c",
+        "price": "\u00a342.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/mots-c",
+        "price": "\u00a345.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/mots-c",
+        "price": "$59.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/mots-c",
+        "price": "\u00a339.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "ss-31",
+    "name": "SS-31",
+    "slug": "ss-31",
+    "aliases": [
+      "Elamipretide",
+      "Bendavia",
+      "MTP-131"
+    ],
+    "category": "peptide-fragments",
+    "description": "SS-31 (Elamipretide) is a mitochondrial-targeted tetrapeptide that stabilizes cardiolipin and improves mitochondrial bioenergetics. It is in clinical development for mitochondrial diseases, heart failure, and age-related mitochondrial dysfunction.",
+    "mechanism": "Targets the inner mitochondrial membrane, binding to cardiolipin to optimise electron transport chain function, reduce reactive oxygen species production, and improve ATP synthesis. Protects mitochondrial cristae structure under oxidative stress.",
+    "cas": "1401018-35-6",
+    "molarMass": "639.8 g/mol",
+    "sequence": "D-Arg-Dmt-Lys-Phe-NH2",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "2-4 hours",
+    "researchAreas": [
+      "Mitochondrial health",
+      "Heart failure",
+      "Neuroprotection",
+      "Kidney injury",
+      "Aging"
+    ],
+    "commonDosages": [
+      "10-40 mg/day",
+      "20 mg subcutaneous daily"
+    ],
+    "sources": [
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/ss-31",
+        "price": "$89.00",
+        "inStock": true
+      },
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/ss-31",
+        "price": "\u00a365.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/ss-31",
+        "price": "\u00a368.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/ss-31",
+        "price": "$82.00",
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": "ghk-cu",
+    "name": "GHK-Cu",
+    "slug": "ghk-cu",
+    "aliases": [
+      "Copper Peptide",
+      "Glycyl-L-histidyl-L-lysine Copper Complex",
+      "Copper Tripeptide"
+    ],
+    "category": "other",
+    "description": "GHK-Cu is a naturally occurring copper-binding tripeptide found in human plasma. It is a powerful wound healing agent and remodelling factor that has been extensively studied for skin regeneration, hair growth, and its anti-inflammatory and antioxidant properties.",
+    "mechanism": "Chelates copper ions and delivers them to cells, activating multiple signalling pathways. Upregulates matrix metalloproteinases for tissue remodelling, stimulates collagen and glycosaminoglycan synthesis, and modulates wound healing cytokines including TGF-beta and VEGF.",
+    "cas": "89030-95-5",
+    "molarMass": "403.9 g/mol (peptide only), ~466.5 g/mol (copper complex)",
+    "sequence": "GHK",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "~20 minutes",
+    "researchAreas": [
+      "Wound healing",
+      "Skin regeneration",
+      "Hair growth",
+      "Anti-aging",
+      "Anti-inflammatory",
+      "Antioxidant"
+    ],
+    "commonDosages": [
+      "1-5 mg/day",
+      "1-2 mg/mL topical"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/ghk-cu",
+        "price": "\u00a318.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/ghk-cu",
+        "price": "\u00a320.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/ghk-cu",
+        "price": "$28.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/ghk-cu",
+        "price": "\u00a316.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/ghk-cu",
+        "price": "\u00a319.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "kpv",
+    "name": "KPV",
+    "slug": "kpv",
+    "aliases": [
+      "Lys-Pro-Val",
+      "Tripeptide KPV",
+      "\u03b1-MSH(11-13)"
+    ],
+    "category": "other",
+    "description": "KPV is a tripeptide fragment of \u03b1-melanocyte-stimulating hormone (\u03b1-MSH) that retains potent anti-inflammatory and antimicrobial properties. It is widely studied for gastrointestinal inflammation, wound healing, and as a novel antimicrobial agent.",
+    "mechanism": "Acts through melanocortin receptors (MC1R, MC3R, MC4R) and Toll-like receptor modulation. Inhibits NF-\u03baB activation, reduces pro-inflammatory cytokine production (TNF-\u03b1, IL-6, IL-1\u03b2), and enhances antimicrobial peptide expression. Exhibits direct antimicrobial activity against various pathogens.",
+    "cas": "69352-14-3",
+    "molarMass": "342.4 g/mol",
+    "sequence": "Lys-Pro-Val",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "~15 minutes",
+    "researchAreas": [
+      "Inflammatory bowel disease",
+      "Wound healing",
+      "Antimicrobial",
+      "Anti-inflammatory",
+      "GI barrier function"
+    ],
+    "commonDosages": [
+      "1-10 mg/day",
+      "1-5 mg/kg research doses"
+    ],
+    "sources": [
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/kpv",
+        "price": "$35.00",
+        "inStock": true
+      },
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/kpv",
+        "price": "\u00a322.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/kpv",
+        "price": "\u00a320.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/kpv",
+        "price": "\u00a324.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "thymosin-alpha-1",
+    "name": "Thymosin Alpha-1",
+    "slug": "thymosin-alpha-1",
+    "aliases": [
+      "Thymalfasin",
+      "Zadaxin",
+      "T\u03b11"
+    ],
+    "category": "other",
+    "description": "Thymosin Alpha-1 is a naturally occurring 28-amino acid peptide originally isolated from the thymus gland. It is a potent immunomodulator used clinically in the treatment of hepatitis B, hepatitis C, and as an immune-adjuvant in various conditions including cancer and infectious diseases.",
+    "mechanism": "Enhances T-cell maturation and differentiation, increases NK cell activity, and modulates cytokine production (increases IL-2, IFN-\u03b3, decreases IL-4). Activates TLR-9 and downstream MyD88-dependent signalling, promoting dendritic cell and macrophage activation.",
+    "cas": "62304-98-7",
+    "molarMass": "3108.4 g/mol",
+    "sequence": "Ac-SDAAVDTSSEITTKDLKEKKEVVEEAEN",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "1.5-2 hours",
+    "researchAreas": [
+      "Immunomodulation",
+      "Hepatitis B/C",
+      "Cancer adjuvant",
+      "Infectious disease",
+      "Vaccine enhancement"
+    ],
+    "commonDosages": [
+      "1.6 mg twice weekly",
+      "1.6-6.4 mg/week"
+    ],
+    "sources": [
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/thymosin-alpha-1",
+        "price": "$75.00",
+        "inStock": true
+      },
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/thymosin-alpha-1",
+        "price": "\u00a352.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/thymosin-alpha-1",
+        "price": "\u00a355.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/thymosin-alpha-1",
+        "price": "$68.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "epitalon",
+    "name": "Epitalon",
+    "slug": "epitalon",
+    "aliases": [
+      "Epithalon",
+      "Epithalamin",
+      "Ala-Glu-Asp-Gly",
+      "AEDG"
+    ],
+    "category": "other",
+    "description": "Epitalon is a synthetic tetrapeptide derived from the pineal gland peptide epithalamin. It is researched for its potential to extend lifespan, regulate pineal function, restore circadian rhythms, and normalise age-related endocrine changes, acting as a geroprotector.",
+    "mechanism": "Activates telomerase reverse transcriptase (TERT) gene expression, lengthening telomeres and extending cellular replicative lifespan. Regulates melatonin and serotonin synthesis, resynchronises circadian rhythms, and modulates pituitary hormone production including gonadotropins.",
+    "cas": "130268-60-9",
+    "molarMass": "390.4 g/mol",
+    "sequence": "Ala-Glu-Asp-Gly",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "~10 minutes",
+    "researchAreas": [
+      "Longevity",
+      "Telomerase activation",
+      "Circadian rhythm",
+      "Anti-aging",
+      "Pineal function",
+      "Melatonin regulation"
+    ],
+    "commonDosages": [
+      "1-10 mg/day",
+      "5-10 mg course 2x/year"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/epitalon",
+        "price": "\u00a315.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/epitalon",
+        "price": "\u00a314.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/epitalon",
+        "price": "$22.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/epitalon",
+        "price": "\u00a316.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "semax",
+    "name": "Semax",
+    "slug": "semax",
+    "aliases": [
+      "ACTH(4-10) analog",
+      "N-Acetyl-Semax",
+      "Cerebrovascular peptide"
+    ],
+    "category": "cognitive",
+    "description": "Semax is a synthetic heptapeptide analog of adrenocorticotropic hormone fragment (ACTH 4-10) developed in Russia. It is a nootropic and neuroprotective agent used clinically for stroke recovery, cognitive enhancement, and treatment of optic nerve disorders.",
+    "mechanism": "Modulates the BDNF-TrkB signalling pathway, increasing brain-derived neurotrophic factor expression and promoting neurogenesis. Enhances dopamine and serotonin metabolism, upregulates NGF, and protects against oxidative stress and glutamate excitotoxicity in the CNS.",
+    "cas": "80714-61-0",
+    "molarMass": "814.9 g/mol",
+    "sequence": "Met-Glu-His-Phe-Pro-Gly-Pro",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "15-30 minutes",
+    "researchAreas": [
+      "Cognitive enhancement",
+      "Stroke recovery",
+      "Neuroprotection",
+      "Anxiety",
+      "Brain injury",
+      "Optic nerve disorders"
+    ],
+    "commonDosages": [
+      "200-600 mcg/day intranasal",
+      "1-3 mg/day"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/semax",
+        "price": "\u00a325.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/semax",
+        "price": "\u00a323.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/semax",
+        "price": "$35.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/semax",
+        "price": "\u00a327.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "selank",
+    "name": "Selank",
+    "slug": "selank",
+    "aliases": [
+      "Anxiolytic peptide",
+      "Tuftsin analog",
+      "Cognition enhancer"
+    ],
+    "category": "cognitive",
+    "description": "Selank is a synthetic heptapeptide derived from tuftsin by the Institute of Molecular Genetics in Moscow. It exhibits potent anxiolytic properties without sedation, enhances cognitive performance, and modulates immune function through its effects on neuropeptide metabolism.",
+    "mechanism": "Enkephalinase inhibitor that increases levels of endogenous enkephalins and substance P. Modulates GABAergic and serotonergic neurotransmission, normalizes monoamine levels (serotonin, dopamine, norepinephrine), and regulates pro-inflammatory cytokine expression through the IL-6/JAK/STAT pathway.",
+    "cas": "258279-04-2",
+    "molarMass": "773.9 g/mol",
+    "sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "15-30 minutes",
+    "researchAreas": [
+      "Anxiety",
+      "Cognitive enhancement",
+      "Neuroprotection",
+      "Immunomodulation",
+      "Stress adaptation"
+    ],
+    "commonDosages": [
+      "200-600 mcg/day intranasal",
+      "1-3 mg/day"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/selank",
+        "price": "\u00a322.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/selank",
+        "price": "$32.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/selank",
+        "price": "\u00a320.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/selank",
+        "price": "\u00a324.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "ara-290",
+    "name": "ARA-290",
+    "slug": "ara-290",
+    "aliases": [
+      "Cibinetide",
+      "Helix 13",
+      "Erythropoietin analog"
+    ],
+    "category": "other",
+    "description": "ARA-290 is an 11-amino acid peptide derived from the tertiary structure of erythropoietin (EPO). It selectively activates the EPO tissue-protective receptor complex without stimulating erythropoiesis, making it a promising candidate for treating neuropathic pain, inflammation, and ischemic injury.",
+    "mechanism": "Selective agonist at the EPO heteroreceptor (EPOR-\u03b2cR), distinct from the classical erythropoietic EPO homodimer receptor. Activates JAK2/STAT3 signalling pathways in neurons and endothelial cells, reducing apoptosis, inflammation, and oxidative stress while promoting tissue repair and neuroprotection.",
+    "cas": "848848-48-0",
+    "molarMass": "1260.4 g/mol",
+    "sequence": "pH-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "~20 minutes",
+    "researchAreas": [
+      "Neuropathic pain",
+      "Inflammation",
+      "Ischemic injury",
+      "Wound healing",
+      "Peripheral neuropathy",
+      "Autoimmune disease"
+    ],
+    "commonDosages": [
+      "2-8 mg/day",
+      "4 mg subcutaneous"
+    ],
+    "sources": [
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/ara-290",
+        "price": "$69.00",
+        "inStock": true
+      },
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/ara-290",
+        "price": "\u00a348.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/ara-290",
+        "price": "\u00a352.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Core Peptides",
+        "url": "https://corepeptides.com/ara-290",
+        "price": "$62.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "bpc-157-oral",
+    "name": "BPC-157 (Oral)",
+    "slug": "bpc-157-oral",
+    "aliases": [
+      "Body Protection Compound 157 Oral",
+      "BPC-157 Arginate",
+      "BPC-157 Arginate Salt"
+    ],
+    "category": "thymosin-bpc",
+    "description": "BPC-157 Oral is the arginine salt formulation of BPC-157 specifically designed for oral bioavailability. The arginate conjugation provides gastric acid stability and enhanced gastrointestinal absorption, making it suitable for systemic delivery via the oral route for digestive health and systemic tissue repair.",
+    "mechanism": "Same core mechanism as standard BPC-157 \u2014 promotes angiogenesis, upregulates growth factors (VEGF, FGF), and modulates the NO system. The arginine salt form improves stability through the GI tract and enhances paracellular and transcellular absorption for systemic distribution after oral administration.",
+    "cas": "137525-51-0",
+    "molarMass": "1654.9 g/mol (BPC-157 Arginate)",
+    "sequence": "GEPPPGKPADDAGLV-Arg",
+    "purity": "\u226599%",
+    "form": "Oral capsules / tablets",
+    "halfLife": "Unknown (extended GI absorption)",
+    "researchAreas": [
+      "GI healing",
+      "Leaky gut",
+      "Inflammatory bowel disease",
+      "Systemic tissue repair",
+      "Joint health",
+      "Oral peptide delivery"
+    ],
+    "commonDosages": [
+      "250-500 mcg/day",
+      "500-1000 mcg/day for gut healing"
+    ],
+    "sources": [
+      {
+        "vendor": "United Peptides",
+        "url": "https://unitedpeptides.co.uk/bpc-157-oral",
+        "price": "\u00a335.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/bpc-157-oral",
+        "price": "\u00a332.00",
+        "inStock": true
+      },
+      {
+        "vendor": "BodyHack Guide Shop",
+        "url": "https://bodyhackguide.com/bpc-157-oral",
+        "price": "\u00a338.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://peptidesciences.com/bpc-157-oral",
+        "price": "$52.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Warehouse",
+        "url": "https://peptidewarehouse.com/bpc-157-oral",
+        "price": "\u00a336.00",
+        "inStock": false
+      }
     ]
   }
 ]
