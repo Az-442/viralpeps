@@ -23,6 +23,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
             <div className="hidden md:flex items-center gap-6">
               <Link href="/compounds" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Compounds</Link>
               <Link href="/vendors" className="text-sm text-blue-600 font-medium">Vendors</Link>
+              <Link href="/tools" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Tools</Link>
+              <Link href="/research" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Research</Link>
+              <Link href="/about" className="text-sm text-gray-600 hover:text-blue-600 font-medium">About</Link>
             </div>
           </div>
         </div>

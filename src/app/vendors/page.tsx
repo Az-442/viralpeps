@@ -16,6 +16,9 @@ export default function VendorsPage() {
             <div className="hidden md:flex items-center gap-6">
               <Link href="/compounds" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Compounds</Link>
               <Link href="/vendors" className="text-sm text-blue-600 font-medium border-b-2 border-blue-600 pb-4">Vendors</Link>
+              <Link href="/tools" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Tools</Link>
+              <Link href="/research" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Research</Link>
+              <Link href="/about" className="text-sm text-gray-600 hover:text-blue-600 font-medium">About</Link>
             </div>
           </div>
         </div>
