@@ -1,0 +1,151 @@
+[
+  {
+    "id": "tirzepatide",
+    "name": "Tirzepatide",
+    "slug": "tirzepatide",
+    "aliases": ["Mounjaro", "Zepbound", "LY3298176"],
+    "category": "glp-1-agonists",
+    "description": "Tirzepatide is a dual GIP and GLP-1 receptor agonist developed for type 2 diabetes and weight management. It is the first approved dual agonist, showing superior efficacy in glycemic control and weight reduction compared to selective GLP-1 agonists.",
+    "mechanism": "Dual agonist at GIP and GLP-1 receptors. GIP enhances insulin secretion and may counteract GLP-1-mediated nausea, while GLP-1 slows gastric emptying and promotes satiety.",
+    "cas": "2023788-19-2",
+    "molarMass": "4813.5 g/mol",
+    "sequence": "HX-EGTFTSDYSIYLDKKAQRAVQWLMNGGPSSGAPPPS-NH2",
+    "purity": "≥98%",
+    "form": "Lyophilized powder",
+    "halfLife": "5 days",
+    "researchAreas": ["Type 2 diabetes", "Weight management", "Metabolic health", "NAFLD/NASH"],
+    "commonDosages": ["2.5 mg/week", "5 mg/week", "7.5 mg/week", "10 mg/week", "12.5 mg/week", "15 mg/week"],
+    "sources": [
+      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/tirzepatide", "price": "$89.00", "inStock": true },
+      { "vendor": "Limitless Life Nootropics", "url": "https://limitlesslifenootropics.com/tirzepatide", "price": "$75.00", "inStock": true },
+      { "vendor": "Core Peptides", "url": "https://corepeptides.com/tirzepatide", "price": "$82.00", "inStock": true }
+    ]
+  },
+  {
+    "id": "semaglutide",
+    "name": "Semaglutide",
+    "slug": "semaglutide",
+    "aliases": ["Ozempic", "Wegovy", "Rybelsus"],
+    "category": "glp-1-agonists",
+    "description": "Semaglutide is a long-acting GLP-1 receptor agonist approved for type 2 diabetes and chronic weight management. It shares 94% sequence homology with human GLP-1 with modifications for extended half-life.",
+    "mechanism": "GLP-1 receptor agonist that stimulates insulin secretion, suppresses glucagon release, slows gastric emptying, and reduces appetite through central mechanisms.",
+    "cas": "910463-68-2",
+    "molarMass": "4113.6 g/mol",
+    "sequence": "HESGTFTSDVSSYLEEQAAKEFIAWLVKGRG",
+    "purity": "≥98%",
+    "form": "Lyophilized powder",
+    "halfLife": "7 days",
+    "researchAreas": ["Type 2 diabetes", "Weight management", "Cardiovascular health", "NAFLD"],
+    "commonDosages": ["0.25 mg/week", "0.5 mg/week", "1.0 mg/week", "1.7 mg/week", "2.4 mg/week"],
+    "sources": [
+      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/semaglutide", "price": "$75.00", "inStock": true },
+      { "vendor": "Xpeptides", "url": "https://xpeptides.com/semaglutide", "price": "$65.00", "inStock": true }
+    ]
+  },
+  {
+    "id": "bpc-157",
+    "name": "BPC-157",
+    "slug": "bpc-157",
+    "aliases": ["Body Protection Compound 157", "PL 14736"],
+    "category": "thymosin-bpc",
+    "description": "BPC-157 is a synthetic pentadecapeptide derived from a protein found in human gastric juice. It is extensively studied for its regenerative properties on various tissues including the gastrointestinal tract, muscles, tendons, and ligaments.",
+    "mechanism": "Promotes angiogenesis, upregulates growth factors (VEGF, FGF), modulates nitric oxide system, and accelerates wound healing through multiple signaling pathways.",
+    "cas": "137525-51-0",
+    "molarMass": "1419.6 g/mol",
+    "sequence": "GEPPPGKPADDAGLV",
+    "purity": "≥99%",
+    "form": "Lyophilized powder",
+    "halfLife": "Unknown (fast clearance)",
+    "researchAreas": ["GI healing", "Tendon repair", "Muscle recovery", "Bone healing", "Inflammatory bowel disease"],
+    "commonDosages": ["200-400 mcg/day", "500 mcg twice daily"],
+    "sources": [
+      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/bpc-157", "price": "$59.00", "inStock": true },
+      { "vendor": "Limitless Life Nootropics", "url": "https://limitlesslifenootropics.com/bpc-157", "price": "$49.00", "inStock": true },
+      { "vendor": "Core Peptides", "url": "https://corepeptides.com/bpc-157", "price": "$55.00", "inStock": true }
+    ]
+  },
+  {
+    "id": "tb-500",
+    "name": "TB-500",
+    "slug": "tb-500",
+    "aliases": ["Thymosin Beta-4", "Tβ4"],
+    "category": "tb-500",
+    "description": "TB-500 is the synthetic version of Thymosin Beta-4, a naturally occurring peptide that plays a crucial role in wound healing, cell migration, and tissue regeneration. It is one of the most studied regenerative peptides.",
+    "mechanism": "Acts as an actin-sequestering protein, promoting cell migration and differentiation. Upregulates angiogenesis through VEGF and FGF pathways.",
+    "cas": "77591-33-4",
+    "molarMass": "4961.5 g/mol",
+    "sequence": "Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES",
+    "purity": "≥99%",
+    "form": "Lyophilized powder",
+    "halfLife": "4-6 hours",
+    "researchAreas": ["Wound healing", "Cardiac repair", "Anti-inflammatory", "Hair growth", "Eye health"],
+    "commonDosages": ["2.5-5 mg/week", "10 mg loading then 5 mg/week"],
+    "sources": [
+      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/tb-500", "price": "$69.00", "inStock": true },
+      { "vendor": "Core Peptides", "url": "https://corepeptides.com/tb-500", "price": "$62.00", "inStock": true }
+    ]
+  },
+  {
+    "id": "mt2",
+    "name": "Melanotan II",
+    "slug": "melanotan-ii",
+    "aliases": ["MT-II", "Melanotan 2", "PT-141 analog"],
+    "category": "melanotans",
+    "description": "Melanotan II is a synthetic analog of the naturally occurring melanocyte-stimulating hormone (α-MSH). It stimulates melanogenesis for skin tanning and has been studied for its effects on sexual function.",
+    "mechanism": "Non-selective agonist at melanocortin receptors (MC1R-MC5R). MC1R activation induces melanin production; MC4R activation affects appetite and sexual function.",
+    "cas": "121062-08-6",
+    "molarMass": "1024.2 g/mol",
+    "sequence": "Ac-Nle-c[Asp-His-D-Phe-Arg-Trp-Lys]-NH2",
+    "purity": "≥98%",
+    "form": "Lyophilized powder",
+    "halfLife": "30-60 minutes (effects last days)",
+    "researchAreas": ["Skin tanning", "Sexual dysfunction", "Appetite regulation", "Erythropoietic protoporphyria"],
+    "commonDosages": ["0.5-1 mg/day", "Loading: 0.5 mg/day for 10-14 days"],
+    "sources": [
+      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/melanotan-ii", "price": "$39.00", "inStock": true },
+      { "vendor": "Xpeptides", "url": "https://xpeptides.com/melanotan-ii", "price": "$29.00", "inStock": true }
+    ]
+  },
+  {
+    "id": "ghrp-2",
+    "name": "GHRP-2",
+    "slug": "ghrp-2",
+    "aliases": ["Growth Hormone Releasing Peptide-2", "Pralmorelin"],
+    "category": "ghrp",
+    "description": "GHRP-2 is a synthetic hexapeptide that stimulates the release of growth hormone from the pituitary gland. It is one of the most potent GHRPs and is widely used in research.",
+    "mechanism": "Ghrelin receptor (GHSR-1a) agonist. Stimulates GH release from somatotrophs and may also increase cortisol and prolactin.",
+    "cas": "158861-67-7",
+    "molarMass": "817.0 g/mol",
+    "sequence": "D-Ala-D-β-Nal-Ala-Trp-D-Phe-Lys-NH2",
+    "purity": "≥99%",
+    "form": "Lyophilized powder",
+    "halfLife": "30-60 minutes",
+    "researchAreas": ["GH stimulation", "Anti-aging", "Muscle growth", "Fat metabolism"],
+    "commonDosages": ["100-300 mcg/day", "100-200 mcg 2-3x/day"],
+    "sources": [
+      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/ghrp-2", "price": "$29.00", "inStock": true },
+      { "vendor": "Limitless Life Nootropics", "url": "https://limitlesslifenootropics.com/ghrp-2", "price": "$24.00", "inStock": true }
+    ]
+  },
+  {
+    "id": "aod9604",
+    "name": "AOD-9604",
+    "slug": "aod-9604",
+    "aliases": ["Anti-Obesity Drug 9604", "HGH Fragment 177-191"],
+    "category": "aod-fragments",
+    "description": "AOD-9604 is a synthetic peptide fragment of human growth hormone (amino acids 177-191). It was developed specifically for fat loss without affecting blood sugar or growth hormone levels.",
+    "mechanism": "Mimics the lipolytic (fat-burning) action of hGH without the anti-insulin effects. Stimulates lipolysis in adipose tissue while inhibiting lipogenesis.",
+    "cas": "221231-10-3",
+    "molarMass": "1814.0 g/mol",
+    "sequence": "LAGLEDESILEAQTWPEEEQK",
+    "purity": "≥98%",
+    "form": "Lyophilized powder",
+    "halfLife": "~20 minutes",
+    "researchAreas": ["Fat loss", "Obesity", "Metabolic health", "Weight management"],
+    "commonDosages": ["300-500 mcg/day", "500 mcg twice daily"],
+    "sources": [
+      { "vendor": "Peptide Sciences", "url": "https://peptidesciences.com/aod-9604", "price": "$45.00", "inStock": true },
+      { "vendor": "Core Peptides", "url": "https://corepeptides.com/aod-9604", "price": "$39.00", "inStock": true }
+    ]
+  }
+]
