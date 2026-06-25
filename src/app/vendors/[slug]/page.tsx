@@ -2,9 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import vendors from "@/data/vendors.json";
 
-export function generateStaticParams() {
-  return vendors.map((v) => ({ slug: v.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export default function VendorPage({ params }: { params: { slug: string } }) {
   const vendor = vendors.find((v) => v.slug === params.slug);

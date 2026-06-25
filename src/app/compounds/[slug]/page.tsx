@@ -3,12 +3,11 @@ import Link from "next/link";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 
-export function generateStaticParams() {
-  return compounds.map((c) => ({ slug: c.slug }));
-}
+export const dynamic = "force-dynamic";
 
-export default function CompoundPage({ params }: { params: { slug: string } }) {
-  const compound = compounds.find((c) => c.slug === params.slug);
+export default async function CompoundPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const compound = compounds.find((c) => c.slug === slug);
   if (!compound) notFound();
 
   return (
