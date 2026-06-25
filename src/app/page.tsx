@@ -209,7 +209,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-white mb-2">Stay Updated</h2>
           <p className="text-blue-100 text-sm mb-6">New compounds, vendor updates, and research guides.</p>
           <form className="flex gap-2 max-w-sm mx-auto">
-            <input type="email" placeholder="Enter your email" className="flex-1 px-4 py-3 rounded-lg text-sm outline-none" />
+            <input type="email" placeholder="Enter your email" className="flex-1 px-4 py-3 rounded-lg text-sm text-gray-900 outline-none placeholder-gray-400" />
             <button className="px-6 py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-gray-800">Subscribe</button>
           </form>
         </div>
