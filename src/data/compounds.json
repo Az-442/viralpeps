@@ -1624,5 +1624,850 @@
         "answer": "Common research dosages range from 250\u2013500 mcg per day for general protocols, with 500\u20131000 mcg per day used for more intensive gut healing research. The sustained GI absorption profile may allow less frequent dosing than injectable BPC-157."
       }
     ]
+  },
+  {
+    "id": "fragment-176-191",
+    "name": "Fragment 176-191",
+    "slug": "fragment-176-191",
+    "aliases": [
+      "HGH Fragment 176-191",
+      "HGH Frag",
+      "Somatropin Fragment 176-191"
+    ],
+    "category": "aod-fragments",
+    "description": "Fragment 176-191 is a 16-amino acid peptide fragment of human growth hormone (hGH), specifically targeting the C-terminal region. It is a potent lipolytic agent that stimulates fat loss without affecting blood sugar or growth hormone levels, making it a popular research compound for metabolic studies.",
+    "mechanism": "Binds to GH receptors in adipose tissue and stimulates lipolysis via JAK2/STAT5 signalling, activating hormone-sensitive lipase to break down triglycerides. Unlike full-length hGH, it lacks the diabetogenic domain, so it does not impair insulin sensitivity.",
+    "cas": "126284-94-6",
+    "molarMass": "1736.0 g/mol",
+    "sequence": "LLLEDLESILEAQTWPQEEDK",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "~20 minutes",
+    "researchAreas": [
+      "Fat loss",
+      "Lipolysis",
+      "Metabolic research",
+      "Body composition",
+      "Obesity"
+    ],
+    "commonDosages": [
+      "200-500 mcg/day",
+      "250-500 mcg twice daily"
+    ],
+    "sources": [
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a332.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/fragment-176-191",
+        "price": "\u00a328.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a330.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://www.researchpeptides.co.uk",
+        "price": "\u00a334.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "hexarelin",
+    "name": "Hexarelin",
+    "slug": "hexarelin",
+    "aliases": [
+      "HEX",
+      "Examorelin"
+    ],
+    "category": "ghrp",
+    "description": "Hexarelin is a potent synthetic hexapeptide growth hormone secretagogue developed as an analogue of GHRP-6. It is one of the most stable and long-acting GHRPs, resistant to enzymatic degradation, and has been studied for its potent GH-releasing effects and cardioprotective properties.",
+    "mechanism": "Growth hormone secretagogue receptor (GHSR-1a) agonist. Activates the ghrelin receptor on pituitary somatotrophs, stimulating GH release via phospholipase C and intracellular calcium mobilisation. The 2-methylalanine substitution confers resistance to enzymatic degradation, extending its duration of action.",
+    "cas": "140703-51-1",
+    "molarMass": "844.0 g/mol",
+    "sequence": "His-D-2-Methyl-Trp-Ala-Trp-D-Phe-Lys-NH2",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "~2 hours",
+    "researchAreas": [
+      "GH stimulation",
+      "Anti-aging",
+      "Muscle growth",
+      "Cardioprotection",
+      "Bone density"
+    ],
+    "commonDosages": [
+      "100-200 mcg/day",
+      "100-200 mcg 2-3x/day"
+    ],
+    "sources": [
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a328.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a325.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/hexarelin",
+        "price": "\u00a322.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk",
+        "price": "\u00a326.40",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "ipamorelin",
+    "name": "Ipamorelin",
+    "slug": "ipamorelin",
+    "aliases": [
+      "NNC 26-0161",
+      "Ipamorelin acetate"
+    ],
+    "category": "ghrp",
+    "description": "Ipamorelin is a pentapeptide growth hormone secretagogue known for its highly selective GH-releasing activity. It stimulates GH release with minimal effect on cortisol, prolactin, or appetite, making it one of the most targeted GHRPs available for research.",
+    "mechanism": "Selective growth hormone secretagogue receptor (GHSR-1a) agonist. Stimulates GH release from pituitary somatotrophs with high specificity. Unlike GHRP-6, it has negligible effects on appetite (cortisol and prolactin elevation are minimal), making it a more targeted GH secretagogue for research protocols.",
+    "cas": "100535-87-4",
+    "molarMass": "711.9 g/mol",
+    "sequence": "Aib-His-D-2-Nal-D-Phe-Lys-NH2",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "~2 hours",
+    "researchAreas": [
+      "GH stimulation",
+      "Muscle growth",
+      "Anti-aging",
+      "Bone health",
+      "Recovery"
+    ],
+    "commonDosages": [
+      "100-300 mcg/day",
+      "200-300 mcg 2-3x/day"
+    ],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/ipamorelin",
+        "price": "\u00a326.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a330.40",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a328.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk",
+        "price": "\u00a329.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "ghrp-6",
+    "name": "GHRP-6",
+    "slug": "ghrp-6",
+    "aliases": [
+      "Growth Hormone Releasing Peptide-6",
+      "GHRP 6"
+    ],
+    "category": "ghrp",
+    "description": "GHRP-6 is a synthetic hexapeptide growth hormone secretagogue that potently stimulates endogenous GH release. It is one of the most well-studied GHRPs and is known for its additional orexigenic (appetite-stimulating) effects through ghrelin receptor activation.",
+    "mechanism": "Ghrelin receptor (GHSR-1a) agonist. Stimulates GH release from pituitary somatotrophs and increases appetite through hypothalamic activation of NPY/AgRP neurons. It also elevates cortisol and prolactin to a moderate degree.",
+    "cas": "87616-84-0",
+    "molarMass": "873.0 g/mol",
+    "sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "30-60 minutes",
+    "researchAreas": [
+      "GH stimulation",
+      "Appetite stimulation",
+      "Muscle growth",
+      "Anti-aging",
+      "Recovery"
+    ],
+    "commonDosages": [
+      "100-300 mcg/day",
+      "100-200 mcg 2-3x/day"
+    ],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/ghrp-6",
+        "price": "\u00a322.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a325.60",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk",
+        "price": "\u00a320.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://www.researchpeptides.co.uk",
+        "price": "\u00a324.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "pt-141",
+    "name": "PT-141 (Bremelanotide)",
+    "slug": "pt-141-bremelanotide",
+    "aliases": [
+      "Bremelanotide",
+      "PT141",
+      "Vyleesi"
+    ],
+    "category": "melanotans",
+    "description": "PT-141 (Bremelanotide) is a synthetic cyclic heptapeptide analogue of Melanotan II that selectively activates melanocortin receptors MC3R and MC4R. Unlike Melanotan II, it has minimal effect on skin pigmentation (MC1R) and is primarily researched for sexual dysfunction and female hypoactive sexual desire disorder.",
+    "mechanism": "Selective melanocortin receptor agonist with preference for MC3R and MC4R over MC1R. MC4R activation in the hypothalamus triggers oxytocinergic signalling pathways that modulate sexual arousal and erectile function. Reduced MC1R activity means minimal skin pigmentation side effects compared to Melanotan II.",
+    "cas": "189691-06-3",
+    "molarMass": "1024.2 g/mol",
+    "sequence": "Ac-Nle-c[Asp-His-D-Phe-Arg-Trp-Lys]-NH2",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "30-60 minutes",
+    "researchAreas": [
+      "Sexual dysfunction",
+      "Female HSDD",
+      "Erectile dysfunction",
+      "Sexual arousal"
+    ],
+    "commonDosages": [
+      "0.75-1.75 mg",
+      "1 mg subcutaneous as needed"
+    ],
+    "sources": [
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a344.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a338.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/bremelanotide",
+        "price": "\u00a335.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk",
+        "price": "\u00a340.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "kisspeptin-10",
+    "name": "Kisspeptin-10",
+    "slug": "kisspeptin-10",
+    "aliases": [
+      "Kisspeptin-10",
+      "Metastin",
+      "KISS1 (110-119)"
+    ],
+    "category": "other",
+    "description": "Kisspeptin-10 is a 10-amino acid peptide derived from the KISS1 gene product, metastin. It is a key regulator of the hypothalamic-pituitary-gonadal (HPG) axis, acting as a master controller of puberty onset, reproductive function, and GnRH secretion.",
+    "mechanism": "Agonist at the GPR54 (KISS1R) receptor, a G-protein-coupled receptor expressed on GnRH neurons in the hypothalamus. Activation stimulates GnRH release, which in turn drives LH and FSH secretion from the pituitary. It plays an essential role in puberty onset, reproductive function, and placental biology.",
+    "cas": "374675-33-3",
+    "molarMass": "1310.5 g/mol",
+    "sequence": "Tyr-Asn-Trp-Asn-Ser-Phe-Gly-Leu-Arg-Phe-NH2",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "~27 minutes",
+    "researchAreas": [
+      "Reproductive health",
+      "HPG axis",
+      "Puberty",
+      "Infertility",
+      "GnRH regulation"
+    ],
+    "commonDosages": [
+      "0.3-1.0 mcg/kg",
+      "25-100 mcg/day"
+    ],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a345.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a348.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/kisspeptin-10",
+        "price": "\u00a340.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://www.peptidesciences.com",
+        "price": "\u00a342.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "cerebrolysin",
+    "name": "Cerebrolysin",
+    "slug": "cerebrolysin",
+    "aliases": [
+      "Cerebrolysin",
+      "FPE-701",
+      "Brain peptide preparation"
+    ],
+    "category": "cognitive",
+    "description": "Cerebrolysin is a peptide-based nootropic preparation derived from porcine brain tissue, containing low-molecular-weight peptides and amino acids. It is clinically approved in over 40 countries for stroke recovery, traumatic brain injury, dementia, and cognitive enhancement.",
+    "mechanism": "Provides neurotrophic support by mimicking the action of endogenous neurotrophic factors (BDNF, NGF, GDNF, CNTF). It reduces excitotoxicity via NMDA receptor modulation, promotes neuroplasticity through synaptogenesis, and increases cerebral blood flow and glucose metabolism in ischaemic regions.",
+    "cas": "117320-70-2",
+    "molarMass": "~10,000 Da (peptide mixture)",
+    "sequence": "Complex peptide mixture from porcine brain",
+    "purity": "\u226595%",
+    "form": "Sterile injectable solution",
+    "halfLife": "~2 hours",
+    "researchAreas": [
+      "Stroke recovery",
+      "Traumatic brain injury",
+      "Dementia",
+      "Cognitive enhancement",
+      "Neuroprotection",
+      "Alzheimer's",
+      "Parkinson's"
+    ],
+    "commonDosages": [
+      "5-30 mL/day IV",
+      "10-20 mL/day IM"
+    ],
+    "sources": [
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com",
+        "price": "\u00a355.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://www.researchpeptides.co.uk",
+        "price": "\u00a358.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a360.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/cerebrolysin",
+        "price": "\u00a352.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "p21",
+    "name": "P21",
+    "slug": "p21",
+    "aliases": [
+      "P21 peptide",
+      "Cognition-enhancing peptide",
+      "D-SAK"
+    ],
+    "category": "cognitive",
+    "description": "P21 is a synthetic peptide derived from the ciliary neurotrophic factor (CNTF) that acts as a selective CDK5 (cyclin-dependent kinase 5) inhibitor. It has demonstrated potent neuroprotective and cognitive-enhancing effects in preclinical research, particularly for memory formation and synaptic plasticity.",
+    "mechanism": "Selectively inhibits CDK5/p35 activity, preventing hyperphosphorylation of tau and other cytoskeletal proteins. This reduces neuroinflammation, promotes synaptic plasticity, and enhances long-term potentiation (LTP) in the hippocampus, the molecular basis of memory formation. P21 also upregulates BDNF expression.",
+    "cas": "N/A (research peptide)",
+    "molarMass": "~1200 g/mol",
+    "sequence": "DAK (D-amino acid peptide)",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "~30 minutes",
+    "researchAreas": [
+      "Cognitive enhancement",
+      "Neuroprotection",
+      "Alzheimer's",
+      "Memory",
+      "Synaptic plasticity",
+      "Traumatic brain injury"
+    ],
+    "commonDosages": [
+      "100-500 mcg/day",
+      "200-300 mcg intranasal"
+    ],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a342.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a344.80",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/p21",
+        "price": "\u00a338.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Peptide Sciences",
+        "url": "https://www.peptidesciences.com",
+        "price": "\u00a345.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "dihexa",
+    "name": "Dihexa",
+    "slug": "dihexa",
+    "aliases": [
+      "Dihexa",
+      "N-hexanoic-Tyr-Ile-(6-aminohexanoic) amide"
+    ],
+    "category": "cognitive",
+    "description": "Dihexa is a small synthetic peptide compound developed from angiotensin IV that acts as a potent hepatocyte growth factor (HGF) mimetic. It is one of the most potent cognitive-enhancing compounds known, capable of inducing synaptogenesis and improving memory in animal models at extremely low doses.",
+    "mechanism": "Mimics the activity of hepatocyte growth factor (HGF) by binding to the c-Met receptor, activating downstream PI3K/Akt and MAPK/ERK signalling. This stimulates synaptogenesis (formation of new synapses), enhances long-term potentiation (LTP), and increases dendritic spine density in the hippocampus and cortex.",
+    "cas": "1401433-23-5",
+    "molarMass": "884.1 g/mol",
+    "sequence": "N-hexanoyl-Tyr-Ile-NH-(CH2)5-COOH",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "~4-6 hours",
+    "researchAreas": [
+      "Cognitive enhancement",
+      "Synaptogenesis",
+      "Alzheimer's",
+      "Memory",
+      "Traumatic brain injury",
+      "Neuroregeneration"
+    ],
+    "commonDosages": [
+      "5-30 mg/day",
+      "10-20 mg/day sublingual"
+    ],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a355.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/dihexa",
+        "price": "\u00a348.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a352.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com",
+        "price": "\u00a350.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "noopept",
+    "name": "Noopept",
+    "slug": "noopept",
+    "aliases": [
+      "Noopept",
+      "N-phenylacetyl-L-prolylglycine ethyl ester",
+      "GVS-111"
+    ],
+    "category": "cognitive",
+    "description": "Noopept is a synthetic dipeptide nootropic (cycloprolylglycine analogue) developed in Russia with potent cognitive-enhancing and neuroprotective properties. It is approximately 1000 times more potent than piracetam on a molar basis and has been studied for memory improvement, anxiety reduction, and neuroprotection.",
+    "mechanism": "Modulates AMPA and NMDA glutamate receptor signalling, enhances BDNF and NGF expression, and increases acetylcholine release in the hippocampus and cortex. It also upregulates the expression of neurotrophin-3 (NT-3) and promotes hippocampal neurogenesis, providing both acute cognitive enhancement and long-term neuroprotection.",
+    "cas": "157115-85-0",
+    "molarMass": "334.4 g/mol",
+    "sequence": "N-phenylacetyl-L-prolylglycine ethyl ester",
+    "purity": "\u226599%",
+    "form": "Tablets / powder",
+    "halfLife": "~30 minutes (active metabolites longer)",
+    "researchAreas": [
+      "Cognitive enhancement",
+      "Memory",
+      "Neuroprotection",
+      "Anxiety",
+      "Alzheimer's",
+      "Stroke recovery"
+    ],
+    "commonDosages": [
+      "10-30 mg/day",
+      "10-20 mg 2x/day sublingual"
+    ],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/noopept",
+        "price": "\u00a315.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a318.40",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a316.00",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk",
+        "price": "\u00a317.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "phenylpiracetam",
+    "name": "Phenylpiracetam",
+    "slug": "phenylpiracetam",
+    "aliases": [
+      "Phenotropil",
+      "Carphedon",
+      "Phenylpiracetam"
+    ],
+    "category": "cognitive",
+    "description": "Phenylpiracetam is a phenylated analogue of piracetam developed in Russia as a cognitive enhancer and psychostimulant. It is known for its potent nootropic effects, physical performance enhancement, and its unique ability to increase resistance to cold, pain, and stress (actoprotective properties).",
+    "mechanism": "Modulates nicotinic acetylcholine receptors and AMPA-type glutamate receptors, enhancing cholinergic neurotransmission in the prefrontal cortex and hippocampus. It also acts as a dopamine reuptake inhibitor and increases GABA-B receptor density, contributing to its anxiolytic and stimulant properties. Improves cerebral blood flow and glucose utilisation.",
+    "cas": "77472-70-9",
+    "molarMass": "274.4 g/mol",
+    "sequence": "4-phenylpiracetam (small molecule, not a peptide)",
+    "purity": "\u226599%",
+    "form": "Tablets / powder",
+    "halfLife": "3-5 hours",
+    "researchAreas": [
+      "Cognitive enhancement",
+      "Physical performance",
+      "Psychostimulation",
+      "Neuroprotection",
+      "Stress resistance"
+    ],
+    "commonDosages": [
+      "100-200 mg/day",
+      "100 mg 1-2x/day"
+    ],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/phenylpiracetam",
+        "price": "\u00a318.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a320.80",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk",
+        "price": "\u00a319.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://www.researchpeptides.co.uk",
+        "price": "\u00a322.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "pramipexole",
+    "name": "Pramipexole",
+    "slug": "pramipexole",
+    "aliases": [
+      "Mirapex",
+      "Sifrol",
+      "PPX"
+    ],
+    "category": "other",
+    "description": "Pramipexole is a D2/D3 dopamine receptor agonist used clinically in the treatment of Parkinson's disease and restless legs syndrome. In research contexts, it is studied for its neuroprotective effects, cognitive modulation, and potential applications in depression, bipolar disorder, and addiction.",
+    "mechanism": "Selective full agonist at dopamine D2 and D3 receptors with highest affinity for D3. It activates G-protein-coupled inwardly rectifying potassium (GIRK) channels and inhibits adenylyl cyclase. The D3 selectivity is of particular interest in neuropsychiatric research as D3 receptors are concentrated in the limbic system.",
+    "cas": "104632-26-0",
+    "molarMass": "211.3 g/mol",
+    "sequence": "N/A (small molecule, not a peptide)",
+    "purity": "\u226599%",
+    "form": "Tablets / powder",
+    "halfLife": "8-12 hours",
+    "researchAreas": [
+      "Parkinson's",
+      "Dopamine research",
+      "Neuroprotection",
+      "Depression",
+      "Cognitive function",
+      "Addiction"
+    ],
+    "commonDosages": [
+      "0.125-0.5 mg/day",
+      "0.125-0.25 mg 3x/day"
+    ],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/pramipexole",
+        "price": "\u00a322.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a324.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com",
+        "price": "\u00a320.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://www.researchpeptides.co.uk",
+        "price": "\u00a325.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "bpc-tb-blend",
+    "name": "BPC-157 + TB-500 Blend",
+    "slug": "bpc-157-tb-500-blend",
+    "aliases": [
+      "BPC-157/TB-500 Stack",
+      "Regenerative blend",
+      "BPC/TB mix"
+    ],
+    "category": "thymosin-bpc",
+    "description": "The BPC-157 and TB-500 blend is a synergistic peptide stack combining the systemic regenerative properties of TB-500 (Thymosin Beta-4) with the localised healing effects of BPC-157. This combination is widely researched for accelerated tissue repair, injury recovery, and anti-inflammatory applications across multiple tissue types.",
+    "mechanism": "Synergistic action: BPC-157 promotes angiogenesis via VEGF/FGF upregulation and modulates the NO system for localised tissue repair. TB-500 sequesters actin to facilitate cell migration and differentiation while upregulating VEGF and FGF for systemic angiogenesis. Together they provide coordinated multi-tissue regenerative support.",
+    "cas": "N/A (blend)",
+    "molarMass": "N/A (blend of BPC-157 1419.6 + TB-500 4961.5 g/mol)",
+    "sequence": "N/A (blend of GEPPPGKPADDAGLV + Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES)",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder (2:1 or 5:5 mg blend)",
+    "halfLife": "Varies (BPC-157: fast clearance, TB-500: 4-6 hours)",
+    "researchAreas": [
+      "Tissue repair",
+      "Injury recovery",
+      "Anti-inflammatory",
+      "Joint health",
+      "Tendon/ligament healing",
+      "Muscle recovery"
+    ],
+    "commonDosages": [
+      "250-500 mcg BPC + 500-1000 mcg TB per day",
+      "BPC 250 mcg + TB 250-500 mcg daily"
+    ],
+    "sources": [
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a356.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/bpc-tb-blend",
+        "price": "\u00a348.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a352.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk",
+        "price": "\u00a354.40",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "gonadorelin",
+    "name": "Gonadorelin",
+    "slug": "gonadorelin",
+    "aliases": [
+      "GnRH",
+      "LHRH",
+      "Luteinizing hormone-releasing hormone",
+      "Factrel"
+    ],
+    "category": "growth-factors",
+    "description": "Gonadorelin is a synthetic decapeptide identical to endogenous gonadotropin-releasing hormone (GnRH). It is the master regulator of the reproductive hormone cascade, stimulating LH and FSH release from the pituitary gland, and is used clinically for infertility diagnostics, hypogonadism, and assisted reproduction.",
+    "mechanism": "Binds to GnRH receptors on anterior pituitary gonadotrophs, activating G-protein-coupled receptor signalling (Gq/11). This stimulates the synthesis and pulsatile release of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). Pulsatile administration mimics natural GnRH secretion, while continuous administration suppresses gonadotropin release via receptor desensitisation.",
+    "cas": "33515-09-2",
+    "molarMass": "1182.3 g/mol",
+    "sequence": "pGlu-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly-NH2",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "~4 minutes (IV), ~30 minutes (SC)",
+    "researchAreas": [
+      "Infertility",
+      "Hypogonadism",
+      "Hormone testing",
+      "Puberty",
+      "PCOS",
+      "Assisted reproduction"
+    ],
+    "commonDosages": [
+      "100 mcg (pulsatile pump)",
+      "50-500 mcg/day for testing"
+    ],
+    "sources": [
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a328.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/gonadorelin",
+        "price": "\u00a324.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a326.00",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk",
+        "price": "\u00a330.00",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "dsip",
+    "name": "DSIP (Delta Sleep-Inducing Peptide)",
+    "slug": "dsip",
+    "aliases": [
+      "Delta Sleep-Inducing Peptide",
+      "DSIP",
+      "Nonapeptide"
+    ],
+    "category": "other",
+    "description": "DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring nonapeptide isolated from the cerebral blood of sleeping rabbits. It is a potent regulator of sleep architecture, circadian rhythms, and stress responses, researched for its ability to promote delta (deep) sleep and modulate the HPA axis.",
+    "mechanism": "Modulates GABAergic and serotonergic neurotransmission in the brainstem and hypothalamus, promoting delta wave activity in the EEG. It also suppresses the HPA axis by reducing CRH and ACTH release, lowering cortisol levels. DSIP influences the pineal gland's melatonin synthesis and resynchronises disturbed circadian rhythms.",
+    "cas": "69431-45-4",
+    "molarMass": "849.0 g/mol",
+    "sequence": "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "~30 minutes",
+    "researchAreas": [
+      "Sleep research",
+      "Circadian rhythm",
+      "Stress",
+      "HPA axis",
+      "Neuroprotection",
+      "Cortisol modulation"
+    ],
+    "commonDosages": [
+      "25-50 nmol/kg (animal)",
+      "100-400 mcg/day (research)"
+    ],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a335.00",
+        "inStock": true
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/dsip",
+        "price": "\u00a328.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a331.20",
+        "inStock": true
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com",
+        "price": "\u00a330.00",
+        "inStock": true
+      }
+    ]
   }
 ]
