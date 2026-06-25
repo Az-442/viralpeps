@@ -4,8 +4,9 @@ import vendors from "@/data/vendors.json";
 
 export const dynamic = "force-dynamic";
 
-export default function VendorPage({ params }: { params: { slug: string } }) {
-  const vendor = vendors.find((v) => v.slug === params.slug);
+export default async function VendorPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const vendor = vendors.find((v) => v.slug === slug);
   if (!vendor) notFound();
 
   return (
