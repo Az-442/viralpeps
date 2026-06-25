@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import SearchBar from "@/components/SearchBar";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
@@ -17,16 +20,9 @@ const badgeColors: Record<string, string> = {
 };
 
 const badgeLabels: Record<string, string> = {
-  "glp-1-agonists": "GLP-1",
-  "growth-factors": "Growth",
-  "melanotans": "Melano",
-  "ghrp": "GHRP",
-  "aod-fragments": "AOD",
-  "thymosin-bpc": "Repair",
-  "tb-500": "Regen",
-  "cognitive": "Cognitive",
-  "peptide-fragments": "Repair",
-  "other": "Other",
+  "glp-1-agonists": "GLP-1", "growth-factors": "Growth", "melanotans": "Melano",
+  "ghrp": "GHRP", "aod-fragments": "AOD", "thymosin-bpc": "Repair",
+  "tb-500": "Regen", "cognitive": "Cognitive", "peptide-fragments": "Repair", "other": "Other",
 };
 
 const categoryDisplay: Record<string, { name: string; icon: string }> = {
@@ -42,7 +38,7 @@ const categoryDisplay: Record<string, { name: string; icon: string }> = {
   "other": { name: "Other", icon: "⚗️" },
 };
 
-// Group compounds by their raw category key
+// Category counts
 const categoryCounts: Record<string, number> = {};
 const categorySlugs = new Set<string>();
 for (const c of compounds) {
@@ -51,13 +47,10 @@ for (const c of compounds) {
   categorySlugs.add(catKey);
 }
 
-// Derive display categories from actual data, merging tb-500 into BPC/TB-500 display
 const categoryTiles = Array.from(categorySlugs)
-  .filter((key) => key !== "tb-500") // tb-500 merges with thymosin-bpc display
+  .filter((key) => key !== "tb-500")
   .map((key) => {
-    let displayKey = key;
     let count = categoryCounts[key];
-    // If BPC/TB-500 display key, merge tb-500 count into it
     if (key === "thymosin-bpc" && categoryCounts["tb-500"]) {
       count += categoryCounts["tb-500"];
     }
@@ -65,15 +58,9 @@ const categoryTiles = Array.from(categorySlugs)
       name: key.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase()),
       icon: "💊",
     };
-    return {
-      name: display.name,
-      icon: display.icon,
-      count: `${count} compound${count !== 1 ? "s" : ""}`,
-      slug: key,
-    };
+    return { name: display.name, icon: display.icon, count: `${count} compound${count !== 1 ? "s" : ""}`, slug: key };
   })
   .sort((a, b) => {
-    // Sort by count descending, then alphabetically
     const countDiff = parseInt(b.count) - parseInt(a.count);
     if (countDiff !== 0) return countDiff;
     return a.name.localeCompare(b.name);
@@ -81,29 +68,91 @@ const categoryTiles = Array.from(categorySlugs)
 
 const featuredCompounds = compounds.slice(0, 8);
 const popularTags = compounds.slice(0, 5).map((c) => c.name);
+const topVendors = vendors.slice(0, 4);
+
+// Compound count per vendor
+const vendorCompoundCounts: Record<string, number> = {};
+for (const c of compounds) {
+  for (const s of c.sources) {
+    vendorCompoundCounts[s.vendor] = (vendorCompoundCounts[s.vendor] || 0) + 1;
+  }
+}
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const Logo = () => (
+    <Link href="/" className="flex items-center gap-2">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="url(#logoGrad)" />
+        <path d="M9 20V12l7 4-7 4z" fill="white" fillOpacity="0.3" />
+        <path d="M10.5 18.5V13.5l5 2.5-5 2.5z" fill="white" />
+        <circle cx="22" cy="11" r="3.5" fill="white" fillOpacity="0.3" />
+        <circle cx="22" cy="11" r="2" fill="white" />
+        <circle cx="19" cy="21" r="2.5" fill="white" fillOpacity="0.25" />
+        <path d="M22 19l3 5h-6l3-5z" fill="white" fillOpacity="0.3" />
+        <defs>
+          <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+            <stop stopColor="#2563eb" />
+            <stop offset="0.5" stopColor="#6366f1" />
+            <stop offset="1" stopColor="#7c3aed" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <span className="font-bold text-xl text-gray-900">ViralPeps</span>
+    </Link>
+  );
+
+  const navLinks = [
+    { href: "/compounds", label: "Compounds" },
+    { href: "/vendors", label: "Vendors" },
+    { href: "/tools", label: "Tools" },
+    { href: "/research", label: "Research" },
+    { href: "/about", label: "About" },
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       {/* NAV */}
       <nav className="bg-white border-b border-gray-100 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">VP</span>
-              </div>
-              <span className="font-bold text-xl text-gray-900">ViralPeps</span>
-            </Link>
+            <Logo />
             <div className="hidden md:flex items-center gap-6">
-              <Link href="/compounds" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Compounds</Link>
-              <Link href="/vendors" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Vendors</Link>
-              <Link href="/tools" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Tools</Link>
-              <Link href="/research" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Research</Link>
-              <Link href="/about" className="text-sm text-gray-600 hover:text-blue-600 font-medium">About</Link>
+              {navLinks.map((l) => (
+                <Link key={l.href} href={l.href} className="text-sm text-gray-600 hover:text-blue-600 font-medium">{l.label}</Link>
+              ))}
             </div>
+            {/* HAMBURGER */}
+            <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2" strokeLinecap="round">
+                {menuOpen ? (
+                  <>
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </>
+                ) : (
+                  <>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                  </>
+                )}
+              </svg>
+            </button>
           </div>
         </div>
+        {/* MOBILE MENU */}
+        {menuOpen && (
+          <div className="md:hidden border-t border-gray-100 bg-white">
+            <div className="max-w-7xl mx-auto px-4 py-3 space-y-1">
+              {navLinks.map((l) => (
+                <Link key={l.href} href={l.href} onClick={() => setMenuOpen(false)}
+                  className="block px-3 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium">{l.label}</Link>
+              ))}
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* HERO */}
@@ -116,9 +165,7 @@ export default function Home() {
           <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
             The most comprehensive peptide directory. Browse compounds, compare verified vendors, and make informed purchasing decisions.
           </p>
-          <div className="max-w-xl mx-auto">
-            <SearchBar />
-          </div>
+          <div className="max-w-xl mx-auto"><SearchBar /></div>
           <div className="flex flex-wrap justify-center gap-2 mt-4">
             <span className="text-xs text-gray-500">Popular:</span>
             {popularTags.map(tag => (
@@ -179,7 +226,7 @@ export default function Home() {
       </section>
 
       {/* FEATURED COMPOUNDS */}
-      <section className="pb-12 max-w-7xl mx-auto px-4">
+      <section className="pb-6 max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-xl font-bold text-gray-900">Featured Compounds</h2>
           <Link href="/compounds" className="text-sm text-blue-600 font-medium hover:underline">View all →</Link>
@@ -195,8 +242,33 @@ export default function Home() {
                   <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${bClass} uppercase tracking-wider`}>{bLabel}</span>
                   <h3 className="font-semibold text-gray-900 text-sm mt-2">{c.name}</h3>
                   <p className="text-xs text-gray-400">{c.aliases[0] || ""}</p>
-                  <p className="text-xs text-gray-500 mt-1">{c.description}</p>
+                  <p className="text-xs text-gray-500 mt-1">{c.description.slice(0, 80)}{c.description.length > 80 ? "..." : ""}</p>
+                  <p className="text-xs text-blue-600 font-medium mt-2">From {c.sources.length} seller{c.sources.length !== 1 ? "s" : ""}</p>
                 </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* FEATURED VENDORS */}
+      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-bold text-gray-900">Featured Vendors</h2>
+          <Link href="/vendors" className="text-sm text-blue-600 font-medium hover:underline">View all →</Link>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {topVendors.map(v => {
+            const count = vendorCompoundCounts[v.name] || 0;
+            return (
+              <Link key={v.id} href={`/vendors/${v.slug}`} className="bg-white border border-gray-100 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group">
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center text-lg mb-3">🏪</div>
+                <div className="flex items-center gap-1.5 mb-1">
+                  <h3 className="font-semibold text-gray-900 text-sm">{v.name}</h3>
+                  {v.verified && <span className="text-[10px] bg-green-50 text-green-700 font-semibold px-1.5 py-0.5 rounded-full">✓</span>}
+                </div>
+                <p className="text-xs text-gray-400">{v.country} · ★ {v.rating}</p>
+                <p className="text-xs font-medium text-blue-600 mt-2">{count} compound{count !== 1 ? "s" : ""} listed</p>
               </Link>
             );
           })}
@@ -220,32 +292,34 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-7 h-7 bg-gradient-to-br from-blue-600 to-purple-600 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-xs">VP</span>
-              </div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="6" fill="url(#fLogo)" />
+                <path d="M7 15V9l5 3-5 3z" fill="white" fillOpacity="0.4" />
+                <path d="M8 14V10l4 2-4 2z" fill="white" />
+                <defs>
+                  <linearGradient id="fLogo" x1="0" y1="0" x2="24" y2="24">
+                    <stop stopColor="#2563eb" /><stop offset="1" stopColor="#7c3aed" />
+                  </linearGradient>
+                </defs>
+              </svg>
               <span className="font-bold text-white">ViralPeps</span>
             </div>
-            <p className="text-xs leading-relaxed">The most comprehensive research peptide directory. For laboratory research use only.</p>
+            <p className="text-xs leading-relaxed">For laboratory research use only. © 2026 ViralPeps.</p>
           </div>
           <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Directory</h4>
             <Link href="/compounds" className="block text-xs mb-2 hover:text-white">All Compounds</Link>
-            <Link href="/category/glp-1-agonists" className="block text-xs mb-2 hover:text-white">GLP-1 Agonists</Link>
             <Link href="/vendors" className="block text-xs mb-2 hover:text-white">Vendors</Link>
             <Link href="/vendors/register" className="block text-xs mb-2 hover:text-white">List Your Business</Link>
           </div>
           <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Resources</h4>
+            <Link href="/tools" className="block text-xs mb-2 hover:text-white">Peptide Tools</Link>
             <Link href="/research" className="block text-xs mb-2 hover:text-white">Research Library</Link>
-            <Link href="/about" className="block text-xs mb-2 hover:text-white">About Us</Link>
-            <Link href="/contact" className="block text-xs mb-2 hover:text-white">Contact</Link>
           </div>
           <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Legal</h4>
             <Link href="/privacy" className="block text-xs mb-2 hover:text-white">Privacy Policy</Link>
             <Link href="/terms" className="block text-xs mb-2 hover:text-white">Terms</Link>
             <Link href="/disclaimer" className="block text-xs mb-2 hover:text-white">Disclaimer</Link>
           </div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 mt-8 pt-4 border-t border-gray-800 text-xs text-center">
-          For research purposes only. Not for human consumption. © 2026 ViralPeps.
         </div>
       </footer>
     </div>

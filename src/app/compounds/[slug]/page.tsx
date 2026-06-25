@@ -81,7 +81,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                       <span className="text-sm font-medium text-gray-900">{s.vendor}</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <span className="font-semibold text-sm">{s.price}</span>
+                      <span className="font-semibold text-sm text-gray-900">{s.price}</span>
                       <a href={s.url} target="_blank" className="text-xs px-3 py-1.5 bg-blue-600 text-white rounded-md hover:bg-blue-700 font-medium">View →</a>
                     </div>
                   </div>
