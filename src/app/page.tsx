@@ -1,5 +1,86 @@
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
+import compounds from "@/data/compounds.json";
+import vendors from "@/data/vendors.json";
+
+const badgeColors: Record<string, string> = {
+  "glp-1-agonists": "bg-green-50 text-green-700",
+  "growth-factors": "bg-purple-50 text-purple-700",
+  "melanotans": "bg-orange-50 text-orange-700",
+  "ghrp": "bg-pink-50 text-pink-700",
+  "aod-fragments": "bg-teal-50 text-teal-700",
+  "thymosin-bpc": "bg-amber-50 text-amber-700",
+  "tb-500": "bg-red-50 text-red-700",
+  "cognitive": "bg-blue-50 text-blue-700",
+  "peptide-fragments": "bg-cyan-50 text-cyan-700",
+  "other": "bg-gray-50 text-gray-700",
+};
+
+const badgeLabels: Record<string, string> = {
+  "glp-1-agonists": "GLP-1",
+  "growth-factors": "Growth",
+  "melanotans": "Melano",
+  "ghrp": "GHRP",
+  "aod-fragments": "AOD",
+  "thymosin-bpc": "Repair",
+  "tb-500": "Regen",
+  "cognitive": "Cognitive",
+  "peptide-fragments": "Repair",
+  "other": "Other",
+};
+
+const categoryDisplay: Record<string, { name: string; icon: string }> = {
+  "glp-1-agonists": { name: "GLP-1 Agonists", icon: "💉" },
+  "growth-factors": { name: "Growth Factors", icon: "🧬" },
+  "melanotans": { name: "Melanotans", icon: "☀️" },
+  "ghrp": { name: "GHRPs", icon: "📈" },
+  "aod-fragments": { name: "AOD/Fragments", icon: "🔥" },
+  "thymosin-bpc": { name: "BPC/TB-500", icon: "🛡️" },
+  "tb-500": { name: "BPC/TB-500", icon: "🛡️" },
+  "cognitive": { name: "Cognitive", icon: "🧠" },
+  "peptide-fragments": { name: "Repair & Recovery", icon: "🔬" },
+  "other": { name: "Other", icon: "⚗️" },
+};
+
+// Group compounds by their raw category key
+const categoryCounts: Record<string, number> = {};
+const categorySlugs = new Set<string>();
+for (const c of compounds) {
+  const catKey = c.category;
+  categoryCounts[catKey] = (categoryCounts[catKey] || 0) + 1;
+  categorySlugs.add(catKey);
+}
+
+// Derive display categories from actual data, merging tb-500 into BPC/TB-500 display
+const categoryTiles = Array.from(categorySlugs)
+  .filter((key) => key !== "tb-500") // tb-500 merges with thymosin-bpc display
+  .map((key) => {
+    let displayKey = key;
+    let count = categoryCounts[key];
+    // If BPC/TB-500 display key, merge tb-500 count into it
+    if (key === "thymosin-bpc" && categoryCounts["tb-500"]) {
+      count += categoryCounts["tb-500"];
+    }
+    const display = categoryDisplay[key] || {
+      name: key.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase()),
+      icon: "💊",
+    };
+    return {
+      name: display.name,
+      icon: display.icon,
+      count: `${count} compound${count !== 1 ? "s" : ""}`,
+      slug: key,
+    };
+  })
+  .sort((a, b) => {
+    // Sort by count descending, then alphabetically
+    const countDiff = parseInt(b.count) - parseInt(a.count);
+    if (countDiff !== 0) return countDiff;
+    return a.name.localeCompare(b.name);
+  });
+
+const featuredCompounds = compounds.slice(0, 8);
+const popularTags = compounds.slice(0, 5).map((c) => c.name);
 
 export default function Home() {
   return (
@@ -39,7 +120,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap justify-center gap-2 mt-4">
             <span className="text-xs text-gray-500">Popular:</span>
-            {["Tirzepatide", "Semaglutide", "BPC-157", "TB-500", "Melanotan II"].map(tag => (
+            {popularTags.map(tag => (
               <span key={tag} className="text-xs px-3 py-1 bg-white/10 rounded-full text-gray-400 hover:bg-blue-500/20 hover:text-blue-400 cursor-pointer transition">{tag}</span>
             ))}
           </div>
@@ -50,8 +131,8 @@ export default function Home() {
       <section className="bg-white border-b border-gray-100">
         <div className="max-w-5xl mx-auto px-4 py-6 grid grid-cols-3 gap-4 text-center">
           {[
-            { num: "90+", label: "Research Compounds" },
-            { num: "25+", label: "Verified Vendors" },
+            { num: `${compounds.length}+`, label: "Research Compounds" },
+            { num: `${vendors.length}+`, label: "Verified Vendors" },
             { num: "10K+", label: "Monthly Researchers" }
           ].map(s => (
             <div key={s.label}>
@@ -86,13 +167,8 @@ export default function Home() {
           <Link href="/compounds" className="text-sm text-blue-600 font-medium hover:underline">View all →</Link>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {[
-            { name: "GLP-1 Agonists", icon: "💉", count: "24 compounds" },
-            { name: "Growth Factors", icon: "🧬", count: "18 compounds" },
-            { name: "Repair & Recovery", icon: "🛡️", count: "15 compounds" },
-            { name: "GH Releasing", icon: "📈", count: "12 compounds" },
-          ].map(c => (
-            <Link key={c.name} href={`/category/${c.name.toLowerCase().replace(/\s+/g, '-')}`} className="p-5 bg-white border border-gray-100 rounded-xl text-center hover:shadow-md hover:-translate-y-0.5 transition-all">
+          {categoryTiles.map(c => (
+            <Link key={c.slug} href={`/category/${c.slug}`} className="p-5 bg-white border border-gray-100 rounded-xl text-center hover:shadow-md hover:-translate-y-0.5 transition-all">
               <div className="text-2xl mb-2">{c.icon}</div>
               <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
               <p className="text-xs text-gray-500 mt-1">{c.count}</p>
@@ -108,26 +184,21 @@ export default function Home() {
           <Link href="/compounds" className="text-sm text-blue-600 font-medium hover:underline">View all →</Link>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            { name: "Tirzepatide", badge: "GLP-1", badgeClass: "bg-green-50 text-green-700", alias: "Mounjaro, Zepbound", desc: "Dual GIP/GLP-1 agonist" },
-            { name: "Semaglutide", badge: "GLP-1", badgeClass: "bg-green-50 text-green-700", alias: "Ozempic, Wegovy", desc: "Long-acting GLP-1 analogue" },
-            { name: "BPC-157", badge: "Repair", badgeClass: "bg-amber-50 text-amber-700", alias: "Body Protection Compound", desc: "Systemic healing peptide" },
-            { name: "TB-500", badge: "Regen", badgeClass: "bg-red-50 text-red-700", alias: "Thymosin Beta-4", desc: "Regenerative peptide" },
-            { name: "CJC-1295", badge: "GHRP", badgeClass: "bg-pink-50 text-pink-700", alias: "GRF(1-29)", desc: "GHRH analogue with DAC" },
-            { name: "Melanotan II", badge: "Melano", badgeClass: "bg-orange-50 text-orange-700", alias: "MT-II", desc: "Melanocortin agonist" },
-            { name: "AOD-9604", badge: "AOD", badgeClass: "bg-teal-50 text-teal-700", alias: "HGH Frag 177-191", desc: "Targeted fat loss" },
-            { name: "IGF-1 LR3", badge: "Growth", badgeClass: "bg-purple-50 text-purple-700", alias: "Long R3 IGF-1", desc: "Insulin-like growth factor" },
-          ].map(c => (
-            <Link key={c.name} href={`/compounds/${c.name.toLowerCase().replace(/[\s-]+/g, '-').replace(/[^a-z0-9-]/g, '')}`} className="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group">
-              <div className="h-28 bg-gray-50 flex items-center justify-center text-gray-300 font-semibold text-sm group-hover:bg-blue-50 transition-colors">{c.name}</div>
-              <div className="p-4">
-                <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${c.badgeClass} uppercase tracking-wider`}>{c.badge}</span>
-                <h3 className="font-semibold text-gray-900 text-sm mt-2">{c.name}</h3>
-                <p className="text-xs text-gray-400">{c.alias}</p>
-                <p className="text-xs text-gray-500 mt-1">{c.desc}</p>
-              </div>
-            </Link>
-          ))}
+          {featuredCompounds.map(c => {
+            const bClass = badgeColors[c.category] || "bg-gray-50 text-gray-600";
+            const bLabel = badgeLabels[c.category] || c.category;
+            return (
+              <Link key={c.id} href={`/compounds/${c.slug}`} className="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group">
+                <div className="h-28 bg-gray-50 flex items-center justify-center text-gray-300 font-semibold text-sm group-hover:bg-blue-50 transition-colors">{c.name}</div>
+                <div className="p-4">
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${bClass} uppercase tracking-wider`}>{bLabel}</span>
+                  <h3 className="font-semibold text-gray-900 text-sm mt-2">{c.name}</h3>
+                  <p className="text-xs text-gray-400">{c.aliases[0] || ""}</p>
+                  <p className="text-xs text-gray-500 mt-1">{c.description}</p>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -157,8 +228,9 @@ export default function Home() {
           </div>
           <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Directory</h4>
             <Link href="/compounds" className="block text-xs mb-2 hover:text-white">All Compounds</Link>
-            <Link href="/category/glp-1" className="block text-xs mb-2 hover:text-white">GLP-1 Agonists</Link>
+            <Link href="/category/glp-1-agonists" className="block text-xs mb-2 hover:text-white">GLP-1 Agonists</Link>
             <Link href="/vendors" className="block text-xs mb-2 hover:text-white">Vendors</Link>
+            <Link href="/vendors/register" className="block text-xs mb-2 hover:text-white">List Your Business</Link>
           </div>
           <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Resources</h4>
             <Link href="/research" className="block text-xs mb-2 hover:text-white">Research Library</Link>

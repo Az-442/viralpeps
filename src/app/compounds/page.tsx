@@ -9,6 +9,9 @@ const badgeColors: Record<string, string> = {
   "aod-fragments": "bg-teal-50 text-teal-700",
   "thymosin-bpc": "bg-amber-50 text-amber-700",
   "tb-500": "bg-red-50 text-red-700",
+  "cognitive": "bg-blue-50 text-blue-700",
+  "peptide-fragments": "bg-cyan-50 text-cyan-700",
+  "other": "bg-gray-50 text-gray-600",
 };
 
 const badgeLabels: Record<string, string> = {
@@ -19,6 +22,9 @@ const badgeLabels: Record<string, string> = {
   "aod-fragments": "AOD",
   "thymosin-bpc": "Repair",
   "tb-500": "Regen",
+  "cognitive": "Cognitive",
+  "peptide-fragments": "Repair",
+  "other": "Other",
 };
 
 export default function CompoundsPage() {
