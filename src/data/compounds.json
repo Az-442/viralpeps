@@ -3867,5 +3867,121 @@
         "inStock": true
       }
     ]
+  },
+  {
+    "id": "oxytocin",
+    "name": "Oxytocin",
+    "slug": "oxytocin",
+    "aliases": [
+      "Pitocin",
+      "Syntocinon",
+      "OT"
+    ],
+    "category": "other",
+    "description": "Oxytocin is a 9-amino-acid cyclic neuropeptide produced in the hypothalamus and secreted by the posterior pituitary gland. It plays a central role in social bonding, pair bonding, maternal behaviour, trust modulation, and stress regulation. As a research peptide, oxytocin is widely studied for its effects on social cognition, emotional processing, anxiety reduction, and wound healing. It acts both as a hormone in the periphery and as a neurotransmitter in the central nervous system, making it one of the most versatile peptides in behavioural neuroscience and endocrinology research. Intranasal oxytocin administration has been shown to enhance emotion recognition, increase eye gaze during social interaction, and reduce amygdala reactivity to threatening stimuli. Researchers continue to investigate its therapeutic potential for autism spectrum disorder, social anxiety, post-traumatic stress disorder, and addiction. Oxytocin exerts its effects primarily through the oxytocin receptor (OXTR), a G-protein-coupled receptor expressed throughout the limbic system, triggering intracellular calcium mobilisation and MAPK/ERK signalling cascades. In UK laboratories, oxytocin is a standard research tool for studying the neurobiology of attachment, social cognition, and emotional regulation. Its well-characterised safety profile from clinical obstetrics makes it one of the most translationally relevant neuropeptides in current research.",
+    "mechanism": "Binds to oxytocin receptors (OXTR), a G-protein-coupled receptor widely expressed in the brain, uterus, and mammary tissue. Activates phospholipase C, increasing intracellular calcium and triggering downstream MAPK/ERK signalling. Modulates GABAergic and dopaminergic neurotransmission in limbic circuits including the amygdala, nucleus accumbens, and prefrontal cortex.",
+    "cas": "50-56-6",
+    "molarMass": "1007.2 g/mol",
+    "sequence": "CYIQNCPLG (disulfide bridge Cys1-Cys6)",
+    "purity": "\u226599%",
+    "form": "Lyophilized powder",
+    "halfLife": "~5 minutes (in plasma)",
+    "researchAreas": [
+      "Social bonding and pair bonding",
+      "Anxiety and stress regulation",
+      "Autism spectrum disorder",
+      "Wound healing",
+      "Pain modulation",
+      "Parental behaviour"
+    ],
+    "commonDosages": [
+      "10-40 IU intranasal",
+      "100-500 \u00b5g/day"
+    ],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/oxytocin",
+        "price": "\u00a312.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://example.com/oxytocin",
+        "price": "\u00a313.50",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptide",
+        "url": "https://example.com/oxytocin",
+        "price": "\u00a314.50",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://www.researchpeptides.co.uk",
+        "price": "\u00a315.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Dr Peptides",
+        "url": "https://www.drpeptides.co.uk",
+        "price": "\u00a315.60",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk",
+        "price": "\u00a316.00",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk",
+        "price": "\u00a317.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://example.com/oxytocin",
+        "price": "\u00a318.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://example.com/oxytocin",
+        "price": "\u00a320.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://example.com/oxytocin",
+        "price": "\u00a322.00",
+        "inStock": true
+      }
+    ],
+    "longDescription": "## Overview\n\nOxytocin is a 9-amino-acid cyclic neuropeptide (sequence CYIQNCPLG with a disulfide bridge between Cys1 and Cys6) that functions as both a hormone and a neurotransmitter. First identified in 1906 by Sir Henry Dale for its role in uterine contraction during childbirth, oxytocin has since been recognised as a key modulator of social behaviour, emotional processing, and stress regulation. It is synthesised primarily in the paraventricular and supraoptic nuclei of the hypothalamus and released into circulation via the posterior pituitary. Centrally, oxytocinergic neurons project to limbic structures including the amygdala, hippocampus, nucleus accumbens, and prefrontal cortex, where oxytocin modulates social cognition, trust, empathy, and pair bonding. UK researchers in behavioural neuroscience, psychiatry, and psychopharmacology continue to investigate oxytocin's therapeutic potential for social anxiety, autism spectrum disorder, post-traumatic stress disorder, and substance use disorders.\n\n## Mechanism of Action\n\nOxytocin exerts its effects through the oxytocin receptor (OXTR), a G-protein-coupled receptor belonging to the rhodopsin-type GPCR family. OXTR activation triggers phospholipase C-mediated hydrolysis of phosphatidylinositol bisphosphate, generating inositol trisphosphate (IP3) and diacylglycerol (DAG). IP3 mobilises intracellular calcium from the endoplasmic reticulum, while DAG activates protein kinase C, leading to downstream MAPK/ERK signalling. In the central nervous system, oxytocin receptor activation modulates GABAergic inhibitory neurotransmission and dopaminergic reward signalling. In the periphery, oxytocin stimulates uterine smooth muscle contraction during labour and milk ejection from mammary glands during lactation. The vasopressin V1a receptor also binds oxytocin with lower affinity, contributing to some of its peripheral effects.\n\n## Research & Clinical Data\n\nHuman and animal studies have demonstrated oxytocin's effects on social cognition and behaviour. Intranasal oxytocin administration has been shown to increase trust in economic games, enhance emotion recognition, improve eye gaze in social interactions, and reduce amygdala reactivity to threatening stimuli. In autism spectrum disorder research, oxytocin has shown promise for improving social responsiveness and reducing repetitive behaviours, though results have been variable across clinical trials. Preclinical studies have explored oxytocin's analgesic properties, anti-inflammatory effects in wound healing models, and cardioprotective actions during ischaemia-reperfusion injury. Intranasal dosing protocols (10\u201340 IU) are most common in human research.\n\n## Dosage & Administration\n\nResearch dosages vary by route of administration. Intranasal administration at 10\u201340 IU per dose is standard in human behavioural research, with effects typically lasting 60\u2013120 minutes. Systemic subcutaneous doses in animal research range from 100\u2013500 \u00b5g per day. The plasma half-life is approximately 5 minutes, necessitating repeated or continuous administration for sustained effects. Intranasal delivery is preferred for central nervous system research due to direct nose-to-brain transport bypassing the blood-brain barrier.\n\n## Safety & Legal\n\nOxytocin is for research purposes only and is not approved for human use outside of clinical settings. It has a well-characterised safety profile from decades of clinical use in obstetrics. Potential side effects at research doses include mild headache, transient hypotension, and facial flushing. Oxytocin should not be used by pregnant individuals outside of approved clinical settings. Lyophilised powder should be stored at -20\u00b0C and protected from light.",
+    "faq": [
+      {
+        "question": "What is oxytocin used for in research?",
+        "answer": "Oxytocin is widely studied for its role in social bonding, trust and empathy, anxiety reduction, stress regulation, autism spectrum disorder, and wound healing. It is one of the most extensively researched neuropeptides in behavioural neuroscience."
+      },
+      {
+        "question": "How does oxytocin affect social behaviour?",
+        "answer": "Oxytocin modulates social cognition and behaviour by acting on oxytocin receptors in limbic brain regions including the amygdala, nucleus accumbens, and prefrontal cortex. It enhances trust, facilitates pair bonding, improves emotion recognition, and reduces amygdala reactivity to social threats."
+      },
+      {
+        "question": "Is oxytocin available from UK research suppliers?",
+        "answer": "Yes, oxytocin is widely available from UK research peptide suppliers. It is stocked by most major UK vendors as a standard research peptide due to its extensive use in behavioural science and neuroscience research."
+      },
+      {
+        "question": "What is the standard oxytocin dosage for research?",
+        "answer": "Intranasal dosages of 10\u201340 IU are standard for human behavioural research, with effects lasting 60\u2013120 minutes. Systemic research dosages in animal models range from 100\u2013500 \u00b5g per day. Intranasal delivery is preferred for central nervous system research."
+      },
+      {
+        "question": "How is oxytocin synthesised?",
+        "answer": "Oxytocin is a 9-amino-acid cyclic peptide with sequence CYIQNCPLG, containing a disulfide bridge between Cys1 and Cys6. It is synthesised in the paraventricular and supraoptic nuclei of the hypothalamus as a larger precursor protein and cleaved into the active peptide during axonal transport."
+      }
+    ]
   }
 ]
