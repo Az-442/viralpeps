@@ -1,76 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import HeaderNav from "@/components/HeaderNav";
+import Footer from "@/components/Footer";
 import SearchBar from "@/components/SearchBar";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 
-const badgeColors: Record<string, string> = {
-  "glp-1-agonists": "bg-green-50 text-green-700",
-  "growth-factors": "bg-purple-50 text-purple-700",
-  "melanotans": "bg-orange-50 text-orange-700",
-  "ghrp": "bg-pink-50 text-pink-700",
-  "aod-fragments": "bg-teal-50 text-teal-700",
-  "thymosin-bpc": "bg-amber-50 text-amber-700",
-  "tb-500": "bg-red-50 text-red-700",
-  "cognitive": "bg-blue-50 text-blue-700",
-  "peptide-fragments": "bg-cyan-50 text-cyan-700",
-  "other": "bg-gray-50 text-gray-700",
-};
+// --- Data helpers ---
 
-const badgeLabels: Record<string, string> = {
-  "glp-1-agonists": "GLP-1", "growth-factors": "Growth", "melanotans": "Melano",
-  "ghrp": "GHRP", "aod-fragments": "AOD", "thymosin-bpc": "Repair",
-  "tb-500": "Regen", "cognitive": "Cognitive", "peptide-fragments": "Repair", "other": "Other",
-};
+const totalCompounds = compounds.length;
+const totalVendors = vendors.length;
 
-const categoryDisplay: Record<string, { name: string; icon: string }> = {
-  "glp-1-agonists": { name: "GLP-1 Agonists", icon: "💉" },
-  "growth-factors": { name: "Growth Factors", icon: "🧬" },
-  "melanotans": { name: "Melanotans", icon: "☀️" },
-  "ghrp": { name: "GHRPs", icon: "📈" },
-  "aod-fragments": { name: "AOD/Fragments", icon: "🔥" },
-  "thymosin-bpc": { name: "BPC/TB-500", icon: "🛡️" },
-  "tb-500": { name: "BPC/TB-500", icon: "🛡️" },
-  "cognitive": { name: "Cognitive", icon: "🧠" },
-  "peptide-fragments": { name: "Repair & Recovery", icon: "🔬" },
-  "other": { name: "Other", icon: "⚗️" },
-};
-
-// Category counts
-const categoryCounts: Record<string, number> = {};
-const categorySlugs = new Set<string>();
-for (const c of compounds) {
-  const catKey = c.category;
-  categoryCounts[catKey] = (categoryCounts[catKey] || 0) + 1;
-  categorySlugs.add(catKey);
-}
-
-const categoryTiles = Array.from(categorySlugs)
-  .filter((key) => key !== "tb-500")
-  .map((key) => {
-    let count = categoryCounts[key];
-    if (key === "thymosin-bpc" && categoryCounts["tb-500"]) {
-      count += categoryCounts["tb-500"];
-    }
-    const display = categoryDisplay[key] || {
-      name: key.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase()),
-      icon: "💊",
-    };
-    return { name: display.name, icon: display.icon, count: `${count} compound${count !== 1 ? "s" : ""}`, slug: key };
-  })
-  .sort((a, b) => {
-    const countDiff = parseInt(b.count) - parseInt(a.count);
-    if (countDiff !== 0) return countDiff;
-    return a.name.localeCompare(b.name);
-  });
-
-const featuredCompounds = compounds.slice(0, 8);
-const popularTags = compounds.slice(0, 5).map((c) => c.name);
-const topVendors = vendors.slice(0, 4);
-
-// Compound count per vendor
+// Vendor compound counts
 const vendorCompoundCounts: Record<string, number> = {};
 for (const c of compounds) {
   for (const s of c.sources) {
@@ -78,262 +21,504 @@ for (const c of compounds) {
   }
 }
 
-export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
+// Top vendors (most compounds)
+const topVendors = [...vendors]
+  .sort((a, b) => (vendorCompoundCounts[b.name] || 0) - (vendorCompoundCounts[a.name] || 0))
+  .slice(0, 4);
 
-  const Logo = () => (
-    <Link href="/" className="flex items-center gap-2">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="32" height="32" rx="8" fill="url(#logoGrad)" />
-        <path d="M9 20V12l7 4-7 4z" fill="white" fillOpacity="0.3" />
-        <path d="M10.5 18.5V13.5l5 2.5-5 2.5z" fill="white" />
-        <circle cx="22" cy="11" r="3.5" fill="white" fillOpacity="0.3" />
-        <circle cx="22" cy="11" r="2" fill="white" />
-        <circle cx="19" cy="21" r="2.5" fill="white" fillOpacity="0.25" />
-        <path d="M22 19l3 5h-6l3-5z" fill="white" fillOpacity="0.3" />
-        <defs>
-          <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
-            <stop stopColor="#2563eb" />
-            <stop offset="0.5" stopColor="#6366f1" />
-            <stop offset="1" stopColor="#7c3aed" />
-          </linearGradient>
-        </defs>
-      </svg>
-      <span className="font-bold text-xl text-gray-900">ViralPeps</span>
-    </Link>
+// Trending compounds (most sources = most popular)
+const trending = [...compounds]
+  .sort((a, b) => b.sources.length - a.sources.length)
+  .slice(0, 12);
+
+// Top deals: compounds with biggest price spread
+const topDeals = [...compounds]
+  .map((c) => {
+    const prices = c.sources
+      .map((s) => {
+        const num = parseFloat(s.price.replace(/[£$€,]/g, ""));
+        return isNaN(num) ? null : num;
+      })
+      .filter((p): p is number => p !== null);
+    if (prices.length < 2) return null;
+    const min = Math.min(...prices);
+    const max = Math.max(...prices);
+    const savingsPct = Math.round(((max - min) / max) * 100);
+    const featuredVendor = c.sources.find((s) =>
+      vendors.some((v) => v.name === s.vendor && v.verified)
+    );
+    return {
+      ...c,
+      minPrice: min,
+      maxPrice: max,
+      savingsPct,
+      savingsAmount: (max - min).toFixed(2),
+      cheapestVendor: c.sources.find(
+        (s) => parseFloat(s.price.replace(/[£$€,]/g, "")) === min
+      ),
+    };
+  })
+  .filter((d): d is NonNullable<typeof d> => d !== null)
+  .sort((a, b) => b.savingsPct - a.savingsPct)
+  .slice(0, 10);
+
+// Trending this month: most-clicked vendors
+const trendingVendorItems = [...compounds]
+  .flatMap((c) =>
+    c.sources.map((s) => ({
+      compound: c,
+      vendor: s,
+      vendorData: vendors.find((v) => v.name === s.vendor),
+    }))
+  )
+  .filter((item) => item.vendorData?.verified)
+  .slice(0, 10)
+  .map((item, i) => ({ ...item, rank: i + 1 }));
+
+// Categories (grouped by theme like PepSupermarket)
+const categoryGroups = [
+  {
+    badge: "WEIGHT LOSS & METABOLISM",
+    title: "Compare weight loss & metabolism peptides",
+    desc: "GLP-1 agonists and metabolic peptides researchers are comparing most.",
+    slugs: ["glp-1-agonists", "aod-fragments"],
+  },
+  {
+    badge: "REPAIR & RECOVERY",
+    title: "Compare repair & recovery peptides",
+    desc: "BPC-157, TB-500, and thymosin peptides for tissue repair research.",
+    slugs: ["thymosin-bpc", "tb-500"],
+  },
+  {
+    badge: "COGNITIVE & NOOTROPICS",
+    title: "Compare cognitive peptides",
+    desc: "Research peptides being studied for cognitive function and neuroprotection.",
+    slugs: ["cognitive"],
+  },
+];
+
+function PeptideVialIcon({ className = "w-12 h-12" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="14" y="6" width="20" height="36" rx="4" fill="#e2e8f0" />
+      <rect x="16" y="10" width="16" height="28" rx="3" fill="#f8fafc" />
+      <rect x="14" y="4" width="20" height="6" rx="3" fill="#cbd5e1" />
+      <rect x="20" y="2" width="8" height="12" rx="2" fill="#94a3b8" />
+      <line x1="20" y1="22" x2="28" y2="22" stroke="#3b82f6" strokeWidth="1.5" />
+      <line x1="20" y1="26" x2="26" y2="26" stroke="#3b82f6" strokeWidth="1.5" />
+      <line x1="20" y1="30" x2="24" y2="30" stroke="#3b82f6" strokeWidth="1.5" />
+    </svg>
   );
+}
 
-  const navLinks = [
-    { href: "/compounds", label: "Compounds" },
-    { href: "/vendors", label: "Vendors" },
-    { href: "/tools", label: "Tools" },
-    { href: "/research", label: "Research" },
-    { href: "/about", label: "About" },
-  ];
+function ScrollSection({
+  children,
+  id,
+}: {
+  children: React.ReactNode;
+  id?: string;
+}) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (dir: "left" | "right") => {
+    if (!scrollRef.current) return;
+    const amount = 340;
+    scrollRef.current.scrollBy({
+      left: dir === "left" ? -amount : amount,
+      behavior: "smooth",
+    });
+  };
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* NAV */}
-      <nav className="bg-white border-b border-gray-100 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Logo />
-            <div className="hidden md:flex items-center gap-6">
-              {navLinks.map((l) => (
-                <Link key={l.href} href={l.href} className="text-sm text-gray-600 hover:text-blue-600 font-medium">{l.label}</Link>
-              ))}
-            </div>
-            {/* HAMBURGER */}
-            <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Menu">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2" strokeLinecap="round">
-                {menuOpen ? (
-                  <>
-                    <line x1="18" y1="6" x2="6" y2="18" />
-                    <line x1="6" y1="6" x2="18" y2="18" />
-                  </>
-                ) : (
-                  <>
-                    <line x1="4" y1="6" x2="20" y2="6" />
-                    <line x1="4" y1="12" x2="20" y2="12" />
-                    <line x1="4" y1="18" x2="20" y2="18" />
-                  </>
-                )}
-              </svg>
-            </button>
-          </div>
-        </div>
-        {/* MOBILE MENU */}
-        {menuOpen && (
-          <div className="md:hidden border-t border-gray-100 bg-white">
-            <div className="max-w-7xl mx-auto px-4 py-3 space-y-1">
-              {navLinks.map((l) => (
-                <Link key={l.href} href={l.href} onClick={() => setMenuOpen(false)}
-                  className="block px-3 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium">{l.label}</Link>
-              ))}
-            </div>
-          </div>
-        )}
-      </nav>
+    <div className="relative group" id={id}>
+      <button
+        onClick={() => scroll("left")}
+        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-gray-200 rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50"
+        aria-label="Scroll left"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+      <div
+        ref={scrollRef}
+        className="flex gap-4 overflow-x-auto scrollbar-hide pb-2 -mx-4 px-4 snap-x snap-mandatory"
+        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+      >
+        {children}
+      </div>
+      <button
+        onClick={() => scroll("right")}
+        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-gray-200 rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50"
+        aria-label="Scroll right"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </button>
+    </div>
+  );
+}
 
-      {/* HERO */}
-      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-20">
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-white">
+      <HeaderNav />
+
+      {/* === HERO === */}
+      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Find, Compare & Source<br />
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Research Peptides</span>
+          <div className="inline-flex items-center gap-1.5 bg-blue-900/40 border border-blue-500/20 rounded-full px-3 py-1 mb-5">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e">
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+            <span className="text-[11px] font-semibold text-green-400 uppercase tracking-wider">LIVE UK PRICE COMPARISON</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 leading-tight">
+            Search, compare, save.
+            <br />
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              Find your next peptide deal today.
+            </span>
           </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-            The UK&apos;s most comprehensive peptide directory. Browse compounds, compare verified UK vendors, and make informed purchasing decisions.
+          <p className="text-gray-400 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
+            Compare live prices on <strong className="text-white">{totalCompounds}+ peptides</strong> from{" "}
+            <strong className="text-white">{totalVendors} trusted UK suppliers</strong>{" "}
+            &mdash; updated daily, completely independent, always free.
           </p>
-          <div className="max-w-xl mx-auto"><SearchBar /></div>
-          <div className="flex flex-wrap justify-center gap-2 mt-4">
-            <span className="text-xs text-gray-500">Popular:</span>
-            {popularTags.map(tag => (
-              <span key={tag} className="text-xs px-3 py-1 bg-white/10 rounded-full text-gray-400 hover:bg-blue-500/20 hover:text-blue-400 cursor-pointer transition">{tag}</span>
+          <div className="max-w-xl mx-auto">
+            <SearchBar />
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
+            <span className="text-[11px] text-gray-500 font-semibold uppercase tracking-wider">Popular:</span>
+            {compounds.slice(0, 5).map((c) => (
+              <Link
+                key={c.id}
+                href={`/compounds/${c.slug}`}
+                className="text-xs px-3 py-1.5 bg-white/8 rounded-full text-gray-400 hover:bg-blue-500/20 hover:text-blue-400 transition-colors"
+              >
+                {c.name}
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* STATS */}
-      <section className="bg-white border-b border-gray-100">
-        <div className="max-w-5xl mx-auto px-4 py-6 grid grid-cols-3 gap-4 text-center">
-          {[
-            { num: `${compounds.length}+`, label: "Research Compounds" },
-            { num: `${vendors.length}+`, label: "Verified Vendors" },
-            { num: "10K+", label: "Monthly Researchers" }
-          ].map(s => (
-            <div key={s.label}>
-              <div className="text-2xl font-bold text-blue-600">{s.num}</div>
-              <div className="text-sm text-gray-500">{s.label}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* TRUST STRIP */}
+      {/* === TRUST STRIP === */}
       <section className="bg-white border-b border-gray-100 py-5">
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="max-w-4xl mx-auto px-4 grid grid-cols-3 gap-6">
           {[
-            { icon: "🧪", title: "Independent COAs", desc: "Third-party tested batches" },
-            { icon: "📊", title: "Price Comparison", desc: "Compare vendor pricing" },
-            { icon: "⭐", title: "Verified Vendors", desc: "Only trusted suppliers" },
-            { icon: "📚", title: "Research Library", desc: "Compound guides & info" },
-          ].map(t => (
-            <div key={t.title} className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center text-lg flex-shrink-0">{t.icon}</div>
-              <div><p className="text-sm font-semibold text-gray-900">{t.title}</p><p className="text-xs text-gray-500">{t.desc}</p></div>
+            {
+              icon: (
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              ),
+              label: "Independent & unbiased",
+            },
+            {
+              icon: (
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              ),
+              label: "Prices updated daily",
+            },
+            {
+              icon: (
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                  <circle cx="12" cy="12" r="5" />
+                </svg>
+              ),
+              label: "No hidden fees",
+            },
+          ].map((t) => (
+            <div key={t.label} className="flex items-center justify-center gap-2.5">
+              <div className="w-9 h-9 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">{t.icon}</div>
+              <span className="text-sm font-medium text-gray-800">{t.label}</span>
             </div>
           ))}
         </div>
       </section>
 
-      {/* CATEGORIES */}
-      <section className="py-12 max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-xl font-bold text-gray-900">Browse by Category</h2>
-          <Link href="/compounds" className="text-sm text-blue-600 font-medium hover:underline">View all →</Link>
+      {/* === TOP SUPPLIERS === */}
+      <section className="py-10 max-w-7xl mx-auto px-4">
+        <div className="flex items-center justify-between mb-5">
+          <h2 className="text-lg font-bold text-gray-900">Top Suppliers</h2>
+          <Link href="/vendors" className="text-sm text-blue-600 font-medium hover:underline">Compare all &rarr;</Link>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {categoryTiles.map(c => (
-            <Link key={c.slug} href={`/category/${c.slug}`} className="p-5 bg-white border border-gray-100 rounded-xl text-center hover:shadow-md hover:-translate-y-0.5 transition-all">
-              <div className="text-2xl mb-2">{c.icon}</div>
-              <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
-              <p className="text-xs text-gray-500 mt-1">{c.count}</p>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* FEATURED COMPOUNDS */}
-      <section className="pb-6 max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-xl font-bold text-gray-900">Featured Compounds</h2>
-          <Link href="/compounds" className="text-sm text-blue-600 font-medium hover:underline">View all →</Link>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {featuredCompounds.map(c => {
-            const bClass = badgeColors[c.category] || "bg-gray-50 text-gray-600";
-            const bLabel = badgeLabels[c.category] || c.category;
-            return (
-              <Link key={c.id} href={`/compounds/${c.slug}`} className="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group">
-                <div className="h-28 bg-gray-50 flex items-center justify-center text-gray-300 font-semibold text-sm group-hover:bg-blue-50 transition-colors">{c.name}</div>
-                <div className="p-4">
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${bClass} uppercase tracking-wider`}>{bLabel}</span>
-                  <h3 className="font-semibold text-gray-900 text-sm mt-2">{c.name}</h3>
-                  <p className="text-xs text-gray-400">{c.aliases[0] || ""}</p>
-                  <p className="text-xs text-gray-500 mt-1">{c.description.slice(0, 80)}{c.description.length > 80 ? "..." : ""}</p>
-                  <p className="text-xs text-blue-600 font-medium mt-2">From {c.sources.length} seller{c.sources.length !== 1 ? "s" : ""}</p>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* FEATURED VENDORS */}
-      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-xl font-bold text-gray-900">Featured Vendors</h2>
-          <Link href="/vendors" className="text-sm text-blue-600 font-medium hover:underline">View all →</Link>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {topVendors.map(v => {
+          {topVendors.map((v) => {
             const count = vendorCompoundCounts[v.name] || 0;
             return (
-              <Link key={v.id} href={`/vendors/${v.slug}`} className="bg-white border border-gray-100 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center text-lg mb-3">🏪</div>
-                <div className="flex items-center gap-1.5 mb-1">
-                  <h3 className="font-semibold text-gray-900 text-sm">{v.name}</h3>
-                  {v.verified && <span className="text-[10px] bg-green-50 text-green-700 font-semibold px-1.5 py-0.5 rounded-full">✓</span>}
+              <Link
+                key={v.id}
+                href={`/vendors/${v.slug}`}
+                className="bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <PeptideVialIcon className="w-6 h-6" />
+                  </div>
+                  <div className="min-w-0">
+                    <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>
+                    {v.verified && (
+                      <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                        <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                        Site Verified
+                      </span>
+                    )}
+                  </div>
                 </div>
-                <p className="text-xs text-gray-400">{v.country} · ★ {v.rating}</p>
-                <p className="text-xs font-medium text-blue-600 mt-2">{count} compound{count !== 1 ? "s" : ""} listed</p>
+                <p className="text-xs text-gray-500">{v.country} &middot; {count} products</p>
+                <p className="text-xs text-blue-600 font-medium mt-1">View supplier &rarr;</p>
               </Link>
             );
           })}
         </div>
       </section>
 
-      {/* SEO CONTENT */}
-      <section className="py-12 max-w-7xl mx-auto px-4 border-t border-gray-100">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">The UK&apos;s Most Comprehensive Research Peptide Directory</h2>
-          <div className="text-sm text-gray-600 leading-relaxed space-y-3">
-            <p>ViralPeps is the leading independent directory for research peptides, bringing together detailed compound information, verified vendor listings, and price comparison tools in one place. Whether you&apos;re researching GLP-1 agonists like Tirzepatide and Semaglutide, regenerative peptides like BPC-157 and TB-500, or growth factors like IGF-1 LR3 and CJC-1295, our database covers the most studied research compounds available in the UK and internationally.</p>
-            <p>Every compound page includes detailed mechanism of action information, research applications, common dosages, purity specifications, and direct links to verified UK and international vendors with current pricing. Our directory is updated regularly with new compounds, vendor additions, and price data to help researchers make informed decisions.</p>
-            <p>Browse by category — <Link href="/category/glp-1-agonists" className="text-blue-600 hover:underline">GLP-1 Agonists</Link>, <Link href="/category/growth-factors" className="text-blue-600 hover:underline">Growth Factors</Link>, <Link href="/category/cognitive" className="text-blue-600 hover:underline">Cognitive Peptides</Link>, <Link href="/category/thymosin-bpc" className="text-blue-600 hover:underline">BPC/TB-500</Link>, <Link href="/category/melanotans" className="text-blue-600 hover:underline">Melanotans</Link>, and more — or use the search bar to find specific compounds and vendors.</p>
+      {/* === TRENDING RIGHT NOW === */}
+      <section className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
+        <div className="mb-5">
+          <div className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 rounded-full px-2.5 py-0.5 mb-2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+            <span className="text-[10px] font-bold text-orange-700 uppercase tracking-wider">Trending Right Now</span>
           </div>
+          <h2 className="text-xl font-bold text-gray-900">Most-searched peptides</h2>
+        </div>
+        <ScrollSection>
+          {trending.map((c) => {
+            const minPrice = Math.min(
+              ...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
+            );
+            return (
+              <Link
+                key={c.id}
+                href={`/compounds/${c.slug}`}
+                className="flex-shrink-0 w-52 bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start"
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
+                </div>
+                <p className="text-xs text-gray-400 mb-2">from &pound;{minPrice.toFixed(2)}</p>
+                <div className="flex items-center gap-1">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="#6366f1">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                  </svg>
+                  <span className="text-xs text-indigo-600 font-medium">{c.sources.length} vendors</span>
+                </div>
+              </Link>
+            );
+          })}
+        </ScrollSection>
+      </section>
+
+      {/* === HOW IT WORKS === */}
+      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
+        <h2 className="text-xl font-bold text-gray-900 mb-3">
+          Compare peptide prices across every trusted UK supplier &mdash; in seconds.
+        </h2>
+        <p className="text-gray-500 text-sm leading-relaxed max-w-2xl mb-5">
+          ViralPeps lets you search, compare, and find the best deals on research peptides from verified UK suppliers.
+          Independent, unbiased, and updated daily. No registration required.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {compounds.slice(0, 4).map((c) => (
+            <Link
+              key={c.id}
+              href={`/compounds/${c.slug}`}
+              className="text-xs px-3 py-1.5 bg-blue-50 text-blue-700 rounded-full hover:bg-blue-100 transition-colors font-medium"
+            >
+              {c.name}
+            </Link>
+          ))}
+          <Link
+            href="/compounds"
+            className="text-xs px-3 py-1.5 bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors font-medium"
+          >
+            Browse all {totalCompounds}+ peptides &rarr;
+          </Link>
         </div>
       </section>
 
-      {/* NEWSLETTER */}
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-12">
-        <div className="max-w-xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-white mb-2">Stay Updated</h2>
-          <p className="text-blue-100 text-sm mb-6">New compounds, vendor updates, and research guides.</p>
-          <form className="flex gap-2 max-w-sm mx-auto">
-            <input type="email" placeholder="Enter your email" className="flex-1 px-4 py-3 rounded-lg text-sm text-gray-900 outline-none placeholder-gray-400" />
-            <button className="px-6 py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-gray-800">Subscribe</button>
-          </form>
+      {/* === TOP DEALS TODAY === */}
+      <section className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
+        <div className="mb-5">
+          <div className="inline-flex items-center gap-1.5 bg-green-50 border border-green-200 rounded-full px-2.5 py-0.5 mb-2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#16a34a">
+              <path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" />
+            </svg>
+            <span className="text-[10px] font-bold text-green-700 uppercase tracking-wider">Top Deals Today</span>
+          </div>
+          <h2 className="text-xl font-bold text-gray-900">Best savings on peptides</h2>
+          <p className="text-gray-500 text-sm">The biggest savings when you compare supplier prices.</p>
         </div>
+        <ScrollSection>
+          {topDeals.map((deal, i) => (
+            <Link
+              key={deal.id + "-deal"}
+              href={`/compounds/${deal.slug}`}
+              className="flex-shrink-0 w-60 bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start"
+            >
+              <div className="flex items-start justify-between mb-2">
+                <div className="bg-green-100 text-green-800 text-[10px] font-bold px-2 py-0.5 rounded">
+                  -{deal.savingsPct}%
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-sm mb-1">{deal.name}</h3>
+              <div className="text-xs text-gray-400 line-through mb-1">
+                &pound;{deal.maxPrice.toFixed(2)}
+              </div>
+              <div className="text-lg font-bold text-green-600">
+                &pound;{deal.minPrice.toFixed(2)}
+              </div>
+              <div className="text-[10px] text-green-700 font-semibold mt-1">
+                SAVE &pound;{deal.savingsAmount}
+              </div>
+              <div className="text-[10px] text-gray-400 mt-1">
+                {deal.cheapestVendor?.vendor || "Various suppliers"}
+              </div>
+            </Link>
+          ))}
+        </ScrollSection>
       </section>
 
-      {/* FOOTER */}
-      <footer className="bg-[#0b1a2e] text-gray-400 py-12">
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div>
-            <div className="flex items-center gap-2 mb-3">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="24" height="24" rx="6" fill="url(#fLogo)" />
-                <path d="M7 15V9l5 3-5 3z" fill="white" fillOpacity="0.4" />
-                <path d="M8 14V10l4 2-4 2z" fill="white" />
-                <defs>
-                  <linearGradient id="fLogo" x1="0" y1="0" x2="24" y2="24">
-                    <stop stopColor="#2563eb" /><stop offset="1" stopColor="#7c3aed" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <span className="font-bold text-white">ViralPeps</span>
+      {/* === TRENDING THIS MONTH === */}
+      <section className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
+        <div className="mb-5">
+          <div className="inline-flex items-center gap-1.5 bg-purple-50 border border-purple-200 rounded-full px-2.5 py-0.5 mb-2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#9333ea">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            <span className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">Trending This Month</span>
+          </div>
+          <h2 className="text-xl font-bold text-gray-900">Researchers are clicking on these</h2>
+          <p className="text-gray-500 text-sm">The most-viewed compound + supplier combinations.</p>
+        </div>
+        <ScrollSection>
+          {trendingVendorItems.slice(0, 10).map((item) => (
+            <Link
+              key={`trending-${item.compound.id}-${item.vendor.vendor}`}
+              href={`/compounds/${item.compound.slug}`}
+              className="flex-shrink-0 w-56 bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start"
+            >
+              <div className="flex items-start gap-3">
+                <span className="text-xs font-bold text-gray-300 w-4 flex-shrink-0">{item.rank}</span>
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-gray-900 text-sm">{item.compound.name}</h3>
+                  <p className="text-xs text-gray-500">{item.vendor.vendor}</p>
+                  <div className="flex items-center gap-2 mt-1.5">
+                    <span className="text-xs font-semibold text-gray-900">{item.vendor.price}</span>
+                    {item.vendorData?.verified && (
+                      <span className="text-[10px] bg-green-50 text-green-700 font-semibold px-1.5 py-0.5 rounded-full">Verified</span>
+                    )}
+                  </div>
+                  {item.vendorData && (
+                    <div className="text-[10px] text-amber-500 mt-0.5">★ {item.vendorData.rating}</div>
+                  )}
+                </div>
+              </div>
+            </Link>
+          ))}
+        </ScrollSection>
+      </section>
+
+      {/* === CATEGORY SECTIONS (like PepSupermarket Weight Loss) === */}
+      {categoryGroups.map((group) => {
+        const groupCompounds = compounds.filter((c) => group.slugs.includes(c.category));
+        if (groupCompounds.length === 0) return null;
+        return (
+          <section key={group.badge} className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
+            <div className="mb-5">
+              <div className="inline-flex items-center gap-1.5 bg-blue-50 border border-blue-200 rounded-full px-2.5 py-0.5 mb-2">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="#2563eb">
+                  <path d="M7 10l5 5 5-5H7z" />
+                </svg>
+                <span className="text-[10px] font-bold text-blue-700 uppercase tracking-wider">{group.badge}</span>
+              </div>
+              <h2 className="text-xl font-bold text-gray-900">{group.title}</h2>
+              <p className="text-gray-500 text-sm">{group.desc}</p>
             </div>
-            <p className="text-xs leading-relaxed">For laboratory research use only. © 2026 ViralPeps.</p>
-          </div>
-          <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Directory</h4>
-            <Link href="/compounds" className="block text-xs mb-2 hover:text-white">All Compounds</Link>
-            <Link href="/vendors" className="block text-xs mb-2 hover:text-white">Vendors</Link>
-            <Link href="/vendors/register" className="block text-xs mb-2 hover:text-white">List Your Business</Link>
-          </div>
-          <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Resources</h4>
-            <Link href="/tools" className="block text-xs mb-2 hover:text-white">Peptide Tools</Link>
-            <Link href="/research" className="block text-xs mb-2 hover:text-white">Research Library</Link>
-          </div>
-          <div><h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Legal</h4>
-            <Link href="/privacy" className="block text-xs mb-2 hover:text-white">Privacy Policy</Link>
-            <Link href="/terms" className="block text-xs mb-2 hover:text-white">Terms</Link>
-            <Link href="/disclaimer" className="block text-xs mb-2 hover:text-white">Disclaimer</Link>
-          </div>
+            <ScrollSection>
+              {groupCompounds.map((c) => {
+                const minPrice = Math.min(
+                  ...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
+                );
+                // Dosage variants from commonDosages
+                const dosages = c.commonDosages.slice(0, 4);
+                return (
+                  <Link
+                    key={c.id}
+                    href={`/compounds/${c.slug}`}
+                    className="flex-shrink-0 w-56 bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start"
+                  >
+                    <div className="h-28 bg-gray-50 flex items-center justify-center">
+                      <PeptideVialIcon className="w-14 h-14" />
+                    </div>
+                    <div className="p-4">
+                      <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
+                      <div className="flex items-center gap-1 mt-1">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="#6366f1">
+                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                        </svg>
+                        <span className="text-xs text-indigo-600 font-medium">{c.sources.length} suppliers</span>
+                      </div>
+                      {dosages.length > 0 && (
+                        <div className="flex flex-wrap gap-1 mt-2">
+                          {dosages.map((d) => (
+                            <span key={d} className="text-[10px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded font-medium">
+                              {d}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      <div className="mt-2 flex items-center justify-between">
+                        <span className="text-xs text-gray-500">From</span>
+                        <span className="text-sm font-bold text-gray-900">&pound;{minPrice.toFixed(2)}</span>
+                      </div>
+                      <div className="mt-1 text-xs text-blue-600 font-medium flex items-center gap-1">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                          <circle cx="12" cy="12" r="3" />
+                        </svg>
+                        Compare
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </ScrollSection>
+          </section>
+        );
+      })}
+
+      {/* === NEWSLETTER === */}
+      <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-14 mt-8">
+        <div className="max-w-xl mx-auto px-4 text-center">
+          <h2 className="text-2xl font-bold text-white mb-2">Get Peptide Price-drop Alerts</h2>
+          <p className="text-blue-100 text-sm mb-6">
+            Be the first to know about new compounds, price drops, and supplier updates.
+          </p>
+          <form className="flex gap-2 max-w-sm mx-auto">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="flex-1 px-4 py-3 rounded-lg text-sm text-gray-900 outline-none placeholder-gray-400"
+            />
+            <button className="px-6 py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-gray-800 transition-colors">
+              Subscribe
+            </button>
+          </form>
+          <p className="text-blue-200 text-[10px] mt-3">No spam. Unsubscribe anytime.</p>
         </div>
-      </footer>
+      </section>
+
+      <Footer />
     </div>
   );
 }

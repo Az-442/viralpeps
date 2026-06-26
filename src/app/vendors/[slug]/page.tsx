@@ -1,63 +1,182 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import vendors from "@/data/vendors.json";
+import compounds from "@/data/compounds.json";
+import HeaderNav from "@/components/HeaderNav";
+import Footer from "@/components/Footer";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const vendor = vendors.find((v) => v.slug === slug);
+  if (!vendor) return {};
+  return {
+    title: `${vendor.name} — UK Peptide Supplier Review & Products | ViralPeps`,
+    description: `${vendor.name} is a ${vendor.country}-based peptide supplier rated ★ ${vendor.rating}. ${vendor.description?.slice(0, 100)}`,
+  };
+}
+
+function PeptideVialIcon({ className = "w-8 h-8" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="14" y="6" width="20" height="36" rx="4" fill="#e2e8f0" />
+      <rect x="16" y="10" width="16" height="28" rx="3" fill="#f8fafc" />
+      <rect x="14" y="4" width="20" height="6" rx="3" fill="#cbd5e1" />
+      <rect x="20" y="2" width="8" height="12" rx="2" fill="#94a3b8" />
+      <line x1="20" y1="22" x2="28" y2="22" stroke="#3b82f6" strokeWidth="1.5" />
+      <line x1="20" y1="26" x2="26" y2="26" stroke="#3b82f6" strokeWidth="1.5" />
+      <line x1="20" y1="30" x2="24" y2="30" stroke="#3b82f6" strokeWidth="1.5" />
+    </svg>
+  );
+}
 
 export default async function VendorPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const vendor = vendors.find((v) => v.slug === slug);
   if (!vendor) notFound();
 
+  // Compounds this vendor sells
+  const vendorCompounds = compounds.filter((c) =>
+    c.sources.some((s) => s.vendor === vendor.name)
+  );
+
+  const minPrice = Math.min(
+    ...vendorCompounds.flatMap((c) =>
+      c.sources
+        .filter((s) => s.vendor === vendor.name)
+        .map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || Infinity)
+    )
+  );
+
+  const hasFreeShipping = vendor.shipping?.some((s) => s.toLowerCase().includes("free"));
+  const hasLabTested = vendor.highlights?.some((h) => h.toLowerCase().includes("tested"));
+
   return (
-    <div className="min-h-screen bg-white">
-      <nav className="bg-white border-b border-gray-100 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">VP</span>
-              </div>
-              <span className="font-bold text-xl text-gray-900">ViralPeps</span>
-            </Link>
-            <div className="hidden md:flex items-center gap-6">
-              <Link href="/compounds" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Compounds</Link>
-              <Link href="/vendors" className="text-sm text-blue-600 font-medium">Vendors</Link>
-              <Link href="/tools" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Tools</Link>
-              <Link href="/research" className="text-sm text-gray-600 hover:text-blue-600 font-medium">Research</Link>
-              <Link href="/about" className="text-sm text-gray-600 hover:text-blue-600 font-medium">About</Link>
+    <div className="min-h-screen bg-gray-50">
+      <HeaderNav />
+
+      {/* BREADCRUMB */}
+      <div className="max-w-6xl mx-auto px-4 py-3 text-xs text-gray-400">
+        <Link href="/" className="hover:text-blue-600">Home</Link>
+        <span className="mx-1">/</span>
+        <Link href="/vendors" className="hover:text-blue-600">Suppliers</Link>
+        <span className="mx-1">/</span>
+        <span className="text-gray-600">{vendor.name}</span>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-4 pb-8">
+        {/* SUPPLIER HEADER */}
+        <div className="bg-white border border-gray-100 rounded-xl p-6 mb-6">
+          <div className="flex flex-col md:flex-row items-start gap-6">
+            <div className="w-20 h-20 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl flex items-center justify-center flex-shrink-0">
+              <PeptideVialIcon className="w-12 h-12" />
             </div>
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-1">
+                <h1 className="text-2xl font-bold text-gray-900">{vendor.name}</h1>
+                {vendor.verified && (
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                    Site Verified
+                  </span>
+                )}
+              </div>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-500 mb-3">
+                <span className="text-amber-500 font-medium">★ {vendor.rating}</span>
+                <span>{vendor.country}</span>
+                {vendor.founded && <span>Since {vendor.founded}</span>}
+                <span className="text-gray-700">{vendorCompounds.length} products</span>
+                {minPrice && <span className="font-medium text-gray-700">From £{minPrice.toFixed(2)}</span>}
+              </div>
+              <p className="text-sm text-gray-600 leading-relaxed mb-3">{vendor.description}</p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                {vendor.highlights?.map((h) => (
+                  <span key={h} className="text-[10px] bg-gray-100 text-gray-700 px-2 py-0.5 rounded-full font-medium">{h}</span>
+                ))}
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {hasFreeShipping && (
+                  <span className="text-[10px] bg-blue-50 text-blue-700 font-semibold px-2 py-0.5 rounded-full border border-blue-200">FREE UK DELIVERY</span>
+                )}
+                {hasLabTested && (
+                  <span className="text-[10px] bg-gray-800 text-white px-2 py-0.5 rounded-full">LAB TESTED</span>
+                )}
+              </div>
+            </div>
+            <a
+              href={vendor.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-1.5"
+            >
+              Visit Website
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+            </a>
+          </div>
+
+          {/* INFO GRID */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6 pt-6 border-t border-gray-100">
+            {[
+              { label: "Shipping", value: vendor.shipping?.join(", ") || "N/A" },
+              { label: "Payment", value: vendor.payment?.join(", ") || "N/A" },
+              { label: "Categories", value: vendor.categories?.join(", ") || "N/A" },
+              { label: "Last Tested", value: vendor.lastTested || "N/A" },
+            ].map((info) => (
+              <div key={info.label} className="bg-gray-50 p-3 rounded-lg">
+                <p className="text-[10px] text-gray-400 uppercase tracking-wider mb-0.5">{info.label}</p>
+                <p className="text-xs font-medium text-gray-900">{info.value}</p>
+              </div>
+            ))}
           </div>
         </div>
-      </nav>
 
-      <div className="max-w-5xl mx-auto px-4 py-4 text-sm text-gray-400">
-        <Link href="/vendors" className="hover:text-blue-600">Vendors</Link> &gt; <span className="text-gray-600">{vendor.name}</span>
-      </div>
-
-      <div className="max-w-5xl mx-auto px-4 pb-12 grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div className="aspect-square bg-blue-50 rounded-xl flex items-center justify-center text-blue-400 font-bold text-2xl">{vendor.name}</div>
-        <div>
-          <div className="flex items-center gap-3 mb-2">
-            <h1 className="text-2xl font-bold text-gray-900">{vendor.name}</h1>
-            {vendor.verified && <span className="text-xs bg-green-50 text-green-700 font-semibold px-3 py-1 rounded-full">✓ Verified</span>}
+        {/* PRODUCTS LIST */}
+        <div className="bg-white border border-gray-100 rounded-xl overflow-hidden">
+          <div className="p-5 border-b border-gray-100">
+            <h2 className="text-lg font-bold text-gray-900">
+              {vendor.name} Products ({vendorCompounds.length})
+            </h2>
+            <p className="text-sm text-gray-500 mt-1">
+              All compounds available from this supplier. Prices from £{minPrice.toFixed(2)}.
+            </p>
           </div>
-          <div className="flex gap-4 text-sm text-gray-400 mb-4">
-            <span className="text-amber-500">★ {vendor.rating}</span><span>{vendor.country}</span><span>Since {vendor.founded}</span>
+          <div className="divide-y divide-gray-50">
+            {vendorCompounds.map((c) => {
+              const source = c.sources.find((s) => s.vendor === vendor.name);
+              const price = source ? parseFloat(source.price.replace(/[£$€,]/g, "")) : 0;
+              return (
+                <Link
+                  key={c.id}
+                  href={`/compounds/${c.slug}`}
+                  className="flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
+                >
+                  <div className="flex items-center gap-3 min-w-0 flex-1">
+                    <div className="w-9 h-9 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <PeptideVialIcon className="w-5 h-5" />
+                    </div>
+                    <div className="min-w-0">
+                      <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
+                      <div className="flex items-center gap-2 text-[10px] text-gray-400">
+                        <span className="bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
+                        {c.aliases[0] && <span>{c.aliases[0]}</span>}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3 flex-shrink-0">
+                    {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
+                    <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
-          <p className="text-sm text-gray-600 leading-relaxed mb-5">{vendor.description}</p>
-          <div className="grid grid-cols-1 gap-2 mb-5">
-            <div className="bg-gray-50 p-3 rounded-lg"><p className="text-[11px] text-gray-400 uppercase tracking-wider">Highlights</p><p className="text-sm font-medium text-gray-900">{vendor.highlights.join(" · ")}</p></div>
-            <div className="bg-gray-50 p-3 rounded-lg"><p className="text-[11px] text-gray-400 uppercase tracking-wider">Shipping</p><p className="text-sm font-medium text-gray-900">{vendor.shipping.join(" · ")}</p></div>
-            <div className="bg-gray-50 p-3 rounded-lg"><p className="text-[11px] text-gray-400 uppercase tracking-wider">Payment</p><p className="text-sm font-medium text-gray-900">{vendor.payment.join(" · ")}</p></div>
-          </div>
-          <a href={vendor.website} target="_blank" className="inline-block px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700">Visit Website →</a>
         </div>
       </div>
 
-      <footer className="bg-[#0b1a2e] text-gray-400 py-10">
-        <div className="max-w-7xl mx-auto px-4 text-center text-xs">© 2026 ViralPeps.</div>
-      </footer>
+      <Footer />
     </div>
   );
 }
