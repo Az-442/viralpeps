@@ -243,44 +243,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* === TOP SUPPLIERS === */}
-      <section className="py-10 max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between mb-5">
-          <h2 className="text-lg font-bold text-gray-900">Top Suppliers</h2>
-          <Link href="/vendors" className="text-sm text-blue-600 font-medium hover:underline">Compare all &rarr;</Link>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {topVendors.map((v) => {
-            const count = vendorCompoundCounts[v.name] || 0;
-            return (
-              <Link
-                key={v.id}
-                href={`/vendors/${v.slug}`}
-                className="bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group"
-              >
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <PeptideVialIcon className="w-6 h-6" />
-                  </div>
-                  <div className="min-w-0">
-                    <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>
-                    {v.verified && (
-                      <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
-                        <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-                        Site Verified
-                      </span>
-                    )}
-                  </div>
-                </div>
-                <p className="text-xs text-gray-500">{v.country} &middot; {count} products</p>
-                <p className="text-xs text-blue-600 font-medium mt-1">View supplier &rarr;</p>
-              </Link>
-            );
-          })}
-        </div>
-        <p className="text-xs text-gray-400 mt-3">Prices last checked: daily</p>
-      </section>
-
       {/* === TRENDING RIGHT NOW === */}
       <section className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
         <div className="mb-5">
@@ -446,24 +408,21 @@ export default function Home() {
                 const minPrice = Math.min(
                   ...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
                 );
-                // Dosage variants from commonDosages
                 const dosages = c.commonDosages.slice(0, 4);
                 return (
                   <Link
                     key={c.id}
                     href={`/compounds/${c.slug}`}
-                    className="flex-shrink-0 w-56 bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start"
+                    className="flex-shrink-0 w-56 bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group"
                   >
-                    <div className="h-28 bg-gray-50 flex items-center justify-center">
+                    <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                       <PeptideVialIcon className="w-14 h-14" />
                     </div>
                     <div className="p-4">
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
-                      <div className="flex items-center gap-1 mt-1">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="#6366f1">
-                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                        </svg>
-                        <span className="text-xs text-indigo-600 font-medium">{c.sources.length} suppliers</span>
+                      <div className="mt-1 flex items-baseline gap-0.5">
+                        <span className="text-lg font-bold text-gray-900">{c.sources.length}</span>
+                        <span className="text-[10px] text-gray-500 uppercase tracking-wider font-medium">SUPPLIERS</span>
                       </div>
                       {dosages.length > 0 && (
                         <div className="flex flex-wrap gap-1 mt-2">
@@ -474,12 +433,12 @@ export default function Home() {
                           ))}
                         </div>
                       )}
-                      <div className="mt-2 flex items-center justify-between">
-                        <span className="text-xs text-gray-500">From</span>
-                        <span className="text-sm font-bold text-gray-900">&pound;{minPrice.toFixed(2)}</span>
+                      <div className="mt-2">
+                        <span className="text-[10px] text-gray-400 uppercase tracking-wide font-medium">FROM</span>
+                        <div className="text-sm font-bold text-gray-900">&pound;{minPrice.toFixed(2)}</div>
                       </div>
-                      <div className="mt-1 text-xs text-blue-600 font-medium flex items-center gap-1">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <div className="mt-1.5 text-xs text-blue-600 font-medium flex items-center gap-1 group-hover:underline">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                           <circle cx="12" cy="12" r="3" />
                         </svg>
@@ -493,6 +452,44 @@ export default function Home() {
           </section>
         );
       })}
+
+      {/* === TOP SUPPLIERS === */}
+      <section className="py-10 max-w-7xl mx-auto px-4">
+        <div className="flex items-center justify-between mb-5">
+          <h2 className="text-lg font-bold text-gray-900">Top Suppliers</h2>
+          <Link href="/vendors" className="text-sm text-blue-600 font-medium hover:underline">Compare all &rarr;</Link>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {topVendors.map((v) => {
+            const count = vendorCompoundCounts[v.name] || 0;
+            return (
+              <Link
+                key={v.id}
+                href={`/vendors/${v.slug}`}
+                className="bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <PeptideVialIcon className="w-6 h-6" />
+                  </div>
+                  <div className="min-w-0">
+                    <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>
+                    {v.verified && (
+                      <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                        <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                        Site Verified
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <p className="text-xs text-gray-500">{v.country} &middot; {count} products</p>
+                <p className="text-xs text-blue-600 font-medium mt-1">View supplier &rarr;</p>
+              </Link>
+            );
+          })}
+        </div>
+        <p className="text-xs text-gray-400 mt-3">Prices last checked: daily</p>
+      </section>
 
       {/* === NEWSLETTER === */}
       <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-14 mt-8">
