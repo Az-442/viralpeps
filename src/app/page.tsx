@@ -204,13 +204,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* === TRUST STRIP === */}
+      {/* === TRUST STRIP — like PepSupermarket inline style === */}
       <section className="bg-white border-b border-gray-100 py-5">
-        <div className="max-w-4xl mx-auto px-4 grid grid-cols-3 gap-6">
+        <div className="max-w-4xl mx-auto px-4 flex items-center justify-center gap-8">
           {[
             {
               icon: (
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                 </svg>
               ),
@@ -218,7 +218,7 @@ export default function Home() {
             },
             {
               icon: (
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="12" cy="12" r="10" />
                   <polyline points="12 6 12 12 16 14" />
                 </svg>
@@ -227,7 +227,7 @@ export default function Home() {
             },
             {
               icon: (
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9333ea" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
                   <circle cx="12" cy="12" r="5" />
                 </svg>
@@ -235,9 +235,9 @@ export default function Home() {
               label: "No hidden fees",
             },
           ].map((t) => (
-            <div key={t.label} className="flex items-center justify-center gap-2.5">
-              <div className="w-9 h-9 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">{t.icon}</div>
-              <span className="text-sm font-medium text-gray-800">{t.label}</span>
+            <div key={t.label} className="flex items-center gap-2">
+              {t.icon}
+              <span className="text-sm text-gray-700">{t.label}</span>
             </div>
           ))}
         </div>
@@ -278,16 +278,17 @@ export default function Home() {
             );
           })}
         </div>
+        <p className="text-xs text-gray-400 mt-3">Prices last checked: daily</p>
       </section>
 
       {/* === TRENDING RIGHT NOW === */}
       <section className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
         <div className="mb-5">
-          <div className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 rounded-full px-2.5 py-0.5 mb-2">
+          <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c">
               <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
             </svg>
-            <span className="text-[10px] font-bold text-orange-700 uppercase tracking-wider">Trending Right Now</span>
+            <span className="text-[10px] font-bold text-white uppercase tracking-wider">Trending Right Now</span>
           </div>
           <h2 className="text-xl font-bold text-gray-900">Most-searched peptides</h2>
         </div>
@@ -305,12 +306,8 @@ export default function Home() {
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
                 </div>
-                <p className="text-xs text-gray-400 mb-2">from &pound;{minPrice.toFixed(2)}</p>
-                <div className="flex items-center gap-1">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="#6366f1">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                  </svg>
-                  <span className="text-xs text-indigo-600 font-medium">{c.sources.length} vendors</span>
+                <div className="text-xs text-gray-400 mb-2">
+                from &pound;{minPrice.toFixed(2)} &bull; {c.sources.length} VENDORS
                 </div>
               </Link>
             );
@@ -349,11 +346,11 @@ export default function Home() {
       {/* === TOP DEALS TODAY === */}
       <section className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
         <div className="mb-5">
-          <div className="inline-flex items-center gap-1.5 bg-green-50 border border-green-200 rounded-full px-2.5 py-0.5 mb-2">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="#16a34a">
+          <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e">
               <path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" />
             </svg>
-            <span className="text-[10px] font-bold text-green-700 uppercase tracking-wider">Top Deals Today</span>
+            <span className="text-[10px] font-bold text-white uppercase tracking-wider">Top Deals Today</span>
           </div>
           <h2 className="text-xl font-bold text-gray-900">Best savings on peptides</h2>
           <p className="text-gray-500 text-sm">The biggest savings when you compare supplier prices.</p>
@@ -391,11 +388,11 @@ export default function Home() {
       {/* === TRENDING THIS MONTH === */}
       <section className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
         <div className="mb-5">
-          <div className="inline-flex items-center gap-1.5 bg-purple-50 border border-purple-200 rounded-full px-2.5 py-0.5 mb-2">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="#9333ea">
+          <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
-            <span className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">Trending This Month</span>
+            <span className="text-[10px] font-bold text-white uppercase tracking-wider">Trending This Month</span>
           </div>
           <h2 className="text-xl font-bold text-gray-900">Researchers are clicking on these</h2>
           <p className="text-gray-500 text-sm">The most-viewed compound + supplier combinations.</p>
@@ -435,11 +432,11 @@ export default function Home() {
         return (
           <section key={group.badge} className="py-8 max-w-7xl mx-auto px-4 border-t border-gray-100">
             <div className="mb-5">
-              <div className="inline-flex items-center gap-1.5 bg-blue-50 border border-blue-200 rounded-full px-2.5 py-0.5 mb-2">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="#2563eb">
+              <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6">
                   <path d="M7 10l5 5 5-5H7z" />
                 </svg>
-                <span className="text-[10px] font-bold text-blue-700 uppercase tracking-wider">{group.badge}</span>
+                <span className="text-[10px] font-bold text-white uppercase tracking-wider">{group.badge}</span>
               </div>
               <h2 className="text-xl font-bold text-gray-900">{group.title}</h2>
               <p className="text-gray-500 text-sm">{group.desc}</p>
