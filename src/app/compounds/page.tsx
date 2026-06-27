@@ -35,7 +35,7 @@ export default function CompoundsPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold text-gray-900 mb-1">All Research Peptides</h1>
-        <p className="text-sm text-gray-500 mb-6">{compounds.length} peptides — compare prices from UK suppliers.</p>
+        <p className="text-sm text-black mb-6">{compounds.length} peptides — compare prices from UK suppliers.</p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {compounds.map((c) => {
@@ -55,16 +55,16 @@ export default function CompoundsPage() {
                 <div className="p-4">
                   <span className="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded uppercase tracking-wider">{bLabel}</span>
                   <h3 className="font-semibold text-gray-900 text-sm mt-2">{c.name}</h3>
-                  {c.aliases.length > 0 && <p className="text-xs text-gray-400">{c.aliases[0]}</p>}
+                  {c.aliases.length > 0 && <p className="text-xs text-black">{c.aliases[0]}</p>}
                   <div className="flex items-center gap-1 mt-1">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="#6366f1">
                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                     </svg>
                     <span className="text-xs text-indigo-600 font-medium">{c.sources.length} suppliers</span>
                   </div>
-                  <p className="text-xs text-gray-500 mt-1 line-clamp-2">{c.description.slice(0, 80)}{c.description.length > 80 ? "..." : ""}</p>
+                  <p className="text-xs text-black mt-1 line-clamp-2">{c.description.slice(0, 80)}{c.description.length > 80 ? "..." : ""}</p>
                   <div className="mt-2 flex items-center justify-between">
-                    <span className="text-xs text-gray-400">From</span>
+                    <span className="text-xs text-black">From</span>
                     <span className="text-xs font-bold text-gray-900">&pound;{minPrice.toFixed(2)}</span>
                   </div>
                 </div>

@@ -57,12 +57,12 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       <HeaderNav />
 
       {/* BREADCRUMB */}
-      <div className="max-w-6xl mx-auto px-4 py-3 text-xs text-gray-400">
+      <div className="max-w-6xl mx-auto px-4 py-3 text-xs text-black">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1">/</span>
         <Link href="/vendors" className="hover:text-blue-600">Suppliers</Link>
         <span className="mx-1">/</span>
-        <span className="text-gray-600">{vendor.name}</span>
+        <span className="text-black">{vendor.name}</span>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 pb-8">
@@ -82,17 +82,17 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   </span>
                 )}
               </div>
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-500 mb-3">
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-black mb-3">
                 <span className="text-amber-500 font-medium">★ {vendor.rating}</span>
                 <span>{vendor.country}</span>
                 {vendor.founded && <span>Since {vendor.founded}</span>}
-                <span className="text-gray-700">{vendorCompounds.length} products</span>
-                {minPrice && <span className="font-medium text-gray-700">From £{minPrice.toFixed(2)}</span>}
+                <span className="text-black">{vendorCompounds.length} products</span>
+                {minPrice && <span className="font-medium text-black">From £{minPrice.toFixed(2)}</span>}
               </div>
-              <p className="text-sm text-gray-600 leading-relaxed mb-3">{vendor.description}</p>
+              <p className="text-sm text-black leading-relaxed mb-3">{vendor.description}</p>
               <div className="flex flex-wrap gap-2 mb-3">
                 {vendor.highlights?.map((h) => (
-                  <span key={h} className="text-[10px] bg-gray-100 text-gray-700 px-2 py-0.5 rounded-full font-medium">{h}</span>
+                  <span key={h} className="text-[10px] bg-gray-100 text-black px-2 py-0.5 rounded-full font-medium">{h}</span>
                 ))}
               </div>
               <div className="flex flex-wrap gap-2">
@@ -126,7 +126,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               { label: "Last Tested", value: vendor.lastTested || "N/A" },
             ].map((info) => (
               <div key={info.label} className="bg-gray-50 p-3 rounded-lg">
-                <p className="text-[10px] text-gray-400 uppercase tracking-wider mb-0.5">{info.label}</p>
+                <p className="text-[10px] text-black uppercase tracking-wider mb-0.5">{info.label}</p>
                 <p className="text-xs font-medium text-gray-900">{info.value}</p>
               </div>
             ))}
@@ -139,7 +139,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
             <h2 className="text-lg font-bold text-gray-900">
               {vendor.name} Products ({vendorCompounds.length})
             </h2>
-            <p className="text-sm text-gray-500 mt-1">
+            <p className="text-sm text-black mt-1">
               All compounds available from this supplier. Prices from £{minPrice.toFixed(2)}.
             </p>
           </div>
@@ -159,8 +159,8 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                     </div>
                     <div className="min-w-0">
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
-                      <div className="flex items-center gap-2 text-[10px] text-gray-400">
-                        <span className="bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
+                      <div className="flex items-center gap-2 text-[10px] text-black">
+                        <span className="bg-gray-100 text-black px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
                         {c.aliases[0] && <span>{c.aliases[0]}</span>}
                       </div>
                     </div>

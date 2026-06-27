@@ -185,16 +185,16 @@ export default function Home() {
             Search, compare, save.<br />
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Find your next peptide deal today.</span>
           </h1>
-          <p className="text-gray-400 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-300 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
             Compare live prices on <strong className="text-white">{totalCompounds}+ peptides</strong> from{" "}
             <strong className="text-white">{totalVendors}+ trusted UK suppliers</strong>{" "}
             &mdash; updated daily, completely independent, always free.
           </p>
           <div className="max-w-xl mx-auto"><SearchBar /></div>
           <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
-            <span className="text-[11px] text-gray-500 font-semibold uppercase tracking-wider">Popular:</span>
+            <span className="text-[11px] text-gray-300 font-semibold uppercase tracking-wider">Popular:</span>
             {compounds.slice(0, 4).map((c) => (
-              <Link key={c.id} href={`/compounds/${c.slug}`} className="text-xs px-3 py-1.5 bg-white/8 rounded-full text-gray-400 hover:bg-blue-500/20 hover:text-blue-400 transition-colors">{c.name}</Link>
+              <Link key={c.id} href={`/compounds/${c.slug}`} className="text-xs px-3 py-1.5 bg-white/8 rounded-full text-gray-300 hover:bg-blue-500/20 hover:text-blue-400 transition-colors">{c.name}</Link>
             ))}
           </div>
         </div>
@@ -205,15 +205,15 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 flex items-center justify-center gap-8">
           <div className="flex items-center gap-2">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
-            <span className="text-sm text-gray-700">Independent &amp; unbiased</span>
+            <span className="text-sm text-black">Independent &amp; unbiased</span>
           </div>
           <div className="flex items-center gap-2">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
-            <span className="text-sm text-gray-700">Prices updated daily</span>
+            <span className="text-sm text-black">Prices updated daily</span>
           </div>
           <div className="flex items-center gap-2">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9333ea" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" /><circle cx="12" cy="12" r="5" /></svg>
-            <span className="text-sm text-gray-700">No hidden fees</span>
+            <span className="text-sm text-black">No hidden fees</span>
           </div>
         </div>
       </section>
@@ -234,7 +234,7 @@ export default function Home() {
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
                 </div>
-                <div className="text-xs text-gray-400">from &pound;{minPrice.toFixed(2)} {c.sources.length} VENDORS</div>
+                <div className="text-xs text-black">from &pound;{minPrice.toFixed(2)} {c.sources.length} VENDORS</div>
               </Link>
             );
           })}
@@ -284,7 +284,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-[10px] text-gray-400 uppercase font-medium">{isFirst ? "BEST PRICE" : isLast ? "HIGHEST" : "PRICE"}</span>
+                    <span className="text-[10px] text-black uppercase font-medium">{isFirst ? "BEST PRICE" : isLast ? "HIGHEST" : "PRICE"}</span>
                     <div className="text-sm font-bold text-gray-900">{prices ? `£${prices.min.toFixed(2)}` : `${count} products`}</div>
                   </div>
                   <span className="text-xs text-blue-600 font-medium group-hover:underline">View &rarr;</span>
@@ -293,7 +293,7 @@ export default function Home() {
             );
           })}
         </div>
-        <p className="text-xs text-gray-400 mt-3">Prices last checked: daily</p>
+        <p className="text-xs text-black mt-3">Prices last checked: daily</p>
       </section>
 
       {/* 5. HOW IT WORKS */}
@@ -306,7 +306,7 @@ export default function Home() {
           <h2 className="text-xl font-bold text-gray-900 mb-3 max-w-2xl">
             Compare peptide prices across every trusted UK supplier &mdash; in seconds.
           </h2>
-          <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
+          <p className="text-sm text-black leading-relaxed max-w-3xl">
             ViralPeps is the UK&apos;s only dedicated peptide price comparison platform. We track live prices from{" "}
             <strong>{totalVendors} trusted UK peptide suppliers</strong> &mdash; so you can find the best deal on{" "}
             <Link href="/compounds/bpc-157" className="text-blue-600 hover:underline">BPC-157</Link>,{" "}
@@ -320,15 +320,15 @@ export default function Home() {
         <div className="flex items-center gap-8 mt-6 pt-6 border-t border-gray-100">
           <div className="flex items-center gap-2">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
-            <span className="text-sm text-gray-700 font-medium">{totalCompounds}+ peptides tracked</span>
+            <span className="text-sm text-black font-medium">{totalCompounds}+ peptides tracked</span>
           </div>
           <div className="flex items-center gap-2">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /></svg>
-            <span className="text-sm text-gray-700 font-medium">{totalVendors}+ UK suppliers</span>
+            <span className="text-sm text-black font-medium">{totalVendors}+ UK suppliers</span>
           </div>
           <div className="flex items-center gap-2">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
-            <span className="text-sm text-gray-700 font-medium">Prices updated daily</span>
+            <span className="text-sm text-black font-medium">Prices updated daily</span>
           </div>
         </div>
       </section>
@@ -341,7 +341,7 @@ export default function Home() {
             <span className="text-[10px] font-bold text-white uppercase tracking-wider">Top Deals Today</span>
           </div>
           <h2 className="text-lg font-bold text-gray-900">Top deals of the day</h2>
-          <p className="text-sm text-gray-500">The biggest savings when you pick the cheapest supplier vs. the most expensive.</p>
+          <p className="text-sm text-black">The biggest savings when you pick the cheapest supplier vs. the most expensive.</p>
         </div>
         <ScrollSection>
           {topDeals.map((deal) => (
@@ -351,10 +351,10 @@ export default function Home() {
                   -{deal.savingsPct}%
                 </div>
                 <h3 className="font-semibold text-gray-900 text-sm mb-1">{deal.name}{dosageLabel(deal.commonDosages) ? ` ${dosageLabel(deal.commonDosages)}` : ""}</h3>
-                <div className="text-xs text-gray-400 line-through mb-1">&pound;{deal.maxPrice.toFixed(2)}</div>
+                <div className="text-xs text-black line-through mb-1">&pound;{deal.maxPrice.toFixed(2)}</div>
                 <div className="text-lg font-bold text-gray-900">&pound;{deal.minPrice.toFixed(2)}</div>
                 <div className="text-[10px] text-green-700 font-semibold mt-1">SAVE &pound;{deal.savingsAmount}</div>
-                <div className="text-[10px] text-gray-400 mt-1">at {deal.cheapestVendor?.vendor || "Various"}</div>
+                <div className="text-[10px] text-black mt-1">at {deal.cheapestVendor?.vendor || "Various"}</div>
                 <div className="mt-2 text-xs text-blue-600 font-medium flex items-center gap-1">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
                   View
@@ -373,7 +373,7 @@ export default function Home() {
             <span className="text-[10px] font-bold text-white uppercase tracking-wider">Trending This Week</span>
           </div>
           <h2 className="text-lg font-bold text-gray-900">Researchers are clicking on these</h2>
-          <p className="text-sm text-gray-500">The specific peptide + supplier combos getting the most attention right now.</p>
+          <p className="text-sm text-black">The specific peptide + supplier combos getting the most attention right now.</p>
         </div>
         <ScrollSection>
           {trendingVendorItems.map((item) => (
@@ -382,7 +382,7 @@ export default function Home() {
                 <span className="text-xs font-bold text-gray-300 w-4 flex-shrink-0">{item.rank}</span>
                 <div className="min-w-0">
                   <h3 className="font-semibold text-gray-900 text-sm">{item.compound.name}{dosageLabel(item.compound.commonDosages) ? ` ${dosageLabel(item.compound.commonDosages)}` : ""}</h3>
-                  <p className="text-xs text-gray-500">at {item.vendor.vendor}</p>
+                  <p className="text-xs text-black">at {item.vendor.vendor}</p>
                   <div className="flex items-center gap-2 mt-1.5">
                     <span className="text-xs font-semibold text-gray-900">{item.vendor.price}</span>
                     {item.vendorData?.verified && (
@@ -416,7 +416,7 @@ export default function Home() {
                 <span className="text-[10px] font-bold text-white uppercase tracking-wider">{group.badge}</span>
               </div>
               <h2 className="text-xl font-bold text-gray-900">{group.title}</h2>
-              <p className="text-sm text-gray-500">{group.desc}</p>
+              <p className="text-sm text-black">{group.desc}</p>
             </div>
             <ScrollSection>
               {groupCompounds.map((c) => {
@@ -431,17 +431,17 @@ export default function Home() {
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
                       <div className="mt-1 flex items-baseline gap-0.5">
                         <span className="text-lg font-bold text-gray-900">{c.sources.length}</span>
-                        <span className="text-[10px] text-gray-500 uppercase tracking-wider font-medium">SUPPLIERS</span>
+                        <span className="text-[10px] text-black uppercase tracking-wider font-medium">SUPPLIERS</span>
                       </div>
                       {dosages.length > 0 && (
                         <div className="flex flex-wrap gap-1 mt-2">
                           {dosages.map((d) => (
-                            <span key={d} className="text-[10px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded font-medium">{d}</span>
+                            <span key={d} className="text-[10px] bg-gray-100 text-black px-1.5 py-0.5 rounded font-medium">{d}</span>
                           ))}
                         </div>
                       )}
                       <div className="mt-2">
-                        <span className="text-[10px] text-gray-400 uppercase tracking-wide font-medium">FROM</span>
+                        <span className="text-[10px] text-black uppercase tracking-wide font-medium">FROM</span>
                         <div className="text-sm font-bold text-gray-900">&pound;{minPrice.toFixed(2)}</div>
                       </div>
                       <div className="mt-1.5 text-xs text-blue-600 font-medium flex items-center gap-1 group-hover:underline">
@@ -465,7 +465,7 @@ export default function Home() {
             <span className="text-[10px] font-bold text-white uppercase tracking-wider">Who We Are</span>
           </div>
           <h2 className="text-xl font-bold text-gray-900 mb-3">The UK&apos;s independent peptide price comparison platform</h2>
-          <p className="text-sm text-gray-600 leading-relaxed">
+          <p className="text-sm text-black leading-relaxed">
             ViralPeps is an independent UK peptide price comparison platform. We help researchers find the best deals from trusted suppliers.
             We don&apos;t sell or supply any products &mdash; we simply compare prices so you can make informed decisions.
             We may earn a commission from qualifying purchases, but this never affects our rankings or pricing data.

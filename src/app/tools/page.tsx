@@ -64,7 +64,7 @@ export default function ToolsPage() {
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
             Peptide Tools &amp; <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Calculators</span>
           </h1>
-          <p className="text-gray-400 text-sm max-w-xl mx-auto">Free calculators for peptide research — reconstitution, dosage conversion, and half-life reference.</p>
+          <p className="text-gray-300 text-sm max-w-xl mx-auto">Free calculators for peptide research — reconstitution, dosage, and more.</p>
         </div>
       </section>
 
@@ -74,19 +74,19 @@ export default function ToolsPage() {
         {/* TOOL 1: Reconstitution Calculator */}
         <div className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-bold text-gray-900 mb-1">Reconstitution Calculator</h2>
-          <p className="text-sm text-gray-500 mb-5">Calculate how much BAC water to add for your target dose.</p>
+          <p className="text-sm text-black mb-5">Calculate how much BAC water to add for your target dose.</p>
 
           <div className="space-y-3">
             <div>
-              <label className="text-sm text-gray-800 font-medium block mb-1">Peptide amount (mg)</label>
+              <label className="text-sm text-black font-medium block mb-1">Peptide amount (mg)</label>
               <input type="number" value={recon.peptideMg} onChange={e => setRecon({...recon, peptideMg: parseFloat(e.target.value) || 0})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
             </div>
             <div>
-              <label className="text-sm text-gray-800 font-medium block mb-1">BAC water (ml)</label>
+              <label className="text-sm text-black font-medium block mb-1">BAC water (ml)</label>
               <input type="number" value={recon.waterMl} onChange={e => setRecon({...recon, waterMl: parseFloat(e.target.value) || 0})} step="0.1" className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
             </div>
             <div>
-              <label className="text-sm text-gray-800 font-medium block mb-1">Target dose (mcg)</label>
+              <label className="text-sm text-black font-medium block mb-1">Target dose (mcg)</label>
               <input type="number" value={recon.doseMcg} onChange={e => setRecon({...recon, doseMcg: parseFloat(e.target.value) || 0})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
             </div>
             <button onClick={calcRecon} className="w-full py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition">Calculate</button>
@@ -94,7 +94,7 @@ export default function ToolsPage() {
             {reconResult && (
               <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 text-sm space-y-1">
                 <p className="text-gray-900 font-semibold">{reconResult.unitsPerDose} units on an insulin syringe</p>
-                <p className="text-gray-600 text-xs">{reconResult.mcgPerUnit} mcg per unit</p>
+                <p className="text-black text-xs">{reconResult.mcgPerUnit} mcg per unit</p>
               </div>
             )}
           </div>
@@ -103,16 +103,16 @@ export default function ToolsPage() {
         {/* TOOL 2: Dosage Converter */}
         <div className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-bold text-gray-900 mb-1">Dosage Converter</h2>
-          <p className="text-sm text-gray-500 mb-5">Convert between mcg, mg, and grams.</p>
+          <p className="text-sm text-black mb-5">Convert between mcg, mg, and grams.</p>
 
           <div className="space-y-3">
             <div>
-              <label className="text-sm text-gray-800 font-medium block mb-1">Value</label>
+              <label className="text-sm text-black font-medium block mb-1">Value</label>
               <input type="number" value={convert.value} onChange={e => setConvert({...convert, value: parseFloat(e.target.value) || 0})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="text-sm text-gray-800 font-medium block mb-1">From</label>
+                <label className="text-sm text-black font-medium block mb-1">From</label>
                 <select value={convert.from} onChange={e => setConvert({...convert, from: e.target.value})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white">
                   <option value="mcg">mcg (&micro;g)</option>
                   <option value="mg">mg</option>
@@ -120,7 +120,7 @@ export default function ToolsPage() {
                 </select>
               </div>
               <div>
-                <label className="text-sm text-gray-800 font-medium block mb-1">To</label>
+                <label className="text-sm text-black font-medium block mb-1">To</label>
                 <select value={convert.to} onChange={e => setConvert({...convert, to: e.target.value})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white">
                   <option value="mcg">mcg (&micro;g)</option>
                   <option value="mg">mg</option>
@@ -141,11 +141,11 @@ export default function ToolsPage() {
         {/* TOOL 3: Half-Life Reference */}
         <div className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-bold text-gray-900 mb-1">Half-Life Reference</h2>
-          <p className="text-sm text-gray-500 mb-5">Look up the half-life of common research peptides.</p>
+          <p className="text-sm text-black mb-5">Look up the half-life of common research peptides.</p>
 
           <div className="space-y-3">
             <div>
-              <label className="text-sm text-gray-800 font-medium block mb-1">Peptide</label>
+              <label className="text-sm text-black font-medium block mb-1">Peptide</label>
               <select value={half.substance} onChange={e => setHalf({...half, substance: e.target.value})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white">
                 {Object.keys(halfLives).map(s => (
                   <option key={s} value={s}>{s}</option>
@@ -154,7 +154,7 @@ export default function ToolsPage() {
             </div>
             {half.substance === "Custom" && (
               <div>
-                <label className="text-sm text-gray-800 font-medium block mb-1">Enter half-life</label>
+                <label className="text-sm text-black font-medium block mb-1">Enter half-life</label>
                 <input type="text" value={half.customHalfLife} onChange={e => setHalf({...half, customHalfLife: e.target.value})} placeholder="e.g. 2 hours" className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
               </div>
             )}

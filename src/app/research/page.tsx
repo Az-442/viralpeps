@@ -17,7 +17,7 @@ export default function ResearchPage() {
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
             Research <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Library</span>
           </h1>
-          <p className="text-gray-400 text-sm max-w-xl mx-auto">
+          <p className="text-gray-300 text-sm max-w-xl mx-auto">
             Guides and educational resources for peptide research.
           </p>
         </div>
@@ -32,7 +32,7 @@ export default function ResearchPage() {
             <rect x="20" y="2" width="8" height="12" rx="2" fill="#94a3b8" />
           </svg>
           <h2 className="text-xl font-bold text-gray-900 mb-2">Coming Soon</h2>
-          <p className="text-sm text-gray-500 max-w-md mx-auto mb-6">
+          <p className="text-sm text-black max-w-md mx-auto mb-6">
             We&apos;re building a comprehensive research library with detailed guides on peptide research protocols, safety, and best practices.
           </p>
           <Link href="/compounds" className="inline-block px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors">

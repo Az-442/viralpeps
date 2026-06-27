@@ -42,7 +42,7 @@ export default function SearchBar() {
   return (
     <div ref={ref} className="relative">
       <div className="relative">
-        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         <input
@@ -51,15 +51,15 @@ export default function SearchBar() {
           value={query}
           onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
           onFocus={() => setOpen(true)}
-          className="w-full pl-12 pr-4 py-4 text-base text-gray-900 border border-gray-200 rounded-xl bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400"
+          className="w-full pl-12 pr-4 py-4 text-base text-black border border-black rounded-xl bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-900"
         />
       </div>
 
       {open && total > 0 && (
-        <div className="absolute top-full mt-2 w-full bg-white border border-gray-100 rounded-xl shadow-lg overflow-hidden z-50">
+        <div className="absolute top-full mt-2 w-full bg-white border border-black rounded-xl shadow-lg overflow-hidden z-50">
           {results.compounds.length > 0 && (
             <div>
-              <div className="px-4 py-2 bg-gray-50 text-xs font-semibold text-gray-500 uppercase tracking-wider">Compounds</div>
+              <div className="px-4 py-2 bg-gray-50 text-xs font-semibold text-black uppercase tracking-wider">Compounds</div>
               {results.compounds.map((c) => (
                 <Link
                   key={c.slug}
@@ -70,17 +70,17 @@ export default function SearchBar() {
                   <div>
                     <span className="text-sm font-medium text-gray-900">{c.name}</span>
                     {c.aliases && c.aliases.length > 0 && (
-                      <span className="text-xs text-gray-400 ml-2">{c.aliases[0]}</span>
+                      <span className="text-xs text-black ml-2">{c.aliases[0]}</span>
                     )}
                   </div>
-                  <span className="text-xs text-gray-400 capitalize">{c.category?.replace(/-/g, " ")}</span>
+                  <span className="text-xs text-black capitalize">{c.category?.replace(/-/g, " ")}</span>
                 </Link>
               ))}
             </div>
           )}
           {results.vendors.length > 0 && (
             <div>
-              <div className="px-4 py-2 bg-gray-50 text-xs font-semibold text-gray-500 uppercase tracking-wider border-t border-gray-50">Vendors</div>
+              <div className="px-4 py-2 bg-gray-50 text-xs font-semibold text-black uppercase tracking-wider border-t border-gray-50">Vendors</div>
               {results.vendors.map((v) => (
                 <Link
                   key={v.slug}

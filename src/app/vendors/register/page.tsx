@@ -52,7 +52,7 @@ export default function VendorRegisterPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
               Registration Submitted
             </h1>
-            <p className="text-gray-400 text-lg max-w-lg mx-auto">
+            <p className="text-gray-300 text-lg max-w-lg mx-auto">
               Thank you for applying to list your business on ViralPeps. Our team will review your submission and get back to you within 2&ndash;3 business days.
             </p>
             <div className="mt-8 flex justify-center gap-4">
@@ -82,7 +82,7 @@ export default function VendorRegisterPage() {
               ViralPeps
             </span>
           </h1>
-          <p className="text-gray-400 text-base max-w-xl mx-auto">
+          <p className="text-gray-300 text-base max-w-xl mx-auto">
             Join the most comprehensive peptide directory. Get discovered by thousands of researchers and enthusiasts every month.
           </p>
         </div>
@@ -133,7 +133,7 @@ export default function VendorRegisterPage() {
               <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">{t.icon}</div>
               <div>
                 <p className="text-sm font-semibold text-gray-900">{t.title}</p>
-                <p className="text-xs text-gray-500">{t.desc}</p>
+                <p className="text-xs text-black">{t.desc}</p>
               </div>
             </div>
           ))}
@@ -181,14 +181,14 @@ export default function VendorRegisterPage() {
             <label className="block text-sm font-semibold text-gray-900 mb-1.5">
               Product Categories <span className="text-red-500">*</span>
             </label>
-            <p className="text-xs text-gray-500 mb-3">Select all that apply to your business.</p>
+            <p className="text-xs text-black mb-3">Select all that apply to your business.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
               {CATEGORIES.map((cat) => (
                 <label key={cat}
                   className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-sm cursor-pointer transition ${
                     selectedCategories.includes(cat)
                       ? "border-blue-400 bg-blue-50 text-blue-700"
-                      : "border-gray-200 bg-white text-gray-700 hover:border-gray-300"
+                      : "border-gray-200 bg-white text-black hover:border-gray-300"
                   }`}>
                   <input type="checkbox" checked={selectedCategories.includes(cat)}
                     onChange={() => toggleCategory(cat)} className="accent-blue-600" />
@@ -224,7 +224,7 @@ export default function VendorRegisterPage() {
             {loading ? "Submitting..." : "Submit Registration"}
           </button>
         </form>
-        <p className="text-xs text-gray-400 text-center mt-6">
+        <p className="text-xs text-black text-center mt-6">
           By submitting, you agree to our{" "}
           <Link href="/terms" className="text-blue-600 hover:underline">Terms</Link>{" "}
           and{" "}<Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>.

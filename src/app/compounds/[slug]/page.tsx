@@ -111,12 +111,12 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* BREADCRUMB */}
-      <div className="max-w-6xl mx-auto px-4 py-3 text-xs text-gray-400">
+      <div className="max-w-6xl mx-auto px-4 py-3 text-xs text-black">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1">/</span>
         <Link href="/compounds" className="hover:text-blue-600">Peptides</Link>
         <span className="mx-1">/</span>
-        <span className="text-gray-600">{compound.name}</span>
+        <span className="text-black">{compound.name}</span>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 pb-8">
@@ -136,7 +136,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
                 <h1 className="text-2xl font-bold text-gray-900">{compound.name}</h1>
                 {compound.aliases.length > 0 && (
-                  <p className="text-xs text-gray-500">Also known as: {compound.aliases.join(", ")}</p>
+                  <p className="text-xs text-black">Also known as: {compound.aliases.join(", ")}</p>
                 )}
 
                 <div className="grid grid-cols-2 gap-2">
@@ -149,7 +149,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     { label: "Sequence", value: compound.sequence?.slice(0, 20) + (compound.sequence?.length > 20 ? "..." : "") },
                   ].map((m) => (
                     <div key={m.label} className="bg-gray-50 p-3 rounded-lg">
-                      <p className="text-[10px] text-gray-400 uppercase tracking-wider">{m.label}</p>
+                      <p className="text-[10px] text-black uppercase tracking-wider">{m.label}</p>
                       <p className="text-xs font-medium text-gray-900 mt-0.5">{m.value || "—"}</p>
                     </div>
                   ))}
@@ -163,12 +163,12 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             {/* DESCRIPTION */}
             <div className="bg-white border border-gray-100 rounded-xl p-6">
               <h2 className="text-lg font-bold text-gray-900 mb-3">About {compound.name}</h2>
-              <p className="text-sm text-gray-600 leading-relaxed">{compound.description}</p>
+              <p className="text-sm text-black leading-relaxed">{compound.description}</p>
 
               {compound.mechanism && (
                 <>
                   <h3 className="text-sm font-semibold text-gray-900 mt-4 mb-2">Mechanism of Action</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{compound.mechanism}</p>
+                  <p className="text-sm text-black leading-relaxed">{compound.mechanism}</p>
                 </>
               )}
 
@@ -185,10 +185,10 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
               {compound.commonDosages.length > 0 && (
                 <div className="mt-3">
-                  <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Common Dosages</p>
+                  <p className="text-xs font-semibold text-black uppercase tracking-wider mb-1">Common Dosages</p>
                   <div className="flex flex-wrap gap-1.5">
                     {compound.commonDosages.map((d) => (
-                      <span key={d} className="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded font-medium">{d}</span>
+                      <span key={d} className="text-xs bg-gray-100 text-black px-2 py-0.5 rounded font-medium">{d}</span>
                     ))}
                   </div>
                 </div>
@@ -219,7 +219,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                           </span>
                         )}
                         <span className="text-xs text-amber-500">★ {featuredVendor.rating}</span>
-                        <span className="text-xs text-gray-400">{featuredVendor.country}</span>
+                        <span className="text-xs text-black">{featuredVendor.country}</span>
                       </div>
                     </div>
                   </div>
@@ -238,7 +238,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 {featuredVendor.highlights && featuredVendor.highlights.length > 0 && (
                   <div className="flex flex-wrap gap-2 mt-3">
                     {featuredVendor.highlights.slice(0, 3).map((h) => (
-                      <span key={h} className="text-[10px] bg-white text-gray-700 px-2 py-0.5 rounded-full border border-amber-100">{h}</span>
+                      <span key={h} className="text-[10px] bg-white text-black px-2 py-0.5 rounded-full border border-amber-100">{h}</span>
                     ))}
                   </div>
                 )}
@@ -251,7 +251,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 <h2 className="text-lg font-bold text-gray-900">
                   Compare Prices from {compound.sources.length} Suppliers
                 </h2>
-                <p className="text-sm text-gray-500 mt-1">
+                <p className="text-sm text-black mt-1">
                   Lowest price: <strong className="text-green-600">&pound;{minPrice.toFixed(2)}</strong>
                 </p>
               </div>
@@ -280,7 +280,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                             )}
                           </div>
                           {vendor && (
-                            <div className="flex items-center gap-2 text-[10px] text-gray-400 mt-0.5">
+                            <div className="flex items-center gap-2 text-[10px] text-black mt-0.5">
                               <span className="text-amber-500">★ {vendor.rating}</span>
                               <span>{vendor.country}</span>
                             </div>
@@ -293,7 +293,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                           {savings === "Best price" ? (
                             <span className="text-[10px] text-green-600 font-semibold">{savings}</span>
                           ) : (
-                            <span className="text-[10px] text-gray-400">{savings}</span>
+                            <span className="text-[10px] text-black">{savings}</span>
                           )}
                         </div>
                         <a
@@ -332,7 +332,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 ].map((faq, i) => (
                   <div key={i} className="border-b border-gray-50 pb-3 last:border-0 last:pb-0">
                     <h3 className="text-sm font-semibold text-gray-900 mb-1">{faq.q}</h3>
-                    <p className="text-sm text-gray-600 leading-relaxed">{faq.a}</p>
+                    <p className="text-sm text-black leading-relaxed">{faq.a}</p>
                   </div>
                 ))}
               </div>
