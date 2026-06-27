@@ -19,6 +19,9 @@ export default function ProductImage({ vendorSlug, compoundSlug, compoundName }:
       setImgSrc(`/images/products/${vendorSlug}/${compoundSlug}.png`);
     } else if (fallbackLevel === 1) {
       setFallbackLevel(2);
+      setImgSrc(`/images/products/${vendorSlug}/ukp-generic.webp`);
+    } else if (fallbackLevel === 2) {
+      setFallbackLevel(3);
       setImgSrc(`/images/compounds/${compoundSlug}.svg`);
       setImgClass("w-7 h-7 object-contain");
     }
