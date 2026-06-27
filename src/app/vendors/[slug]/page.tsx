@@ -256,50 +256,47 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 key={c.id}
                 className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="flex flex-row items-center p-2.5 md:p-3 gap-2 md:gap-3">
-                  {/* Product Image */}
-                  <div className="w-16 h-16 sm:w-16 md:w-[72px] sm:h-16 md:h-[72px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
-                    <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
-                  </div>
-
-                  {/* Info - grows to fill */}
-                  <div className="flex-1 min-w-0 w-full">
-                    <div className="flex flex-wrap items-center gap-1.5 mb-1">
-                      <h3 className="font-semibold text-slate-900 text-sm md:text-base">{c.name}</h3>
-                      {variantCount > 0 && (
-                        <span className="text-[10px] font-medium bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full border border-slate-200">
-                          {variantCount} {variantCount === 1 ? "size" : "sizes"}
-                        </span>
-                      )}
+                <div className="flex flex-col">
+                  {/* Top row: Image + Info */}
+                  <div className="flex flex-row items-center gap-2 p-2.5 pb-1 md:p-3 md:pb-1">
+                    <div className="w-14 h-14 sm:w-14 md:w-[72px] sm:h-14 md:h-[72px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
+                      <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
                     </div>
-
-                    <div className="flex flex-wrap items-center gap-1.5 text-xs text-slate-500 mb-2">
-                      <span className="bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
-                      {source?.inStock !== false && (
-                        <span className="flex items-center gap-1 text-green-600 font-medium">
-                          <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
-                          In Stock
-                        </span>
-                      )}
-                    </div>
-
-                    {/* Variant pills */}
-                    {options && options.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5 mb-1">
-                        {options.map((opt) => (
-                          <span key={opt.size} className="text-[10px] bg-slate-50 text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
-                            {opt.size} — {opt.price}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex flex-wrap items-center gap-1.5 mb-0.5">
+                        <h3 className="font-semibold text-slate-900 text-sm md:text-base">{c.name}</h3>
+                        {variantCount > 0 && (
+                          <span className="text-[10px] font-medium bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full border border-slate-200">
+                            {variantCount} {variantCount === 1 ? "size" : "sizes"}
                           </span>
-                        ))}
+                        )}
                       </div>
-                    )}
+                      <div className="flex flex-wrap items-center gap-1.5 text-xs text-slate-500">
+                        <span className="bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
+                        {source?.inStock !== false && (
+                          <span className="flex items-center gap-1 text-green-600 font-medium">
+                            <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                            In Stock
+                          </span>
+                        )}
+                      </div>
+                    </div>
                   </div>
 
-                  {/* Price + Actions */}
-                  <div className="flex flex-row sm:flex-col items-center sm:items-end justify-between sm:justify-center gap-2 sm:gap-2 w-full sm:w-auto flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-100">
-                    <div className="text-right">
-                      <div className="text-lg md:text-xl font-bold text-emerald-600">{source?.price}</div>
+                  {/* Variant pills */}
+                  {options && options.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 px-2.5 md:px-3 pb-1">
+                      {options.map((opt) => (
+                        <span key={opt.size} className="text-[10px] bg-slate-50 text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
+                          {opt.size} — {opt.price}
+                        </span>
+                      ))}
                     </div>
+                  )}
+
+                  {/* Bottom row: Price + Actions */}
+                  <div className="flex flex-row items-center justify-between px-2.5 pb-2.5 md:px-3 md:pb-3 pt-2 border-t border-slate-100">
+                    <div className="text-base md:text-xl font-bold text-emerald-600">{source?.price}</div>
                     <div className="flex items-center gap-1.5">
                       <Link
                         href={`/compounds/${c.slug}`}
