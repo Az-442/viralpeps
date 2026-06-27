@@ -32,7 +32,7 @@ export default function ProductImage({ vendorSlug, compoundSlug, compoundName }:
     <img
       src={`/images/products/${vendorSlug}/${compoundSlug}.webp`}
       alt={compoundName}
-      className="w-full h-full object-cover"
+      className="w-full h-full object-contain p-1"
       onError={handleError}
     />
   );
