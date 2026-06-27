@@ -244,7 +244,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
 
       {/* PRODUCTS LIST SECTION — Card layout */}
       <div className="max-w-6xl mx-auto px-4 pb-12 -mt-2">
-        <div className="space-y-4 md:space-y-5">
+        <div className="space-y-3 md:space-y-4">
           {vendorCompounds.map((c) => {
             const source = c.sources.find((s) => s.vendor === vendor.name);
             const price = source ? parseFloat(source.price.replace(/[£$€,]/g, "")) : 0;
@@ -256,28 +256,28 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 key={c.id}
                 className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="flex flex-col sm:flex-row items-start sm:items-center p-4 md:p-6 gap-4 md:gap-6">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center p-3 md:p-4 gap-3 md:gap-4">
                   {/* Product Image */}
-                  <div className="w-full sm:w-24 md:w-28 h-48 sm:h-24 md:h-28 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
+                  <div className="w-full sm:w-20 md:w-24 h-40 sm:h-20 md:h-24 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
                     <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
                   </div>
 
                   {/* Info - grows to fill */}
                   <div className="flex-1 min-w-0 w-full">
-                    <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                      <h3 className="font-semibold text-slate-900 text-base md:text-lg">{c.name}</h3>
+                    <div className="flex flex-wrap items-center gap-1.5 mb-1">
+                      <h3 className="font-semibold text-slate-900 text-sm md:text-base">{c.name}</h3>
                       {variantCount > 0 && (
-                        <span className="text-[11px] font-medium bg-slate-100 text-slate-500 px-2.5 py-0.5 rounded-full border border-slate-200">
+                        <span className="text-[10px] font-medium bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full border border-slate-200">
                           {variantCount} {variantCount === 1 ? "size" : "sizes"}
                         </span>
                       )}
                     </div>
 
-                    <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500 mb-3">
-                      <span className="bg-blue-50 text-blue-600 px-2 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
+                    <div className="flex flex-wrap items-center gap-1.5 text-xs text-slate-500 mb-2">
+                      <span className="bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
                       {source?.inStock !== false && (
-                        <span className="flex items-center gap-1.5 text-green-600 font-medium">
-                          <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                        <span className="flex items-center gap-1 text-green-600 font-medium">
+                          <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
                           In Stock
                         </span>
                       )}
@@ -285,9 +285,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
 
                     {/* Variant pills */}
                     {options && options.length > 0 && (
-                      <div className="flex flex-wrap gap-2 mb-2">
+                      <div className="flex flex-wrap gap-1.5 mb-1">
                         {options.map((opt) => (
-                          <span key={opt.size} className="text-xs bg-slate-50 text-slate-600 px-2.5 py-1 rounded-md border border-slate-200 font-medium">
+                          <span key={opt.size} className="text-[10px] bg-slate-50 text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
                             {opt.size} — {opt.price}
                           </span>
                         ))}
@@ -296,14 +296,14 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   </div>
 
                   {/* Price + Actions */}
-                  <div className="flex flex-row sm:flex-col items-center sm:items-end justify-between sm:justify-center gap-3 sm:gap-3 w-full sm:w-auto flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-100">
+                  <div className="flex flex-row sm:flex-col items-center sm:items-end justify-between sm:justify-center gap-2 sm:gap-2 w-full sm:w-auto flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-100">
                     <div className="text-right">
-                      <div className="text-xl md:text-2xl font-bold text-emerald-600">{source?.price}</div>
+                      <div className="text-lg md:text-xl font-bold text-emerald-600">{source?.price}</div>
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1.5">
                       <Link
                         href={`/compounds/${c.slug}`}
-                        className="text-xs font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
+                        className="text-[10px] sm:text-xs font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
                       >
                         Compare {c.sources.length} suppliers →
                       </Link>
@@ -311,7 +311,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                         href={source?.url || "#"}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-lg transition-colors shadow-sm whitespace-nowrap"
+                        className="px-3 py-1.5 sm:px-4 sm:py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-lg transition-colors shadow-sm whitespace-nowrap"
                       >
                         View Deal →
                       </a>
