@@ -23,6 +23,19 @@ const topVendors = [...vendors]
   .sort((a, b) => (vendorCompoundCounts[b.name] || 0) - (vendorCompoundCounts[a.name] || 0))
   .slice(0, 4);
 
+// Min and max prices per vendor
+const vendorPrices: Record<string, { min: number; max: number }> = {};
+for (const c of compounds) {
+  for (const s of c.sources) {
+    const price = parseFloat(s.price.replace(/[£$€,]/g, ""));
+    if (!isNaN(price)) {
+      if (!vendorPrices[s.vendor]) vendorPrices[s.vendor] = { min: Infinity, max: 0 };
+      if (price < vendorPrices[s.vendor].min) vendorPrices[s.vendor].min = price;
+      if (price > vendorPrices[s.vendor].max) vendorPrices[s.vendor].max = price;
+    }
+  }
+}
+
 const trending = [...compounds]
   .sort((a, b) => b.sources.length - a.sources.length)
   .slice(0, 12);
@@ -60,7 +73,16 @@ const trendingVendorItems = [...compounds]
   .slice(0, 10)
   .map((item, i) => ({ ...item, rank: i + 1 }));
 
-// Category groups matching PepSupermarket style
+// Extract a clean dosage label from commonDosages
+function dosageLabel(dosages: string[]): string {
+  if (!dosages || dosages.length === 0) return "";
+  const first = dosages[0];
+  // Extract number + unit (e.g. "2.5 mg/week" -> "2.5mg", "200-400 mcg/day" -> "200mcg")
+  const match = first.match(/([\d.,]+)\s*(mg|mcg|g|ml)/i);
+  if (match) return match[1] + match[2].toLowerCase();
+  return "";
+}
+
 const categoryGroups = [
   {
     badge: "WEIGHT LOSS & METABOLISM",
@@ -238,6 +260,7 @@ export default function Home() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {topVendors.map((v) => {
             const count = vendorCompoundCounts[v.name] || 0;
+            const prices = vendorPrices[v.name];
             const isFirst = v === topVendors[0];
             const isLast = v === topVendors[topVendors.length - 1];
             return (
@@ -262,7 +285,7 @@ export default function Home() {
                 <div className="flex items-center justify-between">
                   <div>
                     <span className="text-[10px] text-gray-400 uppercase font-medium">{isFirst ? "BEST PRICE" : isLast ? "HIGHEST" : "PRICE"}</span>
-                    <div className="text-sm font-bold text-gray-900">{count} products</div>
+                    <div className="text-sm font-bold text-gray-900">{prices ? `£${prices.min.toFixed(2)}` : `${count} products`}</div>
                   </div>
                   <span className="text-xs text-blue-600 font-medium group-hover:underline">View &rarr;</span>
                 </div>
@@ -327,7 +350,7 @@ export default function Home() {
                 <div className="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded inline-block mb-2">
                   -{deal.savingsPct}%
                 </div>
-                <h3 className="font-semibold text-gray-900 text-sm mb-1">{deal.name}</h3>
+                <h3 className="font-semibold text-gray-900 text-sm mb-1">{deal.name}{dosageLabel(deal.commonDosages) ? ` ${dosageLabel(deal.commonDosages)}` : ""}</h3>
                 <div className="text-xs text-gray-400 line-through mb-1">&pound;{deal.maxPrice.toFixed(2)}</div>
                 <div className="text-lg font-bold text-gray-900">&pound;{deal.minPrice.toFixed(2)}</div>
                 <div className="text-[10px] text-green-700 font-semibold mt-1">SAVE &pound;{deal.savingsAmount}</div>
@@ -358,7 +381,7 @@ export default function Home() {
               <div className="flex items-start gap-3">
                 <span className="text-xs font-bold text-gray-300 w-4 flex-shrink-0">{item.rank}</span>
                 <div className="min-w-0">
-                  <h3 className="font-semibold text-gray-900 text-sm">{item.compound.name}</h3>
+                  <h3 className="font-semibold text-gray-900 text-sm">{item.compound.name}{dosageLabel(item.compound.commonDosages) ? ` ${dosageLabel(item.compound.commonDosages)}` : ""}</h3>
                   <p className="text-xs text-gray-500">at {item.vendor.vendor}</p>
                   <div className="flex items-center gap-2 mt-1.5">
                     <span className="text-xs font-semibold text-gray-900">{item.vendor.price}</span>
