@@ -4,7 +4,6 @@ import vendors from "@/data/vendors.json";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
-import ProductImage from "@/components/ProductImage";
 
 export const dynamic = "force-dynamic";
 
@@ -151,14 +150,12 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               return (
                 <Link
                   key={c.id}
-                  href={source?.url || `/compounds/${c.slug}`}
-                  target={source?.url ? "_blank" : undefined}
-                  rel={source?.url ? "noopener noreferrer" : undefined}
+                  href={`/compounds/${c.slug}`}
                   className="flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
                 >
                   <div className="flex items-center gap-3 min-w-0 flex-1">
-                    <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                      <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
+                    <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
+                      <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-7 h-7 object-contain" />
                     </div>
                     <div className="min-w-0">
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
@@ -168,20 +165,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col items-end gap-1 flex-shrink-0">
-                    <span className="flex items-center gap-2">
-                      {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
-                      <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
-                    </span>
-                    {source?.options && source.options.length > 0 && (
-                      <div className="flex flex-wrap gap-1 justify-end">
-                        {source.options.map((opt) => (
-                          <span key={opt.label} className="text-[10px] bg-gray-50 text-black px-1.5 py-0.5 rounded font-medium">
-                            {opt.label} @ {opt.price}
-                          </span>
-                        ))}
-                      </div>
-                    )}
+                  <div className="flex items-center gap-3 flex-shrink-0">
+                    {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
+                    <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
                   </div>
                 </Link>
               );
