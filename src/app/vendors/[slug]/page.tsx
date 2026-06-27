@@ -232,10 +232,10 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               ))}
             </div>
 
-            {/* Discount code banner */}
+            {/* Prices note */}
             <div className="mt-4 text-center">
               <p className="text-xs text-slate-500">
-                Prices checked daily &bull; May earn commission on purchases
+                Prices last updated: daily
               </p>
             </div>
           </div>
