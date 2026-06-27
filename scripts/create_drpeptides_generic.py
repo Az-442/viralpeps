@@ -1,35 +1,19 @@
 #!/usr/bin/env python3
-"""
-Create generic branded vial images for compounds missing real product photos.
-"""
+"""Create generic branded vial images for Dr Peptides compounds missing real photos."""
 import os
-import sys
 from PIL import Image, ImageDraw, ImageFont
 
-PROJECT_ROOT = "/Users/time4you/viralpeps"
-IMAGES_DIR = os.path.join(PROJECT_ROOT, "public", "images", "products")
+OUTPUT_DIR = "/Users/time4you/viralpeps/public/images/products/dr-peptides"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-COMPOUNDS = [
-    "tirzepatide", "semaglutide", "bpc-157", "tb-500", "melanotan-ii",
-    "ghrp-2", "aod-9604", "retatrutide", "cjc-1295", "igf-1-lr3",
-    "tesamorelin", "sermorelin", "mots-c", "ss-31", "ghk-cu", "kpv",
-    "thymosin-alpha-1", "epitalon", "semax", "selank", "ara-290",
-    "bpc-157-oral", "fragment-176-191", "hexarelin", "ipamorelin",
-    "ghrp-6", "pt-141", "kisspeptin-10", "cerebrolysin", "p21",
-    "dihexa", "noopept", "phenylpiracetam", "pramipexole",
-    "bpc-157-tb-500-blend", "gonadorelin", "dsip", "oxytocin"
+MISSING_COMPOUNDS = [
+    "igf-1-lr3", "fragment-176-191", "bpc-157-oral", "tirzepatide",
+    "semaglutide", "melanotan-ii", "retatrutide", "cerebrolysin",
+    "p21", "noopept", "phenylpiracetam", "pramipexole", "gonadorelin"
 ]
-
-# Compounds known to have real images downloaded
-RP_REAL = ["bpc-157", "ghrp-2", "ghrp-6", "cjc-1295", "igf-1-lr3", 
-           "epitalon", "fragment-176-191", "hexarelin", "ipamorelin", "dsip"]
-TPC_REAL = ["retatrutide", "semaglutide", "bpc-157", "ghk-cu", 
-            "ipamorelin", "tesamorelin", "bpc-157-tb-500-blend", "tb-500"]
-
 
 def draw_vial(draw, cx, y_bottom, width=120, height=180):
     """Draw a glass vial centered at cx, with bottom at y_bottom."""
-    # Vial dimensions
     vial_w = width
     vial_h = height
     neck_w = vial_w * 0.45
@@ -53,7 +37,7 @@ def draw_vial(draw, cx, y_bottom, width=120, height=180):
         radius=4, fill=body_color, outline=(180, 185, 190), width=2
     )
     
-    # Liquid
+    # Liquid fill
     liquid_top = y1 + neck_h + vial_h * 0.3
     liquid_color = (220, 240, 248, 100)
     draw.rounded_rectangle(
@@ -81,7 +65,6 @@ def draw_vial(draw, cx, y_bottom, width=120, height=180):
     label_w = vial_w - 16
     label_h = vial_h * 0.35
     
-    # Only add label if there's room
     if label_h > 30:
         draw.rounded_rectangle(
             [label_x1, label_y1, label_x1 + label_w, label_y1 + label_h],
@@ -100,13 +83,13 @@ def create_vial_image(compound_name, vendor_name, output_path):
     img = Image.new("RGBA", (500, 500), (240, 244, 248, 255))
     draw = ImageDraw.Draw(img)
     
-    # Draw shadow
+    # Draw shadow under vial
     draw.ellipse([170, 440, 330, 460], fill=(0, 0, 0, 25))
     
     # Draw vial
     label_bbox = draw_vial(draw, 250, 435, width=140, height=210)
     
-    # Try to load a font
+    # Try to load fonts
     font_large = None
     font_small = None
     font_tiny = None
@@ -129,7 +112,7 @@ def create_vial_image(compound_name, vendor_name, output_path):
         font_small = font_large
         font_tiny = font_large
     
-    # Draw compound name on label
+    # Format compound name for display
     display_name = compound_name.replace("-", " ").upper()
     
     if label_bbox:
@@ -138,7 +121,7 @@ def create_vial_image(compound_name, vendor_name, output_path):
         label_cy = (ly1 + ly2) // 2
         
         # Draw compound name
-        draw.text((label_cx, label_cy - 14), display_name, 
+        draw.text((label_cx, label_cy - 14), display_name,
                   fill=(40, 40, 40), font=font_small, anchor="mm")
         
         # "Research Only" text
@@ -156,48 +139,46 @@ def create_vial_image(compound_name, vendor_name, output_path):
 
 
 def main():
-    # Process Research Peptides UK
-    rp_dir = os.path.join(IMAGES_DIR, "research-peptides-uk-main")
-    os.makedirs(rp_dir, exist_ok=True)
+    print("=== Creating generic Dr Peptides branded images ===\n")
     
-    rp_missing = [c for c in COMPOUNDS if c not in RP_REAL]
-    print(f"\nResearch Peptides UK - Creating {len(rp_missing)} generic images:")
-    for compound in sorted(rp_missing):
-        output = os.path.join(rp_dir, f"{compound}.webp")
+    created = 0
+    skipped = 0
+    
+    for compound in sorted(MISSING_COMPOUNDS):
+        output = os.path.join(OUTPUT_DIR, f"{compound}.webp")
         if os.path.exists(output):
+            size = os.path.getsize(output)
+            print(f"  ✓ {compound}.webp already exists ({size} bytes)")
+            skipped += 1
             continue
-        size = create_vial_image(compound, "Research Peptides UK", output)
-        print(f"  {compound}.webp ({size} bytes)")
+        
+        size = create_vial_image(compound, "Dr Peptides", output)
+        print(f"  ✓ Created {compound}.webp ({size} bytes)")
+        created += 1
     
-    # Process The Peptide Company
-    tpc_dir = os.path.join(IMAGES_DIR, "the-peptide-company")
-    os.makedirs(tpc_dir, exist_ok=True)
+    print(f"\n=== Done: {created} created, {skipped} skipped ===")
     
-    tpc_missing = [c for c in COMPOUNDS if c not in TPC_REAL]
-    print(f"\nThe Peptide Company - Creating {len(tpc_missing)} generic images:")
-    for compound in sorted(tpc_missing):
-        output = os.path.join(tpc_dir, f"{compound}.webp")
-        if os.path.exists(output):
-            continue
-        size = create_vial_image(compound, "The Peptide Company", output)
-        print(f"  {compound}.webp ({size} bytes)")
+    # Final count
+    all_files = sorted([f for f in os.listdir(OUTPUT_DIR) if f.endswith(".webp")])
+    print(f"\nTotal images in {OUTPUT_DIR}: {len(all_files)}")
     
-    # Final summary
-    print("\n" + "=" * 60)
-    print("FINAL SUMMARY")
-    print("=" * 60)
-    for vendor_slug in ["research-peptides-uk-main", "the-peptide-company"]:
-        vdir = os.path.join(IMAGES_DIR, vendor_slug)
-        files = sorted([f for f in os.listdir(vdir) if f.endswith(".webp")])
-        print(f"\n{vendor_slug}: {len(files)} images")
-        for f in files:
-            fpath = os.path.join(vdir, f)
-            print(f"  {f} ({os.path.getsize(fpath)} bytes)")
-        # Check which compounds are missing
-        existing = [f.replace(".webp", "") for f in files]
-        missing = [c for c in COMPOUNDS if c not in existing]
-        if missing:
-            print(f"  MISSING: {missing}")
+    # Check which of the 38 compounds are missing
+    all_38 = [
+        "tirzepatide", "semaglutide", "bpc-157", "tb-500", "melanotan-ii",
+        "ghrp-2", "aod-9604", "retatrutide", "cjc-1295", "igf-1-lr3",
+        "tesamorelin", "sermorelin", "mots-c", "ss-31", "ghk-cu", "kpv",
+        "thymosin-alpha-1", "epitalon", "semax", "selank", "ara-290",
+        "bpc-157-oral", "fragment-176-191", "hexarelin", "ipamorelin",
+        "ghrp-6", "pt-141", "kisspeptin-10", "cerebrolysin", "p21",
+        "dihexa", "noopept", "phenylpiracetam", "pramipexole",
+        "bpc-157-tb-500-blend", "gonadorelin", "dsip", "oxytocin"
+    ]
+    existing = [f.replace(".webp", "") for f in all_files]
+    final_missing = [c for c in all_38 if c not in existing]
+    if final_missing:
+        print(f"\nStill missing ({len(final_missing)}): {', '.join(final_missing)}")
+    else:
+        print(f"\n✓ All 38 compounds have images!")
 
 
 if __name__ == "__main__":
