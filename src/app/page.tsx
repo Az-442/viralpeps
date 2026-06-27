@@ -267,7 +267,7 @@ export default function Home() {
               <Link key={v.id} href={`/vendors/${v.slug}`} className="bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                    <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-8 h-8 object-contain" />
+                    <img src={`/images/vendors/${v.slug}.svg`} alt={v.name} className="w-8 h-8 object-contain" />
                   </div>
                   <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>

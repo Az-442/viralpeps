@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs><linearGradient id="ip-bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1e3a8a"/><stop offset="100%" style="stop-color:#1d4ed8"/></linearGradient></defs>
+  <rect width="120" height="120" rx="16" fill="url(#ip-bg)"/>
+  <text x="60" y="42" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="14" fill="#93c5fd" letter-spacing="2">IMPERIAL</text>
+  <text x="60" y="64" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="12" fill="#fff" letter-spacing="1">PEPTIDES</text>
+  <text x="60" y="86" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="12" fill="#93c5fd" letter-spacing="3">UK</text>
+</svg>

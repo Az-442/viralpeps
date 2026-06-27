@@ -207,7 +207,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                      <img src={`/images/vendors/${featuredVendor.slug}.png`} alt={featuredVendor.name} className="w-7 h-7 object-contain" />
+                      <img src={`/images/vendors/${featuredVendor.slug}.svg`} alt={featuredVendor.name} className="w-7 h-7 object-contain" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 text-sm">{featuredVendor.name}</h3>
@@ -267,7 +267,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     <div key={s.vendor} className={`p-4 flex items-center justify-between hover:bg-gray-50 transition-colors ${i === 0 ? "bg-amber-50/30" : ""}`}>
                       <div className="flex items-center gap-3 min-w-0 flex-1">
                         <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                          <img src={`/images/vendors/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}.png`} alt={vendor?.name || s.vendor} className="w-7 h-7 object-contain" />
+                          <img src={`/images/vendors/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}.svg`} alt={vendor?.name || s.vendor} className="w-7 h-7 object-contain" />
                         </div>
                         <div className="min-w-0">
                           <div className="flex items-center gap-2">
