@@ -33,12 +33,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a371.20",
-        "inStock": true
-      },
-      {
         "vendor": "Pure Peptides UK",
         "url": "https://example.com/tirzepatide",
         "price": "\u00a346.90",
@@ -144,12 +138,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a360.00",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/semaglutide",
         "price": "\u00a340.09",
@@ -252,10 +240,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a347.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-bpc-157-5-mg-research-only-peptide-for-research-use-only-coa-in-image/",
+        "price": "\u00a321.15",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a321.15"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a326.49"
+          }
+        ]
       },
       {
         "vendor": "Express Peptides",
@@ -372,10 +370,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a355.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-peptides-tb500-5mg-research-peptide-for-laboratory-use-onlycoa-in-images-2/",
+        "price": "\u00a322.53",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a322.53"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a335.19"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
@@ -492,12 +500,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a331.20",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://sterlingpeptides.co.uk",
         "price": "\u00a323.20",
@@ -611,10 +613,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a323.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-ghrp-2-10mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a329.99"
+          }
+        ]
       },
       {
         "vendor": "Imperial Peptides UK",
@@ -726,10 +734,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a336.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-aod-9604-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a344.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a344.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a379.99"
+          }
+        ]
       },
       {
         "vendor": "UK Peptides",
@@ -845,12 +863,6 @@
       "12 mg/week"
     ],
     "sources": [
-      {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a376.00",
-        "inStock": true
-      },
       {
         "vendor": "Research Peptides UK",
         "url": "https://example.com/retatrutide",
@@ -975,10 +987,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a339.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a329.99"
+          }
+        ]
       },
       {
         "vendor": "UK Peptides",
@@ -1091,12 +1109,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a363.20",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/igf-1-lr3",
         "price": "\u00a341.03",
@@ -1206,10 +1218,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a355.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-tesamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a349.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a379.99"
+          }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
@@ -1327,10 +1349,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a333.60",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-sermorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a339.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a339.99"
+          }
+        ]
       },
       {
         "vendor": "Research Peptide",
@@ -1442,10 +1470,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a347.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-mots-c-10mg-99-6-purity-research-only-peptide-for-laboratory-use-only-coa-in-images-excellent-rating/",
+        "price": "\u00a322.39",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a322.39"
+          }
+        ]
       },
       {
         "vendor": "The Peptide Company",
@@ -1547,10 +1581,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a371.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-ss-31-10mg-research-peptide-for-laboratory-use-only/",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a329.99"
+          }
+        ]
       },
       {
         "vendor": "Research Peptides UK",
@@ -1653,10 +1693,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a322.40",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-ghk-cu-50mg-research-only-peptide-for-laboratory-use-only-coa-in-images/",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "50 mg",
+            "price": "\u00a319.99"
+          },
+          {
+            "size": "100 mg",
+            "price": "\u00a334.99"
+          }
+        ]
       },
       {
         "vendor": "UK Peptides",
@@ -1782,10 +1832,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a328.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-kpv-10mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a319.99"
+          }
+        ]
       },
       {
         "vendor": "Pure Peptides UK",
@@ -1899,10 +1955,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a360.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-thymosin-alpha-1-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a334.99"
+          }
+        ]
       },
       {
         "vendor": "The Peptide Company",
@@ -2010,10 +2072,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a317.60",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-epithalon-10mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a319.99"
+          }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
@@ -2116,10 +2184,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a328.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-semax-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a317.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a317.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a329.99"
+          }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
@@ -2237,10 +2315,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a325.60",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-selank-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a315.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a315.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a329.99"
+          }
+        ]
       },
       {
         "vendor": "Pure Peptides UK",
@@ -2359,10 +2447,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a355.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-ara-290-10mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a334.99"
+          }
+        ]
       },
       {
         "vendor": "Pure Peptides UK",
@@ -2464,12 +2558,6 @@
       "500-1000 mcg/day for gut healing"
     ],
     "sources": [
-      {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a341.60",
-        "inStock": true
-      },
       {
         "vendor": "Pure Peptides UK",
         "url": "https://example.com/bpc-157-oral",
@@ -2582,12 +2670,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a332.00",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/fragment-176-191",
         "price": "\u00a325.64",
@@ -2667,10 +2749,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a328.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-hexarelin-5mg-research-peptide-for-laboratory-use-only/",
+        "price": "\u00a326.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a326.99"
+          }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
@@ -2752,10 +2840,20 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a330.40",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-ipamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a324.49",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a324.49"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a344.99"
+          }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
@@ -2849,10 +2947,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a325.60",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-ghrp-6-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a319.99"
+          }
+        ]
       },
       {
         "vendor": "Research Peptide",
@@ -2946,10 +3050,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a344.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-pt-141-10mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a317.49",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a317.49"
+          }
+        ]
       },
       {
         "vendor": "Pure Peptides UK",
@@ -3044,16 +3154,36 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a339.99",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-kisspeptin-10-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a314.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a314.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a324.99"
+          }
+        ]
       },
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a348.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-kisspeptin-10-5mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a314.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a314.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a324.99"
+          }
+        ]
       },
       {
         "vendor": "The Peptide Company",
@@ -3150,12 +3280,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a360.00",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://example.com/cerebrolysin",
         "price": "\u00a342.70",
@@ -3237,18 +3361,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a339.99",
-        "inStock": true
-      },
-      {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a344.80",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/p21",
         "price": "\u00a333.54",
@@ -3329,10 +3441,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a352.00",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-dihexa-10mg-research-peptide-for-laboratory-use-only/",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a349.99"
+          }
+        ]
       },
       {
         "vendor": "Research Peptide",
@@ -3416,12 +3534,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a318.40",
-        "inStock": true
-      },
-      {
         "vendor": "Pure Peptides UK",
         "url": "https://example.com/noopept",
         "price": "\u00a312.12",
@@ -3501,12 +3613,6 @@
       "100 mg 1-2x/day"
     ],
     "sources": [
-      {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a320.80",
-        "inStock": true
-      },
       {
         "vendor": "Tide Labs",
         "url": "https://example.com/phenylpiracetam",
@@ -3589,12 +3695,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a324.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/pramipexole",
         "price": "\u00a319.55",
@@ -3675,12 +3775,6 @@
       "BPC 250 mcg + TB 250-500 mcg daily"
     ],
     "sources": [
-      {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a356.00",
-        "inStock": true
-      },
       {
         "vendor": "Express Peptides",
         "url": "https://example.com/bpc-157-tb-500-blend",
@@ -3776,12 +3870,6 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a328.00",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/gonadorelin",
         "price": "\u00a319.83",
@@ -3863,10 +3951,16 @@
     ],
     "sources": [
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a331.20",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-peptides-dsip-5mg-research-peptide-for-laboratory-use-only-2/",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a319.99"
+          }
+        ]
       },
       {
         "vendor": "Express Peptides",
@@ -4000,10 +4094,20 @@
         "inStock": true
       },
       {
-        "vendor": "Dr Peptides",
-        "url": "https://www.drpeptides.co.uk",
-        "price": "\u00a315.60",
-        "inStock": true
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-oxytocin-2mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a319.49",
+        "inStock": true,
+        "options": [
+          {
+            "size": "2 mg",
+            "price": "\u00a319.49"
+          },
+          {
+            "size": "5 mg",
+            "price": "\u00a349.99"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
@@ -4099,6 +4203,18 @@
             "price": "\u00a378.99"
           }
         ]
+      },
+      {
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-glow-70mg-research-only-peptide-for-laboratory-use-only-coa-for-all-ingredients/",
+        "price": "\u00a356.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "70 mg",
+            "price": "\u00a356.99"
+          }
+        ]
       }
     ]
   },
@@ -4139,6 +4255,18 @@
           {
             "size": "80 mg",
             "price": "\u00a385.00"
+          }
+        ]
+      },
+      {
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-klow-80mg-research-peptide-for-laboratory-use-only/",
+        "price": "\u00a362.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "80 mg",
+            "price": "\u00a362.99"
           }
         ]
       }
@@ -4218,6 +4346,18 @@
           {
             "size": "10 mg vial",
             "price": "\u00a349.99"
+          }
+        ]
+      },
+      {
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-snap-8-10mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a319.95",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "\u00a319.95"
           }
         ]
       }
@@ -4300,6 +4440,22 @@
           {
             "size": "1000 mg",
             "price": "\u00a3149.99"
+          }
+        ]
+      },
+      {
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-nad-100mg-research-only-peptide-for-laboratory-use-only/",
+        "price": "\u00a324.49",
+        "inStock": true,
+        "options": [
+          {
+            "size": "100 mg",
+            "price": "\u00a324.49"
+          },
+          {
+            "size": "500 mg",
+            "price": "\u00a349.99"
           }
         ]
       }

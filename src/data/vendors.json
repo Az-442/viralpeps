@@ -245,19 +245,19 @@
   },
   {
     "id": "dr-peptides",
-    "name": "Dr Peptides",
+    "name": "Dr P Research",
     "slug": "dr-peptides",
-    "website": "https://www.drpeptides.co.uk",
+    "website": "https://drpresearch.co.uk",
     "rating": 4.6,
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "Premium UK peptide supplier with 80+ products. Free UK shipping over \u00a325, same-day dispatch, and independent testing on all products.",
+    "description": "Premium UK research supplier with a wide range of research-grade materials. Previously trading as Dr Peptides. All products independently tested and cold-chain stored.",
     "highlights": [
-      "80+ products",
-      "Free UK shipping over \u00a325",
-      "Same-day dispatch",
-      "Independent testing"
+      "Wide product range",
+      "Independent testing",
+      "Cold-chain stored",
+      "Previously Dr Peptides"
     ],
     "shipping": [
       "UK free over \u00a325",
@@ -277,7 +277,7 @@
       "Peptide Fragments"
     ],
     "compoundCount": 80,
-    "lastTested": "2026-06-23"
+    "lastTested": "2026-06-27"
   },
   {
     "id": "the-peptide-company",
