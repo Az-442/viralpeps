@@ -187,7 +187,7 @@ export default function Home() {
           </h1>
           <p className="text-gray-400 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
             Compare live prices on <strong className="text-white">{totalCompounds}+ peptides</strong> from{" "}
-            <strong className="text-white">{totalVendors} trusted UK suppliers</strong>{" "}
+            <strong className="text-white">{totalVendors}+ trusted UK suppliers</strong>{" "}
             &mdash; updated daily, completely independent, always free.
           </p>
           <div className="max-w-xl mx-auto"><SearchBar /></div>
