@@ -4492,5 +4492,229 @@
         ]
       }
     ]
+  },
+  {
+    "id": "bpc-157-tb-500-nasal-spray",
+    "name": "BPC-157 + TB-500 Nasal Spray",
+    "slug": "bpc-157-tb-500-nasal-spray",
+    "aliases": [
+      "BPC-157 TB-500 NS"
+    ],
+    "category": "nasal-sprays",
+    "description": "BPC-157 + TB-500 Nasal Spray is a research nasal formulation combining two peptides in a dual-peptide nasal blend for intranasal administration research. Intranasal delivery offers rapid absorption and alternative delivery route research.",
+    "mechanism": "Combines BPC-157 (pentadecapeptide) with Thymosin Beta-4 (TB-500) fragment in a single intranasal formulation for research into combined peptide delivery.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599%",
+    "form": "Nasal spray (15 mL, 5 mg/5 mg per spray)",
+    "halfLife": "",
+    "researchAreas": [
+      "Intranasal research",
+      "Delivery method research",
+      "Combination peptide research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/bpc-157-tb-500-nasal-spray",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "15 mL",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kisspeptin-nasal-spray",
+    "name": "Kisspeptin Nasal Spray",
+    "slug": "kisspeptin-nasal-spray",
+    "aliases": [
+      "Kisspeptin NS"
+    ],
+    "category": "nasal-sprays",
+    "description": "Kisspeptin Nasal Spray is a research nasal formulation of kisspeptin-10, a synthetic neuropeptide, designed for intranasal administration research. Intranasal delivery offers rapid absorption for neuropeptide research.",
+    "mechanism": "Kisspeptin activates the GPR54 receptor, stimulating GnRH release and downstream LH/FSH secretion. Intranasal delivery provides direct access to the CNS via the olfactory epithelium.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599%",
+    "form": "Nasal spray (15 mL, 10 mg per spray)",
+    "halfLife": "",
+    "researchAreas": [
+      "Intranasal research",
+      "Neuropeptide research",
+      "GPR54 research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/kisspeptin-nasal-spray",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "15 mL",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nad-1000-nasal-spray",
+    "name": "NAD+ 1000 mg Nasal Spray",
+    "slug": "nad-1000-nasal-spray",
+    "aliases": [
+      "NAD+ 1000 NS"
+    ],
+    "category": "nasal-sprays",
+    "description": "NAD+ 1000 mg Nasal Spray is a high-dose research nasal formulation of nicotinamide adenine dinucleotide for intranasal research. Designed for research into NAD+ supplementation via the intranasal route.",
+    "mechanism": "NAD+ serves as an electron carrier in redox reactions and a substrate for sirtuins and PARP enzymes. Intranasal delivery bypasses first-pass metabolism.",
+    "cas": "53-84-9",
+    "molarMass": "663.43 g/mol",
+    "sequence": "",
+    "purity": "\u226599%",
+    "form": "Nasal spray (15 mL, 1000 mg per spray)",
+    "halfLife": "",
+    "researchAreas": [
+      "Intranasal research",
+      "NAD+ research",
+      "Longevity research",
+      "Cellular energy"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/nad-1000-nasal-spray",
+        "price": "\u00a3200.00",
+        "inStock": true,
+        "options": [
+          {
+            "size": "15 mL",
+            "price": "\u00a3200.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nad-500-nasal-spray",
+    "name": "NAD+ 500 mg Nasal Spray",
+    "slug": "nad-500-nasal-spray",
+    "aliases": [
+      "NAD+ 500 NS"
+    ],
+    "category": "nasal-sprays",
+    "description": "NAD+ 500 mg Nasal Spray is a research nasal formulation of nicotinamide adenine dinucleotide for intranasal administration research. Lower dose alternative to the 1000 mg formulation.",
+    "mechanism": "NAD+ serves as an electron carrier in redox reactions and a substrate for sirtuins and PARP enzymes. Intranasal delivery bypasses first-pass metabolism.",
+    "cas": "53-84-9",
+    "molarMass": "663.43 g/mol",
+    "sequence": "",
+    "purity": "\u226599%",
+    "form": "Nasal spray (15 mL, 500 mg per spray)",
+    "halfLife": "",
+    "researchAreas": [
+      "Intranasal research",
+      "NAD+ research",
+      "Longevity research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/nad-500-nasal-spray",
+        "price": "\u00a3125.00",
+        "inStock": true,
+        "options": [
+          {
+            "size": "15 mL",
+            "price": "\u00a3125.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oxytocin-nasal-spray",
+    "name": "Oxytocin Nasal Spray",
+    "slug": "oxytocin-nasal-spray",
+    "aliases": [
+      "Oxytocin NS"
+    ],
+    "category": "nasal-sprays",
+    "description": "Oxytocin Nasal Spray is a research nasal formulation of oxytocin, a synthetic nonapeptide, designed for intranasal administration research. Intranasal delivery is commonly used in neuropeptide research.",
+    "mechanism": "Oxytocin binds to the oxytocin receptor, a G-protein-coupled receptor involved in social bonding and reproductive physiology. Intranasal delivery provides direct CNS access.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599%",
+    "form": "Nasal spray (15 mL, 2 mg per spray)",
+    "halfLife": "",
+    "researchAreas": [
+      "Intranasal research",
+      "Neuropeptide research",
+      "Oxytocin receptor research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/oxytocin-nasal-spray",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "15 mL",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pt-141-nasal-spray",
+    "name": "PT-141 Nasal Spray",
+    "slug": "pt-141-nasal-spray",
+    "aliases": [
+      "Bremelanotide NS",
+      "PT-141 NS"
+    ],
+    "category": "nasal-sprays",
+    "description": "PT-141 Nasal Spray is a research nasal formulation of bremelanotide, a synthetic peptide that acts as a melanocortin receptor agonist. Designed for intranasal administration research.",
+    "mechanism": "PT-141 (Bremelanotide) is a selective agonist at melanocortin receptors MC3R and MC4R. Intranasal delivery provides rapid absorption for research into melanocortin signaling pathways.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599%",
+    "form": "Nasal spray (15 mL, 10 mg per spray)",
+    "halfLife": "",
+    "researchAreas": [
+      "Intranasal research",
+      "Melanocortin research",
+      "MC3R/MC4R research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/pt-141-nasal-spray",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "15 mL",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
   }
 ]
