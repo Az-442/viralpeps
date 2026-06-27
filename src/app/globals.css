@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+::placeholder {
+  color: #000 !important;
+  opacity: 1 !important;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
