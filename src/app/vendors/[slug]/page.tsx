@@ -151,7 +151,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               return (
                 <Link
                   key={c.id}
-                  href={source?.url ? { pathname: source.url } : `/compounds/${c.slug}`}
+                  href={source?.url || `/compounds/${c.slug}`}
                   target={source?.url ? "_blank" : undefined}
                   rel={source?.url ? "noopener noreferrer" : undefined}
                   className="flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
