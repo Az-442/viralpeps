@@ -4059,5 +4059,438 @@
         "answer": "Oxytocin is a 9-amino-acid cyclic peptide with sequence CYIQNCPLG, containing a disulfide bridge between Cys1 and Cys6. It is synthesised in the paraventricular and supraoptic nuclei of the hypothalamus as a larger precursor protein and cleaved into the active peptide during axonal transport."
       }
     ]
+  },
+  {
+    "id": "glow",
+    "name": "Glow",
+    "slug": "glow",
+    "aliases": [
+      "Glow peptide blend"
+    ],
+    "category": "cosmetic-peptides",
+    "description": "Glow is a peptide blend commonly used in cosmetic research. The combination is designed to support skin health research applications including collagen synthesis and tissue regeneration studies.",
+    "mechanism": "Peptide blend combining GHK-Cu with other compounds to support research into skin health, collagen production, and tissue regeneration pathways.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599.5%",
+    "form": "Lyophilized powder",
+    "halfLife": "",
+    "researchAreas": [
+      "Cosmetic research",
+      "Skin health",
+      "Collagen synthesis",
+      "Tissue regeneration"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/glow",
+        "price": "\u00a369.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "60 mg",
+            "price": "\u00a369.99"
+          },
+          {
+            "size": "70 mg",
+            "price": "\u00a378.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "klow",
+    "name": "KLOW",
+    "slug": "klow",
+    "aliases": [
+      "KGlow25",
+      "K-LOW"
+    ],
+    "category": "peptide-blends",
+    "description": "KLOW is a specialized peptide complex designed for research into tissue health and regeneration. It combines multiple peptide sequences to support cellular health research applications.",
+    "mechanism": "Multi-peptide complex designed to support cellular repair and tissue health pathways through combined peptide signaling mechanisms.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "",
+    "researchAreas": [
+      "Tissue health",
+      "Cellular research",
+      "Peptide complex research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/kglow25",
+        "price": "\u00a360.00",
+        "inStock": true,
+        "options": [
+          {
+            "size": "25 mg",
+            "price": "\u00a360.00"
+          },
+          {
+            "size": "80 mg",
+            "price": "\u00a385.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mazdutide",
+    "name": "Mazdutide",
+    "slug": "mazdutide",
+    "aliases": [
+      "LY3305677"
+    ],
+    "category": "glp-1-agonists",
+    "description": "Mazdutide is a dual GLP-1 and glucagon receptor agonist under research for metabolic conditions. It combines GLP-1-mediated glucose regulation with glucagon-mediated energy expenditure for comprehensive metabolic research.",
+    "mechanism": "Dual agonist at GLP-1 and glucagon receptors. GLP-1 agonism promotes insulin secretion and satiety, while glucagon agonism increases energy expenditure and hepatic glucose production.",
+    "cas": "2382627-17-8",
+    "molarMass": "~4400 g/mol",
+    "sequence": "",
+    "purity": "\u226599.5%",
+    "form": "Lyophilized powder",
+    "halfLife": "",
+    "researchAreas": [
+      "Metabolic research",
+      "Weight management",
+      "GLP-1 research",
+      "Glucagon receptor research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/mazdutide",
+        "price": "\u00a389.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "\u00a389.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "\u00a3109.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "snap-8",
+    "name": "SNAP-8",
+    "slug": "snap-8",
+    "aliases": [
+      "Acetyl octapeptide-3"
+    ],
+    "category": "cosmetic-peptides",
+    "description": "SNAP-8 is an acetylated octapeptide designed for research into neuromuscular activity and skin health. It is a synthetic peptide that mimics the N-terminal end of SNAP-25, a protein involved in neurotransmitter release.",
+    "mechanism": "SNAP-8 acts as a competitive inhibitor of SNAP-25, modulating SNARE complex formation and neurotransmitter release at the neuromuscular junction.",
+    "cas": "868844-74-0",
+    "molarMass": "1075.2 g/mol",
+    "sequence": "",
+    "purity": "\u226597%",
+    "form": "Lyophilized powder",
+    "halfLife": "",
+    "researchAreas": [
+      "Cosmetic research",
+      "Neuromuscular research",
+      "Skin health"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/snap-8",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg vial",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bacteriostatic-water",
+    "name": "Bacteriostatic Water",
+    "slug": "bacteriostatic-water",
+    "aliases": [
+      "0.9% benzyl alcohol diluent",
+      "BAC water"
+    ],
+    "category": "lab-supplies",
+    "description": "Bacteriostatic water is sterile water containing 0.9% benzyl alcohol as a preservative. It is used in laboratory settings for reconstituting and diluting lyophilized research compounds.",
+    "mechanism": "The benzyl alcohol content inhibits bacterial growth, allowing multiple uses of the same vial for reconstitution purposes in laboratory research.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599.9%",
+    "form": "Sterile liquid (10 mL vial)",
+    "halfLife": "",
+    "researchAreas": [
+      "Lab supplies",
+      "Reconstitution",
+      "Diluent"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/bacteriostatic-water",
+        "price": "\u00a37.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mL vial",
+            "price": "\u00a37.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nad-plus",
+    "name": "NAD+",
+    "slug": "nad-plus",
+    "aliases": [
+      "Nicotinamide adenine dinucleotide",
+      "NAD"
+    ],
+    "category": "cellular-peptides",
+    "description": "NAD+ (Nicotinamide adenine dinucleotide) is a fundamental coenzyme found in all living cells. It plays essential roles in energy metabolism, DNA repair, and cellular signaling pathways central to aging research.",
+    "mechanism": "NAD+ serves as an electron carrier in redox reactions, a substrate for sirtuins (SIRT1-7), PARP enzymes, and CD38. It is critical for mitochondrial function and cellular energy homeostasis.",
+    "cas": "53-84-9",
+    "molarMass": "663.43 g/mol",
+    "sequence": "",
+    "purity": "\u226599.5%",
+    "form": "Lyophilized powder",
+    "halfLife": "",
+    "researchAreas": [
+      "Longevity research",
+      "Cellular energy",
+      "Mitochondrial health",
+      "Aging research",
+      "DNA repair"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/nad-plus",
+        "price": "\u00a399.00",
+        "inStock": true,
+        "options": [
+          {
+            "size": "500 mg",
+            "price": "\u00a399.00"
+          },
+          {
+            "size": "1000 mg",
+            "price": "\u00a3149.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hcg",
+    "name": "HCG",
+    "slug": "hcg",
+    "aliases": [
+      "Human chorionic gonadotropin"
+    ],
+    "category": "research-compounds",
+    "description": "HCG (Human chorionic gonadotropin) is a glycoprotein hormone naturally produced during pregnancy. In research, it is studied for its LH-like activity at the LH/CG receptor involved in hormonal signaling pathways.",
+    "mechanism": "HCG binds to the LH/CG receptor, mimicking luteinizing hormone activity. This stimulates steroidogenesis and supports research into reproductive endocrine pathways.",
+    "cas": "9002-61-3",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599.5%",
+    "form": "Lyophilized powder",
+    "halfLife": "",
+    "researchAreas": [
+      "Hormonal research",
+      "Reproductive endocrinology",
+      "LH/CG receptor research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/hcg",
+        "price": "\u00a335.00",
+        "inStock": true,
+        "options": [
+          {
+            "size": "5000 IU vial",
+            "price": "\u00a335.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hgh-97",
+    "name": "HGH-97",
+    "slug": "hgh-97",
+    "aliases": [
+      "Synthetic peptide fragment 97"
+    ],
+    "category": "growth-hormone",
+    "description": "HGH-97 is a synthetic peptide fragment used in research related to growth hormone signaling pathways and cellular growth mechanisms.",
+    "mechanism": "Research compound believed to interact with growth hormone pathways. Exact mechanism of action is subject to ongoing research.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599.3%",
+    "form": "Lyophilized powder (10 IU per vial)",
+    "halfLife": "",
+    "researchAreas": [
+      "Growth hormone research",
+      "Cellular growth",
+      "Peptide fragment research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/hgh-97",
+        "price": "\u00a339.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 IU vial",
+            "price": "\u00a339.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pal-ghk",
+    "name": "Pal-GHK",
+    "slug": "pal-ghk",
+    "aliases": [
+      "Palmitoyl tripeptide-1",
+      "Palmitoyl-GHK"
+    ],
+    "category": "cosmetic-peptides",
+    "description": "Pal-GHK (Palmitoyl tripeptide-1) is a lipophilic derivative of GHK-Cu designed for enhanced stability and delivery. It is commonly used in cosmetic research for skin health applications.",
+    "mechanism": "The palmitoyl group enhances membrane permeability and stability. The GHK tripeptide component supports research into collagen synthesis and extracellular matrix remodeling.",
+    "cas": "147732-56-7",
+    "molarMass": "578.8 g/mol",
+    "sequence": "",
+    "purity": "\u226599.6%",
+    "form": "Lyophilized powder",
+    "halfLife": "",
+    "researchAreas": [
+      "Cosmetic research",
+      "Skin health",
+      "Collagen research",
+      "Extracellular matrix"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/pal-ghk",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg vial",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cjc-1295-ipamorelin-blend",
+    "name": "CJC-1295 + Ipamorelin Blend",
+    "slug": "cjc-1295-ipamorelin-blend",
+    "aliases": [
+      "CJC-1295/Ipamorelin blend"
+    ],
+    "category": "growth-hormone-secretagogues",
+    "description": "CJC-1295 + Ipamorelin Blend combines a growth hormone-releasing hormone (GHRH) analogue with a growth hormone secretagogue. This blend is designed for research into growth hormone pulse amplitude and frequency modulation.",
+    "mechanism": "CJC-1295 is a GHRH analogue that stimulates endogenous GH release, while Ipamorelin is a GHRP that amplifies the GH pulse. Together they provide synergistic stimulation of the GH axis.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226598.7%",
+    "form": "Lyophilized powder (2 mg / 2 mg per vial)",
+    "halfLife": "",
+    "researchAreas": [
+      "Growth hormone research",
+      "GH secretagogue research",
+      "GHRH analogue research",
+      "Anti-aging research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/cjc-1295-ipamorelin-blend",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "2 mg / 2 mg vial",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glow-nasal-spray",
+    "name": "Glow Nasal Spray",
+    "slug": "glow-nasal-spray",
+    "aliases": [
+      "Glow NS"
+    ],
+    "category": "nasal-sprays",
+    "description": "Glow Nasal Spray is a research nasal formulation of the popular Glow peptide blend, designed for intranasal administration research. Intranasal delivery offers rapid absorption and research into alternative administration routes.",
+    "mechanism": "Intranasal delivery bypasses first-pass metabolism and provides direct access to the systemic circulation. The Glow peptide blend supports skin health and tissue research.",
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "\u226599.5%",
+    "form": "Nasal spray (15 mL)",
+    "halfLife": "",
+    "researchAreas": [
+      "Intranasal research",
+      "Delivery method research",
+      "Skin health"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/glow-nasal-spray",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "15 mL",
+            "price": "\u00a349.99"
+          }
+        ]
+      }
+    ]
   }
 ]
