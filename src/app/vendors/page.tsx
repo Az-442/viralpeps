@@ -150,6 +150,7 @@ export default function VendorsPage() {
               const minPrice = vendorMinPrices[v.name] || 0;
               const hasFreeShipping = v.shipping?.some((s) => s.toLowerCase().includes("free"));
               const hasLabTested = v.highlights?.some((h) => h.toLowerCase().includes("tested"));
+              const bigLogo = ["dr-peptides", "express-peptides", "the-peptide-company"].includes(v.slug);
               return (
                 <Link
                   key={v.id}
@@ -157,9 +158,9 @@ export default function VendorsPage() {
                   className="bg-white border border-gray-100 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
                 >
                   <div className="flex items-start gap-4">
-                    {/* Logo - bigger */}
-                    <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-50">
-                      <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-14 h-14 object-contain" />
+                    {/* Logo - bigger for 3 vendors */}
+                    <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-50`}>
+                      <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className={`${bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14"} object-contain`} />
                     </div>
 
                     {/* Middle content */}
