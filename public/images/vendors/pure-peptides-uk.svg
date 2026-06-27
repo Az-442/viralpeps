@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
-  <defs><linearGradient id="pp-bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#3b0764"/><stop offset="100%" style="stop-color:#581c87"/></linearGradient></defs>
-  <rect width="120" height="120" rx="16" fill="url(#pp-bg)"/>
-  <text x="60" y="42" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="16" fill="#c084fc" letter-spacing="2">PURE</text>
-  <text x="60" y="64" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="12" fill="#fff" letter-spacing="1">PEPTIDES</text>
-  <text x="60" y="86" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="12" fill="#a78bfa" letter-spacing="3">UK</text>
-</svg>

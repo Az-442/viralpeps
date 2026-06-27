@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
-  <defs><linearGradient id="tl-bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#164e63"/><stop offset="100%" style="stop-color:#155e75"/></linearGradient></defs>
-  <rect width="120" height="120" rx="16" fill="url(#tl-bg)"/>
-  <text x="60" y="48" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="24" fill="#67e8f9" letter-spacing="3">TIDE</text>
-  <text x="60" y="78" text-anchor="middle" font-family="'Inter',-apple-system,BlinkMacSystemFont,sans-serif" font-weight="700" font-size="16" fill="#a5f3fc" letter-spacing="3">LABS</text>
-</svg>

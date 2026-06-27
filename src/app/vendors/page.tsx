@@ -157,7 +157,7 @@ export default function VendorsPage() {
                   className="bg-white border border-gray-100 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group flex items-start gap-4"
                 >
                   <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                    <img src={`/images/vendors/${v.slug}.svg`} alt={v.name} className="w-10 h-10 object-contain" />
+                    <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-10 h-10 object-contain" />
                   </div>
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2 mb-1">
