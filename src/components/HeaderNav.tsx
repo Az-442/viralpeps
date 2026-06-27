@@ -131,7 +131,47 @@ export default function HeaderNav({ current }: { current?: string }) {
         {menuOpen && (
           <div className="md:hidden border-t border-gray-100 bg-white pb-3">
             <div className="max-w-7xl mx-auto px-4 pt-3 space-y-1">
-              {[...links, ...toolLinks.map(t => ({ href: t.href, label: t.label })), ...rightLinks].map((l) => (
+              {/* Main links */}
+              {links.map((l) => (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="block px-3 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium"
+                >
+                  {l.label}
+                </Link>
+              ))}
+              {/* Tools dropdown in mobile */}
+              <div>
+                <button
+                  onClick={() => setToolsOpen(!toolsOpen)}
+                  className="flex items-center justify-between w-full px-3 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium"
+                >
+                  Tools
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                    className={`transition-transform ${toolsOpen ? "rotate-180" : ""}`}
+                  >
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                {toolsOpen && (
+                  <div className="ml-4 space-y-1 pb-1">
+                    {toolLinks.map((tl) => (
+                      <Link
+                        key={tl.href}
+                        href={tl.href}
+                        onClick={() => setMenuOpen(false)}
+                        className="block px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg"
+                      >
+                        {tl.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {/* Right links */}
+              {rightLinks.map((l) => (
                 <Link
                   key={l.href}
                   href={l.href}
