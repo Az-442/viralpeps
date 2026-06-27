@@ -123,7 +123,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
           {/* LEFT: Image + Specs */}
           <div className="md:col-span-2">
-            <div className="bg-white border border-gray-100 rounded-xl p-6">
+            <div className="bg-white border border-black rounded-xl p-6">
               <div className="aspect-square bg-gray-50 rounded-xl flex items-center justify-center mb-4">
                 <img src={`/images/compounds/${slug}.svg`} alt={compound.name} className="w-32 h-32 object-contain" />
               </div>
@@ -161,7 +161,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           {/* RIGHT: Description + Vendors */}
           <div className="md:col-span-3 space-y-5">
             {/* DESCRIPTION */}
-            <div className="bg-white border border-gray-100 rounded-xl p-6">
+            <div className="bg-white border border-black rounded-xl p-6">
               <h2 className="text-lg font-bold text-gray-900 mb-3">About {compound.name}</h2>
               <p className="text-sm text-black leading-relaxed">{compound.description}</p>
 
@@ -246,8 +246,8 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             )}
 
             {/* ALL VENDOR COMPARISON TABLE */}
-            <div className="bg-white border border-gray-100 rounded-xl overflow-hidden">
-              <div className="p-5 border-b border-gray-100">
+            <div className="bg-white border border-black rounded-xl overflow-hidden">
+              <div className="p-5 border-b border-black">
                 <h2 className="text-lg font-bold text-gray-900">
                   Compare Prices from {compound.sources.length} Suppliers
                 </h2>
@@ -312,7 +312,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </div>
 
             {/* FAQ */}
-            <div className="bg-white border border-gray-100 rounded-xl p-6">
+            <div className="bg-white border border-black rounded-xl p-6">
               <h2 className="text-lg font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
               <div className="space-y-4">
                 {[
@@ -330,7 +330,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     a: `${compound.name} is available from ${compound.sources.length} UK suppliers on ViralPeps, with prices starting from £${minPrice.toFixed(2)}. Compare all suppliers above.`,
                   },
                 ].map((faq, i) => (
-                  <div key={i} className="border-b border-gray-50 pb-3 last:border-0 last:pb-0">
+                  <div key={i} className="border-b border-black pb-3 last:border-0 last:pb-0">
                     <h3 className="text-sm font-semibold text-gray-900 mb-1">{faq.q}</h3>
                     <p className="text-sm text-black leading-relaxed">{faq.a}</p>
                   </div>

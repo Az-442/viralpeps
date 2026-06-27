@@ -47,7 +47,7 @@ export default function CompoundsPage() {
               <Link
                 key={c.id}
                 href={`/compounds/${c.slug}`}
-                className="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group"
+                className="bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group"
               >
                 <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                   <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-14 h-14 object-contain" />

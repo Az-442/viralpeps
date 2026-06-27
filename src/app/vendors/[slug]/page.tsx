@@ -67,9 +67,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
 
       <div className="max-w-6xl mx-auto px-4 pb-8">
         {/* SUPPLIER HEADER */}
-        <div className="bg-white border border-gray-100 rounded-xl p-6 mb-6">
+        <div className="bg-white border border-black rounded-xl p-6 mb-6">
           <div className="flex flex-col md:flex-row items-start gap-6">
-            <div className="w-20 h-20 rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-100">
+            <div className="w-20 h-20 rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-black">
               <img src={`/images/vendors/${vendor.slug}.png`} alt={vendor.name} className="w-16 h-16 object-contain" />
             </div>
             <div className="flex-1">
@@ -118,7 +118,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
           </div>
 
           {/* INFO GRID */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6 pt-6 border-t border-gray-100">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6 pt-6 border-t border-black">
             {[
               { label: "Shipping", value: vendor.shipping?.join(", ") || "N/A" },
               { label: "Payment", value: vendor.payment?.join(", ") || "N/A" },
@@ -134,8 +134,8 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
         </div>
 
         {/* PRODUCTS LIST */}
-        <div className="bg-white border border-gray-100 rounded-xl overflow-hidden">
-          <div className="p-5 border-b border-gray-100">
+        <div className="bg-white border border-black rounded-xl overflow-hidden">
+          <div className="p-5 border-b border-black">
             <h2 className="text-lg font-bold text-gray-900">
               {vendor.name} Products ({vendorCompounds.length})
             </h2>

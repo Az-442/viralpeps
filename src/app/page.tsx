@@ -156,13 +156,13 @@ function ScrollSection({ children }: { children: React.ReactNode }) {
   };
   return (
     <div className="relative group">
-      <button onClick={() => scroll("left")} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-gray-200 rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50" aria-label="Scroll left">
+      <button onClick={() => scroll("left")} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-black rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50" aria-label="Scroll left">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>
       </button>
       <div ref={scrollRef} className="flex gap-4 overflow-x-auto scrollbar-hide pb-2 -mx-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
         {children}
       </div>
-      <button onClick={() => scroll("right")} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-gray-200 rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50" aria-label="Scroll right">
+      <button onClick={() => scroll("right")} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-black rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50" aria-label="Scroll right">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6" /></svg>
       </button>
     </div>
@@ -201,7 +201,7 @@ export default function Home() {
       </section>
 
       {/* 2. TRUST STRIP */}
-      <section className="bg-white border-b border-gray-100 py-5">
+      <section className="bg-white border-b border-black py-5">
         <div className="max-w-4xl mx-auto px-4 flex items-center justify-center gap-8">
           <div className="flex items-center gap-2">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
@@ -219,7 +219,7 @@ export default function Home() {
       </section>
 
       {/* 3. TRENDING RIGHT NOW */}
-      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
+      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-black">
         <div className="mb-5">
           <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
@@ -230,7 +230,7 @@ export default function Home() {
           {trending.slice(0, 6).map((c) => {
             const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
             return (
-              <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-52 bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
+              <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-52 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
                 </div>
@@ -239,14 +239,14 @@ export default function Home() {
             );
           })}
           {/* Browse all button as last card */}
-          <Link href="/compounds" className="flex-shrink-0 w-52 bg-gray-50 border border-gray-100 rounded-xl p-4 hover:bg-gray-100 transition-all snap-start flex items-center justify-center">
+          <Link href="/compounds" className="flex-shrink-0 w-52 bg-gray-50 border border-black rounded-xl p-4 hover:bg-gray-100 transition-all snap-start flex items-center justify-center">
             <span className="text-sm font-semibold text-blue-600">Browse all &rarr;</span>
           </Link>
         </ScrollSection>
       </section>
 
       {/* 4. TOP SUPPLIERS */}
-      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
+      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-black">
         <div className="mb-5">
           <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" /></svg>
@@ -264,7 +264,7 @@ export default function Home() {
             const isFirst = v === topVendors[0];
             const isLast = v === topVendors[topVendors.length - 1];
             return (
-              <Link key={v.id} href={`/vendors/${v.slug}`} className="bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group">
+              <Link key={v.id} href={`/vendors/${v.slug}`} className="bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
                     <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-8 h-8 object-contain" />
@@ -297,7 +297,7 @@ export default function Home() {
       </section>
 
       {/* 5. HOW IT WORKS */}
-      <section className="py-12 max-w-7xl mx-auto px-4 border-t border-gray-100">
+      <section className="py-12 max-w-7xl mx-auto px-4 border-t border-black">
         <div className="mb-5">
           <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-3">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -317,7 +317,7 @@ export default function Home() {
             for research or simply want to find the latest deals across suppliers, we&apos;ve got you covered.
           </p>
         </div>
-        <div className="flex items-center gap-8 mt-6 pt-6 border-t border-gray-100">
+        <div className="flex items-center gap-8 mt-6 pt-6 border-t border-black">
           <div className="flex items-center gap-2">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
             <span className="text-sm text-black font-medium">{totalCompounds}+ peptides tracked</span>
@@ -334,7 +334,7 @@ export default function Home() {
       </section>
 
       {/* 6. TOP DEALS TODAY */}
-      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
+      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-black">
         <div className="mb-5">
           <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" /></svg>
@@ -345,7 +345,7 @@ export default function Home() {
         </div>
         <ScrollSection>
           {topDeals.map((deal) => (
-            <Link key={deal.id + "-deal"} href={`/compounds/${deal.slug}`} className="flex-shrink-0 w-60 bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
+            <Link key={deal.id + "-deal"} href={`/compounds/${deal.slug}`} className="flex-shrink-0 w-60 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
               <div className="p-4">
                 <div className="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded inline-block mb-2">
                   -{deal.savingsPct}%
@@ -366,7 +366,7 @@ export default function Home() {
       </section>
 
       {/* 7. TRENDING THIS WEEK */}
-      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
+      <section className="py-10 max-w-7xl mx-auto px-4 border-t border-black">
         <div className="mb-5">
           <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -377,7 +377,7 @@ export default function Home() {
         </div>
         <ScrollSection>
           {trendingVendorItems.map((item) => (
-            <Link key={`tw-${item.compound.id}-${item.vendor.vendor}`} href={`/compounds/${item.compound.slug}`} className="flex-shrink-0 w-56 bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
+            <Link key={`tw-${item.compound.id}-${item.vendor.vendor}`} href={`/compounds/${item.compound.slug}`} className="flex-shrink-0 w-56 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
               <div className="flex items-start gap-3">
                 <span className="text-xs font-bold text-gray-300 w-4 flex-shrink-0">{item.rank}</span>
                 <div className="min-w-0">
@@ -409,7 +409,7 @@ export default function Home() {
         const groupCompounds = compounds.filter((c) => group.slugs.includes(c.category));
         if (groupCompounds.length === 0) return null;
         return (
-          <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4 border-t border-gray-100">
+          <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4 border-t border-black">
             <div className="mb-5">
               <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M7 10l5 5 5-5H7z" /></svg>
@@ -423,7 +423,7 @@ export default function Home() {
                 const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
                 const dosages = c.commonDosages.slice(0, 4);
                 return (
-                  <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-56 bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
+                  <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-56 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
                     <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                       <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-16 h-16 object-contain" />
                     </div>
@@ -458,7 +458,7 @@ export default function Home() {
       })}
 
       {/* WHO WE ARE */}
-      <section className="py-12 max-w-7xl mx-auto px-4 border-t border-gray-100 bg-gray-50">
+      <section className="py-12 max-w-7xl mx-auto px-4 border-t border-black bg-gray-50">
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-3">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>

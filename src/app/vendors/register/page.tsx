@@ -89,7 +89,7 @@ export default function VendorRegisterPage() {
       </section>
 
       {/* TRUST STRIP */}
-      <section className="bg-white border-b border-gray-100 py-5">
+      <section className="bg-white border-b border-black py-5">
         <div className="max-w-4xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             {
@@ -188,7 +188,7 @@ export default function VendorRegisterPage() {
                   className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-sm cursor-pointer transition ${
                     selectedCategories.includes(cat)
                       ? "border-blue-400 bg-blue-50 text-blue-700"
-                      : "border-gray-200 bg-white text-black hover:border-gray-300"
+                      : "border-black bg-white text-black hover:border-gray-300"
                   }`}>
                   <input type="checkbox" checked={selectedCategories.includes(cat)}
                     onChange={() => toggleCategory(cat)} className="accent-blue-600" />

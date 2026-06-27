@@ -24,7 +24,7 @@ export default function ResearchPage() {
       </section>
 
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
-        <div className="bg-white border border-gray-100 rounded-xl p-12">
+        <div className="bg-white border border-black rounded-xl p-12">
           <svg className="w-16 h-16 mx-auto text-gray-300 mb-4" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="14" y="6" width="20" height="36" rx="4" fill="#e2e8f0" />
             <rect x="16" y="10" width="16" height="28" rx="3" fill="#f8fafc" />

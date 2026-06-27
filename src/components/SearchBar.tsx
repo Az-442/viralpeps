@@ -80,7 +80,7 @@ export default function SearchBar() {
           )}
           {results.vendors.length > 0 && (
             <div>
-              <div className="px-4 py-2 bg-gray-50 text-xs font-semibold text-black uppercase tracking-wider border-t border-gray-50">Vendors</div>
+              <div className="px-4 py-2 bg-gray-50 text-xs font-semibold text-black uppercase tracking-wider border-t border-black">Vendors</div>
               {results.vendors.map((v) => (
                 <Link
                   key={v.slug}

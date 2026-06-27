@@ -72,7 +72,7 @@ export default function ToolsPage() {
       <div className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-6">
 
         {/* TOOL 1: Reconstitution Calculator */}
-        <div className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+        <div className="bg-white border border-black rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-bold text-gray-900 mb-1">Reconstitution Calculator</h2>
           <p className="text-sm text-black mb-5">Calculate how much BAC water to add for your target dose.</p>
 
@@ -101,7 +101,7 @@ export default function ToolsPage() {
         </div>
 
         {/* TOOL 2: Dosage Converter */}
-        <div className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+        <div className="bg-white border border-black rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-bold text-gray-900 mb-1">Dosage Converter</h2>
           <p className="text-sm text-black mb-5">Convert between mcg, mg, and grams.</p>
 
@@ -139,7 +139,7 @@ export default function ToolsPage() {
         </div>
 
         {/* TOOL 3: Half-Life Reference */}
-        <div className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+        <div className="bg-white border border-black rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-bold text-gray-900 mb-1">Half-Life Reference</h2>
           <p className="text-sm text-black mb-5">Look up the half-life of common research peptides.</p>
 

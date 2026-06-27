@@ -27,7 +27,7 @@ export default function HeaderNav({ current }: { current?: string }) {
   ];
 
   return (
-    <nav className="bg-white border-b border-gray-100 sticky top-0 z-50">
+    <nav className="bg-white border-b border-black sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
@@ -78,7 +78,7 @@ export default function HeaderNav({ current }: { current?: string }) {
                 </svg>
               </button>
               {toolsOpen && (
-                <div className="absolute right-0 mt-1 w-56 bg-white border border-gray-100 rounded-xl shadow-lg py-2 z-50">
+                <div className="absolute right-0 mt-1 w-56 bg-white border border-black rounded-xl shadow-lg py-2 z-50">
                   {toolLinks.map((tl) => (
                     <Link
                       key={tl.href}
@@ -129,7 +129,7 @@ export default function HeaderNav({ current }: { current?: string }) {
           </button>
         </div>
         {menuOpen && (
-          <div className="md:hidden border-t border-gray-100 bg-white pb-3">
+          <div className="md:hidden border-t border-black bg-white pb-3">
             <div className="max-w-7xl mx-auto px-4 pt-3 space-y-1">
               {/* Main links */}
               {links.map((l) => (
