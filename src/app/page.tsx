@@ -243,8 +243,8 @@ export default function Home() {
             return (
               <Link key={v.id} href={`/vendors/${v.slug}`} className="bg-white border border-gray-100 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <PeptideVialIcon className="w-6 h-6" />
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
+                    <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-8 h-8 object-contain" />
                   </div>
                   <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>
@@ -402,7 +402,7 @@ export default function Home() {
                 return (
                   <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-56 bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
                     <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
-                      <PeptideVialIcon className="w-14 h-14" />
+                      <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-16 h-16 object-contain" />
                     </div>
                     <div className="p-4">
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>

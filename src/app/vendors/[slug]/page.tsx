@@ -69,8 +69,8 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
         {/* SUPPLIER HEADER */}
         <div className="bg-white border border-gray-100 rounded-xl p-6 mb-6">
           <div className="flex flex-col md:flex-row items-start gap-6">
-            <div className="w-20 h-20 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl flex items-center justify-center flex-shrink-0">
-              <PeptideVialIcon className="w-12 h-12" />
+            <div className="w-20 h-20 rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-100">
+              <img src={`/images/vendors/${vendor.slug}.png`} alt={vendor.name} className="w-16 h-16 object-contain" />
             </div>
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-1">
@@ -154,8 +154,8 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   className="flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
                 >
                   <div className="flex items-center gap-3 min-w-0 flex-1">
-                    <div className="w-9 h-9 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <PeptideVialIcon className="w-5 h-5" />
+                    <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
+                      <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-7 h-7 object-contain" />
                     </div>
                     <div className="min-w-0">
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>

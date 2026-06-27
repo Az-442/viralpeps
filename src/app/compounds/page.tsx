@@ -50,7 +50,7 @@ export default function CompoundsPage() {
                 className="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group"
               >
                 <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
-                  <PeptideVialIcon className="w-12 h-12" />
+                  <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-14 h-14 object-contain" />
                 </div>
                 <div className="p-4">
                   <span className="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded uppercase tracking-wider">{bLabel}</span>

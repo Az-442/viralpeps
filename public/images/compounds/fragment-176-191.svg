@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="200" height="400">
+  <defs>
+    <!-- Vial glass gradient -->
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4e8f7" stop-opacity="0.6"/>
+      <stop offset="25%" stop-color="#eaf4fb" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="75%" stop-color="#eaf4fb" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c0dcee" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Liquid gradient inside vial -->
+    <linearGradient id="liquid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8e6c9"/>
+      <stop offset="50%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#a5d6a7"/>
+    </linearGradient>
+
+    <!-- Cap gradient -->
+    <linearGradient id="cap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="30%" stop-color="#4a6fa5"/>
+      <stop offset="50%" stop-color="#5b8cbf"/>
+      <stop offset="70%" stop-color="#4a6fa5"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+
+    <!-- Top cap (aluminum seal) -->
+    <linearGradient id="topcap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#95a5a6"/>
+      <stop offset="30%" stop-color="#bdc3c7"/>
+      <stop offset="50%" stop-color="#d5dbdb"/>
+      <stop offset="70%" stop-color="#bdc3c7"/>
+      <stop offset="100%" stop-color="#95a5a6"/>
+    </linearGradient>
+
+    <!-- Label background -->
+    <linearGradient id="label" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f4f8"/>
+    </linearGradient>
+
+    <!-- Drop shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#00000033"/>
+    </filter>
+  </defs>
+
+  <!-- Vial body shadow -->
+  <rect x="58" y="108" width="84" height="240" rx="8" fill="#00000015" filter="url(#shadow)"/>
+
+  <!-- Vial body (main glass) -->
+  <rect x="55" y="105" width="90" height="240" rx="10" fill="url(#glass)" stroke="#8ab4d0" stroke-width="1.5"/>
+
+  <!-- Liquid fill -->
+  <rect x="58" y="240" width="84" height="100" rx="6" fill="url(#liquid)" opacity="0.7"/>
+  <!-- Liquid bottom arc -->
+  <ellipse cx="100" cy="340" rx="42" ry="6" fill="url(#liquid)" opacity="0.7"/>
+
+  <!-- Liquid surface line -->
+  <line x1="58" y1="242" x2="142" y2="242" stroke="#81c784" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Glass reflection highlight -->
+  <rect x="65" y="115" width="12" height="200" rx="6" fill="#ffffff" opacity="0.35"/>
+
+  <!-- Vial neck -->
+  <rect x="70" y="60" width="60" height="45" fill="url(#glass)" stroke="#8ab4d0" stroke-width="1.5"/>
+  <rect x="75" y="95" width="50" height="15" fill="#eaf4fb" stroke="#8ab4d0" stroke-width="1"/>
+
+  <!-- Rubber stopper / cap -->
+  <rect x="68" y="45" width="64" height="20" rx="4" fill="url(#cap)" stroke="#1a2a3a" stroke-width="1"/>
+
+  <!-- Aluminum seal band -->
+  <rect x="65" y="62" width="70" height="10" rx="2" fill="url(#topcap)" stroke="#7f8c8d" stroke-width="0.8"/>
+
+  <!-- Flip-off top -->
+  <rect x="72" y="30" width="56" height="18" rx="6" fill="url(#cap)" stroke="#1a2a3a" stroke-width="1.2"/>
+  <ellipse cx="100" cy="30" rx="28" ry="4" fill="#3a5a8a"/>
+  <!-- Flip-off dot -->
+  <circle cx="100" cy="36" r="4" fill="#e74c3c" opacity="0.8"/>
+
+  <!-- Label background on vial -->
+  <rect x="62" y="145" width="76" height="95" rx="4" fill="url(#label)" stroke="#d0d8e0" stroke-width="0.8"/>
+
+  <!-- Label border decoration -->
+  <rect x="65" y="148" width="70" height="89" rx="3" fill="none" stroke="#4a6fa5" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+  <!-- Small decorative line above text -->
+  <line x1="72" y1="168" x2="128" y2="168" stroke="#4a6fa5" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Compound name -->
+  
+    <text x="100" y="230" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1a3a5c" text-anchor="middle" dominant-baseline="middle">Fragment 176-191</text>
+
+  <!-- Small decorative line below text -->
+  <line x1="72" y1="268" x2="128" y2="268" stroke="#4a6fa5" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Label bottom line -->
+  <text x="100" y="305" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#7f8c8d" text-anchor="middle">For Research Use Only</text>
+
+  <!-- Dosage marking -->
+  <text x="100" y="320" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#95a5a6" text-anchor="middle">Peptide Vial</text>
+
+  <!-- Volume marking on neck -->
+  <text x="100" y="85" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#5a7a9a" text-anchor="middle">5mg</text>
+
+  <!-- Barcode-like bottom decoration -->
+  <g transform="translate(70, 340)" opacity="0.15">
+    <rect x="0" y="0" width="3" height="12"/>
+    <rect x="6" y="0" width="2" height="12"/>
+    <rect x="11" y="0" width="4" height="12"/>
+    <rect x="18" y="0" width="2" height="12"/>
+    <rect x="23" y="0" width="3" height="12"/>
+    <rect x="29" y="0" width="1" height="12"/>
+    <rect x="33" y="0" width="4" height="12"/>
+    <rect x="40" y="0" width="2" height="12"/>
+    <rect x="45" y="0" width="3" height="12"/>
+  </g>
+</svg>
