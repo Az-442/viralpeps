@@ -4,6 +4,7 @@ import vendors from "@/data/vendors.json";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import ProductImage from "@/components/ProductImage";
 
 export const dynamic = "force-dynamic";
 
@@ -155,7 +156,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 >
                   <div className="flex items-center gap-3 min-w-0 flex-1">
                     <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                      <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-7 h-7 object-contain" />
+                      <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
                     </div>
                     <div className="min-w-0">
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
