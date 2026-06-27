@@ -28,12 +28,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const categoryPages = [...new Set(compounds.map((c) => c.category))].map((cat) => ({
-    url: `${baseUrl}/category/${cat}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
-
-  return [...staticPages, ...compoundPages, ...vendorPages, ...categoryPages];
+  return [...staticPages, ...compoundPages, ...vendorPages];
 }
