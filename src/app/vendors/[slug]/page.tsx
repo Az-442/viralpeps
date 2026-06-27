@@ -154,8 +154,22 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   className="flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
                 >
                   <div className="flex items-center gap-3 min-w-0 flex-1">
-                    <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                      <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-7 h-7 object-contain" />
+                    <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
+                      <img
+                        src={`/images/products/${vendor.slug}/${c.slug}.webp`}
+                        alt={c.name}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.onerror = null;
+                          target.src = `/images/products/${vendor.slug}/${c.slug}.png`;
+                          target.onerror = () => {
+                            target.onerror = null;
+                            target.src = `/images/compounds/${c.slug}.svg`;
+                            target.className = "w-7 h-7 object-contain";
+                          };
+                        }}
+                      />
                     </div>
                     <div className="min-w-0">
                       <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
