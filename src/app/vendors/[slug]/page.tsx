@@ -242,47 +242,85 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
         </div>
       </div>
 
-      {/* PRODUCTS LIST SECTION */}
+      {/* PRODUCTS LIST SECTION — Card layout */}
       <div className="max-w-6xl mx-auto px-4 pb-12 -mt-2">
-        <div className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
-          <div className="p-5 border-b border-slate-200">
-            <h2 className="text-lg font-bold text-slate-900">
-              {vendor.name} Products ({vendorCompounds.length})
-            </h2>
-            <p className="text-sm text-slate-500 mt-1">
-              All compounds available from this supplier. Prices from £{minPrice.toFixed(2)}.
-            </p>
-          </div>
-          <div className="divide-y divide-slate-100">
-            {vendorCompounds.map((c) => {
-              const source = c.sources.find((s) => s.vendor === vendor.name);
-              const price = source ? parseFloat(source.price.replace(/[£$€,]/g, "")) : 0;
-              return (
-                <Link
-                  key={c.id}
-                  href={`/compounds/${c.slug}`}
-                  className="flex items-center justify-between p-4 hover:bg-slate-50 transition-colors"
-                >
-                  <div className="flex items-center gap-3 min-w-0 flex-1">
-                    <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-slate-200">
-                      <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
+        <div className="space-y-4">
+          {vendorCompounds.map((c) => {
+            const source = c.sources.find((s) => s.vendor === vendor.name);
+            const price = source ? parseFloat(source.price.replace(/[£$€,]/g, "")) : 0;
+            const options = (source as any)?.options as { size: string; price: string }[] | undefined;
+            const variantCount = options?.length || 0;
+
+            return (
+              <div
+                key={c.id}
+                className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div className="flex items-center p-4 gap-4">
+                  {/* Product Image */}
+                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-slate-100">
+                    <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
+                  </div>
+
+                  {/* Info */}
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <h3 className="font-semibold text-slate-900 text-sm md:text-base">{c.name}</h3>
+                      {variantCount > 0 && (
+                        <span className="text-[10px] font-medium bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full border border-slate-200">
+                          {variantCount} {variantCount === 1 ? "size" : "sizes"}
+                        </span>
+                      )}
                     </div>
-                    <div className="min-w-0">
-                      <h3 className="font-semibold text-slate-900 text-sm">{c.name}</h3>
-                      <div className="flex items-center gap-2 text-[10px] text-slate-500">
-                        <span className="bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
-                        {c.aliases[0] && <span>{c.aliases[0]}</span>}
+
+                    <div className="flex items-center gap-2 text-[10px] text-slate-500 mb-2">
+                      <span className="bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
+                      {source?.inStock !== false && (
+                        <span className="flex items-center gap-1 text-green-600 font-medium">
+                          <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                          In Stock
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Variant pills */}
+                    {options && options.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mb-2">
+                        {options.map((opt) => (
+                          <span key={opt.size} className="text-[10px] bg-slate-50 text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
+                            {opt.size} — {opt.price}
+                          </span>
+                        ))}
                       </div>
+                    )}
+                  </div>
+
+                  {/* Price + Actions */}
+                  <div className="flex flex-col items-end gap-2 flex-shrink-0">
+                    <div className="text-right">
+                      <div className="text-lg font-bold text-emerald-600">{source?.price}</div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Link
+                        href={`/compounds/${c.slug}`}
+                        className="text-[11px] font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
+                      >
+                        Compare {c.sources.length} suppliers →
+                      </Link>
+                      <a
+                        href={source?.url || "#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-lg transition-colors shadow-sm whitespace-nowrap"
+                      >
+                        View Deal →
+                      </a>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 flex-shrink-0">
-                    {source && <span className="text-sm font-bold text-slate-900">{source.price}</span>}
-                    <span className="text-xs font-medium text-blue-600 bg-blue-50 px-2.5 py-1 rounded-md border border-blue-100">View &rarr;</span>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 

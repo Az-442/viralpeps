@@ -297,7 +297,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/bpc-157",
         "price": "£29.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£29.99"
+          },
+          {
+            "size": "10 mg",
+            "price": "£39.99"
+          }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
@@ -407,7 +417,17 @@
         "vendor": "UK Peptides",
         "url": "https://example.com/tb-500",
         "price": "£47.38",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£47.38"
+          },
+          {
+            "size": "10 mg",
+            "price": "£72.00"
+          }
+        ]
       },
       {
         "vendor": "Imperial Peptides UK",
@@ -529,7 +549,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/melanotan-ii",
         "price": "£15.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "£32.21"
+          },
+          {
+            "size": "50 mg",
+            "price": "£89.99"
+          }
+        ]
       },
       {
         "vendor": "The Peptide Company",
@@ -650,7 +680,17 @@
         "vendor": "UK Peptides",
         "url": "https://example.com/ghrp-2",
         "price": "£25.80",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£25.80"
+          },
+          {
+            "size": "10 mg",
+            "price": "£38.00"
+          }
+        ]
       }
     ],
     "longDescription": "## Overview\n\nGHRP-2 (Growth Hormone Releasing Peptide-2), also known as pralmorelin, is a synthetic hexapeptide that potently stimulates the release of growth hormone from the anterior pituitary gland. As one of the most potent members of the growth hormone-releasing peptide family, GHRP-2 has been extensively studied for its ability to significantly elevate GH levels in a dose-dependent manner. Discovered in the 1990s through systematic structure-activity studies of enkephalin-related peptides, GHRP-2 acts through a mechanism distinct from GHRH, making it a valuable tool in both diagnostic testing for GH deficiency and research into muscle growth, anti-aging, and fat metabolism. UK researchers have utilised GHRP-2 extensively in endocrine research and sports science, particularly in combination protocols with GHRH analogues such as CJC-1295 or sermorelin for enhanced GH pulse generation.\n\n## Mechanism of Action\n\nGHRP-2 functions as a potent agonist at the ghrelin receptor (growth hormone secretagogue receptor type 1a, GHSR-1a), a G-protein-coupled receptor expressed primarily in the pituitary gland and hypothalamus. Activation of GHSR-1a stimulates phospholipase C and intracellular calcium mobilisation in pituitary somatotrophs, triggering the exocytosis of pre-synthesised GH granules. Unlike GHRH, which stimulates GH synthesis and release, GHRP-2 primarily amplifies the releasable GH pool and synergises with GHRH signalling to produce a robust GH pulse. Additionally, GHRP-2 may stimulate cortisol and prolactin release, and it influences appetite regulation through its ghrelin-mimetic action at the hypothalamic level.\n\n## Research & Clinical Data\n\nGHRP-2 has been used clinically in Japan as a diagnostic agent for GH deficiency (as pralmorelin), where it demonstrates reliable stimulation of GH release with a favourable safety profile. Research studies report that GHRP-2 can elevate GH levels several-fold above baseline, with peak concentrations occurring 15–30 minutes after administration. Combined administration with GHRH or GHRH analogues produces a synergistic effect, generating GH pulses comparable to or exceeding those seen with insulin-induced hypoglycaemia. Research into its potential for anti-aging, muscle preservation, and metabolic health continues.\n\n## Dosage & Administration\n\nCommon research dosages for GHRP-2 range from 100–300 mcg per day, often divided into 2–3 daily doses of 100–200 mcg each. Due to its short half-life of 30–60 minutes, multiple daily injections are typically employed to maintain growth hormone pulsatility. GHRP-2 is often used in combination with a GHRH analogue (e.g., CJC-1295 without DAC or sermorelin) for a synergistic GH pulse. Subcutaneous administration is standard after reconstitution with bacteriostatic water.\n\n## Safety & Legal\n\nGHRP-2 is for research purposes only. Reported effects may include transient increases in appetite (ghrelin-mimetic effect), as well as potential elevations in cortisol and prolactin. Long-term effects of sustained GH elevation are not fully characterised. The lyophilised powder should be stored at -20°C for optimal stability.\n\n\nThe GHRP family evolved from enkephalin-derived peptides discovered by Drs. Bowers and Momany at Tulane University in the 1970s and 1980s. These small peptides were found to stimulate GH release through a receptor distinct from the GHRH receptor — later identified as the ghrelin receptor (GHSR-1a). GHRP-2 emerged as the most potent member of this class through systematic structure-activity relationship studies, with a potency approximately 2–3 times greater than GHRP-6 and a more favourable side effect profile.\n\nThe pulsatile nature of GH secretion is critical for its biological effects. Unlike continuous GH elevation (which can cause insulin resistance and acromegaly-like effects), natural GH pulses produce optimal metabolic benefits. GHRP-2 amplifies the amplitude of endogenous GH pulses rather than creating a constant elevation, which is thought to preserve the physiological advantages of pulsatile secretion. This is particularly relevant when GHRP-2 is combined with a GHRH analogue, which enhances GH pulse amplitude synergistically.\n\nIn Japan, GHRP-2 (pralmorelin) is approved as a diagnostic agent for GH deficiency. The test involves measuring GH levels after a single GHRP-2 injection and has largely replaced the insulin tolerance test as the gold standard for GH deficiency diagnosis due to its superior safety profile. This clinical experience provides confidence in the peptide's tolerability for research applications.\n\nFor researchers planning GHRP-2 protocols, the short half-life (30–60 minutes) necessitates careful timing of doses relative to meals and time of day. GH pulsatility is highest at night and during fasting states, so morning doses on an empty stomach or pre-bed administration are common. The peptide is typically reconstituted with bacteriostatic water and should be used within 7–14 days when refrigerated. UK researchers can source GHRP-2 from reputable peptide vendors who provide purity certification.",
@@ -711,7 +751,17 @@
         "vendor": "UK Peptides",
         "url": "https://example.com/aod-9604",
         "price": "£25.56",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£25.56"
+          },
+          {
+            "size": "10 mg",
+            "price": "£39.99"
+          }
+        ]
       },
       {
         "vendor": "Express Peptides",
@@ -940,7 +990,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/cjc-1295",
         "price": "£49.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "2 mg",
+            "price": "£32.00"
+          },
+          {
+            "size": "5 mg",
+            "price": "£55.00"
+          }
+        ]
       },
       {
         "vendor": "Pure Peptides UK",
@@ -1080,7 +1140,13 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/igf-1-lr3",
         "price": "£45.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "1 mg",
+            "price": "£52.00"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
@@ -1207,7 +1273,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/tesamorelin",
         "price": "£49.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "2 mg",
+            "price": "£64.81"
+          },
+          {
+            "size": "5 mg",
+            "price": "£99.99"
+          }
+        ]
       }
     ],
     "longDescription": "## Overview\n\nTesamorelin is a synthetic 44-amino acid analogue of human growth hormone-releasing hormone (GHRH) that is approved by the FDA and EMA for the treatment of HIV-associated lipodystrophy under the brand name Egrifta. As a full-length GHRH analogue, tesamorelin restores the natural pulsatile pattern of GH secretion, raising IGF-1 levels while maintaining the body's endogenous feedback mechanisms — a fundamentally different approach from exogenous GH administration. Unlike CJC-1295, tesamorelin does not incorporate DAC modification and therefore has a shorter duration of action requiring daily administration. However, it offers the advantage of being the only GHRH analogue with completed phase 3 clinical programmes and regulatory approval, providing a well-characterised safety and efficacy profile. UK researchers have investigated tesamorelin for its ability to reduce visceral adipose tissue, improve metabolic parameters, and its potential applications in anti-aging, cognitive function, and general GH deficiency.\n\n## Mechanism of Action\n\nTesamorelin acts as a full agonist at the GHRH receptor on pituitary somatotrophs. Binding to this G-protein-coupled receptor activates the cAMP/PKA signalling cascade, stimulating both GH gene transcription and the pulsatile release of stored GH from secretory granules. Importantly, tesamorelin preserves the endogenous feedback loop involving IGF-1 and somatostatin, meaning GH release remains under physiological regulation. This is a key safety advantage over exogenous GH administration, which suppresses the HPA axis and can lead to iatrogenic acromegaly. The full 44-amino acid sequence provides complete biological activity equivalent to endogenous GHRH, with a plasma half-life of approximately 30–60 minutes requiring daily administration.\n\n## Research & Clinical Data\n\nFDA and EMA approval for tesamorelin was based on two pivotal phase 3 trials in HIV-associated lipodystrophy involving over 800 patients. Treatment with 2 mg daily for 26 weeks resulted in a statistically significant reduction in visceral adipose tissue (approximately 15–20% reduction from baseline) as measured by CT scan, along with improvements in triglyceride levels and cardiovascular risk markers. Open-label extension studies demonstrated sustained effects over 12 months with no loss of efficacy. Research into tesamorelin for cognitive function in mild cognitive impairment, age-related visceral fat accumulation, and growth hormone deficiency continues in ongoing studies.\n\n## Dosage & Administration\n\nThe standard research dosage for tesamorelin is 2 mg administered once daily via subcutaneous injection. The relatively short half-life of 30–60 minutes necessitates daily administration. Tesamorelin is reconstituted with sterile water for injection and should be used immediately or within 24 hours when refrigerated.\n\n## Safety & Legal\n\nTesamorelin is approved for clinical use in HIV-associated lipodystrophy but is for research purposes in other contexts. Common side effects include injection site reactions, joint pain, flushing, and peripheral oedema. Long-term safety data are available from clinical trial extension studies up to 12 months. The lyophilised powder should be stored at 2–8°C and protected from light.\n\n\nTesamorelin's regulatory approval by the FDA in 2010 for HIV-associated lipodystrophy marked a significant milestone in GHRH-based therapeutics. HIV lipodystrophy is a condition characterised by visceral fat accumulation, insulin resistance, and dyslipidaemia — metabolic abnormalities that increase cardiovascular risk in the HIV population. Tesamorelin's ability to reduce visceral adipose tissue by 15–20% while improving lipid profiles addressed an important unmet medical need.\n\nThe development of tesamorelin involved extensive preclinical and clinical characterisation. Unlike the shorter GHRH fragments (sermorelin), tesamorelin is a full-length 44-amino acid analogue that more closely recapitulates the biological activity of endogenous GHRH. The peptide was designed to resist DPP-IV degradation through strategic amino acid substitutions while maintaining full receptor binding and activation.\n\nBeyond HIV lipodystrophy, tesamorelin has been investigated for age-related visceral fat accumulation. A study in healthy older adults with abdominal obesity showed that tesamorelin reduced visceral adipose tissue and improved the ratio of visceral to subcutaneous fat. Research into its effects on cognition in mild cognitive impairment (MCI) has shown preliminary evidence of improved cognitive function, possibly mediated through IGF-1's neurotrophic effects on the hippocampus.\n\nThe practical aspects of tesamorelin research are straightforward: the standard dose is 2 mg once daily by subcutaneous injection. The peptide should be reconstituted with sterile water for injection and used immediately or stored at 2–8°C for up to 24 hours. Given its approval status in HIV lipodystrophy, tesamorelin has a well-characterised safety profile that includes injection site reactions, joint pain, and peripheral oedema as the most common adverse events.",
@@ -1288,7 +1364,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/sermorelin",
         "price": "£49.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "2 mg",
+            "price": "£28.00"
+          },
+          {
+            "size": "5 mg",
+            "price": "£49.99"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
@@ -1602,7 +1688,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/ghk-cu",
         "price": "£24.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "50 mg",
+            "price": "£16.00"
+          },
+          {
+            "size": "100 mg",
+            "price": "£25.00"
+          }
+        ]
       },
       {
         "vendor": "Pure Peptides UK",
@@ -2063,7 +2159,13 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/semax",
         "price": "£23.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "600 mcg",
+            "price": "£23.00"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
@@ -2184,7 +2286,13 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/selank",
         "price": "£20.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "600 mcg",
+            "price": "£20.00"
+          }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
@@ -2412,7 +2520,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/bpc-157-oral",
         "price": "£32.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "500 mcg",
+            "price": "£32.00"
+          },
+          {
+            "size": "1 mg",
+            "price": "£48.00"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
@@ -2808,7 +2926,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/ghrp-6",
         "price": "£49.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£22.00"
+          },
+          {
+            "size": "10 mg",
+            "price": "£35.00"
+          }
+        ]
       },
       {
         "vendor": "Research Peptides UK",
@@ -2985,7 +3113,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/kisspeptin-10",
         "price": "£40.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "1 mg",
+            "price": "£40.00"
+          },
+          {
+            "size": "5 mg",
+            "price": "£72.00"
+          }
+        ]
       },
       {
         "vendor": "Research Peptides UK",
@@ -3641,7 +3779,17 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/bpc-tb-blend",
         "price": "£48.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg/5 mg",
+            "price": "£48.00"
+          },
+          {
+            "size": "10 mg/10 mg",
+            "price": "£75.00"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
