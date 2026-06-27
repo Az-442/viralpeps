@@ -165,13 +165,12 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col items-end gap-1 flex-shrink-0">
-                    <span className="flex items-center gap-2">
-                      {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
-                      <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
-                    </span>
+                  <div className="flex items-center gap-3 flex-shrink-0">
+                    {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
+                    <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
                   </div>
                 </Link>
+              );
             })}
           </div>
         </div>
