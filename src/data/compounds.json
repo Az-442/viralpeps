@@ -297,17 +297,7 @@
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/bpc-157",
         "price": "\u00a329.99",
-        "inStock": true,
-        "options": [
-          {
-            "label": "5 mg",
-            "price": "\u00a329.99"
-          },
-          {
-            "label": "10 mg",
-            "price": "\u00a339.99"
-          }
-        ]
+        "inStock": true
       },
       {
         "vendor": "Sterling Peptides",
