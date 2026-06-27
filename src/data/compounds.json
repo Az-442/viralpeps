@@ -301,7 +301,17 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/bpc-157-tb500-bacteriostatic-water-research-kit",
         "price": "£42.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£16.90"
+          },
+          {
+            "size": "10 mg",
+            "price": "£27.99"
+          }
+        ]
       },
       {
         "vendor": "Dr P Research",
@@ -373,7 +383,17 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/tb-500",
         "price": "£18.40",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "2 mg",
+            "price": "£18.40"
+          },
+          {
+            "size": "5 mg",
+            "price": "£26.40"
+          }
+        ]
       },
       {
         "vendor": "Express Peptides",
@@ -749,7 +769,21 @@
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/aod-9604/pen",
         "price": "£80.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£50.00"
+          },
+          {
+            "size": "10 mg",
+            "price": "£80.00"
+          },
+          {
+            "size": "20 mg",
+            "price": "£120.00"
+          }
+        ]
       },
       {
         "vendor": "The Peptide Company",
@@ -773,7 +807,13 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/aod-9604",
         "price": "£22.90",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "2 mg",
+            "price": "£22.90"
+          }
+        ]
       },
       {
         "vendor": "Imperial Peptides UK",
@@ -1491,7 +1531,17 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/mots-c-research-peptide",
         "price": "£27.49",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg",
+            "price": "£27.49"
+          },
+          {
+            "size": "20 mg",
+            "price": "£49.99"
+          }
+        ]
       },
       {
         "vendor": "Express Peptides",
@@ -1722,7 +1772,17 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/ghk-cu",
         "price": "£19.99",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "50 mg",
+            "price": "£19.99"
+          },
+          {
+            "size": "100 mg",
+            "price": "£35.99"
+          }
+        ]
       },
       {
         "vendor": "The Peptide Company",
@@ -1859,7 +1919,17 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research",
         "price": "£19.90",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "5 mg",
+            "price": "£19.90"
+          },
+          {
+            "size": "10 mg",
+            "price": "£33.90"
+          }
+        ]
       },
       {
         "vendor": "The Peptide Company",
@@ -4489,7 +4559,17 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/nad-research-peptide",
         "price": "£46.64",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "500 mg",
+            "price": "£46.64"
+          },
+          {
+            "size": "1000 mg",
+            "price": "£65.84"
+          }
+        ]
       },
       {
         "vendor": "Express Peptides",
