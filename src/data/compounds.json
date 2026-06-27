@@ -5999,5 +5999,62 @@
         ]
       }
     ]
+  },
+  {
+    "id": "follistatin-344",
+    "name": "Follistatin 344",
+    "slug": "follistatin-344",
+    "aliases": [
+      "FS-344",
+      "FST-344",
+      "Follistatin"
+    ],
+    "category": "growth-factors",
+    "description": "Follistatin 344 is a recombinant 344-amino-acid glycoprotein isoform of the naturally occurring follistatin protein, a member of the activin-binding glycoprotein family that plays a central role in regulating skeletal muscle growth. It acts as a potent myostatin (GDF-8) antagonist, binding directly to myostatin and other TGF-\\u03b2 superfamily members such as activins, preventing their interaction with activin type II receptors. This inhibition removes the negative regulatory brake on muscle cell proliferation and differentiation, making follistatin 344 one of the most studied peptides in muscle growth and regeneration research. Researchers in the UK and worldwide investigate follistatin 344 for applications including muscular hypertrophy, sarcopenia, cachexia, muscle wasting disorders, Duchenne muscular dystrophy, and tissue regeneration following injury. Its ability to promote significant increases in muscle mass and strength in preclinical models has attracted considerable attention from the sports medicine and regenerative biology communities. As a recombinant protein rather than a short synthetic peptide, follistatin 344 requires careful reconstitution and cold-chain storage to maintain bioactivity.",
+    "mechanism": "Binds and neutralises myostatin (GDF-8) and activins, members of the TGF-\\u03b2 superfamily, preventing their interaction with activin type IIB receptors. This releases the negative regulation on satellite cell activation, myoblast proliferation, and muscle fibre growth, promoting skeletal muscle hypertrophy and regeneration.",
+    "cas": "80449-31-6",
+    "molarMass": "~37,000 g/mol",
+    "sequence": "Recombinant 344-amino-acid protein",
+    "purity": "\\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "2-3 hours",
+    "researchAreas": [
+      "Muscle hypertrophy",
+      "Myostatin inhibition",
+      "Sarcopenia",
+      "Cachexia",
+      "Muscular dystrophy",
+      "Tissue regeneration"
+    ],
+    "commonDosages": [
+      "1 mg every 3 days",
+      "2-3 mg/week"
+    ],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/follistatin-344/vial",
+        "price": "\\u00a380.00",
+        "inStock": true,
+        "options": [
+          {
+            "size": "1 mg",
+            "price": "\\u00a380.00"
+          }
+        ]
+      },
+      {
+        "vendor": "Research Peptide",
+        "url": "https://researchpeptide.co.uk/product/follistatin-344-1mg/",
+        "price": "\\u00a375.99",
+        "inStock": false
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg",
+        "price": "\\u00a339.95",
+        "inStock": true
+      }
+    ]
   }
 ]
