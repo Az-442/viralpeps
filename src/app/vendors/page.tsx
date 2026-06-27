@@ -94,7 +94,7 @@ export default function VendorsPage() {
                   placeholder={`Search ${vendors.length} UK suppliers...`}
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2.5 border border-black rounded-lg text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 placeholder-black"
+                  className="w-full pl-10 pr-4 py-2.5 border border-black rounded-lg text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 placeholder:text-gray-900"
                 />
               </div>
             </div>
