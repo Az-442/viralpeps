@@ -256,9 +256,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 key={c.id}
                 className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="flex flex-col sm:flex-row items-start sm:items-center p-2.5 md:p-3 gap-2 md:gap-3">
+                <div className="flex flex-row items-center p-2.5 md:p-3 gap-2 md:gap-3">
                   {/* Product Image */}
-                  <div className="w-full sm:w-16 md:w-[72px] h-32 sm:h-16 md:h-[72px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
+                  <div className="w-16 h-16 sm:w-16 md:w-[72px] sm:h-16 md:h-[72px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
                     <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
                   </div>
 
