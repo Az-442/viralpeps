@@ -144,7 +144,7 @@ export default function VendorsPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-1">All {vendors.length} UK suppliers</h2>
           <p className="text-sm text-gray-500 mb-6">Every UK supplier in our comparison index — sorted and filtered your way.</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {sorted.map((v) => {
               const count = vendorProductCounts[v.name] || 0;
               const minPrice = vendorMinPrices[v.name] || 0;
@@ -154,39 +154,62 @@ export default function VendorsPage() {
                 <Link
                   key={v.id}
                   href={`/vendors/${v.slug}`}
-                  className="bg-white border border-gray-100 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group flex items-start gap-4"
+                  className="bg-white border border-gray-100 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
                 >
-                  <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                    <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-10 h-10 object-contain" />
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <h3 className="font-semibold text-gray-900 text-sm">{v.name}</h3>
-                      {v.verified && (
-                        <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
-                          <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-                          Site Verified
-                        </span>
-                      )}
+                  <div className="flex items-start gap-4">
+                    {/* Logo - bigger */}
+                    <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-50">
+                      <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-14 h-14 object-contain" />
                     </div>
-                    <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-gray-500">
-                      <span className="text-amber-500">★ {v.rating}</span>
-                      <span>{v.country}</span>
-                      <span className="font-medium text-gray-700">From £{minPrice.toFixed(2)}</span>
-                      <span>{count} products</span>
+
+                    {/* Middle content */}
+                    <div className="min-w-0 flex-1">
+                      {/* Company name - larger font */}
+                      <h3 className="font-semibold text-gray-900 text-base">{v.name}</h3>
+
+                      {/* Rating + country */}
+                      <div className="flex items-center gap-2 mt-0.5">
+                        <span className="text-amber-500 text-sm">★ {v.rating}</span>
+                        <span className="text-xs text-gray-500">{v.country}</span>
+                      </div>
+
+                      {/* Badges row - all in same green */}
+                      <div className="flex flex-wrap items-center gap-1.5 mt-2">
+                        {v.verified && (
+                          <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                            <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                            Site Verified
+                          </span>
+                        )}
+                        {hasFreeShipping && (
+                          <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                            <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zm-6 9H6v-7h8v7zm3.5 1.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" /></svg>
+                            FREE DELIVERY
+                          </span>
+                        )}
+                        {hasLabTested && (
+                          <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                            <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" /></svg>
+                            LAB TESTED
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Product count */}
+                      <p className="text-xs text-gray-400 mt-1.5">{count} products</p>
+
+                      {/* Description */}
+                      <p className="text-xs text-gray-400 mt-0.5 line-clamp-1">{v.description}</p>
                     </div>
-                    <div className="flex flex-wrap gap-1.5 mt-2">
-                      {hasFreeShipping && (
-                        <span className="text-[10px] bg-blue-50 text-blue-700 font-semibold px-1.5 py-0.5 rounded-full">FREE DELIVERY</span>
-                      )}
-                      {hasLabTested && (
-                        <span className="text-[10px] bg-gray-800 text-white px-1.5 py-0.5 rounded-full">LAB TESTED</span>
-                      )}
+
+                    {/* Right side: Price + View */}
+                    <div className="flex flex-col items-end gap-0.5 flex-shrink-0 pt-0.5">
+                      <span className="text-xl font-bold text-green-600 leading-tight">£{minPrice.toFixed(2)}</span>
+                      <span className="text-[10px] font-bold text-green-600 uppercase tracking-wider">From</span>
+                      <span className="text-xs font-semibold text-green-600 group-hover:underline mt-2 whitespace-nowrap">
+                        View &rarr;
+                      </span>
                     </div>
-                    <p className="text-xs text-gray-400 mt-1 line-clamp-1">{v.description}</p>
-                  </div>
-                  <div className="flex-shrink-0 self-center">
-                    <span className="text-xs font-medium text-blue-600 group-hover:underline">View &rarr;</span>
                   </div>
                 </Link>
               );
