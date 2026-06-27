@@ -258,20 +258,20 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               >
                 <div className="flex flex-col">
                   {/* Top row: Image + Info */}
-                  <div className="flex flex-row items-center gap-2 p-2.5 pb-1 md:p-3 md:pb-1">
-                    <div className="w-14 h-14 sm:w-14 md:w-[72px] sm:h-14 md:h-[72px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
+                  <div className="flex flex-row items-center gap-2.5 p-3 pb-1 md:p-4 md:pb-1.5">
+                    <div className="w-[70px] h-[70px] md:w-[90px] md:h-[90px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
                       <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex flex-wrap items-center gap-1.5 mb-0.5">
-                        <h3 className="font-semibold text-slate-900 text-sm md:text-base">{c.name}</h3>
+                        <h3 className="font-semibold text-slate-900 text-base md:text-lg">{c.name}</h3>
                         {variantCount > 0 && (
-                          <span className="text-[10px] font-medium bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full border border-slate-200">
+                          <span className="text-xs font-medium bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full border border-slate-200">
                             {variantCount} {variantCount === 1 ? "size" : "sizes"}
                           </span>
                         )}
                       </div>
-                      <div className="flex flex-wrap items-center gap-1.5 text-xs text-slate-500">
+                      <div className="flex flex-wrap items-center gap-1.5 text-sm text-slate-500">
                         <span className="bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
                         {source?.inStock !== false && (
                           <span className="flex items-center gap-1 text-green-600 font-medium">
@@ -285,9 +285,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
 
                   {/* Variant pills */}
                   {options && options.length > 0 && (
-                    <div className="flex flex-wrap gap-1.5 px-2.5 md:px-3 pb-1">
+                    <div className="flex flex-wrap gap-1.5 px-3 md:px-4 pb-1">
                       {options.map((opt) => (
-                        <span key={opt.size} className="text-[10px] bg-slate-50 text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
+                        <span key={opt.size} className="text-xs bg-slate-50 text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
                           {opt.size} — {opt.price}
                         </span>
                       ))}
@@ -295,12 +295,12 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   )}
 
                   {/* Bottom row: Price + Actions */}
-                  <div className="flex flex-row items-center justify-between px-2.5 pb-2.5 md:px-3 md:pb-3 pt-2 border-t border-slate-100">
-                    <div className="text-base md:text-xl font-bold text-emerald-600">{source?.price}</div>
-                    <div className="flex items-center gap-1.5">
+                  <div className="flex flex-row items-center justify-between px-3 pb-3 md:px-4 md:pb-4 pt-2 border-t border-slate-100">
+                    <div className="text-lg md:text-2xl font-bold text-emerald-600">{source?.price}</div>
+                    <div className="flex items-center gap-2">
                       <Link
                         href={`/compounds/${c.slug}`}
-                        className="text-[10px] sm:text-xs font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
+                        className="text-xs sm:text-sm font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
                       >
                         Compare {c.sources.length} suppliers →
                       </Link>
@@ -308,7 +308,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                         href={source?.url || "#"}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-3 py-1.5 sm:px-4 sm:py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-lg transition-colors shadow-sm whitespace-nowrap"
+                        className="px-3.5 py-1.5 sm:px-4 sm:py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-lg transition-colors shadow-sm whitespace-nowrap"
                       >
                         View Deal →
                       </a>
