@@ -170,9 +170,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                       {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
                       <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
                     </span>
-                    {source?.options && source.options.length > 0 && (
+                    {source && ((source as any).options?.length ?? 0) > 0 && (
                       <div className="flex flex-wrap gap-1 justify-end">
-                        {source.options.map((opt: { label: string; price: string }) => (
+                        {(source as any).options.map((opt: any, i: number) => (
                           <span key={opt.label} className="text-[10px] bg-gray-50 text-black px-1.5 py-0.5 rounded font-medium">
                             {opt.label} @ {opt.price}
                           </span>
