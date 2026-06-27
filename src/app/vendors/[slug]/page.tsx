@@ -149,12 +149,16 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               const source = c.sources.find((s) => s.vendor === vendor.name);
               const price = source ? parseFloat(source.price.replace(/[£$€,]/g, "")) : 0;
               return (
-                <Link
+                <div
                   key={c.id}
-                  href={`/compounds/${c.slug}`}
                   className="flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
                 >
-                  <div className="flex items-center gap-3 min-w-0 flex-1">
+                  <a
+                    href={source?.url || `/compounds/${c.slug}`}
+                    target={source?.url ? "_blank" : undefined}
+                    rel={source?.url ? "noopener noreferrer" : undefined}
+                    className="flex items-center gap-3 min-w-0 flex-1"
+                  >
                     <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
                       <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
                     </div>
@@ -165,12 +169,31 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                         {c.aliases[0] && <span>{c.aliases[0]}</span>}
                       </div>
                     </div>
+                  </a>
+                  <div className="flex flex-col items-end gap-1 flex-shrink-0">
+                    <a
+                      href={source?.url || `/compounds/${c.slug}`}
+                      target={source?.url ? "_blank" : undefined}
+                      rel={source?.url ? "noopener noreferrer" : undefined}
+                      className="flex items-center gap-2"
+                    >
+                      {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
+                      <span className="text-xs text-blue-600 font-medium flex items-center gap-1">
+                        View
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                      </span>
+                    </a>
+                    {source?.options && source.options.length > 0 && (
+                      <div className="flex flex-wrap gap-1 justify-end">
+                        {source.options.map((opt) => (
+                          <span key={opt.label} className="text-[10px] bg-gray-50 text-black px-1.5 py-0.5 rounded font-medium">
+                            {opt.label} @ {opt.price}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
-                  <div className="flex items-center gap-3 flex-shrink-0">
-                    {source && <span className="text-sm font-bold text-gray-900">{source.price}</span>}
-                    <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
-                  </div>
-                </Link>
+                </div>
               );
             })}
           </div>

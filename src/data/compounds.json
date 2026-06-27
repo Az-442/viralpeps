@@ -295,35 +295,39 @@
       },
       {
         "vendor": "UK Peptides",
-        "url": "https://example.com/bpc-157",
-        "price": "\u00a344.64",
-        "inStock": true
+        "url": "https://ukpeptides.com/catalog/bpc-157",
+        "price": "£29.99",
+        "inStock": true,
+        "options": [
+          { "label": "5 mg", "price": "£29.99" },
+          { "label": "10 mg", "price": "£39.99" }
+        ]
       },
       {
         "vendor": "Sterling Peptides",
-        "url": "https://example.com/bpc-157",
-        "price": "\u00a345.79",
+        "url": "https://sterlingpeptides.co.uk",
+        "price": "£45.79",
         "inStock": true
       },
       {
         "vendor": "Research Peptides UK",
-        "url": "https://example.com/bpc-157",
-        "price": "\u00a348.63",
+        "url": "https://researchpeptidesuk.com",
+        "price": "£48.63",
         "inStock": true
       },
       {
         "vendor": "The Peptide Company",
-        "url": "https://example.com/bpc-157",
-        "price": "\u00a351.44",
+        "url": "https://thepeptidecompany.co.uk",
+        "price": "£51.44",
         "inStock": true
       },
       {
         "vendor": "Tide Labs",
-        "url": "https://example.com/bpc-157",
-        "price": "\u00a351.54",
+        "url": "https://tidelabs.co.uk",
+        "price": "£51.54",
         "inStock": true
       }
-    ],
+      ],
     "longDescription": "## Overview\n\nBPC-157, also known as Body Protection Compound 157 or PL 14736, is a synthetic pentadecapeptide (15 amino acids) derived from a protective protein found naturally in human gastric juice. Since its discovery, BPC-157 has become one of the most extensively studied regenerative peptides in the world, with research spanning gastrointestinal healing, tendon and ligament repair, muscle recovery, bone healing, and inflammatory bowel disease. What makes BPC-157 particularly remarkable is its apparent ability to accelerate healing across multiple tissue types through a coordinated mechanism involving angiogenesis, growth factor upregulation, and modulation of the nitric oxide system. UK-based researchers and those in the sports medicine community have shown particular interest in BPC-157 for its potential applications in soft tissue injury recovery and gut health. Its well-documented safety profile in animal models has made it a staple in regenerative peptide research.\n\n## Mechanism of Action\n\nBPC-157 exerts its regenerative effects through a multi-faceted mechanism that centres on angiogenesis promotion and growth factor modulation. It upregulates vascular endothelial growth factor (VEGF) and fibroblast growth factor (FGF), stimulating new blood vessel formation that supplies healing tissues with oxygen and nutrients. The peptide also modulates the nitric oxide (NO) system, which plays a crucial role in the inflammatory and proliferative phases of wound healing. At the molecular level, BPC-157 upregulates early growth response factor-1 (Egr-1), which coordinates the expression of multiple growth factors and cytokines involved in tissue repair. It also protects gastrointestinal mucosa by increasing blood flow, mucus production, and epithelial cell migration while reducing oxidative stress and inflammation.\n\n## Research & Clinical Data\n\nBPC-157 has been studied extensively in preclinical models of gastrointestinal injury, demonstrating accelerated healing of gastric and duodenal ulcers, inflammatory bowel disease models, and chemotherapy-induced mucositis. In musculoskeletal research, BPC-157 has shown accelerated healing of transected Achilles tendons, improved ligament integrity after injury, and enhanced muscle regeneration following contusion and crush injuries. Studies also report improved healing of bone fractures, including non-union defects, and protection against ischaemia-reperfusion injury in multiple organ systems.\n\n## Dosage & Administration\n\nIn research protocols, BPC-157 is typically administered via subcutaneous injection at doses of 200\u2013400 mcg per day for systemic effects, or up to 500 mcg twice daily for more intensive protocols targeting significant injury or gastrointestinal conditions. The peptide has a short half-life (fast clearance), which supports daily or twice-daily dosing schedules. Reconstitution with bacteriostatic water is standard, and the solution should be refrigerated at 2\u20138\u00b0C and used within 7\u201314 days.\n\n## Safety & Legal\n\nBPC-157 is intended for laboratory research purposes only and is not approved for human consumption. Preclinical studies have reported a favourable safety profile with no observed toxicity at therapeutic doses. However, long-term safety data in humans remain limited. The lyophilised powder should be stored at -20\u00b0C for optimal stability and protected from light and moisture. Researchers should source from reputable suppliers who provide \u226599% purity verification.\n\n\nThe story of BPC-157's discovery traces back to observations that human gastric juice contained factors capable of protecting the gastrointestinal tract from injury. Researchers at the University of Zagreb in Croatia identified and characterised BPC-157 as a stable 15-amino acid fragment of a larger body protection compound (BPC) found in gastric juice. The peptide's remarkable stability in the acidic gastric environment and its ability to survive enzymatic degradation hinted at its therapeutic potential for oral administration \u2014 though the injectable route remains the gold standard for systemic research.\n\nOne of the most striking aspects of BPC-157 research is the breadth of tissue types in which it promotes healing. Beyond gastrointestinal ulcer healing, BPC-157 has demonstrated efficacy in tendon-to-bone healing (a notoriously difficult orthopaedic problem), peripheral nerve regeneration, liver and kidney protection from toxic insults, and even bone healing in non-union fracture models. The peptide appears to upregulate the expression of multiple growth factors simultaneously, creating a coordinated healing response rather than targeting a single pathway \u2014 which may explain its broad tissue-specific efficacy.\n\nFor research protocols, BPC-157's fast clearance (plasma half-life is short, though tissue retention may be longer) supports daily or twice-daily administration. Typical reconstitution uses bacteriostatic water, and the peptide is stable for approximately 14 days when refrigerated. Some researchers use a sub-Q injection near the site of injury for localised effects, though systemic administration has proven effective in most models.\n\nThe question of whether BPC-157 is available in the UK for legitimate research is important for investigators. The peptide is not approved for human use by the MHRA, but it is legally sold for research purposes by UK-based suppliers. Researchers should always verify that their supplier provides third-party HPLC and mass spectrometry analysis to confirm identity and purity.",
     "faq": [
       {
