@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
 interface ProductImageProps {
   vendorSlug: string;
   compoundSlug: string;
@@ -9,29 +7,32 @@ interface ProductImageProps {
 }
 
 export default function ProductImage({ vendorSlug, compoundSlug, compoundName }: ProductImageProps) {
-  const [imgSrc, setImgSrc] = useState(`/images/products/${vendorSlug}/${compoundSlug}.webp`);
-  const [imgClass, setImgClass] = useState("w-full h-full object-cover");
-  const [fallbackLevel, setFallbackLevel] = useState(0);
-
-  const handleError = () => {
-    if (fallbackLevel === 0) {
-      setFallbackLevel(1);
-      setImgSrc(`/images/products/${vendorSlug}/${compoundSlug}.png`);
-    } else if (fallbackLevel === 1) {
-      setFallbackLevel(2);
-      setImgSrc(`/images/products/${vendorSlug}/ukp-generic.webp`);
-    } else if (fallbackLevel === 2) {
-      setFallbackLevel(3);
-      setImgSrc(`/images/compounds/${compoundSlug}.svg`);
-      setImgClass("w-7 h-7 object-contain");
+  const handleError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    const img = e.currentTarget;
+    const currentSrc = img.src;
+    
+    if (currentSrc.endsWith(".webp")) {
+      // Try .png next
+      img.src = `/images/products/${vendorSlug}/${compoundSlug}.png`;
+    } else if (currentSrc.endsWith(".png")) {
+      // Try generic vendor image
+      img.src = `/images/products/${vendorSlug}/ukp-generic.webp`;
+    } else if (currentSrc.includes("ukp-generic")) {
+      // Fall back to compound SVG
+      img.src = `/images/compounds/${compoundSlug}.svg`;
+      img.className = "w-7 h-7 object-contain";
+      img.onerror = null; // stop further fallback
+    } else if (currentSrc.includes("/images/compounds/")) {
+      // SVG also failed - clear handler
+      img.onerror = null;
     }
   };
 
   return (
     <img
-      src={imgSrc}
+      src={`/images/products/${vendorSlug}/${compoundSlug}.webp`}
       alt={compoundName}
-      className={imgClass}
+      className="w-full h-full object-cover"
       onError={handleError}
     />
   );
