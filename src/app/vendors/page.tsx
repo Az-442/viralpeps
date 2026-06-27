@@ -74,7 +74,7 @@ export default function VendorsPage() {
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
             Every UK peptide supplier, in one place.
           </h1>
-          <p className="text-gray-400 text-sm max-w-xl mx-auto">
+          <p className="text-gray-300 text-sm max-w-xl mx-auto">
             Compare {vendors.length} verified UK peptide suppliers. Prices, products, and shipping — all in one directory.
           </p>
         </div>
@@ -82,7 +82,7 @@ export default function VendorsPage() {
 
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* SEARCH + FILTERS */}
-        <div className="bg-white border border-gray-100 rounded-xl p-5 mb-6">
+        <div className="bg-white border border-black rounded-xl p-5 mb-6">
           <div className="flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
             <div className="flex-1 max-w-md">
               <div className="relative">
@@ -91,7 +91,7 @@ export default function VendorsPage() {
                 </svg>
                 <input
                   type="text"
-                  placeholder={`Search ${vendors.length} UK suppliers...`}
+                  placeholder="Search suppliers"
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
                   className="w-full pl-10 pr-4 py-2.5 border border-black rounded-lg text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-black placeholder-gray-900"
@@ -102,7 +102,7 @@ export default function VendorsPage() {
               <select
                 value={sort}
                 onChange={(e) => setSort(e.target.value as typeof sort)}
-                className="px-3 py-2 border border-black rounded-lg text-sm outline-none focus:border-blue-500 bg-white"
+                className="px-3 py-2 border border-black rounded-lg text-sm outline-none focus:border-blue-500 bg-white text-black"
               >
                 <option value="a-z">A to Z</option>
                 <option value="rating">Top rated</option>
@@ -124,10 +124,10 @@ export default function VendorsPage() {
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
                   filter === f.key
                     ? "bg-blue-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                    : "bg-gray-100 text-black hover:bg-gray-200"
                 }`}
               >
-                {f.label} <span className="opacity-70">{f.count}</span>
+                {f.label} <span className="text-black">{f.count}</span>
               </button>
             ))}
           </div>
@@ -142,7 +142,7 @@ export default function VendorsPage() {
             <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">Supplier Directory</span>
           </div>
           <h2 className="text-xl font-bold text-gray-900 mb-1">All {vendors.length} UK suppliers</h2>
-          <p className="text-sm text-gray-500 mb-6">Every UK supplier in our comparison index — sorted and filtered your way.</p>
+          <p className="text-sm text-black mb-6">Every UK supplier in our comparison index — sorted and filtered your way.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {sorted.map((v) => {
@@ -155,11 +155,11 @@ export default function VendorsPage() {
                 <Link
                   key={v.id}
                   href={`/vendors/${v.slug}`}
-                  className="bg-white border border-gray-100 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+                  className="bg-white border border-black rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
                 >
                   <div className="flex items-start gap-4">
                     {/* Logo - bigger for 3 vendors */}
-                    <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-50`}>
+                    <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-black`}>
                       <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className={`${bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14"} object-contain`} />
                     </div>
 
@@ -171,7 +171,7 @@ export default function VendorsPage() {
                       {/* Rating + country */}
                       <div className="flex items-center gap-2 mt-0.5">
                         <span className="text-amber-500 text-sm">★ {v.rating}</span>
-                        <span className="text-xs text-gray-500">{v.country}</span>
+                        <span className="text-xs text-black">{v.country}</span>
                       </div>
 
                       {/* Badges row - all in same green */}
@@ -197,10 +197,10 @@ export default function VendorsPage() {
                       </div>
 
                       {/* Product count */}
-                      <p className="text-xs text-gray-400 mt-1.5">{count} products</p>
+                      <p className="text-xs text-black mt-1.5">{count} products</p>
 
                       {/* Description */}
-                      <p className="text-xs text-gray-400 mt-0.5 line-clamp-1">{v.description}</p>
+                      <p className="text-xs text-black mt-0.5 line-clamp-1">{v.description}</p>
                     </div>
 
                     {/* Right side: Price + View */}
