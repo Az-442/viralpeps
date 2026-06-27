@@ -33,12 +33,6 @@
     ],
     "sources": [
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/tirzepatide",
-        "price": "£46.90",
-        "inStock": true
-      },
-      {
         "vendor": "Tide Labs",
         "url": "https://example.com/tirzepatide",
         "price": "£54.71",
@@ -168,12 +162,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/semaglutide",
-        "price": "£53.38",
-        "inStock": true
-      },
-      {
         "vendor": "Tide Labs",
         "url": "https://example.com/semaglutide",
         "price": "£56.18",
@@ -247,8 +235,8 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
-        "price": "£49.00",
+        "url": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+        "price": "£13.99",
         "inStock": true
       },
       {
@@ -403,8 +391,8 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://example.com/tb-500",
-        "price": "£41.57",
+        "url": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/",
+        "price": "£29.99",
         "inStock": true
       },
       {
@@ -547,12 +535,6 @@
         "vendor": "Research Peptides UK",
         "url": "https://example.com/melanotan-ii",
         "price": "£29.13",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/melanotan-ii",
-        "price": "£30.95",
         "inStock": true
       },
       {
@@ -792,12 +774,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/aod-9604",
-        "price": "£29.12",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/aod-9604",
         "price": "£30.88",
@@ -960,12 +936,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/retatrutide",
-        "price": "£78.70",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/retatrutide",
         "price": "£82.22",
@@ -1040,8 +1010,8 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/premium-mod-grf-5mg/",
-        "price": "£32.50",
+        "url": "https://purepeptidesuk.com/product/modified-grf-1-29-2mg/",
+        "price": "£14.99",
         "inStock": true
       },
       {
@@ -1201,12 +1171,6 @@
         "url": "https://thepeptidecompany.co.uk",
         "price": "£58.00",
         "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/igf-1-lr3",
-        "price": "£66.50",
-        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nIGF-1 LR3 (Long Arginine 3 Insulin-like Growth Factor-1) is a synthetic 83-amino acid analogue of human IGF-1 engineered for dramatically enhanced bioavailability and half-life. The modification involves substituting the third amino acid (arginine for glutamic acid) and adding an N-terminal extension (MFPAMPLSSLFNGPRTLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA), creating a peptide with approximately 1000-fold reduced affinity for IGF-binding proteins (IGFBPs). Normally, native IGF-1 is rapidly sequestered by IGFBPs and cleared within 10–12 minutes. IGF-1 LR3 overcomes this limitation, achieving a half-life of 20–30 hours and significantly greater bioavailability at target tissues. This makes IGF-1 LR3 a powerful research tool for studying muscle growth, recovery, insulin sensitivity, nerve regeneration, and anti-aging pathways. UK researchers in sports science and regenerative medicine have utilised IGF-1 LR3 to investigate protein synthesis and tissue repair mechanisms.\n\n## Mechanism of Action\n\nIGF-1 LR3 exerts its effects by binding to the IGF-1 receptor (IGF-1R), a receptor tyrosine kinase that activates the PI3K/Akt and MAPK/ERK signalling cascades. This leads to increased protein synthesis through mTOR activation, enhanced nitrogen retention, inhibited protein breakdown (through FoxO phosphorylation), and promotion of cell proliferation and survival. The reduced binding to IGFBPs (particularly IGFBP-3, the most abundant circulating binding protein) means that a much larger proportion of administered peptide remains free and biologically active — a critical advantage over native IGF-1. IGF-1 LR3 also exhibits some cross-reactivity with the insulin receptor, though with lower affinity, potentially contributing to improved insulin sensitivity in certain research contexts.\n\n## Research & Clinical Data\n\nResearch studies have demonstrated that IGF-1 LR3 significantly enhances muscle protein synthesis and promotes myoblast proliferation and differentiation in vitro. Animal studies report improved muscle regeneration following injury, enhanced nerve regeneration after peripheral nerve damage, and increased bone density in models of osteoporosis. The extended half-life of 20–30 hours allows for once or twice daily dosing schedules, compared to the impractical continuous infusion required for native IGF-1. Clinical applications for IGF-1 deficiency, muscle wasting diseases, and metabolic disorders continue to be explored.\n\n## Dosage & Administration\n\nCommon research dosages for IGF-1 LR3 range from 20–60 mcg per day for general research purposes, with post-workout protocols of 40–80 mcg used in muscle growth studies. Due to its 20–30 hour half-life, once or twice daily administration is sufficient. Subcutaneous or intramuscular injection are both used in research protocols. The peptide should be reconstituted with bacteriostatic water (or dilute acetic acid for optimal stability) and stored at 2–8°C after reconstitution.\n\n## Safety & Legal\n\nIGF-1 LR3 is for research purposes only. Potential risks associated with IGF-1 pathway activation include hypoglycaemia (due to insulin receptor cross-reactivity), acromegaly-like effects with chronic use, and theoretical concerns regarding cell proliferation in susceptible tissues. The lyophilised powder should be stored at -20°C and protected from light and moisture.\n\n\nThe engineering of IGF-1 LR3 addressed a fundamental challenge in growth factor therapeutics: the rapid clearance of IGF-1 due to its high-affinity binding to a family of six binding proteins (IGFBPs) present in plasma at molar excess. Native IGF-1 has a half-life of only 10–12 minutes because it is rapidly sequestered by IGFBPs, primarily IGFBP-3. The R3 substitution (arginine for glutamic acid at position 3) reduces affinity for all IGFBPs by approximately 1000-fold, while the N-terminal extension further enhances this property.\n\nThe implications of this reduced IGFBP binding extend beyond pharmacokinetics. IGFBPs not only transport IGF-1 in the circulation but also modulate its interaction with the IGF-1 receptor. Some IGFBPs can potentiate or inhibit IGF-1 signalling in a tissue-specific manner. By circumventing these regulatory proteins, IGF-1 LR3 provides a more direct and uniform activation of the IGF-1 receptor across different target tissues — which may be advantageous for some research applications but could also bypass important physiological regulatory mechanisms.\n\nResearch has demonstrated that IGF-1 LR3 is particularly effective in promoting muscle protein synthesis. Studies in animal models show increased muscle mass and fibre cross-sectional area with IGF-1 LR3 treatment, even in the absence of resistance exercise. The peptide also promotes satellite cell activation and myonuclear accretion, suggesting it may enhance the regenerative capacity of skeletal muscle — a finding with implications for sarcopenia and muscle-wasting conditions.\n\nFor research use, IGF-1 LR3 requires careful handling due to its susceptibility to oxidation and aggregation. Reconstitution with dilute acetic acid (rather than bacteriostatic water) can improve stability. The peptide should be stored at -20°C as lyophilised powder and used promptly after reconstitution. UK researchers should source from vendors who provide purity analysis and storage recommendations specific to this peptide.",
@@ -1291,12 +1255,6 @@
         "vendor": "Research Peptide",
         "url": "https://example.com/tesamorelin",
         "price": "£55.98",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/tesamorelin-10mg/",
-        "price": "£59.00",
         "inStock": true
       },
       {
@@ -1422,12 +1380,6 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk",
         "price": "£30.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/sermorelin",
-        "price": "£30.14",
         "inStock": true
       },
       {
@@ -1557,7 +1509,7 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/mots-c-40mg/",
+        "url": "https://purepeptidesuk.com/product/mots-c-10mg/",
         "price": "£57.00",
         "inStock": true
       },
@@ -1634,12 +1586,6 @@
         "vendor": "Research Peptides UK",
         "url": "https://example.com/ss-31",
         "price": "£49.79",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/ss-31-50mg/",
-        "price": "£90.00",
         "inStock": true
       },
       {
@@ -1761,12 +1707,6 @@
             "price": "£350.00"
           }
         ]
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/ghk-cu-50mg/",
-        "price": "£26.00",
-        "inStock": true
       },
       {
         "vendor": "Tide Labs",
@@ -1891,12 +1831,6 @@
       "1-5 mg/kg research doses"
     ],
     "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/kpv-5mg/",
-        "price": "£21.50",
-        "inStock": true
-      },
       {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/kpv",
@@ -2037,12 +1971,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/",
-        "price": "£44.00",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://example.com/thymosin-alpha-1",
         "price": "£53.81",
@@ -2157,12 +2085,6 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk",
         "price": "£15.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/epitalon-10mg/",
-        "price": "£17.50",
         "inStock": true
       },
       {
@@ -2296,12 +2218,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/semax-5mg/",
-        "price": "£19.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/semax",
         "price": "£29.81",
@@ -2384,12 +2300,6 @@
       "1-3 mg/day"
     ],
     "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/selank-5mg/",
-        "price": "£14.50",
-        "inStock": true
-      },
       {
         "vendor": "Research Peptide",
         "url": "https://example.com/selank",
@@ -2517,12 +2427,6 @@
     ],
     "sources": [
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/ara-290-16mg/",
-        "price": "£40.00",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/ara-290",
         "price": "£38.47",
@@ -2628,12 +2532,6 @@
       "500-1000 mcg/day for gut healing"
     ],
     "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/bpc-157-oral",
-        "price": "£27.08",
-        "inStock": true
-      },
       {
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/bpc-157-oral",
@@ -3267,8 +3165,8 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://example.com/kisspeptin-10",
-        "price": "£45.09",
+        "url": "https://purepeptidesuk.com/product/kisspeptin-5mg/",
+        "price": "£27.50",
         "inStock": true
       },
       {
@@ -3343,12 +3241,6 @@
         "vendor": "Sterling Peptides",
         "url": "https://example.com/cerebrolysin",
         "price": "£53.67",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com",
-        "price": "£55.00",
         "inStock": true
       },
       {
@@ -3433,12 +3325,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/p21",
-        "price": "£38.79",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://example.com/p21",
         "price": "£39.27",
@@ -3513,12 +3399,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com",
-        "price": "£50.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://example.com/dihexa",
         "price": "£52.80",
@@ -3587,12 +3467,6 @@
       "10-20 mg 2x/day sublingual"
     ],
     "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/noopept",
-        "price": "£12.12",
-        "inStock": true
-      },
       {
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk",
@@ -3674,12 +3548,6 @@
         "inStock": true
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/phenylpiracetam",
-        "price": "£15.96",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/phenylpiracetam",
         "price": "£16.52",
@@ -3752,12 +3620,6 @@
         "vendor": "Research Peptide",
         "url": "https://example.com/pramipexole",
         "price": "£19.55",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com",
-        "price": "£20.00",
         "inStock": true
       },
       {
@@ -3885,8 +3747,8 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://example.com/bpc-157-tb-500-blend",
-        "price": "£68.24",
+        "url": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
+        "price": "£22.99",
         "inStock": true
       }
     ]
@@ -3945,12 +3807,6 @@
         "vendor": "Sterling Peptides",
         "url": "https://example.com/gonadorelin",
         "price": "£27.68",
-        "inStock": true
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/gonadorelin",
-        "price": "£28.28",
         "inStock": true
       },
       {
@@ -4033,12 +3889,6 @@
             "price": "£49.99"
           }
         ]
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/dsip-5mg/",
-        "price": "£15.00",
-        "inStock": true
       },
       {
         "vendor": "Research Peptides UK",
@@ -4128,12 +3978,6 @@
             "price": "£49.99"
           }
         ]
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://example.com/oxytocin",
-        "price": "£13.50",
-        "inStock": true
       },
       {
         "vendor": "Research Peptide",
@@ -5385,12 +5229,6 @@
         ]
       },
       {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/",
-        "price": "£42.00",
-        "inStock": true
-      },
-      {
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/5-amino-1mq-10mg",
         "price": "£28.90",
@@ -5435,12 +5273,6 @@
             "price": "£19.99"
           }
         ]
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/ll-37-5mg/",
-        "price": "£30.00",
-        "inStock": true
       }
     ]
   },
@@ -5477,7 +5309,7 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/thymalin-20mg/",
+        "url": "https://purepeptidesuk.com/product/thymalin-10mg/",
         "price": "£45.00",
         "inStock": true
       },
@@ -5604,12 +5436,6 @@
             "price": "£29.99"
           }
         ]
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/adamax-5mg/",
-        "price": "£42.50",
-        "inStock": true
       }
     ]
   },
@@ -5892,12 +5718,6 @@
             "price": "£44.99"
           }
         ]
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/cartalax-20mg/",
-        "price": "£46.50",
-        "inStock": true
       }
     ]
   },
@@ -6148,12 +5968,6 @@
             "price": "£42.99"
           }
         ]
-      },
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/vesugen-20mg/",
-        "price": "£35.00",
-        "inStock": true
       },
       {
         "vendor": "Tide Labs",
