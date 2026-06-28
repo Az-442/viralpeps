@@ -33,21 +33,9 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/tirzepatide",
-        "price": "\u00a356.75",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a365.60",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/tirzepatide",
-        "price": "\u00a372.55",
         "inStock": true
       },
       {
@@ -60,6 +48,12 @@
         "vendor": "Research Peptides",
         "url": "https://example.com/tirzepatide",
         "price": "\u00a381.04",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/tirzepatide/",
+        "price": "\u00a339.99",
         "inStock": true
       }
     ],
@@ -126,27 +120,21 @@
         "inStock": true
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/semaglutide-20mg/",
-        "price": "\u00a349.99",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/semaglutide",
         "price": "\u00a346.55",
         "inStock": true
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://sterlingpeptides.co.uk",
-        "price": "\u00a352.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://example.com/semaglutide",
         "price": "\u00a361.04",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/semaglutide/",
+        "price": "\u00a349.99",
         "inStock": true
       }
     ],
@@ -234,21 +222,9 @@
         ]
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://sterlingpeptides.co.uk",
-        "price": "\u00a345.79",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/bpc-157-5mg",
         "price": "\u00a313.95",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/bpc-157/",
-        "price": "\u00a321.99",
         "inStock": true
       },
       {
@@ -277,6 +253,18 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/bpc-157-research-peptide",
         "price": "\u00a316.90",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/bpc-157/",
+        "price": "\u00a329.99",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/bpc-157/",
+        "price": "\u00a321.99",
         "inStock": true
       }
     ],
@@ -366,18 +354,6 @@
         "inStock": true
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/tb-500",
-        "price": "\u00a363.33",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/tb-500",
-        "price": "\u00a366.77",
-        "inStock": true
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-peptides-tb500-5mg-research-peptide-for-laboratory-use-onlycoa-in-images-2/",
         "price": "\u00a322.53",
@@ -403,6 +379,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/tb-500",
         "price": "\u00a326.40",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/tb-500/",
+        "price": "\u00a331.99",
         "inStock": true
       }
     ],
@@ -456,12 +438,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://sterlingpeptides.co.uk",
-        "price": "\u00a323.20",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/melanotan-ii",
         "price": "\u00a328.05",
@@ -490,17 +466,17 @@
         ]
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/melanotan-ii",
-        "price": "\u00a332.58",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
         "price": "\u00a319.99",
         "inStock": true,
         "image": "/images/products/imperial-peptides/mt2-10mg.jpg"
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/melanotan-ii/",
+        "price": "\u00a318.99",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nMelanotan II (MT-II) is a synthetic cyclic heptapeptide analogue of \u03b1-melanocyte-stimulating hormone (\u03b1-MSH), the body's natural pigment-regulating hormone. Developed initially at the University of Arizona as a potential sunless tanning agent and photoprotective therapy, Melanotan II has become one of the most widely known research peptides. It acts as a non-selective melanocortin receptor agonist, activating all five melanocortin receptor subtypes (MC1R\u2013MC5R). While its most visible effect is stimulation of melanogenesis (skin pigmentation) through MC1R activation, the compound also influences appetite regulation via MC4R and, interestingly, sexual function through central melanocortin pathways \u2014 the same mechanism that led to the development of its analogue bremelanotide (PT-141). UK researchers continue to study MT-II for applications including erythropoietic protoporphyria, sexual dysfunction, and understanding melanocortin biology.\n\n## Mechanism of Action\n\nMelanotan II functions as a non-selective agonist at all five melanocortin receptor subtypes. Activation of MC1R on melanocytes stimulates the cAMP signalling cascade, upregulating tyrosinase enzyme activity and driving the production of eumelanin (dark pigment) independently of UV exposure. MC4R activation in the hypothalamus regulates appetite and energy homeostasis, producing an anorexigenic effect. MC3R and MC4R signalling also modulate sexual arousal and erectile function through central nervous system pathways involving oxytocinergic neurons. MC2R is primarily the ACTH receptor and is less relevant to Melanotan II's primary effects. The cyclic structure and Nle substitution confer improved stability and potency compared to native \u03b1-MSH.\n\n## Research & Clinical Data\n\nClinical studies have demonstrated that Melanotan II effectively induces tanning in fair-skinned individuals, with a 10\u201314 day loading phase producing visible pigmentation that persists for weeks. Research in erythropoietic protoporphyria (EPP) has shown that MT-II-induced melanisation can improve light tolerance and quality of life. Studies on sexual function report improvements in erectile function and libido in both men and women, mediated through central melanocortin pathways. However, development has been limited by side effects including nausea, flushing, and spontaneous erections.\n\n## Dosage & Administration\n\nTypical research dosages for Melanotan II range from 0.5\u20131 mg per day, with a common loading protocol of 0.5 mg per day for 10\u201314 days to establish pigmentation, followed by maintenance dosing of 1\u20132 times per week. The peptide has a short plasma half-life of 30\u201360 minutes, but melanogenic effects persist for days due to sustained tyrosinase upregulation. Subcutaneous administration is standard after reconstitution with bacteriostatic water.\n\n## Safety & Legal\n\nMelanotan II is strictly for research purposes. Common effects reported in studies include nausea, facial flushing, spontaneous erections, appetite suppression, and potential darkening of pre-existing naevi (moles). The long-term safety profile is not well established. The lyophilised powder should be stored at -20\u00b0C and protected from light. UK researchers should be aware that Melanotan II is not licensed for human use and should only be obtained from reputable research suppliers.\n\n\nMelanotan II was originally developed at the University of Arizona as part of a research programme aimed at creating a sunless tanning agent that could reduce skin cancer risk by decreasing UV exposure. The peptide's ability to induce melanogenesis without UV radiation was demonstrated in early clinical studies at the Arizona Cancer Center, where fair-skinned volunteers developed visible pigmentation after 10\u201314 days of daily administration. This mechanism \u2014 activating MC1R to stimulate eumelanin production \u2014 provided the first practical alternative to UV-induced tanning.\n\nThe melanocortin system extends far beyond pigmentation. MC4R activation in the hypothalamus regulates energy homeostasis, and MC3R and MC4R activation in the spinal cord and brainstem modulates sexual function. Bremelanotide (PT-141), the active metabolite of Melanotan II that lacks the melanogenic effects, was FDA-approved in 2019 for hypoactive sexual desire disorder in premenopausal women. The development of analogues that separate these effects remains an active area of medicinal chemistry research.\n\nClinical research in erythropoietic protoporphyria (EPP), a rare genetic disorder causing severe photosensitivity, has demonstrated that Melanotan II-induced melanisation can dramatically improve light tolerance. EPP patients who previously could tolerate only minutes of sunlight exposure were able to spend hours outdoors after treatment \u2014 a life-changing improvement. This application highlights the therapeutic potential of melanocortin agonists beyond cosmetic tanning.\n\nFor research use, Melanotan II requires careful handling. The peptide is sensitive to light degradation and should be protected during reconstitution and storage. Common doses of 0.5\u20131 mg per day during the loading phase should be administered subcutaneously. Researchers should be aware that dosing errors (particularly overdosing) can cause significant nausea, so precise reconstitution and measurement are essential. UK researchers can obtain Melanotan II from specialised peptide suppliers who provide purity documentation.",
@@ -558,12 +534,6 @@
         "inStock": true
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/ghrp-2",
-        "price": "\u00a315.85",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
         "price": "\u00a37.95",
@@ -575,12 +545,6 @@
         "price": "\u00a316.00",
         "inStock": true,
         "image": "/images/products/express-peptides/ghrp-2-vial-express.webp"
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/ghrp-2",
-        "price": "\u00a323.80",
-        "inStock": true
       },
       {
         "vendor": "UK Peptides",
@@ -701,21 +665,9 @@
         "image": "/images/products/express-peptides/aod-9604-vial-express.webp"
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/aod-9604",
-        "price": "\u00a328.90",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a331.20",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/aod-9604",
-        "price": "\u00a336.34",
         "inStock": true
       },
       {
@@ -744,6 +696,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/aod-9604",
         "price": "\u00a322.90",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/aod-9604/",
+        "price": "\u00a324.99",
         "inStock": true
       }
     ],
@@ -833,21 +791,21 @@
         "inStock": true
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a375.00",
+        "vendor": "Express Peptides",
+        "url": "https://example.com/retatrutide",
+        "price": "\u00a382.22",
         "inStock": true
       },
       {
         "vendor": "Sterling Peptides",
-        "url": "https://example.com/retatrutide",
-        "price": "\u00a377.01",
+        "url": "https://sterlingpeptides.co.uk/product/retatrutide/",
+        "price": "\u00a359.99",
         "inStock": true
       },
       {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/retatrutide",
-        "price": "\u00a382.22",
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/retatrutide/",
+        "price": "\u00a384.99",
         "inStock": true
       }
     ],
@@ -938,18 +896,6 @@
         "image": "/images/products/express-peptides/cjc-1295-vial-express.webp"
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/cjc-1295",
-        "price": "\u00a343.77",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/cjc-1295",
-        "price": "\u00a346.96",
-        "inStock": true
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
         "price": "\u00a329.99",
@@ -971,6 +917,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/cjc-1295-no-dac",
         "price": "\u00a313.90",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/cjc-1295/",
+        "price": "\u00a339.99",
         "inStock": true
       }
     ],
@@ -1030,12 +982,6 @@
         "inStock": true
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/igf-1-lr3",
-        "price": "\u00a347.78",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
         "price": "\u00a344.99",
@@ -1059,12 +1005,6 @@
             "price": "\u00a345.99"
           }
         ]
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a358.00",
-        "inStock": true
       },
       {
         "vendor": "Pure Peptides UK",
@@ -1128,12 +1068,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/tesamorelin",
-        "price": "\u00a345.51",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/tesamorelin/vial",
         "price": "\u00a326.00",
@@ -1150,12 +1084,6 @@
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
         "price": "\u00a327.95",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/",
-        "price": "\u00a369.99",
         "inStock": true
       },
       {
@@ -1200,6 +1128,18 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/ghrh-analog-amide",
         "price": "\u00a329.99",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/tesamorelin/",
+        "price": "\u00a334.99",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/tesamorelin/",
+        "price": "\u00a369.99",
         "inStock": true
       }
     ],
@@ -1261,12 +1201,6 @@
         "image": "/images/products/express-peptides/sermorelin-acetate-vial-express.webp"
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/sermorelin",
-        "price": "\u00a326.54",
-        "inStock": true
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/sermorelin",
         "price": "\u00a349.99",
@@ -1277,12 +1211,6 @@
             "price": "\u00a349.99"
           }
         ]
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a332.00",
-        "inStock": true
       },
       {
         "vendor": "Imperial Peptides UK",
@@ -1312,6 +1240,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg",
         "price": "\u00a326.90",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/sermorelin/",
+        "price": "\u00a327.99",
         "inStock": true
       }
     ],
@@ -1364,18 +1298,6 @@
     ],
     "sources": [
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/mots-c/",
-        "price": "\u00a327.0",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/mots-c",
-        "price": "\u00a340.69",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/mots-c/vial",
         "price": "\u00a322.00",
@@ -1417,6 +1339,18 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/mots-c-research-peptide",
         "price": "\u00a327.49",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/mots-c/",
+        "price": "\u00a328.99",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/mots-c/",
+        "price": "\u00a327.00",
         "inStock": true
       }
     ],
@@ -1491,18 +1425,6 @@
         "image": "/images/products/imperial-peptides/ss-31-10mg.jpg"
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a368.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/ss-31",
-        "price": "\u00a372.61",
-        "inStock": true
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-ss-31-10mg-research-peptide-for-laboratory-use-only/",
         "price": "\u00a329.99",
@@ -1524,6 +1446,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/ss-31-10mg",
         "price": "\u00a327.90",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/ss-31/",
+        "price": "\u00a339.99",
         "inStock": true
       }
     ],
@@ -1599,12 +1527,6 @@
         ]
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/",
-        "price": "\u00a334.99",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a320.00",
@@ -1623,12 +1545,6 @@
         "price": "\u00a315.99",
         "inStock": true,
         "image": "/images/products/imperial-peptides/ghk-cu-50mg.webp"
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/ghk-cu",
-        "price": "\u00a324.76",
-        "inStock": true
       },
       {
         "vendor": "Dr P Research",
@@ -1656,6 +1572,18 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/ghk-cu",
         "price": "\u00a319.99",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/ghk-cu/",
+        "price": "\u00a324.99",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/ghk-cu/",
+        "price": "\u00a334.99",
         "inStock": true
       }
     ],
@@ -1733,12 +1661,6 @@
         "image": "/images/products/express-peptides/kpv-pen-express.webp"
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a324.00",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
         "price": "\u00a329.99",
@@ -1749,12 +1671,6 @@
         "vendor": "Research Peptides",
         "url": "https://example.com/kpv",
         "price": "\u00a325.49",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/kpv",
-        "price": "\u00a326.61",
         "inStock": true
       },
       {
@@ -1779,6 +1695,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research",
         "price": "\u00a319.90",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/kpv/",
+        "price": "\u00a328.99",
         "inStock": true
       }
     ],
@@ -1833,18 +1755,6 @@
     ],
     "sources": [
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/thymosin-alpha-1",
-        "price": "\u00a347.49",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/thymosin-alpha-1",
-        "price": "\u00a353.81",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a354.40",
@@ -1885,6 +1795,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/thymosin-alpha-1",
         "price": "\u00a327.99",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/thymosin-alpha-1/",
+        "price": "\u00a374.99",
         "inStock": true
       }
     ],
@@ -1945,12 +1861,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/epitalon",
-        "price": "\u00a312.63",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/epithalon/vial",
         "price": "\u00a325.00",
@@ -1961,12 +1871,6 @@
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
         "price": "\u00a311.95",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/epitalon",
-        "price": "\u00a316.95",
         "inStock": true
       },
       {
@@ -1998,6 +1902,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/epithalon",
         "price": "\u00a318.90",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/epitalon/",
+        "price": "\u00a317.99",
         "inStock": true
       }
     ],
@@ -2053,12 +1963,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/semax",
-        "price": "\u00a320.39",
-        "inStock": true
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/semax-nasal-spray",
         "price": "\u00a349.99",
@@ -2069,12 +1973,6 @@
             "price": "\u00a349.99"
           }
         ]
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/semax/",
-        "price": "\u00a327.0",
-        "inStock": true
       },
       {
         "vendor": "Imperial Peptides UK",
@@ -2122,6 +2020,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/semax",
         "price": "\u00a322.90",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/semax/",
+        "price": "\u00a327.00",
         "inStock": true
       }
     ],
@@ -2192,18 +2096,6 @@
         ]
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/selank",
-        "price": "\u00a320.48",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a324.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
         "price": "\u00a311.95",
@@ -2249,6 +2141,12 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/selank",
         "price": "\u00a314.95",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/selank/",
+        "price": "\u00a329.99",
         "inStock": true
       }
     ],
@@ -2321,21 +2219,9 @@
         "inStock": true
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/ara-290",
-        "price": "\u00a350.77",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a352.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/ara-290",
-        "price": "\u00a362.81",
         "inStock": true
       },
       {
@@ -2433,21 +2319,9 @@
         "inStock": true
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a336.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a338.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/bpc-157-oral",
-        "price": "\u00a342.23",
         "inStock": true
       }
     ],
@@ -2509,21 +2383,9 @@
         "image": "/images/products/express-peptides/fragment-176-191-vial-express.webp"
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/fragment-176-191",
-        "price": "\u00a326.63",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/fragment-176-191",
         "price": "\u00a329.57",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/fragment-176-191",
-        "price": "\u00a331.73",
         "inStock": true
       },
       {
@@ -2577,12 +2439,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/hexarelin",
-        "price": "\u00a320.80",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg",
         "price": "\u00a39.95",
@@ -2592,12 +2448,6 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a326.40",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/hexarelin",
-        "price": "\u00a327.63",
         "inStock": true
       },
       {
@@ -2664,12 +2514,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/ipamorelin",
-        "price": "\u00a321.90",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
         "price": "\u00a36.99",
@@ -2702,12 +2546,6 @@
         "image": "/images/products/express-peptides/ipamorelin-vial-express.webp"
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/",
-        "price": "\u00a334.99",
-        "inStock": true
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-ipamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
         "price": "\u00a324.49",
@@ -2733,6 +2571,18 @@
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
         "price": "\u00a315.52",
+        "inStock": true
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/ipamorelin/",
+        "price": "\u00a331.99",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/ipamorelin/",
+        "price": "\u00a334.99",
         "inStock": true
       }
     ],
@@ -2768,12 +2618,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://sterlingpeptides.co.uk",
-        "price": "\u00a320.00",
-        "inStock": true
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/ghrp-6",
         "price": "\u00a349.99",
@@ -2795,12 +2639,6 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/ghrp-6",
         "price": "\u00a324.70",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/ghrp-6",
-        "price": "\u00a327.84",
         "inStock": true
       },
       {
@@ -2867,23 +2705,11 @@
     ],
     "sources": [
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/pt-141-bremelanotide",
-        "price": "\u00a330.59",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/pt-141/vial",
         "price": "\u00a324.99",
         "inStock": true,
         "image": "/images/products/express-peptides/pt-141-vial-express.webp"
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/pt-141-bremelanotide",
-        "price": "\u00a333.08",
-        "inStock": true
       },
       {
         "vendor": "UK Peptides",
@@ -2967,12 +2793,6 @@
     ],
     "sources": [
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/kisspeptin-10",
-        "price": "\u00a332.79",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/kisspeptin/pen",
         "price": "\u00a344.00",
@@ -2995,12 +2815,6 @@
         "vendor": "Research Peptides",
         "url": "https://example.com/kisspeptin-10",
         "price": "\u00a341.46",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/kisspeptin-10",
-        "price": "\u00a342.54",
         "inStock": true
       },
       {
@@ -3073,18 +2887,6 @@
     ],
     "sources": [
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/cerebrolysin",
-        "price": "\u00a342.70",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/cerebrolysin",
-        "price": "\u00a353.67",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a358.00",
@@ -3149,21 +2951,9 @@
         "inStock": true
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/p21",
-        "price": "\u00a337.23",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://example.com/p21",
         "price": "\u00a339.27",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/p21",
-        "price": "\u00a339.93",
         "inStock": true
       }
     ],
@@ -3200,12 +2990,6 @@
     ],
     "sources": [
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/dihexa",
-        "price": "\u00a344.44",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/dihexa",
         "price": "\u00a349.50",
@@ -3215,12 +2999,6 @@
         "vendor": "Research Peptides",
         "url": "https://example.com/dihexa",
         "price": "\u00a352.80",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/dihexa",
-        "price": "\u00a362.36",
         "inStock": true
       },
       {
@@ -3276,12 +3054,6 @@
     ],
     "sources": [
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a317.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://example.com/noopept",
         "price": "\u00a320.07",
@@ -3297,12 +3069,6 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/noopept",
         "price": "\u00a321.27",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/noopept",
-        "price": "\u00a321.57",
         "inStock": true
       }
     ],
@@ -3348,18 +3114,6 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/phenylpiracetam",
         "price": "\u00a318.77",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a319.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/phenylpiracetam",
-        "price": "\u00a319.78",
         "inStock": true
       },
       {
@@ -3419,18 +3173,6 @@
         "url": "https://example.com/pramipexole",
         "price": "\u00a326.63",
         "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/pramipexole",
-        "price": "\u00a328.99",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/pramipexole",
-        "price": "\u00a329.37",
-        "inStock": true
       }
     ],
     "longDescription": ""
@@ -3474,12 +3216,6 @@
         "image": "/images/products/express-peptides/bpc-157-tb-500-vial-express.webp"
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/bpc-157-tb-500-blend",
-        "price": "\u00a346.18",
-        "inStock": true
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend",
         "price": "\u00a344.99",
@@ -3490,12 +3226,6 @@
             "price": "\u00a344.99"
           }
         ]
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/bpc-157-tb-500-blend",
-        "price": "\u00a354.36",
-        "inStock": true
       },
       {
         "vendor": "Imperial Peptides UK",
@@ -3569,21 +3299,9 @@
         "inStock": true
       },
       {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/gonadorelin",
-        "price": "\u00a327.68",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/gonadorelin",
         "price": "\u00a328.36",
-        "inStock": true
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a330.00",
         "inStock": true
       }
     ],
@@ -3628,12 +3346,6 @@
         "image": "/images/products/express-peptides/dsip-vial-express.webp"
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://example.com/dsip",
-        "price": "\u00a325.20",
-        "inStock": true
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/dsip-nasal-spray",
         "price": "\u00a349.99",
@@ -3649,12 +3361,6 @@
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
         "price": "\u00a311.95",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/dsip",
-        "price": "\u00a337.62",
         "inStock": true
       },
       {
@@ -3749,12 +3455,6 @@
         "inStock": true
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk",
-        "price": "\u00a317.00",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/oxytocin/vial",
         "price": "\u00a335.00",
@@ -3765,12 +3465,6 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/oxytocin",
         "price": "\u00a320.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://example.com/oxytocin",
-        "price": "\u00a322.00",
         "inStock": true
       },
       {
@@ -4097,6 +3791,18 @@
         "price": "\u00a37.50",
         "inStock": true,
         "image": "/images/products/express-peptides/bacteriostatic-water-vial-express.webp"
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/bacteriostatic-water/",
+        "price": "\u00a33.99",
+        "inStock": true
+      },
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/bacteriostatic-water/",
+        "price": "\u00a35.99",
+        "inStock": true
       }
     ],
     "longDescription": ""
@@ -4165,12 +3871,6 @@
         "price": "\u00a3135.00",
         "inStock": true,
         "image": "/images/products/express-peptides/nad-vial-express.webp"
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/",
-        "price": "\u00a379.99",
-        "inStock": true
       },
       {
         "vendor": "Pure Peptides UK",
@@ -4946,6 +4646,12 @@
         "price": "\u00a345.00",
         "inStock": true,
         "image": "/images/products/express-peptides/slu-pp-332-vial-express.webp"
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/slu-pp-332/",
+        "price": "\u00a339.99",
+        "inStock": true
       }
     ],
     "longDescription": ""
@@ -5424,12 +5130,6 @@
         ]
       },
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/ahk-cu/",
-        "price": "\u00a334.99",
-        "inStock": true
-      },
-      {
         "vendor": "Tide Labs",
         "url": "https://tidelabs.co.uk/products/ahk-cu-100mg",
         "price": "\u00a335.99",
@@ -5509,12 +5209,6 @@
             "price": "\u00a39.99"
           }
         ]
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/",
-        "price": "\u00a35.99",
-        "inStock": true
       }
     ],
     "longDescription": ""
@@ -14124,5 +13818,1542 @@
     "commonDosages": [],
     "longDescription": "",
     "mechanism": ""
+  },
+  {
+    "id": "retatrutide-20mg-the-peptide-company",
+    "name": "Retatrutide (Reta) 20mg",
+    "slug": "retatrutide-20mg-the-peptide-company",
+    "compareSlug": "retatrutide",
+    "category": "glp-1-agonists",
+    "description": "Retatrutide 20mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/buy-reta-retatrutide-uk/",
+        "price": "\u00a384.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/retatrutide-20mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "wolverine-stack-the-peptide-company",
+    "name": "Wolverine Stack (BPC157 & TB500) 10mg",
+    "slug": "wolverine-stack-the-peptide-company",
+    "compareSlug": "bpc-157",
+    "category": "bpc-tb-500",
+    "description": "Wolverine Stack (BPC-157 & TB-500) 10mg peptide blend for research.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/wolverine-stack-bpc-157-tb-500/",
+        "price": "\u00a339.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/wolverine-stack-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "bpc-157-10mg-the-peptide-company",
+    "name": "BPC-157 10mg",
+    "slug": "bpc-157-10mg-the-peptide-company",
+    "compareSlug": "bpc-157",
+    "category": "bpc-tb-500",
+    "description": "BPC-157 10mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/bpc-157/",
+        "price": "\u00a321.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/bpc-157-10mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ahk-cu-100mg-the-peptide-company",
+    "name": "AHK-Cu 100mg",
+    "slug": "ahk-cu-100mg-the-peptide-company",
+    "compareSlug": "ghk-cu",
+    "category": "research-compounds",
+    "description": "AHK-Cu 100mg copper peptide for research.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/ahk-cu/",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/ahk-cu-100mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "hgh-191aa-the-peptide-company",
+    "name": "HGH 191AA",
+    "slug": "hgh-191aa-the-peptide-company",
+    "compareSlug": "hgh",
+    "category": "growth-factors",
+    "description": "HGH 191AA for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/hgh-191aa/",
+        "price": "\u00a369.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/hgh-191aa-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ghk-cu-100mg-the-peptide-company",
+    "name": "GHK-Cu 100mg",
+    "slug": "ghk-cu-100mg-the-peptide-company",
+    "compareSlug": "ghk-cu",
+    "category": "research-compounds",
+    "description": "GHK-Cu 100mg copper peptide for research.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/ghk-cu-100mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ipamorelin-10mg-the-peptide-company",
+    "name": "Ipamorelin 10mg",
+    "slug": "ipamorelin-10mg-the-peptide-company",
+    "compareSlug": "ipamorelin",
+    "category": "ghrps",
+    "description": "Ipamorelin 10mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/ipamorelin-10mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "nad-1000mg-the-peptide-company",
+    "name": "NAD+ 1000mg",
+    "slug": "nad-1000mg-the-peptide-company",
+    "compareSlug": "nad",
+    "category": "research-compounds",
+    "description": "NAD+ 1000mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/nad-100mg/",
+        "price": "\u00a344.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/nad-1000mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "semaglutide-20mg-the-peptide-company",
+    "name": "Semaglutide 20mg",
+    "slug": "semaglutide-20mg-the-peptide-company",
+    "compareSlug": "semaglutide",
+    "category": "glp-1-agonists",
+    "description": "Semaglutide 20mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/semaglutide-20mg/",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/semaglutide-20mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "tesamorelin-15mg-the-peptide-company",
+    "name": "Tesamorelin 15mg",
+    "slug": "tesamorelin-15mg-the-peptide-company",
+    "compareSlug": "tesamorelin",
+    "category": "growth-factors",
+    "description": "Tesamorelin 15mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/",
+        "price": "\u00a369.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/tesamorelin-15mg-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "bac-water-10ml-the-peptide-company",
+    "name": "Bac Water 10ml",
+    "slug": "bac-water-10ml-the-peptide-company",
+    "compareSlug": "bacteriostatic-water",
+    "category": "supplies",
+    "description": "Bacteriostatic water 10ml for research.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/",
+        "price": "\u00a35.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/bac-water-10ml-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "shilajit-gummies-the-peptide-company",
+    "name": "Himalayan Shilajit Gummies 3000mg",
+    "slug": "shilajit-gummies-the-peptide-company",
+    "compareSlug": "shilajit",
+    "category": "supplements",
+    "description": "Himalayan Shilajit Gummies 3000mg.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/himalayan-shilajit-gummies-3000mg-60-gummies/",
+        "price": "\u00a314.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/shilajit-gummies-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "age-reversal-stack-the-peptide-company",
+    "name": "Age Reversal Stack",
+    "slug": "age-reversal-stack-the-peptide-company",
+    "compareSlug": "peptide-stack",
+    "category": "peptide-blends",
+    "description": "Age Reversal peptide stack for research.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/age-reversal-stack/",
+        "price": "\u00a399.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/age-reversal-stack-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "mots-c-the-peptide-company",
+    "name": "MOTS-c",
+    "slug": "mots-c-the-peptide-company",
+    "compareSlug": "mots-c",
+    "category": "research-compounds",
+    "description": "MOTS-c peptide for research.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/mots-c/",
+        "price": "\u00a327.00",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/mots-c-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "semax-the-peptide-company",
+    "name": "SEMAX",
+    "slug": "semax-the-peptide-company",
+    "compareSlug": "semax",
+    "category": "cognitive",
+    "description": "SEMAX peptide for research.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/semax/",
+        "price": "\u00a327.00",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/semax-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "metabolic-stack-the-peptide-company",
+    "name": "Metabolic Stack NAD+ & Semaglutide",
+    "slug": "metabolic-stack-the-peptide-company",
+    "compareSlug": "peptide-stack",
+    "category": "peptide-blends",
+    "description": "Metabolic Stack with NAD+ and Semaglutide.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/",
+        "price": "\u00a379.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/metabolic-stack-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "glp-transformation-stack-the-peptide-company",
+    "name": "GLP Transformation Stack",
+    "slug": "glp-transformation-stack-the-peptide-company",
+    "compareSlug": "peptide-stack",
+    "category": "peptide-blends",
+    "description": "GLP Transformation peptide stack.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/",
+        "price": "\u00a3119.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/glp-transformation-stack-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "total-repair-stack-the-peptide-company",
+    "name": "Total Repair Stack",
+    "slug": "total-repair-stack-the-peptide-company",
+    "compareSlug": "peptide-stack",
+    "category": "peptide-blends",
+    "description": "Total Repair peptide stack.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "The Peptide Company",
+        "url": "https://thepeptidecompany.co.uk/product/total-repair-stack/",
+        "price": "\u00a3114.99",
+        "inStock": true,
+        "image": "/images/products/the-peptide-company/total-repair-stack-the-peptide-company.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-acetic-acid",
+    "name": "Acetic Acid 0.6% 10ml",
+    "slug": "sterling-acetic-acid",
+    "compareSlug": "bacteriostatic-water",
+    "category": "supplies",
+    "description": "Acetic Acid 0.6% 10ml for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/",
+        "price": "\u00a35.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-acetic-acid.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-aod-9604",
+    "name": "AOD 9604 Peptide",
+    "slug": "sterling-aod-9604",
+    "compareSlug": "aod-9604",
+    "category": "aod-fragments",
+    "description": "AOD 9604 Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/aod-9604-peptide/",
+        "price": "\u00a324.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-aod-9604.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-bac-water-10ml",
+    "name": "Bacteriostatic Water 10ml",
+    "slug": "sterling-bac-water-10ml",
+    "compareSlug": "bacteriostatic-water",
+    "category": "supplies",
+    "description": "Bacteriostatic Water 10ml for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-10ml/",
+        "price": "\u00a35.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-bac-water-10ml.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-bac-water-3ml",
+    "name": "Bacteriostatic Water 3ml",
+    "slug": "sterling-bac-water-3ml",
+    "compareSlug": "bacteriostatic-water",
+    "category": "supplies",
+    "description": "Bacteriostatic Water 3ml for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-3ml/",
+        "price": "\u00a33.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-bac-water-3ml.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-bpc-157-10mg",
+    "name": "BPC-157 10mg Peptide",
+    "slug": "sterling-bpc-157-10mg",
+    "compareSlug": "bpc-157",
+    "category": "bpc-tb-500",
+    "description": "BPC-157 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/bpc-157-10mg-peptide/",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-bpc-157-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-selank-10mg",
+    "name": "Selank 10mg",
+    "slug": "sterling-selank-10mg",
+    "compareSlug": "selank",
+    "category": "cognitive",
+    "description": "Selank 10mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/selank-10mg/",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-selank-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-tirzepatide-10mg",
+    "name": "Tirzepatide 10mg",
+    "slug": "sterling-tirzepatide-10mg",
+    "compareSlug": "tirzepatide",
+    "category": "glp-1-agonists",
+    "description": "Tirzepatide 10mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/tirzepatide-10mg/",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-tirzepatide-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-cagrilintide-10mg",
+    "name": "Cagrilintide 10mg Peptide",
+    "slug": "sterling-cagrilintide-10mg",
+    "compareSlug": "cagrilintide",
+    "category": "research-compounds",
+    "description": "Cagrilintide 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/cagrilintide-10mg/",
+        "price": "\u00a389.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-cagrilintide-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-cagrilintide-5mg",
+    "name": "Cagrilintide 5mg Peptide",
+    "slug": "sterling-cagrilintide-5mg",
+    "compareSlug": "cagrilintide",
+    "category": "research-compounds",
+    "description": "Cagrilintide 5mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/cagrilintide-5mg/",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-cagrilintide-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-cjc-1295-nodac-10mg",
+    "name": "CJC-1295 No DAC 10mg Peptide",
+    "slug": "sterling-cjc-1295-nodac-10mg",
+    "compareSlug": "cjc-1295",
+    "category": "ghrps",
+    "description": "CJC-1295 No DAC 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg/",
+        "price": "\u00a339.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-cjc-1295-nodac-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-cjc-1295-dac-5mg",
+    "name": "CJC-1295 with DAC 5mg Peptide",
+    "slug": "sterling-cjc-1295-dac-5mg",
+    "compareSlug": "cjc-1295",
+    "category": "ghrps",
+    "description": "CJC-1295 with DAC 5mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg/",
+        "price": "\u00a341.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-cjc-1295-dac-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-epithalon-10mg",
+    "name": "Epithalon 10mg Peptide",
+    "slug": "sterling-epithalon-10mg",
+    "compareSlug": "epitalon",
+    "category": "research-compounds",
+    "description": "Epithalon 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/epithalon-10mg/",
+        "price": "\u00a317.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-epithalon-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-ghk-cu-100mg",
+    "name": "GHK-Cu Peptide 100mg",
+    "slug": "sterling-ghk-cu-100mg",
+    "compareSlug": "ghk-cu",
+    "category": "research-compounds",
+    "description": "GHK-Cu Peptide 100mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/ghk-cu-100mg/",
+        "price": "\u00a344.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-ghk-cu-100mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-ghk-cu-50mg",
+    "name": "GHK-Cu Peptide 50mg",
+    "slug": "sterling-ghk-cu-50mg",
+    "compareSlug": "ghk-cu",
+    "category": "research-compounds",
+    "description": "GHK-Cu Peptide 50mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/ghk-cu-50mg/",
+        "price": "\u00a324.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-ghk-cu-50mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-glow-70mg",
+    "name": "Glow 70mg Peptide Blend",
+    "slug": "sterling-glow-70mg",
+    "compareSlug": "ghk-cu",
+    "category": "peptide-blends",
+    "description": "Glow 70mg Peptide Blend for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/glow-70mg/",
+        "price": "\u00a369.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-glow-70mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-hgh-frag-176-191",
+    "name": "HGH Frag 176-191 Peptide",
+    "slug": "sterling-hgh-frag-176-191",
+    "compareSlug": "hgh-frag-176-191",
+    "category": "growth-factors",
+    "description": "HGH Frag 176-191 Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/hgh-frag-176-191/",
+        "price": "\u00a328.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-hgh-frag-176-191.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-ipamorelin-5mg",
+    "name": "Ipamorelin 5mg Peptide",
+    "slug": "sterling-ipamorelin-5mg",
+    "compareSlug": "ipamorelin",
+    "category": "ghrps",
+    "description": "Ipamorelin 5mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/ipamorelin-5mg/",
+        "price": "\u00a331.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-ipamorelin-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-kisspeptin-5mg",
+    "name": "Kisspeptin 5mg",
+    "slug": "sterling-kisspeptin-5mg",
+    "compareSlug": "kisspeptin",
+    "category": "research-compounds",
+    "description": "Kisspeptin 5mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/",
+        "price": "\u00a324.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-kisspeptin-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-klow-80mg",
+    "name": "KLOW Peptide Blend 80mg",
+    "slug": "sterling-klow-80mg",
+    "compareSlug": "ghk-cu",
+    "category": "peptide-blends",
+    "description": "KLOW Peptide Blend 80mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/klow-80mg/",
+        "price": "\u00a389.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-klow-80mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-kpv-10mg",
+    "name": "KPV 10mg Peptide",
+    "slug": "sterling-kpv-10mg",
+    "compareSlug": "kpv",
+    "category": "research-compounds",
+    "description": "KPV 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/kpv-10mg/",
+        "price": "\u00a328.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-kpv-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-melanotan-ii-10mg",
+    "name": "Melanotan II 10mg",
+    "slug": "sterling-melanotan-ii-10mg",
+    "compareSlug": "melanotan-ii",
+    "category": "melanotans",
+    "description": "Melanotan II 10mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/melanotan-ii-10mg/",
+        "price": "\u00a318.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-melanotan-ii-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-mots-c-10mg",
+    "name": "MOTS-c 10mg Peptide",
+    "slug": "sterling-mots-c-10mg",
+    "compareSlug": "mots-c",
+    "category": "research-compounds",
+    "description": "MOTS-c 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/mots-c-10mg/",
+        "price": "\u00a328.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-mots-c-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-nad-100mg",
+    "name": "NAD+ 100mg",
+    "slug": "sterling-nad-100mg",
+    "compareSlug": "nad",
+    "category": "research-compounds",
+    "description": "NAD+ 100mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/nad-100mg/",
+        "price": "\u00a324.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-nad-100mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-pbs-10ml",
+    "name": "Phosphate Buffered Saline (PBS) 10ml",
+    "slug": "sterling-pbs-10ml",
+    "compareSlug": "bacteriostatic-water",
+    "category": "supplies",
+    "description": "Phosphate Buffered Saline (PBS) 10ml for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/pbs-10ml/",
+        "price": "\u00a35.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-pbs-10ml.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-pt-141-10mg",
+    "name": "PT-141 10mg",
+    "slug": "sterling-pt-141-10mg",
+    "compareSlug": "pt-141",
+    "category": "melanotans",
+    "description": "PT-141 10mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/pt-141-10mg/",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-pt-141-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-retatrutide-10mg",
+    "name": "Retatrutide 10mg Peptide",
+    "slug": "sterling-retatrutide-10mg",
+    "compareSlug": "retatrutide",
+    "category": "glp-1-agonists",
+    "description": "Retatrutide 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/retatrutide-10mg/",
+        "price": "\u00a359.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-retatrutide-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-retatrutide-20mg",
+    "name": "Retatrutide 20mg Peptide",
+    "slug": "sterling-retatrutide-20mg",
+    "compareSlug": "retatrutide",
+    "category": "glp-1-agonists",
+    "description": "Retatrutide 20mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/retatrutide-20mg/",
+        "price": "\u00a3104.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-retatrutide-20mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-retatrutide-40mg",
+    "name": "Retatrutide 40mg Peptide",
+    "slug": "sterling-retatrutide-40mg",
+    "compareSlug": "retatrutide",
+    "category": "glp-1-agonists",
+    "description": "Retatrutide 40mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/retatrutide-40mg/",
+        "price": "\u00a3169.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-retatrutide-40mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-sermorelin-5mg",
+    "name": "Sermorelin 5mg Peptide",
+    "slug": "sterling-sermorelin-5mg",
+    "compareSlug": "sermorelin",
+    "category": "ghrps",
+    "description": "Sermorelin 5mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/sermorelin-5mg/",
+        "price": "\u00a327.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-sermorelin-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-slu-pp-332-5mg",
+    "name": "SLU-PP-332 5mg",
+    "slug": "sterling-slu-pp-332-5mg",
+    "compareSlug": "slu-pp-332",
+    "category": "research-compounds",
+    "description": "SLU-PP-332 5mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/slu-pp-332-5mg/",
+        "price": "\u00a339.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-slu-pp-332-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-ss-31-10mg",
+    "name": "SS-31 10mg Peptide",
+    "slug": "sterling-ss-31-10mg",
+    "compareSlug": "ss-31",
+    "category": "research-compounds",
+    "description": "SS-31 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/ss-31-10mg/",
+        "price": "\u00a339.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-ss-31-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-tb-500-10mg",
+    "name": "TB-500 10mg Peptide",
+    "slug": "sterling-tb-500-10mg",
+    "compareSlug": "tb-500",
+    "category": "bpc-tb-500",
+    "description": "TB-500 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/",
+        "price": "\u00a331.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-tb-500-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-tesamorelin-5mg",
+    "name": "Tesamorelin 5mg Peptide",
+    "slug": "sterling-tesamorelin-5mg",
+    "compareSlug": "tesamorelin",
+    "category": "growth-factors",
+    "description": "Tesamorelin 5mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/tesamorelin-5mg/",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-tesamorelin-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-thymosin-alpha-1-10mg",
+    "name": "Thymosin Alpha-1 10mg Peptide",
+    "slug": "sterling-thymosin-alpha-1-10mg",
+    "compareSlug": "thymosin-alpha-1",
+    "category": "research-compounds",
+    "description": "Thymosin Alpha-1 10mg Peptide for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/thymosin-alpha-1-10mg/",
+        "price": "\u00a374.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-thymosin-alpha-1-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "sterling-tirz3-15mg",
+    "name": "Tirz3 15mg",
+    "slug": "sterling-tirz3-15mg",
+    "compareSlug": "tirzepatide",
+    "category": "glp-1-agonists",
+    "description": "Tirz3 15mg for research purposes.",
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": "",
+    "sources": [
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/tirz3-15mg/",
+        "price": "\u00a339.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-tirz3-15mg.webp"
+      }
+    ],
+    "faq": []
   }
 ]
