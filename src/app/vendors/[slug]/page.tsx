@@ -117,7 +117,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   const compoundBySlug: Record<string, any> = {};
   compounds.forEach((c) => { compoundBySlug[c.slug] = c; });
   const hasFreeShipping = vendor.shipping?.some((s) => s.toLowerCase().includes("free"));
-  const hasLabTested = vendor.highlights?.some((h) => h.toLowerCase().includes("tested"));
+  const hasLabTested = !!vendor.labTested;
   const hasNextDay = vendor.highlights?.some((h) => h.toLowerCase().includes("dispatch") || h.toLowerCase().includes("shipping"));
   const hasUkBased = vendor.country === "UK" || vendor.highlights?.some((h) => h.toLowerCase().includes("uk-based"));
   const hasDiscreet = vendor.highlights?.some((h) => h.toLowerCase().includes("discreet"));

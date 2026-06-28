@@ -70,7 +70,7 @@ const peptideCount = compounds.filter((c) => !(c as any)?.compareSlug).length;
 // Pre-computed stats
 const verifiedCount = vendors.filter((v) => v.verified).length;
 const freeShippingCount = vendors.filter((v) => v.shipping?.some((s) => s.toLowerCase().includes("free"))).length;
-const labTestedCount = vendors.filter((v) => v.highlights?.some((h) => h.toLowerCase().includes("tested"))).length;
+const labTestedCount = vendors.filter((v) => v.labTested).length;
 const avgRating = (vendors.reduce((sum, v) => sum + v.rating, 0) / vendors.length).toFixed(1);
 
 export default function VendorsPage() {
@@ -84,7 +84,7 @@ export default function VendorsPage() {
     if (query && !name.includes(query)) return false;
     if (filter === "verified" && !v.verified) return false;
     if (filter === "free-shipping" && !v.shipping?.some((s) => s.toLowerCase().includes("free"))) return false;
-    if (filter === "lab-tested" && !v.highlights?.some((h) => h.toLowerCase().includes("tested"))) return false;
+    if (filter === "lab-tested" && !v.labTested) return false;
     return true;
   });
 
@@ -186,7 +186,7 @@ export default function VendorsPage() {
               const count = vendorProductCounts[v.name] || 0;
               const minPrice = vendorMinPrices[v.name] || 0;
               const hasFreeShipping = v.shipping?.some((s) => s.toLowerCase().includes("free"));
-              const hasLabTested = v.highlights?.some((h) => h.toLowerCase().includes("tested"));
+              const hasLabTested = v.labTested;
               const bigLogo = ["dr-peptides", "express-peptides", "the-peptide-company"].includes(v.slug);
               return (
                 <Link
