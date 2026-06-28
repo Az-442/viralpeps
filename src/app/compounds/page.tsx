@@ -70,8 +70,9 @@ export default function CompoundsPage() {
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim();
-    if (!q) return compounds;
-    return compounds.filter((c) =>
+    const all = compounds.filter((c) => !(c as any)?.compareSlug);
+    if (!q) return all;
+    return all.filter((c) =>
       c.name.toLowerCase().includes(q) ||
       (c.aliases || []).some((a) => a.toLowerCase().includes(q)) ||
       c.category.toLowerCase().includes(q) ||
