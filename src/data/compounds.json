@@ -11964,9 +11964,9 @@
     "mechanism": ""
   },
   {
-    "id": "slu-pp-332",
+    "id": "slu-pp-332-research-peptides-uk",
     "name": "SLU-PP-332",
-    "slug": "slu-pp-332",
+    "slug": "slu-pp-332-research-peptides-uk",
     "compareSlug": "slu-pp-332",
     "category": "research-compounds",
     "description": "SLU-PP-332 for research purposes.",
@@ -12022,9 +12022,9 @@
     "mechanism": ""
   },
   {
-    "id": "ll-37",
+    "id": "ll-37-research-peptides-uk",
     "name": "LL-37",
-    "slug": "ll-37",
+    "slug": "ll-37-research-peptides-uk",
     "compareSlug": "ll-37",
     "category": "research-compounds",
     "description": "LL-37 peptide for research purposes.",
@@ -12167,9 +12167,9 @@
     "mechanism": ""
   },
   {
-    "id": "ace-031-1mg",
+    "id": "ace-031-1mg-research-peptides-uk",
     "name": "Ace 031 1mg",
-    "slug": "ace-031-1mg",
+    "slug": "ace-031-1mg-research-peptides-uk",
     "compareSlug": "ace-031",
     "category": "research-compounds",
     "description": "Ace 031 1mg for research purposes.",
@@ -12225,9 +12225,9 @@
     "mechanism": ""
   },
   {
-    "id": "follistatin-344-1mg",
+    "id": "follistatin-344-1mg-research-peptides-uk",
     "name": "Follistatin 344 1mg",
-    "slug": "follistatin-344-1mg",
+    "slug": "follistatin-344-1mg-research-peptides-uk",
     "compareSlug": "follistatin",
     "category": "growth-factors",
     "description": "Follistatin 344 1mg for research purposes.",
@@ -12254,9 +12254,9 @@
     "mechanism": ""
   },
   {
-    "id": "thymosin-alpha-1",
+    "id": "thymosin-alpha-1-research-peptides-uk",
     "name": "Thymosin Alpha-1",
-    "slug": "thymosin-alpha-1",
+    "slug": "thymosin-alpha-1-research-peptides-uk",
     "compareSlug": "thymosin-alpha-1",
     "category": "research-compounds",
     "description": "Thymosin Alpha-1 peptide for research.",
@@ -12370,10 +12370,10 @@
     "mechanism": ""
   },
   {
-    "id": "nad-500mg",
+    "id": "nad-500mg-research-peptides-uk",
     "name": "NAD+ 500mg",
-    "slug": "nad-500mg",
-    "compareSlug": "nad",
+    "slug": "nad-500mg-research-peptides-uk",
+    "compareSlug": "nad-plus",
     "category": "research-compounds",
     "description": "NAD+ 500mg for research purposes.",
     "sources": [
@@ -12515,9 +12515,9 @@
     "mechanism": ""
   },
   {
-    "id": "ss-31",
+    "id": "ss-31-research-peptides-uk",
     "name": "SS-31",
-    "slug": "ss-31",
+    "slug": "ss-31-research-peptides-uk",
     "compareSlug": "ss-31",
     "category": "research-compounds",
     "description": "SS-31 peptide for research purposes.",
@@ -12544,9 +12544,9 @@
     "mechanism": ""
   },
   {
-    "id": "tesamorelin",
+    "id": "tesamorelin-research-peptides-uk",
     "name": "Tesamorelin",
-    "slug": "tesamorelin",
+    "slug": "tesamorelin-research-peptides-uk",
     "compareSlug": "tesamorelin",
     "category": "growth-factors",
     "description": "Tesamorelin peptide for research purposes.",
@@ -12631,9 +12631,9 @@
     "mechanism": ""
   },
   {
-    "id": "semax",
+    "id": "semax-research-peptides-uk",
     "name": "Semax",
-    "slug": "semax",
+    "slug": "semax-research-peptides-uk",
     "compareSlug": "semax",
     "category": "research-compounds",
     "description": "Semax peptide for research purposes.",
@@ -12921,9 +12921,9 @@
     "mechanism": ""
   },
   {
-    "id": "ghk-cu",
+    "id": "ghk-cu-research-peptides-uk",
     "name": "GHK-CU",
-    "slug": "ghk-cu",
+    "slug": "ghk-cu-research-peptides-uk",
     "compareSlug": "ghk-cu",
     "category": "research-compounds",
     "description": "GHK-CU peptide for research purposes.",
@@ -13008,9 +13008,9 @@
     "mechanism": ""
   },
   {
-    "id": "5-amino-1mq",
+    "id": "5-amino-1mq-research-peptides-uk",
     "name": "5-amino-1MQ",
-    "slug": "5-amino-1mq",
+    "slug": "5-amino-1mq-research-peptides-uk",
     "compareSlug": "5-amino-1mq",
     "category": "research-compounds",
     "description": "5-amino-1MQ for research purposes.",
@@ -13037,9 +13037,9 @@
     "mechanism": ""
   },
   {
-    "id": "thymalin-10mg",
+    "id": "thymalin-10mg-research-peptides-uk",
     "name": "Thymalin 10mg",
-    "slug": "thymalin-10mg",
+    "slug": "thymalin-10mg-research-peptides-uk",
     "compareSlug": "thymalin",
     "category": "research-compounds",
     "description": "Thymalin 10mg for research purposes.",
@@ -13124,11 +13124,11 @@
     "mechanism": ""
   },
   {
-    "id": "ipamorelin",
+    "id": "ipamorelin-research-peptides-uk",
     "name": "Ipamorelin",
-    "slug": "ipamorelin",
+    "slug": "ipamorelin-research-peptides-uk",
     "compareSlug": "ipamorelin",
-    "category": "ghrps",
+    "category": "ghrp",
     "description": "Ipamorelin peptide for research.",
     "sources": [
       {
@@ -13153,9 +13153,9 @@
     "mechanism": ""
   },
   {
-    "id": "aicar",
+    "id": "aicar-research-peptides-uk",
     "name": "AICAR",
-    "slug": "aicar",
+    "slug": "aicar-research-peptides-uk",
     "compareSlug": "aicar",
     "category": "research-compounds",
     "description": "AICAR for research purposes.",
@@ -13211,11 +13211,11 @@
     "mechanism": ""
   },
   {
-    "id": "thymosin-beta-4-tb500-5mg",
+    "id": "thymosin-beta-4-tb500-5mg-research-peptides-uk",
     "name": "Thymosin Beta 4 (TB500) 5mg",
-    "slug": "thymosin-beta-4-tb500-5mg",
+    "slug": "thymosin-beta-4-tb500-5mg-research-peptides-uk",
     "compareSlug": "tb-500",
-    "category": "bpc-tb-500",
+    "category": "thymosin-bpc",
     "description": "Thymosin Beta 4 (TB500) 5mg for research.",
     "sources": [
       {
@@ -13269,9 +13269,9 @@
     "mechanism": ""
   },
   {
-    "id": "melatonin-10mg",
+    "id": "melatonin-10mg-research-peptides-uk",
     "name": "Melatonin 10mg",
-    "slug": "melatonin-10mg",
+    "slug": "melatonin-10mg-research-peptides-uk",
     "compareSlug": "melatonin",
     "category": "research-compounds",
     "description": "Melatonin 10mg for research purposes.",
@@ -13298,11 +13298,11 @@
     "mechanism": ""
   },
   {
-    "id": "bpc-157",
+    "id": "bpc-157-research-peptides-uk",
     "name": "BPC-157",
-    "slug": "bpc-157",
+    "slug": "bpc-157-research-peptides-uk",
     "compareSlug": "bpc-157",
-    "category": "bpc-tb-500",
+    "category": "thymosin-bpc",
     "description": "BPC-157 peptide for research purposes.",
     "sources": [
       {
@@ -13472,11 +13472,11 @@
     "mechanism": ""
   },
   {
-    "id": "cjc-1295-with-dac-2mg",
+    "id": "cjc-1295-with-dac-2mg-research-peptides-uk",
     "name": "CJC 1295 with DAC 2MG",
-    "slug": "cjc-1295-with-dac-2mg",
+    "slug": "cjc-1295-with-dac-2mg-research-peptides-uk",
     "compareSlug": "cjc-1295",
-    "category": "ghrps",
+    "category": "ghrp",
     "description": "CJC-1295 with DAC 2mg for research.",
     "sources": [
       {
@@ -13530,9 +13530,9 @@
     "mechanism": ""
   },
   {
-    "id": "selank-5mg",
+    "id": "selank-5mg-research-peptides-uk",
     "name": "Selank 5mg",
-    "slug": "selank-5mg",
+    "slug": "selank-5mg-research-peptides-uk",
     "compareSlug": "selank",
     "category": "research-compounds",
     "description": "Selank 5mg for research purposes.",
@@ -13588,9 +13588,9 @@
     "mechanism": ""
   },
   {
-    "id": "epithalon",
+    "id": "epithalon-research-peptides-uk",
     "name": "Epithalon",
-    "slug": "epithalon",
+    "slug": "epithalon-research-peptides-uk",
     "compareSlug": "epitalon",
     "category": "research-compounds",
     "description": "Epithalon peptide for research.",
@@ -13704,11 +13704,11 @@
     "mechanism": ""
   },
   {
-    "id": "hexarelin-2mg",
+    "id": "hexarelin-2mg-research-peptides-uk",
     "name": "Hexarelin 2mg",
-    "slug": "hexarelin-2mg",
+    "slug": "hexarelin-2mg-research-peptides-uk",
     "compareSlug": "hexarelin",
-    "category": "ghrps",
+    "category": "ghrp",
     "description": "Hexarelin 2mg for research purposes.",
     "sources": [
       {
@@ -13762,11 +13762,11 @@
     "mechanism": ""
   },
   {
-    "id": "ghrp-6-5mg",
+    "id": "ghrp-6-5mg-research-peptides-uk",
     "name": "GHRP-6 5mg",
-    "slug": "ghrp-6-5mg",
+    "slug": "ghrp-6-5mg-research-peptides-uk",
     "compareSlug": "ghrp-6",
-    "category": "ghrps",
+    "category": "ghrp",
     "description": "GHRP-6 5mg for research purposes.",
     "sources": [
       {
@@ -13892,7 +13892,7 @@
     "id": "wolverine-stack-the-peptide-company",
     "name": "Wolverine Stack (BPC157 & TB500) 10mg",
     "slug": "wolverine-stack-the-peptide-company",
-    "compareSlug": "wolverine-stack-10mg",
+    "compareSlug": "bpc-157-tb-500-blend",
     "category": "peptide-blends",
     "description": "Wolverine Stack (BPC-157 & TB-500) 10mg peptide blend for research.",
     "aliases": [],
