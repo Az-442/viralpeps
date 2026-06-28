@@ -164,30 +164,11 @@ export default function VendorsPage() {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 mb-1">
             <h2 className="text-xl font-bold text-gray-900">All {vendors.length} UK suppliers</h2>
             <div className="flex items-center gap-2 shrink-0">
-              {/* Filter pills */}
-              {[
-                { key: "all" as const, label: "All", count: vendors.length },
-                { key: "verified" as const, label: "Verified", count: verifiedCount },
-                { key: "free-shipping" as const, label: "Free ship", count: freeShippingCount },
-                { key: "lab-tested" as const, label: "Tested", count: labTestedCount },
-              ].map((f) => (
-                <button
-                  key={f.key}
-                  onClick={() => setFilter(f.key)}
-                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors ${
-                    filter === f.key
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                  }`}
-                >
-                  {f.label} <span className={filter === f.key ? "text-white/80" : "text-gray-900"}>{f.count}</span>
-                </button>
-              ))}
               {/* Sort dropdown */}
               <select
                 value={sort}
                 onChange={(e) => setSort(e.target.value as typeof sort)}
-                className="ml-1 px-2.5 py-1 border border-slate-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
+                className="px-2.5 py-1 border border-slate-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
               >
                 <option value="a-z">A-Z</option>
                 <option value="rating">★ Top</option>
