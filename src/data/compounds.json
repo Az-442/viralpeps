@@ -314,8 +314,7 @@
         "question": "What is the typical dosage for BPC-157 research?",
         "answer": "Common research dosages range from 200\u2013400 mcg daily for general healing, up to 500 mcg twice daily for more intensive protocols targeting significant injuries or gastrointestinal conditions. Daily or twice-daily dosing is recommended due to its short half-life."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "tb-500",
@@ -445,9 +444,7 @@
         "question": "What is the TB-500 dosage protocol in research?",
         "answer": "Typical research protocols use 2.5\u20135 mg per week, sometimes with an initial loading dose of 10 mg. Due to its 4\u20136 hour half-life but persistent biological effects, once or twice weekly dosing is common."
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "tb-500"
+    ]
   },
   {
     "id": "mt2",
@@ -670,9 +667,7 @@
         "question": "What dosage of GHRP-2 is used in research protocols?",
         "answer": "Typical research dosages range from 100\u2013300 mcg per day, often divided into 2\u20133 doses. Due to its short half-life of 30\u201360 minutes, multiple daily administrations are common. It is frequently combined with a GHRH analogue for enhanced GH pulse generation."
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "ghrp-2"
+    ]
   },
   {
     "id": "aod9604",
@@ -805,9 +800,7 @@
         "question": "What is the half-life and dosing of AOD-9604?",
         "answer": "AOD-9604 has a short half-life of approximately 20 minutes, which supports twice-daily dosing schedules. Typical research dosages range from 300\u2013500 mcg per day, often split into two doses of 300\u2013500 mcg each."
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "aod-9604"
+    ]
   },
   {
     "id": "retatrutide",
@@ -1044,8 +1037,7 @@
         "question": "How does the DAC modification work?",
         "answer": "The DAC (Drug Affinity Complex) modification is a maleimidopropionic acid group that covalently binds to cysteine-34 on circulating albumin. This creates a long-lasting reservoir of peptide in the bloodstream that slowly releases active CJC-1295, extending its half-life from minutes to approximately 6\u20138 days."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "igf-1-lr3",
@@ -1155,8 +1147,7 @@
         "question": "What dosage of IGF-1 LR3 is used in research?",
         "answer": "Typical research dosages range from 20\u201360 mcg daily for general protocols, with 40\u201380 mcg post-workout used in muscle growth studies. Its 20\u201330 hour half-life supports once or twice daily administration."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "tesamorelin",
@@ -1285,8 +1276,7 @@
         "question": "What is the dosage of Tesamorelin in research?",
         "answer": "The standard research dosage is 2 mg once daily via subcutaneous injection. Its short half-life necessitates daily administration for sustained GH and IGF-1 elevation."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "sermorelin",
@@ -1403,8 +1393,7 @@
         "question": "What is the dosing protocol for Sermorelin research?",
         "answer": "Due to its 12\u201320 minute half-life, sermorelin is typically dosed at 100\u2013200 mcg twice daily via subcutaneous injection. It is often combined with a GHRP compound (such as GHRP-2 or GHRP-6) in the same syringe for synergistic GH pulse generation."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "mots-c",
@@ -1513,8 +1502,7 @@
         "question": "What is the dosage of MOTS-c in research?",
         "answer": "Research dosages typically range from 10\u201315 mg per day, sometimes split into two daily doses of 5\u201310 mg. The half-life is approximately 60 minutes, supporting twice-daily administration schedules."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "ss-31",
@@ -1625,8 +1613,7 @@
         "question": "What is the typical SS-31 dosage in research?",
         "answer": "Research dosages typically range from 10\u201340 mg daily, with 20 mg subcutaneous daily being a common protocol. Its half-life of 2\u20134 hours supports once or twice daily administration."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "ghk-cu",
@@ -1766,9 +1753,7 @@
         "question": "Why does GHK-Cu decline with age?",
         "answer": "GHK-Cu plasma levels naturally decline with age \u2014 from approximately 200 ng/mL in young adults to 80 ng/mL by age 60. This decline correlates with reduced wound healing capacity and increased incidence of age-related tissue degeneration."
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "ghk-cu"
+    ]
   },
   {
     "id": "kpv",
@@ -1891,8 +1876,7 @@
         "question": "What is the KPV dosage in research protocols?",
         "answer": "Research dosages typically range from 1\u201310 mg per day for systemic studies, with animal models using 1\u20135 mg/kg. Due to its short half-life (~15 minutes), daily or twice-daily administration is common."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "thymosin-alpha-1",
@@ -2007,9 +1991,7 @@
         "question": "Is Thymosin Alpha-1 clinically approved?",
         "answer": "Yes, Thymosin Alpha-1 (Zadaxin) is approved for clinical use in over 40 countries for hepatitis B and C treatment. However, it is not FDA or MHRA approved and is intended for research purposes in those jurisdictions."
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "thymosin-alpha-1"
+    ]
   },
   {
     "id": "epitalon",
@@ -2122,8 +2104,7 @@
         "question": "What is the dosage protocol for Epitalon research?",
         "answer": "Research dosages range from 1\u201310 mg per day, with common protocols using short courses of 5\u201310 mg administered twice per year. Its very short half-life (~10 minutes) and epigenetic mechanism make intermittent course-based dosing the standard approach."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "semax",
@@ -2255,9 +2236,7 @@
         "question": "How long does Semax take to work?",
         "answer": "Semax has a rapid onset of action \u2014 effects can be noticed within 15\u201330 minutes of intranasal administration due to direct nose-to-brain transport. Peak cognitive effects are typically reported within 1\u20132 hours, and consistent use over 5\u201310 days produces cumulative improvements."
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "semax"
+    ]
   },
   {
     "id": "selank",
@@ -2388,9 +2367,7 @@
         "question": "Does Selank have cognitive benefits?",
         "answer": "Yes, unlike conventional anxiolytics, selank has been shown to improve attention, memory consolidation, and executive function in clinical studies. This cognitive enhancement, combined with anxiolysis, makes it unique among anti-anxiety compounds."
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "selank"
+    ]
   },
   {
     "id": "ara-290",
@@ -2676,8 +2653,7 @@
         "price": "\u00a317.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "hexarelin",
@@ -2768,8 +2744,7 @@
         "price": "\u00a326.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "ipamorelin",
@@ -2876,8 +2851,7 @@
         "price": "\u00a315.52",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "ghrp-6",
@@ -2980,9 +2954,7 @@
         "price": "\u00a312.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "ghrp-6"
+    ]
   },
   {
     "id": "pt-141",
@@ -3085,8 +3057,7 @@
         "price": "\u00a320.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "kisspeptin-10",
@@ -3194,9 +3165,7 @@
         "price": "\u00a329.95",
         "inStock": true
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "kisspeptin-10"
+    ]
   },
   {
     "id": "cerebrolysin",
@@ -3714,9 +3683,7 @@
         "price": "\u00a336.99",
         "inStock": true
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "bpc-157-tb-500-blend"
+    ]
   },
   {
     "id": "gonadorelin",
@@ -3891,8 +3858,7 @@
         "price": "\u00a315.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "oxytocin",
@@ -4237,8 +4203,7 @@
         "price": "\u00a320.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "bacteriostatic-water",
@@ -4366,8 +4331,7 @@
         "price": "\u00a365.84",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "hcg",
@@ -5180,8 +5144,7 @@
         "price": "\u00a328.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "ll-37",
@@ -5227,8 +5190,7 @@
         "price": "\u00a362.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "thymalin",
@@ -5279,9 +5241,7 @@
         "price": "\u00a324.99",
         "inStock": true
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "thymalin"
+    ]
   },
   {
     "id": "vip",
@@ -5326,8 +5286,7 @@
         "price": "\u00a342.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "aicar",
@@ -5556,8 +5515,7 @@
         "price": "\u00a335.99",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "vitamin-b12",
@@ -5813,9 +5771,7 @@
         "price": "\u00a317.80",
         "inStock": true
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "mgf"
+    ]
   },
   {
     "id": "ovagen",
@@ -5959,8 +5915,7 @@
         "price": "\u00a344.95",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "bronchogen",
@@ -6126,9 +6081,7 @@
         "price": "\u00a362.90",
         "inStock": true
       }
-    ],
-    "vendorProduct": true,
-    "compareSlug": "follistatin-344"
+    ]
   },
   {
     "id": "ace-031-1mg-1",
@@ -6324,9 +6277,7 @@
         "inStock": true
       }
     ],
-    "faq": [],
-    "vendorProduct": true,
-    "compareSlug": "ace-031-1mg"
+    "faq": []
   },
   {
     "id": "acetic-acid-10ml",
@@ -6355,8 +6306,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/Acetic-Acid_Front.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "adamax-5mg",
@@ -6386,8 +6336,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "adamax",
-    "vendorProduct": true
+    "compareSlug": "adamax"
   },
   {
     "id": "adipotide-ftpp-5mg",
@@ -6416,8 +6365,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/adipotide-ftpp-5mg-front.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "5-amino-1mq-50mg",
@@ -6447,8 +6395,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "5-amino-1mq",
-    "vendorProduct": true
+    "compareSlug": "5-amino-1mq"
   },
   {
     "id": "ara-290-16mg",
@@ -6478,8 +6425,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ara-290",
-    "vendorProduct": true
+    "compareSlug": "ara-290"
   },
   {
     "id": "bacteriostatic-water-10ml",
@@ -6514,8 +6460,7 @@
         "inStock": true
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "bacteriostatic-water-30ml",
@@ -6544,8 +6489,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/bac-water-30ml-front.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "bpc-157-5mg",
@@ -6575,8 +6519,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157",
-    "vendorProduct": true
+    "compareSlug": "bpc-157"
   },
   {
     "id": "premium-bpc-157-5mg",
@@ -6606,8 +6549,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157",
-    "vendorProduct": true
+    "compareSlug": "bpc-157"
   },
   {
     "id": "bpc-157-5mg-tb500-5mg",
@@ -6637,8 +6579,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend",
-    "vendorProduct": true
+    "compareSlug": "bpc-157-tb-500-blend"
   },
   {
     "id": "bundle-gh-stack",
@@ -6667,8 +6608,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/ppuk-bundle-pack-3.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "bundle-premium-gh-stack",
@@ -6698,8 +6638,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bundle-gh-stack",
-    "vendorProduct": true
+    "compareSlug": "bundle-gh-stack"
   },
   {
     "id": "bundle-wolverine-stack",
@@ -6728,8 +6667,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Wolverine-Stack.jpg"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "bundle-glow-stack",
@@ -6758,8 +6696,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Glow-Stack.jpg"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "bundle-super-stack",
@@ -6788,8 +6725,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Super-Stack.jpg"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "bundle-mito-stack",
@@ -6818,8 +6754,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/09/PPUK-Bundle-Mitro-Stack.jpg"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "cartalax-20mg",
@@ -6849,8 +6784,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cartalax",
-    "vendorProduct": true
+    "compareSlug": "cartalax"
   },
   {
     "id": "cjc-1295-with-dac-2mg",
@@ -6879,8 +6813,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/cjc-with-dac-2mg-front.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "dsip-5mg",
@@ -6910,8 +6843,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "dsip",
-    "vendorProduct": true
+    "compareSlug": "dsip"
   },
   {
     "id": "epitalon-10mg",
@@ -6941,8 +6873,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "epitalon",
-    "vendorProduct": true
+    "compareSlug": "epitalon"
   },
   {
     "id": "follistatin-344-1mg",
@@ -6970,9 +6901,7 @@
         "inStock": true
       }
     ],
-    "faq": [],
-    "vendorProduct": true,
-    "compareSlug": "follistatin-344-1mg"
+    "faq": []
   },
   {
     "id": "fragment-176-191-2mg",
@@ -7002,8 +6931,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "fragment-176-191",
-    "vendorProduct": true
+    "compareSlug": "fragment-176-191"
   },
   {
     "id": "fragment-176-191-5mg",
@@ -7033,8 +6961,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "fragment-176-191",
-    "vendorProduct": true
+    "compareSlug": "fragment-176-191"
   },
   {
     "id": "premium-ghk-cu-50mg",
@@ -7064,8 +6991,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu",
-    "vendorProduct": true
+    "compareSlug": "ghk-cu"
   },
   {
     "id": "ghk-cu-50mg",
@@ -7095,8 +7021,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu",
-    "vendorProduct": true
+    "compareSlug": "ghk-cu"
   },
   {
     "id": "ghrp-2-5mg",
@@ -7126,8 +7051,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-2",
-    "vendorProduct": true
+    "compareSlug": "ghrp-2"
   },
   {
     "id": "premium-ghrp-2-5mg",
@@ -7157,8 +7081,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-2",
-    "vendorProduct": true
+    "compareSlug": "ghrp-2"
   },
   {
     "id": "ghrp-6-5mg",
@@ -7188,8 +7111,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-6",
-    "vendorProduct": true
+    "compareSlug": "ghrp-6"
   },
   {
     "id": "premium-ghrp-6-5mg",
@@ -7219,8 +7141,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-6",
-    "vendorProduct": true
+    "compareSlug": "ghrp-6"
   },
   {
     "id": "glutathione-1500mg",
@@ -7250,8 +7171,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "glutathione",
-    "vendorProduct": true
+    "compareSlug": "glutathione"
   },
   {
     "id": "gnrh-triptorelin-100mcg",
@@ -7280,8 +7200,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/gnrh-triptorelin-100mcg-front.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "hcg-5000iu",
@@ -7309,9 +7228,7 @@
         "inStock": true
       }
     ],
-    "faq": [],
-    "vendorProduct": true,
-    "compareSlug": "hcg-5000iu"
+    "faq": []
   },
   {
     "id": "hexarelin-2mg",
@@ -7341,8 +7258,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "hexarelin",
-    "vendorProduct": true
+    "compareSlug": "hexarelin"
   },
   {
     "id": "hmg-75iu",
@@ -7370,9 +7286,7 @@
         "inStock": true
       }
     ],
-    "faq": [],
-    "vendorProduct": true,
-    "compareSlug": "hmg-75iu"
+    "faq": []
   },
   {
     "id": "igf-1-lr3-100mcg",
@@ -7402,8 +7316,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-lr3",
-    "vendorProduct": true
+    "compareSlug": "igf-1-lr3"
   },
   {
     "id": "igf-1-long-r3-1mg",
@@ -7433,8 +7346,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-lr3",
-    "vendorProduct": true
+    "compareSlug": "igf-1-lr3"
   },
   {
     "id": "ipamorelin-2mg",
@@ -7464,8 +7376,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin",
-    "vendorProduct": true
+    "compareSlug": "ipamorelin"
   },
   {
     "id": "premium-ipamorelin-2mg",
@@ -7495,8 +7406,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin",
-    "vendorProduct": true
+    "compareSlug": "ipamorelin"
   },
   {
     "id": "ipamorelin-5mg",
@@ -7526,8 +7436,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin",
-    "vendorProduct": true
+    "compareSlug": "ipamorelin"
   },
   {
     "id": "premium-ipamorelin-5mg",
@@ -7557,8 +7466,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin",
-    "vendorProduct": true
+    "compareSlug": "ipamorelin"
   },
   {
     "id": "kisspeptin-5mg",
@@ -7588,8 +7496,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kisspeptin-10",
-    "vendorProduct": true
+    "compareSlug": "kisspeptin-10"
   },
   {
     "id": "kpv-5mg",
@@ -7619,8 +7526,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kpv",
-    "vendorProduct": true
+    "compareSlug": "kpv"
   },
   {
     "id": "ll-37-5mg",
@@ -7650,8 +7556,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ll-37",
-    "vendorProduct": true
+    "compareSlug": "ll-37"
   },
   {
     "id": "modified-grf-1-29-2mg",
@@ -7681,8 +7586,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295",
-    "vendorProduct": true
+    "compareSlug": "cjc-1295"
   },
   {
     "id": "premium-mod-grf-1-29-2mg",
@@ -7712,8 +7616,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295",
-    "vendorProduct": true
+    "compareSlug": "cjc-1295"
   },
   {
     "id": "premium-mod-grf-5mg",
@@ -7743,8 +7646,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295",
-    "vendorProduct": true
+    "compareSlug": "cjc-1295"
   },
   {
     "id": "mots-c-5mg",
@@ -7774,8 +7676,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c",
-    "vendorProduct": true
+    "compareSlug": "mots-c"
   },
   {
     "id": "mots-c-10mg",
@@ -7805,8 +7706,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c",
-    "vendorProduct": true
+    "compareSlug": "mots-c"
   },
   {
     "id": "premium-mots-c-10mg",
@@ -7836,8 +7736,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c",
-    "vendorProduct": true
+    "compareSlug": "mots-c"
   },
   {
     "id": "mots-c-40mg",
@@ -7867,8 +7766,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c",
-    "vendorProduct": true
+    "compareSlug": "mots-c"
   },
   {
     "id": "nad-500mg",
@@ -7898,8 +7796,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-plus",
-    "vendorProduct": true
+    "compareSlug": "nad-plus"
   },
   {
     "id": "peg-mgf-5mg",
@@ -7928,8 +7825,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/peg-mgf-5mg-front.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "pbs-10ml",
@@ -7958,8 +7854,7 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": [],
-    "vendorProduct": true
+    "faq": []
   },
   {
     "id": "pt-141-bremelanotide-10mg",
@@ -7995,8 +7890,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "pt-141-bremelanotide",
-    "vendorProduct": true
+    "compareSlug": "pt-141-bremelanotide"
   },
   {
     "id": "selank-5mg",
@@ -8026,8 +7920,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "selank",
-    "vendorProduct": true
+    "compareSlug": "selank"
   },
   {
     "id": "n-acetyl-selank-amidate-10mg",
@@ -8057,8 +7950,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "selank",
-    "vendorProduct": true
+    "compareSlug": "selank"
   },
   {
     "id": "semax-5mg",
@@ -8088,8 +7980,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "semax",
-    "vendorProduct": true
+    "compareSlug": "semax"
   },
   {
     "id": "n-acetyl-semax-amidate-10mg",
@@ -8119,8 +8010,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "semax",
-    "vendorProduct": true
+    "compareSlug": "semax"
   },
   {
     "id": "snap-8-10mg",
@@ -8150,8 +8040,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "snap-8",
-    "vendorProduct": true
+    "compareSlug": "snap-8"
   },
   {
     "id": "ss-31-10mg",
@@ -8187,8 +8076,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ss-31",
-    "vendorProduct": true
+    "compareSlug": "ss-31"
   },
   {
     "id": "ss-31-50mg",
@@ -8218,8 +8106,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ss-31",
-    "vendorProduct": true
+    "compareSlug": "ss-31"
   },
   {
     "id": "tesamorelin-2mg",
@@ -8249,8 +8136,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tesamorelin",
-    "vendorProduct": true
+    "compareSlug": "tesamorelin"
   },
   {
     "id": "tesamorelin-10mg",
@@ -8280,8 +8166,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tesamorelin",
-    "vendorProduct": true
+    "compareSlug": "tesamorelin"
   },
   {
     "id": "thymalin-10mg",
@@ -8311,8 +8196,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymalin",
-    "vendorProduct": true
+    "compareSlug": "thymalin"
   },
   {
     "id": "thymalin-20mg",
@@ -8342,8 +8226,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymalin",
-    "vendorProduct": true
+    "compareSlug": "thymalin"
   },
   {
     "id": "thymosin-alpha-1-10mg",
@@ -8373,8 +8256,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymosin-alpha-1",
-    "vendorProduct": true
+    "compareSlug": "thymosin-alpha-1"
   },
   {
     "id": "thymosin-beta-4-tb500-2mg",
@@ -8404,8 +8286,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500",
-    "vendorProduct": true
+    "compareSlug": "tb-500"
   },
   {
     "id": "premium-thymosin-beta-4-tb500-2mg",
@@ -8435,8 +8316,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500",
-    "vendorProduct": true
+    "compareSlug": "tb-500"
   },
   {
     "id": "thymosin-beta-4-tb500-5mg",
@@ -8466,8 +8346,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500",
-    "vendorProduct": true
+    "compareSlug": "tb-500"
   },
   {
     "id": "premium-thymosin-beta-4-tb500-5mg",
@@ -8497,8 +8376,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500",
-    "vendorProduct": true
+    "compareSlug": "tb-500"
   },
   {
     "id": "tp2-10mg",
@@ -8526,9 +8404,7 @@
         "inStock": true
       }
     ],
-    "faq": [],
-    "vendorProduct": true,
-    "compareSlug": "tp2-10mg"
+    "faq": []
   },
   {
     "id": "vip-5mg",
@@ -8558,8 +8434,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "vip",
-    "vendorProduct": true
+    "compareSlug": "vip"
   },
   {
     "id": "vesugen-20mg",
@@ -8589,8 +8464,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "vesugen",
-    "vendorProduct": true
+    "compareSlug": "vesugen"
   },
   {
     "id": "vilon-20mg",
@@ -8618,9 +8492,7 @@
         "inStock": true
       }
     ],
-    "faq": [],
-    "vendorProduct": true,
-    "compareSlug": "vilon-20mg"
+    "faq": []
   },
   {
     "id": "cardiogen-research-peptide",
@@ -8648,7 +8520,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -8677,7 +8548,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "vesugen"
   },
@@ -8707,7 +8577,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -8736,7 +8605,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -8765,7 +8633,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "ahk-cu"
   },
@@ -8795,7 +8662,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "igf-1-lr3"
   },
@@ -8825,7 +8691,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -8854,7 +8719,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -8883,7 +8747,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "hexarelin"
   },
@@ -8913,7 +8776,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "ll-37"
   },
@@ -8943,7 +8805,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "snap-8"
   },
@@ -8973,7 +8834,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "sermorelin"
   },
@@ -9003,7 +8863,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "vip"
   },
@@ -9033,7 +8892,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "5-amino-1mq"
   },
@@ -9063,7 +8921,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -9092,7 +8949,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "kpv"
   },
@@ -9122,7 +8978,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -9151,7 +9006,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "bpc-157-tb-500-blend"
   },
@@ -9181,7 +9035,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "tesamorelin"
   },
@@ -9211,7 +9064,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -9240,7 +9092,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "mgf"
   },
@@ -9270,7 +9121,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "mots-c"
   },
@@ -9300,7 +9150,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "nad-plus"
   },
@@ -9330,7 +9179,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "fragment-176-191"
   },
@@ -9360,7 +9208,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "ipamorelin"
   },
@@ -9390,7 +9237,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "dsip"
   },
@@ -9420,7 +9266,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "epitalon"
   },
@@ -9450,7 +9295,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": []
   },
   {
@@ -9479,7 +9323,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "cjc-1295"
   },
@@ -9509,7 +9352,6 @@
         "inStock": true
       }
     ],
-    "vendorProduct": true,
     "faq": [],
     "compareSlug": "bpc-157"
   }

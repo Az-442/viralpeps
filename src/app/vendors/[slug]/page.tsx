@@ -89,12 +89,21 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   if (!vendor) notFound();
 
   // Compounds this vendor sells
-  // Exclude entries where vendorProduct is explicitly false (used for master comparison
-  // compounds that have the vendor as a source but aren't their own catalog products)
-  const vendorCompounds = compounds.filter((c) =>
-    c.sources.some((s) => s.vendor === vendor.name) &&
-    c.vendorProduct !== false
+  // If this vendor has individual catalog entries (identified by having compareSlug),
+  // only show those entries OR single-vendor compounds unique to this vendor.
+  // Otherwise show all compounds where this vendor is a source.
+  const vendorSourceCompounds = compounds.filter((c) =>
+    c.sources.some((s) => s.vendor === vendor.name)
   );
+  const hasCatalogEntries = vendorSourceCompounds.some((c) =>
+    (c as any)?.compareSlug
+  );
+  const vendorCompounds = hasCatalogEntries
+    ? vendorSourceCompounds.filter((c) =>
+        (c as any)?.compareSlug ||
+        c.sources.every((s) => s.vendor === vendor.name)
+      )
+    : vendorSourceCompounds;
 
   const minPrice = Math.min(
     ...vendorCompounds.flatMap((c) =>
