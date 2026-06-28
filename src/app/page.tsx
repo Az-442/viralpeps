@@ -235,7 +235,7 @@ export default function Home() {
  <div className="flex items-center justify-between mb-2">
  <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
  </div>
- <div className="text-xs text-black">from &pound;{minPrice.toFixed(2)} {c.sources.length} VENDORS</div>
+ <div className="text-xs text-emerald-600 font-bold">from &pound;{minPrice.toFixed(2)} {c.sources.length} VENDORS</div>
  </Link>
  );
  })}
@@ -286,7 +286,7 @@ export default function Home() {
  <div className="flex items-center justify-between">
  <div>
  <span className="text-[10px] text-black uppercase font-medium">{isFirst ? "BEST PRICE" : isLast ? "HIGHEST" : "PRICE"}</span>
- <div className="text-sm font-bold text-gray-900">{prices ? `£${prices.min.toFixed(2)}` : `${count} products`}</div>
+ <div className="text-lg font-extrabold text-emerald-600">{prices ? `£${prices.min.toFixed(2)}` : `${count} products`}</div>
  </div>
  <span className="text-xs text-blue-600 font-medium group-hover:underline">View &rarr;</span>
  </div>
@@ -352,9 +352,9 @@ export default function Home() {
  -{deal.savingsPct}%
  </div>
  <h3 className="font-semibold text-gray-900 text-sm mb-1">{deal.name}{dosageLabel(deal.commonDosages) ? ` ${dosageLabel(deal.commonDosages)}` : ""}</h3>
- <div className="text-xs text-black line-through mb-1">&pound;{deal.maxPrice.toFixed(2)}</div>
- <div className="text-lg font-bold text-gray-900">&pound;{deal.minPrice.toFixed(2)}</div>
- <div className="text-[10px] text-green-700 font-semibold mt-1">SAVE &pound;{deal.savingsAmount}</div>
+ <div className="text-xs text-slate-400 line-through mb-1">&pound;{deal.maxPrice.toFixed(2)}</div>
+           <div className="text-xl md:text-2xl font-extrabold text-emerald-600">&pound;{deal.minPrice.toFixed(2)}</div>
+           <div className="text-xs font-bold text-emerald-600 mt-1">SAVE &pound;{deal.savingsAmount}</div>
  <div className="text-[10px] text-black mt-1">at {deal.cheapestVendor?.vendor || "Various"}</div>
  <div className="mt-2 text-xs text-blue-600 font-medium flex items-center gap-1">
  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
@@ -385,7 +385,7 @@ export default function Home() {
  <h3 className="font-semibold text-gray-900 text-sm">{item.compound.name}{dosageLabel(item.compound.commonDosages) ? ` ${dosageLabel(item.compound.commonDosages)}` : ""}</h3>
  <p className="text-xs text-black">at {item.vendor.vendor}</p>
  <div className="flex items-center gap-2 mt-1.5">
- <span className="text-xs font-semibold text-gray-900">{item.vendor.price}</span>
+ <span className="text-sm font-bold text-emerald-600">{item.vendor.price}</span>
  {item.vendorData?.verified && (
  <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
  <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
@@ -453,9 +453,9 @@ export default function Home() {
  </div>
  )}
  <div className="mt-2">
- <span className="text-[10px] text-black uppercase tracking-wide font-medium">FROM</span>
- <div className="text-sm font-bold text-gray-900">&pound;{minPrice.toFixed(2)}</div>
- </div>
+           <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
+           <div className="text-lg md:text-xl font-extrabold text-emerald-600">&pound;{minPrice.toFixed(2)}</div>
+           </div>
  <div className="mt-1.5 text-xs text-blue-600 font-medium flex items-center gap-1 group-hover:underline">
  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
  Compare
