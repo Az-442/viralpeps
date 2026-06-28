@@ -15,6 +15,9 @@ export default function ProductImage({ vendorSlug, compoundSlug, compoundName }:
       // Try .png next
       img.src = `/images/products/${vendorSlug}/${compoundSlug}.png`;
     } else if (currentSrc.endsWith(".png")) {
+      // Try .jpg next
+      img.src = `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
+    } else if (currentSrc.endsWith(".jpg")) {
       // Try generic vendor image
       img.src = `/images/products/${vendorSlug}/ukp-generic.webp`;
     } else if (currentSrc.includes("ukp-generic")) {
