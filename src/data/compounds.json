@@ -12331,5 +12331,934 @@
         "image": "/images/products/express-peptides/slu-pp-332-pen-express.webp"
       }
     ]
+  },
+  {
+    "id": "bac-water-research-peptide",
+    "name": "Bacteriostatic Water 10ml",
+    "slug": "bac-water-research-peptide",
+    "aliases": [],
+    "category": "supplies",
+    "description": "Bacteriostatic Water 10ml by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/10ml-bacteriostatic-water",
+        "price": "\u00a34.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/bac-water-research-peptide.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ace031-research-peptide",
+    "name": "ACE-031 (1mg)",
+    "slug": "ace031-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "ACE-031 (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/ace031-1mg",
+        "price": "\u00a339.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ace031-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ace-031"
+  },
+  {
+    "id": "aicar-research-peptide",
+    "name": "AICAR (50mg)",
+    "slug": "aicar-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "AICAR (50mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/aicar-50mg",
+        "price": "\u00a319.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/aicar-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "aicar"
+  },
+  {
+    "id": "bpc-157-5mg-research-peptide",
+    "name": "BPC-157 (5mg)",
+    "slug": "bpc-157-5mg-research-peptide",
+    "aliases": [],
+    "category": "thymosin-bpc",
+    "description": "BPC-157 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/bpc-157-5mg",
+        "price": "\u00a313.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/bpc-157-5mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "bpc-157"
+  },
+  {
+    "id": "cjc-nodac-research-peptide",
+    "name": "CJC-1295 No DAC (2mg)",
+    "slug": "cjc-nodac-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 No DAC (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+        "price": "\u00a39.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/cjc-nodac-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "cjc-dac-research-peptide",
+    "name": "CJC-1295 DAC (2mg)",
+    "slug": "cjc-dac-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 DAC (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/cjc-1295-dac-2mg",
+        "price": "\u00a316.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/cjc-dac-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "dsip-research-peptide",
+    "name": "DSIP (5mg)",
+    "slug": "dsip-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "DSIP (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
+        "price": "\u00a311.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/dsip-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "dsip"
+  },
+  {
+    "id": "epitalon-research-peptide",
+    "name": "Epitalon (10mg)",
+    "slug": "epitalon-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Epitalon (10mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
+        "price": "\u00a311.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/epitalon-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "epitalon"
+  },
+  {
+    "id": "follistatin-research-peptide",
+    "name": "Follistatin (1mg)",
+    "slug": "follistatin-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "Follistatin (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg",
+        "price": "\u00a339.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/follistatin-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "follistatin-344"
+  },
+  {
+    "id": "ftpp-research-peptide",
+    "name": "FTPP Adipotide (2mg)",
+    "slug": "ftpp-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "FTPP Adipotide (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/ftpp-adipotide-2mg",
+        "price": "\u00a329.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ftpp-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "adipotide"
+  },
+  {
+    "id": "gdf8-research-peptide",
+    "name": "GDF-8 (1mg)",
+    "slug": "gdf8-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "GDF-8 (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/gdf-8-1mg",
+        "price": "\u00a349.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/gdf8-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "gdf-8"
+  },
+  {
+    "id": "ghrp-2-research-peptide",
+    "name": "GHRP-2 (5mg)",
+    "slug": "ghrp-2-research-peptide",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "GHRP-2 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
+        "price": "\u00a37.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ghrp-2-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghrp-2"
+  },
+  {
+    "id": "ghrp-6-research-peptide",
+    "name": "GHRP-6 (5mg)",
+    "slug": "ghrp-6-research-peptide",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "GHRP-6 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg",
+        "price": "\u00a37.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ghrp-6-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghrp-6"
+  },
+  {
+    "id": "hexarelin-research-peptide",
+    "name": "Hexarelin (2mg)",
+    "slug": "hexarelin-research-peptide",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Hexarelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg",
+        "price": "\u00a39.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/hexarelin-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "hexarelin"
+  },
+  {
+    "id": "frag-176-2mg-research-peptide",
+    "name": "HGH Fragment 176-191 (2mg)",
+    "slug": "frag-176-2mg-research-peptide",
+    "aliases": [],
+    "category": "aod-fragments",
+    "description": "HGH Fragment 176-191 (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/hgh-frag-176-191-2mg",
+        "price": "\u00a312.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/frag-176-2mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "fragment-176-191"
+  },
+  {
+    "id": "frag-176-5mg-research-peptide",
+    "name": "HGH Fragment 176-191 (5mg)",
+    "slug": "frag-176-5mg-research-peptide",
+    "aliases": [],
+    "category": "aod-fragments",
+    "description": "HGH Fragment 176-191 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/hgh-frag-176-191-5mg",
+        "price": "\u00a319.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/frag-176-5mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "fragment-176-191"
+  },
+  {
+    "id": "igf1-des-research-peptide",
+    "name": "IGF-1 DES (1mg)",
+    "slug": "igf1-des-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "IGF-1 DES (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/igf-1des-1mg",
+        "price": "\u00a334.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/igf1-des-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "igf-1-des"
+  },
+  {
+    "id": "igf1-lr3-research-peptide",
+    "name": "IGF-1 LR3 (1mg)",
+    "slug": "igf1-lr3-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "IGF-1 LR3 (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/igf-lr3-1mg",
+        "price": "\u00a339.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/igf1-lr3-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "igf-1-lr3"
+  },
+  {
+    "id": "ipamorelin-5mg-research-peptide",
+    "name": "Ipamorelin (5mg)",
+    "slug": "ipamorelin-5mg-research-peptide",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Ipamorelin (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/ipamorelin-5mg",
+        "price": "\u00a314.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ipamorelin-5mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ipamorelin"
+  },
+  {
+    "id": "ipamorelin-2mg-research-peptide",
+    "name": "Ipamorelin (2mg)",
+    "slug": "ipamorelin-2mg-research-peptide",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Ipamorelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
+        "price": "\u00a36.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ipamorelin-2mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ipamorelin"
+  },
+  {
+    "id": "mgf-research-peptide",
+    "name": "MGF (2mg)",
+    "slug": "mgf-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "MGF (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/mgf-2mg",
+        "price": "\u00a310.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/mgf-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "mgf"
+  },
+  {
+    "id": "peg-mgf-research-peptide",
+    "name": "PEG-MGF (2mg)",
+    "slug": "peg-mgf-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "PEG-MGF (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/peg-mgf-2mg",
+        "price": "\u00a317.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/peg-mgf-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "peg-mgf"
+  },
+  {
+    "id": "pt-141-research-peptide",
+    "name": "PT-141 (10mg)",
+    "slug": "pt-141-research-peptide",
+    "aliases": [],
+    "category": "melanotans",
+    "description": "PT-141 (10mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg",
+        "price": "\u00a316.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/pt-141-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "pt-141"
+  },
+  {
+    "id": "selank-research-peptide",
+    "name": "Selank (5mg)",
+    "slug": "selank-research-peptide",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Selank (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
+        "price": "\u00a311.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/selank-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "selank"
+  },
+  {
+    "id": "sermorelin-research-peptide",
+    "name": "Sermorelin (2mg)",
+    "slug": "sermorelin-research-peptide",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Sermorelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+        "price": "\u00a39.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/sermorelin-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "sermorelin"
+  },
+  {
+    "id": "snap-8-research-peptide",
+    "name": "Snap-8 (10mg)",
+    "slug": "snap-8-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Snap-8 (10mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/snap-8-10mg",
+        "price": "\u00a310.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/snap-8-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "snap-8"
+  },
+  {
+    "id": "tb-500-2mg-research-peptide",
+    "name": "TB-500 (2mg)",
+    "slug": "tb-500-2mg-research-peptide",
+    "aliases": [],
+    "category": "tb-500",
+    "description": "TB-500 (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/tb-500-2mg-thymosin-beta",
+        "price": "\u00a311.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/tb-500-2mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tb-500"
+  },
+  {
+    "id": "tb-500-5mg-research-peptide",
+    "name": "TB-500 (5mg)",
+    "slug": "tb-500-5mg-research-peptide",
+    "aliases": [],
+    "category": "tb-500",
+    "description": "TB-500 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta",
+        "price": "\u00a324.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/tb-500-5mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tb-500"
+  },
+  {
+    "id": "tesamorelin-research-peptide",
+    "name": "Tesamorelin (2mg)",
+    "slug": "tesamorelin-research-peptide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "Tesamorelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
+        "price": "\u00a327.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/tesamorelin-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tesamorelin"
+  },
+  {
+    "id": "thymalin-20mg-research-peptide",
+    "name": "Thymalin (20mg)",
+    "slug": "thymalin-20mg-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Thymalin (20mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/thymalin-20mg",
+        "price": "\u00a348.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/thymalin-20mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "thymalin"
+  },
+  {
+    "id": "thymalin-5mg-research-peptide",
+    "name": "Thymalin (5mg)",
+    "slug": "thymalin-5mg-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Thymalin (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "For laboratory research purposes only. See product page for details.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Research Peptide",
+        "url": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
+        "price": "\u00a314.95",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/thymalin-5mg-research-peptide.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "thymalin"
   }
 ]
