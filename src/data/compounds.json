@@ -3253,7 +3253,13 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
         "price": "£49.00",
-        "inStock": true
+        "inStock": true,
+        "options": [
+          {
+            "size": "Bundle (multi-pack)",
+            "price": "£113.96"
+          }
+        ]
       },
       {
         "vendor": "Tide Labs",
@@ -3654,6 +3660,12 @@
         "price": "£84.00",
         "inStock": true,
         "image": "/images/products/express-peptides/klow-combo-pen-express.webp"
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/systemic-repair-kit-ghk-bpc-tb-kpv",
+        "price": "£84.99",
+        "inStock": true
       }
     ],
     "longDescription": ""
@@ -3972,6 +3984,12 @@
             "price": "£35.00"
           }
         ]
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/hcg-5000iu/",
+        "price": "£33.00",
+        "inStock": true
       }
     ],
     "longDescription": ""
@@ -4267,33 +4285,7 @@
             "price": "£200.00"
           }
         ]
-      }
-    ],
-    "longDescription": ""
-  },
-  {
-    "id": "nad-500-nasal-spray",
-    "name": "NAD+ 500 mg Nasal Spray",
-    "slug": "nad-500-nasal-spray",
-    "aliases": [
-      "NAD+ 500 NS"
-    ],
-    "category": "nasal-sprays",
-    "description": "NAD+ 500 mg Nasal Spray is a research nasal formulation of nicotinamide adenine dinucleotide for intranasal administration research. Lower dose alternative to the 1000 mg formulation.",
-    "mechanism": "NAD+ serves as an electron carrier in redox reactions and a substrate for sirtuins and PARP enzymes. Intranasal delivery bypasses first-pass metabolism.",
-    "cas": "53-84-9",
-    "molarMass": "663.43 g/mol",
-    "sequence": "",
-    "purity": "≥99%",
-    "form": "Nasal spray (15 mL, 500 mg per spray)",
-    "halfLife": "",
-    "researchAreas": [
-      "Intranasal research",
-      "NAD+ research",
-      "Longevity research"
-    ],
-    "commonDosages": [],
-    "sources": [
+      },
       {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/nad-500-nasal-spray",
@@ -5969,36 +5961,6 @@
     "longDescription": ""
   },
   {
-    "id": "bundle-wolverine-stack",
-    "name": "Bundle Wolverine Stack",
-    "slug": "bundle-wolverine-stack",
-    "aliases": [],
-    "category": "peptide-blends",
-    "description": "Bundle Wolverine Stack — research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/bundle-wolverine-stack/",
-        "price": "£113.96",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Wolverine-Stack.jpg"
-      }
-    ],
-    "faq": [],
-    "longDescription": ""
-  },
-  {
     "id": "bundle-glow-stack",
     "name": "Bundle Glow Stack",
     "slug": "bundle-glow-stack",
@@ -6485,35 +6447,6 @@
         "price": "£10.00",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/gnrh-triptorelin-100mcg-front.png"
-      }
-    ],
-    "faq": [],
-    "longDescription": ""
-  },
-  {
-    "id": "hcg-5000iu",
-    "name": "HCG 5000IU",
-    "slug": "hcg-5000iu",
-    "aliases": [],
-    "category": "research-compounds",
-    "description": "HCG 5000IU — research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/hcg-5000iu/",
-        "price": "£33.00",
-        "inStock": true
       }
     ],
     "faq": [],
@@ -8239,35 +8172,6 @@
     ],
     "faq": [],
     "compareSlug": "kpv",
-    "longDescription": ""
-  },
-  {
-    "id": "systemic-repair-kit-ghk-bpc-tb-kpv",
-    "name": "Systemic Repair Kit KLOW Blend",
-    "slug": "systemic-repair-kit-ghk-bpc-tb-kpv",
-    "aliases": [],
-    "category": "peptide-blends",
-    "description": "Systemic Repair Kit KLOW Blend — research peptide for laboratory use only.",
-    "mechanism": "Under research.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Lyophilized powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/systemic-repair-kit-ghk-bpc-tb-kpv",
-        "price": "£84.99",
-        "inStock": true
-      }
-    ],
-    "faq": [],
     "longDescription": ""
   },
   {
@@ -13478,26 +13382,6 @@
     "faq": []
   },
   {
-    "id": "shilajit",
-    "name": "Shilajit",
-    "slug": "shilajit",
-    "category": "other",
-    "description": "Shilajit is a natural supplement used in research for its potential adaptogenic and rejuvenating properties.",
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": "",
-    "sources": [],
-    "faq": []
-  },
-  {
     "id": "retatrutide-20mg-the-peptide-company",
     "name": "Retatrutide (Reta) 20mg",
     "slug": "retatrutide-20mg-the-peptide-company",
@@ -13820,7 +13704,6 @@
     "id": "shilajit-gummies-the-peptide-company",
     "name": "Himalayan Shilajit Gummies 3000mg",
     "slug": "shilajit-gummies-the-peptide-company",
-    "compareSlug": "shilajit",
     "category": "supplements",
     "description": "Himalayan Shilajit Gummies 3000mg.",
     "aliases": [],
