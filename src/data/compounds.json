@@ -2544,7 +2544,8 @@
         "price": "\u00a317.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "hexarelin",
@@ -2630,7 +2631,8 @@
         "price": "\u00a326.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "ipamorelin",
@@ -2733,7 +2735,8 @@
         "price": "\u00a315.52",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "ghrp-6",
@@ -2831,7 +2834,8 @@
         "price": "\u00a312.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pt-141",
@@ -2929,7 +2933,8 @@
         "price": "\u00a320.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "kisspeptin-10",
@@ -3032,7 +3037,8 @@
         "price": "\u00a329.95",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "cerebrolysin",
@@ -3096,7 +3102,8 @@
         "price": "\u00a372.59",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "p21",
@@ -3159,7 +3166,8 @@
         "price": "\u00a339.93",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "dihexa",
@@ -3233,7 +3241,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "noopept",
@@ -3296,7 +3305,8 @@
         "price": "\u00a321.57",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "phenylpiracetam",
@@ -3358,7 +3368,8 @@
         "price": "\u00a322.00",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pramipexole",
@@ -3421,7 +3432,8 @@
         "price": "\u00a329.37",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "bpc-tb-blend",
@@ -3509,7 +3521,8 @@
         "price": "\u00a336.99",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "gonadorelin",
@@ -3573,7 +3586,8 @@
         "price": "\u00a330.00",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "dsip",
@@ -3674,7 +3688,8 @@
         "price": "\u00a315.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "oxytocin",
@@ -3858,7 +3873,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/glow-combo-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "klow",
@@ -3919,7 +3935,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/klow-combo-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "mazdutide",
@@ -3961,7 +3978,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "snap-8",
@@ -4028,7 +4046,8 @@
         "price": "\u00a320.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "bacteriostatic-water",
@@ -4079,7 +4098,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/bacteriostatic-water-vial-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "nad-plus",
@@ -4164,7 +4184,8 @@
         "price": "\u00a365.84",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "hcg",
@@ -4201,7 +4222,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "hgh-97",
@@ -4238,7 +4260,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pal-ghk",
@@ -4283,7 +4306,8 @@
         "price": "\u00a3Out of stock",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-ipamorelin-blend",
@@ -4328,7 +4352,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/ipamorelin-cjc-combo-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "glow-nasal-spray",
@@ -4365,7 +4390,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "bpc-157-tb-500-nasal-spray",
@@ -4402,7 +4428,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "kisspeptin-nasal-spray",
@@ -4439,7 +4466,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "nad-1000-nasal-spray",
@@ -4477,7 +4505,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "nad-500-nasal-spray",
@@ -4514,7 +4543,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "oxytocin-nasal-spray",
@@ -4551,7 +4581,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pt-141-nasal-spray",
@@ -4589,7 +4620,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "hhb-solution",
@@ -4625,7 +4657,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "shb-solution",
@@ -4661,7 +4694,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "wolverine-stack-20mg",
@@ -4699,7 +4733,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "wolverine-stack-10mg",
@@ -4735,7 +4770,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "hulk-stack",
@@ -4768,7 +4804,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "lipo-c",
@@ -4801,7 +4838,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pinealon",
@@ -4834,7 +4872,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "dermorphin",
@@ -4867,7 +4906,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "slu-pp-332",
@@ -4907,7 +4947,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/slu-pp-332-vial-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "l-carnitine",
@@ -4947,7 +4988,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/l-carnitine-vial-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "5-amino-1mq",
@@ -4999,7 +5041,8 @@
         "price": "\u00a328.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "ll-37",
@@ -5045,7 +5088,8 @@
         "price": "\u00a362.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "thymalin",
@@ -5096,7 +5140,8 @@
         "price": "\u00a324.99",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "vip",
@@ -5148,7 +5193,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/vip-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "aicar",
@@ -5188,7 +5234,8 @@
         "price": "\u00a319.95",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "adamax",
@@ -5227,7 +5274,8 @@
         "price": "\u00a342.50",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "glutathione",
@@ -5273,7 +5321,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/l-glutathione-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pnc-27",
@@ -5306,7 +5355,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pe-22-28",
@@ -5339,7 +5389,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "ahk-cu",
@@ -5391,7 +5442,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/ahk-cu-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "vitamin-b12",
@@ -5424,7 +5476,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "bac-water-10ml",
@@ -5463,7 +5516,8 @@
         "price": "\u00a35.99",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "bac-water-3ml",
@@ -5496,7 +5550,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "cartalax",
@@ -5542,7 +5597,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/cartalax-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "chonliten",
@@ -5575,7 +5631,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "matrixyl-3000",
@@ -5608,7 +5665,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "mgf",
@@ -5661,7 +5719,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/mgf-vial-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "ovagen",
@@ -5694,7 +5753,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "pancragen",
@@ -5727,7 +5787,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "testagen",
@@ -5760,7 +5821,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "vesugen",
@@ -5805,7 +5867,8 @@
         "price": "\u00a344.95",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "bronchogen",
@@ -5838,7 +5901,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "fgl",
@@ -5871,7 +5935,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "melatonin-10mg",
@@ -5908,7 +5973,8 @@
           }
         ]
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "follistatin-344",
@@ -5966,7 +6032,8 @@
         "price": "\u00a362.90",
         "inStock": true
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "ace-031-1mg",
@@ -5994,7 +6061,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "acetic-acid-10ml",
@@ -6023,7 +6091,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/Acetic-Acid_Front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "adamax-5mg",
@@ -6053,7 +6122,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "adamax"
+    "compareSlug": "adamax",
+    "longDescription": ""
   },
   {
     "id": "adipotide-ftpp-5mg",
@@ -6082,7 +6152,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/adipotide-ftpp-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "5-amino-1mq-50mg",
@@ -6112,7 +6183,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "5-amino-1mq"
+    "compareSlug": "5-amino-1mq",
+    "longDescription": ""
   },
   {
     "id": "ara-290-16mg",
@@ -6142,7 +6214,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ara-290"
+    "compareSlug": "ara-290",
+    "longDescription": ""
   },
   {
     "id": "bacteriostatic-water-10ml",
@@ -6177,7 +6250,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bacteriostatic-water-30ml",
@@ -6206,7 +6280,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/bac-water-30ml-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bpc-157-5mg",
@@ -6236,7 +6311,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157"
+    "compareSlug": "bpc-157",
+    "longDescription": ""
   },
   {
     "id": "premium-bpc-157-5mg",
@@ -6266,7 +6342,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157"
+    "compareSlug": "bpc-157",
+    "longDescription": ""
   },
   {
     "id": "bpc-157-5mg-tb500-5mg",
@@ -6296,7 +6373,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend"
+    "compareSlug": "bpc-157-tb-500-blend",
+    "longDescription": ""
   },
   {
     "id": "bundle-gh-stack",
@@ -6325,7 +6403,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/ppuk-bundle-pack-3.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bundle-premium-gh-stack",
@@ -6355,7 +6434,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bundle-gh-stack"
+    "compareSlug": "bundle-gh-stack",
+    "longDescription": ""
   },
   {
     "id": "bundle-wolverine-stack",
@@ -6384,7 +6464,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Wolverine-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bundle-glow-stack",
@@ -6413,7 +6494,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Glow-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bundle-super-stack",
@@ -6442,7 +6524,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Super-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bundle-mito-stack",
@@ -6471,7 +6554,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/09/PPUK-Bundle-Mitro-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "cartalax-20mg",
@@ -6501,7 +6585,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cartalax"
+    "compareSlug": "cartalax",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-with-dac-2mg",
@@ -6530,7 +6615,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/cjc-with-dac-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "dsip-5mg",
@@ -6560,7 +6646,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "dsip"
+    "compareSlug": "dsip",
+    "longDescription": ""
   },
   {
     "id": "epitalon-10mg",
@@ -6590,7 +6677,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "epitalon"
+    "compareSlug": "epitalon",
+    "longDescription": ""
   },
   {
     "id": "follistatin-344-1mg",
@@ -6618,7 +6706,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "fragment-176-191-2mg",
@@ -6648,7 +6737,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "fragment-176-191"
+    "compareSlug": "fragment-176-191",
+    "longDescription": ""
   },
   {
     "id": "fragment-176-191-5mg",
@@ -6678,7 +6768,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "fragment-176-191"
+    "compareSlug": "fragment-176-191",
+    "longDescription": ""
   },
   {
     "id": "premium-ghk-cu-50mg",
@@ -6708,7 +6799,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu"
+    "compareSlug": "ghk-cu",
+    "longDescription": ""
   },
   {
     "id": "ghk-cu-50mg",
@@ -6738,7 +6830,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu"
+    "compareSlug": "ghk-cu",
+    "longDescription": ""
   },
   {
     "id": "ghrp-2-5mg",
@@ -6768,7 +6861,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-2"
+    "compareSlug": "ghrp-2",
+    "longDescription": ""
   },
   {
     "id": "premium-ghrp-2-5mg",
@@ -6798,7 +6892,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-2"
+    "compareSlug": "ghrp-2",
+    "longDescription": ""
   },
   {
     "id": "ghrp-6-5mg",
@@ -6828,7 +6923,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-6"
+    "compareSlug": "ghrp-6",
+    "longDescription": ""
   },
   {
     "id": "premium-ghrp-6-5mg",
@@ -6858,7 +6954,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-6"
+    "compareSlug": "ghrp-6",
+    "longDescription": ""
   },
   {
     "id": "glutathione-1500mg",
@@ -6888,7 +6985,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "glutathione"
+    "compareSlug": "glutathione",
+    "longDescription": ""
   },
   {
     "id": "gnrh-triptorelin-100mcg",
@@ -6917,7 +7015,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/gnrh-triptorelin-100mcg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "hcg-5000iu",
@@ -6945,7 +7044,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "hexarelin-2mg",
@@ -6975,7 +7075,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "hexarelin"
+    "compareSlug": "hexarelin",
+    "longDescription": ""
   },
   {
     "id": "hmg-75iu",
@@ -7003,7 +7104,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "igf-1-lr3-100mcg",
@@ -7033,7 +7135,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-lr3"
+    "compareSlug": "igf-1-lr3",
+    "longDescription": ""
   },
   {
     "id": "igf-1-long-r3-1mg",
@@ -7063,7 +7166,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-lr3"
+    "compareSlug": "igf-1-lr3",
+    "longDescription": ""
   },
   {
     "id": "ipamorelin-2mg",
@@ -7093,7 +7197,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "premium-ipamorelin-2mg",
@@ -7123,7 +7228,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "ipamorelin-5mg",
@@ -7153,7 +7259,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "premium-ipamorelin-5mg",
@@ -7183,7 +7290,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "kisspeptin-5mg",
@@ -7213,7 +7321,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kisspeptin-10"
+    "compareSlug": "kisspeptin-10",
+    "longDescription": ""
   },
   {
     "id": "kpv-5mg",
@@ -7243,7 +7352,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kpv"
+    "compareSlug": "kpv",
+    "longDescription": ""
   },
   {
     "id": "ll-37-5mg",
@@ -7273,7 +7383,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ll-37"
+    "compareSlug": "ll-37",
+    "longDescription": ""
   },
   {
     "id": "modified-grf-1-29-2mg",
@@ -7303,7 +7414,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "premium-mod-grf-1-29-2mg",
@@ -7333,7 +7445,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "premium-mod-grf-5mg",
@@ -7363,7 +7476,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "mots-c-5mg",
@@ -7393,7 +7507,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "mots-c-10mg",
@@ -7423,7 +7538,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "premium-mots-c-10mg",
@@ -7453,7 +7569,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "mots-c-40mg",
@@ -7483,7 +7600,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "nad-500mg",
@@ -7513,7 +7631,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-plus"
+    "compareSlug": "nad-plus",
+    "longDescription": ""
   },
   {
     "id": "peg-mgf-5mg",
@@ -7542,7 +7661,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/peg-mgf-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "pbs-10ml",
@@ -7571,7 +7691,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "pt-141-bremelanotide-10mg",
@@ -7607,7 +7728,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "pt-141-bremelanotide"
+    "compareSlug": "pt-141-bremelanotide",
+    "longDescription": ""
   },
   {
     "id": "selank-5mg",
@@ -7637,7 +7759,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "selank"
+    "compareSlug": "selank",
+    "longDescription": ""
   },
   {
     "id": "n-acetyl-selank-amidate-10mg",
@@ -7667,7 +7790,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "selank"
+    "compareSlug": "selank",
+    "longDescription": ""
   },
   {
     "id": "semax-5mg",
@@ -7697,7 +7821,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "semax"
+    "compareSlug": "semax",
+    "longDescription": ""
   },
   {
     "id": "n-acetyl-semax-amidate-10mg",
@@ -7727,7 +7852,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "semax"
+    "compareSlug": "semax",
+    "longDescription": ""
   },
   {
     "id": "snap-8-10mg",
@@ -7757,7 +7883,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "snap-8"
+    "compareSlug": "snap-8",
+    "longDescription": ""
   },
   {
     "id": "ss-31-10mg",
@@ -7793,7 +7920,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ss-31"
+    "compareSlug": "ss-31",
+    "longDescription": ""
   },
   {
     "id": "ss-31-50mg",
@@ -7823,7 +7951,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ss-31"
+    "compareSlug": "ss-31",
+    "longDescription": ""
   },
   {
     "id": "tesamorelin-2mg",
@@ -7853,7 +7982,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tesamorelin"
+    "compareSlug": "tesamorelin",
+    "longDescription": ""
   },
   {
     "id": "tesamorelin-10mg",
@@ -7883,7 +8013,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tesamorelin"
+    "compareSlug": "tesamorelin",
+    "longDescription": ""
   },
   {
     "id": "thymalin-10mg",
@@ -7913,7 +8044,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymalin"
+    "compareSlug": "thymalin",
+    "longDescription": ""
   },
   {
     "id": "thymalin-20mg",
@@ -7943,7 +8075,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymalin"
+    "compareSlug": "thymalin",
+    "longDescription": ""
   },
   {
     "id": "thymosin-alpha-1-10mg",
@@ -7973,7 +8106,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymosin-alpha-1"
+    "compareSlug": "thymosin-alpha-1",
+    "longDescription": ""
   },
   {
     "id": "thymosin-beta-4-tb500-2mg",
@@ -8003,7 +8137,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500"
+    "compareSlug": "tb-500",
+    "longDescription": ""
   },
   {
     "id": "premium-thymosin-beta-4-tb500-2mg",
@@ -8033,7 +8168,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500"
+    "compareSlug": "tb-500",
+    "longDescription": ""
   },
   {
     "id": "thymosin-beta-4-tb500-5mg",
@@ -8063,7 +8199,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500"
+    "compareSlug": "tb-500",
+    "longDescription": ""
   },
   {
     "id": "premium-thymosin-beta-4-tb500-5mg",
@@ -8093,7 +8230,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500"
+    "compareSlug": "tb-500",
+    "longDescription": ""
   },
   {
     "id": "tp2-10mg",
@@ -8121,7 +8259,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "vip-5mg",
@@ -8151,7 +8290,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "vip"
+    "compareSlug": "vip",
+    "longDescription": ""
   },
   {
     "id": "vesugen-20mg",
@@ -8181,7 +8321,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "vesugen"
+    "compareSlug": "vesugen",
+    "longDescription": ""
   },
   {
     "id": "vilon-20mg",
@@ -8209,7 +8350,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "cardiogen-research-peptide",
@@ -8237,7 +8379,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "vesugen-research-peptide",
@@ -8266,7 +8409,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "vesugen"
+    "compareSlug": "vesugen",
+    "longDescription": ""
   },
   {
     "id": "pancragen-research-peptide",
@@ -8294,7 +8438,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "cortagen-research-peptide",
@@ -8322,7 +8467,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "ahk-cu-100mg",
@@ -8351,7 +8497,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ahk-cu"
+    "compareSlug": "ahk-cu",
+    "longDescription": ""
   },
   {
     "id": "igf1-lr3-1mg",
@@ -8380,7 +8527,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-lr3"
+    "compareSlug": "igf-1-lr3",
+    "longDescription": ""
   },
   {
     "id": "acetic-acid-reconstitution-solvent-10ml",
@@ -8408,7 +8556,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "ara-290-10mg",
@@ -8436,7 +8585,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "hexarelin-5mg",
@@ -8465,7 +8615,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "hexarelin"
+    "compareSlug": "hexarelin",
+    "longDescription": ""
   },
   {
     "id": "ll-37-cathelicidin-5mg",
@@ -8494,7 +8645,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ll-37"
+    "compareSlug": "ll-37",
+    "longDescription": ""
   },
   {
     "id": "snap-8-argireline-10mg",
@@ -8523,7 +8675,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "snap-8"
+    "compareSlug": "snap-8",
+    "longDescription": ""
   },
   {
     "id": "sermorelin-grf-1-29-5mg",
@@ -8552,7 +8705,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "sermorelin"
+    "compareSlug": "sermorelin",
+    "longDescription": ""
   },
   {
     "id": "vip-10mg",
@@ -8581,7 +8735,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "vip"
+    "compareSlug": "vip",
+    "longDescription": ""
   },
   {
     "id": "5-amino-1mq-10mg",
@@ -8610,7 +8765,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "5-amino-1mq"
+    "compareSlug": "5-amino-1mq",
+    "longDescription": ""
   },
   {
     "id": "cognitive-signalling-set-semax-selank",
@@ -8638,7 +8794,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "kpv-5mg-peptide-research",
@@ -8667,7 +8824,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kpv"
+    "compareSlug": "kpv",
+    "longDescription": ""
   },
   {
     "id": "systemic-repair-kit-ghk-bpc-tb-kpv",
@@ -8695,7 +8853,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bpc-157-tb500-bacteriostatic-water-research-kit",
@@ -8724,7 +8883,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend"
+    "compareSlug": "bpc-157-tb-500-blend",
+    "longDescription": ""
   },
   {
     "id": "ghrh-analog-amide",
@@ -8753,7 +8913,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tesamorelin"
+    "compareSlug": "tesamorelin",
+    "longDescription": ""
   },
   {
     "id": "pinealon-research-peptide",
@@ -8781,7 +8942,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "peg-mgf",
@@ -8810,7 +8972,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mgf"
+    "compareSlug": "mgf",
+    "longDescription": ""
   },
   {
     "id": "mots-c-research-peptide",
@@ -8839,7 +9002,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "nad-research-peptide",
@@ -8868,7 +9032,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-plus"
+    "compareSlug": "nad-plus",
+    "longDescription": ""
   },
   {
     "id": "ghrh-fragment-176-191",
@@ -8897,7 +9062,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "fragment-176-191"
+    "compareSlug": "fragment-176-191",
+    "longDescription": ""
   },
   {
     "id": "ipamorelin-5mg-peptide-research",
@@ -8926,7 +9092,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "dsip-delta-sleep-peptide",
@@ -8955,7 +9122,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "dsip"
+    "compareSlug": "dsip",
+    "longDescription": ""
   },
   {
     "id": "epithalon",
@@ -8984,7 +9152,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "epitalon"
+    "compareSlug": "epitalon",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-with-dac",
@@ -9012,7 +9181,8 @@
         "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-no-dac",
@@ -9041,7 +9211,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "bpc-157-research-peptide",
@@ -9070,7 +9241,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157"
+    "compareSlug": "bpc-157",
+    "longDescription": ""
   },
   {
     "id": "bpc-157-10mg-imperial",
@@ -9101,7 +9273,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157"
+    "compareSlug": "bpc-157",
+    "longDescription": ""
   },
   {
     "id": "tb-500-5mg-imperial",
@@ -9132,7 +9305,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500"
+    "compareSlug": "tb-500",
+    "longDescription": ""
   },
   {
     "id": "ipamorelin-5mg-imperial",
@@ -9163,7 +9337,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-no-dac-5mg-imperial",
@@ -9194,7 +9369,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-dac-5mg-imperial",
@@ -9225,7 +9401,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "ghk-cu-50mg-imperial",
@@ -9256,7 +9433,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu"
+    "compareSlug": "ghk-cu",
+    "longDescription": ""
   },
   {
     "id": "semax-5mg-imperial",
@@ -9287,7 +9465,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "semax"
+    "compareSlug": "semax",
+    "longDescription": ""
   },
   {
     "id": "selank-5mg-imperial",
@@ -9318,7 +9497,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "selank"
+    "compareSlug": "selank",
+    "longDescription": ""
   },
   {
     "id": "mt2-10mg-imperial",
@@ -9351,7 +9531,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "melanotan-ii"
+    "compareSlug": "melanotan-ii",
+    "longDescription": ""
   },
   {
     "id": "mots-c-10mg-imperial",
@@ -9382,7 +9563,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "ss-31-10mg-imperial",
@@ -9415,7 +9597,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ss-31"
+    "compareSlug": "ss-31",
+    "longDescription": ""
   },
   {
     "id": "kpv-10mg-imperial",
@@ -9446,7 +9629,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kpv"
+    "compareSlug": "kpv",
+    "longDescription": ""
   },
   {
     "id": "epitalon-10mg-imperial",
@@ -9479,7 +9663,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "epitalon"
+    "compareSlug": "epitalon",
+    "longDescription": ""
   },
   {
     "id": "dsip-10mg-imperial",
@@ -9512,7 +9697,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "dsip"
+    "compareSlug": "dsip",
+    "longDescription": ""
   },
   {
     "id": "storage-container-imperial",
@@ -9542,7 +9728,8 @@
         "image": "/images/products/imperial-peptides/storage-container.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "bpc-157-vial-express",
@@ -9572,7 +9759,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157"
+    "compareSlug": "bpc-157",
+    "longDescription": ""
   },
   {
     "id": "bpc-157-pen-express",
@@ -9602,7 +9790,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157"
+    "compareSlug": "bpc-157",
+    "longDescription": ""
   },
   {
     "id": "tb-500-vial-express",
@@ -9632,7 +9821,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500"
+    "compareSlug": "tb-500",
+    "longDescription": ""
   },
   {
     "id": "tb500-pen-express",
@@ -9662,7 +9852,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tb-500"
+    "compareSlug": "tb-500",
+    "longDescription": ""
   },
   {
     "id": "wolverine-vial-express",
@@ -9692,7 +9883,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend"
+    "compareSlug": "bpc-157-tb-500-blend",
+    "longDescription": ""
   },
   {
     "id": "wolverine-pen-express",
@@ -9722,7 +9914,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend"
+    "compareSlug": "bpc-157-tb-500-blend",
+    "longDescription": ""
   },
   {
     "id": "ghrp-2-vial-express",
@@ -9752,7 +9945,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-2"
+    "compareSlug": "ghrp-2",
+    "longDescription": ""
   },
   {
     "id": "ghrp-2-pen-express",
@@ -9782,7 +9976,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-2"
+    "compareSlug": "ghrp-2",
+    "longDescription": ""
   },
   {
     "id": "ghrp-6-vial-express",
@@ -9812,7 +10007,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-6"
+    "compareSlug": "ghrp-6",
+    "longDescription": ""
   },
   {
     "id": "ghrp-6-pen-express",
@@ -9842,7 +10038,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghrp-6"
+    "compareSlug": "ghrp-6",
+    "longDescription": ""
   },
   {
     "id": "ipamorelin-vial-express",
@@ -9872,7 +10069,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "ipamorelin-pen-express",
@@ -9902,7 +10100,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin"
+    "compareSlug": "ipamorelin",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-vial-express",
@@ -9932,7 +10131,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-pen-express",
@@ -9962,7 +10162,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-dac-vial-express",
@@ -9992,7 +10193,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "cjc-1295-dac-pen-express",
@@ -10022,7 +10224,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cjc-1295"
+    "compareSlug": "cjc-1295",
+    "longDescription": ""
   },
   {
     "id": "hexarelin-vial-express",
@@ -10052,7 +10255,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "hexarelin"
+    "compareSlug": "hexarelin",
+    "longDescription": ""
   },
   {
     "id": "hexarelin-pen-express",
@@ -10082,7 +10286,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "hexarelin"
+    "compareSlug": "hexarelin",
+    "longDescription": ""
   },
   {
     "id": "sermorelin-vial-express",
@@ -10112,7 +10317,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "sermorelin"
+    "compareSlug": "sermorelin",
+    "longDescription": ""
   },
   {
     "id": "sermorelin-pen-express",
@@ -10142,7 +10348,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "sermorelin"
+    "compareSlug": "sermorelin",
+    "longDescription": ""
   },
   {
     "id": "tesamorelin-vial-express",
@@ -10172,7 +10379,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tesamorelin"
+    "compareSlug": "tesamorelin",
+    "longDescription": ""
   },
   {
     "id": "tesamorelin-pen-express",
@@ -10202,7 +10410,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "tesamorelin"
+    "compareSlug": "tesamorelin",
+    "longDescription": ""
   },
   {
     "id": "igf1-lr3-vial-express",
@@ -10232,7 +10441,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-lr3"
+    "compareSlug": "igf-1-lr3",
+    "longDescription": ""
   },
   {
     "id": "igf1-lr3-pen-express",
@@ -10262,7 +10472,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-lr3"
+    "compareSlug": "igf-1-lr3",
+    "longDescription": ""
   },
   {
     "id": "igf1-des-vial-express",
@@ -10292,7 +10503,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-des"
+    "compareSlug": "igf-1-des",
+    "longDescription": ""
   },
   {
     "id": "igf1-des-pen-express",
@@ -10322,7 +10534,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "igf-1-des"
+    "compareSlug": "igf-1-des",
+    "longDescription": ""
   },
   {
     "id": "mgf-vial-express",
@@ -10352,7 +10565,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mgf"
+    "compareSlug": "mgf",
+    "longDescription": ""
   },
   {
     "id": "mgf-pen-express",
@@ -10382,7 +10596,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mgf"
+    "compareSlug": "mgf",
+    "longDescription": ""
   },
   {
     "id": "peg-mgf-vial-express",
@@ -10412,7 +10627,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "peg-mgf"
+    "compareSlug": "peg-mgf",
+    "longDescription": ""
   },
   {
     "id": "peg-mgf-pen-express",
@@ -10442,7 +10658,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "peg-mgf"
+    "compareSlug": "peg-mgf",
+    "longDescription": ""
   },
   {
     "id": "follistatin-vial-express",
@@ -10472,7 +10689,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "follistatin-344"
+    "compareSlug": "follistatin-344",
+    "longDescription": ""
   },
   {
     "id": "follistatin-pen-express",
@@ -10502,7 +10720,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "follistatin-344"
+    "compareSlug": "follistatin-344",
+    "longDescription": ""
   },
   {
     "id": "aod-9604-vial-express",
@@ -10532,7 +10751,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "aod9604"
+    "compareSlug": "aod9604",
+    "longDescription": ""
   },
   {
     "id": "aod-9604-pen-express",
@@ -10562,7 +10782,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "aod9604"
+    "compareSlug": "aod9604",
+    "longDescription": ""
   },
   {
     "id": "fragment-176-191-vial-express",
@@ -10592,7 +10813,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "fragment-176-191"
+    "compareSlug": "fragment-176-191",
+    "longDescription": ""
   },
   {
     "id": "fragment-176-191-pen-express",
@@ -10622,7 +10844,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "fragment-176-191"
+    "compareSlug": "fragment-176-191",
+    "longDescription": ""
   },
   {
     "id": "adipotide-vial-express",
@@ -10652,7 +10875,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "adipotide"
+    "compareSlug": "adipotide",
+    "longDescription": ""
   },
   {
     "id": "adipotide-pen-express",
@@ -10682,7 +10906,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "adipotide"
+    "compareSlug": "adipotide",
+    "longDescription": ""
   },
   {
     "id": "5-amino-1mq-vial-express",
@@ -10712,7 +10937,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "5-amino-1mq"
+    "compareSlug": "5-amino-1mq",
+    "longDescription": ""
   },
   {
     "id": "5-amino-1mq-pen-express",
@@ -10742,7 +10968,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "5-amino-1mq"
+    "compareSlug": "5-amino-1mq",
+    "longDescription": ""
   },
   {
     "id": "mots-c-vial-express",
@@ -10772,7 +10999,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "mots-c-pen-express",
@@ -10802,7 +11030,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "mots-c"
+    "compareSlug": "mots-c",
+    "longDescription": ""
   },
   {
     "id": "ss-31-vial-express",
@@ -10832,7 +11061,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ss-31"
+    "compareSlug": "ss-31",
+    "longDescription": ""
   },
   {
     "id": "ss-31-pen-express",
@@ -10862,7 +11092,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ss-31"
+    "compareSlug": "ss-31",
+    "longDescription": ""
   },
   {
     "id": "nad-vial-express",
@@ -10892,7 +11123,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-plus"
+    "compareSlug": "nad-plus",
+    "longDescription": ""
   },
   {
     "id": "nad-pen-express",
@@ -10922,7 +11154,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-plus"
+    "compareSlug": "nad-plus",
+    "longDescription": ""
   },
   {
     "id": "nad-pen-1000-express",
@@ -10952,7 +11185,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-plus"
+    "compareSlug": "nad-plus",
+    "longDescription": ""
   },
   {
     "id": "nad-pen-5pack-express",
@@ -10982,7 +11216,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-plus"
+    "compareSlug": "nad-plus",
+    "longDescription": ""
   },
   {
     "id": "slu-pp-332-vial-express",
@@ -11012,7 +11247,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "slu-pp-332"
+    "compareSlug": "slu-pp-332",
+    "longDescription": ""
   },
   {
     "id": "pt-141-vial-express",
@@ -11042,7 +11278,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "pt-141"
+    "compareSlug": "pt-141",
+    "longDescription": ""
   },
   {
     "id": "pt-141-pen-express",
@@ -11072,7 +11309,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "pt-141"
+    "compareSlug": "pt-141",
+    "longDescription": ""
   },
   {
     "id": "semax-vial-express",
@@ -11102,7 +11340,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "semax"
+    "compareSlug": "semax",
+    "longDescription": ""
   },
   {
     "id": "semax-pen-express",
@@ -11132,7 +11371,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "semax"
+    "compareSlug": "semax",
+    "longDescription": ""
   },
   {
     "id": "selank-vial-express",
@@ -11162,7 +11402,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "selank"
+    "compareSlug": "selank",
+    "longDescription": ""
   },
   {
     "id": "selank-pen-express",
@@ -11192,7 +11433,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "selank"
+    "compareSlug": "selank",
+    "longDescription": ""
   },
   {
     "id": "ghk-cu-vial-express",
@@ -11222,7 +11464,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu"
+    "compareSlug": "ghk-cu",
+    "longDescription": ""
   },
   {
     "id": "ghk-cu-pen-express",
@@ -11252,7 +11495,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu"
+    "compareSlug": "ghk-cu",
+    "longDescription": ""
   },
   {
     "id": "ahk-cu-pen-express",
@@ -11282,7 +11526,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ahk-cu"
+    "compareSlug": "ahk-cu",
+    "longDescription": ""
   },
   {
     "id": "cartalax-pen-express",
@@ -11312,7 +11557,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "cartalax"
+    "compareSlug": "cartalax",
+    "longDescription": ""
   },
   {
     "id": "l-glutathione-pen-express",
@@ -11342,7 +11588,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "glutathione"
+    "compareSlug": "glutathione",
+    "longDescription": ""
   },
   {
     "id": "dsip-vial-express",
@@ -11372,7 +11619,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "dsip"
+    "compareSlug": "dsip",
+    "longDescription": ""
   },
   {
     "id": "dsip-pen-express",
@@ -11402,7 +11650,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "dsip"
+    "compareSlug": "dsip",
+    "longDescription": ""
   },
   {
     "id": "epithalon-vial-express",
@@ -11432,7 +11681,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "epitalon"
+    "compareSlug": "epitalon",
+    "longDescription": ""
   },
   {
     "id": "epithalon-pen-express",
@@ -11462,7 +11712,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "epitalon"
+    "compareSlug": "epitalon",
+    "longDescription": ""
   },
   {
     "id": "oxytocin-vial-express",
@@ -11492,7 +11743,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "oxytocin"
+    "compareSlug": "oxytocin",
+    "longDescription": ""
   },
   {
     "id": "oxytocin-pen-express",
@@ -11522,7 +11774,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "oxytocin"
+    "compareSlug": "oxytocin",
+    "longDescription": ""
   },
   {
     "id": "ara-290-pen-express",
@@ -11552,7 +11805,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ara-290"
+    "compareSlug": "ara-290",
+    "longDescription": ""
   },
   {
     "id": "kisspeptin-pen-express",
@@ -11582,7 +11836,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kisspeptin-10"
+    "compareSlug": "kisspeptin-10",
+    "longDescription": ""
   },
   {
     "id": "thymosin-alpha1-vial-express",
@@ -11612,7 +11867,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymosin-alpha-1"
+    "compareSlug": "thymosin-alpha-1",
+    "longDescription": ""
   },
   {
     "id": "thymosin-alpha1-pen-express",
@@ -11642,7 +11898,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "thymosin-alpha-1"
+    "compareSlug": "thymosin-alpha-1",
+    "longDescription": ""
   },
   {
     "id": "vip-pen-express",
@@ -11672,7 +11929,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "vip"
+    "compareSlug": "vip",
+    "longDescription": ""
   },
   {
     "id": "kpv-pen-express",
@@ -11702,7 +11960,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "kpv"
+    "compareSlug": "kpv",
+    "longDescription": ""
   },
   {
     "id": "ipam-cjc-nodac-pen-express",
@@ -11732,7 +11991,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin-cjc-1295-no-dac"
+    "compareSlug": "ipamorelin-cjc-1295-no-dac",
+    "longDescription": ""
   },
   {
     "id": "ipam-cjc-dac-pen-express",
@@ -11762,7 +12022,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin-cjc-1295-with-dac"
+    "compareSlug": "ipamorelin-cjc-1295-with-dac",
+    "longDescription": ""
   },
   {
     "id": "ipam-tesa-pen-express",
@@ -11792,7 +12053,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin-tesamorelin"
+    "compareSlug": "ipamorelin-tesamorelin",
+    "longDescription": ""
   },
   {
     "id": "glow-combo-pen-express",
@@ -11822,7 +12084,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu-bpc-157-tb-500"
+    "compareSlug": "ghk-cu-bpc-157-tb-500",
+    "longDescription": ""
   },
   {
     "id": "klow-combo-pen-express",
@@ -11852,7 +12115,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu-bpc-157-tb-500-kpv"
+    "compareSlug": "ghk-cu-bpc-157-tb-500-kpv",
+    "longDescription": ""
   },
   {
     "id": "mq-nad-c-combo-pen-express",
@@ -11882,7 +12146,8 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-5-amino-1mq-mots-c"
+    "compareSlug": "nad-5-amino-1mq-mots-c",
+    "longDescription": ""
   },
   {
     "id": "bac-water-vial-express",
@@ -11911,7 +12176,8 @@
         "image": "/images/products/express-peptides/bac-water-vial-express.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "l-carnitine-vial-express",
@@ -11940,7 +12206,8 @@
         "image": "/images/products/express-peptides/l-carnitine-vial-express.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "longDescription": ""
   },
   {
     "id": "slu-pp-332-pen-express",
@@ -11970,7 +12237,8 @@
         "inStock": true,
         "image": "/images/products/express-peptides/slu-pp-332-pen-express.webp"
       }
-    ]
+    ],
+    "longDescription": ""
   },
   {
     "id": "tesofensine-500mcg-60-capsules",
@@ -11988,7 +12256,18 @@
         "image": "/images/products/research-peptide-uk/tesofensine-500mcg-60-capsules.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "slu-pp-332",
@@ -12006,7 +12285,18 @@
         "image": "/images/products/research-peptide-uk/slu-pp-332.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "kpv-10mg",
@@ -12024,7 +12314,18 @@
         "image": "/images/products/research-peptide-uk/kpv-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ll-37",
@@ -12042,7 +12343,18 @@
         "image": "/images/products/research-peptide-uk/ll-37.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
@@ -12060,7 +12372,18 @@
         "image": "/images/products/research-peptide-uk/tesamorelin-13mg-ipamorelin-3mg-16mg-blend.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "tesofensine-500mcg-100-tablets",
@@ -12078,7 +12401,18 @@
         "image": "/images/products/research-peptide-uk/tesofensine-500mcg-100-tablets.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "cjc-1295-no-dac-5mg-ipamorelin-5mg",
@@ -12096,7 +12430,18 @@
         "image": "/images/products/research-peptide-uk/cjc-1295-no-dac-5mg-ipamorelin-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "bpc-10mg-tb-10mg-20mg",
@@ -12114,7 +12459,18 @@
         "image": "/images/products/research-peptide-uk/bpc-10mg-tb-10mg-20mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ace-031-1mg",
@@ -12132,7 +12488,18 @@
         "image": "/images/products/research-peptide-uk/ace-031-1mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "klow-blend-ghk-cu-bpc157-tb500-kpv",
@@ -12150,7 +12517,18 @@
         "image": "/images/products/research-peptide-uk/klow-blend-ghk-cu-bpc157-tb500-kpv.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "follistatin-344-1mg",
@@ -12168,7 +12546,18 @@
         "image": "/images/products/research-peptide-uk/follistatin-344-1mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "thymosin-alpha-1",
@@ -12186,7 +12575,18 @@
         "image": "/images/products/research-peptide-uk/thymosin-alpha-1.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "gdf-8",
@@ -12204,7 +12604,18 @@
         "image": "/images/products/research-peptide-uk/gdf-8.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "mk-677-ibutamoren-10mg-100-tablets",
@@ -12222,7 +12633,18 @@
         "image": "/images/products/research-peptide-uk/mk-677-ibutamoren-10mg-100-tablets.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "adipotide",
@@ -12240,7 +12662,18 @@
         "image": "/images/products/research-peptide-uk/adipotide.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "nad-500mg",
@@ -12258,7 +12691,18 @@
         "image": "/images/products/research-peptide-uk/nad-500mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "tesamorelin-5mg-ipamorelin-5mg",
@@ -12276,7 +12720,18 @@
         "image": "/images/products/research-peptide-uk/tesamorelin-5mg-ipamorelin-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "gagrilintide-5mg",
@@ -12294,7 +12749,18 @@
         "image": "/images/products/research-peptide-uk/gagrilintide-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "hgh-fragment-176-191-10mg",
@@ -12312,7 +12778,18 @@
         "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "igf-1-lr3-1mg",
@@ -12330,7 +12807,18 @@
         "image": "/images/products/research-peptide-uk/igf-1-lr3-1mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ss-31",
@@ -12348,7 +12836,18 @@
         "image": "/images/products/research-peptide-uk/ss-31.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "tesamorelin",
@@ -12366,7 +12865,18 @@
         "image": "/images/products/research-peptide-uk/tesamorelin.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "igf-1-1-3-1mg",
@@ -12384,7 +12894,18 @@
         "image": "/images/products/research-peptide-uk/igf-1-1-3-1mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "nad-250mg",
@@ -12402,7 +12923,18 @@
         "image": "/images/products/research-peptide-uk/nad-250mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "semax",
@@ -12420,7 +12952,18 @@
         "image": "/images/products/research-peptide-uk/semax.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "myostatin-1mg",
@@ -12438,7 +12981,18 @@
         "image": "/images/products/research-peptide-uk/myostatin-1mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "igf-1-des-1mg",
@@ -12456,7 +13010,18 @@
         "image": "/images/products/research-peptide-uk/igf-1-des-1mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "l-carnitine-600mg",
@@ -12474,7 +13039,18 @@
         "image": "/images/products/research-peptide-uk/l-carnitine-600mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "glutathione-peptide",
@@ -12492,7 +13068,18 @@
         "image": "/images/products/research-peptide-uk/glutathione-peptide.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "glow-blend-ghk-cu-bpc157-tb500",
@@ -12510,7 +13097,18 @@
         "image": "/images/products/research-peptide-uk/glow-blend-ghk-cu-bpc157-tb500.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "mt-1-melanotan-1-acetate-10mg",
@@ -12528,7 +13126,18 @@
         "image": "/images/products/research-peptide-uk/mt-1-melanotan-1-acetate-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "hcg-human-chorionic-gonadotropin",
@@ -12546,7 +13155,18 @@
         "image": "/images/products/research-peptide-uk/hcg-human-chorionic-gonadotropin.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "sermorelin-acetate",
@@ -12564,7 +13184,18 @@
         "image": "/images/products/research-peptide-uk/sermorelin-acetate.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "aod-9604-5mg",
@@ -12582,7 +13213,18 @@
         "image": "/images/products/research-peptide-uk/aod-9604-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ghk-cu",
@@ -12600,7 +13242,18 @@
         "image": "/images/products/research-peptide-uk/ghk-cu.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "kisspeptin",
@@ -12618,7 +13271,18 @@
         "image": "/images/products/research-peptide-uk/kisspeptin.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "bpc-5mg-tb-5mg",
@@ -12636,7 +13300,18 @@
         "image": "/images/products/research-peptide-uk/bpc-5mg-tb-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "5-amino-1mq",
@@ -12654,7 +13329,18 @@
         "image": "/images/products/research-peptide-uk/5-amino-1mq.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "thymalin-10mg",
@@ -12672,7 +13358,18 @@
         "image": "/images/products/research-peptide-uk/thymalin-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "thymosin-beta-4-tb500-10mg",
@@ -12690,7 +13387,18 @@
         "image": "/images/products/research-peptide-uk/thymosin-beta-4-tb500-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "gonadorelin-acetategnrh-2mg",
@@ -12708,7 +13416,18 @@
         "image": "/images/products/research-peptide-uk/gonadorelin-acetategnrh-2mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ipamorelin",
@@ -12726,7 +13445,18 @@
         "image": "/images/products/research-peptide-uk/ipamorelin.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "aicar",
@@ -12744,7 +13474,18 @@
         "image": "/images/products/research-peptide-uk/aicar.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "mt-2-melanotan-2-acetate-10mg",
@@ -12762,7 +13503,18 @@
         "image": "/images/products/research-peptide-uk/mt-2-melanotan-2-acetate-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "thymosin-beta-4-tb500-5mg",
@@ -12780,7 +13532,18 @@
         "image": "/images/products/research-peptide-uk/thymosin-beta-4-tb500-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "oxytocin-acetate",
@@ -12798,7 +13561,18 @@
         "image": "/images/products/research-peptide-uk/oxytocin-acetate.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "melatonin-10mg",
@@ -12816,7 +13590,18 @@
         "image": "/images/products/research-peptide-uk/melatonin-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "bpc-157",
@@ -12834,7 +13619,18 @@
         "image": "/images/products/research-peptide-uk/bpc-157.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "hgh-fragment-176-191-5mg",
@@ -12852,7 +13648,18 @@
         "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "mots-c-mitochondrial-derived-peptide",
@@ -12870,7 +13677,18 @@
         "image": "/images/products/research-peptide-uk/mots-c-mitochondrial-derived-peptide.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "hexarelin-acetate",
@@ -12888,7 +13706,18 @@
         "image": "/images/products/research-peptide-uk/hexarelin-acetate.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "pt-141-10mg",
@@ -12906,7 +13735,18 @@
         "image": "/images/products/research-peptide-uk/pt-141-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "cjc-1295-no-dac-5mg",
@@ -12924,7 +13764,18 @@
         "image": "/images/products/research-peptide-uk/cjc-1295-no-dac-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "cjc-1295-with-dac-2mg",
@@ -12942,7 +13793,18 @@
         "image": "/images/products/research-peptide-uk/cjc-1295-with-dac-2mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "peg-mgf-2mg",
@@ -12960,7 +13822,18 @@
         "image": "/images/products/research-peptide-uk/peg-mgf-2mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "selank-5mg",
@@ -12978,7 +13851,18 @@
         "image": "/images/products/research-peptide-uk/selank-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "dsip-delta-sleep-inducing-peptide",
@@ -12996,7 +13880,18 @@
         "image": "/images/products/research-peptide-uk/dsip-delta-sleep-inducing-peptide.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "epithalon",
@@ -13014,7 +13909,18 @@
         "image": "/images/products/research-peptide-uk/epithalon.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ghrp-6-10mg",
@@ -13032,7 +13938,18 @@
         "image": "/images/products/research-peptide-uk/ghrp-6-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ghrp-2-10mg",
@@ -13050,7 +13967,18 @@
         "image": "/images/products/research-peptide-uk/ghrp-2-10mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "bacteriostatic-water-0-9-benzyl",
@@ -13068,7 +13996,18 @@
         "image": "/images/products/research-peptide-uk/bacteriostatic-water-0-9-benzyl.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "hexarelin-2mg",
@@ -13086,7 +14025,18 @@
         "image": "/images/products/research-peptide-uk/hexarelin-2mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "bacteriostatic-water-0-9-sodium-chloride",
@@ -13104,7 +14054,18 @@
         "image": "/images/products/research-peptide-uk/bacteriostatic-water-0-9-sodium-chloride.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ghrp-6-5mg",
@@ -13122,7 +14083,18 @@
         "image": "/images/products/research-peptide-uk/ghrp-6-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   },
   {
     "id": "ghrp-2-pralmorelin-5mg",
@@ -13140,6 +14112,17 @@
         "image": "/images/products/research-peptide-uk/ghrp-2-pralmorelin-5mg.webp"
       }
     ],
-    "faq": []
+    "faq": [],
+    "aliases": [],
+    "cas": "",
+    "molarMass": "",
+    "sequence": "",
+    "purity": "",
+    "form": "",
+    "halfLife": "",
+    "researchAreas": [],
+    "commonDosages": [],
+    "longDescription": "",
+    "mechanism": ""
   }
 ]

@@ -1,0 +1,5 @@
+Fix: rename "Research Peptide" → "Research Peptides", auto-calculate product counts
+- Added missing 's' to Research Peptides name
+- Card count now uses same dynamic logic as profile page (compounds.json)
+- Pure Peptides UK: 75→74, Tide Labs: 46→32 — mismatches fixed
+- All future supplier additions auto-update both card & profile
