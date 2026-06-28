@@ -39,12 +39,6 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://researchpeptide.co.uk",
-        "price": "\u00a360.00",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a365.60",
@@ -63,7 +57,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/tirzepatide",
         "price": "\u00a381.04",
         "inStock": true
@@ -132,12 +126,6 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/semaglutide",
-        "price": "\u00a340.20",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk/product/semaglutide-20mg/",
         "price": "\u00a349.99",
@@ -156,7 +144,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/semaglutide",
         "price": "\u00a361.04",
         "inStock": true
@@ -223,12 +211,6 @@
         "image": "/images/products/express-peptides/bpc-157-vial-express.webp"
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://researchpeptide.co.uk",
-        "price": "\u00a339.20",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg",
         "price": "\u00a329.99",
@@ -258,7 +240,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/bpc-157-5mg",
         "price": "\u00a313.95",
         "inStock": true
@@ -355,12 +337,6 @@
         "image": "/images/products/express-peptides/tb-500-vial-express.webp"
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/tb-500",
-        "price": "\u00a347.26",
-        "inStock": true
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/tb500-theymalin",
         "price": "\u00a349.99",
@@ -384,7 +360,7 @@
         "image": "/images/products/imperial-peptides/tb-500-5mg.jpg"
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta",
         "price": "\u00a324.95",
         "inStock": true
@@ -486,19 +462,13 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/melanotan-ii",
-        "price": "\u00a327.79",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/melanotan-ii",
         "price": "\u00a328.05",
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/melanotan-ii",
         "price": "\u00a329.13",
         "inStock": true
@@ -594,7 +564,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
         "price": "\u00a37.95",
         "inStock": true
@@ -605,12 +575,6 @@
         "price": "\u00a316.00",
         "inStock": true,
         "image": "/images/products/express-peptides/ghrp-2-vial-express.webp"
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://researchpeptide.co.uk",
-        "price": "\u00a319.20",
-        "inStock": true
       },
       {
         "vendor": "Sterling Peptides",
@@ -743,12 +707,6 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/aod-9604",
-        "price": "\u00a330.88",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a331.20",
@@ -761,7 +719,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/aod-9604",
         "price": "\u00a342.40",
         "inStock": true
@@ -843,15 +801,9 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptides UK",
-        "url": "https://example.com/retatrutide",
-        "price": "\u00a357.68",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/retatrutide",
-        "price": "\u00a358.02",
+        "price": "\u00a357.68",
         "inStock": true
       },
       {
@@ -973,15 +925,9 @@
         "image": "/images/products/imperial-peptides/cjc-1295-no-dac-5mg.jpg"
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
         "price": "\u00a39.95",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/cjc-1295",
-        "price": "\u00a339.35",
         "inStock": true
       },
       {
@@ -1079,12 +1025,6 @@
     "sources": [
       {
         "vendor": "Research Peptide",
-        "url": "https://example.com/igf-1-lr3",
-        "price": "\u00a341.03",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/igf-lr3-1mg",
         "price": "\u00a339.95",
         "inStock": true
@@ -1207,15 +1147,9 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
         "price": "\u00a327.95",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/tesamorelin",
-        "price": "\u00a355.98",
         "inStock": true
       },
       {
@@ -1320,12 +1254,6 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/sermorelin",
-        "price": "\u00a326.20",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial",
         "price": "\u00a326.99",
@@ -1363,7 +1291,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
         "price": "\u00a39.99",
         "inStock": true
@@ -1442,12 +1370,6 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/mots-c",
-        "price": "\u00a336.01",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://example.com/mots-c",
         "price": "\u00a340.69",
@@ -1461,7 +1383,7 @@
         "image": "/images/products/express-peptides/mots-c-vial-express.webp"
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a345.00",
         "inStock": true
@@ -1549,7 +1471,7 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/ss-31",
         "price": "\u00a349.79",
         "inStock": true
@@ -1578,12 +1500,6 @@
         "vendor": "Sterling Peptides",
         "url": "https://example.com/ss-31",
         "price": "\u00a372.61",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/ss-31",
-        "price": "\u00a379.27",
         "inStock": true
       },
       {
@@ -1690,12 +1606,6 @@
       },
       {
         "vendor": "Research Peptide",
-        "url": "https://example.com/ghk-cu",
-        "price": "\u00a319.41",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a320.00",
         "inStock": true
@@ -1836,15 +1746,9 @@
         "image": "/images/products/imperial-peptides/kpv-10mg.jpg"
       },
       {
-        "vendor": "Research Peptides UK",
-        "url": "https://example.com/kpv",
-        "price": "\u00a325.49",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/kpv",
-        "price": "\u00a326.06",
+        "price": "\u00a325.49",
         "inStock": true
       },
       {
@@ -1947,7 +1851,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a355.00",
         "inStock": true
@@ -1958,12 +1862,6 @@
         "price": "\u00a330.00",
         "inStock": true,
         "image": "/images/products/express-peptides/thymosin-alpha-1-vial-express.webp"
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/thymosin-alpha-1",
-        "price": "\u00a370.42",
-        "inStock": true
       },
       {
         "vendor": "Dr P Research",
@@ -2060,7 +1958,7 @@
         "image": "/images/products/express-peptides/epithalon-vial-express.webp"
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
         "price": "\u00a311.95",
         "inStock": true
@@ -2077,12 +1975,6 @@
         "price": "\u00a319.99",
         "inStock": true,
         "image": "/images/products/imperial-peptides/epitalon-10mg.webp"
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/epitalon",
-        "price": "\u00a319.52",
-        "inStock": true
       },
       {
         "vendor": "Dr P Research",
@@ -2192,15 +2084,9 @@
         "image": "/images/products/imperial-peptides/semax-5mg.jpg"
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a327.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/semax",
-        "price": "\u00a329.81",
         "inStock": true
       },
       {
@@ -2294,12 +2180,6 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/selank",
-        "price": "\u00a316.30",
-        "inStock": true
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/selank-nasal-spray",
         "price": "\u00a349.99",
@@ -2324,7 +2204,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
         "price": "\u00a311.95",
         "inStock": true
@@ -2447,7 +2327,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a352.00",
         "inStock": true
@@ -2456,12 +2336,6 @@
         "vendor": "Sterling Peptides",
         "url": "https://example.com/ara-290",
         "price": "\u00a362.81",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/ara-290",
-        "price": "\u00a364.93",
         "inStock": true
       },
       {
@@ -2565,7 +2439,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a338.00",
         "inStock": true
@@ -2574,12 +2448,6 @@
         "vendor": "Sterling Peptides",
         "url": "https://example.com/bpc-157-oral",
         "price": "\u00a342.23",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/bpc-157-oral",
-        "price": "\u00a342.34",
         "inStock": true
       }
     ],
@@ -2659,15 +2527,9 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a334.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/fragment-176-191",
-        "price": "\u00a337.93",
         "inStock": true
       },
       {
@@ -2721,12 +2583,6 @@
       },
       {
         "vendor": "Research Peptide",
-        "url": "https://example.com/hexarelin",
-        "price": "\u00a322.49",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg",
         "price": "\u00a39.95",
         "inStock": true
@@ -2813,12 +2669,6 @@
       },
       {
         "vendor": "Research Peptide",
-        "url": "https://example.com/ipamorelin",
-        "price": "\u00a323.67",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
         "price": "\u00a36.99",
         "inStock": true
@@ -2915,12 +2765,6 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/ghrp-6",
-        "price": "\u00a317.01",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://sterlingpeptides.co.uk",
         "price": "\u00a320.00",
@@ -2939,7 +2783,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg",
         "price": "\u00a37.95",
         "inStock": true
@@ -3057,12 +2901,6 @@
       },
       {
         "vendor": "Research Peptide",
-        "url": "https://example.com/pt-141-bremelanotide",
-        "price": "\u00a343.23",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg",
         "price": "\u00a316.95",
         "inStock": true
@@ -3149,7 +2987,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/kisspeptin-10",
         "price": "\u00a341.46",
         "inStock": true
@@ -3158,12 +2996,6 @@
         "vendor": "Sterling Peptides",
         "url": "https://example.com/kisspeptin-10",
         "price": "\u00a342.54",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/kisspeptin-10",
-        "price": "\u00a350.63",
         "inStock": true
       },
       {
@@ -3248,12 +3080,6 @@
       },
       {
         "vendor": "Research Peptide",
-        "url": "https://example.com/cerebrolysin",
-        "price": "\u00a355.14",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a358.00",
         "inStock": true
@@ -3322,7 +3148,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/p21",
         "price": "\u00a339.27",
         "inStock": true
@@ -3331,12 +3157,6 @@
         "vendor": "The Peptide Company",
         "url": "https://example.com/p21",
         "price": "\u00a339.93",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/p21",
-        "price": "\u00a350.14",
         "inStock": true
       }
     ]
@@ -3372,12 +3192,6 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/dihexa",
-        "price": "\u00a343.56",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://example.com/dihexa",
         "price": "\u00a344.44",
@@ -3390,7 +3204,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/dihexa",
         "price": "\u00a352.80",
         "inStock": true
@@ -3461,12 +3275,6 @@
       {
         "vendor": "Research Peptide",
         "url": "https://example.com/noopept",
-        "price": "\u00a319.95",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://example.com/noopept",
         "price": "\u00a320.07",
         "inStock": true
       },
@@ -3521,12 +3329,6 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/phenylpiracetam",
-        "price": "\u00a316.52",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/phenylpiracetam",
         "price": "\u00a318.50",
@@ -3551,7 +3353,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a322.00",
         "inStock": true
@@ -3590,19 +3392,13 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/pramipexole",
-        "price": "\u00a319.55",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://example.com/pramipexole",
         "price": "\u00a321.70",
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a325.00",
         "inStock": true
@@ -3698,12 +3494,6 @@
       {
         "vendor": "Research Peptide",
         "url": "https://example.com/bpc-157-tb-500-blend",
-        "price": "\u00a359.49",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://example.com/bpc-157-tb-500-blend",
         "price": "\u00a367.39",
         "inStock": true
       },
@@ -3760,7 +3550,7 @@
         "inStock": true
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://example.com/gonadorelin",
         "price": "\u00a327.05",
         "inStock": true
@@ -3781,12 +3571,6 @@
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk",
         "price": "\u00a330.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/gonadorelin",
-        "price": "\u00a331.02",
         "inStock": true
       }
     ]
@@ -3830,12 +3614,6 @@
         "image": "/images/products/express-peptides/dsip-vial-express.webp"
       },
       {
-        "vendor": "Research Peptide",
-        "url": "https://example.com/dsip",
-        "price": "\u00a324.67",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://example.com/dsip",
         "price": "\u00a325.20",
@@ -3854,7 +3632,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
         "price": "\u00a311.95",
         "inStock": true
@@ -3951,12 +3729,6 @@
       },
       {
         "vendor": "Research Peptide",
-        "url": "https://example.com/oxytocin",
-        "price": "\u00a314.50",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a315.00",
         "inStock": true
@@ -4239,7 +4011,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/snap-8-10mg",
         "price": "\u00a310.95",
         "inStock": true
@@ -4295,7 +4067,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/10ml-bacteriostatic-water",
         "price": "\u00a34.95",
         "inStock": true
@@ -4506,7 +4278,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/pal-ghk-10mg",
         "price": "\u00a3Out of stock",
         "inStock": true
@@ -5307,7 +5079,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
         "price": "\u00a314.95",
         "inStock": true
@@ -5411,7 +5183,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/aicar-50mg",
         "price": "\u00a319.95",
         "inStock": true
@@ -5871,7 +5643,7 @@
         ]
       },
       {
-        "vendor": "Research Peptides UK",
+        "vendor": "Research Peptide",
         "url": "https://www.researchpeptides.co.uk/product-page/mgf-2mg",
         "price": "\u00a310.95",
         "inStock": true
@@ -6184,12 +5956,6 @@
       },
       {
         "vendor": "Research Peptide",
-        "url": "https://researchpeptide.co.uk/product/follistatin-344-1mg/",
-        "price": "\\u00a375.99",
-        "inStock": false
-      },
-      {
-        "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg",
         "price": "\\u00a339.95",
         "inStock": true
@@ -6201,132 +5967,6 @@
         "inStock": true
       }
     ]
-  },
-  {
-    "id": "ace-031-1mg-1",
-    "name": "ACE-031 1mg",
-    "slug": "ace-031-1mg-1",
-    "aliases": [],
-    "category": "other",
-    "description": "ACE-031 1mg \u2014 research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [],
-    "faq": []
-  },
-  {
-    "id": "acetic-acid-10ml-1",
-    "name": "Acetic Acid 10ml",
-    "slug": "acetic-acid-10ml-1",
-    "aliases": [],
-    "category": "other",
-    "description": "Acetic Acid 10ml \u2014 research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [],
-    "faq": []
-  },
-  {
-    "id": "gnrh-triptorelin-100mcg-1",
-    "name": "GnRH Triptorelin 100mcg",
-    "slug": "gnrh-triptorelin-100mcg-1",
-    "aliases": [],
-    "category": "other",
-    "description": "GnRH Triptorelin 100mcg \u2014 research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [],
-    "faq": []
-  },
-  {
-    "id": "hcg-5000iu-1",
-    "name": "HCG 5000IU",
-    "slug": "hcg-5000iu-1",
-    "aliases": [],
-    "category": "other",
-    "description": "HCG 5000IU \u2014 research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [],
-    "faq": []
-  },
-  {
-    "id": "hmg-75iu-1",
-    "name": "HMG 75IU",
-    "slug": "hmg-75iu-1",
-    "aliases": [],
-    "category": "other",
-    "description": "HMG 75IU \u2014 research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [],
-    "faq": []
-  },
-  {
-    "id": "vilon-20mg-1",
-    "name": "Vilon 20mg",
-    "slug": "vilon-20mg-1",
-    "aliases": [],
-    "category": "other",
-    "description": "Vilon 20mg \u2014 research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [],
-    "faq": []
   },
   {
     "id": "ace-031-1mg",
@@ -7847,7 +7487,7 @@
   },
   {
     "id": "nad-500mg",
-    "name": "NAD+ 500mg",
+    "name": "NAD+",
     "slug": "nad-500mg",
     "aliases": [],
     "category": "cellular-peptides",
@@ -12333,932 +11973,1173 @@
     ]
   },
   {
-    "id": "bac-water-research-peptide",
-    "name": "Bacteriostatic Water 10ml",
-    "slug": "bac-water-research-peptide",
-    "aliases": [],
-    "category": "supplies",
-    "description": "Bacteriostatic Water 10ml by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "tesofensine-500mcg-60-capsules",
+    "name": "Tesofensine 500mcg (60 Capsules)",
+    "slug": "tesofensine-500mcg-60-capsules",
+    "compareSlug": "tesofensine",
+    "category": "research-compounds",
+    "description": "Tesofensine 500mcg capsules for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/10ml-bacteriostatic-water",
-        "price": "\u00a34.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/tesofensine-500mcg-60-capsules/",
+        "price": "\u00a3169.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/bac-water-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/tesofensine-500mcg-60-capsules.webp"
       }
     ],
     "faq": []
   },
   {
-    "id": "ace031-research-peptide",
-    "name": "ACE-031 (1mg)",
-    "slug": "ace031-research-peptide",
-    "aliases": [],
+    "id": "slu-pp-332",
+    "name": "SLU-PP-332",
+    "slug": "slu-pp-332",
+    "compareSlug": "slu-pp-332",
     "category": "research-compounds",
-    "description": "ACE-031 (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "SLU-PP-332 for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/ace031-1mg",
-        "price": "\u00a339.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/slu-pp-332/",
+        "price": "\u00a380.00 \u2013 \u00a3125.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/ace031-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/slu-pp-332.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "ace-031"
+    "faq": []
   },
   {
-    "id": "aicar-research-peptide",
-    "name": "AICAR (50mg)",
-    "slug": "aicar-research-peptide",
-    "aliases": [],
+    "id": "kpv-10mg",
+    "name": "KPV 10mg",
+    "slug": "kpv-10mg",
+    "compareSlug": "kpv",
     "category": "research-compounds",
-    "description": "AICAR (50mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "KPV 10mg peptide for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/aicar-50mg",
-        "price": "\u00a319.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/kpv/",
+        "price": "\u00a325.00 \u2013 \u00a3120.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/aicar-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/kpv-10mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "aicar"
+    "faq": []
   },
   {
-    "id": "bpc-157-5mg-research-peptide",
-    "name": "BPC-157 (5mg)",
-    "slug": "bpc-157-5mg-research-peptide",
-    "aliases": [],
-    "category": "thymosin-bpc",
-    "description": "BPC-157 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "ll-37",
+    "name": "LL-37",
+    "slug": "ll-37",
+    "compareSlug": "ll-37",
+    "category": "research-compounds",
+    "description": "LL-37 peptide for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/bpc-157-5mg",
-        "price": "\u00a313.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ll-37/",
+        "price": "\u00a3104.50",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/bpc-157-5mg-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/ll-37.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "bpc-157"
+    "faq": []
   },
   {
-    "id": "cjc-nodac-research-peptide",
-    "name": "CJC-1295 No DAC (2mg)",
-    "slug": "cjc-nodac-research-peptide",
-    "aliases": [],
+    "id": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+    "name": "Tesamorelin 13mg | Ipamorelin 3mg (16mg Blend)",
+    "slug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+    "compareSlug": "tesamorelin",
     "category": "growth-factors",
-    "description": "CJC-1295 No DAC (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "Tesamorelin and Ipamorelin peptide blend for research.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
-        "price": "\u00a39.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/tesamorelin-13mg-ipamorelin-3mg-16mg-blend/",
+        "price": "\u00a3100.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/cjc-nodac-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/tesamorelin-13mg-ipamorelin-3mg-16mg-blend.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "cjc-1295"
+    "faq": []
   },
   {
-    "id": "cjc-dac-research-peptide",
-    "name": "CJC-1295 DAC (2mg)",
-    "slug": "cjc-dac-research-peptide",
-    "aliases": [],
+    "id": "tesofensine-500mcg-100-tablets",
+    "name": "Tesofensine 500mcg (100 Tablets)",
+    "slug": "tesofensine-500mcg-100-tablets",
+    "compareSlug": "tesofensine",
+    "category": "research-compounds",
+    "description": "Tesofensine 500mcg tablets for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/",
+        "price": "\u00a399.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/tesofensine-500mcg-100-tablets.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "cjc-1295-no-dac-5mg-ipamorelin-5mg",
+    "name": "CJC-1295 No DAC 5mg, Ipamorelin 5mg (10mg Blend)",
+    "slug": "cjc-1295-no-dac-5mg-ipamorelin-5mg",
+    "compareSlug": "cjc-1295",
+    "category": "ghrps",
+    "description": "CJC-1295 and Ipamorelin peptide blend for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg-ipamorelin-5mg/",
+        "price": "\u00a390.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/cjc-1295-no-dac-5mg-ipamorelin-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "bpc-10mg-tb-10mg-20mg",
+    "name": "BPC 157 10mg + TB-500 10mg (20mg) \u2013 Wolverine Blend",
+    "slug": "bpc-10mg-tb-10mg-20mg",
+    "compareSlug": "bpc-157",
+    "category": "bpc-tb-500",
+    "description": "BPC-157 and TB-500 peptide blend for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/bpc-10mg-tb-10mg-20mg/",
+        "price": "\u00a380.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/bpc-10mg-tb-10mg-20mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ace-031-1mg",
+    "name": "Ace 031 1mg",
+    "slug": "ace-031-1mg",
+    "compareSlug": "ace-031",
+    "category": "research-compounds",
+    "description": "Ace 031 1mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ace-031-1mg/",
+        "price": "\u00a379.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ace-031-1mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "name": "Klow Blend (GHK-CU/BPC157/TB500/KPV)",
+    "slug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "compareSlug": "ghk-cu",
+    "category": "research-compounds",
+    "description": "Klow Blend peptide complex for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/klow-blend-ghk-cu-bpc157-tb500-kpv/",
+        "price": "\u00a379.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/klow-blend-ghk-cu-bpc157-tb500-kpv.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "follistatin-344-1mg",
+    "name": "Follistatin 344 1mg",
+    "slug": "follistatin-344-1mg",
+    "compareSlug": "follistatin",
     "category": "growth-factors",
-    "description": "CJC-1295 DAC (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "Follistatin 344 1mg for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/cjc-1295-dac-2mg",
-        "price": "\u00a316.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/follistatin-344-1mg/",
+        "price": "\u00a375.99",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/cjc-dac-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/follistatin-344-1mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "cjc-1295"
+    "faq": []
   },
   {
-    "id": "dsip-research-peptide",
-    "name": "DSIP (5mg)",
-    "slug": "dsip-research-peptide",
-    "aliases": [],
+    "id": "thymosin-alpha-1",
+    "name": "Thymosin Alpha-1",
+    "slug": "thymosin-alpha-1",
+    "compareSlug": "thymosin-alpha-1",
     "category": "research-compounds",
-    "description": "DSIP (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "Thymosin Alpha-1 peptide for research.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
-        "price": "\u00a311.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/thymosin-alpha-1/",
+        "price": "\u00a370.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/dsip-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/thymosin-alpha-1.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "dsip"
+    "faq": []
   },
   {
-    "id": "epitalon-research-peptide",
-    "name": "Epitalon (10mg)",
-    "slug": "epitalon-research-peptide",
-    "aliases": [],
+    "id": "gdf-8",
+    "name": "GDF-8",
+    "slug": "gdf-8",
+    "compareSlug": "gdf-8",
     "category": "research-compounds",
-    "description": "Epitalon (10mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "GDF-8 (Myostatin) for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
-        "price": "\u00a311.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/gdf-8/",
+        "price": "\u00a370.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/epitalon-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/gdf-8.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "epitalon"
+    "faq": []
   },
   {
-    "id": "follistatin-research-peptide",
-    "name": "Follistatin (1mg)",
-    "slug": "follistatin-research-peptide",
-    "aliases": [],
+    "id": "mk-677-ibutamoren-10mg-100-tablets",
+    "name": "MK-677 / Ibutamoren 10mg (100 Tablets)",
+    "slug": "mk-677-ibutamoren-10mg-100-tablets",
+    "compareSlug": "mk-677",
+    "category": "research-compounds",
+    "description": "MK-677 (Ibutamoren) 10mg tablets for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/mk-677-ibutamoren-10mg-100-tablets/",
+        "price": "\u00a370.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/mk-677-ibutamoren-10mg-100-tablets.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "adipotide",
+    "name": "Adipotide 2mg",
+    "slug": "adipotide",
+    "compareSlug": "adipotide",
+    "category": "research-compounds",
+    "description": "Adipotide (FTPP) for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/adipotide/",
+        "price": "\u00a366.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/adipotide.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "nad-500mg",
+    "name": "NAD+ 500mg",
+    "slug": "nad-500mg",
+    "compareSlug": "nad",
+    "category": "research-compounds",
+    "description": "NAD+ 500mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/nad-500mg/",
+        "price": "\u00a365.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/nad-500mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "tesamorelin-5mg-ipamorelin-5mg",
+    "name": "Tesamorelin 5mg | Ipamorelin 5mg (10mg Blend)",
+    "slug": "tesamorelin-5mg-ipamorelin-5mg",
+    "compareSlug": "tesamorelin",
     "category": "growth-factors",
-    "description": "Follistatin (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "Tesamorelin and Ipamorelin peptide blend for research.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg",
-        "price": "\u00a339.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/tesamorelin-5mg-ipamorelin-5mg/",
+        "price": "\u00a360.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/follistatin-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/tesamorelin-5mg-ipamorelin-5mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "follistatin-344"
+    "faq": []
   },
   {
-    "id": "ftpp-research-peptide",
-    "name": "FTPP Adipotide (2mg)",
-    "slug": "ftpp-research-peptide",
-    "aliases": [],
+    "id": "gagrilintide-5mg",
+    "name": "Gagrilintide 5mg",
+    "slug": "gagrilintide-5mg",
+    "compareSlug": "gagrilintide",
     "category": "research-compounds",
-    "description": "FTPP Adipotide (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "Gagrilintide 5mg for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/ftpp-adipotide-2mg",
-        "price": "\u00a329.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/gagrilintide-5mg/",
+        "price": "\u00a359.99",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/ftpp-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/gagrilintide-5mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "adipotide"
+    "faq": []
   },
   {
-    "id": "gdf8-research-peptide",
-    "name": "GDF-8 (1mg)",
-    "slug": "gdf8-research-peptide",
-    "aliases": [],
-    "category": "research-compounds",
-    "description": "GDF-8 (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "hgh-fragment-176-191-10mg",
+    "name": "HGH Fragment 176-191 10mg",
+    "slug": "hgh-fragment-176-191-10mg",
+    "compareSlug": "hgh-frag-176-191",
+    "category": "growth-factors",
+    "description": "HGH Fragment 176-191 10mg for research.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/gdf-8-1mg",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/hgh-fragment-176-191-10mg/",
+        "price": "\u00a359.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "igf-1-lr3-1mg",
+    "name": "IGF-1 LR3 1mg",
+    "slug": "igf-1-lr3-1mg",
+    "compareSlug": "igf-1-lr3",
+    "category": "growth-factors",
+    "description": "IGF-1 LR3 1mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/igf-1-lr3-1mg/",
+        "price": "\u00a359.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/igf-1-lr3-1mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ss-31",
+    "name": "SS-31",
+    "slug": "ss-31",
+    "compareSlug": "ss-31",
+    "category": "research-compounds",
+    "description": "SS-31 peptide for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ss-31/",
+        "price": "\u00a359.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ss-31.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "tesamorelin",
+    "name": "Tesamorelin",
+    "slug": "tesamorelin",
+    "compareSlug": "tesamorelin",
+    "category": "growth-factors",
+    "description": "Tesamorelin peptide for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/tesamorelin/",
+        "price": "\u00a329.00 \u2013 \u00a359.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/tesamorelin.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "igf-1-1-3-1mg",
+    "name": "IGF-1 (1-3) 1mg",
+    "slug": "igf-1-1-3-1mg",
+    "compareSlug": "igf-1-1-3",
+    "category": "growth-factors",
+    "description": "IGF-1 (1-3) 1mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/",
+        "price": "\u00a359.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/igf-1-1-3-1mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "nad-250mg",
+    "name": "NAD+ 250mg",
+    "slug": "nad-250mg",
+    "compareSlug": "nad",
+    "category": "research-compounds",
+    "description": "NAD+ 250mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/nad-250mg/",
+        "price": "\u00a350.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/nad-250mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "semax",
+    "name": "Semax",
+    "slug": "semax",
+    "compareSlug": "semax",
+    "category": "research-compounds",
+    "description": "Semax peptide for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/semax/",
+        "price": "\u00a335.00 \u2013 \u00a350.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/semax.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "myostatin-1mg",
+    "name": "Myostatin 1mg",
+    "slug": "myostatin-1mg",
+    "compareSlug": "myostatin",
+    "category": "research-compounds",
+    "description": "Myostatin 1mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/myostatin-1mg/",
+        "price": "\u00a350.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/myostatin-1mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "igf-1-des-1mg",
+    "name": "IGF-1 DES 1mg",
+    "slug": "igf-1-des-1mg",
+    "compareSlug": "igf-1-des",
+    "category": "growth-factors",
+    "description": "IGF-1 DES 1mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/igf-1-des-1mg/",
+        "price": "\u00a350.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/igf-1-des-1mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "l-carnitine-600mg",
+    "name": "L-Carnitine 600mg",
+    "slug": "l-carnitine-600mg",
+    "compareSlug": "l-carnitine",
+    "category": "research-compounds",
+    "description": "L-Carnitine 600mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/l-carnitine-600mg/",
         "price": "\u00a349.99",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/gdf8-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/l-carnitine-600mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "gdf-8"
+    "faq": []
   },
   {
-    "id": "ghrp-2-research-peptide",
-    "name": "GHRP-2 (5mg)",
-    "slug": "ghrp-2-research-peptide",
-    "aliases": [],
-    "category": "ghrp",
-    "description": "GHRP-2 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "glutathione-peptide",
+    "name": "Glutathione Peptide",
+    "slug": "glutathione-peptide",
+    "compareSlug": "glutathione",
+    "category": "research-compounds",
+    "description": "Glutathione peptide for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
-        "price": "\u00a37.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/glutathione-peptide/",
+        "price": "\u00a345.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/ghrp-2-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/glutathione-peptide.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "ghrp-2"
+    "faq": []
   },
   {
-    "id": "ghrp-6-research-peptide",
-    "name": "GHRP-6 (5mg)",
-    "slug": "ghrp-6-research-peptide",
-    "aliases": [],
-    "category": "ghrp",
-    "description": "GHRP-6 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "glow-blend-ghk-cu-bpc157-tb500",
+    "name": "Glow Blend (GHK-CU/BPC157/TB500)",
+    "slug": "glow-blend-ghk-cu-bpc157-tb500",
+    "compareSlug": "ghk-cu",
+    "category": "research-compounds",
+    "description": "Glow Blend peptide complex for research.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg",
-        "price": "\u00a37.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/glow-blend-ghk-cu-bpc157-tb500/",
+        "price": "\u00a345.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/ghrp-6-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/glow-blend-ghk-cu-bpc157-tb500.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "ghrp-6"
+    "faq": []
   },
   {
-    "id": "hexarelin-research-peptide",
-    "name": "Hexarelin (2mg)",
-    "slug": "hexarelin-research-peptide",
-    "aliases": [],
-    "category": "ghrp",
-    "description": "Hexarelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg",
-        "price": "\u00a39.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/hexarelin-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "hexarelin"
-  },
-  {
-    "id": "frag-176-2mg-research-peptide",
-    "name": "HGH Fragment 176-191 (2mg)",
-    "slug": "frag-176-2mg-research-peptide",
-    "aliases": [],
-    "category": "aod-fragments",
-    "description": "HGH Fragment 176-191 (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/hgh-frag-176-191-2mg",
-        "price": "\u00a312.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/frag-176-2mg-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "fragment-176-191"
-  },
-  {
-    "id": "frag-176-5mg-research-peptide",
-    "name": "HGH Fragment 176-191 (5mg)",
-    "slug": "frag-176-5mg-research-peptide",
-    "aliases": [],
-    "category": "aod-fragments",
-    "description": "HGH Fragment 176-191 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/hgh-frag-176-191-5mg",
-        "price": "\u00a319.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/frag-176-5mg-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "fragment-176-191"
-  },
-  {
-    "id": "igf1-des-research-peptide",
-    "name": "IGF-1 DES (1mg)",
-    "slug": "igf1-des-research-peptide",
-    "aliases": [],
-    "category": "growth-factors",
-    "description": "IGF-1 DES (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/igf-1des-1mg",
-        "price": "\u00a334.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/igf1-des-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-des"
-  },
-  {
-    "id": "igf1-lr3-research-peptide",
-    "name": "IGF-1 LR3 (1mg)",
-    "slug": "igf1-lr3-research-peptide",
-    "aliases": [],
-    "category": "growth-factors",
-    "description": "IGF-1 LR3 (1mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/igf-lr3-1mg",
-        "price": "\u00a339.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/igf1-lr3-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-lr3"
-  },
-  {
-    "id": "ipamorelin-5mg-research-peptide",
-    "name": "Ipamorelin (5mg)",
-    "slug": "ipamorelin-5mg-research-peptide",
-    "aliases": [],
-    "category": "ghrp",
-    "description": "Ipamorelin (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/ipamorelin-5mg",
-        "price": "\u00a314.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/ipamorelin-5mg-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "ipamorelin"
-  },
-  {
-    "id": "ipamorelin-2mg-research-peptide",
-    "name": "Ipamorelin (2mg)",
-    "slug": "ipamorelin-2mg-research-peptide",
-    "aliases": [],
-    "category": "ghrp",
-    "description": "Ipamorelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
-        "price": "\u00a36.99",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/ipamorelin-2mg-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "ipamorelin"
-  },
-  {
-    "id": "mgf-research-peptide",
-    "name": "MGF (2mg)",
-    "slug": "mgf-research-peptide",
-    "aliases": [],
-    "category": "growth-factors",
-    "description": "MGF (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/mgf-2mg",
-        "price": "\u00a310.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/mgf-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "mgf"
-  },
-  {
-    "id": "peg-mgf-research-peptide",
-    "name": "PEG-MGF (2mg)",
-    "slug": "peg-mgf-research-peptide",
-    "aliases": [],
-    "category": "growth-factors",
-    "description": "PEG-MGF (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/peg-mgf-2mg",
-        "price": "\u00a317.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/peg-mgf-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "peg-mgf"
-  },
-  {
-    "id": "pt-141-research-peptide",
-    "name": "PT-141 (10mg)",
-    "slug": "pt-141-research-peptide",
-    "aliases": [],
+    "id": "mt-1-melanotan-1-acetate-10mg",
+    "name": "MT-1 (Melanotan 1) 10mg",
+    "slug": "mt-1-melanotan-1-acetate-10mg",
+    "compareSlug": "mt-1",
     "category": "melanotans",
-    "description": "PT-141 (10mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "description": "MT-1 (Melanotan 1) 10mg for research.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg",
-        "price": "\u00a316.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/mt-1-melanotan-1-acetate-10mg/",
+        "price": "\u00a345.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/pt-141-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/mt-1-melanotan-1-acetate-10mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "pt-141"
+    "faq": []
   },
   {
-    "id": "selank-research-peptide",
-    "name": "Selank (5mg)",
-    "slug": "selank-research-peptide",
-    "aliases": [],
-    "category": "cognitive",
-    "description": "Selank (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "hcg-human-chorionic-gonadotropin",
+    "name": "HCG (Human Chorionic Gonadotropin) 5000iu",
+    "slug": "hcg-human-chorionic-gonadotropin",
+    "compareSlug": "hcg",
+    "category": "research-compounds",
+    "description": "HCG 5000iu for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
-        "price": "\u00a311.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/hcg-human-chorionic-gonadotropin/",
+        "price": "\u00a345.00",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/selank-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/hcg-human-chorionic-gonadotropin.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "selank"
+    "faq": []
   },
   {
-    "id": "sermorelin-research-peptide",
-    "name": "Sermorelin (2mg)",
-    "slug": "sermorelin-research-peptide",
-    "aliases": [],
-    "category": "ghrp",
-    "description": "Sermorelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "sermorelin-acetate",
+    "name": "Sermorelin Acetate",
+    "slug": "sermorelin-acetate",
+    "compareSlug": "sermorelin",
+    "category": "ghrps",
+    "description": "Sermorelin Acetate for research.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/sermorelin-acetate/",
+        "price": "\u00a329.00 \u2013 \u00a345.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/sermorelin-acetate.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "aod-9604-5mg",
+    "name": "AOD 9604 5mg",
+    "slug": "aod-9604-5mg",
+    "compareSlug": "aod-9604",
+    "category": "research-compounds",
+    "description": "AOD-9604 5mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/aod-9604-5mg/",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/aod-9604-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ghk-cu",
+    "name": "GHK-CU",
+    "slug": "ghk-cu",
+    "compareSlug": "ghk-cu",
+    "category": "research-compounds",
+    "description": "GHK-CU peptide for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ghk-cu/",
+        "price": "\u00a325.00 \u2013 \u00a340.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ghk-cu.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "kisspeptin",
+    "name": "KissPeptin",
+    "slug": "kisspeptin",
+    "compareSlug": "kisspeptin",
+    "category": "research-compounds",
+    "description": "Kisspeptin peptide for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/kisspeptin/",
+        "price": "\u00a330.00 \u2013 \u00a340.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/kisspeptin.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "bpc-5mg-tb-5mg",
+    "name": "BPC 5mg + TB 5mg",
+    "slug": "bpc-5mg-tb-5mg",
+    "compareSlug": "bpc-157",
+    "category": "bpc-tb-500",
+    "description": "BPC-157 and TB-500 blend for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/bpc-5mg-tb-5mg/",
+        "price": "\u00a340.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/bpc-5mg-tb-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "5-amino-1mq",
+    "name": "5-amino-1MQ",
+    "slug": "5-amino-1mq",
+    "compareSlug": "5-amino-1mq",
+    "category": "research-compounds",
+    "description": "5-amino-1MQ for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/5-amino-1mq/",
+        "price": "\u00a340.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/5-amino-1mq.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "thymalin-10mg",
+    "name": "Thymalin 10mg",
+    "slug": "thymalin-10mg",
+    "compareSlug": "thymalin",
+    "category": "research-compounds",
+    "description": "Thymalin 10mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/thymalin-10mg/",
+        "price": "\u00a340.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/thymalin-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "thymosin-beta-4-tb500-10mg",
+    "name": "Thymosin Beta 4 (TB500) 10mg",
+    "slug": "thymosin-beta-4-tb500-10mg",
+    "compareSlug": "tb-500",
+    "category": "bpc-tb-500",
+    "description": "Thymosin Beta 4 (TB500) 10mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/thymosin-beta-4-tb500-10mg/",
+        "price": "\u00a340.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/thymosin-beta-4-tb500-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "gonadorelin-acetategnrh-2mg",
+    "name": "Gonadorelin Acetate (GnRH) 2mg",
+    "slug": "gonadorelin-acetategnrh-2mg",
+    "compareSlug": "gonadorelin",
+    "category": "research-compounds",
+    "description": "Gonadorelin Acetate 2mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/gonadorelin-acetategnrh-2mg/",
+        "price": "\u00a340.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/gonadorelin-acetategnrh-2mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ipamorelin",
+    "name": "Ipamorelin",
+    "slug": "ipamorelin",
+    "compareSlug": "ipamorelin",
+    "category": "ghrps",
+    "description": "Ipamorelin peptide for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ipamorelin-5mg-10mg/",
+        "price": "\u00a320.99 \u2013 \u00a339.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ipamorelin.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "aicar",
+    "name": "AICAR",
+    "slug": "aicar",
+    "compareSlug": "aicar",
+    "category": "research-compounds",
+    "description": "AICAR for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/aicar/",
+        "price": "\u00a339.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/aicar.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "mt-2-melanotan-2-acetate-10mg",
+    "name": "MT-2 (Melanotan 2) 10mg",
+    "slug": "mt-2-melanotan-2-acetate-10mg",
+    "compareSlug": "melanotan-ii",
+    "category": "melanotans",
+    "description": "MT-2 (Melanotan 2) 10mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/mt-2-melanotan-2-acetate-10mg/",
+        "price": "\u00a330.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/mt-2-melanotan-2-acetate-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "thymosin-beta-4-tb500-5mg",
+    "name": "Thymosin Beta 4 (TB500) 5mg",
+    "slug": "thymosin-beta-4-tb500-5mg",
+    "compareSlug": "tb-500",
+    "category": "bpc-tb-500",
+    "description": "Thymosin Beta 4 (TB500) 5mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/thymosin-beta-4-tb500-5mg/",
+        "price": "\u00a330.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/thymosin-beta-4-tb500-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "oxytocin-acetate",
+    "name": "Oxytocin Acetate",
+    "slug": "oxytocin-acetate",
+    "compareSlug": "oxytocin",
+    "category": "research-compounds",
+    "description": "Oxytocin Acetate for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/oxytocin-acetate/",
+        "price": "\u00a330.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/oxytocin-acetate.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "melatonin-10mg",
+    "name": "Melatonin 10mg",
+    "slug": "melatonin-10mg",
+    "compareSlug": "melatonin",
+    "category": "research-compounds",
+    "description": "Melatonin 10mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/melatonin-10mg/",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/melatonin-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "bpc-157",
+    "name": "BPC-157",
+    "slug": "bpc-157",
+    "compareSlug": "bpc-157",
+    "category": "bpc-tb-500",
+    "description": "BPC-157 peptide for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/bpc-157/",
+        "price": "\u00a315.99 \u2013 \u00a329.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/bpc-157.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "hgh-fragment-176-191-5mg",
+    "name": "HGH Fragment 176-191 5mg",
+    "slug": "hgh-fragment-176-191-5mg",
+    "compareSlug": "hgh-frag-176-191",
+    "category": "growth-factors",
+    "description": "HGH Fragment 176-191 5mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/hgh-fragment-176-191-5mg/",
+        "price": "\u00a329.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "mots-c-mitochondrial-derived-peptide",
+    "name": "MOTS-C",
+    "slug": "mots-c-mitochondrial-derived-peptide",
+    "compareSlug": "mots-c",
+    "category": "research-compounds",
+    "description": "MOTS-C peptide for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/mots-c-mitochondrial-derived-peptide/",
+        "price": "\u00a325.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/mots-c-mitochondrial-derived-peptide.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "hexarelin-acetate",
+    "name": "Hexarelin Acetate",
+    "slug": "hexarelin-acetate",
+    "compareSlug": "hexarelin",
+    "category": "ghrps",
+    "description": "Hexarelin Acetate for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/hexarelin-acetate/",
+        "price": "\u00a313.99 \u2013 \u00a325.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/hexarelin-acetate.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "pt-141-10mg",
+    "name": "PT-141 10mg",
+    "slug": "pt-141-10mg",
+    "compareSlug": "pt-141",
+    "category": "research-compounds",
+    "description": "PT-141 (Bremelanotide) 10mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/pt-141-10mg/",
+        "price": "\u00a325.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/pt-141-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "cjc-1295-no-dac-5mg",
+    "name": "CJC 1295 NO DAC 5MG",
+    "slug": "cjc-1295-no-dac-5mg",
+    "compareSlug": "cjc-1295",
+    "category": "ghrps",
+    "description": "CJC-1295 No DAC 5mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg/",
+        "price": "\u00a325.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/cjc-1295-no-dac-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "cjc-1295-with-dac-2mg",
+    "name": "CJC 1295 with DAC 2MG",
+    "slug": "cjc-1295-with-dac-2mg",
+    "compareSlug": "cjc-1295",
+    "category": "ghrps",
+    "description": "CJC-1295 with DAC 2mg for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/cjc-1295-with-dac-2mg/",
+        "price": "\u00a322.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/cjc-1295-with-dac-2mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "peg-mgf-2mg",
+    "name": "PEG MGF 2mg",
+    "slug": "peg-mgf-2mg",
+    "compareSlug": "peg-mgf",
+    "category": "growth-factors",
+    "description": "PEG MGF 2mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/peg-mgf-2mg/",
+        "price": "\u00a321.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/peg-mgf-2mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "selank-5mg",
+    "name": "Selank 5mg",
+    "slug": "selank-5mg",
+    "compareSlug": "selank",
+    "category": "research-compounds",
+    "description": "Selank 5mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/selank-5mg/",
+        "price": "\u00a320.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/selank-5mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "dsip-delta-sleep-inducing-peptide",
+    "name": "DSIP",
+    "slug": "dsip-delta-sleep-inducing-peptide",
+    "compareSlug": "dsip",
+    "category": "research-compounds",
+    "description": "DSIP (Delta Sleep Inducing Peptide) for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/dsip-delta-sleep-inducing-peptide/",
+        "price": "\u00a320.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/dsip-delta-sleep-inducing-peptide.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "epithalon",
+    "name": "Epithalon",
+    "slug": "epithalon",
+    "compareSlug": "epitalon",
+    "category": "research-compounds",
+    "description": "Epithalon peptide for research.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/epithalon/",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/epithalon.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ghrp-6-10mg",
+    "name": "GHRP-6 10mg",
+    "slug": "ghrp-6-10mg",
+    "compareSlug": "ghrp-6",
+    "category": "ghrps",
+    "description": "GHRP-6 10mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ghrp-6-10mg/",
+        "price": "\u00a319.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ghrp-6-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "ghrp-2-10mg",
+    "name": "GHRP-2 10mg",
+    "slug": "ghrp-2-10mg",
+    "compareSlug": "ghrp-2",
+    "category": "ghrps",
+    "description": "GHRP-2 10mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ghrp-2-10mg/",
+        "price": "\u00a319.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/ghrp-2-10mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "bacteriostatic-water-0-9-benzyl",
+    "name": "Bacteriostatic Water 0.9% Benzyl Alcohol 10mL",
+    "slug": "bacteriostatic-water-0-9-benzyl",
+    "compareSlug": "bacteriostatic-water",
+    "category": "supplies",
+    "description": "Bacteriostatic water with 0.9% benzyl alcohol.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/bacteriostatic-water-0-9-benzyl/",
+        "price": "\u00a315.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/bacteriostatic-water-0-9-benzyl.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "hexarelin-2mg",
+    "name": "Hexarelin 2mg",
+    "slug": "hexarelin-2mg",
+    "compareSlug": "hexarelin",
+    "category": "ghrps",
+    "description": "Hexarelin 2mg for research purposes.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/hexarelin-2mg/",
+        "price": "\u00a313.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/hexarelin-2mg.webp"
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "bacteriostatic-water-0-9-sodium-chloride",
+    "name": "Bacteriostatic Water 0.9% Sodium Chloride 10mL",
+    "slug": "bacteriostatic-water-0-9-sodium-chloride",
+    "compareSlug": "bacteriostatic-water",
+    "category": "supplies",
+    "description": "Bacteriostatic water with 0.9% sodium chloride.",
+    "sources": [
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/bacteriostatic-water-0-9-sodium-chloride/",
         "price": "\u00a39.99",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/sermorelin-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/bacteriostatic-water-0-9-sodium-chloride.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "sermorelin"
+    "faq": []
   },
   {
-    "id": "snap-8-research-peptide",
-    "name": "Snap-8 (10mg)",
-    "slug": "snap-8-research-peptide",
-    "aliases": [],
-    "category": "research-compounds",
-    "description": "Snap-8 (10mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "ghrp-6-5mg",
+    "name": "GHRP-6 5mg",
+    "slug": "ghrp-6-5mg",
+    "compareSlug": "ghrp-6",
+    "category": "ghrps",
+    "description": "GHRP-6 5mg for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/snap-8-10mg",
-        "price": "\u00a310.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ghrp-6-5mg/",
+        "price": "\u00a39.99",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/snap-8-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/ghrp-6-5mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "snap-8"
+    "faq": []
   },
   {
-    "id": "tb-500-2mg-research-peptide",
-    "name": "TB-500 (2mg)",
-    "slug": "tb-500-2mg-research-peptide",
-    "aliases": [],
-    "category": "tb-500",
-    "description": "TB-500 (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
+    "id": "ghrp-2-pralmorelin-5mg",
+    "name": "GHRP-2 (Pralmorelin) 5mg",
+    "slug": "ghrp-2-pralmorelin-5mg",
+    "compareSlug": "ghrp-2",
+    "category": "ghrps",
+    "description": "GHRP-2 5mg for research purposes.",
     "sources": [
       {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/tb-500-2mg-thymosin-beta",
-        "price": "\u00a311.95",
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/ghrp-2-pralmorelin-5mg/",
+        "price": "\u00a39.99",
         "inStock": true,
-        "image": "/images/products/research-peptide-uk/tb-500-2mg-research-peptide.webp"
+        "image": "/images/products/research-peptide-uk/ghrp-2-pralmorelin-5mg.webp"
       }
     ],
-    "faq": [],
-    "compareSlug": "tb-500"
-  },
-  {
-    "id": "tb-500-5mg-research-peptide",
-    "name": "TB-500 (5mg)",
-    "slug": "tb-500-5mg-research-peptide",
-    "aliases": [],
-    "category": "tb-500",
-    "description": "TB-500 (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta",
-        "price": "\u00a324.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/tb-500-5mg-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "tb-500"
-  },
-  {
-    "id": "tesamorelin-research-peptide",
-    "name": "Tesamorelin (2mg)",
-    "slug": "tesamorelin-research-peptide",
-    "aliases": [],
-    "category": "growth-factors",
-    "description": "Tesamorelin (2mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
-        "price": "\u00a327.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/tesamorelin-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "tesamorelin"
-  },
-  {
-    "id": "thymalin-20mg-research-peptide",
-    "name": "Thymalin (20mg)",
-    "slug": "thymalin-20mg-research-peptide",
-    "aliases": [],
-    "category": "research-compounds",
-    "description": "Thymalin (20mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/thymalin-20mg",
-        "price": "\u00a348.99",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/thymalin-20mg-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "thymalin"
-  },
-  {
-    "id": "thymalin-5mg-research-peptide",
-    "name": "Thymalin (5mg)",
-    "slug": "thymalin-5mg-research-peptide",
-    "aliases": [],
-    "category": "research-compounds",
-    "description": "Thymalin (5mg) by Research Peptide \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226599%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Research Peptide",
-        "url": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
-        "price": "\u00a314.95",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/thymalin-5mg-research-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "thymalin"
+    "faq": []
   }
 ]

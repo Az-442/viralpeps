@@ -16,7 +16,7 @@
       "Wide catalog"
     ],
     "shipping": [
-      "UK (free over \u00a350)",
+      "UK (free over £50)",
       "International"
     ],
     "payment": [
@@ -53,7 +53,7 @@
       "UK-based"
     ],
     "shipping": [
-      "UK (free over \u00a325)",
+      "UK (free over £25)",
       "International"
     ],
     "payment": [
@@ -122,7 +122,7 @@
       "Independent COAs"
     ],
     "shipping": [
-      "UK tracked (free over \u00a340)",
+      "UK tracked (free over £40)",
       "International"
     ],
     "payment": [
@@ -139,7 +139,7 @@
       "AOD/Fragments",
       "Supplies"
     ],
-    "compoundCount": 31,
+    "compoundCount": 65,
     "lastTested": "2026-06-27"
   },
   {
@@ -188,7 +188,7 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20\u00b0C cold chain storage. Same-day dispatch on orders before 4pm.",
+    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20°C cold chain storage. Same-day dispatch on orders before 4pm.",
     "highlights": [
       "UKAS-verified testing",
       "Cold chain storage",
@@ -196,7 +196,7 @@
       "Same-day dispatch"
     ],
     "shipping": [
-      "UK (free over \u00a350)",
+      "UK (free over £50)",
       "International"
     ],
     "payment": [
@@ -267,7 +267,7 @@
       "Previously Dr Peptides"
     ],
     "shipping": [
-      "UK free over \u00a325",
+      "UK free over £25",
       "International"
     ],
     "payment": [
