@@ -406,7 +406,7 @@ export default function Home() {
 
  {/* 8+. CATEGORY SECTIONS */}
  {categoryGroups.map((group) => {
- const groupCompounds = compounds.filter((c) => group.slugs.includes(c.category));
+ const groupCompounds = compounds.filter((c) => !(c as any)?.compareSlug && group.slugs.includes(c.category));
  if (groupCompounds.length === 0) return null;
  return (
  <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4 ">
@@ -425,7 +425,18 @@ export default function Home() {
  return (
  <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-56 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
  <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
- <img src={`/images/compounds/${c.slug}.svg`} alt={c.name} className="w-16 h-16 object-contain" />
+ <img
+   src={`/images/compounds/${c.slug}.png`}
+   alt={c.name}
+   className="w-16 h-16 object-contain"
+   onError={(e) => {
+     const target = e.currentTarget;
+     if (!target.dataset.fallback) {
+       target.dataset.fallback = "1";
+       target.src = `/images/compounds/${c.slug}.svg`;
+     }
+   }}
+ />
  </div>
  <div className="p-4">
  <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
