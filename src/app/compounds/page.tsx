@@ -368,6 +368,52 @@ export default function CompoundsPage() {
         )}
       </div>
 
+      {/* ── WHY VIRALPEPS — SEO trust section ── */}
+      <section className="bg-slate-50 border-t border-slate-200">
+        <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm">
+            {/* Pill badge */}
+            <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
+              <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              WHY VIRALPEPS
+            </div>
+
+            {/* Paragraph 1 — Hook + product names */}
+            <p className="text-sm md:text-base text-slate-700 leading-relaxed mb-4">
+              ViralPeps is the UK&apos;s most comprehensive peptide price comparison platform, tracking{" "}
+              <strong className="text-slate-900">{PEPTIDE_COUNT} research peptides</strong> across{" "}
+              <strong className="text-slate-900">{SUPPLIER_COUNT} verified UK suppliers</strong>.
+              Whether you&apos;re researching <strong>BPC-157</strong>, <strong>TB-500</strong>,{" "}
+              <strong>Semaglutide</strong>, <strong>Tirzepatide</strong>, <strong>Retatrutide</strong>,{" "}
+              <strong>CJC-1295</strong>, <strong>MOTS-c</strong>, or <strong>IGF-1 LR3</strong> —
+              we surface every available price from every supplier, all in one place.
+            </p>
+
+            {/* Paragraph 2 — Benefit / what you can do */}
+            <p className="text-sm md:text-base text-slate-700 leading-relaxed mb-4">
+              Finding the cheapest peptide prices in the UK shouldn&apos;t mean visiting a dozen supplier
+              websites. ViralPeps lets you compare <strong>prices, dosages, and shipping options</strong>{" "}
+              for every peptide side-by-side — from <strong>GHK-Cu</strong> and <strong>BPC-157 (Oral)</strong>{" "}
+              to <strong>Semax</strong>, <strong>Selank</strong>, <strong>Epitalon</strong>, and{" "}
+              <strong>Thymosin Alpha-1</strong>. Our data is checked daily so you&apos;re always
+              seeing accurate, up-to-date pricing. Just search, compare, and save.
+            </p>
+
+            {/* Paragraph 3 — Trust / authority */}
+            <p className="text-sm md:text-base text-slate-700 leading-relaxed">
+              Every supplier on ViralPeps is a verified UK-based peptide vendor with independently
+              tested products. We&apos;re completely independent — there are no sponsored rankings,
+              no biased placements, and no hidden fees. Whether you need <strong>AOD-9604</strong>,{" "}
+              <strong>NAD+</strong>, <strong>SS-31</strong>, <strong>PT-141</strong>,{" "}
+              <strong>Mazdutide</strong>, or <strong>5-Amino-1MQ</strong>, our mission is simple:
+              help you make informed decisions with confidence.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
