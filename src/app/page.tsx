@@ -235,7 +235,7 @@ export default function Home() {
  <div className="flex items-center justify-between mb-2">
  <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
  </div>
- <div className="text-xs text-emerald-600 font-bold">from &pound;{minPrice.toFixed(2)} {c.sources.length} VENDORS</div>
+ <div className="text-xs"><span className="text-slate-400">from</span> <span className="text-emerald-600 font-bold text-[13px]">&pound;{minPrice.toFixed(2)}</span> <span className="text-slate-400">{c.sources.length} VENDORS</span></div>
  </Link>
  );
  })}
