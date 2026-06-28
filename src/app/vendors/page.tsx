@@ -153,28 +153,48 @@ export default function VendorsPage() {
       </section>
 
       <div className="max-w-6xl mx-auto px-4 -mt-4 relative z-10">
-        {/* SORT CARD — smaller, just the dropdown */}
-        <div className="bg-white border border-slate-200 rounded-xl px-4 py-3 mb-4 shadow-sm flex items-center justify-end">
-          <select
-            value={sort}
-            onChange={(e) => setSort(e.target.value as typeof sort)}
-            className="px-3 py-1.5 border border-slate-300 rounded-lg text-sm outline-none focus:border-blue-500 bg-white text-gray-700"
-          >
-            <option value="a-z">A to Z</option>
-            <option value="rating">Top rated</option>
-            <option value="products">Most products</option>
-          </select>
-        </div>
-
         {/* SUPPLIER DIRECTORY GRID */}
         <div>
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center gap-2 mb-1">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="#6366f1">
               <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" />
             </svg>
             <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">Supplier Directory</span>
           </div>
-          <h2 className="text-xl font-bold text-gray-900 mb-1">All {vendors.length} UK suppliers</h2>
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 mb-1">
+            <h2 className="text-xl font-bold text-gray-900">All {vendors.length} UK suppliers</h2>
+            <div className="flex items-center gap-2 shrink-0">
+              {/* Filter pills */}
+              {[
+                { key: "all" as const, label: "All", count: vendors.length },
+                { key: "verified" as const, label: "Verified", count: verifiedCount },
+                { key: "free-shipping" as const, label: "Free ship", count: freeShippingCount },
+                { key: "lab-tested" as const, label: "Tested", count: labTestedCount },
+              ].map((f) => (
+                <button
+                  key={f.key}
+                  onClick={() => setFilter(f.key)}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors ${
+                    filter === f.key
+                      ? "bg-blue-600 text-white"
+                      : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                  }`}
+                >
+                  {f.label} <span className={filter === f.key ? "text-white/80" : "text-gray-900"}>{f.count}</span>
+                </button>
+              ))}
+              {/* Sort dropdown */}
+              <select
+                value={sort}
+                onChange={(e) => setSort(e.target.value as typeof sort)}
+                className="ml-1 px-2.5 py-1 border border-slate-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
+              >
+                <option value="a-z">A-Z</option>
+                <option value="rating">★ Top</option>
+                <option value="products">📦 Most</option>
+              </select>
+            </div>
+          </div>
           <p className="text-sm text-gray-500 mb-6">Every UK supplier in our comparison index — sorted and filtered your way.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
