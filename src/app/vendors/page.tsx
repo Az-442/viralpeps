@@ -21,12 +21,26 @@ function PeptideVialIcon({ className = "w-8 h-8" }: { className?: string }) {
   );
 }
 
-// Compound count per vendor
+// Compound count per vendor — matches profile page filter logic exactly
+function getVendorCompoundCount(vendorName: string): number {
+  const vendorSourceCompounds = compounds.filter((c) =>
+    c.sources.some((s) => s.vendor === vendorName)
+  );
+  const hasCatalogEntries = vendorSourceCompounds.some((c) =>
+    (c as any)?.compareSlug
+  );
+  return hasCatalogEntries
+    ? vendorSourceCompounds.filter((c) =>
+        (c as any)?.compareSlug ||
+        c.sources.every((s) => s.vendor === vendorName)
+      ).length
+    : vendorSourceCompounds.length;
+}
+
+// Pre-compute for sorting
 const vendorProductCounts: Record<string, number> = {};
-for (const c of compounds) {
-  for (const s of c.sources) {
-    vendorProductCounts[s.vendor] = (vendorProductCounts[s.vendor] || 0) + 1;
-  }
+for (const v of vendors) {
+  vendorProductCounts[v.name] = getVendorCompoundCount(v.name);
 }
 
 // Min price per vendor
@@ -146,7 +160,7 @@ export default function VendorsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {sorted.map((v) => {
-              const count = v.compoundCount || 0;
+              const count = vendorProductCounts[v.name] || 0;
               const minPrice = vendorMinPrices[v.name] || 0;
               const hasFreeShipping = v.shipping?.some((s) => s.toLowerCase().includes("free"));
               const hasLabTested = v.highlights?.some((h) => h.toLowerCase().includes("tested"));
