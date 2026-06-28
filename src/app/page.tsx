@@ -9,7 +9,8 @@ import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 
 // --- Data helpers ---
-const totalCompounds = compounds.length;
+const masterCompounds = compounds.filter((c) => !(c as any)?.compareSlug);
+const totalCompounds = masterCompounds.length;
 const totalVendors = vendors.length;
 
 const vendorCompoundCounts: Record<string, number> = {};
