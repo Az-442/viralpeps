@@ -336,6 +336,92 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
         </div>
       </div>
 
+      {/* COMPARE FIRST SECTION */}
+      <div className="max-w-6xl mx-auto px-4 pb-4">
+        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 rounded-2xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+          {/* Dot pattern background */}
+          <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
+          <div className="relative z-10">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-1.5 text-xs font-medium text-green-400 border border-green-500/40 rounded-full px-3 py-0.5 mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-green-400"></span>
+              SAVE MORE
+            </div>
+            {/* Headline */}
+            <h3 className="text-xl md:text-2xl font-bold text-white mb-2">Don't buy yet — compare first.</h3>
+            {/* Description */}
+            <p className="text-sm text-slate-300 mb-5 max-w-xl">
+              See how <strong className="text-white">{vendor.name}</strong> stacks up against every other UK supplier on price.
+            </p>
+            {/* CTA Button */}
+            <Link
+              href="/compounds"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-500 text-white text-sm font-bold rounded-full transition-all shadow-lg shadow-green-600/25 hover:shadow-green-500/40"
+            >
+              Browse all peptides
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* SHIPPING CARD */}
+      <div className="max-w-6xl mx-auto px-4 pb-12">
+        <div className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+          <div className="p-4 md:p-6">
+            {/* Header */}
+            <div className="flex items-center gap-2.5 mb-4">
+              <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="1" y="3" width="15" height="13" /><polygon points="16 8 20 8 23 11 23 16 16 16 16 8" /><circle cx="5.5" cy="18.5" r="2.5" /><circle cx="18.5" cy="18.5" r="2.5" />
+                </svg>
+              </div>
+              <span className="text-xs font-bold text-green-700 uppercase tracking-wider">SHIPPING</span>
+            </div>
+
+            {/* Shipping Info Rows */}
+            <div className="space-y-3">
+              {(() => {
+                const freeShipping = vendor.shipping?.find((s: string) => s.toLowerCase().includes("free"));
+                const threshold = freeShipping
+                  ? freeShipping.match(/over\s*£?(\d+)/i)?.[1] || null
+                  : null;
+                const hasFree = !!freeShipping;
+                return (<>
+                  <div className="flex items-center justify-between py-2 border-b border-slate-100">
+                    <span className="text-sm text-slate-600">Cost</span>
+                    <span className="text-sm font-bold text-green-600">{hasFree ? "FREE" : vendor.shipping?.[0] || "Varies"}</span>
+                  </div>
+                  {hasFree && (
+                    <div className="flex items-center justify-between py-2 border-b border-slate-100">
+                      <span className="text-sm text-slate-600">Free delivery</span>
+                      <span className="text-sm font-bold text-green-600">{threshold ? `Over £${threshold}` : "Yes"}</span>
+                    </div>
+                  )}
+                  {/* Delivery time */}
+                  {(() => {
+                    const hasNextDay = vendor.highlights?.some((h: string) => h.toLowerCase().includes("dispatch") || h.toLowerCase().includes("delivery"));
+                    return (
+                      <div className="flex items-center justify-between py-2 border-b border-slate-100">
+                        <span className="text-sm text-slate-600">Delivery time</span>
+                        <span className="text-sm font-bold text-slate-800">{hasNextDay ? "Next day" : "1-3 business days"}</span>
+                      </div>
+                    );
+                  })()}
+                  {/* International shipping */}
+                  <div className="flex items-center justify-between py-2">
+                    <span className="text-sm text-slate-600">International</span>
+                    <span className="text-sm font-bold text-slate-800">{vendor.shipping?.some((s: string) => s.toLowerCase().includes("international")) ? "Yes" : "No"}</span>
+                  </div>
+                </>);
+              })()}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
