@@ -20,7 +20,7 @@ export default function Footer() {
             <span className="font-bold text-white text-sm">ViralPeps</span>
           </div>
           <p className="text-xs leading-relaxed text-gray-500">
-            The UK&apos;s independent peptide comparison platform. For laboratory research use only.
+            The UK&apos;s number 1 peptide comparison platform. For laboratory research use only.
           </p>
         </div>
         <div>
