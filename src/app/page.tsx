@@ -258,42 +258,45 @@ export default function Home() {
  <Link href="/vendors" className="text-sm text-blue-600 font-medium hover:underline">Compare all &rarr;</Link>
  </div>
  </div>
- <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
- {topVendors.map((v) => {
- const count = vendorCompoundCounts[v.name] || 0;
- const prices = vendorPrices[v.name];
- const isFirst = v === topVendors[0];
- const isLast = v === topVendors[topVendors.length - 1];
- return (
- <Link key={v.id} href={`/vendors/${v.slug}`} className="bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group">
- <div className="flex items-center gap-3 mb-3">
- <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
- <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-8 h-8 object-contain" />
- </div>
- <div className="min-w-0 flex-1">
- <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>
- <div className="flex items-center gap-1 mt-0.5">
- {v.verified && (
- <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
- <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
- Site Verified
- </span>
- )}
- <span className="text-[10px] bg-blue-50 text-blue-700 font-semibold px-1.5 py-0.5 rounded-full">Free UK delivery</span>
- </div>
- </div>
- </div>
- <div className="flex items-center justify-between">
- <div>
- <span className="text-[10px] text-black uppercase font-medium">{isFirst ? "BEST PRICE" : isLast ? "HIGHEST" : "PRICE"}</span>
- <div className="text-lg font-extrabold text-emerald-600">{prices ? `£${prices.min.toFixed(2)}` : `${count} products`}</div>
- </div>
- <span className="text-xs text-blue-600 font-medium group-hover:underline">View &rarr;</span>
- </div>
- </Link>
- );
- })}
- </div>
+ <ScrollSection>
+   {topVendors.map((v) => {
+     const count = vendorCompoundCounts[v.name] || 0;
+     const prices = vendorPrices[v.name];
+     return (
+       <Link key={v.id} href={`/vendors/${v.slug}`} className="flex-shrink-0 w-64 bg-white border border-black rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group snap-start">
+         <div className="flex items-center gap-3 mb-3">
+           <div className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-slate-200">
+             <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className="w-9 h-9 object-contain" />
+           </div>
+           <div className="min-w-0 flex-1">
+             <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>
+             <div className="flex flex-wrap items-center gap-1 mt-1">
+               {v.verified && (
+                 <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                   <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                   Verified
+                 </span>
+               )}
+               <span className="text-[10px] bg-blue-50 text-blue-700 font-semibold px-1.5 py-0.5 rounded-full">Free UK delivery</span>
+             </div>
+           </div>
+         </div>
+         <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+           <div>
+             <span className="text-[10px] text-slate-400 uppercase font-medium">{v === topVendors[0] ? "BEST PRICE" : v === topVendors[topVendors.length - 1] ? "HIGHEST" : "FROM"}</span>
+             <div className="text-xl font-extrabold text-emerald-600">{prices ? `£${prices.min.toFixed(2)}` : ""}</div>
+             <div className="text-[10px] text-slate-400">{count} products</div>
+           </div>
+           <span className="text-sm text-blue-600 font-medium group-hover:underline">View &rarr;</span>
+         </div>
+       </Link>
+     );
+   })}
+   {/* Browse all button */}
+   <Link href="/vendors" className="flex-shrink-0 w-52 bg-slate-50 border border-black rounded-xl p-5 hover:bg-slate-100 transition-all snap-start flex items-center justify-center">
+     <span className="text-sm font-semibold text-blue-600">Compare all &rarr;</span>
+   </Link>
+ </ScrollSection>
  <p className="text-xs text-black mt-3">Prices last checked: daily</p>
  </section>
 
