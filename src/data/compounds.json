@@ -231,7 +231,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg",
         "price": "\u00a329.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/bpc-157-10mg.jpg"
       },
       {
         "vendor": "UK Peptides",
@@ -377,7 +378,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/tb-500-5mg",
         "price": "\u00a321.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/tb-500-5mg.jpg"
       },
       {
         "vendor": "Research Peptides UK",
@@ -525,7 +527,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
         "price": "\u00a319.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/mt2-10mg.jpg"
       }
     ],
     "longDescription": "## Overview\n\nMelanotan II (MT-II) is a synthetic cyclic heptapeptide analogue of \u03b1-melanocyte-stimulating hormone (\u03b1-MSH), the body's natural pigment-regulating hormone. Developed initially at the University of Arizona as a potential sunless tanning agent and photoprotective therapy, Melanotan II has become one of the most widely known research peptides. It acts as a non-selective melanocortin receptor agonist, activating all five melanocortin receptor subtypes (MC1R\u2013MC5R). While its most visible effect is stimulation of melanogenesis (skin pigmentation) through MC1R activation, the compound also influences appetite regulation via MC4R and, interestingly, sexual function through central melanocortin pathways \u2014 the same mechanism that led to the development of its analogue bremelanotide (PT-141). UK researchers continue to study MT-II for applications including erythropoietic protoporphyria, sexual dysfunction, and understanding melanocortin biology.\n\n## Mechanism of Action\n\nMelanotan II functions as a non-selective agonist at all five melanocortin receptor subtypes. Activation of MC1R on melanocytes stimulates the cAMP signalling cascade, upregulating tyrosinase enzyme activity and driving the production of eumelanin (dark pigment) independently of UV exposure. MC4R activation in the hypothalamus regulates appetite and energy homeostasis, producing an anorexigenic effect. MC3R and MC4R signalling also modulate sexual arousal and erectile function through central nervous system pathways involving oxytocinergic neurons. MC2R is primarily the ACTH receptor and is less relevant to Melanotan II's primary effects. The cyclic structure and Nle substitution confer improved stability and potency compared to native \u03b1-MSH.\n\n## Research & Clinical Data\n\nClinical studies have demonstrated that Melanotan II effectively induces tanning in fair-skinned individuals, with a 10\u201314 day loading phase producing visible pigmentation that persists for weeks. Research in erythropoietic protoporphyria (EPP) has shown that MT-II-induced melanisation can improve light tolerance and quality of life. Studies on sexual function report improvements in erectile function and libido in both men and women, mediated through central melanocortin pathways. However, development has been limited by side effects including nausea, flushing, and spontaneous erections.\n\n## Dosage & Administration\n\nTypical research dosages for Melanotan II range from 0.5\u20131 mg per day, with a common loading protocol of 0.5 mg per day for 10\u201314 days to establish pigmentation, followed by maintenance dosing of 1\u20132 times per week. The peptide has a short plasma half-life of 30\u201360 minutes, but melanogenic effects persist for days due to sustained tyrosinase upregulation. Subcutaneous administration is standard after reconstitution with bacteriostatic water.\n\n## Safety & Legal\n\nMelanotan II is strictly for research purposes. Common effects reported in studies include nausea, facial flushing, spontaneous erections, appetite suppression, and potential darkening of pre-existing naevi (moles). The long-term safety profile is not well established. The lyophilised powder should be stored at -20\u00b0C and protected from light. UK researchers should be aware that Melanotan II is not licensed for human use and should only be obtained from reputable research suppliers.\n\n\nMelanotan II was originally developed at the University of Arizona as part of a research programme aimed at creating a sunless tanning agent that could reduce skin cancer risk by decreasing UV exposure. The peptide's ability to induce melanogenesis without UV radiation was demonstrated in early clinical studies at the Arizona Cancer Center, where fair-skinned volunteers developed visible pigmentation after 10\u201314 days of daily administration. This mechanism \u2014 activating MC1R to stimulate eumelanin production \u2014 provided the first practical alternative to UV-induced tanning.\n\nThe melanocortin system extends far beyond pigmentation. MC4R activation in the hypothalamus regulates energy homeostasis, and MC3R and MC4R activation in the spinal cord and brainstem modulates sexual function. Bremelanotide (PT-141), the active metabolite of Melanotan II that lacks the melanogenic effects, was FDA-approved in 2019 for hypoactive sexual desire disorder in premenopausal women. The development of analogues that separate these effects remains an active area of medicinal chemistry research.\n\nClinical research in erythropoietic protoporphyria (EPP), a rare genetic disorder causing severe photosensitivity, has demonstrated that Melanotan II-induced melanisation can dramatically improve light tolerance. EPP patients who previously could tolerate only minutes of sunlight exposure were able to spend hours outdoors after treatment \u2014 a life-changing improvement. This application highlights the therapeutic potential of melanocortin agonists beyond cosmetic tanning.\n\nFor research use, Melanotan II requires careful handling. The peptide is sensitive to light degradation and should be protected during reconstitution and storage. Common doses of 0.5\u20131 mg per day during the loading phase should be administered subcutaneously. Researchers should be aware that dosing errors (particularly overdosing) can cause significant nausea, so precise reconstitution and measurement are essential. UK researchers can obtain Melanotan II from specialised peptide suppliers who provide purity documentation.",
@@ -962,7 +965,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg",
         "price": "\u00a324.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/cjc-1295-no-dac-5mg.jpg"
       },
       {
         "vendor": "Research Peptides UK",
@@ -1457,7 +1461,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/mots-c-10mg",
         "price": "\u00a325.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/mots-c-10mg.jpg"
       },
       {
         "vendor": "Dr P Research",
@@ -1550,7 +1555,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/ss-31-10mg",
         "price": "\u00a334.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/ss-31-10mg.jpg"
       },
       {
         "vendor": "The Peptide Company",
@@ -1694,7 +1700,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
         "price": "\u00a315.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/ghk-cu-50mg.webp"
       },
       {
         "vendor": "Sterling Peptides",
@@ -1813,7 +1820,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
         "price": "\u00a329.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/kpv-10mg.jpg"
       },
       {
         "vendor": "Research Peptides UK",
@@ -2053,7 +2061,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/epitalon-10mg",
         "price": "\u00a319.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/epitalon-10mg.webp"
       },
       {
         "vendor": "Research Peptide",
@@ -2165,7 +2174,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/semax-5mg",
         "price": "\u00a321.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/semax-5mg.jpg"
       },
       {
         "vendor": "Research Peptides UK",
@@ -2314,7 +2324,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/selank-5mg",
         "price": "\u00a314.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/selank-5mg.jpg"
       },
       {
         "vendor": "Dr P Research",
@@ -2797,7 +2808,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
         "price": "\u00a318.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/ipamorelin-5mg.jpg"
       },
       {
         "vendor": "UK Peptides",
@@ -3832,7 +3844,8 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/dsip-10mg",
         "price": "\u00a332.99",
-        "inStock": true
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/dsip-10mg.webp"
       },
       {
         "vendor": "Dr P Research",
@@ -9354,5 +9367,477 @@
     ],
     "faq": [],
     "compareSlug": "bpc-157"
+  },
+  {
+    "id": "bpc-157-10mg-imperial",
+    "name": "BPC-157 10mg",
+    "slug": "bpc-157-10mg-imperial",
+    "aliases": [],
+    "category": "thymosin-bpc",
+    "description": "BPC-157 10mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "BPC-157 (Body Protective Compound-157) is a synthetic pentadecapeptide derived from a protein in gastric juice. It has been studied for its effects on angiogenesis, collagen formation, and tissue repair pathways.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Tissue repair research",
+      "Angiogenesis research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/bpc-157-10mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "bpc-157"
+  },
+  {
+    "id": "tb-500-5mg-imperial",
+    "name": "TB-500 5mg",
+    "slug": "tb-500-5mg-imperial",
+    "aliases": [],
+    "category": "tb-500",
+    "description": "TB-500 5mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "TB-500 is a synthetic version of Thymosin Beta-4, a naturally occurring peptide involved in cytoskeletal organization, cell migration, and inflammation modulation.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Cytoskeletal research",
+      "Cell migration"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/tb-500-5mg",
+        "price": "\u00a321.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/tb-500-5mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tb-500"
+  },
+  {
+    "id": "ipamorelin-5mg-imperial",
+    "name": "Ipamorelin 5mg",
+    "slug": "ipamorelin-5mg-imperial",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Ipamorelin 5mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "Ipamorelin is a synthetic pentapeptide that selectively stimulates ghrelin/growth hormone secretagogue receptors, promoting growth hormone release without significant effects on cortisol or prolactin.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Growth hormone research",
+      "Metabolic research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
+        "price": "\u00a318.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/ipamorelin-5mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ipamorelin"
+  },
+  {
+    "id": "cjc-1295-no-dac-5mg-imperial",
+    "name": "CJC-1295 (No DAC) 5mg",
+    "slug": "cjc-1295-no-dac-5mg-imperial",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (No DAC) 5mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "CJC-1295 is a synthetic analogue of growth hormone-releasing hormone (GHRH) that stimulates growth hormone release from the pituitary gland. The No DAC variant has a shorter duration of action.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Growth hormone research",
+      "Endocrinology research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg",
+        "price": "\u00a324.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/cjc-1295-no-dac-5mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "cjc-1295-dac-5mg-imperial",
+    "name": "CJC-1295 (DAC) 5mg",
+    "slug": "cjc-1295-dac-5mg-imperial",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (DAC) 5mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "CJC-1295 with Drug Affinity Complex (DAC) is a long-acting GHRH analogue that binds to serum albumin for extended half-life, providing sustained growth hormone release stimulation.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Growth hormone research",
+      "Endocrinology research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/cjc-1295-dac-5mg",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/cjc-1295-dac-5mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "ghk-cu-50mg-imperial",
+    "name": "GHK-Cu 50mg (Unlabelled)",
+    "slug": "ghk-cu-50mg-imperial",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "GHK-Cu 50mg (Unlabelled) by Imperial Peptides UK \u2014 high-purity copper peptide for in vitro laboratory research use only.",
+    "mechanism": "GHK-Cu is a naturally occurring copper-binding tripeptide involved in collagen production, wound healing, and antioxidant activity. It serves as a signaling peptide for tissue regeneration pathways.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Wound healing research",
+      "Tissue regeneration"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
+        "price": "\u00a315.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/ghk-cu-50mg.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghk-cu"
+  },
+  {
+    "id": "semax-5mg-imperial",
+    "name": "Semax 5mg",
+    "slug": "semax-5mg-imperial",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Semax 5mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "Semax is a synthetic heptapeptide analogue of ACTH(4-10) that modulates the BDNF/TrkB pathway and increases brain-derived neurotrophic factor expression in the hippocampus.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Neuroprotection research",
+      "Cognitive function research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+        "price": "\u00a321.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/semax-5mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "semax"
+  },
+  {
+    "id": "selank-5mg-imperial",
+    "name": "Selank 5mg",
+    "slug": "selank-5mg-imperial",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Selank 5mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "Selank is a synthetic heptapeptide analogue of tuftisin that modulates the balance of enkephalin-degrading enzymes and influences neurotransmitter levels in the brain.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Anxiety research",
+      "Neurotransmitter research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/selank-5mg",
+        "price": "\u00a314.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/selank-5mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "selank"
+  },
+  {
+    "id": "mt2-10mg-imperial",
+    "name": "MT-2 10mg",
+    "slug": "mt2-10mg-imperial",
+    "aliases": [
+      "Melanotan II"
+    ],
+    "category": "melanotans",
+    "description": "MT-2 10mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "Melanotan II is a synthetic analogue of the naturally occurring melanocortin peptide \u03b1-MSH that acts as a non-selective agonist at melanocortin receptors MC1R, MC3R, MC4R, and MC5R.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Melanocortin research",
+      "Pigmentation research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/mt2-10mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "melanotan-ii"
+  },
+  {
+    "id": "mots-c-10mg-imperial",
+    "name": "MOTS-C 10mg",
+    "slug": "mots-c-10mg-imperial",
+    "aliases": [],
+    "category": "peptide-fragments",
+    "description": "MOTS-C 10mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "MOTS-C is a mitochondrial-derived peptide encoded in the mitochondrial genome that regulates metabolic homeostasis, promotes glucose uptake, and stimulates AMPK activation.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Metabolic research",
+      "Mitochondrial research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/mots-c-10mg",
+        "price": "\u00a325.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/mots-c-10mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "mots-c"
+  },
+  {
+    "id": "ss-31-10mg-imperial",
+    "name": "SS-31 10mg",
+    "slug": "ss-31-10mg-imperial",
+    "aliases": [
+      "Elamipretide"
+    ],
+    "category": "peptide-fragments",
+    "description": "SS-31 10mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "SS-31 (Elamipretide) is a mitochondrial-targeted tetrapeptide that stabilizes cardiolipin-cytochrome c interactions, improving mitochondrial electron transport and reducing reactive oxygen species.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Mitochondrial research",
+      "Cellular energetics"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/ss-31-10mg",
+        "price": "\u00a334.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/ss-31-10mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ss-31"
+  },
+  {
+    "id": "kpv-10mg-imperial",
+    "name": "KPV 10mg",
+    "slug": "kpv-10mg-imperial",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "KPV 10mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "KPV (Lys-Pro-Val) is a naturally occurring anti-inflammatory tripeptide derived from \u03b1-MSH that inhibits pro-inflammatory cytokines and NF-\u03baB activation.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Inflammation research",
+      "Gastrointestinal research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/kpv-10mg.jpg"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "kpv"
+  },
+  {
+    "id": "epitalon-10mg-imperial",
+    "name": "Epitalon 10mg",
+    "slug": "epitalon-10mg-imperial",
+    "aliases": [
+      "Epithalon"
+    ],
+    "category": "research-compounds",
+    "description": "Epitalon 10mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "Epitalon (Ala-Glu-Asp-Gly) is a synthetic tetrapeptide that activates telomerase gene expression and regulates age-related changes in pineal and pituitary function.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Aging research",
+      "Cellular signalling research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/epitalon-10mg",
+        "price": "\u00a319.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/epitalon-10mg.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "epitalon"
+  },
+  {
+    "id": "dsip-10mg-imperial",
+    "name": "DSIP 10mg",
+    "slug": "dsip-10mg-imperial",
+    "aliases": [
+      "Delta Sleep-Inducing Peptide"
+    ],
+    "category": "research-compounds",
+    "description": "DSIP 10mg by Imperial Peptides UK \u2014 high-purity lyophilised peptide for in vitro laboratory research use only.",
+    "mechanism": "DSIP (Delta Sleep-Inducing Peptide) is a nonapeptide that influences sleep/wake regulation and stress hormone modulation through interaction with specific DSIP receptors.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Sleep research",
+      "Neuropeptide research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/dsip-10mg",
+        "price": "\u00a332.99",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/dsip-10mg.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "dsip"
+  },
+  {
+    "id": "storage-container-imperial",
+    "name": "Storage Container",
+    "slug": "storage-container-imperial",
+    "aliases": [],
+    "category": "supplies",
+    "description": "Storage Container by Imperial Peptides UK \u2014 3ml vial storage container for laboratory use. Rigid plastic design for secure vial organisation and transport.",
+    "mechanism": "Storage and organisation aid for laboratory vials.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "N/A",
+    "form": "Physical container",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "Laboratory supplies",
+      "Sample storage"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Imperial Peptides UK",
+        "url": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container",
+        "price": "\u00a33.00",
+        "inStock": true,
+        "image": "/images/products/imperial-peptides/storage-container.png"
+      }
+    ],
+    "faq": []
   }
 ]
