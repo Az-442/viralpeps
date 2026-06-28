@@ -8623,35 +8623,6 @@
     "compareSlug": "vilon-20mg"
   },
   {
-    "id": "bronchogen-research-peptide",
-    "name": "Bronchogen",
-    "slug": "bronchogen-research-peptide",
-    "aliases": [],
-    "category": "research-compounds",
-    "description": "Bronchogen \u2014 research peptide for laboratory use only.",
-    "mechanism": "Under research.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Lyophilized powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/bronchogen-research-peptide",
-        "price": "\u00a319.50",
-        "inStock": true
-      }
-    ],
-    "vendorProduct": true,
-    "faq": []
-  },
-  {
     "id": "cardiogen-research-peptide",
     "name": "Cardiogen",
     "slug": "cardiogen-research-peptide",
@@ -8799,35 +8770,6 @@
     "compareSlug": "ahk-cu"
   },
   {
-    "id": "extended-cold-chain-transit-system",
-    "name": "Extended Cold Chain Transit System",
-    "slug": "extended-cold-chain-transit-system",
-    "aliases": [],
-    "category": "lab-supplies",
-    "description": "Extended Cold Chain Transit System \u2014 research peptide for laboratory use only.",
-    "mechanism": "Under research.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Lyophilized powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/extended-cold-chain-transit-system",
-        "price": "\u00a315.99",
-        "inStock": true
-      }
-    ],
-    "vendorProduct": true,
-    "faq": []
-  },
-  {
     "id": "igf1-lr3-1mg",
     "name": "IGF1-LR3 1mg",
     "slug": "igf1-lr3-1mg",
@@ -8856,35 +8798,6 @@
     "vendorProduct": true,
     "faq": [],
     "compareSlug": "igf-1-lr3"
-  },
-  {
-    "id": "metabolic-efficiency-research-kit-nad-5-amino-1mq-blend",
-    "name": "Metabolic Efficiency Research Kit",
-    "slug": "metabolic-efficiency-research-kit-nad-5-amino-1mq-blend",
-    "aliases": [],
-    "category": "peptide-blends",
-    "description": "Metabolic Efficiency Research Kit \u2014 research peptide for laboratory use only.",
-    "mechanism": "Under research.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "\u226598%",
-    "form": "Lyophilized powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/metabolic-efficiency-research-kit-nad-5-amino-1mq-blend",
-        "price": "\u00a3102.99",
-        "inStock": true
-      }
-    ],
-    "vendorProduct": true,
-    "faq": []
   },
   {
     "id": "acetic-acid-reconstitution-solvent-10ml",
