@@ -89,21 +89,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   if (!vendor) notFound();
 
   // Compounds this vendor sells
-  // If this vendor has individual catalog entries (identified by having compareSlug),
-  // only show those entries OR single-vendor compounds unique to this vendor.
-  // Otherwise show all compounds where this vendor is a source.
-  const vendorSourceCompounds = compounds.filter((c) =>
+  const vendorCompounds = compounds.filter((c) =>
     c.sources.some((s) => s.vendor === vendor.name)
   );
-  const hasCatalogEntries = vendorSourceCompounds.some((c) =>
-    (c as any)?.compareSlug
-  );
-  const vendorCompounds = hasCatalogEntries
-    ? vendorSourceCompounds.filter((c) =>
-        (c as any)?.compareSlug ||
-        c.sources.every((s) => s.vendor === vendor.name)
-      )
-    : vendorSourceCompounds;
 
   const minPrice = Math.min(
     ...vendorCompounds.flatMap((c) =>
@@ -113,9 +101,6 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
     )
   );
 
-  // Build a lookup: master comparison slug -> that compound (for compareSlug links)
-  const compoundBySlug: Record<string, any> = {};
-  compounds.forEach((c) => { compoundBySlug[c.slug] = c; });
   const hasFreeShipping = vendor.shipping?.some((s) => s.toLowerCase().includes("free"));
   const hasLabTested = vendor.highlights?.some((h) => h.toLowerCase().includes("tested"));
   const hasNextDay = vendor.highlights?.some((h) => h.toLowerCase().includes("dispatch") || h.toLowerCase().includes("shipping"));
@@ -314,10 +299,10 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                     <div className="text-lg md:text-2xl font-bold text-emerald-600">{source?.price}</div>
                     <div className="flex items-center gap-2">
                       <Link
-                        href={`/compounds/${(c as any)?.compareSlug || c.slug}`}
+                        href={`/compounds/${c.slug}`}
                         className="text-xs sm:text-sm font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
                       >
-                        Compare {((c as any)?.compareSlug ? compoundBySlug[(c as any).compareSlug]?.sources?.length || c.sources.length : c.sources.length)} suppliers →
+                        Compare {c.sources.length} suppliers →
                       </Link>
                       <a
                         href={source?.url || "#"}

@@ -146,7 +146,7 @@ export default function VendorsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {sorted.map((v) => {
-              const count = vendorProductCounts[v.name] || 0;
+              const count = v.compoundCount || 0;
               const minPrice = vendorMinPrices[v.name] || 0;
               const hasFreeShipping = v.shipping?.some((s) => s.toLowerCase().includes("free"));
               const hasLabTested = v.highlights?.some((h) => h.toLowerCase().includes("tested"));
