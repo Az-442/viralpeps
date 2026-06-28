@@ -14,10 +14,19 @@ const totalCompounds = peptideCount;
 const totalVendors = vendorCount;
 
 const vendorCompoundCounts: Record<string, number> = {};
-for (const c of compounds) {
- for (const s of c.sources) {
- vendorCompoundCounts[s.vendor] = (vendorCompoundCounts[s.vendor] || 0) + 1;
- }
+for (const v of vendors) {
+  const vendorSourceCompounds = compounds.filter((c) =>
+    c.sources.some((s) => s.vendor === v.name)
+  );
+  const hasCatalogEntries = vendorSourceCompounds.some((c) =>
+    (c as any)?.compareSlug
+  );
+  vendorCompoundCounts[v.name] = hasCatalogEntries
+    ? vendorSourceCompounds.filter((c) =>
+        (c as any)?.compareSlug ||
+        c.sources.every((s) => s.vendor === v.name)
+      ).length
+    : vendorSourceCompounds.length;
 }
 
 const topVendors = [...vendors]
