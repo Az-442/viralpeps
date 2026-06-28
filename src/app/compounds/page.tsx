@@ -66,6 +66,7 @@ function ArrowRightIcon() {
 
 export default function CompoundsPage() {
   const [search, setSearch] = useState("");
+  const [sort, setSort] = useState<"a-z" | "suppliers" | "price">("a-z");
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim();
@@ -77,6 +78,22 @@ export default function CompoundsPage() {
       c.description.toLowerCase().includes(q)
     );
   }, [search]);
+
+  const sorted = useMemo(() => {
+    const list = [...filtered];
+    if (sort === "a-z") {
+      list.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sort === "suppliers") {
+      list.sort((a, b) => b.sources.length - a.sources.length);
+    } else if (sort === "price") {
+      list.sort((a, b) => {
+        const aMin = Math.min(...a.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || Infinity));
+        const bMin = Math.min(...b.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || Infinity));
+        return aMin - bMin;
+      });
+    }
+    return list;
+  }, [filtered, sort]);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -166,6 +183,17 @@ export default function CompoundsPage() {
         </div>
         <div className="flex items-center justify-between gap-4 mb-1">
           <h2 className="text-xl font-bold text-gray-900">All {PEPTIDE_COUNT} research peptides</h2>
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <select
+              value={sort}
+              onChange={(e) => setSort(e.target.value as typeof sort)}
+              className="px-2.5 py-1 border border-slate-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
+            >
+              <option value="a-z">A-Z</option>
+              <option value="suppliers">📦 Popular</option>
+              <option value="price">💰 Price</option>
+            </select>
+          </div>
         </div>
         <p className="text-sm text-gray-500 mb-6">
           {search
@@ -188,7 +216,7 @@ export default function CompoundsPage() {
           </div>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {filtered.map((c) => {
+            {sorted.map((c) => {
               const bLabel = badgeLabels[c.category] || c.category;
               const minPrice = Math.min(
                 ...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)

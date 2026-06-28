@@ -9,20 +9,20 @@
       <stop offset="100%" stop-color="#c0dcee" stop-opacity="0.6"/>
     </linearGradient>
 
-    <!-- Liquid gradient inside vial -->
+    <!-- Liquid gradient - ViralPeps brand blue -->
     <linearGradient id="liquid" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c8e6c9"/>
-      <stop offset="50%" stop-color="#e8f5e9"/>
-      <stop offset="100%" stop-color="#a5d6a7"/>
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="50%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
     </linearGradient>
 
-    <!-- Cap gradient -->
+    <!-- Cap gradient - brand indigo -->
     <linearGradient id="cap" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2c3e50"/>
-      <stop offset="30%" stop-color="#4a6fa5"/>
-      <stop offset="50%" stop-color="#5b8cbf"/>
-      <stop offset="70%" stop-color="#4a6fa5"/>
-      <stop offset="100%" stop-color="#2c3e50"/>
+      <stop offset="0%" stop-color="#3730a3"/>
+      <stop offset="30%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="70%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#3730a3"/>
     </linearGradient>
 
     <!-- Top cap (aluminum seal) -->
@@ -38,6 +38,13 @@
     <linearGradient id="label" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="100%" stop-color="#f0f4f8"/>
+    </linearGradient>
+
+    <!-- Brand accent bar gradient -->
+    <linearGradient id="brandBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
     </linearGradient>
 
     <!-- Drop shadow -->
@@ -58,7 +65,7 @@
   <ellipse cx="100" cy="340" rx="42" ry="6" fill="url(#liquid)" opacity="0.7"/>
 
   <!-- Liquid surface line -->
-  <line x1="58" y1="242" x2="142" y2="242" stroke="#81c784" stroke-width="0.8" opacity="0.5"/>
+  <line x1="58" y1="242" x2="142" y2="242" stroke="#3b82f6" stroke-width="0.8" opacity="0.5"/>
 
   <!-- Glass reflection highlight -->
   <rect x="65" y="115" width="12" height="200" rx="6" fill="#ffffff" opacity="0.35"/>
@@ -75,7 +82,7 @@
 
   <!-- Flip-off top -->
   <rect x="72" y="30" width="56" height="18" rx="6" fill="url(#cap)" stroke="#1a2a3a" stroke-width="1.2"/>
-  <ellipse cx="100" cy="30" rx="28" ry="4" fill="#3a5a8a"/>
+  <ellipse cx="100" cy="30" rx="28" ry="4" fill="#4338ca"/>
   <!-- Flip-off dot -->
   <circle cx="100" cy="36" r="4" fill="#e74c3c" opacity="0.8"/>
 
@@ -83,26 +90,34 @@
   <rect x="62" y="145" width="76" height="95" rx="4" fill="url(#label)" stroke="#d0d8e0" stroke-width="0.8"/>
 
   <!-- Label border decoration -->
-  <rect x="65" y="148" width="70" height="89" rx="3" fill="none" stroke="#4a6fa5" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <rect x="65" y="148" width="70" height="89" rx="3" fill="none" stroke="#4f46e5" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <!-- Small decorative line above text -->
-  <line x1="72" y1="168" x2="128" y2="168" stroke="#4a6fa5" stroke-width="1.5" opacity="0.6"/>
+  <!-- Brand accent bar at top of label -->
+  <rect x="66" y="150" width="68" height="3" rx="1.5" fill="url(#brandBar)"/>
+
+  <!-- ViralPeps brand name -->
+  <text x="100" y="172" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" fill="#6366f1" text-anchor="middle" letter-spacing="2">VIRALPEPS</text>
+
+  <!-- Small decorative line -->
+  <line x1="72" y1="179" x2="128" y2="179" stroke="#e0e7ff" stroke-width="0.8"/>
 
   <!-- Compound name -->
-  
-    <text x="100" y="230" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#1a3a5c" text-anchor="middle" dominant-baseline="middle">BPC-157</text>
+  <text x="100" y="223" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#1e3a5f" text-anchor="middle" dominant-baseline="middle">BPC-157</text>
 
   <!-- Small decorative line below text -->
-  <line x1="72" y1="268" x2="128" y2="268" stroke="#4a6fa5" stroke-width="1.5" opacity="0.6"/>
+  <line x1="72" y1="250" x2="128" y2="250" stroke="#e0e7ff" stroke-width="0.8"/>
+
+  <!-- Brand accent bar at bottom of label -->
+  <rect x="66" y="253" width="68" height="3" rx="1.5" fill="url(#brandBar)"/>
 
   <!-- Label bottom line -->
-  <text x="100" y="305" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#7f8c8d" text-anchor="middle">For Research Use Only</text>
+  <text x="100" y="305" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">For Research Use Only</text>
 
   <!-- Dosage marking -->
-  <text x="100" y="320" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#95a5a6" text-anchor="middle">Peptide Vial</text>
+  <text x="100" y="320" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Research Peptide</text>
 
   <!-- Volume marking on neck -->
-  <text x="100" y="85" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#5a7a9a" text-anchor="middle">5mg</text>
+  <text x="100" y="85" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#4f46e5" text-anchor="middle">5mg</text>
 
   <!-- Barcode-like bottom decoration -->
   <g transform="translate(70, 340)" opacity="0.15">
