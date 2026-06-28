@@ -3178,13 +3178,15 @@
     "longDescription": ""
   },
   {
-    "id": "bpc-tb-blend",
-    "name": "BPC-157 + TB-500 Blend",
-    "slug": "bpc-157-tb-500-blend",
+    "id": "wolverine-stack-bpc157-tb500-blend",
+    "name": "Wolverine Stack BPC157 & TB 500 Blend",
+    "slug": "wolverine-stack-bpc157-tb500-blend",
     "aliases": [
       "BPC-157/TB-500 Stack",
       "Regenerative blend",
-      "BPC/TB mix"
+      "BPC/TB mix",
+      "Wolverine Stack BPC-157/TB-500",
+      "BPC-157 + TB-500 Blend"
     ],
     "category": "peptide-blends",
     "description": "The BPC-157 and TB-500 blend is a synergistic peptide stack combining the systemic regenerative properties of TB-500 (Thymosin Beta-4) with the localised healing effects of BPC-157. This combination is widely researched for accelerated tissue repair, injury recovery, and anti-inflammatory applications across multiple tissue types.",
@@ -3201,7 +3203,9 @@
       "Anti-inflammatory",
       "Joint health",
       "Tendon/ligament healing",
-      "Muscle recovery"
+      "Muscle recovery",
+      "Peptide blends",
+      "Wound healing"
     ],
     "commonDosages": [
       "250-500 mcg BPC + 500-1000 mcg TB per day",
@@ -3250,6 +3254,22 @@
         "url": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend",
         "price": "\u00a336.99",
         "inStock": true
+      },
+      {
+        "vendor": "Dr P Research",
+        "url": "https://drpresearch.co.uk/product/dr-p-wolverine-stack-research-blend-bpc-157-10mg-tb500-10mg-total-20mg-research-material-for-laboratory-use-only/",
+        "price": "\u00a334.99 \u2013 \u00a364.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "10 mg (5+5)",
+            "price": "\u00a334.99"
+          },
+          {
+            "size": "20 mg (10+10)",
+            "price": "\u00a364.99"
+          }
+        ]
       }
     ],
     "longDescription": ""
@@ -4391,82 +4411,6 @@
           {
             "size": "10 mL",
             "price": "\u00a329.99"
-          }
-        ]
-      }
-    ],
-    "longDescription": ""
-  },
-  {
-    "id": "wolverine-stack-20mg",
-    "name": "Wolverine Stack 20mg",
-    "slug": "wolverine-stack-20mg",
-    "aliases": [
-      "Wolverine Stack",
-      "BPC-157 TB-500 blend 20mg"
-    ],
-    "category": "peptide-blends",
-    "description": "Wolverine Stack research blend containing BPC-157 10mg and TB500 10mg (total 20mg) for laboratory research. A pre-mixed dual-peptide blend for combined wound healing and tissue repair research.",
-    "mechanism": "Combines BPC-157 (pentadecapeptide) with Thymosin Beta-4 fragment (TB-500) in a single vial for synergistic tissue healing pathway research.",
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "\u226599%",
-    "form": "Lyophilized powder (20mg total)",
-    "halfLife": "",
-    "researchAreas": [
-      "Peptide blends",
-      "Tissue repair",
-      "Wound healing"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Dr P Research",
-        "url": "https://drpresearch.co.uk/product/dr-p-wolverine-stack-research-blend-bpc-157-10mg-tb500-10mg-total-20mg-research-material-for-laboratory-use-only/",
-        "price": "\u00a364.99",
-        "inStock": true,
-        "options": [
-          {
-            "size": "20 mg (10+10)",
-            "price": "\u00a364.99"
-          }
-        ]
-      }
-    ],
-    "longDescription": ""
-  },
-  {
-    "id": "wolverine-stack-10mg",
-    "name": "Wolverine Stack 10mg",
-    "slug": "wolverine-stack-10mg",
-    "aliases": [
-      "Wolverine Stack mini"
-    ],
-    "category": "peptide-blends",
-    "description": "Wolverine Stack research blend containing BPC-157 5mg and TB500 5mg (total 10mg) for laboratory research. Compact blend for combined peptide research.",
-    "mechanism": "Combines BPC-157 with TB-500 in a single vial for research into combined peptide effects on tissue repair pathways.",
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "\u226599%",
-    "form": "Lyophilized powder (10mg total)",
-    "halfLife": "",
-    "researchAreas": [
-      "Peptide blends",
-      "Tissue repair"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Dr P Research",
-        "url": "https://drpresearch.co.uk/product/915/",
-        "price": "\u00a334.99",
-        "inStock": true,
-        "options": [
-          {
-            "size": "10 mg (5+5)",
-            "price": "\u00a334.99"
           }
         ]
       }
@@ -6067,7 +6011,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend",
+    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
     "longDescription": ""
   },
   {
@@ -8577,7 +8521,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend",
+    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
     "longDescription": ""
   },
   {
@@ -9577,7 +9521,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend",
+    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
     "longDescription": ""
   },
   {
@@ -9608,7 +9552,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "bpc-157-tb-500-blend",
+    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
     "longDescription": ""
   },
   {
@@ -13892,7 +13836,7 @@
     "id": "wolverine-stack-the-peptide-company",
     "name": "Wolverine Stack (BPC157 & TB500) 10mg",
     "slug": "wolverine-stack-the-peptide-company",
-    "compareSlug": "bpc-157-tb-500-blend",
+    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
     "category": "peptide-blends",
     "description": "Wolverine Stack (BPC-157 & TB-500) 10mg peptide blend for research.",
     "aliases": [],
