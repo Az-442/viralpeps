@@ -336,7 +336,8 @@
         "question": "What is the typical dosage for BPC-157 research?",
         "answer": "Common research dosages range from 200\u2013400 mcg daily for general healing, up to 500 mcg twice daily for more intensive protocols targeting significant injuries or gastrointestinal conditions. Daily or twice-daily dosing is recommended due to its short half-life."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "tb-500",
@@ -476,7 +477,8 @@
         "question": "What is the TB-500 dosage protocol in research?",
         "answer": "Typical research protocols use 2.5\u20135 mg per week, sometimes with an initial loading dose of 10 mg. Due to its 4\u20136 hour half-life but persistent biological effects, once or twice weekly dosing is common."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "mt2",
@@ -705,7 +707,8 @@
         "question": "What dosage of GHRP-2 is used in research protocols?",
         "answer": "Typical research dosages range from 100\u2013300 mcg per day, often divided into 2\u20133 doses. Due to its short half-life of 30\u201360 minutes, multiple daily administrations are common. It is frequently combined with a GHRH analogue for enhanced GH pulse generation."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "aod9604",
@@ -1087,7 +1090,8 @@
         "question": "How does the DAC modification work?",
         "answer": "The DAC (Drug Affinity Complex) modification is a maleimidopropionic acid group that covalently binds to cysteine-34 on circulating albumin. This creates a long-lasting reservoir of peptide in the bloodstream that slowly releases active CJC-1295, extending its half-life from minutes to approximately 6\u20138 days."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "igf-1-lr3",
@@ -1197,7 +1201,8 @@
         "question": "What dosage of IGF-1 LR3 is used in research?",
         "answer": "Typical research dosages range from 20\u201360 mcg daily for general protocols, with 40\u201380 mcg post-workout used in muscle growth studies. Its 20\u201330 hour half-life supports once or twice daily administration."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "tesamorelin",
@@ -1326,7 +1331,8 @@
         "question": "What is the dosage of Tesamorelin in research?",
         "answer": "The standard research dosage is 2 mg once daily via subcutaneous injection. Its short half-life necessitates daily administration for sustained GH and IGF-1 elevation."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "sermorelin",
@@ -1562,7 +1568,8 @@
         "question": "What is the dosage of MOTS-c in research?",
         "answer": "Research dosages typically range from 10\u201315 mg per day, sometimes split into two daily doses of 5\u201310 mg. The half-life is approximately 60 minutes, supporting twice-daily administration schedules."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "ss-31",
@@ -1673,7 +1680,8 @@
         "question": "What is the typical SS-31 dosage in research?",
         "answer": "Research dosages typically range from 10\u201340 mg daily, with 20 mg subcutaneous daily being a common protocol. Its half-life of 2\u20134 hours supports once or twice daily administration."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "ghk-cu",
@@ -1823,7 +1831,8 @@
         "question": "Why does GHK-Cu decline with age?",
         "answer": "GHK-Cu plasma levels naturally decline with age \u2014 from approximately 200 ng/mL in young adults to 80 ng/mL by age 60. This decline correlates with reduced wound healing capacity and increased incidence of age-related tissue degeneration."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "kpv",
@@ -1956,7 +1965,8 @@
         "question": "What is the KPV dosage in research protocols?",
         "answer": "Research dosages typically range from 1\u201310 mg per day for systemic studies, with animal models using 1\u20135 mg/kg. Due to its short half-life (~15 minutes), daily or twice-daily administration is common."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "thymosin-alpha-1",
@@ -2041,6 +2051,12 @@
             "price": "\u00a334.99"
           }
         ]
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/",
+        "price": "\u00a344.00",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nThymosin Alpha-1 (T\u03b11), also known as thymalfasin or Zadaxin, is a naturally occurring 28-amino acid peptide originally isolated from the thymus gland by Allan Goldstein in the 1970s. As one of the most clinically established immunomodulatory peptides, T\u03b11 has been used in over 40 countries for the treatment of hepatitis B, hepatitis C, and as an immune adjuvant in cancer therapy, infectious diseases, and vaccine enhancement. Unlike many research peptides, thymosin alpha-1 has a substantial body of clinical evidence supporting its efficacy and safety, with more than 30 phase 2\u20134 clinical trials conducted. The peptide enhances multiple arms of the immune system \u2014 including T-cell maturation, natural killer cell activity, and dendritic cell function \u2014 without directly stimulating the immune system to the point of overactivation. UK immunologists and infectious disease researchers have utilised thymosin alpha-1 extensively for studies on immune restoration, vaccine response enhancement, and therapeutic applications in chronic infections.\n\n## Mechanism of Action\n\nThymosin Alpha-1 exerts its immunomodulatory effects through activation of Toll-like receptor 9 (TLR-9) and downstream MyD88-dependent signalling pathways in dendritic cells, macrophages, and other antigen-presenting cells. This activation increases production of IL-2, IFN-\u03b3, and IL-12 while decreasing IL-4 \u2014 promoting a Th1-dominant immune response essential for antiviral and antitumour immunity. T\u03b11 enhances T-cell maturation and differentiation in the thymus and periphery, increases natural killer (NK) cell cytotoxicity, and promotes dendritic cell maturation and antigen presentation. It also upregulates MHC class I expression and costimulatory molecules (CD80, CD86) on antigen-presenting cells, improving T-cell activation. The peptide demonstrates a unique ability to \"normalise\" immune function \u2014 boosting depressed immune responses while suppressing overactive ones \u2014 through its balanced modulation of cytokine networks.\n\n## Research & Clinical Data\n\nThymosin Alpha-1 has been studied in over 3,000 patients across multiple indications. In chronic hepatitis B, meta-analyses show that T\u03b11 combined with interferon or nucleoside analogues achieves superior virological and biochemical response rates compared to monotherapy. In hepatitis C, T\u03b11 combined with pegylated interferon and ribavirin improved sustained virological response in difficult-to-treat patients. As a cancer adjuvant, T\u03b11 has been studied in lung cancer, melanoma, hepatocellular carcinoma, and head and neck cancers, showing improved immune reconstitution and survival trends. More recent research has explored T\u03b11 as a vaccine adjuvant for influenza and COVID-19 vaccines, and for immune restoration in sepsis and post-surgical immunosuppression.\n\n## Dosage & Administration\n\nCommon research dosages for thymosin alpha-1 are 1.6 mg twice weekly (the standard clinical dose for hepatitis B), with dosing ranging from 1.6\u20136.4 mg per week depending on the indication. The half-life is approximately 1.5\u20132 hours. Subcutaneous administration is the standard route. Reconstitution with bacteriostatic water is standard, and solutions should be stored at 2\u20138\u00b0C.\n\n## Safety & Legal\n\nThymosin Alpha-1 is approved for clinical use in multiple countries (excluding the US and UK) but is intended for research purposes only. It has an excellent safety profile with mild injection site reactions being the most common adverse event. The lyophilised powder should be stored at 2\u20138\u00b0C for long-term stability. Researchers should ensure \u226599% purity from verified suppliers.\n\n\nThe clinical journey of thymosin alpha-1 from thymus-derived peptide to globally used immunotherapeutic is remarkable. First isolated and characterised by Dr. Allan Goldstein at George Washington University, T\u03b11 was one of the first thymic peptides to enter clinical development. The peptide was originally investigated for its ability to restore immune function in immunocompromised patients and was subsequently approved in multiple countries for hepatitis B and C, as a vaccine adjuvant, and as an immune restorative agent in cancer patients.\n\nThe mechanism of T\u03b11 as a TLR-9 agonist is particularly elegant. TLR-9 recognises unmethylated CpG DNA motifs found in bacterial and viral DNA, and its activation triggers a robust innate immune response. By activating this pathway, T\u03b11 stimulates dendritic cell maturation, enhances antigen presentation, and promotes a Th1-dominant cytokine response \u2014 effects that are beneficial for clearing intracellular pathogens and for generating effective antitumour immunity.\n\nResearch into T\u03b11 as a cancer adjuvant has been extensive. In hepatocellular carcinoma, T\u03b11 combined with transarterial chemoembolisation (TACE) improved survival compared to TACE alone. In advanced non-small cell lung cancer, T\u03b11 combined with chemotherapy improved response rates and survival. The peptide was also investigated as a vaccine adjuvant for influenza and, more recently, for COVID-19 vaccines, where it enhanced antibody responses and T-cell immunity.\n\nThe standard clinical dosage of T\u03b11 is 1.6 mg twice weekly by subcutaneous injection. The peptide has a half-life of 1.5\u20132 hours and is well tolerated. T\u03b11 is available from UK research suppliers including United Peptides and BodyHack Guide Shop. Given its extensive clinical track record, researchers have access to substantial safety and efficacy data to guide their experimental designs.",
@@ -2065,7 +2081,8 @@
         "question": "Is Thymosin Alpha-1 clinically approved?",
         "answer": "Yes, Thymosin Alpha-1 (Zadaxin) is approved for clinical use in over 40 countries for hepatitis B and C treatment. However, it is not FDA or MHRA approved and is intended for research purposes in those jurisdictions."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "epitalon",
@@ -2178,7 +2195,8 @@
         "question": "What is the dosage protocol for Epitalon research?",
         "answer": "Research dosages range from 1\u201310 mg per day, with common protocols using short courses of 5\u201310 mg administered twice per year. Its very short half-life (~10 minutes) and epigenetic mechanism make intermittent course-based dosing the standard approach."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "semax",
@@ -2310,7 +2328,8 @@
         "question": "How long does Semax take to work?",
         "answer": "Semax has a rapid onset of action \u2014 effects can be noticed within 15\u201330 minutes of intranasal administration due to direct nose-to-brain transport. Peak cognitive effects are typically reported within 1\u20132 hours, and consistent use over 5\u201310 days produces cumulative improvements."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "selank",
@@ -2441,7 +2460,8 @@
         "question": "Does Selank have cognitive benefits?",
         "answer": "Yes, unlike conventional anxiolytics, selank has been shown to improve attention, memory consolidation, and executive function in clinical studies. This cognitive enhancement, combined with anxiolysis, makes it unique among anti-anxiety compounds."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "ara-290",
@@ -2553,7 +2573,8 @@
         "question": "What is the ARA-290 dosage in research?",
         "answer": "Clinical studies have used 4 mg subcutaneous daily for 28 days, with general research dosages ranging from 2\u20138 mg per day. Its short half-life (~20 minutes) supports daily administration."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "bpc-157-oral",
@@ -2739,7 +2760,8 @@
         "price": "\u00a314.40",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "hexarelin",
@@ -2830,7 +2852,8 @@
         "price": "\u00a312.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "ipamorelin",
@@ -2937,7 +2960,8 @@
         "price": "\u00a39.50",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "ghrp-6",
@@ -3040,7 +3064,8 @@
         "price": "\u00a39.50",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "pt-141",
@@ -3136,8 +3161,15 @@
             "price": "\u00a317.49"
           }
         ]
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/pt-141-bremelanotide-10mg/",
+        "price": "\u00a320.00",
+        "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "kisspeptin-10",
@@ -3245,7 +3277,8 @@
         "price": "\u00a321.50",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "cerebrolysin",
@@ -3799,7 +3832,8 @@
         "price": "\u00a349.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "gonadorelin",
@@ -3980,7 +4014,8 @@
         "price": "\u00a315.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "oxytocin",
@@ -4331,7 +4366,8 @@
         "price": "\u00a321.95",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "bacteriostatic-water",
@@ -4475,7 +4511,8 @@
         "price": "\u00a340.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "hcg",
@@ -5294,7 +5331,8 @@
         "price": "\u00a342.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "ll-37",
@@ -5334,7 +5372,8 @@
         "price": "\u00a330.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "thymalin",
@@ -5385,7 +5424,8 @@
         "price": "\u00a335.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "vip",
@@ -5430,7 +5470,8 @@
         "price": "\u00a340.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "aicar",
@@ -5509,7 +5550,8 @@
         "price": "\u00a342.50",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "glutathione",
@@ -5541,8 +5583,15 @@
             "price": "\u00a344.99"
           }
         ]
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/glutathione-1500mg/",
+        "price": "\u00a346.00",
+        "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "pnc-27",
@@ -5797,7 +5846,8 @@
         "price": "\u00a346.50",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "chonliten",
@@ -6059,7 +6109,8 @@
         "price": "\u00a335.00",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "bronchogen",
@@ -6424,11 +6475,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/ace-031-1mg/",
         "price": "\u00a360.00",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2015/02/ace-031-1mg-front.png"
+        "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true,
+    "compareSlug": "ace-031-1mg"
   },
   {
     "id": "acetic-acid-10ml",
@@ -6457,7 +6509,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/Acetic-Acid_Front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "adamax-5mg",
@@ -6486,7 +6539,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/05/adamax-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "adamax",
+    "vendorProduct": true
   },
   {
     "id": "adipotide-ftpp-5mg",
@@ -6515,7 +6570,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/adipotide-ftpp-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "5-amino-1mq-50mg",
@@ -6544,7 +6600,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "5-amino-1mq",
+    "vendorProduct": true
   },
   {
     "id": "ara-290-16mg",
@@ -6573,7 +6631,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ara-290-16mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ara-290",
+    "vendorProduct": true
   },
   {
     "id": "bacteriostatic-water-10ml",
@@ -6602,7 +6662,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/bac-water-10ml-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "bacteriostatic-water-30ml",
@@ -6631,7 +6692,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/bac-water-30ml-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "bpc-157-5mg",
@@ -6660,7 +6722,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/bpc-157-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "bpc-157",
+    "vendorProduct": true
   },
   {
     "id": "premium-bpc-157-5mg",
@@ -6689,7 +6753,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/cropped-image-coming-soon-768x768-550x550-2.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "bpc-157",
+    "vendorProduct": true
   },
   {
     "id": "bpc-157-5mg-tb500-5mg",
@@ -6718,7 +6784,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "bpc-157-tb-500-blend",
+    "vendorProduct": true
   },
   {
     "id": "bundle-gh-stack",
@@ -6747,7 +6815,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/ppuk-bundle-pack-3.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "bundle-premium-gh-stack",
@@ -6776,7 +6845,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Premium-Bundle-Pack-3-1.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "bundle-gh-stack",
+    "vendorProduct": true
   },
   {
     "id": "bundle-wolverine-stack",
@@ -6805,7 +6876,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Wolverine-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "bundle-glow-stack",
@@ -6834,7 +6906,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Glow-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "bundle-super-stack",
@@ -6863,7 +6936,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Super-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "bundle-mito-stack",
@@ -6892,7 +6966,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/09/PPUK-Bundle-Mitro-Stack.jpg"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "cartalax-20mg",
@@ -6921,7 +6996,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/06/cartalax-20mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "cartalax",
+    "vendorProduct": true
   },
   {
     "id": "cjc-1295-with-dac-2mg",
@@ -6950,7 +7027,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/cjc-with-dac-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "dsip-5mg",
@@ -6979,7 +7057,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/dsip-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "dsip",
+    "vendorProduct": true
   },
   {
     "id": "epitalon-10mg",
@@ -7008,7 +7088,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/epitalon-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "epitalon",
+    "vendorProduct": true
   },
   {
     "id": "follistatin-344-1mg",
@@ -7031,13 +7113,14 @@
     "sources": [
       {
         "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/follistatin-344-1mg-95-purity/",
+        "url": "https://purepeptidesuk.com/product/follistatin-344-1mg/",
         "price": "\u00a375.00",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/follistatin-344-1mg-front.png"
+        "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true,
+    "compareSlug": "follistatin-344-1mg"
   },
   {
     "id": "fragment-176-191-2mg",
@@ -7066,7 +7149,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/Fragment-176-191-2mg-Front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "fragment-176-191",
+    "vendorProduct": true
   },
   {
     "id": "fragment-176-191-5mg",
@@ -7095,7 +7180,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/fragment-176-191-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "fragment-176-191",
+    "vendorProduct": true
   },
   {
     "id": "premium-ghk-cu-50mg",
@@ -7124,7 +7211,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ghk-cu",
+    "vendorProduct": true
   },
   {
     "id": "ghk-cu-50mg",
@@ -7153,7 +7242,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ghk-cu-50mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ghk-cu",
+    "vendorProduct": true
   },
   {
     "id": "ghrp-2-5mg",
@@ -7182,7 +7273,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2012/11/ghrp-2-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ghrp-2",
+    "vendorProduct": true
   },
   {
     "id": "premium-ghrp-2-5mg",
@@ -7211,7 +7304,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2012/11/premium-ghrp-2-5mg-front2.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ghrp-2",
+    "vendorProduct": true
   },
   {
     "id": "ghrp-6-5mg",
@@ -7240,7 +7335,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ghrp-6-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ghrp-6",
+    "vendorProduct": true
   },
   {
     "id": "premium-ghrp-6-5mg",
@@ -7269,7 +7366,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/premium-ghrp-6-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ghrp-6",
+    "vendorProduct": true
   },
   {
     "id": "glutathione-1500mg",
@@ -7298,7 +7397,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "glutathione",
+    "vendorProduct": true
   },
   {
     "id": "gnrh-triptorelin-100mcg",
@@ -7327,7 +7428,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/gnrh-triptorelin-100mcg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "hcg-5000iu",
@@ -7352,11 +7454,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/hcg-5000iu/",
         "price": "\u00a333.00",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/05/hcg-5000iu-front.png"
+        "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true,
+    "compareSlug": "hcg-5000iu"
   },
   {
     "id": "hexarelin-2mg",
@@ -7385,7 +7488,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/hexarelin-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "hexarelin",
+    "vendorProduct": true
   },
   {
     "id": "hmg-75iu",
@@ -7410,11 +7515,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/hmg-75iu/",
         "price": "\u00a332.50",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/hmg-75iu-front.png"
+        "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true,
+    "compareSlug": "hmg-75iu"
   },
   {
     "id": "igf-1-lr3-100mcg",
@@ -7443,7 +7549,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/igf-long-r3-100mcg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "igf-1-lr3",
+    "vendorProduct": true
   },
   {
     "id": "igf-1-long-r3-1mg",
@@ -7472,7 +7580,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/igf-long-r3-1mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "igf-1-lr3",
+    "vendorProduct": true
   },
   {
     "id": "ipamorelin-2mg",
@@ -7501,7 +7611,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ipamorelin-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ipamorelin",
+    "vendorProduct": true
   },
   {
     "id": "premium-ipamorelin-2mg",
@@ -7530,7 +7642,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/premium-ipamorelin-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ipamorelin",
+    "vendorProduct": true
   },
   {
     "id": "ipamorelin-5mg",
@@ -7559,7 +7673,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ipamorelin-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ipamorelin",
+    "vendorProduct": true
   },
   {
     "id": "premium-ipamorelin-5mg",
@@ -7588,7 +7704,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/premium-ipamorelin-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ipamorelin",
+    "vendorProduct": true
   },
   {
     "id": "kisspeptin-5mg",
@@ -7617,7 +7735,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/kisspeptin-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "kisspeptin-10",
+    "vendorProduct": true
   },
   {
     "id": "kpv-5mg",
@@ -7646,7 +7766,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/kpv-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "kpv",
+    "vendorProduct": true
   },
   {
     "id": "ll-37-5mg",
@@ -7675,7 +7797,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ll-37-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ll-37",
+    "vendorProduct": true
   },
   {
     "id": "modified-grf-1-29-2mg",
@@ -7704,7 +7828,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/modified-grf-1-29-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "cjc-1295",
+    "vendorProduct": true
   },
   {
     "id": "premium-mod-grf-1-29-2mg",
@@ -7733,7 +7859,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/premium-modified-grf-1-29-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "cjc-1295",
+    "vendorProduct": true
   },
   {
     "id": "premium-mod-grf-5mg",
@@ -7762,7 +7890,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/premium-modified-grf-1-29-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "cjc-1295",
+    "vendorProduct": true
   },
   {
     "id": "mots-c-5mg",
@@ -7791,7 +7921,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/mots-c-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "mots-c",
+    "vendorProduct": true
   },
   {
     "id": "mots-c-10mg",
@@ -7820,7 +7952,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/mots-c-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "mots-c",
+    "vendorProduct": true
   },
   {
     "id": "premium-mots-c-10mg",
@@ -7849,7 +7983,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "mots-c",
+    "vendorProduct": true
   },
   {
     "id": "mots-c-40mg",
@@ -7878,7 +8014,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/cropped-image-coming-soon-768x768-550x550-2.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "mots-c",
+    "vendorProduct": true
   },
   {
     "id": "nad-500mg",
@@ -7907,7 +8045,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/nad-plus-500mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "nad-plus",
+    "vendorProduct": true
   },
   {
     "id": "peg-mgf-5mg",
@@ -7936,7 +8076,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/peg-mgf-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "pbs-10ml",
@@ -7965,7 +8106,8 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true
   },
   {
     "id": "pt-141-bremelanotide-10mg",
@@ -7994,7 +8136,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/pt-141-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "pt-141-bremelanotide",
+    "vendorProduct": true
   },
   {
     "id": "selank-5mg",
@@ -8023,7 +8167,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/selank-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "selank",
+    "vendorProduct": true
   },
   {
     "id": "n-acetyl-selank-amidate-10mg",
@@ -8052,7 +8198,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/n-acetyl-selank-amidate-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "selank",
+    "vendorProduct": true
   },
   {
     "id": "semax-5mg",
@@ -8081,7 +8229,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/semax-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "semax",
+    "vendorProduct": true
   },
   {
     "id": "n-acetyl-semax-amidate-10mg",
@@ -8110,7 +8260,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/n-acetyl-semax-amidate-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "semax",
+    "vendorProduct": true
   },
   {
     "id": "snap-8-10mg",
@@ -8139,7 +8291,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/snap-8-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "snap-8",
+    "vendorProduct": true
   },
   {
     "id": "ss-31-10mg",
@@ -8168,7 +8322,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ss-31-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ss-31",
+    "vendorProduct": true
   },
   {
     "id": "ss-31-50mg",
@@ -8197,7 +8353,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/cropped-image-coming-soon-768x768-550x550-2.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "ss-31",
+    "vendorProduct": true
   },
   {
     "id": "tesamorelin-2mg",
@@ -8226,7 +8384,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/tesamorelin-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "tesamorelin",
+    "vendorProduct": true
   },
   {
     "id": "tesamorelin-10mg",
@@ -8255,7 +8415,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "tesamorelin",
+    "vendorProduct": true
   },
   {
     "id": "thymalin-10mg",
@@ -8284,7 +8446,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/thymalin-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "thymalin",
+    "vendorProduct": true
   },
   {
     "id": "thymalin-20mg",
@@ -8313,7 +8477,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/thymalin-20mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "thymalin",
+    "vendorProduct": true
   },
   {
     "id": "thymosin-alpha-1-10mg",
@@ -8342,7 +8508,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/thymosin-alpha-1-10mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "thymosin-alpha-1",
+    "vendorProduct": true
   },
   {
     "id": "thymosin-beta-4-tb500-2mg",
@@ -8371,7 +8539,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/tb500-thymosin-beta-4-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "tb-500",
+    "vendorProduct": true
   },
   {
     "id": "premium-thymosin-beta-4-tb500-2mg",
@@ -8400,7 +8570,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2013/03/premium-tb500-2mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "tb-500",
+    "vendorProduct": true
   },
   {
     "id": "thymosin-beta-4-tb500-5mg",
@@ -8429,7 +8601,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/tb500-thymosin-beta-4-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "tb-500",
+    "vendorProduct": true
   },
   {
     "id": "premium-thymosin-beta-4-tb500-5mg",
@@ -8458,7 +8632,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/premium-tb500-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "tb-500",
+    "vendorProduct": true
   },
   {
     "id": "tp2-10mg",
@@ -8483,11 +8659,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/tp2-10mg/",
         "price": "\u00a326.99",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/tp-2-10mg-front.png"
+        "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true,
+    "compareSlug": "tp2-10mg"
   },
   {
     "id": "vip-5mg",
@@ -8516,7 +8693,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/vip-5mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "vip",
+    "vendorProduct": true
   },
   {
     "id": "vesugen-20mg",
@@ -8545,7 +8724,9 @@
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/vesugen-20mg-front.png"
       }
     ],
-    "faq": []
+    "faq": [],
+    "compareSlug": "vesugen",
+    "vendorProduct": true
   },
   {
     "id": "vilon-20mg",
@@ -8570,10 +8751,11 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/vilon-20mg/",
         "price": "\u00a335.00",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/vilon-20mg-front.png"
+        "inStock": true
       }
     ],
-    "faq": []
+    "faq": [],
+    "vendorProduct": true,
+    "compareSlug": "vilon-20mg"
   }
 ]
