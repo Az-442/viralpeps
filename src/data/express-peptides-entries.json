@@ -1,0 +1,2462 @@
+[
+  {
+    "id": "adipotide-vial-express",
+    "name": "Adipotide",
+    "slug": "adipotide-vial-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Adipotide (FTPP) is a pro-apoptotic peptide that selectively targets blood vessels supplying adipose tissue, inducing programmed cell death in the endothelial cells of fat tissue vasculature.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/adipotide/vial",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/adipotide-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "adipotide-ftpp-5mg-1"
+  },
+  {
+    "id": "adipotide-pen-express",
+    "name": "Adipotide Pre-mixed Pen",
+    "slug": "adipotide-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Adipotide (FTPP) is a pro-apoptotic peptide that selectively targets blood vessels supplying adipose tissue.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/adipotide/pen",
+        "price": "\u00a379.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/adipotide-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "adipotide-ftpp-5mg-1"
+  },
+  {
+    "id": "ahk-cu-pen-express",
+    "name": "AHK-Cu Pre-mixed Pen",
+    "slug": "ahk-cu-pen-express",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "AHK-Cu is a copper peptide complex known for its skin regenerative and anti-aging properties, promoting collagen synthesis and wound healing.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ahk-cu/pen",
+        "price": "\u00a359.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ahk-cu-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ahk-cu"
+  },
+  {
+    "id": "aod-9604-vial-express",
+    "name": "AOD 9604",
+    "slug": "aod-9604-vial-express",
+    "aliases": [],
+    "category": "aod-fragments",
+    "description": "AOD 9604 is a modified fragment of Human Growth Hormone (hGH 177-191) that stimulates fat metabolism and lipolysis without affecting blood sugar or growth.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/aod-9604/vial",
+        "price": "\u00a350.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/aod-9604-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "aod-9604"
+  },
+  {
+    "id": "aod-9604-pen-express",
+    "name": "AOD 9604 Pre-mixed Pen",
+    "slug": "aod-9604-pen-express",
+    "aliases": [],
+    "category": "aod-fragments",
+    "description": "AOD 9604 is a modified fragment of Human Growth Hormone (hGH 177-191) that stimulates fat metabolism.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/aod-9604/pen",
+        "price": "\u00a380.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/aod-9604-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "aod-9604"
+  },
+  {
+    "id": "ara-290-pen-express",
+    "name": "ARA-290 Pre-mixed Pen",
+    "slug": "ara-290-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "ARA-290 is a non-hematopoietic peptide derived from erythropoietin (EPO) with neuroprotective, anti-inflammatory and tissue-protective properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ara-290/pen",
+        "price": "\u00a355.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ara-290-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ara-290"
+  },
+  {
+    "id": "bacteriostatic-water-vial-express",
+    "name": "Bacteriostatic Water",
+    "slug": "bacteriostatic-water-vial-express",
+    "aliases": [],
+    "category": "supplies",
+    "description": "Sterile bacteriostatic water for injection, containing 0.9% benzyl alcohol, used for reconstituting lyophilised peptide powders.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Sterile solution",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/bacteriostatic-water/vial",
+        "price": "\u00a37.50",
+        "inStock": true,
+        "image": "/images/products/express-peptides/bacteriostatic-water-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "bacteriostatic-water"
+  },
+  {
+    "id": "bpc-157-vial-express",
+    "name": "BPC-157",
+    "slug": "bpc-157-vial-express",
+    "aliases": [],
+    "category": "thymosin-bpc",
+    "description": "BPC-157 (Body Protection Compound 157) is a synthetic peptide derived from a protein found in human gastric juice, known for its regenerative and healing properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/bpc-157/vial",
+        "price": "\u00a317.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/bpc-157-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "bpc-157"
+  },
+  {
+    "id": "bpc-157-pen-express",
+    "name": "BPC-157 Pre-mixed Pen",
+    "slug": "bpc-157-pen-express",
+    "aliases": [],
+    "category": "thymosin-bpc",
+    "description": "BPC-157 (Body Protection Compound 157) is a synthetic peptide known for its regenerative and healing properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/bpc-157/pen",
+        "price": "\u00a337.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/bpc-157-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "bpc-157"
+  },
+  {
+    "id": "bpc-157-tb-500-vial-express",
+    "name": "BPC-157 + TB-500 (Wolverine)",
+    "slug": "bpc-157-tb-500-vial-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "The Wolverine stack combines BPC-157 and TB-500, two powerful regenerative peptides that work synergistically for enhanced tissue repair and recovery.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/vial",
+        "price": "\u00a338.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/bpc-157-tb-500-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "bpc-157-tb-500-blend"
+  },
+  {
+    "id": "bpc-157-tb-500-pen-express",
+    "name": "BPC-157 + TB-500 (Wolverine) Pre-mixed Pen",
+    "slug": "bpc-157-tb-500-pen-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "The Wolverine stack combines BPC-157 and TB-500 for enhanced tissue repair and recovery.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen",
+        "price": "\u00a354.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/bpc-157-tb-500-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "bpc-157-tb-500-blend"
+  },
+  {
+    "id": "cartalax-pen-express",
+    "name": "Cartalax Pre-mixed Pen",
+    "slug": "cartalax-pen-express",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "Cartalax is a peptide complex designed to support joint and cartilage health through its regenerative properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/cartalax/pen",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/cartalax-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cartalax"
+  },
+  {
+    "id": "cjc-1295-vial-express",
+    "name": "CJC-1295 (No DAC)",
+    "slug": "cjc-1295-vial-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (No DAC) is a growth hormone-releasing hormone (GHRH) analog that stimulates the production and release of growth hormone from the pituitary gland.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/cjc-1295/vial",
+        "price": "\u00a314.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/cjc-1295-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "cjc-1295-pen-express",
+    "name": "CJC-1295 (No DAC) Pre-mixed Pen",
+    "slug": "cjc-1295-pen-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (No DAC) is a GHRH analog that stimulates growth hormone release.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/cjc-1295/pen",
+        "price": "\u00a339.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/cjc-1295-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "cjc-1295-with-dac-vial-express",
+    "name": "CJC-1295 (With DAC)",
+    "slug": "cjc-1295-with-dac-vial-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (With DAC) is a long-acting GHRH analog with a Drug Affinity Complex (DAC) that extends its half-life for sustained growth hormone release.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/vial",
+        "price": "\u00a325.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/cjc-1295-with-dac-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "cjc-1295-with-dac-pen-express",
+    "name": "CJC-1295 (With DAC) Pre-mixed Pen",
+    "slug": "cjc-1295-with-dac-pen-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (With DAC) is a long-acting GHRH analog with extended half-life for sustained GH release.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/cjc-1295-with-dac-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "dsip-vial-express",
+    "name": "DSIP (Delta Sleep-Inducing Peptide)",
+    "slug": "dsip-vial-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "DSIP (Delta Sleep-Inducing Peptide) is a natural nonapeptide that promotes delta-wave sleep and helps regulate the sleep-wake cycle.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/dsip/vial",
+        "price": "\u00a317.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/dsip-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "dsip"
+  },
+  {
+    "id": "dsip-pen-express",
+    "name": "DSIP (Delta Sleep-Inducing Peptide) Pre-mixed Pen",
+    "slug": "dsip-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "DSIP (Delta Sleep-Inducing Peptide) promotes delta-wave sleep and helps regulate sleep-wake cycles.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/dsip/pen",
+        "price": "\u00a338.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/dsip-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "dsip"
+  },
+  {
+    "id": "epithalon-vial-express",
+    "name": "Epithalon",
+    "slug": "epithalon-vial-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Epithalon (Epitalon) is a synthetic tetrapeptide that activates telomerase and regulates pineal gland function, associated with anti-aging research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+        "price": "\u00a325.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/epithalon-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "epitalon"
+  },
+  {
+    "id": "epithalon-pen-express",
+    "name": "Epithalon Pre-mixed Pen",
+    "slug": "epithalon-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Epithalon (Epitalon) activates telomerase and regulates pineal gland function for anti-aging research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/epithalon/pen",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/epithalon-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "epitalon"
+  },
+  {
+    "id": "follistatin-344-vial-express",
+    "name": "Follistatin 344",
+    "slug": "follistatin-344-vial-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "Follistatin 344 is a protein that binds to and neutralizes activin, promoting muscle growth and inhibiting myostatin.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/follistatin-344/vial",
+        "price": "\u00a380.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/follistatin-344-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "follistatin-344"
+  },
+  {
+    "id": "follistatin-344-pen-express",
+    "name": "Follistatin 344 Pre-mixed Pen",
+    "slug": "follistatin-344-pen-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "Follistatin 344 binds to and neutralizes activin, promoting muscle growth by inhibiting myostatin.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/follistatin-344/pen",
+        "price": "\u00a3100.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/follistatin-344-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "follistatin-344"
+  },
+  {
+    "id": "ghk-cu-vial-express",
+    "name": "GHK-Cu",
+    "slug": "ghk-cu-vial-express",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "GHK-Cu is a naturally occurring copper peptide complex that promotes collagen synthesis, wound healing, and skin regeneration.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ghk-cu/vial",
+        "price": "\u00a326.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ghk-cu-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghk-cu"
+  },
+  {
+    "id": "ghk-cu-pen-express",
+    "name": "GHK-Cu Pre-mixed Pen",
+    "slug": "ghk-cu-pen-express",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "GHK-Cu is a naturally occurring copper peptide that promotes collagen synthesis and skin regeneration.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ghk-cu/pen",
+        "price": "\u00a349.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ghk-cu-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghk-cu"
+  },
+  {
+    "id": "ghrp-2-vial-express",
+    "name": "GHRP-2",
+    "slug": "ghrp-2-vial-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "GHRP-2 (Growth Hormone Releasing Peptide-2) is a synthetic hexapeptide that stimulates growth hormone release from the pituitary gland.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ghrp-2/vial",
+        "price": "\u00a316.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ghrp-2-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghrp-2"
+  },
+  {
+    "id": "ghrp-2-pen-express",
+    "name": "GHRP-2 Pre-mixed Pen",
+    "slug": "ghrp-2-pen-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "GHRP-2 stimulates growth hormone release from the pituitary gland.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ghrp-2/pen",
+        "price": "\u00a336.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ghrp-2-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghrp-2"
+  },
+  {
+    "id": "ghrp-6-vial-express",
+    "name": "GHRP-6",
+    "slug": "ghrp-6-vial-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "GHRP-6 (Growth Hormone Releasing Peptide-6) is a synthetic hexapeptide that stimulates growth hormone secretion and increases appetite.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ghrp-6/vial",
+        "price": "\u00a316.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ghrp-6-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghrp-6"
+  },
+  {
+    "id": "ghrp-6-pen-express",
+    "name": "GHRP-6 Pre-mixed Pen",
+    "slug": "ghrp-6-pen-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "GHRP-6 stimulates growth hormone secretion and increases appetite.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ghrp-6/pen",
+        "price": "\u00a336.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ghrp-6-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ghrp-6"
+  },
+  {
+    "id": "glow-combo-pen-express",
+    "name": "GLOW Combo Pre-mixed Pen",
+    "slug": "glow-combo-pen-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "GLOW Combo is a synergistic blend of GHK-Cu, BPC-157, and TB-500 designed for skin health, regeneration, and anti-aging research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/glow-combo/pen",
+        "price": "\u00a375.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/glow-combo-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "glow"
+  },
+  {
+    "id": "hexarelin-acetate-vial-express",
+    "name": "Hexarelin",
+    "slug": "hexarelin-acetate-vial-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Hexarelin is a synthetic hexapeptide growth hormone secretagogue that strongly stimulates GH release from the pituitary gland.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial",
+        "price": "\u00a324.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/hexarelin-acetate-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "hexarelin"
+  },
+  {
+    "id": "hexarelin-acetate-pen-express",
+    "name": "Hexarelin Pre-mixed Pen",
+    "slug": "hexarelin-acetate-pen-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Hexarelin is a potent growth hormone secretagogue that stimulates GH release.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen",
+        "price": "\u00a344.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/hexarelin-acetate-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "hexarelin"
+  },
+  {
+    "id": "fragment-176-191-vial-express",
+    "name": "Fragment 176-191",
+    "slug": "fragment-176-191-vial-express",
+    "aliases": [],
+    "category": "aod-fragments",
+    "description": "Fragment 176-191 (HGH 176-191) is a C-terminal fragment of human growth hormone that stimulates lipolysis and fat metabolism.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial",
+        "price": "\u00a329.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/fragment-176-191-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "fragment-176-191"
+  },
+  {
+    "id": "fragment-176-191-pen-express",
+    "name": "Fragment 176-191 Pre-mixed Pen",
+    "slug": "fragment-176-191-pen-express",
+    "aliases": [],
+    "category": "aod-fragments",
+    "description": "Fragment 176-191 is a C-terminal fragment of HGH that stimulates lipolysis and fat metabolism.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen",
+        "price": "\u00a359.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/fragment-176-191-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "fragment-176-191"
+  },
+  {
+    "id": "igf1-des-vial-express",
+    "name": "IGF-1 DES",
+    "slug": "igf1-des-vial-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "IGF-1 DES is a truncated form of IGF-1 (Insulin-like Growth Factor-1) with enhanced potency and reduced binding to IGF binding proteins.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+        "price": "\u00a344.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-des-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "igf-1-lr3"
+  },
+  {
+    "id": "igf1-des-pen-express",
+    "name": "IGF-1 DES Pre-mixed Pen",
+    "slug": "igf1-des-pen-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "IGF-1 DES is a truncated form of IGF-1 with enhanced potency for muscle growth research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-des/pen",
+        "price": "\u00a364.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-des-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "igf-1-lr3"
+  },
+  {
+    "id": "igf1-lr3-vial-express",
+    "name": "IGF-1 LR3",
+    "slug": "igf1-lr3-vial-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "IGF-1 LR3 is a long-acting analog of Insulin-like Growth Factor-1 with reduced affinity for IGF binding proteins, providing prolonged biological activity.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/vial",
+        "price": "\u00a350.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-lr3-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "igf-1-lr3"
+  },
+  {
+    "id": "igf1-lr3-pen-express",
+    "name": "IGF-1 LR3 Pre-mixed Pen",
+    "slug": "igf1-lr3-pen-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "IGF-1 LR3 is a long-acting IGF-1 analog with prolonged biological activity.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/pen",
+        "price": "\u00a369.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-lr3-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "igf-1-lr3"
+  },
+  {
+    "id": "ipamorelin-vial-express",
+    "name": "Ipamorelin",
+    "slug": "ipamorelin-vial-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Ipamorelin is a pentapeptide growth hormone secretagogue that selectively stimulates GH release without significantly affecting cortisol or prolactin.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ipamorelin/vial",
+        "price": "\u00a326.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ipamorelin-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ipamorelin"
+  },
+  {
+    "id": "ipamorelin-pen-express",
+    "name": "Ipamorelin Pre-mixed Pen",
+    "slug": "ipamorelin-pen-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Ipamorelin selectively stimulates GH release without significantly affecting cortisol or prolactin.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ipamorelin/pen",
+        "price": "\u00a346.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ipamorelin-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ipamorelin"
+  },
+  {
+    "id": "ipamorelin-cjc-combo-pen-express",
+    "name": "Ipamorelin/CJC-1295 No DAC Combo Pre-mixed Pen",
+    "slug": "ipamorelin-cjc-combo-pen-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "Synergistic blend of Ipamorelin and CJC-1295 (No DAC) for enhanced growth hormone release research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen",
+        "price": "\u00a365.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ipamorelin-cjc-combo-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295-ipamorelin-blend"
+  },
+  {
+    "id": "ipamorelin-cjc-combo-dac-pen-express",
+    "name": "Ipamorelin/CJC-1295 With DAC Combo Pre-mixed Pen",
+    "slug": "ipamorelin-cjc-combo-dac-pen-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "Synergistic blend of Ipamorelin and CJC-1295 (With DAC) for prolonged growth hormone release research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo-dac/pen",
+        "price": "\u00a365.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ipamorelin-cjc-combo-dac-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "cjc-1295-ipamorelin-blend"
+  },
+  {
+    "id": "ipamorelin-tesamorelin-pen-express",
+    "name": "Ipamorelin/Tesamorelin Combo Pre-mixed Pen",
+    "slug": "ipamorelin-tesamorelin-pen-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "Synergistic blend of Ipamorelin and Tesamorelin for enhanced growth hormone secretagogue research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen",
+        "price": "\u00a385.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ipamorelin-tesamorelin-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ipamorelin"
+  },
+  {
+    "id": "kisspeptin-pen-express",
+    "name": "Kisspeptin-10 Pre-mixed Pen",
+    "slug": "kisspeptin-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Kisspeptin-10 is the active fragment of the KiSS-1 gene product, a key regulator of the reproductive axis and GnRH secretion.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/kisspeptin/pen",
+        "price": "\u00a344.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/kisspeptin-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "kisspeptin-10"
+  },
+  {
+    "id": "klow-combo-pen-express",
+    "name": "KLOW Combo Pre-mixed Pen",
+    "slug": "klow-combo-pen-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "KLOW is a specialized peptide blend designed for skin lightening and complexion optimization research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/klow-combo/pen",
+        "price": "\u00a384.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/klow-combo-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "klow"
+  },
+  {
+    "id": "kpv-pen-express",
+    "name": "KPV Pre-mixed Pen",
+    "slug": "kpv-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "KPV (Lys-Pro-Val) is a tripeptide with potent anti-inflammatory properties, particularly studied for gut health and inflammatory bowel conditions.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/kpv/pen",
+        "price": "\u00a343.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/kpv-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "kpv"
+  },
+  {
+    "id": "l-carnitine-vial-express",
+    "name": "L-Carnitine",
+    "slug": "l-carnitine-vial-express",
+    "aliases": [],
+    "category": "nad-metabolic",
+    "description": "L-Carnitine is an amino acid derivative that plays a crucial role in energy metabolism by transporting fatty acids into mitochondria for oxidation.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Sterile solution",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/l-carnitine/vial",
+        "price": "\u00a329.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/l-carnitine-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "l-carnitine"
+  },
+  {
+    "id": "l-glutathione-pen-express",
+    "name": "L-Glutathione Pre-mixed Pen",
+    "slug": "l-glutathione-pen-express",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "L-Glutathione is a powerful antioxidant tripeptide composed of glutamate, cysteine, and glycine, essential for cellular detoxification.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/l-glutathione/pen",
+        "price": "\u00a343.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/l-glutathione-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "glutathione"
+  },
+  {
+    "id": "mgf-vial-express",
+    "name": "MGF (Mechano Growth Factor)",
+    "slug": "mgf-vial-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "MGF (Mechano Growth Factor) is a splice variant of IGF-1 that is expressed in response to mechanical stress and muscle damage.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/mgf/vial",
+        "price": "\u00a332.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/mgf-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "mgf"
+  },
+  {
+    "id": "mgf-pen-express",
+    "name": "MGF (Mechano Growth Factor) Pre-mixed Pen",
+    "slug": "mgf-pen-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "MGF is a splice variant of IGF-1 expressed in response to mechanical stress and muscle damage.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/mgf/pen",
+        "price": "\u00a352.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/mgf-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "mgf"
+  },
+  {
+    "id": "mots-c-vial-express",
+    "name": "MOTS-c",
+    "slug": "mots-c-vial-express",
+    "aliases": [],
+    "category": "peptide-fragments",
+    "description": "MOTS-c is a mitochondrial-derived peptide that regulates metabolic homeostasis, insulin sensitivity, and energy expenditure.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/mots-c/vial",
+        "price": "\u00a322.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/mots-c-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "mots-c"
+  },
+  {
+    "id": "mots-c-pen-express",
+    "name": "MOTS-c Pre-mixed Pen",
+    "slug": "mots-c-pen-express",
+    "aliases": [],
+    "category": "peptide-fragments",
+    "description": "MOTS-c is a mitochondrial-derived peptide that regulates metabolic homeostasis and energy expenditure.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/mots-c/pen",
+        "price": "\u00a346.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/mots-c-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "mots-c"
+  },
+  {
+    "id": "nad-vial-express",
+    "name": "NAD+",
+    "slug": "nad-vial-express",
+    "aliases": [],
+    "category": "nad-metabolic",
+    "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme central to cellular metabolism, energy production, and DNA repair processes.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/nad/vial",
+        "price": "\u00a3135.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/nad-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "nad-plus"
+  },
+  {
+    "id": "nad-pen-express",
+    "name": "NAD+ Pre-mixed Pen 500mg",
+    "slug": "nad-pen-express",
+    "aliases": [],
+    "category": "nad-metabolic",
+    "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme central to cellular metabolism and energy production.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/nad/pen",
+        "price": "\u00a3165.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/nad-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "nad-plus"
+  },
+  {
+    "id": "nad-pen-1000-express",
+    "name": "NAD+ Pre-mixed Pen 1000mg",
+    "slug": "nad-pen-1000-express",
+    "aliases": [],
+    "category": "nad-metabolic",
+    "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme central to cellular metabolism and energy production.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/nad/pen/1000",
+        "price": "\u00a3240.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/nad-pen-1000-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "nad-plus"
+  },
+  {
+    "id": "nad-pen-5pack-express",
+    "name": "NAD+ Pre-mixed 5\u00d7500mg Pack",
+    "slug": "nad-pen-5pack-express",
+    "aliases": [],
+    "category": "nad-metabolic",
+    "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme central to cellular metabolism. Discount multi-pack for bulk research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/nad/pen/5",
+        "price": "\u00a3495.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/nad-pen-5pack-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "nad-plus"
+  },
+  {
+    "id": "nad-amino-mots-combo-pen-express",
+    "name": "NAD+/5-Amino-1MQ/MOTS-c Combo Pre-mixed Pen",
+    "slug": "nad-amino-mots-combo-pen-express",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "Metabolic support blend combining NAD+, 5-Amino-1MQ, and MOTS-c for comprehensive metabolic research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen",
+        "price": "\u00a3125.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/nad-amino-mots-combo-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "nad-plus"
+  },
+  {
+    "id": "needle-tip-pen-30-express",
+    "name": "Needle Tips (30G)",
+    "slug": "needle-tip-pen-30-express",
+    "aliases": [],
+    "category": "supplies",
+    "description": "Sterile 30G needle tips suitable for peptide reconstitution and research applications.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Medical supplies",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/needle-tip/30",
+        "price": "N/A",
+        "inStock": true,
+        "image": "/images/products/express-peptides/needle-tip-pen-30-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": null
+  },
+  {
+    "id": "5-amino-1mq-vial-express",
+    "name": "5-Amino-1MQ",
+    "slug": "5-amino-1mq-vial-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "5-Amino-1MQ is a small molecule that inhibits NNMT (Nicotinamide N-Methyltransferase), promoting cellular metabolism and energy expenditure.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/5-amino-1mq/vial",
+        "price": "\u00a360.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/5-amino-1mq-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "5-amino-1mq"
+  },
+  {
+    "id": "5-amino-1mq-pen-express",
+    "name": "5-Amino-1MQ Pre-mixed Pen",
+    "slug": "5-amino-1mq-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "5-Amino-1MQ inhibits NNMT, promoting cellular metabolism and energy expenditure.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+        "price": "\u00a375.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/5-amino-1mq-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "5-amino-1mq"
+  },
+  {
+    "id": "oxytocin-vial-express",
+    "name": "Oxytocin",
+    "slug": "oxytocin-vial-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Oxytocin is a peptide hormone and neuropeptide that plays roles in social bonding, reproduction, and various behavioral processes.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/oxytocin/vial",
+        "price": "\u00a335.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/oxytocin-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "oxytocin"
+  },
+  {
+    "id": "oxytocin-pen-express",
+    "name": "Oxytocin Pre-mixed Pen",
+    "slug": "oxytocin-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Oxytocin is a peptide hormone involved in social bonding, reproduction, and behavioral research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/oxytocin/pen",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/oxytocin-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "oxytocin"
+  },
+  {
+    "id": "peg-mgf-vial-express",
+    "name": "PEG-MGF",
+    "slug": "peg-mgf-vial-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "PEG-MGF is a PEGylated form of Mechano Growth Factor with improved stability and half-life for enhanced muscle growth research.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/peg-mgf/vial",
+        "price": "\u00a332.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/peg-mgf-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "peg-mgf-5mg-1"
+  },
+  {
+    "id": "peg-mgf-pen-express",
+    "name": "PEG-MGF Pre-mixed Pen",
+    "slug": "peg-mgf-pen-express",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "PEG-MGF is a PEGylated form of Mechano Growth Factor with improved stability.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/peg-mgf/pen",
+        "price": "\u00a352.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/peg-mgf-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "peg-mgf-5mg-1"
+  },
+  {
+    "id": "pt-141-vial-express",
+    "name": "PT-141 (Bremelanotide)",
+    "slug": "pt-141-vial-express",
+    "aliases": [],
+    "category": "melanotans",
+    "description": "PT-141 (Bremelanotide) is a synthetic cyclic heptapeptide melanocortin receptor agonist that modulates sexual response.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/pt-141/vial",
+        "price": "\u00a324.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/pt-141-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "pt-141-bremelanotide"
+  },
+  {
+    "id": "pt-141-pen-express",
+    "name": "PT-141 (Bremelanotide) Pre-mixed Pen",
+    "slug": "pt-141-pen-express",
+    "aliases": [],
+    "category": "melanotans",
+    "description": "PT-141 (Bremelanotide) is a melanocortin receptor agonist that modulates sexual response.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/pt-141/pen",
+        "price": "\u00a354.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/pt-141-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "pt-141-bremelanotide"
+  },
+  {
+    "id": "selank-vial-express",
+    "name": "Selank",
+    "slug": "selank-vial-express",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Selank is a synthetic heptapeptide with anxiolytic and cognitive-enhancing properties, modulating the immune and nervous systems.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/selank/vial",
+        "price": "\u00a327.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/selank-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "selank"
+  },
+  {
+    "id": "selank-pen-express",
+    "name": "Selank Pre-mixed Pen",
+    "slug": "selank-pen-express",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Selank is a synthetic heptapeptide with anxiolytic and cognitive-enhancing properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/selank/pen",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/selank-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "selank"
+  },
+  {
+    "id": "semax-vial-express",
+    "name": "Semax",
+    "slug": "semax-vial-express",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Semax is a synthetic heptapeptide analog of ACTH fragment 4-10 with nootropic and neuroprotective properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/semax/vial",
+        "price": "\u00a324.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/semax-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "semax"
+  },
+  {
+    "id": "semax-pen-express",
+    "name": "Semax Pre-mixed Pen",
+    "slug": "semax-pen-express",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Semax is a synthetic heptapeptide with nootropic and neuroprotective properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/semax/pen",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/semax-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "semax"
+  },
+  {
+    "id": "sermorelin-acetate-vial-express",
+    "name": "Sermorelin",
+    "slug": "sermorelin-acetate-vial-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Sermorelin is a synthetic analog of growth hormone-releasing hormone (GHRH 1-29) that stimulates the production and release of growth hormone.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial",
+        "price": "\u00a326.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/sermorelin-acetate-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "sermorelin"
+  },
+  {
+    "id": "sermorelin-acetate-pen-express",
+    "name": "Sermorelin Pre-mixed Pen",
+    "slug": "sermorelin-acetate-pen-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Sermorelin is a GHRH analog that stimulates growth hormone production and release.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen",
+        "price": "\u00a346.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/sermorelin-acetate-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "sermorelin"
+  },
+  {
+    "id": "slu-pp-332-vial-express",
+    "name": "SLU-PP-332",
+    "slug": "slu-pp-332-vial-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "SLU-PP-332 is a selective estrogen-related receptor alpha (ERR\u03b1) agonist that enhances mitochondrial function and energy metabolism.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/slu-pp-332/vial",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/slu-pp-332-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "slu-pp-332"
+  },
+  {
+    "id": "slu-pp-332-pen-express",
+    "name": "SLU-PP-332 Pre-mixed Pen",
+    "slug": "slu-pp-332-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "SLU-PP-332 is an ERR\u03b1 agonist that enhances mitochondrial function and energy metabolism.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/slu-pp-332/pen",
+        "price": "N/A",
+        "inStock": true,
+        "image": "/images/products/express-peptides/slu-pp-332-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "slu-pp-332"
+  },
+  {
+    "id": "ss-31-vial-express",
+    "name": "SS-31 (Elamipretide)",
+    "slug": "ss-31-vial-express",
+    "aliases": [],
+    "category": "peptide-fragments",
+    "description": "SS-31 (Elamipretide) is a mitochondrial-targeted peptide that stabilizes cardiolipin and improves mitochondrial function and energy production.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ss-31/vial",
+        "price": "\u00a349.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ss-31-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ss-31"
+  },
+  {
+    "id": "ss-31-pen-express",
+    "name": "SS-31 (Elamipretide) Pre-mixed Pen",
+    "slug": "ss-31-pen-express",
+    "aliases": [],
+    "category": "peptide-fragments",
+    "description": "SS-31 is a mitochondrial-targeted peptide that improves mitochondrial function.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/ss-31/pen",
+        "price": "\u00a358.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/ss-31-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "ss-31"
+  },
+  {
+    "id": "tb-500-vial-express",
+    "name": "TB-500 (Thymosin Beta-4)",
+    "slug": "tb-500-vial-express",
+    "aliases": [],
+    "category": "tb-500",
+    "description": "TB-500 (Thymosin Beta-4) is a synthetic actin-sequestering peptide that promotes cell migration, angiogenesis, and tissue repair.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/tb-500/vial",
+        "price": "\u00a332.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/tb-500-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tb-500"
+  },
+  {
+    "id": "tb500-pen-express",
+    "name": "TB-500 (Thymosin Beta-4) Pre-mixed Pen",
+    "slug": "tb500-pen-express",
+    "aliases": [],
+    "category": "tb-500",
+    "description": "TB-500 (Thymosin Beta-4) is a synthetic peptide that promotes cell migration, angiogenesis, and tissue repair.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/tb500/pen",
+        "price": "\u00a352.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/tb500-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tb-500"
+  },
+  {
+    "id": "tesamorelin-vial-express",
+    "name": "Tesamorelin",
+    "slug": "tesamorelin-vial-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Tesamorelin is a synthetic analog of growth hormone-releasing hormone (GHRH) that stimulates growth hormone secretion and reduces visceral fat.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/tesamorelin/vial",
+        "price": "\u00a326.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/tesamorelin-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tesamorelin"
+  },
+  {
+    "id": "tesamorelin-pen-express",
+    "name": "Tesamorelin Pre-mixed Pen",
+    "slug": "tesamorelin-pen-express",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Tesamorelin is a GHRH analog that stimulates growth hormone secretion.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/tesamorelin/pen",
+        "price": "\u00a346.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/tesamorelin-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "tesamorelin"
+  },
+  {
+    "id": "thymosin-alpha-1-vial-express",
+    "name": "Thymosin Alpha-1",
+    "slug": "thymosin-alpha-1-vial-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Thymosin Alpha-1 is a synthetic peptide that modulates immune system function and enhances T-cell-mediated immunity.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Lyophilised powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
+        "price": "\u00a330.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/thymosin-alpha-1-vial-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "thymosin-alpha-1"
+  },
+  {
+    "id": "thymosin-alpha-1-pen-express",
+    "name": "Thymosin Alpha-1 Pre-mixed Pen",
+    "slug": "thymosin-alpha-1-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Thymosin Alpha-1 modulates immune system function and enhances T-cell-mediated immunity.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/pen",
+        "price": "\u00a350.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/thymosin-alpha-1-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "thymosin-alpha-1"
+  },
+  {
+    "id": "vip-pen-express",
+    "name": "VIP (Vasoactive Intestinal Peptide) Pre-mixed Pen",
+    "slug": "vip-pen-express",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "VIP (Vasoactive Intestinal Peptide) is a neuropeptide with vasodilatory, anti-inflammatory, and immunomodulatory properties.",
+    "mechanism": "N/A",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226599%",
+    "form": "Pre-mixed pen",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/vip/pen",
+        "price": "\u00a345.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/vip-pen-express.webp"
+      }
+    ],
+    "faq": [],
+    "compareSlug": "vip"
+  }
+]

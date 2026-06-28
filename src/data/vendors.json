@@ -238,13 +238,17 @@
       "Cryptocurrency"
     ],
     "categories": [
-      "GLP-1 Agonists",
       "Growth Factors",
+      "GHRPs",
       "BPC/TB-500",
-      "Cognitive"
+      "Cognitive",
+      "Peptide Fragments",
+      "Cosmetic Peptides",
+      "Melanotans",
+      "Peptide Blends"
     ],
-    "compoundCount": 41,
-    "lastTested": "2026-06-14"
+    "compoundCount": 81,
+    "lastTested": "2026-06-27"
   },
   {
     "id": "dr-peptides",

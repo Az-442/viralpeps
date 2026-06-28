@@ -1,0 +1,214 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="color-scheme" content="light">
+		<meta name="description" content="<br />
+<b>Warning</b>:  Trying to access array offset on null in <b>/home/mrixad7dxz86/expresspeptides.co.uk/private_html/template/snippet/header.php</b> on line <b>8</b><br />
+"/>
+		<link rel="stylesheet" type="text/css" href="/asset/theme/style.min.css?v=251025"/>
+		<link rel="icon" type="image/svg" href="/asset/image/favicon.svg">
+		<title><br />
+<b>Warning</b>:  Trying to access array offset on null in <b>/home/mrixad7dxz86/expresspeptides.co.uk/private_html/template/snippet/header.php</b> on line <b>11</b><br />
+</title>
+		<!-- Google Tag Manager -->
+		<script>
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-PHZ887ZM');
+		</script>
+		<!-- End Google Tag Manager -->
+	</head>
+	<body>
+		<header id="site-header">
+			<div class="page">
+				<nav id="site-header__sub-nav">
+					<button type="button" aria-controls="site-header__main-nav" aria-expanded="false" title="Site menu"></button>
+					<a href="/" id="site-header__logo">
+						<img alt="Express Peptides" width="300" height="37" src="/asset/image/site-logo.webp"/>
+					</a>
+					<a href="/shop/cart" id="site-header__cart">
+						<img alt="Cart" width="28" height="28" src="/asset/image/icon/cart.svg"/>
+						<span>0 items</span>
+						<span>&pound;0.00</span>
+					</a>
+					<form method="post" action="/search">
+						<input type="search" name="search" placeholder="Search peptides"/>
+						<button type="submit" title="Search">
+							<img alt="Search" width="24" height="24" src="/asset/image/icon/search.svg"/>
+						</button>
+					</form>
+				</nav>
+				<nav hidden id="site-header__main-nav">
+					<h3 class="h2">Shop Peptides</h3>
+					<a href="/products">All Products</a>
+					<a href="/best-sellers">Popular</a>
+										<div class="menu">
+						<div>More Peptides</div>
+						<nav>
+														<a href="/peptide-combos">Research into Combos</a>
+														<a href="/peptides-for-growth">Research into Growth</a>
+														<a href="/peptides-for-health">Research into Health</a>
+														<a href="/peptides-for-longevity">Research into Longevity</a>
+														<a href="/nootropic">Research into Nootropic</a>
+														<a href="/peptide-blends">Research into Peptide Blends</a>
+														<a href="/regenerative-peptides">Research into Regenerative</a>
+														<a href="/weight-loss">Research into Weight Loss</a>
+													</nav>
+					</div>
+
+					<h3 class="h2">Information</h3>
+					<a href="https://wholesale.expresspeptides.co.uk/" target="_blank">Trader login</a>
+					<a href="/info">Information Centre</a>
+					<a href="/shop/check-order">Order Management</a>
+					<a href="/info/contact">Contact Us</a>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Meta Pixel Code -->
+		<script>
+
+			!function(f, b, e, v, n, t, s) {
+
+				if (f.fbq)
+					return;
+
+				n = f.fbq = function() {
+
+					n.callMethod
+						? n.callMethod.apply(n, arguments)
+						: n.queue.push(arguments);
+				};
+
+				if (!f._fbq)
+					f._fbq = n;
+
+				n.push = n;
+				n.loaded = true;
+				n.version = '2.0';
+				n.queue = [];
+
+				t = b.createElement(e);
+				t.async = true;
+				t.src = v;
+
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s);
+
+			}(
+				window,
+				document,
+				'script',
+				'https://connect.facebook.net/en_US/fbevents.js'
+			);
+
+			fbq('init', '2417351688771663');
+			fbq('track', 'PageView');
+
+		</script>
+
+		<noscript>
+
+			<img
+				height="1"
+				width="1"
+				style="display:none"
+				src="https://www.facebook.com/tr?id=2417351688771663&ev=PageView&noscript=1"
+			/>
+
+		</noscript>
+		<!-- End Meta Pixel Code -->		<main>
+			<section class="page">
+				<header>
+					<h1>404; Page not found.</h1>
+				</header>
+				<div>
+					<a href="/">Try our home page.</a>
+				</div>
+			</section>
+		</main>
+				<div hidden class="box box--4" id="accept-cookie">
+			<p>Our peptides are for research use only. By continuing to use this site, you confirm that you are 18 years old or over and legally allowed to purchase peptides for research purposes.</p>
+			<h2>Cookie Notice</h2>
+			<p>We use cookies to enhance your shopping experience, including storing products in your cart. By using this website, you consent to our use of cookies. For more information, please see our <a href="/info/cookie-notice">Cookie Notice</a>.</p>
+			<button type="button" name="accept-cookie" class="button">OK</button>
+		</div>
+		<footer id="site-footer">
+			<div class="page">
+				<ul>
+					<li>
+						<h3>Follow us on Social Media</h3>
+						<div class="flex gap--s">
+							<a href="https://www.linkedin.com/company/euro-gen-peptides/" target="_blank">
+								<img loading="lazy" alt="Euro-Gen Peptides on LinkedIn" width="34" height="32" src="/asset/image/icon/social/linkedin.webp"/>
+							</a>
+							<a href="https://x.com/eurogenpeptides" target="_blank">
+								<img loading="lazy" alt="Euro-Gen Peptides on X" width="32" height="32" src="/asset/image/icon/social/x.webp"/>
+							</a>
+							<a href="http://www.youtube.com/@Euro-Gen" target="_blank">
+								<img loading="lazy" alt="Watch Euro-Gen on YouTube" width="46" height="32" src="/asset/image/icon/social/youtube.webp"/>
+							</a>
+							<a href="https://www.facebook.com/share/1613hCga6x/" target="_blank">
+								<img loading="lazy" alt="Find us on Facebook" width="32" height="32" src="/asset/image/icon/social/facebook.webp"/>
+							</a>
+														<a href="https://www.tiktok.com/@eurogen.peptides" target="_blank">
+								<img loading="lazy" alt="Euro-Gen Peptides on TikTok" width="32" height="32" src="/asset/image/icon/social/tiktok.webp"/>
+							</a>
+						</div>
+						<!--<img width="180" height="62" alt="Accepting Paypal &amp; all major cards" src="/asset/image/cards.webp" style="border-radius: .5rem"/>-->
+					</li>
+					<li>
+						<a href="/peptides-for-health">Peptides for health</a>
+						<a href="/peptides-for-longevity">Peptides for longevity</a>
+						<a href="/regenerative-peptides">Regenerative peptides</a>
+						<br/>
+						<a href="/info/click-calculator">Pen click calculator</a>
+						<br/>
+						<a href="/shop/check-order">Check your order</a>
+						<a href="/info">Information Centre</a>
+						<a href="/#about">About us</a>
+												<br/>
+						<a href="/info/return-policy">Return Policy</a>
+						<a href="/info/privacy-notice">Privacy notice</a>
+						<a href="/info/cookie-notice">Cookie notice</a>
+						<a href="/info/terms-of-use">Terms of Use</a>
+					</li>
+					<li>
+						<a href="https://wa.me/447405995349" id="whatsapp-hover">
+							<img loading="lazy" alt="Call us on WhatsApp" width="100" height="23" src="/asset/image/whatsapp.webp"/>
+							<img loading="lazy" alt="WhatsApp QR Code" width="115" height="115" src="/asset/image/whatsapp-qr.webp"/>
+						</a>
+						<p>Call us on <b><a href="tel:447405995349">07405 995349</a></b></p>
+												<address>Prism Industries Limited,  21 Hyde Park Road,  Leeds,  LS6 1PY.</address>
+						<p>Shipping: Mon-Fri (except holidays)</p>
+					</li>
+					<li>
+						<img alt="" width="680" height="82" src="/asset/image/site-logo-large.webp"/>
+					</li>
+				</ul>
+				<p>&copy; 2026 Express Peptides. All rights reserved.</p>
+			</div>
+		</footer>
+		<script type="module" src="/asset/script/main.js?v=251025"></script>
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y66ZKLNVXP"></script>
+		<script>
+
+			// Analytics.
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-Y66ZKLNVXP');
+		</script>
+
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHZ887ZM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+					</body>
+</html>
