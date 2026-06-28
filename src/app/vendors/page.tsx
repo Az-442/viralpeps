@@ -64,6 +64,9 @@ for (const c of compounds) {
   }
 }
 
+// Count of unique research compounds (main entries without compareSlug)
+const peptideCount = compounds.filter((c) => !(c as any)?.compareSlug).length;
+
 // Pre-computed stats
 const verifiedCount = vendors.filter((v) => v.verified).length;
 const freeShippingCount = vendors.filter((v) => v.shipping?.some((s) => s.toLowerCase().includes("free"))).length;
@@ -112,7 +115,7 @@ export default function VendorsPage() {
 
           {/* Sub-headline */}
           <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto mb-6">
-            Compare <strong className="text-white">{vendors.length} UK suppliers</strong> stocking <strong className="text-white">96+ research peptides</strong>. Independent, unbiased, updated daily.
+            Compare <strong className="text-white">{vendors.length} UK suppliers</strong> stocking <strong className="text-white">{peptideCount}+ research peptides</strong>. Independent, unbiased, updated daily.
           </p>
 
           {/* SEARCH BAR — inside the banner, large pill shape */}
