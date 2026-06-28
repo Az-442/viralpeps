@@ -1040,6 +1040,70 @@
     ]
   },
   {
+    "id": "igf-1-des",
+    "name": "IGF-1 DES",
+    "slug": "igf-1-des",
+    "aliases": [
+      "Des(1-3) IGF-1",
+      "Des-IGF-1",
+      "Truncated IGF-1",
+      "IGF-1 Des(1-3)"
+    ],
+    "category": "growth-factors",
+    "description": "IGF-1 DES (Des(1-3) IGF-1) is a truncated 67-amino acid analogue of human IGF-1 lacking the first three N-terminal amino acids. This deletion dramatically reduces binding to all six IGF-binding proteins, producing a peptide with greater potency and bioavailability at target tissues compared to full-length IGF-1 despite its significantly shorter half-life.",
+    "mechanism": "IGF-1 receptor agonist with minimal IGFBP binding. Acts via PI3K/Akt and MAPK/ERK pathways to promote protein synthesis, cell proliferation, and tissue repair. The N-terminal truncation eliminates virtually all IGFBP sequestration, making a higher fraction of the peptide available to activate IGF-1R.",
+    "cas": "111944-89-7",
+    "molarMass": "7403.0 g/mol",
+    "sequence": "GPRTLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "10\u201315 minutes",
+    "researchAreas": [
+      "Muscle growth",
+      "Recovery",
+      "Anti-aging",
+      "Insulin sensitivity",
+      "Cell proliferation"
+    ],
+    "commonDosages": [
+      "30-60 mcg/day",
+      "40-80 mcg post-workout"
+    ],
+    "sources": [
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+        "price": "\u00a344.99",
+        "inStock": true
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/igf-1-des-1mg/",
+        "price": "\u00a350.00",
+        "inStock": true
+      }
+    ],
+    "longDescription": "## Overview\n\nIGF-1 DES (Des(1-3) Insulin-like Growth Factor-1) is a 67-amino acid truncated analogue of human IGF-1, formed by removing the N-terminal tripeptide Gly-Pro-Glu. This seemingly minor modification has profound consequences for IGF-binding protein (IGFBP) affinity — the deletion reduces binding to all six known IGFBPs by several orders of magnitude, producing a peptide with substantially greater free fraction and tissue bioavailability than either native IGF-1 or the extended-analogue IGF-1 LR3. Unlike IGF-1 LR3, which achieves its extended half-life through retained IGFBP binding and slow dissociation, IGF-1 DES bypasses the binding protein system almost entirely. This makes IGF-1 DES a uniquely potent research tool for studying IGF-1 receptor signalling without the buffering effects of binding proteins. Researchers in the UK and internationally use IGF-1 DES for investigations into muscle hypertrophy, tissue repair, metabolic regulation, and cell proliferation pathways.\n\n## Mechanism of Action\n\nIGF-1 DES activates the IGF-1 receptor (IGF-1R), a transmembrane receptor tyrosine kinase, triggering downstream PI3K/Akt and MAPK/ERK signalling cascades. Akt activation leads to mTOR-mediated protein synthesis and inhibition of protein breakdown via FoxO phosphorylation. The key distinction from native IGF-1 and IGF-1 LR3 is the almost complete absence of IGFBP binding. Native IGF-1 is rapidly sequestered by IGFBPs, particularly IGFBP-3, which act as carrier proteins that control IGF-1 distribution and half-life. IGF-1 LR3 reduces this binding by ~1000-fold. IGF-1 DES eliminates it almost entirely. The consequence is extraordinarily rapid receptor activation at the expense of a very short circulating half-life (10–15 minutes). This pharmacokinetic profile makes IGF-1 DES particularly suitable for acute, high-peak signalling research rather than sustained tonic stimulation.",
+    "faq": [
+      {
+        "question": "What is IGF-1 DES used for in research?",
+        "answer": "IGF-1 DES is researched for muscle hypertrophy, tissue repair, metabolic studies, and cell proliferation pathways. Its minimal IGFBP binding makes it a uniquely potent tool for studying IGF-1 receptor signalling without binding protein interference."
+      },
+      {
+        "question": "How does IGF-1 DES differ from IGF-1 LR3?",
+        "answer": "IGF-1 DES has the first three N-terminal amino acids removed, virtually eliminating all IGFBP binding. IGF-1 LR3 uses an arginine substitution and N-terminal extension to reduce binding ~1000-fold. DES has greater potency per dose but a much shorter half-life (10-15 min vs 20-30 hours for LR3)."
+      },
+      {
+        "question": "Is IGF-1 DES available for research in the UK?",
+        "answer": "Yes, IGF-1 DES is available from UK research peptide suppliers including Express Peptides and Research Peptides UK. When looking to buy IGF-1 DES UK supply options include both lyophilised powder and pre-mixed pen delivery formats."
+      },
+      {
+        "question": "What dosage of IGF-1 DES is used in research?",
+        "answer": "Common research dosages range from 30-60 mcg daily for general protocols, with 40-80 mcg post-workout used in muscle growth studies. The very short half-life (10-15 minutes) supports per-workout or twice-daily administration."
+      }
+    ]
+  },
+  {
     "id": "tesamorelin",
     "name": "Tesamorelin",
     "slug": "tesamorelin",
