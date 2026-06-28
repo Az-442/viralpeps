@@ -21,10 +21,14 @@ export default function ProductImage({ vendorSlug, compoundSlug, compoundName }:
       // Try generic vendor image
       img.src = `/images/products/${vendorSlug}/ukp-generic.webp`;
     } else if (currentSrc.includes("ukp-generic")) {
-      // Fall back to compound SVG
+      // Try compound PNG first
+      img.src = `/images/compounds/${compoundSlug}.png`;
+      img.className = "w-7 h-7 object-contain";
+    } else if (currentSrc.endsWith(".png") && currentSrc.includes("/images/compounds/")) {
+      // PNG failed too - fall back to compound SVG
       img.src = `/images/compounds/${compoundSlug}.svg`;
       img.className = "w-7 h-7 object-contain";
-      img.onerror = null; // stop further fallback
+      img.onerror = null;
     } else if (currentSrc.includes("/images/compounds/")) {
       // SVG also failed - clear handler
       img.onerror = null;
