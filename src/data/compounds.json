@@ -33,12 +33,6 @@
     ],
     "sources": [
       {
-        "vendor": "Tide Labs",
-        "url": "https://example.com/tirzepatide",
-        "price": "\u00a354.71",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://example.com/tirzepatide",
         "price": "\u00a356.75",
@@ -162,12 +156,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://example.com/semaglutide",
-        "price": "\u00a356.18",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://example.com/semaglutide",
         "price": "\u00a361.04",
@@ -280,22 +268,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/bpc-157-tb500-bacteriostatic-water-research-kit",
-        "price": "\u00a342.99",
-        "inStock": true,
-        "options": [
-          {
-            "size": "5 mg",
-            "price": "\u00a316.90"
-          },
-          {
-            "size": "10 mg",
-            "price": "\u00a327.99"
-          }
-        ]
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-bpc-157-5-mg-research-only-peptide-for-research-use-only-coa-in-image/",
         "price": "\u00a321.15",
@@ -315,6 +287,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/bpc-157-5mg/",
         "price": "\u00a313.99",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/bpc-157-research-peptide",
+        "price": "\u00a316.90",
         "inStock": true
       }
     ],
@@ -368,22 +346,6 @@
       "10 mg loading then 5 mg/week"
     ],
     "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/tb-500",
-        "price": "\u00a318.40",
-        "inStock": true,
-        "options": [
-          {
-            "size": "2 mg",
-            "price": "\u00a318.40"
-          },
-          {
-            "size": "5 mg",
-            "price": "\u00a326.40"
-          }
-        ]
-      },
       {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/tb-500/vial",
@@ -457,6 +419,12 @@
         "url": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
         "price": "\u00a316.00",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/tb-500",
+        "price": "\u00a326.40",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nTB-500 is the synthetic version of Thymosin Beta-4 (T\u03b24), a naturally occurring 43-amino acid peptide that is one of the most abundant and important wound-healing factors in the human body. As an actin-sequestering protein, T\u03b24 plays a fundamental role in cell migration, differentiation, and tissue remodelling \u2014 processes essential for all phases of wound healing. TB-500 has garnered significant attention in regenerative medicine research for its broad therapeutic potential, from accelerating wound closure and cardiac repair following myocardial infarction to reducing inflammation, promoting hair growth, and supporting eye health. Found in virtually all human cells, T\u03b24's central role in cytoskeletal dynamics makes it a uniquely versatile investigational peptide. UK researchers in sports medicine and tissue engineering have shown particular interest in TB-500 for its ability to promote angiogenesis and modulate the inflammatory response in musculoskeletal injuries.\n\n## Mechanism of Action\n\nTB-500 functions primarily as an actin-sequestering protein, binding to monomeric G-actin and preventing its polymerisation into F-actin filaments. This dynamic regulation of the actin cytoskeleton is essential for cell motility, migration, and shape changes during wound healing and tissue remodelling. Beyond its actin-binding activity, TB-500 upregulates the expression of vascular endothelial growth factor (VEGF) and fibroblast growth factor (FGF), stimulating angiogenesis and providing the vascular supply necessary for tissue repair. It also modulates inflammatory signalling by downregulating pro-inflammatory cytokines (including TNF-\u03b1 and IL-1\u03b2) while upregulating anti-inflammatory mediators. Additionally, TB-500 promotes cell survival by activating the Akt signalling pathway and reducing apoptosis in stressed tissues.\n\n## Research & Clinical Data\n\nTB-500 has been investigated in numerous preclinical models of tissue injury and repair. In cardiac research, T\u03b24 administration following myocardial infarction has been shown to improve cardiac function, reduce scar size, and promote cardiomyocyte survival. Wound healing studies demonstrate accelerated full-thickness wound closure with improved tensile strength and reduced scar formation. Ocular research has explored TB-500 for corneal repair, showing enhanced re-epithelialisation and reduced inflammation. In the UK, research into TB-500 for tendon and ligament injuries has been particularly active, with studies showing improved functional recovery after Achilles tendon rupture and reduced fibrosis in muscle injury models.\n\n## Dosage & Administration\n\nCommon research dosages for TB-500 range from 2.5\u20135 mg per week, sometimes with a loading protocol of 10 mg in the first week followed by 2.5\u20135 mg weekly maintenance. The peptide has a relatively short half-life of 4\u20136 hours, yet its biological effects can persist due to its intracellular mechanism of action. It is typically administered via subcutaneous or intramuscular injection after reconstitution with bacteriostatic water. Post-reconstitution solutions should be stored at 2\u20138\u00b0C.\n\n## Safety & Legal\n\nTB-500 is intended for research purposes only. Preclinical studies suggest a favourable safety profile, though comprehensive human safety data are limited. The peptide should be stored as lyophilised powder at -20\u00b0C and protected from light and moisture. Researchers should ensure they purchase from vendors providing third-party purity verification (\u226599%).\n\n\nThymosin Beta-4 was first isolated from calf thymus in 1981 and was initially studied for its immunomodulatory properties. It was later discovered that T\u03b24 is the major actin-sequestering protein in most eukaryotic cells, present at concentrations of 0.1\u20130.5 mM in the cytoplasm. This fundamental role in cytoskeletal dynamics places T\u03b24 at the centre of cell migration, a process essential for embryonic development, immune surveillance, and tissue repair. The synthetic version, TB-500, is identical in sequence to the naturally occurring human T\u03b24.\n\nResearch into TB-500's cardiac protective effects has been particularly promising. In animal models of myocardial infarction, T\u03b24 administration at the time of reperfusion reduced infarct size by up to 50% and improved left ventricular function. The mechanism appears to involve activation of the Akt survival pathway in cardiomyocytes and endothelial cells, reduced oxidative stress, and enhanced recruitment of cardiac progenitor cells to the injured area. These findings have led to interest in TB-500 as a potential therapeutic for ischaemic heart disease.\n\nThe synergy between TB-500 and BPC-157 is a frequently discussed topic in regenerative peptide research. While both peptides promote angiogenesis and wound healing, their mechanisms are complementary rather than redundant. TB-500's actin-sequestering activity promotes cell migration, while BPC-157's growth factor upregulation creates a pro-healing microenvironment. Many research protocols combine both peptides for enhanced tissue repair outcomes.\n\nIn terms of practical research use, TB-500 is typically dosed at 2.5\u20135 mg per week, with a loading dose of 10 mg in the first week for acute injury models. The peptide has good stability when stored as lyophilised powder at -20\u00b0C and should be protected from light and moisture. TB-500 is available from UK research suppliers and should always be verified by independent HPLC analysis.",
@@ -478,7 +446,8 @@
         "answer": "Typical research protocols use 2.5\u20135 mg per week, sometimes with an initial loading dose of 10 mg. Due to its 4\u20136 hour half-life but persistent biological effects, once or twice weekly dosing is common."
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "tb-500"
   },
   {
     "id": "mt2",
@@ -513,12 +482,6 @@
         "vendor": "Sterling Peptides",
         "url": "https://sterlingpeptides.co.uk",
         "price": "\u00a323.20",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://example.com/melanotan-ii",
-        "price": "\u00a325.22",
         "inStock": true
       },
       {
@@ -629,12 +592,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ghrp-2",
-        "price": "\u00a318.49",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
         "price": "\u00a37.95",
@@ -687,6 +644,12 @@
         "url": "https://purepeptidesuk.com/product/ghrp-2-5mg/",
         "price": "\u00a39.50",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ghrp-2",
+        "price": "\u00a318.49",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nGHRP-2 (Growth Hormone Releasing Peptide-2), also known as pralmorelin, is a synthetic hexapeptide that potently stimulates the release of growth hormone from the anterior pituitary gland. As one of the most potent members of the growth hormone-releasing peptide family, GHRP-2 has been extensively studied for its ability to significantly elevate GH levels in a dose-dependent manner. Discovered in the 1990s through systematic structure-activity studies of enkephalin-related peptides, GHRP-2 acts through a mechanism distinct from GHRH, making it a valuable tool in both diagnostic testing for GH deficiency and research into muscle growth, anti-aging, and fat metabolism. UK researchers have utilised GHRP-2 extensively in endocrine research and sports science, particularly in combination protocols with GHRH analogues such as CJC-1295 or sermorelin for enhanced GH pulse generation.\n\n## Mechanism of Action\n\nGHRP-2 functions as a potent agonist at the ghrelin receptor (growth hormone secretagogue receptor type 1a, GHSR-1a), a G-protein-coupled receptor expressed primarily in the pituitary gland and hypothalamus. Activation of GHSR-1a stimulates phospholipase C and intracellular calcium mobilisation in pituitary somatotrophs, triggering the exocytosis of pre-synthesised GH granules. Unlike GHRH, which stimulates GH synthesis and release, GHRP-2 primarily amplifies the releasable GH pool and synergises with GHRH signalling to produce a robust GH pulse. Additionally, GHRP-2 may stimulate cortisol and prolactin release, and it influences appetite regulation through its ghrelin-mimetic action at the hypothalamic level.\n\n## Research & Clinical Data\n\nGHRP-2 has been used clinically in Japan as a diagnostic agent for GH deficiency (as pralmorelin), where it demonstrates reliable stimulation of GH release with a favourable safety profile. Research studies report that GHRP-2 can elevate GH levels several-fold above baseline, with peak concentrations occurring 15\u201330 minutes after administration. Combined administration with GHRH or GHRH analogues produces a synergistic effect, generating GH pulses comparable to or exceeding those seen with insulin-induced hypoglycaemia. Research into its potential for anti-aging, muscle preservation, and metabolic health continues.\n\n## Dosage & Administration\n\nCommon research dosages for GHRP-2 range from 100\u2013300 mcg per day, often divided into 2\u20133 daily doses of 100\u2013200 mcg each. Due to its short half-life of 30\u201360 minutes, multiple daily injections are typically employed to maintain growth hormone pulsatility. GHRP-2 is often used in combination with a GHRH analogue (e.g., CJC-1295 without DAC or sermorelin) for a synergistic GH pulse. Subcutaneous administration is standard after reconstitution with bacteriostatic water.\n\n## Safety & Legal\n\nGHRP-2 is for research purposes only. Reported effects may include transient increases in appetite (ghrelin-mimetic effect), as well as potential elevations in cortisol and prolactin. Long-term effects of sustained GH elevation are not fully characterised. The lyophilised powder should be stored at -20\u00b0C for optimal stability.\n\n\nThe GHRP family evolved from enkephalin-derived peptides discovered by Drs. Bowers and Momany at Tulane University in the 1970s and 1980s. These small peptides were found to stimulate GH release through a receptor distinct from the GHRH receptor \u2014 later identified as the ghrelin receptor (GHSR-1a). GHRP-2 emerged as the most potent member of this class through systematic structure-activity relationship studies, with a potency approximately 2\u20133 times greater than GHRP-6 and a more favourable side effect profile.\n\nThe pulsatile nature of GH secretion is critical for its biological effects. Unlike continuous GH elevation (which can cause insulin resistance and acromegaly-like effects), natural GH pulses produce optimal metabolic benefits. GHRP-2 amplifies the amplitude of endogenous GH pulses rather than creating a constant elevation, which is thought to preserve the physiological advantages of pulsatile secretion. This is particularly relevant when GHRP-2 is combined with a GHRH analogue, which enhances GH pulse amplitude synergistically.\n\nIn Japan, GHRP-2 (pralmorelin) is approved as a diagnostic agent for GH deficiency. The test involves measuring GH levels after a single GHRP-2 injection and has largely replaced the insulin tolerance test as the gold standard for GH deficiency diagnosis due to its superior safety profile. This clinical experience provides confidence in the peptide's tolerability for research applications.\n\nFor researchers planning GHRP-2 protocols, the short half-life (30\u201360 minutes) necessitates careful timing of doses relative to meals and time of day. GH pulsatility is highest at night and during fasting states, so morning doses on an empty stomach or pre-bed administration are common. The peptide is typically reconstituted with bacteriostatic water and should be used within 7\u201314 days when refrigerated. UK researchers can source GHRP-2 from reputable peptide vendors who provide purity certification.",
@@ -708,7 +671,8 @@
         "answer": "Typical research dosages range from 100\u2013300 mcg per day, often divided into 2\u20133 doses. Due to its short half-life of 30\u201360 minutes, multiple daily administrations are common. It is frequently combined with a GHRH analogue for enhanced GH pulse generation."
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "ghrp-2"
   },
   {
     "id": "aod9604",
@@ -783,18 +747,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/aod-9604",
-        "price": "\u00a322.90",
-        "inStock": true,
-        "options": [
-          {
-            "size": "2 mg",
-            "price": "\u00a322.90"
-          }
-        ]
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a331.20",
@@ -827,6 +779,12 @@
             "price": "\u00a379.99"
           }
         ]
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/aod-9604",
+        "price": "\u00a322.90",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nAOD-9604 (Anti-Obesity Drug 9604), also known as HGH Fragment 177-191, is a synthetic 15-amino acid peptide fragment corresponding to amino acids 177\u2013191 of the human growth hormone molecule. Developed specifically for fat loss research, AOD-9604 represents a targeted approach to metabolic modulation that separates the lipolytic (fat-burning) properties of hGH from its anti-insulin and growth-promoting effects. This selective action makes AOD-9604 a uniquely interesting research tool for studying adipose tissue metabolism, as it stimulates lipolysis (fat breakdown) and inhibits lipogenesis (fat storage) without affecting blood sugar levels or promoting tissue growth. UK metabolic researchers have investigated AOD-9604's potential in obesity treatment and weight management protocols, with particular interest in its safety profile and ability to target stubborn fat deposits.\n\n## Mechanism of Action\n\nAOD-9604 mimics the lipolytic action of full-length human growth hormone by binding to the GH receptor and activating the JAK2/STAT5 signalling pathway specifically in adipose tissue. The fragment corresponds to the active site of hGH responsible for its fat-burning effects, while lacking the domain responsible for insulin antagonism and IGF-1 stimulation. This results in stimulation of hormone-sensitive lipase (HSL), which breaks down stored triglycerides into free fatty acids for oxidation in mitochondria, while simultaneously downregulating lipoprotein lipase (LPL) activity to reduce fat storage. The peptide also stimulates \u03b2-oxidation and thermogenesis in adipocytes, increasing energy expenditure. Crucially, because it lacks the GH domain for diabetogenic activity, AOD-9604 does not impair insulin sensitivity or elevate blood glucose.\n\n## Research & Clinical Data\n\nClinical trials of AOD-9604 have demonstrated statistically significant fat loss, particularly in abdominal and visceral adipose tissue, without adverse effects on glucose metabolism. A double-blind, placebo-controlled study of 300 overweight subjects reported significant reductions in total body fat and waist circumference over 12 weeks with AOD-9604 treatment compared to placebo. Preclinical studies have confirmed its ability to stimulate lipolysis in both white and brown adipose tissue, and to reduce body weight gain in diet-induced obesity models without affecting food intake. Research into optimal dosing and delivery continues.\n\n## Dosage & Administration\n\nCommon research dosages for AOD-9604 range from 300\u2013500 mcg per day, with some protocols using 500 mcg twice daily for enhanced effects. Due to its short half-life of approximately 20 minutes, frequent administration is required to maintain therapeutic peptide levels. Subcutaneous injection is the standard route of administration. AOD-9604 is often cycled in 8\u201312 week research protocols with breaks to assess metabolic response.\n\n## Safety & Legal\n\nAOD-9604 is intended for research purposes only. Its safety profile is generally favourable due to its selective action on lipolysis without the metabolic side effects of full-length hGH. However, comprehensive long-term human safety data are limited. The lyophilised powder should be stored at -20\u00b0C and reconstituted with bacteriostatic water immediately before use. Reconstituted solutions should be refrigerated and used within 7 days.\n\n\nThe identification of AOD-9604 as the minimal fragment of hGH retaining full lipolytic activity was the result of systematic structure-activity studies conducted in the 1990s. Researchers determined that the amino acid sequence 177\u2013191 of hGH was both necessary and sufficient for its fat-burning effects, while the diabetogenic and growth-promoting activities resided elsewhere in the molecule. This discovery opened the door to developing a targeted metabolic agent that could selectively stimulate lipolysis without the side effects of systemic GH administration.\n\nThe clinical development of AOD-9604 included phase 2 trials that evaluated its safety and efficacy for weight loss. A randomised, double-blind, placebo-controlled study involving 300 overweight subjects showed that AOD-9604 300 mcg daily produced a statistically significant reduction in total body fat and waist circumference compared to placebo after 12 weeks, with an excellent safety profile and no effects on blood glucose or IGF-1 levels. These results were encouraging but were not sufficient to support FDA approval, and the peptide remains in research use rather than clinical practice.\n\nAn important consideration for AOD-9604 research is its very short half-life (approximately 20 minutes). This rapid clearance necessitates frequent administration \u2014 typically twice daily for research protocols \u2014 to maintain therapeutic peptide levels. Some researchers have explored sustained-release formulations or extended infusion protocols to overcome this limitation, though subcutaneous administration remains the standard approach.\n\nWhen sourcing AOD-9604 for research, purity and identity are critical. The peptide should be \u226598% pure as verified by HPLC analysis. UK researchers should ensure their supplier provides batch-specific analytical data. The lyophilised powder is stable for extended periods at -20\u00b0C but should be protected from moisture and light during storage.",
@@ -847,7 +805,9 @@
         "question": "What is the half-life and dosing of AOD-9604?",
         "answer": "AOD-9604 has a short half-life of approximately 20 minutes, which supports twice-daily dosing schedules. Typical research dosages range from 300\u2013500 mcg per day, often split into two doses of 300\u2013500 mcg each."
       }
-    ]
+    ],
+    "vendorProduct": true,
+    "compareSlug": "aod-9604"
   },
   {
     "id": "retatrutide",
@@ -918,12 +878,6 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a370.40",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a372.00",
         "inStock": true
       },
       {
@@ -1012,12 +966,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/cjc-1295-with-dac",
-        "price": "\u00a321.40",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg",
         "price": "\u00a324.99",
@@ -1069,6 +1017,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/modified-grf-1-29-2mg/",
         "price": "\u00a312.95",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/cjc-1295-no-dac",
+        "price": "\u00a313.90",
         "inStock": true
       }
     ],
@@ -1165,12 +1119,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a355.00",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk",
         "price": "\u00a358.00",
@@ -1180,6 +1128,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/peptides-igf-1-lr3-100/",
         "price": "\u00a310.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+        "price": "\u00a356.00",
         "inStock": true
       }
     ],
@@ -1245,12 +1199,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a348.00",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a349.60",
@@ -1310,6 +1258,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
         "price": "\u00a324.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ghrh-analog-amide",
+        "price": "\u00a329.99",
         "inStock": true
       }
     ],
@@ -1395,12 +1349,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a330.00",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk",
         "price": "\u00a332.00",
@@ -1429,6 +1377,12 @@
             "price": "\u00a339.99"
           }
         ]
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg",
+        "price": "\u00a326.90",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nSermorelin is a synthetic 29-amino acid fragment of human growth hormone-releasing hormone (GHRH), corresponding to the bioactive N-terminal 1\u201329 sequence that retains full biological activity of the native 44-amino acid hormone. Marketed under the brand name Geref and also known as GRF 1-29, sermorelin has been used clinically in diagnostic testing for growth hormone deficiency in children and as a GH secretagogue in anti-aging research. Its shorter peptide chain compared to full-length GHRH (tesamorelin) makes it simpler to synthesise and more cost-effective, while maintaining the ability to stimulate endogenous GH release through the physiological GHRH pathway. Unlike GHRP compounds that act via the ghrelin receptor, sermorelin works through the natural GHRH receptor, preserving the body's own regulatory mechanisms. UK researchers have utilised sermorelin in endocrine research, anti-aging protocols, and combinations with GHRP compounds for synergistic GH pulse generation.\n\n## Mechanism of Action\n\nSermorelin binds specifically to GHRH receptors on anterior pituitary somatotrophs, G-protein-coupled receptors that activate adenylate cyclase and the cAMP/PKA signalling cascade. This stimulates GH gene transcription and promotes the pulsatile release of pre-synthesised GH from secretory granules. The 1-29 sequence encompasses the receptor-binding and activating domains of full-length GHRH, while lacking the C-terminal region that contributes to plasma stability. As a result, sermorelin has a very short plasma half-life of approximately 12\u201320 minutes and is rapidly degraded by dipeptidyl peptidase IV (DPP-IV). The preservation of pulsatile GH release and intact IGF-1 feedback distinguishes it from exogenous GH administration.\n\n## Research & Clinical Data\n\nSermorelin is FDA-approved as a diagnostic agent for evaluating GH secretory capacity in children with short stature. Clinical research has demonstrated that twice-daily sermorelin administration can increase GH and IGF-1 levels in adults with relative GH deficiency. Studies combining sermorelin with GHRP-2 or GHRP-6 show synergistic GH release comparable to that seen with insulin tolerance testing. Research into sermorelin for age-related GH decline, muscle preservation, and metabolic health continues, with some studies suggesting improvements in body composition, bone density, and quality of life.\n\n## Dosage & Administration\n\nDue to its short half-life of 12\u201320 minutes, sermorelin is typically administered twice daily at 100\u2013200 mcg per dose, or 200 mcg twice daily in more intensive protocols. Subcutaneous injection is standard. Sermorelin is often combined with a GHRP (e.g., GHRP-2 or GHRP-6) to produce a synergistic GH pulse that resembles the body's natural secretory pattern. Reconstitution with bacteriostatic water is standard, and solutions should be refrigerated at 2\u20138\u00b0C.\n\n## Safety & Legal\n\nSermorelin is for research purposes. As a GHRH analogue, it has a favourable safety profile with common effects including injection site reactions, transient flushing, and headache. Because it works through the endogenous GH axis, the risk of acromegaly-like effects is theoretically lower than with exogenous GH. The lyophilised powder should be stored at -20\u00b0C for optimal stability.\n\n\nSermorelin's history as an FDA-approved diagnostic agent for GH deficiency provides a strong foundation for its use in research. Approved as Geref in the 1990s, sermorelin was used to assess pituitary GH secretory capacity in children with growth disorders. The diagnostic test involves measuring GH levels at intervals after a sermorelin bolus, with peak GH levels below a threshold indicating GH deficiency. This clinical validation established the safety and reliability of sermorelin as a GH secretagogue.\n\nThe combination of sermorelin with a GHRP (most commonly GHRP-2 or ipamorelin) has become a standard protocol in GH research. The synergistic effect \u2014 sermorelin stimulates GH synthesis while GHRP enhances GH release \u2014 produces a GH pulse that exceeds what either compound can achieve alone. This combination is often described as a \"GHRP punch\" followed by a GHRH-mediated sustained release, mimicking the body's natural GH secretory pattern more closely than either agent alone.\n\nFor UK researchers interested in GH physiology, sermorelin offers several practical advantages. Its short half-life (12\u201320 minutes) means that frequent administration provides a research model of pulsatile GH secretion. The twice-daily dosing schedule (100\u2013200 mcg per injection) is manageable and allows for studies of GH-dependent metabolic processes under controlled conditions. The peptide is well tolerated with minimal side effects.\n\nWhen sourcing sermorelin in the UK, researchers should distinguish between the standard peptide and the modified forms. The non-DAC version (often called Mod GRF 1-29) is functionally equivalent to sermorelin, while CJC-1295 with DAC has a much longer half-life. UK suppliers including United Peptides and UK Peptides offer both forms, and careful labelling ensures researchers receive the correct product for their experimental design.",
@@ -1449,7 +1403,8 @@
         "question": "What is the dosing protocol for Sermorelin research?",
         "answer": "Due to its 12\u201320 minute half-life, sermorelin is typically dosed at 100\u2013200 mcg twice daily via subcutaneous injection. It is often combined with a GHRP compound (such as GHRP-2 or GHRP-6) in the same syringe for synergistic GH pulse generation."
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "mots-c",
@@ -1498,22 +1453,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/mots-c-research-peptide",
-        "price": "\u00a327.49",
-        "inStock": true,
-        "options": [
-          {
-            "size": "10 mg",
-            "price": "\u00a327.49"
-          },
-          {
-            "size": "20 mg",
-            "price": "\u00a349.99"
-          }
-        ]
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen",
         "price": "\u00a3125.00",
@@ -1547,6 +1486,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/mots-c-5mg/",
         "price": "\u00a319.50",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/mots-c-research-peptide",
+        "price": "\u00a327.49",
         "inStock": true
       }
     ],
@@ -1614,12 +1559,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ss-31-10mg",
-        "price": "\u00a327.90",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk/products/ss-31-10mg",
         "price": "\u00a334.99",
@@ -1659,6 +1598,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/ss-31-10mg/",
         "price": "\u00a330.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ss-31-10mg",
+        "price": "\u00a327.90",
         "inStock": true
       }
     ],
@@ -1735,22 +1680,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ghk-cu",
-        "price": "\u00a319.99",
-        "inStock": true,
-        "options": [
-          {
-            "size": "50 mg",
-            "price": "\u00a319.99"
-          },
-          {
-            "size": "100 mg",
-            "price": "\u00a335.99"
-          }
-        ]
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/",
         "price": "\u00a334.99",
@@ -1807,6 +1736,12 @@
         "url": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
         "price": "\u00a333.00",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ghk-cu",
+        "price": "\u00a319.99",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nGHK-Cu (glycyl-L-histidyl-L-lysine copper complex) is a naturally occurring copper-binding tripeptide found in human plasma, saliva, and urine. Discovered by Dr Loren Pickart in 1973 as a liver-generated factor that restored youthful regenerative capacity to aged liver tissue, GHK-Cu has become one of the most extensively studied copper peptides in wound healing and anti-aging research. The peptide's biological activity depends on its ability to chelate copper ions and deliver them to cells, where they activate multiple signalling cascades involved in tissue regeneration, collagen synthesis, and antioxidant defence. GHK-Cu levels naturally decline with age \u2014 plasma concentrations drop from approximately 200 ng/mL in young adults to 80 ng/mL by age 60 \u2014 which correlates with reduced wound healing capacity. UK researchers in dermatology, wound care, and anti-aging medicine have explored GHK-Cu for skin regeneration, hair growth, anti-inflammatory applications, and its unique copper-dependent mechanism of action.\n\n## Mechanism of Action\n\nGHK-Cu functions as a copper-delivery system, transporting bioavailable copper ions into cells where they serve as essential cofactors for enzymes including superoxide dismutase (antioxidant defence), lysyl oxidase (collagen cross-linking), and cytochrome c oxidase (mitochondrial respiration). The peptide upregulates matrix metalloproteinases (MMPs) for controlled tissue remodelling, stimulates collagen and glycosaminoglycan (GAG) synthesis, and modulates wound healing cytokines including transforming growth factor beta (TGF-\u03b2) and VEGF. GHK-Cu also exhibits anti-inflammatory activity by reducing TNF-\u03b1, IL-1, and TGF-\u03b2 expression in activated macrophages, while promoting angiogenesis through VEGF upregulation. At the genomic level, GHK-Cu has been shown to downregulate approximately 54% of genes associated with fibrosis and inflammation while upregulating genes involved in tissue regeneration.\n\n## Research & Clinical Data\n\nClinical studies have demonstrated GHK-Cu's efficacy in wound healing, with accelerated closure of chronic wounds and improved scar quality. In cosmetic dermatology research, topical GHK-Cu has shown improvements in skin firmness, elasticity, and wrinkle depth. Hair growth studies report increased hair follicle size and proliferation of dermal papilla cells. Preclinical research has explored GHK-Cu for bone regeneration, protecting against radiation-induced damage, and promoting neural regeneration. Its antioxidant properties have been demonstrated in models of oxidative stress, where GHK-Cu protects cells from free radical damage.\n\n## Dosage & Administration\n\nResearch dosages for GHK-Cu range from 1\u20135 mg per day for systemic studies, with topical applications at concentrations of 1\u20132 mg/mL. The short half-life of approximately 20 minutes necessitates frequent administration for systemic protocols. Subcutaneous injection and topical application are both used in research. The peptide is typically reconstituted with bacteriostatic water.\n\n## Safety & Legal\n\nGHK-Cu is for research purposes only. The peptide has an excellent safety profile in preclinical and clinical studies, with copper being an essential trace element under tight homeostatic regulation. Mild transient skin discolouration (blue-green tint) may occur at injection sites. The lyophilised powder should be stored at -20\u00b0C in a desiccated environment.\n\n\nThe discovery of GHK-Cu by Dr. Loren Pickart in 1973 was serendipitous \u2014 he was studying why liver tissue from young rats had greater regenerative capacity than tissue from old rats and identified a tripeptide-copper complex as the active factor. This finding had immediate implications for wound healing and aging research. GHK-Cu levels in human plasma decline from approximately 200 ng/mL in young adults (age 20\u201325) to about 80 ng/mL by age 60 \u2014 a decline that correlates with decreased wound healing capacity and reduced collagen synthesis in aging skin.\n\nGHK-Cu's effects on gene expression have been characterised through microarray studies. The peptide downregulates approximately 54% of genes associated with fibrosis, inflammation, and oxidative stress, while upregulating genes involved in tissue remodelling and regeneration. This coordinated shift in gene expression \u2014 from a pro-inflammatory, pro-fibrotic state toward a regenerative, anti-inflammatory state \u2014 may explain GHK-Cu's broad therapeutic effects across different tissue types.\n\nThe copper-binding activity of GHK-Cu is essential for its biological function. The tripeptide sequence (Gly-His-Lys) forms a stable complex with Cu(II) ions, with the histidine imidazole, the N-terminal amine, and the lysine side chain coordinating the metal. This complex is stable enough to deliver copper to cells but labile enough to release it to copper-dependent enzymes including superoxide dismutase (SOD), lysyl oxidase, and cytochrome c oxidase.\n\nFor research applications, GHK-Cu is available in both injectable and topical forms. Systemic research dosages of 1\u20135 mg per day are common, while topical studies use 1\u20132 mg/mL concentrations. The peptide is economical and widely available from UK suppliers. Storage at -20\u00b0C as lyophilised powder ensures long-term stability.",
@@ -1832,7 +1767,8 @@
         "answer": "GHK-Cu plasma levels naturally decline with age \u2014 from approximately 200 ng/mL in young adults to 80 ng/mL by age 60. This decline correlates with reduced wound healing capacity and increased incidence of age-related tissue degeneration."
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "ghk-cu"
   },
   {
     "id": "kpv",
@@ -1883,22 +1819,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research",
-        "price": "\u00a319.90",
-        "inStock": true,
-        "options": [
-          {
-            "size": "5 mg",
-            "price": "\u00a319.90"
-          },
-          {
-            "size": "10 mg",
-            "price": "\u00a333.90"
-          }
-        ]
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk",
         "price": "\u00a324.00",
@@ -1944,6 +1864,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/kpv-5mg/",
         "price": "\u00a321.50",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research",
+        "price": "\u00a319.90",
         "inStock": true
       }
     ],
@@ -2005,12 +1931,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/thymosin-alpha-1",
-        "price": "\u00a327.99",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://example.com/thymosin-alpha-1",
         "price": "\u00a353.81",
@@ -2057,6 +1977,12 @@
         "url": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/",
         "price": "\u00a344.00",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/thymosin-alpha-1",
+        "price": "\u00a327.99",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nThymosin Alpha-1 (T\u03b11), also known as thymalfasin or Zadaxin, is a naturally occurring 28-amino acid peptide originally isolated from the thymus gland by Allan Goldstein in the 1970s. As one of the most clinically established immunomodulatory peptides, T\u03b11 has been used in over 40 countries for the treatment of hepatitis B, hepatitis C, and as an immune adjuvant in cancer therapy, infectious diseases, and vaccine enhancement. Unlike many research peptides, thymosin alpha-1 has a substantial body of clinical evidence supporting its efficacy and safety, with more than 30 phase 2\u20134 clinical trials conducted. The peptide enhances multiple arms of the immune system \u2014 including T-cell maturation, natural killer cell activity, and dendritic cell function \u2014 without directly stimulating the immune system to the point of overactivation. UK immunologists and infectious disease researchers have utilised thymosin alpha-1 extensively for studies on immune restoration, vaccine response enhancement, and therapeutic applications in chronic infections.\n\n## Mechanism of Action\n\nThymosin Alpha-1 exerts its immunomodulatory effects through activation of Toll-like receptor 9 (TLR-9) and downstream MyD88-dependent signalling pathways in dendritic cells, macrophages, and other antigen-presenting cells. This activation increases production of IL-2, IFN-\u03b3, and IL-12 while decreasing IL-4 \u2014 promoting a Th1-dominant immune response essential for antiviral and antitumour immunity. T\u03b11 enhances T-cell maturation and differentiation in the thymus and periphery, increases natural killer (NK) cell cytotoxicity, and promotes dendritic cell maturation and antigen presentation. It also upregulates MHC class I expression and costimulatory molecules (CD80, CD86) on antigen-presenting cells, improving T-cell activation. The peptide demonstrates a unique ability to \"normalise\" immune function \u2014 boosting depressed immune responses while suppressing overactive ones \u2014 through its balanced modulation of cytokine networks.\n\n## Research & Clinical Data\n\nThymosin Alpha-1 has been studied in over 3,000 patients across multiple indications. In chronic hepatitis B, meta-analyses show that T\u03b11 combined with interferon or nucleoside analogues achieves superior virological and biochemical response rates compared to monotherapy. In hepatitis C, T\u03b11 combined with pegylated interferon and ribavirin improved sustained virological response in difficult-to-treat patients. As a cancer adjuvant, T\u03b11 has been studied in lung cancer, melanoma, hepatocellular carcinoma, and head and neck cancers, showing improved immune reconstitution and survival trends. More recent research has explored T\u03b11 as a vaccine adjuvant for influenza and COVID-19 vaccines, and for immune restoration in sepsis and post-surgical immunosuppression.\n\n## Dosage & Administration\n\nCommon research dosages for thymosin alpha-1 are 1.6 mg twice weekly (the standard clinical dose for hepatitis B), with dosing ranging from 1.6\u20136.4 mg per week depending on the indication. The half-life is approximately 1.5\u20132 hours. Subcutaneous administration is the standard route. Reconstitution with bacteriostatic water is standard, and solutions should be stored at 2\u20138\u00b0C.\n\n## Safety & Legal\n\nThymosin Alpha-1 is approved for clinical use in multiple countries (excluding the US and UK) but is intended for research purposes only. It has an excellent safety profile with mild injection site reactions being the most common adverse event. The lyophilised powder should be stored at 2\u20138\u00b0C for long-term stability. Researchers should ensure \u226599% purity from verified suppliers.\n\n\nThe clinical journey of thymosin alpha-1 from thymus-derived peptide to globally used immunotherapeutic is remarkable. First isolated and characterised by Dr. Allan Goldstein at George Washington University, T\u03b11 was one of the first thymic peptides to enter clinical development. The peptide was originally investigated for its ability to restore immune function in immunocompromised patients and was subsequently approved in multiple countries for hepatitis B and C, as a vaccine adjuvant, and as an immune restorative agent in cancer patients.\n\nThe mechanism of T\u03b11 as a TLR-9 agonist is particularly elegant. TLR-9 recognises unmethylated CpG DNA motifs found in bacterial and viral DNA, and its activation triggers a robust innate immune response. By activating this pathway, T\u03b11 stimulates dendritic cell maturation, enhances antigen presentation, and promotes a Th1-dominant cytokine response \u2014 effects that are beneficial for clearing intracellular pathogens and for generating effective antitumour immunity.\n\nResearch into T\u03b11 as a cancer adjuvant has been extensive. In hepatocellular carcinoma, T\u03b11 combined with transarterial chemoembolisation (TACE) improved survival compared to TACE alone. In advanced non-small cell lung cancer, T\u03b11 combined with chemotherapy improved response rates and survival. The peptide was also investigated as a vaccine adjuvant for influenza and, more recently, for COVID-19 vaccines, where it enhanced antibody responses and T-cell immunity.\n\nThe standard clinical dosage of T\u03b11 is 1.6 mg twice weekly by subcutaneous injection. The peptide has a half-life of 1.5\u20132 hours and is well tolerated. T\u03b11 is available from UK research suppliers including United Peptides and BodyHack Guide Shop. Given its extensive clinical track record, researchers have access to substantial safety and efficacy data to guide their experimental designs.",
@@ -2082,7 +2008,8 @@
         "answer": "Yes, Thymosin Alpha-1 (Zadaxin) is approved for clinical use in over 40 countries for hepatitis B and C treatment. However, it is not FDA or MHRA approved and is intended for research purposes in those jurisdictions."
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "thymosin-alpha-1"
   },
   {
     "id": "epitalon",
@@ -2129,12 +2056,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a315.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
         "price": "\u00a311.95",
@@ -2174,6 +2095,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/epitalon-10mg/",
         "price": "\u00a317.50",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/epithalon",
+        "price": "\u00a318.90",
         "inStock": true
       }
     ],
@@ -2248,12 +2175,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/semax",
-        "price": "\u00a322.90",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk/product/semax/",
         "price": "\u00a327.0",
@@ -2304,6 +2225,12 @@
         "url": "https://purepeptidesuk.com/product/semax-5mg/",
         "price": "\u00a319.00",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/semax",
+        "price": "\u00a322.90",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nSemax is a synthetic heptapeptide analogue of adrenocorticotropic hormone fragment ACTH(4-10) (Met-Glu-His-Phe-Pro-Gly-Pro) developed at the Institute of Molecular Genetics of the Russian Academy of Sciences. As one of the most well-established nootropic and neuroprotective peptides, semax has been approved for clinical use in Russia for over two decades, with applications in stroke recovery, cognitive enhancement, optic nerve disorders, and neuroprotection. The peptide's unique mechanism \u2014 modulating the brain-derived neurotrophic factor (BDNF) / TrkB signalling pathway and enhancing monoamine neurotransmitter metabolism \u2014 sets it apart from conventional nootropic compounds that primarily affect blood flow or energy metabolism. Semax has attracted significant interest from UK researchers in neurology, cognitive science, and neuropsychopharmacology as a model compound for studying BDNF upregulation, stress resilience, and cognitive performance enhancement. Its favourable safety profile and intranasal bioavailability make it particularly amenable to translational research.\n\n## Mechanism of Action\n\nSemax exerts its neurotrophic and nootropic effects primarily through modulation of the BDNF-TrkB signalling pathway. It upregulates expression of brain-derived neurotrophic factor (BDNF) and its high-affinity receptor TrkB in the hippocampus, cortex, and striatum \u2014 key brain regions for learning, memory, and neuroplasticity. This BDNF upregulation promotes neurogenesis, synaptogenesis, and long-term potentiation (LTP), the cellular basis of memory formation. Semax also enhances dopamine and serotonin metabolism by increasing the activity of tyrosine hydroxylase and tryptophan hydroxylase, respectively, improving monoaminergic neurotransmission. Additionally, it upregulates nerve growth factor (NGF) and protects neurons against oxidative stress, glutamate excitotoxicity, and ischaemic damage. The N-terminal modification confers resistance to enzymatic degradation and enhanced CNS penetration via the intranasal route.\n\n## Research & Clinical Data\n\nSemax has an extensive clinical track record in Russia. In acute ischaemic stroke, randomised trials demonstrated that semax (12\u201324 mg/day intravenously) improved neurological recovery and reduced infarct size compared to standard therapy. In optic nerve disorders (glaucoma, optic neuritis), semax improved visual field parameters and retinal nerve fibre layer thickness. Cognitive studies in healthy volunteers and patients with mild cognitive impairment have shown improvements in attention, memory, and processing speed. Animal research demonstrates enhanced learning in various maze paradigms, reduced anxiety-like behaviour, and protection against age-related cognitive decline. The peptide's effects on BDNF have been confirmed in human plasma studies.\n\n## Dosage & Administration\n\nThe standard research dosage for semax is 200\u2013600 mcg per day via the intranasal route, which achieves rapid CNS penetration. Higher systemic dosages of 1\u20133 mg per day via subcutaneous injection are also used in some protocols. The intranasal formulation is the most clinically established route. Semax has a half-life of 15\u201330 minutes. Reconstitution with bacteriostatic water is standard for the injectable form; for intranasal use, saline solution is typically used.\n\n## Safety & Legal\n\nSemax is approved for clinical use in Russia but is for research purposes only. It has an excellent safety profile with rare and mild side effects including transient nasal irritation, mild headache, or slight increase in blood pressure. No significant drug interactions or withdrawal effects have been reported. The lyophilised powder should be stored at -20\u00b0C and protected from light.\n\n\nSemax has been in continuous clinical use in Russia since the 1990s for stroke recovery, cognitive disorders, and optic nerve disease, making it one of the longest-used nootropic peptides in medical practice. The Russian Ministry of Health approved semax as a prescription medication (nasal drops) for the treatment of cognitive impairment following stroke and traumatic brain injury, and for optic nerve atrophy. This regulatory approval provides substantial clinical safety and efficacy data.\n\nThe intranasal route of semax administration is a key feature that facilitates its use in CNS research. The peptide's heptapeptide sequence and specific modifications enable direct transport from the nasal cavity to the brain via olfactory and trigeminal nerve pathways, bypassing the blood-brain barrier. Intranasal administration achieves brain concentrations of semax that are significantly higher than those achieved by intravenous administration, despite lower plasma levels.\n\nBeyond its well-characterised effects in stroke and cognitive impairment, semax has been studied in anxiety disorders, chronic fatigue syndrome, and attention deficit hyperactivity disorder (ADHD). Its ability to modulate BDNF and monoamine levels may provide therapeutic benefits across a range of neuropsychiatric conditions characterised by dysregulated neuroplasticity and neurotransmitter imbalance.\n\nFor research protocols, semax is typically administered intranasally at 200\u2013600 mcg per day, with doses divided into 2\u20133 administrations. The peptide has a rapid onset (15\u201330 minutes) and a favourable safety profile with minimal side effects. Semax is available from UK research suppliers and should be stored at -20\u00b0C as lyophilised powder. Reconstitution with saline is preferred for intranasal administration to maintain appropriate pH and osmolarity.",
@@ -2329,7 +2256,8 @@
         "answer": "Semax has a rapid onset of action \u2014 effects can be noticed within 15\u201330 minutes of intranasal administration due to direct nose-to-brain transport. Peak cognitive effects are typically reported within 1\u20132 hours, and consistent use over 5\u201310 days produces cumulative improvements."
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "semax"
   },
   {
     "id": "selank",
@@ -2386,12 +2314,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/selank",
-        "price": "\u00a314.95",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk",
         "price": "\u00a324.00",
@@ -2436,6 +2358,12 @@
         "url": "https://purepeptidesuk.com/product/selank-5mg/",
         "price": "\u00a314.50",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/selank",
+        "price": "\u00a314.95",
+        "inStock": true
       }
     ],
     "longDescription": "## Overview\n\nSelank is a synthetic heptapeptide (Thr-Lys-Pro-Arg-Pro-Gly-Pro) derived from tuftsin, discovered and developed by the Institute of Molecular Genetics of the Russian Academy of Sciences. As a potent anxiolytic peptide, selank exhibits anti-anxiety properties without the sedation, cognitive impairment, or dependence potential associated with conventional benzodiazepine anxiolytics. Its unique mechanism \u2014 inhibition of enkephalin-degrading enzymes and modulation of GABAergic and serotonergic neurotransmission \u2014 provides a novel approach to anxiety research that combines anxiolysis with cognitive enhancement. Selank also exhibits immunomodulatory properties, normalising cytokine profiles in stress models, which has attracted interest from UK researchers in psychoneuroimmunology and stress physiology. The peptide's combination of anxiolytic, cognitive-enhancing, and immune-modulating effects makes it a uniquely versatile research compound for studying the intersection of stress, immunity, and cognition.\n\n## Mechanism of Action\n\nSelank functions primarily as an enkephalinase inhibitor, increasing the levels of endogenous enkephalins (leu-enkephalin and met-enkephalin) and substance P by inhibiting their enzymatic degradation. This leads to enhanced activation of delta and mu opioid receptors, producing anxiolytic effects without the addictive potential of direct opioid agonists. Selank also modulates GABAergic neurotransmission \u2014 it does not bind directly to GABA-A receptors like benzodiazepines but instead enhances GABAergic tone indirectly through its effects on the enkephalin system. Additionally, selank normalises monoamine levels (serotonin, dopamine, norepinephrine) disrupted by stress, restoring balanced neurotransmission in the amygdala and prefrontal cortex. The peptide regulates pro-inflammatory cytokine expression through the IL-6/JAK/STAT pathway, attenuating the neuroinflammatory response to stress. This integrated mechanism \u2014 modulating the opioid, GABA, monoamine, and immune systems \u2014 produces anxiolysis, cognitive enhancement, and stress resilience simultaneously.\n\n## Research & Clinical Data\n\nClinical trials in Russia have demonstrated selank's efficacy in generalised anxiety disorder, with outcomes comparable to benzodiazepines but without sedation or cognitive impairment. Cognitive testing in healthy volunteers has shown improvements in attention, memory consolidation, and executive function during selank treatment \u2014 contrasting with the cognitive impairment seen with benzodiazepines. Immunological studies demonstrate normalisation of stress-elevated cytokine levels (IL-6, TNF-\u03b1) in anxious patients. Animal studies confirm anxiolytic effects in elevated plus maze, open field, and social interaction tests, along with enhanced learning in Morris water maze and passive avoidance paradigms.\n\n## Dosage & Administration\n\nThe standard research dosage for selank is 200\u2013600 mcg per day via the intranasal route, which achieves rapid CNS penetration. Higher systemic dosages of 1\u20133 mg per day are also used. The intranasal route is preferred due to direct nose-to-brain transport, bypassing the blood-brain barrier. Selank has a half-life of 15\u201330 minutes. Reconstitution with bacteriostatic water (injectable) or saline (intranasal) is standard.\n\n## Safety & Legal\n\nSelank is approved for clinical use in Russia but is intended for research purposes. It has a very favourable safety profile \u2014 no sedation, no cognitive impairment, no dependence potential, and no withdrawal syndrome have been reported. Mild transient nasal irritation may occur with intranasal administration. The lyophilised powder should be stored at -20\u00b0C. Researchers should ensure \u226599% purity from verified suppliers.\n\n\nSelank's development at the Institute of Molecular Genetics in Moscow was part of a systematic programme to create peptide-based anxiolytics that could overcome the limitations of benzodiazepines \u2014 namely sedation, cognitive impairment, dependence, and withdrawal. The tuftsin family of peptides (tuftsin is a natural immunomodulatory tetrapeptide Thr-Lys-Pro-Arg) provided the starting point, and selank emerged from structure-activity optimisation as a heptapeptide with enhanced anxiolytic properties.\n\nThe enkephalinase inhibitory activity of selank distinguishes it from other anxiolytic mechanisms. By preventing the breakdown of endogenous enkephalins, selank potentiates the activity of the body's own opioid system \u2014 specifically the delta and mu opioid receptors involved in emotional regulation and stress responses. This indirect activation of the opioid system provides anxiolysis without the addictive potential of direct opioid agonists.\n\nThe immunomodulatory effects of selank are particularly interesting from a psychoneuroimmunology perspective. Chronic stress is known to dysregulate the immune system, increasing susceptibility to infections and inflammatory conditions. Selank's ability to normalise stress-elevated pro-inflammatory cytokines (IL-6, TNF-\u03b1) suggests that it may counteract the harmful immunological consequences of chronic stress, providing a holistic approach to stress-related disorders.\n\nFor research use, selank is typically administered intranasally at 200\u2013600 mcg per day. The peptide has a rapid onset (within 15\u201330 minutes) and a favourable safety profile with no sedation, cognitive impairment, or dependence. UK researchers can source selank from established peptide suppliers. The lyophilised powder should be stored at -20\u00b0C and reconstituted with bacteriostatic water or saline for use.",
@@ -2461,7 +2389,8 @@
         "answer": "Yes, unlike conventional anxiolytics, selank has been shown to improve attention, memory consolidation, and executive function in clinical studies. This cognitive enhancement, combined with anxiolysis, makes it unique among anti-anxiety compounds."
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "selank"
   },
   {
     "id": "ara-290",
@@ -2498,12 +2427,6 @@
         "vendor": "Express Peptides",
         "url": "https://example.com/ara-290",
         "price": "\u00a338.47",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ara-290-10mg",
-        "price": "\u00a324.90",
         "inStock": true
       },
       {
@@ -2573,8 +2496,7 @@
         "question": "What is the ARA-290 dosage in research?",
         "answer": "Clinical studies have used 4 mg subcutaneous daily for 28 days, with general research dosages ranging from 2\u20138 mg per day. Its short half-life (~20 minutes) supports daily administration."
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "bpc-157-oral",
@@ -2624,12 +2546,6 @@
             "price": "\u00a349.99"
           }
         ]
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a335.00",
-        "inStock": true
       },
       {
         "vendor": "Express Peptides",
@@ -2731,12 +2647,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ghrh-fragment-176-191",
-        "price": "\u00a317.90",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://example.com/fragment-176-191",
         "price": "\u00a331.73",
@@ -2758,6 +2668,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/fragment-176-191-2mg/",
         "price": "\u00a314.40",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ghrh-fragment-176-191",
+        "price": "\u00a317.90",
         "inStock": true
       }
     ],
@@ -2811,12 +2727,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/hexarelin-5mg",
-        "price": "\u00a326.90",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a326.40",
@@ -2850,6 +2760,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/hexarelin-2/",
         "price": "\u00a312.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/hexarelin-5mg",
+        "price": "\u00a326.90",
         "inStock": true
       }
     ],
@@ -2921,12 +2837,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
-        "price": "\u00a315.52",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk",
         "price": "\u00a329.00",
@@ -2958,6 +2868,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/ipamorelin-2mg/",
         "price": "\u00a39.50",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+        "price": "\u00a315.52",
         "inStock": true
       }
     ],
@@ -2996,12 +2912,6 @@
         "vendor": "Research Peptide",
         "url": "https://example.com/ghrp-6",
         "price": "\u00a317.01",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ghrp-6",
-        "price": "\u00a312.90",
         "inStock": true
       },
       {
@@ -3063,9 +2973,16 @@
         "url": "https://purepeptidesuk.com/product/ghrp-6-5/",
         "price": "\u00a39.50",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ghrp-6",
+        "price": "\u00a312.90",
+        "inStock": true
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "ghrp-6"
   },
   {
     "id": "pt-141",
@@ -3127,12 +3044,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/pt-141-bremelanotide-10mg",
-        "price": "\u00a320.90",
-        "inStock": true
-      },
-      {
         "vendor": "Imperial Peptides UK",
         "url": "https://www.imperialpeptides.co.uk",
         "price": "\u00a340.00",
@@ -3166,6 +3077,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/pt-141-bremelanotide-10mg/",
         "price": "\u00a320.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/pt-141-bremelanotide-10mg",
+        "price": "\u00a320.90",
         "inStock": true
       }
     ],
@@ -3238,12 +3155,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/kisspeptin-10",
-        "price": "\u00a329.95",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/kisspeptin-10",
         "price": "\u00a350.63",
@@ -3276,9 +3187,16 @@
         "url": "https://purepeptidesuk.com/product/kisspeptin-5mg/",
         "price": "\u00a321.50",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/kisspeptin-10",
+        "price": "\u00a329.95",
+        "inStock": true
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "kisspeptin-10"
   },
   {
     "id": "cerebrolysin",
@@ -3334,12 +3252,6 @@
         "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a358.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://example.com/cerebrolysin",
-        "price": "\u00a362.10",
         "inStock": true
       },
       {
@@ -3418,12 +3330,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a342.00",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptide",
         "url": "https://example.com/p21",
         "price": "\u00a350.14",
@@ -3486,12 +3392,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a355.00",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://example.com/dihexa",
         "price": "\u00a362.36",
@@ -3548,12 +3448,6 @@
       "10-20 mg 2x/day sublingual"
     ],
     "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a316.00",
-        "inStock": true
-      },
       {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk",
@@ -3622,12 +3516,6 @@
       "100 mg 1-2x/day"
     ],
     "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://example.com/phenylpiracetam",
-        "price": "\u00a314.67",
-        "inStock": true
-      },
       {
         "vendor": "Research Peptide",
         "url": "https://example.com/phenylpiracetam",
@@ -3707,12 +3595,6 @@
         "vendor": "Express Peptides",
         "url": "https://example.com/pramipexole",
         "price": "\u00a321.70",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://example.com/pramipexole",
-        "price": "\u00a322.14",
         "inStock": true
       },
       {
@@ -3797,12 +3679,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a352.00",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://example.com/bpc-157-tb-500-blend",
         "price": "\u00a354.36",
@@ -3831,9 +3707,16 @@
         "url": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
         "price": "\u00a349.00",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend",
+        "price": "\u00a336.99",
+        "inStock": true
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "bpc-157-tb-500-blend"
   },
   {
     "id": "gonadorelin",
@@ -3871,12 +3754,6 @@
         "vendor": "Imperial Peptides UK",
         "url": "https://example.com/gonadorelin",
         "price": "\u00a319.83",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a326.00",
         "inStock": true
       },
       {
@@ -3979,12 +3856,6 @@
         "inStock": true
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/dsip-delta-sleep-peptide",
-        "price": "\u00a315.90",
-        "inStock": true
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://example.com/dsip",
         "price": "\u00a337.62",
@@ -4012,6 +3883,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/dsip-5mg/",
         "price": "\u00a315.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/dsip-delta-sleep-peptide",
+        "price": "\u00a315.90",
         "inStock": true
       }
     ],
@@ -4078,12 +3955,6 @@
         "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk",
         "price": "\u00a315.00",
-        "inStock": true
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk",
-        "price": "\u00a316.00",
         "inStock": true
       },
       {
@@ -4349,12 +4220,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/snap-8-argireline-10mg",
-        "price": "\u00a320.90",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/snap-8-10mg",
         "price": "\u00a310.95",
@@ -4364,6 +4229,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/snap-8-10mg/",
         "price": "\u00a321.95",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/snap-8-argireline-10mg",
+        "price": "\u00a320.90",
         "inStock": true
       }
     ],
@@ -4404,12 +4275,6 @@
             "price": "\u00a37.99"
           }
         ]
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/bacteriostatic-water-10ml",
-        "price": "\u00a35.52",
-        "inStock": true
       },
       {
         "vendor": "Research Peptides UK",
@@ -4478,22 +4343,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/nad-research-peptide",
-        "price": "\u00a346.64",
-        "inStock": true,
-        "options": [
-          {
-            "size": "500 mg",
-            "price": "\u00a346.64"
-          },
-          {
-            "size": "1000 mg",
-            "price": "\u00a365.84"
-          }
-        ]
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/nad/pen/1000",
         "price": "\u00a3240.00",
@@ -4509,6 +4358,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/nad-plus-500mg/",
         "price": "\u00a340.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/nad-research-peptide",
+        "price": "\u00a365.84",
         "inStock": true
       }
     ],
@@ -5174,12 +5029,6 @@
             "price": "\u00a339.99"
           }
         ]
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/pinealon-research-peptide",
-        "price": "\u00a324.90",
-        "inStock": true
       }
     ]
   },
@@ -5314,12 +5163,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/5-amino-1mq-10mg",
-        "price": "\u00a328.90",
-        "inStock": true
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
         "price": "\u00a375.00",
@@ -5329,6 +5172,12 @@
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/",
         "price": "\u00a342.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/5-amino-1mq-10mg",
+        "price": "\u00a328.90",
         "inStock": true
       }
     ],
@@ -5371,6 +5220,12 @@
         "url": "https://purepeptidesuk.com/product/ll-37-5mg/",
         "price": "\u00a330.00",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ll-37-cathelicidin-5mg",
+        "price": "\u00a362.90",
+        "inStock": true
       }
     ],
     "vendorProduct": false
@@ -5407,12 +5262,6 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/thymalin",
-        "price": "\u00a324.99",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
         "price": "\u00a314.95",
@@ -5423,9 +5272,16 @@
         "url": "https://purepeptidesuk.com/product/thymalin-10mg/",
         "price": "\u00a335.00",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/thymalin",
+        "price": "\u00a324.99",
+        "inStock": true
       }
     ],
-    "vendorProduct": false
+    "vendorProduct": true,
+    "compareSlug": "thymalin"
   },
   {
     "id": "vip",
@@ -5459,15 +5315,15 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/vip-10mg",
-        "price": "\u00a342.90",
-        "inStock": true
-      },
-      {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/",
         "price": "\u00a340.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/vip-10mg",
+        "price": "\u00a342.90",
         "inStock": true
       }
     ],
@@ -5550,8 +5406,7 @@
         "price": "\u00a342.50",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "glutathione",
@@ -5590,8 +5445,7 @@
         "price": "\u00a346.00",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "pnc-27",
@@ -5691,18 +5545,19 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/ahk-cu-100mg",
-        "price": "\u00a335.99",
-        "inStock": true
-      },
-      {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk/product/ahk-cu/",
         "price": "\u00a334.99",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ahk-cu-100mg",
+        "price": "\u00a335.99",
+        "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": false
   },
   {
     "id": "vitamin-b12",
@@ -5846,8 +5701,7 @@
         "price": "\u00a346.50",
         "inStock": true
       }
-    ],
-    "vendorProduct": false
+    ]
   },
   {
     "id": "chonliten",
@@ -5948,18 +5802,20 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/mgf",
-        "price": "\u00a317.80",
-        "inStock": true
-      },
-      {
         "vendor": "Research Peptides UK",
         "url": "https://www.researchpeptides.co.uk/product-page/mgf-2mg",
         "price": "\u00a310.95",
         "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/mgf",
+        "price": "\u00a317.80",
+        "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": true,
+    "compareSlug": "mgf"
   },
   {
     "id": "ovagen",
@@ -6024,12 +5880,6 @@
             "price": "\u00a344.99"
           }
         ]
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/pancragen-research-peptide",
-        "price": "\u00a348.95",
-        "inStock": true
       }
     ]
   },
@@ -6098,15 +5948,15 @@
         ]
       },
       {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/vesugen-research-peptide",
-        "price": "\u00a344.95",
-        "inStock": true
-      },
-      {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/vesugen-20mg/",
         "price": "\u00a335.00",
+        "inStock": true
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/vesugen-research-peptide",
+        "price": "\u00a344.95",
         "inStock": true
       }
     ],
@@ -6142,12 +5992,6 @@
             "price": "\u00a327.99"
           }
         ]
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/bronchogen-research-peptide",
-        "price": "\u00a319.50",
-        "inStock": true
       }
     ]
   },
@@ -6282,7 +6126,9 @@
         "price": "\u00a362.90",
         "inStock": true
       }
-    ]
+    ],
+    "vendorProduct": true,
+    "compareSlug": "follistatin-344"
   },
   {
     "id": "ace-031-1mg-1",
@@ -6660,6 +6506,12 @@
         "price": "\u00a37.50",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/bac-water-10ml-front.png"
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/bacteriostatic-water-10ml",
+        "price": "\u00a35.52",
+        "inStock": true
       }
     ],
     "faq": [],
@@ -8134,6 +7986,12 @@
         "price": "\u00a320.00",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/pt-141-10mg-front.png"
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/pt-141-bremelanotide-10mg",
+        "price": "\u00a320.90",
+        "inStock": true
       }
     ],
     "faq": [],
@@ -8320,6 +8178,12 @@
         "price": "\u00a330.00",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ss-31-10mg-front.png"
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ss-31-10mg",
+        "price": "\u00a327.90",
+        "inStock": true
       }
     ],
     "faq": [],
@@ -8757,5 +8621,983 @@
     "faq": [],
     "vendorProduct": true,
     "compareSlug": "vilon-20mg"
+  },
+  {
+    "id": "bronchogen-research-peptide",
+    "name": "Bronchogen",
+    "slug": "bronchogen-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Bronchogen \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/bronchogen-research-peptide",
+        "price": "\u00a319.50",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "cardiogen-research-peptide",
+    "name": "Cardiogen",
+    "slug": "cardiogen-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Cardiogen \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/cardiogen-research-peptide",
+        "price": "\u00a324.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "vesugen-research-peptide",
+    "name": "Vesugen",
+    "slug": "vesugen-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Vesugen \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/vesugen-research-peptide",
+        "price": "\u00a344.95",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "vesugen"
+  },
+  {
+    "id": "pancragen-research-peptide",
+    "name": "Pancragen",
+    "slug": "pancragen-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Pancragen \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/pancragen-research-peptide",
+        "price": "\u00a348.95",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "cortagen-research-peptide",
+    "name": "Cortagen",
+    "slug": "cortagen-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Cortagen \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/cortagen-research-peptide",
+        "price": "\u00a348.95",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "ahk-cu-100mg",
+    "name": "AHK-Cu 100mg",
+    "slug": "ahk-cu-100mg",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "AHK-Cu 100mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ahk-cu-100mg",
+        "price": "\u00a335.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "ahk-cu"
+  },
+  {
+    "id": "extended-cold-chain-transit-system",
+    "name": "Extended Cold Chain Transit System",
+    "slug": "extended-cold-chain-transit-system",
+    "aliases": [],
+    "category": "lab-supplies",
+    "description": "Extended Cold Chain Transit System \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/extended-cold-chain-transit-system",
+        "price": "\u00a315.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "igf1-lr3-1mg",
+    "name": "IGF1-LR3 1mg",
+    "slug": "igf1-lr3-1mg",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "IGF1-LR3 1mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+        "price": "\u00a356.00",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "igf-1-lr3"
+  },
+  {
+    "id": "metabolic-efficiency-research-kit-nad-5-amino-1mq-blend",
+    "name": "Metabolic Efficiency Research Kit",
+    "slug": "metabolic-efficiency-research-kit-nad-5-amino-1mq-blend",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "Metabolic Efficiency Research Kit \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/metabolic-efficiency-research-kit-nad-5-amino-1mq-blend",
+        "price": "\u00a3102.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "acetic-acid-reconstitution-solvent-10ml",
+    "name": "Acetic Acid 0.6% Solution 10ml",
+    "slug": "acetic-acid-reconstitution-solvent-10ml",
+    "aliases": [],
+    "category": "lab-supplies",
+    "description": "Acetic Acid 0.6% Solution 10ml \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/acetic-acid-reconstitution-solvent-10ml",
+        "price": "\u00a36.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "ara-290-10mg",
+    "name": "ARA-290 10mg",
+    "slug": "ara-290-10mg",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "ARA-290 10mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ara-290-10mg",
+        "price": "\u00a324.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "hexarelin-5mg",
+    "name": "Hexarelin 5mg",
+    "slug": "hexarelin-5mg",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Hexarelin 5mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/hexarelin-5mg",
+        "price": "\u00a326.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "hexarelin"
+  },
+  {
+    "id": "ll-37-cathelicidin-5mg",
+    "name": "LL-37 (Cathelicidin) 5mg",
+    "slug": "ll-37-cathelicidin-5mg",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "LL-37 (Cathelicidin) 5mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ll-37-cathelicidin-5mg",
+        "price": "\u00a362.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "ll-37"
+  },
+  {
+    "id": "snap-8-argireline-10mg",
+    "name": "SNAP-8 Argireline 10mg",
+    "slug": "snap-8-argireline-10mg",
+    "aliases": [],
+    "category": "cosmetic-peptides",
+    "description": "SNAP-8 Argireline 10mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/snap-8-argireline-10mg",
+        "price": "\u00a320.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "snap-8"
+  },
+  {
+    "id": "sermorelin-grf-1-29-5mg",
+    "name": "Sermorelin (GRF 1-29) 5mg",
+    "slug": "sermorelin-grf-1-29-5mg",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "Sermorelin (GRF 1-29) 5mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg",
+        "price": "\u00a326.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "sermorelin"
+  },
+  {
+    "id": "vip-10mg",
+    "name": "VIP 10mg",
+    "slug": "vip-10mg",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "VIP 10mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/vip-10mg",
+        "price": "\u00a342.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "vip"
+  },
+  {
+    "id": "5-amino-1mq-10mg",
+    "name": "5-Amino-1MQ 10mg",
+    "slug": "5-amino-1mq-10mg",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "5-Amino-1MQ 10mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/5-amino-1mq-10mg",
+        "price": "\u00a328.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "5-amino-1mq"
+  },
+  {
+    "id": "cognitive-signalling-set-semax-selank",
+    "name": "Cognitive Signalling Research Set",
+    "slug": "cognitive-signalling-set-semax-selank",
+    "aliases": [],
+    "category": "cognitive",
+    "description": "Cognitive Signalling Research Set \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/cognitive-signalling-set-semax-selank",
+        "price": "\u00a333.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "kpv-5mg-peptide-research",
+    "name": "KPV 5mg",
+    "slug": "kpv-5mg-peptide-research",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "KPV 5mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research",
+        "price": "\u00a319.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "kpv"
+  },
+  {
+    "id": "systemic-repair-kit-ghk-bpc-tb-kpv",
+    "name": "Systemic Repair Kit KLOW Blend",
+    "slug": "systemic-repair-kit-ghk-bpc-tb-kpv",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "Systemic Repair Kit KLOW Blend \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/systemic-repair-kit-ghk-bpc-tb-kpv",
+        "price": "\u00a384.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "bpc-157-tb500-bacteriostatic-water-research-kit",
+    "name": "BPC-157 + TB500 Research Kit",
+    "slug": "bpc-157-tb500-bacteriostatic-water-research-kit",
+    "aliases": [],
+    "category": "peptide-blends",
+    "description": "BPC-157 + TB500 Research Kit \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/bpc-157-tb500-bacteriostatic-water-research-kit",
+        "price": "\u00a342.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "bpc-157-tb-500-blend"
+  },
+  {
+    "id": "ghrh-analog-amide",
+    "name": "GHRH (1-44) Analog Amide",
+    "slug": "ghrh-analog-amide",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "GHRH (1-44) Analog Amide \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ghrh-analog-amide",
+        "price": "\u00a329.99",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "tesamorelin"
+  },
+  {
+    "id": "pinealon-research-peptide",
+    "name": "Pinealon 10mg",
+    "slug": "pinealon-research-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Pinealon 10mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/pinealon-research-peptide",
+        "price": "\u00a324.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "peg-mgf",
+    "name": "PEG-MGF",
+    "slug": "peg-mgf",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "PEG-MGF \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/peg-mgf",
+        "price": "\u00a323.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "mgf"
+  },
+  {
+    "id": "mots-c-research-peptide",
+    "name": "MOTS-c",
+    "slug": "mots-c-research-peptide",
+    "aliases": [],
+    "category": "peptide-fragments",
+    "description": "MOTS-c \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/mots-c-research-peptide",
+        "price": "\u00a327.49",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "mots-c"
+  },
+  {
+    "id": "nad-research-peptide",
+    "name": "NAD+",
+    "slug": "nad-research-peptide",
+    "aliases": [],
+    "category": "cellular-peptides",
+    "description": "NAD+ \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/nad-research-peptide",
+        "price": "\u00a365.84",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "nad-plus"
+  },
+  {
+    "id": "ghrh-fragment-176-191",
+    "name": "Fragment 176-191 2mg",
+    "slug": "ghrh-fragment-176-191",
+    "aliases": [],
+    "category": "aod-fragments",
+    "description": "Fragment 176-191 2mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ghrh-fragment-176-191",
+        "price": "\u00a317.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "fragment-176-191"
+  },
+  {
+    "id": "ipamorelin-5mg-peptide-research",
+    "name": "Ipamorelin 5mg",
+    "slug": "ipamorelin-5mg-peptide-research",
+    "aliases": [],
+    "category": "ghrp",
+    "description": "Ipamorelin 5mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+        "price": "\u00a315.52",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "ipamorelin"
+  },
+  {
+    "id": "dsip-delta-sleep-peptide",
+    "name": "DSIP (Delta Sleep-Inducing Peptide)",
+    "slug": "dsip-delta-sleep-peptide",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "DSIP (Delta Sleep-Inducing Peptide) \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/dsip-delta-sleep-peptide",
+        "price": "\u00a315.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "dsip"
+  },
+  {
+    "id": "epithalon",
+    "name": "Epithalon (Epitalon) 10mg",
+    "slug": "epithalon",
+    "aliases": [],
+    "category": "research-compounds",
+    "description": "Epithalon (Epitalon) 10mg \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/epithalon",
+        "price": "\u00a318.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "epitalon"
+  },
+  {
+    "id": "cjc-1295-with-dac",
+    "name": "CJC-1295 (With DAC)",
+    "slug": "cjc-1295-with-dac",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (With DAC) \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/cjc-1295-with-dac",
+        "price": "\u00a321.40",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": []
+  },
+  {
+    "id": "cjc-1295-no-dac",
+    "name": "CJC-1295 (no DAC)",
+    "slug": "cjc-1295-no-dac",
+    "aliases": [],
+    "category": "growth-factors",
+    "description": "CJC-1295 (no DAC) \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/cjc-1295-no-dac",
+        "price": "\u00a313.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "cjc-1295"
+  },
+  {
+    "id": "bpc-157-research-peptide",
+    "name": "BPC-157",
+    "slug": "bpc-157-research-peptide",
+    "aliases": [],
+    "category": "thymosin-bpc",
+    "description": "BPC-157 \u2014 research peptide for laboratory use only.",
+    "mechanism": "Under research.",
+    "cas": "N/A",
+    "molarMass": "N/A",
+    "sequence": "N/A",
+    "purity": "\u226598%",
+    "form": "Lyophilized powder",
+    "halfLife": "N/A",
+    "researchAreas": [
+      "General research"
+    ],
+    "commonDosages": [],
+    "sources": [
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/bpc-157-research-peptide",
+        "price": "\u00a316.90",
+        "inStock": true
+      }
+    ],
+    "vendorProduct": true,
+    "faq": [],
+    "compareSlug": "bpc-157"
   }
 ]
