@@ -220,30 +220,36 @@ export default function Home() {
  </section>
 
  {/* 3. TRENDING RIGHT NOW */}
- <section className="py-10 max-w-7xl mx-auto px-4 ">
- <div className="mb-5">
- <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
- <span className="text-[10px] font-bold text-white uppercase tracking-wider">Trending Right Now</span>
- </div>
- </div>
- <ScrollSection>
- {trending.slice(0, 6).map((c) => {
- const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
- return (
- <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-52 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
- <div className="flex items-center justify-between mb-2">
- <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
- </div>
- <div className="text-xs"><span className="text-slate-400">from</span> <span className="text-emerald-600 font-bold text-[13px]">&pound;{minPrice.toFixed(2)}</span> <span className="text-slate-400">{c.sources.length} VENDORS</span></div>
- </Link>
- );
- })}
- {/* Browse all button as last card */}
- <Link href="/compounds" className="flex-shrink-0 w-52 bg-gray-50 border border-black rounded-xl p-4 hover:bg-gray-100 transition-all snap-start flex items-center justify-center">
- <span className="text-sm font-semibold text-blue-600">Browse all &rarr;</span>
- </Link>
- </ScrollSection>
+ <section className="py-10 max-w-7xl mx-auto px-4">
+   <div className="mb-5">
+     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+       <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
+       <span className="text-[10px] font-bold text-white uppercase tracking-wider">Trending Right Now</span>
+     </div>
+     <div className="flex items-center justify-between">
+       <h2 className="text-lg font-bold text-gray-900">Trending right now</h2>
+       <Link href="/compounds" className="text-sm text-blue-600 font-medium hover:underline">Browse all &rarr;</Link>
+     </div>
+   </div>
+   <ScrollSection>
+     {trending.slice(0, 6).map((c) => {
+       const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
+       return (
+         <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-60 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
+           <div className="h-16 flex items-center justify-center mb-2">
+             <img src={`/images/compounds/${c.slug}.png`} alt={c.name} className="w-12 h-12 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${c.slug}.svg`; }}} />
+           </div>
+           <h3 className="font-semibold text-gray-900 text-sm text-center">{c.name}</h3>
+           <div className="text-xs text-center mt-1">
+             <span className="text-slate-400">from</span>{" "}
+             <span className="text-emerald-600 font-bold text-[13px]">&pound;{minPrice.toFixed(2)}</span>
+             {" "}
+             <span className="text-slate-400">{c.sources.length} VENDORS</span>
+           </div>
+         </Link>
+       );
+     })}
+   </ScrollSection>
  </section>
 
  {/* 4. TOP SUPPLIERS */}
@@ -338,74 +344,82 @@ export default function Home() {
  </section>
 
  {/* 6. TOP DEALS TODAY */}
- <section className="py-10 max-w-7xl mx-auto px-4 ">
- <div className="mb-5">
- <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" /></svg>
- <span className="text-[10px] font-bold text-white uppercase tracking-wider">Top Deals Today</span>
- </div>
- <h2 className="text-lg font-bold text-gray-900">Top deals of the day</h2>
- <p className="text-sm text-black">The biggest savings when you pick the cheapest supplier vs. the most expensive.</p>
- </div>
- <ScrollSection>
- {topDeals.map((deal) => (
- <Link key={deal.id + "-deal"} href={`/compounds/${deal.slug}`} className="flex-shrink-0 w-60 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
- <div className="p-4">
- <div className="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded inline-block mb-2">
- -{deal.savingsPct}%
- </div>
- <h3 className="font-semibold text-gray-900 text-sm mb-1">{deal.name}{dosageLabel(deal.commonDosages) ? ` ${dosageLabel(deal.commonDosages)}` : ""}</h3>
- <div className="text-xs text-slate-400 line-through mb-1">&pound;{deal.maxPrice.toFixed(2)}</div>
-           <div className="text-xl md:text-2xl font-extrabold text-emerald-600">&pound;{deal.minPrice.toFixed(2)}</div>
-           <div className="text-xs font-bold text-emerald-600 mt-1">SAVE &pound;{deal.savingsAmount}</div>
- <div className="text-[10px] text-black mt-1">at {deal.cheapestVendor?.vendor || "Various"}</div>
- <div className="mt-2 text-xs text-blue-600 font-medium flex items-center gap-1">
- <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
- View
- </div>
- </div>
- </Link>
- ))}
- </ScrollSection>
+ <section className="py-10 max-w-7xl mx-auto px-4">
+   <div className="mb-5">
+     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+       <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" /></svg>
+       <span className="text-[10px] font-bold text-white uppercase tracking-wider">Top Deals Today</span>
+     </div>
+     <h2 className="text-lg font-bold text-gray-900">Top deals of the day</h2>
+     <p className="text-sm text-black">The biggest savings when you pick the cheapest supplier vs. the most expensive.</p>
+   </div>
+   <ScrollSection>
+     {topDeals.map((deal) => (
+       <Link key={deal.id + "-deal"} href={`/compounds/${deal.slug}`} className="flex-shrink-0 w-72 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
+         <div className="h-28 bg-gray-50 flex items-center justify-center relative">
+           <img src={`/images/compounds/${deal.slug}.png`} alt={deal.name} className="w-16 h-16 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${deal.slug}.svg`; }}} />
+           <div className="absolute top-2 left-2 bg-orange-500 text-white text-[11px] font-bold px-2 py-0.5 rounded-md">
+             -{deal.savingsPct}%
+           </div>
+         </div>
+         <div className="p-4">
+           <h3 className="font-semibold text-gray-900 text-sm">{deal.name}{dosageLabel(deal.commonDosages) ? ` ${dosageLabel(deal.commonDosages)}` : ""}</h3>
+           <p className="text-xs text-slate-500 mt-0.5">at {deal.cheapestVendor?.vendor || "Various"}</p>
+           <div className="mt-2 flex items-baseline gap-2">
+             <span className="text-lg text-slate-400 line-through">&pound;{deal.maxPrice.toFixed(2)}</span>
+             <span className="text-xl md:text-2xl font-extrabold text-emerald-600">&pound;{deal.minPrice.toFixed(2)}</span>
+           </div>
+           <div className="text-xs font-bold text-emerald-600 mt-0.5">SAVE &pound;{deal.savingsAmount}</div>
+           <div className="mt-3 w-full py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-bold rounded-lg text-center transition-colors">
+             View &rarr;
+           </div>
+         </div>
+       </Link>
+     ))}
+   </ScrollSection>
  </section>
 
  {/* 7. TRENDING THIS WEEK */}
- <section className="py-10 max-w-7xl mx-auto px-4 ">
- <div className="mb-5">
- <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
- <span className="text-[10px] font-bold text-white uppercase tracking-wider">Trending This Week</span>
- </div>
- <h2 className="text-lg font-bold text-gray-900">Researchers are clicking on these</h2>
- <p className="text-sm text-black">The specific peptide + supplier combos getting the most attention right now.</p>
- </div>
- <ScrollSection>
- {trendingVendorItems.map((item) => (
- <Link key={`tw-${item.compound.id}-${item.vendor.vendor}`} href={`/compounds/${item.compound.slug}`} className="flex-shrink-0 w-56 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
- <div className="flex items-start gap-3">
- <span className="text-xs font-bold text-gray-300 w-4 flex-shrink-0">{item.rank}</span>
- <div className="min-w-0">
- <h3 className="font-semibold text-gray-900 text-sm">{item.compound.name}{dosageLabel(item.compound.commonDosages) ? ` ${dosageLabel(item.compound.commonDosages)}` : ""}</h3>
- <p className="text-xs text-black">at {item.vendor.vendor}</p>
- <div className="flex items-center gap-2 mt-1.5">
- <span className="text-sm font-bold text-emerald-600">{item.vendor.price}</span>
- {item.vendorData?.verified && (
- <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
- <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
- Site Verified
- </span>
- )}
- </div>
- {item.vendorData && <div className="text-[10px] text-amber-500 mt-0.5">★ {item.vendorData.rating}</div>}
- <div className="mt-1.5 text-xs text-blue-600 font-medium flex items-center gap-1">
- <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
- View
- </div>
- </div>
- </div>
- </Link>
- ))}
- </ScrollSection>
+ <section className="py-10 max-w-7xl mx-auto px-4">
+   <div className="mb-5">
+     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+       <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+       <span className="text-[10px] font-bold text-white uppercase tracking-wider">Trending This Month</span>
+     </div>
+     <h2 className="text-lg font-bold text-gray-900">Researchers are clicking on these</h2>
+     <p className="text-sm text-black">The specific peptide + supplier combos getting the most attention right now.</p>
+   </div>
+   <ScrollSection>
+     {trendingVendorItems.map((item) => (
+       <Link key={`tw-${item.compound.id}-${item.vendor.vendor}`} href={`/compounds/${item.compound.slug}`} className="flex-shrink-0 w-64 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
+         <div className="flex items-center gap-3">
+           <span className="text-lg font-bold text-slate-300 w-6 flex-shrink-0 text-center">{item.rank}</span>
+           <div className="w-10 h-10 rounded-lg bg-gray-50 flex items-center justify-center flex-shrink-0 overflow-hidden">
+             <img src={`/images/compounds/${item.compound.slug}.png`} alt={item.compound.name} className="w-8 h-8 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${item.compound.slug}.svg`; }}} />
+           </div>
+           <div className="min-w-0 flex-1">
+             <h3 className="font-semibold text-gray-900 text-sm truncate">{item.compound.name}{dosageLabel(item.compound.commonDosages) ? ` ${dosageLabel(item.compound.commonDosages)}` : ""}</h3>
+             <p className="text-xs text-slate-500 truncate">at {item.vendor.vendor}</p>
+           </div>
+         </div>
+         <div className="flex items-center justify-between mt-3 pt-3 border-t border-slate-100">
+           <div className="flex items-center gap-2">
+             <span className="text-base font-bold text-emerald-600">{item.vendor.price}</span>
+             {item.vendorData?.verified && (
+               <span className="inline-flex items-center gap-0.5 text-[9px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                 <svg width="7" height="7" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                 Verified
+               </span>
+             )}
+           </div>
+           <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
+         </div>
+         {item.vendorData && (
+           <div className="text-[10px] text-amber-500 mt-1">★ {item.vendorData.rating}</div>
+         )}
+       </Link>
+     ))}
+   </ScrollSection>
  </section>
 
  {/* 8+. CATEGORY SECTIONS */}
@@ -413,61 +427,49 @@ export default function Home() {
  const groupCompounds = compounds.filter((c) => !(c as any)?.compareSlug && group.slugs.includes(c.category));
  if (groupCompounds.length === 0) return null;
  return (
- <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4 ">
- <div className="mb-5">
- <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M7 10l5 5 5-5H7z" /></svg>
- <span className="text-[10px] font-bold text-white uppercase tracking-wider">{group.badge}</span>
- </div>
- <h2 className="text-xl font-bold text-gray-900">{group.title}</h2>
- <p className="text-sm text-black">{group.desc}</p>
- </div>
- <ScrollSection>
- {groupCompounds.map((c) => {
- const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
- const dosages = c.commonDosages.slice(0, 4);
- return (
- <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-56 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
- <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
- <img
-   src={`/images/compounds/${c.slug}.png`}
-   alt={c.name}
-   className="w-16 h-16 object-contain"
-   onError={(e) => {
-     const target = e.currentTarget;
-     if (!target.dataset.fallback) {
-       target.dataset.fallback = "1";
-       target.src = `/images/compounds/${c.slug}.svg`;
-     }
-   }}
- />
- </div>
- <div className="p-4">
- <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
- <div className="mt-1 flex items-baseline gap-0.5">
- <span className="text-lg font-bold text-gray-900">{c.sources.length}</span>
- <span className="text-[10px] text-black uppercase tracking-wider font-medium">SUPPLIERS</span>
- </div>
- {dosages.length > 0 && (
- <div className="flex flex-wrap gap-1 mt-2">
- {dosages.map((d) => (
- <span key={d} className="text-[10px] bg-gray-100 text-black px-1.5 py-0.5 rounded font-medium">{d}</span>
- ))}
- </div>
- )}
- <div className="mt-2">
-           <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
-           <div className="text-lg md:text-xl font-extrabold text-emerald-600">&pound;{minPrice.toFixed(2)}</div>
+ <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4">
+   <div className="mb-5">
+     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+       <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M7 10l5 5 5-5H7z" /></svg>
+       <span className="text-[10px] font-bold text-white uppercase tracking-wider">{group.badge}</span>
+     </div>
+     <h2 className="text-xl font-bold text-gray-900">{group.title}</h2>
+     <p className="text-sm text-black">{group.desc}</p>
+   </div>
+   <ScrollSection>
+     {groupCompounds.map((c) => {
+       const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
+       const dosages = c.commonDosages.slice(0, 4);
+       return (
+         <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-64 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
+           <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
+             <img src={`/images/compounds/${c.slug}.png`} alt={c.name} className="w-16 h-16 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${c.slug}.svg`; }}} />
            </div>
- <div className="mt-1.5 text-xs text-blue-600 font-medium flex items-center gap-1 group-hover:underline">
- <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
- Compare
- </div>
- </div>
- </Link>
- );
- })}
- </ScrollSection>
+           <div className="p-4">
+             <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
+             <div className="mt-1 flex items-baseline gap-0.5">
+               <span className="text-lg font-bold text-emerald-600">{c.sources.length}</span>
+               <span className="text-[10px] text-slate-400 uppercase tracking-wider font-medium">SUPPLIERS</span>
+             </div>
+             {dosages.length > 0 && (
+               <div className="flex flex-wrap gap-1 mt-2">
+                 {dosages.map((d) => (
+                   <span key={d} className="text-[10px] bg-gray-100 text-slate-600 px-1.5 py-0.5 rounded font-medium">{d}</span>
+                 ))}
+               </div>
+             )}
+             <div className="mt-2">
+               <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
+               <div className="text-lg md:text-xl font-extrabold text-emerald-600">&pound;{minPrice.toFixed(2)}</div>
+             </div>
+             <div className="mt-2 w-full py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-bold rounded-lg text-center transition-colors">
+               Compare
+             </div>
+           </div>
+         </Link>
+       );
+     })}
+   </ScrollSection>
  </section>
  );
  })}
