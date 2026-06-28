@@ -366,7 +366,21 @@ export default function Home() {
      {topDeals.map((deal) => (
        <Link key={deal.id + "-deal"} href={`/compounds/${deal.slug}`} className="flex-shrink-0 w-72 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
          <div className="h-28 bg-gray-50 flex items-center justify-center relative">
-           <img src={`/images/compounds/${deal.slug}.png`} alt={deal.name} className="w-16 h-16 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${deal.slug}.svg`; }}} />
+           <img
+             src={deal.cheapestVendor?.image || `/images/compounds/${deal.slug}.png`}
+             alt={deal.name}
+             className="w-16 h-16 object-contain"
+             onError={(e) => {
+               const t = e.currentTarget;
+               if (!t.dataset.fallback) {
+                 t.dataset.fallback = "1";
+                 t.src = `/images/compounds/${deal.slug}.png`;
+               } else if (t.dataset.fallback === "1") {
+                 t.dataset.fallback = "2";
+                 t.src = `/images/compounds/${deal.slug}.svg`;
+               }
+             }}
+           />
            <div className="absolute top-2 left-2 bg-orange-500 text-white text-[11px] font-bold px-2 py-0.5 rounded-md">
              -{deal.savingsPct}%
            </div>
@@ -449,10 +463,25 @@ export default function Home() {
      {groupCompounds.map((c) => {
        const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
        const dosages = c.commonDosages.slice(0, 4);
+       const vendorImg = c.sources.find((s) => s.image)?.image;
        return (
          <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-64 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
            <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
-             <img src={`/images/compounds/${c.slug}.png`} alt={c.name} className="w-16 h-16 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${c.slug}.svg`; }}} />
+             <img
+               src={vendorImg || `/images/compounds/${c.slug}.png`}
+               alt={c.name}
+               className="w-16 h-16 object-contain"
+               onError={(e) => {
+                 const t = e.currentTarget;
+                 if (!t.dataset.fallback) {
+                   t.dataset.fallback = "1";
+                   t.src = `/images/compounds/${c.slug}.png`;
+                 } else if (t.dataset.fallback === "1") {
+                   t.dataset.fallback = "2";
+                   t.src = `/images/compounds/${c.slug}.svg`;
+                 }
+               }}
+             />
            </div>
            <div className="p-4">
              <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
