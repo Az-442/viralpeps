@@ -152,7 +152,7 @@ export default function VendorsPage() {
         </div>
       </section>
 
-      <div className="max-w-6xl mx-auto px-4 -mt-4 relative z-10">
+      <div className="max-w-6xl mx-auto px-4 pt-6 relative z-10">
         {/* SUPPLIER DIRECTORY GRID */}
         <div>
           <div className="flex items-center gap-2 mb-1">
@@ -161,9 +161,9 @@ export default function VendorsPage() {
             </svg>
             <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">Supplier Directory</span>
           </div>
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 mb-1">
+          <div className="flex items-center justify-between gap-4 mb-1">
             <h2 className="text-xl font-bold text-gray-900">All {vendors.length} UK suppliers</h2>
-            <div className="flex items-center gap-2 shrink-0">
+            <div className="flex items-center gap-2 flex-shrink-0">
               {/* Sort dropdown */}
               <select
                 value={sort}
