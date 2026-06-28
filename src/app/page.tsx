@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 import SearchBar from "@/components/SearchBar";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
+import { PEPTIDE_COUNT as peptideCount, SUPPLIER_COUNT as vendorCount } from "@/data/stats";
 
 // --- Data helpers ---
-const masterCompounds = compounds.filter((c) => !(c as any)?.compareSlug);
-const totalCompounds = masterCompounds.length;
-const totalVendors = vendors.length;
+const totalCompounds = peptideCount;
+const totalVendors = vendorCount;
 
 const vendorCompoundCounts: Record<string, number> = {};
 for (const c of compounds) {

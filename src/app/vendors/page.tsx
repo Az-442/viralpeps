@@ -6,6 +6,7 @@ import vendors from "@/data/vendors.json";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import { PEPTIDE_COUNT } from "@/data/stats";
 
 function CheckIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -65,7 +66,7 @@ for (const c of compounds) {
 }
 
 // Count of unique research compounds (main entries without compareSlug)
-const peptideCount = compounds.filter((c) => !(c as any)?.compareSlug).length;
+const peptideCount = PEPTIDE_COUNT;
 
 // Pre-computed stats
 const verifiedCount = vendors.filter((v) => v.verified).length;

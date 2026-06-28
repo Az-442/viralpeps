@@ -5,20 +5,7 @@ import Link from "next/link";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
-
-// ── Pre-computed stats ──
-const masterCompounds = compounds.filter((c) => !(c as any)?.compareSlug);
-const allSuppliers = new Set<string>();
-let totalProducts = 0;
-for (const c of compounds) {
-  for (const s of c.sources) {
-    allSuppliers.add(s.vendor);
-    totalProducts++;
-  }
-}
-const PEPTIDE_COUNT = masterCompounds.length;
-const SUPPLIER_COUNT = allSuppliers.size;
-const TOTAL_PRODUCTS = totalProducts;
+import { PEPTIDE_COUNT, SUPPLIER_COUNT, TOTAL_PRODUCTS } from "@/data/stats";
 
 // ── Category → human label map ──
 const badgeLabels: Record<string, string> = {
