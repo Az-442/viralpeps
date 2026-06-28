@@ -152,49 +152,23 @@ export default function VendorsPage() {
         </div>
       </section>
 
-      <div className="max-w-6xl mx-auto px-4 -mt-6 relative z-10">
-        {/* SORT + FILTERS CARD */}
-        <div className="bg-white border border-slate-200 rounded-xl p-4 md:p-5 mb-8 shadow-sm">
-          <div className="flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
-            <div className="flex items-center gap-2">
-              <select
-                value={sort}
-                onChange={(e) => setSort(e.target.value as typeof sort)}
-                className="px-3 py-2 border border-slate-300 rounded-lg text-sm outline-none focus:border-blue-500 bg-white text-gray-700"
-              >
-                <option value="a-z">A to Z</option>
-                <option value="rating">Top rated</option>
-                <option value="products">Most products</option>
-              </select>
-            </div>
-          </div>
-
-          {/* Filter buttons */}
-          <div className="flex flex-wrap gap-2 mt-4">
-            {[
-              { key: "all" as const, label: "All suppliers", count: vendors.length },
-              { key: "verified" as const, label: "Site verified", count: verifiedCount },
-              { key: "free-shipping" as const, label: "Free shipping", count: freeShippingCount },
-              { key: "lab-tested" as const, label: "Lab tested", count: labTestedCount },
-            ].map((f) => (
-              <button
-                key={f.key}
-                onClick={() => setFilter(f.key)}
-                className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
-                  filter === f.key
-                    ? "bg-blue-600 text-white"
-                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                }`}
-              >
-                {f.label} <span className={filter === f.key ? "text-white" : "text-gray-900"}>{f.count}</span>
-              </button>
-            ))}
-          </div>
+      <div className="max-w-6xl mx-auto px-4 -mt-4 relative z-10">
+        {/* SORT CARD — smaller, just the dropdown */}
+        <div className="bg-white border border-slate-200 rounded-xl px-4 py-3 mb-4 shadow-sm flex items-center justify-end">
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value as typeof sort)}
+            className="px-3 py-1.5 border border-slate-300 rounded-lg text-sm outline-none focus:border-blue-500 bg-white text-gray-700"
+          >
+            <option value="a-z">A to Z</option>
+            <option value="rating">Top rated</option>
+            <option value="products">Most products</option>
+          </select>
         </div>
 
         {/* SUPPLIER DIRECTORY GRID */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center gap-2 mb-3">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="#6366f1">
               <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" />
             </svg>
