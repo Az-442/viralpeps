@@ -232,6 +232,21 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               </div>
             </div>
 
+            {/* INFO STRIP */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6 pt-6 border-t border-slate-700/60">
+              {[
+                { label: "Shipping", value: vendor.shipping?.join(", ") || "N/A" },
+                { label: "Payment", value: vendor.payment?.join(", ") || "N/A" },
+                { label: "Categories", value: vendor.categories?.slice(0, 3).join(", ") + (vendor.categories && vendor.categories.length > 3 ? ` +${vendor.categories.length - 3} more` : "") || "N/A" },
+                { label: "Last Tested", value: vendor.lastTested || "N/A" },
+              ].map((info) => (
+                <div key={info.label} className="bg-white/5 rounded-xl p-3 border border-slate-700/30">
+                  <p className="text-[10px] text-slate-400 uppercase tracking-wider mb-0.5 font-semibold">{info.label}</p>
+                  <p className="text-xs font-medium text-slate-200">{info.value}</p>
+                </div>
+              ))}
+            </div>
+
             {/* Prices note */}
             <div className="mt-4 text-center">
               <p className="text-xs text-slate-500">
