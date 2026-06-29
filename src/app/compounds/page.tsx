@@ -74,19 +74,26 @@ function ArrowRightIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
   );
 }
 
-// ── Letter avatar ──
+// ── Letter avatar (bigger, brighter, brand colours) ──
 function LetterAvatar({ name, className = "" }: { name: string; className?: string }) {
   const letter = name.trim().charAt(0).toUpperCase();
   const colors = [
-    "bg-orange-500", "bg-blue-500", "bg-emerald-500", "bg-purple-500",
-    "bg-rose-500", "bg-cyan-500", "bg-amber-500", "bg-teal-500",
+    "bg-orange-600", "bg-blue-600", "bg-emerald-600", "bg-purple-600",
+    "bg-rose-600", "bg-indigo-600", "bg-amber-600", "bg-teal-600",
   ];
   const idx = name.charCodeAt(0) % colors.length;
   return (
-    <div className={`w-9 h-9 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0 ${colors[idx]} ${className}`}>
+    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-white font-bold text-base flex-shrink-0 ${colors[idx]} ${className}`}>
       {letter}
     </div>
   );
+}
+
+// Get a supplier product image for a compound
+function getSourceImage(c: any): string | null {
+  const sources = c.sources || [];
+  const withImage = sources.find((s: any) => (s as any).image);
+  return (withImage as any)?.image || null;
 }
 
 // ── Single compound card ──
@@ -100,14 +107,21 @@ function CompoundCard({ compound }: { compound: any }) {
   const supplierCount = compound.sources.length;
   const category = categoryLabel(compound.category);
   const slug = compound.slug;
+  const sourceImg = getSourceImage(compound);
 
   return (
-    <div className="bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+    <div className="bg-white border border-black rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
       {/* TOP SECTION */}
       <div className="p-4 md:p-5 pb-3">
         {/* Badge + Save badge row */}
         <div className="flex items-center gap-2 mb-2">
-          <LetterAvatar name={compound.name} />
+          {sourceImg ? (
+            <div className="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-blue-50 border border-blue-100 flex items-center justify-center">
+              <img src={sourceImg} alt={compound.name} className="w-10 h-10 object-contain" />
+            </div>
+          ) : (
+            <LetterAvatar name={compound.name} />
+          )}
           {savePct > 0 && (
             <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-2.5 py-0.5">
               <LightningIcon />
@@ -118,15 +132,15 @@ function CompoundCard({ compound }: { compound: any }) {
 
         {/* Name + Category */}
         <div className="flex flex-wrap items-center gap-2 mb-1">
-          <h3 className="text-lg md:text-xl font-bold text-slate-900">{compound.name}</h3>
-          <span className="text-[10px] font-semibold bg-slate-100 text-slate-500 px-2 py-0.5 rounded uppercase tracking-wider whitespace-nowrap">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900">{compound.name}</h3>
+          <span className="text-[10px] font-semibold bg-blue-50 text-blue-700 px-2 py-0.5 rounded uppercase tracking-wider whitespace-nowrap">
             {category}
           </span>
         </div>
 
         {/* Alias / subtitle */}
         {compound.aliases && compound.aliases.length > 0 && (
-          <p className="text-sm text-slate-500 mb-2">{compound.aliases[0]}</p>
+          <p className="text-sm text-gray-500 mb-2">{compound.aliases[0]}</p>
         )}
 
         {/* Benefits as checkmark pills */}
@@ -147,19 +161,19 @@ function CompoundCard({ compound }: { compound: any }) {
         {/* Price row */}
         <div className="flex items-end justify-between flex-wrap gap-2">
           <div>
-            <span className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider block leading-tight">From</span>
+            <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider block leading-tight">From</span>
             <span className="text-2xl md:text-3xl font-extrabold text-emerald-600 leading-none">£{minP.toFixed(2)}</span>
             {maxP > minP && (
-              <span className="ml-2 text-sm text-slate-400 line-through align-baseline">£{maxP.toFixed(2)} max</span>
+              <span className="ml-2 text-sm text-gray-400 line-through align-baseline">£{maxP.toFixed(2)} max</span>
             )}
           </div>
           <div className="text-right flex-shrink-0">
-            <div className="flex items-center gap-1 text-sm text-slate-600">
+            <div className="flex items-center gap-1 text-sm text-gray-600">
               <PeopleIcon />
               <span className="font-semibold">{supplierCount}</span>
-              <span className="text-slate-400">supplier{supplierCount !== 1 ? "s" : ""}</span>
+              <span className="text-gray-400">supplier{supplierCount !== 1 ? "s" : ""}</span>
             </div>
-            <p className="text-xs text-slate-400 mt-0.5">{dosages}</p>
+            <p className="text-xs text-gray-400 mt-0.5">{dosages}</p>
           </div>
         </div>
       </div>
@@ -222,7 +236,7 @@ export default function CompoundsPage() {
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
             Every UK peptide price,{" "}
-            <span className="text-cyan-400">sorted cheapest first.</span>
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">sorted cheapest first.</span>
           </h1>
           <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto mb-6">
             Track <strong className="text-white">{PEPTIDE_COUNT} research peptides</strong> across{" "}
@@ -296,7 +310,7 @@ export default function CompoundsPage() {
           <select
             value={sort}
             onChange={(e) => setSort(e.target.value as typeof sort)}
-            className="px-2.5 py-1.5 border border-slate-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
+            className="px-2.5 py-1.5 border border-gray-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
           >
             <option value="a-z">A to Z</option>
             <option value="suppliers">Most suppliers</option>
@@ -340,7 +354,7 @@ export default function CompoundsPage() {
       {/* ── WHY VIRALPEPS — SEO trust section ── */}
       <section className="bg-blue-50 border-t border-blue-200">
         <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm">
+          <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
             {/* Pill badge */}
             <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
               <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
@@ -350,10 +364,10 @@ export default function CompoundsPage() {
             </div>
 
             {/* Paragraph 1 — Hook + product names */}
-            <p className="text-sm md:text-base text-slate-700 leading-relaxed mb-4">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
               ViralPeps is the UK&apos;s most comprehensive peptide price comparison platform, tracking{" "}
-              <strong className="text-slate-900">{PEPTIDE_COUNT} research peptides</strong> across{" "}
-              <strong className="text-slate-900">{SUPPLIER_COUNT} verified UK suppliers</strong>.
+              <strong className="text-gray-900">{PEPTIDE_COUNT} research peptides</strong> across{" "}
+              <strong className="text-gray-900">{SUPPLIER_COUNT} verified UK suppliers</strong>.
               Whether you&apos;re researching <strong>BPC-157</strong>, <strong>TB-500</strong>,{" "}
               <strong>Semaglutide</strong>, <strong>Tirzepatide</strong>, <strong>Retatrutide</strong>,{" "}
               <strong>CJC-1295</strong>, <strong>MOTS-c</strong>, or <strong>IGF-1 LR3</strong> —
@@ -361,7 +375,7 @@ export default function CompoundsPage() {
             </p>
 
             {/* Paragraph 2 — Benefit / what you can do */}
-            <p className="text-sm md:text-base text-slate-700 leading-relaxed mb-4">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
               Finding the cheapest peptide prices in the UK shouldn&apos;t mean visiting a dozen supplier
               websites. ViralPeps lets you compare <strong>prices, dosages, and shipping options</strong>{" "}
               for every peptide side-by-side — from <strong>GHK-Cu</strong> and <strong>BPC-157 (Oral)</strong>{" "}
@@ -371,7 +385,7 @@ export default function CompoundsPage() {
             </p>
 
             {/* Paragraph 3 — Trust / authority */}
-            <p className="text-sm md:text-base text-slate-700 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               Every supplier on ViralPeps is a verified UK-based peptide vendor with independently
               tested products. We&apos;re completely independent — there are no sponsored rankings,
               no biased placements, and no hidden fees. Whether you need <strong>AOD-9604</strong>,{" "}

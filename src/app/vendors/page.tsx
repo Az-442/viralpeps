@@ -111,7 +111,7 @@ export default function VendorsPage() {
 
           {/* Headline */}
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
-            Every UK peptide supplier, <span className="text-cyan-400">in one place.</span>
+            Every UK peptide supplier, <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">in one place.</span>
           </h1>
 
           {/* Sub-headline */}
@@ -130,7 +130,7 @@ export default function VendorsPage() {
                 placeholder={`Search ${vendors.length} UK suppliers...`}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full pl-12 pr-5 py-3.5 bg-white rounded-full text-sm outline-none focus:ring-2 focus:ring-cyan-400 text-gray-900 placeholder-gray-500 shadow-lg"
+                className="w-full pl-12 pr-5 py-3.5 bg-white rounded-full text-sm outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 shadow-lg"
               />
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function VendorsPage() {
               <select
                 value={sort}
                 onChange={(e) => setSort(e.target.value as typeof sort)}
-                className="px-2.5 py-1 border border-slate-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
+                className="px-2.5 py-1 border border-gray-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
               >
                 <option value="a-z">A-Z</option>
                 <option value="rating">★ Top</option>
@@ -193,11 +193,11 @@ export default function VendorsPage() {
                 <Link
                   key={v.id}
                   href={`/vendors/${v.slug}`}
-                  className="bg-white border border-slate-200 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+                  className="bg-white border border-black rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
                 >
                   <div className="flex items-start gap-4">
                     {/* Logo - bigger for 3 vendors */}
-                    <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-slate-200`}>
+                    <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-200`}>
                       <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className={`${bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14"} object-contain`} />
                     </div>
 
