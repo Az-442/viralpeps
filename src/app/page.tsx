@@ -58,13 +58,16 @@ const topDeals = [...compounds]
  if (prices.length < 2) return null;
  const min = Math.min(...prices);
  const max = Math.max(...prices);
+ const cheapest = c.sources.find((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) === min);
+ const otherImage = (c.sources.find((s) => s !== cheapest && (s as any).image) as any)?.image;
  return {
  ...c,
  minPrice: min,
  maxPrice: max,
  savingsPct: Math.round(((max - min) / max) * 100),
  savingsAmount: (max - min).toFixed(2),
- cheapestVendor: c.sources.find((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) === min),
+ cheapestVendor: cheapest,
+ fallbackImage: otherImage,
  };
  })
  .filter((d): d is NonNullable<typeof d> => d !== null)
@@ -367,7 +370,7 @@ export default function Home() {
        <Link key={deal.id + "-deal"} href={`/compounds/${deal.slug}`} className="flex-shrink-0 w-72 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
          <div className="h-28 bg-gray-50 flex items-center justify-center relative">
            <img
-             src={deal.cheapestVendor?.image || `/images/compounds/${deal.slug}.png`}
+             src={(deal.cheapestVendor as any)?.image || deal.fallbackImage || `/images/compounds/${deal.slug}.png`}
              alt={deal.name}
              className="w-16 h-16 object-contain"
              onError={(e) => {
@@ -463,7 +466,7 @@ export default function Home() {
      {groupCompounds.map((c) => {
        const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
        const dosages = c.commonDosages.slice(0, 4);
-       const vendorImg = c.sources.find((s) => s.image)?.image;
+       const vendorImg = (c.sources.find((s: any) => s.image) as any)?.image;
        return (
          <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-64 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
            <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
