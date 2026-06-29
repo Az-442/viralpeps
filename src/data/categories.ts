@@ -135,10 +135,4 @@ export const HOMEPAGE_CATEGORY_GROUPS: HomepageCategoryGroup[] = [
     desc: "AOD-9604 and fragment-based research compounds.",
     slugs: ["aod-fragments"],
   },
-  {
-    badge: "OTHER RESEARCH PEPTIDES",
-    title: "Compare other research peptides",
-    desc: "Additional research compounds not covered in other categories.",
-    slugs: ["other", "research-compounds", "research-solutions", "nasal-sprays", "lab-supplies", "supplies", "auto-imported"],
-  },
 ];
