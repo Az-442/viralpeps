@@ -44,6 +44,12 @@ const trending = [...compounds]
  .sort((a, b) => b.sources.length - a.sources.length)
  .slice(0, 12);
 
+// Most compared = compounds with most suppliers
+const mostCompared = [...compounds]
+ .filter((c) => !(c as any)?.compareSlug)
+ .sort((a, b) => b.sources.length - a.sources.length)
+ .slice(0, 12);
+
 const topDeals = [...compounds]
  .map((c) => {
  const prices = c.sources
@@ -436,11 +442,73 @@ export default function Home() {
        <CompoundCard key={c.id} c={c} href={`/compounds/${c.slug}`} />
      ))}
    </ScrollSection>
- </section>
- );
- })}
+   </section>
+   );
+   })}
 
- {/* WHO WE ARE — Scaled up to match How it Works */}
+   {/* MOST COMPARED THIS WEEK */}
+ <section className="py-10 max-w-7xl mx-auto px-4">
+   <div className="mb-5">
+     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
+       <svg width="12" height="12" viewBox="0 0 24 24" fill="#8b5cf6"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" /></svg>
+       <span className="text-[10px] font-bold text-white uppercase tracking-wider">Most Compared This Week</span>
+     </div>
+     <div className="flex items-center justify-between">
+       <h2 className="text-lg font-bold text-gray-900">Most compared this week</h2>
+       <Link href="/compounds" className="text-sm text-blue-600 font-medium hover:underline">Browse all &rarr;</Link>
+     </div>
+   </div>
+   <ScrollSection>
+     {mostCompared.map((c) => (
+       <CompoundCard key={`mc-${c.id}`} c={c} href={`/compounds/${c.slug}`} />
+     ))}
+   </ScrollSection>
+ </section>
+
+{/* HOW IT WORKS — Step-based, like reference site */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50">
+  <div className="max-w-4xl mx-auto">
+    <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-6">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+      <span className="text-xs font-bold text-white uppercase tracking-wider">How It Works</span>
+    </div>
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-10 text-center">How It Works</h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+      {/* Step 1: Search */}
+      <div className="text-center">
+        <div className="relative inline-flex items-center justify-center w-20 h-20 bg-blue-600 rounded-full mb-5 mx-auto">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" /></svg>
+          <div className="absolute -top-1 -right-1 w-7 h-7 bg-emerald-500 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">1</div>
+        </div>
+        <h3 className="text-lg font-bold text-gray-900 mb-2">Search</h3>
+        <p className="text-sm text-gray-500 leading-relaxed">Choose your peptide from our comprehensive database</p>
+      </div>
+
+      {/* Step 2: Compare */}
+      <div className="text-center">
+        <div className="relative inline-flex items-center justify-center w-20 h-20 bg-blue-600 rounded-full mb-5 mx-auto">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" /></svg>
+          <div className="absolute -top-1 -right-1 w-7 h-7 bg-emerald-500 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">2</div>
+        </div>
+        <h3 className="text-lg font-bold text-gray-900 mb-2">Compare</h3>
+        <p className="text-sm text-gray-500 leading-relaxed">See prices from all UK suppliers side by side</p>
+      </div>
+
+      {/* Step 3: Save */}
+      <div className="text-center">
+        <div className="relative inline-flex items-center justify-center w-20 h-20 bg-blue-600 rounded-full mb-5 mx-auto">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" /><circle cx="12" cy="12" r="5" /></svg>
+          <div className="absolute -top-1 -right-1 w-7 h-7 bg-emerald-500 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">3</div>
+        </div>
+        <h3 className="text-lg font-bold text-gray-900 mb-2">Save</h3>
+        <p className="text-sm text-gray-500 leading-relaxed">Click through and grab the best deal available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* WHO WE ARE — Scaled up to match How it Works */}
 <section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50 text-center">
  <div className="max-w-4xl mx-auto">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
@@ -456,7 +524,184 @@ export default function Home() {
  </div>
 </section>
 
- {/* NEWSLETTER */}
+{/* GUIDES — Like reference site */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50">
+  <div className="max-w-4xl mx-auto text-center mb-10">
+    <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-4">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+      <span className="text-xs font-bold text-white uppercase tracking-wider">Guides</span>
+    </div>
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">Peptide Buying Guides</h2>
+    <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">Everything you need to know about buying, comparing, and sourcing research peptides in the UK.</p>
+  </div>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+    <Link href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
+      <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="9" cy="21" r="1" /><circle cx="20" cy="21" r="1" /><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" /></svg>
+      </div>
+      <div className="min-w-0">
+        <h3 className="font-bold text-gray-900 text-sm leading-snug">Buy Peptides UK &mdash; Compare Prices &amp; Find the Best Supplier</h3>
+        <p className="text-xs text-gray-500 mt-1">How to buy research peptides safely from verified UK vendors.</p>
+      </div>
+    </Link>
+
+    <Link href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
+      <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" /></svg>
+      </div>
+      <div className="min-w-0">
+        <h3 className="font-bold text-gray-900 text-sm leading-snug">Cheap Peptides UK &mdash; Compare &amp; Find the Lowest Prices</h3>
+        <p className="text-xs text-gray-500 mt-1">Find the lowest prices without compromising on quality.</p>
+      </div>
+    </Link>
+
+    <Link href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
+      <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+      </div>
+      <div className="min-w-0">
+        <h3 className="font-bold text-gray-900 text-sm leading-snug">GLOW Peptide UK &mdash; Compare Prices &amp; Find the Best Deals</h3>
+        <p className="text-xs text-gray-500 mt-1">Compare GLOW Blend prices for skin rejuvenation research.</p>
+      </div>
+    </Link>
+  </div>
+</section>
+
+{/* LATEST RESEARCH */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4">
+  <div className="mb-8">
+    <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-3">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+      <span className="text-xs font-bold text-white uppercase tracking-wider">Latest Research</span>
+    </div>
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Latest Research</h2>
+  </div>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <Link href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
+      <div className="aspect-[16/10] bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
+        <img src="/images/compounds/bpc-157.svg" alt="BPC-157 research" className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
+      </div>
+      <div className="p-5">
+        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">How BPC-157 Supports Tissue Repair Research</h3>
+        <p className="text-xs text-gray-500 mt-2 leading-relaxed">BPC-157 is one of the most studied peptides for tissue repair. Learn about its mechanism, protocols, and what researchers are discovering.</p>
+        <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
+          <span>5 min read</span>
+          <span>•</span>
+          <span>Guides</span>
+        </div>
+      </div>
+    </Link>
+
+    <Link href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
+      <div className="aspect-[16/10] bg-gradient-to-br from-emerald-50 to-teal-50 flex items-center justify-center">
+        <img src="/images/compounds/semaglutide.svg" alt="Semaglutide research" className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
+      </div>
+      <div className="p-5">
+        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">Semaglutide vs Tirzepatide — Comparing GLP-1 Research</h3>
+        <p className="text-xs text-gray-500 mt-2 leading-relaxed">A side-by-side comparison of the two most popular GLP-1 receptor agonists in research, including mechanism, dosing, and study outcomes.</p>
+        <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
+          <span>8 min read</span>
+          <span>•</span>
+          <span>Guides</span>
+        </div>
+      </div>
+    </Link>
+
+    <Link href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
+      <div className="aspect-[16/10] bg-gradient-to-br from-amber-50 to-orange-50 flex items-center justify-center">
+        <img src="/images/compounds/ghk-cu.svg" alt="GHK-Cu research" className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
+      </div>
+      <div className="p-5">
+        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">A Complete Guide to Anti-Aging Research Peptides</h3>
+        <p className="text-xs text-gray-500 mt-2 leading-relaxed">GHK-Cu, Epitalon, NAD+, and other peptides being studied for cellular health, longevity, and age-related research applications.</p>
+        <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
+          <span>10 min read</span>
+          <span>•</span>
+          <span>Guides</span>
+        </div>
+      </div>
+    </Link>
+  </div>
+
+  <div className="text-center mt-8">
+    <Link href="/research" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors">
+      View all guides &rarr;
+    </Link>
+  </div>
+</section>
+
+{/* FAQ SECTION */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50">
+  <div className="max-w-3xl mx-auto">
+    <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-4">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+      <span className="text-xs font-bold text-white uppercase tracking-wider">FAQ</span>
+    </div>
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>
+
+    <div className="space-y-3">
+      <details className="group bg-white border border-gray-200 rounded-xl overflow-hidden open:shadow-md transition-shadow">
+        <summary className="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+          <span className="text-sm font-semibold text-gray-900 pr-4">What is ViralPeps?</span>
+          <svg className="w-4 h-4 text-gray-400 flex-shrink-0 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+        </summary>
+        <div className="px-5 pb-4 border-t border-gray-100">
+          <p className="text-sm text-gray-600 leading-relaxed mt-3">ViralPeps is a UK-based price comparison platform for research peptides. We track live prices from verified UK suppliers so researchers can compare deals side by side. We do not sell peptides &mdash; we simply compare prices.</p>
+        </div>
+      </details>
+
+      <details className="group bg-white border border-gray-200 rounded-xl overflow-hidden open:shadow-md transition-shadow">
+        <summary className="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+          <span className="text-sm font-semibold text-gray-900 pr-4">Where can I buy peptides in the UK?</span>
+          <svg className="w-4 h-4 text-gray-400 flex-shrink-0 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+        </summary>
+        <div className="px-5 pb-4 border-t border-gray-100">
+          <p className="text-sm text-gray-600 leading-relaxed mt-3">You can buy research peptides from any of the verified UK suppliers listed on ViralPeps. We currently track prices from 10+ trusted UK vendors including UK Peptides, Pure Peptides UK, Sterling Peptides, and more. Browse our <Link href="/vendors" className="text-blue-600 hover:underline">supplier directory</Link> to compare them.</p>
+        </div>
+      </details>
+
+      <details className="group bg-white border border-gray-200 rounded-xl overflow-hidden open:shadow-md transition-shadow">
+        <summary className="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+          <span className="text-sm font-semibold text-gray-900 pr-4">What are the cheapest peptides in the UK?</span>
+          <svg className="w-4 h-4 text-gray-400 flex-shrink-0 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+        </summary>
+        <div className="px-5 pb-4 border-t border-gray-100">
+          <p className="text-sm text-gray-600 leading-relaxed mt-3">Prices vary by supplier and compound. Generally, GHK-Cu, BPC-157, TB-500, and NAD+ tend to have competitive pricing across multiple UK vendors. Use our <Link href="/compounds" className="text-blue-600 hover:underline">comparison tool</Link> to find the current best prices on any peptide.</p>
+        </div>
+      </details>
+
+      <details className="group bg-white border border-gray-200 rounded-xl overflow-hidden open:shadow-md transition-shadow">
+        <summary className="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+          <span className="text-sm font-semibold text-gray-900 pr-4">Are peptides legal in the UK?</span>
+          <svg className="w-4 h-4 text-gray-400 flex-shrink-0 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+        </summary>
+        <div className="px-5 pb-4 border-t border-gray-100">
+          <p className="text-sm text-gray-600 leading-relaxed mt-3">Research peptides are legal to buy and sell in the UK for in-vitro research purposes. They are not approved for human consumption. All products sold by our listed suppliers are clearly labelled for laboratory research use only.</p>
+        </div>
+      </details>
+
+      <details className="group bg-white border border-gray-200 rounded-xl overflow-hidden open:shadow-md transition-shadow">
+        <summary className="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+          <span className="text-sm font-semibold text-gray-900 pr-4">What are pure peptides?</span>
+          <svg className="w-4 h-4 text-gray-400 flex-shrink-0 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+        </summary>
+        <div className="px-5 pb-4 border-t border-gray-100">
+          <p className="text-sm text-gray-600 leading-relaxed mt-3">Pure peptides refer to research-grade compounds that are ≥98% pure, verified by third-party HPLC testing. Most suppliers on ViralPeps provide certificates of analysis (COAs) with their products. Look for the lab tested badge when comparing suppliers.</p>
+        </div>
+      </details>
+    </div>
+
+    <div className="text-center mt-8">
+      <Link href="/faq" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors">
+        View all FAQs &rarr;
+      </Link>
+    </div>
+  </div>
+</section>
+
+{/* NEWSLETTER */}
  <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-14">
  <div className="max-w-xl mx-auto px-4 text-center">
  <h2 className="text-2xl font-bold text-white mb-2">Get Peptide Price-drop Alerts</h2>
