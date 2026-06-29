@@ -135,11 +135,11 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   if (hasFreeShipping) featureTags.push({ label: "FREE UK Delivery", icon: <TagIcon />, color: "border-emerald-500/50 text-emerald-300" });
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-white">
       <HeaderNav />
 
       {/* HERO SECTION - Dark gradient like PeptideSupermarket style */}
-      <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
+      <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e]">
         {/* BREADCRUMB on dark */}
         <div className="max-w-6xl mx-auto px-4 py-3 text-xs text-slate-400">
           <Link href="/" className="hover:text-blue-400 transition-colors">Home</Link>
@@ -278,7 +278,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 <div className="flex flex-col">
                   {/* Top row: Image + Info */}
                   <div className="flex flex-row items-center gap-2.5 p-3 pb-1 md:p-4 md:pb-1.5">
-                    <div className="w-[70px] h-[70px] md:w-[90px] md:h-[90px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-slate-50 border border-slate-100">
+                    <div className="w-[70px] h-[70px] md:w-[90px] md:h-[90px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-indigo-50 border border-indigo-100">
                       <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
                     </div>
                     <div className="flex-1 min-w-0">
@@ -306,7 +306,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   {options && options.length > 0 && (
                     <div className="flex flex-wrap gap-1.5 px-3 md:px-4 pb-1">
                       {options.map((opt) => (
-                        <span key={opt.size} className="text-xs bg-slate-50 text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
+                        <span key={opt.size} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-md border border-blue-200 font-medium">
                           {opt.size} — {opt.price}
                         </span>
                       ))}
@@ -342,7 +342,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
 
       {/* COMPARE FIRST SECTION */}
       <div className="max-w-6xl mx-auto px-4 pb-4">
-        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 rounded-2xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+        <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] rounded-2xl p-6 md:p-8 shadow-lg relative overflow-hidden">
           {/* Dot pattern background */}
           <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
           <div className="relative z-10">

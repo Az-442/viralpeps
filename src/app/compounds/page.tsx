@@ -210,11 +210,11 @@ export default function CompoundsPage() {
   }, [filtered, sort]);
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-white">
       <HeaderNav />
 
       {/* ── HERO BANNER ── */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 pb-10">
+      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
         <div className="max-w-5xl mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
           <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
@@ -338,7 +338,7 @@ export default function CompoundsPage() {
       </div>
 
       {/* ── WHY VIRALPEPS — SEO trust section ── */}
-      <section className="bg-slate-50 border-t border-slate-200">
+      <section className="bg-blue-50 border-t border-blue-200">
         <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
           <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm">
             {/* Pill badge */}

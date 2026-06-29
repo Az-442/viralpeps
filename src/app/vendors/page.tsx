@@ -97,11 +97,11 @@ export default function VendorsPage() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       <HeaderNav />
 
       {/* EXPANDED HERO BANNER — Peptide Supermarket Reference */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 pb-10">
+      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
         <div className="max-w-5xl mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">

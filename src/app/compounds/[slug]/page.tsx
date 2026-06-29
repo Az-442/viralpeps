@@ -107,7 +107,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
   const categoryLabel = compound.category.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       <HeaderNav />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
@@ -125,7 +125,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           {/* LEFT: Image + Specs */}
           <div className="md:col-span-2">
             <div className="bg-white border border-black rounded-xl p-6">
-              <div className="aspect-square bg-gray-50 rounded-xl flex items-center justify-center mb-4">
+              <div className="aspect-square bg-blue-50 rounded-xl flex items-center justify-center mb-4">
                 <img src={`/images/compounds/${slug}.svg`} alt={compound.name} className="w-32 h-32 object-contain" />
               </div>
 
@@ -149,7 +149,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     { label: "Form", value: compound.form },
                     { label: "Sequence", value: compound.sequence?.slice(0, 20) + (compound.sequence?.length > 20 ? "..." : "") },
                   ].map((m) => (
-                    <div key={m.label} className="bg-gray-50 p-3 rounded-lg">
+                    <div key={m.label} className="bg-blue-50 p-3 rounded-lg">
                       <p className="text-[10px] text-black uppercase tracking-wider">{m.label}</p>
                       <p className="text-xs font-medium text-gray-900 mt-0.5">{m.value || "—"}</p>
                     </div>
@@ -189,7 +189,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   <p className="text-xs font-semibold text-black uppercase tracking-wider mb-1">Common Dosages</p>
                   <div className="flex flex-wrap gap-1.5">
                     {compound.commonDosages.map((d) => (
-                      <span key={d} className="text-xs bg-gray-100 text-black px-2 py-0.5 rounded font-medium">{d}</span>
+                      <span key={d} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded font-medium">{d}</span>
                     ))}
                   </div>
                 </div>
@@ -265,7 +265,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     : "Best price";
 
                   return (
-                    <div key={s.vendor} className={`p-4 flex items-center justify-between hover:bg-gray-50 transition-colors ${i === 0 ? "bg-amber-50/30" : ""}`}>
+                    <div key={s.vendor} className={`p-4 flex items-center justify-between hover:bg-blue-50 transition-colors ${i === 0 ? "bg-amber-50/30" : ""}`}>
                       <div className="flex items-center gap-3 min-w-0 flex-1">
                         <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
                           <ProductImage vendorSlug={vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')} compoundSlug={slug} compoundName={compound?.name || s.vendor} />
