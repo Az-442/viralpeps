@@ -440,21 +440,21 @@ export default function Home() {
  );
  })}
 
- {/* WHO WE ARE */}
- <section className="py-12 max-w-7xl mx-auto px-4 bg-gray-50">
- <div className="max-w-3xl mx-auto text-center">
- <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-3">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
- <span className="text-[10px] font-bold text-white uppercase tracking-wider">Who We Are</span>
+ {/* WHO WE ARE — Scaled up to match How it Works */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50 text-center">
+ <div className="max-w-4xl mx-auto">
+ <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
+ <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+ <span className="text-xs font-bold text-white uppercase tracking-wider">Who We Are</span>
  </div>
- <h2 className="text-xl font-bold text-gray-900 mb-3">The UK&apos;s independent peptide price comparison platform</h2>
- <p className="text-sm text-black leading-relaxed">
+ <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5 leading-tight">The UK&apos;s independent peptide price comparison platform</h2>
+ <p className="text-base md:text-lg text-black leading-relaxed max-w-3xl mx-auto">
  ViralPeps is an independent UK peptide price comparison platform. We help researchers find the best deals from trusted suppliers.
  We don&apos;t sell or supply any products &mdash; we simply compare prices so you can make informed decisions.
  We may earn a commission from qualifying purchases, but this never affects our rankings or pricing data.
  </p>
  </div>
- </section>
+</section>
 
  {/* NEWSLETTER */}
  <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-14">
