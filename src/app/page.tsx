@@ -247,7 +247,7 @@ export default function Home() {
  </section>
 
  {/* 3. TRENDING RIGHT NOW — reference site card format */}
- <section className="py-10 max-w-7xl mx-auto px-4">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-gray-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
@@ -266,7 +266,7 @@ export default function Home() {
  </section>
 
  {/* 4. TOP SUPPLIERS */}
- <section className="py-10 max-w-7xl mx-auto px-4 ">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-sky-50">
  <div className="mb-5">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
  <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" /></svg>
@@ -320,7 +320,7 @@ export default function Home() {
  </section>
 
  {/* 5. HOW IT WORKS — Bigger, more prominent */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 text-center">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 text-center bg-white">
  <div className="max-w-4xl mx-auto">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
  <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -357,7 +357,7 @@ export default function Home() {
 </section>
 
  {/* 6. TOP DEALS TODAY */}
- <section className="py-10 max-w-7xl mx-auto px-4">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-gray-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" /></svg>
@@ -407,7 +407,7 @@ export default function Home() {
  </section>
 
  {/* 7. TRENDING THIS MONTH — reference site card format */}
- <section className="py-10 max-w-7xl mx-auto px-4">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-sky-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -428,7 +428,7 @@ export default function Home() {
  const groupCompounds = compounds.filter((c) => !(c as any)?.compareSlug && group.slugs.includes(c.category));
  if (groupCompounds.length === 0) return null;
  return (
- <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4">
+ <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4 bg-white">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M7 10l5 5 5-5H7z" /></svg>
@@ -447,7 +447,7 @@ export default function Home() {
    })}
 
    {/* MOST COMPARED THIS WEEK */}
- <section className="py-10 max-w-7xl mx-auto px-4">
+   <section className="py-10 max-w-7xl mx-auto px-4 bg-gray-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#8b5cf6"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" /></svg>
@@ -466,7 +466,7 @@ export default function Home() {
  </section>
 
 {/* HOW IT WORKS — Step-based, like reference site */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-sky-50">
   <div className="max-w-4xl mx-auto">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-6">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -509,7 +509,7 @@ export default function Home() {
 </section>
 
 {/* WHO WE ARE — Scaled up to match How it Works */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50 text-center">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-white text-center">
  <div className="max-w-4xl mx-auto">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
  <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -569,7 +569,7 @@ export default function Home() {
 </section>
 
 {/* LATEST RESEARCH */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-sky-50">
   <div className="mb-8">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-3">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -633,7 +633,7 @@ export default function Home() {
 </section>
 
 {/* FAQ SECTION */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-white">
   <div className="max-w-3xl mx-auto">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-4">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
