@@ -129,13 +129,13 @@ function ScrollSection({ children }: { children: React.ReactNode }) {
  };
  return (
  <div className="relative group">
- <button onClick={() => scroll("left")} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-black rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50" aria-label="Scroll left">
+ <button onClick={() => scroll("left")} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-black rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-blue-50" aria-label="Scroll left">
  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>
  </button>
  <div ref={scrollRef} className="flex gap-4 overflow-x-auto scrollbar-hide pb-2 -mx-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
  {children}
  </div>
- <button onClick={() => scroll("right")} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-black rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-50" aria-label="Scroll right">
+ <button onClick={() => scroll("right")} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white border border-black rounded-full shadow-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-blue-50" aria-label="Scroll right">
  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#334155" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6" /></svg>
  </button>
  </div>
@@ -152,7 +152,7 @@ function CompoundCard({ c, href }: { c: any; href: string }) {
 
   return (
     <Link key={c.id} href={href} className="flex-shrink-0 w-72 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
-      <div className="h-32 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors relative overflow-hidden">
+      <div className="h-32 bg-blue-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors relative overflow-hidden">
         <img
           src={sourceImg || `/images/compounds/${c.slug}.png`}
           alt={c.name}
@@ -178,10 +178,10 @@ function CompoundCard({ c, href }: { c: any; href: string }) {
         {dosages.length > 0 && (
           <div className="flex flex-wrap gap-1 mt-2">
             {dosages.map((d: string) => (
-              <span key={d} className="text-[10px] bg-gray-100 text-slate-600 px-1.5 py-0.5 rounded font-medium">{d}</span>
+              <span key={d} className="text-[10px] bg-blue-50 text-slate-600 px-1.5 py-0.5 rounded font-medium">{d}</span>
             ))}
             {dosagesMore > 0 && (
-              <span className="text-[10px] bg-gray-100 text-slate-600 px-1.5 py-0.5 rounded font-medium">+{dosagesMore}</span>
+              <span className="text-[10px] bg-blue-50 text-slate-600 px-1.5 py-0.5 rounded font-medium">+{dosagesMore}</span>
             )}
           </div>
         )}
@@ -247,7 +247,7 @@ export default function Home() {
  </section>
 
  {/* 3. TRENDING RIGHT NOW — reference site card format */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-gray-50">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-blue-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
@@ -266,7 +266,7 @@ export default function Home() {
  </section>
 
  {/* 4. TOP SUPPLIERS */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-sky-50">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-50">
  <div className="mb-5">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
  <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" /></svg>
@@ -312,7 +312,7 @@ export default function Home() {
      );
    })}
    {/* Browse all button */}
-   <Link href="/vendors" className="flex-shrink-0 w-52 bg-slate-50 border border-black rounded-xl p-5 hover:bg-slate-100 transition-all snap-start flex items-center justify-center">
+   <Link href="/vendors" className="flex-shrink-0 w-52 bg-indigo-50 border border-black rounded-xl p-5 hover:bg-indigo-100 transition-all snap-start flex items-center justify-center">
      <span className="text-sm font-semibold text-blue-600">Compare all &rarr;</span>
    </Link>
  </ScrollSection>
@@ -357,7 +357,7 @@ export default function Home() {
 </section>
 
  {/* 6. TOP DEALS TODAY */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-gray-50">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-blue-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" /></svg>
@@ -369,7 +369,7 @@ export default function Home() {
    <ScrollSection>
      {topDeals.map((deal) => (
        <Link key={deal.id + "-deal"} href={`/compounds/${deal.slug}`} className="flex-shrink-0 w-72 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
-         <div className="h-28 bg-gray-50 flex items-center justify-center relative">
+         <div className="h-28 bg-blue-50 flex items-center justify-center relative">
            <img
              src={(deal.cheapestVendor as any)?.image || deal.fallbackImage || `/images/compounds/${deal.slug}.png`}
              alt={deal.name}
@@ -407,7 +407,7 @@ export default function Home() {
  </section>
 
  {/* 7. TRENDING THIS MONTH — reference site card format */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-sky-50">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -447,7 +447,7 @@ export default function Home() {
    })}
 
    {/* MOST COMPARED THIS WEEK */}
-   <section className="py-10 max-w-7xl mx-auto px-4 bg-gray-50">
+   <section className="py-10 max-w-7xl mx-auto px-4 bg-blue-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#8b5cf6"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" /></svg>
@@ -466,7 +466,7 @@ export default function Home() {
  </section>
 
 {/* HOW IT WORKS — Step-based, like reference site */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-sky-50">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-50">
   <div className="max-w-4xl mx-auto">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-6">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -525,7 +525,7 @@ export default function Home() {
 </section>
 
 {/* GUIDES — Like reference site */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-gray-50">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-blue-50">
   <div className="max-w-4xl mx-auto text-center mb-10">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-4">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -569,7 +569,7 @@ export default function Home() {
 </section>
 
 {/* LATEST RESEARCH */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-sky-50">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-50">
   <div className="mb-8">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-3">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
