@@ -33,26 +33,6 @@
     ],
     "sources": [
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a365.60",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/tirzepatide.webp"
-      },
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/tirzepatide",
-        "price": "\u00a374.91",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/tirzepatide",
-        "price": "\u00a381.04",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/tirzepatide.webp"
-      },
-      {
         "vendor": "Sterling Peptides",
         "url": "https://sterlingpeptides.co.uk/product/tirzepatide/",
         "price": "\u00a339.99",
@@ -116,26 +96,6 @@
       "2.4 mg/week"
     ],
     "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/semaglutide",
-        "price": "\u00a340.09",
-        "inStock": true
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/semaglutide",
-        "price": "\u00a346.55",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/semaglutide.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/semaglutide",
-        "price": "\u00a361.04",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/semaglutide.webp"
-      },
       {
         "vendor": "The Peptide Company",
         "url": "https://thepeptidecompany.co.uk/product/semaglutide/",
@@ -457,19 +417,6 @@
     ],
     "sources": [
       {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/melanotan-ii",
-        "price": "\u00a328.05",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/melanotan-ii",
-        "price": "\u00a329.13",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/melanotan-ii.webp"
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/melanotan-ii",
         "price": "\u00a315.00",
@@ -549,13 +496,6 @@
       "100-200 mcg 2-3x/day"
     ],
     "sources": [
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/ghrp-2",
-        "price": "\u00a315.42",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/ghrp-2.webp"
-      },
       {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
@@ -694,20 +634,6 @@
         "image": "/images/products/express-peptides/aod-9604-vial-express.webp"
       },
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a331.20",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/aod-9604.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/aod-9604",
-        "price": "\u00a342.40",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/aod-9604.webp"
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-aod-9604-5mg-research-only-peptide-for-laboratory-use-only/",
         "price": "\u00a344.99",
@@ -793,13 +719,6 @@
     ],
     "sources": [
       {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/retatrutide",
-        "price": "\u00a357.68",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/retatrutide.webp"
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/retatrutide",
         "price": "\u00a394.99",
@@ -819,19 +738,6 @@
           }
         ],
         "image": "/images/products/uk-peptides/retatrutide.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a370.40",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/retatrutide.webp"
-      },
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/retatrutide",
-        "price": "\u00a382.22",
-        "inStock": true
       },
       {
         "vendor": "Sterling Peptides",
@@ -1035,13 +941,6 @@
         "image": "/images/products/express-peptides/igf1-des-vial-express.webp"
       },
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/igf-1-lr3",
-        "price": "\u00a350.73",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/igf-1-lr3.webp"
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/igf-1-lr3",
         "price": "\u00a345.99",
@@ -1191,13 +1090,6 @@
         "image": "/images/products/express-peptides/tesamorelin-vial-express.webp"
       },
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a349.60",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/tesamorelin.webp"
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
         "price": "\u00a327.95",
@@ -1338,13 +1230,6 @@
         "image": "/images/products/uk-peptides/sermorelin.webp"
       },
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/sermorelin",
-        "price": "\u00a332.04",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/sermorelin.webp"
-      },
-      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
         "price": "\u00a39.99",
@@ -1433,13 +1318,6 @@
         "price": "\u00a322.00",
         "inStock": true,
         "image": "/images/products/express-peptides/mots-c-vial-express.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a345.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/mots-c.webp"
       },
       {
         "vendor": "Imperial Peptides UK",
@@ -1540,13 +1418,6 @@
       "20 mg subcutaneous daily"
     ],
     "sources": [
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/ss-31",
-        "price": "\u00a349.79",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/ss-31.webp"
-      },
       {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/ss-31/vial",
@@ -1667,13 +1538,6 @@
           }
         ],
         "image": "/images/products/uk-peptides/ghk-cu.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a320.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/ghk-cu.webp"
       },
       {
         "vendor": "Express Peptides",
@@ -1817,13 +1681,6 @@
         "image": "/images/products/imperial-peptides/kpv-10mg.jpg"
       },
       {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/kpv",
-        "price": "\u00a325.49",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/kpv.webp"
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-kpv-10mg-research-only-peptide-for-laboratory-use-only/",
         "price": "\u00a319.99",
@@ -1908,20 +1765,6 @@
       "1.6-6.4 mg/week"
     ],
     "sources": [
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a354.40",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/thymosin-alpha-1.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a355.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/thymosin-alpha-1.webp"
-      },
       {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
@@ -2146,13 +1989,6 @@
         "price": "\u00a321.99",
         "inStock": true,
         "image": "/images/products/imperial-peptides/semax-5mg.jpg"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a327.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/semax.webp"
       },
       {
         "vendor": "Express Peptides",
@@ -2390,20 +2226,6 @@
         "image": "/images/products/express-peptides/ara-290-pen-express.webp"
       },
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a349.60",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/ara-290.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a352.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/ara-290.webp"
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-ara-290-10mg-research-only-peptide-for-laboratory-use-only/",
         "price": "\u00a334.99",
@@ -2483,13 +2305,6 @@
     ],
     "sources": [
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/bpc-157-oral",
-        "price": "\u00a328.38",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/bpc-157-oral.webp"
-      },
-      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/bpc-157-nasal-spray",
         "price": "\u00a349.99",
@@ -2501,19 +2316,6 @@
           }
         ],
         "image": "/images/products/uk-peptides/bpc-157-oral.webp"
-      },
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/bpc-157-oral",
-        "price": "\u00a335.98",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a338.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/bpc-157-oral.webp"
       }
     ],
     "longDescription": "## Overview\n\nBPC-157 Oral is the arginine salt formulation of BPC-157 (Body Protection Compound 157) specifically engineered for oral bioavailability \u2014 a significant advancement in peptide delivery technology. While standard BPC-157 is typically administered by subcutaneous injection for systemic effects, the arginate conjugation provides gastric acid stability and enhances gastrointestinal absorption, enabling systemic delivery via the oral route. This makes BPC-157 Oral particularly suitable for research focused on gastrointestinal health, including inflammatory bowel disease (IBD), leaky gut syndrome, and conditions requiring targeted intestinal healing. The arginine salt form improves stability through the acidic gastric environment and enhances both paracellular and transcellular absorption pathways, achieving meaningful systemic distribution after oral administration. UK researchers in gastroenterology and sports medicine have shown particular interest in the oral formulation for its convenience and its potential applications in digestive health, joint recovery, and systemic tissue repair without the need for injection.\n\n## Mechanism of Action\n\nBPC-157 Oral retains the same core regenerative mechanisms as standard injectable BPC-157 but adds the critical advantage of oral bioavailability through the arginine salt formulation. The core mechanism involves promoting angiogenesis through upregulation of VEGF and FGF, modulating the nitric oxide (NO) system, and accelerating wound healing through multiple signalling pathways. The arginine conjugation serves two important functions: first, arginine acts as a buffering agent that protects the peptide from degradation in the acidic gastric environment; second, the arginine moiety enhances absorption through both the paracellular route (by modulating tight junction permeability) and the transcellular route (via peptide transporters). Once absorbed, the peptide distributes systemically to exert the same regenerative effects on gastrointestinal mucosa, tendons, ligaments, muscles, and other tissues as the injectable form. Arginine also serves as a substrate for NO synthesis, potentially augmenting BPC-157's nitric oxide-modulating effects.\n\n## Research & Clinical Data\n\nResearch into the oral arginine salt formulation of BPC-157 has been driven by the need for a practical, needle-free delivery method suitable for long-term gut health protocols. Preclinical studies have demonstrated measurable systemic absorption and biological activity after oral administration, with effects on gastrointestinal ulcer healing, inflammatory bowel disease models, and systemic tissue repair comparable to parenteral administration. In studies of NSAID-induced gastrointestinal injury, oral BPC-157 arginate demonstrated protective and healing effects on the gastric and intestinal mucosa. Research continues into optimising the absorption kinetics, dosing regimens, and stability of the oral formulation for both gastrointestinal and systemic indications.\n\n## Dosage & Administration\n\nBPC-157 Oral is typically administered orally in capsule or tablet form. Common research dosages range from 250\u2013500 mcg per day for general support, with higher dosages of 500\u20131000 mcg per day used for more intensive gut healing protocols. The oral formulation has a more prolonged absorption profile compared to injectable BPC-157 due to sustained gastrointestinal transit. Capsules should be stored in a cool, dry place and protected from light and moisture.\n\n## Safety & Legal\n\nBPC-157 Oral is intended for research purposes only. The oral arginine salt formulation has a favourable safety profile consistent with standard BPC-157. As with all research peptides, it is not approved for human consumption. The oral capsules should be stored in a cool, dry place below 25\u00b0C and protected from light. Researchers should ensure \u226599% purity from verified suppliers with third-party analytical testing.\n\n\nThe development of an orally bioavailable formulation of BPC-157 addresses one of the major limitations of peptide therapeutics: the requirement for injection. Peptides are typically degraded in the gastrointestinal tract by proteolytic enzymes and by the acidic environment of the stomach, making oral delivery challenging. The arginine salt formulation overcomes these barriers through multiple mechanisms: the basic arginine (pKa ~12.5) buffers the local environment around the peptide, the positively charged arginine residues interact with negatively charged mucus and cell surfaces to enhance absorption, and the peptide may be protected by complex formation with bile salts and other absorption enhancers.\n\nThe arginine salt of BPC-157 (BPC-157 arginate) is prepared by combining the peptide with L-arginine in a specific molar ratio to create a stable salt. This salt form is then formulated into capsules or tablets with additional excipients that protect the peptide during transit through the upper GI tract. Some commercial preparations also include enteric coating for additional gastric protection, while others rely solely on the arginine salt for acid stability.\n\nFor gastrointestinal research applications \u2014 particularly studies of inflammatory bowel disease, leaky gut syndrome, and NSAID-induced GI injury \u2014 the oral formulation offers the advantage of direct topical delivery to the intestinal mucosa in addition to systemic absorption. This dual action may be particularly beneficial for gut healing, as the peptide can act locally on damaged intestinal epithelium while also distributing systemically to support healing at distant sites.\n\nFor research use, BPC-157 Oral is typically dosed at 250\u20131000 mcg per day depending on the research protocol. Capsules should be stored in a cool, dry place below 25\u00b0C. The oral formulation represents a significant advance in making peptide research more accessible. UK researchers can source BPC-157 Oral from multiple suppliers including United Peptides, UK Peptides, and Peptide Warehouse, with purity \u226599% confirmed by independent analysis.",
@@ -2574,20 +2376,6 @@
         "image": "/images/products/express-peptides/fragment-176-191-vial-express.webp"
       },
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/fragment-176-191",
-        "price": "\u00a329.57",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/fragment-176-191.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a334.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/fragment-176-191.webp"
-      },
-      {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/fragment-176-191-2mg/",
         "price": "\u00a314.40",
@@ -2639,13 +2427,6 @@
         "price": "\u00a39.95",
         "inStock": true,
         "image": "/images/products/research-peptides-uk-main/hexarelin.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a326.40",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/hexarelin.webp"
       },
       {
         "vendor": "Express Peptides",
@@ -2845,13 +2626,6 @@
         "image": "/images/products/research-peptides-uk-main/ghrp-6.webp"
       },
       {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/ghrp-6",
-        "price": "\u00a324.70",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/ghrp-6.webp"
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/ghrp-6/vial",
         "price": "\u00a316.00",
@@ -2936,13 +2710,6 @@
           }
         ],
         "image": "/images/products/uk-peptides/pt-141-bremelanotide.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a340.00",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/pt-141-bremelanotide.webp"
       },
       {
         "vendor": "Research Peptides",
@@ -3032,20 +2799,6 @@
         "image": "/images/products/uk-peptides/kisspeptin-10.webp"
       },
       {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/kisspeptin-10",
-        "price": "\u00a341.46",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/kisspeptin-10.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/kisspeptin-10",
-        "price": "\u00a351.23",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/kisspeptin-10.webp"
-      },
-      {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-kisspeptin-10-5mg-research-only-peptide-for-laboratory-use-only/",
         "price": "\u00a314.99",
@@ -3109,28 +2862,7 @@
       "5-30 mL/day IV",
       "10-20 mL/day IM"
     ],
-    "sources": [
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a358.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/cerebrolysin.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/cerebrolysin",
-        "price": "\u00a363.98",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/cerebrolysin.webp"
-      },
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/cerebrolysin",
-        "price": "\u00a372.59",
-        "inStock": true
-      }
-    ],
+    "sources": [],
     "longDescription": ""
   },
   {
@@ -3163,28 +2895,7 @@
       "100-500 mcg/day",
       "200-300 mcg intranasal"
     ],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/p21",
-        "price": "\u00a333.54",
-        "inStock": true
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/p21",
-        "price": "\u00a334.98",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/p21.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/p21",
-        "price": "\u00a339.27",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/p21.webp"
-      }
-    ],
+    "sources": [],
     "longDescription": ""
   },
   {
@@ -3217,26 +2928,6 @@
       "10-20 mg/day sublingual"
     ],
     "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/dihexa",
-        "price": "\u00a349.50",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/dihexa",
-        "price": "\u00a352.80",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/dihexa.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/dihexa",
-        "price": "\u00a364.27",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/dihexa.webp"
-      },
       {
         "vendor": "Dr P Research",
         "url": "https://drpresearch.co.uk/product/dr-p-dihexa-10mg-research-peptide-for-laboratory-use-only/",
@@ -3283,28 +2974,7 @@
       "10-30 mg/day",
       "10-20 mg 2x/day sublingual"
     ],
-    "sources": [
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/noopept",
-        "price": "\u00a320.07",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/noopept.webp"
-      },
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/noopept",
-        "price": "\u00a320.85",
-        "inStock": true
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/noopept",
-        "price": "\u00a321.27",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/noopept.webp"
-      }
-    ],
+    "sources": [],
     "longDescription": ""
   },
   {
@@ -3336,28 +3006,7 @@
       "100-200 mg/day",
       "100 mg 1-2x/day"
     ],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/phenylpiracetam",
-        "price": "\u00a318.50",
-        "inStock": true
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/phenylpiracetam",
-        "price": "\u00a318.77",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/phenylpiracetam.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a322.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/phenylpiracetam.webp"
-      }
-    ],
+    "sources": [],
     "longDescription": ""
   },
   {
@@ -3390,28 +3039,7 @@
       "0.125-0.5 mg/day",
       "0.125-0.25 mg 3x/day"
     ],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/pramipexole",
-        "price": "\u00a321.70",
-        "inStock": true
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a325.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/pramipexole.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/pramipexole",
-        "price": "\u00a326.63",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/pramipexole.webp"
-      }
-    ],
+    "sources": [],
     "longDescription": ""
   },
   {
@@ -3468,20 +3096,6 @@
           }
         ],
         "image": "/images/products/uk-peptides/tb-500.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk",
-        "price": "\u00a354.40",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/tb-500.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/bpc-157-tb-500-blend",
-        "price": "\u00a367.39",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/tb-500.webp"
       },
       {
         "vendor": "Pure Peptides UK",
@@ -3553,28 +3167,7 @@
       "100 mcg (pulsatile pump)",
       "50-500 mcg/day for testing"
     ],
-    "sources": [
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/gonadorelin",
-        "price": "\u00a319.83",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/gonadorelin.webp"
-      },
-      {
-        "vendor": "Research Peptides",
-        "url": "https://example.com/gonadorelin",
-        "price": "\u00a327.05",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/gonadorelin.webp"
-      },
-      {
-        "vendor": "Express Peptides",
-        "url": "https://example.com/gonadorelin",
-        "price": "\u00a328.36",
-        "inStock": true
-      }
-    ],
+    "sources": [],
     "longDescription": ""
   },
   {
@@ -3725,25 +3318,11 @@
         "image": "/images/products/uk-peptides/oxytocin.webp"
       },
       {
-        "vendor": "Research Peptides",
-        "url": "https://www.researchpeptides.co.uk",
-        "price": "\u00a315.00",
-        "inStock": true,
-        "image": "/images/products/research-peptides-uk-main/oxytocin.webp"
-      },
-      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/oxytocin/vial",
         "price": "\u00a335.00",
         "inStock": true,
         "image": "/images/products/express-peptides/oxytocin-vial-express.webp"
-      },
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://example.com/oxytocin",
-        "price": "\u00a320.00",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/oxytocin.webp"
       },
       {
         "vendor": "Dr P Research",
