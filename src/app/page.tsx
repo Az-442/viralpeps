@@ -266,7 +266,7 @@ export default function Home() {
  </section>
 
  {/* 4. TOP SUPPLIERS */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-50">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-100">
  <div className="mb-5">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
  <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" /></svg>
@@ -312,7 +312,7 @@ export default function Home() {
      );
    })}
    {/* Browse all button */}
-   <Link href="/vendors" className="flex-shrink-0 w-52 bg-indigo-50 border border-black rounded-xl p-5 hover:bg-indigo-100 transition-all snap-start flex items-center justify-center">
+   <Link href="/vendors" className="flex-shrink-0 w-52 bg-indigo-100 border border-black rounded-xl p-5 hover:bg-indigo-200 transition-all snap-start flex items-center justify-center">
      <span className="text-sm font-semibold text-blue-600">Compare all &rarr;</span>
    </Link>
  </ScrollSection>
@@ -407,7 +407,7 @@ export default function Home() {
  </section>
 
  {/* 7. TRENDING THIS MONTH — reference site card format */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-50">
+ <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-100">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -466,7 +466,7 @@ export default function Home() {
  </section>
 
 {/* HOW IT WORKS — Step-based, like reference site */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-50">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-100">
   <div className="max-w-4xl mx-auto">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-6">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -569,7 +569,7 @@ export default function Home() {
 </section>
 
 {/* LATEST RESEARCH */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-50">
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-100">
   <div className="mb-8">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-3">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
