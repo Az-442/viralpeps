@@ -96,6 +96,14 @@ function dosageLabel(dosages: string[]): string {
  return "";
 }
 
+// Get a supplier image for a compound (prefer cheapest source, fallback to any source, then generic)
+function getSourceImage(c: any): string | null {
+  const sources = c.sources || [];
+  // Find any source with an image
+  const withImage = sources.find((s: any) => (s as any).image);
+  return (withImage as any)?.image || null;
+}
+
 const categoryGroups = [
  {
  badge: "WEIGHT LOSS & METABOLISM",
@@ -182,6 +190,61 @@ function ScrollSection({ children }: { children: React.ReactNode }) {
  );
 }
 
+// Shared compound card matching Peptide Supermarket style with supplier images, dosage pills, supplier count, FROM price
+function CompoundCard({ c, href }: { c: any; href: string }) {
+  const minPrice = Math.min(...c.sources.map((s: any) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
+  const dosages = (c.commonDosages || []).slice(0, 5);
+  const dosagesMore = (c.commonDosages || []).length - 5;
+  const sourceImg = getSourceImage(c);
+  const count = c.sources.length;
+
+  return (
+    <Link key={c.id} href={href} className="flex-shrink-0 w-72 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
+      <div className="h-32 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors relative overflow-hidden">
+        <img
+          src={sourceImg || `/images/compounds/${c.slug}.png`}
+          alt={c.name}
+          className="w-20 h-20 object-contain"
+          onError={(e) => {
+            const t = e.currentTarget;
+            if (!t.dataset.fallback) {
+              t.dataset.fallback = "1";
+              t.src = `/images/compounds/${c.slug}.png`;
+            } else if (t.dataset.fallback === "1") {
+              t.dataset.fallback = "2";
+              t.src = `/images/compounds/${c.slug}.svg`;
+            }
+          }}
+        />
+      </div>
+      <div className="p-4">
+        <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
+        <div className="mt-1 flex items-baseline gap-0.5">
+          <span className="text-lg font-bold text-emerald-600">{count}</span>
+          <span className="text-[10px] text-slate-400 uppercase tracking-wider font-medium">SUPPLIERS</span>
+        </div>
+        {dosages.length > 0 && (
+          <div className="flex flex-wrap gap-1 mt-2">
+            {dosages.map((d: string) => (
+              <span key={d} className="text-[10px] bg-gray-100 text-slate-600 px-1.5 py-0.5 rounded font-medium">{d}</span>
+            ))}
+            {dosagesMore > 0 && (
+              <span className="text-[10px] bg-gray-100 text-slate-600 px-1.5 py-0.5 rounded font-medium">+{dosagesMore}</span>
+            )}
+          </div>
+        )}
+        <div className="mt-2">
+          <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
+          <div className="text-lg md:text-xl font-extrabold text-emerald-600">&pound;{minPrice.toFixed(2)}</div>
+        </div>
+        <div className="mt-2 w-full py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-bold rounded-lg text-center transition-colors">
+          {c.cheapestVendor ? "View" : "Compare"} &rarr;
+        </div>
+      </div>
+    </Link>
+  );
+}
+
 export default function Home() {
  return (
  <div className="min-h-screen bg-white">
@@ -231,7 +294,7 @@ export default function Home() {
  </div>
  </section>
 
- {/* 3. TRENDING RIGHT NOW */}
+ {/* 3. TRENDING RIGHT NOW — reference site card format */}
  <section className="py-10 max-w-7xl mx-auto px-4">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
@@ -244,23 +307,9 @@ export default function Home() {
      </div>
    </div>
    <ScrollSection>
-     {trending.slice(0, 6).map((c) => {
-       const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
-       return (
-         <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-60 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
-           <div className="h-16 flex items-center justify-center mb-2">
-             <img src={`/images/compounds/${c.slug}.png`} alt={c.name} className="w-12 h-12 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${c.slug}.svg`; }}} />
-           </div>
-           <h3 className="font-semibold text-gray-900 text-sm text-center">{c.name}</h3>
-           <div className="text-xs text-center mt-1">
-             <span className="text-slate-400">from</span>{" "}
-             <span className="text-emerald-600 font-bold text-[13px]">&pound;{minPrice.toFixed(2)}</span>
-             {" "}
-             <span className="text-slate-400">{c.sources.length} VENDORS</span>
-           </div>
-         </Link>
-       );
-     })}
+     {trending.slice(0, 6).map((c) => (
+       <CompoundCard key={c.id} c={c} href={`/compounds/${c.slug}`} />
+     ))}
    </ScrollSection>
  </section>
 
@@ -405,7 +454,7 @@ export default function Home() {
    </ScrollSection>
  </section>
 
- {/* 7. TRENDING THIS WEEK */}
+ {/* 7. TRENDING THIS MONTH — reference site card format */}
  <section className="py-10 max-w-7xl mx-auto px-4">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
@@ -417,38 +466,12 @@ export default function Home() {
    </div>
    <ScrollSection>
      {trendingVendorItems.map((item) => (
-       <Link key={`tw-${item.compound.id}-${item.vendor.vendor}`} href={`/compounds/${item.compound.slug}`} className="flex-shrink-0 w-64 bg-white border border-black rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all snap-start">
-         <div className="flex items-center gap-3">
-           <span className="text-lg font-bold text-slate-300 w-6 flex-shrink-0 text-center">{item.rank}</span>
-           <div className="w-10 h-10 rounded-lg bg-gray-50 flex items-center justify-center flex-shrink-0 overflow-hidden">
-             <img src={`/images/compounds/${item.compound.slug}.png`} alt={item.compound.name} className="w-8 h-8 object-contain" onError={(e) => { const t = e.currentTarget; if (!t.dataset.fallback) { t.dataset.fallback = "1"; t.src = `/images/compounds/${item.compound.slug}.svg`; }}} />
-           </div>
-           <div className="min-w-0 flex-1">
-             <h3 className="font-semibold text-gray-900 text-sm truncate">{item.compound.name}{dosageLabel(item.compound.commonDosages) ? ` ${dosageLabel(item.compound.commonDosages)}` : ""}</h3>
-             <p className="text-xs text-slate-500 truncate">at {item.vendor.vendor}</p>
-           </div>
-         </div>
-         <div className="flex items-center justify-between mt-3 pt-3 border-t border-slate-100">
-           <div className="flex items-center gap-2">
-             <span className="text-base font-bold text-emerald-600">{item.vendor.price}</span>
-             {item.vendorData?.verified && (
-               <span className="inline-flex items-center gap-0.5 text-[9px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
-                 <svg width="7" height="7" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-                 Verified
-               </span>
-             )}
-           </div>
-           <span className="text-xs text-blue-600 font-medium">View &rarr;</span>
-         </div>
-         {item.vendorData && (
-           <div className="text-[10px] text-amber-500 mt-1">★ {item.vendorData.rating}</div>
-         )}
-       </Link>
+       <CompoundCard key={`tw-${item.compound.id}-${item.vendor.vendor}`} c={item.compound} href={`/compounds/${item.compound.slug}`} />
      ))}
    </ScrollSection>
  </section>
 
- {/* 8+. CATEGORY SECTIONS */}
+ {/* 8+. CATEGORY SECTIONS — all use reference site card format */}
  {categoryGroups.map((group) => {
  const groupCompounds = compounds.filter((c) => !(c as any)?.compareSlug && group.slugs.includes(c.category));
  if (groupCompounds.length === 0) return null;
@@ -463,53 +486,9 @@ export default function Home() {
      <p className="text-sm text-black">{group.desc}</p>
    </div>
    <ScrollSection>
-     {groupCompounds.map((c) => {
-       const minPrice = Math.min(...c.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
-       const dosages = c.commonDosages.slice(0, 4);
-       const vendorImg = (c.sources.find((s: any) => s.image) as any)?.image;
-       return (
-         <Link key={c.id} href={`/compounds/${c.slug}`} className="flex-shrink-0 w-64 bg-white border border-black rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all snap-start group">
-           <div className="h-28 bg-gray-50 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
-             <img
-               src={vendorImg || `/images/compounds/${c.slug}.png`}
-               alt={c.name}
-               className="w-16 h-16 object-contain"
-               onError={(e) => {
-                 const t = e.currentTarget;
-                 if (!t.dataset.fallback) {
-                   t.dataset.fallback = "1";
-                   t.src = `/images/compounds/${c.slug}.png`;
-                 } else if (t.dataset.fallback === "1") {
-                   t.dataset.fallback = "2";
-                   t.src = `/images/compounds/${c.slug}.svg`;
-                 }
-               }}
-             />
-           </div>
-           <div className="p-4">
-             <h3 className="font-semibold text-gray-900 text-sm">{c.name}</h3>
-             <div className="mt-1 flex items-baseline gap-0.5">
-               <span className="text-lg font-bold text-emerald-600">{c.sources.length}</span>
-               <span className="text-[10px] text-slate-400 uppercase tracking-wider font-medium">SUPPLIERS</span>
-             </div>
-             {dosages.length > 0 && (
-               <div className="flex flex-wrap gap-1 mt-2">
-                 {dosages.map((d) => (
-                   <span key={d} className="text-[10px] bg-gray-100 text-slate-600 px-1.5 py-0.5 rounded font-medium">{d}</span>
-                 ))}
-               </div>
-             )}
-             <div className="mt-2">
-               <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
-               <div className="text-lg md:text-xl font-extrabold text-emerald-600">&pound;{minPrice.toFixed(2)}</div>
-             </div>
-             <div className="mt-2 w-full py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-bold rounded-lg text-center transition-colors">
-               Compare
-             </div>
-           </div>
-         </Link>
-       );
-     })}
+     {groupCompounds.map((c) => (
+       <CompoundCard key={c.id} c={c} href={`/compounds/${c.slug}`} />
+     ))}
    </ScrollSection>
  </section>
  );
