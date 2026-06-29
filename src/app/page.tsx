@@ -8,32 +8,26 @@ import SearchBar from "@/components/SearchBar";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 import { PEPTIDE_COUNT as peptideCount, SUPPLIER_COUNT as vendorCount } from "@/data/stats";
+import { HOMEPAGE_CATEGORY_GROUPS } from "@/data/categories";
+import { getVendorStats } from "@/data/vendor-stats";
 
 // --- Data helpers ---
 const totalCompounds = peptideCount;
 const totalVendors = vendorCount;
 
-const vendorCompoundCounts: Record<string, number> = {};
-for (const v of vendors) {
-  const vendorSourceCompounds = compounds.filter((c) =>
-    c.sources.some((s) => s.vendor === v.name)
-  );
-  const hasCatalogEntries = vendorSourceCompounds.some((c) =>
-    (c as any)?.compareSlug
-  );
-  vendorCompoundCounts[v.name] = hasCatalogEntries
-    ? vendorSourceCompounds.filter((c) =>
-        (c as any)?.compareSlug ||
-        c.sources.every((s) => s.vendor === v.name)
-      ).length
-    : vendorSourceCompounds.length;
-}
+// Top 4 vendors by product count (computed dynamically)
+const allVendorStats = Object.fromEntries(
+  vendors.map((v) => [v.name, getVendorStats(v.name)])
+);
+const vendorCompoundCounts: Record<string, number> = Object.fromEntries(
+  Object.entries(allVendorStats).map(([name, s]) => [name, s.compoundCount])
+);
 
 const topVendors = [...vendors]
  .sort((a, b) => (vendorCompoundCounts[b.name] || 0) - (vendorCompoundCounts[a.name] || 0))
  .slice(0, 4);
 
-// Min and max prices per vendor
+// Min and max prices per vendor (computed dynamically)
 const vendorPrices: Record<string, { min: number; max: number }> = {};
 for (const c of compounds) {
  for (const s of c.sources) {
@@ -104,62 +98,8 @@ function getSourceImage(c: any): string | null {
   return (withImage as any)?.image || null;
 }
 
-const categoryGroups = [
- {
- badge: "WEIGHT LOSS & METABOLISM",
- title: "Compare weight loss & metabolism peptides",
- desc: "GLP-1 agonists and metabolic peptides researchers are comparing most.",
- slugs: ["glp-1-agonists"],
- },
- {
- badge: "HEALING & TISSUE REPAIR",
- title: "Compare healing & tissue repair peptides",
- desc: "BPC-157, TB-500, and repair-focused peptides for tissue recovery research.",
- slugs: ["thymosin-bpc", "tb-500", "peptide-fragments"],
- },
- {
- badge: "GROWTH HORMONE",
- title: "Compare growth hormone peptides",
- desc: "Growth hormone secretagogues, GHRPs, IGF-1, and related research peptides.",
- slugs: ["growth-hormone"],
- },
- {
- badge: "ANTI-AGING & LONGEVITY",
- title: "Compare anti-aging & longevity peptides",
- desc: "GHK-Cu, Epitalon, NAD+, and peptides studied for cellular health and aging research.",
- slugs: ["anti-aging"],
- },
- {
- badge: "IMMUNITY & DEFENCE",
- title: "Compare immunity & defence peptides",
- desc: "Thymosin Alpha-1, KPV, Selank, and immune-support research peptides.",
- slugs: ["immunity-peptides"],
- },
- {
- badge: "TANNING & LIBIDO",
- title: "Compare tanning & libido peptides",
- desc: "Melanotan II, PT-141, Kisspeptin, and melanocortin-based research compounds.",
- slugs: ["tanning-libido"],
- },
- {
- badge: "COGNITIVE & NOOTROPICS",
- title: "Compare cognitive peptides",
- desc: "Research peptides being studied for cognitive function and neuroprotection.",
- slugs: ["cognitive"],
- },
- {
- badge: "AOD & FRAGMENTS",
- title: "Compare AOD & fragment peptides",
- desc: "AOD-9604 and fragment-based research compounds.",
- slugs: ["aod-fragments"],
- },
- {
- badge: "OTHER RESEARCH PEPTIDES",
- title: "Compare other research peptides",
- desc: "Additional research compounds not covered in other categories.",
- slugs: ["other"],
- },
-];
+// Category groups loaded from central definitions
+const categoryGroups = HOMEPAGE_CATEGORY_GROUPS;
 
 function PeptideVialIcon({ className = "w-12 h-12" }: { className?: string }) {
  return (
@@ -210,7 +150,7 @@ function CompoundCard({ c, href }: { c: any; href: string }) {
         <img
           src={sourceImg || `/images/compounds/${c.slug}.png`}
           alt={c.name}
-          className="w-20 h-20 object-contain"
+          className="w-28 h-28 object-contain"
           onError={(e) => {
             const t = e.currentTarget;
             if (!t.dataset.fallback) {
@@ -373,42 +313,42 @@ export default function Home() {
  <p className="text-xs text-black mt-3">Prices last checked: daily</p>
  </section>
 
- {/* 5. HOW IT WORKS */}
- <section className="py-12 max-w-7xl mx-auto px-4 ">
- <div className="mb-5">
- <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-3">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
- <span className="text-[10px] font-bold text-white uppercase tracking-wider">THE UK&apos;S DEDICATED PEPTIDE PRICE COMPARISON TOOL</span>
+ {/* 5. HOW IT WORKS — Bigger, more prominent */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 text-center">
+ <div className="max-w-4xl mx-auto">
+ <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
+ <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+ <span className="text-xs font-bold text-white uppercase tracking-wider">THE UK&apos;S DEDICATED PEPTIDE PRICE COMPARISON TOOL</span>
  </div>
- <h2 className="text-xl font-bold text-gray-900 mb-3 max-w-2xl">
+ <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5 leading-tight">
  Compare peptide prices across every trusted UK supplier &mdash; in seconds.
  </h2>
- <p className="text-sm text-black leading-relaxed max-w-3xl">
+ <p className="text-base md:text-lg text-black leading-relaxed max-w-3xl mx-auto">
  ViralPeps is the UK&apos;s only dedicated peptide price comparison platform. We track live prices from{" "}
  <strong>{totalVendors} trusted UK peptide suppliers</strong> &mdash; so you can find the best deal on{" "}
- <Link href="/compounds/bpc-157" className="text-blue-600 hover:underline">BPC-157</Link>,{" "}
- <Link href="/compounds/tb-500" className="text-blue-600 hover:underline">TB-500</Link>,{" "}
- <Link href="/compounds/retatrutide" className="text-blue-600 hover:underline">Retatrutide</Link>
+ <Link href="/compounds/bpc-157" className="text-blue-600 hover:underline font-medium">BPC-157</Link>,{" "}
+ <Link href="/compounds/tb-500" className="text-blue-600 hover:underline font-medium">TB-500</Link>,{" "}
+ <Link href="/compounds/retatrutide" className="text-blue-600 hover:underline font-medium">Retatrutide</Link>
  , and hundreds more in seconds. Whether you&apos;re looking to{" "}
- <Link href="/compounds" className="text-blue-600 hover:underline">compare peptide prices</Link>{" "}
+ <Link href="/compounds" className="text-blue-600 hover:underline font-medium">compare peptide prices</Link>{" "}
  for research or simply want to find the latest deals across suppliers, we&apos;ve got you covered.
  </p>
  </div>
- <div className="flex items-center gap-8 mt-6 pt-6 ">
- <div className="flex items-center gap-2">
- <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
- <span className="text-sm text-black font-medium">{totalCompounds}+ peptides tracked</span>
+ <div className="flex items-center justify-center gap-10 mt-10 pt-8 flex-wrap">
+ <div className="flex items-center gap-3">
+ <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
+ <span className="text-base md:text-lg text-black font-semibold">{totalCompounds}+ peptides tracked</span>
  </div>
- <div className="flex items-center gap-2">
- <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /></svg>
- <span className="text-sm text-black font-medium">{totalVendors}+ UK suppliers</span>
+ <div className="flex items-center gap-3">
+ <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /></svg>
+ <span className="text-base md:text-lg text-black font-semibold">{totalVendors}+ UK suppliers</span>
  </div>
- <div className="flex items-center gap-2">
- <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
- <span className="text-sm text-black font-medium">Prices updated daily</span>
+ <div className="flex items-center gap-3">
+ <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+ <span className="text-base md:text-lg text-black font-semibold">Prices updated daily</span>
  </div>
  </div>
- </section>
+</section>
 
  {/* 6. TOP DEALS TODAY */}
  <section className="py-10 max-w-7xl mx-auto px-4">
@@ -427,7 +367,7 @@ export default function Home() {
            <img
              src={(deal.cheapestVendor as any)?.image || deal.fallbackImage || `/images/compounds/${deal.slug}.png`}
              alt={deal.name}
-             className="w-16 h-16 object-contain"
+             className="w-20 h-20 object-contain"
              onError={(e) => {
                const t = e.currentTarget;
                if (!t.dataset.fallback) {

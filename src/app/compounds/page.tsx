@@ -6,28 +6,10 @@ import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import { PEPTIDE_COUNT, SUPPLIER_COUNT, TOTAL_PRODUCTS } from "@/data/stats";
+import { CATEGORY_LABELS } from "@/data/categories";
 
-// ── Category → human label map ──
-const badgeLabels: Record<string, string> = {
-  "glp-1-agonists": "GLP-1 Agonists",
-  "growth-factors": "Growth Factors",
-  "melanotans": "Melanotans",
-  "ghrp": "GHRP",
-  "aod-fragments": "AOD / Fragments",
-  "thymosin-bpc": "Thymosin / BPC",
-  "tb-500": "TB-500",
-  "cognitive": "Cognitive",
-  "peptide-fragments": "Peptide Fragments",
-  "research-compounds": "Research Compounds",
-  "peptide-blends": "Peptide Blends",
-  "lab-supplies": "Lab Supplies",
-  "supplies": "Supplies",
-  "cosmetic-peptides": "Cosmetic Peptides",
-  "growth-hormone-secretagogues": "GH Secretagogues",
-  "research-solutions": "Research Solutions",
-  "nasal-sprays": "Nasal Sprays",
-  "other": "Other",
-};
+// ── Category → human label map (from central definitions) ──
+const badgeLabels: Record<string, string> = CATEGORY_LABELS;
 
 // ── Helpers per compound ──
 function calcMinPrice(sources: { price: string }[]): number {

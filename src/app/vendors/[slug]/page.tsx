@@ -5,6 +5,7 @@ import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
+import { getVendorStats } from "@/data/vendor-stats";
 
 export const dynamic = "force-dynamic";
 
@@ -122,6 +123,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   const hasUkBased = vendor.country === "UK" || vendor.highlights?.some((h) => h.toLowerCase().includes("uk-based"));
   const hasDiscreet = vendor.highlights?.some((h) => h.toLowerCase().includes("discreet"));
 
+  // Dynamic vendor stats (compound count, categories)
+  const vendorStats = getVendorStats(vendor.name);
+
   // Build feature tags with icons
   const featureTags: { label: string; icon: React.ReactNode; color: string }[] = [];
   if (hasNextDay) featureTags.push({ label: "Next Day Delivery", icon: <TruckIcon />, color: "border-blue-300 text-blue-200" });
@@ -237,7 +241,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               {[
                 { label: "Shipping", value: vendor.shipping?.join(", ") || "N/A" },
                 { label: "Payment", value: vendor.payment?.join(", ") || "N/A" },
-                { label: "Categories", value: vendor.categories?.slice(0, 3).join(", ") + (vendor.categories && vendor.categories.length > 3 ? ` +${vendor.categories.length - 3} more` : "") || "N/A" },
+                { label: "Categories", value: vendorStats.categories.slice(0, 3).join(", ") + (vendorStats.categories.length > 3 ? ` +${vendorStats.categories.length - 3} more` : "") || "N/A" },
                 { label: "Last Tested", value: vendor.lastTested || "N/A" },
               ].map((info) => (
                 <div key={info.label} className="bg-white/5 rounded-xl p-3 border border-slate-700/30">

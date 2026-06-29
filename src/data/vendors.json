@@ -16,7 +16,7 @@
       "Wide catalog"
     ],
     "shipping": [
-      "UK (free over £50)",
+      "UK (free over \u00a350)",
       "International"
     ],
     "payment": [
@@ -24,16 +24,6 @@
       "Cryptocurrency",
       "Cards"
     ],
-    "categories": [
-      "GLP-1 Agonists",
-      "Growth Factors",
-      "Melanotans",
-      "GHRPs",
-      "BPC/TB-500",
-      "AOD/Fragments",
-      "Cognitive"
-    ],
-    "compoundCount": 38,
     "lastTested": "2026-06-20",
     "labTested": true
   },
@@ -54,22 +44,13 @@
       "UK-based"
     ],
     "shipping": [
-      "UK (free over £25)",
+      "UK (free over \u00a325)",
       "International"
     ],
     "payment": [
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "GLP-1 Agonists",
-      "Growth Factors",
-      "BPC/TB-500",
-      "GHRPs",
-      "Cognitive",
-      "Repair & Recovery"
-    ],
-    "compoundCount": 69,
     "lastTested": "2026-06-15",
     "labTested": true
   },
@@ -97,14 +78,6 @@
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "GLP-1 Agonists",
-      "Growth Factors",
-      "Melanotans",
-      "GHRPs",
-      "BPC/TB-500"
-    ],
-    "compoundCount": 35,
     "lastTested": "2026-06-10",
     "labTested": true
   },
@@ -125,7 +98,7 @@
       "Independent COAs"
     ],
     "shipping": [
-      "UK tracked (free over £40)",
+      "UK tracked (free over \u00a340)",
       "International"
     ],
     "payment": [
@@ -133,16 +106,6 @@
       "Cryptocurrency",
       "Cards"
     ],
-    "categories": [
-      "Growth Factors",
-      "GHRPs",
-      "BPC/TB-500",
-      "Cognitive",
-      "Melanotans",
-      "AOD/Fragments",
-      "Supplies"
-    ],
-    "compoundCount": 65,
     "lastTested": "2026-06-27",
     "labTested": true
   },
@@ -163,24 +126,13 @@
       "Fast UK delivery"
     ],
     "shipping": [
-      "UK (free over £99)",
+      "UK (free over \u00a399)",
       "Great Britain only"
     ],
     "payment": [
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "Growth Factors",
-      "Melanotans",
-      "BPC/TB-500",
-      "GHRPs",
-      "Cognitive",
-      "Peptide Fragments",
-      "Cosmetic Peptides",
-      "Supplies"
-    ],
-    "compoundCount": 15,
     "lastTested": "2026-06-27",
     "labTested": true
   },
@@ -193,7 +145,7 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20°C cold chain storage. Same-day dispatch on orders before 4pm.",
+    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20\u00b0C cold chain storage. Same-day dispatch on orders before 4pm.",
     "highlights": [
       "UKAS-verified testing",
       "Cold chain storage",
@@ -201,21 +153,13 @@
       "Same-day dispatch"
     ],
     "shipping": [
-      "UK (free over £50)",
+      "UK (free over \u00a350)",
       "International"
     ],
     "payment": [
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "GLP-1 Agonists",
-      "Growth Factors",
-      "BPC/TB-500",
-      "GHRPs",
-      "Peptide Fragments"
-    ],
-    "compoundCount": 27,
     "lastTested": "2026-06-21",
     "labTested": true
   },
@@ -235,24 +179,13 @@
       "UK manufactured"
     ],
     "shipping": [
-      "UK next-day (free over £100)",
+      "UK next-day (free over \u00a3100)",
       "International"
     ],
     "payment": [
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "Growth Factors",
-      "GHRPs",
-      "BPC/TB-500",
-      "Cognitive",
-      "Peptide Fragments",
-      "Cosmetic Peptides",
-      "Melanotans",
-      "Peptide Blends"
-    ],
-    "compoundCount": 79,
     "lastTested": "2026-06-27",
     "labTested": false
   },
@@ -273,23 +206,13 @@
       "Previously Dr Peptides"
     ],
     "shipping": [
-      "UK free over £25",
+      "UK free over \u00a325",
       "International"
     ],
     "payment": [
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "GLP-1 Agonists",
-      "Growth Factors",
-      "Melanotans",
-      "GHRPs",
-      "BPC/TB-500",
-      "Cognitive",
-      "Peptide Fragments"
-    ],
-    "compoundCount": 60,
     "lastTested": "2026-06-27",
     "labTested": true
   },
@@ -310,20 +233,12 @@
       "Premium selection"
     ],
     "shipping": [
-      "UK (£9.99 tracked, free over £100)"
+      "UK (\u00a39.99 tracked, free over \u00a3100)"
     ],
     "payment": [
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "GLP-1 Agonists",
-      "Growth Factors",
-      "BPC/TB-500",
-      "Melanotans",
-      "GHRPs"
-    ],
-    "compoundCount": 17,
     "lastTested": "2026-06-19",
     "labTested": false
   },
@@ -344,22 +259,13 @@
       "Established 2016"
     ],
     "shipping": [
-      "UK (free over £100)",
+      "UK (free over \u00a3100)",
       "International"
     ],
     "payment": [
       "Bank transfer",
       "Cryptocurrency"
     ],
-    "categories": [
-      "GLP-1 Agonists",
-      "Growth Factors",
-      "Melanotans",
-      "GHRPs",
-      "BPC/TB-500",
-      "AOD/Fragments"
-    ],
-    "compoundCount": 45,
     "lastTested": "2026-06-20",
     "labTested": false
   }
