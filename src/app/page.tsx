@@ -424,11 +424,12 @@ export default function Home() {
  </section>
 
  {/* 8+. CATEGORY SECTIONS — all use reference site card format */}
- {categoryGroups.map((group) => {
+ {categoryGroups.map((group, i) => {
  const groupCompounds = compounds.filter((c) => !(c as any)?.compareSlug && group.slugs.includes(c.category));
  if (groupCompounds.length === 0) return null;
+ const bgColors = ['bg-white', 'bg-blue-50', 'bg-indigo-100'];
  return (
- <section key={group.badge} className="py-10 max-w-7xl mx-auto px-4 bg-white">
+ <section key={group.badge} className={`py-10 max-w-7xl mx-auto px-4 ${bgColors[i % 3]}`}>
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M7 10l5 5 5-5H7z" /></svg>
