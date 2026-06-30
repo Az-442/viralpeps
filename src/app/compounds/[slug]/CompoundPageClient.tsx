@@ -1152,8 +1152,8 @@ export default function CompoundPageClient({
         </div>
       </div>
 
-      {/* ===== PRICE COMPARISON TABLE ===== */}
-      <div id="pricing-table" className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
+      {/* ===== PRICE COMPARISON TABLE (Desktop) ===== */}
+      <div id="pricing-table" className="hidden md:block bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
         <div className="overflow-x-auto">
           <table className="w-full text-base">
             <thead>
@@ -1293,8 +1293,106 @@ export default function CompoundPageClient({
             </tbody>
           </table>
         </div>
+      </div>
 
-        {displayedSources.length === 0 && (
+      {/* ===== PRICE COMPARISON CARDS (Mobile) ===== */}
+      <div id="pricing-table-mobile" className="md:hidden space-y-3 mb-6">
+        {displayedSources.map((s, i) => {
+          const vendor = vendors.find((v) => v.name === s.vendor);
+          const price = parseFloat(s.price.replace(/[£$€,]/g, ""));
+          const isSelected = selectedVendors.has(s.vendor);
+          const isBestPrice = price === minPrice;
+          const ppm = calcPricePerMg(s.price, (s as any).dosage);
+
+          return (
+            <div
+              key={s.vendor + i}
+              className={`bg-white border rounded-xl overflow-hidden transition-colors ${
+                isSelected ? "border-blue-400 bg-blue-50/30" : isBestPrice ? "border-emerald-300" : "border-gray-200"
+              }`}
+            >
+              {/* Row 1: checkbox + logo + name/rating + price */}
+              <div className="flex items-center gap-3 px-4 pt-3.5 pb-2">
+                {/* Checkbox */}
+                <div onClick={(e) => e.stopPropagation()} className="flex-shrink-0">
+                  <input
+                    type="checkbox"
+                    checked={isSelected}
+                    onChange={() => toggleVendor(s.vendor)}
+                    className="w-5 h-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                </div>
+
+                {/* Logo */}
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
+                  <ProductImage vendorSlug={vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')} compoundSlug={compound.slug} compoundName={compound.name} />
+                </div>
+
+                {/* Name + Rating */}
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-1.5">
+                    <Link
+                      href={`/vendors/${vendor?.slug || ""}`}
+                      className="font-semibold text-gray-900 text-sm truncate hover:text-blue-600 transition-colors"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      {vendor?.name || s.vendor}
+                    </Link>
+                    {isBestPrice && (
+                      <span className="text-[11px] font-bold text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded flex-shrink-0">BEST</span>
+                    )}
+                  </div>
+                  <div className="flex items-center gap-1.5 mt-0.5">
+                    <span className="text-amber-500 text-xs">★ {vendor?.rating || "—"}</span>
+                    {(s as any).dosage && (
+                      <span className="text-[11px] text-gray-500 bg-gray-100 px-1.5 py-0.5 rounded">{(s as any).dosage}</span>
+                    )}
+                    {ppm !== null && (
+                      <span className="text-[11px] text-gray-400">&pound;{ppm.toFixed(2)}/mg</span>
+                    )}
+                  </div>
+                </div>
+
+                {/* Price */}
+                <div className="text-right flex-shrink-0">
+                  <span className="font-bold text-gray-900 text-base">{s.price}</span>
+                </div>
+              </div>
+
+              {/* Row 2: badges + Visit button */}
+              <div className="flex items-center justify-between px-4 pb-3.5 pt-0.5">
+                <div className="flex items-center gap-1.5 flex-wrap min-w-0">
+                  {s.inStock !== false && (
+                    <span className="text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full">In Stock</span>
+                  )}
+                  <span className="text-[11px] font-semibold text-green-600">Free</span>
+                  {vendor?.verified && (
+                    <span className="text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full inline-flex items-center gap-0.5">
+                      <svg className="w-3 h-3" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                      Lab Tested
+                    </span>
+                  )}
+                </div>
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="inline-flex items-center gap-1 text-[13px] font-bold text-white bg-blue-600 hover:bg-blue-500 active:bg-blue-700 px-4 py-2 rounded-lg transition-colors shadow-sm flex-shrink-0"
+                >
+                  Visit
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Empty state (shared) */}
+      {displayedSources.length === 0 && (
           <div className="text-center py-12 text-gray-500 text-base">
             {selectedDosage !== "all" ? (
               <>No suppliers found for this dosage. Try selecting a different size.</>
@@ -1303,7 +1401,6 @@ export default function CompoundPageClient({
             )}
           </div>
         )}
-      </div>
     </>
   );
 }
