@@ -185,32 +185,48 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </div>
           )}
 
-          {/* Stats + CTA — stacked on desktop in a large CTA card, inline on mobile */}
-          <div className="md:flex md:flex-col md:bg-blue-900/20 md:rounded-2xl md:border md:border-blue-400/20 md:p-6 md:mt-3">
-            {/* Stats pills */}
-            <div className="flex flex-wrap items-center gap-2 md:gap-3 md:justify-center">
-              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Suppliers</span>
+          {/* ===== MOBILE: 3-box symmetric row matching reference site ===== */}
+          <div className="flex md:hidden items-stretch gap-2 mt-4">
+            <div className="flex-1 bg-white/10 border border-white/15 rounded-xl p-3 text-center">
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
+              <p className="text-xl font-bold text-white mt-0.5">{uniqueSuppliers}</p>
+            </div>
+            <div className="flex-1 bg-white/10 border border-white/15 rounded-xl p-3 text-center">
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">From</p>
+              <p className="text-xl font-bold text-emerald-400 mt-0.5">&pound;{minPrice.toFixed(2)}</p>
+            </div>
+            <a href="#pricing-table" className="flex-1 bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 rounded-xl p-3 text-center flex flex-col items-center justify-center transition-colors">
+              <p className="text-[10px] text-white/80 uppercase tracking-wider font-semibold">Prices</p>
+              <svg className="w-5 h-5 text-white mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </a>
+          </div>
+
+          {/* ===== DESKTOP: Stacked CTA card ===== */}
+          <div className="hidden md:flex md:flex-col md:bg-blue-900/20 md:rounded-2xl md:border md:border-blue-400/20 md:p-6 md:mt-3">
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
+                <span className="text-xs text-blue-300 uppercase tracking-widest">Suppliers</span>
                 <span className="font-bold text-white">{uniqueSuppliers}</span>
               </span>
-              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">From</span>
+              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
+                <span className="text-xs text-blue-300 uppercase tracking-widest">From</span>
                 <span className="font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</span>
               </span>
-              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Average</span>
+              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
+                <span className="text-xs text-blue-300 uppercase tracking-widest">Average</span>
                 <span className="font-bold text-white">&pound;{avgPrice.toFixed(2)}</span>
               </span>
-              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Products</span>
+              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
+                <span className="text-xs text-blue-300 uppercase tracking-widest">Products</span>
                 <span className="font-bold text-white">{totalProducts}</span>
               </span>
             </div>
-            {/* CTA button - compact pill matching reference site style */}
-            <div className="ml-auto md:ml-0 md:flex md:justify-center md:mt-2.5">
-              <a href="#pricing-table" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white/15 hover:bg-white/25 text-white text-[11px] font-semibold rounded-full transition-colors border border-white/20">
+            <div className="flex justify-center mt-3">
+              <a href="#pricing-table" className="inline-flex items-center gap-1.5 px-4 py-2 bg-white/15 hover:bg-white/25 text-white text-xs font-semibold rounded-full transition-colors border border-white/20">
                 See all prices
-                <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
                 </svg>
               </a>
