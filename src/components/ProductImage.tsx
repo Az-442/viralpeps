@@ -33,6 +33,13 @@ export default function ProductImage({
     setFallbackStep((n: number) => n + 1);
   };
 
+  const handleLoad = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    const img = e.currentTarget;
+    if (img.naturalWidth === 0 && fallbackStep < 5) {
+      setFallbackStep((n: number) => n + 1);
+    }
+  };
+
   const imgClassName =
     fallbackStep >= 4
       ? "w-10 h-10 object-contain"
@@ -44,7 +51,7 @@ export default function ProductImage({
       alt={compoundName}
       className={imgClassName}
       onError={handleError}
+      onLoad={handleLoad}
     />
   );
 }
-// trigger redeploy
