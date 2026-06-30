@@ -1641,10 +1641,10 @@
       },
       {
         "vendor": "Peptides Lab UK",
-        "url": "https://peptideslabuk.com",
+        "url": "https://peptideslabuk.com/product/igf-des/",
         "price": "£51.99",
         "inStock": true,
-        "image": "/images/products/peptideslabuk/igf-des.webp",
+        "image": "https://peptideslabuk.com/wp-content/uploads/2025/07/IGF-DES-470x588.jpg",
         "dosage": "1mg"
       }
     ],
@@ -4129,10 +4129,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/hexarelin-acetate-5/",
         "price": "£27.95",
         "inStock": true,
-        "image": "/images/products/kensington-labs/hexarelin-acetate-5mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2024/07/hexarelin-acetate-2.png",
         "dosage": "5mg"
       }
     ],
@@ -4718,10 +4718,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/kisspeptin-10mg/",
         "price": "£29.95",
         "inStock": true,
-        "image": "/images/products/kensington-labs/kisspeptin-10mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/06/kisspeptin-10mg.png",
         "dosage": "10mg"
       }
     ],
@@ -5130,10 +5130,10 @@
     "sources": [
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/gonadorelin-5mg/",
         "price": "£39.90",
         "inStock": true,
-        "image": "/images/products/kensington-labs/gonadorelin-5mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/08/Gonadorelin-5mg.png",
         "dosage": "5mg"
       },
       {
@@ -5718,10 +5718,10 @@
       },
       {
         "vendor": "Raccoon Peptides",
-        "url": "https://www.raccoonpeptides.com/collections/peptides",
+        "url": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
         "price": "£49.95",
         "inStock": true,
-        "image": "/images/products/raccoon-peptides/mazdutide-10mg.webp",
+        "image": "https://www.raccoonpeptides.com/83-large_default/mazdutide-10mg.jpg",
         "dosage": "10mg"
       }
     ],
@@ -5922,7 +5922,7 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://www.kensingtonlabs.co.uk/product/bacteriostatic-water-10ml/",
         "price": "£8.45",
         "inStock": true,
         "image": "https://www.kensingtonlabs.co.uk/wp-content/uploads/bac-water-10ml.jpg",
@@ -6756,10 +6756,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/lipo-c-10ml/",
         "price": "£49.90",
         "inStock": true,
-        "image": "/images/products/kensington-labs/lipo-c-10ml.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/08/Lipo-c-10ml.png",
         "dosage": "10ml"
       }
     ],
@@ -6812,10 +6812,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/pinealon-10mg/",
         "price": "£29.90",
         "inStock": true,
-        "image": "/images/products/kensington-labs/pinealon-10mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/08/Pinealon-10mg.png",
         "dosage": "10mg"
       }
     ],
@@ -6861,10 +6861,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/dermorphin-5mg/",
         "price": "£28.90",
         "inStock": true,
-        "image": "/images/products/kensington-labs/dermorphin-5mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2024/11/dermorphin.png",
         "dosage": "5mg"
       }
     ],
@@ -7566,18 +7566,18 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://www.kensingtonlabs.co.uk/product/adamax-5mg/",
         "price": "£29.95",
         "inStock": true,
-        "image": "/images/products/kensington-labs/adamax-5mg.webp",
+        "image": "https://www.kensingtonlabs.co.uk/wp-content/uploads/adamax-5mg.jpg",
         "dosage": "5mg"
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://www.kensingtonlabs.co.uk/product/adamax-5mg/",
         "price": "£49.99",
         "inStock": true,
-        "image": "/images/products/kensington-labs/adamax-10mg.webp",
+        "image": "https://www.kensingtonlabs.co.uk/wp-content/uploads/adamax-5mg.jpg",
         "dosage": "10mg"
       }
     ],
@@ -8084,10 +8084,10 @@
       },
       {
         "vendor": "Raccoon Peptides",
-        "url": "https://www.raccoonpeptides.com/collections/peptides",
+        "url": "https://www.raccoonpeptides.com/peptides/",
         "price": "£19.90",
-        "inStock": true,
-        "image": "/images/products/raccoon-peptides/mgf-2mg.webp",
+        "inStock": false,
+        "image": "https://www.raccoonpeptides.com/3-home_default/placeholder.jpg",
         "dosage": "2mg"
       }
     ],
@@ -8513,10 +8513,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/ace-031-1mg/",
         "price": "£44.95",
         "inStock": true,
-        "image": "/images/products/kensington-labs/ace031-1mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/08/Ace031-1mg.png",
         "dosage": "1mg"
       }
     ],
@@ -15002,10 +15002,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/gdf-8-1mg/",
         "price": "£74.90",
         "inStock": true,
-        "image": "/images/products/kensington-labs/gdf-8-1mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/08/GDF-8-1mg.png",
         "dosage": "1mg"
       }
     ],
@@ -15728,10 +15728,10 @@
       },
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/kisspeptin-5mg/",
         "price": "£24.95",
         "inStock": true,
-        "image": "/images/products/kensington-labs/kisspeptin-5mg.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/06/kisspeptin-10mg.png",
         "dosage": "5mg"
       },
       {
@@ -17351,10 +17351,10 @@
       },
       {
         "vendor": "Raccoon Peptides",
-        "url": "https://www.raccoonpeptides.com/collections/peptides",
+        "url": "https://www.raccoonpeptides.com/peptides/23-cagrilintide-10mg.html",
         "price": "£47.90",
         "inStock": true,
-        "image": "/images/products/raccoon-peptides/cagrilintide-10mg.webp",
+        "image": "https://www.raccoonpeptides.com/33-large_default/cagrilintide-10mg.jpg",
         "dosage": "10mg"
       }
     ],
@@ -17388,10 +17388,10 @@
       },
       {
         "vendor": "Raccoon Peptides",
-        "url": "https://www.raccoonpeptides.com/collections/peptides",
+        "url": "https://www.raccoonpeptides.com/peptides/22-cagrilintide-5mg.html",
         "price": "£24.95",
         "inStock": true,
-        "image": "/images/products/raccoon-peptides/cagrilintide-5mg.webp",
+        "image": "https://www.raccoonpeptides.com/32-large_default/cagrilintide-5mg.jpg",
         "dosage": "5mg"
       },
       {
@@ -17399,7 +17399,7 @@
         "url": "https://peptideslabuk.com",
         "price": "£149.00",
         "inStock": true,
-        "image": "/images/products/peptideslabuk/cagrilintide-5mg.webp",
+        "image": "https://peptideslabuk.com/wp-content/uploads/2025/07/Cagrilintide-10-mg-470x588.jpg",
         "dosage": "5mg"
       }
     ],
@@ -18249,10 +18249,10 @@
     "sources": [
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/b7-33-10mg/",
         "price": "£34.90",
         "inStock": true,
-        "image": "/images/products/kensington-labs/b7-33.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/08/B7-33-10mg.png",
         "dosage": "10mg"
       }
     ],
@@ -18342,10 +18342,10 @@
     "sources": [
       {
         "vendor": "Kensington Labs UK",
-        "url": "https://www.kensingtonlabs.co.uk/shop/",
+        "url": "https://kensingtonlabs.co.uk/product/acth-1-39-5mg/",
         "price": "£49.90",
         "inStock": true,
-        "image": "/images/products/kensington-labs/acth-1-39.webp",
+        "image": "https://kensingtonlabs.co.uk/wp-content/uploads/2025/08/Acth-1-39-5mg.png",
         "dosage": "5mg"
       }
     ],

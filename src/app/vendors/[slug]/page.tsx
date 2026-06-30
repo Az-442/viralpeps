@@ -185,7 +185,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   </span>
                   <span className="flex items-center gap-1">
                     <BoxIcon />
-                    <span>{vendorStats.compoundCount} products</span>
+                    <span>{vendorStats.productCount} products</span>
                   </span>
                   {vendor.founded && <span>Since {vendor.founded}</span>}
                   <span className="text-emerald-400 font-semibold text-base">From £{minPrice.toFixed(2)}</span>
