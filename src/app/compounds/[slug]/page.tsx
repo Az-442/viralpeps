@@ -214,33 +214,27 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         </div>
       </section>
 
-      {/* ===== DYNAMIC STATS BAR (full width) ===== */}
-      <div className="bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] shadow-md">
-        <div className="max-w-6xl mx-auto px-4 py-5">
-          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-            <div className="text-center">
-              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
-              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
-            </div>
-            <div className="w-px h-10 bg-blue-800/50" />
-            <div className="text-center">
-              <p className="text-2xl font-bold text-white">{allDosages.length}</p>
-              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Dosages</p>
-            </div>
-            <div className="w-px h-10 bg-blue-800/50" />
-            <div className="text-center">
-              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
-              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* ===== MAIN CONTENT ===== */}
       <div className="max-w-6xl mx-auto px-4 py-6">
         {/* FEATURED SUPPLIER */}
         {featured && featuredVendor && (
-          <div className="bg-gradient-to-r from-amber-50 via-white to-white border-2 border-amber-300 rounded-xl p-5 mb-8 shadow-lg shadow-amber-200/30">
+          <div className="relative bg-gradient-to-br from-amber-50 via-white to-amber-50/60 rounded-xl p-5 mb-6 overflow-hidden shadow-[0_0_25px_rgba(217,119,6,0.25)] border-2 border-transparent bg-clip-padding">
+            {/* Animated glow border */}
+            <div className="absolute inset-0 rounded-xl" style={{
+              background: 'linear-gradient(135deg, #f59e0b, #d97706, #f59e0b, #fbbf24, #f59e0b)',
+              backgroundSize: '400% 400%',
+              padding: '2px',
+              WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+              WebkitMaskComposite: 'xor',
+              maskComposite: 'exclude',
+              animation: 'gradientShift 3s ease infinite'
+            }} />
+            {/* Corner accents */}
+            <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-amber-400 rounded-tl-lg" />
+            <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-amber-400 rounded-tr-lg" />
+            <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-amber-400 rounded-bl-lg" />
+            <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-amber-400 rounded-br-lg" />
+            <style>{`@keyframes gradientShift { 0%,100% { background-position: 0% 50% } 50% { background-position: 100% 50% } }`}</style>
             <div className="flex items-center gap-2 mb-3">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="#d97706">
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -298,6 +292,28 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             )}
           </div>
         )}
+
+        {/* ===== DYNAMIC STATS BAR (below featured) ===== */}
+        <div className="bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] shadow-lg rounded-xl mb-6">
+          <div className="px-4 py-5">
+            <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+              <div className="text-center">
+                <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+                <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
+              </div>
+              <div className="w-px h-10 bg-blue-800/50" />
+              <div className="text-center">
+                <p className="text-2xl font-bold text-white">{allDosages.length}</p>
+                <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Dosages</p>
+              </div>
+              <div className="w-px h-10 bg-blue-800/50" />
+              <div className="text-center">
+                <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+                <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* ===== CLIENT-SIDE INTERACTIVE CONTENT ===== */}
         <CompoundPageClient

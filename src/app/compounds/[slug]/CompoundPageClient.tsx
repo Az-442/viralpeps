@@ -91,6 +91,9 @@ export default function CompoundPageClient({
   const [sortBy, setSortBy] = useState<"price-low" | "price-high" | "rating">("price-low");
   const [selectedVendors, setSelectedVendors] = useState<Set<string>>(new Set());
 
+  // Compare mode — active when 2+ vendors selected
+  const isCompareMode = selectedVendors.size >= 2;
+
   // Toggle vendor selection for comparison
   const toggleVendor = (name: string) => {
     setSelectedVendors((prev) => {
@@ -101,9 +104,16 @@ export default function CompoundPageClient({
     });
   };
 
+  const clearSelected = () => setSelectedVendors(new Set());
+
   // Filter & sort sources
   const displayedSources = useMemo(() => {
     let list = [...sortedSources];
+
+    // Compare mode — filter to only selected vendors
+    if (isCompareMode) {
+      list = list.filter((s) => selectedVendors.has(s.vendor));
+    }
 
     // Filter by dosage (when we have dosage data per source)
     if (selectedDosage !== "all") {
@@ -140,7 +150,7 @@ export default function CompoundPageClient({
       }
     }
     return list;
-  }, [sortedSources, selectedDosage, sortBy, vendors]);
+  }, [sortedSources, selectedDosage, sortBy, vendors, isCompareMode, selectedVendors]);
 
   // Stats
   const supplierCount = compound.sources.length;
@@ -340,10 +350,39 @@ export default function CompoundPageClient({
                 Compare {productCount} prices for {compound.name}. Cheapest: <strong className="text-green-600">&pound;{minPrice.toFixed(2)}</strong>. Average: <strong>&pound;{avgPrice.toFixed(2)}</strong>.
               </p>
               {selectedVendors.size > 0 && (
-                <div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-                  <p className="text-xs font-semibold text-blue-700 mb-2">
-                    Comparing {selectedVendors.size} supplier{selectedVendors.size > 1 ? "s" : ""} — select rows and scroll to compare side-by-side
-                  </p>
+                <div className={`mb-4 p-4 rounded-lg border-2 transition-all ${
+                  isCompareMode
+                    ? 'bg-indigo-50 border-indigo-300 shadow-md'
+                    : 'bg-blue-50 border-blue-200'
+                }`}>
+                  <div className="flex items-center justify-between mb-2">
+                    <p className="text-sm font-bold text-indigo-700">
+                      {isCompareMode ? (
+                        <>🔍 Compare Mode — {selectedVendors.size} suppliers side-by-side</>
+                      ) : (
+                        <>{selectedVendors.size} supplier selected — select another to compare</>
+                      )}
+                    </p>
+                    <button
+                      onClick={clearSelected}
+                      className="text-[11px] font-semibold text-gray-500 hover:text-gray-700 bg-white border border-gray-200 hover:border-gray-300 px-2.5 py-1 rounded-lg transition-colors"
+                    >
+                      Clear all
+                    </button>
+                  </div>
+                  {isCompareMode && (
+                    <div className="flex flex-wrap gap-2">
+                      {Array.from(selectedVendors).map((name) => {
+                        const v = vendors.find((x) => x.name === name);
+                        return (
+                          <span key={name} className="inline-flex items-center gap-1.5 text-xs font-medium text-indigo-700 bg-indigo-100 border border-indigo-200 px-2.5 py-1 rounded-full">
+                            {v?.name || name}
+                            <button onClick={() => toggleVendor(name)} className="text-indigo-400 hover:text-indigo-600 ml-0.5">&times;</button>
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
               )}
             </div>

@@ -18,19 +18,15 @@ export default function ProductImage({ vendorSlug, compoundSlug, compoundName }:
       // Try .jpg next
       img.src = `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
     } else if (currentSrc.endsWith(".jpg")) {
-      // Try generic vendor image
-      img.src = `/images/products/${vendorSlug}/ukp-generic.webp`;
-    } else if (currentSrc.includes("ukp-generic")) {
-      // Try compound PNG first
+      // Try vendor generic fallback
+      img.src = `/images/vendors/${vendorSlug}.webp`;
+    } else if (currentSrc.includes("vendors/") && currentSrc.endsWith(".webp")) {
+      // Try compound image
       img.src = `/images/compounds/${compoundSlug}.png`;
-      img.className = "w-7 h-7 object-contain";
-    } else if (currentSrc.endsWith(".png") && currentSrc.includes("/images/compounds/")) {
-      // PNG failed too - fall back to compound SVG
-      img.src = `/images/compounds/${compoundSlug}.svg`;
-      img.className = "w-7 h-7 object-contain";
+      img.className = "w-10 h-10 object-contain";
       img.onerror = null;
     } else if (currentSrc.includes("/images/compounds/")) {
-      // SVG also failed - clear handler
+      // Compound image failed — clear handler, show nothing
       img.onerror = null;
     }
   };
