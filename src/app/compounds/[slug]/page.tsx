@@ -214,6 +214,28 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         </div>
       </section>
 
+      {/* ===== DYNAMIC STATS BAR (full width) ===== */}
+      <div className="bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] shadow-md">
+        <div className="max-w-6xl mx-auto px-4 py-5">
+          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+            <div className="text-center">
+              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
+            </div>
+            <div className="w-px h-10 bg-blue-800/50" />
+            <div className="text-center">
+              <p className="text-2xl font-bold text-white">{allDosages.length}</p>
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Dosages</p>
+            </div>
+            <div className="w-px h-10 bg-blue-800/50" />
+            <div className="text-center">
+              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* ===== MAIN CONTENT ===== */}
       <div className="max-w-6xl mx-auto px-4 py-6">
         {/* FEATURED SUPPLIER */}

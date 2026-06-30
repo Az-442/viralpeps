@@ -309,26 +309,6 @@ export default function CompoundPageClient({
         </div>
       </div>
 
-      {/* ===== DYNAMIC STATS BAR ===== */}
-      <div className="bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] rounded-xl p-5 mb-6 shadow-md">
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-          <div className="text-center">
-            <p className="text-2xl font-bold text-white">{supplierCount}</p>
-            <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
-          </div>
-          <div className="w-px h-10 bg-blue-800/50" />
-          <div className="text-center">
-            <p className="text-2xl font-bold text-white">{dosageCount}</p>
-            <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Dosages</p>
-          </div>
-          <div className="w-px h-10 bg-blue-800/50" />
-          <div className="text-center">
-            <p className="text-2xl font-bold text-white">{productCount}</p>
-            <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
-          </div>
-        </div>
-      </div>
-
       {/* ===== INFO TABS ===== */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
         {/* Tab navigation - pill style */}
