@@ -183,20 +183,20 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
           {/* Stats row - pill format matching benefit pills */}
           <div className="flex flex-wrap items-center gap-2 md:gap-3">
-            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
-              <span className="text-[10px] text-blue-300 uppercase tracking-widest">Suppliers</span>
+            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Suppliers</span>
               <span className="font-bold text-white">{compound.sources.length}</span>
             </span>
-            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
-              <span className="text-[10px] text-blue-300 uppercase tracking-widest">From</span>
+            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">From</span>
               <span className="font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</span>
             </span>
-            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
-              <span className="text-[10px] text-blue-300 uppercase tracking-widest">Average</span>
+            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Average</span>
               <span className="font-bold text-white">&pound;{avgPrice.toFixed(2)}</span>
             </span>
-            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
-              <span className="text-[10px] text-blue-300 uppercase tracking-widest">Products</span>
+            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Products</span>
               <span className="font-bold text-white">{compound.sources.length}</span>
             </span>
             <div className="ml-auto">
