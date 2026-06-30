@@ -215,10 +215,10 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       </section>
 
       {/* ===== MAIN CONTENT ===== */}
-      <div className="max-w-6xl mx-auto px-4 py-6">
+      <div className="max-w-6xl mx-auto px-4 pt-6 pb-2">
         {/* FEATURED SUPPLIER */}
         {featured && featuredVendor && (
-          <div className="relative bg-gradient-to-br from-amber-50 via-white to-amber-50/60 rounded-xl p-5 mb-6 overflow-hidden shadow-[0_0_25px_rgba(217,119,6,0.25)] border-2 border-transparent bg-clip-padding">
+          <div className="relative bg-gradient-to-br from-amber-50 via-white to-amber-50/60 rounded-xl p-8 mb-8 overflow-hidden shadow-[0_0_35px_rgba(217,119,6,0.3)] border-2 border-transparent bg-clip-padding">
             {/* Animated glow border */}
             <div className="absolute inset-0 rounded-xl" style={{
               background: 'linear-gradient(135deg, #f59e0b, #d97706, #f59e0b, #fbbf24, #f59e0b)',
@@ -229,93 +229,96 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
               maskComposite: 'exclude',
               animation: 'gradientShift 3s ease infinite'
             }} />
-            {/* Corner accents */}
-            <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-amber-400 rounded-tl-lg" />
-            <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-amber-400 rounded-tr-lg" />
-            <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-amber-400 rounded-bl-lg" />
-            <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-amber-400 rounded-br-lg" />
+            {/* Thicker corner accents */}
+            <div className="absolute top-0 left-0 w-10 h-10 border-t-[3px] border-l-[3px] border-amber-400 rounded-tl-lg" />
+            <div className="absolute top-0 right-0 w-10 h-10 border-t-[3px] border-r-[3px] border-amber-400 rounded-tr-lg" />
+            <div className="absolute bottom-0 left-0 w-10 h-10 border-b-[3px] border-l-[3px] border-amber-400 rounded-bl-lg" />
+            <div className="absolute bottom-0 right-0 w-10 h-10 border-b-[3px] border-r-[3px] border-amber-400 rounded-br-lg" />
             <style>{`@keyframes gradientShift { 0%,100% { background-position: 0% 50% } 50% { background-position: 100% 50% } }`}</style>
-            <div className="flex items-center gap-2 mb-3">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="#d97706">
+            <div className="flex items-center gap-2 mb-4">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#d97706">
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
               </svg>
-              <span className="text-xs font-bold text-amber-700 uppercase tracking-wider">Featured Supplier</span>
+              <span className="text-sm font-bold text-amber-700 uppercase tracking-wider">Featured Supplier</span>
             </div>
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
+            <div className="flex flex-wrap items-center justify-between gap-5">
+              <div className="flex items-center gap-5">
+                <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
                   <ProductImage vendorSlug={featuredVendor.slug} compoundSlug={slug} compoundName={compound?.name || featuredVendor.name} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 text-sm">{featuredVendor.name}</h3>
-                  <div className="flex items-center gap-2 mt-0.5">
+                  <h3 className="font-semibold text-gray-900 text-base">{featuredVendor.name}</h3>
+                  <div className="flex items-center gap-2 mt-1">
                     <StarRating rating={featuredVendor.rating} />
-                    <span className="text-xs text-gray-500">{featuredVendor.rating}</span>
+                    <span className="text-sm text-gray-500">{featuredVendor.rating}</span>
                     <span className="text-xs text-gray-300">|</span>
-                    <span className="text-xs text-gray-500">{featuredVendor.country}</span>
+                    <span className="text-sm text-gray-500">{featuredVendor.country}</span>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap items-center gap-3">
+              <div className="flex flex-wrap items-center gap-4">
                 {featuredVendor.verified && (
-                  <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-50 border border-green-200 px-2 py-1 rounded-full">
-                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 px-3 py-1.5 rounded-full">
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
                     Lab Tested
                   </span>
                 )}
                 {featured.inStock !== false && (
-                  <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-1 rounded-full">
-                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1.5 rounded-full">
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
                     In Stock
                   </span>
                 )}
               </div>
               <div className="text-right">
-                <div className="text-xl font-bold text-gray-900">{featured.price}</div>
-                <p className="text-[10px] text-gray-400">FREE delivery</p>
+                <div className="text-2xl font-bold text-gray-900">{featured.price}</div>
+                <p className="text-xs text-gray-400">FREE delivery</p>
                 <a
                   href={featured.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-1.5 px-5 py-2 bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold rounded-lg transition-colors"
+                  className="inline-block mt-2 px-6 py-2.5 bg-amber-600 hover:bg-amber-500 text-white text-sm font-bold rounded-lg transition-colors shadow-md"
                 >
                   View Deal
                 </a>
               </div>
             </div>
             {featuredVendor.highlights && featuredVendor.highlights.length > 0 && (
-              <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-gray-100">
+              <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-gray-100">
                 {featuredVendor.highlights.slice(0, 3).map((h: string) => (
-                  <span key={h} className="text-[10px] text-gray-600 bg-white border border-gray-200 px-2 py-0.5 rounded-full">{h}</span>
+                  <span key={h} className="text-xs text-gray-600 bg-white border border-gray-200 px-3 py-1 rounded-full">{h}</span>
                 ))}
               </div>
             )}
           </div>
         )}
 
-        {/* ===== DYNAMIC STATS BAR (below featured) ===== */}
-        <div className="bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] shadow-lg rounded-xl mb-6">
-          <div className="px-4 py-5">
-            <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-              <div className="text-center">
-                <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
-                <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
-              </div>
-              <div className="w-px h-10 bg-blue-800/50" />
-              <div className="text-center">
-                <p className="text-2xl font-bold text-white">{allDosages.length}</p>
-                <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Dosages</p>
-              </div>
-              <div className="w-px h-10 bg-blue-800/50" />
-              <div className="text-center">
-                <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
-                <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
-              </div>
+      </div>{/* END max-w-6xl */}
+
+      {/* ===== DYNAMIC STATS BAR (full-width) ===== */}
+      <div className="w-full bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] shadow-lg mb-6">
+        <div className="max-w-6xl mx-auto px-4 py-5">
+          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+            <div className="text-center">
+              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
+            </div>
+            <div className="w-px h-10 bg-blue-800/50" />
+            <div className="text-center">
+              <p className="text-2xl font-bold text-white">{allDosages.length}</p>
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Dosages</p>
+            </div>
+            <div className="w-px h-10 bg-blue-800/50" />
+            <div className="text-center">
+              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+              <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
             </div>
           </div>
         </div>
+      </div>
 
-        {/* ===== CLIENT-SIDE INTERACTIVE CONTENT ===== */}
+      {/* ===== CLIENT CONTENT ===== */}
+      <div className="max-w-6xl mx-auto px-4 py-6 pb-20">
         <CompoundPageClient
           compound={JSON.parse(JSON.stringify(compound))}
           vendors={JSON.parse(JSON.stringify(vendors))}
