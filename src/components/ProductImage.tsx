@@ -21,10 +21,10 @@ export default function ProductImage({
   const currentSrc = (() => {
     const step = fallbackStep;
     if (step === 0 && sourceImageUrl) return sourceImageUrl;
-    if (step <= 1) return `/images/products/${vendorSlug}/${compoundSlug}.webp`;
-    if (step === 2) return `/images/products/${vendorSlug}/${compoundSlug}.png`;
-    if (step === 3) return `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
-    if (step === 4) return `/images/vendors/${vendorSlug}.png`;
+    if (step === 0) return `/images/products/${vendorSlug}/${compoundSlug}.webp`;
+    if (step === 1) return `/images/products/${vendorSlug}/${compoundSlug}.png`;
+    if (step === 2) return `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
+    if (step === 3) return `/images/vendors/${vendorSlug}.png`;
     return `/images/compounds/${compoundSlug}.png`;
   })();
 
