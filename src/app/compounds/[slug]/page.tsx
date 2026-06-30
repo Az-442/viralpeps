@@ -191,30 +191,30 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </div>
 
             {/* Desktop: compact square pill box on the right */}
-            <div className="hidden md:block md:flex-shrink-0">
-              <div className="bg-blue-900/20 border border-blue-400/20 rounded-2xl p-4 w-48">
-                <div className="grid grid-cols-2 gap-y-2 gap-x-1">
+            <div className="hidden md:block md:flex-shrink-0 md:self-center">
+              <div className="bg-blue-900/20 border border-blue-400/20 rounded-2xl p-5 w-56">
+                <div className="grid grid-cols-2 gap-y-3 gap-x-2">
                   <div className="text-center">
-                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
-                    <p className="text-xl font-bold text-white">{uniqueSuppliers}</p>
+                    <p className="text-xs text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
+                    <p className="text-2xl font-bold text-white mt-0.5">{uniqueSuppliers}</p>
                   </div>
                   <div className="text-center">
-                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">From</p>
-                    <p className="text-xl font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</p>
+                    <p className="text-xs text-blue-300 uppercase tracking-wider font-semibold">From</p>
+                    <p className="text-2xl font-bold text-emerald-400 mt-0.5">&pound;{minPrice.toFixed(2)}</p>
                   </div>
                   <div className="text-center">
-                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Average</p>
-                    <p className="text-xl font-bold text-white">&pound;{avgPrice.toFixed(2)}</p>
+                    <p className="text-xs text-blue-300 uppercase tracking-wider font-semibold">Average</p>
+                    <p className="text-2xl font-bold text-white mt-0.5">&pound;{avgPrice.toFixed(2)}</p>
                   </div>
                   <div className="text-center">
-                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
-                    <p className="text-xl font-bold text-white">{totalProducts}</p>
+                    <p className="text-xs text-blue-300 uppercase tracking-wider font-semibold">Products</p>
+                    <p className="text-2xl font-bold text-white mt-0.5">{totalProducts}</p>
                   </div>
                 </div>
-                <div className="mt-2 pt-2 border-t border-blue-400/15 text-center">
-                  <a href="#pricing-table" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white/15 hover:bg-white/25 text-white text-[11px] font-semibold rounded-full transition-colors">
+                <div className="mt-3 pt-3 border-t border-blue-400/15 text-center">
+                  <a href="#pricing-table" className="inline-flex items-center gap-1.5 px-4 py-2 bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white text-sm font-bold rounded-full transition-colors shadow-sm">
                     See all prices
-                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
                     </svg>
                   </a>
