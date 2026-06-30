@@ -153,37 +153,75 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       {/* ===== HERO BANNER ===== */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white">
         <div className="max-w-6xl mx-auto px-4 py-10 md:py-16 lg:py-20">
-          {/* Badges row */}
-          <div className="flex flex-wrap items-center gap-2 mb-4">
-            <span className="text-[10px] font-bold text-emerald-300 bg-emerald-900/40 px-2.5 py-1 rounded-full uppercase tracking-widest">
-              LIVE PRICE COMPARISON
-            </span>
-            <span className={`text-[10px] font-bold ${accent.badge.replace('text-', 'text-').replace('bg-', 'bg-')} px-2 py-1 rounded-full uppercase tracking-wider`}>
-              {categoryLabel}
-            </span>
-          </div>
-
-          {/* Title + subtitle */}
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
-            {compound.name} Price Comparison
-          </h1>
-          <p className="text-blue-200 text-sm md:text-base max-w-2xl leading-relaxed mb-5">
-            Compare live {compound.name} prices from every UK supplier — side-by-side in seconds so you never overpay.
-          </p>
-
-          {/* Benefit pills */}
-          {compound.researchAreas && compound.researchAreas.length > 0 && (
-            <div className="flex flex-wrap gap-2 mb-5">
-              {compound.researchAreas.slice(0, 6).map((area: string) => (
-                <span key={area} className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1 rounded-full">
-                  <svg className="w-3 h-3 text-emerald-400" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                  </svg>
-                  {area}
+          {/* Desktop: flex row with left content + right stats pill box */}
+          <div className="flex flex-col md:flex-row md:items-start md:gap-8">
+            {/* Left: Badges, title, subtitle, benefit pills */}
+            <div className="flex-1 min-w-0">
+              {/* Badges row */}
+              <div className="flex flex-wrap items-center gap-2 mb-4">
+                <span className="text-[10px] font-bold text-emerald-300 bg-emerald-900/40 px-2.5 py-1 rounded-full uppercase tracking-widest">
+                  LIVE PRICE COMPARISON
                 </span>
-              ))}
+                <span className={`text-[10px] font-bold ${accent.badge.replace('text-', 'text-').replace('bg-', 'bg-')} px-2 py-1 rounded-full uppercase tracking-wider`}>
+                  {categoryLabel}
+                </span>
+              </div>
+
+              {/* Title + subtitle */}
+              <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
+                {compound.name} Price Comparison
+              </h1>
+              <p className="text-blue-200 text-sm md:text-base max-w-2xl leading-relaxed mb-5">
+                Compare live {compound.name} prices from every UK supplier — side-by-side in seconds so you never overpay.
+              </p>
+
+              {/* Benefit pills */}
+              {compound.researchAreas && compound.researchAreas.length > 0 && (
+                <div className="flex flex-wrap gap-2 mb-5">
+                  {compound.researchAreas.slice(0, 6).map((area: string) => (
+                    <span key={area} className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1 rounded-full">
+                      <svg className="w-3 h-3 text-emerald-400" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                      </svg>
+                      {area}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
-          )}
+
+            {/* Desktop: compact square pill box on the right */}
+            <div className="hidden md:block md:flex-shrink-0">
+              <div className="bg-blue-900/20 border border-blue-400/20 rounded-2xl p-4 w-48">
+                <div className="grid grid-cols-2 gap-y-2 gap-x-1">
+                  <div className="text-center">
+                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
+                    <p className="text-xl font-bold text-white">{uniqueSuppliers}</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">From</p>
+                    <p className="text-xl font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Average</p>
+                    <p className="text-xl font-bold text-white">&pound;{avgPrice.toFixed(2)}</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
+                    <p className="text-xl font-bold text-white">{totalProducts}</p>
+                  </div>
+                </div>
+                <div className="mt-2 pt-2 border-t border-blue-400/15 text-center">
+                  <a href="#pricing-table" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white/15 hover:bg-white/25 text-white text-[11px] font-semibold rounded-full transition-colors">
+                    See all prices
+                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* ===== MOBILE: 3-box symmetric row matching reference site ===== */}
           <div className="flex md:hidden items-stretch gap-2 mt-4">
@@ -201,36 +239,6 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 <polyline points="6 9 12 15 18 9" />
               </svg>
             </a>
-          </div>
-
-          {/* ===== DESKTOP: Stacked CTA card ===== */}
-          <div className="hidden md:flex md:flex-col md:bg-blue-900/20 md:rounded-2xl md:border md:border-blue-400/20 md:p-6 md:mt-3">
-            <div className="flex flex-wrap items-center justify-center gap-3">
-              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
-                <span className="text-xs text-blue-300 uppercase tracking-widest">Suppliers</span>
-                <span className="font-bold text-white">{uniqueSuppliers}</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
-                <span className="text-xs text-blue-300 uppercase tracking-widest">From</span>
-                <span className="font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
-                <span className="text-xs text-blue-300 uppercase tracking-widest">Average</span>
-                <span className="font-bold text-white">&pound;{avgPrice.toFixed(2)}</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 text-sm text-blue-100 bg-white/10 border border-white/20 px-4 py-2 rounded-full">
-                <span className="text-xs text-blue-300 uppercase tracking-widest">Products</span>
-                <span className="font-bold text-white">{totalProducts}</span>
-              </span>
-            </div>
-            <div className="flex justify-center mt-3">
-              <a href="#pricing-table" className="inline-flex items-center gap-1.5 px-4 py-2 bg-white/15 hover:bg-white/25 text-white text-xs font-semibold rounded-full transition-colors border border-white/20">
-                See all prices
-                <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
-                </svg>
-              </a>
-            </div>
           </div>
 
           {/* Disclaimer */}
