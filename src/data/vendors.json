@@ -269,5 +269,67 @@
     "lastTested": "2026-06-20",
     "labTested": false,
     "featured": false
+  },
+  {
+    "id": "raccoon-peptides",
+    "name": "Raccoon Peptides",
+    "slug": "raccoon-peptides",
+    "website": "https://www.raccoonpeptides.com",
+    "rating": 4.9,
+    "verified": true,
+    "founded": 2022,
+    "country": "UK",
+    "description": "Premium UK peptide supplier with 95+ products independently lab-tested via HPLC and mass spectrometry. 4.9/5 rating. Known for fast delivery, discreet packaging, exceptional customer service and value pricing.",
+    "highlights": [
+      "4.9/5 rating",
+      "Lab tested (Janoshik/HPLC)",
+      "95+ products",
+      "Fast UK delivery",
+      "Discreet packaging",
+      "Free over £100"
+    ],
+    "shipping": [
+      "UK free over £100",
+      "Royal Mail Tracked 24",
+      "International tracked"
+    ],
+    "payment": [
+      "Cards",
+      "PayPal",
+      "Google Pay"
+    ],
+    "lastTested": "2026-06-29",
+    "labTested": true
+  },
+  {
+    "id": "kensington-labs",
+    "name": "Kensington Labs UK",
+    "slug": "kensington-labs",
+    "website": "https://www.kensingtonlabs.co.uk",
+    "rating": 4.6,
+    "verified": true,
+    "founded": 2021,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering a curated catalog of 74 premium-grade compounds. Trustpilot-rated 4.6/5. All products independently lab-tested with COAs per batch. Free next-day delivery on all orders.",
+    "highlights": [
+      "4.6/5 rating",
+      "Lab tested (Janoshik)",
+      "74 products",
+      "Free next-day delivery",
+      "Volume discounts (up to 10% off)",
+      "COA per batch"
+    ],
+    "shipping": [
+      "UK free next-day (orders before 1:30pm Mon-Fri)",
+      "International via kensingtonlabs.shop"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "2026-06-28",
+    "labTested": true
   }
 ]
