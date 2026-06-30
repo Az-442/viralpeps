@@ -4326,7 +4326,12 @@
     "purity": "\u226599%",
     "form": "Research solution (10 mL)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Lipotropic research",
+      "Fat metabolism",
+      "Liver health",
+      "Lipid research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4361,7 +4366,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Neuroprotection",
+      "Cognitive function",
+      "Brain health",
+      "Anti-aging",
+      "Neural regeneration"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4403,7 +4414,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (5mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Pain research",
+      "Opioid research",
+      "Analgesic research",
+      "Mu-opioid receptor",
+      "Neuromodulation"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4438,7 +4455,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (5mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Exercise mimetic",
+      "Metabolic research",
+      "Fat oxidation",
+      "Muscle endurance",
+      "ERR receptor research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4486,7 +4509,12 @@
     "purity": "\u226599%",
     "form": "Research solution (10 mL)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Mitochondrial research",
+      "Fat oxidation",
+      "Energy metabolism",
+      "Carnitine transport"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4528,7 +4556,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (50mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "NNMT inhibition",
+      "Metabolic research",
+      "Anti-aging",
+      "Weight management",
+      "Cellular metabolism"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4585,7 +4619,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (5mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Antimicrobial",
+      "Immunomodulation",
+      "Wound healing",
+      "Anti-inflammatory",
+      "Epithelial repair"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4634,7 +4674,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Thymus function",
+      "Immunomodulation",
+      "Anti-aging",
+      "T-cell maturation",
+      "Immune senescence"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4690,7 +4736,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (5mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Vasoactive research",
+      "Neuropeptide research",
+      "Inflammation",
+      "Circadian rhythm",
+      "Autoimmune research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4747,7 +4799,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (50mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "AMPK activation",
+      "Metabolic research",
+      "Exercise mimetic",
+      "Insulin sensitivity",
+      "Cardioprotection"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4789,7 +4847,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (5mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Cognitive enhancement",
+      "Neuroprotection",
+      "Memory",
+      "Alzheimer's research",
+      "Synaptic plasticity"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4831,7 +4895,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (1500mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Antioxidant",
+      "Liver health",
+      "Detoxification",
+      "Immune support",
+      "Cellular protection"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4880,7 +4950,12 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (5mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Cancer research",
+      "p53 pathway",
+      "Apoptosis research",
+      "Membrane-targeting peptide"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4915,7 +4990,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Serotonin research",
+      "Depression",
+      "Anxiety",
+      "Mood regulation",
+      "5-HT receptor research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4950,7 +5031,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (100mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Wound healing",
+      "Skin regeneration",
+      "Anti-aging",
+      "Copper peptide research",
+      "Antioxidant"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -4999,7 +5086,12 @@
     "purity": "\u226599%",
     "form": "Research solution (10 mL)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Cellular energy",
+      "Methylation",
+      "Neurological function",
+      "Homocysteine research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5034,7 +5126,12 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (20mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Cartilage research",
+      "Joint health",
+      "Tissue repair",
+      "Chondroprotection"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5083,7 +5180,11 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Chondroprotective research",
+      "Joint health",
+      "Cartilage repair"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5118,7 +5219,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (20mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Cosmetic research",
+      "Collagen synthesis",
+      "Skin health",
+      "Anti-wrinkle",
+      "Extracellular matrix"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5154,7 +5261,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (2mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Muscle repair",
+      "Satellite cell activation",
+      "Tissue regeneration",
+      "Recovery",
+      "Muscle hypertrophy"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5210,7 +5323,12 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (20mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Ovarian research",
+      "Reproductive health",
+      "Female fertility",
+      "Oogenesis research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5245,7 +5363,11 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Pancreatic research",
+      "Digestive health",
+      "Endocrine research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5287,7 +5409,12 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Testicular research",
+      "Male reproductive health",
+      "Spermatogenesis",
+      "Androgen research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5322,7 +5449,11 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Vascular research",
+      "Blood vessel health",
+      "Endothelial function"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5371,7 +5502,12 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (20mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Pulmonary research",
+      "Respiratory health",
+      "Lung function",
+      "Bronchial research"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5406,7 +5542,13 @@
     "purity": "\u226599%",
     "form": "Lyophilized powder (10mg)",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Synaptic plasticity",
+      "Cognitive function",
+      "Neural repair",
+      "NCAM research",
+      "Neuroregeneration"
+    ],
     "commonDosages": [],
     "sources": [
       {
@@ -5546,7 +5688,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Myostatin inhibition",
+      "Muscle growth",
+      "Muscle wasting",
+      "Sarcopenia",
+      "Cachexia"
     ],
     "commonDosages": [],
     "sources": [
@@ -5576,7 +5722,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Lab supplies",
+      "Buffer preparation",
+      "pH adjustment",
+      "Research solvent"
     ],
     "commonDosages": [],
     "sources": [
@@ -5637,7 +5786,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Fat loss",
+      "Obesity research",
+      "Apoptosis research",
+      "Angiogenesis inhibition"
     ],
     "commonDosages": [],
     "sources": [
@@ -5667,7 +5819,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "NNMT inhibition",
+      "Metabolic research",
+      "Anti-aging",
+      "Weight management",
+      "Cellular metabolism"
     ],
     "commonDosages": [],
     "sources": [
@@ -5822,7 +5978,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Growth hormone research",
+      "Muscle growth",
+      "Anti-aging",
+      "GH secretagogue research",
+      "Recovery"
     ],
     "commonDosages": [],
     "sources": [
@@ -5883,7 +6043,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Cosmetic research",
+      "Skin health",
+      "Collagen synthesis",
+      "Tissue regeneration",
+      "Anti-aging"
     ],
     "commonDosages": [],
     "sources": [
@@ -5913,7 +6077,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Comprehensive peptide research",
+      "Multi-target research",
+      "Anti-aging",
+      "Metabolic health"
     ],
     "commonDosages": [],
     "sources": [
@@ -5943,7 +6110,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Mitochondrial health",
+      "Cellular energy",
+      "Anti-aging",
+      "Mitochondrial biogenesis"
     ],
     "commonDosages": [],
     "sources": [
@@ -5973,7 +6143,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Cartilage research",
+      "Joint health",
+      "Tissue repair",
+      "Chondroprotection"
     ],
     "commonDosages": [],
     "sources": [
@@ -6314,7 +6487,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Antioxidant",
+      "Liver health",
+      "Detoxification",
+      "Immune support",
+      "Cellular protection"
     ],
     "commonDosages": [],
     "sources": [
@@ -6345,7 +6522,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "GnRH research",
+      "Hormonal research",
+      "Reproductive endocrinology",
+      "Pituitary research"
     ],
     "commonDosages": [],
     "sources": [
@@ -6406,7 +6586,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Fertility research",
+      "Gonadotropin research",
+      "Reproductive health",
+      "Follicle research"
     ],
     "commonDosages": [],
     "sources": [
@@ -6684,7 +6867,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Antimicrobial",
+      "Immunomodulation",
+      "Wound healing",
+      "Anti-inflammatory",
+      "Epithelial repair"
     ],
     "commonDosages": [],
     "sources": [
@@ -6963,7 +7150,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Muscle repair",
+      "Satellite cell activation",
+      "Tissue regeneration",
+      "Recovery",
+      "IGF-1 research"
     ],
     "commonDosages": [],
     "sources": [
@@ -6993,7 +7184,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Lab supplies",
+      "Buffer solution",
+      "Cell culture",
+      "Diluent"
     ],
     "commonDosages": [],
     "sources": [
@@ -7347,7 +7541,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Thymus function",
+      "Immunomodulation",
+      "Anti-aging",
+      "T-cell maturation",
+      "Immune senescence"
     ],
     "commonDosages": [],
     "sources": [
@@ -7564,7 +7762,10 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Thymus peptide research",
+      "Immunomodulation",
+      "T-cell research",
+      "Thymic function"
     ],
     "commonDosages": [],
     "sources": [
@@ -7594,7 +7795,11 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Vasoactive research",
+      "Neuropeptide research",
+      "Inflammation",
+      "Circadian rhythm",
+      "Autoimmune research"
     ],
     "commonDosages": [],
     "sources": [
@@ -7656,7 +7861,9 @@
     "form": "Various",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Vascular research",
+      "Endothelial health",
+      "Blood vessel function"
     ],
     "commonDosages": [],
     "sources": [
@@ -7686,7 +7893,10 @@
     "form": "Lyophilized powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Cardiac research",
+      "Heart health",
+      "Cardiovascular research",
+      "Myocardial repair"
     ],
     "commonDosages": [],
     "sources": [
@@ -7747,7 +7957,11 @@
     "form": "Lyophilized powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Cognitive research",
+      "Neuroprotection",
+      "Brain health",
+      "Neural repair",
+      "Cerebrovascular research"
     ],
     "commonDosages": [],
     "sources": [
@@ -7839,7 +8053,10 @@
     "form": "Lyophilized powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Lab supplies",
+      "Buffer preparation",
+      "pH adjustment",
+      "Research solvent"
     ],
     "commonDosages": [],
     "sources": [
@@ -8021,7 +8238,9 @@
     "form": "Lyophilized powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "NNMT inhibition",
+      "Metabolic research",
+      "Weight management"
     ],
     "commonDosages": [],
     "sources": [
@@ -8052,7 +8271,10 @@
     "form": "Lyophilized powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Cognitive enhancement",
+      "Neural signalling",
+      "Memory research",
+      "Synaptic research"
     ],
     "commonDosages": [],
     "sources": [
@@ -8175,7 +8397,10 @@
     "form": "Lyophilized powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Muscle repair",
+      "Satellite cell activation",
+      "Tissue regeneration",
+      "Recovery"
     ],
     "commonDosages": [],
     "sources": [
@@ -8390,7 +8615,12 @@
     "form": "Lyophilized powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "GH stimulation",
+      "Anti-aging",
+      "Muscle growth",
+      "Long-acting GHRH",
+      "Bone density",
+      "Recovery"
     ],
     "commonDosages": [],
     "sources": [
@@ -9844,7 +10074,11 @@
     "form": "Lyophilised powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Muscle repair",
+      "Satellite cell activation",
+      "Tissue regeneration",
+      "Recovery",
+      "IGF-1 research"
     ],
     "commonDosages": [],
     "sources": [
@@ -10464,7 +10698,11 @@
     "form": "Lyophilised powder",
     "halfLife": "N/A",
     "researchAreas": [
-      "General research"
+      "Exercise mimetic",
+      "Metabolic research",
+      "Fat oxidation",
+      "Muscle endurance",
+      "ERR receptor research"
     ],
     "commonDosages": [],
     "sources": [
@@ -12536,7 +12774,13 @@
     "purity": "",
     "form": "",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Thymus function",
+      "Immunomodulation",
+      "Anti-aging",
+      "T-cell maturation",
+      "Immune senescence"
+    ],
     "commonDosages": [],
     "longDescription": "",
     "mechanism": ""
@@ -13308,7 +13552,11 @@
     "purity": "",
     "form": "",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Multi-compound research",
+      "Synergistic peptide research",
+      "Custom blend research"
+    ],
     "commonDosages": [],
     "longDescription": "",
     "mechanism": "",
@@ -14663,7 +14911,13 @@
     "purity": "",
     "form": "",
     "halfLife": "",
-    "researchAreas": [],
+    "researchAreas": [
+      "Exercise mimetic",
+      "Metabolic research",
+      "Fat oxidation",
+      "Muscle endurance",
+      "ERR receptor research"
+    ],
     "commonDosages": [],
     "longDescription": "",
     "mechanism": "",
