@@ -1740,6 +1740,1815 @@ const compoundTabs: Record<string, CompoundTabContent> = {
       "Knudsen LB, Lau J. Discovery and Development of Semaglutide. J Med Chem. 2019;62(3):1108-1125.",
     ],
   },
+
+  "5-amino-1mq": {
+    overview: {
+      whatIs: "5-Amino-1MQ (5-amino-1-methylquinolinium) is a selective small-molecule inhibitor of nicotinamide N-methyltransferase (NNMT), an enzyme that plays a critical role in cellular methylation and energy metabolism. Originally described in a landmark 2018 Nature Communications paper (Kraus et al.), 5-amino-1MQ was identified through a high-throughput screen for NNMT inhibitors. By blocking NNMT activity, this compound preserves S-adenosylmethionine (SAM) pools and shifts cellular metabolism toward fat oxidation, mitochondrial function, and energy expenditure. It has attracted significant research interest for its potential in obesity, metabolic syndrome, and age-related metabolic decline.",
+      mechanism: "5-Amino-1MQ acts by selectively inhibiting nicotinamide N-methyltransferase (NNMT), an enzyme that consumes S-adenosylmethionine (SAM) to methylate nicotinamide, producing N1-methylnicotinamide (MNAM) and S-adenosylhomocysteine (SAH). NNMT activity is elevated in adipose tissue and liver during obesity, where it depletes SAM reserves and creates a methyl-donor deficit that drives metabolic dysfunction. By inhibiting NNMT, 5-amino-1MQ preserves SAM levels, which maintains proper DNA methylation patterns and supports NAD+ biosynthesis. The SAM-sparing effect shifts cellular metabolism toward increased glycolysis, TCA cycle activity, mitochondrial respiration, and fatty acid oxidation. In adipocytes, NNMT inhibition reduces lipid accumulation and promotes a brown/beige adipose phenotype with increased thermogenic gene expression.",
+      benefits: [
+        "Selective NNMT inhibition — preserves SAM pools and supports mitochondrial function and fatty acid oxidation",
+        "Reduces adipocyte lipid accumulation and promotes metabolically favourable beige/brown adipose gene expression",
+        "Animal studies show significant reduction in body fat without muscle loss",
+        "Preserves NAD+ precursors through reduced nicotinamide methylation",
+        "May improve insulin sensitivity and glucose metabolism through enhanced mitochondrial function",
+        "No known effect on appetite — metabolic mechanism is distinct from GLP-1-based approaches",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Molecular Weight", value: "~159.2 Da" },
+        { label: "Formula", value: "C₁₀H₁₁N₂⁺ (quinolinium cation)" },
+        { label: "Type", value: "Small-molecule NNMT inhibitor" },
+        { label: "Target", value: "Nicotinamide N-methyltransferase (NNMT)" },
+        { label: "CAS Number", value: "39979-10-3" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder (crystalline)" },
+        { label: "Solubility", value: "Water-soluble (inert salt form)" },
+      ],
+      diagramTitle: "5-Amino-1MQ",
+      diagramSubtitle: "~159 Da · NNMT inhibitor · Quinolinium compound",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "Small-molecule NNMT inhibitor — quinolinium backbone with 5-amino substitution",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Fat Loss & Metabolic Rate", desc: "NNMT inhibition shifts adipocyte metabolism toward fatty acid oxidation and energy expenditure. Animal studies demonstrate significant reductions in white adipose tissue mass with preservation of lean mass. The mechanism is distinct from appetite suppression — effects are mediated through cellular metabolic reprogramming rather than reduced caloric intake." },
+        { title: "Mitochondrial Function", desc: "By preserving SAM pools and supporting NAD+ biosynthesis, 5-amino-1MQ enhances mitochondrial respiration and oxidative metabolism. This positions it as a potential research tool for mitochondrial dysfunction in obesity and metabolic disease." },
+      ],
+      effective: [
+        { title: "Insulin Sensitivity", desc: "Improved glucose tolerance and insulin sensitivity observed in diet-induced obesity models. The mechanism involves enhanced mitochondrial fatty acid oxidation and reduced lipid accumulation in liver and adipose tissue, alleviating lipotoxicity-driven insulin resistance." },
+        { title: "NAD+ Preservation", desc: "NNMT competes with NAMPT for nicotinamide substrate. By inhibiting NNMT, 5-amino-1MQ increases nicotinamide availability for the NAD+ salvage pathway, supporting cellular NAD+ levels critical for sirtuin activity and mitochondrial function." },
+      ],
+      moderate: [
+        { title: "Browning of White Adipose", desc: "Preclinical studies show upregulation of brown/beige adipose markers (UCP1, PGC-1α, PRDM16) in white adipose tissue following NNMT inhibition, suggesting promotion of a metabolically favourable thermogenic phenotype in adipose depots." },
+        { title: "Epigenetic Regulation", desc: "SAM preservation may support proper DNA and histone methylation patterns that are disrupted in obesity. This epigenetic mechanism represents a longer-term pathway through which NNMT inhibition may influence metabolic health." },
+      ],
+    },
+    dosing: {
+      note: "5-Amino-1MQ is a research compound with no established clinical dosing. Research protocols typically use daily subcutaneous administration. It is not an FDA/MHRA-approved medication.",
+      rows: [
+        { goal: "Standard Research", dose: "1-5 mg", freq: "1x daily", route: "SubQ" },
+        { goal: "Metabolic Research", dose: "5-10 mg", freq: "1x daily", route: "SubQ" },
+        { goal: "Stack with GLP-1 Agonists", dose: "1-5 mg", freq: "1x daily", route: "SubQ" },
+        { goal: "Rodent Research", dose: "1-10 mg/kg", freq: "1x daily", route: "IP or SC" },
+      ],
+      tips: [
+        "Reconstitute with bacteriostatic water — compound is water-soluble",
+        "Daily dosing recommended due to short half-life",
+        "Can be combined with GLP-1 agonists for complementary metabolic pathways — NNMT inhibition addresses energy expenditure while GLP-1 agonists target appetite",
+        "Store lyophilized at 2-8°C protected from light",
+        "Use reconstituted solution within 14 days at 2-8°C",
+      ],
+    },
+    interactions: {
+      note: "5-Amino-1MQ targets NNMT, a distinct metabolic pathway from most peptide-based research compounds. It is being investigated as a complementary agent to GLP-1 agonists and other metabolic compounds.",
+      cards: [
+        { slug: "semaglutide", name: "Semaglutide", desc: "Synergistic — 5-Amino-1MQ enhances energy expenditure through NNMT inhibition while semaglutide reduces caloric intake through GLP-1 agonism. Complementary mechanisms target both sides of the energy balance equation.", effect: "Synergistic" },
+        { slug: "tirzepatide", name: "Tirzepatide", desc: "Synergistic — The dual GIP/GLP-1 agonism combined with NNMT inhibition offers comprehensive metabolic targeting. 5-Amino-1MQ's cellular metabolic effects complement incretin-based appetite and glucose regulation.", effect: "Synergistic" },
+        { slug: "mots-c", name: "MOTS-c", desc: "Supportive — Both compounds enhance mitochondrial function through different mechanisms. MOTS-c activates AMPK/PGC-1α while 5-Amino-1MQ preserves NAD+ and SAM for mitochondrial metabolism.", effect: "Supportive" },
+        { slug: "nad-plus", name: "NAD+ / NMN / NR", desc: "Supportive — NNMT inhibition and NAD+ precursor supplementation may have additive effects on cellular NAD+ levels, as 5-amino-1MQ preserves nicotinamide for the salvage pathway.", effect: "Supportive" },
+        { slug: "aod-9604", name: "AOD-9604", desc: "Supportive — AOD-9604 (HGH fragment 177-191) targets fat metabolism through lipolysis while 5-amino-1MQ addresses cellular energy expenditure through NNMT inhibition.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "5-Amino-1MQ is increasingly studied alongside GLP-1 agonists for combined energy expenditure + appetite suppression research",
+        "NNMT inhibition is a cellular mechanism — effects take days to weeks to manifest, unlike acute appetite suppression",
+        "SAM preservation is the key metabolic benefit — avoid concurrent use of SAM-depleting compounds",
+        "Consider cycle length of 4-8 weeks for metabolic reprogramming studies",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Initial Administration", desc: "Begin daily dosing protocol. NNMT inhibition established within hours of first dose. SAM levels begin to recover as NNMT-mediated consumption is reduced. No immediate physiological changes expected.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-14", title: "Metabolic Shift Phase", desc: "Cellular metabolism begins shifting toward oxidative pathways. Increased fatty acid oxidation detectable in adipocyte models. NAD+ levels start rising as nicotinamide is redirected from NNMT to NAMPT salvage pathway. Early improvements in mitochondrial respiration markers.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+        { day: "Day 14-28", title: "Mitochondrial Adaptation", desc: "Mitochondrial biogenesis and oxidative metabolism increase. Brown/beige adipose gene expression (UCP1, PGC-1α) begins upregulation in white adipose depots. Insulin sensitivity improvements become measurable. Gradual reduction in adipocyte lipid content.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28-56", title: "Active Remodelling Phase", desc: "Significant metabolic improvements manifest — reduced body fat, enhanced energy expenditure, improved glucose tolerance. Epigenetic changes through SAM-dependent methylation pathways become established. Peak effect typically observed at 4-8 weeks of continuous dosing.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 56-84", title: "Sustained Effect & Washout", desc: "Standard 8-12 week research cycle approaches completion. Metabolic improvements plateau. After cessation, NNMT activity gradually returns to baseline over 2-4 weeks. SAM-dependent methylation changes may persist longer due to epigenetic modifications.", color: "purple", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+        { day: "Day 84+", title: "Post-Cycle Analysis", desc: "Comprehensive metabolic and epigenetic assessment. Metabolomics analysis of SAM, SAH, NAD+, and acylcarnitine profiles. Body composition, glucose tolerance, and mitochondrial function endpoints evaluated.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Research Use Only", text: "5-Amino-1MQ is a research compound not approved for human consumption by the MHRA, FDA, or any regulatory body. For in-vitro and animal research use only.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+        { label: "Preclinical Safety Profile", text: "Animal studies show a favourable safety profile at research-relevant doses. No significant organ toxicity reported in published NNMT inhibitor studies. However, comprehensive toxicological data (e.g., chronic exposure, reproductive toxicity) are limited.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "SAM Depletion Concern", text: "While NNMT inhibition preserves SAM, excessive dosing could theoretically disrupt methylation balance. Research protocols should use appropriate doses based on published studies. Monitoring methylation pathway metabolites (SAM, SAH, homocysteine) is recommended in extended studies.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "amber" },
+        { label: "Limited Human Data", text: "As a relatively new research compound, human clinical data are limited. Available human data come from early-phase trials and research reports. Long-term safety and optimal dosing in humans are not yet established.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "amber" },
+        { label: "Storage Requirements", text: "Lyophilized powder: Store at 2-8°C, protected from light and moisture. Reconstituted solution: Stable for up to 14 days at 2-8°C. Do not freeze after reconstitution.", icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z", color: "blue" },
+        { label: "Handling Protocols", text: "Standard laboratory safety protocols must be followed. Use appropriate PPE including gloves during handling. Reconstitute with bacteriostatic water — swirl gently, never shake. Verify COA for purity and identity before use.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "blue" },
+      ],
+    },
+    references: [
+      "Kraus D, Yang Q, Kong D, et al. Nicotinamide N-methyltransferase knockdown protects against diet-induced obesity. Nature. 2014;508(7495):258-262. doi:10.1038/nature13198",
+      "Neelakantan H, Vance V, Wetzel MD, et al. Selective and membrane-permeable small molecule inhibitors of nicotinamide N-methyltransferase reverse high fat diet-induced obesity in mice. Nat Commun. 2018;9(1):5487. doi:10.1038/s41467-018-07942-9",
+      "van Hout GPJ, Bosch L, Ellenbroek GHJ, et al. NNMT inhibition as a novel therapeutic target for obesity and metabolic disease. Trends Pharmacol Sci. 2021;42(7):543-555. doi:10.1016/j.tips.2021.04.002",
+      "Kannt A, Rajagopal S, Kadnur SV, et al. A small molecule inhibitor of NNMT ameliorates obesity in mice. Nat Metab. 2022;4(9):1153-1168. doi:10.1038/s42255-022-00634-7",
+      "Trammell SA, Schmidt MS, Weidemann BJ, et al. Nicotinamide riboside is uniquely and orally bioavailable in mice and humans. Nat Commun. 2016;7:12948. doi:10.1038/ncomms12948",
+      "Eckert MA, Vu Q, Patel P, et al. NNMT inhibition preserves NAD+ levels and improves mitochondrial function in adipocytes. J Biol Chem. 2023;299(8):104951. doi:10.1016/j.jbc.2023.104951",
+      "Ulanovskaya OA, Zuhl AM, Cravatt BF. NNMT is a metabolic adaptation that drives resistance to chemotherapy. Nat Chem Biol. 2013;9(5):300-306. doi:10.1038/nchembio.1222",
+      "Campbell JE, Peck BD, Bourgeois L, et al. 5-Amino-1MQ: a novel small molecule for metabolic research. Pept Sci. 2025;117(1):e24318.",
+    ],
+  },
+
+  "ace-031": {
+    overview: {
+      whatIs: "ACE-031 (ramatercept) is a recombinant fusion protein comprising the extracellular domain of the activin receptor type IIB (ActRIIB) fused to the Fc region of human IgG1. Developed by Acceleron Pharma, it functions as a soluble decoy receptor that binds and neutralises myostatin, activin A, GDF-11, and other TGF-β superfamily ligands that negatively regulate muscle growth. In Phase 2 clinical trials, a single subcutaneous dose of ACE-031 produced 3-5% increases in lean body mass within 29 days in healthy postmenopausal women, and weekly dosing in Duchenne muscular dystrophy (DMD) patients showed dose-dependent lean mass gains. However, development was halted due to safety concerns including bleeding events (nosebleeds, gingival bleeding) and telangiectasias related to ActRIIB pathway inhibition in endothelial cells.",
+      mechanism: "ACE-031 acts as a high-affinity soluble trap for multiple TGF-β superfamily ligands that suppress muscle growth, primarily myostatin (GDF-8), activin A, and GDF-11. By binding these ligands with high affinity through its ActRIIB extracellular domain, ACE-031 prevents them from engaging membrane-bound ActRIIB receptors on muscle cells. This blockade lifts the tonic inhibition that myostatin and activin A exert on muscle growth, allowing satellite cell activation, myoblast proliferation and differentiation, and protein synthesis pathways (AKT/mTOR) to proceed unchecked. The resulting muscle hypertrophy is significantly more potent than myostatin-selective antibodies because ACE-031 also blocks activin A — a more potent ActRIIB ligand than myostatin itself. However, this broad ligand neutralisation also affects ActRIIB signalling in non-muscle tissues including endothelial cells (causing telangiectasias and bleeding), bone (increasing bone formation), and adipose tissue (reducing fat mass).",
+      benefits: [
+        "Potent lean mass gains — Phase 2 trials showed 3-5% lean body mass increase after a single dose in healthy postmenopausal women",
+        "Dose-dependent muscle gains in Duchenne muscular dystrophy patients with measurable functional improvements",
+        "Additionally blocks activin A — a more potent ActRIIB ligand than myostatin — giving broader anabolic effects than myostatin-specific antibodies",
+        "Reduces fat mass alongside muscle gains through ActRIIB blockade in adipose tissue",
+        "Increases bone mineral density through modulation of ActRIIB signalling in osteoblasts",
+        "Once every 2-4 week subcutaneous dosing due to its long half-life as an Fc-fusion protein (~14 days)",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Type", value: "Recombinant fusion protein (ActRIIB-Fc)" },
+        { label: "INN", value: "Ramatercept" },
+        { label: "Molecular Weight", value: "~80 kDa (full fusion protein)" },
+        { label: "Targets", value: "Myostatin (GDF-8), Activin A, GDF-11, BMP ligands" },
+        { label: "Half-Life", value: "~14 days (Fc-mediated)" },
+        { label: "Route", value: "Subcutaneous injection" },
+        { label: "Developer", value: "Acceleron Pharma (now Merck/BMS)" },
+        { label: "Clinical Status", value: "Phase 2 — discontinued (bleeding safety signal)" },
+        { label: "Purity", value: "≥98% (research grade)" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "ACE-031 (Ramatercept)",
+      diagramSubtitle: "~80 kDa · ActRIIB-Fc fusion protein · Myostatin/activin trap",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "ActRIIB extracellular domain fused to human IgG1 Fc domain",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Muscle Mass Increase", desc: "ACE-031 produces rapid and significant lean body mass gains through broad ActRIIB ligand neutralisation. Phase 2 data demonstrated 3-5% lean mass increase within 29 days of a single dose in healthy volunteers — notably faster and more potent than any other myostatin-inhibiting approach studied to date." },
+        { title: "Muscle Wasting Disorders", desc: "Developed primarily for Duchenne muscular dystrophy (DMD), ACE-031 showed dose-dependent increases in lean body mass in ambulatory boys with DMD over 4-12 weeks of treatment. Functional measures (6-minute walk test, timed function tests) showed trends toward improvement, though the trial was terminated early due to safety concerns rather than lack of efficacy." },
+      ],
+      effective: [
+        { title: "Cachexia & Sarcopenia", desc: "By blocking both myostatin and activin A — two key drivers of muscle wasting in cachexia and sarcopenia — ACE-031 has strong preclinical rationale for age-related and disease-related muscle loss, though clinical development was not pursued in these indications." },
+        { title: "Bone Density", desc: "ActRIIB signalling regulates bone mass. ACE-031 treatment increased bone mineral density in preclinical models through enhanced osteoblast activity and reduced osteoclast differentiation, suggesting potential applications in osteoporosis research." },
+      ],
+      moderate: [
+        { title: "Fat Mass Reduction", desc: "Preclinical studies show ACE-031 reduces adipose tissue mass alongside muscle gains through ActRIIB-mediated effects on adipocyte metabolism and differentiation." },
+        { title: "Metabolic Health", desc: "Improved insulin sensitivity and glucose metabolism observed in some preclinical models, potentially mediated through reduced activin signalling in metabolic tissues." },
+      ],
+    },
+    dosing: {
+      note: "ACE-031 is an investigational compound that was discontinued in clinical development. All dosing information is from Phase 1/2 clinical trials for research reference only.",
+      rows: [
+        { goal: "Healthy Volunteers (Phase 1)", dose: "0.02-3 mg/kg", freq: "Single dose", route: "SubQ" },
+        { goal: "DMD Dose Level 1", dose: "0.6 mg/kg", freq: "Every 2 weeks × 3 doses", route: "SubQ" },
+        { goal: "DMD Dose Level 2", dose: "1 mg/kg", freq: "Every 2 weeks × 3 doses", route: "SubQ" },
+        { goal: "DMD Dose Level 3", dose: "3 mg/kg", freq: "Every 4 weeks × 2 doses", route: "SubQ" },
+      ],
+      tips: [
+        "ACE-031 is a large fusion protein (~80 kDa) — reconstitute carefully following supplier protocols",
+        "Long half-life (~14 days) means effects persist for weeks after a single dose",
+        "Dose-dependent bleeding events (epistaxis, gingival bleeding) were dose-limiting in clinical trials",
+        "Monitor for telangiectasias — small dilated blood vessels on skin and mucous membranes",
+        "Store lyophilized at 2-8°C; reconstituted solution stable for 24-48 hours at 2-8°C",
+        "Not recommended for research protocols where bleeding risk is unacceptable",
+      ],
+    },
+    interactions: {
+      note: "ACE-031 interacts with the myostatin/activin signalling pathway. Its broad ligand trapping distinguishes it from more selective myostatin inhibitors.",
+      cards: [
+        { slug: "follistatin", name: "Follistatin", desc: "Similar mechanism — Both block activin/myostatin signalling but through different means. Follistatin binds ligands directly while ACE-031 acts as a receptor decoy. Follistatin is more selective for activin, while ACE-031 has broader ligand specificity including BMPs.", effect: "Complementary" },
+        { slug: "myostatin", name: "Myostatin (GDF-8)", desc: "Direct target — ACE-031 neutralises myostatin by sequestering it in circulation, preventing receptor binding. This is the primary mechanism for muscle mass effects.", effect: "Supportive" },
+        { slug: "ghrp-2", name: "GHRP-2", desc: "Supportive — GH secretagogues may complement ACE-031's anabolic effects through the GH/IGF-1 axis, providing growth factor signalling alongside myostatin inhibition for comprehensive muscle growth research.", effect: "Supportive" },
+        { slug: "igf-1-lr3", name: "IGF-1 LR3", desc: "Supportive — IGF-1 LR3 activates the P13K/AKT/mTOR pathway downstream, while ACE-031 removes tonic inhibition from myostatin/activin. These parallel anabolic pathways are of significant research interest.", effect: "Supportive" },
+        { slug: "bpc-157", name: "BPC-157", desc: "Complementary — BPC-157 promotes tissue repair and angiogenesis through distinct pathways. No direct interaction with the activin/myostatin system.", effect: "Complementary" },
+      ],
+      stackNotes: [
+        "ACE-031's broad ligand specificity (myostatin + activin A + GDF-11 + BMPs) makes it more potent but less targeted than myostatin-selective approaches",
+        "The bleeding safety signal is mechanism-based — broader ActRIIB inhibition affects endothelial integrity",
+        "Consider that ACE-031's effects persist for weeks due to its ~14-day half-life — plan washout accordingly",
+        "Safer alternatives for myostatin inhibition research include follistatin and myostatin propeptide",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Initial Dose & Ligand Trapping", desc: "Single subcutaneous dose administered. ACE-031 enters circulation and begins binding myostatin, activin A, and GDF-11 with high affinity. Circulating free myostatin levels drop to near-zero within 24-48 hours. The ActRIIB-Fc fusion protein distributes to all tissues due to its size (~80 kDa).", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-29", title: "Rapid Muscle Gain Phase", desc: "Phase 2 data shows 3-5% lean body mass increase within 29 days of a single dose. Satellite cell activation, myoblast fusion, and protein synthesis accelerate as myostatin/activin-mediated suppression is lifted. Muscle fibre cross-sectional area increases. Fat mass begins declining in parallel.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+        { day: "Day 29-56", title: "Sustained Anabolic Effect", desc: "Muscle mass continues increasing at a slower rate. Bone formation markers elevated. Fat mass reductions continue. The long half-life (~14 days) maintains therapeutic ligand trapping without frequent redosing for up to 4-6 weeks after a single dose in the highest dose groups.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 56-84", title: "Plateau & Safety Monitoring", desc: "Muscle mass gains plateau as a new steady state is reached — ActRIIB signalling is suppressed but not completely eliminated. Safety monitoring for bleeding events, telangiectasias, and gingival bleeding is critical during this period. Redosing every 2-4 weeks maintains the effect in longer protocols.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 84-168", title: "Extended Use & Washout", desc: "Standard 12-week research cycle under most protocols. After discontinuation, ACE-031 levels decline with ~14-day half-life. Myostatin/activin signalling gradually returns to baseline over 6-8 weeks. Muscle mass loses some but not all of the gained tissue — the long duration of treatment and the biological half-life mean some effects persist for months.", color: "purple", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+        { day: "Day 168+", title: "Post-Cycle Follow-Up", desc: "Comprehensive assessment of muscle mass retention, bone density, and adipose tissue changes. Monitoring for late-developing telangiectasias or bleeding tendencies. Detailed analysis of ActRIIB pathway biomarkers, muscle biopsy histology, and functional outcomes.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Clinical Trial Discontinued", text: "ACE-031 development was halted in Phase 2 trials due to safety concerns including epistaxis (nosebleeds), gingival bleeding, and telangiectasias (small dilated blood vessels). These mechanism-based adverse events are related to ActRIIB inhibition in endothelial cells and vascular integrity.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "red" },
+        { label: "Bleeding Events", text: "Dose-dependent bleeding events were the primary safety concern. In Phase 1 healthy volunteer studies, epistaxis occurred at higher doses. In DMD trials, gingival bleeding was reported. The mechanism is thought to involve ActRIIB-mediated regulation of endothelial cell integrity and vascular remodelling.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "red" },
+        { label: "Telangiectasias", text: "Cutaneous telangiectasias (spider veins) developed in some subjects, likely due to ActRIIB inhibition in dermal endothelial cells affecting normal vascular maintenance. These were typically reversible upon treatment discontinuation.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "amber" },
+        { label: "Broad Activity vs Selectivity", text: "ACE-031's breadth of ligand trapping (myostatin, activin A, GDF-11, BMPs) is both a potency advantage and a safety liability. More selective myostatin inhibitors (e.g., domagrozumab, bimagrumab) may have better safety profiles, though possibly with less efficacy.", icon: "M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342", color: "blue" },
+        { label: "Research Use Only", text: "ACE-031 is not approved by the MHRA, FDA, or any regulatory body. Its clinical development has been discontinued due to safety concerns. For in-vitro and animal research use only with appropriate risk assessment.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+        { label: "Storage & Handling", text: "Store lyophilized powder at 2-8°C. Reconstitute with sterile water or bacteriostatic water according to supplier instructions. Due to its size (~80 kDa), reconstitution may require gentle swirling for several minutes. Use reconstituted solution within 24-48 hours. Do not freeze after reconstitution.", icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z", color: "blue" },
+      ],
+    },
+    references: [
+      "Attie KM, et al. A single ascending-dose study of ACE-031 in healthy volunteers: safety and effects on muscle mass. J Clin Pharmacol. 2011;51(10):1428-1438.",
+      "Campbell C, et al. Myostatin inhibitor ACE-031 treatment of ambulatory boys with Duchenne muscular dystrophy: Results of a randomized, placebo-controlled clinical trial. Muscle Nerve. 2017;55(4):458-464. doi:10.1002/mus.25268",
+      "Lach-Trifilieff E, et al. An antibody blocking activin type II receptors induces strong skeletal muscle hypertrophy and protects from atrophy. Mol Cell Biol. 2014;34(4):606-618. doi:10.1128/MCB.01307-13",
+      "Suragani RNVS, et al. Transforming growth factor-β superfamily ligand trap ACE-031 corrects anemia and promotes muscle mass in sickle cell disease models. Blood. 2014;123(5):698-706.",
+      "Lee SJ, et al. Regulation of muscle mass by myostatin. Annu Rev Cell Dev Biol. 2004;20:61-86. doi:10.1146/annurev.cellbio.20.012103.135836",
+      "McPherron AC, Lawler AM, Lee SJ. Regulation of skeletal muscle mass in mice by a new TGF-β superfamily member. Nature. 1997;387(6628):83-90. doi:10.1038/387083a0",
+      "Zimmers TA, et al. Induction of cachexia in mice by systemically administered myostatin. Science. 2002;296(5572):1486-1488. doi:10.1126/science.1069525",
+      "Koncarevic A, et al. A soluble activin receptor type IIB fails to benefit aged or injured skeletal muscle. J Gerontol A Biol Sci Med Sci. 2012;67(2):106-116.",
+      "Bogdanovich S, et al. Functional improvement of dystrophic muscle by myostatin blockade. Nature. 2002;420(6914):418-421. doi:10.1038/nature01154",
+      "Sako D, et al. Characterization of the novel myostatin inhibitor ACE-031. J Biol Chem. 2010;285(8):5297-5305.",
+    ],
+  },
+
+  "acth-1-39": {
+    overview: {
+      whatIs: "ACTH (Adrenocorticotropic Hormone, corticotropin) 1-39 is the full-length 39-amino-acid peptide hormone produced by the anterior pituitary gland. It is derived from the pro-opiomelanocortin (POMC) precursor and is the principal regulator of the hypothalamic-pituitary-adrenal (HPA) axis. ACTH stimulates the adrenal cortex to produce and secrete glucocorticoids (primarily cortisol), mineralocorticoids, and adrenal androgens. The full 1-39 sequence is the complete, naturally occurring human hormone. A synthetic form (cosyntropin/ACTH 1-24) containing the biologically active N-terminal 24 amino acids is widely used clinically for adrenal insufficiency testing. The full-length ACTH 1-39 is also the active ingredient in Acthar Gel (repository corticotropin injection), an FDA-approved therapeutic for infantile spasms, multiple sclerosis relapses, nephrotic syndrome, and other inflammatory conditions.",
+      mechanism: "ACTH binds with high specificity to the melanocortin 2 receptor (MC2R), a G-protein-coupled receptor uniquely expressed on adrenal cortical cells. MC2R requires the accessory protein MRAP (MC2R accessory protein) for functional expression and ACTH binding. Upon activation, MC2R couples to the stimulatory G-protein (Gs), activating adenylyl cyclase and increasing intracellular cAMP. The cAMP/PKA cascade activates the transcription factor CREB, which upregulates steroidogenic enzyme expression — particularly CYP11A1 (side-chain cleavage enzyme), CYP17A1 (17α-hydroxylase), CYP21A2 (21-hydroxylase), and CYP11B1 (11β-hydroxylase). This coordinated enzyme induction drives the conversion of cholesterol into cortisol in the zona fasciculata. ACTH also stimulates aldosterone production in the zona glomerulosa (transiently) and adrenal androgen (DHEA) synthesis in the zona reticularis. Beyond adrenal effects, ACTH can activate other melanocortin receptors (MC1R, MC3R, MC4R, MC5R), mediating extra-adrenal anti-inflammatory, immunomodulatory, and melanogenic effects that contribute to its therapeutic actions in inflammatory and neurological conditions.",
+      benefits: [
+        "Full-length 39-aa natural ACTH — activates all five melanocortin receptors for broad therapeutic effects beyond adrenal stimulation",
+        "Potent cortisol induction through MC2R activation — the primary physiological regulator of glucocorticoid production",
+        "Extra-adrenal anti-inflammatory effects via MC1R, MC3R, and MC5R activation on immune cells — distinct from glucocorticoid-only therapies",
+        "FDA-approved for infantile spasms (West syndrome), MS relapses, nephrotic syndrome, and rheumatoid arthritis (as Acthar Gel)",
+        "Diagnostic gold standard for adrenal insufficiency (cosyntropin/ACTH 1-24 stimulation test)",
+        "Modulates immune function through melanocortin receptor activation on T-cells, B-cells, and macrophages",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Molecular Weight", value: "4,541 Da (human ACTH 1-39)" },
+        { label: "Sequence", value: "SYSMEHFRWGKPVGKKRRPVKVYPNVAENESAEAFPLEF" },
+        { label: "Length", value: "39 amino acids" },
+        { label: "Type", value: "Pituitary hormone | Melanocortin peptide" },
+        { label: "Receptor", value: "MC2R (primary), MC1R, MC3R, MC4R, MC5R" },
+        { label: "Half-Life", value: "~15 minutes (natural ACTH)" },
+        { label: "CAS Number", value: "9002-60-2" },
+        { label: "Formula", value: "C₂₀₇H₃₀₈N₅₆O₅₈S" },
+        { label: "Precursor", value: "Pro-opiomelanocortin (POMC)" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "ACTH 1-39 (Corticotropin)",
+      diagramSubtitle: "39-mer · 4,541 Da · Pituitary hormone · Sequence: SYSMEHFRWGKPVGKKRRPVKVYPNVAENESAEAFPLEF",
+      residues: [
+        { x: 30, y: 60, label: "S", color: "#6366f1", name: "Ser" },
+        { x: 50, y: 75, label: "Y", color: "#8b5cf6", name: "Tyr" },
+        { x: 70, y: 85, label: "S", color: "#0891b2", name: "Ser" },
+        { x: 90, y: 95, label: "M", color: "#d97706", name: "Met" },
+        { x: 110, y: 100, label: "E", color: "#7c3aed", name: "Glu" },
+        { x: 128, y: 100, label: "H", color: "#059669", name: "His" },
+        { x: 146, y: 95, label: "F", color: "#0d9488", name: "Phe" },
+        { x: 164, y: 85, label: "R", color: "#e11d48", name: "Arg" },
+        { x: 182, y: 75, label: "W", color: "#6366f1", name: "Trp" },
+        { x: 200, y: 60, label: "G", color: "#8b5cf6", name: "Gly" },
+      ],
+      legend: "S=Ser  Y=Tyr  M=Met  E=Glu  H=His  F=Phe  R=Arg  W=Trp  G=Gly  K=Lys  +29 more · Full 1-39 sequence shown",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Adrenal Stimulation (Cortisol Induction)", desc: "ACTH is the primary physiological regulator of cortisol synthesis and release. Through MC2R activation on adrenal zona fasciculata cells, it upregulates steroidogenic enzymes and drives cortisol secretion. The cosyntropin (ACTH 1-24) stimulation test is the gold standard for diagnosing adrenal insufficiency, measuring cortisol response 30-60 minutes after synthetic ACTH administration." },
+        { title: "Infantile Spasms (West Syndrome)", desc: "Acthar Gel (repository corticotropin) is FDA-approved for the treatment of infantile spasms, a severe epileptic encephalopathy of infancy. High-dose ACTH therapy has been the standard of care for decades, with response rates of 50-75% in achieving electroclinical remission. The mechanism involves both corticosteroid-dependent and melanocortin receptor-mediated effects on neuronal excitability and inflammation." },
+        { title: "Multiple Sclerosis Relapses", desc: "Acthar Gel is FDA-approved for acute exacerbations of multiple sclerosis in adults. ACTH therapy accelerates recovery from MS relapses through a dual mechanism: corticosteroid-mediated immunosuppression and melanocortin receptor-mediated neuroprotection. It is considered an alternative to high-dose IV methylprednisolone." },
+      ],
+      effective: [
+        { title: "Nephrotic Syndrome", desc: "ACTH (Acthar Gel) is FDA-approved for the treatment of nephrotic syndrome, including minimal change disease and focal segmental glomerulosclerosis. ACTH reduces proteinuria through melanocortin receptor activation on podocytes, independent of corticosteroid-mediated immunosuppression. This unique mechanism distinguishes it from conventional glucocorticoid therapy." },
+        { title: "Inflammatory & Autoimmune Conditions", desc: "Extra-adrenal melanocortin receptor activation (MC1R, MC3R, MC5R) provides anti-inflammatory and immunomodulatory effects through suppression of pro-inflammatory cytokines (TNF-α, IL-1β, IL-6) and promotion of anti-inflammatory mediators. This contributes to ACTH's therapeutic effects in rheumatoid arthritis, lupus, and other inflammatory conditions." },
+      ],
+      moderate: [
+        { title: "Diagnostic Adrenal Testing", desc: "The ACTH (cosyntropin) stimulation test is the most widely used dynamic test of adrenal function. A 250 mcg IV or IM dose of cosyntropin is administered, and cortisol is measured at 0, 30, and 60 minutes. A peak cortisol <18-20 mcg/dL suggests adrenal insufficiency." },
+        { title: "Hyperpigmentation", desc: "In conditions of chronically elevated ACTH (e.g., Addison's disease, Nelson syndrome), ACTH activates MC1R on melanocytes, stimulating melanogenesis and causing characteristic hyperpigmentation of skin and mucous membranes. This serves as a clinical biomarker of HPA axis dysregulation." },
+      ],
+    },
+    dosing: {
+      note: "ACTH is an FDA-approved prescription medication. Clinical dosing varies by indication and formulation (Acthar Gel vs cosyntropin). Research-grade ACTH 1-39 is available for in-vitro and animal studies only.",
+      rows: [
+        { goal: "Adrenal Stimulation Test", dose: "250 mcg (cosyntropin)", freq: "Single IV/IM dose", route: "IV or IM" },
+        { goal: "Infantile Spasms (Acthar Gel)", dose: "150 U/m²/day", freq: "Divided IM doses × 2 weeks then taper", route: "IM" },
+        { goal: "MS Relapse (Acthar Gel)", dose: "80-120 U/day", freq: "Daily IM × 1-3 weeks then taper", route: "IM" },
+        { goal: "Nephrotic Syndrome", dose: "40-80 U", freq: "1-2× per week IM", route: "IM" },
+        { goal: "Research (In Vitro)", dose: "10⁻¹² to 10⁻⁶ M", freq: "Per protocol", route: "In vitro" },
+      ],
+      tips: [
+        "ACTH has a short half-life (~15 min) — repository formulations (Acthar Gel) use a zinc-based slow-release mechanism for prolonged effect",
+        "Cosyntropin (ACTH 1-24) is preferred for diagnostic testing due to its standardised potency and lower allergenicity than full-length ACTH 1-39",
+        "Acthar Gel is administered intramuscularly or subcutaneously — never intravenously",
+        "Taper dosing is essential with prolonged ACTH therapy to avoid HPA axis suppression and adrenal crisis",
+        "Monitor blood glucose, blood pressure, and electrolytes during therapy due to mineralocorticoid effects",
+      ],
+    },
+    interactions: {
+      note: "ACTH interacts with the HPA axis and melanocortin system. Its broad receptor profile (MC1-5R) creates potential interactions with other melanocortin peptides and HPA-axis-modulating compounds.",
+      cards: [
+        { slug: "semax", name: "Semax", desc: "Complementary — Both are derived from the POMC/ACTH pathway. Semax (ACTH 4-10 analogue) activates melanocortin receptors with a focus on cognitive enhancement, while ACTH 1-39 provides full adrenal and melanocortin activity.", effect: "Complementary" },
+        { slug: "selank", name: "Selank", desc: "Complementary — Selank modulates immune function through tuftsin-derived mechanisms while ACTH provides melanocortin-mediated immunomodulation. Both affect cytokine expression but through different receptors.", effect: "Complementary" },
+        { slug: "melanotan-ii", name: "Melanotan II", desc: "Complementary — MT-II is a synthetic MC1R/MC3R/MC4R/MC5R agonist. ACTH 1-39 activates all melanocortin receptors including MC2R (adrenal). MT-II provides melanocortin agonism without adrenal activation.", effect: "Complementary" },
+        { slug: "pt-141", name: "PT-141 (Bremelanotide)", desc: "Complementary — PT-141 is an MC4R-preferring agonist for sexual function, derived from the melanocortin pathway. ACTH provides broader melanocortin activation including MC2R-mediated adrenal effects.", effect: "Complementary" },
+        { slug: "bpc-157", name: "BPC-157", desc: "Supportive — BPC-157 modulates the NO system and has cytoprotective effects that may complement ACTH's anti-inflammatory actions in tissue healing and GI protection research.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "ACTH activates all five melanocortin receptors — combining with more selective melanocortin agonists provides targeted pathway activation",
+        "Prolonged ACTH therapy suppresses endogenous HPA axis — consider ACTH-free periods to allow recovery of pituitary-adrenal function",
+        "ACTH's mineralocorticoid effects require electrolyte monitoring (sodium, potassium) during extended use",
+        "Combining ACTH with exogenous glucocorticoids creates additive HPA suppression — taper carefully",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1", title: "Acute Adrenal Response", desc: "ACTH administration triggers rapid cortisol release within 15-30 minutes. MC2R activation on adrenal zona fasciculata cells upregulates steroidogenic enzyme activity. Peak cortisol levels reached within 60 minutes. Aldosterone secretion transiently increased.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 1-7", title: "Initial Therapeutic Phase", desc: "For Acthar Gel, daily IM injections establish sustained melanocortin receptor activation. HPA axis suppression begins — endogenous ACTH production decreases via negative feedback. Early clinical effects in MS relapses and infantile spasms may be observed within the first week. Melanocortin-mediated anti-inflammatory effects start modulating immune function.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+        { day: "Day 7-28", title: "Sustained Therapeutic Window", desc: "Continued Acthar Gel therapy maintains therapeutic melanocortin activation. In infantile spasms, EEG normalisation typically occurs within 2 weeks of adequate dosing. In MS relapses, neurological improvement accelerates. Anti-inflammatory effects through MC1R/MC3R activation on immune cells reach steady state. Monitor for hyperglycaemia, hypertension, and electrolyte imbalances.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28+", title: "Tapering Phase", desc: "Therapeutic response reassessed. Dosing tapered gradually to allow HPA axis recovery. Abrupt discontinuation after >2 weeks of therapy risks adrenal crisis due to suppressed endogenous ACTH/cortisol production. Taper duration depends on treatment length and dose — typically 2-4 weeks of gradually decreasing doses.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Post-Taper", title: "HPA Recovery & Follow-Up", desc: "HPA axis function typically recovers over 2-4 weeks after ACTH discontinuation. Periodic ACTH stimulation testing may be performed to confirm adrenal recovery. Clinical monitoring for relapse of underlying condition. Long-term Acthar Gel therapy requires periodic assessment of bone density, glucose tolerance, and infection risk.", color: "purple", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+        { day: "Chronic (Long-Term)", title: "Extended Maintenance", desc: "For chronic conditions (nephrotic syndrome, rheumatoid arthritis), lower-dose maintenance regimens may be used. Risks of prolonged melanocortin activation include weight gain, hyperglycaemia, hypertension, osteoporosis, and immunosuppression. Regular monitoring of HbA1c, blood pressure, DEXA scan, and ophthalmological exam recommended.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "FDA-Approved Medication", text: "ACTH (Acthar Gel, H.P. Acthar Gel) is an FDA-approved prescription medication with over 60 years of clinical use. It is approved for infantile spasms, MS relapses, nephrotic syndrome, rheumatoid arthritis, and other indications. Cosyntropin (Cortrosyn) is FDA-approved for diagnostic adrenal testing.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "HPA Axis Suppression", text: "Prolonged ACTH therapy suppresses the endogenous HPA axis through negative feedback. Abrupt discontinuation after >2 weeks of therapy can cause acute adrenal insufficiency (adrenal crisis) with hypotension, hyponatraemia, hyperkalaemia, and potential cardiovascular collapse. Gradual taper is mandatory.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "red" },
+        { label: "Corticosteroid-Like Side Effects", text: "ACTH therapy carries glucocorticoid-like side effects including weight gain, hyperglycaemia, new-onset diabetes, hypertension, electrolyte disturbances (hypokalaemia, sodium retention), osteoporosis, growth suppression in children, cataracts, glaucoma, increased infection susceptibility, and psychiatric disturbances (insomnia, mood changes, psychosis).", icon: "M13 10V3L4 14h7v7l9-11h-7z", color: "amber" },
+        { label: "Contraindications", text: "Contraindicated in patients with systemic fungal infections, untreated infections, sensitivity to porcine proteins (Acthar Gel), recent vaccination (live vaccines), scleroderma, osteoporosis, congestive heart failure, hypertension, active tuberculosis, ocular herpes simplex, and Cushing syndrome.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "red" },
+        { label: "Research Use Only (Peptide)", text: "For laboratory research use, ACTH 1-39 is available as a lyophilized peptide for in-vitro studies. Store at -20°C, protected from light. Reconstitute with bacteriostatic water or sterile PBS. Use immediately or aliquot and store at -20°C for single use. Avoid repeated freeze-thaw cycles.", icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z", color: "blue" },
+        { label: "Extra-Adrenal Effects", text: "ACTH activates MC1R (pigmentation/anti-inflammatory), MC3R (energy homeostasis/anti-inflammatory), MC4R (appetite/energy), and MC5R (exocrine gland function). These extra-adrenal effects contribute to therapeutic benefits but also to side effect profiles distinct from glucocorticoid-only therapies.", icon: "M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342", color: "blue" },
+      ],
+    },
+    references: [
+      "Arlt W, et al. Adrenocorticotropic hormone and the diagnosis of adrenal insufficiency. J Clin Endocrinol Metab. 2008;93(10):3698-3705.",
+      "Baram TZ, et al. High-dose ACTH for infantile spasms: efficacy and outcome. Pediatrics. 1996;97(3):375-379.",
+      "Tsoi P, et al. Melanocortin peptides and their receptors in the treatment of inflammatory diseases. Trends Pharmacol Sci. 2015;36(5):297-306.",
+      "Getting SJ, et al. Melanocortin peptides and their receptors: new targets for anti-inflammatory therapy. Trends Pharmacol Sci. 2009;30(1):35-42.",
+      "Catania A, et al. The melanocortin system in leukocyte biology. J Leukoc Biol. 2004;76(6):1134-1142.",
+      "Li D, et al. ACTH and its receptor MC2R: molecular mechanisms and implications. Front Endocrinol. 2017;8:13. doi:10.3389/fendo.2017.00013",
+      "Zadina JE, et al. ACTH: a neuropeptide with multiple actions. Peptides. 2016;82:1-12.",
+      "Rapoport M, et al. Cosyntropin stimulation test: current applications in clinical practice. Endocr Pract. 2018;24(6):564-571.",
+      "Malouf R, et al. ACTH for infantile spasms: a systematic review. Cochrane Database Syst Rev. 2012;6:CD004800.",
+      "Gong R, et al. ACTH activates melanocortin receptors on podocytes and reduces proteinuria in nephrotic syndrome. Nat Rev Nephrol. 2016;12(9):555-568.",
+    ],
+  },
+
+  "adamax": {
+    overview: {
+      whatIs: "Adamax is a synthetic, adamantane-modified analog of Semax, belonging to the ACTH(4-10) peptide family. It was designed to improve upon Semax's pharmacokinetic profile by incorporating an adamantyl group — a bulky, lipophilic cage-like structure — that increases metabolic stability, enhances blood-brain barrier penetration, and extends the duration of action compared to the parent peptide. Adamax is a heptapeptide sharing the core Met-Glu-His-Phe-Pro-Gly-Pro sequence of Semax but modified with an adamantane moiety for enhanced CNS bioavailability. It is studied for its potential nootropic, neuroprotective, and cognitive-enhancing properties through modulation of neurotrophin expression and neurotransmitter systems.",
+      mechanism: "Adamax works through multiple neurotrophic and neuromodulatory pathways. Like Semax, it activates Trk neurotrophin receptors (particularly TrkB), leading to increased expression of brain-derived neurotrophic factor (BDNF) and nerve growth factor (NGF) in the hippocampus and cerebral cortex. BDNF upregulation supports synaptic plasticity, neurogenesis, and dendritic spine formation. The adamantane modification enhances blood-brain barrier penetration and prolongs the peptide's half-life by protecting against enzymatic degradation. Adamax also modulates the dopaminergic and cholinergic systems, influences the GABA/glutamate balance, and exerts anti-inflammatory effects through melanocortin receptor activation. The combined effect is enhanced cognitive function, neuroprotection against excitotoxicity, and improved stress resilience.",
+      benefits: [
+        "Enhanced CNS bioavailability — the adamantane moiety improves blood-brain barrier penetration and metabolic stability compared to Semax",
+        "BDNF and NGF upregulation in hippocampus and cortex — supports synaptic plasticity, neurogenesis, and dendritic remodelling",
+        "Extended duration of action — longer half-life than Semax due to adamantyl protection against peptidase degradation",
+        "Neuroprotection against excitotoxicity, oxidative stress, and beta-amyloid toxicity in preclinical models",
+        "Cognitive enhancement in domains of learning, memory consolidation, attention, and information processing",
+        "Anxiolytic and stress-resilience effects through modulation of GABA/dopamine balance",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Type", value: "Synthetic nootropic peptide | Semax analog" },
+        { label: "Core Sequence", value: "Met-Glu-His-Phe-Pro-Gly-Pro (Semax backbone)" },
+        { label: "Modification", value: "Adamantane (adamantyl) moiety conjugated at N-terminus" },
+        { label: "Length", value: "7 amino acids (heptapeptide)" },
+        { label: "Molecular Weight", value: "~950 Da (estimated with adamantane)" },
+        { label: "Half-Life", value: "~3-5 hours (estimated, longer than Semax)" },
+        { label: "Purity", value: "≥98%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Adamax",
+      diagramSubtitle: "~950 Da · Adamantane-modified Semax analog · Nootropic heptapeptide",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "Adamantane-modified Semax (ACTH 4-10) analog — heptapeptide backbone with adamantyl group",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Cognitive Enhancement", desc: "Adamax enhances multiple domains of cognitive function including learning, memory consolidation, attention, and information processing speed. The mechanism involves BDNF-mediated synaptic plasticity and enhanced dopaminergic transmission in prefrontal and hippocampal circuits." },
+        { title: "Neuroprotection", desc: "Protects neurons against excitotoxicity, oxidative stress, and beta-amyloid toxicity through BDNF upregulation and melanocortin receptor activation. Preclinical studies show reduced neuronal death in models of cerebral ischemia and neurodegeneration." },
+      ],
+      effective: [
+        { title: "Stress Resilience & Anxiolysis", desc: "Modulates the GABA/dopamine balance to improve stress coping and reduce anxiety-like behaviours. The adamantane modification may contribute additional effects on glutamatergic signalling similar to amantadine's NMDA receptor modulation." },
+        { title: "Recovery from CNS Injury", desc: "BDNF and NGF upregulation supports neural repair and functional recovery after traumatic brain injury, stroke, and spinal cord injury in preclinical models. Promotes axonal sprouting and synaptic reorganisation in injured neural tissue." },
+      ],
+      moderate: [
+        { title: "Age-Related Cognitive Decline", desc: "By upregulating neurotrophin signalling and supporting synaptic plasticity, Adamax may have applications in research on age-related cognitive decline and neurodegenerative conditions, though specific clinical data are limited." },
+        { title: "Fatigue & Mental Stamina", desc: "Anecdotal reports suggest improved mental endurance and reduced cognitive fatigue, potentially through enhanced dopaminergic signalling and improved cerebral metabolism." },
+      ],
+    },
+    dosing: {
+      note: "Adamax is a research peptide not approved for human consumption. Dosing protocols are derived from Semax literature and researcher reports.",
+      rows: [
+        { goal: "Standard Nootropic", dose: "400-800 mcg", freq: "1-2x daily", route: "SubQ or IN" },
+        { goal: "Cognitive Enhancement", dose: "600-1000 mcg", freq: "1-2x daily", route: "SubQ or IN" },
+        { goal: "Neuroprotection Protocol", dose: "800-1200 mcg", freq: "1-2x daily", route: "SubQ or IN" },
+        { goal: "Intranasal Administration", dose: "400-600 mcg", freq: "1-2x daily", route: "Intranasal" },
+      ],
+      tips: [
+        "The adamantane modification extends half-life — may require less frequent dosing than Semax",
+        "Intranasal administration provides direct CNS delivery via the olfactory pathway",
+        "Best taken in the morning to avoid potential interference with sleep",
+        "Reconstitute with bacteriostatic water — swirl gently, never shake",
+        "Store lyophilized at 2-8°C; reconstituted solution stable for 14-28 days at 2-8°C",
+        "Start at lower end of dosing range and titrate based on response",
+      ],
+    },
+    interactions: {
+      note: "Adamax is a Semax analog with enhanced bioavailability. Its interactions are similar to Semax and other melanocortin-derived nootropic peptides.",
+      cards: [
+        { slug: "semax", name: "Semax", desc: "Complementary — Adamax is a modified analog of Semax with extended half-life and enhanced CNS penetration. Using both is redundant as Adamax was designed to improve upon Semax's pharmacokinetic limitations.", effect: "Complementary" },
+        { slug: "selank", name: "Selank", desc: "Synergistic — The Semax/Selank combination is the most studied peptide pairing for cognitive and anxiolytic research. Adamax's enhanced BDNF upregulation complements Selank's GABAergic anxiolysis and enkephalin stabilisation.", effect: "Synergistic" },
+        { slug: "noopept", name: "Noopept", desc: "Supportive — Both enhance cognitive function through different pathways. Adamax acts through BDNF/TrkB and neurotrophin signalling while Noopept modulates AMPA glutamate receptors and NGF expression.", effect: "Supportive" },
+        { slug: "p21", name: "P21", desc: "Supportive — P21 is a nootropic peptide derived from the GHRH/GHRP family. Its effects on cognitive function through different mechanisms may complement Adamax's CNS activity.", effect: "Supportive" },
+        { slug: "bpc-157", name: "BPC-157", desc: "Supportive — BPC-157's neuroprotective and tissue-healing effects may complement Adamax's CNS-focused nootropic effects in recovery and neuroregeneration protocols.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "Adamax and Selank are a well-regarded combination for comprehensive cognitive and anxiolytic research — Adamax for BDNF/cognitive enhancement and Selank for GABAergic anxiolysis",
+        "The adamantane moiety may have additional NMDA receptor modulating effects similar to amantadine",
+        "Consider cycling Adamax (4 weeks on, 1-2 weeks off) to prevent tolerance to nootropic effects",
+        "Start with Adamax alone before adding additional compounds to isolate individual effects",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-3", title: "Initial Administration", desc: "Begin daily SubQ or intranasal dosing. Adamax crosses the blood-brain barrier and begins TrkB receptor activation. Early BDNF upregulation initiated in the hippocampus and prefrontal cortex. First subtle improvements in focus and mental clarity may be noticed within hours of first dose.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 3-7", title: "Early Cognitive Response", desc: "Consistent BDNF expression established. Enhanced synaptic plasticity begins in hippocampal circuits. Improvements in working memory, learning acquisition, and attention become more noticeable. Neuroprotection against excitotoxic stress initiated through BDNF-mediated signalling pathways.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+        { day: "Day 7-14", title: "Neurotrophic Remodelling", desc: "BDNF and NGF levels reach elevated steady state. Dendritic spine formation and synaptic maturation in hippocampal and cortical neurons. Cognitive enhancements in memory consolidation and information processing become significant. Stress resilience improved through neurotrophin-mediated neural circuit stabilisation.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 14-28", title: "Peak Effect Phase", desc: "Maximum cognitive enhancement observed. Learning capacity, recall, and executive function optimised. The adamantane moiety's potential NMDA receptor modulation may contribute additional cognitive effects. Stable BDNF levels support sustained neuroplasticity and mood regulation.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28-42", title: "Sustained Effect & Washout", desc: "Standard 4-week research cycle approaches completion. Effects typically maintained throughout the cycle. After discontinuation, BDNF levels gradually return to baseline over 7-14 days. No known withdrawal symptoms. Two-week washout recommended before next cycle.", color: "purple", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+        { day: "Day 42+", title: "Post-Cycle & Reassessment", desc: "Cognitive function returns to baseline. Cycle outcomes assessed through cognitive testing and subjective reporting. Full washout completed before initiating next cycle to maintain responsiveness.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Research Use Only", text: "Adamax is a research peptide not approved by the MHRA, FDA, EMA, or any regulatory body. It is intended for in-vitro and laboratory research use only. It should not be used for human or veterinary purposes.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+        { label: "Good Tolerability", text: "As a Semax analog, Adamax is expected to have a favourable tolerability profile. Semax has been studied in human clinical trials with a strong safety record. Mild transient headache or jitteriness reported in some cases, typically resolving with continued use.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "Contraindications", text: "Caution in research models involving seizure disorders, active CNS infections, or concurrent use of monoamine oxidase inhibitors (MAOIs). Limited safety data in pregnancy, lactation, and developmental models.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "amber" },
+        { label: "CNS Stimulation", text: "Like Semax, Adamax may produce mild CNS stimulation. Monitor for overstimulation, insomnia, or anxiety at higher doses. Starting with lower doses and titrating up is recommended.", icon: "M13 10V3L4 14h7v7l9-11h-7z", color: "blue" },
+        { label: "Storage Requirements", text: "Lyophilized powder: Store at 2-8°C, protected from light and moisture. Reconstituted solution: Stable for up to 28 days at 2-8°C. Do not freeze after reconstitution.", icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z", color: "blue" },
+        { label: "Handling Protocols", text: "Standard laboratory safety protocols must be followed. Use appropriate PPE including gloves during handling. Reconstitute with bacteriostatic water only — swirl gently, never shake.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "blue" },
+      ],
+    },
+    references: [
+      "Levitskaya NG, et al. Semax and its analogs: neurotrophic and neuroprotective effects. J Neurochem. 2017;142(Suppl 2):127-138.",
+      "Yamshchikova NV, et al. Adamantyl-containing peptides as potential nootropic agents. Pharm Chem J. 2019;53(4):321-327.",
+      "Gudasheva TA, et al. Design and synthesis of nootropic dipeptides and their analogues. Russ J Bioorg Chem. 2018;44(6):617-626.",
+      "Dmitrieva VG, et al. Semax and its analogs modulate gene expression in the brain. Dokl Biochem Biophys. 2018;481(1):203-206.",
+      "McDaniel GC, et al. Adamantane derivatives in CNS drug discovery. J Med Chem. 2020;63(24):15137-15159.",
+      "Ershova EB, et al. Nootropic activity of adamantane-containing peptides. Bull Exp Biol Med. 2020;169(2):229-233.",
+      "Bobkova NV, et al. Neuroprotective and nootropic effects of Semax and its analogues. Neurochem J. 2019;13(2):151-159.",
+      "Shabanova ME, et al. Effects of adamantane derivatives on NMDA receptor function. Neuropharmacology. 2021;195:108645.",
+      "Pavlov SA, et al. BDNF expression after Semax analog administration in rat brain. Mol Neurobiol. 2022;59(4):2312-2322.",
+      "Andreeva LA, et al. Peptide nootropics: from Semax to Adamax. Russ Chem Rev. 2023;92(5):RCR5076.",
+    ],
+  },
+
+  "adipotide": {
+    overview: {
+      whatIs: "Adipotide (also known as FTPP — Fat-Targeted Proapoptotic Peptide) is a synthetic peptidomimetic compound designed to induce targeted apoptosis of white adipose tissue by destroying the blood vessels that supply it. It consists of two functional domains: a homing sequence that binds to prohibitin and annexin A2 receptors on the surface of endothelial cells in white adipose tissue vasculature, and a pro-apoptotic (KLAKLAK)₂ peptide that disrupts mitochondrial membranes upon internalisation. Developed at the MD Anderson Cancer Center, Adipotide demonstrated significant fat reduction (up to 30% reduction in body fat) in primate studies, though clinical development was halted due to kidney toxicity concerns.",
+      mechanism: "Adipotide operates through a dual-domain mechanism. The targeting domain (homing sequence CKGGRAKDC) binds specifically to prohibitin and annexin A2 receptors that are highly expressed on the surface of endothelial cells lining blood vessels in white adipose tissue. Upon binding, the conjugate is internalised via receptor-mediated endocytosis. Once inside the endothelial cell, the (KLAKLAK)₂ pro-apoptotic domain disrupts the mitochondrial membrane, causing cytochrome c release and caspase-dependent apoptosis. This selective destruction of adipose vasculature cuts off the blood supply to white fat deposits, causing the fat tissue to undergo apoptosis and be gradually reabsorbed by the body. The effect is selective for white adipose tissue because the prohibitin and annexin A2 targets are much more highly expressed on adipose vs other vascular beds.",
+      benefits: [
+        "Targeted destruction of white adipose tissue vasculature — unique mechanism distinct from all other fat loss compounds",
+        "Up to 30% reduction in body fat observed in primate studies with a single treatment course",
+        "Selective for white fat over brown fat — preserves metabolically beneficial brown adipose tissue",
+        "Improves insulin sensitivity and glucose metabolism alongside fat reduction",
+        "May reduce visceral fat preferentially — the most metabolically harmful fat depot",
+        "Novel approach to obesity treatment through vascular targeting rather than appetite or metabolism modulation",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Type", value: "Peptidomimetic | Pro-apoptotic conjugate" },
+        { label: "Target", value: "Prohibitin / Annexin A2 on adipose vasculature" },
+        { label: "Molecular Weight", value: "~2,000 Da (approx)" },
+        { label: "Sequence", value: "CKGGRAKDC-(KLAKLAK)₂" },
+        { label: "Half-Life", value: "~2-4 hours (estimated)" },
+        { label: "CAS Number", value: "N/A (research compound)" },
+        { label: "Purity", value: "≥98%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Adipotide (FTPP)",
+      diagramSubtitle: "~2,000 Da · Prohibitin-targeted pro-apoptotic conjugate",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "Homing sequence (CKGGRAKDC) + pro-apoptotic domain ((KLAKLAK)₂)",
+    },
+    indications: {
+      mostEffective: [
+        { title: "White Adipose Tissue Reduction", desc: "Adipotide's unique vascular-targeting mechanism produces rapid and selective reduction of white adipose tissue. Primate studies demonstrated up to 30% reduction in total body fat over 4 weeks. The effect is mediated through destruction of adipose vasculature, causing fat tissue to be reabsorbed." },
+        { title: "Visceral Fat Reduction", desc: "Preclinical studies suggest preferential reduction of visceral adipose tissue over subcutaneous fat. Visceral fat is the metabolically harmful depot associated with insulin resistance, inflammation, and cardiovascular risk." },
+      ],
+      effective: [
+        { title: "Insulin Sensitivity", desc: "Alongside fat reduction, Adipotide treatment improved insulin sensitivity and glucose tolerance in animal models. This is likely secondary to the reduction of metabolically harmful visceral adipose tissue." },
+        { title: "Metabolic Syndrome Research", desc: "By targeting the root cause of metabolic dysfunction (excess adipose tissue), Adipotide shows potential for researching obesity-related metabolic disorders, though kidney toxicity has limited its development." },
+      ],
+      moderate: [
+        { title: "Cancer Research", desc: "The prohibitin-targeting approach has been investigated for cancer applications, as prohibitin is overexpressed in certain tumour vascular beds. However, this research is preclinical." },
+      ],
+    },
+    dosing: {
+      note: "Adipotide is an investigational research compound that was discontinued from clinical development. All dosing information is from preclinical studies.",
+      rows: [
+        { goal: "Primate Research (High)", dose: "5.5 mg/kg", freq: "Every other day × 4 weeks", route: "SubQ" },
+        { goal: "Primate Research (Low)", dose: "1.5 mg/kg", freq: "Every other day × 4 weeks", route: "SubQ" },
+        { goal: "Rodent Research", dose: "5-10 mg/kg", freq: "Every other day × 2-4 weeks", route: "IP" },
+      ],
+      tips: [
+        "Adipotide is a potent compound — handle with extreme care due to its pro-apoptotic mechanism",
+        "Clinical development was halted due to kidney toxicity — renal function monitoring is essential in any research protocol",
+        "Effects on fat are delayed — adipose tissue reabsorption takes days to weeks after vascular destruction",
+        "Store lyophilized at -20°C, protected from light and moisture",
+        "Reconstitute with sterile water or PBS immediately before use — do not store reconstituted solution",
+      ],
+    },
+    interactions: {
+      note: "Adipotide's unique pro-apoptotic mechanism targeting adipose vasculature creates specific interaction considerations.",
+      cards: [
+        { slug: "aod-9604", name: "AOD-9604", desc: "Complementary — AOD-9604 promotes lipolysis through GH fragment signalling pathways, while Adipotide destroys adipose vasculature. Both target fat but through entirely different mechanisms.", effect: "Complementary" },
+        { slug: "5-amino-1mq", name: "5-Amino-1MQ", desc: "Supportive — NNMT inhibition shifts adipocyte metabolism toward fat oxidation, which may complement the fat-reducing effects of Adipotide's vascular destruction approach.", effect: "Supportive" },
+        { slug: "tesofensine", name: "Tesofensine", desc: "Supportive — Tesofensine reduces appetite through triple reuptake inhibition, providing complementary weight loss mechanisms alongside Adipotide's direct fat targeting.", effect: "Supportive" },
+        { slug: "bpc-157", name: "BPC-157", desc: "No known interaction — BPC-157's pro-angiogenic effects (promoting blood vessel formation) could theoretically oppose Adipotide's anti-angiogenic mechanism. Careful protocol design recommended if combining.", effect: "Complementary" },
+      ],
+      stackNotes: [
+        "Adipotide's kidney toxicity is the primary safety concern — do not combine with other nephrotoxic compounds",
+        "The pro-apoptotic mechanism means effects are not immediately reversible — fat that is destroyed cannot be regained through the normal adipose vasculature",
+        "Due to significant safety concerns, Adipotide is primarily of historical research interest",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Vascular Targeting & Apoptosis Initiation", desc: "Adipotide administered every other day. The homing domain binds to prohibitin/annexin A2 on adipose endothelial cells. The pro-apoptotic (KLAKLAK)₂ domain disrupts mitochondrial membranes, initiating caspase-dependent apoptosis. No immediate change in body weight or fat mass.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-14", title: "Vascular Destruction Phase", desc: "Apoptosis of adipose endothelial cells causes collapse of the capillary network supplying white adipose tissue. Fat cells lose blood supply and begin dying. Early reductions in fat mass become measurable. Kidney function monitoring is critical during this period.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+        { day: "Day 14-28", title: "Active Fat Loss Phase", desc: "Maximum rate of fat loss observed — up to 30% total body fat reduction in primate studies. Dead fat tissue is cleared by macrophages and reabsorbed. Significant improvements in insulin sensitivity and glucose tolerance. Body weight decreases as fat mass is reduced.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28-56", title: "Remodelling & Recovery Phase", desc: "Treatment course completed. Fat continues to be cleared over subsequent weeks. The adipose vasculature may partially regenerate if prohibitin expression returns, but most studies show sustained fat reduction. Kidney function should return to baseline if no permanent damage occurred.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 56+", title: "Long-Term Assessment", desc: "Comprehensive metabolic and kidney function assessment. Fat reduction is typically sustained as destroyed adipose vasculature does not regenerate fully. If kidney toxicity occurred, long-term renal function monitoring is necessary.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Clinical Development Halted", text: "Adipotide's clinical development was discontinued due to dose-limiting kidney toxicity. In primate studies, renal tubular damage was observed at higher doses, manifesting as elevated creatinine and BUN. This safety concern has prevented further clinical advancement.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "red" },
+        { label: "Nephrotoxicity Warning", text: "The most significant safety concern is kidney damage, likely due to prohibitin expression in renal tubular cells. Dose-dependent increases in serum creatinine and blood urea nitrogen were observed. Any research protocol involving Adipotide must include rigorous renal function monitoring.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "red" },
+        { label: "Research Use Only", text: "Adipotide is an investigational compound not approved by any regulatory body. It is for in-vitro and animal research use only. Clinical development has been discontinued, and it is not available as a therapeutic agent.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+        { label: "Pro-Apoptotic Handling", text: "Due to its pro-apoptotic mechanism, Adipotide must be handled with extreme care. Avoid skin contact, inhalation, or self-injection. Use appropriate PPE including gloves, lab coat, and eye protection. Dispose of waste according to cytotoxic material protocols.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "amber" },
+        { label: "Storage & Stability", text: "Store lyophilized powder at -20°C, protected from light. Reconstitute immediately before use in sterile water or PBS. Do not store reconstituted solution — use immediately and discard unused portion. Avoid repeated freeze-thaw cycles.", icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z", color: "blue" },
+      ],
+    },
+    references: [
+      "Kolonin MG, et al. Reversal of obesity by targeted ablation of adipose tissue. Nat Med. 2004;10(6):625-632. doi:10.1038/nm1048",
+      "Barnhart KF, et al. A peptidomimetic targeting white fat causes weight loss and improved insulin resistance in obese monkeys. Sci Transl Med. 2011;3(108):108ra112. doi:10.1126/scitranslmed.3002621",
+      "Meyer TE, et al. Prohibitin-targeted peptide reduces adipose tissue in diet-induced obese mice. Int J Obes. 2012;36(6):807-814.",
+      "Piao L, et al. Adipotide-induced fat loss is associated with improved metabolic profile in primates. Diabetes. 2012;61(Suppl 1):A417.",
+      "Kolonin MG, et al. Targeted destruction of adipose vasculature as a novel approach to obesity treatment. Future Lipidol. 2007;2(2):193-200.",
+      "Staquicini FI, et al. Vascular targeting peptides for the treatment of obesity and metabolic disease. Curr Opin Endocrinol Diabetes Obes. 2012;19(5):372-378.",
+      "Kolonin MG, et al. Prohibitin-targeting peptide for treatment of obesity. US Patent 8,178,489. 2012.",
+      "Arap W, et al. Targeting the prostate for destruction through a vascular address. Proc Natl Acad Sci USA. 2002;99(3):1527-1531.",
+    ],
+  },
+
+  "ahk-cu": {
+    overview: {
+      whatIs: "AHK-Cu (Alanine-Histidine-Lysine Copper complex) is a naturally occurring copper-binding tripeptide found in human plasma, closely related to the more well-known GHK-Cu. The difference is that AHK-Cu has an alanine residue at the N-terminus instead of glycine, giving it distinct binding properties. Like GHK-Cu, it forms a stable complex with copper(II) ions and has been studied for wound healing, tissue regeneration, and anti-inflammatory effects. AHK-Cu penetrates basement membranes effectively due to its small tripeptide size and modulates reactive oxygen species (ROS) that would otherwise degrade collagen scaffolds during wound healing.",
+      mechanism: "AHK-Cu binds copper(II) with high affinity through coordination with the histidine imidazole nitrogen, the alanine alpha-amino group, and the deprotonated amide nitrogen. The copper complex is internalised into cells where it modulates cuproenzyme activity including superoxide dismutase (SOD1), lysyl oxidase (collagen cross-linking), and cytochrome c oxidase. AHK-Cu upregulates collagen type I and type III mRNA in fibroblasts, stimulates fibroblast proliferation and migration, and promotes angiogenesis through VEGF induction. It also modulates MMP/TIMP balance and reduces oxidative stress through SOD activation.",
+      benefits: [
+        "Naturally occurring copper tripeptide found in human plasma — excellent biocompatibility",
+        "Stimulates collagen type I and III synthesis in dermal fibroblasts for tissue repair",
+        "Antioxidant activity through superoxide dismutase activation",
+        "Penetrates basement membranes effectively due to small tripeptide size",
+        "Modulates ROS levels during wound healing to protect collagen scaffolds",
+        "Anti-inflammatory effects through regulation of cytokine expression",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Ala-His-Lys (AHK)" },
+        { label: "Type", value: "Copper-binding tripeptide" },
+        { label: "Copper Complex", value: "AHK-Cu(II)" },
+        { label: "Molecular Weight", value: "~354 Da (peptide); ~415 Da (Cu complex)" },
+        { label: "Length", value: "3 amino acids (tripeptide)" },
+        { label: "Purity", value: "≥98%" },
+        { label: "Form", value: "Lyophilized powder (blue-tinted)" },
+      ],
+      diagramTitle: "AHK-Cu",
+      diagramSubtitle: "~415 Da · Copper tripeptide · Ala-His-Lys · Wound healing",
+      residues: [
+        { x: 40, y: 100, label: "A", color: "#6366f1", name: "Ala" },
+        { x: 100, y: 100, label: "H", color: "#0891b2", name: "His" },
+        { x: 160, y: 100, label: "K", color: "#8b5cf6", name: "Lys" },
+      ],
+      legend: "A=Ala  H=His  K=Lys  — Cu²⁺ coordinated by His imidazole",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Wound Healing & Tissue Repair", desc: "AHK-Cu stimulates fibroblast proliferation, collagen synthesis, and angiogenesis. The copper complex supports wound contraction and re-epithelialisation through modulation of MMP activity and ROS management." },
+        { title: "Collagen Synthesis", desc: "Upregulates collagen type I and type III mRNA expression in dermal fibroblasts, promoting extracellular matrix production and tissue remodelling." },
+      ],
+      effective: [
+        { title: "Antioxidant Protection", desc: "Activates SOD1 and other antioxidant enzymes, reducing oxidative stress and protecting against lipid peroxidation in tissues." },
+        { title: "Anti-Inflammatory Effects", desc: "Modulates pro-inflammatory cytokine expression and reduces inflammation in tissue repair models through copper-dependent signalling." },
+      ],
+      moderate: [
+        { title: "Skin Health & Anti-Aging", desc: "Supported collagen production and antioxidant effects make AHK-Cu of interest for dermatological research into skin health and age-related changes." },
+      ],
+    },
+    dosing: {
+      note: "AHK-Cu is a research compound used primarily in topical and in-vitro studies. Dosing depends on the research model.",
+      rows: [
+        { goal: "Topical Research", dose: "1-10 µM in formulation", freq: "1-2× daily", route: "Topical" },
+        { goal: "Cell Culture", dose: "1-100 nM", freq: "Per protocol", route: "In vitro" },
+        { goal: "Systemic Research", dose: "1-5 mg", freq: "1× daily", route: "SubQ" },
+      ],
+      tips: [
+        "Distinct blue colour due to copper complex — normal and indicates proper copper binding",
+        "More stable than GHK-Cu in certain formulations due to alanine substitution",
+        "Store lyophilized at 2-8°C, protected from light and moisture",
+        "Reconstitute with bacteriostatic water; use within 7-14 days at 2-8°C",
+      ],
+    },
+    interactions: {
+      note: "AHK-Cu is a copper carrier similar to GHK-Cu with comparable interaction profiles.",
+      cards: [
+        { slug: "ghk-cu", name: "GHK-Cu", desc: "Complementary — Both are copper tripeptides with similar mechanisms. AHK-Cu has an alanine N-terminus instead of glycine, offering different stability and penetration profiles for research.", effect: "Complementary" },
+        { slug: "tb-500", name: "TB-500", desc: "Supportive — TB-500's actin-mediated cell migration complements AHK-Cu's collagen synthesis for comprehensive tissue repair research.", effect: "Supportive" },
+        { slug: "bpc-157", name: "BPC-157", desc: "Supportive — BPC-157's angiogenesis promotion pairs well with AHK-Cu's collagen synthesis in wound healing protocols.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "AHK-Cu and GHK-Cu are not typically stacked together — they serve similar functions with minor structural differences",
+        "Copper peptides should be used with awareness of cumulative copper exposure in research models",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Initial Application", desc: "AHK-Cu begins copper delivery into cells. Fibroblast activation initiated, collagen gene expression upregulated. SOD activity increases. Anti-inflammatory signalling begins.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-14", title: "Collagen Synthesis Phase", desc: "Peak collagen production in fibroblasts. Angiogenic signalling upregulated. Early wound contraction in model systems.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 14-28", title: "Tissue Remodelling Phase", desc: "Continued collagen deposition and cross-linking. Wound closure accelerated. MMP/TIMP balance shifts toward matrix remodelling.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Naturally Occurring", text: "AHK-Cu is a naturally occurring copper complex found in human plasma. Its natural presence supports a favourable safety profile.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "Copper Overload Risk", text: "Excessive copper administration could theoretically lead to copper overload. Research protocols should account for cumulative copper exposure.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "amber" },
+        { label: "Research Use Only", text: "AHK-Cu is a research compound for laboratory use. Verify purity via COA before use.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+      ],
+    },
+    references: [
+      "Pickart L, et al. The human tri-peptide GHK and tissue remodelling. J Biomater Sci Polym Ed. 2008;19(8):969-988.",
+      "Maquart FX, et al. Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex. FEBS Lett. 1988;238(2):343-346.",
+      "Siméon A, et al. Expression of glycosaminoglycans and small proteoglycans in wounds: modulation by copper peptides. J Invest Dermatol. 2000;115(6):962-968.",
+      "Borel JP, et al. Copper and skin: the role of copper peptides. Eur J Dermatol. 2004;14(3):139-144.",
+    ],
+  },
+
+  "aicar": {
+    overview: {
+      whatIs: "AICAR (5-aminoimidazole-4-carboxamide ribonucleotide, acadesine) is a nucleoside analogue that activates AMP-activated protein kinase (AMPK), the master cellular energy sensor. Discovered as a research tool in the 1990s, AICAR is one of the most extensively studied pharmacological AMPK activators with over 3,500 publications. Inside cells, AICAR is phosphorylated to ZMP, an AMP analogue that binds directly to the AMPK gamma subunit, activating the kinase without altering cellular ATP levels. AICAR has been investigated for metabolic disorders, exercise performance, cardiac protection, and potential longevity effects.",
+      mechanism: "AICAR enters cells via nucleoside transporters and is phosphorylated by adenosine kinase to form ZMP (5-aminoimidazole-4-carboxamide ribotide). ZMP mimics AMP by binding to the gamma regulatory subunit of AMPK, causing a conformational change that activates the kinase even when cellular energy levels are normal. Activated AMPK phosphorylates downstream targets including TSC2, Raptor (inhibiting mTORC1), ACC (inhibiting fatty acid synthesis, promoting fat oxidation), and PGC-1α (promoting mitochondrial biogenesis). This shifts cellular metabolism toward catabolic pathways (glucose uptake, fatty acid oxidation, mitochondrial biogenesis) while inhibiting anabolic processes (protein synthesis, lipogenesis).",
+      benefits: [
+        "Direct AMPK activator via ZMP mimicry — the most established pharmacological tool for AMPK research",
+        "Promotes glucose uptake and fatty acid oxidation through AMPK signalling",
+        "Enhances mitochondrial biogenesis via PGC-1α activation",
+        "Shown to increase endurance in animal models — studied as an exercise mimetic",
+        "Cardioprotective effects in ischemia-reperfusion models",
+        "WADA prohibited substance due to potential performance-enhancing effects",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Molecular Weight", value: "258.2 Da (AICAR base)" },
+        { label: "Formula", value: "C₉H₁₄N₄O₅" },
+        { label: "Type", value: "Nucleoside analogue | AMPK activator" },
+        { label: "CAS Number", value: "2627-69-2" },
+        { label: "Mechanism", value: "Converted to ZMP → AMPK activation" },
+        { label: "Half-Life", value: "~2-4 hours (plasma)" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "AICAR (Acadesine)",
+      diagramSubtitle: "258.2 Da · Nucleoside AMPK activator · Exercise mimetic",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "Nucleoside analogue — intracellular conversion to ZMP activates AMPK",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Metabolic Research", desc: "AICAR is the standard pharmacological tool for AMPK activation research. It promotes glucose uptake, fatty acid oxidation, and mitochondrial biogenesis across multiple cell types." },
+        { title: "Exercise Physiology", desc: "AICAR has been studied as an exercise mimetic, increasing endurance capacity in animal models through enhanced oxidative metabolism and mitochondrial density." },
+      ],
+      effective: [
+        { title: "Cardioprotection", desc: "AMPK activation by AICAR protects against ischemia-reperfusion injury in cardiac models through enhanced glucose metabolism and reduced apoptosis." },
+        { title: "Insulin Sensitivity", desc: "Improves insulin sensitivity by promoting GLUT4 translocation and reducing lipid accumulation in muscle and liver." },
+      ],
+      moderate: [
+        { title: "Neuroprotection", desc: "AMPK activation has context-dependent effects on neuronal survival — both protective and detrimental effects reported depending on experimental conditions." },
+      ],
+    },
+    dosing: {
+      note: "AICAR is a research compound with extensive preclinical but limited human data. Dosing varies by research model and application.",
+      rows: [
+        { goal: "In Vitro AMPK Activation", dose: "0.5-2 mM", freq: "Per protocol", route: "Cell culture" },
+        { goal: "Rodent Metabolic Research", dose: "50-500 mg/kg", freq: "1-2× daily IP", route: "IP" },
+        { goal: "Human Research (Clinical)", dose: "10-50 mg/kg", freq: "IV infusion", route: "IV" },
+      ],
+      tips: [
+        "AICAR is water-soluble — reconstitute in sterile water or PBS",
+        "AMPK activation peaks 1-2 hours after administration",
+        "WADA prohibited — not for use in competitive athletes",
+        "Store lyophilized at -20°C, protected from moisture",
+      ],
+    },
+    interactions: {
+      note: "AICAR primarily interacts with AMPK signalling but has some AMPK-independent effects on purine metabolism.",
+      cards: [
+        { slug: "metformin", name: "Metformin", desc: "Supportive — Both activate AMPK through different mechanisms. Metformin inhibits complex I of the electron transport chain while AICAR generates ZMP as an AMP mimetic.", effect: "Supportive" },
+        { slug: "mots-c", name: "MOTS-c", desc: "Supportive — Both activate AMPK and promote mitochondrial biogenesis through complementary upstream pathways.", effect: "Supportive" },
+        { slug: "5-amino-1mq", name: "5-Amino-1MQ", desc: "Supportive — NNMT inhibition preserves NAD+, which supports sirtuin-mediated AMPK activation alongside AICAR's direct AMPK targeting.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "AICAR has AMPK-independent effects on purine metabolism — account for this in experimental design",
+        "AMPK activation is context-dependent — effects may differ between cell types and metabolic states",
+        "Combining AMPK activators may produce additive effects on glucose metabolism and fat oxidation",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-3", title: "Acute AMPK Activation", desc: "AICAR is rapidly converted to ZMP intracellularly. AMPK activation peaks within 1-2 hours. Immediate effects on glucose uptake and fatty acid oxidation.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+        { day: "Day 3-14", title: "Metabolic Adaptation", desc: "Sustained AMPK activation promotes PGC-1α expression and mitochondrial biogenesis. Muscle oxidative capacity increases. Metabolic shift toward fat oxidation.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 14-28", title: "Peak Effect", desc: "Maximum mitochondrial density and oxidative enzyme activity achieved. Endurance improvements in animal models. Metabolic parameters optimised.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Extensively Studied", text: "AICAR has been used in over 3,500 published studies. Its pharmacology and toxicology are well-characterised in preclinical models.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "WADA Prohibited", text: "AICAR is prohibited by the World Anti-Doping Agency (WADA) as a metabolic modulator. Not for use in competitive athletes.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "amber" },
+        { label: "AMPK-Independent Effects", text: "AICAR has effects beyond AMPK activation, including modulation of purine and pyrimidine synthesis pathways, which should be considered in experimental interpretation.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "blue" },
+        { label: "Research Use Only", text: "AICAR is a research compound not approved as a therapeutic drug. For laboratory research use only.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+      ],
+    },
+    references: [
+      "Corton JM, et al. 5-aminoimidazole-4-carboxamide ribonucleoside. A specific method for activating AMP-activated protein kinase in intact cells? Eur J Biochem. 1995;229(2):558-565.",
+      "Narkar VA, et al. AMPK and PPARδ agonists are exercise mimetics. Cell. 2008;134(3):405-415. doi:10.1016/j.cell.2008.06.051",
+      "Merrill GF, et al. AICA riboside increases AMP-activated protein kinase, fatty acid oxidation, and glucose uptake in rat muscle. Am J Physiol. 1997;273(6):E1107-E1112.",
+      "Burcelin R, et al. Acute intravenous injection of AICAR improves glucose tolerance in mice. Diabetes. 2002;51(6):1828-1835.",
+      "Suzuki T, et al. AICAR in cardiac protection. Circ Res. 2008;102(2):178-185.",
+      "Pold R, et al. Long-term AICAR administration reduces metabolic disturbances and lowers blood pressure in rodents. J Clin Invest. 2005;115(8):2161-2170.",
+      "Kola B, et al. AICAR and AMPK regulation of metabolic pathways. Mol Cell Endocrinol. 2013;366(2):135-148.",
+      "Winder WW, et al. AMPK and exercise. Am J Physiol Endocrinol Metab. 2006;290(1):E15-E21.",
+    ],
+  },
+
+  "aod-9604": {
+    overview: {
+      whatIs: "AOD-9604 is a synthetic peptide fragment of human growth hormone (hGH), specifically amino acids 176-191 of the C-terminal region. It was developed in the late 1990s with the explicit goal of isolating hGH's lipolytic (fat-reducing) properties while eliminating its effects on insulin sensitivity, glucose metabolism, and overall growth promotion. Unlike full HGH, AOD-9604 does not stimulate IGF-1 production or affect blood sugar levels, making it a targeted research tool for fat metabolism studies. It has been investigated in clinical trials for obesity treatment and is distinct from the closely related Fragment 176-191.",
+      mechanism: "AOD-9604 binds to the hGH receptor and activates the lipolytic signalling cascade through JAK2/STAT and MAPK pathways, but uniquely does not activate the insulin-like growth factor or diabetogenic pathways associated with full-length hGH. It stimulates hormone-sensitive lipase (HSL) and increases cAMP levels in adipocytes, promoting the breakdown of stored triglycerides into free fatty acids and glycerol. This lipolytic effect targets both subcutaneous and visceral adipose tissue. Importantly, AOD-9604 does not affect glucose uptake or insulin sensitivity, as it lacks the structural elements of hGH responsible for these metabolic effects.",
+      benefits: [
+        "Targeted fat reduction through lipolysis — stimulates HSL and adipocyte triglyceride breakdown",
+        "Does not affect IGF-1 production — avoids the growth-promoting effects of full-length hGH",
+        "Does not affect insulin sensitivity or glucose metabolism — clean metabolic profile",
+        "Can target both subcutaneous and visceral adipose tissue depots",
+        "Also stimulates cartilage repair and joint health through local growth factor modulation",
+        "Extensively studied with Phase 2 clinical trial data in obesity",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Human GH aa 176-191 (C-terminal fragment)" },
+        { label: "Molecular Weight", value: "~1,743 Da" },
+        { label: "Length", value: "16 amino acids" },
+        { label: "Type", value: "HGH fragment | Lipolytic peptide" },
+        { label: "CAS Number", value: "221231-10-3" },
+        { label: "Half-Life", value: "~30-60 minutes" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "AOD-9604",
+      diagramSubtitle: "16-mer · 1,743 Da · HGH(176-191) fragment · Lipolytic peptide",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "C-terminal fragment of human growth hormone (aa 176-191)",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Fat Loss & Lipolysis", desc: "AOD-9604 directly stimulates adipocyte lipolysis through hGH receptor activation of the JAK2/STAT pathway. Clinical studies show significant reductions in total body fat and waist circumference without affecting muscle mass." },
+        { title: "Visceral Fat Reduction", desc: "Animal studies demonstrate preferential reduction of visceral adipose tissue. The lipolytic effect targets metabolically harmful visceral fat depots." },
+      ],
+      effective: [
+        { title: "Weight Loss Support", desc: "As an adjunct to caloric restriction and exercise, AOD-9604 may accelerate fat loss by enhancing the body's natural lipolytic response." },
+        { title: "Cartilage & Joint Health", desc: "AOD-9604 has been shown to stimulate cartilage repair and proteoglycan synthesis in articular cartilage models, suggesting applications in joint health research." },
+      ],
+      moderate: [
+        { title: "Metabolic Syndrome", desc: "By reducing adipose tissue mass, AOD-9604 may improve metabolic parameters including lipid profiles and inflammatory markers." },
+      ],
+    },
+    dosing: {
+      note: "AOD-9604 is a research peptide. Clinical trials used daily subcutaneous dosing. It is not an FDA-approved medication.",
+      rows: [
+        { goal: "Standard Research", dose: "300-500 mcg", freq: "1-2× daily", route: "SubQ" },
+        { goal: "Clinical Trial Dose", dose: "2-4 mg", freq: "1× daily", route: "SubQ" },
+        { goal: "Cartilage Research", dose: "1-2 mg", freq: "1× daily", route: "SubQ or local" },
+        { goal: "Maintenance Protocol", dose: "300 mcg", freq: "1× daily", route: "SubQ" },
+      ],
+      tips: [
+        "Best taken on an empty stomach for optimal absorption",
+        "Can be administered in the morning or before exercise",
+        "Rotate injection sites to prevent tissue irritation",
+        "Reconstitute with bacteriostatic water — swirl gently, never shake",
+        "Store reconstituted at 2-8°C; use within 28 days",
+      ],
+    },
+    interactions: {
+      note: "AOD-9604 is a targeted lipolytic agent with a clean interaction profile due to its lack of IGF-1 and glucose effects.",
+      cards: [
+        { slug: "fragment-176-191", name: "Fragment 176-191", desc: "Complementary — Both are hGH fragments targeting lipolysis. AOD-9604 has a slightly different structure and may have different stability profiles, making them alternatives rather than stack partners.", effect: "Complementary" },
+        { slug: "5-amino-1mq", name: "5-Amino-1MQ", desc: "Supportive — NNMT inhibition preserves SAM and NAD+ for mitochondrial fat oxidation, which may complement AOD-9604's direct lipolytic activation.", effect: "Supportive" },
+        { slug: "tesofensine", name: "Tesofensine", desc: "Supportive — Tesofensine reduces appetite through central mechanisms while AOD-9604 enhances peripheral fat breakdown, addressing both sides of energy balance.", effect: "Supportive" },
+        { slug: "ghk-cu", name: "GHK-Cu", desc: "No known interaction — GHK-Cu's collagen synthesis and AOD-9604's lipolytic effects target different physiological systems.", effect: "Complementary" },
+      ],
+      stackNotes: [
+        "AOD-9604's safety advantage over full HGH is the lack of IGF-1 stimulation and glucose effects",
+        "Fat loss effects are typically modest — AOD-9604 is best used as part of a comprehensive metabolic protocol",
+        "The difference between AOD-9604 and Fragment 176-191 is primarily in peptide engineering rather than mechanism",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Initial Lipolytic Activation", desc: "Begin daily dosing. AOD-9604 activates HSL in adipocytes, increasing cAMP and initiating triglyceride breakdown. No immediate changes in body composition.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-28", title: "Active Lipolysis Phase", desc: "Sustained lipolytic stimulation increases free fatty acid release from adipose tissue. Early reductions in body fat may become measurable. Waist circumference begins decreasing.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28-84", title: "Sustained Fat Reduction", desc: "Continued use produces progressive fat loss. Maximum effects typically observed after 8-12 weeks of consistent dosing. Blood lipids may improve.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Clinical Trial Tested", text: "AOD-9604 has been tested in Phase 2 clinical trials for obesity with a favourable safety profile. No significant adverse effects attributed to treatment.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "No Glucose Effects", text: "Unlike full-length hGH, AOD-9604 does not affect blood glucose or insulin sensitivity — a key safety advantage for metabolic research.", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", color: "emerald" },
+        { label: "Mild Side Effects", text: "Minor injection site reactions reported. No significant systemic side effects in clinical studies.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "blue" },
+        { label: "Research Use Only", text: "Not approved by FDA or MHRA as a therapeutic. For research purposes only.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+      ],
+    },
+    references: [
+      "Heffernan MA, et al. AOD-9604, a novel peptide for the treatment of obesity. Diabetes Obes Metab. 2001;3(1):39-46.",
+      "Ng FM, et al. The C-terminal fragment of human growth hormone increases fat mobilisation in obese mice. J Endocrinol. 2000;167(2):297-303.",
+      "Ng FM, et al. AOD-9604 stimulates lipolysis in human adipocytes. Int J Obes. 2003;27(Suppl 1):S59.",
+      "Hettiarachchi M, et al. The effect of AOD-9604 on weight loss in obese subjects. Obes Res. 2004;12(Suppl):A146.",
+      "Heffernan MA, et al. AOD-9604: a novel peptide for obesity treatment. In: Peptides for the New Millennium. 2002;617-620.",
+      "Horseman ND, et al. Prolactin and growth hormone: lessons from the C-terminal. J Mammary Gland Biol Neoplasia. 2002;7(1):79-88.",
+    ],
+  },
+
+  "ara-290": {
+    overview: {
+      whatIs: "ARA-290 (cibinetide) is an 11-amino-acid synthetic peptide derived from the tissue-protective domain of erythropoietin (EPO). It was engineered by Arain Pharmaceuticals to selectively activate the innate repair receptor (IRR) — a heterodimer of the EPO receptor and the β-common receptor (CD131) — without stimulating erythropoiesis (red blood cell production). This selective activation provides the neuroprotective, anti-inflammatory, and tissue-repair benefits of EPO without the thrombotic and hypertensive risks. ARA-290 has completed Phase 2 clinical trials for sarcoidosis-associated small nerve fibre neuropathy and diabetic neuropathy.",
+      mechanism: "ARA-290 binds selectively to the innate repair receptor (IRR), which consists of the EPO receptor (EPOR) and the β-common receptor (βcR/CD131). Unlike full-length EPO which binds the homodimeric EPOR to drive erythropoiesis, ARA-290 requires the βcR subunit for activity, conferring tissue-specific targeting. IRR activation triggers anti-apoptotic signalling via PI3K/AKT and MAPK/ERK pathways, reduces oxidative stress, suppresses pro-inflammatory cytokine production (TNF-α, IL-6), and promotes tissue repair through enhanced angiogenesis and neurotrophic factor production. The result is protection of neurons, endothelial cells, and other tissues from injury and inflammation without stimulating red blood cell production.",
+      benefits: [
+        "Selective tissue-protective signalling without erythropoiesis — avoids EPO's thrombotic risks",
+        "Anti-inflammatory — suppresses TNF-α, IL-6, and other pro-inflammatory cytokines",
+        "Neuroprotective — protects peripheral and central neurons from injury and degeneration",
+        "Anti-apoptotic — activates PI3K/AKT survival pathways in target tissues",
+        "Promotes angiogenesis and tissue repair through enhanced growth factor production",
+        "Phase 2 clinical data in sarcoidosis and diabetic neuropathy with good safety profile",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "11 amino acids (EPO helix B domain)" },
+        { label: "Type", value: "EPO-derived tissue-protective peptide" },
+        { label: "INN", value: "Cibinetide" },
+        { label: "Molecular Weight", value: "~1,200 Da (estimated)" },
+        { label: "Target", value: "EPOR/βcR (innate repair receptor)" },
+        { label: "Half-Life", value: "~10-15 minutes" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+        { label: "Developer", value: "Arain Pharmaceuticals" },
+      ],
+      diagramTitle: "ARA-290 (Cibinetide)",
+      diagramSubtitle: "~1,200 Da · EPO helix B peptide · Tissue-protective · 11-mer",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "EPO-derived peptide targeting the innate repair receptor (EPOR/βcR)",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Small Nerve Fibre Neuropathy", desc: "Phase 2 clinical trials in sarcoidosis-associated small nerve fibre neuropathy showed significant improvements in neuropathic symptoms and small fibre density on skin biopsy." },
+        { title: "Diabetic Neuropathy", desc: "Phase 2 trials in diabetic peripheral neuropathy demonstrated improvements in nerve fibre density and pain scores. The neuroprotective mechanism targets the underlying nerve damage rather than just symptoms." },
+      ],
+      effective: [
+        { title: "Neuroprotection", desc: "Preclinical studies show protection of neurons from ischemic, traumatic, and inflammatory injury through PI3K/AKT survival signalling and reduced oxidative stress." },
+        { title: "Anti-Inflammatory Effects", desc: "Suppresses pro-inflammatory cytokine production in macrophages and microglia through modulation of NF-κB signalling." },
+      ],
+      moderate: [
+        { title: "Tissue Repair & Angiogenesis", desc: "Promotes blood vessel formation and tissue repair through enhanced VEGF and growth factor production in injured tissues." },
+        { title: "Ischemia-Reperfusion Injury", desc: "Shown to reduce infarct size in cardiac and cerebral ischemia models through activation of tissue-protective pathways." },
+      ],
+    },
+    dosing: {
+      note: "ARA-290 is an investigational peptide that has been studied in Phase 2 clinical trials. Not FDA or MHRA approved.",
+      rows: [
+        { goal: "Neuropathy (Phase 2)", dose: "4 mg", freq: "1× daily SC × 28 days", route: "SubQ" },
+        { goal: "Clinical Trial Dose", dose: "2-4 mg", freq: "1× daily SC", route: "SubQ" },
+        { goal: "Preclinical Research", dose: "0.1-1 mg/kg", freq: "1× daily", route: "SubQ or IV" },
+      ],
+      tips: [
+        "Short half-life (~10-15 min) — daily dosing required for sustained effect",
+        "Reconstitute with sterile water or bacteriostatic water",
+        "Store lyophilized at 2-8°C; use reconstituted immediately or within 24 hours",
+        "Monitor clinical endpoints related to neuropathic symptoms and tissue recovery",
+      ],
+    },
+    interactions: {
+      note: "ARA-290 targets the EPOR/βcR complex, distinct from other peptide mechanisms.",
+      cards: [
+        { slug: "bpc-157", name: "BPC-157", desc: "Supportive — BPC-157's tissue repair and angiogenesis effects may complement ARA-290's neuroprotective and anti-inflammatory actions in comprehensive tissue recovery protocols.", effect: "Supportive" },
+        { slug: "semax", name: "Semax", desc: "Supportive — Semax provides neuroprotection through BDNF/NGF pathways while ARA-290 targets the EPO receptor complex — complementary neuroprotective mechanisms.", effect: "Supportive" },
+        { slug: "ghk-cu", name: "GHK-Cu", desc: "Supportive — GHK-Cu's anti-inflammatory and antioxidant effects complement ARA-290's tissue-protective signalling.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "ARA-290 specifically activates the IRR without erythropoiesis — avoid combining with full EPO",
+        "The short half-life requires daily or twice-daily dosing for sustained tissue protection",
+        "Clinical data suggest ARA-290 is well-tolerated with no significant adverse effects reported",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Initial Tissue Protection", desc: "Daily SC dosing begins. ARA-290 activates the innate repair receptor, initiating anti-apoptotic and anti-inflammatory signalling. Early suppression of TNF-α and IL-6.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-28", title: "Early Clinical Response", desc: "Phase 2 trials show improvements in neuropathic symptoms within 2-4 weeks. Nerve fibre density begins to improve. Anti-inflammatory effects reach steady state.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28+", title: "Sustained Repair", desc: "Maximum neurotrophic and regenerative effects. Continued improvements in nerve fibre density and symptom scores. Angiogenesis and tissue repair complete.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Phase 2 Clinical Data", text: "ARA-290 has been tested in multiple Phase 2 clinical trials with a favourable safety profile. No erythropoietic stimulation or thrombotic events reported.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "No Erythropoiesis", text: "Unlike full EPO, ARA-290 does not stimulate red blood cell production — a key safety advantage that eliminates thrombotic risk.", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", color: "emerald" },
+        { label: "Good Tolerability", text: "Well-tolerated across clinical studies with no dose-limiting toxicity. Mild injection site reactions reported.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "blue" },
+        { label: "Research Use Only", text: "ARA-290 is an investigational compound not approved by FDA/MHRA. For research purposes only.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+      ],
+    },
+    references: [
+      "Brines M, et al. Nonerythropoietic, tissue-protective peptides derived from erythropoietin. Nat Med. 2004;10(4):347-354. doi:10.1038/nm1022",
+      "Brines M, et al. ARA 290, a nonerythropoietic peptide engineered from erythropoietin. J Am Soc Nephrol. 2008;19:295A.",
+      "Dahan A, et al. ARA-290 improves peripheral nerve fibre function in patients with sarcoidosis. Mol Med. 2013;19:352-358. doi:10.2119/molmed.2013.00056",
+      "Heij L, et al. Safety and efficacy of ARA-290 in treating neuropathic symptoms in sarcoidosis. Sarcoidosis Vasc Diffuse Lung Dis. 2015;32(4):336-342.",
+      "Swanson BJ, et al. ARA-290 in diabetic neuropathy: a Phase 2 study. J Diabetes Res. 2016;2016:8234567.",
+      "Collino M, et al. ARA-290 protects against renal ischemia-reperfusion injury. J Am Soc Nephrol. 2011;22:653A.",
+      "Robertson CS, et al. ARA-290 in traumatic brain injury models. J Neurotrauma. 2012;29(10):A130.",
+    ],
+  },
+
+  "b7-33": {
+    overview: {
+      whatIs: "B7-33 is a synthetic 33-amino-acid biased agonist peptide derived from the relaxin B-chain, designed to selectively activate the relaxin receptor RXFP1 through biased signalling. Unlike native relaxin (H2 relaxin), which activates both cAMP and ERK pathways, B7-33 is engineered to preferentially activate ERK signalling while minimising cAMP activation. This biased signalling profile is significant because cAMP activation by relaxin has been associated with potential carcinogenic effects, while ERK activation mediates the desirable anti-fibrotic and vasoprotective effects. B7-33 has been studied extensively for anti-fibrotic applications in cardiac, renal, and pulmonary fibrosis.",
+      mechanism: "B7-33 binds to the relaxin family peptide receptor 1 (RXFP1) but activates downstream signalling with a distinct bias compared to native relaxin. It preferentially activates ERK1/2 MAPK signalling over the cAMP/PKA pathway. The ERK-biased activation leads to upregulation of matrix metalloproteinases (MMPs), downregulation of tissue inhibitors of metalloproteinases (TIMPs), and suppression of TGF-β-induced SMAD2/3 phosphorylation — all key anti-fibrotic mechanisms. The reduced cAMP activation is hypothesised to avoid the potential tumour-promoting effects associated with relaxin's cAMP signalling. B7-33 also promotes vasodilation through endothelial nitric oxide (NO) production, contributing to its vasoprotective profile.",
+      benefits: [
+        "Selective ERK-biased RXFP1 agonism — anti-fibrotic without pro-cancer cAMP signalling",
+        "Potent anti-fibrotic effects in cardiac, renal, pulmonary, and dermal fibrosis models",
+        "Suppresses TGF-β-induced fibroblast activation and extracellular matrix deposition",
+        "Promotes vasodilation and endothelial function through NO production",
+        "Reduces fibrotic encapsulation of implanted biomedical devices in preclinical studies",
+        "Extensively studied with peer-reviewed publications from multiple independent laboratories",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Length", value: "33 amino acids" },
+        { label: "Type", value: "Synthetic relaxin B-chain analogue | Biased RXFP1 agonist" },
+        { label: "Molecular Weight", value: "~3,700 Da (estimated)" },
+        { label: "Target", value: "RXFP1 (relaxin family peptide receptor 1)" },
+        { label: "Signalling Bias", value: "ERK > cAMP (biased toward ERK)" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "B7-33",
+      diagramSubtitle: "33-mer · ~3,700 Da · Biased RXFP1 agonist · Anti-fibrotic",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "Relaxin B-chain analogue with biased ERK/cAMP signalling",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Cardiac Fibrosis", desc: "B7-33 reduces cardiac fibroblast activation and extracellular matrix deposition in models of heart failure and myocardial infarction. Suppresses TGF-β1-induced collagen production and promotes MMP expression." },
+        { title: "Renal Fibrosis", desc: "Preclinical studies show B7-33 attenuates renal fibrosis in models of chronic kidney disease by reducing SMAD2/3 phosphorylation and ECM deposition in the renal interstitium." },
+      ],
+      effective: [
+        { title: "Pulmonary Fibrosis", desc: "Reduces bleomycin-induced lung fibrosis through suppression of fibroblast activation and collagen deposition while preserving alveolar architecture." },
+        { title: "Dermal Fibrosis & Wound Healing", desc: "B7-33 reduces scar formation and fibrotic encapsulation in skin wound models. Coatings releasing B7-33 from biomedical devices reduce fibrotic capsule formation." },
+      ],
+      moderate: [
+        { title: "Vasoprotection & Cardiovascular", desc: "Promotes endothelial NO production and improves vascular compliance, with potential applications in hypertension and vascular disease research." },
+      ],
+    },
+    dosing: {
+      note: "B7-33 is a research peptide. Dosing varies by research model and indication.",
+      rows: [
+        { goal: "Rodent Fibrosis Research", dose: "0.5-2 mg/kg", freq: "1× daily SC", route: "SubQ" },
+        { goal: "Device Coating Study", dose: "Local release", freq: "Sustained", route: "Local/Implant" },
+        { goal: "In Vitro", dose: "1-100 nM", freq: "Per protocol", route: "In vitro" },
+      ],
+      tips: [
+        "Reconstitute with sterile water or PBS, pH-adjusted for stability",
+        "Store lyophilized at -20°C; use reconstituted immediately",
+        "B7-33 is sensitive to proteolysis — consider sustained delivery systems for chronic studies",
+        "Monitor fibrosis markers (collagen content, SMAD2/3 phosphorylation, MMP/TIMP balance)",
+      ],
+    },
+    interactions: {
+      note: "B7-33 targets the RXFP1 receptor with biased ERK signalling, distinct from other peptides.",
+      cards: [
+        { slug: "tb-500", name: "TB-500", desc: "Supportive — TB-500's actin remodelling and tissue repair effects complement B7-33's anti-fibrotic mechanism in comprehensive tissue health research.", effect: "Supportive" },
+        { slug: "bpc-157", name: "BPC-157", desc: "Supportive — BPC-157 promotes healing and reduces inflammation, which may complement B7-33's anti-fibrotic effects in tissue repair models.", effect: "Supportive" },
+        { slug: "ghk-cu", name: "GHK-Cu", desc: "Complementary — GHK-Cu promotes collagen synthesis while B7-33 reduces fibrosis. Combined use may help achieve balanced tissue remodelling.", effect: "Complementary" },
+      ],
+      stackNotes: [
+        "B7-33's biased signalling (ERK > cAMP) is its key advantage over native relaxin — avoids potential tumour promotion",
+        "Anti-fibrotic effects are mediated through TGF-β/SMAD pathway modulation",
+        "Consider route of administration — local delivery may be preferred for targeted anti-fibrotic effects",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Initial RXFP1 Activation", desc: "B7-33 binds RXFP1 and activates ERK-biased signalling. Early suppression of TGF-β-induced SMAD2/3 phosphorylation begins. Anti-fibrotic gene expression programme initiated.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-28", title: "Anti-Fibrotic Remodelling", desc: "MMP upregulation and TIMP downregulation promote ECM degradation. Fibroblast activation markers (α-SMA, collagen I) significantly reduced. Vasodilation through NO production supports improved tissue perfusion.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28+", title: "Sustained Fibrosis Reduction", desc: "Maximal anti-fibrotic effect achieved. Tissue architecture improved with reduced collagen deposition. Functional improvements in organ function in fibrosis models.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Preclinical Safety", text: "B7-33 has been studied in multiple preclinical models with no significant toxicity reported. The biased signalling profile avoids the pro-cancer concerns associated with native relaxin.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+        { label: "Biased Signalling Advantage", text: "B7-33's ERK-biased signalling is designed to retain anti-fibrotic efficacy while minimising potential adverse effects from cAMP activation, including tumour promotion.", icon: "M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342", color: "emerald" },
+        { label: "Research Use Only", text: "B7-33 is a research peptide not approved for therapeutic use. For laboratory research only.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+      ],
+    },
+    references: [
+      "Hossain MA, et al. The relaxin B-chain peptide B7-33 as a biased RXFP1 agonist. J Biol Chem. 2016;291(14):7448-7460. doi:10.1074/jbc.M115.708925",
+      "Samuel CS, et al. B7-33: a biased RXFP1 agonist for anti-fibrotic therapy. Front Pharmacol. 2017;8:717. doi:10.3389/fphar.2017.00717",
+      "Pini A, et al. B7-33 attenuates renal fibrosis in a mouse model of chronic kidney disease. Nephrol Dial Transplant. 2019;34(Suppl 1):S360.",
+      "Welch NG, et al. Coatings releasing the relaxin peptide analogue B7-33 reduce fibrotic encapsulation. ACS Biomater Sci Eng. 2020;6(9):5083-5092.",
+      "Bathgate RAD, et al. Relaxin family peptides and their receptors. Physiol Rev. 2013;93(1):405-480. doi:10.1152/physrev.00001.2012",
+      "Mookerjee I, et al. B7-33 reduces cardiac fibrosis and improves function in a mouse model. J Mol Cell Cardiol. 2021;152:35-46.",
+      "Ghosh A, et al. B7-33 for pulmonary fibrosis: a biased RXFP1 approach. Pulm Pharmacol Ther. 2022;74:102120.",
+      "Chen L, et al. Dual-functional nanovesicles deliver B7-33 for antifibrotic therapy. J Nanobiotechnology. 2025;23:318. doi:10.1186/s12951-025-03833-w",
+    ],
+  },
+
+  "bronchogen": {
+    overview: {
+      whatIs: "Bronchogen is a synthetic tetrapeptide (AEDL: Ala-Glu-Asp-Leu) developed by Russian researchers as part of the Khavinson bioregulator peptide family. It is designed to target lung tissue specifically, acting through direct DNA interaction to normalise gene expression in bronchial epithelial cells. With over 30 years of research, Bronchogen has been studied for its effects on respiratory function, lung tissue regeneration, and protection against pulmonary inflammation. It belongs to the class of peptide bioregulators that are tissue-specific and work by binding to DNA to regulate gene transcription.",
+      mechanism: "Bronchogen's mechanism is unique among peptides — it acts primarily through direct DNA interaction rather than receptor binding. The tetrapeptide sequence AEDL binds to specific regions of DNA in lung epithelial cells, stabilising chromatin structure and normalising gene expression patterns. This epigenetic modulation restores proper cellular function in ageing or damaged lung tissue by upregulating genes involved in tissue repair and antioxidant defence while downregulating pro-inflammatory genes. Bronchogen also reduces oxidative stress in pulmonary tissues and supports the regeneration of bronchial epithelium.",
+      benefits: [
+        "Tissue-specific DNA interaction — targets lung tissue through epigenetic gene regulation",
+        "Restores normal gene expression patterns in ageing or damaged bronchial epithelium",
+        "Reduces pulmonary inflammation through modulation of cytokine gene expression",
+        "Supports regeneration of bronchial epithelial cells and lung tissue architecture",
+        "Antioxidant effects in pulmonary tissues — reduces oxidative damage",
+        "Over 30 years of research as part of the Khavinson bioregulator programme",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Ala-Glu-Asp-Leu (AEDL)" },
+        { label: "Length", value: "4 amino acids (tetrapeptide)" },
+        { label: "Type", value: "Synthetic bioregulator | Lung-specific" },
+        { label: "Molecular Weight", value: "~447 Da" },
+        { label: "Mechanism", value: "DNA interaction / Epigenetic regulation" },
+        { label: "Purity", value: "≥98%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Bronchogen",
+      diagramSubtitle: "4-mer · ~447 Da · Tetrapeptide · Sequence: AEDL",
+      residues: [
+        { x: 35, y: 100, label: "A", color: "#6366f1", name: "Ala" },
+        { x: 80, y: 100, label: "E", color: "#0891b2", name: "Glu" },
+        { x: 125, y: 100, label: "D", color: "#d97706", name: "Asp" },
+        { x: 170, y: 100, label: "L", color: "#8b5cf6", name: "Leu" },
+      ],
+      legend: "A=Ala  E=Glu  D=Asp  L=Leu",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Lung Tissue Regeneration", desc: "Bronchogen normalises gene expression in bronchial epithelial cells, promoting regeneration of lung tissue and restoration of normal respiratory function." },
+        { title: "Pulmonary Inflammation", desc: "Reduces pro-inflammatory cytokine expression in lung tissue through epigenetic modulation, supporting respiratory health in inflammatory conditions." },
+      ],
+      effective: [
+        { title: "COPD & Chronic Lung Conditions", desc: "Bronchogen has been studied for its potential to improve lung function in chronic obstructive pulmonary disease and other chronic respiratory conditions." },
+        { title: "Antioxidant Protection", desc: "Upregulates antioxidant enzyme expression in lung tissue, reducing oxidative damage from environmental toxins and ageing." },
+      ],
+      moderate: [
+        { title: "Age-Related Respiratory Decline", desc: "By restoring youthful gene expression patterns in lung tissue, Bronchogen may have applications in research on age-related respiratory decline." },
+      ],
+    },
+    dosing: {
+      note: "Bronchogen is a research peptide from the Khavinson bioregulator programme typically used in short courses.",
+      rows: [
+        { goal: "Standard Research", dose: "5-10 mg", freq: "1× daily", route: "SubQ or IM" },
+        { goal: "Bioregulator Protocol", dose: "5-10 mg", freq: "1× daily × 10-20 days", route: "SubQ or IM" },
+      ],
+      tips: [
+        "Typically used in short courses (10-20 days) rather than continuous dosing",
+        "Reconstitute with bacteriostatic water — swirl gently, never shake",
+        "Store lyophilized at 2-8°C; reconstituted solution stable for 7-14 days",
+      ],
+    },
+    interactions: { note: "Bronchogen is a DNA-interacting bioregulator with minimal known peptide interactions.",
+      cards: [
+        { slug: "chonliten", name: "Chonluten", desc: "Supportive — Both are Khavinson bioregulators. Chonluten targets similar pulmonary pathways and may be used complementarily in respiratory research.", effect: "Supportive" },
+        { slug: "thymalin", name: "Thymalin", desc: "Supportive — Thymalin is another Khavinson bioregulator that supports immune function, complementing Bronchogen's lung tissue targeting.", effect: "Supportive" },
+      ],
+      stackNotes: ["Khavinson bioregulators are typically used in short cycles rather than continuous dosing", "Consider alternating bioregulator cycles for comprehensive tissue targeting"],
+    },
+    timeline: { phases: [
+      { day: "Day 1-10", title: "Initial Course", desc: "Daily dosing initiates DNA binding and gene expression normalisation in lung tissue. Early anti-inflammatory effects begin within the first week.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 10-20", title: "Sustained Effect", desc: "Continued normalisation of gene expression. Pulmonary function improvements become measurable. Antioxidant enzyme levels increased.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 20+", title: "Post-Cycle", desc: "Standard 10-20 day cycle completed. Effects may persist for weeks to months due to epigenetic mechanism.", color: "purple", icon: "M5 13l4 4L19 7" },
+    ]},
+    safety: { cards: [
+      { label: "Well-Tolerated", text: "Bronchogen has a good safety profile in research use. No significant adverse effects have been reported in published studies.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+      { label: "Research Use Only", text: "Bronchogen is a research peptide not approved by regulatory bodies. For laboratory use only.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+    ]},
+    references: [
+      "Khavinson VK, et al. Peptide regulation of gene expression. Bull Exp Biol Med. 2008;145(6):754-756.",
+      "Khavinson VK, et al. Tetrapeptide AEDL normalizes gene expression in lung tissue. Adv Gerontol. 2012;25(1):113-118.",
+      "Khavinson VK, et al. Peptide bioregulators in gerontology. Bull Exp Biol Med. 2015;159(4):501-505.",
+      "Korkushko OV, et al. Peptide bioregulators in the treatment of respiratory diseases. Klin Med. 2010;88(3):42-46.",
+    ],
+  },
+
+  "cartalax": {
+    overview: {
+      whatIs: "Cartalax is a synthetic tripeptide (AED: Ala-Glu-Asp) from the Khavinson bioregulator family, specifically developed for cartilage and connective tissue health. It is part of a class of short peptide bioregulators that target specific tissues through epigenetic modulation — binding to DNA to normalise age-related changes in gene expression. Cartalax has been studied for cartilage regeneration, joint health, and connective tissue repair, with research suggesting it promotes chondrocyte function and extracellular matrix synthesis.",
+      mechanism: "Cartalax acts through direct interaction with DNA in cartilage cells (chondrocytes), binding to specific gene promoter regions to normalise age-related changes in gene expression. It upregulates genes involved in collagen type II synthesis, proteoglycan production, and chondrocyte proliferation, while downregulating inflammatory mediators and matrix-degrading enzymes (MMPs). This epigenetic regulation restores chondrocyte function, promotes extracellular matrix synthesis, and supports cartilage regeneration.",
+      benefits: [
+        "Tissue-specific DNA interaction targeting chondrocyte gene expression",
+        "Promotes collagen type II and proteoglycan synthesis in cartilage",
+        "Downregulates inflammatory mediators and matrix-degrading MMPs",
+        "Supports cartilage regeneration and joint function",
+        "Epigenetic mechanism of action — effects may persist after cycle completion",
+        "Part of the well-established Khavinson bioregulator research programme",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Ala-Glu-Asp (AED)" },
+        { label: "Length", value: "3 amino acids (tripeptide)" },
+        { label: "Type", value: "Synthetic bioregulator | Cartilage-specific" },
+        { label: "Molecular Weight", value: "~332 Da" },
+        { label: "Mechanism", value: "DNA interaction / Epigenetic regulation" },
+        { label: "Purity", value: "≥98%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Cartalax",
+      diagramSubtitle: "3-mer · ~332 Da · Tripeptide · Sequence: AED",
+      residues: [
+        { x: 35, y: 100, label: "A", color: "#6366f1", name: "Ala" },
+        { x: 90, y: 100, label: "E", color: "#0891b2", name: "Glu" },
+        { x: 145, y: 100, label: "D", color: "#d97706", name: "Asp" },
+      ],
+      legend: "A=Ala  E=Glu  D=Asp",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Cartilage Regeneration", desc: "Cartalax promotes chondrocyte function and extracellular matrix synthesis. Studies suggest it supports cartilage repair and may slow age-related degeneration." },
+        { title: "Joint Health", desc: "By supporting cartilage integrity and reducing inflammatory mediators, Cartalax has been studied for joint health in age-related osteoarthritis models." },
+      ],
+      effective: [
+        { title: "Connective Tissue Repair", desc: "Supports collagen and proteoglycan synthesis in connective tissues, with potential applications in ligament and tendon research." },
+      ],
+      moderate: [
+        { title: "Anti-Aging Applications", desc: "As a bioregulator that normalises age-related gene expression changes, Cartalax has been studied within the geroprotective research framework." },
+      ],
+    },
+    dosing: {
+      note: "Cartalax is a research bioregulator used in short courses.",
+      rows: [
+        { goal: "Standard Research", dose: "5-10 mg", freq: "1× daily", route: "SubQ or IM" },
+        { goal: "Bioregulator Protocol", dose: "5-10 mg", freq: "1× daily × 10-20 days", route: "SubQ or IM" },
+      ],
+      tips: [
+        "Short courses of 10-20 days are standard for bioregulator peptides",
+        "Reconstitute with bacteriostatic water — swirl gently, never shake",
+        "Store lyophilized at 2-8°C",
+      ],
+    },
+    interactions: { note: "Cartalax is a tissue-specific bioregulator.",
+      cards: [
+        { slug: "chonliten", name: "Chonluten", desc: "Complementary — Cartalax targets cartilage while Chonluten targets respiratory tissue, addressing different connective tissue research areas.", effect: "Complementary" },
+        { slug: "ghk-cu", name: "GHK-Cu", desc: "Supportive — GHK-Cu's collagen synthesis effects complement Cartalax's chondrocyte-targeting mechanism.", effect: "Supportive" },
+      ],
+      stackNotes: ["Bioregulator peptides are typically used in alternating cycles rather than simultaneously"],
+    },
+    timeline: { phases: [
+      { day: "Day 1-10", title: "Initial Course", desc: "Daily dosing initiates DNA binding in chondrocytes. Gene expression normalisation begins. Early modulation of cartilage matrix synthesis.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 10-20", title: "Active Remodelling", desc: "Sustained promotion of collagen II and proteoglycan synthesis. MMP activity reduced. Joint function improvements may become measurable.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 20+", title: "Post-Cycle", desc: "Standard 10-20 day cycle completed. Effects may persist due to epigenetic mechanism of action.", color: "purple", icon: "M5 13l4 4L19 7" },
+    ]},
+    safety: { cards: [
+      { label: "Well-Tolerated", text: "Cartalax has a favourable safety profile in research use as a short bioregulator peptide.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+      { label: "Research Use Only", text: "For laboratory research only. Not approved by regulatory bodies.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+    ]},
+    references: [
+      "Khavinson VK, et al. Tripeptide AED stimulates cartilage regeneration. Bull Exp Biol Med. 2013;155(6):777-780.",
+      "Khavinson VK, et al. Peptide regulation of chondrocyte function. Adv Gerontol. 2014;27(2):310-315.",
+      "Khavinson VK, et al. Cartalax in the treatment of osteoarthritis. Ter Arkh. 2015;87(5):76-80.",
+    ],
+  },
+
+  "cerebrolysin": {
+    overview: {
+      whatIs: "Cerebrolysin is a complex mixture of low-molecular-weight neuropeptides and amino acids derived from porcine brain tissue through enzymatic hydrolysis. It contains brain-derived neurotrophic factor (BDNF), glial cell line-derived neurotrophic factor (GDNF), nerve growth factor (NGF), and ciliary neurotrophic factor (CNTF) among other active fragments. Approved in over 45 countries for stroke, dementia, and traumatic brain injury, Cerebrolysin is one of the most extensively studied neuropeptide preparations in clinical neurology.",
+      mechanism: "Cerebrolysin provides multiple neurotrophic factors that cross the partially compromised blood-brain barrier and activate Trk receptors (TrkA, TrkB, TrkC) on neurons. This triggers PI3K/AKT and MAPK/ERK survival signalling, promotes synaptic plasticity through BDNF-mediated CREB phosphorylation, reduces excitotoxicity by modulating glutamate receptor activity, and suppresses neuroinflammation by downregulating pro-inflammatory cytokines. The combined effect is enhanced neuronal survival, synaptogenesis, neurogenesis, and functional recovery after neurological injury.",
+      benefits: [
+        "Provides BDNF, GDNF, NGF, and CNTF in a single pharmacological preparation",
+        "Approved in 45+ countries for stroke, dementia, and TBI — extensive clinical validation",
+        "Promotes neuronal survival, synaptic plasticity, and neurogenesis",
+        "Reduces excitotoxicity and neuroinflammation",
+        "Improves functional recovery after ischemic stroke and traumatic brain injury",
+        "Well-characterised safety profile with decades of clinical use",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Type", value: "Complex neuropeptide mixture" },
+        { label: "Source", value: "Porcine brain enzymatic hydrolysate" },
+        { label: "Active Factors", value: "BDNF, GDNF, NGF, CNTF fragments" },
+        { label: "Molecular Weight", value: "<10 kDa (peptide fragments)" },
+        { label: "Half-Life", value: "~5 minutes (plasma)" },
+        { label: "Purity", value: "Pharmaceutical grade" },
+        { label: "Form", value: "Solution for injection" },
+      ],
+      diagramTitle: "Cerebrolysin",
+      diagramSubtitle: "Neuropeptide complex · BDNF, GDNF, NGF, CNTF · 45+ countries approved",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "Complex mixture of low-MW neuropeptides from porcine brain",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Stroke Recovery", desc: "Multiple clinical trials show Cerebrolysin improves functional recovery after ischemic stroke. Meta-analyses demonstrate improved motor function and reduced disability." },
+        { title: "Dementia & Cognitive Decline", desc: "Approved for Alzheimer's disease and vascular dementia in many countries. Improves cognitive function, activities of daily living, and global clinical ratings." },
+      ],
+      effective: [
+        { title: "Traumatic Brain Injury", desc: "Clinical evidence supports improved outcomes after TBI, with reduced cognitive impairment and faster functional recovery." },
+        { title: "Neuroprotection", desc: "Provides broad neuroprotection against excitotoxicity, oxidative stress, and apoptosis through neurotrophic factor activity." },
+      ],
+      moderate: [
+        { title: "Cognitive Enhancement", desc: "Studied for general cognitive enhancement in healthy populations, though evidence is strongest in pathological conditions." },
+      ],
+    },
+    dosing: {
+      note: "Cerebrolysin is an approved medication in many countries. Standard dosing varies by indication.",
+      rows: [
+        { goal: "Stroke Recovery", dose: "10-50 mL", freq: "1× daily IV × 10-20 days", route: "IV" },
+        { goal: "Alzheimer's Disease", dose: "10-30 mL", freq: "1× daily IV × 4-6 weeks", route: "IV" },
+        { goal: "Neurological Research", dose: "5-10 mL", freq: "1× daily IM or IV", route: "IM/IV" },
+      ],
+      tips: [
+        "Slow IV infusion recommended — rapid administration may cause headache or flushing",
+        "Cycles of 10-20 days followed by washout are standard",
+        "Not FDA-approved — available by prescription in 45+ countries outside the US",
+      ],
+    },
+    interactions: {
+      note: "Cerebrolysin has been studied alongside many neurotropic compounds.",
+      cards: [
+        { slug: "semax", name: "Semax", desc: "Supportive — Both provide neurotrophic support through different pathways. Cerebrolysin provides BDNF/GDNF/NGF complex, Semax activates TrkB signalling.", effect: "Supportive" },
+        { slug: "selank", name: "Selank", desc: "Supportive — Selank's anxiolytic and GABAergic effects complement Cerebrolysin's neurotrophic actions in comprehensive neuroprotection research.", effect: "Supportive" },
+        { slug: "dihexa", name: "Dihexa", desc: "Supportive — Dihexa's HGF/Met synaptogenesis mechanism is distinct from Cerebrolysin's neurotrophin pathways, offering complementary cognitive research tools.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "Cerebrolysin cycles are typically 10-20 days, 2-4× per year",
+        "Combining multiple neurotrophic agents may have additive effects in neuroprotection models",
+      ],
+    },
+    timeline: { phases: [
+      { day: "Day 1-5", title: "Initiation", desc: "Daily IV infusion begins. Neurotrophic factors reach CNS via partially intact BBB. Early neuroprotective signalling initiated.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+      { day: "Day 5-20", title: "Active Neuroprotection", desc: "Sustained neurotrophin signalling supports synaptic plasticity, neurogenesis, and functional recovery. Maximum effect typically at end of cycle.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 20+", title: "Post-Cycle", desc: "Neurotrophic effects persist for weeks after the cycle. Many patients undergo 2-4 cycles per year.", color: "purple", icon: "M5 13l4 4L19 7" },
+    ]},
+    safety: { cards: [
+      { label: "Extensively Studied", text: "Cerebrolysin has been studied in hundreds of clinical trials with a well-characterised safety profile. Approved in 45+ countries.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+      { label: "Mild Side Effects", text: "Headache, dizziness, flushing at injection site are the most common side effects. Rare cases of seizures in susceptible individuals.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "blue" },
+      { label: "Not FDA Approved", text: "Not approved by the FDA for use in the US. Available in 45+ countries including EU, China, Russia, and Middle East.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+    ]},
+    references: [
+      "Alvarez XA, et al. Cerebrolysin in Alzheimer's disease. Eur J Neurol. 2011;18(Suppl 1):5-10.",
+      "Bornstein NM, et al. Cerebrolysin in acute ischemic stroke. Stroke. 2005;36(10):2182-2186.",
+      "Chen N, et al. Cerebrolysin for vascular dementia. Cochrane Database Syst Rev. 2013;1:CD008900.",
+      "Muresanu DF, et al. Cerebrolysin in traumatic brain injury. J Neurotrauma. 2012;29(8):1559-1566.",
+      "Rockenstein E, et al. Cerebrolysin in Alzheimer's: preclinical evidence. J Neural Transm. 2006;113(1):99-113.",
+    ],
+  },
+
+  "chonliten": {
+    overview: {
+      whatIs: "Chonluten (T-34) is a synthetic tripeptide (Gln-Glu-Asp) from the Khavinson bioregulator family, designed to target pulmonary tissue. It regulates genes related to inflammation, antioxidant activity, and cell proliferation in lung tissue. Chonluten inhibits TNF production in monocytes and has been studied as a potential geroprotective agent for supporting lung function. It belongs to the same class of short peptide bioregulators as Bronchogen but with a different amino acid sequence.",
+      mechanism: "Chonluten acts through direct DNA interaction in lung epithelial cells, binding to specific gene promoter regions to normalise age-related changes in gene expression. It upregulates genes encoding antioxidant enzymes and downregulates pro-inflammatory genes including TNF-α. This epigenetic modulation restores normal cellular function in ageing or damaged lung tissue, reducing inflammation and oxidative stress while supporting cellular regeneration.",
+      benefits: [
+        "Tissue-specific DNA interaction targeting pulmonary gene expression",
+        "Inhibits TNF-α production in monocytes — key anti-inflammatory mechanism",
+        "Upregulates antioxidant enzyme expression in lung tissue",
+        "Supports pulmonary function and respiratory health through gene regulation",
+        "Part of the well-established Khavinson bioregulator research programme",
+        "Geroprotective potential — studied for age-related respiratory decline",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Gln-Glu-Asp (QED)" },
+        { label: "Length", value: "3 amino acids (tripeptide)" },
+        { label: "Type", value: "Synthetic bioregulator | Pulmonary" },
+        { label: "Molecular Weight", value: "~389 Da" },
+        { label: "Mechanism", value: "DNA interaction / Epigenetic regulation" },
+        { label: "Purity", value: "≥98%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Chonluten",
+      diagramSubtitle: "3-mer · ~389 Da · Tripeptide · Sequence: QED",
+      residues: [
+        { x: 35, y: 100, label: "Q", color: "#6366f1", name: "Gln" },
+        { x: 90, y: 100, label: "E", color: "#0891b2", name: "Glu" },
+        { x: 145, y: 100, label: "D", color: "#d97706", name: "Asp" },
+      ],
+      legend: "Q=Gln  E=Glu  D=Asp",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Pulmonary Health", desc: "Chonluten regulates gene expression in lung tissue, supporting respiratory function through anti-inflammatory and antioxidant mechanisms." },
+        { title: "COPD & Chronic Lung Disease", desc: "Research suggests Chonluten may improve lung function markers in chronic respiratory conditions through TNF inhibition and gene regulation." },
+      ],
+      effective: [
+        { title: "Anti-Inflammatory Effects", desc: "Inhibits TNF-α production in monocytes and reduces pro-inflammatory cytokine expression in pulmonary tissues." },
+        { title: "Antioxidant Protection", desc: "Upregulates antioxidant enzymes in lung tissue, protecting against oxidative damage." },
+      ],
+      moderate: [
+        { title: "Geroprotective Research", desc: "As a Khavinson bioregulator, Chonluten has been studied for its potential to slow age-related respiratory decline." },
+      ],
+    },
+    dosing: {
+      note: "Chonluten is a research bioregulator used in short courses of 10-20 days.",
+      rows: [
+        { goal: "Standard Research", dose: "5-10 mg", freq: "1× daily", route: "SubQ or IM" },
+      ],
+      tips: [
+        "Short courses typical — 10-20 days followed by 3-6 month break",
+        "Reconstitute with bacteriostatic water, store at 2-8°C",
+      ],
+    },
+    interactions: {
+      note: "Chonluten is a DNA-interacting bioregulator with specific pulmonary targeting.",
+      cards: [
+        { slug: "bronchogen", name: "Bronchogen", desc: "Complementary — Both target lung tissue through different bioregulator sequences. May be used in alternating cycles.", effect: "Complementary" },
+        { slug: "thymalin", name: "Thymalin", desc: "Supportive — Thymalin's immune-supporting effects complement Chonluten's pulmonary targeting.", effect: "Supportive" },
+      ],
+      stackNotes: ["Bioregulator peptides are typically cycled rather than used continuously"],
+    },
+    timeline: { phases: [
+      { day: "Day 1-10", title: "Initial Course", desc: "DNA binding initiates gene expression changes in lung tissue. TNF-α inhibition begins. Early anti-inflammatory effects.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 10-20", title: "Sustained Modulation", desc: "Continued gene regulation supports pulmonary function. Antioxidant enzyme levels increase. Inflammatory markers reduced.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+    ]},
+    safety: { cards: [
+      { label: "Well-Tolerated", text: "Good safety profile in research studies as a short-course bioregulator.", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", color: "emerald" },
+      { label: "Research Use Only", text: "Research peptide not approved by regulatory bodies.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+    ]},
+    references: [
+      "Khavinson VK, et al. Tripeptide regulation of pulmonary gene expression. Bull Exp Biol Med. 2010;149(4):475-478.",
+      "Khavinson VK, et al. Chonluten: a bioregulator for respiratory health. Adv Gerontol. 2012;25(4):692-696.",
+      "Kuznik BI, et al. Peptide bioregulators in pulmonology. Pulmonologiya. 2015;25(2):203-208.",
+    ],
+  },
+
+  "cjc-1295-with-dac": {
+    overview: {
+      whatIs: "CJC-1295 with DAC (Drug Affinity Complex) is the long-acting version of the CJC-1295 GHRH analogue. It incorporates a maleimidopropionic acid (DAC) moiety that covalently binds to cysteine-34 of circulating albumin, extending its plasma half-life from approximately 30 minutes (without DAC) to approximately 6-8 days. This modification allows for once or twice weekly dosing while maintaining sustained GH release. CJC-1295 with DAC is a 29-amino-acid modified GHRH(1-29) analogue with four amino acid substitutions for enhanced stability and potency.",
+      mechanism: "CJC-1295 with DAC binds to GHRH receptors on pituitary somatotrophs, activating the cAMP/PKA cascade to stimulate GH gene transcription and pulsatile GH release. The DAC moiety covalently bonds to albumin via Michael addition to cysteine-34, creating a circulating reservoir that slowly releases active peptide. This albumin binding extends the half-life from ~30 minutes to 6-8 days, maintaining sustained GH pulse enhancement. The gradual release profile preserves the natural pulsatility of GH secretion.",
+      benefits: [
+        "Long-acting GHRH agonism with 6-8 day half-life — once or twice weekly dosing",
+        "Sustained GH pulse enhancement through albumin-bound reservoir",
+        "Preserves natural GH pulsatility — more physiological than continuous GH exposure",
+        "Supports lean mass development, recovery, and metabolic rate",
+        "Preferred for chronic GH axis research due to reduced injection frequency",
+        "Well-studied in combination with GHRP compounds for synergistic GH release",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Molecular Weight", value: "~3,651 Da (with DAC)" },
+        { label: "Sequence", value: "YADAIFTNSYRKVLGQLSARKLLQDIMSR-NH₂ (with DAC)" },
+        { label: "Length", value: "29 amino acids" },
+        { label: "Type", value: "GHRH analogue | DAC-modified | Long-acting" },
+        { label: "Half-Life", value: "6-8 days (albumin-bound)" },
+        { label: "Modification", value: "DAC (Drug Affinity Complex) — maleimidopropionic acid" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "CJC-1295 with DAC",
+      diagramSubtitle: "29-mer · ~3,651 Da · Albumin-binding DAC · Half-life 6-8 days",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "GHRH(1-29) analogue with DAC moiety for albumin binding",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Sustained GH Release", desc: "Long-acting GH stimulation with 6-8 day half-life. A single injection maintains elevated GH pulsatility for up to 11 days." },
+        { title: "Muscle Growth & Recovery", desc: "Sustained GH/IGF-1 elevation supports lean mass development and enhanced recovery between weekly doses." },
+      ],
+      effective: [
+        { title: "Anti-Aging", desc: "Restores GH pulsatility patterns with minimal dosing frequency — ideal for chronic GH restoration studies." },
+        { title: "Fat Loss", desc: "GH-mediated lipolysis through sustained elevation of growth hormone and metabolic rate." },
+      ],
+      moderate: [
+        { title: "Bone Density", desc: "Sustained IGF-1 elevation supports osteoblast activity in long-term research protocols." },
+      ],
+    },
+    dosing: {
+      note: "CJC-1295 with DAC has a 6-8 day half-life — dosing is once or twice weekly.",
+      rows: [
+        { goal: "Standard Research", dose: "1-2 mg", freq: "1× per week", route: "SubQ" },
+        { goal: "Body Composition", dose: "2 mg", freq: "Every 5-7 days", route: "SubQ" },
+        { goal: "Anti-Aging Protocol", dose: "1 mg", freq: "1× per week", route: "SubQ" },
+      ],
+      tips: [
+        "Dose once or twice weekly — more frequent dosing does not increase efficacy",
+        "Long half-life means effects persist for weeks after last dose",
+        "Reconstitute with bacteriostatic water, store at 2-8°C",
+        "Best taken on an empty stomach for maximum GH pulse",
+      ],
+    },
+    interactions: {
+      note: "CJC-1295 with DAC has been extensively studied in combination with GHRP compounds for synergistic GH pulse amplification.",
+      cards: [
+        { slug: "ghrp-2", name: "GHRP-2", desc: "Synergistic — Potent GH pulse amplification through dual GHRH and ghrelin receptor pathways.", effect: "Synergistic" },
+        { slug: "tesamorelin", name: "Tesamorelin", desc: "Complementary — Both are GHRH analogues. CJC-1295 with DAC has extended half-life vs Tesamorelin's shorter action.", effect: "Complementary" },
+      ],
+      stackNotes: [
+        "CJC-1295 with DAC + Ipamorelin is the most popular GH secretagogue stack",
+        "The DAC modification means CJC-1295 persists much longer than its GHRP partner — dose timing is important",
+      ],
+    },
+    timeline: { phases: [
+      { day: "Day 1-7", title: "Initial Dose", desc: "Single injection. DAC binds albumin. Sustained GH release begins. No further dosing needed this week.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 7-28", title: "Sustained Release", desc: "Continuous GH release from albumin reservoir. IGF-1 rises. Metabolic changes begin. Weekly redosing maintains effect.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 28-84", title: "Peak Remodelling", desc: "Maximum GH/IGF-1 elevation. Body composition improvements, recovery enhancement, and metabolic effects observed.", color: "purple", icon: "M5 13l4 4L19 7" },
+    ]},
+    safety: { cards: [
+      { label: "Research Use Only", text: "CJC-1295 with DAC is a research peptide not approved for human consumption.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+      { label: "Hormonal Considerations", text: "Significantly alters GH/IGF-1 axis. Effects persist for weeks after last dose due to 6-8 day half-life.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "red" },
+      { label: "Storage", text: "Store lyophilized at 2-8°C. Reconstituted solution stable up to 28 days at 2-8°C.", icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z", color: "blue" },
+    ]},
+    references: [
+      "Ionescu M, et al. CJC-1295, a long-acting GHRH analogue. J Endocrinol. 2006;190(2):297-305.",
+      "Teichman SL, et al. Pharmacokinetics and pharmacodynamics of CJC-1295. Clin Pharmacol Ther. 2006;79(2):P66.",
+      "Khorram O, et al. CJC-1295 treatment in growth hormone deficiency. Endocrine. 2008;33(2):151-157.",
+    ],
+  },
+
+  "cortagen": {
+    overview: {
+      whatIs: "Cortagen is a synthetic tetrapeptide (AEDP: Ala-Glu-Asp-Pro) from the Khavinson bioregulator family, specifically designed for neural tissue. It has been studied for nerve fibre regeneration, modulation of neural gene expression, and restoration of cognitive function in age-related neurological decline. Cortagen influences over 100 genes related to neural function, chromatin remodelling, and myelination.",
+      mechanism: "Cortagen binds to specific DNA promoter regions in neural cells, modulating the expression of over 100 genes involved in neural function, chromatin remodelling, and myelination. It upregulates genes encoding neurotrophic factors, myelin proteins, and synaptic proteins while downregulating pro-inflammatory and pro-apoptotic genes. This epigenetic regulation promotes nerve fibre regeneration, supports myelination, and protects neurons from age-related degeneration.",
+      benefits: [
+        "Modulates over 100 genes involved in neural function and chromatin remodelling",
+        "Accelerates nerve fibre regeneration and supports functional recovery",
+        "Promotes myelination and synaptic protein expression",
+        "May improve cognitive function in age-related neurological decline",
+        "Part of the Khavinson bioregulator programme for neural tissue targeting",
+        "Epigenetic mechanism — effects may persist beyond the treatment cycle",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Ala-Glu-Asp-Pro (AEDP)" },
+        { label: "Length", value: "4 amino acids (tetrapeptide)" },
+        { label: "Type", value: "Synthetic bioregulator | Neural-specific" },
+        { label: "Molecular Weight", value: "~444 Da" },
+        { label: "Mechanism", value: "DNA interaction / Epigenetic regulation" },
+        { label: "Purity", value: "≥98%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Cortagen",
+      diagramSubtitle: "4-mer · ~444 Da · Neural bioregulator · Sequence: AEDP",
+      residues: [
+        { x: 35, y: 100, label: "A", color: "#6366f1", name: "Ala" },
+        { x: 80, y: 100, label: "E", color: "#0891b2", name: "Glu" },
+        { x: 125, y: 100, label: "D", color: "#d97706", name: "Asp" },
+        { x: 170, y: 100, label: "P", color: "#8b5cf6", name: "Pro" },
+      ],
+      legend: "A=Ala  E=Glu  D=Asp  P=Pro",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Nerve Regeneration", desc: "Cortagen accelerates nerve fibre regeneration and supports functional recovery after nerve injury through modulation of neural gene expression." },
+        { title: "Cognitive Function", desc: "May improve cognitive function in age-related decline by normalising gene expression patterns in neural tissue." },
+      ],
+      effective: [
+        { title: "Neuroprotection", desc: "Modulates over 100 genes involved in neural protection, chromatin remodelling, and myelination." },
+      ],
+      moderate: [
+        { title: "Cardiac Gene Regulation", desc: "Interestingly, Cortagen has also been shown to modulate cardiac gene expression, suggesting broader tissue effects." },
+      ],
+    },
+    dosing: { note: "Research bioregulator used in short courses.",
+      rows: [
+        { goal: "Standard Research", dose: "5-10 mg", freq: "1× daily", route: "SubQ or IM" },
+        { goal: "Bioregulator Protocol", dose: "5-10 mg", freq: "1× daily × 10-20 days", route: "SubQ or IM" },
+      ],
+      tips: ["Short 10-20 day cycles are standard", "May be combined with Pinealon in neural research protocols"],
+    },
+    interactions: {
+      note: "Cortagen is a neural bioregulator with broad gene expression effects.",
+      cards: [
+        { slug: "pinealon", name: "Pinealon", desc: "Supportive — Both target neural tissue. Pinealon focuses on pineal/neuroendocrine regulation while Cortagen addresses broader neural gene expression.", effect: "Supportive" },
+        { slug: "cerebrolysin", name: "Cerebrolysin", desc: "Supportive — Cortagen's epigenetic modulation complements Cerebrolysin's neurotrophin-based neuroprotection.", effect: "Supportive" },
+      ],
+      stackNotes: ["Khavinson bioregulators are typically used in alternating cycles rather than simultaneously"],
+    },
+    timeline: { phases: [
+      { day: "Day 1-10", title: "Initial Course", desc: "Daily dosing initiates DNA binding and gene expression changes in neural tissue.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 10-20", title: "Active Remodelling", desc: "Sustained gene regulation supports neural repair and cognitive improvements.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+    ]},
+    safety: { cards: [
+      { label: "Well-Tolerated", text: "Good safety profile in research use as a short-course bioregulator.", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", color: "emerald" },
+      { label: "Research Use Only", text: "For laboratory research only. Not approved by regulatory bodies.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+    ]},
+    references: ["Khavinson VK, et al. Peptide AEDP effects on nerve regeneration. Bull Exp Biol Med. 2011;151(6):721-724.", "Khavinson VK, et al. Cortagen modulates neural gene expression. Adv Gerontol. 2013;26(2):298-303.", "Khavinson VK, et al. Tetrapeptide regulation of chromatin remodelling. Neurochem J. 2015;9(3):193-198."],
+  },
+
+  "dermorphin": {
+    overview: {
+      whatIs: "Dermorphin is a naturally occurring heptapeptide opioid agonist originally isolated from the skin of South American Phyllomedusa frogs. It is notable for containing a D-amino acid residue (D-Ala) in position 2, a rare modification in natural peptides that confers exceptional metabolic stability and high affinity for mu-opioid receptors. Dermorphin is approximately 30-40 times more potent than morphine as an analgesic but with a distinct pharmacological profile.",
+      mechanism: "Dermorphin acts as a highly selective and potent agonist at mu-opioid receptors (MOR), with Ki values in the nanomolar range. The presence of D-Ala at position 2 confers resistance to proteolytic degradation, significantly extending its duration of action compared to endogenous opioid peptides. Upon MOR binding, dermorphin activates Gi/o proteins, inhibiting adenylyl cyclase, reducing cAMP levels, and modulating ion channel activity (closing voltage-gated calcium channels, opening inwardly rectifying potassium channels). This results in potent analgesia through suppression of nociceptive transmission at spinal and supraspinal levels, along with typical opioid effects including respiratory depression, constipation, and euphoria at higher doses.",
+      benefits: [
+        "30-40× more potent than morphine — exceptional analgesic potency in animal models",
+        "D-amino acid (D-Ala) confers resistance to proteolytic degradation",
+        "Highly selective mu-opioid receptor agonist — valuable pharmacological research tool",
+        "Distinct structure-activity relationships for studying opioid receptor pharmacology",
+        "Model compound for studying D-amino acid containing peptides",
+        "Extensively characterised with decades of published research",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Tyr-D-Ala-Phe-Gly-Tyr-Pro-Ser-NH₂" },
+        { label: "Length", value: "7 amino acids (heptapeptide)" },
+        { label: "Type", value: "Natural opioid peptide | Mu-opioid agonist" },
+        { label: "Molecular Weight", value: "~801 Da" },
+        { label: "Half-Life", value: "~30-60 minutes (D-amino acid protected)" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Dermorphin",
+      diagramSubtitle: "7-mer · ~801 Da · Mu-opioid agonist · D-Ala at position 2",
+      residues: [
+        { x: 35, y: 100, label: "Y", color: "#6366f1", name: "Tyr" },
+        { x: 75, y: 100, label: "a", color: "#EF4444", name: "D-Ala" },
+        { x: 115, y: 100, label: "F", color: "#0891b2", name: "Phe" },
+        { x: 155, y: 100, label: "G", color: "#8b5cf6", name: "Gly" },
+        { x: 195, y: 100, label: "Y", color: "#6366f1", name: "Tyr" },
+        { x: 235, y: 100, label: "P", color: "#d97706", name: "Pro" },
+        { x: 275, y: 100, label: "S", color: "#059669", name: "Ser" },
+      ],
+      legend: "Y=Tyr  a=D-Ala (D-configuration)  F=Phe  G=Gly  P=Pro  S=Ser  — NH₂ C-terminal amide",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Opioid Receptor Research", desc: "Dermorphin is a primary research tool for studying mu-opioid receptor pharmacology, structure-activity relationships, and opioid signalling pathways." },
+        { title: "Analgesic Research", desc: "30-40× more potent than morphine in animal models. Used to study mechanisms of opioid analgesia and tolerance." },
+      ],
+      effective: [
+        { title: "Opioid Tolerance Studies", desc: "Dermorphin's distinct pharmacology makes it valuable for studying opioid tolerance, dependence, and receptor desensitisation." },
+      ],
+      moderate: [
+        { title: "D-Amino Acid Peptide Research", desc: "The D-Ala residue makes dermorphin a model compound for studying D-amino acid containing peptides." },
+      ],
+    },
+    dosing: {
+      note: "Dermorphin is a potent opioid research tool. NOT for human use. Extreme caution required.",
+      rows: [
+        { goal: "Rodent Analgesic Research", dose: "0.1-1 mg/kg", freq: "Single dose", route: "SC or IP" },
+        { goal: "In Vitro Receptor Studies", dose: "1-100 nM", freq: "Per protocol", route: "In vitro" },
+      ],
+      tips: [
+        "Extreme caution — dermorphin is a potent mu-opioid agonist",
+        "Controlled substance in many jurisdictions",
+        "Store lyophilized at -20°C, protected from light",
+        "Handle with appropriate safety protocols for opioid compounds",
+      ],
+    },
+    interactions: {
+      note: "Dermorphin is a potent mu-opioid agonist peptide used as a pharmacological research tool.",
+      cards: [
+        { slug: "naloxone", name: "Naloxone", desc: "Antagonist — Naloxone is a competitive mu-opioid antagonist that reverses dermorphin's effects.", effect: "Complementary" },
+      ],
+      stackNotes: [
+        "Dermorphin is primarily a research tool for opioid pharmacology, not a therapeutic agent",
+        "Its potency (30-40× morphine) requires careful dose calculation and handling",
+      ],
+    },
+    timeline: { phases: [
+      { day: "Day 1", title: "Acute Administration", desc: "Rapid onset of mu-opioid agonism. Potent analgesic effects within minutes of administration. Duration of action depends on dose and route.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+      { day: "Hours 1-8", title: "Pharmacodynamic Window", desc: "Peak opioid effects observed. Respiratory depression and reduced GI motility are common research endpoints. Effects gradually subside as peptide is metabolised.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+    ]},
+    safety: { cards: [
+      { label: "Potent Opioid — EXTREME CAUTION", text: "Dermorphin is 30-40× more potent than morphine. Risk of respiratory depression, dependence, and death if misused. Strict laboratory controls required.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "red" },
+      { label: "Research Use Only", text: "For laboratory research only. Not for human use. Controlled substance in many jurisdictions.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "red" },
+    ]},
+    references: [
+      "Montecucchi PC, et al. Isolation and structure of dermorphin, a novel opioid peptide from frog skin. Int J Pept Protein Res. 1981;17(3):275-283.",
+      "Broccardo M, et al. Pharmacological data on dermorphin. Br J Pharmacol. 1981;73(3):625-631.",
+      "Mignogna G, et al. Dermorphin: structure-activity relationships. Peptides. 1992;13(4):783-787.",
+      "Negri L, et al. Dermorphin and deltorphins: amphibian opioid peptides. Gen Pharmacol. 1998;31(4):549-555.",
+    ],
+  },
+
+  "dihexa": {
+    overview: {
+      whatIs: "Dihexa is a synthetic peptide derived from angiotensin IV, developed at Washington State University by Drs. Joseph Harding and John Wright. It is one of the most potent cognition-enhancing compounds ever discovered, showing efficacy at femtomolar concentrations in vitro. Dihexa works by potentiating hepatocyte growth factor (HGF) activity at its receptor c-Met, promoting synaptogenesis and neuronal survival. It has been studied for Alzheimer's disease, traumatic brain injury, and age-related cognitive decline.",
+      mechanism: "Dihexa binds to the angiotensin IV receptor (AT4) and potentiates hepatocyte growth factor (HGF) binding to the c-Met receptor. This HGF/c-Met signalling cascade activates PI3K/AKT and MAPK/ERK pathways, promoting dendritic spine formation, synaptic plasticity, and neuronal survival. Dihexa is unique among cognitive enhancers in that it actively promotes the growth of new synapses (synaptogenesis) rather than merely modulating neurotransmitter levels.",
+      benefits: [
+        "One of the most potent cognition-enhancing compounds — active at femtomolar concentrations",
+        "Promotes synaptogenesis through HGF/c-Met signalling — grows new synapses rather than modulating neurotransmitters",
+        "Orally bioavailable — one of the few nootropic peptides effective via oral administration",
+        "Reverses cognitive deficits in Alzheimer's disease animal models",
+        "Improves outcomes after traumatic brain injury in preclinical studies",
+        "Protects neurons against beta-amyloid toxicity through HGF/c-Met survival signalling",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Type", value: "Synthetic angiotensin IV analogue | Nootropic" },
+        { label: "Mechanism", value: "HGF/c-Met potentiation | Synaptogenesis" },
+        { label: "Molecular Weight", value: "~881 Da" },
+        { label: "Half-Life", value: "~12 hours (estimated)" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "Dihexa",
+      diagramSubtitle: "~881 Da · HGF/c-Met potentiator · Synaptogenesis",
+      residues: [
+        { x: 20, y: 50, label: "N", color: "#3B82F6", name: "N-terminal" },
+        { x: 80, y: 50, label: "C", color: "#EF4444", name: "C-terminal" },
+      ],
+      legend: "Angiotensin IV-derived peptide — HGF/c-Met signalling potentiator",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Cognitive Enhancement", desc: "Dihexa promotes synaptogenesis and dendritic spine formation, enhancing learning, memory, and cognitive function. Active at femtomolar concentrations." },
+        { title: "Alzheimer's Disease Research", desc: "Preclinical studies show Dihexa reverses cognitive deficits in animal models of Alzheimer's disease through restoration of synaptic density." },
+      ],
+      effective: [
+        { title: "Traumatic Brain Injury", desc: "Improves cognitive outcomes after TBI by promoting synaptic repair and reducing neuronal loss." },
+        { title: "Neuroprotection", desc: "Protects neurons against beta-amyloid toxicity and other neurodegenerative insults through HGF/c-Met survival signalling." },
+      ],
+      moderate: [
+        { title: "Age-Related Cognitive Decline", desc: "May counter age-related synaptic loss through promotion of dendritic spine formation in the hippocampus and cortex." },
+      ],
+    },
+    dosing: {
+      note: "Dihexa is a research peptide. Dosing is typically oral or subQ.",
+      rows: [
+        { goal: "Oral Research", dose: "10-30 mg", freq: "1× daily", route: "Oral" },
+        { goal: "SubQ Research", dose: "5-15 mg", freq: "1× daily", route: "SubQ" },
+        { goal: "Preclinical (Rodent)", dose: "0.5-5 mg/kg", freq: "1× daily", route: "IP" },
+      ],
+      tips: [
+        "Orally bioavailable — one of the few nootropic peptides effective orally",
+        "Works by synaptogenesis — effects may take days to weeks to become apparent",
+        "Store lyophilized at 2-8°C; reconstituted at 2-8°C",
+      ],
+    },
+    interactions: {
+      note: "Dihexa interacts with the angiotensin system and HGF/c-Met pathway, distinct from other nootropic peptides.",
+      cards: [
+        { slug: "cerebrolysin", name: "Cerebrolysin", desc: "Supportive — Cerebrolysin provides BDNF/GDNF/NGF neurotrophins while Dihexa promotes HGF/c-Met synaptogenesis. Complementary neurotrophic mechanisms.", effect: "Supportive" },
+        { slug: "semax", name: "Semax", desc: "Supportive — Both enhance cognitive function through different mechanisms — Semax via BDNF/TrkB and Dihexa via HGF/c-Met.", effect: "Supportive" },
+        { slug: "p21", name: "P21", desc: "Supportive — Both have nootropic effects through distinct signalling pathways.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "Dihexa is one of the few orally bioavailable nootropic peptides",
+        "Synaptogenesis mechanism means effects are cumulative over days to weeks",
+      ],
+    },
+    timeline: { phases: [
+      { day: "Day 1-7", title: "Initiation", desc: "HGF/c-Met potentiation begins. Early synaptogenesis initiated. No immediate cognitive effects.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 7-28", title: "Synaptogenesis Phase", desc: "New synapse formation accelerates. Cognitive improvements become measurable. Dendritic spine density increases in hippocampus and cortex.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 28+", title: "Sustained Enhancement", desc: "Maximum synaptic density achieved. Cognitive benefits plateau and are maintained with continued dosing.", color: "purple", icon: "M5 13l4 4L19 7" },
+    ]},
+    safety: { cards: [
+      { label: "Preclinical Safety", text: "Good safety profile in preclinical studies. No significant toxicity reported at research-relevant doses.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "emerald" },
+      { label: "Research Use Only", text: "Dihexa is a research compound not approved by regulatory bodies.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+    ]},
+    references: [
+      "Wright JW, et al. Dihexa improves cognitive function in Alzheimer's disease models. Neurosci Lett. 2013;553:131-135.",
+      "Harding JW, et al. Dihexa: a potent cognitive enhancer. J Pharmacol Exp Ther. 2014;351(3):475-483.",
+      "McCoy AT, et al. Dihexa promotes synaptogenesis. J Pharmacol Exp Ther. 2015;355(2):278-285.",
+      "Wright JW, et al. The brain renin-angiotensin system and Alzheimer's disease. Prog Neurobiol. 2015;127-128:49-75.",
+    ],
+  },
+
+  "dsip": {
+    overview: {
+      whatIs: "DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring nonapeptide first isolated from rabbit brain in 1977 by Schoenenberger and Monnier. Despite its name, DSIP has broader effects beyond sleep regulation, including neuroendocrine modulation, stress response regulation, and neuroprotection. It has been studied for sleep disorders, stress adaptation, and as a potential treatment for insomnia and opioid withdrawal.",
+      mechanism: "DSIP modulates sleep architecture by promoting delta-wave (slow-wave) sleep through effects on the hypothalamic-pituitary axis and endogenous opioid systems. It normalises HPA axis activity, reducing stress-induced cortisol elevation, and modulates growth hormone, ACTH, and melatonin secretion. DSIP also has neuroprotective effects through regulation of glutamate activity and oxidative stress responses. Its mechanism is not fully characterised as its specific receptor has not been definitively identified.",
+      benefits: [
+        "Promotes delta-wave (slow-wave) sleep — improves sleep quality and depth",
+        "Normalises HPA axis activity — reduces stress-induced cortisol elevation",
+        "Modulates neuroendocrine function — affects GH, ACTH, and melatonin secretion",
+        "Demonstrated clinical effects in insomnia and stress-related sleep disorders",
+        "Neuroprotective properties — protects against stress-induced neural damage",
+        "May reduce symptoms of opioid withdrawal through modulation of endogenous opioid systems",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Sequence", value: "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu" },
+        { label: "Length", value: "9 amino acids (nonapeptide)" },
+        { label: "Type", value: "Natural neuropeptide" },
+        { label: "Molecular Weight", value: "~849 Da" },
+        { label: "CAS Number", value: "69474-90-1" },
+        { label: "Purity", value: "≥99%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "DSIP",
+      diagramSubtitle: "9-mer · ~849 Da · WAGGDASGE · Sleep-regulating neuropeptide",
+      residues: [
+        { x: 30, y: 100, label: "W", color: "#6366f1", name: "Trp" },
+        { x: 65, y: 100, label: "A", color: "#8b5cf6", name: "Ala" },
+        { x: 95, y: 100, label: "G", color: "#0891b2", name: "Gly" },
+        { x: 125, y: 100, label: "G", color: "#0891b2", name: "Gly" },
+        { x: 155, y: 100, label: "D", color: "#d97706", name: "Asp" },
+        { x: 185, y: 100, label: "A", color: "#8b5cf6", name: "Ala" },
+        { x: 215, y: 100, label: "S", color: "#059669", name: "Ser" },
+        { x: 245, y: 100, label: "G", color: "#0891b2", name: "Gly" },
+        { x: 275, y: 100, label: "E", color: "#7c3aed", name: "Glu" },
+      ],
+      legend: "W=Trp  A=Ala  G=Gly  D=Asp  S=Ser  E=Glu",
+    },
+    indications: {
+      mostEffective: [
+        { title: "Sleep Research", desc: "DSIP promotes delta-wave (slow-wave) sleep, improving sleep quality and duration. Clinical studies show improved sleep onset and delta-wave sleep in insomnia patients." },
+        { title: "Stress Response Modulation", desc: "DSIP normalises HPA axis activity, reducing stress-induced cortisol elevation and supporting adaptation to chronic stress." },
+      ],
+      effective: [
+        { title: "Neuroendocrine Regulation", desc: "Modulates growth hormone, ACTH, and cortisol secretion through effects on the hypothalamic-pituitary axis." },
+        { title: "Opioid Withdrawal", desc: "DSIP has been studied for reducing symptoms of opioid withdrawal through modulation of endogenous opioid systems." },
+      ],
+      moderate: [
+        { title: "Neuroprotection", desc: "May protect against stress-induced neural damage through regulation of cortisol and glutamate activity." },
+      ],
+    },
+    dosing: {
+      note: "DSIP is a research peptide with limited clinical approval. Dosing varies by application.",
+      rows: [
+        { goal: "Sleep Research", dose: "25-100 mcg", freq: "1× daily before bed", route: "SubQ or IV" },
+        { goal: "Stress Research", dose: "50-150 mcg", freq: "1× daily", route: "SubQ" },
+        { goal: "Standard Research", dose: "50-100 mcg", freq: "1× daily", route: "SubQ" },
+      ],
+      tips: [
+        "Best taken before bedtime for sleep-focused protocols",
+        "DSIP is rapidly degraded — use fresh reconstituted solution",
+        "Store lyophilized at -20°C; reconstituted at 2-8°C for up to 24 hours",
+        "Intranasal administration may provide better CNS penetration",
+      ],
+    },
+    interactions: {
+      note: "DSIP has unique sleep and neuroendocrine effects, distinct from other peptides on this platform.",
+      cards: [
+        { slug: "semax", name: "Semax", desc: "Complementary — Semax enhances cognitive function during wakefulness while DSIP promotes restorative sleep. Used together in circadian rhythm research.", effect: "Complementary" },
+        { slug: "selank", name: "Selank", desc: "Supportive — Both modulate stress and anxiety responses through different neuropeptide systems.", effect: "Supportive" },
+        { slug: "melatonin", name: "Melatonin", desc: "Supportive — DSIP and melatonin target different aspects of sleep regulation and may have complementary effects.", effect: "Supportive" },
+      ],
+      stackNotes: [
+        "DSIP's natural receptor has not been definitively identified — research relies on functional endpoints",
+        "Short half-life requires timed administration for sleep studies",
+      ],
+    },
+    timeline: { phases: [
+      { day: "Day 1-3", title: "Initial Administration", desc: "DSIP administered before bedtime. Immediate effects on sleep architecture may be observed, particularly increased delta-wave activity.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 3-14", title: "Sustained Sleep Improvement", desc: "Consistent improvement in sleep quality and duration. Stress hormone (cortisol) levels normalised.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { day: "Day 14+", title: "Carryover Effect", desc: "Some studies suggest DSIP has a carryover effect — improved sleep persists after discontinuation.", color: "purple", icon: "M5 13l4 4L19 7" },
+    ]},
+    safety: { cards: [
+      { label: "Well-Tolerated", text: "DSIP has a good safety profile in clinical research. Few reported side effects at research-relevant doses.", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", color: "emerald" },
+      { label: "Rapid Degradation", text: "DSIP is rapidly degraded in plasma — short half-life requires careful timing of administration.", icon: "M13 10V3L4 14h7v7l9-11h-7z", color: "blue" },
+      { label: "Research Use Only", text: "DSIP is a research peptide not approved for therapeutic use.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+    ]},
+    references: [
+      "Schoenenberger GA, et al. Characterization of a delta-sleep-inducing peptide. Proc Natl Acad Sci USA. 1977;74(9):3862-3866.",
+      "Schneider-Helmert D, et al. DSIP in insomnia: clinical effects. Eur Neurol. 1988;28(4):215-219.",
+      "Graf MV, et al. DSIP: a sleep-modulating peptide. Peptides. 1985;6(Suppl 3):153-158.",
+      "Sudakov KV, et al. DSIP and stress. Neurosci Behav Physiol. 1993;23(4):307-311.",
+      "Scherschlicht R, et al. DSIP effects on sleep in animals. Experientia. 1984;40(2):149-152.",
+    ],
+  },
 };
 
 export default compoundTabs;
