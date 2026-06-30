@@ -400,8 +400,11 @@ export default function CompoundsPage() {
               <strong className="text-gray-900">{PEPTIDE_COUNT} research peptides</strong> across{" "}
               <strong className="text-gray-900">{SUPPLIER_COUNT} verified UK suppliers</strong>.
               Whether you&apos;re researching{" "}
-              <strong>BPC-157</strong>, <strong>TB-500</strong>,{" "}
-              <strong>Semaglutide</strong>, <strong>Tirzepatide</strong>, <strong>Retatrutide</strong>,{" "}
+              <CompoundLink href="/compounds/bpc-157">BPC-157</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/tb-500">TB-500</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/semaglutide">Semaglutide</CompoundLink>,{" "}
+              <strong>Tirzepatide</strong>,{" "}
+              <CompoundLink href="/compounds/retatrutide">Retatrutide</CompoundLink>,{" "}
               <strong>CJC-1295</strong>, <strong>MOTS-c</strong>, or <strong>IGF-1 LR3</strong> —
               we surface every available price from every supplier, all in one place.
             </p>
@@ -409,7 +412,7 @@ export default function CompoundsPage() {
               Finding the cheapest peptide prices in the UK shouldn&apos;t mean visiting a dozen supplier
               websites. ViralPeps lets you compare <strong>prices, dosages, and shipping options</strong>{" "}
               for every peptide side-by-side — from{" "}
-              <strong>GHK-Cu</strong> and <strong>BPC-157 (Oral)</strong>{" "}
+              <CompoundLink href="/compounds/ghk-cu">GHK-Cu</CompoundLink> and <strong>BPC-157 (Oral)</strong>{" "}
               to <CompoundLink href="/compounds/semax">Semax</CompoundLink>,{" "}
               <CompoundLink href="/compounds/selank">Selank</CompoundLink>,{" "}
               <strong>Epitalon</strong>, and{" "}
