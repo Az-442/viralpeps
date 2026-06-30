@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 interface ProductImageProps {
   vendorSlug: string;
   compoundSlug: string;
@@ -8,42 +10,39 @@ interface ProductImageProps {
   sourceImageUrl?: string;
 }
 
-export default function ProductImage({ vendorSlug, compoundSlug, compoundName, sourceImageUrl }: ProductImageProps) {
-  const handleError = (e: React.SyntheticEvent<HTMLImageElement>) => {
-    const img = e.currentTarget;
-    const currentSrc = img.src;
-    
-    // If starting from a remote CDN URL and it fails, fall through to local paths
-    if (currentSrc.startsWith("http")) {
-      img.src = `/images/products/${vendorSlug}/${compoundSlug}.webp`;
-      return;
-    }
-    
-    if (currentSrc.endsWith(".webp")) {
-      // Try .png next
-      img.src = `/images/products/${vendorSlug}/${compoundSlug}.png`;
-    } else if (currentSrc.endsWith(".png")) {
-      // Try .jpg next
-      img.src = `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
-    } else if (currentSrc.endsWith(".jpg")) {
-      // Try vendor generic fallback (PNG)
-      img.src = `/images/vendors/${vendorSlug}.png`;
-    } else if (currentSrc.includes("vendors/") && currentSrc.endsWith(".png")) {
-      // Try compound image
-      img.src = `/images/compounds/${compoundSlug}.png`;
-      img.className = "w-10 h-10 object-contain";
-      img.onerror = null;
-    } else if (currentSrc.includes("/images/compounds/")) {
-      // Compound image failed — clear handler, show nothing
-      img.onerror = null;
-    }
+export default function ProductImage({
+  vendorSlug,
+  compoundSlug,
+  compoundName,
+  sourceImageUrl,
+}: ProductImageProps) {
+  const [fallbackStep, setFallbackStep] = useState(0);
+
+  const currentSrc = (() => {
+    const step = fallbackStep;
+    if (step === 0 && sourceImageUrl) return sourceImageUrl;
+    if (step <= 1) return `/images/products/${vendorSlug}/${compoundSlug}.webp`;
+    if (step === 2) return `/images/products/${vendorSlug}/${compoundSlug}.png`;
+    if (step === 3) return `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
+    if (step === 4) return `/images/vendors/${vendorSlug}.png`;
+    return `/images/compounds/${compoundSlug}.png`;
+  })();
+
+  const handleError = () => {
+    if (fallbackStep >= 5) return; // give up
+    setFallbackStep((n: number) => n + 1);
   };
+
+  const imgClassName =
+    fallbackStep >= 4
+      ? "w-10 h-10 object-contain"
+      : "w-full h-full object-contain p-1";
 
   return (
     <img
-      src={sourceImageUrl || `/images/products/${vendorSlug}/${compoundSlug}.webp`}
+      src={currentSrc}
       alt={compoundName}
-      className="w-full h-full object-contain p-1"
+      className={imgClassName}
       onError={handleError}
     />
   );
