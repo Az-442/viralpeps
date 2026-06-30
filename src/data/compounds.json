@@ -78,7 +78,7 @@
     "mechanism": "GLP-1 receptor agonist that stimulates insulin secretion, suppresses glucagon release, slows gastric emptying, and reduces appetite through central mechanisms.",
     "cas": "910463-68-2",
     "molarMass": "4113.6 g/mol",
-    "sequence": "HESGTFTSDVSSYLEEQAAKEFIAWLVKGRG",
+    "sequence": "HXEGTFTSDVSSYLEGQAAKEFIAWLVKGRG",
     "purity": "\u226598%",
     "form": "Lyophilized powder",
     "halfLife": "7 days",
@@ -343,7 +343,7 @@
     "sequence": "Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES",
     "purity": "\u226599%",
     "form": "Lyophilized powder",
-    "halfLife": "4-6 hours",
+    "halfLife": "2-4 hours",
     "researchAreas": [
       "Wound healing",
       "Cardiac repair",
@@ -1899,7 +1899,7 @@
     "sequence": "GHK",
     "purity": "\u226599%",
     "form": "Lyophilized powder",
-    "halfLife": "~20 minutes",
+    "halfLife": "~30 minutes (in plasma)",
     "researchAreas": [
       "Wound healing",
       "Skin regeneration",
@@ -2114,7 +2114,7 @@
     "sequence": "Lys-Pro-Val",
     "purity": "\u226599%",
     "form": "Lyophilized powder",
-    "halfLife": "~15 minutes",
+    "halfLife": "1-2 hours",
     "researchAreas": [
       "Inflammatory bowel disease",
       "Wound healing",
@@ -2549,7 +2549,7 @@
     "sequence": "Met-Glu-His-Phe-Pro-Gly-Pro",
     "purity": "\u226599%",
     "form": "Lyophilized powder",
-    "halfLife": "15-30 minutes",
+    "halfLife": "30-60 minutes",
     "researchAreas": [
       "Cognitive enhancement",
       "Stroke recovery",
@@ -2712,7 +2712,7 @@
     "sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
     "purity": "\u226599%",
     "form": "Lyophilized powder",
-    "halfLife": "15-30 minutes",
+    "halfLife": "30-60 minutes",
     "researchAreas": [
       "Anxiety",
       "Cognitive enhancement",
