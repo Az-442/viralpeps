@@ -26,17 +26,23 @@ export interface VendorStats {
   allVendorNames: string[];
 }
 
-// Build a lookup: vendor name → set of compound ids (master only)
-const masterCompounds = compounds.filter((c) => !(c as any)?.compareSlug);
+// Build a lookup: vendor name → set of compound ids (only unique)
+// Use all compounds — both master (no compareSlug) and catalog (has compareSlug)
+// to get complete product counts per vendor
+const allCompounds = compounds;
 
-/** Map of vendor name → array of master compounds they supply */
-const vendorCompounds = new Map<string, typeof masterCompounds>();
+/** Map of vendor name → array of unique compounds they supply */
+const vendorCompounds = new Map<string, typeof allCompounds>();
 
-for (const c of masterCompounds) {
+for (const c of allCompounds) {
+  const seen = new Set<string>();
   for (const s of c.sources) {
-    const existing = vendorCompounds.get(s.vendor) || [];
-    existing.push(c);
-    vendorCompounds.set(s.vendor, existing);
+    if (!seen.has(s.vendor)) {
+      seen.add(s.vendor);
+      const existing = vendorCompounds.get(s.vendor) || [];
+      existing.push(c);
+      vendorCompounds.set(s.vendor, existing);
+    }
   }
 }
 
@@ -70,7 +76,7 @@ export function getVendorStats(vendorName: string): VendorStats {
     categories,
     categorySlugs,
     minPrice: minPrice === Infinity ? 0 : minPrice,
-    allVendorNames: [...new Set(masterCompounds.flatMap((c) => c.sources.map((s) => s.vendor)))],
+    allVendorNames: [...new Set((allCompounds as any[]).flatMap((c: any) => c.sources.map((s: any) => s.vendor as string)))],
   };
 }
 
