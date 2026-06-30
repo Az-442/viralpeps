@@ -141,10 +141,10 @@
     "mechanism": "Promotes angiogenesis, upregulates growth factors (VEGF, FGF), modulates nitric oxide system, and accelerates wound healing through multiple signaling pathways.",
     "cas": "137525-51-0",
     "molarMass": "1419.6 g/mol",
-    "sequence": "GEPPPGKPADDAGLV",
+    "sequence": "GKPPPGKPADDAGLV",
     "purity": "\u226599%",
     "form": "Lyophilized powder",
-    "halfLife": "Unknown (fast clearance)",
+    "halfLife": "<30 minutes",
     "researchAreas": [
       "GI healing",
       "Tendon repair",
