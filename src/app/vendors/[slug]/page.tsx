@@ -97,7 +97,8 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
     c.sources.some((s) => s.vendor === vendor.name)
   );
   const hasCatalogEntries = vendorSourceCompounds.some((c) =>
-    (c as any)?.compareSlug
+    (c as any)?.compareSlug &&
+    c.sources.every((s) => s.vendor === vendor.name)
   );
   const vendorCompounds = hasCatalogEntries
     ? vendorSourceCompounds.filter((c) =>
