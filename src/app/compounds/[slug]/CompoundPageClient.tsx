@@ -327,23 +327,25 @@ export default function CompoundPageClient({
 
       {/* ===== INFO TABS ===== */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
-        {/* Tab navigation */}
-        <div className="flex overflow-x-auto border-b border-gray-200 bg-gray-50" role="tablist">
-          {INFO_TABS.map((tab) => (
-            <button
-              key={tab.id}
-              role="tab"
-              aria-selected={activeTab === tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`whitespace-nowrap px-4 py-2.5 text-xs font-semibold transition-colors border-b-2 ${
-                activeTab === tab.id
-                  ? "border-blue-600 text-blue-700 bg-white"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:bg-gray-100"
-              }`}
-            >
-              {tab.label}
-            </button>
-          ))}
+        {/* Tab navigation - pill style */}
+        <div className="p-3 md:p-4 bg-gray-50 border-b border-gray-200">
+          <div className="flex flex-wrap gap-1.5" role="tablist">
+            {INFO_TABS.map((tab) => (
+              <button
+                key={tab.id}
+                role="tab"
+                aria-selected={activeTab === tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`whitespace-nowrap px-3.5 py-1.5 text-[11px] font-semibold rounded-full transition-all ${
+                  activeTab === tab.id
+                    ? "bg-blue-600 text-white shadow-sm"
+                    : "bg-white text-gray-600 border border-gray-200 hover:bg-gray-100 hover:text-gray-800"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Tab content */}

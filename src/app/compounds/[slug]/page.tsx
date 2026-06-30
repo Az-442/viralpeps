@@ -140,9 +140,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
       {/* ===== HERO BANNER ===== */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white">
-        <div className="max-w-6xl mx-auto px-4 py-8 md:py-10">
+        <div className="max-w-6xl mx-auto px-4 py-10 md:py-16 lg:py-20">
           {/* Badges row */}
-          <div className="flex flex-wrap items-center gap-2 mb-3">
+          <div className="flex flex-wrap items-center gap-2 mb-4">
             <span className="text-[10px] font-bold text-emerald-300 bg-emerald-900/40 px-2.5 py-1 rounded-full uppercase tracking-widest">
               LIVE PRICE COMPARISON
             </span>
@@ -192,9 +192,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
               <p className="text-2xl md:text-3xl font-bold text-white">{compound.sources.length}</p>
             </div>
             <div className="ml-auto">
-              <a href="#pricing-table" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold rounded-lg transition-colors shadow-lg shadow-blue-900/30">
+              <a href="#pricing-table" className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-colors shadow-lg shadow-blue-900/40 hover:shadow-xl hover:shadow-blue-900/50">
                 See all prices
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
                 </svg>
               </a>
