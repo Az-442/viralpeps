@@ -294,17 +294,67 @@ export default function CompoundsPage() {
     <div className="min-h-screen bg-white">
       <HeaderNav />
 
-      {/* HERO */}
+      {/* HERO - matching reference site style */}
       <section className="relative bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white overflow-hidden">
-        {/* subtle grid overlay */}
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMSIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
-        <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-20">
-          <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3">
-            Compare <span className="text-blue-400">{PEPTIDE_COUNT}</span> Research Peptides
+        <div className="relative max-w-6xl mx-auto px-4 py-12 md:py-20">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-1.5 text-[10px] font-bold text-emerald-300 bg-emerald-900/40 border border-emerald-700/30 px-2.5 py-1 rounded-full uppercase tracking-widest mb-4">
+            <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            PRICE COMPARISON
+          </div>
+
+          {/* Heading */}
+          <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3 max-w-3xl">
+            Every UK peptide price, sorted cheapest first.
           </h1>
-          <p className="text-blue-200 text-sm md:text-lg max-w-2xl leading-relaxed">
-            Price comparison across verified UK suppliers — updated daily.
+
+          {/* Description */}
+          <p className="text-blue-200 text-sm md:text-lg max-w-2xl leading-relaxed mb-6">
+            Track <strong className="text-white">{PEPTIDE_COUNT} research peptides</strong> across{" "}
+            <strong className="text-white">{SUPPLIER_COUNT} UK suppliers</strong>.
+            Find the best deal in seconds.
           </p>
+
+          {/* Search bar */}
+          <div className="relative max-w-md">
+            <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-blue-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
+            </svg>
+            <input
+              type="text"
+              placeholder="Search peptides (e.g. BPC-157, Retatrutide)..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full pl-10 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-sm text-white placeholder-blue-300/60 outline-none focus:border-blue-400 focus:bg-white/15 transition-all"
+            />
+          </div>
+
+          {/* Small stats row */}
+          <div className="flex flex-wrap items-center gap-5 mt-5 text-xs text-blue-300">
+            <span className="flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+              <strong className="text-white">{PEPTIDE_COUNT}</strong> peptides
+            </span>
+            <span className="w-px h-3 bg-blue-800/50" />
+            <span className="flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
+              </svg>
+              <strong className="text-white">{TOTAL_PRODUCTS.toLocaleString()}</strong> products tracked
+            </span>
+            <span className="w-px h-3 bg-blue-800/50" />
+            <span className="flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+              </svg>
+              Updated daily
+            </span>
+          </div>
         </div>
       </section>
 
@@ -312,21 +362,11 @@ export default function CompoundsPage() {
       <section className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 py-6">
 
-          {/* Search + sort bar */}
+          {/* Sort bar (search bar is now in hero) */}
           <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-            <div className="relative flex-1 min-w-[200px] max-w-sm">
-              <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
-              </svg>
-              <input
-                type="text"
-                placeholder="Search peptides..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm outline-none focus:border-blue-500 bg-white text-gray-800 placeholder-gray-400"
-              />
-            </div>
-            <select
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-gray-500">Sort:</span>
+              <select
               value={sort}
               onChange={(e) => setSort(e.target.value as typeof sort)}
               className="px-2.5 py-1.5 border border-gray-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
@@ -336,6 +376,8 @@ export default function CompoundsPage() {
               <option value="price">Cheapest first</option>
             </select>
           </div>
+          <span className="text-xs text-gray-400">{sorted.length} results</span>
+        </div>{/* END sort bar */}
 
           {/* Tabs row */}
           <div className="flex gap-1.5 overflow-x-auto pb-2 mb-2 scrollbar-thin" ref={(el) => { tabsRowRef.current = el; }}>
