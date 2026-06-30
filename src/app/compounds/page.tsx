@@ -34,29 +34,29 @@ function getSourceImage(c: any): string | null {
 }
 
 // ── Category → accent colour map (brighter, brand-aligned) ──
-const categoryAccents: Record<string, { border: string; bg: string; badge: string; icon: string }> = {
-  "glp-1-agonists":     { border: "border-purple-300", bg: "bg-purple-100", badge: "bg-purple-200 text-purple-800", icon: "#9333ea" },
-  "thymosin-bpc":       { border: "border-emerald-300", bg: "bg-emerald-100", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
-  "tb-500":             { border: "border-emerald-300", bg: "bg-emerald-100", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
-  "peptide-fragments":  { border: "border-emerald-300", bg: "bg-emerald-100", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
-  "growth-hormone":     { border: "border-blue-300", bg: "bg-blue-100", badge: "bg-blue-200 text-blue-800", icon: "#2563eb" },
-  "anti-aging":         { border: "border-indigo-300", bg: "bg-indigo-100", badge: "bg-indigo-200 text-indigo-800", icon: "#6366f1" },
-  "immunity-peptides":  { border: "border-cyan-300", bg: "bg-cyan-100", badge: "bg-cyan-200 text-cyan-800", icon: "#06b6d4" },
-  "tanning-libido":     { border: "border-rose-300", bg: "bg-rose-100", badge: "bg-rose-200 text-rose-800", icon: "#e11d48" },
-  "peptide-blends":     { border: "border-amber-300", bg: "bg-amber-100", badge: "bg-amber-200 text-amber-800", icon: "#d97706" },
-  cognitive:            { border: "border-violet-300", bg: "bg-violet-100", badge: "bg-violet-200 text-violet-800", icon: "#8b5cf6" },
-  "aod-fragments":      { border: "border-pink-300", bg: "bg-pink-100", badge: "bg-pink-200 text-pink-800", icon: "#ec4899" },
-  "research-compounds": { border: "border-gray-300", bg: "bg-gray-100", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" },
-  "research-solutions": { border: "border-lime-300", bg: "bg-lime-100", badge: "bg-lime-200 text-lime-800", icon: "#65a30d" },
-  "nasal-sprays":       { border: "border-teal-300", bg: "bg-teal-100", badge: "bg-teal-200 text-teal-800", icon: "#0d9488" },
-  "lab-supplies":       { border: "border-yellow-300", bg: "bg-yellow-100", badge: "bg-yellow-200 text-yellow-800", icon: "#ca8a04" },
-  supplies:             { border: "border-stone-300", bg: "bg-stone-100", badge: "bg-stone-200 text-stone-800", icon: "#78716c" },
-  other:                { border: "border-gray-300", bg: "bg-gray-100", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" },
-  "auto-imported":      { border: "border-gray-300", bg: "bg-gray-100", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" },
+const categoryAccents: Record<string, { border: string; bg: string; from: string; via: string; badge: string; icon: string }> = {
+  "glp-1-agonists":     { border: "border-purple-300", bg: "bg-purple-100", from: "from-purple-200", via: "via-purple-50", badge: "bg-purple-200 text-purple-800", icon: "#9333ea" },
+  "thymosin-bpc":       { border: "border-emerald-300", bg: "bg-emerald-100", from: "from-emerald-200", via: "via-emerald-50", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
+  "tb-500":             { border: "border-emerald-300", bg: "bg-emerald-100", from: "from-emerald-200", via: "via-emerald-50", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
+  "peptide-fragments":  { border: "border-emerald-300", bg: "bg-emerald-100", from: "from-emerald-200", via: "via-emerald-50", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
+  "growth-hormone":     { border: "border-blue-300", bg: "bg-blue-100", from: "from-blue-200", via: "via-blue-50", badge: "bg-blue-200 text-blue-800", icon: "#2563eb" },
+  "anti-aging":         { border: "border-indigo-300", bg: "bg-indigo-100", from: "from-indigo-200", via: "via-indigo-50", badge: "bg-indigo-200 text-indigo-800", icon: "#6366f1" },
+  "immunity-peptides":  { border: "border-cyan-300", bg: "bg-cyan-100", from: "from-cyan-200", via: "via-cyan-50", badge: "bg-cyan-200 text-cyan-800", icon: "#06b6d4" },
+  "tanning-libido":     { border: "border-rose-300", bg: "bg-rose-100", from: "from-rose-200", via: "via-rose-50", badge: "bg-rose-200 text-rose-800", icon: "#e11d48" },
+  "peptide-blends":     { border: "border-amber-300", bg: "bg-amber-100", from: "from-amber-200", via: "via-amber-50", badge: "bg-amber-200 text-amber-800", icon: "#d97706" },
+  cognitive:            { border: "border-violet-300", bg: "bg-violet-100", from: "from-violet-200", via: "via-violet-50", badge: "bg-violet-200 text-violet-800", icon: "#8b5cf6" },
+  "aod-fragments":      { border: "border-pink-300", bg: "bg-pink-100", from: "from-pink-200", via: "via-pink-50", badge: "bg-pink-200 text-pink-800", icon: "#ec4899" },
+  "research-compounds": { border: "border-gray-300", bg: "bg-gray-100", from: "from-gray-200", via: "via-gray-50", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" },
+  "research-solutions": { border: "border-lime-300", bg: "bg-lime-100", from: "from-lime-200", via: "via-lime-50", badge: "bg-lime-200 text-lime-800", icon: "#65a30d" },
+  "nasal-sprays":       { border: "border-teal-300", bg: "bg-teal-100", from: "from-teal-200", via: "via-teal-50", badge: "bg-teal-200 text-teal-800", icon: "#0d9488" },
+  "lab-supplies":       { border: "border-yellow-300", bg: "bg-yellow-100", from: "from-yellow-200", via: "via-yellow-50", badge: "bg-yellow-200 text-yellow-800", icon: "#ca8a04" },
+  supplies:             { border: "border-stone-300", bg: "bg-stone-100", from: "from-stone-200", via: "via-stone-50", badge: "bg-stone-200 text-stone-800", icon: "#78716c" },
+  other:                { border: "border-gray-300", bg: "bg-gray-100", from: "from-gray-200", via: "via-gray-50", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" },
+  "auto-imported":      { border: "border-gray-300", bg: "bg-gray-100", from: "from-gray-200", via: "via-gray-50", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" },
 };
 
 function getAccent(cat: string) {
-  return categoryAccents[cat] || { border: "border-gray-300", bg: "bg-gray-100", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" };
+  return categoryAccents[cat] || { border: "border-gray-300", bg: "bg-gray-100", from: "from-gray-200", via: "via-gray-50", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" };
 }
 
 // ── Category tab definition ──
@@ -123,9 +123,11 @@ function CompoundCard({ compound }: { compound: any }) {
       href={`/compounds/${slug}`}
       className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex flex-col`}
     >
-      {/* Header banner: LetterAvatar left + save badge */}
-      <div className={`flex items-center gap-3 p-3 md:p-4 ${accent.bg} relative`}>
-        <LetterAvatar name={compound.name} />
+      {/* Header banner: colour gradient left→right + LetterAvatar */}
+      <div className={`flex items-center gap-3 p-3 md:p-4 bg-gradient-to-r ${accent.from} ${accent.via} to-white relative`}>
+        <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-sm" style={{ backgroundColor: accent.icon }}>
+          {compound.name.trim().charAt(0).toUpperCase()}
+        </div>
         {savePct > 0 && (
           <div className="ml-auto inline-flex items-center gap-1 bg-white border border-emerald-200 rounded-full px-2.5 py-1 shadow-sm">
             <svg className="w-3 h-3 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
