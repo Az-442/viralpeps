@@ -124,8 +124,11 @@ function CompoundCard({ compound }: { compound: any }) {
       href={`/compounds/${slug}`}
       className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex flex-col`}
     >
-      {/* Header banner: colour gradient white→colour + LetterAvatar */}
-      <div className={`flex items-center gap-3 p-3 md:p-4 bg-gradient-to-r from-white ${accent.via} ${accent.from.replace('from-', 'to-')} relative`}>
+      {/* Header banner: colour gradient strong colour→white + LetterAvatar */}
+      <div className="flex items-center gap-3 p-3 md:p-4 relative"
+        style={{
+          background: `linear-gradient(to right, ${accent.icon}88, ${accent.icon}44, white)`
+        }}>
         <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-sm" style={{ backgroundColor: accent.icon }}>
           {compound.name.trim().charAt(0).toUpperCase()}
         </div>
