@@ -210,7 +210,7 @@ function CompoundLink({ href, children }: { href: string; children: React.ReactN
   return (
     <span
       onClick={(e) => { e.preventDefault(); router.push(href); }}
-      className="font-bold text-gray-900 hover:text-blue-600 cursor-pointer transition-colors"
+      className="font-semibold text-blue-600 hover:text-blue-800 underline underline-offset-2 decoration-blue-300 hover:decoration-blue-700 cursor-pointer transition-colors"
     >
       {children}
     </span>
@@ -403,9 +403,11 @@ export default function CompoundsPage() {
               <CompoundLink href="/compounds/bpc-157">BPC-157</CompoundLink>,{" "}
               <CompoundLink href="/compounds/tb-500">TB-500</CompoundLink>,{" "}
               <CompoundLink href="/compounds/semaglutide">Semaglutide</CompoundLink>,{" "}
-              <strong>Tirzepatide</strong>,{" "}
+              <CompoundLink href="/compounds/tirzepatide">Tirzepatide</CompoundLink>,{" "}
               <CompoundLink href="/compounds/retatrutide">Retatrutide</CompoundLink>,{" "}
-              <strong>CJC-1295</strong>, <strong>MOTS-c</strong>, or <strong>IGF-1 LR3</strong> —
+              <CompoundLink href="/compounds/cjc-1295">CJC-1295</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/mots-c">MOTS-c</CompoundLink>, or{" "}
+              <CompoundLink href="/compounds/igf-1-lr3">IGF-1 LR3</CompoundLink> —
               we surface every available price from every supplier, all in one place.
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -413,16 +415,22 @@ export default function CompoundsPage() {
               websites. ViralPeps lets you compare <strong>prices, dosages, and shipping options</strong>{" "}
               for every peptide side-by-side — from{" "}
               <CompoundLink href="/compounds/ghk-cu">GHK-Cu</CompoundLink> and <strong>BPC-157 (Oral)</strong>{" "}
-              to <strong>Semax</strong>, <strong>Selank</strong>, <strong>Epitalon</strong>, and{" "}
-              <strong>Thymosin Alpha-1</strong>. Our data is checked daily so you&apos;re always
+              to <CompoundLink href="/compounds/semax">Semax</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/selank">Selank</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/epitalon">Epitalon</CompoundLink>, and{" "}
+              <CompoundLink href="/compounds/thymosin-alpha-1">Thymosin Alpha-1</CompoundLink>. Our data is checked daily so you&apos;re always
               seeing accurate, up-to-date pricing. Just search, compare, and save.
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               Every supplier on ViralPeps is a verified UK-based peptide vendor with independently
               tested products. We&apos;re completely independent — there are no sponsored rankings,
-              no biased placements, and no hidden fees. Whether you need <strong>AOD-9604</strong>,{" "}
-              <strong>NAD+</strong>, <strong>SS-31</strong>, <strong>PT-141</strong>,{" "}
-              <strong>Mazdutide</strong>, or <strong>5-Amino-1MQ</strong>, our mission is simple:
+              no biased placements, and no hidden fees. Whether you need{" "}
+              <CompoundLink href="/compounds/aod-9604">AOD-9604</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/nad-plus">NAD+</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/ss-31">SS-31</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/pt-141-bremelanotide">PT-141</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/mazdutide">Mazdutide</CompoundLink>, or{" "}
+              <CompoundLink href="/compounds/5-amino-1mq">5-Amino-1MQ</CompoundLink>, our mission is simple:
               help you make informed decisions with confidence.
             </p>
           </div>
