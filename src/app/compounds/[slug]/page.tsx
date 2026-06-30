@@ -96,12 +96,16 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
   const accent = getAccent(compound.category);
   const categoryLabel = compound.category.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
 
+  // Count unique suppliers (not total product entries) — before FAQ uses it
+  const uniqueSuppliers = new Set(compound.sources.map((s) => s.vendor)).size;
+  const totalProducts = compound.sources.length;
+
   // Build FAQ schema
   const faqEntries = [
     { q: `What is ${compound.name}?`, a: compound.description },
     { q: `What is the CAS number for ${compound.name}?`, a: `The CAS registry number for ${compound.name} is ${compound.cas}.` },
     { q: `What is the half-life of ${compound.name}?`, a: `${compound.name} has an approximate half-life of ${compound.halfLife}.` },
-    { q: `Where can I buy ${compound.name} in the UK?`, a: `${compound.name} is available from ${compound.sources.length} UK suppliers on ViralPeps, with prices starting from £${minPrice.toFixed(2)}. Compare all suppliers above.` },
+    { q: `Where can I buy ${compound.name} in the UK?`, a: `${compound.name} is available from ${uniqueSuppliers} UK suppliers on ViralPeps, with prices starting from £${minPrice.toFixed(2)}. Compare all suppliers above.` },
   ];
   if (compound.faq && Array.isArray(compound.faq)) {
     compound.faq.forEach((f: { question: string; answer: string }) => {
@@ -185,7 +189,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           <div className="flex flex-wrap items-center gap-2 md:gap-3">
             <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
               <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Suppliers</span>
-              <span className="font-bold text-white">{compound.sources.length}</span>
+              <span className="font-bold text-white">{uniqueSuppliers}</span>
             </span>
             <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
               <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">From</span>
@@ -197,7 +201,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </span>
             <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
               <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Products</span>
-              <span className="font-bold text-white">{compound.sources.length}</span>
+              <span className="font-bold text-white">{totalProducts}</span>
             </span>
             <div className="ml-auto">
               <a href="#pricing-table" className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-colors shadow-lg shadow-blue-900/40 hover:shadow-xl hover:shadow-blue-900/50">
@@ -300,7 +304,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         <div className="max-w-6xl mx-auto px-4 py-5">
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
             <div className="text-center">
-              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+              <p className="text-2xl font-bold text-white">{uniqueSuppliers}</p>
               <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
             </div>
             <div className="w-px h-10 bg-blue-800/50" />
@@ -310,7 +314,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </div>
             <div className="w-px h-10 bg-blue-800/50" />
             <div className="text-center">
-              <p className="text-2xl font-bold text-white">{compound.sources.length}</p>
+              <p className="text-2xl font-bold text-white">{totalProducts}</p>
               <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
             </div>
           </div>
@@ -328,6 +332,8 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           accent={accent}
           allDosages={allDosages}
           faqEntries={faqEntries}
+          uniqueSuppliers={uniqueSuppliers}
+          totalProducts={totalProducts}
         />
       </div>
 

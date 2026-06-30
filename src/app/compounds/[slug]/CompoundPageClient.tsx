@@ -76,6 +76,8 @@ export default function CompoundPageClient({
   accent,
   allDosages,
   faqEntries,
+  uniqueSuppliers,
+  totalProducts,
 }: {
   compound: any;
   vendors: Vendor[];
@@ -85,6 +87,8 @@ export default function CompoundPageClient({
   accent: { border: string; bg: string; badge: string; icon: string };
   allDosages: string[];
   faqEntries: FaqEntry[];
+  uniqueSuppliers: number;
+  totalProducts: number;
 }) {
   const [activeTab, setActiveTab] = useState<TabId>("prices");
   const [selectedDosage, setSelectedDosage] = useState("all");
@@ -152,10 +156,10 @@ export default function CompoundPageClient({
     return list;
   }, [sortedSources, selectedDosage, sortBy, vendors, isCompareMode, selectedVendors]);
 
-  // Stats
-  const supplierCount = compound.sources.length;
+  // Stats (use props instead of recalculating)
+  const supplierCount = uniqueSuppliers;
   const dosageCount = allDosages.length;
-  const productCount = compound.sources.length;
+  const productCount = totalProducts;
 
   // Tab content map
   const tabContent = useMemo(() => {
