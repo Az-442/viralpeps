@@ -6,12 +6,9 @@ import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import { PEPTIDE_COUNT, SUPPLIER_COUNT, TOTAL_PRODUCTS } from "@/data/stats";
-import { CATEGORY_LABELS } from "@/data/categories";
+import { HOMEPAGE_CATEGORY_GROUPS, CATEGORY_LABELS } from "@/data/categories";
 
-// ── Category → human label map (from central definitions) ──
-const badgeLabels: Record<string, string> = CATEGORY_LABELS;
-
-// ── Helpers per compound ──
+// ── Helpers ──
 function calcMinPrice(sources: { price: string }[]): number {
   return Math.min(...sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || Infinity));
 }
@@ -23,26 +20,55 @@ function calcSavePercent(minP: number, maxP: number): number {
   if (!maxP || maxP <= minP) return 0;
   return Math.round(((maxP - minP) / maxP) * 100);
 }
-function dosageSummary(sources: { options?: { size: string; price: string }[] }[]): string {
-  const sizes = new Set<string>();
-  let hasVarious = false;
-  for (const s of sources) {
-    if (s.options && s.options.length > 0) {
-      for (const o of s.options) {
-        sizes.add(o.size.trim());
-      }
-    } else {
-      hasVarious = true;
-    }
-  }
-  if (sizes.size > 2) return "Various doses";
-  if (sizes.size === 1) return [...sizes][0];
-  if (sizes.size === 2) return [...sizes].join(" & ");
-  return hasVarious ? "Various doses" : "Various doses";
+function dosageLabel(dosages: string[]): string {
+  if (!dosages || dosages.length === 0) return "";
+  const first = dosages[0];
+  const match = first.match(/([\d.,]+)\s*(mg|mcg|g|ml)/i);
+  if (match) return match[1] + match[2].toLowerCase();
+  return "";
 }
-function categoryLabel(cat: string): string {
-  return badgeLabels[cat] || cat.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+function getSourceImage(c: any): string | null {
+  const sources = c.sources || [];
+  const withImage = sources.find((s: any) => (s as any).image);
+  return (withImage as any)?.image || null;
 }
+
+// ── Category → accent colour map ──
+const categoryAccents: Record<string, { border: string; bg: string; text: string; badge: string; icon: string }> = {
+  "glp-1-agonists":     { border: "border-emerald-200", bg: "bg-emerald-50", text: "text-emerald-700", badge: "bg-emerald-100 text-emerald-700", icon: "#059669" },
+  "thymosin-bpc":       { border: "border-blue-200", bg: "bg-blue-50", text: "text-blue-700", badge: "bg-blue-100 text-blue-700", icon: "#2563eb" },
+  "tb-500":             { border: "border-blue-200", bg: "bg-blue-50", text: "text-blue-700", badge: "bg-blue-100 text-blue-700", icon: "#2563eb" },
+  "peptide-fragments":  { border: "border-blue-200", bg: "bg-blue-50", text: "text-blue-700", badge: "bg-blue-100 text-blue-700", icon: "#2563eb" },
+  "growth-hormone":     { border: "border-indigo-200", bg: "bg-indigo-50", text: "text-indigo-700", badge: "bg-indigo-100 text-indigo-700", icon: "#6366f1" },
+  "anti-aging":         { border: "border-purple-200", bg: "bg-purple-50", text: "text-purple-700", badge: "bg-purple-100 text-purple-700", icon: "#9333ea" },
+  "immunity-peptides":  { border: "border-cyan-200", bg: "bg-cyan-50", text: "text-cyan-700", badge: "bg-cyan-100 text-cyan-700", icon: "#06b6d4" },
+  "tanning-libido":     { border: "border-rose-200", bg: "bg-rose-50", text: "text-rose-700", badge: "bg-rose-100 text-rose-700", icon: "#e11d48" },
+  "peptide-blends":     { border: "border-slate-200", bg: "bg-slate-50", text: "text-slate-700", badge: "bg-slate-100 text-slate-700", icon: "#64748b" },
+  cognitive:            { border: "border-violet-200", bg: "bg-violet-50", text: "text-violet-700", badge: "bg-violet-100 text-violet-700", icon: "#8b5cf6" },
+  "aod-fragments":      { border: "border-pink-200", bg: "bg-pink-50", text: "text-pink-700", badge: "bg-pink-100 text-pink-700", icon: "#ec4899" },
+  "research-compounds": { border: "border-gray-200", bg: "bg-gray-50", text: "text-gray-700", badge: "bg-gray-100 text-gray-700", icon: "#6b7280" },
+  "research-solutions": { border: "border-lime-200", bg: "bg-lime-50", text: "text-lime-700", badge: "bg-lime-100 text-lime-700", icon: "#65a30d" },
+  "nasal-sprays":       { border: "border-teal-200", bg: "bg-teal-50", text: "text-teal-700", badge: "bg-teal-100 text-teal-700", icon: "#0d9488" },
+  "lab-supplies":       { border: "border-yellow-200", bg: "bg-yellow-50", text: "text-yellow-700", badge: "bg-yellow-100 text-yellow-700", icon: "#ca8a04" },
+  supplies:             { border: "border-stone-200", bg: "bg-stone-50", text: "text-stone-700", badge: "bg-stone-100 text-stone-700", icon: "#78716c" },
+  other:                { border: "border-gray-200", bg: "bg-gray-50", text: "text-gray-700", badge: "bg-gray-100 text-gray-700", icon: "#6b7280" },
+  "auto-imported":      { border: "border-gray-200", bg: "bg-gray-50", text: "text-gray-700", badge: "bg-gray-100 text-gray-700", icon: "#6b7280" },
+};
+
+function getAccent(cat: string) {
+  return categoryAccents[cat] || { border: "border-gray-200", bg: "bg-gray-50", text: "text-gray-700", badge: "bg-gray-100 text-gray-700", icon: "#6b7280" };
+}
+
+// ── Category tab definition ──
+interface TabDef {
+  label: string;
+  slugs: string[] | null; // null = "All"
+}
+
+const categoryTabs: TabDef[] = [
+  { label: "All", slugs: null },
+  ...HOMEPAGE_CATEGORY_GROUPS.map((g) => ({ label: g.badge, slugs: g.slugs })),
+];
 
 // ── SVG Icons ──
 function CheckIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
@@ -52,20 +78,7 @@ function CheckIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
     </svg>
   );
 }
-function PeopleIcon({ className = "w-4 h-4" }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 00-3-3.87" /><path d="M16 3.13a4 4 0 010 7.75" />
-    </svg>
-  );
-}
-function LightningIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-      <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-    </svg>
-  );
-}
+
 function ArrowRightIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -74,119 +87,92 @@ function ArrowRightIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
   );
 }
 
-// ── Letter avatar (bigger, brighter, brand colours) ──
-function LetterAvatar({ name, className = "" }: { name: string; className?: string }) {
-  const letter = name.trim().charAt(0).toUpperCase();
-  const colors = [
-    "bg-orange-600", "bg-blue-600", "bg-emerald-600", "bg-purple-600",
-    "bg-rose-600", "bg-indigo-600", "bg-amber-600", "bg-teal-600",
-  ];
-  const idx = name.charCodeAt(0) % colors.length;
-  return (
-    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-white font-bold text-base flex-shrink-0 ${colors[idx]} ${className}`}>
-      {letter}
-    </div>
-  );
-}
-
-// Get a supplier product image for a compound
-function getSourceImage(c: any): string | null {
-  const sources = c.sources || [];
-  const withImage = sources.find((s: any) => (s as any).image);
-  return (withImage as any)?.image || null;
-}
-
-// ── Single compound card ──
+// ── Single compound card (reference-site style, 3-col grid) ──
 function CompoundCard({ compound }: { compound: any }) {
   const minP = calcMinPrice(compound.sources);
   const maxP = calcMaxPrice(compound.sources);
   const savePct = calcSavePercent(minP, maxP);
-  const dosages = dosageSummary(compound.sources);
-  const benefits = (compound.researchAreas || []).slice(0, 3);
-  const hasMore = (compound.researchAreas || []).length > 3;
-  const supplierCount = compound.sources.length;
-  const category = categoryLabel(compound.category);
   const slug = compound.slug;
   const sourceImg = getSourceImage(compound);
+  const count = compound.sources.length;
+  const dosages = (compound.commonDosages || []).slice(0, 4);
+  const dosagesMore = (compound.commonDosages || []).length - 4;
+  const cat = compound.category;
+  const accent = getAccent(cat);
 
   return (
-    <div className="bg-white border border-black rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-      {/* TOP SECTION */}
-      <div className="p-4 md:p-5 pb-3">
-        {/* Badge + Save badge row */}
-        <div className="flex items-center gap-2 mb-2">
-          {sourceImg ? (
-            <div className="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-blue-50 border border-blue-100 flex items-center justify-center">
-              <img src={sourceImg} alt={compound.name} className="w-10 h-10 object-contain" />
-            </div>
-          ) : (
-            <LetterAvatar name={compound.name} />
-          )}
-          {savePct > 0 && (
-            <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-2.5 py-0.5">
-              <LightningIcon />
-              Save {savePct}%
-            </span>
-          )}
-        </div>
-
-        {/* Name + Category */}
-        <div className="flex flex-wrap items-center gap-2 mb-1">
-          <h3 className="text-lg md:text-xl font-bold text-gray-900">{compound.name}</h3>
-          <span className="text-[10px] font-semibold bg-blue-50 text-blue-700 px-2 py-0.5 rounded uppercase tracking-wider whitespace-nowrap">
-            {category}
-          </span>
-        </div>
-
-        {/* Alias / subtitle */}
-        {compound.aliases && compound.aliases.length > 0 && (
-          <p className="text-sm text-gray-500 mb-2">{compound.aliases[0]}</p>
+    <Link
+      href={`/compounds/${slug}`}
+      className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex flex-col`}
+    >
+      {/* Image area */}
+      <div className={`h-36 ${accent.bg} flex items-center justify-center relative overflow-hidden`}>
+        {sourceImg ? (
+          <img src={sourceImg} alt={compound.name} className="w-28 h-28 object-contain" />
+        ) : (
+          <svg className="w-16 h-16" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="14" y="6" width="20" height="36" rx="4" fill={accent.icon} opacity="0.3" />
+            <rect x="16" y="10" width="16" height="28" rx="3" fill={accent.icon} opacity="0.15" />
+            <rect x="14" y="4" width="20" height="6" rx="3" fill={accent.icon} opacity="0.4" />
+            <rect x="20" y="2" width="8" height="12" rx="2" fill={accent.icon} opacity="0.5" />
+            <line x1="20" y1="22" x2="28" y2="22" stroke={accent.icon} strokeWidth="1.5" opacity="0.6" />
+            <line x1="20" y1="26" x2="26" y2="26" stroke={accent.icon} strokeWidth="1.5" opacity="0.6" />
+            <line x1="20" y1="30" x2="24" y2="30" stroke={accent.icon} strokeWidth="1.5" opacity="0.6" />
+          </svg>
         )}
+        {/* Save badge */}
+        {savePct > 0 && (
+          <div className="absolute top-2 right-2 bg-orange-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-md">
+            -{savePct}%
+          </div>
+        )}
+      </div>
 
-        {/* Benefits as checkmark pills */}
-        {benefits.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5 mb-3">
-            {benefits.map((b: string) => (
-              <span key={b} className="inline-flex items-center gap-1 text-xs text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-2.5 py-0.5">
-                <CheckIcon className="w-3 h-3 text-emerald-500" />
-                {b}
-              </span>
+      {/* Content */}
+      <div className="p-4 flex flex-col flex-1">
+        {/* Name */}
+        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">
+          {compound.name}
+        </h3>
+
+        {/* Supplier count */}
+        <div className="flex items-baseline gap-0.5 mt-1">
+          <span className="text-lg font-bold text-emerald-600">{count}</span>
+          <span className="text-[10px] text-slate-400 uppercase tracking-wider font-medium">SUPPLIERS</span>
+        </div>
+
+        {/* Dosage pills */}
+        {dosages.length > 0 && (
+          <div className="flex flex-wrap gap-1 mt-2">
+            {dosages.map((d: string) => (
+              <span key={d} className={`text-[10px] ${accent.badge} px-1.5 py-0.5 rounded font-medium`}>{d}</span>
             ))}
-            {hasMore && (
-              <span className="text-xs text-blue-600 font-medium hover:underline cursor-default">+{compound.researchAreas.length - 3} more</span>
+            {dosagesMore > 0 && (
+              <span className={`text-[10px] ${accent.badge} px-1.5 py-0.5 rounded font-medium`}>+{dosagesMore}</span>
             )}
           </div>
         )}
 
-        {/* Price row */}
-        <div className="flex items-end justify-between flex-wrap gap-2">
+        {/* Category badge */}
+        <span className={`text-[10px] ${accent.badge} px-1.5 py-0.5 rounded font-medium mt-2 self-start`}>
+          {CATEGORY_LABELS[cat] || cat}
+        </span>
+
+        {/* Spacer */}
+        <div className="flex-1" />
+
+        {/* Price + CTA */}
+        <div className="mt-3 pt-3 border-t border-gray-100 flex items-end justify-between">
           <div>
-            <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider block leading-tight">From</span>
-            <span className="text-2xl md:text-3xl font-extrabold text-emerald-600 leading-none">£{minP.toFixed(2)}</span>
-            {maxP > minP && (
-              <span className="ml-2 text-sm text-gray-400 line-through align-baseline">£{maxP.toFixed(2)} max</span>
-            )}
+            <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
+            <div className="text-lg md:text-xl font-extrabold text-emerald-600">£{minP.toFixed(2)}</div>
           </div>
-          <div className="text-right flex-shrink-0">
-            <div className="flex items-center gap-1 text-sm text-gray-600">
-              <PeopleIcon />
-              <span className="font-semibold">{supplierCount}</span>
-              <span className="text-gray-400">supplier{supplierCount !== 1 ? "s" : ""}</span>
-            </div>
-            <p className="text-xs text-gray-400 mt-0.5">{dosages}</p>
+          <div className={`px-3 py-1.5 rounded-lg text-xs font-bold ${accent.bg} ${accent.text} hover:opacity-80 transition-opacity flex items-center gap-1`}>
+            Compare <ArrowRightIcon />
           </div>
         </div>
       </div>
-
-      {/* CTA BUTTON */}
-      <Link
-        href={`/compounds/${slug}`}
-        className="block w-full text-center py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold transition-colors flex items-center justify-center gap-1.5"
-      >
-        Compare prices
-        <ArrowRightIcon />
-      </Link>
-    </div>
+    </Link>
   );
 }
 
@@ -194,19 +180,35 @@ function CompoundCard({ compound }: { compound: any }) {
 export default function CompoundsPage() {
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<"a-z" | "suppliers" | "price">("a-z");
+  const [activeTab, setActiveTab] = useState<string>("All");
 
+  // All compounds (exclude compare-only entries)
+  const allCompounds = useMemo(() => compounds.filter((c) => !(c as any)?.compareSlug), []);
+
+  // Filtered by search + category tab
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim();
-    const all = compounds.filter((c) => !(c as any)?.compareSlug);
-    if (!q) return all;
-    return all.filter((c) =>
-      c.name.toLowerCase().includes(q) ||
-      (c.aliases || []).some((a: string) => a.toLowerCase().includes(q)) ||
-      c.category.toLowerCase().includes(q) ||
-      c.description.toLowerCase().includes(q)
-    );
-  }, [search]);
+    let list = allCompounds;
 
+    // Category tab filter
+    const tab = categoryTabs.find((t) => t.label === activeTab);
+    if (tab && tab.slugs) {
+      list = list.filter((c) => tab.slugs!.includes(c.category));
+    }
+
+    // Search filter
+    if (q) {
+      list = list.filter((c) =>
+        c.name.toLowerCase().includes(q) ||
+        (c.aliases || []).some((a: string) => a.toLowerCase().includes(q)) ||
+        c.category.toLowerCase().includes(q) ||
+        c.description.toLowerCase().includes(q)
+      );
+    }
+    return list;
+  }, [search, activeTab, allCompounds]);
+
+  // Sorted
   const sorted = useMemo(() => {
     const list = [...filtered];
     if (sort === "a-z") {
@@ -227,7 +229,7 @@ export default function CompoundsPage() {
     <div className="min-h-screen bg-white">
       <HeaderNav />
 
-      {/* ── HERO BANNER ── */}
+      {/* ── HERO ── */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
         <div className="max-w-5xl mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
           <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">
@@ -250,7 +252,7 @@ export default function CompoundsPage() {
                 placeholder="Search peptides (e.g. BPC-157, Mots-C)..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full pl-5 pr-14 py-3.5 bg-white rounded-full text-sm outline-none focus:ring-2 focus:ring-cyan-400 text-gray-900 placeholder-gray-500 shadow-lg"
+                className="w-full pl-5 pr-14 py-3.5 bg-white rounded-full text-sm outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 shadow-lg"
               />
               <div className="absolute right-1.5 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center">
                 <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -278,7 +280,7 @@ export default function CompoundsPage() {
         </div>
       </section>
 
-      {/* ── DISCLAIMER BAR ── */}
+      {/* ── DISCLAIMER ── */}
       <div className="bg-amber-50 border-b border-amber-200">
         <div className="max-w-5xl mx-auto px-4 py-2.5 flex items-start gap-2 text-xs text-amber-800">
           <svg className="w-4 h-4 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -286,26 +288,53 @@ export default function CompoundsPage() {
             <line x1="12" y1="9" x2="12" y2="13" />
             <line x1="12" y1="17" x2="12.01" y2="17" />
           </svg>
-          <p>
-            All peptides are for in-vitro research use only. We&apos;re a price comparison service. Prices checked daily.
-          </p>
+          <p>All peptides are for in-vitro research use only. We&apos;re a price comparison service. Prices checked daily.</p>
         </div>
       </div>
 
       {/* ── LISTING ── */}
-      <div className="max-w-4xl mx-auto px-4 pt-6 pb-16">
-        {/* Directory heading + sort */}
-        <div className="flex items-center justify-between mb-1">
+      <div className="max-w-7xl mx-auto px-4 pt-6 pb-16">
+        {/* Category tabs */}
+        <div className="overflow-x-auto pb-2 -mx-4 px-4" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
+          <div className="flex gap-2 min-w-max">
+            {categoryTabs.map((tab) => {
+              const isActive = activeTab === tab.label;
+              return (
+                <button
+                  key={tab.label}
+                  onClick={() => setActiveTab(tab.label)}
+                  className={`whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-semibold transition-colors border ${
+                    isActive
+                      ? "bg-gray-900 text-white border-gray-900"
+                      : "bg-white text-gray-600 border-gray-300 hover:border-gray-900 hover:text-gray-900"
+                  }`}
+                >
+                  {tab.label === "All" ? "All Peptides" : tab.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Heading row: dynamic count + sort */}
+        <div className="flex items-center justify-between mt-4 mb-1">
           <div>
-            <div className="flex items-center gap-2">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="#6366f1">
-                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" />
-              </svg>
-              <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">Browse Peptides</span>
-            </div>
-            <h2 className="text-xl font-bold text-gray-900 mt-0.5">
-              All {PEPTIDE_COUNT} research peptides
+            <h2 className="text-xl font-bold text-gray-900">
+              {search
+                ? `${filtered.length} results`
+                : activeTab === "All"
+                  ? `All ${allCompounds.length} research peptides`
+                  : `${filtered.length} ${activeTab.toLowerCase()} peptides`
+              }
             </h2>
+            <p className="text-sm text-gray-500">
+              {search
+                ? `Showing ${filtered.length} of ${allCompounds.length} compounds`
+                : activeTab === "All"
+                  ? `Pick any peptide to see a live side-by-side price comparison.`
+                  : `Browse all ${CATEGORY_LABELS[categoryTabs.find(t => t.label === activeTab)?.slugs?.[0] || ""] || activeTab.toLowerCase()} peptides.`
+              }
+            </p>
           </div>
           <select
             value={sort}
@@ -317,15 +346,9 @@ export default function CompoundsPage() {
             <option value="price">Cheapest first</option>
           </select>
         </div>
-        <p className="text-sm text-gray-500 mb-6">
-          {search
-            ? `${filtered.length} compounds match "${search}"`
-            : `Pick any peptide to see a live side-by-side price comparison.`
-          }
-        </p>
 
-        {/* Cards */}
-        {filtered.length === 0 ? (
+        {/* Cards grid — 3 columns */}
+        {sorted.length === 0 ? (
           <div className="text-center py-16">
             <div className="w-16 h-16 mx-auto mb-4 text-gray-300">
               <svg viewBox="0 0 48 48" fill="none">
@@ -334,16 +357,11 @@ export default function CompoundsPage() {
               </svg>
             </div>
             <h3 className="text-lg font-semibold text-gray-500 mb-1">No peptides found</h3>
-            <p className="text-sm text-gray-400">Try searching for a different peptide name.</p>
-            <button
-              onClick={() => setSearch("")}
-              className="mt-4 text-sm text-blue-600 hover:text-blue-700 underline underline-offset-2"
-            >
-              Clear search
-            </button>
+            <p className="text-sm text-gray-400">Try a different search or category.</p>
+            <button onClick={() => { setSearch(""); setActiveTab("All"); }} className="mt-4 text-sm text-blue-600 hover:text-blue-700 underline underline-offset-2">Clear filters</button>
           </div>
         ) : (
-          <div className="space-y-3 md:space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mt-4">
             {sorted.map((c) => (
               <CompoundCard key={c.id} compound={c} />
             ))}
@@ -351,19 +369,16 @@ export default function CompoundsPage() {
         )}
       </div>
 
-      {/* ── WHY VIRALPEPS — SEO trust section ── */}
+      {/* ── WHY VIRALPEPS ── */}
       <section className="bg-blue-50 border-t border-blue-200">
         <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
           <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
-            {/* Pill badge */}
             <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
               <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
               </svg>
               WHY VIRALPEPS
             </div>
-
-            {/* Paragraph 1 — Hook + product names */}
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
               ViralPeps is the UK&apos;s most comprehensive peptide price comparison platform, tracking{" "}
               <strong className="text-gray-900">{PEPTIDE_COUNT} research peptides</strong> across{" "}
@@ -373,8 +388,6 @@ export default function CompoundsPage() {
               <strong>CJC-1295</strong>, <strong>MOTS-c</strong>, or <strong>IGF-1 LR3</strong> —
               we surface every available price from every supplier, all in one place.
             </p>
-
-            {/* Paragraph 2 — Benefit / what you can do */}
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
               Finding the cheapest peptide prices in the UK shouldn&apos;t mean visiting a dozen supplier
               websites. ViralPeps lets you compare <strong>prices, dosages, and shipping options</strong>{" "}
@@ -383,8 +396,6 @@ export default function CompoundsPage() {
               <strong>Thymosin Alpha-1</strong>. Our data is checked daily so you&apos;re always
               seeing accurate, up-to-date pricing. Just search, compare, and save.
             </p>
-
-            {/* Paragraph 3 — Trust / authority */}
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               Every supplier on ViralPeps is a verified UK-based peptide vendor with independently
               tested products. We&apos;re completely independent — there are no sponsored rankings,
