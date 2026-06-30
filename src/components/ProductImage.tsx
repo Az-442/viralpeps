@@ -18,9 +18,9 @@ export default function ProductImage({ vendorSlug, compoundSlug, compoundName }:
       // Try .jpg next
       img.src = `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
     } else if (currentSrc.endsWith(".jpg")) {
-      // Try vendor generic fallback
-      img.src = `/images/vendors/${vendorSlug}.webp`;
-    } else if (currentSrc.includes("vendors/") && currentSrc.endsWith(".webp")) {
+      // Try vendor generic fallback (PNG)
+      img.src = `/images/vendors/${vendorSlug}.png`;
+    } else if (currentSrc.includes("vendors/") && currentSrc.endsWith(".png")) {
       // Try compound image
       img.src = `/images/compounds/${compoundSlug}.png`;
       img.className = "w-10 h-10 object-contain";
