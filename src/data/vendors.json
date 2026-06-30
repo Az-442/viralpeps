@@ -331,5 +331,64 @@
     ],
     "lastTested": "2026-06-28",
     "labTested": true
+  },
+  {
+    "id": "peptides-lab-uk",
+    "name": "Peptides Lab UK",
+    "slug": "peptides-lab-uk",
+    "website": "https://peptideslabuk.com",
+    "rating": 4.8,
+    "verified": true,
+    "founded": 2020,
+    "country": "UK",
+    "description": "One of the UK's largest research peptide suppliers with 98+ lab-tested products. All batches independently third-party tested via Optima Labs (ISO/IEC 17025). Cold-chain storage, auto-apply volume discounts, and free UK delivery on all orders.",
+    "highlights": [
+      "98+ products — largest UK catalog",
+      "Third-party tested (Optima Labs ISO/IEC 17025)",
+      "Free UK delivery",
+      "Auto volume discounts (up to 20% off)",
+      "Batch-specific COAs",
+      "500,000+ orders fulfilled"
+    ],
+    "shipping": [
+      "UK free delivery",
+      "Cold-chain available",
+      "Next-business-day dispatch"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer",
+      "Cryptocurrency"
+    ],
+    "lastTested": "2026-06-30",
+    "labTested": true
+  },
+  {
+    "id": "biohack-peptides",
+    "name": "Biohack Peptides",
+    "slug": "biohack-peptides",
+    "website": "https://biohackpeptides.co.uk",
+    "rating": 4.9,
+    "verified": true,
+    "founded": 2023,
+    "country": "UK",
+    "description": "Premium UK research peptide supplier with a 4.9★ rating across 103 reviews. All products third-party lab tested via Janoshik with public COAs. Free next-day UK delivery, bulk discounts up to 25% off, and exceptional customer support.",
+    "highlights": [
+      "4.9/5 rating — 103 reviews",
+      "Lab tested (Janoshik)",
+      "Free next-day UK delivery",
+      "Bulk discounts up to 25% off",
+      "Free gift over £100",
+      "98% of reviewers recommend"
+    ],
+    "shipping": [
+      "UK free next-day (orders before 3pm)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-06-30",
+    "labTested": true
   }
 ]
