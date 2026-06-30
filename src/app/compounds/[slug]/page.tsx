@@ -5,6 +5,7 @@ import vendors from "@/data/vendors.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
+import CompoundPageClient from "./CompoundPageClient";
 
 export const dynamic = "force-dynamic";
 
@@ -17,8 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
   );
   return {
-    title: `${compound.name} — Research Peptide Info & UK Vendor Prices | ViralPeps UK`,
-    description: `Compare prices for ${compound.name} from ${compound.sources.length} verified UK suppliers. From £${minPrice.toFixed(2)}. Research information, CAS ${compound.cas}, purity ${compound.purity}, and half-life ${compound.halfLife}.`,
+    title: `${compound.name} Price Comparison — Compare UK Suppliers | ViralPeps`,
+    description: `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers. From £${minPrice.toFixed(2)}. Research info, CAS ${compound.cas}, purity ${compound.purity}, and half-life ${compound.halfLife}.`,
     openGraph: {
       title: `${compound.name} — Compare UK Prices | ViralPeps`,
       description: `Compare ${compound.name} prices from ${compound.sources.length} UK suppliers. From £${minPrice.toFixed(2)}.`,
@@ -26,18 +27,35 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-function PeptideVialIcon({ className = "w-20 h-20" }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="14" y="6" width="20" height="36" rx="4" fill="#e2e8f0" />
-      <rect x="16" y="10" width="16" height="28" rx="3" fill="#f8fafc" />
-      <rect x="14" y="4" width="20" height="6" rx="3" fill="#cbd5e1" />
-      <rect x="20" y="2" width="8" height="12" rx="2" fill="#94a3b8" />
-      <line x1="20" y1="22" x2="28" y2="22" stroke="#3b82f6" strokeWidth="1.5" />
-      <line x1="20" y1="26" x2="26" y2="26" stroke="#3b82f6" strokeWidth="1.5" />
-      <line x1="20" y1="30" x2="24" y2="30" stroke="#3b82f6" strokeWidth="1.5" />
-    </svg>
-  );
+// Category data for accent colours (matching compounds page)
+const categoryAccents: Record<string, { border: string; bg: string; badge: string; icon: string }> = {
+  "glp-1-agonists":     { border: "border-purple-300", bg: "bg-purple-100", badge: "bg-purple-200 text-purple-800", icon: "#9333ea" },
+  "thymosin-bpc":       { border: "border-emerald-300", bg: "bg-emerald-100", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
+  "tb-500":             { border: "border-emerald-300", bg: "bg-emerald-100", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
+  "peptide-fragments":  { border: "border-emerald-300", bg: "bg-emerald-100", badge: "bg-emerald-200 text-emerald-800", icon: "#059669" },
+  "growth-hormone":     { border: "border-blue-300", bg: "bg-blue-100", badge: "bg-blue-200 text-blue-800", icon: "#2563eb" },
+  "anti-aging":         { border: "border-indigo-300", bg: "bg-indigo-100", badge: "bg-indigo-200 text-indigo-800", icon: "#6366f1" },
+  "immunity-peptides":  { border: "border-cyan-300", bg: "bg-cyan-100", badge: "bg-cyan-200 text-cyan-800", icon: "#06b6d4" },
+  "tanning-libido":     { border: "border-rose-300", bg: "bg-rose-100", badge: "bg-rose-200 text-rose-800", icon: "#e11d48" },
+  "peptide-blends":     { border: "border-orange-300", bg: "bg-orange-100", badge: "bg-orange-200 text-orange-800", icon: "#ea580c" },
+  cognitive:            { border: "border-violet-300", bg: "bg-violet-100", badge: "bg-violet-200 text-violet-800", icon: "#8b5cf6" },
+  "aod-fragments":      { border: "border-pink-300", bg: "bg-pink-100", badge: "bg-pink-200 text-pink-800", icon: "#ec4899" },
+};
+
+function getAccent(cat: string) {
+  return categoryAccents[cat] || { border: "border-blue-300", bg: "bg-blue-100", badge: "bg-blue-200 text-blue-800", icon: "#2563eb" };
+}
+
+function StarRating({ rating, total = 5 }: { rating: number; total?: number }) {
+  const stars = [];
+  for (let i = 1; i <= total; i++) {
+    stars.push(
+      <svg key={i} className={`w-3 h-3 ${i <= Math.round(rating) ? "text-amber-400" : "text-gray-200"}`} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+      </svg>
+    );
+  }
+  return <span className="inline-flex items-center gap-0.5">{stars}</span>;
 }
 
 export default async function CompoundPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -48,6 +66,12 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
   const minPrice = Math.min(
     ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
   );
+  const maxPrice = Math.max(
+    ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
+  );
+  const avgPrice = compound.sources.reduce((sum, s) => {
+    return sum + (parseFloat(s.price.replace(/[£$€,]/g, "")) || 0);
+  }, 0) / compound.sources.length;
 
   // Sort vendors: verified featured first, then by price
   const sortedSources = [...compound.sources].sort((a, b) => {
@@ -64,47 +88,39 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
   // Featured supplier = first verified, lowest price
   const featured = sortedSources[0];
   const featuredVendor = vendors.find((v) => v.name === featured?.vendor);
+  const accent = getAccent(compound.category);
+  const categoryLabel = compound.category.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
+
+  // Build FAQ schema
+  const faqEntries = [
+    { q: `What is ${compound.name}?`, a: compound.description },
+    { q: `What is the CAS number for ${compound.name}?`, a: `The CAS registry number for ${compound.name} is ${compound.cas}.` },
+    { q: `What is the half-life of ${compound.name}?`, a: `${compound.name} has an approximate half-life of ${compound.halfLife}.` },
+    { q: `Where can I buy ${compound.name} in the UK?`, a: `${compound.name} is available from ${compound.sources.length} UK suppliers on ViralPeps, with prices starting from £${minPrice.toFixed(2)}. Compare all suppliers above.` },
+  ];
+  if (compound.faq && Array.isArray(compound.faq)) {
+    compound.faq.forEach((f: { question: string; answer: string }) => {
+      if (f?.question && f?.answer) {
+        faqEntries.push({ q: f.question, a: f.answer });
+      }
+    });
+  }
 
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: `What is ${compound.name}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: compound.description,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `What is the CAS number for ${compound.name}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `The CAS number for ${compound.name} is ${compound.cas}.`,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `What is the half-life of ${compound.name}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `The half-life of ${compound.name} is approximately ${compound.halfLife}.`,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `Where can I buy ${compound.name} in the UK?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `${compound.name} is available from ${compound.sources.length} UK suppliers listed on ViralPeps. Prices start from £${minPrice.toFixed(2)}.`,
-        },
-      },
-    ],
+    mainEntity: faqEntries.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
   };
 
-  const categoryLabel = compound.category.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+  // Collect unique dosages from sources (if available) + commonDosages
+  const allDosages = [...new Set([
+    ...(compound.commonDosages || []),
+    ...compound.sources.map((s: any) => (s as any).dosage || "").filter(Boolean),
+  ])];
 
   return (
     <div className="min-h-screen bg-white">
@@ -112,234 +128,158 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* BREADCRUMB */}
-      <div className="max-w-6xl mx-auto px-4 py-3 text-xs text-black">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
-        <span className="mx-1">/</span>
-        <Link href="/compounds" className="hover:text-blue-600">Peptides</Link>
-        <span className="mx-1">/</span>
-        <span className="text-black">{compound.name}</span>
+      <div className="bg-gray-50 border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 py-2.5 text-xs text-gray-500">
+          <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+          <span className="mx-1.5 text-gray-300">›</span>
+          <Link href="/compounds" className="hover:text-blue-600 transition-colors">Peptides</Link>
+          <span className="mx-1.5 text-gray-300">›</span>
+          <span className="text-gray-900 font-medium">{compound.name}</span>
+        </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-          {/* LEFT: Image + Specs */}
-          <div className="md:col-span-2">
-            <div className="bg-white border border-black rounded-xl p-6">
-              <div className="aspect-square bg-blue-50 rounded-xl flex items-center justify-center mb-4">
-                <img src={`/images/compounds/${slug}.svg`} alt={compound.name} className="w-32 h-32 object-contain" />
-              </div>
+      {/* ===== HERO BANNER ===== */}
+      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white">
+        <div className="max-w-6xl mx-auto px-4 py-8 md:py-10">
+          {/* Badges row */}
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <span className="text-[10px] font-bold text-emerald-300 bg-emerald-900/40 px-2.5 py-1 rounded-full uppercase tracking-widest">
+              LIVE PRICE COMPARISON
+            </span>
+            <span className={`text-[10px] font-bold ${accent.badge.replace('text-', 'text-').replace('bg-', 'bg-')} px-2 py-1 rounded-full uppercase tracking-wider`}>
+              {categoryLabel}
+            </span>
+          </div>
 
-              <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <span className="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded uppercase tracking-wider">{categoryLabel}</span>
-                  <span className="text-[10px] font-semibold bg-green-50 text-green-700 px-2 py-0.5 rounded">Research Grade</span>
-                </div>
+          {/* Title + subtitle */}
+          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
+            {compound.name} Price Comparison
+          </h1>
+          <p className="text-blue-200 text-sm md:text-base max-w-2xl leading-relaxed mb-5">
+            Compare live {compound.name} prices from every UK supplier — side-by-side in seconds so you never overpay.
+          </p>
 
-                <h1 className="text-2xl font-bold text-gray-900">{compound.name}</h1>
-                {compound.aliases.length > 0 && (
-                  <p className="text-xs text-black">Also known as: {compound.aliases.join(", ")}</p>
-                )}
+          {/* Benefit pills */}
+          {compound.researchAreas && compound.researchAreas.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-5">
+              {compound.researchAreas.slice(0, 6).map((area: string) => (
+                <span key={area} className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1 rounded-full">
+                  <svg className="w-3 h-3 text-emerald-400" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                  </svg>
+                  {area}
+                </span>
+              ))}
+            </div>
+          )}
 
-                <div className="grid grid-cols-2 gap-2">
-                  {[
-                    { label: "CAS", value: compound.cas },
-                    { label: "Molar Mass", value: compound.molarMass },
-                    { label: "Purity", value: compound.purity },
-                    { label: "Half-Life", value: compound.halfLife },
-                    { label: "Form", value: compound.form },
-                    { label: "Sequence", value: compound.sequence?.slice(0, 20) + (compound.sequence?.length > 20 ? "..." : "") },
-                  ].map((m) => (
-                    <div key={m.label} className="bg-blue-50 p-3 rounded-lg">
-                      <p className="text-[10px] text-black uppercase tracking-wider">{m.label}</p>
-                      <p className="text-xs font-medium text-gray-900 mt-0.5">{m.value || "—"}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+          {/* Stats row */}
+          <div className="flex flex-wrap items-center gap-6 md:gap-10">
+            <div>
+              <p className="text-[10px] text-blue-300 uppercase tracking-widest">Suppliers</p>
+              <p className="text-2xl md:text-3xl font-bold text-white">{compound.sources.length}</p>
+            </div>
+            <div>
+              <p className="text-[10px] text-blue-300 uppercase tracking-widest">From</p>
+              <p className="text-2xl md:text-3xl font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</p>
+            </div>
+            <div>
+              <p className="text-[10px] text-blue-300 uppercase tracking-widest">Average</p>
+              <p className="text-2xl md:text-3xl font-bold text-white">&pound;{avgPrice.toFixed(2)}</p>
+            </div>
+            <div>
+              <p className="text-[10px] text-blue-300 uppercase tracking-widest">Products</p>
+              <p className="text-2xl md:text-3xl font-bold text-white">{compound.sources.length}</p>
+            </div>
+            <div className="ml-auto">
+              <a href="#pricing-table" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold rounded-lg transition-colors shadow-lg shadow-blue-900/30">
+                See all prices
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
             </div>
           </div>
 
-          {/* RIGHT: Description + Vendors */}
-          <div className="md:col-span-3 space-y-5">
-            {/* DESCRIPTION */}
-            <div className="bg-white border border-black rounded-xl p-6">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">About {compound.name}</h2>
-              <p className="text-sm text-black leading-relaxed">{compound.description}</p>
+          {/* Disclaimer */}
+          <p className="text-[10px] text-blue-300/60 mt-4">In-vitro research use only. We compare prices and may earn a commission. For laboratory research purposes only — not for human consumption.</p>
+        </div>
+      </section>
 
-              {compound.mechanism && (
-                <>
-                  <h3 className="text-sm font-semibold text-gray-900 mt-4 mb-2">Mechanism of Action</h3>
-                  <p className="text-sm text-black leading-relaxed">{compound.mechanism}</p>
-                </>
-              )}
-
-              {compound.researchAreas.length > 0 && (
-                <div className="mt-4 p-3 bg-blue-50 border border-blue-100 rounded-lg">
-                  <p className="text-xs font-semibold text-blue-700 uppercase tracking-wider mb-1">Research Areas</p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {compound.researchAreas.map((a) => (
-                      <span key={a} className="text-xs text-blue-600 bg-white px-2 py-0.5 rounded-full font-medium">{a}</span>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {compound.commonDosages.length > 0 && (
-                <div className="mt-3">
-                  <p className="text-xs font-semibold text-black uppercase tracking-wider mb-1">Common Dosages</p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {compound.commonDosages.map((d) => (
-                      <span key={d} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded font-medium">{d}</span>
-                    ))}
-                  </div>
-                </div>
-              )}
+      {/* ===== MAIN CONTENT ===== */}
+      <div className="max-w-6xl mx-auto px-4 py-6">
+        {/* FEATURED SUPPLIER */}
+        {featured && featuredVendor && (
+          <div className="bg-white border border-gray-200 rounded-xl p-5 mb-6 shadow-sm">
+            <div className="flex items-center gap-2 mb-3">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#d97706">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+              <span className="text-xs font-bold text-amber-700 uppercase tracking-wider">Featured Supplier</span>
             </div>
-
-            {/* FEATURED SUPPLIER */}
-            {featured && featuredVendor && (
-              <div className="bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-200 rounded-xl p-5">
-                <div className="flex items-center gap-2 mb-3">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="#d97706">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                  </svg>
-                  <span className="text-xs font-bold text-amber-700 uppercase tracking-wider">Featured Supplier</span>
+            <div className="flex flex-wrap items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
+                  <ProductImage vendorSlug={featuredVendor.slug} compoundSlug={slug} compoundName={compound?.name || featuredVendor.name} />
                 </div>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                      <ProductImage vendorSlug={featuredVendor.slug} compoundSlug={slug} compoundName={compound?.name || featuredVendor.name} />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-gray-900 text-sm">{featuredVendor.name}</h3>
-                      <div className="flex items-center gap-2 mt-0.5">
-                        {featuredVendor.verified && (
-                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-100 px-1.5 py-0.5 rounded-full">
-                            <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-                            Site Verified
-                          </span>
-                        )}
-                        <span className="text-xs text-amber-500">★ {featuredVendor.rating}</span>
-                        <span className="text-xs text-black">{featuredVendor.country}</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-lg font-bold text-gray-900">{featured.price}</div>
-                    <a
-                      href={featured.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block mt-1 px-4 py-1.5 bg-amber-600 text-white rounded-lg text-xs font-semibold hover:bg-amber-700 transition-colors"
-                    >
-                      View Deal
-                    </a>
+                <div>
+                  <h3 className="font-semibold text-gray-900 text-sm">{featuredVendor.name}</h3>
+                  <div className="flex items-center gap-2 mt-0.5">
+                    <StarRating rating={featuredVendor.rating} />
+                    <span className="text-xs text-gray-500">{featuredVendor.rating}</span>
+                    <span className="text-xs text-gray-300">|</span>
+                    <span className="text-xs text-gray-500">{featuredVendor.country}</span>
                   </div>
                 </div>
-                {featuredVendor.highlights && featuredVendor.highlights.length > 0 && (
-                  <div className="flex flex-wrap gap-2 mt-3">
-                    {featuredVendor.highlights.slice(0, 3).map((h) => (
-                      <span key={h} className="text-[10px] bg-white text-black px-2 py-0.5 rounded-full border border-amber-100">{h}</span>
-                    ))}
-                  </div>
+              </div>
+              <div className="flex flex-wrap items-center gap-3">
+                {featuredVendor.verified && (
+                  <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-50 border border-green-200 px-2 py-1 rounded-full">
+                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                    Lab Tested
+                  </span>
+                )}
+                {featured.inStock !== false && (
+                  <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-1 rounded-full">
+                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                    In Stock
+                  </span>
                 )}
               </div>
-            )}
-
-            {/* ALL VENDOR COMPARISON TABLE */}
-            <div className="bg-white border border-black rounded-xl overflow-hidden">
-              <div className="p-5 border-b border-black">
-                <h2 className="text-lg font-bold text-gray-900">
-                  Compare Prices from {compound.sources.length} Suppliers
-                </h2>
-                <p className="text-sm text-black mt-1">
-                  Lowest price: <strong className="text-green-600">&pound;{minPrice.toFixed(2)}</strong>
-                </p>
-              </div>
-              <div className="divide-y divide-gray-50">
-                {sortedSources.map((s, i) => {
-                  const vendor = vendors.find((v) => v.name === s.vendor);
-                  const price = parseFloat(s.price.replace(/[£$€,]/g, ""));
-                  const savings = price > minPrice
-                    ? `+£${(price - minPrice).toFixed(2)}`
-                    : "Best price";
-
-                  return (
-                    <div key={s.vendor} className={`p-4 flex items-center justify-between hover:bg-blue-50 transition-colors ${i === 0 ? "bg-amber-50/30" : ""}`}>
-                      <div className="flex items-center gap-3 min-w-0 flex-1">
-                        <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-white">
-                          <ProductImage vendorSlug={vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')} compoundSlug={slug} compoundName={compound?.name || s.vendor} />
-                        </div>
-                        <div className="min-w-0">
-                          <div className="flex items-center gap-2">
-                            <h3 className="font-semibold text-gray-900 text-sm">{vendor?.name || s.vendor}</h3>
-                            {vendor?.verified && (
-                              <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
-                                <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-                                Verified
-                              </span>
-                            )}
-                          </div>
-                          {vendor && (
-                            <div className="flex items-center gap-2 text-[10px] text-black mt-0.5">
-                              <span className="text-amber-500">★ {vendor.rating}</span>
-                              <span>{vendor.country}</span>
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-4 flex-shrink-0">
-                        <div className="text-right">
-                          <div className="text-sm font-bold text-gray-900">{s.price}</div>
-                          {savings === "Best price" ? (
-                            <span className="text-[10px] text-green-600 font-semibold">{savings}</span>
-                          ) : (
-                            <span className="text-[10px] text-black">{savings}</span>
-                          )}
-                        </div>
-                        <a
-                          href={s.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="px-3 py-1.5 bg-blue-600 text-white rounded-lg text-xs font-semibold hover:bg-blue-700 transition-colors flex-shrink-0"
-                        >
-                          View
-                        </a>
-                      </div>
-                    </div>
-                  );
-                })}
+              <div className="text-right">
+                <div className="text-xl font-bold text-gray-900">{featured.price}</div>
+                <p className="text-[10px] text-gray-400">FREE delivery</p>
+                <a
+                  href={featured.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-1.5 px-5 py-2 bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold rounded-lg transition-colors"
+                >
+                  View Deal
+                </a>
               </div>
             </div>
-
-            {/* FAQ */}
-            <div className="bg-white border border-black rounded-xl p-6">
-              <h2 className="text-lg font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-              <div className="space-y-4">
-                {[
-                  { q: `What is ${compound.name}?`, a: compound.description },
-                  {
-                    q: `What is the CAS number for ${compound.name}?`,
-                    a: `The CAS registry number for ${compound.name} is ${compound.cas}.`,
-                  },
-                  {
-                    q: `What is the half-life of ${compound.name}?`,
-                    a: `${compound.name} has an approximate half-life of ${compound.halfLife}.`,
-                  },
-                  {
-                    q: `Where can I buy ${compound.name} in the UK?`,
-                    a: `${compound.name} is available from ${compound.sources.length} UK suppliers on ViralPeps, with prices starting from £${minPrice.toFixed(2)}. Compare all suppliers above.`,
-                  },
-                ].map((faq, i) => (
-                  <div key={i} className="border-b border-black pb-3 last:border-0 last:pb-0">
-                    <h3 className="text-sm font-semibold text-gray-900 mb-1">{faq.q}</h3>
-                    <p className="text-sm text-black leading-relaxed">{faq.a}</p>
-                  </div>
+            {featuredVendor.highlights && featuredVendor.highlights.length > 0 && (
+              <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-gray-100">
+                {featuredVendor.highlights.slice(0, 3).map((h: string) => (
+                  <span key={h} className="text-[10px] text-gray-600 bg-white border border-gray-200 px-2 py-0.5 rounded-full">{h}</span>
                 ))}
               </div>
-            </div>
+            )}
           </div>
-        </div>
+        )}
+
+        {/* ===== CLIENT-SIDE INTERACTIVE CONTENT ===== */}
+        <CompoundPageClient
+          compound={JSON.parse(JSON.stringify(compound))}
+          vendors={JSON.parse(JSON.stringify(vendors))}
+          sortedSources={JSON.parse(JSON.stringify(sortedSources))}
+          minPrice={minPrice}
+          avgPrice={avgPrice}
+          accent={accent}
+          allDosages={allDosages}
+          faqEntries={faqEntries}
+        />
       </div>
 
       <Footer />
