@@ -233,7 +233,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
               <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">From</p>
               <p className="text-xl font-bold text-emerald-400 mt-0.5">&pound;{minPrice.toFixed(2)}</p>
             </div>
-            <a href="#pricing-table" className="flex-1 bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 rounded-xl p-3 text-center flex flex-col items-center justify-center transition-colors">
+            <a href="#pricing-table-mobile" className="flex-1 bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 rounded-xl p-3 text-center flex flex-col items-center justify-center transition-colors">
               <p className="text-[10px] text-white/80 uppercase tracking-wider font-semibold">Prices</p>
               <svg className="w-5 h-5 text-white mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <polyline points="6 9 12 15 18 9" />
