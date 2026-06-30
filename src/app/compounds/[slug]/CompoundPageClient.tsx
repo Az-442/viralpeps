@@ -254,19 +254,11 @@ export default function CompoundPageClient({
       overview: (
         <div id="profile-overview" className="scroll-mt-24">
           <div className="space-y-6">
-            {/* What is BPC-157? */}
+            {/* What is Ipamorelin? */}
             <div>
               <h3 className="text-base font-bold text-gray-900 mb-3">What is {compoundName}?</h3>
               <p className="text-base text-gray-600 leading-relaxed">
-                {compoundName} (Body Protection Compound-157) is a synthetic pentadecapeptide comprising 15 amino acids,
-                originally derived from a protective protein found in human gastric juice. It has been extensively studied
-                in preclinical models for its ability to promote tissue repair, modulate angiogenesis, and accelerate
-                healing across multiple tissue types including muscle, tendon, ligament, and gastrointestinal mucosa.
-              </p>
-              <p className="text-base text-gray-600 leading-relaxed mt-3">
-                Unlike many larger peptide sequences, BPC-157 is remarkably stable in the gastric environment, which enables
-                both systemic and oral research administration routes. Its small size and stability make it one of the most
-                widely investigated peptides in regenerative research.
+                {compoundName} is a selective pentapeptide growth hormone secretagogue that stimulates natural GH production from the pituitary gland. It was developed as a more targeted alternative to other GHRPs, with minimal cortisol and prolactin disruption. Known for its excellent safety profile and consistent GH pulses, Ipamorelin produces reliable growth hormone release without significant side effects.
               </p>
             </div>
 
@@ -275,13 +267,7 @@ export default function CompoundPageClient({
               <h3 className="text-base font-bold text-gray-900 mb-3">Mechanism of Action</h3>
               <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                 <p className="text-base text-gray-700 leading-relaxed">
-                  BPC-157 operates through multiple coordinated pathways that converge on tissue regeneration. It upregulates
-                  vascular endothelial growth factor (VEGF) and basic fibroblast growth factor (bFGF), driving robust
-                  angiogenesis—the formation of new blood vessels—which is critical for delivering oxygen and nutrients to
-                  healing tissues. Simultaneously, it enhances collagen type I and III synthesis, providing the structural
-                  scaffold needed for tendon, ligament, and dermal repair. On the molecular level, BPC-157 modulates the
-                  nitric oxide (NO) system, exerting both pro-angiogenic and anti-inflammatory effects depending on tissue
-                  context, and promotes cell survival pathways through activation of the AKT/ERK signalling cascade.
+                  Ipamorelin binds selectively to ghrelin receptors (GHSR-1a) in the pituitary gland, stimulating natural GH release with high specificity. Unlike GHRP-6, it has negligible effects on appetite and minimal impact on cortisol and prolactin levels, making it a more targeted GH secretagogue for research protocols.
                 </p>
               </div>
             </div>
@@ -291,12 +277,12 @@ export default function CompoundPageClient({
               <h3 className="text-base font-bold text-gray-900 mb-3">Key Research Benefits</h3>
               <ul className="space-y-2">
                 {[
-                  "Accelerates wound and soft-tissue healing through enhanced angiogenesis and collagen deposition",
-                  "Protects and repairs gastrointestinal tract lining, including gastric ulcers and inflammatory bowel models",
-                  "Demonstrates anti-inflammatory activity by modulating cytokine expression and reducing oedema",
-                  "Improves biomechanical properties of healing tendons and ligaments",
-                  "Promotes functional recovery in muscle crush injury and peripheral nerve damage models",
-                  "Exhibits cytoprotective effects across multiple organ systems through NO-system modulation",
+                  "Optimal GH stimulation with superior bioavailability and consistent pulse amplitude",
+                  "Body composition improvements — promotes lean mass development and fat reduction",
+                  "Enhanced recovery and anti-aging effects through GH/IGF-1 axis activation",
+                  "Minimal side effects compared to other GHRPs — no significant cortisol or prolactin elevation",
+                  "Improved sleep quality through nocturnal GH pulse enhancement",
+                  "Well-tolerated with an excellent safety profile in research models",
                 ].map((benefit, i) => (
                   <li key={i} className="flex items-start gap-3 bg-green-50 p-4 rounded-lg">
                     <svg className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
@@ -315,12 +301,12 @@ export default function CompoundPageClient({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-3">
               {[
-                { label: "Molecular Weight", value: "1,419.53 Da" },
-                { label: "Sequence", value: "GKPPPGKPADDAGLV" },
-                { label: "Length", value: "15 amino acids" },
-                { label: "Type", value: "Pentadecapeptide" },
-                { label: "Half-Life", value: "<30 minutes" },
-                { label: "CAS Number", value: compound.cas || "137525-51-0" },
+                { label: "Molecular Weight", value: "711.85 Da" },
+                { label: "Sequence", value: "Aib-His-D-2-Nal-D-Phe-Lys-NH₂" },
+                { label: "Length", value: "5 amino acids" },
+                { label: "Type", value: "Growth hormone secretagogue | Selective GHRP" },
+                { label: "Half-Life", value: "~2 hours" },
+                { label: "CAS Number", value: compound.cas || "100535-87-4" },
                 { label: "Purity", value: compound.purity || "≥99%" },
                 { label: "Form", value: compound.form || "Lyophilized powder" },
               ].map((m) => (
@@ -332,7 +318,7 @@ export default function CompoundPageClient({
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 border border-blue-200 rounded-2xl flex items-center justify-center p-6 relative overflow-hidden">
               {/* Molecular structure SVG — peptide chain diagram */}
-              <svg viewBox="0 0 280 320" className="w-full max-w-[300px] h-auto">
+              <svg viewBox="0 0 280 240" className="w-full max-w-[300px] h-auto">
                 <defs>
                   <linearGradient id="molGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.12" />
@@ -342,183 +328,128 @@ export default function CompoundPageClient({
                     <feDropShadow dx="0.5" dy="0.5" stdDeviation="1" floodOpacity="0.15" />
                   </filter>
                 </defs>
-                <rect width="280" height="320" fill="url(#molGrad)" rx="16" />
+                <rect width="280" height="240" fill="url(#molGrad)" rx="16" />
 
                 {/* Title */}
                 <text x="140" y="22" textAnchor="middle" fontSize="11" fontWeight="bold" fill="#1e3a5f" opacity="0.75">
                   {compoundName}
                 </text>
                 <text x="140" y="34" textAnchor="middle" fontSize="8" fill="#64748b" opacity="0.6">
-                  15-mer · 1,419.53 Da · Sequence: GKPPPGKPADDAGLV
+                  5-mer · 711.85 Da · Sequence: Aib-His-Nal-Phe-Lys-NH₂
                 </text>
 
                 {/* ── Peptide backbone ── */}
-                {/* Backbone zig-zag path: 15 residues in 3 rows */}
-                {/* Row 1 (y=55):   G → K → P → P → P  */}
-                {/* Row 2 (y=130):  G ← K ← P ← A ← D  */}
-                {/* Row 3 (y=205):  D → A → G → L → V  */}
+                {/* Linear backbone: 5 residues in a single row */}
 
                 {/* Residue positions [x, y] */}
                 {(() => {
                   const nodes = [
-                    { x: 30, y: 55 },  // 0: Gly
-                    { x: 65, y: 55 },  // 1: Lys
-                    { x: 100, y: 55 }, // 2: Pro
-                    { x: 135, y: 55 }, // 3: Pro
-                    { x: 170, y: 55 }, // 4: Pro
-                    { x: 205, y: 130 }, // 5: Gly
-                    { x: 170, y: 130 }, // 6: Lys
-                    { x: 135, y: 130 }, // 7: Pro
-                    { x: 100, y: 130 }, // 8: Ala
-                    { x: 65, y: 130 },  // 9: Asp
-                    { x: 65, y: 205 },  // 10: Asp
-                    { x: 100, y: 205 }, // 11: Ala
-                    { x: 135, y: 205 }, // 12: Gly
-                    { x: 170, y: 205 }, // 13: Leu
-                    { x: 205, y: 205 }, // 14: Val
+                    { x: 40, y: 100 },  // 0: Aib
+                    { x: 85, y: 100 },  // 1: His
+                    { x: 130, y: 100 }, // 2: Nal
+                    { x: 175, y: 100 }, // 3: Phe
+                    { x: 220, y: 100 }, // 4: Lys
                   ];
                   return nodes;
                 })().map((n, i) => <circle key={`dot-${i}`} cx={n.x} cy={n.y} r="3" fill="#3b82f6" opacity="0.4" />)}
 
-                {/* Backbone thick zig-zag path */}
-                <polyline
-                  points="30,55 65,55 100,55 135,55 170,55 205,130 170,130 135,130 100,130 65,130 65,205 100,205 135,205 170,205 205,205"
-                  fill="none"
-                  stroke="#2563eb"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  opacity="0.55"
-                />
+                {/* Backbone thick linear path */}
+                <line x1="40" y1="100" x2="85" y2="100" stroke="#2563eb" strokeWidth="2.5" strokeLinecap="round" opacity="0.55" />
+                <line x1="85" y1="100" x2="130" y2="100" stroke="#2563eb" strokeWidth="2.5" strokeLinecap="round" opacity="0.55" />
+                <line x1="130" y1="100" x2="175" y2="100" stroke="#2563eb" strokeWidth="2.5" strokeLinecap="round" opacity="0.55" />
+                <line x1="175" y1="100" x2="220" y2="100" stroke="#2563eb" strokeWidth="2.5" strokeLinecap="round" opacity="0.55" />
 
                 {/* Peptide bonds (small dashes between nodes) */}
-                <polyline
-                  points="30,55 65,55 100,55 135,55 170,55 205,130 170,130 135,130 100,130 65,130 65,205 100,205 135,205 170,205 205,205"
-                  fill="none"
-                  stroke="#1d4ed8"
-                  strokeWidth="1"
-                  strokeDasharray="3,3"
-                  opacity="0.3"
-                />
+                <line x1="40" y1="100" x2="85" y2="100" stroke="#1d4ed8" strokeWidth="1" strokeDasharray="3,3" opacity="0.3" />
+                <line x1="85" y1="100" x2="130" y2="100" stroke="#1d4ed8" strokeWidth="1" strokeDasharray="3,3" opacity="0.3" />
+                <line x1="130" y1="100" x2="175" y2="100" stroke="#1d4ed8" strokeWidth="1" strokeDasharray="3,3" opacity="0.3" />
+                <line x1="175" y1="100" x2="220" y2="100" stroke="#1d4ed8" strokeWidth="1" strokeDasharray="3,3" opacity="0.3" />
 
                 {/* ── N-terminus label ── */}
-                <g transform="translate(14, 42)">
+                <g transform="translate(24, 87)">
                   <rect x="-2" y="-8" width="22" height="16" rx="3" fill="#eef2ff" stroke="#6366f1" strokeWidth="0.8" />
                   <text x="9" y="3" textAnchor="middle" fontSize="7" fontWeight="bold" fill="#4338ca">N-term</text>
                 </g>
 
                 {/* ── C-terminus label ── */}
-                <g transform="translate(210, 210)">
+                <g transform="translate(224, 105)">
                   <rect x="-2" y="-8" width="22" height="16" rx="3" fill="#fef2f2" stroke="#ef4444" strokeWidth="0.8" />
                   <text x="9" y="3" textAnchor="middle" fontSize="7" fontWeight="bold" fill="#dc2626">C-term</text>
                 </g>
 
                 {/* ── Amino acid residue circles ── */}
                 {[
-                  { x: 30, y: 55, label: "G", color: "#3b82f6", name: "Gly" },
-                  { x: 65, y: 55, label: "K", color: "#6366f1", name: "Lys" },
-                  { x: 100, y: 55, label: "P", color: "#8b5cf6", name: "Pro" },
-                  { x: 135, y: 55, label: "P", color: "#8b5cf6", name: "Pro" },
-                  { x: 170, y: 55, label: "P", color: "#8b5cf6", name: "Pro" },
-                  { x: 205, y: 130, label: "G", color: "#3b82f6", name: "Gly" },
-                  { x: 170, y: 130, label: "K", color: "#6366f1", name: "Lys" },
-                  { x: 135, y: 130, label: "P", color: "#8b5cf6", name: "Pro" },
-                  { x: 100, y: 130, label: "A", color: "#059669", name: "Ala" },
-                  { x: 65, y: 130, label: "D", color: "#d97706", name: "Asp" },
-                  { x: 65, y: 205, label: "D", color: "#d97706", name: "Asp" },
-                  { x: 100, y: 205, label: "A", color: "#059669", name: "Ala" },
-                  { x: 135, y: 205, label: "G", color: "#3b82f6", name: "Gly" },
-                  { x: 170, y: 205, label: "L", color: "#7c3aed", name: "Leu" },
-                  { x: 205, y: 205, label: "V", color: "#7c3aed", name: "Val" },
+                  { x: 40, y: 100, label: "Aib", color: "#8b5cf6", name: "Aib" },
+                  { x: 85, y: 100, label: "H", color: "#0891b2", name: "His" },
+                  { x: 130, y: 100, label: "Nal", color: "#d97706", name: "Nal" },
+                  { x: 175, y: 100, label: "F", color: "#7c3aed", name: "Phe" },
+                  { x: 220, y: 100, label: "K", color: "#6366f1", name: "Lys" },
                 ].map((node, i) => (
                   <g key={`aa-${i}`} filter="url(#shadow1)">
-                    <circle cx={node.x} cy={node.y} r="11" fill="white" stroke={node.color} strokeWidth="1.8" />
-                    <text x={node.x} y={node.y + 3.5} textAnchor="middle" fontSize="8" fontWeight="bold" fill={node.color}>
+                    <circle cx={node.x} cy={node.y} r="14" fill="white" stroke={node.color} strokeWidth="1.8" />
+                    <text x={node.x} y={node.y + 3.5} textAnchor="middle" fontSize="7" fontWeight="bold" fill={node.color}>
                       {node.label}
                     </text>
                   </g>
                 ))}
 
                 {/* ── Peptide bond connectors between residues ── */}
-                {/* Connecting lines between consecutive residues */}
                 {[
-                  [30, 55, 65, 55],
-                  [65, 55, 100, 55],
-                  [100, 55, 135, 55],
-                  [135, 55, 170, 55],
-                  [170, 55, 205, 130],
-                  [205, 130, 170, 130],
-                  [170, 130, 135, 130],
-                  [135, 130, 100, 130],
-                  [100, 130, 65, 130],
-                  [65, 130, 65, 205],
-                  [65, 205, 100, 205],
-                  [100, 205, 135, 205],
-                  [135, 205, 170, 205],
-                  [170, 205, 205, 205],
+                  [40, 100, 85, 100],
+                  [85, 100, 130, 100],
+                  [130, 100, 175, 100],
+                  [175, 100, 220, 100],
                 ].map((seg, i) => (
                   <line key={`bond-${i}`} x1={seg[0]} y1={seg[1]} x2={seg[2]} y2={seg[3]}
                     stroke="#1e40af" strokeWidth="0.8" opacity="0.25" />
                 ))}
 
-                {/* ── Direction arrows on backbone ── */}
+                {/* ── Direction arrow on backbone ── */}
                 <g fill="#2563eb" opacity="0.35">
-                  <polygon points="175,52 181,55 175,58" />
-                  <polygon points="205,125 210,130 205,135" />
-                  <polygon points="65,134 62,130 68,130" />
-                  <polygon points="65,200 62,205 68,205" />
-                  <polygon points="175,208 181,205 175,202" />
+                  <polygon points="50,93 55,97 50,101" />
+                  <polygon points="95,93 100,97 95,101" />
+                  <polygon points="140,93 145,97 140,101" />
+                  <polygon points="185,93 190,97 185,101" />
                 </g>
 
                 {/* ── Side chains (R-groups) ── */}
-                {/* Lysine (K) side chain: -(CH₂)₄-NH₃⁺ */}
+                {/* Histidine (H) side chain */}
                 <g opacity="0.7">
-                  <line x1="65" y1="55" x2="55" y2="38" stroke="#6366f1" strokeWidth="1" strokeDasharray="2,1" />
-                  <text x="42" y="36" fontSize="5" fill="#6366f1" fontStyle="italic">R</text>
-                  <text x="51" y="30" fontSize="4.5" fill="#4338ca">-(CH₂)₄NH₃⁺</text>
+                  <line x1="85" y1="100" x2="75" y2="70" stroke="#0891b2" strokeWidth="1" strokeDasharray="2,1" />
+                  <text x="65" y="62" fontSize="5" fill="#0891b2" fontStyle="italic">R</text>
+                  <text x="72" y="56" fontSize="4.5" fill="#0e7490">imidazole</text>
                 </g>
-                {/* Second Lysine (K) */}
+                {/* Nal (2-naphthylalanine) side chain */}
                 <g opacity="0.7">
-                  <line x1="170" y1="130" x2="182" y2="145" stroke="#6366f1" strokeWidth="1" strokeDasharray="2,1" />
-                  <text x="182" y="148" fontSize="5" fill="#6366f1" fontStyle="italic">R</text>
-                  <text x="185" y="155" fontSize="4.5" fill="#4338ca">-(CH₂)₄NH₃⁺</text>
+                  <line x1="130" y1="100" x2="140" y2="72" stroke="#d97706" strokeWidth="1" strokeDasharray="2,1" />
+                  <text x="132" y="64" fontSize="5" fill="#d97706" fontStyle="italic">R</text>
+                  <text x="130" y="56" fontSize="4.5" fill="#b45309">naphthyl</text>
                 </g>
-                {/* Aspartic acid (D) side chain: -CH₂-COOH */}
+                {/* Phenylalanine (F) side chain */}
                 <g opacity="0.7">
-                  <line x1="65" y1="130" x2="50" y2="145" stroke="#d97706" strokeWidth="1" strokeDasharray="2,1" />
-                  <text x="42" y="148" fontSize="5" fill="#d97706" fontStyle="italic">R</text>
-                  <text x="39" y="155" fontSize="4.5" fill="#b45309">-CH₂COOH</text>
+                  <line x1="175" y1="100" x2="185" y2="72" stroke="#7c3aed" strokeWidth="1" strokeDasharray="2,1" />
+                  <text x="178" y="64" fontSize="5" fill="#7c3aed" fontStyle="italic">R</text>
+                  <text x="175" y="56" fontSize="4.5" fill="#6d28d9">benzyl</text>
                 </g>
-                {/* Second Aspartic acid (D) */}
+                {/* Lysine (K) side chain */}
                 <g opacity="0.7">
-                  <line x1="65" y1="205" x2="48" y2="220" stroke="#d97706" strokeWidth="1" strokeDasharray="2,1" />
-                  <text x="42" y="222" fontSize="5" fill="#d97706" fontStyle="italic">R</text>
-                  <text x="38" y="230" fontSize="4.5" fill="#b45309">-CH₂COOH</text>
+                  <line x1="220" y1="100" x2="235" y2="72" stroke="#6366f1" strokeWidth="1" strokeDasharray="2,1" />
+                  <text x="235" y="64" fontSize="5" fill="#6366f1" fontStyle="italic">R</text>
+                  <text x="230" y="56" fontSize="4.5" fill="#4338ca">-(CH₂)₄NH₃⁺</text>
                 </g>
-                {/* Leucine (L) side chain: -CH₂-CH(CH₃)₂ */}
-                <g opacity="0.7">
-                  <line x1="170" y1="205" x2="185" y2="218" stroke="#7c3aed" strokeWidth="1" strokeDasharray="2,1" />
-                  <text x="185" y="220" fontSize="5" fill="#7c3aed" fontStyle="italic">R</text>
-                  <text x="186" y="228" fontSize="4.5" fill="#6d28d9">CH₂CH(CH₃)₂</text>
-                </g>
-                {/* Valine (V) side chain: -CH(CH₃)₂ */}
-                <g opacity="0.7">
-                  <line x1="205" y1="205" x2="222" y2="218" stroke="#7c3aed" strokeWidth="1" strokeDasharray="2,1" />
-                  <text x="222" y="220" fontSize="5" fill="#7c3aed" fontStyle="italic">R</text>
-                  <text x="224" y="228" fontSize="4.5" fill="#6d28d9">CH(CH₃)₂</text>
-                </g>
-                {/* Proline (P) - has distinctive ring, show as small arc */}
+                {/* Aib side chain */}
                 <g opacity="0.6">
-                  <path d="M100,42 Q95,38 100,35" fill="none" stroke="#8b5cf6" strokeWidth="1" />
-                  <text x="105" y="38" fontSize="4.5" fill="#7c3aed" fontStyle="italic">pyrrolidine</text>
+                  <line x1="40" y1="100" x2="30" y2="74" stroke="#8b5cf6" strokeWidth="1" strokeDasharray="2,1" />
+                  <text x="18" y="66" fontSize="5" fill="#8b5cf6" fontStyle="italic">Aib</text>
+                  <text x="10" y="58" fontSize="4.5" fill="#7c3aed">-C(CH₃)₂-</text>
                 </g>
 
                 {/* ── Legend ── */}
-                <g transform="translate(8, 280)">
-                  <rect x="0" y="0" width="264" height="32" rx="6" fill="white" fillOpacity="0.85" stroke="#e2e8f0" strokeWidth="0.5" />
-                  <text x="8" y="11" fontSize="6" fill="#475569" fontWeight="500">G=Gly  K=Lys  P=Pro  A=Ala  D=Asp  L=Leu  V=Val</text>
+                <g transform="translate(8, 195)">
+                  <rect x="0" y="0" width="264" height="36" rx="6" fill="white" fillOpacity="0.85" stroke="#e2e8f0" strokeWidth="0.5" />
+                  <text x="8" y="11" fontSize="6" fill="#475569" fontWeight="500">Aib=α-aminoisobutyric  H=His  Nal=Naphthylalanine  F=Phe  K=Lys</text>
                   <text x="8" y="22" fontSize="6" fill="#475569" fontWeight="500">
-                    N-term (N-terminus)  C-term (C-terminus)  — Backbone  ··· Peptide bond  &lt; direction
+                    N-term (N-terminus)  C-term (C-terminus)  — Backbone  ··· Peptide bond  &gt; direction
                   </text>
                 </g>
               </svg>
@@ -541,9 +472,9 @@ export default function CompoundPageClient({
               </h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { title: "Tendon Healing", desc: "Accelerated tendon-to-bone healing with improved biomechanical properties. Most effective with localized injection near the injury site." },
-                  { title: "Muscle Recovery", desc: "Enhanced healing and reduced recovery time after crush injuries and surgical procedures with direct tissue targeting." },
-                  { title: "Ulcer Protection", desc: "Protective effects against gastric and duodenal ulcers through cytoprotective mechanisms and enhanced mucosal defense." },
+                  { title: "GH Stimulation", desc: "Consistent GH pulse stimulation with reliable amplitude and minimal trough between pulses. Ipamorelin provides targeted, high-specificity GH release through selective GHSR-1a binding." },
+                  { title: "Muscle Growth", desc: "Promotes lean muscle mass development through GH/IGF-1 axis activation with superior bioavailability and minimal side effects." },
+                  { title: "Recovery Enhancement", desc: "Accelerates post-exercise recovery and tissue repair through anabolic signalling via the GH/IGF-1 cascade." },
                 ].map((item) => (
                   <div key={item.title} className="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
                     <div className="flex items-start gap-2.5">
@@ -568,9 +499,9 @@ export default function CompoundPageClient({
               </h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { title: "Angiogenesis", desc: "Promotes blood vessel formation and improves vascularization through localized delivery pathways." },
-                  { title: "Intestinal Repair", desc: "Accelerates intestinal healing and reduces inflammatory markers in IBD models." },
-                  { title: "Mucosal Healing", desc: "Enhances mucosal barrier function and accelerates epithelial regeneration throughout the GI tract." },
+                  { title: "Fat Loss", desc: "Aids in fat reduction through improved metabolic rate and GH-mediated lipolysis. Ipamorelin supports favourable body composition changes via the GH/IGF-1 metabolic axis." },
+                  { title: "Anti-Aging", desc: "Supports healthy aging through GH pulse restoration and improved body composition. Ipamorelin helps restore youthful GH pulsatility patterns." },
+                  { title: "Sleep Quality", desc: "Improves sleep architecture and depth through GH release during nocturnal pulses. Enhanced slow-wave sleep associated with GH pulse timing." },
                 ].map((item) => (
                   <div key={item.title} className="bg-blue-50 border border-blue-200 rounded-xl p-5">
                     <div className="flex items-start gap-2.5">
@@ -595,9 +526,8 @@ export default function CompoundPageClient({
               </h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { title: "Neuroprotection", desc: "Protective effects against neurotoxic agents and ischemic brain injury models in preclinical studies." },
-                  { title: "Spinal Cord Injury", desc: "Improved functional recovery and reduced tissue damage in spinal cord injury research models." },
-                  { title: "Peripheral Nerves", desc: "Enhanced peripheral nerve regeneration and functional recovery after nerve injury." },
+                  { title: "Bone Health", desc: "Supports bone mineral density through GH/IGF-1 mediated osteoblast activity. May contribute to improved skeletal health in long-term research protocols." },
+                  { title: "Appetite Stimulation", desc: "Mild ghrelin receptor activation may enhance appetite. Significantly less pronounced than GHRP-6, making Ipamorelin preferred when hunger effects are unwanted." },
                 ].map((item) => (
                   <div key={item.title} className="bg-amber-50 border border-amber-200 rounded-xl p-5">
                     <div className="flex items-start gap-2.5">
@@ -626,9 +556,9 @@ export default function CompoundPageClient({
             {/* Injectable */}
             <div>
               <h4 className="text-base font-bold text-gray-900 mb-2">
-                <span className="text-blue-600">Injectable</span> — Most Effective for Localized Healing
+                <span className="text-blue-600">Injectable</span> — Subcutaneous Administration
               </h4>
-              <p className="text-sm text-gray-500 mb-3">Subcutaneous injection preferred for targeted tissue repair. Most effective on an empty stomach. Inject close to injury site. Rotate injection sites to prevent irritation.</p>
+              <p className="text-sm text-gray-500 mb-3">Best taken on an empty stomach (30 min before or 2 hours after meals). Do not eat for 30 minutes post-injection to avoid blunting GH pulse. Rotate injection sites. Morning and pre-bed dosing mimics natural GH pulses.</p>
               <div className="overflow-x-auto">
                 <table className="w-full text-base border-collapse">
                   <thead>
@@ -641,45 +571,11 @@ export default function CompoundPageClient({
                   </thead>
                   <tbody className="divide-y divide-gray-100">
                     {[
-                      { goal: "Tendon/Joint healing", dose: "250-500 mcg", freq: "1-2x daily", route: "SubQ near injury" },
-                      { goal: "Serious injury", dose: "500-1000 mcg", freq: "2x daily", route: "SubQ near injury" },
-                      { goal: "General healing", dose: "250-500 mcg", freq: "1-2x daily", route: "SubQ or IM" },
-                      { goal: "Maintenance", dose: "250 mcg", freq: "1x daily", route: "SubQ" },
-                    ].map((row) => (
-                      <tr key={row.goal} className="hover:bg-gray-50">
-                        <td className="px-4 py-2.5 font-medium text-gray-900">{row.goal}</td>
-                        <td className="px-4 py-2.5 text-right font-mono text-gray-700">{row.dose}</td>
-                        <td className="px-4 py-2.5 text-right text-gray-600">{row.freq}</td>
-                        <td className="px-4 py-2.5 text-right text-gray-600">{row.route}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            {/* Oral */}
-            <div>
-              <h4 className="text-base font-bold text-gray-900 mb-2">
-                <span className="text-emerald-600">Oral</span> — For Gastric &amp; Intestinal Conditions
-              </h4>
-              <p className="text-sm text-gray-500 mb-3">Effective for GI-related goals. Higher doses required due to lower bioavailability. Take 30 minutes before meals.</p>
-              <div className="overflow-x-auto">
-                <table className="w-full text-base border-collapse">
-                  <thead>
-                    <tr className="bg-emerald-50 border-b border-emerald-200">
-                      <th className="text-left px-4 py-2.5 text-xs text-emerald-800 font-bold">Goal</th>
-                      <th className="text-right px-4 py-2.5 text-xs text-emerald-800 font-bold">Dose</th>
-                      <th className="text-right px-4 py-2.5 text-xs text-emerald-800 font-bold">Frequency</th>
-                      <th className="text-right px-4 py-2.5 text-xs text-emerald-800 font-bold">Route</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-100">
-                    {[
-                      { goal: "Gastric protection", dose: "500 mcg - 1 mg", freq: "1-2x daily", route: "Oral (empty stomach)" },
-                      { goal: "General healing", dose: "1-2 mg", freq: "1-2x daily", route: "Oral (empty stomach)" },
-                      { goal: "Ulcer prevention", dose: "500 mcg", freq: "2x daily", route: "Oral (empty stomach)" },
-                      { goal: "Maintenance", dose: "500 mcg", freq: "1x daily", route: "Oral (empty stomach)" },
+                      { goal: "General Health & Longevity", dose: "200 mcg", freq: "1x daily before bed", route: "SubQ" },
+                      { goal: "Body Composition", dose: "250-300 mcg", freq: "2x daily (morning + pre-workout)", route: "SubQ" },
+                      { goal: "Athletic Performance", dose: "200-250 mcg", freq: "2-3x daily", route: "SubQ" },
+                      { goal: "Sleep & Recovery", dose: "200 mcg", freq: "1x daily 30min before bed", route: "SubQ" },
+                      { goal: "Anti-Aging Protocol", dose: "200-250 mcg", freq: "1-2x daily", route: "SubQ" },
                     ].map((row) => (
                       <tr key={row.goal} className="hover:bg-gray-50">
                         <td className="px-4 py-2.5 font-medium text-gray-900">{row.goal}</td>
@@ -698,11 +594,12 @@ export default function CompoundPageClient({
               <h4 className="text-base font-bold text-gray-900 mb-2">Protocol Tips</h4>
               <ul className="space-y-1.5">
                 {[
-                  "Most effective on an empty stomach for maximum absorption",
-                  "Inject close to the injury site for localized healing",
+                  "Best taken on an empty stomach for maximum GH pulse amplitude",
+                  "Do not eat for 30 minutes post-injection to avoid blunting the GH pulse",
                   "Rotate injection sites to prevent tissue irritation",
-                  "Reconstitute with bacteriostatic water — never shake the vial",
-                  "Store reconstituted peptide at 2-8°C; use within 4-6 weeks",
+                  "Morning and pre-bed dosing mimics the body's natural GH pulse pattern",
+                  "Reconstitute with bacteriostatic water — swirl gently, never shake",
+                  "Store reconstituted peptide at 2-8°C; use within 28 days",
                 ].map((tip, i) => (
                   <li key={i} className="flex items-start gap-2 text-base text-gray-600">
                     <svg className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
@@ -745,12 +642,12 @@ export default function CompoundPageClient({
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                { slug: "tb-500", name: "TB-500 (Thymosin Beta-4)", desc: "Synergistic tissue repair — TB-500 promotes actin binding and cell migration while BPC-157 enhances angiogenesis and collagen synthesis. The most well-studied peptide stack for comprehensive healing research.", effect: "Synergistic" },
-                { slug: "ghk-cu", name: "GHK-Cu", desc: "Copper peptide that supports collagen synthesis and wound healing. When combined with BPC-157, may provide enhanced dermal repair and anti-inflammatory effects in tissue models.", effect: "Complementary" },
-                { slug: "semax", name: "Semax", desc: "Nootropic peptide studied for neuroprotection and cognitive enhancement. May complement BPC-157's neuroprotective effects in brain injury and recovery models.", effect: "Complementary" },
-                { slug: "cjc-1295-no-dac", name: "CJC-1295 (No DAC)", desc: "GHRH analog that stimulates growth hormone release. Often researched alongside BPC-157 for enhanced tissue regeneration and recovery protocols.", effect: "Supportive" },
-                { slug: "ipamorelin", name: "Ipamorelin", desc: "GH secretagogue that pairs well with BPC-157 in recovery protocols — Ipamorelin stimulates GH pulses while BPC-157 supports tissue repair at the injury site.", effect: "Supportive" },
-                { slug: "kpv", name: "KPV", desc: "Anti-inflammatory peptide derived from alpha-MSH. May enhance BPC-157's effects on intestinal barrier function and mucosal healing in GI research models.", effect: "Complementary" },
+                { slug: "cjc-1295-no-dac", name: "CJC-1295 (No DAC)", desc: "Synergistic — The most studied GHRH/GHRP stack. CJC-1295 stimulates GHRH receptors while Ipamorelin acts on ghrelin receptors, producing a synergistic GH pulse significantly greater than either alone.", effect: "Synergistic" },
+                { slug: "tesamorelin", name: "Tesamorelin", desc: "Synergistic — Tesamorelin (GHRH analog) combined with Ipamorelin amplifies GH release through complementary pituitary stimulation pathways.", effect: "Synergistic" },
+                { slug: "ghrp-2", name: "GHRP-2", desc: "Alternative — Both are GHRPs but Ipamorelin is preferred when minimal cortisol/prolactin elevation is desired for research protocols.", effect: "Complementary" },
+                { slug: "ghrp-6", name: "GHRP-6", desc: "Alternative — GHRP-6 causes significant appetite stimulation; Ipamorelin is preferred when hunger effects are unwanted in the research model.", effect: "Complementary" },
+                { slug: "sermorelin", name: "Sermorelin", desc: "Supportive — Sermorelin (GRF 1-29) paired with Ipamorelin creates a dual-pathway GH stimulation protocol for enhanced GH release.", effect: "Supportive" },
+                { slug: "mod-grf-1-29", name: "Mod GRF (1-29)", desc: "Supportive — Modified GRF(1-29) provides GHRH agonism that complements Ipamorelin's ghrelin receptor targeting for comprehensive GH axis research.", effect: "Supportive" },
               ].map((item) => (
                 <Link
                   key={item.slug}
@@ -789,7 +686,7 @@ export default function CompoundPageClient({
               <h4 className="text-base font-bold text-gray-900 mb-2">Research Stacking Notes</h4>
               <ul className="space-y-1.5">
                 {[
-                  "BPC-157 and TB-500 are the most commonly researched peptide combination for comprehensive tissue healing studies",
+                  "CJC-1295 (No DAC) and Ipamorelin are the most studied GHRH/GHRP combination for GH secretion research",
                   "Always introduce one compound at a time in research protocols to isolate effects",
                   "Dosage adjustments may be needed when combining peptides — consult published protocols",
                   "Consider half-life differences when designing combination dosing schedules",
@@ -820,12 +717,12 @@ export default function CompoundPageClient({
 
               <div className="space-y-0 md:space-y-4">
                 {[
-                  { day: "Day 1-3", title: "Initial Administration", desc: "Begin daily dosing protocol. SubQ injection near target tissue or oral administration for GI studies. First signs of reduced inflammation observed within 24-48 hours.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                  { day: "Day 4-7", title: "Early Response Phase", desc: "Angiogenesis begins — new blood vessel formation detectable at injury sites. Collagen synthesis upregulated. Reduced edema and inflammatory markers in tissue samples.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
-                  { day: "Day 7-14", title: "Tissue Repair Phase", desc: "Accelerated wound healing and tissue regeneration observed. Enhanced fibroblast activity and extracellular matrix remodeling. Significant reduction in healing time compared to controls.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
-                  { day: "Day 14-28", title: "Remodeling Phase", desc: "Continued tissue strengthening and maturation. Tendon and ligament biomechanical properties show improvement. Bone healing studies demonstrate increased callus formation and density.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
-                  { day: "Day 28-56", title: "Long-term Recovery", desc: "Maximal tissue repair achieved. Functional recovery assessed. GI mucosal lining fully restored in intestinal models. Neuroprotective effects continue in CNS studies.", color: "purple", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
-                  { day: "Day 56-84", title: "Study Conclusion", desc: "End of standard research cycle (8-12 weeks). Comprehensive assessment of tissue repair, functional recovery, and biomarker analysis. Cycle completion before washout period.", color: "purple", icon: "M5 13l4 4L19 7" },
+                  { day: "Day 1-7", title: "Initial Administration", desc: "Begin daily dosing protocol. First GH pulses detected post-injection. No significant physiological changes yet.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+                  { day: "Day 7-14", title: "Early Response Phase", desc: "Consistent GH pulse pattern established. Sleep quality may improve. Early metabolic changes begin as GH/IGF-1 signalling initiates.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+                  { day: "Day 14-28", title: "Physiological Adaptation", desc: "Increased IGF-1 production begins. Early improvements in recovery time and body composition may be observed through GH-mediated anabolic effects.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+                  { day: "Day 28-56", title: "Active Remodelling Phase", desc: "Continued GH/IGF-1 elevation supports lean mass preservation and fat metabolism. Most noticeable changes in body composition and recovery.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+                  { day: "Day 56-84", title: "Peak Effect Phase", desc: "Maximum physiological response achieved. Consistent improvements in muscle quality, fat loss, and sleep architecture observed.", color: "purple", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+                  { day: "Day 84-168", title: "Study Conclusion", desc: "Standard 3-6 month research cycle. Comprehensive assessment of GH/IGF-1 biomarkers, body composition changes, and functional outcomes.", color: "purple", icon: "M5 13l4 4L19 7" },
                 ].map((phase, i) => {
                   const colorMap: Record<string, string> = {
                     blue: "border-blue-500 bg-blue-50",
@@ -879,31 +776,31 @@ export default function CompoundPageClient({
               {[
                 {
                   label: "Research Use Only",
-                  text: "BPC-157 is not approved for human consumption by the MHRA, FDA, EMA, or any other regulatory body. For in-vitro and animal research use only.",
+                  text: "Ipamorelin is not approved for human consumption by the MHRA, FDA, or any regulatory body. For in-vitro and animal research use only.",
                   icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z",
                   color: "amber",
                 },
                 {
-                  label: "WADA Prohibited",
-                  text: "BPC-157 may be prohibited under the World Anti-Doping Agency (WADA) code. Competitive athletes should exercise extreme caution.",
+                  label: "Hormonal Considerations",
+                  text: "As a GH secretagogue, Ipamorelin alters the HGH/IGF-1 axis. Monitor GH and IGF-1 levels in long-term studies. Prolonged use may affect natural GH pulsatility.",
                   icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636",
                   color: "red",
                 },
                 {
                   label: "Contraindications",
-                  text: "Extra caution is advised for research involving subjects with active cancer, pregnancy/breastfeeding, or those on blood thinners due to BPC-157's angiogenesis-related mechanisms.",
+                  text: "Extra caution advised for research involving subjects with active cancer, pituitary disorders, or diabetes, due to GH/IGF-1 axis involvement.",
                   icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
                   color: "amber",
                 },
                 {
                   label: "Storage Requirements",
-                  text: "Lyophilized powder: Store at -20°C, protected from light and moisture. Reconstituted solution: Stable for 4-6 weeks at 2-8°C. Do not freeze after reconstitution.",
+                  text: "Lyophilized powder: Store at room temperature, protected from light and moisture. Reconstituted solution: Stable for up to 28 days at 2-8°C. Do not freeze after reconstitution.",
                   icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z",
                   color: "blue",
                 },
                 {
                   label: "Handling Protocols",
-                  text: "Standard laboratory safety protocols must be followed. Use appropriate PPE during handling and reconstitution including gloves and eye protection. Work in a sterile environment.",
+                  text: "Standard laboratory safety protocols must be followed. Use appropriate PPE including gloves during handling. Reconstitute with bacteriostatic water only — swirl gently, never shake.",
                   icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
                   color: "blue",
                 },
@@ -1016,21 +913,16 @@ export default function CompoundPageClient({
             </p>
             <div className="space-y-3">
               {[
-                "Sikiric P, Seiwerth S, Mise S, et al. The gastric cytoprotective effect of BPC-157. Dig Dis Sci. 1994;39(12):2600-2608.",
-                "Sikiric P, Seiwerth S, Rucman R, et al. Stable gastric pentadecapeptide BPC 157-NO-system relation. Curr Pharm Des. 2014;20(7):1126-1135.",
-                "Seiwerth S, Rucman R, Turkovic B, et al. BPC 157 and standard angiogenic growth factors. Gastrointestinal tract healing, lessons from tendon, ligament, muscle and bone healing. Curr Pharm Des. 2018;24(18):1972-1989.",
-                "Chang CH, Tsai WC, Hsu YH, et al. BPC-157 enhances tendon healing through angiogenesis. J Orthop Res. 2011;29(9):1390-1396.",
-                "Staresinic M, Sebecic B, Patrlj L, et al. Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon. J Orthop Res. 2006;24(11):2155-2165.",
-                "Seiwerth S, Brcic L, Vuletic LB, et al. BPC 157 and tissue healing. Front Pharmacol. 2021;12:647448.",
-                "Kang EA, Han YM, An JM, et al. BPC-157 in inflammatory bowel disease models. Gut Liver. 2018;12(4):402-411.",
-                "Tudoric-Djeno I, Krivic A, Sikiric P, et al. Pentadecapeptide BPC 157 and tissue healing. J Physiol Pharmacol. 2007;58 Suppl 5:719-724.",
-                "Novinscak T, Brcic L, Staresinic M, et al. Gastric pentadecapeptide BPC 157 as an effective therapy for muscle crush injury in the rat. Surg Today. 2008;38(8):716-721.",
-                "Mikus D, Sikiric P, Seiwerth S, et al. Pentadecapeptide BPC 157 cream improves burn wound healing in mice. Burns. 2012;38(3):404-413.",
-                "Sikiric P, Seiwerth S, Rucman R, et al. Brain-gut axis and pentadecapeptide BPC 157: theoretical and practical implications. Curr Neuropharmacol. 2016;14(8):857-865.",
-                "Grabarevic Z, Tisljar M, Artukovic B, et al. The influence of BPC 157 on fundus mucosa in rats. J Physiol Paris. 1997;91(3-5):147-152.",
-                "Sikiric P, Seiwerth S, Rucman R, et al. Toxicity, safety and analgesic activity in rats of BPC 157. Regul Pept. 1993;48(1-2):139-147.",
-                "Bilic V, Bilic G, Sikiric P, et al. BPC 157 in the treatment of the acute pancreatitis in rats. Dig Dis Sci. 2005;50(2):270-277.",
-                "Sikiric P, Seiwerth S, Brcic L, et al. Revised Robert's cytoprotection and adaptive cytoprotection and stable gastric pentadecapeptide BPC 157. Secretion, absorption and new bioassays. J Physiol Pharmacol. 2018;69(4).",
+                "Raun K, et al. Ipamorelin, a novel growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561.",
+                "Hansen BS, et al. Pharmacological characterisation of a new growth hormone secretagogue. J Endocrinol. 1999;162(2):281-288.",
+                "Laron Z. The GH/IGF-1 axis and aging. Best Pract Res Clin Endocrinol Metab. 2004;18(3):393-406.",
+                "Nass R, et al. Age-dependent effects of growth hormone secretagogues. J Clin Endocrinol Metab. 2004;89(6):2802-2808.",
+                "Ghigo E, et al. Growth hormone secretagogues: clinical perspectives. Endocrine. 2001;14(1):17-24.",
+                "Bowers CY. Growth hormone-releasing peptide physiology and pharmacology. J Pediatr Endocrinol Metab. 2001;14(Suppl 6):1397-1406.",
+                "Smith RG, et al. Growth hormone secretagogue receptor family. Endocr Rev. 2005;26(3):346-360.",
+                "Kojima M, Kangawa K. Ghrelin: structure and function. Physiol Rev. 2005;85(2):495-522.",
+                "Arvat E, et al. Effects of ipamorelin on GH secretion in humans. Clin Endocrinol. 2001;54(1):37-44.",
+                "Thorner MO, et al. Clinical potential of growth hormone secretagogues. Endocr Rev. 1997;18(5):631-658.",
               ].map((ref, i) => (
                 <div key={i} className="flex items-start gap-2 p-3 hover:bg-gray-50 rounded-lg transition-colors">
                   <span className="text-sm text-gray-400 font-mono mt-0.5 min-w-[24px]">[{i + 1}]</span>
