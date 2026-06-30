@@ -102,51 +102,52 @@ function ArrowRightIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
   );
 }
 
-// ── Single compound card (reference-site style, 3-col grid) ──
+// ── Single compound card (horizontal, reference-site style) ──
 function CompoundCard({ compound }: { compound: any }) {
   const minP = calcMinPrice(compound.sources);
   const maxP = calcMaxPrice(compound.sources);
   const savePct = calcSavePercent(minP, maxP);
   const slug = compound.slug;
-  const sourceImg = getSourceImage(compound);
   const count = compound.sources.length;
-  const dosages = (compound.commonDosages || []).slice(0, 4);
-  const dosagesMore = (compound.commonDosages || []).length - 4;
+  const dosages = (compound.commonDosages || []).slice(0, 3);
+  const dosagesMore = (compound.commonDosages || []).length - 3;
   const cat = compound.category;
   const accent = getAccent(cat);
+  const benefits = (compound.researchAreas || []).slice(0, 2);
+  const hasMoreBenefits = (compound.researchAreas || []).length > 2;
 
   return (
     <Link
       href={`/compounds/${slug}`}
-      className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex flex-col`}
+      className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex`}
     >
-      {/* Image area with LetterAvatar */}
-      <div className={`h-36 ${accent.bg} flex items-center justify-center relative overflow-hidden`}>
+      {/* Left: LetterAvatar */}
+      <div className={`w-24 md:w-28 flex-shrink-0 ${accent.bg} flex items-center justify-center relative`}>
         <LetterAvatar name={compound.name} />
-        {/* Save badge */}
+        {/* Save badge overlay */}
         {savePct > 0 && (
-          <div className="absolute top-2 right-2 bg-orange-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-md">
+          <div className="absolute top-2 right-2 bg-orange-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-md leading-tight">
             -{savePct}%
           </div>
         )}
       </div>
 
-      {/* Content */}
-      <div className="p-4 flex flex-col flex-1">
-        {/* Name */}
-        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">
-          {compound.name}
-        </h3>
-
-        {/* Supplier count */}
-        <div className="flex items-baseline gap-0.5 mt-1">
-          <span className="text-lg font-bold text-emerald-600">{count}</span>
-          <span className="text-[10px] text-slate-400 uppercase tracking-wider font-medium">SUPPLIERS</span>
+      {/* Right: content */}
+      <div className="flex-1 p-3 md:p-4 flex flex-col gap-1 min-w-0">
+        {/* Name + supplier count row */}
+        <div className="flex items-start justify-between gap-2">
+          <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors truncate">
+            {compound.name}
+          </h3>
+          <div className="flex items-baseline gap-0.5 flex-shrink-0">
+            <span className="text-base font-bold text-emerald-600">{count}</span>
+            <span className="text-[9px] text-slate-400 uppercase tracking-wider font-medium">SUP</span>
+          </div>
         </div>
 
         {/* Dosage pills */}
         {dosages.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-2">
+          <div className="flex flex-wrap gap-1">
             {dosages.map((d: string) => (
               <span key={d} className={`text-[10px] ${accent.badge} px-1.5 py-0.5 rounded font-medium`}>{d}</span>
             ))}
@@ -156,24 +157,31 @@ function CompoundCard({ compound }: { compound: any }) {
           </div>
         )}
 
-        {/* Category badge */}
-        <span className={`text-[10px] ${accent.badge} px-1.5 py-0.5 rounded font-medium mt-2 self-start`}>
-          {CATEGORY_LABELS[cat] || cat}
-        </span>
-
-        {/* Spacer */}
-        <div className="flex-1" />
-
-        {/* Price + CTA */}
-        <div className="mt-3 pt-3 border-t border-gray-100">
-          <div className="mb-2">
-            <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
-            <div className="text-lg md:text-xl font-extrabold text-emerald-600">£{minP.toFixed(2)}</div>
+        {/* Benefits with checkmark */}
+        {benefits.length > 0 && (
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
+            {benefits.map((b: string) => (
+              <span key={b} className="flex items-center gap-1 text-[11px] text-gray-600">
+                <svg className="w-3 h-3 text-emerald-500 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                {b}
+              </span>
+            ))}
+            {hasMoreBenefits && (
+              <span className="text-[11px] text-blue-600 font-medium">+{compound.researchAreas.length - 2} more</span>
+            )}
           </div>
-          <div className="flex justify-center">
-            <div className="w-1/2 px-4 py-2.5 rounded-lg text-sm font-bold bg-blue-600 text-white hover:bg-blue-500 transition-colors flex items-center justify-center gap-1.5 shadow-sm">
-              Compare <ArrowRightIcon className="w-4 h-4" />
-            </div>
+        )}
+
+        {/* Bottom: FROM price + Compare CTA */}
+        <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
+          <div>
+            <span className="text-[9px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
+            <div className="text-base md:text-lg font-extrabold text-emerald-600 leading-none">£{minP.toFixed(2)}</div>
+          </div>
+          <div className="w-1/2 max-w-[140px] px-3 py-2 rounded-lg text-[11px] font-bold bg-blue-600 text-white hover:bg-blue-500 transition-colors flex items-center justify-center gap-1 shadow-sm">
+            Compare <ArrowRightIcon className="w-3 h-3" />
           </div>
         </div>
       </div>
