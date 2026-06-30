@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import ProductImage from "@/components/ProductImage";
 
@@ -143,6 +143,57 @@ export default function CompoundPageClient({
   };
 
   const clearSelected = () => setSelectedVendors(new Set());
+
+  // ── URL hash ↔ active tab sync ──
+  const HASH_TAB_MAP: Record<string, TabId> = {
+    "profile-overview": "overview",
+    "profile-molecular": "molecular",
+    "profile-indications": "indications",
+    "profile-dosing": "dosing",
+    "profile-interactions": "interactions",
+    "profile-timeline": "timeline",
+    "profile-safety": "safety",
+    "profile-quality": "quality",
+    "profile-references": "references",
+  };
+  const TAB_HASH_MAP: Record<string, string> = Object.fromEntries(
+    Object.entries(HASH_TAB_MAP).map(([hash, tab]) => [tab, hash])
+  );
+
+  // On mount, read hash from URL and switch to matching tab
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash && HASH_TAB_MAP[hash]) {
+      setActiveTab(HASH_TAB_MAP[hash]);
+    }
+  }, []);
+
+  // When hash changes (user navigates back/forward), sync tab
+  useEffect(() => {
+    const onHashChange = () => {
+      const hash = window.location.hash.replace("#", "");
+      if (hash && HASH_TAB_MAP[hash]) {
+        setActiveTab(HASH_TAB_MAP[hash]);
+      }
+    };
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+
+  // Tab click — updates URL hash + smooth scroll to tab panel
+  const handleTabClick = useCallback((tabId: TabId) => {
+    setActiveTab(tabId);
+    const hash = TAB_HASH_MAP[tabId];
+    if (hash) {
+      // Update URL without reload
+      window.history.pushState(null, "", `#${hash}`);
+    }
+    // Smooth scroll to the tab panel container
+    const el = document.getElementById("profile-tab-panel");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, []);
 
   // Filter & sort sources
   const displayedSources = useMemo(() => {
@@ -1044,7 +1095,7 @@ export default function CompoundPageClient({
                 key={tab.id}
                 role="tab"
                 aria-selected={activeTab === tab.id}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => handleTabClick(tab.id)}
                 className={`whitespace-nowrap px-4 py-2 text-sm font-semibold rounded-full transition-all ${
                   activeTab === tab.id
                     ? "bg-blue-600 text-white shadow-sm"
@@ -1058,7 +1109,7 @@ export default function CompoundPageClient({
         </div>
 
         {/* Tab content */}
-        <div className="p-5 md:p-6" role="tabpanel">
+        <div className="p-5 md:p-6" role="tabpanel" id="profile-tab-panel">
           {activeTab === "prices" ? (
             <div>
               <p className="text-base text-gray-500 mb-3">
