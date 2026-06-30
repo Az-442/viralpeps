@@ -4,12 +4,20 @@ interface ProductImageProps {
   vendorSlug: string;
   compoundSlug: string;
   compoundName: string;
+  /** Optional direct image URL from the source data (e.g. supplier CDN) — used first if provided */
+  sourceImageUrl?: string;
 }
 
-export default function ProductImage({ vendorSlug, compoundSlug, compoundName }: ProductImageProps) {
+export default function ProductImage({ vendorSlug, compoundSlug, compoundName, sourceImageUrl }: ProductImageProps) {
   const handleError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     const img = e.currentTarget;
     const currentSrc = img.src;
+    
+    // If starting from a remote CDN URL and it fails, fall through to local paths
+    if (currentSrc.startsWith("http")) {
+      img.src = `/images/products/${vendorSlug}/${compoundSlug}.webp`;
+      return;
+    }
     
     if (currentSrc.endsWith(".webp")) {
       // Try .png next
@@ -33,7 +41,7 @@ export default function ProductImage({ vendorSlug, compoundSlug, compoundName }:
 
   return (
     <img
-      src={`/images/products/${vendorSlug}/${compoundSlug}.webp`}
+      src={sourceImageUrl || `/images/products/${vendorSlug}/${compoundSlug}.webp`}
       alt={compoundName}
       className="w-full h-full object-contain p-1"
       onError={handleError}

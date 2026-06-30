@@ -32,26 +32,47 @@ function MagnifyingGlassIcon() {
   );
 }
 
-// Compound count per vendor — matches profile page filter logic exactly
-function getVendorCompoundCount(vendorName: string): number {
+// Product listing count per vendor — counts all source entries (including dosage variants)
+// to match "how many products this supplier lists" on their actual website.
+function getVendorProductCount(vendorName: string): number {
   const vendorSourceCompounds = compounds.filter((c) =>
     c.sources.some((s) => s.vendor === vendorName)
   );
   const hasCatalogEntries = vendorSourceCompounds.some((c) =>
-    (c as any)?.compareSlug
+    (c as any)?.compareSlug &&
+    c.sources.every((s) => s.vendor === vendorName)
   );
-  return hasCatalogEntries
-    ? vendorSourceCompounds.filter((c) =>
-        (c as any)?.compareSlug ||
-        c.sources.every((s) => s.vendor === vendorName)
-      ).length
-    : vendorSourceCompounds.length;
+
+  if (hasCatalogEntries) {
+    // For catalog-entry vendors, count unique compound entries
+    return vendorSourceCompounds.filter((c) =>
+      (c as any)?.compareSlug ||
+      c.sources.every((s) => s.vendor === vendorName)
+    ).length;
+  }
+
+  // For regular vendors mapped to master compounds: count total source entries
+  // (each distinct dosage/source = one product listing)
+  let total = 0;
+  for (const c of vendorSourceCompounds) {
+    for (const s of c.sources) {
+      if (s.vendor === vendorName) {
+        const opts = (s as any)?.options;
+        if (opts && opts.length > 0) {
+          total += opts.length;
+        } else {
+          total += 1;
+        }
+      }
+    }
+  }
+  return total;
 }
 
 // Pre-compute for sorting
 const vendorProductCounts: Record<string, number> = {};
 for (const v of vendors) {
-  vendorProductCounts[v.name] = getVendorCompoundCount(v.name);
+  vendorProductCounts[v.name] = getVendorProductCount(v.name);
 }
 
 // Min price per vendor

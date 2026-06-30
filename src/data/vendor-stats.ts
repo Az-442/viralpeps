@@ -12,7 +12,9 @@ import { CATEGORY_LABELS } from "./categories";
 // ── Per-vendor data ──
 
 export interface VendorStats {
-  /** Number of unique products (master compounds) this vendor supplies */
+  /** Total product listings for this vendor (counting all source entries and dosage variants) */
+  productCount: number;
+  /** Number of unique master compounds this vendor supplies (deprecated — kept for backwards compat) */
   compoundCount: number;
   /** Human-readable category labels this vendor's products fall under */
   categories: string[];
@@ -46,16 +48,24 @@ export function getVendorStats(vendorName: string): VendorStats {
     .filter(Boolean);
 
   let minPrice = Infinity;
+  let productCount = 0;
   for (const c of vc) {
     for (const s of c.sources) {
       if (s.vendor === vendorName) {
         const p = parseFloat(s.price.replace(/[£$€,]/g, ""));
         if (!isNaN(p) && p < minPrice) minPrice = p;
+        const opts = (s as any)?.options;
+        if (opts && opts.length > 0) {
+          productCount += opts.length;
+        } else {
+          productCount += 1;
+        }
       }
     }
   }
 
   return {
+    productCount,
     compoundCount: vc.length,
     categories,
     categorySlugs,

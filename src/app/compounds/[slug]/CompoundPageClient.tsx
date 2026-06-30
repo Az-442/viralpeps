@@ -816,7 +816,7 @@ export default function CompoundPageClient({
                     <td className="px-5 py-4">
                       <div className="flex items-center gap-4">
                         <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
-                          <ProductImage vendorSlug={vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')} compoundSlug={compound.slug} compoundName={compound.name} />
+                          <ProductImage vendorSlug={vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')} compoundSlug={compound.slug} compoundName={compound.name} sourceImageUrl={String((s as any).image || '') || undefined} />
                         </div>
                         <div>
                           <div className="flex items-center gap-2">
@@ -943,7 +943,7 @@ export default function CompoundPageClient({
 
                 {/* Logo */}
                 <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
-                  <ProductImage vendorSlug={vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')} compoundSlug={compound.slug} compoundName={compound.name} />
+                  <ProductImage vendorSlug={vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')} compoundSlug={compound.slug} compoundName={compound.name} sourceImageUrl={String((s as any).image || '') || undefined} />
                 </div>
 
                 {/* Name + Rating */}

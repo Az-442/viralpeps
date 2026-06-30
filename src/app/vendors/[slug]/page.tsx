@@ -185,7 +185,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   </span>
                   <span className="flex items-center gap-1">
                     <BoxIcon />
-                    <span>{vendorCompounds.length} products</span>
+                    <span>{vendorStats.compoundCount} products</span>
                   </span>
                   {vendor.founded && <span>Since {vendor.founded}</span>}
                   <span className="text-emerald-400 font-semibold text-base">From £{minPrice.toFixed(2)}</span>
@@ -280,7 +280,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   {/* Top row: Image + Info */}
                   <div className="flex flex-row items-center gap-2.5 p-3 pb-1 md:p-4 md:pb-1.5">
                     <div className="w-[70px] h-[70px] md:w-[90px] md:h-[90px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-indigo-50 border border-indigo-100">
-                      <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} />
+                      <ProductImage vendorSlug={vendor.slug} compoundSlug={c.slug} compoundName={c.name} sourceImageUrl={String((source as any)?.image || '') || undefined} />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex flex-wrap items-center gap-1.5 mb-0.5">
