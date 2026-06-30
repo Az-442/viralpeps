@@ -70,7 +70,7 @@ const categoryTabs: TabDef[] = [
   ...HOMEPAGE_CATEGORY_GROUPS.map((g) => ({ label: g.badge, slugs: g.slugs })),
 ];
 
-// ── Letter avatar (bigger, brighter, brand colours) ──
+// ── Letter avatar ──
 function LetterAvatar({ name, className = "" }: { name: string; className?: string }) {
   const letter = name.trim().charAt(0).toUpperCase();
   const colors = [
@@ -79,7 +79,7 @@ function LetterAvatar({ name, className = "" }: { name: string; className?: stri
   ];
   const idx = name.charCodeAt(0) % colors.length;
   return (
-    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-white font-bold text-base flex-shrink-0 ${colors[idx]} ${className}`}>
+    <div className={`w-20 h-20 rounded-2xl flex items-center justify-center text-white font-bold text-2xl flex-shrink-0 shadow-md ${colors[idx]} ${className}`}>
       {letter}
     </div>
   );
@@ -120,15 +120,9 @@ function CompoundCard({ compound }: { compound: any }) {
       href={`/compounds/${slug}`}
       className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex flex-col`}
     >
-      {/* Image area */}
+      {/* Image area with LetterAvatar */}
       <div className={`h-36 ${accent.bg} flex items-center justify-center relative overflow-hidden`}>
-        {sourceImg ? (
-          <img src={sourceImg} alt={compound.name} className="w-28 h-28 object-contain" />
-        ) : (
-          <div className="flex items-center justify-center">
-            <LetterAvatar name={compound.name} />
-          </div>
-        )}
+        <LetterAvatar name={compound.name} />
         {/* Save badge */}
         {savePct > 0 && (
           <div className="absolute top-2 right-2 bg-orange-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-md">
@@ -171,13 +165,15 @@ function CompoundCard({ compound }: { compound: any }) {
         <div className="flex-1" />
 
         {/* Price + CTA */}
-        <div className="mt-3 pt-3 border-t border-gray-100 flex items-end justify-between">
-          <div>
+        <div className="mt-3 pt-3 border-t border-gray-100">
+          <div className="mb-2">
             <span className="text-[10px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
             <div className="text-lg md:text-xl font-extrabold text-emerald-600">£{minP.toFixed(2)}</div>
           </div>
-          <div className="px-4 py-2 rounded-lg text-sm font-bold bg-blue-600 text-white hover:bg-blue-500 transition-colors flex items-center gap-1.5 shadow-sm">
-            Compare <ArrowRightIcon className="w-4 h-4" />
+          <div className="flex justify-center">
+            <div className="w-1/2 px-4 py-2.5 rounded-lg text-sm font-bold bg-blue-600 text-white hover:bg-blue-500 transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+              Compare <ArrowRightIcon className="w-4 h-4" />
+            </div>
           </div>
         </div>
       </div>
