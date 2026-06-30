@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface ProductImageProps {
   vendorSlug: string;
@@ -16,42 +16,66 @@ export default function ProductImage({
   compoundName,
   sourceImageUrl,
 }: ProductImageProps) {
-  const [fallbackStep, setFallbackStep] = useState(0);
+  // Determine the best image URL upfront by checking which file actually exists.
+  // This avoids the preload-cache bug where a 404 HTML page is served as "loaded"
+  // image content, preventing onError from firing.
+  const [imageUrl, setImageUrl] = useState<string | null>(null);
 
-  const currentSrc = (() => {
-    const step = fallbackStep;
-    if (step === 0 && sourceImageUrl) return sourceImageUrl;
-    if (step === 0) return `/images/products/${vendorSlug}/${compoundSlug}.webp`;
-    if (step === 1) return `/images/products/${vendorSlug}/${compoundSlug}.png`;
-    if (step === 2) return `/images/products/${vendorSlug}/${compoundSlug}.jpg`;
-    if (step === 3) return `/images/vendors/${vendorSlug}.png`;
-    return `/images/compounds/${compoundSlug}.png`;
-  })();
+  useEffect(() => {
+    let cancelled = false;
 
-  const handleError = () => {
-    if (fallbackStep >= 5) return; // give up
-    setFallbackStep((n: number) => n + 1);
-  };
+    async function findBestImage() {
+      const candidates: string[] = [];
 
-  const handleLoad = (e: React.SyntheticEvent<HTMLImageElement>) => {
-    const img = e.currentTarget;
-    if (img.naturalWidth === 0 && fallbackStep < 5) {
-      setFallbackStep((n: number) => n + 1);
+      // 1. CDN source image (if provided)
+      if (sourceImageUrl) {
+        candidates.push(sourceImageUrl);
+      }
+
+      const base = `/images/products/${vendorSlug}/${compoundSlug}`;
+
+      // 2. Local .webp
+      candidates.push(`${base}.webp`);
+      // 3. Local .png
+      candidates.push(`${base}.png`);
+      // 4. Local .jpg
+      candidates.push(`${base}.jpg`);
+      // 5. Vendor logo
+      candidates.push(`/images/vendors/${vendorSlug}.png`);
+      // 6. Compound icon (fallback)
+      candidates.push(`/images/compounds/${compoundSlug}.png`);
+
+      for (const url of candidates) {
+        if (cancelled) return;
+        try {
+          const res = await fetch(url, { method: "HEAD" });
+          if (res.ok) {
+            if (!cancelled) setImageUrl(url);
+            return;
+          }
+        } catch {
+          // Network error, try next candidate
+        }
+      }
+
+      // If all candidates failed (shouldn't happen — compound icon is local), use compound icon
+      if (!cancelled) setImageUrl(`/images/compounds/${compoundSlug}.png`);
     }
-  };
 
-  const imgClassName =
-    fallbackStep >= 4
-      ? "w-10 h-10 object-contain"
-      : "w-full h-full object-contain p-1";
+    findBestImage();
+    return () => { cancelled = true; };
+  }, [vendorSlug, compoundSlug, sourceImageUrl]);
+
+  if (!imageUrl) {
+    // Show a tiny placeholder while checking
+    return <div className="w-full h-full flex items-center justify-center" />;
+  }
 
   return (
     <img
-      src={currentSrc}
+      src={imageUrl}
       alt={compoundName}
-      className={imgClassName}
-      onError={handleError}
-      onLoad={handleLoad}
+      className="w-full h-full object-contain p-1"
     />
   );
 }
