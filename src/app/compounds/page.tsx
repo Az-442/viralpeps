@@ -294,65 +294,64 @@ export default function CompoundsPage() {
     <div className="min-h-screen bg-white">
       <HeaderNav />
 
-      {/* HERO - matching reference site style */}
-      <section className="relative bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMSIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
-        <div className="relative max-w-6xl mx-auto px-4 py-12 md:py-20">
+      {/* HERO — matching brand style from homepage + suppliers page */}
+      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
+        <div className="max-w-5xl mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-1.5 text-[10px] font-bold text-emerald-300 bg-emerald-900/40 border border-emerald-700/30 px-2.5 py-1 rounded-full uppercase tracking-widest mb-4">
-            <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-            </svg>
-            PRICE COMPARISON
+          <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+            RESEARCH PEPTIDES
           </div>
 
-          {/* Heading */}
-          <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3 max-w-3xl">
-            Every UK peptide price, sorted cheapest first.
+          {/* Headline */}
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
+            Every UK peptide price, <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">sorted cheapest first.</span>
           </h1>
 
-          {/* Description */}
-          <p className="text-blue-200 text-sm md:text-lg max-w-2xl leading-relaxed mb-6">
-            Track <strong className="text-white">{PEPTIDE_COUNT} research peptides</strong> across{" "}
+          {/* Sub-headline */}
+          <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto mb-6">
+            Compare <strong className="text-white">{PEPTIDE_COUNT} research peptides</strong> across{" "}
             <strong className="text-white">{SUPPLIER_COUNT} UK suppliers</strong>.
             Find the best deal in seconds.
           </p>
 
           {/* Search bar */}
-          <div className="relative max-w-md">
-            <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-blue-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
-            </svg>
-            <input
-              type="text"
-              placeholder="Search peptides (e.g. BPC-157, Retatrutide)..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-sm text-white placeholder-blue-300/60 outline-none focus:border-blue-400 focus:bg-white/15 transition-all"
-            />
+          <div className="max-w-lg mx-auto mb-6">
+            <div className="relative">
+              <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
+              </svg>
+              <input
+                type="text"
+                placeholder={`Search ${PEPTIDE_COUNT} peptides...`}
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full pl-12 pr-5 py-3.5 bg-white rounded-full text-sm outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 shadow-lg"
+              />
+            </div>
           </div>
 
-          {/* Small stats row */}
-          <div className="flex flex-wrap items-center gap-5 mt-5 text-xs text-blue-300">
-            <span className="flex items-center gap-1.5">
-              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          {/* Stats row */}
+          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-sm">
+            <span className="flex items-center gap-1.5 text-emerald-400">
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
               </svg>
-              <strong className="text-white">{PEPTIDE_COUNT}</strong> peptides
+              <span className="text-white font-bold">{PEPTIDE_COUNT}</span>
+              <span className="text-gray-300">peptides tracked</span>
             </span>
-            <span className="w-px h-3 bg-blue-800/50" />
-            <span className="flex items-center gap-1.5">
-              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <span className="flex items-center gap-1.5 text-emerald-400">
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
               </svg>
-              <strong className="text-white">{TOTAL_PRODUCTS.toLocaleString()}</strong> products tracked
+              <span className="text-white font-bold">{TOTAL_PRODUCTS.toLocaleString()}</span>
+              <span className="text-gray-300">products tracked</span>
             </span>
-            <span className="w-px h-3 bg-blue-800/50" />
-            <span className="flex items-center gap-1.5">
-              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <span className="flex items-center gap-1.5 text-blue-400">
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
               </svg>
-              Updated daily
+              <span className="text-gray-300">Updated daily</span>
             </span>
           </div>
         </div>
