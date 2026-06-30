@@ -88,11 +88,18 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     return pa - pb;
   });
 
-  // Featured supplier = cheapest source from a featured vendor, or cheapest verified
+  // Featured supplier = source from a paid featured vendor, or random if none paid
   const featuredVendor = vendors.find((v) => (v as any).featured === true);
   const featured = featuredVendor
     ? sortedSources.find((s) => s.vendor === featuredVendor.name) || sortedSources[0]
-    : sortedSources[0];
+    : sortedSources.length > 0
+      ? (() => {
+          const random = Math.floor(Math.random() * sortedSources.length);
+          return sortedSources[random];
+        })()
+      : undefined;
+  // Find the vendor data (paid or random)
+  const featuredVendorData = featuredVendor || (featured ? vendors.find(v => v.name === featured.vendor) : undefined);
   const accent = getAccent(compound.category);
   const categoryLabel = compound.category.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
 
@@ -249,7 +256,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       {/* ===== MAIN CONTENT ===== */}
       <div className="max-w-6xl mx-auto px-4 pt-6 pb-2">
         {/* FEATURED SUPPLIER */}
-        {featured && featuredVendor && (
+        {featured && featuredVendorData && (
           <div className="relative bg-gradient-to-br from-amber-50 via-white to-amber-50/60 rounded-xl p-8 mb-8 overflow-hidden shadow-[0_0_35px_rgba(217,119,6,0.3)] border-2 border-transparent bg-clip-padding">
             {/* Animated glow border */}
             <div className="absolute inset-0 rounded-xl" style={{
@@ -276,20 +283,20 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             <div className="flex flex-wrap items-center justify-between gap-5">
               <div className="flex items-center gap-5">
                 <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
-                  <ProductImage vendorSlug={featuredVendor.slug} compoundSlug={slug} compoundName={compound?.name || featuredVendor.name} />
+                  <ProductImage vendorSlug={featuredVendorData.slug} compoundSlug={slug} compoundName={compound?.name || featuredVendorData.name} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 text-base">{featuredVendor.name}</h3>
+                  <h3 className="font-semibold text-gray-900 text-base">{featuredVendorData.name}</h3>
                   <div className="flex items-center gap-2 mt-1">
-                    <StarRating rating={featuredVendor.rating} />
-                    <span className="text-sm text-gray-500">{featuredVendor.rating}</span>
+                    <StarRating rating={featuredVendorData.rating} />
+                    <span className="text-sm text-gray-500">{featuredVendorData.rating}</span>
                     <span className="text-xs text-gray-300">|</span>
-                    <span className="text-sm text-gray-500">{featuredVendor.country}</span>
+                    <span className="text-sm text-gray-500">{featuredVendorData.country}</span>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap items-center gap-4">
-                {featuredVendor.verified && (
+                {featuredVendorData.verified && (
                   <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 px-3 py-1.5 rounded-full">
                     <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
                     Lab Tested
@@ -315,9 +322,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 </a>
               </div>
             </div>
-            {featuredVendor.highlights && featuredVendor.highlights.length > 0 && (
+            {featuredVendorData.highlights && featuredVendorData.highlights.length > 0 && (
               <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-gray-100">
-                {featuredVendor.highlights.slice(0, 3).map((h: string) => (
+                {featuredVendorData.highlights.slice(0, 3).map((h: string) => (
                   <span key={h} className="text-xs text-gray-600 bg-white border border-gray-200 px-3 py-1 rounded-full">{h}</span>
                 ))}
               </div>
