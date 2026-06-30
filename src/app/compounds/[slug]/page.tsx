@@ -173,24 +173,24 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </div>
           )}
 
-          {/* Stats row */}
-          <div className="flex flex-wrap items-center gap-6 md:gap-10">
-            <div>
-              <p className="text-[10px] text-blue-300 uppercase tracking-widest">Suppliers</p>
-              <p className="text-2xl md:text-3xl font-bold text-white">{compound.sources.length}</p>
-            </div>
-            <div>
-              <p className="text-[10px] text-blue-300 uppercase tracking-widest">From</p>
-              <p className="text-2xl md:text-3xl font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</p>
-            </div>
-            <div>
-              <p className="text-[10px] text-blue-300 uppercase tracking-widest">Average</p>
-              <p className="text-2xl md:text-3xl font-bold text-white">&pound;{avgPrice.toFixed(2)}</p>
-            </div>
-            <div>
-              <p className="text-[10px] text-blue-300 uppercase tracking-widest">Products</p>
-              <p className="text-2xl md:text-3xl font-bold text-white">{compound.sources.length}</p>
-            </div>
+          {/* Stats row - pill format matching benefit pills */}
+          <div className="flex flex-wrap items-center gap-2 md:gap-3">
+            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
+              <span className="text-[10px] text-blue-300 uppercase tracking-widest">Suppliers</span>
+              <span className="font-bold text-white">{compound.sources.length}</span>
+            </span>
+            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
+              <span className="text-[10px] text-blue-300 uppercase tracking-widest">From</span>
+              <span className="font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</span>
+            </span>
+            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
+              <span className="text-[10px] text-blue-300 uppercase tracking-widest">Average</span>
+              <span className="font-bold text-white">&pound;{avgPrice.toFixed(2)}</span>
+            </span>
+            <span className="inline-flex items-center gap-1.5 text-xs text-blue-100 bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
+              <span className="text-[10px] text-blue-300 uppercase tracking-widest">Products</span>
+              <span className="font-bold text-white">{compound.sources.length}</span>
+            </span>
             <div className="ml-auto">
               <a href="#pricing-table" className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-colors shadow-lg shadow-blue-900/40 hover:shadow-xl hover:shadow-blue-900/50">
                 See all prices
