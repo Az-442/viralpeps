@@ -167,21 +167,17 @@ function CompoundCard({ compound }: { compound: any }) {
           </div>
         )}
 
-        {/* Benefits with green checkmark */}
+        {/* Benefits with green pill badges (matching supplier card style) */}
         {benefits.length > 0 && (
-          <div className="flex flex-wrap items-center gap-y-1">
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-              {benefits.map((b: string) => (
-                <span key={b} className="flex items-center gap-1 text-[11px] text-emerald-600 font-medium">
-                  <svg className="w-3 h-3 text-emerald-500 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                  </svg>
-                  {b}
-                </span>
-              ))}
-            </div>
+          <div className="flex flex-wrap items-center gap-1.5">
+            {benefits.map((b: string) => (
+              <span key={b} className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
+                <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+                {b}
+              </span>
+            ))}
             {hasMoreBenefits && (
-              <span className="ml-1 text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full font-medium">+{compound.researchAreas.length - 2} more</span>
+              <span className="text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full font-medium">+{compound.researchAreas.length - 2} more</span>
             )}
           </div>
         )}
