@@ -102,7 +102,7 @@ function ArrowRightIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
   );
 }
 
-// ── Single compound card (horizontal, reference-site style) ──
+// ── Single compound card (reference-site style) ──
 function CompoundCard({ compound }: { compound: any }) {
   const minP = calcMinPrice(compound.sources);
   const maxP = calcMaxPrice(compound.sources);
@@ -115,35 +115,43 @@ function CompoundCard({ compound }: { compound: any }) {
   const accent = getAccent(cat);
   const benefits = (compound.researchAreas || []).slice(0, 2);
   const hasMoreBenefits = (compound.researchAreas || []).length > 2;
+  const alias = compound.aliases?.[0] || "";
+  const categoryLabel = CATEGORY_LABELS[cat] || cat.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
 
   return (
     <Link
       href={`/compounds/${slug}`}
-      className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex`}
+      className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex flex-col`}
     >
-      {/* Left: LetterAvatar */}
-      <div className={`w-24 md:w-28 flex-shrink-0 ${accent.bg} flex items-center justify-center relative`}>
+      {/* Header banner: LetterAvatar left + save badge */}
+      <div className={`flex items-center gap-3 p-3 md:p-4 ${accent.bg} relative`}>
         <LetterAvatar name={compound.name} />
-        {/* Save badge overlay */}
         {savePct > 0 && (
-          <div className="absolute top-2 right-2 bg-orange-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-md leading-tight">
-            -{savePct}%
+          <div className="ml-auto inline-flex items-center gap-1 bg-white border border-emerald-200 rounded-full px-2.5 py-1 shadow-sm">
+            <svg className="w-3 h-3 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+            <span className="text-[10px] font-bold text-emerald-700">SAVE {savePct}%</span>
           </div>
         )}
       </div>
 
-      {/* Right: content */}
-      <div className="flex-1 p-3 md:p-4 flex flex-col gap-1 min-w-0">
-        {/* Name + supplier count row */}
-        <div className="flex items-start justify-between gap-2">
-          <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors truncate">
+      {/* Content */}
+      <div className="p-3 md:p-4 flex flex-col gap-1.5 flex-1">
+        {/* Name + category pill */}
+        <div className="flex flex-wrap items-center gap-2">
+          <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">
             {compound.name}
           </h3>
-          <div className="flex items-baseline gap-0.5 flex-shrink-0">
-            <span className="text-base font-bold text-emerald-600">{count}</span>
-            <span className="text-[9px] text-slate-400 uppercase tracking-wider font-medium">SUP</span>
-          </div>
+          <span className={`text-[9px] font-semibold ${accent.badge} px-2 py-0.5 rounded-full uppercase tracking-wider`}>
+            {categoryLabel}
+          </span>
         </div>
+
+        {/* Alias/description */}
+        {alias && (
+          <p className="text-[12px] text-gray-500 leading-snug">{alias}</p>
+        )}
 
         {/* Dosage pills */}
         {dosages.length > 0 && (
@@ -157,32 +165,56 @@ function CompoundCard({ compound }: { compound: any }) {
           </div>
         )}
 
-        {/* Benefits with checkmark */}
+        {/* Benefits with green checkmark */}
         {benefits.length > 0 && (
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
-            {benefits.map((b: string) => (
-              <span key={b} className="flex items-center gap-1 text-[11px] text-gray-600">
-                <svg className="w-3 h-3 text-emerald-500 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                {b}
-              </span>
-            ))}
+          <div className="flex flex-wrap items-center gap-y-1">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+              {benefits.map((b: string) => (
+                <span key={b} className="flex items-center gap-1 text-[11px] text-emerald-600 font-medium">
+                  <svg className="w-3 h-3 text-emerald-500 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                  </svg>
+                  {b}
+                </span>
+              ))}
+            </div>
             {hasMoreBenefits && (
-              <span className="text-[11px] text-blue-600 font-medium">+{compound.researchAreas.length - 2} more</span>
+              <span className="ml-1 text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full font-medium">+{compound.researchAreas.length - 2} more</span>
             )}
           </div>
         )}
 
-        {/* Bottom: FROM price + Compare CTA */}
-        <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
+        {/* Spacer */}
+        <div className="flex-1" />
+
+        {/* FROM price + supplier stats row */}
+        <div className="flex items-end justify-between pt-2 border-t border-gray-100 mt-1">
           <div>
-            <span className="text-[9px] text-slate-400 uppercase tracking-wide font-medium">FROM</span>
-            <div className="text-base md:text-lg font-extrabold text-emerald-600 leading-none">£{minP.toFixed(2)}</div>
+            <span className="text-[9px] text-gray-400 uppercase tracking-wide font-medium">FROM</span>
+            <div className="flex items-baseline gap-2">
+              <span className="text-lg md:text-xl font-extrabold text-emerald-600 leading-none">£{minP.toFixed(2)}</span>
+              {maxP > minP && (
+                <span className="text-[11px] text-gray-400 line-through">£{maxP.toFixed(2)} max</span>
+              )}
+            </div>
           </div>
-          <div className="w-1/2 max-w-[140px] px-3 py-2 rounded-lg text-[11px] font-bold bg-blue-600 text-white hover:bg-blue-500 transition-colors flex items-center justify-center gap-1 shadow-sm">
-            Compare <ArrowRightIcon className="w-3 h-3" />
+          <div className="text-right">
+            <div className="flex items-center gap-1 text-xs text-gray-600">
+              <svg className="w-3.5 h-3.5 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 00-3-3.87" /><path d="M16 3.13a4 4 0 010 7.75" />
+              </svg>
+              <span className="font-semibold">{count}</span>
+              <span className="text-gray-400">supplier{count !== 1 ? "s" : ""}</span>
+            </div>
+            <p className="text-[10px] text-gray-400 mt-0.5">Various doses</p>
           </div>
+        </div>
+      </div>
+
+      {/* Full-width CTA button */}
+      <div className="px-3 md:px-4 pb-3 md:pb-4">
+        <div className="w-full py-2.5 rounded-lg text-xs font-bold bg-blue-600 text-white hover:bg-blue-500 transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+          Compare prices <ArrowRightIcon />
         </div>
       </div>
     </Link>
