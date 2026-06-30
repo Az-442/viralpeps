@@ -185,25 +185,29 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </div>
           )}
 
-          {/* Stats row - pill format matching benefit pills */}
-          <div className="flex flex-wrap items-center gap-2 md:gap-3">
-            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Suppliers</span>
-              <span className="font-bold text-white">{uniqueSuppliers}</span>
-            </span>
-            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">From</span>
-              <span className="font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</span>
-            </span>
-            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Average</span>
-              <span className="font-bold text-white">&pound;{avgPrice.toFixed(2)}</span>
-            </span>
-            <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
-              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Products</span>
-              <span className="font-bold text-white">{totalProducts}</span>
-            </span>
-            <div className="ml-auto">
+          {/* Stats + CTA — stacked on desktop in a large CTA card, inline on mobile */}
+          <div className="md:flex md:flex-col md:bg-blue-900/20 md:rounded-2xl md:border md:border-blue-400/20 md:p-6 md:mt-3">
+            {/* Stats pills */}
+            <div className="flex flex-wrap items-center gap-2 md:gap-3 md:justify-center">
+              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Suppliers</span>
+                <span className="font-bold text-white">{uniqueSuppliers}</span>
+              </span>
+              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">From</span>
+                <span className="font-bold text-emerald-400">&pound;{minPrice.toFixed(2)}</span>
+              </span>
+              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Average</span>
+                <span className="font-bold text-white">&pound;{avgPrice.toFixed(2)}</span>
+              </span>
+              <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-blue-100 bg-white/10 border border-white/20 px-3 md:px-4 py-1.5 md:py-2 rounded-full">
+                <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-widest">Products</span>
+                <span className="font-bold text-white">{totalProducts}</span>
+              </span>
+            </div>
+            {/* CTA button */}
+            <div className="ml-auto md:ml-0 md:flex md:justify-center md:mt-4">
               <a href="#pricing-table" className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-colors shadow-lg shadow-blue-900/40 hover:shadow-xl hover:shadow-blue-900/50">
                 See all prices
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
