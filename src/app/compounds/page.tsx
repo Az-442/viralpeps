@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
@@ -43,7 +44,7 @@ const categoryAccents: Record<string, { border: string; bg: string; from: string
   "anti-aging":         { border: "border-indigo-300", bg: "bg-indigo-100", from: "from-indigo-200", via: "via-indigo-50", badge: "bg-indigo-200 text-indigo-800", icon: "#6366f1" },
   "immunity-peptides":  { border: "border-cyan-300", bg: "bg-cyan-100", from: "from-cyan-200", via: "via-cyan-50", badge: "bg-cyan-200 text-cyan-800", icon: "#06b6d4" },
   "tanning-libido":     { border: "border-rose-300", bg: "bg-rose-100", from: "from-rose-200", via: "via-rose-50", badge: "bg-rose-200 text-rose-800", icon: "#e11d48" },
-  "peptide-blends":     { border: "border-amber-300", bg: "bg-amber-100", from: "from-amber-200", via: "via-amber-50", badge: "bg-amber-200 text-amber-800", icon: "#d97706" },
+  "peptide-blends":     { border: "border-orange-300", bg: "bg-orange-100", from: "from-orange-200", via: "via-orange-50", badge: "bg-orange-200 text-orange-800", icon: "#ea580c" },
   cognitive:            { border: "border-violet-300", bg: "bg-violet-100", from: "from-violet-200", via: "via-violet-50", badge: "bg-violet-200 text-violet-800", icon: "#8b5cf6" },
   "aod-fragments":      { border: "border-pink-300", bg: "bg-pink-100", from: "from-pink-200", via: "via-pink-50", badge: "bg-pink-200 text-pink-800", icon: "#ec4899" },
   "research-compounds": { border: "border-gray-300", bg: "bg-gray-100", from: "from-gray-200", via: "via-gray-50", badge: "bg-gray-200 text-gray-800", icon: "#6b7280" },
@@ -123,8 +124,8 @@ function CompoundCard({ compound }: { compound: any }) {
       href={`/compounds/${slug}`}
       className={`bg-white border ${accent.border} rounded-xl overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all group flex flex-col`}
     >
-      {/* Header banner: colour gradient left→right + LetterAvatar */}
-      <div className={`flex items-center gap-3 p-3 md:p-4 bg-gradient-to-r ${accent.from} ${accent.via} to-white relative`}>
+      {/* Header banner: colour gradient white→colour + LetterAvatar */}
+      <div className={`flex items-center gap-3 p-3 md:p-4 bg-gradient-to-r from-white ${accent.via} ${accent.from.replace('from-', 'to-')} relative`}>
         <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-sm" style={{ backgroundColor: accent.icon }}>
           {compound.name.trim().charAt(0).toUpperCase()}
         </div>
@@ -149,268 +150,240 @@ function CompoundCard({ compound }: { compound: any }) {
             {categoryLabel}
           </span>
         </div>
-
-        {/* Alias/description */}
         {alias && (
-          <p className="text-[12px] text-gray-500 leading-snug">{alias}</p>
+          <p className="text-xs text-gray-400 italic">aka {alias}</p>
         )}
+
+        {/* Suppliers + cheapest price row */}
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-1">
+          <span className="text-xs text-gray-500 flex items-center gap-1">
+            <svg className="w-3 h-3" viewBox="0 0 24 24" fill="#059669">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            {count} {count === 1 ? "supplier" : "suppliers"}
+          </span>
+          <span className="text-xs font-semibold text-blue-600">FROM £{minP.toFixed(2)}</span>
+        </div>
 
         {/* Dosage pills */}
         {dosages.length > 0 && (
-          <div className="flex flex-wrap gap-1">
-            {dosages.map((d: string) => (
-              <span key={d} className={`text-[10px] ${accent.badge} px-1.5 py-0.5 rounded font-medium`}>{d}</span>
+          <div className="flex flex-wrap items-center gap-1 mt-1">
+            {dosages.map((d: string, i: number) => (
+              <span key={i} className="text-[10px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded font-medium">{dosageLabel([d]) || d}</span>
             ))}
             {dosagesMore > 0 && (
-              <span className={`text-[10px] ${accent.badge} px-1.5 py-0.5 rounded font-medium`}>+{dosagesMore}</span>
+              <span className="text-[10px] text-gray-400 font-medium">+{dosagesMore} more</span>
             )}
           </div>
         )}
 
-        {/* Benefits with green pill badges (matching supplier card style) */}
+        {/* Benefit pills — green badge style matching supplier cards */}
         {benefits.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5">
-            {benefits.map((b: string) => (
-              <span key={b} className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
-                <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+          <div className="flex flex-wrap items-center gap-1 mt-1">
+            {benefits.map((b: string, i: number) => (
+              <span key={i} className="inline-flex items-center gap-0.5 bg-green-50 text-green-700 text-[10px] font-semibold px-1.5 py-0.5 rounded-full">
+                <CheckIcon className="w-2.5 h-2.5 text-green-600" />
                 {b}
               </span>
             ))}
             {hasMoreBenefits && (
-              <span className="text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full font-medium">+{compound.researchAreas.length - 2} more</span>
+              <span className="text-[10px] text-gray-400 font-medium">+{(compound.researchAreas || []).length - 2} more</span>
             )}
           </div>
         )}
 
-        {/* Spacer */}
-        <div className="flex-1" />
-
-        {/* FROM price + supplier stats row */}
-        <div className="flex items-end justify-between pt-2 border-t border-gray-100 mt-1">
-          <div>
-            <span className="text-[9px] text-gray-400 uppercase tracking-wide font-medium">FROM</span>
-            <div className="flex items-baseline gap-2">
-              <span className="text-lg md:text-xl font-extrabold text-emerald-600 leading-none">£{minP.toFixed(2)}</span>
-              {maxP > minP && (
-                <span className="text-[11px] text-gray-400 line-through">£{maxP.toFixed(2)} max</span>
-              )}
-            </div>
-          </div>
-          <div className="text-right">
-            <div className="flex items-center gap-1 text-xs text-gray-600">
-              <svg className="w-3.5 h-3.5 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 00-3-3.87" /><path d="M16 3.13a4 4 0 010 7.75" />
-              </svg>
-              <span className="font-semibold">{count}</span>
-              <span className="text-gray-400">supplier{count !== 1 ? "s" : ""}</span>
-            </div>
-            <p className="text-[10px] text-gray-400 mt-0.5">Various doses</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Full-width CTA button */}
-      <div className="px-3 md:px-4 pb-3 md:pb-4">
-        <div className="w-full py-2.5 rounded-lg text-xs font-bold bg-blue-600 text-white hover:bg-blue-500 transition-colors flex items-center justify-center gap-1.5 shadow-sm">
-          Compare prices <ArrowRightIcon />
+        {/* Compare button */}
+        <div className="mt-auto pt-2">
+          <span className="inline-flex items-center justify-center gap-1 w-1/2 bg-blue-600 hover:bg-blue-700 text-white text-[10px] font-bold rounded-full px-3 py-1.5 transition-colors">
+            Compare
+            <ArrowRightIcon className="w-3 h-3" />
+          </span>
         </div>
       </div>
     </Link>
   );
 }
 
-// ── Main page ──
+// ── Inline compound link (for Why ViralPeps section) ──
+function CompoundLink({ href, children }: { href: string; children: React.ReactNode }) {
+  const router = useRouter();
+  return (
+    <span
+      onClick={(e) => { e.preventDefault(); router.push(href); }}
+      className="font-bold text-gray-900 hover:text-blue-600 cursor-pointer transition-colors"
+    >
+      {children}
+    </span>
+  );
+}
+
+// ── Page ──
 export default function CompoundsPage() {
   const [search, setSearch] = useState("");
+  const [activeTab, setActiveTab] = useState("All");
   const [sort, setSort] = useState<"a-z" | "suppliers" | "price">("a-z");
-  const [activeTab, setActiveTab] = useState<string>("All");
+  const router = useRouter();
 
   // All compounds (exclude compare-only entries)
   const allCompounds = useMemo(() => compounds.filter((c) => !(c as any)?.compareSlug), []);
 
-  // Filtered by search + category tab
-  const filtered = useMemo(() => {
-    const q = search.toLowerCase().trim();
-    let list = allCompounds;
-
-    // Category tab filter
+  // Tab → filter slugs
+  const activeSlugs = useMemo(() => {
     const tab = categoryTabs.find((t) => t.label === activeTab);
-    if (tab && tab.slugs) {
-      list = list.filter((c) => tab.slugs!.includes(c.category));
-    }
+    return tab ? tab.slugs : null;
+  }, [activeTab]);
 
-    // Search filter
-    if (q) {
-      list = list.filter((c) =>
-        c.name.toLowerCase().includes(q) ||
-        (c.aliases || []).some((a: string) => a.toLowerCase().includes(q)) ||
-        c.category.toLowerCase().includes(q) ||
-        c.description.toLowerCase().includes(q)
+  // Filtered list
+  const filtered = useMemo(() => {
+    let list = allCompounds;
+    if (activeSlugs !== null) {
+      list = list.filter((c) => activeSlugs.includes(c.category));
+    }
+    if (search.trim()) {
+      const q = search.toLowerCase().trim();
+      list = list.filter(
+        (c) =>
+          c.name.toLowerCase().includes(q) ||
+          (c.aliases || []).some((a: string) => a.toLowerCase().includes(q)) ||
+          c.category.toLowerCase().includes(q)
       );
     }
     return list;
-  }, [search, activeTab, allCompounds]);
+  }, [allCompounds, activeSlugs, search]);
 
   // Sorted
   const sorted = useMemo(() => {
     const list = [...filtered];
-    if (sort === "a-z") {
-      list.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (sort === "suppliers") {
-      list.sort((a, b) => b.sources.length - a.sources.length);
-    } else if (sort === "price") {
-      list.sort((a, b) => {
-        const aMin = Math.min(...a.sources.map((s: any) => parseFloat(s.price.replace(/[£$€,]/g, "")) || Infinity));
-        const bMin = Math.min(...b.sources.map((s: any) => parseFloat(s.price.replace(/[£$€,]/g, "")) || Infinity));
-        return aMin - bMin;
-      });
+    switch (sort) {
+      case "a-z":
+        list.sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      case "suppliers":
+        list.sort((a, b) => b.sources.length - a.sources.length);
+        break;
+      case "price": {
+        list.sort((a, b) => calcMinPrice(a.sources) - calcMinPrice(b.sources));
+        break;
+      }
     }
     return list;
   }, [filtered, sort]);
+
+  // Count per tab
+  const tabCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const tab of categoryTabs) {
+      if (tab.slugs === null) {
+        counts[tab.label] = allCompounds.length;
+      } else {
+        counts[tab.label] = allCompounds.filter((c) => tab.slugs!.includes(c.category)).length;
+      }
+    }
+    return counts;
+  }, [allCompounds]);
+
+  const tabsRowRef = useMemo(() => {
+    // used for horizontal scroll of tabs
+    return { current: null as HTMLDivElement | null };
+  }, []);
 
   return (
     <div className="min-h-screen bg-white">
       <HeaderNav />
 
-      {/* ── HERO ── */}
-      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
-        <div className="max-w-5xl mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
-          <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-            COMPARE PEPTIDE PRICES
-          </div>
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
-            Every UK peptide price,{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">sorted cheapest first.</span>
+      {/* HERO */}
+      <section className="relative bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white overflow-hidden">
+        {/* subtle grid overlay */}
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMSIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
+        <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-20">
+          <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3">
+            Compare <span className="text-blue-400">{PEPTIDE_COUNT}</span> Research Peptides
           </h1>
-          <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto mb-6">
-            Track <strong className="text-white">{PEPTIDE_COUNT} research peptides</strong> across{" "}
-            <strong className="text-white">{SUPPLIER_COUNT} UK suppliers</strong>.{" "}
-            Save up to <strong className="text-white">98%</strong> by picking the right supplier.
+          <p className="text-blue-200 text-sm md:text-lg max-w-2xl leading-relaxed">
+            Price comparison across verified UK suppliers — updated daily.
           </p>
-          <div className="max-w-lg mx-auto mb-6">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Search peptides (e.g. BPC-157, Mots-C)..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className="w-full pl-5 pr-14 py-3.5 bg-white rounded-full text-sm outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 shadow-lg"
-              />
-              <div className="absolute right-1.5 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-sm">
-            <div className="flex items-center gap-1.5 text-emerald-400">
-              <CheckIcon className="w-4 h-4" />
-              <span className="text-white font-bold">{PEPTIDE_COUNT}</span>
-              <span className="text-gray-300">peptides</span>
-            </div>
-            <div className="flex items-center gap-1.5 text-emerald-400">
-              <CheckIcon className="w-4 h-4" />
-              <span className="text-white font-bold">{TOTAL_PRODUCTS.toLocaleString()}+</span>
-              <span className="text-gray-300">products tracked</span>
-            </div>
-            <div className="flex items-center gap-1.5 text-emerald-400">
-              <CheckIcon className="w-4 h-4" />
-              <span className="text-white">Updated daily</span>
-            </div>
-          </div>
         </div>
       </section>
 
-      {/* ── DISCLAIMER ── */}
-      <div className="bg-amber-50 border-b border-amber-200">
-        <div className="max-w-5xl mx-auto px-4 py-2.5 flex items-start gap-2 text-xs text-amber-800">
-          <svg className="w-4 h-4 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
-            <line x1="12" y1="9" x2="12" y2="13" />
-            <line x1="12" y1="17" x2="12.01" y2="17" />
-          </svg>
-          <p>All peptides are for in-vitro research use only. We&apos;re a price comparison service. Prices checked daily.</p>
-        </div>
-      </div>
+      {/* FILTERS + GRID */}
+      <section className="bg-white border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 py-6">
 
-      {/* ── LISTING ── */}
-      <div className="max-w-7xl mx-auto px-4 pt-6 pb-16">
-        {/* Category tabs */}
-        <div className="overflow-x-auto pb-2 -mx-4 px-4" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
-          <div className="flex gap-2 min-w-max">
-            {categoryTabs.map((tab) => {
-              const isActive = activeTab === tab.label;
-              return (
-                <button
-                  key={tab.label}
-                  onClick={() => setActiveTab(tab.label)}
-                  className={`whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-semibold transition-colors border ${
-                    isActive
-                      ? "bg-gray-900 text-white border-gray-900"
-                      : "bg-white text-gray-600 border-gray-300 hover:border-gray-900 hover:text-gray-900"
-                  }`}
-                >
-                  {tab.label === "All" ? "All Peptides" : tab.label}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Heading row: dynamic count + sort */}
-        <div className="flex items-center justify-between mt-4 mb-1">
-          <div>
-            <h2 className="text-xl font-bold text-gray-900">
-              {search
-                ? `${filtered.length} results`
-                : activeTab === "All"
-                  ? `All ${allCompounds.length} research peptides`
-                  : `${filtered.length} ${activeTab.toLowerCase()} peptides`
-              }
-            </h2>
-            <p className="text-sm text-gray-500">
-              {search
-                ? `Showing ${filtered.length} of ${allCompounds.length} compounds`
-                : activeTab === "All"
-                  ? `Pick any peptide to see a live side-by-side price comparison.`
-                  : `Browse all ${CATEGORY_LABELS[categoryTabs.find(t => t.label === activeTab)?.slugs?.[0] || ""] || activeTab.toLowerCase()} peptides.`
-              }
-            </p>
-          </div>
-          <select
-            value={sort}
-            onChange={(e) => setSort(e.target.value as typeof sort)}
-            className="px-2.5 py-1.5 border border-gray-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
-          >
-            <option value="a-z">A to Z</option>
-            <option value="suppliers">Most suppliers</option>
-            <option value="price">Cheapest first</option>
-          </select>
-        </div>
-
-        {/* Cards grid — 3 columns */}
-        {sorted.length === 0 ? (
-          <div className="text-center py-16">
-            <div className="w-16 h-16 mx-auto mb-4 text-gray-300">
-              <svg viewBox="0 0 48 48" fill="none">
-                <rect x="14" y="6" width="20" height="36" rx="4" fill="currentColor" opacity="0.3" />
-                <rect x="16" y="10" width="16" height="28" rx="3" fill="currentColor" opacity="0.5" />
+          {/* Search + sort bar */}
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+            <div className="relative flex-1 min-w-[200px] max-w-sm">
+              <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
               </svg>
+              <input
+                type="text"
+                placeholder="Search peptides..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm outline-none focus:border-blue-500 bg-white text-gray-800 placeholder-gray-400"
+              />
             </div>
-            <h3 className="text-lg font-semibold text-gray-500 mb-1">No peptides found</h3>
-            <p className="text-sm text-gray-400">Try a different search or category.</p>
-            <button onClick={() => { setSearch(""); setActiveTab("All"); }} className="mt-4 text-sm text-blue-600 hover:text-blue-700 underline underline-offset-2">Clear filters</button>
+            <select
+              value={sort}
+              onChange={(e) => setSort(e.target.value as typeof sort)}
+              className="px-2.5 py-1.5 border border-gray-300 rounded-lg text-xs outline-none focus:border-blue-500 bg-white text-gray-700"
+            >
+              <option value="a-z">A to Z</option>
+              <option value="suppliers">Most suppliers</option>
+              <option value="price">Cheapest first</option>
+            </select>
           </div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mt-4">
-            {sorted.map((c) => (
-              <CompoundCard key={c.id} compound={c} />
+
+          {/* Tabs row */}
+          <div className="flex gap-1.5 overflow-x-auto pb-2 mb-2 scrollbar-thin" ref={(el) => { tabsRowRef.current = el; }}>
+            {categoryTabs.map((tab) => (
+              <button
+                key={tab.label}
+                onClick={() => { setActiveTab(tab.label); setSearch(""); }}
+                className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-semibold transition-colors ${activeTab === tab.label
+                  ? "bg-blue-600 text-white shadow-sm"
+                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
+              >
+                {tab.label}
+                <span className={`ml-1.5 text-[10px] ${activeTab === tab.label ? "text-blue-200" : "text-gray-400"}`}>
+                  {tabCounts[tab.label] || 0}
+                </span>
+              </button>
             ))}
           </div>
-        )}
-      </div>
+
+          {/* Result count */}
+          <div className="flex items-center justify-between mt-3 mb-1">
+            <p className="text-xs text-gray-500">
+              {search || activeTab !== "All"
+                ? `Showing ${filtered.length} of ${allCompounds.length} compounds`
+                : `${allCompounds.length} compounds`}
+            </p>
+          </div>
+
+          {/* Cards grid — 3 columns */}
+          {sorted.length === 0 ? (
+            <div className="text-center py-16">
+              <div className="w-16 h-16 mx-auto mb-4 text-gray-300">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <rect x="14" y="6" width="20" height="36" rx="4" fill="currentColor" opacity="0.3" />
+                  <rect x="16" y="10" width="16" height="28" rx="3" fill="currentColor" opacity="0.5" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-500 mb-1">No peptides found</h3>
+              <p className="text-sm text-gray-400">Try a different search or category.</p>
+              <button onClick={() => { setSearch(""); setActiveTab("All"); }} className="mt-4 text-sm text-blue-600 hover:text-blue-700 underline underline-offset-2">Clear filters</button>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mt-4">
+              {sorted.map((c) => (
+                <CompoundCard key={c.id} compound={c} />
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
 
       {/* ── WHY VIRALPEPS ── */}
       <section className="bg-blue-50 border-t border-blue-200">
@@ -426,15 +399,20 @@ export default function CompoundsPage() {
               ViralPeps is the UK&apos;s most comprehensive peptide price comparison platform, tracking{" "}
               <strong className="text-gray-900">{PEPTIDE_COUNT} research peptides</strong> across{" "}
               <strong className="text-gray-900">{SUPPLIER_COUNT} verified UK suppliers</strong>.
-              Whether you&apos;re researching <strong>BPC-157</strong>, <strong>TB-500</strong>,{" "}
-              <strong>Semaglutide</strong>, <strong>Tirzepatide</strong>, <strong>Retatrutide</strong>,{" "}
+              Whether you&apos;re researching{" "}
+              <CompoundLink href="/compounds/bpc-157">BPC-157</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/tb-500">TB-500</CompoundLink>,{" "}
+              <CompoundLink href="/compounds/semaglutide">Semaglutide</CompoundLink>,{" "}
+              <strong>Tirzepatide</strong>,{" "}
+              <CompoundLink href="/compounds/retatrutide">Retatrutide</CompoundLink>,{" "}
               <strong>CJC-1295</strong>, <strong>MOTS-c</strong>, or <strong>IGF-1 LR3</strong> —
               we surface every available price from every supplier, all in one place.
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
               Finding the cheapest peptide prices in the UK shouldn&apos;t mean visiting a dozen supplier
               websites. ViralPeps lets you compare <strong>prices, dosages, and shipping options</strong>{" "}
-              for every peptide side-by-side — from <strong>GHK-Cu</strong> and <strong>BPC-157 (Oral)</strong>{" "}
+              for every peptide side-by-side — from{" "}
+              <CompoundLink href="/compounds/ghk-cu">GHK-Cu</CompoundLink> and <strong>BPC-157 (Oral)</strong>{" "}
               to <strong>Semax</strong>, <strong>Selank</strong>, <strong>Epitalon</strong>, and{" "}
               <strong>Thymosin Alpha-1</strong>. Our data is checked daily so you&apos;re always
               seeing accurate, up-to-date pricing. Just search, compare, and save.
