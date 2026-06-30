@@ -462,6 +462,126 @@ const compoundTabs: Record<string, CompoundTabContent> = {
       "Sikiric P, Seiwerth S, Brcic L, et al. Revised Robert's cytoprotection and adaptive cytoprotection and stable gastric pentadecapeptide BPC 157. Secretion, absorption and new bioassays. J Physiol Pharmacol. 2018;69(4).",
     ],
   },
+  "cjc-1295-ipamorelin-blend": {
+    overview: {
+      whatIs: "CJC-1295 + Ipamorelin Blend is a pre-mixed combination of a growth hormone-releasing hormone (GHRH) analogue and a growth hormone secretagogue (GHRP) in a single vial. This blend combines CJC-1295 (without DAC / Mod GRF 1-29), a 29-amino acid GHRH analogue that stimulates endogenous GH release from the pituitary, with Ipamorelin, a selective pentapeptide GHRP that amplifies the GH pulse through ghrelin receptor agonism. Together they produce a synergistic GH pulse significantly greater than either compound alone, making this one of the most researched peptide stacks for growth hormone studies. The blend is pre-mixed in a 1:1 ratio (typically 2 mg each or 5 mg each per vial) for convenience.",
+      mechanism: "This blend works through two complementary pathways on the pituitary gland. CJC-1295 binds to GHRH receptors on pituitary somatotrophs, activating the cAMP/PKA signalling cascade that stimulates both GH gene transcription and pulsatile GH release — the physiological pathway. Ipamorelin binds selectively to ghrelin receptors (GHSR-1a), amplifying the GH pulse amplitude through a separate signalling pathway. When combined, the GHRH and GHRP pathways produce a synergistic effect, resulting in a GH pulse that is significantly larger than the sum of either compound alone. Both peptides have a short half-life (CJC-1295 without DAC ~30 minutes, Ipamorelin ~2 hours), making simultaneous administration ideal for coordinated GH pulse enhancement.",
+      benefits: [
+        "Synergistic GH pulse amplification — significantly greater than CJC-1295 or Ipamorelin alone",
+        "Dual-pathway stimulation through both GHRH and ghrelin receptors for comprehensive GH axis research",
+        "Pre-mixed in a 1:1 ratio for dosing convenience — eliminates the need for separate reconstitution",
+        "Well-studied combination protocol with established research literature",
+        "Short half-lives of both components (30 min - 2 hours) enable precise pulse timing",
+        "Cost-effective compared to purchasing both peptides separately",
+      ],
+    },
+    molecular: {
+      items: [
+        { label: "Composition", value: "CJC-1295 (No DAC) + Ipamorelin" },
+        { label: "CJC-1295 MW", value: "3365.1 Da" },
+        { label: "Ipamorelin MW", value: "711.9 Da" },
+        { label: "CJC-1295 Sequence", value: "YADAIFTNSYRKVLGQLSARKLLQDIMSR-NH₂" },
+        { label: "Ipamorelin Sequence", value: "Aib-His-D-2-Nal-D-Phe-Lys-NH₂" },
+        { label: "Type", value: "GHRH/GHRP blend | Research stack" },
+        { label: "Purity", value: "≥98.7%" },
+        { label: "Form", value: "Lyophilized powder" },
+      ],
+      diagramTitle: "CJC-1295 + Ipamorelin Blend",
+      diagramSubtitle: "Dual-peptide stack · GHRH analogue + GHRP · 1:1 ratio",
+      residues: [
+        { x: 30, y: 70, label: "CJC", color: "#0891b2", name: "CJC-1295" },
+        { x: 80, y: 95, label: "+", color: "#8b5cf6", name: "Plus" },
+        { x: 120, y: 115, label: "Ipa", color: "#d97706", name: "Ipamorelin" },
+        { x: 170, y: 105, label: "=", color: "#6366f1", name: "Equals" },
+        { x: 215, y: 85, label: "GH", color: "#059669", name: "GH Pulse" },
+      ],
+      legend: "CJC=CJC-1295 (No DAC)  Ipa=Ipamorelin  GH=Growth Hormone",
+    },
+    indications: {
+      mostEffective: [
+        { title: "GH Pulse Amplification", desc: "Maximum GH pulse amplitude through dual-pathway GHRH + ghrelin receptor stimulation. The most effective approach for growth hormone secretion research." },
+        { title: "GH Axis Research", desc: "Comprehensive GH axis activation for research into GH secretion mechanisms, feedback regulation, and IGF-1 response protocols." },
+        { title: "Muscle Growth", desc: "Enhanced lean muscle development through amplified GH/IGF-1 axis activation via dual GHRH/GHRP pathway stimulation." },
+      ],
+      effective: [
+        { title: "Recovery Enhancement", desc: "Accelerated post-exercise recovery and tissue repair through coordinated GH pulse enhancement from both GHRH and GHRP pathways." },
+        { title: "Anti-Aging", desc: "Restores youthful GH pulsatility patterns through comprehensive GH axis stimulation in age-related GH decline research models." },
+        { title: "Body Composition", desc: "Supports favourable metabolic changes through amplified GH-mediated lipolysis and improved anabolic signalling." },
+      ],
+      moderate: [
+        { title: "Sleep Quality", desc: "Enhanced nocturnal GH pulses may improve sleep architecture through dual-pathway stimulation of the GH axis." },
+        { title: "Bone Health", desc: "Sustained IGF-1 elevation from amplified GH pulses may support bone mineral density in long-term research protocols." },
+      ],
+    },
+    dosing: {
+      note: "This is a pre-mixed blend — both peptides are reconstituted together. Since both compounds have short half-lives (CJC-1295 without DAC ~30 min, Ipamorelin ~2 hours), dosing 2-3 times daily is recommended for sustained GH pulse enhancement.",
+      rows: [
+        { goal: "General GH Optimization", dose: "200 mcg each (400 mcg total)", freq: "2x daily", route: "SubQ" },
+        { goal: "Body Composition", dose: "300 mcg each (600 mcg total)", freq: "2-3x daily", route: "SubQ" },
+        { goal: "Athletic Performance", dose: "200-300 mcg each", freq: "2-3x daily", route: "SubQ" },
+        { goal: "Anti-Aging Protocol", dose: "200 mcg each (400 mcg total)", freq: "1-2x daily", route: "SubQ" },
+        { goal: "Recovery Enhancement", dose: "200-250 mcg each", freq: "2x daily", route: "SubQ" },
+      ],
+      tips: [
+        "Best taken on an empty stomach for maximum GH pulse amplitude",
+        "Do not eat for 30 minutes post-injection to avoid blunting the GH pulse",
+        "Morning and pre-bed dosing mimics the body's natural GH pulse pattern",
+        "Reconstitute with bacteriostatic water — swirl gently, never shake",
+        "Store reconstituted blend at 2-8°C; use within 28 days",
+        "Rotate injection sites to prevent tissue irritation",
+      ],
+    },
+    interactions: {
+      note: "As a pre-mixed GHRH/GHRP blend, CJC-1295 + Ipamorelin is itself a combination stack. It may be further researched alongside other compounds.",
+      cards: [
+        { slug: "tb-500", name: "TB-500 (Thymosin Beta-4)", desc: "Supportive — TB-500 promotes tissue repair and recovery, complementing the GH-axis activation from the blend for comprehensive recovery research protocols.", effect: "Supportive" },
+        { slug: "bpc-157", name: "BPC-157", desc: "Supportive — BPC-157 supports tissue healing and GI repair while the blend amplifies GH signalling for enhanced recovery outcomes.", effect: "Supportive" },
+        { slug: "ghrp-2", name: "GHRP-2", desc: "Alternative — GHRP-2 is another GHRP that can be substituted for Ipamorelin. GHRP-2 produces a stronger GH pulse but with greater cortisol and prolactin elevation.", effect: "Complementary" },
+        { slug: "ghrp-6", name: "GHRP-6", desc: "Alternative — GHRP-6 produces a potent GH pulse but with significant appetite stimulation. The blend with Ipamorelin is preferred when hunger effects are unwanted.", effect: "Complementary" },
+        { slug: "tesamorelin", name: "Tesamorelin", desc: "Alternative — Tesamorelin is a full-length GHRH(1-44) analogue. The blend uses CJC-1295 which is a GHRH(1-29) analogue with similar GHRH agonism.", effect: "Complementary" },
+        { slug: "sermorelin", name: "Sermorelin", desc: "Alternative — Sermorelin is the standard GRF(1-29) without modifications. CJC-1295 in the blend is a tetrasubstituted version with improved stability.", effect: "Complementary" },
+      ],
+      stackNotes: [
+        "CJC-1295 (No DAC) + Ipamorelin is the most studied GHRH/GHRP combination in peptide research literature",
+        "The pre-mixed blend eliminates the need for separate reconstitution of each peptide",
+        "Consider that both peptides in the blend have short half-lives — dose 2-3x daily for sustained effect",
+        "For longer coverage, CJC-1295 with DAC could be substituted, but this blend uses the No DAC variant",
+        "Always introduce additional compounds one at a time when stacking with this blend",
+      ],
+    },
+    timeline: {
+      phases: [
+        { day: "Day 1-7", title: "Initial Administration", desc: "Begin twice-daily dosing protocol. First GH pulses detected post-injection — significantly amplified compared to single compound administration. No significant physiological changes yet.", color: "blue", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 7-14", title: "Early Response Phase", desc: "Consistent amplified GH pulse pattern established. IGF-1 levels begin to rise. Sleep quality may improve. Early metabolic changes initiated by GH/IGF-1 signalling.", color: "blue", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+        { day: "Day 14-28", title: "Physiological Adaptation", desc: "Sustained IGF-1 elevation from dual-pathway GH stimulation. Early improvements in recovery time and body composition observed through amplified anabolic signalling.", color: "emerald", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 28-56", title: "Active Remodelling Phase", desc: "Maximum GH/IGF-1 elevation supports lean mass preservation and fat metabolism. Most noticeable changes in body composition and recovery due to dual-pathway synergy.", color: "emerald", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+        { day: "Day 56-84", title: "Peak Effect Phase", desc: "Consistent improvements in muscle quality, fat loss, and recovery reinforcement observed through sustained dual-pathway GH axis activation.", color: "purple", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+        { day: "Day 84-168", title: "Study Conclusion", desc: "Standard 3-6 month research cycle. Comprehensive assessment of GH/IGF-1 biomarkers, body composition changes, and functional outcomes of dual-pathway GH stimulation.", color: "purple", icon: "M5 13l4 4L19 7" },
+      ],
+    },
+    safety: {
+      cards: [
+        { label: "Research Use Only", text: "CJC-1295 + Ipamorelin Blend is not approved for human consumption by the MHRA, FDA, or any regulatory body. For in-vitro and animal research use only.", icon: "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z", color: "amber" },
+        { label: "Hormonal Considerations", text: "As a dual-pathway GH secretagogue blend, this combination significantly alters the GH/IGF-1 axis. Monitor GH and IGF-1 levels in long-term studies. Prolonged use may affect natural GH pulsatility.", icon: "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636", color: "red" },
+        { label: "Contraindications", text: "Extra caution advised for research involving subjects with active cancer, pituitary disorders, or diabetes, due to amplified GH/IGF-1 axis involvement.", icon: "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "amber" },
+        { label: "Storage Requirements", text: "Lyophilized powder: Store at room temperature, protected from light and moisture. Reconstituted solution: Stable for up to 28 days at 2-8°C. Do not freeze after reconstitution.", icon: "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z", color: "blue" },
+        { label: "Handling Protocols", text: "Standard laboratory safety protocols must be followed. Use appropriate PPE including gloves during handling. Reconstitute with bacteriostatic water only — swirl gently, never shake.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", color: "blue" },
+        { label: "Purity Standards", text: "All listed suppliers provide ≥98.7% purity, verified by third-party HPLC analysis. Always verify COA from your chosen supplier before use.", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", color: "emerald" },
+      ],
+    },
+    references: [
+      "Teichman SL, et al. Pharmacokinetics and pharmacodynamics of CJC-1295. Clin Pharmacol Ther. 2006;79(2):P66.",
+      "Raun K, et al. Ipamorelin, a novel growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561.",
+      "Hansen BS, et al. Pharmacological characterisation of a new growth hormone secretagogue. J Endocrinol. 1999;162(2):281-288.",
+      "Ghigo E, et al. Growth hormone secretagogues: clinical perspectives. Endocrine. 2001;14(1):17-24.",
+      "Smith RG, et al. Growth hormone secretagogue receptor family. Endocr Rev. 2005;26(3):346-360.",
+      "Bowers CY. Growth hormone-releasing peptide physiology and pharmacology. J Pediatr Endocrinol Metab. 2001;14(Suppl 6):1397-1406.",
+      "Laron Z. The GH/IGF-1 axis and aging. Best Pract Res Clin Endocrinol Metab. 2004;18(3):393-406.",
+      "Kojima M, Kangawa K. Ghrelin: structure and function. Physiol Rev. 2005;85(2):495-522.",
+      "Nass R, et al. Age-dependent effects of growth hormone secretagogues. J Clin Endocrinol Metab. 2004;89(6):2802-2808.",
+      "Thorner MO, et al. Clinical potential of growth hormone secretagogues. Endocr Rev. 1997;18(5):631-658.",
+    ],
+  },
 };
 
 export default compoundTabs;
