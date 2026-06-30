@@ -73,10 +73,13 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     return sum + (parseFloat(s.price.replace(/[£$€,]/g, "")) || 0);
   }, 0) / compound.sources.length;
 
-  // Sort vendors: verified featured first, then by price
+  // Sort vendors: featured first (by flagged vendor), then verified, then by price
   const sortedSources = [...compound.sources].sort((a, b) => {
     const va = vendors.find((v) => v.name === a.vendor);
     const vb = vendors.find((v) => v.name === b.vendor);
+    const aFeatured = va && (va as any).featured ? 0 : 1;
+    const bFeatured = vb && (vb as any).featured ? 0 : 1;
+    if (aFeatured !== bFeatured) return aFeatured - bFeatured;
     const aVerified = va?.verified ? 0 : 1;
     const bVerified = vb?.verified ? 0 : 1;
     if (aVerified !== bVerified) return aVerified - bVerified;
@@ -85,9 +88,11 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     return pa - pb;
   });
 
-  // Featured supplier = first verified, lowest price
-  const featured = sortedSources[0];
-  const featuredVendor = vendors.find((v) => v.name === featured?.vendor);
+  // Featured supplier = cheapest source from a featured vendor, or cheapest verified
+  const featuredVendor = vendors.find((v) => (v as any).featured === true);
+  const featured = featuredVendor
+    ? sortedSources.find((s) => s.vendor === featuredVendor.name) || sortedSources[0]
+    : sortedSources[0];
   const accent = getAccent(compound.category);
   const categoryLabel = compound.category.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
 
@@ -116,11 +121,14 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     })),
   };
 
-  // Collect unique dosages from sources (if available) + commonDosages
-  const allDosages = [...new Set([
-    ...(compound.commonDosages || []),
-    ...compound.sources.map((s: any) => (s as any).dosage || "").filter(Boolean),
-  ])];
+  // Collect unique vial sizes from sources
+  const allDosages = [...new Set(
+    compound.sources.map((s: any) => (s as any).dosage || "").filter(Boolean)
+  )].sort((a, b) => {
+    const ma = parseInt(a.replace(/[^0-9]/g, ""));
+    const mb = parseInt(b.replace(/[^0-9]/g, ""));
+    return ma - mb;
+  });
 
   return (
     <div className="min-h-screen bg-white">
@@ -210,7 +218,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       <div className="max-w-6xl mx-auto px-4 py-6">
         {/* FEATURED SUPPLIER */}
         {featured && featuredVendor && (
-          <div className="bg-white border border-gray-200 rounded-xl p-5 mb-6 shadow-sm">
+          <div className="bg-gradient-to-r from-amber-50 via-white to-white border-2 border-amber-300 rounded-xl p-5 mb-8 shadow-lg shadow-amber-200/30">
             <div className="flex items-center gap-2 mb-3">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="#d97706">
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />

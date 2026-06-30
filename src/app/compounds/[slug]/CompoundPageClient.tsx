@@ -56,10 +56,14 @@ const INFO_TABS = [
 type TabId = (typeof INFO_TABS)[number]["id"];
 
 // ── Price per mg helper ──
-function calcPricePerMg(price: string): number | null {
-  // We don't have per-source dosage data yet, so this returns null
-  // Will be populated when source dosage data is added
-  return null;
+function calcPricePerMg(price: string, dosage?: string): number | null {
+  if (!dosage) return null;
+  const priceNum = parseFloat(price.replace(/[£$€,]/g, ""));
+  const mgMatch = dosage.match(/([\d.]+)\s*mg/i);
+  if (!mgMatch || isNaN(priceNum)) return null;
+  const mg = parseFloat(mgMatch[1]);
+  if (mg <= 0) return null;
+  return Math.round((priceNum / mg) * 100) / 100;
 }
 
 // ── Main client component ──
@@ -306,21 +310,21 @@ export default function CompoundPageClient({
       </div>
 
       {/* ===== DYNAMIC STATS BAR ===== */}
-      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-4 mb-6">
+      <div className="bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] rounded-xl p-5 mb-6 shadow-md">
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
           <div className="text-center">
-            <p className="text-2xl font-bold text-gray-900">{supplierCount}</p>
-            <p className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Suppliers</p>
+            <p className="text-2xl font-bold text-white">{supplierCount}</p>
+            <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Suppliers</p>
           </div>
-          <div className="w-px h-10 bg-blue-200" />
+          <div className="w-px h-10 bg-blue-800/50" />
           <div className="text-center">
-            <p className="text-2xl font-bold text-gray-900">{dosageCount}</p>
-            <p className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Dosages</p>
+            <p className="text-2xl font-bold text-white">{dosageCount}</p>
+            <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Dosages</p>
           </div>
-          <div className="w-px h-10 bg-blue-200" />
+          <div className="w-px h-10 bg-blue-800/50" />
           <div className="text-center">
-            <p className="text-2xl font-bold text-gray-900">{productCount}</p>
-            <p className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Products</p>
+            <p className="text-2xl font-bold text-white">{productCount}</p>
+            <p className="text-[10px] text-blue-300 uppercase tracking-wider font-semibold">Products</p>
           </div>
         </div>
       </div>
@@ -430,6 +434,9 @@ export default function CompoundPageClient({
                             <StarRating rating={vendor?.rating || 0} />
                             <span className="text-[10px] text-gray-400">{vendor?.rating || "—"}</span>
                           </div>
+                          {(s as any).dosage && (
+                            <span className="text-[9px] font-medium text-gray-500 bg-gray-100 px-1.5 py-0.5 rounded mt-0.5 inline-block">{(s as any).dosage}</span>
+                          )}
                         </div>
                       </div>
                     </td>
@@ -442,7 +449,7 @@ export default function CompoundPageClient({
                     {/* Price per mg */}
                     <td className="px-4 py-3 text-right">
                       {(() => {
-                        const ppm = calcPricePerMg(s.price);
+                        const ppm = calcPricePerMg(s.price, (s as any).dosage);
                         return ppm !== null ? (
                           <span className="text-xs text-gray-500">&pound;{ppm.toFixed(2)}/mg</span>
                         ) : (
