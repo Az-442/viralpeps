@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import ProductImage from "@/components/ProductImage";
-import compoundTabs from "@/data/compound-tabs";
+import compoundTabs, { getBaseCompoundSlug } from "@/data/compound-tabs";
 
 // ── Types ──
 interface Source {
@@ -251,7 +251,7 @@ export default function CompoundPageClient({
   const tabContent = useMemo(() => {
     const compoundName = compound.name;
     const slug: string = compound.slug || "";
-    const data = compoundTabs[slug];
+    const data = compoundTabs[slug] || compoundTabs[getBaseCompoundSlug(slug)];
 
     // Fallback: if no tab data exists for this compound, show placeholder for info tabs
     if (!data) {

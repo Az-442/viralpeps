@@ -82,6 +82,28 @@ export interface CompoundTabContent {
   references: string[];
 }
 
+// ── Base slug resolution ──
+// Given a product variant slug (e.g. "bpc-157-5mg-imperial"), returns the base
+// compound slug (e.g. "bpc-157") by stripping known variant suffixes.
+const BASE_SLUGS = new Set([
+  "5-amino-1mq","ace-031","acth-1-39","adamax","adipotide","ahk-cu","aicar","aod-9604",
+  "ara-290","b7-33","bpc-157","bronchogen","cartalax","cerebrolysin","chonliten",
+  "cjc-1295","cjc-1295-ipamorelin-blend","cjc-1295-with-dac","cortagen","dermorphin",
+  "dihexa","dsip","epitalon","fgl","follistatin","foxo4-dr1","fragment-176-191",
+  "gdf-8","ghk-cu","ghrh-analog-amide","glow","ipamorelin","mots-c","pt-141",
+  "retatrutide","selank","semaglutide","ss-31","tb-500","tesamorelin","tirzepatide",
+]);
+
+export function getBaseCompoundSlug(slug: string): string {
+  if (!slug) return slug;
+  if (BASE_SLUGS.has(slug)) return slug;
+  const sorted = [...BASE_SLUGS].sort((a, b) => b.length - a.length);
+  for (const base of sorted) {
+    if (slug.startsWith(base + "-")) return base;
+  }
+  return slug;
+}
+
 // ── Compound content map ──
 const compoundTabs: Record<string, CompoundTabContent> = {
   "ipamorelin": {
@@ -3636,6 +3658,17 @@ const compoundTabs: Record<string, CompoundTabContent> = {
     timeline: { phases: [{day:"Week 1-2",title:"Initiation",desc:"Collagen signalling activated",color:"blue",icon:"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"},{day:"Week 3-6",title:"Repair",desc:"Visible tissue improvement",color:"emerald",icon:"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"},{day:"Week 6-12",title:"Remodelling",desc:"Collagen remodelling",color:"purple",icon:"M5 13l4 4L19 7"}] },
     safety: { cards: [{label:"Well-Tolerated",text:"Good profile with standard dosing",icon:"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",color:"emerald"},{label:"Mild Reactions",text:"Possible injection site reactions",icon:"M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z",color:"amber"}] },
     references: ["Pickart L, et al. J Biomater Sci. 2012;23(8):1019-1031.","Sevastre-Berghian AC, et al. Antioxidants. 2022;11(2):234."],
+  },
+
+  "ss-31": {
+    overview: { whatIs: "SS-31 (Elamipretide) is a mitochondrial-targeted tetrapeptide that stabilizes cardiolipin, protecting mitochondrial cristae structure and enhancing ATP production. Developed by Stealth BioTherapeutics, it is the most clinically advanced mitochondrial therapeutic peptide with over 20 completed clinical trials across multiple indications.", mechanism: "SS-31 selectively binds to cardiolipin on the inner mitochondrial membrane, preventing cytochrome c peroxidase activity and preserving cristae architecture. This stabilizes electron transport chain supercomplexes, reducing reactive oxygen species (ROS) production while maintaining efficient ATP synthesis — a fundamentally different approach from general antioxidants.", benefits: ["Mitochondrial cristae stabilisation — cardiolipin binding preserves energy production","Reduced oxidative stress without suppressing beneficial ROS signalling","Improved cellular energetics — enhanced ATP synthesis efficiency","Cardioprotective effects in ischaemia-reperfusion models","Neuroprotective across multiple neurodegenerative models","Well-characterised safety from 20+ clinical trials"] },
+    molecular: { items: [{label:"Molecular Weight",value:"639.8 Da"},{label:"Sequence",value:"D-Arg-Dmt-Lys-Phe-NH₂"},{label:"Length",value:"4 amino acids"},{label:"Type",value:"Mitochondrial-targeted peptide"},{label:"Half-Life",value:"~2 hours (IV); ~4-6 hours (SC)"},{label:"CAS Number",value:"1337016-51-6"}], diagramTitle: "SS-31", diagramSubtitle: "4-mer · 639.8 Da · D-Arg-Dmt-Lys-Phe-NH₂", residues: [{x:30,y:50,label:"D-Arg",color:"#8b5cf6",name:"D-Arginine"},{x:70,y:50,label:"Dmt",color:"#0891b2",name:"Dimethyltyrosine"},{x:110,y:50,label:"K",color:"#d97706",name:"Lysine"},{x:150,y:50,label:"F",color:"#7c3aed",name:"Phenylalanine"}], legend: "D-Arg=D-Arginine  Dmt=Dimethyltyrosine  K=Lysine  F=Phenylalanine" },
+    indications: { mostEffective: [{title:"Mitochondrial Dysfunction",desc:"Primary target — cristae stabilisation"},{title:"Ischaemia-Reperfusion",desc:"Cardioprotection in cardiac models"},{title:"Age-Related Decline",desc:"Mitochondrial rejuvenation in aging"},{title:"Neurodegeneration",desc:"Protects mitochondrial function in neurons"}], effective: [{title:"Heart Failure",desc:"Improved cardiac energetics"},{title:"Kidney Disease",desc:"Renal mitochondrial protection"},{title:"Ophthalmic Conditions",desc:"Retinal mitochondrial preservation"}], moderate: [{title:"Metabolic Syndrome",desc:"Mitochondrial dysfunction associated"}] },
+    dosing: { note: "Clinical doses range from 0.25–4 mg/kg/day depending on indication.", rows: [{goal:"Neuroprotection",dose:"0.25-0.5 mg/kg",freq:"Once daily",route:"SC"},{goal:"Cardioprotection",dose:"1-2 mg/kg",freq:"Once daily",route:"IV/SC"},{goal:"Ophthalmic",dose:"0.5-1 mg/kg",freq:"Once daily",route:"SC"}], tips: ["Administer SC for outpatient protocols","Morning dosing preferred for circadian alignment","Can be reconstituted with bacteriostatic water and refrigerated","Clinical data supports excellent safety up to 24 months"] },
+    interactions: { note: "Compatible with most mitochondrial health protocols.", cards: [{slug:"mots-c",name:"MOTS-c",desc:"Complementary mito peptide",effect:"Synergistic"},{slug:"nad-plus",name:"NAD+",desc:"Mito energetics support",effect:"Synergistic"},{slug:"ghk-cu",name:"GHK-Cu",desc:"Cellular repair",effect:"Complementary"}], stackNotes: ["Pairs well with MOTS-c for dual mito targeting","Avoid concurrent SS-31 and general antioxidants (blunts ROS signalling)","Can cycle with NAD+ precursors"] },
+    timeline: { phases: [{day:"Week 1-2",title:"Initiation",desc:"Mitochondrial stabilisation begins",color:"blue",icon:"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"},{day:"Week 3-6",title:"Energetic",desc:"Improved cellular energy levels",color:"emerald",icon:"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"},{day:"Week 8-24",title:"Sustained",desc:"Long-term mitochondrial health",color:"purple",icon:"M5 13l4 4L19 7"}] },
+    safety: { cards: [{label:"Excellent Profile",text:"Well-tolerated in 20+ clinical trials",icon:"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",color:"emerald"},{label:"Mild GI",text:"Transient nausea at high doses",icon:"M12 8v4m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z",color:"amber"}] },
+    references: ["Szeto HH, et al. AAPS J. 2006;8(2):E277-E283.","Birk AV, et al. J Am Soc Nephrol. 2013;24(8):1250-1261.","Kloner RA, et al. J Am Heart Assoc. 2018;7(10):e008536.","Chavez JD, et al. J Lipid Res. 2020;61(4):612-623.","Saad A, et al. Kidney Int Rep. 2020;5(9):1462-1470."],
   },
 };
 
