@@ -57,11 +57,24 @@ export default function RootLayout({
 }>) {
   const schemaOrg = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "ViralPeps",
-    "url": "https://www.viralpeps.co.uk",
-    "description": "UK research peptide directory and vendor comparison platform.",
-    "inLanguage": "en-GB",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.viralpeps.co.uk/#website",
+        "name": "ViralPeps",
+        "url": "https://www.viralpeps.co.uk",
+        "description": "UK research peptide directory and vendor comparison platform.",
+        "inLanguage": "en-GB",
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.viralpeps.co.uk/#organization",
+        "name": "ViralPeps",
+        "url": "https://www.viralpeps.co.uk",
+        "description": "UK research peptide price comparison directory.",
+        "inLanguage": "en-GB",
+      },
+    ],
   };
 
   return (
