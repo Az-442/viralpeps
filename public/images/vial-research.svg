@@ -1,0 +1,34 @@
+<svg width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vial body -->
+  <rect x="30" y="30" width="60" height="110" rx="8" fill="white" stroke="#cbd5e1" strokeWidth="1.5" />
+  <!-- Glass reflection left -->
+  <rect x="34" y="34" width="8" height="100" rx="4" fill="#f1f5f9" opacity="0.6" />
+  <!-- Vial neck -->
+  <rect x="38" y="18" width="44" height="16" rx="3" fill="#e2e8f0" stroke="#94a3b8" strokeWidth="1" />
+  <!-- Vial cap -->
+  <rect x="42" y="8" width="36" height="14" rx="4" fill="#3b82f6" stroke="#2563eb" strokeWidth="1" />
+  <!-- Cap highlight -->
+  <rect x="46" y="10" width="6" height="10" rx="2" fill="#60a5fa" opacity="0.5" />
+  <!-- Liquid fill -->
+  <rect x="34" y="60" width="52" height="76" rx="5" fill="url(#liquidGrad)" opacity="0.85" />
+  <!-- Liquid surface -->
+  <ellipse cx="60" cy="60" rx="26" ry="3" fill="#a7f3d0" opacity="0.6" />
+  <!-- Label area -->
+  <rect x="36" y="80" width="48" height="30" rx="3" fill="#f8fafc" stroke="#e2e8f0" strokeWidth="0.5" />
+  <!-- Label lines -->
+  <rect x="40" y="86" width="40" height="2" rx="1" fill="#6366f1" opacity="0.7" />
+  <rect x="40" y="92" width="28" height="1.5" rx="0.75" fill="#94a3b8" opacity="0.5" />
+  <rect x="40" y="97" width="32" height="1.5" rx="0.75" fill="#94a3b8" opacity="0.5" />
+  <!-- Bottom gradation lines -->
+  <line x1="34" y1="126" x2="86" y2="126" stroke="#e2e8f0" strokeWidth="0.5" />
+  <line x1="34" y1="132" x2="86" y2="132" stroke="#e2e8f0" strokeWidth="0.5" />
+  <!-- Logo on cap -->
+  <text x="60" y="19" textAnchor="middle" fontSize="6" fontWeight="bold" fill="white" fontFamily="Arial">VP</text>
+  <defs>
+    <linearGradient id="liquidGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a7f3d0" />
+      <stop offset="30%" stop-color="#6ee7b7" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -527,29 +527,43 @@ export default function Home() {
  </div>
 </section>
 
-{/* GUIDES — Dynamic from research data */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-blue-50">
-  <div className="max-w-4xl mx-auto text-center mb-10">
-    <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-4">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
-      <span className="text-xs font-bold text-white uppercase tracking-wider">Guides</span>
+{/* GUIDES — Dynamic from research data, bigger cards */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-white">
+  <div className="max-w-4xl mx-auto text-center mb-12">
+    <div className="inline-flex items-center gap-1.5 bg-indigo-900 border border-indigo-700 rounded-full px-3 py-1 mb-4">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#6366f1"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+      <span className="text-xs font-bold text-indigo-200 uppercase tracking-wider">Guides</span>
     </div>
-    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">Peptide Buying Guides</h2>
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Peptide Buying Guides</h2>
     <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">Everything you need to know about buying, comparing, and sourcing research peptides in the UK.</p>
   </div>
 
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-    {guides.filter(g => g.category === "Guide").slice(-3).reverse().map((guide) => (
-      <Link key={guide.slug} href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
-        <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
-        </div>
-        <div className="min-w-0">
-          <h3 className="font-bold text-gray-900 text-sm leading-snug">{guide.title}</h3>
-          <p className="text-xs text-gray-500 mt-1">{guide.desc}</p>
-        </div>
-      </Link>
-    ))}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+    {guides.filter(g => g.category === "Guide").slice(-3).reverse().map((guide, i) => {
+      const colors = [
+        { bg: "from-indigo-500 to-blue-600", light: "bg-indigo-50", icon: "#6366f1" },
+        { bg: "from-emerald-500 to-teal-600", light: "bg-emerald-50", icon: "#059669" },
+        { bg: "from-blue-500 to-indigo-600", light: "bg-blue-50", icon: "#2563eb" },
+      ];
+      const c = colors[i % 3];
+      const icons = [
+        <svg key="compass" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={c.icon} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" /></svg>,
+        <svg key="chart" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={c.icon} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" /></svg>,
+        <svg key="shield" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={c.icon} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>,
+      ];
+      return (
+        <Link key={guide.slug} href="/research" className="group bg-white rounded-2xl p-8 hover:shadow-lg transition-all border border-gray-200 hover:border-indigo-200 hover:-translate-y-1">
+          <div className={`w-16 h-16 rounded-2xl ${c.light} flex items-center justify-center mb-5 group-hover:scale-110 transition-transform`}>
+            {icons[i]}
+          </div>
+          <h3 className="text-lg font-bold text-gray-900 leading-snug mb-2 group-hover:text-indigo-600 transition-colors">{guide.title}</h3>
+          <p className="text-sm text-gray-500 leading-relaxed">{guide.desc}</p>
+          <div className="flex items-center gap-1.5 mt-4 text-sm font-semibold text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity">
+            Read guide <span className="text-lg leading-none">→</span>
+          </div>
+        </Link>
+      );
+    })}
   </div>
 </section>
 
@@ -566,20 +580,16 @@ export default function Home() {
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
     {guides.filter(g => g.category !== "Guide").slice(-3).reverse().map((article) => (
       <Link key={article.slug} href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
-        <div className="aspect-[16/10] bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
-          {article.compound ? (
-            <img src={`/images/compounds/${article.compound.toLowerCase().replace(/\s+/g, '-')}.svg`} alt={article.title} className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
-          ) : (
-            <svg className="w-12 h-12 text-blue-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
-          )}
+        <div className="aspect-[16/10] bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-50 flex items-center justify-center relative">
+          <img src="/images/vial-research.svg" alt={article.title} className="w-20 h-20 object-contain opacity-55 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300" />
         </div>
         <div className="p-5">
           <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">{article.title}</h3>
-          <p className="text-xs text-gray-500 mt-2 leading-relaxed">{article.desc}</p>
+          <p className="text-xs text-gray-500 mt-2 leading-relaxed line-clamp-2">{article.desc}</p>
           <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
             <span>5 min read</span>
             <span>•</span>
-            <span>{article.category}</span>
+            <span className="text-indigo-600 font-medium">{article.category}</span>
           </div>
         </div>
       </Link>

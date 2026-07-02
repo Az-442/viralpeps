@@ -180,9 +180,12 @@ export default function ResearchPage() {
                   <Link
                     key={g.title}
                     href={`/research/${g.slug}`}
-                    className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-sm transition-all group"
+                    className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 hover:shadow-sm transition-all group"
                   >
-                    <div className="min-w-0">
+                    <div className="aspect-[16/8] bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-50 flex items-center justify-center">
+                      <img src="/images/vial-research.svg" alt={g.title} className="w-16 h-16 object-contain opacity-50 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300" />
+                    </div>
+                    <div className="p-4">
                       <div className="flex items-center gap-2 mb-1.5">
                         <span className="text-[10px] font-semibold text-white bg-blue-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
                           {g.category}
