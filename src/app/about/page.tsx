@@ -1,6 +1,8 @@
 import Link from "next/link";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import compounds from "@/data/compounds.json";
+import vendors from "@/data/vendors.json";
 
 export const metadata = {
   title: "About ViralPeps — UK Research Peptide Directory",
@@ -9,6 +11,7 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+  const uniqueSuppliers = new Set(compounds.flatMap((c) => c.sources.map((s) => s.vendor))).size;
   return (
     <div className="min-h-screen bg-white">
       <HeaderNav current="/about" />
@@ -59,8 +62,8 @@ export default function AboutPage() {
           </h2>
           <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700">
             <li>
-              <strong>Browse</strong> — Search our directory of 37+ research
-              compounds
+              <strong>Browse</strong> — Search our directory of <strong>{compounds.length}</strong>{" "}
+              research compounds across <strong>{uniqueSuppliers}</strong> verified UK suppliers
             </li>
             <li>
               <strong>Compare</strong> — See prices from every verified UK
