@@ -386,6 +386,99 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         />
       </div>
 
+      {/* ===== MORE WAYS TO COMPARE ===== */}
+      <div className="bg-gray-50 border-t border-gray-200 py-12">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">More Ways to Compare {compound.name}</h2>
+          <p className="text-gray-500 text-base mb-8">Different views of the same live UK pricing, tuned for how you like to shop.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { href: `/best-${slug}-prices`, label: `Best ${compound.name} Prices`, desc: "Best prices ranked", icon: "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" },
+              { href: `/cheapest-${slug}-prices`, label: `Cheapest ${compound.name} Prices`, desc: "Cheapest suppliers compared", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+              { href: `/where-to-buy-${slug}`, label: `Where to Buy ${compound.name}`, desc: "Full buyer&apos;s guide", icon: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z" },
+              { href: `/buy-${slug}-online-uk-cheap`, label: `Buy ${compound.name} Online UK Cheap`, desc: "Today&apos;s hottest deals", icon: "M12 6v6m0 0v6m0-6h6m-6 0H6" },
+              { href: `/compounds/${slug}#pricing-table`, label: `${compound.name} Price Comparison`, desc: "Live price dashboard", icon: "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" },
+              { href: `/${slug}-supplier`, label: `${compound.name} UK Supplier`, desc: "Verified UK supplier directory", icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" },
+              { href: `/${slug}-for-sale`, label: `${compound.name} For Sale`, desc: "Browse listings for sale", icon: "M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center mb-3 group-hover:bg-blue-100 transition-colors">
+                  <svg className="w-5 h-5 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d={item.icon} />
+                  </svg>
+                </div>
+                <h3 className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors">{item.label}</h3>
+                <p className="text-xs text-gray-500 mt-1">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-6 pt-6 border-t border-gray-200 text-center">
+            <label className="text-xs text-gray-400 uppercase tracking-wider font-semibold mr-2">Compare Another Peptide</label>
+            <Link href="/compounds" className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100 px-4 py-2 rounded-full transition-colors">
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+              Search Peptides
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* ===== RESEARCH LIBRARY ===== */}
+      {(() => {
+        const allGuides = [
+          { title: "Peptide Reconstitution Guide", desc: "How to properly reconstitute research peptides with bacteriostatic water.", category: "Guide", slug: "peptide-reconstitution-guide", minutes: 6 },
+          { title: "Understanding Peptide Purity", desc: "What HPLC purity tests mean, why 98%+ matters, and how to read COAs from UK suppliers.", category: "Guide", slug: "understanding-peptide-purity", minutes: 5 },
+          { title: "Peptide Storage & Handling", desc: "Proper storage temperatures, lyophilized vs reconstituted, and how to avoid degradation.", category: "Guide", slug: "peptide-storage-handling", minutes: 4 },
+          { title: "GLP-1 Research Overview", desc: "An introduction to GLP-1 receptor agonists including Tirzepatide and Semaglutide.", category: "Compound Profiles", compound: "Tirzepatide", slug: "glp1-research-overview", minutes: 7 },
+          { title: "BPC-157 Research Summary", desc: "Overview of BPC-157, its research applications, dosing protocols, and current literature.", category: "Compound Profiles", compound: "BPC-157", slug: "bpc157-research-summary", minutes: 5 },
+          { title: "Choosing a UK Supplier", desc: "What to look for when selecting a research peptide supplier in the UK.", category: "Guide", slug: "choosing-uk-supplier", minutes: 6 },
+        ];
+        const compoundArticles = allGuides.filter(g => {
+          if (!(g as any).compound) return false;
+          return (g as any).compound.toLowerCase() === compound.name.toLowerCase();
+        });
+        const generalGuides = allGuides.filter(g => !(g as any).compound && g.category === "Guide");
+        const libraryArticles = [...compoundArticles, ...generalGuides].slice(0, 4);
+        const compoundArticleCount = allGuides.filter(g => {
+          if (!(g as any).compound) return false;
+          return (g as any).compound.toLowerCase() === compound.name.toLowerCase();
+        }).length;
+        return (
+          <div className="bg-white border-t border-gray-100 py-12">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="flex items-center justify-between mb-6">
+                <div>
+                  <h2 className="text-2xl font-bold text-gray-900">Research Library</h2>
+                  <p className="text-gray-500 text-sm mt-1">{compound.name} research &amp; guides</p>
+                </div>
+                <Link href="/research" className="text-sm font-semibold text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100 px-4 py-2 rounded-full transition-colors">
+                  View all {compoundArticleCount} &rarr;
+                </Link>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                {libraryArticles.map((article) => (
+                  <Link
+                    key={article.slug}
+                    href={`/research`}
+                    className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all"
+                  >
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full uppercase tracking-wider">{article.category}</span>
+                      <span className="text-[10px] text-gray-400">{article.minutes} min read</span>
+                    </div>
+                    <h3 className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors leading-snug mb-2">{article.title}</h3>
+                    <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">{article.desc}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        );
+      })()}
+
       <Footer />
     </div>
   );
