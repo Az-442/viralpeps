@@ -410,14 +410,20 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   <Link
                     key={article.slug}
                     href={`/research`}
-                    className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all"
+                    className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-blue-200 hover:shadow-sm transition-all"
                   >
-                    <div className="flex items-center gap-2 mb-3">
-                      <span className="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full uppercase tracking-wider">{article.category}</span>
-                      <span className="text-[10px] text-gray-400">{article.minutes || 5} min read</span>
+                    {/* Photo-ready — replace gradient with <img> when photorealistic images are available */}
+                    <div className="aspect-[16/7] bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100 flex items-center justify-center">
+                      <svg className="w-8 h-8 text-indigo-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M21 15l-5-5L5 21" /></svg>
                     </div>
-                    <h3 className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors leading-snug mb-2">{article.title}</h3>
-                    <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">{article.desc}</p>
+                    <div className="p-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-[10px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full uppercase tracking-wider">{article.category}</span>
+                        <span className="text-[10px] text-gray-400">{article.minutes || 5} min read</span>
+                      </div>
+                      <h3 className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors leading-snug mb-1.5">{article.title}</h3>
+                      <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">{article.desc}</p>
+                    </div>
                   </Link>
                 ))}
               </div>

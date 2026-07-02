@@ -527,47 +527,49 @@ export default function Home() {
  </div>
 </section>
 
-{/* GUIDES — Dynamic from research data, bigger cards */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-white">
+{/* GUIDES — Silo section with placeholder cards */}
+<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-blue-50">
   <div className="max-w-4xl mx-auto text-center mb-12">
     <div className="inline-flex items-center gap-1.5 bg-indigo-900 border border-indigo-700 rounded-full px-3 py-1 mb-4">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#6366f1"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
       <span className="text-xs font-bold text-indigo-200 uppercase tracking-wider">Guides</span>
     </div>
-    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Peptide Buying Guides</h2>
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">Peptide Buying Guides</h2>
     <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">Everything you need to know about buying, comparing, and sourcing research peptides in the UK.</p>
   </div>
 
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-    {guides.filter(g => g.category === "Guide").slice(-3).reverse().map((guide, i) => {
-      const colors = [
-        { bg: "from-indigo-500 to-blue-600", light: "bg-indigo-50", icon: "#6366f1" },
-        { bg: "from-emerald-500 to-teal-600", light: "bg-emerald-50", icon: "#059669" },
-        { bg: "from-blue-500 to-indigo-600", light: "bg-blue-50", icon: "#2563eb" },
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+    {[
+      { title: "Buy Peptides UK — Compare Prices & Find the Best Supplier", desc: "How to buy research peptides safely from verified UK vendors.", icon: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" },
+      { title: "Cheap Peptides UK — Compare & Find the Lowest Prices", desc: "Find the lowest prices without compromising on quality.", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { title: "GLOW Peptide UK — Compare Prices & Find the Best Deals", desc: "Compare GLOW Blend prices for skin rejuvenation research.", icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+      { title: "Peptide Suppliers UK — Find & Compare Trusted Vendors", desc: "Compare trusted UK vendors by rating, price, and quality.", icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" },
+      { title: "Pure Peptides UK — High-Purity Research Peptides Compared", desc: "Understanding purity testing and finding 98%+ peptides.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+      { title: "Where to Buy Peptides — Complete UK Supplier Guide", desc: "A complete guide to finding reputable UK suppliers.", icon: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z" },
+    ].map((silo, i) => {
+      const accentColors = [
+        { bg: "bg-indigo-50", icon: "#6366f1", hover: "hover:border-indigo-200" },
+        { bg: "bg-emerald-50", icon: "#059669", hover: "hover:border-emerald-200" },
+        { bg: "bg-blue-50", icon: "#2563eb", hover: "hover:border-blue-200" },
+        { bg: "bg-purple-50", icon: "#9333ea", hover: "hover:border-purple-200" },
+        { bg: "bg-amber-50", icon: "#d97706", hover: "hover:border-amber-200" },
+        { bg: "bg-rose-50", icon: "#e11d48", hover: "hover:border-rose-200" },
       ];
-      const c = colors[i % 3];
-      const icons = [
-        <svg key="compass" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={c.icon} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" /></svg>,
-        <svg key="chart" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={c.icon} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" /></svg>,
-        <svg key="shield" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={c.icon} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>,
-      ];
+      const c = accentColors[i % 6];
       return (
-        <Link key={guide.slug} href="/research" className="group bg-white rounded-2xl p-8 hover:shadow-lg transition-all border border-gray-200 hover:border-indigo-200 hover:-translate-y-1">
-          <div className={`w-16 h-16 rounded-2xl ${c.light} flex items-center justify-center mb-5 group-hover:scale-110 transition-transform`}>
-            {icons[i]}
+        <Link key={silo.title} href="/research" className={`group bg-white rounded-2xl p-6 hover:shadow-md transition-all border border-gray-200 ${c.hover}`}>
+          <div className={`w-12 h-12 rounded-xl ${c.bg} flex items-center justify-center mb-4`}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke={c.icon} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d={silo.icon} /></svg>
           </div>
-          <h3 className="text-lg font-bold text-gray-900 leading-snug mb-2 group-hover:text-indigo-600 transition-colors">{guide.title}</h3>
-          <p className="text-sm text-gray-500 leading-relaxed">{guide.desc}</p>
-          <div className="flex items-center gap-1.5 mt-4 text-sm font-semibold text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity">
-            Read guide <span className="text-lg leading-none">→</span>
-          </div>
+          <h3 className="font-bold text-gray-900 text-sm leading-snug mb-1.5 group-hover:text-indigo-600 transition-colors">{silo.title}</h3>
+          <p className="text-xs text-gray-500 leading-relaxed">{silo.desc}</p>
         </Link>
       );
     })}
   </div>
 </section>
 
-{/* LATEST RESEARCH — Dynamic from research data */}
+{/* LATEST RESEARCH — Dynamic, photo-ready cards */}
 <section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-100">
   <div className="mb-8">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-3">
@@ -580,17 +582,17 @@ export default function Home() {
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
     {guides.filter(g => g.category !== "Guide").slice(-3).reverse().map((article) => (
       <Link key={article.slug} href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
-        <div className="aspect-[16/10] bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-50 flex items-center justify-center relative">
-          <img src="/images/vial-research.svg" alt={article.title} className="w-20 h-20 object-contain opacity-55 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300" />
+        {/* Photo-ready area — replace gradient with <img> when photorealistic images are available */}
+        <div className="aspect-[16/9] bg-gradient-to-br from-indigo-100 via-blue-50 to-emerald-100 flex items-center justify-center">
+          <svg className="w-10 h-10 text-indigo-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M21 15l-5-5L5 21" /></svg>
         </div>
         <div className="p-5">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-[10px] font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">{article.category}</span>
+            <span className="text-[10px] text-gray-400">5 min read</span>
+          </div>
           <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">{article.title}</h3>
           <p className="text-xs text-gray-500 mt-2 leading-relaxed line-clamp-2">{article.desc}</p>
-          <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
-            <span>5 min read</span>
-            <span>•</span>
-            <span className="text-indigo-600 font-medium">{article.category}</span>
-          </div>
         </div>
       </Link>
     ))}
@@ -598,7 +600,7 @@ export default function Home() {
 
   <div className="text-center mt-8">
     <Link href="/research" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors">
-      View all guides &rarr;
+      View all articles &rarr;
     </Link>
   </div>
 </section>
