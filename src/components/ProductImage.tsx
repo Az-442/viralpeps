@@ -27,8 +27,12 @@ export default function ProductImage({
     async function findBestImage() {
       const candidates: string[] = [];
 
-      // 1. CDN source image (if provided)
+      // 1. CDN source image (if provided) — use directly, no HEAD check for external URLs
       if (sourceImageUrl) {
+        if (sourceImageUrl.startsWith("http")) {
+          if (!cancelled) setImageUrl(sourceImageUrl);
+          return;
+        }
         candidates.push(sourceImageUrl);
       }
 
