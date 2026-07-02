@@ -6,6 +6,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
 import CompoundPageClient from "./CompoundPageClient";
+import { guides, ResearchArticle } from "@/data/research";
 
 export const dynamic = "force-dynamic";
 
@@ -388,11 +389,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
       {/* ===== RESEARCH LIBRARY — compound-specific only ===== */}
       {(() => {
-        const allGuides = [
-          { title: "GLP-1 Research Overview", desc: "An introduction to GLP-1 receptor agonists including Tirzepatide and Semaglutide.", category: "Compound Profiles", compound: "Tirzepatide", slug: "glp1-research-overview", minutes: 7 },
-          { title: "BPC-157 Research Summary", desc: "Overview of BPC-157, its research applications, dosing protocols, and current literature.", category: "Compound Profiles", compound: "BPC-157", slug: "bpc157-research-summary", minutes: 5 },
-        ];
-        const compoundArticles = allGuides.filter(g =>
+        const compoundArticles = guides.filter(g =>
           (g as any).compound?.toLowerCase() === compound.name.toLowerCase()
         );
         if (compoundArticles.length === 0) return null;
@@ -409,7 +406,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 </Link>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                {compoundArticles.map((article) => (
+                {compoundArticles.map((article: ResearchArticle) => (
                   <Link
                     key={article.slug}
                     href={`/research`}
@@ -417,7 +414,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   >
                     <div className="flex items-center gap-2 mb-3">
                       <span className="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full uppercase tracking-wider">{article.category}</span>
-                      <span className="text-[10px] text-gray-400">{article.minutes} min read</span>
+                      <span className="text-[10px] text-gray-400">{article.minutes || 5} min read</span>
                     </div>
                     <h3 className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors leading-snug mb-2">{article.title}</h3>
                     <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">{article.desc}</p>
