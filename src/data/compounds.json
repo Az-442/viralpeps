@@ -922,6 +922,13 @@
         "price": "£19.99",
         "inStock": true,
         "dosage": "10mg"
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/mt-2-melanotan-2-acetate-10mg/",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/mt-2-melanotan-2-acetate-10mg.webp"
       }
     ],
     "longDescription": "## Overview\n\nMelanotan II (MT-II) is a synthetic cyclic heptapeptide analogue of α-melanocyte-stimulating hormone (α-MSH), the body's natural pigment-regulating hormone. Developed initially at the University of Arizona as a potential sunless tanning agent and photoprotective therapy, Melanotan II has become one of the most widely known research peptides. It acts as a non-selective melanocortin receptor agonist, activating all five melanocortin receptor subtypes (MC1R–MC5R). While its most visible effect is stimulation of melanogenesis (skin pigmentation) through MC1R activation, the compound also influences appetite regulation via MC4R and, interestingly, sexual function through central melanocortin pathways — the same mechanism that led to the development of its analogue bremelanotide (PT-141). UK researchers continue to study MT-II for applications including erythropoietic protoporphyria, sexual dysfunction, and understanding melanocortin biology.\n\n## Mechanism of Action\n\nMelanotan II functions as a non-selective agonist at all five melanocortin receptor subtypes. Activation of MC1R on melanocytes stimulates the cAMP signalling cascade, upregulating tyrosinase enzyme activity and driving the production of eumelanin (dark pigment) independently of UV exposure. MC4R activation in the hypothalamus regulates appetite and energy homeostasis, producing an anorexigenic effect. MC3R and MC4R signalling also modulate sexual arousal and erectile function through central nervous system pathways involving oxytocinergic neurons. MC2R is primarily the ACTH receptor and is less relevant to Melanotan II's primary effects. The cyclic structure and Nle substitution confer improved stability and potency compared to native α-MSH.\n\n## Research & Clinical Data\n\nClinical studies have demonstrated that Melanotan II effectively induces tanning in fair-skinned individuals, with a 10–14 day loading phase producing visible pigmentation that persists for weeks. Research in erythropoietic protoporphyria (EPP) has shown that MT-II-induced melanisation can improve light tolerance and quality of life. Studies on sexual function report improvements in erectile function and libido in both men and women, mediated through central melanocortin pathways. However, development has been limited by side effects including nausea, flushing, and spontaneous erections.\n\n## Dosage & Administration\n\nTypical research dosages for Melanotan II range from 0.5–1 mg per day, with a common loading protocol of 0.5 mg per day for 10–14 days to establish pigmentation, followed by maintenance dosing of 1–2 times per week. The peptide has a short plasma half-life of 30–60 minutes, but melanogenic effects persist for days due to sustained tyrosinase upregulation. Subcutaneous administration is standard after reconstitution with bacteriostatic water.\n\n## Safety & Legal\n\nMelanotan II is strictly for research purposes. Common effects reported in studies include nausea, facial flushing, spontaneous erections, appetite suppression, and potential darkening of pre-existing naevi (moles). The long-term safety profile is not well established. The lyophilised powder should be stored at -20°C and protected from light. UK researchers should be aware that Melanotan II is not licensed for human use and should only be obtained from reputable research suppliers.\n\n\nMelanotan II was originally developed at the University of Arizona as part of a research programme aimed at creating a sunless tanning agent that could reduce skin cancer risk by decreasing UV exposure. The peptide's ability to induce melanogenesis without UV radiation was demonstrated in early clinical studies at the Arizona Cancer Center, where fair-skinned volunteers developed visible pigmentation after 10–14 days of daily administration. This mechanism — activating MC1R to stimulate eumelanin production — provided the first practical alternative to UV-induced tanning.\n\nThe melanocortin system extends far beyond pigmentation. MC4R activation in the hypothalamus regulates energy homeostasis, and MC3R and MC4R activation in the spinal cord and brainstem modulates sexual function. Bremelanotide (PT-141), the active metabolite of Melanotan II that lacks the melanogenic effects, was FDA-approved in 2019 for hypoactive sexual desire disorder in premenopausal women. The development of analogues that separate these effects remains an active area of medicinal chemistry research.\n\nClinical research in erythropoietic protoporphyria (EPP), a rare genetic disorder causing severe photosensitivity, has demonstrated that Melanotan II-induced melanisation can dramatically improve light tolerance. EPP patients who previously could tolerate only minutes of sunlight exposure were able to spend hours outdoors after treatment — a life-changing improvement. This application highlights the therapeutic potential of melanocortin agonists beyond cosmetic tanning.\n\nFor research use, Melanotan II requires careful handling. The peptide is sensitive to light degradation and should be protected during reconstitution and storage. Common doses of 0.5–1 mg per day during the loading phase should be administered subcutaneously. Researchers should be aware that dosing errors (particularly overdosing) can cause significant nausea, so precise reconstitution and measurement are essential. UK researchers can obtain Melanotan II from specialised peptide suppliers who provide purity documentation.",
@@ -1745,6 +1752,34 @@
         "price": "£55.00",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/igf-1-long-r3-1mg/",
+        "price": "£49.00",
+        "inStock": true,
+        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/igf-long-r3-1mg-front.png"
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/vial",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-lr3-vial-express.webp"
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/pen",
+        "price": "£69.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-lr3-pen-express.webp"
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/igf-1-lr3-1mg/",
+        "price": "£59.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/igf-1-lr3-1mg.webp"
       }
     ],
     "longDescription": "## Overview\n\nIGF-1 LR3 (Long Arginine 3 Insulin-like Growth Factor-1) is a synthetic 83-amino acid analogue of human IGF-1 engineered for dramatically enhanced bioavailability and half-life. The modification involves substituting the third amino acid (arginine for glutamic acid) and adding an N-terminal extension (MFPAMPLSSLFNGPRTLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA), creating a peptide with approximately 1000-fold reduced affinity for IGF-binding proteins (IGFBPs). Normally, native IGF-1 is rapidly sequestered by IGFBPs and cleared within 10–12 minutes. IGF-1 LR3 overcomes this limitation, achieving a half-life of 20–30 hours and significantly greater bioavailability at target tissues. This makes IGF-1 LR3 a powerful research tool for studying muscle growth, recovery, insulin sensitivity, nerve regeneration, and anti-aging pathways. UK researchers in sports science and regenerative medicine have utilised IGF-1 LR3 to investigate protein synthesis and tissue repair mechanisms.\n\n## Mechanism of Action\n\nIGF-1 LR3 exerts its effects by binding to the IGF-1 receptor (IGF-1R), a receptor tyrosine kinase that activates the PI3K/Akt and MAPK/ERK signalling cascades. This leads to increased protein synthesis through mTOR activation, enhanced nitrogen retention, inhibited protein breakdown (through FoxO phosphorylation), and promotion of cell proliferation and survival. The reduced binding to IGFBPs (particularly IGFBP-3, the most abundant circulating binding protein) means that a much larger proportion of administered peptide remains free and biologically active — a critical advantage over native IGF-1. IGF-1 LR3 also exhibits some cross-reactivity with the insulin receptor, though with lower affinity, potentially contributing to improved insulin sensitivity in certain research contexts.\n\n## Research & Clinical Data\n\nResearch studies have demonstrated that IGF-1 LR3 significantly enhances muscle protein synthesis and promotes myoblast proliferation and differentiation in vitro. Animal studies report improved muscle regeneration following injury, enhanced nerve regeneration after peripheral nerve damage, and increased bone density in models of osteoporosis. The extended half-life of 20–30 hours allows for once or twice daily dosing schedules, compared to the impractical continuous infusion required for native IGF-1. Clinical applications for IGF-1 deficiency, muscle wasting diseases, and metabolic disorders continue to be explored.\n\n## Dosage & Administration\n\nCommon research dosages for IGF-1 LR3 range from 20–60 mcg per day for general research purposes, with post-workout protocols of 40–80 mcg used in muscle growth studies. Due to its 20–30 hour half-life, once or twice daily administration is sufficient. Subcutaneous or intramuscular injection are both used in research protocols. The peptide should be reconstituted with bacteriostatic water (or dilute acetic acid for optimal stability) and stored at 2–8°C after reconstitution.\n\n## Safety & Legal\n\nIGF-1 LR3 is for research purposes only. Potential risks associated with IGF-1 pathway activation include hypoglycaemia (due to insulin receptor cross-reactivity), acromegaly-like effects with chronic use, and theoretical concerns regarding cell proliferation in susceptible tissues. The lyophilised powder should be stored at -20°C and protected from light and moisture.\n\n\nThe engineering of IGF-1 LR3 addressed a fundamental challenge in growth factor therapeutics: the rapid clearance of IGF-1 due to its high-affinity binding to a family of six binding proteins (IGFBPs) present in plasma at molar excess. Native IGF-1 has a half-life of only 10–12 minutes because it is rapidly sequestered by IGFBPs, primarily IGFBP-3. The R3 substitution (arginine for glutamic acid at position 3) reduces affinity for all IGFBPs by approximately 1000-fold, while the N-terminal extension further enhances this property.\n\nThe implications of this reduced IGFBP binding extend beyond pharmacokinetics. IGFBPs not only transport IGF-1 in the circulation but also modulate its interaction with the IGF-1 receptor. Some IGFBPs can potentiate or inhibit IGF-1 signalling in a tissue-specific manner. By circumventing these regulatory proteins, IGF-1 LR3 provides a more direct and uniform activation of the IGF-1 receptor across different target tissues — which may be advantageous for some research applications but could also bypass important physiological regulatory mechanisms.\n\nResearch has demonstrated that IGF-1 LR3 is particularly effective in promoting muscle protein synthesis. Studies in animal models show increased muscle mass and fibre cross-sectional area with IGF-1 LR3 treatment, even in the absence of resistance exercise. The peptide also promotes satellite cell activation and myonuclear accretion, suggesting it may enhance the regenerative capacity of skeletal muscle — a finding with implications for sarcopenia and muscle-wasting conditions.\n\nFor research use, IGF-1 LR3 requires careful handling due to its susceptibility to oxidation and aggregation. Reconstitution with dilute acetic acid (rather than bacteriostatic water) can improve stability. The peptide should be stored at -20°C as lyophilised powder and used promptly after reconstitution. UK researchers should source from vendors who provide purity analysis and storage recommendations specific to this peptide.",
@@ -1819,6 +1854,13 @@
         "inStock": true,
         "image": "https://peptideslabuk.com/wp-content/uploads/2025/07/IGF-DES-470x588.jpg",
         "dosage": "1mg"
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-des/pen",
+        "price": "£64.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-des-pen-express.webp"
       }
     ],
     "longDescription": "## Overview\n\nIGF-1 DES (Des(1-3) Insulin-like Growth Factor-1) is a 67-amino acid truncated analogue of human IGF-1, formed by removing the N-terminal tripeptide Gly-Pro-Glu. This seemingly minor modification has profound consequences for IGF-binding protein (IGFBP) affinity — the deletion reduces binding to all six known IGFBPs by several orders of magnitude, producing a peptide with substantially greater free fraction and tissue bioavailability than either native IGF-1 or the extended-analogue IGF-1 LR3. Unlike IGF-1 LR3, which achieves its extended half-life through retained IGFBP binding and slow dissociation, IGF-1 DES bypasses the binding protein system almost entirely. This makes IGF-1 DES a uniquely potent research tool for studying IGF-1 receptor signalling without the buffering effects of binding proteins. Researchers in the UK and internationally use IGF-1 DES for investigations into muscle hypertrophy, tissue repair, metabolic regulation, and cell proliferation pathways.\n\n## Mechanism of Action\n\nIGF-1 DES activates the IGF-1 receptor (IGF-1R), a transmembrane receptor tyrosine kinase, triggering downstream PI3K/Akt and MAPK/ERK signalling cascades. Akt activation leads to mTOR-mediated protein synthesis and inhibition of protein breakdown via FoxO phosphorylation. The key distinction from native IGF-1 and IGF-1 LR3 is the almost complete absence of IGFBP binding. Native IGF-1 is rapidly sequestered by IGFBPs, particularly IGFBP-3, which act as carrier proteins that control IGF-1 distribution and half-life. IGF-1 LR3 reduces this binding by ~1000-fold. IGF-1 DES eliminates it almost entirely. The consequence is extraordinarily rapid receptor activation at the expense of a very short circulating half-life (10–15 minutes). This pharmacokinetic profile makes IGF-1 DES particularly suitable for acute, high-peak signalling research rather than sustained tonic stimulation.",
@@ -4372,6 +4414,20 @@
         "inStock": true,
         "image": "/images/products/new-wave-peptides/hgh-fragment-176-191-5mg.webp",
         "dosage": "5mg"
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/hgh-fragment-176-191-5mg/",
+        "price": "£29.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-5mg.webp"
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/hgh-fragment-176-191-10mg/",
+        "price": "£59.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-10mg.webp"
       }
     ],
     "longDescription": ""
@@ -9886,68 +9942,6 @@
     "longDescription": ""
   },
   {
-    "id": "igf-1-lr3-100mcg",
-    "name": "IGF-1 LR3 100mcg",
-    "slug": "igf-1-lr3-100mcg",
-    "aliases": [],
-    "category": "growth-hormone",
-    "description": "IGF-1 LR3 100mcg — research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/peptides-igf-1-lr3-100/",
-        "price": "£10.00",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/igf-long-r3-100mcg-front.png"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-lr3",
-    "longDescription": ""
-  },
-  {
-    "id": "igf-1-long-r3-1mg",
-    "name": "IGF-1 Long R3 1mg",
-    "slug": "igf-1-long-r3-1mg",
-    "aliases": [],
-    "category": "growth-hormone",
-    "description": "IGF-1 Long R3 1mg — research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/igf-1-long-r3-1mg/",
-        "price": "£49.00",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/igf-long-r3-1mg-front.png"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-lr3",
-    "longDescription": ""
-  },
-  {
     "id": "ipamorelin-2mg",
     "name": "Ipamorelin 2mg",
     "slug": "ipamorelin-2mg",
@@ -11303,37 +11297,6 @@
     "longDescription": ""
   },
   {
-    "id": "igf1-lr3-1mg",
-    "name": "IGF1-LR3 1mg",
-    "slug": "igf1-lr3-1mg",
-    "aliases": [],
-    "category": "growth-hormone",
-    "description": "IGF1-LR3 1mg — research peptide for laboratory use only.",
-    "mechanism": "Under research.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Lyophilized powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
-        "price": "£56.00",
-        "inStock": true,
-        "image": "/images/products/tide-labs/igf1-lr3-1mg.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-lr3",
-    "longDescription": ""
-  },
-  {
     "id": "acetic-acid-reconstitution-solvent-10ml",
     "name": "Acetic Acid 0.6% Solution 10ml",
     "slug": "acetic-acid-reconstitution-solvent-10ml",
@@ -12341,40 +12304,6 @@
     "longDescription": ""
   },
   {
-    "id": "mt2-10mg-imperial",
-    "name": "MT-2 10mg",
-    "slug": "mt2-10mg-imperial",
-    "aliases": [
-      "Melanotan II"
-    ],
-    "category": "tanning-libido",
-    "description": "MT-2 10mg by Imperial Peptides UK — high-purity lyophilised peptide for in vitro laboratory research use only.",
-    "mechanism": "Melanotan II is a synthetic analogue of the naturally occurring melanocortin peptide α-MSH that acts as a non-selective agonist at melanocortin receptors MC1R, MC3R, MC4R, and MC5R.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "Melanocortin research",
-      "Pigmentation research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Imperial Peptides UK",
-        "url": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
-        "price": "£19.99",
-        "inStock": true,
-        "image": "/images/products/imperial-peptides/mt2-10mg.jpg"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "melanotan-ii",
-    "longDescription": ""
-  },
-  {
     "id": "mots-c-10mg-imperial",
     "name": "MOTS-C 10mg",
     "slug": "mots-c-10mg-imperial",
@@ -13251,130 +13180,6 @@
     ],
     "faq": [],
     "compareSlug": "tesamorelin",
-    "longDescription": ""
-  },
-  {
-    "id": "igf1-lr3-vial-express",
-    "name": "IGF-1 LR3 1mg",
-    "slug": "igf1-lr3-vial-express",
-    "aliases": [],
-    "category": "growth-hormone",
-    "description": "IGF-1 LR3 1mg by Express Peptides — high-purity research peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/vial",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/express-peptides/igf1-lr3-vial-express.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-lr3",
-    "longDescription": ""
-  },
-  {
-    "id": "igf1-lr3-pen-express",
-    "name": "IGF-1 LR3 Pre-mixed Pen 1mg",
-    "slug": "igf1-lr3-pen-express",
-    "aliases": [],
-    "category": "growth-hormone",
-    "description": "IGF-1 LR3 Pre-mixed Pen 1mg by Express Peptides — high-purity research peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Pre-mixed pen",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/pen",
-        "price": "£69.00",
-        "inStock": true,
-        "image": "/images/products/express-peptides/igf1-lr3-pen-express.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-lr3",
-    "longDescription": ""
-  },
-  {
-    "id": "igf1-des-vial-express",
-    "name": "IGF-1 Des 2mg",
-    "slug": "igf1-des-vial-express",
-    "aliases": [],
-    "category": "growth-hormone",
-    "description": "IGF-1 Des 2mg by Express Peptides — high-purity research peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
-        "price": "£44.99",
-        "inStock": true,
-        "image": "/images/products/express-peptides/igf1-des-vial-express.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-des",
-    "longDescription": ""
-  },
-  {
-    "id": "igf1-des-pen-express",
-    "name": "IGF-1 Des Pre-mixed Pen 2mg",
-    "slug": "igf1-des-pen-express",
-    "aliases": [],
-    "category": "growth-hormone",
-    "description": "IGF-1 Des Pre-mixed Pen 2mg by Express Peptides — high-purity research peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Pre-mixed pen",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://www.expresspeptides.co.uk/product/igf1-des/pen",
-        "price": "£64.00",
-        "inStock": true,
-        "image": "/images/products/express-peptides/igf1-des-pen-express.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "igf-1-des",
     "longDescription": ""
   },
   {
@@ -15582,64 +15387,6 @@
     "mechanism": ""
   },
   {
-    "id": "hgh-fragment-176-191-10mg",
-    "name": "HGH Fragment 176-191 10mg",
-    "slug": "hgh-fragment-176-191-10mg",
-    "compareSlug": "hgh-frag-176-191",
-    "category": "aod-fragments",
-    "description": "HGH Fragment 176-191 10mg for research.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/hgh-fragment-176-191-10mg/",
-        "price": "£59.99",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-10mg.webp"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
-    "id": "igf-1-lr3-1mg",
-    "name": "IGF-1 LR3 1mg",
-    "slug": "igf-1-lr3-1mg",
-    "compareSlug": "igf-1-lr3",
-    "category": "growth-hormone",
-    "description": "IGF-1 LR3 1mg for research purposes.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/igf-1-lr3-1mg/",
-        "price": "£59.99",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/igf-1-lr3-1mg.webp"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
     "id": "ss-31-research-peptides-uk",
     "name": "SS-31",
     "slug": "ss-31-research-peptides-uk",
@@ -15798,35 +15545,6 @@
         "price": "£50.00",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/myostatin-1mg.webp"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
-    "id": "igf-1-des-1mg",
-    "name": "IGF-1 DES 1mg",
-    "slug": "igf-1-des-1mg",
-    "compareSlug": "igf-1-des",
-    "category": "growth-hormone",
-    "description": "IGF-1 DES 1mg for research purposes.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/igf-1-des-1mg/",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/igf-1-des-1mg.webp"
       }
     ],
     "faq": [],
@@ -16362,35 +16080,6 @@
     "mechanism": ""
   },
   {
-    "id": "mt-2-melanotan-2-acetate-10mg",
-    "name": "MT-2 (Melanotan 2) 10mg",
-    "slug": "mt-2-melanotan-2-acetate-10mg",
-    "compareSlug": "melanotan-ii",
-    "category": "tanning-libido",
-    "description": "MT-2 (Melanotan 2) 10mg for research.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/mt-2-melanotan-2-acetate-10mg/",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/mt-2-melanotan-2-acetate-10mg.webp"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
     "id": "thymosin-beta-4-tb500-5mg-research-peptides-uk",
     "name": "Thymosin Beta 4 (TB500) 5mg",
     "slug": "thymosin-beta-4-tb500-5mg-research-peptides-uk",
@@ -16491,35 +16180,6 @@
         "price": "£15.99 – £29.00",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/bpc-157.webp"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
-    "id": "hgh-fragment-176-191-5mg",
-    "name": "HGH Fragment 176-191 5mg",
-    "slug": "hgh-fragment-176-191-5mg",
-    "compareSlug": "hgh-frag-176-191",
-    "category": "aod-fragments",
-    "description": "HGH Fragment 176-191 5mg for research.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/hgh-fragment-176-191-5mg/",
-        "price": "£29.00",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-5mg.webp"
       }
     ],
     "faq": [],
@@ -18092,35 +17752,6 @@
     "faq": []
   },
   {
-    "id": "sterling-melanotan-ii-10mg",
-    "name": "Melanotan II 10mg",
-    "slug": "sterling-melanotan-ii-10mg",
-    "compareSlug": "melanotan-ii",
-    "category": "tanning-libido",
-    "description": "Melanotan II 10mg for research purposes.",
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": "",
-    "sources": [
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://sterlingpeptides.co.uk/product/melanotan-ii-10mg/",
-        "price": "£18.99",
-        "inStock": true,
-        "image": "/images/products/sterling-peptides/sterling-melanotan-ii-10mg.webp"
-      }
-    ],
-    "faq": []
-  },
-  {
     "id": "sterling-mots-c-10mg",
     "name": "MOTS-c 10mg Peptide",
     "slug": "sterling-mots-c-10mg",
@@ -18724,6 +18355,104 @@
     "name": "Epithalon (Epitalon)",
     "slug": "epithalon",
     "redirect": "epitalon",
+    "sources": []
+  },
+  {
+    "id": "igf-1-lr3-100mcg-redirect",
+    "name": "IGF-1 LR3 100mcg",
+    "slug": "igf-1-lr3-100mcg",
+    "redirect": "igf-1-lr3",
+    "sources": []
+  },
+  {
+    "id": "igf-1-long-r3-1mg-redirect",
+    "name": "IGF-1 Long R3 1mg",
+    "slug": "igf-1-long-r3-1mg",
+    "redirect": "igf-1-lr3",
+    "sources": []
+  },
+  {
+    "id": "igf1-lr3-1mg-redirect",
+    "name": "IGF1-LR3 1mg",
+    "slug": "igf1-lr3-1mg",
+    "redirect": "igf-1-lr3",
+    "sources": []
+  },
+  {
+    "id": "igf1-lr3-vial-express-redirect",
+    "name": "IGF-1 LR3 1mg",
+    "slug": "igf1-lr3-vial-express",
+    "redirect": "igf-1-lr3",
+    "sources": []
+  },
+  {
+    "id": "igf1-lr3-pen-express-redirect",
+    "name": "IGF-1 LR3 Pre-mixed Pen 1mg",
+    "slug": "igf1-lr3-pen-express",
+    "redirect": "igf-1-lr3",
+    "sources": []
+  },
+  {
+    "id": "igf-1-lr3-1mg-redirect",
+    "name": "IGF-1 LR3 1mg",
+    "slug": "igf-1-lr3-1mg",
+    "redirect": "igf-1-lr3",
+    "sources": []
+  },
+  {
+    "id": "igf1-des-vial-express-redirect",
+    "name": "IGF-1 Des 2mg",
+    "slug": "igf1-des-vial-express",
+    "redirect": "igf-1-des",
+    "sources": []
+  },
+  {
+    "id": "igf1-des-pen-express-redirect",
+    "name": "IGF-1 Des Pre-mixed Pen 2mg",
+    "slug": "igf1-des-pen-express",
+    "redirect": "igf-1-des",
+    "sources": []
+  },
+  {
+    "id": "igf-1-des-1mg-redirect",
+    "name": "IGF-1 DES 1mg",
+    "slug": "igf-1-des-1mg",
+    "redirect": "igf-1-des",
+    "sources": []
+  },
+  {
+    "id": "hgh-fragment-176-191-5mg-redirect",
+    "name": "HGH Fragment 176-191 5mg",
+    "slug": "hgh-fragment-176-191-5mg",
+    "redirect": "fragment-176-191",
+    "sources": []
+  },
+  {
+    "id": "hgh-fragment-176-191-10mg-redirect",
+    "name": "HGH Fragment 176-191 10mg",
+    "slug": "hgh-fragment-176-191-10mg",
+    "redirect": "fragment-176-191",
+    "sources": []
+  },
+  {
+    "id": "mt2-10mg-imperial-redirect",
+    "name": "MT-2 10mg",
+    "slug": "mt2-10mg-imperial",
+    "redirect": "melanotan-ii",
+    "sources": []
+  },
+  {
+    "id": "sterling-melanotan-ii-10mg-redirect",
+    "name": "Melanotan II 10mg",
+    "slug": "sterling-melanotan-ii-10mg",
+    "redirect": "melanotan-ii",
+    "sources": []
+  },
+  {
+    "id": "mt-2-melanotan-2-acetate-10mg-redirect",
+    "name": "MT-2 (Melanotan 2) 10mg",
+    "slug": "mt-2-melanotan-2-acetate-10mg",
+    "redirect": "melanotan-ii",
     "sources": []
   }
 ]
