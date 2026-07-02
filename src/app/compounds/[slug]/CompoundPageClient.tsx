@@ -883,8 +883,8 @@ export default function CompoundPageClient({
 
                     {/* Coupon */}
                     <td className="px-5 py-4 text-center">
-                      {vendor?.highlights?.some(h => h.toLowerCase().includes('coupon') || h.toLowerCase().includes('discount') || h.toLowerCase().includes('code')) ? (
-                        <span className="text-sm font-semibold text-pink-600 bg-pink-50 px-2 py-1 rounded-full">Coupon</span>
+                      {(vendor as any)?.coupon ? (
+                        <span className="text-sm font-semibold text-pink-600 bg-pink-50 px-2 py-1 rounded-full" title={(vendor as any).coupon}>Coupon</span>
                       ) : (
                         <span className="text-sm text-gray-300">—</span>
                       )}
