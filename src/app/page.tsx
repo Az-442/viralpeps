@@ -10,6 +10,7 @@ import vendors from "@/data/vendors.json";
 import { PEPTIDE_COUNT as peptideCount, SUPPLIER_COUNT as vendorCount } from "@/data/stats";
 import { HOMEPAGE_CATEGORY_GROUPS } from "@/data/categories";
 import { getVendorStats } from "@/data/vendor-stats";
+import { guides } from "@/data/research";
 
 // --- Data helpers ---
 const totalCompounds = peptideCount;
@@ -526,7 +527,7 @@ export default function Home() {
  </div>
 </section>
 
-{/* GUIDES — Like reference site */}
+{/* GUIDES — Dynamic from research data */}
 <section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-blue-50">
   <div className="max-w-4xl mx-auto text-center mb-10">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-4">
@@ -538,39 +539,21 @@ export default function Home() {
   </div>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-    <Link href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
-      <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="9" cy="21" r="1" /><circle cx="20" cy="21" r="1" /><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" /></svg>
-      </div>
-      <div className="min-w-0">
-        <h3 className="font-bold text-gray-900 text-sm leading-snug">Buy Peptides UK &mdash; Compare Prices &amp; Find the Best Supplier</h3>
-        <p className="text-xs text-gray-500 mt-1">How to buy research peptides safely from verified UK vendors.</p>
-      </div>
-    </Link>
-
-    <Link href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
-      <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" /></svg>
-      </div>
-      <div className="min-w-0">
-        <h3 className="font-bold text-gray-900 text-sm leading-snug">Cheap Peptides UK &mdash; Compare &amp; Find the Lowest Prices</h3>
-        <p className="text-xs text-gray-500 mt-1">Find the lowest prices without compromising on quality.</p>
-      </div>
-    </Link>
-
-    <Link href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
-      <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-      </div>
-      <div className="min-w-0">
-        <h3 className="font-bold text-gray-900 text-sm leading-snug">GLOW Peptide UK &mdash; Compare Prices &amp; Find the Best Deals</h3>
-        <p className="text-xs text-gray-500 mt-1">Compare GLOW Blend prices for skin rejuvenation research.</p>
-      </div>
-    </Link>
+    {guides.filter(g => g.category === "Guide").slice(-3).reverse().map((guide) => (
+      <Link key={guide.slug} href="/research" className="bg-white rounded-2xl p-6 flex items-start gap-4 hover:shadow-md transition-shadow border border-gray-200">
+        <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </div>
+        <div className="min-w-0">
+          <h3 className="font-bold text-gray-900 text-sm leading-snug">{guide.title}</h3>
+          <p className="text-xs text-gray-500 mt-1">{guide.desc}</p>
+        </div>
+      </Link>
+    ))}
   </div>
 </section>
 
-{/* LATEST RESEARCH */}
+{/* LATEST RESEARCH — Dynamic from research data */}
 <section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-100">
   <div className="mb-8">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-3">
@@ -581,50 +564,26 @@ export default function Home() {
   </div>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-    <Link href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
-      <div className="aspect-[16/10] bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
-        <img src="/images/compounds/bpc-157.svg" alt="BPC-157 research" className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
-      </div>
-      <div className="p-5">
-        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">How BPC-157 Supports Tissue Repair Research</h3>
-        <p className="text-xs text-gray-500 mt-2 leading-relaxed">BPC-157 is one of the most studied peptides for tissue repair. Learn about its mechanism, protocols, and what researchers are discovering.</p>
-        <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
-          <span>5 min read</span>
-          <span>•</span>
-          <span>Guides</span>
+    {guides.filter(g => g.category !== "Guide").slice(-3).reverse().map((article) => (
+      <Link key={article.slug} href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
+        <div className="aspect-[16/10] bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
+          {article.compound ? (
+            <img src={`/images/compounds/${article.compound.toLowerCase().replace(/\s+/g, '-')}.svg`} alt={article.title} className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
+          ) : (
+            <svg className="w-12 h-12 text-blue-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+          )}
         </div>
-      </div>
-    </Link>
-
-    <Link href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
-      <div className="aspect-[16/10] bg-gradient-to-br from-emerald-50 to-teal-50 flex items-center justify-center">
-        <img src="/images/compounds/semaglutide.svg" alt="Semaglutide research" className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
-      </div>
-      <div className="p-5">
-        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">Semaglutide vs Tirzepatide — Comparing GLP-1 Research</h3>
-        <p className="text-xs text-gray-500 mt-2 leading-relaxed">A side-by-side comparison of the two most popular GLP-1 receptor agonists in research, including mechanism, dosing, and study outcomes.</p>
-        <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
-          <span>8 min read</span>
-          <span>•</span>
-          <span>Guides</span>
+        <div className="p-5">
+          <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">{article.title}</h3>
+          <p className="text-xs text-gray-500 mt-2 leading-relaxed">{article.desc}</p>
+          <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
+            <span>5 min read</span>
+            <span>•</span>
+            <span>{article.category}</span>
+          </div>
         </div>
-      </div>
-    </Link>
-
-    <Link href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
-      <div className="aspect-[16/10] bg-gradient-to-br from-amber-50 to-orange-50 flex items-center justify-center">
-        <img src="/images/compounds/ghk-cu.svg" alt="GHK-Cu research" className="w-16 h-16 object-contain opacity-60 group-hover:opacity-100 transition-opacity" />
-      </div>
-      <div className="p-5">
-        <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">A Complete Guide to Anti-Aging Research Peptides</h3>
-        <p className="text-xs text-gray-500 mt-2 leading-relaxed">GHK-Cu, Epitalon, NAD+, and other peptides being studied for cellular health, longevity, and age-related research applications.</p>
-        <div className="flex items-center gap-3 mt-3 text-[11px] text-gray-400">
-          <span>10 min read</span>
-          <span>•</span>
-          <span>Guides</span>
-        </div>
-      </div>
-    </Link>
+      </Link>
+    ))}
   </div>
 
   <div className="text-center mt-8">
