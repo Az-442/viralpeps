@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
@@ -62,6 +62,11 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
   const { slug } = await params;
   const compound = compounds.find((c) => c.slug === slug);
   if (!compound) notFound();
+  
+  // Handle redirects for merged/duplicate compounds
+  if ((compound as any).redirect) {
+    redirect(`/compounds/${(compound as any).redirect}`);
+  }
 
   const minPrice = Math.min(
     ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
