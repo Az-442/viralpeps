@@ -372,13 +372,13 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "Premium UK research peptide supplier with a 4.9\u2605 rating across 103 reviews. All products third-party lab tested via Janoshik with public COAs. Free next-day UK delivery, bulk discounts up to 25% off, and exceptional customer support.",
+    "description": "Premium UK research peptide supplier with a 4.9★ rating across 103 reviews. All products third-party lab tested via Janoshik with public COAs. Free next-day UK delivery, bulk discounts up to 25% off, and exceptional customer support.",
     "highlights": [
-      "4.9/5 rating \u2014 103 reviews",
+      "4.9/5 rating — 103 reviews",
       "Lab tested (Janoshik)",
       "Free next-day UK delivery",
       "Bulk discounts up to 25% off",
-      "Free gift over \u00a3100",
+      "Free gift over £100",
       "98% of reviewers recommend"
     ],
     "shipping": [
@@ -388,6 +388,38 @@
       "Cards",
       "Bank transfer"
     ],
+    "lastTested": "2026-06-30",
+    "labTested": true
+  },
+  {
+    "id": "brit-peptides",
+    "name": "Brit Peptides",
+    "slug": "brit-peptides",
+    "website": "https://britpeptides.co.uk",
+    "rating": 3.5,
+    "verified": false,
+    "founded": 2026,
+    "country": "UK",
+    "description": "UK peptide supplier offering research-grade compounds in both vial and disposable pen formats. All products independently HPLC tested with Certificates of Analysis available per product. Based in Canary Wharf, London with same-day dispatch.",
+    "highlights": ["Pen delivery systems", "Same-day dispatch (before 4:30pm)", "HPLC lab tested with COAs", "UK-based — Canary Wharf, London"],
+    "shipping": ["UK next-day (order before 4:30pm Mon-Fri)"],
+    "payment": ["Bank transfer"],
+    "lastTested": "2026-06-30",
+    "labTested": true
+  },
+  {
+    "id": "new-wave-peptides",
+    "name": "New Wave Peptides",
+    "slug": "new-wave-peptides",
+    "website": "https://newwavepeptides.co.uk",
+    "rating": 4.9,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "Premium UK research peptide supplier with all compounds independently tested by Janoshik. Registered UK company (New Wave Solutions Limited #16478331) with cold-chain storage and next-day UK delivery. Rated 4.9/5.0 on Peptide Supermarket with 27 products listed.",
+    "highlights": ["Lab tested (Janoshik)", "Registered UK company", "Free UK shipping", "Cold-chain storage", "99%+ purity"],
+    "shipping": ["UK free (Royal Mail/DPD, order before 3pm Mon-Fri)"],
+    "payment": ["Bank transfer", "Cards"],
     "lastTested": "2026-06-30",
     "labTested": true
   }
