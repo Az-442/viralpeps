@@ -206,7 +206,7 @@ export default function Home() {
 
  {/* 1. HERO */}
  <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-16">
- <div className="max-w-4xl mx-auto px-4 text-center">
+ <div className="max-w-[90rem] mx-auto px-4 text-center">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
  <svg width="10" height="10" viewBox="0 0 24 24" fill="#22c55e"><circle cx="12" cy="12" r="10" /></svg>
  <span className="text-[11px] font-bold text-white uppercase tracking-wider">LIVE UK PRICE COMPARISON</span>
@@ -232,7 +232,7 @@ export default function Home() {
 
  {/* 2. TRUST STRIP */}
  <section className="bg-white py-5">
- <div className="max-w-4xl mx-auto px-4 flex items-center justify-center gap-8">
+ <div className="max-w-[90rem] mx-auto px-4 flex items-center justify-center gap-8">
  <div className="flex items-center gap-2">
  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
  <span className="text-sm text-black">Independent &amp; unbiased</span>
@@ -249,7 +249,7 @@ export default function Home() {
  </section>
 
  {/* 3. TRENDING RIGHT NOW — reference site card format */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-blue-50">
+ <section className="py-10 max-w-[90rem] mx-auto px-4 bg-blue-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#ea580c"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
@@ -268,7 +268,7 @@ export default function Home() {
  </section>
 
  {/* 4. TOP SUPPLIERS */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-100">
+ <section className="py-10 max-w-[90rem] mx-auto px-4 bg-indigo-100">
  <div className="mb-5">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
  <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z" /></svg>
@@ -322,8 +322,8 @@ export default function Home() {
  </section>
 
  {/* 5. HOW IT WORKS — Bigger, more prominent */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 text-center bg-white">
- <div className="max-w-4xl mx-auto">
+<section className="py-16 md:py-20 max-w-[90rem] mx-auto px-4 text-center bg-white">
+ <div className="max-w-[90rem] mx-auto">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
  <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
  <span className="text-xs font-bold text-white uppercase tracking-wider">THE UK&apos;S DEDICATED PEPTIDE PRICE COMPARISON TOOL</span>
@@ -331,7 +331,7 @@ export default function Home() {
  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5 leading-tight">
  Compare peptide prices across every trusted UK supplier &mdash; in seconds.
  </h2>
- <p className="text-base md:text-lg text-black leading-relaxed max-w-3xl mx-auto">
+ <p className="text-base md:text-lg text-black leading-relaxed max-w-[90rem] mx-auto">
  ViralPeps is the UK&apos;s only dedicated peptide price comparison platform. We track live prices from{" "}
  <strong>{totalVendors} trusted UK peptide suppliers</strong> &mdash; so you can find the best deal on{" "}
  <Link href="/compounds/bpc-157" className="text-blue-600 hover:underline font-medium">BPC-157</Link>,{" "}
@@ -359,7 +359,7 @@ export default function Home() {
 </section>
 
  {/* 6. TOP DEALS TODAY */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-blue-50">
+ <section className="py-10 max-w-[90rem] mx-auto px-4 bg-blue-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z" /></svg>
@@ -409,7 +409,7 @@ export default function Home() {
  </section>
 
  {/* 7. TRENDING THIS MONTH — reference site card format */}
- <section className="py-10 max-w-7xl mx-auto px-4 bg-indigo-100">
+ <section className="py-10 max-w-[90rem] mx-auto px-4 bg-indigo-100">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -431,7 +431,7 @@ export default function Home() {
  if (groupCompounds.length === 0) return null;
  const bgColors = ['bg-white', 'bg-blue-50', 'bg-indigo-100'];
  return (
- <section key={group.badge} className={`py-10 max-w-7xl mx-auto px-4 ${bgColors[i % 3]}`}>
+ <section key={group.badge} className={`py-10 max-w-[90rem] mx-auto px-4 ${bgColors[i % 3]}`}>
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#3b82f6"><path d="M7 10l5 5 5-5H7z" /></svg>
@@ -450,7 +450,7 @@ export default function Home() {
    })}
 
    {/* MOST COMPARED THIS WEEK */}
-   <section className="py-10 max-w-7xl mx-auto px-4 bg-blue-50">
+   <section className="py-10 max-w-[90rem] mx-auto px-4 bg-blue-50">
    <div className="mb-5">
      <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
        <svg width="12" height="12" viewBox="0 0 24 24" fill="#8b5cf6"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" /></svg>
@@ -469,8 +469,8 @@ export default function Home() {
  </section>
 
 {/* HOW IT WORKS — Step-based, like reference site */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-100">
-  <div className="max-w-4xl mx-auto">
+<section className="py-16 md:py-20 max-w-[90rem] mx-auto px-4 bg-indigo-100">
+  <div className="max-w-[90rem] mx-auto">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-6">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
       <span className="text-xs font-bold text-white uppercase tracking-wider">How It Works</span>
@@ -512,14 +512,14 @@ export default function Home() {
 </section>
 
 {/* WHO WE ARE — Scaled up to match How it Works */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-white text-center">
- <div className="max-w-4xl mx-auto">
+<section className="py-16 md:py-20 max-w-[90rem] mx-auto px-4 bg-white text-center">
+ <div className="max-w-[90rem] mx-auto">
  <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
  <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
  <span className="text-xs font-bold text-white uppercase tracking-wider">Who We Are</span>
  </div>
  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5 leading-tight">The UK&apos;s independent peptide price comparison platform</h2>
- <p className="text-base md:text-lg text-black leading-relaxed max-w-3xl mx-auto">
+ <p className="text-base md:text-lg text-black leading-relaxed max-w-[90rem] mx-auto">
  ViralPeps is an independent UK peptide price comparison platform. We help researchers find the best deals from trusted suppliers.
  We don&apos;t sell or supply any products &mdash; we simply compare prices so you can make informed decisions.
  We may earn a commission from qualifying purchases, but this never affects our rankings or pricing data.
@@ -528,8 +528,8 @@ export default function Home() {
 </section>
 
 {/* GUIDES — Silo section with placeholder cards */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-blue-50">
-  <div className="max-w-4xl mx-auto text-center mb-12">
+<section className="py-16 md:py-20 max-w-[90rem] mx-auto px-4 bg-blue-50">
+  <div className="max-w-[90rem] mx-auto text-center mb-12">
     <div className="inline-flex items-center gap-1.5 bg-indigo-900 border border-indigo-700 rounded-full px-3 py-1 mb-4">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#6366f1"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
       <span className="text-xs font-bold text-indigo-200 uppercase tracking-wider">Guides</span>
@@ -538,7 +538,7 @@ export default function Home() {
     <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">Everything you need to know about buying, comparing, and sourcing research peptides in the UK.</p>
   </div>
 
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[90rem] mx-auto">
     {[
       { title: "Buy Peptides UK — Compare Prices & Find the Best Supplier", desc: "How to buy research peptides safely from verified UK vendors.", icon: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" },
       { title: "Cheap Peptides UK — Compare & Find the Lowest Prices", desc: "Find the lowest prices without compromising on quality.", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
@@ -570,7 +570,7 @@ export default function Home() {
 </section>
 
 {/* LATEST RESEARCH — Dynamic, photo-ready cards */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-indigo-100">
+<section className="py-16 md:py-20 max-w-[90rem] mx-auto px-4 bg-indigo-100">
   <div className="mb-8">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-3">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -579,7 +579,7 @@ export default function Home() {
     <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Latest Research</h2>
   </div>
 
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[90rem] mx-auto">
     {guides.filter(g => g.category !== "Guide").slice(-3).reverse().map((article) => (
       <Link key={article.slug} href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
         {/* Photo-ready area — replace gradient with <img> when photorealistic images are available */}
@@ -606,8 +606,8 @@ export default function Home() {
 </section>
 
 {/* FAQ SECTION */}
-<section className="py-16 md:py-20 max-w-7xl mx-auto px-4 bg-white">
-  <div className="max-w-3xl mx-auto">
+<section className="py-16 md:py-20 max-w-[90rem] mx-auto px-4 bg-white">
+  <div className="max-w-[90rem] mx-auto">
     <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-4">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
       <span className="text-xs font-bold text-white uppercase tracking-wider">FAQ</span>

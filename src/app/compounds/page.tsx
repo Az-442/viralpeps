@@ -296,7 +296,7 @@ export default function CompoundsPage() {
 
       {/* HERO — matching brand style from homepage + suppliers page */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
-        <div className="max-w-5xl mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
+        <div className="max-w-[90rem] mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
@@ -359,7 +359,7 @@ export default function CompoundsPage() {
 
       {/* Disclaimer strip */}
       <div className="bg-amber-50 border-b border-amber-100">
-        <div className="max-w-5xl mx-auto px-4 py-2.5 text-center">
+        <div className="max-w-[90rem] mx-auto px-4 py-2.5 text-center">
           <p className="text-[11px] text-amber-800/80 leading-relaxed">
             All content is for educational and research reference purposes only.
             It does not constitute medical advice, diagnosis, or treatment
@@ -370,7 +370,7 @@ export default function CompoundsPage() {
 
       {/* FILTERS + GRID */}
       <section className="bg-white border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-6">
+        <div className="max-w-[90rem] mx-auto px-4 py-6">
 
           {/* Sort bar (search bar is now in hero) */}
           <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
@@ -442,7 +442,7 @@ export default function CompoundsPage() {
 
       {/* ── WHY VIRALPEPS ── */}
       <section className="bg-blue-50 border-t border-blue-200">
-        <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
+        <div className="max-w-[90rem] mx-auto px-4 py-12 md:py-16">
           <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
               <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">

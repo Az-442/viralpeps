@@ -62,7 +62,7 @@ export default function GuidePage() {
           <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-blue-500 blur-3xl" />
           <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-purple-500 blur-3xl" />
         </div>
-        <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+        <div className="max-w-[90rem] mx-auto px-4 text-center relative z-10">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-1.5 mb-6">
             <span className="text-blue-300 text-xs font-medium">
               Beginner&apos;s Guide
@@ -83,7 +83,7 @@ export default function GuidePage() {
       </section>
 
       {/* What you'll learn */}
-      <div className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-[90rem] mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
           {sections.map((s) => (
             <a

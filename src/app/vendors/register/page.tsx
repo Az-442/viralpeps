@@ -75,7 +75,7 @@ export default function VendorRegisterPage() {
       <HeaderNav />
 
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-16">
-        <div className="max-w-3xl mx-auto px-4 text-center">
+        <div className="max-w-[90rem] mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
             List Your Business on{" "}
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
@@ -90,7 +90,7 @@ export default function VendorRegisterPage() {
 
       {/* TRUST STRIP */}
       <section className="bg-white border-b border-black py-5">
-        <div className="max-w-4xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="max-w-[90rem] mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             {
               icon: (

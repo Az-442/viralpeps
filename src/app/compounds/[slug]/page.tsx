@@ -154,7 +154,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
       {/* BREADCRUMB */}
       <div className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-2.5 text-xs text-gray-500">
+        <div className="max-w-[90rem] mx-auto px-4 py-2.5 text-xs text-gray-500">
           <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
           <span className="mx-1.5 text-gray-300">›</span>
           <Link href="/compounds" className="hover:text-blue-600 transition-colors">Peptides</Link>
@@ -165,7 +165,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
       {/* ===== HERO BANNER ===== */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white">
-        <div className="max-w-6xl mx-auto px-4 py-10 md:py-16 lg:py-20">
+        <div className="max-w-[90rem] mx-auto px-4 py-10 md:py-16 lg:py-20">
           {/* Desktop: flex row with left content + right stats pill box */}
           <div className="flex flex-col md:flex-row md:items-start md:gap-8">
             {/* Left: Badges, title, subtitle, benefit pills */}
@@ -259,7 +259,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
       {/* Disclaimer strip */}
       <div className="bg-amber-50 border-b border-amber-100">
-        <div className="max-w-5xl mx-auto px-4 py-2.5 text-center">
+        <div className="max-w-[90rem] mx-auto px-4 py-2.5 text-center">
           <p className="text-[11px] text-amber-800/80 leading-relaxed">
             All content is for educational and research reference purposes only.
             It does not constitute medical advice, diagnosis, or treatment
@@ -269,7 +269,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       </div>
 
       {/* ===== MAIN CONTENT ===== */}
-      <div className="max-w-6xl mx-auto px-4 pt-6 pb-2">
+      <div className="max-w-[90rem] mx-auto px-4 pt-6 pb-2">
         {/* FEATURED SUPPLIER */}
         {featured && featuredVendorData && (
           <div className="relative bg-gradient-to-br from-amber-50 via-white to-amber-50/60 rounded-xl p-8 mb-8 overflow-hidden shadow-[0_0_35px_rgba(217,119,6,0.3)] border-2 border-transparent bg-clip-padding">
@@ -347,11 +347,11 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           </div>
         )}
 
-      </div>{/* END max-w-6xl */}
+      </div>{/* END max-w-[90rem] */}
 
       {/* ===== DYNAMIC STATS BAR (full-width) ===== */}
       <div className="w-full bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] shadow-lg mb-6">
-        <div className="max-w-6xl mx-auto px-4 py-5">
+        <div className="max-w-[90rem] mx-auto px-4 py-5">
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
             <div className="text-center">
               <p className="text-2xl font-bold text-white">{uniqueSuppliers}</p>
@@ -372,7 +372,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       </div>
 
       {/* ===== CLIENT CONTENT ===== */}
-      <div className="max-w-6xl mx-auto px-4 py-6 pb-20">
+      <div className="max-w-[90rem] mx-auto px-4 py-6 pb-20">
         <CompoundPageClient
           compound={JSON.parse(JSON.stringify(compound))}
           vendors={JSON.parse(JSON.stringify(vendors))}
@@ -395,7 +395,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         if (compoundArticles.length === 0) return null;
         return (
           <div className="bg-white border-t border-gray-100 py-12">
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="max-w-[90rem] mx-auto px-4">
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900">Research Library</h2>

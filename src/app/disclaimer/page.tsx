@@ -11,12 +11,12 @@ export default function DisclaimerPage() {
     <div className="min-h-screen bg-white">
       <HeaderNav />
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-14">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-[90rem] mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">Disclaimer</h1>
           <p className="text-gray-300 text-sm">Last updated: 1 July 2026</p>
         </div>
       </section>
-      <section className="max-w-3xl mx-auto px-4 py-12 space-y-8 text-sm text-gray-700 leading-relaxed">
+      <section className="max-w-[90rem] mx-auto px-4 py-12 space-y-8 text-sm text-gray-700 leading-relaxed">
 
         <div>
           <h2 className="text-lg font-bold text-gray-900 mb-2">1. No Seller Relationship</h2>

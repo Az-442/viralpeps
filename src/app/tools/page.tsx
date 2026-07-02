@@ -60,7 +60,7 @@ export default function ToolsPage() {
 
       {/* HERO */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-14">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-[90rem] mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
             Peptide Tools &amp; <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Calculators</span>
           </h1>
@@ -69,7 +69,7 @@ export default function ToolsPage() {
       </section>
 
       {/* TOOLS GRID */}
-      <div className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-6">
+      <div className="max-w-[90rem] mx-auto px-4 py-10 grid md:grid-cols-3 gap-6">
 
         {/* TOOL 1: Reconstitution Calculator */}
         <div className="bg-white border border-black rounded-xl p-6 shadow-sm">
