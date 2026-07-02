@@ -137,7 +137,7 @@
       },
       {
         "vendor": "Brit Peptides",
-        "url": "https://britpeptides.co.uk/product/tirzepatide-10mg-research-only-disposable-pen/",
+        "url": "https://britpeptides.co.uk/product/tirzepatide-disposable-pen/",
         "price": "£90.00",
         "inStock": true,
         "image": "/images/products/brit-peptides/tirzepatide-pen.webp",
@@ -225,7 +225,7 @@
       },
       {
         "vendor": "Brit Peptides",
-        "url": "https://britpeptides.co.uk/product/semaglutide-10mg-research-only/",
+        "url": "https://britpeptides.co.uk/product/semaglutide-10mg-disposable-pen/",
         "price": "£99.00",
         "inStock": true,
         "image": "/images/products/brit-peptides/semaglutide.webp",
@@ -775,7 +775,7 @@
       },
       {
         "vendor": "Brit Peptides",
-        "url": "https://britpeptides.co.uk/product/tb-500-10mg/",
+        "url": "https://britpeptides.co.uk/product/tb-500/",
         "price": "£35.60",
         "inStock": false,
         "image": "/images/products/brit-peptides/tb-500.webp",
@@ -783,7 +783,7 @@
       },
       {
         "vendor": "Brit Peptides",
-        "url": "https://britpeptides.co.uk/product/tb-500-10mg-disposable-pen/",
+        "url": "https://britpeptides.co.uk/product/tb500-10mg-disposable-pen/",
         "price": "£99.90",
         "inStock": true,
         "image": "/images/products/brit-peptides/tb-500-pen.webp",
@@ -791,7 +791,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-5mg-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-beta-4-5mg-10mg-research-peptide",
         "price": "£27.50",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/tb-500.webp",
@@ -799,7 +799,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-5mg-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-beta-4-5mg-10mg-research-peptide",
         "price": "£47.50",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/tb-500.webp",
@@ -918,7 +918,7 @@
       },
       {
         "vendor": "Biohack Peptides",
-        "url": "https://biohackpeptides.co.uk/product/melanotan-ii-peptide-10mg-vial-high-purity-for-research-use/",
+        "url": "",
         "price": "£19.99",
         "inStock": true,
         "dosage": "10mg"
@@ -1260,7 +1260,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/aod9604-5mg-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/aod9604",
         "price": "£35.00",
         "inStock": false,
         "image": "/images/products/new-wave-peptides/aod9604.webp",
@@ -1606,14 +1606,14 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/cjc-1295-without-dac-5mg-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/cjc-1295-without-dac",
         "price": "£24.50",
         "inStock": true,
         "dosage": "5mg"
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/cjc-1295-without-dac-5mg-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/cjc-1295-without-dac",
         "price": "£38.50",
         "inStock": true,
         "dosage": "10mg"
@@ -1748,7 +1748,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/igf-1-lr3",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/igf-1lr3-peptide",
         "price": "£55.00",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/igf-1-lr3.webp"
@@ -2126,14 +2126,14 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin-5mg-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin",
         "price": "£38.50",
         "inStock": true,
         "dosage": "5mg"
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin-5mg-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin",
         "price": "£55.60",
         "inStock": true,
         "dosage": "10mg"
@@ -2296,7 +2296,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/sermorelin",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/sermorelin-5mg",
         "price": "£16.85",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/sermorelin.webp"
@@ -2547,7 +2547,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/mots-c-10mg-40mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/mots-c",
         "price": "£29.50",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/mots-c.webp",
@@ -2749,7 +2749,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/ss-31-10mg-50mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/ss-31-peptide",
         "price": "£34.95",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/ss-31.webp",
@@ -3044,7 +3044,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/ghk-cu-100mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/ghk-cu-copper-peptide",
         "price": "£32.00",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/ghk-cu.webp",
@@ -3426,7 +3426,7 @@
       {
         "vendor": "New Wave Peptides",
         "name": "Thymosin A1 10mg",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/thymosin-alpha-1-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/thymosin-a1",
         "price": "£39.95",
         "inStock": true
       }
@@ -3841,7 +3841,7 @@
       {
         "vendor": "New Wave Peptides",
         "name": "Semax 10mg",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/semax-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/semax-peptide",
         "price": "£32.50",
         "inStock": true
       }
@@ -4068,7 +4068,7 @@
       {
         "vendor": "New Wave Peptides",
         "name": "Selank 10mg",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/selank-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/selank-peptide",
         "price": "£32.50",
         "inStock": true
       }
@@ -4409,7 +4409,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/hgh-fragment-176-191-5mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/hgh-fragment-176-191",
         "price": "£27.50",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/hgh-fragment-176-191-5mg.webp",
@@ -4729,7 +4729,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/ipamorelin-10mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/ipamorelin",
         "price": "£29.95",
         "inStock": true,
         "dosage": "10mg"
@@ -5147,7 +5147,7 @@
       {
         "vendor": "New Wave Peptides",
         "name": "KissPeptin",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/kisspeptin-10",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/kisspeptin",
         "price": "£39.95",
         "inStock": true
       }
@@ -5774,7 +5774,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/dsip",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/dsip-delta-sleep-inducing-peptide",
         "price": "£32.00",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/dsip.webp"
@@ -6050,14 +6050,14 @@
       {
         "vendor": "Brit Peptides",
         "name": "GLOW Stack pen (BPC-157/TB-500/GHK-Cu)",
-        "url": "https://britpeptides.co.uk/product/glow-stack-disposable-pen/",
+        "url": "https://britpeptides.co.uk/product/glow-stack-disposable-pen-ghk-cu-tb-500-bpc-157-blend/",
         "price": "£125.00",
         "inStock": true
       },
       {
         "vendor": "New Wave Peptides",
         "name": "GLOW 70mg (BPC/TB/GHK-Cu)",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/glow-bpc-tb-ghk-cu-70mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg-ghk-cu-50mg",
         "price": "£62.50",
         "inStock": true
       }
@@ -6157,7 +6157,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/klow-bpc-tb-ghk-cu-kpv-80mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-tb-500-ghk-cu-kpv-80mg",
         "price": "£79.95",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/klow-bpc-tb-ghk-cu-kpv-80mg.webp",
@@ -6442,7 +6442,7 @@
       {
         "vendor": "New Wave Peptides",
         "name": "10ml Bacteriostatic Mixing Water",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/bacteriostatic-water-10ml",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/p10ml-bacteriostatic-water",
         "price": "£5.95",
         "inStock": true
       }
@@ -6921,7 +6921,7 @@
       },
       {
         "vendor": "New Wave Peptides",
-        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/ipamorelin-5mg-cjc-1295-no-dac-5mg",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg-20mg",
         "price": "£39.50",
         "inStock": true,
         "image": "/images/products/new-wave-peptides/cjc-ipamorelin-blend.webp",
