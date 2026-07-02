@@ -357,6 +357,20 @@ export default function CompoundsPage() {
         </div>
       </section>
 
+      {/* Disclaimer strip */}
+      <div className="bg-amber-50 border-b border-amber-100">
+        <div className="max-w-5xl mx-auto px-4 py-2.5 text-center">
+          <p className="text-[11px] text-amber-800/80 leading-relaxed">
+            All content is for educational and research reference purposes only.
+            It does not constitute medical advice, diagnosis, or treatment
+            recommendations. All peptides are for in-vitro research use only.{" "}
+            <a href="/disclaimer" className="text-amber-900 font-medium underline hover:no-underline">
+              Read our full disclosure
+            </a>
+          </p>
+        </div>
+      </div>
+
       {/* FILTERS + GRID */}
       <section className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 py-6">

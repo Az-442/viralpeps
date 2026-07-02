@@ -253,10 +253,22 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
             </a>
           </div>
 
-          {/* Disclaimer */}
-          <p className="text-[10px] text-blue-300/60 mt-4">In-vitro research use only. We compare prices and may earn a commission. For laboratory research purposes only — not for human consumption.</p>
         </div>
       </section>
+
+      {/* Disclaimer strip */}
+      <div className="bg-amber-50 border-b border-amber-100">
+        <div className="max-w-5xl mx-auto px-4 py-2.5 text-center">
+          <p className="text-[11px] text-amber-800/80 leading-relaxed">
+            All content is for educational and research reference purposes only.
+            It does not constitute medical advice, diagnosis, or treatment
+            recommendations. All peptides are for in-vitro research use only.{" "}
+            <a href="/disclaimer" className="text-amber-900 font-medium underline hover:no-underline">
+              Read our full disclosure
+            </a>
+          </p>
+        </div>
+      </div>
 
       {/* ===== MAIN CONTENT ===== */}
       <div className="max-w-6xl mx-auto px-4 pt-6 pb-2">
