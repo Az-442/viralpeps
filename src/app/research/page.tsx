@@ -9,7 +9,6 @@ const guides = [
   {
     title: "Peptide Reconstitution Guide",
     desc: "How to properly reconstitute research peptides with bacteriostatic water, including calculations and best practices.",
-    icon: "💧",
     compound: "General",
     category: "Guides",
     slug: "peptide-reconstitution-guide",
@@ -17,7 +16,6 @@ const guides = [
   {
     title: "Understanding Peptide Purity",
     desc: "What HPLC purity tests mean, why 98%+ matters, and how to read COAs from UK suppliers.",
-    icon: "🔬",
     compound: "General",
     category: "Guides",
     slug: "understanding-peptide-purity",
@@ -25,7 +23,6 @@ const guides = [
   {
     title: "Peptide Storage & Handling",
     desc: "Proper storage temperatures, lyophilized vs reconstituted, and how to avoid degradation.",
-    icon: "❄️",
     compound: "General",
     category: "Guides",
     slug: "peptide-storage-handling",
@@ -33,25 +30,22 @@ const guides = [
   {
     title: "GLP-1 Research Overview",
     desc: "An introduction to GLP-1 receptor agonists including Tirzepatide and Semaglutide for research purposes.",
-    icon: "📋",
     compound: "Tirzepatide",
-    category: "Guides",
+    category: "Research Summaries",
     slug: "glp1-research-overview",
   },
   {
     title: "BPC-157 Research Summary",
     desc: "Overview of BPC-157, its research applications, dosing protocols, and current literature.",
-    icon: "🧪",
     compound: "BPC-157",
-    category: "Guides",
+    category: "Research Summaries",
     slug: "bpc157-research-summary",
   },
   {
     title: "Choosing a UK Supplier",
     desc: "What to look for when selecting a research peptide supplier in the UK: testing, shipping, and reputation.",
-    icon: "🏷️",
     compound: "General",
-    category: "Guides",
+    category: "Articles",
     slug: "choosing-uk-supplier",
   },
 ];
@@ -64,6 +58,14 @@ const compounds = [
   "GLP-1", "Frag 176-191", "GHRP-2", "GHRP-6", "Sermorelin",
   "Selank", "Semax", "Oxytocin", "DSIP", "P21", "Dihexa",
   "Vilon", "Thymalin", "Pinealon", "Cerebrolysin",
+];
+
+const categories = [
+  "All",
+  "Guides",
+  "Articles",
+  "Research Summaries",
+  "Compound Profiles",
 ];
 
 export default function ResearchPage() {
@@ -85,11 +87,14 @@ export default function ResearchPage() {
     });
   }, [search, selectedCompound, selectedCategory]);
 
+  const categoryCount = (cat: string) =>
+    cat === "All" ? guides.length : guides.filter((g) => g.category === cat).length;
+
   return (
     <div className="min-h-screen bg-white">
       <HeaderNav current="/research" />
 
-      {/* Big banner — inspired by PSM */}
+      {/* Banner */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-blue-500 blur-3xl" />
@@ -112,8 +117,7 @@ export default function ResearchPage() {
             Peptide science, without the fluff.
           </p>
           <p className="text-gray-400 text-sm max-w-xl mx-auto">
-            Guides, study summaries and practical information for peptide
-            research.
+            Study summaries, practical guides and articles for peptide research.
           </p>
           <div className="flex justify-center gap-4 mt-6 text-xs">
             <span className="flex items-center gap-1.5 text-emerald-300">
@@ -136,6 +140,13 @@ export default function ResearchPage() {
               Educational only
             </span>
           </div>
+
+          {/* Slim disclaimer */}
+          <p className="text-[11px] text-gray-500/80 max-w-2xl mx-auto mt-6 leading-relaxed border-t border-white/10 pt-4">
+            All content is for educational and research reference purposes only.
+            It does not constitute medical advice, diagnosis, or treatment
+            recommendations. All peptides are for in-vitro research use only.
+          </p>
         </div>
       </section>
 
@@ -180,19 +191,19 @@ export default function ResearchPage() {
                   Categories
                 </h4>
                 <div className="space-y-1">
-                  {["All", "Guides"].map((cat) => (
+                  {categories.map((cat) => (
                     <button
                       key={cat}
                       onClick={() => setSelectedCategory(cat)}
                       className={`w-full text-left px-3 py-1.5 rounded-lg text-sm transition-colors ${
                         selectedCategory === cat
-                          ? "bg-blue-50 text-blue-700 font-medium"
+                          ? "bg-indigo-50 text-indigo-700 font-medium"
                           : "text-gray-600 hover:bg-gray-50"
                       }`}
                     >
                       {cat}{" "}
                       <span className="text-gray-400 text-xs">
-                        ({cat === "All" ? guides.length : guides.filter((g) => g.category === cat).length})
+                        ({categoryCount(cat)})
                       </span>
                     </button>
                   ))}
@@ -203,8 +214,10 @@ export default function ResearchPage() {
               <div className="pt-4 border-t border-gray-100">
                 <p className="text-xs text-gray-400">
                   Showing{" "}
-                  <span className="text-gray-700 font-medium">{filtered.length}</span> of{" "}
-                  {guides.length} articles
+                  <span className="text-gray-700 font-medium">
+                    {filtered.length}
+                  </span>{" "}
+                  of {guides.length} articles
                 </p>
               </div>
             </div>
@@ -218,19 +231,16 @@ export default function ResearchPage() {
                   <Link
                     key={g.title}
                     href={`/research/${g.slug}`}
-                    className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-sm transition-all group"
+                    className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-sm transition-all group"
                   >
                     <div className="flex items-start gap-3">
                       <div className="min-w-0">
                         <div className="flex items-center gap-2 mb-1.5">
-                          <span className="text-[10px] font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                          <span className="text-[10px] font-semibold text-white bg-indigo-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
                             {g.compound}
                           </span>
-                          <span className="text-[10px] text-gray-400">
-                            Guide
-                          </span>
                         </div>
-                        <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-blue-600 transition-colors leading-snug">
+                        <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-indigo-600 transition-colors leading-snug">
                           {g.title}
                         </h3>
                         <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">
@@ -250,14 +260,14 @@ export default function ResearchPage() {
             </div>
           </main>
 
-          {/* Right sidebar — Compound filter (peptide navigation) */}
+          {/* Right sidebar — Compound filter */}
           <aside className="w-60 shrink-0 hidden lg:block">
             <div className="sticky top-6 space-y-4">
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100 rounded-xl p-4">
-                <h4 className="text-xs font-semibold text-blue-800 uppercase tracking-wider mb-1">
+              <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100 rounded-xl p-4">
+                <h4 className="text-xs font-semibold text-indigo-800 uppercase tracking-wider mb-1">
                   Jump to Peptide
                 </h4>
-                <p className="text-[11px] text-blue-600/70 mb-3">
+                <p className="text-[11px] text-indigo-600/70 mb-3">
                   Select a compound to find related research
                 </p>
                 <div className="relative mb-3">
@@ -266,7 +276,7 @@ export default function ResearchPage() {
                     placeholder="Search compounds..."
                     value={selectedCompound}
                     onChange={(e) => setSelectedCompound(e.target.value)}
-                    className="w-full px-3 py-1.5 text-xs border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 bg-white"
+                    className="w-full px-3 py-1.5 text-xs border border-indigo-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 bg-white"
                   />
                 </div>
                 <div className="max-h-60 overflow-y-auto space-y-0.5 scrollbar-thin">
@@ -274,8 +284,8 @@ export default function ResearchPage() {
                     onClick={() => setSelectedCompound("")}
                     className={`w-full text-left px-2 py-1 rounded text-xs transition-colors ${
                       !selectedCompound
-                        ? "bg-blue-100 text-blue-800 font-medium"
-                        : "text-blue-700 hover:bg-blue-100/50"
+                        ? "bg-indigo-100 text-indigo-800 font-medium"
+                        : "text-indigo-700 hover:bg-indigo-100/50"
                     }`}
                   >
                     All compounds
@@ -286,24 +296,14 @@ export default function ResearchPage() {
                       onClick={() => setSelectedCompound(c)}
                       className={`w-full text-left px-2 py-1 rounded text-xs transition-colors ${
                         selectedCompound === c
-                          ? "bg-blue-100 text-blue-800 font-medium"
-                          : "text-blue-700 hover:bg-blue-100/50"
+                          ? "bg-indigo-100 text-indigo-800 font-medium"
+                          : "text-indigo-700 hover:bg-indigo-100/50"
                       }`}
                     >
                       {c}
                     </button>
                   ))}
                 </div>
-              </div>
-
-              <div className="bg-white border border-gray-200 rounded-xl p-4">
-                <h4 className="text-xs font-semibold text-gray-900 mb-2">
-                  💡 More guides coming soon
-                </h4>
-                <p className="text-[11px] text-gray-500 leading-relaxed">
-                  We&apos;re adding research articles for every compound
-                  regularly.
-                </p>
               </div>
             </div>
           </aside>
@@ -312,11 +312,11 @@ export default function ResearchPage() {
         {/* Bottom CTA */}
         <div className="mt-12 text-center">
           <p className="text-sm text-gray-500 mb-4">
-            More guides being added regularly.
+            More articles being added regularly.
           </p>
           <Link
             href="/compounds"
-            className="inline-block px-6 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors"
+            className="inline-block px-6 py-2.5 bg-indigo-600 text-white rounded-lg text-sm font-semibold hover:bg-indigo-700 transition-colors"
           >
             Browse All Compounds &rarr;
           </Link>
