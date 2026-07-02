@@ -142,7 +142,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       {/* HERO SECTION - Dark gradient like PeptideSupermarket style */}
       <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e]">
         {/* BREADCRUMB on dark */}
-        <div className="max-w-[90rem] mx-auto px-4 py-3 text-xs text-slate-400">
+        <div className="max-w-[76rem] mx-auto px-4 py-3 text-xs text-slate-400">
           <Link href="/" className="hover:text-blue-400 transition-colors">Home</Link>
           <span className="mx-1.5">/</span>
           <Link href="/vendors" className="hover:text-blue-400 transition-colors">Suppliers</Link>
@@ -150,7 +150,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
           <span className="text-slate-300">{vendor.name}</span>
         </div>
 
-        <div className="max-w-[90rem] mx-auto px-4 pb-8">
+        <div className="max-w-[76rem] mx-auto px-4 pb-8">
           {/* SUPPLIER CARD - dark hero card */}
           <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 md:p-8 shadow-xl">
             <div className="flex flex-col md:flex-row items-start gap-6">
@@ -263,7 +263,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       </div>
 
       {/* PRODUCTS LIST SECTION — Card layout */}
-      <div className="max-w-[90rem] mx-auto px-4 pb-12 -mt-2">
+      <div className="max-w-[76rem] mx-auto px-4 pb-12 -mt-2">
         <div className="space-y-3 md:space-y-4">
           {vendorCompounds.map((c) => {
             const source = c.sources.find((s) => s.vendor === vendor.name);
@@ -342,7 +342,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       </div>
 
       {/* COMPARE FIRST SECTION */}
-      <div className="max-w-[90rem] mx-auto px-4 pb-4">
+      <div className="max-w-[76rem] mx-auto px-4 pb-4">
         <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] rounded-2xl p-6 md:p-8 shadow-lg relative overflow-hidden">
           {/* Dot pattern background */}
           <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
@@ -373,7 +373,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       </div>
 
       {/* SHIPPING CARD */}
-      <div className="max-w-[90rem] mx-auto px-4 pb-12">
+      <div className="max-w-[76rem] mx-auto px-4 pb-12">
         <div className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
           <div className="p-4 md:p-6">
             {/* Header */}

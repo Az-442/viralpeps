@@ -16,7 +16,7 @@ export default function AboutPage() {
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-14">
-        <div className="max-w-[90rem] mx-auto px-4 text-center">
+        <div className="max-w-[76rem] mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
             About{" "}
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
@@ -30,7 +30,7 @@ export default function AboutPage() {
       </section>
 
       {/* Content */}
-      <section className="max-w-[90rem] mx-auto px-4 py-12 space-y-8">
+      <section className="max-w-[76rem] mx-auto px-4 py-12 space-y-8">
         <div>
           <h2 className="text-xl font-bold text-gray-900 mb-3">
             What is ViralPeps?

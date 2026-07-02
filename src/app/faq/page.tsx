@@ -74,7 +74,7 @@ export default function FAQPage() {
 
       {/* HERO */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-14">
-        <div className="max-w-[90rem] mx-auto px-4 text-center">
+        <div className="max-w-[76rem] mx-auto px-4 text-center">
           <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
             FAQ
@@ -89,7 +89,7 @@ export default function FAQPage() {
       </section>
 
       {/* FAQ ACCORDION */}
-      <div className="max-w-[90rem] mx-auto px-4 py-12 md:py-16">
+      <div className="max-w-[76rem] mx-auto px-4 py-12 md:py-16">
         <div className="space-y-3">
           {faqs.map((faq, i) => (
             <details

@@ -87,7 +87,7 @@ export default function VendorsPage() {
 
       {/* EXPANDED HERO BANNER — Peptide Supermarket Reference */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
-        <div className="max-w-[90rem] mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
+        <div className="max-w-[76rem] mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-0.5 mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
@@ -143,7 +143,7 @@ export default function VendorsPage() {
 
       {/* Disclaimer strip */}
       <div className="bg-amber-50 border-b border-amber-100">
-        <div className="max-w-[90rem] mx-auto px-4 py-2.5 text-center">
+        <div className="max-w-[76rem] mx-auto px-4 py-2.5 text-center">
           <p className="text-[11px] text-amber-800/80 leading-relaxed">
             All content is for educational and research reference purposes only.
             It does not constitute medical advice, diagnosis, or treatment
@@ -152,7 +152,7 @@ export default function VendorsPage() {
         </div>
       </div>
 
-      <div className="max-w-[90rem] mx-auto px-4 pt-6 relative z-10">
+      <div className="max-w-[76rem] mx-auto px-4 pt-6 relative z-10">
         {/* SUPPLIER DIRECTORY GRID */}
         <div>
           <div className="flex items-center gap-2 mb-1">

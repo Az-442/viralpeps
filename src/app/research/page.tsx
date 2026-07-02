@@ -48,7 +48,7 @@ export default function ResearchPage() {
           <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-blue-500 blur-3xl" />
           <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-purple-500 blur-3xl" />
         </div>
-        <div className="max-w-[90rem] mx-auto px-4 text-center relative z-10">
+        <div className="max-w-[76rem] mx-auto px-4 text-center relative z-10">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-1.5 mb-6">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-emerald-300 text-xs font-medium">
@@ -93,7 +93,7 @@ export default function ResearchPage() {
 
       {/* Disclaimer strip */}
       <div className="bg-amber-50 border-b border-amber-100">
-        <div className="max-w-[90rem] mx-auto px-4 py-2.5 text-center">
+        <div className="max-w-[76rem] mx-auto px-4 py-2.5 text-center">
           <p className="text-[11px] text-amber-800/80 leading-relaxed">
             All content is for educational and research reference purposes only.
             It does not constitute medical advice, diagnosis, or treatment
@@ -103,7 +103,7 @@ export default function ResearchPage() {
       </div>
 
       {/* Main content area */}
-      <div className="max-w-[90rem] mx-auto px-4 py-10">
+      <div className="max-w-[76rem] mx-auto px-4 py-10">
         <div className="flex gap-8">
           {/* Left sidebar — Search + Category filter */}
           <aside className="w-56 shrink-0 hidden lg:block">
