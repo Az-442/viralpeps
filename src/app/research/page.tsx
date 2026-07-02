@@ -9,43 +9,39 @@ const guides = [
   {
     title: "Peptide Reconstitution Guide",
     desc: "How to properly reconstitute research peptides with bacteriostatic water, including calculations and best practices.",
-    compound: "General",
-    category: "Guides",
+    category: "Guide",
     slug: "peptide-reconstitution-guide",
   },
   {
     title: "Understanding Peptide Purity",
     desc: "What HPLC purity tests mean, why 98%+ matters, and how to read COAs from UK suppliers.",
-    compound: "General",
-    category: "Guides",
+    category: "Guide",
     slug: "understanding-peptide-purity",
   },
   {
     title: "Peptide Storage & Handling",
     desc: "Proper storage temperatures, lyophilized vs reconstituted, and how to avoid degradation.",
-    compound: "General",
-    category: "Guides",
+    category: "Guide",
     slug: "peptide-storage-handling",
   },
   {
     title: "GLP-1 Research Overview",
     desc: "An introduction to GLP-1 receptor agonists including Tirzepatide and Semaglutide for research purposes.",
+    category: "Compound Profiles",
     compound: "Tirzepatide",
-    category: "Research Summaries",
     slug: "glp1-research-overview",
   },
   {
     title: "BPC-157 Research Summary",
     desc: "Overview of BPC-157, its research applications, dosing protocols, and current literature.",
+    category: "Compound Profiles",
     compound: "BPC-157",
-    category: "Research Summaries",
     slug: "bpc157-research-summary",
   },
   {
     title: "Choosing a UK Supplier",
     desc: "What to look for when selecting a research peptide supplier in the UK: testing, shipping, and reputation.",
-    compound: "General",
-    category: "Articles",
+    category: "Guide",
     slug: "choosing-uk-supplier",
   },
 ];
@@ -62,7 +58,7 @@ const compounds = [
 
 const categories = [
   "All",
-  "Guides",
+  "Guide",
   "Articles",
   "Research Summaries",
   "Compound Profiles",
@@ -141,7 +137,6 @@ export default function ResearchPage() {
             </span>
           </div>
 
-          {/* Slim disclaimer */}
           <p className="text-[11px] text-gray-500/80 max-w-2xl mx-auto mt-6 leading-relaxed border-t border-white/10 pt-4">
             All content is for educational and research reference purposes only.
             It does not constitute medical advice, diagnosis, or treatment
@@ -150,13 +145,12 @@ export default function ResearchPage() {
         </div>
       </section>
 
-      {/* Main content area with left sidebar + cards + right sidebar */}
+      {/* Main content area */}
       <div className="max-w-6xl mx-auto px-4 py-10">
         <div className="flex gap-8">
           {/* Left sidebar — Search + Category filter */}
           <aside className="w-56 shrink-0 hidden lg:block">
             <div className="sticky top-6 space-y-6">
-              {/* Search */}
               <div>
                 <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
                   Search
@@ -185,7 +179,6 @@ export default function ResearchPage() {
                 </div>
               </div>
 
-              {/* Category filter */}
               <div>
                 <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
                   Categories
@@ -210,7 +203,6 @@ export default function ResearchPage() {
                 </div>
               </div>
 
-              {/* Results count */}
               <div className="pt-4 border-t border-gray-100">
                 <p className="text-xs text-gray-400">
                   Showing{" "}
@@ -223,7 +215,7 @@ export default function ResearchPage() {
             </div>
           </aside>
 
-          {/* Center — Guide cards */}
+          {/* Center — Cards */}
           <main className="flex-1 min-w-0">
             <div className="grid md:grid-cols-2 gap-5">
               {filtered.length > 0 ? (
@@ -233,20 +225,23 @@ export default function ResearchPage() {
                     href={`/research/${g.slug}`}
                     className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-sm transition-all group"
                   >
-                    <div className="flex items-start gap-3">
-                      <div className="min-w-0">
-                        <div className="flex items-center gap-2 mb-1.5">
-                          <span className="text-[10px] font-semibold text-white bg-indigo-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2 mb-1.5">
+                        <span className="text-[10px] font-semibold text-white bg-blue-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                          {g.category}
+                        </span>
+                        {g.compound && (
+                          <span className="text-[10px] text-gray-400">
                             {g.compound}
                           </span>
-                        </div>
-                        <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-indigo-600 transition-colors leading-snug">
-                          {g.title}
-                        </h3>
-                        <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">
-                          {g.desc}
-                        </p>
+                        )}
                       </div>
+                      <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-indigo-600 transition-colors leading-snug">
+                        {g.title}
+                      </h3>
+                      <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">
+                        {g.desc}
+                      </p>
                     </div>
                   </Link>
                 ))
@@ -262,7 +257,7 @@ export default function ResearchPage() {
 
           {/* Right sidebar — Compound filter */}
           <aside className="w-60 shrink-0 hidden lg:block">
-            <div className="sticky top-6 space-y-4">
+            <div className="sticky top-6">
               <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100 rounded-xl p-4">
                 <h4 className="text-xs font-semibold text-indigo-800 uppercase tracking-wider mb-1">
                   Jump to Peptide
@@ -309,7 +304,6 @@ export default function ResearchPage() {
           </aside>
         </div>
 
-        {/* Bottom CTA */}
         <div className="mt-12 text-center">
           <p className="text-sm text-gray-500 mb-4">
             More articles being added regularly.
