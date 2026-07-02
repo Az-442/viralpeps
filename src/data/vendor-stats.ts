@@ -1,3 +1,31 @@
+/** Visible product entries count matching what a vendor profile actually displays.
+ *  For catalog vendors (those with compareSlug entries), this filters to
+ *  only catalog entries + exclusive-only entries. For regular vendors it's
+ *  the number of unique master compounds the vendor appears in. */
+export function getVisibleCount(vendorName: string): number {
+  const vc = compounds.filter((c) =>
+    c.sources.some((s) => s.vendor === vendorName)
+  );
+  const hasCatalog = vc.some(
+    (c) =>
+      (c as any)?.compareSlug &&
+      c.sources.every((s) => s.vendor === vendorName)
+  );
+  if (hasCatalog) {
+    return vc.filter(
+      (c) =>
+        (c as any)?.compareSlug ||
+        c.sources.every((s) => s.vendor === vendorName)
+    ).length;
+  }
+  return vc.length;
+}
+
+/** Pre-computed visible counts for all vendors */
+export const ALL_VISIBLE_COUNTS = Object.fromEntries(
+  vendors.map((v) => [v.name, getVisibleCount(v.name)])
+);
+
 /**
  * Dynamically computed vendor stats — no hardcoded counts or categories.
  *

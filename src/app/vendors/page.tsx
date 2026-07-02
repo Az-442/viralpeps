@@ -7,7 +7,7 @@ import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import { PEPTIDE_COUNT } from "@/data/stats";
-import { ALL_VENDOR_STATS } from "@/data/vendor-stats";
+import { ALL_VENDOR_STATS, ALL_VISIBLE_COUNTS } from "@/data/vendor-stats";
 
 function CheckIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -36,7 +36,7 @@ function MagnifyingGlassIcon() {
 // Pre-compute for sorting
 const vendorProductCounts: Record<string, number> = {};
 for (const v of vendors) {
-  vendorProductCounts[v.name] = ALL_VENDOR_STATS[v.name]?.productCount || 0;
+  vendorProductCounts[v.name] = ALL_VISIBLE_COUNTS[v.name] || 0;
 }
 
 // Min price per vendor
