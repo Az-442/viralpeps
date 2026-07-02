@@ -76,7 +76,7 @@ for (const c of allCompounds) {
 
 export function getVendorStats(vendorName: string): VendorStats {
   const vc = vendorCompounds.get(vendorName) || [];
-  const categorySlugs = [...new Set(vc.map((c) => c.category))].sort();
+  const categorySlugs = [...new Set(vc.map((c) => c.category).filter((c): c is string => !!c))].sort();
   const categories = categorySlugs
     .map((slug) => CATEGORY_LABELS[slug] || slug)
     .filter(Boolean);
@@ -101,7 +101,7 @@ export function getVendorStats(vendorName: string): VendorStats {
   return {
     productCount,
     compoundCount: vc.length,
-    categories,
+    categories: categories.filter((c): c is string => !!c),
     categorySlugs,
     minPrice: minPrice === Infinity ? 0 : minPrice,
     allVendorNames: [...new Set((allCompounds as any[]).flatMap((c: any) => c.sources.map((s: any) => s.vendor as string)))],

@@ -105,8 +105,8 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       : undefined;
   // Find the vendor data (paid or random)
   const featuredVendorData = featuredVendor || (featured ? vendors.find(v => v.name === featured.vendor) : undefined);
-  const accent = getAccent(compound.category);
-  const categoryLabel = compound.category.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
+  const accent = getAccent(compound.category || "");
+  const categoryLabel = (compound.category || "").replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
 
   // Count unique suppliers (not total product entries) — before FAQ uses it
   const uniqueSuppliers = new Set(compound.sources.map((s) => s.vendor)).size;
@@ -114,9 +114,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
   // Build FAQ schema
   const faqEntries = [
-    { q: `What is ${compound.name}?`, a: compound.description },
-    { q: `What is the CAS number for ${compound.name}?`, a: `The CAS registry number for ${compound.name} is ${compound.cas}.` },
-    { q: `What is the half-life of ${compound.name}?`, a: `${compound.name} has an approximate half-life of ${compound.halfLife}.` },
+    { q: `What is ${compound.name}?`, a: compound.description || '' },
+    { q: `What is the CAS number for ${compound.name}?`, a: `The CAS registry number for ${compound.name} is ${compound.cas || ''}.` },
+    { q: `What is the half-life of ${compound.name}?`, a: `${compound.name} has an approximate half-life of ${compound.halfLife || ''}.` },
     { q: `Where can I buy ${compound.name} in the UK?`, a: `${compound.name} is available from ${uniqueSuppliers} UK suppliers on ViralPeps, with prices starting from £${minPrice.toFixed(2)}. Compare all suppliers above.` },
   ];
   if (compound.faq && Array.isArray(compound.faq)) {

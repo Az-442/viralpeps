@@ -113,11 +113,11 @@ function CompoundCard({ compound }: { compound: any }) {
   const dosages = (compound.commonDosages || []).slice(0, 3);
   const dosagesMore = (compound.commonDosages || []).length - 3;
   const cat = compound.category;
-  const accent = getAccent(cat);
+  const accent = getAccent(cat || "");
   const benefits = (compound.researchAreas || []).slice(0, 2);
   const hasMoreBenefits = (compound.researchAreas || []).length > 2;
   const alias = compound.aliases?.[0] || "";
-  const categoryLabel = CATEGORY_LABELS[cat] || cat.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
+  const categoryLabel = CATEGORY_LABELS[cat] || (cat || "").replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase());
 
   return (
     <Link
@@ -240,7 +240,7 @@ export default function CompoundsPage() {
   const filtered = useMemo(() => {
     let list = allCompounds;
     if (activeSlugs !== null) {
-      list = list.filter((c) => activeSlugs.includes(c.category));
+      list = list.filter((c) => activeSlugs.includes(c.category || ''));
     }
     if (search.trim()) {
       const q = search.toLowerCase().trim();
@@ -248,7 +248,7 @@ export default function CompoundsPage() {
         (c) =>
           c.name.toLowerCase().includes(q) ||
           (c.aliases || []).some((a: string) => a.toLowerCase().includes(q)) ||
-          c.category.toLowerCase().includes(q)
+          (c.category || '').toLowerCase().includes(q)
       );
     }
     return list;
@@ -279,7 +279,7 @@ export default function CompoundsPage() {
       if (tab.slugs === null) {
         counts[tab.label] = allCompounds.length;
       } else {
-        counts[tab.label] = allCompounds.filter((c) => tab.slugs!.includes(c.category)).length;
+        counts[tab.label] = allCompounds.filter((c) => tab.slugs!.includes(c.category || "")).length
       }
     }
     return counts;

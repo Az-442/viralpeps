@@ -292,7 +292,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                         )}
                       </div>
                       <div className="flex flex-wrap items-center gap-1.5 text-sm text-slate-500">
-                        <span className="bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-medium">{c.category.replace(/-/g, " ")}</span>
+                        <span className="bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-medium">{(c.category || "").replace(/-/g, " ")}</span>
                         {source?.inStock !== false && (
                           <span className="flex items-center gap-1 text-green-600 font-medium">
                             <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>

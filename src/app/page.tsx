@@ -88,12 +88,13 @@ const trendingVendorItems = [...compounds]
 
 // Extract a clean dosage label from commonDosages
 function dosageLabel(dosages: string[]): string {
- if (!dosages || dosages.length === 0) return "";
- const first = dosages[0];
- // Extract number + unit (e.g. "2.5 mg/week" -> "2.5mg", "200-400 mcg/day" -> "200mcg")
- const match = first.match(/([\d.,]+)\s*(mg|mcg|g|ml)/i);
- if (match) return match[1] + match[2].toLowerCase();
- return "";
+  if (!dosages || dosages.length === 0) return "";
+  const first = dosages[0];
+  if (!first) return "";
+  // Extract number + unit (e.g. "2.5 mg/week" -> "2.5mg", "200-400 mcg/day" -> "200mcg")
+  const match = first.match(/([\d.,]+)\s*(mg|mcg|g|ml)/i);
+  if (match) return match[1] + match[2].toLowerCase();
+  return "";
 }
 
 // Get a supplier image for a compound (prefer cheapest source, fallback to any source, then generic)
@@ -390,7 +391,7 @@ export default function Home() {
            </div>
          </div>
          <div className="p-4">
-           <h3 className="font-semibold text-gray-900 text-sm">{deal.name}{dosageLabel(deal.commonDosages) ? ` ${dosageLabel(deal.commonDosages)}` : ""}</h3>
+           <h3 className="font-semibold text-gray-900 text-sm">{deal.name}{deal.commonDosages ? ` ${dosageLabel(deal.commonDosages)}` : ""}</h3>
            <p className="text-xs text-slate-500 mt-0.5">at {deal.cheapestVendor?.vendor || "Various"}</p>
            <div className="mt-2 flex items-baseline gap-2">
              <span className="text-lg text-slate-400 line-through">&pound;{deal.maxPrice.toFixed(2)}</span>
@@ -425,7 +426,7 @@ export default function Home() {
 
  {/* 8+. CATEGORY SECTIONS — all use reference site card format */}
  {categoryGroups.map((group, i) => {
- const groupCompounds = compounds.filter((c) => !(c as any)?.compareSlug && group.slugs.includes(c.category));
+ const groupCompounds = compounds.filter((c) => !(c as any)?.compareSlug && group.slugs.includes(c.category || ""));
  if (groupCompounds.length === 0) return null;
  const bgColors = ['bg-white', 'bg-blue-50', 'bg-indigo-100'];
  return (

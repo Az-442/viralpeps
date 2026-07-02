@@ -14,8 +14,8 @@ export async function GET(request: NextRequest) {
     .filter((c) =>
       c.name.toLowerCase().includes(q) ||
       (c.aliases || []).some((a) => a.toLowerCase().includes(q)) ||
-      c.category.toLowerCase().includes(q) ||
-      c.description.toLowerCase().includes(q)
+      (c.category || '').toLowerCase().includes(q) ||
+      (c.description || '').toLowerCase().includes(q)
     )
     .map(({ name, slug, category, aliases }) => ({ name, slug, category, aliases, type: "compound" }));
 
