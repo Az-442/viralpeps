@@ -11,6 +11,8 @@ export default function HeaderNav({ current }: { current?: string }) {
     { href: "/compounds", label: "Peptides" },
     { href: "/vendors", label: "Suppliers" },
     { href: "/research", label: "Research" },
+    { href: "/guide", label: "Guide" },
+    { href: "#", label: "Tools", isDropdown: true },
   ];
 
   const rightLinks = [
