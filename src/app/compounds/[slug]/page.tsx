@@ -426,26 +426,16 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         </div>
       </div>
 
-      {/* ===== RESEARCH LIBRARY ===== */}
+      {/* ===== RESEARCH LIBRARY — compound-specific only ===== */}
       {(() => {
         const allGuides = [
-          { title: "Peptide Reconstitution Guide", desc: "How to properly reconstitute research peptides with bacteriostatic water.", category: "Guide", slug: "peptide-reconstitution-guide", minutes: 6 },
-          { title: "Understanding Peptide Purity", desc: "What HPLC purity tests mean, why 98%+ matters, and how to read COAs from UK suppliers.", category: "Guide", slug: "understanding-peptide-purity", minutes: 5 },
-          { title: "Peptide Storage & Handling", desc: "Proper storage temperatures, lyophilized vs reconstituted, and how to avoid degradation.", category: "Guide", slug: "peptide-storage-handling", minutes: 4 },
           { title: "GLP-1 Research Overview", desc: "An introduction to GLP-1 receptor agonists including Tirzepatide and Semaglutide.", category: "Compound Profiles", compound: "Tirzepatide", slug: "glp1-research-overview", minutes: 7 },
           { title: "BPC-157 Research Summary", desc: "Overview of BPC-157, its research applications, dosing protocols, and current literature.", category: "Compound Profiles", compound: "BPC-157", slug: "bpc157-research-summary", minutes: 5 },
-          { title: "Choosing a UK Supplier", desc: "What to look for when selecting a research peptide supplier in the UK.", category: "Guide", slug: "choosing-uk-supplier", minutes: 6 },
         ];
-        const compoundArticles = allGuides.filter(g => {
-          if (!(g as any).compound) return false;
-          return (g as any).compound.toLowerCase() === compound.name.toLowerCase();
-        });
-        const generalGuides = allGuides.filter(g => !(g as any).compound && g.category === "Guide");
-        const libraryArticles = [...compoundArticles, ...generalGuides].slice(0, 4);
-        const compoundArticleCount = allGuides.filter(g => {
-          if (!(g as any).compound) return false;
-          return (g as any).compound.toLowerCase() === compound.name.toLowerCase();
-        }).length;
+        const compoundArticles = allGuides.filter(g =>
+          (g as any).compound?.toLowerCase() === compound.name.toLowerCase()
+        );
+        if (compoundArticles.length === 0) return null;
         return (
           <div className="bg-white border-t border-gray-100 py-12">
             <div className="max-w-6xl mx-auto px-4">
@@ -455,11 +445,11 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   <p className="text-gray-500 text-sm mt-1">{compound.name} research &amp; guides</p>
                 </div>
                 <Link href="/research" className="text-sm font-semibold text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100 px-4 py-2 rounded-full transition-colors">
-                  View all {compoundArticleCount} &rarr;
+                  View all {compoundArticles.length} &rarr;
                 </Link>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                {libraryArticles.map((article) => (
+                {compoundArticles.map((article) => (
                   <Link
                     key={article.slug}
                     href={`/research`}
