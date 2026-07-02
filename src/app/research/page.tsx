@@ -145,10 +145,7 @@ export default function ResearchPage() {
           <p className="text-[11px] text-amber-800/80 leading-relaxed">
             All content is for educational and research reference purposes only.
             It does not constitute medical advice, diagnosis, or treatment
-            recommendations. All peptides are for in-vitro research use only.{" "}
-            <Link href="/disclaimer" className="text-amber-900 font-medium underline hover:no-underline">
-              Read our full disclosure
-            </Link>
+            recommendations. All peptides are for in-vitro research use only.
           </p>
         </div>
       </div>
