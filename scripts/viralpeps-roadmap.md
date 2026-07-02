@@ -1,17 +1,18 @@
 # ViralPeps — Full Phased Roadmap
 
-## PRE-LAUNCH (Current — Do in This Order)
+## PRE-LAUNCH (All pages reviewed ✅ — proceed in order)
 
-1. **Build `/go/` internal redirect route** — converts all outbound links to tracked `/go/{vendor}/{compound}` URLs. Must be done before GSC and Analytics.
-2. **Submit sitemap to Google Search Console** — GSC crawls `/go/` URLs, not raw supplier links
-3. **Set up Google Analytics (GA4)** — tracking in place from day 1
-4. **Set up MailerLite / Beehiiv** — email capture for lead magnets
-5. **Create lead magnet PDFs** — Peptide Reconstitution Guide, GLP-1 Comparison Chart, UK Supplier Checklist
-6. **Set up email welcome sequences** — automated drip when someone downloads a guide
-7. **Create social accounts** — Telegram channel, Reddit account, X/Twitter
-8. **Register on directories** — Trustpilot, Crunchbase, peptide forums
-9. **Set up Amazon Associates account** — ready to go for post-launch affiliate links
-10. **Launch 🚀**
+1. **Build `/go/` internal redirect route** 🔜 NEXT. Converts all outbound links to tracked `/go/{vendor}/{compound}` URLs. Must be done before GSC and Analytics.
+2. Submit sitemap to Google Search Console — GSC crawls `/go/` URLs, not raw supplier links
+3. Set up Google Analytics (GA4) — tracking in place from day 1
+4. Set up MailerLite / Beehiiv — email capture for lead magnets
+5. Create lead magnet PDFs — Peptide Reconstitution Guide, GLP-1 Comparison Chart, UK Supplier Checklist
+6. Set up email welcome sequences — automated drip when someone downloads a guide
+7. Create social accounts — Telegram channel, Reddit account, X/Twitter
+8. Register on directories — Trustpilot, Crunchbase, peptide forums
+9. Set up Amazon Associates account — ready to go for post-launch affiliate links
+10. Write 2 research articles — pre-launch content for /research/[slug]
+11. **Launch 🚀**
 
 ## PHASE 1 — Post-Launch (First 30 Days)
 
