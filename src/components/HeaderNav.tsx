@@ -65,7 +65,7 @@ export default function HeaderNav({ current }: { current?: string }) {
             ))}
 
             {/* Tools Dropdown */}
-            <div className="relative" onMouseEnter={() => setToolsOpen(true)} onMouseLeave={() => setToolsOpen(false)}>
+            <div className="relative group">
               <button
                 className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors inline-flex items-center gap-1 ${
                   current === "/tools"
@@ -78,8 +78,8 @@ export default function HeaderNav({ current }: { current?: string }) {
                   <path d="M6 9l6 6 6-6" />
                 </svg>
               </button>
-              {toolsOpen && (
-                <div className="absolute right-0 mt-1 w-56 bg-white border border-black rounded-xl shadow-lg py-2 z-50">
+              <div className="absolute right-0 pt-1 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
+                <div className="bg-white border border-black rounded-xl shadow-lg py-2">
                   {toolLinks.map((tl) => (
                     <Link
                       key={tl.href}
@@ -90,7 +90,7 @@ export default function HeaderNav({ current }: { current?: string }) {
                     </Link>
                   ))}
                 </div>
-              )}
+              </div>
             </div>
 
             {rightLinks.map((l) => (
