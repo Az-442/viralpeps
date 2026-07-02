@@ -2,175 +2,233 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import HeaderNav from "@/components/HeaderNav";
-import Footer from "@/components/Footer";
+import ToolsTabBar from "@/components/ToolsTabBar";
 
-export default function ToolsPage() {
-  const [recon, setRecon] = useState({ peptideMg: 0, waterMl: 0, doseMcg: 0 });
-  const [reconResult, setReconResult] = useState<null | { unitsPerDose: number; mcgPerUnit: number }>(null);
+const tools = [
+  {
+    href: "/tools",
+    label: "Quick Solve",
+    desc: "One answer, any question. Tell us what you need and we'll ask for the right info.",
+    active: true,
+  },
+  {
+    href: "/tools/dosage-calculator",
+    label: "Dosage Calculator",
+    desc: "Reconstitute & calculate syringe units. Vial strength, water, and target dose.",
+    active: false,
+  },
+  {
+    href: "/tools/cycle-calculator",
+    label: "Cycle Calculator",
+    desc: "Plan a cycle & find the cheapest supplier combo for the whole duration.",
+    active: false,
+  },
+];
 
-  const [convert, setConvert] = useState({ value: 0, from: "mcg", to: "mg" });
-  const [convertResult, setConvertResult] = useState<null | number>(null);
+const questions = [
+  { id: "units", label: "How many units to draw", sub: "I know my research dose but not the units" },
+  { id: "dose", label: "Find my research dose", sub: "I draw X units but don't know the mg" },
+  { id: "water", label: "How much water to add", sub: "I want a certain # of units per dose" },
+];
 
-  const [half, setHalf] = useState({ substance: "Tirzepatide", customHalfLife: "" });
-  const [halfResult, setHalfResult] = useState<null | string>(null);
+export default function QuickSolvePage() {
+  const [question, setQuestion] = useState("units");
+  const [form, setForm] = useState({ doseMcg: 0, peptideMg: 0, waterMl: 0, units: 0 });
+  const [result, setResult] = useState<null | string>(null);
 
-  const halfLives: Record<string, string> = {
-    "Tirzepatide": "5 days",
-    "Semaglutide": "7 days",
-    "Retatrutide": "6 days",
-    "BPC-157": "4 hours",
-    "TB-500": "2-4 days",
-    "CJC-1295": "6-8 days",
-    "CJC-1295 (no DAC)": "30 minutes",
-    "IGF-1 LR3": "20-30 hours",
-    "AOD-9604": "30 minutes",
-    "Melanotan II": "30 minutes",
-    "GHK-Cu": "20 minutes",
-    "Semax": "15-30 minutes",
-    "Selank": "15-30 minutes",
-    "Tesamorelin": "30-60 minutes",
-    "Sermorelin": "12-20 minutes",
-    "Epitalon": "10 minutes",
-    "Custom": "—",
-  };
-
-  const calcRecon = () => {
-    if (!recon.peptideMg || !recon.waterMl || !recon.doseMcg) return;
-    const totalMcg = recon.peptideMg * 1000;
-    const mcgPerMl = totalMcg / recon.waterMl;
-    const mcgPerUnit = mcgPerMl / 100;
-    const unitsForDose = recon.doseMcg / mcgPerUnit;
-    setReconResult({ unitsPerDose: Math.round(unitsForDose * 10) / 10, mcgPerUnit: Math.round(mcgPerUnit * 10) / 10 });
-  };
-
-  const calcConvert = () => {
-    const factors: Record<string, number> = { mcg: 1, mg: 1000, g: 1000000 };
-    const result = (convert.value * factors[convert.from]) / factors[convert.to];
-    setConvertResult(result);
-  };
-
-  const calcHalfLife = () => {
-    setHalfResult(halfLives[half.substance] || half.customHalfLife || "Unknown");
+  const solve = () => {
+    if (question === "units" && form.peptideMg && form.waterMl && form.doseMcg) {
+      const totalMcg = form.peptideMg * 1000;
+      const mcgPerMl = totalMcg / form.waterMl;
+      const mcgPerUnit = mcgPerMl / 100;
+      const units = form.doseMcg / mcgPerUnit;
+      setResult(`Draw ${Math.round(units * 10) / 10} units on an insulin syringe (${Math.round(mcgPerUnit * 10) / 10} mcg per unit)`);
+    } else if (question === "dose" && form.peptideMg && form.waterMl && form.units) {
+      const totalMcg = form.peptideMg * 1000;
+      const mcgPerMl = totalMcg / form.waterMl;
+      const mcgPerUnit = mcgPerMl / 100;
+      const dose = form.units * mcgPerUnit;
+      setResult(`Your dose is approximately ${Math.round(dose * 10) / 10} mcg (${Math.round(mcgPerUnit * 10) / 10} mcg per unit)`);
+    } else if (question === "water" && form.peptideMg && form.units && form.doseMcg) {
+      const totalMcg = form.peptideMg * 1000;
+      const requiredUnits = form.doseMcg / (totalMcg / (form.units > 0 ? form.units : 1));
+      const waterMl = (form.units / 100) * (totalMcg / form.doseMcg);
+      if (waterMl > 0 && isFinite(waterMl)) {
+        setResult(`Add approximately ${Math.round(waterMl * 10) / 10} mL of BAC water`);
+      } else {
+        setResult("Check your inputs — the numbers don't add up.");
+      }
+    } else {
+      setResult(null);
+    }
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      <HeaderNav />
+    <>
+      <ToolsTabBar />
 
-      {/* HERO */}
-      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-14">
-        <div className="max-w-[76rem] mx-auto px-4 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
-            Peptide Tools &amp; <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Calculators</span>
-          </h1>
-          <p className="text-gray-300 text-sm max-w-xl mx-auto">Free calculators for peptide research — reconstitution, dosage, and more.</p>
+      {/* Tool cards */}
+      <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628] pb-10">
+        <div className="max-w-[76rem] mx-auto px-4 grid md:grid-cols-3 gap-4">
+          {tools.map((t) => (
+            <Link
+              key={t.href}
+              href={t.href}
+              className={`group relative overflow-hidden rounded-2xl p-6 backdrop-blur-sm transition-all duration-200 hover:-translate-y-0.5 ${
+                t.active
+                  ? "bg-white text-gray-900 shadow-xl shadow-black/20 ring-2 ring-emerald-400"
+                  : "bg-white/[0.07] text-white border border-white/10 hover:bg-white hover:text-gray-900 hover:shadow-xl hover:shadow-black/20"
+              }`}
+            >
+              <h3 className={`text-lg font-bold mb-1 ${t.active ? "" : "group-hover:text-gray-900"}`}>
+                {t.active && (
+                  <span className="inline-flex items-center gap-1.5 mr-2 px-2 py-0.5 bg-emerald-500/20 text-emerald-600 rounded-full text-xs font-bold">
+                    Active
+                  </span>
+                )}
+                {t.label}
+              </h3>
+              <p className={`text-sm ${t.active ? "text-gray-500" : "text-gray-400 group-hover:text-gray-500"}`}>
+                {t.desc}
+              </p>
+            </Link>
+          ))}
         </div>
-      </section>
 
-      {/* TOOLS GRID */}
-      <div className="max-w-[76rem] mx-auto px-4 py-10 grid md:grid-cols-3 gap-6">
+        {/* Disclaimer strip */}
+        <div className="max-w-[76rem] mx-auto px-4 mt-6">
+          <div className="bg-amber-50/10 border border-amber-200/20 rounded-lg px-4 py-2.5 text-center">
+            <p className="text-xs text-amber-200/80">
+              All content is for educational and research reference purposes only. It does not constitute medical advice, diagnosis, or treatment recommendations. All peptides are for in-vitro research use only.
+            </p>
+          </div>
+        </div>
 
-        {/* TOOL 1: Reconstitution Calculator */}
-        <div className="bg-white border border-black rounded-xl p-6 shadow-sm">
-          <h2 className="text-lg font-bold text-gray-900 mb-1">Reconstitution Calculator</h2>
-          <p className="text-sm text-black mb-5">Calculate how much BAC water to add for your target dose.</p>
+        {/* Quick Solve form */}
+        <div className="max-w-[76rem] mx-auto px-4 mt-8">
+          <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 md:p-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-1">What do you need to figure out?</h2>
+            <p className="text-sm text-gray-500 mb-6">Choose your scenario and we'll ask for exactly what we need.</p>
 
-          <div className="space-y-3">
-            <div>
-              <label className="text-sm text-black font-medium block mb-1">Peptide amount (mg)</label>
-              <input type="number" value={recon.peptideMg} onChange={e => setRecon({...recon, peptideMg: parseFloat(e.target.value) || 0})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
+            {/* Question selector */}
+            <div className="grid md:grid-cols-3 gap-3 mb-8">
+              {questions.map((q) => (
+                <button
+                  key={q.id}
+                  onClick={() => { setQuestion(q.id); setResult(null); }}
+                  className={`text-left p-4 rounded-xl border-2 transition-all ${
+                    question === q.id
+                      ? "border-indigo-500 bg-indigo-50 shadow-sm"
+                      : "border-gray-200 hover:border-indigo-200 hover:bg-gray-50"
+                  }`}
+                >
+                  <div className="text-sm font-bold text-gray-900">{q.label}</div>
+                  <div className="text-xs text-gray-500 mt-0.5">{q.sub}</div>
+                </button>
+              ))}
             </div>
-            <div>
-              <label className="text-sm text-black font-medium block mb-1">BAC water (ml)</label>
-              <input type="number" value={recon.waterMl} onChange={e => setRecon({...recon, waterMl: parseFloat(e.target.value) || 0})} step="0.1" className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
-            </div>
-            <div>
-              <label className="text-sm text-black font-medium block mb-1">Target dose (mcg)</label>
-              <input type="number" value={recon.doseMcg} onChange={e => setRecon({...recon, doseMcg: parseFloat(e.target.value) || 0})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
-            </div>
-            <button onClick={calcRecon} className="w-full py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition">Calculate</button>
 
-            {reconResult && (
-              <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 text-sm space-y-1">
-                <p className="text-gray-900 font-semibold">{reconResult.unitsPerDose} units on an insulin syringe</p>
-                <p className="text-black text-xs">{reconResult.mcgPerUnit} mcg per unit</p>
+            {/* Dynamic form fields */}
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              {question !== "dose" && (
+                <div>
+                  <label className="text-sm font-medium text-gray-700 block mb-1">Target dose (mcg)</label>
+                  <input
+                    type="number"
+                    value={form.doseMcg || ""}
+                    onChange={(e) => setForm({ ...form, doseMcg: parseFloat(e.target.value) || 0 })}
+                    className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-indigo-500 bg-white"
+                    placeholder="e.g. 500"
+                  />
+                </div>
+              )}
+              {question !== "water" && (
+                <div>
+                  <label className="text-sm font-medium text-gray-700 block mb-1">Peptide in vial (mg)</label>
+                  <input
+                    type="number"
+                    value={form.peptideMg || ""}
+                    onChange={(e) => setForm({ ...form, peptideMg: parseFloat(e.target.value) || 0 })}
+                    className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-indigo-500 bg-white"
+                    placeholder="e.g. 5"
+                  />
+                </div>
+              )}
+              {question !== "dose" && (
+                <div>
+                  <label className="text-sm font-medium text-gray-700 block mb-1">BAC water (mL)</label>
+                  <input
+                    type="number"
+                    step="0.1"
+                    value={form.waterMl || ""}
+                    onChange={(e) => setForm({ ...form, waterMl: parseFloat(e.target.value) || 0 })}
+                    className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-indigo-500 bg-white"
+                    placeholder="e.g. 1"
+                  />
+                </div>
+              )}
+              {question === "dose" && (
+                <div>
+                  <label className="text-sm font-medium text-gray-700 block mb-1">Units you draw</label>
+                  <input
+                    type="number"
+                    value={form.units || ""}
+                    onChange={(e) => setForm({ ...form, units: parseFloat(e.target.value) || 0 })}
+                    className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-indigo-500 bg-white"
+                    placeholder="e.g. 20"
+                  />
+                </div>
+              )}
+              {question === "water" && (
+                <div>
+                  <label className="text-sm font-medium text-gray-700 block mb-1">Desired units per dose</label>
+                  <input
+                    type="number"
+                    value={form.units || ""}
+                    onChange={(e) => setForm({ ...form, units: parseFloat(e.target.value) || 0 })}
+                    className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-indigo-500 bg-white"
+                    placeholder="e.g. 10"
+                  />
+                </div>
+              )}
+            </div>
+
+            <button
+              onClick={solve}
+              className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-2.5 rounded-xl text-sm transition"
+            >
+              Solve
+            </button>
+
+            {result && (
+              <div className="mt-4 bg-emerald-50 border border-emerald-200 rounded-xl p-4 text-sm">
+                <p className="text-emerald-900 font-semibold">{result}</p>
               </div>
             )}
           </div>
         </div>
 
-        {/* TOOL 2: Dosage Converter */}
-        <div className="bg-white border border-black rounded-xl p-6 shadow-sm">
-          <h2 className="text-lg font-bold text-gray-900 mb-1">Dosage Converter</h2>
-          <p className="text-sm text-black mb-5">Convert between mcg, mg, and grams.</p>
-
-          <div className="space-y-3">
-            <div>
-              <label className="text-sm text-black font-medium block mb-1">Value</label>
-              <input type="number" value={convert.value} onChange={e => setConvert({...convert, value: parseFloat(e.target.value) || 0})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
+        {/* Syringe reference */}
+        <div className="max-w-[76rem] mx-auto px-4 mt-6 pb-6">
+          <div className="bg-white/[0.05] border border-white/10 rounded-2xl p-5">
+            <h3 className="text-sm font-bold text-white/80 mb-3">Syringe Reference</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {[
+                { size: "3.0 mL", units: "300 units" },
+                { size: "1.0 mL", units: "100 units" },
+                { size: "0.5 mL", units: "50 units" },
+                { size: "0.3 mL", units: "30 units" },
+              ].map((s) => (
+                <div key={s.size} className="bg-white/10 rounded-lg px-3 py-2 text-center">
+                  <div className="text-white font-bold text-xs">{s.size}</div>
+                  <div className="text-gray-400 text-xs">{s.units}</div>
+                </div>
+              ))}
             </div>
-            <div className="grid grid-cols-2 gap-3">
-              <div>
-                <label className="text-sm text-black font-medium block mb-1">From</label>
-                <select value={convert.from} onChange={e => setConvert({...convert, from: e.target.value})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white">
-                  <option value="mcg">mcg (&micro;g)</option>
-                  <option value="mg">mg</option>
-                  <option value="g">g</option>
-                </select>
-              </div>
-              <div>
-                <label className="text-sm text-black font-medium block mb-1">To</label>
-                <select value={convert.to} onChange={e => setConvert({...convert, to: e.target.value})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white">
-                  <option value="mcg">mcg (&micro;g)</option>
-                  <option value="mg">mg</option>
-                  <option value="g">g</option>
-                </select>
-              </div>
-            </div>
-            <button onClick={calcConvert} className="w-full py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition">Convert</button>
-
-            {convertResult !== null && (
-              <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 text-sm">
-                <p className="text-gray-900 font-semibold">{convert.value} {convert.from} = <strong>{convertResult.toLocaleString()}</strong> {convert.to}</p>
-              </div>
-            )}
+            <p className="text-xs text-gray-500 mt-3">Based on a standard insulin syringe. For in-vitro research use only.</p>
           </div>
         </div>
-
-        {/* TOOL 3: Half-Life Reference */}
-        <div className="bg-white border border-black rounded-xl p-6 shadow-sm">
-          <h2 className="text-lg font-bold text-gray-900 mb-1">Half-Life Reference</h2>
-          <p className="text-sm text-black mb-5">Look up the half-life of common research peptides.</p>
-
-          <div className="space-y-3">
-            <div>
-              <label className="text-sm text-black font-medium block mb-1">Peptide</label>
-              <select value={half.substance} onChange={e => setHalf({...half, substance: e.target.value})} className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white">
-                {Object.keys(halfLives).map(s => (
-                  <option key={s} value={s}>{s}</option>
-                ))}
-              </select>
-            </div>
-            {half.substance === "Custom" && (
-              <div>
-                <label className="text-sm text-black font-medium block mb-1">Enter half-life</label>
-                <input type="text" value={half.customHalfLife} onChange={e => setHalf({...half, customHalfLife: e.target.value})} placeholder="e.g. 2 hours" className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 bg-white" />
-              </div>
-            )}
-            <button onClick={calcHalfLife} className="w-full py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition">Look Up</button>
-
-            {halfResult && (
-              <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 text-sm">
-                <p className="text-gray-900 font-semibold">{half.substance}: <strong>{halfResult}</strong></p>
-              </div>
-            )}
-          </div>
-        </div>
-
       </div>
-
-      <Footer />
-    </div>
+    </>
   );
 }

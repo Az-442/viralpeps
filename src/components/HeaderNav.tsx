@@ -21,10 +21,9 @@ export default function HeaderNav({ current }: { current?: string }) {
   ];
 
   const toolLinks = [
-    { href: "/tools", label: "Peptide Tools" },
-    { href: "/tools#reconstitution", label: "Reconstitution Calculator" },
-    { href: "/tools#converter", label: "Dosage Converter" },
-    { href: "/tools#half-life", label: "Half-Life Reference" },
+    { href: "/tools", label: "Quick Solve" },
+    { href: "/tools/dosage-calculator", label: "Dosage Calculator" },
+    { href: "/tools/cycle-calculator", label: "Cycle Calculator" },
   ];
 
   return (
