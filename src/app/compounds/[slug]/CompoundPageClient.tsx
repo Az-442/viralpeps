@@ -893,7 +893,7 @@ export default function CompoundPageClient({
                     {/* Visit */}
                     <td className="px-5 py-4 text-center">
                       <a
-                        href={s.url}
+                        href={`/go/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}/${compound.slug}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
@@ -992,7 +992,7 @@ export default function CompoundPageClient({
                   )}
                 </div>
                 <a
-                  href={s.url}
+                  href={`/go/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}/${compound.slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={(e) => e.stopPropagation()}
