@@ -325,7 +325,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                         Compare {((c as any)?.compareSlug ? compoundBySlug[(c as any).compareSlug]?.sources?.length || c.sources.length : c.sources.length)} suppliers →
                       </Link>
                       <a
-                        href={source?.url || "#"}
+                        href={`/go/${slug}/${c.slug}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-3.5 py-1.5 sm:px-4 sm:py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-lg transition-colors shadow-sm whitespace-nowrap"

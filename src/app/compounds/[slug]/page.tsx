@@ -328,7 +328,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 <div className="text-2xl font-bold text-gray-900">{featured.price}</div>
                 <p className="text-xs text-gray-400">FREE delivery</p>
                 <a
-                  href={featured.url}
+                        href={`/go/${featuredVendorData?.slug || featured.vendor.toLowerCase().replace(/\s+/g, '-')}/${slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-2 px-6 py-2.5 bg-amber-600 hover:bg-amber-500 text-white text-sm font-bold rounded-lg transition-colors shadow-md"
