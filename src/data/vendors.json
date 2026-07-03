@@ -16,7 +16,7 @@
       "Wide catalog"
     ],
     "shipping": [
-      "UK (free over \u00a350)",
+      "UK (free over £50)",
       "International"
     ],
     "payment": [
@@ -44,7 +44,7 @@
       "UK-based"
     ],
     "shipping": [
-      "UK (free over \u00a325)",
+      "UK (free over £25)",
       "International"
     ],
     "payment": [
@@ -98,7 +98,7 @@
       "Independent COAs"
     ],
     "shipping": [
-      "UK tracked (free over \u00a340)",
+      "UK tracked (free over £40)",
       "International"
     ],
     "payment": [
@@ -126,7 +126,7 @@
       "Fast UK delivery"
     ],
     "shipping": [
-      "UK (free over \u00a399)",
+      "UK (free over £99)",
       "Great Britain only"
     ],
     "payment": [
@@ -145,7 +145,7 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20\u00b0C cold chain storage. Same-day dispatch on orders before 4pm.",
+    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20°C cold chain storage. Same-day dispatch on orders before 4pm.",
     "highlights": [
       "UKAS-verified testing",
       "Cold chain storage",
@@ -153,7 +153,7 @@
       "Same-day dispatch"
     ],
     "shipping": [
-      "UK (free over \u00a350)",
+      "UK (free over £50)",
       "International"
     ],
     "payment": [
@@ -179,7 +179,7 @@
       "UK manufactured"
     ],
     "shipping": [
-      "UK next-day (free over \u00a3100)",
+      "UK next-day (free over £100)",
       "International"
     ],
     "payment": [
@@ -206,7 +206,7 @@
       "Previously Dr Peptides"
     ],
     "shipping": [
-      "UK free over \u00a325",
+      "UK free over £25",
       "International"
     ],
     "payment": [
@@ -233,7 +233,7 @@
       "Premium selection"
     ],
     "shipping": [
-      "UK (\u00a39.99 tracked, free over \u00a3100)"
+      "UK (£9.99 tracked, free over £100)"
     ],
     "payment": [
       "Bank transfer",
@@ -259,7 +259,7 @@
       "Established 2016"
     ],
     "shipping": [
-      "UK (free over \u00a3100)",
+      "UK (free over £100)",
       "International"
     ],
     "payment": [
@@ -286,10 +286,10 @@
       "95+ products",
       "Fast UK delivery",
       "Discreet packaging",
-      "Free over \u00a3100"
+      "Free over £100"
     ],
     "shipping": [
-      "UK free over \u00a3100",
+      "UK free over £100",
       "Royal Mail Tracked 24",
       "International tracked"
     ],
@@ -343,7 +343,7 @@
     "country": "UK",
     "description": "One of the UK's largest research peptide suppliers with 98+ lab-tested products. All batches independently third-party tested via Optima Labs (ISO/IEC 17025). Cold-chain storage, auto-apply volume discounts, and free UK delivery on all orders.",
     "highlights": [
-      "98+ products \u2014 largest UK catalog",
+      "98+ products — largest UK catalog",
       "Third-party tested (Optima Labs ISO/IEC 17025)",
       "Free UK delivery",
       "Auto volume discounts (up to 20% off)",
@@ -401,9 +401,18 @@
     "founded": 2026,
     "country": "UK",
     "description": "UK peptide supplier offering research-grade compounds in both vial and disposable pen formats. All products independently HPLC tested with Certificates of Analysis available per product. Based in Canary Wharf, London with same-day dispatch.",
-    "highlights": ["Pen delivery systems", "Same-day dispatch (before 4:30pm)", "HPLC lab tested with COAs", "UK-based — Canary Wharf, London"],
-    "shipping": ["UK next-day (order before 4:30pm Mon-Fri)"],
-    "payment": ["Bank transfer"],
+    "highlights": [
+      "Pen delivery systems",
+      "Same-day dispatch (before 4:30pm)",
+      "HPLC lab tested with COAs",
+      "UK-based — Canary Wharf, London"
+    ],
+    "shipping": [
+      "UK next-day (order before 4:30pm Mon-Fri)"
+    ],
+    "payment": [
+      "Bank transfer"
+    ],
     "lastTested": "2026-06-30",
     "labTested": true
   },
@@ -417,10 +426,83 @@
     "founded": 2025,
     "country": "UK",
     "description": "Premium UK research peptide supplier with all compounds independently tested by Janoshik. Registered UK company (New Wave Solutions Limited #16478331) with cold-chain storage and next-day UK delivery. Rated 4.9/5.0 on Peptide Supermarket with 27 products listed.",
-    "highlights": ["Lab tested (Janoshik)", "Registered UK company", "Free UK shipping", "Cold-chain storage", "99%+ purity"],
-    "shipping": ["UK free (Royal Mail/DPD, order before 3pm Mon-Fri)"],
-    "payment": ["Bank transfer", "Cards"],
+    "highlights": [
+      "Lab tested (Janoshik)",
+      "Registered UK company",
+      "Free UK shipping",
+      "Cold-chain storage",
+      "99%+ purity"
+    ],
+    "shipping": [
+      "UK free (Royal Mail/DPD, order before 3pm Mon-Fri)"
+    ],
+    "payment": [
+      "Bank transfer",
+      "Cards"
+    ],
     "lastTested": "2026-06-30",
+    "labTested": true
+  },
+  {
+    "id": "bluewell-peptides",
+    "name": "Bluewell Peptides",
+    "slug": "bluewell-peptides",
+    "website": "https://bluewellpeptides.com",
+    "rating": 4.9,
+    "verified": true,
+    "founded": 2022,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering COA-verified peptides tested to 99.1%+ HPLC purity via third-party Axonis Analytics. Same-day dispatch before 2pm for next-day UK delivery. GMP-compliant UK facility with cold-chain storage.",
+    "highlights": [
+      "4.9/5.0 on Peptide Supermarket",
+      "HPLC tested 99.1%+ purity",
+      "Third-party tested (Axonis Analytics)",
+      "Same-day dispatch",
+      "Free shipping over £100",
+      "Cold-chain storage"
+    ],
+    "shipping": [
+      "UK RM Tracked 24 (free over £100, from £4.99)",
+      "UK Special Delivery Guaranteed (£7.50)",
+      "European Express (£9.99)",
+      "Worldwide Tracked (£12.95)"
+    ],
+    "payment": [
+      "Bank transfer (Fena)",
+      "Cards (Stripe)",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "2026-06-27",
+    "labTested": true
+  },
+  {
+    "id": "anglo-peptides",
+    "name": "Anglo Peptides",
+    "slug": "anglo-peptides",
+    "website": "https://anglopeptides.com",
+    "rating": 4.3,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "London-based research peptide supplier offering HPLC-tested compounds at ≥98% purity with batch-specific documentation. Brand of Anglo-Peptides Ltd (Company No. 16423217), a registered UK chemical wholesale company. Free UK shipping over £100.",
+    "highlights": [
+      "UK registered company (Anglo-Peptides Ltd)",
+      "HPLC tested ≥98% purity",
+      "Batch-numbered products",
+      "London-based",
+      "Free shipping over £100",
+      "Mix & Match savings"
+    ],
+    "shipping": [
+      "UK RM Tracked 24 (free over £100)",
+      "International tracked (5-10 business days)"
+    ],
+    "payment": [
+      "Cards (Shopify/Worldpay)",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-06-25",
     "labTested": true
   }
 ]
