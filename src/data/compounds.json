@@ -1334,14 +1334,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/ghrp-2/",
-        "price": "£11.99",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/ghrp-2-5mg.webp",
-        "dosage": "5mg"
-      },
-      {
         "vendor": "Chroma Peptides",
         "url": "https://chromapeptides.co.uk/product/ghrp-2-5-mg/",
         "price": "£40.02",
@@ -2819,14 +2811,6 @@
         "price": "£28.00",
         "inStock": true,
         "image": "/images/products/anglo-peptides/sermorelin-5mg.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/sermorelin-5mg/",
-        "price": "£24.99",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/sermorelin-5mg.webp",
         "dosage": "5mg"
       },
       {
@@ -6781,7 +6765,7 @@
       },
       {
         "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/wolverine-stack-bpc-157-tb-500-bundle/",
+        "url": "https://xlpeptides.com/product/wolverine-stack/",
         "price": "£29.99",
         "inStock": true,
         "image": "/images/products/xl-peptides/wolverine-stack.webp",
@@ -7399,7 +7383,7 @@
       },
       {
         "vendor": "Chroma Peptides",
-        "url": "https://chromapeptides.co.uk/product/glow-blend/",
+        "url": "https://chromapeptides.co.uk/product/glow/",
         "price": "£77.02",
         "inStock": true,
         "image": "/images/products/chroma-peptides/glow-blend.webp",
@@ -7525,7 +7509,7 @@
       },
       {
         "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/klow-peptide-blend-6-vial-bundle/",
+        "url": "https://xlpeptides.com/product/klow-peptide-blend/",
         "price": "£89.99",
         "inStock": true,
         "image": "/images/products/xl-peptides/klow-blend.webp",
@@ -8449,7 +8433,7 @@
       },
       {
         "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/ipamorelin-cjc-1295-no-dac-bundle/",
+        "url": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/",
         "price": "£29.99",
         "inStock": true,
         "image": "/images/products/xl-peptides/ipam-cjc-blend.webp",
@@ -13150,7 +13134,7 @@
       },
       {
         "vendor": "Chroma Peptides",
-        "url": "https://chromapeptides.co.uk/product/acetic-acid-06/",
+        "url": "https://chromapeptides.co.uk/product/acetic-acid-0-6/",
         "price": "£8.50",
         "inStock": false,
         "image": "/images/products/chroma-peptides/acetic-acid.webp",
@@ -17528,7 +17512,7 @@
       },
       {
         "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/mt-1-10mg/",
+        "url": "https://xlpeptides.com/product/melanotan-1-10mg/",
         "price": "£19.99",
         "inStock": true,
         "image": "/images/products/xl-peptides/mt-1-10mg.webp",
