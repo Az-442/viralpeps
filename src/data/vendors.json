@@ -504,5 +504,121 @@
     ],
     "lastTested": "2026-06-25",
     "labTested": true
+  },
+  {
+    "id": "cmsr-labs",
+    "name": "CMSR Labs",
+    "slug": "cmsr-labs",
+    "website": "https://cmsrlabs.co",
+    "rating": 4.0,
+    "verified": false,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering premium-grade compounds with Janoshik third-party lab testing. Free next-day UK delivery, products independently verified with batch-specific COAs. Known for competitive pricing on GLP-1 agonists and research peptides.",
+    "highlights": [
+      "Janoshik lab tested",
+      "Free next-day UK delivery",
+      "Competitive pricing",
+      "Money-back guarantee"
+    ],
+    "shipping": [
+      "UK free next-day (order before 1:30pm Mon-Fri)"
+    ],
+    "payment": [
+      "Cards",
+      "Apple Pay",
+      "Google Pay",
+      "Bank transfer (Boodil)"
+    ],
+    "lastTested": "2026-07-01",
+    "labTested": true
+  },
+  {
+    "id": "proforma-peptides",
+    "name": "Proforma Peptides",
+    "slug": "proforma-peptides",
+    "website": "https://www.proformapeptides.co.uk",
+    "rating": 4.8,
+    "verified": true,
+    "founded": 2024,
+    "country": "UK",
+    "description": "London-based UK research peptide supplier with 62 products and a 5★ Trustpilot rating across 250+ reviews. All products cGMP-manufactured and HPLC-tested with purity exceeding 99%. Registered UK company (No. 16557437) with fast Royal Mail Tracked 24 delivery.",
+    "highlights": [
+      "5★ Trustpilot — 250+ reviews",
+      "HPLC tested — 99%+ purity",
+      "cGMP-compliant manufacturing",
+      "Royal Mail Tracked 24 delivery",
+      "62 products in catalog",
+      "Registered UK company"
+    ],
+    "shipping": [
+      "UK Royal Mail Tracked 24 (dispatch 1-2 business days)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer",
+      "Shopify Payments"
+    ],
+    "lastTested": "2026-06-30",
+    "labTested": true
+  },
+  {
+    "id": "xl-peptides",
+    "name": "XL Peptides",
+    "slug": "xl-peptides",
+    "website": "https://xlpeptides.com",
+    "rating": 4.6,
+    "verified": false,
+    "founded": 2024,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering high-purity compounds with third-party testing. Registered company (Bio Research Ltd T/A XL Peptides #15464334) based in Nottingham. Accepts credit/debit cards and cryptocurrency with 5% discount. Free UK shipping on all orders via Royal Mail.",
+    "highlights": [
+      "10,000+ customers",
+      "Cards + Crypto accepted",
+      "Free UK shipping",
+      "Registered UK company (Bio Research Ltd)",
+      "Bulk discounts available"
+    ],
+    "shipping": [
+      "UK free (Royal Mail)",
+      "Europe (£15 flat rate)",
+      "Rest of World (£25 flat rate)"
+    ],
+    "payment": [
+      "Cards (Visa/MasterCard)",
+      "Bitcoin (BTC)",
+      "Monero (XMR)"
+    ],
+    "lastTested": "",
+    "labTested": false
+  },
+  {
+    "id": "chroma-peptides",
+    "name": "Chroma Peptides",
+    "slug": "chroma-peptides",
+    "website": "https://chromapeptides.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2024,
+    "country": "UK",
+    "description": "UK-based premium research peptide supplier with 40+ products, all in-house tested to 99%+ purity. Operated by KADIYSKI LIMITED. Offers free UK delivery over £50, next working day dispatch, and pre-filled cartridge formats. Bulk discounts up to 12% off and welcome discount code WELCOME10 for 10% off first orders.",
+    "highlights": [
+      "99% minimum purity",
+      "5000+ satisfied researchers",
+      "Free UK delivery over £50",
+      "Bulk discounts up to 12%",
+      "Pre-filled cartridge options",
+      "Welcome discount 10% off"
+    ],
+    "shipping": [
+      "UK free over £50 (next working day dispatch)",
+      "International (40+ countries)"
+    ],
+    "payment": [
+      "Cards",
+      "Shopify Payments"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
