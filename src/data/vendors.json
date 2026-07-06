@@ -620,5 +620,62 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "peptides-uk",
+    "name": "Peptides UK",
+    "slug": "peptides-uk",
+    "website": "https://peptidesuk.com",
+    "rating": 4.7,
+    "verified": false,
+    "founded": 2012,
+    "country": "UK",
+    "description": "One of the UK's longest-established research peptide suppliers with 14+ years in operation. All products cGMP-compliant and ISO9001-certified with >98% purity confirmed by HPLC and MS-UPLC analysis. Wide catalog of 30+ peptides with worldwide shipping.",
+    "highlights": [
+      "14+ years established",
+      "cGMP & ISO9001 certified",
+      "HPLC & MS-UPLC tested",
+      "Wide catalog of 30+ peptides",
+      "Free UK delivery over £75"
+    ],
+    "shipping": [
+      "UK (free over £75)",
+      "International worldwide"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer",
+      "Cryptocurrency"
+    ],
+    "lastTested": "",
+    "labTested": false
+  },
+  {
+    "id": "my-peptides",
+    "name": "My Peptides",
+    "slug": "my-peptides",
+    "website": "https://my-peptides.co.uk",
+    "rating": 4.2,
+    "verified": true,
+    "founded": 2024,
+    "country": "UK",
+    "description": "UK-based supplier of premium research peptides with HPLC-verified 99%+ purity and Certificate of Analysis on every order. Known for peptide stacks (Glow, Klow, Hulk, Wolverine), auto-injector pens, and made-in-UK compounds. Free UK shipping available.",
+    "highlights": [
+      "HPLC-verified 99%+ purity",
+      "Certificate of Analysis per order",
+      "Premium peptide stacks",
+      "UK manufactured",
+      "Free premium auto injector with orders"
+    ],
+    "shipping": [
+      "UK",
+      "International"
+    ],
+    "payment": [
+      "Cards",
+      "Shopify Payments"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
