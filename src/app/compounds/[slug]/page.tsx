@@ -413,8 +413,12 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-blue-200 hover:shadow-sm transition-all"
                   >
                     {/* Photo-ready — replace gradient with <img> when photorealistic images are available */}
-                    <div className="aspect-[16/7] bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100 flex items-center justify-center">
-                      <svg className="w-8 h-8 text-indigo-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M21 15l-5-5L5 21" /></svg>
+                    <div className="aspect-[16/7] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
+                      <img
+                        src={article.image ? `/images/guides/${article.image}.png` : ''}
+                        alt={article.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
                     </div>
                     <div className="p-4">
                       <div className="flex items-center gap-2 mb-2">

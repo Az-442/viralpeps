@@ -5,6 +5,8 @@ export interface ResearchArticle {
   compound?: string;
   slug: string;
   minutes?: number;
+  /** Path to cover image under /images/guides/ */
+  image?: string;
 }
 
 export const guides: ResearchArticle[] = [
@@ -13,18 +15,21 @@ export const guides: ResearchArticle[] = [
     desc: "How to properly reconstitute research peptides with bacteriostatic water, including calculations and best practices.",
     category: "Guide",
     slug: "peptide-reconstitution-guide",
+    image: "peptide-reconstitution",
   },
   {
     title: "Understanding Peptide Purity",
     desc: "What HPLC purity tests mean, why 98%+ matters, and how to read COAs from UK suppliers.",
     category: "Guide",
     slug: "understanding-peptide-purity",
+    image: "peptide-purity",
   },
   {
     title: "Peptide Storage & Handling",
     desc: "Proper storage temperatures, lyophilized vs reconstituted, and how to avoid degradation.",
     category: "Guide",
     slug: "peptide-storage-handling",
+    image: "peptide-storage",
   },
   {
     title: "GLP-1 Research Overview",
@@ -32,6 +37,7 @@ export const guides: ResearchArticle[] = [
     category: "Compound Profiles",
     compound: "Tirzepatide",
     slug: "glp1-research-overview",
+    image: "glp1-overview",
   },
   {
     title: "BPC-157 Research Summary",
@@ -39,12 +45,14 @@ export const guides: ResearchArticle[] = [
     category: "Compound Profiles",
     compound: "BPC-157",
     slug: "bpc157-research-summary",
+    image: "bpc157-summary",
   },
   {
     title: "Choosing a UK Supplier",
     desc: "What to look for when selecting a research peptide supplier in the UK: testing, shipping, and reputation.",
     category: "Guide",
     slug: "choosing-uk-supplier",
+    image: "choosing-supplier",
   },
 ];
 
