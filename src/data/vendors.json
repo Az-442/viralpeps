@@ -729,5 +729,61 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "peptigen-labs",
+    "name": "Peptigen Labs",
+    "slug": "peptigen-labs",
+    "website": "https://peptigenlabs.co.uk",
+    "rating": 4.9,
+    "verified": true,
+    "founded": 2024,
+    "country": "UK",
+    "description": "British research laboratory supplier offering premium research-use-only peptides. All products independently purity tested by Brown Institute of Biomolecular Research, batch documented, with same-day dispatch before 14:00 for tracked next-day UK delivery. Rated 4.9/5 from 140+ verified UK customers.",
+    "highlights": [
+      "4.9/5 rating \u2014 140+ verified reviews",
+      "Independently purity tested",
+      "Same-day dispatch (before 14:00)",
+      "Next-day UK delivery",
+      "Batch documented",
+      "UK stock"
+    ],
+    "shipping": [
+      "UK next-day (order before 14:00)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-07-09",
+    "labTested": true
+  },
+  {
+    "id": "premio-peptides",
+    "name": "Premio Peptides",
+    "slug": "premio-peptides",
+    "website": "https://premiopeptides.co.uk",
+    "rating": 4.7,
+    "verified": true,
+    "founded": 2024,
+    "country": "UK",
+    "description": "UK research peptide supplier offering 99%+ HPLC-verified peptides with same-day dispatch and free UK delivery over \u00a375. All products ship with third-party certificates of analysis. Known for preloaded pen delivery systems including Retatrutide, GHK-Cu Glow Stack, and BPC-157/TB-500 Wolverine Stack.",
+    "highlights": [
+      "99%+ HPLC-verified purity",
+      "Same-day dispatch (before 14:00)",
+      "Free UK delivery over \u00a375",
+      "CoA with every order",
+      "Preloaded pen options",
+      "UK stock"
+    ],
+    "shipping": [
+      "UK next-day (free over \u00a375)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-07-09",
+    "labTested": true
   }
 ]
