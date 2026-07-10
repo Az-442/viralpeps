@@ -785,5 +785,60 @@
     ],
     "lastTested": "2026-07-09",
     "labTested": true
+  },
+  {
+    "id": "the-peptide-code",
+    "name": "ThePeptideCode",
+    "slug": "the-peptide-code",
+    "website": "https://thepeptidecode.co.uk",
+    "rating": 4.6,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier with all batches HPLC + mass-spec tested. ≥99% purity, published per-batch Certificates of Analysis. Trustpilot 4.6★ with 60+ reviews. Free UK shipping over £100, dispatched within 24 hours.",
+    "highlights": [
+      "HPLC + MS verified, every batch",
+      "≥99% purity — independently verified",
+      "Free UK shipping over £100",
+      "Trustpilot 4.6★ · 60+ reviews",
+      "Published COAs per batch",
+      "Registered UK company (No. 17107501)"
+    ],
+    "shipping": [
+      "UK free over £100",
+      "24-hour dispatch"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-07-09",
+    "labTested": true
+  },
+  {
+    "id": "raw-peptides",
+    "name": "Raw Peptides",
+    "slug": "raw-peptides",
+    "website": "https://rawpeptides.co.uk",
+    "rating": 4.2,
+    "verified": false,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering premium-grade compounds for laboratory R&D. Known for competitive pricing on GLP-1 agonists including Retatrutide and Tirzepatide. All products supplied for in-vitro studies only.",
+    "highlights": [
+      "Competitive pricing on GLP-1 agonists",
+      "UK-based stock",
+      "Next-day dispatch available",
+      "WhatsApp support"
+    ],
+    "shipping": [
+      "UK (Royal Mail Tracked)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "",
+    "labTested": false
   }
 ]
