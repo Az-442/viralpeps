@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>United Peptides — UK Research Peptide Supplier</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; }
+  .gradient-hero { background: linear-gradient(135deg, #0a3d3d 0%, #0d4f4f 40%, #1a6b6b 100%); }
+  .gradient-card { background: linear-gradient(135deg, #0a3d3d 0%, #0d4f4f 100%); }
+  .text-accent { color: #c85a17; }
+  .bg-accent { background: #c85a17; }
+  .hover\:bg-accent-dark:hover { background: #a84a12; }
+  .border-accent { border-color: #c85a17; }
+  .ring-accent { --tw-ring-color: #c85a17; }
+  .bg-green-deep { background: #0a3d3d; }
+  .bg-green-mid { background: #0d4f4f; }
+  .bg-green-light { background: #f0f7f7; }
+  .text-green-deep { color: #0a3d3d; }
+  .text-green-mid { color: #0d4f4f; }
+  .badge-orange { background: #c85a17; color: white; }
+  .product-card:hover { transform: translateY(-2px); box-shadow: 0 12px 24px -8px rgba(10,61,61,0.15); }
+  .nav-link { position: relative; }
+  .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: #c85a17; transition: width 0.2s; }
+  .nav-link:hover::after { width: 100%; }
+  .trust-badge { transition: all 0.2s; }
+  .trust-badge:hover { transform: scale(1.05); }
+</style>
+</head>
+<body>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="bg-green-deep text-white text-xs text-center py-1.5 px-4 border-b border-green-700/40">
+  <span class="inline-flex items-center gap-1.5">
+    <svg class="w-3.5 h-3.5 text-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+    ⭐ Trusted by UK researchers — Third-party COAs on every batch
+  </span>
+</div>
+
+<!-- HEADER -->
+<header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-lg bg-green-deep flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path d="M9 3h6v5l4 8H5l4-8V3z"/><line x1="9" y1="3" x2="15" y2="3"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-bold text-lg tracking-tight text-green-deep">UNITED</span>
+          <span class="font-light text-lg tracking-tight text-gray-600">PEPTIDES</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="catalogue.html" class="nav-link text-sm font-medium text-gray-700 hover:text-green-deep">Catalogue</a>
+        <a href="research.html" class="nav-link text-sm font-medium text-gray-700 hover:text-green-deep">Research</a>
+        <a href="coa.html" class="nav-link text-sm font-medium text-gray-700 hover:text-green-deep">COA Library</a>
+        <a href="about.html" class="nav-link text-sm font-medium text-gray-700 hover:text-green-deep">About</a>
+        <a href="contact.html" class="nav-link text-sm font-medium text-gray-700 hover:text-green-deep">Contact</a>
+      </nav>
+
+      <!-- Right side -->
+      <div class="flex items-center gap-3">
+        <button class="hidden md:flex items-center gap-1.5 text-sm text-gray-600 hover:text-green-deep">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+          </svg>
+          Search
+        </button>
+        <button class="relative p-2 text-gray-600 hover:text-green-deep">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18"/><path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+        </button>
+        <a href="#" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-accent hover:bg-accent-dark text-white text-sm font-semibold rounded-lg transition-all shadow-sm">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/>
+          </svg>
+          Order
+        </a>
+        <button class="md:hidden p-2 text-gray-600">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="gradient-hero text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <div class="inline-flex items-center gap-1.5 text-xs font-medium text-orange-300 border border-orange-400/40 rounded-full px-3 py-0.5 mb-4">
+          <span class="w-1.5 h-1.5 rounded-full bg-orange-400"></span>
+          UK RESEARCH SUPPLIER
+        </div>
+        <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-4">
+          Research-grade peptides<br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-amber-200">shipped from the UK.</span>
+        </h1>
+        <p class="text-gray-300 text-sm md:text-base leading-relaxed max-w-lg mb-6">
+          Premium research compounds for laboratory and in-vitro studies. Every batch independently tested. UK stock — next-day delivery.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="catalogue.html" class="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent-dark text-white text-sm font-bold rounded-xl transition-all shadow-lg shadow-orange-600/20">
+            Browse Catalogue
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+          <a href="#" class="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white text-sm font-semibold rounded-xl border border-white/20 transition-all">
+            View COAs
+          </a>
+        </div>
+        <!-- Trust strip -->
+        <div class="flex flex-wrap items-center gap-4 mt-8 text-xs text-gray-400">
+          <span class="flex items-center gap-1"><svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Lab Tested</span>
+          <span class="flex items-center gap-1"><svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> UK Stock</span>
+          <span class="flex items-center gap-1"><svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Next Day Delivery</span>
+          <span class="flex items-center gap-1"><svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Discreet</span>
+        </div>
+      </div>
+      <div class="hidden md:flex justify-center">
+        <!-- Vial product shot placeholder -->
+        <div class="relative">
+          <div class="w-64 h-72 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 flex items-center justify-center">
+            <div class="text-center">
+              <div class="w-20 h-28 mx-auto mb-3 relative">
+                <!-- Vial shape -->
+                <div class="absolute bottom-0 w-16 h-20 left-2 bg-white/10 rounded-b-lg border border-white/20"></div>
+                <div class="absolute top-0 w-10 h-12 left-5 bg-white/10 rounded-t-full border border-white/20"></div>
+                <div class="absolute top-3 w-6 h-2 left-7 bg-orange-400/50 rounded-full"></div>
+                <div class="absolute bottom-4 w-10 h-3 left-5 bg-orange-400/30 rounded"></div>
+              </div>
+              <p class="text-xs text-gray-400">Research Peptide Vial</p>
+              <span class="inline-block mt-1 px-2 py-0.5 text-[10px] font-medium bg-white/5 border border-white/10 rounded">BPC-157 5mg</span>
+            </div>
+          </div>
+          <!-- Floating badge -->
+          <div class="absolute -top-2 -right-2 w-12 h-12 bg-accent rounded-full flex items-center justify-center shadow-lg">
+            <span class="text-white text-[10px] font-bold leading-tight text-center">NEW<br>BATCH</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BANNER -->
+<section class="bg-white border-b border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="trust-badge flex items-center gap-3 p-3 rounded-xl bg-green-light">
+        <div class="w-10 h-10 rounded-lg bg-green-deep/10 flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-green-deep" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-green-deep">Third-Party Tested</p>
+          <p class="text-xs text-gray-500">COAs published per batch</p>
+        </div>
+      </div>
+      <div class="trust-badge flex items-center gap-3 p-3 rounded-xl bg-green-light">
+        <div class="w-10 h-10 rounded-lg bg-green-deep/10 flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-green-deep" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-green-deep">UK Dispatch</p>
+          <p class="text-xs text-gray-500">Royal Mail Tracked 24</p>
+        </div>
+      </div>
+      <div class="trust-badge flex items-center gap-3 p-3 rounded-xl bg-green-light">
+        <div class="w-10 h-10 rounded-lg bg-green-deep/10 flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-green-deep" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-green-deep">Free Delivery</p>
+          <p class="text-xs text-gray-500">On orders over £50</p>
+        </div>
+      </div>
+      <div class="trust-badge flex items-center gap-3 p-3 rounded-xl bg-green-light">
+        <div class="w-10 h-10 rounded-lg bg-green-deep/10 flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-green-deep" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-green-deep">Secure Checkout</p>
+          <p class="text-xs text-gray-500">Encrypted payments</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="py-14 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="text-2xl font-bold text-green-deep">Browse by Category</h2>
+        <p class="text-sm text-gray-500 mt-1">73 research compounds, 20 premium SKUs</p>
+      </div>
+      <a href="#" class="text-sm font-semibold text-accent hover:text-accent-dark flex items-center gap-1">
+        View All <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <a href="catalogue.html#glp1" class="group p-6 rounded-xl border border-gray-200 hover:border-green-deep/30 hover:bg-green-light transition-all">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center mb-3">
+          <svg class="w-6 h-6 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-green-deep text-sm">GLP-1 Agonists</h3>
+        <p class="text-xs text-gray-500 mt-1">Semaglutide, Retatrutide, Tirzepatide</p>
+      </a>
+      <a href="#" class="group p-6 rounded-xl border border-gray-200 hover:border-green-deep/30 hover:bg-green-light transition-all">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center mb-3">
+          <svg class="w-6 h-6 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-green-deep text-sm">Healing & Recovery</h3>
+        <p class="text-xs text-gray-500 mt-1">BPC-157, TB-500, BPC/TB Blend</p>
+      </a>
+      <a href="#" class="group p-6 rounded-xl border border-gray-200 hover:border-green-deep/30 hover:bg-green-light transition-all">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center mb-3">
+          <svg class="w-6 h-6 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-green-deep text-sm">Anti-Ageing</h3>
+        <p class="text-xs text-gray-500 mt-1">GHK-Cu, GLOW, Epitalon, SS-31</p>
+      </a>
+      <a href="#" class="group p-6 rounded-xl border border-gray-200 hover:border-green-deep/30 hover:bg-green-light transition-all">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center mb-3">
+          <svg class="w-6 h-6 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 0 1 0 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 0 1 0-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281Z"/>
+            <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-green-deep text-sm">Growth Hormone</h3>
+        <p class="text-xs text-gray-500 mt-1">CJC-1295, Ipamorelin, Tesamorelin</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="py-14 bg-green-light">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="text-2xl font-bold text-green-deep">Featured Products</h2>
+        <p class="text-sm text-gray-500 mt-1">Our most popular research compounds</p>
+      </div>
+      <a href="#" class="text-sm font-semibold text-accent hover:text-accent-dark flex items-center gap-1">
+        Full Catalogue <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <!-- Product 1 -->
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-5 transition-all cursor-pointer">
+        <div class="w-full h-32 rounded-lg bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center mb-4 border border-green-100">
+          <div class="text-center">
+            <div class="w-10 h-14 mx-auto mb-1 relative">
+              <div class="absolute bottom-0 w-8 h-10 left-1 bg-green-deep/10 rounded-b-md"></div>
+              <div class="absolute top-0 w-5 h-6 left-2 bg-green-deep/10 rounded-t-full"></div>
+              <div class="absolute top-1.5 w-3 h-1 left-3 bg-orange-400/40 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-start justify-between mb-2">
+          <h3 class="font-semibold text-green-deep text-sm">BPC-157 5mg</h3>
+          <span class="px-1.5 py-0.5 text-[10px] font-medium bg-green-100 text-green-deep rounded">Most Popular</span>
+        </div>
+        <p class="text-xs text-gray-500 mb-3">Systemic healing peptide. 5mg vial.</p>
+        <div class="flex items-center justify-between">
+          <span class="text-lg font-bold text-green-deep">£32.99</span>
+          <button class="px-3 py-1.5 bg-accent hover:bg-accent-dark text-white text-xs font-semibold rounded-lg transition-all">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-5 transition-all cursor-pointer">
+        <div class="w-full h-32 rounded-lg bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center mb-4 border border-green-100">
+          <div class="text-center">
+            <div class="w-10 h-14 mx-auto mb-1 relative">
+              <div class="absolute bottom-0 w-8 h-10 left-1 bg-green-deep/10 rounded-b-md"></div>
+              <div class="absolute top-0 w-5 h-6 left-2 bg-green-deep/10 rounded-t-full"></div>
+              <div class="absolute top-1.5 w-3 h-1 left-3 bg-orange-400/40 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-start justify-between mb-2">
+          <h3 class="font-semibold text-green-deep text-sm">Retatrutide 10mg</h3>
+          <span class="px-1.5 py-0.5 text-[10px] font-medium bg-orange-100 text-accent rounded">Best Value</span>
+        </div>
+        <p class="text-xs text-gray-500 mb-3">Triple agonist GLP-1. 10mg vial.</p>
+        <div class="flex items-center justify-between">
+          <span class="text-lg font-bold text-green-deep">£149.99</span>
+          <button class="px-3 py-1.5 bg-accent hover:bg-accent-dark text-white text-xs font-semibold rounded-lg transition-all">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-5 transition-all cursor-pointer">
+        <div class="w-full h-32 rounded-lg bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center mb-4 border border-green-100">
+          <div class="text-center">
+            <div class="w-10 h-14 mx-auto mb-1 relative">
+              <div class="absolute bottom-0 w-8 h-10 left-1 bg-green-deep/10 rounded-b-md"></div>
+              <div class="absolute top-0 w-5 h-6 left-2 bg-green-deep/10 rounded-t-full"></div>
+              <div class="absolute top-1.5 w-3 h-1 left-3 bg-orange-400/40 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-start justify-between mb-2">
+          <h3 class="font-semibold text-green-deep text-sm">Semaglutide 5mg</h3>
+          <span class="px-1.5 py-0.5 text-[10px] font-medium bg-blue-100 text-blue-700 rounded">GLP-1</span>
+        </div>
+        <p class="text-xs text-gray-500 mb-3">GLP-1 receptor agonist. 5mg vial.</p>
+        <div class="flex items-center justify-between">
+          <span class="text-lg font-bold text-green-deep">£74.99</span>
+          <button class="px-3 py-1.5 bg-accent hover:bg-accent-dark text-white text-xs font-semibold rounded-lg transition-all">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-5 transition-all cursor-pointer">
+        <div class="w-full h-32 rounded-lg bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center mb-4 border border-green-100">
+          <div class="text-center">
+            <div class="w-10 h-14 mx-auto mb-1 relative">
+              <div class="absolute bottom-0 w-8 h-10 left-1 bg-green-deep/10 rounded-b-md"></div>
+              <div class="absolute top-0 w-5 h-6 left-2 bg-green-deep/10 rounded-t-full"></div>
+              <div class="absolute top-1.5 w-3 h-1 left-3 bg-orange-400/40 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-start justify-between mb-2">
+          <h3 class="font-semibold text-green-deep text-sm">Wolverine Stack</h3>
+          <span class="px-1.5 py-0.5 text-[10px] font-medium bg-purple-100 text-purple-700 rounded">Blend</span>
+        </div>
+        <p class="text-xs text-gray-500 mb-3">BPC-157 + TB-500 blend. 10mg total.</p>
+        <div class="flex items-center justify-between">
+          <span class="text-lg font-bold text-green-deep">£54.99</span>
+          <button class="px-3 py-1.5 bg-accent hover:bg-accent-dark text-white text-xs font-semibold rounded-lg transition-all">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="py-14 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-2xl md:text-3xl font-bold text-green-deep mb-3">Why United Peptides?</h2>
+      <p class="text-sm text-gray-500 max-w-lg mx-auto">Built for researchers who need consistent quality, verified purity, and reliable UK delivery.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="text-center p-6">
+        <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">
+          <svg class="w-7 h-7 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-green-deep mb-1">Independently Tested</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Every batch is third-party HPLC tested. COAs published publicly so you know exactly what you're receiving.</p>
+      </div>
+      <div class="text-center p-6">
+        <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">
+          <svg class="w-7 h-7 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-green-deep mb-1">UK Stock, UK Dispatch</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">All products held in UK warehouse. Royal Mail Tracked 24 delivery. No international customs delays.</p>
+      </div>
+      <div class="text-center p-6">
+        <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">
+          <svg class="w-7 h-7 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-green-deep mb-1">Discreet & Secure</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Plain packaging, encrypted checkout. Your research stays your business.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COA SECTION -->
+<section class="py-14 bg-gradient-to-b from-green-deep to-green-mid text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <div class="inline-flex items-center gap-1.5 text-xs font-medium text-orange-300 border border-orange-400/40 rounded-full px-3 py-0.5 mb-4">
+      <span class="w-1.5 h-1.5 rounded-full bg-orange-400"></span>
+      TRANSPARENCY
+    </div>
+    <h2 class="text-2xl md:text-3xl font-bold mb-3">Every batch. Independently tested.</h2>
+    <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">We publish Certificates of Analysis for every production batch. No hidden results. No skipped tests.</p>
+    <div class="flex flex-wrap justify-center gap-6 mb-8">
+      <div class="bg-white/5 border border-white/10 rounded-xl p-4 text-left">
+        <p class="text-xs text-gray-400 mb-1">Purity (HPLC)</p>
+        <p class="text-xl font-bold text-emerald-400">≥99.2%</p>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-xl p-4 text-left">
+        <p class="text-xs text-gray-400 mb-1">Mass Spec</p>
+        <p class="text-xl font-bold text-emerald-400">Verified</p>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-xl p-4 text-left">
+        <p class="text-xs text-gray-400 mb-1">Endotoxin</p>
+        <p class="text-xl font-bold text-emerald-400">&lt;0.5 EU/mg</p>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-xl p-4 text-left">
+        <p class="text-xs text-gray-400 mb-1">Sterility</p>
+        <p class="text-xl font-bold text-emerald-400">Pass</p>
+      </div>
+    </div>
+    <a href="#" class="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white text-sm font-semibold rounded-xl border border-white/20 transition-all">
+      Browse COA Library
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+        <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<!-- RECENTLY VIEWED / ESSENTIALS -->
+<section class="py-14 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="text-2xl font-bold text-green-deep">Lab Essentials</h2>
+        <p class="text-sm text-gray-500 mt-1">Everything you need for proper reconstitution and handling</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-4 text-center">
+        <div class="w-full h-24 rounded-lg bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center mb-3">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M9 3h6v5l4 8H5l4-8V3z"/>
+          </svg>
+        </div>
+        <h3 class="text-sm font-semibold text-green-deep">Bacteriostatic Water</h3>
+        <p class="text-xs text-gray-500 mb-2">10ml vial</p>
+        <span class="text-base font-bold text-green-deep">£4.99</span>
+      </div>
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-4 text-center">
+        <div class="w-full h-24 rounded-lg bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center mb-3">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M9 3h6v5l4 8H5l4-8V3z"/>
+          </svg>
+        </div>
+        <h3 class="text-sm font-semibold text-green-deep">Bacteriostatic Water</h3>
+        <p class="text-xs text-gray-500 mb-2">30ml vial</p>
+        <span class="text-base font-bold text-green-deep">£9.99</span>
+      </div>
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-4 text-center">
+        <div class="w-full h-24 rounded-lg bg-gradient-to-br from-purple-50 to-purple-100 flex items-center justify-center mb-3">
+          <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M9 3h6v5l4 8H5l4-8V3z"/>
+          </svg>
+        </div>
+        <h3 class="text-sm font-semibold text-green-deep">Acetic Acid</h3>
+        <p class="text-xs text-gray-500 mb-2">10ml vial</p>
+        <span class="text-base font-bold text-green-deep">£5.99</span>
+      </div>
+      <div class="product-card bg-white rounded-xl border border-gray-200 p-4 text-center">
+        <div class="w-full h-24 rounded-lg bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center mb-3">
+          <svg class="w-8 h-8 text-green-deep" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18"/>
+          </svg>
+        </div>
+        <h3 class="text-sm font-semibold text-green-deep">Combo Pack</h3>
+        <p class="text-xs text-gray-500 mb-2">Wolverine Stack</p>
+        <span class="text-base font-bold text-green-deep">£54.99</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="py-12 bg-green-light border-t border-gray-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-lg mx-auto text-center">
+      <h3 class="text-lg font-bold text-green-deep mb-2">Stay informed</h3>
+      <p class="text-sm text-gray-500 mb-4">New batch alerts, product launches, and research updates.</p>
+      <div class="flex gap-2">
+        <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2.5 border border-gray-300 rounded-lg text-sm outline-none focus:ring-2 focus:ring-green-deep/30 focus:border-green-deep">
+        <button class="px-5 py-2.5 bg-accent hover:bg-accent-dark text-white text-sm font-semibold rounded-lg transition-all whitespace-nowrap">Subscribe</button>
+      </div>
+      <p class="text-[11px] text-gray-400 mt-2">No spam. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-green-deep text-gray-400 py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center">
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path d="M9 3h6v5l4 8H5l4-8V3z"/>
+            </svg>
+          </div>
+          <span class="font-bold text-white text-sm">UNITED PEPTIDES</span>
+        </div>
+        <p class="text-xs leading-relaxed text-gray-500">Research-grade peptides for laboratory and in-vitro studies. UK stock, independently tested.</p>
+      </div>
+      <div>
+        <h4 class="text-white text-xs font-semibold uppercase tracking-wider mb-3">Catalogue</h4>
+        <ul class="space-y-1.5">
+          <li><a href="#" class="text-xs hover:text-white transition-colors">All Products</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">GLP-1 Agonists</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Healing & Recovery</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Anti-Ageing</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Lab Essentials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white text-xs font-semibold uppercase tracking-wider mb-3">Support</h4>
+        <ul class="space-y-1.5">
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Contact Us</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">FAQ</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Shipping & Returns</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">COA Library</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white text-xs font-semibold uppercase tracking-wider mb-3">Legal</h4>
+        <ul class="space-y-1.5">
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Terms & Conditions</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Privacy Policy</a></li>
+          <li><a href="#" class="text-xs hover:text-white transition-colors">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-10 pt-6 border-t border-green-700/30 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-gray-500">© 2026 United Peptides. For research purposes only. Not for human consumption.</p>
+      <p class="text-xs text-gray-500">UK stock • Royal Mail Tracked 24</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
