@@ -184,7 +184,7 @@ export default function VendorsPage() {
               const minPrice = vendorMinPrices[v.name] || 0;
               const hasFreeShipping = v.shipping?.some((s) => s.toLowerCase().includes("free"));
               const hasLabTested = v.labTested;
-              const bigLogo = ["dr-peptides", "express-peptides", "the-peptide-company"].includes(v.slug);
+              const bigLogo = ["dr-peptides", "express-peptides", "the-peptide-company", "raw-peptides", "the-peptide-code"].includes(v.slug);
               return (
                 <Link
                   key={v.id}
