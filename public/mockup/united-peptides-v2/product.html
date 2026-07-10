@@ -9,37 +9,39 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; background: #fafafa; }
-  :root { --green: #0a3d3d; --green-light: #f0f7f7; --orange: #c85a17; }
-  .text-primary { color: var(--green); }
-  .bg-primary { background: var(--green); }
-  .bg-primary-light { background: var(--green-light); }
-  .text-accent { color: var(--orange); }
-  .bg-accent { background: var(--orange); }
-  .hover\:bg-accent-dark:hover { background: #a84a12; }
-  .border-accent { border-color: var(--orange); }
+  :root { --navy: #0f1d30; --navy-light: #eef2f7; --gold: #dc8a1c; --gold-dark: #c07a14; }
+  .text-primary { color: var(--navy); }
+  .bg-primary { background: var(--navy); }
+  .bg-primary-light { background: var(--navy-light); }
+  .text-accent { color: var(--gold); }
+  .bg-accent { background: var(--gold); }
+  .hover\:bg-accent-dark:hover { background: var(--gold-dark); }
+  .border-accent { border-color: var(--gold); }
+  .bg-gold-light { background: #fff6e6; }
+  .hover\:bg-navy-700:hover { background: #162a48; }
   .nav-link { position: relative; color: #4a5568; transition: color 0.2s; }
-  .nav-link:hover { color: var(--green); }
-  .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--orange); transition: width 0.2s; }
+  .nav-link:hover { color: var(--navy); }
+  .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--gold); transition: width 0.2s; }
   .nav-link:hover::after { width: 100%; }
   .tab-btn { padding: 10px 0; font-size: 14px; font-weight: 500; color: #6b7280; cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; }
-  .tab-btn:hover { color: var(--green); }
-  .tab-btn.active { color: var(--green); border-bottom-color: var(--green); font-weight: 600; }
+  .tab-btn:hover { color: var(--navy); }
+  .tab-btn.active { color: var(--navy); border-bottom-color: var(--navy); font-weight: 600; }
   .spec-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #f3f4f6; font-size: 14px; }
   .spec-row:last-child { border-bottom: none; }
   .spec-label { color: #6b7280; }
   .spec-value { font-weight: 600; color: #111827; }
   .quantity-btn { width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; border: 1px solid #e2e8f0; background: white; cursor: pointer; color: #4a5568; transition: all 0.15s; }
-  .quantity-btn:hover { background: var(--green-light); border-color: var(--green); color: var(--green); }
+  .quantity-btn:hover { background: var(--navy-light); border-color: var(--navy); color: var(--navy); }
   .quantity-btn:first-child { border-radius: 10px 0 0 10px; }
   .quantity-btn:last-child { border-radius: 0 10px 10px 0; }
-  .quantity-input { width: 44px; text-align: center; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; font-size: 15px; font-weight: 600; color: var(--green); }
-  .product-image-container { background: linear-gradient(135deg, #f0f7f7 0%, #e8f5f5 50%, #fef2eb 100%); }
+  .quantity-input { width: 44px; text-align: center; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; font-size: 15px; font-weight: 600; color: var(--navy); }
+  .product-image-container { background: linear-gradient(135deg, #eef2f7 0%, #e2e9f2 50%, #fef6e6 100%); }
 </style>
 </head>
 <body>
 
 <!-- TOP BAR -->
-<div class="bg-[#072d2d] text-white/70 text-[11px]">
+<div class="bg-[#0a1525] text-white/70 text-[11px]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-8">
     <span>📦 Free UK delivery on orders over £50 &nbsp;·&nbsp; 🔬 Research use only</span>
     <div class="flex items-center gap-3">
@@ -97,17 +99,17 @@
     <div class="grid md:grid-cols-2 gap-10">
       <!-- LEFT: Product Image -->
       <div>
-        <div class="product-image-container w-full aspect-square rounded-2xl border border-green-200 flex items-center justify-center relative overflow-hidden">
+        <div class="product-image-container w-full aspect-square rounded-2xl border border-navy/20 flex items-center justify-center relative overflow-hidden" style="border-color: rgba(15,29,48,0.2);">
           <!-- Decorative dots -->
-          <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(circle, #0a3d3d 1px, transparent 1px); background-size: 24px 24px;"></div>
+          <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(circle, #0f1d30 1px, transparent 1px); background-size: 24px 24px;"></div>
           <div class="text-center relative z-10">
             <!-- Vial illustration -->
             <svg class="w-32 h-44 mx-auto mb-2" viewBox="0 0 100 140" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="25" y="35" width="50" height="95" rx="6" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
               <rect x="35" y="8" width="30" height="35" rx="15" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
               <rect x="35" y="8" width="30" height="14" rx="7" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
-              <rect x="35" y="85" width="40" height="6" rx="3" fill="#0a3d3d" opacity="0.85"/>
-              <rect x="35" y="97" width="28" height="3" rx="1.5" fill="#0a3d3d" opacity="0.6"/>
+              <rect x="35" y="85" width="40" height="6" rx="3" fill="#0f1d30" opacity="0.85"/>
+              <rect x="35" y="97" width="28" height="3" rx="1.5" fill="#0f1d30" opacity="0.6"/>
               <rect x="20" y="120" width="60" height="1" rx="0.5" fill="#d1d5db"/>
               <rect x="20" y="124" width="60" height="1" rx="0.5" fill="#d1d5db"/>
               <line x1="50" y1="8" x2="50" y2="43" stroke="#e5e7eb" stroke-width="0.5"/>
@@ -150,7 +152,7 @@
         <div class="flex items-baseline gap-3 mb-5">
           <span class="text-3xl font-bold text-primary">£32.99</span>
           <span class="text-sm text-gray-400 line-through">£39.99</span>
-          <span class="badge-pill bg-green-100 text-green-800 text-[10px] px-2 py-0.5 rounded-full font-semibold">Save 17%</span>
+          <span class="badge-pill bg-emerald-100 text-emerald-800 text-[10px] px-2 py-0.5 rounded-full font-semibold">Save 17%</span>
         </div>
 
         <!-- Strength selector -->
@@ -169,7 +171,7 @@
             <div class="quantity-input flex items-center justify-center">1</div>
             <button class="quantity-btn">+</button>
           </div>
-          <a href="#" class="flex-1 px-6 py-3 bg-accent hover:bg-accent-dark text-white text-sm font-bold rounded-xl transition-all text-center shadow-sm shadow-orange-600/15">
+          <a href="#" class="flex-1 px-6 py-3 bg-accent hover:bg-accent-dark text-white text-sm font-bold rounded-xl transition-all text-center shadow-sm shadow-amber-700/15">
             Add to Cart — £32.99
           </a>
         </div>
@@ -212,7 +214,7 @@
             Discreet Packaging
           </div>
           <div class="flex items-center gap-2 text-xs text-gray-600 bg-white border border-gray-100 p-2.5 rounded-lg">
-            <div class="w-5 h-5 rounded bg-green-100 flex items-center justify-center flex-shrink-0"><svg class="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
+            <div class="w-5 h-5 rounded bg-emerald-100 flex items-center justify-center flex-shrink-0"><svg class="w-3 h-3 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
             Wallid Pay by Bank
           </div>
         </div>
@@ -291,7 +293,7 @@
         <h3 class="text-sm font-semibold text-gray-900">TB-500 5mg</h3>
         <p class="text-xs text-gray-500">£38.99</p>
       </a>
-      <a href="product-bpc157-v2.html" class="p-4 border border-gray-200 rounded-xl hover:shadow-md transition-all">
+      <a href="#" class="p-4 border border-gray-200 rounded-xl hover:shadow-md transition-all">
         <div class="w-full h-20 rounded-lg bg-primary-light flex items-center justify-center mb-2">
           <svg class="w-8 h-10 text-primary/30" viewBox="0 0 40 56" fill="currentColor"><rect x="10" y="14" width="20" height="38" rx="4"/><rect x="14" y="3" width="12" height="14" rx="6"/></svg>
         </div>
@@ -317,7 +319,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-[#072d2d] text-gray-400 py-10">
+<footer class="bg-[#080f1c] text-gray-400 py-10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
       <div>
