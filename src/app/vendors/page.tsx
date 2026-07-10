@@ -194,7 +194,7 @@ export default function VendorsPage() {
                   <div className="flex items-start gap-4">
                     {/* Logo - bigger for 3 vendors */}
                     <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-200`}>
-                      <img src={`/images/vendors/${v.slug}.png`} alt={v.name} className={`${bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14"} object-contain`} />
+                      <img src={`/images/vendors/${v.slug}${v.slug === "raw-peptides" ? ".svg" : ".png"}`} alt={v.name} className={`${bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14"} object-contain`} />
                     </div>
 
                     {/* Middle content */}
