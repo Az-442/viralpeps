@@ -4,357 +4,409 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BPC-157 5mg — United Peptides</title>
-<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; background: #fafafa; }
-  :root { --navy: #0f1d30; --navy-light: #eef2f7; --gold: #dc8a1c; --gold-dark: #c07a14; }
-  .text-primary { color: var(--navy); }
-  .bg-primary { background: var(--navy); }
-  .bg-primary-light { background: var(--navy-light); }
-  .text-accent { color: var(--gold); }
-  .bg-accent { background: var(--gold); }
-  .hover\:bg-accent-dark:hover { background: var(--gold-dark); }
-  .border-accent { border-color: var(--gold); }
-  .bg-gold-light { background: #fff6e6; }
-  .hover\:bg-navy-700:hover { background: #162a48; }
-  .nav-link { position: relative; color: #4a5568; transition: color 0.2s; }
-  .nav-link:hover { color: var(--navy); }
-  .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--gold); transition: width 0.2s; }
-  .nav-link:hover::after { width: 100%; }
-  .tab-btn { padding: 10px 0; font-size: 14px; font-weight: 500; color: #6b7280; cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; }
-  .tab-btn:hover { color: var(--navy); }
-  .tab-btn.active { color: var(--navy); border-bottom-color: var(--navy); font-weight: 600; }
-  .spec-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #f3f4f6; font-size: 14px; }
-  .spec-row:last-child { border-bottom: none; }
-  .spec-label { color: #6b7280; }
-  .spec-value { font-weight: 600; color: #111827; }
-  .quantity-btn { width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; border: 1px solid #e2e8f0; background: white; cursor: pointer; color: #4a5568; transition: all 0.15s; }
-  .quantity-btn:hover { background: var(--navy-light); border-color: var(--navy); color: var(--navy); }
-  .quantity-btn:first-child { border-radius: 10px 0 0 10px; }
-  .quantity-btn:last-child { border-radius: 0 10px 10px 0; }
-  .quantity-input { width: 44px; text-align: center; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; font-size: 15px; font-weight: 600; color: var(--navy); }
-  .product-image-container { background: linear-gradient(135deg, #eef2f7 0%, #e2e9f2 50%, #fef6e6 100%); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Lato, Arial, sans-serif; background: #fff; color: #777; }
+
+.top-bar {
+  background: #0a608f;
+  color: rgba(255,255,255,0.85);
+  font-size: 13px;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar a { color: rgba(255,255,255,0.85); text-decoration: none; }
+.top-bar a:hover { color: #fff; }
+
+header {
+  background: #f0f0f0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo { font-size: 22px; font-weight: 900; color: #000; text-decoration: none; }
+.logo span { font-weight: 300; color: #888; }
+nav { display: flex; align-items: center; gap: 28px; }
+nav a { color: #000; text-decoration: none; font-size: 14px; font-weight: 700; text-transform: uppercase; }
+nav a:hover { color: #555; }
+
+.breadcrumb {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  font-size: 12px;
+  color: #777;
+  border-bottom: 1px solid #eee;
+}
+.breadcrumb a { color: #777; text-decoration: none; }
+.breadcrumb a:hover { color: #000; }
+
+.product-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.product-images {
+  border: 1px solid #e0e0e0;
+  background: #f9f9f9;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.product-images .badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #ffc001;
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+}
+.product-info h1 {
+  color: #152420;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.product-info .subtitle { font-size: 13px; color: #777; margin-bottom: 16px; }
+.product-info .price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.product-info .price-row .current { font-size: 28px; font-weight: 700; color: #000; }
+.product-info .price-row .old { font-size: 16px; color: #999; text-decoration: line-through; }
+.product-info .price-row .save {
+  background: #20c720;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+}
+
+.option-group { margin-bottom: 16px; }
+.option-group label { font-size: 12px; font-weight: 700; color: #42504b; display: block; margin-bottom: 6px; }
+.option-group .opts { display: flex; gap: 8px; }
+.option-group .opts .opt {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  cursor: pointer;
+  background: #fff;
+}
+.option-group .opts .opt.active {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.qty-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.qty-row .qty {
+  display: flex;
+  align-items: center;
+}
+.qty-row .qty button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.qty-row .qty div {
+  width: 40px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+.volume-discount {
+  background: #f1f5f9;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.volume-discount p { font-size: 12px; font-weight: 700; color: #42504b; margin-bottom: 8px; }
+.volume-discount .tiers { display: flex; gap: 8px; }
+.volume-discount .tiers .tier {
+  flex: 1;
+  text-align: center;
+  padding: 8px 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 12px;
+}
+.volume-discount .tiers .tier.best {
+  background: #20c720;
+  color: #fff;
+  border-color: #20c720;
+}
+.volume-discount .tiers .tier .num { font-weight: 700; font-size: 14px; }
+.volume-discount .tiers .tier .pct { font-size: 10px; color: #777; }
+.volume-discount .tiers .tier.best .pct { color: rgba(255,255,255,0.8); }
+
+.trust-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
+.trust-grid .item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid #eee;
+  font-size: 12px;
+  color: #42504b;
+}
+
+.tabs { border-top: 1px solid #ddd; padding-top: 20px; }
+.tabs .tab-headers { display: flex; gap: 20px; border-bottom: 1px solid #ddd; margin-bottom: 16px; }
+.tabs .tab-headers .tab {
+  padding: 8px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #777;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.tabs .tab-headers .tab.active { color: #000; border-bottom-color: #000; }
+.tabs .content { font-size: 13px; color: #777; line-height: 1.7; }
+
+.specs { border: 1px solid #ddd; margin-top: 16px; }
+.specs .row { display: flex; justify-content: space-between; padding: 8px 14px; border-bottom: 1px solid #eee; font-size: 13px; }
+.specs .row:last-child { border-bottom: none; }
+.specs .row:nth-child(even) { background: #f9f9f9; }
+.specs .label { color: #777; }
+.specs .value { font-weight: 700; color: #000; }
+
+.related {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-top: 1px solid #eee;
+}
+.related h2 { font-size: 16px; font-weight: 700; color: #000; margin-bottom: 16px; text-transform: uppercase; }
+.related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.related-card {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.related-card:hover { box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+.related-card .img { background: #f9f9f9; height: 100px; display: flex; align-items: center; justify-content: center; margin-bottom: 8px; }
+.related-card h3 { font-size: 13px; font-weight: 700; color: #000; margin-bottom: 4px; }
+.related-card .price { font-size: 13px; color: #777; }
+
+footer {
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  padding: 30px 20px;
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+}
+footer a { color: #777; text-decoration: none; }
+footer a:hover { color: #000; }
+footer .links { display: flex; justify-content: center; gap: 20px; margin-bottom: 12px; }
+
+@media (max-width: 768px) {
+  .product-page { grid-template-columns: 1fr; }
+  .related-grid { grid-template-columns: repeat(2, 1fr); }
+  nav { display: none; }
+}
 </style>
 </head>
 <body>
 
-<!-- TOP BAR -->
-<div class="bg-[#0a1525] text-white/70 text-[11px]">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-8">
-    <span>📦 Free UK delivery on orders over £50 &nbsp;·&nbsp; 🔬 Research use only</span>
-    <div class="flex items-center gap-3">
-      <a href="#" class="hover:text-white transition-colors">Partner Program</a>
-      <a href="#" class="hover:text-white transition-colors">Contact</a>
-    </div>
+<div class="top-bar">
+  <span>Free UK shipping on orders over £50</span>
+  <div>
+    <a href="#">Peptide Calculator</a>
+    <span style="margin:0 8px;opacity:0.4">|</span>
+    <a href="#">COA Library</a>
+    <span style="margin:0 8px;opacity:0.4">|</span>
+    <a href="#">Reconstitution Guide</a>
   </div>
 </div>
 
-<!-- HEADER -->
-<header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <a href="index.html" class="flex items-center gap-3">
-        <div class="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 3h6v5l4 8H5l4-8V3z"/></svg>
-        </div>
-        <div><span class="font-bold text-base tracking-tight text-primary">UNITED</span><span class="font-light text-base tracking-tight text-gray-500">PEPTIDES</span></div>
-      </a>
-      <nav class="hidden md:flex items-center gap-8">
-        <a href="catalogue-v2.html" class="nav-link text-sm">Catalogue</a>
-        <a href="coa-v2.html" class="nav-link text-sm">COA Library</a>
-        <a href="research-v2.html" class="nav-link text-sm">Research</a>
-        <a href="about-v2.html" class="nav-link text-sm">About Us</a>
-      </nav>
-      <div class="flex items-center gap-4">
-        <button class="text-gray-500 hover:text-primary transition-colors">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-        </button>
-        <button class="relative text-gray-500 hover:text-primary transition-colors">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18"/><path d="M16 10a4 4 0 01-8 0"/></svg>
-          <span class="absolute -top-1.5 -right-1.5 w-4 h-4 bg-accent rounded-full text-white text-[9px] font-bold flex items-center justify-center">2</span>
-        </button>
-      </div>
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">UNITED <span>PEPTIDES</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Catalogue</a>
+      <a href="#">About Us</a>
+      <a href="#">FAQ</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div>
+      <a href="#" style="color:#000;text-decoration:none;font-size:13px;">Search</a>
+      <span style="margin:0 8px;color:#ccc;">|</span>
+      <a href="#" style="color:#000;text-decoration:none;font-size:13px;">Cart (0)</a>
     </div>
   </div>
 </header>
 
-<!-- BREADCRUMB -->
-<div class="bg-white border-b border-gray-100">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center gap-1.5 text-xs text-gray-500">
-    <a href="index.html" class="hover:text-primary">Home</a>
-    <span>/</span>
-    <a href="catalogue-v2.html" class="hover:text-primary">Catalogue</a>
-    <span>/</span>
-    <a href="catalogue-v2.html" class="hover:text-primary">Healing & Recovery</a>
-    <span>/</span>
-    <span class="text-primary font-medium">BPC-157 5mg</span>
+<div class="breadcrumb">
+  <a href="index.html">Home</a> / <a href="#">Catalogue</a> / <a href="#">Research Peptides</a> / <span style="color:#000;font-weight:700;">BPC-157 5mg</span>
+</div>
+
+<div class="product-page">
+  <div class="product-images">
+    <div class="badge">Most Popular</div>
+    <svg width="120" height="160" viewBox="0 0 80 120" fill="none">
+      <rect x="20" y="30" width="40" height="80" rx="4" fill="white" stroke="#ccc" stroke-width="1.5"/>
+      <rect x="28" y="5" width="24" height="30" rx="12" fill="white" stroke="#ccc" stroke-width="1.5"/>
+      <rect x="28" y="5" width="24" height="12" rx="6" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+      <rect x="25" y="70" width="30" height="4" rx="2" fill="#20c720" opacity="0.6"/>
+      <rect x="25" y="80" width="20" height="2" rx="1" fill="#20c720" opacity="0.4"/>
+    </svg>
+    <div style="display:flex;gap:8px;margin-top:16px;">
+      <div style="width:40px;height:40px;border:2px solid #000;background:#f9f9f9;display:flex;align-items:center;justify-content:center;">
+        <svg width="16" height="22" fill="#ccc"><rect x="4" y="6" width="8" height="14" rx="2"/><rect x="5" y="1" width="6" height="6" rx="3"/></svg>
+      </div>
+      <div style="width:40px;height:40px;border:1px solid #ddd;background:#f9f9f9;display:flex;align-items:center;justify-content:center;">
+        <svg width="14" height="14" fill="#ccc" viewBox="0 0 24 24"><path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+      </div>
+      <div style="width:40px;height:40px;border:1px solid #ddd;background:#f9f9f9;display:flex;align-items:center;justify-content:center;">
+        <svg width="14" height="14" fill="#ccc" viewBox="0 0 24 24"><path d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.41a2.25 2.25 0 013.182 0l2.909 2.91m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25z"/></svg>
+      </div>
+    </div>
+    <div style="margin-top:12px;font-size:11px;color:#777;">Batch #BP2407-03 · Purity: 99.4%</div>
+  </div>
+  <div class="product-info">
+    <div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap;">
+      <span style="background:#ffc001;color:#000;font-size:10px;font-weight:700;padding:2px 8px;">Most Popular</span>
+      <span style="background:#20c720;color:#fff;font-size:10px;font-weight:700;padding:2px 8px;">In Stock</span>
+      <span style="background:#f1f5f9;color:#116ca3;font-size:10px;font-weight:600;padding:2px 8px;">Healing</span>
+    </div>
+    <h1>BPC-157 5mg</h1>
+    <p class="subtitle">Body Protection Compound-157 — Synthetic pentadecapeptide for laboratory research.</p>
+    <div class="price-row">
+      <span class="current">£32.99</span>
+      <span class="old">£39.99</span>
+      <span class="save">Save 17%</span>
+    </div>
+
+    <div class="option-group">
+      <label>Strength:</label>
+      <div class="opts">
+        <div class="opt active">5mg — £32.99</div>
+        <div class="opt">10mg — £54.99</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap;">
+      <div class="qty">
+        <button>−</button>
+        <div>1</div>
+        <button>+</button>
+      </div>
+      <a href="#" class="btn-green" style="text-decoration:none;text-align:center;">Add to Cart — £32.99</a>
+    </div>
+
+    <div class="volume-discount">
+      <p>Buy more, save more — auto-applied at checkout</p>
+      <div class="tiers">
+        <div class="tier"><div class="num">2</div><div class="pct">10% off</div></div>
+        <div class="tier"><div class="num">3</div><div class="pct">15% off</div></div>
+        <div class="tier"><div class="num">4</div><div class="pct">20% off</div></div>
+        <div class="tier best"><div class="num">5+</div><div class="pct">25% off</div></div>
+      </div>
+    </div>
+
+    <div class="trust-grid">
+      <div class="item"><span style="color:#20c720;">✔</span> Janoshik Tested (HPLC)</div>
+      <div class="item"><span style="color:#20c720;">✔</span> Tracked 24 Delivery</div>
+      <div class="item"><span style="color:#20c720;">✔</span> Discreet Packaging</div>
+      <div class="item"><span style="color:#20c720;">✔</span> Wallid Pay by Bank</div>
+    </div>
+
+    <div class="tabs">
+      <div class="tab-headers">
+        <span class="tab active">Description</span>
+        <span class="tab">Specifications</span>
+        <span class="tab">Shipping</span>
+        <span class="tab">COA</span>
+      </div>
+      <div class="content">
+        <p>BPC-157 (Body Protection Compound-157) is a synthetic pentadecapeptide composed of 15 amino acids. It is a partial sequence of the body protection compound (BPC) originally discovered in human gastric juice.</p>
+        <p style="margin-top:10px;">In laboratory research, BPC-157 has been extensively studied for its angiogenic properties — promoting new blood vessel formation and accelerating soft tissue repair processes in experimental models.</p>
+      </div>
+      <div class="specs">
+        <div class="row"><span class="label">Purity (HPLC)</span><span class="value">≥99.2%</span></div>
+        <div class="row"><span class="label">Mass Spectrometry</span><span class="value">Verified</span></div>
+        <div class="row"><span class="label">Endotoxins</span><span class="value">&lt;0.5 EU/mg</span></div>
+        <div class="row"><span class="label">Sterility</span><span class="value">Pass</span></div>
+        <div class="row"><span class="label">Form</span><span class="value">Lyophilized powder</span></div>
+        <div class="row"><span class="label">Storage</span><span class="value">2-8°C (cold chain)</span></div>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- PRODUCT SECTION -->
-<section class="py-8 md:py-10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid md:grid-cols-2 gap-10">
-      <!-- LEFT: Product Image -->
-      <div>
-        <div class="product-image-container w-full aspect-square rounded-2xl border border-navy/20 flex items-center justify-center relative overflow-hidden" style="border-color: rgba(15,29,48,0.2);">
-          <!-- Decorative dots -->
-          <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(circle, #0f1d30 1px, transparent 1px); background-size: 24px 24px;"></div>
-          <div class="text-center relative z-10">
-            <!-- Vial illustration -->
-            <svg class="w-32 h-44 mx-auto mb-2" viewBox="0 0 100 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="25" y="35" width="50" height="95" rx="6" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
-              <rect x="35" y="8" width="30" height="35" rx="15" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
-              <rect x="35" y="8" width="30" height="14" rx="7" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
-              <rect x="35" y="85" width="40" height="6" rx="3" fill="#0f1d30" opacity="0.85"/>
-              <rect x="35" y="97" width="28" height="3" rx="1.5" fill="#0f1d30" opacity="0.6"/>
-              <rect x="20" y="120" width="60" height="1" rx="0.5" fill="#d1d5db"/>
-              <rect x="20" y="124" width="60" height="1" rx="0.5" fill="#d1d5db"/>
-              <line x1="50" y1="8" x2="50" y2="43" stroke="#e5e7eb" stroke-width="0.5"/>
-            </svg>
-            <div class="flex items-center justify-center gap-2 mt-1">
-              <span class="badge-pill bg-primary-light text-primary border border-primary/20 text-[10px] font-semibold px-2 py-0.5 rounded-full">Batch #BP2407-03</span>
-              <span class="badge-pill bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-semibold px-2 py-0.5 rounded-full">Purity 99.4%</span>
-            </div>
-          </div>
-          <!-- Badge -->
-          <div class="absolute top-4 left-4">
-            <span class="badge-pill bg-accent text-white text-[10px] font-bold px-3 py-1 rounded-full">Most Popular</span>
-          </div>
-        </div>
-        <!-- Thumbnails -->
-        <div class="flex gap-2 mt-3">
-          <div class="w-16 h-16 rounded-xl bg-primary-light border-2 border-primary flex items-center justify-center cursor-pointer">
-            <svg class="w-7 h-9 text-primary/40" viewBox="0 0 40 56" fill="currentColor"><rect x="10" y="14" width="20" height="38" rx="4"/><rect x="14" y="3" width="12" height="14" rx="6"/></svg>
-          </div>
-          <div class="w-16 h-16 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center cursor-pointer opacity-60 hover:opacity-100 transition-opacity">
-            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
-          </div>
-          <div class="w-16 h-16 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center cursor-pointer opacity-60 hover:opacity-100 transition-opacity">
-            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.41a2.25 2.25 0 013.182 0l2.909 2.91m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/></svg>
-          </div>
-        </div>
-      </div>
-
-      <!-- RIGHT: Product Info -->
-      <div>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="badge-pill bg-accent text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full">Most Popular</span>
-          <span class="badge-pill bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] px-2.5 py-0.5 rounded-full">In Stock</span>
-          <span class="badge-pill bg-blue-50 text-blue-700 border border-blue-200 text-[10px] px-2.5 py-0.5 rounded-full">Healing</span>
-        </div>
-        <h1 class="text-3xl font-bold text-gray-900 mb-1">BPC-157 5mg</h1>
-        <p class="text-sm text-gray-500 mb-4">Body Protection Compound-157 — Synthetic pentadecapeptide for laboratory research.</p>
-        
-        <!-- Price -->
-        <div class="flex items-baseline gap-3 mb-5">
-          <span class="text-3xl font-bold text-primary">£32.99</span>
-          <span class="text-sm text-gray-400 line-through">£39.99</span>
-          <span class="badge-pill bg-emerald-100 text-emerald-800 text-[10px] px-2 py-0.5 rounded-full font-semibold">Save 17%</span>
-        </div>
-
-        <!-- Strength selector -->
-        <div class="mb-5">
-          <p class="text-xs font-semibold text-gray-700 mb-2">Strength:</p>
-          <div class="flex gap-2">
-            <div class="px-4 py-2.5 bg-primary text-white text-sm font-semibold rounded-lg border-2 border-primary cursor-pointer">5mg — £32.99</div>
-            <div class="px-4 py-2.5 bg-white text-gray-700 text-sm font-medium rounded-lg border border-gray-300 cursor-pointer hover:border-primary">10mg — £54.99</div>
-          </div>
-        </div>
-
-        <!-- Quantity + Add to Cart -->
-        <div class="flex items-center gap-3 mb-5">
-          <div class="flex">
-            <button class="quantity-btn">−</button>
-            <div class="quantity-input flex items-center justify-center">1</div>
-            <button class="quantity-btn">+</button>
-          </div>
-          <a href="#" class="flex-1 px-6 py-3 bg-accent hover:bg-accent-dark text-white text-sm font-bold rounded-xl transition-all text-center shadow-sm shadow-amber-700/15">
-            Add to Cart — £32.99
-          </a>
-        </div>
-
-        <!-- Volume discount -->
-        <div class="bg-primary-light rounded-xl p-4 mb-5">
-          <p class="text-xs font-semibold text-primary mb-2">Buy more, save more — auto-applied at checkout</p>
-          <div class="flex gap-2">
-            <div class="flex-1 text-center py-2 rounded-lg bg-white border border-primary/20">
-              <span class="text-sm font-bold text-primary">2</span>
-              <p class="text-[10px] text-gray-500">10% off</p>
-            </div>
-            <div class="flex-1 text-center py-2 rounded-lg bg-white border border-primary/20">
-              <span class="text-sm font-bold text-primary">3</span>
-              <p class="text-[10px] text-gray-500">15% off</p>
-            </div>
-            <div class="flex-1 text-center py-2 rounded-lg bg-white border border-primary/20">
-              <span class="text-sm font-bold text-primary">4</span>
-              <p class="text-[10px] text-gray-500">20% off</p>
-            </div>
-            <div class="flex-1 text-center py-2 rounded-lg bg-accent text-white">
-              <span class="text-sm font-bold">5+</span>
-              <p class="text-[10px] text-white/80">25% off</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Trust badges -->
-        <div class="grid grid-cols-2 gap-2 mb-5">
-          <div class="flex items-center gap-2 text-xs text-gray-600 bg-white border border-gray-100 p-2.5 rounded-lg">
-            <div class="w-5 h-5 rounded bg-primary-light flex items-center justify-center flex-shrink-0"><svg class="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            Janoshik Tested (HPLC)
-          </div>
-          <div class="flex items-center gap-2 text-xs text-gray-600 bg-white border border-gray-100 p-2.5 rounded-lg">
-            <div class="w-5 h-5 rounded bg-blue-100 flex items-center justify-center flex-shrink-0"><svg class="w-3 h-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg></div>
-            Tracked 24 Delivery
-          </div>
-          <div class="flex items-center gap-2 text-xs text-gray-600 bg-white border border-gray-100 p-2.5 rounded-lg">
-            <div class="w-5 h-5 rounded bg-purple-100 flex items-center justify-center flex-shrink-0"><svg class="w-3 h-3 text-purple-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/></svg></div>
-            Discreet Packaging
-          </div>
-          <div class="flex items-center gap-2 text-xs text-gray-600 bg-white border border-gray-100 p-2.5 rounded-lg">
-            <div class="w-5 h-5 rounded bg-emerald-100 flex items-center justify-center flex-shrink-0"><svg class="w-3 h-3 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            Wallid Pay by Bank
-          </div>
-        </div>
-
-        <!-- Tabs -->
-        <div class="border-t border-gray-200 pt-5">
-          <div class="flex gap-6 border-b border-gray-200 mb-4">
-            <span class="tab-btn active">Description</span>
-            <span class="tab-btn">Specifications</span>
-            <span class="tab-btn">Shipping</span>
-            <span class="tab-btn">COA</span>
-          </div>
-          <div class="text-sm text-gray-600 leading-relaxed space-y-3">
-            <p>BPC-157 (Body Protection Compound-157) is a synthetic pentadecapeptide composed of 15 amino acids. It is a partial sequence of the body protection compound (BPC) originally discovered in human gastric juice.</p>
-            <p>In laboratory research, BPC-157 has been extensively studied for its angiogenic properties — promoting new blood vessel formation and accelerating soft tissue repair processes in experimental models.</p>
-          </div>
-          <!-- Specs table -->
-          <div class="mt-4 space-y-0 border rounded-lg overflow-hidden">
-            <div class="spec-row px-4"><span class="spec-label">Purity (HPLC)</span><span class="spec-value">≥99.2%</span></div>
-            <div class="spec-row px-4 bg-gray-50"><span class="spec-label">Mass Spectrometry</span><span class="spec-value">Verified</span></div>
-            <div class="spec-row px-4"><span class="spec-label">Endotoxins</span><span class="spec-value">&lt;0.5 EU/mg</span></div>
-            <div class="spec-row px-4 bg-gray-50"><span class="spec-label">Sterility</span><span class="spec-value">Pass</span></div>
-            <div class="spec-row px-4"><span class="spec-label">Form</span><span class="spec-value">Lyophilized powder</span></div>
-            <div class="spec-row px-4 bg-gray-50"><span class="spec-label">Storage</span><span class="spec-value">2-8°C (cold chain)</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="related">
+  <h2>Related Products</h2>
+  <div class="related-grid">
+    <a href="#" class="related-card">
+      <div class="img"><svg width="30" height="40" fill="#ccc"><rect x="8" y="10" width="14" height="26" rx="3"/><rect x="10" y="2" width="10" height="10" rx="4"/></svg></div>
+      <h3>TB-500 5mg</h3>
+      <div class="price">£38.99</div>
+    </a>
+    <a href="#" class="related-card">
+      <div class="img"><svg width="30" height="40" fill="#ccc"><rect x="8" y="10" width="14" height="26" rx="3"/><rect x="10" y="2" width="10" height="10" rx="4"/></svg></div>
+      <h3>BPC-157 10mg</h3>
+      <div class="price">£54.99</div>
+    </a>
+    <a href="#" class="related-card">
+      <div class="img"><svg width="30" height="40" fill="#ccc"><rect x="8" y="10" width="14" height="26" rx="3"/><rect x="10" y="2" width="10" height="10" rx="4"/></svg></div>
+      <h3>Wolverine Stack</h3>
+      <div class="price">£54.99</div>
+    </a>
+    <a href="#" class="related-card">
+      <div class="img"><svg width="24" height="24" fill="#ccc" viewBox="0 0 24 24"><path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg></div>
+      <h3>View COA</h3>
+      <div class="price">Batch #BP2407-03</div>
+    </a>
   </div>
-</section>
+</div>
 
-<!-- WHY BUY -->
-<section class="py-10 bg-gray-50 border-t border-gray-100">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid md:grid-cols-3 gap-6">
-      <div class="flex items-start gap-3">
-        <div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center flex-shrink-0">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-        </div>
-        <div>
-          <h4 class="text-sm font-semibold text-gray-900">Third-Party Tested</h4>
-          <p class="text-xs text-gray-500 mt-0.5">Janoshik Analytical — ISO 17025. Full COA with every order.</p>
-        </div>
-      </div>
-      <div class="flex items-start gap-3">
-        <div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center flex-shrink-0">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/></svg>
-        </div>
-        <div>
-          <h4 class="text-sm font-semibold text-gray-900">Same-Day Dispatch</h4>
-          <p class="text-xs text-gray-500 mt-0.5">Order before 2pm for next-day delivery via Royal Mail Tracked 24.</p>
-        </div>
-      </div>
-      <div class="flex items-start gap-3">
-        <div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center flex-shrink-0">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
-        </div>
-        <div>
-          <h4 class="text-sm font-semibold text-gray-900">Secure Checkout</h4>
-          <p class="text-xs text-gray-500 mt-0.5">Wallid Pay by Bank — 0.7% fees, no chargebacks, encrypted.</p>
-        </div>
-      </div>
-    </div>
+<footer>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="#">Catalogue</a>
+    <a href="#">About Us</a>
+    <a href="#">FAQ</a>
+    <a href="#">Contact</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">T&Cs</a>
   </div>
-</section>
-
-<!-- RELATED -->
-<section class="py-10 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="text-lg font-bold text-primary mb-5">Related Products</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <a href="#" class="p-4 border border-gray-200 rounded-xl hover:shadow-md transition-all">
-        <div class="w-full h-20 rounded-lg bg-primary-light flex items-center justify-center mb-2">
-          <svg class="w-8 h-10 text-primary/30" viewBox="0 0 40 56" fill="currentColor"><rect x="10" y="14" width="20" height="38" rx="4"/><rect x="14" y="3" width="12" height="14" rx="6"/></svg>
-        </div>
-        <h3 class="text-sm font-semibold text-gray-900">TB-500 5mg</h3>
-        <p class="text-xs text-gray-500">£38.99</p>
-      </a>
-      <a href="#" class="p-4 border border-gray-200 rounded-xl hover:shadow-md transition-all">
-        <div class="w-full h-20 rounded-lg bg-primary-light flex items-center justify-center mb-2">
-          <svg class="w-8 h-10 text-primary/30" viewBox="0 0 40 56" fill="currentColor"><rect x="10" y="14" width="20" height="38" rx="4"/><rect x="14" y="3" width="12" height="14" rx="6"/></svg>
-        </div>
-        <h3 class="text-sm font-semibold text-gray-900">BPC-157 10mg</h3>
-        <p class="text-xs text-gray-500">£54.99</p>
-      </a>
-      <a href="#" class="p-4 border border-gray-200 rounded-xl hover:shadow-md transition-all">
-        <div class="w-full h-20 rounded-lg bg-primary-light flex items-center justify-center mb-2">
-          <svg class="w-8 h-10 text-primary/30" viewBox="0 0 40 56" fill="currentColor"><rect x="10" y="14" width="20" height="38" rx="4"/><rect x="14" y="3" width="12" height="14" rx="6"/></svg>
-        </div>
-        <h3 class="text-sm font-semibold text-gray-900">Wolverine Stack</h3>
-        <p class="text-xs text-gray-500">£54.99</p>
-      </a>
-      <a href="coa-v2.html" class="p-4 border border-gray-200 rounded-xl hover:shadow-md transition-all">
-        <div class="w-full h-20 rounded-lg bg-gray-50 flex items-center justify-center mb-2">
-          <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
-        </div>
-        <h3 class="text-sm font-semibold text-gray-900">View COA</h3>
-        <p class="text-xs text-gray-500">Batch #BP2407-03</p>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="bg-[#080f1c] text-gray-400 py-10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-      <div>
-        <a href="index.html" class="flex items-center gap-2 mb-3">
-          <div class="w-7 h-7 rounded-lg bg-white/10 flex items-center justify-center"><svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 3h6v5l4 8H5l4-8V3z"/></svg></div>
-          <span class="font-bold text-white text-sm">UNITED PEPTIDES</span>
-        </a>
-      </div>
-      <div>
-        <h4 class="text-white text-xs font-semibold uppercase tracking-wider mb-3">Catalogue</h4>
-        <ul class="space-y-1.5">
-          <li><a href="catalogue-v2.html" class="text-xs hover:text-white transition-colors">All Products</a></li>
-          <li><a href="catalogue-v2.html" class="text-xs hover:text-white transition-colors">GLP-1 Agonists</a></li>
-          <li><a href="catalogue-v2.html" class="text-xs hover:text-white transition-colors">Healing & Recovery</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-white text-xs font-semibold uppercase tracking-wider mb-3">Support</h4>
-        <ul class="space-y-1.5">
-          <li><a href="contact-v2.html" class="text-xs hover:text-white transition-colors">Contact</a></li>
-          <li><a href="coa-v2.html" class="text-xs hover:text-white transition-colors">COA Library</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-white text-xs font-semibold uppercase tracking-wider mb-3">Legal</h4>
-        <ul class="space-y-1.5">
-          <li><a href="#" class="text-xs hover:text-white transition-colors">Terms & Conditions</a></li>
-          <li><a href="#" class="text-xs hover:text-white transition-colors">Disclaimer</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="mt-6 pt-4 border-t border-white/10 text-center">
-      <p class="text-xs text-gray-500">© 2026 United Peptides. For research purposes only.</p>
-    </div>
-  </div>
+  <p style="margin-bottom:6px;">© 2026 United Peptides. For research purposes only.</p>
+  <p style="font-size:11px;color:#999;">All products for research and laboratory use only. Not for human consumption. 18+ only.</p>
 </footer>
 
 </body>
