@@ -147,9 +147,46 @@ export default async function ResearchArticlePage({
 
   const related = getRelatedArticles(slug, content.compoundSlug);
 
+  // Build article schema
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `https://www.viralpeps.co.uk/research/${slug}#article`,
+        headline: guide.title,
+        description: guide.desc,
+        image: guide.image ? `https://www.viralpeps.co.uk/images/guides/${guide.image}.png` : undefined,
+        author: { "@type": "Organization", name: "ViralPeps" },
+        publisher: { "@type": "Organization", name: "ViralPeps" },
+        mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.viralpeps.co.uk/research/${slug}` },
+        inLanguage: "en-GB",
+      },
+      ...(content.faq && content.faq.length > 0
+        ? [
+            {
+              "@type": "FAQPage",
+              "@id": `https://www.viralpeps.co.uk/research/${slug}#faq`,
+              mainEntity: content.faq.map((f) => ({
+                "@type": "Question",
+                name: f.question,
+                acceptedAnswer: { "@type": "Answer", text: f.answer },
+              })),
+            },
+          ]
+        : []),
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <HeaderNav current="/research" />
+
+      {/* Article + FAQPage schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-16">
@@ -229,6 +266,41 @@ export default async function ResearchArticlePage({
             <SectionRenderer key={i} section={section} />
           ))}
         </div>
+
+        {/* === FAQ SECTION (accordion like PeptideGuide) === */}
+        {content.faq && content.faq.length > 0 && (
+          <section className="mt-12 mb-8" id="faq">
+            <h2 className="text-xl font-bold text-gray-900 mb-6">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-3">
+              {content.faq.map((item, i) => (
+                <details
+                  key={i}
+                  className="group bg-white border border-gray-200 rounded-xl overflow-hidden"
+                >
+                  <summary className="flex items-center justify-between px-5 py-4 cursor-pointer text-sm font-semibold text-gray-900 hover:bg-gray-50 transition-colors list-none">
+                    {item.question}
+                    <svg
+                      className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0 ml-4"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                    >
+                      <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                  </summary>
+                  <div className="px-5 pb-4">
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      {item.answer}
+                    </p>
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* === BIG COMPARE PRICES BANNER (like PS) === */}
         {content.compoundSlug && (

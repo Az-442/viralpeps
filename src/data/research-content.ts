@@ -4,6 +4,7 @@ export interface ResearchPageContent {
   pullQuote?: string;
   quickInfo?: { label: string; value: string }[];
   sections: ResearchSection[];
+  faq?: { question: string; answer: string }[];
   references?: string[];
 }
 
@@ -121,6 +122,28 @@ const content: Record<string, ResearchPageContent> = {
       "Cesarec V, et al. BPC 157 and the central nervous system. Neurosci Lett. 2020;735:135158.",
       "Brcic L, et al. BPC 157 and nitric oxide system. Nitric Oxide. 2022;118:10-20.",
     ],
+    faq: [
+      {
+        question: "What is BPC-157 used for in research?",
+        answer: "BPC-157 is studied primarily in preclinical models for tissue repair, wound healing, gastrointestinal integrity, and musculoskeletal recovery. Its multi-pathway effects on angiogenesis, collagen remodelling, and inflammation modulation make it one of the most widely discussed peptides in regenerative research."
+      },
+      {
+        question: "What are the main mechanisms of BPC-157?",
+        answer: "BPC-157 works through five coordinated pathways: angiogenesis via HIF-1α/VEGF, fibroblast activation and collagen remodelling, nitric oxide signalling for improved blood flow, CNS penetration for neuroprotection, and inflammation modulation that shifts the environment from destruction toward organised repair."
+      },
+      {
+        question: "Is BPC-157 approved for human use?",
+        answer: "No. BPC-157 is not approved by the MHRA, FDA, or EMA for human use. It is strictly for in-vitro and animal laboratory research. All dosing information refers to research protocols only."
+      },
+      {
+        question: "How is BPC-157 typically administered in research?",
+        answer: "Subcutaneous injection is the most common route in research settings. BPC-157 is acid-stable (consistent with its gastric juice origin), so oral bioavailability is possible, though less studied. Research protocols typically reference 200-800 mcg per day over 4-6 week cycles."
+      },
+      {
+        question: "Does BPC-157 interact with other compounds?",
+        answer: "BPC-157 is often studied alongside TB-500 as a healing stack due to their complementary mechanisms — BPC-157 drives angiogenesis and collagen organisation while TB-500 promotes cell migration. Limited data exists on other specific interactions, and researchers should exercise standard caution when combining any research compounds."
+      },
+    ],
   },
 
   "tirzepatide-research-summary": {
@@ -198,6 +221,28 @@ const content: Record<string, ResearchPageContent> = {
       "Loomba R, et al. Tirzepatide for metabolic dysfunction-associated steatohepatitis. N Engl J Med. 2024;391(4):312-324.",
       "Packer M, et al. Tirzepatide and heart failure with preserved ejection fraction. N Engl J Med. 2024.",
       "Rosenstock J, et al. Efficacy and safety of tirzepatide in type 2 diabetes. Lancet Diabetes Endocrinol. 2022;10(10):699-712.",
+    ],
+    faq: [
+      {
+        question: "What is tirzepatide and how does it work?",
+        answer: "Tirzepatide is a 39-amino-acid synthetic peptide that acts as a dual agonist at both GIP and GLP-1 receptors. This dual mechanism enhances insulin secretion, slows gastric emptying, suppresses appetite, and improves insulin sensitivity — producing greater effects than GLP-1-only agonists like semaglutide."
+      },
+      {
+        question: "What are the main differences between tirzepatide and semaglutide?",
+        answer: "Tirzepatide activates both GIP and GLP-1 receptors, whereas semaglutide targets GLP-1 only. In head-to-head trials, tirzepatide produced greater HbA1c reductions (up to −2.30% vs −1.86%) and more weight loss (up to −11.2 kg vs −5.7 kg) at their respective maximum doses."
+      },
+      {
+        question: "What clinical data supports tirzepatide research?",
+        answer: "Tirzepatide has been evaluated across the SURPASS (type 2 diabetes), SURMOUNT (obesity), SYNERGY-NASH (MASH/NASH), and SUMMIT (HFpEF) clinical programmes. Results include the largest HbA1c reductions ever reported for a glucose-lowering agent, up to 20.9% body weight reduction, and a 44% reduction in heart failure hospitalisations."
+      },
+      {
+        question: "What are the common side effects in clinical trials?",
+        answer: "The most common adverse events are gastrointestinal: nausea (18-33%), diarrhoea (15-22%), vomiting (6-13%), and constipation (7-10%). These are dose-dependent and typically occur during dose escalation. Serious events are uncommon but include pancreatitis and gallbladder disease."
+      },
+      {
+        question: "Is tirzepatide approved or is it strictly for research?",
+        answer: "Tirzepatide is FDA-approved as Mounjaro for type 2 diabetes (May 2022) and Zepbound for chronic weight management (November 2023). For research purposes, it is supplied as a lyophilised powder for laboratory study. It carries a boxed warning regarding thyroid C-cell tumours based on animal studies."
+      },
     ],
   },
 };
