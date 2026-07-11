@@ -54,6 +54,14 @@ export const guides: ResearchArticle[] = [
     slug: "choosing-uk-supplier",
     image: "choosing-supplier",
   },
+  {
+    title: "Tirzepatide Research Summary",
+    desc: "Overview of Tirzepatide as a dual GIP/GLP-1 receptor agonist, covering research into type 2 diabetes, obesity, MASH/NASH, and cardiovascular outcomes.",
+    category: "Compound Profiles",
+    compound: "Tirzepatide",
+    slug: "tirzepatide-research-summary",
+    image: "tirzepatide-summary",
+  },
 ];
 
 export const compoundList: string[] = [
