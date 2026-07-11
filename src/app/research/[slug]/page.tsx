@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
-import { guides } from "@/data/research";
+import { guides, ResearchArticle } from "@/data/research";
 import researchContent from "@/data/research-content";
 
 export const dynamic = "force-dynamic";
@@ -29,17 +29,76 @@ export async function generateMetadata({
   };
 }
 
+/** Convert inline markdown links [text](url) to <a> tags */
+function renderBody(text: string) {
+  const parts = text.split(/(\[.*?\]\(.*?\))/);
+  return parts.map((part, i) => {
+    const match = part.match(/^\[(.*?)\]\((.*?)\)$/);
+    if (match) {
+      return (
+        <a
+          key={i}
+          href={match[2]}
+          className="text-blue-600 hover:text-blue-800 font-semibold underline underline-offset-2"
+        >
+          {match[1]}
+        </a>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
+
+function renderBodyText(text: string) {
+  return text.split("\n\n").map((p: string, i: number) => (
+    <p key={i} className="text-gray-700 leading-relaxed mb-4 text-[15px]">
+      {renderBody(p)}
+    </p>
+  ));
+}
+
 function SectionRenderer({ section }: { section: any }) {
   return (
     <section className="mb-12">
       <h2 className="text-xl font-bold text-gray-900 mb-4">
         {section.title}
       </h2>
-      {section.body.split("\n\n").map((p: string, i: number) => (
-        <p key={i} className="text-gray-700 leading-relaxed mb-4 text-[15px]">
-          {p}
-        </p>
-      ))}
+      {renderBodyText(section.body)}
+
+      {/* Table */}
+      {section.table && (
+        <div className="overflow-x-auto mb-6 mt-4">
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr className="bg-gray-50 border-b border-gray-200">
+                {section.table.header.map((h: string, i: number) => (
+                  <th
+                    key={i}
+                    className="text-left px-4 py-2.5 font-semibold text-gray-700 text-[13px]"
+                  >
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {section.table.rows.map((row: string[], ri: number) => (
+                <tr key={ri} className="border-b border-gray-100 hover:bg-gray-50/50">
+                  {row.map((cell: string, ci: number) => (
+                    <td
+                      key={ci}
+                      className={`px-4 py-2.5 text-gray-600 ${ci === 0 ? "font-medium text-gray-800 whitespace-nowrap" : ""}`}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
       {section.subsections && (
         <div className="space-y-5 mt-6">
           {section.subsections.map((sub: any, i: number) => (
@@ -49,7 +108,7 @@ function SectionRenderer({ section }: { section: any }) {
               </h3>
               {sub.body.split("\n\n").map((p: string, j: number) => (
                 <p key={j} className="text-gray-600 leading-relaxed text-[15px] mb-3 last:mb-0">
-                  {p}
+                  {renderBody(p)}
                 </p>
               ))}
             </div>
@@ -58,6 +117,19 @@ function SectionRenderer({ section }: { section: any }) {
       )}
     </section>
   );
+}
+
+/** Randomly pick N articles, excluding the current one */
+function getRelatedArticles(currentSlug: string, compoundSlug?: string, count = 4): ResearchArticle[] {
+  let pool = compoundSlug
+    ? guides.filter((g) => g.slug !== currentSlug)
+    : guides.filter((g) => g.slug !== currentSlug);
+  // Shuffle
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, count);
 }
 
 export default async function ResearchArticlePage({
@@ -72,6 +144,8 @@ export default async function ResearchArticlePage({
   if (!guide || !content) {
     notFound();
   }
+
+  const related = getRelatedArticles(slug, content.compoundSlug);
 
   return (
     <div className="min-h-screen bg-white">
@@ -90,9 +164,9 @@ export default async function ResearchArticlePage({
             <span className="text-xs font-bold text-white bg-teal-600 px-3 py-1 rounded-full uppercase tracking-wider">
               {guide.category}
             </span>
-            {guide.compound && (
+            {guide.compound && content.compoundSlug && (
               <Link
-                href={`/compounds/${guide.compound.toLowerCase().replace(/\s+/g, "-")}`}
+                href={`/compounds/${content.compoundSlug}`}
                 className="text-xs text-teal-300 hover:text-teal-200"
               >
                 {guide.compound}
@@ -129,12 +203,121 @@ export default async function ResearchArticlePage({
           </aside>
         )}
 
+        {/* Quick Info Table (compound profile) */}
+        {content.quickInfo && content.quickInfo.length > 0 && (
+          <div className="mb-10 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <tbody>
+                {content.quickInfo.map((item, i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
+                    <td className="px-4 py-2.5 font-semibold text-gray-700 whitespace-nowrap w-44 text-[13px]">
+                      {item.label}
+                    </td>
+                    <td className="px-4 py-2.5 text-gray-600 text-[13px]">
+                      {item.value}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+
         {/* Sections */}
         <div className="max-w-none">
           {content.sections.map((section, i) => (
             <SectionRenderer key={i} section={section} />
           ))}
         </div>
+
+        {/* === BIG COMPARE PRICES BANNER (like PS) === */}
+        {content.compoundSlug && (
+          <div className="mt-12 mb-8 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-100 rounded-2xl p-8 text-center">
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                <svg className="w-8 h-8 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+              </div>
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">
+              Compare {guide.compound || "Peptide"} Prices
+            </h3>
+            <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">
+              Live prices from every UK supplier — side by side so you find the best deal.
+            </p>
+            <Link
+              href={`/compounds/${content.compoundSlug}`}
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-sm"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+              View All Prices &rarr;
+            </Link>
+          </div>
+        )}
+
+        {/* === RELATED ARTICLES === */}
+        {related.length > 0 && (
+          <div className="mt-12 pt-10 border-t border-gray-100">
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h2 className="text-xl font-bold text-gray-900">Related Articles</h2>
+                <p className="text-gray-500 text-sm mt-1">More from the ViralPeps research library</p>
+              </div>
+              <Link
+                href="/research"
+                className="text-sm font-semibold text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100 px-4 py-2 rounded-full transition-colors"
+              >
+                View all guides &rarr;
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {related.map((article: ResearchArticle) => (
+                <Link
+                  key={article.slug}
+                  href={`/research/${article.slug}`}
+                  className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-blue-200 hover:shadow-sm transition-all"
+                >
+                  <div className="aspect-[16/7] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
+                    {article.image ? (
+                      <img
+                        src={`/images/guides/${article.image}.png`}
+                        alt={article.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center text-gray-300 text-sm">
+                        ViralPeps Research
+                      </div>
+                    )}
+                  </div>
+                  <div className="p-4">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-[10px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                        {article.category}
+                      </span>
+                      <span className="text-[10px] text-gray-400">
+                        {article.minutes || 5} min read
+                      </span>
+                    </div>
+                    <h3 className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors leading-snug mb-1.5">
+                      {article.title}
+                    </h3>
+                    <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">
+                      {article.desc}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* References */}
         {content.references && content.references.length > 0 && (
