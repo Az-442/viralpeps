@@ -182,10 +182,23 @@ export default async function ResearchArticlePage({
     <div className="min-h-screen bg-white">
       <HeaderNav current="/research" />
 
-      {/* Article + FAQPage schema */}
+      {/* Article + FAQPage + BreadcrumbList schema */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            ...articleSchema["@graph"] || [],
+            {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Home", item: "https://www.viralpeps.co.uk/" },
+                { "@type": "ListItem", position: 2, name: "Research", item: "https://www.viralpeps.co.uk/research" },
+                { "@type": "ListItem", position: 3, name: guide.title, item: `https://www.viralpeps.co.uk/research/${slug}` },
+              ],
+            },
+          ],
+        }) }}
       />
 
       {/* Hero */}

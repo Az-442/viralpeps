@@ -151,6 +151,17 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     <div className="min-h-screen bg-white">
       <HeaderNav />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      
+      {/* BreadcrumbList schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.viralpeps.co.uk/" },
+          { "@type": "ListItem", position: 2, name: "Peptides", item: "https://www.viralpeps.co.uk/compounds" },
+          { "@type": "ListItem", position: 3, name: compound.name, item: `https://www.viralpeps.co.uk/compounds/${slug}` },
+        ],
+      })}} />
 
       {/* BREADCRUMB */}
       <div className="bg-gray-50 border-b border-gray-200">

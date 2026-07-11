@@ -138,8 +138,19 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   return (
     <div className="min-h-screen bg-white">
       <HeaderNav />
+      
+      {/* BreadcrumbList schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.viralpeps.co.uk/" },
+          { "@type": "ListItem", position: 2, name: "Suppliers", item: "https://www.viralpeps.co.uk/vendors" },
+          { "@type": "ListItem", position: 3, name: vendor.name, item: `https://www.viralpeps.co.uk/vendors/${vendor.slug}` },
+        ],
+      })}} />
 
-      {/* HERO SECTION - Dark gradient like PeptideSupermarket style */}
+      {/* HERO SECTION */}
       <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e]">
         {/* BREADCRUMB on dark */}
         <div className="max-w-[76rem] mx-auto px-4 py-3 text-xs text-slate-400">
