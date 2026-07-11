@@ -62,20 +62,6 @@ const content: Record<string, ResearchPageContent> = {
         ],
       },
       {
-        title: "BPC-157 vs TB-500 at a Glance",
-        body: "BPC-157 and TB-500 are often discussed together as a healing stack, but they work through different primary pathways.",
-        table: {
-          header: ["Property", "BPC-157", "TB-500"],
-          rows: [
-            ["Primary mechanism", "VEGFR2 activation, NO pathway", "Actin binding, cell migration"],
-            ["Best evidence area", "GI integrity, connective tissue", "Cardiac repair, anti-inflammatory"],
-            ["Half-life", "~4 hours (in vivo research)", "~2-6 hours (varies by model)"],
-            ["Stability", "Highly acid-stable (oral capable)", "Moderate, degraded in GI tract"],
-            ["Common dose range", "250-500 mcg/day", "2.5-5 mg/week"],
-          ],
-        },
-      },
-      {
         title: "Where BPC-157 Shows Up in Research",
         body: "The preclinical literature on BPC-157 spans multiple tissue types and injury models. Here's where the signal is strongest.",
         subsections: [
@@ -174,21 +160,6 @@ const content: Record<string, ResearchPageContent> = {
             body: "The combination of GIP and GLP-1 agonism creates a synergistic effect that extends beyond simple additive mechanisms. GIP appears to enhance the beta-cell response to GLP-1 signalling while also improving insulin sensitivity in peripheral tissues. This dual mechanism is the basis for tirzepatide's position as the most effective incretin-based therapy in clinical trials to date.",
           },
         ],
-      },
-      {
-        title: "Tirzepatide vs Semaglutide: Key Differences",
-        body: "Tirzepatide and semaglutide are often compared in metabolic research. Here's how they stack up head-to-head.",
-        table: {
-          header: ["Property", "Tirzepatide", "Semaglutide"],
-          rows: [
-            ["Receptor targets", "GIP + GLP-1 (dual)", "GLP-1 only"],
-            ["HbA1c reduction (SURPASS-2)", "−2.30% (15 mg)", "−1.86% (1 mg)"],
-            ["Weight loss (SURPASS-2)", "−11.2 kg (15 mg)", "−5.7 kg (1 mg)"],
-            ["Dosing frequency", "Once weekly", "Once weekly"],
-            ["Half-life", "~5 days", "~7 days"],
-            ["Max approved dose", "15 mg/week", "2.4 mg/week (weight)"],
-          ],
-        },
       },
       {
         title: "What the Clinical Data Actually Shows",

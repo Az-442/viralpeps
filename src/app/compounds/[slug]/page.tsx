@@ -393,6 +393,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           (g as any).compound?.toLowerCase() === compound.name.toLowerCase()
         );
         if (compoundArticles.length === 0) return null;
+        const displayArticles = compoundArticles.slice(0, 2);
         return (
           <div className="bg-white border-t border-gray-100 py-12">
             <div className="max-w-[76rem] mx-auto px-4">
@@ -405,8 +406,8 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   View all {compoundArticles.length} &rarr;
                 </Link>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                {compoundArticles.map((article: ResearchArticle) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {displayArticles.map((article: ResearchArticle) => (
                   <Link
                     key={article.slug}
                     href={`/research/${article.slug}`}

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useMemo } from "react";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
-import { guides, compoundList } from "@/data/research";
+import { guides, compoundList, navSections } from "@/data/research";
 
 const compounds = compoundList;
 
@@ -16,10 +16,19 @@ const categories = [
   "Compound Profiles",
 ];
 
+const sectionLabels: Record<string, string> = {
+  all: "All",
+  peptides: "Peptides",
+  comparisons: "Comparisons",
+  goals: "Goals",
+  "research-hub": "Research Hub",
+};
+
 export default function ResearchPage() {
   const [search, setSearch] = useState("");
   const [selectedCompound, setSelectedCompound] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedSection, setSelectedSection] = useState("all");
 
   const filtered = useMemo(() => {
     return guides.filter((g) => {
@@ -31,9 +40,14 @@ export default function ResearchPage() {
         !selectedCompound || g.compound === selectedCompound;
       const matchCategory =
         selectedCategory === "All" || g.category === selectedCategory;
-      return matchSearch && matchCompound && matchCategory;
+      const matchSection =
+        selectedSection === "all" || g.section === selectedSection;
+      return matchSearch && matchCompound && matchCategory && matchSection;
     });
-  }, [search, selectedCompound, selectedCategory]);
+  }, [search, selectedCompound, selectedCategory, selectedSection]);
+
+  const sectionCount = (key: string) =>
+    key === "all" ? guides.length : guides.filter((g) => g.section === key).length;
 
   const categoryCount = (cat: string) =>
     cat === "All" ? guides.length : guides.filter((g) => g.category === cat).length;
@@ -99,6 +113,30 @@ export default function ResearchPage() {
             It does not constitute medical advice, diagnosis, or treatment
             recommendations. All peptides are for in-vitro research use only.
           </p>
+        </div>
+      </div>
+
+      {/* PeptideGuide-style nav filter bar */}
+      <div className="border-b border-gray-200 bg-white">
+        <div className="max-w-[76rem] mx-auto px-4">
+          <div className="flex items-center gap-1 overflow-x-auto py-3 scrollbar-none">
+            {navSections.map((s) => (
+              <button
+                key={s.key}
+                onClick={() => { setSelectedSection(s.key); setSelectedCategory("All"); }}
+                className={`whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  selectedSection === s.key
+                    ? "bg-indigo-50 text-indigo-700 border border-indigo-200"
+                    : "text-gray-500 hover:text-gray-700 hover:bg-gray-50 border border-transparent"
+                }`}
+              >
+                {s.label}
+                <span className="ml-1.5 text-xs text-gray-400">
+                  ({sectionCount(s.key)})
+                </span>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 

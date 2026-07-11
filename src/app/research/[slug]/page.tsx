@@ -120,8 +120,8 @@ function SectionRenderer({ section }: { section: any }) {
 }
 
 /** Randomly pick N articles, excluding the current one */
-function getRelatedArticles(currentSlug: string, compoundSlug?: string, count = 4): ResearchArticle[] {
-  let pool = compoundSlug
+function getRelatedArticles(currentSlug: string, _compoundSlug?: string, count = 2): ResearchArticle[] {
+  let pool = _compoundSlug
     ? guides.filter((g) => g.slug !== currentSlug)
     : guides.filter((g) => g.slug !== currentSlug);
   // Shuffle
@@ -277,8 +277,8 @@ export default async function ResearchArticlePage({
                 View all guides &rarr;
               </Link>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {related.map((article: ResearchArticle) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {related.map((article: ResearchArticle) => (
                 <Link
                   key={article.slug}
                   href={`/research/${article.slug}`}
