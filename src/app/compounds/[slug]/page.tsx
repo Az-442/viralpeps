@@ -409,7 +409,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 {compoundArticles.map((article: ResearchArticle) => (
                   <Link
                     key={article.slug}
-                    href={`/research`}
+                    href={`/research/${article.slug}`}
                     className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-blue-200 hover:shadow-sm transition-all"
                   >
                     {/* Photo-ready — replace gradient with <img> when photorealistic images are available */}
