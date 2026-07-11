@@ -31,23 +31,27 @@ export async function generateMetadata({
 
 function SectionRenderer({ section }: { section: any }) {
   return (
-    <section className="mb-10">
+    <section className="mb-12">
       <h2 className="text-xl font-bold text-gray-900 mb-4">
         {section.title}
       </h2>
       {section.body.split("\n\n").map((p: string, i: number) => (
-        <p key={i} className="text-gray-700 leading-relaxed mb-4">
+        <p key={i} className="text-gray-700 leading-relaxed mb-4 text-[15px]">
           {p}
         </p>
       ))}
       {section.subsections && (
-        <div className="space-y-6 mt-6">
+        <div className="space-y-5 mt-6">
           {section.subsections.map((sub: any, i: number) => (
             <div key={i} className="pl-5 border-l-2 border-teal-200">
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+              <h3 className="text-[15px] font-semibold text-gray-800 mb-2">
                 {sub.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">{sub.body}</p>
+              {sub.body.split("\n\n").map((p: string, j: number) => (
+                <p key={j} className="text-gray-600 leading-relaxed text-[15px] mb-3 last:mb-0">
+                  {p}
+                </p>
+              ))}
             </div>
           ))}
         </div>
@@ -95,10 +99,10 @@ export default async function ResearchArticlePage({
               </Link>
             )}
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
             {guide.title}
           </h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
+          <p className="text-gray-300 text-lg max-w-2xl leading-relaxed">
             {guide.desc}
           </p>
         </div>
@@ -116,7 +120,17 @@ export default async function ResearchArticlePage({
           </div>
         )}
 
-        <div className="prose prose-gray max-w-none">
+        {/* Pull Quote */}
+        {content.pullQuote && (
+          <aside className="mb-10 py-6 px-6 bg-teal-50 rounded-xl border-l-4 border-teal-500">
+            <p className="text-teal-900 text-lg leading-relaxed italic font-medium">
+              &ldquo;{content.pullQuote}&rdquo;
+            </p>
+          </aside>
+        )}
+
+        {/* Sections */}
+        <div className="max-w-none">
           {content.sections.map((section, i) => (
             <SectionRenderer key={i} section={section} />
           ))}
@@ -138,10 +152,11 @@ export default async function ResearchArticlePage({
                 </li>
               ))}
             </ol>
-            <p className="text-xs text-gray-400 mt-4 italic">
+            <p className="text-xs text-gray-400 mt-6 italic">
               All content is for educational and research reference purposes
               only. It does not constitute medical advice, diagnosis, or
-              treatment recommendations.
+              treatment recommendations. All peptides are for in-vitro
+              research use only.
             </p>
           </section>
         )}
