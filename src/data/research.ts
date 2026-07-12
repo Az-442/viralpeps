@@ -13,33 +13,6 @@ export interface ResearchArticle {
 
 export const guides: ResearchArticle[] = [
   {
-    title: "Peptide Reconstitution Guide",
-    desc: "How to properly reconstitute research peptides with bacteriostatic water, including calculations and best practices.",
-    category: "Guide",
-    section: "research-hub",
-    slug: "peptide-reconstitution-guide",
-    image: "peptide-reconstitution",
-    tags: ["reconstitution", "administration", "basics"],
-  },
-  {
-    title: "Understanding Peptide Purity",
-    desc: "What HPLC purity tests mean, why 98%+ matters, and how to read COAs from UK suppliers.",
-    category: "Guide",
-    section: "research-hub",
-    slug: "understanding-peptide-purity",
-    image: "peptide-purity",
-    tags: ["quality", "COA", "hplc"],
-  },
-  {
-    title: "Peptide Storage & Handling",
-    desc: "Proper storage temperatures, lyophilized vs reconstituted, and how to avoid degradation.",
-    category: "Guide",
-    section: "research-hub",
-    slug: "peptide-storage-handling",
-    image: "peptide-storage",
-    tags: ["storage", "handling", "basics"],
-  },
-  {
     title: "GLP-1 Research Overview",
     desc: "An introduction to GLP-1 receptor agonists including Tirzepatide and Semaglutide for research purposes.",
     category: "Compound Profiles",
@@ -58,15 +31,6 @@ export const guides: ResearchArticle[] = [
     slug: "bpc157-research-summary",
     image: "bpc157-summary",
     tags: ["healing", "tissue-repair", "recovery"],
-  },
-  {
-    title: "Choosing a UK Supplier",
-    desc: "What to look for when selecting a research peptide supplier in the UK: testing, shipping, and reputation.",
-    category: "Guide",
-    section: "research-hub",
-    slug: "choosing-uk-supplier",
-    image: "choosing-supplier",
-    tags: ["suppliers", "buying-guide", "quality"],
   },
   {
     title: "Tirzepatide Research Summary",
