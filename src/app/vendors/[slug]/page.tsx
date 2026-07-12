@@ -120,6 +120,8 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   compounds.forEach((c) => { compoundBySlug[c.slug] = c; });
   const hasFreeShipping = vendor.shipping?.some((s) => s.toLowerCase().includes("free"));
   const hasLabTested = !!vendor.labTested;
+  const svgVendors = ["raw-peptides", "peptify-uk", "peptigen-labs"];
+  const isSvg = svgVendors.includes(vendor.slug);
   const hasNextDay = vendor.highlights?.some((h) => h.toLowerCase().includes("dispatch") || h.toLowerCase().includes("shipping"));
   const hasUkBased = vendor.country === "UK" || vendor.highlights?.some((h) => h.toLowerCase().includes("uk-based"));
   const hasDiscreet = vendor.highlights?.some((h) => h.toLowerCase().includes("discreet"));
@@ -166,8 +168,8 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
           <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 md:p-8 shadow-xl">
             <div className="flex flex-col md:flex-row items-start gap-6">
               {/* Supplier Logo - white rounded container */}
-              <div className={`${vendor.slug === "raw-peptides" ? "w-44 h-32 md:w-60 md:h-36" : "w-28 h-20 md:w-40 md:h-24"} rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white shadow-lg px-3`}>
-                <img src={`/images/vendors/${vendor.slug}${vendor.slug === "raw-peptides" ? ".svg" : ".png"}`} alt={vendor.name} className={`${vendor.slug === "raw-peptides" ? "max-w-full max-h-full" : "max-w-full max-h-full"} object-contain`} />
+              <div className={`${isSvg ? "w-44 h-32 md:w-60 md:h-36" : "w-28 h-20 md:w-40 md:h-24"} rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white shadow-lg px-3`}>
+                <img src={`/images/vendors/${vendor.slug}${isSvg ? ".svg" : ".png"}`} alt={vendor.name} className={`max-w-full max-h-full object-contain`} />
               </div>
 
               <div className="flex-1 min-w-0">

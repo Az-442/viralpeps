@@ -897,5 +897,33 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "peptify-uk",
+    "name": "Peptify UK",
+    "slug": "peptify-uk",
+    "website": "https://www.peptifyuk.com",
+    "rating": 4.8,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "London-based research peptide supplier with all batches independently HPLC-tested by Janoshik Analytical. Registered UK company with batch-specific COAs, same-day dispatch before 1pm, and free delivery over £40. 200+ orders shipped.",
+    "highlights": [
+      "Janoshik independent testing",
+      "99%+ HPLC purity",
+      "Batch-specific COAs",
+      "Same-day dispatch (before 1pm)",
+      "Free UK delivery over £40",
+      "Registered UK company (PEPTIFY LIMITED #17021295)"
+    ],
+    "shipping": [
+      "UK free over £40 (Royal Mail Tracked 24/48, same-day dispatch before 1pm Mon-Fri)"
+    ],
+    "payment": [
+      "Bank transfer (open banking)",
+      "Cryptocurrency (BTC, ETH, USDT, USDC)"
+    ],
+    "lastTested": "2026-07-12",
+    "labTested": true
   }
 ]
