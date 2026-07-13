@@ -82,6 +82,43 @@ export const guides: ResearchArticle[] = [
     image: "selank-summary",
     tags: ["anxiolytic", "nootropic", "gaba", "neuropeptide"],
   },
+  {
+    title: "GHK-Cu vs BPC-157: Which Peptide for Tissue Repair?",
+    desc: "A detailed comparison of GHK-Cu and BPC-157 — two of the most studied peptides in regenerative research. Explore their mechanisms, strengths, and ideal research applications side by side.",
+    category: "Articles",
+    section: "comparisons",
+    slug: "ghkcu-vs-bpc157",
+    image: "ghkcu-vs-bpc157",
+    tags: ["ghk-cu", "bpc-157", "comparison", "tissue-repair"]
+  },
+  {
+    title: "Retatrutide vs Tirzepatide: Triple vs Dual Agonist Showdown",
+    desc: "A detailed comparison of retatrutide (triple GLP-1/GIP/glucagon agonist) and tirzepatide (dual GIP/GLP-1 agonist) — mechanism of action, clinical weight loss data, liver fat reduction, regulatory status, and where each stands in metabolic research.",
+    category: "Articles",
+    section: "comparisons",
+    slug: "retatrutide-vs-tirzepatide",
+    image: "retatrutide-vs-tirzepatide",
+    tags: ["retatrutide", "tirzepatide", "comparison", "glp-1", "metabolic"],
+  },
+  {
+    title: "Semax vs Selank: Nootropic & Anxiolytic Comparison",
+    desc: "A side-by-side comparison of Semax and Selank — two Russian-developed regulatory heptapeptides with distinct primary mechanisms. Semax excels at cognitive enhancement and neuroprotection via BDNF/TrkB upregulation, while Selank provides anxiety reduction without sedation through GABAergic allosteric modulation and immunomodulation.",
+    category: "Articles",
+    section: "comparisons",
+    slug: "semax-vs-selank",
+    image: "semax-vs-selank",
+    tags: ["semax", "selank", "comparison", "nootropic", "anxiolytic"],
+  },
+  {
+    title: "Peptide Reconstitution Guide",
+    desc: "A complete step-by-step guide to reconstituting lyophilised peptides with bacteriostatic water, including supplies, dosing math, storage, and common mistakes to avoid.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "peptide-reconstitution-guide",
+    image: "peptide-reconstitution-guide",
+    tags: ["reconstitution", "bac-water", "dosing", "storage", "guide"],
+    minutes: 12,
+  },
 ];
 
 export const compoundList: string[] = [

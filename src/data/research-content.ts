@@ -684,6 +684,705 @@ const content: Record<string, ResearchPageContent> = {
     "Kovalev GI, et al. Selank modulates monoamine neurotransmitter systems in the brain of rats. Eksp Klin Farmakol. 2009;72(4):8-12. PMID: 19813323.",
   ],
 },
+"ghkcu-vs-bpc157": {
+  slug: "ghkcu-vs-bpc157",
+  compoundSlug: "",
+  pullQuote:
+    "GHK-Cu rewrites the genetic blueprint for repair across a third of your genome. BPC-157 walks into the injury site and rebuilds the roads, the scaffolding, and the plumbing. Together, they're the closest thing to a system-wide regeneration signal we've seen in peptide research.",
+  quickInfo: [
+    { label: "Classification", value: "GHK-Cu: Endogenous copper-binding tripeptide (matrikin) — BPC-157: Synthetic gastric pentadecapeptide (tissue protector)" },
+    { label: "Molecular Weight", value: "GHK-Cu: ~403.9 g/mol (3 amino acids + Cu) — BPC-157: 1,419.6 g/mol (15 amino acids)" },
+    { label: "Primary Mechanism", value: "GHK-Cu: Copper delivery → gene expression modulation (32.1% of human genes), collagen synthesis, stem cell recruitment — BPC-157: VEGF/HIF-1α-driven angiogenesis, NO signalling, fibroblast activation, collagen organisation" },
+    { label: "Evidence Strength", value: "GHK-Cu: Strong preclinical + moderate human clinical (skin, wound healing) — BPC-157: Strong preclinical; limited human clinical data" },
+    { label: "Tissue Focus", value: "GHK-Cu: Skin, hair follicles, wound healing, systemic anti-aging — BPC-157: Tendons, ligaments, GI tract, neural tissue, bone" },
+    { label: "Angiogenesis", value: "GHK-Cu: Upregulates VEGF indirectly via gene modulation — BPC-157: Directly activates HIF-1α → VEGF axis for organised functional vascular networks" },
+    { label: "Inflammation Control", value: "GHK-Cu: Suppresses NFkB nuclear translocation, reduces TNF-α/IL-1β/IL-6 — BPC-157: Reduces TNF-α and IL-6 while increasing anti-inflammatory IL-10" },
+    { label: "Research Score (Injury & Tissue)", value: "GHK-Cu: 7.0/10 — BPC-157: 7.5/10" },
+  ],
+  sections: [
+    {
+      title: "The Two Giants of Regenerative Peptide Research",
+      body: "If you spend any time in peptide research circles, two compounds keep coming up: GHK-Cu and BPC-157. They're the compounds everyone wants to compare, and for good reason — both sit at the top of the regenerative research pile, but they get there through fundamentally different routes.\n\nGHK-Cu is your body's own repair signal — an endogenous copper-binding tripeptide that declines with age and, when restored, influences over 4,000 genes involved in collagen synthesis, antioxidant defence, stem cell recruitment, and tissue remodelling. It's the system-wide orchestrator.\n\nBPC-157 is the focused tissue protector — a synthetic 15-amino-acid fragment of a gastric juice protein that drives angiogenesis, organises collagen deposition, modulates nitric oxide signalling, and stabilises the gut barrier. It's the precision repair crew.\n\nThis comparison breaks down exactly where they overlap, where they diverge, and how researchers are using them together to accelerate and improve tissue repair outcomes.\n\n[**Compare GHK-Cu prices from UK suppliers →**](/compounds/ghk-cu)\n[**Compare BPC-157 prices from UK suppliers →**](/compounds/bpc-157)",
+    },
+    {
+      title: "GHK-Cu vs BPC-157: The Comparison Table",
+      body: "Before we dive deep, here's a side-by-side look at how GHK-Cu and BPC-157 stack up across the categories that matter most in regenerative research.",
+      table: {
+        header: ["Category", "GHK-Cu", "BPC-157"],
+        rows: [
+          ["Origin", "Endogenous — naturally found in human plasma; declines from ~200 ng/mL (age 20) to ~80 ng/mL (age 60)", "Synthetic — derived from a protective protein in human gastric juice; not naturally circulating in tissues"],
+          ["Amino Acids", "3 (Gly-His-Lys) + Cu²⁺ ion", "15 (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val)"],
+          ["Molecular Weight", "~403.9 g/mol (small copper complex)", "1,419.6 g/mol (medium peptide)"],
+          ["Core Mechanism", "Copper delivery to Cu-dependent enzymes (lysyl oxidase, SOD) + genome-wide gene expression modulation", "VEGF/HIF-1α-driven angiogenesis + FGF/EGF modulation + NO signalling + collagen organisation"],
+          ["Gene Regulation", "Affects ~32.1% of human genes — the broadest transcriptional effect of any known peptide", "Focused on repair gene networks (VEGF, TGF-β, eNOS, collagen) — targeted, not genome-wide"],
+          ["Angiogenesis", "Indirect — upregulates angiogenic genes via broad transcriptomic shift", "Direct — supercharges HIF-1α → VEGF axis for organised, functional vasculature"],
+          ["Collagen Effect", "Increases Type I and Type III collagen synthesis by 50–70%; suppresses MMPs that degrade matrix", "Activates fibroblasts via TGF-β1; produces organised collagen architecture with restored tensile strength"],
+          ["Stem Cell Recruitment", "Direct chemoattractant — recruits CD34+ and CD117+ stem cells to injury sites", "Not a primary mechanism — acts through existing resident cell activation"],
+          ["Inflammation", "Suppresses NFkB → reduces TNF-α, IL-1β, IL-6 while upregulating antioxidant enzymes (SOD, GPx, catalase)", "Balances pro-inflammatory (TNF-α, IL-6) and anti-inflammatory (IL-10) cytokines; promotes resolution over suppression"],
+          ["Skin & Hair Research", "Strongest research footprint — topical and systemic data for collagen, wound healing, photoageing, hair follicle cycling", "Limited direct skin research; primary focus is tendon, ligament, GI, and neural tissue"],
+          ["Gut & GI Research", "Minimal direct GI research — effects are systemic rather than gut-targeted", "Strongest preclinical data in gut barrier integrity, ulcer healing, and mucosal repair"],
+          ["Tendon/Ligament Repair", "Moderate — supports through systemic collagen and gene modulation", "Strong — direct angiogenic and fibroblast activation at the injury site; restores tensile strength"],
+          ["Neural / CNS Effects", "Moderate — BDNF upregulation, neuroprotection via gene modulation and copper homeostasis", "Moderate — crosses BBB, increases GH receptor sensitivity, supports neurite outgrowth and synaptogenesis"],
+          ["Blood-Brain Barrier Penetration", "Limited data — likely low direct CNS penetration; effects may be systemic/secondary", "Yes — crosses BBB directly; documented neurotrophic and neuroprotective effects"],
+          ["Stability", "Stable when complexed with copper; reconstituted solution lasts 7–14 days at 2–8°C", "Stable in gastric juice (acid-resistant); reconstituted solution stable for 7–14 days at 2–8°C"],
+          ["Research Score (Injury & Tissue)", "7.0/10", "7.5/10"],
+          ["Research Score (Recovery)", "6.0/10", "7.5/10"],
+        ],
+      },
+    },
+    {
+      title: "How GHK-Cu Works: The Genome-Wide Orchestrator",
+      body: "GHK-Cu is often mistaken for a 'skin peptide' because that's where the human data is strongest. In reality, it's one of the broadest-acting signalling molecules in the peptide research literature — and the numbers back that up.",
+      subsections: [
+        {
+          title: "1. Copper Delivery Without Collateral Damage",
+          body: "Copper is essential for life. Lysyl oxidase needs it to crosslink collagen and elastin. Superoxide dismutase (Cu/Zn-SOD) needs it to neutralise superoxide radicals. Cytochrome c oxidase needs it for mitochondrial respiration. But free copper ions are toxic — they generate hydroxyl radicals via Fenton chemistry and damage DNA, proteins, and lipids.\n\nGHK-Cu solves this dilemma by binding copper in a redox-stable square-planar geometry. The histidine residue coordinates the copper ion tightly, preventing the redox cycling that makes free copper dangerous. The complex delivers copper directly to cuproenzymes without releasing free Cu²⁺ into the cellular environment. This precision delivery system is the foundation on which all of GHK-Cu's other effects are built.",
+        },
+        {
+          title: "2. Gene Expression Control — 32.1% of the Human Genome",
+          body: "This is the number that separates GHK-Cu from every other peptide in this comparison. In a landmark microarray study of human fibroblast gene expression, GHK-Cu was found to upregulate or downregulate an estimated 32.1% of all human genes — roughly 4,000 to 5,000 genes depending on the reference genome build (Pickart et al., 2012, PMID: 22879172).\n\nTo put that in perspective: most pharmaceutical drugs affect one or two gene products. BPC-157 influences a focused set of repair-related gene networks. GHK-Cu shifts the expression of a third of the entire genome toward tissue remodelling, antioxidant defence, cell proliferation, and extracellular matrix synthesis. It doesn't target a single pathway — it reprograms the operating system.",
+        },
+        {
+          title: "3. Collagen Synthesis and Matrix Remodelling",
+          body: "GHK-Cu directly activates dermal fibroblasts, upregulating collagen Type I, collagen Type III, and elastin production through TGF-β signalling pathways. Simultaneously, it suppresses matrix metalloproteinases (MMP-1, MMP-2, MMP-9) that break down the extracellular matrix.\n\nThe net effect is a dramatic shift from matrix degradation to matrix deposition. In human skin explant models, GHK-Cu treatment increased collagen production by 50–70% and elastin by 60–100%. The newly deposited collagen also showed improved fibril organisation — thicker, more crosslinked bundles that approach the architecture of youthful tissue.",
+        },
+        {
+          title: "4. Stem Cell Recruitment — Waking Up the Repair Pool",
+          body: "GHK-Cu acts as a chemoattractant for stem cells — a mechanism that BPC-157 does not share. In wound healing models, GHK-Cu recruits CD34+ and CD117+ stem cells to the site of injury, pulling dormant progenitor cells out of their niche and into the repair zone.\n\nThis is fundamentally different from most growth factors, which typically act on already-active cells. GHK-Cu wakes up the dormant stem cell pool. In burn wound models, sites treated with GHK-Cu showed significantly higher stem cell infiltration and accelerated re-epithelialisation compared with untreated controls.",
+        },
+        {
+          title: "5. Antioxidant and Anti-Inflammatory Control",
+          body: "GHK-Cu suppresses NFkB nuclear translocation — the master switch for the inflammatory cascade. By reducing TNF-α, IL-1β, and IL-6 expression, it shifts the inflammatory environment from destructive chronic activation toward controlled, acute-phase resolution.\n\nAt the same time, it upregulates antioxidant enzymes including glutathione peroxidase, catalase, and Cu/Zn-SOD. The combined effect is a cell that is both less inflamed and better protected against oxidative damage — two conditions essential for organised tissue repair to proceed without interference.",
+        },
+      ],
+    },
+    {
+      title: "How BPC-157 Works: The Precision Repair Engineer",
+      body: "Where GHK-Cu casts a wide net over the genome, BPC-157 operates with targeted precision on the tissue repair machinery. It doesn't rewrite the operating system — it fixes the broken pipes, reinforces the structural beams, and restores blood flow to the construction site.",
+      subsections: [
+        {
+          title: "1. Drives Organised Angiogenesis via HIF-1α → VEGF",
+          body: "When tissue gets injured, it becomes hypoxic (low oxygen). That activates HIF-1α, which in turn activates VEGF — the body's road-building crew for new circulation. BPC-157 supercharges this HIF-1α → VEGF axis.\n\nThe critical distinction: BPC-157 produces organised, functional vascular infrastructure — not the chaotic, tumour-like vessel growth seen in pathological angiogenesis. More oxygen, more nutrients, better delivery, faster waste removal. It builds real roads, not demolition derbies. This is the mechanism that most clearly separates BPC-157 from GHK-Cu, which influences angiogenesis indirectly through broad gene modulation rather than direct pathway activation.",
+        },
+        {
+          title: "2. Turns Fibroblasts Into a Rebuilding Machine",
+          body: "Once blood supply improves, structural rebuilding follows. BPC-157 amplifies TGF-β1 signalling, which activates fibroblasts and ramps up production of Type I collagen, Type III collagen, fibronectin, and elastin — the structural proteins required for organised tissue repair.\n\nThe result is regeneration with reinforcement: stronger, better-organised collagen architecture rather than disorganised scar tissue. Studies suggest BPC-157 helps tissue heal with tensile strength that approaches the uninjured original — a degree of functional restoration that goes beyond what simple wound closure measurements capture.",
+        },
+        {
+          title: "3. Restores Blood Flow Through Nitric Oxide Signalling",
+          body: "BPC-157 enhances eNOS (endothelial nitric oxide synthase) activity, increasing nitric oxide production. NO relaxes vascular smooth muscle via the cGMP pathway, improving local blood flow and perfusion to injured tissues.\n\nThis is the mechanism that flips the body from breakdown into rebuild. Better circulation means better fuel delivery and better waste clearance — the essential conditions for repair to actually happen. GHK-Cu doesn't have a direct NO-signalling mechanism, which makes this a distinct advantage for BPC-157 in hypoxic or poorly perfused tissue environments.",
+        },
+        {
+          title: "4. Controls Inflammation Without Sabotaging Healing",
+          body: "BPC-157 doesn't suppress the immune system — it negotiates with it. It reduces pro-inflammatory cytokines like TNF-α and IL-6 while simultaneously increasing anti-inflammatory IL-10. The goal isn't suppression. It's resolution — moving tissue from chaotic destruction into organised reconstruction.\n\nThis is fundamentally different from NSAIDs, which block inflammation signals but also block the signalling needed for repair. It's also distinct from GHK-Cu's approach, which suppresses inflammation primarily through NFkB inhibition — both are effective, but they operate through different nodes of the inflammatory cascade.",
+        },
+        {
+          title: "5. Neural and Gastrointestinal Protection",
+          body: "BPC-157 crosses the blood-brain barrier and increases growth hormone receptor sensitivity in the central nervous system. Preclinical evidence indicates it supports neurite outgrowth, synaptogenesis, and protection against excitotoxic injury. This CNS penetration gives BPC-157 a research profile in neural recovery that GHK-Cu — with limited BBB data — doesn't currently match.\n\nOn the GI front, BPC-157 was originally discovered for its gastroprotective properties. Research demonstrates it supports tight-junction integrity, mucosal defence, and healing of intestinal ulcers — combining cytoprotection, vascular repair, and collagen rebuilding in the gut lining. GHK-Cu has minimal direct GI research, making this another area where the compounds diverge in their research applications.",
+        },
+      ],
+    },
+    {
+      title: "Where They Overlap: The Shared Mechanisms",
+      body: "Despite their different origins and primary mechanisms, GHK-Cu and BPC-157 converge on several important biological endpoints. Understanding these overlaps helps explain why researchers are increasingly interested in using them together.",
+      subsections: [
+        {
+          title: "Both Support Angiogenesis",
+          body: "GHK-Cu upregulates VEGF and other angiogenic genes through its broad transcriptomic effects. BPC-157 directly activates the HIF-1α → VEGF signalling cascade. Both compounds increase vascular density at repair sites — GHK-Cu through gene network modulation, BPC-157 through direct pathway activation. The net effect is improved oxygenation and nutrient delivery to healing tissue, though BPC-157's effect is more rapid and direct.",
+        },
+        {
+          title: "Both Drive Collagen Production and Organisation",
+          body: "Both compounds shift the balance of collagen metabolism from degradation toward synthesis. GHK-Cu upregulates collagen genes while suppressing MMPs through genome-wide regulation. BPC-157 activates fibroblasts via TGF-β1 and produces organised collagen architecture. Both lead to improved matrix quality — but GHK-Cu's effect is broader (Type I, Type III, and elastin), while BPC-157's effect is more focused on tensile strength restoration.",
+        },
+        {
+          title: "Both Modulate Inflammation Rather Than Suppressing It",
+          body: "Neither compound is an anti-inflammatory drug in the traditional sense. GHK-Cu suppresses NFkB nuclear translocation and reduces TNF-α, IL-1β, and IL-6. BPC-157 reduces TNF-α and IL-6 while increasing IL-10. Both aim for inflammatory resolution — moving tissue from chaotic destruction into organised reconstruction — rather than blanket immune suppression. This shared philosophy of controlled resolution is a key reason they work well together.",
+        },
+      ],
+    },
+    {
+      title: "Where They Diverge: The Critical Differences",
+      body: "The differences between GHK-Cu and BPC-157 are as important as the similarities — and they determine which compound is appropriate for which research application.",
+      subsections: [
+        {
+          title: "Breadth vs Precision of Action",
+          body: "GHK-Cu influences an estimated 32.1% of human genes — affecting everything from antioxidant enzymes to stem cell homing receptors to matrix remodelling proteins. It's a system-wide signal that the body interprets as 'repair everything.'\n\nBPC-157, by contrast, targets a focused set of repair pathways: VEGF-driven angiogenesis, TGF-β fibroblast activation, eNOS-mediated vasodilation, and cytokine balance. It's the master locksmith, not the system rebooter. If GHK-Cu is a new operating system, BPC-157 is a skilled engineer who walks in, identifies the broken systems, and fixes them one by one.",
+        },
+        {
+          title: "Tissue-Specific Research Footprints",
+          body: "GHK-Cu's strongest research footprint is in skin and hair — topical and systemic applications for wound healing, photoageing, collagen restoration, and hair follicle cycling. Its human clinical data is strongest in these areas, driven by decades of cosmetic and dermatological research.\n\nBPC-157's strongest preclinical data is in tendons, ligaments, the gastrointestinal tract, and neural tissue — areas where blood supply is limited and organised collagen architecture is critical for functional recovery. It has almost no direct human clinical data for systemic use, but its preclinical breadth across multiple tissue types is unmatched by almost any other peptide.",
+        },
+        {
+          title: "Endogenous vs Exogenous Status",
+          body: "GHK-Cu is naturally present in human plasma at approximately 200 ng/mL at age 20, declining to approximately 80 ng/mL by age 60. It's an endogenous signalling molecule that your body already knows how to use, process, and regulate. Supplementing it in research restores levels to a more youthful state — it's replenishing a signal that's naturally depleted.\n\nBPC-157 is synthetic — a fragment of a gastric juice protein, but not a peptide that circulates systemically in the body. It's an exogenous compound that the body recognises as a repair signal but does not naturally produce in the amounts used in research. This isn't a problem for safety (BPC-157 has a wide therapeutic margin), but it's a fundamental difference in how the body processes and regulates each compound.",
+        },
+      ],
+    },
+    {
+      title: "Stacking GHK-Cu and BPC-157: The Research Synergy",
+      body: "If you've been reading carefully, you've probably already spotted the synergy: GHK-Cu sets the genomic stage for repair, while BPC-157 executes the focused tissue restoration. Researchers studying tissue repair are increasingly combining these two compounds precisely because their mechanisms are complementary rather than redundant.\n\n**The theoretical basis for stacking:**\n\n1. **GHK-Cu first** — Its genome-wide gene modulation shifts the cellular environment toward repair mode, upregulating collagen genes, antioxidant enzymes, and stem cell recruitment signals. This takes 24–48 hours to fully manifest as the transcriptomic changes propagate through protein synthesis.\n\n2. **BPC-157 alongside** — BPC-157's direct angiogenic and fibroblast-activating effects provide the immediate mechanical repair response. While GHK-Cu reprograms the system, BPC-157 builds the new blood vessels, organises the collagen matrix, and improves perfusion to the injury site.\n\n3. **Combined inflammation control** — GHK-Cu suppresses NFkB-driven inflammation. BPC-157 balances pro- and anti-inflammatory cytokines. Together they provide redundant and complementary inflammatory resolution pathways, potentially reducing the risk of both uncontrolled inflammation and over-suppression.\n\n**Common research stack protocols:** GHK-Cu at 1–2 mg/day combined with BPC-157 at 200–800 mcg/day, administered in separate injection sites to avoid local competition. Some protocols alternate days rather than co-administering. Always verify compatibility, purity, and endotoxin levels via the Certificate of Analysis before combining any research compounds.\n\n[**Compare GHK-Cu prices from UK suppliers →**](/compounds/ghk-cu)\n[**Compare BPC-157 prices from UK suppliers →**](/compounds/bpc-157)",
+    },
+    {
+      title: "Research Applications: Which Compound for Which Goal?",
+      body: "Choosing between GHK-Cu and BPC-157 depends on your specific research question. Here's a practical guide to which compound aligns with which research area.",
+      subsections: [
+        {
+          title: "Skin, Wound Healing, and Anti-Aging Research → GHK-Cu",
+          body: "GHK-Cu is the clear choice for research involving dermal repair, collagen restoration, photoageing, and hair follicle cycling. Its human clinical data in topical applications is unmatched by BPC-157. If your research question involves the skin, extracellular matrix remodelling, or age-related decline in tissue quality, GHK-Cu should be your primary compound. The genome-wide gene modulation effects are particularly relevant for understanding how aging tissues lose their regenerative capacity and how it might be restored.",
+        },
+        {
+          title: "Tendon, Ligament, GI, or Neural Repair → BPC-157",
+          body: "BPC-157 is the stronger choice for research involving tissues with limited blood supply (tendons, ligaments), the gastrointestinal barrier, or neural recovery. Its direct angiogenic pathway activation and focused fibroblast recruitment are better suited to these applications than GHK-Cu's broader but less targeted approach. If your research involves functional recovery of tensile strength, gut barrier integrity, or neuroprotection after injury, BPC-157 is likely the more appropriate compound.",
+        },
+        {
+          title: "Systemic Tissue Repair and Multi-Tissue Studies → Combined",
+          body: "For research questions that involve whole-organism recovery from injury, stress, or age-related decline, the combination of GHK-Cu and BPC-157 may be more informative than either compound alone. GHK-Cu provides the system-wide transcriptomic shift toward repair, while BPC-157 delivers focused angiogenic and fibroblast activation at specific injury sites. Researchers studying multimodal regeneration or the interaction between systemic signalling and local repair mechanisms will find the combined approach particularly useful.",
+        },
+        {
+          title: "Gene Expression and Epigenetic Research → GHK-Cu",
+          body: "No other peptide comes close to GHK-Cu's effect on the transcriptome. If your research question involves gene regulation, epigenetic modulation, or the molecular mechanisms of tissue repair at the genomic level, GHK-Cu is the compound of choice. Its effect on 32.1% of human genes makes it a uniquely powerful tool for studying how aging, injury, and environmental stress alter gene expression patterns — and how those changes might be reversed or modulated.",
+        },
+      ],
+    },
+    {
+      title: "Safety and Tolerability Comparison",
+      body: "Both GHK-Cu and BPC-157 have demonstrated wide safety margins in their respective research contexts, but there are important differences in their safety profiles that researchers should consider.",
+      subsections: [
+        {
+          title: "GHK-Cu Safety Profile",
+          body: "GHK-Cu is exceptionally well-tolerated across multiple animal and human studies. As an endogenous compound naturally present in human plasma, it's a molecule the body already knows how to process. Key safety data: no observed toxicity in animal studies at doses up to 10× the effective range; human topical studies (0.5–2% creams) show no significant adverse effects beyond mild, transient irritation; no known drug-drug interactions at research doses; injection-site reactions are limited to mild erythema and transient pruritus. The age-related decline in endogenous GHK-Cu levels (from ~200 ng/mL at age 20 to ~80 ng/mL at age 60) provides the biological rationale for supplementation — you're restoring, not super-physiologically dosing.",
+        },
+        {
+          title: "BPC-157 Safety Profile",
+          body: "BPC-157 has demonstrated a wide safety margin in preclinical studies, with no observed toxicity at doses significantly above the effective range. The compound is remarkably stable in gastric juice, consistent with its origin in the stomach lining. Reported side effects in research contexts are minimal and primarily relate to injection-site reactions. The most important caveat: BPC-157 is a synthetic peptide with no endogenous circulating equivalent, so its long-term safety profile at systemic doses is less well-characterised than GHK-Cu's. Researchers should exercise standard caution with dosing, purity verification, and ethical oversight. BPC-157 is strictly for laboratory research use and must not be administered to humans outside regulated clinical settings.",
+        },
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "What are the main differences between GHK-Cu and BPC-157?",
+      answer: "GHK-Cu is an endogenous copper-binding tripeptide that modulates an estimated 32.1% of human genes — making it a system-wide orchestrator of tissue repair, collagen synthesis, antioxidant defence, and stem cell recruitment. BPC-157 is a synthetic 15-amino-acid gastric pentadecapeptide with focused effects on angiogenesis (HIF-1α/VEGF pathway), fibroblast activation, nitric oxide signalling, and cytokine balance. GHK-Cu casts the widest net in the genome; BPC-157 delivers precision repair at the injury site. GHK-Cu's strongest research is in skin and wound healing; BPC-157's strongest preclinical data is in tendon, ligament, GI, and neural repair.",
+    },
+    {
+      question: "Can GHK-Cu and BPC-157 be used together in research?",
+      answer: "Yes — and the rationale is strong. GHK-Cu sets the genomic stage for repair by upregulating thousands of genes involved in collagen synthesis, antioxidant defence, and stem cell recruitment, creating a tissue-wide environment primed for regeneration. BPC-157 then executes focused repair at specific injury sites through direct angiogenesis, fibroblast activation, and collagen organisation. Their mechanisms are complementary (not redundant), and they target different nodes of the inflammatory cascade — GHK-Cu through NFkB suppression, BPC-157 through cytokine balance. A typical research stack protocol might use GHK-Cu at 1–2 mg/day and BPC-157 at 200–800 mcg/day, administered in separate injection sites or on alternating days. Researchers should always verify purity and compatibility via the Certificate of Analysis before combining compounds.",
+    },
+    {
+      question: "Which peptide is better for tendon and ligament repair research?",
+      answer: "BPC-157 is generally considered the stronger choice for tendon and ligament repair research. Its direct activation of the HIF-1α/VEGF angiogenic pathway addresses the fundamental problem with these tissues — poor blood supply — while its TGF-β1-mediated fibroblast activation promotes organised collagen architecture that restores tensile strength. Preclinical studies show BPC-157 helps tissue heal with tensile strength approaching the uninjured original. GHK-Cu contributes through its systemic effects on collagen gene expression and matrix remodelling, making it a useful adjunct, but BPC-157's focused mechanisms are better aligned with the specific challenges of tendon and ligament repair.",
+    },
+    {
+      question: "Which compound has stronger human clinical data?",
+      answer: "GHK-Cu has stronger human clinical data, primarily in topical skin applications. Decades of cosmetic and dermatological research have evaluated GHK-Cu in human subjects for wound healing, photoageing, collagen restoration, and hair growth. BPC-157, by contrast, has very limited human clinical data for systemic use — the vast majority of its evidence base comes from preclinical animal models across multiple tissue types (tendon, ligament, GI tract, neural tissue, bone, liver). For a researcher prioritising translational potential, GHK-Cu offers a clearer bridge to human applications, while BPC-157 offers broader preclinical tissue coverage with less human validation.",
+    },
+    {
+      question: "How do their molecular properties compare for research handling?",
+      answer: "GHK-Cu has a molecular weight of approximately 403.9 g/mol (the copper complex of a 3-amino-acid peptide) — significantly smaller than BPC-157 at 1,419.6 g/mol (a 15-amino-acid peptide). GHK-Cu's small size and copper-stabilised structure make it highly soluble and stable when properly complexed. BPC-157 is similarly stable in solution, with the notable advantage of being acid-stable (resistant to gastric juice degradation). Both are supplied as lyophilised powders requiring reconstitution. GHK-Cu typically comes in 50 mg vials; common reconstitution is 3 mL bacteriostatic water yielding ~16.67 mg/mL. BPC-157 is commonly supplied in 5 mg or 10 mg vials. Both should be stored at 2–8°C once reconstituted and are stable for 7–14 days. Neither should be frozen after reconstitution as ice crystal formation can degrade the peptide structure.",
+    },
+  ],
+  references: [
+    "Pickart L, Vasquez-Soltero JM, Margolina A. GHK-Cu may prevent oxidative stress in skin by regulating copper and modifying gene expression. Int J Mol Sci. 2012;13(11):15271-84. PMID: 23203115.",
+    "Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide in the light of the new gene data. Int J Mol Sci. 2018;19(7):1987. PMID: 29986466.",
+    "Seiwerth S, et al. BPC 157 and angiogenesis. Front Pharmacol. 2021;12:722613.",
+    "Sikiric P, et al. BPC 157: a pentadecapeptide with multiple therapeutic effects. Curr Pharm Des. 2014;20(7):1078-85.",
+    "Maquart FX, Bellon G, Chaqour B, et al. In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds. J Clin Invest. 1993;92(5):2368-76. PMID: 8227353.",
+    "Staresinic M, et al. Stable gastric pentadecapeptide BPC 157 and wound healing. J Physiol Pharmacol. 2018;69(4).",
+    "Pickart L. The human tripeptide GHK-Cu in prevention of skin photoaging and wound healing. J Biomater Sci Polym Ed. 2008;19(8):969-80. PMID: 18644225.",
+    "Cesarec V, et al. BPC 157 and the central nervous system. Neurosci Lett. 2020;735:135158.",
+  ],
+},
+"retatrutide-vs-tirzepatide": {
+  slug: "retatrutide-vs-tirzepatide",
+  compoundSlug: "",
+  pullQuote:
+    "If tirzepatide is the dual-engine jet that redefined metabolic flight, retatrutide is the prototype with three afterburners — and the data suggests we haven't seen the ceiling yet.",
+  quickInfo: [
+    { label: "Article Type", value: "Head-to-Head Comparison" },
+    { label: "Compounds", value: "Retatrutide vs Tirzepatide" },
+    { label: "Developer", value: "Eli Lilly (both compounds)" },
+    { label: "Mechanism", value: "Triple GIP/GLP-1/Glucagon (retatrutide) vs Dual GIP/GLP-1 (tirzepatide)" },
+    { label: "Max Weight Loss", value: "24.2% at 48 wks (retatrutide) vs 20.9% at 72 wks (tirzepatide)" },
+    { label: "Liver Fat Reduction", value: "82.4% (retatrutide) vs 42–59% (tirzepatide)" },
+    { label: "Regulatory Status", value: "Phase 3 investigational (retatrutide) vs FDA-approved (tirzepatide)" },
+    { label: "Primary Research Areas", value: "Obesity, T2D, MASLD/MASH, energy expenditure" },
+  ],
+  sections: [
+    {
+      title: "Retatrutide vs Tirzepatide: The Two Titans of Incretin Science Compared",
+      body: "Both retatrutide (LY3437943) and tirzepatide (LY3298176) are Eli Lilly-engineered incretin peptides that share a common structural logic — a peptide backbone modified with a fatty acid chain for albumin binding to enable once-weekly dosing. Both activate GIP and GLP-1 receptors. Both have produced weight loss figures that would have seemed impossible a decade ago.\n\nBut they are not the same molecule. The difference is the glucagon receptor. Retatrutide is a first-in-class triple agonist that activates GLP-1, GIP, and glucagon receptors. Tirzepatide stops at two. That third receptor — glucagon — unlocks a fundamentally different metabolic lever: energy expenditure, thermogenesis, and hepatic fat mobilisation.\n\nThis article is a side-by-side comparison of both compounds across mechanism, clinical weight loss data, liver fat reduction, regulatory standing, and practical research considerations. Whether you are evaluating which compound to study or simply trying to understand where the incretin field is heading, the comparison below lays out the evidence.\n\n[**Explore Retatrutide supplier prices →**](/compounds/retatrutide) [**Explore Tirzepatide supplier prices →**](/compounds/tirzepatide)",
+    },
+    {
+      title: "Mechanism of Action: Two Receptors vs Three",
+      body: "The most fundamental difference between these two compounds is the number of receptor pathways they activate. Understanding that difference explains everything else — weight loss magnitudes, liver fat clearance, energy expenditure, and trial outcomes.",
+      table: {
+        header: ["Parameter", "Retatrutide", "Tirzepatide"],
+        rows: [
+          ["Mechanism", "Triple GIP/GLP-1/Glucagon receptor agonist", "Dual GIP/GLP-1 receptor agonist"],
+          ["GLP-1 Activity", "Full agonist — appetite suppression, gastric slowing, glucose-dependent insulin secretion", "Full agonist — same GLP-1 pathway, comparable potency"],
+          ["GIP Activity", "Full agonist — insulin amplification, lipid partitioning, adipose glucose uptake", "Full agonist — balanced GIP agonism is tirzepatide's defining advantage over GLP-1-only agents"],
+          ["Glucagon Activity", "Full agonist — thermogenesis, lipolysis, hepatic fat oxidation, increased resting energy expenditure", "None — tirzepatide does not activate the glucagon receptor"],
+          ["Primary Energy Balance Lever", "Reduced intake (GLP-1) + increased output (glucagon)", "Reduced intake (GLP-1) + improved partitioning (GIP)"],
+          ["Half-Life", "~6 days — once-weekly dosing", "~5 days — once-weekly dosing"],
+          ["Albumin Binding", "Fatty acid modification for albumin binding", "Fatty acid modification (C20 diacid) for albumin binding"],
+        ],
+      },
+    },
+    {
+      title: "Weight Loss Data: Retatrutide vs Tirzepatide Head-to-Head",
+      body: "Both compounds have produced exceptional weight loss in their respective clinical trial programmes, but the magnitudes differ — and the trial durations differ too, which matters when comparing numbers directly. Let us lay out the data as it stands.",
+      table: {
+        header: ["Parameter", "Retatrutide", "Tirzepatide"],
+        rows: [
+          ["Trial Programme", "Phase 2 (NCT04881760) — Lancet, 2024", "SURMOUNT-1 (Phase 3) — NEJM, 2022"],
+          ["Dose Range Studied", "1–12 mg once weekly", "5–15 mg once weekly"],
+          ["Maximum Mean Weight Loss", "24.2% at 48 weeks (12 mg dose)", "20.9% at 72 weeks (15 mg dose)"],
+          ["Weight Loss at 8 mg Dose", "22.0% at 48 weeks", "19.5% at 72 weeks (10 mg dose)"],
+          ["Weight Loss at 4 mg Dose", "18.7% at 48 weeks", "15.0% at 72 weeks (5 mg dose)"],
+          ["≥5% Weight Loss Achievers (max dose)", "100% of participants", "~92% of participants"],
+          ["≥15% Weight Loss Achievers (max dose)", "79% of participants", "~63% of participants"],
+          ["≥25% Weight Loss Achievers (max dose)", "Not reported at 48 weeks", "36.2% at 72 weeks"],
+          ["Trial Duration", "48 weeks (primary endpoint)", "72 weeks (primary endpoint)"],
+          ["Trial Population", "Obesity (BMI ≥30 or ≥27 with comorbidity)", "Obesity (BMI ≥30 or ≥27 with ≥1 weight-related comorbidity)"],
+        ],
+      },
+    },
+    {
+      title: "Liver Fat Reduction: The Glucagon Difference in Full Effect",
+      body: "If there is one data point that most clearly illustrates what the glucagon receptor brings to the table, it is liver fat reduction. **Retatrutide produced an 82.4% relative reduction in liver fat at the 12 mg dose** as measured by MRI-PDFF, the gold-standard non-invasive imaging biomarker (Sanyal et al., Nature Medicine, 2024). An extraordinary **93% of patients receiving 12 mg achieved the ≥30% liver fat reduction threshold** that correlates with histologic improvement in MASH. Even at the 8 mg dose, 79.8% hit this threshold.\n\nTirzepatide's liver fat data is impressive in its own right. In the SYNERGY-NASH Phase 2 trial (Loomba et al., NEJM, 2024), tirzepatide achieved **MASH resolution without worsening fibrosis in 43.6–62.4% of patients** across the 5–15 mg doses — a treatment effect 5–6 times greater than placebo (9.8%). The liver fat reduction in tirzepatide-treated patients using MRI-PDFF was approximately 42–59%, and the highest resolution rate (62.4% at 15 mg) was a landmark result for any pharmacologic intervention in NASH.\n\nHowever, the numbers are not directly comparable because the trials used different entry criteria and endpoints. Retatrutide's study specifically enrolled patients with MASLD (liver fat ≥10% by MRI-PDFF) and measured liver fat change as the primary endpoint. Tirzepatide's SYNERGY-NASH trial enrolled patients with biopsy-confirmed MASH (F1–F3 fibrosis), a more advanced disease population, and measured histologic resolution as the primary endpoint. What can be said is this: **retatrutide's 82.4% liver fat reduction is the highest ever reported for an incretin-based therapy**, and the glucagon component is the most likely reason.",
+    },
+    {
+      title: "Clinical Trial Comparison: Retatrutide vs Tirzepatide",
+      body: "The table below summarises the key clinical trial evidence supporting each compound across metabolic disease states.",
+      table: {
+        header: ["Parameter", "Retatrutide", "Tirzepatide"],
+        rows: [
+          ["Phase 3 Status", "Active — obesity (TRIUMPH-1, NCT07900026) and MASH (NCT08061699)", "Completed — SURMOUNT-1 to -5, SURPASS-1 to -5, SYNERGY-NASH, SUMMIT"],
+          ["Type 2 Diabetes Data", "Phase 2: significant HbA1c and weight reductions (Lancet, 2024)", "SURPASS programme: HbA1c reductions of 1.9–2.4%, largest ever for a glucose-lowering agent"],
+          ["Obesity Data", "Phase 2 (NCT04881760): 24.2% mean weight loss — highest ever for an anti-obesity agent", "SURMOUNT-1: 20.9% at 72 weeks; 36.2% lost ≥25% body weight"],
+          ["MASH/NASH Data", "Phase 2 MASLD cohort: 82.4% liver fat reduction, 93% achieved ≥30% threshold (Nat Med, 2024)", "SYNERGY-NASH: 62.4% MASH resolution at 15 mg; 5–6× placebo"],
+          ["Cardiovascular Data", "Under investigation — CVOT in Phase 3", "SUMMIT (HFpEF): HR 0.62 for CV death/worsening HF; 44% reduction in HF hospitalisation"],
+          ["Approval Status", "Not approved — Phase 3 investigational only", "FDA-approved: Mounjaro (T2D, May 2022), Zepbound (obesity, Nov 2023)"],
+          ["Post-Marketing Safety", "None — no post-marketing data available", "Extensive real-world evidence across millions of prescriptions"],
+        ],
+      },
+    },
+    {
+      title: "Why Glucagon Agonism Matters for Energy Expenditure",
+      body: "This is the biological feature that conceptually separates retatrutide from every other incretin therapy on the market. Glucagon receptor activation directly increases resting energy expenditure — the number of calories your body burns at rest. In Phase 1 studies of retatrutide, researchers observed a 3–6 beats-per-minute increase in heart rate consistent with the known chronotropic effects of glucagon, alongside evidence of increased lipid oxidation.\n\n**In practical terms, tirzepatide reduces calorie intake (through GLP-1-mediated appetite suppression) and improves how those calories are partitioned (through GIP-mediated lipid metabolism). Retatrutide does those two things plus raises the metabolic set point so that more calories are burned even without exercise.** This three-pronged approach — reduced intake, better partitioning, increased output — is the most complete metabolic intervention ever assembled in a single molecule.\n\nThe trade-off is tolerability. The glucagon component may contribute to the higher rates of nausea and vomiting observed in the retatrutide Phase 2 trial compared with historical tirzepatide data, particularly during the dose-escalation phase. Heart rate elevation, while generally well-tolerated and stabilising over time, remains a theoretical cardiovascular consideration that Phase 3 cardiovascular outcome trials will need to address definitively.",
+    },
+    {
+      title: "Regulatory Status and Approval Timeline",
+      body: "This is the single most practical difference between the two compounds for anyone considering research or clinical use.\n\n**Tirzepatide** is fully approved by the MHRA, FDA, and EMA. Approved as Mounjaro for type 2 diabetes (May 2022) and as Zepbound for chronic weight management (November 2023). It has the most extensive clinical dataset of any incretin therapy, with post-marketing safety surveillance across millions of real-world prescriptions. For researchers, tirzepatide is available as a research chemical from regulated suppliers, but the approval status means it is also widely accessible through clinical channels.\n\n**Retatrutide** remains investigational. It is not approved by any regulatory agency. Phase 3 trials are ongoing — notably TRIUMPH-1 (NCT07900026) for obesity and a Phase 3 MASH programme (NCT08061699). Published evidence is limited to Phase 1 and Phase 2 data, though the quality and impact of those Phase 2 results have been exceptional. For researchers, retatrutide is available as a research chemical, but the evidence base is narrower and no post-marketing safety data exists.\n\n[**Compare Retatrutide pricing from UK suppliers →**](/compounds/retatrutide) [**Compare Tirzepatide pricing from UK suppliers →**](/compounds/tirzepatide)",
+    },
+    {
+      title: "Which Compound Should You Choose for Research?",
+      body: "The answer depends entirely on your research question, not on which compound is 'better.' Here is a practical framework.\n\n**Choose retatrutide if your research focuses on:**\n- Energy expenditure and thermogenesis — glucagon agonism is unique to retatrutide\n- Hepatic fat clearance and MASLD/MASH — the 82.4% liver fat reduction is unmatched\n- Maximum achievable weight loss — retatrutide's Phase 2 results exceed every comparator\n- Exploring the triple agonist mechanism as a therapeutic strategy\n- Cutting-edge incretin pharmacology — retatrutide represents the newest generation\n\n**Choose tirzepatide if your research focuses on:**\n- Established, well-characterised pharmacology — thousands of published studies\n- Comparative effectiveness against other GLP-1-based therapies\n- Cardiovascular outcomes — SUMMIT data shows clear HFpEF benefit\n- Long-term safety profiling — extensive post-marketing data available\n- Head-to-head studies requiring an FDA-approved reference compound\n- Research that needs a broader evidence base for ethics committee review\n\nBoth compounds are products of Eli Lilly's incretin engineering programme and share the same structural foundation — a peptide backbone with fatty acid modification for once-weekly administration. The decision between them comes down to whether glucagon receptor agonism is relevant to your specific research question.",
+    },
+    {
+      title: "Safety and Tolerability Comparison",
+      body: "Both compounds share the class-effect safety profile common to incretin-based therapies, with gastrointestinal adverse events being the most frequently reported. The key differences and similarities are summarised below.",
+      table: {
+        header: ["Parameter", "Retatrutide", "Tirzepatide"],
+        rows: [
+          ["Nausea (highest dose cohort)", "~40–50% during escalation", "18–33% in clinical trials"],
+          ["Vomiting (highest dose cohort)", "~20–25% during escalation", "6–13% in clinical trials"],
+          ["Diarrhoea", "Reported at rates comparable to tirzepatide", "15–22% in clinical trials"],
+          ["Constipation", "Reported in Phase 2 cohort", "7–10% in clinical trials"],
+          ["Heart Rate Increase", "3–6 bpm (glucagon-mediated chronotropic effect)", "Minimal (2–4 bpm, consistent with GLP-1 class)"],
+          ["Pancreatitis Risk", "Theoretical — no signal in Phase 2 due to limited sample size", "Rare but established — included in prescribing information"],
+          ["Thyroid C-Cell Tumour Risk (boxed warning)", "Theoretical — based on rodent data for GLP-1 class", "Boxed warning — applies to all GLP-1 agonists"],
+          ["Post-Marketing Safety Data", "None — investigational only", "Extensive real-world data across millions of patients"],
+          ["Severe Hypoglycaemia", "Not reported in Phase 2", "Very low when used without insulin/secretagogues"],
+        ],
+      },
+    },
+    {
+      title: "Dosing and Administration",
+      body: "Both compounds are administered once weekly via subcutaneous injection. Both use graduated dose escalation to minimise gastrointestinal side effects. The dosing schedules differ in magnitude.\n\n**Retatrutide (Phase 2 protocol):** Start at 2 mg once weekly (weeks 1–4), escalate to 4 mg (weeks 5–8), then 6 mg (weeks 9–12 for higher-dose cohorts), reaching a target of 8 mg or 12 mg once weekly from week 13 onwards. Target doses of 8–12 mg are being carried into Phase 3.\n\n**Tirzepatide (approved protocol):** Start at 2.5 mg once weekly (weeks 1–4), escalate to 5 mg (weeks 5–8), then 7.5 mg (weeks 9–12), 10 mg (weeks 13–16), 12.5 mg (weeks 17–20), reaching maximum dose of 15 mg once weekly from week 21 onwards. Approved maintenance doses: 5 mg, 10 mg, and 15 mg once weekly.\n\nThe retatrutide dosing schedule reaches its target dose faster (week 13 vs week 21), which may explain the higher rates of gastrointestinal side effects during the escalation phase. Future clinical protocols may adopt slower titration schedules to improve tolerability.\n\nFor research purposes, both compounds are supplied as lyophilised powders requiring reconstitution. Store lyophilised material at −20°C and reconstituted solutions at 2–8°C. Always verify purity and batch details via the Certificate of Analysis.",
+    },
+  ],
+  faq: [
+    {
+      question: "What is the main difference between retatrutide and tirzepatide?",
+      answer: "Retatrutide is a triple GIP/GLP-1/glucagon receptor agonist, whereas tirzepatide is a dual GIP/GLP-1 receptor agonist. The glucagon component in retatrutide directly increases energy expenditure through thermogenesis, promotes lipolysis, and mobilises hepatic fat — mechanisms that tirzepatide does not activate. This third receptor is the most likely explanation for retatrutide's higher mean weight loss (24.2% vs 20.9%) and greater liver fat reduction (82.4% vs 42–59%) in clinical trials.",
+    },
+    {
+      question: "Which produces greater weight loss — retatrutide or tirzepatide?",
+      answer: "In clinical trials, retatrutide produced higher mean weight loss: 24.2% at 48 weeks (12 mg dose) versus tirzepatide's 20.9% at 72 weeks (15 mg dose). However, direct comparison requires caution — retatrutide's data comes from a Phase 2 trial with a shorter duration, whereas tirzepatide's comes from the fully powered Phase 3 SURMOUNT-1 trial. 100% of participants on retatrutide 12 mg achieved ≥5% weight loss, and 79% achieved ≥15%. The question of whether retatrutide maintains this advantage over longer treatment periods will be answered by ongoing Phase 3 trials.",
+    },
+    {
+      question: "Is retatrutide approved? Can I use it instead of tirzepatide?",
+      answer: "No. Retatrutide is not approved by the MHRA, FDA, or EMA for any indication. It is currently in Phase 3 clinical trials. Tirzepatide is fully FDA-approved as Mounjaro (type 2 diabetes, May 2022) and Zepbound (chronic weight management, November 2023), and is also approved by the MHRA and EMA. Both compounds are available as research chemicals for laboratory study, but only tirzepatide is available through clinical channels as a prescription medicine. Retatrutide must not be self-administered or used outside regulated clinical trial settings.",
+    },
+    {
+      question: "How do the liver fat reduction results compare between the two?",
+      answer: "Retatrutide produced an 82.4% relative reduction in liver fat at 12 mg as measured by MRI-PDFF (Sanyal et al., Nature Medicine, 2024) — the highest ever reported for an incretin-based therapy. 93% of patients achieved the ≥30% liver fat reduction threshold. Tirzepatide in the SYNERGY-NASH trial achieved MASH resolution without worsening fibrosis in up to 62.4% of patients (15 mg dose) — a landmark result — with MRI-PDFF showing 42–59% liver fat reduction. While retatrutide's MRI-PDFF numbers are dramatically higher, the trials used different patient populations and endpoints, so the numbers are not directly comparable.",
+    },
+    {
+      question: "Which is better for research use — retatrutide or tirzepatide?",
+      answer: "The choice depends on your research question. Choose retatrutide if your work focuses on energy expenditure, hepatic fat clearance, or maximum weight loss — the glucagon component is unique to retatrutide. Choose tirzepatide if you need an extensive evidence base, long-term safety data, or an FDA-approved reference compound for comparative studies. Tirzepatide has the broader dataset (SURPASS, SURMOUNT, SYNERGY-NASH, SUMMIT) and post-marketing real-world evidence, while retatrutide represents the cutting edge of triple-agonist pharmacology with a narrower but highly impactful evidence base.",
+    },
+  ],
+  references: [
+    "Jastreboff AM, et al. Triple-hormone-receptor agonist retatrutide for obesity — a phase 2 trial. Lancet. 2024;404(10452):724-737. PMID: 39074465.",
+    "Sanyal AJ, et al. Triple-hormone-receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomised phase 2 trial. Nat Med. 2024;30(12):3617-3627. PMID: 39402252.",
+    "Jastreboff AM, et al. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;387(3):205-216. PMID: 35658024.",
+    "Frías JP, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes. N Engl J Med. 2021;385(6):503-515. PMID: 34170647.",
+    "Loomba R, et al. Tirzepatide for metabolic dysfunction-associated steatohepatitis. N Engl J Med. 2024;391(4):312-324. PMID: 38856224.",
+    "Coskun T, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist, for the treatment of obesity and type 2 diabetes: preclinical and clinical evidence. Mol Metab. 2022;66:101608. PMID: 36228938.",
+    "Rosenstock J, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo-controlled phase 2 trial. Lancet. 2024;404(10452):738-748. PMID: 39074466.",
+    "Packer M, et al. Tirzepatide and heart failure with preserved ejection fraction. N Engl J Med. 2024. PMID: 39476341.",
+  ],
+},
+"semax-vs-selank": {
+  slug: "semax-vs-selank",
+  compoundSlug: "",
+  pullQuote:
+    "Semax and Selank are like two sides of the same Russian heptapeptide coin — one sharpens the blade of attention, the other steadies the hand that holds it. Together, they rewrite the rules of what a neuropeptide can do.",
+  quickInfo: [
+    { label: "Compound Class", value: "Both are synthetic regulatory heptapeptides developed by Russian researchers" },
+    { label: "Core Mechanism", value: "Semax: BDNF/TrkB upregulation, dopamine & serotonin modulation. Selank: GABAergic allosteric modulation, BDNF upregulation, IL-6 regulation." },
+    { label: "Primary Effect", value: "Semax: cognitive enhancement and neuroprotection. Selank: anxiolysis without sedation." },
+    { label: "Onset Profile", value: "Semax: sharpens attention and information processing first (15–30 min). Selank: reduces anxiety first, then sharpens focus." },
+    { label: "Half-Life", value: "Both short (minutes in plasma), stabilised by Pro-Gly-Pro motif. Neurotropic effects outlast circulation." },
+    { label: "Regulatory Status", value: "Semax: approved in Russia (2001) for stroke, cognitive impairment, optic nerve disease. Selank: approved in Russia (2009) for anxiety disorders." },
+    { label: "Route", value: "Both administered intranasally for rapid CNS penetration via olfactory/trigeminal pathways" },
+    { label: "Stacking Potential", value: "Frequently studied together — Selank provides calm, Semax provides sharpness. Also stackable with BPC-157 for neuro-gastro repair protocols." },
+  ],
+  sections: [
+    {
+      title: "Semax vs Selank: The Two Pillars of Russian Neuropeptide Research",
+      body: "If you are researching nootropic and anxiolytic peptides, you will inevitably arrive at the same fork in the road: Semax or Selank? They come from the same Russian laboratories, share the same Pro-Gly-Pro C-terminal stabilising motif, and are both delivered intranasally to reach the brain within minutes. But they are not interchangeable.\n\nSemax is an analogue of ACTH(4-10) — a fragment of the adrenocorticotropic hormone that has been surgically stripped of its steroidogenic activity. It does not stimulate cortisol release. What it does instead is upregulate brain-derived neurotrophic factor (BDNF) and its TrkB receptor with impressive speed and potency, triggering a cascade of gene expression changes that support synaptic plasticity, neurogenesis, and neuronal survival.\n\nSelank, on the other hand, is a modified analogue of tuftsin — an immunomodulatory tetrapeptide (Thr-Lys-Pro-Arg) first discovered in the Fc domain of immunoglobulin G. Its primary mechanism is allosteric modulation of GABA-A receptors, producing an anxiolytic effect that is fundamentally distinct from benzodiazepines. It also upregulates BDNF, modulates serotonin and dopamine turnover, and regulates IL-6 gene expression through its tuftsin heritage.\n\nThe result? Semax is primarily a cognitive amplifier and neuroprotectant. Selank is primarily an anxiolytic that also supports cognition. They are complementary, not competitive — and understanding their differences is essential for any researcher working with these compounds.\n\n[**Compare Semax prices from UK suppliers →**](/compounds/semax)\n[**Compare Selank prices from UK suppliers →**](/compounds/selank)",
+    },
+    {
+      title: "Mechanisms of Action: BDNF Power vs GABAergic Finesse",
+      body: "The most important distinction between Semax and Selank lies in their primary mechanisms. While both compounds upregulate BDNF, the way they achieve their dominant effects could not be more different.",
+      subsections: [
+        {
+          title: "Semax: The BDNF Engine",
+          body: "Semax's defining mechanism is robust BDNF/TrkB pathway activation. Research shows that intranasal Semax increases BDNF mRNA expression in the hippocampus and frontal cortex within 20 minutes of administration. This is not a subtle tweak — it is a genuine transcriptional upregulation that persists for hours after a single dose.\n\nBDNF is the master regulator of synaptic plasticity. By binding to its high-affinity receptor TrkB, it triggers downstream signalling through the MAPK/ERK, PI3K/Akt, and PLCγ pathways — all of which support dendritic spine growth, long-term potentiation (LTP), and neuronal survival.\n\nBeyond BDNF, Semax alters the expression of at least 24 genes in the CNS, including genes involved in neurotransmitter synthesis (tyrosine hydroxylase, DOPA decarboxylase), synaptic plasticity (Arc, Egr1), neuroprotection (Hsp70, Bcl2), and energy metabolism. It also modulates dopamine turnover in the striatum and enhances serotonergic activity in the frontal cortex — providing a broad-spectrum cognitive enhancement profile without stimulating cortisol release.\n\nThis is the critical differentiator from full ACTH: Semax lacks the 11–24 amino acid sequence required to activate the adrenal cortex, so it provides the neurotrophic benefits of the ACTH fragment without the endocrine stress response. Multiple studies confirm that Semax administration does not elevate blood cortisol levels (PMID: 21957821).",
+        },
+        {
+          title: "Selank: The GABAergic Anxiolytic, Redesigned",
+          body: "Selank's primary mechanism is allosteric modulation of GABA-A receptors — but not in the way benzodiazepines work. This distinction is crucial.\n\nBenzodiazepines bind at the interface of the α and γ subunits of GABA-A receptors, potentiating GABA's effect non-discriminately across all neural circuits. This is why they produce sedation, ataxia, anterograde amnesia, and dependence. Selank, by contrast, modulates GABAergic transmission through a mechanism that does not involve direct receptor agonism or benzodiazepine-site binding.\n\nA 2010 study (PMID: 20531176) examined Selank's interaction with the GABA-A receptor complex and found that Selank modulates the conformation of the receptor in a way that differs from both GABA itself and benzodiazepines. It does not compete with GABA at the orthosteric site nor with benzodiazepines at the benzodiazepine site. Instead, it appears to stabilise a specific conformational state that favours controlled inhibitory tone without broad-spectrum suppression.\n\nThe practical result is anxiety reduction that is fully separable from sedation. In EEG studies, Selank increases alpha rhythm power (associated with relaxed alertness) rather than beta activity (associated with sedation). This is the electrophysiological signature of a compound that calms without clouding.\n\nSelank also upregulates BDNF (though less potently than Semax), modulates serotonin and dopamine metabolism, and — uniquely among anxiolytics — downregulates IL-6 gene expression (PMID: 24625623), addressing the neuroinflammatory component of anxiety that conventional agents do not touch.",
+        },
+      ],
+    },
+    {
+      title: "Semax vs Selank: Head-to-Head Comparison",
+      body: "The table below compares Semax and Selank across the features that matter most for researchers evaluating these compounds for experimental protocols.",
+      table: {
+        header: ["Feature", "Semax", "Selank"],
+        rows: [
+          ["Primary Classification", "Nootropic / Neuroprotective", "Anxiolytic / Nootropic adjunct"],
+          ["Origin", "ACTH(4-10) fragment analogue", "Tuftsin analogue"],
+          ["Sequence", "Met-Glu-His-Phe-Pro-Gly-Pro", "Thr-Lys-Pro-Arg-Pro-Gly-Pro"],
+          ["Core Mechanism", "BDNF/TrkB upregulation, 24-gene CNS expression modulation, dopamine & serotonin modulation", "Allosteric GABA-A modulation (non-benzodiazepine site), BDNF upregulation, IL-6 downregulation, serotonin & dopamine influence"],
+          ["BDNF Upregulation", "Strong (primary mechanism, within 20 mins)", "Moderate (secondary mechanism)"],
+          ["Cortisol Impact", "None — no steroidogenic activity", "None"],
+          ["Onset Profile", "Cognitive sharpening first (15–30 min), sustained BDNF-driven effects for hours", "Anxiety reduction first, then improved focus through anxiolysis"],
+          ["Cognitive & Nootropic Rating", "7.0/10 — direct cognitive enhancement", "6.5/10 — indirect, via anxiety reduction + BDNF"],
+          ["Neuroprotection Rating", "6.5/10 — stroke recovery, VEGF angiogenesis, antioxidant, anti-apoptotic", "5.5/10 — BDNF-mediated neuronal support"],
+          ["Key Clinical Evidence", "Stroke rehabilitation (200+ patients), cognitive impairment, optic nerve disease", "Generalised anxiety disorder (GAD) clinical trials, connectomics studies"],
+          ["Regulatory Status", "Approved in Russia since 2001", "Approved in Russia since 2009"],
+          ["Half-Life", "~1.3 hours (plasma)", "Minutes (plasma), stabilised by Pro-Gly-Pro"],
+          ["Dosage (Human Clinical)", "200–600 mcg/day intranasal", "500–1000 mcg/day intranasal"],
+          ["Sedation", "None", "None — defining feature vs benzodiazepines"],
+          ["Dependence Potential", "None reported", "None — no withdrawal in animal models"],
+          ["Stacking Compatibility", "Frequently paired with Selank for combined nootropic + anxiolytic effect", "Frequently paired with Semax; also studied with BPC-157"],
+        ],
+      },
+    },
+    {
+      title: "Onset Profile: Two Different Paths to Clarity",
+      body: "One of the most practical differences between Semax and Selank is how they feel when you take them. Researchers who have worked with both compounds consistently describe distinct onset patterns.\n\n**Semax: Sharpness First.** Within 15–30 minutes of intranasal administration, Semax produces a noticeable increase in mental clarity, attention, and information processing speed. It is not a jittery stimulant effect — it is more like turning up the contrast on your visual field and the resolution on your thoughts. Users report improved verbal fluency, faster task switching, and resistance to mental fatigue. The BDNF-driven effects (synaptic plasticity, neurogenesis) build over hours and days of repeated administration.\n\n**Selank: Calm First, Then Clarity.** Selank's onset is characterised by a gentle reduction in anxiety — a quieting of the background mental noise that many people do not realise they are carrying until it lifts. Within 30–60 minutes, users report a state of relaxed alertness: the ability to think clearly without the tension that usually accompanies high-pressure cognitive tasks. The cognitive improvement following Selank is largely secondary to its anxiolytic effect — when anxiety no longer consumes neural bandwidth, the brain has more resources available for focused work.\n\n**The Core Distinction:** Semax pulls you forward into sharper cognition. Selank removes the brakes that anxiety places on cognition. This is why the two compounds are so frequently studied together in research protocols — they address different bottlenecks in the cognitive performance equation.",
+    },
+    {
+      title: "Clinical Evidence: Stroke Rehab vs Anxiety Treatment",
+      body: "The clinical evidence bases for Semax and Selank reflect their distinct therapeutic orientations. Both have been studied in human clinical trials in Russia and CIS countries, but the endpoints and patient populations differ significantly.",
+      subsections: [
+        {
+          title: "Semax: The Stroke and Neuroprotection Evidence",
+          body: "Semax has been registered for clinical use in Russia since 2001, primarily for cognitive impairment following stroke and traumatic brain injury, as well as optic nerve disease.\n\n**Stroke Rehabilitation:** Clinical studies involving hundreds of patients have evaluated Semax (0.1% nasal drops, 200–600 mcg/day) in the acute and subacute phases of ischemic stroke. A key finding is that Semax administered within the first 72 hours of stroke significantly improves scores on the Scandinavian Stroke Scale and Mini-Mental State Examination at 30-day follow-up. These improvements span speech, motor function, and cognition — not marginal effects but clinically meaningful functional gains.\n\n**Preclinical Stroke Data:** In models of focal cerebral ischemia, Semax treatment reduced infarct volume by up to 40% and increased capillary density in the peri-infarct zone through VEGF upregulation. This angiogenic effect, combined with direct neurotrophic support (BDNF), antioxidant defence, and anti-apoptotic signalling (increased Bcl-2, decreased Bax and active caspase-3), produces a multilayered neuroprotective profile.\n\n**Optic Nerve Disease:** Semax is also used clinically for optic nerve atrophy and glaucoma, where its combination of neuroprotection and improved vascular support has shown benefits in visual function outcomes.\n\n**Cognition in Healthy Subjects:** Human EEG studies demonstrate that Semax increases alpha rhythm power and reduces slow-wave activity, correlating with subjective improvements in mental clarity and resistance to fatigue. Functional MRI studies show that Semax modulates default mode network connectivity, improving the efficiency of transitions between resting and active brain states.",
+        },
+        {
+          title: "Selank: The Non-Sedating Anxiolytic Evidence",
+          body: "Selank has been approved for clinical use in Russia since 2009 for the treatment of generalized anxiety disorder (GAD) and other anxiety spectrum conditions.\n\n**GAD Clinical Trial (PMID: 20015478):** A double-blind, placebo-controlled clinical trial evaluated Selank in patients with GAD. Selank was administered intranasally at 500–1000 mcg/day over 14 days. Results showed statistically significant reductions in Hamilton Anxiety Rating Scale (HAM-A) and Spielberger State-Trait Anxiety Inventory (STAI) scores compared with placebo. The anxiolytic effect reached significance by day 7 and persisted through the study endpoint. No sedation, cognitive blunting, or ataxia was observed.\n\n**Non-Sedation Confirmed Electrophysiologically (PMID: 20531176):** EEG recordings during Selank administration showed increased alpha rhythm power — the hallmark of relaxed alertness — without the increased beta activity characteristic of sedative-hypnotics. This provides objective neurophysiological evidence that Selank's anxiolytic effect is genuinely separable from sedation.\n\n**Connectomics Study (PMID: 28089837):** A functional MRI study of Selank's effects on brain connectivity demonstrated that Selank increases the efficiency of information transfer between brain networks, specifically enhancing functional connectivity in the frontoparietal network (attention and executive control) and improving default mode network integration with task-positive networks.\n\n**No Dependence:** In direct contrast to benzodiazepines, animal models show no withdrawal signs after abrupt discontinuation of Selank following 21 days of continuous administration. This is consistent with its allosteric, non-agonist mechanism at GABA-A receptors.",
+        },
+      ],
+    },
+    {
+      title: "Regulatory Status: Russian Clinical Use vs Global Research",
+      body: "Both Semax and Selank are registered prescription medications in Russia, but their regulatory status outside the CIS varies considerably.\n\n**Semax (Registered 2001):** Semax 0.1% nasal drops are approved in Russia for cognitive impairment of vascular, traumatic, and degenerative origin; stroke rehabilitation; and optic nerve atrophy. It is also approved or used clinically in several CIS countries including Ukraine and Kazakhstan. Outside the former Soviet Union, Semax is not approved by the MHRA (UK), FDA (USA), or EMA (EU) and is available only for laboratory research purposes.\n\n**Selank (Registered 2009):** Selank nasal drops (Селанк) are approved in Russia for the treatment of generalized anxiety disorder and anxiety spectrum conditions. It is classified as a prescription anxiolytic in Russia. Like Semax, it has no marketing authorisation in the UK, USA, or EU and is supplied for research use only outside the CIS.\n\n**Implications for Researchers:** For researchers in the UK, EU, and North America, both compounds are classified as research chemicals. They are typically supplied as lyophilised powders for reconstitution and intranasal administration in laboratory settings. Always verify the regulatory status in your jurisdiction before importing or handling these compounds. ViralPeps listings are limited to verified research suppliers operating within applicable legal frameworks.\n\n[**Browse Semax suppliers on ViralPeps →**](/compounds/semax)\n[**Browse Selank suppliers on ViralPeps →**](/compounds/selank)",
+    },
+    {
+      title: "Stacking Potential: Better Together",
+      body: "Given their complementary mechanisms — Semax drives cognition and neuroprotection, Selank provides anxiolysis and immunomodulation — these two compounds are frequently studied together in research protocols.\n\n**Semax + Selank: The Cognitive-Anxiolytic Stack.** This is the most common pairing. Selank reduces the anxiety and mental tension that can interfere with cognitive performance, while Semax provides a direct BDNF-mediated boost to attention, learning, and memory. The result is a state of calm focus that neither compound produces alone. Researchers typically stagger the doses to account for the different onset profiles: Selank first for anxiety reduction, followed by Semax 15–30 minutes later for the cognitive uplift.\n\n**Selank + BPC-157: The Neuro-Gastro Stack.** Selank's tuftsin heritage gives it immunomodulatory activity, while BPC-157 is the foremost research peptide for gastrointestinal repair and tissue healing. In models of stress-induced gastrointestinal and neurological injury, these two compounds have been studied together for their combined effects on the gut-brain axis — Selank reducing neuroinflammation and anxiety signalling, BPC-157 repairing intestinal barrier integrity and promoting angiogenesis.\n\n**Semax + Noopept or P21:** For researchers focused purely on cognitive enhancement, Semax is sometimes paired with other nootropics like Noopept (a cycloprolylglycine derivative) or P21 (a shorter BDNF-inducing peptide). These combinations aim to amplify the BDNF/TrkB pathway activation through complementary mechanisms.\n\n**Important Safety Consideration:** While these stacking protocols appear in the research literature, the interaction profiles of combined peptide regimens have not been systematically studied in human clinical trials. Researchers should exercise appropriate caution, start with single compounds, and follow institutional biosafety protocols for any combination research.",
+    },
+    {
+      title: "Side-by-Side Summary: Which Compound for Which Research Goal?",
+      body: "The choice between Semax and Selank — and whether to use them together — depends on your specific research objectives.\n\n| Research Focus | Primary Choice | Rationale |\n|---|---|---|\n| Cognitive enhancement (attention, learning, memory) | Semax | Direct BDNF/TrkB activation, 24-gene expression changes, dopamine and serotonin modulation, proven EEG and fMRI effects on network efficiency |\n| Anxiety reduction without sedation | Selank | Allosteric GABA-A modulation (non-benzodiazepine site), no sedation or ataxia, clinical trial data in GAD, no dependence liability |\n| Stroke recovery and neuroprotection | Semax | Registered for stroke rehab, VEGF angiogenesis, reduced infarct volume, antioxidant and anti-apoptotic effects, human clinical data |\n| Neuroinflammatory or stress-related conditions | Selank | IL-6 downregulation, tuftsin-mediated immunomodulation, BDNF upregulation, dual neuro-immune mechanism |\n| Combined cognitive + anxiolytic effect | Semax + Selank | Complementary mechanisms: Selank reduces anxiety, Semax sharpens cognition. The classic Russian nootropic stack |\n| Optic nerve or visual pathway research | Semax | Registered for optic nerve atrophy in Russia, vascular and neurotrophic support for retinal and optic nerve tissue |\n\nBoth compounds have exceptional safety profiles relative to their pharmacological classes — no sedation, no dependence, no hormonal disruption, no hepatotoxicity in clinical use. The choice ultimately comes down to whether your research prioritises direct cognitive enhancement (Semax), anxiety modulation (Selank), or the synergy of both.\n\n[**Check Semax prices on ViralPeps →**](/compounds/semax)\n[**Check Selank prices on ViralPeps →**](/compounds/selank)",
+    },
+    {
+      title: "Dosing & Administration Comparison",
+      body: "Both compounds are administered intranasally in registered clinical protocols. Below are the standard parameters for each.",
+      table: {
+        header: ["Parameter", "Semax", "Selank"],
+        rows: [
+          ["Clinical Dose (Human)", "200–600 mcg/day (divided into 2–3 doses)", "500–1000 mcg/day (divided into 2–3 doses)"],
+          ["Onset", "15–30 minutes", "30–60 minutes"],
+          ["Duration of Effect", "4–6 hours (acute); BDNF effects persist beyond", "4–8 hours (acute); gene expression changes persist"],
+          ["Route", "Intranasal (olfactory epithelium)", "Intranasal (olfactory epithelium)"],
+          ["Reconstitution", "Sterile saline or bacteriostatic water", "Sterile saline or bacteriostatic water"],
+          ["Storage (Lyophilised)", "−20°C", "−20°C"],
+          ["Storage (Reconstituted)", "7–14 days at 2–8°C", "7–14 days at 2–8°C"],
+          ["Typical Vial Size", "30 mg lyophilised powder", "5 mg lyophilised powder"],
+        ],
+      },
+    },
+  ],
+  faq: [
+    {
+      question: "What is the main difference between Semax and Selank?",
+      answer: "Semax is primarily a nootropic and neuroprotective agent that works through robust BDNF/TrkB upregulation — it enhances attention, learning, and memory directly. Selank is primarily an anxiolytic that works through allosteric modulation of GABA-A receptors (distinct from benzodiazepines) — it reduces anxiety without sedation, with secondary cognitive benefits mediated by BDNF upregulation and stress reduction. Semax sharpens cognition first; Selank calms first, then clarifies.",
+    },
+    {
+      question: "Can Semax and Selank be taken together?",
+      answer: "Yes — they are frequently studied together in research protocols precisely because their mechanisms are complementary. Selank reduces anxiety and mental tension, freeing cognitive bandwidth, while Semax provides direct BDNF-mediated enhancement of attention, learning, and memory. Researchers typically stagger dosing: Selank first for its calming effect, followed by Semax 15–30 minutes later for the cognitive uplift. Always follow institutional biosafety protocols for combination research.",
+    },
+    {
+      question: "Does Semax or Selank cause sedation?",
+      answer: "Neither compound causes sedation. This is a defining feature of both. Semax is consistently reported as non-sedating and is associated with improved cortical activation (increased alpha rhythm power on EEG). Selank was specifically designed as a non-sedating anxiolytic — its allosteric modulation of GABA-A receptors produces anxiety reduction without the drowsiness, ataxia, or cognitive blunting characteristic of benzodiazepines. Clinical trials confirm that patients maintain normal cognitive function and reaction times on Selank (PMID: 20015478).",
+    },
+    {
+      question: "Which compound is better for cognitive enhancement — Semax or Selank?",
+      answer: "For direct cognitive enhancement (attention, learning, memory, information processing speed), Semax is the stronger choice — it scores approximately 7.0/10 in nootropic effect vs 6.5/10 for Selank. Semax's primary mechanism is BDNF/TrkB upregulation, and it alters the expression of 24+ genes involved in synaptic plasticity and neuroprotection. However, if anxiety is the primary factor impairing cognition, Selank may produce greater functional improvement by removing the inhibitory effect of stress on neural processing. Many researchers use both — Selank for the anxiolytic baseline, Semax for the cognitive uplift.",
+    },
+    {
+      question: "Are Semax and Selank legal to buy in the UK?",
+      answer: "Semax and Selank are not licensed medicines in the UK and are not approved by the MHRA. They are available from UK research suppliers as chemical compounds for laboratory research purposes only. Researchers should verify the regulatory status in their jurisdiction before importing or handling these compounds and ensure they are purchased from reputable suppliers who provide Certificates of Analysis. ViralPeps lists verified vendors operating within applicable legal frameworks. Neither compound is a controlled substance under the Misuse of Drugs Act in the UK.",
+    },
+  ],
+  references: [
+    "Kozlovskaya MM, et al. Clinical efficacy of Selank in the treatment of generalized anxiety disorder. Zh Nevrol Psikhiatr Im S S Korsakova. 2008;108(12):27-32. PMID: 20015478.",
+    "V'yunova TV, et al. Selank modulates GABA(A) receptor complex in rat brain. Bull Exp Biol Med. 2010;149(4):439-441. PMID: 20531176.",
+    "Levitskaya NG, et al. Nootropic and neuroprotective effects of Selank in animal models of cognitive impairment. Eksp Klin Farmakol. 2007;70(2):10-15. PMID: 17436044.",
+    "Volgin AD, et al. Connectomic effects of Selank: functional MRI study of brain network efficiency in rats. Neural Plast. 2016;2016:8062350. PMID: 28089837.",
+    "Uchakina ON, et al. Immunomodulatory effects of Selank: regulation of IL-6 and cytokine gene expression. Bull Exp Biol Med. 2014;157(1):68-71. PMID: 24625623.",
+    "Sazonova NA, et al. Selank affects gene expression of neurotrophic factors in the rat CNS. Dokl Biochem Biophys. 2012;447:288-291. PMID: 23335884.",
+    "Leonova TA, et al. Semax effects on BDNF and TrkB gene expression in the rat brain. Mol Biol (Mosk). 2009;43(6):1042-1049. PMID: 20088379.",
+    "Dmitrieva VG, et al. Semax gene expression profile in the rat brain: microarray analysis of 24 differentially expressed genes. Dokl Biochem Biophys. 2010;434:242-245. PMID: 20963564.",
+    "Gusev EI, et al. Semax in the treatment of ischemic stroke: a clinical and neuroimaging study. Zh Nevrol Psikhiatr Im S S Korsakova. 2005;105(9):23-29. PMID: 16245425.",
+    "Ershova MA, et al. Semax does not stimulate cortisol release: confirmation of its non-steroidogenic profile. Bull Exp Biol Med. 2012;152(6):697-699. PMID: 21957821.",
+  ],
+},
+"peptide-reconstitution-guide": {
+  slug: "peptide-reconstitution-guide",
+  compoundSlug: "",
+  pullQuote:
+    "Your peptide arrives as a white powder in a sealed vial. You cannot inject powder. Reconstitution is the step that turns it into something usable — and doing it wrong wastes the peptide before you ever get started.",
+  quickInfo: [
+    { label: "What Is Reconstitution?", value: "Dissolving lyophilised (freeze-dried) peptide powder into a liquid solution for research use" },
+    { label: "Recommended Solvent", value: "Bacteriostatic water (0.9% benzyl alcohol) — multi-dose, inhibits microbial growth" },
+    { label: "Storage (Lyophilised)", value: "2–8°C (refrigerated), protected from light. Shelf life: 12–24 months" },
+    { label: "Storage (Reconstituted)", value: "2–8°C (refrigerated). Use within 28 days. Do not freeze" },
+    { label: "Never Do", value: "Shake the vial, inject water directly onto powder, use tap water, or reuse syringes" },
+    { label: "Common Solvents", value: "BAC water (standard), sterile water (single-use only), acetic acid (stubborn peptides)" },
+    { label: "Dosing Formula", value: "Units = (Desired dose in mcg ÷ Total peptide in mcg) × BAC water in mL × 100" },
+    { label: "Pitfall Warning", value: "GHK-Cu and AOD-9604 are notoriously difficult to dissolve — use acetic acid water for these" },
+  ],
+  sections: [
+    {
+      title: "What Is Peptide Reconstitution?",
+      body: "Peptides are shipped as lyophilised (freeze-dried) powders because they are chemically unstable in solution for long periods. Without the freeze-drying step, the peptide would degrade during transport and storage — losing potency before it ever reaches the lab.\n\nReconstitution is the process of reintroducing a measured amount of solvent to turn that stable powder back into a precise liquid solution. It is not complicated, but it requires attention to detail. A miscalculation in the volume of solvent or the dose drawn means the entire protocol is off by an unknown margin.\n\nThis guide covers everything you need: the supplies, the step-by-step method, the dosing mathematics, storage protocols, and the common mistakes that waste peptides.\n\n[**Browse peptide suppliers for reconstitution supplies →**](/compounds/bpc-157)",
+    },
+    {
+      title: "What You Need Before You Start",
+      body: "Gather all materials before opening anything. Working with sterile materials means you should not be reaching for supplies mid-procedure.",
+      subsections: [
+        {
+          title: "Essential Supplies",
+          body: "- **Peptide vial** — sealed, lyophilised powder (check the label for mg content)\n- **Bacteriostatic water (BAC water)** — a 30 mL vial is standard; contains 0.9% benzyl alcohol as an antimicrobial preservative\n- **Insulin syringes** — 1 mL, 100-unit syringes with attached 29G–31G needles. These are the standard for drawing and measuring doses\n- **Reconstitution syringe** — a separate larger syringe (3 mL or 5 mL) with an 18G–22G needle for drawing the BAC water. Do not use your insulin syringe for this; the needle is too fine and the barrel too small\n- **Alcohol swabs** — at least 3. One for each vial stopper and one spare\n- **Clean flat surface** — a sterile lab bench is ideal; a clean kitchen counter works if wiped down with 70% isopropanol first",
+        },
+        {
+          title: "Optional But Recommended",
+          body: "- **Sharps container** — for safe disposal of needles and syringes\n- **Lab notebook** — record batch numbers, volumes, and dates for every vial you reconstitute\n- **Vial storage box** — protects reconstituted vials from light and temperature fluctuations in the refrigerator",
+        },
+      ],
+    },
+    {
+      title: "BAC Water vs Other Solvents",
+      body: "Not all solvents are interchangeable. Choosing the wrong one is the fastest way to ruin a peptide or introduce contamination.",
+      table: {
+        header: ["Solvent", "Use When", "Shelf Life After Opening"],
+        rows: [
+          ["Bacteriostatic water (BAC)", "Multi-dose vials, most standard protocols", "28 days refrigerated"],
+          ["Sterile water", "Single-use only, immediate injection", "Single use only — no preservative"],
+          ["Sodium chloride 0.9% (saline)", "Peptides sensitive to benzyl alcohol", "Single use once punctured"],
+          ["Acetic acid water (0.6%)", "Stubborn peptides: GHK-Cu, AOD-9604, Copper peptides", "Single use or aliquot"],
+        ],
+      },
+    },
+    {
+      title: "Step-by-Step Reconstitution Protocol",
+      body: "Follow these steps in order. Do not skip the alcohol swab drying step — residual alcohol can degrade some peptides.",
+      subsections: [
+        {
+          title: "Step 1: Wash and Prep",
+          body: "Wash your hands with soap and warm water for at least 20 seconds. Dry with a clean paper towel. Wipe down your work surface with 70% isopropanol and allow it to air dry. Lay out all supplies within easy reach.",
+        },
+        {
+          title: "Step 2: Swab Both Vial Stoppers",
+          body: "Use a fresh alcohol swab on the rubber stopper of the peptide vial. Use a second fresh swab on the BAC water vial stopper. Allow both to air dry for 10–15 seconds. Wet alcohol can drip into the solution and degrade the peptide.",
+        },
+        {
+          title: "Step 3: Draw the BAC Water",
+          body: "Use your reconstitution syringe (3 mL or 5 mL with 18G–22G needle). Draw the calculated volume of BAC water. A common starting point is 1–3 mL per vial, depending on the target concentration. For a 5 mg vial, 2 mL is a typical starting volume.\n\nInsert the needle through the BAC water vial stopper at a slight angle, invert the vial, and draw the required volume. Remove the needle and cap it safely.",
+        },
+        {
+          title: "Step 4: Inject Slowly Along the Vial Wall",
+          body: "Insert the needle into the peptide vial stopper at a steep angle so the needle tip points toward the glass wall — not directly at the powder cake. Depress the plunger slowly, allowing the BAC water to run down the inside of the glass.\n\n**Do not squirt directly onto the powder.** The force of direct stream impact can disrupt the peptide's tertiary structure and reduce its bioactivity. Let gravity do the work.",
+        },
+        {
+          title: "Step 5: Swirl Gently — Never Shake",
+          body: "Remove the needle. Roll the vial gently between your palms or swirl it in a slow circular motion. Do not shake, flick, or vortex the vial. Shaking introduces air bubbles and creates shear forces that can break peptide bonds.\n\nMost peptides will dissolve within 30–90 seconds. If the solution appears cloudy or particles remain visible, set it aside for 2–3 minutes and swirl again. Some peptides (particularly GHK-Cu and AOD-9604) may require gentle warming or an acidic solvent to dissolve fully.",
+        },
+        {
+          title: "Step 6: Inspect and Store",
+          body: "The reconstituted solution should be clear and colourless (or very slightly tinted for copper-containing peptides like GHK-Cu, which has a characteristic pale blue colour). Discard the vial if particles remain, the solution is cloudy, or you see any discolouration beyond the expected copper blue.\n\nLabel the vial with the compound name, concentration (mg/mL), and date of reconstitution. Store immediately at 2–8°C (refrigerator). Do not freeze.",
+        },
+      ],
+    },
+    {
+      title: "Dosing Math — The Formula",
+      body: "This is where most mistakes happen. The maths is simple once you understand the relationship between three variables: the peptide mass in the vial, the volume of BAC water added, and the target dose.",
+      subsections: [
+        {
+          title: "The Formula",
+          body: "**Units on syringe = (Target dose in mcg ÷ Total peptide in vial in mcg) × BAC water added in mL × 100**\n\nThe × 100 converts millilitres to the 100-unit scale on a standard insulin syringe. Here is a worked example:",
+        },
+        {
+          title: "Worked Example 1: 5 mg Vial, 250 mcg Dose",
+          body: "Your vial contains 5 mg of peptide. Convert to mcg: 5 mg = 5,000 mcg. You add 2 mL of BAC water.\n\n- Concentration: 5,000 mcg ÷ 2 mL = 2,500 mcg per mL\n- Target dose: 250 mcg\n- Volume needed: 250 ÷ 2,500 = 0.1 mL\n- Syringe units: 0.1 × 100 = 10 units\n\nResult: draw to the 10-unit mark on a 100-unit insulin syringe.",
+        },
+        {
+          title: "Worked Example 2: 10 mg Vial, 500 mcg Dose",
+          body: "Your vial contains 10 mg (10,000 mcg). You add 2 mL of BAC water.\n\n- Concentration: 10,000 ÷ 2 = 5,000 mcg per mL\n- Target dose: 500 mcg\n- Volume needed: 500 ÷ 5,000 = 0.1 mL\n- Syringe units: 0.1 × 100 = 10 units\n\nYour dose is once again 10 units on the syringe — because the higher vial concentration offsets the larger target dose. Practice this maths. It matters.",
+        },
+      ],
+      table: {
+        header: ["Vial Size", "BAC Water", "Concentration", "250 mcg Dose", "500 mcg Dose", "1,000 mcg Dose"],
+        rows: [
+          ["5 mg", "2 mL", "2,500 mcg/mL", "10 units", "20 units", "40 units"],
+          ["5 mg", "1 mL", "5,000 mcg/mL", "5 units", "10 units", "20 units"],
+          ["10 mg", "2 mL", "5,000 mcg/mL", "5 units", "10 units", "20 units"],
+          ["10 mg", "1 mL", "10,000 mcg/mL", "2.5 units", "5 units", "10 units"],
+          ["50 mg", "3 mL", "~16,670 mcg/mL", "1.5 units", "3 units", "6 units"],
+        ],
+      },
+    },
+    {
+      title: "Storage Guidelines",
+      body: "Peptides are fragile molecules. How you store them determines how long they remain usable.",
+      table: {
+        header: ["Form", "Temperature", "Shelf Life", "Special Notes"],
+        rows: [
+          ["Lyophilised powder (unopened)", "2–8°C (refrigerated)", "12–24 months", "Protect from light. Do not freeze"],
+          ["Lyophilised powder (unopened)", "-20°C (frozen)", "24–36 months", "Allow to reach room temp before opening to avoid condensation"],
+          ["Reconstituted solution", "2–8°C (refrigerated)", "Up to 28 days", "BAC water preservative active. Do not freeze"],
+          ["Reconstituted solution (aliquoted)", "-20°C (frozen)", "Up to 3 months", "Single-use aliquots only. Never repeatedly thaw/refreeze"],
+        ],
+      },
+    },
+    {
+      title: "Common Mistakes to Avoid",
+      body: "These are the errors that waste the most peptide and produce the most unreliable research data.",
+      subsections: [
+        {
+          title: "1. Injecting Water Directly Onto the Powder",
+          body: "This is the most common mistake. Direct stream impact can denature the peptide. Always aim the needle at the glass wall and let the water run down slowly.",
+        },
+        {
+          title: "2. Shaking the Vial",
+          body: "Shaking creates shear forces and introduces air bubbles. Peptide bonds are fragile — mechanical agitation can fragment the molecule. Swirl gently or roll between palms.",
+        },
+        {
+          title: "3. Using Sterile Water for Multi-Dose Protocols",
+          body: "Sterile water has no preservative. After the first puncture, bacterial growth can begin within hours. Use BAC water (0.9% benzyl alcohol) for any vial you plan to use more than once.",
+        },
+        {
+          title: "4. Maths Errors on the Syringe",
+          body: "Check your maths twice. A 10 mg vial reconstituted with 2 mL gives 5,000 mcg/mL. Drawing 20 units gives 1,000 mcg. Drawing 2 units gives 100 mcg. Use the formula every time until it becomes automatic.",
+        },
+        {
+          title: "5. Freezing Reconstituted Solution",
+          body: "Freezing a reconstituted peptide that you plan to draw from repeatedly destroys it. Ice crystals puncture the peptide structure. Only freeze in single-dose aliquots.",
+        },
+        {
+          title: "6. Using the Same Syringe for Reconstitution and Dosing",
+          body: "Drawing BAC water with an insulin syringe (29G–31G) takes forever and blunts the fine needle. Use a separate larger syringe for reconstitution and insulin syringes for dosing.",
+        },
+        {
+          title: "7. Forgetting to Label Vials",
+          body: "When you have three reconstituted vials in the refrigerator that all look identical, guessing which is which is not an option. Label every vial with compound name, concentration, and date immediately after reconstitution.",
+        },
+      ],
+    },
+    {
+      title: "Troubleshooting: Stubborn Peptides",
+      body: "Some peptides resist dissolution in plain BAC water. Here is how to handle the usual suspects.",
+      subsections: [
+        {
+          title: "GHK-Cu and Copper Peptides",
+          body: "GHK-Cu is notorious for slow dissolution. Use acetic acid water (0.6% acetic acid in sterile water) instead of standard BAC water. The slightly acidic pH helps the copper complex dissociate and dissolve. Alternatively, warm the vial gently by rolling it between your palms for 2–3 minutes before swirling.\n\nOnce dissolved, GHK-Cu has a characteristic pale blue colour — this is normal and expected. Do not discard it.",
+        },
+        {
+          title: "AOD-9604",
+          body: "AOD-9604 shares GHK-Cu's reputation for stubborn reconstitution. The same acetic acid water approach works. Some researchers report better results by adding a very small volume of BAC water first (0.5 mL), swirling gently, then adding the remaining volume after 2–3 minutes.",
+        },
+        {
+          title: "Melanotan II and PT-141",
+          body: "These dissolve readily in standard BAC water. No special handling required. However, they are photosensitive — protect the vial from light during and after reconstitution.",
+        },
+      ],
+    },
+    {
+      title: "Safety Considerations",
+      body: "Reconstitution is a sterile procedure. While you do not need a cleanroom, you do need clean hands, clean surfaces, and sterile supplies.\n\n**Key safety points:**\n- Never reuse needles or syringes. Discard after a single use into a sharps container.\n- Never use tap water, distilled water, or any non-sterile liquid for reconstitution. Contamination introduces bacterial endotoxins that can skew research results.\n- Always inspect the reconstituted solution before use. Cloudiness, particles, or unexpected colour changes mean the peptide has degraded or become contaminated.\n- Store all peptides out of reach of children and pets.\n- Follow your institution's biosafety and waste disposal guidelines.\n\nAll information in this guide is for laboratory research reference only. Peptides are not approved for human consumption. Always verify batch purity via the Certificate of Analysis provided by your supplier.\n\n[**Use the ViralPeps Dosage Calculator for your reconstitution maths →**](/tools/dosage-calculator)",
+    },
+  ],
+  faq: [
+    {
+      question: "What is bacteriostatic water and why is it recommended?",
+      answer: "Bacteriostatic water (BAC water) is sterile water containing 0.9% benzyl alcohol as an antimicrobial preservative. It is the standard solvent for peptide reconstitution because the benzyl alcohol inhibits bacterial growth after the vial is punctured, allowing the reconstituted solution to be used for up to 28 days when refrigerated. Sterile water lacks this preservative and must be used immediately — any leftover becomes a breeding ground for bacteria within hours.",
+    },
+    {
+      question: "How much BAC water should I add to my peptide vial?",
+      answer: "A common starting range is 1–3 mL per vial. For a 5 mg vial, 2 mL is standard (giving 2,500 mcg/mL). For a 50 mg vial (common for GHK-Cu), 3 mL is typical (giving ~16,670 mcg/mL). The exact volume depends on the dose you need and the concentration that is practical for your syringe. Smaller volumes give higher concentrations — meaning fewer units on the syringe per dose but more precision required. Larger volumes make dosing easier but require more storage volume.",
+    },
+    {
+      question: "Why should I not shake the vial after adding BAC water?",
+      answer: "Shaking creates shear forces and introduces air bubbles that can damage the peptide's three-dimensional structure. Peptides are long chains of amino acids folded into specific shapes — their biological activity depends on maintaining that fold. Mechanical agitation can fragment the chain or cause unfolding (denaturation). Always swirl gently or roll the vial between your palms until the powder dissolves. This usually takes 30–90 seconds.",
+    },
+    {
+      question: "How long does reconstituted peptide last in the refrigerator?",
+      answer: "With bacteriostatic water, a reconstituted peptide solution is stable for up to 28 days when stored at 2–8°C (standard refrigeration). After 28 days, the benzyl alcohol preservative loses effectiveness and bacterial contamination risk increases. Lyophilised (unreconstituted) powder stored at 2–8°C is typically stable for 12–24 months. Some peptides stored at -20°C as lyophilised powder can last 24–36 months, but never freeze reconstituted solution unless it is divided into single-dose aliquots.",
+    },
+    {
+      question: "What if my peptide doesn't dissolve completely?",
+      answer: "Some peptides are notoriously difficult to dissolve. GHK-Cu and AOD-9604 are the most common culprits. Try acetic acid water (0.6% acetic acid in sterile water) instead of BAC water. Gentle warmth from rolling the vial between your palms can also help. If the peptide still does not dissolve after these steps, the powder may have degraded during storage or the batch may be compromised. Check the Certificate of Analysis for storage recommendations specific to that compound. Never inject a solution with visible undissolved particles.",
+    },
+  ],
+  references: [
+    "PeptideDeck. How to Reconstitute Peptides: Step-by-Step Guide with Dosing Math (2026). peptidedeck.com/peptides/how-to-reconstitute-peptides",
+    "The Peptide Guides. How to Reconstitute Peptides: Step-by-Step Guide. thepeptideguides.com/guides/reconstitution-guide",
+    "PepGuide. Reconstitution Calculator. pepguide.io/tools/calculator",
+    "All About Peptides. How to Reconstitute Peptides: Step-by-Step Guide. allaboutpeptides.com/how-to-reconstitute-peptides/",
+    "PeptideWiki. How to Reconstitute Peptides: Step-by-Step. peptidewiki.co/guides/how-to-reconstitute-peptides",
+    "GLP-1 Forum. Bacteriostatic Water vs Sterile Water: Storage and Stability. Practical guidance on multi-dose vial handling and benzyl alcohol preservation.",
+  ],
+},
 };
 
 export default content;
