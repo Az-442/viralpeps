@@ -795,17 +795,17 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier with all batches HPLC + mass-spec tested. ≥99% purity, published per-batch Certificates of Analysis. Trustpilot 4.6★ with 60+ reviews. Free UK shipping over £100, dispatched within 24 hours.",
+    "description": "UK-based research peptide supplier with all batches HPLC + mass-spec tested. \u226599% purity, published per-batch Certificates of Analysis. Trustpilot 4.6\u2605 with 60+ reviews. Free UK shipping over \u00a3100, dispatched within 24 hours.",
     "highlights": [
       "HPLC + MS verified, every batch",
-      "≥99% purity — independently verified",
-      "Free UK shipping over £100",
-      "Trustpilot 4.6★ · 60+ reviews",
+      "\u226599% purity \u2014 independently verified",
+      "Free UK shipping over \u00a3100",
+      "Trustpilot 4.6\u2605 \u00b7 60+ reviews",
       "Published COAs per batch",
       "Registered UK company (No. 17107501)"
     ],
     "shipping": [
-      "UK free over £100",
+      "UK free over \u00a3100",
       "24-hour dispatch"
     ],
     "payment": [
@@ -878,17 +878,17 @@
     "verified": false,
     "founded": 2025,
     "country": "UK",
-    "description": "London-based UK research peptide supplier with 27 HPLC-tested research compounds manufactured to pharmaceutical-grade standards. Third-party lab tested with batch-specific reports. Registered UK company (No. 16661755) based in London with free UK delivery over £50.",
+    "description": "London-based UK research peptide supplier with 27 HPLC-tested research compounds manufactured to pharmaceutical-grade standards. Third-party lab tested with batch-specific reports. Registered UK company (No. 16661755) based in London with free UK delivery over \u00a350.",
     "highlights": [
       "27 products in catalog",
       "HPLC & Mass Spectrometry tested",
       "Pharmaceutical-grade manufacturing",
-      "Free UK delivery over £50",
+      "Free UK delivery over \u00a350",
       "Bulk discounts up to 25% off",
       "Registered UK company"
     ],
     "shipping": [
-      "UK free over £50",
+      "UK free over \u00a350",
       "EU (import duties paid at checkout)"
     ],
     "payment": [
@@ -907,23 +907,49 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "London-based research peptide supplier with all batches independently HPLC-tested by Janoshik Analytical. Registered UK company with batch-specific COAs, same-day dispatch before 1pm, and free delivery over £40. 200+ orders shipped.",
+    "description": "London-based research peptide supplier with all batches independently HPLC-tested by Janoshik Analytical. Registered UK company with batch-specific COAs, same-day dispatch before 1pm, and free delivery over \u00a340. 200+ orders shipped.",
     "highlights": [
       "Janoshik independent testing",
       "99%+ HPLC purity",
       "Batch-specific COAs",
       "Same-day dispatch (before 1pm)",
-      "Free UK delivery over £40",
+      "Free UK delivery over \u00a340",
       "Registered UK company (PEPTIFY LIMITED #17021295)"
     ],
     "shipping": [
-      "UK free over £40 (Royal Mail Tracked 24/48, same-day dispatch before 1pm Mon-Fri)"
+      "UK free over \u00a340 (Royal Mail Tracked 24/48, same-day dispatch before 1pm Mon-Fri)"
     ],
     "payment": [
       "Bank transfer (open banking)",
       "Cryptocurrency (BTC, ETH, USDT, USDC)"
     ],
     "lastTested": "2026-07-12",
+    "labTested": true
+  },
+  {
+    "id": "ascend-peptides",
+    "name": "Ascend Peptides UK",
+    "slug": "ascend-peptides",
+    "website": "https://ascendpeptidesuk.com",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier with all batches independently Janoshik-tested to 99%+ purity. Batch-level COA documentation, same-day UK dispatch, and responsive expert support.",
+    "highlights": [
+      "Janoshik third-party tested",
+      "99%+ HPLC purity",
+      "Batch-level COAs included",
+      "Same-day UK dispatch"
+    ],
+    "shipping": [
+      "UK next-day (order before 1pm Mon-Fri)"
+    ],
+    "payment": [
+      "Cards (Shopify Payments)",
+      "Bank transfer"
+    ],
+    "lastTested": "",
     "labTested": true
   }
 ]
