@@ -13,16 +13,6 @@ export interface ResearchArticle {
 
 export const guides: ResearchArticle[] = [
   {
-    title: "GLP-1 Research Overview",
-    desc: "An introduction to GLP-1 receptor agonists including Tirzepatide and Semaglutide for research purposes.",
-    category: "Compound Profiles",
-    section: "peptides",
-    compound: "Tirzepatide",
-    slug: "glp1-research-overview",
-    image: "glp1-overview",
-    tags: ["glp-1", "metabolic", "diabetes"],
-  },
-  {
     title: "BPC-157 Research Summary",
     desc: "Overview of BPC-157, its research applications, dosing protocols, and current literature.",
     category: "Compound Profiles",

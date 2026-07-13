@@ -4,17 +4,7 @@ import Link from "next/link";
 import { useState, useMemo } from "react";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
-import { guides, compoundList, navSections } from "@/data/research";
-
-const compounds = compoundList;
-
-const categories = [
-  "All",
-  "Guide",
-  "Articles",
-  "Research Summaries",
-  "Compound Profiles",
-];
+import { guides, navSections } from "@/data/research";
 
 const sectionLabels: Record<string, string> = {
   all: "All",
@@ -26,8 +16,6 @@ const sectionLabels: Record<string, string> = {
 
 export default function ResearchPage() {
   const [search, setSearch] = useState("");
-  const [selectedCompound, setSelectedCompound] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedSection, setSelectedSection] = useState("all");
 
   const filtered = useMemo(() => {
@@ -36,28 +24,21 @@ export default function ResearchPage() {
         !search ||
         g.title.toLowerCase().includes(search.toLowerCase()) ||
         g.desc.toLowerCase().includes(search.toLowerCase());
-      const matchCompound =
-        !selectedCompound || g.compound === selectedCompound;
-      const matchCategory =
-        selectedCategory === "All" || g.category === selectedCategory;
       const matchSection =
         selectedSection === "all" || g.section === selectedSection;
-      return matchSearch && matchCompound && matchCategory && matchSection;
+      return matchSearch && matchSection;
     });
-  }, [search, selectedCompound, selectedCategory, selectedSection]);
+  }, [search, selectedSection]);
 
   const sectionCount = (key: string) =>
     key === "all" ? guides.length : guides.filter((g) => g.section === key).length;
-
-  const categoryCount = (cat: string) =>
-    cat === "All" ? guides.length : guides.filter((g) => g.category === cat).length;
 
   return (
     <div className="min-h-screen bg-white">
       <HeaderNav current="/research" />
 
       {/* Banner */}
-      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-20 relative overflow-hidden">
+      <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-blue-500 blur-3xl" />
           <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-purple-500 blur-3xl" />
@@ -116,195 +97,98 @@ export default function ResearchPage() {
         </div>
       </div>
 
-      {/* PeptideGuide-style nav filter bar */}
+      {/* Nav filter bar */}
       <div className="border-b border-gray-200 bg-white">
         <div className="max-w-[76rem] mx-auto px-4">
-          <div className="flex items-center gap-1 overflow-x-auto py-3 scrollbar-none">
+          <div className="flex items-center gap-2 overflow-x-auto py-4 scrollbar-none">
             {navSections.map((s) => (
               <button
                 key={s.key}
-                onClick={() => { setSelectedSection(s.key); setSelectedCategory("All"); }}
+                onClick={() => { setSelectedSection(s.key); }}
                 className={`whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   selectedSection === s.key
-                    ? "bg-indigo-50 text-indigo-700 border border-indigo-200"
-                    : "text-gray-500 hover:text-gray-700 hover:bg-gray-50 border border-transparent"
+                    ? "bg-indigo-600 text-white shadow-sm"
+                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                 }`}
               >
                 {s.label}
-                <span className="ml-1.5 text-xs text-gray-400">
+                <span className="ml-1.5 text-xs opacity-70">
                   ({sectionCount(s.key)})
                 </span>
               </button>
             ))}
+            {/* Search inline */}
+            <div className="ml-auto relative">
+              <svg
+                className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input
+                type="text"
+                placeholder="Search articles..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-52 pl-9 pr-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400"
+              />
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Main content area */}
+      {/* Cards */}
       <div className="max-w-[76rem] mx-auto px-4 py-10">
-        <div className="flex gap-8">
-          {/* Left sidebar — Search + Category filter */}
-          <aside className="w-56 shrink-0 hidden lg:block">
-            <div className="sticky top-6 space-y-6">
-              <div>
-                <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                  Search
-                </h4>
-                <div className="relative">
-                  <svg
-                    className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                    />
-                  </svg>
-                  <input
-                    type="text"
-                    placeholder="Search articles..."
-                    value={search}
-                    onChange={(e) => setSearch(e.target.value)}
-                    className="w-full pl-9 pr-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400"
+        {filtered.length > 0 ? (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {filtered.map((g) => (
+              <Link
+                key={g.title}
+                href={`/research/${g.slug}`}
+                className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 hover:shadow-md transition-all group"
+              >
+                <div className="aspect-[16/9] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
+                  <img
+                    src={g.image ? `/images/guides/${g.image}.png` : ''}
+                    alt={g.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
-              </div>
-
-              <div>
-                <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                  Categories
-                </h4>
-                <div className="space-y-1">
-                  {categories.map((cat) => (
-                    <button
-                      key={cat}
-                      onClick={() => setSelectedCategory(cat)}
-                      className={`w-full text-left px-3 py-1.5 rounded-lg text-sm transition-colors ${
-                        selectedCategory === cat
-                          ? "bg-indigo-50 text-indigo-700 font-medium"
-                          : "text-gray-600 hover:bg-gray-50"
-                      }`}
-                    >
-                      {cat}{" "}
-                      <span className="text-gray-400 text-xs">
-                        ({categoryCount(cat)})
+                <div className="p-4">
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <span className="text-[10px] font-semibold text-white bg-blue-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                      {g.category}
+                    </span>
+                    {g.compound && (
+                      <span className="text-[10px] text-gray-400">
+                        {g.compound}
                       </span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div className="pt-4 border-t border-gray-100">
-                <p className="text-xs text-gray-400">
-                  Showing{" "}
-                  <span className="text-gray-700 font-medium">
-                    {filtered.length}
-                  </span>{" "}
-                  of {guides.length} articles
-                </p>
-              </div>
-            </div>
-          </aside>
-
-          {/* Center — Cards */}
-          <main className="flex-1 min-w-0">
-            <div className="grid md:grid-cols-2 gap-5">
-              {filtered.length > 0 ? (
-                filtered.map((g) => (
-                  <Link
-                    key={g.title}
-                    href={`/research/${g.slug}`}
-                    className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 hover:shadow-sm transition-all group"
-                  >
-                    <div className="aspect-[16/9] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
-                      <img
-                        src={g.image ? `/images/guides/${g.image}.png` : ''}
-                        alt={g.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
-                    </div>
-                    <div className="p-4">
-                      <div className="flex items-center gap-2 mb-1.5">
-                        <span className="text-[10px] font-semibold text-white bg-blue-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
-                          {g.category}
-                        </span>
-                        {g.compound && (
-                          <span className="text-[10px] text-gray-400">
-                            {g.compound}
-                          </span>
-                        )}
-                      </div>
-                      <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-indigo-600 transition-colors leading-snug">
-                        {g.title}
-                      </h3>
-                      <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">
-                        {g.desc}
-                      </p>
-                    </div>
-                  </Link>
-                ))
-              ) : (
-                <div className="col-span-full text-center py-12">
-                  <p className="text-gray-400 text-sm">
-                    No articles match your search.
+                    )}
+                    {g.minutes && (
+                      <span className="text-[10px] text-gray-400 ml-auto">
+                        {g.minutes} min read
+                      </span>
+                    )}
+                  </div>
+                  <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-indigo-600 transition-colors leading-snug">
+                    {g.title}
+                  </h3>
+                  <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">
+                    {g.desc}
                   </p>
                 </div>
-              )}
-            </div>
-          </main>
-
-          {/* Right sidebar — Compound filter */}
-          <aside className="w-60 shrink-0 hidden lg:block">
-            <div className="sticky top-6">
-              <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100 rounded-xl p-4">
-                <h4 className="text-xs font-semibold text-indigo-800 uppercase tracking-wider mb-1">
-                  Jump to Peptide
-                </h4>
-                <p className="text-[11px] text-indigo-600/70 mb-3">
-                  Select a compound to find related research
-                </p>
-                <div className="relative mb-3">
-                  <input
-                    type="text"
-                    placeholder="Search compounds..."
-                    value={selectedCompound}
-                    onChange={(e) => setSelectedCompound(e.target.value)}
-                    className="w-full px-3 py-1.5 text-xs border border-indigo-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 bg-white"
-                  />
-                </div>
-                <div className="max-h-60 overflow-y-auto space-y-0.5 scrollbar-thin">
-                  <button
-                    onClick={() => setSelectedCompound("")}
-                    className={`w-full text-left px-2 py-1 rounded text-xs transition-colors ${
-                      !selectedCompound
-                        ? "bg-indigo-100 text-indigo-800 font-medium"
-                        : "text-indigo-700 hover:bg-indigo-100/50"
-                    }`}
-                  >
-                    All compounds
-                  </button>
-                  {compounds.map((c) => (
-                    <button
-                      key={c}
-                      onClick={() => setSelectedCompound(c)}
-                      className={`w-full text-left px-2 py-1 rounded text-xs transition-colors ${
-                        selectedCompound === c
-                          ? "bg-indigo-100 text-indigo-800 font-medium"
-                          : "text-indigo-700 hover:bg-indigo-100/50"
-                      }`}
-                    >
-                      {c}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </aside>
-        </div>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-16">
+            <p className="text-gray-400 text-sm">
+              No articles match your search.
+            </p>
+          </div>
+        )}
 
         <div className="mt-12 text-center">
           <p className="text-sm text-gray-500 mb-4">
