@@ -5,13 +5,17 @@ import { useState } from "react";
 
 export default function HeaderNav({ current }: { current?: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [researchOpen, setResearchOpen] = useState(false);
   const [toolsOpen, setToolsOpen] = useState(false);
 
   const links = [
     { href: "/compounds", label: "Peptides" },
     { href: "/vendors", label: "Suppliers" },
-    { href: "/research", label: "Research" },
-    { href: "/guide", label: "Guide" },
+  ];
+
+  const researchLinks = [
+    { href: "/research", label: "Research Library" },
+    { href: "/guide", label: "Beginner's Guide" },
   ];
 
   const rightLinks = [
@@ -25,6 +29,13 @@ export default function HeaderNav({ current }: { current?: string }) {
     { href: "/tools/dosage-calculator", label: "Dosage Calculator" },
     { href: "/tools/cycle-calculator", label: "Cycle Calculator" },
   ];
+
+  function navLinkClass(href: string) {
+    const base = "px-3 py-2 text-sm font-medium rounded-lg transition-colors";
+    return current === href
+      ? base + " text-blue-600 bg-blue-50"
+      : base + " text-gray-600 hover:text-blue-600 hover:bg-gray-50";
+  }
 
   return (
     <nav className="bg-white border-b border-black sticky top-0 z-50">
@@ -50,28 +61,35 @@ export default function HeaderNav({ current }: { current?: string }) {
 
           <div className="hidden md:flex items-center gap-1">
             {links.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
-                  current === l.href
-                    ? "text-blue-600 bg-blue-50"
-                    : "text-gray-600 hover:text-blue-600 hover:bg-gray-50"
-                }`}
-              >
+              <Link key={l.href} href={l.href} className={navLinkClass(l.href)}>
                 {l.label}
               </Link>
             ))}
 
-            {/* Tools Dropdown */}
             <div className="relative group">
-              <button
-                className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors inline-flex items-center gap-1 ${
-                  current === "/tools"
-                    ? "text-blue-600 bg-blue-50"
-                    : "text-gray-600 hover:text-blue-600 hover:bg-gray-50"
-                }`}
-              >
+              <button className={navLinkClass("") + " inline-flex items-center gap-1"}>
+                Research
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+              <div className="absolute pt-1 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
+                <div className="bg-white border border-black rounded-xl shadow-lg py-2">
+                  {researchLinks.map((rl) => (
+                    <Link
+                      key={rl.href}
+                      href={rl.href}
+                      className={"block px-4 py-2 text-sm transition-colors" + (current === rl.href ? " text-blue-600 bg-blue-50 font-medium" : " text-gray-700 hover:bg-blue-50 hover:text-blue-600")}
+                    >
+                      {rl.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="relative group">
+              <button className={navLinkClass("/tools") + " inline-flex items-center gap-1"}>
                 Tools
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M6 9l6 6 6-6" />
@@ -93,15 +111,7 @@ export default function HeaderNav({ current }: { current?: string }) {
             </div>
 
             {rightLinks.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
-                  current === l.href
-                    ? "text-blue-600 bg-blue-50"
-                    : "text-gray-600 hover:text-blue-600 hover:bg-gray-50"
-                }`}
-              >
+              <Link key={l.href} href={l.href} className={navLinkClass(l.href)}>
                 {l.label}
               </Link>
             ))}
@@ -131,7 +141,6 @@ export default function HeaderNav({ current }: { current?: string }) {
         {menuOpen && (
           <div className="md:hidden border-t border-black bg-white pb-3">
             <div className="max-w-7xl mx-auto px-4 pt-3 space-y-1">
-              {/* Main links */}
               {links.map((l) => (
                 <Link
                   key={l.href}
@@ -142,16 +151,38 @@ export default function HeaderNav({ current }: { current?: string }) {
                   {l.label}
                 </Link>
               ))}
-              {/* Tools dropdown in mobile */}
+              <div>
+                <button
+                  onClick={() => setResearchOpen(!researchOpen)}
+                  className="flex items-center justify-between w-full px-3 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium"
+                >
+                  Research
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                {researchOpen && (
+                  <div className="ml-4 space-y-1 pb-1">
+                    {researchLinks.map((rl) => (
+                      <Link
+                        key={rl.href}
+                        href={rl.href}
+                        onClick={() => setMenuOpen(false)}
+                        className="block px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg"
+                      >
+                        {rl.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
               <div>
                 <button
                   onClick={() => setToolsOpen(!toolsOpen)}
                   className="flex items-center justify-between w-full px-3 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium"
                 >
                   Tools
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                    className={`transition-transform ${toolsOpen ? "rotate-180" : ""}`}
-                  >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M6 9l6 6 6-6" />
                   </svg>
                 </button>
@@ -170,7 +201,6 @@ export default function HeaderNav({ current }: { current?: string }) {
                   </div>
                 )}
               </div>
-              {/* Right links */}
               {rightLinks.map((l) => (
                 <Link
                   key={l.href}
