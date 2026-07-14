@@ -951,5 +951,33 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "precision-peptides",
+    "name": "Precision Peptides",
+    "slug": "precision-peptides",
+    "website": "https://precision-peptides.shop",
+    "rating": 5.0,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "Premium UK research peptide supplier (Precision Peptides Ltd #17005607) offering 39 high-purity research compounds. All products independently lab-tested with batch-specific documentation available upon request. Free UK delivery over \u00a3100, quantity discounts up to 15% off.",
+    "highlights": [
+      "5.0/5.0 rating on Peptide Supermarket",
+      "39 products in catalog",
+      "Independently lab tested",
+      "Quantity discounts up to 15%",
+      "Registered UK company (Precision Peptides Ltd #17005607)",
+      "London-based"
+    ],
+    "shipping": [
+      "UK free over \u00a3100",
+      "Next-day dispatch available"
+    ],
+    "payment": [
+      "Cards"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
