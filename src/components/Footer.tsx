@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Footer() {
@@ -36,11 +37,56 @@ export default function Footer() {
           <Link href="/faq" className="block text-xs mb-2 hover:text-white transition-colors">FAQ</Link>
         </div>
         <div>
-          <h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Company</h4>
-          <Link href="/about" className="block text-xs mb-2 hover:text-white transition-colors">About</Link>
-          <Link href="/contact" className="block text-xs mb-2 hover:text-white transition-colors">Contact</Link>
-          <Link href="/privacy" className="block text-xs mb-2 hover:text-white transition-colors">Privacy Policy</Link>
-          <Link href="/disclaimer" className="block text-xs mb-2 hover:text-white transition-colors">Disclaimer</Link>
+          <h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Stay Updated</h4>
+          <p className="text-xs text-gray-500 mb-3">Get price drops, new suppliers, and research updates.</p>
+          <form
+            className="flex gap-2"
+            onSubmit={async (e) => {
+              e.preventDefault();
+              const form = e.currentTarget;
+              const input = form.querySelector("input") as HTMLInputElement;
+              const btn = form.querySelector("button") as HTMLButtonElement;
+              btn.disabled = true;
+              btn.textContent = "Sending...";
+              try {
+                const res = await fetch("/api/subscribe", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ email: input.value }),
+                });
+                const data = await res.json();
+                if (data.ok) {
+                  input.value = "";
+                  btn.textContent = "Subscribed!";
+                  setTimeout(() => (btn.textContent = "Subscribe"), 3000);
+                } else {
+                  btn.textContent = "Error";
+                }
+              } catch {
+                btn.textContent = "Error";
+              }
+              setTimeout(() => { btn.disabled = false; }, 3000);
+            }}
+          >
+            <input
+              type="email"
+              required
+              placeholder="your@email.com"
+              className="flex-1 min-w-0 px-3 py-2 text-xs rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+            />
+            <button
+              type="submit"
+              className="px-4 py-2 text-xs font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-500 transition-colors"
+            >
+              Subscribe
+            </button>
+          </form>
+          <div className="mt-4 space-y-1">
+            <Link href="/about" className="block text-xs hover:text-white transition-colors">About</Link>
+            <Link href="/contact" className="block text-xs hover:text-white transition-colors">Contact</Link>
+            <Link href="/privacy-policy" className="block text-xs hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/disclaimer" className="block text-xs hover:text-white transition-colors">Disclaimer</Link>
+          </div>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 mt-8 pt-6 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
