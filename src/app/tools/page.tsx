@@ -35,6 +35,24 @@ export default function QuickSolvePage() {
   const [question, setQuestion] = useState("units");
   const [form, setForm] = useState({ doseMcg: 0, peptideMg: 0, waterMl: 0, units: 0 });
   const [result, setResult] = useState<null | string>(null);
+  const [email, setEmail] = useState("");
+  const [emailSent, setEmailSent] = useState<"idle" | "sending" | "sent" | "error">("idle");
+
+  const sendResult = async () => {
+    if (!email || !result) return;
+    setEmailSent("sending");
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, result }),
+      });
+      const data = await res.json();
+      setEmailSent(data.ok || res.status === 200 ? "sent" : "error");
+    } catch {
+      setEmailSent("error");
+    }
+  };
 
   const solve = () => {
     if (question === "units" && form.peptideMg && form.waterMl && form.doseMcg) {
@@ -201,8 +219,34 @@ export default function QuickSolvePage() {
             </button>
 
             {result && (
-              <div className="mt-4 bg-emerald-50 border border-emerald-200 rounded-xl p-4 text-sm">
-                <p className="text-emerald-900 font-semibold">{result}</p>
+              <div className="mt-4 space-y-3">
+                <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-4 text-sm">
+                  <p className="text-emerald-900 font-semibold">{result}</p>
+                </div>
+                {emailSent === "sent" ? (
+                  <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 text-sm">
+                    <p className="text-blue-900 font-semibold">
+                      ✅ Result sent — check your inbox! You're also subscribed to our weekly newsletter.
+                    </p>
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="Your email"
+                      className="flex-1 px-3 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-indigo-500 bg-white"
+                    />
+                    <button
+                      onClick={sendResult}
+                      disabled={!email || emailSent === "sending"}
+                      className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold px-4 py-2.5 rounded-lg text-sm transition"
+                    >
+                      {emailSent === "sending" ? "Sending..." : "Email me results"}
+                    </button>
+                  </div>
+                )}
               </div>
             )}
           </div>
