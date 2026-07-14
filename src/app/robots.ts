@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://www.viralpeps.co.uk/sitemap.xml",
+    sitemap: "https://viralpeps.co.uk/sitemap.xml",
   };
 }

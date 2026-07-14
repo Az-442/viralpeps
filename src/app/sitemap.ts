@@ -4,7 +4,7 @@ import vendors from "@/data/vendors.json";
 import { guides } from "@/data/research";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.viralpeps.co.uk";
+  const baseUrl = "https://viralpeps.co.uk";
 
   const staticPages = [
     { url: baseUrl, lastModified: new Date(), changeFrequency: "daily" as const, priority: 1.0 },
