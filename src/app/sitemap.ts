@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
+import { guides } from "@/data/research";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.viralpeps.co.uk";
@@ -33,5 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...compoundPages, ...vendorPages];
+  const researchPages = guides.map((g) => ({
+    url: `${baseUrl}/research/${g.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...compoundPages, ...vendorPages, ...researchPages];
 }

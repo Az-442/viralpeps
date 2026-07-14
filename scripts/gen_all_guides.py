@@ -1,70 +1,85 @@
-"""Generate 4 guide card images for GHK-Cu, Retatrutide, Semax, Selank."""
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import os
 
-COMPOUNDS = [
+# === CONFIG: 4 Compounds ===
+configs = [
     {
-        "name": "GHK-Cu",
-        "dosage": "50mg",
-        "category": "Compound Profile",
-        "subheading": "Research Summary",
-        "desc": [
-            "Overview of GHK-Cu, a naturally occurring copper",
-            "peptide complex that modulates gene expression,",
-            "promotes tissue repair and supports skin health.",
+        "COMPOUND": "Oxytocin",
+        "DOSAGE": "2mg",
+        "CATEGORY": "Compound Profile",
+        "SUBHEADING": "Research Summary",
+        "DESCRIPTION_LINES": [
+            "Overview of Oxytocin, a cyclic",
+            "nonapeptide neuropeptide hormone",
+            "involved in social bonding, stress",
+            "regulation, and reproductive research.",
         ],
-        "output": "public/images/guides/ghkcu-summary.png",
+        "VIAL_SOURCE": "public/images/compounds/oxytocin-vial.png",
+        "OUTPUT_PATH": "public/images/guides/oxytocin-research-summary.png",
     },
     {
-        "name": "Retatrutide",
-        "dosage": "10mg",
-        "category": "Compound Profile",
-        "subheading": "Research Summary",
-        "desc": [
-            "Overview of Retatrutide (LY3437943), a first-in-class",
-            "triple GLP-1/GIP/glucagon receptor agonist for",
-            "metabolic and obesity research.",
+        "COMPOUND": "Tesamorelin",
+        "DOSAGE": "10mg",
+        "CATEGORY": "Compound Profile",
+        "SUBHEADING": "Research Summary",
+        "DESCRIPTION_LINES": [
+            "Overview of Tesamorelin, a synthetic",
+            "GHRH analogue for pulsatile GH",
+            "release, visceral fat reduction,",
+            "and metabolic research.",
         ],
-        "output": "public/images/guides/retatrutide-summary.png",
+        "VIAL_SOURCE": "public/images/compounds/tesamorelin-vial.png",
+        "OUTPUT_PATH": "public/images/guides/tesamorelin-research-summary.png",
     },
     {
-        "name": "Semax",
-        "dosage": "30mg",
-        "category": "Compound Profile",
-        "subheading": "Research Summary",
-        "desc": [
-            "Overview of Semax, a synthetic ACTH(4-10) analog",
-            "that upregulates BDNF and NGF for neuroprotection,",
-            "cognitive enhancement and stroke recovery research.",
+        "COMPOUND": "Melanotan II",
+        "DOSAGE": "10mg",
+        "CATEGORY": "Compound Profile",
+        "SUBHEADING": "Research Summary",
+        "DESCRIPTION_LINES": [
+            "Overview of Melanotan II (MT2),",
+            "a synthetic α-MSH analog with",
+            "melanocortin receptor activity for",
+            "pigmentation, metabolic, and",
+            "inflammation research.",
         ],
-        "output": "public/images/guides/semax-summary.png",
+        "VIAL_SOURCE": "public/images/compounds/melanotan-ii-vial.png",
+        "OUTPUT_PATH": "public/images/guides/melanotan2-research-summary.png",
     },
     {
-        "name": "Selank",
-        "dosage": "5mg",
-        "category": "Compound Profile",
-        "subheading": "Research Summary",
-        "desc": [
-            "Overview of Selank (TP-7), a synthetic heptapeptide",
-            "tuftsin analog with anxiolytic and nootropic",
-            "properties for neuropeptide research.",
+        "COMPOUND": "Sermorelin",
+        "DOSAGE": "5mg",
+        "CATEGORY": "Compound Profile",
+        "SUBHEADING": "Research Summary",
+        "DESCRIPTION_LINES": [
+            "Overview of Sermorelin, the first",
+            "FDA-approved GHRH(1-29) analogue",
+            "for stimulating pulsatile GH",
+            "release in endocrine research.",
         ],
-        "output": "public/images/guides/selank-summary.png",
+        "VIAL_SOURCE": "public/images/compounds/sermorelin-vial.png",
+        "OUTPUT_PATH": "public/images/guides/sermorelin-research-summary.png",
     },
 ]
 
-VIAL_SOURCE = "public/images/compounds/viralpeps-vial-simple.png"
-vial = Image.open(VIAL_SOURCE)
-
 font_dir = "/System/Library/Fonts"
 helvetica = os.path.join(font_dir, "Helvetica.ttc")
+if os.path.exists(helvetica):
+    title_font = ImageFont.truetype(helvetica, 54, index=1)
+    subtitle_font = ImageFont.truetype(helvetica, 30)
+    badge_font = ImageFont.truetype(helvetica, 14)
+    body_font = ImageFont.truetype(helvetica, 20)
+    small_font = ImageFont.truetype(helvetica, 16)
+else:
+    title_font = subtitle_font = badge_font = body_font = small_font = ImageFont.load_default()
 
-for c in COMPOUNDS:
-    card_w, card_h = 1200, 675
+card_w, card_h = 1200, 675
+
+for cfg in configs:
     card = Image.new("RGB", (card_w, card_h), (255, 255, 255))
     draw = ImageDraw.Draw(card)
 
-    # Background gradient (subtle blue to white)
+    # Background gradient
     for y in range(card_h):
         ratio = y / card_h
         r = int(245 - ratio * 15)
@@ -77,7 +92,8 @@ for c in COMPOUNDS:
     draw.ellipse([-80, -80, 250, 250], fill=(230, 240, 255))
     draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(240, 245, 255))
 
-    # Resize and paste vial
+    # Open and resize vial
+    vial = Image.open(cfg["VIAL_SOURCE"])
     vial_ratio = vial.width / vial.height
     target_h = int(card_h * 0.8)
     target_w = int(target_h * vial_ratio)
@@ -85,39 +101,31 @@ for c in COMPOUNDS:
         target_w = card_w // 2 - 60
         target_h = int(target_w / vial_ratio)
     vial_resized = vial.resize((target_w, target_h), Image.LANCZOS)
+
+    # Position vial on left
     vial_x, vial_y = 50, (card_h - target_h) // 2
     if vial.mode == "RGBA":
         card.paste(vial_resized, (vial_x, vial_y), vial_resized)
     else:
         card.paste(vial_resized, (vial_x, vial_y))
 
-    # Fonts
-    if os.path.exists(helvetica):
-        title_font = ImageFont.truetype(helvetica, 54, index=1)
-        subtitle_font = ImageFont.truetype(helvetica, 30)
-        badge_font = ImageFont.truetype(helvetica, 14)
-        body_font = ImageFont.truetype(helvetica, 20)
-        small_font = ImageFont.truetype(helvetica, 16)
-    else:
-        title_font = subtitle_font = badge_font = body_font = small_font = ImageFont.load_default()
-
+    # Text area
     text_x = vial_x + target_w + 50
 
     # Category badge
     badge_x, badge_y = text_x, 140
     draw.rounded_rectangle([badge_x, badge_y, badge_x + 170, badge_y + 30], radius=15, fill=(37, 99, 235))
-    draw.text((text_x, badge_y + 15), c["category"], fill=(255, 255, 255), font=badge_font, anchor="mm")
+    draw.text((badge_x + 85, badge_y + 15), cfg["CATEGORY"], fill=(255, 255, 255), font=badge_font, anchor="mm")
 
     # Title
-    title_y = badge_y + 55
-    draw.text((text_x, title_y), c["name"], fill=(15, 30, 50), font=title_font)
+    draw.text((text_x, badge_y + 55), cfg["COMPOUND"], fill=(15, 30, 50), font=title_font)
 
     # Subtitle
-    draw.text((text_x, title_y + 70), c["subheading"], fill=(37, 99, 235), font=subtitle_font)
+    draw.text((text_x, badge_y + 125), cfg["SUBHEADING"], fill=(37, 99, 235), font=subtitle_font)
 
     # Description
-    y_off = title_y + 130
-    for line in c["desc"]:
+    y_off = badge_y + 185
+    for line in cfg["DESCRIPTION_LINES"]:
         draw.text((text_x, y_off), line, fill=(100, 116, 139), font=body_font)
         y_off += 30
 
@@ -127,7 +135,6 @@ for c in COMPOUNDS:
     # Blue accent stripe
     draw.rounded_rectangle([0, card_h - 4, card_w, card_h], radius=0, fill=(37, 99, 235))
 
-    card.save(c["output"], "PNG", quality=97)
-    print(f"Saved: {c['output']}")
-
-print("All 4 guide cards generated.")
+    # Save
+    card.save(cfg["OUTPUT_PATH"], "PNG", quality=97)
+    print(f"Saved: {cfg['OUTPUT_PATH']} ({os.path.getsize(cfg['OUTPUT_PATH'])} bytes)")
