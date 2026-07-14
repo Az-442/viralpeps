@@ -13,9 +13,24 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Server config error" }, { status: 500 });
     }
 
+    // Map lead magnet titles to MailerLite group IDs
+    const GROUP_MAP: Record<string, string> = {
+      "Recon Guide": "193000229768791327",
+      "GLP-1 Chart": "193000229925029164",
+      "Price Drops": "193000230078121276",
+      "Newsletter": "193000230234359172",
+    };
+
+    let groupId = GROUP_MAP.Newsletter; // default
+    if (result) {
+      if (result.includes("Reconstitution")) groupId = GROUP_MAP["Recon Guide"];
+      else if (result.includes("GLP-1")) groupId = GROUP_MAP["GLP-1 Chart"];
+      else if (result.includes("Overpay")) groupId = GROUP_MAP["Price Drops"];
+    }
+
     const body: Record<string, unknown> = {
       email,
-      groups: [],
+      groups: [groupId],
       status: "active",
     };
 
