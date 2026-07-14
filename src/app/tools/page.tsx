@@ -27,6 +27,9 @@ export default function QuickSolvePage() {
       });
       const data = await res.json();
       setEmailSent(data.ok || res.status === 200 ? "sent" : "error");
+      if (data.ok || res.status === 200) {
+        sessionStorage.setItem("vp_popup_shown", "true");
+      }
     } catch {
       setEmailSent("error");
     }
