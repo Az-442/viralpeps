@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import ToolsTabBar from "@/components/ToolsTabBar";
+import ToolsCardGrid from "@/components/ToolsCardGrid";
 
 const doses = [100, 250, 500, 1000, 2000, 2500, 5000, 7500, 10000, 12500, 15000];
 const strengths = [1, 5, 10, 15, 20, 50];
@@ -20,9 +20,9 @@ export default function DosageCalculatorPage() {
 
   return (
     <>
-      <ToolsTabBar />
+      <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628]">
+        <ToolsCardGrid />
 
-      <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628] pb-12">
         <div className="max-w-[76rem] mx-auto px-4 pb-6">
           {/* Disclaimer strip */}
           <div className="bg-amber-50/10 border border-amber-200/20 rounded-lg px-4 py-2.5 text-center mt-6">

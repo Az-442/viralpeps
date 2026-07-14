@@ -1,29 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
-import ToolsTabBar from "@/components/ToolsTabBar";
-
-const tools = [
-  {
-    href: "/tools",
-    label: "Quick Solve",
-    desc: "One answer, any question. Tell us what you need and we'll ask for the right info.",
-    active: true,
-  },
-  {
-    href: "/tools/dosage-calculator",
-    label: "Dosage Calculator",
-    desc: "Reconstitute & calculate syringe units. Vial strength, water, and target dose.",
-    active: false,
-  },
-  {
-    href: "/tools/cycle-calculator",
-    label: "Cycle Calculator",
-    desc: "Plan a cycle & find the cheapest supplier combo for the whole duration.",
-    active: false,
-  },
-];
+import ToolsCardGrid from "@/components/ToolsCardGrid";
 
 const questions = [
   { id: "units", label: "How many units to draw", sub: "I know my research dose but not the units" },
@@ -69,7 +47,6 @@ export default function QuickSolvePage() {
       setResult(`Your dose is approximately ${Math.round(dose * 10) / 10} mcg (${Math.round(mcgPerUnit * 10) / 10} mcg per unit)`);
     } else if (question === "water" && form.peptideMg && form.units && form.doseMcg) {
       const totalMcg = form.peptideMg * 1000;
-      const requiredUnits = form.doseMcg / (totalMcg / (form.units > 0 ? form.units : 1));
       const waterMl = (form.units / 100) * (totalMcg / form.doseMcg);
       if (waterMl > 0 && isFinite(waterMl)) {
         setResult(`Add approximately ${Math.round(waterMl * 10) / 10} mL of BAC water`);
@@ -83,37 +60,9 @@ export default function QuickSolvePage() {
 
   return (
     <>
-      <ToolsTabBar />
+      <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628]">
+        <ToolsCardGrid />
 
-      {/* Tool cards */}
-      <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628] pb-10">
-        <div className="max-w-[76rem] mx-auto px-4 grid md:grid-cols-3 gap-4">
-          {tools.map((t) => (
-            <Link
-              key={t.href}
-              href={t.href}
-              className={`group relative overflow-hidden rounded-2xl p-6 backdrop-blur-sm transition-all duration-200 hover:-translate-y-0.5 ${
-                t.active
-                  ? "bg-white text-gray-900 shadow-xl shadow-black/20 ring-2 ring-emerald-400"
-                  : "bg-white/[0.07] text-white border border-white/10 hover:bg-white hover:text-gray-900 hover:shadow-xl hover:shadow-black/20"
-              }`}
-            >
-              <h3 className={`text-lg font-bold mb-1 ${t.active ? "" : "group-hover:text-gray-900"}`}>
-                {t.active && (
-                  <span className="inline-flex items-center gap-1.5 mr-2 px-2 py-0.5 bg-emerald-500/20 text-emerald-600 rounded-full text-xs font-bold">
-                    Active
-                  </span>
-                )}
-                {t.label}
-              </h3>
-              <p className={`text-sm ${t.active ? "text-gray-500" : "text-gray-400 group-hover:text-gray-500"}`}>
-                {t.desc}
-              </p>
-            </Link>
-          ))}
-        </div>
-
-        {/* Disclaimer strip */}
         <div className="max-w-[76rem] mx-auto px-4 mt-6">
           <div className="bg-amber-50/10 border border-amber-200/20 rounded-lg px-4 py-2.5 text-center">
             <p className="text-xs text-amber-200/80">
