@@ -1383,6 +1383,315 @@ const content: Record<string, ResearchPageContent> = {
     "GLP-1 Forum. Bacteriostatic Water vs Sterile Water: Storage and Stability. Practical guidance on multi-dose vial handling and benzyl alcohol preservation.",
   ],
 },
+  "tb500-research-summary": {
+    slug: "tb500-research-summary",
+    compoundSlug: "tb-500",
+    pullQuote:
+      "TB-500 is the foreman of the repair crew \u2014 it doesn't build the scaffolding itself, but it tells every cell exactly where to march, when to arrive, and what to build when they get there.",
+    quickInfo: [
+      { label: "Peptide Name", value: "TB-500 (Thymosin Beta-4 Fragment)" },
+      { label: "Parent Protein", value: "Thymosin Beta-4 (T\u03b24) \u2014 43 amino acids" },
+      { label: "Classification", value: "Recovery / Tissue Support Peptide" },
+      { label: "Active Sequence", value: "LKKTETQ (amino acids 17\u201323 of T\u03b24)" },
+      { label: "CAS Number", value: "885340-08-9 (also 77591-33-4)" },
+      { label: "Molecular Weight", value: "4963.4 g/mol" },
+      { label: "Half-Life", value: "~2.5 hours" },
+      { label: "Typical Research Dose", value: "2\u20135 mg, 2x per week" },
+      { label: "Route", value: "Subcutaneous injection" },
+      { label: "Evidence Strength", value: "Extensive preclinical; first human clinical data emerging (2025)" },
+      { label: "Primary Research Areas", value: "Tissue repair, wound healing, cardiac recovery, tendon/ligament, neuroprotection" },
+    ],
+    sections: [
+      {
+        title: "What Is TB-500?",
+        body: "TB-500 is a synthetic peptide fragment corresponding to the active region (amino acids 17\u201323, the LKKTETQ sequence) of thymosin beta-4, a naturally occurring 43-amino-acid protein first isolated from the thymus gland in 1981.\n\n[**Compare TB-500 prices from UK suppliers \u2192**](/compounds/tb-500)",
+      },
+      {
+        title: "The Five Core Mechanisms of TB-500",
+        body: "TB-500 doesn't have one trick. It has five coordinated biological levers that together orchestrate repair from the molecular level up.",
+        subsections: [
+          { title: "1. Actin Sequestration", body: "The LKKTETQ motif binds directly to G-actin and regulates actin polymerisation, controlling the cytoskeletal machinery cells use to migrate toward injury sites. (Safer et al., 1997)." },
+          { title: "2. Angiogenesis", body: "Promotes new blood vessel formation by stimulating endothelial cell migration and tube formation via VEGF upregulation." },
+          { title: "3. Anti-Inflammatory Signalling", body: "Downregulates TNF-\u03b1, IL-1\u03b2, and NF-\u03baB signalling without silencing the immune response entirely." },
+          { title: "4. Matrix Remodelling", body: "Modulates MMPs and TIMPs for organised extracellular matrix turnover and reduced scarring." },
+          { title: "5. Cardiac Progenitor Activation", body: "Activates epicardium-derived progenitor cells capable of differentiating into cardiomyocytes." },
+        ],
+      },
+      {
+        title: "Where TB-500 Shows Up in Research",
+        body: "The preclinical literature spans wound healing, cardiac repair, musculoskeletal recovery, corneal regeneration, and neuroprotection.",
+        subsections: [
+          { title: "Wound Healing", body: "Philp et al. (2004) demonstrated 42% faster wound closure in rat excisional wound models." },
+          { title: "Cardiac Repair", body: "Activates epicardial progenitor cells; 2025 human study provided first controlled clinical evidence." },
+          { title: "Tendon and Ligament", body: "One of the most studied injectable peptides in sports medicine for improved collagen alignment and tensile strength." },
+          { title: "Corneal Healing", body: "Accelerates epithelial repair and reduces inflammation-induced haze." },
+          { title: "Neuroprotection", body: "Reduces neuronal apoptosis and lesion volume in TBI and stroke models." },
+        ],
+      },
+      {
+        title: "Dosing and Research Protocols",
+        body: "Typical research protocols: 2\u20135 mg twice per week via SC injection. Cycle lengths: 4\u20138 weeks. Reconstitution: 5 mg + 3 mL BAC water = 1.67 mg/mL.\n\n[**Find the best TB-500 prices \u2192**](/compounds/tb-500)",
+      },
+      {
+        title: "Molecular Profile",
+        body: "Key molecular properties of TB-500.",
+        table: { header: ["Property", "Value"], rows: [
+          ["CAS Number", "885340-08-9 (also 77591-33-4)"],
+          ["Molecular Weight", "4963.4 g/mol"],
+          ["Active Sequence", "LKKTETQ (aa 17\u201323 of Thymosin Beta-4)"],
+          ["Half-Life", "~2.5 hours"],
+          ["Classification", "Recovery / Tissue Support Peptide"],
+        ]},
+      },
+      {
+        title: "Safety Profile",
+        body: "Favourable safety profile in extensive animal studies. Overwhelmingly preclinical evidence base. 2025 human cardiac study provides first controlled human data. Strictly for in-vitro and animal research.",
+      },
+    ],
+    faq: [
+      { question: "What is TB-500 used for in research?", answer: "Wound healing, cardiac repair, tendon/ligament recovery, corneal repair, and neuroprotection." },
+      { question: "Difference between TB-500 and thymosin beta-4?", answer: "TB-500 is the synthetic active fragment (aa 17\u201323, LKKTETQ) of the full 43-aa thymosin beta-4 protein." },
+      { question: "How does TB-500 compare to BPC-157?", answer: "Different mechanisms: TB-500 governs cell migration via actin; BPC-157 drives angiogenesis via VEGF. Often studied in combination." },
+      { question: "What animal models?", answer: "Rodent wound healing, MI, tendon repair, corneal injury, TBI, and stroke models." },
+      { question: "Is TB-500 approved for human use?", answer: "No. Not approved by MHRA, FDA, or EMA. Research use only." },
+    ],
+    references: [
+      "Philp D, et al. Wound Repair Regen. 2004;12(6):645-654. PMID: 15555058.",
+      "Safer D, et al. J Biol Chem. 1991;266(7):4029-4032. PMID: 1999397.",
+      "Malinda KM, et al. FASEB J. 1997;11(6):474-481. PMID: 9194529.",
+      "Smart N, et al. Nature. 2007;445(7124):177-182. PMID: 17108969.",
+      "Hinkel R, et al. Circulation. 2008;117(17):2232-2240. PMID: 18427130.",
+    ],
+  },
+  "aod9604-research-summary": {
+    slug: "aod9604-research-summary",
+    compoundSlug: "aod-9604",
+    pullQuote:
+      "AOD-9604 isn't a metabolic sledgehammer \u2014 it's a precision scalpel that carves fat off the body while leaving every other hormonal pathway untouched.",
+    quickInfo: [
+      { label: "Peptide Name", value: "AOD-9604 (HGH Fragment 177-191)" },
+      { label: "Classification", value: "Lipolytic / Metabolic Research Peptide" },
+      { label: "CAS Number", value: "137632-02-1" },
+      { label: "Molecular Weight", value: "~1817 Da" },
+      { label: "Regulatory Status", value: "FDA GRAS (2014); Phase 2b obesity trials completed" },
+      { label: "Primary Research Areas", value: "Obesity, fat metabolism, osteoarthritis, bone repair" },
+    ],
+    sections: [
+      {
+        title: "What Is AOD-9604?",
+        body: "AOD-9604 is a 16-amino-acid modified fragment of human growth hormone (aa 177-191 with N-terminal Tyr). Developed by Prof. Frank Ng at Monash University. It isolates the lipolytic region of hGH while removing growth-promoting and diabetogenic effects.\n\n[**Explore AOD-9604 supplier pricing \u2192**](/compounds/aod-9604)",
+      },
+      {
+        title: "The Five Mechanisms",
+        body: "AOD-9604 works through lipolysis activation (ADRB3 pathway), lipogenesis inhibition (FAS/ACC downregulation), zero IGF-1 activation, chondroprotection, and anti-inflammatory modulation.",
+        subsections: [
+          { title: "1. Lipolysis Activation", body: "Activates ADRB3 pathway and hormone-sensitive lipase, breaking down triglycerides into free fatty acids." },
+          { title: "2. Lipogenesis Inhibition", body: "Downregulates fatty acid synthase and acetyl-CoA carboxylase, preventing fat storage." },
+          { title: "3. Zero IGF-1 Activation", body: "No stimulation of IGF-1, no effect on glucose homeostasis or insulin sensitivity." },
+          { title: "4. Chondroprotection", body: "Stimulates proteoglycan synthesis in chondrocytes while inhibiting MMP activity." },
+          { title: "5. Anti-Inflammatory Modulation", body: "Reduces inflammation markers in joint and cartilage research models." },
+        ],
+      },
+      {
+        title: "Research Applications",
+        body: "Strongest evidence in obesity/metabolic research and cartilage biology.",
+        subsections: [
+          { title: "Obesity and Fat Metabolism", body: "Phase 2b trials completed. Consistent fat mass reduction in animal models without systemic side effects." },
+          { title: "Osteoarthritis", body: "Stimulates proteoglycan synthesis, inhibits MMP-mediated cartilage breakdown." },
+          { title: "Bone Repair", body: "Preliminary evidence of bone-anabolic effects." },
+          { title: "Pre-Diabetes", body: "Indirect metabolic health support through adipose tissue reduction." },
+        ],
+      },
+      {
+        title: "How It Differs from Full-Length HGH",
+        body: "No IGF-1 pathway activation. No diabetogenic effect. No growth or anabolic effects. Purely a lipolytic and metabolic modulator.",
+      },
+      {
+        title: "Molecular Profile",
+        body: "Key molecular properties.",
+        table: { header: ["Property", "Value"], rows: [
+          ["CAS Number", "137632-02-1"],
+          ["Molecular Weight", "~1817 Da"],
+          ["Sequence Length", "16 amino acids"],
+          ["Origin", "Modified fragment of human growth hormone"],
+          ["FDA Status", "GRAS (2014)"],
+          ["IGF-1 Stimulation", "None"],
+          ["Effect on Glucose", "None"],
+        ]},
+      },
+      {
+        title: "Dosing and Research Use",
+        body: "5 mg + 3 mL BAC water = 1.67 mg/mL. 300 mcg = 18 units. 500 mcg = 30 units. AOD-9604 can be difficult to dissolve; 0.6% acetic acid water alternative.\n\n[**Check AOD-9604 prices \u2192**](/compounds/aod-9604)",
+      },
+    ],
+    faq: [
+      { question: "What is AOD-9604 used for?", answer: "Lipolytic (fat-burning) effects in obesity and metabolic research. Also chondroprotective properties." },
+      { question: "Is it the same as growth hormone?", answer: "No. It's a fragment of hGH (aa 177-191) without IGF-1, glucose, or anabolic effects." },
+      { question: "Does it affect blood sugar?", answer: "No. No impact on glucose homeostasis or insulin sensitivity." },
+      { question: "Has it been in clinical trials?", answer: "Yes. Phase 2b obesity trials completed. FDA GRAS status (2014)." },
+      { question: "How is it administered?", answer: "Subcutaneous injection, typically 300\u2013500 mcg daily in research settings." },
+    ],
+    references: [
+      "Ng FM, et al. Life Sci. 2000;66(15):1419-30. PMID: 11210732.",
+      "Heffernan MA, et al. Int J Obes. 2001;25(Suppl 2):S34. PMID: 11549391.",
+      "ClinicalTrials.gov NCT00515138.",
+      "FDA GRAS Notification GRN No. 000521.",
+      "Cao F, et al. Osteoarthritis Cartilage. 2003;11(11):825-31. PMID: 14609535.",
+    ],
+  },
+  "cjc1295-research-summary": {
+    slug: "cjc1295-research-summary",
+    compoundSlug: "cjc-1295",
+    pullQuote:
+      "CJC-1295 doesn't force the pituitary open \u2014 it turns the volume dial up on an orchestra that was already playing the right song.",
+    quickInfo: [
+      { label: "Peptide Name", value: "CJC-1295 (Modified GRF 1-29 with DAC)" },
+      { label: "Classification", value: "GHRH Analog" },
+      { label: "CAS Number", value: "863288-34-0" },
+      { label: "Molecular Weight", value: "3367.9 g/mol" },
+      { label: "Half-Life (with DAC)", value: "5\u20138 days" },
+      { label: "Half-Life (No DAC)", value: "~30 minutes" },
+      { label: "Primary Research Areas", value: "GH axis, body composition, fat loss, recovery, healthy aging" },
+    ],
+    sections: [
+      {
+        title: "What Is CJC-1295?",
+        body: "CJC-1295 is a synthetic 29-amino-acid analog of GHRH with two engineering upgrades: DPP-IV resistance and Drug Affinity Complex (DAC) for albumin binding, extending half-life from minutes to days.\n\n[**Browse CJC-1295 options \u2192**](/compounds/cjc-1295)",
+      },
+      {
+        title: "DAC vs No DAC",
+        body: "CJC-1295 with DAC: half-life 5\u20138 days, sustained GH/IGF-1 elevation. CJC-1295 No DAC (Mod GRF 1-29): half-life ~30 min, transient pulse. Same GHRH receptor activation.",
+        subsections: [
+          { title: "With DAC", body: "Covalently binds albumin. Half-life 5\u20138 days. Dosing once every 7\u20138 days." },
+          { title: "No DAC (Mod GRF 1-29)", body: "No albumin binding. Half-life ~30 min. Dosing 2\u20133x daily." },
+        ],
+      },
+      {
+        title: "Mechanism of Action",
+        body: "GHRH receptor binding \u2192 cAMP/PKA/CREB signalling \u2192 GH transcription and release \u2192 hepatic IGF-1 production. Somatostatin sensitivity and pulsatile secretion preserved.",
+        subsections: [
+          { title: "GHRH Receptor Binding", body: "GPCR activation triggers cAMP/PKA/CREB cascade, increasing GH transcription." },
+          { title: "Preserved Pulsatility", body: "Amplifies pulse amplitude without eliminating inter-pulse trough (Iovino et al.)." },
+          { title: "GH to IGF-1 Cascade", body: "Teichman et al. (2006): 1.5- to 3-fold IGF-1 increase persisting up to 6 days." },
+        ],
+      },
+      {
+        title: "Landmark Study: Teichman et al. (2006)",
+        body: "First human trial of CJC-1295 with DAC. Single SC dose produced 2- to 10-fold GH increase and 1.5- to 3-fold IGF-1 increase for up to 6 days. Pulsatile secretion preserved. Established 5\u20138 day half-life for DAC variant.",
+      },
+      {
+        title: "Research Applications",
+        body: "GH/IGF-1 elevation supports muscle growth, metabolic function, recovery, and healthy aging research.",
+        subsections: [
+          { title: "Muscle Growth", body: "Indirect support through GH/IGF-1 mediated protein synthesis and nitrogen retention." },
+          { title: "Fat Loss", body: "GH is lipolytic; sustained elevation mobilises fatty acids." },
+          { title: "Longevity", body: "Counteracts somatopause (GH declines ~14%/decade after 30)." },
+          { title: "Recovery and Sleep", body: "Amplifies nocturnal GH pulses during slow-wave sleep." },
+        ],
+      },
+      {
+        title: "Molecular Profile",
+        table: { header: ["Property", "Value"], rows: [
+          ["CAS Number", "863288-34-0"],
+          ["Molecular Weight", "3367.9 g/mol"],
+          ["Half-Life (with DAC)", "5\u20138 days"],
+          ["Half-Life (No DAC)", "~30 minutes"],
+          ["Signalling Pathway", "cAMP / PKA / CREB"],
+        ]},
+        body: "Key molecular properties of CJC-1295.",
+      },
+      {
+        title: "Dosing and Safety",
+        body: "With DAC: 30\u2013100 mcg/kg SC every 7\u20138 days. No DAC: 100\u2013200 mcg 2\u20133x daily. Favourable tolerability in human trials. Strictly for research use.\n\n[**Check CJC-1295 pricing \u2192**](/compounds/cjc-1295)",
+      },
+    ],
+    faq: [
+      { question: "Difference between DAC and No DAC?", answer: "DAC binds albumin (5\u20138 day half-life). No DAC (Mod GRF 1-29) has ~30 min half-life." },
+      { question: "Does CJC-1295 increase testosterone?", answer: "No. Acts exclusively on GH axis via GHRH receptor." },
+      { question: "Does it override GH pulsatility?", answer: "No. Pulsatile secretion is preserved (Teichman 2006, Iovino et al.)." },
+      { question: "How long does CJC-1295 with DAC stay active?", answer: "Half-life 5\u20138 days, effects up to 6 days after single dose." },
+      { question: "Is it approved for human use?", answer: "No. MHRA, FDA, or EMA approval. Research use only." },
+    ],
+    references: [
+      "Teichman SL, et al. J Clin Endocrinol Metab. 2006;91(3):799-805. PMID: 16352680.",
+      "Iovino M, et al. J Endocrinol Invest. 1995;18(8):585-591.",
+      "Veldhuis JD, et al. Endocr Rev. 2008;29(7):823-864. PMID: 18940984.",
+      "Schoenfeld BJ, et al. J Endocr Soc. 2017;1(10):1286-1302.",
+      "Jaffe CA, et al. J Clin Endocrinol Metab. 1993;77(5):1298-1309. PMID: 8077326.",
+    ],
+  },
+  "ipamorelin-research-summary": {
+    slug: "ipamorelin-research-summary",
+    compoundSlug: "ipamorelin",
+    pullQuote:
+      "Ipamorelin is the first GH secretagogue that learned the art of precision \u2014 it opens the GH floodgates without touching cortisol, ACTH, or prolactin.",
+    quickInfo: [
+      { label: "Peptide Name", value: "Ipamorelin" },
+      { label: "Classification", value: "GH Secretagogue (GHS-R1a Agonist)" },
+      { label: "CAS Number", value: "170851-70-4" },
+      { label: "Molecular Weight", value: "711.9 g/mol" },
+      { label: "Half-Life", value: "~2 hours (subcutaneous)" },
+      { label: "Selectivity", value: "No cortisol, ACTH, prolactin, or aldosterone elevation" },
+    ],
+    sections: [
+      {
+        title: "What Is Ipamorelin?",
+        body: "Ipamorelin is a synthetic pentapeptide selective GH secretagogue via GHS-R1a (ghrelin receptor). First described by Raun et al. (1998) as the first selective GH secretagogue.\n\n[**Compare Ipamorelin prices \u2192**](/compounds/ipamorelin)",
+      },
+      {
+        title: "Why Selectivity Matters",
+        body: "GHRP-2/GHRP-6 elevate cortisol by 40\u201380% and prolactin by 100\u2013300%. Ipamorelin produces equivalent GH without these effects.",
+        subsections: [
+          { title: "No Cortisol", body: "The most confounding variable in endocrine research \u2014 ipamorelin avoids it entirely." },
+          { title: "No ACTH/Prolactin", body: "Receptor-level selectivity keeps corticotropic and lactotropic pathways at baseline." },
+          { title: "Minimal Appetite", body: "Far milder appetite effects than GHRP-6." },
+          { title: "No Aldosterone", body: "No significant effect at GH-stimulating doses." },
+        ],
+      },
+      {
+        title: "GHS-R1a vs GHRH",
+        body: "Ipamorelin (GHS-R1a) is mechanistically distinct from GHRH analogs (CJC-1295, Sermorelin). They increase GH frequency vs amplitude respectively. Mechanistically complementary.\n\n[**Explore options \u2192**](/compounds/ipamorelin)",
+        subsections: [
+          { title: "vs CJC-1295", body: "CJC: GHRH receptor, 6\u20138 day half-life, GH amplitude. Ipamorelin: GHS-R1a, 2h half-life, GH frequency." },
+          { title: "vs Sermorelin", body: "Sermorelin: 29-aa GHRH fragment, retains ACTH coupling. Ipamorelin: 5-aa, cleaner profile." },
+        ],
+      },
+      {
+        title: "Research Applications",
+        body: "Most evidence is preclinical. GH/IGF-1 axis stimulation, body composition, bone health (Johansen 1999, Andersen 2001, Svensson 2000), recovery and sleep.",
+      },
+      {
+        title: "Molecular Profile",
+        body: "Key properties.",
+        table: { header: ["Property", "Value"], rows: [
+          ["CAS Number", "170851-70-4"],
+          ["Molecular Weight", "711.9 g/mol"],
+          ["Sequence", "Aib-His-D-2-Nal-D-Phe-Lys-NH2"],
+          ["Receptor", "GHS-R1a (ghrelin receptor)"],
+          ["Half-Life (SC)", "~2 hours"],
+          ["Route", "Subcutaneous injection"],
+        ]},
+      },
+      {
+        title: "Safety and Regulatory",
+        body: "Never approved for any clinical indication. Strictly investigational for research use only.\n\n[**Check Ipamorelin prices \u2192**](/compounds/ipamorelin)",
+      },
+    ],
+    faq: [
+      { question: "What makes ipamorelin different from GHRP-2/6?", answer: "Selectivity: no cortisol, ACTH, prolactin, or aldosterone elevation (Raun et al., 1998)." },
+      { question: "How does it work?", answer: "GHS-R1a agonist on pituitary somatotrophs, calcium/IP3 signalling." },
+      { question: "What is the dose range?", answer: "100\u2013300 mcg/day in small-animal models, SC." },
+      { question: "Can it be combined?", answer: "Yes, with GHRH analogs (CJC-1295, Sermorelin) for synergistic GH release." },
+      { question: "Is it approved?", answer: "No. MHRA, FDA, or EMA approval. Research use only." },
+    ],
+    references: [
+      "Raun K, et al. Eur J Endocrinol. 1998;139(5):552-561. PMID: 9849821.",
+      "Ahnfelt-Ronne I, et al. J Biol Chem. 2001;276(11):8045-8051. PMID: 11110797.",
+      "Johansen PB, et al. Growth Horm IGF Res. 1999;9(5):301-308. PMID: 10584317.",
+      "Andersen NB, et al. J Endocrinol. 2001;170(2):441-448. PMID: 11479141.",
+      "Svensson J, et al. J Endocrinol. 2000;166(3):K11-K16. PMID: 10974664.",
+    ],
+  },
 };
 
 export default content;
