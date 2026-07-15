@@ -53,13 +53,15 @@ export default function LeadMagnetPopup() {
       return magnets.recon;
     }
 
-    // GLP-1 Chart: compound / research pages
-    if ((path.startsWith("/compounds") || path.startsWith("/research")) && !viewed) {
+    // GLP-1 Chart: research pages + specific GLP-1 compound pages
+    const glp1Slugs = ["tirzepatide", "semaglutide", "retatrutide", "liraglutide"];
+    const isGlp1Page = glp1Slugs.some(slug => path.includes(slug));
+    if ((path.startsWith("/research") || (path.startsWith("/compounds") && isGlp1Page)) && !viewed) {
       return magnets.glp1;
     }
 
-    // Price Drops: 2nd page view (any other page)
-    if (pageView >= 2 && !viewed) {
+    // Price Drops: non-GLP-1 compound pages (first view), or 2nd page view (any other page)
+    if (!viewed && (path.startsWith("/compounds") || pageView >= 2)) {
       return magnets.pricedrops;
     }
 
