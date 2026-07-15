@@ -59,6 +59,40 @@ const freeShippingCount = vendors.filter((v) => v.shipping?.some((s) => s.toLowe
 const labTestedCount = vendors.filter((v) => v.labTested).length;
 const avgRating = (vendors.reduce((sum, v) => sum + v.rating, 0) / vendors.length).toFixed(1);
 
+// Smart vendor logo component — tries .svg then .png, falls back to initials
+function VendorLogo({ slug, name, bigLogo }: { slug: string; name: string; bigLogo: boolean }) {
+  const [src, setSrc] = useState(`/images/vendors/${slug}.svg`);
+  const [fallback, setFallback] = useState<"svg" | "png" | "initials">("svg");
+  const size = bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14";
+
+  const onImgError = () => {
+    if (fallback === "svg") {
+      setFallback("png");
+      setSrc(`/images/vendors/${slug}.png`);
+    } else {
+      setFallback("initials");
+    }
+  };
+
+  if (fallback === "initials") {
+    const initials = name.split(" ").map((w: string) => w[0]).join("").slice(0, 2).toUpperCase();
+    return (
+      <div className={`${size} flex items-center justify-center text-gray-400 font-bold text-lg`}>
+        {initials}
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      alt={name}
+      onError={onImgError}
+      className={`${size} object-contain`}
+    />
+  );
+}
+
 export default function VendorsPage() {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<"all" | "verified" | "free-shipping" | "lab-tested">("all");
@@ -184,7 +218,7 @@ export default function VendorsPage() {
               const minPrice = vendorMinPrices[v.name] || 0;
               const hasFreeShipping = v.shipping?.some((s) => s.toLowerCase().includes("free"));
               const hasLabTested = v.labTested;
-              const svgVendors = ["raw-peptides", "peptify-uk", "peptigen-labs"];
+              // Auto-detect vendor logo — try .svg first, fallback .png, fallback initials
               const bigLogo = ["dr-peptides", "express-peptides", "the-peptide-company", "raw-peptides"].includes(v.slug);
               return (
                 <Link
@@ -193,9 +227,9 @@ export default function VendorsPage() {
                   className="bg-white border border-black rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
                 >
                   <div className="flex items-start gap-4">
-                    {/* Logo - bigger for 3 vendors */}
-                    <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white border border-gray-200`}>
-                      <img src={`/images/vendors/${v.slug}${svgVendors.includes(v.slug) ? ".svg" : ".png"}`} alt={v.name} className={`${bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14"} object-contain`} />
+                    {/* Logo */}
+                    <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200`}>
+                      <VendorLogo slug={v.slug} name={v.name} bigLogo={bigLogo} />
                     </div>
 
                     {/* Middle content */}
