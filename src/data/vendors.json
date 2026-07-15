@@ -979,5 +979,31 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "astra-labs",
+    "name": "Astra Labs",
+    "slug": "astra-labs",
+    "website": "https://astralabs.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier (Astra Scientific Ltd) offering premium-grade research compounds with Janoshik third-party testing. Known for competitive pricing on GLP-1 agonists, peptide blends, and unique compounds including SS-31. All batches supplied with COA verification.",
+    "highlights": [
+      "Janoshik lab tested",
+      "Free UK delivery over £100",
+      "Competitive pricing on GLP-1s",
+      "Discreet packaging"
+    ],
+    "shipping": [
+      "UK (free over £100)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-07-15",
+    "labTested": true
   }
 ]

@@ -1,0 +1,27 @@
+<svg width="56" height="60" viewBox="0 0 56 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Astra Labs">
+<defs>
+<linearGradient id="alGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#1E3A5F"/>
+<stop offset="50%" stop-color="#2563EB"/>
+<stop offset="100%" stop-color="#0EA5E9"/>
+</linearGradient>
+</defs>
+<!-- Hexagonal molecular structure -->
+<polygon points="28,3 46,14 46,36 28,47 10,36 10,14" stroke="url(#alGrad)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<!-- Inner hexagon -->
+<polygon points="28,12 39,19 39,33 28,40 17,33 17,19" stroke="url(#alGrad)" stroke-width="1.5" fill="none" opacity="0.7"/>
+<!-- Center circle (nucleus) -->
+<circle cx="28" cy="26" r="4" fill="#2563EB" opacity="0.8"/>
+<!-- Outer nodes -->
+<circle cx="28" cy="3" r="3" fill="#1E3A5F"/>
+<circle cx="46" cy="14" r="3" fill="#2563EB"/>
+<circle cx="46" cy="36" r="3" fill="#2563EB"/>
+<circle cx="28" cy="47" r="3" fill="#0EA5E9"/>
+<circle cx="10" cy="36" r="3" fill="#0EA5E9"/>
+<circle cx="10" cy="14" r="3" fill="#1E3A5F"/>
+<!-- Connecting lines -->
+<line x1="22" y1="16" x2="22" y2="20" stroke="#2563EB" stroke-width="1" opacity="0.5"/>
+<line x1="34" y1="16" x2="34" y2="20" stroke="#2563EB" stroke-width="1" opacity="0.5"/>
+<line x1="22" y1="32" x2="22" y2="36" stroke="#0EA5E9" stroke-width="1" opacity="0.5"/>
+<line x1="34" y1="32" x2="34" y2="36" stroke="#0EA5E9" stroke-width="1" opacity="0.5"/>
+</svg>
