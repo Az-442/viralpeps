@@ -2,35 +2,33 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import os
 
 # === CONFIG ===
-COMPOUND = "BPC-157"
+COMPOUND = "PT-141"
 DOSAGE = "10mg"
 CATEGORY = "Compound Profile"
 SUBHEADING = "Research Summary"
 DESCRIPTION_LINES = [
-    "Overview of BPC-157, its research",
-    "applications, dosing protocols,",
-    "and current literature.",
+    "Overview of PT-141 (Bremelanotide), an",
+    "FDA-approved melanocortin receptor agonist",
+    "for HSDD research.",
 ]
-VIAL_SOURCE = "public/images/compounds/bpc-157-vial.png"
-OUTPUT_PATH = "public/images/guides/bpc157-summary.png"
+VIAL_SOURCE = "public/images/compounds/pt-141-vial.png"
+OUTPUT_PATH = "public/images/guides/pt141-research-summary.png"
 # ==============
 
-# Canvas
 card_w, card_h = 1200, 675
 card = Image.new("RGB", (card_w, card_h), (255, 255, 255))
 draw = ImageDraw.Draw(card)
 
-# Background gradient
+# Background (light blue-gray)
 for y in range(card_h):
     ratio = y / card_h
     r = int(245 - ratio * 15)
     g = int(248 - ratio * 15)
     b = int(255 - ratio * 15)
-    draw.point((0, y), fill=(r, g, b))
-    for x in range(1, card_w):
+    for x in range(card_w):
         draw.point((x, y), fill=(r, g, b))
 
-# Decorative circles
+# Decorative circles (soft blue)
 draw.ellipse([-80, -80, 250, 250], fill=(230, 240, 255))
 draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(240, 245, 255))
 
@@ -66,16 +64,17 @@ else:
 # Text area
 text_x = vial_x + target_w + 50
 
-# Category badge
+# Category badge (blue pill)
+BLUE = (37, 99, 235)
 badge_x, badge_y = text_x, 140
-draw.rounded_rectangle([badge_x, badge_y, badge_x + 170, badge_y + 30], radius=15, fill=(37, 99, 235))
+draw.rounded_rectangle([badge_x, badge_y, badge_x + 170, badge_y + 30], radius=15, fill=BLUE)
 draw.text((badge_x + 85, badge_y + 15), CATEGORY, fill=(255, 255, 255), font=badge_font, anchor="mm")
 
 # Title
 draw.text((text_x, badge_y + 55), COMPOUND, fill=(15, 30, 50), font=title_font)
 
 # Subtitle
-draw.text((text_x, badge_y + 125), SUBHEADING, fill=(37, 99, 235), font=subtitle_font)
+draw.text((text_x, badge_y + 125), SUBHEADING, fill=BLUE, font=subtitle_font)
 
 # Description
 y_off = badge_y + 185
@@ -87,7 +86,7 @@ for line in DESCRIPTION_LINES:
 draw.text((text_x, card_h - 55), "viralpeps.co.uk", fill=(148, 163, 184), font=small_font)
 
 # Blue accent stripe
-draw.rounded_rectangle([0, card_h - 4, card_w, card_h], radius=0, fill=(37, 99, 235))
+draw.rounded_rectangle([0, card_h - 4, card_w, card_h], radius=0, fill=BLUE)
 
 # Save
 card.save(OUTPUT_PATH, "PNG", quality=97)
