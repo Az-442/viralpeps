@@ -1694,7 +1694,7 @@ const content: Record<string, ResearchPageContent> = {
   },
   "pt141-profile": {
     slug: 'pt141-profile',
-    compoundSlug: 'pt-141',
+    compoundSlug: 'pt-141-bremelanotide',
     pullQuote: 'PT-141 ditches the plumbing metaphor entirely — it doesn\u2019t widen blood vessels like the little blue pill. Instead, it rewires the signal from the command centre: the brain. This is a central nervous system play, and that changes everything.',
     quickInfo: [
       { label: 'CAS Number', value: '189691-06-3' },
