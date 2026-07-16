@@ -1005,5 +1005,35 @@
     ],
     "lastTested": "2026-07-15",
     "labTested": true
+  },
+  {
+    "id": "ol-research",
+    "name": "OL Research",
+    "slug": "ol-research",
+    "website": "https://olresearch.co.uk",
+    "rating": 4.8,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering ≥98% HPLC-verified purity across all products. Rated Excellent on Trustpilot. All batches independently tested with COAs available. Same or next working day dispatch from UK facility, free UK shipping over £50, and discreet plain packaging.",
+    "highlights": [
+      "Rated Excellent on Trustpilot",
+      "≥98% HPLC-verified purity",
+      "Independent batch testing with COAs",
+      "Free UK shipping over £50",
+      "Same/next working day dispatch",
+      "Discreet plain packaging"
+    ],
+    "shipping": [
+      "UK (free over £50, same-day dispatch before 1pm Mon-Fri)"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard/Amex)",
+      "Apple Pay",
+      "Google Pay",
+      "Wallid Pay by Bank"
+    ],
+    "lastTested": "2026-07-16",
+    "labTested": true
   }
 ]
