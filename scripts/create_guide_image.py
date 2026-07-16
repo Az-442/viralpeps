@@ -1,120 +1,100 @@
+"""Generate PT-141 card matching the EXACT same design as BPC-157 original.
+- Small transparent vial (RGBA mask)
+- Centered in left panel
+- Text column at x=420
+- Identical gradient, badge, colors, spacing"""
+
 from PIL import Image, ImageDraw, ImageFont
-import os
+import os, math
 
 # === CONFIG ===
 COMPOUND = "PT-141"
 DOSAGE = "10mg"
 CATEGORY = "Compound Profile"
 SUBHEADING = "Research Summary"
-DESCRIPTION_LINES = [
-    "Overview of PT-141 (Bremelanotide), an",
-    "FDA-approved melanocortin receptor agonist",
-    "for HSDD research.",
-]
-VIAL_SOURCE = "public/images/compounds/pt-141-vial.png"
-OUTPUT_PATH = "public/images/guides/pt141-research-summary.png"
+DESC = "Overview of PT-141 (Bremelanotide), an FDA-approved melanocortin receptor agonist for HSDD research."
+VIAL_SRC = "public/images/compounds/pt-141-vial.png"
+OUTPUT = "public/images/guides/pt141-research-summary.png"
 # ==============
 
-card_w, card_h = 1200, 675
-card = Image.new("RGB", (card_w, card_h), (255, 255, 255))
-draw = ImageDraw.Draw(card)
+W, H = 1200, 675
+img = Image.new("RGB", (W, H), (230, 240, 255))
+draw = ImageDraw.Draw(img)
 
-# Background gradient (light blue-gray — matching BPC-157 original)
-for y in range(card_h):
-    ratio = y / card_h
-    r = int(245 - ratio * 15)
-    g = int(248 - ratio * 15)
-    b = int(255 - ratio * 15)
-    pt = (r, g, b)
-    for x in range(card_w):
-        card.putpixel((x, y), pt)
+# Gradient bg — same as BPC-157 original
+for y in range(H):
+    r = int(230 - (y / H) * 25)
+    g = int(240 - (y / H) * 20)
+    b = int(255 - (y / H) * 15)
+    draw.line([(0, y), (W, y)], fill=(r, g, b))
 
-# Decorative circles (soft blue)
-draw.ellipse([-80, -80, 250, 250], fill=(230, 240, 255))
-draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(240, 245, 255))
+# Decorative circles
+draw.ellipse((-80, -80, 160, 160), fill=(220, 235, 255, 130))
+draw.ellipse((W - 120, H - 120, W + 40, H + 40), fill=(200, 225, 250, 100))
 
-# Load vial image and crop to actual vial bounds (remove white padding)
-vial = Image.open(VIAL_SOURCE)
-w, h = vial.size
+# Vial — convert to RGBA and use as mask for transparency
+vial = Image.open(VIAL_SRC).convert("RGBA")
+vial_h = 260
+vial_w = int(vial.width * vial_h / vial.height)
+vial = vial.resize((vial_w, vial_h), Image.LANCZOS)
+vx = 200 - vial_w // 2
+vy = H // 2 - vial_h // 2 + 10
+img.paste(vial, (vx, vy), vial)
 
-# Find actual vial bounding box (non-white pixels)
-min_x, max_x = w, 0
-min_y, max_y = h, 0
-for y in range(h):
-    for x in range(w):
-        px = vial.getpixel((x, y))
-        if not (px[0] > 245 and px[1] > 245 and px[2] > 245):
-            min_x = min(min_x, x)
-            max_x = max(max_x, x)
-            min_y = min(min_y, y)
-            max_y = max(max_y, y)
-
-# Crop to vial bounds
-vial_cropped = vial.crop((min_x, min_y, max_x + 1, max_y + 1))
-
-# Resize - make it proportional to card height, but smaller than full card width
-vial_w, vial_h = vial_cropped.size
-vial_ratio = vial_w / vial_h
-
-# Target height (same as original make_card_image pattern)
-target_h = int(card_h * 0.78)
-target_w = int(target_h * vial_ratio)
-
-# Ensure it doesn't exceed half the card minus margin
-max_w = card_w // 2 - 60
-if target_w > max_w:
-    target_w = max_w
-    target_h = int(target_w / vial_ratio)
-
-vial_resized = vial_cropped.resize((target_w, target_h), Image.LANCZOS)
-
-# Position vial on left with some padding
-vial_x, vial_y = 55, (card_h - target_h) // 2
-
-# Paste - no white background will extend beyond vial
-card.paste(vial_resized, (vial_x, vial_y))
-
-# Load fonts
-font_dir = "/System/Library/Fonts"
-helvetica = os.path.join(font_dir, "Helvetica.ttc")
-if os.path.exists(helvetica):
-    title_font = ImageFont.truetype(helvetica, 54, index=1)
-    subtitle_font = ImageFont.truetype(helvetica, 30)
-    badge_font = ImageFont.truetype(helvetica, 14)
-    body_font = ImageFont.truetype(helvetica, 20)
-    small_font = ImageFont.truetype(helvetica, 16)
+# Fonts
+fdir = "/System/Library/Fonts"
+if os.path.exists(fdir + "/Helvetica.ttc"):
+    f_badge = ImageFont.truetype(fdir + "/Helvetica.ttc", 22)
+    f_title = ImageFont.truetype(fdir + "/Helvetica.ttc", 42, index=1)
+    f_sub   = ImageFont.truetype(fdir + "/Helvetica.ttc", 26)
+    f_desc  = ImageFont.truetype(fdir + "/Helvetica.ttc", 18)
+    f_foot  = ImageFont.truetype(fdir + "/Helvetica.ttc", 14)
 else:
-    title_font = subtitle_font = badge_font = body_font = small_font = ImageFont.load_default()
+    f_badge = f_title = f_sub = f_desc = f_foot = ImageFont.load_default()
 
-# Text area start — after vial right edge + gap
-text_x = vial_x + target_w + 50
+# Text column starts at x=420
+tx = 420
+ty = 150
 
-# Category badge (blue pill)
+# Category badge
 BLUE = (37, 99, 235)
-badge_x, badge_y = text_x, 140
-draw.rounded_rectangle([badge_x, badge_y, badge_x + 170, badge_y + 30], radius=15, fill=BLUE)
-draw.text((badge_x + 85, badge_y + 15), CATEGORY, fill=(255, 255, 255), font=badge_font, anchor="mm")
+bw = draw.textbbox((0, 0), CATEGORY, font=f_badge)
+bw = bw[2] - bw[0] + 28
+draw.rounded_rectangle([tx, ty, tx + bw, ty + 32], radius=14, fill=BLUE)
+draw.text((tx + 14, ty + 6), CATEGORY, fill="white", font=f_badge)
 
 # Title
-draw.text((text_x, badge_y + 55), COMPOUND, fill=(15, 30, 50), font=title_font)
+ty += 50
+draw.text((tx, ty), COMPOUND, fill=(15, 30, 50), font=f_title)
 
 # Subtitle
-draw.text((text_x, badge_y + 125), SUBHEADING, fill=BLUE, font=subtitle_font)
+ty += 56
+draw.text((tx, ty), SUBHEADING, fill=BLUE, font=f_sub)
 
-# Description
-y_off = badge_y + 185
-for line in DESCRIPTION_LINES:
-    draw.text((text_x, y_off), line, fill=(100, 116, 139), font=body_font)
-    y_off += 30
+# Description (wrapped)
+ty += 44
+max_w = W - tx - 40
+desc_lines = []
+for w in DESC.split():
+    if not desc_lines:
+        desc_lines.append(w)
+    else:
+        test = desc_lines[-1] + " " + w
+        bb = draw.textbbox((0, 0), test, font=f_desc)
+        if bb[2] - bb[0] <= max_w:
+            desc_lines[-1] = test
+        else:
+            desc_lines.append(w)
+
+for line in desc_lines:
+    draw.text((tx, ty), line, fill=(100, 116, 139), font=f_desc)
+    ty += 26
 
 # Footer
-draw.text((text_x, card_h - 55), "viralpeps.co.uk", fill=(148, 163, 184), font=small_font)
+draw.text((tx, H - 40), "viralpeps.co.uk", fill=(148, 163, 184), font=f_foot)
 
-# Blue accent stripe
-draw.rounded_rectangle([0, card_h - 4, card_w, card_h], radius=0, fill=BLUE)
+# Blue bottom stripe
+draw.rounded_rectangle([0, H - 4, W, H], radius=0, fill=BLUE)
 
-# Save
-card.save(OUTPUT_PATH, "PNG", quality=97)
-print(f"Saved: {OUTPUT_PATH} ({os.path.getsize(OUTPUT_PATH)} bytes)")
-print(f"Vial cropped to {vial_w}x{vial_h}, resized to {target_w}x{target_h}, placed at x={vial_x}")
-print(f"Text starts at x={text_x}, vial right edge = {vial_x + target_w}")
+img.save(OUTPUT, "PNG", quality=97)
+print(f"Saved: {OUTPUT} ({os.path.getsize(OUTPUT)} bytes)")
