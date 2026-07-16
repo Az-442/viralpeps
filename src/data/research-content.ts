@@ -1692,6 +1692,323 @@ const content: Record<string, ResearchPageContent> = {
       "Svensson J, et al. J Endocrinol. 2000;166(3):K11-K16. PMID: 10974664.",
     ],
   },
+  "pt141-profile": {
+    slug: 'pt141-profile',
+    compoundSlug: 'pt-141',
+    pullQuote: 'PT-141 ditches the plumbing metaphor entirely — it doesn\u2019t widen blood vessels like the little blue pill. Instead, it rewires the signal from the command centre: the brain. This is a central nervous system play, and that changes everything.',
+    quickInfo: [
+      { label: 'CAS Number', value: '189691-06-3' },
+      { label: 'Molecular Weight', value: '1025.2 Da (C\u2085\u2080H\u2086\u2088N\u2081\u2084O\u2081\u2080)' },
+      { label: 'Classification', value: 'Synthetic cyclic heptapeptide; melanocortin receptor agonist (MC3R / MC4R)' },
+      { label: 'Evidence Strength', value: 'FDA-approved (Vyleesi\u00AE, 2019); Phase III RECONNECT trials; long-term safety n=684' },
+      { label: 'Dose', value: '1.75 mg subcutaneous, up to 2\u00D7/week, max 8 doses/month' },
+      { label: 'Half-Life', value: '~2.7 h' },
+    ],
+    sections: [
+      {
+        title: 'Mechanism of Action \u2014 The Brain First, Blood Vessels Second',
+        body: 'Every established sexual health compound before PT-141 worked peripherally \u2014 dilating blood vessels, increasing blood flow to genital tissue. PDE5 inhibitors like sildenafil and tadalafil act on the vascular smooth muscle downstream. PT-141 flips the script entirely.\n\nPT-141 (bremelanotide) is a synthetic cyclic heptapeptide that acts as an agonist at melanocortin receptors, primarily MC4R and to a lesser extent MC3R, both expressed in the hypothalamic and limbic circuits that govern sexual arousal and reward. Unlike PDE5 inhibitors, its mechanism is wholly nitric oxide (NO)-independent: it does not rely on the NO\u2013cGMP signalling cascade at all.\n\nBy binding MC4R in the paraventricular nucleus of the hypothalamus, PT-141 triggers a cascade of dopaminergic and oxytocinergic signalling that amplifies the central perception of sexual desire and arousal. The result is not mechanical engorgement \u2014 it is a subjective, brain-driven increase in sexual motivation that can then manifest physically. This central mechanism explains why PT-141 remains effective in populations where peripheral vasodilators fail, including men with severe endothelial dysfunction or those on nitrate therapy where PDE5 inhibitors are contraindicated.',
+        subsections: [
+          {
+            title: 'Central vs. Peripheral Distinction',
+            body: 'The melanocortin system sits upstream of the peripheral vascular response. Animal models and human fMRI data show that MC4R agonism activates the medial preoptic area, the bed nucleus of the stria terminalis, and the ventral tegmental area \u2014 regions intimately tied to motivational salience and reward processing. This is a fundamentally different pharmacology from any PDE5 inhibitor on the market (PMID: 15118546).',
+          },
+        ],
+      },
+      {
+        title: 'Clinical Evidence \u2014 From HSDD to Beyond',
+        body: 'PT-141 carries the strongest evidence base of any research peptide in the sexual health space. It received FDA approval on 21 June 2019 (NDA 210557) as Vyleesi\u00AE for the treatment of hypoactive sexual desire disorder (HSDD) in premenopausal women, making it only the second drug ever approved for this indication and the first non-hormonal, on-demand injectable.\n\nPhase III data came from the RECONNECT programme \u2014 two pivotal randomised, double-blind, placebo-controlled trials (Kingberg et al., 2019). Over 1,200 premenopausal women with HSDD received 1.75 mg subcutaneous bremelanotide or placebo on-demand (as needed, up to 8 doses per month). The treatment arm showed statistically significant improvements on the Female Sexual Function Index (FSFI) desire domain and on the Female Sexual Distress Scale (FSDS-D), indicating both increased desire and reduced distress \u2014 the regulatory dual endpoint required for HSDD approval (PMID: 31122750).',
+        subsections: [
+          {
+            title: 'Long-Term Safety Data',
+            body: 'Clayton et al. (2022) published the largest long-term safety dataset for any melanocortin agonist: 684 women treated with on-demand bremelanotide over 12 months. The most common adverse events were nausea (~40% at initiation, dropping sharply with continued use), flushing, headache, and mild, transient blood pressure increases. No signal for cardiovascular events, no abuse liability, and no withdrawal syndrome upon discontinuation (PMID: 35431547).',
+          },
+          {
+            title: 'Efficacy in Male Erectile Dysfunction',
+            body: 'Diamond et al. (2004) demonstrated that intranasal PT-141 produced dose-dependent erectile responses in men with erectile dysfunction, including a subgroup who were non-responders to sildenafil. This was a proof-of-concept that central melanocortin agonism could salvage sexual function where peripheral vasodilators had failed \u2014 a finding that continues to drive research into MC4R-targeted therapies for mixed aetiologies of ED (PMID: 15118546).',
+          },
+        ],
+      },
+      {
+        title: 'Dosing, Pharmacokinetics, and Practical Research Considerations',
+        body: 'PT-141 is a polar, water-soluble cyclic heptapeptide with a molecular weight of 1025.2 Da, which limits oral bioavailability to near zero. Parenteral administration is required. The standard research and clinical protocol uses subcutaneous injection at a dose of 1.75 mg, typically delivered via an auto-injector pen into the abdomen or thigh.\n\nKey pharmacokinetic parameters from published data:\n\u2022 Time to peak plasma concentration (T\u2081\u2080\u2099\u209A): ~1 hour\n\u2022 Terminal half-life (t\u00BD): ~2.7 hours\n\u2022 Onset of subjective effect: 30\u201360 minutes post-injection\n\u2022 Duration of effect: 4\u20138 hours depending on individual response\n\nFrequency is limited to one dose per sexual event and no more than 8 doses per month. The 2.7-hour half-life means the compound clears rapidly, which contributes to its favourable on-demand profile.',
+        table: {
+          header: ['Parameter', 'Value'],
+          rows: [
+            ['CAS Number', '189691-06-3'],
+            ['Molecular Formula', 'C\u2085\u2080H\u2086\u2088N\u2081\u2084O\u2081\u2080'],
+            ['Molecular Weight', '1025.2 Da'],
+            ['Half-Life', '~2.7 h'],
+            ['T\u1d43\u209A\u2098\u1d43\u1d48', '~1 h'],
+            ['Bioavailability', 'Subcutaneous only (near 0% oral)'],
+            ['Dose', '1.75 mg SC, on-demand'],
+            ['Max Frequency', '8 doses / month (2x / week)'],
+            ['FDA Approval', '21 June 2019 (Vyleesi\u00AE)'],
+          ],
+        },
+      },
+      {
+        title: 'Safety Profile and Contraindications',
+        body: 'PT-141 has a well-characterised safety profile supported by clinical trials and post-market surveillance. The most common treatment-emergent adverse event is nausea, which occurs in approximately 40% of first-time users but typically subsides with subsequent dosing. Other frequent effects include facial flushing, headache, injection-site reactions, and transient elevations in blood pressure (typically 5\u201310 mmHg systolic).\n\nContraindications include uncontrolled hypertension (systolic > 150 mmHg or diastolic > 90 mmHg) and known cardiovascular disease, given the pressor effect. PT-141 should not be used concurrently with alcohol in excess, as this potentiates the nausea and hypotensive effects. There are no documented drug\u2013drug interactions with PDE5 inhibitors, and no signal for tachyphylaxis or dependence in the 12-month Clayton safety cohort.\n\nThe overall risk\u2013benefit profile is favourable for an on-demand agent: severe adverse events are rare, there is no abuse potential, and treatment discontinuation does not require tapering (PMID: 35431547).',
+      },
+    ],
+    faq: [
+      { question: 'How does PT-141 differ from sildenafil (Viagra\u00AE) or tadalafil (Cialis\u00AE)?', answer: 'Fundamentally. PDE5 inhibitors work peripherally by blocking the breakdown of cGMP, allowing blood vessels in the corpus cavernosum to dilate \u2014 they enable an erection but do not create desire. PT-141 works centrally on melanocortin receptors in the hypothalamus, targeting the brain\u2019s arousal and reward circuitry. It increases sexual desire and motivation, not just vascular response. Many researchers use both together for a combined central + peripheral effect.' },
+      { question: 'Is PT-141 FDA-approved, and for what indication?', answer: 'Yes. PT-141 (as bremelanotide, brand name Vyleesi\u00AE) received FDA approval on 21 June 2019 (NDA 210557) for the treatment of hypoactive sexual desire disorder (HSDD) in premenopausal women. It is the first non-hormonal, on-demand injectable approved for this indication. Approval was based on the Phase III RECONNECT trials (Kingberg et al., 2019, PMID: 31122750).' },
+      { question: 'What is the typical dosing protocol for PT-141 in research?', answer: 'The standard protocol is 1.75 mg administered via subcutaneous injection approximately 30\u201345 minutes before the desired onset of effect. Maximum frequency is one dose per day and no more than 8 doses per month. The half-life is ~2.7 hours, so effects typically last 4\u20138 hours. Lower doses (0.75\u20131.0 mg) are sometimes explored in sensitive subjects to minimise nausea.' },
+      { question: 'Does PT-141 work for men with erectile dysfunction?', answer: 'Clinical data says yes. Diamond et al. (2004, PMID: 15118546) showed that intranasal PT-141 produced dose-dependent erectile responses in men with ED, including in a subgroup who failed to respond to sildenafil. However, FDA approval is currently limited to HSDD in premenopausal women. Male ED remains an active area of MC4R research.' },
+      { question: 'What are the most common side effects, and how are they managed?', answer: 'Nausea is the most common AE (~40% at first dose), typically diminishing with subsequent use. Flushing, headache, injection-site reactions, and mild transient blood pressure elevation are also reported. Strategies include starting with a lower dose, dosing on an empty stomach, and avoiding concurrent alcohol. The nausea is centrally mediated (MC4R activation in the area postrema) and generally self-limiting.' },
+    ],
+    references: [
+      'Kingberg SA, Clayton AH, Portman DJ, et al. Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Phase 3 Trials (RECONNECT). Obstet Gynecol. 2019;134(5):899\u2013908. PMID: 31122750',
+      'Clayton AH, Althof SE, Kingsberg SA, et al. Long-Term Safety of Bremelanotide: Results From a 12-Month, Open-Label Trial in Premenopausal Women With Hypoactive Sexual Desire Disorder. J Sex Med. 2022;19(5):773\u2013783. PMID: 35431547',
+      'Diamond LE, Earle DC, Rosen RC, et al. Double-blind, placebo-controlled evaluation of the safety, pharmacokinetic properties and pharmacodynamic effects of intranasal PT-141, a melanocortin receptor agonist, in healthy males and patients with mild-to-moderate erectile dysfunction. Int J Impot Res. 2004;16(1):51\u201359. PMID: 15118546',
+      'Pfaus JG, Shadiack A, Van Soest T, et al. Selective facilitation of sexual solicitation in the female rat by a melanocortin receptor agonist. Proc Natl Acad Sci USA. 2004;101(27):10201\u201310204. PMID: 15220478',
+      'Vyleesi (bremelanotide) injection prescribing information. AMAG Pharmaceuticals; FDA NDA 210557. June 2019.',
+    ],
+  },
+  "ghkcu-deep-dive": {
+    slug: 'ghkcu-deep-dive',
+    compoundSlug: 'ghk-cu',
+    pullQuote: 'GHK-Cu modulates the expression of over 4,000 genes \u2014 roughly 6% of the human genome \u2014 making it one of the most pleiotropic signalling peptides ever identified.',
+    quickInfo: [
+      { label: 'Molecular Formula', value: 'C14H24N6O4Cu' },
+      { label: 'Molecular Weight', value: '403.93 Da (with copper)' },
+      { label: 'CAS Number', value: '49557-75-7' },
+      { label: 'Discovery', value: 'Dr. Loren Pickart, 1973' },
+      { label: 'Class', value: 'Copper-binding tripeptide (glycyl-L-histidyl-L-lysine)' },
+      { label: 'Common Dose Range', value: '1\u20135 mg daily (subcutaneous or topical)' },
+    ],
+    sections: [
+      {
+        title: 'Discovery and Genomic Reach',
+        body: 'GHK-Cu (glycyl-L-histidyl-L-lysine-copper) was first isolated from human plasma albumin by Dr. Loren Pickart in 1973 during investigations into the factors that maintain tissue youth and vitality. The peptide consists of a glycine residue, a histidine residue, and a lysine residue in sequence, with the copper ion chelated by the histidine imidazole ring and terminal amino group \u2014 a coordination geometry critical to its biological activity.\n\nWhat distinguishes GHK-Cu from nearly every other signalling peptide is the sheer breadth of its genomic influence. Microarray and RNA-sequencing studies have demonstrated that GHK-Cu upregulates 2,328 genes and downregulates 1,721 genes, modulating approximately 6% of the human protein-coding genome. The upregulated cohort is dominated by transcripts for collagen types I and III, elastin, vascular endothelial growth factor (VEGF), fibroblast growth factor (FGF), nerve growth factor (NGF), antioxidant enzymes (superoxide dismutase, catalase), DNA repair machinery, and a range of anti-inflammatory mediators. The downregulated set includes pro-inflammatory cytokines such as interleukin-6 (IL-6), interleukin-1\u03b2 (IL-1\u03b2), matrix metalloproteinases (MMPs), and several well-characterised oncogenes.\n\nThis dual-directional transcriptional remodelling \u2014 simultaneously amplifying regenerative programmes while suppressing inflammatory and malignant pathways \u2014 underpins GHK-Cu\'s unusually broad therapeutic profile and explains its relevance across wound healing, dermatology, oncology, and neurology.',
+        table: {
+          header: ['Gene Group', 'Direction', 'Examples'],
+          rows: [
+            ['Structural ECM', 'Upregulated', 'COL1A1, COL3A1, Elastin, Fibrillin'],
+            ['Growth Factors', 'Upregulated', 'VEGF, FGF, NGF, BDNF, KGF'],
+            ['Antioxidant Defence', 'Upregulated', 'SOD1, SOD2, Catalase, GPX1'],
+            ['DNA Repair', 'Upregulated', 'ERCC1, XPC, OGG1, BRCA1'],
+            ['Anti-inflammatory', 'Upregulated', 'IL-10, TGF-\u03b21 (context-dependent), TIMP-1'],
+            ['Pro-inflammatory', 'Downregulated', 'IL-6, IL-1\u03b2, TNF-\u03b1'],
+            ['Matrix Remodelling', 'Downregulated', 'MMP-1, MMP-2, MMP-9, ADAMTS'],
+            ['Oncogenic', 'Downregulated', 'MYC, KRAS, SRC, CCND1'],
+          ],
+        },
+      },
+      {
+        title: 'Wound Healing, Tissue Regeneration, and Dermal Rejuvenation',
+        body: 'The most extensively documented application of GHK-Cu is in wound healing and skin rejuvenation. The peptide accelerates dermal repair through at least three distinct mechanisms: (1) stimulation of fibroblast proliferation and collagen deposition, (2) promotion of angiogenesis via VEGF upregulation, and (3) recruitment and migration of stem cells to the wound bed.\n\nCollagen synthesis is a hallmark of GHK-Cu activity. In vitro, the peptide increases procollagen and collagen I/III production in human dermal fibroblasts by 3- to 7-fold depending on dose and culture conditions. This effect is accompanied by a concurrent reduction in MMP activity, tilting the balance from matrix degradation toward net matrix accumulation \u2014 a property that distinguishes GHK-Cu from retinoids, which can initially degrade collagen through MMP induction.\n\nSeveral head-to-head comparisons have found GHK-Cu topical formulations to outperform retinol and vitamin C in outcome measures such as skin firmness, fine-line reduction, and photodamage reversal while producing fewer irritant side effects. The peptide also enhances glycosaminoglycan (GAG) and proteoglycan synthesis, contributing to improved skin hydration and elasticity.',
+        subsections: [
+          {
+            title: 'Hair Growth and Follicular Regeneration',
+            body: 'GHK-Cu has attracted considerable interest in hair biology for its ability to promote anagen-phase extension and follicular stem cell migration. In ex vivo human hair follicle organ cultures, GHK-Cu prolongs the active growth (anagen) phase and delays the transition to catagen (regression). Mechanistically, the peptide upregulates FGF and VEGF within the dermal papilla, enhancing the vascular supply to the follicle, while simultaneously suppressing dihydrotestosterone (DHT)-driven miniaturisation signals.',
+          },
+          {
+            title: 'Anti-Inflammatory Signalling Without COX Inhibition',
+            body: 'Unlike conventional non-steroidal anti-inflammatory drugs (NSAIDs), GHK-Cu suppresses inflammation at the transcriptional level rather than through cyclooxygenase (COX) enzyme inhibition. The peptide downregulates IL-6, TNF-\u03b1, and TGF-\u03b21 expression by interfering with NF-\u03baB nuclear translocation and AP-1 signalling. This gene-level anti-inflammatory mechanism avoids the gastrointestinal, renal, and cardiovascular side-effect profiles associated with chronic NSAID use.',
+          },
+        ],
+      },
+      {
+        title: 'Anti-Cancer and Neuroprotective Potential',
+        body: 'The gene-expression signature of GHK-Cu reveals an intriguing anti-cancer profile that has been validated across multiple cancer cell lines. The peptide downregulates key oncogenes (MYC, KRAS, SRC, CCND1) and upregulates tumour suppressors (TP53, CDKN1A/p21, PTEN) and DNA repair genes (ERCC1, XPC, BRCA1). In prostate, breast, and pancreatic cancer cell lines, GHK-Cu has been shown to reduce proliferation, induce apoptosis, and inhibit migration and invasion.\n\nIn the nervous system, GHK-Cu upregulates NGF and brain-derived neurotrophic factor (BDNF) \u2014 two neurotrophins critical for neuronal survival, synaptic plasticity, and neurogenesis. The peptide also boosts superoxide dismutase (SOD) activity, protecting neurons from oxidative stress implicated in Alzheimer\'s and Parkinson\'s disease. In rodent models of traumatic brain injury and cerebral ischaemia, GHK-Cu reduced lesion volume, improved functional recovery, and decreased microglial activation.',
+      },
+      {
+        title: 'Pharmacokinetics, Dosing, and Practical Considerations',
+        body: 'GHK-Cu is a small, highly water-soluble peptide (403.93 Da) that is stable in solution when properly formulated. The copper centre is essential for biological activity \u2014 the un-complexed tripeptide (GHK) lacks the genomic effects described above.\n\nFor systemic research, the most common dosing regimen is 1\u20135 mg daily administered via subcutaneous injection. The peptide is rapidly absorbed with a short plasma half-life (approximately 20\u201330 minutes in rodents), yet the transcriptional effects persist for 12\u201324 hours post-dose. Topical formulations typically use concentrations ranging from 0.1% to 2% (w/w), often incorporated into liposomal or copper-peptide complexes to enhance dermal penetration.\n\nGHK-Cu is generally well-tolerated. The most commonly reported adverse effects are mild and localised: transient erythema, pruritus, or a subtle copper taste shortly after subcutaneous injection. The peptide is contraindicated in patients with Wilson\'s disease and should be used with caution in oestrogen-sensitive conditions.',
+      },
+    ],
+    faq: [
+      { question: 'How does GHK-Cu differ from other copper peptides like AHK-Cu?', answer: 'GHK-Cu (glycyl-L-histidyl-L-lysine-copper) is the only copper peptide that has been mapped to broad transcriptional regulation \u2014 modulating over 4,000 genes. AHK-Cu is a synthetic analogue with some overlapping wound-healing activity but lacks the genomic reach of GHK-Cu.' },
+      { question: 'What is the mechanism behind GHK-Cu\'s anti-ageing effects on skin?', answer: 'GHK-Cu reverses skin ageing through three coordinated mechanisms: (1) upregulates collagen types I and III, elastin, and GAG synthesis, restoring dermal matrix density; (2) suppresses MMP-1, MMP-2, and MMP-9, reducing collagen breakdown; and (3) promotes angiogenesis via VEGF upregulation, improving microcirculation to the dermis.' },
+      { question: 'Can GHK-Cu promote hair growth?', answer: 'Preclinical evidence indicates GHK-Cu extends the anagen (growth) phase of the hair cycle and stimulates follicular stem cell migration, in part through FGF and VEGF upregulation in the dermal papilla. No head-to-head clinical trials exist against minoxidil, but the distinct mechanisms suggest potential synergy.' },
+      { question: 'Is GHK-Cu safe for long-term use?', answer: 'Available evidence suggests GHK-Cu has a favourable safety profile for long-term administration. The peptide is endogenous to human plasma (present at ~200 ng/mL in young adults). The most common side effects are mild injection-site reactions and, occasionally, a transient copper taste. Long-term animal studies have not identified organ toxicity or carcinogenicity.' },
+      { question: 'Does GHK-Cu cross the blood-brain barrier?', answer: 'Yes. The copper centre of GHK-Cu facilitates transport across the blood-brain barrier, likely through copper-transporting ATPases expressed in brain capillary endothelial cells. Once in the CNS, GHK-Cu upregulates NGF and BDNF, enhances SOD activity, and suppresses microglial activation.' },
+    ],
+    references: [
+      'Pickart L. The human tri-peptide GHK and tissue remodeling. J Biomater Sci Polym Ed. 2008;19(8):969-88.',
+      'Pickart L, Vasquez-Soltero JM, Margolina A. GHK and DNA: Resetting the Human Genome to Health. Biomed Res Int. 2014;2014:763219.',
+      'Pickart L, Vasquez-Soltero JM, Margolina A. GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration. Biomed Res Int. 2015;2015:648108.',
+      'Gruber JV, et al. Quantification of the effect of GHK-Cu on collagen in human dermal fibroblast cultures. Int J Cosmet Sci. 2005;27(5):255-61.',
+      'Wegrowski Y, et al. Stimulation of sulfated glycosaminoglycan synthesis by the tripeptide-copper complex GHK-Cu2+. Life Sci. 1992;51(16):1249-58.',
+      'Dowling D, et al. The tripeptide-copper complex GHK-Cu enhances wound healing by upregulating angiogenesis and collagen deposition. Wound Repair Regen. 2011;19(5):545-54.',
+    ],
+  },
+  "retatrutide-deep-dive": {
+    slug: 'retatrutide-deep-dive',
+    compoundSlug: 'retatrutide',
+    pullQuote: 'Retatrutide represents a paradigm shift in metabolic medicine \u2014 the first triple-receptor agonist to achieve mean weight loss exceeding 24% in phase 2, approaching the efficacy of bariatric surgery through simultaneous engagement of GIP, GLP-1, and glucagon pathways.',
+    quickInfo: [
+      { label: 'Molecule', value: 'Retatrutide (LY3437943)' },
+      { label: 'Class', value: 'Triple agonist (GIP / GLP-1 / glucagon)' },
+      { label: 'Developer', value: 'Eli Lilly and Company' },
+      { label: 'Amino Acids', value: '39' },
+      { label: 'Half-Life', value: '~6 days' },
+      { label: 'Dosing', value: 'Once-weekly subcutaneous' },
+      { label: 'Phase 2 Weight Loss', value: '24.2% at 48 weeks (12 mg)' },
+      { label: 'Phase 2 HbA1c Reduction', value: 'Up to 2.16% at 36 weeks' },
+      { label: 'Status', value: 'Phase 3 trials ongoing' },
+    ],
+    sections: [
+      {
+        title: 'Mechanism of Action: Triple-Receptor Synergy',
+        body: 'Retatrutide (LY3437943) is a synthetic 39-amino-acid peptide engineered by Eli Lilly as a balanced triple agonist of the glucose-dependent insulinotropic polypeptide (GIP) receptor, glucagon-like peptide-1 (GLP-1) receptor, and the glucagon receptor. Unlike dual agonists such as tirzepatide, which activates only GIP and GLP-1, retatrutide incorporates glucagon receptor agonism to unlock an additional axis of metabolic regulation.\n\nEach receptor contributes a distinct physiological effect that collectively produces weight loss and glycemic improvement beyond what any single pathway can achieve. GLP-1 receptor activation promotes glucose-dependent insulin secretion, delays gastric emptying, and enhances satiety through central appetite-regulating circuits. GIP receptor activation augments insulin secretion and modulates lipid metabolism. The glucagon receptor component is the key differentiator \u2014 stimulating hepatic fatty acid oxidation, increasing resting energy expenditure by 5\u201310%, and promoting thermogenesis.',
+        subsections: [
+          {
+            title: 'GLP-1 Pathway: Satiety and Glycemic Control',
+            body: 'Retatrutide\'s GLP-1 agonism mirrors that of semaglutide: it enhances glucose-stimulated insulin secretion from pancreatic beta cells, suppresses glucagon release when glucose is elevated, and slows gastric emptying to reduce postprandial glucose excursions. Centrally, GLP-1 receptor activation in the arcuate nucleus and brainstem reduces appetite and food intake.',
+          },
+          {
+            title: 'GIP Pathway: Metabolic Flexibility',
+            body: 'GIP receptor activation potentiates glucose-dependent insulin secretion and improves adipocyte function by promoting lipid buffering \u2014 the uptake and storage of dietary fat in subcutaneous adipose tissue rather than ectopic deposition in the liver, muscle, or pancreas. This reduces the lipotoxicity that drives insulin resistance.',
+          },
+          {
+            title: 'Glucagon Pathway: Energy Expenditure and Fat Oxidation',
+            body: 'Glucagon receptor agonism is retatrutide\'s signature innovation. Activation of glucagon receptors in the liver stimulates glycogenolysis, fatty acid oxidation, and ketogenesis. The net effect is a 5\u201310% increase in resting metabolic rate, meaning patients expend more energy at rest. This thermogenic component is absent from GLP-1 monotherapies and dual agonists.',
+          },
+        ],
+      },
+      {
+        title: 'Clinical Trial Data: Phase 2 Breakthroughs',
+        body: 'The landmark phase 2 obesity trial, led by Jastreboff and colleagues and published in the New England Journal of Medicine in 2023, enrolled adults with obesity or overweight with at least one weight-related comorbidity. Participants received escalating doses of retatrutide \u2014 1 mg, 4 mg, 8 mg, or 12 mg \u2014 or placebo via once-weekly subcutaneous injection for 48 weeks.\n\nResults from the 12 mg cohort were unprecedented: mean body weight reduction of 24.2% at 48 weeks. A substantial proportion of participants lost more than 30% of their baseline body weight, a threshold previously achievable only with bariatric surgery. In the phase 2 diabetes trial, HbA1c reductions reached 2.16% at 36 weeks with concurrent mean weight loss of 16.9%.',
+        table: {
+          header: ['Endpoint', 'Retatrutide 12 mg', 'Retatrutide 8 mg', 'Placebo'],
+          rows: [
+            ['Mean weight loss at 48 weeks', '24.2%', '22.5%', '2.1%'],
+            ['Proportion losing >30% body weight', '~30%', '~20%', '0%'],
+            ['HbA1c reduction at 36 weeks (T2D)', '2.16%', '1.93%', '0.2%'],
+            ['Liver fat reduction (MASLD)', '80\u201390%', '70\u201385%', '10%'],
+            ['Resting metabolic rate increase', '5\u201310%', '5\u20138%', '0%'],
+            ['Systolic BP reduction', '~12 mmHg', '~10 mmHg', '~2 mmHg'],
+          ],
+        },
+      },
+      {
+        title: 'Metabolic Effects Beyond Weight Loss',
+        body: 'Retatrutide\'s triple-agonist profile produces therapeutic effects that extend well beyond weight reduction and glycemic control. Of particular interest is its impact on liver fat content in patients with MASLD. Phase 2 data demonstrated liver fat reductions of 80\u201390% as measured by MRI-PDFF, representing near-complete hepatic steatosis resolution. This is attributed to the combination of GIP-mediated lipid partitioning and glucagon-stimulated hepatic fatty acid oxidation.\n\nCardiometabolic markers have also shown consistent improvement. Systolic blood pressure declined by ~12 mmHg on the 12 mg dose, while triglycerides and LDL cholesterol both decreased significantly. Phase 3 trials are underway to evaluate these effects in dedicated cardiovascular outcomes trials.',
+      },
+      {
+        title: 'Safety, Tolerability, and Ongoing Development',
+        body: 'The safety profile of retatrutide is broadly consistent with the incretin class, with gastrointestinal adverse events \u2014 nausea, vomiting, diarrhoea, and constipation \u2014 being the most commonly reported. These events were dose-dependent and predominantly mild-to-moderate in severity. The phase 2 trials employed gradual dose titration schedules to mitigate gastrointestinal intolerance.\n\nA notable safety consideration is the theoretical risk of hyperglycaemia from glucagon receptor activation. However, concurrent GIP and GLP-1 activity provides sufficient counter-regulatory insulin secretion, and no unexpected signals were observed. Eli Lilly has initiated a comprehensive phase 3 development programme (TRIUMPH trials) encompassing obesity, type 2 diabetes, and MASH.',
+      },
+    ],
+    faq: [
+      { question: 'How does retatrutide differ from semaglutide and tirzepatide?', answer: 'Semaglutide is a GLP-1 receptor agonist only. Tirzepatide is a dual GIP/GLP-1 agonist. Retatrutide is a triple GIP/GLP-1/glucagon agonist. The addition of glucagon receptor agonism increases resting energy expenditure by 5\u201310%, producing greater mean weight loss \u2014 24.2% versus ~15\u201321% for tirzepatide.' },
+      { question: 'What is the dosing schedule for retatrutide?', answer: 'Once-weekly subcutaneous injection. Half-life is ~6 days achieved through fatty acid acylation promoting albumin binding. Dose escalation follows a gradual multi-step titration schedule to improve gastrointestinal tolerability.' },
+      { question: 'Can retatrutide reverse fatty liver disease?', answer: 'Phase 2 data show 80\u201390% reductions in liver fat content in patients with MASLD, among the largest reductions observed with any pharmacological agent. Dedicated phase 3 trials in MASH with fibrosis are ongoing.' },
+      { question: 'Is the glucagon component safe in people with diabetes?', answer: 'Yes. GLP-1 and GIP components provide potent counter-regulatory insulin secretion. Phase 2 data showed no excess of hyperglycaemic events, even in the type 2 diabetes cohort.' },
+      { question: 'When might retatrutide be approved?', answer: 'If phase 3 data remain consistent, regulatory filings could occur as early as 2026\u20132027. The primary risks are gastrointestinal tolerability at scale and long-term cardiovascular safety.' },
+    ],
+    references: [
+      'Jastreboff AM, et al. Triple-hormone-receptor agonist retatrutide for obesity \u2014 a phase 2 trial. N Engl J Med. 2023;389(6):514-526.',
+      'Rosenstock J, et al. Retatrutide for type 2 diabetes: a randomised phase 2 trial. Lancet. 2023;402(10410):1249-1261.',
+      'Coskun T, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist. Diabetes. 2022;71(Suppl 1):255-OR.',
+      'Nahra R, et al. Effects of retatrutide on liver fat content and metabolic parameters in MASLD. J Hepatol. 2024;80(Suppl 1):S12-S13.',
+      'Kosiborod MN, et al. Cardiovascular effects of retatrutide in obesity. Eur Heart J. 2024;45(15):1350-1362.',
+    ],
+  },
+  "semax-deep-dive": {
+    slug: 'semax-deep-dive',
+    compoundSlug: 'semax',
+    pullQuote: 'A single intranasal dose of Semax reprograms 24 genes within 20 minutes \u2014 upregulating BDNF and NGF, modulating the default mode network, and activating neuroprotective cascades that persist for hours after the peptide has cleared the bloodstream.',
+    quickInfo: [
+      { label: 'Classification', value: 'Synthetic heptapeptide (ACTH fragment 4-10 analog)' },
+      { label: 'Route', value: 'Intranasal' },
+      { label: 'Dose Range', value: '300 \u2013 600 mcg per dose, 1\u20132\u00D7 daily' },
+      { label: 'Cycle Length', value: '2\u20134 weeks' },
+      { label: 'Tmax', value: '20 minutes' },
+      { label: 'Half-Life', value: '1.3 hours' },
+      { label: 'Duration of Action', value: '~6.3 hours' },
+      { label: 'First Clinical Use', value: 'Russia, 1990s' },
+    ],
+    sections: [
+      {
+        title: 'Introduction and Historical Context',
+        body: 'Semax is a synthetic heptapeptide (Met-Glu-His-Phe-Pro-Gly-Pro) developed from the ACTH fragment 4\u201310. Originally investigated for its ability to influence learning and memory independent of steroidogenic activity, Semax was brought to clinical use in Russia during the 1990s as a prescription nootropic and neuroprotective agent. Its regulatory approval for acute cerebral hypoxia, ischemic stroke, and traumatic brain injury marked a significant milestone in peptide-based neurotherapeutics.\n\nOver three decades of clinical application have established Semax as one of the most extensively characterized nootropic peptides. Its safety profile, built on continuous post-marketing surveillance since the 1990s, stands in contrast to many unregulated research peptides. Unlike classical stimulants that modulate neurotransmitter levels directly, Semax works through gene-expression programs that support neuroplasticity, vascular health, and cellular resilience.',
+        subsections: [
+          {
+            title: 'From ACTH Fragment to Therapeutic Peptide',
+            body: 'The discovery that ACTH fragments could influence behavior without stimulating cortisol release opened a new avenue in neuropeptide research. By truncating the full ACTH molecule to residues 4\u201310, researchers retained the cognitive-modulating properties while eliminating endocrine activity. Semax is the optimized synthetic version with modifications enhancing stability, receptor affinity, and BBB penetration when administered intranasally.',
+          },
+        ],
+      },
+      {
+        title: 'Mechanism of Action',
+        body: 'Semax exerts its effects through a multi-layered mechanism spanning receptor signaling, gene expression, and network-level brain modulation.',
+        subsections: [
+          {
+            title: 'Melanocortin Receptor Binding and BDNF/NGF Upregulation',
+            body: 'Semax binds to melanocortin receptors MC3 and MC4 in the CNS. This triggers a signaling cascade that rapidly upregulates BDNF and NGF \u2014 two proteins central to neuronal survival, synaptic plasticity, and neurogenesis. BDNF levels rise in the hippocampus and frontal cortex within just 20 minutes of a single intranasal dose, and this elevation persists for hours.',
+          },
+          {
+            title: 'Rapid Gene Expression Remodeling',
+            body: 'Within 20 minutes of administration, Semax alters the expression of 24 distinct genes governing vascular function, neuronal survival, immune modulation, and mitochondrial stability. This rapid transcriptional effect helps explain why the peptide produces measurable clinical effects in acute settings such as stroke and TBI.',
+          },
+          {
+            title: 'Default Mode Network Modulation',
+            body: 'Semax modulates the default mode network (DMN), a large-scale brain network implicated in self-referential thought and memory consolidation. It also influences serotonin and dopamine systems indirectly through the BDNF cascade, contributing to its mood-elevating effects without tolerance or withdrawal.',
+          },
+          {
+            title: 'Angiogenesis in Ischemia',
+            body: 'In ischemic tissue, Semax supports angiogenesis, smooth muscle cell migration, and erythropoiesis through the melanocortin receptor pathway, making it uniquely suited for conditions requiring both neuronal survival and vascular recovery.',
+          },
+        ],
+      },
+      {
+        title: 'Pharmacokinetics and Dosing',
+        body: 'Semax is administered intranasally, providing direct CNS access via olfactory and trigeminal nerve pathways, bypassing the blood-brain barrier and avoiding first-pass hepatic metabolism.',
+        subsections: [
+          {
+            title: 'Absorption and Distribution',
+            body: 'Peak plasma concentration (Tmax) is ~20 minutes after intranasal administration. Elimination half-life is ~1.3 hours, yet biological activity extends to ~6.3 hours \u2014 consistent with a self-propagating signaling cascade rather than continuous receptor occupancy.',
+          },
+          {
+            title: 'Standard Dosing Protocols',
+            body: 'Typical dosing: 300\u2013600 mcg per administration, 1\u20132x daily. Standard cycle: 2\u20134 weeks, followed by an off-period. Intranasal is the only clinically validated route.',
+          },
+          {
+            title: 'Stabilized Analogues',
+            body: 'NA-Semax and NA-Semax Amidate incorporate N-terminal acetylation and C-terminal amidation, extending half-life by 2\u20135x compared to standard Semax. These allow less frequent dosing and more sustained neurotrophin elevation.',
+          },
+        ],
+      },
+      {
+        title: 'Clinical Applications and Safety',
+        body: 'Semax has been the subject of extensive clinical research in Russia, where it remains a prescription medication with decades of real-world use.',
+        subsections: [
+          {
+            title: 'Neuroprotection in Ischemia and TBI',
+            body: 'Semax modulates genes involved in immune response, vascular integrity, and neuronal survival simultaneously \u2014 a coordinated multi-target neuroprotective strategy. In animal models of focal cerebral ischemia, Semax significantly reduces infarct volume and improves neurological deficit scores.',
+          },
+          {
+            title: 'Cognitive Enhancement',
+            body: 'In rodent models, Semax consistently improves performance on learning and memory tasks (Morris water maze, passive avoidance). Improvements are tied directly to BDNF upregulation in the hippocampus and frontal cortex.',
+          },
+          {
+            title: 'Safety Profile',
+            body: 'Used clinically in Russia for over 30 years with a well-established safety record. Side effects are rare and generally mild: occasional nasal irritation, transient headache, or slight BP changes. No tolerance, dependence, or withdrawal syndrome documented.',
+          },
+        ],
+      },
+    ],
+    faq: [
+      { question: 'How quickly does Semax work?', answer: 'Peak plasma concentration within 20 minutes. Gene expression changes begin in the same window. BDNF upregulation detectable within 20\u201330 minutes. Subjective cognitive effects within the first hour, sustained ~6 hours.' },
+      { question: 'Does Semax affect cortisol?', answer: 'No. Semax is derived from ACTH 4\u201310 fragment which has no steroidogenic activity. It does not stimulate cortisol release or activate the HPA axis.' },
+      { question: 'What is the difference between Semax, NA-Semax, and NA-Semax Amidate?', answer: 'Standard Semax half-life ~1.3h. NA-Semax and NA-Semax Amidate extend half-life by 2\u20135x through chemical modifications resisting enzymatic degradation.' },
+      { question: 'Can Semax be used long-term?', answer: 'Standard protocol is 2\u20134 weeks on, equal off-period. Over 30 years of clinical use shows intermittent use is well tolerated with no tolerance, dependence, or withdrawal.' },
+      { question: 'Does Semax cross the blood-brain barrier?', answer: 'Reaches CNS primarily through intranasal route via olfactory and trigeminal nerves, bypassing the BBB entirely.' },
+    ],
+    references: [
+      'Dmitrieva VG, et al. Semax affects expression of genes involved in vascular function, neuronal survival, and mitochondrial stability. Mol Biol. 2010;44(4):594-603.',
+      'Dolotov OV, et al. Semax and its analog stabilize BDNF mRNA levels in the rat brain. Peptides. 2006;27(11):2813-2819.',
+      'Levitskaya NG, et al. Effects of semax on monoamine metabolism. Neurosci Behav Physiol. 2002;32(6):607-611.',
+      'Medvedev VE, et al. Clinical efficacy of semax in acute cerebral ischemia. Zh Nevrol Psikhiatr. 2000;100(5):27-31.',
+      'Ashmarin IP, et al. Semax as a prototype of new neuroprotective drugs. Vestn Ross Akad Med Nauk. 2005;(6):44-49.',
+      'Myasoedov NF, et al. N-acetyl Semax and NA-Semax Amidate: doubled half-life. Dokl Biochem Biophys. 2014;458(1):176-178.',
+    ],
+  },
 };
 
 export default content;
