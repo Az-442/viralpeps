@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(request: NextRequest) {
   try {
-    const { email, result } = await request.json();
+    const { email, result, from_tool } = await request.json();
 
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json({ error: "Invalid email" }, { status: 400 });
@@ -19,10 +19,13 @@ export async function POST(request: NextRequest) {
       "GLP-1 Chart": "193000229925029164",
       "Price Drops": "193000230078121276",
       "Newsletter": "193000230234359172",
+      "Tool Results": "193157271247652469",
     };
 
     let groupId = GROUP_MAP.Newsletter; // default
-    if (result) {
+    if (from_tool) {
+      groupId = GROUP_MAP["Tool Results"];
+    } else if (result) {
       if (result.includes("Reconstitution")) groupId = GROUP_MAP["Recon Guide"];
       else if (result.includes("GLP-1")) groupId = GROUP_MAP["GLP-1 Chart"];
       else if (result.includes("Overpay")) groupId = GROUP_MAP["Price Drops"];

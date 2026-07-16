@@ -23,7 +23,7 @@ export default function QuickSolvePage() {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, result }),
+        body: JSON.stringify({ email, result, from_tool: true }),
       });
       const data = await res.json();
       setEmailSent(data.ok || res.status === 200 ? "sent" : "error");
@@ -178,7 +178,7 @@ export default function QuickSolvePage() {
                 {emailSent === "sent" ? (
                   <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 text-sm">
                     <p className="text-blue-900 font-semibold">
-                      ✅ Result sent — check your inbox! You're also subscribed to our weekly newsletter.
+                      ✅ Result sent — check your inbox!
                     </p>
                   </div>
                 ) : (
