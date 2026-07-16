@@ -149,13 +149,28 @@ export default function ResearchPage() {
                 href={`/research/${g.slug}`}
                 className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 hover:shadow-md transition-all group"
               >
-                <div className="aspect-[16/9] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
-                  <img
-                    src={g.image ? `/images/guides/${g.image}.png` : ''}
-                    alt={g.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
+                {g.title.toLowerCase().includes('deep dive') ? (
+                  // Deep Dive cards — bigger with text overlay
+                  <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-indigo-800 via-purple-800 to-indigo-900 relative">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                    <div className="absolute bottom-0 left-0 right-0 p-5">
+                      <span className="inline-block text-[10px] font-bold text-yellow-300 bg-yellow-300/20 px-2 py-0.5 rounded-full uppercase tracking-wider mb-2 border border-yellow-300/30">
+                        🔬 Deep Dive
+                      </span>
+                      <h3 className="text-white font-bold text-base leading-snug">
+                        {g.title.replace(' Deep Dive', '')}
+                      </h3>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="aspect-[16/9] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
+                    <img
+                      src={g.image ? `/images/guides/${g.image}.png` : ''}
+                      alt={g.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                )}
                 <div className="p-4">
                   <div className="flex items-center gap-2 mb-1.5">
                     <span className="text-[10px] font-semibold text-white bg-blue-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
