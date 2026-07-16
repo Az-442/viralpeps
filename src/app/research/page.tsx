@@ -150,16 +150,18 @@ export default function ResearchPage() {
                 className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 hover:shadow-md transition-all group"
               >
                 {g.title.toLowerCase().includes('deep dive') ? (
-                  // Deep Dive cards — bigger with text overlay
-                  <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-indigo-800 via-purple-800 to-indigo-900 relative">
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-5">
-                      <span className="inline-block text-[10px] font-bold text-yellow-300 bg-yellow-300/20 px-2 py-0.5 rounded-full uppercase tracking-wider mb-2 border border-yellow-300/30">
+                  // Deep Dive cards — bigger image with overlay badge
+                  <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100 relative">
+                    <img
+                      src={g.image ? `/images/guides/${g.image}.png` : ''}
+                      alt={g.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                    <div className="absolute top-3 left-3">
+                      <span className="inline-block text-[10px] font-bold text-yellow-300 bg-black/40 px-2 py-0.5 rounded-full uppercase tracking-wider border border-yellow-300/40 backdrop-blur-sm">
                         🔬 Deep Dive
                       </span>
-                      <h3 className="text-white font-bold text-base leading-snug">
-                        {g.title.replace(' Deep Dive', '')}
-                      </h3>
                     </div>
                   </div>
                 ) : (
