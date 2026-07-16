@@ -25,7 +25,7 @@ for y in range(card_h):
     r = int(245 - ratio * 15)
     g = int(248 - ratio * 15)
     b = int(255 - ratio * 15)
-    for x in range(0, card_w, 4):
+    for x in range(card_w):
         draw.point((x, y), fill=(r, g, b))
 
 # Decorative circles
