@@ -142,21 +142,20 @@ export default function ResearchPage() {
       {/* Cards */}
       <div className="max-w-[76rem] mx-auto px-4 py-10">
         {filtered.length > 0 ? (
-          <>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {filtered.filter(g => !g.title.toLowerCase().includes('deep dive')).map((g) => (
+            {filtered.map((g) => (
               <Link
                 key={g.title}
                 href={`/research/${g.slug}`}
                 className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-indigo-300 hover:shadow-md transition-all group"
               >
                 <div className="aspect-[16/9] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
-                    <img
-                      src={g.image ? `/images/guides/${g.image}.png` : ''}
-                      alt={g.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
+                  <img
+                    src={g.image ? `/images/guides/${g.image}.png` : ''}
+                    alt={g.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
                 <div className="p-4">
                   <div className="flex items-center gap-2 mb-1.5">
                     <span className="text-[10px] font-semibold text-white bg-blue-600 px-2 py-0.5 rounded-full uppercase tracking-wider">
@@ -183,54 +182,6 @@ export default function ResearchPage() {
               </Link>
             ))}
           </div>
-
-          {/* Deep Dive cards — horizontal layout with purple accents */}
-          {filtered.filter(g => g.title.toLowerCase().includes('deep dive')).length > 0 && (
-            <div className="mt-10 space-y-5">
-              <h3 className="text-sm font-bold text-purple-700 uppercase tracking-wider flex items-center gap-2">
-                <span>🔬</span> Deep Dives
-              </h3>
-              {filtered.filter(g => g.title.toLowerCase().includes('deep dive')).map((g) => (
-                <Link
-                  key={g.title}
-                  href={`/research/${g.slug}`}
-                  className="block bg-white border border-purple-200 rounded-xl overflow-hidden hover:border-purple-400 hover:shadow-md transition-all group flex flex-col md:flex-row"
-                >
-                  <div className="md:w-72 shrink-0 aspect-[16/10] md:aspect-auto md:min-h-[180px] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
-                    <img
-                      src={g.image ? `/images/guides/${g.image}.png` : ''}
-                      alt={g.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                  <div className="flex-1 p-5 border-l-4 border-purple-500">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-[10px] font-bold text-purple-700 bg-purple-100 px-2 py-0.5 rounded-full uppercase tracking-wider">
-                        🔬 Deep Dive
-                      </span>
-                      {g.compound && (
-                        <span className="text-[10px] text-gray-400">
-                          {g.compound}
-                        </span>
-                      )}
-                      {g.minutes && (
-                        <span className="text-[10px] text-gray-400 ml-auto">
-                          {g.minutes} min read
-                        </span>
-                      )}
-                    </div>
-                    <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-purple-700 transition-colors leading-snug">
-                      {g.title}
-                    </h3>
-                    <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">
-                      {g.desc}
-                    </p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          )}
-          </>
         ) : (
           <div className="text-center py-16">
             <p className="text-gray-400 text-sm">
