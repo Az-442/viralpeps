@@ -198,14 +198,14 @@ export const guides: ResearchArticle[] = [
     tags: ["ipamorelin", "ghs", "gh", "ghrelin", "selective"],
   },
   {
-    title: "PT-141 (Bremelanotide) — Melanocortin Agonist Research Profile",
-    desc: "In-depth profile of PT-141 (Bremelanotide), the FDA-approved melanocortin receptor agonist for HSDD. Mechanism, clinical evidence from RECONNECT trials, dosing protocols, and safety profile.",
+    title: "PT-141 Research Summary",
+    desc: "Overview of PT-141 (Bremelanotide), an FDA-approved melanocortin receptor agonist for HSDD. Mechanism, clinical evidence from the RECONNECT trials, dosing protocols, and safety profile.",
     category: "Compound Profiles",
     section: "peptides",
     compound: "PT-141",
     slug: "pt141-profile",
-    image: "pt141-profile",
-    minutes: 12,
+    image: "pt141-research-summary",
+    minutes: 10,
     tags: ["pt-141", "bremelanotide", "melanocortin", "hsdd", "sexual-health"],
   },
   {
