@@ -178,7 +178,7 @@ export default function QuickSolvePage() {
                 {emailSent === "sent" ? (
                   <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 text-sm">
                     <p className="text-blue-900 font-semibold">
-                      ✅ Result sent — check your inbox!
+                      ✅ Result sent — check your inbox! You're also subscribed to our weekly newsletter.
                     </p>
                   </div>
                 ) : (

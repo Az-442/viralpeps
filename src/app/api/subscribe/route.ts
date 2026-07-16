@@ -23,15 +23,18 @@ export async function POST(request: NextRequest) {
     };
 
     let groupId = GROUP_MAP.Newsletter; // default
-    let groups: string[] = [groupId];
     if (from_tool) {
       groupId = GROUP_MAP["Tool Results"];
-      groups = [GROUP_MAP["Tool Results"], GROUP_MAP.Newsletter];
     } else if (result) {
       if (result.includes("Reconstitution")) groupId = GROUP_MAP["Recon Guide"];
       else if (result.includes("GLP-1")) groupId = GROUP_MAP["GLP-1 Chart"];
       else if (result.includes("Overpay")) groupId = GROUP_MAP["Price Drops"];
     }
+
+    // Always add Newsletter so every lead magnet subscriber gets weekly emails
+    const groups = groupId === GROUP_MAP.Newsletter
+      ? [GROUP_MAP.Newsletter]
+      : [groupId, GROUP_MAP.Newsletter];
 
     const body: Record<string, unknown> = {
       email,
