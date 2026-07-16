@@ -38,21 +38,28 @@ for y in range(card_h):
 draw.ellipse([-80, -80, 250, 250], fill=(230, 240, 255))
 draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(240, 245, 255))
 
-# Vial — large (80% card height, matching Ipamorelin/TB-500)
-vial = Image.open(VIAL_SRC)
+# Vial — make white pixels transparent so vial floats on gradient
+vial = Image.open(VIAL_SRC).convert("RGBA")
+data = vial.getdata()
+new_data = []
+for item in data:
+    r, g, b, a = item
+    # If nearly white, make transparent
+    if r > 248 and g > 248 and b > 248:
+        new_data.append((r, g, b, 0))
+    else:
+        new_data.append(item)
+vial.putdata(new_data)
+
 vial_ratio = vial.width / vial.height
-target_h = int(card_h * 0.8)  # 540px
+target_h = int(card_h * 0.88)  # 594px — large enough to fill panel
 target_w = int(target_h * vial_ratio)
 if target_w > card_w // 2 - 40:
     target_w = card_w // 2 - 60
     target_h = int(target_w / vial_ratio)
 vial_resized = vial.resize((target_w, target_h), Image.LANCZOS)
 vial_x, vial_y = 50, (card_h - target_h) // 2
-# Use RGBA mask when possible for clean edges
-if vial.mode == "RGBA":
-    card.paste(vial_resized, (vial_x, vial_y), vial_resized)
-else:
-    card.paste(vial_resized, (vial_x, vial_y))
+card.paste(vial_resized, (vial_x, vial_y), vial_resized)
 
 # Fonts
 font_dir = "/System/Library/Fonts"
