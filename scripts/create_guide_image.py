@@ -18,18 +18,18 @@ OUTPUT = "public/images/guides/pt141-research-summary.png"
 # ==============
 
 W, H = 1200, 675
-img = Image.new("RGB", (W, H), (230, 240, 255))
+img = Image.new("RGB", (W, H), (245, 248, 255))
 draw = ImageDraw.Draw(img)
 
-# Gradient bg — same as BPC-157 original
+# Gradient bg — exactly matches BPC-157
 for y in range(H):
-    r = int(230 - (y / H) * 25)
-    g = int(240 - (y / H) * 20)
-    b = int(255 - (y / H) * 15)
+    r = int(245 - (y / H) * 14)
+    g = int(248 - (y / H) * 14)
+    b = int(255 - (y / H) * 14)
     draw.line([(0, y), (W, y)], fill=(r, g, b))
 
 # Decorative circles
-draw.ellipse((-80, -80, 160, 160), fill=(220, 235, 255, 130))
+draw.ellipse((-80, -80, 160, 160), fill=(225, 238, 252, 130))
 draw.ellipse((W - 120, H - 120, W + 40, H + 40), fill=(200, 225, 250, 100))
 
 # Vial — convert to RGBA and use as mask for transparency
