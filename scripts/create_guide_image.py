@@ -30,7 +30,7 @@ for y in range(card_h):
 
 # Decorative circles
 draw.ellipse([-80, -80, 250, 250], fill=(230, 240, 255))
-draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(240, 245, 255))
+draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(230, 240, 255))
 
 # Vial — EXACTLY like gen_night3_guides.py
 vial = Image.open(VIAL)
