@@ -36,7 +36,7 @@ export default function BestOffersBanner() {
           <span className="text-2xl md:text-3xl">🔥</span>
           <div>
             <p className="text-sm md:text-base font-bold leading-tight">
-              Save up to <span className="text-yellow-300">97%</span> on Research Peptides
+              Save big on every peptide order
             </p>
             <p className="text-xs md:text-sm text-white/80 mt-0.5">
               Get weekly price drop alerts on every UK supplier — never overpay again.
