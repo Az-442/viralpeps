@@ -6,6 +6,7 @@ import vendors from "@/data/vendors.json";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import VendorLogo from "@/components/VendorLogo";
 import { PEPTIDE_COUNT } from "@/data/stats";
 import { ALL_VENDOR_STATS, ALL_VISIBLE_COUNTS } from "@/data/vendor-stats";
 
@@ -58,40 +59,6 @@ const verifiedCount = vendors.filter((v) => v.verified).length;
 const freeShippingCount = vendors.filter((v) => v.shipping?.some((s) => s.toLowerCase().includes("free"))).length;
 const labTestedCount = vendors.filter((v) => v.labTested).length;
 const avgRating = (vendors.reduce((sum, v) => sum + v.rating, 0) / vendors.length).toFixed(1);
-
-// Smart vendor logo component — tries .svg then .png, falls back to initials
-function VendorLogo({ slug, name, bigLogo }: { slug: string; name: string; bigLogo: boolean }) {
-  const [src, setSrc] = useState(`/images/vendors/${slug}.svg`);
-  const [fallback, setFallback] = useState<"svg" | "png" | "initials">("svg");
-  const size = bigLogo ? "w-[72px] h-[72px]" : "w-14 h-14";
-
-  const onImgError = () => {
-    if (fallback === "svg") {
-      setFallback("png");
-      setSrc(`/images/vendors/${slug}.png`);
-    } else {
-      setFallback("initials");
-    }
-  };
-
-  if (fallback === "initials") {
-    const initials = name.split(" ").map((w: string) => w[0]).join("").slice(0, 2).toUpperCase();
-    return (
-      <div className={`${size} flex items-center justify-center text-gray-400 font-bold text-lg`}>
-        {initials}
-      </div>
-    );
-  }
-
-  return (
-    <img
-      src={src}
-      alt={name}
-      onError={onImgError}
-      className={`${size} object-contain`}
-    />
-  );
-}
 
 export default function VendorsPage() {
   const [search, setSearch] = useState("");
@@ -229,7 +196,7 @@ export default function VendorsPage() {
                   <div className="flex items-start gap-4">
                     {/* Logo */}
                     <div className={`${bigLogo ? "w-20 h-20" : "w-16 h-16"} rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200`}>
-                      <VendorLogo slug={v.slug} name={v.name} bigLogo={bigLogo} />
+                      <VendorLogo slug={v.slug} name={v.name} size={bigLogo ? "lg" : "sm"} />
                     </div>
 
                     {/* Middle content */}

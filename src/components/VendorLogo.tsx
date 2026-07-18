@@ -19,14 +19,14 @@ export default function VendorLogo({
   name: string;
   size?: SizeVariant;
 }) {
-  const [src, setSrc] = useState(`/images/vendors/${slug}.svg`);
-  const [fallback, setFallback] = useState<"svg" | "png" | "initials">("svg");
+  const [src, setSrc] = useState(`/images/vendors/${slug}.png`);
+  const [fallback, setFallback] = useState<"png" | "svg" | "initials">("png");
   const sizeClass = SIZE_MAP[size];
 
   const onImgError = () => {
-    if (fallback === "svg") {
-      setFallback("png");
-      setSrc(`/images/vendors/${slug}.png`);
+    if (fallback === "png") {
+      setFallback("svg");
+      setSrc(`/images/vendors/${slug}.svg`);
     } else {
       setFallback("initials");
     }
