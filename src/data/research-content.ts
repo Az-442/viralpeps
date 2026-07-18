@@ -2698,6 +2698,463 @@ const content: Record<string, ResearchPageContent> = {
       'Hayashi M, et al. Novel anticonvulsant effects of growth hormone-releasing hormone (GHRH) in a PTZ-induced seizure model in rats. Epilepsy Res. 2010;91(2–3):218–225. PMID: 20801001.',
     ],
   },
+  "tb500-vs-bpc157": {
+  slug: "tb500-vs-bpc157",
+  compoundSlug: "",
+  pullQuote:
+    "If BPC-157 is the architect that builds the repair scaffold, TB-500 is the logistics crew that moves the workers to the site — one creates the environment for healing, the other mobilises the cells that do the healing.",
+  quickInfo: [
+    { label: "Primary Mechanism", value: "BPC-157 — angiogenesis, VEGF/FGF/EGF modulation, NO signalling — TB-500 — actin polymerisation, cell migration, NF-κB modulation" },
+    { label: "Origin", value: "BPC-157 — human gastric juice protein fragment — TB-500 — thymosin beta-4 active region (aa 17-23)" },
+    { label: "Molecular Weight", value: "BPC-157 — 1,419.6 g/mol — TB-500 — 4,963.4 g/mol" },
+    { label: "Estimated Half-Life", value: "BPC-157 — not fully characterised — TB-500 — ~2-3 days" },
+    { label: "Human Clinical Data", value: "BPC-157 — 1 safety pilot (2025, IV) — TB-500 — 1 cardiac trial (2025, STEMI)" },
+    { label: "Strongest Research Domain", value: "BPC-157 — tendon, ligament, gut recovery — TB-500 — wound healing, cardiac repair, dermal repair" },
+  ],
+  sections: [
+    {
+      title: "Overview: Two Roads to the Same Destination",
+      body: "BPC-157 (Body Protection Compound 157) and TB-500 (Thymosin Beta-4 Fragment 17-23) are two of the most widely researched regenerative peptides in the preclinical literature, yet they achieve tissue repair through fundamentally different biological strategies. BPC-157 is a gastric pentadecapeptide that orchestrates healing by upregulating growth factors (VEGF, FGF, EGF), stimulating angiogenesis, and modulating nitric oxide (NO) signalling [PMID: 20089008]. TB-500, a synthetic fragment of the naturally occurring actin-binding protein thymosin beta-4, drives repair primarily through cytoskeletal remodelling — it regulates actin polymerisation to enable cell migration, stem cell mobilisation, and tissue remodelling [PMID: 15006482]. Despite no direct head-to-head study comparing the two, the preclinical evidence base is strong enough to tease apart their distinct roles and their intriguing potential for synergy. [Compare TB-500 prices](/compounds/tb-500) | [Compare BPC-157 prices](/compounds/bpc-157)",
+    },
+    {
+      title: "At-a-Glance Comparison",
+      body: "The table below distils the key differences between BPC-157 and TB-500 across origin, mechanism, pharmacokinetics, and clinical evidence. Neither compound has FDA approval, and both remain investigational.",
+      table: {
+        header: ["Category", "BPC-157", "TB-500"],
+        rows: [
+          ["Origin", "Human gastric juice protein fragment", "Thymosin beta-4 active region (aa 17-23)"],
+          ["Primary mechanism", "Angiogenesis, VEGF/FGF/EGF modulation, NO signalling", "Actin polymerisation, cell migration, NF-κB modulation"],
+          ["Half-life", "Not fully characterised", "~2-3 days (estimated)"],
+          ["Molecular weight", "1,419.6 g/mol", "4,963.4 g/mol"],
+          ["Human data", "1 safety pilot (2025, IV)", "1 cardiac trial (2025, STEMI)"],
+          ["Strongest domain", "Tendon, ligament, gut recovery", "Wound healing, cardiac, dermal repair"],
+          ["FDA approval", "No", "No"],
+          ["Research depth", "Deep preclinical across gut, tendon, ligament models", "Broader tissue coverage including cardiac repair"],
+        ],
+      },
+    },
+    {
+      title: "How BPC-157 Works: The Healing Environment Architect",
+      body: "BPC-157 does not directly accelerate cell migration or cytoskeletal dynamics. Instead, it creates a molecular environment that is permissive — even proactive — for tissue regeneration. Its mechanisms converge on blood supply, growth factor signalling, and collagen support.",
+      subsections: [
+        {
+          title: "Angiogenesis and Growth Factor Upregulation",
+          body: "BPC-157 significantly upregulates vascular endothelial growth factor (VEGF), fibroblast growth factor (FGF), and epidermal growth factor (EGF) at injury sites [PMID: 20089008]. By driving new capillary formation, it ensures that healing tissues receive adequate oxygen and nutrients — a prerequisite for any robust repair process.",
+        },
+        {
+          title: "Nitric Oxide Signalling and Blood Flow",
+          body: "BPC-157 modulates the nitric oxide (NO) pathway, improving local microcirculation and reducing ischaemia-reperfusion injury [PMID: 19258571]. This NO-mediated vasodilation complements its angiogenic effects, creating a well-perfused healing bed from the outset.",
+        },
+        {
+          title: "Gene-Level Actin Production",
+          body: "At the transcriptional level, BPC-157 increases actin gene expression in fibroblasts, boosting the raw material for cytoskeletal assembly [PMID: 20638749]. It also upregulates growth hormone receptors on fibroblasts, enhancing their longevity and regenerative capacity [PMID: 24910868].",
+        },
+      ],
+    },
+    {
+      title: "How TB-500 Works: The Cell Migration Director",
+      body: "TB-500 takes a fundamentally different approach. Rather than enriching the extracellular environment, it works from the inside out — binding to actin monomers and directing cytoskeletal dynamics so that cells can move, divide, and remodel tissue.",
+      subsections: [
+        {
+          title: "Actin Polymerisation and Cytoskeletal Dynamics",
+          body: "TB-500 is a fragment of thymosin beta-4, the principal actin-sequestering protein in eukaryotic cells. By binding to monomeric (G-)actin, it regulates the pool of actin available for filament (F-)actin assembly — the engine of cell migration [PMID: 15006482].",
+        },
+        {
+          title: "Cell Migration and Stem Cell Mobilisation",
+          body: "Through its actin-regulating activity, TB-500 promotes directional cell migration — keratinocytes, fibroblasts, and endothelial cells all respond. It also stimulates mobilisation of bone-marrow-derived stem cells to injury sites, amplifying the endogenous repair response [PMID: 17517619].",
+        },
+        {
+          title: "NF-κB Modulation and Anti-Inflammatory Effects",
+          body: "TB-500 modulates NF-κB signalling, reducing excessive inflammatory activation while preserving the early inflammatory signals needed for repair initiation. This balanced immunomodulation may explain its efficacy across cardiac, dermal, and corneal injury models [PMID: 22627085].",
+        },
+      ],
+    },
+    {
+      title: "Where the Mechanisms Overlap",
+      body: "Despite their distinct primary pathways, BPC-157 and TB-500 converge on several downstream endpoints. Both peptides reduce apoptosis in stressed tissues, both promote collagen deposition — BPC-157 by stimulating growth factor signalling to fibroblasts, TB-500 by enabling fibroblast migration into the wound bed — and both have been shown to accelerate closure in dermal wound models. The convergence point is practical: each peptide makes the other's primary mechanism more effective. Better blood supply (BPC-157) gives migrating cells (TB-500) a viable environment. More cells arriving at the injury (TB-500) means more targets for growth factors (BPC-157). This complementary relationship is the foundation of the BPC-157 / TB-500 stack.",
+    },
+    {
+      title: "Synergy in Practice: The BPC-157 / TB-500 Stack",
+      body: "The rationale for combining BPC-157 and TB-500 is straightforward: BPC-157 builds the road (angiogenesis, growth factors, collagen scaffolding) while TB-500 drives the traffic (cell migration, actin dynamics, stem cell mobilisation). A common research dosing protocol is 750 mcg daily, split as 375 mcg BPC-157 + 375 mcg TB-500, typically administered subcutaneously near the injury site.",
+      subsections: [
+        {
+          title: "Preclinical Evidence for the Stack",
+          body: "No published study has directly compared BPC-157 alone vs TB-500 alone vs the combination in a single model. However, the mechanistic logic is supported by independent studies showing BPC-157 increases actin gene expression (providing the substrate for TB-500's actin-binding function) while TB-500's actin sequestration helps funnel that raw actin toward productive filament assembly at the leading edge of migrating cells [PMID: 20638749; PMID: 15006482].",
+        },
+        {
+          title: "Common Research Protocols",
+          body: "The 1:1 ratio (375 mcg each, once daily) is the most frequently reported research protocol. Cycle lengths typically run 4-6 weeks, with some protocols tapering to every-other-day dosing after week 4. Administration is subcutaneous, and reconstitution is standard with bacteriostatic water. Neither peptide should be injected intravenously.",
+        },
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "Which is stronger — BPC-157 or TB-500?",
+      answer: 'They are not directly comparable in terms of "strength" because they work through different mechanisms. BPC-157 excels at creating a healing environment through angiogenesis and growth factor modulation, making it particularly effective for tendons, ligaments, and gut tissue. TB-500 excels at mobilising cells to the injury site via actin regulation, giving it broader tissue coverage including cardiac and dermal repair. Neither is "stronger" — they are complementary.',
+    },
+    {
+      question: "Can BPC-157 and TB-500 be taken together?",
+      answer: "Yes — combining them is a common research protocol based on their complementary mechanisms. The typical dosing is 375 mcg of each (750 mcg total daily), administered subcutaneously. This stack is theorised to provide both the healing environment (BPC-157) and the cell-migration machinery (TB-500) for optimal tissue repair. No direct head-to-head combination study has been published, but the mechanistic rationale is well supported.",
+    },
+    {
+      question: "What is the difference in mechanism between BPC-157 and TB-500?",
+      answer: "BPC-157 works primarily through angiogenesis (new blood vessel formation), upregulation of growth factors like VEGF, FGF, and EGF, and modulation of nitric oxide signalling to improve blood flow. TB-500 works through actin polymerisation regulation — it binds monomeric actin to control filament assembly, enabling cell migration, stem cell mobilisation, and tissue remodelling. In short: BPC-157 creates the environment; TB-500 moves the cells.",
+    },
+    {
+      question: "Do BPC-157 and TB-500 have human clinical data?",
+      answer: "Yes, but it is early-stage. BPC-157 has one published safety pilot in humans (2025, intravenous administration). TB-500 has one controlled human trial — the 2025 STEMI cardiac trial. Both remain investigational with no FDA approval. The vast majority of evidence comes from rodent and cell-based models. [See our BPC-157 research page](/compounds/bpc-157) and [TB-500 research page](/compounds/tb-500) for details.",
+    },
+    {
+      question: "Which peptide has more preclinical research?",
+      answer: "BPC-157 has deeper preclinical evidence in gut, tendon, and ligament models, with a larger number of published rodent studies in those specific domains. TB-500 has broader tissue coverage — its preclinical literature spans cardiac repair, wound healing, corneal regeneration, and dermal repair. For tendon and ligament applications specifically, BPC-157 has the stronger evidence base. For cardiac and wound healing, TB-500 leads.",
+    },
+  ],
+  references: [
+    "PMID: 20089008 — Sikiric et al. (2010). BPC 157 and angiogenesis. Journal of Physiology and Pharmacology.",
+    "PMID: 15006482 — Philp et al. (2004). Thymosin beta 4 and actin regulation. The FASEB Journal.",
+    "PMID: 20638749 — Chang et al. (2010). BPC-157 increases actin production in fibroblasts. Journal of Orthopaedic Research.",
+    "PMID: 24910868 — Chang et al. (2014). BPC-157 upregulates growth hormone receptors on fibroblasts. Life Sciences.",
+    "PMID: 19258571 — Sikiric et al. (2009). BPC 157 and nitric oxide modulation. Journal of Physiology and Pharmacology.",
+    "PMID: 17517619 — Bock-Marquette et al. (2007). Thymosin beta 4 mobilises stem cells. Nature.",
+    "PMID: 22627085 — Sosne et al. (2012). Thymosin beta 4 and NF-kB modulation. Annals of the New York Academy of Sciences.",
+  ],
+  },
+
+  "cjc1295-vs-ipamorelin": {
+  slug: "cjc1295-vs-ipamorelin",
+  compoundSlug: "",
+  pullQuote:
+    "One works upstream at the pituitary signal tower; the other mimics the body's own hunger-for-growth signal at the hypothalamic door. Together, they don't just add — they multiply.",
+  quickInfo: [
+    { label: "Classification", value: "GHRH analogue (CJC-1295) — GHS receptor agonist (Ipamorelin)" },
+    { label: "Mechanism", value: "Pituitary GH synthesis via GHRH-R (CJC-1295) — Ghrelin mimic at GHS-R1a (Ipamorelin)" },
+    { label: "Half-life", value: "~30 min no DAC / ~8–14 days with DAC (CJC-1295) — ~2 hours (Ipamorelin)" },
+    { label: "Cortisol / Prolactin", value: "No elevation — either compound" },
+    { label: "Best For", value: "Sustained GH-axis support (CJC-1295) — Rapid GH pulse, recovery, sleep (Ipamorelin)" },
+  ],
+  sections: [
+    {
+      title: "Overview",
+      body:
+        "CJC-1295 and Ipamorelin are two of the most widely researched peptide tools in the growth hormone (GH) axis space, but they achieve their effects through entirely different doors. CJC-1295 is a growth-hormone-releasing hormone (GHRH) analogue — it amplifies the pituitary's own GH synthesis and release by directly engaging the GHRH receptor. Ipamorelin is a growth hormone secretagogue (GHS) that mimics ghrelin at the GHS-R1a receptor, triggering a fast, sharp pulse of GH without the cortisol or prolactin spillover that plagued earlier secretagogues [PMID: 12679429]. Neither is a replacement for training, nutrition, and recovery habits — but when applied intelligently, each shifts the GH baseline in a distinct and predictable way.",
+    },
+    {
+      title: "At-a-Glance Comparison",
+      body: "Before we dive deep into each mechanism, here is a side-by-side look at how CJC-1295 and Ipamorelin compare across the categories that matter most in GH-axis research.",
+      table: {
+        header: ["Category", "CJC-1295 (No DAC)", "Ipamorelin"],
+        rows: [
+          ["Classification", "GHRH analogue (hormone)", "GHS receptor agonist (secretagogue)"],
+          ["Mechanism", "Stimulates pituitary GH synthesis/release via GHRH-R", "Mimics ghrelin at GHS-R1a —> GH release"],
+          ["Half-life", "~30 min (No DAC)", "~2 hours"],
+          ["GH pulse", "Physiological pulsatile pattern", "Sharp pulse, immediate"],
+          ["Cortisol effect", "None", "None (selective)"],
+          ["Prolactin effect", "None", "Minimal"],
+          ["Appetite effect", "None", "None"],
+          ["Best for", "Sustained GH-axis support", "Rapid GH pulse, recovery, sleep"],
+        ],
+      },
+    },
+    {
+      title: "How CJC-1295 Works",
+      body:
+        "CJC-1295 is a synthetic analogue of growth-hormone-releasing hormone (GHRH), the hypothalamic peptide that tells the pituitary to synthesise and release GH. By binding the GHRH receptor on pituitary somatotrophs, it amplifies the amplitude of naturally occurring GH pulses — the body keeps its own rhythm, but each pulse carries more signal [PMID: 15947986]. The distinction between CJC-1295 with and without Drug Affinity Complex (DAC) is critical: the no-DAC variant has a half-life of roughly 30 minutes and produces a clean, short GH spike, while the DAC-conjugated version extends the half-life to 8–14 days for sustained, flattened GH elevation. For most research applications, the no-DAC form is preferred because it preserves the physiological pulsatility that peripheral tissues expect.",
+      subsections: [
+        {
+          title: "CJC-1295 with DAC",
+          body:
+            "DAC (Drug Affinity Complex) binds irreversibly to circulating albumin, extending the peptide's residence time to 8–14 days. This produces a sustained, flattened GH elevation rather than discrete pulses — a fundamentally different pharmacokinetic profile that may downregulate feedback sensitivity over longer windows.",
+        },
+        {
+          title: "CJC-1295 without DAC",
+          body:
+            "The no-DAC form clears quickly (~30 min half-life) and generates a physiological pulsatile GH release pattern. This is the more commonly researched variant because it respects the body's innate GH rhythm while amplifying each pulse's amplitude.",
+        },
+      ],
+    },
+    {
+      title: "How Ipamorelin Works",
+      body:
+        "Ipamorelin was purpose-built as the first selective GH secretagogue — it activates the ghrelin/growth hormone secretagogue receptor (GHS-R1a) in the hypothalamus and pituitary, but unlike earlier GHS molecules such as GHRP-6 or hexarelin, it does not significantly elevate cortisol or prolactin [PMID: 12679429]. This selectivity is its defining advantage. By mimicking the hunger signal ghrelin at the receptor level, Ipamorelin triggers a rapid, sharp pulse of GH that peaks within 15–30 minutes of administration and resolves over roughly two hours. The pulse is fast, the signal is clean, and the downstream effects — enhanced sleep quality, accelerated recovery from training, and improved body composition — are consistent with the GH pulses that natural deep sleep produces. Unlike CJC-1295, Ipamorelin does not amplify ongoing GH synthesis; it forces a discrete release event, making it a timing-dependent tool best used pre-sleep or post-training.",
+    },
+    {
+      title: "Where They Differ and Why They're Stacked",
+      body:
+        "The fundamental difference comes down to signal timing and mechanism. CJC-1295 operates at the GHRH receptor — it raises the ceiling on the pituitary's GH production machinery, gradually compounding the GH output across days and weeks. Ipamorelin operates at the ghrelin receptor — it pulls the trigger on a rapid, discrete release event that fades within hours [PMID: 16176622]. One is a long-horizon amplifier; the other is an on-demand pulse generator. This complementarity is exactly why the two are frequently researched together: CJC-1295 builds the baseline, Ipamorelin delivers the peaks. When stacked, the GHRH analogue sets a higher tonic GH output while the secretagogue adds acute spikes on top, producing a GH profile that neither compound can achieve alone.",
+      subsections: [
+        {
+          title: "Why stack CJC-1295 and Ipamorelin?",
+          body:
+            "They work through complementary, non-competing pathways (GHRH-R and GHS-R1a). CJC-1295 supports sustained GH-axis output; Ipamorelin adds acute, high-amplitude pulses on demand. Research suggests the combination produces a fuller GH profile than either alone, with no negative feedback crosstalk between the two receptor systems [PMID: 12679429]. [Compare CJC-1295 prices](/compounds/cjc-1295) — [Compare Ipamorelin prices](/compounds/ipamorelin)",
+        },
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "Which is more effective for muscle recovery — CJC-1295 or Ipamorelin?",
+      answer:
+        "They target recovery through different time domains. Ipamorelin produces a fast GH pulse that supports acute post-training repair and sleep quality, making it the better choice for day-to-day recovery. CJC-1295 (particularly the no-DAC form) builds GH output gradually over weeks, supporting sustained tissue remodelling. Many researchers stack both.",
+    },
+    {
+      question: "Does CJC-1295 with DAC cause GH bleed?",
+      answer:
+        "Yes — that is the intended pharmacology. The DAC moiety extends half-life to 8–14 days via albumin binding, producing continuous rather than pulsatile GH elevation. Whether this is desirable depends on the research goal: sustained elevation for long-horizon studies, or pulsatile release for physiological GH patterning.",
+    },
+    {
+      question: "Does Ipamorelin raise cortisol like other secretagogues?",
+      answer:
+        "No — and that is its headline advantage. Ipamorelin was designed as a selective GHS-R1a agonist and does not significantly elevate cortisol or prolactin, unlike earlier secretagogues such as GHRP-6 or hexarelin [PMID: 12679429].",
+    },
+    {
+      question: "Can CJC-1295 and Ipamorelin be taken together safely?",
+      answer:
+        'The two compounds act on different receptor systems (GHRH-R and GHS-R1a) with no known negative feedback overlap. They are commonly studied in combination as a "GHRP/GHRH" stack, where CJC-1295 primes the GH axis and Ipamorelin triggers discrete release events.',
+    },
+    {
+      question: "How long does it take to see effects from each compound?",
+      answer:
+        "Ipamorelin's effects are acute — improved sleep and recovery can be noticed within the first few doses. CJC-1295 (no DAC) works on a slower, cumulative timescale; changes in body composition, skin quality, and recovery baseline typically emerge over 4–8 weeks of consistent use.",
+    },
+  ],
+  references: [
+    "PMID: 12679429 — Raun K et al. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 2003.",
+    "PMID: 15947986 — Jaffe CA et al. Effects of GHRH analogue CJC-1295 on GH secretion in healthy adults. J Clin Endocrinol Metab. 2005.",
+    "PMID: 16176622 — Korbonits M et al. Ghrelin and the growth hormone secretagogue receptor. Growth Horm IGF Res. 2005.",
+    "PMID: 17698997 — Teichman SL et al. Pharmacokinetics and pharmacodynamics of CJC-1295, a long-acting GHRH analogue. J Clin Endocrinol Metab. 2008.",
+    "PMID: 18372418 — Iovane A et al. Growth hormone secretagogues: mechanism of action and clinical perspectives. Minerva Endocrinol. 2008.",
+  ],
+  },
+
+  "tesamorelin-vs-sermorelin": {
+  slug: "tesamorelin-vs-sermorelin",
+  compoundSlug: "",
+  pullQuote:
+    "Tesamorelin is the only FDA-approved GHRH analogue with RCT-grade visceral fat data. Sermorelin is the accessible truncated cousin — same receptor, vastly different evidence depth.",
+  quickInfo: [
+    { label: "Compound class", value: "GHRH analogues" },
+    {
+      label: "FDA status",
+      value:
+        "Tesamorelin — FDA-approved (Egrifta SV, 2010) — Sermorelin — withdrawn (2008, manufacturing)",
+    },
+    {
+      label: "Primary evidence",
+      value:
+        "Tesamorelin — multiple RCTs for visceral fat — Sermorelin — older GH-deficiency studies",
+    },
+    {
+      label: "Half-life",
+      value: "Tesamorelin ~26–38 min — Sermorelin ~10–20 min",
+    },
+    {
+      label: "Research confidence",
+      value: "Tesamorelin — High (FDA-approved) — Sermorelin — Moderate",
+    },
+  ],
+  sections: [
+    {
+      title: "Overview",
+      body:
+        "Tesamorelin and Sermorelin both stimulate pituitary growth hormone (GH) release via the GHRH receptor, but their clinical trajectories could hardly be more different. Tesamorelin is a full-length (44-amino acid) GHRH analogue modified with a trans-3-hexenoic acid group for enhanced stability — and it holds the distinction of being the only FDA-approved GHRH-based therapy (Egrifta SV, approved 2010) with randomised controlled trial data for visceral fat reduction in HIV-associated lipodystrophy.\n\nSermorelin, by contrast, is a truncated GHRH fragment (the first 29 amino acids) that received FDA approval in the 1990s for paediatric GH deficiency but was voluntarily withdrawn in 2008 due to manufacturing discontinuation — not safety concerns. Today it circulates widely through compounding pharmacies and anti-aging clinics, supported by a thinner evidence base. Choosing between them means weighing FDA-grade clinical data against wider accessibility.",
+    },
+    {
+      title: "At-a-Glance Comparison",
+      body:
+        "The table below distils the key differences between Tesamorelin and Sermorelin across structure, regulatory status, pharmacokinetics, and research confidence.",
+      table: {
+        header: ["Category", "Tesamorelin", "Sermorelin"],
+        rows: [
+          [
+            "Structure",
+            "Full 44-AA GHRH + trans-3-hexenoic acid modification",
+            "Truncated GHRH fragment (first 29 amino acids)",
+          ],
+          [
+            "FDA status",
+            "FDA-approved (Egrifta SV, 2010) — currently marketed",
+            "FDA approval withdrawn (2008) — manufacturing discontinuation",
+          ],
+          [
+            "Primary evidence",
+            "Multiple RCTs for visceral fat reduction in HIV-lipodystrophy",
+            "Older GH-deficiency studies; limited body-composition RCTs",
+          ],
+          ["Half-life", "~26–38 minutes", "~10–20 minutes"],
+          ["Research confidence", "High (FDA-approved)", "Moderate (FDA withdrawn 2008)"],
+          ["Body recomp score", "7.0/10", "4.5/10"],
+          [
+            "Best fit",
+            "Visceral fat reduction, body composition",
+            "GH-axis support, anti-aging, recovery context",
+          ],
+        ],
+      },
+    },
+    {
+      title: "How Tesamorelin Works",
+      body:
+        "Tesamorelin is a synthetic full-length GHRH analogue engineered for improved pharmacokinetic stability. Its trans-3-hexenoic acid modification protects against rapid enzymatic degradation, extending its half-life to approximately 26–38 minutes — sufficient for once-daily subcutaneous dosing [PMID: 18057338].\n\nTesamorelin binds the pituitary GHRH receptor with high affinity, triggering GH pulse release that closely mimics endogenous GHRH physiology. The key clinical differentiator is its randomised controlled trial programme: two Phase III trials demonstrated statistically significant visceral adipose tissue (VAT) reduction (mean –15–20% by CT scan) versus placebo over 26 weeks in HIV-positive patients with lipodystrophy [PMID: 23255568]. These effects carried over to liver fat reduction and improved cardiometabolic markers without the glucose dysregulation seen with supra-physiological GH therapy. Tesamorelin is the only GHRH analogue with FDA-registered evidence — no other compound in this class has matched that bar [Compare Tesamorelin prices](/compounds/tesamorelin).",
+    },
+    {
+      title: "How Sermorelin Works",
+      body:
+        "Sermorelin is the bioactive N-terminal 1–29 fragment of endogenous GHRH — the minimal sequence required for full receptor activation. It was developed in the 1980s and received FDA approval for diagnosing and treating paediatric GH deficiency, capitalising on its ability to stimulate a pulsatile GH response without the feedback suppression seen with exogenous GH administration.\n\nIts half-life (approximately 10–20 minutes) is shorter than Tesamorelin's, necessitating more frequent or higher-volume dosing to sustain GH release. Sermorelin's FDA withdrawal in 2008 was strictly a manufacturing-business decision (the sole manufacturer discontinued the product) — not a safety or efficacy signal [PMID: 16339173]. The evidence base is thinner: older open-label studies and small case series in GH-deficient adults, plus emerging off-label use in anti-aging and sports recovery contexts where practitioners value its physiological GH-release profile over the supraphysiological approach of direct GH injection [Compare Sermorelin prices](/compounds/sermorelin).",
+    },
+    {
+      title: "Evidence Comparison & Research Fit",
+      body:
+        "The evidence gap between these two GHRH analogues is substantial. Tesamorelin has been evaluated in multiple double-blind, placebo-controlled RCTs with quantitative endpoints (CT-quantified VAT, liver fat fraction via MRI, fasting lipids, glucose homeostasis). Sermorelin's data rests primarily on older GH-stimulation studies, open-label series, and extrapolation from the broader GHRH literature.\n\nFor researchers focused on body composition and visceral adiposity, Tesamorelin offers the stronger evidentiary foundation — it is the only GHRH analogue with FDA approval and Phase III RCT data specifically for fat reduction [PMID: 24423349]. Sermorelin remains a relevant tool for GH-axis investigations where regulatory-grade clinical data is not the primary concern, and for exploratory work in recovery, anti-aging, or peptide-accessibility contexts where FDA registration is not the goal. The choice ultimately hinges on whether the research requires FDA-level evidence density or wider compound accessibility.",
+      subsections: [
+        {
+          title: "When to Choose Tesamorelin",
+          body:
+            "Select Tesamorelin for studies requiring the highest evidence grade — visceral fat quantification, liver fat endpoints, cardiometabolic safety profiling, or any setting where FDA-registered data is expected. It is the gold-standard comparator for GHRH analogue research.",
+        },
+        {
+          title: "When to Choose Sermorelin",
+          body:
+            "Sermorelin fits preclinical or exploratory work, GH-axis physiology studies, and research contexts where compound cost and availability outweigh the need for FDA-grade clinical evidence. Its thinner data makes it a weaker choice for body-composition RCTs.",
+        },
+        {
+          title: "The Bottom Line",
+          body:
+            "Tesamorelin and Sermorelin activate the same pituitary receptor, but their evidence bases are not interchangeable. Tesamorelin carries the weight of FDA registration and multiple RCTs; Sermorelin offers accessibility at the cost of clinical confidence. Match the compound to the research standard required.",
+        },
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "Are Tesamorelin and Sermorelin the same thing?",
+      answer:
+        "No. Both are GHRH analogues that stimulate pituitary GH release through the same receptor, but Tesamorelin is a full-length 44-AA GHRH with a stabilising modification, while Sermorelin is a truncated 29-AA fragment. Tesamorelin is FDA-approved with RCT evidence; Sermorelin's FDA approval was withdrawn in 2008.",
+    },
+    {
+      question: "Is Sermorelin as effective as Tesamorelin for fat loss?",
+      answer:
+        "The evidence does not support equivalence. Tesamorelin has multiple Phase III RCTs demonstrating visceral fat reduction (15–20% VAT decrease by CT). Sermorelin lacks comparable body-composition RCTs, making any direct efficacy claim speculative.",
+    },
+    {
+      question: "Why was Sermorelin withdrawn from the FDA market?",
+      answer:
+        "Sermorelin's FDA withdrawal in 2008 was due to manufacturing discontinuation by the sole supplier — not safety or efficacy concerns. It remains available through compounding pharmacies and in research contexts.",
+    },
+    {
+      question: "Which has a longer half-life, Tesamorelin or Sermorelin?",
+      answer:
+        "Tesamorelin has a longer half-life (~26–38 minutes) compared to Sermorelin (~10–20 minutes), due to its trans-3-hexenoic acid modification that protects against enzymatic degradation.",
+    },
+    {
+      question:
+        "Can Sermorelin be used as a substitute for Tesamorelin in research?",
+      answer:
+        "Not without acknowledging the evidence gap. For body-composition research requiring robust clinical data, Tesamorelin is the appropriate choice. Sermorelin is suited to GH-axis physiology studies, anti-aging contexts, or exploratory work where FDA-grade evidence is not the priority.",
+    },
+  ],
+  references: [
+    "[PMID: 18057338] — Falutz J, et al. Effects of tesamorelin on visceral fat in HIV-infected patients with abdominal fat accumulation. N Engl J Med. 2007;357(23):2359-2370.",
+    "[PMID: 23255568] — Falutz J, et al. Effects of tesamorelin on visceral fat, liver fat, and cardiometabolic risk factors in HIV-infected patients with abdominal fat accumulation. Diabetes Care. 2013;36(5):1303-1310.",
+    "[PMID: 24423349] — Stanley TL, et al. Effects of tesamorelin on visceral fat and liver fat, and safety in HIV-infected patients. J Clin Endocrinol Metab. 2014;99(3):E467-E475.",
+    "[PMID: 16339173] — Toogood AA, et al. The therapeutic potential of GHRH analogues. Growth Horm IGF Res. 2006;16(Suppl A):S45-S50.",
+    "[PMID: 10796164] — Ghigo E, et al. Growth hormone secretagogues and the regulation of growth hormone secretion. J Clin Endocrinol Metab. 2000;85(5):1920-1926.",
+  ],
+  },
+
+  "how-to-read-a-coa": {
+  slug: "how-to-read-a-coa",
+  compoundSlug: "",
+  pullQuote: "A Certificate of Analysis is more than a piece of paper — it is the only way to confirm the peptide you are buying is the peptide you need. A purity number without a chromatogram, or a batch number that does not match the vial, makes the document essentially worthless.",
+  quickInfo: [
+    { label: "What it certifies", value: "Identity (MW), purity (HPLC %), water content, residual solvents, peptide content" },
+    { label: "Gold standard", value: "Third-party lab COA with named laboratory, not an in-house document from the supplier" },
+    { label: "Purity target", value: "≥ 99% by HPLC for research-grade peptides" },
+    { label: "Identity check", value: "Mass spectrometry within 0.1 Da of expected molecular weight" },
+    { label: "Validity window", value: "Test date within the last 12 months" },
+  ],
+  sections: [
+    {
+      title: "What Is a COA and Why It Matters",
+      body: "A Certificate of Analysis (COA) is a laboratory document that confirms the identity, purity, and quality of a specific batch of synthesised peptide. Without one, you have only the supplier's word that the product matches what was ordered. Products sold under the same name can differ dramatically in purity, counterion content, and even identity between suppliers. A genuine third-party COA — issued by an independent analytical laboratory whose name appears on the document — is the only reliable way to verify what you are receiving.",
+    },
+    {
+      title: "The Structure of a Legitimate COA",
+      body: "A legitimate COA follows a standard structure. Each section serves a purpose, and missing sections are a red flag. Here is what you should expect to see and what to look for in each.",
+      table: {
+        header: ["Section", "What it shows", "What to verify"],
+        rows: [
+          ["Header", "Supplier name, laboratory name, batch/lot number, test date", "Batch number matches the vial you receive; test date within 12 months"],
+          ["HPLC purity", "Purity percentage + full chromatogram + method conditions (column, mobile phase, gradient, detection wavelength)", "Purity ≥ 99%; chromatogram shows a single dominant peak; no shouldering or multiple early eluting peaks"],
+          ["Mass spectrometry", "Expected vs measured molecular weight", "Measured mass within 0.1 Da of expected; no extra adduct peaks"],
+          ["Water content (Karl Fischer)", "Residual water percentage", "Typically < 5%; high water can indicate hygroscopicity or degradation"],
+          ["TFA / residual solvents", "Counterion and solvent levels", "TFA content should be reported; high TFA can affect cell-based assays"],
+          ["Signature / letterhead", "Signed and dated by the analyst on laboratory letterhead", "Date, signature, and named laboratory — not just a logo"],
+        ],
+      },
+    },
+    {
+      title: "HPLC Purity — The Chromatogram Tells the Real Story",
+      body: "A single number \u2014 \"99.5% pure\" \u2014 without a chromatogram is far less reliable than the same number backed by one. The chromatogram lets you see the peak shape, baseline, and any impurities at the main peak\u2019s retention time. A clean, symmetric main peak at the expected retention time with no significant shoulder or fronting confirms the purity percentage is meaningful. Always request the full chromatogram, not just the summary line.",
+    },
+    {
+      title: "Mass Spectrometry — Confirming the Identity",
+      body: "HPLC tells you how pure the sample is, but it does not tell you what it is. Mass spectrometry (usually ESI-MS or MALDI-TOF) measures the molecular weight of the peptide and compares it to the theoretical value. The measured mass should be within 0.1 Da of the expected mass. A match confirms the correct sequence was synthesised. Discrepancies larger than 0.5 Da suggest a sequence error, truncation, or side reaction.",
+    },
+    {
+      title: "Red Flags: How to Spot a Fake or Incomplete COA",
+      body: "Not all COAs are created equal. Some suppliers share incomplete or even fabricated documents. Watch for these warning signs:",
+      subsections: [
+        { title: "No batch number", body: "If the COA lacks a batch or lot number, it cannot be linked to your specific vial. The document is meaningless." },
+        { title: "No independent laboratory named", body: 'An in-house "COA" from the supplier without a named external lab is not independent verification. Insist on a third-party lab.' },
+        { title: "Purity number without a chromatogram", body: "A purity percentage alone can be easily manipulated. Always request the full HPLC trace." },
+        { title: "No mass spectrometry result", body: "Without mass spec, you cannot confirm the peptide's identity — only its purity. Both are needed." },
+        { title: "Test date older than 12 months", body: "Peptides can degrade over time. A COA from 18 months ago does not reflect the current state of the product." },
+        { title: "Unsigned, undated, or no letterhead", body: "A document lacking a signature, date, or official letterhead may not be a genuine laboratory report." },
+        { title: "COA not available before purchase", body: "Suppliers who only share the COA after payment should be treated with caution. A reputable supplier publishes COAs upfront." },
+      ],
+    },
+    {
+      title: "What to Check Before You Buy",
+      body: "Before committing to a purchase, run through this three-point checklist. It takes two minutes and can save you from receiving unusable material.",
+      subsections: [
+        { title: "1. Batch number matches", body: "Confirm the batch number on the COA matches the batch number on the vial or product page. A mismatch means the COA is for a different batch." },
+        { title: "2. Purity is ≥ 99%", body: "For research-grade peptides, the HPLC purity should be 99% or higher. Some applications may tolerate 98%, but always verify the chromatogram looks clean." },
+        { title: "3. Test date within 12 months", body: "The COA should be dated within the last 12 months. If it is older, ask for a recent re-test or look for a supplier who provides up-to-date documentation." },
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "What is the difference between in-house and third-party COAs?",
+      answer: "An in-house COA is issued by the supplier itself and is not independent verification. A third-party COA is issued by an external analytical laboratory whose name appears on the document. Third-party COAs are the gold standard because the lab has no commercial interest in the result.",
+    },
+    {
+      question: "Can I trust a COA that only shows a purity percentage?",
+      answer: "No. A purity number without a chromatogram can be misleading. The chromatogram shows the peak shape, baseline quality, and any impurity peaks — all of which are necessary to judge whether the purity claim is genuine.",
+    },
+    {
+      question: "Why does mass spectrometry matter if HPLC already shows high purity?",
+      answer: "HPLC measures how much of the sample is peptide, but it does not confirm which peptide. Mass spectrometry measures the molecular weight and verifies the correct sequence was synthesised. A high-purity sample of the wrong peptide is still useless.",
+    },
+    {
+      question: 'What does "TFA content" mean on a COA?',
+      answer: "Trifluoroacetic acid (TFA) is a common counterion used during peptide purification. Residual TFA can interfere with cell-based assays and other biological experiments. A COA should report the TFA or residual solvent content so you can assess suitability for your application.",
+    },
+    {
+      question: "What should I do if a supplier refuses to share a COA before purchase?",
+      answer: "Treat this as a significant red flag. Reputable suppliers publish COAs on their product pages or share them on request before payment. If a supplier insists on payment first, consider using a different vendor. You can [compare supplier prices and policies](/vendors) on ViralPeps.",
+    },
+  ],
+  references: [
+    'BioHack London. "How to Read a Peptide COA." BioHack London Knowledge Base, 2024.',
+    'Janoshik Analytical. "Certificate of Analysis Standards for Research Chemicals." Janoshik Laboratory Documentation.',
+    'Sigma-Aldrich. "Guide to Certificate of Analysis (COA) for Peptides." Merck Life Science Technical Resources.',
+    'Millington, D. S. "The Role of Mass Spectrometry in Peptide Identity Confirmation." Journal of Peptide Science, vol. 28, no. 3, 2022, pp. 45–52.',
+    'European Pharmacopoeia. "General Chapter 2.2.46: Chromatographic Separation Techniques." Ph. Eur. 11th Edition, EDQM, 2023.',
+  ],
+  },
+
 };
 
 export default content;
