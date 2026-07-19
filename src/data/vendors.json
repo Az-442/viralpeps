@@ -1094,5 +1094,35 @@
     ],
     "lastTested": "2026-07-17",
     "labTested": true
+  },
+  {
+    "id": "regen-peptides",
+    "name": "Regen Peptides",
+    "slug": "regen-peptides",
+    "website": "https://www.regenpeptides.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier (Regen Peptides Ltd #16443319) offering 48+ premium-grade compounds with third-party Janoshik lab testing. All products independently tested with batch-specific COAs. Free UK delivery over £50, same-day dispatch before 2pm via Royal Mail Tracked 24. Known for competitive pricing on GLP-1 agonists, peptide blends, and research stacks.",
+    "highlights": [
+      "Third-party tested (Janoshik)",
+      "Free UK delivery over £50",
+      "Same-day dispatch (before 2pm)",
+      "99%+ purity guaranteed",
+      "48+ products in catalog",
+      "Registered UK company (Regen Peptides Ltd #16443319)"
+    ],
+    "shipping": [
+      "UK free over £50 (Royal Mail Tracked 24, same-day dispatch before 2pm Mon-Fri)"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard/Amex)",
+      "Apple Pay",
+      "Google Pay",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-07-19",
+    "labTested": true
   }
 ]
