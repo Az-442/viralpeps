@@ -3155,6 +3155,485 @@ const content: Record<string, ResearchPageContent> = {
   ],
   },
 
+  "semaglutide-research-summary": {
+  slug: "semaglutide-research-summary",
+  compoundSlug: "semaglutide",
+  pullQuote:
+    "Semaglutide doesn't burn fat. It rewires the appetite switch — and when the calories stop coming in, the weight starts coming off. The real question is what the scale doesn't show.",
+  quickInfo: [
+    { label: "Peptide Name", value: "Semaglutide" },
+    { label: "Classification", value: "GLP-1 Receptor Agonist" },
+    { label: "Brand Names", value: "Ozempic (T2D), Wegovy (Obesity)" },
+    { label: "CAS Number", value: "910463-68-2" },
+    { label: "Molecular Weight", value: "4113.6 g/mol" },
+    { label: "Amino Acid Length", value: "31 amino acids (synthetic)" },
+    { label: "FDA Approval", value: "2017 (T2D), 2021 (Obesity)" },
+    { label: "Half-Life", value: "~7 days (once-weekly dosing)" },
+    { label: "Primary Research Areas", value: "T2D, obesity, cardiovascular outcomes, MASH/NASH" },
+  ],
+  sections: [
+    {
+      title: "What Is Semaglutide?",
+      body: "Semaglutide is a 31-amino-acid synthetic peptide that functions as a GLP-1 receptor agonist. It's the active pharmaceutical ingredient in two blockbuster medications: Ozempic (approved for type 2 diabetes in 2017) and Wegovy (approved for chronic weight management in 2021).\\n\\nLet's cut through the noise: semaglutide does not directly burn fat. It does not increase your metabolic rate. It does not melt adipose tissue on contact. What it does is suppress appetite, slow gastric emptying, and increase the sensation of fullness — and by doing those three things consistently, it creates a sustained calorie deficit that drives weight loss.\\n\\nThink of it this way: if weight loss were a marathon, semaglutide doesn't give you stronger legs. It makes the finish line feel closer and stops you from grabbing every energy gel on the course. The running still has to happen.\\n\\n[**Compare Semaglutide prices from UK suppliers →**](/compounds/semaglutide)",
+    },
+    {
+      title: "The Core Things Semaglutide Does",
+      body: "Semaglutide's power comes from a single mechanism executed exceptionally well — GLP-1 receptor agonism. But that single mechanism produces three distinct physiological effects that work together to drive results.",
+      subsections: [
+        {
+          title: "1. GLP-1 Receptor Agonism — The Master Signal",
+          body: "GLP-1 (glucagon-like peptide-1) is an endogenous incretin hormone released from intestinal L-cells in response to nutrient intake. Its job is to tell the pancreas, the stomach, and the brain that food has arrived. Semaglutide is a synthetic analogue of human GLP-1 that resists degradation by dipeptidyl peptidase-4 (DPP-4) — giving it a half-life of approximately 7 days compared to the ~2 minutes of native GLP-1.\\n\\nThis structural modification is what makes semaglutide clinically useful. Native GLP-1 is degraded so quickly that continuous intravenous infusion is required to maintain therapeutic levels. Semaglutide's amino acid substitutions at positions 8 (Aib) and 34 (Arg) plus a C-18 fatty diacid chain at Lys26 allow it to bind serum albumin and evade DPP-4 cleavage, enabling once-weekly subcutaneous dosing. [**Semaglutide**](/compounds/semaglutide) is arguably the best-engineered single-agonist GLP-1 peptide on the market.",
+        },
+        {
+          title: "2. Appetite Suppression — The Nose Knows",
+          body: "Semaglutide crosses the blood-brain barrier and acts directly on GLP-1 receptors in the arcuate nucleus of the hypothalamus and the area postrema of the brainstem. These regions govern energy homeostasis and nausea signalling. The result is a dramatic reduction in hunger — not as in 'I could eat but I won't,' but as in 'the thought of eating much more feels genuinely unappealing.'\\n\\nClinical trial participants on semaglutide 2.4 mg (Wegovy) reported significantly reduced hunger, increased fullness between meals, and a lower desire to eat fatty or calorie-dense foods. This appetite suppression is the primary driver of caloric reduction in semaglutide users. The compound doesn't force the body to burn more — it reduces the input side of the energy balance equation with remarkable consistency.",
+        },
+        {
+          title: "3. Glycemic Control — Slowing the Rollercoaster",
+          body: "Beyond appetite, semaglutide exerts powerful glucose-dependent effects on pancreatic islets. It enhances glucose-stimulated insulin secretion from beta-cells when blood glucose is elevated, and simultaneously suppresses glucagon release from alpha-cells. Unlike sulfonylureas, which force insulin release regardless of blood glucose, semaglutide only amplifies insulin when glucose is high — dramatically reducing the risk of hypoglycaemia.\\n\\nGastric emptying is also slowed via vagal signalling, which blunts postprandial glucose spikes by staggering nutrient absorption into the bloodstream. The combined effect is smoother, flatter glucose curves — a significant benefit for type 2 diabetes management that also reduces the hunger crashes that drive overeating.",
+        },
+      ],
+    },
+    {
+      title: "Clinical Evidence — What the Numbers Say",
+      body: "Semaglutide has been evaluated in one of the most extensive clinical trial programmes of any GLP-1 peptide. The landmark trials are summarised below.",
+      table: {
+        header: ["Trial / Programme", "Population", "Duration", "Primary Finding"],
+        rows: [
+          ["SUSTAIN-1 through -7 (Ozempic)", "Type 2 diabetes (n = ~8,000)", "40–104 weeks", "HbA1c reductions of 1.2–1.8%; weight loss of 3.6–6.5 kg across doses"],
+          ["STEP-1 (Wegovy)", "Obesity, no diabetes (n = 1,961)", "68 weeks", "Mean weight loss of 14.9% (15.3 kg) vs 2.4% with placebo"],
+          ["STEP-4 (Wegovy — withdrawal)", "Obesity, no diabetes (n = 803)", "68 weeks", "Weight regain in placebo-switch group: +6.9% vs continued weight loss with semaglutide"],
+          ["SELECT (CV outcomes)", "Obesity + CVD, no diabetes (n = 17,604)", "Up to 5 years", "20% reduction in MACE (cardiovascular death, non-fatal MI, non-fatal stroke)"],
+          ["STEP-HFpEF", "Obesity + HFpEF (n = 529)", "52 weeks", "Weight loss 13.3% vs 2.6%; significant improvement in KCCQ-CSS symptom score"],
+        ],
+      },
+      subsections: [
+        {
+          title: "The Weight Loss Data — Honest Numbers",
+          body: "The 68-week STEP-1 trial (NEJM 2021) remains the definitive dataset for semaglutide weight loss in non-diabetic obesity. At the 2.4 mg once-weekly dose, mean weight loss was 14.9% of baseline body weight — approximately 15.3 kg (33.7 lbs). A full 86.4% of participants achieved ≥5% weight loss, 69.1% achieved ≥10%, and 50.5% achieved ≥15%. These are genuine results that changed the obesity treatment landscape.\\n\\nBut here is the number the headlines don't emphasise: 39–45% of the weight lost was lean mass (muscle), not fat. In clinical body composition substudies, the proportion of fat loss was lower than would be expected from calorie restriction alone, raising important questions about the quality of weight lost on semaglutide. The scale went down — but a significant portion of what went with it was metabolically active tissue.",
+        },
+        {
+          title: "Cardiovascular Outcomes — The SELECT Trial",
+          body: "The SELECT trial (NEJM 2023, n = 17,604) was a watershed moment for GLP-1 peptides. It demonstrated that semaglutide 2.4 mg reduced major adverse cardiovascular events (MACE) by 20% in patients with pre-existing cardiovascular disease and obesity but without diabetes — an effect that appeared independent of weight loss magnitude. The hazard ratio for the primary composite endpoint (cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke) was 0.80 (95% CI 0.72–0.90, p < 0.001).\\n\\nThis finding suggests that **GLP-1 receptor agonists** confer cardiovascular protection through mechanisms beyond weight reduction — possibly via direct anti-inflammatory effects on vascular endothelium and atherosclerotic plaque stabilisation.",
+        },
+        {
+          title: "Body Composition Concerns — The Muscle Loss Problem",
+          body: "The finding that 39–45% of semaglutide-induced weight loss comes from lean mass is not trivial. Muscle is the body's primary site of glucose disposal and resting energy expenditure. Losing muscle reduces metabolic rate over time, which is a known contributor to weight regain after cessation of caloric restriction.\\n\\nThis is the central criticism of semaglutide as a weight loss tool: it produces impressive scale weight reductions, but the body composition outcome is suboptimal. Newer multi-agonist **GLP-1 peptides** such as tirzepatide (dual GIP/GLP-1) and retatrutide (triple GIP/GLP-1/glucagon) may offer superior body composition through additional receptor targets that better preserve lean mass — particularly the glucagon component in retatrutide, which drives lipid oxidation and energy expenditure directly.",
+        },
+      ],
+    },
+    {
+      title: "Dosing and Administration",
+      body: "All information below refers to clinical protocols and is provided for research reference only. Semaglutide is a prescription-only medicine and must not be used outside approved indications without regulatory authorisation.\\n\\nSemaglutide is administered once weekly via subcutaneous injection. The half-life of ~7 days supports stable plasma concentrations with a single weekly dose. Two dosing formulations exist:\\n\\n**Ozempic (T2D):** Initiated at 0.25 mg once weekly for 4 weeks, then escalated to 0.5 mg. Maintenance doses are 0.5 mg, 1.0 mg, or 2.0 mg once weekly depending on glycaemic targets.\\n\\n**Wegovy (Obesity):** Initiated at 0.25 mg once weekly with a graduated 16-week titration schedule (0.25 mg → 0.5 mg → 1.0 mg → 1.7 mg → 2.4 mg) to minimise gastrointestinal side effects. The maintenance dose is 2.4 mg once weekly.\\n\\nFor research purposes, semaglutide is supplied as a lyophilised powder. Store at −20°C (lyophilised) or 2–8°C (reconstituted). Always verify peptide purity and batch details via the Certificate of Analysis.\\n\\n[**Check current Semaglutide prices from UK suppliers →**](/compounds/semaglutide)",
+    },
+    {
+      title: "Safety and Considerations",
+      body: "Semaglutide has a well-characterised safety profile established through extensive clinical trial data. The most important consideration for researchers and clinicians is the gastrointestinal side effect burden — particularly during the dose escalation phase.",
+      table: {
+        header: ["Consideration", "Details", "Frequency / Risk"],
+        rows: [
+          ["Nausea", "Most common AE; dose-dependent, peaks during escalation", "~44% (Wegovy) vs ~18% placebo"],
+          ["Diarrhoea", "Second most common GI event", "~30% vs ~16% placebo"],
+          ["Vomiting", "Less common but significant in higher doses", "~24% vs ~6% placebo"],
+          ["Pancreatitis", "Rare but serious; requires discontinuation", "< 0.5% in clinical trials"],
+          ["Gallbladder disease", "Increased risk from rapid weight loss", "~2.6% vs ~1.2% placebo"],
+          ["Muscle loss", "39–45% of lost weight is lean mass", "Consistent across body composition substudies"],
+          ["Weight regain on cessation", "Most participants regain weight within 12 months", "~60–80% regain ≥50% of lost weight"],
+          ["Thyroid C-cell tumours", "Boxed warning (rodent data; human relevance unconfirmed)", "Rare, based on animal studies"],
+        ],
+      },
+      subsections: [
+        {
+          title: "The Weight Regain Problem",
+          body: "This is the most under-discussed aspect of semaglutide research. Weight regain after stopping semaglutide is not just common — it is the expectation. In the STEP-4 withdrawal trial, participants who were switched from semaglutide to placebo regained a mean of 6.9% of body weight over the next 48 weeks, while those who continued semaglutide lost an additional 2.4%. Longer-term observational data suggests that within 12 months of cessation, most individuals regain 50–80% of the weight they lost.\\n\\nThe mechanism is straightforward: semaglutide suppresses appetite pharmacologically, but it does not permanently reset the set point. When the drug is withdrawn, the underlying appetite drive returns to baseline — and the biological pressure to regain lost weight is strong. This is not a failure of the compound. It is a predictable consequence of treating a chronic condition with an acute intervention. Researchers studying **buy Semaglutide UK** use patterns should note that the compound is most appropriately viewed as a chronic management tool, not a 'one and done' solution.",
+        },
+        {
+          title: "Emerging Safety Data — GLP-1 and Muscle",
+          body: "The lean mass loss associated with semaglutide has attracted growing research attention. DXA substudies from the STEP programme indicate that approximately 40% of total weight lost is fat-free mass. While some lean mass loss is expected with any weight loss intervention (caloric restriction alone produces ~25–30% lean mass loss), the figure on semaglutide is higher than ideal.\\n\\nThis has led to increasing interest in combination approaches: pairing semaglutide with resistance training protocols, protein-sparing interventions, or adjunct peptides that preserve muscle during caloric restriction (such as tesamorelin or other GHRH analogues). For researchers evaluating **GLP-1 peptides** for body composition studies, this muscle loss consideration is a critical variable that should be factored into study design.",
+        },
+      ],
+    },
+    {
+      title: "Bottom Line",
+      body: "Semaglutide is the most clinically proven single-agonist **GLP-1 receptor agonist** on the market. The data supporting its efficacy for type 2 diabetes and weight loss is extensive, robust, and reproducible across multiple large-scale RCTs. The cardiovascular outcome data from SELECT is genuinely groundbreaking — semaglutide is the first GLP-1 peptide to demonstrate MACE reduction in a non-diabetic obesity population.\\n\\nBut honest assessment requires acknowledging the limitations. The 39–45% lean mass loss is a significant concern for body composition outcomes. The weight regain rate after discontinuation means semaglutide is a chronic management tool — not a cure. And the gastrointestinal side effect burden limits tolerability for a meaningful subset of patients.\\n\\nFor researchers comparing **GLP-1 peptides**, semaglutide remains the benchmark that newer agents must outperform. Tirzepatide has already surpassed it in weight loss efficacy. Retatrutide may push further. But semaglutide's safety dataset — built on tens of thousands of patient-years of clinical trial data — remains the gold standard against which all newcomers are measured.\\n\\n[**Compare Semaglutide supplier prices and availability →**](/compounds/semaglutide)",
+    },
+  ],
+  faq: [
+    {
+      question: "What is semaglutide and how does it work?",
+      answer: "Semaglutide is a 31-amino-acid synthetic peptide that acts as a GLP-1 receptor agonist. It works by mimicking the natural incretin hormone GLP-1, which suppresses appetite via hypothalamic and brainstem GLP-1 receptors, slows gastric emptying to increase fullness, and enhances glucose-dependent insulin secretion from pancreatic beta-cells while suppressing glucagon release. It does NOT directly burn fat — the weight loss is driven entirely by the sustained calorie deficit created by reduced food intake.",
+    },
+    {
+      question: "What are the brand names and approval status of semaglutide?",
+      answer: "Semaglutide is marketed as Ozempic (FDA-approved 2017 for type 2 diabetes), Wegovy (FDA-approved 2021 for chronic weight management), and Rybelsus (oral formulation for T2D). In the UK, it is MHRA-approved and included in NICE guidelines for both type 2 diabetes and weight management. The CAS number is 910463-68-2 and molecular weight is 4113.6 g/mol.",
+    },
+    {
+      question: "How much weight loss can be expected with semaglutide in clinical trials?",
+      answer: "In the landmark STEP-1 trial (68 weeks), semaglutide 2.4 mg produced mean weight loss of 14.9% of baseline body weight (~15.3 kg). 86.4% of participants lost ≥5% of their body weight, 69.1% lost ≥10%, and 50.5% lost ≥15%. However, body composition substudies found that 39–45% of lost weight was lean mass (muscle), not fat — a significant consideration for body composition quality.",
+    },
+    {
+      question: "Does semaglutide have cardiovascular benefits?",
+      answer: "Yes. The SELECT trial (NEJM 2023, n = 17,604) demonstrated a 20% reduction in major adverse cardiovascular events (MACE) with semaglutide 2.4 mg in patients with obesity and pre-existing cardiovascular disease but without diabetes. The benefit appeared partially independent of weight loss magnitude, suggesting direct anti-inflammatory effects on vascular endothelium — a finding that reshaped how clinicians view GLP-1 receptor agonists in cardiovascular medicine.",
+    },
+    {
+      question: "What happens when you stop taking semaglutide?",
+      answer: "Weight regain is the expectation, not the exception. In the STEP-4 withdrawal trial, participants switched to placebo regained 6.9% of body weight over 48 weeks. Observational data suggests 60–80% of lost weight is regained within 12 months of cessation. The appetite-suppressing effect is pharmacological — when the drug is withdrawn, baseline appetite returns and the biological pressure toward weight regain is strong. This is why semaglutide is best understood as a chronic management tool, not a one-time intervention.",
+    },
+  ],
+  references: [
+    "Wilding JPH, et al. Once-weekly semaglutide in adults with overweight or obesity. N Engl J Med. 2021;384(11):989-1002. PMID: 33567185.",
+    "Lincoff AM, et al. Semaglutide and cardiovascular outcomes in obesity without diabetes. N Engl J Med. 2023;389(24):2221-2232. PMID: 37952131.",
+    "Marso SP, et al. Semaglutide and cardiovascular outcomes in patients with type 2 diabetes. N Engl J Med. 2016;375(19):1834-1844. PMID: 27633186.",
+    "Davies M, et al. Semaglutide 2.4 mg once a week in adults with overweight or obesity, and type 2 diabetes (STEP 2). Lancet. 2021;397(10278):971-984. PMID: 33667417.",
+    "Rubino D, et al. Effect of continued weekly subcutaneous semaglutide vs placebo on weight loss maintenance in adults with overweight or obesity (STEP 4). JAMA. 2021;325(14):1414-1425. PMID: 33755728.",
+    "Kosiborod M, et al. Semaglutide in patients with heart failure with preserved ejection fraction and obesity (STEP-HFpEF). N Engl J Med. 2023;389(12):1069-1084. PMID: 37622681.",
+    "Knudsen LB, Lau J. The discovery and development of liraglutide and semaglutide. Front Endocrinol. 2019;10:155. PMID: 30958917.",
+  ],
+},
+  "nad-plus-research-summary": {
+  slug: "nad-plus-research-summary",
+  compoundSlug: "nad-plus",
+  pullQuote:
+    "NAD+ is the battery of life. Every cell charges itself on it, every repair pathway depends on it — and your levels drop by 50% by age 50. The question isn't whether you need it. It's whether you've already run out.",
+  quickInfo: [
+    { label: "Compound Name", value: "NAD+ (Nicotinamide Adenine Dinucleotide)" },
+    { label: "Classification", value: "Essential Coenzyme / Redox Cofactor" },
+    { label: "Molecular Formula", value: "C21H27N7O14P2" },
+    { label: "Molecular Weight", value: "663.43 g/mol" },
+    { label: "Evidence Strength", value: "Strong preclinical; extensive human data on precursors (NMN/NR), limited on NAD+ injection directly" },
+    { label: "Primary Research Areas", value: "Energy metabolism, mitochondrial health, aging, neuroprotection, metabolic flexibility" },
+    { label: "Key Precursors", value: "NMN (Nicotinamide Mononucleotide), NR (Nicotinamide Riboside), Niacin, Niacinamide" },
+    { label: "Age-Related Decline", value: "~50% reduction by age 50; ~80% by age 80" },
+  ],
+  sections: [
+    {
+      title: "What Is NAD+?",
+      body: "NAD+ (Nicotinamide Adenine Dinucleotide) is an essential coenzyme found in every single living cell on Earth — from bacteria to blue whales to human neurons. It is not a 'peptide' in the traditional sense, but it is the single most important small-molecule metabolite in cellular energy metabolism.\\n\\nThink of NAD+ as the molecular battery that powers the cellular economy. Every time you eat, breathe, or think, NAD+ is there — shuttling electrons between enzymes, fuelling ATP production, and enabling the repair systems that keep your DNA intact. Without NAD+, a cell dies within seconds.\\n\\nNAD+ exists in two interconvertible forms: NAD+ (oxidised) and NADH (reduced). The ratio between the two acts as a real-time gauge of the cell's energetic status. When NAD+ levels are high, repair pathways are active, sirtuins are firing, and mitochondria are humming. When NAD+ drops, everything slows down — repair, energy, and resilience.\\n\\n[**Compare NAD+ and NAD+ precursor prices from UK suppliers →**](/compounds/nad-plus)",
+    },
+    {
+      title: "Why NAD+ Declines With Age",
+      body: "This is the central puzzle of NAD+ research: young cells are rich in NAD+; old cells are starved of it. The decline is not subtle, and it is not linear.\\n\\nBy age 50, intracellular NAD+ levels have dropped by approximately 50% from youthful baselines. By age 80, the decline can reach 80% or more. This isn't a theoretical risk — it is one of the most reproducible biochemical observations in the biology of aging.\\n\\nThree processes drive the decline:\\n\\n**1. Increased consumption by repair enzymes.** As DNA damage accumulates with age, PARP enzymes (poly-ADP ribose polymerases) burn through NAD+ to repair broken DNA strands. More damage means more NAD+ consumed — a desperate firefighter draining the water supply.\\n\\n**2. Upregulation of CD38 and CD157.** These NADase enzymes, expressed on immune cells, degrade NAD+ into signalling molecules. With age and chronic inflammation, CD38 expression increases sharply, accelerating NAD+ depletion in a vicious cycle: inflammation raises CD38, CD38 consumes NAD+, and low NAD+ impairs the cell's ability to resolve inflammation.\\n\\n**3. Reduced biosynthesis capacity.** The enzymes that produce NAD+ from dietary precursors — chiefly NAMPT (rate-limiting for the salvage pathway) and NRK1/2 (for the NR pathway) — decline in activity with age. The factory slows down just as demand spikes.\\n\\nThe result is a metabolic bottleneck that touches every aspect of cellular health: energy, repair, stress resistance, and signalling. Restoring NAD+ levels to youthful ranges is the central aim of a substantial and growing body of research.\\n\\n[**Browse NAD+ supplement research and pricing →**](/compounds/nad-plus)",
+    },
+    {
+      title: "The Core Functions of NAD+",
+      body: "NAD+ is not a single-function molecule. It is the central currency of four distinct biological systems, each of which depends on adequate NAD+ availability to function. When NAD+ drops, all four systems degrade simultaneously.",
+      subsections: [
+        {
+          title: "1. Energy Metabolism — ATP Production",
+          body: "This is NAD+'s most fundamental role. In the mitochondria, NAD+ accepts electrons from the TCA cycle (Krebs cycle) and delivers them to Complex I of the electron transport chain. This electron flow drives the proton gradient that powers ATP synthase — the cellular motor that generates ATP, the universal energy currency of life.\\n\\nWithout NAD+, the electron transport chain stalls. Without the electron transport chain, oxidative phosphorylation stops. Without oxidative phosphorylation, a human cell produces less than 5% of its theoretical ATP yield. NAD+ is not optional for energy production. It is the actual electron carrier that makes aerobic respiration possible.",
+        },
+        {
+          title: "2. Sirtuin Activation — Longevity and Repair",
+          body: "Sirtuins (SIRT1–SIRT7) are NAD+-dependent deacetylases that regulate gene expression, stress resistance, mitochondrial biogenesis, and metabolic adaptation. They are the most intensively studied longevity-associated enzyme family in molecular biology.\\n\\nThe crucial point: sirtuins cannot function without NAD+. NAD+ is their obligate co-substrate — they consume one molecule of NAD+ for every deacetylation event. When NAD+ levels are low, sirtuin activity plummets. When NAD+ is restored, sirtuins become active again.\\n\\nSIRT1, the most studied family member, deacetylates PGC-1α (the master regulator of mitochondrial biogenesis), FOXO transcription factors (stress resistance and autophagy), and p53 (DNA repair and apoptosis). By activating SIRT1, NAD+ directly drives mitochondrial renewal, antioxidant defence, and cellular resilience — three hallmarks of biological youth.",
+        },
+        {
+          title: "3. PARP Activation — DNA Repair",
+          body: "Every day, every cell in your body sustains tens of thousands of DNA lesions — single-strand breaks, base modifications, crosslinks. PARP1 (poly-ADP ribose polymerase 1) is the cell's first responder for single-strand break repair.\\n\\nPARP1 detects DNA breaks, binds to the damage site, and uses NAD+ as a substrate to synthesise poly-ADP ribose (PAR) chains — a signal that recruits the full DNA repair machinery. Each PARP1 activation event consumes 50–200 NAD+ molecules.\\n\\nThe trade-off is stark: when DNA damage is chronic (as it is in aging cells exposed to oxidative stress, radiation, and metabolic byproducts), PARP1 consumes NAD+ faster than the cell can replenish it. This NAD+ depletion then impairs sirtuin function, reduces ATP production, and compromises the cell's ability to handle the next round of damage. It is a downward spiral that NAD+ replenishment can interrupt.",
+        },
+        {
+          title: "4. CD38 / CD157 — Immunometabolic Regulation",
+          body: "CD38 and CD157 are NAD+-consuming enzymes expressed on the surface of immune cells. They degrade NAD+ to produce cyclic ADP-ribose (cADPR) and nicotinic acid adenine dinucleotide phosphate (NAADP) — signalling molecules that regulate calcium release from intracellular stores.\\n\\nCD38 is the dominant NADase in mammalian tissues, responsible for degrading 50–100 molecules of NAD+ for every one consumed by sirtuins or PARPs. Its expression increases with age and chronic inflammation — a key driver of age-related NAD+ decline.\\n\\nThis positions CD38 as both a target and a paradox: blocking CD38 preserves NAD+, but CD38's signalling products are essential for immune function. The research challenge is understanding how to modulate CD38 activity to protect NAD+ levels without compromising calcium signalling or immune surveillance.",
+        },
+      ],
+    },
+    {
+      title: "Research Areas",
+      body: "NAD+ research spans an extraordinary range of biological systems. Here are the areas where the evidence is most compelling.",
+      subsections: [
+        {
+          title: "Mitochondrial Health and Metabolic Flexibility",
+          body: "NAD+ is required for mitochondrial fatty acid oxidation, the TCA cycle, and the electron transport chain. Low NAD+ impairs the cell's ability to switch between glucose and fat as fuel sources — a state known as metabolic inflexibility that is a hallmark of insulin resistance and type 2 diabetes.\\n\\nPreclinical studies consistently demonstrate that NAD+ restoration via NMN or NR supplementation improves mitochondrial function, increases oxidative metabolism, and enhances insulin sensitivity in aged and metabolically compromised animals (Yoshino et al., 2011, PMID: 21884936; Cantó et al., 2012, PMID: 22805456).",
+        },
+        {
+          title: "Neuroprotection and Cognitive Health",
+          body: "Neurons are high-energy cells with limited regenerative capacity — making them particularly vulnerable to NAD+ depletion. Low NAD+ impairs mitochondrial ATP production in synapses, reduces sirtuin-mediated neuroprotection, and compromises DNA repair in post-mitotic neurons.\\n\\nPreclinical research has investigated NAD+ precursors in models of Alzheimer's disease, Parkinson's disease, stroke, and peripheral neuropathy. NMN supplementation reduced amyloid-beta plaque burden and improved cognitive function in APP/PS1 Alzheimer's model mice (Wang et al., 2020, PMID: 32969036). NR has shown protective effects in models of peripheral neuropathy and axonal degeneration (Khan et al., 2014, PMID: 24813811).",
+        },
+        {
+          title: "Circadian Rhythm Regulation",
+          body: "NAD+ levels oscillate in a circadian rhythm — driven by the reciprocal relationship between the circadian clock machinery and the NAD+-dependent deacetylase SIRT1. The clock genes CLOCK and BMAL1 regulate NAMPT expression, which controls NAD+ synthesis. In turn, SIRT1 uses NAD+ to deacetylate and modulate PER2 and other clock components, creating a feedback loop.\\n\\nDisrupted NAD+ rhythms have been implicated in jet lag, shift work disorders, and metabolic dysregulation. Time-restricted NAD+ precursor administration is an emerging area of research interest.",
+        },
+        {
+          title: "Age-Related Declines and Longevity",
+          body: "The connection between NAD+ depletion and biological aging is the most studied area in the field. Across species — yeast, worms, flies, mice, and humans — NAD+ levels decline with age, and interventions that restore NAD+ extend healthspan in animal models.\\n\\nThe NAD+ World 2.0 hypothesis (Imai, 2016) posits that the systemic decline in NAD+ drives the functional decline of multiple organ systems through coordinated effects on sirtuin signalling, mitochondrial function, and stem cell maintenance. Research in this area is moving rapidly toward human clinical trials.",
+        },
+      ],
+    },
+    {
+      title: "NAD+ Supplementation Strategies",
+      body: "The fundamental challenge in NAD+ supplementation is molecular size: NAD+ itself has a molecular weight of 663 g/mol and carries a strong negative charge (two phosphate groups), which makes it poorly bioavailable when administered orally or even intravenously in most contexts. Research has therefore focused on smaller precursor molecules that can enter cells and be converted to NAD+ intracellularly.\\n\\nThe table below compares the three primary NAD+-boosting strategies used in research.",
+      table: {
+        header: ["Strategy", "Molecule", "MW (g/mol)", "Bioavailability", "Conversion Route", "Research Maturity"],
+        rows: [
+          ["NAD+ injection (direct)", "NAD+ (Nicotinamide Adenine Dinucleotide)", "663.43", "Low oral; IV bypasses absorption issues", "Direct — NAD+ is the target molecule", "Limited human data; some IV clinic use; emerging preclinical"],
+          ["NMN (Nicotinamide Mononucleotide)", "NMN (β-Nicotinamide Mononucleotide)", "334.22", "Moderate — transported via Slc12a8 in gut (mice); controversial in humans", "NMN → NAD+ via NMNAT enzymes (one-step conversion)", "Extensive preclinical; early human clinical trials (NCT03151239, NCT04823260)"],
+          ["NR (Nicotinamide Riboside)", "NR (Nicotinamide Riboside)", "255.25", "Good — absorbed via equilibrative nucleoside transporters (ENTs)", "NR → NMN → NAD+ via NRK1/2 + NMNAT (two-step)", "Most clinical data of the three; multiple human RCTs completed; generally well-tolerated"],
+        ],
+      },
+    },
+    {
+      title: "Bottom Line",
+      body: "NAD+ is not a trendy supplement ingredient. It is a fundamental biochemical reality — the master coenzyme that sits at the intersection of energy metabolism, DNA repair, epigenetic regulation, and immune signalling. The evidence that NAD+ levels decline with age, and that this decline contributes to the functional deterioration of multiple organ systems, is robust and reproducible across species and laboratories.\\n\\nThe most important finding from the research literature is this: NAD+ is a systemic bottleneck. When levels are adequate, the cell's repair and energy systems operate at full capacity. When levels drop, every downstream system degrades simultaneously.\\n\\nFor researchers and informed consumers, the key distinction is between NAD+ itself (which faces significant bioavailability challenges) and its precursors — NMN and NR — which have stronger absorption data and more clinical evidence. The field is moving rapidly, with ongoing clinical trials investigating NAD+ restoration in metabolic disease, neurodegenerative conditions, and age-related decline.\\n\\nNAD+ is strictly for laboratory and clinical research use. It is not approved by the MHRA or FDA as a therapeutic for any indication. Always verify compound purity, batch data, and handling instructions via the accompanying Certificate of Analysis.\\n\\n[**Compare NAD+ product prices from UK research suppliers →**](/compounds/nad-plus)",
+    },
+  ],
+  faq: [
+    {
+      question: "What is NAD+ and why is it important?",
+      answer: "NAD+ (Nicotinamide Adenine Dinucleotide) is an essential coenzyme found in every living cell. It plays a central role in cellular energy production (ATP synthesis via the electron transport chain), DNA repair (as a substrate for PARP enzymes), and the activation of sirtuins — longevity-associated proteins that regulate metabolism, stress resistance, and mitochondrial function. NAD+ levels decline by approximately 50% by age 50, which is linked to reduced cellular repair capacity and metabolic function.",
+    },
+    {
+      question: "What is the difference between NAD+, NMN, and NR?",
+      answer: "NAD+ is the target molecule — the active coenzyme your cells use. NMN (Nicotinamide Mononucleotide) and NR (Nicotinamide Riboside) are precursor molecules that your cells convert into NAD+. The key difference is molecular size and bioavailability: NAD+ is large (663 g/mol) and poorly absorbed orally, NMN is converted to NAD+ in one enzymatic step and has moderate bioavailability, and NR is the smallest precursor (255 g/mol) with the best oral absorption and the most human clinical trial data. All three are used in NAD+ restoration research.",
+    },
+    {
+      question: "Does NAD+ decline with age, and can it be restored?",
+      answer: "Yes. NAD+ levels decline by approximately 50% by age 50 and up to 80% by age 80, driven by increased consumption by DNA repair enzymes (PARPs) and inflammatory NADases (CD38), combined with reduced biosynthesis capacity (declining NAMPT activity). Preclinical studies consistently show that NAD+ restoration via NMN or NR supplementation improves mitochondrial function, insulin sensitivity, and DNA repair capacity. Human clinical trials are ongoing, with early results supporting safety and bioavailability of NAD+ precursors (Yoshino et al., 2011; Cantó et al., 2012).",
+    },
+    {
+      question: "Is NAD+ available as a research compound in the UK?",
+      answer: "Yes. NAD+ and its precursors (NMN, NR) are available from UK research chemical suppliers for laboratory and in-vitro research purposes. They are not approved by the MHRA for human consumption as supplements or therapeutics. Researchers should always verify batch purity, endotoxin levels, and storage conditions via the Certificate of Analysis. NAD+ and its precursors are typically supplied as lyophilised powders requiring refrigerated storage and protection from light and moisture.",
+    },
+    {
+      question: "What does the research say about NAD+ for neuroprotection?",
+      answer: "Preclinical evidence supports a role for NAD+ precursors in neuroprotection. Neurons are particularly vulnerable to NAD+ depletion due to their high energy demands and limited regenerative capacity. Studies have shown that NMN reduces amyloid-beta plaque burden and improves cognitive function in Alzheimer's disease models (Wang et al., 2020). NR has demonstrated protective effects against axonal degeneration in models of peripheral neuropathy (Khan et al., 2014). The mechanisms involve improved mitochondrial function, enhanced sirtuin-mediated neuroprotection, and support for DNA repair pathways in post-mitotic neurons.",
+    },
+  ],
+  references: [
+    "Yoshino J, Mills KF, Yoon MJ, Imai SI. Nicotinamide mononucleotide, a key NAD+ intermediate, treats the pathophysiology of diet- and age-induced diabetes in mice. Cell Metab. 2011;14(4):528-536. PMID: 21884936.",
+    "Cantó C, Houtkooper RH, Pirinen E, et al. The NAD+ precursor nicotinamide riboside enhances oxidative metabolism and protects against high-fat diet-induced obesity. Cell Metab. 2012;15(6):838-847. PMID: 22805456.",
+    "Imai SI. The NAD World 2.0: the importance of the inter-tissue communication mediated by NAMPT/NAD+/SIRT1 in mammalian aging and longevity control. NPJ Syst Biol Appl. 2016;2:16018. PMID: 28725474.",
+    "Khan NA, Auranen M, Paetau I, et al. Effective treatment of mitochondrial myopathy by nicotinamide riboside, a vitamin B3. EMBO Mol Med. 2014;6(6):721-731. PMID: 24813811.",
+    "Wang X, Hu X, Yang Y, et al. Nicotinamide mononucleotide protects against beta-amyloid oligomer-induced cognitive impairment and neuronal death. Brain Res. 2020;1740:146866. PMID: 32969036.",
+    "Gomes AP, Price NL, Ling AJ, et al. Declining NAD+ induces a pseudohypoxic state disrupting nuclear-mitochondrial communication during aging. Cell. 2013;155(7):1624-1638. PMID: 24360282.",
+    "Ke Y, Wang Z, Xu C, et al. CD38 actions on NAD+ metabolism and signaling in aging and inflammation. Trends Endocrinol Metab. 2021;32(7):471-485. PMID: 33934957.",
+    "Rajman L, Chwalek K, Sinclair DA. Therapeutic potential of NAD-boosting molecules: the in vivo evidence. Cell Metab. 2018;27(3):529-547. PMID: 29514035.",
+  ],
+},
+  "mots-c-research-summary": {
+  slug: "mots-c-research-summary",
+  compoundSlug: "mots-c",
+  pullQuote: "MOTS-c is mitochondria talking back — a 16-amino-acid peptide that rewires metabolism, mimics exercise at the cellular level, and reminds us that our energy factories are also endocrine organs.",
+  quickInfo: [
+    { label: "Type", value: "Mitochondrial-Derived Peptide (MDP)" },
+    { label: "Length", value: "16 amino acids" },
+    { label: "Molecular Weight", value: "~2,174 g/mol" },
+    { label: "Primary Targets", value: "AMPK, folate-methionine cycle, skeletal muscle glucose uptake" },
+    { label: "Evidence Level", value: "Moderate preclinical; limited human data" },
+    { label: "Primary Research Areas", value: "Metabolic homeostasis, exercise mimetics, insulin sensitivity, age-related decline" }
+  ],
+  sections: [
+    {
+      title: "What Is MOTS-c?",
+      body: "MOTS-c (Mitochondrial Open Reading Frame of the 12S rRNA-c) is a 16-amino-acid peptide encoded by the short open reading frame of the mitochondrial 12S rRNA gene. Unlike nuclear-encoded peptides, MOTS-c originates directly from the mitochondrial genome and functions as a retrograde signal — a way for mitochondria to tell the rest of the cell what they need. It belongs to the growing family of mitochondrial-derived peptides (MDPs), which also includes humanin and SHLPs, and its discovery helped cement the idea that mitochondria are not just passive power plants but active endocrine signalling hubs.",
+      subsections: [
+        {
+          title: "A Peptide Born in the Mitochondrion",
+          body: "Most peptides are transcribed from nuclear DNA, translated in the cytoplasm, and then trafficked to their destinations. MOTS-c is different — it is encoded within the mitochondrial genome itself and is translated inside the mitochondrion before being released into the cytosol. This gives it a privileged perspective on the organelle's metabolic state: when mitochondria are stressed (from exercise, caloric restriction, or hypoxia), MOTS-c expression rises, and the peptide acts as an adaptive metabolic signal that helps the rest of the cell adjust."
+        },
+        {
+          title: "Not a Stimulant — a Signal",
+          body: "It is important to distinguish MOTS-c from stimulants or thermogenic agents. MOTS-c does not force energy production or artificially ramp up metabolism. Instead, it shifts metabolic priorities — encouraging glucose uptake, modulating the folate-methionine cycle, and activating AMPK. Users sometimes report a period of early fatigue during the first days or weeks of use, which is thought to reflect the mitochondrial remodelling and adaptation phase as cells recalibrate their energy systems. This is not a side effect in the traditional sense; it is the signal doing its job."
+        }
+      ]
+    },
+    {
+      title: "The Core Functions of MOTS-c",
+      body: "MOTS-c exerts its effects through several well-characterised molecular pathways. The most prominent are AMPK activation, metabolic regulation via the folate-methionine cycle, exercise-mimetic signalling, and anti-inflammatory modulation. Each contributes to the peptide's overall reputation as a metabolic regulator.",
+      subsections: [
+        {
+          title: "AMPK Activation — The Master Metabolic Switch",
+          body: "AMP-activated protein kinase (AMPK) is the cell's primary energy sensor. When energy is low (high AMP/ATP ratio), AMPK switches on catabolic pathways — glucose uptake, fatty acid oxidation, mitochondrial biogenesis — and switches off anabolic ones. MOTS-c directly activates AMPK in skeletal muscle, making it one of the few peptides that can engage this pathway without requiring exercise or pharmacological stress. This AMPK activation is the mechanistic bedrock of MOTS-c's exercise-mimetic and glucose-regulating effects."
+        },
+        {
+          title: "Metabolic Regulation — The Folate-Methionine Connection",
+          body: 'MOTS-c also regulates the folate-methionine cycle, a central metabolic hub that links one-carbon metabolism, methylation status, and nucleotide synthesis. By modulating this cycle, MOTS-c influences the availability of purines and pyrimidines for DNA repair and the methylation patterns that govern gene expression. This is a more subtle but potentially far-reaching mode of action — it puts MOTS-c at the intersection of energy metabolism and epigenetic regulation, a rare combination for a peptide of its size.'
+        },
+        {
+          title: "Exercise-Mimetic Effects",
+          body: "Perhaps the most attention-grabbing property of MOTS-c is its ability to mimic certain aspects of exercise at the molecular level. In animal models, MOTS-c treatment increases glucose uptake in skeletal muscle, improves running endurance, and enhances metabolic flexibility — all hallmarks of trained muscle. This does not mean MOTS-c replaces exercise (it cannot replicate the cardiovascular, neurological, or structural benefits of movement), but it does suggest the peptide could be a useful tool for maintaining metabolic health during periods of forced inactivity, injury recovery, or age-related mobility decline."
+        },
+        {
+          title: "Anti-Inflammatory Signalling",
+          body: "MOTS-c has demonstrated anti-inflammatory effects in several preclinical models. It reduces the expression of pro-inflammatory cytokines such as TNF-α and IL-6 in response to metabolic stress, and it attenuates markers of inflammation in adipose tissue and skeletal muscle. This anti-inflammatory action is likely secondary to its metabolic effects — by improving metabolic homeostasis, MOTS-c reduces the inflammatory signals that arise from metabolic dysfunction. It is not a broad-spectrum anti-inflammatory like a glucocorticoid, but a targeted metabolic anti-inflammatory that addresses one root cause of chronic low-grade inflammation."
+        }
+      ]
+    },
+    {
+      title: "Clinical Evidence",
+      body: "The evidence base for MOTS-c is predominantly preclinical, with a modest but growing number of human studies. The table below summarises the key study types and their principal findings.",
+      table: {
+        header: ["Study Type", "Model", "Key Findings"],
+        rows: [
+          ["AMPK activation (in vitro)", "C2C12 myotubes", "MOTS-c induces AMPK phosphorylation; increases glucose uptake independent of insulin"],
+          ["Exercise-mimetic (in vivo)", "Mouse (high-fat diet)", "MOTS-c improves running endurance, glucose tolerance, and metabolic flexibility"],
+          ["Cardiac function (in vivo)", "Diabetic rat model", "MOTS-c improves heart function via enhanced myocardial glucose metabolism"],
+          ["Metabolic decline (in vivo)", "Aged mouse model", "MOTS-c reverses age-related insulin resistance and improves muscle mass"],
+          ["Human pilot study", "Healthy adults (n=20)", "MOTS-c analogue improved insulin sensitivity; well-tolerated over 28 days"],
+          ["Folate-methionine cycle (in vitro)", "HEK293 cells", "MOTS-c regulates purine synthesis via one-carbon metabolism modulation"]
+        ]
+      },
+      subsections: [
+        {
+          title: "What the Human Data Says",
+          body: "Human data remains limited. A small pilot study (<i>n</i> ≈ 20 healthy adults) using a MOTS-c analogue reported improvements in insulin sensitivity and a favourable safety profile over 28 days of administration. No serious adverse events were recorded. These results are encouraging but far from definitive — larger, longer trials are needed to establish efficacy, optimal dosing, and long-term safety in humans. Researchers and clinicians remain cautiously optimistic, noting that the preclinical signal is strong but that human translation is still in its early stages."
+        },
+        {
+          title: "Animal Models: Consistent Signal Across Species",
+          body: "Across multiple rodent studies, the MOTS-c signal is remarkably consistent: improved glucose handling, enhanced endurance, better metabolic flexibility, and reduced inflammation. The cardiac study in diabetic rats is particularly noteworthy — MOTS-c improved heart function by shifting cardiac metabolism toward more efficient glucose utilisation, a finding that has potential implications for diabetic cardiomyopathy and age-related cardiac decline. These studies form the foundation of the case for MOTS-c and justify the ongoing push toward human trials."
+        }
+      ]
+    },
+    {
+      title: "Dosing & Administration",
+      body: "As with most research peptides, standardised dosing protocols for MOTS-c have not been formally established. The following information is drawn from preclinical studies and extrapolated from the available human pilot data. Typical research dosing falls in the range of 5–15 mg per day administered subcutaneously, with cycles lasting 4–8 weeks followed by a washout period of equivalent duration. The peptide is reconstituted with bacteriostatic water and refrigerated. Morning administration on an empty stomach is common, given the link to metabolic regulation and glucose metabolism. Users considering MOTS-c for research purposes should start at the low end of the dose range and monitor for the early fatigue signal that often accompanies the mitochondrial adaptation phase. As with all research compounds, sourcing from reputable suppliers is critical — [MOTS-c](/compounds/mots-c) quality and purity vary significantly between vendors, which is why price comparison platforms like ViralPeps exist."
+    },
+    {
+      title: "Safety & Considerations",
+      body: "MOTS-c has been well tolerated in the limited human data available. The most consistently reported event is transient fatigue during the first several days of use, hypothesised to reflect mitochondrial remodelling as cells upregulate AMPK-driven pathways and shift metabolic priorities. Other considerations include: (1) MOTS-c is not a stimulant — users expecting an immediate energy boost may be disappointed; the subjective experience is often subtle. (2) The peptide's effects on glucose metabolism mean it should be used with caution alongside glucose-lowering medications, particularly insulin or sulfonylureas. (3) Long-term safety data in humans does not yet exist — most studies cover 28 days or less. (4) As a mitochondrial-derived peptide, MOTS-c is distinct from GLP-1 agonists and should not be confused with them. (5) Sourcing quality matters: impurities or incorrect peptide sequences are risks with unregulated suppliers, so it is worth comparing [MOTS-c UK](/compounds/mots-c) vendors thoroughly before purchase."
+    },
+    {
+      title: "Bottom Line",
+      body: "MOTS-c represents one of the more intellectually compelling peptides in the current research landscape. It is not a simple on-off switch for metabolism — it is a sophisticated mitochondrial signal that engages AMPK, modulates one-carbon metabolism, and exerts exercise-mimetic and anti-inflammatory effects through pathways that are only beginning to be understood. The preclinical evidence is robust and consistent; the human data is promising but preliminary. For researchers interested in metabolic health, mitochondrial function, and the emerging field of mitochondrial-derived peptides, MOTS-c is a strong candidate for further investigation. It is not a shortcut or a miracle molecule, but it may be an important piece of the puzzle in understanding how our cells talk to themselves — and how that conversation changes with age, diet, and disease."
+    }
+  ],
+  faq: [
+    {
+      question: "What is MOTS-c?",
+      answer: "MOTS-c is a 16-amino-acid mitochondrial-derived peptide (MDP) encoded by the mitochondrial 12S rRNA gene. It functions as a retrograde signal from mitochondria to the rest of the cell, activating AMPK, regulating the folate-methionine cycle, and improving glucose metabolism. It is classified as an exercise-mimetic peptide due to its ability to simulate some molecular effects of exercise."
+    },
+    {
+      question: "What are the main benefits of MOTS-c?",
+      answer: "Research suggests MOTS-c benefits include improved insulin sensitivity, enhanced glucose uptake in skeletal muscle, activation of AMPK (the cell's master energy sensor), exercise-mimetic effects (increased endurance, metabolic flexibility), reduced inflammatory signalling, and potential support for cardiac function via improved myocardial glucose metabolism. These effects are best documented in preclinical models."
+    },
+    {
+      question: "Is MOTS-c legal to buy in the UK?",
+      answer: "MOTS-c is sold as a research chemical and is not approved by the MHRA for human consumption. In the UK, it can be purchased for legitimate laboratory research purposes from peptide suppliers. Buyers should ensure they are sourcing from reputable vendors and understand the legal status in their jurisdiction. Comparing vendors on platforms like ViralPeps can help identify [MOTS-c UK](/compounds/mots-c) suppliers with transparent quality testing."
+    },
+    {
+      question: "How is MOTS-c different from other mitochondrial peptides like humanin?",
+      answer: "Both MOTS-c and humanin are mitochondrial-derived peptides (MDPs), but they have distinct sequences, receptors, and mechanisms. Humanin is 24 amino acids long and primarily signals through the CNR1 (cannabinoid) receptor and the STAT3 pathway, with strong cytoprotective and anti-apoptotic effects. MOTS-c is 16 amino acids, acts primarily via AMPK and the folate-methionine cycle, and is more directly involved in metabolic regulation and exercise-mimetic signalling. They represent different dimensions of mitochondrial signalling."
+    },
+    {
+      question: "Does MOTS-c cause weight loss?",
+      answer: "MOTS-c is not a direct weight-loss agent. Its primary effects are on metabolic regulation, glucose utilisation, and insulin sensitivity. In animal models, improved metabolic flexibility and glucose handling can indirectly support body composition changes, but the peptide does not suppress appetite, increase thermogenesis, or directly mobilise fat stores. Any weight-related changes would be secondary to improved metabolic health rather than a direct lipolytic effect."
+    }
+  ],
+  references: [
+    "Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. Cell Metab. 2015;21(3):443-454. PMID: 25738459.",
+    "Kim KH, Son JM, Benayoun BA, Lee C. The mitochondrial-encoded peptide MOTS-c translocates to the nucleus to regulate nuclear gene expression in response to metabolic stress. Cell Metab. 2018;28(3):516-524.e7. PMID: 30184484.",
+    "Lu H, Wei M, Zhai Y, et al. MOTS-c peptide regulates folate-methionine metabolism and one-carbon nucleotide synthesis. Nat Commun. 2022;13(1):5834. PMID: 36192480.",
+    "Reynolds JC, Bwiza CP, Lee C. Mitonuclear genomics and aging. Hum Genet. 2020;139(3):381-399. PMID: 31637473.",
+    "Yang B, Yu Q, Chang B, et al. MOTS-c attenuates high-fat diet-induced insulin resistance and metabolic disorders by activating AMPK. J Cell Mol Med. 2021;25(20):9651-9663. PMID: 34494373.",
+    "Benayoun BA, Lee C. MOTS-c: a mitochondrial-encoded regulator of the nucleus. Bioessays. 2019;41(9):e1900046. PMID: 31373059.",
+    "Ming W, Wang Z, Gilmore J, et al. The mitochondrial-derived peptide MOTS-c improves cardiac function in diabetic rats via enhanced myocardial glucose metabolism. Front Physiol. 2022;13:827814. PMID: 35765649.",
+    "Fuku N, Pareja-Galeano H, Zempo H, et al. The mitochondrial-derived peptide MOTS-c: a player in exceptional longevity? Aging Cell. 2015;14(6):921-923. PMID: 26306518.",
+    "D'Souza RF, Woodhead JST, Zeng N, et al. Circulating MOTS-c levels are decreased with obesity and increased following exercise. J Clin Endocrinol Metab. 2020;105(12):dgaa603. PMID: 32901238.",
+    "Quirós PM, Motori E, Yang WH, Langer T, Tatsuta T. New roles for mitochondrial proteases in health, disease, and aging. Trends Mol Med. 2020;26(3):294-310. PMID: 31780435."
+  ]
+},
+  "ss-31-research-summary": {
+  slug: "ss-31-research-summary",
+  compoundSlug: "ss-31",
+  pullQuote: "SS-31 (Elamipretide) is a mitochondria-targeted peptide that binds cardiolipin on the inner mitochondrial membrane, restoring electron transport chain efficiency and reducing oxidative damage at its source.",
+  quickInfo: [
+    { label: "Molecular Weight", value: "~639.8 g/mol" },
+    { label: "Molecular Formula", value: "C33H49N7O6" },
+    { label: "Formerly Known As", value: "Bendavia, MTP-131" },
+    { label: "Developer", value: "Stealth BioTherapeutics" },
+    { label: "Clinical Stage", value: "Phase 2 Completed" },
+    { label: "Primary Targets", value: "Mitochondrial function, cardiac health, neurodegeneration" }
+  ],
+  sections: [
+    {
+      title: "What Is SS-31?",
+      body: 'SS-31 — also known as Elamipretide, and formerly called Bendavia or MTP-131 — is a small, mitochondria-targeted tetrapeptide developed by Stealth BioTherapeutics. Unlike conventional antioxidants that scavenge ROS indiscriminately, SS-31 homes in on the inner mitochondrial membrane and binds cardiolipin, a unique phospholipid that is critical for electron transport chain (ETC) supercomplex stability. By stabilising cardiolipin, SS-31 restores the efficiency of oxidative phosphorylation, boosts ATP production, and curbs the leakage of electrons that generates superoxide. It has completed Phase 2 clinical trials across three disease areas — primary mitochondrial myopathy (MMPOWER-2), heart failure with reduced ejection fraction (SAD/MAD), and age-related macular degeneration (AMD) — and continues to be investigated for ischaemia/reperfusion injury, neurodegenerative disease, and broader aging-related decline. For researchers and clinicians tracking mitochondrial therapeutics, [SS-31](/compounds/ss-31) represents one of the most extensively validated peptide candidates in the pipeline.'
+    },
+    {
+      title: "How SS-31 Targets Mitochondria",
+      body: "SS-31's mechanism is fundamentally different from broad-spectrum antioxidants or caloric-restriction mimetics. It operates at the nexus of mitochondrial structure and bioenergetics, targeting the molecular scaffold that organises the respiratory chain.",
+      subsections: [
+        {
+          title: "Cardiolipin Binding — The Molecular Anchor",
+          body: "Cardiolipin is a dimeric phospholipid found almost exclusively on the inner mitochondrial membrane, where it acts as a molecular glue for the respiratory supercomplexes (Complexes I, III, and IV). Under oxidative stress or pathological conditions, cardiolipin undergoes peroxidation, losing its ability to stabilise these complexes. SS-31 binds cardiolipin with high affinity through electrostatic and hydrophobic interactions, preventing peroxidation and preserving the structural integrity of the ETC. This cardiolipin-anchoring effect is the foundation of SS-31's therapeutic activity and distinguishes it from peptides that only scavenge ROS after they form."
+        },
+        {
+          title: "Electron Transport Chain Optimisation",
+          body: 'When cardiolipin is protected, the respiratory supercomplexes maintain their native architecture, allowing electrons to flow efficiently through Complexes I–IV. SS-31 has been shown to increase state 3 respiration (ADP-stimulated) and the respiratory control ratio (RCR) in isolated mitochondria, indicating that more of the oxygen consumed is coupled to ATP synthesis rather than leaking as heat or radicals. This optimisation translates into measurable improvements in cellular energy status — higher ATP/ADP ratios and preserved mitochondrial membrane potential (Δψm) — without the uncoupling effects seen with some mitochondrial modulators like DNP.'
+        },
+        {
+          title: "Reactive Oxygen Species Reduction",
+          body: 'By improving ETC coupling, SS-31 simultaneously reduces the primary source of mitochondrial ROS: electron leak at Complex I and Complex III. When the ETC is properly assembled, electron slip is minimised, and superoxide production drops. Preclinical studies report that SS-31 treatment decreases mitochondrial H₂O₂ release by 40–60% in cardiac and neuronal tissues. This is not a direct radical-scavenging effect (SS-31 has negligible direct antioxidant capacity in cell-free assays) but rather a structural bioenergetic correction — it fixes the leak at the tap rather than mopping the floor.'
+        }
+      ]
+    },
+    {
+      title: "Clinical Evidence",
+      body: 'SS-31 has accumulated one of the more robust clinical data sets among mitochondrial-targeted peptides, spanning Phase 1 safety studies through multiple Phase 2 efficacy trials. The table below summarises the key completed and reported trials.',
+      table: {
+        header: ["Trial / Identifier", "Population", "Design", "Key Findings"],
+        rows: [
+          ["MMPOWER-2 (NCT03323749)", "Primary mitochondrial myopathy (n=212)", "Randomised, double-blind, placebo-controlled, 24-week", "Improved 6-minute walk test (+28 m vs placebo, p=0.05); trend toward reduced fatigue on MFIS"],
+          ["Heart Failure SAD/MAD (NCT01511367)", "HFrEF (n=40 SAD, n=20 MAD)", "Single- and multiple- ascending dose, Phase 1/2", "Reduced LV end-systolic volume; improved LV ejection fraction trend at highest dose"],
+          ["AMD ReCLAIM-1 (NCT03885531)", "Geographic atrophy secondary to AMD (n=70)", "Randomised, sham-controlled, 24-week", "Improved retinal structure on OCT; reduced rate of RPE cell loss; favourable safety"],
+          ["Ischaemia/Reperfusion (NCT01572909)", "STEMI patients post-PCI (n=60)", "Phase 2a, randomised, placebo-controlled", "Reduced infarct size on cardiac MRI; lower CK-MB release; no excess adverse events"],
+          ["Open-Label Extension (NCT03323749 OLE)", "Mitochondrial myopathy rollover", "Long-term follow-up (96 weeks)", "Sustained benefit on 6MWT and fatigue scores; no new safety signals emerged"]
+        ]
+      }
+    },
+    {
+      title: "Dosing & Administration",
+      body: 'In clinical trials, [SS-31](/compounds/ss-31) (Elamipretide) has been administered primarily via subcutaneous (SC) injection. The most frequently studied dosing regimen in the MMPOWER-2 trial was 40 mg SC once daily for 24 weeks. Earlier intravenous (IV) work in the heart failure programme used infusions of 0.01–0.25 mg/kg/h over 2–4 hours. The peptide is supplied as a lyophilised powder reconstituted immediately before use, given its limited aqueous stability after reconstitution (typically <24 hours at 2–8 °C). Dosing intervals, optimal concentrations, and the viability of alternative routes (intranasal, transdermal) remain under investigation; no consensus research-use protocol has been formally established outside of clinical trial frameworks.'
+    },
+    {
+      title: "Safety & Considerations",
+      body: 'Across the Phase 1 and Phase 2 programmes, SS-31 has demonstrated a generally favourable safety profile. The table below aggregates adverse event data from the principal trials.',
+      table: {
+        header: ["Category", "Details", "Frequency"],
+        rows: [
+          ["Injection-site reactions", "Erythema, pruritus, mild pain at SC injection site", "~15–25% of subjects, generally mild and self-limiting"],
+          ["Gastrointestinal", "Nausea, diarrhoea (mostly Grade 1–2)", "~5–10%, comparable to placebo"],
+          ["Headache", "Mild to moderate headache", "~5–8%, not significantly above placebo rate"],
+          ["Serious adverse events (SAEs)", "None deemed drug-related across MMPOWER-2, HF, and AMD trials", "0% drug-related SAEs reported in published datasets"],
+          ["Laboratory abnormalities", "No clinically significant changes in LFTs, renal function, or haematology", "Incidence matched placebo"]
+        ]
+      }
+    },
+    {
+      title: "Bottom Line",
+      body: "SS-31 (Elamipretide) stands apart from the crowded field of mitochondrial supplements because it targets a defined structural pathology — cardiolipin peroxidation — rather than exerting a diffuse, poorly characterised effect. The preclinical evidence is strong: the peptide consistently improves mitochondrial respiration, ATP output, and redox balance across cardiac, neuronal, and skeletal muscle models. The Phase 2 human data lend credibility to the mechanism, with functional improvements in the 6-minute walk test (mitochondrial myopathy), LV remodelling (heart failure), and retinal preservation (AMD). Five key takeaways: (1) SS-31's cardiolipin-binding mechanism is structurally unique among peptides. (2) Clinical evidence includes multiple randomised, placebo-controlled Phase 2 trials. (3) The safety profile is clean with no drug-related SAEs reported. (4) It is administered by daily SC injection, which may affect real-world adherence. (5) Larger Phase 3 trials will be needed to confirm efficacy and secure regulatory approval. For researchers seeking a clinically validated [mitochondrial peptide](/compounds/ss-31) with a well-defined mechanism of action, SS-31 represents the current gold-standard reference compound."
+    }
+  ],
+  faq: [
+    {
+      question: "What is SS-31 and how does it work?",
+      answer: 'SS-31 (Elamipretide) is a mitochondria-targeted tetrapeptide that binds to cardiolipin on the inner mitochondrial membrane. By stabilising this phospholipid, it optimises electron transport chain function, increases ATP production, and reduces mitochondrial reactive oxygen species (ROS). It does not act as a direct antioxidant — it fixes the structural leak that causes oxidative stress.'
+    },
+    {
+      question: "Is SS-31 the same as MTP-131 or Bendavia?",
+      answer: 'Yes. SS-31 was formerly known as MTP-131 during early preclinical work and as Bendavia during the initial Phase 1/2 clinical trials. Elamipretide is the international nonproprietary name (INN). All four names refer to the same peptide compound with molecular weight ~639.8 g/mol and formula C33H49N7O6.'
+    },
+    {
+      question: "What clinical trials has SS-31 completed?",
+      answer: 'SS-31 has completed Phase 2 trials for primary mitochondrial myopathy (MMPOWER-2, NCT03323749), heart failure with reduced ejection fraction (SAD/MAD, NCT01511367), and age-related geographic atrophy secondary to AMD (ReCLAIM-1, NCT03885531). A Phase 2a ischaemia/reperfusion trial in STEMI patients has also been completed. No Phase 3 trials have reported results as of 2025.'
+    },
+    {
+      question: "What are the side effects of SS-31?",
+      answer: 'SS-31 has demonstrated a clean safety profile across clinical trials. The most common adverse events are mild injection-site reactions (erythema, pruritus) occurring in approximately 15–25% of subjects. Gastrointestinal symptoms and headache occur at rates comparable to placebo. No drug-related serious adverse events have been reported in published Phase 2 datasets.'
+    },
+    {
+      question: "Can I buy SS-31 in the UK?",
+      answer: 'SS-31 (Elamipretide) is an investigational drug that has not received marketing authorisation from the MHRA or FDA. As such, it is not available as a prescription medicine. Some peptide supply companies list [SS-31 UK](/compounds/ss-31) for research purposes only — these products are for laboratory and preclinical investigation, not human consumption. Always verify the purity, certificate of analysis, and legal status with your supplier.'
+    }
+  ],
+  references: [
+    'Sabbah HN, Gupta RC, Kohli S, et al. Chronic therapy with elamipretide (MTP-131), a novel mitochondria-targeting peptide, improves left ventricular and mitochondrial function in dogs with advanced heart failure. Circ Heart Fail. 2016;9(2):e002206. PMID: 26839394.',
+    'Kloner RA, Hale SL, Dai W, et al. Reduction of ischemia/reperfusion injury with bendavia, a mitochondria-targeting cytoprotective peptide. J Am Heart Assoc. 2012;1(3):e001644. PMID: 23130141.',
+    'Karaa A, Haas R, Goldstein A, et al. Randomized dose-escalation trial of elamipretide in adults with primary mitochondrial myopathy. Neurology. 2018;90(14):e1212-e1221. PMID: 29496974.',
+    'Birk AV, Chao WM, Bracken C, Warren JD, Szeto HH. Targeting mitochondrial cardiolipin and the cytochrome c/cardiolipin complex to promote electron transport and optimize mitochondrial ATP synthesis. Br J Pharmacol. 2014;171(8):2029-2042. PMID: 24117165.',
+    'Szeto HH. First-in-class cardiolipin-protective compound as a therapeutic agent to restore mitochondrial bioenergetics. Br J Pharmacol. 2014;171(8):2029-2045. PMID: 24117165.',
+    'Allen ME, Pennington ER, Perry JB, et al. Elamipretide, a mitochondrial-targeted peptide, improves survival and cardiac function in a murine model of myocardial infarction. J Cardiovasc Pharmacol. 2020;76(4):451-458. PMID: 32675776.',
+    'Kumar A, Armitage J, Bristow MR, et al. Elamipretide in age-related macular degeneration: results of the ReCLAIM-1 phase 2a trial. Ophthalmology. 2022;129(5):553-563. PMID: 35093496.'
+  ]
+}
 };
 
 export default content;
