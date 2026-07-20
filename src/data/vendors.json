@@ -1124,5 +1124,33 @@
     ],
     "lastTested": "2026-07-19",
     "labTested": true
+  },
+  {
+    "id": "bio-peptides-uk",
+    "name": "Bio Peptides UK",
+    "slug": "bio-peptides-uk",
+    "website": "https://biopeptides-uk.com",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "UK-based supplier of high-purity research peptides for laboratory and scientific research purposes. All products batch-tested with Certificates of Analysis available upon request. Synthesised to high analytical purity, next-day UK shipping available (orders before 2pm), and multiple payment options accepted.",
+    "highlights": [
+      "49 products in catalog",
+      "Lab tested (Analiza Bialek)",
+      "Free UK delivery",
+      "HPLC purity >99%",
+      "COAs available per batch",
+      "Registered UK company (Bio Peptides UK Ltd #16859103)"
+    ],
+    "shipping": [
+      "UK (free, next day for orders before 2pm)",
+      "International"
+    ],
+    "payment": [
+      "Bank transfer"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
