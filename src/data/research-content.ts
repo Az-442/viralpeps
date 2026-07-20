@@ -3634,6 +3634,636 @@ const content: Record<string, ResearchPageContent> = {
     'Kumar A, Armitage J, Bristow MR, et al. Elamipretide in age-related macular degeneration: results of the ReCLAIM-1 phase 2a trial. Ophthalmology. 2022;129(5):553-563. PMID: 35093496.'
   ]
 }
+,
+  "pt141-vs-melanotan2": {
+  slug: "pt141-vs-melanotan2",
+  compoundSlug: "pt-141",
+  pullQuote: "A single amino acid difference separates a drug from a research compound — and the entire melanocortin field hangs in the balance.",
+  quickInfo: [
+    { label: "Article Type", value: "Comparison" },
+    { label: "Compounds", value: "PT-141 (Bremelanotide) vs Melanotan II (MT-II)" },
+    { label: "Primary Difference", value: "PT-141 selectively targets MC3R/MC4R; MT-II activates all melanocortin receptors" },
+    { label: "FDA Status", value: "PT-141: Approved (Vyleesi, 2019); MT-II: Not approved" },
+    { label: "Read Time", value: "12 min" },
+  ],
+  sections: [
+    {
+      title: "The Shared Origin Story",
+      body: "PT-141 and Melanotan II are not rivals. They are siblings — and PT-141 is the younger sibling that learned from its older brother's mistakes.\n\nMelanotan II was discovered first, synthesised as a superpotent cyclic analog of α-melanocyte-stimulating hormone (α-MSH) designed to trigger melanogenesis (tanning) without UV exposure. It worked — but it was a shotgun, not a scalpel. It activated every melanocortin receptor it touched: MC1R (pigmentation), MC3R (energy homeostasis), MC4R (appetite and sexual function), and MC5R (exocrine function). That broad activity gave it a diverse range of effects but an equally broad side effect burden.\n\n[**Compare PT-141 prices from UK suppliers →**](/compounds/pt-141)",
+    },
+    {
+      title: "Why PT-141 Split Off",
+      body: "The key insight that led to PT-141 was pharmacological refinement. During early MT-II trials, researchers noticed a peculiar side effect: male subjects developed spontaneous erections. This was not the intended endpoint (tanning was), but it pointed toward a separate therapeutic opportunity.\n\nThe solution was to engineer a version that preserved MC3R/MC4R activation (sexual function) while dramatically reducing MC1R activation (pigmentation). The structural change was minimal — deamidation of the C-terminus — but the pharmacological effect was transformative. PT-141 became the first melanocortin agonist designed specifically for central sexual function, not skin colour.",
+      table: {
+        header: ["Property", "PT-141 (Bremelanotide)", "Melanotan II (MT-II)"],
+        rows: [
+          ["Classification", "MC3R/MC4R selective", "Non-selective (MC1R-5R)"],
+          ["Molecular Weight", "1,025.18 g/mol", "1,024.18 g/mol"],
+          ["Half-Life", "~2.5 hours", "~1 hour"],
+          ["Primary Target", "Sexual desire / arousal", "Pigmentation + sexual function"],
+          ["FDA Status", "Approved (Vyleesi, 2019)", "Not approved"],
+          ["Evidence Level", "Phase 3 (1,200+ subjects)", "Phase I/II (small trials)"],
+          ["Pigmentation", "Minimal to none", "Significant, within days"],
+          ["Mechanism", "Central (CNS)", "Central + peripheral"],
+        ],
+      },
+    },
+    {
+      title: "PT-141: The Selective Approach",
+      body: "PT-141's selectivity is both its greatest strength and its defining limitation.\n\nThe compound crosses the blood-brain barrier and binds MC4R in the medial preoptic area (MPOA) and paraventricular nucleus (PVN) of the hypothalamus. This triggers downstream dopaminergic signalling — essentially, it tells the brain's reward circuitry that sexual motivation is on the table. The oxytocin pathway is also activated, supporting arousal via spinal cord signalling.\n\nCritically, PT-141 achieves this without relying on nitric oxide or cGMP, which means it works in cases where PDE5 inhibitors (sildenafil, tadalafil) fail: diabetic neuropathy, post-prostatectomy nerve damage, and psychogenic HSDD.",
+      subsections: [
+        { title: "RECONNECT Phase 3 Data", body: "Two randomised, double-blind, placebo-controlled Phase 3 trials enrolled over 1,200 premenopausal women with HSDD. Both trials showed statistically significant improvement in desire scores (FSFI desire domain) and distress scores (FSDS-DAO). An open-label extension over 18 months demonstrated sustained efficacy without tachyphylaxis — meaning the drug did not lose effectiveness over time. Nausea was the most common side effect (~40% initially, declining to ~18% by month 12)." },
+        { title: "Erectile Dysfunction Research", body: "In a 2004 study by Diamond et al., intranasal bremelanotide in 20 men with mild-to-moderate ED produced clinically significant erectile responses — 67% achieved rigidity >60% at both tip and base for over 5 minutes. Notably, this included men with diabetes-related ED and post-prostatectomy patients who had previously failed sildenafil therapy." },
+      ],
+    },
+    {
+      title: "Melanotan II: The Broad-Spectrum Original",
+      body: "Melanotan II's non-selective receptor activity is a double-edged sword. On one hand, it produces a striking array of effects: skin tanning within days, increased libido, spontaneous erections, and appetite suppression. On the other hand, it is impossible to separate the desired effect from the side effects.\n\nThe pigmentation effect is the most visible. MC1R activation on epidermal melanocytes upregulates tyrosinase, shifting melanin production from pheomelanin (red/yellow) to eumelanin (brown/black) — and this occurs without any UV exposure. Existing moles may darken, and new naevi sometimes appear.\n\nThe sexual effects are mediated through the same MC3R/MC4R pathways as PT-141, which is no surprise given they share a core structure. But because MT-II also hits MC1R and MC5R, the side effect profile includes nausea, fatigue, spontaneous erections (not always desired), and potential long-term dermatologic risks that remain poorly characterised.",
+      subsections: [
+        { title: "Evidence Quality", body: "The evidence base for MT-II is significantly weaker than PT-141. No large Phase 3 trials exist. Most data comes from small Phase I/II studies, the largest being the 1996 Dorr et al. trial involving just 3 subjects. Development for tanning was abandoned because of the systemic side effect burden, and the compound was never pursued for FDA registration." },
+      ],
+    },
+    {
+      title: "Which One for Research?",
+      body: "The choice between PT-141 and Melanotan II depends entirely on the research question being asked.\n\nPT-141 is the appropriate choice for research into central sexual function, HSDD, and erectile dysfunction — it has the stronger evidence base, cleaner mechanism, and FDA approval as a benchmark reference. For studies requiring a selective MC3R/MC4R probe, PT-141 is the tool.\n\nMelanotan II is more appropriate for research into melanocortin receptor pharmacology generally — particularly studies that need to examine the interaction between MC1R, MC3R, and MC4R signalling simultaneously. Its non-selectivity is a limitation for targeted studies but can be an advantage for broad-spectrum receptor characterisation.",
+    },
+    {
+      title: "Safety and Side Effect Comparison",
+      body: "The side effect profiles of these two peptides overlap substantially, but differ in emphasis. Table below summarises the comparison:",
+      table: {
+        header: ["Side Effect", "PT-141", "Melanotan II"],
+        rows: [
+          ["Nausea", "~40% initial, declining to 18%", "Common, dose-dependent"],
+          ["Flushing", "~20%", "Common"],
+          ["Injection Site Reaction", "Common", "Common"],
+          ["Skin Pigmentation", "Minimal to none", "Pronounced within days"],
+          ["Mole Darkening / New Naevi", "Not reported", "Reported"],
+          ["Appetite Suppression", "Mild", "Moderate"],
+          ["Blood Pressure Elevation", "Mild, transient", "Limited data"],
+          ["Long-term Safety Data", "18-month extension available", "Not established"],
+        ],
+      },
+    },
+    {
+      title: "The Bottom Line",
+      body: "PT-141 and Melanotan II share a molecular blueprint, but their development paths could not be more different. PT-141 is the refined, selective, evidence-backed therapeutic candidate with FDA approval and comprehensive long-term data. Melanotan II is the broad-spectrum research tool that made PT-141 possible — powerful, unfiltered, and still carrying the side effect burden that prevented its own clinical advancement.\n\nFor researchers choosing between them: if your end point is central sexual function with clean receptor pharmacology, PT-141 is the clear choice. If your research needs to probe the full melanocortin system — pigmentation, appetite, and sexual function together — MT-II remains the only compound broad enough to do it.\n\n[**Compare prices for PT-141 and Melanotan II from UK suppliers →**](/compounds/pt-141)",
+    },
+  ],
+  faq: [
+    { question: "What is the main difference between PT-141 and Melanotan II?", answer: "The main difference is receptor selectivity. PT-141 is engineered to selectively target MC3R and MC4R (sexual function), while Melanotan II non-selectively activates all melanocortin receptor subtypes including MC1R (pigmentation), MC3R, MC4R, and MC5R." },
+    { question: "Is PT-141 FDA approved?", answer: "Yes. PT-141 (bremelanotide, brand name Vyleesi) was FDA-approved in June 2019 for hypoactive sexual desire disorder (HSDD) in premenopausal women. Melanotan II has not been approved by the FDA for any indication." },
+    { question: "Does PT-141 cause skin tanning like Melanotan II?", answer: "No. PT-141 was specifically engineered to avoid activating MC1R, the melanocortin receptor responsible for skin pigmentation. Unlike Melanotan II, PT-141 produces minimal to no skin darkening." },
+    { question: "Do both peptides cause nausea?", answer: "Yes, nausea is the most common side effect for both compounds. With PT-141, approximately 40% of users experience nausea initially, declining to about 18% after 12 months of use. Melanotan II nausea is also common and dose-dependent." },
+    { question: "Can PT-141 be used in patients who don't respond to Viagra?", answer: "Evidence suggests yes. PT-141 works through a completely different mechanism — central nervous system activation of melanocortin receptors — rather than peripheral vasodilation. Studies including Diamond et al. (2004) showed erectile responses in diabetes-related ED and post-prostatectomy patients who had previously failed sildenafil therapy." },
+  ],
+  references: [
+    "Kingsberg SA, et al. Bremelanotide for the treatment of hypoactive sexual desire disorder: two randomized Phase 3 trials. J Sex Med. 2019;16(9):1405-1416.",
+    "Clayton AH, et al. Long-term safety and efficacy of bremelanotide for HSDD: 18-month data. J Sex Med. 2022.",
+    "Diamond LE, et al. Double-blind, placebo-controlled evaluation of the safety, pharmacokinetic properties and pharmacodynamic effects of intranasal PT-141 in men. J Sex Med. 2004;1(2):203-212.",
+    "Dorr RT, et al. Phase I study of melanotan II in subjects with fair skin types. Melanoma Res. 1996;6(6):423-431.",
+    "Hadjipanayi D, et al. Melanocortin receptors: from signalling to therapeutic targeting. Br J Pharmacol. 2023.",
+    "Wessells H, et al. Melanocortin receptor agonists, penile erection, and sexual motivation. Int J Impot Res. 2000;12(Suppl 4):S74-S79.",
+  ],
+},
+
+  "aod9604-vs-tesamorelin": {
+  slug: "aod9604-vs-tesamorelin",
+  compoundSlug: "aod-9604",
+  pullQuote: "One works directly on the fat cell. The other rewires the hormonal signal. Same destination, completely different route.",
+  quickInfo: [
+    { "label": "Mechanism", "value": "Peripheral (ADRB3 lipolysis) vs Central (GHRH → GH → IGF-1)" },
+    { "label": "FDA Status", "value": "GRAS (food ingredient, 2014) vs FDA-approved (Egrifta, HIV lipodystrophy)" },
+    { "label": "Primary Target", "value": "Subcutaneous fat + cartilage repair vs Visceral fat + metabolic syndrome" },
+    { "label": "IGF-1 Impact", "value": "None — no hormonal cascade vs Elevates into upper-normal physiological range" },
+  ],
+  sections: [
+  {
+    "title": "Overview: Two Peptides, One Goal — Metabolic Fat Loss",
+    "body": "AOD-9604 and Tesamorelin sit at opposite ends of the metabolic peptide spectrum, yet both converge on a single clinical goal: reducing body fat through non-surgical, injectable peptide therapy. Understanding the difference matters because choosing the wrong compound means chasing the wrong fat compartment — or worse, exposing yourself to an unnecessary hormonal burden.\n\nIf you are deciding which to buy, the price difference can be significant. [**Compare AOD-9604 prices from UK suppliers →**](/compounds/aod-9604) or [**Compare Tesamorelin from UK suppliers →**](/compounds/tesamorelin) to see current pricing.",
+  },
+  {
+    "title": "How They Work: Peripheral vs Central Pathways",
+    "body": "The fundamental difference between these two peptides is where and how they act on the body. AOD-9604 is a peripheral agent that works directly on adipocytes (fat cells). Tesamorelin is a central agent that stimulates the pituitary gland to release more growth hormone, triggering a systemic hormonal cascade.\n\nAOD-9604 is a modified fragment of human growth hormone (amino acids 177–191) developed by Professor Frank Ng at Monash University. It includes an added tyrosine residue for stability. Its mechanism targets the ADRB3 (β-3 adrenergic) receptor on fat cells, stimulating lipolysis (fat breakdown) while simultaneously inhibiting lipogenesis (fat storage). This dual action is unique: most fat-loss agents work in only one direction.\n\nTesamorelin is a synthetic analogue of growth-hormone-releasing hormone (GHRH). It features a trans-3-hexenoic acid modification at the N-terminus that protects it from rapid degradation by the enzyme DPP-IV. It binds to the GHRH receptor on pituitary somatotroph cells, stimulating pulsatile endogenous GH release. This GH then travels to the liver and peripheral tissues to stimulate IGF-1 production, creating a broad metabolic effect that mirrors natural growth hormone physiology.\n\nTesamorelin is subject to somatostatin feedback, meaning the body's own regulatory mechanisms keep GH within physiological bounds. AOD-9604 has no such feedback loop — but because it does not enter the GH/IGF-1 axis, it does not need one.",
+    "table": {
+      "header": ["Feature", "AOD-9604", "Tesamorelin"],
+      "rows": [
+        ["Mechanism type", "Peripheral (direct on fat cells)", "Central (pituitary → GH axis)"],
+        ["Receptor target", "ADRB3 (β-3 adrenergic)", "GHRH receptor (pituitary)"],
+        ["IGF-1 impact", "None", "Elevates into upper-normal range"],
+        ["Glucose impact", "None reported", "Minimal at therapeutic doses"],
+        ["Feedback regulation", "Not applicable", "Somatostatin feedback intact"],
+        ["Origin", "Fragment of hGH (177–191)", "Synthetic GHRH analogue"],
+      ],
+    },
+  },
+  {
+    "title": "Fat Loss Profile: Subcutaneous vs Visceral",
+    "body": "The most clinically relevant distinction is which fat compartment each peptide targets.\n\nAOD-9604 primarily targets subcutaneous fat and general adiposity. In obese animal models, it produced a 50% reduction in weight gain over three weeks. Human data from Phase 2b trials indicates approximately 2–3 kg of fat loss over 12 weeks at 1 mg oral daily dosing. It is a general fat-loss agent with a preference for mobilising stored triglycerides from peripheral fat depots.\n\nTesamorelin, by contrast, is highly selective for visceral adipose tissue (VAT) — the dangerous fat that wraps around internal organs and is linked to metabolic syndrome, cardiovascular disease, and insulin resistance. Clinical trials consistently show a 15–20% reduction in visceral fat, with one of the key selling points being that it spares subcutaneous fat. This visceral selectivity makes Tesamorelin particularly valuable for patients with central obesity where the health risk from VAT is highest.\n\nHowever, Tesamorelin's effects are largely limited to the duration of use. Upon cessation, visceral fat tends to return, suggesting ongoing or cyclical therapy may be needed. AOD-9604's effects on fat mass are more modest but appear more durable.",
+    "table": {
+      "header": ["Parameter", "AOD-9604", "Tesamorelin"],
+      "rows": [
+        ["Primary fat target", "Subcutaneous / general adiposity", "Visceral adipose tissue (VAT)"],
+        ["Fat loss magnitude", "~2–3 kg over 12 weeks", "15–20% reduction in VAT"],
+        ["Subcutaneous fat sparing", "No — targets general fat", "Yes — selectively spares SC fat"],
+        ["Duration of effect", "Appears more durable", "Fat returns upon cessation"],
+        ["Clinical trial phase", "Phase 2b (completed)", "FDA-approved (Phase 3)"],
+      ],
+    },
+  },
+  {
+    "title": "Secondary Benefits: Beyond Fat Loss",
+    "body": "Both peptides offer benefits that extend beyond simple fat reduction, but in completely different areas.\n\nAOD-9604 has demonstrated significant chondroprotective properties. It stimulates proteoglycan synthesis, inhibits matrix metalloproteinase (MMP) activity, and increases collagen type II production while reducing MMP-1, MMP-3, and MMP-13 in vitro. This makes it a compound of interest for joint health and cartilage repair — a benefit no other metabolic peptide offers.\n\nTesamorelin's secondary effects are systemic and metabolic. Beyond fat loss, it has been studied for:",
+    "subsections": [
+      {
+        "title": "AOD-9604: Cartilage and Bone",
+        "body": "AOD-9604's ability to stimulate osteoblast differentiation and proteoglycan synthesis positions it uniquely among metabolic peptides. For users concerned about joint health alongside body composition — athletes, ageing individuals, or those with osteoarthritis — AOD-9604 offers a two-in-one profile that Tesamorelin cannot match.",
+      },
+      {
+        "title": "Tesamorelin: Cognitive and Hepatic Benefits",
+        "body": "Tesamorelin has shown promise in cognitive function, with the Baker et al. 2012 study demonstrating improved executive function in older adults. It also reduces hepatic fat content, making it a compound of interest for NAFLD and NASH. These systemic benefits stem from its restoration of the GH/IGF-1 axis to more youthful levels.",
+      },
+    ],
+  },
+  {
+    "title": "Safety Profile and Side Effects",
+    "body": "The safety profiles of these two peptides reflect their fundamentally different mechanisms.\n\nAOD-9604 is widely regarded as very well tolerated with few reported side effects. Because it does not enter the GH/IGF-1 axis, it carries none of the hormonal risks associated with growth hormone therapy — no acromegaly-like effects, no carpal tunnel concerns, no glucose dysregulation. It was granted FDA GRAS (Generally Recognised as Safe) status in 2014 as an anti-obesity food ingredient, a regulatory milestone that speaks to its benign profile.\n\nTesamorelin carries a more significant side-effect burden, consistent with its status as an FDA-approved prescription drug. The most common adverse effects include injection site reactions (erythema, pruritus, pain), arthralgias (joint pain), and peripheral oedema. Because it elevates IGF-1, there is a theoretical concern about neoplastic growth in susceptible individuals, though this has not been demonstrated in clinical trials. IGF-1 monitoring is recommended during extended use.",
+    "table": {
+      "header": ["Aspect", "AOD-9604", "Tesamorelin"],
+      "rows": [
+        ["FDA status", "GRAS (2014)", "Approved as Egrifta (HIV lipodystrophy)"],
+        ["Common side effects", "Very few reported", "Injection site reactions, joint pain"],
+        ["Hormonal impact", "None — no GH/IGF-1 axis", "Elevates IGF-1, GH-dependent"],
+        ["IGF-1 monitoring", "Not required", "Recommended during therapy"],
+        ["Glucose impact", "None", "Minimal at 2 mg dose"],
+        ["Overall risk", "Low — OTC-grade safety", "Moderate — prescription required"],
+      ],
+    },
+  },
+  {
+    "title": "Dosing Protocols and Cycle Length",
+    "body": "The dosing strategies for these two peptides reflect their different half-lives, mechanisms, and clinical origins.\n\nAOD-9604 is typically dosed at 250–500 mcg subcutaneously once daily, with cycles lasting 8–12 weeks. Some protocols use a split dose (morning and evening) for more sustained ADRB3 activation. Because it does not affect the GH axis, there is no physiological need for on/off cycling, though most users cycle to prevent tolerance.\n\nTesamorelin is initiated at 1 mg daily for the first week (a lead-in period), then increased to 2 mg daily subcutaneously. Evening administration is preferred because it aligns with the natural nocturnal GH pulse. Cycles are longer, typically 12–26 weeks. The FDA-approved dosing for HIV lipodystrophy is 2 mg SC once daily.\n\nImportant note: Tesamorelin should never be stacked with exogenous GH or other GHRH analogues without medical supervision, as this can push IGF-1 supraphysiological. AOD-9604 can be combined with other peptides more safely given its peripheral mechanism.",
+    "table": {
+      "header": ["Parameter", "AOD-9604", "Tesamorelin"],
+      "rows": [
+        ["Standard dose", "250–500 mcg SC daily", "1 mg (week 1), then 2 mg daily"],
+        ["Timing", "Any time (split dose optional)", "Evening (aligns with GH pulse)"],
+        ["Cycle length", "8–12 weeks", "12–26 weeks"],
+        ["Stacking safety", "High — peripheral only", "Caution — GH axis involvement"],
+        ["Monitoring", "None required", "IGF-1 recommended"],
+      ],
+    },
+  },
+  {
+    "title": "Which One Should You Choose?",
+    "body": "The choice between AOD-9604 and Tesamorelin depends entirely on your goals, risk tolerance, and specific metabolic profile.\n\nChoose AOD-9604 if:\n- You want a low-risk, non-hormonal fat-loss peptide\n- Your primary concern is general subcutaneous fat reduction\n- You also want joint protection or cartilage support\n- You are new to peptide therapy and want the safest starting point\n- You cannot or do not want to monitor IGF-1 or other hormone levels\n\nChoose Tesamorelin if:\n- Your primary concern is visceral (belly) fat\n- You have metabolic syndrome, elevated triglycerides, or NAFLD\n- You want cognitive benefits alongside fat loss\n- You are experienced with hormonal peptides and understand GH axis dynamics\n- You are willing to monitor IGF-1 levels during the cycle\n\nBoth peptides have their place in a well-designed metabolic protocol. AOD-9604 is the safer, more general option. Tesamorelin is the more targeted, more potent, but more systemically involved choice. For many users, a sequential approach — using AOD-9604 first to establish a baseline, then moving to Tesamorelin for visceral fat targeting — may yield the best overall results.",
+  },
+  ],
+  faq: [
+  {
+    "question": "Can I take AOD-9604 and Tesamorelin together?",
+    "answer": "There is no known contraindication to combining them, as they work through completely independent pathways (peripheral ADRB3 vs central GHRH). However, stacking them has not been studied in clinical trials. If combining, start each at the lowest effective dose and monitor for unexpected side effects. It is generally wiser to run them sequentially rather than simultaneously.",
+  },
+  {
+    "question": "Which peptide causes more water retention?",
+    "answer": "Tesamorelin is more likely to cause fluid retention and peripheral oedema, consistent with its activation of the GH/IGF-1 axis (GH is known to reduce sodium excretion). AOD-9604 does not cause water retention as it has no effect on the GH/IGF-1 axis or renal sodium handling.",
+  },
+  {
+    "question": "Do I need a prescription for AOD-9604 or Tesamorelin in the UK?",
+    "answer": "Tesamorelin is a FDA-approved prescription drug (Egrifta) and is classified as a prescription-only medicine in most jurisdictions. AOD-9604 has GRAS (Generally Recognised as Safe) status as a food ingredient in the US, but its regulatory status varies by country. In the UK, both are typically sold as research chemicals for laboratory use and are not licensed for human consumption. Always consult a qualified medical professional before use.",
+  },
+  {
+    "question": "How quickly will I see results?",
+    "answer": "AOD-9604 typically produces noticeable changes in body composition within 4–6 weeks, with full effects appreciable by week 12. Tesamorelin's visceral fat reduction is measurable via DEXA or CT scan at 12 weeks, though subjective changes in waist circumference may be noticeable earlier. Neither compound produces rapid, dramatic fat loss — both require consistent dosing and appropriate diet and exercise to maximise results.",
+  },
+  {
+    "question": "Which peptide has better long-term safety data?",
+    "answer": "AOD-9604 has the advantage of FDA GRAS status and a mechanism that avoids the GH/IGF-1 axis entirely, suggesting a very favourable long-term safety profile. Tesamorelin has more rigorous clinical trial data (Phase 3, FDA-approved) but over shorter durations (26–52 weeks in most studies). For long-term use beyond six months, AOD-9604's risk profile is theoretically superior.",
+  },
+  ],
+  references: [
+  "Ng, F. M. et al. (2000). AOD-9604, a C-terminal fragment of human growth hormone, inhibits body weight gain in obese animal models. Journal of Endocrinology, 167(3), 471–479.",
+  "Falutz, J. et al. (2007). Effects of tesamorelin, a growth hormone-releasing factor analogue, on visceral adipose tissue in HIV-infected patients with abdominal fat accumulation. AIDS, 21(17), 2337–2345.",
+  "Baker, L. D. et al. (2012). Effects of growth hormone-releasing hormone on cognitive function in older adults. Archives of Neurology, 69(3), 381–388.",
+  "Stanley, T. L. et al. (2014). Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial. JAMA, 312(4), 380–389.",
+  "He, M. L. et al. (2013). AOD-9604 promotes chondrogenesis and inhibits cartilage degradation in vitro. Osteoarthritis and Cartilage, 21(8), 1113–1121.",
+  "Wei, J. et al. (2014). Safety and efficacy of AOD-9604 in overweight and obese adults: a Phase 2b randomized controlled trial. Obesity Research & Clinical Practice, 8(1), e64–e72.",
+  ],
+},
+
+  "peptide-storage-guide": {
+  "slug": "peptide-storage-guide",
+  "pullQuote": "Correct storage is the single most important factor determining peptide stability and experimental reproducibility \u2014 a few degrees or a single freeze-thaw cycle can render months of work unusable.",
+  "quickInfo": [
+    {
+      "label": "Category",
+      "value": "Guide"
+    },
+    {
+      "label": "Read Time",
+      "value": "10 min"
+    },
+    {
+      "label": "Key Principle",
+      "value": "Cold, dry, dark, stable"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why Peptide Storage Matters",
+      "body": "Peptides are delicate molecular chains held together by amide bonds. Once synthesised, every peptide faces a slow but relentless assault from its environment. Three degradation pathways dominate:\n\nHydrolysis \u2014 water molecules attack peptide bonds, especially at elevated temperatures. Even in lyophilised (freeze-dried) form, residual moisture catalyses backbone cleavage, producing truncated fragments that skew research data.\n\nOxidation \u2014 sulphur-containing residues (methionine, cysteine) and aromatic rings (tryptophan, tyrosine) react with ambient oxygen. The result is a chemically altered peptide that may lose target affinity.\n\nDeamidation \u2014 asparagine and glutamine side-chains spontaneously hydrolyse to aspartate and glutamate. This subtle change alters net charge and can abolish receptor binding. Deamidation rates double for every 10\u00b0C rise in temperature.\n\nThese reactions are temperature-driven: each 10\u00b0C reduction roughly halves the degradation rate. This is why a disciplined cold chain is non-negotiable for reproducible research."
+    },
+    {
+      "title": "Storing Lyophilised Peptides",
+      "body": "Lyophilised (freeze-dried) peptides are the most stable physical form, but stability varies with sequence composition and storage conditions. Below is a summary of best-practice storage parameters.",
+      "table": {
+        "header": [
+          "Storage Method",
+          "Temperature",
+          "Maximum Duration",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Long-term freezer",
+            "-20\u00b0C",
+            "Several years",
+            "Preferred for all peptides; stability depends on sequence"
+          ],
+          [
+            "Ultra-low freezer",
+            "-80\u00b0C",
+            "Indefinite",
+            "For oxidation-prone residues (Met, Cys, Trp)"
+          ],
+          [
+            "Refrigerator (short-term)",
+            "2\u20138\u00b0C",
+            "4\u20136 weeks",
+            "Acceptable if reconstitution planned within weeks"
+          ],
+          [
+            "Room temperature (desiccated)",
+            "15\u201325\u00b0C",
+            "Days to weeks",
+            "NOT recommended for long-term; desiccator essential"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "title": "Light Sensitivity",
+          "body": "Many peptides contain photo-reactive residues (Trp, Tyr, Phe) that degrade under fluorescent or sunlight exposure. Store lyophilised vials in opaque boxes or wrap in aluminium foil. Amber glass vials offer partial protection but should still be kept in a dark cabinet."
+        },
+        {
+          "title": "Moisture Control",
+          "body": "Residual moisture is the enemy of dry peptide stability. Always allow vials to reach room temperature before opening to prevent condensation. For peptides stored longer than six months, transfer to a sealed desiccator with colour-indicating silica gel."
+        }
+      ]
+    },
+    {
+      "title": "Storing Reconstituted Peptides",
+      "body": "Once a peptide is dissolved, degradation accelerates dramatically. The reconstitution solvent and storage temperature determine usable shelf life.",
+      "table": {
+        "header": [
+          "Condition",
+          "Temperature",
+          "Shelf Life",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Bacteriostatic water (0.9% benzyl alcohol)",
+            "2\u20138\u00b0C",
+            "4\u20136 weeks",
+            "Antimicrobial protection; suitable for multi-dose vials"
+          ],
+          [
+            "Sterile water (single-use only)",
+            "2\u20138\u00b0C",
+            "24\u201348 hours",
+            "No preservative; discard unused portion immediately"
+          ],
+          [
+            "Aliquoted and frozen",
+            "-20\u00b0C",
+            "3\u20136 months",
+            "Avoid repeated freeze-thaw cycles; label each aliquot"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "title": "Aliquoting Strategy",
+          "body": "Always aliquot reconstituted peptides before freezing. Divide into single-use volumes (10\u201350 \u00b5L per tube) so each thaw provides exactly one experiment's worth. Use low-protein-binding tubes and label every tube with peptide name, concentration, date, and batch number."
+        },
+        {
+          "title": "Freeze-Thaw Warnings",
+          "body": "Each freeze-thaw cycle damages tertiary structure and promotes aggregation. A single cycle can reduce bioactivity by 10\u201330% in some peptides. Never re-freeze a thawed aliquot; design your aliquoting scheme so each tube is discarded after one use."
+        }
+      ]
+    },
+    {
+      "title": "The Reconstitution Process",
+      "body": "Correct reconstitution technique preserves peptide integrity from the moment solvent meets powder.\n\nStep 1 \u2014 Equilibrate to room temperature. Remove the lyophilised vial from storage and let it sit for 15\u201320 minutes unopened. This prevents moisture condensation on the cold powder.\n\nStep 2 \u2014 Calculate the required volume of solvent based on peptide mass and desired concentration. Note that the stated weight includes counter-ions (usually TFA); actual peptide content is typically 70\u201385% of the labelled mass.\n\nStep 3 \u2014 Use bacteriostatic water (0.9% benzyl alcohol) for multi-dose experiments or sterile water for single-use. For hydrophobic peptides, start with a small volume of dilute acetic acid or DMSO before diluting to final volume.\n\nStep 4 \u2014 Direct the solvent stream against the inner vial wall, not directly onto the powder. Let it run down the glass to avoid violent aerosolisation that can denature the peptide.\n\nStep 5 \u2014 Gently swirl or roll the vial for 30\u201360 seconds. Do NOT vortex or shake vigorously \u2014 shear forces denature peptides and create aggregates.\n\nStep 6 \u2014 Inspect. The solution should be clear and colourless. Cloudiness, particles, or discolouration indicates aggregation or contamination.\n\nStep 7 \u2014 Immediately aliquot into single-use volumes using sterile technique. Wipe vial septa with an alcohol swab before each puncture."
+    },
+    {
+      "title": "Common Mistakes",
+      "body": "Even experienced researchers make storage errors. The most frequent pitfalls are described below.",
+      "subsections": [
+        {
+          "title": "Vigorous Shaking or Vortexing",
+          "body": "Shaking introduces mechanical shear that unfolds secondary structure and promotes aggregation. The foam that forms traps peptides at air-water interfaces where denaturation occurs within seconds. Always swirl gently or roll the vial."
+        },
+        {
+          "title": "Repeated Freeze-Thaw Cycles",
+          "body": "Each freeze-thaw cycle exposes the peptide to concentrated solute effects during ice crystal formation, leading to pH shifts and aggregation. Three cycles can reduce activity by over 50% in sensitive peptides. The only solution is proper aliquoting."
+        },
+        {
+          "title": "Exposure to Light",
+          "body": "Fluorescent laboratory lighting accelerates photo-degradation of Trp, Tyr, Phe, and Cys residues. A peptide left on a laboratory bench can lose measurable activity within hours. Store all peptides in opaque or light-resistant containers."
+        },
+        {
+          "title": "Confusing Bacteriostatic and Sterile Water",
+          "body": "Sterile water contains no preservative. Using it for a multi-dose vial creates contamination risk after the first puncture. Bacteriostatic water (0.9% benzyl alcohol) inhibits microbial growth and is suitable for repeated access over 4\u20136 weeks. Always confirm the solvent type before reconstitution."
+        }
+      ]
+    },
+    {
+      "title": "Quick Reference Table",
+      "body": "A one-page summary of recommended storage conditions at a glance.",
+      "table": {
+        "header": [
+          "Form",
+          "Storage",
+          "Temperature",
+          "Shelf Life",
+          "Key Warning"
+        ],
+        "rows": [
+          [
+            "Lyophilised (long-term)",
+            "Freezer, desiccator",
+            "-20\u00b0C",
+            "Several years",
+            "Keep desiccated; avoid moisture"
+          ],
+          [
+            "Lyophilised (short-term)",
+            "Refrigerator",
+            "2\u20138\u00b0C",
+            "4\u20136 weeks",
+            "Plan reconstitution window"
+          ],
+          [
+            "Reconstituted (bac water)",
+            "Refrigerator",
+            "2\u20138\u00b0C",
+            "4\u20136 weeks",
+            "Wipe septum before each use"
+          ],
+          [
+            "Reconstituted (sterile water)",
+            "Refrigerator",
+            "2\u20138\u00b0C",
+            "24\u201348 hours",
+            "Single-use; discard remainder"
+          ],
+          [
+            "Frozen aliquots",
+            "Freezer",
+            "-20\u00b0C",
+            "3\u20136 months",
+            "Never re-freeze after thaw"
+          ]
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I store lyophilised peptides at room temperature?",
+      "answer": "Dry peptides are stable at room temperature for days to weeks, but not for long-term storage. The degradation rate at 20\u201325\u00b0C is orders of magnitude higher than at -20\u00b0C. If you must store at room temperature, use a sealed desiccator and limit storage to two weeks maximum."
+    },
+    {
+      "question": "How do I know if my peptide has degraded?",
+      "answer": "The most obvious sign is a change in solution appearance \u2014 cloudiness, particles, discolouration, or a gel-like consistency all indicate degradation. For a quantitative check, run an HPLC trace against the original purity data; a shift in the main peak or new peaks indicates hydrolysis or oxidation."
+    },
+    {
+      "question": "Is -80\u00b0C storage necessary for all peptides?",
+      "answer": "No. While -80\u00b0C provides the longest stability, it is essential only for peptides with oxidation-prone residues (methionine, cysteine, tryptophan) or those stored beyond two years. For most research peptides used within 12\u201318 months, -20\u00b0C in a desiccator is adequate."
+    },
+    {
+      "question": "What is the best solvent for hydrophobic peptides?",
+      "answer": "Start with a small volume of a strong solvent such as dilute acetic acid (10\u201330% v/v), DMSO, or HFIP. Once fully dissolved, dilute to working concentration with water or buffer. Keep the final concentration of the strong solvent below 1\u20135% to avoid interfering with assays."
+    },
+    {
+      "question": "Can I use saline for reconstitution?",
+      "answer": "No. Saline without a preservative still supports microbial growth after the first vial puncture. Always use bacteriostatic water for multi-dose vials or sterile water for single-use applications. For cell culture work, use endotoxin-free water."
+    }
+  ],
+  "references": [
+    "Carpenter, J. F., & Crowe, J. H. (1989). An infrared spectroscopic study of the interactions of carbohydrates with dried proteins. Biochemistry, 28(9), 3916\u20133922.",
+    "Manning, M. C., Patel, K., & Borchardt, R. T. (1989). Stability of protein pharmaceuticals. Pharmaceutical Research, 6(11), 903\u2013918.",
+    "Cleland, J. L., & Langer, R. (1994). Formulation and delivery of proteins and peptides: design and development strategies. ACS Symposium Series, 567, 1\u201319.",
+    "Wang, W. (1999). Instability, stabilization, and formulation of liquid protein pharmaceuticals. International Journal of Pharmaceutics, 185(2), 129\u2013188.",
+    "Chi, E. Y., et al. (2003). Physical stability of proteins in aqueous solution. Pharmaceutical Research, 20(9), 1325\u20131336."
+  ]
+},
+
+  "choosing-a-uk-supplier": {
+  "slug": "choosing-a-uk-supplier",
+  "pullQuote": "In an unregulated market, a supplier's COA is your only guarantee \u2014 know what to look for before you buy.",
+  "quickInfo": [
+    {
+      "label": "Category",
+      "value": "Guide"
+    },
+    {
+      "label": "Read Time",
+      "value": "10 min"
+    },
+    {
+      "label": "Key Takeaway",
+      "value": "Always verify COAs and business registration before purchasing"
+    }
+  ],
+  "sections": [
+    {
+      "title": "The UK Peptide Landscape",
+      "body": "The UK peptide market is largely unregulated, creating a landscape where quality varies dramatically between suppliers. With over 100 suppliers competing for research customers, the difference between a reliable supplier and an unreliable one can mean the difference between reproducible, publishable data and wasted time and money.\n\nUnlike pharmaceuticals, which are subject to strict MHRA oversight, research peptides fall into a regulatory grey area. Suppliers operate with varying degrees of quality control, from facilities with rigorous in-house HPLC and mass spectrometry to operations that simply repackage imported raw materials with no independent verification.\n\nFor researchers \u2014 whether affiliated with a university, a private lab, or conducting independent work \u2014 understanding this landscape is the first step toward making informed procurement decisions."
+    },
+    {
+      "title": "What Makes a Supplier Trustworthy",
+      "body": "A trustworthy UK peptide supplier demonstrates transparency, quality assurance, and accountability across several dimensions. No single factor is determinative, but when multiple criteria are satisfied, confidence increases significantly.",
+      "subsections": [
+        {
+          "title": "Business Verification",
+          "body": "A legitimate supplier should be registered with Companies House and provide verifiable contact information: a UK phone number, a professional email address, and a registered business address. Check the company number on the Companies House register \u2014 this takes two minutes and immediately filters out unregistered operators."
+        },
+        {
+          "title": "Independent Reviews",
+          "body": "Testimonials on a supplier's own website are marketing, not evidence. Seek out independent reviews on forums, supplier profile pages, and third-party review platforms. Consistent positive feedback from real researchers carries far more weight than a hand-picked quote on a homepage."
+        },
+        {
+          "title": "Product Range as a Proxy for Maturity",
+          "body": "Suppliers offering 50+ compounds typically have stronger sourcing relationships, more established quality control infrastructure, and greater operational maturity. While a small-range supplier can still be excellent, a broad catalogue is often a useful shorthand for an established operation."
+        },
+        {
+          "title": "Consistent Quality Across Batches",
+          "body": "Reproducible research depends on consistent peptide quality. Established suppliers maintain consistent purity across batches, which is critical for long-term studies or experiments that span multiple orders. Batch-specific COAs are the only way to verify this consistency."
+        }
+      ]
+    },
+    {
+      "title": "Certificates of Analysis \u2014 The Gold Standard",
+      "body": "A Certificate of Analysis (COA) is the single most important document a peptide supplier can provide. Any supplier that cannot or will not provide a COA should be excluded from consideration immediately.",
+      "subsections": [
+        {
+          "title": "What to Look for in a COA",
+          "body": "A robust COA should include HPLC purity data showing 98%+ purity, confirmed by mass spectrometry (MS) to verify the molecular weight matches the target peptide. Both techniques are essential \u2014 HPLC alone can miss structurally similar impurities, while MS alone does not quantify purity. The COA should be batch-specific, dated, and include the batch number matching the product label."
+        },
+        {
+          "title": "Independent Third-Party Testing",
+          "body": "Some suppliers go further by submitting samples to independent laboratories for verification. This removes the conflict of interest inherent in self-reported testing. When a supplier provides both in-house COAs and independent lab reports, it is a strong signal of confidence in their quality control."
+        },
+        {
+          "title": "Red Flags in COAs",
+          "body": "Be wary of COAs that look generic, lack batch numbers, show suspiciously round purity percentages (e.g. exactly 99% every time), or are provided only on request with obvious reluctance. A supplier proud of their quality will display COAs prominently and make them easy to access."
+        }
+      ]
+    },
+    {
+      "title": "Price vs Quality",
+      "body": "UK peptide prices can vary by 50% or more for the same compound and dosage. For example, BPC-157 5mg typically ranges from \u00a315 to \u00a345 depending on the supplier. While it is tempting to choose the cheapest option, price alone is a poor indicator of value.\n\nPrices significantly below the market average are a red flag. Extremely low prices may indicate low-purity material, incorrect dosage, or repackaged product of unknown origin. Conversely, the most expensive option is not necessarily the best.\n\nViralPeps performs live daily price comparisons across UK suppliers, helping researchers identify where a given compound falls within the market range. Use price as one data point among many, not the deciding factor."
+    },
+    {
+      "title": "Payment, Shipping, and Customer Support",
+      "body": "Practical logistics matter when choosing a supplier. Reliable payment options include debit/credit cards, bank transfer, and cryptocurrency. While many legitimate UK suppliers accept crypto, a supplier that accepts only cryptocurrency should be treated with suspicion.",
+      "subsections": [
+        {
+          "title": "Shipping Considerations",
+          "body": "Most established UK suppliers offer next-day delivery. Check free shipping thresholds (typically \u00a350\u2013\u00a3100). Peptides are temperature-sensitive \u2014 verify that the supplier uses insulated packaging and ice packs. Discreet, plain packaging is standard, and tracked delivery is strongly advised."
+        },
+        {
+          "title": "Customer Support Quality",
+          "body": "Responsive customer support is a practical indicator of a well-run business. Test the supplier's responsiveness before ordering by sending a pre-sales question about COAs or storage requirements. A prompt, detailed reply suggests a supplier that takes customer relationships seriously."
+        },
+        {
+          "title": "Storage Communication",
+          "body": "Most peptides require refrigeration (2\u20138\u00b0C) or freezing (-20\u00b0C). Check whether the supplier clearly communicates storage requirements on the product page. A supplier that understands the product's stability profile is more likely to handle it correctly throughout the supply chain."
+        }
+      ]
+    },
+    {
+      "title": "Quick Reference Checklist",
+      "body": "Use this checklist when evaluating any UK peptide supplier. A supplier that fails on COA availability or business registration should be eliminated regardless of other factors.",
+      "table": {
+        "header": [
+          "Criterion",
+          "What to Check",
+          "Green Flag",
+          "Red Flag"
+        ],
+        "rows": [
+          [
+            "Business registration",
+            "Check Companies House",
+            "Registered company, verifiable address",
+            "No registration or unverifiable details"
+          ],
+          [
+            "Certificate of Analysis",
+            "Request batch-specific HPLC + MS",
+            "Freely available COA, 98%+ purity",
+            "No COA, refuses to provide, or generic"
+          ],
+          [
+            "Third-party testing",
+            "Independent lab reports",
+            "COA from recognised independent lab",
+            "Self-reported testing only"
+          ],
+          [
+            "Price positioning",
+            "Compare against market range",
+            "Within 20% of market average",
+            "Significantly below market average"
+          ],
+          [
+            "Payment options",
+            "Available methods",
+            "Card + bank transfer + optionally crypto",
+            "Crypto-only payment"
+          ],
+          [
+            "Contact info",
+            "Phone, email, address",
+            "UK phone, professional email",
+            "No clear contact information"
+          ],
+          [
+            "Product range",
+            "Count available compounds",
+            "50+ compounds",
+            "Very small range with no specialisation"
+          ],
+          [
+            "Shipping",
+            "Speed and packaging",
+            "Next-day, tracked, insulated",
+            "No tracking, no cold-chain packaging"
+          ],
+          [
+            "Reviews",
+            "Forums and review sites",
+            "Consistent positive researcher feedback",
+            "Only website testimonials, complaints"
+          ],
+          [
+            "Batch consistency",
+            "Compare COAs over time",
+            "Consistent 98%+ batch to batch",
+            "Wide variation in reported purity"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Bottom Line",
+      "body": "Choosing a UK peptide supplier requires due diligence, but the process is straightforward when you know what to look for. Start with the non-negotiables: verified business registration, readily available batch-specific COAs with HPLC and mass spectrometry data, and independent third-party testing. Then evaluate price, range, shipping, and reviews to narrow your choices.\n\nViralPeps simplifies this process by aggregating live pricing and supplier data in one place, so you can compare options without visiting dozens of individual websites. Bookmark this guide and refer back to it whenever you evaluate a new supplier."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are UK peptide suppliers regulated?",
+      "answer": "No \u2014 the UK peptide market is largely unregulated. Unlike pharmaceutical products, research peptides are not subject to MHRA oversight. This is why independent supplier verification is essential."
+    },
+    {
+      "question": "What purity should I expect from a reputable supplier?",
+      "answer": "98% or higher purity verified by HPLC is the industry standard for research peptides. Reputable suppliers consistently meet or exceed this and provide batch-specific COAs to prove it."
+    },
+    {
+      "question": "Is it safe to buy from the cheapest UK supplier?",
+      "answer": "Not necessarily. Prices 50% below market average are a red flag that may indicate low purity, incorrect dosage, or repackaged material. Use ViralPeps to compare prices and evaluate multiple factors before purchasing."
+    },
+    {
+      "question": "What payment methods should a legitimate supplier offer?",
+      "answer": "Legitimate suppliers typically offer debit/credit cards, bank transfer, and sometimes cryptocurrency. Crypto-only payment with no alternatives is a significant red flag."
+    },
+    {
+      "question": "How should peptides be shipped?",
+      "answer": "Peptides should be shipped with tracked, next-day delivery in insulated packaging with ice packs for temperature-sensitive compounds. Discreet, plain packaging is standard."
+    }
+  ],
+  "references": [
+    "Peptide Supermarket \u2014 Buy Peptides UK: Choosing a Supplier Guide",
+    "Companies House \u2014 UK Business Register Search",
+    "UK Research Peptide Supplier Review Forum (Reddit r/PeptidesUK)",
+    "British Pharmacological Society \u2014 Guidelines on Research Peptide Quality",
+    "ViralPeps \u2014 Live UK Peptide Price Comparisons"
+  ]
+}
+
 };
 
 export default content;
