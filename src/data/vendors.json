@@ -1152,5 +1152,35 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "chilton-labs",
+    "name": "Chilton Labs",
+    "slug": "chilton-labs",
+    "website": "https://chiltonlabs.co.uk",
+    "rating": 4.7,
+    "verified": true,
+    "founded": 2023,
+    "country": "UK",
+    "description": "UK supplier of research peptides committed to transparency, independent laboratory testing and consistent product quality. Every batch independently HPLC tested with published lab reports. Rated 4.7/5 from 42 Google reviews with fast UK dispatch and support via email, WhatsApp and Telegram.",
+    "highlights": [
+      "Independent HPLC testing",
+      "Published lab reports",
+      "4.7/5 Google rating — 42 reviews",
+      "UK stock & fast dispatch",
+      "WhatsApp & Telegram support",
+      "25% discount for Bitcoin/crypto payments"
+    ],
+    "shipping": [
+      "UK (fast dispatch from UK stock)",
+      "International available"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard)",
+      "Bitcoin/Crypto (25% discount)",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-07-19",
+    "labTested": true
   }
 ]
