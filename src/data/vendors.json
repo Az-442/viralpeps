@@ -1182,5 +1182,33 @@
     ],
     "lastTested": "2026-07-19",
     "labTested": true
+  },
+  {
+    "id": "lab77-peptides",
+    "name": "Lab77 Peptides",
+    "slug": "lab77-peptides",
+    "website": "https://lab77peptides.co.uk",
+    "rating": 4.7,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "London-based research peptide supplier with own-name Janoshik HPLC certificates on every batch. One of only 28 UK suppliers verified by The Peptide Watch. 44 compounds available in vial or pre-filled pen formats with same-day UK dispatch before 2pm. All batches independently tested to 99%+ purity with verification keys on every COA.",
+    "highlights": [
+      "Janoshik HPLC tested — own-name COA",
+      "The Peptide Watch verified",
+      "99%+ purity on every batch",
+      "44 compounds — vial & pen formats",
+      "Same-day dispatch (before 2pm)",
+      "London-based stock"
+    ],
+    "shipping": [
+      "UK (Royal Mail Tracked 24, same-day dispatch before 2pm Mon-Fri)"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard)",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-07-19",
+    "labTested": true
   }
 ]

@@ -6,7 +6,7 @@ type SizeVariant = "sm" | "md" | "lg";
 
 const SIZE_MAP: Record<SizeVariant, string> = {
   sm: "w-14 h-14",
-  md: "w-28 h-20 md:w-40 md:h-24",
+  md: "w-36 h-28 md:w-52 md:h-32",
   lg: "w-[72px] h-[72px]",
 };
 
@@ -53,7 +53,7 @@ export default function VendorLogo({
       src={src}
       alt={name}
       onError={onImgError}
-      className={`${sizeClass} object-contain`}
+      className={`${sizeClass} object-contain mx-auto`}
     />
   );
 }

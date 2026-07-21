@@ -167,7 +167,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
           <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 md:p-8 shadow-xl">
             <div className="flex flex-col md:flex-row items-start gap-6">
               {/* Supplier Logo - white rounded container */}
-              <div className="w-28 h-20 md:w-40 md:h-24 rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white shadow-lg px-3">
+              <div className="w-36 h-28 md:w-52 md:h-32 rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-white shadow-lg px-3">
                 <VendorLogo slug={vendor.slug} name={vendor.name} size="md" />
               </div>
 

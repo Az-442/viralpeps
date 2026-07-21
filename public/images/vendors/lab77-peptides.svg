@@ -1,0 +1,31 @@
+<svg width="56" height="60" viewBox="0 0 56 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Lab77 Peptides">
+<defs>
+<linearGradient id="l77Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#1e3a5f"/>
+<stop offset="50%" stop-color="#2d5a87"/>
+<stop offset="100%" stop-color="#3a7bd5"/>
+</linearGradient>
+<linearGradient id="l77Grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#1e3a5f"/>
+<stop offset="100%" stop-color="#3a7bd5"/>
+</linearGradient>
+</defs>
+<!-- DNA helix / peptide chain double helix -->
+<path d="M8 6 Q22 0 36 6 Q44 12 44 22 Q44 32 36 38 Q22 44 8 38 Q0 32 0 22 Q0 12 8 6Z" stroke="url(#l77Grad2)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M8 38 Q22 32 36 38 Q44 44 44 54 Q44 64 36 70 Q22 76 8 70 Q0 64 0 54 Q0 44 8 38Z" stroke="url(#l77Grad2)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<!-- "77" text in center -->
+<text x="22" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="14" fill="url(#l77Grad)" text-anchor="middle">77</text>
+<text x="22" y="62" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="14" fill="url(#l77Grad)" text-anchor="middle">77</text>
+<!-- Cross-bridges connecting the helix -->
+<line x1="14" y1="14" x2="30" y2="10" stroke="#3a7bd5" stroke-width="1.2" opacity="0.5"/>
+<line x1="14" y1="50" x2="30" y2="46" stroke="#3a7bd5" stroke-width="1.2" opacity="0.5"/>
+<!-- Nodes on helix -->
+<circle cx="8" cy="6" r="3.5" fill="#1e3a5f"/>
+<circle cx="36" cy="6" r="3.5" fill="#3a7bd5"/>
+<circle cx="44" cy="22" r="3.5" fill="#2d5a87"/>
+<circle cx="36" cy="38" r="3.5" fill="#3a7bd5"/>
+<circle cx="8" cy="38" r="3.5" fill="#1e3a5f"/>
+<circle cx="8" cy="70" r="3.5" fill="#1e3a5f"/>
+<circle cx="36" cy="70" r="3.5" fill="#3a7bd5"/>
+<circle cx="44" cy="54" r="3.5" fill="#2d5a87"/>
+</svg>
