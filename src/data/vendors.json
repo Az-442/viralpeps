@@ -1210,5 +1210,32 @@
     ],
     "lastTested": "2026-07-19",
     "labTested": true
+  },
+  {
+    "id": "bio-pulse-peptides",
+    "name": "Bio Pulse Peptides",
+    "slug": "bio-pulse-peptides",
+    "website": "https://biopulsepeptides.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2024,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering high-purity, lab-tested compounds with 99%+ purity. Fast UK shipping, secure checkout, and a clean, easy-to-navigate catalog covering tissue repair, anti-aging, cognitive enhancement, and metabolic research peptides.",
+    "highlights": [
+      "99%+ purity",
+      "Lab tested",
+      "Fast UK shipping",
+      "UK-based stock",
+      "Secure checkout"
+    ],
+    "shipping": [
+      "UK (fast shipping)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
