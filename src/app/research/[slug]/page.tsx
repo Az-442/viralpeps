@@ -20,10 +20,10 @@ export async function generateMetadata({
   const guide = guides.find((g) => g.slug === slug);
   if (!guide) return {};
   return {
-    title: `${guide.title} | ViralPeps Research Library`,
+    title: `${guide.title}`,
     description: guide.desc,
     openGraph: {
-      title: `${guide.title} | ViralPeps`,
+      title: `${guide.title}`,
       description: guide.desc,
     },
   };

@@ -253,7 +253,7 @@ export const guides: ResearchArticle[] = [
     tags: ["tesamorelin", "ghrh", "visceral-fat", "metabolic", "fda-approved"],
   },
   {
-    title: "Melanotan II Deep Dive — The α-MSH Analog That Pigments, Protects & Provokes",
+    title: "Melanotan II Deep Dive — Mechanism & Research",
     desc: "Deep dive into Melanotan II, the synthetic α-MSH analog that activates melanocortin receptors across the body. Pigmentation, sexual function, side effects, and safety research.",
     category: "Compound Profiles",
     section: "peptides",

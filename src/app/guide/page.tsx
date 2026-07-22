@@ -3,7 +3,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Peptide Research Guide | ViralPeps UK",
+  title: "Peptide Research Guide",
   description:
     "A beginner's guide to research peptides — what they are, how to read COAs, reconstitution, pricing, and how to use ViralPeps to compare UK suppliers.",
 };
