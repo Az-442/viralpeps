@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ViralPeps",
+    default: "UK Research Peptide Price Comparison",
     template: "%s | ViralPeps",
   },
   description: "The UK's most comprehensive research peptide directory. Browse 37+ compounds including Tirzepatide, Semaglutide, BPC-157, and more. Compare verified UK vendors, prices, and purity specs. Free peptide tools and research guides.",
