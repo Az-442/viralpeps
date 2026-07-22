@@ -11,6 +11,7 @@ export async function GET(request: NextRequest) {
   }
 
   const matchedCompounds = compounds
+    .filter((c) => !(c as any).compareSlug)
     .filter((c) =>
       c.name.toLowerCase().includes(q) ||
       (c.aliases || []).some((a) => a.toLowerCase().includes(q)) ||
