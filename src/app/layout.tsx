@@ -23,9 +23,6 @@ export const metadata: Metadata = {
   description: "The UK's most comprehensive research peptide directory. Compare 37+ compounds, verified vendors, prices and purity specs. Free tools and research guides.",
   keywords: ["research peptides UK", "peptide directory", "buy peptides UK", "Tirzepatide UK", "Semaglutide UK", "BPC-157", "peptide vendors UK", "research compounds UK"],
   metadataBase: new URL("https://www.viralpeps.co.uk"),
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     title: "ViralPeps — UK Research Peptide Directory",
     description: "The UK's most comprehensive research peptide directory. Compare 37+ compounds, verified vendors, prices and purity specs. Free tools and research guides.",
