@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Free Peptide Dosage & Cycle Calculators",
-  description: "Free online peptide dosage calculator and cycle planner tools. Calculate reconstitution doses, plan research cycles, and more.",
+  description: "Free research tools for UK peptide users: dosage calculator, reconstitution calculator and cycle planner. No sign-up required.",
 };
 
 export default function ToolsLayout({ children }: { children: React.ReactNode }) {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Peptide Cycle Calculator (Free Tool) | ViralPeps",
-  description: "Free peptide cycle calculator for research planning. Map out research timelines, dosages, and protocols.",
+  description: "Plan a research peptide cycle in seconds. Enter compound, dose and duration for an instant, easy-to-follow schedule.",
 };
 
 export default function CycleLayout({ children }: { children: React.ReactNode }) {

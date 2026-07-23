@@ -210,7 +210,7 @@ export const guides: ResearchArticle[] = [
   },
   {
     title: "Melanotan II Deep Dive | Mechanism & Research",
-    desc: "Deep dive into Melanotan II, the synthetic α-MSH analog that activates melanocortin receptors across the body. Pigmentation, sexual function, side effects, and safety research.",
+    desc: "A deep dive into Melanotan II: how the α-MSH analogue works, pigmentation effects, research evidence and safety considerations.",
     category: "Compound Profiles",
     section: "peptides",
     compound: "Melanotan II",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Peptide Dosage Calculator (Free Tool) | ViralPeps",
-  description: "Free peptide dosage calculator for research purposes. Calculate the correct reconstitution dosage based on vial size, dosage amount, and bacteriostatic water volume.",
+  description: "Instantly calculate peptide reconstitution and dosing volumes. Free, easy-to-use calculator built for UK research peptide users.",
 };
 
 export default function DosageLayout({ children }: { children: React.ReactNode }) {

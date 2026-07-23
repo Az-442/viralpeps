@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const vendorSlug = vendor.slug;
   return {
     title: `${vendor.name} | UK Supplier Review`,
-    description: `${vendor.name} is a ${vendor.country}-based peptide supplier rated ★ ${vendor.rating}. ${vendor.description?.slice(0, 100)}`,
+    description: `${vendor.name}: UK research peptide supplier rated ★${vendor.rating}/5. See verified pricing, purity testing and stock levels compared on ViralPeps.`,
   };
 }
 

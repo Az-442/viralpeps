@@ -20,10 +20,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   );
   return {
     title: `${compound.name} | UK Prices`,
-    description: `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers. From £${minPrice.toFixed(2)}. Research info, CAS ${compound.cas}, purity ${compound.purity}, and half-life ${compound.halfLife}.`,
+    description: compound.sources.length > 0
+      ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
+      : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`,
     openGraph: {
       title: `${compound.name} | UK Prices`,
-      description: `Compare ${compound.name} prices from ${compound.sources.length} UK suppliers. From £${minPrice.toFixed(2)}.`,
+      description: compound.sources.length > 0
+        ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
+        : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`,
     },
   };
 }

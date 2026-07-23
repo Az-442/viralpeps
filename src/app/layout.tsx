@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: "UK Peptide Price Comparison | ViralPeps",
     template: "%s | ViralPeps",
   },
-  description: "The UK's most comprehensive research peptide directory. Browse 37+ compounds including Tirzepatide, Semaglutide, BPC-157, and more. Compare verified UK vendors, prices, and purity specs. Free peptide tools and research guides.",
+  description: "The UK's most comprehensive research peptide directory. Compare 37+ compounds, verified vendors, prices and purity specs. Free tools and research guides.",
   keywords: ["research peptides UK", "peptide directory", "buy peptides UK", "Tirzepatide UK", "Semaglutide UK", "BPC-157", "peptide vendors UK", "research compounds UK"],
   metadataBase: new URL("https://www.viralpeps.co.uk"),
   alternates: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "ViralPeps — UK Research Peptide Directory",
-    description: "The UK's most comprehensive research peptide directory. Browse compounds, compare verified UK vendors, and find the information you need.",
+    description: "The UK's most comprehensive research peptide directory. Compare 37+ compounds, verified vendors, prices and purity specs. Free tools and research guides.",
     url: "https://www.viralpeps.co.uk",
     siteName: "ViralPeps",
     locale: "en_GB",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ViralPeps — UK Research Peptide Directory",
-    description: "Browse 37+ research compounds, compare verified UK vendors, prices and purity specs.",
+    description: "The UK's most comprehensive research peptide directory. Compare 37+ compounds, verified vendors, prices and purity specs. Free tools and research guides.",
   },
   robots: {
     index: true,
