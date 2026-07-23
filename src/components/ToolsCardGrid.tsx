@@ -21,7 +21,7 @@ const tools = [
   },
 ];
 
-export default function ToolsCardGrid() {
+export default function ToolsCardGrid({ title, subtitle }: { title?: string; subtitle?: string }) {
   const pathname = usePathname();
 
   return (
@@ -29,13 +29,13 @@ export default function ToolsCardGrid() {
       {/* Title section */}
       <div className="max-w-[76rem] mx-auto px-4 pt-10 pb-4 text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
-          Peptide Tools &{" "}
-          <span className="bg-gradient-to-r from-emerald-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
-            Calculators
-          </span>
+          {title || (<>Peptide Tools &{" "}
+            <span className="bg-gradient-to-r from-emerald-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+              Calculators
+            </span></>)}
         </h1>
         <p className="text-gray-400 text-sm max-w-xl mx-auto">
-          Free tools for peptide research — reconstitution, dosage, and cycle planning.
+          {subtitle || "Free tools for peptide research — reconstitution, dosage, and cycle planning."}
         </p>
       </div>
 

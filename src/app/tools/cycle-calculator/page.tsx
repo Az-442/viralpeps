@@ -27,7 +27,7 @@ export default function CycleCalculatorPage() {
   return (
     <>
       <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628]">
-        <ToolsCardGrid />
+        <ToolsCardGrid title="Peptide Cycle Calculator" subtitle="Plan a research cycle and calculate total peptide needed." />
 
         <div className="max-w-[76rem] mx-auto px-4 pb-6">
           {/* Disclaimer strip */}

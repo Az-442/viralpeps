@@ -21,7 +21,7 @@ export default function DosageCalculatorPage() {
   return (
     <>
       <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628]">
-        <ToolsCardGrid />
+        <ToolsCardGrid title="Peptide Dosage Calculator" subtitle="Calculate reconstitution volumes and syringe units in seconds." />
 
         <div className="max-w-[76rem] mx-auto px-4 pb-6">
           {/* Disclaimer strip */}
