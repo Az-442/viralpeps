@@ -3,7 +3,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Contact Us — ViralPeps UK",
+  title: "Contact Us",
   description:
     "Get in touch with ViralPeps. Questions about the directory, supplier listings, or something else? Contact us here.",
 };

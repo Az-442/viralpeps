@@ -2,7 +2,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Privacy Policy — ViralPeps UK",
+  title: "Privacy Policy",
   description: "ViralPeps privacy policy — how we handle your data, cookies, and third-party services.",
 };
 

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!vendor) return {};
   const vendorSlug = vendor.slug;
   return {
-    title: `${vendor.name} — UK Peptide Supplier Review & Products`,
+    title: `${vendor.name} | UK Supplier Review`,
     description: `${vendor.name} is a ${vendor.country}-based peptide supplier rated ★ ${vendor.rating}. ${vendor.description?.slice(0, 100)}`,
   };
 }

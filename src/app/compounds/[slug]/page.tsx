@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
   );
   return {
-    title: `${compound.name} Price Comparison — Compare UK Suppliers`,
+    title: `${compound.name} | Compare UK Prices`,
     description: `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers. From £${minPrice.toFixed(2)}. Research info, CAS ${compound.cas}, purity ${compound.purity}, and half-life ${compound.halfLife}.`,
     openGraph: {
-      title: `${compound.name} — Compare UK Prices`,
+      title: `${compound.name} | Compare UK Prices`,
       description: `Compare ${compound.name} prices from ${compound.sources.length} UK suppliers. From £${minPrice.toFixed(2)}.`,
     },
   };

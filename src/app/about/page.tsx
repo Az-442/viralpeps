@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { PEPTIDE_COUNT, SUPPLIER_COUNT } from "@/data/stats";
 
 export const metadata = {
-  title: "About ViralPeps — UK Research Peptide Directory",
+  title: "About Us",
   description:
     "ViralPeps is a UK-based research peptide price comparison platform. We track prices from verified UK suppliers to help researchers find the best deals.",
 };

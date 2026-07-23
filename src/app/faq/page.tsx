@@ -3,7 +3,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Frequently Asked Questions — ViralPeps UK",
+  title: "Frequently Asked Questions",
   description: "Answers to common questions about Peptide Supermarket, buying peptides in the UK, peptide legality, pricing, and more.",
 };
 

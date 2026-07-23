@@ -2,7 +2,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Disclaimer — ViralPeps UK",
+  title: "Disclaimer",
   description: "ViralPeps disclaimer — important information about our role as a price comparison directory, research use only, and affiliate relationships.",
 };
 
