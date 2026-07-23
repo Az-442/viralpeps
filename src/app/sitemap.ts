@@ -20,7 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/disclaimer`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
   ];
 
-  const compoundPages = compounds.map((c) => ({
+  const compoundPages = compounds
+    .filter((c: any) => !c.compareSlug)
+    .map((c) => ({
     url: `${baseUrl}/compounds/${c.slug}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
