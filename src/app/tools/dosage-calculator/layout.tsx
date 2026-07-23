@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Peptide Dosage Calculator (Free Tool)",
+  title: "Peptide Dosage Calculator (Free Tool) | ViralPeps",
   description: "Free peptide dosage calculator for research purposes. Calculate the correct reconstitution dosage based on vial size, dosage amount, and bacteriostatic water volume.",
 };
 
