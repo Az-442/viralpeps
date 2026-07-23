@@ -279,6 +279,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
 
       {/* PRODUCTS LIST SECTION — Card layout */}
       <div className="max-w-[76rem] mx-auto px-4 pb-12 -mt-2">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">{vendor.name} Products</h2>
         <div className="space-y-3 md:space-y-4">
           {vendorCompounds.map((c) => {
             const source = c.sources.find((s) => s.vendor === vendor.name);

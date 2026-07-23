@@ -707,6 +707,7 @@ export default function CompoundPageClient({
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
         {/* Tab navigation - pill style */}
         <div className="p-5 md:p-6 bg-gray-50 border-b border-gray-200">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">{compound.name} Research Profile</h2>
           <div className="flex flex-wrap gap-2" role="tablist">
             {INFO_TABS.map((tab) => (
               <button
@@ -728,6 +729,7 @@ export default function CompoundPageClient({
 
         {/* Tab content */}
         <div className="p-5 md:p-6" role="tabpanel" id="profile-tab-panel">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">{compound.name} — {INFO_TABS.find(t => t.id === activeTab)?.label}</h2>
           {activeTab === "prices" ? (
             <div>
               <p className="text-base text-gray-500 mb-3">
