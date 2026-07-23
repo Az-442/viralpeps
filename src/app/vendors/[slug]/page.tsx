@@ -18,6 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${vendor.name} | UK Supplier Review`,
     description: `${vendor.name}: UK research peptide supplier rated ★${vendor.rating}/5. See verified pricing, purity testing and stock levels compared on ViralPeps.`,
+    alternates: {
+      canonical: `https://www.viralpeps.co.uk/vendors/${vendor.slug}`,
+    },
   };
 }
 

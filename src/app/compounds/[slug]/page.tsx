@@ -23,6 +23,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: compound.sources.length > 0
       ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
       : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`,
+    alternates: {
+      canonical: `https://www.viralpeps.co.uk/compounds/${slug}`,
+    },
     openGraph: {
       title: `${compound.name} | UK Prices`,
       description: compound.sources.length > 0

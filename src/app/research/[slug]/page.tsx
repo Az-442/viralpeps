@@ -22,6 +22,9 @@ export async function generateMetadata({
   return {
     title: `${guide.title}`,
     description: guide.desc,
+    alternates: {
+      canonical: `https://www.viralpeps.co.uk/research/${slug}`,
+    },
     openGraph: {
       title: `${guide.title}`,
       description: guide.desc,
