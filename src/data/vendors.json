@@ -1266,5 +1266,33 @@
     ],
     "lastTested": "",
     "labTested": false
+  },
+  {
+    "id": "prime-peptides",
+    "name": "Prime Peptides",
+    "slug": "prime-peptides",
+    "website": "https://www.prime-peptides.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering premium peptide vials with fast same-day dispatch (order before 3pm). All batches independently lab tested with COA QR codes. Known for clean product pages, competitive pricing, and secure checkout accepting Visa, Mastercard, Amex and Apple Pay.",
+    "highlights": [
+      "Same-day dispatch (order before 3pm)",
+      "Lab tested with COA QR codes",
+      "Competitive UK pricing",
+      "UK-based stock",
+      "Secure checkout (Visa/Mastercard/Amex/Apple Pay)"
+    ],
+    "shipping": [
+      "UK (same-day dispatch before 3pm Mon-Fri, Royal Mail Tracked 24)"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard/Amex)",
+      "Apple Pay",
+      "Open banking"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
