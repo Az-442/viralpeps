@@ -1294,5 +1294,36 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "uk-peptide-lab",
+    "name": "UK Peptide Lab",
+    "slug": "uk-peptide-lab",
+    "website": "https://ukpeptidelab.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering 98%+ HPLC-verified peptides with third-party testing by Janoshik, Krause, and Chromate Analytics. Every batch independently tested with published Certificates of Analysis. Same-day UK dispatch before 2pm GMT via Royal Mail Tracked 24, free shipping over \u00a345. Cold-chain storage, discreet packaging, and secure Open Banking checkout.",
+    "highlights": [
+      "Third-party tested (Janoshik \u00b7 Krause \u00b7 Chromate)",
+      "Same-day dispatch (before 2pm GMT)",
+      "Free UK delivery over \u00a345",
+      "Published COAs on every product page",
+      "Cold-chain storage",
+      "Discreet packaging"
+    ],
+    "shipping": [
+      "UK free over \u00a345 (Royal Mail Tracked 24, same-day dispatch before 2pm GMT)",
+      "UK shipping only"
+    ],
+    "payment": [
+      "Cards (Stripe)",
+      "Open Banking",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
