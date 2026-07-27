@@ -1325,5 +1325,35 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "alphamino",
+    "name": "Alphamino",
+    "slug": "alphamino",
+    "website": "https://alphamino.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering third-party tested (Janoshik) peptides with batch-specific COAs, cold-chain storage, and same-day dispatch. Registered company address in Mildenhall, UK. Focused on B2B laboratory supply with documented reference materials for in-vitro research.",
+    "highlights": [
+      "Janoshik third-party tested",
+      "Batch-specific COAs",
+      "Cold-chain storage",
+      "Same-day dispatch (before 3pm)",
+      "Free UK delivery over £200",
+      "Registered UK company"
+    ],
+    "shipping": [
+      "UK free over £200 (tracked)",
+      "Same-day dispatch before 3pm Mon-Fri"
+    ],
+    "payment": [
+      "Cards (Stripe)",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
