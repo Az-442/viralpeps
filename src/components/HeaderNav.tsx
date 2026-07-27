@@ -73,8 +73,9 @@ export default function HeaderNav({ current }: { current?: string }) {
                   <path d="M6 9l6 6 6-6" />
                 </svg>
               </button>
-              <div className="absolute pt-1 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
-                <div className="bg-white border border-black rounded-xl shadow-lg py-2">
+              <div className="absolute top-full left-0 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
+                <div className="pt-2">
+                  <div className="bg-white border border-black rounded-xl shadow-lg py-2">
                   {researchLinks.map((rl) => (
                     <Link
                       key={rl.href}
@@ -95,8 +96,9 @@ export default function HeaderNav({ current }: { current?: string }) {
                   <path d="M6 9l6 6 6-6" />
                 </svg>
               </button>
-              <div className="absolute right-0 pt-1 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
-                <div className="bg-white border border-black rounded-xl shadow-lg py-2">
+              <div className="absolute right-0 top-full w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
+                <div className="pt-2">
+                  <div className="bg-white border border-black rounded-xl shadow-lg py-2">
                   {toolLinks.map((tl) => (
                     <Link
                       key={tl.href}
