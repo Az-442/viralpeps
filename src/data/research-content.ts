@@ -1,6 +1,7 @@
 export interface ResearchPageContent {
   slug: string;
   compoundSlug?: string;
+  compoundSlug2?: string;
   pullQuote?: string;
   quickInfo?: { label: string; value: string }[];
   sections: ResearchSection[];
@@ -4944,6 +4945,7 @@ const content: Record<string, ResearchPageContent> = {
   "ghkcu-vs-retinol": {
   "slug": "ghkcu-vs-retinol",
   "compoundSlug": "ghk-cu",
+  "compoundSlug2": "retinol",
   "pullQuote": "Two of the most evidence-backed investigational compounds for skin research — GHK-Cu and retinol — operate through fundamentally different mechanisms, offering researchers distinct tools for studying dermal repair, collagen synthesis, and photoaging reversal.",
   "quickInfo": [
     { "label": "Article Type", "value": "Head-to-Head Comparison" },
@@ -5068,6 +5070,7 @@ const content: Record<string, ResearchPageContent> = {
   "cjc1295-vs-tesamorelin": {
   "slug": "cjc1295-vs-tesamorelin",
   "compoundSlug": "cjc-1295",
+  "compoundSlug2": "tesamorelin",
   "pullQuote": "Two GHRH analogues, two radically different design philosophies — CJC-1295 with its extreme half-life extension via albumin binding, and Tesamorelin with its FDA-approved precision. The choice between them depends on whether your research prioritises physiological GH pulsatility, sustained elevation, or evidence-backed endpoints.",
   "quickInfo": [
     { "label": "Article Type", "value": "Head-to-Head Comparison" },
@@ -5160,6 +5163,7 @@ const content: Record<string, ResearchPageContent> = {
   "selank-vs-semax-adhd": {
   "slug": "selank-vs-semax-adhd",
   "compoundSlug": "selank",
+  "compoundSlug2": "semax",
   "pullQuote": "Two heptapeptides, two fundamentally different mechanisms — Semax targets the executive-function machinery of ADHD through BDNF and dopamine enhancement, while Selank addresses the anxiety-driven attentional fragmentation that complicates up to 50% of adult cases.",
   "quickInfo": [
     { "label": "Article Type", "value": "Head-to-Head Comparison" },
@@ -6417,110 +6421,7 @@ const content: Record<string, ResearchPageContent> = {
     'Gruber JV, Holtz R. In vitro analysis of a novel copper-peptide complex for stimulating dermal fibroblast proliferation and collagen synthesis. J Cosmet Dermatol. 2020;19(6):1438–1445.'
   ]
 },
-  'thymosin-alpha1-research-summary': {
-  slug: 'thymosin-alpha1-research-summary',
-  compoundSlug: 'thymosin-alpha-1',
-  pullQuote: 'First isolated from the thymus gland in the 1970s, Thymosin Alpha-1 remains one of the most extensively studied immune-modulating peptides in the research literature, with over four decades of preclinical and clinical investigation behind it.',
-  quickInfo: [
-    { label: 'Peptide Name', value: 'Thymosin Alpha-1 (Thymalfasin)' },
-    { label: 'Classification', value: 'Immune-Modulating Peptide' },
-    { label: 'Sequence', value: '28 amino acids' },
-    { label: 'CAS Number', value: '62304-98-7' },
-    { label: 'Molecular Weight', value: '3,108 g/mol' },
-    { label: 'Primary Research Areas', value: 'Immunomodulation, hepatitis B/C, vaccine adjuvant, sepsis, neuroprotection' },
-  ],
-  sections: [
-    {
-      title: 'What Is Thymosin Alpha-1?',
-      body: 'Thymosin Alpha-1 (Tα1) is a 28-amino acid peptide originally isolated from the thymus gland by Dr Allan Goldstein and colleagues in the 1970s. As a naturally occurring thymic peptide, it belongs to a family of thymosins that play integral roles in the development and maturation of the immune system. The synthetic version of this peptide, known as thymalfasin (marketed as Zadaxin), has been approved for clinical use in over 35 countries across Asia, South America, and Europe, primarily for research into hepatitis B and C.
 
+};
 
-It is important to note that Thymosin Alpha-1 has <strong>not</strong> received approval from the US Food and Drug Administration (FDA) or the UK Medicines and Healthcare products Regulatory Agency (MHRA). In the United Kingdom and United States, it is classified as a research compound and is supplied exclusively for laboratory investigation and educational purposes.
-
-The peptide\'s molecular weight of approximately 3,108 g/mol and its well-characterised sequence have made it a focal point for researchers investigating immune function, host defence mechanisms, and the molecular pathways that govern T-cell biology. Its discovery marked a significant milestone in thymic research, opening avenues for understanding how the thymus influences peripheral immune responses throughout life. [**Compare Thymosin Alpha-1 prices →**](/compounds/thymosin-alpha-1)',
-
-      subsections: [
-        {
-          title: 'Structural Characteristics',
-          body: `<p>Thymosin Alpha-1 consists of 28 amino acid residues arranged in a linear, acetylated peptide chain. The acetylation at the N-terminus contributes to its stability in circulation. The peptide's structure lacks disulphide bridges, giving it a flexible conformation that facilitates interaction with multiple receptor targets on immune cells. Its relatively small size allows efficient tissue penetration, a property that has made it attractive for research into systemic immune modulation.</p>`
-        },
-        {
-          title: 'Historical Context',
-          body: `<p>Following its isolation from thymosin fraction 5 (a partially purified extract of calf thymus), Thymosin Alpha-1 quickly distinguished itself as the most biologically active component of the mixture. Throughout the 1980s and 1990s, research groups around the world mapped its influence on T-cell development, leading to the development of synthetic thymalfasin for controlled investigation. Over the past four decades, more than 400 peer-reviewed studies have examined various aspects of Tα1 biology, making it one of the best-characterised thymic peptides in the scientific literature. [**Related: Peptide Injection Guide →**](/research/peptide-injection-guide)</p>`
-        }
-      ]
-    },
-
-    {
-      title: 'How Thymosin Alpha-1 Works',
-      content: 'Thymosin Alpha-1 exerts its biological effects through a multifaceted mechanism of action that primarily targets the innate and adaptive arms of the immune system. Unlike conventional immune stimulants that act on a single receptor or pathway, Tα1 orchestrates a coordinated response across several cell types and signalling cascades. The following subsections detail the principal mechanisms under investigation.',
-
-      subsections: [
-        {
-          title: 'T-Cell Maturation and Differentiation',
-          body: `<p>One of the earliest and most thoroughly documented actions of Thymosin Alpha-1 is its influence on T-cell maturation. Research has demonstrated that Tα1 promotes the differentiation of precursor T-cells into functionally competent phenotypes, including both CD4+ helper and CD8+ cytotoxic subsets. Studies utilising flow cytometry have shown increased expression of CD3, CD4, and CD8 markers following Tα1 exposure in vitro, suggesting enhanced thymopoiesis and peripheral T-cell reconstitution. This property has made Tα1 of particular interest for research into conditions characterised by T-cell deficiency or dysregulation.</p>`
-        },
-        {
-          title: 'Dendritic Cell Activation',
-          body: `<p>Dendritic cells (DCs) serve as the primary antigen-presenting cells bridging innate and adaptive immunity. Thymosin Alpha-1 has been shown to promote the maturation and activation of dendritic cells, upregulating co-stimulatory molecules such as CD80, CD86, and MHC class II. Activated DCs subsequently enhance their capacity to present antigens and stimulate naïve T-cells. Researchers have observed that Tα1-treated DCs produce elevated levels of interleukin-12 (IL-12), a cytokine critical for driving Th1-type immune responses. This mechanism is thought to underpin much of the peptide's adjuvant activity in vaccine research.</p>`
-        },
-        {
-          title: 'Toll-Like Receptor Signalling',
-          body: `<p>A significant breakthrough in understanding Tα1's mode of action came with the discovery that it signals through Toll-like receptors (TLRs), specifically TLR2 and TLR9. By engaging these pattern recognition receptors on innate immune cells, Tα1 triggers downstream MyD88-dependent signalling cascades that culminate in the activation of NF-κB and the production of pro-inflammatory cytokines. This TLR-mediated pathway provides a molecular explanation for the peptide's broad immunomodulatory effects, linking its activity to well-established innate immune sensing mechanisms. The TLR9 pathway, in particular, connects Tα1 activity to the activation of plasmacytoid dendritic cells and the production of type I interferons.</p>`
-        },
-        {
-          title: 'Natural Killer Cell Activity and Macrophage Phagocytosis',
-          body: `<p>Thymosin Alpha-1 has been consistently shown to enhance the cytotoxic activity of natural killer (NK) cells, an effect measurable through increased target cell lysis in standard chromium-release assays. Additionally, the peptide promotes macrophage phagocytosis and the production of reactive oxygen species, contributing to enhanced clearance of pathogens in experimental models. These innate immune effects occur independently of T-cell involvement and represent an early line of defence that Tα1 appears to potentiate. The combined enhancement of NK cell function and macrophage activity positions Tα1 as a broad-spectrum immune modulator capable of influencing both immediate and adaptive responses.</p>`
-        }
-      ]
-    },
-
-    {
-      title: 'Clinical Research — Hepatitis B & C',
-      content: 'The most extensive body of clinical research on Thymosin Alpha-1 concerns its application in viral hepatitis, particularly chronic hepatitis B (HBV) and hepatitis C (HCV) infection. Multiple randomised controlled trials and subsequent meta-analyses have examined the effect of Tα1 as an investigational agent in these populations. The findings have contributed substantially to the evidence base and underpin the regulatory approvals in countries where thymalfasin is available for clinical use.',
-      subsections: [
-        {
-          title: 'Hepatitis B Research',
-          body: `<p>A landmark meta-analysis published in the Journal of Viral Hepatitis evaluated data from multiple randomised trials examining Tα1 in chronic hepatitis B research. The pooled analysis demonstrated that Tα1 administration was associated with higher rates of HBV DNA clearance and seroconversion from HBeAg-positive to HBeAg-negative status compared with control conditions. Combination protocols using Tα1 alongside interferon-alpha showed additive or synergistic effects in some studies, with sustained virological responses exceeding those observed with either agent alone. Importantly, the favourable safety profile of Tα1 allowed for extended research protocols lasting six to twelve months, which is often necessary for evaluating immunological endpoints in chronic HBV infection.</p>`
-        },
-        {
-          title: 'Hepatitis C Research',
-          body: `<p>Prior to the advent of direct-acting antiviral agents, Thymosin Alpha-1 was investigated extensively as an adjunct in hepatitis C research. Several trials examined Tα1 in combination with pegylated interferon and ribavirin, with meta-analyses reporting improved sustained virological response rates in specific subgroups, particularly those with difficult-to-treat genotypes and high viral loads. While the direct-acting antivirals have since transformed the HCV treatment landscape, the research on Tα1 in hepatitis C provided important insights into the role of immune modulation in viral clearance and continues to inform contemporary studies of immune-based approaches to chronic viral infection.</p>`
-        },
-        {
-          title: 'Meta-Analysis Outcomes',
-          body: `<p>Systematic reviews encompassing over 1,500 research participants have consistently highlighted the safety and tolerability of Thymosin Alpha-1 in hepatitis research protocols. A 2013 meta-analysis of randomised trials in chronic hepatitis B reported that Tα1 significantly improved virological and biochemical endpoints compared with placebo, with an odds ratio for HBV DNA clearance of approximately 2.5. These findings have been corroborated by subsequent reviews, establishing Tα1 as one of the few immune-modulating peptides with replicated efficacy data in a major infectious disease model. Researchers considering Tα1 for hepatitis-related studies should review the full meta-analytic literature to understand subgroup effects and optimal research protocols. [**Compare Thymosin Alpha-1 prices →**](/compounds/thymosin-alpha-1)</p>`
-        }
-      ]
-    },
-
-    {
-      title: 'Immune Modulation & Vaccine Adjuvant Research',
-      content: 'Beyond its applications in viral hepatitis, Thymosin Alpha-1 has been investigated as a vaccine adjuvant and as an immunomodulatory agent in several other research contexts. The peptide\'s ability to enhance both humoral and cell-mediated immune responses makes it an attractive candidate for adjuvant research.',
-      subsections: [
-        {
-          title: 'Vaccine Adjuvant Studies',
-          body: `<p>Preclinical and early-phase clinical studies have examined Tα1 as an adjuvant in influenza, hepatitis B, and cancer vaccine models. The mechanistic basis for this application lies in Tα1's capacity to activate dendritic cells and promote Th1-polarised immune responses, which are critical for effective vaccination against intracellular pathogens and tumour antigens. Research protocols combining Tα1 with antigen preparations have reported enhanced antibody titres, improved T-cell proliferation, and increased memory T-cell formation compared with antigen alone. These findings suggest that Tα1 may have utility in vaccine research, particularly in populations with diminished immune responsiveness, such as older adults or those with immune suppression.</p>`
-        },
-        {
-          title: 'Sepsis and Immune Paralysis',
-          body: `<p>A particularly active area of contemporary research concerns the use of Thymosin Alpha-1 in sepsis and immune paralysis. Sepsis induces a state of profound immune suppression characterised by T-cell exhaustion, monocyte deactivation, and increased susceptibility to secondary infections. Preclinical models of sepsis have demonstrated that Tα1 administration restores immune competence by reversing monocyte deactivation, increasing HLA-DR expression, and promoting lymphocyte recovery. A 2018 multi-centre randomised trial in China reported that Tα1 administration was associated with improved clinical outcomes in sepsis patients, including reduced rates of secondary infections. These findings have generated considerable interest in Tα1 as an investigational agent for immune restoration in critical illness.</p>`
-        },
-        {
-          title: 'Cancer Immunotherapy Research',
-          body: `<p>Thymosin Alpha-1 has been examined as an adjunctive agent in cancer immunotherapy research, particularly in combination with checkpoint inhibitors, chemotherapy, and radiation. The rationale stems from Tα1's capacity to enhance cytotoxic T-cell activity and counter tumour-induced immune suppression. Studies in melanoma, hepatocellular carcinoma, and non-small cell lung cancer models have explored Tα1's ability to improve immune cell infiltration into tumours and restore anti-tumour immune responses. While these investigations remain at earlier stages compared with the hepatitis research, they represent a promising frontier for Tα1 research in oncology.</p>`
-        },
-        {
-          title: 'Chronic Fatigue and Neuroprotection',
-          body: `<p>Emerging research has examined Thymosin Alpha-1 in the context of chronic fatigue syndrome and neuroprotection. The peptide's immunomodulatory properties, combined with evidence that immune dysregulation may contribute to fatigue states, have prompted investigations into Tα1's effects on quality-of-life measures and immune parameters in chronic fatigue populations. Additionally, preclinical studies have suggested that Tα1 may exert neuroprotective effects through modulation of inflammatory cascades in the central nervous system, although this area requires substantially more investigation before firm conclusions can be drawn. [**Related: Peptide Injection Guide →**](/research/peptide-injection-guide)</p>`
-        }
-      ]
-    },
-
-    {
-      title: 'Dosing & Research Use',
-      content: 'The following information is presented exclusively for research and educational purposes. It does not constitute medical advice or clinical recommendations. Researchers designing protocols involving Thymosin Alpha-1 should consult the published literature and establish appropriate protocols in accordance with institutional guidelines and ethical oversight.',
-      subsections: [
-        {
-          title: 'Standard Research Protocols',
-          body: `<p>The most commonly cited research protocol for Thymosin Alpha-1, drawn from the hepatitis B clinical trial literature, involves subcutaneous administration at a quantity of 500 micrograms (mcg) to 1.6 milligrams (mg) per administration, typically delivered two times per week. Research cycles in the published literature have ranged from six months to twelve months in duration, with periodic assessment of immunological and virological endpoints.</p>
+export default content;

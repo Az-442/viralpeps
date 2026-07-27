@@ -218,12 +218,25 @@ export default async function ResearchArticlePage({
               {guide.category}
             </span>
             {guide.compound && content.compoundSlug && (
-              <Link
-                href={`/compounds/${content.compoundSlug}`}
-                className="text-xs text-teal-300 hover:text-teal-200"
-              >
-                {guide.compound}
-              </Link>
+              <div className="flex items-center gap-2">
+                <Link
+                  href={`/compounds/${content.compoundSlug}`}
+                  className="text-xs text-teal-300 hover:text-teal-200"
+                >
+                  {guide.compound}
+                </Link>
+                {content.compoundSlug2 && (
+                  <>
+                    <span className="text-teal-500 text-xs">vs</span>
+                    <Link
+                      href={`/compounds/${content.compoundSlug2}`}
+                      className="text-xs text-teal-300 hover:text-teal-200"
+                    >
+                      {content.compoundSlug2.charAt(0).toUpperCase() + content.compoundSlug2.slice(1).replace(/-/g, ' ')}
+                    </Link>
+                  </>
+                )}
+              </div>
             )}
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -336,17 +349,32 @@ export default async function ResearchArticlePage({
             <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">
               Live prices from every UK supplier — side by side so you find the best deal.
             </p>
-            <Link
-              href={`/compounds/${content.compoundSlug}`}
-              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-sm"
-            >
-              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                <path d="M2 17l10 5 10-5" />
-                <path d="M2 12l10 5 10-5" />
-              </svg>
-              View All Prices &rarr;
-            </Link>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Link
+                href={`/compounds/${content.compoundSlug}`}
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-sm"
+              >
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+                {guide.compound || "View Prices"} &rarr;
+              </Link>
+              {content.compoundSlug2 && (
+                <Link
+                  href={`/compounds/${content.compoundSlug2}`}
+                  className="inline-flex items-center gap-2 bg-white hover:bg-blue-50 text-blue-600 font-bold px-8 py-3 rounded-xl transition-colors shadow-sm border border-blue-200"
+                >
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                    <path d="M2 17l10 5 10-5" />
+                    <path d="M2 12l10 5 10-5" />
+                  </svg>
+                  {content.compoundSlug2.charAt(0).toUpperCase() + content.compoundSlug2.slice(1).replace(/-/g, ' ')} Prices &rarr;
+                </Link>
+              )}
+            </div>
           </div>
         )}
 
