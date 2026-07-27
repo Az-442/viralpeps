@@ -69,20 +69,21 @@ def draw_guide_card(
         else:
             text_left = 50
     else:
-        # 2 vials: each at 40% card height, side by side with 15px gap
-        vial_h = int(card_h * 0.40)
-        gap = 15
-        start_x = 40
+        # 2 vials: stacked vertically, each at 37% card height (same visual size as single)
+        vial_h = int(card_h * 0.37)
+        gap = 20
+        start_y = int((card_h - (vial_h * 2 + gap)) / 2)
+        vial_x = 50
         
         for i, vial_path in enumerate(vial_paths[:2]):
             if os.path.exists(vial_path):
                 vial = Image.open(vial_path).convert("RGBA")
                 vw = int(vial_h * vial.width / vial.height)
                 vial = vial.resize((vw, vial_h), Image.LANCZOS)
-                card.paste(vial, (start_x, int((card_h - vial_h) / 2)), vial)
-                start_x += vw + gap
+                vy = start_y + i * (vial_h + gap)
+                card.paste(vial, (vial_x, vy), vial)
         
-        text_left = start_x + 30
+        text_left = vial_x + int(vial_h * 1.0) + 45
 
     # Ensure text has enough room
     if text_left > card_w - 200:
@@ -138,7 +139,7 @@ def draw_guide_card(
 
 # ============ CONFIG: Add/remove cards here ============
 CARDS = [
-    # === COMPARISONS (2 vials side-by-side, fixed text overlap) ===
+    # === COMPARISONS (2 vials stacked vertically, same size as single vial cards) ===
     {
         "compound": "GHK-Cu vs Retinol",
         "vial_paths": ["public/images/compounds/ghk-cu-vial.png", "public/images/compounds/ghk-cu-vial.png"],
@@ -161,271 +162,6 @@ CARDS = [
         ],
         "badge_text": "Head-to-Head Comparison",
         "subtitle_text": "Growth Hormone Research",
-    },
-    {
-        "compound": "Selank vs Semax",
-        "vial_paths": ["public/images/compounds/selank-vial.png", "public/images/compounds/semax-vial.png"],
-        "output_path": "public/images/guides/semax-vs-selank.png",
-        "description_lines": [
-            "Comparing Selank with Semax for anxiety",
-            "modulation, cognitive enhancement, and",
-            "neurological research applications.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Cognitive Research",
-    },
-    {
-        "compound": "GHK-Cu vs BPC-157",
-        "vial_paths": ["public/images/compounds/ghk-cu-vial.png", "public/images/compounds/bpc-157-vial.png"],
-        "output_path": "public/images/guides/ghkcu-vs-bpc157.png",
-        "description_lines": [
-            "Comparing GHK-Cu with BPC-157 for tissue repair,",
-            "wound healing, anti-aging, and regenerative",
-            "medicine research applications.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Tissue Repair Research",
-    },
-    {
-        "compound": "TB-500 vs BPC-157",
-        "vial_paths": ["public/images/compounds/tb-500-vial.png", "public/images/compounds/bpc-157-vial.png"],
-        "output_path": "public/images/guides/tb500-vs-bpc157.png",
-        "description_lines": [
-            "Comparing TB-500 (Thymosin Beta-4) with BPC-157",
-            "for tissue repair, inflammation modulation, and",
-            "regenerative peptide research.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Regenerative Research",
-    },
-    {
-        "compound": "CJC-1295 vs Ipamorelin",
-        "vial_paths": ["public/images/compounds/cjc-1295-vial.png", "public/images/compounds/ipamorelin-vial.png"],
-        "output_path": "public/images/guides/cjc1295-vs-ipamorelin.png",
-        "description_lines": [
-            "Comparing CJC-1295 with Ipamorelin for growth",
-            "hormone secretion, IGF-1 levels, and body",
-            "composition research.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "GH Secretagogues",
-    },
-    {
-        "compound": "Tesamorelin vs Sermorelin",
-        "vial_paths": ["public/images/compounds/tesamorelin-vial.png", "public/images/compounds/sermorelin-vial.png"],
-        "output_path": "public/images/guides/tesamorelin-vs-sermorelin.png",
-        "description_lines": [
-            "Comparing Tesamorelin with Sermorelin for GHRH",
-            "agonism, GH/IGF-1 elevation, and metabolic",
-            "research applications.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "GHRH Research",
-    },
-    {
-        "compound": "Retatrutide vs Tirzepatide",
-        "vial_paths": ["public/images/compounds/retatrutide-vial.png", "public/images/compounds/tirzepatide-vial.png"],
-        "output_path": "public/images/guides/retatrutide-vs-tirzepatide.png",
-        "description_lines": [
-            "Comparing Retatrutide (triple agonist) with",
-            "Tirzepatide (dual agonist) for weight loss,",
-            "glycemic control, and metabolic research.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Metabolic Research",
-    },
-    {
-        "compound": "Semaglutide vs Tirzepatide",
-        "vial_paths": ["public/images/compounds/semaglutide-vial.png", "public/images/compounds/tirzepatide-vial.png"],
-        "output_path": "public/images/guides/semaglutide-vs-tirzepatide.png",
-        "description_lines": [
-            "Comparing Semaglutide with Tirzepatide for",
-            "GLP-1 agonism, weight reduction, and",
-            "metabolic health research.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "GLP-1 Research",
-    },
-    {
-        "compound": "Retatrutide vs Semaglutide",
-        "vial_paths": ["public/images/compounds/retatrutide-vial.png", "public/images/compounds/semaglutide-vial.png"],
-        "output_path": "public/images/guides/retatrutide-vs-semaglutide.png",
-        "description_lines": [
-            "Comparing Retatrutide (triple agonist) with",
-            "Semaglutide (GLP-1 agonist) for metabolic",
-            "research and weight management outcomes.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Metabolic Research",
-    },
-    {
-        "compound": "Oxytocin vs PT-141",
-        "vial_paths": ["public/images/compounds/oxytocin-vial.png", "public/images/compounds/pt-141-vial.png"],
-        "output_path": "public/images/guides/oxytocin-vs-pt141.png",
-        "description_lines": [
-            "Comparing Oxytocin with PT-141 (Bremelanotide)",
-            "for social bonding, sexual health research, and",
-            "melanocortin pathway modulation.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Neuroendocrine Research",
-    },
-    {
-        "compound": "PT-141 vs Melanotan II",
-        "vial_paths": ["public/images/compounds/pt-141-vial.png", "public/images/compounds/melanotan-ii-vial.png"],
-        "output_path": "public/images/guides/pt141-vs-melanotan2.png",
-        "description_lines": [
-            "Comparing PT-141 (Bremelanotide) with Melanotan II",
-            "for melanocortin receptor research, sexual health,",
-            "and pigmentation studies.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Melanocortin Research",
-    },
-    {
-        "compound": "AOD-9604 vs Tesamorelin",
-        "vial_paths": ["public/images/compounds/aod-9604-vial.png", "public/images/compounds/tesamorelin-vial.png"],
-        "output_path": "public/images/guides/aod9604-vs-tesamorelin.png",
-        "description_lines": [
-            "Comparing AOD-9604 with Tesamorelin for",
-            "lipolysis, fat metabolism, GH release, and",
-            "body composition research.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Metabolic Research",
-    },
-    {
-        "compound": "Selank vs Semax (ADHD)",
-        "vial_paths": ["public/images/compounds/selank-vial.png", "public/images/compounds/semax-vial.png"],
-        "output_path": "public/images/guides/selank-vs-semax-adhd.png",
-        "description_lines": [
-            "Comparing Selank with Semax for ADHD-related",
-            "cognitive symptoms, focus enhancement, and",
-            "neurological research applications.",
-        ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Cognitive Research",
-    },
-    # === DEEP DIVES (single vial, white/blue style - FIXED from purple) ===
-    {
-        "compound": "BPC-157",
-        "vial_paths": ["public/images/compounds/bpc-157-vial.png"],
-        "output_path": "public/images/guides/bpc157-deep-dive-2.png",
-        "description_lines": [
-            "BPC-157 deep dive: mechanisms, tissue regeneration,",
-            "gastrointestinal healing, tendon repair, dosing",
-            "protocols, and current research evidence.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "GHK-Cu",
-        "vial_paths": ["public/images/compounds/ghk-cu-vial.png"],
-        "output_path": "public/images/guides/ghkcu-deep-dive.png",
-        "description_lines": [
-            "GHK-Cu deep dive: copper-binding tripeptide for",
-            "tissue regeneration, wound healing, anti-aging,",
-            "collagen synthesis, and hair regrowth research.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Retatrutide",
-        "vial_paths": ["public/images/compounds/retatrutide-vial.png"],
-        "output_path": "public/images/guides/retatrutide-deep-dive.png",
-        "description_lines": [
-            "Retatrutide deep dive: triple GIP/GLP-1/glucagon",
-            "agonist for metabolic research, weight reduction,",
-            "glycemic control, and Phase 2 trial data.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Semax",
-        "vial_paths": ["public/images/compounds/semax-vial.png"],
-        "output_path": "public/images/guides/semax-deep-dive.png",
-        "description_lines": [
-            "Semax deep dive: synthetic peptide for cognitive",
-            "enhancement, neuroprotection, BDNF modulation,",
-            "and neurological research applications.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Melanotan II",
-        "vial_paths": ["public/images/compounds/melanotan-ii-vial.png"],
-        "output_path": "public/images/guides/melanotan2-deep-dive.png",
-        "description_lines": [
-            "Melanotan II deep dive: synthetic melanocortin",
-            "agonist for tanning research, libido studies,",
-            "and melanogenesis pathway investigation.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Oxytocin",
-        "vial_paths": ["public/images/compounds/oxytocin-vial.png"],
-        "output_path": "public/images/guides/oxytocin-deep-dive.png",
-        "description_lines": [
-            "Oxytocin deep dive: neuropeptide for social",
-            "bonding, anxiety modulation, pain research, and",
-            "therapeutic applications in psychiatry.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Sermorelin",
-        "vial_paths": ["public/images/compounds/sermorelin-vial.png"],
-        "output_path": "public/images/guides/sermorelin-deep-dive.png",
-        "description_lines": [
-            "Sermorelin deep dive: GHRH analogue for growth",
-            "hormone stimulation, anti-aging research, body",
-            "composition, and peptide therapy protocols.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Tesamorelin",
-        "vial_paths": ["public/images/compounds/tesamorelin-vial.png"],
-        "output_path": "public/images/guides/tesamorelin-deep-dive.png",
-        "description_lines": [
-            "Tesamorelin deep dive: GHRH analogue for visceral",
-            "fat reduction, GH/IGF-1 elevation, and metabolic",
-            "research in HIV-associated lipodystrophy.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Semaglutide",
-        "vial_paths": ["public/images/compounds/semaglutide-vial.png"],
-        "output_path": "public/images/guides/semaglutide-deep-dive.png",
-        "description_lines": [
-            "Semaglutide deep dive: GLP-1 receptor agonist for",
-            "type 2 diabetes, obesity research, cardiovascular",
-            "outcomes, and metabolic health applications.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
-    },
-    {
-        "compound": "Tirzepatide",
-        "vial_paths": ["public/images/compounds/tirzepatide-vial.png"],
-        "output_path": "public/images/guides/tirzepatide-deep-dive-2.png",
-        "description_lines": [
-            "Tirzepatide deep dive: dual GIP/GLP-1 agonist",
-            "for metabolic research, superior weight loss,",
-            "glycemic control, and cardiovascular outcomes.",
-        ],
-        "badge_text": "Deep Dive Report",
-        "subtitle_text": "Deep Dive",
     },
 ]
 
