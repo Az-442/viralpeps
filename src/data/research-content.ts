@@ -6422,6 +6422,147 @@ const content: Record<string, ResearchPageContent> = {
   ]
 },
 
+
+'epitalon-research-summary': {
+  slug: 'epitalon-research-summary',
+  compoundSlug: 'epitalon',
+  pullQuote: 'Epitalon is a synthetic tetrapeptide (Ala-Glu-Asp-Gly) derived from the pineal gland that has been investigated for its potential to modulate age-related biological processes through telomerase activation and melatonin regulation.',
+  quickInfo: [
+    { label: 'Classification', value: 'Tetrapeptide' },
+    { label: 'Sequence', value: 'Ala-Glu-Asp-Gly' },
+    { label: 'Molecular Weight', value: '432.43 g/mol' },
+    { label: 'CAS Number', value: '130268-60-9' },
+    { label: 'Half-Life', value: 'Not well characterised in humans' },
+  ],
+  sections: [
+    { title: 'Introduction', body: 'Epitalon (also known as Epithalamin or Ala-Glu-Asp-Gly) is a synthetic tetrapeptide corresponding to the active fragment of epithalamin, a peptide preparation originally isolated from bovine pineal glands. First synthesised and characterised by Professor Vladimir Khavinson and colleagues at the Institute of Bioregulation and Gerontology in St Petersburg, Epitalon has been extensively studied in preclinical models for its potential to influence ageing processes, pineal gland function, and circadian rhythm regulation. As a research peptide of significant interest, Epitalon is available from 44 UK suppliers for laboratory investigation purposes. [**Compare Epitalon prices \u2192**](/compounds/epitalon)' },
+    { title: 'Mechanism of Action', body: 'Epitalon\u2019s proposed mechanisms of action are multi-faceted and continue to be investigated. The compound has been shown to upregulate telomerase activity by increasing expression of the catalytic subunit hTERT (human telomerase reverse transcriptase), which in cell-based assays leads to elongation of telomeres in somatic cells. Additionally, Epitalon appears to stimulate endogenous melatonin production by pinealocytes, thereby influencing circadian rhythm regulation and the sleep-wake cycle. The peptide also demonstrates antioxidant properties, reducing markers of oxidative stress in several tissue types. These converging effects \u2014 telomerase activation, melatonin stimulation, and antioxidant activity \u2014 form the basis for Epitalon\u2019s investigation as a potential geroprotective compound in preclinical research settings. [**Compare Epitalon prices \u2192**](/compounds/epitalon)' },
+    { title: 'Preclinical Research and Lifespan Studies', body: 'The most notable body of preclinical work on Epitalon comes from the Khavinson and Anisimov research groups, who conducted a series of long-term studies in rodent models over several decades. In these investigations, Epitalon administration was associated with increased median and maximum lifespan in mice, along with a reduced incidence of spontaneous tumour formation. The treated animals showed improved markers of immune function, reduced age-associated thymic involution, and better maintenance of circadian melatonin rhythms. While these findings are striking, they originate from a relatively small number of laboratories, and independent replication in diverse model organisms would strengthen the evidence base. It is important to note that these are preclinical findings only and their translatability to human biology remains an open research question. [**Compare Epitalon prices \u2192**](/compounds/epitalon)' },
+    { title: 'Research Applications and Current Status', body: 'Current research applications for Epitalon span several areas of investigative biology, including gerontology, chronobiology, and oncology. The peptide is predominantly studied in cell culture and animal models to explore its effects on telomere dynamics, pineal function, and age-related biomarkers. Epitalon is classified as a research compound only and is not approved for medical or therapeutic use by the MHRA, EMA, or FDA. For researchers working in the field of peptide bioregulators, Epitalon remains one of the more extensively characterised members of this class, alongside other investigational peptides such as Sermorelin. [**Related: Sermorelin Deep Dive \u2192**](/research/sermorelin-deep-dive)' },
+    { title: 'Safety and Tolerability Profile', body: 'In the available preclinical literature, Epitalon has generally been well tolerated across various animal models, with no consistently reported adverse effects at the doses investigated. Long-term rodent studies did not reveal overt toxicity, though systematic toxicological profiling using modern OECD guideline-compliant protocols is limited. As with all research peptides intended for laboratory investigation only, Epitalon should be handled in accordance with appropriate biosafety practices. The compound is supplied as a lyophilised powder and is typically reconstituted in sterile water or saline for in vitro or in vivo experimental use. [**Compare Epitalon prices \u2192**](/compounds/epitalon)' },
+  ],
+  faq: [
+    { question: 'What is Epitalon?', answer: 'Epitalon is a synthetic tetrapeptide with the sequence Ala-Glu-Asp-Gly (CAS 130268-60-9), derived from the pineal gland peptide epithalamin. It is used exclusively as a research compound in preclinical laboratory investigations.' },
+    { question: 'How does Epitalon work at the molecular level?', answer: 'Epitalon has been shown to upregulate telomerase activity via increased hTERT expression, stimulate melatonin production in pinealocytes, and reduce markers of oxidative stress. These three proposed mechanisms \u2014 telomerase activation, melatonin stimulation, and antioxidant activity \u2014 are the focus of ongoing research.' },
+    { question: 'Is Epitalon approved for medical use?', answer: 'No. Epitalon is not approved by the MHRA, EMA, FDA, or any other regulatory authority for medical or therapeutic use. It is supplied as a research compound for laboratory investigation only.' },
+    { question: 'Where can I find Epitalon for research purposes?', answer: 'Epitalon is listed by approximately 44 UK suppliers for research use. Researchers should source from reputable suppliers who provide independent third-party purity analysis (HPLC/MS). [**Compare Epitalon prices \u2192**](/compounds/epitalon)' },
+  ],
+  references: [
+    'Khavinson VK, et al. Peptide regulation of gene expression and protein synthesis in bronchial epithelium. Bull Exp Biol Med. 2002;134(4):370-2.',
+    'Anisimov VN, et al. Effect of epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female Swiss-derived SHR mice. Biogerontology. 2003;4(4):193-202.',
+    'Khavinson VK, et al. Peptide regulation of telomere length and telomerase activity. Bull Exp Biol Med. 2009;148(6):894-6.',
+    'Khavinson VK, et al. Tetrapeptide restores the thymus in aged mice. Bull Exp Biol Med. 2004;137(6):605-7.',
+    'Korkushko OV, et al. Effect of epitalon on the circadian rhythm of melatonin production in elderly people. Bull Exp Biol Med. 2006;142(4):489-91.',
+    'Khavinson VK, et al. Peptide-induced regulation of pineal melatonin synthesis. Neuro Endocrinol Lett. 2011;32(4):487-90.',
+    'Anisimov VN, et al. Twenty years of study on effects of pineal peptide preparation: epithalamin and epitalon in experimental gerontology and oncology. Ann N Y Acad Sci. 2005;1057:118-35.',
+  ],
+},
+
+'dsip-research-summary': {
+  slug: 'dsip-research-summary',
+  compoundSlug: 'dsip',
+  pullQuote: 'DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring nonapeptide first isolated in 1977 that has been studied for its potential role in promoting delta-wave sleep, modulating the stress response, and influencing pain perception in preclinical models.',
+  quickInfo: [
+    { label: 'Classification', value: 'Nonapeptide' },
+    { label: 'Sequence', value: 'Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu' },
+    { label: 'Molecular Weight', value: '848.88 g/mol' },
+    { label: 'CAS Number', value: '62568-57-4' },
+    { label: 'Half-Life', value: '~7-10 minutes (plasma)' },
+  ],
+  sections: [
+    { title: 'Introduction', body: 'Delta Sleep-Inducing Peptide (DSIP) is a naturally occurring nonapeptide with the sequence Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu, first isolated from the cerebral venous blood of rabbits during sleep induction by Schoenenberger and Monnier in 1977. Despite decades of research, DSIP remains a relatively enigmatic compound in the peptide research field. It has been detected in multiple mammalian species and is thought to cross the blood-brain barrier via carrier-mediated transport. The peptide is available from 39 UK suppliers for laboratory research purposes. [**Compare DSIP prices \u2192**](/compounds/dsip)' },
+    { title: 'Mechanism of Action', body: 'One of the most intriguing aspects of DSIP research is that no confirmed receptor for the peptide has been identified to date, as highlighted by Kovalzon and Strekalova in their 2006 review. Despite this, DSIP has been shown to influence several physiological processes. The peptide appears to promote delta-wave sleep (slow-wave sleep) in animal models, though its sleep-inducing effects have been inconsistent across species and experimental paradigms. DSIP also modulates the hypothalamic-pituitary-adrenal (HPA) axis, attenuating stress-induced elevations of corticosterone and ACTH in rodent models. Additionally, the peptide has been investigated for its effects on pain perception, with some studies suggesting it may influence endogenous opioid systems. The lack of a characterised receptor makes DSIP a particularly challenging yet fascinating subject for neuropeptide researchers. [**Compare DSIP prices \u2192**](/compounds/dsip)' },
+    { title: 'Blood-Brain Barrier Penetration', body: 'DSIP is notable among neuropeptides for its demonstrated ability to cross the blood-brain barrier (BBB). Research suggests that DSIP employs a carrier-mediated transport system rather than simple passive diffusion, which allows the intact peptide to reach central nervous system compartments. This property distinguishes DSIP from many other peptides that are rapidly degraded in the periphery or cannot cross the BBB in meaningful quantities. The precise molecular identity of the transporter or carriers involved has not been fully elucidated, and this area remains an active subject of investigation for researchers interested in peptide delivery to the brain. The ability of DSIP to access the central nervous system underpins many of its proposed neuroactive effects in preclinical studies. [**Compare DSIP prices \u2192**](/compounds/dsip)' },
+    { title: 'Stress Modulation and Neuroendocrine Effects', body: 'Preclinical evidence has indicated that DSIP may possess stress-modulatory properties. In rodent stress models, administration of DSIP prior to stress exposure has been associated with attenuated increases in plasma corticosterone levels and reduced behavioural indices of anxiety. These effects are hypothesised to involve modulation of the HPA axis at the level of the hypothalamus or pituitary. DSIP has also been investigated in the context of pain perception, with some studies reporting analgesic-like effects in animal models of acute and inflammatory pain. It should be emphasised that these are preclinical findings, and the mechanisms underlying DSIP\u2019s neuroendocrine effects have not been fully characterised. Researchers interested in neuropeptide modulation of stress pathways may find DSIP a valuable tool compound for exploratory studies. [**Related: Selank Research Summary \u2192**](/research/selank-research-summary)' },
+    { title: 'Research Applications and Current Status', body: 'DSIP is used exclusively as a research compound and is not approved for medical or therapeutic use by any regulatory authority, including the MHRA, EMA, or FDA. Current research applications focus on understanding its neuropeptide signalling properties, its effects on sleep architecture in animal models, and its potential role in modulating the stress response. DSIP\u2019s unresolved receptor status makes it an interesting target for deorphanisation studies \u2014 efforts to identify the endogenous receptor through which this naturally occurring peptide exerts its effects. For laboratories equipped for neuropeptide research, DSIP represents a unique tool for investigating peptide-mediated central nervous system regulation. [**Compare DSIP prices \u2192**](/compounds/dsip)' },
+  ],
+  faq: [
+    { question: 'What is DSIP?', answer: 'DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring nonapeptide (Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu, CAS 62568-57-4) first isolated from rabbit cerebral venous blood in 1977. It is used exclusively as a research compound for laboratory investigation.' },
+    { question: 'Does DSIP have a known receptor?', answer: 'No confirmed receptor for DSIP has been identified to date. As noted by Kovalzon and Strekalova (2006), the peptide\u2019s mechanisms of action remain incompletely understood, and its receptor status is an active area of research investigation.' },
+    { question: 'Can DSIP cross the blood-brain barrier?', answer: 'Yes. Research indicates that DSIP crosses the BBB via carrier-mediated transport, which distinguishes it from many neuropeptides that cannot access the central nervous system in significant quantities after peripheral administration.' },
+    { question: 'Is DSIP approved for medical use?', answer: 'No. DSIP is not approved by the MHRA, EMA, FDA, or any other regulatory body for medical or therapeutic use. It is supplied as a research compound for laboratory investigation only.' },
+  ],
+  references: [
+    'Schoenenberger GA, Monnier M. Characterization of a delta-electroencephalogram(-sleep)-inducing peptide. Proc Natl Acad Sci USA. 1977;74(3):1282-6.',
+    'Kovalzon VM, Strekalova TV. Delta sleep-inducing peptide (DSIP): an update. Curr Drug Targets. 2006;7(6):749-59.',
+    'Graf MV, Kastin AJ. Delta-sleep-inducing peptide (DSIP): a review. Neurosci Biobehav Rev. 1984;8(1):83-93.',
+    'Graf MV, et al. DSIP crosses the blood-brain barrier. Brain Res Bull. 1984;12(2):179-82.',
+    'Yehuda S, et al. The effects of DSIP on pain threshold and pain tolerance in rats. Int J Neurosci. 1993;69(1-4):91-7.',
+    'Sudakov KV, et al. Delta-sleep-inducing peptide and its analogs: structure-activity relationship. Patol Fiziol Eksp Ter. 2003;(4):3-7.',
+    'Mikhaleva IG, et al. Delta sleep inducing peptide (DSIP) and its analogs: synthesis and biological activity. J Pept Sci. 2005;11(6):338-43.',
+  ],
+},
+
+'ghrp-6-research-summary': {
+  slug: 'ghrp-6-research-summary',
+  compoundSlug: 'ghrp-6',
+  pullQuote: 'GHRP-6 is a synthetic hexapeptide growth hormone secretagogue that was among the first non-natural ghrelin receptor agonists developed, known for its potent GH-releasing activity and distinctive appetite-stimulating effects in preclinical models.',
+  quickInfo: [
+    { label: 'Classification', value: 'Hexapeptide' },
+    { label: 'Sequence', value: 'His-D-Trp-Ala-Trp-D-Phe-Lys-NH2' },
+    { label: 'Molecular Weight', value: '873.01 g/mol' },
+    { label: 'CAS Number', value: '87616-84-0' },
+    { label: 'Half-Life', value: '~15-20 minutes' },
+  ],
+  sections: [
+    { title: 'Introduction', body: 'GHRP-6 (Growth Hormone Releasing Peptide-6) is a synthetic hexapeptide belonging to the growth hormone secretagogue (GHS) family. It was one of the earliest non-natural peptide GHSs developed, emerging from the pioneering work of Bowers and colleagues in the 1980s who systematically investigated modified enkephalin analogues for GH-releasing activity. With the sequence His-D-Trp-Ala-Trp-D-Phe-Lys-NH2, GHRP-6 acts as a potent agonist at the ghrelin receptor (GHS-R1a). It is available from approximately 23 UK suppliers for research purposes. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+    { title: 'Mechanism of Action', body: 'GHRP-6 exerts its effects primarily through agonism of the growth hormone secretagogue receptor type 1a (GHS-R1a), the same G-protein-coupled receptor that is activated by the endogenous hormone ghrelin. Upon binding to GHS-R1a in the pituitary and hypothalamus, GHRP-6 stimulates the release of growth hormone (GH) from somatotroph cells. This signalling pathway involves activation of phospholipase C, leading to increased intracellular calcium and subsequent GH exocytosis. In addition to GH release, GHRP-6 has been shown to elevate levels of cortisol, ACTH, prolactin, and aldosterone \u2014 a broader hormonal response profile compared to more selective secretagogues such as ipamorelin. GHRP-6 also potently stimulates appetite through activation of GHS-R1a in the hypothalamic arcuate nucleus, an effect that distinguishes it from many other GHS compounds. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+    { title: 'GH Secretagogue Selectivity and Hormonal Profile', body: 'The hormonal effects of GHRP-6 are notably broad in comparison to other GHS compounds. While its GH-releasing potency is well established, GHRP-6 also induces significant elevations in ACTH and cortisol, likely through activation of GHS-R1a expressed on pituitary corticotroph cells and in the paraventricular nucleus of the hypothalamus. Prolactin levels also increase following GHRP-6 administration in preclinical models. This broader hormonal profile is a consequence of GHRP-6 being a full agonist at GHS-R1a, with less receptor subtype selectivity than later-generation secretagogues. For researchers comparing GHS compounds, GHRP-6 serves as a useful reference standard for the effects of potent, non-selective GHS-R1a activation. [**Related: Ipamorelin Research Summary \u2192**](/research/ipamorelin-research-summary)' },
+    { title: 'Appetite Stimulation and Metabolic Effects', body: 'One of the most distinctive properties of GHRP-6 in preclinical studies is its pronounced appetite-stimulating effect. Activation of GHS-R1a in the hypothalamic arcuate nucleus by GHRP-6 increases the expression of neuropeptide Y (NPY) and agouti-related peptide (AgRP), two potent orexigenic neuropeptides. This effect has been consistently observed across multiple rodent and larger animal studies. The appetite-stimulating property of GHRP-6 has been investigated in the context of cachexia and wasting models, where it has been shown to increase food intake and body weight in preclinical settings. This metabolic effect distinguishes GHRP-6 from GHS compounds such as ipamorelin, which shows minimal appetite stimulation at GH-relevant doses. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+    { title: 'Cardioprotective Preclinical Research', body: 'Emerging preclinical evidence has suggested that GHRP-6 may possess cardioprotective properties. In isolated heart models and in vivo rodent models of myocardial ischaemia-reperfusion injury, GHRP-6 administration has been associated with reduced infarct size and improved cardiac function. These effects are thought to be mediated through GHS-R1a expressed in cardiomyocytes, activating survival signalling pathways including PI3K/Akt and ERK1/2. Additionally, GHRP-6 has been shown to reduce apoptosis in cardiac tissue under ischaemic conditions. While these findings are preliminary and limited to animal models, they open an interesting avenue for future research into the potential non-endocrine effects of ghrelin receptor agonists. As with all GHRP-6 research, these applications are strictly investigational and not approved for clinical use. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+  ],
+  faq: [
+    { question: 'What is GHRP-6?', answer: 'GHRP-6 is a synthetic hexapeptide (His-D-Trp-Ala-Trp-D-Phe-Lys-NH2, CAS 87616-84-0) that acts as a potent agonist at the ghrelin receptor GHS-R1a. It is used exclusively as a research compound to investigate GH secretagogue signalling and related metabolic pathways.' },
+    { question: 'How does GHRP-6 differ from ipamorelin?', answer: 'GHRP-6 has a broader hormonal profile than ipamorelin, causing greater elevations of cortisol, ACTH, and prolactin alongside GH release. GHRP-6 also potently stimulates appetite, whereas ipamorelin shows minimal orexigenic effects at GH-relevant doses. Ipamorelin is considered a more selective GHS compound.' },
+    { question: 'Does GHRP-6 affect appetite?', answer: 'Yes. GHRP-6 is one of the most potent appetite-stimulating GHS compounds known, acting through GHS-R1a activation in the hypothalamic arcuate nucleus to increase NPY and AgRP expression. This effect has been consistently observed in preclinical animal models.' },
+    { question: 'Is GHRP-6 approved for medical use?', answer: 'No. GHRP-6 is not approved by the MHRA, EMA, FDA, or any other regulatory body for medical or therapeutic use. It is supplied as a research compound for laboratory investigation only.' },
+  ],
+  references: [
+    'Bowers CY, et al. Structure-activity relationships of a synthetic pentapeptide that specifically releases growth hormone in vitro. Endocrinology. 1980;106(3):663-7.',
+    'Bowers CY, et al. On the in vitro and in vivo activity of a new synthetic hexapeptide that acts on the pituitary to specifically release growth hormone. Endocrinology. 1984;114(5):1537-45.',
+    'Kojima M, et al. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. Nature. 1999;402(6762):656-60.',
+    'Ghigo E, et al. Growth hormone secretagogues: clinical perspectives. J Pediatr Endocrinol Metab. 2000;13(Suppl 2):1355-60.',
+    'Locatelli V, et al. Growth hormone secretagogues and the cardiovascular system. Endocrine. 2003;22(1):53-9.',
+    'Kishimoto I, et al. Therapeutic potential of ghrelin and synthetic GHS in cardiovascular diseases. Curr Med Chem. 2006;13(28):3399-408.',
+    'Frigerio F, et al. Cardioprotective effect of GHRP-6 in a rat model of myocardial ischemia-reperfusion. Peptides. 2011;32(3):535-40.',
+  ],
+},
+
+'ghrp-2-research-summary': {
+  slug: 'ghrp-2-research-summary',
+  compoundSlug: 'ghrp-2',
+  pullQuote: 'GHRP-2 (pralmorelin) is a synthetic hexapeptide growth hormone secretagogue that activates the ghrelin receptor with higher selectivity than GHRP-6, offering a distinct hormonal profile for research into GH-releasing peptide signalling.',
+  quickInfo: [
+    { label: 'Classification', value: 'Hexapeptide' },
+    { label: 'Sequence', value: 'D-Ala-D-2Nal-Ala-Trp-D-Phe-Lys-NH2' },
+    { label: 'Molecular Weight', value: '817.95 g/mol' },
+    { label: 'CAS Number', value: '158861-67-7' },
+    { label: 'Half-Life', value: '~15-25 minutes' },
+  ],
+  sections: [
+    { title: 'Introduction', body: 'GHRP-2 (also known as pralmorelin) is a synthetic hexapeptide growth hormone secretagogue developed as part of the ongoing refinement of peptide GHS compounds. With the sequence D-Ala-D-2Nal-Ala-Trp-D-Phe-Lys-NH2, GHRP-2 represents a structural evolution from earlier GHS compounds such as GHRP-6, incorporating D-amino acid substitutions that enhance metabolic stability. GHRP-2 is a potent agonist at the growth hormone secretagogue receptor GHS-R1a and is available from approximately 20 UK suppliers for research purposes. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+    { title: 'Mechanism of Action', body: 'GHRP-2 acts as an agonist at the GHS-R1a receptor, the same G-protein-coupled receptor targeted by the endogenous hormone ghrelin. Upon receptor activation, GHRP-2 stimulates GH release from pituitary somatotroph cells via the phospholipase C/inositol phosphate signalling cascade, leading to elevated intracellular calcium and exocytosis of GH-containing secretory granules. As a potent GHS-R1a agonist, GHRP-2 also influences other hormonal axes, resulting in measurable increases in cortisol, ACTH, and prolactin, though these effects are generally less pronounced than those observed with GHRP-6. This intermediate hormonal profile positions GHRP-2 between the broad-acting GHRP-6 and the more selective ipamorelin on the spectrum of GHS selectivity. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+    { title: 'Selectivity Profile and Hormonal Effects', body: 'The selectivity profile of GHRP-2 is an important consideration for researchers working with GHS compounds. Compared to GHRP-6, GHRP-2 demonstrates better receptor selectivity, producing proportionally less elevation of ACTH, cortisol, and prolactin relative to its GH-releasing effect. However, it remains less selective than ipamorelin, which shows minimal activation of non-GH hormonal pathways. The intermediate hormonal profile of GHRP-2 makes it a valuable reference compound for studies examining the structure-activity relationships of GHS-R1a ligands. Additionally, the D-amino acid residues in GHRP-2\u2019s sequence (D-Ala and D-2Nal) confer improved resistance to proteolytic degradation compared to L-amino acid peptides, contributing to its approximately 15-25 minute plasma half-life in preclinical models. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+    { title: 'GH-Releasing Potency and Pharmacodynamics', body: 'GHRP-2 is among the more potent GH secretagogues in the GHS peptide family. In preclinical studies, GHRP-2 has demonstrated robust GH-releasing activity, with a dose-response profile that has been characterised in multiple animal models. The compound\u2019s shorter half-life relative to modified GHS compounds (such as CJC-1295 with DAC) means that its GH-releasing effects are transient, peaking rapidly after administration and declining as the peptide is cleared. This pharmacokinetic profile may be relevant for researchers designing experimental protocols to investigate pulsatile versus sustained GH receptor activation. The relationship between GHRP-2 dose and GH response follows a predictable sigmoidal curve in animal models, providing a well-characterised tool for GHS research. [**Related: CJC-1295 Research Summary \u2192**](/research/cjc1295-research-summary)' },
+    { title: 'Research Applications and Current Status', body: 'GHRP-2 is classified as a research compound only and is not approved for medical or therapeutic use by the MHRA, EMA, or FDA. Current research applications include comparative studies of GHS-R1a agonist selectivity, investigation of GH-IGF-1 axis regulation, and exploration of ghrelin receptor signalling pathways. GHRP-2 is frequently used alongside other GHS compounds such as GHRP-6 and ipamorelin in head-to-head studies examining the structure-activity relationships of synthetic ghrelin receptor ligands. For researchers investigating the growth hormone secretagogue system, GHRP-2 represents a well-characterised tool compound with a distinct pharmacological profile. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+  ],
+  faq: [
+    { question: 'What is GHRP-2?', answer: 'GHRP-2 (pralmorelin) is a synthetic hexapeptide with the sequence D-Ala-D-2Nal-Ala-Trp-D-Phe-Lys-NH2 (CAS 158861-67-7). It acts as a potent agonist at the ghrelin receptor GHS-R1a and is used exclusively as a research compound for laboratory investigation.' },
+    { question: 'How does GHRP-2 compare to GHRP-6?', answer: 'GHRP-2 demonstrates better receptor selectivity than GHRP-6, producing less elevation of cortisol, ACTH, and prolactin relative to its GH-releasing effect. GHRP-2 also incorporates D-amino acids that improve its resistance to enzymatic degradation, contributing to a slightly longer half-life.' },
+    { question: 'What is the half-life of GHRP-2?', answer: 'GHRP-2 has a plasma half-life of approximately 15-25 minutes in preclinical models, which is slightly longer than GHRP-6 (~15-20 minutes) due to the stabilising D-amino acid residues in its sequence.' },
+    { question: 'Is GHRP-2 approved for medical use?', answer: 'No. GHRP-2 is not approved by the MHRA, EMA, FDA, or any other regulatory authority for medical or therapeutic use. It is supplied as a research compound for laboratory investigation only.' },
+  ],
+  references: [
+    'Bowers CY, et al. Studies on the minimum-length requirement for growth hormone-releasing activity of GHRP-6. Endocrinology. 1990;126(5):2585-93.',
+    'Deghenghi R, et al. New growth hormone secretagogues. In: Bercu BB, Walker RF, eds. Growth Hormone Secretagogues. Springer; 1995:137-46.',
+    'Smith RG, et al. Peptidomimetic regulation of growth hormone secretion. Endocr Rev. 1997;18(5):621-45.',
+    'Muccioli G, et al. GH-releasing activity of hexarelin, a new growth hormone releasing peptide, in children with short stature. J Clin Endocrinol Metab. 1998;83(4):1170-4.',
+    'Korbonits M, Grossman AB. Growth hormone-releasing peptide and its analogues: novel stimuli to growth hormone release. Clin Endocrinol. 1999;50(6):691-8.',
+    'Camanni F, Ghigo E. The GH-releasing activity of synthetic hexapeptides in man. J Endocrinol Invest. 2000;23(5):327-32.',
+    'Bowers CY. GH secretagogues: history and development. Front Horm Res. 2010;38:1-12.',
+  ],
+},
+
 };
 
 export default content;
