@@ -1355,5 +1355,33 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "form-peptides",
+    "name": "FORM Peptides",
+    "slug": "form-peptides",
+    "website": "https://formpeptides.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2026,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering a curated range of peptides across five fields of study, verified to ≥98% HPLC purity and dispatched from the UK. All products ship with Certificates of Analysis (COA). Same-week UK dispatch with bank transfer and cryptocurrency payment options.",
+    "highlights": [
+      "≥98% HPLC purity",
+      "COA per batch",
+      "UK dispatch",
+      "Preloaded pen options",
+      "Bulk supply available"
+    ],
+    "shipping": [
+      "UK (same-week dispatch, 2-5 working days)",
+      "Free shipping over £150"
+    ],
+    "payment": [
+      "Bank transfer",
+      "Cryptocurrency"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
