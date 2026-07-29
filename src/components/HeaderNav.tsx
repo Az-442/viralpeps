@@ -85,7 +85,6 @@ export default function HeaderNav({ current }: { current?: string }) {
                       {rl.label}
                     </Link>
                   ))}
-                  </div>
                 </div>
               </div>
             </div>
@@ -109,7 +108,6 @@ export default function HeaderNav({ current }: { current?: string }) {
                       {tl.label}
                     </Link>
                   ))}
-                  </div>
                 </div>
               </div>
             </div>
@@ -222,4 +220,3 @@ export default function HeaderNav({ current }: { current?: string }) {
     </nav>
   );
 }
-
