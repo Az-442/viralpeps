@@ -87,6 +87,7 @@ export default function HeaderNav({ current }: { current?: string }) {
                   ))}
                 </div>
               </div>
+              </div>
             </div>
 
             <div className="relative group">
@@ -110,6 +111,7 @@ export default function HeaderNav({ current }: { current?: string }) {
                   ))}
                 </div>
               </div>
+            </div>
             </div>
 
             {rightLinks.map((l) => (

@@ -6422,6 +6422,76 @@ const content: Record<string, ResearchPageContent> = {
   ]
 },
 
+'ghrp-6-research-summary': {
+  slug: 'ghrp-6-research-summary',
+  compoundSlug: 'ghrp-6',
+  pullQuote: 'GHRP-6 is a synthetic hexapeptide growth hormone secretagogue that was among the first non-natural ghrelin receptor agonists developed, known for its potent GH-releasing activity and distinctive appetite-stimulating effects in preclinical models.',
+  quickInfo: [
+    { label: 'Classification', value: 'Hexapeptide' },
+    { label: 'Sequence', value: 'His-D-Trp-Ala-Trp-D-Phe-Lys-NH2' },
+    { label: 'Molecular Weight', value: '873.01 g/mol' },
+    { label: 'CAS Number', value: '87616-84-0' },
+    { label: 'Half-Life', value: '~15-20 minutes' },
+  ],
+  sections: [
+    { title: 'Introduction', body: 'GHRP-6 (Growth Hormone Releasing Peptide-6) is a synthetic hexapeptide belonging to the growth hormone secretagogue (GHS) family. It was one of the earliest non-natural peptide GHSs developed, emerging from the pioneering work of Bowers and colleagues in the 1980s who systematically investigated modified enkephalin analogues for GH-releasing activity. With the sequence His-D-Trp-Ala-Trp-D-Phe-Lys-NH2, GHRP-6 acts as a potent agonist at the ghrelin receptor (GHS-R1a). It is available from approximately 23 UK suppliers for research purposes. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+    { title: 'Mechanism of Action', body: 'GHRP-6 exerts its effects primarily through agonism of the growth hormone secretagogue receptor type 1a (GHS-R1a), the same G-protein-coupled receptor that is activated by the endogenous hormone ghrelin. Upon binding to GHS-R1a in the pituitary and hypothalamus, GHRP-6 stimulates the release of growth hormone (GH) from somatotroph cells. This signalling pathway involves activation of phospholipase C, leading to increased intracellular calcium and subsequent GH exocytosis. In addition to GH release, GHRP-6 has been shown to elevate levels of cortisol, ACTH, prolactin, and aldosterone \u2014 a broader hormonal response profile compared to more selective secretagogues such as ipamorelin. GHRP-6 also potently stimulates appetite through activation of GHS-R1a in the hypothalamic arcuate nucleus, an effect that distinguishes it from many other GHS compounds. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+    { title: 'GH Secretagogue Selectivity and Hormonal Profile', body: 'The hormonal effects of GHRP-6 are notably broad in comparison to other GHS compounds. While its GH-releasing potency is well established, GHRP-6 also induces significant elevations in ACTH and cortisol, likely through activation of GHS-R1a expressed on pituitary corticotroph cells and in the paraventricular nucleus of the hypothalamus. Prolactin levels also increase following GHRP-6 administration in preclinical models. This broader hormonal profile is a consequence of GHRP-6 being a full agonist at GHS-R1a, with less receptor subtype selectivity than later-generation secretagogues. For researchers comparing GHS compounds, GHRP-6 serves as a useful reference standard for the effects of potent, non-selective GHS-R1a activation. [**Related: Ipamorelin Research Summary \u2192**](/research/ipamorelin-research-summary)' },
+    { title: 'Appetite Stimulation and Metabolic Effects', body: 'One of the most distinctive properties of GHRP-6 in preclinical studies is its pronounced appetite-stimulating effect. Activation of GHS-R1a in the hypothalamic arcuate nucleus by GHRP-6 increases the expression of neuropeptide Y (NPY) and agouti-related peptide (AgRP), two potent orexigenic neuropeptides. This effect has been consistently observed across multiple rodent and larger animal studies. The appetite-stimulating property of GHRP-6 has been investigated in the context of cachexia and wasting models, where it has been shown to increase food intake and body weight in preclinical settings. This metabolic effect distinguishes GHRP-6 from GHS compounds such as ipamorelin, which shows minimal appetite stimulation at GH-relevant doses. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+    { title: 'Cardioprotective Preclinical Research', body: 'Emerging preclinical evidence has suggested that GHRP-6 may possess cardioprotective properties. In isolated heart models and in vivo rodent models of myocardial ischaemia-reperfusion injury, GHRP-6 administration has been associated with reduced infarct size and improved cardiac function. These effects are thought to be mediated through GHS-R1a expressed in cardiomyocytes, activating survival signalling pathways including PI3K/Akt and ERK1/2. Additionally, GHRP-6 has been shown to reduce apoptosis in cardiac tissue under ischaemic conditions. While these findings are preliminary and limited to animal models, they open an interesting avenue for future research into the potential non-endocrine effects of ghrelin receptor agonists. As with all GHRP-6 research, these applications are strictly investigational and not approved for clinical use. [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)' },
+  ],
+  faq: [
+    { question: 'What is GHRP-6?', answer: 'GHRP-6 is a synthetic hexapeptide (His-D-Trp-Ala-Trp-D-Phe-Lys-NH2, CAS 87616-84-0) that acts as a potent agonist at the ghrelin receptor GHS-R1a. It is used exclusively as a research compound to investigate GH secretagogue signalling and related metabolic pathways.' },
+    { question: 'How does GHRP-6 differ from ipamorelin?', answer: 'GHRP-6 has a broader hormonal profile than ipamorelin, causing greater elevations of cortisol, ACTH, and prolactin alongside GH release. GHRP-6 also potently stimulates appetite, whereas ipamorelin shows minimal orexigenic effects at GH-relevant doses. Ipamorelin is considered a more selective GHS compound.' },
+    { question: 'Does GHRP-6 affect appetite?', answer: 'Yes. GHRP-6 is one of the most potent appetite-stimulating GHS compounds known, acting through GHS-R1a activation in the hypothalamic arcuate nucleus to increase NPY and AgRP expression. This effect has been consistently observed in preclinical animal models.' },
+    { question: 'Is GHRP-6 approved for medical use?', answer: 'No. GHRP-6 is not approved by the MHRA, EMA, FDA, or any other regulatory body for medical or therapeutic use. It is supplied as a research compound for laboratory investigation only.' },
+  ],
+  references: [
+    'Bowers CY, et al. Structure-activity relationships of a synthetic pentapeptide that specifically releases growth hormone in vitro. Endocrinology. 1980;106(3):663-7.',
+    'Bowers CY, et al. On the in vitro and in vivo activity of a new synthetic hexapeptide that acts on the pituitary to specifically release growth hormone. Endocrinology. 1984;114(5):1537-45.',
+    'Kojima M, et al. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. Nature. 1999;402(6762):656-60.',
+    'Ghigo E, et al. Growth hormone secretagogues: clinical perspectives. J Pediatr Endocrinol Metab. 2000;13(Suppl 2):1355-60.',
+    'Locatelli V, et al. Growth hormone secretagogues and the cardiovascular system. Endocrine. 2003;22(1):53-9.',
+    'Kishimoto I, et al. Therapeutic potential of ghrelin and synthetic GHS in cardiovascular diseases. Curr Med Chem. 2006;13(28):3399-408.',
+    'Frigerio F, et al. Cardioprotective effect of GHRP-6 in a rat model of myocardial ischemia-reperfusion. Peptides. 2011;32(3):535-40.',
+  ],
+},
+
+'ghrp-2-research-summary': {
+  slug: 'ghrp-2-research-summary',
+  compoundSlug: 'ghrp-2',
+  pullQuote: 'GHRP-2 (pralmorelin) is a synthetic hexapeptide growth hormone secretagogue that activates the ghrelin receptor with higher selectivity than GHRP-6, offering a distinct hormonal profile for research into GH-releasing peptide signalling.',
+  quickInfo: [
+    { label: 'Classification', value: 'Hexapeptide' },
+    { label: 'Sequence', value: 'D-Ala-D-2Nal-Ala-Trp-D-Phe-Lys-NH2' },
+    { label: 'Molecular Weight', value: '817.95 g/mol' },
+    { label: 'CAS Number', value: '158861-67-7' },
+    { label: 'Half-Life', value: '~15-25 minutes' },
+  ],
+  sections: [
+    { title: 'Introduction', body: 'GHRP-2 (also known as pralmorelin) is a synthetic hexapeptide growth hormone secretagogue developed as part of the ongoing refinement of peptide GHS compounds. With the sequence D-Ala-D-2Nal-Ala-Trp-D-Phe-Lys-NH2, GHRP-2 represents a structural evolution from earlier GHS compounds such as GHRP-6, incorporating D-amino acid substitutions that enhance metabolic stability. GHRP-2 is a potent agonist at the growth hormone secretagogue receptor GHS-R1a and is available from approximately 20 UK suppliers for research purposes. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+    { title: 'Mechanism of Action', body: 'GHRP-2 acts as an agonist at the GHS-R1a receptor, the same G-protein-coupled receptor targeted by the endogenous hormone ghrelin. Upon receptor activation, GHRP-2 stimulates GH release from pituitary somatotroph cells via the phospholipase C/inositol phosphate signalling cascade, leading to elevated intracellular calcium and exocytosis of GH-containing secretory granules. As a potent GHS-R1a agonist, GHRP-2 also influences other hormonal axes, resulting in measurable increases in cortisol, ACTH, and prolactin, though these effects are generally less pronounced than those observed with GHRP-6. This intermediate hormonal profile positions GHRP-2 between the broad-acting GHRP-6 and the more selective ipamorelin on the spectrum of GHS selectivity. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+    { title: 'Selectivity Profile and Hormonal Effects', body: 'The selectivity profile of GHRP-2 is an important consideration for researchers working with GHS compounds. Compared to GHRP-6, GHRP-2 demonstrates better receptor selectivity, producing proportionally less elevation of ACTH, cortisol, and prolactin relative to its GH-releasing effect. However, it remains less selective than ipamorelin, which shows minimal activation of non-GH hormonal pathways. The intermediate hormonal profile of GHRP-2 makes it a valuable reference compound for studies examining the structure-activity relationships of GHS-R1a ligands. Additionally, the D-amino acid residues in GHRP-2\u2019s sequence (D-Ala and D-2Nal) confer improved resistance to proteolytic degradation compared to L-amino acid peptides, contributing to its approximately 15-25 minute plasma half-life in preclinical models. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+    { title: 'GH-Releasing Potency and Pharmacodynamics', body: 'GHRP-2 is among the more potent GH secretagogues in the GHS peptide family. In preclinical studies, GHRP-2 has demonstrated robust GH-releasing activity, with a dose-response profile that has been characterised in multiple animal models. The compound\u2019s shorter half-life relative to modified GHS compounds (such as CJC-1295 with DAC) means that its GH-releasing effects are transient, peaking rapidly after administration and declining as the peptide is cleared. This pharmacokinetic profile may be relevant for researchers designing experimental protocols to investigate pulsatile versus sustained GH receptor activation. The relationship between GHRP-2 dose and GH response follows a predictable sigmoidal curve in animal models, providing a well-characterised tool for GHS research. [**Related: CJC-1295 Research Summary \u2192**](/research/cjc1295-research-summary)' },
+    { title: 'Research Applications and Current Status', body: 'GHRP-2 is classified as a research compound only and is not approved for medical or therapeutic use by the MHRA, EMA, or FDA. Current research applications include comparative studies of GHS-R1a agonist selectivity, investigation of GH-IGF-1 axis regulation, and exploration of ghrelin receptor signalling pathways. GHRP-2 is frequently used alongside other GHS compounds such as GHRP-6 and ipamorelin in head-to-head studies examining the structure-activity relationships of synthetic ghrelin receptor ligands. For researchers investigating the growth hormone secretagogue system, GHRP-2 represents a well-characterised tool compound with a distinct pharmacological profile. [**Compare GHRP-2 prices \u2192**](/compounds/ghrp-2)' },
+  ],
+  faq: [
+    { question: 'What is GHRP-2?', answer: 'GHRP-2 (pralmorelin) is a synthetic hexapeptide with the sequence D-Ala-D-2Nal-Ala-Trp-D-Phe-Lys-NH2 (CAS 158861-67-7). It acts as a potent agonist at the ghrelin receptor GHS-R1a and is used exclusively as a research compound for laboratory investigation.' },
+    { question: 'How does GHRP-2 compare to GHRP-6?', answer: 'GHRP-2 demonstrates better receptor selectivity than GHRP-6, producing less elevation of cortisol, ACTH, and prolactin relative to its GH-releasing effect. GHRP-2 also incorporates D-amino acids that improve its resistance to enzymatic degradation, contributing to a slightly longer half-life.' },
+    { question: 'What is the half-life of GHRP-2?', answer: 'GHRP-2 has a plasma half-life of approximately 15-25 minutes in preclinical models, which is slightly longer than GHRP-6 (~15-20 minutes) due to the stabilising D-amino acid residues in its sequence.' },
+    { question: 'Is GHRP-2 approved for medical use?', answer: 'No. GHRP-2 is not approved by the MHRA, EMA, FDA, or any other regulatory authority for medical or therapeutic use. It is supplied as a research compound for laboratory investigation only.' },
+  ],
+  references: [
+    'Bowers CY, et al. Studies on the minimum-length requirement for growth hormone-releasing activity of GHRP-6. Endocrinology. 1990;126(5):2585-93.',
+    'Deghenghi R, et al. New growth hormone secretagogues. In: Bercu BB, Walker RF, eds. Growth Hormone Secretagogues. Springer; 1995:137-46.',
+    'Smith RG, et al. Peptidomimetic regulation of growth hormone secretion. Endocr Rev. 1997;18(5):621-45.',
+    'Muccioli G, et al. GH-releasing activity of hexarelin, a new growth hormone releasing peptide, in children with short stature. J Clin Endocrinol Metab. 1998;83(4):1170-4.',
+    'Korbonits M, Grossman AB. Growth hormone-releasing peptide and its analogues: novel stimuli to growth hormone release. Clin Endocrinol. 1999;50(6):691-8.',
+    'Camanni F, Ghigo E. The GH-releasing activity of synthetic hexapeptides in man. J Endocrinol Invest. 2000;23(5):327-32.',
+    'Bowers CY. GH secretagogues: history and development. Front Horm Res. 2010;38:1-12.',
+  ],
+},
+
 };
 
 export default content;
