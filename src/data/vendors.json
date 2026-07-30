@@ -1409,5 +1409,35 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "crown-peptides",
+    "name": "Crown Peptides",
+    "slug": "crown-peptides",
+    "website": "https://crownpeptides.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier claiming to be the UK's number one supplier. All batches HPLC and MS tested with \u226599% purity guaranteed. Batch-specific Certificates of Analysis available with QR codes on every bottle. Same-day dispatch before 2pm for next working day UK delivery. UK registered company with responsive customer support.",
+    "highlights": [
+      "HPLC & MS tested per batch",
+      "\u226599% purity guaranteed",
+      "Batch-specific COA with QR code",
+      "Same-day dispatch (before 2pm)",
+      "Next-day UK delivery",
+      "UK registered company"
+    ],
+    "shipping": [
+      "UK next-day (same-day dispatch before 2pm Mon-Fri)",
+      "Northern Ireland & Republic of Ireland",
+      "EU shipping available"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard)",
+      "Bank transfer"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
