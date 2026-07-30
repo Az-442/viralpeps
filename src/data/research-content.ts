@@ -6492,6 +6492,118 @@ const content: Record<string, ResearchPageContent> = {
   ],
 },
 
+'pt141-research-summary': {
+  slug: 'pt141-research-summary',
+  compoundSlug: 'pt-141-bremelanotide',
+  pullQuote: 'A synthetic cyclic heptapeptide melanocortin receptor agonist that activates central MC3R and MC4R pathways, bremelanotide represents a mechanistically distinct approach to studying sexual arousal and motivation \u2014 operating through CNS neurocircuitry rather than peripheral vascular mechanisms.',
+  sections: [
+    {
+      title: 'Overview',
+      body: 'PT-141, known chemically as bremelanotide, is a synthetic cyclic heptapeptide analogue of alpha-melanocyte-stimulating hormone (alpha-MSH) developed as a melanocortin receptor agonist. Unlike conventional compounds that act peripherally, PT-141 operates primarily within the central nervous system, targeting MC3R and MC4R receptors expressed in hypothalamic and limbic regions associated with arousal, motivation, and reward processing.',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'Bremelanotide functions as a non-selective agonist at multiple melanocortin receptor subtypes, with its primary research-relevant activity mediated through MC3R and MC4R. MC4R activation in the paraventricular nucleus of the hypothalamus triggers G-protein-coupled signalling cascades involving adenylate cyclase and cAMP-dependent downstream effectors. This central mechanism is distinct from peripheral vasodilatory approaches, as PT-141 effects persist in experimental models where vascular-dependent compounds show diminished activity. MC3R, expressed in the arcuate nucleus and ventromedial hypothalamus, contributes to the motivational and reward-associated components of the response.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Sexual Behaviour Research \u2014 Preclinical studies in rodent and primate models demonstrate that MC4R agonism produces robust effects on sexual behaviour parameters. MC4R knockout models show marked impairment in erectile function and reduced receptivity.\n\u2022 Female Arousal Studies \u2014 Phase II clinical investigations examined PT-141 in female sexual dysfunction, with published data showing statistically significant improvements in arousal parameters compared to placebo (PMID: 15735664).\n\u2022 CNS Circuitry Mapping \u2014 Functional imaging studies reveal activation of discrete hypothalamic nuclei following PT-141 administration, helping map the central melanocortin pathways governing motivated behaviours.\n\u2022 Melanocortin Receptor Pharmacology \u2014 Binding and functional assays have characterised PT-141 agonist potency at MC3R and MC4R relative to endogenous ligands (PMID: 12672588).\n\u2022 Comparative Mechanism Studies \u2014 Research comparing PT-141 against PDE5 inhibitors highlights the distinct CNS-mediated pathway, demonstrating that melanocortin agonism provides a mechanistically independent avenue for investigation.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'Available research indicates that PT-141 is generally well-tolerated in experimental settings at studied doses. Commonly reported observations include transient facial flushing, mild nausea, and blood pressure changes in some subjects. The peptide\'s short half-life limits duration of effects. As with all research peptides, PT-141 is intended for laboratory investigation purposes only and is not approved for human therapeutic use.',
+    },
+    {
+      title: 'References',
+      body: '[1] Wikberg JES et al. Melanocortin receptors: perspectives for drug development. Expert Opin Ther Pat. 2000.\n[2] Pfaus JG et al. Selective facilitation of sexual solicitation in the female rat by a melanocortin receptor agonist. Proc Natl Acad Sci USA. 2004. PMID: 14726972.\n[3] Van der Ploeg LHT et al. A role for the melanocortin 4 receptor in sexual function. Proc Natl Acad Sci USA. 2002. PMID: 12672588.\n[4] Diamond LE et al. Bremelanotide phase II study. J Sex Med. 2005. PMID: 15735664.\n[5] Shadiack AM et al. Melanocortins and female sexual behaviour. Peptides. 2006. PMID: 16753011.',
+    },
+  ],
+},
+
+'glutathione-research-summary': {
+  slug: 'glutathione-research-summary',
+  compoundSlug: 'glutathione',
+  pullQuote: 'A tripeptide consisting of glutamate, cysteine, and glycine, glutathione is the body\'s principal endogenous antioxidant \u2014 central to redox homeostasis, detoxification pathways, and cellular defence against oxidative stress across virtually every tissue system.',
+  sections: [
+    {
+      title: 'Overview',
+      body: 'Glutathione (GSH) is a linear tripeptide composed of L-glutamate, L-cysteine, and glycine, with a gamma-glutamyl bond that distinguishes it from conventional protein peptides. Found in virtually every cell of the body, GSH is the most abundant intracellular thiol and serves as the primary endogenous antioxidant system. Its research relevance spans oxidative stress biology, detoxification pathways, immune function modulation, and cellular ageing studies.',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'Glutathione operates through its thiol (sulfhydryl) group, which acts as a reversible electron donor that neutralises reactive oxygen species (ROS) and reactive nitrogen species. GSH directly scavenges hydroxyl radicals, superoxide anions, and singlet oxygen while serving as a cofactor for glutathione peroxidase and glutathione S-transferase enzymes. The reduced (GSH) to oxidised (GSSG) ratio serves as a critical measure of cellular redox status. GSH also participates in phase II detoxification via glutathione S-transferase-mediated conjugation, facilitating elimination of xenobiotics and electrophilic compounds.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Antioxidant Defence \u2014 GSH is the primary intracellular antioxidant, protecting mitochondria and cellular structures from oxidative damage. Research examines GSH depletion in models of oxidative stress and consequences for cellular function.\n\u2022 Detoxification Pathways \u2014 Glutathione S-transferase (GST) enzymes catalyse conjugation of glutathione to electrophilic substrates, marking them for elimination. Research explores this pathway in toxicology and chemical defence studies.\n\u2022 Immune Function \u2014 GSH levels correlate with lymphocyte proliferation and natural killer cell activity. Glutathione depletion models show impaired immune response, while supplementation studies explore immune modulation.\n\u2022 Neuroprotection \u2014 Neurons are particularly vulnerable to oxidative stress. GSH depletion in the brain is a well-documented feature in models of neurodegenerative conditions.\n\u2022 Ageing Research \u2014 Tissue GSH levels decline with age in multiple experimental models. This correlation drives research into glutathione precursors and their effects on age-related cellular changes.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'Glutathione is an endogenous substance and is well-tolerated in research settings. The tripeptide has a wide safety margin, with few reported adverse effects in experimental protocols. As with all research chemicals, glutathione is intended for laboratory investigation only and should be handled according to standard safe laboratory practices.',
+    },
+    {
+      title: 'References',
+      body: '[1] Meister A, Anderson ME. Glutathione. Annu Rev Biochem. 1983;52:711-760. PMID: 6137189.\n[2] Sies H. Glutathione and its role in cellular functions. Free Radic Biol Med. 1999;27(9-10):916-921.\n[3] Townsend DM et al. The importance of glutathione in human disease. Biomed Pharmacother. 2003;57(3-4):145-155. PMID: 12818476.\n[4] Pastore A et al. Analysis of glutathione: implication in redox and detoxification. Clin Chim Acta. 2003;333(1):19-39.\n[5] Lu SC. Glutathione synthesis. Biochim Biophys Acta. 2013;1830(5):3143-3153. PMID: 22995213.',
+    },
+  ],
+},
+
+'kisspeptin-10-research-summary': {
+  slug: 'kisspeptin-10-research-summary',
+  compoundSlug: 'kisspeptin-10',
+  pullQuote: 'The shortest biologically active fragment of the KISS1 gene product, kisspeptin-10 is a potent endogenous agonist of the GPR54 receptor and a critical regulator of GnRH release, puberty onset, and reproductive neuroendocrine function.',
+  sections: [
+    {
+      title: 'Overview',
+      body: 'Kisspeptin-10 is a decapeptide corresponding to the C-terminal region of the KISS1 gene product, metastin, and is the shortest fragment that retains full biological activity at the KISS1R (GPR54) receptor. Kisspeptin signalling through GPR54 is now recognised as an essential gatekeeper of the hypothalamic-pituitary-gonadal (HPG) axis, governing GnRH neuron activation and consequent LH and FSH release. Beyond reproduction, kisspeptin research explores roles in metabolic regulation, placental function, and cancer biology.',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'Kisspeptin-10 binds to the GPR54 receptor, a Gq/11-coupled GPCR expressed on GnRH neurons in the hypothalamus. Receptor activation triggers phospholipase C-mediated intracellular calcium mobilisation, leading to GnRH neuron depolarisation and pulsatile GnRH secretion. This kisspeptin-GPR54 signalling pathway is indispensable for reproductive function \u2014 loss-of-function mutations in either KISS1 or GPR54 result in hypogonadotropic hypogonadism and failure to undergo puberty. The peptide also exhibits activity at NPFF receptor family members, with ongoing research into the functional significance of these interactions.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Reproductive Neuroendocrinology \u2014 Kisspeptin-10 is a primary tool for studying GnRH neuron activation. Research uses KP-10 to probe the hypothalamic pulse generator, gonadotropin dynamics, and feedback regulation by sex steroids.\n\u2022 Puberty Research \u2014 The kisspeptin-GPR54 system is essential for pubertal onset. Studies examine how KP-10 signalling integrates metabolic and environmental cues to time reproductive maturation.\n\u2022 Metabolic Integration \u2014 Kisspeptin neurons are modulated by metabolic signals including leptin and ghrelin, linking energy status to reproductive capacity.\n\u2022 Pregnancy Studies \u2014 Placental kisspeptin production increases dramatically during pregnancy. Research investigates KP-10 role in trophoblast invasion and placental function.\n\u2022 Cancer Biology \u2014 Kisspeptin was initially identified as a metastasis suppressor. Research examines KP-10 signalling in tumour cell migration and invasion across multiple cancer models.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'Kisspeptin-10 has been used in human clinical research protocols with a demonstrated safety profile at studied doses. Mild and transient effects on blood pressure have been reported in some studies. As a research peptide, KP-10 is intended exclusively for laboratory investigation and is not approved for clinical therapeutic use.',
+    },
+    {
+      title: 'References',
+      body: '[1] Kotani M et al. The metastasis suppressor gene KiSS-1 encodes kisspeptins. J Biol Chem. 2001. PMID: 11387329.\n[2] Seminara SB et al. The GPR54 gene as a regulator of puberty. N Engl J Med. 2003. PMID: 14573795.\n[3] Gottsch ML et al. A role for kisspeptins in the regulation of gonadotropin secretion. Endocrinology. 2004. PMID: 15217985.\n[4] Dhillo WS et al. Kisspeptin-54 stimulates gonadotropin release in humans. J Clin Endocrinol Metab. 2005. PMID: 16174719.\n[5] Roseweir AK, Millar RP. The role of kisspeptin in the control of gonadotropin secretion. Hum Reprod Update. 2009. PMID: 18711207.',
+    },
+  ],
+},
+
+'vip-research-summary': {
+  slug: 'vip-research-summary',
+  compoundSlug: 'vip',
+  pullQuote: 'A 28-amino-acid neuropeptide belonging to the secretin/glucagon family, vasoactive intestinal peptide (VIP) is a potent vasodilator and neuromodulator with broad effects on smooth muscle, exocrine secretion, immune function, and circadian rhythm regulation.',
+  sections: [
+    {
+      title: 'Overview',
+      body: 'Vasoactive Intestinal Peptide (VIP) is a 28-amino-acid neuropeptide first isolated from porcine duodenum in 1970 by Said and Mutt. Despite its name, VIP functions far beyond vasodilation \u2014 it acts as a neurotransmitter, neuromodulator, and endocrine regulator throughout the body. VIP signals through VPAC1 and VPAC2 receptors, Gs-coupled GPCRs widely distributed in the central nervous system, gastrointestinal tract, respiratory system, cardiovascular system, and immune tissues.',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'VIP binds two class II G protein-coupled receptors: VPAC1 (high affinity) and VPAC2 (slightly lower affinity). Both couple primarily to Gs proteins, leading to adenylate cyclase activation and cAMP accumulation, though Gq and other signalling pathways are also engaged depending on cell type. VIP is also a weak agonist at the PAC1 receptor. VPAC activation produces smooth muscle relaxation, stimulates exocrine secretion, modulates cytokine production, and regulates circadian clock entrainment via VPAC2 signalling in the suprachiasmatic nucleus.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Smooth Muscle Research \u2014 VIP is a potent relaxant of vascular, bronchial, gastrointestinal, and urogenital smooth muscle. Studies examine its role in blood flow regulation, airway tone, and GI motility.\n\u2022 Neuroimmunology \u2014 VIP modulates cytokine profiles by promoting anti-inflammatory (IL-4, IL-10) and suppressing pro-inflammatory (TNF-alpha, IL-6) responses. This immune-modulatory profile is studied in inflammatory models.\n\u2022 Circadian Biology \u2014 VPAC2 receptors in the suprachiasmatic nucleus are critical for circadian rhythm maintenance. VIP signalling synchronises neuronal firing and entrains behavioural rhythms to light-dark cycles.\n\u2022 Pulmonary Research \u2014 VIP is a potent bronchodilator and anti-inflammatory agent in the respiratory system. Research examines its role in airway physiology and pulmonary inflammatory models.\n\u2022 Neuroprotection \u2014 VIP has demonstrated neuroprotective effects in models of neuronal injury through anti-inflammatory and trophic signalling mechanisms.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'VIP has been used in human clinical research protocols with a documented safety profile. Rapid degradation by endogenous peptidases limits its biological half-life, contributing to a favourable safety margin. Transient hypotension and facial flushing are the most commonly reported observations due to its vasodilatory effects. As with all research peptides, VIP is intended for laboratory investigation only.',
+    },
+    {
+      title: 'References',
+      body: '[1] Said SI, Mutt V. Polypeptide with broad biological activity: isolation from small intestine. Science. 1970;169(3951):1217-1218. PMID: 4319749.\n[2] Harmar AJ et al. Pharmacology and functions of receptors for VIP and PACAP. Br J Pharmacol. 2012;166(1):4-17. PMID: 22239206.\n[3] Delgado M, Ganea D. Vasoactive intestinal peptide: a neuropeptide with pleiotropic immune functions. Amino Acids. 2013;45(1):25-39.\n[4] Piggins HD, Cutler DJ. The roles of VIP in the mammalian circadian clock. J Endocrinol. 2003;177(1):7-15.\n[5] Dickson L, Finlayson K. VPAC and PAC receptors: from ligands to function. Pharmacol Ther. 2009;121(3):294-316.',
+    },
+  ],
+}
+
 };
 
 export default content;
