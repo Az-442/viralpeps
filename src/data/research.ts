@@ -79,7 +79,7 @@ export const guides: ResearchArticle[] = [
     section: "peptides",
     compound: "Tesamorelin",
     slug: "tesamorelin-research-summary",
-    image: "tesamorelin-summary",
+    image: "tesamorelin-research-summary",
     tags: ["ghrh", "growth-hormone", "visceral-fat", "lipodystrophy"],
   },
   {
@@ -89,7 +89,7 @@ export const guides: ResearchArticle[] = [
     section: "peptides",
     compound: "Melanotan II",
     slug: "melanotan-ii-research-summary",
-    image: "melanotan-ii-summary",
+    image: "melanotan2-research-summary",
     tags: ["melanocortin", "tanning", "mc1r", "mc4r", "pt-141"],
   },
   {
@@ -99,7 +99,7 @@ export const guides: ResearchArticle[] = [
     section: "peptides",
     compound: "Sermorelin",
     slug: "sermorelin-research-summary",
-    image: "sermorelin-summary",
+    image: "sermorelin-research-summary",
     tags: ["ghrh", "growth-hormone", "gh-secretagogue", "anti-aging"],
   },
   {
