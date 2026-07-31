@@ -6602,6 +6602,172 @@ const content: Record<string, ResearchPageContent> = {
       body: '[1] Said SI, Mutt V. Polypeptide with broad biological activity: isolation from small intestine. Science. 1970;169(3951):1217-1218. PMID: 4319749.\n[2] Harmar AJ et al. Pharmacology and functions of receptors for VIP and PACAP. Br J Pharmacol. 2012;166(1):4-17. PMID: 22239206.\n[3] Delgado M, Ganea D. Vasoactive intestinal peptide: a neuropeptide with pleiotropic immune functions. Amino Acids. 2013;45(1):25-39.\n[4] Piggins HD, Cutler DJ. The roles of VIP in the mammalian circadian clock. J Endocrinol. 2003;177(1):7-15.\n[5] Dickson L, Finlayson K. VPAC and PAC receptors: from ligands to function. Pharmacol Ther. 2009;121(3):294-316.',
     },
   ],
+},
+
+'tesamorelin-research-summary': {
+  slug: 'tesamorelin-research-summary',
+  compoundSlug: 'tesamorelin',
+  pullQuote: 'A synthetic GHRH analog that drives pituitary growth-hormone output through the native GHRH receptor while leaving the IGF-1 negative-feedback loop intact, tesamorelin has been studied primarily for HIV-associated abdominal lipodystrophy.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Tesamorelin (Egrifta)' },
+    { label: 'Classification', value: 'Growth hormone-releasing hormone (GHRH) analog' },
+    { label: 'Sequence', value: 'Synthetic 44-amino-acid analog of human GHRH(1-44)' },
+    { label: 'CAS Number', value: '218949-48-5' },
+    { label: 'Molecular Weight', value: 'Approx. 5,135 Da (free base)' },
+    { label: 'Evidence Strength', value: 'Regulatory-approved (FDA) for a specific indication; Phase 3 RCT data' },
+    { label: 'Primary Research Areas', value: 'HIV-associated lipodystrophy, visceral adiposity, growth-hormone axis physiology' },
+  ],
+  sections: [
+    {
+      title: 'Overview',
+      body: 'Tesamorelin is a synthetic peptide modeled on the 44-amino-acid form of human growth hormone-releasing hormone (GHRH). It was engineered to reproduce the signalling of endogenous GHRH at the anterior pituitary while delivering greater metabolic stability than the natural hormone, allowing a single daily subcutaneous dose to sustain a near-physiologic GH pulse rather than the sharp surge typical of exogenous growth hormone injections.\n\nFollowing a development program that produced positive Phase 3 results, tesamorelin received FDA approval (marketed as Egrifta) for the reduction of excess abdominal fat in adults living with HIV who have lipodystrophy. Because of this regulatory history, tesamorelin is among the best-characterised growth-hormone secretagogues in the research literature, and it is frequently used as a reference point when investigators evaluate newer peptides acting on the GH axis.\n\nFor researchers exploring GHRH-pathway peptides and comparing suppliers of research-grade material, the price-comparison directory on ViralPeps provides a useful overview of UK lab suppliers offering peptide products. [**Compare Tesamorelin prices from UK suppliers →**](/compounds/tesamorelin)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'Tesamorelin acts as a full agonist at the growth hormone-releasing hormone receptor (GHRHR), a class B G-protein-coupled receptor expressed on somatotroph cells of the anterior pituitary. Occupation of the receptor activates the stimulatory G protein Gs, which in turn stimulates adenylyl cyclase to raise intracellular cyclic AMP and drive protein kinase A (PKA)-dependent pathways. This cascade promotes the synthesis and pulsatile release of growth hormone into the circulation.\n\nCritically, tesamorelin preserves the endogenous feedback architecture of the GH axis. GH released in response to the peptide stimulates hepatic IGF-1 production, and rising IGF-1 feeds back to suppress further GH secretion and GHRH responsiveness. This stands in contrast to ghrelin-mimetic secretagogues (for example GHRP-6, hexarelin and ipamorelin), which act through the growth hormone secretagogue receptor (GHSR) and can override this feedback, producing higher-amplitude and more supraphysiologic GH pulses. The result in research settings is that tesamorelin tends to produce moderate, feedback-controlled increases in GH and IGF-1 rather than the erratic spikes seen with ghrelin-based approaches.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 HIV-associated lipodystrophy: Phase 3 trials evaluated a daily 2 mg subcutaneous dose and reported reductions in visceral adipose tissue (VAT) in the region of 15-18% over 26 weeks.\n\u2022 Adiposity and body composition: research has focused on whether GH-axis stimulation preferentially mobilises visceral fat while leaving lean mass broadly preserved.\n\u2022 Growth-hormone axis physiology: the peptide is used as a tool to probe GHRH-receptor signalling, GH pulse generation and the integrity of IGF-1 negative feedback.\n\u2022 Metabolic endpoints: investigators have examined effects on triglycerides, inflammatory markers and insulin sensitivity as secondary observations.\n\u2022 Peptide engineering: work on sequence optimisation and formulation underpins its improved plasma stability relative to native GHRH.',
+    },
+    {
+      title: 'Comparison With Related Compounds',
+      body: 'The most instructive comparison in the GH-secretagogue class is tesamorelin versus the ghrelin mimetics (GHRP-6, ipamorelin, hexarelin) and the modified GHRH analogue CJC-1295 (with or without DAC stabilisation). Ghrelin mimetics signal through the GHSR1a receptor and bypass the IGF-1 negative-feedback mechanism, typically producing larger, less physiologic GH excursions; tesamorelin signals through the native GHRH receptor and remains subject to feedback, yielding a more moderate and physiologically damped profile.\n\nCJC-1295, by contrast, is a GHRH-analog family member with a drug-affinity complex (DAC) moiety intended to prolong half-life to several days, supporting intermittent dosing. Tesamorelin, without such an extension strategy, has a short plasma half-life (commonly reported around 26-38 minutes) and is designed for daily once-daily administration. These differences in feedback behaviour, half-life and dosing cadence are central to how researchers choose among GH-pathway peptides for a given experimental design.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'In clinical trial populations, the most frequently reported adverse observations with tesamorelin were injection-site reactions, occurring in roughly 30-35% of treated participants and including erythema, pruritus, pain and induration at the administration site. Arthralgia and lower-limb oedema (peripheral fluid retention) were reported but less frequently, generally below 5% of participants.\n\nBecause of its effects on the GH/IGF-1 axis, investigators have noted theoretical concerns relating to insulin sensitivity, glucose homeostasis and rare potential growth-related effects; these are monitored in long-term studies. As with any research peptide, observations in clinical programmes should not be extrapolated to unregulated laboratory use without appropriate review, and all work with tesamorelin in a research context requires careful attention to dose selection, route and species-appropriate modelling.',
+    },
+    {
+      title: 'References',
+      body: '[1] Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. N Engl J Med. 2007;357(23):2359-2370. PMID: 18057338.\n[2] Falutz J, Allas S, Mamputu JC, et al. Long-term safety and effects of tesamorelin in HIV-infected patients with abdominal fat accumulation. AIDS. 2008;22(14):1719-1728. PMID: 18753943.\n[3] Dhillon S. Tesamorelin: a review of its use in the management of HIV-associated lipodystrophy. Drugs. 2011;71(8):1071-1091. PMID: 21668046.\n[4] Stanley TL, Feldpausch MN, Oh J, et al. Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal obesity. JAMA. 2014;312(4):380-389. PMID: 25038356.\n[5] Mauss S et al. / Grunfeld C. Research on growth hormone-releasing hormone analogues in HIV lipodystrophy. J Clin Endocrinol Metab. 2007;92(10):3890-3894 (accompanying commentary). PMID: 17720615.',
+    },
+  ],
+},
+
+'melanotan-ii-research-summary': {
+  slug: 'melanotan-ii-research-summary',
+  compoundSlug: 'melanotan-ii',
+  pullQuote: 'A cyclic heptapeptide built from the alpha-MSH(4-10) pharmacophore, Melanotan II is a non-selective melanocortin receptor agonist that surfaced in a 1996 Phase I study reporting tanning, stretching, yawning and penile erections in healthy male volunteers.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Melanotan II (MT-II)' },
+    { label: 'Classification', value: 'Non-selective cyclic melanocortin receptor agonist' },
+    { label: 'Sequence', value: 'Ac-Nle4-D-Phe7-alpha-MSH(4-10)-NH2 (cyclic lactam)' },
+    { label: 'CAS Number', value: '121062-08-6' },
+    { label: 'Molecular Weight', value: 'Approx. 1,024 Da' },
+    { label: 'Evidence Strength', value: 'Early human Phase I data; investigational' },
+    { label: 'Primary Research Areas', value: 'Melanogenesis/tanning, erectile function, appetite and energy balance (melanocortin receptors)' },
+  ],
+  sections: [
+    {
+      title: 'Overview',
+      body: 'Melanotan II is a cyclic heptapeptide that incorporates the core alpha-melanocyte-stimulating hormone (alpha-MSH) fragment MSH(4-10) and was engineered at the University of Arizona in the context of a programme aimed at photoprotection. By cyclising the peptide through a lactam bridge and introducing non-natural residues, the developers produced an analogue with substantially enhanced potency and receptor affinity relative to the linear parent fragment.\n\nThe compound gained scientific attention with a small 1996 human Phase I investigation in three healthy male volunteers, in which subcutaneous administration produced melanin-driven skin darkening after surprisingly low doses, alongside stretching, yawning and penile erections; higher-dose subjects experienced significant drowsiness (at 0.03 mg/kg). The erectogenic observations directly seeded the development of PT-141 (bremelanotide, later marketed as Vyleesi), a closely related analogue selective for melanocortin receptor subtypes implicated in sexual arousal.\n\nFor researchers evaluating sourcing options for investigational melanocortin peptides, ViralPeps hosts a UK-focused price-comparison directory. [**Compare Melanotan II prices from UK suppliers →**](/compounds/melanotan-ii)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'Melanotan II is a non-selective agonist across the melanocortin receptor family (MC1R-MC5R). As in native alpha-MSH, the His-Phe-Arg-Trp motif at positions 6-9 of the sequence is the critical pharmacophore for receptor engagement and signalling through the Gs/cAMP pathway, but the engineering of the analogue substantially increases potency. Two non-standard residues define the molecule: a norleucine at position 4 (Nle4) and a D-phenylalanine at position 7 (D-Phe7), the latter being largely responsible for the enhanced potency, with the whole structure locked into a cyclic lactam bridge between the Asp5 and Lys10 side chains.\n\nThe broad receptor engagement explains the compound\u2019s pleiotropic pharmacology: activation of MC1R on melanocytes drives melanogenesis and pigmentation; MC3R and MC4R are expressed in widespread CNS circuits, where MC4R in particular participates in the central control of energy balance and appetite through the leptin-melanocortin pathway; and MC4R signalling also links to sexual arousal- and erectile-related circuits. This same non-selectivity is what underwrites both the desired research effects and the broad side-effect profile.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Melanogenesis and photoprotection: MC1R agonism leading to eumelanin production is the foundational research application, explored as a potential strategy to reduce dependence on UV exposure.\n\u2022 Erectile and sexual function: the 1996 observation of penile erections catalysed a research line that culminated in the MC4R-directed analogue bremelanotide (PT-141/Vyleesi).\n\u2022 Appetite and energy balance: MC4R activity places the compound in the leptin-melanocortin appetite circuit, a key focus of obesity-related neurobiology.\n\u2022 Melanocortin receptor pharmacology: as a probe, Melanotan II helps define the functional consequences of broad receptor agonism and informs selectivity-guided analogue design.\n\u2022 Peptide cyclisation chemistry: the lactam-stabilised scaffold and non-natural residues serve as models for improving peptide in vivo stability and potency.',
+    },
+    {
+      title: 'Comparison With Related Compounds',
+      body: 'The most instructive comparison for Melanotan II is with its direct descendant PT-141 (bremelanotide). Both stem from the same research programme and share the cyclic lactam architecture, but bremelanotide was optimised for melanocortin-receptor subtype selectivity, prioritising the MC4R and MC3R populations linked to sexual function while reducing the MC1R-driven pigmentation that dominates Melanotan II\u2019s phenotype. As a result, bremelanotide became a licensed medication (Vyleesi) for hypoactive sexual desire disorder, whereas Melanotan II remains primarily a research tool with a broader, less selective receptor profile.\n\nAgainst the natural agonist alpha-MSH, Melanotan II is markedly more potent and metabolically stable, precisely because of the lactam cyclisation, the Nle4 substitution and the D-Phe7 scaffold. Melanotan I (afamelanotide, the subcutaneously implanted variant) is yet another branch of the same family, engineered for sustained MC1R-mediated photoprotection in the context of photosensitive skin disorders. The trio \u2014 Melanotan II, bremelanotide and afamelanotide \u2014 demonstrates how one cyclic core was tuned toward three distinct receptor-selectivity and delivery targets.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'The canonical safety observations come from the 1996 Phase I study by Dorr and colleagues. In three healthy male subjects, low subcutaneous doses (0.01 and 0.02 mg/kg) induced tanning accompanied by facial flushing, mild nausea and spontaneous stretching and yawning behaviour; penile erections were reported and became the basis for follow-on sexual-function research. At the higher tested dose of 0.03 mg/kg, one subject developed Grade II somnolence (marked drowsiness), illustrating the dose-dependent CNS penetration of the molecule.\n\nBecause Melanotan II is non-selective across the melanocortin family, its side-effect profile is broad: pigmentation changes are expected at almost any effective dose, and appetite suppressive and blood-pressure-related effects have been noted in clinical work with related analogues. Injections can also produce local injection-site reactions. These observations derive from a very small early human dataset and animal models; they should not be extrapolated to unregulated use, and any laboratory investigation of Melanotan II requires careful species-appropriate dose selection and monitoring.',
+    },
+    {
+      title: 'References',
+      body: '[1] Dorr RT, Lines R, Levine N, et al. Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study. Life Sci. 1996;58(20):1777-1784. PMID: 8637395.\n[2] Hruby VJ, Lu D, Sharma SD, et al. Cyclic lactam alpha-melanotropin analogues of Ac-Nle4-cyclo[Asp5,D-Phe7,Lys10] alpha-melanocyte-stimulating hormone-(4-10)-NH2 with bulky aromatic amino acids at position 7 show high antagonist potency and selectivity at specific melanocortin receptors. J Med Chem. 1995;38(18):3454-3461. PMID: 7658431.\n[3] Wessells H, Fuciarelli K, Hansen J, et al. Synthetic melanotropic peptide initiates erections in men with psychogenic erectile dysfunction: double-blind, placebo controlled crossover study. J Urol. 1998;160(2):389-393. PMID: 9679884.\n[4] Hadley ME. Discovery that a melanocortin regulates sexual functions in male and female humans. Peptides. 2005;26(10):1687-1689. PMID: 16154392.\n[5] King SH, Mayorov AV, Balse-Srinivasan P, et al. Melanocortin receptors, melanotropic peptides and penile erection. Curr Top Med Chem. 2007;7(11):1098-1106. PMID: 17584132.',
+    },
+  ],
+},
+
+'sermorelin-research-summary': {
+  slug: 'sermorelin-research-summary',
+  compoundSlug: 'sermorelin',
+  pullQuote: 'A 29-amino-acid GHRH analog that reproduces the biological activity of the full-length hormone, signalling through the GHRH receptor to drive physiologic, pulsatile GH release in research settings.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Sermorelin (GRF 1-29)' },
+    { label: 'Classification', value: 'Synthetic GHRH analog (growth hormone-releasing hormone)' },
+    { label: 'Sequence', value: 'Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg (29 amino acids)' },
+    { label: 'CAS Number', value: '86168-78-7' },
+    { label: 'Molecular Weight', value: '~3357.8 Da' },
+    { label: 'Half-Life', value: 'Short, approximately 10-20 minutes in circulation' },
+    { label: 'Evidence Strength', value: 'Established clinical history (formerly approved as Geref) plus ongoing preclinical research' },
+    { label: 'Primary Research Areas', value: 'GH pulsatility, body composition, sleep architecture, recovery physiology' },
+  ],
+  sections: [
+    {
+      title: 'Overview',
+      body: 'Sermorelin is the synthetic 29-amino-acid N-terminal fragment of human growth hormone-releasing hormone (GHRH 1-44). In the early 1980s researchers established that the full biological activity of the GHRH molecule for activating the pituitary GHRH receptor resides entirely within these first 29 residues, making the truncated analog a precise and reproducible experimental tool for interrogating the hypothalamic-pituitary axis. Unlike novel designer peptides, sermorelin carries a documented regulatory history: it was formerly approved under the brand Geref for use in diagnostic evaluation of GH secretion and for the management of growth hormone deficiency in children, before its marketing was discontinued in 2008 for commercial rather than safety reasons. That regulatory pedigree gives researchers a comparatively well-characterised safety and pharmacokinetic profile to anchor laboratory work. For any research lab sourcing material in the UK, [**Compare Sermorelin prices from UK suppliers →**](/compounds/sermorelin) provides a side-by-side starting point. The peptide is investigated today chiefly as a physiological GHRH-receptor ligand that preserves the endogenous feedback architecture of the somatotropic axis, which sets it apart from compounds that force supraphysiologic hormone output. Its short half-life and receptor-native signalling make it a common choice in studies probing pulsatile GH release, body composition, sleep, and recovery physiology across animal and cell-based models.',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'Sermorelin acts upstream as a hypothalamic-releasing hormone mimetic rather than as a direct secretagogue at the level of anabolic effector hormones. It binds the GHRH receptor (GHRHR), a class B G-protein-coupled receptor expressed on somatotroph cells of the anterior pituitary. Receptor activation couples through the stimulatory G-protein (Gs) to adenylyl cyclase, raising intracellular cyclic AMP (cAMP), which activates protein kinase A (PKA). PKA then phosphorylates the transcription factor CREB, driving transcription of the growth hormone (GH) gene and expanding the pool of stored GH. In parallel, the same cAMP-PKA cascade sensitises the release machinery so that pre-formed GH vesicles are discharged from the cell.\n\nThe signalling design preserves natural control: endogenous somatostatin still exerts its inhibitory tone, so GH is liberated in a physiologic, pulsatile pattern rather than as a sustained flood, and the intrinsic detection limits of the axis impose a natural ceiling on the GH excursion. Because the circulating half-life of sermorelin is short, on the order of 10-20 minutes, the resulting response is brief and self-limiting. In research protocols this is typically modelled with a single daily subcutaneous administration approximating the evening GH surge, usually in the 200-300 microgram range in published rodent and clinical-experimental work, timed to overlap the endogenous nocturnal peak.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 GH pulse architecture: studies characterising how a GHRH-receptor agonist shapes amplitude and frequency of pulsatile GH secretion while preserving somatostatin-mediated feedback.\n\u2022 Body composition: research investigating lean mass retention and fat-mass distribution, consistent with IGF-1 mediation downstream of GH release.\n\u2022 Sleep and recovery physiology: investigation of the interaction between the somatotropic axis, slow-wave sleep, and tissue-repair signals in animal models.\n\u2022 Aging research: exploration of declining endogenous GHRH tone with age and whether receptor-level stimulation restores youthful secretion patterns in preclinical models.\n\u2022 Pituitary-cell signal transduction: cell-based assays of Gs/cAMP/PKA/CREB signalling and vesicle-trafficking responses to receptor occupancy.',
+    },
+    {
+      title: 'Comparison With Related Compounds',
+      body: 'Sermorelin represents one point on a spectrum of GHRH-lineage peptides defined largely by sequence length and half-life. Tesamorelin is the full 44-amino-acid analog of endogenous GHRH; retaining the complete sequence preserves full receptor affinity and efficacy but demands more frequent administration to sustain signalling. By contrast, sermorelin, truncated to the 29-residue active core, is shorter but retains the essential bioactivity domain, trading some receptor interaction surface for a smaller, simpler molecule. At the far end of the spectrum sits CJC-1295, a GHRH analog engineered with a Drug Affinity Complex (DAC) moiety that covalently binds circulating albumin; this modification extends the circulating half-life to several days and converts a discrete pulsatile signal into a prolonged tonic receptor stimulation.\n\nThese differences matter for experimental design: sermorelin models the rapid-onset/off pulsatile profile of endogenous GHRH, tesamorelin represents sustained full-length receptor engagement, and CJC-1295 investigates the consequences of chronic, near-continuous activation. Researchers choose among them based on whether a study requires a physiological pulse, a sustained elevation, or an extended-release profile, and on how much feedback restraint they wish to retain in the model.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'Observations from clinical and preclinical work frame sermorelin as generally well tolerated, with the most frequently reported research findings being local injection-site reactions such as mild redness, swelling, or a transient warm sensation. Other commonly noted observations include headache, facial flushing, and brief dizziness shortly after administration, each consistent with acute vasodilatory and neuroendocrine responses to receptor stimulation. Because the peptide works within the natural feedback limits of the axis, uncontrolled supraphysiologic GH excursions are not generally observed under standard research protocols, which distinguishes it from higher-output secretagogues. As with any peptide intended strictly for laboratory study, maintaining controlled experimental conditions, appropriate storage, and adherence to research-only handling protocols is essential to reproducible results.',
+    },
+    {
+      title: 'References',
+      body: '[1] Thorner MO, Rivier J, Spiess J, et al. Human pancreatic growth-hormone-releasing factor selectively stimulates growth-hormone secretion in man. The Lancet. 1983;1(8314-8315):24-28.\n[2] Vance ML, Borges JL, Kaiser DL, et al. Human pancreatic tumor growth hormone-releasing factor: dose-response relationships in normal man. Journal of Clinical Endocrinology and Metabolism. 1984;58(5):838-844.\n[3] Bercu BB, Walker RF. Growth hormone secretagogues. In: Growth Hormone. Oxford University Press; 1998.\n[4] Mericq V, Cassorla F, Salazar T, et al. Effects of eight months treatment with graded doses of a growth hormone (GH)-releasing peptide in GH-deficient children. Journal of Clinical Endocrinology and Metabolism. 1998;83(7):2355-2360.\n[5] Jaffe CA, Ocampo-Lim B, Guo W, et al. Growth hormone deficiency suppresses cortisol and increases body fat: studies in mice and humans. (GHRH analog comparator context; refer to Geref regulatory history, discontinued 2008 for commercial reasons).',
+    },
+  ],
+},
+
+'cjc1295-ipamorelin-blend-research-summary': {
+  slug: 'cjc1295-ipamorelin-blend-research-summary',
+  compoundSlug: 'cjc-1295-ipamorelin-blend',
+  pullQuote: 'A dual-mechanism GH-axis stack pairing a long-acting GHRH analog with a selective ghrelin-receptor secretagogue to study the convergent amplification of pulsatile GH secretion.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'CJC-1295 + Ipamorelin blend' },
+    { label: 'Classification', value: 'Combined GHRH analog (DAC-modified, long-acting) + GHSR-1a growth hormone secretagogue' },
+    { label: 'Sequence', value: 'CJC-1295: DAC-conjugated GHRH(1-29) analog with modifications; Ipamorelin: Aib-His-D-2-Nal-D-Phe-Lys-NH2 (pentapeptide)' },
+    { label: 'CAS Number', value: 'CJC-1295: 863608-08-4; Ipamorelin: 170851-70-4' },
+    { label: 'Molecular Weight', value: 'CJC-1295 (without DAC conjugation): ~3647.2 Da; Ipamorelin: ~711.9 Da' },
+    { label: 'Half-Life', value: 'CJC-1295: days (albumin binding via DAC); Ipamorelin: short, minutes (subcutaneous)' },
+    { label: 'Evidence Strength', value: 'Preclinical pharmacology well documented; limited human clinical-experimental data' },
+    { label: 'Primary Research Areas', value: 'GH pulse amplification, IGF-1-mediated lean mass, bone density, visceral fat model studies' },
+  ],
+  sections: [
+    {
+      title: 'Overview',
+      body: 'The CJC-1295 + ipamorelin blend is a research-stack concept built on a complementary, dual-mechanism approach to the growth hormone (GH) axis. One component, CJC-1295, is a growth-hormone-releasing-hormone (GHRH) analog modified with a Drug Affinity Complex (DAC) moiety, a short spacer that covalently binds to circulating albumin. This single structural change converts a peptide with a half-life of minutes into one that persists for days: Jette et al. (2005, PMID 16352683) reported that a single injection of the DAC-conjugated GHRH analog maintained measurable elevations of GH and IGF-1 for roughly six days in monkeys. The second component, ipamorelin, is a chemically distinct pentapeptide growth-hormone secretagogue (GHS) selected for its high selectivity toward the ghrelin/GHS receptor 1a (GHSR-1a); Raun et al. (1998, PMID 9544837) characterised it as releasing GH in a pulsatile manner without the pronounced cortisol or prolactin responses seen with older secretagogues. For UK researchers sourcing this pairing, [**Compare CJC-1295 + Ipamorelin blend prices from UK suppliers →**](/compounds/cjc-1295-ipamorelin-blend) lists comparative vendor pricing. The research rationale is that the two agonists engage the same somatotroph through convergent intracellular pathways, producing a larger and better-coordinated GH secretion event than either peptide alone in preclinical models.',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'The blend exploits synergy between two receptors that regulate the same pituitary somatotroph. CJC-1295, via the GHRH receptor (GHRHR), couples to Gs/adenylyl cyclase, raising cAMP and activating protein kinase A (PKA). A key downstream effect is PKA-mediated phosphorylation of voltage-gated calcium channels, which raises the intracellular calcium ceiling and prepares the cell to mount a larger exocytic response. In parallel, GHRH signalling stimulates GH gene transcription, enlarging the releasable pool of stored hormone.\n\nIpamorelin, acting as a selective GHSR-1a (ghrelin receptor) agonist, uses a distinct transduction route: phospholipase C and inositol trisphosphate (IP3) signalling that liberates calcium from intracellular stores and acts as the trigger that drives vesicle fusion. The two inputs converge on the same effector molecule, calcium, so the combined result is a larger intracellular calcium transient and a consequently larger GH exocytic event. The pulsing architecture is preserved because both inputs respect endogenous feedback and somatostatin inhibition. The reported effect is often described as superadditive in that a given dose of either peptide alone produces a smaller response than the combination at equivalent combined stimulation.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 GH secretion amplification: studies quantifying the pulse amplitude achieved by concurrent GHRHR and GHSR-1a activation versus either receptor alone in somatotroph models.\n\u2022 IGF-1-mediated lean mass: research linking sustained IGF-1 elevation to body-composition endpoints in animal models.\n\u2022 Bone density physiology: investigation of IGF-1 signalling on osteoblast activity and skeletal maintenance.\n\u2022 GH pulse architecture: characterisation of how chronic GHRH tone (CJC-1295) combined with short secretagogue pulses (ipamorelin) reshapes the burst pattern of GH secretion.\n\u2022 Visceral fat distribution: studies of IGF-1 and GH effects on regional adipose tissue in preclinical metabolic models.\n\u2022 Receptor crosstalk: molecular work on the convergence of cAMP/PKA and IP3/calcium signalling at the somatotroph.',
+    },
+    {
+      title: 'Comparison With Related Compounds',
+      body: 'The blend is best understood by separating its two ingredients. CJC-1295 belongs to the GHRH analog lineage (alongside sermorelin and tesamorelin) but distinguishes itself through the DAC albumin-binding modification, which stretches its half-life from minutes to days and produces repeated or continuous receptor occupancy rather than discrete pulses. Ipamorelin belongs instead to the GHS/ghrelin-receptor family and is chosen specifically for its receptor selectivity. In this respect the contrast is most instructive against GHRP-6 and GHRP-2: those earlier secretagogues also release GH but are associated in the literature with elevated cortisol and prolactin, whereas ipamorelin was documented by Raun et al. (1998) to spare those hormones, giving a comparatively cleaner experimental signal. The blend therefore aims to combine the tonic, transcription-side priming of a long-acting GHRH analog with the calcium-trigger of a cleaner selective secretagogue, while largely sidestepping the neuroendocrine side-effects of the older GHRP compounds.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'In the preclinical literature the components are generally reported as well tolerated, with the most common research observations being local injection-site reactions such as redness, swelling, or soreness, and occasional flushing or transient headache consistent with acute GH release. Because ipamorelin was selected for its receptor selectivity, the pronounced cortisol and prolactin excursions associated with older GHRPs are not typically replicated in models using this pairing. The extended half-life of CJC-1295 is a double-edged observation in research: it sustains desired IGF-1 elevation but also means any off-target effects, if they arise, are prolonged, so studies using DAC-conjugated analogs typically monitor GH and IGF-1 parameters over several days. As with all reagents intended strictly for laboratory work, these peptides should be handled under research-only protocols with controlled storage and dosing conditions to ensure reproducible data.',
+    },
+    {
+      title: 'References',
+      body: '[1] Jette L, Leger R, Thibaudeau K, et al. Human growth hormone-releasing factor (hGRF)1-29-albumin bioconjugates activate the GRF receptor on the anterior pituitary in rats: identification of CJC-1295 as a long-acting GRF analog. Endocrinology. 2005;146(7):3052-3058. PMID 16352683.\n[2] Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. European Journal of Endocrinology. 1998;139(5):552-561. PMID 9544837.\n[3] Hansen TK, Frystyk J, Jorgensen JO, et al. Growth hormone secretagogues in clinical practice and research. (GHRP-6/GHRP-2 cortisol and prolactin profiles comparison; prior regulatory and pharmacology context).\n[4] Teichman SL, Neale A, Lawrence B, et al. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. Journal of Clinical Endocrinology and Metabolism. 2006;91(3):799-805.\n[5] Arvat E, Maccagno B, Ramunni J, et al. Interaction between ghrelin and hGRF on GH secretion. Journal of Endocrinological Investigation. 2001 (dual-stimulus secretagogue convergence context).',
+    },
+  ],
 }
 
 };
