@@ -1439,5 +1439,34 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "reta-uk",
+    "name": "RETA UK",
+    "slug": "reta-uk",
+    "website": "https://reta-uk.com",
+    "rating": 4.7,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based premium research peptide supplier with 22 compounds, all independently verified to 99%+ HPLC purity. Based in London (Company No. 17202698). Free UK Tracked 24 delivery on all orders, same day dispatch before midday Monday-Saturday. COA available on every product. 200+ orders served.",
+    "highlights": [
+      "99%+ HPLC purity guaranteed",
+      "FREE UK Tracked 24 delivery",
+      "Same day dispatch (before 12:00 Mon-Sat)",
+      "COA on every product",
+      "Independently batch tested",
+      "Registered UK company"
+    ],
+    "shipping": [
+      "UK free (Royal Mail Tracked 24, same-day dispatch before 12:00 Mon-Sat)"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard/Amex)",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]

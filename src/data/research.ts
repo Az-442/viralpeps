@@ -657,17 +657,6 @@ export const guides: ResearchArticle[] = [
     tags: ['dsip', 'delta-sleep', 'neuropeptide', 'hpa-axis', 'stress', 'neuroprotection'],
 },
 {
-    title: 'KPV Research Summary',
-    desc: 'Overview of KPV (Lys-Pro-Val), a tripeptide fragment of α-MSH that inhibits NF-κB via PepT1-mediated cellular uptake for anti-inflammatory research in colitis, wound healing, and epithelial models.',
-    category: 'Compound Profiles',
-    section: 'peptides',
-    compound: 'KPV',
-    slug: 'kpv-research-summary',
-    image: 'kpv-research-summary',
-    minutes: 10,
-    tags: ['kpv', 'alpha-msh', 'anti-inflammatory', 'nf-kb', 'pept1', 'gut', 'colitis'],
-},
-{
     title: 'IGF-1 LR3 Research Summary',
     desc: 'Overview of IGF-1 LR3, a synthetic 83-amino-acid analogue of insulin-like growth factor-1 with a modified arginine-3 residue that reduces IGFBP binding, studied for muscle cell proliferation, protein synthesis, and tissue regeneration research.',
     category: 'Compound Profiles',
