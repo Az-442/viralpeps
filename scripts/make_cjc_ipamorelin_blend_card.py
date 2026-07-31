@@ -43,42 +43,31 @@ for y in range(card_h):
 draw.ellipse([-80, -80, 250, 250], fill=(230, 240, 255))
 draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(230, 240, 255))
 
-# Two vials side by side in left half
+# Two vials side by side at 50% card height (GHK-vs-BPC style, large — NOT the small 200px cards)
 card_w_left = card_w // 2
-# Square vials ~200px each, spaced within left half
-vial_w = 200
-vial_h = 200
+vial_h = int(card_h * 0.50)  # 337px tall — matches batch_generate_guide_cards.py comparison cards
+gap = 18
+start_x = 40
 
-def paste_vial(path, x_center, y_center):
+def paste_vial(path, x, y_top):
     if not os.path.exists(path):
         print(f"MISSING vial: {path}")
         return
-    vial = Image.open(path)
-    ratio = vial.width / vial.height
-    w = vial_w
-    h = int(w / ratio)
-    if h > vial_h:
-        h = vial_h
-        w = int(h * ratio)
-    vial_r = vial.resize((w, h), Image.LANCZOS)
-    x = x_center - w // 2
-    y = y_center - h // 2
-    if vial_r.mode == "RGBA":
-        card.paste(vial_r, (x, y), vial_r)
-    else:
-        card.paste(vial_r, (x, y))
+    vial = Image.open(path).convert("RGBA")
+    vw = int(vial_h * vial.width / vial.height)
+    vial = vial.resize((vw, vial_h), Image.LANCZOS)
+    card.paste(vial, (x, y_top), vial)
+    return vw
 
-center_y = card_h // 2
-# Position two vials fully visible within left half
-vial_y_center = center_y + 10
-paste_vial(VIAL_A, 190, vial_y_center)
-paste_vial(VIAL_B, 410, vial_y_center)
-
-# Vertical separator line between vials
-sep_x = 300
-draw.line([(sep_x, 80), (sep_x, card_h - 80)], fill=BLUE, width=2)
-
-text_x = card_w_left + 40
+center_y = int((card_h - vial_h) / 2)
+_a = Image.open(VIAL_A).convert("RGBA")
+_aw = int(vial_h * _a.width / _a.height)
+paste_vial(VIAL_A, 40, center_y)
+_b = Image.open(VIAL_B).convert("RGBA")
+_bw = int(vial_h * _b.width / _b.height)
+paste_vial(VIAL_B, 40 + _aw + 18, center_y)
+text_x = 40 + _aw + 18 + _bw + 30
+# text_x is now the right-column start, matching GHK-vs-BPC text placement
 
 # Badge
 badge_x, badge_y = text_x, 140
