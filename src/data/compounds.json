@@ -705,6 +705,15 @@
     ],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/bpc-157",
+        "price": "£24.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/bpc-157.webp",
+        "dosage": "10mg"
+      },
+
+      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/bpc-157/vial",
         "price": "\u00a317.00",
@@ -1286,6 +1295,15 @@
       "10 mg loading then 5 mg/week"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/tb-500",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/tb-500.webp",
+        "dosage": "10mg"
+      },
+
       {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/tb-500/vial",
@@ -3208,6 +3226,15 @@
     ],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/cjc-1295",
+        "price": "£19.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/cjc-1295.webp",
+        "dosage": "5mg"
+      },
+
+      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/cjc-1295",
         "price": "\u00a349.99",
@@ -3548,6 +3575,15 @@
       "40-80 mcg post-workout"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/igf-1lr3",
+        "price": "£38.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/igf-1lr3.webp",
+        "dosage": "1mg"
+      },
+
       {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/igf-lr3-1mg",
@@ -3963,6 +3999,23 @@
       "2 mg/day"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/tesamorelin",
+        "price": "£39.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/tesamorelin.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/tesamorelin",
+        "price": "£69.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/tesamorelin-20mg.webp",
+        "dosage": "20mg"
+      },
+
       {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/tesamorelin/vial",
@@ -4779,6 +4832,23 @@
     ],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/motsc",
+        "price": "£16.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/mots-c.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/motsc",
+        "price": "£28.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/mots-c-20mg.webp",
+        "dosage": "20mg"
+      },
+
+      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/mots-c/vial",
         "price": "\u00a322.00",
@@ -5355,6 +5425,15 @@
     ],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/ss-31",
+        "price": "£100.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/ss-31.webp",
+        "dosage": "50mg"
+      },
+
+      {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/ss-31/vial",
         "price": "\u00a349.00",
@@ -5752,6 +5831,23 @@
       "1-2 mg/mL topical"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/ghk-cu",
+        "price": "£15.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/ghk-cu.webp",
+        "dosage": "50mg"
+      },
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/ghk-cu",
+        "price": "£24.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/ghk-cu-100mg.webp",
+        "dosage": "100mg"
+      },
+
       {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/ghk-cu",
@@ -6364,6 +6460,15 @@
       "1-5 mg/kg research doses"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/kpv",
+        "price": "£17.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/kpv.webp",
+        "dosage": "10mg"
+      },
+
       {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/kpv",
@@ -7371,6 +7476,15 @@
     ],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/semax",
+        "price": "£15.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/semax.webp",
+        "dosage": "5mg"
+      },
+
+      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/semax-nasal-spray",
         "price": "\u00a349.99",
@@ -7809,6 +7923,15 @@
       "1-3 mg/day"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/selank",
+        "price": "£24.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/selank.webp",
+        "dosage": "10mg"
+      },
+
       {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/selank-nasal-spray",
@@ -8816,6 +8939,15 @@
     ],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/ipamorelin",
+        "price": "£27.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/ipamorelin.webp",
+        "dosage": "10mg"
+      },
+
+      {
         "vendor": "Research Peptides",
         "url": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
         "price": "\u00a36.99",
@@ -9499,6 +9631,15 @@
       "1 mg subcutaneous as needed"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/pt-141",
+        "price": "£17.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/pt-141.webp",
+        "dosage": "10mg"
+      },
+
       {
         "vendor": "Express Peptides",
         "url": "https://www.expresspeptides.co.uk/product/pt-141/vial",
@@ -11108,6 +11249,15 @@
     "commonDosages": [],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/glow",
+        "price": "£64.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/glow.webp",
+        "dosage": "BPC 10mg + TB 10mg + GHK 50mg"
+      },
+
+      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/glow",
         "price": "\u00a369.99",
@@ -11754,6 +11904,23 @@
     "commonDosages": [],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/bac-water",
+        "price": "£9.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/bac-water.webp",
+        "dosage": "10ml"
+      },
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/bac-water",
+        "price": "£3.50",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/sterile-water.webp",
+        "dosage": "3ml"
+      },
+
+      {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/bacteriostatic-water",
         "price": "\u00a37.99",
@@ -12049,6 +12216,15 @@
     ],
     "commonDosages": [],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/nad",
+        "price": "£28.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/nad.webp",
+        "dosage": "500mg"
+      },
+
       {
         "vendor": "UK Peptides",
         "url": "https://ukpeptides.com/catalog/nad-plus",
@@ -25863,6 +26039,15 @@
     ],
     "sources": [
       {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/mt-2",
+        "price": "£17.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/mt-2.webp",
+        "dosage": "10mg"
+      },
+
+      {
         "vendor": "OL Research",
         "url": "https://olresearch.co.uk/product/melanotan-ii-10mg/",
         "price": "\u00a318.00",
@@ -26017,6 +26202,15 @@
       "5+5mg"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/cjc-1295-ipamorelin-stack",
+        "price": "£34.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/cjc-1295-ipamorelin-stack.webp",
+        "dosage": "10mg"
+      },
+
       {
         "vendor": "UK Peptide Lab",
         "url": "https://ukpeptidelab.co.uk/product/cjc-1295-ipamorelin",
@@ -26250,6 +26444,15 @@
       "5+5mg"
     ],
     "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/bpc-tb-10mg",
+        "price": "£54.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/bpc-tb-10mg.webp",
+        "dosage": "20mg"
+      },
+
       {
         "vendor": "UK Peptide Lab",
         "url": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500",

@@ -1468,5 +1468,34 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "pgna-labs",
+    "name": "PGNA Labs",
+    "slug": "pgna-labs",
+    "website": "https://pgnalabs.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2023,
+    "country": "UK",
+    "description": "UK-based research peptide supplier (PGNA LTD, Company No. 15134727, Weybridge, Surrey) with 20 compounds independently verified to ≥98% purity via HPLC and mass spectrometry. Batch-specific COAs published on every product page, same-day dispatch via Royal Mail Tracked 48, and next-day UK delivery. Price match guarantee and loyalty rewards.",
+    "highlights": [
+      "Third-party HPLC + MS tested",
+      "Batch COA on every product",
+      "Same-day dispatch (before 4pm)",
+      "Royal Mail Tracked 48",
+      "Price match guarantee",
+      "Registered UK company"
+    ],
+    "shipping": [
+      "UK Tracked 48 (free over £50, same-day dispatch before 4pm Mon-Fri)"
+    ],
+    "payment": [
+      "Cards",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "",
+    "labTested": true
   }
 ]
