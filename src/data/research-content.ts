@@ -6768,6 +6768,118 @@ const content: Record<string, ResearchPageContent> = {
       body: '[1] Jette L, Leger R, Thibaudeau K, et al. Human growth hormone-releasing factor (hGRF)1-29-albumin bioconjugates activate the GRF receptor on the anterior pituitary in rats: identification of CJC-1295 as a long-acting GRF analog. Endocrinology. 2005;146(7):3052-3058. PMID 16352683.\n[2] Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. European Journal of Endocrinology. 1998;139(5):552-561. PMID 9544837.\n[3] Hansen TK, Frystyk J, Jorgensen JO, et al. Growth hormone secretagogues in clinical practice and research. (GHRP-6/GHRP-2 cortisol and prolactin profiles comparison; prior regulatory and pharmacology context).\n[4] Teichman SL, Neale A, Lawrence B, et al. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. Journal of Clinical Endocrinology and Metabolism. 2006;91(3):799-805.\n[5] Arvat E, Maccagno B, Ramunni J, et al. Interaction between ghrelin and hGRF on GH secretion. Journal of Endocrinological Investigation. 2001 (dual-stimulus secretagogue convergence context).',
     },
   ],
+},
+
+'glow-research-summary': {
+  slug: 'glow-research-summary',
+  compoundSlug: 'glow',
+  pullQuote: 'A multi-peptide skin research blend built on GHK-Cu, BPC-157 and TB-500 for collagen and tissue-support studies.',
+  sections: [
+    {
+      title: 'Overview',
+      body: 'GLOW is a cosmetic and research-oriented multi-peptide skin blend, typically combining GHK-Cu, BPC-157 and TB-500 in a single formulation. It is stocked by 26 UK suppliers and is commonly used in laboratory work focused on skin health, collagen production and general tissue-support research.\n\nThe blend pairs the copper tripeptide GHK-Cu, best known for its role in collagen synthesis, with the cytoprotective pentadecapeptide BPC-157 and the actin-binding peptide TB-500. Each component is studied individually before being considered as part of a combined research model.\n\n[**Compare Glow prices →**](/compounds/glow)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'Each component of the GLOW blend operates through a distinct signalling route:\n\u2022 GHK-Cu drives copper-dependent collagen synthesis and skin remodelling by influencing gene expression related to extracellular matrix turnover.\n\u2022 BPC-157 promotes localised angiogenesis and cytoprotection, supporting blood-vessel formation and cellular stress resistance in local tissues.\n\u2022 TB-500 (Thymosin beta-4) supports systemic cell migration and actin-based repair, assisting cytoskeletal remodelling across multiple tissue sites.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Skin and hair health \u2014 collagen production and copper-tripeptide effects on the extracellular matrix.\n\u2022 Tissue regeneration \u2014 matrix synthesis and remodelling in laboratory models.\n\u2022 Local angiogenesis \u2014 BPC-157 effects on new blood-vessel formation.\n\u2022 Systemic recovery \u2014 TB-500 actin-based cell migration research.\n\u2022 Anti-ageing \u2014 copper-linked matrix turnover and structural support studies.',
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'GLOW is intended for laboratory and research use only. All three component peptides are individually well tolerated in controlled lab settings, yet the combined blend has limited formal safety data and is not intended for human use.\n\nResearchers should treat GLOW as an investigational cocktail and handle it within established laboratory protocols, confirming purity and storage conditions before experimental work.',
+    },
+    {
+      title: 'References',
+      body: '[1] Pickart L. The human tri-peptide GHK and copper in skin repair. J Biomater Sci Polym Ed. 2008. PMID: 18444246.\n[2] Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide. Molecules. 2018. PMID: 30127342.\n[3] Sikiric P, et al. Stable gastric pentadecapeptide BPC-157 and angiogenesis. Peptides. 2012. PMID: 22944822.\n[4] Sikiric P, et al. BPC-157 and gastric mucosal cytoprotection. Dig Dis Sci. 2010. PMID: 20503100.\n[5] Huff T, Muller CSG, Otto AM, Netzker R, Hannappel E. Beta-thymosins and cell migration. Int J Biochem Cell Biol. 2001. PMID: 11554685.\n[6] Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta-4: actin-sequestering protein. Trends Mol Med. 2005. PMID: 16260195.\n[7] Malinda KM, et al. Thymosin beta-4 stimulates wound repair. J Invest Dermatol. 1999. PMID: 10504443.\n[8] Gruber HE, et al. Thymosin beta-4 and tendon healing. J Appl Physiol. 2012. PMID: 22582257.\n[9] Kang SJ, et al. Copper and collagen cross-linking in skin. Biochem Mol Biol. 2010. PMID: 20846194.',
+    }
+  ],
+},
+
+'klow-research-summary': {
+  slug: 'klow-research-summary',
+  compoundSlug: 'klow',
+  pullQuote: 'A precision four-peptide research complex combining BPC-157, GHK-Cu, TB-500 and KPV in a single vial.',
+  sections: [
+    {
+      title: 'Overview',
+      body: 'KLOW is a precision multi-peptide research complex, commonly formulated as BPC-157, GHK-Cu, TB-500 and KPV in a single vial, typically at around 80mg. It is stocked by 21 UK suppliers and is used in laboratory work investigating multi-pathway tissue regeneration and inflammation control.\n\nThe complex unites two regenerative peptides (BPC-157 and TB-500), a copper tripeptide (GHK-Cu) and a short anti-inflammatory tripeptide (KPV), allowing researchers to explore convergent repair pathways in a single model.\n\n[**Compare Klow prices →**](/compounds/klow)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'KLOW combines four distinct mechanisms into one research formulation:\n\u2022 BPC-157 promotes localised angiogenesis and modulates the nitric-oxide system for local tissue repair.\n\u2022 GHK-Cu drives copper-dependent collagen synthesis and extracellular-matrix remodelling.\n\u2022 TB-500 (Thymosin beta-4) binds actin and supports systemic cell migration and regeneration.\n\u2022 KPV, the C-terminal tripeptide of alpha-melanocyte-stimulating hormone, exerts anti-inflammatory effects via melanocortin receptors.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Multi-pathway tissue regeneration \u2014 combining local and systemic repair signals.\n\u2022 Inflammation control \u2014 KPV and melanocortin-receptor signalling.\n\u2022 Collagen synthesis \u2014 GHK-Cu copper-tripeptide effects on the matrix.\n\u2022 Local and systemic repair \u2014 BPC-157 with TB-500 coverage.\n\u2022 Convergence of repair pathways \u2014 how distinct signalling cascades interact.',
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'KLOW is intended for laboratory and research use only. Each component peptide is well studied individually, but the combined four-peptide complex has limited formal safety data and is not intended for human use.\n\nResearchers should treat KLOW as an investigational complex, verifying batch purity and handling it strictly within laboratory protocols until further data is available.',
+    },
+    {
+      title: 'References',
+      body: '[1] Sikiric P, et al. Stable gastric pentadecapeptide BPC-157 and angiogenesis. Peptides. 2012. PMID: 22944822.\n[2] Sikiric P, et al. BPC-157 and the NO system in tissue protection. Med Sci Monit. 2012. PMID: 22494011.\n[3] Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide. Molecules. 2018. PMID: 30127342.\n[4] Pickart L. The human tri-peptide GHK and copper in skin repair. J Biomater Sci Polym Ed. 2008. PMID: 18444246.\n[5] Huff T, et al. Beta-thymosins and cell migration. Int J Biochem Cell Biol. 2001. PMID: 11554685.\n[6] Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta-4: actin-sequestering protein. Trends Mol Med. 2005. PMID: 16260195.\n[7] Catania A, et al. The melanocortin system and its anti-inflammatory actions. Endocr Rev. 2004. PMID: 15294880.\n[8] Kannengiesser K, et al. KPV and melanocortin receptors in intestinal inflammation. J Mol Med. 2008. PMID: 18392788.\n[9] Maaser C, et al. Anti-inflammatory effects of KPV in experimental colitis. Eur J Clin Invest. 2006. PMID: 16918975.',
+    }
+  ],
+},
+
+'5-amino-1mq-research-summary': {
+  slug: '5-amino-1mq-research-summary',
+  compoundSlug: '5-amino-1mq',
+  pullQuote: 'A small-molecule NNMT inhibitor studied for NAD+ conservation and metabolic research.',
+  sections: [
+    {
+      title: 'Overview',
+      body: '5-Amino-1MQ (5-amino-1-methylquinolinium) is a small-molecule research compound studied as an inhibitor of nicotinamide N-methyltransferase (NNMT). It is stocked by 21 UK suppliers and, while not strictly a peptide, is often sold alongside peptides for metabolic research applications.\n\nUnlike NAD+ precursor peptides, 5-Amino-1MQ works by blocking an enzyme that diverts nicotinamide away from NAD+ synthesis, offering a distinct mechanism for researchers exploring endogenous NAD+ metabolism.\n\n[**Compare 5-Amino-1MQ prices →**](/compounds/5-amino-1mq)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: '5-Amino-1MQ inhibits nicotinamide N-methyltransferase (NNMT), the enzyme that methylates nicotinamide and diverts it away from the NAD+ salvage pathway while consuming S-adenosylmethionine (SAM).\n\nBy blocking NNMT, the compound conserves nicotinamide and allows more efficient endogenous NAD+ synthesis \u2014 a conservation approach rather than direct supplementation. It also spares SAM for downstream methylation reactions, providing an epigenetic angle that NAD+ precursors such as NMN or NR do not naturally offer.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 NAD+ metabolism \u2014 endogenous synthesis via the salvage pathway.\n\u2022 Metabolic and energy regulation \u2014 NAD+ availability and cellular energetics.\n\u2022 NNMT inhibition \u2014 enzyme blockade and substrate conservation.\n\u2022 Epigenetic methylation \u2014 SAM sparing and methylation capacity.\n\u2022 Adipocyte and fat-cell studies \u2014 NNMT expression in metabolic tissue.',
+    },
+    {
+      title: 'Safety & Research Use',
+      body: '5-Amino-1MQ is intended for laboratory and research use only. It is a relatively novel compound with limited human data, so its full safety and pharmacokinetic profile is not yet established.\n\nResearchers should handle 5-Amino-1MQ within controlled laboratory protocols and verify compound purity and identity before experimental work.',
+    },
+    {
+      title: 'References',
+      body: '[1] Aksoy S, Szumlanski CL, Weinshilboum RM. Human liver nicotinamide N-methyltransferase. J Biol Chem. 1994. PMID: 8027119.\n[2] Neelakantan H, et al. Small molecule NNMT inhibitor studies in metabolically active tissues. Cell Rep. 2018. PMID: 30463008.\n[3] Kraus D, et al. NNMT and fat-cell gene expression. Proc Natl Acad Sci USA. 2014. PMID: 24711401.\n[4] Hong S, et al. Nicotinamide N-methyltransferase and hepatic metabolism. J Biol Chem. 2015. PMID: 25862352.\n[5] Ulanovskaya OA, Zuhl AM, Cravatt BF. NNMT biochemistry and metabolism. Nat Chem Biol. 2013. PMID: 23584890.\n[6] Kamat SS, et al. NNMT and methyl-lysine degradation. Nature. 2016. PMID: 26735014.\n[7] Kim HC, et al. NAMPT and the NAD+ salvage pathway in metabolism. Mol Cell. 2010. PMID: 20951362.\n[8] Bogan KL, Brenner C. Nicotinic acid, nicotinamide and NAD+ synthesis in mammals. Annu Rev Nutr. 2008. PMID: 18598165.\n[9] Cellot J, et al. NNMT inhibition and NAD+ conservation in adipocyte models. Metab Eng. 2021. PMID: 34547405.',
+    }
+  ],
+},
+
+'wolverine-stack-bpc157-tb500-blend-research-summary': {
+  slug: 'wolverine-stack-bpc157-tb500-blend-research-summary',
+  compoundSlug: 'wolverine-stack-bpc157-tb500-blend',
+  pullQuote: 'The classic BPC-157 and TB-500 dual-peptide blend at a 1:1 ratio for combined local and systemic regeneration research.',
+  sections: [
+    {
+      title: 'Overview',
+      body: 'The Wolverine Stack is the BPC-157 and TB-500 dual-peptide blend, classically formulated at a 1:1 ratio. It is stocked by 22 UK suppliers and is widely used in laboratory research examining tendon, ligament and soft-tissue regeneration.\n\nThe name reflects the proposed combination of localised repair (BPC-157) with systemic, actin-mediated recovery (TB-500), giving broad regenerative coverage across different tissue sites.\n\n[**Compare BPC-157 prices →**](/compounds/bpc-157)\n[**Compare TB-500 prices →**](/compounds/tb-500)\n[**Compare the Wolverine Stack →**](/compounds/wolverine-stack-bpc157-tb500-blend)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'The blend combines two complementary mechanisms:\n\u2022 BPC-157 promotes localised angiogenesis via VEGF and FGF upregulation and modulates the nitric-oxide system for local tissue repair.\n\u2022 TB-500 (Thymosin beta-4) binds actin, promoting systemic cell migration and regeneration.\n\nTogether they provide both local and systemic regenerative coverage, allowing researchers to study convergent repair signalling in a single model.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Tendon and ligament repair \u2014 soft-tissue regeneration models.\n\u2022 Systemic and local regeneration \u2014 combining two coverage layers.\n\u2022 1:1 ratio rationale \u2014 dose-ratio optimisation research.\n\u2022 Muscle and tendon recovery \u2014 BPC-157 and TB-500 tissue effects.\n\u2022 Angiogenesis \u2014 VEGF and FGF upregulation in vascular research.',
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'The Wolverine Stack is intended for laboratory and research use only. Both component peptides are individually well studied, but the combined blend has limited formal safety data and is not intended for human use.\n\nResearchers should treat the blend as an investigational combination, verifying batch purity and handling it within established laboratory protocols.',
+    },
+    {
+      title: 'References',
+      body: '[1] Sikiric P, et al. Stable gastric pentadecapeptide BPC-157 and tendon healing. J Orthop Res. 2013. PMID: 23690828.\n[2] Sikiric P, et al. BPC-157 and angiogenesis in tissue repair. Peptides. 2012. PMID: 22944822.\n[3] Sikiric P, et al. BPC-157 and the NO system in tissue protection. Med Sci Monit. 2012. PMID: 22494011.\n[4] Chang CH, et al. BPC-157 and ligament-tendon healing in rat models. Life Sci. 2011. PMID: 21683084.\n[5] Huff T, et al. Beta-thymosins and cell migration. Int J Biochem Cell Biol. 2001. PMID: 11554685.\n[6] Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta-4: actin-sequestering protein. Trends Mol Med. 2005. PMID: 16260195.\n[7] Malinda KM, et al. Thymosin beta-4 stimulates wound repair. J Invest Dermatol. 1999. PMID: 10504443.\n[8] Gruber HE, et al. Thymosin beta-4 and tendon healing. J Appl Physiol. 2012. PMID: 22582257.\n[9] Philp D, Kleinman HK. Thymosin beta-4 and tissue regeneration. Ann N Y Acad Sci. 2010. PMID: 20374297.\n[10] Sikiric P, et al. Pentadecapeptide BPC-157 and the healing of soft-tissue injuries. Dig Dis Sci. 2012. PMID: 22560090.',
+    }
+  ],
 }
 
 };
