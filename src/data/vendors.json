@@ -1497,5 +1497,36 @@
     ],
     "lastTested": "",
     "labTested": true
+  },
+  {
+    "id": "trutide",
+    "name": "Trutide",
+    "slug": "trutide",
+    "website": "https://trutide.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based research peptide supplier (Trutide Research Ltd, Company No. 17148085) based in Mildenhall, Suffolk. Every batch is third-party HPLC tested to verify identity, composition and purity, with COA available on request. Deliberately curated catalogue of single-compound research peptides and blends, supplied lyophilised in sealed vials. Free Royal Mail Tracked 24 over \u00a325 with same-day dispatch before 2pm.",
+    "highlights": [
+      "Third-party HPLC tested - COA on request",
+      "UK registered company (Trutide Research Ltd)",
+      "Curated catalogue - quality over quantity",
+      "Free Royal Mail Tracked 24 over \u00a325",
+      "Same-day dispatch (order before 2pm)",
+      "Extremely competitive pricing"
+    ],
+    "shipping": [
+      "UK free (Royal Mail Tracked 24, over \u00a325)",
+      "Same-day dispatch before 2pm Mon-Fri"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard)",
+      "Apple Pay",
+      "Google Pay",
+      "Pay by Bank"
+    ],
+    "lastTested": "2026-08-02",
+    "labTested": true
   }
 ]
