@@ -169,7 +169,7 @@ async function main() {
     name: campaignName,
     type: 'regular',
     emails: [{
-      subject: "This Week's Top Peptide Deals",
+      subject: "🔥 This Week's Top Peptide Deals",
       from_name: 'ViralPeps',
       from: 'info@viralpeps.co.uk',
       content: htmlContent
