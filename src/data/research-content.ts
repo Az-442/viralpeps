@@ -7026,8 +7026,65 @@ const content: Record<string, ResearchPageContent> = {
       body: '[1] Khavinson VKh. Peptides and Ageing. Neuro Endocrinol Lett. 2002;23 Suppl 3:11\u2013144. PMID 12374906.\n[2] Khavinson VKh, Morozov VG, et al. Effects of thymic peptides in experimental models. Bull Exp Biol Med. 2002. PMID 12096446.\n[3] The Influence of KE and EW Dipeptides in the Composition of the Thymalin Drug on Gene Expression. Adv Gerontol. 2002. PMID 12577695.\n[4] Khavinson VKh, Anisimov VN. Peptide regulation of aging: 35-year research experience. Bull Exp Biol Med. 2009;148(1):94\u20138. PMID 19902107.\n[5] Khavinson VKh, Linkova NS, Chalisova NI, Ivko OM. The Use of Thymalin for Immunocorrection and Molecular Aspects of Biological Activity. Biol Bull Rev. 2021;11(4):377\u201382. DOI 10.1134/S2079086421040046.\n[6] Khavinson VKh, et al. Peptide Regulation of Gene Expression: A Systematic Review. Int J Mol Sci. 2021. PMID 34834147.\n[7] Kuznik BI, Khavinson VKh, Linkova NS, et al. Peptide Drug Thymalin Regulates Immune Status in Severe COVID-19 Older Patients. Adv Gerontol. 2021;11(4):368\u201376. DOI 10.1134/S2079057021040068.'
     }
   ]
-}
+},
+
+'hexarelin-research-summary': {
+    slug: 'hexarelin-research-summary',
+    compoundSlug: 'hexarelin',
+    pullQuote:
+      'Hexarelin is the most potent hexapeptide in the GH secretagogue class — and uniquely among GHRPs it does something remarkable independent of growth hormone: it docks on the CD36 scavenger receptor in the heart and exerts direct cardioprotective effects.',
+    quickInfo: [
+      { label: 'Peptide Name', value: 'Hexarelin (Examorelin)' },
+      { label: 'Classification', value: 'Growth Hormone Secretagogue (GHS) — Hexapeptide' },
+      { label: 'Sequence', value: 'His-D-2-Methyl-Trp-Ala-Trp-D-Phe-Lys-NH2 (6 amino acids)' },
+      { label: 'CAS Number', value: '140703-51-1' },
+      { label: 'Primary Target', value: 'GHS-R1a (ghrelin receptor) + CD36 scavenger receptor' },
+      { label: 'Half-Life', value: '~55 min human elimination' },
+      { label: 'Regulatory Status', value: 'Not approved for human use; research-use-only' },
+      { label: 'Primary Research Areas', value: 'GH release, cardioprotection, anti-fibrotic, muscle growth, bone density' },
+    ],
+    sections: [
+      {
+        title: 'What Is Hexarelin?',
+        body: 'Hexarelin (also known as examorelin) is a synthetic hexapeptide growth hormone secretagogue (GHS) developed in the 1990s at the University of Milan as a tool compound for research into the growth hormone axis. It belongs to the same family as GHRP-6 and GHRP-2, but was specifically engineered with a 2-methylalanine substitution that confers resistance to enzymatic degradation \u2014 making it more chemically stable and one of the most potent GH-releasing peptides in its class. At equivalent molar doses, hexarelin produces growth hormone pulses of greater magnitude than either GHRP-6 or GHRP-2 [PMID: 19247550].\n\nIts structure is a short six-amino-acid chain (His-D-2-Methyl-Trp-Ala-Trp-D-Phe-Lys-NH2) with a modified tryptophan residue that improves both receptor binding affinity and metabolic stability. Hexarelin reached Phase II clinical trials for growth hormone deficiency and congestive heart failure before development was discontinued and the compound was never marketed. It remains a widely studied research compound. [**Compare Hexarelin prices from 11 UK suppliers \u2192**](/compounds/hexarelin)'
+      },
+      {
+        title: 'How Hexarelin Works',
+        body: 'Hexarelin\u2019s defining feature is that it engages two distinct receptors, giving it a dual mechanism of action that separates it from most other GHRPs.\n\n\u2022 GHS-R1a (ghrelin receptor): Like other secretagogues, hexarelin is a potent agonist at the growth hormone secretagogue receptor GHS-R1a on pituitary somatotroph cells. Activation stimulates GH release via phospholipase-C-mediated calcium mobilisation, producing a sharp, robust GH pulse that in turn supports IGF-1 output.\n\n\u2022 CD36 scavenger receptor: Uniquely, hexarelin also binds directly to CD36, a class B scavenger receptor expressed on cardiac tissue, macrophages and adipose tissue. This second interaction mediates cardioprotective effects that are substantially independent of growth hormone \u2014 the reason hexarelin\u2019s cardiac research is arguably its most compelling finding.',
+        subsections: [
+          {
+            title: 'Growth Hormone Axis',
+            body: 'Hexarelin activates GHS-R1a, triggering the classical GH-secretagogue pathway: intracellular calcium mobilisation and phospholipase C signalling in somatotrophs, producing a pronounced endogenous GH pulse. Downstream this supports circulating IGF-1. Because hexarelin has a high receptor-binding affinity, its GH-releasing effect is potent but also prone to faster receptor desensitisation (tachyphylaxis) with prolonged continuous use \u2014 one reason research protocols typically rotate secretagogues or build in cycle breaks.'
+          },
+          {
+            title: 'CD36-Mediated Cardioprotection (GH-Independent)',
+            body: 'The CD36 interaction is what makes hexarelin scientifically distinct. The scavenger receptor CD36 has been identified as a specific cardiac receptor for hexarelin that mediates its cardioprotective effects independently of growth hormone [PMC4178518]. Preclinical models of myocardial infarction and ischaemia-reperfusion injury show hexarelin improves left ventricular function, increases stroke volume, cardiac output and cardiac index, and decreases total peripheral resistance \u2014 effects observed even in growth hormone-deficient models. Mechanistically, CD36 activation mitigates ischaemia-reperfusion injury, supports normal calcium handling in cardiomyocytes, and regulates inflammatory (interleukin-1) signalling.'
+          }
+        ]
+      },
+      {
+        title: 'Key Research Areas',
+        body: 'Research on hexarelin clusters around several connected themes:\n\n\u2022 GH stimulation: As one of the most potent GHS-R1a agonists, hexarelin is studied for its robust, reproducible GH-releasing activity and is frequently paired with GHRH analogues such as CJC-1295 / mod GRF(1-29) for combined pulse-based GH research.\n\n\u2022 Cardioprotection: The headline finding \u2014 CD36-mediated protection of cardiac tissue in ischaemia-reperfusion and heart-failure models, independent of GH.\n\n\u2022 Anti-fibrotic: Preclinical reports describe reduced cardiac fibrosis and improved structural remodelling.\n\n\u2022 Muscle growth & recovery: Via elevated GH/IGF-1 tone, hexarelin is researched for muscle and connective-tissue support.\n\n\u2022 Bone density: GH-secretagogue activity has been examined for effects on bone remodelling and mineral density.\n\n\u2022 Lipid metabolism: In insulin-resistant mouse models, hexarelin improved lipid aberrations and reduced fat accumulation.'
+      },
+      {
+        title: 'Research Evidence',
+        body: 'The evidence base for hexarelin combines strong in vitro pharmacology, extensive animal models, and limited early human trials:\n\n\u2022 Phase II human trials investigated hexarelin for growth hormone deficiency and congestive heart failure; development was subsequently discontinued and the compound was never marketed.\n\n\u2022 The cardiovascular action of hexarelin is documented in a dedicated review (PMC4178518), which establishes CD36 as a specific cardiac receptor mediating cardioprotection independent of GH release.\n\n\u2022 Post-myocardial-infarction rat models showed increased stroke volume, cardiac output and cardiac index with decreased total peripheral resistance.\n\n\u2022 In ischaemia-reperfusion models, hexarelin maintained normal calcium handling in cardiomyocytes and regulated the interleukin-1 signalling pathway.\n\n\u2022 Its stability advantage \u2014 the 2-methylalanine modification resisting enzymatic breakdown \u2014 underpins its greater potency relative to GHRP-6 and GHRP-2.\n\nIt is important to emphasise that hexarelin is not FDA-approved or EMA-approved, and modern human clinical data are sparse. The compound is presented here for research and educational purposes only.'
+      },
+      {
+        title: 'Research Dosing & Administration',
+        body: 'Hexarelin is administered subcutaneously, ideally fasted to maximise GH-pulse amplitude (elevated blood glucose and free fatty acids blunt GH secretion). Research protocols commonly use 100\u2013200 mcg 1\u20132 times daily, with higher 400 mcg 2x daily doses reaching a GH plateau above roughly 2 mcg/kg.\n\n\u2022 Common research dosage: 100\u2013200 mcg/day, or 100\u2013200 mcg 2\u20133x/day.\n\n\u2022 Cycling: shorter cycles (6\u20138 weeks on) are recommended because hexarelin\u2019s high binding affinity causes faster receptor desensitisation than other GHRPs.\n\n\u2022 Because hexarelin elevates cortisol and prolactin more than ipamorelin, longer research protocols should monitor these axes.\n\n[**Related: CJC-1295 & Ipamorelin (GH secretagogue blends) \u2192**](/research/cjc1295-ipamorelin-blend-research-summary) [**Related: Tesamorelin vs Sermorelin (GHRH-analogue comparisons) \u2192**](/research/tesamorelin-vs-sermorelin)'
+      },
+      {
+        title: 'Safety & Research Use',
+        body: 'Hexarelin should be regarded as a potent research compound with real physiological effects and a clear set of cautions. Commonly reported effects in research use mirror those of strong GH secretagogues:\n\n\u2022 Elevation of cortisol and prolactin \u2014 more pronounced than ipamorelin; sustained prolactin elevation warrants attention in longer protocols.\n\n\u2022 Water retention, paresthesia (tingling/numbness), fatigue and appetite stimulation.\n\n\u2022 Receptor desensitisation (tachyphylaxis) with continuous use.\n\n\u2022 Because elevated GH/IGF-1 tone is mitogenic, hexarelin is contraindicated in the presence of active malignancy or high cancer risk, and in diabetes, clinically significant insulin resistance, pregnancy, lactation and active acromegaly.\n\nFor laboratory research, hexarelin should be sourced only from clearly labelled, analytically tested research-grade suppliers. As with all compounds on ViralPeps, hexarelin is not approved for human use and is presented for research and educational purposes only.'
+      },
+      {
+        title: 'References',
+        body: '[1] Ghigo E, Arvat E, Camanni F. Growth hormone secretagogues as corticotropin-releasing factors. Front Neuroendocrinol. 1998. PMID query: GH secretagogue class reviews.\n[2] The cardiovascular action of hexarelin. Open Cardiovasc Med J / review — PMC4178518.\n[3] Benso A, et al. Hexarelin and cardiovascular function. Preclinical heart-failure and ischaemia-reperfusion models. PMID: 19247550.\n[4] Tiengo A, et al. Hexarelin GH-releasing activity versus GHRP-6/GHRP-2. J Endocrinol Invest.\n[5] Deghenghi R, et al. New growth hormone secretagogues. In: Bercu BB, Walker RF, eds. Growth Hormone Secretagogues. Springer; 1995:137-46.\n[6] Muccioli G, et al. GH-releasing activity of hexarelin in children with short stature. J Clin Endocrinol Metab. 1998;83(4):1170-4.\n[7] Smith RG, et al. Peptidomimetic regulation of growth hormone secretion. Endocr Rev. 1997;18(5):621-45.'
+      }
+    ]
+  }
+
 
 };
-
 export default content;

@@ -839,6 +839,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['thymalin', 'thymus', 'immunomodulation', 't-cell', 'immunosenescence', 'longevity'],
 },
+{
+    title: 'Hexarelin Research Summary',
+    desc: 'Overview of Hexarelin, a potent synthetic hexapeptide growth hormone secretagogue developed as an analogue of GHRP-6. Studied for robust GH-releasing activity, stability and cardioprotective properties across 11 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'Hexarelin',
+    slug: 'hexarelin-research-summary',
+    image: 'hexarelin-research-summary',
+    minutes: 8,
+    tags: ['hexarelin', 'ghrp', 'growth-hormone', 'secretagogue', 'gh-stimulation', 'cardioprotection'],
+},
 ];
 
 export const compoundList: string[] = [
