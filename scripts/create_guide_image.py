@@ -7,13 +7,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "BPC-157"
-VIAL_PATH = "public/images/compounds/bpc-157-vial.png"
-OUTPUT_PATH = "public/images/guides/bpc157-summary.png"
+COMPOUND = "Hexarelin"
+VIAL_PATH = "public/images/compounds/hexarelin-vial.png"
+OUTPUT_PATH = "public/images/guides/hexarelin-research-summary.png"
 DESCRIPTION_LINES = [
-    "Overview of BPC-157, its research",
-    "applications, dosing protocols,",
-    "and current literature.",
+    "Overview of Hexarelin, a potent synthetic",
+    "growth hormone secretagogue developed as an",
+    "analogue of GHRP-6. Studied for GH release",
+    "and cardioprotective research across 11 suppliers.",
 ]
 # ==================================================
 
