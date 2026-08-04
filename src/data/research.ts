@@ -850,6 +850,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['hexarelin', 'ghrp', 'growth-hormone', 'secretagogue', 'gh-stimulation', 'cardioprotection'],
 },
+{
+    title: 'Follistatin 344 Research Summary',
+    desc: 'Overview of Follistatin 344 (FS-344), a recombinant 344-amino-acid glycoprotein and potent myostatin (GDF-8) antagonist. Studied for skeletal muscle hypertrophy, sarcopenia, cachexia and tissue regeneration across 10 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'Follistatin 344',
+    slug: 'follistatin-344-research-summary',
+    image: 'follistatin-344-research-summary',
+    minutes: 8,
+    tags: ['follistatin-344', 'fs-344', 'myostatin', 'gdf-8', 'muscle-growth', 'activin'],
+},
 ];
 
 export const compoundList: string[] = [

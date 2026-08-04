@@ -7083,8 +7083,54 @@ const content: Record<string, ResearchPageContent> = {
         body: '[1] Ghigo E, Arvat E, Camanni F. Growth hormone secretagogues as corticotropin-releasing factors. Front Neuroendocrinol. 1998. PMID query: GH secretagogue class reviews.\n[2] The cardiovascular action of hexarelin. Open Cardiovasc Med J / review — PMC4178518.\n[3] Benso A, et al. Hexarelin and cardiovascular function. Preclinical heart-failure and ischaemia-reperfusion models. PMID: 19247550.\n[4] Tiengo A, et al. Hexarelin GH-releasing activity versus GHRP-6/GHRP-2. J Endocrinol Invest.\n[5] Deghenghi R, et al. New growth hormone secretagogues. In: Bercu BB, Walker RF, eds. Growth Hormone Secretagogues. Springer; 1995:137-46.\n[6] Muccioli G, et al. GH-releasing activity of hexarelin in children with short stature. J Clin Endocrinol Metab. 1998;83(4):1170-4.\n[7] Smith RG, et al. Peptidomimetic regulation of growth hormone secretion. Endocr Rev. 1997;18(5):621-45.'
       }
     ]
-  }
+  },
 
+'follistatin-344-research-summary': {
+  slug: 'follistatin-344-research-summary',
+  compoundSlug: 'follistatin-344',
+  pullQuote:
+    'Follistatin 344 does not push muscle growth — it removes the brake. By binding and neutralising myostatin (GDF-8) and the activins, it releases the TGF-\u03b2 brake that normally caps skeletal muscle mass, making it one of the most studied compounds in muscle-growth and regenerative research.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Follistatin 344 (FST-344 / FS-344)' },
+    { label: 'Classification', value: 'Activin-binding glycoprotein — Myostatin (GDF-8) antagonist' },
+    { label: 'Sequence', value: 'Recombinant 344-amino-acid protein' },
+    { label: 'CAS Number', value: '80449-31-6' },
+    { label: 'Primary Target', value: 'Myostatin (GDF-8), activin A & activin B' },
+    { label: 'Half-Life', value: '~1.5 hours (injectable protein); isoforms FS-315 & FS-288' },
+    { label: 'Regulatory Status', value: 'Not approved for human use; research-use-only. WADA-banned as a muscle-growth agent' },
+    { label: 'Primary Research Areas', value: 'Muscle hypertrophy, myostatin inhibition, sarcopenia, cachexia, muscular dystrophy, tissue regeneration' },
+  ],
+  sections: [
+    {
+      title: 'What Is Follistatin 344?',
+      body: 'Follistatin 344 (also FS-344, FST-344 or simply follistatin) is a recombinant 344-amino-acid glycoprotein isoform of the naturally occurring follistatin protein, a member of the activin-binding glycoprotein family. It is best known as the body\u2019s primary endogenous antagonist of myostatin (GDF-8) \u2014 the TGF-\u03b2-superfamily signalling protein that acts as the main negative regulator of skeletal muscle mass. [**Compare Follistatin 344 prices from 10 UK suppliers \u2192**](/compounds/follistatin-344)\n\nThe \u201c344\u201d in its name refers to the 344-amino-acid isoform of full-length follistatin, which lacks the heparin-binding domain that anchors the shorter FS-315 isoform to cell surfaces. Because it does not stick to tissues, FS-344 circulates systemically and acts body-wide, making it the preferred form for whole-body muscle studies. In the body, the precursor is cleaved into two active isoforms: FS-315 (circulating, muscle-targeting) and FS-288 (tissue-bound, concentrated in reproductive tissues). It is presented here for research and educational purposes only \u2014 it is not FDA-, EMA- or MHRA-approved for human use, and is banned by WADA as a muscle-growing agent.'
+    },
+    {
+      title: 'How Follistatin 344 Works',
+      body: 'Follistatin 344\u2019s defining mechanism is neutralising the signals that hold muscle growth in check, rather than adding an anabolic stimulus.\n\n\u2022 Myostatin (GDF-8) neutralisation: Follistatin binds myostatin with extremely high affinity (reported Kd \u2248 5\u201310 pM), trapping it in the blood and preventing it from engaging activin type IIB (ActRIIB) receptors on muscle cells. Blocking this interaction halts the downstream Smad2/3 signalling cascade that otherwise limits satellite-cell activation and muscle-fibre growth.\n\n\u2022 Activin A & activin B binding: Unlike pure myostatin inhibitors, follistatin also binds the activins \u2014 additional growth-suppressive TGF-\u03b2 ligands. This dual antagonism is why follistatin drives larger muscle gains than removing myostatin alone.\n\n\u2022 Satellite cell activation: By removing the ActRIIB brake, follistatin supports satellite-cell proliferation and differentiation, allowing both hypertrophy (larger existing fibres) and hyperplasia (additional new fibres).\n\n\u2022 Anti-catabolic partitioning: Reduced myostatin/activin tone is also associated with lower adipogenesis and reduced fat deposition.'
+    },
+    {
+      title: 'Key Research Areas',
+      body: 'Research on follistatin 344 clusters around several connected themes:\n\n\u2022 Skeletal muscle hypertrophy: As the strongest per-dose muscle-growth peptide in rodent work, FS-344 is central to myostatin-pathway study.\n\u2022 Myostatin (GDF-8) inhibition: The canonical R&D tool for probing the myostatin\u2013follistatin axis.\n\u2022 Sarcopenia & age-related muscle loss: Theoretically explored for restoring muscle in ageing models, though unvalidated for injectable use.\n\u2022 Cachexia & muscle wasting: Studied in disease-associated wasting models and muscular dystrophy.\n\u2022 Duchenne / Becker muscular dystrophy: Gene-therapy approaches delivering the follistatin gene directly into muscle.\n\u2022 Tissue regeneration: Follistatin\u2019s role in satellite-cell-driven repair and regeneration following injury.'
+    },
+    {
+      title: 'Research Evidence',
+      body: 'The most striking follistatin evidence comes from gene-therapy and animal models, not from the injected protein:\n\n\u2022 A landmark JCI report documented that follistatin-mediated myostatin inhibition produced skeletal muscle hypertrophy on the order of 200\u2013300% in animal models.\n\u2022 \u201cMighty mice\u201d studies: FS-344 overexpression produced up to ~2x normal muscle mass; combining myostatin deletion with FS-344 reached close to ~4x normal muscle mass.\n\u2022 Primate study (Kota et al., Sci Transl Med 2009): a single dose of follistatin via AAV gene transfer produced ~15% quadriceps circumference increase at 8 weeks, persisting 15+ months.\n\u2022 Becker muscular dystrophy gene therapy (Mendell et al.): single intramuscular injection of AAV1-FS344 was associated with improved ambulation and muscle strength.\n\u2022 Injected-protein evidence is markedly more modest: rodent studies of injected follistatin protein report rough gains of 5\u201315% over 6\u201312 weeks, vs 30\u201350% from continuous gene-therapy production \u2014 consistent with its short ~1.5-hour half-life.\n\nIt is important to emphasise that follistatin 344 is not approved for human use, and large, independent human clinical data for the injectable form are lacking. The compound is presented here for research and educational purposes only.'
+    },
+    {
+      title: 'Research Dosing & Administration',
+      body: 'Follistatin 344 is a fragile full glycoprotein (~37\u201338 kDa), not a short synthetic peptide, and requires careful reconstitution and handling. Reconstitute by adding bacteriostatic water slowly down the inside wall of the vial, then gently swirl or roll \u2014 never shake, as this denatures the protein. A common research convention is ~2 mL bacteriostatic water for a 1 mg vial.\n\n\u2022 Research protein dosing: approximately 100 mcg up to 5 mg per dose, subcutaneous or intramuscular, 2\u20133\u00d7 per week.\n\u2022 With such a short half-life, the injected protein clears the blood within hours, so frequent dosing is required for meaningful exposure.\n\u2022 Because the most dramatic outcomes in the literature derive from continuous gene-therapy expression rather than intermittent injections, expected results from the injectable peptide are considerably more modest.\n\nAs with all compounds on ViralPeps, follistatin 344 is research-use-only and is not approved for human use. [**Related: CJC-1295 & Ipamorelin (GH-secretagogue muscle research) \u2192**](/research/cjc1295-ipamorelin-blend-research-summary) [**Related: Tesamorelin vs Sermorelin (GHRH analogues) \u2192**](/research/tesamorelin-vs-sermorelin)'
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'The safety profile of follistatin 344 reflects its broad biological reach. Because it neutralises myostatin and the activins, it also affects tissues where activin signalling is protective, including reproduction, the immune system and blood-cell production.\n\n\u2022 At normal research/early-trial doses, reported effects are mostly minor: injection-site soreness and occasional mild fatigue, with no clear liver or heart warning signs.\n\u2022 Broad activin blockade can spill into reproductive, immune and haematopoietic (blood-cell) effects \u2014 a key reason it is not used casually.\n\u2022 Doses above ~200 mcg/day of the protein are associated with adverse events; a case report documented central serous chorioretinopathy (visual impairment) after a single 1 mg dose (~10\u00d7 a typical dose).\n\u2022 Theoretical risk of tumour growth in tissues where myostatin/activin normally hold cells in check.\n\u2022 Gene-therapy delivery adds virus-specific risks: immune reaction to the AAV vector and gene expression in unintended tissues.\n\u2022 Long-term human safety beyond a few months is not well characterised.\n\nFor laboratory research, follistatin 344 should be sourced only from clearly labelled, analytically tested research-grade suppliers, with cold-chain handling to preserve the folded protein. As a full protein, misfolded or degraded batches may not bind their targets despite weighing correctly \u2014 quality verification matters.'
+    },
+    {
+      title: 'References',
+      body: '[1] Kota J, et al. Follistatin gene delivery enhances muscle growth and strength in nonhuman primates. Sci Transl Med. 2009. PMID 20368171.\n[2] Mendell JR, et al. Gene therapy for muscular dystrophy via follistatin gene delivery (AAV1-FS344). Mol Ther. 2015.\n[3] Lee SJ. Regulation of muscle mass by myostatin (and activin) \u2014 follistatin as the endogenous inhibitor. Mol Endocrinol. 2010.\n[4] Hosoyama T, et al. Myostatin and the ActRIIB/Smad2/3 pathway in muscle growth regulation. J Reprod Dev. 2006.\n[5] Barb\u00e9 C, et al.; Gilson H, et al. Hypertrophy via satellite-cell activation and myostatin blockade in rodent models. 2015 / 2009.\n[6] Follistatin 344 biochemical characterisation \u2014 CAS 80449-31-6, recombinant 344-aa activin-binding glycoprotein.'
+    }
+  ]
+}
 
 };
 export default content;
