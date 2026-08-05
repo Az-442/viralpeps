@@ -1068,7 +1068,7 @@
         "url": "https://olresearch.co.uk/product/bpc-157-10mg/",
         "price": "£22.50",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-BPC-157-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-BPC-157-10-900x900.webp",
         "dosage": "10mg"
       },
       {
@@ -1092,7 +1092,7 @@
         "price": "£15.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/BPC157-10mg.jpg?v=1774608902&width=3840"
+        "image": "/images/products/regenpeptides/BPC-157-10MG.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -1660,7 +1660,7 @@
         "url": "https://olresearch.co.uk/product/tb-500-10mg/",
         "price": "£24.30",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-TB-500-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-TB-500-10-900x900.webp",
         "dosage": "10mg"
       },
       {
@@ -2247,7 +2247,7 @@
         "price": "£18.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/GHRP-2_9e0ba634-9870-4893-b198-4b5397881d52.jpg?v=1774608768&width=3840"
+        "image": "/images/products/regenpeptides/GHRP-2.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -2568,7 +2568,7 @@
         "url": "https://olresearch.co.uk/product/aod9604-5mg/",
         "price": "£44.00",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-AOD9604-5-900x900.webp",
+        "image": "/images/products/olresearch/aod9604-vial.webp",
         "dosage": "5mg"
       },
       {
@@ -2585,7 +2585,7 @@
         "price": "£25.00",
         "inStock": true,
         "dosage": "5mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-12_vial_product_R01_AOD_9604_5MG_db70f949-ffea-4abe-a016-90a71557cf4c.jpg?v=1774608789&width=3840"
+        "image": "/images/products/regenpeptides/AOD_9604-5MG.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -2982,7 +2982,7 @@
         "url": "https://olresearch.co.uk/product/r3ta-20mg/",
         "price": "£81.00",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-R3TA-20-900x900.webp",
+        "image": "/images/products/olresearch/OLC-R3TA-20-900x900.webp",
         "dosage": "20mg"
       },
       {
@@ -2990,7 +2990,7 @@
         "url": "https://olresearch.co.uk/product/r3ta-30mg/",
         "price": "£126.00",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-R3TA-30-900x900.webp",
+        "image": "/images/products/olresearch/OLC-R3TA-30-900x900.webp",
         "dosage": "30mg"
       },
       {
@@ -3460,7 +3460,7 @@
         "url": "https://olresearch.co.uk/product/cjc-1295-dac-5mg/",
         "price": "£36.00",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-CJC1295-DAC-5-900x900.webp",
+        "image": "/images/products/olresearch/OLC-CJCY-1295-DAC-5.webp",
         "dosage": "DAC 5mg"
       },
       {
@@ -3468,7 +3468,7 @@
         "url": "https://olresearch.co.uk/product/cjc-1295-no-dac-10mg/",
         "price": "£32.40",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-CJC1295-ND-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-CJC-1295-NO-DAC-10.webp",
         "dosage": "No DAC 10mg"
       },
       {
@@ -3485,7 +3485,7 @@
         "price": "£35.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/CJC1295-With-DAC_30ba21ce-f951-4333-b33f-66c96041e040.jpg?v=1774608757&width=3840"
+        "image": "/images/products/regenpeptides/CJC1295-With-DAC.png"
       },
       {
         "vendor": "Regen Peptides",
@@ -3493,7 +3493,7 @@
         "price": "£25.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/CJC1295-Without-DAC_99a3a566-8835-4bb0-885e-92fb80ffb4bd.jpg?v=1774608760&width=3840"
+        "image": "/images/products/regenpeptides/CJC1295-Without-DAC.png"
       },
       {
         "vendor": "Lab77 Peptides",
@@ -3782,7 +3782,7 @@
         "price": "£40.00",
         "inStock": true,
         "dosage": "1mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-IGF-1LR3-1mg_611fcda9-3899-4ba2-bd1a-6cb25d9f7728.jpg?v=1774608860&width=3840"
+        "image": "/images/products/regenpeptides/IGF-1LR3-1mg.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -4403,7 +4403,7 @@
         "url": "https://olresearch.co.uk/product/tesamorelin-10mg/",
         "price": "£46.80",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-TESAMORELIN-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-TESA-10.webp",
         "dosage": "10mg"
       },
       {
@@ -5249,7 +5249,7 @@
         "url": "https://olresearch.co.uk/product/mots-c-10mg/",
         "price": "£24.30",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-MOTS-C-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-MOTS-C-10-900x900.webp",
         "dosage": "10mg"
       },
       {
@@ -5273,7 +5273,7 @@
         "price": "£25.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-12_vial_product_R01_MOTS-C_20MG_20db498d-3ce4-42ce-bee5-8d059845daf3.jpg?v=1774608792&width=3840"
+        "image": "/images/products/regenpeptides/MOTS-C-10MG.png"
       },
       {
         "vendor": "Chilton Labs",
@@ -6317,7 +6317,7 @@
         "url": "https://olresearch.co.uk/product/copper-ghk-cu-50mg/",
         "price": "£25.20",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-GHK-CU-50-900x900.webp",
+        "image": "/images/products/olresearch/OLC-GHK-CU-50-900x900.webp",
         "dosage": "50mg"
       },
       {
@@ -6341,7 +6341,7 @@
         "price": "£25.00",
         "inStock": true,
         "dosage": "50mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/Whisk_bb6fbad8c0fa10895434d55ff708b756dr.png?v=1775080651&width=3840"
+        "image": "/images/products/regenpeptides/GHK-CU-50MG.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -6791,7 +6791,7 @@
         "url": "https://olresearch.co.uk/product/kpv-10mg/",
         "price": "£25.20",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-KPV-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-KPV-10.webp",
         "dosage": "10mg"
       },
       {
@@ -6815,7 +6815,7 @@
         "price": "£25.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-13_vial_product_R03_KPV_54eaea48-eb28-4ea0-9d35-0e7158e5b14d.jpg?v=1774608797&width=3840"
+        "image": "/images/products/regenpeptides/KPV-10MG.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -7453,7 +7453,7 @@
         "url": "https://olresearch.co.uk/product/epithalon-10mg/",
         "price": "£17.10",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-EPITHALON-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-EPITHALON-10.webp",
         "dosage": "10mg"
       },
       {
@@ -7470,7 +7470,7 @@
         "price": "£15.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-Epithalon-10mg_fdee4e00-db4f-4ad5-96ad-5ecc78d9f111.jpg?v=1774608848&width=3840"
+        "image": "/images/products/regenpeptides/Epithalon-10mg-.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -7873,7 +7873,7 @@
         "url": "https://olresearch.co.uk/product/semax-5mg/",
         "price": "£17.55",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-SEMAX-5-900x900.webp",
+        "image": "/images/products/olresearch/OLC-SEMAX-5-900x900.webp",
         "dosage": "5mg"
       },
       {
@@ -7897,7 +7897,7 @@
         "price": "£25.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-13_vial_product_SEMAX_R02_9ef766fe-8931-4c43-afcb-86c15c847fc9.jpg?v=1774608800&width=3840"
+        "image": "/images/products/regenpeptides/SEMAX-10MG.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -8332,7 +8332,7 @@
         "url": "https://olresearch.co.uk/product/selank-5mg/",
         "price": "£17.55",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-SELANK-5-900x900.webp",
+        "image": "/images/products/olresearch/OLC-SELANK-5-900x900.webp",
         "dosage": "5mg"
       },
       {
@@ -8356,7 +8356,7 @@
         "price": "£30.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-Selank-10mg_a9f8b576-9928-4232-817f-b27060d4e08f.jpg?v=1774608877&width=3840"
+        "image": "/images/products/regenpeptides/Selank-10mg-.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -8593,7 +8593,7 @@
         "price": "£35.00",
         "inStock": true,
         "dosage": "5mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/ARA---290_20b7cde0-eddf-4535-85a9-798f0475493f.jpg?v=1774608755&width=3840"
+        "image": "/images/products/regenpeptides/ARA-290.png"
       }
     ],
     "longDescription": "## Overview\n\nARA-290 (Cibinetide, also known as Helix 13) is an 11-amino acid peptide derived from the tertiary structure of erythropoietin (EPO) through rational peptide engineering. What makes ARA-290 unique is its ability to selectively activate the EPO tissue-protective receptor complex (EPOR-βcR heteroreceptor) without stimulating the classical EPO homodimer receptor responsible for erythropoiesis. This selectivity separates the neuroprotective, anti-inflammatory, and tissue-repairing properties of EPO from its haematopoietic effects — eliminating concerns about thrombosis, polycythaemia, and hypertension that limit EPO's therapeutic use in non-anaemic contexts. ARA-290 has been studied in clinical trials for neuropathic pain, sarcoidosis, peripheral neuropathy, and ischaemic injury. UK researchers in neurology, pain medicine, and wound healing have explored ARA-290 for its potential to treat neuropathic pain and promote tissue repair through JAK2/STAT3 signalling without the risks associated with full-length EPO.\n\n## Mechanism of Action\n\nARA-290 is a selective agonist at the EPO tissue-protective receptor, which is a heterocomplex composed of the erythropoietin receptor (EPOR) and the beta common receptor (βcR or CD131). This receptor complex is expressed on neurons, glial cells, endothelial cells, and cardiomyocytes — tissues requiring protection from injury — whereas the classical EPO homodimer receptor is primarily expressed on erythroid progenitor cells. Upon binding, ARA-290 activates JAK2/STAT3 and PI3K/Akt signalling pathways, which reduce apoptosis, inhibit pro-inflammatory cytokine production, decrease oxidative stress, and promote cell survival and tissue repair. The peptide also upregulates anti-apoptotic proteins (Bcl-2, Bcl-xL) and downregulates pro-apoptotic factors (Bax, caspases). This combined anti-apoptotic, anti-inflammatory, and tissue-protective signalling makes ARA-290 a promising investigational compound for conditions involving neuronal injury, ischaemia, and chronic inflammation.\n\n## Research & Clinical Data\n\nARA-290 has been evaluated in multiple clinical trials. In neuropathic pain associated with sarcoidosis, ARA-290 (4 mg subcutaneous daily for 28 days) significantly reduced pain scores and improved small nerve fibre function as measured by corneal confocal microscopy. In diabetic peripheral neuropathy, ARA-290 treatment improved neuropathic symptoms and restored corneal nerve fibre density. Preclinical studies have demonstrated protection in models of myocardial infarction, stroke, spinal cord injury, and renal ischaemia-reperfusion injury. Wound healing studies show accelerated closure and improved angiogenesis in diabetic wound models.\n\n## Dosage & Administration\n\nResearch dosages for ARA-290 typically range from 2–8 mg per day, with 4 mg subcutaneous daily being a well-established protocol from clinical studies. The peptide has a half-life of approximately 20 minutes. Subcutaneous administration is standard. Reconstitution with bacteriostatic water is standard, and solutions should be stored at 2–8°C and used within 7 days.\n\n## Safety & Legal\n\nARA-290 is for research purposes only. Clinical studies have reported an excellent safety profile with no haematological effects (no increase in haemoglobin, haematocrit, or red cell mass) — confirming the selective activation of the tissue-protective receptor. Mild injection site reactions are the most common adverse event. The lyophilised powder should be stored at -20°C and protected from light.\n\n\nThe rational design of ARA-290 from the three-dimensional structure of erythropoietin represents a triumph of structure-based drug design. Researchers at the University of Pittsburgh and the Araim Pharmaceuticals identified a specific surface patch of EPO responsible for its tissue-protective effects — distinct from the surface patch that binds the homodimeric EPO receptor for erythropoiesis. By synthesising the 11-amino acid peptide corresponding to this helical region (helix B, residues 13–24 of EPO), they created a molecule that retains tissue-protective activity while being completely devoid of erythropoietic activity.\n\nThe tissue-protective receptor (EPOR-βcR complex) is expressed on cells throughout the body — neurons, glial cells, endothelial cells, cardiomyocytes, renal tubular cells, and pancreatic beta cells — suggesting broad therapeutic potential. By selectively activating this receptor, ARA-290 can protect multiple organ systems from injury while avoiding the cardiovascular risks (hypertension, thrombosis) associated with EPO's haematopoietic effects.\n\nClinical studies in sarcoidosis-associated neuropathic pain demonstrated that ARA-290 not only reduced pain but also improved small nerve fibre structure and function as assessed by corneal confocal microscopy. This structural improvement in nerve fibres suggests tissue regeneration rather than symptomatic palliation — a distinction that is rare in pain therapeutics. Similar benefits were observed in diabetic peripheral neuropathy, where ARA-290 improved both symptoms and objective measures of nerve fibre density.\n\nFor research protocols, ARA-290 is typically administered at 2–8 mg daily via subcutaneous injection. The peptide has a half-life of approximately 20 minutes. Clinical studies have confirmed its safety in hundreds of patients with no haematological effects. UK researchers can obtain ARA-290 from suppliers including United Peptides and BodyHack Guide Shop, with purity ≥98% verified by independent testing.",
@@ -8885,7 +8885,7 @@
         "price": "£20.00",
         "inStock": true,
         "dosage": "5mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/HGH-FRAGMENT-176-191_ab963c7d-0326-4bb5-b1ac-8516f0b560f4.jpg?v=1774608776&width=3840"
+        "image": "/images/products/regenpeptides/HGH-FRAGMENT-176-191.png"
       }
     ],
     "longDescription": ""
@@ -9003,7 +9003,7 @@
         "price": "£40.00",
         "inStock": true,
         "dosage": "2mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/HEXARELIN_2c7ed8a0-daba-453a-b93f-5435cff82429.jpg?v=1774608773&width=3840"
+        "image": "/images/products/regenpeptides/HEXARELIN.png"
       }
     ],
     "longDescription": ""
@@ -9377,7 +9377,7 @@
         "url": "https://olresearch.co.uk/product/ipamorelin-10mg/",
         "price": "£31.50",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-IPAMORELIN-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-IPA-10.webp",
         "dosage": "10mg"
       },
       {
@@ -9401,7 +9401,7 @@
         "price": "£45.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-Ipamorelin-10mg_2da1272d-e4a5-4e2f-8421-7986653ead1c.jpg?v=1774608863&width=3840"
+        "image": "/images/products/regenpeptides/Ipamorelin-10mg-.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -9679,7 +9679,7 @@
         "price": "£18.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/GHRP-6_3c3e61ad-6e50-4740-a0a4-4d6755610bb0.jpg?v=1774608771&width=3840"
+        "image": "/images/products/regenpeptides/GHRP-6.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -9987,7 +9987,7 @@
         "url": "https://olresearch.co.uk/product/pt-141-10mg/",
         "price": "£17.10",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-PT141-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-PT-141-10.webp",
         "dosage": "10mg"
       },
       {
@@ -10011,7 +10011,7 @@
         "price": "£20.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/PT-141-Regenpeptides.jpg?v=1779211097&width=3840"
+        "image": "/images/products/regenpeptides/PT-141-10mg.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -10225,7 +10225,7 @@
         "price": "£30.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/KISSPEPTIN_57e3754c-2e63-4302-948c-73d1350f8e69.jpg?v=1774608778&width=3840"
+        "image": "/images/products/regenpeptides/KISSPEPTIN.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -10746,7 +10746,7 @@
         "price": "£40.00",
         "inStock": true,
         "dosage": "10mg+10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-BPC157-TB500-10mg-10mg_474a01b6-0dab-40de-a4ac-4497b267468b.jpg?v=1774608839&width=3840"
+        "image": "/images/products/regenpeptides/BPC157-TB500-10mg-10mg-.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -11115,7 +11115,7 @@
         "price": "£15.00",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/DSIP_41a8a3b9-98a8-4b7e-a9e5-cce3a1299528.jpg?v=1774608763&width=3840"
+        "image": "/images/products/regenpeptides/DSIP.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -11554,7 +11554,7 @@
         "url": "https://olresearch.co.uk/product/glow-70mg/",
         "price": "£58.50",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-GLOW-70-900x900.webp",
+        "image": "/images/products/olresearch/ChatGPT-Image-May-25-2026-11_42_41-AM.png",
         "dosage": "70mg"
       },
       {
@@ -11570,7 +11570,7 @@
         "price": "£50.00",
         "inStock": true,
         "dosage": "50mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-GLOW50.jpg?v=1775245734&width=3840"
+        "image": "/images/products/regenpeptides/GLOW50.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -11757,7 +11757,7 @@
         "url": "https://olresearch.co.uk/product/klow-80mg/",
         "price": "£72.00",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-KLOW-80-900x900.webp",
+        "image": "/images/products/olresearch/OLC-KLOW10-50-10-10.webp",
         "dosage": "80mg"
       },
       {
@@ -11773,7 +11773,7 @@
         "price": "£75.00",
         "inStock": true,
         "dosage": "80mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/Whisk_08c6e5c63b854ff8a7a449540c1aedb6dr.png?v=1775080864&width=3840"
+        "image": "/images/products/regenpeptides/KLOW80-10mg-10mg-50mg-10mg.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -12005,7 +12005,7 @@
         "url": "https://olresearch.co.uk/product/snap-8-10mg/",
         "price": "£17.10",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-SNAP-8-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-SNAP-8-10-900x900.webp",
         "dosage": "10mg"
       },
       {
@@ -12268,7 +12268,7 @@
         "price": "£2.50",
         "inStock": true,
         "dosage": "30ml",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-13_vial_product_-_R03_BACTERIOSTATIC_WATER_2630643f-262e-4e09-9e8e-755bf15f9402.jpg?v=1774608795&width=3840"
+        "image": "/images/products/regenpeptides/BACTERIOSTATIC_WATER-10ML.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -12661,7 +12661,7 @@
         "url": "https://olresearch.co.uk/product/nad-500mg/",
         "price": "£40.50",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-NAD-500-900x900.webp",
+        "image": "/images/products/olresearch/OLC-NAD-500-900x900.webp",
         "dosage": "500mg"
       },
       {
@@ -12669,7 +12669,7 @@
         "url": "https://olresearch.co.uk/product/nad-1000mg/",
         "price": "£76.50",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-NAD-1000-900x900.webp",
+        "image": "/images/products/olresearch/OLC-NAD-1000-900x900.webp",
         "dosage": "1000mg"
       },
       {
@@ -12678,7 +12678,7 @@
         "price": "£55.00",
         "inStock": true,
         "dosage": "1000mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9__3__R02_NAD__1000mg.jpg?v=1775245712&width=3840"
+        "image": "/images/products/regenpeptides/NAD-1000mg.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -13166,7 +13166,7 @@
         "price": "£40.00",
         "inStock": true,
         "dosage": "5mg+5mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-CJC-1295-Ipamorelin-5mg-5mg_67b8f986-ced1-4617-8ad3-084d192f6677.jpg?v=1775246004&width=3840"
+        "image": "/images/products/regenpeptides/CJC-1295-Ipamorelin-5mg-5mg-.png"
       },
       {
         "vendor": "Alphamino",
@@ -14147,7 +14147,7 @@
         "price": "£30.00",
         "inStock": true,
         "dosage": "50mg",
-        "image": "https://www.regenpeptides.co.uk/cdn/shop/files/atomicjake-9-_3_-R01-5-Amino-1MQ-50mg.jpg?v=1775245691&width=3840"
+        "image": "/images/products/regenpeptides/5-Amino-1MQ.png"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -15056,7 +15056,7 @@
         "url": "https://olresearch.co.uk/product/ahk-cu-50mg/",
         "price": "£36.00",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-AHK-CU-50-900x900.webp",
+        "image": "/images/products/olresearch/OLC-AHK-CU-50.webp",
         "dosage": "50mg"
       },
       {
@@ -26306,7 +26306,7 @@
         "url": "https://olresearch.co.uk/product/melanotan-ii-10mg/",
         "price": "£18.00",
         "inStock": true,
-        "image": "https://olresearch.co.uk/wp-content/uploads/2026/03/OLC-MELANOTAN-2-10-900x900.webp",
+        "image": "/images/products/olresearch/OLC-MEL-II-10.webp",
         "dosage": "10mg"
       },
       {
