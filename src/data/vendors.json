@@ -1559,5 +1559,34 @@
     ],
     "lastTested": "2026-08-03",
     "labTested": true
+  },
+  {
+    "id": "applied-peptides",
+    "name": "Applied Peptides",
+    "slug": "applied-peptides",
+    "website": "https://appliedpeptides.com",
+    "rating": 4.4,
+    "verified": false,
+    "founded": 2025,
+    "country": "UK",
+    "description": "UK-based online supplier of affordable research peptides including BPC-157, Tirzepatide, Retatrutide, TB-500 and 25+ more. Fast UK dispatch, secure checkout, and WhatsApp plus email support. Research and laboratory use only.",
+    "highlights": [
+      "UK-based",
+      "Affordable research pricing",
+      "Retatrutide pen options",
+      "Fast UK dispatch",
+      "WhatsApp & email support",
+      "Research use only"
+    ],
+    "shipping": [
+      "UK (fast dispatch)"
+    ],
+    "payment": [
+      "Cards",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "2026-08-05",
+    "labTested": false
   }
 ]
