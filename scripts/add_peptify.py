@@ -20,85 +20,85 @@ sources_to_add = {
         "url": "https://www.peptifyuk.com/products/bpc-157-10mg",
         "price": "£26.99",
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/bpc-157-10mg-7kzmjeWp.png"
+        "image": "/images/products/peptify/bpc-157.png"
     },
     "tb-500": {
         "url": "https://www.peptifyuk.com/products/tb-500-5mg",
         "price": "£24.99",
         "dosage": "5mg",
-        "image": "https://www.peptifyuk.com/assets/tb-500-5mg-Bn7biEQq.png"
+        "image": "/images/products/peptify/tb-500.png"
     },
     "ghk-cu": {
         "url": "https://www.peptifyuk.com/products/ghk-cu-50mg",
         "price": "£18.99",
         "dosage": "50mg",
-        "image": "https://www.peptifyuk.com/assets/ghk-cu-50mg-D2OItjpq.png"
+        "image": "/images/products/peptify/ghk-cu.png"
     },
     "tesamorelin": {
         "url": "https://www.peptifyuk.com/products/tesamorelin-10mg",
         "price": "£49.99",
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/tesamorelin-10mg-DdpqWtfI.png"
+        "image": "/images/products/peptify/tesamorelin.png"
     },
     "ipamorelin": {
         "url": "https://www.peptifyuk.com/products/ipamorelin-10mg",
         "price": "£29.99",
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/ipamorelin-10mg-_rnjir49.png"
+        "image": "/images/products/peptify/ipamorelin.png"
     },
     "mots-c": {
         "url": "https://www.peptifyuk.com/products/mots-c-10mg",
         "price": "£34.99",
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/mot-c-10mg-bNnjUc_W.png"
+        "image": "/images/products/peptify/mots-c.png"
     },
     "nad-plus": {
         "url": "https://www.peptifyuk.com/products/nad-500mg",
         "price": "£44.99",
         "dosage": "500mg",
-        "image": "https://www.peptifyuk.com/assets/nad-plus-500mg-Dtj4146e.png"
+        "image": "/images/products/peptify/nad-plus.png"
     },
     "selank": {
         "url": "https://www.peptifyuk.com/products/selank-10mg",
         "price": "£24.99",
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/selank-10mg-m3OtJBuO.png"
+        "image": "/images/products/peptify/selank.png"
     },
     "kpv": {
         "url": "https://www.peptifyuk.com/products/kpv-10mg",
         "price": "£24.99",
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/kpv-10mg-Bfo9_RrN.png"
+        "image": "/images/products/peptify/kpv.png"
     },
     "semax": {
         "url": "https://www.peptifyuk.com/products/semax-10mg",
         "price": "£34.99",
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/semax-10mg-DKjPpQUE.png"
+        "image": "/images/products/peptify/semax.png"
     },
     "bacteriostatic-water": {
         "url": "https://www.peptifyuk.com/products/bacteriostatic-water-10ml",
         "price": "£7.99",
         "dosage": "10ml",
-        "image": "https://www.peptifyuk.com/assets/bac-water-10ml-ByRu4bUo.png"
+        "image": "/images/products/peptify/bacteriostatic-water.png"
     },
     "wolverine-stack-bpc157-tb500-blend": {
         "url": "https://www.peptifyuk.com/products/bpc-157-tb500-blend-20mg",
         "price": "£59.99",
         "dosage": "20mg",
-        "image": "https://www.peptifyuk.com/assets/bpc-157-tb500-blend-20mg-Ci4taquU.png"
+        "image": "/images/products/peptify/wolverine-stack-bpc157-tb500-blend.png"
     },
     "glow": {
         "url": "https://www.peptifyuk.com/products/glow-blend-70mg",
         "price": "£55.99",
         "dosage": "70mg",
-        "image": "https://www.peptifyuk.com/assets/glow-blend-70mg-Bb1ePg60.png"
+        "image": "/images/products/peptify/glow.png"
     },
     "klow": {
         "url": "https://www.peptifyuk.com/products/klow-blend-80mg",
         "price": "£79.99",
         "dosage": "80mg",
-        "image": "https://www.peptifyuk.com/assets/klow-blend-80mg-PX8oxuE4.png"
+        "image": "/images/products/peptify/klow.png"
     }
 }
 
@@ -154,7 +154,7 @@ new_compounds = [
                 "price": "£59.99",
                 "inStock": True,
                 "dosage": "10mg",
-                "image": "https://www.peptifyuk.com/assets/glp-3-rt-10mg-Cy15s5Ep.png"
+                "image": "/images/products/peptify/glp-3.png"
             }
         ],
         "longDescription": "",
@@ -189,7 +189,7 @@ new_compounds = [
                 "price": "£44.99",
                 "inStock": True,
                 "dosage": "20mg",
-                "image": "https://www.peptifyuk.com/assets/selank-semax-blend-20mg-DRkrxB2R.png"
+                "image": "/images/products/peptify/selank-semax-blend.png"
             }
         ],
         "longDescription": "",

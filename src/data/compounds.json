@@ -1037,7 +1037,7 @@
         "price": "£26.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/bpc-157-10mg-7kzmjeWp.png"
+        "image": "/images/products/peptify/bpc-157.png"
       },
       {
         "vendor": "Ascend Peptides UK",
@@ -1637,7 +1637,7 @@
         "price": "£24.99",
         "inStock": true,
         "dosage": "5mg",
-        "image": "https://www.peptifyuk.com/assets/tb-500-5mg-Bn7biEQq.png"
+        "image": "/images/products/peptify/tb-500.png"
       },
       {
         "vendor": "Ascend Peptides UK",
@@ -4364,7 +4364,7 @@
         "price": "£49.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/tesamorelin-10mg-DdpqWtfI.png"
+        "image": "/images/products/peptify/tesamorelin.png"
       },
       {
         "vendor": "Ascend Peptides UK",
@@ -5210,7 +5210,7 @@
         "price": "£34.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/mot-c-10mg-bNnjUc_W.png"
+        "image": "/images/products/peptify/mots-c.png"
       },
       {
         "vendor": "Ascend Peptides UK",
@@ -6278,7 +6278,7 @@
         "price": "£18.99",
         "inStock": true,
         "dosage": "50mg",
-        "image": "https://www.peptifyuk.com/assets/ghk-cu-50mg-D2OItjpq.png"
+        "image": "/images/products/peptify/ghk-cu.png"
       },
       {
         "vendor": "Ascend Peptides UK",
@@ -6776,7 +6776,7 @@
         "price": "£24.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/kpv-10mg-Bfo9_RrN.png"
+        "image": "/images/products/peptify/kpv.png"
       },
       {
         "vendor": "Precision Peptides",
@@ -7850,7 +7850,7 @@
         "price": "£34.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/semax-10mg-DKjPpQUE.png"
+        "image": "/images/products/peptify/semax.png"
       },
       {
         "vendor": "Precision Peptides",
@@ -8309,7 +8309,7 @@
         "price": "£24.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/selank-10mg-m3OtJBuO.png"
+        "image": "/images/products/peptify/selank.png"
       },
       {
         "vendor": "Precision Peptides",
@@ -9346,7 +9346,7 @@
         "price": "£29.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/ipamorelin-10mg-_rnjir49.png"
+        "image": "/images/products/peptify/ipamorelin.png"
       },
       {
         "vendor": "Ascend Peptides UK",
@@ -10723,7 +10723,7 @@
         "price": "£59.99",
         "inStock": true,
         "dosage": "20mg",
-        "image": "https://www.peptifyuk.com/assets/bpc-157-tb500-blend-20mg-Ci4taquU.png"
+        "image": "/images/products/peptify/wolverine-stack-bpc157-tb500-blend.png"
       },
       {
         "vendor": "Precision Peptides",
@@ -11539,7 +11539,7 @@
         "price": "£55.99",
         "inStock": true,
         "dosage": "70mg",
-        "image": "https://www.peptifyuk.com/assets/glow-blend-70mg-Bb1ePg60.png"
+        "image": "/images/products/peptify/glow.png"
       },
       {
         "vendor": "Precision Peptides",
@@ -11742,7 +11742,7 @@
         "price": "£79.99",
         "inStock": true,
         "dosage": "80mg",
-        "image": "https://www.peptifyuk.com/assets/klow-blend-80mg-PX8oxuE4.png"
+        "image": "/images/products/peptify/klow.png"
       },
       {
         "vendor": "Precision Peptides",
@@ -12240,11 +12240,11 @@
       },
       {
         "vendor": "Peptify UK",
-        "url": "https://www.peptifyuk.com/product/bacteriostatic-water-10ml",
+        "url": "https://www.peptifyuk.com/product/bac-water-10ml/",
         "price": "£7.99",
         "inStock": true,
         "dosage": "10ml",
-        "image": "https://www.peptifyuk.com/assets/bac-water-10ml-ByRu4bUo.png"
+        "image": "/images/products/peptify/bacteriostatic-water.png"
       },
       {
         "vendor": "Ascend Peptides UK",
@@ -12638,7 +12638,7 @@
         "price": "£44.99",
         "inStock": true,
         "dosage": "500mg",
-        "image": "https://www.peptifyuk.com/assets/nad-plus-500mg-Dtj4146e.png"
+        "image": "/images/products/peptify/nad-plus.png"
       },
       {
         "vendor": "Precision Peptides",
@@ -26140,7 +26140,7 @@
         "price": "£59.99",
         "inStock": true,
         "dosage": "10mg",
-        "image": "https://www.peptifyuk.com/assets/glp-3-rt-10mg-Cy15s5Ep.png"
+        "image": "/images/products/peptify/glp-3.png"
       }
     ],
     "longDescription": "",
@@ -26178,7 +26178,7 @@
         "price": "£44.99",
         "inStock": true,
         "dosage": "20mg",
-        "image": "https://www.peptifyuk.com/assets/selank-semax-blend-20mg-DRkrxB2R.png"
+        "image": "/images/products/peptify/selank-semax-blend.png"
       },
       {
         "vendor": "Alphamino",
