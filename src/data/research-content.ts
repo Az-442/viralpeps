@@ -7132,5 +7132,116 @@ const content: Record<string, ResearchPageContent> = {
   ]
 }
 
+,
+
+  "epitalon-research-summary": {
+  slug: "epitalon-research-summary",
+  compoundSlug: "epitalon",
+  pullQuote: "Epitalon is a four-amino-acid pineal peptide that speaks to the biological clock itself — resynchronising circadian rhythms, supporting melatonin output and, in landmark mouse studies, extending both health span and maximum lifespan.",
+  quickInfo: [
+    { label: "Peptide Name", value: "Epitalon (Epithalon)" },
+    { label: "Sequence", value: "Ala-Glu-Asp-Gly (4 amino acids)" },
+    { label: "CAS Number", value: "130268-60-9" },
+    { label: "Molecular Weight", value: "390.4 g/mol" },
+    { label: "Origin", value: "Synthetic analogue of the pineal peptide epithalamin" },
+    { label: "Primary Targets", value: "Telomerase, circadian rhythm, pineal/melatonin function, pituitary axis" },
+    { label: "Typical Research Dose", value: "1-10 mg/day, or 5-10 mg courses 2x/year" },
+    { label: "Half-Life", value: "~10 minutes" }
+  ],
+  sections: [
+    {
+      title: "What Is Epitalon?",
+      body: "Epitalon (also written epithalon) is a synthetic tetrapeptide with the amino acid sequence Ala-Glu-Asp-Gly, developed by Russian researchers in the late 1990s as a laboratory counterpart to epithalamin, a naturally occurring peptide extract from the pineal gland. Its creator, Prof. Vladimir Khavinson, framed the molecule as a way to study how the pineal gland orchestrates the timing of ageing across the whole organism. In the decades since, epitalon has become one of the best-known longevity-focused peptides in the research literature, with work spanning telomerase activation, circadian biology, melatonin and gonadotropin regulation, and exceptionally long-lived mouse models. For researchers mapping the interface between chronological age and biological clocks, [epitalon](/compounds/epitalon) is a central reference compound. [**Compare Epitalon prices from UK suppliers \u2192**](/compounds/epitalon)"
+    },
+    {
+      title: "Telomerase Activation — The Longevity Mechanism",
+      body: "Epitalon's signature mechanism is its reported ability to upregulate the TERT (telomerase reverse transcriptase) gene, lengthening telomeres and extending the replicative lifespan of cells in culture. Telomeres are the protective caps at the ends of chromosomes that shorten with every cell division; when they become critically short, cells enter senescence. By increasing telomerase expression, epitalon is proposed to delay this erosion.",
+      subsections: [
+        {
+          title: "The Cultured-Cell Evidence",
+          body: "In the Khavinson lab and follow-up work, epitalon administration was associated with a roughly 10-40% lengthening of telomeres in cultured human fetal fibroblasts compared with untreated controls, alongside an increase in the number of population doublings before senescent arrest. This positions epitalon as one of the few peptide candidates with direct data linking a pineal peptide to the telomere-telomerase axis."
+        },
+        {
+          title: "Transcription-Level Effects",
+          body: "Mechanistically, epitalon is reported to increase expression of the TERT gene at the level of transcription, rather than activating telomerase directly as a cofactor. This is relevant to whether effects observed in vitro translate in vivo, where telomerase activity in most somatic tissues is tightly repressed."
+        },
+        {
+          title: "Why It Matters for Ageing Research",
+          body: "Telomere maintenance sits at the convergence of senescence, stem-cell exhaustion and age-related disease. Epitalon's perceived value in longevity research rests on this single mechanism, so experimental verification of telomerase induction — ideally in vivo and with appropriate controls — is the key open question facing the compound."
+        }
+      ]
+    },
+    {
+      title: "Circadian Rhythm Regulation",
+      body: "Epitalon's second central role is the resynchronisation of circadian rhythms and support of pineal melatonin output. The pineal gland secretes melatonin in a daily rhythm that synchronises the body's internal clock with the light-dark cycle, and this rhythm degrades with age.",
+      subsections: [
+        {
+          title: "Melatonin & the Pineal Axis",
+          body: "Preclinical work indicates epitalon can support both nocturnal melatonin peaks and the pineal's sensitivity to signals that set the rhythm. By reinforcing the endogenous melatonin signal, epitalon is proposed to restore the timing cues that decline in ageing animals."
+        },
+        {
+          title: "Sleep-Wake Architecture",
+          body: "Because melatonin is the primary hormonal transducer of circadian time, improved pineal function is associated with more consolidated sleep-wake cycles in old animals. Researchers studying age-related sleep disturbance have used epitalon as a probe of whether pineal support can partially reverse these changes."
+        }
+      ]
+    },
+    {
+      title: "Endocrine & Pituitary Effects",
+      body: "Epitalon has been studied for its effects on the neuroendocrine axis, particularly gonadotropin regulation. At research doses it is associated with normalisation of age-related changes in pituitary hormone output, supporting the view that the pineal acts as a pacemaker for broader endocrine ageing rather than an isolated gland."
+    },
+    {
+      title: "The Landmark Lifespan Study",
+      body: "The most cited epitalon longevity result comes from a long-running mouse study in which cohorts of mice received epitalon (or placebo) from roughly the midpoint of their natural lifespan. Treated mice showed an increased maximum lifespan and, notably, a lower incidence of age-associated tumours — a reduction in cancer mortality rather than simply a delay in ageing per se.",
+      subsections: [
+        {
+          title: "What the Data Show",
+          body: "Across the reported experiments, epitalon-treated animals lived measurably longer than controls and exhibited fewer neoplasms and reproductive-tract and endocrine tumours. This combination — extended maximum lifespan plus reduced tumour burden — is the basis for epitalon being classified in the scientific literature as a geroprotector candidate."
+        },
+        {
+          title: "Key Caveats",
+          body: "The headline longevity studies originate largely from one laboratory, involve mice rather than humans, and are not uniformly replicated by independent groups. Careful readers should treat the lifespan claims as hypothesis-generating. The compound is not approved for human use by the MHRA, FDA or EMA, and its effects in humans are not established."
+        }
+      ]
+    },
+    {
+      title: "Dosing & Administration (Research Use)",
+      body: "All information below refers to laboratory research protocols only. Epitalon is not approved for human use and must not be administered outside regulated research settings. Research literature most commonly references doses in the 1-10 mg/day range, with some protocols running short 5-10 mg courses twice a year rather than daily administration. Epitalon is supplied as a lyophilised powder for reconstitution with bacteriostatic water and is typically administered by subcutaneous injection. Store the lyophilised powder at 2-8\u00b0C and always verify the Certificate of Analysis for purity and endotoxin levels before use. [**Check current Epitalon prices from UK suppliers \u2192**](/compounds/epitalon)"
+    },
+    {
+      title: "Safety & Considerations",
+      body: "Epitalon is generally regarded as well tolerated at research doses, reflecting its derivation from an endogenous pineal peptide. Reported effects are limited and mild, consistent with the compound's short plasma half-life (~10 minutes). However, because it interacts with the endocrine and melatonin axes, standard laboratory prudence applies: use only analytically verified, GMP-grade material, respect institutional biosafety and ethics approval, and be aware that the long-term human safety profile is not well characterised. Epitalon is strictly for laboratory research purposes and is not for human consumption."
+    }
+  ],
+  faq: [
+    {
+      question: "What is epitalon and where does it come from?",
+      answer: "Epitalon is a synthetic tetrapeptide (Ala-Glu-Asp-Gly) developed by Russian researchers as a laboratory analogue of epithalamin, a naturally occurring peptide extract from the pineal gland. It is studied primarily for telomerase activation, circadian rhythm regulation, melatonin support and longevity/anti-aging effects."
+    },
+    {
+      question: "How does epitalon work?",
+      answer: "Epitalon's proposed mechanisms include upregulating the TERT telomerase gene to lengthen telomeres and extend replicative lifespan, reinforcing pineal melatonin output and circadian rhythms, and modulating pituitary/gonadotropin hormone production. Its short half-life (~10 minutes) means effects are likely driven by downstream signalling rather than sustained circulating levels."
+    },
+    {
+      question: "Is epitalon proven to extend lifespan?",
+      answer: "The most cited longevity results come from long-running mouse studies by the Khavinson laboratory, showing increased maximum lifespan and reduced tumour incidence. These are not independently replicated at scale and are animal-only findings. Epitalon is not approved for human use by the MHRA, FDA or EMA, and human longevity effects are not established."
+    },
+    {
+      question: "What dose of epitalon is used in research?",
+      answer: "Research protocols most commonly reference 1-10 mg/day, sometimes structured as short 5-10 mg courses twice a year. Dosing data reflect laboratory protocols only and should not be interpreted as human guidance."
+    },
+    {
+      question: "Can I buy epitalon in the UK?",
+      answer: "Epitalon is supplied by UK research-peptide vendors for laboratory investigation only. It is listed on [ViralPeps](/compounds/epitalon) with supplier prices, but all products are research-use-only and not for human consumption. Always verify purity and certificate of analysis with the supplier."
+    }
+  ],
+  references: [
+    "Khavinson VKh. Peptides and ageing. Neuro Endocrinol Lett. 2002;23(Suppl 3):11-144.",
+    "Khavinson V, et al. Peptides and telomerase activation in cell cultures. Bull Exp Biol Med. 2003.",
+    "Khavinson VKh, Morozov VG, Anisimov VN. Experimental studies of the pineal peptide epitalon. Adv Gerontol. 2001;7:54-64.",
+    "Anisimov VN, Khavinson VKh, et al. Effect of epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female SHR mice. Biogerontology. 2002.",
+    "Khavinson VKh, et al. Epithalon effect on telomere length and telomerase activity in human fibroblasts. Bull Exp Biol Med. 2003;135(6):590-592."
+  ]
+}
+
 };
 export default content;

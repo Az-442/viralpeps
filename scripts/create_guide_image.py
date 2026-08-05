@@ -7,14 +7,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "Hexarelin"
-VIAL_PATH = "public/images/compounds/hexarelin-vial.png"
-OUTPUT_PATH = "public/images/guides/hexarelin-research-summary.png"
+COMPOUND = "Epitalon"
+VIAL_PATH = "public/images/compounds/epitalon-vial.png"
+OUTPUT_PATH = "public/images/guides/epitalon-research-summary.png"
 DESCRIPTION_LINES = [
-    "Overview of Hexarelin, a potent synthetic",
-    "growth hormone secretagogue developed as an",
-    "analogue of GHRP-6. Studied for GH release",
-    "and cardioprotective research across 11 suppliers.",
+    "Overview of Epitalon, a pineal-derived",
+    "tetrapeptide researched for telomerase",
+    "activation, circadian rhythm regulation and",
+    "longevity effects across 46 UK suppliers.",
 ]
 # ==================================================
 

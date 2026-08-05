@@ -366,6 +366,17 @@ export const guides: ResearchArticle[] = [
     tags: ["ss-31", "elamipretide", "mitochondrial", "cardiolipin", "atp"],
   },
   {
+    title: "Epitalon Research Summary",
+    desc: "Overview of Epitalon, a pineal-derived tetrapeptide researched for telomerase activation, circadian rhythm regulation, melatonin support and longevity-focused anti-aging effects.",
+    category: "Compound Profiles",
+    section: "peptides",
+    compound: "Epitalon",
+    slug: "epitalon-research-summary",
+    image: "epitalon-research-summary",
+    minutes: 10,
+    tags: ["epitalon", "telomerase", "circadian", "melatonin", "anti-aging", "longevity"],
+  },
+  {
     title: "PT-141 vs Melanotan 2: Melanocortin Receptor Comparison",
     desc: "A detailed comparison of PT-141 (Bremelanotide) and Melanotan II (MT-II) — two melanocortin receptor agonists with shared origins but divergent pharmacology, evidence bases, and clinical trajectories.",
     category: "Articles",
