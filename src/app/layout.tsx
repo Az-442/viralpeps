@@ -107,17 +107,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
         />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GSY6RVB2P" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-6GSY6RVB2P');
-            `,
-          }}
-        />
       </head>
       <body className="min-h-full flex flex-col">
         {/* Google Tag Manager (noscript) */}
