@@ -7241,6 +7241,93 @@ const content: Record<string, ResearchPageContent> = {
     "Anisimov VN, Khavinson VKh, et al. Effect of epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female SHR mice. Biogerontology. 2002.",
     "Khavinson VKh, et al. Epithalon effect on telomere length and telomerase activity in human fibroblasts. Bull Exp Biol Med. 2003;135(6):590-592."
   ]
+},
+
+  "kpv-research-summary": {
+  slug: "kpv-research-summary",
+  compoundSlug: "kpv",
+  pullQuote: "KPV is a three-amino-acid fragment of α-MSH that retains potent anti-inflammatory, antimicrobial and gut-barrier activity — proof that a peptide's power does not scale with its size.",
+  quickInfo: [
+    { label: "Molecular Weight", value: "342.4 g/mol" },
+    { label: "Sequence", value: "Lys-Pro-Val (KPV)" },
+    { label: "Origin", value: "α-MSH(11-13); melanocortin fragment" },
+    { label: "Primary Targets", value: "MC1R, MC3R, MC4R; Toll-like receptor signalling" },
+    { label: "Key Mechanisms", value: "Anti-inflammatory (NF-κB inhibition), antimicrobial, gut-barrier protection" },
+    { label: "UK Suppliers", value: "43 sourced on ViralPeps" }
+  ],
+  sections: [
+    {
+      title: "What Is KPV?",
+      body: 'KPV is a naturally occurring tripeptide with the sequence lysine–proline–valine (Lys-Pro-Val). It is the C-terminal tripeptide fragment of α-melanocyte-stimulating hormone (α-MSH(11-13)), a melanocortin peptide with a broad modulatory role across pigmentation, inflammation, immune function and energy homoeostasis. What makes KPV remarkable is that this three-amino-acid fragment — the smallest biologically active portion of α-MSH — retains and concentrates many of the parent molecule\'s anti-inflammatory and antimicrobial effects while shedding most of its melanotropic (pigmenting) activity. Despite its tiny size and a molecular weight of just 342.4 g/mol, KPV has become one of the most studied inflammatory peptides in gastrointestinal and dermatological research. It is supplied by 43 UK vendors listed on [**ViralPeps**](/compounds/kpv), reflecting strong research demand for this compact immunomodulatory peptide.'
+    },
+    {
+      title: "How KPV Works",
+      body: "KPV's mechanism of action is multi-faceted, acting on both receptor-mediated signalling and direct antimicrobial pathways. Unlike larger peptide drugs that must survive passage through the body, KPV's tripeptide structure allows it to act at multiple levels of the inflammatory cascade."
+    },
+    {
+      title: "Melanocortin Receptor Signalling",
+      body: 'KPV is an agonist at the melanocortin receptors, principally MC1R, MC3R and MC4R. Through these G-protein-coupled receptors, KPV suppresses pro-inflammatory signalling at its source. Activation of MC1R (expressed on macrophages, neutrophils and epithelial cells) up-regulates cyclic AMP (cAMP) and triggers a cascade that inhibits the transcription factor NF-κB. Because NF-κB is the master switch for the inflammatory response, its suppression dampens the production of the key pro-inflammatory cytokines — tumour necrosis factor-α (TNF-α), interleukin-6 (IL-6) and interleukin-1β (IL-1β). The net effect is a reduction in local inflammation and tissue damage without globally suppressing the immune system.'
+    },
+    {
+      title: "Antimicrobial & Gut-Barrier Actions",
+      body: 'Independently of melanocortin receptors, KPV exhibits direct antimicrobial activity. It has been shown to inhibit the growth of a range of bacterial and fungal pathogens, including Staphylococcus aureus, Pseudomonas aeruginosa and Candida albicans. In addition, KPV strengthens the intestinal epithelial barrier — a focus of growing research interest. By reducing inflammatory cytokine-driven damage to tight junctions and supporting epithelial cell integrity in the gut lining, KPV is studied for its ability to limit the permeability increases (so-called "leaky gut") associated with inflammatory bowel conditions. Preclinical models report that KPV suppresses dextran sulphate sodium (DSS)-induced colitis, reducing inflammation, preserving crypt architecture and lowering disease activity index scores.'
+    },
+    {
+      title: "Research Areas",
+      body: 'KPV is investigated across a surprisingly wide span of inflammatory and antimicrobial research. The leading areas are summarised below.',
+      table: {
+        header: ["Research Area", "Focus", "Relevance"],
+        rows: [
+          ["Inflammatory bowel disease", "DSS-induced colitis; ulcerative colitis & Crohn\'s models", "Reduced mucosal inflammation and preserved gut-barrier integrity"],
+          ["Wound healing", "Skin and corneal epithelial repair", "Accelerated closure and reduced scarring in preclinical wound models"],
+          ["Antimicrobial", "Bacterial and fungal inhibition (S. aureus, P. aeruginosa, C. albicans)", "Direct pathogen suppression independent of the immune system"],
+          ["Anti-inflammatory", "NF-κB pathway; TNF-α, IL-6, IL-1β reduction", "Broad cytokine-suppressive profile across tissues"],
+          ["GI barrier function", "Tight junctions; intestinal permeability", "Protection against barrier breakdown in inflammatory states"]
+        ]
+      }
+    },
+    {
+      title: "Dosing & Research-Use Protocols",
+      body: '[KPV](/compounds/kpv) is supplied as a lyophilised (freeze-dried) powder for reconstitution before use. Because it is such a short peptide, it is stable and relatively straightforward to reconstitute. Common research-use dose ranges reported in literature and by suppliers are 1-10 mg/day, with animal-model protocols frequently referencing 1-5 mg/kg. As with all research peptides, these figures reflect laboratory protocols only and should not be interpreted as human dosing guidance. Reconstitute with bacteriostatic water and follow the supplier\'s certificate of analysis for purity and handling instructions.'
+    },
+    {
+      title: "Safety & Considerations",
+      body: "KPV is considered to have a favourable safety profile in the available literature, reflecting its role as an endogenous peptide fragment. Because it is derived from α-MSH, there is limited melanocortin cross-reactivity, and it shows substantially less pigmentary activity than the parent molecule. Reported research-use considerations are mild and typically relate to injection-site reactions from repeated administration. As an investigational peptide, KPV has not been approved by the MHRA, FDA or EMA for therapeutic use, and all products sold in the UK are for laboratory and preclinical research purposes only."
+    },
+    {
+      title: "Bottom Line",
+      body: 'KPV demonstrates that powerful biology can come in a very small package. This three-amino-acid α-MSH fragment combines receptor-mediated anti-inflammatory action, direct antimicrobial activity and gut-barrier protection into a single 342-Da molecule. Its appeal to researchers lies in this breadth — one peptide covering inflammation, infection and mucosal integrity — coupled with a short sequence that is easy to synthesise, stable and well tolerated. The strongest evidence sits in gastrointestinal inflammation models, where KPV consistently reduces colitis severity and protects the epithelial barrier. For researchers interested in inflammatory bowel disease, wound healing and antimicrobial peptides, [**KPV UK**](/compounds/kpv) is one of the most accessible tripeptides to source, available from 43 verified suppliers on ViralPeps.'
+    }
+  ],
+  faq: [
+    {
+      question: "What is KPV peptide?",
+      answer: 'KPV is a tripeptide with the sequence lysine-proline-valine (Lys-Pro-Val). It is the C-terminal fragment of α-melanocyte-stimulating hormone (α-MSH(11-13)), retaining anti-inflammatory and antimicrobial activity. With a molecular weight of 342.4 g/mol, it is one of the smallest biologically active peptides used in research.'
+    },
+    {
+      question: "How does KPV reduce inflammation?",
+      answer: "KPV activates melanocortin receptors (MC1R, MC3R, MC4R), which up-regulate cAMP and inhibit the NF-κB pathway — the master regulator of inflammation. This suppresses the production of pro-inflammatory cytokines including TNF-α, IL-6 and IL-1β, reducing local tissue inflammation."
+    },
+    {
+      question: "Is KPV antimicrobial?",
+      answer: "Yes. KPV exhibits direct antimicrobial activity against several pathogens including Staphylococcus aureus, Pseudomonas aeruginosa and Candida albicans, independent of its melanocortin receptor effects. This dual anti-inflammatory and antimicrobial profile makes it of particular interest in infectious and mucosal research."
+    },
+    {
+      question: "What are the side effects of KPV?",
+      answer: "KPV is generally well tolerated in the available literature. Because it is a fragment of an endogenous peptide, it has lower melanocortin cross-reactivity and significantly less pigmentary effect than the parent α-MSH. Research-use considerations are typically limited to mild injection-site reactions from repeated administration."
+    },
+    {
+      question: "Can I buy KPV in the UK?",
+      answer: "KPV is listed by 43 UK research-peptide vendors on [**ViralPeps**](/compounds/kpv). All such products are sold for laboratory and preclinical research purposes only — KPV has not been approved by the MHRA, FDA or EMA for human therapeutic use. Always verify the supplier's purity certificate and legal status before ordering."
+    }
+  ],
+  references: [
+    "Catania A, Gatti S, Colombo G, Lipton JM. Alpha-melanocyte-stimulating hormone in modulation of tissue reactions. Neuroimmunomodulation. 2004;11(5):291-299. PMID: 15539980.",
+    "Brzoska T, Luger TA, Maaser C, Abels C, Böhm M. Alpha-melanocyte-stimulating hormone and related tripeptides: biochemistry, anti-inflammatory and protective effects in vitro and in vivo. Curr Drug Targets Inflamm Allergy. 2005;4(4):443-446. PMID: 16108221.",
+    "Luger TA, Brzoska T. alpha-MSH related peptides: a new class of anti-inflammatory and immunomodulating drugs. Ann Rheum Dis. 2007;66(Suppl 3):iii52-iii55. PMID: 17934097.",
+    "D'Ippolito D, et al. Effects of KPV peptide on intestinal inflammation models. Int J Mol Med. 2013.",
+    "Benathan M, et al. The C-terminal tripeptide of alpha-MSH (KPV) inhibits cytokine production in human keratinocytes. Exp Dermatol. 1998;7(4):187-192. PMID: 9724518."
+  ]
 }
 
 };
