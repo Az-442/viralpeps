@@ -1588,5 +1588,38 @@
     ],
     "lastTested": "2026-08-05",
     "labTested": false
+  },
+  {
+    "id": "supply-peptides",
+    "name": "SupplyPeptides",
+    "slug": "supply-peptides",
+    "website": "https://supplypeptides.co.uk",
+    "rating": 4.7,
+    "verified": true,
+    "founded": 2014,
+    "country": "UK",
+    "description": "UK research peptide supplier operating since 2014 with a 25-product catalog. Every lot is HPLC-tested by an accredited third-party lab and published online in a searchable COA library before listing. Same-day Royal Mail 24 dispatch from a UK warehouse (order before midday), free tracked UK delivery over £50, cold-chain packaging, and wholesale/lab accounts. For laboratory research use only.",
+    "highlights": [
+      "Established 2014 — 10+ years in operation",
+      "Third-party HPLC tested, every batch",
+      "Searchable public COA library",
+      "99%+ HPLC purity",
+      "Same-day UK dispatch (before midday)",
+      "Free tracked UK delivery over £50",
+      "Cold-chain packaging",
+      "Wholesale / lab accounts"
+    ],
+    "shipping": [
+      "UK same-day dispatch (Royal Mail 24, order before midday Mon-Fri)",
+      "Free UK tracked delivery over £50",
+      "Cold-chain packaging available"
+    ],
+    "payment": [
+      "Cards (Shopify Payments)",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "2026-08-06",
+    "labTested": true
   }
 ]
