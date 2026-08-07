@@ -7328,7 +7328,52 @@ const content: Record<string, ResearchPageContent> = {
     "D'Ippolito D, et al. Effects of KPV peptide on intestinal inflammation models. Int J Mol Med. 2013.",
     "Benathan M, et al. The C-terminal tripeptide of alpha-MSH (KPV) inhibits cytokine production in human keratinocytes. Exp Dermatol. 1998;7(4):187-192. PMID: 9724518."
   ]
-}
+},
 
+
+'mgf-research-summary': {
+  slug: 'mgf-research-summary',
+  compoundSlug: 'mgf',
+  pullQuote: 'MGF isn\'t a new growth factor — it\'s the alternative splice product your muscle cells already make when they are mechanically loaded. Stretch or damage a muscle and the IGF-1 gene is spliced to produce the IGF-1Ec isoform, the mechano growth factor that wakes up local satellite cells to begin repair.',
+  quickInfo: [
+    { label: 'Compound Name', value: 'MGF (Mechano Growth Factor / IGF-1Ec)' },
+    { label: 'Classification', value: 'IGF-1 splice variant — mechano growth factor' },
+    { label: 'Sequence', value: 'IGF-1Ec 24-amino-acid C-terminal E-domain (V-14) plus full E-peptide' },
+    { label: 'Protein Precursor', value: 'Insulin-like Growth Factor 1 (IGF-1) gene, exon 5/6 splice switch' },
+    { label: 'Primary Mechanism', value: 'Satellite cell activation & muscle-tissue-specific repair (mechano-transduction pathway)' },
+    { label: 'Regulatory Status', value: 'Not approved for human use; research-use-only' },
+    { label: 'Primary Research Areas', value: 'Muscle repair, satellite cell activation, tissue regeneration, hypertrophy, recovery' },
+  ],
+  sections: [
+    {
+      title: 'What Is MGF?',
+      body: 'MGF (Mechano Growth Factor) is not a standalone hormone — it is the name given to the IGF-1Ec isoform of insulin-like growth factor-1, produced by a single splice switch in the IGF-1 gene. When skeletal muscle is stretched, damaged, or mechanically loaded, the IGF-1 gene is alternatively spliced to generate this locally acting mechano growth factor, alongside the liver-type circulating IGF-1Ea. The two forms are translated from the same primary transcript but carry different C-terminal E-domains, which give them distinct biological roles.\n\nMGF is often studied alongside PEG-MGF, its polyethylene-glycol (PEG) conjugated form. PEGylation extends the very short circulating half-life of native MGF by shielding it from rapid enzymatic degradation, which makes PEG-MGF the more practical molecule for laboratory dosing work, whereas native MGF represents the physiological splice variant. [**Compare MGF prices from 10 UK suppliers \u2192**](/compounds/mgf)'
+    },
+    {
+      title: 'How MGF Works',
+      body: 'The defining feature of MGF is that it is an autocrine/paracrine repair signal expressed locally in muscle, not a circulating endocrine factor. Under mechanical load, muscle fibres up-regulate the IGF-1Ec transcript, and the resulting MGF peptide acts on nearby cells through two coordinated routes:\n\n\u2022 Satellite cell activation \u2014 MGF is a potent activator of muscle-resident satellite cells (the stem-cell pool of skeletal muscle), driving their entry from quiescence into the cell cycle so they can fuse into damaged fibres;\n\n\u2022 Local tissue specificity \u2014 because MGF is produced and acts in the same tissue, it concentrates its anabolic signal at the site of injury rather than raising systemic IGF-1.\n\nThis is distinct from the other IGF-1 splice variant (IGF-1Ea / mature IGF-1), which drives systemic growth. MGF is viewed as the \u2018repair and remodelling\u2019 arm of the IGF-1 axis: it lays the early groundwork for myogenesis, while mature IGF-1 sustains the later growth phase of the same process.'
+    },
+    {
+      title: 'Key Research Areas',
+      body: 'Research on MGF and PEG-MGF clusters around muscle biology and regenerative medicine:\n\n\u2022 Satellite cell activation & muscle repair \u2014 the central focus, exploring how MGF recruits resident muscle stem cells to regenerate damaged tissue;\n\n\u2022 Mechano-transduction & load sensing \u2014 studying how mechanical stretch and exercise govern IGF-1 gene splicing toward the Ec isoform;\n\n\u2022 Muscle hypertrophy & recovery \u2014 investigating MGF\u2019s contribution to local anabolic signalling and post-training recovery;\n\n\u2022 Tissue regeneration \u2014 broader interest in accelerated healing of skeletal muscle after injury or induced damage;\n\n\u2022 Ageing muscle (sarcopenia) \u2014 the decline in IGF-1Ec/mechano growth factor expression with age and disuse is studied as a contributor to impaired muscle regenerative capacity.\n\n[**Related: MOTS-c \u2014 Mitochondrial Metabolic Research \u2192**](/research/mots-c-research-summary) [**Related: IGF-1 LR3 (synthetic IGF-1 analogue) \u2192**](/research/igf-1-lr3-research-summary)'
+    },
+    {
+      title: 'IGF-1Ec vs IGF-1Ea vs PEG-MGF',
+      body: 'The three names describe closely related but functionally distinct molecules:\n\n\u2022 IGF-1Ea (mature IGF-1) \u2014 the classic circulating growth factor, produced mainly in the liver, with systemic anabolic and metabolic activity;\n\n\u2022 MGF (IGF-1Ec) \u2014 the locally expressed splice variant made in mechanically loaded muscle, specialised for satellite cell activation and tissue-level repair;\n\n\u2022 PEG-MGF \u2014 MGF covalently conjugated to polyethylene glycol to extend its plasma half-life from minutes to considerably longer, making it the practical choice for in-vivo dosing protocols where a sustained local signal is the goal.\n\nFor research purposes, PEG-MGF is generally the molecule studied in injectable protocols, while native MGF is the physiological reference against which its activity is compared.'
+    },
+    {
+      title: 'Research Evidence',
+      body: 'The MGF story is built on the landmark discovery that alternative splicing of the IGF-1 gene is mechano-sensitive. The key experimental finding is that muscle stretch (or damage) switches IGF-1 splicing from the Ea to the Ec exon, up-regulating the mechano growth factor specifically in the loaded tissue. Studies of mechanically stretched muscle, both in animal models and isolated myofibre preparations, show rapid induction of the IGF-1Ec transcript and corresponding satellite cell activation.\n\nSubsequent research has demonstrated that the MGF C-terminal E-domain peptide alone can stimulate satellite cell proliferation, and that loss of this mechano-sensitive response tracks with the impaired regeneration seen in ageing and sarcopenic muscle. Because MGF is a locally acting autocrine factor rather than a systemic hormone, measuring its clinical proxy in healthy human circulation is difficult, and most of the mechanistic evidence comes from muscle-cell culture and whole-animal experiments. It is important to emphasise that MGF and PEG-MGF are not approved by the MHRA, FDA, or EMA for human use, and the evidence base is preclinical. This material is presented for research and educational purposes only.'
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'MGF and PEG-MGF are experimental molecules studied exclusively in laboratory and veterinary research. Neither is approved for human administration, and there are no published human clinical trials to rely on for safety or dosing.\n\n\u2022 As a growth-factor family member, research protocols should account for the theoretical potential of enhanced local cell proliferation at the injection site;\n\n\u2022 Native MGF has a very short half-life, which is precisely why PEG-MGF is used for dosing work \u2014 the PEG conjugate is the practical research form;\n\n\u2022 Because PEGylation changes pharmacokinetics substantially, PEG-MGF and native MGF should not be treated as interchangeable;\n\n\u2022 Reconstitute lyophilised material with bacteriostatic water or solvent per the supplier\u2019s instructions and store appropriately.\n\nResearchers should source clearly labelled, analytically tested research-grade material, follow institutional biosafety and ethics approvals, and treat all reported human outcomes as preliminary. It is not a dietary supplement and must not be self-administered.'
+    },
+    {
+      title: 'References',
+      body: '[1] Goldspink G. Mechanical signals, IGF-1 gene splicing, and muscle adaptation. Physiology (Bethesda). 2005;20:232\u20138. PMID 16024512.\n[2] Yang S, Alnaqeeb M, Simpson H, Goldspink G. Cloning and characterization of an IGF-1 isoform expressed in skeletal muscle subjected to stretch. J Muscle Res Cell Motil. 1996;17(4):487\u201395. PMID 8884602.\n[3] Goldspink G. Impairment of IGF-1 gene splicing and MGF expression associated with muscle wasting. Int J Biochem Cell Biol. 2013;45(8):1798\u2013808. PMID 23583622.\n[4] Matheny RW Jr, Nindl BC, Adamo ML. Minireview: Mechano-growth factor: a putative product of IGF-1 gene splicing involved in tissue repair and regeneration. Endocrinology. 2010;151(3):865\u201375. PMID 20080868.',
+    }
+  ],
+},
 };
 export default content;

@@ -872,6 +872,18 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['follistatin-344', 'fs-344', 'myostatin', 'gdf-8', 'muscle-growth', 'activin'],
 },
+{
+    title: 'MGF Research Summary',
+    desc: 'Overview of MGF (Mechano Growth Factor / IGF-1Ec), the muscle-specific splice variant of insulin-like growth factor-1 studied for satellite cell activation, mechano-transduction, muscle repair and tissue regeneration across 10 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'MGF',
+    slug: 'mgf-research-summary',
+    image: 'mgf-research-summary',
+    minutes: 8,
+    tags: ['mgf', 'mechano-growth-factor', 'igf-1ec', 'satellite-cells', 'muscle-repair', 'regeneration', 'recovery'],
+},
+
 ];
 
 export const compoundList: string[] = [
