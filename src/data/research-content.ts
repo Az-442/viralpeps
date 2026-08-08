@@ -7375,5 +7375,48 @@ const content: Record<string, ResearchPageContent> = {
     }
   ],
 },
+'hcg-research-summary': {
+  slug: 'hcg-research-summary',
+  compoundSlug: 'hcg',
+  pullQuote: 'HCG isn\'t a new molecule — it\'s the pregnancy hormone your own body makes, and researchers study it for one specific property: it binds the same receptor as luteinizing hormone, so it can drive the LH/CG signalling pathway on demand.',
+  quickInfo: [
+    { label: 'Compound Name', value: 'HCG (Human Chorionic Gonadotropin)' },
+    { label: 'Classification', value: 'Glycoprotein hormone — gonadotropin family' },
+    { label: 'Structure', value: 'Heterodimer of an alpha-subunit and a beta-subunit (237 amino acids total)' },
+    { label: 'CAS Number', value: '9002-61-3' },
+    { label: 'Primary Mechanism', value: 'Agonist at the LH/CG receptor — mimics luteinizing hormone' },
+    { label: 'Primary Research Areas', value: 'Reproductive endocrinology, steroidogenesis, LH/CG receptor signalling' },
+  ],
+  sections: [
+    {
+      title: 'What Is HCG?',
+      body: 'HCG (Human Chorionic Gonadotropin) is a glycoprotein hormone produced naturally by the syncytiotrophoblast of the placenta during pregnancy, which is how it was first identified and named. Structurally it is a heterodimer made of a shared alpha-subunit and a hormone-specific beta-subunit, the latter giving HCG its biological identity. Because its receptor footprint overlaps almost completely with that of luteinizing hormone (LH), HCG acts as a potent agonist at the LH/CG receptor and is used in research as a stable, long-acting surrogate for LH stimulation. [**Compare HCG prices from 11 UK suppliers \u2192**](/compounds/hcg)'
+    },
+    {
+      title: 'How HCG Works',
+      body: 'HCG exerts its effects by binding to the luteinizing hormone/choriogonadotropin receptor (LHCGR), a G-protein-coupled receptor on the surface of target endocrine cells. In the gonads this binding activates adenylyl cyclase signalling, raising intracellular cyclic AMP and driving the steroidogenic cascade: cholesterol is mobilised and converted into steroid hormones such as testosterone and, downstream, oestradiol.\n\nBecause HCG has a substantially longer circulating half-life than endogenous LH (which is released in short pulses), a single administration produces a sustained, tonic stimulation of the receptor rather than the pulsatile pattern of the natural hormone. This pharmacokinetic difference is precisely why HCG is such a convenient research tool for probing LH-receptor biology: it delivers a steady, quantifiable receptor stimulus. [**Related: PT-141 (Bremelanotide) \u2014 reproductive & libido research \u2192**](/research/pt141-research-summary)'
+    },
+    {
+      title: 'Key Research Areas',
+      body: 'HCG research clusters around reproductive endocrinology and hormonal signalling:\n\n\u2022 LH/CG receptor signalling \u2014 the central focus, using HCG to activate LHCGR and study downstream steroidogenic and cAMP responses;\n\n\u2022 Steroidogenesis \u2014 investigating HCG-driven production of testosterone and related androgens in gonadal tissue;\n\n\u2022 Reproductive endocrinology \u2014 studying gonadotropin physiology, the HPG axis, and factors that regulate gonadal function;\n\n\u2022 Female reproductive physiology \u2014 modelling luteal support and early pregnancy signalling where HCG is the defining ligand;\n\n\u2022 Gonadotropin dynamics \u2014 exploring how tonic vs pulsatile LH-like stimulation differentially affects receptor desensitisation and steroid output.\n\n[**Related: HGH Frag 176-191 \u2014 metabolic research \u2192**](/research/hgh-fragment-176-191-research-summary)'
+    },
+    {
+      title: 'HCG vs LH: Why the Distinction Matters',
+      body: 'HCG and luteinizing hormone both act at the same receptor, but they are not biologically interchangeable:\n\n\u2022 LH \u2014 the pituitary gonadotropin released in short pulses; it drives the mid-cycle surge and gonadal steroid production with a fast on/off profile;\n\n\u2022 HCG \u2014 the placental analogue that shares the receptor but persists much longer in the circulation, giving a sustained, tonic stimulation;\n\n\u2022 In practice \u2014 HCG is often selected for research protocols because its long half-life makes dosing and readout more reproducible than chasing the brief endogenous LH pulse.\n\nThe two molecules are not identical, however, and studies that probe subtle differences in receptor occupancy, desensitisation, or signalling bias treat them as separate ligands of the same receptor rather than as equivalents.'
+    },
+    {
+      title: 'Research Evidence',
+      body: 'HCG has one of the longest research histories of any glycoprotein hormone, anchored in its biological role in pregnancy detection and its use as a reference agonist for the LH/CG receptor. The foundational finding is that HCG and LH act through the same receptor, established through ligand-binding and receptor-cloning studies that mapped the shared LHCGR and its signalling pathway.\n\nSubsequent experimental work has used HCG as a standard pharmacological tool to measure gonadal steroidogenic capacity, to study receptor desensitisation under sustained stimulation, and to model HPG-axis feedback. Because HCG is a well-characterised, highly purified hormone, it remains a common reference compound in reproductive-endocrinology research. It is not approved by the MHRA, FDA, or EMA for general use as a research peptide, and any human administration falls under strict medical regulation. This material is presented for research and educational purposes only.'
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'HCG is a biologically active hormone with potent gonadal effects, so it must be handled with the same rigour as any hormonal research peptide. It is a prescription-controlled medicine in the UK and should only be obtained from legitimate, regulated suppliers and studied under appropriate institutional approval.\n\n\u2022 As a ligand for the LH/CG receptor, HCG can drive substantial steroidogenesis in gonadal tissue \u2014 dose-response studies should account for this;\n\n\u2022 It is a protein hormone and must be handled to avoid degradation; reconstitute lyophilised material with bacteriostatic water per the supplier\'s instructions;\n\n\u2022 Research protocols should adhere to institutional biosafety and ethics approvals and follow local regulations regarding gonadotropin handling;\n\n\u2022 It is not a dietary supplement and must never be self-administered.\n\nResearchers should source clearly labelled, analytically tested research-grade material and treat any reported human outcomes as preliminary and not a substitute for properly conducted clinical work.'
+    },
+    {
+      title: 'References',
+      body: '[1] Pierce JG, Parsons TF. Glycoprotein hormones: structure and function. Annu Rev Biochem. 1981;50:465\u2013495. PMID 6267989.\n[2] Ascoli M, Fanelli F, Segaloff DL. The lutropin/choriogonadotropin receptor, a 2002 perspective. Endocr Rev. 2002;23(2):141\u2013174. PMID 11943740.\n[3] Channing CP, Schaerf FW, Anderson LD, Gasal A. Studies on the regulation of ovarian and follicular function by gonadotropins. J Reprod Fertil Suppl. 1980;(22):1\u201313. PMID 6253658.\n[4] Yen SS, Jaffe RB, Barbieri RL. Reproductive Endocrinology: Physiology, Pathophysiology, and Clinical Management. 6th ed. Saunders/Elsevier; 2009.'
+    }
+  ],
+},
 };
 export default content;

@@ -883,6 +883,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['mgf', 'mechano-growth-factor', 'igf-1ec', 'satellite-cells', 'muscle-repair', 'regeneration', 'recovery'],
 },
+{
+    title: 'HCG Research Summary',
+    desc: 'Overview of HCG (Human Chorionic Gonadotropin), a glycoprotein hormone with LH-like activity at the LH/CG receptor, researched for reproductive endocrinology and hormonal signalling across 11 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'HCG',
+    slug: 'hcg-research-summary',
+    image: 'hcg-research-summary',
+    minutes: 8,
+    tags: ['hcg', 'human-chorionic-gonadotropin', 'lh', 'gonadotropin', 'reproductive-endocrinology', 'hormonal-research'],
+},
 
 ];
 
