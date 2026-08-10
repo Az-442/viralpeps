@@ -894,6 +894,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['hcg', 'human-chorionic-gonadotropin', 'lh', 'gonadotropin', 'reproductive-endocrinology', 'hormonal-research'],
 },
+{
+    title: 'AHK-CU Research Summary',
+    desc: 'Overview of AHK-CU, a copper tripeptide closely related to GHK-Cu, researched for collagen support, extracellular matrix remodelling, wound healing and tissue regeneration across 7 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'AHK-CU',
+    slug: 'ahk-cu-research-summary',
+    image: 'ahk-cu-research-summary',
+    minutes: 8,
+    tags: ['ahk-cu', 'copper-peptide', 'collagen', 'wound-healing', 'ecm', 'skin-regeneration', 'anti-aging'],
+},
 
 ];
 

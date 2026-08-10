@@ -7418,5 +7418,40 @@ const content: Record<string, ResearchPageContent> = {
     }
   ],
 },
+'ahk-cu-research-summary': {
+  slug: 'ahk-cu-research-summary',
+  compoundSlug: 'ahk-cu',
+  sections: [
+    {
+      title: 'What is AHK-CU?',
+      body: 'AHK-CU (also written AHK-Cu) is a copper-bound tripeptide with the amino acid sequence Ala-His-Lys, forming a copper(II) complex. It is closely related to the better-known GHK-Cu (the tripeptide Gly-His-Lys) and belongs to the same family of copper peptide complexes that have drawn sustained research interest for their effects on connective tissue biology. The AHK sequence is itself a fragment of larger proteins, including regions of collagen and certain growth factors, where it serves as a copper-binding motif thought to participate in tissue remodelling and metal-ion homeostasis. [**Compare AHK-CU prices from 7 UK suppliers \u2192**](/compounds/ahk-cu)'
+    },
+    {
+      title: 'How AHK-CU Works',
+      body: 'The biological interest in AHK-CU centres on copper coordination. Copper is an essential catalytic and structural cofactor for many enzymes, including lysyl oxidase, which cross-links collagen and elastin fibres in the extracellular matrix (ECM). By presenting copper in a stable tripeptide complex, AHK-CU is studied as a way to deliver biologically available copper to tissues involved in matrix assembly and repair.\n\nLike its relative GHK-Cu, AHK-CU is investigated for its ability to influence the activity of matrix metalloproteinases (MMPs) and their tissue inhibitors (TIMPs) \u2014 enzymes that remodel the ECM \u2014 and for interactions with collagen-producing cells such as fibroblasts. The peptide portion may also confer antioxidant properties, helping to buffer local oxidative stress during tissue turnover. [**Related: GHK-Cu \u2014 copper peptide research \u2192**](/research/ghkcu-research-summary)'
+    },
+    {
+      title: 'Key Research Areas',
+      body: 'AHK-CU research clusters around connective tissue and regenerative biology:\n\n\u2022 Collagen support \u2014 studying how copper delivery influences collagen synthesis, cross-linking and structural integrity in skin and connective tissue;\n\n\u2022 Extracellular matrix remodelling \u2014 investigating effects on MMP/TIMP balance and matrix turnover during wound healing;\n\n\u2022 Wound healing \u2014 exploring accelerated dermal repair and tissue regeneration in experimental models;\n\n\u2022 Copper peptide delivery \u2014 examining how tripeptide coordination affects copper uptake, bioavailability and antioxidant activity;\n\n\u2022 Anti-aging research \u2014 assessing the role of copper peptides in supporting skin elasticity, firmness and resilience.\n\nThese areas overlap heavily with the broader literature on copper peptides, of which GHK-Cu is the most extensively studied member.'
+    },
+    {
+      title: 'AHK-CU vs GHK-Cu',
+      body: 'AHK-CU and GHK-Cu are the two best-studied copper tripeptide complexes, but they differ in a key way: the peptide sequence. GHK-Cu uses Gly-His-Lys, while AHK-CU uses Ala-His-Lys (alanine replaces glycine at the N-terminus). This single amino-acid difference can alter the peptide\'s conformation, its affinity for copper, and its interaction with biological targets, which is why some researchers treat them as distinct tools rather than interchangeable equivalents.\n\nGHK-Cu has the far larger body of published research, including its well-characterised effects on gene expression and collagen production. AHK-CU, while less studied, is frequently researched in parallel for its collagen-supporting and antioxidant properties, making it a useful complementary compound in copper-peptide protocols.'
+    },
+    {
+      title: 'Research Evidence',
+      body: 'The scientific foundation for AHK-CU sits within the broader copper-peptide literature, where the growth factor-like and tissue-modelling properties of copper tripeptide complexes have been documented across in vitro and animal studies. Much of this work focuses on copper\'s well-established role in collagen cross-linking (via lysyl oxidase) and in the antioxidant enzyme superoxide dismutase, which together underpin the rationale for studying copper peptides in skin and connective tissue.\n\nBecause the AHK sequence appears endogenously in collagen-related proteins, interest in AHK-CU also draws on structural biology showing that specific tripeptide copper-binding motifs participate in matrix biology. However, the compound has far less published evidence than GHK-Cu, and much of its profile is inferred from the broader copper-peptide family. AHK-CU is classified as a research peptide and is not approved by the MHRA, FDA, or EMA for medicinal use. This material is presented for research and educational purposes only.'
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'AHK-CU must be handled with the same care as any copper peptide research compound:\n\n\u2022 Handle lyophilised powder in a controlled laboratory environment and reconstitute with bacteriostatic water per supplier instructions;\n\n\u2022 Store appropriately (typically cool and protected from light) to preserve peptide integrity;\n\n\u2022 Copper complexes can be sensitive to oxidation \u2014 follow storage guidance to avoid degradation;\n\n\u2022 Use analytical testing (e.g. HPLC, mass spec) to verify identity and purity, as with all research peptides;\n\n\u2022 It is not a dietary supplement and should not be self-administered.\n\nResearchers should source clearly labelled, lab-tested research-grade material from reputable suppliers and confine any use to in vitro or appropriately approved laboratory studies.'
+    },
+    {
+      title: 'References',
+      body: '[1] Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide in the light of the new gene data. Int J Mol Sci. 2018;19(7):1985. PMID 29973550.\n[2] Pickart L. The human tri-peptide GHK and tissue remodeling. J Biomater Sci Polym Ed. 2008;19(8):969\u2013988. PMID 18644225.\n[3] Maquart FX, Pickart L, Laurent M, Gillery P, Monboisse JC, Borel JP. Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. FEBS Lett. 1988;238(2):343\u2013346. PMID 3169198.\n[4] Pickart L, Goodman S, inventors. Anti-aging and tissue-regeneration peptides. US Patent.\n[5] Wegrowski Y, Maquart FX, Borel JP. Stimulation of sulfated glycosaminoglycan synthesis by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. Life Sci. 1992;51(13):1049\u20131056. PMID 1513214.'
+    }
+  ],
+}
+
 };
 export default content;
