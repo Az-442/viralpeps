@@ -407,11 +407,16 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
       {/* ===== RESEARCH LIBRARY — compound-specific only ===== */}
       {(() => {
-        const compoundArticles = guides.filter(g =>
-          (g as any).compound?.toLowerCase() === compound.name.toLowerCase()
-        );
+        const compoundNameLower = compound.name.toLowerCase();
+        const compoundSlugLower = (compound.slug || "").toLowerCase();
+        const compoundArticles = guides.filter(g => {
+          const gName = (g as any).compound?.toLowerCase();
+          if (gName && gName === compoundNameLower) return true;
+          if (g.tags && g.tags.some(t => t.toLowerCase() === compoundSlugLower || t.toLowerCase() === compoundNameLower)) return true;
+          return false;
+        });
         if (compoundArticles.length === 0) return null;
-        const displayArticles = compoundArticles.slice(0, 2);
+        const displayArticles = compoundArticles;
         return (
           <div className="bg-white border-t border-gray-100 py-12">
             <div className="max-w-[76rem] mx-auto px-4">
