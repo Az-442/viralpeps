@@ -129,6 +129,8 @@ export default function CompoundPageClient({
   const [selectedDosage, setSelectedDosage] = useState("all");
   const [sortBy, setSortBy] = useState<"price-low" | "price-high" | "rating">("price-low");
   const [selectedVendors, setSelectedVendors] = useState<Set<string>>(new Set());
+  // FAQ accordion — first item open by default
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   // Compare mode — active when 2+ vendors selected
   const isCompareMode = selectedVendors.size >= 2;
@@ -1021,6 +1023,41 @@ export default function CompoundPageClient({
             )}
           </div>
         )}
+
+      {/* FAQ accordion — below price comparison list, matches FAQPage schema */}
+      {faqEntries.length > 0 && (
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4">
+          <div className="p-5 md:p-6 border-b border-gray-200">
+            <h3 className="text-lg font-bold text-gray-900">{compound.name} FAQ</h3>
+            <p className="text-sm text-gray-500 mt-1">
+              Commonly asked questions about {compound.name} answered for research reference.
+            </p>
+          </div>
+          {faqEntries.map((entry, i) => (
+            <div key={i} className="border-b border-gray-100 last:border-b-0">
+              <button
+                type="button"
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                aria-expanded={openFaq === i}
+                className="w-full flex items-center justify-between gap-3 px-5 md:px-6 py-4 text-left hover:bg-gray-50 transition-colors"
+              >
+                <span className="font-semibold text-gray-900 text-base">{entry.q}</span>
+                <svg
+                  className={`w-4 h-4 text-blue-600 flex-shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`}
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"
+                >
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              {openFaq === i && (
+                <div className="px-5 md:px-6 pb-4 -mt-1">
+                  <p className="text-base text-gray-600 leading-relaxed">{entry.a}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
     </>
   );
 }
