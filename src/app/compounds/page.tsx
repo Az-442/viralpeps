@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import compounds from "@/data/compounds.json";
@@ -226,11 +226,6 @@ export default function CompoundsPage() {
   const [activeTab, setActiveTab] = useState("All");
   const [sort, setSort] = useState<"a-z" | "suppliers" | "price">("a-z");
   const router = useRouter();
-
-  // SEO title for the compounds (peptides) page
-  useEffect(() => {
-    document.title = "Compare Research Peptides UK | Peptide Price Comparison - ViralPeps";
-  }, []);
 
   // All compounds (exclude compare-only entries)
   const allCompounds = useMemo(() => compounds.filter((c) => !(c as any)?.compareSlug), []);
