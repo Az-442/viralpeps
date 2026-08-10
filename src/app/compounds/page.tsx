@@ -368,52 +368,60 @@ export default function CompoundsPage() {
         </div>
       </div>
 
-      {/* INTRO COPY — keyword-rich page introduction */}
-      <section className="bg-white border-b border-gray-100">
-        <div className="max-w-[76rem] mx-auto px-4 py-10 md:py-12">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Research Peptides UK: Compare Prices on {PEPTIDE_COUNT}+ Compounds
-          </h1>
-          <p className="text-base text-gray-600 leading-relaxed mb-6">
-            Buying research peptides in the UK has never been easier. ViralPeps brings
-            together every verified UK peptide supplier in one place, so you can compare
-            prices, dosages, and shipping options across{" "}
-            <strong className="text-gray-900">{PEPTIDE_COUNT} research compounds</strong>{" "}
-            — from the popular{" "}
-            <Link href="/compounds/bpc-157" className="font-semibold text-blue-600 hover:text-blue-700">BPC-157</Link>,{" "}
-            <Link href="/compounds/tb-500" className="font-semibold text-blue-600 hover:text-blue-700">TB-500</Link>{" "}
-            and <Link href="/compounds/semaglutide" className="font-semibold text-blue-600 hover:text-blue-700">Semaglutide</Link>{" "}
-            to <Link href="/compounds/tirzepatide" className="font-semibold text-blue-600 hover:text-blue-700">Tirzepatide</Link>,{" "}
-            <Link href="/compounds/ghk-cu" className="font-semibold text-blue-600 hover:text-blue-700">GHK-Cu</Link>,{" "}
-            <Link href="/compounds/mots-c" className="font-semibold text-blue-600 hover:text-blue-700">MOTS-c</Link>{" "}
-            and every research compound in between.
-          </p>
+      {/* INTRO COPY — keyword-rich page introduction (card format, matching Why ViralPeps) */}
+      <section className="bg-blue-50 border-t border-blue-200">
+        <div className="max-w-[76rem] mx-auto px-4 py-12 md:py-16">
+          <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
+              <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              RESEARCH PEPTIDES UK
+            </div>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Research Peptides UK: Compare Prices for Over 100 Peptides
+            </h1>
+            <p className="text-base text-gray-700 leading-relaxed mb-4">
+              Buying research peptides in the UK has never been easier. ViralPeps brings
+              together every verified UK peptide supplier in one place, so you can compare
+              prices, dosages, and shipping options across{" "}
+              <strong className="text-gray-900">{PEPTIDE_COUNT} research compounds</strong>{" "}
+              — from the popular{" "}
+              <Link href="/compounds/bpc-157" className="font-semibold text-blue-600 hover:text-blue-700">BPC-157</Link>,{" "}
+              <Link href="/compounds/tb-500" className="font-semibold text-blue-600 hover:text-blue-700">TB-500</Link>{" "}
+              and <Link href="/compounds/semaglutide" className="font-semibold text-blue-600 hover:text-blue-700">Semaglutide</Link>{" "}
+              to <Link href="/compounds/tirzepatide" className="font-semibold text-blue-600 hover:text-blue-700">Tirzepatide</Link>,{" "}
+              <Link href="/compounds/ghk-cu" className="font-semibold text-blue-600 hover:text-blue-700">GHK-Cu</Link>,{" "}
+              <Link href="/compounds/mots-c" className="font-semibold text-blue-600 hover:text-blue-700">MOTS-c</Link>{" "}
+              and every research compound in between.
+            </p>
 
-          <h3 className="text-lg font-bold text-gray-900 mb-1">Verified UK Suppliers, Live Updated Prices</h3>
-          <p className="text-base text-gray-600 leading-relaxed mb-4">
-            We monitor {SUPPLIER_COUNT} established UK supplier websites daily, so every
-            price you see is current, accurate, and genuinely comparable. Rather than
-            visiting a dozen different stores, you can review research peptide costs
-            side-by-side, spot the savings instantly, and never overpay on your next
-            order.
-          </p>
+            <h3 className="text-base font-bold text-gray-900 mb-1">Verified UK Suppliers, Live Updated Prices</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              We monitor {SUPPLIER_COUNT} established UK supplier websites daily, so every
+              price you see is current, accurate, and genuinely comparable. Rather than
+              visiting a dozen different stores, you can review research peptide costs
+              side-by-side, spot the savings instantly, and never overpay on your next
+              order.
+            </p>
 
-          <h3 className="text-lg font-bold text-gray-900 mb-1">Find the Cheapest Peptide Prices</h3>
-          <p className="text-base text-gray-600 leading-relaxed mb-4">
-            Whether you're comparing dosages or hunting for the best deal on your next
-            research compound, our peptide price comparison tool does the legwork. Search
-            by name, filter by category, and sort by price to surface the cheapest UK
-            supplier in seconds — so you get the quality you need without blowing your
-            budget.
-          </p>
+            <h3 className="text-base font-bold text-gray-900 mb-1">Find the Cheapest Peptide Prices</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              Whether you're comparing dosages or hunting for the best deal on your next
+              research compound, our peptide price comparison tool does the legwork. Search
+              by name, filter by category, and sort by price to surface the cheapest UK
+              supplier in seconds — so you get the quality you need without blowing your
+              budget.
+            </p>
 
-          <h3 className="text-lg font-bold text-gray-900 mb-1">Trusted UK Research Compound Directory</h3>
-          <p className="text-base text-gray-600 leading-relaxed">
-            From GLP-1 agonists to recovery peptides, nootropics, and longevity compounds,
-            every entry lists purity specs, CAS numbers, and full supplier details. That
-            makes ViralPeps a reliable reference for anyone researching the best peptides
-            available in the UK today.
-          </p>
+            <h3 className="text-base font-bold text-gray-900 mb-1">Trusted UK Research Compound Directory</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              From GLP-1 agonists to recovery peptides, nootropics, and longevity compounds,
+              every entry lists purity specs, CAS numbers, and full supplier details. That
+              makes ViralPeps a reliable reference for anyone researching the best peptides
+              available in the UK today.
+            </p>
+          </div>
         </div>
       </section>
 
