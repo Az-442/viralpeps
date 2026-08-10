@@ -1051,7 +1051,10 @@ export default function CompoundPageClient({
               </button>
               {openFaq === i && (
                 <div className="px-5 md:px-6 pb-4 -mt-1">
-                  <p className="text-base text-gray-600 leading-relaxed">{entry.a}</p>
+                  <p
+                    className="text-base text-gray-600 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: entry.a }}
+                  />
                 </div>
               )}
             </div>
