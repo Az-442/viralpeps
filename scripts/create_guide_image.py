@@ -7,14 +7,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "Epitalon"
-VIAL_PATH = "public/images/compounds/epitalon-vial.png"
-OUTPUT_PATH = "public/images/guides/epitalon-research-summary.png"
+COMPOUND = "LL-37"
+VIAL_PATH = "public/images/compounds/ll-37-vial.png"
+OUTPUT_PATH = "public/images/guides/ll37-research-summary.png"
 DESCRIPTION_LINES = [
-    "Overview of Epitalon, a pineal-derived",
-    "tetrapeptide researched for telomerase",
-    "activation, circadian rhythm regulation and",
-    "longevity effects across 46 UK suppliers.",
+    "Overview of LL-37, the only human",
+    "cathelicidin — a 37-amino-acid host-defence",
+    "peptide studied for broad-spectrum",
+    "antimicrobial and wound-healing activity.",
 ]
 # ==================================================
 

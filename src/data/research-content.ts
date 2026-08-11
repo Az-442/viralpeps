@@ -7451,7 +7451,64 @@ const content: Record<string, ResearchPageContent> = {
       body: '[1] Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide in the light of the new gene data. Int J Mol Sci. 2018;19(7):1985. PMID 29973550.\n[2] Pickart L. The human tri-peptide GHK and tissue remodeling. J Biomater Sci Polym Ed. 2008;19(8):969\u2013988. PMID 18644225.\n[3] Maquart FX, Pickart L, Laurent M, Gillery P, Monboisse JC, Borel JP. Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. FEBS Lett. 1988;238(2):343\u2013346. PMID 3169198.\n[4] Pickart L, Goodman S, inventors. Anti-aging and tissue-regeneration peptides. US Patent.\n[5] Wegrowski Y, Maquart FX, Borel JP. Stimulation of sulfated glycosaminoglycan synthesis by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. Life Sci. 1992;51(13):1049\u20131056. PMID 1513214.'
     }
   ],
-}
+},
+
+'ll37-research-summary': {
+  slug: 'll37-research-summary',
+  compoundSlug: 'll-37',
+  pullQuote: 'LL-37 is the only human cathelicidin \u2014 a 37-amino-acid host-defence peptide that stands at the crossroads of innate immunity, antimicrobial activity, and tissue repair, rather than a single-pathway signalling molecule.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'LL-37 (human cathelicidin antimicrobial peptide)' },
+    { label: 'Classification', value: 'Host-defence / antimicrobial peptide (Cathelicidin)' },
+    { label: 'Sequence', value: 'LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES' },
+    { label: 'Length', value: '37 amino acids' },
+    { label: 'Molecular Weight', value: '~4493 Da' },
+    { label: 'Source', value: 'Cleaved from the hCAP-18 precursor by proteinase 3' },
+    { label: 'Structure', value: 'Amphipathic alpha-helix' },
+    { label: 'Evidence Strength', value: 'Strong preclinical and in vitro; active human-trial research' },
+    { label: 'Primary Research Areas', value: 'Antimicrobial defence, immunomodulation, angiogenesis, wound healing' },
+  ],
+  sections: [
+    {
+      title: 'What Is LL-37?',
+      body: 'LL-37 is the only cathelicidin antimicrobial peptide found in humans. It is a 37-amino-acid amphipathic alpha-helical peptide generated when the hCAP-18 precursor protein is cleaved by proteinase 3 \u2014 most notably in neutrophils, but also in epithelial cells, keratinocytes, and macrophages.\n\nBecause it bridges antimicrobial defence and immune modulation, LL-37 is studied as a \'host-defence peptide\': a molecule the body uses to control microbial growth while simultaneously shaping the inflammatory response. This dual activity makes it a central research subject for innate immunity, infection control, and wound-healing models.\n\n[**Compare LL-37 prices from UK suppliers \u2192**](/compounds/ll-37)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'LL-37 possesses a positively charged, amphipathic structure that lets it interact with negatively charged microbial membranes while sparing most host cells. Its principal mechanisms include:\n\n\u2022 Electrostatic binding to and disruption of bacterial and fungal membranes, causing microbial cell lysis;\n\n\u2022 Neutralisation of lipopolysaccharide (LPS), dampening endotoxin-driven inflammatory signalling;\n\n\u2022 Direct chemotactic activity on immune cells such as monocytes, neutrophils, and T cells;\n\n\u2022 Modulation of Toll-like receptor (TLR) signalling and cytokine release;\n\n\u2022 Promotion of angiogenesis and stimulation of keratinocyte and fibroblast migration relevant to wound closure.\n\n[**Related: How Peptides Work \u2192**](/research/how-peptides-work)',
+    },
+    {
+      title: 'Antimicrobial & Anti-Biofilm Research',
+      body: 'A substantial body of in vitro work characterises LL-37\'s broad-spectrum antimicrobial activity against Gram-positive and Gram-negative bacteria, fungi, and enveloped viruses. Its membrane-disrupting mode of action is considered less prone to classic resistance mechanisms than conventional antibiotics, which has made it a focus of antimicrobial-resistance research.\n\nLL-37 also inhibits biofilm formation and can act on established biofilms, an area of interest for chronic wound and medical-device infection models. Reduced or dysregulated LL-37 levels have been implicated in conditions such as atopic dermatitis and chronic skin ulceration, supporting the rationale for studying exogenous LL-37.',
+    },
+    {
+      title: 'Immunomodulation & Inflammation',
+      body: 'Beyond direct antimicrobial action, LL-37 shapes the immune environment. It recruits immune cells, influences dendritic cell maturation, and can both stimulate and suppress inflammatory cytokine production depending on context and concentration. This context-dependent behaviour is central to research into autoimmunity, sepsis, and inflammatory skin disease.\n\nIts LPS-neutralising capacity is particularly relevant to research on endotoxaemia and Gram-negative sepsis, where excess inflammation rather than the pathogen itself drives much of the pathology.\n\n[**Related Guide: Choosing a UK Supplier \u2192**](/research/choosing-a-uk-supplier)',
+    },
+    {
+      title: 'Wound Healing & Angiogenesis',
+      body: 'LL-37 is consistently studied for its role in tissue repair. It stimulates keratinocyte migration and proliferation, promotes the migration and tube formation of endothelial cells (angiogenesis), and modulates the release of growth factors involved in wound closure. In diabetic and chronic wound models, restoring or supplementing LL-37 has been investigated as a strategy to accelerate healing.\n\nSkin and epithelial cells express LL-37, and its expression is regulated by vitamin D \u2014 a connection that links host-defence research with broader questions about micronutrient status and innate immune function.',
+    },
+    {
+      title: 'Regulatory Status & Research Use',
+      body: 'LL-37 is a research peptide. It is not approved by the MHRA, EMA, or FDA for medicinal use and is supplied for laboratory and educational purposes only. Like all research peptides, it should be handled in a controlled environment, reconstituted per supplier guidance (typically bacteriostatic water), stored appropriately (cool, protected from light), and verified by analytical testing such as HPLC or mass spectrometry.',
+    },
+  ],
+  faq: [
+    { question: 'Is LL-37 a natural peptide?', answer: 'Yes. LL-37 is the active human cathelicidin, cleaved from the hCAP-18 precursor protein. Most research material is synthetic or recombinant, chemically identical to the endogenous sequence.' },
+    { question: 'Is LL-37 the same as other cathelicidins in animals?', answer: 'No. Other mammals express different cathelicidins (for example, protegrins in pigs, CRAMP in mice). LL-37 is uniquely the human form.' },
+    { question: 'Is LL-37 approved for human use?', answer: 'No. It is a research-grade peptide not approved by the MHRA, EMA, or FDA for medicinal use.' },
+  ],
+  references: [
+    'Bals R, Wang X, Zasloff M, Wilson JM. The peptide antibiotic LL-37/hCAP-18 is expressed in epithelia of the human lung. Proc Natl Acad Sci USA. 1998;95(16):9541-9546.',
+    'Yang D, Chertov O, Oppenheim JJ. The role of mammalian antimicrobial peptides in innate immunity. Trends Immunol. 2001;22(7):352-355.',
+    'Koczulla R, von Degenfeld G, Kupatt C, et al. An angiogenic role for the human peptide antibiotic LL-37/hCAP-18. J Clin Invest. 2003;111(11):1665-1672.',
+    'Nagaoka I, Hirota S, Niyonsaba F, et al. Cathelicidin family of antibacterial peptides CAP18 and CAP11. Inflam Res. 2000;49(4):159-167.',
+    'Wang G. Human antimicrobial peptides and proteins. Pharmaceuticals. 2014;7(5):545-594.',
+    'Liu PT, Stenger S, Li H, et al. Toll-like receptor triggering of a vitamin D-mediated human antimicrobial response. Science. 2006;311(5768):1770-1773.',
+  ],
+},
+
 
 };
 export default content;
