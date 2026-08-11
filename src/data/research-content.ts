@@ -7510,5 +7510,45 @@ const content: Record<string, ResearchPageContent> = {
 },
 
 
+'cjc-1295-with-dac-research-summary': {
+  slug: 'cjc-1295-with-dac-research-summary',
+  compoundSlug: 'cjc-1295-with-dac',
+  pullQuote: 'CJC-1295 with DAC is the long-acting member of the GHRH-analog family: a drug-affinity complex covalently attaches it to circulating albumin, extending its half-life to roughly 6-8 days so that a compact GHRH(1-29) sequence sustains tonic growth-hormone signalling with infrequent dosing.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'CJC-1295 (with DAC)' },
+    { label: 'Classification', value: 'Long-acting modified GHRH analog' },
+    { label: 'Sequence', value: 'Human GHRH(1-29) with four amino-acid substitutions and a drug-affinity complex (DAC) covalently bound via biotin' },
+    { label: 'Molecular Weight', value: 'Approx. 3,651 Da (conjugate with DAC)' },
+    { label: 'Half-Life', value: 'Approx. 6-8 days (albumin-bound)' },
+    { label: 'Evidence Strength', value: 'Preclinical / investigational research' },
+    { label: 'Primary Research Areas', value: 'Sustained GH/IGF-1 elevation, GH-axis research, body composition' },
+  ],
+  sections: [
+    {
+      title: 'Overview',
+      body: 'CJC-1295 with DAC is a long-acting analog of growth hormone-releasing hormone (GHRH) built on the CJC-1295 backbone, itself a modified human GHRH(1-29) sequence containing four amino-acid substitutions chosen to improve metabolic stability and potency relative to the natural hormone. The defining feature of the with-DAC variant is the drug-affinity complex (DAC) moiety, a maleimidopropionic acid-based linker that covalently attaches the peptide to the thiol of cysteine-34 on circulating albumin.\n\nThis albumin anchoring changes the pharmacokinetics of the molecule dramatically. While CJC-1295 without DAC has a short circulating half-life measured in tens of minutes, the DAC-conjugated form is reported to extend the half-life to approximately 6-8 days in a single-dose clinical study, enabling once- or twice-weekly dosing to sustain growth hormone (GH) and insulin-like growth factor 1 (IGF-1) elevation over many days. Because of this sustained, low-level receptor occupancy rather than sharp daily spikes, the with-DAC form is researched as a model of chronic GHRH-pathway stimulation with reduced injection frequency.\n\nFor researchers evaluating sources of long-acting GH-axis research peptides in the UK, the ViralPeps directory offers a comparative view of suppliers. [**Compare CJC-1295 prices from UK suppliers \u2192**](/compounds/cjc-1295-with-dac)',
+    },
+    {
+      title: 'Mechanism of Action',
+      body: 'CJC-1295 with DAC acts at the growth hormone-releasing hormone receptor (GHRHR), a class B G-protein-coupled receptor expressed on somatotroph cells of the anterior pituitary. Occupation of GHRHR couples through the stimulatory G protein Gs to adenylyl cyclase, raising cyclic AMP (cAMP), activating protein kinase A (PKA), and driving GH gene transcription together with the release of stored growth hormone. In this respect its receptor-level pharmacology mirrors the native GHRH pathway and the shorter CJC-1295 (no-DAC) analog.\n\nThe distinction lies entirely in the pharmacokinetic profile conferred by the DAC. The drug-affinity complex covalently binds the peptide to serum albumin via Michael-type addition to the exposed cysteine-34 residue. Because albumin has a long plasma residence time, this creates a circulating depot that slowly releases active peptide over days, blunting the sharp peak and trough cycle otherwise required by repeated daily dosing. The gradual release is proposed to maintain a higher, sustained baseline of GH output while retaining the endogenous somatostatin-negative-feedback restraint that prevents completely uncontrolled supraphysiologic surges.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: '\u2022 Pharmacokinetics and half-life extension: the single-dose clinical study that reported an extended 6-8 day half-life and sustained IGF-1 elevation is a cornerstone reference for the DAC approach.\n\u2022 GH/IGF-1 axis physiology: sustained GHRH-receptor agonism is used as a tool to study tonic versus pulsatile growth-hormone driving and downstream IGF-1 responses.\n\u2022 Body composition: research in animal models has investigated whether sustained low-level GH elevation favourably shifts lean mass and fat-mass distribution relative to burst dosing.\n\u2022 Albumin-conjugation technology: the DAC represents an illustrative case of how albumin-binding linker strategies extend peptide half-life and inform the design of other long-acting biologics.\n\u2022 Dosing-cadence modelling: once- or twice-weekly regimens are evaluated against daily GHRH analogs to compare feedback behaviour and convenience.',
+    },
+    {
+      title: 'Comparison With Related Compounds',
+      body: 'The most direct comparison is CJC-1295 without DAC. Both share the same 29-residue modified GHRH backbone, but the no-DAC form lacks the albumin-binding moiety and therefore retains a short circulating half-life, requiring frequent daily dosing to maintain an effect. The DAC conjugate, by contrast, is designed for one or two injections per week, trading acute responsiveness for sustained exposure.\n\nAgainst other GH-axis peptides, the distinctions are sharper. Ipamorelin is a ghrelin-mimetic pentapeptide that acts through the growth hormone secretagogue receptor (GHSR1a) rather than GHRHR and produces shorter, more phasic GH pulses; it does not carry an albumin anchor. Sermorelin is the unmodified GHRH(1-29) sequence, shorter-lived and intended for near-physiologic pulsatile stimulation with frequent dosing. Tesamorelin is the full 44-amino-acid GHRH analog, FDA-approved for HIV-associated lipodystrophy, with a short half-life and daily administration. Within this spectrum, CJC-1295 with DAC is the outlier engineered for chronic, low-frequency, sustained GHRH-pathway stimulation, making it of particular interest to protocols where prolonged GH-axis elevation and convenience are the experimental priorities.',
+    },
+    {
+      title: 'Safety & Tolerability',
+      body: 'Published clinical data on CJC-1295 are limited to early, largely single-dose pharmacokinetic investigations in healthy volunteers. In those studies the compound was generally reported as well tolerated at the tested doses, with the principal observations being transient, minor injection-site reactions and mild, self-limiting biometric changes consistent with GH-axis activation. As with other GHRH analogs, sustained GH output carries theoretical considerations relating to glucose homeostasis, fluid retention, and growth-related signalling that warrant monitoring in any long-duration protocol.\n\nBecause the DAC conjugate is designed for prolonged receptor stimulation, dose selection and recovery periods merit particular attention in research design. As with all investigational material, CJC-1295 with DAC is supplied for laboratory and educational purposes only; it is not approved by the MHRA, EMA, or FDA for human or veterinary medicinal use.',
+    },
+    {
+      title: 'References',
+      body: '[1] Teichman SL, Neale A, Lawrence B, et al. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. J Clin Endocrinol Metab. 2006;91(3):799-805. PMID: 16352683.\n[2] Jette L, Leger R, Thibaudeau K, et al. Human growth hormone-releasing factor (hGRF)1-29-albumin bioconjugates activate the GRF receptor on the anterior pituitary in rats: identification of CJC-1295 as a long-lasting GRF analog. Endocrinology. 2005;146(7):3052-3058. PMID: 15817669.\n[3] Alba M, Fintini D, Sagazio A, et al. Once-daily administration of CJC-1295, a long-acting growth hormone-releasing hormone (GHRH) analog, normalizes growth in the GHRH knockout mouse. Am J Physiol Endocrinol Metab. 2006;291(6):E1290-E1294. PMID: 16822960.\n[4] Ruddick M, Castaigne JP, Teichman SL. Pulsatile secretion of growth hormone (GH) persists during continuous stimulation by CJC-1295, a long-acting GH-releasing hormone analog. J Clin Endocrinol Metab. 2007;92(1):110-114. PMID: 17018654.',
+    },
+  ],
+},
 };
 export default content;

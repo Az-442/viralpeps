@@ -905,6 +905,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['ahk-cu', 'copper-peptide', 'collagen', 'wound-healing', 'ecm', 'skin-regeneration', 'anti-aging'],
 },
+{
+    title: 'CJC-1295 (With DAC) Research Summary',
+    desc: 'Overview of CJC-1295 with DAC, the long-acting GHRH analog whose drug-affinity complex covalently binds albumin to extend half-life to roughly 6-8 days, researched for sustained GH/IGF-1 axis stimulation across 14 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'CJC-1295 (With DAC)',
+    slug: 'cjc-1295-with-dac-research-summary',
+    image: 'cjc-1295-with-dac-research-summary',
+    minutes: 8,
+    tags: ['cjc-1295', 'dac', 'ghrh', 'growth-hormone', 'mod-grf', 'gh', 'igf-1'],
+},
 
 ];
 
