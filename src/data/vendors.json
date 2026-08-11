@@ -1621,5 +1621,35 @@
     ],
     "lastTested": "2026-08-06",
     "labTested": true
+  },
+  {
+    "id": "peptidesx",
+    "name": "PeptidesX",
+    "slug": "peptidesx",
+    "website": "https://www.peptidesx.uk",
+    "rating": 4.6,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "UK-based research peptide supplier (PeptidesX Ltd, registered UK company) offering 21 high-purity compounds. Every product is independently tested at an ISO 17025 accredited UK laboratory using HPLC and LC-MS, with 99%+ purity and a batch-specific Certificate of Analysis (CoA) included with every order. Same-day dispatch on orders before 3PM with discreet, cold-chain packaging and free UK tracked shipping over £75.",
+    "highlights": [
+      "ISO 17025 accredited lab testing",
+      "HPLC + LC-MS verified — 99%+ purity",
+      "Batch-specific CoA with every order",
+      "Same-day dispatch (before 3PM)",
+      "Free UK tracked shipping over £75",
+      "Registered UK company (PeptidesX Ltd)"
+    ],
+    "shipping": [
+      "UK £3.95 (2-3 days, free over £75)",
+      "Europe £7.95 (3-5 days)"
+    ],
+    "payment": [
+      "Credit/Debit card",
+      "Bank transfer",
+      "Bitcoin"
+    ],
+    "lastTested": "2026-08-11",
+    "labTested": true
   }
 ]
