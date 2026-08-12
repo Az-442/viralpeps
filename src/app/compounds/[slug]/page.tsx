@@ -18,8 +18,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const minPrice = Math.min(
     ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
   );
+
+  // Keyword-rich SEO title per compound (fallback to generic)
+  const seoTitles: Record<string, string> = {
+    semaglutide: "Semaglutide UK: Compare Prices & Buy Semaglutide Peptide (Ozempic Analogue)",
+    tirzepatide: "Tirzepatide UK: Compare Prices & Buy Tirzepatide Peptide (Mounjaro Analogue)",
+    "bpc-157": "BPC-157 UK: Compare Prices & Buy BPC-157 Peptide (Tissue Repair)",
+  };
+  const title = seoTitles[slug] || `${compound.name} | UK Prices`;
+
   return {
-    title: `${compound.name} | UK Prices`,
+    title,
     description: compound.sources.length > 0
       ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
       : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`,
@@ -27,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       canonical: `https://www.viralpeps.co.uk/compounds/${slug}`,
     },
     openGraph: {
-      title: `${compound.name} | UK Prices`,
+      title,
       description: compound.sources.length > 0
         ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
         : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`,

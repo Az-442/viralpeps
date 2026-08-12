@@ -416,23 +416,23 @@
     "faq": [
       {
         "question": "What is Tirzepatide used for in research?",
-        "answer": "Tirzepatide is primarily researched for type 2 diabetes and obesity, with emerging studies in NAFLD/NASH, metabolic syndrome, and cardiovascular health. As a dual GIP/GLP-1 receptor agonist, it is investigated for superior glycaemic control and weight reduction compared to single-pathway agents."
+        "answer": "Tirzepatide is primarily researched for type 2 diabetes and obesity, with emerging studies in NAFLD/NASH, metabolic syndrome, and cardiovascular health. As a dual GIP/GLP-1 receptor agonist, it is investigated for superior glycaemic control and weight reduction compared to single-pathway agents. See our <a href=\"/research/tirzepatide-research-summary\">Tirzepatide research summary</a> for details."
       },
       {
         "question": "How does Tirzepatide differ from Semaglutide?",
-        "answer": "While semaglutide targets only the GLP-1 receptor, tirzepatide is a dual agonist at both GIP and GLP-1 receptors. This dual action is thought to contribute to its greater efficacy in weight loss and HbA1c reduction observed in head-to-head clinical trials, and the GIP component may improve tolerability by reducing nausea."
+        "answer": "While <a href=\"/compounds/semaglutide\">semaglutide</a> targets only the GLP-1 receptor, tirzepatide is a dual agonist at both GIP and GLP-1 receptors. This dual action is thought to contribute to its greater efficacy in weight loss and HbA1c reduction observed in head-to-head clinical trials, and the GIP component may improve tolerability by reducing nausea. Read our <a href=\"/research/semaglutide-vs-tirzepatide\">head-to-head comparison</a>."
       },
       {
         "question": "Can I buy Tirzepatide for research in the UK?",
-        "answer": "Yes, tirzepatide is available from UK-based peptide suppliers including United Peptides, UK Peptides, and Peptide Warehouse. When looking to buy Tirzepatide UK supply options, ensure you purchase from reputable vendors who provide third-party purity testing and clear documentation that the product is for research purposes only."
+        "answer": "Yes, tirzepatide is available from UK-based peptide suppliers including United Peptides, UK Peptides, and Peptide Warehouse. When looking to buy Tirzepatide UK supply options, ensure you purchase from reputable vendors who provide third-party purity testing and clear documentation that the product is for research purposes only. For price comparisons across verified suppliers, see the suppliers section above."
       },
       {
         "question": "What is the half-life of Tirzepatide?",
-        "answer": "Tirzepatide has a half-life of approximately 5 days, which supports once-weekly dosing in research protocols. This extended half-life is attributed to albumin binding and reduced renal clearance, similar to other acylated peptide therapeutics."
+        "answer": "Tirzepatide has a half-life of approximately 5 days, which supports once-weekly dosing in research protocols. This extended half-life is attributed to albumin binding and reduced renal clearance, similar to other acylated peptide therapeutics. For dosing guidance, see our <a href=\"/research/peptide-dosing-guide\">peptide dosing guide</a>."
       },
       {
         "question": "What dosages are used in Tirzepatide research?",
-        "answer": "Research dosages typically follow a stepwise escalation protocol: starting at 2.5 mg/week and increasing to 5 mg, 7.5 mg, 10 mg, 12.5 mg, and up to 15 mg/week. Dose escalation helps assess tolerability and dose-dependent efficacy in metabolic research studies."
+        "answer": "Research dosages typically follow a stepwise escalation protocol: starting at 2.5 mg/week and increasing to 5 mg, 7.5 mg, 10 mg, 12.5 mg, and up to 15 mg/week. Dose escalation helps assess tolerability and dose-dependent efficacy in metabolic research studies. See our <a href=\"/research/peptide-dosing-guide\">peptide dosing guide</a> for a full protocol overview."
       }
     ]
   },
@@ -655,7 +655,7 @@
     "faq": [
       {
         "question": "What is Semaglutide and how does it work?",
-        "answer": "Semaglutide is a long-acting GLP-1 receptor agonist used in metabolic research. It works by mimicking the incretin hormone GLP-1, stimulating insulin secretion in a glucose-dependent manner, suppressing glucagon release, slowing gastric emptying, and reducing appetite through central nervous system pathways."
+        "answer": "Semaglutide is a long-acting GLP-1 receptor agonist used in metabolic research. It works by mimicking the incretin hormone GLP-1, stimulating insulin secretion in a glucose-dependent manner, suppressing glucagon release, slowing gastric emptying, and reducing appetite through central nervous system pathways. For a full breakdown of its mechanism and clinical data, see our <a href=\"/research/semaglutide-research-summary\">Semaglutide research summary</a>."
       },
       {
         "question": "What is the difference between Ozempic and Wegovy?",
@@ -667,11 +667,11 @@
       },
       {
         "question": "How is Semaglutide different from Tirzepatide?",
-        "answer": "Semaglutide is a selective GLP-1 receptor agonist, whereas tirzepatide is a dual GIP/GLP-1 agonist. Clinical head-to-head trials have shown tirzepatide achieves greater HbA1c reductions and weight loss, likely due to the added GIP receptor activation."
+        "answer": "Semaglutide is a selective GLP-1 receptor agonist, whereas <a href=\"/compounds/tirzepatide\">tirzepatide</a> is a dual GIP/GLP-1 agonist. Clinical head-to-head trials have shown tirzepatide achieves greater HbA1c reductions and weight loss, likely due to the added GIP receptor activation. Compare the two in our <a href=\"/research/semaglutide-vs-tirzepatide\">Semaglutide vs Tirzepatide</a> article."
       },
       {
         "question": "What is the half-life of Semaglutide?",
-        "answer": "Semaglutide has a half-life of approximately 7 days, which supports once-weekly dosing. This extended half-life is achieved through albumin binding via its fatty acid side chain and resistance to DPP-4 degradation."
+        "answer": "Semaglutide has a half-life of approximately 7 days, which supports once-weekly dosing. This extended half-life is achieved through albumin binding via its fatty acid side chain and resistance to DPP-4 degradation. For dosing guidance, see our <a href=\"/research/peptide-dosing-guide\">peptide dosing guide</a>."
       }
     ]
   },
