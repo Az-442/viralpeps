@@ -446,7 +446,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-blue-200 hover:shadow-sm transition-all"
                   >
                     {/* Photo-ready — replace gradient with <img> when photorealistic images are available */}
-                    <div className="aspect-[16/7] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100">
+                    <div className={`aspect-[16/7] overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-100 ${compound.slug === 'tirzepatide' ? 'aspect-video' : ''}`}>
                       <img
                         src={article.image ? `/images/guides/${article.image}.png` : ''}
                         alt={article.title}
