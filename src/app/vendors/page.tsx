@@ -153,6 +153,55 @@ export default function VendorsPage() {
         </div>
       </div>
 
+      {/* INTRO COPY — keyword-rich page introduction */}
+      <section className="bg-blue-50 border-t border-blue-200">
+        <div className="max-w-[76rem] mx-auto px-4 py-12 md:py-16">
+          <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
+              <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              UK PEPTIDE SUPPLIERS
+            </div>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Compare UK Peptide Suppliers: Verified, Lab-Tested &amp; Live-Priced
+            </h1>
+            <p className="text-base text-gray-700 leading-relaxed mb-4">
+              Research peptides across <strong className="text-gray-900">{vendors.length} UK suppliers</strong>{" "}
+              in one independent directory. We track every vendor live, comparing{" "}
+              <strong className="text-gray-900">{peptideCount}+ research compounds</strong> side by
+              side so you can find the best price, shipping and lab-testing standards in seconds —
+              from the cheapest vial to the most reliable lab-tested range.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Independent, Unbiased Comparison</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              There are no sponsored rankings here. Every supplier is listed on merit, with prices
+              updated daily and badges showing verified status, free delivery and third-party lab
+              testing — so what you see reflects real, current service.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Find the Best Value Per Compound</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              Rather than visiting a dozen stores, review supplier profiles, check{" "}
+              <Link href="/vendors/express-peptides" className="font-semibold text-blue-600 hover:text-blue-700">standout vendor</Link>{" "}
+              ratings and callouts, then jump straight to{" "}
+              <Link href="/compounds" className="font-semibold text-blue-600 hover:text-blue-700">compare prices</Link>{" "}
+              on the exact compound you need.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Stocking the Full UK Peptide Range</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              From growth peptides and recovery compounds to GLP-1 agonists and nootropic stacks, our
+              directory covers the full range of research peptides available in the UK today — all
+              for{" "}
+              <Link href="/research" className="font-semibold text-blue-600 hover:text-blue-700">educational reference</Link>{" "}
+              use only.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <div className="max-w-[76rem] mx-auto px-4 pt-6 relative z-10">
         {/* SUPPLIER DIRECTORY GRID */}
         <div>
