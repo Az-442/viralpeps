@@ -7550,5 +7550,86 @@ const content: Record<string, ResearchPageContent> = {
     },
   ],
 },
+
+  "oxytocin-research-summary": {
+    slug: "oxytocin-research-summary",
+    compoundSlug: "oxytocin",
+    pullQuote: "Oxytocin is the nine-amino-acid neuropeptide that sits at the intersection of social cognition, emotional regulation and reproduction — a single molecule that spans pair bonding, trust, anxiety and wound healing.",
+    quickInfo: [
+      { label: "Peptide Name", value: "Oxytocin" },
+      { label: "Sequence", value: "CYIQNCPLG (cyclic: disulfide bridge Cys1-Cys6)" },
+      { label: "CAS Number", value: "50-56-6" },
+      { label: "Molecular Weight", value: "1007.2 g/mol" },
+      { label: "Origin", value: "Nonapeptide produced in hypothalamus, released by posterior pituitary" },
+      { label: "Primary Targets", value: "Oxytocin receptor (OXTR), a G-protein-coupled receptor in the limbic system" },
+      { label: "Typical Research Dose", value: "100-500 µg/day, or 10-40 IU intranasal" },
+      { label: "Half-Life", value: "~5 minutes (in plasma)" }
+    ],
+    sections: [
+      {
+        title: "What Is Oxytocin?",
+        body: "Oxytocin is a nine-amino-acid cyclic neuropeptide synthesised in the hypothalamus and secreted by the posterior pituitary gland. Despite its popular reputation as the 'love hormone', it is more accurately described as a social-regulatory and homeostatic peptide that acts as both a circulating hormone in the periphery and a neurotransmitter centrally. Produced chiefly in the magnocellular neurons of the supraoptic and paraventricular nuclei, oxytocin is released into the bloodstream to act on the uterus and mammary glands, while oxytocinergic projections within the brain modulate a wide network of social and emotional circuits. For researchers studying social cognition, attachment and stress, [oxytocin](/compounds/oxytocin) is one of the most translationally studied neuropeptides available. [**Compare Oxytocin prices from UK suppliers \u2192**](/compounds/oxytocin)"
+      },
+      {
+        title: "Mechanism of Action",
+        body: "Oxytocin exerts its effects primarily through the oxytocin receptor (OXTR), a class A G-protein-coupled receptor expressed throughout the brain (amygdala, nucleus accumbens, hypothalamus, prefrontal cortex) as well as in the uterus, mammary gland and heart. Agonist binding activates phospholipase C and the Gq pathway, raising intracellular calcium and triggering downstream MAPK/ERK signalling cascades. Through these pathways oxytocin modulates GABAergic and dopaminergic neurotransmission in limbic circuits, which underlies its influence on anxiety, reward and social approach behaviour. In the periphery, OXTR activation in myometrial cells drives uterine contraction and stimulates milk ejection, reflecting the peptide's dual role as both a reproductive hormone and a central neuromodulator.",
+      },
+      {
+        title: "Social Bonding & Pair Bonding Research",
+        body: "Oxytocin is best known for its role in social bonding. Landmark studies in prairie voles demonstrated that oxytocin signalling in the nucleus accumbens is necessary and sufficient for partner-preference formation, establishing the vole as a model organism for pair-bonding research. In humans, intranasal oxytocin administration has been shown to increase trust in economic games, enhance emotion recognition, strengthen eye gaze during social interaction, and increase empathy and cooperation. The peptide is widely used as a probe to study how affiliative behaviour, attachment and social memory are regulated at the neural level.",
+      },
+      {
+        title: "Anxiety & Stress Regulation",
+        body: "Oxytocin is a recognised modulator of the hypothalamic-pituitary-adrenal (HPA) axis and the autonomic stress response. Preclinical work shows oxytocin can dampen cortisol and corticosterone release, reduce amygdala reactivity to threatening stimuli, and attenuate behavioural measures of anxiety. This has driven interest in oxytocin as a lead candidate for research on social anxiety, post-traumatic stress disorder, autism spectrum disorder and generalised stress physiology.",
+      },
+      {
+        title: "Autism & Social Cognition",
+        body: "Because impaired social interaction is a core feature of autism spectrum disorder (ASD), oxytocin has been investigated as a potential modulator of social functioning. Multiple randomised controlled trials have examined repeated intranasal oxytocin in ASD, with mixed results — some studies report improved emotion recognition and social responsiveness while others show no significant benefit over placebo. These findings highlight both the promise and the heterogeneity of oxytocin research in the social domain, and the importance of dose, route and study design.",
+      },
+      {
+        title: "Wound Healing & Tissue Effects",
+        body: "Beyond the brain, oxytocin has documented peripheral actions relevant to tissue repair. Oxytocin and its receptor are expressed in skin, where stimulation promotes keratinocyte proliferation and migration, modulates the inflammatory response and supports re-epithelialisation. Research also implicates oxytocin in bone metabolism, glucose handling and cardiovascular function via OXTR expressed in endothelial and cardiac tissue, broadening its interest beyond neurobiology into regenerative and metabolic research.",
+      },
+      {
+        title: "Dosing & Administration (Research Use)",
+        body: "All information below refers to laboratory research protocols only. Oxytocin is not approved for human use by the MHRA, FDA or EMA for these research applications and must be handled only in regulated laboratory settings. In peptide research, oxytocin is most commonly delivered intranasally to access the brain, at doses ranging from 10-40 IU, or administered as a lyophilised powder reconstituted with bacteriostatic water for systemic research at approximately 100-500 µg/day. The peptide is extremely short-lived in plasma (~5 minutes), so the intranasal route is preferred for central studies. Store lyophilised oxytocin at 2-8\u00b0C and always verify the Certificate of Analysis for purity and endotoxin before use. [**Check current Oxytocin prices from UK suppliers \u2192**](/compounds/oxytocin)"
+      },
+      {
+        title: "Safety & Considerations",
+        body: "Oxytocin is exceptionally well characterised in human medicine as an approved obstetrical drug for labour induction and postpartum haemorrhage, which gives it an extensive clinical safety record unavailable to most research peptides. However, at high doses it can cause uterine contractions, hypotension and antidiuretic effects, so laboratory protocols must respect systemic exposure risks. When used for behavioural research, adverse effects reported in clinical trials are generally mild and transient. As with all research peptides, use only analytically verified, GMP-grade material, obtain institutional ethics and biosafety approval, and never administer outside regulated research settings. Oxytocin is strictly for laboratory research purposes and is not for human consumption."
+      }
+    ],
+    faq: [
+      {
+        question: "What is oxytocin and where does it come from?",
+        answer: "Oxytocin is a nine-amino-acid cyclic nonapeptide produced in the hypothalamus and released by the posterior pituitary gland. It acts both as a peripheral reproductive hormone (uterine contraction, milk ejection) and as a central neuromodulator of social bonding, trust, anxiety and stress regulation."
+      },
+      {
+        question: "How does oxytocin work?",
+        answer: "Oxytocin binds the oxytocin receptor (OXTR), a G-protein-coupled receptor widespread in the brain and periphery. Activation couples through Gq to phospholipase C, raising intracellular calcium and triggering MAPK/ERK signalling, which in turn modulates GABAergic and dopaminergic transmission in limbic circuits underlying social and emotional behaviour."
+      },
+      {
+        question: "Does oxytocin make people more trusting?",
+        answer: "Intranasal oxytocin administration has been associated with increased trust in economic decision-making games and enhanced emotion recognition in healthy volunteers. Effects are real but modest and context-dependent, and replication across studies is variable — an active area of ongoing research."
+      },
+      {
+        question: "What are the common oxytocin routes and doses used in research?",
+        answer: "For central/behavioural research, intranasal delivery at roughly 10-40 IU is most common to provide CNS access. For systemic research, lyophilised oxytocin is reconstituted with bacteriostatic water and studied at approximately 100-500 µg/day. These are laboratory protocol figures, not human guidance."
+      },
+      {
+        question: "Can I buy oxytocin in the UK?",
+        answer: "Oxytocin is supplied by UK research-peptide vendors for laboratory investigation only. It is listed on [ViralPeps](/compounds/oxytocin) with supplier prices from 16 UK vendors, but all products are research-use-only and not for human consumption. Always verify purity and certificate of analysis with the supplier."
+      }
+    ],
+    references: [
+      "Lee HJ, Macbeth AH, Pagani JH, Young WS 3rd. Oxytocin: the great facilitator of life. Prog Neurobiol. 2009;88(2):127-151.",
+      "Gimpl G, Fahrenholz F. The oxytocin receptor system: structure, function, and regulation. Physiol Rev. 2001;81(2):629-683.",
+      "Kosfeld M, Heinrichs M, Zak PJ, Fischbacher U, Fehr E. Oxytocin increases trust in humans. Nature. 2005;435(7042):673-676.",
+      "Ross HE, Young LJ. Oxytocin and the neural mechanisms regulating social cognition and affiliative behavior. Front Neuroendocrinol. 2009;30(4):534-547.",
+      "Neumann ID. Oxytocin, stress and social behavior. Prog Brain Res. 2008;170:331-336.",
+      "Guastella AJ, Einfeld SL, Gray KM, et al. Intranasal oxytocin improves emotion recognition for youth with autism spectrum disorders. J Child Psychol Psychiatry. 2010;51(6):944-952."
+    ]
+  },
+
 };
 export default content;

@@ -916,6 +916,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['cjc-1295', 'dac', 'ghrh', 'growth-hormone', 'mod-grf', 'gh', 'igf-1'],
 },
+{
+    title: 'Oxytocin Research Summary',
+    desc: 'Overview of Oxytocin, the nine-amino-acid cyclic neuropeptide of the hypothalamus and posterior pituitary, studied for social bonding, pair bonding, trust modulation, anxiety and stress regulation, and wound healing across 16 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'Oxytocin',
+    slug: 'oxytocin-research-summary',
+    image: 'oxytocin-research-summary',
+    minutes: 9,
+    tags: ['oxytocin', 'neuropeptide', 'social-bonding', 'oxytocin-receptor', 'cns', 'stress', 'anxiety'],
+},
 
 ];
 
