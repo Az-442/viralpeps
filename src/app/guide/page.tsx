@@ -82,6 +82,56 @@ export default function GuidePage() {
         </div>
       </section>
 
+      {/* INTRO COPY — keyword-rich page introduction */}
+      <section className="bg-blue-50 border-t border-blue-200">
+        <div className="max-w-[76rem] mx-auto px-4 py-12 md:py-16">
+          <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
+              <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              BEGINNER'S GUIDE
+            </div>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              The Beginner's Guide to Research Peptides in the UK
+            </h1>
+            <p className="text-base text-gray-700 leading-relaxed mb-4">
+              New to research peptides? This guide walks you through the essentials — what peptides
+              are, how the UK market works, how to read a certificate of analysis, and how to
+              reconstitute and handle compounds correctly. Whether you are researching{" "}
+              <Link href="/compounds/bpc-157" className="font-semibold text-blue-600 hover:text-blue-700">BPC-157</Link>,{" "}
+              <Link href="/compounds/semaglutide" className="font-semibold text-blue-600 hover:text-blue-700">Semaglutide</Link>{" "}
+              or any other compound, start here.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Learn the Fundamentals</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              Short chains of amino acids, practical definitions, and the research context behind
+              popular compounds — explained without jargon so you can build a solid foundation
+              before buying anything.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Source Safely &amp; Compare Prices</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              Quality varies between suppliers. Learn to spot credible vendors, understand COAs and
+              pricing, then use our{" "}
+              <Link href="/compounds" className="font-semibold text-blue-600 hover:text-blue-700">UK price comparison</Link>{" "}
+              to find the best deal per milligram.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Practical Steps, Clear Terms</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              Everything here is for educational and in-vitro research use only. Pair the guide with
+              our{" "}
+              <Link href="/tools" className="font-semibold text-blue-600 hover:text-blue-700">dosage calculator</Link>{" "}
+              and{" "}
+              <Link href="/tools/cycle-calculator" className="font-semibold text-blue-600 hover:text-blue-700">cycle calculator</Link>{" "}
+              when you are ready to plan your research.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* What you'll learn */}
       <div className="max-w-[76rem] mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">

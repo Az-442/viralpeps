@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import ToolsCardGrid from "@/components/ToolsCardGrid";
 
 const questions = [
@@ -71,6 +72,54 @@ export default function QuickSolvePage() {
             <p className="text-xs text-amber-200/80">
               All content is for educational and research reference purposes only. It does not constitute medical advice, diagnosis, or treatment recommendations. All peptides are for in-vitro research use only.
             </p>
+          </div>
+        </div>
+
+        {/* INTRO COPY — keyword-rich page introduction */}
+        <div className="py-12 md:py-16 px-4">
+          <div className="max-w-[76rem] mx-auto">
+            <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
+              <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
+                <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                </svg>
+                PEPTIDE TOOLS &amp; CALCULATORS
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                Free Peptide Calculators for UK Researchers
+              </h1>
+              <p className="text-base text-gray-700 leading-relaxed mb-4">
+                Reconstitution, dosing and cycle planning made easy. Our free tools take the maths
+                out of peptide research — tell us your vial strength, water and target dose, and
+                we'll work out the syringe units, concentration and cost for you. Use them alongside
+                our{" "}
+                <Link href="/compounds" className="font-semibold text-blue-600 hover:text-blue-700">UK price comparison</Link>{" "}
+                to plan effective, value-for-money research.
+              </p>
+
+              <h3 className="text-base font-bold text-gray-900 mb-1">Reconstitution &amp; Dosing, Solved</h3>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+                Stop second-guessing your measurements. Enter your peptide in mg, the BAC water you
+                added, and your target dose — instantly see exactly how many units to draw on a
+                standard insulin syringe.
+              </p>
+
+              <h3 className="text-base font-bold text-gray-900 mb-1">Plan a Full Cycle</h3>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+                Map out a research cycle with our cycle calculator and find the cheapest supplier
+                combination for the entire duration — so your costs are clear before you order.
+              </p>
+
+              <h3 className="text-base font-bold text-gray-900 mb-1">Free &amp; For Research Use Only</h3>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                Every tool is free to use and designed for educational and in-vitro research
+                purposes only. Still unsure? Check our{" "}
+                <Link href="/guide" className="font-semibold text-blue-600 hover:text-blue-700">beginner's guide</Link>{" "}
+                or browse the{" "}
+                <Link href="/research" className="font-semibold text-blue-600 hover:text-blue-700">research library</Link>{" "}
+                for more detail.
+              </p>
+            </div>
           </div>
         </div>
 

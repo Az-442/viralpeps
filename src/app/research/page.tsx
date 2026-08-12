@@ -86,6 +86,56 @@ export default function ResearchPage() {
         </div>
       </section>
 
+      {/* INTRO COPY — keyword-rich page introduction */}
+      <section className="bg-blue-50 border-t border-blue-200">
+        <div className="max-w-[76rem] mx-auto px-4 py-12 md:py-16">
+          <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
+              <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              RESEARCH &amp; GUIDES LIBRARY
+            </div>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Research Peptide Guides &amp; Articles: UK Reference Library
+            </h1>
+            <p className="text-base text-gray-700 leading-relaxed mb-4">
+              Understanding research peptides in the UK starts with the right information. Our
+              research library brings together easy-to-read guides, study summaries and practical
+              articles — covering topics from{" "}
+              <Link href="/research/sc-bpc-157" className="font-semibold text-blue-600 hover:text-blue-700">BPC-157</Link>,{" "}
+              <Link href="/research/sc-semaglutide" className="font-semibold text-blue-600 hover:text-blue-700">Semaglutide</Link>{" "}
+              and{" "}
+              <Link href="/research/sc-tirzepatide" className="font-semibold text-blue-600 hover:text-blue-700">Tirzepatide</Link>{" "}
+              to everyday questions around reconstitution, dosing and sourcing.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Clear, Reference-Backed Articles</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              Every article distils the science into plain English, so you can quickly grasp how a
+              compound works, what researchers typically evaluate, and the protocols you are most
+              likely to come across — without wading through dense papers.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Practical Guides for UK Researchers</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              From our beginner's guide to reconstitution and syringe reference, we cover the
+              practical side of research. Use these guides alongside our{" "}
+              <Link href="/compounds" className="font-semibold text-blue-600 hover:text-blue-700">peptide price comparison</Link>{" "}
+              tool to compare suppliers and find the best value on every compound.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Trusted UK Research Directory</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              New articles are added regularly, all written for educational reference only. Combine
+              the library with our{" "}
+              <Link href="/tools" className="font-semibold text-blue-600 hover:text-blue-700">research calculators</Link>{" "}
+              to plan, calculate and compare in one place.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Disclaimer strip */}
       <div className="bg-amber-50 border-b border-amber-100">
         <div className="max-w-[76rem] mx-auto px-4 py-2.5 text-center">

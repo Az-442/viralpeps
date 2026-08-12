@@ -88,6 +88,52 @@ export default function FAQPage() {
         </div>
       </section>
 
+      {/* INTRO COPY — keyword-rich page introduction */}
+      <section className="bg-blue-50 border-t border-blue-200">
+        <div className="max-w-[76rem] mx-auto px-4 py-12 md:py-16">
+          <div className="bg-white border border-black rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-0.5 mb-5">
+              <svg className="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              FAQ
+            </div>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Research Peptide Questions, Answered
+            </h1>
+            <p className="text-base text-gray-700 leading-relaxed mb-4">
+              Everything you need to know about ViralPeps, UK peptide pricing and sourcing — in one
+              place. From how our{" "}
+              <Link href="/compounds" className="font-semibold text-blue-600 hover:text-blue-700">price comparison</Link>{" "}
+              works to supplier standards, legality and lab testing, find clear answers to the
+              questions UK researchers ask most.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">How ViralPeps Works</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              We are a UK-based comparison platform, not a seller. We track live prices from{" "}
+              <Link href="/vendors" className="font-semibold text-blue-600 hover:text-blue-700">verified UK suppliers</Link>{" "}
+              daily so you can compare deals side by side without visiting a dozen stores.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Sourcing &amp; Legality in the UK</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+              Research peptides are sold in the UK for in-vitro research use only. Learn about
+              supplier standards, certificates of analysis and what to look for before you order.
+            </p>
+
+            <h3 className="text-base font-bold text-gray-900 mb-1">Still Have Questions?</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              If you can't find your answer here, explore our{" "}
+              <Link href="/guide" className="font-semibold text-blue-600 hover:text-blue-700">beginner's guide</Link>{" "}
+              or browse the{" "}
+              <Link href="/research" className="font-semibold text-blue-600 hover:text-blue-700">research library</Link>{" "}
+              for more detail. All content is educational reference only.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ ACCORDION */}
       <div className="max-w-[76rem] mx-auto px-4 py-12 md:py-16">
         <div className="space-y-3">
