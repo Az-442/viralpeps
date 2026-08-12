@@ -66,52 +66,78 @@ export default function HeaderNav({ current }: { current?: string }) {
               </Link>
             ))}
 
-            <div className="relative group">
-              <button className={navLinkClass("") + " inline-flex items-center gap-1"}>
+            <div
+              className="relative"
+              onMouseEnter={() => setResearchOpen(true)}
+              onMouseLeave={() => setResearchOpen(false)}
+            >
+              <button
+                type="button"
+                onClick={() => setResearchOpen((o) => !o)}
+                aria-expanded={researchOpen}
+                aria-haspopup="true"
+                className={navLinkClass("") + " inline-flex items-center gap-1"}
+              >
                 Research
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M6 9l6 6 6-6" />
                 </svg>
               </button>
-              <div className="absolute top-full left-0 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
-                <div className="pt-2">
-                  <div className="bg-white border border-black rounded-xl shadow-lg py-2">
-                  {researchLinks.map((rl) => (
-                    <Link
-                      key={rl.href}
-                      href={rl.href}
-                      className={"block px-4 py-2 text-sm transition-colors" + (current === rl.href ? " text-blue-600 bg-blue-50 font-medium" : " text-gray-700 hover:bg-blue-50 hover:text-blue-600")}
-                    >
-                      {rl.label}
-                    </Link>
-                  ))}
+              {researchOpen && (
+                <div className="absolute top-full left-0 w-48 z-50">
+                  <div className="pt-2">
+                    <div className="bg-white border border-black rounded-xl shadow-lg py-2">
+                    {researchLinks.map((rl) => (
+                      <Link
+                        key={rl.href}
+                        href={rl.href}
+                        onClick={() => setResearchOpen(false)}
+                        className={"block px-4 py-2 text-sm transition-colors" + (current === rl.href ? " text-blue-600 bg-blue-50 font-medium" : " text-gray-700 hover:bg-blue-50 hover:text-blue-600")}
+                      >
+                        {rl.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
-              </div>
-              </div>
+                </div>
+              )}
             </div>
 
-            <div className="relative group">
-              <button className={navLinkClass("/tools") + " inline-flex items-center gap-1"}>
+            <div
+              className="relative"
+              onMouseEnter={() => setToolsOpen(true)}
+              onMouseLeave={() => setToolsOpen(false)}
+            >
+              <button
+                type="button"
+                onClick={() => setToolsOpen((o) => !o)}
+                aria-expanded={toolsOpen}
+                aria-haspopup="true"
+                className={navLinkClass("/tools") + " inline-flex items-center gap-1"}
+              >
                 Tools
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M6 9l6 6 6-6" />
                 </svg>
               </button>
-              <div className="absolute right-0 top-full w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
-                <div className="pt-2">
-                  <div className="bg-white border border-black rounded-xl shadow-lg py-2">
-                  {toolLinks.map((tl) => (
-                    <Link
-                      key={tl.href}
-                      href={tl.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                    >
-                      {tl.label}
-                    </Link>
-                  ))}
+              {toolsOpen && (
+                <div className="absolute right-0 top-full w-56 z-50">
+                  <div className="pt-2">
+                    <div className="bg-white border border-black rounded-xl shadow-lg py-2">
+                    {toolLinks.map((tl) => (
+                      <Link
+                        key={tl.href}
+                        href={tl.href}
+                        onClick={() => setToolsOpen(false)}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                      >
+                        {tl.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
+              )}
             </div>
 
             {rightLinks.map((l) => (
