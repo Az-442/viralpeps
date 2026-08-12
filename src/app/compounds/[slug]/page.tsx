@@ -24,6 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     semaglutide: "Semaglutide UK: Compare Prices & Buy Semaglutide Peptide (Ozempic Analogue)",
     tirzepatide: "Tirzepatide UK: Compare Prices & Buy Tirzepatide Peptide (Mounjaro Analogue)",
     "bpc-157": "BPC-157 UK: Compare Prices & Buy BPC-157 Peptide (Tissue Repair)",
+    retatrutide: "Retatrutide UK: Compare Prices & Buy Retatrutide Peptide (GLP-1/GIP/Glucagon Triple Agonist)",
+    "tb-500": "TB-500 UK: Compare Prices & Buy TB-500 Peptide (Thymosin Beta-4 Fragment)",
+    "melanotan-ii": "Melanotan II UK: Compare Prices & Buy Melanotan 2 Peptide (Tanning Research)",
+    "cjc-1295": "CJC-1295 UK: Compare Prices & Buy CJC-1295 Peptide (GHRH Analogue with DAC)",
+    ipamorelin: "Ipamorelin UK: Compare Prices & Buy Ipamorelin Peptide (GH Secretagogue)",
+    "ghk-cu": "GHK-Cu UK: Compare Prices & Buy GHK-Cu Peptide (Copper Tripeptide for Skin & Repair)",
   };
   const title = seoTitles[slug] || `${compound.name} | UK Prices`;
 

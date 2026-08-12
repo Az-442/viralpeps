@@ -1883,11 +1883,11 @@
     "faq": [
       {
         "question": "What is TB-500 used for in research?",
-        "answer": "TB-500 is primarily investigated for wound healing, cardiac repair after myocardial infarction, anti-inflammatory applications, tendon and ligament regeneration, and hair growth research. Its fundamental role in actin binding and cell migration makes it relevant to virtually all tissue repair processes."
+        "answer": "TB-500 is primarily investigated for wound healing, cardiac repair after myocardial infarction, anti-inflammatory applications, tendon and ligament regeneration, and hair growth research. Its fundamental role in actin binding and cell migration makes it relevant to virtually all tissue repair processes. See our <a href=\"/research/tb500-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">TB-500 research summary</a>."
       },
       {
         "question": "How does TB-500 work at the molecular level?",
-        "answer": "TB-500 works primarily as an actin-sequestering protein, binding to G-actin and regulating cytoskeletal dynamics essential for cell migration. It also upregulates VEGF and FGF for angiogenesis, modulates cytokine production to reduce inflammation, and promotes cell survival through Akt signalling."
+        "answer": "TB-500 works primarily as an actin-sequestering protein, binding to G-actin and regulating cytoskeletal dynamics essential for cell migration. It also upregulates VEGF and FGF for angiogenesis, modulates cytokine production to reduce inflammation, and promotes cell survival through Akt signalling. See our <a href=\"/research/tb500-vs-bpc157\" class=\"text-blue-600 underline hover:text-blue-700\">TB-500 vs BPC-157 comparison</a>."
       },
       {
         "question": "Can I buy TB-500 in the UK?",
@@ -1895,7 +1895,7 @@
       },
       {
         "question": "What is the TB-500 dosage protocol in research?",
-        "answer": "Typical research protocols use 2.5–5 mg per week, sometimes with an initial loading dose of 10 mg. Due to its 4–6 hour half-life but persistent biological effects, once or twice weekly dosing is common."
+        "answer": "Typical research protocols use 2.5–5 mg per week, sometimes with an initial loading dose of 10 mg. Due to its 4–6 hour half-life but persistent biological effects, once or twice weekly dosing is common. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for general principles."
       }
     ]
   },
@@ -2211,11 +2211,11 @@
     "faq": [
       {
         "question": "What is Melanotan II used for?",
-        "answer": "Melanotan II is primarily researched for UV-independent skin tanning (melanogenesis), sexual dysfunction (erectile function and libido), appetite regulation, and erythropoietic protoporphyria (EPP). It is a synthetic analogue of α-MSH that activates melanocortin receptors."
+        "answer": "Melanotan II is primarily researched for UV-independent skin tanning (melanogenesis), sexual dysfunction (erectile function and libido), appetite regulation, and erythropoietic protoporphyria (EPP). It is a synthetic analogue of α-MSH that activates melanocortin receptors. See our <a href=\"/research/melanotan-ii-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Melanotan II research summary</a>."
       },
       {
         "question": "How does Melanotan II induce tanning?",
-        "answer": "MT-II activates MC1R receptors on melanocytes, stimulating cAMP signalling and upregulating tyrosinase, the key enzyme in melanin production. This drives eumelanin synthesis independently of UV exposure, producing a sunless tan that develops over 10–14 days."
+        "answer": "MT-II activates MC1R receptors on melanocytes, stimulating cAMP signalling and upregulating tyrosinase, the key enzyme in melanin production. This drives eumelanin synthesis independently of UV exposure, producing a sunless tan that develops over 10–14 days. See our <a href=\"/research/melanotan2-deep-dive\" class=\"text-blue-600 underline hover:text-blue-700\">Melanotan II deep dive</a>."
       },
       {
         "question": "Where can I buy Melanotan II in the UK?",
@@ -2223,7 +2223,7 @@
       },
       {
         "question": "What is the half-life of Melanotan II?",
-        "answer": "Melanotan II has a short plasma half-life of approximately 30–60 minutes. However, its biological effects — particularly skin pigmentation — can persist for days because the melanogenic cascade triggered by MC1R activation produces sustained tyrosinase activity."
+        "answer": "Melanotan II has a short plasma half-life of approximately 30–60 minutes. However, its biological effects — particularly skin pigmentation — can persist for days because the melanogenic cascade triggered by MC1R activation produces sustained tyrosinase activity. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for general principles."
       }
     ]
   },
@@ -3355,11 +3355,11 @@
     "faq": [
       {
         "question": "What is Retatrutide and how does it work?",
-        "answer": "Retatrutide is a novel triple agonist targeting GIP, GLP-1, and glucagon receptors simultaneously. The triple mechanism combines the insulinotropic and satiety effects of GIP/GLP-1 agonism with the energy expenditure-enhancing effects of glucagon agonism, producing unprecedented weight loss in clinical trials."
+        "answer": "Retatrutide is a novel triple agonist targeting GIP, GLP-1, and glucagon receptors simultaneously. The triple mechanism combines the insulinotropic and satiety effects of GIP/GLP-1 agonism with the energy expenditure-enhancing effects of glucagon agonism, producing unprecedented weight loss in clinical trials. See our <a href=\"/research/retatrutide-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Retatrutide research summary</a>."
       },
       {
         "question": "How effective is Retatrutide for weight loss?",
-        "answer": "In phase 2 clinical trials, retatrutide at 12 mg/week produced mean weight reductions of 24.2% over 48 weeks — the highest weight loss ever reported for a pharmacological intervention in obesity. Approximately 50% of patients lost ≥25% of their body weight, approaching bariatric surgery-level results."
+        "answer": "In phase 2 clinical trials, retatrutide at 12 mg/week produced mean weight reductions of 24.2% over 48 weeks — the highest weight loss ever reported for a pharmacological intervention in obesity. Approximately 50% of patients lost ≥25% of their body weight, approaching bariatric surgery-level results. See our <a href=\"/research/retatrutide-deep-dive\" class=\"text-blue-600 underline hover:text-blue-700\">full Retatrutide deep dive</a>."
       },
       {
         "question": "Can I buy Retatrutide in the UK for research?",
@@ -3367,11 +3367,11 @@
       },
       {
         "question": "How does Retatrutide differ from Tirzepatide?",
-        "answer": "Tirzepatide is a dual GIP/GLP-1 agonist, while retatrutide adds glucagon receptor agonism for a triple mechanism. The glucagon component increases energy expenditure through hepatic fat oxidation and thermogenesis, likely explaining retatrutide's superior weight loss efficacy."
+        "answer": "Tirzepatide is a dual GIP/GLP-1 agonist, while retatrutide adds glucagon receptor agonism for a triple mechanism. The glucagon component increases energy expenditure through hepatic fat oxidation and thermogenesis, likely explaining retatrutide's superior weight loss efficacy. See our <a href=\"/research/retatrutide-vs-tirzepatide\" class=\"text-blue-600 underline hover:text-blue-700\">Retatrutide vs Tirzepatide comparison</a>."
       },
       {
         "question": "What is the half-life of Retatrutide?",
-        "answer": "Retatrutide has a half-life of approximately 6 days, supporting once-weekly subcutaneous administration. Dose escalation from 1 mg to 12 mg weekly was used in clinical studies to assess tolerability."
+        "answer": "Retatrutide has a half-life of approximately 6 days, supporting once-weekly subcutaneous administration. Dose escalation from 1 mg to 12 mg weekly was used in clinical studies to assess tolerability. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for general dosing principles."
       }
     ]
   },
@@ -3716,11 +3716,11 @@
     "faq": [
       {
         "question": "What is CJC-1295 used for?",
-        "answer": "CJC-1295 is researched for growth hormone stimulation, anti-aging applications, muscle growth, bone density improvement, and recovery enhancement. Its extended half-life distinguishes it from shorter-acting GHRH analogues."
+        "answer": "CJC-1295 is researched for growth hormone stimulation, anti-aging applications, muscle growth, bone density improvement, and recovery enhancement. Its extended half-life distinguishes it from shorter-acting GHRH analogues. See our <a href=\"/research/cjc1295-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">CJC-1295 research summary</a>."
       },
       {
         "question": "How is CJC-1295 different from Sermorelin?",
-        "answer": "CJC-1295 incorporates DAC (Drug Affinity Complex) technology that binds to albumin, extending its half-life to 6–8 days compared to sermorelin's 12–20 minutes. This means CJC-1295 can be dosed once or twice weekly, while sermorelin requires twice-daily injection."
+        "answer": "CJC-1295 incorporates DAC (Drug Affinity Complex) technology that binds to albumin, extending its half-life to 6–8 days compared to sermorelin's 12–20 minutes. This means CJC-1295 can be dosed once or twice weekly, while sermorelin requires twice-daily injection. See our <a href=\"/research/cjc1295-vs-ipamorelin\" class=\"text-blue-600 underline hover:text-blue-700\">CJC-1295 vs Ipamorelin comparison</a>."
       },
       {
         "question": "Where can I buy CJC-1295 in the UK?",
@@ -3728,7 +3728,7 @@
       },
       {
         "question": "How does the DAC modification work?",
-        "answer": "The DAC (Drug Affinity Complex) modification is a maleimidopropionic acid group that covalently binds to cysteine-34 on circulating albumin. This creates a long-lasting reservoir of peptide in the bloodstream that slowly releases active CJC-1295, extending its half-life from minutes to approximately 6–8 days."
+        "answer": "The DAC (Drug Affinity Complex) modification is a maleimidopropionic acid group that covalently binds to cysteine-34 on circulating albumin. This creates a long-lasting reservoir of peptide in the bloodstream that slowly releases active CJC-1295, extending its half-life from minutes to approximately 6–8 days. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for general principles."
       }
     ]
   },
@@ -6770,11 +6770,11 @@
     "faq": [
       {
         "question": "What is GHK-Cu used for?",
-        "answer": "GHK-Cu is researched for wound healing, skin regeneration, hair growth, anti-aging, anti-inflammatory, and antioxidant applications. As a naturally occurring copper tripeptide, it activates multiple regenerative pathways through copper delivery to cells."
+        "answer": "GHK-Cu is researched for wound healing, skin regeneration, hair growth, anti-aging, anti-inflammatory, and antioxidant applications. As a naturally occurring copper tripeptide, it activates multiple regenerative pathways through copper delivery to cells. See our <a href=\"/research/ghkcu-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">GHK-Cu research summary</a>."
       },
       {
         "question": "How does GHK-Cu promote collagen synthesis?",
-        "answer": "GHK-Cu delivers copper ions to fibroblasts, where copper acts as a cofactor for lysyl oxidase — the enzyme responsible for collagen cross-linking and maturation. It also upregulates collagen gene expression and stimulates glycosaminoglycan synthesis."
+        "answer": "GHK-Cu delivers copper ions to fibroblasts, where copper acts as a cofactor for lysyl oxidase — the enzyme responsible for collagen cross-linking and maturation. It also upregulates collagen gene expression and stimulates glycosaminoglycan synthesis. See our <a href=\"/research/ghkcu-deep-dive\" class=\"text-blue-600 underline hover:text-blue-700\">GHK-Cu deep dive</a>."
       },
       {
         "question": "Is GHK-Cu available in the UK for research?",
@@ -6782,7 +6782,7 @@
       },
       {
         "question": "What is the dosage for GHK-Cu research?",
-        "answer": "Systemic research dosages range from 1–5 mg per day, while topical applications use 1–2 mg/mL. Due to its short half-life (~20 minutes), daily or twice-daily administration is common for systemic protocols."
+        "answer": "Systemic research dosages range from 1–5 mg per day, while topical applications use 1–2 mg/mL. Due to its short half-life (~20 minutes), daily or twice-daily administration is common for systemic protocols. See our <a href=\"/research/ghkcu-vs-bpc157\" class=\"text-blue-600 underline hover:text-blue-700\">GHK-Cu vs BPC-157</a> and See our <a href=\"/research/ghkcu-vs-retinol\" class=\"text-blue-600 underline hover:text-blue-700\">GHK-Cu vs Retinol</a>."
       },
       {
         "question": "Why does GHK-Cu decline with age?",
@@ -9826,7 +9826,25 @@
         "image": "/images/products/peptidesx/ipamorelin.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is Ipamorelin used for in research?",
+        "answer": "Ipamorelin is a selective pentapeptide growth hormone secretagogue used to stimulate natural GH and IGF-1 production from the pituitary. It is researched for body composition, recovery, sleep quality, and as a cleaner alternative to other GHRP compounds with minimal appetite and cortisol disruption. See our <a href=\"/research/ipamorelin-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Ipamorelin research summary</a>."
+      },
+      {
+        "question": "How does Ipamorelin differ from other GH secretagogues?",
+        "answer": "Unlike GHRP-6 or GHRP-2, Ipamorelin produces minimal appetite stimulation and very little cortisol or prolactin elevation, giving it a cleaner research profile. It binds selectively to the ghrelin receptor (GHSR-1a) and is commonly stacked with a GHRH analogue such as CJC-1295 for a synergistic GH pulse. See our <a href=\"/research/cjc1295-vs-ipamorelin\" class=\"text-blue-600 underline hover:text-blue-700\">CJC-1295 vs Ipamorelin comparison</a>."
+      },
+      {
+        "question": "Can I buy Ipamorelin in the UK for research?",
+        "answer": "Yes, Ipamorelin is available from UK-based research suppliers including United Peptides and UK Peptides. When you buy Ipamorelin UK, choose verified vendors that provide independent purity analysis and clearly label product for research purposes only."
+      },
+      {
+        "question": "What is the typical Ipamorelin dosing protocol?",
+        "answer": "Common research protocols use 200-300 mcg daily, taken on an empty stomach to avoid blunting the GH pulse, ideally in the morning and pre-bed. It is administered by subcutaneous injection with site rotation. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      }
+    ]
   },
   {
     "id": "ghrp-6",
