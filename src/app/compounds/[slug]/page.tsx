@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
 import CompoundPageClient from "./CompoundPageClient";
 import { guides, ResearchArticle } from "@/data/research";
+import { JsonLd, compoundProduct } from "@/components/JsonLd";
 
 export const dynamic = "force-dynamic";
 
@@ -169,9 +170,13 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     return ma - mb;
   });
 
+  // Build Product + AggregateOffer schema (only if ≥1 real, valid vendor price)
+  const productSchema = compoundProduct(compound as any);
+
   return (
     <div className="min-h-screen bg-white">
       <HeaderNav />
+      {productSchema && <JsonLd data={productSchema} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       
       {/* BreadcrumbList schema */}

@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
 import VendorLogo from "@/components/VendorLogo";
 import { getVendorStats } from "@/data/vendor-stats";
+import { JsonLd, vendorOrganization } from "@/components/JsonLd";
 
 export const dynamic = "force-dynamic";
 
@@ -153,6 +154,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
           { "@type": "ListItem", position: 3, name: vendor.name, item: `https://www.viralpeps.co.uk/vendors/${vendor.slug}` },
         ],
       })}} />
+
+      {/* Vendor Organization (AggregateRating omitted — no real reviewCount in data) */}
+      <JsonLd data={vendorOrganization({ name: vendor.name, slug: vendor.slug, website: vendor.website, description: vendor.description })} />
 
       {/* HERO SECTION */}
       <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e]">

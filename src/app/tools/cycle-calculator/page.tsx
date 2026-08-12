@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import ToolsCardGrid from "@/components/ToolsCardGrid";
+import { JsonLd, softwareApplication } from "@/components/JsonLd";
 
 const frequencies = [
   { label: "Daily", mult: 7 },
@@ -26,6 +27,11 @@ export default function CycleCalculatorPage() {
 
   return (
     <>
+      <JsonLd data={softwareApplication({
+        name: "Peptide Cycle Calculator",
+        url: "/tools/cycle-calculator",
+        description: "Free peptide cycle calculator — plan a research cycle, total peptide quantity needed and estimate supplier costs for UK research use.",
+      })} />
       <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628]">
         <ToolsCardGrid title="Peptide Cycle Calculator" subtitle="Plan a research cycle and calculate total peptide needed." />
 

@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import VendorLogo from "@/components/VendorLogo";
 import { PEPTIDE_COUNT } from "@/data/stats";
 import { ALL_VENDOR_STATS, ALL_VISIBLE_COUNTS } from "@/data/vendor-stats";
+import { JsonLd, itemList } from "@/components/JsonLd";
 
 function CheckIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -203,6 +204,16 @@ export default function VendorsPage() {
       </section>
 
       <div className="max-w-[76rem] mx-auto px-4 pt-6 relative z-10">
+        {/* ItemList JSON-LD — vendors in the exact visible order */}
+        <JsonLd
+          data={itemList(
+            sorted.map((v) => ({
+              name: v.name,
+              url: `/vendors/${v.slug}`,
+            }))
+          )}
+        />
+
         {/* SUPPLIER DIRECTORY GRID */}
         <div>
           <div className="flex items-center gap-2 mb-1">

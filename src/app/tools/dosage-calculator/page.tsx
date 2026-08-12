@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import ToolsCardGrid from "@/components/ToolsCardGrid";
+import { JsonLd, softwareApplication } from "@/components/JsonLd";
 
 const doses = [100, 250, 500, 1000, 2000, 2500, 5000, 7500, 10000, 12500, 15000];
 const strengths = [1, 5, 10, 15, 20, 50];
@@ -20,6 +21,11 @@ export default function DosageCalculatorPage() {
 
   return (
     <>
+      <JsonLd data={softwareApplication({
+        name: "Peptide Dosage Calculator",
+        url: "/tools/dosage-calculator",
+        description: "Free peptide reconstitution and dosage calculator — converts vial strength, BAC water and target dose into syringe units for UK research use.",
+      })} />
       <div className="bg-gradient-to-br from-[#0a1628] via-[#0f1f3d] to-[#0a1628]">
         <ToolsCardGrid title="Peptide Dosage Calculator" subtitle="Calculate reconstitution volumes and syringe units in seconds." />
 

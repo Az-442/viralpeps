@@ -8,6 +8,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import { PEPTIDE_COUNT, SUPPLIER_COUNT, TOTAL_PRODUCTS } from "@/data/stats";
 import { HOMEPAGE_CATEGORY_GROUPS, CATEGORY_LABELS } from "@/data/categories";
+import { JsonLd, itemList } from "@/components/JsonLd";
 
 // ── Helpers ──
 function calcMinPrice(sources: { price: string }[]): number {
@@ -473,6 +474,16 @@ export default function CompoundsPage() {
                 : `${allCompounds.length} compounds`}
             </p>
           </div>
+
+          {/* ItemList JSON-LD — compounds in the exact visible order */}
+          <JsonLd
+            data={itemList(
+              sorted.map((c) => ({
+                name: c.name,
+                url: `/compounds/${c.slug}`,
+              }))
+            )}
+          />
 
           {/* Cards grid — 3 columns */}
           {sorted.length === 0 ? (
