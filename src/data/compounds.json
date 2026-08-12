@@ -23596,51 +23596,6 @@
     "mechanism": ""
   },
   {
-    "id": "mt-1-melanotan-1-acetate-10mg",
-    "name": "MT-1 (Melanotan 1) 10mg",
-    "slug": "mt-1-melanotan-1-acetate-10mg",
-    "compareSlug": "mt-1",
-    "category": "tanning-libido",
-    "description": "MT-1 (Melanotan 1) 10mg for research.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/mt-1-melanotan-1-acetate-10mg/",
-        "price": "£45.00",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/mt-1-melanotan-1-acetate-10mg.webp"
-      },
-      {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/melanotan-1-10mg/",
-        "price": "£19.99",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/mt-1-melanotan-1-acetate-10mg.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Chroma Peptides",
-        "url": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
-        "price": "£18.99",
-        "inStock": true,
-        "image": "/images/products/chroma-peptides/mt-1-melanotan-1-acetate-10mg.webp",
-        "dosage": "10mg"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
     "id": "hcg-human-chorionic-gonadotropin",
     "name": "HCG (Human Chorionic Gonadotropin) 5000iu",
     "slug": "hcg-human-chorionic-gonadotropin",
@@ -26625,20 +26580,6 @@
     ]
   },
   {
-    "id": "sterling-melanotan-ii-10mg-redirect",
-    "name": "Melanotan II 10mg",
-    "slug": "sterling-melanotan-ii-10mg",
-    "redirect": "melanotan-ii",
-    "sources": []
-  },
-  {
-    "id": "mt-2-melanotan-2-acetate-10mg-redirect",
-    "name": "MT-2 (Melanotan 2) 10mg",
-    "slug": "mt-2-melanotan-2-acetate-10mg",
-    "redirect": "melanotan-ii",
-    "sources": []
-  },
-  {
     "id": "glp-3",
     "name": "GLP-3 (RT)",
     "slug": "glp-3",
@@ -27045,7 +26986,7 @@
     "name": "Melanotan I",
     "slug": "melanotan-i",
     "category": "peptides",
-    "description": "Melanotan I - research peptide supplied by UK Peptide Lab. For laboratory research use only.",
+    "description": "Melanotan I (MT-1) is a synthetic analogue of alpha-melanocyte-stimulating hormone researched for UV-independent pigmentation. Price comparison across verified UK suppliers.",
     "mechanism": "Research peptide. Mechanism details available from published literature.",
     "purity": "≥98%",
     "form": "Lyophilized powder",
@@ -27057,14 +26998,45 @@
     ],
     "sources": [
       {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/mt-1-melanotan-1-acetate-10mg/",
+        "price": "£45.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/mt-1-melanotan-1-acetate-10mg.webp"
+      },
+      {
+        "vendor": "XL Peptides",
+        "url": "https://xlpeptides.com/product/melanotan-1-10mg/",
+        "price": "£19.99",
+        "inStock": true,
+        "image": "/images/products/xl-peptides/mt-1-melanotan-1-acetate-10mg.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Chroma Peptides",
+        "url": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
+        "price": "£18.99",
+        "inStock": true,
+        "image": "/images/products/chroma-peptides/mt-1-melanotan-1-acetate-10mg.webp",
+        "dosage": "10mg"
+      },
+      {
         "vendor": "UK Peptide Lab",
         "url": "https://ukpeptidelab.co.uk/product/melanotan-i",
         "price": "£24.99",
         "inStock": true,
         "dosage": "10mg",
         "image": "/images/products/uk-peptide-lab/melanotan-i.webp"
+      },
+      {
+        "vendor": "RETA UK",
+        "url": "https://reta-uk.com/products/melanotan-1",
+        "price": "£20.00",
+        "inStock": true,
+        "image": "/images/products/reta-uk/melanotan-1.jpg"
       }
-    ]
+    ],
+    "faq": []
   },
   {
     "id": "bpc-157-tb-500",
@@ -27143,43 +27115,6 @@
         "price": "£100.00",
         "inStock": true,
         "image": "/images/products/reta-uk/eloralintide.webp"
-      }
-    ],
-    "faq": [],
-    "longDescription": ""
-  },
-  {
-    "id": "melanotan-1",
-    "name": "Melanotan 1",
-    "slug": "melanotan-1",
-    "aliases": [
-      "Melanotan-I",
-      "MT-1",
-      "NDP-alpha-MSH"
-    ],
-    "category": "melanocortins",
-    "description": "Melanotan 1 (MT-1) is a synthetic analogue of alpha-melanocyte stimulating hormone (alpha-MSH). It is a linear tridecapeptide that binds to melanocortin receptors (primarily MC1R) to stimulate melanogenesis.",
-    "mechanism": "MC1R agonist that stimulates melanogenesis (eumelanin production) in melanocytes. Also acts on MC4R with potential effects on appetite regulation.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Lyophilized powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "Pigmentation research",
-      "Melanogenesis",
-      "Melanocortin receptor research",
-      "Photoprotection studies"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "RETA UK",
-        "url": "https://reta-uk.com/products/melanotan-1",
-        "price": "£20.00",
-        "inStock": true,
-        "image": "/images/products/reta-uk/melanotan-1.jpg"
       }
     ],
     "faq": [],
