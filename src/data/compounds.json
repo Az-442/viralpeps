@@ -4805,7 +4805,7 @@
       },
       {
         "question": "How is Tesamorelin different from CJC-1295?",
-        "answer": "Tesamorelin is a full-length 44-amino acid GHRH analogue without DAC modification, giving it a short half-life of 30\u201360 minutes requiring daily dosing. CJC-1295 is a modified 29-amino acid GHRH fragment with DAC technology that extends its half-life to 6\u20138 days. For a side-by-side comparison, see our <a href=\"/research/cjc1295-vs-tesamorelin\" class=\"text-blue-600 underline hover:text-blue-700\">CJC-1295 vs Tesamorelin</a> guide."
+        "answer": "Tesamorelin is a full-length 44-amino acid GHRH analogue without DAC modification, giving it a short half-life of 30–60 minutes requiring daily dosing. CJC-1295 is a modified 29-amino acid GHRH fragment with DAC technology that extends its half-life to 6–8 days. For a side-by-side comparison, see our <a href=\"/research/cjc1295-vs-tesamorelin\" class=\"text-blue-600 underline hover:text-blue-700\">CJC-1295 vs Tesamorelin</a> guide."
       },
       {
         "question": "What is the dosage of Tesamorelin in research?",
@@ -4817,7 +4817,7 @@
       },
       {
         "question": "How should I store and reconstitute Tesamorelin?",
-        "answer": "Keep lyophilised tesamorelin refrigerated and away from light, and store reconstituted solution at 2\u20138\u00b0C. Reconstitute with bacteriostatic water and use only freshly prepared solutions within the recommended window."
+        "answer": "Keep lyophilised tesamorelin refrigerated and away from light, and store reconstituted solution at 2–8°C. Reconstitute with bacteriostatic water and use only freshly prepared solutions within the recommended window."
       },
       {
         "question": "Is Tesamorelin for research use only?",
@@ -5077,11 +5077,11 @@
       },
       {
         "question": "How is Sermorelin different from Tesamorelin?",
-        "answer": "Sermorelin is a 29-amino acid fragment of GHRH, while tesamorelin is the full 44-amino acid sequence. Both work through the same GHRH receptor, but the shorter sermorelin sequence results in a shorter half-life (12\u201320 minutes vs 30\u201360 minutes for tesamorelin). For a head-to-head comparison of the two secretagogues, read our <a href=\"/research/tesamorelin-vs-sermorelin\" class=\"text-blue-600 underline hover:text-blue-700\">Tesamorelin vs Sermorelin</a> guide."
+        "answer": "Sermorelin is a 29-amino acid fragment of GHRH, while tesamorelin is the full 44-amino acid sequence. Both work through the same GHRH receptor, but the shorter sermorelin sequence results in a shorter half-life (12–20 minutes vs 30–60 minutes for tesamorelin). For a head-to-head comparison of the two secretagogues, read our <a href=\"/research/tesamorelin-vs-sermorelin\" class=\"text-blue-600 underline hover:text-blue-700\">Tesamorelin vs Sermorelin</a> guide."
       },
       {
         "question": "What is the dosing protocol for Sermorelin research?",
-        "answer": "Due to its 12\u201320 minute half-life, sermorelin is typically dosed at 100\u2013200 mcg twice daily via subcutaneous injection. It is often combined with a GHRP compound (such as GHRP-2 or GHRP-6) in the same syringe for synergistic GH pulse generation. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for measuring and reconstitution advice."
+        "answer": "Due to its 12–20 minute half-life, sermorelin is typically dosed at 100–200 mcg twice daily via subcutaneous injection. It is often combined with a GHRP compound (such as GHRP-2 or GHRP-6) in the same syringe for synergistic GH pulse generation. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for measuring and reconstitution advice."
       },
       {
         "question": "Where can I buy Sermorelin in the UK?",
@@ -5089,7 +5089,7 @@
       },
       {
         "question": "How should I store and reconstitute Sermorelin for research?",
-        "answer": "Store lyophilised sermorelin cool and dry away from light, and keep reconstituted solution refrigerated at 2\u20138\u00b0C. Reconstitute with bacteriostatic water and never reuse or reseal vials once opened."
+        "answer": "Store lyophilised sermorelin cool and dry away from light, and keep reconstituted solution refrigerated at 2–8°C. Reconstitute with bacteriostatic water and never reuse or reseal vials once opened."
       },
       {
         "question": "Is Sermorelin purchased in the UK for research only?",
@@ -10859,7 +10859,34 @@
         "dosage": "60mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is Cerebrolysin used for in research?",
+        "answer": "Cerebrolysin is a peptide-based preparation derived from porcine brain tissue that contains low-molecular-weight peptides and amino acids. It is clinically approved in over 40 countries and researched for stroke recovery, traumatic brain injury, dementia, and cognitive enhancement, with a focus on neuroprotection and neuroplasticity. As a neurotrophic nootropic peer, it is often compared with Semax; see the <a href=\"/research/semax-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Semax research summary</a> for context."
+      },
+      {
+        "question": "How does Cerebrolysin work?",
+        "answer": "Cerebrolysin exerts its effects by mimicking endogenous neurotrophic factors including BDNF, NGF, GDNF and CNTF. It reduces excitotoxicity via NMDA receptor modulation, promotes synaptogenesis and neuroplasticity, and increases cerebral blood flow and glucose metabolism in ischaemic regions. For a general primer on peptide mechanisms, see <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">how peptides work</a>."
+      },
+      {
+        "question": "How does Cerebrolysin compare to Semax?",
+        "answer": "Cerebrolysin is a broad multi-peptide brain preparation researched for stroke and cognitive decline, while Semax is a synthetic derivative of adrenocorticotropic hormone (ACTH 4-10) studied as a focused nootropic and neuroprotective agent. Both target neurotrophic support but differ in composition and scope. See our <a href=\"/compounds/semax\" class=\"text-blue-600 underline hover:text-blue-700\">Semax compound page</a> for direct comparison."
+      },
+      {
+        "question": "What dosage and administration are used in Cerebrolysin research?",
+        "answer": "Cerebrolysin research commonly uses 5–30 mL per day, often by intravenous infusion, or 10–20 mL/day by intramuscular injection in longer protocols. Because it is a multi-peptide mixture, precise handling and measurement matter. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide dosing guide</a> for general guidance."
+      },
+      {
+        "question": "How should Cerebrolysin be stored for research?",
+        "answer": "Cerebrolysin arrives as a sterile injectable solution and should be stored refrigerated, away from light, and protected from freezing and repeated temperature swings. Opened vials should be used promptly and in line with good laboratory practice. Follow our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a> for best practices."
+      },
+      {
+        "question": "Is Cerebrolysin available in the UK for research?",
+        "answer": "Yes, Cerebrolysin is available in the UK from research-peptide suppliers such as Bluewell Peptides. When sourcing in the UK, check for verified Certificates of Analysis, third-party lab-testing results, and clear research-use-only labelling. Read our guide to <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">choosing a UK supplier</a> before ordering."
+      }
+    ]
+
   },
   {
     "id": "p21",
@@ -10946,7 +10973,34 @@
         "dosage": "10mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is Dihexa used for in research?",
+        "answer": "Dihexa is a small synthetic peptide derived from angiotensin IV that acts as a hepatocyte growth factor (HGF) mimetic. It is researched for cognitive enhancement, memory formation, and neuroregeneration, and is often studied alongside HGF- and HGF/c-Met-related pathways in experimental models of Alzheimer’s, traumatic brain injury, and age-related cognitive decline."
+      },
+      {
+        "question": "How does Dihexa enhance cognition and memory?",
+        "answer": "Dihexa is proposed to enhance cognition by binding the c-Met receptor and activating downstream PI3K/Akt and MAPK/ERK signalling, which promotes synaptogenesis, increases dendritic spine density, and strengthens long-term potentiation in the hippocampus and cortex. These pathways underpin its reputation as one of the most potent synaptogenic compounds currently in research."
+      },
+      {
+        "question": "How does Dihexa compare to other nootropic peptides for recovery research?",
+        "answer": "Unlike nootropics that modulate neurotransmitter receptors acutely, Dihexa’s effects are aimed at structural plasticity – forming new synapses rather than transiently boosting signalling. For a wider view of recovery-orientated peptides, see our list of <a href=\"/research/best-peptides-for-recovery\" class=\"text-blue-600 underline hover:text-blue-700\">best peptides for recovery</a>."
+      },
+      {
+        "question": "What dosage is commonly used in Dihexa research?",
+        "answer": "Dihexa is commonly studied at 5–30 mg per day, with some protocols using sublingual administration at 10–20 mg. Because it is highly potent at low doses, precise reconstitution and measurement are essential. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide dosing guide</a> for general guidance."
+      },
+      {
+        "question": "How should Dihexa be stored and reconstituted for research?",
+        "answer": "Store lyophilised Dihexa powder desiccated and protected from light, ideally frozen. Reconstitute with bacteriostatic water and keep the working solution refrigerated, using it promptly to preserve potency. Follow our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a> for best practices."
+      },
+      {
+        "question": "Is Dihexa available in the UK for research?",
+        "answer": "Yes, Dihexa is available from UK-based research peptide suppliers including Dr P Research and Chroma Peptides. When purchasing in the UK, verify Certificate of Analysis documentation, third-party lab testing, and clear research-use-only labelling. Read our guide to <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">choosing a UK supplier</a> before ordering."
+      }
+    ]
+
   },
   {
     "id": "noopept",
@@ -12526,7 +12580,34 @@
         "dosage": "10mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is Mazdutide used for in research?",
+        "answer": "Mazdutide (LY3305677) is a dual GLP-1 and glucagon receptor agonist researched for metabolic conditions including weight management and obesity. Its dual mechanism combines GLP-1-driven appetite suppression and glucose regulation with glucagon-driven energy expenditure. It belongs to the newer generation of dual-agonist incretins; see the <a href=\"/research/semaglutide-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Semaglutide research summary</a> for context on the incretin class."
+      },
+      {
+        "question": "How does Mazdutide differ from Semaglutide?",
+        "answer": "Semaglutide is a GLP-1 selective agonist, while Mazdutide is a dual GLP-1/glucagon agonist that additionally aims to increase energy expenditure through glucagon-receptor activation. This dual profile is why researchers group Mazdutide alongside other dual agonists under investigation for greater weight-loss efficacy. Compare on our <a href=\"/compounds/semaglutide\" class=\"text-blue-600 underline hover:text-blue-700\">Semaglutide compound page</a>."
+      },
+      {
+        "question": "Which weight-management peptides is Mazdutide grouped with?",
+        "answer": "Mazdutide is typically grouped with other GLP-1-based and dual-agonist peptides used in weight-loss and metabolic research, including Semaglutide, Tirzepatide and Retatrutide. For a round-up of the most-researched options, see our list of <a href=\"/research/best-peptides-for-weight-loss\" class=\"text-blue-600 underline hover:text-blue-700\">best peptides for weight loss</a>."
+      },
+      {
+        "question": "What dosage is commonly used in Mazdutide research?",
+        "answer": "Mazdutide research commonly explores doses in the 1–10 mg range depending on protocol objectives, titrated gradually in line with standard incretin research practice. Precise reconstitution and measurement are important because dosing errors can skew metabolic data. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide dosing guide</a> for general guidance."
+      },
+      {
+        "question": "How should Mazdutide be stored and reconstituted for research?",
+        "answer": "Store lyophilised Mazdutide powder desiccated, away from light, and ideally refrigerated or frozen. Reconstitute with bacteriostatic water and keep the working solution refrigerated, using it within a defined window. Follow our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a> for best practices."
+      },
+      {
+        "question": "Is Mazdutide available in the UK for research?",
+        "answer": "Yes, Mazdutide is available from UK-based research peptide suppliers including UK Peptides, Raccoon Peptides, and Chilton Labs. When buying in the UK, verify Certificates of Analysis, third-party COA lab testing, and clear research-use-only labelling. Read our guide to <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">choosing a UK supplier</a> before ordering."
+      }
+    ]
+
   },
   {
     "id": "snap-8",
@@ -14384,7 +14465,33 @@
         "image": "/images/products/supply-peptides/pinealon.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is Pinealon used for in research?",
+        "answer": "Pinealon is a short synthetic tripeptide (glutamic acid–aspartic acid–proline) researched for neuroprotective, antioxidant, and cognitive-support properties. It is investigated alongside other bioregulator peptides such as Thymalin and Epitalon, with interest in free-radical defence in the brain, stress resistance, and memory-support research. For background on how these compounds fit together, see <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">how peptides work</a> in our research guides."
+      },
+      {
+        "question": "What mechanism of action is proposed for Pinealon?",
+        "answer": "Pinealon is proposed to act through antioxidant and neuromodulatory pathways, supporting normal mitochondrial function and reducing markers of oxidative stress in hippocampal tissue in preclinical models. It is often grouped with other Russian bioregulator peptides such as Epitalon and Thymalin for brain-health and anti-ageing research."
+      },
+      {
+        "question": "How does Pinealon compare to related bioregulator peptides?",
+        "answer": "Pinealon shares research themes with other bioregulator peptides like Thymalin and Epitalon. While Thymalin focuses on immune-response modulation and Epitalon on telomere and pineal research, Pinealon is studied more for direct neuroprotection and cognitive support. See our <a href=\"/research/epitalon-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Epitalon research summary</a> for a comparison of the wider bioregulator class."
+      },
+      {
+        "question": "What dosage is commonly used in Pinealon research?",
+        "answer": "Pinealon is typically studied in the microgram range, commonly 10–30 mcg on alternating days or in cycle protocols alongside other bioregulators. Because doses are very low, precise reconstitution and measurement matter. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide dosing guide</a> for general measurement and administration guidance."
+      },
+      {
+        "question": "How should Pinealon be stored and reconstituted for research?",
+        "answer": "Store lyophilised Pinealon powder desiccated and away from light, ideally frozen at -20°C. Reconstitute with bacteriostatic water, then keep the working solution refrigerated and use it within a short window. Follow our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a> for best practices."
+      },
+      {
+        "question": "Is Pinealon available in the UK for research?",
+        "answer": "Yes, Pinealon is available from several UK-based research peptide suppliers including Dr P Research, Tide Labs, Kensington Labs, Bluewell Peptides, Bio Peptides UK, and RETA UK. When buying in the UK, always check customer reviews, verified Certificates of Analysis, and clear research-use-only labelling. Read our guide to <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">choosing a UK supplier</a> before ordering."
+      }
+    ]
   },
   {
     "id": "dermorphin",
@@ -14919,7 +15026,7 @@
       },
       {
         "question": "What dosages are used in 5-Amino-1MQ research?",
-        "answer": "Common research protocols use 50\u2013100 mg daily via subcutaneous injection, often divided into one or two doses per day. Because it is a hydrophilic small molecule, dosing and reconstitution differ from traditional peptides. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for general measurement guidance."
+        "answer": "Common research protocols use 50–100 mg daily via subcutaneous injection, often divided into one or two doses per day. Because it is a hydrophilic small molecule, dosing and reconstitution differ from traditional peptides. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for general measurement guidance."
       },
       {
         "question": "Where can I buy 5-Amino-1MQ in the UK?",
@@ -14927,11 +15034,11 @@
       },
       {
         "question": "How do I verify the purity of 5-Amino-1MQ from a COA?",
-        "answer": "Request the Certificate of Analysis (COA) for each batch and confirm the reported purity matches the listing (typically \u226598\u201399%) via HPLC analysis. Independent third-party testing is the gold standard. For help interpreting these documents, read our <a href=\"/research/how-to-read-a-coa\" class=\"text-blue-600 underline hover:text-blue-700\">guide to reading a COA</a>."
+        "answer": "Request the Certificate of Analysis (COA) for each batch and confirm the reported purity matches the listing (typically \u226598–99%) via HPLC analysis. Independent third-party testing is the gold standard. For help interpreting these documents, read our <a href=\"/research/how-to-read-a-coa\" class=\"text-blue-600 underline hover:text-blue-700\">guide to reading a COA</a>."
       },
       {
         "question": "How should I store and reconstitute 5-Amino-1MQ?",
-        "answer": "Store lyophilised 5-Amino-1MQ cool and dry, away from light, and keep reconstituted solution refrigerated at 2\u20138\u00b0C. Reconstitute with bacteriostatic water and use within the recommended period for best stability."
+        "answer": "Store lyophilised 5-Amino-1MQ cool and dry, away from light, and keep reconstituted solution refrigerated at 2–8°C. Reconstitute with bacteriostatic water and use within the recommended period for best stability."
       }
     ]
   },
@@ -15723,7 +15830,7 @@
       },
       {
         "question": "How is glutathione typically administered in research?",
-        "answer": "Glutathione is commonly studied via intravenous infusion at doses around 600\u20131200 mg or through oral liposomal and suppository formulations, since oral bioavailability of the native tripeptide is low. Always follow established reconstitution and dilution protocols described in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+        "answer": "Glutathione is commonly studied via intravenous infusion at doses around 600–1200 mg or through oral liposomal and suppository formulations, since oral bioavailability of the native tripeptide is low. Always follow established reconstitution and dilution protocols described in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
       },
       {
         "question": "Is glutathione legally available in the UK for research use?",
@@ -26748,6 +26855,26 @@
       {
         "question": "What is Survodutide used for in research?",
         "answer": "Survodutide is a dual glucagon/GLP-1 receptor agonist being researched for obesity, metabolic dysfunction, and NAFLD/NASH. Its dual mechanism targets both appetite suppression (GLP-1) and increased energy expenditure (glucagon), which may produce greater weight loss than GLP-1 selective agonists."
+      },
+      {
+        "question": "How does Survodutide differ from Semaglutide?",
+        "answer": "Semaglutide is a GLP-1 selective agonist, while Survodutide adds glucagon-receptor activation designed to increase energy expenditure on top of appetite suppression. This dual profile is central to its investigation in obesity and metabolic-dysfunction research. Compare on our <a href=\"/compounds/semaglutide\" class=\"text-blue-600 underline hover:text-blue-700\">Semaglutide compound page</a>."
+      },
+      {
+        "question": "Which weight-loss peptides is Survodutide grouped with?",
+        "answer": "Survodutide is grouped with the newer generation of dual- and triple-agonist peptides used in weight-management research, including Semaglutide, Tirzepatide and Retatrutide. For a round-up of the most-researched options, see our list of <a href=\"/research/best-peptides-for-weight-loss\" class=\"text-blue-600 underline hover:text-blue-700\">best peptides for weight loss</a>."
+      },
+      {
+        "question": "What dosage is commonly used in Survodutide research?",
+        "answer": "Survodutide research commonly explores doses in the 0.5–10 mg range, titrated gradually in line with standard incretin research practice. Precise reconstitution and gradual up-titration are important for reliable metabolic data. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide dosing guide</a> for general guidance."
+      },
+      {
+        "question": "How should Survodutide be stored and reconstituted for research?",
+        "answer": "Store lyophilised Survodutide powder desiccated, away from light, and ideally refrigerated or frozen. Reconstitute with bacteriostatic water and keep the working solution refrigerated, using it within a defined window. Practical handling guidance is covered in our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a>."
+      },
+      {
+        "question": "Is Survodutide available in the UK for research?",
+        "answer": "Yes, Survodutide is available from UK-based research peptide suppliers including Kensington Labs UK, Raccoon Peptides, and Peptides Lab UK. When buying in the UK, check Certificates of Analysis, third-party lab-testing results, and clear research-use-only labelling. Read our guide to <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">choosing a UK supplier</a> before ordering."
       }
     ]
   },
@@ -27175,7 +27302,7 @@
       },
       {
         "question": "What dosing is used in Cagrilintide research?",
-        "answer": "Cagrilintide is typically supplied in 5\u201310 mg research vials and administered by subcutaneous injection, often on a once-weekly schedule in combination protocols. Reconstitute with bacteriostatic water and follow your protocol’s measurement guidance. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for help calculating injections."
+        "answer": "Cagrilintide is typically supplied in 5–10 mg research vials and administered by subcutaneous injection, often on a once-weekly schedule in combination protocols. Reconstitute with bacteriostatic water and follow your protocol’s measurement guidance. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for help calculating injections."
       },
       {
         "question": "Where can I buy Cagrilintide in the UK?",
@@ -27183,7 +27310,7 @@
       },
       {
         "question": "How should I store and reconstitute Cagrilintide?",
-        "answer": "Store lyophilised cagrilintide cool and dry, away from light, and keep reconstituted solution refrigerated at 2\u20138\u00b0C. Reconstitute with bacteriostatic water and avoid repeated freeze-thaw cycles to preserve stability."
+        "answer": "Store lyophilised cagrilintide cool and dry, away from light, and keep reconstituted solution refrigerated at 2–8°C. Reconstitute with bacteriostatic water and avoid repeated freeze-thaw cycles to preserve stability."
       }
     ]
   },
