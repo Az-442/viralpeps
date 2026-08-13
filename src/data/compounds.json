@@ -4075,11 +4075,11 @@
     "faq": [
       {
         "question": "What is IGF-1 LR3 used for in research?",
-        "answer": "IGF-1 LR3 is primarily researched for muscle growth, tissue recovery, anti-aging, insulin sensitivity studies, and nerve regeneration. Its extended half-life makes it more practical than native IGF-1 for research protocols."
+        "answer": "IGF-1 LR3 is primarily researched for muscle growth, tissue recovery, anti-aging, insulin sensitivity studies, and nerve regeneration. Its extended half-life makes it more practical than native IGF-1 for research protocols. See our <a href=\"/research/best-peptides-for-muscle-growth\" class=\"text-blue-600 underline hover:text-blue-700\">Best Peptides for Muscle Growth</a> for context on where it fits."
       },
       {
         "question": "How does IGF-1 LR3 differ from regular IGF-1?",
-        "answer": "IGF-1 LR3 has an arginine substitution at position 3 and an N-terminal extension that reduces binding to IGF-binding proteins by approximately 1000-fold. This extends its half-life from 10–12 minutes (native IGF-1) to 20–30 hours, dramatically increasing bioavailability."
+        "answer": "IGF-1 LR3 has an arginine substitution at position 3 and an N-terminal extension that reduces binding to IGF-binding proteins by approximately 1000-fold. This extends its half-life from 10–12 minutes (native IGF-1) to 20–30 hours, dramatically increasing bioavailability. See our <a href=\"/research/igf-1-lr3-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">IGF-1 LR3 Research Summary</a> for the full detail."
       },
       {
         "question": "Is IGF-1 LR3 available in the UK?",
@@ -4088,6 +4088,14 @@
       {
         "question": "What dosage of IGF-1 LR3 is used in research?",
         "answer": "Typical research dosages range from 20–60 mcg daily for general protocols, with 40–80 mcg post-workout used in muscle growth studies. Its 20–30 hour half-life supports once or twice daily administration."
+      },
+      {
+        "question": "How should IGF-1 LR3 be reconstituted and stored?",
+        "answer": "IGF-1 LR3 is best reconstituted with bacteriostatic water (or dilute acetic acid for optimal oxidation stability) and refrigerated at 2–8°C, typically used within 7–14 days. Unreconstituted powder should be stored at -20°C, protected from light and moisture. For step-by-step guidance, see our <a href=\"/research/peptide-reconstitution-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Reconstitution Guide</a>."
+      },
+      {
+        "question": "How can I verify IGF-1 LR3 purity and lab-testing from a UK supplier?",
+        "answer": "Always request the batch Certificate of Analysis (COA) and third-party HPLC and mass spectrometry data from your supplier, and confirm the product is for research use only. UK suppliers should provide purity verification reviewed per batch. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide covers what to check when buying IGF-1 LR3 UK."
       }
     ]
   },
@@ -4171,11 +4179,11 @@
     "faq": [
       {
         "question": "What is IGF-1 DES used for in research?",
-        "answer": "IGF-1 DES is researched for muscle hypertrophy, tissue repair, metabolic studies, and cell proliferation pathways. Its minimal IGFBP binding makes it a uniquely potent tool for studying IGF-1 receptor signalling without binding protein interference."
+        "answer": "IGF-1 DES is researched for muscle hypertrophy, tissue repair, metabolic studies, and cell proliferation pathways. Its minimal IGFBP binding makes it a uniquely potent tool for studying IGF-1 receptor signalling without binding protein interference. See our <a href=\"/research/best-peptides-for-muscle-growth\" class=\"text-blue-600 underline hover:text-blue-700\">Best Peptides for Muscle Growth</a> for context on where it fits."
       },
       {
         "question": "How does IGF-1 DES differ from IGF-1 LR3?",
-        "answer": "IGF-1 DES has the first three N-terminal amino acids removed, virtually eliminating all IGFBP binding. IGF-1 LR3 uses an arginine substitution and N-terminal extension to reduce binding ~1000-fold. DES has greater potency per dose but a much shorter half-life (10-15 min vs 20-30 hours for LR3)."
+        "answer": "IGF-1 DES has the first three N-terminal amino acids removed, virtually eliminating all IGFBP binding. IGF-1 LR3 uses an arginine substitution and N-terminal extension to reduce binding ~1000-fold. DES has greater potency per dose but a much shorter half-life (10-15 min vs 20-30 hours for LR3). See our <a href=\"/research/igf-1-lr3-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">IGF-1 LR3 Research Summary</a> and the <a href=\"/compounds/igf-1-lr3\" class=\"text-blue-600 underline hover:text-blue-700\">IGF-1 LR3 compound page</a> for comparison."
       },
       {
         "question": "Is IGF-1 DES available for research in the UK?",
@@ -4184,6 +4192,14 @@
       {
         "question": "What dosage of IGF-1 DES is used in research?",
         "answer": "Common research dosages range from 30-60 mcg daily for general protocols, with 40-80 mcg post-workout used in muscle growth studies. The very short half-life (10-15 minutes) supports per-workout or twice-daily administration."
+      },
+      {
+        "question": "How should IGF-1 DES be reconstituted and stored?",
+        "answer": "IGF-1 DES is typically reconstituted with bacteriostatic water and refrigerated at 2–8°C, used within 7–14 days. Unreconstituted powder should be stored at -20°C, protected from light and moisture. For step-by-step guidance, see our <a href=\"/research/peptide-reconstitution-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Reconstitution Guide</a>."
+      },
+      {
+        "question": "How can I verify IGF-1 DES quality when buying in the UK?",
+        "answer": "Ask your UK supplier for the batch Certificate of Analysis (COA) and third-party HPLC and mass spectrometry data, and confirm the product is labelled for research use only. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide outlines the checks to make before buying IGF-1 DES UK."
       }
     ]
   },
@@ -9408,7 +9424,33 @@
         "image": "/images/products/regenpeptides/HEXARELIN.png"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is hexarelin used for in research?",
+        "answer": "Hexarelin (examorelin) is a synthetic hexapeptide growth hormone secretagogue researched for stimulating growth hormone release, supporting muscle preservation, recovery, bone density and metabolic studies. It is one of the most potent members of the GHRP family. See our <a href=\"/research/hexarelin-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Hexarelin Research Summary</a> for a full overview."
+      },
+      {
+        "question": "How does hexarelin differ from GHRP-6?",
+        "answer": "Hexarelin is structurally related to GHRP-6 but is generally considered more potent on a per-unit basis, pairing a strong GH secretory response with the ghrelin-mimetic appetite effect that is less pronounced than with GHRP-6. Many researchers choose between the two based on protocol goals. See our <a href=\"/research/ghrp-6-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">GHRP-6 Research Summary</a> for a comparison."
+      },
+      {
+        "question": "What dosage of hexarelin is used in research?",
+        "answer": "Common research dosages range from 100–200 mcg per day, often divided into 1–3 doses, depending on the protocol. Due to its short half-life, multiple daily administrations are typical. For measurement and administration guidance, see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "Is hexarelin available in the UK for research?",
+        "answer": "Yes, hexarelin is available from UK-based research peptide suppliers. Always verify third-party HPLC and mass spectrometry purity analysis before purchase, and confirm the product is labelled for research use only. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide outlines the checks to make when buying hexarelin UK."
+      },
+      {
+        "question": "How should hexarelin be reconstituted and stored?",
+        "answer": "Hexarelin lyophilised powder should be reconstituted with bacteriostatic water and refrigerated at 2–8°C, typically used within 7–14 days. Unreconstituted powder should be stored at -20°C, protected from light and moisture."
+      },
+      {
+        "question": "How do growth hormone secretagogues like hexarelin work?",
+        "answer": "Hexarelin acts through the ghrelin receptor (GHSR-1a) to amplify pulsatile release of pre-synthesised growth hormone from the pituitary, often synergistically with GHRH signalling. For a broader explanation of the underlying process, see <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">How Peptides Work</a>."
+      }
+    ]
   },
   {
     "id": "ipamorelin",
@@ -10165,7 +10207,33 @@
         "image": "/images/products/peptidesx/ghrp-6-10mg.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is GHRP-6 used for in research?",
+        "answer": "GHRP-6 (Growth Hormone Releasing Peptide-6) is a synthetic hexapeptide researched primarily for stimulating growth hormone release from the anterior pituitary, supporting protein synthesis, muscle preservation, recovery and metabolic studies. It is frequently studied in glandular and hormonal research protocols, and often combined with a GHRH analogue such as CJC-1295 or Mod GRF 1-29. See our <a href=\"/research/ghrp-6-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">GHRP-6 Research Summary</a> for a full overview."
+      },
+      {
+        "question": "How does GHRP-6 stimulate growth hormone release?",
+        "answer": "GHRP-6 acts as a potent agonist at the ghrelin receptor (GHSR-1a), a G-protein-coupled receptor expressed in the pituitary and hypothalamus. Activation mobilises intracellular calcium in somatotrophs and triggers the exocytosis of pre-synthesised growth hormone granules, amplifying pulsatile GH release rather than creating steady-state elevation."
+      },
+      {
+        "question": "What dosage of GHRP-6 is used in research?",
+        "answer": "Common research dosages range from 100–300 mcg per day, often divided into 2–3 daily doses of 100–200 mcg. Because of its short half-life (roughly 30–60 minutes), multiple daily injections are usually employed. For measurement and administration guidance, see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "How should GHRP-6 be reconstituted and stored?",
+        "answer": "GHRP-6 lyophilised powder should be reconstituted with bacteriostatic water and refrigerated at 2–8°C, typically used within 7–14 days. Unreconstituted powder is best stored at -20°C, protected from light and moisture. For full handling guidance, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a>."
+      },
+      {
+        "question": "Is GHRP-6 available in the UK for research?",
+        "answer": "Yes, GHRP-6 is widely available from UK-based research peptide suppliers. When choosing a vendor, look for ≥99% purity verification backed by third-party HPLC and mass spectrometry analysis. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide covers what to check before buying GHRP-6 UK."
+      },
+      {
+        "question": "Is GHRP-6 legal for research use in the UK?",
+        "answer": "GHRP-6 is not licensed for human use by the MHRA, but it is legally sold for laboratory research only. It must not be used for human consumption. Always confirm the product is clearly labelled for research use only before purchase."
+      }
+    ]
   },
   {
     "id": "pt-141",
@@ -16056,7 +16124,33 @@
         "image": "/images/products/peptides-uk/mgf.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is MGF used for in research?",
+        "answer": "MGF (Mechano Growth Factor, the IGF-1Ec splice variant) is researched for muscle hypertrophy, satellite cell activation, tissue repair and regeneration following mechanical loading and injury. It is frequently studied alongside IGF-1 LR3 in muscle-growth research protocols. See our <a href=\"/research/mgf-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">MGF Research Summary</a> for a full overview."
+      },
+      {
+        "question": "How does MGF differ from IGF-1 LR3?",
+        "answer": "MGF supports muscle growth partly through local, damage-mechanosensitive expression and activation of muscle stem cells, whereas IGF-1 LR3 is a systemic long-half-life analogue of IGF-1. Many protocols combine MGF with IGF-1 LR3 to target different phases of the growth response."
+      },
+      {
+        "question": "What dosage of MGF is used in research?",
+        "answer": "Common research dosages range from 200–400 mcg per cycle phase, typically dosed around training sessions or in short mechandosensitive windows. Because MGF has a very short half-life, repeated administration is often used. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for measurement and administration guidance."
+      },
+      {
+        "question": "How should MGF be reconstituted and stored?",
+        "answer": "MGF lyophilised powder should be reconstituted with bacteriostatic water and refrigerated at 2–8°C, typically used within 7–14 days. Unreconstituted powder should be stored at -20°C, protected from light and moisture. See our <a href=\"/research/peptide-reconstitution-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Reconstitution Guide</a> for full guidance."
+      },
+      {
+        "question": "Is MGF available in the UK for research?",
+        "answer": "Yes, MGF (including peg-MGF) is available from UK-based research peptide suppliers. Always verify third-party purity analysis and confirm the product is for research use only. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide covers what to check before buying MGF UK."
+      },
+      {
+        "question": "How does peg-MGF compare to standard MGF?",
+        "answer": "Peg-MGF is MGF conjugated to polyethylene glycol, which extends its circulating half-life considerably compared to standard MGF. Because standard MGF is cleared very quickly, peg-MGF is sometimes preferred for protocols requiring a more sustained presence. See the <a href=\"/compounds/peg-mgf\" class=\"text-blue-600 underline hover:text-blue-700\">Peg-MGF compound page</a> for details."
+      }
+    ]
   },
   {
     "id": "ovagen",
