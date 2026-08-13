@@ -7631,5 +7631,47 @@ const content: Record<string, ResearchPageContent> = {
     ]
   },
 
+'mazdutide-research-summary': {
+  slug: 'mazdutide-research-summary',
+  compoundSlug: 'mazdutide',
+  pullQuote: 'Mazdutide throws a second switch no single GLP-1 agonist touches — glucagon-mediated energy expenditure. Same appetite control as the incretin class, plus a metabolic burn running in the background.',
+  quickInfo: [
+    { label: 'Compound Name', value: 'Mazdutide (LY3305677 / IBI362)' },
+    { label: 'Classification', value: 'Dual GLP-1 / glucagon receptor agonist (incretin co-agonist)' },
+    { label: 'Mechanism', value: 'Agonist at GLP-1R and glucagon (GcgR) receptors' },
+    { label: 'Sequence', value: '29-amino-acid peptide derived from oxyntomodulin' },
+    { label: 'Developed By', value: 'Innovent Biologics & Eli Lilly' },
+    { label: 'Development Codes', value: 'LY3305677, IBI362' },
+    { label: 'Evidence Strength', value: 'Phase 2 / Phase 3 clinical trial data' },
+    { label: 'Primary Research Areas', value: 'Weight management, glucose regulation, energy expenditure, metabolic syndrome' },
+  ],
+  sections: [
+    {
+      title: 'What Is Mazdutide?',
+      body: 'Mazdutide is a synthetic dual agonist at the glucagon-like peptide-1 (GLP-1) and glucagon (GcgR) receptors. It is a 29-amino-acid peptide derived from native oxyntomodulin — a naturally occurring proglucagon-derived hormone that co-activates both receptors. Co-developed by Innovent Biologics and Eli Lilly, it is known under the development codes IBI362 and LY3305677, and it is among the most clinically advanced GLP-1/glucagon co-agonists in research, with Phase 2 and Phase 3 studies concentrated in Chinese populations.\n\nWhere single GLP-1 receptor agonists such as semaglutide act chiefly on appetite and insulin secretion, Mazdutide adds a glucagon-receptor component aimed at energy expenditure, fatty-acid oxidation and hepatic lipid handling. That dual profile is what sets it apart within the weight-management research space. [**Compare Mazdutide prices →**](/compounds/mazdutide)',
+    },
+    {
+      title: 'How Mazdutide Works',
+      body: 'Mazdutide\'s defining feature is its balanced activation of two metabolic receptors:\n\n• GLP-1 receptor component — glucose-stimulated insulin secretion from pancreatic β-cells, central appetite signalling, slowing of gastric emptying, and the satiety effects characteristic of the incretin class.\n• Glucagon receptor component — the distinguishing feature: hepatic lipid handling, fatty-acid oxidation, and increased resting energy expenditure.\n\nThe pharmacological premise is that pairing the energy-expenditure contribution of glucagon-receptor signalling with the appetite and insulin-secretion effects of GLP-1 may produce additive metabolic benefits, while GLP-1-driven insulin secretion offsets glucagon\'s gluconeogenic effects. Structurally, the molecule is engineered with DPP-4 resistance and a C-16 fatty-acid side chain attached via a γ-Glu-OEG-OEG linker — an albumin-anchoring modification that extends plasma half-life and supports once-weekly dosing protocols.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: 'Because Mazdutide engages both the GLP-1 and glucagon axes, it is being researched across overlapping metabolic frontiers:\n\n• Weight management & obesity — the headline indication; dose-dependent body-weight reduction is a primary endpoint across Phase 2 and Phase 3 studies.\n• Glucose regulation & type 2 diabetes — glycaemic control across multiple dose levels, compared against placebo and active comparators.\n• Energy expenditure — glucagon-receptor-driven increases in resting energy expenditure and fatty-acid oxidation.\n• Hepatic lipid metabolism — glucagon-receptor signalling and its role in liver fat handling.\n• Metabolism & the incretin co-agonist class — alongside survodutide (a similar GLP-1/glucagon dual agonist), tirzepatide (GLP-1/GIP) and retatrutide (triple agonist).\n\n[**Related: Semaglutide — GLP-1 Research Summary →**](/research/semaglutide-research-summary) [**Related: Tirzepatide — Research Summary →**](/research/tirzepatide-research-summary)',
+    },
+    {
+      title: 'Research Evidence',
+      body: 'Mazdutide\'s evidence base is unusually advanced for a research peptide because it has progressed into formal clinical trials. Key published findings include:\n\n• A Phase 2 study in Chinese adults with overweight or obesity reported 12-week body-weight reductions of up to 6.4% at doses up to 6 mg once weekly [1].\n• Phase 2 trials in type 2 diabetes characterised dose-dependent glycaemic and body-weight endpoints, with improvements against both placebo and active comparators [2].\n• The molecule is derived from oxyntomodulin and stabilised for prolonged plasma exposure, building on structure-activity optimisation of the oxyntomodulin scaffold [3].\n• Review literature on anti-obesity drug discovery contextualises Mazdutide within the broader dual/triple co-agonist landscape alongside survodutide, tirzepatide and retatrutide [4].\n• Glucagon-receptor pharmacology reviews cover the rationale for GLP-1/glucagon dual agonism in metabolic research [5].\n\nIt is important to emphasise that Mazdutide is not yet approved for general human use; published data remain concentrated in Chinese clinical research populations, and cross-population Phase 3 data are still pending.',
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'Mazdutide is an experimental investigational compound. It is not approved by the MHRA, FDA, or EMA for human therapeutic use, and it is supplied for research and laboratory purposes only. In the published clinical trials it was generally well tolerated, with effects consistent with the GLP-1 class — including gastrointestinal tolerability considerations — but the full long-term safety profile is still being established as the Phase 3 program reads out.\n\nFor researchers working with Mazdutide as a lyophilized research peptide, it requires standard handling: store lyophilised powder desiccated and away from light (ideally refrigerated or frozen at −20°C), reconstitute with bacteriostatic water, keep the working solution refrigerated at 2–8°C, and use it within a defined window while avoiding repeated freeze-thaw cycles. Verify a Certificate of Analysis and mass-spectrometric identity before use, and follow appropriate institutional biosafety and ethics approvals. It is not a dietary supplement and must not be self-administered.',
+    },
+    {
+      title: 'References',
+      body: '[1] Ji L, et al. Safety and efficacy of a GLP-1 and glucagon receptor dual agonist mazdutide (IBI362) in overweight and obese adults. EClinicalMedicine. 2022. PMID 36420338.\n[2] Yu D, et al. Effect of mazdutide (LY3305677) on weight and glycaemic control in Chinese adults with type 2 diabetes. Diabetes Obes Metab. 2023. PMID 37191185.\n[3] Muller TD, et al. Anti-obesity drug discovery: advances and challenges. Nat Rev Drug Discov. 2022;21(3):201-223. PMID 34815532.\n[4] Capozzi ME, et al. The need for the glucagon receptor and GLP-1/glucagon co-agonism in metabolic disease. Cell Metab. 2022. PMID 35952688.\n[5] Boland ML, et al. Cotadutide, a glucagon/GLP-1 co-agonist, reduces hepatic steatosis through modulation of lipogenesis. Sci Rep. 2020;10(1):16306. PMID 32948876.',
+    },
+  ],
+},
+
 };
 export default content;

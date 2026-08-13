@@ -927,6 +927,17 @@ export const guides: ResearchArticle[] = [
     minutes: 9,
     tags: ['oxytocin', 'neuropeptide', 'social-bonding', 'oxytocin-receptor', 'cns', 'stress', 'anxiety'],
 },
+{
+    title: 'Mazdutide Research Summary',
+    desc: 'Overview of Mazdutide (LY3305677 / IBI362), a synthetic dual GLP-1 and glucagon receptor agonist derived from oxyntomodulin. Researched for weight management, glucose regulation, energy expenditure and metabolic research across 3 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'Mazdutide',
+    slug: 'mazdutide-research-summary',
+    image: 'mazdutide-research-summary',
+    minutes: 8,
+    tags: ['mazdutide', 'ly3305677', 'ibi362', 'glp-1', 'glucagon', 'dual-agonist', 'oxyntomodulin', 'weight-loss', 'metabolic'],
+},
 
 ];
 
