@@ -2807,19 +2807,27 @@
     "faq": [
       {
         "question": "What is AOD-9604 used for?",
-        "answer": "AOD-9604 is researched for fat loss, obesity treatment, and metabolic health. It stimulates lipolysis (fat breakdown) and inhibits lipogenesis (fat storage) without affecting blood sugar or growth hormone levels, making it a targeted metabolic research tool."
+        "answer": "AOD-9604 is researched for fat loss, obesity treatment, and metabolic health. It stimulates lipolysis (fat breakdown) and inhibits lipogenesis (fat storage) without affecting blood sugar or growth hormone levels, making it a targeted metabolic research tool. For the full mechanism and a rundown of the published literature, see our <a href=\"/research/aod9604-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">AOD-9604 Research Summary</a>."
       },
       {
         "question": "How is AOD-9604 different from HGH?",
-        "answer": "AOD-9604 is a fragment of hGH (amino acids 177–191) that retains the lipolytic properties of full-length growth hormone while lacking its anti-insulin (diabetogenic) and growth-promoting effects. This means it can stimulate fat loss without elevating blood glucose or IGF-1 levels."
+        "answer": "AOD-9604 is a fragment of hGH (amino acids 177–191) that retains the lipolytic properties of full-length growth hormone while lacking its anti-insulin (diabetogenic) and growth-promoting effects. This means it can stimulate fat loss without elevating blood glucose or IGF-1 levels. We compare it against the full-length GHRH analogue in our <a href=\"/research/aod9604-vs-tesamorelin\" class=\"text-blue-600 underline hover:text-blue-700\">AOD-9604 vs Tesamorelin</a> article, and it is listed among the <a href=\"/research/best-peptides-for-weight-loss\" class=\"text-blue-600 underline hover:text-blue-700\">best peptides for weight loss research</a>."
       },
       {
         "question": "Can I buy AOD-9604 in the UK?",
-        "answer": "Yes, AOD-9604 is available from UK-based research peptide suppliers. When searching for buy AOD-9604 UK sources, check suppliers such as United Peptides and UK Peptides, as well as international vendors like Peptide Sciences and Core Peptides."
+        "answer": "Yes, AOD-9604 is available from UK-based research peptide suppliers. When searching for buy AOD-9604 UK sources, check suppliers such as United Peptides and UK Peptides, as well as international vendors like Peptide Sciences and Core Peptides. Order direct from vendors listed on this page — see our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> for what to verify before ordering."
       },
       {
         "question": "What is the half-life and dosing of AOD-9604?",
-        "answer": "AOD-9604 has a short half-life of approximately 20 minutes, which supports twice-daily dosing schedules. Typical research dosages range from 300–500 mcg per day, often split into two doses of 300–500 mcg each."
+        "answer": "AOD-9604 has a short half-life of approximately 20 minutes, which supports twice-daily dosing schedules. Typical research dosages range from 300–500 mcg per day, often split into two doses of 300–500 mcg each. For measuring and reconstitution guidance, see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "Is buying and shipping AOD-9604 for research legal in the UK?",
+        "answer": "AOD-9604 is supplied for laboratory research purposes only and is not approved for human consumption. UK-based suppliers ship within the UK for bona fide research use, but you should always confirm the product is clearly labelled for research only and check your facility's policies. Before committing to a vendor, read our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
+      },
+      {
+        "question": "How should I lab-test, reconstitute, and store AOD-9604?",
+        "answer": "Always request a Certificate of Analysis (COA) and verify the stated purity independently via HPLC where possible. Reconsstitute lyophilised AOD-9604 with bacteriostatic water, and store both powder and reconstituted solution correctly for stability. For more on how this peptide fits into broader fat-loss research, see our <a href=\"/research/best-peptides-for-weight-loss\" class=\"text-blue-600 underline hover:text-blue-700\">best peptides for weight loss</a> roundup."
       }
     ]
   },
@@ -7181,19 +7189,27 @@
     "faq": [
       {
         "question": "What is KPV used for in research?",
-        "answer": "KPV is researched for inflammatory bowel disease (IBD), wound healing, antimicrobial applications, anti-inflammatory research, and gastrointestinal barrier function. It is a tripeptide fragment of α-MSH with potent anti-inflammatory and antimicrobial activity."
+        "answer": "KPV is researched for inflammatory bowel disease (IBD), wound healing, antimicrobial applications, anti-inflammatory research, and gastrointestinal barrier function. It is a tripeptide fragment of α-MSH with potent anti-inflammatory and antimicrobial activity. For a full overview, see our <a href=\"/research/kpv-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">KPV Research Summary</a>."
       },
       {
         "question": "How does KPV reduce inflammation?",
-        "answer": "KPV activates melanocortin receptors (MC1R, MC3R, MC4R) and modulates Toll-like receptor signalling, which inhibits NF-κB activation and reduces production of pro-inflammatory cytokines including TNF-α, IL-6, and IL-1β."
+        "answer": "KPV activates melanocortin receptors (MC1R, MC3R, MC4R) and modulates Toll-like receptor signalling, which inhibits NF-κB activation and reduces production of pro-inflammatory cytokines including TNF-α, IL-6, and IL-1β. To understand where this sits in the immune cascade, see our guide to <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">how peptides work</a>."
       },
       {
         "question": "Is KPV available in the UK?",
-        "answer": "Yes, KPV is available from UK research peptide suppliers including United Peptides, UK Peptides, and Peptide Warehouse. International options include Peptide Sciences. Always check for independent purity verification."
+        "answer": "Yes, KPV is available from UK research peptide suppliers including United Peptides, UK Peptides, and Peptide Warehouse. International options include Peptide Sciences. Before ordering, review our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
       },
       {
         "question": "What is the KPV dosage in research protocols?",
-        "answer": "Research dosages typically range from 1–10 mg per day for systemic studies, with animal models using 1–5 mg/kg. Due to its short half-life (~15 minutes), daily or twice-daily administration is common."
+        "answer": "Research dosages typically range from 1–10 mg per day for systemic studies, with animal models using 1–5 mg/kg. Due to its short half-life (~15 minutes), daily or twice-daily administration is common. For measuring and reconstitution guidance, see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "Is buying and shipping KPV for research legal in the UK?",
+        "answer": "KPV is supplied for laboratory research purposes only and is not approved for human consumption. UK-based suppliers ship within the UK for bona fide research use, but you should always confirm the product is clearly labelled for research only. Before committing, read our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
+      },
+      {
+        "question": "How should I lab-test, reconstitute, and store KPV?",
+        "answer": "Always request a Certificate of Analysis (COA) and verify purity independently where possible. Reconstitute lyophilised KPV with bacteriostatic water and store correctly to preserve stability. For full instructions on handling and storage, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a>."
       }
     ]
   },
@@ -9248,7 +9264,33 @@
         "image": "/images/products/regenpeptides/HGH-FRAGMENT-176-191.png"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is HGH Fragment 176-191 used for?",
+        "answer": "HGH Fragment 176-191 is a protein synthesis-inactive region of human growth hormone renowned for its lipolytic activity. It is researched for promoting fat loss and reducing lipid accumulation without interfering with blood sugar regulation. For the full breakdown, see our <a href=\"/research/hgh-fragment-176-191-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">HGH Fragment 176-191 Research Summary</a>."
+      },
+      {
+        "question": "How does Fragment 176-191 differ from AOD-9604?",
+        "answer": "Fragment 176-191 covers residues 176–191 of hGH, while AOD-9604 covers residues 177–191, so they overlap in the same lipid-burning region and are studied for very similar purposes. Both feature in our <a href=\"/research/best-peptides-for-weight-loss\" class=\"text-blue-600 underline hover:text-blue-700\">best peptides for weight loss</a> roundup."
+      },
+      {
+        "question": "Can I buy HGH Fragment 176-191 in the UK?",
+        "answer": "Yes, HGH Fragment 176-191 is available from UK research peptide suppliers including Regen Peptides and others listed on this page. Always confirm the product is clearly labelled for research use only. Before ordering, review our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
+      },
+      {
+        "question": "What dosage is used in Fragment 176-191 research?",
+        "answer": "Common research protocols use doses of 250–1000 µg per day, often administered once or twice daily. Accurate measurement is essential, so see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "Is buying and shipping Fragment 176-191 for research legal in the UK?",
+        "answer": "HGH Fragment 176-191 is supplied for laboratory research purposes only and is not approved for human consumption. UK-based suppliers ship within the UK for bona fide research use, but you should always confirm the product is labelled for research only. Before committing, read our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
+      },
+      {
+        "question": "How should I reconstitute and store Fragment 176-191?",
+        "answer": "Reconstitute lyophilised Fragment 176-191 with bacteriostatic water and follow best practice for light and temperature protection. Always request a COA to verify purity. For a step-by-step, see our <a href=\"/research/peptide-reconstitution-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide reconstitution guide</a>."
+      }
+    ]
   },
   {
     "id": "hexarelin",
@@ -11618,7 +11660,33 @@
         "image": "/images/products/peptidesx/dsip.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is DSIP used for in research?",
+        "answer": "Delta-sleep-inducing peptide (DSIP) is researched for its effects on sleep regulation, circadian rhythm modulation, stress resilience, and a range of neuroendocrine applications. It is studied for promoting deep slow-wave sleep and for its anti-stress properties. For a full overview, see our <a href=\"/research/dsip-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">DSIP Research Summary</a>."
+      },
+      {
+        "question": "How does DSIP work in the body?",
+        "answer": "DSIP appears to modulate hypothalamic neuropeptide systems and delta-frequency brain activity rather than acting through a single classical receptor. It is investigated for its ability to increase slow-wave sleep and buffer the neuroendocrine response to stress. To place it in the broader signalling picture, see our guide to <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">how peptides work</a>."
+      },
+      {
+        "question": "Can I buy DSIP in the UK for research?",
+        "answer": "Yes, DSIP is available from UK-based research peptide suppliers including Peptides Lab UK, UK Peptide Lab, Crown Peptides, and PeptidesX. Always confirm products are clearly labelled for research use only before ordering. See our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
+      },
+      {
+        "question": "What is the typical DSIP dosage in research?",
+        "answer": "DSIP is commonly studied at doses in the low-microgram range, often around 150–250 µg administered before sleep protocols, with some studies using repeated nightly dosing. Because it is a small peptide, accurate measurement matters. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "Is buying and shipping DSIP for research legal in the UK?",
+        "answer": "DSIP is supplied for laboratory research purposes only and is not approved for human consumption. UK-based suppliers ship within the UK for bona fide research use, but you should always confirm the product is labelled for research only. Before committing to a vendor, read our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
+      },
+      {
+        "question": "How should I store and reconstitute DSIP?",
+        "answer": "Store lyophilised DSIP in a cool, dry place protected from light and keep reconstituted solutions refrigerated at 2–8°C. Use bacteriostatic water for reconstitution and avoid freeze–thaw cycles. For full instructions, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a>."
+      }
+    ]
   },
   {
     "id": "oxytocin",
@@ -11799,23 +11867,27 @@
     "faq": [
       {
         "question": "What is oxytocin used for in research?",
-        "answer": "Oxytocin is widely studied for its role in social bonding, trust and empathy, anxiety reduction, stress regulation, autism spectrum disorder, and wound healing. It is one of the most extensively researched neuropeptides in behavioural neuroscience."
+        "answer": "Oxytocin is widely studied for its role in social bonding, trust and empathy, anxiety reduction, stress regulation, autism spectrum disorder, and wound healing. It is one of the most extensively researched neuropeptides in behavioural neuroscience. For the full picture, see our <a href=\"/research/oxytocin-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Oxytocin Research Summary</a>."
       },
       {
         "question": "How does oxytocin affect social behaviour?",
-        "answer": "Oxytocin modulates social cognition and behaviour by acting on oxytocin receptors in limbic brain regions including the amygdala, nucleus accumbens, and prefrontal cortex. It enhances trust, facilitates pair bonding, improves emotion recognition, and reduces amygdala reactivity to social threats."
+        "answer": "Oxytocin modulates social cognition and behaviour by acting on oxytocin receptors in limbic brain regions including the amygdala, nucleus accumbens, and prefrontal cortex. It enhances trust, facilitates pair bonding, improves emotion recognition, and reduces amygdala reactivity to social threats. We explore the mechanism in depth in our <a href=\"/research/oxytocin-deep-dive\" class=\"text-blue-600 underline hover:text-blue-700\">Oxytocin Deep Dive</a>, and compare it with another sociability-targeting peptide in <a href=\"/research/oxytocin-vs-pt141\" class=\"text-blue-600 underline hover:text-blue-700\">Oxytocin vs PT-141</a>."
       },
       {
         "question": "Is oxytocin available from UK research suppliers?",
-        "answer": "Yes, oxytocin is widely available from UK research peptide suppliers. It is stocked by most major UK vendors as a standard research peptide due to its extensive use in behavioural science and neuroscience research."
+        "answer": "Yes, oxytocin is widely available from UK research peptide suppliers. It is stocked by most major UK vendors as a standard research peptide due to its extensive use in behavioural science and neuroscience research. Before ordering, review our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
       },
       {
         "question": "What is the standard oxytocin dosage for research?",
-        "answer": "Intranasal dosages of 10–40 IU are standard for human behavioural research, with effects lasting 60–120 minutes. Systemic research dosages in animal models range from 100–500 µg per day. Intranasal delivery is preferred for central nervous system research."
+        "answer": "Intranasal dosages of 10–40 IU are standard for human behavioural research, with effects lasting 60–120 minutes. Systemic research dosages in animal models range from 100–500 µg per day. Intranasal delivery is preferred for central nervous system research. For general guidance, see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
       },
       {
         "question": "How is oxytocin synthesised?",
         "answer": "Oxytocin is a 9-amino-acid cyclic peptide with sequence CYIQNCPLG, containing a disulfide bridge between Cys1 and Cys6. It is synthesised in the paraventricular and supraoptic nuclei of the hypothalamus as a larger precursor protein and cleaved into the active peptide during axonal transport."
+      },
+      {
+        "question": "How should I store and reconstitute oxytocin for research?",
+        "answer": "Store lyophilised oxytocin in a cool, dry, light-protected place and keep reconstituted solutions refrigerated at 2–8°C. Use bacteriostatic water for reconstitution and always request a COA to verify purity. For full handling and storage guidance, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">peptide storage guide</a>."
       }
     ]
   },
