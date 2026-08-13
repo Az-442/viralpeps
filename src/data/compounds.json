@@ -2451,6 +2451,14 @@
       {
         "question": "What dosage of GHRP-2 is used in research protocols?",
         "answer": "Typical research dosages range from 100–300 mcg per day, often divided into 2–3 doses. Due to its short half-life of 30–60 minutes, multiple daily administrations are common. It is frequently combined with a GHRH analogue for enhanced GH pulse generation."
+      },
+      {
+        "question": "How should GHRP-2 be stored and reconstituted?",
+        "answer": "Lyophilised GHRP-2 should be stored at -20°C away from light and moisture, and reconstituted with bacteriostatic water before use. Once reconstituted it should be refrigerated and used within a short window to maintain stability. See our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a> for detailed handling advice."
+      },
+      {
+        "question": "How can I verify GHRP-2 purity and authenticity in the UK?",
+        "answer": "You should always choose a vendor that provides a third-party certificate of analysis (COA) with HPLC purity testing, and confirm the product is explicitly labelled for research use only. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> walks through exactly what to check before ordering."
       }
     ]
   },
@@ -7477,7 +7485,7 @@
       },
       {
         "question": "Is Thymosin Alpha-1 available for research in the UK?",
-        "answer": "Yes, thymosin alpha-1 is available from UK research peptide suppliers including United Peptides and BodyHack Guide Shop, as well as international suppliers like Peptide Sciences and Core Peptides."
+        "answer": "Yes, thymosin alpha-1 is available from UK research peptide suppliers including United Peptides and BodyHack Guide Shop, as well as international suppliers like Peptide Sciences and Core Peptides. See our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> for what to verify before ordering."
       },
       {
         "question": "What is the standard dosage of Thymosin Alpha-1?",
@@ -7486,6 +7494,10 @@
       {
         "question": "Is Thymosin Alpha-1 clinically approved?",
         "answer": "Yes, Thymosin Alpha-1 (Zadaxin) is approved for clinical use in over 40 countries for hepatitis B and C treatment. However, it is not FDA or MHRA approved and is intended for research purposes in those jurisdictions."
+      },
+      {
+        "question": "How should Thymosin Alpha-1 be stored and reconstituted?",
+        "answer": "Lyophilised Thymosin Alpha-1 should be stored at -20°C, protected from light and moisture. Reconstitute with bacteriostatic water before use and refrigerate the solution at 2-8°C, using it within a short window for best stability. See our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a> for full handling guidelines."
       }
     ]
   },
@@ -7896,6 +7908,14 @@
       {
         "question": "What is the dosage protocol for Epitalon research?",
         "answer": "Research dosages range from 1–10 mg per day, with common protocols using short courses of 5–10 mg administered twice per year. Its very short half-life (~10 minutes) and epigenetic mechanism make intermittent course-based dosing the standard approach."
+      },
+      {
+        "question": "How should Epitalon be stored and reconstituted?",
+        "answer": "Lyophilised Epitalon powder should be stored at -20°C, protected from light and moisture. Reconstitute with bacteriostatic water before use and refrigerate the prepared solution at 2-8°C, using it within a short window to preserve stability. See our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a> for full handling advice."
+      },
+      {
+        "question": "How can I verify Epitalon purity and quality in the UK?",
+        "answer": "Only order from a supplier that provides a third-party certificate of analysis (COA) with HPLC purity verification, and make sure the product is clearly labelled for research use only. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> explains exactly what to check before you buy."
       }
     ]
   },
@@ -15165,7 +15185,29 @@
         "dosage": "10mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is Thymalin used for in research?",
+        "answer": "Thymalin is a thymic peptide composed of a complex of polypeptide fractions, researched primarily for immune modulation, thymus gland function, and aspects of the ageing process. It is studied alongside other Khavinson bioregulator peptides for immune restoration and regenerative applications. See our <a href=\"/research/thymalin-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Thymalin Research Summary</a> for a full overview."
+      },
+      {
+        "question": "How does Thymalin differ from Thymosin Alpha-1?",
+        "answer": "Thymalin is a mixture of thymic polypeptide fractions that broadly supports thymus and immune function, whereas Thymosin Alpha-1 is a single, well-defined 28-amino-acid peptide with a specific immunomodulatory mechanism. Researchers often study the two together, though they are distinct compounds. You can compare them directly on our <a href=\"/compounds/thymosin-alpha-1\" class=\"text-blue-600 underline hover:text-blue-700\">Thymosin Alpha-1</a> page."
+      },
+      {
+        "question": "Is Thymalin available for research in the UK?",
+        "answer": "Yes, Thymalin is widely available from UK-based research peptide suppliers such as United Peptides, UK Peptides and Kensington Labs. It is sold strictly for laboratory research use only and is not approved for human consumption. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> explains what to look for from a vendor."
+      },
+      {
+        "question": "How should Thymalin be stored and reconstituted?",
+        "answer": "Lyophilised Thymalin powder should be stored at -20°C, protected from light and moisture. After reconstitution with bacteriostatic water, it is typically refrigerated at 2-8°C and used within a short window. Full handling instructions are covered in our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a>."
+      },
+      {
+        "question": "What dosage protocol is typical for Thymalin research?",
+        "answer": "Common Thymalin research protocols use around 5-10 mg per day over a short course, with intermittent repeat sessions. Your exact approach will depend on the study design, and we cover general measurement and administration principles in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      }
+    ]
   },
   {
     "id": "vip",
@@ -15310,7 +15352,29 @@
         "image": "/images/products/crown-peptides/vip.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is VIP used for in research?",
+        "answer": "Vasoactive Intestinal Peptide (VIP) is a 28-amino-acid neuropeptide researched for its roles in immune modulation, inflammation regulation, neuroprotection and smooth muscle function in the gut and airways. Its broad anti-inflammatory profile makes it relevant across a wide range of research fields. See our <a href=\"/research/vip-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">VIP Research Summary</a> for a full overview."
+      },
+      {
+        "question": "How does VIP work at the molecular level?",
+        "answer": "VIP binds to VPAC1 and VPAC2 receptors, activating adenylate cyclase and raising intracellular cAMP. This signalling drives anti-inflammatory effects, regulates cytokine production and supports neuroendocrine communication. A general introduction to peptide signalling is available in our <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">How Peptides Work</a> guide."
+      },
+      {
+        "question": "Is VIP available for research in the UK?",
+        "answer": "Yes, VIP is available from UK-based research peptide suppliers such as Bio Peptides UK and Crown Peptides. It is sold strictly for laboratory research use only and is not approved for human consumption. Our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> explains how to evaluate a vendor."
+      },
+      {
+        "question": "How should VIP be stored and reconstituted?",
+        "answer": "Lyophilised VIP should be kept frozen at -20°C, protected from light and moisture, and reconstituted with bacteriostatic water shortly before use. Some research protocols also discuss buffering solutions to limit peptide oxidation. See our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a> for detailed handling advice."
+      },
+      {
+        "question": "How is VIP typically dosed in research protocols?",
+        "answer": "VIP is a fast-clearing peptide, so research protocols often use intermittent or repeated administration of small doses rather than one single large dose. Your exact approach depends on the study design, and measurement and administration principles are covered in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      }
+    ]
   },
   {
     "id": "aicar",
