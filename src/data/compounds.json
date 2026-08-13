@@ -6138,19 +6138,27 @@
     "faq": [
       {
         "question": "What is SS-31 (Elamipretide) used for?",
-        "answer": "SS-31 is researched for mitochondrial health, heart failure (particularly HFpEF), neuroprotection, kidney injury, and age-related mitochondrial dysfunction. It targets the inner mitochondrial membrane and stabilises cardiolipin to optimise energy production."
+        "answer": "SS-31 is researched for mitochondrial health, heart failure (particularly HFpEF), neuroprotection, kidney injury, and age-related mitochondrial dysfunction. It targets the inner mitochondrial membrane and stabilises cardiolipin to optimise energy production. For a full overview of the mechanism and the published literature, see our <a href=\"/research/ss-31-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">SS-31 Research Summary</a>."
       },
       {
         "question": "How does SS-31 work at the molecular level?",
-        "answer": "SS-31 binds to cardiolipin on the inner mitochondrial membrane, stabilising the cristae structure and electron transport chain supercomplexes. This reduces electron leakage and ROS production while improving ATP synthesis efficiency."
+        "answer": "SS-31 binds to cardiolipin on the inner mitochondrial membrane, stabilising the cristae structure and electron transport chain supercomplexes. This reduces electron leakage and ROS production while improving ATP synthesis efficiency. It is an example of targeted peptide design that we discuss in our <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">how peptides work</a> guide."
       },
       {
         "question": "Can I buy SS-31 in the UK?",
-        "answer": "Yes, SS-31 is available from UK research suppliers including United Peptides, Peptide Warehouse, and through international suppliers like Peptide Sciences and Core Peptides. Always verify purity certification before purchase."
+        "answer": "Yes, SS-31 is available from UK research suppliers including United Peptides, Peptide Warehouse, and through international suppliers like Peptide Sciences and Core Peptides. Always verify purity certification before purchase. For what to check before ordering, read our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
       },
       {
         "question": "What is the typical SS-31 dosage in research?",
-        "answer": "Research dosages typically range from 10–40 mg daily, with 20 mg subcutaneous daily being a common protocol. Its half-life of 2–4 hours supports once or twice daily administration."
+        "answer": "Research dosages typically range from 10–40 mg daily, with 20 mg subcutaneous daily being a common protocol. Its half-life of 2–4 hours supports once or twice daily administration. For general measurement and reconstitution principles, see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "Is buying and shipping SS-31 for research legal in the UK?",
+        "answer": "SS-31 is supplied for laboratory research purposes only and is not approved for human consumption. UK-based suppliers ship within the UK for bona fide research use, but you should confirm the product is clearly labelled for research only and check your facility's policies. See our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> for details."
+      },
+      {
+        "question": "How should I lab-test, reconstitute, and store SS-31?",
+        "answer": "Always request a Certificate of Analysis (COA) and verify the stated purity (≥99%) independently via HPLC where possible. Reconstitute lyophilised SS-31 with bacteriostatic water and store the solution correctly. The powder should be kept at -20°C, protected from light and moisture. For full guidance, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a>."
       }
     ]
   },
@@ -12641,7 +12649,33 @@
         "dosage": "10mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+      {
+        "question": "What is SNAP-8 used for in research?",
+        "answer": "SNAP-8 (Acetyl octapeptide-3) is an acetylated octapeptide researched for its effects on neuromuscular activity and skin health. By mimicking the N-terminal end of SNAP-25, it is studied as an analogue of Argireline for modulation of SNARE complex formation and neurotransmitter release. It is among the most widely discussed <a href=\"/research/best-peptides-for-skin\" class=\"text-blue-600 underline hover:text-blue-700\">peptides for skin research</a>."
+      },
+      {
+        "question": "How does SNAP-8 work at the molecular level?",
+        "answer": "SNAP-8 acts as a competitive inhibitor of the SNAP-25 protein, modulating SNARE complex formation and thereby influencing neurotransmitter release at the neuromuscular junction. This interference with the release machinery is the mechanism behind its use in cosmetic and neuromuscular research."
+      },
+      {
+        "question": "Is SNAP-8 available in the UK for research?",
+        "answer": "Yes, SNAP-8 is sold by UK research peptide suppliers for laboratory use only and is not approved for human consumption. For what to verify before placing an order, read our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a>."
+      },
+      {
+        "question": "What is the typical research dosage for SNAP-8?",
+        "answer": "SNAP-8 is a research-grade peptide and is typically supplied in lyophilised powder form for laboratory study. Where dosing is explored, protocols are developed in conjunction with solubility and measurement guidance. See our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a> for general measurement and administration principles."
+      },
+      {
+        "question": "How should I reconstitute and store SNAP-8?",
+        "answer": "Reconstitute lyophilised SNAP-8 with bacteriostatic water by adding the solvent slowly down the vial wall. Store the powder at -20°C, protected from light and moisture, and keep any reconstituted solution refrigerated at 2–8°C. For full guidance, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a>."
+      },
+      {
+        "question": "How should I lab-test SNAP-8 before use?",
+        "answer": "Always request a Certificate of Analysis (COA) and verify the stated purity (≥97%) independently via HPLC where possible. Ensure the product is clearly labelled for research purposes only and comes from a vendor that provides batch-specific analytical data."
+      }
+    ]
   },
   {
     "id": "bacteriostatic-water",
@@ -19533,7 +19567,32 @@
         "dosage": "2mg"
       }
     ],
-    "faq": [],
+    "faq": [
+      {
+        "question": "What is PEG-MGF used for in research?",
+        "answer": "PEG-MGF (PEGylated Mechano Growth Factor) is researched for muscle repair, satellite cell activation, tissue regeneration, and recovery. PEGylation extends its half-life compared to native MGF, making it of interest for post-exercise recovery protocols. See our <a href=\"/research/mgf-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">MGF Research Summary</a> for an overview, and learn how it relates to the unmodified form on our <a href=\"/compounds/mgf\" class=\"text-blue-600 underline hover:text-blue-700\">MGF compound page</a>."
+      },
+      {
+        "question": "How is PEG-MGF different from regular MGF?",
+        "answer": "The PEGylation (attachment of polyethylene glycol chains) increases the molecular size of MGF, slowing renal clearance and extending its circulating half-life. This means PEG-MGF can maintain elevated levels for longer than unmodified MGF, which is the key reason researchers select it for longer-duration dosing protocols."
+      },
+      {
+        "question": "How should PEG-MGF be reconstituted for research use?",
+        "answer": "Lyophilised PEG-MGF should be reconstituted with bacteriostatic water, added slowly down the vial wall. Once dissolved, the solution should be refrigerated at 2–8°C and used within the recommended window. Follow our <a href=\"/research/peptide-reconstitution-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Reconstitution Guide</a> for step-by-step mixing instructions."
+      },
+      {
+        "question": "What is the typical research dosage range for PEG-MGF?",
+        "answer": "Common research protocols use PEG-MGF at 200–600 mcg per injection in the post-training period, with some protocols dosing 2–3 times per week due to the extended half-life conferred by PEGylation. For general measurement and administration principles, see our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+      {
+        "question": "How should PEG-MGF be stored?",
+        "answer": "Store lyophilised PEG-MGF powder at -20°C, protected from light and moisture. Once reconstituted, the solution should be kept refrigerated at 2–8°C and used within the recommended period to maintain potency. For full guidance, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a>."
+      },
+      {
+        "question": "Can I buy PEG-MGF in the UK and is it lab-tested?",
+        "answer": "Yes, PEG-MGF is sold by UK and international research suppliers for laboratory use only and is not approved for human consumption. Always request a Certificate of Analysis (COA), verify independent HPLC purity testing, and ensure the product is clearly labelled for research purposes. For what to check before ordering, see our <a href=\"/research/best-peptides-for-muscle-growth\" class=\"text-blue-600 underline hover:text-blue-700\">guide to best peptides for muscle growth research</a>."
+      }
+    ],
     "compareSlug": "mgf",
     "longDescription": ""
   },
