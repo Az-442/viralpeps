@@ -10816,7 +10816,29 @@
         "dosage": "10mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+{
+        "question": "What is kisspeptin-10 used for in research?",
+        "answer": "Kisspeptin-10 is a 10-amino acid peptide from the KISS1 gene product (metastin) that acts as a key regulator of the hypothalamic-pituitary-gonadal axis, governing puberty onset and GnRH secretion. For a detailed overview see our <a href=\"/research/kisspeptin-10-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Kisspeptin-10 Research Summary</a>."
+      },
+{
+        "question": "How does kisspeptin-10 regulate reproduction?",
+        "answer": "Kisspeptin-10 is an agonist at the GPR54 (KISS1R) receptor expressed on GnRH neurons, stimulating GnRH release which in turn drives LH and FSH secretion from the pituitary. This makes it central to research into puberty, fertility, and reproductive function. It is supplied for research use only and not for human administration."
+      },
+{
+        "question": "What dosages are studied in kisspeptin-10 research?",
+        "answer": "Research commonly investigates kisspeptin-10 in the region of 25-100 mcg/day, or 0.3-1.0 mcg/kg in physiological models. General dosing and preparation guidance can be found in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+{
+        "question": "Is kisspeptin-10 available to buy in the UK?",
+        "answer": "Yes, kisspeptin-10 is stocked by UK research suppliers as lyophilised powder in 5mg and 10mg vials. Confirm purity documentation and UK shipping times before ordering; see our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide. For research use only."
+      },
+{
+        "question": "How should kisspeptin-10 be stored?",
+        "answer": "Kisspeptin-10 should be stored refrigerated and protected from light, ideally in its lyophilised state until reconstitution, as it has a short half-life of approximately 27 minutes in circulation. For practical storage advice see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a>. Research use only."
+      }
+    ]
   },
   {
     "id": "cerebrolysin",
@@ -13550,7 +13572,29 @@
         "image": "/images/products/peptidesx/nad-plus.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+{
+        "question": "What is NAD+ and why is it studied?",
+        "answer": "NAD+ (nicotinamide adenine dinucleotide) is a fundamental coenzyme found in all living cells, central to energy metabolism, DNA repair, and sirtuin signalling. It has become a key focus of ageing and longevity research. See our <a href=\"/research/nad-plus-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">NAD+ Research Summary</a> for a detailed overview."
+      },
+{
+        "question": "How does NAD+ support cellular energy and mitochondrial research?",
+        "answer": "NAD+ acts as an electron carrier in redox reactions and is a substrate for sirtuins (SIRT1-7), PARP enzymes, and CD38, making it critical for mitochondrial function and cellular energy homeostasis. For a broader introduction to how peptides influence these pathways, see our <a href=\"/research/how-peptides-work\" class=\"text-blue-600 underline hover:text-blue-700\">How Peptides Work</a> guide."
+      },
+{
+        "question": "What dosages are commonly studied in NAD+ research?",
+        "answer": "NAD+ research commonly investigates single doses in the 250-500mg range, with some protocols exploring up to 1000mg depending on the model and administration route. General measurement and dilution guidance is available in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+{
+        "question": "Can I buy NAD+ in the UK for research?",
+        "answer": "Yes, NAD+ is available from UK-based research suppliers as lyophilised powder in doses from 100mg to 1000mg. When choosing a vendor, confirm purity certificates and UK dispatch times; see our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide. All products are for research use only."
+      },
+{
+        "question": "How should NAD+ vials be reconstituted and stored?",
+        "answer": "NAD+ should be reconstituted with bacteriostatic water and used promptly, storing any remainder refrigerated and protected from light. For step-by-step guidance on preparing your vials, see our <a href=\"/research/peptide-reconstitution-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Reconstitution Guide</a>. For research use only."
+      }
+    ]
   },
   {
     "id": "hcg",
@@ -13665,7 +13709,29 @@
         "image": "/images/products/lab77-peptides/hcg.webp"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+{
+        "question": "What is HCG used for in research?",
+        "answer": "HCG (Human Chorionic Gonadotropin) is a glycoprotein hormone studied for its LH-like activity at the LH/CG receptor, with research spanning reproductive endocrinology, steroidogenesis, and hormonal signalling pathways. For a full overview of the compound and the pathways under investigation, see our <a href=\"/research/hcg-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">HCG Research Summary</a>."
+      },
+{
+        "question": "How does HCG act at the receptor level?",
+        "answer": "HCG binds directly to the LH/CG receptor and mimics the action of luteinizing hormone, which stimulates steroidogenesis and downstream hormonal signalling. This LH-mimicking activity is why HCG is widely used in research into reproductive endocrine pathways. These products are for research use only and are not intended for human administration."
+      },
+{
+        "question": "What dosages are commonly studied in HCG research?",
+        "answer": "Common research protocols typically study doses in the range of 250-500 IU administered two to three times per week, though the exact approach depends on the experimental model. General measurement, dilution, and administration guidance can be found in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+{
+        "question": "Is HCG available to buy in the UK for research?",
+        "answer": "Yes, HCG is available from UK-based research suppliers as a lyophilised powder or pre-dosed solution. When choosing a vendor it is important to confirm purity documentation and UK dispatch times; our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide explains what to look for. Orders placed in the UK are typically dispatched and delivered within a few working days."
+      },
+{
+        "question": "How should HCG vials be reconstituted and stored?",
+        "answer": "HCG powder should be reconstituted with bacteriostatic water shortly before use and kept refrigerated between 2 and 8°C. Store away from direct light and use aseptic technique throughout. For practical guidance on keeping your vials stable, see our <a href=\"/research/peptide-storage-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Storage Guide</a>. For research use only."
+      }
+    ]
   },
   {
     "id": "hgh-97",
@@ -16027,7 +16093,29 @@
         "dosage": "100mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+{
+        "question": "What is AHK-Cu and how does it compare to GHK-Cu?",
+        "answer": "AHK-Cu (alanyl-histidyl-lysine-Cu) is the tripeptide form of GHK-Cu and shares much of its copper-binding chemistry and collagen-related research profile. To understand the close relationship between the two peptides, you can read our <a href=\"/research/ghkcu-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">GHK-Cu Research Summary</a> or compare the parent compound directly on the <a href=\"/compounds/ghk-cu\" class=\"text-blue-600 underline hover:text-blue-700\">GHK-Cu compound page</a>."
+      },
+{
+        "question": "What are AHK-Cu's research applications?",
+        "answer": "AHK-Cu is studied primarily in cosmetic and tissue-health research for its role in collagen organisation, extracellular matrix modulation, and skin regeneration and wound-healing contexts. For context on how it fits alongside other dermatology-focused peptides, see our <a href=\"/research/best-peptides-for-skin\" class=\"text-blue-600 underline hover:text-blue-700\">Guide to the Best Peptides for Skin</a>."
+      },
+{
+        "question": "What dosages are commonly studied in AHK-Cu research?",
+        "answer": "AHK-Cu is usually supplied as a 100mg lyophilised powder and reconstituted before use. Topical-style research models commonly investigate microgram-level concentrations. General measurement and dilution principles are covered in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+{
+        "question": "Is AHK-Cu available to buy in the UK for research?",
+        "answer": "Yes, AHK-Cu is stocked by several UK research suppliers as a lyophilised 100mg powder. When purchasing, confirm purity certificates and UK dispatch times; our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide outlines the key checks. These products are for research use only."
+      },
+{
+        "question": "How should AHK-Cu be reconstituted and stored?",
+        "answer": "AHK-Cu powder should be reconstituted with bacteriostatic water just before use and stored refrigerated and protected from light. Always use sterile technique and avoid repeated freeze-thaw cycles. The product is for laboratory research use only, not for human or veterinary administration."
+      }
+    ]
   },
   {
     "id": "vitamin-b12",
@@ -16799,7 +16887,29 @@
         "dosage": "1mg"
       }
     ],
-    "longDescription": ""
+    "longDescription": "",
+    "faq": [
+{
+        "question": "What is follistatin-344 and how does it work?",
+        "answer": "Follistatin-344 is a recombinant 344-amino-acid isoform of follistatin that binds and neutralises myostatin (GDF-8) and other TGF-\u03b2 superfamily members, releasing the brakes on muscle growth. For an in-depth look see our <a href=\"/research/follistatin-344-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">Follistatin-344 Research Summary</a>."
+      },
+{
+        "question": "Why is follistatin-344 studied for muscle growth?",
+        "answer": "Because follistatin-344 is such a potent myostatin antagonist, it is among the most researched peptides for skeletal muscle hypertrophy, sarcopenia, and muscle-wasting disorders. To see how it fits alongside other growth-focused peptides, read our <a href=\"/research/best-peptides-for-muscle-growth\" class=\"text-blue-600 underline hover:text-blue-700\">Best Peptides for Muscle Growth</a> guide."
+      },
+{
+        "question": "What dosages are studied in follistatin-344 research?",
+        "answer": "Research commonly investigates doses around 1mg every three days, or 2-3mg per week, depending on the model. General dosing and measurement guidance can be found in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
+      },
+{
+        "question": "Is follistatin-344 available to buy in the UK?",
+        "answer": "Yes, follistatin-344 is available from UK research suppliers as a lyophilised 1mg powder. Confirm purity documentation and UK dispatch times before ordering; see our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">Choosing a UK Supplier</a> guide. For research use only."
+      },
+{
+        "question": "How should follistatin-344 be reconstituted and stored?",
+        "answer": "Follistatin-344 is a recombinant protein requiring careful reconstitution with bacteriostatic water and cold-chain storage to preserve bioactivity. For step-by-step guidance see our <a href=\"/research/peptide-reconstitution-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Reconstitution Guide</a>. Research use only; not for human administration."
+      }
+    ]
   },
   {
     "id": "ace-031-1mg",
