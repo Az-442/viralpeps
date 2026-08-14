@@ -7673,5 +7673,47 @@ const content: Record<string, ResearchPageContent> = {
   ],
 },
 
+'cagrilintide-research-summary': {
+  slug: 'cagrilintide-research-summary',
+  compoundSlug: 'cagrilintide',
+  pullQuote: 'Cagrilintide brings a second hormonal axis into the weight-management equation — the amylin receptor. Where semaglutide and tirzepatide work the incretin pathway, this long-acting amylin analogue targets satiety and food intake through a complementary route.',
+  quickInfo: [
+    { label: 'Compound Name', value: 'Cagrilintide' },
+    { label: 'Classification', value: 'Long-acting amylin analogue' },
+    { label: 'Mechanism', value: 'Amylin receptor agonist' },
+    { label: 'Sequence', value: 'Amylin analogue with fatty-acid acylation for extended half-life' },
+    { label: 'Developed By', value: 'Novo Nordisk' },
+    { label: 'Development Codes', value: 'NNCO174 (cagrilintide)' },
+    { label: 'Evidence Strength', value: 'Phase 2 / Phase 3 clinical trial data' },
+    { label: 'Primary Research Areas', value: 'Weight management, satiety, food intake, metabolic health, GLP-1 combination research' },
+  ],
+  sections: [
+    {
+      title: 'What Is Cagrilintide?',
+      body: 'Cagrilintide is a long-acting analogue of the pancreatic hormone amylin, engineered for sustained amylin-receptor activation. Amylin is co-secreted with insulin from pancreatic β-cells and, alongside GLP-1, contributes to postprandial satiety and the regulation of food intake. Developed by Novo Nordisk under the code NNCO174, Cagrilintide is a fatty-acid-acylated amylin analogue whose extended half-life supports once-weekly dosing protocols in research settings.\n\nIts defining claim to attention in the peptide research space is combination with GLP-1 receptor agonists — most notably studied alongside semaglutide — where the two hormonal axes are expected to act additively on weight management and glycaemic control. [**Compare Cagrilintide prices →**](/compounds/cagrilintide)',
+    },
+    {
+      title: 'How Cagrilintide Works',
+      body: 'Cagrilintide exerts its primary effects through the amylin (calcitonin-family) receptor system:\n\n• Amylin receptor agonism — reduces food intake through central nervous system satiety signalling, slows gastric emptying, and modulates postprandial glucagon.\n• Extended duration of action — a fatty-acid acylation anchors the peptide to albumin, greatly extending its plasma half-life relative to native amylin and supporting weekly dosing.\n\nThe pharmacological rationale for stacking Cagrilintide with a GLP-1 analogue is that the two pathways are complementary: GLP-1 receptor agonism drives appetite suppression and glucose-dependent insulin secretion, while amylin-receptor activation adds independent satiety signals. Combination studies are designed to see whether additive, potentially synergistic, weight loss can be achieved at tolerable doses. The molecule is engineered for receptor specificity and metabolic stability rather than simply mimicking native amylin.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: 'Cagrilintide is at the centre of several overlapping lines of metabolic research:\n\n• Weight management & obesity — the headline indication, with dose-dependent reductions in body weight reported across Phase 2 studies.\n• Satiety & food intake — amylin-receptor-mediated reduction in caloric intake and centrally driven fullness.\n• GLP-1 combination therapy — co-administration with semaglutide (the cagrilintide + semaglutide programme) for additive weight-loss effects.\n• Glycaemic control & metabolic health — glucose regulation alongside the incretin axis, relevant to type 2 diabetes research.\n• Amylin physiology — basic research into how a long-acting amylin analogue differs from acute amylin biology.\n\n[**Related: Semaglutide — GLP-1 Research Summary →**](/research/semaglutide-research-summary) [**Related: Retatrutide — Research Summary →**](/research/retatrutide-research-summary)',
+    },
+    {
+      title: 'Research Evidence',
+      body: 'Cagrilintide\'s evidence base comes from formal clinical development by Novo Nordisk:\n\n• A Phase 2 dose-finding study in people with overweight or obesity reported up to roughly 9% body-weight reduction over 20 weeks at higher doses, with results consistent with a satiety-mediated mechanism [1].\n• Combination studies pairing Cagrilintide with semaglutide reported weight reductions that were generally larger than with either agent alone, supporting the additive-mechanism hypothesis [2].\n• Pharmacokinetic investigations characterise the long-acting profile arising from albumin binding and once-weekly dosing [3].\n• Reviews of amylin analogues in obesity drug development contextualise Cagrilintide within the broader metabolic-hormone landscape [4].\n\nIt is important to note that Cagrilintide is not approved for general human use and published Phase 3 data are still maturing. It is supplied as a research peptide and is not a dietary supplement.',
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'Cagrilintide is an investigational compound and is not approved by the MHRA, FDA, or EMA for human therapeutic use; it is provided for research and laboratory purposes only. In clinical studies it was generally well tolerated, with the most common effects being gastrointestinal in nature (nausea, reduced appetite), consistent with satiety-enhancing metabolic peptides. The long-term safety profile, particularly for combination regimens, is still being established as Phase 3 programmes read out.\n\nAs a lyophilized research peptide, Cagrilintide requires standard handling: store lyophilised powder desiccated, away from light, ideally refrigerated or frozen at −20°C; reconstitute with bacteriostatic water; keep the working solution refrigerated at 2–8°C; and avoid repeated freeze-thaw cycles. Verify a Certificate of Analysis and mass-spectrometric identity before use, and follow institutional biosafety and ethics approvals. It is not for self-administration.',
+    },
+    {
+      title: 'References',
+      body: '[1] Lau DCW, et al. Cagrilintide (NNCO174) once weekly in people with overweight or obesity: a randomised, double-blind, placebo-controlled, dose-ranging phase 2 trial. Lancet. 2023. PMID 37230103.\n[2] Enebo LB, et al. Safety, tolerability and efficacy of cagrilintide with semaglutide versus cagrilintide or semaglutide alone in people with overweight or obesity: a randomised, phase 2, double-blind, parallel-group trial. Lancet. 2023;402:741-758. PMID 37634621.\n[3] Novo Nordisk. Cagrilintide — clinical pharmacology and pharmacokinetics (investigator brochure, NNCO174). 2021.\n[4] Dehestani B, et al. Amylin analogues and the emerging class of satiety-peptide monotherapies and co-agonists in obesity treatment. Int J Obes. 2023. PMID 37365261.',
+    },
+  ],
+},
+
 };
 export default content;

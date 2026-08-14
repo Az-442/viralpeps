@@ -7,14 +7,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "LL-37"
-VIAL_PATH = "public/images/compounds/ll-37-vial.png"
-OUTPUT_PATH = "public/images/guides/ll37-research-summary.png"
+COMPOUND = "Cagrilintide"
+VIAL_PATH = "public/images/compounds/cagrilintide-vial.png"
+OUTPUT_PATH = "public/images/guides/cagrilintide-research-summary.png"
 DESCRIPTION_LINES = [
-    "Overview of LL-37, the only human",
-    "cathelicidin — a 37-amino-acid host-defence",
-    "peptide studied for broad-spectrum",
-    "antimicrobial and wound-healing activity.",
+    "Overview of Cagrilintide, a long-acting",
+    "amylin analogue studied for weight",
+    "management and metabolic health, often",
+    "researched alongside GLP-1 agonists.",
 ]
 # ==================================================
 

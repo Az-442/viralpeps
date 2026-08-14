@@ -938,6 +938,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['mazdutide', 'ly3305677', 'ibi362', 'glp-1', 'glucagon', 'dual-agonist', 'oxyntomodulin', 'weight-loss', 'metabolic'],
 },
+{
+    title: 'Cagrilintide Research Summary',
+    desc: 'Overview of Cagrilintide (NNCO174), a novel long-acting amylin analogue developed by Novo Nordisk. Researched for weight management, satiety, food intake and metabolic health, and studied in combination with GLP-1 agonists such as semaglutide. Compared across 6 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'Cagrilintide',
+    slug: 'cagrilintide-research-summary',
+    image: 'cagrilintide-research-summary',
+    minutes: 8,
+    tags: ['cagrilintide', 'nnco174', 'amylin', 'amylin-analogue', 'satiety', 'weight-loss', 'glp-1', 'metabolic'],
+},
 
 ];
 
