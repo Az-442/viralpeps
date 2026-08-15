@@ -7,14 +7,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "Cagrilintide"
-VIAL_PATH = "public/images/compounds/cagrilintide-vial.png"
-OUTPUT_PATH = "public/images/guides/cagrilintide-research-summary.png"
+COMPOUND = "Survodutide"
+VIAL_PATH = "public/images/compounds/survodutide-vial.png"
+OUTPUT_PATH = "public/images/guides/survodutide-research-summary.png"
 DESCRIPTION_LINES = [
-    "Overview of Cagrilintide, a long-acting",
-    "amylin analogue studied for weight",
-    "management and metabolic health, often",
-    "researched alongside GLP-1 agonists.",
+    "Overview of Survodutide (BI 456906), a dual",
+    "glucagon / GLP-1 receptor agonist researched",
+    "for obesity and MASH. Up to ~19% weight loss",
+    "in Phase 2 obesity trials.",
 ]
 # ==================================================
 

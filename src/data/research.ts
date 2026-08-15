@@ -949,6 +949,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['cagrilintide', 'nnco174', 'amylin', 'amylin-analogue', 'satiety', 'weight-loss', 'glp-1', 'metabolic'],
 },
+{
+    title: 'Survodutide Research Summary',
+    desc: 'Overview of Survodutide (BI 456906), a dual glucagon/GLP-1 receptor agonist developed by Boehringer Ingelheim and Zealand Pharma. Researched for obesity with up to ~19% weight loss in Phase 2, and for MASH/NASH with significant histological resolution. Compared across 3 UK suppliers.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'Survodutide',
+    slug: 'survodutide-research-summary',
+    image: 'survodutide-research-summary',
+    minutes: 8,
+    tags: ['survodutide', 'bi-456906', 'glucagon', 'gcg', 'glp-1', 'dual-agonist', 'weight-loss', 'obesity', 'mash', 'metabolic'],
+},
 
 ];
 

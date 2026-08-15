@@ -7715,5 +7715,47 @@ const content: Record<string, ResearchPageContent> = {
   ],
 },
 
+'survodutide-research-summary': {
+  slug: 'survodutide-research-summary',
+  compoundSlug: 'survodutide',
+  pullQuote: 'Survodutide pairs the two metabolic arms that a GLP-1 alone cannot reach — it hits the glucagon receptor to raise energy expenditure and the GLP-1 receptor to suppress appetite. In Phase 2 that combination delivered the strongest weight-loss signal yet seen for a dual agonist, and a parallel MASH trial showed marked liver-histology improvement.',
+  quickInfo: [
+    { label: 'Compound Name', value: 'Survodutide' },
+    { label: 'Classification', value: 'Dual glucagon / GLP-1 receptor agonist' },
+    { label: 'Mechanism', value: 'GCGR (glucagon receptor) + GLP-1 receptor agonism' },
+    { label: 'Development Codes', value: 'BI 456906' },
+    { label: 'Developed By', value: 'Boehringer Ingelheim + Zealand Pharma' },
+    { label: 'Evidence Strength', value: 'Phase 2 clinical trial data; Phase 3 SYNCHRONIZE programme ongoing' },
+    { label: 'Primary Research Areas', value: 'Obesity, weight management, MASH/NASH, metabolic dysfunction, NAFLD' },
+  ],
+  sections: [
+    {
+      title: 'What Is Survodutide?',
+      body: 'Survodutide (BI 456906) is an investigational dual agonist of the glucagon receptor (GCGR) and the glucagon-like peptide-1 receptor, developed through a collaboration between Boehringer Ingelheim and Zealand Pharma. Where selective GLP-1 agents such as semaglutide work principally through appetite suppression and delayed gastric emptying, Survodutide adds glucagon-receptor activation, which increases energy expenditure and promotes fatty-acid oxidation.\n\nIts defining claim to attention in the metabolic research space is that this dual mechanism has produced among the largest weight-loss signals seen in a Phase 2 programme, while a separate Phase 2 trial demonstrated substantial improvement in MASH (metabolic dysfunction-associated steatohepatitis) with liver fibrosis. [**Compare Survodutide prices →**](/compounds/survodutide)',
+    },
+    {
+      title: 'How Survodutide Works',
+      body: 'Survodutide exerts its effects through simultaneous agonism of two complementary receptors:\n\n• GLP-1 receptor agonism — reduces appetite, slows gastric emptying, and drives glucose-dependent insulin secretion, the same incretin pathway used by semaglutide and tirzepatide.\n• Glucagon receptor agonism — increases resting energy expenditure, stimulates hepatic glucose production acutely, and promotes lipolysis and fatty-acid oxidation in liver and adipose tissue.\n\nThe pharmacological rationale for a dual agonist is that the two pathways act additively: GLP-1 curbs intake while glucagon burns more energy, potentially producing greater weight and liver-fat reduction than either alone. Pegylation confers an extended half-life that supports once-weekly subcutaneous dosing protocols in research settings.',
+    },
+    {
+      title: 'Key Research Areas',
+      body: 'Survodutide is at the centre of several overlapping lines of metabolic research:\n\n• Obesity & weight management — the headline indication, with dose-dependent body-weight reduction reported across Phase 2 studies.\n• MASH / NAFLD — liver-histology improvement, hepatic fat reduction, and fibrosis outcomes in biopsy-confirmed MASH.\n• Energy expenditure & metabolic rate — glucagon-receptor-driven thermogenesis and fatty-acid oxidation.\n• Glucose regulation — glycaemic endpoints alongside the incretin axis in overweight and obese populations.\n• The dual-agonist class — compared with Mazdutide (GLP-1/glucagon), tirzepatide (GLP-1/GIP) and retatrutide (triple agonist).\n\n[**Related: Retatrutide — Research Summary →**](/research/retatrutide-research-summary) [**Related: Mazdutide — Research Summary →**](/research/mazdutide-research-summary) [**Related: Cagrilintide — Research Summary →**](/research/cagrilintide-research-summary)',
+    },
+    {
+      title: 'Research Evidence',
+      body: 'Survodutide\'s evidence base comes from formal clinical development by Boehringer Ingelheim and Zealand Pharma:\n\n• A Phase 2 dose-finding trial in 387 adults with overweight or obesity (without type 2 diabetes) reported weight loss of up to approximately 18.7% (~19%) over 46 weeks at the highest doses, with response proportional to dose [1].\n• A Phase 2 trial in 293 adults with biopsy-confirmed MASH and fibrosis reported MASH improvement without worsening of fibrosis in up to 62% of participants (4.8 mg group) versus 14% with placebo at 48 weeks, alongside reductions in liver fat [2].\n• The same MASH trial reported meaningful fibrosis improvement (≥1 stage) in up to 36% of treated participants versus 22% with placebo [2].\n• A Phase 3 programme (SYNCHRONIZE) is ongoing to confirm weight-management efficacy in larger, longer populations, with Phase 3 MASH development also initiated [3].\n\nIt is important to note that Survodutide is not approved for general human use in the UK or elsewhere at the time of writing; published data are from Phase 2 programmes and outcomes are still being confirmed in Phase 3. It is supplied as a research peptide and is not a dietary supplement.',
+    },
+    {
+      title: 'Safety & Research Use',
+      body: 'Survodutide is an investigational compound and is not approved by the MHRA, FDA, or EMA for human therapeutic use; it is provided for research and laboratory purposes only. In Phase 2 clinical studies it was generally well tolerated, with the most common adverse effects being gastrointestinal in nature. In the MASH trial, nausea was reported in up to 66%, diarrhoea in up to 49%, and vomiting in up to 41% of treated participants, versus 23%, 23% and 4% respectively with placebo [2]. Serious adverse events were broadly similar between groups.\n\nAs a lyophilized research peptide, Survodutide requires standard handling: store lyophilised powder desiccated and away from light, ideally refrigerated or frozen at −20°C; reconstitute with bacteriostatic water; keep the working solution refrigerated at 2–8°C; and avoid repeated freeze-thaw cycles. Verify a Certificate of Analysis and mass-spectrometric identity before use, and follow institutional biosafety and ethics approvals. It is not for self-administration.',
+    },
+    {
+      title: 'References',
+      body: '[1] le Roux CW, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024;12(3):162-173. PMID 38330987.\n[2] Sanyal AJ, et al. A phase 2 randomized trial of survodutide in MASH and fibrosis. N Engl J Med. 2024;391(4):311-319. PMID 38847460.\n[3] Boehringer Ingelheim. Survodutide (BI 456906) clinical development programme — SYNCHRONIZE and Phase 3 MASH trials. 2024.',
+    },
+  ],
+},
+
+
 };
 export default content;
