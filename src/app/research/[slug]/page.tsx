@@ -122,17 +122,35 @@ function SectionRenderer({ section }: { section: any }) {
   );
 }
 
-/** Randomly pick N articles, excluding the current one */
+/** Pick N relevant articles (same compound + shared research tags), excluding the current one */
 function getRelatedArticles(currentSlug: string, _compoundSlug?: string, count = 2): ResearchArticle[] {
-  let pool = _compoundSlug
-    ? guides.filter((g) => g.slug !== currentSlug)
-    : guides.filter((g) => g.slug !== currentSlug);
-  // Shuffle
-  for (let i = pool.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [pool[i], pool[j]] = [pool[j], pool[i]];
-  }
-  return pool.slice(0, count);
+  const current = guides.find((g) => g.slug === currentSlug);
+  const currentCompound = (current?.compound || _compoundSlug || "").toLowerCase();
+  const currentTags = (current?.tags || []).map((t) => t.toLowerCase());
+  const tagSet = new Set<string>(currentTags);
+
+  // Score candidates by RELEVANCE (compound match + shared research tags), not randomness.
+  const scored = guides
+    .filter((g) => g.slug !== currentSlug)
+    .map((g) => {
+      const comp = (g.compound || "").toLowerCase();
+      const tags = (g.tags || []).map((t) => t.toLowerCase());
+      let score = 0;
+      // Strongest: same compound (e.g. another TB-500 article, TB-500 vs BPC-157).
+      if (currentCompound && comp === currentCompound) score += 10;
+      // Second: shared research-space tags (recovery, tissue-repair, weight-loss...).
+      for (const t of tags) if (tagSet.has(t)) score += 2;
+      return { g, score };
+    });
+
+  // Stable order by score desc (ties keep original data order), then pick the top `count`.
+  scored.sort((a, b) => b.score - a.score);
+  if (scored.length <= count) return scored.map((s) => s.g);
+  const relevant = scored.filter((s) => s.score > 0);
+  // Prefer genuinely relevant matches; fall back to any if not enough.
+  const picked = (relevant.length >= count ? relevant : relevant.concat(scored.filter((s) => s.score === 0)))
+    .slice(0, count);
+  return picked.map((s) => s.g);
 }
 
 export default async function ResearchArticlePage({
