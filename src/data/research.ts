@@ -985,6 +985,17 @@ export const guides: ResearchArticle[] = [
     minutes: 8,
     tags: ['survodutide', 'bi-456906', 'glucagon', 'gcg', 'glp-1', 'dual-agonist', 'weight-loss', 'obesity', 'mash', 'metabolic'],
 },
+{
+  title: 'TB-500 for Recovery: Cell Migration, Angiogenesis and Tissue Repair',
+  desc: 'A dedicated goal article on TB-500 (thymosin beta-4) for recovery research \u2014 how its actin-migration, angiogenesis, and anti-inflammatory mechanisms support tendon, wound, muscle, cardiac, and neural repair. Dosing, evidence, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'TB-500',
+  slug: 'tb-500-for-recovery',
+  image: 'tb-500-for-recovery',
+  minutes: 12,
+  tags: ['tb-500', 'thymosin-beta-4', 'recovery', 'tissue-repair', 'angiogenesis', 'cell-migration', 'goals'],
+},
 
 ];
 

@@ -7,14 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "Survodutide"
-VIAL_PATH = "public/images/compounds/survodutide-vial.png"
-OUTPUT_PATH = "public/images/guides/survodutide-research-summary.png"
+COMPOUND = "TB-500"
+VIAL_PATH = "public/images/compounds/tb-500-vial.png"
+OUTPUT_PATH = "public/images/guides/tb-500-for-recovery.png"
 DESCRIPTION_LINES = [
-    "Overview of Survodutide (BI 456906), a dual",
-    "glucagon / GLP-1 receptor agonist researched",
-    "for obesity and MASH. Up to ~19% weight loss",
-    "in Phase 2 obesity trials.",
+    "TB-500 (thymosin beta-4) drives recovery",
+    "by directing cell migration, rebuilding blood",
+    "supply and reducing excessive inflammation.",
+    "Studied for tendon, wound, muscle, cardiac",
+    "and neural tissue repair.",
 ]
 # ==================================================
 

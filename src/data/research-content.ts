@@ -7775,5 +7775,85 @@ const content: Record<string, ResearchPageContent> = {
 },
 
 
+'tb-500-for-recovery': {
+  slug: 'tb-500-for-recovery',
+  compoundSlug: 'tb-500',
+  pullQuote: 'Recovery is not one event but a coordinated migration of cells toward a wound — and TB-500 (thymosin beta-4) is the signalling peptide that tells those cells exactly where to march, when to arrive, and what to build when they get there.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'TB-500 (Thymosin Beta-4 Fragment)' },
+    { label: 'Parent Protein', value: 'Thymosin Beta-4 (T\u03b24) \u2014 43 amino acids' },
+    { label: 'Classification', value: 'Recovery / Tissue Support Peptide' },
+    { label: 'Active Sequence', value: 'LKKTETQ (amino acids 17\u201323 of T\u03b24)' },
+    { label: 'CAS Number', value: '885340-08-9 (also 77591-33-4)' },
+    { label: 'Molecular Weight', value: '4963.4 g/mol' },
+    { label: 'Half-Life', value: '~2.5 hours' },
+    { label: 'Typical Research Dose', value: '2\u20135 mg, 2\u20133x per week' },
+    { label: 'Route', value: 'Subcutaneous injection' },
+    { label: 'Evidence Strength', value: 'Extensive preclinical; first human clinical data emerging (2025)' },
+    { label: 'Recovery Research Areas', value: 'Tendon/ligament, wound healing, muscle repair, cardiac recovery, neuroprotection' },
+  ],
+  sections: [
+    {
+      title: 'Recovery Is a Cellular Journey \u2014 TB-500 Leads It',
+      body: 'Recovery from injury is rarely a single event. It is a coordinated sequence in which immune cells calm the damaged site, endothelial cells build new blood supply, and resident cells \u2014 fibroblasts, keratinocytes, myocytes \u2014 migrate in, divide, and lay down organised tissue. Each step depends on cells being able to move.\n\nTB-500 is a synthetic peptide fragment corresponding to the active region (amino acids 17\u201323, the LKKTETQ sequence) of thymosin beta-4, a naturally occurring 43-amino-acid protein first isolated from the thymus gland in 1981. Where other recovery peptides work by stimulating blood-vessel formation or collagen synthesis, TB-500\u2019s core job is cell movement: it governs the actin cytoskeleton that every migrating and remodelling cell relies on. That makes it one of the most broadly applied recovery-focused peptides in the research catalogue.\n\nThis guide examines TB-500 specifically through the lens of recovery \u2014 the pathways it activates, the tissues where it is most studied, the evidence behind it, and how it is typically researched in UK protocols.\n\n[**Compare TB-500 prices from UK suppliers \u2192**](/compounds/tb-500)',
+    },
+    {
+      title: 'How TB-500 Drives Recovery: The Five Levers',
+      body: 'TB-500 does not have one mechanism. It operates through at least five coordinated biological levers that together orchestrate repair from the molecular level upward.',
+      subsections: [
+        { title: '1. Actin Sequestration \u2014 The Mobility Engine', body: 'The LKKTETQ motif binds directly to G-actin and regulates actin polymerisation, controlling the cytoskeletal machinery cells use to migrate toward injury sites (Safer et al., 1991; Malinda et al., 1997). Cell movement is the single most rate-limiting step in wound closure, and this is TB-500\u2019s defining action.' },
+        { title: '2. Angiogenesis \u2014 Rebuilding Blood Supply', body: 'Promotes new blood vessel formation by stimulating endothelial cell migration and tube formation, in part via VEGF upregulation. Damaged, ischaemic tissue cannot heal without fresh perfusion, making this a critical recovery pathway.' },
+        { title: '3. Anti-Inflammatory Signalling', body: 'Downregulates TNF-\u03b1, IL-1\u03b2, and NF-\u03baB signalling without silencing the immune response entirely \u2014 damping excessive inflammation while preserving the clean-up phase of healing.' },
+        { title: '4. Matrix Remodelling \u2014 Less Scar, More Structure', body: 'Modulates MMPs and TIMPs for organised extracellular matrix turnover and reduced scarring, helping repaired tissue regain tensile strength rather than forming disorganised fibrous tissue.' },
+        { title: '5. Cardiac Progenitor Activation', body: 'Activates epicardium-derived progenitor cells capable of differentiating into cardiomyocytes, giving TB-500 a distinctive niche in cardiac recovery research (Smart et al., 2007).' },
+      ],
+    },
+    {
+      title: 'Recovery in Specific Tissues',
+      body: 'The recovery literature on TB-500 spans multiple tissue types, each with its own research focus.',
+      subsections: [
+        { title: 'Wound Healing', body: 'Philp et al. (2004) demonstrated 42% faster wound closure in rat excisional wound models \u2014 one of the most cited quantitative results in the TB-500 literature. [**Compare TB-500 prices \u2192**](/compounds/tb-500)' },
+        { title: 'Tendon and Ligament Recovery', body: 'One of the most studied injectable peptides in sports-medicine research, with reported improvements in collagen fibre alignment and tensile strength after injury.' },
+        { title: 'Cardiac Recovery', body: 'Activates epicardial progenitor cells; a 2025 human study provided the first controlled clinical evidence of TB-500 in a cardiac setting.' },
+        { title: 'Corneal Healing', body: 'Accelerates epithelial repair and reduces inflammation-induced haze in corneal injury models.' },
+        { title: 'Neuroprotection', body: 'Reduces neuronal apoptosis and lesion volume in traumatic brain injury and stroke models \u2014 recovery of neural tissue rather than simple repair of connective tissue.' },
+      ],
+    },
+    {
+      title: 'Evidence: What Is Actually Published',
+      body: 'TB-500\u2019s evidence base is overwhelmingly preclinical, with the first controlled human data emerging in 2025. The strongest findings cluster around soft-tissue migration and revascularisation.',
+      subsections: [
+        { title: 'Actin-Binding Basis', body: 'Safer et al. (1991) characterised the LKKTETQ actin-binding motif \u2014 the mechanistic foundation for TB-500\u2019s cell-migration effects (PMID 1999397).' },
+        { title: 'Endothelial Migration', body: 'Malinda et al. (1997) reported thymosin beta-4 promotes endothelial cell migration and angiogenesis in vitro and in vivo (PMID 9194529).' },
+        { title: 'Wound Closure', body: 'Philp et al. (2004) reported accelerated full-thickness wound healing in rats (PMID 15555058).' },
+        { title: 'Cardiac Repair', body: 'Smart et al. (2007) showed thymosin beta-4 activates epicardial progenitor cells and promotes functional cardiac recovery after infarction (PMID 17108969). Hinkel et al. (2008) demonstrated improved function and reduced infarct size after ischaemia (PMID 18427130).' },
+        { title: 'Human Data', body: 'A 2025 human cardiac study provided the first controlled clinical evidence, though the overall human literature remains very limited. For research planning, treat TB-500 as a strong preclinical candidate with an emerging, still-small clinical footprint.' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Recovery',
+      body: 'Typical research protocols for TB-500 recovery work: 2\u20135 mg twice to three times per week via subcutaneous injection, with cycle lengths of 4\u20138 weeks. Reconstitution: 5 mg + 3 mL bacteriostatic water = 1.67 mg/mL.\n\nBecause recovery protocols are typically sustained over the healing period rather than pulsed, TB-500 is generally not cycled the way GH secretagogues are. It is frequently combined with BPC-157 in recovery research \u2014 BPC-157 drives angiogenesis and collagen deposition while TB-500 governs cell migration \u2014 covering the two rate-limiting steps of tissue repair.\n\n[**Find the best TB-500 prices \u2192**](/compounds/tb-500)\n[**Related: TB-500 vs BPC-157 \u2192**](/research/tb500-vs-bpc157)',
+    },
+    {
+      title: 'Safety Profile',
+      body: 'TB-500 has a favourable safety profile in extensive animal studies. As a synthetic fragment rather than a full protein, it avoids many of the systemic effects of thymosin beta-4 parent molecules. The main caveats: the evidence base is overwhelmingly preclinical, human data are only beginning to emerge (2025), and the peptide is not approved by the MHRA, FDA, or EMA for human therapeutic use. It is intended strictly for in-vitro and research purposes, with standard aseptic handling and storage protocols.',
+    },
+  ],
+  faq: [
+    { question: 'How does TB-500 actually speed up recovery?', answer: 'TB-500 regulates the actin cytoskeleton through its LKKTETQ motif, so cells can migrate into an injury site more efficiently. It also supports angiogenesis, dampens excessive inflammation, and modulates matrix remodelling for organised, stronger tissue. [**Compare TB-500 prices \u2192**](/compounds/tb-500)' },
+    { question: 'Is TB-500 better than BPC-157 for recovery?', answer: 'They target different rate-limiting steps. TB-500 governs cell migration via actin; BPC-157 drives new blood-vessel formation via VEGF. They are frequently researched together because the mechanisms are complementary rather than overlapping. [**Related: TB-500 vs BPC-157 \u2192**](/research/tb500-vs-bpc157)' },
+    { question: 'Which tissues is TB-500 recovery research focused on?', answer: 'Tendons and ligaments, skin wounds, skeletal muscle, cardiac tissue after ischaemia, cornea, and neural tissue after TBI or stroke. The best-quantified single result is 42% faster wound closure in rat excisional wounds (Philp et al., 2004).' },
+    { question: 'What is the typical recovery dosing protocol?', answer: '2\u20135 mg via subcutaneous injection, twice to three times per week, over 4\u20138 weeks. Reconstitution is typically 5 mg with 3 mL bacteriostatic water for a 1.67 mg/mL solution.' },
+    { question: 'Is TB-500 approved for human use?', answer: 'No. TB-500 is not approved by the MHRA, FDA, or EMA. It is supplied for laboratory and research purposes only.' },
+  ],
+  references: [
+    'Philp D, et al. Wound Repair Regen. 2004;12(6):645-654. PMID: 15555058.',
+    'Safer D, et al. J Biol Chem. 1991;266(7):4029-4032. PMID: 1999397.',
+    'Malinda KM, et al. FASEB J. 1997;11(6):474-481. PMID: 9194529.',
+    'Smart N, et al. Nature. 2007;445(7124):177-182. PMID: 17108969.',
+    'Hinkel R, et al. Circulation. 2008;117(17):2232-2240. PMID: 18427130.',
+  ],
+},
+
 };
 export default content;
