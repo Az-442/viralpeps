@@ -469,13 +469,6 @@
     ],
     "sources": [
       {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/semaglutide/",
-        "price": "£49.99",
-        "inStock": true,
-        "image": "/images/products/the-peptide-company/semaglutide.webp"
-      },
-      {
         "vendor": "Raccoon Peptides",
         "url": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
         "price": "£29.00",
@@ -2931,13 +2924,6 @@
         "price": "£59.99",
         "inStock": true,
         "image": "/images/products/sterling-peptides/retatrutide.webp"
-      },
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/buy-reta-retatrutide-uk/",
-        "price": "£84.99",
-        "inStock": true,
-        "image": "/images/products/the-peptide-company/retatrutide.webp"
       },
       {
         "vendor": "Raccoon Peptides",
