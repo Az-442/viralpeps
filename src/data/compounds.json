@@ -266,7 +266,7 @@
         "vendor": "Astra Labs",
         "url": "https://astralabs.co.uk/product/tirzepatide-5mg-uk/",
         "price": "£24.99",
-        "inStock": true,
+        "inStock": false,
         "image": "https://astralabs.co.uk/wp-content/uploads/2026/05/tirzepatide-5mg-uk-astra-labs-front-view-scaled-400x400.webp",
         "dosage": "5mg"
       },
@@ -1047,7 +1047,7 @@
         "vendor": "Premio Peptides",
         "url": "https://premiopeptides.co.uk/compounds/bpc-157",
         "price": "£130.00",
-        "inStock": true,
+        "inStock": false,
         "image": "/images/products/premio-peptides/bpc-157.png"
       },
       {
@@ -1678,7 +1678,7 @@
         "vendor": "Premio Peptides",
         "url": "https://premiopeptides.co.uk/compounds/tb-500",
         "price": "£199.99",
-        "inStock": true,
+        "inStock": false,
         "image": "/images/products/premio-peptides/tb-500.png"
       },
       {
