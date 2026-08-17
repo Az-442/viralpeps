@@ -7855,5 +7855,80 @@ const content: Record<string, ResearchPageContent> = {
   ],
 },
 
+'aod9604-for-fat-loss': {
+  slug: 'aod9604-for-fat-loss',
+  compoundSlug: 'aod-9604',
+  pullQuote: 'AOD-9604 is engineered to make fat loss a one-track biological process: a 16-amino-acid fragment of human growth hormone that switches on lipolysis and switches off fat storage — while leaving blood sugar and IGF-1 entirely alone.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'AOD-9604 (HGH Fragment 177-191)' },
+    { label: 'Classification', value: 'Lipolytic / Metabolic Research Peptide' },
+    { label: 'CAS Number', value: '137632-02-1' },
+    { label: 'Molecular Weight', value: '~1817 Da' },
+    { label: 'Sequence Length', value: '16 amino acids (aa 177-191 of hGH)' },
+    { label: 'Primary Fat-Loss Mechanism', value: 'ADRB3 lipolysis activation + lipogenesis inhibition' },
+    { label: 'Effect on Insulin / IGF-1', value: 'None — no glucose or IGF-1 pathway activation' },
+    { label: 'Regulatory Status', value: 'FDA GRAS (2014); Phase 2b obesity trials completed' },
+    { label: 'Typical Research Dose', value: '300-500 mcg daily, subcutaneous' },
+    { label: 'Evidence Strength', value: 'Strong animal + early clinical obesity data' },
+  ],
+  sections: [
+    {
+      title: 'Fat Loss, Isolated from the Hormonal Side Effects',
+      body: 'Most compounds that drive fat loss come with baggage. Full-length growth hormone burns fat, but it also raises blood sugar, pushes IGF-1, and drives growth signals across the body. AOD-9604 was designed specifically to remove that baggage.\n\nAOD-9604 is a 16-amino-acid fragment of human growth hormone (amino acids 177-191, with an N-terminal tyrosine), developed by Professor Frank Ng at Monash University. It isolates the lipolytic — fat-burning — region of hGH while deleting the growth-promoting and diabetogenic effects. The result is a research peptide aimed squarely at fat loss: it tells fat cells to break down stored triglycerides and to stop building new fat, and it does so without touching insulin sensitivity or IGF-1.\n\nThis guide examines AOD-9604 specifically through the lens of fat loss — the pathways that drive lipolysis, the evidence behind it, how it is dosed in UK research protocols, and how it compares with alternative metabolic peptides.\n\n[**Compare AOD-9604 prices from UK suppliers \u2192**](/compounds/aod-9604)',
+    },
+    {
+      title: 'How AOD-9604 Drives Fat Loss: The Mechanisms',
+      body: 'AOD-9604 attacks fat from two complementary directions at once — turning fat burning on while turning fat storage off. The result is a net shift toward lipid mobilisation that researchers describe as a metabolic scalpel rather than a sledgehammer.',
+      subsections: [
+        { title: '1. Lipolysis Activation \u2014 Switching Fat Burning On', body: 'AOD-9604 activates the ADRB3 (beta-3 adrenergic) pathway and hormone-sensitive lipase, the enzyme that breaks down triglycerides into free fatty acids for use as fuel. This is the primary engine of its fat-mobilising effect.' },
+        { title: '2. Lipogenesis Inhibition \u2014 Switching Fat Storage Off', body: 'It downregulates fatty acid synthase (FAS) and acetyl-CoA carboxylase (ACC), two rate-limiting enzymes in de-novo fat synthesis. Stored fat is released at the same time as new-fat formation is suppressed.' },
+        { title: '3. Zero IGF-1 Activation \u2014 No Anabolic Crossover', body: 'Unlike full-length GH, AOD-9604 does not stimulate IGF-1, so it does not carry the growth-promoting and tissue-building signals that accompany conventional GH use. Its effect is confined to lipid metabolism.' },
+        { title: '4. No Diabetogenic Effect \u2014 Blood Sugar Untouched', body: 'Because the fragment excludes the glucose-raising region of hGH, it has no demonstrated impact on glucose homeostasis or insulin sensitivity — a key differentiator for metabolic research.' },
+      ],
+    },
+    {
+      title: 'Where the Fat-Loss Evidence Stands',
+      body: 'AOD-9604 has one of the more developed evidence bases among metabolic research peptides, with animal studies, completed Phase 2b obesity trials, and FDA GRAS recognition.',
+      subsections: [
+        { title: 'Foundational Mechanism', body: 'Ng FM, et al. (2000) characterised the lipolytic activity of the hGH fragment, establishing that amino acids 177-191 retain fat-mobilising action without growth-promoting effects (PMID: 11210732).' },
+        { title: 'Obesity Research', body: 'Heffernan MA, et al. (2001) reported on the fragment\u2019s effects in obesity models (PMID: 11549391), alongside completed Phase 2b human obesity trials (ClinicalTrials.gov NCT00515138).' },
+        { title: 'Chondroprotective Side Channel', body: 'Cao F, et al. (2003) demonstrated proteoglycan synthesis and reduced MMP-mediated breakdown in cartilage models (PMID: 14609535) — relevant because AOD-9604 was also researched in osteoarthritis, although fat loss remains its headline application.' },
+        { title: 'Regulatory Milestone', body: 'The fragment received FDA GRAS (Generally Recognized as Safe) notification (GRN No. 000521) in 2014, reflecting a benign safety review for its intended applications.' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Fat Loss',
+      body: 'Typical research protocols for AOD-9604 fat-loss work use 300-500 mcg per day via subcutaneous injection. Reconstitution: 5 mg + 3 mL bacteriostatic water gives 1.67 mg/mL; 300 mcg equals 18 units, 500 mcg equals 30 units on a standard insulin syringe.\n\nNote that AOD-9604 can be slow to dissolve in plain bacteriostatic water — a 0.6% acetic-acid water preparation is the common alternative to speed reconstitution. Because fat-loss research is generally run as a daily metabolic protocol rather than a pulsed cycle, AOD-9604 is often administered daily over multi-week periods rather than following a GH-secretagogue-style on/off schedule.\n\n[**Find the best AOD-9604 prices \u2192**](/compounds/aod-9604)\n[**Related: AOD-9604 vs Tesamorelin \u2192**](/research/aod9604-vs-tesamorelin)',
+    },
+    {
+      title: 'How It Compares to Other Fat-Loss Peptides',
+      body: 'AOD-9604 occupies a distinct niche among metabolic peptides because of its targeted lipolytic profile.',
+      subsections: [
+        { title: 'vs Tesamorelin', body: 'Tesamorelin is a GHRH analog that raises endogenous GH and IGF-1 to reduce visceral fat, but it carries growth-signal side effects. AOD-9604 bypasses IGF-1 entirely, offering a more isolated lipolytic action. [**Compare AOD-9604 vs Tesamorelin \u2192**](/research/aod9604-vs-tesamorelin)' },
+        { title: 'vs HGH Frag 176-191', body: 'Both are hGH fragments aimed at lipolysis, but AOD-9604\u2019s ADRB3-driven mechanism and completed clinical-trial history give it a more established evidence trail.' },
+        { title: 'vs GLP-1 agonists', body: 'Unlike semaglutide or tirzepatide, which act mainly through appetite and glucose regulation, AOD-9604 works directly on fat-cell metabolism — a fundamentally different approach to weight management research.' },
+      ],
+    },
+    {
+      title: 'Safety Profile',
+      body: 'AOD-9604 has a favourable safety profile, reflected in its FDA GRAS notification and completed human Phase 2b obesity trials. Its key advantage is selectivity: because it does not activate IGF-1 or affect glucose homeostasis, it avoids the diabetogenic and growth-promoting concerns associated with full-length GH.\n\nAs with all research peptides, it is not approved by the MHRA, FDA, or EMA for human therapeutic use, and is intended strictly for laboratory and research purposes. Standard aseptic handling, proper reconstitution, and cold, light-protected storage apply.',
+    },
+  ],
+  faq: [
+    { question: 'What makes AOD-9604 different from growth hormone for fat loss?', answer: 'AOD-9604 is only the 16-amino-acid lipolytic fragment of hGH (aa 177-191). It retains the fat-mobilising action but does not stimulate IGF-1 or affect blood sugar, unlike full-length GH. [**Compare AOD-9604 prices \u2192**](/compounds/aod-9604)' },
+    { question: 'How does AOD-9604 burn fat?', answer: 'It activates the ADRB3 pathway and hormone-sensitive lipase to break down stored triglycerides, while downregulating fatty acid synthase and acetyl-CoA carboxylase to stop new fat formation.' },
+    { question: 'Does AOD-9604 affect blood sugar or insulin?', answer: 'No. The fragment excludes the glucose-raising region of hGH and has no demonstrated impact on glucose homeostasis or insulin sensitivity.' },
+    { question: 'What is the typical AOD-9604 dosing protocol?', answer: '300-500 mcg per day via subcutaneous injection. 5 mg + 3 mL bacteriostatic water yields 1.67 mg/mL (300 mcg = 18 units, 500 mcg = 30 units).' },
+    { question: 'Is AOD-9604 approved for human use?', answer: 'No. It received FDA GRAS notification (GRN No. 000521) and has completed Phase 2b obesity trials, but it is not approved for human therapeutic use and is supplied for research purposes only.' },
+  ],
+  references: [
+    'Ng FM, et al. Life Sci. 2000;66(15):1419-30. PMID: 11210732.',
+    'Heffernan MA, et al. Int J Obes. 2001;25(Suppl 2):S34. PMID: 11549391.',
+    'ClinicalTrials.gov NCT00515138.',
+    'FDA GRAS Notification GRN No. 000521.',
+    'Cao F, et al. Osteoarthritis Cartilage. 2003;11(11):825-31. PMID: 14609535.',
+  ],
+}
+
 };
 export default content;

@@ -996,6 +996,17 @@ export const guides: ResearchArticle[] = [
   minutes: 12,
   tags: ['tb-500', 'thymosin-beta-4', 'recovery', 'tissue-repair', 'angiogenesis', 'cell-migration', 'goals'],
 },
+{
+  title: 'AOD 9604 for Fat Loss: Lipolysis Without the Hormonal Side Effects',
+  desc: 'A dedicated goal article on AOD-9604 (hGH fragment 177-191) for fat-loss research \u2014 how its ADRB3 lipolysis activation and lipogenesis inhibition mobilise stored fat without touching IGF-1 or blood sugar. Dosing, evidence, Phase 2b trials, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'AOD 9604',
+  slug: 'aod9604-for-fat-loss',
+  image: 'aod9604-for-fat-loss',
+  minutes: 11,
+  tags: ['aod-9604', 'hgh-fragment', 'lipolysis', 'fat-loss', 'metabolic', 'adrb3', 'goals'],
+},
 
 ];
 

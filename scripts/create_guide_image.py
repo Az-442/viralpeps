@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "TB-500"
-VIAL_PATH = "public/images/compounds/tb-500-vial.png"
-OUTPUT_PATH = "public/images/guides/tb-500-for-recovery.png"
+COMPOUND = "AOD-9604"
+VIAL_PATH = "public/images/compounds/aod-9604-vial.png"
+OUTPUT_PATH = "public/images/guides/aod9604-for-fat-loss.png"
 DESCRIPTION_LINES = [
-    "TB-500 (thymosin beta-4) drives recovery",
-    "by directing cell migration, rebuilding blood",
-    "supply and reducing excessive inflammation.",
-    "Studied for tendon, wound, muscle, cardiac",
-    "and neural tissue repair.",
+    "AOD-9604 (hGH fragment 177-191) drives",
+    "fat loss by activating lipolysis and",
+    "blocking fat storage, without touching",
+    "IGF-1 or blood sugar. Completed Phase 2b",
+    "obesity trials, FDA GRAS (2014).",
 ]
 # ==================================================
 
