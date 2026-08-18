@@ -1680,5 +1680,36 @@
     ],
     "lastTested": "2026-08-13",
     "labTested": true
+  },
+  {
+    "id": "peptides-online-uk",
+    "name": "Peptides Online UK",
+    "slug": "peptides-online-uk",
+    "website": "https://www.peptidesonline.uk",
+    "rating": 4.6,
+    "verified": true,
+    "founded": 2023,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering 22 lab-tested compounds for laboratory and scientific use only. Every batch is third-party HPLC tested with ≥99% purity guarantee and per-batch Certificate of Analysis documentation. Free UK shipping over £150, same-day dispatch, discreet laboratory-grade packaging and a full CoA library.",
+    "highlights": [
+      "Third-party lab tested (HPLC)",
+      "≥99% purity guaranteed",
+      "Per-batch COA documentation",
+      "22-compound catalog",
+      "Free UK shipping over £150",
+      "Research use only",
+      "CoA library"
+    ],
+    "shipping": [
+      "UK 2-5 business days (free over £150)",
+      "International 5-10 business days"
+    ],
+    "payment": [
+      "Cards (encrypted checkout)",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "2026-08-18",
+    "labTested": true
   }
 ]
