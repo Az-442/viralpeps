@@ -7928,6 +7928,81 @@ const content: Record<string, ResearchPageContent> = {
     'FDA GRAS Notification GRN No. 000521.',
     'Cao F, et al. Osteoarthritis Cartilage. 2003;11(11):825-31. PMID: 14609535.',
   ],
+},
+
+'retatrutide-for-weight-loss': {
+  slug: 'retatrutide-for-weight-loss',
+  compoundSlug: 'retatrutide',
+  pullQuote: 'Retatrutide is the first incretin agent to push mean weight loss past 24% in a phase 2 trial — a triple GIP/GLP-1/glucagon agonist that burns fat and drives energy expenditure in a way no GLP-1 monotherapy has matched.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Retatrutide (LY3437943)' },
+    { label: 'Classification', value: 'Triple agonist (GIP / GLP-1 / glucagon)' },
+    { label: 'CAS Number', value: '2412044-12-1' },
+    { label: 'Molecular Weight', value: '4978.6 g/mol (39 amino acids)' },
+    { label: 'Half-Life', value: '~6 days (once-weekly dosing)' },
+    { label: 'Primary Weight-Loss Mechanism', value: 'GIP + GLP-1 satiety and insulin secretion; glucagon-driven fat oxidation and thermogenesis' },
+    { label: 'Phase 2 Weight Loss', value: '24.2% mean body weight at 48 weeks (12 mg)' },
+    { label: 'Phase 2 T2D HbA1c Reduction', value: 'Up to 2.16% at 36 weeks' },
+    { label: 'Resting Metabolic Rate Increase', value: '5-10%' },
+    { label: 'Evidence Strength', value: 'Strong - phase 2 randomised trials published in NEJM and The Lancet' },
+  ],
+  sections: [
+    {
+      title: 'Weight Loss, Reimagined by a Triple Agonist',
+      body: 'For years the weight-loss peptide field was dominated by single-pathway GLP-1 agonists. Semaglutide made headlines for ~15% mean weight loss. Tirzepatide, a dual GIP/GLP-1 agonist, reached ~20%. Retatrutide represents the next step: a single peptide engineered to engage three receptors at once - GIP, GLP-1, and glucagon - delivering a mean 24.2% body weight reduction in its phase 2 obesity trial, a magnitude previously associated only with bariatric surgery.\n\nDeveloped by Eli Lilly as LY3437943, retatrutide is a synthetic 39-amino-acid peptide. The addition of glucagon receptor agonism is the crucial difference. Glucagon stimulates hepatic fat oxidation, raises resting energy expenditure, and amplifies thermogenesis - a calorie-burning signal that is entirely absent from GLP-1 monotherapies and attenuated in dual agonists. This is why retatrutide is studied as the highest-potency weight-loss peptide to emerge from the incretin class.\n\nThis guide examines retatrutide specifically through the lens of weight loss - the pathways driving fat loss, the clinical evidence behind them, how it is dosed in research protocols, and how it compares with the GLP-1 and GIP-based alternatives.\n\n[**Compare Retatrutide prices from UK suppliers \\u2192**](/compounds/retatrutide)',
+    },
+    {
+      title: 'How Retatrutide Drives Weight Loss: Three Receptors, One Goal',
+      body: 'Retatrutide attacks body weight from three complementary directions at once. Where a GLP-1 agonist reduces food intake, retatrutide additionally burns stored fat and raises the rate at which the body expends energy. The synergy is what produces weight loss beyond any single pathway.',
+      subsections: [
+        { title: 'GLP-1 Pathway: Satiety and Appetite Suppression', body: 'GLP-1 receptor activation enhances glucose-dependent insulin secretion, delays gastric emptying, and acts on central appetite circuits in the arcuate nucleus and brainstem to reduce food intake. This is the foundation shared with semaglutide and the bulk of the calorie-reduction effect.' },
+        { title: 'GIP Pathway: Metabolic Flexibility and Fat Partitioning', body: 'GIP receptor activation potentiates insulin secretion and improves adipocyte function by promoting lipid buffering - the uptake and storage of dietary fat in subcutaneous fat rather than ectopic deposition in liver, muscle, or pancreas. This reduces the lipotoxicity that drives insulin resistance.' },
+        { title: 'Glucagon Pathway: Fat Oxidation and Thermogenesis', body: 'Retatrutide\\u2019s signature innovation. Glucagon receptor agonism stimulates hepatic fatty acid oxidation, glycogenolysis, and ketogenesis, raising resting metabolic rate by an estimated 5-10%. Patients expend more energy at rest - a thermogenic component absent from single- and dual-agonist alternatives.' },
+        { title: 'Body Composition: Fat Mass Down, Muscle Proportion Preserved', body: 'A body-composition substudy using DXA showed total fat mass fell by ~23-26% at the 8-12 mg doses in type 2 diabetes. Crucially, the proportion of lean mass lost relative to total weight loss was similar to other obesity treatments - retatrutide does not sacrifice a disproportionate amount of muscle despite steeper overall weight loss.' },
+      ],
+    },
+    {
+      title: 'Where the Weight-Loss Evidence Stands',
+      body: 'Retatrutide has the strongest short-term evidence base of any incretin-based weight-loss peptide, anchored by two phase 2 randomised trials published in the leading journals - and an expanding body-composition literature.',
+      subsections: [
+        { title: 'The Pivotal Phase 2 Obesity Trial', body: 'Jastreboff et al. (NEJM, 2023) randomised adults with obesity or overweight to 1, 4, 8, or 12 mg retatrutide or placebo weekly for 48 weeks. At 12 mg, mean weight loss reached 24.2% at 48 weeks, with ~30% of participants losing more than 30% of baseline body weight - a threshold previously reserved for bariatric surgery (PMID: 37366315).' },
+        { title: 'Type 2 Diabetes Phase 2 Trial', body: 'Rosenstock et al. (Lancet, 2023) showed retatrutide produced clinically meaningful glycaemic control with robust weight reduction in type 2 diabetes - HbA1c fell by up to 2.16% at 36 weeks alongside mean weight loss of ~16.9% (PMID: 37385280).' },
+        { title: 'Body Composition Substudy', body: 'A DXA substudy of the phase 2 diabetes trial (Lancet Diabetes Endocrinol, 2025; NCT04867785) confirmed significant total fat-mass reductions of ~23-26% at the higher doses versus placebo, and that the lean-mass-to-weight-loss ratio matched other obesity treatments - addressing concerns about disproportionate muscle loss (PMID: 40609566).' },
+        { title: 'Preclinical and Discovery Data', body: 'Coskun et al. (2022) characterised LY3437943 as a novel balanced triple GIP/GLP-1/glucagon agonist, establishing the receptor pharmacology underpinning its weight-loss effect.' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Weight Loss',
+      body: 'Retatrutide is administered once weekly via subcutaneous injection - its ~6-day half-life, achieved through fatty-acid acylation and albumin binding, supports a single weekly dose. Phase 2 protocols used gradual multi-step dose titration to improve gastrointestinal tolerability, escalating over the first weeks toward the maintenance dose.\n\nThe phase 2 doses were 1, 4, 8, and 12 mg weekly, with the 8-12 mg range producing the largest weight loss. As with all research peptides, dosing should follow the study protocols and be confined to laboratory research settings.\n\n[**Compare Retatrutide prices across UK suppliers \\u2192**](/compounds/retatrutide)\n[**Related: Retatrutide vs Tirzepatide \\u2192**](/research/retatrutide-vs-tirzepatide)\n[**Related: Retatrutide vs Semaglutide \\u2192**](/research/retatrutide-vs-semaglutide)',
+    },
+    {
+      title: 'How It Compares to Other Weight-Loss Peptides',
+      body: 'Retatrutide sits at the top of the incretin efficacy ladder, but the choice depends on the specific research question.',
+      subsections: [
+        { title: 'vs Semaglutide', body: 'Semaglutide is a GLP-1 monotherapy achieving ~15% weight loss. Retatrutide\\u2019s added GIP and glucagon agonism roughly doubles the headline reduction. [**Compare Retatrutide vs Semaglutide \\u2192**](/research/retatrutide-vs-semaglutide)' },
+        { title: 'vs Tirzepatide', body: 'Tirzepatide (dual GIP/GLP-1) reached ~20-21% at higher doses. Retatrutide\\u2019s glucagon component adds the energy-expenditure lever, pushing efficacy toward 24%+. [**Compare Retatrutide vs Tirzepatide \\u2192**](/research/retatrutide-vs-tirzepatide)' },
+        { title: 'vs AOD-9604 and lipolytic fragments', body: 'AOD-9604 acts directly on fat-cell lipolysis without incretin pathways or central appetite effects. Retatrutide targets systemic weight regulation through appetite, insulin, and energy expenditure - a fundamentally more comprehensive approach. [**Compare AOD-9604 prices \\u2192**](/compounds/aod-9604)' },
+      ],
+    },
+    {
+      title: 'Safety Profile',
+      body: 'The safety profile of retatrutide is broadly consistent with the incretin class. Gastrointestinal adverse events - nausea, vomiting, diarrhoea, and constipation - are the most commonly reported, are dose-dependent, and are predominantly mild-to-moderate. Phase 2 trials employed gradual dose titration to mitigate gastrointestinal intolerance.\n\nA theoretical concern with glucagon receptor agonism is hyperglycaemia, but concurrent GIP and GLP-1 activity provides potent counter-regulatory insulin secretion, and no unexpected signals were observed in phase 2, including in the type 2 diabetes cohort. Later trial data reported average weight loss approaching 28% over 80 weeks, reinforcing durability of effect. Eli Lilly\\u2019s phase 3 TRIUMPH programme is evaluating obesity, type 2 diabetes, and MASH.\n\nAs with all research peptides, retatrutide is not approved by the MHRA, FDA, or EMA for human therapeutic use and is intended strictly for laboratory and research purposes. Standard aseptic handling, proper reconstitution, and cold, light-protected storage apply.',
+    },
+  ],
+  faq: [
+    { question: 'How much weight can retatrutide produce in research settings?', answer: 'In the phase 2 obesity trial, the 12 mg weekly dose produced a mean 24.2% body-weight reduction at 48 weeks, with ~30% of participants losing over 30% of baseline weight. Later trial data reported average losses approaching 28% over 80 weeks. [**Compare Retatrutide prices \\u2192**](/compounds/retatrutide)' },
+    { question: 'What makes retatrutide stronger than semaglutide or tirzepatide for weight loss?', answer: 'Retatrutide adds glucagon receptor agonism to the GIP/GLP-1 dual mechanism. Glucagon stimulates hepatic fat oxidation and raises resting energy expenditure by 5-10%, a thermogenic lever absent from GLP-1 monotherapies.' },
+    { question: 'Does retatrutide cause muscle loss?', answer: 'A DXA body-composition substudy found the proportion of lean mass lost relative to total weight loss was similar to other obesity treatments - retatrutide does not lose a disproportionate amount of muscle despite steeper overall weight loss.' },
+    { question: 'How is retatrutide dosed?', answer: 'Once weekly via subcutaneous injection. Its ~6-day half-life (via fatty-acid acylation) supports weekly dosing. Phase 2 used 1, 4, 8, and 12 mg with gradual titration to improve tolerability.' },
+    { question: 'Is retatrutide approved for human use?', answer: 'No. It is an investigational compound in phase 3 trials (TRIUMPH programme). It is not approved by the MHRA, FDA, or EMA and is supplied for research purposes only.' },
+  ],
+  references: [
+    'Jastreboff AM, et al. Triple-hormone-receptor agonist retatrutide for obesity - a phase 2 trial. N Engl J Med. 2023;389(6):514-526. PMID: 37366315.',
+    'Rosenstock J, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a phase 2 trial. Lancet. 2023;402(10410):1249-1261. PMID: 37385280.',
+    'Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial. Lancet Diabetes Endocrinol. 2025. PMID: 40609566. ClinicalTrials.gov NCT04867785.',
+    'Coskun T, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist. Diabetes. 2022;71(Suppl 1):255-OR.',
+    'Eli Lilly. TRIUMPH phase 3 programme for retatrutide in obesity and type 2 diabetes.',
+  ],
 }
 
 };

@@ -1007,6 +1007,17 @@ export const guides: ResearchArticle[] = [
   minutes: 11,
   tags: ['aod-9604', 'hgh-fragment', 'lipolysis', 'fat-loss', 'metabolic', 'adrb3', 'goals'],
 },
+{
+  title: 'Retatrutide for Weight Loss: The Triple-Agonist Leader',
+  desc: 'A dedicated goal article on retatrutide (LY3437943) for weight-loss research — how its triple GIP/GLP-1/glucagon mechanism drives appetite suppression, fat oxidation, and thermogenesis to deliver the strongest phase 2 weight loss of any incretin agent. Dosing, evidence, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Retatrutide',
+  slug: 'retatrutide-for-weight-loss',
+  image: 'retatrutide-for-weight-loss',
+  minutes: 13,
+  tags: ['retatrutide', 'triple-agonist', 'glp-1', 'gip', 'glucagon', 'weight-loss', 'goals'],
+},
 
 ];
 

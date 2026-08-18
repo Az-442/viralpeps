@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "AOD-9604"
-VIAL_PATH = "public/images/compounds/aod-9604-vial.png"
-OUTPUT_PATH = "public/images/guides/aod9604-for-fat-loss.png"
+COMPOUND = "RETATRUTIDE"
+VIAL_PATH = "public/images/compounds/retatrutide-vial.png"
+OUTPUT_PATH = "public/images/guides/retatrutide-for-weight-loss.png"
 DESCRIPTION_LINES = [
-    "AOD-9604 (hGH fragment 177-191) drives",
-    "fat loss by activating lipolysis and",
-    "blocking fat storage, without touching",
-    "IGF-1 or blood sugar. Completed Phase 2b",
-    "obesity trials, FDA GRAS (2014).",
+    "Retatrutide (LY3437943) is the first",
+    "triple GIP/GLP-1/glucagon agonist -",
+    "24.2% mean weight loss at 48 weeks in",
+    "Phase 2, the strongest result of any",
+    "incretin agent to date.",
 ]
 # ==================================================
 
@@ -36,7 +36,7 @@ BLUE = (37, 99, 235)
 card = Image.new("RGB", (card_w, card_h), (255, 255, 255))
 draw = ImageDraw.Draw(card)
 
-# Solid gradient — every pixel
+# Solid gradient - every pixel
 for y in range(card_h):
     ratio = y / card_h
     r = int(245 - ratio * 15)
@@ -45,7 +45,7 @@ for y in range(card_h):
     for x in range(card_w):
         draw.point((x, y), fill=(r, g, b))
 
-# Decorative circles — both same color
+# Decorative circles - both same color
 draw.ellipse([-80, -80, 250, 250], fill=(230, 240, 255))
 draw.ellipse([card_w - 180, card_h - 180, card_w + 80, card_h + 80], fill=(230, 240, 255))
 
