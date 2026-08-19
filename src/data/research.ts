@@ -1018,6 +1018,17 @@ export const guides: ResearchArticle[] = [
   minutes: 13,
   tags: ['retatrutide', 'triple-agonist', 'glp-1', 'gip', 'glucagon', 'weight-loss', 'goals'],
 },
+{
+  title: 'Oxytocin for Bonding: Trust, Pair Bonding and the Social-Salience Amplifier',
+  desc: 'A dedicated goal article on oxytocin (OT) for bonding research — how OXTR signalling damps amygdala threat, gates mesolimbic reward, and sharpens social-cue decoding to drive trust, pair bonding, and parental attachment. Dosing, evidence, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Oxytocin',
+  slug: 'oxytocin-for-bonding',
+  image: 'oxytocin-for-bonding',
+  minutes: 12,
+  tags: ['oxytocin', 'bonding', 'pair-bonding', 'trust', 'neuropeptide', 'oxytocin-receptor', 'goals'],
+},
 
 ];
 

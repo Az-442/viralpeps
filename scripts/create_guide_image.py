@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "RETATRUTIDE"
-VIAL_PATH = "public/images/compounds/retatrutide-vial.png"
-OUTPUT_PATH = "public/images/guides/retatrutide-for-weight-loss.png"
+COMPOUND = "OXYTOCIN"
+VIAL_PATH = "public/images/compounds/oxytocin-vial.png"
+OUTPUT_PATH = "public/images/guides/oxytocin-for-bonding.png"
 DESCRIPTION_LINES = [
-    "Retatrutide (LY3437943) is the first",
-    "triple GIP/GLP-1/glucagon agonist -",
-    "24.2% mean weight loss at 48 weeks in",
-    "Phase 2, the strongest result of any",
-    "incretin agent to date.",
+    "Oxytocin (OT) is the 9-amino-acid",
+    "neuropeptide central to bonding -",
+    "it amplifies social-cue salience in",
+    "the amygdala, VTA and accumbens to",
+    "gate trust, pair bonding and care.",
 ]
 # ==================================================
 

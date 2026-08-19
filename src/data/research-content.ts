@@ -8003,6 +8003,84 @@ const content: Record<string, ResearchPageContent> = {
     'Coskun T, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist. Diabetes. 2022;71(Suppl 1):255-OR.',
     'Eli Lilly. TRIUMPH phase 3 programme for retatrutide in obesity and type 2 diabetes.',
   ],
+},
+
+'oxytocin-for-bonding': {
+  slug: 'oxytocin-for-bonding',
+  compoundSlug: 'oxytocin',
+  pullQuote: 'Oxytocin is not a "cuddle chemical" that makes people nice — it is a social-salience amplifier that magnifies whatever social message is already in the room, and that is exactly what makes it the most studied neuropeptide in bonding research.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Oxytocin (OT)' },
+    { label: 'Classification', value: 'Endogenous cyclic nonapeptide neuropeptide hormone' },
+    { label: 'CAS Number', value: '50-56-6' },
+    { label: 'Molecular Weight', value: '1007.19 g/mol' },
+    { label: 'Sequence', value: 'Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂ (disulfide bridge Cys1–Cys6)' },
+    { label: 'Primary Target', value: 'Oxytocin receptor (OXTR) — Gq/11-coupled GPCR' },
+    { label: 'Plasma Half-Life', value: '~1-5 minutes (plasma); intranasal CSF signal 30-60 min' },
+    { label: 'Primary Bonding Mechanism', value: 'OXTR activation amplifies social-cue salience in amygdala, VTA and nucleus accumbens' },
+    { label: 'Typical Research Dose', value: '10-40 IU intranasal; 100-500 µg/day subcutaneous' },
+    { label: 'Regulatory Status', value: 'FDA-approved only as Pitocin® for labour; research use only otherwise' },
+  ],
+  sections: [
+    {
+      title: 'Bonding, Reframed: The Social-Salience Amplifier',
+      body: 'For decades oxytocin has carried the pop-science nickname "the love hormone" — a nine-amino-acid shortcut to trust, cuddles, and instant connection. The reality, which decades of behavioural research have now pinned down, is far more precise and far more interesting: oxytocin does not manufacture warmth out of thin air. It amplifies the salience of social cues, turning up the volume on whatever signal the person or the situation is already broadcasting.\n\nOxytocin is an endogenous cyclic nonapeptide (Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂ with a disulfide bridge between residues 1 and 6) produced primarily in the paraventricular and supraoptic nuclei of the hypothalamus and released via the posterior pituitary. Beyond its classic hormonal roles in labour and lactation, oxytocinergic projections reach widely across the brain — the amygdala, ventral tegmental area, nucleus accumbens, hippocampus and brainstem — where they bind oxytocin receptors (OXTR) and gate the neural machinery of attachment.\n\nThis guide looks at oxytocin through one specific lens: bonding. We cover the neural pathways that drive pair bonding, parental attachment, and trust, the real evidence behind them, how oxytocin is dosed in research protocols, and where the "love hormone" label misleadingly oversells the data.\n\n[**Compare Oxytocin prices from UK suppliers \u2192**](/compounds/oxytocin)',
+    },
+    {
+      title: 'How Oxytocin Drives Bonding: The Neural Mechanisms',
+      body: 'Bonding is not a single emotion — it is a coordinated shift in multiple neural circuits. Oxytocin touches each of them, which is why it has become the canonical molecule of attachment research.',
+      subsections: [
+        { title: '1. The Amygdala Brake \u2014 Turning Down Threat to Let Connection In', body: 'OXTRs sit on GABAergic interneurons in the central amygdala. Oxytocin binding boosts inhibitory transmission, damping the amygdala\u2019s output to the HPA axis, locus coeruleus and periaqueductal grey. In plain terms: it lowers the threat response that otherwise keeps strangers at arm\u2019s length, freeing the brain to engage.' },
+        { title: '2. Dopamine and Reward \u2014 The Pair-Bonding Gating System', body: 'In the ventral tegmental area and nucleus accumbens, OXTR activation potentiates dopamine release, tagging a partner as rewarding. This is the circuit, described by Insel and Young, that makes prairie-vole pair bonding a useful model and that underpins partner preference in humans.' },
+        { title: '3. Amygdala\u2013OFC Coupling \u2014 Reading Faces and Feelings', body: 'Oxytocin improves the decoding of emotional faces and enhances eye gaze. It strengthens connectivity between the amygdala and orbitofrontal cortex, sharpening the brain\u2019s ability to register and respond to social and emotional cues \u2014 a prerequisite for empathic attunement.' },
+        { title: '4. Context-Sensitive Salience \u2014 The Direction of the Amp', body: 'Critically, the same amplification can promote either trust or vigilance. In a safe, cooperative environment oxytocin increases prosociality and bonding; in a threatening or competitive one it can increase envy, mistrust and out-group defensiveness. Bonding effects are therefore most reliably observed in supportive contexts.' },
+      ],
+    },
+    {
+      title: 'What the Bonding Evidence Actually Shows',
+      body: 'The strongest evidence for oxytocin\u2019s role in bonding comes from intranasal administration studies in healthy volunteers and social dyads, plus a large body of preclinical work in pair-bonding species.',
+      subsections: [
+        { title: 'Trust and the Trust Game', body: 'Kosfeld et al. (2005, Nature) showed that a single intranasal dose of oxytocin significantly increased trust behaviour in a financial exchange game \u2014 the landmark result that launched modern social-neuroscience interest in the peptide (PMID: 15931222).' },
+        { title: 'Parent\u2013Infant and Partner Bonding', body: 'Behavioural work links endogenous oxytocin release to maternal care, attachment, and partner preference. In animal models OXTR signalling in the nucleus accumbens and VTA is necessary and sufficient for pair-bond formation; human data are correlational but consistent.' },
+        { title: 'Emotion Recognition and Eye Gaze', body: 'Guastella et al. (2010) and Domes et al. (2007) demonstrated improved emotion recognition and attention to the eyes after intranasal oxytocin, supporting a role in the social-perception foundations of bonding (PMID: 19833322; PMID: 17137561).' },
+        { title: 'Context and Person Matter', body: 'Bartz et al. (2011) documented that oxytocin\u2019s social effects depend strongly on context and individual attachment style \u2014 the same dose that helps a securely attached person feel closer can heighten mistrust in an anxiously attached one (PMID: 21696997).' },
+      ],
+    },
+    {
+      title: 'How Bonding Compounds and Alternatives Compare',
+      body: 'In UK research, oxytocin is rarely stacked in the way metabolic peptides are; it is more often studied alone or alongside established psychological or social interventions. Still, a clear comparison helps position it.',
+      subsections: [
+        { title: 'vs PT-141 (bremelanotide)', body: 'PT-141 targets melanocortin (MC3R/MC4R) pathways for sexual arousal and is FDA-approved for HSDD. Oxytocin modulates intimacy and trust at the social-cognitive level rather than driving the arousal response itself. [**Compare Oxytocin vs PT-141 \u2192**](/research/oxytocin-vs-pt141)' },
+        { title: 'vs Selank', body: 'Selank is an anxiolytic peptide that acts partly through the GABA system to reduce anxiety. Oxytocin is less a general anxiolytic and more a social-context modulator \u2014 diminishing social threat specifically while leaving non-social anxiety largely unaffected.' },
+        { title: 'vs combination with couples/behavioural work', body: 'The social-salience hypothesis predicts oxytocin is most effective when paired with a supportive social context. In practice, the research-grade message is that oxytocin amplifies, rather than replaces, the environment and the behaviours around it.' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Bonding Studies',
+      body: 'The overwhelming majority of human oxytocin research uses intranasal spray at 24\u201340 IU (~50\u201384 µg), administered 20\u201345 minutes before testing. This route is chosen because it can reach the brain along olfactory and trigeminal nerve pathways, bypassing the blood\u2013brain barrier. Subcutaneous administration at 100\u2013500 µg/day is more common in UK research-peptide protocols, though human intranasal studies dominate the bonding literature.\n\nA practical note: intranasal absorption is highly variable between individuals \u2014 a major confound in the literature. Repeat dosing over days to weeks is used in longer-term social-intervention studies, but no single "bonding dose" is established, and target engagement is rarely verified with CSF sampling.\n\n[**Find the best Oxytocin prices \u2192**](/compounds/oxytocin)\n[**Related: Oxytocin vs PT-141 \u2192**](/research/oxytocin-vs-pt141)',
+    },
+    {
+      title: 'Safety Profile',
+      body: 'Oxytocin has a wide therapeutic index and does not produce dependence or withdrawal. Intranasal side effects are generally mild \u2014 nasal irritation, headache and transient drowsiness. At the high systemic doses used in obstetrics it can cause uterine hyperstimulation, water intoxication and hypotension, but these are not relevant to the low intranasal or subcutaneous research doses used in bonding work.\n\nOxytocin is not approved by the MHRA, FDA or EMA for any psychiatric or bonding indication; its only approved human use is Pitocin® (synthetic oxytocin) for labour induction and postpartum haemorrhage. All other use is strictly for research purposes, with standard aseptic handling and cold, light-protected storage of the lyophilised powder.',
+    },
+  ],
+  faq: [
+    { question: 'Does oxytocin actually make people bond more?', answer: 'In safe, cooperative contexts, evidence supports improved trust, emotion recognition, eye gaze and pair attachment after oxytocin administration. But the effect is context-dependent \u2014 in threatening settings the same dose can increase mistrust. [**Compare Oxytocin prices \u2192**](/compounds/oxytocin)' },
+    { question: 'How does oxytocin promote bonding neurologically?', answer: 'It damps amygdala threat responses via GABAergic interneurons, gates dopamine release in the VTA and nucleus accumbens to tag a partner as rewarding, and sharpens amygdala\u2013OFC coupling for reading social cues \u2014 a coordinated shift toward social engagement.' },
+    { question: 'What is the standard oxytocin dosing protocol?', answer: 'In human research, intranasal oxytocin at 24\u201340 IU is the norm, given 20\u201345 minutes before testing. In UK research-peptide protocols, subcutaneous dosing of 100\u2013500 µg/day is more typical.' },
+    { question: 'Is oxytocin the same as the "love hormone" in the headlines?', answer: 'No \u2014 it is a social-salience amplifier, not a one-way prosocial switch. It turns up the volume on whatever social cues are present, which is why bonding effects are strongest in supportive environments and can reverse in hostile ones.' },
+    { question: 'Is oxytocin approved for human bonding or anxiety use?', answer: 'No. Its only approved human use is Pitocin® for labour. It is not approved by the MHRA, FDA or EMA for any psychiatric or bonding indication and is supplied for research purposes only.' },
+  ],
+  references: [
+    'Kosfeld M, Heinrichs M, Zak PJ, Fischbacher U, Fehr E. Oxytocin increases trust in humans. Nature. 2005;435(7042):673-676. doi:10.1038/nature03701. PMID: 15931222.',
+    'Guastella AJ, Einfeld SL, Gray KM, et al. Intranasal oxytocin improves emotion recognition for youth with autism spectrum disorders. Biol Psychiatry. 2010;67(7):692-694. doi:10.1016/j.biopsych.2009.09.020. PMID: 19833322.',
+    'Domes G, Heinrichs M, Michel A, Berger C, Herpertz SC. Oxytocin improves "mind-reading" in humans. Biol Psychiatry. 2007;61(6):731-733. doi:10.1016/j.biopsych.2006.07.015. PMID: 17137561.',
+    'Bartz JA, Zaki J, Bolger N, Ochsner KN. Social effects of oxytocin in humans: context and person matter. Trends Cogn Sci. 2011;15(7):301-309. doi:10.1016/j.tics.2011.05.002. PMID: 21696997.',
+    'Insel TR. The challenge of translation in social neuroscience: a review of oxytocin, vasopressin, and affiliative behavior. Neuron. 2010;65(6):768-779. doi:10.1016/j.neuron.2010.03.005. PMID: 20346754.',
+    'Shay M, Zaki J. The social salience hypothesis of oxytocin. Trends Cogn Sci. 2013;17(4):159-160. doi:10.1016/j.tics.2013.02.001. PMID: 23434429.',
+    'Leng G, Ludwig M. Intranasal oxytocin: myths and delusions. Biol Psychiatry. 2016;79(3):243-250. doi:10.1016/j.biopsych.2015.05.003. PMID: 26074099.',
+    'Quintana DS, et al. Advances in the field of intranasal oxytocin research: a call for better methods. Psychoneuroendocrinology. 2017;83:113-116. doi:10.1016/j.psyneuen.2017.05.021. PMID: 28582731.',
+  ],
 }
 
 };
