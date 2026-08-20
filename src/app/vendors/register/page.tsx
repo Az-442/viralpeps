@@ -163,8 +163,8 @@ export default function VendorRegisterPage() {
             <label className="block text-sm font-semibold text-gray-900 mb-1.5">
               Contact Email <span className="text-red-500">*</span>
             </label>
-            <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)}
-              placeholder="contact@ukpeptides.com"
+            <input type="text" required value={email} onChange={(e) => setEmail(e.target.value)}
+              placeholder="contact@ukpeptides.com or your website"
               className="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
           </div>
           <div>

@@ -49,7 +49,7 @@ async function main() {
     { compound: 'GHK-Cu', dosage: '5mg', supplier: 'Raccoon Peptides', original: '£350.00', current: '£13.89', save: '£336.11', pct: '96%', slug: 'ghk-cu' },
     { compound: 'Semax', dosage: '600mcg', supplier: 'XL Peptides', original: '£199.99', current: '£7.50', save: '£192.49', pct: '96%', slug: 'semax' },
     { compound: 'Selank', dosage: '600mcg', supplier: 'XL Peptides', original: '£199.99', current: '£7.50', save: '£192.49', pct: '96%', slug: 'selank' },
-    { compound: 'CJC-1295', dosage: '2mg', supplier: 'Research Peptides UK', original: '£199.99', current: '£9.95', save: '£190.04', pct: '95%', slug: 'cjc-1295' },
+    { compound: 'CJC-1295', dosage: '2mg', supplier: 'Tide Labs', original: '£199.99', current: '£9.40', save: '£190.59', pct: '95%', slug: 'cjc-1295' },
     { compound: 'IGF-1 LR3', dosage: '60mcg', supplier: 'Pure Peptides UK', original: '£199.99', current: '£10.00', save: '£189.99', pct: '95%', slug: 'igf-1-lr3' },
     { compound: 'DSIP (Delta Sleep-Inducing Peptide)', dosage: '', supplier: 'Raccoon Peptides', original: '£199.99', current: '£9.99', save: '£190.00', pct: '95%', slug: 'dsip' },
     { compound: 'Oxytocin', dosage: '', supplier: 'XL Peptides', original: '£199.99', current: '£10.99', save: '£189.00', pct: '95%', slug: 'oxytocin' }
