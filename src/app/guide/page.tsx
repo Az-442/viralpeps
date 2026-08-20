@@ -184,8 +184,14 @@ export default function GuidePage() {
           </p>
           <div className="flex justify-center gap-3">
             <Link
-              href="/compounds"
+              href="/guide/how-to-verify-suppliers"
               className="px-6 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors"
+            >
+              How to Verify a Supplier &rarr;
+            </Link>
+            <Link
+              href="/compounds"
+              className="px-6 py-2.5 border border-gray-300 text-gray-700 rounded-lg text-sm font-semibold hover:bg-gray-50 transition-colors"
             >
               Browse Compounds &rarr;
             </Link>
