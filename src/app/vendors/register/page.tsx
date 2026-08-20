@@ -155,7 +155,7 @@ export default function VendorRegisterPage() {
             <label className="block text-sm font-semibold text-gray-900 mb-1.5">
               Website URL <span className="text-red-500">*</span>
             </label>
-            <input type="url" required value={website} onChange={(e) => setWebsite(e.target.value)}
+            <input type="text" required value={website} onChange={(e) => setWebsite(e.target.value)}
               placeholder="https://ukpeptides.com"
               className="w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm text-gray-900 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
           </div>
