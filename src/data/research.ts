@@ -1029,6 +1029,17 @@ export const guides: ResearchArticle[] = [
   minutes: 12,
   tags: ['oxytocin', 'bonding', 'pair-bonding', 'trust', 'neuropeptide', 'oxytocin-receptor', 'goals'],
 },
+{
+  title: 'Semax for Focus: BDNF-Driven Attention, Task Switching and Clean Alertness',
+  desc: 'A dedicated goal article on Semax (ACTH(4-10) analog) for focus and attention research — how intranasal administration upregulates BDNF and TrkB within minutes, lifts cortical readiness in the EEG, and reorganises default-mode/attention networks for faster task switching. The honest ADHD picture, dosing, evidence, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Semax',
+  slug: 'semax-for-focus',
+  image: 'semax-for-focus',
+  minutes: 12,
+  tags: ['semax', 'focus', 'attention', 'nootropic', 'bdnf', 'adhd', 'goals'],
+},
 
 ];
 

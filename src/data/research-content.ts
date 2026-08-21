@@ -8080,6 +8080,82 @@ const content: Record<string, ResearchPageContent> = {
     'Shay M, Zaki J. The social salience hypothesis of oxytocin. Trends Cogn Sci. 2013;17(4):159-160. doi:10.1016/j.tics.2013.02.001. PMID: 23434429.',
     'Leng G, Ludwig M. Intranasal oxytocin: myths and delusions. Biol Psychiatry. 2016;79(3):243-250. doi:10.1016/j.biopsych.2015.05.003. PMID: 26074099.',
     'Quintana DS, et al. Advances in the field of intranasal oxytocin research: a call for better methods. Psychoneuroendocrinology. 2017;83:113-116. doi:10.1016/j.psyneuen.2017.05.021. PMID: 28582731.',
+  ],},
+
+'semax-for-focus': {
+  slug: 'semax-for-focus',
+  compoundSlug: 'semax',
+  pullQuote: 'Semax is not a blunt stimulant that jacks up dopamine and crashes. It is a signal amplifier for the brains focus machinery - it turns up BDNF and TrkB, sharpens attention-network switching, and raises cortical readiness, all without the sedative, anxious or dependence baggage of conventional ADHD and wakefulness drugs.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Semax (ACTH(4-10) Analog)' },
+    { label: 'Sequence', value: 'Met-Glu-His-Phe-Pro-Gly-Pro' },
+    { label: 'CAS Number', value: '80714-61-0' },
+    { label: 'Molecular Weight', value: '813.93 g/mol' },
+    { label: 'Classification', value: 'Synthetic heptapeptide nootropic / neuroprotective agent' },
+    { label: 'Half-Life', value: '~1.3 hours' },
+    { label: 'Onset', value: '15-30 minutes (intranasal)' },
+    { label: 'Primary Focus Mechanism', value: 'BDNF/TrkB upregulation; dopamine and serotonin turnover; default-mode/attention network reorganisation' },
+    { label: 'Typical Research Dose', value: '200-600 mcg/day intranasal in 2-3 divided doses' },
+    { label: 'Regulatory Status', value: 'Registered medication in Russia; research use only elsewhere' },
+  ],
+  sections: [
+    {
+      title: 'Focus, Reframed: A Signal Amplifier, Not a Stimulant',
+      body: 'Ask most people what steals their concentration and they will say stress, distraction, and mental fatigue. The standard pharmacological answer to that - the amphetamine and methylphenidate classes used for ADHD - works by forcing the release and reuptake blockade of dopamine and noradrenaline. They are effective, but they come with a fistful of trade-offs: jitter, appetite suppression, insomnia, anxiety spikes, and for a meaningful subset of users, a rebound crash and dependence liability.\n\nSemax attacks the same problem from a completely different angle. It is a synthetic heptapeptide - a seven-amino-acid fragment analogue of ACTH(4-10) with the sequence Met-Glu-His-Phe-Pro-Gly-Pro - developed by Russian researchers at the Institute of Molecular Genetics and Moscow State University and registered for clinical use in Russia since 2001. Where stimulants force neurotransmitter release, Semax reprograms the conditions under which the brain sustains attention: it upregulates brain-derived neurotrophic factor (BDNF) and its TrkB receptor, modulates dopamine and serotonin turnover, and reorganises the default mode and attention networks so that switching between wandering and focused states is faster and cleaner.\n\nThis guide looks at Semax through one specific lens: focus and attention, including an honest look at the ADHD angle. We cover the neural pathways behind its alerting effects, the real evidence base (which is broader for cognitive recovery than for classic ADHD), how it is dosed, and where it sits relative to both conventional stimulants and the other nootropic peptides on the UK research market.\n\n[**Compare Semax prices from UK suppliers \u2192**](/compounds/semax)',
+    },
+    {
+      title: 'How Semax Drives Focus: The Neural Pathways',
+      body: 'Sustained focus is not one circuit - it is the coordinated output of arousal, attention gating, inhibition of distractors, and task-reward motivation. Semax touches each of the relevant layers, which is why it produces a "clean alertness" rather than the narrow push of a stimulant.',
+      subsections: [
+        { title: '1. BDNF / TrkB Upregulation \u2014 The Core Mechanism', body: 'The single most important thing Semax does is upregulate brain-derived neurotrophic factor (BDNF) and its high-affinity receptor TrkB. Intranasal Semax increases BDNF mRNA in the hippocampus and frontal cortex within about 20 minutes of administration. BDNF is the master gardener of the brain: it waters the dendrites, fertilises synapses and strengthens long-term potentiation - the cellular basis of learning and working memory that every attention-demanding task depends on.' },
+        { title: '2. Cortical Readiness and EEG \u2014 The "Clean Alertness" Signature', body: 'Human EEG studies show Semax increases alpha rhythm power and reduces slow-wave (theta and delta) activity - a pattern associated with improved cortical activation and cognitive readiness. This is the opposite of a sedative signature: baseline alertness is lifted without pushing into the anxious, over-aroused state that high-dose stimulants produce.' },
+        { title: '3. Default-Mode / Attention Network Switching', body: 'Human neuroimaging shows Semax modulates the default mode network (DMN), increasing functional connectivity between its nodes while simultaneously improving performance on attention-demanding tasks. The practical consequence is network efficiency: the transition from rest mode to active task mode becomes faster and less effortful - exactly the kind of sustained-attention switch that ADHD-like states struggle with.' },
+        { title: '4. Dopamine and Serotonin Tone \u2014 Modulation, Not Forcing', body: 'Semax does not act as a direct agonist or reuptake inhibitor. It modulates monoaminergic systems - increasing dopamine turnover in the striatum and serotonergic activity in the frontal cortex in rodent models. The result is a subtle shift in drive, mood stability and cognitive flexibility rather than a crash-and-burn push, which is why users typically report no anxiety spike and no rebound.' },
+        { title: '5. No Cortisol Stimulation \u2014 The ACTH Distinction', body: 'Because Semax is an ACTH(4-10) fragment, it lacks the amino acid sequence needed to activate the adrenal cortex. Multiple studies confirm it does not elevate blood cortisol. This matters for focus because chronic cortisol elevation is the enemy of hippocampal neurogenesis, BDNF and attention - by avoiding an HPA stress response, Semax leaves the attention system working at its natural ceiling.' },
+      ],
+    },
+    {
+      title: 'What the Focus Evidence Actually Shows',
+      body: 'The honest summary is that Semax has a robust evidence base for neuroprotective and nootropic effects - and a thinner, more indirect one for treating formal ADHD. The strongest human data comes from healthy-volunteer cognitive studies and stroke-rehabilitation trials, rather than from ADHD-diagnosed populations.',
+      subsections: [
+        { title: 'Healthy-Volunteer Attention and Memory Data', body: 'Learning and memory models in rodents consistently show Semax accelerating memory consolidation and improving retention, most pronounced under cognitive demand. Human neuroimaging and EEG studies support improved attention-network switching and cortical readiness in healthy adults - the closest available surrogate for everyday focus enhancement.' },
+        { title: 'Cognitive Recovery in Stroke and TBI', body: 'Registered Russian clinical use focuses on cognitive impairment after stroke and traumatic brain injury. Studies involving hundreds of patients report improved neurological recovery and cognition - with effects on attention and executive function that directly inform how Semax influences the focus system. Gusev et al. (2005) found Semax within 72 hours of ischemic stroke significantly improved Scandinavian Stroke Scale and Mini-Mental State Examination scores at 30-day follow-up (PMID: 15895889).' },
+        { title: 'The ADHD Caveat', body: 'It is important to be direct: Semax is not registered or approved for ADHD, and there is no large randomised ADHD clinical trial in Western literature. Its relevance to ADHD is mechanistic - improving sustained attention, reducing distractibility and sharpening task switching without stimulant side effects - but this is an extrapolation from the cognitive and neuroprotective data, not a proven indication. Anyone considering it for ADHD should weigh this against the strong trial data for established ADHD medications.' },
+        { title: 'The 24-Gene Reprogramming Signature', body: 'A comprehensive microarray study identified 24 genes whose expression is significantly altered in the rat CNS after Semax, spanning neurotrophic signalling (Bdnf, TrkB), neurotransmitter synthesis (Th, Ddc), synaptic plasticity (Arc, Egr1), neuroprotection (Hsp70, Bcl2) and energy metabolism. This multi-gene, system-level effect is what distinguishes Semax from narrow single-target nootropics (PMID: 21061613).' },
+      ],
+    },
+    {
+      title: 'Semax vs Stimulants and Other Focus Peptides',
+      body: 'Positioning Semax for focus requires an honest comparison against both conventional ADHD medication and the alternative research peptides it is usually stacked or compared with in the UK market.',
+      subsections: [
+        { title: 'vs Amphetamine / Methylphenidate', body: 'Stimulants force dopamine/noradrenaline release and reuptake blockade - fast, potent, but with jitter, appetite loss, insomnia, anxiety liability and potential for dependence and rebound. Semax modulates monoamine tone and upregulates BDNF without forcing release, so it has a far lighter side-effect profile and no demonstrated dependence - but it is also nowhere near as acutely potent at forcing concentration in a diagnosed ADHD population.' },
+        { title: 'vs Selank', body: 'Selank is the anxiolytic sibling peptide (anxiety reduction via allosteric GABA-A modulation and IL-6 regulation). Semax leans toward cognitive enhancement and focus; Selank leans toward calming an over-anxious mind. Because anxiety itself consumes attention bandwidth, the two are frequently studied together as a "calm focus" pair. [**Compare Selank prices \u2192**](/compounds/selank)' },
+        { title: 'vs racetams and synthetic nootropics', body: 'Racetams and other synthetic nootropics act through cholinergic or glutamatergic systems and often lose potency or cause tolerance over time. Semax acts through neurotrophin upregulation and gene-expression changes - a fundamentally different, more structural mechanism that does not rely on receptor occupancy and does not build tolerance in the same way.' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Focus',
+      body: 'For registered clinical use, Semax is administered intranasally at 200-600 mcg/day divided into 2-3 applications. The intranasal route lets Semax bypass the blood-brain barrier via the olfactory and trigeminal pathways, reaching the CNS within 15-30 minutes. With a half-life of approximately 1.3 hours, steady state across the waking day requires multiple divided doses.\n\nFor UK research use, Semax is supplied as lyophilised powder, commonly in 30 mg vials, reconstituted with sterile saline or bacteriostatic water to a target concentration (e.g. 10 mg/mL). The 2-3 divided intranasal doses mirror the clinical protocol. Store lyophilised powder at -20 C and reconstituted solutions at 2-8 C for 7-14 days; avoid repeated freeze-thaw cycles and verify batch purity via the Certificate of Analysis.\n\n[**Find the best Semax prices \u2192**](/compounds/semax)\n[**Related: Semax vs Selank \u2192**](/research/semax-vs-selank)',
+    },
+    {
+      title: 'Safety Profile',
+      body: 'Semax has a favourable safety profile established through decades of Russian clinical and research use. It is consistently reported as non-sedating, does not produce dependence or withdrawal, does not stimulate cortisol release or suppress the HPA axis, and has not shown hepatotoxicity. Reported side effects are generally mild and transient: occasional mild nasal irritation at the intranasal site, transient mild headache, or slight blood-pressure changes in sensitive individuals.\n\nSemax is not approved by the MHRA, FDA or EMA for any psychiatric, cognitive or ADHD indication; its only registered human use is in Russia. All other use is strictly for research, with standard aseptic handling and cold, light-protected storage of the lyophilised powder. It should not be treated as a substitute for clinician-supervised ADHD treatment.',
+    },
+  ],
+  faq: [
+    { question: 'Does Semax actually improve focus and attention?', answer: 'Healthy-volunteer EEG and neuroimaging studies show Semax increases cortical readiness (alpha power), reduces theta/delta activity, and improves attention-network switching - a profile consistent with enhanced focus. It also upregulates BDNF/TrkB and modulates dopamine and serotonin turnover. [**Compare Semax prices \u2192**](/compounds/semax)' },
+    { question: 'Is Semax approved or proven for ADHD?', answer: 'No. Semax is a registered medication in Russia (for cognitive recovery after stroke/TBI), but it is not approved for ADHD and has no large Western ADHD randomised trial. Its relevance to ADHD is mechanistic - sustained attention and reduced distractibility without stimulant side effects - rather than a proven indication.' },
+    { question: 'How is Semax different from stimulant ADHD medication?', answer: 'Stimulants (amphetamine, methylphenidate) force dopamine/noradrenaline release and reuptake blockade - potent but with jitter, appetite suppression, insomnia, anxiety and dependence liability. Semax modulates monoamine tone and upregulates BDNF without forcing release, giving a milder, steadier alertness with no demonstrated dependence - at the cost of lower acute potency.' },
+    { question: 'What is the standard Semax dosing protocol for focus?', answer: 'Clinical protocols use 200-600 mcg/day intranasally divided into 2-3 doses, each reaching the CNS within 15-30 minutes. With a ~1.3 hour half-life, divided dosing maintains effect across the day. Research powder is reconstituted with sterile saline or bacteriostatic water; store lyophilised at -20 C and reconstituted at 2-8 C for 7-14 days.' },
+    { question: 'Can Semax be stacked with other research peptides?', answer: 'Semax is frequently paired with Selank for a "calm focus" combination - Semax for cognitive enhancement and focus, Selank for anxiety reduction. It can also be combined with nootropics on a different mechanism (e.g. racetams), but researchers should be cautious about stacking multiple agents and always verify purity via Certificate of Analysis before use.' },
+  ],
+  references: [
+    'Filippenkov IB, et al. Semax, an analog of ACTH(4-10), regulates expression of immune response genes in rat brain. Dokl Biochem Biophys. 2015;464:322-325. PMID: 26518547.',
+    'Dmitrieva VG, et al. Semax and Pro-Gly-Pro fragment of ACTH(4-10) upregulate BDNF and TrkB gene expression in rat brain. Dokl Biol Sci. 2015;463:196-199. PMID: 26329290.',
+    'Gusev EI, et al. Efficacy of Semax in the acute period of hemispheric ischemic stroke. Zh Nevrol Psikhiatr Im S S Korsakova. 2005;105(4):21-26. PMID: 15895889.',
+    'Myasoedov NF, et al. Neuroprotective and nootropic effects of Semax and its analogues. J Mol Neurosci. 2006;28(3):229-235. PMID: 16651008.',
+    'Volkova EV, et al. Semax increases BDNF expression in the hippocampus and frontal cortex of rats. Bull Exp Biol Med. 2018;166(1):62-65. PMID: 30456520.',
+    'Shadrina MI, et al. Semax affects expression of genes involved in neuroplasticity and neuroprotection in rat brain. Mol Biol (Mosk). 2010;44(5):846-854. PMID: 21061613.',
   ],
 }
 
