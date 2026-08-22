@@ -75,9 +75,7 @@ export default function GuidePage() {
             </span>
           </h1>
           <p className="text-gray-300 text-sm max-w-2xl mx-auto leading-relaxed">
-            Everything you need to understand research peptides, use this site
-            effectively, and make informed sourcing decisions. No prior
-            knowledge required.
+            Your comprehensive research peptides resource. Use this site for research and sourcing.
           </p>
         </div>
       </section>
