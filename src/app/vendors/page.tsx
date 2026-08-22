@@ -87,7 +87,7 @@ export default function VendorsPage() {
     <div className="min-h-screen bg-white">
       <HeaderNav />
 
-      {/* EXPANDED HERO BANNER — Peptide Supermarket Reference */}
+      {/* EXPANDED HERO BANNER */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] pb-10">
         <div className="max-w-[76rem] mx-auto px-4 pt-10 md:pt-14 pb-6 text-center">
           {/* Badge */}
@@ -98,7 +98,7 @@ export default function VendorsPage() {
 
           {/* Headline */}
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
-            Every UK peptide supplier, <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">in one place.</span>
+            The home of <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">UK Peptide Suppliers</span>
           </h1>
 
           {/* Sub-headline */}

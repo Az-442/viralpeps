@@ -144,7 +144,7 @@ function ScrollSection({ children }: { children: React.ReactNode }) {
  );
 }
 
-// Shared compound card matching Peptide Supermarket style with supplier images, dosage pills, supplier count, FROM price
+// Shared compound card with supplier images, dosage pills, supplier count, FROM price
 function CompoundCard({ c, href }: { c: any; href: string }) {
   const minPrice = Math.min(...c.sources.map((s: any) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0));
   const dosages = (c.commonDosages || []).slice(0, 5);
@@ -212,9 +212,8 @@ export default function Home() {
  <span className="text-[11px] font-bold text-white uppercase tracking-wider">LIVE UK PRICE COMPARISON</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 leading-tight">
- Search, compare, save.<br />
- <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Find your next peptide deal today.</span>
- </h1>
+             Find the best <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">peptide deals today</span>
+           </h1>
  <p className="text-gray-300 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
  Compare live prices on <strong className="text-white">{totalCompounds}+ peptides</strong> from{" "}
  <strong className="text-white">{totalVendors}+ trusted UK suppliers</strong>{" "}

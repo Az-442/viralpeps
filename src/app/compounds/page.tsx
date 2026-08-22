@@ -306,7 +306,7 @@ export default function CompoundsPage() {
 
           {/* Headline */}
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
-            Every UK peptide price, <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">sorted cheapest first.</span>
+            UK Peptide Prices <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Searched and Verified</span>
           </h1>
 
           {/* Sub-headline */}
