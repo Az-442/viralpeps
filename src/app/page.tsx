@@ -226,7 +226,7 @@ export default function Home() {
      href="/trust-score"
      className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white rounded-full pl-2 pr-4 py-1.5 transition-colors"
    >
-     <TrustScoreIcon className="w-6 h-6" />
+     <TrustScoreIcon className="w-8 h-8" />
      <span className="text-xs md:text-sm font-semibold">Every supplier scored by TrustScore</span>
      <span className="text-white/60">&rarr;</span>
    </Link>
