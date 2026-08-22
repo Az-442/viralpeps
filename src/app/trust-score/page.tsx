@@ -16,10 +16,10 @@ const bands = [
 ];
 
 const signals = [
-  { pts: "+25", title: "Business verified", desc: "The named trading entity behind the brand is manually confirmed (we verify it by email). A faceless store can never reach the top bands." },
+  { pts: "+25", title: "Business verified", desc: "£50/month manual verification done by email — we confirm the named trading entity behind the brand is real. A faceless store can never reach the top bands." },
   { pts: "+25", title: "COAs & lab testing", desc: "Published Certificates of Analysis with batch numbers from a named third-party lab (e.g. Janoshik HPLC). The single most decisive signal a supplier controls." },
   { pts: "+10", title: "Contact verified", desc: "A real, working way to reach a person — a replying email, phone number, or functional contact form." },
-  { pts: "+20", title: "Domain verified", desc: "Supplier installs the free TrustScore badge on their site (linking back to ViralPeps). We confirm they own and operate the website." },
+  { pts: "+20", title: "Domain verified", desc: "Free — supplier installs the TrustScore badge on their site (linking back to ViralPeps). We confirm they own and operate the website." },
   { pts: "+5", title: "Research-use compliance", desc: "Clear \u201cfor in-vitro research only\u201d labelling and no marketing of research chemicals for human or medical use." },
   { pts: "+10", title: "Genuine reviews", desc: "Volume and quality of authentic Google and Trustpilot reviews. Fake review sites are penalised — we only use trusted websites." },
   { pts: "+5", title: "Shipping & support", desc: "Reliable dispatch, realistic delivery times, and responsive customer support." },

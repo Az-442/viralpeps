@@ -75,15 +75,15 @@ export function getTrustScore(vendorName: string): TrustScoreBreakdown {
   }
 
   // ---- MANUAL signals ----
-  // Business (+25) — manually verified by email (the supplier's trading entity
-  //   confirmed by us, no fee). Triggered by `businessVerified: true`.
+  // Business (+25) — £50/month manual verification done via email (we verify
+  //   the supplier's trading entity). Triggered by `businessVerified: true`.
   if (v.businessVerified === true) {
     score += 25;
     ticks.push("Business");
   }
-  // Domain (+20) — earned semi-automatically: supplier installs the free
-  //   TrustScore badge on their site (linking back to ViralPeps), then we
-  //   confirm domain ownership once it's live. `embedded`/`domainVerified`.
+  // Domain (+20) — FREE: supplier installs the TrustScore badge on their site
+  //   (linking back to ViralPeps), then we confirm domain ownership once live.
+  //   Triggered by `embedded`/`domainVerified`.
   if (v.embedded === true || v.domainVerified === true) {
     score += 20;
     ticks.push("Domain");
