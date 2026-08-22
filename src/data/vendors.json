@@ -1709,5 +1709,33 @@
     ],
     "lastTested": "2026-08-18",
     "labTested": true
+  },
+  {
+    "id": "united-peptides",
+    "name": "United Peptides",
+    "slug": "united-peptides",
+    "website": "https://unitedpeptides.co.uk",
+    "rating": 4.8,
+    "verified": true,
+    "founded": 2024,
+    "country": "UK",
+    "description": "UK-based research peptide supplier offering lab-tested compounds for laboratory and scientific use. Independent TrustScore-verified business with domain ownership confirmed.",
+    "highlights": [
+      "UK-based",
+      "Lab-tested",
+      "Competitive pricing"
+    ],
+    "shipping": [
+      "UK (free over £50)"
+    ],
+    "payment": [
+      "Bank transfer",
+      "Cryptocurrency",
+      "Cards"
+    ],
+    "lastTested": "2026-08-22",
+    "labTested": true,
+    "embedEnabled": true,
+    "domainVerified": true
   }
 ]
