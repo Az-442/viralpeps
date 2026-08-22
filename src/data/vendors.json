@@ -1330,7 +1330,7 @@
     "slug": "alphamino",
     "website": "https://alphamino.co.uk",
     "rating": 4.5,
-    "verified": true,
+    "verified": false,
     "founded": 2025,
     "country": "UK",
     "description": "UK-based research peptide supplier offering third-party tested (Janoshik) peptides with batch-specific COAs, cold-chain storage, and same-day dispatch. Registered company address in Mildenhall, UK. Focused on B2B laboratory supply with documented reference materials for in-vitro research.",
@@ -1368,7 +1368,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-08-22T19:21:56.471Z"
+      "checkedAt": "2026-08-22T19:24:57.742Z"
     }
   },
   {
