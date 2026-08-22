@@ -1,0 +1,31 @@
+  {
+    "id": "polygon-peptides",
+    "name": "Polygon Peptides",
+    "slug": "polygon-peptides",
+    "website": "https://polygonpeptides.co.uk",
+    "rating": 5.0,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "Premium UK research peptide supplier (DEB Ventures Ltd #16714689) with all compounds HPLC-tested to ≥99% purity via Janoshik Analytical. 5.0★ rating from 300+ verified reviews. Based in London with same-day dispatch before 1pm, free UK delivery over £100, and a 30-day money-back guarantee. All batches supplied with Certificates of Analysis.",
+    "highlights": [
+      "5.0/5 rating — 300+ verified reviews",
+      "Lab tested (Janoshik Analytical)",
+      "≥99% HPLC purity",
+      "Free UK shipping over £100",
+      "Same-day dispatch (before 1pm)",
+      "30-day money-back guarantee",
+      "Registered UK company (DEB Ventures Ltd #16714689)"
+    ],
+    "shipping": [
+      "UK free over £100 (Royal Mail Tracked 24)",
+      "Same-day dispatch before 1pm Mon-Fri"
+    ],
+    "payment": [
+      "Cards (Visa/Mastercard)",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "lastTested": "2026-07-17",
+    "labTested": true
+  },
