@@ -1352,7 +1352,8 @@
       "Google Pay"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "contactVerified": true
   },
   {
     "id": "form-peptides",

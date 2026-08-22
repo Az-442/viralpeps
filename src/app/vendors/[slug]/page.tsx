@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
 import VendorLogo from "@/components/VendorLogo";
 import { getVendorStats } from "@/data/vendor-stats";
+import { getTrustScore } from "@/lib/trust-score";
 import { JsonLd, vendorOrganization } from "@/components/JsonLd";
 
 export const dynamic = "force-dynamic";
@@ -93,6 +94,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   const { slug } = await params;
   const vendor = vendors.find((v) => v.slug === slug);
   if (!vendor) notFound();
+
+  // TrustScore breakdown for this supplier
+  const trust = getTrustScore(vendor.name);
 
   // Compounds this vendor sells
   // If vendor has individual catalog entries (identified by having compareSlug),
@@ -238,6 +242,46 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                       </span>
                     </>
                   )}
+                </div>
+
+                {/* TrustScore widget */}
+                <div className="flex flex-wrap items-start gap-4 mb-5">
+                  <div className="flex items-center gap-3 bg-white/[0.04] border border-slate-700/50 rounded-xl px-4 py-3">
+                    <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <defs>
+                        <linearGradient id="tsgProfile" x1="0" y1="0" x2="48" y2="48">
+                          <stop stopColor="#2563eb" /><stop offset="0.5" stopColor="#6366f1" /><stop offset="1" stopColor="#7c3aed" />
+                        </linearGradient>
+                      </defs>
+                      <path d="M24 2l18 7v13c0 11-8 20-18 24C14 42 6 33 6 22V9l18-7z" fill="url(#tsgProfile)" />
+                      <path d="M19 24l3.5 3.5L29 21" stroke="#4ade80" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <div>
+                      <div className="text-2xl font-extrabold leading-none text-white">
+                        {trust.score}
+                        <span className="text-sm text-slate-400 font-medium">/{trust.max}</span>
+                      </div>
+                      <div className="text-[10px] text-slate-400 uppercase tracking-wider mt-0.5 font-semibold">
+                        Independent TrustScore
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex-1 min-w-[200px]">
+                    <div className="text-[10px] text-slate-400 uppercase tracking-wider mb-1.5 font-semibold">
+                      Verified signals
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {trust.ticks.map((t) => (
+                        <span key={t} className="inline-flex items-center gap-1 text-[11px] text-emerald-300 bg-white/5 border border-emerald-500/30 rounded-full px-2.5 py-0.5 font-medium">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#4ade80" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                          </svg>
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
 
                 {/* CTA Button - ViralPeps blue */}
