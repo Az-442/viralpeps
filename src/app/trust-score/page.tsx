@@ -16,16 +16,20 @@ const bands = [
 ];
 
 const signals = [
-  { pts: "+25", title: "Business verified", desc: "£50/month manual verification done by email — we confirm the named trading entity behind the brand is real. A faceless store can never reach the top bands." },
   { pts: "+25", title: "COAs & lab testing", desc: "Published Certificates of Analysis with batch numbers from a named third-party lab (e.g. Janoshik HPLC). The single most decisive signal a supplier controls." },
   { pts: "+10", title: "Contact verified", desc: "A real, working way to reach a person — a replying email, phone number, or functional contact form." },
-  { pts: "+20", title: "Domain verified", desc: "Free — supplier installs the TrustScore badge on their site (linking back to ViralPeps). We confirm they own and operate the website." },
-  { pts: "+5", title: "Research-use compliance", desc: "Clear \u201cfor in-vitro research only\u201d labelling and no marketing of research chemicals for human or medical use." },
   { pts: "+10", title: "Genuine reviews", desc: "Volume and quality of authentic Google and Trustpilot reviews. Fake review sites are penalised — we only use trusted websites." },
+  { pts: "+5", title: "Research-use compliance", desc: "Clear \u201cfor in-vitro research only\u201d labelling and no marketing of research chemicals for human or medical use." },
   { pts: "+5", title: "Shipping & support", desc: "Reliable dispatch, realistic delivery times, and responsive customer support." },
+  { pts: "+20", title: "Domain verified", desc: "Free — supplier installs the TrustScore badge on their site (linking back to ViralPeps). We confirm they own and operate the website." },
 ];
 
-const verified = ["Business", "Contact", "Domain", "COAs", "Compliant", "Lab-Tested"];
+const entityTiers = [
+  { entity: "Limited company", reg: "Company number + registered address", card: "+25", crypto: "+20", note: "Flagship — can reach the 90+ band" },
+  { entity: "Sole trader", reg: "Verified personal ID", card: "+15", crypto: "+10", note: "Verified to a person, not a company" },
+];
+
+const verified = ["Contact", "Domain", "COAs", "Compliant", "Lab-Tested", "Registered Business", "Sole Trader Verified"];
 
 const caps = [
   { condition: "No verifiable business identity behind the store" },
@@ -78,7 +82,7 @@ export default function TrustScorePage() {
         {/* Signals */}
         <div className="mb-14">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">What we check</h2>
-          <p className="text-gray-500 text-sm mb-6">Each supplier score is built from the same seven signals, totalling 100 points.</p>
+          <p className="text-gray-500 text-sm mb-6">Each supplier score is built from automated site checks, a domain signal, and the audited business identity — totalling 100 points.</p>
           <div className="grid md:grid-cols-2 gap-5">
             {signals.map((s) => (
               <div key={s.title} className="flex gap-5 border border-gray-200 rounded-xl p-6">
@@ -93,6 +97,43 @@ export default function TrustScorePage() {
           <p className="text-xs text-gray-400 mt-4">
             TrustScore measures transparency and verifiability. It is <strong>not</strong> a measure of
             product safety, purity, or legality — always do your own due diligence.
+          </p>
+        </div>
+
+        {/* Entity verification (recertification audit) */}
+        <div className="mb-14">
+          <h2 className="text-2xl font-bold text-gray-900 mb-1">Business identity — recertification audit</h2>
+          <p className="text-gray-500 text-sm mb-1">
+            The £50/month audit manually confirms the entity behind the brand (we verify it by email).
+            The trading identity and the payment method it accepts are both weighted — a traceable
+            real-money payment (card/bank) always outranks crypto.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[520px] border border-gray-200 rounded-xl text-sm">
+              <thead>
+                <tr className="text-left text-gray-500 border-b border-gray-200">
+                  <th className="px-4 py-3 font-medium">Entity</th>
+                  <th className="px-4 py-3 font-medium">What we confirm</th>
+                  <th className="px-4 py-3 font-medium">Card / Bank transfer</th>
+                  <th className="px-4 py-3 font-medium">Crypto only</th>
+                </tr>
+              </thead>
+              <tbody>
+                {entityTiers.map((t) => (
+                  <tr key={t.entity} className="border-b border-gray-100 last:border-0">
+                    <td className="px-4 py-3 font-semibold text-gray-900">{t.entity}</td>
+                    <td className="px-4 py-3 text-gray-500">{t.reg}</td>
+                    <td className="px-4 py-3 font-bold text-blue-600">{t.card}</td>
+                    <td className="px-4 py-3 font-bold text-gray-700">{t.crypto}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-400 mt-3">
+            The flagship 90+ band is reserved for a registered company taking card or bank payments.
+            Scores are never for sale — the audit price covers the cost of manually re-confirming a
+            business every month.
           </p>
         </div>
 
