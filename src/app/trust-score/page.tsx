@@ -1,5 +1,6 @@
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import TrustScoreIcon from "@/components/TrustScoreIcon";
 
 export const metadata = {
   title: "TrustScore — How ViralPeps Rates Every UK Supplier",
@@ -43,6 +44,9 @@ export default function TrustScorePage() {
             <span className="text-[11px] font-bold text-white uppercase tracking-wider">Independent rating</span>
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+            <span className="inline-flex items-center align-middle mr-2">
+              <TrustScoreIcon className="w-[0.9em] h-[0.9em]" />
+            </span>
             TrustScore<span className="text-slate-500 font-normal">/100</span>
           </h1>
           <p className="text-gray-300 text-base max-w-2xl mx-auto leading-relaxed">
