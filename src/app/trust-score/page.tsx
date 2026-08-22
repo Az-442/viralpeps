@@ -25,8 +25,9 @@ const signals = [
 ];
 
 const entityTiers = [
-  { entity: "Limited company", reg: "Company number + registered address", card: "+25", crypto: "+20", note: "Flagship — can reach the 90+ band" },
-  { entity: "Sole trader", reg: "Verified personal ID", card: "+15", crypto: "+10", note: "Verified to a person, not a company" },
+  { entity: "Verified entity (Ltd or sole trader)", card: "+25", crypto: "—", note: "Card or bank = top tier, regardless of entity type" },
+  { entity: "Limited company, crypto only", card: "—", crypto: "+20", note: "Still a registered business" },
+  { entity: "Sole trader, crypto only", card: "—", crypto: "+10", note: "Verified to a person, crypto only" },
 ];
 
 const verified = ["Contact", "Domain", "COAs", "Compliant", "Lab-Tested", "Registered Business", "Sole Trader Verified"];
@@ -112,28 +113,28 @@ export default function TrustScorePage() {
             <table className="w-full min-w-[520px] border border-gray-200 rounded-xl text-sm">
               <thead>
                 <tr className="text-left text-gray-500 border-b border-gray-200">
-                  <th className="px-4 py-3 font-medium">Entity</th>
-                  <th className="px-4 py-3 font-medium">What we confirm</th>
+                  <th className="px-4 py-3 font-medium">Identity</th>
                   <th className="px-4 py-3 font-medium">Card / Bank transfer</th>
                   <th className="px-4 py-3 font-medium">Crypto only</th>
+                  <th className="px-4 py-3 font-medium">Why</th>
                 </tr>
               </thead>
               <tbody>
                 {entityTiers.map((t) => (
                   <tr key={t.entity} className="border-b border-gray-100 last:border-0">
                     <td className="px-4 py-3 font-semibold text-gray-900">{t.entity}</td>
-                    <td className="px-4 py-3 text-gray-500">{t.reg}</td>
                     <td className="px-4 py-3 font-bold text-blue-600">{t.card}</td>
                     <td className="px-4 py-3 font-bold text-gray-700">{t.crypto}</td>
+                    <td className="px-4 py-3 text-gray-500">{t.note}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-400 mt-3">
-            The flagship 90+ band is reserved for a registered company taking card or bank payments.
-            Scores are never for sale — the audit price covers the cost of manually re-confirming a
-            business every month.
+            The flagship 90+ band is reserved for a verified business taking card or bank payments.
+            Crypto can never reach the top tier. Scores are never for sale — the audit price covers
+            the cost of manually re-confirming a business every month.
           </p>
         </div>
 

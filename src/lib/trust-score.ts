@@ -11,10 +11,11 @@
 //   DOMAIN (+20) — FREE: supplier installs the TrustScore badge on their site
 //     (linking back to ViralPeps), then we confirm domain ownership once live.
 //   ENTITY (£50/month recertification audit — set by us, never auto):
-//     Limited company + card/bank (+25)  |  Limited company + crypto (+20)
-//     Sole trader     + card/bank (+15)  |  Sole trader     + crypto (+10)
-//     -- A registered entity with real-money payment methods outranks crypto.
-//     -- Lite flagship "Excellent" band (90+) is reserved for Ltd + card/bank.
+//     Card/bank payment + verified entity (Ltd OR sole trader) (+25)
+//     Limited company + crypto (+20)  |  Sole trader + crypto (+10)
+//     -- Real-money, traceable payment is the deciding signal: any verified
+//        entity taking card/bank reaches the top tier; crypto cannot.
+//     -- Flagship "Excellent" band (90+) is reserved for card/bank entities.
 //
 // AUTOMATED signals are read from the `_autoChecks` block on each vendor record,
 // which is produced by `scripts/checks/vendor-autocheck.mjs`. A signal only
@@ -36,8 +37,9 @@ export interface TrustScoreBreakdown {
 // Entity audit → points. entityType: "ltd" | "sole_trader"
 // paymentMethod: "card" | "bank" | "crypto"
 export function entityPoints(entityType?: string, paymentMethod?: string): number {
-  if (entityType === "ltd") return paymentMethod === "crypto" ? 20 : 25;
-  if (entityType === "sole_trader") return paymentMethod === "crypto" ? 10 : 15;
+  if (paymentMethod === "card" || paymentMethod === "bank") return 25; // real-money: any verified entity reaches the top tier
+  if (entityType === "ltd") return 20; // Ltd, crypto only
+  if (entityType === "sole_trader") return 10; // Sole trader, crypto only
   return 0;
 }
 
