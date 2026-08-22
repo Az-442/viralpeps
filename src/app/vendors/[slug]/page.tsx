@@ -179,7 +179,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
             {/* TrustScore banner — prominent, above the name */}
             <a
               href="/trust-score"
-              className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-gradient-to-r from-slate-800/10 via-indigo-900/20 to-slate-800/10 ring-1 ring-inset ring-indigo-400/30 rounded-xl px-5 py-3 mb-6 shadow-lg hover:ring-indigo-300/50 transition-colors"
+              className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-gradient-to-r from-indigo-500/25 via-violet-600/20 to-indigo-500/25 ring-1 ring-inset ring-indigo-400/60 rounded-xl px-5 py-3 mb-6 shadow-lg hover:ring-indigo-300/70 transition-colors"
             >
               <div className="flex items-center gap-3.5">
                 {/* EXACT widget shield icon (fixed branding) */}
@@ -330,7 +330,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       {/* PRODUCTS LIST SECTION — Card layout */}
       <div className="max-w-[76rem] mx-auto px-4 pb-12">
         {/* TrustScore strip above the products */}
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 bg-blue-600 border border-blue-500/50 rounded-xl px-4 py-3 mb-4 mt-6 shadow-md">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 border border-indigo-400/50 rounded-xl px-4 py-3 mb-4 mt-6 shadow-md">
           <div className="flex items-center gap-2.5">
             <svg width="26" height="26" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <defs>
