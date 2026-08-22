@@ -26,6 +26,12 @@ const signals = [
 
 const verified = ["Business", "Contact", "Domain", "COAs", "Compliant", "Lab-Tested"];
 
+const caps = [
+  { condition: "No verifiable business identity behind the store" },
+  { condition: "Marketing research chemicals for human or medical use" },
+  { condition: "No genuine, working contact method" },
+];
+
 export default function TrustScorePage() {
   return (
     <div className="min-h-screen bg-white">
@@ -98,6 +104,19 @@ export default function TrustScorePage() {
                 <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 111.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clipRule="evenodd" /></svg>
                 {v}
               </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Caps */}
+        <div className="mb-14">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">What caps a score</h2>
+          <p className="text-gray-500 text-sm mb-6">Some failures are serious enough that no amount of positive signals can produce a high score.</p>
+          <div className="space-y-3">
+            {caps.map((c) => (
+              <div key={c.condition} className="flex items-center gap-3 border border-red-100 bg-red-50 rounded-xl px-4 py-3">
+                <span className="text-sm text-gray-700">{c.condition}</span>
+              </div>
             ))}
           </div>
         </div>
