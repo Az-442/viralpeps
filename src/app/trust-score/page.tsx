@@ -29,7 +29,7 @@ const verified = ["Business", "Contact", "Domain", "COAs", "Compliant", "Lab-Tes
 const caps = [
   { condition: "No verifiable business identity behind the store" },
   { condition: "Marketing research chemicals for human or medical use" },
-  { condition: "No genuine, working contact method" },
+  { condition: "No verifiable domain ownership" },
 ];
 
 export default function TrustScorePage() {
@@ -114,8 +114,8 @@ export default function TrustScorePage() {
           <p className="text-gray-500 text-sm mb-6">Some failures are serious enough that no amount of positive signals can produce a high score.</p>
           <div className="space-y-3">
             {caps.map((c) => (
-              <div key={c.condition} className="flex items-center gap-3 border border-red-100 bg-red-50 rounded-xl px-4 py-3">
-                <span className="text-sm text-gray-700">{c.condition}</span>
+              <div key={c.condition} className="flex items-center gap-3 border border-red-300 bg-red-100 rounded-xl px-4 py-3">
+                <span className="text-sm font-semibold text-red-900">{c.condition}</span>
               </div>
             ))}
           </div>
