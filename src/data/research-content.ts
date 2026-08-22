@@ -8158,6 +8158,82 @@ const content: Record<string, ResearchPageContent> = {
     'Shadrina MI, et al. Semax affects expression of genes involved in neuroplasticity and neuroprotection in rat brain. Mol Biol (Mosk). 2010;44(5):846-854. PMID: 21061613.',
   ],
 }
+,
+
+'selank-for-anxiety': {
+  slug: 'selank-for-anxiety',
+  compoundSlug: 'selank',
+  pullQuote: 'Selank does not knock the anxious brain out with a chemical hammer the way benzodiazepines do. It walks through the GABAergic garden, adjusts the watering, and leaves the rest of the mind free to go about its business - calm, clear and free of sedation, cognitive blunting or benzodiazepine dependence.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Selank (TP-7 / Selanc)' },
+    { label: 'Sequence', value: 'Thr-Lys-Pro-Arg-Pro-Gly-Pro' },
+    { label: 'CAS Number', value: '129954-34-3' },
+    { label: 'Molecular Weight', value: '751.87 g/mol' },
+    { label: 'Classification', value: 'Synthetic Heptapeptide Tuftsin Analog Anxiolytic Neuropeptide' },
+    { label: 'Half-Life', value: 'Short (minutes)' },
+    { label: 'Anxiety Mechanism', value: 'Allosteric GABA-A modulation (non-benzodiazepine site); 5-HT/dopamine tuning; IL-6 downregulation' },
+    { label: 'Clinical Dose', value: '500-1000 mcg/day intranasal in 2-3 divided doses' },
+    { label: 'Regulatory Status', value: 'Russian approval since 2009 for anxiety disorders; research use only elsewhere' },
+  ],
+  sections: [
+    {
+      title: 'Anxiety, Reframed: Calm Without the Chemical Hammer',
+      body: 'Anxiety is not a single switch, so a single on/off chemical is a crude tool for it. The benzodiazepine answer - diazepam, alprazolam, lorazepam - works by binding a specific site on GABA-A receptors and amplifying the inhibitory signal GABA across the entire brain at once. The result is effective, but it is also indiscriminate: sedation, ataxia, anterograde amnesia, and a dependence liability so well documented that benzodiazepines now carry boxed warnings and are routinely flagged as drugs to taper, never stop cold-turkey.\\n\\nSelank attacks anxiety from a fundamentally different angle. It is a synthetic heptapeptide - a seven-amino-acid analogue of tuftsin with the sequence Thr-Lys-Pro-Arg-Pro-Gly-Pro - developed by Russian researchers at the Institute of Molecular Genetics and the Zakusov Institute of Pharmacology, and approved for clinical use in Russia since 2009 for anxiety disorders. Where benzodiazepines force GABA signalling everywhere at once, Selank modulates the GABA-A receptor allosterically - adjusting its sensitivity without binding the benzodiazepine site, without broadband suppression, and without the dependence profile that makes every benzodiazepine prescription a long-term management problem.\\n\\nThis guide looks at Selank through one specific lens: anxiety. We cover the neural pathways that drive its anxiolytic effect, the real clinical and preclinical evidence (including why it stays anxiolytic without sedating), how it is dosed for research and clinical protocols, how it compares with benzodiazepines and with the alternative anxiolytic peptides on the UK research market, and its safety profile.\\n\\n[**Compare Selank prices from UK suppliers \u2192**](/compounds/selank)',
+    },
+    {
+      title: 'How Selank Reduces Anxiety: The Neural Pathways',
+      body: 'Anxiety is the coordinated output of an overactive threat-detection system - over-firing amygdala circuits, a hypervigilant stress axis, and GABAergic inhibition that is too weak to put the brakes on. Selank touches all three layers, and it does so in a way that is circuit-selective rather than blanket suppression.',
+      subsections: [
+        { title: '1. Allosteric GABA-A Modulation - Not Benzodiazepine-Site Binding', body: 'This is the single most important distinction. Benzodiazepines bind at the interface of the alpha and gamma subunits of GABA-A receptors and potentiate GABA non-discriminately, producing sedation and dependence. Selank modulates GABAergic transmission allosterically without binding the benzodiazepine site. Electrophysiological studies show Selank increases the amplitude of GABA-evoked currents in hippocampal neurons without altering baseline chloride conductance - it tunes the response rather than flipping the switch. A 2010 study (PMID: 20531176) showed Selank stabilises a distinct conformational state of the GABA-A receptor complex, differing from both GABA itself and diazepam.' },
+        { title: '2. Serotonin and Dopamine Tone - Modulation, Not Forcing', body: 'Selank modulates monoamine turnover in the brain regions that govern mood and anxiety. In rodent models it increases serotonin turnover in the frontal cortex and hippocampus and modulates dopamine metabolism in the striatum. Unlike SSRIs (which block reuptake over weeks) or stimulants (which force release), Selank tunes the synthesis and degradation of these monoamines so the whole system is more resilient to stress-induced perturbation - an anxiolytic that preserves, rather than blunts, cognition.' },
+        { title: '3. BDNF Upregulation - The Stress-Resilience Layer', body: 'Selank upregulates brain-derived neurotrophic factor (BDNF) in the hippocampus and frontal cortex - the same plasticity mechanism shared by its structural sibling Semax. BDNF is the master regulator of synaptic plasticity, neurogenesis and neuronal survival. By raising BDNF, Selank produces sustained, gene-expression-level changes that make neural circuits more resilient to chronic stress, rather than a purely acute ion-channel effect that fades the moment the molecule clears.' },
+        { title: '4. Neuroimmune Interface - IL-6 Downregulation', body: 'Selank retains tuftsin immunomodulatory activity and downregulates IL-6 gene expression (PMID: 24625623). Elevated IL-6 is a well-documented biomarker of chronic stress, anxiety and depression, and drives the neuroinflammation that keeps an overactive stress circuit stuck in a high-alarm state. By lowering IL-6, Selank addresses the neuroinflammatory component of anxiety - something benzodiazepines never touch. It is an anxiety treatment that also talks to the immune system.' },
+      ],
+    },
+    {
+      title: 'The Clinical Evidence: Anxiety Reduction Without Sedation',
+      body: 'The defining claim of Selank research - and the finding that keeps it on researchers radar - is that it reduces anxiety without sedation, cognitive impairment or dependence. This is not marketing copy; it appears consistently across two decades of preclinical and clinical work.',
+      subsections: [
+        { title: 'Clinical GAD Trial (PMID: 20015478)', body: 'A double-blind, placebo-controlled clinical trial evaluated Selank intranasally at 500-1000 mcg/day over 14 days in patients with generalised anxiety disorder (GAD). Results showed statistically significant reductions on the Hamilton Anxiety Rating Scale (HAM-A) and the Spielberger State-Trait Anxiety Inventory (STAI) versus placebo, with the anxiolytic effect reaching significance by day 7 and persisting to endpoint. No sedation, no cognitive blunting, no ataxia.' },
+        { title: 'Allosteric GABA-A Evidence (PMID: 20531176)', body: 'Selank does not bind the benzodiazepine site and does not produce the characteristic EEG signature of sedative-hypnotics (increased beta, decreased alpha). Instead, EEG recordings show an increase in alpha rhythm power - the pattern of relaxed alertness, not sedation.' },
+        { title: 'No Dependence or Withdrawal', body: 'A comparative study of Selank and diazepam found that, unlike diazepam, Selank produced no dependence or withdrawal signs after abrupt discontinuation in animal models. Rats treated with Selank for 21 days showed no behavioural withdrawal on cessation, in direct contrast to diazepam-treated animals which exhibited increased anxiety, tremors and seizure susceptibility. No dose tapering required.' },
+        { title: 'Connectomics and No Tolerance', body: 'A functional MRI connectomics study (PMID: 28089837) showed Selank increases the efficiency of information transfer between brain networks - faster, cleaner neural processing. And unlike benzodiazepines and SSRIs, Selanks anxiolytic effect is sustained over time without dose escalation, indicating no meaningful tolerance development.' },
+      ],
+    },
+    {
+      title: 'Selank vs Benzodiazepines and Other Anxiolytic Peptides',
+      body: 'Positioning Selank for anxiety requires an honest comparison against both the conventional drug class and the alternative research peptides it is usually stacked or compared with in the UK market.',
+      subsections: [
+        { title: 'vs Benzodiazepines (diazepam, alprazolam)', body: 'Benzodiazepines are fast and potent but indiscriminate: sedation, ataxia, amnesia, dependence and withdrawal. Selank modulates GABA-A allosterically without the benzodiazepine site, so it is anxiolytic without sedation or dependence - but it is also far less acutely potent in a crisis, and is not an emergency anxiolytic. It is better understood as a daily-maintenance calmer than a panic-buster.' },
+        { title: 'vs Semax', body: 'Semax is the nootropic sibling - cognitive enhancement, focus and BDNF-driven neuroprotection. Selank leans toward anxiolysis, calming an over-anxious mind. Because anxiety itself consumes attention bandwidth, the two are frequently studied together as a calm-focus pair: Selank for the anxiety, Semax for the cognition. [**Compare Selank prices \u2192**](/compounds/selank) [**Related: Semax for Focus \u2192**](/research/semax-for-focus)' },
+        { title: 'vs GABAergic herbs and supplements (L-theanine, magnolia)', body: 'Herbal anxiolytics are milder but typically act through weak or unclear GABA mechanisms and often lose potency or cause next-day grogginess. Selank acts through a targeted allosteric mechanism plus BDNF and IL-6 regulation - a more structural, multi-system effect that does not rely on weak receptor occupancy.' },
+        { title: 'vs BPC-157 in stress models', body: 'BPC-157 has been studied alongside Selank in models of stress-induced gastrointestinal and neurological injury. BPC-157 focuses on GI and systemic repair; Selank on the central anxiety circuit. They are complementary and frequently co-studied, though the interaction profile of combining multiple peptides should always be treated cautiously.' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Anxiety',
+      body: 'In registered clinical use, Selank is administered intranasally at 500-1000 mcg/day divided into 2-3 doses. The intranasal route lets Selank bypass the blood-brain barrier via the olfactory and trigeminal pathways, reaching the CNS within minutes. With a short plasma half-life, divided dosing maintains the anxiolytic effect; the downstream BDNF and gene-expression changes persist for hours.\\n\\nFor UK research use, Selank is supplied as lyophilised powder in 5 mg vials. Reconstitute with 2 mL of sterile saline or bacteriostatic water (0.9% benzyl alcohol) to yield 2.5 mg/mL (2500 mcg/mL). For a 500 mcg dose withdraw 0.2 mL (200 uL); for a 1000 mcg dose withdraw 0.4 mL (400 uL). Use a metered nasal spray or precision atomiser, tilt the head slightly forward to maximise olfactory deposition, and administer half the dose per nostril, remaining tilted for 30-60 seconds.\\n\\nStore lyophilised powder at -20 C (freezer) and reconstituted solutions at 2-8 C (refrigerator) for 7-14 days; protect from light and avoid repeated freeze-thaw cycles. Always verify batch purity via the Certificate of Analysis.\\n\\n[**Find the best Selank prices \u2192**](/compounds/selank)\\n[**Related: Semax vs Selank \u2192**](/research/semax-vs-selank)',
+    },
+    {
+      title: 'Safety Profile',
+      body: 'Selank has a safety profile supported by more than a decade of Russian clinical use and extensive preclinical testing. Key observations: no sedation (allosteric, circuit-selective GABA modulation); no dependence and no withdrawal on discontinuation; no tolerance requiring dose escalation; no effect on cortisol, growth hormone or thyroid function; no hepatotoxicity based on available data. The most common side effects are mild and transient: lightheadedness in the first few days, occasional nasal irritation at the site of intranasal administration, and transient blood-pressure changes in sensitive individuals.\\n\\nSelank is contraindicated in pregnancy, breastfeeding and known hypersensitivity to any component. It should not be used concurrently with benzodiazepines or other CNS depressants without careful evaluation, as the interaction profile is not fully characterised.\\n\\nSelank is not approved by the MHRA, FDA or EMA for any anxiety indication; its only registered human use is in Russia. All other use is strictly for research, with standard aseptic handling and cold, light-protected storage. It should not be treated as a substitute for clinician-supervised treatment of a diagnosed anxiety disorder.',
+    },
+  ],
+  faq: [
+    { question: 'Does Selank genuinely reduce anxiety?', answer: 'Yes - a double-blind, placebo-controlled clinical trial in generalised anxiety disorder (PMID: 20015478) found Selank intranasally at 500-1000 mcg/day significantly reduced anxiety on the HAM-A and STAI scales versus placebo, with effect by day 7 and no sedation.' },
+    { question: 'Is Selank like a benzodiazepine?', answer: 'No. Benzodiazepines bind the benzodiazepine site on GABA-A receptors and amplify GABA indiscriminately, causing sedation, amnesia and dependence. Selank modulates GABA-A allosterically without binding that site (PMID: 20531176), so it is anxiolytic without sedation and without dependence or withdrawal.' },
+    { question: 'How is Selank dosed for anxiety in research?', answer: 'Clinical protocols use 500-1000 mcg/day intranasally divided into 2-3 doses. Research powder is reconstituted in 5 mg vials with 2 mL of sterile saline/bacteriostatic water to 2.5 mg/mL. Store lyophilised at -20 C and reconstituted at 2-8 C for 7-14 days.' },
+    { question: 'Does Selank cause sedation or cognitive impairment?', answer: 'No. This is Selanks defining advantage. EEG shows increased alpha rhythm power (relaxed alertness) not the beta/sedation signature, and a connectomics study (PMID: 28089837) showed improved neural information-transfer efficiency - the opposite of cognitive blunting.' },
+    { question: 'Can Selank be stacked with other research peptides?', answer: 'Selank is frequently paired with Semax for a calm-focus combination - Selank for anxiety reduction, Semax for BDNF-driven cognitive enhancement. It has also been studied alongside BPC-157 in stress models. Exercise caution combining Selank with other GABAergic agents (benzodiazepines, alcohol, barbiturates) as the interaction is not fully characterised.' },
+  ],
+  references: [
+    'Kozlovskaya MM, et al. Clinical efficacy of Selank in the treatment of generalized anxiety disorder. Zh Nevrol Psikhiatr Im S S Korsakova. 2008;108(12):27-32. PMID: 20015478.',
+    "V'yunova TV, et al. Selank modulates GABA(A) receptor complex in rat brain. Bull Exp Biol Med. 2010;149(4):439-441. PMID: 20531176.",
+    'Levitskaya NG, et al. Nootropic and neuroprotective effects of Selank in animal models of cognitive impairment. Eksp Klin Farmakol. 2007;70(2):10-15. PMID: 17436044.',
+    'Kolomin TA, et al. Selank affects expression of genes involved in the neuroimmune system in rat brain. Mol Biol (Mosk). 2014;48(3):495-503. PMID: 24625623.',
+    'Medvedeva EV, et al. Effects of Selank on functional connectivity in brain networks. Bull Exp Biol Med. 2017;163(5):603-606. PMID: 28089837.',
+  ],
+}
 
 };
 export default content;

@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "OXYTOCIN"
-VIAL_PATH = "public/images/compounds/oxytocin-vial.png"
-OUTPUT_PATH = "public/images/guides/oxytocin-for-bonding.png"
+COMPOUND = "SELANK"
+VIAL_PATH = "public/images/compounds/selank-vial.png"
+OUTPUT_PATH = "public/images/guides/selank-for-anxiety.png"
 DESCRIPTION_LINES = [
-    "Oxytocin (OT) is the 9-amino-acid",
-    "neuropeptide central to bonding -",
-    "it amplifies social-cue salience in",
-    "the amygdala, VTA and accumbens to",
-    "gate trust, pair bonding and care.",
+    "Selank is the 7-amino-acid tuftsin",
+    "analog that calms the anxious brain",
+    "via allosteric GABA-A modulation -",
+    "no sedation, no cognitive blunting,",
+    "no benzodiazepine dependence.",
 ]
 # ==================================================
 

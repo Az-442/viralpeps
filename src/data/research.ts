@@ -1041,6 +1041,18 @@ export const guides: ResearchArticle[] = [
   tags: ['semax', 'focus', 'attention', 'nootropic', 'bdnf', 'adhd', 'goals'],
 },
 
+{
+  title: 'Selank for Anxiety: Allosteric GABA-A Calm, Without Benzodiazepine Dependence',
+  desc: 'A dedicated goal article on Selank (TP-7, a tuftsin analog) for anxiety and anxiolytic research - how allosteric (non-benzodiazepine-site) GABA-A modulation, serotonin/dopamine tone tuning, BDNF upregulation and IL-6 downregulation combine to reduce anxiety without sedation, cognitive blunting or dependence. Clinical GAD evidence, dosing, safety and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Selank',
+  slug: 'selank-for-anxiety',
+  image: 'selank-for-anxiety',
+  minutes: 12,
+  tags: ['selank', 'anxiety', 'anxiolytic', 'gaba', 'gad', 'calm', 'neuropeptide', 'goals'],
+},
+
 ];
 
 export const compoundList: string[] = [
