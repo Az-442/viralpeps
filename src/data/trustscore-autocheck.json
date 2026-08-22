@@ -1,0 +1,23 @@
+{
+  "alphamino": {
+    "slug": "alphamino",
+    "website": "https://alphamino.co.uk",
+    "checkedAt": "2026-08-22T19:21:56.471Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "research-grade peptides uk | third-party tested | alphamino"
+    },
+    "product": {
+      "fetched": true,
+      "coa": null,
+      "ruo": null,
+      "status": 200
+    }
+  }
+}
