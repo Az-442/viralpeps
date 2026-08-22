@@ -45,7 +45,7 @@ export default function TrustScorePage() {
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
             <span className="inline-flex items-center align-middle mr-2">
-              <TrustScoreIcon className="w-[0.9em] h-[0.9em]" />
+              <TrustScoreIcon className="w-[1.35em] h-[1.35em]" />
             </span>
             TrustScore<span className="text-slate-500 font-normal">/100</span>
           </h1>
