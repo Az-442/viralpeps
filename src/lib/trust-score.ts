@@ -75,12 +75,15 @@ export function getTrustScore(vendorName: string): TrustScoreBreakdown {
   }
 
   // ---- MANUAL signals (paid verification service) ----
-  // Business (+25) — manual on signup
-  if (v.verified === true) {
+  // Business (+25) — paid £50/mo manual verification on signup.
+  // NOTE: reads ONLY `businessVerified` (paid service flag), NEVER the legacy
+  // `verified` directory-listing flag. `verified:true` = approved directory
+  // listing (does not earn a score). No supplier pays yet, so this stays 0.
+  if (v.businessVerified === true) {
     score += 25;
     ticks.push("Business");
   }
-  // Domain (+20) — manual once they install our badge
+  // Domain (+20) — manual once they install our badge (paid + badge installed)
   if (v.embedded === true || v.domainVerified === true) {
     score += 20;
     ticks.push("Domain");
