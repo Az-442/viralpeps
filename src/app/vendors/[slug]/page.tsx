@@ -179,31 +179,32 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
             {/* TrustScore banner — prominent, above the name */}
             <a
               href="/trust-score"
-              className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700 rounded-xl border border-blue-400/40 px-5 py-4 mb-6 shadow-lg hover:border-blue-300 transition-colors"
+              className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-gradient-to-r from-slate-800/10 via-indigo-900/20 to-slate-800/10 ring-1 ring-inset ring-indigo-400/30 rounded-xl px-5 py-3 mb-6 shadow-lg hover:ring-indigo-300/50 transition-colors"
             >
-              <div className="flex items-center gap-4">
-                <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+              <div className="flex items-center gap-3.5">
+                {/* EXACT widget shield icon (fixed branding) */}
+                <svg width="38" height="38" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
                   <defs>
                     <linearGradient id="tsgBanner" x1="0" y1="0" x2="48" y2="48">
-                      <stop stopColor="#ffffff" stopOpacity="0.25" /><stop offset="0.5" stopColor="#ffffff" stopOpacity="0.4" /><stop offset="1" stopColor="#ffffff" stopOpacity="0.55" />
+                      <stop stopColor="#2563eb" /><stop offset="0.5" stopColor="#6366f1" /><stop offset="1" stopColor="#7c3aed" />
                     </linearGradient>
                   </defs>
                   <path d="M24 2l18 7v13c0 11-8 20-18 24C14 42 6 33 6 22V9l18-7z" fill="url(#tsgBanner)" />
-                  <path d="M19 24l3.5 3.5L29 21" stroke="#4ade80" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M19 24l3.5 3.5L29 21" stroke="#4ade80" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 <div>
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-4xl sm:text-5xl font-extrabold text-white leading-none">{trust.score}</span>
-                    <span className="text-lg text-white/70 font-semibold">/ {trust.max}</span>
+                  <div className="flex items-baseline gap-1 text-white leading-none">
+                    <span className="text-3xl sm:text-4xl font-extrabold">{trust.score}</span>
+                    <span className="text-base text-slate-300 font-semibold">/ {trust.max}</span>
                   </div>
-                  <div className="text-[11px] sm:text-xs text-white/80 uppercase tracking-wider mt-1 font-semibold">
+                  <div className="text-[10px] sm:text-[11px] text-slate-300 uppercase tracking-wider mt-1 font-semibold">
                     Independent TrustScore
                   </div>
                 </div>
-                <div className="hidden md:block h-12 w-px bg-white/20"></div>
-                <div className="flex flex-wrap gap-1.5 md:max-w-[380px]">
+                <div className="hidden md:block h-10 w-px bg-slate-400/20"></div>
+                <div className="flex flex-wrap gap-1.5 md:max-w-[340px]">
                   {trust.ticks.map((t) => (
-                    <span key={t} className="inline-flex items-center gap-1 text-[11px] text-emerald-100 bg-white/10 border border-white/20 rounded-full px-2.5 py-1 font-semibold">
+                    <span key={t} className="inline-flex items-center gap-1 text-[11px] text-emerald-300 bg-emerald-500/10 border border-emerald-400/30 rounded-full px-2.5 py-1 font-semibold">
                       <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#4ade80" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
@@ -212,7 +213,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   ))}
                 </div>
               </div>
-              <div className="shrink-0 text-xs sm:text-sm font-bold text-white underline underline-offset-2 decoration-2">
+              <div className="shrink-0 text-xs sm:text-sm font-bold text-slate-200 underline underline-offset-2 decoration-indigo-400">
                 How is this scored? →
               </div>
             </a>
@@ -327,32 +328,32 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       </div>
 
       {/* PRODUCTS LIST SECTION — Card layout */}
-      <div className="max-w-[76rem] mx-auto px-4 pb-12 -mt-2">
+      <div className="max-w-[76rem] mx-auto px-4 pb-12">
         {/* TrustScore strip above the products */}
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 bg-blue-50 border border-blue-200 rounded-xl px-4 py-3 mb-4">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 bg-blue-600 border border-blue-500/50 rounded-xl px-4 py-3 mb-4 mt-6 shadow-md">
           <div className="flex items-center gap-2.5">
             <svg width="26" height="26" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient id="tsgStrip" x1="0" y1="0" x2="48" y2="48">
-                  <stop stopColor="#2563eb" /><stop offset="0.5" stopColor="#6366f1" /><stop offset="1" stopColor="#7c3aed" />
+                  <stop stopColor="#ffffff" stopOpacity="0.3" /><stop offset="0.5" stopColor="#ffffff" stopOpacity="0.5" /><stop offset="1" stopColor="#ffffff" stopOpacity="0.7" />
                 </linearGradient>
               </defs>
               <path d="M24 2l18 7v13c0 11-8 20-18 24C14 42 6 33 6 22V9l18-7z" fill="url(#tsgStrip)" />
               <path d="M19 24l3.5 3.5L29 21" stroke="#4ade80" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <span className="text-2xl font-extrabold text-blue-700 leading-none">{trust.score}<span className="text-sm text-blue-400 font-semibold">/{trust.max}</span></span>
+            <span className="text-2xl font-extrabold text-white leading-none">{trust.score}/<span className="text-base">{trust.max}</span></span>
           </div>
           <div className="flex flex-wrap gap-1.5">
             {trust.ticks.map((t) => (
-              <span key={t} className="inline-flex items-center gap-1 text-[11px] text-emerald-700 bg-white border border-emerald-200 rounded-full px-2 py-0.5 font-semibold">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+              <span key={t} className="inline-flex items-center gap-1 text-[11px] text-white bg-white/15 border border-white/30 rounded-full px-2 py-0.5 font-bold">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#4ade80" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
                 {t}
               </span>
             ))}
           </div>
-          <span className="text-xs text-slate-500">TrustScore verified on <a href="/trust-score" className="text-blue-600 font-semibold underline underline-offset-2">viralpeps</a></span>
+          <span className="text-xs text-white/80">TrustScore verified on <a href="/trust-score" className="text-white font-bold underline underline-offset-2">viralpeps</a></span>
         </div>
 
         <h2 className="text-xl font-bold text-gray-900 mb-4">{vendor.name} Products</h2>
