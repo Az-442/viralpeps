@@ -25,7 +25,24 @@
       "Cards"
     ],
     "lastTested": "2026-06-20",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:37.301Z"
+    }
   },
   {
     "id": "pure-peptides-uk",
@@ -52,7 +69,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-15",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:37.720Z"
+    }
   },
   {
     "id": "sterling-peptides",
@@ -79,7 +113,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-10",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": false,
+      "coa": false,
+      "ruo": false,
+      "reviews": false,
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": null,
+        "ruo": null,
+        "reviews": null,
+        "shipping": null,
+        "contact": null
+      },
+      "checkedAt": "2026-08-22T20:31:38.035Z"
+    }
   },
   {
     "id": "research-peptide-uk",
@@ -107,7 +158,24 @@
       "Cards"
     ],
     "lastTested": "2026-06-27",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:38.059Z"
+    }
   },
   {
     "id": "imperial-peptides",
@@ -134,7 +202,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-27",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "reviews.io",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:43.022Z"
+    }
   },
   {
     "id": "tide-labs",
@@ -161,7 +246,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-21",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:43.667Z"
+    }
   },
   {
     "id": "express-peptides",
@@ -187,7 +289,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-27",
-    "labTested": false
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "next-day",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:44.146Z"
+    }
   },
   {
     "id": "dr-peptides",
@@ -214,7 +333,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-27",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "hplc",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:45.614Z"
+    }
   },
   {
     "id": "the-peptide-company",
@@ -240,7 +376,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-19",
-    "labTested": false
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "lab report",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:45.864Z"
+    }
   },
   {
     "id": "research-peptides-uk-main",
@@ -268,7 +421,24 @@
     ],
     "lastTested": "2026-06-20",
     "labTested": false,
-    "featured": false
+    "featured": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:46.325Z"
+    }
   },
   {
     "id": "raccoon-peptides",
@@ -299,7 +469,24 @@
       "Google Pay"
     ],
     "lastTested": "2026-06-29",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "for research purposes",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:46.858Z"
+    }
   },
   {
     "id": "kensington-labs",
@@ -330,7 +517,24 @@
       "Google Pay"
     ],
     "lastTested": "2026-06-28",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "third-party test",
+        "ruo": "in vitro",
+        "reviews": "trustpilot",
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:47.485Z"
+    }
   },
   {
     "id": "peptides-lab-uk",
@@ -361,7 +565,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-06-30",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "dpd",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:31:56.250Z"
+    }
   },
   {
     "id": "biohack-peptides",
@@ -389,7 +610,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-06-30",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:01.117Z"
+    }
   },
   {
     "id": "brit-peptides",
@@ -414,7 +652,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-06-30",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": false,
+      "coa": false,
+      "ruo": false,
+      "reviews": false,
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": null,
+        "ruo": null,
+        "reviews": null,
+        "shipping": null,
+        "contact": null
+      },
+      "checkedAt": "2026-08-22T20:32:07.654Z"
+    }
   },
   {
     "id": "new-wave-peptides",
@@ -441,7 +696,24 @@
       "Cards"
     ],
     "lastTested": "2026-06-30",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "hplc",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:09.314Z"
+    }
   },
   {
     "id": "bluewell-peptides",
@@ -473,7 +745,24 @@
       "Google Pay"
     ],
     "lastTested": "2026-06-27",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:09.834Z"
+    }
   },
   {
     "id": "anglo-peptides",
@@ -502,7 +791,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-06-25",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "dpd",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:12.617Z"
+    }
   },
   {
     "id": "cmsr-labs",
@@ -530,7 +836,24 @@
       "Bank transfer (Boodil)"
     ],
     "lastTested": "2026-07-01",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": false,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": null,
+        "reviews": "reviews.io",
+        "shipping": "tracking",
+        "contact": "email"
+      },
+      "checkedAt": "2026-08-22T20:32:13.299Z"
+    }
   },
   {
     "id": "proforma-peptides",
@@ -559,7 +882,24 @@
       "Shopify Payments"
     ],
     "lastTested": "2026-06-30",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:30.666Z"
+    }
   },
   {
     "id": "xl-peptides",
@@ -589,7 +929,24 @@
       "Monero (XMR)"
     ],
     "lastTested": "",
-    "labTested": false
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:30.852Z"
+    }
   },
   {
     "id": "chroma-peptides",
@@ -618,7 +975,24 @@
       "Shopify Payments"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": false,
+      "coa": false,
+      "ruo": false,
+      "reviews": false,
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": null,
+        "ruo": null,
+        "reviews": null,
+        "shipping": null,
+        "contact": null
+      },
+      "checkedAt": "2026-08-22T20:32:31.855Z"
+    }
   },
   {
     "id": "peptides-uk",
@@ -647,7 +1021,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "",
-    "labTested": false
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:31.880Z"
+    }
   },
   {
     "id": "my-peptides",
@@ -675,7 +1066,24 @@
       "Shopify Payments"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:32.241Z"
+    }
   },
   {
     "id": "eva-peptide",
@@ -701,7 +1109,24 @@
       "Cards (credit/debit)"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "lab report",
+        "ruo": "laboratory use",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:32.632Z"
+    }
   },
   {
     "id": "be-better-peptides",
@@ -727,7 +1152,24 @@
       "Cards (Shopify Payments)"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "third-party test",
+        "ruo": "laboratory research",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:36.351Z"
+    }
   },
   {
     "id": "peptigen-labs",
@@ -755,7 +1197,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-07-09",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "laboratory research",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:37.303Z"
+    }
   },
   {
     "id": "premio-peptides",
@@ -783,7 +1242,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-07-09",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:38.193Z"
+    }
   },
   {
     "id": "the-peptide-code",
@@ -812,7 +1288,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-07-09",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:38.463Z"
+    }
   },
   {
     "id": "raw-peptides",
@@ -838,7 +1331,24 @@
       "Bank transfer"
     ],
     "lastTested": "",
-    "labTested": false
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:39.338Z"
+    }
   },
   {
     "id": "nova-peptide",
@@ -866,7 +1376,24 @@
       "Shopify Payments"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:48.130Z"
+    }
   },
   {
     "id": "stratford-peptides",
@@ -895,7 +1422,24 @@
       "Bank transfer"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:50.611Z"
+    }
   },
   {
     "id": "peptify-uk",
@@ -923,7 +1467,24 @@
       "Cryptocurrency (BTC, ETH, USDT, USDC)"
     ],
     "lastTested": "2026-07-12",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:51.324Z"
+    }
   },
   {
     "id": "ascend-peptides",
@@ -949,7 +1510,24 @@
       "Bank transfer"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:51.582Z"
+    }
   },
   {
     "id": "precision-peptides",
@@ -976,7 +1554,24 @@
       "Cards"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:51.899Z"
+    }
   },
   {
     "id": "astra-labs",
@@ -1002,7 +1597,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-07-15",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:54.911Z"
+    }
   },
   {
     "id": "ol-research",
@@ -1032,7 +1644,24 @@
       "Wallid Pay by Bank"
     ],
     "lastTested": "2026-07-16",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "hplc",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:56.639Z"
+    }
   },
   {
     "id": "octagon-peptides",
@@ -1060,7 +1689,24 @@
       "Online bank transfer"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:57.963Z"
+    }
   },
   {
     "id": "polygon-peptides",
@@ -1091,7 +1737,24 @@
       "Google Pay"
     ],
     "lastTested": "2026-07-17",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:32:59.924Z"
+    }
   },
   {
     "id": "regen-peptides",
@@ -1121,7 +1784,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-07-19",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:00.153Z"
+    }
   },
   {
     "id": "bio-peptides-uk",
@@ -1149,7 +1829,24 @@
       "Bank transfer"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "laboratory use",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:00.484Z"
+    }
   },
   {
     "id": "chilton-labs",
@@ -1179,7 +1876,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-07-19",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": false,
+      "coa": false,
+      "ruo": false,
+      "reviews": false,
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": null,
+        "ruo": null,
+        "reviews": null,
+        "shipping": null,
+        "contact": null
+      },
+      "checkedAt": "2026-08-22T20:33:03.903Z"
+    }
   },
   {
     "id": "lab77-peptides",
@@ -1207,7 +1921,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-07-19",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:03.978Z"
+    }
   },
   {
     "id": "bio-pulse-peptides",
@@ -1234,7 +1965,24 @@
       "Bank transfer"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": false,
+      "coa": false,
+      "ruo": false,
+      "reviews": false,
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": null,
+        "ruo": null,
+        "reviews": null,
+        "shipping": null,
+        "contact": null
+      },
+      "checkedAt": "2026-08-22T20:33:04.239Z"
+    }
   },
   {
     "id": "peptx",
@@ -1263,7 +2011,24 @@
       "Cards"
     ],
     "lastTested": "",
-    "labTested": false
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "hplc",
+        "ruo": "laboratory research",
+        "reviews": null,
+        "shipping": null,
+        "contact": null
+      },
+      "checkedAt": "2026-08-22T20:33:04.276Z"
+    }
   },
   {
     "id": "prime-peptides",
@@ -1291,7 +2056,24 @@
       "Open banking"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:04.477Z"
+    }
   },
   {
     "id": "uk-peptide-lab",
@@ -1322,7 +2104,24 @@
       "Google Pay"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:04.677Z"
+    }
   },
   {
     "id": "alphamino",
@@ -1368,7 +2167,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-08-22T19:24:57.742Z"
+      "checkedAt": "2026-08-22T20:33:04.852Z"
     }
   },
   {
@@ -1397,7 +2196,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:05.092Z"
+    }
   },
   {
     "id": "flex-peptides",
@@ -1423,7 +2239,24 @@
       "Cards (Worldpay)"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:05.830Z"
+    }
   },
   {
     "id": "crown-peptides",
@@ -1453,7 +2286,24 @@
       "Bank transfer"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "for research purposes",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:06.219Z"
+    }
   },
   {
     "id": "reta-uk",
@@ -1482,7 +2332,24 @@
       "Google Pay"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "for research purposes",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:07.901Z"
+    }
   },
   {
     "id": "pgna-labs",
@@ -1511,7 +2378,24 @@
       "Google Pay"
     ],
     "lastTested": "",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "for research purposes",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:08.333Z"
+    }
   },
   {
     "id": "trutide",
@@ -1542,7 +2426,24 @@
       "Pay by Bank"
     ],
     "lastTested": "2026-08-02",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:09.466Z"
+    }
   },
   {
     "id": "tested-peptides",
@@ -1573,7 +2474,24 @@
       "Bank transfer"
     ],
     "lastTested": "2026-08-03",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:10.902Z"
+    }
   },
   {
     "id": "applied-peptides",
@@ -1602,7 +2520,24 @@
       "Google Pay"
     ],
     "lastTested": "2026-08-05",
-    "labTested": false
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": false,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "janoshik",
+        "ruo": null,
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:11.203Z"
+    }
   },
   {
     "id": "supply-peptides",
@@ -1635,7 +2570,24 @@
       "Google Pay"
     ],
     "lastTested": "2026-08-06",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:11.369Z"
+    }
   },
   {
     "id": "peptidesx",
@@ -1665,7 +2617,24 @@
       "Bitcoin"
     ],
     "lastTested": "2026-08-11",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:11.961Z"
+    }
   },
   {
     "id": "buyreta",
@@ -1694,7 +2663,24 @@
       "Cryptocurrency"
     ],
     "lastTested": "2026-08-13",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:14.389Z"
+    }
   },
   {
     "id": "peptides-online-uk",
@@ -1725,7 +2711,24 @@
       "Google Pay"
     ],
     "lastTested": "2026-08-18",
-    "labTested": true
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:15.470Z"
+    }
   },
   {
     "id": "united-peptides",
@@ -1753,6 +2756,23 @@
     "lastTested": "2026-08-22",
     "labTested": true,
     "embedEnabled": true,
-    "domainVerified": true
+    "domainVerified": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": "reviews.io",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-08-22T20:33:19.063Z"
+    }
   }
 ]
