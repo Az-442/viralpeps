@@ -46,9 +46,9 @@ export default function TrustScorePage() {
             TrustScore<span className="text-slate-500 font-normal">/100</span>
           </h1>
           <p className="text-gray-300 text-base max-w-2xl mx-auto leading-relaxed">
-            A method-backed rating of how transparent and verifiable every UK supplier is.
-            <strong className="text-white">Never for sale</strong> — big sellers can&rsquo;t outbid small sellers,
-            and you can&rsquo;t buy a higher score.
+            A method-backed rating system of how transparent and verifiable every UK supplier is.
+            Our method is <strong className="text-white">not for sale</strong>, not sold to the highest bidder &ndash;
+            listing is free, partnerships do not change our independent score.
           </p>
         </div>
       </section>
