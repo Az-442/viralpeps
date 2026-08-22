@@ -38,7 +38,7 @@
     "#tsBadge{display:flex;align-items:center;gap:8px;background:#0b1a2e;color:#fff;border-radius:9999px;padding:8px 14px 8px 8px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.12);font-size:13px;font-weight:600;transition:transform .15s ease,box-shadow .15s ease}",
     "#tsBadge:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.3)}",
     "#tsBadge .ts-arrow{color:#9ca3af;font-size:11px;margin-left:2px}",
-    "#tsCard{position:fixed;z-index:999999;width:280px;background:#ffffff;color:#111827;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.25);border:1px solid #e5e7eb;padding:16px;display:none;font-size:13px}",
+    "#tsCard{position:absolute;z-index:999999;width:min(280px,calc(100vw - 36px));background:#ffffff;color:#111827;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.25);border:1px solid #e5e7eb;padding:16px;display:none;font-size:13px}",
     "#tsCard.ts-open{display:block}",
     "#tsCard .ts-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}",
     "#tsCard .ts-score{font-size:30px;font-weight:800;line-height:1}",
@@ -85,6 +85,15 @@
     // Hover card
     var card = document.createElement("div");
     card.id = "tsCard";
+    // Anchor the card to the badge corner so it opens inside the viewport.
+    // Bottom positions open upward; top positions open downward.
+    var cardPos = {
+      "bottom-right": { right: "0", bottom: "calc(100% + 12px)" },
+      "bottom-left":  { left: "0",  bottom: "calc(100% + 12px)" },
+      "top-right":    { right: "0", top: "calc(100% + 12px)" },
+      "top-left":     { left: "0",  top: "calc(100% + 12px)" },
+    }[position] || { right: "0", bottom: "calc(100% + 12px)" };
+    Object.assign(card.style, cardPos);
     var tickList = Array.isArray(data.ticks)
       ? data.ticks.map(function (t) {
           return '<div class="ts-tick">✓ ' + t + '</div>';
@@ -111,7 +120,7 @@
     document.body.appendChild(wrap);
 
     // Hover / click toggle
-    var show = function () { card.classList.add("ts-open"); var c = card.getBoundingClientRect(); c.width; };
+    var show = function () { card.classList.add("ts-open"); };
     var hide = function () { card.classList.remove("ts-open"); };
     wrap.addEventListener("mouseenter", show);
     wrap.addEventListener("mouseleave", hide);
