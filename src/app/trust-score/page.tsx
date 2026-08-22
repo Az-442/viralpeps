@@ -7,27 +7,21 @@ export const metadata = {
 };
 
 const bands = [
-  { range: "90 – 100", label: "Excellent Trust", color: "bg-emerald-100 text-emerald-800", desc: "Fully verified business, published third-party COAs, strong genuine reviews and clear research-use-only labelling." },
+  { range: "90 – 100", label: "Excellent Trust", color: "bg-emerald-500 text-white", desc: "Fully verified business, published third-party COAs, strong genuine reviews and clear research-use-only labelling." },
   { range: "75 – 89", label: "High Trust", color: "bg-green-100 text-green-800", desc: "Verifiable company and contact, most trust signals confirmed, little cause for concern." },
   { range: "60 – 74", label: "Moderate Trust", color: "bg-amber-100 text-amber-800", desc: "Some signals confirmed but gaps remain — check the breakdown before you buy." },
-  { range: "40 – 59", label: "Limited Trust", color: "bg-orange-100 text-orange-800", desc: "Fewer verifiable signals. Higher risk — proceed with caution." },
+  { range: "40 – 59", label: "Limited Trust", color: "bg-red-100 text-red-800", desc: "Fewer verifiable signals. Higher risk — proceed with caution." },
   { range: "0 – 39", label: "Low Trust", color: "bg-red-100 text-red-800", desc: "Little verifiable evidence or concerning red flags. Tread very carefully." },
 ];
 
 const signals = [
-  { pts: "+20", title: "Business verified", desc: "A named trading entity with verifiable company registration and address behind the brand. A faceless store can never reach the top bands." },
-  { pts: "+20", title: "COAs & lab testing", desc: "Published Certificates of Analysis with batch numbers from a named third-party lab (e.g. Janoshik HPLC). The single most decisive signal a supplier controls." },
-  { pts: "+15", title: "Contact verified", desc: "A real, working way to reach a person — a replying email, phone number, or functional contact form." },
-  { pts: "+15", title: "Domain verified", desc: "We confirm who owns and actually operates the website." },
-  { pts: "+10", title: "Research-use compliance", desc: "Clear \u201cfor in-vitro research only\u201d labelling and no marketing of research chemicals for human or medical use." },
-  { pts: "+10", title: "Genuine reviews", desc: "Volume and quality of authentic Google and Trustpilot reviews. Fabricated reviews are penalised, not rewarded." },
-  { pts: "+10", title: "Shipping & support", desc: "Reliable dispatch, realistic delivery times, and responsive customer support." },
-];
-
-const caps = [
-  { cap: "\u2264 60", condition: "No verifiable business identity behind the store" },
-  { cap: "\u2264 60", condition: "Marketing research chemicals for human or medical use" },
-  { cap: "\u2264 65", condition: "No genuine, working contact method" },
+  { pts: "+25", title: "Business verified", desc: "A named trading entity with verifiable company registration and address behind the brand. A faceless store can never reach the top bands." },
+  { pts: "+25", title: "COAs & lab testing", desc: "Published Certificates of Analysis with batch numbers from a named third-party lab (e.g. Janoshik HPLC). The single most decisive signal a supplier controls." },
+  { pts: "+10", title: "Contact verified", desc: "A real, working way to reach a person — a replying email, phone number, or functional contact form." },
+  { pts: "+20", title: "Domain verified", desc: "We confirm who owns and actually operates the website." },
+  { pts: "+5", title: "Research-use compliance", desc: "Clear \u201cfor in-vitro research only\u201d labelling and no marketing of research chemicals for human or medical use." },
+  { pts: "+10", title: "Genuine reviews", desc: "Volume and quality of authentic Google and Trustpilot reviews. Fake review sites are penalised — we only use trusted websites." },
+  { pts: "+5", title: "Shipping & support", desc: "Reliable dispatch, realistic delivery times, and responsive customer support." },
 ];
 
 const verified = ["Business", "Contact", "Domain", "COAs", "Compliant", "Lab-Tested"];
@@ -60,12 +54,12 @@ export default function TrustScorePage() {
           <p className="text-gray-500 text-sm mb-6">Read the band, not just the number — the exact value only matters near a band boundary.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
             {bands.map((b) => (
-              <div key={b.range} className="border border-gray-200 rounded-xl p-4">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${b.color}`}>{b.label}</span>
+              <div key={b.range} className="border border-gray-200 rounded-xl p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${b.color}`}>{b.label}</span>
                 </div>
-                <div className="text-2xl font-bold text-gray-900 mb-1">{b.range}</div>
-                <p className="text-xs text-gray-500 leading-relaxed">{b.desc}</p>
+                <div className="text-3xl font-bold text-gray-900 mb-2">{b.range}</div>
+                <p className="text-sm text-gray-500 leading-relaxed">{b.desc}</p>
               </div>
             ))}
           </div>
@@ -75,13 +69,13 @@ export default function TrustScorePage() {
         <div className="mb-14">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">What we check</h2>
           <p className="text-gray-500 text-sm mb-6">Each supplier score is built from the same seven signals, totalling 100 points.</p>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-5">
             {signals.map((s) => (
-              <div key={s.title} className="flex gap-4 border border-gray-200 rounded-xl p-4">
-                <div className="text-2xl font-bold text-blue-600 w-16 shrink-0">{s.pts}</div>
+              <div key={s.title} className="flex gap-5 border border-gray-200 rounded-xl p-6">
+                <div className="text-3xl font-bold text-blue-600 w-16 shrink-0">{s.pts}</div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 text-sm">{s.title}</h3>
-                  <p className="text-xs text-gray-500 leading-relaxed mt-1">{s.desc}</p>
+                  <h3 className="font-semibold text-gray-900 text-base">{s.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed mt-1.5">{s.desc}</p>
                 </div>
               </div>
             ))}
@@ -104,20 +98,6 @@ export default function TrustScorePage() {
                 <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 111.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clipRule="evenodd" /></svg>
                 {v}
               </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Caps */}
-        <div className="mb-14">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">What caps a score</h2>
-          <p className="text-gray-500 text-sm mb-6">Some failures are serious enough that no amount of positive signals can produce a high score.</p>
-          <div className="space-y-3">
-            {caps.map((c) => (
-              <div key={c.condition} className="flex items-center gap-3 border border-red-100 bg-red-50 rounded-xl px-4 py-3">
-                <span className="text-sm font-bold text-red-700 w-16 shrink-0">Max {c.cap}</span>
-                <span className="text-sm text-gray-700">{c.condition}</span>
-              </div>
             ))}
           </div>
         </div>
