@@ -5,6 +5,7 @@ import { useRef } from "react";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import SearchBar from "@/components/SearchBar";
+import TrustScoreIcon from "@/components/TrustScoreIcon";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 import { PEPTIDE_COUNT as peptideCount, SUPPLIER_COUNT as vendorCount } from "@/data/stats";
@@ -215,10 +216,21 @@ export default function Home() {
              Find the best <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">peptide deals today</span>
            </h1>
  <p className="text-gray-300 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
- Compare live prices on <strong className="text-white">{totalCompounds}+ peptides</strong> from{" "}
- <strong className="text-white">{totalVendors}+ trusted UK suppliers</strong>{" "}
- &mdash; updated daily, completely independent, always free.
+   Compare live prices on <strong className="text-white">{totalCompounds}+ peptides</strong> from{" "}
+   <strong className="text-white">{totalVendors}+ trusted UK suppliers</strong>{" "}
+   &mdash; updated daily, completely independent, always free.
  </p>
+ {/* TrustScore badge */}
+ <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
+   <Link
+     href="/trust-score"
+     className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white rounded-full pl-2 pr-4 py-1.5 transition-colors"
+   >
+     <TrustScoreIcon className="w-6 h-6" />
+     <span className="text-xs md:text-sm font-semibold">Every supplier scored by TrustScore</span>
+     <span className="text-white/60">&rarr;</span>
+   </Link>
+ </div>
  <div className="max-w-xl mx-auto"><SearchBar /></div>
  <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
  <span className="text-[11px] text-gray-300 font-semibold uppercase tracking-wider">Popular:</span>
