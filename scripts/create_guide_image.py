@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "SELANK"
-VIAL_PATH = "public/images/compounds/selank-vial.png"
-OUTPUT_PATH = "public/images/guides/selank-for-anxiety.png"
+COMPOUND = "TESAMORELIN"
+VIAL_PATH = "public/images/compounds/tesamorelin-vial.png"
+OUTPUT_PATH = "public/images/guides/tesamorelin-for-belly-fat.png"
 DESCRIPTION_LINES = [
-    "Selank is the 7-amino-acid tuftsin",
-    "analog that calms the anxious brain",
-    "via allosteric GABA-A modulation -",
-    "no sedation, no cognitive blunting,",
-    "no benzodiazepine dependence.",
+    "The FDA-approved GHRH analog that",
+    "lets you switch off belly-fat storage",
+    "without dieting. Targets visceral",
+    "adipose tissue through the GH axis",
+    "- not muscle, not full-body fat loss.",
 ]
 # ==================================================
 

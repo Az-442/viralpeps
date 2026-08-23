@@ -1053,6 +1053,18 @@ export const guides: ResearchArticle[] = [
   tags: ['selank', 'anxiety', 'anxiolytic', 'gaba', 'gad', 'calm', 'neuropeptide', 'goals'],
 },
 
+{
+  title: 'Tesamorelin for Belly Fat: The GHRH Analog That Targets Visceral Fat',
+  desc: 'A dedicated goal article on tesamorelin (Egrifta) for visceral belly-fat reduction — how GHRH-receptor agonism drives GH-dependent lipolysis through the visceral depot, the 15-18% VAT reductions from Phase 3 RCTs, liver-fat effects, dosing, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Tesamorelin',
+  slug: 'tesamorelin-for-belly-fat',
+  image: 'tesamorelin-for-belly-fat',
+  minutes: 12,
+  tags: ['tesamorelin', 'ghrh', 'visceral-fat', 'belly-fat', 'lipolysis', 'growth-hormone', 'goals'],
+},
+
 ];
 
 export const compoundList: string[] = [
