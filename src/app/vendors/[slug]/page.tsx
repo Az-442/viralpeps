@@ -90,6 +90,14 @@ function StarIcon() {
   );
 }
 
+function CheckIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ade80" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
+      <polyline points="20 6 9 17 4 12" />
+    </svg>
+  );
+}
+
 export default async function VendorPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const vendor = vendors.find((v) => v.slug === slug);
@@ -516,6 +524,58 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 </>);
               })()}
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* TRUSTSCORE EXPLANATION */}
+      <div className="max-w-[76rem] mx-auto px-4 pb-12">
+        <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] rounded-2xl p-6 md:p-8 shadow-lg relative overflow-hidden">
+          <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
+          <div className="relative z-10">
+            <div className="flex items-center gap-3 mb-4">
+              {/* EXACT shield icon (fixed branding) */}
+              <svg width="34" height="34" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+                <defs>
+                  <linearGradient id="tsExpl" x1="0" y1="0" x2="48" y2="48">
+                    <stop stopColor="#2563eb" /><stop offset="0.5" stopColor="#6366f1" /><stop offset="1" stopColor="#7c3aed" />
+                  </linearGradient>
+                </defs>
+                <path d="M24 2l18 7v13c0 11-8 20-18 24C14 42 6 33 6 22V9l18-7z" fill="url(#tsExpl)" />
+                <path d="M19 24l3.5 3.5L29 21" stroke="#4ade80" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <h2 className="text-xl md:text-2xl font-bold text-white">How {vendor.name}'s TrustScore works</h2>
+            </div>
+            <p className="text-sm text-slate-300 leading-relaxed mb-5 max-w-3xl">
+              TrustScore rates every UK supplier out of <strong className="text-white">100</strong> from publicly verifiable signals. It is fully independent and <strong className="text-white">never for sale</strong> — no supplier can pay to change their score.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              {/* Automated */}
+              <div className="bg-white/5 border border-slate-700/50 rounded-xl p-4">
+                <div className="text-[11px] text-slate-400 uppercase tracking-wider mb-1.5 font-semibold">Automated · up to 55</div>
+                <ul className="space-y-1.5 text-sm text-slate-200">
+                  <li className="flex items-center gap-2"><CheckIcon /> Lab-tested (COA on site)</li>
+                  <li className="flex items-center gap-2"><CheckIcon /> Independent reviews</li>
+                  <li className="flex items-center gap-2"><CheckIcon /> Checkable contact</li>
+                  <li className="flex items-center gap-2"><CheckIcon /> Tracked shipping</li>
+                  <li className="flex items-center gap-2"><CheckIcon /> RUO compliant</li>
+                </ul>
+              </div>
+              {/* Domain */}
+              <div className="bg-white/5 border border-slate-700/50 rounded-xl p-4">
+                <div className="text-[11px] text-slate-400 uppercase tracking-wider mb-1.5 font-semibold">Domain · up to 20</div>
+                <p className="text-sm text-slate-200">Free. Proven when the supplier displays their score and links back to ViralPeps on their own site.</p>
+              </div>
+              {/* Entity */}
+              <div className="bg-white/5 border border-slate-700/50 rounded-xl p-4">
+                <div className="text-[11px] text-slate-400 uppercase tracking-wider mb-1.5 font-semibold">Verified entity · up to 25</div>
+                <p className="text-sm text-slate-200">Confirmed on recertification — a registered business taking card or bank payment is the strongest trust signal.</p>
+              </div>
+            </div>
+            <p className="mt-5 text-xs text-slate-400">
+              Read the full published methodology on the{" "}
+              <a href="/trust-score" className="text-blue-400 hover:text-blue-300 underline underline-offset-2">TrustScore methodology page</a>.
+            </p>
           </div>
         </div>
       </div>
