@@ -1065,6 +1065,18 @@ export const guides: ResearchArticle[] = [
   tags: ['tesamorelin', 'ghrh', 'visceral-fat', 'belly-fat', 'lipolysis', 'growth-hormone', 'goals'],
 },
 
+{
+  title: 'Melanotan 2 for Tanning: The MC1R Tanning Guide',
+  desc: 'A dedicated goal article on Melanotan II (MT-II) for skin tanning — how MC1R agonism drives eumelanin production without UV exposure, the 1996 Phase I evidence, dosing and loading protocols, comparison to UV tanning and PT-141, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Melanotan 2',
+  slug: 'melanotan-2-for-tanning',
+  image: 'melanotan-2-for-tanning',
+  minutes: 12,
+  tags: ['melanotan-2', 'melanotan-ii', 'mt2', 'tanning', 'melanogenesis', 'mc1r', 'skin', 'goals'],
+},
+
 ];
 
 export const compoundList: string[] = [
