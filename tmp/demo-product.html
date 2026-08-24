@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BPC-157 10mg — ViralPeps Demo Store</title>
+<style>
+  :root{--brand:#305cde}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#111;background:#f5f6f8;min-height:100vh}
+  .nav{background:#0b1a2e;color:#fff;padding:14px 24px;display:flex;align-items:center;gap:12px}
+  .nav .logo{font-weight:800;font-size:18px;color:#fff;letter-spacing:.3px}
+  .container{max-width:1100px;margin:0 auto;padding:32px 24px;display:flex;gap:40px;flex-wrap:wrap}
+  .gallery{flex:1 1 380px}
+  .gallery .imgbox{background:#fff;border:1px solid #e5e7eb;border-radius:14px;height:380px;display:flex;align-items:center;justify-content:center;font-size:15px;color:#94a3b8}
+  .info{flex:1 1 400px}
+  .info h1{font-size:26px;font-weight:800;margin-bottom:8px}
+  .sku{font-size:12.5px;color:#64748b;margin-bottom:14px}
+  .price{font-size:30px;font-weight:800;color:var(--brand);margin-bottom:20px}
+  .add{margin:6px 0 14px}
+  form.btn{display:inline-block}
+  .addbtn{background:var(--brand);color:#fff;border:none;border-radius:10px;padding:14px 28px;font-size:15px;font-weight:700;cursor:pointer}
+  .addbtn:hover{filter:brightness(.92)}
+  .meta{margin-top:26px;border-top:1px solid #e5e7eb;padding-top:16px;font-size:13.5px;color:#475569;line-height:1.9}
+  h2.learn{margin:32px 0 8px;font-size:18px}
+  .footer{background:#0b1a2e;color:#9aa6b5;text-align:center;padding:22px;font-size:13px}
+</style>
+</head>
+<body>
+  <div class="siteAnnounce" style="background:#0b1a2e;color:#fff;text-align:center;padding:6px 12px;font-size:12.5px">Free UK shipping over £100</div>
+
+  <nav class="nav">
+    <span class="logo">ViralPeps Demo Store</span>
+  </nav>
+
+  <div class="container">
+    <div class="gallery">
+      <div class="imgbox">Product image — BPC-157 10mg</div>
+    </div>
+    <div class="info">
+      <h1>BPC-157 10mg</h1>
+      <div class="sku">SKU: UP-BPC157-10MG &nbsp;·&nbsp; Research peptide</div>
+      <div class="price">£29.99</div>
+      <form class="btn" action="/cart/add" method="post">
+        <button class="addbtn" type="submit">Add to cart</button>
+      </form>
+
+      <div class="meta">
+        <strong>Category:</strong> Research Peptides, Best Selling<br/>
+        <strong>Purity:</strong> ≥98% (HPLC verified)<br/>
+        <strong>Form:</strong> Lyophilised powder
+      </div>
+    </div>
+  </div>
+
+  <div style="max-width:1100px;margin:0 auto;padding:0 24px">
+    <h2 class="learn">Product details</h2>
+    <p style="font-size:14.5px;color:#475569;line-height:1.8;margin-bottom:60px">
+      BPC-157 (Body Protection Compound) is a synthetic pentadecapeptide derived from a protein
+      found in gastric juice. Commonly studied in research settings for recovery and tissue repair.
+      Use in controlled laboratory research only — not for human consumption.
+    </p>
+  </div>
+
+  <div class="footer">© ViralPeps Demo Store — Widget placement demo</div>
+
+  <!-- ViralPeps widgets -->
+  <script src="http://localhost:3000/verified.js" data-supplier="united-peptides" defer></script>
+  <script src="http://localhost:3000/trust-score.js" data-supplier="united-peptides" data-position="bottom-right" defer></script>
+  <script src="http://localhost:3000/learn.js" data-supplier="united-peptides" data-product="bpc-157" data-product-name="BPC-157" defer></script>
+</body>
+</html>
