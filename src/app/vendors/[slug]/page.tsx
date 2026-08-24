@@ -550,9 +550,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               TrustScore rates every UK supplier out of <strong className="text-white">100</strong> from publicly verifiable signals. It is fully independent and <strong className="text-white">never for sale</strong> — no supplier can pay to change their score.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-              {/* Automated */}
+              {/* Compliance */}
               <div className="bg-white/5 border border-slate-700/50 rounded-xl p-4">
-                <div className="text-[11px] text-slate-400 uppercase tracking-wider mb-1.5 font-semibold">Automated · up to 55</div>
+                <div className="text-[11px] text-slate-400 uppercase tracking-wider mb-1.5 font-semibold">Compliance · up to 55</div>
                 <ul className="space-y-1.5 text-sm text-slate-200">
                   <li className="flex items-center gap-2"><CheckIcon /> Lab-tested (COA on site)</li>
                   <li className="flex items-center gap-2"><CheckIcon /> Independent reviews</li>
@@ -564,7 +564,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
               {/* Domain */}
               <div className="bg-white/5 border border-slate-700/50 rounded-xl p-4">
                 <div className="text-[11px] text-slate-400 uppercase tracking-wider mb-1.5 font-semibold">Domain · up to 20</div>
-                <p className="text-sm text-slate-200">Free. Proven when the supplier displays their score and links back to ViralPeps on their own site.</p>
+                <p className="text-sm text-slate-200">Ownership verification is an important trust factor. Domain verified sites carry our TrustScore logo with a live score.</p>
               </div>
               {/* Entity */}
               <div className="bg-white/5 border border-slate-700/50 rounded-xl p-4">
