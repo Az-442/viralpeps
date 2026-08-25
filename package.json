@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint && scripts/guard-no-peptidesupermarket.sh"
   },
   "dependencies": {
     "next": "16.2.9",
