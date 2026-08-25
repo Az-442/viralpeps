@@ -1076,6 +1076,17 @@ export const guides: ResearchArticle[] = [
   minutes: 12,
   tags: ['melanotan-2', 'melanotan-ii', 'mt2', 'tanning', 'melanogenesis', 'mc1r', 'skin', 'goals'],
 },
+{
+  title: 'Sermorelin for Muscle Growth: The GHRH Analog That Amplifies Your Own Anabolic Axis',
+  desc: 'A dedicated goal article on sermorelin (GRF 1-29) for lean-mass research — how GHRH-receptor agonism raises your own pulsatile GH and downstream IGF-1 within a preserved feedback loop, the Corpas 1992 and Rudman 1990 GH-axis evidence, dosing and protocol, comparison to exogenous GH and higher-output secretagogues, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Sermorelin',
+  slug: 'sermorelin-for-muscle-growth',
+  image: 'sermorelin-for-muscle-growth',
+  minutes: 12,
+  tags: ['sermorelin', 'grf-1-29', 'ghrh', 'muscle-growth', 'lean-mass', 'gh', 'igf-1', 'goals'],
+},
 
 ];
 

@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "TESAMORELIN"
-VIAL_PATH = "public/images/compounds/tesamorelin-vial.png"
-OUTPUT_PATH = "public/images/guides/tesamorelin-for-belly-fat.png"
+COMPOUND = "SERMORELIN"
+VIAL_PATH = "public/images/compounds/sermorelin-vial.png"
+OUTPUT_PATH = "public/images/guides/sermorelin-for-muscle-growth.png"
 DESCRIPTION_LINES = [
-    "The FDA-approved GHRH analog that",
-    "lets you switch off belly-fat storage",
-    "without dieting. Targets visceral",
-    "adipose tissue through the GH axis",
-    "- not muscle, not full-body fat loss.",
+    "The GHRH analog that drives lean",
+    "mass, not fat - amplifying your own",
+    "pulsatile GH and IGF-1 to support",
+    "muscle growth while preserving",
+    "natural feedback control.",
 ]
 # ==================================================
 
