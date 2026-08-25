@@ -85,6 +85,28 @@ export default function AboutPage() {
           </p>
         </div>
 
+        <div>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">
+            Fully independent — no commissions, no paid rankings
+          </h2>
+          <p className="text-gray-700 leading-relaxed text-sm">
+            ViralPeps is fully independent. We are unaffiliated with any
+            peptide supplier, another comparison service, or a review platform.
+          </p>
+          <p className="text-gray-700 leading-relaxed text-sm mt-3">
+            We do not take commissions from vendors. We do not sell peptides.
+            We do not accept payment for ratings or ranking. Every supplier we
+            list is ranked on its own merits — not on what it pays us.
+          </p>
+          <p className="text-gray-700 leading-relaxed text-sm mt-3">
+            We give researchers accurate, up-to-date price data, educational
+            content, and we verify our suppliers by checking their credibility
+            before they are listed. Our only interest is trusted, reliable
+            information — that is why we exist, and it is the standard
+            everything on this site is held to.
+          </p>
+        </div>
+
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
           <h2 className="text-lg font-bold text-gray-900 mb-2">
             Have a question?
