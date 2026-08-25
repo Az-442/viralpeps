@@ -42,8 +42,9 @@ const COA = [
 
 const RUO = [
   "research use only", "research-use only", "in vitro", "in-vitro", "for research purposes",
-  "laboratory use", "laboratory research", "research purposes only", "not for human",
-  "not for human use", "for laboratory and scientific",
+  "research purposes", "research purpose", "laboratory use", "laboratory research",
+  "research purposes only", "not for human", "not for human use", "laboratory and scientific",
+  "for laboratory and scientific", "not for injection", "antibody research",
 ];
 
 const REVIEW = [
@@ -52,10 +53,15 @@ const REVIEW = [
 
 const SHIPPING_TRACKED = [
   "tracked", "tracking", "royal mail", "dpd", "dhl", "ups", "next day", "next-day",
-  "signed for", "delivery notification",
+  "signed for", "delivery notification", "free shipping", "free delivery", "free postage",
+  "free uk shipping", "free uk delivery", "free tracked", "free dispatch", "free over",
+  "ships free",
 ];
 
-const CONTACT = ["contact", "email", "phone", "tel:", "mailto:", "live chat", "support", "get in touch"];
+const CONTACT = [
+  "contact", "email", "phone", "tel:", "mailto:", "live chat", "support", "get in touch",
+  "whatsapp", "telegram", "send us a message", "reach us", "enquire",
+];
 
 function normalize(s) {
   return (s || "").toLowerCase().replace(/\s+/g, " ");
@@ -122,8 +128,40 @@ async function checkVendor(vendor) {
   result.home.shipping = findEvidence(homeText, SHIPPING_TRACKED);
   result.home.contact = findEvidence(homeText, CONTACT);
 
+  // Probe common secondary pages where RUO / shipping / contact / COA often live
+  // (many stores keep disclaimers on terms, shipping details on a shipping/faq page,
+  //  and contact details on a dedicated contact page). Only follows same-site links.
+  const origin = site.replace(/\/+$/, "");
+  const pageCandidates = [];
+  const navMatches = homeText.matchAll(/href=["']([^"']*?)?["'][^>]*>(?:<[^>]+>)*\s*(contact|shipping|faq|terms|notice|disclaimer|privacy|support)\s*/gi);
+  for (const m of navMatches) {
+    const href = m[1];
+    if (!href || href.startsWith("http") && !href.startsWith(origin)) continue;
+    const url = href.startsWith("http") ? href : origin + "/" + href.replace(/^\//, "");
+    if (!pageCandidates.includes(url)) pageCandidates.push(url);
+  }
+  // Guard: also try common direct paths even if not linked
+  for (const p of ["/contact", "/contact-us", "/faq", "/terms", "/shipping", "/delivery", "/support"]) {
+    if (result.home.shipping || result.home.contact) break; // already found, skip extra hits
+    const url = origin + p;
+    if (!pageCandidates.includes(url)) pageCandidates.push(url);
+  }
+  const secondary = { contact: null, ruo: null, shipping: null, coa: null, review: null };
+  for (const url of pageCandidates.slice(0, 4)) {
+    try {
+      const page = await fetchText(url);
+      if (page.status < 200 || page.status >= 400) continue;
+      secondary.contact = secondary.contact || findEvidence(page.text, CONTACT);
+      secondary.ruo = secondary.ruo || findEvidence(page.text, RUO);
+      secondary.shipping = secondary.shipping || findEvidence(page.text, SHIPPING_TRACKED);
+      secondary.coa = secondary.coa || findEvidence(page.text, COA);
+      secondary.review = secondary.review || findEvidence(page.text, REVIEW);
+    } catch (e) { /* ignore secondary page failures */ }
+  }
+  result.secondary = { probed: pageCandidates.length > 0 ? pageCandidates.length : 0, ...secondary };
+
   // Try a product page if linked (search for a /product or /shop path) to check COA + RUO there too.
-  const productHref = (homeText.match(/href=["']([^"']*(?:\/product|\/products|\/shop|\/catalogue)[^"']*)["']/i) || [])[1];
+  const productHref = (homeText.match(/href=["']([^"']*(?:\/product|\/products|\/shop|\/catalogue)[^"']*)(?:["'])[^>]*/i) || [])[1];
   if (productHref) {
     const productUrl = productHref.startsWith("http")
       ? productHref
@@ -159,10 +197,12 @@ async function main() {
     const r = await checkVendor(v);
     results[v.slug] = r;
     const title = r.home.title ? ` — "${r.home.title}"` : "";
+    const sec = r.secondary ? ` sec[pages=${r.secondary.probed || 0} ship=${r.secondary.shipping || "✗"} cont=${r.secondary.contact || "✗"} ruo=${r.secondary.ruo || "✗"} coa=${r.secondary.coa || "✗"}]` : "";
     process.stdout.write(
       `[${i}/${targets.length}] ${v.name}: live=${r.live} COA=${r.home.coa || "✗"} RUO(home)=${r.home.ruo || "✗"} ` +
       `reviews=${r.home.review || "✗"} shipping=${r.home.shipping || "✗"} contact=${r.home.contact || "✗"}` +
-      (r.product.fetched ? ` productRUO=${r.product.ruo || "✗"} productCOA=${r.product.coa || "✗"}` : "") + title + "\n"
+      (r.product.fetched ? ` productRUO=${r.product.ruo || "✗"} productCOA=${r.product.coa || "✗"}` : "") +
+      sec + title + "\n"
     );
   }
 
@@ -175,20 +215,21 @@ async function main() {
     for (const v of vendors) {
       const r = results[v.slug];
       if (!r) continue;
+      const sec = r.secondary || {};
       v._autoChecks = {
         live: r.live,
-        coa: Boolean(r.home.coa || r.product.coa),
-        ruo: Boolean(r.home.ruo || r.product.ruo),
-        reviews: Boolean(r.home.review),
-        shipping: Boolean(r.home.shipping),
-        contact: Boolean(r.home.contact),
+        coa: Boolean(r.home.coa || r.product.coa || sec.coa),
+        ruo: Boolean(r.home.ruo || r.product.ruo || sec.ruo),
+        reviews: Boolean(r.home.review || sec.review),
+        shipping: Boolean(r.home.shipping || sec.shipping),
+        contact: Boolean(r.home.contact || sec.contact),
         productPageFetched: r.product.fetched,
         evidence: {
-          coa: r.home.coa || r.product.coa,
-          ruo: r.home.ruo || r.product.ruo,
-          reviews: r.home.review,
-          shipping: r.home.shipping,
-          contact: r.home.contact,
+          coa: r.home.coa || r.product.coa || sec.coa,
+          ruo: r.home.ruo || r.product.ruo || sec.ruo,
+          reviews: r.home.review || sec.review,
+          shipping: r.home.shipping || sec.shipping,
+          contact: r.home.contact || sec.contact,
         },
         checkedAt: r.checkedAt,
       };

@@ -16,7 +16,7 @@
       "Wide catalog"
     ],
     "shipping": [
-      "UK (free over £50)",
+      "UK (free over \u00a350)",
       "International"
     ],
     "payment": [
@@ -61,7 +61,7 @@
       "UK-based"
     ],
     "shipping": [
-      "UK (free over £25)",
+      "UK (free over \u00a325)",
       "International"
     ],
     "payment": [
@@ -149,7 +149,7 @@
       "Independent COAs"
     ],
     "shipping": [
-      "UK tracked (free over £40)",
+      "UK tracked (free over \u00a340)",
       "International"
     ],
     "payment": [
@@ -194,7 +194,7 @@
       "Fast UK delivery"
     ],
     "shipping": [
-      "UK (free over £99)",
+      "UK (free over \u00a399)",
       "Great Britain only"
     ],
     "payment": [
@@ -230,7 +230,7 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20°C cold chain storage. Same-day dispatch on orders before 4pm.",
+    "description": "UK research peptide supplier with UKAS-verified HPLC testing, Type 1 glass vials, and -20\u00b0C cold chain storage. Same-day dispatch on orders before 4pm.",
     "highlights": [
       "UKAS-verified testing",
       "Cold chain storage",
@@ -238,7 +238,7 @@
       "Same-day dispatch"
     ],
     "shipping": [
-      "UK (free over £50)",
+      "UK (free over \u00a350)",
       "International"
     ],
     "payment": [
@@ -281,7 +281,7 @@
       "UK manufactured"
     ],
     "shipping": [
-      "UK next-day (free over £100)",
+      "UK next-day (free over \u00a3100)",
       "International"
     ],
     "payment": [
@@ -325,7 +325,7 @@
       "Previously Dr Peptides"
     ],
     "shipping": [
-      "UK free over £25",
+      "UK free over \u00a325",
       "International"
     ],
     "payment": [
@@ -369,7 +369,7 @@
       "Premium selection"
     ],
     "shipping": [
-      "UK (£9.99 tracked, free over £100)"
+      "UK (\u00a39.99 tracked, free over \u00a3100)"
     ],
     "payment": [
       "Bank transfer",
@@ -412,7 +412,7 @@
       "Established 2016"
     ],
     "shipping": [
-      "UK (free over £100)",
+      "UK (free over \u00a3100)",
       "International"
     ],
     "payment": [
@@ -456,10 +456,10 @@
       "95+ products",
       "Fast UK delivery",
       "Discreet packaging",
-      "Free over £100"
+      "Free over \u00a3100"
     ],
     "shipping": [
-      "UK free over £100",
+      "UK free over \u00a3100",
       "Royal Mail Tracked 24",
       "International tracked"
     ],
@@ -547,7 +547,7 @@
     "country": "UK",
     "description": "One of the UK's largest research peptide suppliers with 98+ lab-tested products. All batches independently third-party tested via Optima Labs (ISO/IEC 17025). Cold-chain storage, auto-apply volume discounts, and free UK delivery on all orders.",
     "highlights": [
-      "98+ products — largest UK catalog",
+      "98+ products \u2014 largest UK catalog",
       "Third-party tested (Optima Labs ISO/IEC 17025)",
       "Free UK delivery",
       "Auto volume discounts (up to 20% off)",
@@ -593,13 +593,13 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "Premium UK research peptide supplier with a 4.9★ rating across 103 reviews. All products third-party lab tested via Janoshik with public COAs. Free next-day UK delivery, bulk discounts up to 25% off, and exceptional customer support.",
+    "description": "Premium UK research peptide supplier with a 4.9\u2605 rating across 103 reviews. All products third-party lab tested via Janoshik with public COAs. Free next-day UK delivery, bulk discounts up to 25% off, and exceptional customer support.",
     "highlights": [
-      "4.9/5 rating — 103 reviews",
+      "4.9/5 rating \u2014 103 reviews",
       "Lab tested (Janoshik)",
       "Free next-day UK delivery",
       "Bulk discounts up to 25% off",
-      "Free gift over £100",
+      "Free gift over \u00a3100",
       "98% of reviewers recommend"
     ],
     "shipping": [
@@ -643,7 +643,7 @@
       "Pen delivery systems",
       "Same-day dispatch (before 4:30pm)",
       "HPLC lab tested with COAs",
-      "UK-based — Canary Wharf, London"
+      "UK-based \u2014 Canary Wharf, London"
     ],
     "shipping": [
       "UK next-day (order before 4:30pm Mon-Fri)"
@@ -729,14 +729,14 @@
       "HPLC tested 99.1%+ purity",
       "Third-party tested (Axonis Analytics)",
       "Same-day dispatch",
-      "Free shipping over £100",
+      "Free shipping over \u00a3100",
       "Cold-chain storage"
     ],
     "shipping": [
-      "UK RM Tracked 24 (free over £100, from £4.99)",
-      "UK Special Delivery Guaranteed (£7.50)",
-      "European Express (£9.99)",
-      "Worldwide Tracked (£12.95)"
+      "UK RM Tracked 24 (free over \u00a3100, from \u00a34.99)",
+      "UK Special Delivery Guaranteed (\u00a37.50)",
+      "European Express (\u00a39.99)",
+      "Worldwide Tracked (\u00a312.95)"
     ],
     "payment": [
       "Bank transfer (Fena)",
@@ -773,17 +773,17 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "London-based research peptide supplier offering HPLC-tested compounds at ≥98% purity with batch-specific documentation. Brand of Anglo-Peptides Ltd (Company No. 16423217), a registered UK chemical wholesale company. Free UK shipping over £100.",
+    "description": "London-based research peptide supplier offering HPLC-tested compounds at \u226598% purity with batch-specific documentation. Brand of Anglo-Peptides Ltd (Company No. 16423217), a registered UK chemical wholesale company. Free UK shipping over \u00a3100.",
     "highlights": [
       "UK registered company (Anglo-Peptides Ltd)",
-      "HPLC tested ≥98% purity",
+      "HPLC tested \u226598% purity",
       "Batch-numbered products",
       "London-based",
-      "Free shipping over £100",
+      "Free shipping over \u00a3100",
       "Mix & Match savings"
     ],
     "shipping": [
-      "UK RM Tracked 24 (free over £100)",
+      "UK RM Tracked 24 (free over \u00a3100)",
       "International tracked (5-10 business days)"
     ],
     "payment": [
@@ -864,10 +864,10 @@
     "verified": true,
     "founded": 2024,
     "country": "UK",
-    "description": "London-based UK research peptide supplier with 62 products and a 5★ Trustpilot rating across 250+ reviews. All products cGMP-manufactured and HPLC-tested with purity exceeding 99%. Registered UK company (No. 16557437) with fast Royal Mail Tracked 24 delivery.",
+    "description": "London-based UK research peptide supplier with 62 products and a 5\u2605 Trustpilot rating across 250+ reviews. All products cGMP-manufactured and HPLC-tested with purity exceeding 99%. Registered UK company (No. 16557437) with fast Royal Mail Tracked 24 delivery.",
     "highlights": [
-      "5★ Trustpilot — 250+ reviews",
-      "HPLC tested — 99%+ purity",
+      "5\u2605 Trustpilot \u2014 250+ reviews",
+      "HPLC tested \u2014 99%+ purity",
       "cGMP-compliant manufacturing",
       "Royal Mail Tracked 24 delivery",
       "62 products in catalog",
@@ -920,8 +920,8 @@
     ],
     "shipping": [
       "UK free (Royal Mail)",
-      "Europe (£15 flat rate)",
-      "Rest of World (£25 flat rate)"
+      "Europe (\u00a315 flat rate)",
+      "Rest of World (\u00a325 flat rate)"
     ],
     "payment": [
       "Cards (Visa/MasterCard)",
@@ -957,17 +957,17 @@
     "verified": false,
     "founded": 2024,
     "country": "UK",
-    "description": "UK-based premium research peptide supplier with 40+ products, all in-house tested to 99%+ purity. Operated by KADIYSKI LIMITED. Offers free UK delivery over £50, next working day dispatch, and pre-filled cartridge formats. Bulk discounts up to 12% off and welcome discount code WELCOME10 for 10% off first orders.",
+    "description": "UK-based premium research peptide supplier with 40+ products, all in-house tested to 99%+ purity. Operated by KADIYSKI LIMITED. Offers free UK delivery over \u00a350, next working day dispatch, and pre-filled cartridge formats. Bulk discounts up to 12% off and welcome discount code WELCOME10 for 10% off first orders.",
     "highlights": [
       "99% minimum purity",
       "5000+ satisfied researchers",
-      "Free UK delivery over £50",
+      "Free UK delivery over \u00a350",
       "Bulk discounts up to 12%",
       "Pre-filled cartridge options",
       "Welcome discount 10% off"
     ],
     "shipping": [
-      "UK free over £50 (next working day dispatch)",
+      "UK free over \u00a350 (next working day dispatch)",
       "International (40+ countries)"
     ],
     "payment": [
@@ -1009,10 +1009,10 @@
       "cGMP & ISO9001 certified",
       "HPLC & MS-UPLC tested",
       "Wide catalog of 30+ peptides",
-      "Free UK delivery over £75"
+      "Free UK delivery over \u00a375"
     ],
     "shipping": [
-      "UK (free over £75)",
+      "UK (free over \u00a375)",
       "International worldwide"
     ],
     "payment": [
@@ -1102,7 +1102,7 @@
       "Fast UK delivery"
     ],
     "shipping": [
-      "UK (free over £350)",
+      "UK (free over \u00a3350)",
       "International"
     ],
     "payment": [
@@ -1182,7 +1182,7 @@
     "country": "UK",
     "description": "British research laboratory supplier offering premium research-use-only peptides. All products independently purity tested by Brown Institute of Biomolecular Research, batch documented, with same-day dispatch before 14:00 for tracked next-day UK delivery. Rated 4.9/5 from 140+ verified UK customers.",
     "highlights": [
-      "4.9/5 rating — 140+ verified reviews",
+      "4.9/5 rating \u2014 140+ verified reviews",
       "Independently purity tested",
       "Same-day dispatch (before 14:00)",
       "Next-day UK delivery",
@@ -1225,17 +1225,17 @@
     "verified": true,
     "founded": 2024,
     "country": "UK",
-    "description": "UK research peptide supplier offering 99%+ HPLC-verified peptides with same-day dispatch and free UK delivery over £75. All products ship with third-party certificates of analysis. Known for preloaded pen delivery systems including Retatrutide, GHK-Cu Glow Stack, and BPC-157/TB-500 Wolverine Stack.",
+    "description": "UK research peptide supplier offering 99%+ HPLC-verified peptides with same-day dispatch and free UK delivery over \u00a375. All products ship with third-party certificates of analysis. Known for preloaded pen delivery systems including Retatrutide, GHK-Cu Glow Stack, and BPC-157/TB-500 Wolverine Stack.",
     "highlights": [
       "99%+ HPLC-verified purity",
       "Same-day dispatch (before 14:00)",
-      "Free UK delivery over £75",
+      "Free UK delivery over \u00a375",
       "CoA with every order",
       "Preloaded pen options",
       "UK stock"
     ],
     "shipping": [
-      "UK next-day (free over £75)"
+      "UK next-day (free over \u00a375)"
     ],
     "payment": [
       "Cards",
@@ -1270,17 +1270,17 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier with all batches HPLC + mass-spec tested. ≥99% purity, published per-batch Certificates of Analysis. Trustpilot 4.6★ with 60+ reviews. Free UK shipping over £100, dispatched within 24 hours.",
+    "description": "UK-based research peptide supplier with all batches HPLC + mass-spec tested. \u226599% purity, published per-batch Certificates of Analysis. Trustpilot 4.6\u2605 with 60+ reviews. Free UK shipping over \u00a3100, dispatched within 24 hours.",
     "highlights": [
       "HPLC + MS verified, every batch",
-      "≥99% purity — independently verified",
-      "Free UK shipping over £100",
-      "Trustpilot 4.6★ · 60+ reviews",
+      "\u226599% purity \u2014 independently verified",
+      "Free UK shipping over \u00a3100",
+      "Trustpilot 4.6\u2605 \u00b7 60+ reviews",
       "Published COAs per batch",
       "Registered UK company (No. 17107501)"
     ],
     "shipping": [
-      "UK free over £100",
+      "UK free over \u00a3100",
       "24-hour dispatch"
     ],
     "payment": [
@@ -1404,17 +1404,17 @@
     "verified": false,
     "founded": 2025,
     "country": "UK",
-    "description": "London-based UK research peptide supplier with 27 HPLC-tested research compounds manufactured to pharmaceutical-grade standards. Third-party lab tested with batch-specific reports. Registered UK company (No. 16661755) based in London with free UK delivery over £50.",
+    "description": "London-based UK research peptide supplier with 27 HPLC-tested research compounds manufactured to pharmaceutical-grade standards. Third-party lab tested with batch-specific reports. Registered UK company (No. 16661755) based in London with free UK delivery over \u00a350.",
     "highlights": [
       "27 products in catalog",
       "HPLC & Mass Spectrometry tested",
       "Pharmaceutical-grade manufacturing",
-      "Free UK delivery over £50",
+      "Free UK delivery over \u00a350",
       "Bulk discounts up to 25% off",
       "Registered UK company"
     ],
     "shipping": [
-      "UK free over £50",
+      "UK free over \u00a350",
       "EU (import duties paid at checkout)"
     ],
     "payment": [
@@ -1450,17 +1450,17 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "London-based research peptide supplier with all batches independently HPLC-tested by Janoshik Analytical. Registered UK company with batch-specific COAs, same-day dispatch before 1pm, and free delivery over £40. 200+ orders shipped.",
+    "description": "London-based research peptide supplier with all batches independently HPLC-tested by Janoshik Analytical. Registered UK company with batch-specific COAs, same-day dispatch before 1pm, and free delivery over \u00a340. 200+ orders shipped.",
     "highlights": [
       "Janoshik independent testing",
       "99%+ HPLC purity",
       "Batch-specific COAs",
       "Same-day dispatch (before 1pm)",
-      "Free UK delivery over £40",
+      "Free UK delivery over \u00a340",
       "Registered UK company (PEPTIFY LIMITED #17021295)"
     ],
     "shipping": [
-      "UK free over £40 (Royal Mail Tracked 24/48, same-day dispatch before 1pm Mon-Fri)"
+      "UK free over \u00a340 (Royal Mail Tracked 24/48, same-day dispatch before 1pm Mon-Fri)"
     ],
     "payment": [
       "Bank transfer (open banking)",
@@ -1538,7 +1538,7 @@
     "verified": true,
     "founded": 2026,
     "country": "UK",
-    "description": "Premium UK research peptide supplier (Precision Peptides Ltd #17005607) offering 39 high-purity research compounds. All products independently lab-tested with batch-specific documentation available upon request. Free UK delivery over £100, quantity discounts up to 15% off.",
+    "description": "Premium UK research peptide supplier (Precision Peptides Ltd #17005607) offering 39 high-purity research compounds. All products independently lab-tested with batch-specific documentation available upon request. Free UK delivery over \u00a3100, quantity discounts up to 15% off.",
     "highlights": [
       "39 products in catalog",
       "Independently lab tested",
@@ -1547,7 +1547,7 @@
       "London-based"
     ],
     "shipping": [
-      "UK free over £100",
+      "UK free over \u00a3100",
       "Next-day dispatch available"
     ],
     "payment": [
@@ -1585,12 +1585,12 @@
     "description": "UK-based research peptide supplier (Astra Scientific Ltd) offering premium-grade research compounds with Janoshik third-party testing. Known for competitive pricing on GLP-1 agonists, peptide blends, and unique compounds including SS-31. All batches supplied with COA verification.",
     "highlights": [
       "Janoshik lab tested",
-      "Free UK delivery over £100",
+      "Free UK delivery over \u00a3100",
       "Competitive pricing on GLP-1s",
       "Discreet packaging"
     ],
     "shipping": [
-      "UK (free over £100)"
+      "UK (free over \u00a3100)"
     ],
     "payment": [
       "Cards",
@@ -1625,17 +1625,17 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier offering ≥98% HPLC-verified purity across all products. Rated Excellent on Trustpilot. All batches independently tested with COAs available. Same or next working day dispatch from UK facility, free UK shipping over £50, and discreet plain packaging.",
+    "description": "UK-based research peptide supplier offering \u226598% HPLC-verified purity across all products. Rated Excellent on Trustpilot. All batches independently tested with COAs available. Same or next working day dispatch from UK facility, free UK shipping over \u00a350, and discreet plain packaging.",
     "highlights": [
       "Rated Excellent on Trustpilot",
-      "≥98% HPLC-verified purity",
+      "\u226598% HPLC-verified purity",
       "Independent batch testing with COAs",
-      "Free UK shipping over £50",
+      "Free UK shipping over \u00a350",
       "Same/next working day dispatch",
       "Discreet plain packaging"
     ],
     "shipping": [
-      "UK (free over £50, same-day dispatch before 1pm Mon-Fri)"
+      "UK (free over \u00a350, same-day dispatch before 1pm Mon-Fri)"
     ],
     "payment": [
       "Cards (Visa/Mastercard/Amex)",
@@ -1672,17 +1672,17 @@
     "verified": false,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier with 35 high-purity compounds supplied for laboratory research. All products manufactured to strict quality specifications with purity levels verified through analytical testing. Certificates of Analysis (COAs) available to support transparency. Free UK delivery on orders over £100 with next-day guaranteed dispatch before 12pm.",
+    "description": "UK-based research peptide supplier with 35 high-purity compounds supplied for laboratory research. All products manufactured to strict quality specifications with purity levels verified through analytical testing. Certificates of Analysis (COAs) available to support transparency. Free UK delivery on orders over \u00a3100 with next-day guaranteed dispatch before 12pm.",
     "highlights": [
       "35 products in catalog",
       "Third-party tested with COAs",
-      "Free UK delivery over £100",
+      "Free UK delivery over \u00a3100",
       "Next-day dispatch (order before 12pm)",
       "Research-focused supply",
       "UK-based"
     ],
     "shipping": [
-      "UK free over £100 (next-day guaranteed, order before 12pm Mon-Fri)"
+      "UK free over \u00a3100 (next-day guaranteed, order before 12pm Mon-Fri)"
     ],
     "payment": [
       "Cards (Visa/Mastercard)",
@@ -1717,18 +1717,18 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "Premium UK research peptide supplier (DEB Ventures Ltd #16714689) with all compounds HPLC-tested to ≥99% purity via Janoshik Analytical. 5.0★ rating from 300+ verified reviews. Based in London with same-day dispatch before 1pm, free UK delivery over £100, and a 30-day money-back guarantee. All batches supplied with Certificates of Analysis.",
+    "description": "Premium UK research peptide supplier (DEB Ventures Ltd #16714689) with all compounds HPLC-tested to \u226599% purity via Janoshik Analytical. 5.0\u2605 rating from 300+ verified reviews. Based in London with same-day dispatch before 1pm, free UK delivery over \u00a3100, and a 30-day money-back guarantee. All batches supplied with Certificates of Analysis.",
     "highlights": [
-      "5.0/5 rating — 300+ verified reviews",
+      "5.0/5 rating \u2014 300+ verified reviews",
       "Lab tested (Janoshik Analytical)",
-      "≥99% HPLC purity",
-      "Free UK shipping over £100",
+      "\u226599% HPLC purity",
+      "Free UK shipping over \u00a3100",
       "Same-day dispatch (before 1pm)",
       "30-day money-back guarantee",
       "Registered UK company (DEB Ventures Ltd #16714689)"
     ],
     "shipping": [
-      "UK free over £100 (Royal Mail Tracked 24)",
+      "UK free over \u00a3100 (Royal Mail Tracked 24)",
       "Same-day dispatch before 1pm Mon-Fri"
     ],
     "payment": [
@@ -1765,17 +1765,17 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier (Regen Peptides Ltd #16443319) offering 48+ premium-grade compounds with third-party Janoshik lab testing. All products independently tested with batch-specific COAs. Free UK delivery over £50, same-day dispatch before 2pm via Royal Mail Tracked 24. Known for competitive pricing on GLP-1 agonists, peptide blends, and research stacks.",
+    "description": "UK-based research peptide supplier (Regen Peptides Ltd #16443319) offering 48+ premium-grade compounds with third-party Janoshik lab testing. All products independently tested with batch-specific COAs. Free UK delivery over \u00a350, same-day dispatch before 2pm via Royal Mail Tracked 24. Known for competitive pricing on GLP-1 agonists, peptide blends, and research stacks.",
     "highlights": [
       "Third-party tested (Janoshik)",
-      "Free UK delivery over £50",
+      "Free UK delivery over \u00a350",
       "Same-day dispatch (before 2pm)",
       "99%+ purity guaranteed",
       "48+ products in catalog",
       "Registered UK company (Regen Peptides Ltd #16443319)"
     ],
     "shipping": [
-      "UK free over £50 (Royal Mail Tracked 24, same-day dispatch before 2pm Mon-Fri)"
+      "UK free over \u00a350 (Royal Mail Tracked 24, same-day dispatch before 2pm Mon-Fri)"
     ],
     "payment": [
       "Cards (Visa/Mastercard/Amex)",
@@ -1861,7 +1861,7 @@
     "highlights": [
       "Independent HPLC testing",
       "Published lab reports",
-      "4.7/5 Google rating — 42 reviews",
+      "4.7/5 Google rating \u2014 42 reviews",
       "UK stock & fast dispatch",
       "WhatsApp & Telegram support",
       "25% discount for Bitcoin/crypto payments"
@@ -1906,10 +1906,10 @@
     "country": "UK",
     "description": "London-based research peptide supplier with own-name Janoshik HPLC certificates on every batch. One of only 28 UK suppliers verified by The Peptide Watch. 44 compounds available in vial or pre-filled pen formats with same-day UK dispatch before 2pm. All batches independently tested to 99%+ purity with verification keys on every COA.",
     "highlights": [
-      "Janoshik HPLC tested — own-name COA",
+      "Janoshik HPLC tested \u2014 own-name COA",
       "The Peptide Watch verified",
       "99%+ purity on every batch",
-      "44 compounds — vial & pen formats",
+      "44 compounds \u2014 vial & pen formats",
       "Same-day dispatch (before 2pm)",
       "London-based stock"
     ],
@@ -1995,7 +1995,7 @@
     "country": "UK",
     "description": "UK-based factory-direct research peptide supplier offering 143+ compounds at wholesale pricing. By connecting researchers directly to vetted manufacturers, PeptX eliminates middlemen markups. Products shipped from UK stock with 24h dispatch or factory-direct worldwide shipping. Multi-source supplier vetting through independent lab testing (Janoshik, Uzorak) and community feedback.",
     "highlights": [
-      "Factory-direct pricing — up to 8X cheaper",
+      "Factory-direct pricing \u2014 up to 8X cheaper",
       "143+ compounds in catalog",
       "Multi-source supplier vetting",
       "UK stock with 24h dispatch",
@@ -2003,7 +2003,7 @@
       "Volume discounts (3+ 10%, 5+ 15%, 10+ 20%)"
     ],
     "shipping": [
-      "UK (24h dispatch, free over £100)",
+      "UK (24h dispatch, free over \u00a3100)",
       "International worldwide (48h factory dispatch)"
     ],
     "payment": [
@@ -2084,17 +2084,17 @@
     "verified": false,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier offering 98%+ HPLC-verified peptides with third-party testing by Janoshik, Krause, and Chromate Analytics. Every batch independently tested with published Certificates of Analysis. Same-day UK dispatch before 2pm GMT via Royal Mail Tracked 24, free shipping over £45. Cold-chain storage, discreet packaging, and secure Open Banking checkout.",
+    "description": "UK-based research peptide supplier offering 98%+ HPLC-verified peptides with third-party testing by Janoshik, Krause, and Chromate Analytics. Every batch independently tested with published Certificates of Analysis. Same-day UK dispatch before 2pm GMT via Royal Mail Tracked 24, free shipping over \u00a345. Cold-chain storage, discreet packaging, and secure Open Banking checkout.",
     "highlights": [
-      "Third-party tested (Janoshik · Krause · Chromate)",
+      "Third-party tested (Janoshik \u00b7 Krause \u00b7 Chromate)",
       "Same-day dispatch (before 2pm GMT)",
-      "Free UK delivery over £45",
+      "Free UK delivery over \u00a345",
       "Published COAs on every product page",
       "Cold-chain storage",
       "Discreet packaging"
     ],
     "shipping": [
-      "UK free over £45 (Royal Mail Tracked 24, same-day dispatch before 2pm GMT)",
+      "UK free over \u00a345 (Royal Mail Tracked 24, same-day dispatch before 2pm GMT)",
       "UK shipping only"
     ],
     "payment": [
@@ -2138,11 +2138,11 @@
       "Batch-specific COAs",
       "Cold-chain storage",
       "Same-day dispatch (before 3pm)",
-      "Free UK delivery over £200",
+      "Free UK delivery over \u00a3200",
       "Registered UK company"
     ],
     "shipping": [
-      "UK free over £200 (tracked)",
+      "UK free over \u00a3200 (tracked)",
       "Same-day dispatch before 3pm Mon-Fri"
     ],
     "payment": [
@@ -2179,9 +2179,9 @@
     "verified": false,
     "founded": 2026,
     "country": "UK",
-    "description": "UK-based research peptide supplier offering a curated range of peptides across five fields of study, verified to ≥98% HPLC purity and dispatched from the UK. All products ship with Certificates of Analysis (COA). Same-week UK dispatch with bank transfer and cryptocurrency payment options.",
+    "description": "UK-based research peptide supplier offering a curated range of peptides across five fields of study, verified to \u226598% HPLC purity and dispatched from the UK. All products ship with Certificates of Analysis (COA). Same-week UK dispatch with bank transfer and cryptocurrency payment options.",
     "highlights": [
-      "≥98% HPLC purity",
+      "\u226598% HPLC purity",
       "COA per batch",
       "UK dispatch",
       "Preloaded pen options",
@@ -2189,7 +2189,7 @@
     ],
     "shipping": [
       "UK (same-week dispatch, 2-5 working days)",
-      "Free shipping over £150"
+      "Free shipping over \u00a3150"
     ],
     "payment": [
       "Bank transfer",
@@ -2267,10 +2267,10 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier claiming to be the UK's number one supplier. All batches HPLC and MS tested with ≥99% purity guaranteed. Batch-specific Certificates of Analysis available with QR codes on every bottle. Same-day dispatch before 2pm for next working day UK delivery. UK registered company with responsive customer support.",
+    "description": "UK-based research peptide supplier claiming to be the UK's number one supplier. All batches HPLC and MS tested with \u226599% purity guaranteed. Batch-specific Certificates of Analysis available with QR codes on every bottle. Same-day dispatch before 2pm for next working day UK delivery. UK registered company with responsive customer support.",
     "highlights": [
       "HPLC & MS tested per batch",
-      "≥99% purity guaranteed",
+      "\u226599% purity guaranteed",
       "Batch-specific COA with QR code",
       "Same-day dispatch (before 2pm)",
       "Next-day UK delivery",
@@ -2360,7 +2360,7 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "UK-based research peptide supplier (PGNA LTD, Company No. 15134727, Weybridge, Surrey) with 20 compounds independently verified to ≥98% purity via HPLC and mass spectrometry. Batch-specific COAs published on every product page, same-day dispatch via Royal Mail Tracked 48, and next-day UK delivery. Price match guarantee and loyalty rewards.",
+    "description": "UK-based research peptide supplier (PGNA LTD, Company No. 15134727, Weybridge, Surrey) with 20 compounds independently verified to \u226598% purity via HPLC and mass spectrometry. Batch-specific COAs published on every product page, same-day dispatch via Royal Mail Tracked 48, and next-day UK delivery. Price match guarantee and loyalty rewards.",
     "highlights": [
       "Third-party HPLC + MS tested",
       "Batch COA on every product",
@@ -2370,7 +2370,7 @@
       "Registered UK company"
     ],
     "shipping": [
-      "UK Tracked 48 (free over £50, same-day dispatch before 4pm Mon-Fri)"
+      "UK Tracked 48 (free over \u00a350, same-day dispatch before 4pm Mon-Fri)"
     ],
     "payment": [
       "Cards",
@@ -2406,17 +2406,17 @@
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier (Trutide Research Ltd, Company No. 17148085) based in Mildenhall, Suffolk. Every batch is third-party HPLC tested to verify identity, composition and purity, with COA available on request. Deliberately curated catalogue of single-compound research peptides and blends, supplied lyophilised in sealed vials. Free Royal Mail Tracked 24 over £25 with same-day dispatch before 2pm.",
+    "description": "UK-based research peptide supplier (Trutide Research Ltd, Company No. 17148085) based in Mildenhall, Suffolk. Every batch is third-party HPLC tested to verify identity, composition and purity, with COA available on request. Deliberately curated catalogue of single-compound research peptides and blends, supplied lyophilised in sealed vials. Free Royal Mail Tracked 24 over \u00a325 with same-day dispatch before 2pm.",
     "highlights": [
       "Third-party HPLC tested - COA on request",
       "UK registered company (Trutide Research Ltd)",
       "Curated catalogue - quality over quantity",
-      "Free Royal Mail Tracked 24 over £25",
+      "Free Royal Mail Tracked 24 over \u00a325",
       "Same-day dispatch (order before 2pm)",
       "Extremely competitive pricing"
     ],
     "shipping": [
-      "UK free (Royal Mail Tracked 24, over £25)",
+      "UK free (Royal Mail Tracked 24, over \u00a325)",
       "Same-day dispatch before 2pm Mon-Fri"
     ],
     "payment": [
@@ -2465,7 +2465,7 @@
     ],
     "shipping": [
       "UK next-day (order before 3:30pm Mon-Fri)",
-      "Free UK delivery over £100"
+      "Free UK delivery over \u00a3100"
     ],
     "payment": [
       "Cards",
@@ -2548,20 +2548,20 @@
     "verified": true,
     "founded": 2014,
     "country": "UK",
-    "description": "UK research peptide supplier operating since 2014 with a 25-product catalog. Every lot is HPLC-tested by an accredited third-party lab and published online in a searchable COA library before listing. Same-day Royal Mail 24 dispatch from a UK warehouse (order before midday), free tracked UK delivery over £50, cold-chain packaging, and wholesale/lab accounts. For laboratory research use only.",
+    "description": "UK research peptide supplier operating since 2014 with a 25-product catalog. Every lot is HPLC-tested by an accredited third-party lab and published online in a searchable COA library before listing. Same-day Royal Mail 24 dispatch from a UK warehouse (order before midday), free tracked UK delivery over \u00a350, cold-chain packaging, and wholesale/lab accounts. For laboratory research use only.",
     "highlights": [
-      "Established 2014 — 10+ years in operation",
+      "Established 2014 \u2014 10+ years in operation",
       "Third-party HPLC tested, every batch",
       "Searchable public COA library",
       "99%+ HPLC purity",
       "Same-day UK dispatch (before midday)",
-      "Free tracked UK delivery over £50",
+      "Free tracked UK delivery over \u00a350",
       "Cold-chain packaging",
       "Wholesale / lab accounts"
     ],
     "shipping": [
       "UK same-day dispatch (Royal Mail 24, order before midday Mon-Fri)",
-      "Free UK tracked delivery over £50",
+      "Free UK tracked delivery over \u00a350",
       "Cold-chain packaging available"
     ],
     "payment": [
@@ -2598,18 +2598,18 @@
     "verified": true,
     "founded": 2026,
     "country": "UK",
-    "description": "UK-based research peptide supplier (PeptidesX Ltd, registered UK company) offering 21 high-purity compounds. Every product is independently tested at an ISO 17025 accredited UK laboratory using HPLC and LC-MS, with 99%+ purity and a batch-specific Certificate of Analysis (CoA) included with every order. Same-day dispatch on orders before 3PM with discreet, cold-chain packaging and free UK tracked shipping over £75.",
+    "description": "UK-based research peptide supplier (PeptidesX Ltd, registered UK company) offering 21 high-purity compounds. Every product is independently tested at an ISO 17025 accredited UK laboratory using HPLC and LC-MS, with 99%+ purity and a batch-specific Certificate of Analysis (CoA) included with every order. Same-day dispatch on orders before 3PM with discreet, cold-chain packaging and free UK tracked shipping over \u00a375.",
     "highlights": [
       "ISO 17025 accredited lab testing",
-      "HPLC + LC-MS verified — 99%+ purity",
+      "HPLC + LC-MS verified \u2014 99%+ purity",
       "Batch-specific CoA with every order",
       "Same-day dispatch (before 3PM)",
-      "Free UK tracked shipping over £75",
+      "Free UK tracked shipping over \u00a375",
       "Registered UK company (PeptidesX Ltd)"
     ],
     "shipping": [
-      "UK £3.95 (2-3 days, free over £75)",
-      "Europe £7.95 (3-5 days)"
+      "UK \u00a33.95 (2-3 days, free over \u00a375)",
+      "Europe \u00a37.95 (3-5 days)"
     ],
     "payment": [
       "Credit/Debit card",
@@ -2649,7 +2649,7 @@
     "highlights": [
       "Independently lab-tested every batch",
       "99% purity guaranteed",
-      "UK-based — Colchester, Essex",
+      "UK-based \u2014 Colchester, Essex",
       "Royal Mail Tracked 24 delivery",
       "Volume & bundle discounts (10-20% off)",
       "Trustpilot-verified reviews"
@@ -2691,18 +2691,18 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "UK-based research peptide supplier offering 22 lab-tested compounds for laboratory and scientific use only. Every batch is third-party HPLC tested with ≥99% purity guarantee and per-batch Certificate of Analysis documentation. Free UK shipping over £150, same-day dispatch, discreet laboratory-grade packaging and a full CoA library.",
+    "description": "UK-based research peptide supplier offering 22 lab-tested compounds for laboratory and scientific use only. Every batch is third-party HPLC tested with \u226599% purity guarantee and per-batch Certificate of Analysis documentation. Free UK shipping over \u00a3150, same-day dispatch, discreet laboratory-grade packaging and a full CoA library.",
     "highlights": [
       "Third-party lab tested (HPLC)",
-      "≥99% purity guaranteed",
+      "\u226599% purity guaranteed",
       "Per-batch COA documentation",
       "22-compound catalog",
-      "Free UK shipping over £150",
+      "Free UK shipping over \u00a3150",
       "Research use only",
       "CoA library"
     ],
     "shipping": [
-      "UK 2-5 business days (free over £150)",
+      "UK 2-5 business days (free over \u00a3150)",
       "International 5-10 business days"
     ],
     "payment": [
@@ -2746,7 +2746,7 @@
       "Competitive pricing"
     ],
     "shipping": [
-      "UK (free over £50)"
+      "UK (free over \u00a350)"
     ],
     "payment": [
       "Bank transfer",
@@ -2784,17 +2784,17 @@
     "verified": true,
     "founded": 2023,
     "country": "UK",
-    "description": "London-based research peptide supplier offering a catalog of lyophilized, HPLC-verified compounds at ≥99% purity. Every batch is batch-tested for identity and purity with per-batch COA documentation, cold-chain handling and smooth Stripe checkout. 4.8/5 from verified reviews.",
+    "description": "London-based research peptide supplier offering a catalog of lyophilized, HPLC-verified compounds at \u226599% purity. Every batch is batch-tested for identity and purity with per-batch COA documentation, cold-chain handling and smooth Stripe checkout. 4.8/5 from verified reviews.",
     "highlights": [
       "London-based",
-      "HPLC batch tested (≥99% purity)",
+      "HPLC batch tested (\u226599% purity)",
       "Per-batch COA documentation",
       "Cold-chain storage & handling",
       "Tracked UK delivery",
       "Verified 4.8/5 reviews"
     ],
     "shipping": [
-      "UK tracked (free over £250)",
+      "UK tracked (free over \u00a3250)",
       "Cold-chain handling"
     ],
     "payment": [
@@ -2807,19 +2807,20 @@
     "_autoChecks": {
       "live": true,
       "coa": true,
-      "ruo": false,
+      "ruo": true,
       "reviews": false,
-      "shipping": false,
-      "contact": false,
-      "productPageFetched": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
       "evidence": {
-        "coa": "hplc",
-        "ruo": null,
+        "coa": "hplc (static head meta)",
+        "ruo": "FOR RESEARCH PURPOSES ONLY \u2014 NOT FOR HUMAN CONSUMPTION (rendered SPA)",
         "reviews": null,
-        "shipping": null,
-        "contact": null
+        "shipping": "FREE SHIPPING \u20ac292.50+ / UK tracked (free over \u00a3250) (rendered SPA)",
+        "contact": "Contact nav button + Telegram/WhatsApp support links (rendered SPA)"
       },
-      "checkedAt": "2026-08-25T00:44:25.240Z"
+      "checkedAt": "2026-08-25T00:00:00.000Z",
+      "spaJsRendered": true
     }
   }
 ]
