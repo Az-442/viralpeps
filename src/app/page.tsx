@@ -611,10 +611,15 @@ export default function Home() {
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[76rem] mx-auto">
     {guides.filter(g => g.category !== "Guide").slice(-3).reverse().map((article) => (
-      <Link key={article.slug} href="/research" className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
-        {/* Photo-ready area — replace gradient with <img> when photorealistic images are available */}
-        <div className="aspect-[16/9] bg-gradient-to-br from-indigo-100 via-blue-50 to-emerald-100 flex items-center justify-center">
-          <svg className="w-10 h-10 text-indigo-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M21 15l-5-5L5 21" /></svg>
+      <Link key={article.slug} href={`/research/${article.slug}`} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-shadow group">
+        <div className="aspect-[16/9] bg-gradient-to-br from-indigo-100 via-blue-50 to-emerald-100 overflow-hidden">
+          {article.image ? (
+            <img src={`/images/guides/${article.image}.png`} alt={article.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center">
+              <svg className="w-10 h-10 text-indigo-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M21 15l-5-5L5 21" /></svg>
+            </div>
+          )}
         </div>
         <div className="p-5">
           <div className="flex items-center gap-2 mb-2">
