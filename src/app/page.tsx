@@ -205,58 +205,77 @@ export default function Home() {
  <div className="min-h-screen bg-white">
  <HeaderNav />
 
- {/* 1. HERO */}
- <section className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] py-16">
- <div className="max-w-[76rem] mx-auto px-4 text-center">
- <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-3 py-1 mb-5">
- <svg width="10" height="10" viewBox="0 0 24 24" fill="#22c55e"><circle cx="12" cy="12" r="10" /></svg>
- <span className="text-[11px] font-bold text-white uppercase tracking-wider">LIVE UK PRICE COMPARISON</span>
- </div>
- <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 leading-tight">
-             Find the best <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">peptide deals today</span>
-           </h1>
- <p className="text-gray-300 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
-   Compare live prices on <strong className="text-white">{totalCompounds}+ peptides</strong> from{" "}
-   <strong className="text-white">{totalVendors}+ trusted UK suppliers</strong>{" "}
-   &mdash; updated daily, completely independent, always free.
- </p>
- {/* TrustScore badge */}
- <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-   <Link
-     href="/trust-score"
-     className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white rounded-full pl-2 pr-4 py-1.5 transition-colors"
-   >
-     <TrustScoreIcon className="w-8 h-8" />
-     <span className="text-xs md:text-sm font-semibold">Every supplier scored by TrustScore</span>
-     <span className="text-white/60">&rarr;</span>
-   </Link>
- </div>
- <div className="max-w-xl mx-auto"><SearchBar /></div>
- <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
- <span className="text-[11px] text-gray-300 font-semibold uppercase tracking-wider">Popular:</span>
- {compounds.slice(0, 4).map((c) => (
- <Link key={c.id} href={`/compounds/${c.slug}`} className="text-xs px-3 py-1.5 bg-white/8 rounded-full text-gray-300 hover:bg-blue-500/20 hover:text-blue-400 transition-colors">{c.name}</Link>
- ))}
- </div>
- </div>
+ {/* 1. HERO — approved split layout: light hero left, TrustScore panel right */}
+ <section className="bg-[#f8fafc] border-b border-gray-200">
+   <div className="max-w-[76rem] mx-auto px-4 py-14 md:py-16 grid grid-cols-1 md:grid-cols-[1.15fr_0.85fr] gap-10 items-center">
+     {/* Left: headline + search + popular */}
+     <div>
+       <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-5 border border-emerald-200 bg-emerald-50">
+         <span className="w-2 h-2 rounded-full bg-emerald-500" aria-hidden="true" />
+         <span className="text-[11px] font-bold text-emerald-700 uppercase tracking-wider">Live UK Price Comparison</span>
+       </div>
+       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+         Find the best <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">peptide deals</span> in seconds
+       </h1>
+       <p className="text-gray-600 text-base mb-7 max-w-xl leading-relaxed">
+         Compare live prices on <strong className="text-gray-900">{totalCompounds}+ peptides</strong> from{" "}
+         <strong className="text-gray-900">{totalVendors}+ trusted, verified UK suppliers</strong>{" "}
+         &mdash; updated daily, completely independent, always free.
+       </p>
+       <div className="max-w-xl"><SearchBar /></div>
+       <div className="flex flex-wrap items-center gap-2 mt-5">
+         <span className="text-[11px] text-gray-400 font-semibold uppercase tracking-wider">Popular:</span>
+         {compounds.slice(0, 4).map((c) => (
+           <Link key={c.id} href={`/compounds/${c.slug}`} className="text-xs px-3 py-1.5 bg-white border border-gray-200 rounded-full text-gray-600 hover:border-blue-500 hover:text-blue-600 transition-colors">{c.name}</Link>
+         ))}
+       </div>
+     </div>
+
+     {/* Right: TrustScore panel (no emoji, existing TrustScoreIcon) */}
+     <div className="rounded-2xl p-7 text-white bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] shadow-2xl">
+       <div className="flex items-center gap-3 mb-5">
+         <TrustScoreIcon className="w-11 h-11" />
+         <div>
+           <h3 className="text-lg font-bold mb-0.5">Every supplier scored</h3>
+           <p className="text-sm text-slate-400">Independent TrustScore out of 100</p>
+         </div>
+       </div>
+       <div className="grid grid-cols-2 gap-3 mb-5">
+         <div className="bg-white/5 border border-white/10 rounded-lg p-3"><div className="text-xl font-extrabold">{totalCompounds}+</div><div className="text-[11px] text-slate-400 uppercase tracking-wider pt-0.5">Peptides tracked</div></div>
+         <div className="bg-white/5 border border-white/10 rounded-lg p-3"><div className="text-xl font-extrabold">{totalVendors}+</div><div className="text-[11px] text-slate-400 uppercase tracking-wider pt-0.5">Verified suppliers</div></div>
+         <div className="bg-white/5 border border-white/10 rounded-lg p-3"><div className="text-xl font-extrabold">Daily</div><div className="text-[11px] text-slate-400 uppercase tracking-wider pt-0.5">Prices refreshed</div></div>
+         <div className="bg-white/5 border border-white/10 rounded-lg p-3"><div className="text-xl font-extrabold">100%</div><div className="text-[11px] text-slate-400 uppercase tracking-wider pt-0.5">Independent</div></div>
+       </div>
+       <div className="flex items-center justify-between border-t border-white/10 pt-4">
+         <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-200">
+           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#4ade80" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+           No commissions
+         </span>
+         <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-200">
+           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#4ade80" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+           No paid rankings
+         </span>
+       </div>
+     </div>
+   </div>
  </section>
 
- {/* 2. TRUST STRIP */}
+ {/* 2. TRUST STRIP (kept, existing) */}
  <section className="bg-white py-5">
- <div className="max-w-[76rem] mx-auto px-4 flex items-center justify-center gap-8">
- <div className="flex items-center gap-2">
- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
- <span className="text-sm text-black">Independent &amp; unbiased</span>
- </div>
- <div className="flex items-center gap-2">
- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
- <span className="text-sm text-black">Prices updated daily</span>
- </div>
- <div className="flex items-center gap-2">
- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9333ea" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" /><circle cx="12" cy="12" r="5" /></svg>
- <span className="text-sm text-black">No hidden fees</span>
- </div>
- </div>
+   <div className="max-w-[76rem] mx-auto px-4 flex items-center justify-center gap-8">
+     <div className="flex items-center gap-2">
+       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
+       <span className="text-sm text-black">Independent &amp; unbiased</span>
+     </div>
+     <div className="flex items-center gap-2">
+       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+       <span className="text-sm text-black">Prices updated daily</span>
+     </div>
+     <div className="flex items-center gap-2">
+       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9333ea" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" /><circle cx="12" cy="12" r="5" /></svg>
+       <span className="text-sm text-black">No hidden fees</span>
+     </div>
+   </div>
  </section>
 
  {/* 3. TRENDING RIGHT NOW — reference site card format */}
