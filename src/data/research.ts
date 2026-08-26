@@ -1087,6 +1087,17 @@ export const guides: ResearchArticle[] = [
   minutes: 12,
   tags: ['sermorelin', 'grf-1-29', 'ghrh', 'muscle-growth', 'lean-mass', 'gh', 'igf-1', 'goals'],
 },
+{
+  title: 'Ipamorelin for Muscle Growth: The Selective GH Secretagogue',
+  desc: 'A dedicated goal article on ipamorelin for lean-mass research - how GHS-R1a (ghrelin-receptor) agonism drives clean, pulsatile GH and downstream IGF-1 to support muscle growth without the cortisol or prolactin noise of the older GHRPs. Dosing, evidence, comparison to CJC-1295 and sermorelin, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Ipamorelin',
+  slug: 'ipamorelin-for-muscle-growth',
+  image: 'ipamorelin-for-muscle-growth',
+  minutes: 12,
+  tags: ['ipamorelin', 'gh-secretagogue', 'ghs-r1a', 'ghrelin', 'muscle-growth', 'lean-mass', 'gh', 'igf-1', 'goals'],
+},
 
 ];
 
