@@ -1099,6 +1099,17 @@ export const guides: ResearchArticle[] = [
   tags: ['ipamorelin', 'gh-secretagogue', 'ghs-r1a', 'ghrelin', 'muscle-growth', 'lean-mass', 'gh', 'igf-1', 'goals'],
 },
 
+{
+  title: 'PT-141 for Men: A Central Melanocortin Approach to Male Sexual-Function Research',
+  desc: 'A dedicated goal article on PT-141 (bremelanotide) for male sexual-function research \u2014 how MC3R/MC4R activation drives arousal and erectile response from the brain rather than the peripheral nitric-oxide pathway. Dosing, evidence, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'PT-141',
+  slug: 'pt141-for-men',
+  image: 'pt141-for-men',
+  minutes: 11,
+  tags: ['pt-141', 'bremelanotide', 'melanocortin', 'mc3r', 'mc4r', 'sexual-function', 'goals'],
+},
 ];
 
 export const compoundList: string[] = [

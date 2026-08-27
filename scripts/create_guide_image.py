@@ -7,15 +7,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "SERMORELIN"
-VIAL_PATH = "public/images/compounds/sermorelin-vial.png"
-OUTPUT_PATH = "public/images/guides/sermorelin-for-muscle-growth.png"
+COMPOUND = "PT-141"
+VIAL_PATH = "public/images/compounds/pt-141-vial.png"
+OUTPUT_PATH = "public/images/guides/pt141-for-men.png"
 DESCRIPTION_LINES = [
-    "The GHRH analog that drives lean",
-    "mass, not fat - amplifying your own",
-    "pulsatile GH and IGF-1 to support",
-    "muscle growth while preserving",
-    "natural feedback control.",
+    "A central melanocortin approach to",
+    "male sexual-function research - MC3R",
+    "and MC4R arousal signalling from the",
+    "brain, not the peripheral NO pathway.",
 ]
 # ==================================================
 

@@ -8519,5 +8519,86 @@ const content: Record<string, ResearchPageContent> = {
     'Rudman D, Feller AG, Nagraj HS, et al. Effects of human growth hormone in men over 60 years old. N Engl J Med. 1990;323(1):1-6. PMID: 2355952.',
   ],
 }
+,
+
+'pt141-for-men': {
+  slug: 'pt141-for-men',
+  compoundSlug: 'pt-141-bremelanotide',
+  pullQuote: 'PT-141 (bremelanotide) is a melanocortin-based approach to sexual arousal that works in the brain \u2014 activating MC3R and MC4R pathways tied to desire and erectile response rather than the nitric-oxide signalling targeted by conventional agents.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'PT-141 (Bremelanotide)' },
+    { label: 'Classification', value: 'Synthetic cyclic heptapeptide melanocortin receptor agonist' },
+    { label: 'CAS Number', value: '189691-06-3' },
+    { label: 'Molecular Weight', value: '~1024-1025 g/mol' },
+    { label: 'Sequence', value: 'Ac-Nle-c[Asp-His-D-Phe-Arg-Trp-Lys]-NH2' },
+    { label: 'Primary Targets', value: 'MC3R and MC4R (central melanocortin receptors)' },
+    { label: 'Half-Life', value: '30-60 minutes (per on-demand research protocol)' },
+    { label: 'Regulatory Status', value: 'FDA-approved for HSDD in women (Vyleesi); research-only in men' },
+    { label: 'Typical Research Dose', value: '0.75-1.75 mg subcutaneous, on demand' },
+    { label: 'Evidence Strength', value: 'Clinical in women (RECONNECT); preclinical in males' },
+  ],
+  sections: [
+    {
+      title: 'Sexual Arousal From the Brain Down, Not the Periphery Up',
+      body: 'Most compounds explored for sexual function act at the level of the blood vessel \u2014 on the nitric-oxide / cGMP pathway that controls blood flow into erectile tissue. PT-141 takes the opposite route. It is a synthetic cyclic heptapeptide analogue of alpha-melanocyte-stimulating hormone (alpha-MSH) that works centrally, in the hypothalamus and limbic regions of the brain, where it activates the melanocortin receptors MC3R and MC4R that modulate desire, motivation, and the erectile response.\n\nBremelanotide (PT-141) was developed from Melanotan II, but engineered to minimise the skin-pigmentation (MC1R) activity of its parent while retaining the sexual-arousal signalling. It is the payload behind Vyleesi, the FDA-approved treatment for hypoactive sexual desire disorder (HSDD) in premenopausal women, and as such is one of the few centrally-acting arousal peptides with a real clinical evidence base.\n\nThis guide examines PT-141 specifically through the lens of male sexual-function research \u2014 the central pathways that drive the response, the evidence behind it, how it is dosed in UK research protocols, and how it compares with peripheral options.\n\n[**Compare PT-141 prices from UK suppliers \u2192**](/compounds/pt-141-bremelanotide)',
+      subsections: [
+        { title: 'Why the Central Mechanism Matters for Men', body: 'Because requirement for arousal is not purely vascular, a centrally-acting agonist can modulate the motivation and reward components as well as the downstream erectile response. MC4R and MC3R are expressed in hypothalamic nuclei closely associated with sexual behaviour, giving PT-141 a mechanism that peripheral agents cannot touch.' },
+        { title: 'Distinct From Nitric-Oxide Pathways', body: 'PT-141 operates independently of the nitric-oxide / cGMP / PDE5 axis. Erectile function can be maintained in research models through central melanocortin signalling even where vascular-dependent mechanisms are impaired \u2014 a key reason it is studied as a non-overlapping adjunct.' },
+        { title: 'Minimal Pigmentation Crossover', body: 'Unlike Melanotan II, PT-141 has been designed to limit MC1R-driven melanogenesis, so skin-darkening is not the primary observed effect at research doses. Its selectivity sits on the arousal pathway rather than the tanning pathway.' },
+      ],
+    },
+    {
+      title: 'How PT-141 Drives the Response: The Mechanisms',
+      body: 'PT-141 targets the melanocortin system, a family of G-protein-coupled receptors named for their role in pigmentation (MC1R), energy balance (MC3R, MC4R), and other central processes. For sexual-function research the relevant targets are MC3R and MC4R.',
+      subsections: [
+        { title: '1. MC4R Activation in the Hypothalamus', body: 'MC4R is expressed in the paraventricular nucleus of the hypothalamus. Its activation triggers G-protein-coupled signalling through adenylate cyclase and downstream cAMP effectors, modulating the central circuits that govern the erectile response and sexual motivation. Genetic models confirm the receptor is required: MC4R-knockout animals show marked impairment in sexual function.' },
+        { title: '2. MC3R and Reward / Motivation', body: 'MC3R, expressed in the arcuate nucleus and ventromedial hypothalamus, is associated with the motivational and reward components of sexual behaviour. By engaging MC3R alongside MC4R, PT-141 addresses not just the physical response but the drive to initiate sexual activity.' },
+        { title: '3. Hypothalamic Circuitry and Brain Imaging', body: 'Functional imaging studies map discrete hypothalamic nuclei that light up following PT-141 administration, confirming the compound acts on the central melanocortin arousal pathway rather than on peripheral vascular smooth muscle.' },
+        { title: '4. No Direct Vascular Vasodilation', body: 'Because its primary action is central rather than vasodilatory, PT-141 does not drive the same nitrergic cascade as PDE5 inhibitors. This is the basis for research into combined or alternative protocols where a peripheral agent alone is insufficient.' },
+      ],
+    },
+    {
+      title: 'Where the Evidence Stands',
+      body: 'The evidence base for PT-141 is strongest in female sexual dysfunction \u2014 where it is FDA-approved \u2014 but the underlying melanocortin pharmacology, and the animal models for male erectile function, are well characterised and directly relevant to male-focused research.',
+      subsections: [
+        { title: 'MC4R and Male Sexual Function', body: 'Van der Ploeg LHT, et al. demonstrated that MC4R is required for normal erectile function in male mouse models, with MC4R knockout producing marked impairment \u2014 establishing the receptor as the central substrate for PT-141-like effects in males (PMID: 12672588).' },
+        { title: 'Preclinical Male Arousal Behaviour', body: 'Pfaus JG, et al. showed a melanocortin receptor agonist selectively facilitates sexual solicitation and mount behaviour in male experimental models, strengthening the case that central MC activation drives male sexual response (PMID: 14726972).' },
+        { title: 'Human Clinical Data', body: 'Diamond LE, et al. reported the phase II clinical data for bremelanotide, showing statistically significant improvements in arousal parameters versus placebo (PMID: 15735664). Though the registered indication is female HSDD, the trial data establish the safety and efficacy of the central mechanism in humans.' },
+        { title: 'Melanocortins and Sexual Behaviour', body: 'Shadiack AM, et al. reviewed the role of melanocortins in female sexual behaviour and the development of bremelanotide, providing a consolidated pharmacology summary of the pathway (PMID: 16753011).' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols',
+      body: 'Typical research protocols for PT-141 use 0.75-1.75 mg by subcutaneous injection on an on-demand basis, reflecting the compound\u2019s short half-life and desire-focused action. Reconstitution: a 10 mg vial + 1 mL bacteriostatic water gives 10 mg/mL; 1 mg equals 10 units on a standard insulin syringe.\n\nBecause PT-141 acts rapidly and its effect is time-limited, it is generally studied as an as-needed protocol rather than a continuous daily cycle. Doses at the lower end (0.75-1 mg) are used for initial characterisation, with some research protocols exploring up to 1.75 mg. Begin conservatively and adjust only within your institution\u2019s approved research framework.\n\n[**Find the best PT-141 prices \u2192**](/compounds/pt-141-bremelanotide)\n[**Related: PT-141 vs Melanotan II \u2192**](/research/pt141-vs-melanotan2)',
+    },
+    {
+      title: 'How It Compares to Other Approaches',
+      body: 'PT-141 occupies a distinct niche because it acts centrally where most other options act peripherally.',
+      subsections: [
+        { title: 'vs PDE5 Inhibitors', body: 'PDE5 inhibitors (sildenafil, tadalafil) enhance blood flow via the nitric-oxide pathway. PT-141 works upstream in the brain. Because the mechanisms do not overlap, PT-141 is researched as a potential adjunct or alternative where vascular-only approaches are incomplete.' },
+        { title: 'vs Melanotan II', body: 'Both are melanocortin agonists, but Melanotan II carries strong MC1R-driven pigmentation activity. PT-141 was engineered to minimise that crossover and concentrate on MC3R/MC4R arousal signalling. [**Compare PT-141 vs Melanotan II \u2192**](/research/pt141-vs-melanotan2)' },
+        { title: 'vs Oxytocin', body: 'Oxytocin is a peptide hormone explored for bonding and intimacy-related arousal. PT-141 acts through melanocortin receptors rather than the oxytocinergic system, though the two pathways are linked downstream. [**Compare Oxytocin vs PT-141 \u2192**](/research/oxytocin-vs-pt141)' },
+      ],
+    },
+    {
+      title: 'Safety Profile',
+      body: 'PT-141 has a tolerated safety profile in human clinical trials. Commonly reported observations include transient facial flushing, mild nausea, transient blood-pressure changes, and, at higher doses, headache. Its short half-life limits the duration of effects. Because of potential blood-pressure effects, individuals with uncontrolled hypertension or cardiovascular disease should exercise particular caution, and the compound should never be combined with MAO inhibitors or other contraindicated agents.\n\nAs with all research peptides, PT-141 is not approved by the MHRA, FDA, or EMA for male therapeutic use and is intended strictly for laboratory and research-purposes only. Standard aseptic handling, proper reconstitution, and cold, light-protected storage apply.',
+    },
+  ],
+  faq: [
+    { question: 'What is PT-141 used for in male research?', answer: 'PT-141 is researched as a centrally-acting melanocortin (MC3R/MC4R) agonist for sexual arousal, motivation, and erectile-response studies. It is one of the few arousal peptides that acts in the brain rather than on the vascular nitric-oxide pathway. [**Compare PT-141 prices \u2192**](/compounds/pt-141-bremelanotide)' },
+    { question: 'How is PT-141 different from taking a PDE5 inhibitor?', answer: 'PDE5 inhibitors act peripherally by enhancing blood flow via the nitric-oxide/cGMP pathway. PT-141 works centrally in the hypothalamus on melanocortin receptors. The two mechanisms do not overlap, so PT-141 is explored as an adjunct or alternative where vascular-only approaches fall short.' },
+    { question: 'Does PT-141 cause skin pigmentation like Melanotan II?', answer: 'PT-141 was engineered to minimise MC1R activity, so skin-darkening is far less prominent than with Melanotan II. Its selectivity is concentrated on the MC3R/MC4R arousal pathway rather than the tanning pathway.' },
+    { question: 'What is the typical PT-141 research dosage?', answer: '0.75-1.75 mg by subcutaneous injection on an on-demand basis. A 10 mg vial + 1 mL bacteriostatic water yields 10 mg/mL (1 mg = 10 units). Start at the lower end and adjust within an approved research framework.' },
+    { question: 'Is PT-141 approved for human use in men?', answer: 'No. Bremelanotide (Vyleesi) is FDA-approved only for hypoactive sexual desire disorder (HSDD) in premenopausal women. It is not approved for male therapeutic use and is supplied for research purposes only.' },
+  ],
+  references: [
+    'Van der Ploeg LHT, et al. A role for the melanocortin 4 receptor in sexual function. Proc Natl Acad Sci USA. 2002. PMID: 12672588.',
+    'Pfaus JG, et al. Selective facilitation of sexual solicitation in the female rat by a melanocortin receptor agonist. Proc Natl Acad Sci USA. 2004. PMID: 14726972.',
+    'Diamond LE, et al. Bremelanotide phase II study. J Sex Med. 2005. PMID: 15735664.',
+    'Shadiack AM, et al. Melanocortins and female sexual behaviour. Peptides. 2006. PMID: 16753011.',
+    'Wikberg JES, et al. Melanocortin receptors: perspectives for drug development. Expert Opin Ther Pat. 2000.',
+  ],
+}
 };
 export default content;
