@@ -7,14 +7,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "PT-141"
-VIAL_PATH = "public/images/compounds/pt-141-vial.png"
-OUTPUT_PATH = "public/images/guides/pt141-for-men.png"
+COMPOUND = "CJC-1295"
+VIAL_PATH = "public/images/compounds/cjc-1295-vial.png"
+OUTPUT_PATH = "public/images/guides/cjc-1295-for-muscle-growth.png"
 DESCRIPTION_LINES = [
-    "A central melanocortin approach to",
-    "male sexual-function research - MC3R",
-    "and MC4R arousal signalling from the",
-    "brain, not the peripheral NO pathway.",
+    "A GHRH-analog path to muscle growth -",
+    "amplifying your own pulsatile GH and",
+    "IGF-1 with the longer-acting member of",
+    "the growth-hormone-releasing family.",
 ]
 # ==================================================
 

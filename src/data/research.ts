@@ -1110,6 +1110,17 @@ export const guides: ResearchArticle[] = [
   minutes: 11,
   tags: ['pt-141', 'bremelanotide', 'melanocortin', 'mc3r', 'mc4r', 'sexual-function', 'goals'],
 },
+{
+  title: 'CJC-1295 for Muscle Growth: The Long-Acting GHRH Analog for Your Own Anabolic Axis',
+  desc: 'A dedicated goal article on CJC-1295 for lean-mass research — how its modified GHRH(1-29) backbone plus Drug Affinity Complex (DAC) albumin anchor sustains your own pulsatile GH and downstream IGF-1 for days from a single dose, without injecting exogenous growth hormone. Dosing, evidence, comparison to sermorelin and ipamorelin, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'CJC-1295',
+  slug: 'cjc-1295-for-muscle-growth',
+  image: 'cjc-1295-for-muscle-growth',
+  minutes: 12,
+  tags: ['cjc-1295', 'ghrh', 'dac', 'muscle-growth', 'lean-mass', 'gh', 'igf-1', 'goals'],
+},
 ];
 
 export const compoundList: string[] = [
