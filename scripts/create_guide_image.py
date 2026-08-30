@@ -7,16 +7,17 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "CJC-1295"
-VIAL_PATH = "public/images/compounds/cjc-1295-vial.png"
-OUTPUT_PATH = "public/images/guides/cjc-1295-for-muscle-growth.png"
+COMPOUND = "BPC-157"
+VIAL_PATH = "public/images/compounds/bpc-157-vial.png"
+OUTPUT_PATH = "public/images/guides/bpc-157-for-recovery.png"
 DESCRIPTION_LINES = [
-    "A GHRH-analog path to muscle growth -",
-    "amplifying your own pulsatile GH and",
-    "IGF-1 with the longer-acting member of",
-    "the growth-hormone-releasing family.",
+    "Number 14 in the 20-article goal series -",
+    "BPC-157 as the tissue-repair and recovery",
+    "peptide. Angiogenesis, collagen remodelling,",
+    "and nitric-oxide-driven healing for the",
+    "goal of faster, better recovery.",
 ]
-# ==================================================
+# ===================== CONFIG =====================
 
 font_dir = "/System/Library/Fonts"
 helvetica = os.path.join(font_dir, "Helvetica.ttc")

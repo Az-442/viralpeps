@@ -1121,6 +1121,17 @@ export const guides: ResearchArticle[] = [
   minutes: 12,
   tags: ['cjc-1295', 'ghrh', 'dac', 'muscle-growth', 'lean-mass', 'gh', 'igf-1', 'goals'],
 },
+{
+  title: 'BPC-157 for Recovery: The Tissue-Repair Peptide at the Heart of Faster Healing',
+  desc: 'A dedicated goal article on BPC-157 for recovery — how this gastric pentadecapeptide drives angiogenesis, organised collagen remodelling, and nitric-oxide-mediated blood flow to move injured tissue from breakdown into repair. Mechanism, evidence from the preclinical literature, dosing protocol, comparison to TB-500 and alternatives, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'BPC-157',
+  slug: 'bpc-157-for-recovery',
+  image: 'bpc-157-for-recovery',
+  minutes: 12,
+  tags: ['bpc-157', 'recovery', 'tissue-repair', 'angiogenesis', 'tendon', 'collagen', 'wellbeing', 'goals'],
+},
 ];
 
 export const compoundList: string[] = [
