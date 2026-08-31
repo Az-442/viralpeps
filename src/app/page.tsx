@@ -714,7 +714,37 @@ export default function Home() {
  <div className="max-w-xl mx-auto px-4 text-center">
  <h2 className="text-2xl font-bold text-white mb-2">Get Peptide Price-drop Alerts</h2>
  <p className="text-blue-100 text-sm mb-6">Be the first to know about new compounds, price drops, and supplier updates.</p>
- <form className="flex gap-2 max-w-sm mx-auto">
+ <form
+ className="flex gap-2 max-w-sm mx-auto"
+ onSubmit={async (e) => {
+   e.preventDefault();
+   const form = e.currentTarget;
+   const input = form.querySelector("input") as HTMLInputElement;
+   const btn = form.querySelector("button") as HTMLButtonElement;
+   const val = input.value.trim();
+   if (!val) return;
+   btn.disabled = true;
+   btn.textContent = "Sending...";
+   try {
+     const res = await fetch("/api/subscribe", {
+       method: "POST",
+       headers: { "Content-Type": "application/json" },
+       body: JSON.stringify({ email: val }),
+     });
+     const data = await res.json();
+     if (data.ok) {
+       input.value = "";
+       btn.textContent = "Subscribed!";
+     } else {
+       btn.textContent = "Error";
+     }
+   } catch {
+     btn.textContent = "Error";
+   }
+   btn.disabled = false;
+   setTimeout(() => (btn.textContent = "Subscribe"), 3000);
+ }}
+ >
  <input type="email" placeholder="Enter your email" className="flex-1 px-4 py-3 rounded-lg text-sm text-gray-900 outline-none placeholder-gray-400" />
  <button className="px-6 py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-gray-800 transition-colors">Subscribe</button>
  </form>
