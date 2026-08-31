@@ -25,6 +25,7 @@ export default function VendorRegisterPage() {
   const [description, setDescription] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const toggleCategory = (cat: string) => {
     setSelectedCategories((prev) =>
@@ -34,10 +35,31 @@ export default function VendorRegisterPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError("");
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1200));
-    setLoading(false);
-    setSubmitted(true);
+    try {
+      const res = await fetch("/api/vendors/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          businessName,
+          website,
+          email,
+          country,
+          categories: selectedCategories,
+          description,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data?.error || "Submission failed");
+      }
+      setLoading(false);
+      setSubmitted(true);
+    } catch (err) {
+      setLoading(false);
+      setError(err instanceof Error ? err.message : "Could not submit. Please try again.");
+    }
   };
 
   if (submitted) {
@@ -219,6 +241,12 @@ export default function VendorRegisterPage() {
               </div>
             </div>
           </div>
+          {error && (
+            <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-sm">
+              <p className="font-semibold text-red-700">Submission failed</p>
+              <p className="text-red-600 mt-1">{error}</p>
+            </div>
+          )}
           <button type="submit" disabled={loading}
             className="w-full py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg text-sm font-bold hover:from-blue-700 hover:to-purple-700 disabled:opacity-60 transition">
             {loading ? "Submitting..." : "Submit Registration"}
