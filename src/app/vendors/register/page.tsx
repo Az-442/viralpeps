@@ -38,21 +38,19 @@ export default function VendorRegisterPage() {
     setError("");
     setLoading(true);
     try {
-      const res = await fetch("/api/vendors/register", {
+      const formData = new FormData();
+      formData.append("Business name", businessName);
+      formData.append("Website", website);
+      formData.append("Contact email", email);
+      formData.append("Country", country);
+      formData.append("Categories", selectedCategories.join(", "));
+      formData.append("Description", description);
+      const res = await fetch("https://formsubmit.co/info@viralpeps.co.uk", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          businessName,
-          website,
-          email,
-          country,
-          categories: selectedCategories,
-          description,
-        }),
+        body: formData,
       });
-      const data = await res.json();
       if (!res.ok) {
-        throw new Error(data?.error || "Submission failed");
+        throw new Error("Submission failed");
       }
       setLoading(false);
       setSubmitted(true);
