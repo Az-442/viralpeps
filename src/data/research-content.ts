@@ -8751,6 +8751,81 @@ slug: 'bpc-157-for-recovery',
     'Huff T, Muller CSG, Otto AM, Netzker R, Hannappel E. Beta-thymosins and cell migration. Int J Biochem Cell Biol. 2001;33(3):205-220. PMID: 11554685.',
     'Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta4: actin-sequestering protein moonlights to repair injured tissues. Trends Mol Med. 2005;11(9):421-429. PMID: 16260195.',
   ],
+},
+
+'semaglutide-for-weight-loss': {
+  slug: 'semaglutide-for-weight-loss',
+  compoundSlug: 'semaglutide',
+  pullQuote: 'Semaglutide was the first GLP-1 receptor agonist to push mean weight loss past 10% in a phase 3 obesity trial — a selective, once-weekly compound whose albumin-bound delivery makes it the most thoroughly documented weight-loss peptide ever studied.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Semaglutide (Ozempic / Wegovy)' },
+    { label: 'Classification', value: 'Selective GLP-1 receptor agonist' },
+    { label: 'CAS Number', value: '910463-68-2' },
+    { label: 'Molecular Weight', value: '4113.6 g/mol (31 amino acids)' },
+    { label: 'Half-Life', value: '~7 days (once-weekly dosing)' },
+    { label: 'Key Modification', value: 'C18 fatty-diacid (octadecanedioic acid) conjugated via a glutamic-acid spacer to Lys26 — ~99% albumin binding' },
+    { label: 'Primary Weight-Loss Mechanism', value: 'GLP-1R agonism: glucose-dependent insulin, glucagon suppression, slowed gastric emptying, central appetite reduction' },
+    { label: 'STEP-1 Weight Loss', value: '14.9% mean body weight at 68 weeks (2.4 mg weekly)' },
+    { label: 'SELECT CV Risk Reduction', value: '20% relative reduction in MACE (major adverse cardiovascular events)' },
+    { label: 'Evidence Strength', value: 'Strong - phase 3 STEP programme, large CV outcome study, most comprehensive GLP-1 safety dataset' },
+  ],
+  sections: [
+    {
+      title: 'Weight Loss, Redefined by a Selective Agonist',
+      body: 'Before semaglutide, the most a licensed weight-loss medication had produced in a phase 3 trial was roughly 5-9% mean reduction in body weight. Semaglutide 2.4 mg once weekly changed that overnight. In the STEP-1 trial it delivered a mean 14.9% reduction in body weight at 68 weeks — a magnitude previously associated with bariatric surgery rather than pharmacology. That single result reframed what researchers expect a GLP-1 agonist to achieve.\n\nSemaglutide is a synthetic 31-amino-acid analogue of human glucagon-like peptide-1 (GLP-1), sharing 94% sequence homology with the native incretin. Two engineering modifications set it apart from earlier GLP-1 receptor agonists. First, an aminoisobutyric acid (Aib) substitution at position 8 protects it from cleavage by dipeptidyl peptidase-4 (DPP-4), the enzyme that degrades native GLP-1 within two minutes. Second — and more importantly for weight loss — a C18 fatty diacid is conjugated via a glutamic-acid spacer to Lysine-26, enabling ~99% of circulating semaglutide to bind albumin. That albumin depot extends its half-life to roughly 7 days, permitting stable once-weekly dosing.\n\nThis guide examines semaglutide specifically through the lens of weight loss: the pathways behind its effect, the clinical evidence, dosing in research protocols, and how it compares to the newer dual and triple agonists.\n\n[**Compare Semaglutide prices from UK suppliers \u2192**](/compounds/semaglutide)',
+    },
+    {
+      title: 'How Semaglutide Drives Weight Loss: One Receptor, Multiple Levers',
+      body: 'Semaglutide is a deliberately selective compound — it targets the GLP-1 receptor and nothing else. What makes it powerful for weight loss is that a single receptor sits upstream of several independent mechanisms that each reduce calorie intake and shift energy balance.',
+      subsections: [
+        { title: 'Central Appetite Suppression', body: 'GLP-1 receptors in the arcuate nucleus and brainstem reward circuits reduce food intake directly. RCTs show semaglutide lowers subjective hunger, increases satiety and fullness, and reduces food cravings and the preference for high-fat, energy-dense foods. This central signal is the dominant driver of its weight-loss effect.' },
+        { title: 'Slowed Gastric Emptying', body: 'GLP-1 receptor activation delays gastric emptying, prolonging the sensation of fullness after a meal and flattening postprandial glucose excursions. This is most pronounced early in treatment and contributes meaningfully to portion reduction.' },
+        { title: 'Glucose-Dependent Insulin and Glucagon Suppression', body: 'Semaglutide amplifies insulin secretion only when glucose is elevated (glucose-dependent, so hypoglycaemia risk is low) and suppresses glucagon release. The metabolic consequences compound weight loss through improved glycaemic control and reduced foie cing energy storage.' },
+        { title: 'Lean-to-Fat Composition Ratio', body: 'Body-composition substudies indicate that roughly one-third to one-quarter of the weight lost on GLP-1 agonists comes from lean mass, with the remainder from fat mass. Semaglutide does not lose a disproportionate amount of muscle relative to diet-induced weight loss — a consideration for research protocols tracking composition alongside scale weight.' },
+      ],
+    },
+    {
+      title: 'Where the Weight-Loss Evidence Stands',
+      body: 'Semaglutide 2.4 mg has the most comprehensive evidence base of any incretin-based weight-loss peptide, anchored by the phase 3 STEP programme and a large cardiovascular outcomes study.',
+      subsections: [
+        { title: 'STEP 1 — The Landmark Obesity Trial', body: 'Wilding et al. (NEJM, 2021) randomised adults with obesity or overweight plus a comorbidity to 2.4 mg semaglutide or placebo weekly for 68 weeks alongside lifestyle intervention. Mean weight loss reached 14.9% with semaglutide versus 2.4% with placebo; 86.4% of participants lost at least 5% of baseline body weight, and 32.0% lost more than 20% (PMID: 33567185).' },
+        { title: 'STEP 2 — Weight Loss in Type 2 Diabetes', body: 'Davies et al. (Lancet, 2021) tested 2.4 mg weekly vs 1.0 mg and placebo in overweight or obese adults with type 2 diabetes. The 2.4 mg dose produced mean weight loss of 9.6% at 68 weeks, confirming meaningful efficacy even in a diabetes population where weight loss is typically more difficult (PMID: 33667417).' },
+        { title: 'STEP 3 — Combined With Intensive Behavioural Therapy', body: 'Wadden et al. (JAMA, 2021) added 2.4 mg semaglutide to intensive behavioural therapy with an initial low-calorie diet, reaching mean weight loss of 16.0% at 68 weeks versus 5.7% with behaviour therapy plus placebo — evidence that semaglutide compounds additively with structured lifestyle intervention (PMID: 33625476).' },
+        { title: 'SELECT — Cardiovascular Outcomes', body: 'Lincoff et al. (NEJM, 2023) enrolled 17,604 adults with established cardiovascular disease and overweight or obesity but without diabetes (NCT03574597). Over a median of ~39.8 months, semaglutide 2.4 mg reduced major adverse cardiovascular events by 20% relative to placebo, alongside ~9.4% mean weight loss — the first demonstration that a weight-loss peptide produces hard cardiovascular benefit in a non-diabetic population (PMID: 37952131).' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Weight Loss',
+      body: 'Semaglutide is administered once weekly via subcutaneous injection. Its ~7-day half-life — achieved through albumin binding of the C18 acyl chain — supports a stable single weekly dose with minimal peak-to-trough fluctuation.\n\nThe approved weight-management titration starts at 0.25 mg weekly for 4 weeks, then 0.5 mg for 4 weeks, 1.0 mg, then 1.7 mg, reaching the maintenance dose of 2.4 mg weekly from week 17. The STEP programme used this gradual escalation to attenuate gastrointestinal side effects; the full 2.4 mg maintenance dose produced the largest weight losses.\n\nAs with all research peptides, dosing should follow the published study protocols and be confined to legitimate laboratory research environments.\n\n[**Compare Semaglutide prices across UK suppliers \u2192**](/compounds/semaglutide)\n[**Related: Semaglutide vs Tirzepatide \u2192**](/research/semaglutide-vs-tirzepatide)\n[**Related: Retatrutide vs Semaglutide \u2192**](/research/retatrutide-vs-semaglutide)',
+    },
+    {
+      title: 'How It Compares to Other Weight-Loss Peptides',
+      body: 'Semaglutide is the established benchmark of the GLP-1 class, but the landscape has shifted with the arrival of dual and triple agonists.',
+      subsections: [
+        { title: 'vs Tirzepatide', body: 'Tirzepatide is a dual GIP/GLP-1 agonist reaching ~20-22.5% mean weight loss at high doses in SURMOUNT-1, exceeding semaglutide\u2019s 14.9%. The added GIP component potentiates insulin secretion and may improve fat partitioning and tolerability. [**Compare Semaglutide vs Tirzepatide \u2192**](/research/semaglutide-vs-tirzepatide)' },
+        { title: 'vs Retatrutide', body: 'Retatrutide is a triple GIP/GLP-1/glucagon agonist pushing weight loss past 24% by adding a thermogenic, fat-oxidising glucagon lever. It is earlier in development (phase 2 complete) than semaglutide\u2019s mature phase 3 dataset. [**Compare Retatrutide vs Semaglutide \u2192**](/research/retatrutide-vs-semaglutide)' },
+        { title: 'vs Tesamorelin and lipolytic fragments', body: 'Tesamorelin and AOD-9604 target visceral fat and adipocyte lipolysis without incretin pathways or central appetite effects. Semaglutide works systemically through appetite, insulin, and gastric emptying — a broader calorie-side approach, whereas the lipolytic agents act on mobilising already-stored fat.' },
+      ],
+    },
+    {
+      title: 'Safety Profile',
+      body: 'Semaglutide has the longest and largest safety dataset of any incretin-based weight-loss peptide, spanning the STEP programme, the SELECT cardiovascular outcomes study, and post-approval surveillance. Gastrointestinal adverse events — nausea, vomiting, diarrhoea, constipation — are the most common, are dose-dependent, and are worst during dose escalation. They are predominantly mild-to-moderate and typically subside as treatment continues; gradual titration and dietary adjustments mitigate them.\n\nThe SELECT trial reported numerically higher rates of gallstone-related adverse events with semaglutide, a known class effect of rapid weight loss. Pancreatitis risk is monitored but no clear causal signal has emerged at scale. A theoretical thyroid C-cell concern noted in rodent studies has not translated into a human signal in the completed CHC (chronic hypothyroid/calcitonin) monitoring to date.\n\nAs with all research peptides, semaglutide is not approved by the MHRA, FDA, or EMA for use outside regulated clinical settings when obtained as a research chemical, and it is intended strictly for laboratory purposes. Standard aseptic handling, proper reconstitution, and cold, light-protected storage apply.',
+    },
+  ],
+  faq: [
+    { question: 'How much weight can semaglutide produce in research settings?', answer: 'In STEP-1, 2.4 mg once weekly for 68 weeks produced a mean 14.9% body-weight reduction, with 86.4% of participants losing at least 5% of baseline weight and 32.0% losing more than 20%. Combined with intensive behavioural therapy (STEP-3) it reached 16.0%. [**Compare Semaglutide prices \u2192**](/compounds/semaglutide)' },
+    { question: 'What makes semaglutide better than older GLP-1 agonists for weight loss?', answer: 'Two modifications — the position-8 Aib substitution conferring DPP-4 resistance and a C18 fatty-diacid conjugated to Lys26 that binds ~99% to albumin — extend its half-life to ~7 days. This allows a stable once-weekly 2.4 mg dose whose sustained exposure drives far greater weight loss than earlier GLP-1 analogues.' },
+    { question: 'Does semaglutide cause muscle loss?', answer: 'Body-composition studies show that, as with diet-induced weight loss generally, a portion of the weight lost is lean mass. Semaglutide does not lose a disproportionate amount of muscle relative to its total weight-loss effect, and adequate protein and resistance training preserve lean mass.' },
+    { question: 'How is semaglutide dosed for weight loss?', answer: 'Once weekly via subcutaneous injection. The weight-management regimen titrates from 0.25 mg weekly, increasing in 4-week steps (0.5, 1.0, 1.7 mg) to a 2.4 mg maintenance dose. Its ~7-day half-life supports stable weekly dosing.' },
+    { question: 'Is semaglutide approved for weight loss?', answer: 'Yes — semaglutide 2.4 mg is approved as Wegovy for chronic weight management, and lower doses are approved as Ozempic for type 2 diabetes. Supplied as a research chemical for laboratory use, it is not approved for human self-administration.' },
+  ],
+  references: [
+    'Wilding JPH, Batterham RL, Calanna S, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384(11):989-1002. (STEP-1). PMID: 33567185.',
+    'Davies M, Færch L, Jeppesen OK, et al. Semaglutide 2.4 mg once a week in adults with overweight or obesity and type 2 diabetes (STEP 2): a randomised, double-blind, double-dummy, placebo-controlled, phase 3 trial. Lancet. 2021;397(10278):971-984. PMID: 33667417.',
+    'Wadden TA, Bailey TS, Billings LK, et al. Effect of Subcutaneous Semaglutide vs Placebo as an Adjunct to Intensive Behavioral Therapy on Body Weight in Adults With Overweight or Obesity (STEP 3) - A Randomized Clinical Trial. JAMA. 2021;325(14):1403-1413. PMID: 33625476.',
+    'Lincoff AM, Brown-Frandsen K, Colhoun HM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. N Engl J Med. 2023;389(24):2221-2232. (SELECT). PMID: 37952131.',
+    'ClinicalTrials.gov. SELECT: A Research Study to Investigate How Well Semaglutide Works in People Living With Overweight or Obesity and Heart Disease. NCT03574597.',
+  ],
 }
 
 };

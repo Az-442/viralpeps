@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "BPC-157"
-VIAL_PATH = "public/images/compounds/bpc-157-vial.png"
-OUTPUT_PATH = "public/images/guides/bpc-157-for-recovery.png"
+COMPOUND = "Semaglutide"
+VIAL_PATH = "public/images/compounds/semaglutide-vial.png"
+OUTPUT_PATH = "public/images/guides/semaglutide-for-weight-loss.png"
 DESCRIPTION_LINES = [
-    "Number 14 in the 20-article goal series -",
-    "BPC-157 as the tissue-repair and recovery",
-    "peptide. Angiogenesis, collagen remodelling,",
-    "and nitric-oxide-driven healing for the",
-    "goal of faster, better recovery.",
+    "Number 15 in the 20-article goal series -",
+    "semaglutide as the GLP-1 benchmark for",
+    "the goal of weight loss. 14.9% mean weight",
+    "loss in STEP-1, 20% fewer CV events in",
+    "SELECT, from a ~7-day albumin-bound dose.",
 ]
 # ===================== CONFIG =====================
 

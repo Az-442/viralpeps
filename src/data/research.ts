@@ -1132,6 +1132,17 @@ export const guides: ResearchArticle[] = [
   minutes: 12,
   tags: ['bpc-157', 'recovery', 'tissue-repair', 'angiogenesis', 'tendon', 'collagen', 'wellbeing', 'goals'],
 },
+{
+  title: 'Semaglutide for Weight Loss: The GLP-1 Benchmark That Changed Obesity Research',
+  desc: 'A dedicated goal article on semaglutide (Ozempic / Wegovy) for weight-loss research — how selective GLP-1 receptor agonism, delivered via an albumin-bound ~7-day half-life, drove 14.9% mean weight loss in STEP-1 and a 20% reduction in cardiovascular events in SELECT. Mechanism, STEP programme evidence, dosing, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Semaglutide',
+  slug: 'semaglutide-for-weight-loss',
+  image: 'semaglutide-for-weight-loss',
+  minutes: 13,
+  tags: ['semaglutide', 'glp-1', 'weight-loss', 'obesity', 'step-trial', 'select-trial', 'goals'],
+},
 ];
 
 export const compoundList: string[] = [
