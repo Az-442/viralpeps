@@ -45,12 +45,14 @@ export default function VendorRegisterPage() {
       formData.append("Country", country);
       formData.append("Categories", selectedCategories.join(", "));
       formData.append("Description", description);
-      const res = await fetch("https://formsubmit.co/info@viralpeps.co.uk", {
+      const res = await fetch("https://formsubmit.co/ajax/info@viralpeps.co.uk", {
         method: "POST",
+        headers: { "Accept": "application/json" },
         body: formData,
       });
-      if (!res.ok) {
-        throw new Error("Submission failed");
+      const data = await res.json();
+      if (!res.ok || data.success === "false") {
+        throw new Error(data.message || "Submission failed");
       }
       setLoading(false);
       setSubmitted(true);
