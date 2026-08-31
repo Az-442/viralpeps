@@ -2,7 +2,7 @@
   "uk-peptides": {
     "slug": "uk-peptides",
     "website": "https://ukpeptides.com",
-    "checkedAt": "2026-08-30T00:39:14.657Z",
+    "checkedAt": "2026-08-31T00:42:33.970Z",
     "live": true,
     "home": {
       "status": 200,
@@ -30,7 +30,7 @@
   "pure-peptides-uk": {
     "slug": "pure-peptides-uk",
     "website": "https://purepeptidesuk.com",
-    "checkedAt": "2026-08-30T00:39:15.910Z",
+    "checkedAt": "2026-08-31T00:42:35.073Z",
     "live": true,
     "home": {
       "status": 200,
@@ -59,7 +59,7 @@
   "sterling-peptides": {
     "slug": "sterling-peptides",
     "website": "https://sterlingpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:39:16.383Z",
+    "checkedAt": "2026-08-31T00:42:35.484Z",
     "live": false,
     "home": {
       "status": 0,
@@ -80,7 +80,7 @@
   "research-peptide-uk": {
     "slug": "research-peptide-uk",
     "website": "https://researchpeptide.co.uk",
-    "checkedAt": "2026-08-30T00:39:16.410Z",
+    "checkedAt": "2026-08-31T00:42:35.518Z",
     "live": true,
     "home": {
       "status": 200,
@@ -109,7 +109,7 @@
   "imperial-peptides": {
     "slug": "imperial-peptides",
     "website": "https://www.imperialpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:39:21.509Z",
+    "checkedAt": "2026-08-31T00:42:40.634Z",
     "live": true,
     "home": {
       "status": 200,
@@ -138,7 +138,7 @@
   "tide-labs": {
     "slug": "tide-labs",
     "website": "https://tidelabs.co.uk",
-    "checkedAt": "2026-08-30T00:39:22.946Z",
+    "checkedAt": "2026-08-31T00:42:42.391Z",
     "live": true,
     "home": {
       "status": 200,
@@ -167,7 +167,7 @@
   "express-peptides": {
     "slug": "express-peptides",
     "website": "https://www.expresspeptides.co.uk",
-    "checkedAt": "2026-08-30T00:39:23.804Z",
+    "checkedAt": "2026-08-31T00:42:43.149Z",
     "live": true,
     "home": {
       "status": 200,
@@ -196,7 +196,7 @@
   "dr-peptides": {
     "slug": "dr-peptides",
     "website": "https://drpresearch.co.uk",
-    "checkedAt": "2026-08-30T00:39:27.265Z",
+    "checkedAt": "2026-08-31T00:42:46.752Z",
     "live": true,
     "home": {
       "status": 200,
@@ -225,7 +225,7 @@
   "the-peptide-company": {
     "slug": "the-peptide-company",
     "website": "https://thepeptidecompany.co.uk",
-    "checkedAt": "2026-08-30T00:39:51.908Z",
+    "checkedAt": "2026-08-31T00:42:59.758Z",
     "live": true,
     "home": {
       "status": 200,
@@ -254,7 +254,7 @@
   "research-peptides-uk-main": {
     "slug": "research-peptides-uk-main",
     "website": "https://www.researchpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:39:53.074Z",
+    "checkedAt": "2026-08-31T00:43:07.766Z",
     "live": true,
     "home": {
       "status": 200,
@@ -283,12 +283,12 @@
   "raccoon-peptides": {
     "slug": "raccoon-peptides",
     "website": "https://www.raccoonpeptides.com",
-    "checkedAt": "2026-08-30T00:39:58.774Z",
+    "checkedAt": "2026-08-31T00:43:10.325Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
-      "ruo": "in vitro",
+      "ruo": "for research purposes",
       "review": null,
       "shipping": "tracking",
       "contact": "contact",
@@ -312,7 +312,7 @@
   "kensington-labs": {
     "slug": "kensington-labs",
     "website": "https://www.kensingtonlabs.co.uk",
-    "checkedAt": "2026-08-30T00:40:01.641Z",
+    "checkedAt": "2026-08-31T00:43:13.350Z",
     "live": true,
     "home": {
       "status": 200,
@@ -341,7 +341,7 @@
   "peptides-lab-uk": {
     "slug": "peptides-lab-uk",
     "website": "https://peptideslabuk.com",
-    "checkedAt": "2026-08-30T00:40:05.701Z",
+    "checkedAt": "2026-08-31T00:43:17.288Z",
     "live": true,
     "home": {
       "status": 200,
@@ -354,8 +354,8 @@
     },
     "product": {
       "fetched": true,
-      "coa": "coa",
-      "ruo": "for research purposes",
+      "coa": "certificate of analys",
+      "ruo": "research use only",
       "status": 200
     },
     "secondary": {
@@ -370,7 +370,7 @@
   "biohack-peptides": {
     "slug": "biohack-peptides",
     "website": "https://biohackpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:40:12.986Z",
+    "checkedAt": "2026-08-31T00:43:23.834Z",
     "live": true,
     "home": {
       "status": 200,
@@ -399,7 +399,7 @@
   "brit-peptides": {
     "slug": "brit-peptides",
     "website": "https://britpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:40:20.124Z",
+    "checkedAt": "2026-08-31T00:43:34.194Z",
     "live": false,
     "home": {
       "status": 503,
@@ -427,7 +427,7 @@
   "new-wave-peptides": {
     "slug": "new-wave-peptides",
     "website": "https://newwavepeptides.co.uk",
-    "checkedAt": "2026-08-30T00:40:24.674Z",
+    "checkedAt": "2026-08-31T00:43:38.465Z",
     "live": true,
     "home": {
       "status": 200,
@@ -444,18 +444,18 @@
       "ruo": null
     },
     "secondary": {
-      "probed": 3,
+      "probed": 4,
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "ups",
-      "coa": null,
+      "coa": "janoshik",
       "review": null
     }
   },
   "bluewell-peptides": {
     "slug": "bluewell-peptides",
     "website": "https://bluewellpeptides.com",
-    "checkedAt": "2026-08-30T00:40:26.455Z",
+    "checkedAt": "2026-08-31T00:43:40.930Z",
     "live": true,
     "home": {
       "status": 200,
@@ -484,7 +484,7 @@
   "anglo-peptides": {
     "slug": "anglo-peptides",
     "website": "https://anglopeptides.com",
-    "checkedAt": "2026-08-30T00:40:31.708Z",
+    "checkedAt": "2026-08-31T00:43:45.386Z",
     "live": true,
     "home": {
       "status": 200,
@@ -513,7 +513,7 @@
   "cmsr-labs": {
     "slug": "cmsr-labs",
     "website": "https://cmsrlabs.co",
-    "checkedAt": "2026-08-30T00:40:32.910Z",
+    "checkedAt": "2026-08-31T00:43:46.510Z",
     "live": true,
     "home": {
       "status": 200,
@@ -542,7 +542,7 @@
   "proforma-peptides": {
     "slug": "proforma-peptides",
     "website": "https://www.proformapeptides.co.uk",
-    "checkedAt": "2026-08-30T00:40:36.982Z",
+    "checkedAt": "2026-08-31T00:43:50.747Z",
     "live": true,
     "home": {
       "status": 200,
@@ -571,7 +571,7 @@
   "xl-peptides": {
     "slug": "xl-peptides",
     "website": "https://xlpeptides.com",
-    "checkedAt": "2026-08-30T00:40:40.650Z",
+    "checkedAt": "2026-08-31T00:43:51.418Z",
     "live": true,
     "home": {
       "status": 200,
@@ -600,7 +600,7 @@
   "chroma-peptides": {
     "slug": "chroma-peptides",
     "website": "https://chromapeptides.co.uk",
-    "checkedAt": "2026-08-30T00:40:44.178Z",
+    "checkedAt": "2026-08-31T00:43:53.412Z",
     "live": false,
     "home": {
       "status": 0,
@@ -621,7 +621,7 @@
   "peptides-uk": {
     "slug": "peptides-uk",
     "website": "https://peptidesuk.com",
-    "checkedAt": "2026-08-30T00:40:44.197Z",
+    "checkedAt": "2026-08-31T00:43:53.438Z",
     "live": true,
     "home": {
       "status": 200,
@@ -650,7 +650,7 @@
   "my-peptides": {
     "slug": "my-peptides",
     "website": "https://my-peptides.co.uk",
-    "checkedAt": "2026-08-30T00:40:50.114Z",
+    "checkedAt": "2026-08-31T00:44:00.891Z",
     "live": true,
     "home": {
       "status": 200,
@@ -679,7 +679,7 @@
   "eva-peptide": {
     "slug": "eva-peptide",
     "website": "https://evapeptide.co.uk",
-    "checkedAt": "2026-08-30T00:40:50.839Z",
+    "checkedAt": "2026-08-31T00:44:01.686Z",
     "live": true,
     "home": {
       "status": 200,
@@ -708,7 +708,7 @@
   "be-better-peptides": {
     "slug": "be-better-peptides",
     "website": "https://bebetterpeptides.com",
-    "checkedAt": "2026-08-30T00:40:56.875Z",
+    "checkedAt": "2026-08-31T00:44:07.875Z",
     "live": true,
     "home": {
       "status": 200,
@@ -737,7 +737,7 @@
   "peptigen-labs": {
     "slug": "peptigen-labs",
     "website": "https://peptigenlabs.co.uk",
-    "checkedAt": "2026-08-30T00:40:58.951Z",
+    "checkedAt": "2026-08-31T00:44:10.139Z",
     "live": true,
     "home": {
       "status": 200,
@@ -765,7 +765,7 @@
   "premio-peptides": {
     "slug": "premio-peptides",
     "website": "https://premiopeptides.co.uk",
-    "checkedAt": "2026-08-30T00:40:59.883Z",
+    "checkedAt": "2026-08-31T00:44:10.878Z",
     "live": true,
     "home": {
       "status": 200,
@@ -793,7 +793,7 @@
   "the-peptide-code": {
     "slug": "the-peptide-code",
     "website": "https://thepeptidecode.co.uk",
-    "checkedAt": "2026-08-30T00:41:01.167Z",
+    "checkedAt": "2026-08-31T00:44:12.258Z",
     "live": true,
     "home": {
       "status": 200,
@@ -822,7 +822,7 @@
   "raw-peptides": {
     "slug": "raw-peptides",
     "website": "https://rawpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:41:07.749Z",
+    "checkedAt": "2026-08-31T00:44:14.180Z",
     "live": true,
     "home": {
       "status": 200,
@@ -851,7 +851,7 @@
   "nova-peptide": {
     "slug": "nova-peptide",
     "website": "https://www.novapeptide.co.uk",
-    "checkedAt": "2026-08-30T00:41:26.570Z",
+    "checkedAt": "2026-08-31T00:44:34.282Z",
     "live": true,
     "home": {
       "status": 200,
@@ -880,7 +880,7 @@
   "stratford-peptides": {
     "slug": "stratford-peptides",
     "website": "https://www.stratfordpeptides.com",
-    "checkedAt": "2026-08-30T00:41:29.965Z",
+    "checkedAt": "2026-08-31T00:44:37.363Z",
     "live": true,
     "home": {
       "status": 200,
@@ -909,7 +909,7 @@
   "peptify-uk": {
     "slug": "peptify-uk",
     "website": "https://www.peptifyuk.com",
-    "checkedAt": "2026-08-30T00:41:31.568Z",
+    "checkedAt": "2026-08-31T00:44:38.666Z",
     "live": true,
     "home": {
       "status": 200,
@@ -938,7 +938,7 @@
   "ascend-peptides": {
     "slug": "ascend-peptides",
     "website": "https://ascendpeptidesuk.com",
-    "checkedAt": "2026-08-30T00:41:31.935Z",
+    "checkedAt": "2026-08-31T00:44:38.956Z",
     "live": true,
     "home": {
       "status": 200,
@@ -967,7 +967,7 @@
   "precision-peptides": {
     "slug": "precision-peptides",
     "website": "https://precision-peptides.shop",
-    "checkedAt": "2026-08-30T00:41:33.385Z",
+    "checkedAt": "2026-08-31T00:44:43.326Z",
     "live": true,
     "home": {
       "status": 200,
@@ -996,7 +996,7 @@
   "astra-labs": {
     "slug": "astra-labs",
     "website": "https://astralabs.co.uk",
-    "checkedAt": "2026-08-30T00:41:37.936Z",
+    "checkedAt": "2026-08-31T00:44:47.516Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1025,7 +1025,7 @@
   "ol-research": {
     "slug": "ol-research",
     "website": "https://olresearch.co.uk",
-    "checkedAt": "2026-08-30T00:41:42.066Z",
+    "checkedAt": "2026-08-31T00:44:50.583Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1054,7 +1054,7 @@
   "octagon-peptides": {
     "slug": "octagon-peptides",
     "website": "https://octagonpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:41:47.138Z",
+    "checkedAt": "2026-08-31T00:44:55.889Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1083,7 +1083,7 @@
   "polygon-peptides": {
     "slug": "polygon-peptides",
     "website": "https://polygonpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:41:52.900Z",
+    "checkedAt": "2026-08-31T00:45:09.729Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1112,7 +1112,7 @@
   "midshire-labs": {
     "slug": "midshire-labs",
     "website": "https://midshirelabs.co.uk",
-    "checkedAt": "2026-08-30T00:41:58.171Z",
+    "checkedAt": "2026-08-31T00:45:14.084Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1135,13 +1135,13 @@
       "ruo": "research use only",
       "shipping": "tracking",
       "coa": "coa",
-      "review": null
+      "review": "trustpilot"
     }
   },
   "bio-peptides-uk": {
     "slug": "bio-peptides-uk",
     "website": "https://biopeptides-uk.com",
-    "checkedAt": "2026-08-30T00:42:05.329Z",
+    "checkedAt": "2026-08-31T00:45:17.607Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1169,7 +1169,7 @@
   "chilton-labs": {
     "slug": "chilton-labs",
     "website": "https://chiltonlabs.co.uk",
-    "checkedAt": "2026-08-30T00:42:07.218Z",
+    "checkedAt": "2026-08-31T00:45:19.540Z",
     "live": false,
     "home": {
       "status": 0,
@@ -1190,7 +1190,7 @@
   "lab77-peptides": {
     "slug": "lab77-peptides",
     "website": "https://lab77peptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:07.279Z",
+    "checkedAt": "2026-08-31T00:45:19.613Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1218,7 +1218,7 @@
   "bio-pulse-peptides": {
     "slug": "bio-pulse-peptides",
     "website": "https://biopulsepeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:07.729Z",
+    "checkedAt": "2026-08-31T00:45:19.963Z",
     "live": false,
     "home": {
       "status": 0,
@@ -1239,7 +1239,7 @@
   "peptx": {
     "slug": "peptx",
     "website": "https://peptx.co.uk",
-    "checkedAt": "2026-08-30T00:42:08.034Z",
+    "checkedAt": "2026-08-31T00:45:20.017Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1268,7 +1268,7 @@
   "prime-peptides": {
     "slug": "prime-peptides",
     "website": "https://www.prime-peptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:08.956Z",
+    "checkedAt": "2026-08-31T00:45:20.969Z",
     "live": false,
     "home": {
       "status": 503,
@@ -1296,7 +1296,7 @@
   "uk-peptide-lab": {
     "slug": "uk-peptide-lab",
     "website": "https://ukpeptidelab.co.uk",
-    "checkedAt": "2026-08-30T00:42:09.264Z",
+    "checkedAt": "2026-08-31T00:45:21.339Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1325,7 +1325,7 @@
   "alphamino": {
     "slug": "alphamino",
     "website": "https://alphamino.co.uk",
-    "checkedAt": "2026-08-30T00:42:09.643Z",
+    "checkedAt": "2026-08-31T00:45:21.696Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1354,7 +1354,7 @@
   "form-peptides": {
     "slug": "form-peptides",
     "website": "https://formpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:12.783Z",
+    "checkedAt": "2026-08-31T00:45:22.046Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1383,7 +1383,7 @@
   "flex-peptides": {
     "slug": "flex-peptides",
     "website": "https://www.flexpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:13.786Z",
+    "checkedAt": "2026-08-31T00:45:22.851Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1412,7 +1412,7 @@
   "crown-peptides": {
     "slug": "crown-peptides",
     "website": "https://crownpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:14.306Z",
+    "checkedAt": "2026-08-31T00:45:23.282Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1441,7 +1441,7 @@
   "reta-uk": {
     "slug": "reta-uk",
     "website": "https://reta-uk.com",
-    "checkedAt": "2026-08-30T00:42:14.848Z",
+    "checkedAt": "2026-08-31T00:45:23.857Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1470,7 +1470,7 @@
   "pgna-labs": {
     "slug": "pgna-labs",
     "website": "https://pgnalabs.co.uk",
-    "checkedAt": "2026-08-30T00:42:16.523Z",
+    "checkedAt": "2026-08-31T00:45:25.671Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1498,7 +1498,7 @@
   "trutide": {
     "slug": "trutide",
     "website": "https://trutide.co.uk",
-    "checkedAt": "2026-08-30T00:42:17.496Z",
+    "checkedAt": "2026-08-31T00:45:26.637Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1527,7 +1527,7 @@
   "tested-peptides": {
     "slug": "tested-peptides",
     "website": "https://www.testedpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:20.392Z",
+    "checkedAt": "2026-08-31T00:45:29.882Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1556,7 +1556,7 @@
   "applied-peptides": {
     "slug": "applied-peptides",
     "website": "https://appliedpeptides.com",
-    "checkedAt": "2026-08-30T00:42:27.998Z",
+    "checkedAt": "2026-08-31T00:45:35.367Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1584,7 +1584,7 @@
   "supply-peptides": {
     "slug": "supply-peptides",
     "website": "https://supplypeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:28.306Z",
+    "checkedAt": "2026-08-31T00:45:36.128Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1613,7 +1613,7 @@
   "peptidesx": {
     "slug": "peptidesx",
     "website": "https://www.peptidesx.uk",
-    "checkedAt": "2026-08-30T00:42:29.295Z",
+    "checkedAt": "2026-08-31T00:45:37.149Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1642,7 +1642,7 @@
   "buyreta": {
     "slug": "buyreta",
     "website": "https://www.buyreta.co.uk",
-    "checkedAt": "2026-08-30T00:42:37.532Z",
+    "checkedAt": "2026-08-31T00:45:43.432Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1671,7 +1671,7 @@
   "peptides-online-uk": {
     "slug": "peptides-online-uk",
     "website": "https://www.peptidesonline.uk",
-    "checkedAt": "2026-08-30T00:42:39.067Z",
+    "checkedAt": "2026-08-31T00:45:44.668Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1700,7 +1700,7 @@
   "united-peptides": {
     "slug": "united-peptides",
     "website": "https://unitedpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:44.864Z",
+    "checkedAt": "2026-08-31T00:46:00.606Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1728,7 +1728,7 @@
   "pepnova": {
     "slug": "pepnova",
     "website": "https://pepnova.uk",
-    "checkedAt": "2026-08-30T00:42:45.109Z",
+    "checkedAt": "2026-08-31T00:46:00.862Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1757,7 +1757,7 @@
   "bioplex-peptides": {
     "slug": "bioplex-peptides",
     "website": "https://bioplexpeptides.co.uk",
-    "checkedAt": "2026-08-30T00:42:45.545Z",
+    "checkedAt": "2026-08-31T00:46:01.174Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1786,7 +1786,7 @@
   "op-labs": {
     "slug": "op-labs",
     "website": "https://oplabs.co.uk",
-    "checkedAt": "2026-08-30T00:42:47.889Z",
+    "checkedAt": "2026-08-31T00:46:03.356Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1815,7 +1815,7 @@
   "zentra-peptides": {
     "slug": "zentra-peptides",
     "website": "https://zentra-peptides.com",
-    "checkedAt": "2026-08-30T00:42:51.732Z",
+    "checkedAt": "2026-08-31T00:46:04.848Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1844,7 +1844,7 @@
   "apex-biolabs": {
     "slug": "apex-biolabs",
     "website": "https://www.apexbiolabs.co.uk",
-    "checkedAt": "2026-08-30T00:42:52.212Z",
+    "checkedAt": "2026-08-31T00:46:07.270Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1867,6 +1867,35 @@
       "ruo": "research use only",
       "shipping": "tracking",
       "coa": "coa",
+      "review": null
+    }
+  },
+  "momentum-peptides": {
+    "slug": "momentum-peptides",
+    "website": "https://momentumpeptides.com",
+    "checkedAt": "2026-08-31T00:46:09.334Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "buy research peptides uk | momentum peptides"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "hplc",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 5,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "hplc",
       "review": null
     }
   }
