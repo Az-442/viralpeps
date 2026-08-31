@@ -11,6 +11,7 @@ export default function HeaderNav({ current }: { current?: string }) {
   const links = [
     { href: "/compounds", label: "Peptides" },
     { href: "/vendors", label: "Suppliers" },
+    { href: "/wholesale", label: "Wholesale" },
     { href: "/trust-score", label: "TrustScore" },
   ];
 
