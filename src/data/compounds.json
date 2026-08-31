@@ -388,14 +388,6 @@
         "dosage": "60mg"
       },
       {
-        "vendor": "Flex Peptides",
-        "url": "https://www.flexpeptides.co.uk/products/tirzepatide-20mg",
-        "price": "£65.00",
-        "inStock": true,
-        "image": "/images/products/flex-peptides/tirzepatide.webp",
-        "dosage": "20mg"
-      },
-      {
         "vendor": "Applied Peptides",
         "url": "https://appliedpeptides.com/store/ols/products/tirzepatide-30mg-",
         "price": "£110.00",
@@ -3550,22 +3542,6 @@
         "inStock": true,
         "image": "/images/products/form-peptides/retatrutide.webp",
         "dosage": "50mg"
-      },
-      {
-        "vendor": "Flex Peptides",
-        "url": "https://www.flexpeptides.co.uk/products/retatrutide-20mg",
-        "price": "£49.81",
-        "inStock": true,
-        "image": "/images/products/flex-peptides/retatrutide.webp",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "Flex Peptides",
-        "url": "https://www.flexpeptides.co.uk/products/retatrutide-30mg",
-        "price": "£66.95",
-        "inStock": true,
-        "image": "/images/products/flex-peptides/retatrutide-30mg.webp",
-        "dosage": "30mg"
       },
       {
         "vendor": "Applied Peptides",
@@ -26875,35 +26851,6 @@
     "longDescription": "",
     "mechanism": "",
     "sources": [],
-    "faq": []
-  },
-  {
-    "id": "retatrutide-20mg-the-peptide-company",
-    "name": "Retatrutide (Reta) 20mg",
-    "slug": "retatrutide-20mg-the-peptide-company",
-    "compareSlug": "retatrutide",
-    "category": "glp-1-agonists",
-    "description": "Retatrutide 20mg for research purposes.",
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": "",
-    "sources": [
-      {
-        "vendor": "The Peptide Company",
-        "url": "https://thepeptidecompany.co.uk/product/buy-reta-retatrutide-uk/",
-        "price": "£84.99",
-        "inStock": true,
-        "image": "/images/products/the-peptide-company/retatrutide-20mg-the-peptide-company.webp"
-      }
-    ],
     "faq": []
   },
   {
