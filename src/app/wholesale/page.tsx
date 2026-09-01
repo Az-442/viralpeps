@@ -1,13 +1,8 @@
+"use client";
 import Link from "next/link";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import { useState } from "react";
-
-export const metadata = {
-  title: "Wholesale Peptides | ViralPeps (Invite-Only)",
-  description:
-    "Invite-only B2B wholesale peptide marketplace. Apply to list your approved wholesale business on ViralPeps.",
-};
 
 export default function WholesalePage() {
   const [bizName, setBizName] = useState("");
