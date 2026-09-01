@@ -11,7 +11,6 @@ export default function HeaderNav({ current }: { current?: string }) {
   const links = [
     { href: "/compounds", label: "Peptides" },
     { href: "/vendors", label: "Suppliers" },
-    { href: "/wholesale", label: "Wholesale" },
     { href: "/trust-score", label: "TrustScore" },
   ];
 
@@ -21,6 +20,7 @@ export default function HeaderNav({ current }: { current?: string }) {
   ];
 
   const rightLinks = [
+    { href: "/wholesale", label: "Wholesale" },
     { href: "/faq", label: "FAQ" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
