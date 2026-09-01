@@ -7,15 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # ===================== CONFIG =====================
-COMPOUND = "Semaglutide"
-VIAL_PATH = "public/images/compounds/semaglutide-vial.png"
-OUTPUT_PATH = "public/images/guides/semaglutide-for-weight-loss.png"
+COMPOUND = "Tirzepatide"
+VIAL_PATH = "public/images/compounds/tirzepatide-vial.png"
+OUTPUT_PATH = "public/images/guides/tirzepatide-for-weight-loss.png"
 DESCRIPTION_LINES = [
-    "Number 15 in the 20-article goal series -",
-    "semaglutide as the GLP-1 benchmark for",
-    "the goal of weight loss. 14.9% mean weight",
-    "loss in STEP-1, 20% fewer CV events in",
-    "SELECT, from a ~7-day albumin-bound dose.",
+    "Number 16 in the 20-article goal series -",
+    "the dual GIP/GLP-1 agonist for the goal",
+    "of weight loss. 20.9% mean weight loss",
+    "at 15 mg in SURMOUNT-1, the strongest",
+    "incretin result in a phase 3 obesity trial.",
 ]
 # ===================== CONFIG =====================
 

@@ -8826,6 +8826,79 @@ slug: 'bpc-157-for-recovery',
     'Lincoff AM, Brown-Frandsen K, Colhoun HM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. N Engl J Med. 2023;389(24):2221-2232. (SELECT). PMID: 37952131.',
     'ClinicalTrials.gov. SELECT: A Research Study to Investigate How Well Semaglutide Works in People Living With Overweight or Obesity and Heart Disease. NCT03574597.',
   ],
+},
+
+'tirzepatide-for-weight-loss': {
+  slug: 'tirzepatide-for-weight-loss',
+  compoundSlug: 'tirzepatide',
+  pullQuote: 'Tirzepatide was the first agent to exceed 20% mean weight loss in a phase 3 obesity trial — a dual GIP/GLP-1 agonist whose sheer magnitude of effect made it the strongest incretin-based weight-loss peptide ever studied.',
+  quickInfo: [
+    { label: 'Peptide Name', value: 'Tirzepatide (LY3298176, Mounjaro / Zepbound)' },
+    { label: 'Classification', value: 'Dual GIP / GLP-1 receptor agonist' },
+    { label: 'CAS Number', value: '2023788-19-2' },
+    { label: 'Molecular Weight', value: '4813.5 g/mol (39 amino acids)' },
+    { label: 'Half-Life', value: '~5 days (once-weekly dosing)' },
+    { label: 'Key Modification', value: 'Site-specific fatty-acid acylation enabling albumin binding — balanced dual agonism of GIP and GLP-1 receptors' },
+    { label: 'Primary Weight-Loss Mechanism', value: 'GIPR + GLP-1R agonism: enhanced glucose-dependent insulin, central appetite suppression, slowed gastric emptying, improved fat partitioning' },
+    { label: 'SURMOUNT-1 Weight Loss (15 mg)', value: '20.9% mean body weight at 72 weeks (vs 3.1% placebo)' },
+    { label: 'Evidence Strength', value: 'Strong - phase 3 SURMOUNT programme, SURPASS diabetes trials, MASH and HFpEF outcomes' },
+  ],
+  sections: [
+    {
+      title: 'Weight Loss Past the GLP-1 Ceiling',
+      body: 'For years the practical ceiling for a licensed weight-loss peptide sat in the mid-teens — semaglutide 2.4 mg produced a landmark 14.9% mean body-weight reduction in STEP-1, a result that reframed the field. Tirzepatide went further. In SURMOUNT-1, the 15 mg dose delivered a mean 20.9% reduction in body weight at 72 weeks, with 36.2% of participants losing at least a quarter of their baseline body weight. That crossed a threshold no single-receptor GLP-1 agonist had approached.\n\nTirzepatide is a synthetic 39-amino-acid peptide developed by Eli Lilly that acts as a balanced dual agonist at two incretin receptors: the glucose-dependent insulinotropic polypeptide receptor (GIPR) and the glucagon-like peptide-1 receptor (GLP-1R). Both GIP and GLP-1 are endogenous incretins secreted in response to food intake, but they signal through distinct downstream pathways. Tirzepatide is engineered around a GLP-1 backbone with amino-acid substitutions that confer GIPR potency and DPP-4 resistance, plus a fatty-acid modification that binds albumin to extend its half-life to roughly 5 days and enable stable once-weekly dosing.\n\nThis guide examines tirzepatide specifically through the lens of weight loss: the dual mechanisms behind its efficacy, the clinical evidence, research dosing protocols, and how it compares to selective and triple agonists.\n\n[**Compare Tirzepatide prices from UK suppliers \u2192**](/compounds/tirzepatide)',
+    },
+    {
+      title: 'Why Dual Agonism Outperforms a Single Receptor',
+      body: 'The defining feature of tirzepatide is that it engages two receptors whose effects are independently beneficial for weight management and appear to compound. A single-shot selective GLP-1 agonist hits appetite, gastric emptying and insulin; a dual agonist adds a second, metabolically distinct lever.',
+      subsections: [
+        { title: 'GLP-1 Receptor Agonism - Appetite and Satiety', body: 'GLP-1R activation slows gastric emptying, suppresses postprandial glucagon, and acts on arcuate-nucleus and brainstem circuits to reduce hunger and increase fullness. This component is comparable in potency to selective GLP-1 agonists and remains the engine of tirzepatide\u2019s calorie-side effect.' },
+        { title: 'GIP Receptor Agonism - Insulin Amplification and Fat Partitioning', body: 'GIP enhances glucose-dependent insulin secretion from pancreatic beta-cells and promotes glucose uptake and energy storage in white adipose tissue. In contrast to early assumptions that GIP would oppose weight loss, the clinical data show GIPR agonism improves insulin sensitivity and appears to shift dietary energy toward more efficient subcutaneous fat storage with reduced ectopic (liver and visceral) lipid accumulation - a pattern consistent with the superior fat-mass reductions seen in trials.' },
+        { title: 'Incretin Synergy - More Than Additive', body: 'The combination produces weight loss beyond what either receptor alone achieves. GIP is thought to potentiate the beta-cell response to GLP-1 signalling while improving peripheral insulin sensitivity, creating a synergy that pushes total weight loss several percentage points above GLP-1-only comparators in head-to-head trials.' },
+      ],
+    },
+    {
+      title: 'Where the Weight-Loss Evidence Stands',
+      body: 'Tirzepatide has one of the most extensive phase 3 programmes of any metabolic peptide. For the goal of weight loss, the SURMOUNT programme is the anchor dataset.',
+      subsections: [
+        { title: 'SURMOUNT-1 - The Landmark Weight-Loss Trial', body: 'Jastreboff et al. (NEJM, 2022) randomised 2,539 adults with obesity, or overweight plus a weight-related comorbidity but no diabetes, to 5, 10 or 15 mg tirzepatide or placebo weekly for 72 weeks alongside lifestyle intervention. Mean weight loss was 15.0%, 19.5% and 20.9% at the three doses respectively versus 3.1% with placebo. At the 15 mg dose, 36.2% of participants lost 25% or more of baseline body weight (PMID: 36286979).' },
+        { title: 'SURMOUNT-3 / SURMOUNT-4 - Sustained Effect and Durability', body: 'SURMOUNT-3 (NCT04657016) combined an intensive 12-week lifestyle lead-in with tirzepatide, reaching a 34.4 kg / 26.6% mean weight loss across the full regimen. SURMOUNT-4 (NEJM, 2023), a randomised withdrawal study by Arome et al., showed that participants who continued tirzepatide maintained their weight loss at 88 weeks, while those switched to placebo regained a substantial fraction - demonstrating durability of the treatment effect (PMID: 37952128).' },
+        { title: 'SURPASS-2 - Superiority to a Weekly GLP-1 Agonist', body: 'In type 2 diabetes, Fr\u00edas et al. (NEJM, 2021) compared tirzepatide 5/10/15 mg against semaglutide 1 mg weekly. Tirzepatide produced larger HbA1c reductions and, notably for a goal article on weight loss, greater weight loss at the higher doses - up to 12.9 kg versus 6.2 kg with semaglutide 1 mg (PMID: 34161705).' },
+        { title: 'SYNERGY-NASH and SUMMIT - Broader Metabolic Impact', body: 'Beyond scale weight, tirzepatide resolved MASH without worsening fibrosis in up to 62.4% of patients at 15 mg versus 9.8% with placebo at 52 weeks (Loomba et al., NEJM, 2024, PMID: 39225662), and reduced cardiovascular death or worsening heart-failure events in SUMMIT (Packer et al., NEJM, 2024). These outcomes connect the weight-loss effect to meaningful metabolic and cardiovascular endpoints.' },
+      ],
+    },
+    {
+      title: 'Dosing and Research Protocols for Weight Loss',
+      body: 'Tirzepatide is administered once weekly via subcutaneous injection. Its ~5-day half-life - supported by albumin binding of the appended fatty acid - allows a stable weekly dose with reasonable peak-to-trough exposure.\n\nClinical protocols initiate tirzepatide at 2.5 mg weekly for 4 weeks, then escalate in 2.5 mg steps every 4 weeks to the approved maintenance doses of 5 mg, 10 mg or 15 mg weekly. The SURMOUNT programme used this gradual titration to attenuate gastrointestinal side effects; the 15 mg maintenance dose produced the largest weight losses.\n\nTirzepatide is supplied for research as a lyophilised powder and must be reconstituted aseptically and handled under appropriate laboratory conditions. As with all research peptides, dosing should follow published study protocols and be confined to legitimate research environments.\n\n[**Compare Tirzepatide prices across UK suppliers \u2192**](/compounds/tirzepatide)\n[**Related: Semaglutide vs Tirzepatide \u2192**](/research/semaglutide-vs-tirzepatide)\n[**Related: Retatrutide vs Tirzepatide \u2192**](/research/retatrutide-vs-tirzepatide)',
+    },
+    {
+      title: 'How It Compares to Other Weight-Loss Peptides',
+      body: 'Tirzepatide sits between the standard GLP-1 agonists and the newest triple agonists, and its comparison to each clarifies its position.',
+      subsections: [
+        { title: 'vs Semaglutide', body: 'Both are once-weekly incretins, but tirzepatide adds GIPR agonism to semaglutide\u2019s selective GLP-1R profile. Head-to-head and programme data show tirzepatide delivers several percentage points more mean weight loss - 20.9% vs 14.9% at the respective maintenance doses. [**Compare Tirzepatide vs Semaglutide \u2192**](/research/semaglutide-vs-tirzepatide)' },
+        { title: 'vs Retatrutide', body: 'Retatrutide is a triple GIP/GLP-1/glucagon agonist pushing weight loss past 24% in phase 2 by adding a thermogenic glucagon lever. It is earlier in development than tirzepatide\u2019s mature phase 3 dataset but represents the next increment of the same dual-agonist logic. [**Compare Retatrutide vs Tirzepatide \u2192**](/research/retatrutide-vs-tirzepatide)' },
+        { title: 'vs Tesamorelin and lipolytic fragments', body: 'Tesamorelin and AOD-9604 act on the growth-hormone axis and adipocyte lipolysis to target visceral and stored fat, without incretin signalling or central appetite effects. Tirzepatide works systemically through appetite, insulin and gastric emptying - a broader calorie-side approach, whereas the lipolytic agents target mobilising already-stored fat.' },
+      ],
+    },
+    {
+      title: 'Safety Profile',
+      body: 'Tirzepatide has a well-characterised safety profile from the extensive SURMOUNT and SURPASS trials. Gastrointestinal adverse events dominate - nausea (18-33%), diarrhoea (15-22%), vomiting (6-13%) and constipation (7-10%) - are dose-dependent, and are most pronounced during dose escalation. They are predominantly mild-to-moderate and typically diminish with continued treatment; gradual titration and dietary adjustments mitigate them.\n\nSerious but uncommon events include pancreatitis, gallbladder disease, and severe gastrointestinal events. As with other incretin-based peptides, tirzepatide carries a boxed warning regarding thyroid C-cell tumours based on rodent studies, though the relevance to humans has not been established.\n\nTirzepatide is a prescription-only medicine supplied for laboratory research purposes only when obtained as a research chemical. It is not approved for human self-administration outside regulated clinical settings. Standard aseptic handling, correct reconstitution and cold, light-protected storage apply.',
+    },
+  ],
+  faq: [
+    { question: 'How much weight can tirzepatide produce in research settings?', answer: 'In SURMOUNT-1, once-weekly tirzepatide produced mean weight loss of 15.0% (5 mg), 19.5% (10 mg) and 20.9% (15 mg) at 72 weeks versus 3.1% with placebo; 36.2% of the 15 mg group lost 25% or more of baseline body weight. Combined with an intensive lifestyle lead-in (SURMOUNT-3) it reached ~26.6%. [**Compare Tirzepatide prices \u2192**](/compounds/tirzepatide)' },
+    { question: 'Why does tirzepatide beat single GLP-1 agonists for weight loss?', answer: 'Tirzepatide is a dual GIP/GLP-1 receptor agonist. The added GIP agonism enhances glucose-dependent insulin secretion, improves peripheral insulin sensitivity, and appears to favour more efficient fat partitioning, compounding the appetite and gastric-emptying effects of GLP-1 to move total weight loss several percentage points past GLP-1-only comparators.' },
+    { question: 'What is the dosing protocol for tirzepatide?', answer: 'Tirzepatide is dosed once weekly by subcutaneous injection. Protocols start at 2.5 mg for 4 weeks, escalate by 2.5 mg every 4 weeks, and reach approved maintenance doses of 5 mg, 10 mg or 15 mg weekly. Its ~5-day half-life supports stable weekly dosing.' },
+    { question: 'Is weight loss from tirzepatide maintained after stopping?', answer: 'A randomised-withdrawal study (SURMOUNT-4) showed that continuing tirzepatide maintained weight loss at 88 weeks, while participants switched to placebo regained a substantial fraction of the lost weight. As with other incretins, the effect is treatment-dependent rather than permanent.' },
+    { question: 'What are the main risks of tirzepatide?', answer: 'The most common adverse events are gastrointestinal - nausea, diarrhoea, vomiting and constipation - which are dose-dependent and mainly occur during escalation. Serious but uncommon events include pancreatitis and gallbladder disease. It carries a boxed warning about thyroid C-cell tumours based on rodent data, not established in humans.' },
+  ],
+  references: [
+    'Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216. (SURMOUNT-1). PMID: 36286979.',
+    'Arome LJ, Sattar N, Horn DB, et al. Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial. JAMA. 2024;331(1):38-48. PMID: 37952128.',
+    'Fr\u00edas JP, Nauck MA, Van J, et al. Efficacy and Safety of Tirzepatide Versus Semaglutide Once Weekly in Patients With Type 2 Diabetes (SURPASS-2). N Engl J Med. 2021;385(6):503-515. PMID: 34161705.',
+    'Loomba R, Hartman ML, Lawitz EJ, et al. Tirzepatide for Metabolic Dysfunction-Associated Steatohepatitis: A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Phase 2b Trial (SYNERGY-NASH). N Engl J Med. 2024;391(4):312-324. PMID: 39225662.',
+    'Packer M, Zile MR, Kramer CM, et al. Tirzepatide for Heart Failure With Preserved Ejection Fraction and Obesity (SUMMIT). N Engl J Med. 2024. PMID: 39185733.',
+  ],
 }
 
 };

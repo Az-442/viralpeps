@@ -1143,6 +1143,17 @@ export const guides: ResearchArticle[] = [
   minutes: 13,
   tags: ['semaglutide', 'glp-1', 'weight-loss', 'obesity', 'step-trial', 'select-trial', 'goals'],
 },
+{
+  title: 'Tirzepatide for Weight Loss: The Dual Agonist That Rewrote the Incretin Ceiling',
+  desc: 'A dedicated goal article on tirzepatide (Mounjaro / Zepbound) for weight-loss research — how dual GIP/GLP-1 receptor agonism drives appetite suppression, insulin sensitivity, and fat loss to deliver up to 20.9% mean weight loss in SURMOUNT-1, the strongest incretin result in a phase 3 obesity trial. Mechanism, SURMOUNT evidence, dosing, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Tirzepatide',
+  slug: 'tirzepatide-for-weight-loss',
+  image: 'tirzepatide-for-weight-loss',
+  minutes: 13,
+  tags: ['tirzepatide', 'glp-1', 'gip', 'dual-agonist', 'weight-loss', 'surmount', 'goals'],
+},
 ];
 
 export const compoundList: string[] = [
