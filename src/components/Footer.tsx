@@ -28,12 +28,14 @@ export default function Footer() {
           <h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Directory</h4>
           <Link href="/compounds" className="block text-xs mb-2 hover:text-white transition-colors">All Peptides</Link>
           <Link href="/vendors" className="block text-xs mb-2 hover:text-white transition-colors">Suppliers</Link>
+          <Link href="/wholesale" className="block text-xs mb-2 hover:text-white transition-colors">Wholesale</Link>
           <Link href="/vendors/register" className="block text-xs mb-2 hover:text-white transition-colors">List Your Business</Link>
         </div>
         <div>
           <h4 className="text-white text-xs font-semibold uppercase tracking-wider mb-3">Resources</h4>
           <Link href="/tools" className="block text-xs mb-2 hover:text-white transition-colors">Peptide Tools</Link>
           <Link href="/research" className="block text-xs mb-2 hover:text-white transition-colors">Research Library</Link>
+          <Link href="/trust-score" className="block text-xs mb-2 hover:text-white transition-colors">TrustScore</Link>
           <Link href="/faq" className="block text-xs mb-2 hover:text-white transition-colors">FAQ</Link>
         </div>
         <div>
