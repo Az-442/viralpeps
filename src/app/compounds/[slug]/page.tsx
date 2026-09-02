@@ -5,8 +5,10 @@ import vendors from "@/data/vendors.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
+import BreadcrumbList from "@/components/BreadcrumbList";
 import CompoundPageClient from "./CompoundPageClient";
 import { guides, ResearchArticle } from "@/data/research";
+import { getBreadcrumbs } from "@/data/breadcrumbs";
 import { JsonLd, compoundProduct } from "@/components/JsonLd";
 
 export const dynamic = "force-dynamic";
@@ -235,16 +237,8 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         ],
       })}} />
 
-      {/* BREADCRUMB */}
-      <div className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-[76rem] mx-auto px-4 py-2.5 text-xs text-gray-500">
-          <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
-          <span className="mx-1.5 text-gray-300">›</span>
-          <Link href="/compounds" className="hover:text-blue-600 transition-colors">Peptides</Link>
-          <span className="mx-1.5 text-gray-300">›</span>
-          <span className="text-gray-900 font-medium">{compound.name}</span>
-        </div>
-      </div>
+      {/* BREADCRUMB — data-driven via config map */}
+      <BreadcrumbList items={getBreadcrumbs("compounds", compound.name)} />
 
       {/* ===== HERO BANNER ===== */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white">

@@ -6,6 +6,8 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
 import VendorLogo from "@/components/VendorLogo";
+import BreadcrumbList from "@/components/BreadcrumbList";
+import { getBreadcrumbs } from "@/data/breadcrumbs";
 import { getVendorStats } from "@/data/vendor-stats";
 import { getTrustScore } from "@/lib/trust-score";
 import { JsonLd, vendorOrganization } from "@/components/JsonLd";
@@ -170,16 +172,11 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
       {/* Vendor Organization (AggregateRating omitted — no real reviewCount in data) */}
       <JsonLd data={vendorOrganization({ name: vendor.name, slug: vendor.slug, website: vendor.website, description: vendor.description })} />
 
+      {/* BREADCRUMB — data-driven via config map */}
+      <BreadcrumbList items={getBreadcrumbs("vendors", vendor.name)} />
+
       {/* HERO SECTION */}
       <div className="bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e]">
-        {/* BREADCRUMB on dark */}
-        <div className="max-w-[76rem] mx-auto px-4 py-3 text-xs text-slate-400">
-          <Link href="/" className="hover:text-blue-400 transition-colors">Home</Link>
-          <span className="mx-1.5">/</span>
-          <Link href="/vendors" className="hover:text-blue-400 transition-colors">Suppliers</Link>
-          <span className="mx-1.5">/</span>
-          <span className="text-slate-300">{vendor.name}</span>
-        </div>
 
         <div className="max-w-[76rem] mx-auto px-4 pb-8">
           {/* SUPPLIER CARD - dark hero card */}
