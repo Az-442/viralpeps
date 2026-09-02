@@ -1100,6 +1100,18 @@ export const guides: ResearchArticle[] = [
 },
 
 {
+  title: 'Best Peptide Stack for Muscle Growth: Sermorelin + Ipamorelin',
+  desc: 'A goal-stack article on the Sermorelin + Ipamorelin pairing for lean-mass research - how a GHRH analog (sermorelin) raising GH pulse amplitude and a selective ghrelin-receptor secretagogue (ipamorelin) raising GH pulse frequency combine through non-competing receptors to deliver a larger, cleaner total GH/IGF-1 signal than either alone. Dosing, synergy, evidence, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Sermorelin + Ipamorelin',
+  slug: 'sermorelin-ipamorelin-muscle-growth-stack',
+  image: 'sermorelin-ipamorelin-muscle-growth-stack',
+  minutes: 13,
+  tags: ['sermorelin', 'ipamorelin', 'ghrh', 'ghs-r1a', 'stack', 'muscle-growth', 'lean-mass', 'gh', 'igf-1', 'goals'],
+},
+
+{
   title: 'PT-141 for Men: A Central Melanocortin Approach to Male Sexual-Function Research',
   desc: 'A dedicated goal article on PT-141 (bremelanotide) for male sexual-function research \u2014 how MC3R/MC4R activation drives arousal and erectile response from the brain rather than the peripheral nitric-oxide pathway. Dosing, evidence, and UK supplier pricing.',
   category: 'Articles',
