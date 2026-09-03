@@ -1166,6 +1166,17 @@ export const guides: ResearchArticle[] = [
   minutes: 13,
   tags: ['tirzepatide', 'glp-1', 'gip', 'dual-agonist', 'weight-loss', 'surmount', 'goals'],
 },
+{
+  title: 'Best Peptide Stack for Fat Loss: Tesamorelin + Ipamorelin',
+  desc: 'A goal-stack article on the Tesamorelin + Ipamorelin pairing for visceral/abdominal fat-loss research - how the one FDA-approved GHRH analog proven in Phase 3 to reduce belly fat (tesamorelin) combines with a clean selective ghrelin-receptor secretagogue (ipamorelin) reinforcing the same GH/IGF-1 lipolytic axis through non-competing receptors. Why the stack, visceral fat physiology, synergy, dosing, evidence, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'Tesamorelin + Ipamorelin',
+  slug: 'tesamorelin-ipamorelin-fat-loss-stack',
+  image: 'tesamorelin-ipamorelin-fat-loss-stack',
+  minutes: 13,
+  tags: ['tesamorelin', 'ipamorelin', 'ghrh', 'ghs-r1a', 'stack', 'fat-loss', 'visceral-fat', 'belly-fat', 'gh', 'igf-1', 'goals'],
+},
 ];
 
 export const compoundList: string[] = [
