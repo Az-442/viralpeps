@@ -1177,6 +1177,17 @@ export const guides: ResearchArticle[] = [
   minutes: 13,
   tags: ['tesamorelin', 'ipamorelin', 'ghrh', 'ghs-r1a', 'stack', 'fat-loss', 'visceral-fat', 'belly-fat', 'gh', 'igf-1', 'goals'],
 },
+{
+  title: 'Best Peptide Stack for Recovery: BPC-157 + TB-500',
+  desc: 'A goal-stack article on the BPC-157 + TB-500 pairing for tissue-recovery research - how the gastric pentadecapeptide that coordinates angiogenesis, organised collagen and blood flow (BPC-157) combines with the thymosin beta-4 fragment that drives actin-mediated cell migration (TB-500) to cover both the vascular and the structural phases of repair. Synergy, dosing, evidence, safety, and UK supplier pricing.',
+  category: 'Articles',
+  section: 'goals',
+  compound: 'BPC-157 + TB-500',
+  slug: 'bpc157-tb500-recovery-stack',
+  image: 'bpc157-tb500-recovery-stack',
+  minutes: 14,
+  tags: ['bpc-157', 'tb-500', 'recovery', 'tissue-repair', 'angiogenesis', 'actin', 'wolverine-stack', 'stack', 'goals'],
+},
 ];
 
 export const compoundList: string[] = [
