@@ -2142,5 +2142,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "epitalon",
     "destUrl": "https://tidelabs.co.uk/products/epithalon"
+  },
+  {
+    "ts": "2026-09-05T15:20:10.248Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
