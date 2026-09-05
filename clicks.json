@@ -7251,5 +7251,12 @@
     "vendorSlug": "xl-peptides",
     "vendorName": "XL Peptides",
     "destUrl": "https://xlpeptides.com"
+  },
+  {
+    "ts": "2026-09-05T19:02:58.742Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk"
   }
 ]
