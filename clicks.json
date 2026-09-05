@@ -1302,5 +1302,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-des-1mg/"
+  },
+  {
+    "ts": "2026-09-05T15:14:32.100Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/semax-peptide"
   }
 ]
