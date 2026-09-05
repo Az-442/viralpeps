@@ -46,5 +46,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "pt-141",
     "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
+  },
+  {
+    "ts": "2026-09-05T14:56:04.184Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water-0-9-sodium-chloride",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
