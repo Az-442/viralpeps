@@ -6725,5 +6725,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-05T17:34:59.365Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg"
   }
 ]
