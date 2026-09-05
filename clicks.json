@@ -2526,5 +2526,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "wolverine-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen"
+  },
+  {
+    "ts": "2026-09-05T15:24:40.146Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
