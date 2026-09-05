@@ -9887,5 +9887,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-05T20:56:21.826Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aicar",
+    "destUrl": "https://peptideslabuk.com/product/aicar/"
   }
 ]
