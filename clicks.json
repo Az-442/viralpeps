@@ -4270,5 +4270,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://xlpeptides.com/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:39:30.818Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg"
   }
 ]
