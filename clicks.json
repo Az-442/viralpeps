@@ -8846,5 +8846,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biotideuk.com/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T20:09:52.438Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
   }
 ]
