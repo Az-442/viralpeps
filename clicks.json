@@ -2270,5 +2270,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://chromapeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-05T15:20:40.331Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "aod-9604-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/pen"
   }
 ]
