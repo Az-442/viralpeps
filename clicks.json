@@ -7911,5 +7911,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://biohackpeptides.co.uk/product/ss-31-50mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T19:24:32.894Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/"
   }
 ]
