@@ -7272,5 +7272,13 @@
     "vendorSlug": "pure-peptides-uk",
     "vendorName": "Pure Peptides UK",
     "destUrl": "https://purepeptidesuk.com"
+  },
+  {
+    "ts": "2026-09-05T19:04:52.763Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ss-31-10mg/"
   }
 ]
