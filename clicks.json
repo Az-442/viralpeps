@@ -4366,5 +4366,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "sermorelin-acetate",
     "destUrl": "https://researchpeptide.co.uk/product/sermorelin-acetate/"
+  },
+  {
+    "ts": "2026-09-05T15:40:34.634Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "dsip-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/"
   }
 ]
