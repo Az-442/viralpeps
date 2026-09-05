@@ -1326,5 +1326,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://chromapeptides.co.uk/product/klow-blend/"
+  },
+  {
+    "ts": "2026-09-05T15:14:39.017Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
   }
 ]
