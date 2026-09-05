@@ -1278,5 +1278,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "vip",
     "destUrl": "https://peptideslabuk.com/product/vip/"
+  },
+  {
+    "ts": "2026-09-05T15:13:32.755Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptideslabuk.com/product/nad/"
   }
 ]
