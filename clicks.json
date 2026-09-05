@@ -1078,5 +1078,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "snap-8",
     "destUrl": "https://ukpeptides.com/catalog/snap-8"
+  },
+  {
+    "ts": "2026-09-05T15:12:38.943Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://britpeptides.co.uk/product/selank/"
   }
 ]
