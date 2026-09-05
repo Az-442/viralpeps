@@ -11292,5 +11292,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-05T23:21:21.569Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
   }
 ]
