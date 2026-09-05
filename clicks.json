@@ -102,5 +102,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.peptifyuk.com/product/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:03:36.111Z",
+    "type": "vendor-site",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "destUrl": "https://trutide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/trutide"
   }
 ]
