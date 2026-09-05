@@ -2382,5 +2382,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://ascendpeptidesuk.com/products/cjc-1295-with-dac/"
+  },
+  {
+    "ts": "2026-09-05T15:21:42.984Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://ascendpeptidesuk.com/products/bacteriostatic-water/"
   }
 ]
