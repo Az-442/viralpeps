@@ -2238,5 +2238,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg"
+  },
+  {
+    "ts": "2026-09-05T15:20:33.307Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "adipotide-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/vial"
   }
 ]
