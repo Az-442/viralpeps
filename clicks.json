@@ -6086,5 +6086,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-05T16:55:13.345Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptx.co.uk/tirzepatide"
   }
 ]
