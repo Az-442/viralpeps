@@ -1486,5 +1486,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "selank-semax-blend",
     "destUrl": "https://www.peptifyuk.com/product/selank-semax-blend-20mg"
+  },
+  {
+    "ts": "2026-09-05T15:15:20.078Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ghk-cu"
   }
 ]
