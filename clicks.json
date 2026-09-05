@@ -70,5 +70,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://www.stratfordpeptides.com/products/l-carnitine"
+  },
+  {
+    "ts": "2026-09-05T14:59:40.865Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.peptifyuk.com/product/klow-blend-80mg"
   }
 ]
