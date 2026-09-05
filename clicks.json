@@ -390,5 +390,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:26.678Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://precision-peptides.shop/product/nad-1000mg/"
   }
 ]
