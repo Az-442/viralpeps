@@ -2486,5 +2486,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://chromapeptides.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-05T15:22:10.018Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500"
   }
 ]
