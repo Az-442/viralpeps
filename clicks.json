@@ -1470,5 +1470,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:15:16.073Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/"
   }
 ]
