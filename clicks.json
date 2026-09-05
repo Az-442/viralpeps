@@ -2694,5 +2694,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://ukpeptides.com/catalog/cjc-1295"
+  },
+  {
+    "ts": "2026-09-05T15:25:43.673Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://purepeptidesuk.com/product/hcg-5000iu/"
   }
 ]
