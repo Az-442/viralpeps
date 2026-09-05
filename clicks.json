@@ -11861,5 +11861,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-5mg-tb-5mg",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/"
+  },
+  {
+    "ts": "2026-09-05T23:59:07.183Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ipamorelin-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/ipamorelin-5mg/"
   }
 ]
