@@ -214,5 +214,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://biohackpeptides.co.uk/product/kpv-10mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:04:54.447Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.peptifyuk.com/product/ipamorelin-10mg"
   }
 ]
