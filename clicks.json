@@ -11045,5 +11045,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bioplexpeptides.co.uk/products/selank-10mg-selanc"
+  },
+  {
+    "ts": "2026-09-05T22:02:35.871Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ipamorelin/"
   }
 ]
