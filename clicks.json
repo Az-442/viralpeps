@@ -318,5 +318,13 @@
     "vendorName": "CMSR Labs",
     "compoundSlug": "semax",
     "destUrl": "https://cmsrlabs.co/product/semax-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:05.641Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://olresearch.co.uk/product/ipamorelin-10mg/"
   }
 ]
