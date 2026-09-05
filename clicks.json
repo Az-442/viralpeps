@@ -2374,5 +2374,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://peptidesuk.com/thymosin-alpha-1/"
+  },
+  {
+    "ts": "2026-09-05T15:21:40.976Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ascendpeptidesuk.com/products/cjc-1295-with-dac/"
   }
 ]
