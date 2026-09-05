@@ -6,5 +6,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://momentumpeptides.com/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-05T14:50:40.059Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/united-peptides"
   }
 ]
