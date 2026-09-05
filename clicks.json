@@ -4342,5 +4342,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg"
+  },
+  {
+    "ts": "2026-09-05T15:40:28.631Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://biopeptides-uk.com/product/oxytocin-2mg/"
   }
 ]
