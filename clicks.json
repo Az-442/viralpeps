@@ -1350,5 +1350,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biopulsepeptides.co.uk/shop/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:14:46.056Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://ukpeptides.com/catalog/glow"
   }
 ]
