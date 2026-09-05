@@ -6606,5 +6606,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "hcg",
     "destUrl": "https://peptideslabuk.com/product/hcg/"
+  },
+  {
+    "ts": "2026-09-05T17:15:18.506Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
