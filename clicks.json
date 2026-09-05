@@ -5630,5 +5630,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://supplypeptides.co.uk/products/nad"
+  },
+  {
+    "ts": "2026-09-05T16:26:36.587Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
   }
 ]
