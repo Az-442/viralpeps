@@ -5342,5 +5342,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.novapeptide.co.uk/product/5-amino-1mq/"
+  },
+  {
+    "ts": "2026-09-05T16:07:20.113Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/"
   }
 ]
