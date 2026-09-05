@@ -2886,5 +2886,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "peg-mgf-5mg",
     "destUrl": "https://purepeptidesuk.com/product/peg-mgf-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:34.335Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-cjc-nodac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen"
   }
 ]
