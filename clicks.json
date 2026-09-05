@@ -1422,5 +1422,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://chromapeptides.co.uk/product/kpv/"
+  },
+  {
+    "ts": "2026-09-05T15:15:04.080Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "chonliten",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-chonliten-10mg/"
   }
 ]
