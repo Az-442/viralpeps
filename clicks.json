@@ -11244,5 +11244,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
+  },
+  {
+    "ts": "2026-09-05T22:59:27.603Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
   }
 ]
