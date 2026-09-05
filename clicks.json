@@ -2878,5 +2878,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.stratfordpeptides.com/products/ss-31"
+  },
+  {
+    "ts": "2026-09-05T15:26:32.345Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "peg-mgf-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/peg-mgf-5mg/"
   }
 ]
