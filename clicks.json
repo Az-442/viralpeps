@@ -11741,5 +11741,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.prime-peptides.co.uk/product/glutathione-gsh/"
+  },
+  {
+    "ts": "2026-09-05T23:58:30.054Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidelabuk.co.uk/product/aod-9604-5mg-research-peptide/"
   }
 ]
