@@ -7193,5 +7193,12 @@
     "vendorSlug": "bio-pulse-peptides",
     "vendorName": "Bio Pulse Peptides",
     "destUrl": "https://biopulsepeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T18:56:21.645Z",
+    "type": "vendor-site",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "destUrl": "https://my-peptides.co.uk"
   }
 ]
