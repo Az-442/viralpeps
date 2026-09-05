@@ -1526,5 +1526,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:16:58.323Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://cmsrlabs.co/product/tesamorelin-5mg/"
   }
 ]
