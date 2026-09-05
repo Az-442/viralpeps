@@ -1550,5 +1550,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "mazdutide",
     "destUrl": "https://chiltonlabs.co.uk/product/mazdutide-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-05T15:17:04.299Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptideslabuk.com/product/aod9604/"
   }
 ]
