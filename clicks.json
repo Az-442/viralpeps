@@ -8943,5 +8943,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biotideuk.com/products/kpv-10-mg"
+  },
+  {
+    "ts": "2026-09-05T20:36:40.513Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
   }
 ]
