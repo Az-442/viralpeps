@@ -6070,5 +6070,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "semaglutide",
     "destUrl": "https://peptx.co.uk/semaglutide"
+  },
+  {
+    "ts": "2026-09-05T16:55:05.327Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
