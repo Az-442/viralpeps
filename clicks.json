@@ -8295,5 +8295,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
+  },
+  {
+    "ts": "2026-09-05T19:29:01.582Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/bpc-157-research-peptide/"
   }
 ]
