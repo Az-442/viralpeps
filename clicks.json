@@ -5990,5 +5990,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500"
+  },
+  {
+    "ts": "2026-09-05T16:54:21.131Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
   }
 ]
