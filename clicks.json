@@ -2054,5 +2054,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-05T15:19:47.948Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pe-22-28-10mg-research-peptide-for-laboratory-use-only/"
   }
 ]
