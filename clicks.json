@@ -11133,5 +11133,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.peptidesonline.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-05T22:25:38.946Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
   }
 ]
