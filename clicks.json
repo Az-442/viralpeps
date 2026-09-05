@@ -11276,5 +11276,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/"
+  },
+  {
+    "ts": "2026-09-05T23:18:40.529Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
