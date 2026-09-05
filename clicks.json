@@ -942,5 +942,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-05T15:12:02.648Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://peptideslabuk.com/product/thymalin/"
   }
 ]
