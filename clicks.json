@@ -5310,5 +5310,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-05T16:07:07.032Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://olresearch.co.uk/product/pt-141-10mg/"
   }
 ]
