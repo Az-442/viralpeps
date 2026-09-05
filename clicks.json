@@ -6030,5 +6030,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "liraglutide",
     "destUrl": "https://peptx.co.uk/product/liraglutide"
+  },
+  {
+    "ts": "2026-09-05T16:54:45.672Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
