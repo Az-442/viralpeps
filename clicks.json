@@ -3158,5 +3158,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-05T15:27:42.174Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://chiltonlabs.co.uk/product/melanotan-ii-mt2-10mg/"
   }
 ]
