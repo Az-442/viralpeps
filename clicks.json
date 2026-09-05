@@ -9487,5 +9487,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/"
+  },
+  {
+    "ts": "2026-09-05T20:48:47.572Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://my-peptides.co.uk/products/ipamorelin"
   }
 ]
