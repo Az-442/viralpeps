@@ -1902,5 +1902,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://peptidesuk.com/tb500-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:19:08.355Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://biopeptides-uk.com/product/sermorelin-10mg/"
   }
 ]
