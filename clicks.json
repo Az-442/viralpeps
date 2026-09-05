@@ -10621,5 +10621,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
+  },
+  {
+    "ts": "2026-09-05T21:53:42.872Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://tidelabs.co.uk/products/pancragen-research-peptide"
   }
 ]
