@@ -4926,5 +4926,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "cjc-1295-no-dac-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:53:39.735Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/"
   }
 ]
