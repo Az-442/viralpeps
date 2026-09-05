@@ -2246,5 +2246,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "adipotide-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/vial"
+  },
+  {
+    "ts": "2026-09-05T15:20:35.036Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptideslabuk.com/product/follistatin/"
   }
 ]
