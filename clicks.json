@@ -10869,5 +10869,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://ukpeptides.com/catalog/kglow25"
+  },
+  {
+    "ts": "2026-09-05T21:56:24.406Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://ukpeptides.com/catalog/kpv"
   }
 ]
