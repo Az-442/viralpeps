@@ -2342,5 +2342,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "ovagen",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-ovagen/"
+  },
+  {
+    "ts": "2026-09-05T15:21:32.998Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
