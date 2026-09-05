@@ -5886,5 +5886,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://britpeptides.co.uk/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-05T16:53:31.481Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://britpeptides.co.uk/product/selank/"
   }
 ]
