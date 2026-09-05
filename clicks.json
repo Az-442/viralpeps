@@ -8895,5 +8895,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://my-peptides.co.uk/products/ipamorelin"
+  },
+  {
+    "ts": "2026-09-05T20:28:33.343Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
   }
 ]
