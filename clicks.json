@@ -2918,5 +2918,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://rawpeptides.co.uk/product/mt2-30mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:42.358Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://chromapeptides.co.uk/product/glutathione/"
   }
 ]
