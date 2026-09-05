@@ -3510,5 +3510,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
+  },
+  {
+    "ts": "2026-09-05T15:29:14.174Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrh-fragment-176-191",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-fragment-176-191"
   }
 ]
