@@ -6526,5 +6526,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-05T17:03:26.551Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-dac"
   }
 ]
