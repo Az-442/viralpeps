@@ -4886,5 +4886,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ss-31-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:51:47.157Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/"
   }
 ]
