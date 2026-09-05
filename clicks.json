@@ -1542,5 +1542,13 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "mots-c",
     "destUrl": "https://astralabs.co.uk/product/mots-c-40mg-uk/"
+  },
+  {
+    "ts": "2026-09-05T15:17:02.311Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/mazdutide-10mg-vial/"
   }
 ]
