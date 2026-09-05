@@ -4190,5 +4190,13 @@
     "vendorName": "Be Better Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://bebetterpeptides.com/products/ghrp-2-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:38:22.508Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
   }
 ]
