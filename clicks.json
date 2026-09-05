@@ -654,5 +654,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://rawpeptides.co.uk/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-05T15:10:44.137Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://precision-peptides.shop/product/ll-37-5mg-no-packaging/"
   }
 ]
