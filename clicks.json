@@ -3998,5 +3998,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://tidelabs.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-05T15:35:22.003Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2"
   }
 ]
