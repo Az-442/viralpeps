@@ -2190,5 +2190,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://biopulsepeptides.co.uk/shop/tb-500/"
+  },
+  {
+    "ts": "2026-09-05T15:20:21.304Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://astralabs.co.uk/product/igf-1-lr3-1mg/"
   }
 ]
