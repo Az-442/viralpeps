@@ -5030,5 +5030,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tesofensine-500mcg-100-tablets",
     "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/"
+  },
+  {
+    "ts": "2026-09-05T15:56:13.222Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/"
   }
 ]
