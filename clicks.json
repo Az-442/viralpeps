@@ -7100,5 +7100,12 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptideslabuk.com/product/ghrp-6-acetate/"
+  },
+  {
+    "ts": "2026-09-05T18:50:04.250Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk"
   }
 ]
