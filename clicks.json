@@ -2294,5 +2294,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "adipotide-ftpp-5mg",
     "destUrl": "https://bluewellpeptides.com/product/fftp-adipotide-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:20:46.295Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
   }
 ]
