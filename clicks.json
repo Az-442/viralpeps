@@ -1374,5 +1374,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://ascendpeptidesuk.com/products/aod-9604-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:14:52.083Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://astralabs.co.uk/product/selank-10mg/"
   }
 ]
