@@ -2366,5 +2366,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://premiopeptides.co.uk/compounds/retatrutide"
+  },
+  {
+    "ts": "2026-09-05T15:21:38.978Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidesuk.com/thymosin-alpha-1/"
   }
 ]
