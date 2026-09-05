@@ -2726,5 +2726,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "nad-250mg",
     "destUrl": "https://peptidesuk.com/nad-250mg/"
+  },
+  {
+    "ts": "2026-09-05T15:25:52.670Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
