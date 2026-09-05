@@ -4750,5 +4750,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "kpv-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:48:28.891Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://researchpeptide.co.uk/product/kisspeptin/"
   }
 ]
