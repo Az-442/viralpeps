@@ -590,5 +590,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://britpeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:10:27.134Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "dsip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-peptides-dsip-5mg-research-peptide-for-laboratory-use-only-2/"
   }
 ]
