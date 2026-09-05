@@ -7156,5 +7156,12 @@
     "vendorSlug": "peptides-lab-uk",
     "vendorName": "Peptides Lab UK",
     "destUrl": "https://peptideslabuk.com"
+  },
+  {
+    "ts": "2026-09-05T18:54:19.186Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk"
   }
 ]
