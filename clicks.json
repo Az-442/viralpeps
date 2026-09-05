@@ -1190,5 +1190,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:13:09.824Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://olresearch.co.uk/product/kpv-10mg/"
   }
 ]
