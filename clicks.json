@@ -366,5 +366,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://precision-peptides.shop/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:20.687Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-semax-5mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
