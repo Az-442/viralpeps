@@ -1814,5 +1814,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "hexarelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-05T15:18:11.877Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
   }
 ]
