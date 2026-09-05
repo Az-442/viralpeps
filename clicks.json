@@ -1270,5 +1270,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://www.proformapeptides.co.uk/product/ara-290-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:13:30.817Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://peptideslabuk.com/product/vip/"
   }
 ]
