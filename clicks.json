@@ -2974,5 +2974,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "glutathione",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-GLUT-600"
+  },
+  {
+    "ts": "2026-09-05T15:26:57.133Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pt-141-10mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
