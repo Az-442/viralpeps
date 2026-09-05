@@ -11189,5 +11189,12 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "selank",
     "destUrl": "https://www.apex-pharma.co.uk/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-05T22:45:13.287Z",
+    "type": "vendor-site",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "destUrl": "https://www.imperialpeptides.co.uk"
   }
 ]
