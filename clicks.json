@@ -2414,5 +2414,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://ukpeptides.com/catalog/ghrp-2"
+  },
+  {
+    "ts": "2026-09-05T15:21:51.981Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bluewellpeptides.com/product/vesugen-20mg-peptide/"
   }
 ]
