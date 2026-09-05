@@ -2686,5 +2686,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://polygonpeptides.co.uk/product/mt2-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:25:41.650Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ukpeptides.com/catalog/cjc-1295"
   }
 ]
