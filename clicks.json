@@ -10374,5 +10374,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "hexarelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin"
+  },
+  {
+    "ts": "2026-09-05T21:36:20.136Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://thepeptidecode.co.uk/products/bpc-157-10mg"
   }
 ]
