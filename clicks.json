@@ -2134,5 +2134,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://tidelabs.co.uk/products/cjc-1295-no-dac"
+  },
+  {
+    "ts": "2026-09-05T15:20:08.281Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://tidelabs.co.uk/products/epithalon"
   }
 ]
