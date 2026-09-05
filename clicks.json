@@ -2902,5 +2902,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:38.374Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin-5mg-peptide-research",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research"
   }
 ]
