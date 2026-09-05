@@ -8271,5 +8271,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/vip/"
+  },
+  {
+    "ts": "2026-09-05T19:27:36.415Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://evapeptide.co.uk/product/buy-bpc-157-uk/"
   }
 ]
