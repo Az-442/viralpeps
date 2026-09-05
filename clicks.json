@@ -10901,5 +10901,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "nad-1000-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/nad-1000-nasal-spray"
+  },
+  {
+    "ts": "2026-09-05T21:56:41.724Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://ukpeptides.com/catalog/nad-plus"
   }
 ]
