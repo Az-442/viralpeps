@@ -2870,5 +2870,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://researchpeptide.co.uk/product/igf-1-des-1mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:30.365Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.stratfordpeptides.com/products/ss-31"
   }
 ]
