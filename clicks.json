@@ -94,5 +94,13 @@
     "vendorName": "PGNA Labs",
     "destUrl": "https://pgnalabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
+  },
+  {
+    "ts": "2026-09-05T15:03:20.231Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.peptifyuk.com/product/mots-c-10mg"
   }
 ]
