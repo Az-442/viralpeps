@@ -8399,5 +8399,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
+  },
+  {
+    "ts": "2026-09-05T19:31:03.103Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg"
   }
 ]
