@@ -10917,5 +10917,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://ukpeptides.com/catalog/oxytocin"
+  },
+  {
+    "ts": "2026-09-05T21:56:50.334Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "oxytocin-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/oxytocin-nasal-spray"
   }
 ]
