@@ -1478,5 +1478,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-05T15:15:18.136Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://www.peptifyuk.com/product/selank-semax-blend-20mg"
   }
 ]
