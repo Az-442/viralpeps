@@ -6836,5 +6836,13 @@
     "vendorSlug": "tested-peptides",
     "vendorName": "Tested Peptides",
     "destUrl": "https://www.testedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T17:51:16.317Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://chiltonlabs.co.uk/product/bacteriostatic-water/"
   }
 ]
