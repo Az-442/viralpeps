@@ -8822,5 +8822,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://biotideuk.com/products/wolverine-stack-20-mg"
+  },
+  {
+    "ts": "2026-09-05T20:08:05.650Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biotideuk.com/products/nad-500-mg"
   }
 ]
