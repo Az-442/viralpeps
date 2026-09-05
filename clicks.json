@@ -1718,5 +1718,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://premiopeptides.co.uk/compounds/ss-31"
+  },
+  {
+    "ts": "2026-09-05T15:17:47.718Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://ukpeptides.com/catalog/mazdutide"
   }
 ]
