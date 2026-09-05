@@ -6582,5 +6582,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T17:12:52.515Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
