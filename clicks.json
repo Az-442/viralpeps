@@ -1286,5 +1286,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptideslabuk.com/product/nad/"
+  },
+  {
+    "ts": "2026-09-05T15:13:34.806Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://ascendpeptidesuk.com/products/mots-c-40mg/"
   }
 ]
