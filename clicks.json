@@ -838,5 +838,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidesuk.com/dsip/"
+  },
+  {
+    "ts": "2026-09-05T15:11:32.449Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://olresearch.co.uk/product/glow-70mg/"
   }
 ]
