@@ -1262,5 +1262,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://peptideslabuk.com/product/peg-mgf/"
+  },
+  {
+    "ts": "2026-09-05T15:13:27.834Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ara-290-10mg/"
   }
 ]
