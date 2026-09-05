@@ -5302,5 +5302,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "kpv-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/kpv/"
+  },
+  {
+    "ts": "2026-09-05T16:06:51.252Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aicar",
+    "destUrl": "https://peptideslabuk.com/product/aicar/"
   }
 ]
