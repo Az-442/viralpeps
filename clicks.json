@@ -9455,5 +9455,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://midshirelabs.co.uk/products/nad/"
+  },
+  {
+    "ts": "2026-09-05T20:48:30.851Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/"
   }
 ]
