@@ -2750,5 +2750,13 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "gagrilintide-5mg",
     "destUrl": "https://evapeptide.co.uk/product/buy-cagrilintide-uk/"
+  },
+  {
+    "ts": "2026-09-05T15:25:58.701Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.novapeptide.co.uk/product/pt-141-vial/"
   }
 ]
