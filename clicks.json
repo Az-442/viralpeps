@@ -3046,5 +3046,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.proformapeptides.co.uk/product/5-amino-1-mq-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:27:15.092Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ahk-cu-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
   }
 ]
