@@ -8351,5 +8351,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-05T19:29:50.303Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://midshirelabs.co.uk/products/pt-141/"
   }
 ]
