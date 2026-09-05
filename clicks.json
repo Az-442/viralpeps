@@ -4782,5 +4782,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "wolverine-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/wolverine-stack-bpc-157-tb-500/"
+  },
+  {
+    "ts": "2026-09-05T15:49:06.200Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://anglopeptides.com/product/cjc-1295-without-dac-ipamorelin-5-mg-5-mg-batch-102-research-peptides/"
   }
 ]
