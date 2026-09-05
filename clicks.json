@@ -10414,5 +10414,12 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biotideuk.com/products/tesa"
+  },
+  {
+    "ts": "2026-09-05T21:42:49.727Z",
+    "type": "vendor-site",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "destUrl": "https://oplabs.co.uk"
   }
 ]
