@@ -4094,5 +4094,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.stratfordpeptides.com/products/disp"
+  },
+  {
+    "ts": "2026-09-05T15:37:10.419Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bluewellpeptides.com/product/slu-pp-332-10mg-peptide/"
   }
 ]
