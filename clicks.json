@@ -10677,5 +10677,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T21:54:33.199Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide"
   }
 ]
