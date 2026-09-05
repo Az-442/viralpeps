@@ -5942,5 +5942,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://britpeptides.co.uk/product/wolverine-stack-pen-bpc-157-10mg-tb-500-10mg-20mg/"
+  },
+  {
+    "ts": "2026-09-05T16:53:49.293Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://chromapeptides.co.uk/product/bpc-157/"
   }
 ]
