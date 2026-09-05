@@ -2758,5 +2758,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.novapeptide.co.uk/product/pt-141-vial/"
+  },
+  {
+    "ts": "2026-09-05T15:26:02.744Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bebetterpeptides.com/products/epithalon"
   }
 ]
