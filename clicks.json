@@ -5750,5 +5750,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "selank",
     "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/"
+  },
+  {
+    "ts": "2026-09-05T16:42:55.879Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://chiltonlabs.co.uk/product/bpc-157-10mg-vial/"
   }
 ]
