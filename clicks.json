@@ -1598,5 +1598,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:17:16.359Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
