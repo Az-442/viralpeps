@@ -8407,5 +8407,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-05T19:31:07.241Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
   }
 ]
