@@ -9135,5 +9135,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
+  },
+  {
+    "ts": "2026-09-05T20:45:03.276Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/foxo4-dr1-10mg/"
   }
 ]
