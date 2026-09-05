@@ -3334,5 +3334,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:28:28.199Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/vial"
   }
 ]
