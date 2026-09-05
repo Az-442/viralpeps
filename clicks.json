@@ -7647,5 +7647,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://ascendpeptidesuk.com/products/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-05T19:19:37.705Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bioplexpeptides.co.uk/products/igf-1-lr3-1mg-insulin-like-growth-factor-1"
   }
 ]
