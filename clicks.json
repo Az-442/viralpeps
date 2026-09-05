@@ -7607,5 +7607,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://appliedpeptides.com/store/ols/products/mots-c-20mg"
+  },
+  {
+    "ts": "2026-09-05T19:19:04.089Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/nad-500mg"
   }
 ]
