@@ -9847,5 +9847,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-05T20:54:43.183Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptidelabuk.co.uk/product/pe-22-28-10mg-nasal-spray/"
   }
 ]
