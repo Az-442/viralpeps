@@ -1566,5 +1566,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://precision-peptides.shop/product/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-05T15:17:08.316Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/"
   }
 ]
