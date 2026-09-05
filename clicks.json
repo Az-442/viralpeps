@@ -4846,5 +4846,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-05T15:51:37.049Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "n-acetyl-semax-amidate-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/n-acetyl-semax-amidate-10mg/"
   }
 ]
