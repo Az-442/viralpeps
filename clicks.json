@@ -1590,5 +1590,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-05T15:17:14.336Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/"
   }
 ]
