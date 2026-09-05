@@ -8143,5 +8143,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://chromapeptides.co.uk/product/nad/"
+  },
+  {
+    "ts": "2026-09-05T19:26:31.411Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://chromapeptides.co.uk/product/ss-31/"
   }
 ]
