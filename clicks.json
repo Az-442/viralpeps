@@ -350,5 +350,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/aod-9604/"
+  },
+  {
+    "ts": "2026-09-05T15:08:14.701Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/"
   }
 ]
