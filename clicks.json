@@ -5870,5 +5870,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-05T16:53:25.616Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://britpeptides.co.uk/product/pt-141/"
   }
 ]
