@@ -870,5 +870,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide"
+  },
+  {
+    "ts": "2026-09-05T15:11:41.721Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "testagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/"
   }
 ]
