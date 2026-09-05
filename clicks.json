@@ -1022,5 +1022,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-05T15:12:23.928Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://britpeptides.co.uk/product/nad-500mg/"
   }
 ]
