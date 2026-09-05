@@ -11653,5 +11653,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
+  },
+  {
+    "ts": "2026-09-05T23:56:43.236Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/"
   }
 ]
