@@ -78,5 +78,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "klow",
     "destUrl": "https://www.peptifyuk.com/product/klow-blend-80mg"
+  },
+  {
+    "ts": "2026-09-05T14:59:51.638Z",
+    "type": "vendor-site",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "destUrl": "https://crownpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/crown-peptides"
   }
 ]
