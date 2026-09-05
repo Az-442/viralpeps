@@ -4030,5 +4030,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "mgf",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg"
+  },
+  {
+    "ts": "2026-09-05T15:35:29.988Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://xlpeptides.com/product/selank-10mg/"
   }
 ]
