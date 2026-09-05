@@ -8838,5 +8838,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
+  },
+  {
+    "ts": "2026-09-05T20:08:08.940Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biotideuk.com/products/ss-31-10mg"
   }
 ]
