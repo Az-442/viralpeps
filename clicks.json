@@ -1798,5 +1798,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biopeptides-uk.com/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:18:07.793Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://polygonpeptides.co.uk/product/epithalon/"
   }
 ]
