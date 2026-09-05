@@ -11300,5 +11300,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-05T23:22:58.552Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://biotideuk.com/products/melanotan-1-10-mg"
   }
 ]
