@@ -3438,5 +3438,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://octagonpeptides.co.uk/product/kpv-10-mg/"
+  },
+  {
+    "ts": "2026-09-05T15:28:56.223Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-mots-c-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/"
   }
 ]
