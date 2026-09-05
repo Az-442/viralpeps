@@ -7655,5 +7655,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://bioplexpeptides.co.uk/products/igf-1-lr3-1mg-insulin-like-growth-factor-1"
+  },
+  {
+    "ts": "2026-09-05T19:20:58.317Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://ascendpeptidesuk.com/products/bpc-157/"
   }
 ]
