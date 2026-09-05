@@ -11212,5 +11212,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-05T22:48:28.725Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/tirzepatide.html"
   }
 ]
