@@ -11509,5 +11509,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/tesamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-05T23:55:38.432Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/ipamorelin/"
   }
 ]
