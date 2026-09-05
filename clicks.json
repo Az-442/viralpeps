@@ -6454,5 +6454,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "nad-500mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-05T16:58:56.511Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://zentra-peptides.com/product/nad/"
   }
 ]
