@@ -3502,5 +3502,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-kpv-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:29:12.154Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
   }
 ]
