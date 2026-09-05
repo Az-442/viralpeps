@@ -5998,5 +5998,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
+  },
+  {
+    "ts": "2026-09-05T16:54:26.692Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-SLU-5"
   }
 ]
