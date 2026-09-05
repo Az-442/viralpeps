@@ -3414,5 +3414,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
+  },
+  {
+    "ts": "2026-09-05T15:28:50.122Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptideslabuk.com/product/5-amino-1mq/"
   }
 ]
