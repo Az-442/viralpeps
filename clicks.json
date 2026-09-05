@@ -3550,5 +3550,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:29:23.662Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/"
   }
 ]
