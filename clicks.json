@@ -7319,5 +7319,13 @@
     "vendorSlug": "research-peptides-uk-main",
     "vendorName": "Research Peptides",
     "destUrl": "https://www.researchpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T19:14:19.017Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://purepeptidesuk.com/product/selank-5mg/"
   }
 ]
