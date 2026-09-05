@@ -5726,5 +5726,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-tb500-peptide-blend-10mg-vial-research-grade/"
+  },
+  {
+    "ts": "2026-09-05T16:38:37.428Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
   }
 ]
