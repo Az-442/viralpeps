@@ -2614,5 +2614,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "semaglutide",
     "destUrl": "https://britpeptides.co.uk/product/semaglutide-10mg-disposable-pen/"
+  },
+  {
+    "ts": "2026-09-05T15:25:23.678Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/sermorelin-5mg/"
   }
 ]
