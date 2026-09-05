@@ -822,5 +822,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:11:27.431Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://my-peptides.co.uk/products/ipamorelin"
   }
 ]
