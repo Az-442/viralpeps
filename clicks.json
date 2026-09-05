@@ -2030,5 +2030,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://chromapeptides.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-05T15:19:41.949Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-epithalon-10mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
