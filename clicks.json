@@ -8447,5 +8447,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-05T19:31:26.443Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
   }
 ]
