@@ -2950,5 +2950,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:50.389Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "premium-mod-grf-1-29-2mg",
+    "destUrl": "https://peptidesuk.com/mod-grf-1-29/"
   }
 ]
