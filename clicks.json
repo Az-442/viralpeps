@@ -2518,5 +2518,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "ghk-cu-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
+  },
+  {
+    "ts": "2026-09-05T15:24:37.753Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen"
   }
 ]
