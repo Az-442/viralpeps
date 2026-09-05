@@ -4134,5 +4134,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg"
+  },
+  {
+    "ts": "2026-09-05T15:37:43.220Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://xlpeptides.com/product/aod-9604/"
   }
 ]
