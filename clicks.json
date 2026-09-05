@@ -10541,5 +10541,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://tidelabs.co.uk/products/bacteriostatic-water-10ml"
+  },
+  {
+    "ts": "2026-09-05T21:52:59.487Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide"
   }
 ]
