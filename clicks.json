@@ -534,5 +534,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://chiltonlabs.co.uk/product/ipamorelin-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-05T15:10:10.116Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://precision-peptides.shop/product/kpv-10mg/"
   }
 ]
