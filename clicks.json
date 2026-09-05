@@ -2710,5 +2710,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-05T15:25:48.669Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://anglopeptides.com/product/epitalon-10mg-batch-103-research-peptide/"
   }
 ]
