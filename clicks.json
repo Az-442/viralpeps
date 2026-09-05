@@ -10359,5 +10359,12 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/thymosin-alpha-1-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T21:28:38.621Z",
+    "type": "vendor-site",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "destUrl": "https://greymatterpeptides.co.uk"
   }
 ]
