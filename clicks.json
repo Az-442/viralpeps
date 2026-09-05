@@ -2214,5 +2214,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://xlpeptides.com/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:20:27.268Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bebetterpeptides.com/products/igf1-lr3-1mg"
   }
 ]
