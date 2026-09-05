@@ -4374,5 +4374,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "dsip-5mg",
     "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:40:36.605Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/"
   }
 ]
