@@ -4830,5 +4830,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-05T15:49:28.098Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://oplabs.co.uk/product/ghk-cu-50mg/"
   }
 ]
