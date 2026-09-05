@@ -3838,5 +3838,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tirzepatide-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:30:57.467Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-kisspeptin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/"
   }
 ]
