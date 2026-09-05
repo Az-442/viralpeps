@@ -4198,5 +4198,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
+  },
+  {
+    "ts": "2026-09-05T15:38:32.994Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://researchpeptide.co.uk/product/gdf-8/"
   }
 ]
