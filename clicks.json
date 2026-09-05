@@ -3918,5 +3918,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mgf",
     "destUrl": "https://www.expresspeptides.co.uk/product/mgf/vial"
+  },
+  {
+    "ts": "2026-09-05T15:34:29.292Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://tidelabs.co.uk/products/semax"
   }
 ]
