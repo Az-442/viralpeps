@@ -10997,5 +10997,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-05T21:57:33.865Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://xlpeptides.com/product/bacteriostatic-water-10ml/"
   }
 ]
