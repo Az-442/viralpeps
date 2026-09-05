@@ -10319,5 +10319,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T21:06:23.454Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
   }
 ]
