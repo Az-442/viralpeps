@@ -3950,5 +3950,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "dermorphin",
     "destUrl": "https://kensingtonlabs.co.uk/product/dermorphin-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:34:39.104Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/ipamorelin"
   }
 ]
