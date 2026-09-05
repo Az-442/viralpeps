@@ -9775,5 +9775,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "dsip",
     "destUrl": "https://oplabs.co.uk/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-05T20:54:02.239Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://oplabs.co.uk/product/epithalon-10mg/"
   }
 ]
