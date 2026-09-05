@@ -1926,5 +1926,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://peptideslabuk.com/product/igf-1lr3/"
+  },
+  {
+    "ts": "2026-09-05T15:19:15.892Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://ukpeptides.com/catalog/pal-ghk"
   }
 ]
