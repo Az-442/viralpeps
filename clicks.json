@@ -2286,5 +2286,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "aod-9604-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/vial"
+  },
+  {
+    "ts": "2026-09-05T15:20:44.296Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bluewellpeptides.com/product/fftp-adipotide-5mg-peptide/"
   }
 ]
