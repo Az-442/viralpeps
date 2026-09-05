@@ -606,5 +606,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial"
+  },
+  {
+    "ts": "2026-09-05T15:10:31.108Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-snap-8-10mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
