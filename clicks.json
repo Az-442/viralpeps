@@ -5646,5 +5646,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ipamorelin-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-05T16:28:07.319Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
   }
 ]
