@@ -7135,5 +7135,12 @@
     "vendorSlug": "lab77-peptides",
     "vendorName": "Lab77 Peptides",
     "destUrl": "https://lab77peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T18:51:50.060Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "destUrl": "https://peptidesuk.com"
   }
 ]
