@@ -1406,5 +1406,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://anglopeptides.com/product/glow-blend-peptide-70mg-vial-batch-103-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:15:00.071Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://precision-peptides.shop/product/epithalon-10mg/"
   }
 ]
