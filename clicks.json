@@ -3734,5 +3734,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://octagonpeptides.co.uk/product/cjc-with-dac-5-mg/"
+  },
+  {
+    "ts": "2026-09-05T15:30:31.538Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tb-500-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/"
   }
 ]
