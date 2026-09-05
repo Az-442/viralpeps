@@ -10406,5 +10406,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://biotideuk.com/products/reta"
+  },
+  {
+    "ts": "2026-09-05T21:40:36.587Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa"
   }
 ]
