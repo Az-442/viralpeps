@@ -6094,5 +6094,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://peptx.co.uk/tirzepatide"
+  },
+  {
+    "ts": "2026-09-05T16:55:16.981Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pgnalabs.co.uk/product/bac-water"
   }
 ]
