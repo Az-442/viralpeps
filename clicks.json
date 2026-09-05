@@ -1854,5 +1854,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg"
+  },
+  {
+    "ts": "2026-09-05T15:18:23.769Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://premiopeptides.co.uk/compounds/tb-500"
   }
 ]
