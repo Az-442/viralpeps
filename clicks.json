@@ -6286,5 +6286,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/"
+  },
+  {
+    "ts": "2026-09-05T16:57:17.416Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://thepeptidecode.co.uk/products/bpc-157-10mg"
   }
 ]
