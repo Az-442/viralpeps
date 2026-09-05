@@ -3174,5 +3174,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://kensingtonlabs.co.uk/product/10ml-bacteriostatic-mixing-water/"
+  },
+  {
+    "ts": "2026-09-05T15:27:46.185Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vilon-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/"
   }
 ]
