@@ -4390,5 +4390,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://biopeptides-uk.com/product/ace-031-1mg/"
+  },
+  {
+    "ts": "2026-09-05T15:40:40.635Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/"
   }
 ]
