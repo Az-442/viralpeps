@@ -3678,5 +3678,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-ghk-cu-50mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-05T15:30:18.639Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://biopeptides-uk.com/product/kisspeptin-10mg/"
   }
 ]
