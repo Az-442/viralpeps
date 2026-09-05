@@ -5510,5 +5510,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "age-reversal-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/age-reversal-stack/"
+  },
+  {
+    "ts": "2026-09-05T16:19:45.708Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
   }
 ]
