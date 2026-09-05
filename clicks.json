@@ -878,5 +878,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "testagen",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/"
+  },
+  {
+    "ts": "2026-09-05T15:11:43.472Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://olresearch.co.uk/product/bpc-157-10mg/"
   }
 ]
