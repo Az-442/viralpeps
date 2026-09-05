@@ -6813,5 +6813,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
+  },
+  {
+    "ts": "2026-09-05T17:47:13.108Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
   }
 ]
