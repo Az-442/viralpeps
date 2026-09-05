@@ -3630,5 +3630,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-cagrilintide-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:30:06.456Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/76-ss-31-10mg.html"
   }
 ]
