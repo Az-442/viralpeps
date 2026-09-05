@@ -2606,5 +2606,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://xlpeptides.com/product/igf-1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-05T15:25:21.645Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britpeptides.co.uk/product/semaglutide-10mg-disposable-pen/"
   }
 ]
