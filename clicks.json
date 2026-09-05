@@ -3926,5 +3926,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "semax",
     "destUrl": "https://tidelabs.co.uk/products/semax"
+  },
+  {
+    "ts": "2026-09-05T15:34:31.111Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
