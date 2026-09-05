@@ -1118,5 +1118,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipamorelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
+  },
+  {
+    "ts": "2026-09-05T15:12:49.949Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/"
   }
 ]
