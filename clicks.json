@@ -5518,5 +5518,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "cjc-1295-no-dac-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-05T16:20:19.994Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "total-repair-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/total-repair-stack/"
   }
 ]
