@@ -2654,5 +2654,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
+  },
+  {
+    "ts": "2026-09-05T15:25:33.660Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://purepeptidesuk.com/product/ll-37-5mg/"
   }
 ]
