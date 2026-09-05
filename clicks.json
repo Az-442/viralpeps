@@ -2822,5 +2822,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopeptides-uk.com/product/bacteriostatic-water-10ml-biopura/"
+  },
+  {
+    "ts": "2026-09-05T15:26:18.362Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mots-c-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/mots-c-research-peptide"
   }
 ]
