@@ -1510,5 +1510,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://bluewellpeptides.com/product/igf1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-05T15:16:53.306Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://xlpeptides.com/product/wolverine-stack/"
   }
 ]
