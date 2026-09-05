@@ -7163,5 +7163,12 @@
     "vendorSlug": "brit-peptides",
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T18:54:25.232Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com"
   }
 ]
