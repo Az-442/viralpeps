@@ -2014,5 +2014,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-05T15:19:37.902Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/"
   }
 ]
