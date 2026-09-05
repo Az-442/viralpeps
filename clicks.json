@@ -5614,5 +5614,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/tb500-10mg/"
+  },
+  {
+    "ts": "2026-09-05T16:26:09.137Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.flexpeptides.co.uk/products/glutathione-1500mg"
   }
 ]
