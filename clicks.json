@@ -9471,5 +9471,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://midshirelabs.co.uk/products/ss31/"
+  },
+  {
+    "ts": "2026-09-05T20:48:39.338Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/"
   }
 ]
