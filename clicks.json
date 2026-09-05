@@ -7863,5 +7863,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://biohackpeptides.co.uk/product/mots-c-10mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T19:24:09.574Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
