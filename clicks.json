@@ -6382,5 +6382,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
+  },
+  {
+    "ts": "2026-09-05T16:58:28.400Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://xlpeptides.com/product/pt-141-10mg/"
   }
 ]
