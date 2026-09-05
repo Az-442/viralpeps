@@ -5462,5 +5462,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mq-nad-c-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen"
+  },
+  {
+    "ts": "2026-09-05T16:15:52.716Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biopeptides-uk.com/product/glutathione-1500mg/"
   }
 ]
