@@ -1726,5 +1726,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "mazdutide",
     "destUrl": "https://ukpeptides.com/catalog/mazdutide"
+  },
+  {
+    "ts": "2026-09-05T15:17:49.698Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biopeptides-uk.com/product/selank-10mg/"
   }
 ]
