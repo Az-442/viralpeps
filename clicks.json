@@ -3270,5 +3270,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-sermorelin-5mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:28:10.246Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://biopeptides-uk.com/product/pt-141-10mg/"
   }
 ]
