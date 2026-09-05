@@ -1238,5 +1238,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://chromapeptides.co.uk/product/dsip/"
+  },
+  {
+    "ts": "2026-09-05T15:13:21.797Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/ipamorelin"
   }
 ]
