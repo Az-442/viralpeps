@@ -750,5 +750,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-05T15:11:07.658Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptideslabuk.com/product/semax/"
   }
 ]
