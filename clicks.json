@@ -4206,5 +4206,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "gdf-8",
     "destUrl": "https://researchpeptide.co.uk/product/gdf-8/"
+  },
+  {
+    "ts": "2026-09-05T15:38:35.073Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.stratfordpeptides.com/products/aod-9604"
   }
 ]
