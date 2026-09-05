@@ -10909,5 +10909,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://ukpeptides.com/catalog/nad-plus"
+  },
+  {
+    "ts": "2026-09-05T21:56:45.776Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://ukpeptides.com/catalog/oxytocin"
   }
 ]
