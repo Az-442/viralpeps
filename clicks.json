@@ -5534,5 +5534,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://my-peptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-05T16:20:50.772Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
   }
 ]
