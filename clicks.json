@@ -622,5 +622,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "thymalin",
     "destUrl": "https://tidelabs.co.uk/products/thymalin"
+  },
+  {
+    "ts": "2026-09-05T15:10:35.156Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
   }
 ]
