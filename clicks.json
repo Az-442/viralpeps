@@ -10327,5 +10327,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-05T21:07:41.047Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kpv-5mg-peptide-research",
+    "destUrl": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research"
   }
 ]
