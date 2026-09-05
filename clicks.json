@@ -4494,5 +4494,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:45:43.053Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg"
   }
 ]
