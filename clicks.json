@@ -8031,5 +8031,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biotideuk.com/products/thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-05T19:25:22.191Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide"
   }
 ]
