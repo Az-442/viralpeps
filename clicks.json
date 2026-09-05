@@ -5822,5 +5822,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "selank",
     "destUrl": "https://biotideuk.com/products/selank-10-mg"
+  },
+  {
+    "ts": "2026-09-05T16:53:08.286Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://britpeptides.co.uk/product/bacteriostatic-water/"
   }
 ]
