@@ -5686,5 +5686,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen"
+  },
+  {
+    "ts": "2026-09-05T16:31:44.291Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
