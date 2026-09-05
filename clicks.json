@@ -446,5 +446,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://precision-peptides.shop/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:45.702Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://ascendpeptidesuk.com/products/ipamorelin-10mg/"
   }
 ]
