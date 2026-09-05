@@ -1766,5 +1766,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin/"
+  },
+  {
+    "ts": "2026-09-05T15:17:59.748Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/nad-500mg"
   }
 ]
