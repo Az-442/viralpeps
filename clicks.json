@@ -1494,5 +1494,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://premiopeptides.co.uk/compounds/ghk-cu"
+  },
+  {
+    "ts": "2026-09-05T15:15:22.073Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://ukpeptides.com/catalog/sermorelin"
   }
 ]
