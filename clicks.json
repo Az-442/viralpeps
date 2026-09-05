@@ -6693,5 +6693,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
+  },
+  {
+    "ts": "2026-09-05T17:30:41.035Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://chiltonlabs.co.uk/product/bacteriostatic-water/"
   }
 ]
