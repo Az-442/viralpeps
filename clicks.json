@@ -126,5 +126,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "glow",
     "destUrl": "https://thepeptidecode.co.uk/products/glow70-peptide-pen"
+  },
+  {
+    "ts": "2026-09-05T15:04:18.159Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://biohackpeptides.co.uk/product/semax-5mg-3ml-bac-water/"
   }
 ]
