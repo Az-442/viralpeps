@@ -3390,5 +3390,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://my-peptides.co.uk/products/pt-141"
+  },
+  {
+    "ts": "2026-09-05T15:28:44.194Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/44-klow-blend-80mg.html"
   }
 ]
