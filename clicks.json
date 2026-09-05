@@ -7791,5 +7791,13 @@
     "vendorName": "Be Better Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://bebetterpeptides.com/products/cjc-1295-with-dac-2mg"
+  },
+  {
+    "ts": "2026-09-05T19:22:13.389Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biopeptides-uk.com/product/bpc-157-10mg/"
   }
 ]
