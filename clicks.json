@@ -5438,5 +5438,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-05T16:15:05.690Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "sermorelin-grf-1-29-5mg",
+    "destUrl": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg"
   }
 ]
