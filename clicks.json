@@ -1614,5 +1614,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-05T15:17:21.329Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-lipo-c-10ml-research-solution-for-laboratory-use-only/"
   }
 ]
