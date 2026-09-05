@@ -2094,5 +2094,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SS31-10"
+  },
+  {
+    "ts": "2026-09-05T15:19:57.960Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/kpv"
   }
 ]
