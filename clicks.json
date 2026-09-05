@@ -558,5 +558,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
+  },
+  {
+    "ts": "2026-09-05T15:10:16.091Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://polygonpeptides.co.uk/product/wolverine-blend-20mg/"
   }
 ]
