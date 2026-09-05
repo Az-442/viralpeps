@@ -4126,5 +4126,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://www.stratfordpeptides.com/products/selank"
+  },
+  {
+    "ts": "2026-09-05T15:37:18.378Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg"
   }
 ]
