@@ -8862,5 +8862,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://my-peptides.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-05T20:14:11.729Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "gnrh-triptorelin-100mcg",
+    "destUrl": "https://purepeptidesuk.com/product/gnrh-triptorelin-100/"
   }
 ]
