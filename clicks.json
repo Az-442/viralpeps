@@ -2734,5 +2734,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
+  },
+  {
+    "ts": "2026-09-05T15:25:54.677Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://astralabs.co.uk/product/cjc-1295-ipamorelin-10mg-peptide/"
   }
 ]
