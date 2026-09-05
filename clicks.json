@@ -22,5 +22,13 @@
     "vendorName": "Midshire Labs",
     "destUrl": "https://midshirelabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/midshire-labs"
+  },
+  {
+    "ts": "2026-09-05T14:52:23.760Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "mots-c-the-peptide-company",
+    "destUrl": "https://ukpeptidelab.co.uk/product/mots-c"
   }
 ]
