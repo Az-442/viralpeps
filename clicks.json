@@ -278,5 +278,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://biohackpeptides.co.uk/product/ghk-cu-peptide-50mg-vial-high-purity-copper-peptide-for-research/"
+  },
+  {
+    "ts": "2026-09-05T15:05:16.485Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biohackpeptides.co.uk/product/ss-31-50mg-3ml-bac-water/"
   }
 ]
