@@ -7703,5 +7703,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://ascendpeptidesuk.com/products/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T19:21:16.980Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://astralabs.co.uk/product/bpc-157-tb-500-10mg-peptide/"
   }
 ]
