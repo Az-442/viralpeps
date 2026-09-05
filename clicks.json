@@ -6638,5 +6638,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-05T17:19:02.452Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
   }
 ]
