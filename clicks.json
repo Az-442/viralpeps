@@ -9463,5 +9463,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "selank",
     "destUrl": "https://midshirelabs.co.uk/products/selank/"
+  },
+  {
+    "ts": "2026-09-05T20:48:35.009Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/"
   }
 ]
