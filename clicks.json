@@ -5486,5 +5486,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-05T16:16:59.880Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/mots-c-10mg/"
   }
 ]
