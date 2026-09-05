@@ -5958,5 +5958,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "kpv-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-05T16:54:00.731Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
