@@ -5766,5 +5766,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T16:46:06.973Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-6"
   }
 ]
