@@ -7044,5 +7044,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://peptidesuk.com/snap-8-10mg/"
+  },
+  {
+    "ts": "2026-09-05T18:41:51.539Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.flexpeptides.co.uk/products/glutathione-1500mg"
   }
 ]
