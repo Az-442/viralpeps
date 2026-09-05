@@ -8575,5 +8575,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-05T19:32:34.139Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
   }
 ]
