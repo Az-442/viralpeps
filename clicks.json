@@ -358,5 +358,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/"
+  },
+  {
+    "ts": "2026-09-05T15:08:18.751Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://precision-peptides.shop/product/selank-10mg/"
   }
 ]
