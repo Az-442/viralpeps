@@ -6254,5 +6254,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://supplypeptides.co.uk/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-05T16:56:50.855Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
   }
 ]
