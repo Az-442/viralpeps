@@ -5470,5 +5470,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://biopeptides-uk.com/product/glutathione-1500mg/"
+  },
+  {
+    "ts": "2026-09-05T16:16:10.900Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://tidelabs.co.uk/products/follistatin-344"
   }
 ]
