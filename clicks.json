@@ -3038,5 +3038,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "oxytocin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial"
+  },
+  {
+    "ts": "2026-09-05T15:27:13.133Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.proformapeptides.co.uk/product/5-amino-1-mq-5mg/"
   }
 ]
