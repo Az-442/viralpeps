@@ -2510,5 +2510,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:22:36.148Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
   }
 ]
