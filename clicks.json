@@ -1382,5 +1382,13 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "selank",
     "destUrl": "https://astralabs.co.uk/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:14:54.043Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/"
   }
 ]
