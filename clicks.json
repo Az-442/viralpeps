@@ -1126,5 +1126,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-05T15:12:51.960Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.novapeptide.co.uk/product/tb500-10mg/"
   }
 ]
