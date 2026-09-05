@@ -6510,5 +6510,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://zentra-peptides.com/product/thymosin-alpha-1/"
+  },
+  {
+    "ts": "2026-09-05T17:00:02.673Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "dsip",
+    "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
   }
 ]
