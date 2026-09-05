@@ -6757,5 +6757,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-05T17:43:10.168Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "nad-500mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
   }
 ]
