@@ -5382,5 +5382,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-05T16:08:52.984Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/"
   }
 ]
