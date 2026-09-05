@@ -518,5 +518,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "bronchogen",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-bronchogen/"
+  },
+  {
+    "ts": "2026-09-05T15:10:06.110Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://polygonpeptides.co.uk/product/bpc-157-10mg/"
   }
 ]
