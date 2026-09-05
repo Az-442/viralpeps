@@ -6038,5 +6038,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-05T16:54:49.688Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
