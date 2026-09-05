@@ -11773,5 +11773,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.prime-peptides.co.uk/product/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-05T23:58:37.148Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/"
   }
 ]
