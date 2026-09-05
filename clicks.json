@@ -1782,5 +1782,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:18:03.715Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
   }
 ]
