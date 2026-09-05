@@ -10605,5 +10605,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "mgf",
     "destUrl": "https://tidelabs.co.uk/products/mgf"
+  },
+  {
+    "ts": "2026-09-05T21:53:34.518Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://tidelabs.co.uk/products/mots-c-research-peptide"
   }
 ]
