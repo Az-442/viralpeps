@@ -758,5 +758,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "semax",
     "destUrl": "https://peptideslabuk.com/product/semax/"
+  },
+  {
+    "ts": "2026-09-05T15:11:09.494Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-wolverine-stack-research-blend-bpc-157-10mg-tb500-10mg-total-20mg-research-material-for-laboratory-use-only/"
   }
 ]
