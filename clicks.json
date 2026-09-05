@@ -1518,5 +1518,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://xlpeptides.com/product/wolverine-stack/"
+  },
+  {
+    "ts": "2026-09-05T15:16:56.285Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/"
   }
 ]
