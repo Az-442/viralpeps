@@ -5734,5 +5734,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glow",
     "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
+  },
+  {
+    "ts": "2026-09-05T16:38:48.459Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://reta-uk.com/products/eloralintide"
   }
 ]
