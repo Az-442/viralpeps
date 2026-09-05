@@ -1254,5 +1254,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-05T15:13:26.470Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://peptideslabuk.com/product/peg-mgf/"
   }
 ]
