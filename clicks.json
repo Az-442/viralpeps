@@ -4630,5 +4630,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg"
+  },
+  {
+    "ts": "2026-09-05T15:47:51.036Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-500mg",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
   }
 ]
