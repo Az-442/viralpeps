@@ -3350,5 +3350,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://peptideslabuk.com/product/pt-141/"
+  },
+  {
+    "ts": "2026-09-05T15:28:32.188Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pbs-10ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/"
   }
 ]
