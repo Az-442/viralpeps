@@ -2702,5 +2702,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "hcg",
     "destUrl": "https://purepeptidesuk.com/product/hcg-5000iu/"
+  },
+  {
+    "ts": "2026-09-05T15:25:46.674Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "storage-container-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
   }
 ]
