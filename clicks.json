@@ -2422,5 +2422,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "vesugen",
     "destUrl": "https://bluewellpeptides.com/product/vesugen-20mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:21:54.003Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://ukpeptides.com/catalog/tesamorelin"
   }
 ]
