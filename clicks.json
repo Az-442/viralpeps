@@ -1702,5 +1702,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "hexarelin-5mg",
     "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
+  },
+  {
+    "ts": "2026-09-05T15:17:44.348Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.novapeptide.co.uk/product/cjc-1295-10mg-without-dac/"
   }
 ]
