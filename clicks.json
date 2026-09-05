@@ -4222,5 +4222,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-05T15:38:39.045Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tp2-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/"
   }
 ]
