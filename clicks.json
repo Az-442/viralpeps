@@ -2070,5 +2070,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-05T15:19:51.928Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.stratfordpeptides.com/products/snap-8"
   }
 ]
