@@ -9943,5 +9943,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac/"
+  },
+  {
+    "ts": "2026-09-05T20:56:42.343Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-with-dac/"
   }
 ]
