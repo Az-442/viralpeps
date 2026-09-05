@@ -3454,5 +3454,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mt-2-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:29:00.158Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-epithalon-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/epithalon-10mg/"
   }
 ]
