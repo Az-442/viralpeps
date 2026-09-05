@@ -4158,5 +4158,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
+  },
+  {
+    "ts": "2026-09-05T15:37:49.132Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/dsip-5mg/"
   }
 ]
