@@ -2502,5 +2502,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:22:14.015Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/mots-c-10mg/"
   }
 ]
