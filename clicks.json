@@ -5982,5 +5982,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-MOTS-10"
+  },
+  {
+    "ts": "2026-09-05T16:54:16.329Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500"
   }
 ]
