@@ -8591,5 +8591,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-05T19:39:03.605Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
   }
 ]
