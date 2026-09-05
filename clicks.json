@@ -3542,5 +3542,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-acetic-acid",
     "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/"
+  },
+  {
+    "ts": "2026-09-05T15:29:22.167Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg"
   }
 ]
