@@ -8439,5 +8439,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/nad-plus-500mg"
+  },
+  {
+    "ts": "2026-09-05T19:31:22.485Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
   }
 ]
