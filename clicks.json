@@ -1862,5 +1862,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://premiopeptides.co.uk/compounds/tb-500"
+  },
+  {
+    "ts": "2026-09-05T15:18:25.742Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv/"
   }
 ]
