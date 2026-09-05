@@ -5814,5 +5814,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/"
+  },
+  {
+    "ts": "2026-09-05T16:53:04.897Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg"
   }
 ]
