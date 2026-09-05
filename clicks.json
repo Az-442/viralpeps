@@ -158,5 +158,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://biohackpeptides.co.uk/product/selank-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:04:35.728Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
   }
 ]
