@@ -5358,5 +5358,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-05T16:07:53.593Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/foxo4-dr1-10mg/"
   }
 ]
