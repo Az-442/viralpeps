@@ -7871,5 +7871,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-05T19:24:12.358Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biohackpeptides.co.uk/product/nad-500mg-3ml-bac-water/"
   }
 ]
