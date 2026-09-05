@@ -5854,5 +5854,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-05T16:53:21.085Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.proformapeptides.co.uk/product/selank-10mg/"
   }
 ]
