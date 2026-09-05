@@ -6518,5 +6518,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
+  },
+  {
+    "ts": "2026-09-05T17:01:13.910Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
   }
 ]
