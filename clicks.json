@@ -6190,5 +6190,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://polygonpeptides.co.uk/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-05T16:56:09.012Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://precision-peptides.shop/product/kpv-10mg/"
   }
 ]
