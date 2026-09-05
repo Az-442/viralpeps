@@ -4470,5 +4470,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "selank-5mg",
     "destUrl": "https://purepeptidesuk.com/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:41:45.066Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
