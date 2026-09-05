@@ -3374,5 +3374,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://biopulsepeptides.co.uk/shop/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:28:38.210Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/aicar-50mg"
   }
 ]
