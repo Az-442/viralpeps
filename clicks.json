@@ -2302,5 +2302,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-05T15:20:48.332Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://olresearch.co.uk/product/epithalon-10mg/"
   }
 ]
