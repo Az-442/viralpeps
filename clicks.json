@@ -5230,5 +5230,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://peptideslabuk.com/product/cjc-1295-with-dac/"
+  },
+  {
+    "ts": "2026-09-05T16:00:55.726Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen"
   }
 ]
