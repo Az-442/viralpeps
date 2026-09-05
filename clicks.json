@@ -62,5 +62,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://ukpeptides.com/catalog/glow"
+  },
+  {
+    "ts": "2026-09-05T14:59:21.585Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.stratfordpeptides.com/products/l-carnitine"
   }
 ]
