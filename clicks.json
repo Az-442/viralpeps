@@ -11093,5 +11093,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://supplypeptides.co.uk/products/igf-lr3"
+  },
+  {
+    "ts": "2026-09-05T22:15:47.635Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
   }
 ]
