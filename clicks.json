@@ -1174,5 +1174,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "snap-8",
     "destUrl": "https://bluewellpeptides.com/product/snap-8-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:13:03.963Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://biohackpeptides.co.uk/product/kisspeptin-peptide-5mg-3ml-bac-water/"
   }
 ]
