@@ -9511,5 +9511,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.peptidesonline.uk/shop/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-05T20:50:19.536Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg-20mg"
   }
 ]
