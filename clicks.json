@@ -7114,5 +7114,12 @@
     "vendorSlug": "nova-peptide",
     "vendorName": "Nova Peptide",
     "destUrl": "https://www.novapeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-05T18:51:25.895Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co"
   }
 ]
