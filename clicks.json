@@ -8679,5 +8679,13 @@
     "vendorName": "Nova Peptide",
     "destUrl": "https://www.novapeptide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/nova-peptide"
+  },
+  {
+    "ts": "2026-09-05T19:55:16.703Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ss-31-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/vial"
   }
 ]
