@@ -6677,5 +6677,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "peg-mgf-2mg",
     "destUrl": "https://researchpeptide.co.uk/product/peg-mgf-2mg/"
+  },
+  {
+    "ts": "2026-09-05T17:24:01.312Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
