@@ -11069,5 +11069,13 @@
     "vendorName": "Momentum Peptides",
     "destUrl": "https://momentumpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/momentum-peptides"
+  },
+  {
+    "ts": "2026-09-05T22:10:41.964Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/"
   }
 ]
