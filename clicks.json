@@ -5742,5 +5742,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "eloralintide",
     "destUrl": "https://reta-uk.com/products/eloralintide"
+  },
+  {
+    "ts": "2026-09-05T16:42:11.356Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/"
   }
 ]
