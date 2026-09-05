@@ -774,5 +774,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://chromapeptides.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-05T15:11:13.419Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biohackpeptides.co.uk/product/thymosin-alpha-1-5mg-3ml-bac-water/"
   }
 ]
