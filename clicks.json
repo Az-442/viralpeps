@@ -2118,5 +2118,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.stratfordpeptides.com/products/nad"
+  },
+  {
+    "ts": "2026-09-05T15:20:04.274Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://evapeptide.co.uk/product/buy-thymosin-alpha-1-uk/"
   }
 ]
