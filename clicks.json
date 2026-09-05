@@ -4958,5 +4958,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://octagonpeptides.co.uk/product/cjc-no-dac-5-mg/"
+  },
+  {
+    "ts": "2026-09-05T15:53:47.728Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295-dac-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-dac-5mg"
   }
 ]
