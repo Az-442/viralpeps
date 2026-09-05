@@ -9959,5 +9959,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptideslabuk.com/product/dsip/"
+  },
+  {
+    "ts": "2026-09-05T20:56:48.463Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptideslabuk.com/product/epithalon/"
   }
 ]
