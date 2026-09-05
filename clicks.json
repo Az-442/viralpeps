@@ -3478,5 +3478,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-05T15:29:06.168Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://chromapeptides.co.uk/product/5-amino-1mq/"
   }
 ]
