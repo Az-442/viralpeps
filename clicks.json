@@ -382,5 +382,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:08:24.709Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/"
   }
 ]
