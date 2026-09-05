@@ -2662,5 +2662,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ll-37",
     "destUrl": "https://purepeptidesuk.com/product/ll-37-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:25:35.663Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://tidelabs.co.uk/products/pancragen-research-peptide"
   }
 ]
