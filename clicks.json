@@ -4046,5 +4046,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://sterlingpeptides.co.uk/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-05T15:36:07.508Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ss-31"
   }
 ]
