@@ -950,5 +950,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://peptideslabuk.com/product/thymalin/"
+  },
+  {
+    "ts": "2026-09-05T15:12:04.639Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
   }
 ]
