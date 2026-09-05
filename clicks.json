@@ -10311,5 +10311,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidesuk.com/dsip/"
+  },
+  {
+    "ts": "2026-09-05T21:00:10.967Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
   }
 ]
