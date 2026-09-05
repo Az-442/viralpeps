@@ -5046,5 +5046,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghk-cu-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-05T15:56:17.319Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "cartalax-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/cartalax-20mg/"
   }
 ]
