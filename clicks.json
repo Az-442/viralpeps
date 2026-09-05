@@ -4726,5 +4726,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "oxytocin-acetate",
     "destUrl": "https://researchpeptide.co.uk/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-05T15:48:22.900Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg"
   }
 ]
