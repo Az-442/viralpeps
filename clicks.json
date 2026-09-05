@@ -4534,5 +4534,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://biopeptides-uk.com/product/glutathione-1500mg/"
+  },
+  {
+    "ts": "2026-09-05T15:47:28.375Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen"
   }
 ]
