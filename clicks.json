@@ -478,5 +478,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "glow",
     "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-05T15:08:53.720Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.peptifyuk.com/product/bpc-157-10mg"
   }
 ]
