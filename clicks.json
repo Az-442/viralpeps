@@ -8455,5 +8455,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
+  },
+  {
+    "ts": "2026-09-05T19:31:30.406Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
   }
 ]
