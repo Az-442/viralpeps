@@ -11421,5 +11421,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://biotideuk.com/products/glutathione-600-mg"
+  },
+  {
+    "ts": "2026-09-05T23:50:06.507Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://biotideuk.com/products/cjc-1295-no-dac-5-mg-ipamorelin-5-mg"
   }
 ]
