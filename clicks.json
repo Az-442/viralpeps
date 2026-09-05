@@ -5606,5 +5606,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "lipo-c",
     "destUrl": "https://kensingtonlabs.co.uk/product/lipo-c-10ml/"
+  },
+  {
+    "ts": "2026-09-05T16:25:24.321Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/tb500-10mg/"
   }
 ]
