@@ -10717,5 +10717,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "vip",
     "destUrl": "https://tidelabs.co.uk/products/vip-10mg"
+  },
+  {
+    "ts": "2026-09-05T21:54:55.496Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend"
   }
 ]
