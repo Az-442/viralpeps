@@ -5902,5 +5902,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "semaglutide",
     "destUrl": "https://britpeptides.co.uk/product/semaglutide-10mg-disposable-pen/"
+  },
+  {
+    "ts": "2026-09-05T16:53:37.707Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://britpeptides.co.uk/product/ss-31/"
   }
 ]
