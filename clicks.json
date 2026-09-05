@@ -1894,5 +1894,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-GHKCU-50"
+  },
+  {
+    "ts": "2026-09-05T15:18:33.769Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidesuk.com/tb500-5mg/"
   }
 ]
