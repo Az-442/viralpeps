@@ -6062,5 +6062,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "selank",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-05T16:55:01.283Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptx.co.uk/semaglutide"
   }
 ]
