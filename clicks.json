@@ -7258,5 +7258,12 @@
     "vendorSlug": "research-peptide-uk",
     "vendorName": "Research Peptides UK",
     "destUrl": "https://researchpeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-05T19:03:00.266Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com"
   }
 ]
