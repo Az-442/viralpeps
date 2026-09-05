@@ -438,5 +438,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "selank",
     "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/"
+  },
+  {
+    "ts": "2026-09-05T15:08:43.713Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://precision-peptides.shop/product/klow-80mg/"
   }
 ]
