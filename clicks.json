@@ -4142,5 +4142,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://xlpeptides.com/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-05T15:37:45.149Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
   }
 ]
