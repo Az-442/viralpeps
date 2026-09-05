@@ -7229,5 +7229,13 @@
     "vendorSlug": "imperial-peptides",
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T19:02:14.865Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
