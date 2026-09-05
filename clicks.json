@@ -5454,5 +5454,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-pbs-10ml",
     "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/"
+  },
+  {
+    "ts": "2026-09-05T16:15:50.908Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mq-nad-c-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen"
   }
 ]
