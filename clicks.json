@@ -1366,5 +1366,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://biopeptides-uk.com/product/research-bundle-a-bpc157-10mg-tb500-10mg-peptide-vial-bundle/"
+  },
+  {
+    "ts": "2026-09-05T15:14:50.231Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://ascendpeptidesuk.com/products/aod-9604-10mg/"
   }
 ]
