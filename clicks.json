@@ -726,5 +726,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://anglopeptides.com/product/ipamorelin-10mg-batch-168-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:11:03.471Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "mgf",
+    "destUrl": "https://peptidesuk.com/mgf/"
   }
 ]
