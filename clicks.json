@@ -7799,5 +7799,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biopeptides-uk.com/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-05T19:22:38.785Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hmg-75iu",
+    "destUrl": "https://purepeptidesuk.com/product/hmg-75iu/"
   }
 ]
