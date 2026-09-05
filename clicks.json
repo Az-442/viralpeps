@@ -11541,5 +11541,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "kpv",
     "destUrl": "https://midshirelabs.co.uk/products/kpv/"
+  },
+  {
+    "ts": "2026-09-05T23:55:55.898Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/"
   }
 ]
