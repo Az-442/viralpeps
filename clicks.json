@@ -3782,5 +3782,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:30:43.478Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html"
   }
 ]
