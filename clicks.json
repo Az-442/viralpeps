@@ -11109,5 +11109,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "selank",
     "destUrl": "https://thepeptidecode.co.uk/products/selank-10mg"
+  },
+  {
+    "ts": "2026-09-05T22:18:37.248Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptx.co.uk/product/aod-9604"
   }
 ]
