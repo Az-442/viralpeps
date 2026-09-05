@@ -5390,5 +5390,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-05T16:08:54.385Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
   }
 ]
