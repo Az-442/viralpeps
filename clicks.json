@@ -5214,5 +5214,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tesamorelin-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
+  },
+  {
+    "ts": "2026-09-05T15:59:03.177Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
