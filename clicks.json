@@ -406,5 +406,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://precision-peptides.shop/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:31.744Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/"
   }
 ]
