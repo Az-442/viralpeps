@@ -5654,5 +5654,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
+  },
+  {
+    "ts": "2026-09-05T16:28:32.983Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://precision-peptides.shop/product/selank-10mg/"
   }
 ]
