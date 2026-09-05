@@ -10725,5 +10725,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-05T21:55:00.117Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://trutide.co.uk/product/bpc-157-10mg/"
   }
 ]
