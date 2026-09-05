@@ -2182,5 +2182,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://biohackpeptides.co.uk/product/5-amino-1mq-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:20:19.291Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tb-500/"
   }
 ]
