@@ -5254,5 +5254,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-05T16:02:52.862Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://midshirelabs.co.uk/products/pt-141/"
   }
 ]
