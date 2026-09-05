@@ -11805,5 +11805,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://premiopeptides.co.uk/compounds/dsip"
+  },
+  {
+    "ts": "2026-09-05T23:58:47.710Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/"
   }
 ]
