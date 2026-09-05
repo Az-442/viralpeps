@@ -7244,5 +7244,12 @@
     "vendorSlug": "new-wave-peptides",
     "vendorName": "New Wave Peptides",
     "destUrl": "https://newwavepeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T19:02:54.312Z",
+    "type": "vendor-site",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "destUrl": "https://xlpeptides.com"
   }
 ]
