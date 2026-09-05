@@ -9911,5 +9911,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/"
+  },
+  {
+    "ts": "2026-09-05T20:56:30.766Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptideslabuk.com/product/bac-water/"
   }
 ]
