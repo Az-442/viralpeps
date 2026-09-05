@@ -5526,5 +5526,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "total-repair-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/total-repair-stack/"
+  },
+  {
+    "ts": "2026-09-05T16:20:24.939Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500"
   }
 ]
