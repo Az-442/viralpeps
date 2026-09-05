@@ -8623,5 +8623,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/"
+  },
+  {
+    "ts": "2026-09-05T19:44:51.729Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
