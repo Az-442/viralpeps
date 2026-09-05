@@ -166,5 +166,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:04:38.462Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://thepeptidecode.co.uk/products/ghk-cu-100mg"
   }
 ]
