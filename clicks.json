@@ -4086,5 +4086,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://biopeptides-uk.com/product/aod-9604-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:37:08.396Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp"
   }
 ]
