@@ -4182,5 +4182,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "vip",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/vip-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:37:55.193Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bebetterpeptides.com/products/ghrp-2-10mg"
   }
 ]
