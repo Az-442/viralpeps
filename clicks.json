@@ -1134,5 +1134,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.novapeptide.co.uk/product/tb500-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:12:53.972Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://anglopeptides.com/product/dsip-5mg-new-batch-105-research-peptide/"
   }
 ]
