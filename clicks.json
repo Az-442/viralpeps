@@ -4694,5 +4694,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31-50mg",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-50mg/"
+  },
+  {
+    "ts": "2026-09-05T15:48:15.525Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "bpc-157-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
   }
 ]
