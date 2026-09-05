@@ -2390,5 +2390,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://ascendpeptidesuk.com/products/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-05T15:21:45.273Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-6"
   }
 ]
