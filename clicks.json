@@ -3094,5 +3094,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:27:26.171Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "snap-8-argireline-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/snap-8-argireline-10mg"
   }
 ]
