@@ -502,5 +502,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://premiopeptides.co.uk/compounds/semax"
+  },
+  {
+    "ts": "2026-09-05T15:10:03.136Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.peptifyuk.com/product/mots-c-10mg"
   }
 ]
