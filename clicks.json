@@ -2638,5 +2638,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-05T15:25:29.682Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
   }
 ]
