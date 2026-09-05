@@ -1534,5 +1534,13 @@
     "vendorName": "CMSR Labs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://cmsrlabs.co/product/tesamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:17:00.275Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://astralabs.co.uk/product/mots-c-40mg-uk/"
   }
 ]
