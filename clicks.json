@@ -1646,5 +1646,13 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://evapeptide.co.uk/product/buy-tb500-uk/"
+  },
+  {
+    "ts": "2026-09-05T15:17:29.359Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://my-peptides.co.uk/products/bpc-157"
   }
 ]
