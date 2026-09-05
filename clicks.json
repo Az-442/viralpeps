@@ -8951,5 +8951,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
+  },
+  {
+    "ts": "2026-09-05T20:40:44.674Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/dsip-10mg/"
   }
 ]
