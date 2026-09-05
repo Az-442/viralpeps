@@ -3742,5 +3742,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tb-500-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:30:33.561Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/31-epitalon-10mg.html"
   }
 ]
