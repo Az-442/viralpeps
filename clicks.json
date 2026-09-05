@@ -8615,5 +8615,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-05T19:43:18.939Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/"
   }
 ]
