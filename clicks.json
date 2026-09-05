@@ -7887,5 +7887,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://biohackpeptides.co.uk/product/pt-141-peptide-10mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T19:24:20.705Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://biohackpeptides.co.uk/product/selank-5mg-3ml-bac-water/"
   }
 ]
