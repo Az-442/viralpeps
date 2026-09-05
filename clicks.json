@@ -10797,5 +10797,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kpv",
     "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
+  },
+  {
+    "ts": "2026-09-05T21:55:41.999Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://ukpeptidelab.co.uk/product/l-carnitine"
   }
 ]
