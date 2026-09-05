@@ -7527,5 +7527,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.apex-pharma.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-05T19:18:18.879Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
   }
 ]
