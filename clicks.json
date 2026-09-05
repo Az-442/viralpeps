@@ -4382,5 +4382,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bpc-157-5mg",
     "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:40:38.614Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://biopeptides-uk.com/product/ace-031-1mg/"
   }
 ]
