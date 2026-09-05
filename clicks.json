@@ -134,5 +134,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://biohackpeptides.co.uk/product/semax-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:04:19.434Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/sermorelin-10mg"
   }
 ]
