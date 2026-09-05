@@ -6358,5 +6358,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
+  },
+  {
+    "ts": "2026-09-05T16:58:15.976Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://xlpeptides.com/product/mots-c-10mg/"
   }
 ]
