@@ -5798,5 +5798,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.flexpeptides.co.uk/products/glutathione-1500mg"
+  },
+  {
+    "ts": "2026-09-05T16:52:52.375Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biohackpeptides.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
