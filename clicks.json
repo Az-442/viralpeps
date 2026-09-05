@@ -3934,5 +3934,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
+  },
+  {
+    "ts": "2026-09-05T15:34:34.072Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
   }
 ]
