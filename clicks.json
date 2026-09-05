@@ -3142,5 +3142,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "bpc-157-oral",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-nasal-spray"
+  },
+  {
+    "ts": "2026-09-05T15:27:38.196Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-2-mt-ii/"
   }
 ]
