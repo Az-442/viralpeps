@@ -1502,5 +1502,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://ukpeptides.com/catalog/sermorelin"
+  },
+  {
+    "ts": "2026-09-05T15:16:33.603Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bluewellpeptides.com/product/igf1-lr3-1mg/"
   }
 ]
