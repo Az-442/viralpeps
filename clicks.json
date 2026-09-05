@@ -3326,5 +3326,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-05T15:28:26.234Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
   }
 ]
