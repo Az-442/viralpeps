@@ -4910,5 +4910,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "semaglutide",
     "destUrl": "https://www.peptidesx.uk/product/semaglutide/"
+  },
+  {
+    "ts": "2026-09-05T15:53:19.764Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://chiltonlabs.co.uk/product/ipamorelin-10mg-vial/"
   }
 ]
