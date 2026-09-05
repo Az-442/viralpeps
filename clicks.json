@@ -2358,5 +2358,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin"
+  },
+  {
+    "ts": "2026-09-05T15:21:36.972Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://premiopeptides.co.uk/compounds/retatrutide"
   }
 ]
