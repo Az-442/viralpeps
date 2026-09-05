@@ -8854,5 +8854,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tesamorelin-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
+  },
+  {
+    "ts": "2026-09-05T20:14:09.855Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://my-peptides.co.uk/products/bpc-157"
   }
 ]
