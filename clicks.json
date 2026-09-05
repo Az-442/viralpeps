@@ -398,5 +398,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://precision-peptides.shop/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:28.095Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://precision-peptides.shop/product/glow-70mg/"
   }
 ]
