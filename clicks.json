@@ -3886,5 +3886,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bundle-mito-stack",
     "destUrl": "https://purepeptidesuk.com/product/bundle-mito-stack/"
+  },
+  {
+    "ts": "2026-09-05T15:33:42.268Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-gh-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-gh-stack/"
   }
 ]
