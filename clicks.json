@@ -6014,5 +6014,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SS31-10"
+  },
+  {
+    "ts": "2026-09-05T16:54:36.826Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
