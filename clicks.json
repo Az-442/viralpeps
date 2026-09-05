@@ -1950,5 +1950,13 @@
     "vendorName": "CMSR Labs",
     "compoundSlug": "semaglutide",
     "destUrl": "https://cmsrlabs.co/product/semaglutide-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:19:21.875Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://chromapeptides.co.uk/product/igf-1-lr3/"
   }
 ]
