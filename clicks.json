@@ -542,5 +542,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://precision-peptides.shop/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:10:12.082Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://bluewellpeptides.com/product/dermorphin-5mg-peptide/"
   }
 ]
