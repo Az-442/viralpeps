@@ -7615,5 +7615,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://appliedpeptides.com/store/ols/products/nad-500mg"
+  },
+  {
+    "ts": "2026-09-05T19:19:08.557Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/premium-retatrutide-30mg-pen-"
   }
 ]
