@@ -4078,5 +4078,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/selank-5mg"
+  },
+  {
+    "ts": "2026-09-05T15:37:06.398Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://biopeptides-uk.com/product/aod-9604-5mg/"
   }
 ]
