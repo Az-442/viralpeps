@@ -222,5 +222,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptifyuk.com/product/ipamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:04:55.887Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg"
   }
 ]
