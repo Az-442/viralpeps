@@ -958,5 +958,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:12:07.116Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
