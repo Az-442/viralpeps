@@ -3702,5 +3702,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://thepeptidecompany.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-05T15:30:23.714Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://purepeptidesuk.com/product/follistatin-344-1mg/"
   }
 ]
