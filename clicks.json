@@ -2102,5 +2102,13 @@
     "vendorName": "New Wave Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/kpv"
+  },
+  {
+    "ts": "2026-09-05T15:20:00.338Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymosin-alpha-1-5mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
