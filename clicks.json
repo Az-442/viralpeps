@@ -7107,5 +7107,12 @@
     "vendorSlug": "biohack-peptides",
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T18:51:24.465Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk"
   }
 ]
