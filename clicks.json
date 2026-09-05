@@ -2782,5 +2782,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:08.333Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water/"
   }
 ]
