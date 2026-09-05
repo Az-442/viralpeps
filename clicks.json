@@ -1214,5 +1214,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://britpeptides.co.uk/product/wolverine-stack-pen-bpc-157-10mg-tb-500-10mg-20mg/"
+  },
+  {
+    "ts": "2026-09-05T15:13:15.774Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ss31-10mg-2/"
   }
 ]
