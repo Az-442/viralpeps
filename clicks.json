@@ -3406,5 +3406,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:28:48.141Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
   }
 ]
