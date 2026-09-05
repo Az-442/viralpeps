@@ -5918,5 +5918,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-05T16:53:43.602Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://britpeptides.co.uk/product/tirzepatide/"
   }
 ]
