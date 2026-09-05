@@ -462,5 +462,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:49.742Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://precision-peptides.shop/product/mot-c-10mg/"
   }
 ]
