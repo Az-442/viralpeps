@@ -2966,5 +2966,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/igf-1lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:55.761Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-GLUT-600"
   }
 ]
