@@ -742,5 +742,13 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-05T15:11:06.492Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/"
   }
 ]
