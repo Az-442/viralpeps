@@ -1582,5 +1582,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:17:12.654Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aicar",
+    "destUrl": "https://peptideslabuk.com/product/aicar/"
   }
 ]
