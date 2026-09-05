@@ -566,5 +566,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://polygonpeptides.co.uk/product/wolverine-blend-20mg/"
+  },
+  {
+    "ts": "2026-09-05T15:10:18.315Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptideslabuk.com/product/ipamorelin/"
   }
 ]
