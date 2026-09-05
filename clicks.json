@@ -8383,5 +8383,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.flexpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T19:30:53.459Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/tesamorelin-20mg"
   }
 ]
