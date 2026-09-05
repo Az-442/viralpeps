@@ -1182,5 +1182,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://biohackpeptides.co.uk/product/kisspeptin-peptide-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:13:05.987Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
   }
 ]
