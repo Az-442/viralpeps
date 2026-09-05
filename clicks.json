@@ -10709,5 +10709,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "vesugen",
     "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide"
+  },
+  {
+    "ts": "2026-09-05T21:54:51.411Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg"
   }
 ]
