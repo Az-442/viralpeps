@@ -3358,5 +3358,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-pbs-10ml",
     "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/"
+  },
+  {
+    "ts": "2026-09-05T15:28:34.192Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://tidelabs.co.uk/products/follistatin-344"
   }
 ]
