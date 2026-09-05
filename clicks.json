@@ -3118,5 +3118,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.novapeptide.co.uk/product/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-05T15:27:32.197Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://britpeptides.co.uk/product/pt-141/"
   }
 ]
