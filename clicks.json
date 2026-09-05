@@ -686,5 +686,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "nad-plus",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-nad-100mg-research-only-peptide-for-laboratory-use-only/"
+  },
+  {
+    "ts": "2026-09-05T15:10:53.177Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biohackpeptides.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
