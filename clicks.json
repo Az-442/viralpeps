@@ -5430,5 +5430,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://peptideslabuk.com/product/pt-141/"
+  },
+  {
+    "ts": "2026-09-05T16:14:47.360Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "dsip-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
   }
 ]
