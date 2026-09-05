@@ -286,5 +286,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://biohackpeptides.co.uk/product/ss-31-50mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:06:48.674Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://reta-uk.com/products/cjc-1295-no-dac"
   }
 ]
