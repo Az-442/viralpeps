@@ -8367,5 +8367,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.flexpeptides.co.uk/products/mots-c-20mg"
+  },
+  {
+    "ts": "2026-09-05T19:30:47.671Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.flexpeptides.co.uk/products/selank-5mg"
   }
 ]
