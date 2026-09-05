@@ -9279,5 +9279,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10mg/"
+  },
+  {
+    "ts": "2026-09-05T20:46:59.102Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
