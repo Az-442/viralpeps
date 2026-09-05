@@ -2926,5 +2926,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://chromapeptides.co.uk/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-05T15:26:44.380Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "nad-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
   }
 ]
