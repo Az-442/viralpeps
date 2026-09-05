@@ -4486,5 +4486,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-05T15:43:50.549Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-research-peptide/"
   }
 ]
