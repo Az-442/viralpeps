@@ -8023,5 +8023,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biotideuk.com/products/tesa"
+  },
+  {
+    "ts": "2026-09-05T19:25:19.160Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biotideuk.com/products/thymosin-alpha-1"
   }
 ]
