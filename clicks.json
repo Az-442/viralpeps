@@ -5702,5 +5702,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptideslabuk.com/product/nad/"
+  },
+  {
+    "ts": "2026-09-05T16:32:50.973Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://tidelabs.co.uk/products/selank"
   }
 ]
