@@ -854,5 +854,13 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://evapeptide.co.uk/product/buy-mots-c-uk/"
+  },
+  {
+    "ts": "2026-09-05T15:11:38.482Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-sermorelin-5mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
