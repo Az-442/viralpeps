@@ -1870,5 +1870,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://sterlingpeptides.co.uk/product/kpv/"
+  },
+  {
+    "ts": "2026-09-05T15:18:27.746Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/"
   }
 ]
