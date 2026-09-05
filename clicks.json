@@ -1886,5 +1886,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bluewellpeptides.com/product/aicar-50mg-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:18:31.784Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-GHKCU-50"
   }
 ]
