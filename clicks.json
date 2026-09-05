@@ -110,5 +110,13 @@
     "vendorName": "Trutide",
     "destUrl": "https://trutide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/trutide"
+  },
+  {
+    "ts": "2026-09-05T15:04:10.745Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "selank",
+    "destUrl": "https://thepeptidecode.co.uk/products/selank-10mg"
   }
 ]
