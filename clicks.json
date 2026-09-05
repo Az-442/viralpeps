@@ -6661,5 +6661,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.apexbiolabs.co.uk/product/mots-c/"
+  },
+  {
+    "ts": "2026-09-05T17:20:29.956Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
   }
 ]
