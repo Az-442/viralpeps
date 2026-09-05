@@ -4230,5 +4230,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "tp2-10mg",
     "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:38:41.146Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hexarelin-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/"
   }
 ]
