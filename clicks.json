@@ -8599,5 +8599,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T19:39:45.841Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
   }
 ]
