@@ -1342,5 +1342,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://tidelabs.co.uk/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-05T15:14:44.052Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/bpc-157-10mg/"
   }
 ]
