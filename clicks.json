@@ -582,5 +582,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.novapeptide.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:10:22.131Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/ipamorelin-10mg/"
   }
 ]
