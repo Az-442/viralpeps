@@ -8903,5 +8903,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-05T20:29:10.551Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/"
   }
 ]
