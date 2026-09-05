@@ -7631,5 +7631,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://appliedpeptides.com/store/ols/products/tesamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-05T19:19:22.055Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/tirzepatide-30mg-"
   }
 ]
