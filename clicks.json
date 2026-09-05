@@ -310,5 +310,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:02.529Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://cmsrlabs.co/product/semax-5mg/"
   }
 ]
