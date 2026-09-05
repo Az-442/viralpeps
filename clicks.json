@@ -6078,5 +6078,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-05T16:55:09.452Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
