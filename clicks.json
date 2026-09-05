@@ -294,5 +294,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://reta-uk.com/products/cjc-1295-no-dac"
+  },
+  {
+    "ts": "2026-09-05T15:07:03.175Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/"
   }
 ]
