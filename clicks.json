@@ -8607,5 +8607,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
+  },
+  {
+    "ts": "2026-09-05T19:39:53.408Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
   }
 ]
