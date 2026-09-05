@@ -1574,5 +1574,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/"
+  },
+  {
+    "ts": "2026-09-05T15:17:10.299Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
   }
 ]
