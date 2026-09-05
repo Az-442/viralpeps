@@ -6350,5 +6350,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "ss-31",
     "destUrl": "https://thepeptidecode.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T16:58:08.675Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
   }
 ]
