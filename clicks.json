@@ -2814,5 +2814,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295/"
+  },
+  {
+    "ts": "2026-09-05T15:26:16.324Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopeptides-uk.com/product/bacteriostatic-water-10ml-biopura/"
   }
 ]
