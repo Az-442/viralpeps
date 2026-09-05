@@ -3182,5 +3182,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vilon-20mg",
     "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/"
+  },
+  {
+    "ts": "2026-09-05T15:27:48.205Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/thymosin-alpha-1-5mg/"
   }
 ]
