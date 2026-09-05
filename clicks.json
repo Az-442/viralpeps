@@ -5350,5 +5350,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-05T16:07:50.986Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
   }
 ]
