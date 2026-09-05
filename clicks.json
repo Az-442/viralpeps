@@ -7084,5 +7084,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-05T18:45:48.112Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://precision-peptides.shop/product/tesamorelin-10mg/"
   }
 ]
