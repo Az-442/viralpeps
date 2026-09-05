@@ -4350,5 +4350,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://biopeptides-uk.com/product/oxytocin-2mg/"
+  },
+  {
+    "ts": "2026-09-05T15:40:30.598Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.stratfordpeptides.com/products/l-carnitine"
   }
 ]
