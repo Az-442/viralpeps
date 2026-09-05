@@ -7807,5 +7807,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "hmg-75iu",
     "destUrl": "https://purepeptidesuk.com/product/hmg-75iu/"
+  },
+  {
+    "ts": "2026-09-05T19:22:50.671Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/"
   }
 ]
