@@ -6685,5 +6685,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
+  },
+  {
+    "ts": "2026-09-05T17:26:36.744Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
   }
 ]
