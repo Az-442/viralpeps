@@ -10429,5 +10429,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-05T21:50:16.537Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
   }
 ]
