@@ -1206,5 +1206,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://peptideslabuk.com/product/snap-8/"
+  },
+  {
+    "ts": "2026-09-05T15:13:13.745Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://britpeptides.co.uk/product/wolverine-stack-pen-bpc-157-10mg-tb-500-10mg-20mg/"
   }
 ]
