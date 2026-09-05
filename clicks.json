@@ -3878,5 +3878,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-05T15:33:40.282Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-mito-stack/"
   }
 ]
