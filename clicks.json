@@ -4574,5 +4574,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptideslabuk.com/product/nad/"
+  },
+  {
+    "ts": "2026-09-05T15:47:36.927Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/29-dsip-5mg.html"
   }
 ]
