@@ -182,5 +182,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://thepeptidecode.co.uk/products/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-05T15:04:42.424Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://thepeptidecode.co.uk/products/ss-31-10mg"
   }
 ]
