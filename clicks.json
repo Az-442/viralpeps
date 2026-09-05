@@ -3590,5 +3590,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-slu-pp-332-5mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/slu-pp-332-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:29:33.189Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://octagonpeptides.co.uk/product/ghk-cu-100-mg/"
   }
 ]
