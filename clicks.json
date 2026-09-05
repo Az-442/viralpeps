@@ -254,5 +254,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:05:06.455Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
   }
 ]
