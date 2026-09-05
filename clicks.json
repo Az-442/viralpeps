@@ -2830,5 +2830,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "mots-c-research-peptide",
     "destUrl": "https://tidelabs.co.uk/products/mots-c-research-peptide"
+  },
+  {
+    "ts": "2026-09-05T15:26:20.334Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://cmsrlabs.co/shop/"
   }
 ]
