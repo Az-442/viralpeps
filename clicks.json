@@ -9391,5 +9391,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "dsip",
     "destUrl": "https://midshirelabs.co.uk/products/dsip/"
+  },
+  {
+    "ts": "2026-09-05T20:47:58.265Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/"
   }
 ]
