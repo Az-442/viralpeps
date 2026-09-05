@@ -7076,5 +7076,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.peptidesx.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-05T18:44:09.065Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
   }
 ]
