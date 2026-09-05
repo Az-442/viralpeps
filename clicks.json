@@ -4438,5 +4438,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "semax",
     "destUrl": "https://thepeptidecompany.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-05T15:41:38.061Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kpv-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
   }
 ]
