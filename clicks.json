@@ -30,5 +30,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "mots-c-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/mots-c"
+  },
+  {
+    "ts": "2026-09-05T14:54:10.984Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ghk-cu-50mg/"
   }
 ]
