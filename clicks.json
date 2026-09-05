@@ -6206,5 +6206,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://premiopeptides.co.uk/compounds/nad-plus"
+  },
+  {
+    "ts": "2026-09-05T16:56:21.354Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.proformapeptides.co.uk/product/5-amino-1-mq-5mg/"
   }
 ]
