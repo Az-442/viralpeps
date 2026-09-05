@@ -6198,5 +6198,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://precision-peptides.shop/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-05T16:56:15.995Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://premiopeptides.co.uk/compounds/nad-plus"
   }
 ]
