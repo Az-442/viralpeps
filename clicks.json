@@ -11173,5 +11173,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/premium-retatrutide-30mg-pen-"
+  },
+  {
+    "ts": "2026-09-05T22:44:22.492Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
   }
 ]
