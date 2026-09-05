@@ -2846,5 +2846,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "adipotide-ftpp-5mg",
     "destUrl": "https://purepeptidesuk.com/product/adipotide-ftpp-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:26:24.326Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://ukpeptides.com/catalog/ghrp-6"
   }
 ]
