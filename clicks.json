@@ -862,5 +862,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "sermorelin",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-sermorelin-5mg-research-only-peptide-for-laboratory-use-only/"
+  },
+  {
+    "ts": "2026-09-05T15:11:40.495Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide"
   }
 ]
