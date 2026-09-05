@@ -4038,5 +4038,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://xlpeptides.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:35:31.982Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://sterlingpeptides.co.uk/product/aod-9604/"
   }
 ]
