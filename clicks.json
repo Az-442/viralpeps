@@ -2470,5 +2470,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/"
+  },
+  {
+    "ts": "2026-09-05T15:22:06.001Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
   }
 ]
