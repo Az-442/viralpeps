@@ -1038,5 +1038,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "pinealon",
     "destUrl": "https://biopeptides-uk.com/product/pinealon-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:12:27.944Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://chromapeptides.co.uk/product/selank/"
   }
 ]
