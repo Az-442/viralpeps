@@ -11284,5 +11284,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-05T23:19:06.262Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tb-500/"
   }
 ]
