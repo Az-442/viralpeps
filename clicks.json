@@ -3942,5 +3942,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "hexarelin",
     "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
+  },
+  {
+    "ts": "2026-09-05T15:34:37.081Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://kensingtonlabs.co.uk/product/dermorphin-5mg/"
   }
 ]
