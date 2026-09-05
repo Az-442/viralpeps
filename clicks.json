@@ -3790,5 +3790,13 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html"
+  },
+  {
+    "ts": "2026-09-05T15:30:45.468Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://octagonpeptides.co.uk/product/pt-141-10-mg/"
   }
 ]
