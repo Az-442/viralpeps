@@ -8391,5 +8391,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.flexpeptides.co.uk/products/tesamorelin-20mg"
+  },
+  {
+    "ts": "2026-09-05T19:30:56.192Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
   }
 ]
