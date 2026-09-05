@@ -1878,5 +1878,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://britpeptides.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-05T15:18:29.739Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bluewellpeptides.com/product/aicar-50mg-peptide/"
   }
 ]
