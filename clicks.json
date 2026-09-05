@@ -10525,5 +10525,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://reta-uk.com/products/nad"
+  },
+  {
+    "ts": "2026-09-05T21:52:51.255Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg"
   }
 ]
