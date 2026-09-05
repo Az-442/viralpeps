@@ -1734,5 +1734,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://biopeptides-uk.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:17:51.706Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/vial"
   }
 ]
