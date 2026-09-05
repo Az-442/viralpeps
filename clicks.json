@@ -454,5 +454,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://ascendpeptidesuk.com/products/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:08:47.721Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/"
   }
 ]
