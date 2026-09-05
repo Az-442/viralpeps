@@ -5950,5 +5950,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://chromapeptides.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-05T16:53:55.928Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
   }
 ]
