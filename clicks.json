@@ -3494,5 +3494,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "acetic-acid-reconstitution-solvent-10ml",
     "destUrl": "https://chromapeptides.co.uk/product/acetic-acid-0-6/"
+  },
+  {
+    "ts": "2026-09-05T15:29:10.146Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-kpv-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv-10mg/"
   }
 ]
