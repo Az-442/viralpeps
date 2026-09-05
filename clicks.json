@@ -5542,5 +5542,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T16:21:21.908Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bac-water-10ml-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/"
   }
 ]
