@@ -3958,5 +3958,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.stratfordpeptides.com/products/ipamorelin"
+  },
+  {
+    "ts": "2026-09-05T15:34:41.083Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
   }
 ]
