@@ -7149,5 +7149,12 @@
     "vendorSlug": "ascend-peptides",
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com"
+  },
+  {
+    "ts": "2026-09-05T18:52:18.719Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com"
   }
 ]
