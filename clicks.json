@@ -1446,5 +1446,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
+  },
+  {
+    "ts": "2026-09-05T15:15:10.108Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://peptidesuk.com/pal-ghk/"
   }
 ]
