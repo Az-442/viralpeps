@@ -1030,5 +1030,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://britpeptides.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-05T15:12:26.011Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://biopeptides-uk.com/product/pinealon-10mg/"
   }
 ]
