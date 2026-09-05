@@ -11605,5 +11605,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://kensingtonlabs.co.uk/product/ace031-1mg/"
+  },
+  {
+    "ts": "2026-09-05T23:56:24.981Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg-blend/"
   }
 ]
