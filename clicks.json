@@ -6741,5 +6741,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptideslabuk.com/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-05T17:39:02.922Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://ukpeptidelab.co.uk/product/melanotan-i"
   }
 ]
