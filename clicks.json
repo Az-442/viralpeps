@@ -6669,5 +6669,13 @@
     "vendorName": "Precision Peptides",
     "destUrl": "https://precision-peptides.shop",
     "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
+  },
+  {
+    "ts": "2026-09-05T17:21:55.767Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "peg-mgf-2mg",
+    "destUrl": "https://researchpeptide.co.uk/product/peg-mgf-2mg/"
   }
 ]
