@@ -5678,5 +5678,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.apexbiolabs.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-05T16:30:20.316Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen"
   }
 ]
