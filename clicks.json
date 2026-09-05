@@ -7639,5 +7639,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/tirzepatide-30mg-"
+  },
+  {
+    "ts": "2026-09-05T19:19:31.022Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://ascendpeptidesuk.com/products/bacteriostatic-water/"
   }
 ]
