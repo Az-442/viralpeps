@@ -4070,5 +4070,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptideslabuk.com/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-05T15:37:05.172Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/selank-5mg"
   }
 ]
