@@ -7567,5 +7567,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://appliedpeptides.com/store/ols/products/pfizer-hospira-bacteriostatic-water-usp-30ml"
+  },
+  {
+    "ts": "2026-09-05T19:18:39.508Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/bpc157-10mg"
   }
 ]
