@@ -6374,5 +6374,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://xlpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-05T16:58:25.687Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
