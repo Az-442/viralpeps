@@ -1662,5 +1662,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ara-290",
     "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:17:33.318Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://biohackpeptides.co.uk/product/pt-141-peptide-10mg-3ml-bac-water/"
   }
 ]
