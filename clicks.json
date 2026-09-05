@@ -1806,5 +1806,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "epithalon-vial-express",
     "destUrl": "https://polygonpeptides.co.uk/product/epithalon/"
+  },
+  {
+    "ts": "2026-09-05T15:18:09.749Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen"
   }
 ]
