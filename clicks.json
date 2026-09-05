@@ -1830,5 +1830,13 @@
     "vendorName": "OL Research",
     "compoundSlug": "tb-500",
     "destUrl": "https://olresearch.co.uk/product/tb-500-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:18:17.722Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "dsip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/dsip/pen"
   }
 ]
