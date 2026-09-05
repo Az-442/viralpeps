@@ -4998,5 +4998,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "peg-mgf-2mg",
     "destUrl": "https://researchpeptide.co.uk/product/peg-mgf-2mg/"
+  },
+  {
+    "ts": "2026-09-05T15:56:05.189Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "fragment-176-191-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/fragment-176-191-2mg/"
   }
 ]
