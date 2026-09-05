@@ -8774,5 +8774,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://biotideuk.com/products/cjc-1295-no-dac-5-mg-ipamorelin-5-mg"
+  },
+  {
+    "ts": "2026-09-05T20:07:50.002Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide"
   }
 ]
