@@ -2438,5 +2438,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://peptideslabuk.com/product/bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:21:58.029Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.stratfordpeptides.com/products/kpv"
   }
 ]
