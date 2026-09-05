@@ -8671,5 +8671,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-05T19:54:48.473Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/nova-peptide"
   }
 ]
