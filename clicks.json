@@ -3686,5 +3686,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://biopeptides-uk.com/product/kisspeptin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:30:20.467Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pt-141-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/"
   }
 ]
