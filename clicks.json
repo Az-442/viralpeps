@@ -3382,5 +3382,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/aicar-50mg"
+  },
+  {
+    "ts": "2026-09-05T15:28:42.257Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://my-peptides.co.uk/products/pt-141"
   }
 ]
