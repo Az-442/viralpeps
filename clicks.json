@@ -10533,5 +10533,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ara-290",
     "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg"
+  },
+  {
+    "ts": "2026-09-05T21:52:55.357Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://tidelabs.co.uk/products/bacteriostatic-water-10ml"
   }
 ]
