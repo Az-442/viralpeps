@@ -2670,5 +2670,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "pancragen",
     "destUrl": "https://tidelabs.co.uk/products/pancragen-research-peptide"
+  },
+  {
+    "ts": "2026-09-05T15:25:37.661Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bluewellpeptides.com/product/epithalon-10mg-peptide/"
   }
 ]
