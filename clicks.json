@@ -798,5 +798,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-05T15:11:21.430Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.proformapeptides.co.uk/product/aod9604/"
   }
 ]
