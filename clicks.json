@@ -4566,5 +4566,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "hexarelin",
     "destUrl": "https://octagonpeptides.co.uk/product/hexarelin-5-mg/"
+  },
+  {
+    "ts": "2026-09-05T15:47:35.659Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptideslabuk.com/product/nad/"
   }
 ]
