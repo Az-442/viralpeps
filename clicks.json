@@ -1414,5 +1414,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://precision-peptides.shop/product/epithalon-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:15:02.083Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://chromapeptides.co.uk/product/kpv/"
   }
 ]
