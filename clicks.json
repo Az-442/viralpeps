@@ -1334,5 +1334,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-05T15:14:41.028Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu"
   }
 ]
