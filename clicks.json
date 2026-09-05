@@ -5694,5 +5694,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-05T16:31:49.692Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptideslabuk.com/product/nad/"
   }
 ]
