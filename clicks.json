@@ -3086,5 +3086,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-05T15:27:24.084Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg"
   }
 ]
