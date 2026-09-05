@@ -7312,5 +7312,12 @@
     "vendorName": "New Wave Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/selank-peptide"
+  },
+  {
+    "ts": "2026-09-05T19:13:15.748Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "destUrl": "https://www.researchpeptides.co.uk"
   }
 ]
