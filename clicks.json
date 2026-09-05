@@ -526,5 +526,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://polygonpeptides.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:10:08.112Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://chiltonlabs.co.uk/product/ipamorelin-10mg-vial/"
   }
 ]
