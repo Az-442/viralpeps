@@ -2854,5 +2854,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://ukpeptides.com/catalog/ghrp-6"
+  },
+  {
+    "ts": "2026-09-05T15:26:26.329Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://cmsrlabs.co/product/melanotan-ii/"
   }
 ]
