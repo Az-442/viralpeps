@@ -10509,5 +10509,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-05T21:52:46.252Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://tidelabs.co.uk/products/5-amino-1mq-10mg"
   }
 ]
