@@ -1558,5 +1558,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://peptideslabuk.com/product/aod9604/"
+  },
+  {
+    "ts": "2026-09-05T15:17:06.315Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://precision-peptides.shop/product/bacteriostatic-water-10ml/"
   }
 ]
