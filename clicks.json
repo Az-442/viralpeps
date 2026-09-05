@@ -11533,5 +11533,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "klow",
     "destUrl": "https://midshirelabs.co.uk/products/klow80/"
+  },
+  {
+    "ts": "2026-09-05T23:55:51.691Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/"
   }
 ]
