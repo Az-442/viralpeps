@@ -7463,5 +7463,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-05T19:17:46.803Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/"
   }
 ]
