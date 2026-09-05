@@ -10366,5 +10366,13 @@
     "vendorSlug": "grey-matter-peptides",
     "vendorName": "Grey Matter Peptides",
     "destUrl": "https://greymatterpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-05T21:30:44.691Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin"
   }
 ]
