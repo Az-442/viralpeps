@@ -8878,5 +8878,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/"
+  },
+  {
+    "ts": "2026-09-05T20:18:06.696Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "glow",
+    "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/glow"
   }
 ]
