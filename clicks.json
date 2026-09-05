@@ -3110,5 +3110,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.stratfordpeptides.com/products/epitalon"
+  },
+  {
+    "ts": "2026-09-05T15:27:30.172Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.novapeptide.co.uk/product/kisspeptin/"
   }
 ]
