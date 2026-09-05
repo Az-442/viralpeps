@@ -982,5 +982,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptidesuk.com/bpc-157/"
+  },
+  {
+    "ts": "2026-09-05T15:12:13.703Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research"
   }
 ]
