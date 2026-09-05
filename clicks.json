@@ -8015,5 +8015,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biotideuk.com/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T19:25:16.257Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa"
   }
 ]
