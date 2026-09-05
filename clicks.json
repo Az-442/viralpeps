@@ -630,5 +630,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-05T15:10:37.652Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.peptidesonline.uk/shop/ipamorelin/"
   }
 ]
