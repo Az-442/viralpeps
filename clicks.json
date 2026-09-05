@@ -6262,5 +6262,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
+  },
+  {
+    "ts": "2026-09-05T16:57:01.137Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://purepeptidesuk.com/product/ghrp-6-5/"
   }
 ]
