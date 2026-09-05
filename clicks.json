@@ -11236,5 +11236,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T22:57:57.625Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
   }
 ]
