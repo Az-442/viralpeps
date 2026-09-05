@@ -1654,5 +1654,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://my-peptides.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-05T15:17:31.352Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg"
   }
 ]
