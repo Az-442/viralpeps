@@ -6270,5 +6270,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://purepeptidesuk.com/product/ghrp-6-5/"
+  },
+  {
+    "ts": "2026-09-05T16:57:04.173Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
   }
 ]
