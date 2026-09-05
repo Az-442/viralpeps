@@ -7423,5 +7423,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.apexbiolabs.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-05T19:17:23.780Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/pt-141/"
   }
 ]
