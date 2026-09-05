@@ -1046,5 +1046,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://chromapeptides.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-05T15:12:29.923Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.peptifyuk.com/product/tb-500-5mg"
   }
 ]
