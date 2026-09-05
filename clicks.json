@@ -7288,5 +7288,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://sterlingpeptides.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-05T19:08:55.497Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
   }
 ]
