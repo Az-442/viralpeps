@@ -2430,5 +2430,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://ukpeptides.com/catalog/tesamorelin"
+  },
+  {
+    "ts": "2026-09-05T15:21:56.140Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptideslabuk.com/product/bac-water/"
   }
 ]
