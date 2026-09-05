@@ -3870,5 +3870,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://appliedpeptides.com/store/ols/products/mots-c-20mg"
+  },
+  {
+    "ts": "2026-09-05T15:33:01.126Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
