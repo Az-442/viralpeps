@@ -292,8 +292,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 </div>
 
                 {/* CTA Button - ViralPeps blue */}
-                <a
-                  href={vendor.website}
+                {/* Routes through /go/{vendorSlug} so the outbound site-visit click is tracked */}
+                <Link
+                  href={`/go/${vendor.slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-all shadow-lg shadow-blue-600/25 hover:shadow-blue-500/40"
@@ -303,7 +304,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
 

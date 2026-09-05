@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import compoundsData from "@/data/compounds.json";
 import vendorsData from "@/data/vendors.json";
+import { logClick } from "@/lib/click-logger";
 
+export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   { params }: { params: Promise<{ vendorSlug: string; compoundSlug: string }> }
 ) {
   const { vendorSlug, compoundSlug } = await params;
@@ -46,6 +48,22 @@ export async function GET(
     );
   }
 
-  // 5. 302 redirect to the supplier's product page
+  // 5. Log the outbound product click BEFORE redirecting. The logger never
+  //    throws and is safe to await; a failure only means the click isn't
+  //    counted — never breaks the redirect.
+  try {
+    await logClick({
+      type: "product",
+      vendorSlug,
+      vendorName: vendor.name,
+      compoundSlug: compound.slug,
+      destUrl: match.url,
+      refPage: request.headers.get("referer") || undefined,
+    });
+  } catch {
+    /* never block the redirect on a logging failure */
+  }
+
+  // 6. 302 redirect to the supplier's product page
   return NextResponse.redirect(match.url, 302);
 }
