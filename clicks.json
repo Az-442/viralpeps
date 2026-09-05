@@ -6398,5 +6398,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://xlpeptides.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-05T16:58:34.280Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
   }
 ]
