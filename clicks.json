@@ -2718,5 +2718,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://anglopeptides.com/product/epitalon-10mg-batch-103-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:25:50.671Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "nad-250mg",
+    "destUrl": "https://peptidesuk.com/nad-250mg/"
   }
 ]
