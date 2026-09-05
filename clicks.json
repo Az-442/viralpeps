@@ -1390,5 +1390,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/"
+  },
+  {
+    "ts": "2026-09-05T15:14:56.040Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
   }
 ]
