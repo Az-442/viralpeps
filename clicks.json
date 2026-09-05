@@ -4686,5 +4686,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:48:10.477Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/ss-31-50mg/"
   }
 ]
