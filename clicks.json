@@ -8830,5 +8830,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biotideuk.com/products/nad-500-mg"
+  },
+  {
+    "ts": "2026-09-05T20:08:06.986Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
   }
 ]
