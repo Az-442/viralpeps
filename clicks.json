@@ -7208,5 +7208,12 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-05T19:02:04.268Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com"
   }
 ]
