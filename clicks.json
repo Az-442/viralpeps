@@ -4590,5 +4590,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "tesamorelin-10mg",
     "destUrl": "https://biopeptides-uk.com/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:47:41.046Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html"
   }
 ]
