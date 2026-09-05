@@ -7583,5 +7583,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg"
+  },
+  {
+    "ts": "2026-09-05T19:18:49.599Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg"
   }
 ]
