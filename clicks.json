@@ -142,5 +142,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "sermorelin",
     "destUrl": "https://thepeptidecode.co.uk/products/sermorelin-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:04:22.412Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://thepeptidecode.co.uk/products/mots-c-10mg"
   }
 ]
