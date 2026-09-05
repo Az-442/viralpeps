@@ -11917,5 +11917,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.prime-peptides.co.uk/product/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-05T23:59:29.009Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "mots-c-40mg",
+    "destUrl": "https://purepeptidesuk.com/product/mots-c-40mg/"
   }
 ]
