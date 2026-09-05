@@ -5718,5 +5718,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-05T16:35:36.376Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-tb500-peptide-blend-10mg-vial-research-grade/"
   }
 ]
