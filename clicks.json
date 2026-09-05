@@ -1758,5 +1758,13 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-05T15:17:57.701Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin/"
   }
 ]
