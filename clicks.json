@@ -4278,5 +4278,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "hexarelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg"
+  },
+  {
+    "ts": "2026-09-05T15:39:32.805Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin/"
   }
 ]
