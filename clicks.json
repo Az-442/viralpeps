@@ -4542,5 +4542,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen"
+  },
+  {
+    "ts": "2026-09-05T15:47:30.410Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
   }
 ]
