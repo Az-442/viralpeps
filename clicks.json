@@ -1062,5 +1062,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://anglopeptides.com/product/bpc-157-tb4-blend-10mg10mg-batch-103-research-peptide/"
+  },
+  {
+    "ts": "2026-09-05T15:12:33.934Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500"
   }
 ]
