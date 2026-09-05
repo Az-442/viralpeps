@@ -7186,5 +7186,12 @@
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-05T18:56:20.327Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "destUrl": "https://biopulsepeptides.co.uk"
   }
 ]
