@@ -5974,5 +5974,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-KISS-10"
+  },
+  {
+    "ts": "2026-09-05T16:54:11.535Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-MOTS-10"
   }
 ]
