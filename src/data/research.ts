@@ -1188,6 +1188,17 @@ export const guides: ResearchArticle[] = [
   minutes: 14,
   tags: ['bpc-157', 'tb-500', 'recovery', 'tissue-repair', 'angiogenesis', 'actin', 'wolverine-stack', 'stack', 'goals'],
 },
+{
+  title: 'CJC-1295 vs Sermorelin: DAC-Reengineered GHRH Analog vs the Native 1-29 Fragment',
+  desc: 'A detailed head-to-head on two GHRH-receptor ligands separated by engineering: the DPP-IV-resistant, DAC-conjugated analog that holds GH/IGF-1 elevation for days (CJC-1295) against the plain 29-aa GRF 1-29 fragment with a short half-life and former Geref clinical history (Sermorelin). Shared mechanism, extended-action kinetics, evidence, dosing, and which to choose.',
+  category: 'Articles',
+  section: 'comparisons',
+  compound: 'CJC-1295',
+  slug: 'cjc1295-vs-sermorelin',
+  image: 'cjc1295-vs-sermorelin',
+  minutes: 12,
+  tags: ['cjc-1295', 'sermorelin', 'comparison', 'ghrh', 'dac', 'grf-1-29', 'gh'],
+},
 ];
 
 export const compoundList: string[] = [

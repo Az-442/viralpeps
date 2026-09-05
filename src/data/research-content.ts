@@ -9138,5 +9138,109 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'cjc1295-vs-sermorelin': {
+  slug: 'cjc1295-vs-sermorelin',
+  compoundSlug: 'cjc-1295',
+  compoundSlug2: 'sermorelin',
+  pullQuote: 'One is the 29-amino-acid GHRH fragment as nature roughly built it, cleared from the blood within minutes; the other is the same signalling idea re-engineered with DPP-IV resistance and an albumin anchor so it can hold the pituitary to the task for days. Both wake the same receptor, but they change what the clock looks like.',
+  quickInfo: [
+    { label: 'Classification', value: 'GHRH analog — CJC-1295 (DPP-IV resistant, DAC-conjugated); Sermorelin (plain GRF 1-29)' },
+    { label: 'Sequence', value: 'CJC-1295: 29 aa GHRH analog (modified); Sermorelin: Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg (GRF 1-29, 29 aa)' },
+    { label: 'CAS Number', value: 'CJC-1295: 863288-34-0 (DAC); Sermorelin: 86168-78-7' },
+    { label: 'Molecular Weight', value: 'CJC-1295: ~3367.9 g/mol; Sermorelin: ~3357.8 Da' },
+    { label: 'Half-Life', value: 'CJC-1295: ~30 min (no DAC) or 5\u20138 days (DAC); Sermorelin: ~10\u201320 min' },
+    { label: 'Mechanism', value: 'Both bind the pituitary GHRH receptor (GHRHR), driving cAMP/PKA/CREB GH synthesis and release; differ in peptide stability and clearance' },
+    { label: 'Regulatory History', value: 'Sermorelin formerly marketed as Geref; CJC-1295 a ConjuChem DAC:GRF research compound never approved' },
+    { label: 'Best For', value: 'Sustained, extended GH-axis support (CJC-1295 with DAC); pulsatile, short physiological GH bursts (Sermorelin / no-DAC)' },
+  ],
+  sections: [
+    {
+      title: 'Overview',
+      body: 'CJC-1295 and Sermorelin sit on the same branch of the growth hormone (GH) family tree. Both are growth-hormone-releasing-hormone (GHRH) receptor agonists: synthetic peptides that bind the GHRH receptor on pituitary somatotrophs to drive endogenous GH synthesis and release, then feed downstream IGF-1. Where they diverge is not the receptor they touch but the engineering around it.\n\nSermorelin is the unmodified 29-amino-acid N-terminal fragment of human GHRH (GRF 1-29) \u2014 the shortest piece that retains full receptor activity \u2014 cleared from circulation in roughly 10\u201320 minutes. It has a genuine regulatory pedigree: it was formerly marketed under the brand Geref for evaluating and managing GH secretion before commercial discontinuation in 2008. CJC-1295 is the same 29-residue signalling idea rebuilt for survival: it carries amino-acid substitutions that block DPP-IV degradation and, in the DAC (Drug Affinity Complex) version, covalently binds circulating albumin to stretch the half-life from minutes to roughly 5\u20138 days.\n\nThis article compares the two head to head \u2014 mechanism, pharmacokinetics, the pulsatility question, evidence, and the practical question of which suits a given research goal.\n[**Compare CJC-1295 prices from UK suppliers \u2192**](/compounds/cjc-1295) \u2022 [**Compare Sermorelin prices from UK suppliers \u2192**](/compounds/sermorelin)',
+    },
+    {
+      title: 'At-a-Glance Comparison',
+      body: 'Before the mechanistic deep dive, here is the side-by-side that most researchers want first.',
+      table: {
+        header: ['Category', 'CJC-1295', 'Sermorelin (GRF 1-29)'],
+        rows: [
+          ['What it is', '29-aa GHRH analog, DPP-IV resistant, DAC-conjugated', 'Plain 29-aa N-terminal GHRH fragment'],
+          ['Mechanism', 'GHRH receptor agonist (GHRHR)', 'GHRH receptor agonist (GHRHR)'],
+          ['Half-life', '~30 min (no DAC); 5\u20138 days (DAC)', '~10\u201320 min'],
+          ['GH profile', 'With DAC: sustained days-long elevation; no-DAC: short pulse', 'Physiological short pulsatile release'],
+          ['Dosing cadence', 'DAC: ~once weekly; no-DAC: multiple times daily', 'Once daily typical in clinical use'],
+          ['Stability engineering', 'DPP-IV-resistant substitutions + DAC albumin anchor', 'Native, rapidly degraded'],
+          ['Regulatory history', 'Research compound (ConjuChem DAC:GRF)', 'Formerly approved as Geref'],
+          ['Best for', 'Extended, hands-off GH-axis support', 'Physiological pulsatility, reversible short pulses'],
+        ],
+      },
+    },
+    {
+      title: 'The Shared Mechanism: One Receptor, Two Delivery Systems',
+      body: 'Both peptides are ligands for the GHRH receptor, a class B G-protein-coupled receptor on somatotroph cells. Activation couples through the stimulatory G-protein (Gs) to adenylyl cyclase, raising intracellular cAMP; protein kinase A is then activated and phosphorylates CREB, which drives transcription of the GH gene and expands the releasable GH pool, while sensitising vesicle discharge.\n\nBecause the receptor and the downstream cascade are identical, the observable difference between CJC-1295 and Sermorelin is not how each fires the pituitary but for how long, and how the body experiences that signal. Sermorelin, with its brief half-life, produces a short, sharp, near-physiological burst soon after each dose. CJC-1295 with DAC lingers; instead of discrete pulses it holds a more continuous elevation of GH and, downstream, IGF-1 over days. That is the core trade-off at the heart of this comparison.',
+      subsections: [
+        {
+          title: 'Why Sermorelin is short-lived',
+          body: 'GHRH and its native 1-29 fragment are rapidly inactivated by the peptidase DPP-IV and by renal clearance, giving sermorelin a circulation half-life of roughly 10\u201320 minutes. This is not a design flaw \u2014 it mirrors how the hypothalamus normally talks to the pituitary in brief, rhythmic bursts, and it keeps every dose reversible and tightly time-boxed.',
+        },
+        {
+          title: 'What CJC-1295\u2019s engineering changes',
+          body: 'CJC-1295 substitutes amino acids at the DPP-IV cleavage site to resist degradation, and the DAC version adds a reactive group that covalently attaches to serum albumin. Albumin is recycled slowly, so the attached peptide is protected from renal clearance and its half-life stretches from minutes to roughly 5\u20138 days. The landmark human study reported increased GH and IGF-1 secretion persisting for days after a single subcutaneous dose [PMID: 16352683].',
+        },
+      ],
+    },
+    {
+      title: 'Evidence',
+      body: 'The evidence bases differ sharply in depth and setting, and that asymmetry matters when choosing between them.\n\nSermorelin has the larger human clinical record because it was once a licensed medicine. Its most documented use is paediatric growth hormone deficiency, where daily subcutaneous GHRH(1-29) supported growth in GH-deficient children \u2014 the height-velocity data behind its former Geref approval [PMID: 8329826]. Adult data are thinner and mostly endocrine or body-composition orientated, and the compound\u2019s commercial discontinuation was driven by market factors rather than safety.\n\nCJC-1295\u2019s published record is dominated by a single landmark first-in-human trial that quantified its extended action: a randomised, placebo-controlled, double-blind study showing a single dose raised GH and IGF-1 for days with preserved safety [PMID: 16352683]. Preclinical and healthy-volunteer data underpin the DAC half-life claims. The human efficacy body is narrower than Sermorelin\u2019s paediatric record, but it is purpose-built to demonstrate exactly the property that distinguishes the two \u2014 duration.',
+    },
+    {
+      title: 'Dosing and Protocol',
+      body: 'Protocols differ because the molecules\u2019 lives differ. Sermorelin, matching its short half-life and clinical history, is typically dosed once daily by subcutaneous injection \u2014 commonly in the evening to align with the nocturnal GH surge \u2014 at research doses in the hundreds-of-micrograms range. CJC-1295 no-DAC behaves more like Sermorelin and is dosed multiple times per day; CJC-1295 with DAC is dosed far less often, on the order of once every several days to a week, because each injection sustains GH/IGF-1 elevation across that window.\n\nIn both cases: reconstitute the lyophilised peptide with bacteriostatic water, use aseptic subcutaneous technique, rotate injection sites, and verify batch purity against a Certificate of Analysis. These are research-only protocols.',
+      subsections: [
+        {
+          title: 'Practical note on the DAC question',
+          body: 'The DAC conjugate is the defining fork in the road. If a study wants a low-maintenance, continuous GH/IGF-1 signal, DAC versions are the tool. If it wants pulsatile, physiological, easily-reversible signalling \u2014 closer to what Sermorelin delivers natively \u2014 the no-DAC (Mod GRF 1-29) form of CJC-1295 or plain Sermorelin is the more faithful model.',
+        },
+      ],
+    },
+    {
+      title: 'Which to Choose',
+      body: 'Choose by the time-domain of the question being asked, not by which is \u201cstronger\u201d. For research built around physiological pulsatile GH release, reversibility, and daily, controllable administration, Sermorelin is the cleaner and historically better-characterised ligand. For a study that wants a sustained, low-attention GH-axis and IGF-1 boost measured in days, the DAC form of CJC-1295 is the only one of the pair engineered to deliver it \u2014 Sermorelin cannot hold a signal that long no matter the dose. On purity and sourcing, verify either compound\u2019s COA before use.',
+      subsections: [
+        {
+          title: 'Could they ever be combined?',
+          body: 'Because both act on the same GHRH receptor, stacking CJC-1295 and Sermorelin offers little mechanistic synergy \u2014 unlike pairing either with a growth-hormone secretagogue (GHRP/ghrelin-receptor agonist) such as Ipamorelin, which works through a separate receptor. If extended support is wanted, a GHRH (DAC) plus a GHRP is the more rational stack than two GHRH ligands. See the related comparisons for the CJC-1295 + Ipamorelin and Ipamorelin-based pairs.',
+        },
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: 'Are CJC-1295 and Sermorelin the same thing?',
+      answer: 'No. Both are GHRH-receptor agonists built from the same 29-residue signalling region, but they are different molecules. Sermorelin is the plain, unmodified GRF 1-29 fragment with a short half-life and former Geref marketing history. CJC-1295 is a modified analog with DPP-IV-resistant substitutions and, in the DAC form, an albumin anchor that extends its half-life to days.',
+    },
+    {
+      question: 'Which lasts longer \u2014 CJC-1295 or Sermorelin?',
+      answer: 'CJC-1295 with DAC lasts far longer (half-life roughly 5\u20138 days vs Sermorelin\u2019s 10\u201320 minutes). The no-DAC version of CJC-1295 has a much shorter half-life (~30 min) and behaves more like Sermorelin.',
+    },
+    {
+      question: 'Which is better for growth hormone deficiency research?',
+      answer: 'Sermorelin carries the larger human clinical record here: daily subcutaneous GHRH(1-29) supported growth in GH-deficient children in the studies behind its former approval [PMID: 8329826]. CJC-1295\u2019s evidence is anchored in its duration-of-action human trial [PMID: 16352683] rather than long-term growth outcomes.',
+    },
+    {
+      question: 'Do they give the same GH release profile?',
+      answer: 'No. Sermorelin produces a short, sharp, near-physiological pulse shortly after each dose because it is cleared so quickly. CJC-1295 with DAC produces a more continuous, days-long elevation of GH and IGF-1 rather than discrete pulses. The no-DAC form of CJC-1295 sits between the two.',
+    },
+    {
+      question: 'Can they be stacked together?',
+      answer: 'It is usually unnecessary. They act on the same GHRH receptor, so there is little mechanistic synergy from combining them. Researchers who want both duration and acute pulses more commonly stack a GHRH-receptor ligand with a separate-receptor secretagogue such as Ipamorelin rather than two GHRH ligands.',
+    },
+  ],
+  references: [
+    'Teichman SL, Neale A, Lawrence B, et al. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. J Clin Endocrinol Metab. 2006;91(3):799-805. PMID: 16352683.',
+    'Growth response to growth hormone-releasing hormone(1-29)-NH2 (GHRH 1-29) compared with growth hormone in growth-hormone-deficient children. Clin Pediatr (Phila)/Endocrinol study of GHRH(1-29) height velocity. PMID: 8329826.',
+  ],
+},
+
 };
 export default content;
