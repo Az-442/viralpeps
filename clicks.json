@@ -4398,5 +4398,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymalin-10mg",
     "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:40:42.636Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin"
   }
 ]
