@@ -8782,5 +8782,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biotideuk.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-05T20:07:51.591Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg"
   }
 ]
