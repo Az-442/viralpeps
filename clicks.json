@@ -6534,5 +6534,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-dac"
+  },
+  {
+    "ts": "2026-09-05T17:05:36.935Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aicar",
+    "destUrl": "https://peptideslabuk.com/product/aicar/"
   }
 ]
