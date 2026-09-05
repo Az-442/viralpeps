@@ -9823,5 +9823,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidelabuk.co.uk/product/dsip-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-05T20:54:34.282Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptidelabuk.co.uk/product/glow-blend-70mg-ghk-cu-bpc-157-tb-500/"
   }
 ]
