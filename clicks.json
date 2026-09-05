@@ -7265,5 +7265,12 @@
     "vendorSlug": "stratford-peptides",
     "vendorName": "Stratford Peptides",
     "destUrl": "https://www.stratfordpeptides.com"
+  },
+  {
+    "ts": "2026-09-05T19:03:42.123Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com"
   }
 ]
