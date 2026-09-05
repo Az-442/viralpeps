@@ -190,5 +190,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "ss-31",
     "destUrl": "https://thepeptidecode.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-05T15:04:44.456Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/"
   }
 ]
