@@ -4238,5 +4238,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "hexarelin-2mg",
     "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/"
+  },
+  {
+    "ts": "2026-09-05T15:38:43.071Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://anglopeptides.com/product/vip-10mg-research-peptide/"
   }
 ]
