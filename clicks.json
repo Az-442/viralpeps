@@ -2590,5 +2590,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://chromapeptides.co.uk/product/epithalon/"
+  },
+  {
+    "ts": "2026-09-05T15:25:17.643Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-glutathione-1500mg-research-peptide-for-laboratory-use-only/"
   }
 ]
