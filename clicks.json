@@ -2446,5 +2446,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.stratfordpeptides.com/products/kpv"
+  },
+  {
+    "ts": "2026-09-05T15:21:59.996Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrh-analog-amide",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide"
   }
 ]
