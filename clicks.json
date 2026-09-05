@@ -4622,5 +4622,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg"
+  },
+  {
+    "ts": "2026-09-05T15:47:49.029Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg"
   }
 ]
