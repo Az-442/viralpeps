@@ -1222,5 +1222,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.proformapeptides.co.uk/product/ss31-10mg-2/"
+  },
+  {
+    "ts": "2026-09-05T15:13:18.138Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://chromapeptides.co.uk/product/hexarelin/"
   }
 ]
