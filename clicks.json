@@ -894,5 +894,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://peptidesuk.com/selank/"
+  },
+  {
+    "ts": "2026-09-05T15:11:48.698Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptifyuk.com/product/ghk-cu-50mg"
   }
 ]
