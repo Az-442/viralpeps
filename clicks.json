@@ -86,5 +86,13 @@
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/crown-peptides"
+  },
+  {
+    "ts": "2026-09-05T15:02:28.899Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
   }
 ]
