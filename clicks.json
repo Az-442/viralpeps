@@ -430,5 +430,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://polygonpeptides.co.uk/product/selank-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-05T15:08:40.735Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/"
   }
 ]
