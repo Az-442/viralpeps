@@ -1846,5 +1846,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "peg-mgf-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/vial"
+  },
+  {
+    "ts": "2026-09-05T15:18:21.747Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg"
   }
 ]
