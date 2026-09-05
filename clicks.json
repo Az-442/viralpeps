@@ -1086,5 +1086,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://britpeptides.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-05T15:12:40.944Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
   }
 ]
