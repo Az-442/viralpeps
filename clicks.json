@@ -1910,5 +1910,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://biopeptides-uk.com/product/sermorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:19:09.914Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-5mg-10mg"
   }
 ]
