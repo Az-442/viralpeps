@@ -5894,5 +5894,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://britpeptides.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-05T16:53:34.670Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britpeptides.co.uk/product/semaglutide-10mg-disposable-pen/"
   }
 ]
