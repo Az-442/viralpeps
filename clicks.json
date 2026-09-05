@@ -10757,5 +10757,13 @@
     "vendorName": "Trutide",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://trutide.co.uk/product/wolverine/"
+  },
+  {
+    "ts": "2026-09-05T21:55:20.002Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295"
   }
 ]
