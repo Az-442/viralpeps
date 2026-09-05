@@ -3766,5 +3766,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-retatrutide-40mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-40mg/"
+  },
+  {
+    "ts": "2026-09-05T15:30:39.471Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://octagonpeptides.co.uk/product/tirze-30-mg/"
   }
 ]
