@@ -6246,5 +6246,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.proformapeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-05T16:56:36.822Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://supplypeptides.co.uk/products/tesamorelin"
   }
 ]
