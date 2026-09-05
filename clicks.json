@@ -4478,5 +4478,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
+  },
+  {
+    "ts": "2026-09-05T15:41:58.009Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
   }
 ]
