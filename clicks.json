@@ -1102,5 +1102,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-05T15:12:44.950Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://olresearch.co.uk/product/aod9604-5mg/"
   }
 ]
