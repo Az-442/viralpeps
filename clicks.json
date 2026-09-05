@@ -8927,5 +8927,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.testedpeptides.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-05T20:35:36.553Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
   }
 ]
