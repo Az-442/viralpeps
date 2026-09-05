@@ -414,5 +414,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-05T15:08:33.675Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.peptifyuk.com/product/nad-500mg"
   }
 ]
