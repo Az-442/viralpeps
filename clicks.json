@@ -1006,5 +1006,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:12:19.920Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/vial"
   }
 ]
