@@ -10485,5 +10485,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://thepeptidecompany.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-05T21:52:26.233Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/"
   }
 ]
