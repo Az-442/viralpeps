@@ -8007,5 +8007,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://biotideuk.com/products/pt-141-10-mg"
+  },
+  {
+    "ts": "2026-09-05T19:25:13.121Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biotideuk.com/products/ss-31-10mg"
   }
 ]
