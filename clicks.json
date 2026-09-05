@@ -3982,5 +3982,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/"
+  },
+  {
+    "ts": "2026-09-05T15:35:18.740Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
   }
 ]
