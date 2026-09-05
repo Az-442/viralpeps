@@ -4742,5 +4742,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bluewellpeptides.com/product/5-amino-1mq-10mg/"
+  },
+  {
+    "ts": "2026-09-05T15:48:26.907Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
   }
 ]
