@@ -10303,5 +10303,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://peptidesuk.com/ace-031/"
+  },
+  {
+    "ts": "2026-09-05T20:58:58.806Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptidesuk.com/dsip/"
   }
 ]
