@@ -4214,5 +4214,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.stratfordpeptides.com/products/aod-9604"
+  },
+  {
+    "ts": "2026-09-05T15:38:37.031Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
   }
 ]
