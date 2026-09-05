@@ -3238,5 +3238,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/"
+  },
+  {
+    "ts": "2026-09-05T15:28:02.245Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
   }
 ]
