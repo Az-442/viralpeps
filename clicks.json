@@ -3558,5 +3558,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/"
+  },
+  {
+    "ts": "2026-09-05T15:29:25.205Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html"
   }
 ]
