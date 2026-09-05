@@ -7695,5 +7695,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://ascendpeptidesuk.com/products/sermorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-05T19:21:13.938Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://ascendpeptidesuk.com/products/tesamorelin-10mg/"
   }
 ]
