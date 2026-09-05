@@ -1678,5 +1678,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.novapeptide.co.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-05T15:17:38.325Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://my-peptides.co.uk/products/mots-c-32"
   }
 ]
