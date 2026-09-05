@@ -4822,5 +4822,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://octagonpeptides.co.uk/product/tb-500-10-mg/"
+  },
+  {
+    "ts": "2026-09-05T15:49:16.215Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin/"
   }
 ]
