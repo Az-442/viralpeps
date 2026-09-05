@@ -3758,5 +3758,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://octagonpeptides.co.uk/product/epithalon-10-mg/"
+  },
+  {
+    "ts": "2026-09-05T15:30:37.439Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-40mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-40mg/"
   }
 ]
