@@ -2478,5 +2478,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-05T15:22:08.012Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://chromapeptides.co.uk/product/bacteriostatic-water/"
   }
 ]
