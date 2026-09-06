@@ -17041,5 +17041,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "adipotide-ftpp-5mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp"
+  },
+  {
+    "ts": "2026-09-06T06:55:23.870Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "snap-8-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/snap-8-10mg/"
   }
 ]
