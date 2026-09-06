@@ -25514,5 +25514,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://bioplexpeptides.co.uk/products/ss-31-10mg-elamipretide"
+  },
+  {
+    "ts": "2026-09-06T17:33:02.026Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-research-peptide/"
   }
 ]
