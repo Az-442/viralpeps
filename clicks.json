@@ -16521,5 +16521,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.proformapeptides.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-06T05:04:18.244Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-des-1mg/"
   }
 ]
