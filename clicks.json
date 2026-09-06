@@ -15929,5 +15929,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mgf-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen"
+  },
+  {
+    "ts": "2026-09-06T04:56:33.093Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/vial"
   }
 ]
