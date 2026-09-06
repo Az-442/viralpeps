@@ -13144,5 +13144,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-06T00:34:05.391Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://chiltonlabs.co.uk/product/cagrilintide-5mg-vial/"
   }
 ]
