@@ -26447,5 +26447,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://peptidelabuk.co.uk/product/bacteriostatic-water-10ml-laboratory-grade/"
+  },
+  {
+    "ts": "2026-09-06T19:07:47.562Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://oplabs.co.uk/product/aod9604-2mg/"
   }
 ]
