@@ -27808,5 +27808,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.apex-pharma.co.uk/product/bpc-10mg/"
+  },
+  {
+    "ts": "2026-09-06T22:17:16.896Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
   }
 ]
