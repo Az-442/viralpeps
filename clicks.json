@@ -15769,5 +15769,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/pen"
+  },
+  {
+    "ts": "2026-09-06T04:55:27.595Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial"
   }
 ]
