@@ -27704,5 +27704,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
+  },
+  {
+    "ts": "2026-09-06T22:06:21.189Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
