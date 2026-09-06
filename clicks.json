@@ -13286,5 +13286,13 @@
     "vendorName": "LeoLab Peptides UK",
     "destUrl": "https://leolab.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/leolab"
+  },
+  {
+    "ts": "2026-09-06T00:49:47.330Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://xlpeptides.com/product/cjc-1295-5mg/"
   }
 ]
