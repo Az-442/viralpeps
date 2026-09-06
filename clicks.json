@@ -27240,5 +27240,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.novapeptide.co.uk/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-06T20:43:52.920Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.novapeptide.co.uk/product/epitalon/"
   }
 ]
