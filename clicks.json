@@ -20942,5 +20942,13 @@
     "vendorName": "Tested Peptides",
     "destUrl": "https://www.testedpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/tested-peptides"
+  },
+  {
+    "ts": "2026-09-06T11:35:56.000Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "destUrl": "https://www.peptidesx.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptidesx"
   }
 ]
