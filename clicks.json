@@ -17703,5 +17703,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-06T07:18:30.305Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pt-141-10mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
