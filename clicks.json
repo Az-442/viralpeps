@@ -14846,5 +14846,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide"
+  },
+  {
+    "ts": "2026-09-06T02:08:27.440Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://trutide.co.uk/product/ghk-cu-100mg/"
   }
 ]
