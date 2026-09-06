@@ -28460,5 +28460,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tirzepatide-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-06T23:29:14.827Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-40mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-40mg/"
   }
 ]
