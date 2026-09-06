@@ -25713,5 +25713,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "mots-c",
     "destUrl": "https://mypepbiotech.co.uk/product/mots-c-20mg/"
+  },
+  {
+    "ts": "2026-09-06T17:49:44.166Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/"
   }
 ]
