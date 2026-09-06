@@ -25084,5 +25084,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-06T16:45:46.664Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymosin-alpha-1-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/thymosin-alpha-1/"
   }
 ]
