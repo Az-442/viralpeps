@@ -16057,5 +16057,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T04:57:24.963Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "peg-mgf-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/vial"
   }
 ]
