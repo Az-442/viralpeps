@@ -21221,5 +21221,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://biopeptides-uk.com/product/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-06T12:20:17.390Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biopeptides-uk.com/product/retatrutide-10mg/"
   }
 ]
