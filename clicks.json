@@ -25250,5 +25250,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "liraglutide",
     "destUrl": "https://peptx.co.uk/product/liraglutide"
+  },
+  {
+    "ts": "2026-09-06T16:58:36.207Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water-0-9-benzyl",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
