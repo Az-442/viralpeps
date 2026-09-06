@@ -28686,5 +28686,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-ghk-cu-50mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-06T23:55:04.783Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
   }
 ]
