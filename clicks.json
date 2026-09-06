@@ -18551,5 +18551,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.flexpeptides.co.uk/products/mots-c-20mg"
+  },
+  {
+    "ts": "2026-09-06T07:58:25.324Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://midshirelabs.co.uk/products/nad/"
   }
 ]
