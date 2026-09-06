@@ -26486,5 +26486,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.novapeptide.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-06T19:11:17.928Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mots-c-mitochondrial-derived-peptide",
+    "destUrl": "https://researchpeptide.co.uk/product/mots-c-mitochondrial-derived-peptide/"
   }
 ]
