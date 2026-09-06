@@ -15969,5 +15969,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mq-nad-c-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen"
+  },
+  {
+    "ts": "2026-09-06T04:56:49.742Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-1000-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/1000"
   }
 ]
