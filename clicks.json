@@ -18910,5 +18910,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
+  },
+  {
+    "ts": "2026-09-06T08:35:30.714Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://leolab.co.uk/peptides/pt-141/"
   }
 ]
