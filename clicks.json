@@ -13822,5 +13822,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "pt-141",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/pt-141-10mg"
+  },
+  {
+    "ts": "2026-09-06T01:00:53.327Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/cagrilintide.html"
   }
 ]
