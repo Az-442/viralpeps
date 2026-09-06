@@ -18503,5 +18503,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "klow-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
+  },
+  {
+    "ts": "2026-09-06T07:46:06.888Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://nupex.co.uk/products/buy-ss-31-research-peptides"
   }
 ]
