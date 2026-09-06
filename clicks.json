@@ -27504,5 +27504,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://biotideuk.com/products/tb-500"
+  },
+  {
+    "ts": "2026-09-06T21:29:40.633Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://bioplexpeptides.co.uk/products/dsip-15mg-dsip-nonapeptide"
   }
 ]
