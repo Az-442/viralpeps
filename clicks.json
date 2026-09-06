@@ -12109,5 +12109,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "nad-500mg",
     "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
+  },
+  {
+    "ts": "2026-09-06T00:00:37.813Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-ghk-cu-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/"
   }
 ]
