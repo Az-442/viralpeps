@@ -25474,5 +25474,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-06T17:29:04.438Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
   }
 ]
