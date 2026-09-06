@@ -17208,5 +17208,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://chromapeptides.co.uk/product/glow/"
+  },
+  {
+    "ts": "2026-09-06T07:11:19.641Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://chromapeptides.co.uk/product/glutathione/"
   }
 ]
