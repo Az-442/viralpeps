@@ -14990,5 +14990,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-06T02:56:28.891Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
