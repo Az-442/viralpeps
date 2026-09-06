@@ -21613,5 +21613,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide"
+  },
+  {
+    "ts": "2026-09-06T12:37:52.575Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin"
   }
 ]
