@@ -27904,5 +27904,12 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-06T22:17:44.522Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com"
   }
 ]
