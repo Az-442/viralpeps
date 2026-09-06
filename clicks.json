@@ -18495,5 +18495,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-06T07:45:09.553Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
   }
 ]
