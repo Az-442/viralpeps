@@ -18671,5 +18671,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "aicar-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/aicar/"
+  },
+  {
+    "ts": "2026-09-06T08:17:11.816Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk"
   }
 ]
