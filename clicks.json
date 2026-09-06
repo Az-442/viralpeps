@@ -27232,5 +27232,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "semaglutide",
     "destUrl": "https://peptx.co.uk/semaglutide"
+  },
+  {
+    "ts": "2026-09-06T20:41:12.584Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.novapeptide.co.uk/product/ipamorelin/"
   }
 ]
