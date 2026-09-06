@@ -15993,5 +15993,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
+  },
+  {
+    "ts": "2026-09-06T04:56:59.989Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
   }
 ]
