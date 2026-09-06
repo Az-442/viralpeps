@@ -13013,5 +13013,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://bluewellpeptides.com/product/cjc-1295-no-dac-ipamorelin-10mg-blend/"
+  },
+  {
+    "ts": "2026-09-06T00:27:51.056Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://octagonpeptides.co.uk/product/tb-500-10-mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500"
   }
 ]
