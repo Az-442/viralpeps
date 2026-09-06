@@ -21277,5 +21277,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit"
+  },
+  {
+    "ts": "2026-09-06T12:29:32.091Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://biopeptides-uk.com/product/sermorelin-10mg/"
   }
 ]
