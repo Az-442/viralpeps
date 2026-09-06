@@ -26646,5 +26646,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-06T19:32:41.907Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk"
   }
 ]
