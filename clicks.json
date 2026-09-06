@@ -15577,5 +15577,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.expresspeptides.co.uk/product/bacteriostatic-water/vial"
+  },
+  {
+    "ts": "2026-09-06T04:54:03.623Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial"
   }
 ]
