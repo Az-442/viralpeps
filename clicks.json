@@ -20190,5 +20190,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-with-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-06T09:41:56.544Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
   }
 ]
