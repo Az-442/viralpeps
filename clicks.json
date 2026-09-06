@@ -25689,5 +25689,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://momentumpeptides.com/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-06T17:49:30.866Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "kpv",
+    "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/"
   }
 ]
