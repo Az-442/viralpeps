@@ -16201,5 +16201,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ss-31-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/vial"
+  },
+  {
+    "ts": "2026-09-06T04:58:25.849Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
