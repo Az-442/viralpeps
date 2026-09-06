@@ -21853,5 +21853,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.testedpeptides.co.uk/product/l-glutathione-600mg/"
+  },
+  {
+    "ts": "2026-09-06T12:46:32.197Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/"
   }
 ]
