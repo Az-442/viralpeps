@@ -15153,5 +15153,13 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "semax",
     "destUrl": "https://astralabs.co.uk/product/semax-peptide-uk/"
+  },
+  {
+    "ts": "2026-09-06T03:38:25.306Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
   }
 ]
