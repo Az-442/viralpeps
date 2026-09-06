@@ -28031,5 +28031,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg"
+  },
+  {
+    "ts": "2026-09-06T22:23:35.722Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-ipamorelin-10mg-ghrh-ghrp"
   }
 ]
