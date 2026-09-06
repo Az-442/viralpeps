@@ -12445,5 +12445,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vesugen-20mg",
     "destUrl": "https://purepeptidesuk.com/product/vesugen-20mg/"
+  },
+  {
+    "ts": "2026-09-06T00:02:01.510Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.prime-peptides.co.uk/product/epitalon/"
   }
 ]
