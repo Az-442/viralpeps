@@ -25666,5 +25666,12 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
+  },
+  {
+    "ts": "2026-09-06T17:49:16.503Z",
+    "type": "vendor-site",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "destUrl": "https://mypepbiotech.co.uk"
   }
 ]
