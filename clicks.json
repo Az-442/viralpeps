@@ -21701,5 +21701,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bioplexpeptides.co.uk/products/selank-10mg-selanc"
+  },
+  {
+    "ts": "2026-09-06T12:39:56.197Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh"
   }
 ]
