@@ -25290,5 +25290,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.flexpeptides.co.uk/products/ghk-cu-100mg"
+  },
+  {
+    "ts": "2026-09-06T17:01:11.561Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water-0-9-benzyl",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
