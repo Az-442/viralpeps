@@ -15777,5 +15777,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "hexarelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-06T04:55:31.119Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial"
   }
 ]
