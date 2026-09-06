@@ -28284,5 +28284,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-kisspeptin-5mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-06T22:55:20.014Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta"
   }
 ]
