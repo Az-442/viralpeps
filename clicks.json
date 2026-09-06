@@ -13942,5 +13942,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "b7-33",
     "destUrl": "https://kensingtonlabs.co.uk/product/b7-33-10mg/"
+  },
+  {
+    "ts": "2026-09-06T01:04:30.434Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://kensingtonlabs.co.uk/product/10ml-bacteriostatic-mixing-water/"
   }
 ]
