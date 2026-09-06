@@ -15121,5 +15121,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-tesa-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-06T03:33:37.178Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://momentumpeptides.com/product/semax-10mg/"
   }
 ]
