@@ -25753,5 +25753,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "semaglutide",
     "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/"
+  },
+  {
+    "ts": "2026-09-06T17:50:05.467Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/"
   }
 ]
