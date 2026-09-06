@@ -28694,5 +28694,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-06T23:57:23.099Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-mots-c-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/"
   }
 ]
