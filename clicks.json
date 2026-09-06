@@ -23261,5 +23261,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.proformapeptides.co.uk/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-06T16:00:01.368Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/"
   }
 ]
