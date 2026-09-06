@@ -21022,5 +21022,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/pen"
+  },
+  {
+    "ts": "2026-09-06T12:05:28.172Z",
+    "type": "vendor-site",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "destUrl": "https://appliedpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/applied-peptides"
   }
 ]
