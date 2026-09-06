@@ -20742,5 +20742,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.apex-pharma.co.uk/product/bpc-10mg/"
+  },
+  {
+    "ts": "2026-09-06T10:14:57.028Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research"
   }
 ]
