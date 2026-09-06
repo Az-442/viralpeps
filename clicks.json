@@ -26151,5 +26151,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vip",
     "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/"
+  },
+  {
+    "ts": "2026-09-06T18:31:16.625Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "b7-33",
+    "destUrl": "https://bioplexpeptides.co.uk/products/b7-33"
   }
 ]
