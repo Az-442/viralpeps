@@ -24109,5 +24109,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "dsip",
     "destUrl": "https://www.apexbiolabs.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-06T16:26:27.657Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
   }
 ]
