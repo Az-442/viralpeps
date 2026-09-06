@@ -27176,5 +27176,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.novapeptide.co.uk/product/5-amino-1mq/"
+  },
+  {
+    "ts": "2026-09-06T20:36:08.638Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/retatrutide"
   }
 ]
