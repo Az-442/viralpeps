@@ -20934,5 +20934,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://britpeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-06T11:34:14.143Z",
+    "type": "vendor-site",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "destUrl": "https://www.testedpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tested-peptides"
   }
 ]
