@@ -24844,5 +24844,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "hexarelin-2mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/hexarelin-2mg/"
+  },
+  {
+    "ts": "2026-09-06T16:43:38.034Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
