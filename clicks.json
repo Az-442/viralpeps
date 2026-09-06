@@ -16865,5 +16865,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bioplexpeptides.co.uk/products/selank-10mg-selanc"
+  },
+  {
+    "ts": "2026-09-06T05:49:24.412Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pgnalabs.co.uk/product/bac-water"
   }
 ]
