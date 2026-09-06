@@ -25769,5 +25769,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/"
+  },
+  {
+    "ts": "2026-09-06T17:50:14.369Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://mypepbiotech.co.uk/product/tesamorelin-40mg/"
   }
 ]
