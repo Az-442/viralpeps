@@ -28276,5 +28276,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "glow",
     "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-06T22:52:42.547Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-kisspeptin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/"
   }
 ]
