@@ -21237,5 +21237,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://biopeptides-uk.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-06T12:22:27.241Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6"
   }
 ]
