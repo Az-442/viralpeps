@@ -22029,5 +22029,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "nad-1000mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-06T13:09:44.149Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semaglutide-20mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semaglutide-20mg/"
   }
 ]
