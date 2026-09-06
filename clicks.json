@@ -27816,5 +27816,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "retatrutide",
     "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-06T22:17:17.923Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research"
   }
 ]
