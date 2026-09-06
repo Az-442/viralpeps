@@ -17160,5 +17160,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "dihexa",
     "destUrl": "https://chromapeptides.co.uk/product/dihexa/"
+  },
+  {
+    "ts": "2026-09-06T07:11:00.722Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://chromapeptides.co.uk/product/dsip/"
   }
 ]
