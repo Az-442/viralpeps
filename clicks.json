@@ -18902,5 +18902,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://leolab.co.uk/peptides/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-06T08:34:50.514Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
   }
 ]
