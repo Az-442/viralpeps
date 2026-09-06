@@ -28623,5 +28623,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/premium-retatrutide-30mg-pen-"
+  },
+  {
+    "ts": "2026-09-06T23:43:25.852Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-ss-31-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ss-31-10mg/"
   }
 ]
