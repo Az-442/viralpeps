@@ -17871,5 +17871,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial"
+  },
+  {
+    "ts": "2026-09-06T07:21:47.808Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://purepeptidesuk.com/product/peptides-igf-1-lr3-100/"
   }
 ]
