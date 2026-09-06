@@ -22061,5 +22061,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "wolverine-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/wolverine-stack-bpc-157-tb-500/"
+  },
+  {
+    "ts": "2026-09-06T13:14:32.125Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptideslabuk.com/product/follistatin/"
   }
 ]
