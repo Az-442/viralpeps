@@ -26311,5 +26311,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-06T18:51:03.276Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
   }
 ]
