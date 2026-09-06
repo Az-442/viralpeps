@@ -20990,5 +20990,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-06T11:57:55.327Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-10mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
   }
 ]
