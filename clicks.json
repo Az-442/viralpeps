@@ -22756,5 +22756,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://bioplexpeptides.co.uk/products/cartalax-10mg-aed-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-06T15:28:52.686Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://xlpeptides.com/product/mots-c-10mg/"
   }
 ]
