@@ -20910,5 +20910,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "klow",
     "destUrl": "https://supplypeptides.co.uk/products/klow"
+  },
+  {
+    "ts": "2026-09-06T11:24:24.101Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
   }
 ]
