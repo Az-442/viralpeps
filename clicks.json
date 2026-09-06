@@ -21941,5 +21941,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-06T13:07:14.766Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ahk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ahk-cu/"
   }
 ]
