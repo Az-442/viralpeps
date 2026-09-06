@@ -18295,5 +18295,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "hexarelin",
     "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
+  },
+  {
+    "ts": "2026-09-06T07:25:03.565Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "hexarelin-5mg",
+    "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
   }
 ]
