@@ -25761,5 +25761,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "semax",
     "destUrl": "https://mypepbiotech.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-06T17:50:09.893Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/"
   }
 ]
