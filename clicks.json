@@ -19278,5 +19278,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://bluewellpeptides.com/product/dsip-15mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T09:33:02.334Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bluewellpeptides.com/product/epithalon-10mg-peptide/"
   }
 ]
