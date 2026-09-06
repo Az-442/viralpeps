@@ -15225,5 +15225,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://zentra-peptides.com/product/snap-8/"
+  },
+  {
+    "ts": "2026-09-06T04:01:32.470Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362"
   }
 ]
