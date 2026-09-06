@@ -14942,5 +14942,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-06T02:33:10.694Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/gonadorelin-5mg-acetate-gnrh"
   }
 ]
