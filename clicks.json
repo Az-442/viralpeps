@@ -28428,5 +28428,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-bac-water-3ml",
     "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-3ml/"
+  },
+  {
+    "ts": "2026-09-06T23:23:17.220Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://bioplexpeptides.co.uk/products/glow-blend-70mg-ghk-cu-tb-500-bpc-157"
   }
 ]
