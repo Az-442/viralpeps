@@ -27728,5 +27728,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://peptideslabuk.com/product/snap-8/"
+  },
+  {
+    "ts": "2026-09-06T22:11:41.035Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
