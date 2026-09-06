@@ -16969,5 +16969,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-06T06:29:54.501Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
   }
 ]
