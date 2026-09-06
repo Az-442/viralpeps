@@ -26431,5 +26431,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "kpv",
     "destUrl": "https://www.novapeptide.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-06T19:07:23.173Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidelabuk.co.uk/product/buy-selank-5mg-research-peptide/"
   }
 ]
