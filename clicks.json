@@ -25880,5 +25880,13 @@
     "vendorSlug": "apex-biolabs",
     "vendorName": "APEX Biolabs",
     "destUrl": "https://www.apexbiolabs.co.uk"
+  },
+  {
+    "ts": "2026-09-06T17:56:16.979Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
   }
 ]
