@@ -20646,5 +20646,12 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://momentumpeptides.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-06T09:55:38.935Z",
+    "type": "vendor-site",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "destUrl": "https://rawpeptides.co.uk"
   }
 ]
