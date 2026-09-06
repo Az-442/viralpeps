@@ -22916,5 +22916,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.apex-pharma.co.uk/product/tb-500-10mg/"
+  },
+  {
+    "ts": "2026-09-06T15:55:06.433Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/"
   }
 ]
