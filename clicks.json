@@ -21197,5 +21197,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biopeptides-uk.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-06T12:18:48.968Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://biopeptides-uk.com/product/oxytocin-2mg/"
   }
 ]
