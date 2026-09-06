@@ -21621,5 +21621,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin"
+  },
+  {
+    "ts": "2026-09-06T12:38:00.103Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362"
   }
 ]
