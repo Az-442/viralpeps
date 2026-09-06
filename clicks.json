@@ -18718,5 +18718,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://leolab.co.uk/peptides/dsip/"
+  },
+  {
+    "ts": "2026-09-06T08:18:19.806Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/"
   }
 ]
