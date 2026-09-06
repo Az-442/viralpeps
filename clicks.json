@@ -15897,5 +15897,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-carnitine/vial"
+  },
+  {
+    "ts": "2026-09-06T04:56:21.665Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bluewellpeptides.com/product/epithalon-10mg-peptide/"
   }
 ]
