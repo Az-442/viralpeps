@@ -12229,5 +12229,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
+  },
+  {
+    "ts": "2026-09-06T00:01:07.761Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://midshirelabs.co.uk/products/pt-141/"
   }
 ]
