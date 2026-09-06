@@ -21949,5 +21949,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ahk-cu-100mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/ahk-cu/"
+  },
+  {
+    "ts": "2026-09-06T13:07:31.793Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bac-water-10ml-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/"
   }
 ]
