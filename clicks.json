@@ -20854,5 +20854,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
+  },
+  {
+    "ts": "2026-09-06T11:05:07.833Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
