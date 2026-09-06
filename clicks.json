@@ -28476,5 +28476,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-06T23:33:59.452Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://premiopeptides.co.uk/compounds/retatrutide"
   }
 ]
