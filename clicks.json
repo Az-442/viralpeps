@@ -26936,5 +26936,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "semax",
     "destUrl": "https://www.novapeptide.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-06T20:04:58.145Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/"
   }
 ]
