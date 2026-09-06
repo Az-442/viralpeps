@@ -19838,5 +19838,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "vip",
     "destUrl": "https://www.buyreta.co.uk/product/vip-uk"
+  },
+  {
+    "ts": "2026-09-06T09:38:35.723Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://chiltonlabs.co.uk/product/ghrp-2-5mg-vial/"
   }
 ]
