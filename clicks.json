@@ -26952,5 +26952,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.novapeptide.co.uk/product/bpc157-10mg/"
+  },
+  {
+    "ts": "2026-09-06T20:11:03.286Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptidelabuk.co.uk/product/kpv-5mg-research-peptide/"
   }
 ]
