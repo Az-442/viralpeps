@@ -26856,5 +26856,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.novapeptide.co.uk/product/pt-141-vial/"
+  },
+  {
+    "ts": "2026-09-06T19:51:50.193Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://zentra-peptides.com/product/ipamorelin/"
   }
 ]
