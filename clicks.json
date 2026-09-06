@@ -25586,5 +25586,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-06T17:42:17.697Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta"
   }
 ]
