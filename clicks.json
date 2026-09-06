@@ -16729,5 +16729,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ss-31-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-06T05:11:46.255Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
   }
 ]
