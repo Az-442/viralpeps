@@ -22604,5 +22604,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://www.stratfordpeptides.com/products/selank"
+  },
+  {
+    "ts": "2026-09-06T14:57:54.261Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape"
   }
 ]
