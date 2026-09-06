@@ -22229,5 +22229,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T14:12:07.433Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aicar",
+    "destUrl": "https://peptideslabuk.com/product/aicar/"
   }
 ]
