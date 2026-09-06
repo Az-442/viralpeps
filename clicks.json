@@ -22373,5 +22373,12 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg"
+  },
+  {
+    "ts": "2026-09-06T14:39:19.198Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk"
   }
 ]
