@@ -25801,5 +25801,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-cjc-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo-dac/pen"
+  },
+  {
+    "ts": "2026-09-06T17:52:05.689Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
   }
 ]
