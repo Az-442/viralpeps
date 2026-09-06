@@ -27168,5 +27168,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-06T20:35:45.904Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.novapeptide.co.uk/product/5-amino-1mq/"
   }
 ]
