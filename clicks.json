@@ -19398,5 +19398,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "pnc-27",
     "destUrl": "https://bluewellpeptides.com/product/pnc-27-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T09:34:05.067Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://momentumpeptides.com/product/tb-500-10mg/"
   }
 ]
