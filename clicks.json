@@ -22548,5 +22548,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "bpc-157-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-06T14:54:06.101Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/81-tesamorelin-10mg.html"
   }
 ]
