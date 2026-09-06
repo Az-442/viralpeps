@@ -13806,5 +13806,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/ipamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-06T01:00:45.486Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
   }
 ]
