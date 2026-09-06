@@ -15985,5 +15985,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-5pack-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/5"
+  },
+  {
+    "ts": "2026-09-06T04:56:56.382Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
   }
 ]
