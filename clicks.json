@@ -16401,5 +16401,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "dsip",
     "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-06T05:01:58.178Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://mypepbiotech.co.uk/product/epitalon-20mg/"
   }
 ]
