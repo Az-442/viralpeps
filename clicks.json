@@ -23237,5 +23237,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://premiopeptides.co.uk/compounds/epithalon"
+  },
+  {
+    "ts": "2026-09-06T15:59:50.487Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.proformapeptides.co.uk/product/aod9604/"
   }
 ]
