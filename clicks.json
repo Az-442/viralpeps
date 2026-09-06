@@ -26024,5 +26024,12 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/premium-retatrutide-30mg-pen-"
+  },
+  {
+    "ts": "2026-09-06T18:19:13.554Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co"
   }
 ]
