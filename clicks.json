@@ -21397,5 +21397,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
+  },
+  {
+    "ts": "2026-09-06T12:33:24.110Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aod9604-5mg-growth-hormone-fragment"
   }
 ]
