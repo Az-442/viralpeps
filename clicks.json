@@ -21557,5 +21557,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6"
+  },
+  {
+    "ts": "2026-09-06T12:36:39.971Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://bioplexpeptides.co.uk/products/glow-blend-70mg-ghk-cu-tb-500-bpc-157"
   }
 ]
