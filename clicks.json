@@ -25282,5 +25282,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-06T17:01:09.087Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ghk-cu-100mg"
   }
 ]
