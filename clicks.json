@@ -13198,5 +13198,13 @@
     "vendorSlug": "stratford-peptides",
     "vendorName": "Stratford Peptides",
     "destUrl": "https://www.stratfordpeptides.com"
+  },
+  {
+    "ts": "2026-09-06T00:40:57.571Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://peptideslabuk.com/product/adipotide/"
   }
 ]
