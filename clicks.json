@@ -13254,5 +13254,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidelabuk.co.uk/product/dsip-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-06T00:45:02.009Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "mots-c-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
   }
 ]
