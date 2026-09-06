@@ -19246,5 +19246,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bpc-157-5mg",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-06T09:32:45.290Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cerebrolysin",
+    "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/"
   }
 ]
