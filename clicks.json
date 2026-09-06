@@ -15169,5 +15169,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "tb-500",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-06T03:42:33.432Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://astralabs.co.uk/product/cagrilintide-5mg/"
   }
 ]
