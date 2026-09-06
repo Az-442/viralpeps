@@ -21685,5 +21685,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide"
+  },
+  {
+    "ts": "2026-09-06T12:39:36.291Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
   }
 ]
