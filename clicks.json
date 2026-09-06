@@ -20542,5 +20542,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://ukpeptides.com/catalog/ipamorelin"
+  },
+  {
+    "ts": "2026-09-06T09:46:30.708Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin"
   }
 ]
