@@ -25673,5 +25673,13 @@
     "vendorSlug": "mypep-biotech",
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk"
+  },
+  {
+    "ts": "2026-09-06T17:49:22.883Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://mypepbiotech.co.uk/product/bpc-157/"
   }
 ]
