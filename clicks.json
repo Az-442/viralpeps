@@ -12365,5 +12365,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://purepeptidesuk.com/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-06T00:01:40.433Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.prime-peptides.co.uk/product/ipamorelin-5mg/"
   }
 ]
