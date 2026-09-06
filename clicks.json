@@ -21813,5 +21813,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://bluewellpeptides.com/product/ara-290-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T12:45:22.885Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
   }
 ]
