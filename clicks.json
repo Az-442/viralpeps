@@ -14198,5 +14198,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-06T01:06:41.609Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://polygonpeptides.co.uk/product/epithalon/"
   }
 ]
