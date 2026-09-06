@@ -26415,5 +26415,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-06T19:05:24.662Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin-5mg-ipamorelin-5mg",
+    "destUrl": "https://researchpeptide.co.uk/product/tesamorelin-5mg-ipamorelin-5mg/"
   }
 ]
