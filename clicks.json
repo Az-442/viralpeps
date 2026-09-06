@@ -28468,5 +28468,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-retatrutide-40mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-40mg/"
+  },
+  {
+    "ts": "2026-09-06T23:29:57.720Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
   }
 ]
