@@ -28655,5 +28655,12 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-thymosin-alpha-1-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-06T23:50:24.064Z",
+    "type": "vendor-site",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "destUrl": "https://nupex.co.uk"
   }
 ]
