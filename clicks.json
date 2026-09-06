@@ -26071,5 +26071,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://bluewellpeptides.com/product/igf1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-06T18:23:46.052Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
   }
 ]
