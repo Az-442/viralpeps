@@ -16497,5 +16497,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.prime-peptides.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-06T05:04:07.200Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
   }
 ]
