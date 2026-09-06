@@ -13790,5 +13790,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-06T01:00:37.233Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg"
   }
 ]
