@@ -13270,5 +13270,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ara-290",
     "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/"
+  },
+  {
+    "ts": "2026-09-06T00:46:35.511Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/leolab"
   }
 ]
