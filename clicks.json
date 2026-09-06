@@ -23204,5 +23204,14 @@
     "vendorName": "PeptX",
     "compoundSlug": "aod-9604",
     "destUrl": "https://peptx.co.uk/product/aod-9604"
+  },
+  {
+    "ts": "2026-09-06T15:59:18.476Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ss-31"
   }
 ]
