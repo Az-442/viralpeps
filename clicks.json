@@ -27088,5 +27088,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "liraglutide",
     "destUrl": "https://peptx.co.uk/product/liraglutide"
+  },
+  {
+    "ts": "2026-09-06T20:26:00.985Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.novapeptide.co.uk/product/bac-water-10ml/"
   }
 ]
