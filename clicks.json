@@ -21909,5 +21909,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.testedpeptides.co.uk/product/ss-31-10-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-06T12:48:31.842Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "age-reversal-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/age-reversal-stack/"
   }
 ]
