@@ -26255,5 +26255,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.novapeptide.co.uk/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-06T18:45:47.204Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157/"
   }
 ]
