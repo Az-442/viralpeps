@@ -21269,5 +21269,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://zentra-peptides.com/product/ahk-cu/"
+  },
+  {
+    "ts": "2026-09-06T12:29:28.887Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://my-peptides.co.uk/products/nad-kit"
   }
 ]
