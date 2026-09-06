@@ -18575,5 +18575,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptideslabuk.com/product/ghrp-6-acetate/"
+  },
+  {
+    "ts": "2026-09-06T08:01:01.976Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/"
   }
 ]
