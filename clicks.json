@@ -13654,5 +13654,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://chromapeptides.co.uk/product/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-06T00:59:24.119Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://cmsrlabs.co/product/semaglutide-10mg/"
   }
 ]
