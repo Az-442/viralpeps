@@ -22365,5 +22365,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.proformapeptides.co.uk/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-06T14:38:54.823Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg"
   }
 ]
