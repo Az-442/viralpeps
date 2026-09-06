@@ -28268,5 +28268,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-retatrutide-20mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-06T22:52:26.528Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/"
   }
 ]
