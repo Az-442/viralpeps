@@ -26095,5 +26095,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-06T18:27:20.751Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pgnalabs.co.uk/product/motsc"
   }
 ]
