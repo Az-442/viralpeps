@@ -18814,5 +18814,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/"
+  },
+  {
+    "ts": "2026-09-06T08:26:11.595Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-2/"
   }
 ]
