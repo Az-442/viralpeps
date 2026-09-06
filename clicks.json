@@ -14918,5 +14918,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "epithalon-vial-express",
     "destUrl": "https://polygonpeptides.co.uk/product/epithalon/"
+  },
+  {
+    "ts": "2026-09-06T02:27:56.181Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide"
   }
 ]
