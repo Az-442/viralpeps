@@ -14790,5 +14790,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta"
+  },
+  {
+    "ts": "2026-09-06T01:44:49.530Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
   }
 ]
