@@ -25793,5 +25793,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://mypepbiotech.co.uk/product/bpc-157-tb-500-20mg-vial-wolverine-stack/"
+  },
+  {
+    "ts": "2026-09-06T17:50:35.351Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-cjc-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo-dac/pen"
   }
 ]
