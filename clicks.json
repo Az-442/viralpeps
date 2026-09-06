@@ -28404,5 +28404,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-06T23:18:47.399Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-10mg/"
   }
 ]
