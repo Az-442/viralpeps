@@ -14462,5 +14462,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.stratfordpeptides.com/products/ss-31"
+  },
+  {
+    "ts": "2026-09-06T01:08:59.799Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/29-dsip-5mg.html"
   }
 ]
