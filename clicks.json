@@ -12901,5 +12901,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vip-5mg",
     "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/"
+  },
+  {
+    "ts": "2026-09-06T00:05:39.204Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/7-adipotide-10mg.html"
   }
 ]
