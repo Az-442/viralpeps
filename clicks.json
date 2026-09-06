@@ -18702,5 +18702,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/"
+  },
+  {
+    "ts": "2026-09-06T08:18:10.000Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac-5mg-ipamorelin-5mg",
+    "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg-ipamorelin-5mg/"
   }
 ]
