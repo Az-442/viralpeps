@@ -12125,5 +12125,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "pbs-10ml",
     "destUrl": "https://purepeptidesuk.com/product/pbs-10ml/"
+  },
+  {
+    "ts": "2026-09-06T00:00:45.283Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "peg-mgf-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/peg-mgf-5mg/"
   }
 ]
