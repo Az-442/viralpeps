@@ -27056,5 +27056,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.novapeptide.co.uk/product/tb500-10mg/"
+  },
+  {
+    "ts": "2026-09-06T20:25:36.370Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157"
   }
 ]
