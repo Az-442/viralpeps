@@ -26223,5 +26223,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-cjc-nodac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen"
+  },
+  {
+    "ts": "2026-09-06T18:42:37.875Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mots-c-mitochondrial-derived-peptide",
+    "destUrl": "https://researchpeptide.co.uk/product/mots-c-mitochondrial-derived-peptide/"
   }
 ]
