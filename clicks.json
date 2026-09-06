@@ -15569,5 +15569,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ara-290-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
+  },
+  {
+    "ts": "2026-09-06T04:54:00.071Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bacteriostatic-water/vial"
   }
 ]
