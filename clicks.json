@@ -16345,5 +16345,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-06T05:00:13.900Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-tb500-10mg-pentadecape-beta-4"
   }
 ]
