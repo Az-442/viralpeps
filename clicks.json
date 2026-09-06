@@ -21861,5 +21861,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-06T12:46:41.662Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ipamorelin-5-mg/"
   }
 ]
