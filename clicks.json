@@ -20182,5 +20182,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-5mg-no-dac/"
+  },
+  {
+    "ts": "2026-09-06T09:41:50.567Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-with-dac-5mg/"
   }
 ]
