@@ -16225,5 +16225,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-06T04:58:41.207Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
   }
 ]
