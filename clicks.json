@@ -21677,5 +21677,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor"
+  },
+  {
+    "ts": "2026-09-06T12:39:25.527Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide"
   }
 ]
