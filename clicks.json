@@ -24061,5 +24061,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-06T16:20:05.686Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
