@@ -20653,5 +20653,13 @@
     "vendorSlug": "raw-peptides",
     "vendorName": "Raw Peptides",
     "destUrl": "https://rawpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-06T09:57:12.453Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/"
   }
 ]
