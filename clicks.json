@@ -26063,5 +26063,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-06T18:22:57.960Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bluewellpeptides.com/product/igf1-lr3-1mg/"
   }
 ]
