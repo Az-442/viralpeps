@@ -13160,5 +13160,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://premiopeptides.co.uk/compounds/5-amino-1mq"
+  },
+  {
+    "ts": "2026-09-06T00:35:52.890Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
