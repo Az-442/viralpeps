@@ -24852,5 +24852,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "selank",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-06T16:43:42.666Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "igf-1-1-3-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/"
   }
 ]
