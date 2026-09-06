@@ -22133,5 +22133,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://ascendpeptidesuk.com/products/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-06T13:31:54.880Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://xlpeptides.com/product/bpc-157-5mg/"
   }
 ]
