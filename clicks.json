@@ -28252,5 +28252,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tb-500-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T22:49:34.275Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mt-2-10mg"
   }
 ]
