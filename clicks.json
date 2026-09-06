@@ -21605,5 +21605,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bioplexpeptides.co.uk/products/klow-80mg-ghk-cu-bpc-tb500-kvp"
+  },
+  {
+    "ts": "2026-09-06T12:37:41.454Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide"
   }
 ]
