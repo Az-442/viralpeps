@@ -18918,5 +18918,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://leolab.co.uk/peptides/pt-141/"
+  },
+  {
+    "ts": "2026-09-06T08:36:31.787Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
   }
 ]
