@@ -12325,5 +12325,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-06T00:01:30.374Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-no-dac-5mg-research-peptide/"
   }
 ]
