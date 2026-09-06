@@ -14046,5 +14046,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "nad-250mg",
     "destUrl": "https://peptidesuk.com/nad-250mg/"
+  },
+  {
+    "ts": "2026-09-06T01:05:17.296Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://peptidesuk.com/pal-ghk/"
   }
 ]
