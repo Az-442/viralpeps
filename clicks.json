@@ -21933,5 +21933,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://zentra-peptides.com/product/epithalon/"
+  },
+  {
+    "ts": "2026-09-06T13:04:57.135Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
   }
 ]
