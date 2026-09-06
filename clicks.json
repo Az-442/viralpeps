@@ -19046,5 +19046,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.peptidesonline.uk/shop/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-06T08:59:35.204Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-10mg-br-ghrh"
   }
 ]
