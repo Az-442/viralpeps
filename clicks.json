@@ -19822,5 +19822,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "testagen",
     "destUrl": "https://www.buyreta.co.uk/product/testagen-uk"
+  },
+  {
+    "ts": "2026-09-06T09:38:26.492Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.buyreta.co.uk/product/thymosin-alpha-1-uk"
   }
 ]
