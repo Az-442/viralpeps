@@ -28158,5 +28158,13 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-06T22:36:17.153Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
   }
 ]
