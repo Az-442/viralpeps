@@ -15241,5 +15241,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-06T04:06:51.238Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://tidelabs.co.uk/products/follistatin-344"
   }
 ]
