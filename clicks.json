@@ -27096,5 +27096,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.novapeptide.co.uk/product/bac-water-10ml/"
+  },
+  {
+    "ts": "2026-09-06T20:26:04.821Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ss-31-10mg"
   }
 ]
