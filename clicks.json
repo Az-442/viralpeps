@@ -20454,5 +20454,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "bpc-157-oral",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-nasal-spray"
+  },
+  {
+    "ts": "2026-09-06T09:45:47.240Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://ukpeptides.com/catalog/cjc-1295-ipamorelin-blend"
   }
 ]
