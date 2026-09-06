@@ -20894,5 +20894,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://zentra-peptides.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-06T11:19:04.712Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/"
   }
 ]
