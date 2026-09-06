@@ -13734,5 +13734,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "thymosin-alpha1-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial"
+  },
+  {
+    "ts": "2026-09-06T01:00:07.386Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
