@@ -14766,5 +14766,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/"
+  },
+  {
+    "ts": "2026-09-06T01:40:11.737Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
   }
 ]
