@@ -22396,5 +22396,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "semaglutide",
     "destUrl": "https://leolab.co.uk/peptides/semaglutide/"
+  },
+  {
+    "ts": "2026-09-06T14:39:23.930Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/"
   }
 ]
