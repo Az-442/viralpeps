@@ -21869,5 +21869,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.testedpeptides.co.uk/product/ipamorelin-5-mg/"
+  },
+  {
+    "ts": "2026-09-06T12:46:47.138Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kissptin-10-10mg/"
   }
 ]
