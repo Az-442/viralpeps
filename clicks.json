@@ -22868,5 +22868,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-06T15:47:36.534Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://supplypeptides.co.uk/products/tesamorelin"
   }
 ]
