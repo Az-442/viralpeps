@@ -20150,5 +20150,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.testedpeptides.co.uk/product/5-amino-1mq-10-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-06T09:41:27.909Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/"
   }
 ]
