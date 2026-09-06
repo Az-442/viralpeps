@@ -26793,5 +26793,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://my-peptides.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-06T19:46:03.912Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-10mg",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/"
   }
 ]
