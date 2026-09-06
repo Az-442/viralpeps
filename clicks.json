@@ -16393,5 +16393,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/"
+  },
+  {
+    "ts": "2026-09-06T05:01:55.113Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "dsip",
+    "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/"
   }
 ]
