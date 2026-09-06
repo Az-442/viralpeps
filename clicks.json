@@ -27120,5 +27120,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
+  },
+  {
+    "ts": "2026-09-06T20:28:06.504Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.novapeptide.co.uk/product/kisspeptin/"
   }
 ]
