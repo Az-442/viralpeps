@@ -23196,5 +23196,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptidesx.uk/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-06T15:59:16.472Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptx.co.uk/product/aod-9604"
   }
 ]
