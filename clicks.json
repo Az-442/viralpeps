@@ -16385,5 +16385,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-06T05:01:51.700Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/"
   }
 ]
