@@ -21373,5 +21373,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide"
+  },
+  {
+    "ts": "2026-09-06T12:32:23.639Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
   }
 ]
