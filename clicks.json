@@ -23317,5 +23317,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.stratfordpeptides.com/products/aod-9604"
+  },
+  {
+    "ts": "2026-09-06T16:01:03.014Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp"
   }
 ]
