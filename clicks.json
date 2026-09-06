@@ -22660,5 +22660,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://bluewellpeptides.com/product/cjc-1295-no-dac-ipamorelin-10mg-blend/"
+  },
+  {
+    "ts": "2026-09-06T15:10:02.916Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
