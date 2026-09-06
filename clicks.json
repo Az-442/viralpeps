@@ -22580,5 +22580,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://purepeptidesuk.com/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-06T14:57:32.647Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
   }
 ]
