@@ -22588,5 +22588,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-06T14:57:33.861Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
   }
 ]
