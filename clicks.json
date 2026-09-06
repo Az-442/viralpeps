@@ -27200,5 +27200,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-06T20:37:50.747Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bluewellpeptides.com/product/ghk-cu-100mg-copper-peptide/"
   }
 ]
