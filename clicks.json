@@ -26638,5 +26638,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-06T19:32:20.207Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial"
   }
 ]
