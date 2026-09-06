@@ -15233,5 +15233,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mazdutide",
     "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362"
+  },
+  {
+    "ts": "2026-09-06T04:01:34.306Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
   }
 ]
