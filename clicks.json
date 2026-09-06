@@ -17831,5 +17831,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-06T07:21:26.139Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
   }
 ]
