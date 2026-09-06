@@ -15489,5 +15489,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "5-amino-1mq-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen"
+  },
+  {
+    "ts": "2026-09-06T04:53:25.665Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/vial"
   }
 ]
