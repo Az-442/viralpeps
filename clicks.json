@@ -16353,5 +16353,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-tb500-10mg-pentadecape-beta-4"
+  },
+  {
+    "ts": "2026-09-06T05:00:18.261Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/survodutide-10mg/"
   }
 ]
