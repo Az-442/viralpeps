@@ -12797,5 +12797,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-5mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/"
+  },
+  {
+    "ts": "2026-09-06T00:05:00.040Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://purepeptidesuk.com/product/pt-141-bremelanotide-10mg/"
   }
 ]
