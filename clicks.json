@@ -17065,5 +17065,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/"
+  },
+  {
+    "ts": "2026-09-06T06:58:30.631Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://zentra-peptides.com/product/ss-31/"
   }
 ]
