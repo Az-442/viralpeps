@@ -27528,5 +27528,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
+  },
+  {
+    "ts": "2026-09-06T21:37:41.252Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://oplabs.co.uk/product/ghrp-6-5mg/"
   }
 ]
