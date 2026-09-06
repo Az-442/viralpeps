@@ -20727,5 +20727,12 @@
     "vendorSlug": "brit-peptides",
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-06T10:14:37.635Z",
+    "type": "vendor-site",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "destUrl": "https://www.kensingtonlabs.co.uk"
   }
 ]
