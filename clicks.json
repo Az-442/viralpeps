@@ -22620,5 +22620,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://peptideslabuk.com/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-06T14:59:48.082Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html"
   }
 ]
