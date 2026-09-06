@@ -27896,5 +27896,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/vial"
+  },
+  {
+    "ts": "2026-09-06T22:17:37.000Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
