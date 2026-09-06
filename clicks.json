@@ -14654,5 +14654,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://rawpeptides.co.uk/product/mots-c-40mg/"
+  },
+  {
+    "ts": "2026-09-06T01:11:01.512Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
   }
 ]
