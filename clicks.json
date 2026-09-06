@@ -22708,5 +22708,13 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html"
+  },
+  {
+    "ts": "2026-09-06T15:20:19.333Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
   }
 ]
