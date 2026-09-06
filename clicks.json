@@ -14958,5 +14958,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://biopeptides-uk.com/product/igf-1-long-r3-1mg/"
+  },
+  {
+    "ts": "2026-09-06T02:40:27.521Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptides.com/catalog/retatrutide"
   }
 ]
