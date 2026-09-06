@@ -20502,5 +20502,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://ukpeptides.com/catalog/glow"
+  },
+  {
+    "ts": "2026-09-06T09:46:09.042Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "glow-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/glow-nasal-spray"
   }
 ]
