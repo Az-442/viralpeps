@@ -21541,5 +21541,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "gdf-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
+  },
+  {
+    "ts": "2026-09-06T12:36:22.810Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin"
   }
 ]
