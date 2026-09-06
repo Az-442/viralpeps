@@ -18271,5 +18271,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://tidelabs.co.uk/products/ghrp-2"
+  },
+  {
+    "ts": "2026-09-06T07:24:54.851Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-6"
   }
 ]
