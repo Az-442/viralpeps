@@ -22349,5 +22349,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-06T14:33:06.098Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://peptideslabuk.com/product/hcg/"
   }
 ]
