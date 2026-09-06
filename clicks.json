@@ -16881,5 +16881,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
+  },
+  {
+    "ts": "2026-09-06T05:52:00.280Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
   }
 ]
