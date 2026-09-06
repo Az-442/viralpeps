@@ -26247,5 +26247,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://peptidesuk.com/igf-1-lr3/"
+  },
+  {
+    "ts": "2026-09-06T18:45:01.862Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.novapeptide.co.uk/product/retatrutide/"
   }
 ]
