@@ -17903,5 +17903,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://rawpeptides.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-06T07:22:06.984Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://rawpeptides.co.uk/product/glow-70mg/"
   }
 ]
