@@ -27361,5 +27361,12 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://zentra-peptides.com/product/snap-8/"
+  },
+  {
+    "ts": "2026-09-06T20:56:58.868Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com"
   }
 ]
