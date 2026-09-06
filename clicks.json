@@ -20982,5 +20982,13 @@
     "vendorName": "Proforma Peptides",
     "destUrl": "https://www.proformapeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides"
+  },
+  {
+    "ts": "2026-09-06T11:48:14.621Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
   }
 ]
