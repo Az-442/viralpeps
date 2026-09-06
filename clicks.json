@@ -15513,5 +15513,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "adipotide-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/vial"
+  },
+  {
+    "ts": "2026-09-06T04:53:35.861Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
   }
 ]
