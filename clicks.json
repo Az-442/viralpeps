@@ -25825,5 +25825,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg"
+  },
+  {
+    "ts": "2026-09-06T17:54:22.118Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-biolabs"
   }
 ]
