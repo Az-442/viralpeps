@@ -14734,5 +14734,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bluewellpeptides.com/product/pt-141-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T01:30:22.706Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://astralabs.co.uk/product/cagrilintide-5mg/"
   }
 ]
