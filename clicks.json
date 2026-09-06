@@ -16913,5 +16913,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "glow",
     "destUrl": "https://midshirelabs.co.uk/products/glow50/"
+  },
+  {
+    "ts": "2026-09-06T06:00:13.558Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
   }
 ]
