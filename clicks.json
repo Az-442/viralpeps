@@ -21445,5 +21445,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
+  },
+  {
+    "ts": "2026-09-06T12:34:40.349Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator"
   }
 ]
