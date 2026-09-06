@@ -14934,5 +14934,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biotideuk.com/products/thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-06T02:30:57.258Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
   }
 ]
