@@ -28356,5 +28356,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
+  },
+  {
+    "ts": "2026-09-06T23:08:04.911Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tesamorelin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin-5mg/"
   }
 ]
