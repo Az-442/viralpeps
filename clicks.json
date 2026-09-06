@@ -12949,5 +12949,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-06T00:08:02.261Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://chiltonlabs.co.uk/product/pt-141-10mg/"
   }
 ]
