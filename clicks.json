@@ -20966,5 +20966,13 @@
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/applied-peptides"
+  },
+  {
+    "ts": "2026-09-06T11:38:43.118Z",
+    "type": "vendor-site",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "destUrl": "https://www.proformapeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
