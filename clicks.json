@@ -14798,5 +14798,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
+  },
+  {
+    "ts": "2026-09-06T01:47:04.760Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
