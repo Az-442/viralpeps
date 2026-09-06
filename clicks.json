@@ -16273,5 +16273,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "kpv",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-06T04:59:18.308Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://kensingtonlabs.co.uk/product/ll37-5mg/"
   }
 ]
