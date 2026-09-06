@@ -23365,5 +23365,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://supplypeptides.co.uk/products/ipamorelin"
+  },
+  {
+    "ts": "2026-09-06T16:01:50.014Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://thepeptidecode.co.uk/products/epithalon-10mg"
   }
 ]
