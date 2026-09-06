@@ -27496,5 +27496,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tesamorelin-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
+  },
+  {
+    "ts": "2026-09-06T21:27:27.817Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biotideuk.com/products/tb-500"
   }
 ]
