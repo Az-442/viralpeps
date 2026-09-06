@@ -12301,5 +12301,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-thymosin-beta-4-tb500-2mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-thymosin-beta-4-2mg-tb500/"
+  },
+  {
+    "ts": "2026-09-06T00:01:25.106Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/"
   }
 ]
