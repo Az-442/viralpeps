@@ -16857,5 +16857,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-06T05:47:26.383Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bioplexpeptides.co.uk/products/selank-10mg-selanc"
   }
 ]
