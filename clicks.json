@@ -16841,5 +16841,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "hcg",
     "destUrl": "https://peptideslabuk.com/product/hcg/"
+  },
+  {
+    "ts": "2026-09-06T05:42:47.154Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
   }
 ]
