@@ -20222,5 +20222,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "total-repair-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/total-repair-stack/"
+  },
+  {
+    "ts": "2026-09-06T09:43:25.391Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
   }
 ]
