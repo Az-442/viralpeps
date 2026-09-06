@@ -21389,5 +21389,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "adipotide-ftpp-5mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp"
+  },
+  {
+    "ts": "2026-09-06T12:33:09.771Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
   }
 ]
