@@ -22844,5 +22844,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.testedpeptides.co.uk/product/5-amino-1mq-10-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-06T15:42:12.876Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157/"
   }
 ]
