@@ -27464,5 +27464,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.apex-pharma.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-06T21:24:57.797Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "bpc-157-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157"
   }
 ]
