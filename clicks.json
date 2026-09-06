@@ -14838,5 +14838,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "foxo4-dr1",
     "destUrl": "https://peptideslabuk.com/product/foxo4-dri/"
+  },
+  {
+    "ts": "2026-09-06T02:05:16.426Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide"
   }
 ]
