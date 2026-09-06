@@ -25809,5 +25809,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
+  },
+  {
+    "ts": "2026-09-06T17:52:55.279Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
   }
 ]
