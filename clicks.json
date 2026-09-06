@@ -26732,5 +26732,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.peptidesx.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-06T19:44:37.677Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.novapeptide.co.uk/product/aod-9604/"
   }
 ]
