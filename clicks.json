@@ -26896,5 +26896,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "tb-500",
     "destUrl": "https://peptidelabuk.co.uk/product/tb-500-5mg-research-peptide-thymosin/"
+  },
+  {
+    "ts": "2026-09-06T19:55:56.955Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water-0-9-benzyl",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
