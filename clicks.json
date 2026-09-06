@@ -16305,5 +16305,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/"
+  },
+  {
+    "ts": "2026-09-06T04:59:46.248Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/peg-mgf-2mg/"
   }
 ]
