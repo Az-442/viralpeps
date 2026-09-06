@@ -12437,5 +12437,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://www.prime-peptides.co.uk/product/cjc-1295/"
+  },
+  {
+    "ts": "2026-09-06T00:01:59.810Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vesugen-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vesugen-20mg/"
   }
 ]
