@@ -12317,5 +12317,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-thymosin-beta-4-tb500-5mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500-1/"
+  },
+  {
+    "ts": "2026-09-06T00:01:29.030Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
   }
 ]
