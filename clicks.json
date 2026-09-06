@@ -21885,5 +21885,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-06T12:47:13.540Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
   }
 ]
