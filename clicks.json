@@ -20478,5 +20478,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptides.com/catalog/dsip-nasal-spray"
+  },
+  {
+    "ts": "2026-09-06T09:45:55.796Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://ukpeptides.com/catalog/ghrp-2"
   }
 ]
