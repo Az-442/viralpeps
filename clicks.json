@@ -26463,5 +26463,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mgf",
     "destUrl": "https://bioplexpeptides.co.uk/products/mgf-2mg-mechano-growth-factor-igf-1ec-peptide"
+  },
+  {
+    "ts": "2026-09-06T19:08:50.508Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/ghk-cu-50mg/"
   }
 ]
