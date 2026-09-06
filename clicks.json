@@ -19486,5 +19486,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://bluewellpeptides.com/product/thymosin-alpha-1-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T09:34:45.132Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bluewellpeptides.com/product/vesugen-20mg-peptide/"
   }
 ]
