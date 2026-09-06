@@ -16505,5 +16505,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-06T05:04:11.493Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ara-290-10mg/"
   }
 ]
