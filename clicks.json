@@ -26566,5 +26566,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/"
+  },
+  {
+    "ts": "2026-09-06T19:21:17.467Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/"
   }
 ]
