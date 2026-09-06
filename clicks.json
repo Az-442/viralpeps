@@ -17543,5 +17543,13 @@
     "vendorSlug": "proforma-peptides",
     "vendorName": "Proforma Peptides",
     "destUrl": "https://www.proformapeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-06T07:15:56.398Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "hhb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-hhb-10ml-research-solutionfor-laboratory-use-only/"
   }
 ]
