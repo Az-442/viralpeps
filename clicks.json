@@ -27600,5 +27600,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/"
+  },
+  {
+    "ts": "2026-09-06T21:47:16.299Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/cagrilintide"
   }
 ]
