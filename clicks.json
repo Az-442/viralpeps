@@ -21533,5 +21533,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "bacteriostatic-water-0-9-sodium-chloride",
     "destUrl": "https://researchpeptide.co.uk/product/bacteriostatic-water-0-9-sodium-chloride/"
+  },
+  {
+    "ts": "2026-09-06T12:36:15.956Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
   }
 ]
