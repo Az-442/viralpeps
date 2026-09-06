@@ -22876,5 +22876,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://supplypeptides.co.uk/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-06T15:51:05.820Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
