@@ -24508,5 +24508,13 @@
     "vendorSlug": "peptx",
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk"
+  },
+  {
+    "ts": "2026-09-06T16:39:44.288Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
