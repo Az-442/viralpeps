@@ -26740,5 +26740,14 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.novapeptide.co.uk/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-06T19:44:51.697Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pepnova.uk/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
