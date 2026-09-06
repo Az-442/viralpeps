@@ -22492,5 +22492,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://leolab.co.uk/peptides/dsip/"
+  },
+  {
+    "ts": "2026-09-06T14:39:40.567Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/"
   }
 ]
