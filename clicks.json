@@ -18966,5 +18966,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://leolab.co.uk/peptides/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-06T08:43:48.408Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://peptideslabuk.com/product/adipotide/"
   }
 ]
