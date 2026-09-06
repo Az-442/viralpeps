@@ -21309,5 +21309,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biopeptides-uk.com/product/tesamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-06T12:30:46.428Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tesamorelin-10mg",
+    "destUrl": "https://biopeptides-uk.com/product/tesamorelin-10mg/"
   }
 ]
