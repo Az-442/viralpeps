@@ -22141,5 +22141,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://xlpeptides.com/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-06T13:38:32.812Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
   }
 ]
