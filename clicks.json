@@ -16529,5 +16529,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-des-1mg/"
+  },
+  {
+    "ts": "2026-09-06T05:04:21.282Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "5-amino-1mq-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/"
   }
 ]
