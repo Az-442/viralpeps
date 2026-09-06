@@ -27216,5 +27216,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.novapeptide.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-06T20:38:46.967Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptx.co.uk/product/cagrilintide"
   }
 ]
