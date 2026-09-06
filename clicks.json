@@ -17775,5 +17775,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial"
+  },
+  {
+    "ts": "2026-09-06T07:20:56.698Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
