@@ -16681,5 +16681,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "hexarelin",
     "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/"
+  },
+  {
+    "ts": "2026-09-06T05:05:43.558Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://supplypeptides.co.uk/products/cjc-1295-no-dac-ipamorelin-mix"
   }
 ]
