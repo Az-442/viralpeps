@@ -28119,5 +28119,12 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "nad-plus",
     "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-06T22:32:57.474Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com"
   }
 ]
