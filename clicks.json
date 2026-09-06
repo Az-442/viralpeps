@@ -13183,5 +13183,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.stratfordpeptides.com/products/ss-31"
+  },
+  {
+    "ts": "2026-09-06T00:36:37.723Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/stratford-peptides"
   }
 ]
