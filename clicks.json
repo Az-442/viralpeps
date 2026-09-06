@@ -21901,5 +21901,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.testedpeptides.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-06T12:47:56.533Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ss-31-10-mg-research-peptide/"
   }
 ]
