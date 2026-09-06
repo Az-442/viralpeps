@@ -25865,5 +25865,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/"
+  },
+  {
+    "ts": "2026-09-06T17:55:10.409Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-biolabs"
   }
 ]
