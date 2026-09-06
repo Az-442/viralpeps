@@ -22724,5 +22724,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://peptidesuk.com/pt-141/"
+  },
+  {
+    "ts": "2026-09-06T15:23:20.996Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/"
   }
 ]
