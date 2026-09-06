@@ -13902,5 +13902,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4"
+  },
+  {
+    "ts": "2026-09-06T01:03:35.231Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptideslabuk.com/product/follistatin/"
   }
 ]
