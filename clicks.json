@@ -16297,5 +16297,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-06T04:59:38.913Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/"
   }
 ]
