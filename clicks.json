@@ -12877,5 +12877,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-5mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/"
+  },
+  {
+    "ts": "2026-09-06T00:05:29.170Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/24-cjc-1295-no-dac-10mg.html"
   }
 ]
