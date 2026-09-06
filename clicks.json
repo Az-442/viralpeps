@@ -23245,5 +23245,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.proformapeptides.co.uk/product/aod9604/"
+  },
+  {
+    "ts": "2026-09-06T15:59:54.604Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.proformapeptides.co.uk/product/dsip-5mg/"
   }
 ]
