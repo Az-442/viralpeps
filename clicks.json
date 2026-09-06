@@ -21349,5 +21349,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://biopeptides-uk.com/product/research-bundle-a-bpc157-10mg-tb500-10mg-peptide-vial-bundle/"
+  },
+  {
+    "ts": "2026-09-06T12:31:52.467Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/"
   }
 ]
