@@ -22045,5 +22045,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-06T13:10:20.514Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "tesamorelin-15mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/"
   }
 ]
