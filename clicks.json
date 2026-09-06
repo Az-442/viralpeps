@@ -15857,5 +15857,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-06T04:56:05.753Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
   }
 ]
