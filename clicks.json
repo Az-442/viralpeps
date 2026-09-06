@@ -13782,5 +13782,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/dsip-5mg"
+  },
+  {
+    "ts": "2026-09-06T01:00:33.326Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/epitalon-10mg"
   }
 ]
