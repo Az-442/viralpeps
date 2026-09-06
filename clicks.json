@@ -26653,5 +26653,13 @@
     "vendorSlug": "nova-peptide",
     "vendorName": "Nova Peptide",
     "destUrl": "https://www.novapeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-06T19:33:42.608Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://peptidelabuk.co.uk/product/pinealon-10mg-research-peptide/"
   }
 ]
