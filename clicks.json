@@ -25108,5 +25108,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-5mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/thymosin-beta-4-tb500-5mg/"
+  },
+  {
+    "ts": "2026-09-06T16:46:00.837Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk"
   }
 ]
