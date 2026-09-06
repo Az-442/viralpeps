@@ -28126,5 +28126,13 @@
     "vendorSlug": "raccoon-peptides",
     "vendorName": "Raccoon Peptides",
     "destUrl": "https://www.raccoonpeptides.com"
+  },
+  {
+    "ts": "2026-09-06T22:34:09.188Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
