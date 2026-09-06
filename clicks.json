@@ -19054,5 +19054,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-10mg-br-ghrh"
+  },
+  {
+    "ts": "2026-09-06T09:01:36.501Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
   }
 ]
