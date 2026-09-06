@@ -22181,5 +22181,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dermorphin",
     "destUrl": "https://bioplexpeptides.co.uk/products/dermorphin-5mg-dermorphin-heptapeptide-d-ala"
+  },
+  {
+    "ts": "2026-09-06T13:55:20.090Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptideslabuk.com/product/follistatin/"
   }
 ]
