@@ -21653,5 +21653,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mgf",
     "destUrl": "https://bioplexpeptides.co.uk/products/mgf-2mg-mechano-growth-factor-igf-1ec-peptide"
+  },
+  {
+    "ts": "2026-09-06T12:38:35.875Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
   }
 ]
