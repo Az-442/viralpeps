@@ -20846,5 +20846,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.apex-pharma.co.uk/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-06T11:03:56.457Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
   }
 ]
