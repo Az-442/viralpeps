@@ -15065,5 +15065,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://octagonpeptides.co.uk/product/peg-mgf-2-mg/"
+  },
+  {
+    "ts": "2026-09-06T03:05:02.996Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptides.com/catalog/retatrutide"
   }
 ]
