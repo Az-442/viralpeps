@@ -20685,5 +20685,14 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/mots-c/"
+  },
+  {
+    "ts": "2026-09-06T10:11:02.606Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332"
   }
 ]
