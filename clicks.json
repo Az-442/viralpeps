@@ -21461,5 +21461,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://bioplexpeptides.co.uk/products/cartalax-10mg-aed-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-06T12:34:55.081Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-dac-5mg-ghrh"
   }
 ]
