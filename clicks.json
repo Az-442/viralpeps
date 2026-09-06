@@ -25960,5 +25960,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cardiogen-research-peptide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-06T18:09:37.903Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/"
   }
 ]
