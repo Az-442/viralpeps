@@ -16705,5 +16705,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://supplypeptides.co.uk/products/igf-lr3"
+  },
+  {
+    "ts": "2026-09-06T05:06:36.141Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://zentra-peptides.com/product/ipamorelin/"
   }
 ]
