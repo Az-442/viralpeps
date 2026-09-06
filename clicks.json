@@ -20142,5 +20142,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tirzepatide-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-06T09:41:13.146Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.testedpeptides.co.uk/product/5-amino-1mq-10-mg-research-peptide/"
   }
 ]
