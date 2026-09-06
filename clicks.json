@@ -18447,5 +18447,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://ukpeptidelab.co.uk/product/cagrilintide"
+  },
+  {
+    "ts": "2026-09-06T07:27:49.674Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/"
   }
 ]
