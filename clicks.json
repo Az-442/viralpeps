@@ -28364,5 +28364,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tesamorelin-5mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-06T23:08:22.585Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidelabuk.co.uk/product/retatrutide-5mg-research-peptide/"
   }
 ]
