@@ -17791,5 +17791,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen"
+  },
+  {
+    "ts": "2026-09-06T07:21:04.867Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
