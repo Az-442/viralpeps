@@ -15113,5 +15113,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide"
+  },
+  {
+    "ts": "2026-09-06T03:30:03.055Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-tesa-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
   }
 ]
