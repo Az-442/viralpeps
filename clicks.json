@@ -25626,5 +25626,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "selank",
     "destUrl": "https://biotideuk.com/products/selank-10-mg"
+  },
+  {
+    "ts": "2026-09-06T17:44:54.114Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/retatrutide/"
   }
 ]
