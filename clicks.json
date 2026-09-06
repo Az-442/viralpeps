@@ -14110,5 +14110,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.peptidesx.uk/product/ghrp-2/"
+  },
+  {
+    "ts": "2026-09-06T01:05:56.456Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptx.co.uk/product/cagrilintide"
   }
 ]
