@@ -16377,5 +16377,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
+  },
+  {
+    "ts": "2026-09-06T05:00:58.767Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
   }
 ]
