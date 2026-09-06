@@ -19462,5 +19462,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://bluewellpeptides.com/product/ss-31-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T09:34:32.270Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
   }
 ]
