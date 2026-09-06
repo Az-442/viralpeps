@@ -26079,5 +26079,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
+  },
+  {
+    "ts": "2026-09-06T18:24:38.282Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-cjc-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo-dac/pen"
   }
 ]
