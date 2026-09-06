@@ -24956,5 +24956,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-06T16:44:39.602Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "oxytocin-acetate",
+    "destUrl": "https://researchpeptide.co.uk/product/oxytocin-acetate/"
   }
 ]
