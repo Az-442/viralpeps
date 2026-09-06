@@ -26295,5 +26295,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mgf-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen"
+  },
+  {
+    "ts": "2026-09-06T18:48:51.056Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
   }
 ]
