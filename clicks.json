@@ -28324,5 +28324,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-acetic-acid",
     "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/"
+  },
+  {
+    "ts": "2026-09-06T23:04:11.352Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://peptideslabuk.com/product/snap-8/"
   }
 ]
