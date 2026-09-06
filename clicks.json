@@ -26832,5 +26832,13 @@
     "vendorSlug": "tide-labs",
     "vendorName": "Tide Labs",
     "destUrl": "https://tidelabs.co.uk"
+  },
+  {
+    "ts": "2026-09-06T19:49:33.864Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/"
   }
 ]
