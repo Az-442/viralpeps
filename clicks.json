@@ -16161,5 +16161,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/vial"
+  },
+  {
+    "ts": "2026-09-06T04:58:09.110Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "slu-pp-332-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/pen"
   }
 ]
