@@ -23156,5 +23156,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://peptidesuk.com/aod-9604/"
+  },
+  {
+    "ts": "2026-09-06T15:58:46.141Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.peptidesx.uk/product/dsip/"
   }
 ]
