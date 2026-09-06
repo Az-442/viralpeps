@@ -27480,5 +27480,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "pt-141",
     "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
+  },
+  {
+    "ts": "2026-09-06T21:26:30.757Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
   }
 ]
