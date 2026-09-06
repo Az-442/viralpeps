@@ -20230,5 +20230,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-06T09:43:42.051Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "5-amino-1mq-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/5-amino-1mq-10mg"
   }
 ]
