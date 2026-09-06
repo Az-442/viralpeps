@@ -16785,5 +16785,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://supplypeptides.co.uk/products/igf-lr3"
+  },
+  {
+    "ts": "2026-09-06T05:28:27.625Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/semax-10mg/"
   }
 ]
