@@ -24117,5 +24117,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
+  },
+  {
+    "ts": "2026-09-06T16:28:24.827Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ghk-cu-100mg/"
   }
 ]
