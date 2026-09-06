@@ -24157,5 +24157,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
+  },
+  {
+    "ts": "2026-09-06T16:34:38.267Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
   }
 ]
