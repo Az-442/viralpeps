@@ -18287,5 +18287,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-06T07:24:59.246Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
   }
 ]
