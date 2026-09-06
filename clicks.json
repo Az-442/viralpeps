@@ -24572,5 +24572,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopeptides-uk.com/product/bacteriostatic-water-10ml-biopura/"
+  },
+  {
+    "ts": "2026-09-06T16:41:10.314Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://biopeptides-uk.com/product/cagrilintide-10mg/"
   }
 ]
