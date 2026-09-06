@@ -27248,5 +27248,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.novapeptide.co.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-06T20:44:17.766Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157/"
   }
 ]
