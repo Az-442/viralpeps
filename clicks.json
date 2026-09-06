@@ -26809,5 +26809,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.novapeptide.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-06T19:47:03.832Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.novapeptide.co.uk/product/cjc-1295-10mg-without-dac/"
   }
 ]
