@@ -22652,5 +22652,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-06T15:06:29.099Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://bluewellpeptides.com/product/cjc-1295-no-dac-ipamorelin-10mg-blend/"
   }
 ]
