@@ -18527,5 +18527,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.prime-peptides.co.uk/product/glutathione-gsh/"
+  },
+  {
+    "ts": "2026-09-06T07:51:41.077Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/semax-10mg/"
   }
 ]
