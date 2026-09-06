@@ -26817,5 +26817,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.novapeptide.co.uk/product/cjc-1295-10mg-without-dac/"
+  },
+  {
+    "ts": "2026-09-06T19:47:13.204Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
   }
 ]
