@@ -26888,5 +26888,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
+  },
+  {
+    "ts": "2026-09-06T19:55:33.389Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidelabuk.co.uk/product/tb-500-5mg-research-peptide-thymosin/"
   }
 ]
