@@ -12485,5 +12485,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.prime-peptides.co.uk/product/glutathione-gsh/"
+  },
+  {
+    "ts": "2026-09-06T00:02:10.062Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-10mg-tb-10mg-20mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/21-bpc-157-10mg-tb-500-10mg.html"
   }
 ]
