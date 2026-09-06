@@ -26840,5 +26840,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "hexarelin",
     "destUrl": "https://midshirelabs.co.uk/products/hexarelin/"
+  },
+  {
+    "ts": "2026-09-06T19:50:24.527Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://oplabs.co.uk/product/epithalon-10mg/"
   }
 ]
