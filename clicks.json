@@ -16849,5 +16849,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-06T05:47:22.788Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
   }
 ]
