@@ -20206,5 +20206,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.testedpeptides.co.uk/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-06T09:42:08.778Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.testedpeptides.co.uk/product/follistatin-344-1mg/"
   }
 ]
