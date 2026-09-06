@@ -25266,5 +25266,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "cognitive-signalling-set-semax-selank",
     "destUrl": "https://tidelabs.co.uk/products/cognitive-signalling-set-semax-selank"
+  },
+  {
+    "ts": "2026-09-06T16:59:09.621Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptx.co.uk/tirzepatide"
   }
 ]
