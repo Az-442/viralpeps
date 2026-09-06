@@ -19102,5 +19102,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-06T09:06:25.073Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://peptx.co.uk/product/liraglutide"
   }
 ]
