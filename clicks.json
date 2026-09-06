@@ -20677,5 +20677,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://zentra-peptides.com/product/selank/"
+  },
+  {
+    "ts": "2026-09-06T10:03:03.455Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/mots-c/"
   }
 ]
