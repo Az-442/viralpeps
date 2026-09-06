@@ -20406,5 +20406,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "mots-c-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/mots-c"
+  },
+  {
+    "ts": "2026-09-06T09:45:21.187Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "nad-research-peptide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/nad-plus"
   }
 ]
