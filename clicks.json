@@ -19118,5 +19118,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://xlpeptides.com/product/glow-peptide-blend/"
+  },
+  {
+    "ts": "2026-09-06T09:13:10.260Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/cjc-1295-with-dac/"
   }
 ]
