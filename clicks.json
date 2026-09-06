@@ -17168,5 +17168,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://chromapeptides.co.uk/product/dsip/"
+  },
+  {
+    "ts": "2026-09-06T07:11:03.890Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://chromapeptides.co.uk/product/epithalon/"
   }
 ]
