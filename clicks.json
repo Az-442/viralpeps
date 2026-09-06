@@ -27840,5 +27840,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-06T22:17:22.460Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/"
   }
 ]
