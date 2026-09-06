@@ -19374,5 +19374,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-06T09:33:54.017Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://bluewellpeptides.com/product/oxytocin-acetate-10mg-peptide/"
   }
 ]
