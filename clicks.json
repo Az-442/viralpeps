@@ -26700,5 +26700,13 @@
     "vendorSlug": "peptide-lab-uk",
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk"
+  },
+  {
+    "ts": "2026-09-06T19:40:16.412Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidelabuk.co.uk/product/mots-c-10mg-research-peptide/"
   }
 ]
