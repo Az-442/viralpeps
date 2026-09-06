@@ -22540,5 +22540,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-06T14:49:54.346Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "bpc-157-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
   }
 ]
