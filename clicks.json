@@ -16929,5 +16929,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "selank-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
+  },
+  {
+    "ts": "2026-09-06T06:05:20.521Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ss-31"
   }
 ]
