@@ -15713,5 +15713,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "epithalon-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial"
+  },
+  {
+    "ts": "2026-09-06T04:55:03.662Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
   }
 ]
