@@ -19062,5 +19062,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-06T09:01:46.748Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh"
   }
 ]
