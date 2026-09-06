@@ -22612,5 +22612,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape"
+  },
+  {
+    "ts": "2026-09-06T14:58:06.211Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptideslabuk.com/product/glutathione/"
   }
 ]
