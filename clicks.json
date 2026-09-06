@@ -27040,5 +27040,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://midshirelabs.co.uk/products/bpc157/"
+  },
+  {
+    "ts": "2026-09-06T20:25:13.527Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptx.co.uk/tirzepatide"
   }
 ]
