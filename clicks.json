@@ -20486,5 +20486,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://ukpeptides.com/catalog/ghrp-2"
+  },
+  {
+    "ts": "2026-09-06T09:46:00.233Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://ukpeptides.com/catalog/ghrp-6"
   }
 ]
