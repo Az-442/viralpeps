@@ -15337,5 +15337,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://biotideuk.com/products/glutathione-600-mg"
+  },
+  {
+    "ts": "2026-09-06T04:49:24.783Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymosin-alpha-1-5mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
