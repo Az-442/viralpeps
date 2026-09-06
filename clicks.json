@@ -26287,5 +26287,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-cjc-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo-dac/pen"
+  },
+  {
+    "ts": "2026-09-06T18:48:00.332Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen"
   }
 ]
