@@ -12997,5 +12997,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T00:25:36.671Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
