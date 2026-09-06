@@ -20798,5 +20798,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-06T10:36:41.519Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/"
   }
 ]
