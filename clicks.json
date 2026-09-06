@@ -15505,5 +15505,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "adipotide-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/pen"
+  },
+  {
+    "ts": "2026-09-06T04:53:32.206Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "adipotide-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/vial"
   }
 ]
