@@ -20030,5 +20030,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-mots-c-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-06T09:40:29.361Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-nad-100mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/"
   }
 ]
