@@ -19070,5 +19070,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-06T09:03:52.814Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide"
   }
 ]
