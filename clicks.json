@@ -25777,5 +25777,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://mypepbiotech.co.uk/product/tesamorelin-40mg/"
+  },
+  {
+    "ts": "2026-09-06T17:50:19.958Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
   }
 ]
