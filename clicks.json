@@ -28220,5 +28220,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-06T22:41:35.114Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptx.co.uk/product/cagrilintide"
   }
 ]
