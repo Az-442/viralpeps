@@ -21261,5 +21261,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://peptideslabuk.com/product/follistatin/"
+  },
+  {
+    "ts": "2026-09-06T12:28:40.012Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ahk-cu/"
   }
 ]
