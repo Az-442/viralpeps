@@ -18942,5 +18942,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://leolab.co.uk/peptides/cjc-1295/"
+  },
+  {
+    "ts": "2026-09-06T08:38:49.206Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/cjc-1295-with-dac/"
   }
 ]
