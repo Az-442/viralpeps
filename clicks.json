@@ -15057,5 +15057,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-06T03:04:42.447Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://octagonpeptides.co.uk/product/peg-mgf-2-mg/"
   }
 ]
