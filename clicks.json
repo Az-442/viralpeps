@@ -26534,5 +26534,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "pe-22-28",
     "destUrl": "https://peptidelabuk.co.uk/product/pe-22-28-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-06T19:17:48.852Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
   }
 ]
