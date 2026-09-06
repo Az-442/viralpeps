@@ -21453,5 +21453,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cardiogen-research-peptide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-06T12:34:51.752Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cartalax-10mg-aed-peptide-bioregulator"
   }
 ]
