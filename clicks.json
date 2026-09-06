@@ -21101,5 +21101,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://biopeptides-uk.com/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-06T12:16:08.183Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://biopeptides-uk.com/product/ghrp-2-10mg/"
   }
 ]
