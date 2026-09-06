@@ -15529,5 +15529,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ahk-cu-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
+  },
+  {
+    "ts": "2026-09-06T04:53:42.559Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/vial"
   }
 ]
