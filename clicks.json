@@ -25346,5 +25346,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://supplypeptides.co.uk/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-06T17:14:02.829Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/"
   }
 ]
