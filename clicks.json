@@ -23341,5 +23341,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.stratfordpeptides.com/products/no-product"
+  },
+  {
+    "ts": "2026-09-06T16:01:17.255Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/ipamorelin"
   }
 ]
