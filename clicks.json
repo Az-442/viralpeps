@@ -21501,5 +21501,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://bioplexpeptides.co.uk/products/dsip-15mg-dsip-nonapeptide"
+  },
+  {
+    "ts": "2026-09-06T12:35:48.547Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin"
   }
 ]
