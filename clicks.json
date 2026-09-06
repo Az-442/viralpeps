@@ -26319,5 +26319,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-06T18:52:55.395Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/"
   }
 ]
