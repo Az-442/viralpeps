@@ -25849,5 +25849,13 @@
     "vendorName": "APEX Biolabs",
     "destUrl": "https://www.apexbiolabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/apex-biolabs"
+  },
+  {
+    "ts": "2026-09-06T17:54:58.968Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://britpeptides.co.uk/product/retatrutide/"
   }
 ]
