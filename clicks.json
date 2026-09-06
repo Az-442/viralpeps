@@ -19014,5 +19014,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
+  },
+  {
+    "ts": "2026-09-06T08:55:20.987Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://zentra-peptides.com/product/cjc-1295-with-dac/"
   }
 ]
