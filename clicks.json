@@ -28662,5 +28662,13 @@
     "vendorSlug": "nupex",
     "vendorName": "Nupex",
     "destUrl": "https://nupex.co.uk"
+  },
+  {
+    "ts": "2026-09-06T23:51:11.449Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biopeptides-uk.com/product/retatrutide-10mg/"
   }
 ]
