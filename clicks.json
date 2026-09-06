@@ -18279,5 +18279,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://tidelabs.co.uk/products/ghrp-6"
+  },
+  {
+    "ts": "2026-09-06T07:24:57.081Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
