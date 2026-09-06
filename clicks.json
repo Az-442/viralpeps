@@ -23405,5 +23405,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://xlpeptides.com/product/dsip/"
+  },
+  {
+    "ts": "2026-09-06T16:02:18.550Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://xlpeptides.com/product/epitalon-10mg/"
   }
 ]
