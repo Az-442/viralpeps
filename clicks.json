@@ -13175,5 +13175,13 @@
     "vendorSlug": "zentra-peptides",
     "vendorName": "Zentra Peptides UK",
     "destUrl": "https://zentra-peptides.com"
+  },
+  {
+    "ts": "2026-09-06T00:36:32.754Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.stratfordpeptides.com/products/ss-31"
   }
 ]
