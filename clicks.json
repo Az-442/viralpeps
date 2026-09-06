@@ -19414,5 +19414,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bluewellpeptides.com/product/pt-141-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T09:34:11.432Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bluewellpeptides.com/product/selank-10mg-peptide/"
   }
 ]
