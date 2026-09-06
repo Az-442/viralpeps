@@ -21229,5 +21229,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://biopeptides-uk.com/product/retatrutide-10mg/"
+  },
+  {
+    "ts": "2026-09-06T12:20:29.591Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biopeptides-uk.com/product/selank-10mg/"
   }
 ]
