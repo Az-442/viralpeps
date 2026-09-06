@@ -28516,5 +28516,14 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-06T23:41:36.654Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.proformapeptides.co.uk/product/bpc-5/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157"
   }
 ]
