@@ -17847,5 +17847,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
+  },
+  {
+    "ts": "2026-09-06T07:21:34.522Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial"
   }
 ]
