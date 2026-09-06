@@ -27048,5 +27048,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://peptx.co.uk/tirzepatide"
+  },
+  {
+    "ts": "2026-09-06T20:25:30.743Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.novapeptide.co.uk/product/tb500-10mg/"
   }
 ]
