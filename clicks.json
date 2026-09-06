@@ -22892,5 +22892,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-06T15:53:18.790Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
