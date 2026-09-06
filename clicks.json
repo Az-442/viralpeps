@@ -28702,5 +28702,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-mots-c-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-06T23:58:19.103Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptifyuk.com/product/ghk-cu-50mg"
   }
 ]
