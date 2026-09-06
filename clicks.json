@@ -23357,5 +23357,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/bpc-157-tb-500-mix"
+  },
+  {
+    "ts": "2026-09-06T16:01:36.144Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://supplypeptides.co.uk/products/ipamorelin"
   }
 ]
