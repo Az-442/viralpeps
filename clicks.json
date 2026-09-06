@@ -18599,5 +18599,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "bpc-10mg-tb-10mg-20mg",
     "destUrl": "https://researchpeptide.co.uk/product/bpc-10mg-tb-10mg-20mg/"
+  },
+  {
+    "ts": "2026-09-06T08:01:42.788Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://bioplexpeptides.co.uk/products/fox04-10mg-foxo4-dri"
   }
 ]
