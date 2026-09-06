@@ -14382,5 +14382,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://purepeptidesuk.com/product/snap-8-10mg/"
+  },
+  {
+    "ts": "2026-09-06T01:08:20.400Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "snap-8-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/snap-8-10mg/"
   }
 ]
