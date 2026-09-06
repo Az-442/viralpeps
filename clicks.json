@@ -25817,5 +25817,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-06T17:53:04.525Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg"
   }
 ]
