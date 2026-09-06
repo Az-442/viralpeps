@@ -20830,5 +20830,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-06T10:59:19.611Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/glow-blend/"
   }
 ]
