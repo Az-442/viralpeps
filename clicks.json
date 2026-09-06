@@ -18631,5 +18631,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://leolab.co.uk/peptides/retatrutide/"
+  },
+  {
+    "ts": "2026-09-06T08:05:51.285Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide"
   }
 ]
