@@ -16137,5 +16137,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-06T04:57:58.883Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
   }
 ]
