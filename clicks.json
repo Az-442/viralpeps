@@ -18223,5 +18223,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-cjc-1295-dac-5mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-06T07:24:29.114Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://tidelabs.co.uk/products/epithalon"
   }
 ]
