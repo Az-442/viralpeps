@@ -13136,5 +13136,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg"
+  },
+  {
+    "ts": "2026-09-06T00:32:08.377Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
   }
 ]
