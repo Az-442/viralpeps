@@ -16921,5 +16921,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-06T06:03:49.151Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "selank-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
   }
 ]
