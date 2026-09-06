@@ -15881,5 +15881,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-06T04:56:16.337Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
   }
 ]
