@@ -22532,5 +22532,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/ipamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-06T14:49:19.022Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
   }
 ]
