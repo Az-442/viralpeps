@@ -27304,5 +27304,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kpv",
     "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
+  },
+  {
+    "ts": "2026-09-06T20:52:10.815Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "hexarelin-2mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/hexarelin-2mg/"
   }
 ]
