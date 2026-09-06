@@ -14710,5 +14710,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://peptideslabuk.com/product/snap-8/"
+  },
+  {
+    "ts": "2026-09-06T01:26:05.774Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/klow-80mg/"
   }
 ]
