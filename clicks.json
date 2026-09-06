@@ -25745,5 +25745,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "selank",
     "destUrl": "https://mypepbiotech.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-06T17:50:01.430Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/"
   }
 ]
