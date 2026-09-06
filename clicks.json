@@ -12421,5 +12421,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-5mg-tb-5mg",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/"
+  },
+  {
+    "ts": "2026-09-06T00:01:56.053Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/"
   }
 ]
