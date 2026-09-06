@@ -12453,5 +12453,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.prime-peptides.co.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-06T00:02:03.888Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hmg-75iu",
+    "destUrl": "https://purepeptidesuk.com/product/hmg-75iu/"
   }
 ]
