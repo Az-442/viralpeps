@@ -15905,5 +15905,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://bluewellpeptides.com/product/epithalon-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-06T04:56:23.184Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
