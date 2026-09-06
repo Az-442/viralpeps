@@ -26558,5 +26558,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.novapeptide.co.uk/product/nad/"
+  },
+  {
+    "ts": "2026-09-06T19:20:25.483Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/"
   }
 ]
