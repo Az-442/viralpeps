@@ -27128,5 +27128,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.novapeptide.co.uk/product/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-06T20:29:30.089Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://oplabs.co.uk/product/ghrp-2-10mg/"
   }
 ]
