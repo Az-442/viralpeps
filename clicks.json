@@ -20814,5 +20814,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-2mg-thymosin-beta"
+  },
+  {
+    "ts": "2026-09-06T10:51:29.135Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://olresearch.co.uk/product/pt-141-10mg/"
   }
 ]
