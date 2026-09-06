@@ -26614,5 +26614,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/semax"
+  },
+  {
+    "ts": "2026-09-06T19:30:34.960Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
