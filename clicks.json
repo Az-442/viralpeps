@@ -20950,5 +20950,13 @@
     "vendorName": "PeptidesX",
     "destUrl": "https://www.peptidesx.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptidesx"
+  },
+  {
+    "ts": "2026-09-06T11:36:57.780Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "destUrl": "https://www.peptidesonline.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptides-online-uk"
   }
 ]
