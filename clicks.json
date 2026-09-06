@@ -20550,5 +20550,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://ukpeptides.com/catalog/kisspeptin"
+  },
+  {
+    "ts": "2026-09-06T09:46:35.026Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin-nasal-spray"
   }
 ]
