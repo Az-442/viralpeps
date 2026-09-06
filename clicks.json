@@ -18870,5 +18870,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.apex-pharma.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-06T08:32:44.430Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://leolab.co.uk/peptides/semaglutide/"
   }
 ]
