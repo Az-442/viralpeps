@@ -17536,5 +17536,12 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biopulsepeptides.co.uk/shop/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-06T07:15:21.396Z",
+    "type": "vendor-site",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "destUrl": "https://www.proformapeptides.co.uk"
   }
 ]
