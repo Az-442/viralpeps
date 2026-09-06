@@ -21333,5 +21333,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biopeptides-uk.com/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-06T12:31:31.075Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://biopeptides-uk.com/product/vip-10mg/"
   }
 ]
