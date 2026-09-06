@@ -28181,5 +28181,12 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-slu-pp-332-5mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/slu-pp-332-5mg/"
+  },
+  {
+    "ts": "2026-09-06T22:38:36.639Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk"
   }
 ]
