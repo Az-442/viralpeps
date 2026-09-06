@@ -18663,5 +18663,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-06T08:15:51.832Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "aicar-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/aicar/"
   }
 ]
