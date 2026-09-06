@@ -25721,5 +25721,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "nad-plus",
     "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-06T17:49:48.352Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/"
   }
 ]
