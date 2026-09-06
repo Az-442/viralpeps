@@ -14254,5 +14254,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "dermorphin",
     "destUrl": "https://precision-peptides.shop/product/dermorphin-5mg-no-packaging/"
+  },
+  {
+    "ts": "2026-09-06T01:07:07.752Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://precision-peptides.shop/product/dsip-delta-sleep-inducing-peptide-5mg/"
   }
 ]
