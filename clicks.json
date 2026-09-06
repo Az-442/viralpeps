@@ -26944,5 +26944,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-06T20:10:54.645Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.novapeptide.co.uk/product/bpc157-10mg/"
   }
 ]
