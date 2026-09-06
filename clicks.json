@@ -20198,5 +20198,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-06T09:42:02.251Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.testedpeptides.co.uk/product/epitalon-10mg/"
   }
 ]
