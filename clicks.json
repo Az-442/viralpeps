@@ -27064,5 +27064,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biotideuk.com/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-06T20:25:44.341Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptx.co.uk/product/aod-9604"
   }
 ]
