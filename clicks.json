@@ -15073,5 +15073,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptides.com/catalog/retatrutide"
+  },
+  {
+    "ts": "2026-09-06T03:09:13.355Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
   }
 ]
