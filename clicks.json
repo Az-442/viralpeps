@@ -16889,5 +16889,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-06T05:52:17.537Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide"
   }
 ]
