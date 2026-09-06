@@ -14222,5 +14222,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-06T01:06:48.941Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.novapeptide.co.uk/product/nad/"
   }
 ]
