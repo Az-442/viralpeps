@@ -18559,5 +18559,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://midshirelabs.co.uk/products/nad/"
+  },
+  {
+    "ts": "2026-09-06T07:58:31.007Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://oplabs.co.uk/product/ghrp-2-10mg/"
   }
 ]
