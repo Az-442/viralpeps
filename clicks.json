@@ -15281,5 +15281,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "gdf-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
+  },
+  {
+    "ts": "2026-09-06T04:25:41.419Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://octagonpeptides.co.uk/product/semax-10-mg/"
   }
 ]
