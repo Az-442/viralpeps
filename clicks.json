@@ -15729,5 +15729,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "follistatin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/pen"
+  },
+  {
+    "ts": "2026-09-06T04:55:10.556Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
   }
 ]
