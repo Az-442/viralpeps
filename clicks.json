@@ -17097,5 +17097,12 @@
     "vendorName": "Flex Peptides",
     "destUrl": "https://www.flexpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/flex-peptides"
+  },
+  {
+    "ts": "2026-09-06T07:01:47.371Z",
+    "type": "vendor-site",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "destUrl": "https://www.flexpeptides.co.uk"
   }
 ]
