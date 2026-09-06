@@ -13638,5 +13638,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "hexarelin",
     "destUrl": "https://chromapeptides.co.uk/product/hexarelin/"
+  },
+  {
+    "ts": "2026-09-06T00:59:13.311Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://chromapeptides.co.uk/product/ipamorelin/"
   }
 ]
