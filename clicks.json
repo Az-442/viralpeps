@@ -14950,5 +14950,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "gonadorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/gonadorelin-5mg-acetate-gnrh"
+  },
+  {
+    "ts": "2026-09-06T02:38:27.961Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://biopeptides-uk.com/product/igf-1-long-r3-1mg/"
   }
 ]
