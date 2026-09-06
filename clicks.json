@@ -17033,5 +17033,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://momentumpeptides.com/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-06T06:55:03.593Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp"
   }
 ]
