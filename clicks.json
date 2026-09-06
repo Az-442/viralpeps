@@ -17001,5 +17001,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin"
+  },
+  {
+    "ts": "2026-09-06T06:38:54.588Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://tidelabs.co.uk/products/bacteriostatic-water-10ml"
   }
 ]
