@@ -17360,5 +17360,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://midshirelabs.co.uk/products/bpc157/"
+  },
+  {
+    "ts": "2026-09-06T07:12:29.460Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://cmsrlabs.co/product/retatrutide-10mg/"
   }
 ]
