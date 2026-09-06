@@ -25115,5 +25115,13 @@
     "vendorSlug": "united-peptides",
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-06T16:47:20.880Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://ascendpeptidesuk.com/products/ghk-cu-100mg/"
   }
 ]
