@@ -21301,5 +21301,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/"
+  },
+  {
+    "ts": "2026-09-06T12:30:26.000Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/tesamorelin-5mg/"
   }
 ]
