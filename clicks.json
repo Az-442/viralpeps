@@ -18487,5 +18487,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://xlpeptides.com/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-06T07:39:57.080Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glow"
   }
 ]
