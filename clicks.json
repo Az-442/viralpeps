@@ -21245,5 +21245,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6"
+  },
+  {
+    "ts": "2026-09-06T12:25:35.738Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/epithalon-epitalon-10mg/"
   }
 ]
