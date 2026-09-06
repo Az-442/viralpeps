@@ -27656,5 +27656,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.apexbiolabs.co.uk/product/sermorelin/"
+  },
+  {
+    "ts": "2026-09-06T22:00:22.758Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide"
   }
 ]
