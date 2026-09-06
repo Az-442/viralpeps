@@ -25610,5 +25610,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-06T17:44:34.930Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
