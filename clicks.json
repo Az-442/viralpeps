@@ -14662,5 +14662,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-06T01:11:04.461Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://cmsrlabs.co/product/semaglutide-10mg/"
   }
 ]
