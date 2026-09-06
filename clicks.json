@@ -21573,5 +21573,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "gonadorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/gonadorelin-5mg-acetate-gnrh"
+  },
+  {
+    "ts": "2026-09-06T12:36:59.189Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin"
   }
 ]
