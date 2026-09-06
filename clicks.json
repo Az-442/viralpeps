@@ -22716,5 +22716,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-06T15:22:10.211Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidesuk.com/pt-141/"
   }
 ]
