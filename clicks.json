@@ -12397,5 +12397,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-5mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/"
+  },
+  {
+    "ts": "2026-09-06T00:01:47.721Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ipamorelin"
   }
 ]
