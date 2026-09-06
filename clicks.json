@@ -17104,5 +17104,13 @@
     "vendorSlug": "flex-peptides",
     "vendorName": "Flex Peptides",
     "destUrl": "https://www.flexpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-06T07:05:48.492Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ghk-cu/"
   }
 ]
