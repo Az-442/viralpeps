@@ -13990,5 +13990,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-06T01:04:48.616Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptidesuk.com/epitalon/"
   }
 ]
