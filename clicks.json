@@ -22684,5 +22684,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://my-peptides.co.uk/products/mots-c-32"
+  },
+  {
+    "ts": "2026-09-06T15:15:27.432Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/"
   }
 ]
