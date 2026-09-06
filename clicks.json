@@ -24532,5 +24532,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://mypepbiotech.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-06T16:40:53.197Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://biopeptides-uk.com/product/ace-031-1mg/"
   }
 ]
