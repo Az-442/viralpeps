@@ -18846,5 +18846,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://leolab.co.uk/peptides/epithalon/"
+  },
+  {
+    "ts": "2026-09-06T08:29:01.102Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
   }
 ]
