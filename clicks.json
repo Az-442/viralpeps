@@ -20720,5 +20720,12 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-06T10:14:26.721Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk"
   }
 ]
