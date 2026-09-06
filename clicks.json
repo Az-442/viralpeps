@@ -21733,5 +21733,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://bioplexpeptides.co.uk/products/ss-31-10mg-elamipretide"
+  },
+  {
+    "ts": "2026-09-06T12:43:43.332Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1"
   }
 ]
