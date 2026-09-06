@@ -17384,5 +17384,13 @@
     "vendorName": "CMSR Labs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://cmsrlabs.co/product/tesamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-06T07:12:51.474Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://cmsrlabs.co/product/tirzepatide-10mg/"
   }
 ]
