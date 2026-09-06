@@ -18854,5 +18854,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
+  },
+  {
+    "ts": "2026-09-06T08:29:36.839Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.apex-pharma.co.uk/product/semax-10mg/"
   }
 ]
