@@ -21325,5 +21325,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biopeptides-uk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-06T12:31:18.241Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biopeptides-uk.com/product/tirzepatide-10mg/"
   }
 ]
