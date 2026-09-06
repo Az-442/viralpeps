@@ -21877,5 +21877,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.testedpeptides.co.uk/product/kissptin-10-10mg/"
+  },
+  {
+    "ts": "2026-09-06T12:46:54.809Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
   }
 ]
