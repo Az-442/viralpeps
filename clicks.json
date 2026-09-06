@@ -23333,5 +23333,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.stratfordpeptides.com/products/epitalon"
+  },
+  {
+    "ts": "2026-09-06T16:01:12.583Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.stratfordpeptides.com/products/no-product"
   }
 ]
