@@ -30243,5 +30243,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
+  },
+  {
+    "ts": "2026-09-07T04:08:37.459Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
   }
 ]
