@@ -33379,5 +33379,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://anglopeptides.com/product/bacteriostatic-water-10ml-vial-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T12:34:08.455Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
   }
 ]
