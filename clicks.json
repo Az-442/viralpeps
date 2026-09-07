@@ -2355,5 +2355,12 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/"
+  },
+  {
+    "ts": "2026-09-07T15:56:57.487Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk"
   }
 ]
