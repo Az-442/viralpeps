@@ -29547,5 +29547,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-07T02:21:26.357Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://leolab.co.uk/peptides/semaglutide/"
   }
 ]
