@@ -30035,5 +30035,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cardiogen-research-peptide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-07T03:39:56.074Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.stratfordpeptides.com/products/tirzepatide"
   }
 ]
