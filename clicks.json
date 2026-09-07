@@ -33108,5 +33108,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-07T11:26:41.241Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/cjc-1295-without-dac"
   }
 ]
