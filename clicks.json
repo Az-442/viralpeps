@@ -2331,5 +2331,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.apex-pharma.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-07T15:54:19.076Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ghrp-2-10mg/"
   }
 ]
