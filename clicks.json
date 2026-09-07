@@ -1556,5 +1556,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://biotideuk.com/products/wolverine-stack-20-mg"
+  },
+  {
+    "ts": "2026-09-07T15:10:21.333Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biotideuk.com/products/glutathione-600-mg"
   }
 ]
