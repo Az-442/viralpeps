@@ -6032,5 +6032,14 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://precision-peptides.shop/product/bpc-tb500-10mg-blend/"
+  },
+  {
+    "ts": "2026-09-07T20:30:28.690Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/31-epitalon-10mg.html",
+    "refPage": "https://viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
