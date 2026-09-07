@@ -29555,5 +29555,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "semaglutide",
     "destUrl": "https://leolab.co.uk/peptides/semaglutide/"
+  },
+  {
+    "ts": "2026-09-07T02:21:28.690Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
   }
 ]
