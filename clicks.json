@@ -1340,5 +1340,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biotideuk.com/products/tesa"
+  },
+  {
+    "ts": "2026-09-07T14:59:50.955Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptideslabuk.com/product/kpv/"
   }
 ]
