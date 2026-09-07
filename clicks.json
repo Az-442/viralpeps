@@ -32340,5 +32340,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-tb500-10mg-pentadecape-beta-4"
+  },
+  {
+    "ts": "2026-09-07T07:55:43.659Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "kpv",
+    "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
   }
 ]
