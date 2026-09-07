@@ -498,5 +498,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "semax",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
+  },
+  {
+    "ts": "2026-09-07T14:07:25.140Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
   }
 ]
