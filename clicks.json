@@ -32944,5 +32944,13 @@
     "vendorName": "OL Research",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://olresearch.co.uk/product/ahk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-07T11:01:23.001Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
   }
 ]
