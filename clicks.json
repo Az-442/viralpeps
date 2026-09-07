@@ -6544,5 +6544,14 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "mgf",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-mgf-2mg/"
+  },
+  {
+    "ts": "2026-09-07T21:12:51.671Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.proformapeptides.co.uk/product/aod9604/",
+    "refPage": "https://viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
