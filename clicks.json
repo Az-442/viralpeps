@@ -5824,5 +5824,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "semaglutide",
     "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T20:14:07.060Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/epithalon"
   }
 ]
