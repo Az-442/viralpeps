@@ -30963,5 +30963,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/premium-retatrutide-30mg-pen-"
+  },
+  {
+    "ts": "2026-09-07T05:27:39.867Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://tidelabs.co.uk/products/pt-141-bremelanotide-10mg"
   }
 ]
