@@ -577,5 +577,13 @@
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/anglo-peptides"
+  },
+  {
+    "ts": "2026-09-07T14:13:33.812Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.prime-peptides.co.uk/product/epitalon/"
   }
 ]
