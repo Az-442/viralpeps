@@ -814,5 +814,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.prime-peptides.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-07T14:30:33.595Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://purepeptidesuk.com/product/cjc-1295-dac-2mg/"
   }
 ]
