@@ -28774,5 +28774,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
+  },
+  {
+    "ts": "2026-09-07T00:14:14.898Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-kpv-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv-10mg/"
   }
 ]
