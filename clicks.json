@@ -1124,5 +1124,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://biotideuk.com/products/tb-500"
+  },
+  {
+    "ts": "2026-09-07T14:50:17.804Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin-acetate",
+    "destUrl": "https://researchpeptide.co.uk/product/sermorelin-acetate/"
   }
 ]
