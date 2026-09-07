@@ -33339,5 +33339,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T12:30:08.747Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://anglopeptides.com/product/semax-10mg-batch-103-research-peptide/"
   }
 ]
