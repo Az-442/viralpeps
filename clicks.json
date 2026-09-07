@@ -31869,5 +31869,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-07T06:54:46.358Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
   }
 ]
