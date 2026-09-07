@@ -6561,5 +6561,13 @@
     "vendorName": "Proforma Peptides",
     "destUrl": "https://www.proformapeptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/proforma-peptides"
+  },
+  {
+    "ts": "2026-09-07T21:15:46.040Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/"
   }
 ]
