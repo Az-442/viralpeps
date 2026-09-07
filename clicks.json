@@ -1540,5 +1540,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/"
+  },
+  {
+    "ts": "2026-09-07T15:10:15.910Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biotideuk.com/products/glutathione-600-mg"
   }
 ]
