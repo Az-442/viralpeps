@@ -28918,5 +28918,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
+  },
+  {
+    "ts": "2026-09-07T00:33:55.376Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/"
   }
 ]
