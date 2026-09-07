@@ -3000,5 +3000,13 @@
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-07T16:23:02.841Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/epithalon"
   }
 ]
