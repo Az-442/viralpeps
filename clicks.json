@@ -664,5 +664,13 @@
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/alphamino"
+  },
+  {
+    "ts": "2026-09-07T14:23:13.512Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
   }
 ]
