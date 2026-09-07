@@ -4500,5 +4500,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-07T18:17:00.409Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://premiopeptides.co.uk/compounds/tesamorelin"
   }
 ]
