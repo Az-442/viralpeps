@@ -2196,5 +2196,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://xlpeptides.com/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-07T15:45:01.471Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://supplypeptides.co.uk/products/bpc-157-tb-500-mix"
   }
 ]
