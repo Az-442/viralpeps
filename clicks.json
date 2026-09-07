@@ -1084,5 +1084,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biotideuk.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-07T14:47:54.943Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
