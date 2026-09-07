@@ -31861,5 +31861,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin"
+  },
+  {
+    "ts": "2026-09-07T06:54:25.219Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
   }
 ]
