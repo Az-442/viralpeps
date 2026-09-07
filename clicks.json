@@ -3511,5 +3511,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
+  },
+  {
+    "ts": "2026-09-07T17:04:11.593Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bioplexpeptides.co.uk/products/igf-1-lr3-1mg-insulin-like-growth-factor-1"
   }
 ]
