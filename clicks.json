@@ -1324,5 +1324,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "ghk-cu-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
+  },
+  {
+    "ts": "2026-09-07T14:58:58.896Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa"
   }
 ]
