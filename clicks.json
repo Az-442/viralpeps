@@ -29157,5 +29157,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-07T01:03:14.247Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
