@@ -2204,5 +2204,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/bpc-157-tb-500-mix"
+  },
+  {
+    "ts": "2026-09-07T15:45:48.780Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.stratfordpeptides.com/products/mots-c"
   }
 ]
