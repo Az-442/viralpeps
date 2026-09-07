@@ -29340,5 +29340,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://britpeptides.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-07T01:26:59.130Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://oplabs.co.uk/product/dsip-5mg/"
   }
 ]
