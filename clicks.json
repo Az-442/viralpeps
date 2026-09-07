@@ -7070,5 +7070,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-07T22:23:43.011Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
   }
 ]
