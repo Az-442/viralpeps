@@ -5369,5 +5369,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.prime-peptides.co.uk/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-07T19:33:20.005Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://alphamino.co.uk/shop/alp_l3/"
   }
 ]
