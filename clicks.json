@@ -30067,5 +30067,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://ukpeptidelab.co.uk/product/l-carnitine"
+  },
+  {
+    "ts": "2026-09-07T03:47:16.968Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
