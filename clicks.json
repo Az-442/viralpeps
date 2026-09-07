@@ -29539,5 +29539,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-07T02:17:54.339Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
