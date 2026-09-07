@@ -4778,5 +4778,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://ukpeptides.com/catalog/glow"
+  },
+  {
+    "ts": "2026-09-07T18:39:24.889Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/retatrutide.html"
   }
 ]
