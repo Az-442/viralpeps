@@ -30931,5 +30931,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
+  },
+  {
+    "ts": "2026-09-07T05:25:46.618Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
   }
 ]
