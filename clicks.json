@@ -33260,5 +33260,12 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
+  },
+  {
+    "ts": "2026-09-07T12:23:30.789Z",
+    "type": "vendor-site",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "destUrl": "https://bioplexpeptides.co.uk"
   }
 ]
