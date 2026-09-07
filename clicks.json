@@ -31459,5 +31459,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-nad-100mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-07T06:11:28.976Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://purepeptidesuk.com/product/semax-5mg/"
   }
 ]
