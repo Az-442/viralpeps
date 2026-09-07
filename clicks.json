@@ -28846,5 +28846,12 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "retatrutide",
     "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T00:25:15.972Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk"
   }
 ]
