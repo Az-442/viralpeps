@@ -33212,5 +33212,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-07T12:13:17.060Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
   }
 ]
