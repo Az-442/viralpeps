@@ -32260,5 +32260,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-dac-5mg-ghrh"
+  },
+  {
+    "ts": "2026-09-07T07:45:05.498Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
