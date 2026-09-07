@@ -30059,5 +30059,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T03:46:35.063Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://ukpeptidelab.co.uk/product/l-carnitine"
   }
 ]
