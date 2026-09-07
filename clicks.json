@@ -2267,5 +2267,13 @@
     "vendorSlug": "prime-peptides",
     "vendorName": "Prime Peptides",
     "destUrl": "https://www.prime-peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-07T15:51:20.338Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
   }
 ]
