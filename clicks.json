@@ -31027,5 +31027,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glutathione",
     "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
+  },
+  {
+    "ts": "2026-09-07T05:33:25.627Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/"
   }
 ]
