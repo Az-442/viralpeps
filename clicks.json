@@ -32332,5 +32332,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
+  },
+  {
+    "ts": "2026-09-07T07:55:09.618Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-tb500-10mg-pentadecape-beta-4"
   }
 ]
