@@ -30795,5 +30795,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-07T05:15:23.168Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/"
   }
 ]
