@@ -1964,5 +1964,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-07T15:30:05.374Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://chiltonlabs.co.uk/product/melanotan-ii-mt2-10mg/"
   }
 ]
