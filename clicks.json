@@ -31467,5 +31467,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://purepeptidesuk.com/product/semax-5mg/"
+  },
+  {
+    "ts": "2026-09-07T06:11:45.124Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
   }
 ]
