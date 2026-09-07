@@ -6,5 +6,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://anglopeptides.com/product/selank-peptide-10mg-new-batch-102-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T13:10:23.522Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
