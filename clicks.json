@@ -585,5 +585,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.prime-peptides.co.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-07T14:13:36.656Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
   }
 ]
