@@ -29917,5 +29917,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biotideuk.com/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-07T03:24:56.798Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/klow"
   }
 ]
