@@ -28877,5 +28877,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "dermorphin",
     "destUrl": "https://bluewellpeptides.com/product/dermorphin-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-07T00:27:51.046Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500"
   }
 ]
