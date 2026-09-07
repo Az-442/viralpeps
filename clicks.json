@@ -1022,5 +1022,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
+  },
+  {
+    "ts": "2026-09-07T14:46:13.298Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.proformapeptides.co.uk/product/aod9604/"
   }
 ]
