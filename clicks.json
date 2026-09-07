@@ -29973,5 +29973,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
+  },
+  {
+    "ts": "2026-09-07T03:32:35.042Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor"
   }
 ]
