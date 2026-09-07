@@ -84,5 +84,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-07T13:20:11.935Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://anglopeptides.com/product/glow-blend-peptide-70mg-vial-batch-103-research-peptide/"
   }
 ]
