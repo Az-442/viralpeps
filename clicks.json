@@ -4161,5 +4161,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/"
+  },
+  {
+    "ts": "2026-09-07T17:43:18.100Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "dsip",
+    "destUrl": "https://ukpeptidelab.co.uk/product/dsip",
+    "refPage": "https://viralpeps.co.uk/vendors/uk-peptide-lab"
   }
 ]
