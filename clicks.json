@@ -28758,5 +28758,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-ghk-cu-100mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-07T00:11:02.480Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ss-31-10mg"
   }
 ]
