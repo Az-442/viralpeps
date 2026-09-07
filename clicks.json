@@ -7197,5 +7197,14 @@
     "vendorName": "Momentum Peptides",
     "destUrl": "https://momentumpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/momentum-peptides"
+  },
+  {
+    "ts": "2026-09-07T22:46:36.853Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptx.co.uk/shop",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
