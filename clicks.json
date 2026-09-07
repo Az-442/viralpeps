@@ -6107,5 +6107,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "nad-plus",
     "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/"
+  },
+  {
+    "ts": "2026-09-07T20:36:44.900Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/vip"
   }
 ]
