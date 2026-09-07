@@ -33132,5 +33132,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-07T11:35:02.908Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
