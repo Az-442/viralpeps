@@ -530,5 +530,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.prime-peptides.co.uk/product/glutathione-gsh/"
+  },
+  {
+    "ts": "2026-09-07T14:10:41.094Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/anglo-peptides"
   }
 ]
