@@ -31475,5 +31475,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "gdf-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
+  },
+  {
+    "ts": "2026-09-07T06:13:34.027Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ghk-cu-100mg"
   }
 ]
