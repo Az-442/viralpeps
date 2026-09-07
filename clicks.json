@@ -30915,5 +30915,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/selank/"
+  },
+  {
+    "ts": "2026-09-07T05:24:29.689Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tb-500/"
   }
 ]
