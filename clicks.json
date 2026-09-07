@@ -3080,5 +3080,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://precision-peptides.shop/product/mot-c-10mg/"
+  },
+  {
+    "ts": "2026-09-07T16:26:53.828Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-alpha-1-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
   }
 ]
