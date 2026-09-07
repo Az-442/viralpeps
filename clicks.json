@@ -774,5 +774,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://www.buyreta.co.uk/product/ace-031-uk"
+  },
+  {
+    "ts": "2026-09-07T14:27:04.418Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
   }
 ]
