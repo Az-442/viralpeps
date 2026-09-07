@@ -29069,5 +29069,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "snap-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3"
+  },
+  {
+    "ts": "2026-09-07T00:55:25.175Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://momentumpeptides.com/product/ghk-cu/"
   }
 ]
