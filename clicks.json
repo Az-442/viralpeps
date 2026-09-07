@@ -450,5 +450,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
+  },
+  {
+    "ts": "2026-09-07T14:00:12.741Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-TB5-5"
   }
 ]
