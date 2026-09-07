@@ -3463,5 +3463,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-07T17:00:07.839Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen"
   }
 ]
