@@ -31698,5 +31698,14 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://britpeptides.co.uk/product/glow-stack-disposable-pen-ghk-cu-tb-500-bpc-157-blend/"
+  },
+  {
+    "ts": "2026-09-07T06:39:08.101Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://zentra-peptides.com/product/tesamorelin/",
+    "refPage": "https://viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
