@@ -1700,5 +1700,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide"
+  },
+  {
+    "ts": "2026-09-07T15:14:55.321Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://biotideuk.com/products/cjc-1295-no-dac-5-mg-ipamorelin-5-mg"
   }
 ]
