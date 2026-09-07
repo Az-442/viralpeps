@@ -29228,5 +29228,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://britpeptides.co.uk/product/pt-141/"
+  },
+  {
+    "ts": "2026-09-07T01:12:56.185Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://researchpeptide.co.uk/product/adipotide/"
   }
 ]
