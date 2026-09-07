@@ -371,5 +371,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-KISS-10"
+  },
+  {
+    "ts": "2026-09-07T13:50:08.981Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
   }
 ]
