@@ -30235,5 +30235,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide"
+  },
+  {
+    "ts": "2026-09-07T04:08:16.031Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
   }
 ]
