@@ -2528,5 +2528,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "slu-pp-332-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/pen"
+  },
+  {
+    "ts": "2026-09-07T16:03:38.394Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/"
   }
 ]
