@@ -30083,5 +30083,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin"
+  },
+  {
+    "ts": "2026-09-07T03:49:44.551Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
