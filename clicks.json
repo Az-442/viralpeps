@@ -3683,5 +3683,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.peptidesonline.uk/shop/epitalon/"
+  },
+  {
+    "ts": "2026-09-07T17:14:31.790Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg"
   }
 ]
