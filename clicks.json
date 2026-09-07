@@ -363,5 +363,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg"
+  },
+  {
+    "ts": "2026-09-07T13:46:55.095Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-KISS-10"
   }
 ]
