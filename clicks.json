@@ -1038,5 +1038,12 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-07T14:46:54.712Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com"
   }
 ]
