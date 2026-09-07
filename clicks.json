@@ -1532,5 +1532,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-07T15:09:49.236Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/"
   }
 ]
