@@ -30619,5 +30619,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://xlpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-07T04:56:16.676Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/"
   }
 ]
