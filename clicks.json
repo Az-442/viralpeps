@@ -32292,5 +32292,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
+  },
+  {
+    "ts": "2026-09-07T07:49:37.388Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
   }
 ]
