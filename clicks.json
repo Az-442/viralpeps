@@ -1132,5 +1132,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "sermorelin-acetate",
     "destUrl": "https://researchpeptide.co.uk/product/sermorelin-acetate/"
+  },
+  {
+    "ts": "2026-09-07T14:50:20.755Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biotideuk.com/products/nad-500-mg"
   }
 ]
