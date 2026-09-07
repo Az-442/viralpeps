@@ -31715,5 +31715,14 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://precision-peptides.shop/product/glp-3-reta-10mg/"
+  },
+  {
+    "ts": "2026-09-07T06:39:56.722Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://spxlabs.co.uk/product/bpc-157-tb-500-uk-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157-tb-500"
   }
 ]
