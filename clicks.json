@@ -30627,5 +30627,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T04:56:59.029Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
   }
 ]
