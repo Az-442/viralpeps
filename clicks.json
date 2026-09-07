@@ -32044,5 +32044,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.flexpeptides.co.uk/products/ghk-cu-100mg"
+  },
+  {
+    "ts": "2026-09-07T07:15:19.506Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://my-peptides.co.uk/products/nad-kit"
   }
 ]
