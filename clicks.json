@@ -1164,5 +1164,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://biotideuk.com/products/tb-500"
+  },
+  {
+    "ts": "2026-09-07T14:51:07.745Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
