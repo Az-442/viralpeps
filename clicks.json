@@ -235,5 +235,13 @@
     "vendorSlug": "applied-peptides",
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com"
+  },
+  {
+    "ts": "2026-09-07T13:34:03.771Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://peptideslabuk.com/product/vip/"
   }
 ]
