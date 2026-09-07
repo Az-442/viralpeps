@@ -28718,5 +28718,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-pbs-10ml",
     "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/"
+  },
+  {
+    "ts": "2026-09-07T00:02:52.310Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "bpc-157-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157"
   }
 ]
