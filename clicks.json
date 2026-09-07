@@ -29141,5 +29141,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.apexbiolabs.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-07T01:01:30.350Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4"
   }
 ]
