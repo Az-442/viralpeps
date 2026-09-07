@@ -704,5 +704,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-5mg-tb-5mg",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/"
+  },
+  {
+    "ts": "2026-09-07T14:24:40.208Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
   }
 ]
