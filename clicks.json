@@ -5083,5 +5083,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.prime-peptides.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-07T19:07:36.983Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500-1/"
   }
 ]
