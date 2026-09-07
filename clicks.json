@@ -2680,5 +2680,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-5mg-tb-5mg",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/"
+  },
+  {
+    "ts": "2026-09-07T16:09:23.003Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
   }
 ]
