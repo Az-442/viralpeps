@@ -30923,5 +30923,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-07T05:24:50.329Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
   }
 ]
