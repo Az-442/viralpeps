@@ -30411,5 +30411,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/melanotan-ii-10mg"
+  },
+  {
+    "ts": "2026-09-07T04:30:41.526Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/retatrutide"
   }
 ]
