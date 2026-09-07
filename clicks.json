@@ -3748,5 +3748,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-07T17:18:07.438Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://xlpeptides.com/product/tesamorelin-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/xl-peptides"
   }
 ]
