@@ -30467,5 +30467,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://researchpeptide.co.uk/product/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-07T04:44:05.369Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrh-analog-amide",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide"
   }
 ]
