@@ -3806,5 +3806,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "pal-ghk",
     "destUrl": "https://peptidesuk.com/pal-ghk/"
+  },
+  {
+    "ts": "2026-09-07T17:21:05.917Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
   }
 ]
