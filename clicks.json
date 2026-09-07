@@ -228,5 +228,12 @@
     "vendorName": "My Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
+  },
+  {
+    "ts": "2026-09-07T13:33:31.227Z",
+    "type": "vendor-site",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "destUrl": "https://appliedpeptides.com"
   }
 ]
