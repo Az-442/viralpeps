@@ -32476,5 +32476,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-07T08:50:18.046Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
