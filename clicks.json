@@ -4516,5 +4516,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-07T18:17:18.856Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/pt-141"
   }
 ]
