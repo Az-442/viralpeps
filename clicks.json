@@ -3423,5 +3423,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://peptideslabuk.com/product/hgh-fragments/"
+  },
+  {
+    "ts": "2026-09-07T16:53:58.750Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
