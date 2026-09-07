@@ -4956,5 +4956,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
+  },
+  {
+    "ts": "2026-09-07T18:56:57.963Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
   }
 ]
