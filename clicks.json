@@ -4803,5 +4803,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "aod-9604-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/pen"
+  },
+  {
+    "ts": "2026-09-07T18:41:55.884Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/tested-peptides"
   }
 ]
