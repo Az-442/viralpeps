@@ -4872,5 +4872,13 @@
     "vendorName": "Tested Peptides",
     "destUrl": "https://www.testedpeptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/tested-peptides"
+  },
+  {
+    "ts": "2026-09-07T18:50:59.880Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://evapeptide.co.uk/product/buy-aod9604-uk/"
   }
 ]
