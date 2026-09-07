@@ -31642,5 +31642,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptidesuk.com/igf-1-des/"
+  },
+  {
+    "ts": "2026-09-07T06:36:29.969Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cerebrolysin",
+    "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/"
   }
 ]
