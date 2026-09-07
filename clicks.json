@@ -696,5 +696,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://www.prime-peptides.co.uk/product/klow-blend-peptide/"
+  },
+  {
+    "ts": "2026-09-07T14:23:35.050Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "bpc-5mg-tb-5mg",
+    "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/"
   }
 ]
