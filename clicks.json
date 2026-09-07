@@ -31115,5 +31115,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-tb500-peptide-blend-10mg-vial-research-grade/"
+  },
+  {
+    "ts": "2026-09-07T05:41:58.453Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
   }
 ]
