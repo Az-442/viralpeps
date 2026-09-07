@@ -2928,5 +2928,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "kpv",
     "destUrl": "https://peptideslabuk.com/product/kpv/"
+  },
+  {
+    "ts": "2026-09-07T16:20:19.287Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://olresearch.co.uk/product/pt-141-10mg/"
   }
 ]
