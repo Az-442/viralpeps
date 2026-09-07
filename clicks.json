@@ -4948,5 +4948,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://precision-peptides.shop/product/glp-3-reta-10mg/"
+  },
+  {
+    "ts": "2026-09-07T18:56:46.459Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
   }
 ]
