@@ -31650,5 +31650,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cerebrolysin",
     "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/"
+  },
+  {
+    "ts": "2026-09-07T06:36:36.436Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://britpeptides.co.uk/product/bacteriostatic-water/"
   }
 ]
