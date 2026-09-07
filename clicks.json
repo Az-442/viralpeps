@@ -7311,5 +7311,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-07T23:01:31.861Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/peptides-lab-uk"
   }
 ]
