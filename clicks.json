@@ -3633,5 +3633,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg"
+  },
+  {
+    "ts": "2026-09-07T17:11:53.945Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://zentra-peptides.com/product/selank/",
+    "refPage": "https://viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
