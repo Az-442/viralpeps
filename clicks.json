@@ -28838,5 +28838,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-07T00:24:33.587Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
   }
 ]
