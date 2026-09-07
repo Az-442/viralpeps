@@ -22,5 +22,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T13:12:11.126Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
   }
 ]
