@@ -7713,5 +7713,13 @@
     "vendorSlug": "the-peptide-company",
     "vendorName": "The Peptide Company",
     "destUrl": "https://thepeptidecompany.co.uk"
+  },
+  {
+    "ts": "2026-09-07T23:56:36.592Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv/"
   }
 ]
