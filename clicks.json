@@ -28814,5 +28814,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-sermorelin-5mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-07T00:19:03.817Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aicar",
+    "destUrl": "https://peptideslabuk.com/product/aicar/"
   }
 ]
