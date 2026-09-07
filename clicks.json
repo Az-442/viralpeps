@@ -466,5 +466,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-TB5-5"
+  },
+  {
+    "ts": "2026-09-07T14:02:17.747Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://nupex.co.uk/products/cjc-1295-research-peptide-uk"
   }
 ]
