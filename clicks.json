@@ -1348,5 +1348,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "kpv",
     "destUrl": "https://peptideslabuk.com/product/kpv/"
+  },
+  {
+    "ts": "2026-09-07T15:00:17.164Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biotideuk.com/products/thymosin-alpha-1"
   }
 ]
