@@ -32220,5 +32220,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://my-peptides.co.uk/products/kpv"
+  },
+  {
+    "ts": "2026-09-07T07:33:57.033Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4"
   }
 ]
