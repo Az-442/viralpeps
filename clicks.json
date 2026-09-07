@@ -355,5 +355,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/"
+  },
+  {
+    "ts": "2026-09-07T13:46:52.078Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg"
   }
 ]
