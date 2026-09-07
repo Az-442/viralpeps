@@ -30203,5 +30203,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://supplypeptides.co.uk/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-07T04:03:41.168Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
