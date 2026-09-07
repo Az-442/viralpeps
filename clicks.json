@@ -4476,5 +4476,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "mgf",
     "destUrl": "https://peptidesuk.com/mgf/"
+  },
+  {
+    "ts": "2026-09-07T18:12:22.545Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
