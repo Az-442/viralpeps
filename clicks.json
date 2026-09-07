@@ -1716,5 +1716,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://zentra-peptides.com/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-07T15:16:35.844Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-alpha-1-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
   }
 ]
