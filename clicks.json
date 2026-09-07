@@ -31547,5 +31547,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
+  },
+  {
+    "ts": "2026-09-07T06:24:57.082Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "pt-141-10mg",
+    "destUrl": "https://researchpeptide.co.uk/product/pt-141-10mg/"
   }
 ]
