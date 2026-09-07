@@ -1268,5 +1268,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-mots-c-10mg",
     "destUrl": "https://purepeptidesuk.com/product/prem-mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-07T14:56:11.355Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptideslabuk.com/product/igf-1lr3/"
   }
 ]
