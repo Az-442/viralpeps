@@ -31813,5 +31813,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://supplypeptides.co.uk/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-07T06:49:29.295Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://britpeptides.co.uk/product/nad-500mg/"
   }
 ]
