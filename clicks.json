@@ -3584,5 +3584,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-tesa-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-07T17:09:30.934Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
   }
 ]
