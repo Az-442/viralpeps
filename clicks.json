@@ -30459,5 +30459,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://leolab.co.uk/peptides/retatrutide/"
+  },
+  {
+    "ts": "2026-09-07T04:40:56.684Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://researchpeptide.co.uk/product/kisspeptin/"
   }
 ]
