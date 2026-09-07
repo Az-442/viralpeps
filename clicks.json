@@ -4643,5 +4643,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-07T18:28:44.904Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://peptidesuk.com/snap-8-10mg/"
   }
 ]
