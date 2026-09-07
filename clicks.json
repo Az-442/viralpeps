@@ -3351,5 +3351,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ipamorelin-10mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-07T16:47:09.328Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg"
   }
 ]
