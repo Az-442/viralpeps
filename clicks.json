@@ -30,5 +30,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-07T13:13:30.878Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://anglopeptides.com/product/nad-500mg-new-batch-102-research-peptide/"
   }
 ]
