@@ -3191,5 +3191,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-07T16:31:44.017Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.buyreta.co.uk/product/oxytocin-uk"
   }
 ]
