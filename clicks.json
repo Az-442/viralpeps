@@ -32060,5 +32060,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
+  },
+  {
+    "ts": "2026-09-07T07:16:22.802Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/cjc-1295-no-dac-5mg"
   }
 ]
