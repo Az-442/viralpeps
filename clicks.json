@@ -894,5 +894,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://peptidesuk.com/ace-031/"
+  },
+  {
+    "ts": "2026-09-07T14:40:09.603Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/mots-c/"
   }
 ]
