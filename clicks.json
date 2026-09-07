@@ -3560,5 +3560,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-07T17:06:56.551Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://nupex.co.uk/products/buy-bpc-157-peptide-uk"
   }
 ]
