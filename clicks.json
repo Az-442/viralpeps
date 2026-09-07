@@ -31845,5 +31845,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://britpeptides.co.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-07T06:52:25.450Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "klow",
+    "destUrl": "https://trutide.co.uk/product/klow-80mg/"
   }
 ]
