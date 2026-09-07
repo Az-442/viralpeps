@@ -31555,5 +31555,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "pt-141-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-07T06:26:41.345Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptideslabuk.com/product/igf-des/"
   }
 ]
