@@ -30331,5 +30331,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ghk-cu-100mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/"
+  },
+  {
+    "ts": "2026-09-07T04:21:34.370Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
   }
 ]
