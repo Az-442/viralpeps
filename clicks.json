@@ -30947,5 +30947,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
+  },
+  {
+    "ts": "2026-09-07T05:27:15.182Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://premiopeptides.co.uk/compounds/nad-plus"
   }
 ]
