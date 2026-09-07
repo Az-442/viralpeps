@@ -28894,5 +28894,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T00:30:53.976Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/"
   }
 ]
