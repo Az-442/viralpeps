@@ -625,5 +625,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-07T14:18:30.844Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html"
   }
 ]
