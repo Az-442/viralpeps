@@ -29005,5 +29005,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://my-peptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-07T00:47:09.518Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://momentumpeptides.com/product/mots-c/"
   }
 ]
