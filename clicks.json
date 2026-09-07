@@ -31634,5 +31634,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-07T06:34:55.832Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptidesuk.com/igf-1-des/"
   }
 ]
