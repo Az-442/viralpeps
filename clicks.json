@@ -3295,5 +3295,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ara-290-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
+  },
+  {
+    "ts": "2026-09-07T16:40:25.931Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
