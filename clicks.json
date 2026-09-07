@@ -32982,5 +32982,13 @@
     "vendorSlug": "be-better-peptides",
     "vendorName": "Be Better Peptides",
     "destUrl": "https://bebetterpeptides.com"
+  },
+  {
+    "ts": "2026-09-07T11:03:49.458Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "destUrl": "https://biopeptides-uk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/bio-peptides-uk"
   }
 ]
