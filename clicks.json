@@ -31507,5 +31507,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://xlpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-07T06:17:45.748Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
   }
 ]
