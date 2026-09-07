@@ -2696,5 +2696,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.prime-peptides.co.uk/product/glutathione-gsh/"
+  },
+  {
+    "ts": "2026-09-07T16:10:19.308Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
   }
 ]
