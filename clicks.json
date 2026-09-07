@@ -32228,5 +32228,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4"
+  },
+  {
+    "ts": "2026-09-07T07:34:49.866Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac-5mg",
+    "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg/"
   }
 ]
