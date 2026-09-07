@@ -1220,5 +1220,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://biotideuk.com/products/kisspeptin-10-mg"
+  },
+  {
+    "ts": "2026-09-07T14:53:42.417Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://zentra-peptides.com/product/selank/"
   }
 ]
