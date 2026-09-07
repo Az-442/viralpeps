@@ -688,5 +688,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T14:23:33.479Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.prime-peptides.co.uk/product/klow-blend-peptide/"
   }
 ]
