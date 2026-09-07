@@ -29877,5 +29877,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://supplypeptides.co.uk/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-07T03:20:24.855Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hgh-fragment-176-191-5mg-ghrp"
   }
 ]
