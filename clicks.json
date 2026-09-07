@@ -458,5 +458,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-TB5-5"
+  },
+  {
+    "ts": "2026-09-07T14:00:18.318Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-TB5-5"
   }
 ]
