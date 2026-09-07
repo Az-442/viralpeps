@@ -30747,5 +30747,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://ukpeptides.com/catalog/glow"
+  },
+  {
+    "ts": "2026-09-07T05:10:35.732Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://reta-uk.com/products/cjc-1295-no-dac"
   }
 ]
