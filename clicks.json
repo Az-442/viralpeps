@@ -33100,5 +33100,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "adamax",
     "destUrl": "https://purepeptidesuk.com/product/adamax-5mg/"
+  },
+  {
+    "ts": "2026-09-07T11:25:07.518Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
   }
 ]
