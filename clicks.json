@@ -1524,5 +1524,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-07T15:09:02.360Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glow"
   }
 ]
