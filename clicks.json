@@ -3271,5 +3271,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
+  },
+  {
+    "ts": "2026-09-07T16:37:30.926Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/vial"
   }
 ]
