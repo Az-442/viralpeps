@@ -30091,5 +30091,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
+  },
+  {
+    "ts": "2026-09-07T03:50:49.265Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
   }
 ]
