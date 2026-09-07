@@ -6150,5 +6150,14 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/"
+  },
+  {
+    "ts": "2026-09-07T20:41:32.836Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://purepeptidesuk.com/product/vesugen-20mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/vesugen"
   }
 ]
