@@ -32699,5 +32699,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-07T09:57:50.683Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/"
   }
 ]
