@@ -7522,5 +7522,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vesugen",
     "destUrl": "https://purepeptidesuk.com/product/vesugen-20mg/"
+  },
+  {
+    "ts": "2026-09-07T23:31:25.145Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://olresearch.co.uk/product/cjc-1295-dac-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/ol-research"
   }
 ]
