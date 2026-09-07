@@ -32524,5 +32524,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptidesuk.com/bpc-157/"
+  },
+  {
+    "ts": "2026-09-07T09:05:04.071Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://tidelabs.co.uk/products/kisspeptin-10"
   }
 ]
