@@ -4362,5 +4362,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-6-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/pen"
+  },
+  {
+    "ts": "2026-09-07T18:00:56.037Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/sermorelin"
   }
 ]
