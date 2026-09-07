@@ -156,5 +156,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-07T13:26:51.765Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/semax-and-selank-10mg-bundle"
   }
 ]
