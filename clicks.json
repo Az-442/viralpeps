@@ -5285,5 +5285,14 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biotideuk.com/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-07T19:26:09.592Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
