@@ -4659,5 +4659,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-07T18:30:10.743Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
+    "refPage": "https://viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
