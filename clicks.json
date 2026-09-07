@@ -7443,5 +7443,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "semaglutide",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-07T23:20:14.611Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/"
   }
 ]
