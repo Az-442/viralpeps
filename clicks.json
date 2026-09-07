@@ -32156,5 +32156,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "dsip",
     "destUrl": "https://biotideuk.com/products/dsip-10-mg"
+  },
+  {
+    "ts": "2026-09-07T07:28:35.269Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://my-peptides.co.uk/products/kpv"
   }
 ]
