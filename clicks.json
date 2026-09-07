@@ -31499,5 +31499,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
+  },
+  {
+    "ts": "2026-09-07T06:16:43.206Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://xlpeptides.com/product/nad-500mg/"
   }
 ]
