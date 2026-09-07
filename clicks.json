@@ -4337,5 +4337,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
+  },
+  {
+    "ts": "2026-09-07T17:59:17.956Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://tidelabs.co.uk/products/thymosin-alpha-1",
+    "refPage": "https://viralpeps.co.uk/compounds/thymosin-alpha-1"
   }
 ]
