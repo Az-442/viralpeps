@@ -28782,5 +28782,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-kpv-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-07T00:15:02.098Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
   }
 ]
