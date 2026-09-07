@@ -3183,5 +3183,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
+  },
+  {
+    "ts": "2026-09-07T16:31:28.323Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
   }
 ]
