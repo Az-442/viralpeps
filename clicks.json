@@ -31682,5 +31682,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biotideuk.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-07T06:38:40.847Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://peptidesuk.com/sermorelin-2mg/"
   }
 ]
