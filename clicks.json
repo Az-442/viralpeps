@@ -31139,5 +31139,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tb-500/"
+  },
+  {
+    "ts": "2026-09-07T05:44:36.590Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html"
   }
 ]
