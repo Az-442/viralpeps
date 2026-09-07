@@ -4354,5 +4354,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.flexpeptides.co.uk/products/glutathione-1500mg"
+  },
+  {
+    "ts": "2026-09-07T18:00:21.231Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-6-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/pen"
   }
 ]
