@@ -29563,5 +29563,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
+  },
+  {
+    "ts": "2026-09-07T02:23:43.068Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://midshirelabs.co.uk/products/pt-141/"
   }
 ]
