@@ -2060,5 +2060,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://chiltonlabs.co.uk/product/ghrp-2-5mg-vial/"
+  },
+  {
+    "ts": "2026-09-07T15:36:57.548Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://chiltonlabs.co.uk/product/tesamorelin-10mg-vial/"
   }
 ]
