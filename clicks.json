@@ -33244,5 +33244,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-07T12:21:04.380Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/"
   }
 ]
