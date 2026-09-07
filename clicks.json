@@ -32779,5 +32779,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-07T10:27:41.395Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/"
   }
 ]
