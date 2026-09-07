@@ -31371,5 +31371,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptidesuk.com/igf-1-des/"
+  },
+  {
+    "ts": "2026-09-07T06:02:46.244Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biotideuk.com/products/kpv-10-mg"
   }
 ]
