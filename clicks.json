@@ -32300,5 +32300,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
+  },
+  {
+    "ts": "2026-09-07T07:51:01.559Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://tidelabs.co.uk/products/kisspeptin-10"
   }
 ]
