@@ -1069,5 +1069,12 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biotideuk.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-07T14:47:07.607Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com"
   }
 ]
