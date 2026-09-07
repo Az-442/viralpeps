@@ -32644,5 +32644,12 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://chiltonlabs.co.uk/product/ipamorelin-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-07T09:47:43.884Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk"
   }
 ]
