@@ -1196,5 +1196,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biotideuk.com/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-07T14:53:36.102Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://biotideuk.com/products/kisspeptin-10-mg"
   }
 ]
