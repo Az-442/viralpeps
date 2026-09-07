@@ -1708,5 +1708,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://biotideuk.com/products/cjc-1295-no-dac-5-mg-ipamorelin-5-mg"
+  },
+  {
+    "ts": "2026-09-07T15:15:45.078Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157/"
   }
 ]
