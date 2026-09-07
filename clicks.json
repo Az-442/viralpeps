@@ -29173,5 +29173,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-07T01:04:20.368Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "bpc-157-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157"
   }
 ]
