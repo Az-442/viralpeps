@@ -30123,5 +30123,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "klow",
     "destUrl": "https://www.peptifyuk.com/product/klow-blend-80mg"
+  },
+  {
+    "ts": "2026-09-07T03:53:19.499Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/cagrilintide"
   }
 ]
