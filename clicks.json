@@ -31395,5 +31395,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/"
+  },
+  {
+    "ts": "2026-09-07T06:03:53.532Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://momentumpeptides.com/product/bpc-157-10mg/"
   }
 ]
