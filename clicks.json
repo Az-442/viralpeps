@@ -31539,5 +31539,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-07T06:23:07.888Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
   }
 ]
