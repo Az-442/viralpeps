@@ -30043,5 +30043,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.stratfordpeptides.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-07T03:42:22.060Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
   }
 ]
