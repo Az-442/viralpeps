@@ -31347,5 +31347,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "retatrutide",
     "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-07T06:01:14.690Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/"
   }
 ]
