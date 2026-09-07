@@ -38,5 +38,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://anglopeptides.com/product/nad-500mg-new-batch-102-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T13:13:36.393Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://zentra-peptides.com/product/tesamorelin/"
   }
 ]
