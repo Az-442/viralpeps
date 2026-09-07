@@ -7548,5 +7548,14 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-07T23:36:13.511Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "refPage": "https://viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
