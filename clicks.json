@@ -180,5 +180,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg"
+  },
+  {
+    "ts": "2026-09-07T13:27:45.467Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://xlpeptides.com/product/igf-1-lr3-1mg/"
   }
 ]
