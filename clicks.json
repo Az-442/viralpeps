@@ -5965,5 +5965,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
+  },
+  {
+    "ts": "2026-09-07T20:25:44.615Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "refPage": "https://viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
