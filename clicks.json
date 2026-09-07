@@ -29236,5 +29236,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://researchpeptide.co.uk/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-07T01:13:20.873Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/"
   }
 ]
