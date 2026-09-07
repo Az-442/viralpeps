@@ -33411,5 +33411,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
+  },
+  {
+    "ts": "2026-09-07T12:40:03.279Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/"
   }
 ]
