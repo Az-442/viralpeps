@@ -32052,5 +32052,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit"
+  },
+  {
+    "ts": "2026-09-07T07:16:21.285Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
   }
 ]
