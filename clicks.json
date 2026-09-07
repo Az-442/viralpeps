@@ -2976,5 +2976,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://peptidesuk.com/peg-mgf/"
+  },
+  {
+    "ts": "2026-09-07T16:21:59.778Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.peptidesonline.uk/shop/tb-500/"
   }
 ]
