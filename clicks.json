@@ -3391,5 +3391,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "semax",
     "destUrl": "https://www.peptidesx.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-07T16:51:01.833Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://midshirelabs.co.uk/products/pt-141/"
   }
 ]
