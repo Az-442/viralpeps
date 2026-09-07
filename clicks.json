@@ -2824,5 +2824,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
+  },
+  {
+    "ts": "2026-09-07T16:14:25.660Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.prime-peptides.co.uk/product/cjc-1295/"
   }
 ]
