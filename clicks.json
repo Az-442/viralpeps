@@ -29925,5 +29925,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "klow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/klow"
+  },
+  {
+    "ts": "2026-09-07T03:27:34.043Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://bioplexpeptides.co.uk/products/dsip-15mg-dsip-nonapeptide"
   }
 ]
