@@ -30851,5 +30851,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://zentra-peptides.com/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-07T05:20:07.245Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptidesuk.com/igf-1-des/"
   }
 ]
