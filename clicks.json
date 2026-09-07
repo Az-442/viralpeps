@@ -2488,5 +2488,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.stratfordpeptides.com/products/disp"
+  },
+  {
+    "ts": "2026-09-07T16:00:36.971Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.peptidesonline.uk/shop/ghrp-6/"
   }
 ]
