@@ -31877,5 +31877,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
+  },
+  {
+    "ts": "2026-09-07T06:56:42.221Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptideslabuk.com/product/igf-des/"
   }
 ]
