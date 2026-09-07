@@ -68,5 +68,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://anglopeptides.com/product/5-amino-1mq-10mg-vial-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T13:18:18.469Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/15-bacteriostatic-water-10ml.html"
   }
 ]
