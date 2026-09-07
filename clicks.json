@@ -1508,5 +1508,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "selank",
     "destUrl": "https://biotideuk.com/products/selank-10-mg"
+  },
+  {
+    "ts": "2026-09-07T15:07:25.892Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://trutide.co.uk/product/cjc-1295-no-dac-ipamorelin-10mg/"
   }
 ]
