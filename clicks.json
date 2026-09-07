@@ -5108,5 +5108,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "nad-500mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-07T19:10:21.362Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp",
+    "refPage": "https://viralpeps.co.uk/vendors/stratford-peptides"
   }
 ]
