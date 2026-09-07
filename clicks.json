@@ -33619,5 +33619,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://zentra-peptides.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-07T13:05:38.246Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "bpc-157-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157"
   }
 ]
