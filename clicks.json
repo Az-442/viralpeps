@@ -3658,5 +3658,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-07T17:13:24.658Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://zentra-peptides.com/product/oxytocin/",
+    "refPage": "https://viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
