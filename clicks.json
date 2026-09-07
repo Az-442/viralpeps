@@ -5666,5 +5666,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/"
+  },
+  {
+    "ts": "2026-09-07T20:00:37.871Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gonadorelin-acetategnrh-2mg",
+    "destUrl": "https://researchpeptide.co.uk/product/gonadorelin-acetategnrh-2mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
