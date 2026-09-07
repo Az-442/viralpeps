@@ -4668,5 +4668,13 @@
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
     "refPage": "https://viralpeps.co.uk/vendors/the-peptide-company"
+  },
+  {
+    "ts": "2026-09-07T18:30:57.172Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
