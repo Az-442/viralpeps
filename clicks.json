@@ -3625,5 +3625,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "klow-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
+  },
+  {
+    "ts": "2026-09-07T17:11:47.136Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg"
   }
 ]
