@@ -29845,5 +29845,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "snap-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3"
+  },
+  {
+    "ts": "2026-09-07T03:15:13.594Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidelabuk.co.uk/product/bacteriostatic-water-10ml-laboratory-grade/"
   }
 ]
