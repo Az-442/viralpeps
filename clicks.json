@@ -30643,5 +30643,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://polygonpeptides.co.uk/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-07T04:59:01.627Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
   }
 ]
