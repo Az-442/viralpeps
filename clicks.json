@@ -3617,5 +3617,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "adamax",
     "destUrl": "https://purepeptidesuk.com/product/adamax-5mg/"
+  },
+  {
+    "ts": "2026-09-07T17:11:12.267Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
   }
 ]
