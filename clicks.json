@@ -3175,5 +3175,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-07T16:30:26.381Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
