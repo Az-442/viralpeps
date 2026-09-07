@@ -32164,5 +32164,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://my-peptides.co.uk/products/kpv"
+  },
+  {
+    "ts": "2026-09-07T07:29:12.860Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.novapeptide.co.uk/product/melanotan-ii/"
   }
 ]
