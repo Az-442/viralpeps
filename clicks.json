@@ -1140,5 +1140,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biotideuk.com/products/nad-500-mg"
+  },
+  {
+    "ts": "2026-09-07T14:50:23.661Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biotideuk.com/products/tb-500"
   }
 ]
