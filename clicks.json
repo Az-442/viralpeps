@@ -33387,5 +33387,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
+  },
+  {
+    "ts": "2026-09-07T12:34:51.595Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
   }
 ]
