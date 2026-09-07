@@ -1188,5 +1188,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://peptidesuk.com/semax/"
+  },
+  {
+    "ts": "2026-09-07T14:53:34.783Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biotideuk.com/products/ss-31-10mg"
   }
 ]
