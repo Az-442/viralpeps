@@ -29428,5 +29428,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-07T01:52:30.411Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/"
   }
 ]
