@@ -4548,5 +4548,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-1000-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/1000"
+  },
+  {
+    "ts": "2026-09-07T18:21:20.643Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/pen"
   }
 ]
