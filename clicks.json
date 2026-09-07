@@ -3691,5 +3691,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg"
+  },
+  {
+    "ts": "2026-09-07T17:15:02.871Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/"
   }
 ]
