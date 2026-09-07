@@ -5385,5 +5385,14 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-07T19:33:54.442Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295-with-dac"
   }
 ]
