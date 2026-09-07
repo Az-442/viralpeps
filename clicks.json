@@ -28806,5 +28806,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "gdf-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
+  },
+  {
+    "ts": "2026-09-07T00:17:47.940Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-sermorelin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin-5mg/"
   }
 ]
