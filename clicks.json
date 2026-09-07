@@ -2116,5 +2116,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "kpv",
     "destUrl": "https://www.peptifyuk.com/product/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-07T15:40:17.665Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://chiltonlabs.co.uk/product/cagrilintide-5mg-vial/"
   }
 ]
