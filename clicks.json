@@ -30683,5 +30683,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://britpeptides.co.uk/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-07T05:02:03.314Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
