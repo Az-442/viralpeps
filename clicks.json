@@ -28861,5 +28861,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
+  },
+  {
+    "ts": "2026-09-07T00:27:00.326Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/"
   }
 ]
