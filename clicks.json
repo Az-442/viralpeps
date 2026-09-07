@@ -31187,5 +31187,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin"
+  },
+  {
+    "ts": "2026-09-07T05:48:39.484Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://zentra-peptides.com/product/semax/"
   }
 ]
