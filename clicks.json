@@ -5268,5 +5268,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-07T19:24:38.501Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-epithalon-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/epithalon-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
