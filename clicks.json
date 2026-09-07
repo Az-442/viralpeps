@@ -33220,5 +33220,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T12:15:53.167Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptideslabuk.com/product/nad/"
   }
 ]
