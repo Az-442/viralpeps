@@ -29045,5 +29045,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.flexpeptides.co.uk/products/aod9604-10mg"
+  },
+  {
+    "ts": "2026-09-07T00:53:01.515Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://bluewellpeptides.com/product/cjc-1295-mod-grf-1-29-without-dac-5mg/"
   }
 ]
