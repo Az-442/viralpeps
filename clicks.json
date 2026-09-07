@@ -29436,5 +29436,12 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/"
+  },
+  {
+    "ts": "2026-09-07T01:54:10.013Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk"
   }
 ]
