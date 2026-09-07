@@ -32140,5 +32140,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "gdf-8",
     "destUrl": "https://researchpeptide.co.uk/product/gdf-8/"
+  },
+  {
+    "ts": "2026-09-07T07:24:39.684Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6"
   }
 ]
