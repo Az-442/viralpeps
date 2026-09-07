@@ -29893,5 +29893,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymalin-20mg",
     "destUrl": "https://purepeptidesuk.com/product/thymalin-20mg/"
+  },
+  {
+    "ts": "2026-09-07T03:23:22.542Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh"
   }
 ]
