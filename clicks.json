@@ -3343,5 +3343,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesonline.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-07T16:45:51.960Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/"
   }
 ]
