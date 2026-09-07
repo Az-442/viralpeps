@@ -2156,5 +2156,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg"
+  },
+  {
+    "ts": "2026-09-07T15:42:45.300Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.testedpeptides.co.uk/product/l-glutathione-600mg/"
   }
 ]
