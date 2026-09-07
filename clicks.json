@@ -30307,5 +30307,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/dsip/"
+  },
+  {
+    "ts": "2026-09-07T04:18:33.525Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bioplexpeptides.co.uk/products/selank-10mg-selanc"
   }
 ]
