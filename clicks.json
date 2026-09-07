@@ -2912,5 +2912,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.flexpeptides.co.uk/products/aod9604-10mg"
+  },
+  {
+    "ts": "2026-09-07T16:19:06.650Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://nupex.co.uk/products/tb-500-peptide-uk-research-grade"
   }
 ]
