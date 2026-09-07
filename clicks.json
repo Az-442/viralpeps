@@ -6569,5 +6569,14 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/"
+  },
+  {
+    "ts": "2026-09-07T21:16:08.900Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/",
+    "refPage": "https://viralpeps.co.uk/vendors/prime-peptides"
   }
 ]
