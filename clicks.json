@@ -29981,5 +29981,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor"
+  },
+  {
+    "ts": "2026-09-07T03:34:06.433Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/dermorphin-5mg-dermorphin-heptapeptide-d-ala"
   }
 ]
