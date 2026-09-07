@@ -4508,5 +4508,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://premiopeptides.co.uk/compounds/tesamorelin"
+  },
+  {
+    "ts": "2026-09-07T18:17:17.359Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/"
   }
 ]
