@@ -672,5 +672,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-07T14:23:15.059Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-biolabs"
   }
 ]
