@@ -29189,5 +29189,12 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-07T01:05:59.941Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com"
   }
 ]
