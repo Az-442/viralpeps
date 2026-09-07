@@ -1500,5 +1500,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg"
+  },
+  {
+    "ts": "2026-09-07T15:07:05.956Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg"
   }
 ]
