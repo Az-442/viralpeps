@@ -1684,5 +1684,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://biotideuk.com/products/mots-c-10-mg"
+  },
+  {
+    "ts": "2026-09-07T15:14:07.932Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "mgf",
+    "destUrl": "https://peptidesuk.com/mgf/"
   }
 ]
