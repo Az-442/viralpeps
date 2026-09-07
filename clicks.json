@@ -30099,5 +30099,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-07T03:51:25.539Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-10mg-br-ghrh"
   }
 ]
