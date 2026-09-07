@@ -30651,5 +30651,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
+  },
+  {
+    "ts": "2026-09-07T04:59:28.344Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
   }
 ]
