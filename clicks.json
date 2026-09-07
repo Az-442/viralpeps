@@ -3519,5 +3519,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://bioplexpeptides.co.uk/products/igf-1-lr3-1mg-insulin-like-growth-factor-1"
+  },
+  {
+    "ts": "2026-09-07T17:04:42.019Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
   }
 ]
