@@ -28997,5 +28997,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "5-amino-1mq-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen"
+  },
+  {
+    "ts": "2026-09-07T00:46:58.374Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500"
   }
 ]
