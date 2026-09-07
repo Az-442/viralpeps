@@ -1916,5 +1916,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://ukpeptides.com/catalog/ipamorelin"
+  },
+  {
+    "ts": "2026-09-07T15:24:18.712Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/"
   }
 ]
