@@ -1460,5 +1460,13 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://www.raccoonpeptides.com/peptides/75-slu-pp-332-5mg.html"
+  },
+  {
+    "ts": "2026-09-07T15:05:40.826Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen"
   }
 ]
