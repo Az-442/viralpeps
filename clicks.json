@@ -116,5 +116,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-07T13:23:31.824Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/-tb-500-10mg"
   }
 ]
