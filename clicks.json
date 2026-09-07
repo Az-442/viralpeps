@@ -3167,5 +3167,13 @@
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-07T16:29:17.894Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
   }
 ]
