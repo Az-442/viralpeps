@@ -656,5 +656,13 @@
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/anglo-peptides"
+  },
+  {
+    "ts": "2026-09-07T14:22:27.028Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/alphamino"
   }
 ]
