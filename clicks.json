@@ -379,5 +379,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
+  },
+  {
+    "ts": "2026-09-07T13:50:12.782Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-MOTS-10"
   }
 ]
