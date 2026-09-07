@@ -6460,5 +6460,14 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://evapeptide.co.uk/product/buy-cjc-1295-dac-uk/"
+  },
+  {
+    "ts": "2026-09-07T21:06:41.106Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/",
+    "refPage": "https://viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
