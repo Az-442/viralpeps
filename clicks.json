@@ -7355,5 +7355,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-07T23:08:06.194Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidelabuk.co.uk/product/retatrutide-5mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/vendors/peptide-lab-uk"
   }
 ]
