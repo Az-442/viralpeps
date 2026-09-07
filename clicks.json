@@ -28766,5 +28766,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.flexpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-07T00:11:04.290Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
   }
 ]
