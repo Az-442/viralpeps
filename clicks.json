@@ -31563,5 +31563,12 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptideslabuk.com/product/igf-des/"
+  },
+  {
+    "ts": "2026-09-07T06:28:14.703Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com"
   }
 ]
