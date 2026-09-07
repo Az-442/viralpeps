@@ -1444,5 +1444,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://biotideuk.com/products/aod9604-5-mg"
+  },
+  {
+    "ts": "2026-09-07T15:04:01.316Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
