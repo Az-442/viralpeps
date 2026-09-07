@@ -31765,5 +31765,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ghk-cu-100mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/"
+  },
+  {
+    "ts": "2026-09-07T06:43:58.704Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://britpeptides.co.uk/product/ss-31/"
   }
 ]
