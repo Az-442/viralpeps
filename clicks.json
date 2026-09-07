@@ -4914,5 +4914,14 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://precision-peptides.shop/product/mot-c-10mg/"
+  },
+  {
+    "ts": "2026-09-07T18:54:32.521Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://supplypeptides.co.uk/products/selank",
+    "refPage": "https://viralpeps.co.uk/vendors/supply-peptides"
   }
 ]
