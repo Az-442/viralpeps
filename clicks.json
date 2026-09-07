@@ -3287,5 +3287,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-6/"
+  },
+  {
+    "ts": "2026-09-07T16:40:06.377Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
