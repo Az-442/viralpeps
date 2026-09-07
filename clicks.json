@@ -2904,5 +2904,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "thymosin-alpha1-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/pen"
+  },
+  {
+    "ts": "2026-09-07T16:19:01.931Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.flexpeptides.co.uk/products/aod9604-10mg"
   }
 ]
