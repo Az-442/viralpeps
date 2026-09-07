@@ -822,5 +822,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://purepeptidesuk.com/product/cjc-1295-dac-2mg/"
+  },
+  {
+    "ts": "2026-09-07T14:32:42.195Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
   }
 ]
