@@ -387,5 +387,12 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-MOTS-10"
+  },
+  {
+    "ts": "2026-09-07T13:50:14.046Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "destUrl": "https://peptigenlabs.co.uk"
   }
 ]
