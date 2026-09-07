@@ -3592,5 +3592,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-07T17:10:01.302Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
   }
 ]
