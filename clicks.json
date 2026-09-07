@@ -5377,5 +5377,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://alphamino.co.uk/shop/alp_l3/"
+  },
+  {
+    "ts": "2026-09-07T19:33:29.057Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
   }
 ]
