@@ -4304,5 +4304,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.peptidesonline.uk/shop/epitalon/"
+  },
+  {
+    "ts": "2026-09-07T17:56:30.205Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
+    "refPage": "https://viralpeps.co.uk/vendors/tide-labs"
   }
 ]
