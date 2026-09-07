@@ -31578,5 +31578,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptideslabuk.com/product/igf-des/"
+  },
+  {
+    "ts": "2026-09-07T06:29:48.166Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://britpeptides.co.uk/product/pt-141/"
   }
 ]
