@@ -6310,5 +6310,14 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://evapeptide.co.uk/product/buy-ss-31-uk/"
+  },
+  {
+    "ts": "2026-09-07T20:54:07.013Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-bpc-157-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/prem-bpc-157-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
