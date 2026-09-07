@@ -2408,5 +2408,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.apex-pharma.co.uk/product/ahk-50mg/"
+  },
+  {
+    "ts": "2026-09-07T15:58:09.265Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://midshirelabs.co.uk/products/pt-141/"
   }
 ]
