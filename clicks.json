@@ -31531,5 +31531,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://polygonpeptides.co.uk/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-07T06:23:04.272Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/"
   }
 ]
