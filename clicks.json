@@ -30355,5 +30355,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://bioplexpeptides.co.uk/products/semax-10mg-acth-4-10"
+  },
+  {
+    "ts": "2026-09-07T04:24:23.617Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
