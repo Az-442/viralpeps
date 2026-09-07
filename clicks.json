@@ -5235,5 +5235,14 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://supplypeptides.co.uk/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-07T19:21:20.440Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-nad-100mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
