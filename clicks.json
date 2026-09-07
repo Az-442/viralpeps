@@ -790,5 +790,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://www.buyreta.co.uk/product/ace-031-uk"
+  },
+  {
+    "ts": "2026-09-07T14:27:58.377Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/"
   }
 ]
