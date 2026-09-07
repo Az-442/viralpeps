@@ -5352,5 +5352,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-07T19:32:21.172Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
