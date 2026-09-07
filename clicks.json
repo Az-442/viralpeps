@@ -30811,5 +30811,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cerebrolysin",
     "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/"
+  },
+  {
+    "ts": "2026-09-07T05:17:17.020Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
   }
 ]
