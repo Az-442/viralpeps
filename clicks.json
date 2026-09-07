@@ -32148,5 +32148,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6"
+  },
+  {
+    "ts": "2026-09-07T07:24:55.064Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg"
   }
 ]
