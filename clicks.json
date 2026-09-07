@@ -31379,5 +31379,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biotideuk.com/products/kpv-10-mg"
+  },
+  {
+    "ts": "2026-09-07T06:03:22.741Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
   }
 ]
