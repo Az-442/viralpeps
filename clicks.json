@@ -30995,5 +30995,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "selank-5mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-07T05:30:08.889Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg"
   }
 ]
