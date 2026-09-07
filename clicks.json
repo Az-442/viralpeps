@@ -132,5 +132,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptifyuk.com/product/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-07T13:23:35.391Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "pnc-27",
+    "destUrl": "https://anglopeptides.com/product/pnc-27-5mg-peptide/"
   }
 ]
