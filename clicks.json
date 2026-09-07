@@ -7214,5 +7214,14 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://momentumpeptides.com/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-07T22:47:49.110Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://www.peptifyuk.com/product/selank-semax-blend-20mg",
+    "refPage": "https://viralpeps.co.uk/compounds/selank-semax-blend"
   }
 ]
