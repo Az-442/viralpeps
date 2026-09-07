@@ -30131,5 +30131,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://ukpeptidelab.co.uk/product/cagrilintide"
+  },
+  {
+    "ts": "2026-09-07T03:54:23.258Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
