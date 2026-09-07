@@ -2856,5 +2856,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/"
+  },
+  {
+    "ts": "2026-09-07T16:17:02.184Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://olresearch.co.uk/product/ipamorelin-10mg/"
   }
 ]
