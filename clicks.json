@@ -30283,5 +30283,13 @@
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/alphamino"
+  },
+  {
+    "ts": "2026-09-07T04:14:55.839Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://tidelabs.co.uk/products/pt-141-bremelanotide-10mg"
   }
 ]
