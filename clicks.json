@@ -7189,5 +7189,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/"
+  },
+  {
+    "ts": "2026-09-07T22:46:34.617Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/momentum-peptides"
   }
 ]
