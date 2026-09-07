@@ -28910,5 +28910,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://researchpeptide.co.uk/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-07T00:33:31.194Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
   }
 ]
