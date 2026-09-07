@@ -31956,5 +31956,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://britpeptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-07T07:06:06.073Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://tidelabs.co.uk/products/mots-c-research-peptide"
   }
 ]
