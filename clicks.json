@@ -6411,5 +6411,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "kpv-5mg-peptide-research",
     "destUrl": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research"
+  },
+  {
+    "ts": "2026-09-07T21:01:55.435Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "refPage": "https://viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
