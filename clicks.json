@@ -5125,5 +5125,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-07T19:12:02.096Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tirz3-15mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirz3-15mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
