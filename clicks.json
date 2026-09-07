@@ -4540,5 +4540,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
+  },
+  {
+    "ts": "2026-09-07T18:20:18.855Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-1000-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/1000"
   }
 ]
