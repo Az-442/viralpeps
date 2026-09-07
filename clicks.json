@@ -2656,5 +2656,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.prime-peptides.co.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-07T16:08:16.523Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/retatrutide/"
   }
 ]
