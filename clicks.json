@@ -29989,5 +29989,12 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dermorphin",
     "destUrl": "https://bioplexpeptides.co.uk/products/dermorphin-5mg-dermorphin-heptapeptide-d-ala"
+  },
+  {
+    "ts": "2026-09-07T03:35:04.312Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "destUrl": "https://www.researchpeptides.co.uk"
   }
 ]
