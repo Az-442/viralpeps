@@ -31035,5 +31035,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/"
+  },
+  {
+    "ts": "2026-09-07T05:34:22.972Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide"
   }
 ]
