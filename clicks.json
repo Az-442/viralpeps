@@ -32612,5 +32612,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-07T09:40:33.414Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kpv-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
   }
 ]
