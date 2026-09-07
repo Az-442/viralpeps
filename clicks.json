@@ -394,5 +394,13 @@
     "vendorSlug": "peptigen-labs",
     "vendorName": "Peptigen Labs",
     "destUrl": "https://peptigenlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-07T13:53:33.464Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-BACT-3"
   }
 ]
