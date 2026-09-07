@@ -4786,5 +4786,14 @@
     "vendorName": "Grey Matter Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://greymatterpeptides.co.uk/peptides/retatrutide.html"
+  },
+  {
+    "ts": "2026-09-07T18:40:23.017Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.testedpeptides.co.uk/product/nad-500mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
