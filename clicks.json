@@ -29675,5 +29675,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "nad-research-peptide",
     "destUrl": "https://ukpeptidelab.co.uk/product/nad-plus"
+  },
+  {
+    "ts": "2026-09-07T02:45:51.584Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ahk-cu-100mg/"
   }
 ]
