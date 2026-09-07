@@ -1260,5 +1260,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://precision-peptides.shop/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-07T14:55:23.990Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/prem-mots-c-10mg/"
   }
 ]
