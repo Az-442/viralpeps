@@ -29619,5 +29619,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin"
+  },
+  {
+    "ts": "2026-09-07T02:29:20.876Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cartalax-10mg-aed-peptide-bioregulator"
   }
 ]
