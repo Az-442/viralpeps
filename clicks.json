@@ -30004,5 +30004,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dermorphin",
     "destUrl": "https://bioplexpeptides.co.uk/products/dermorphin-5mg-dermorphin-heptapeptide-d-ala"
+  },
+  {
+    "ts": "2026-09-07T03:36:22.271Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://bioplexpeptides.co.uk/products/semax-10mg-acth-4-10"
   }
 ]
