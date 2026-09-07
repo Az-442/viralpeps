@@ -32967,5 +32967,13 @@
     "vendorSlug": "astra-labs",
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk"
+  },
+  {
+    "ts": "2026-09-07T11:02:04.983Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/be-better-peptides"
   }
 ]
