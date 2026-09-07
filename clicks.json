@@ -28798,5 +28798,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-epithalon-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/epithalon-10mg/"
+  },
+  {
+    "ts": "2026-09-07T00:16:04.374Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
   }
 ]
