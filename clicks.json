@@ -275,5 +275,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "ss-31",
     "destUrl": "https://alphamino.co.uk/shop/ss-31/"
+  },
+  {
+    "ts": "2026-09-07T13:39:36.211Z",
+    "type": "vendor-site",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "destUrl": "https://newwavepeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/new-wave-peptides"
   }
 ]
