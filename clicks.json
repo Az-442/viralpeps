@@ -3407,5 +3407,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg"
+  },
+  {
+    "ts": "2026-09-07T16:53:33.721Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/"
   }
 ]
