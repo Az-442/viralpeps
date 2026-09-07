@@ -2600,5 +2600,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.prime-peptides.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-07T16:06:58.694Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.apex-pharma.co.uk/product/selank-10mg/"
   }
 ]
