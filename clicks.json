@@ -28950,5 +28950,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-aod-9604",
     "destUrl": "https://sterlingpeptides.co.uk/product/aod-9604-peptide/"
+  },
+  {
+    "ts": "2026-09-07T00:39:00.091Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
   }
 ]
