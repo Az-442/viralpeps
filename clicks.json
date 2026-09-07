@@ -4556,5 +4556,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "thymosin-alpha1-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/pen"
+  },
+  {
+    "ts": "2026-09-07T18:22:23.789Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk"
   }
 ]
