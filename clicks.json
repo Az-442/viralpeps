@@ -5344,5 +5344,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "semax",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-07T19:31:49.286Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
