@@ -33252,5 +33252,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/"
+  },
+  {
+    "ts": "2026-09-07T12:23:27.864Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
   }
 ]
