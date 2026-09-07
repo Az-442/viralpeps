@@ -32412,5 +32412,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape"
+  },
+  {
+    "ts": "2026-09-07T08:31:06.348Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://pgnalabs.co.uk/product/glow"
   }
 ]
