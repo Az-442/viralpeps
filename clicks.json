@@ -30739,5 +30739,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-07T05:09:39.472Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://ukpeptides.com/catalog/glow"
   }
 ]
