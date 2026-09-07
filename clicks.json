@@ -1732,5 +1732,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glow",
     "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
+  },
+  {
+    "ts": "2026-09-07T15:16:59.096Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biotideuk.com/products/5-amino-1mq-50-mg"
   }
 ]
