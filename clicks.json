@@ -1980,5 +1980,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://chiltonlabs.co.uk/product/ghrp-6-5mg-vial/"
+  },
+  {
+    "ts": "2026-09-07T15:30:18.257Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://chiltonlabs.co.uk/product/bacteriostatic-water/"
   }
 ]
