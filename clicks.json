@@ -28982,5 +28982,12 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://momentumpeptides.com/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-07T00:45:52.608Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk"
   }
 ]
