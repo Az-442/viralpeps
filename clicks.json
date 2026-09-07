@@ -28822,5 +28822,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-07T00:22:42.046Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cjc-1295-nodac-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg/"
   }
 ]
