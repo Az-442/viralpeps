@@ -60,5 +60,13 @@
     "vendorSlug": "research-peptides-uk-main",
     "vendorName": "Research Peptides",
     "destUrl": "https://www.researchpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-07T13:16:52.342Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://anglopeptides.com/product/5-amino-1mq-10mg-vial-research-peptide/"
   }
 ]
