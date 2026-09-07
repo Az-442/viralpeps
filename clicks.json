@@ -32636,5 +32636,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit"
+  },
+  {
+    "ts": "2026-09-07T09:46:28.103Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://chiltonlabs.co.uk/product/ipamorelin-10mg-vial/"
   }
 ]
