@@ -29491,5 +29491,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://britpeptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-07T02:07:10.904Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://britpeptides.co.uk/product/selank/"
   }
 ]
