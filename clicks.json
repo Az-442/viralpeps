@@ -4005,5 +4005,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-2/"
+  },
+  {
+    "ts": "2026-09-07T17:33:34.528Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
   }
 ]
