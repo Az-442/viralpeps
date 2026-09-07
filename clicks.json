@@ -1692,5 +1692,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "mgf",
     "destUrl": "https://peptidesuk.com/mgf/"
+  },
+  {
+    "ts": "2026-09-07T15:14:41.075Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide"
   }
 ]
