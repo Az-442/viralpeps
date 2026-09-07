@@ -220,5 +220,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptideslabuk.com/product/nad/"
+  },
+  {
+    "ts": "2026-09-07T13:32:27.571Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
   }
 ]
