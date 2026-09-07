@@ -506,5 +506,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-07T14:08:18.318Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/"
   }
 ]
