@@ -31740,5 +31740,14 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://britpeptides.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-07T06:40:59.782Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://ukpeptides.com/catalog/tesamorelin",
+    "refPage": "https://viralpeps.co.uk/vendors/uk-peptides"
   }
 ]
