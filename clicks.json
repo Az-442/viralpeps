@@ -712,5 +712,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
+  },
+  {
+    "ts": "2026-09-07T14:25:19.434Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-biolabs"
   }
 ]
