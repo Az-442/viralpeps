@@ -990,5 +990,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biotideuk.com/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-07T14:43:38.207Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
   }
 ]
