@@ -5809,5 +5809,12 @@
     "vendorName": "Raw Peptides",
     "destUrl": "https://rawpeptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/raw-peptides"
+  },
+  {
+    "ts": "2026-09-07T20:13:46.591Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "destUrl": "https://peptigenlabs.co.uk"
   }
 ]
