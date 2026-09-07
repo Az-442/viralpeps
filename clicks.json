@@ -2584,5 +2584,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.prime-peptides.co.uk/product/igf-1-lr3/"
+  },
+  {
+    "ts": "2026-09-07T16:06:24.063Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
