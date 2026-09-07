@@ -5445,5 +5445,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-07T19:39:40.250Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.prime-peptides.co.uk/product/glutathione-gsh/"
   }
 ]
