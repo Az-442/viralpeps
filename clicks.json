@@ -1724,5 +1724,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-alpha-1-10mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-07T15:16:56.101Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
   }
 ]
