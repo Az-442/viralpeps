@@ -33579,5 +33579,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-07T13:00:55.036Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
   }
 ]
