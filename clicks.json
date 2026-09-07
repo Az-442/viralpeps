@@ -5049,5 +5049,14 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-07T19:05:36.563Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.stratfordpeptides.com/products/retatrutide",
+    "refPage": "https://viralpeps.co.uk/vendors/stratford-peptides"
   }
 ]
