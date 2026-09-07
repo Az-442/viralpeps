@@ -3503,5 +3503,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "hexarelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-07T17:03:38.607Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
   }
 ]
