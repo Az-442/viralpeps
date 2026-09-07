@@ -2370,5 +2370,12 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.apex-pharma.co.uk/product/ahk-50mg/"
+  },
+  {
+    "ts": "2026-09-07T15:57:00.613Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk"
   }
 ]
