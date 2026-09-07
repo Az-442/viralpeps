@@ -46,5 +46,12 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://zentra-peptides.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-07T13:15:10.326Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "destUrl": "https://www.researchpeptides.co.uk"
   }
 ]
