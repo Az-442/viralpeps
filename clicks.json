@@ -4676,5 +4676,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
+  },
+  {
+    "ts": "2026-09-07T18:31:27.181Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "hgh-191aa-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/hgh-191aa/",
+    "refPage": "https://viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
