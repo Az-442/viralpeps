@@ -5792,5 +5792,14 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-07T20:10:01.579Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://rawpeptides.co.uk/product/dsip-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/raw-peptides"
   }
 ]
