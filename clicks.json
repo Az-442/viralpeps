@@ -3923,5 +3923,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/"
+  },
+  {
+    "ts": "2026-09-07T17:28:12.586Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/"
   }
 ]
