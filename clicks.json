@@ -251,5 +251,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
+  },
+  {
+    "ts": "2026-09-07T13:36:52.592Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/tesamorelin-10mg"
   }
 ]
