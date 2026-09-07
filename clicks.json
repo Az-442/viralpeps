@@ -164,5 +164,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://appliedpeptides.com/store/ols/products/semax-and-selank-10mg-bundle"
+  },
+  {
+    "ts": "2026-09-07T13:26:54.082Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg"
   }
 ]
