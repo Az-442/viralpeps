@@ -33611,5 +33611,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://anglopeptides.com/product/epitalon-10mg-batch-103-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T13:04:04.381Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://zentra-peptides.com/product/tesamorelin/"
   }
 ]
