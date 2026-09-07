@@ -2664,5 +2664,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.prime-peptides.co.uk/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-07T16:08:26.804Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bac-water-10ml-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/"
   }
 ]
