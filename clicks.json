@@ -31339,5 +31339,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
+  },
+  {
+    "ts": "2026-09-07T06:00:15.817Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
   }
 ]
