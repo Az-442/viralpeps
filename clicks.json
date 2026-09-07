@@ -31901,5 +31901,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
     "destUrl": "https://researchpeptide.co.uk/product/glow-blend-ghk-cu-bpc157-tb500/"
+  },
+  {
+    "ts": "2026-09-07T06:58:50.504Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk"
   }
 ]
