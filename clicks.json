@@ -31171,5 +31171,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-pt-141-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-07T05:46:42.836Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
   }
 ]
