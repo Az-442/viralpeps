@@ -6494,5 +6494,14 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://evapeptide.co.uk/product/buy-ipamorelin-uk/"
+  },
+  {
+    "ts": "2026-09-07T21:09:44.136Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ghk-cu-50mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
