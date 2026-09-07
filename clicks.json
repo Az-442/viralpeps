@@ -33036,5 +33036,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "ss-31-50mg",
     "destUrl": "https://alphamino.co.uk/shop/ss-31/"
+  },
+  {
+    "ts": "2026-09-07T11:07:38.213Z",
+    "type": "vendor-site",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "destUrl": "https://bioplexpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/bioplex-peptides"
   }
 ]
