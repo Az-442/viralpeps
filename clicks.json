@@ -2036,5 +2036,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-07T15:35:26.998Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/"
   }
 ]
