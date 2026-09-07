@@ -1380,5 +1380,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "vip",
     "destUrl": "https://peptideslabuk.com/product/vip/"
+  },
+  {
+    "ts": "2026-09-07T15:01:41.434Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biopeptides-uk.com/product/thymosin-alpha-1-10mg/"
   }
 ]
