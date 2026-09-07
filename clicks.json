@@ -29651,5 +29651,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
+  },
+  {
+    "ts": "2026-09-07T02:37:35.559Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptidelabuk.co.uk/product/ss-31-10mg-research-peptide/"
   }
 ]
