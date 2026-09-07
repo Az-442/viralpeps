@@ -32936,5 +32936,13 @@
     "vendorSlug": "applied-peptides",
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com"
+  },
+  {
+    "ts": "2026-09-07T10:59:46.590Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://olresearch.co.uk/product/ahk-cu-50mg/"
   }
 ]
