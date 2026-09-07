@@ -32468,5 +32468,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "tb-500-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-07T08:46:45.425Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
   }
 ]
