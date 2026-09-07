@@ -1876,5 +1876,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biotideuk.com/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-07T15:23:37.505Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/"
   }
 ]
