@@ -854,5 +854,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "semax",
     "destUrl": "https://biotideuk.com/products/semax-10-mg"
+  },
+  {
+    "ts": "2026-09-07T14:36:56.121Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biotideuk.com/products/kpv-10-mg"
   }
 ]
