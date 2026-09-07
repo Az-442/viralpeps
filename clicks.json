@@ -29181,5 +29181,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "bpc-157-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157"
+  },
+  {
+    "ts": "2026-09-07T01:04:36.102Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/"
   }
 ]
