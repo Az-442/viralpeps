@@ -1092,5 +1092,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/selank/"
+  },
+  {
+    "ts": "2026-09-07T14:48:42.215Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "slu-pp-332-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/pen"
   }
 ]
