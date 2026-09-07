@@ -2188,5 +2188,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://chiltonlabs.co.uk/product/nad-500mg-vial/"
+  },
+  {
+    "ts": "2026-09-07T15:44:08.254Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin/"
   }
 ]
