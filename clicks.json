@@ -33587,5 +33587,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-07T13:02:30.906Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://alphamino.co.uk/shop/alp_l3/"
   }
 ]
