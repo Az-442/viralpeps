@@ -30051,5 +30051,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
+  },
+  {
+    "ts": "2026-09-07T03:44:48.626Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
   }
 ]
