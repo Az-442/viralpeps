@@ -33291,5 +33291,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
+  },
+  {
+    "ts": "2026-09-07T12:23:40.186Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1"
   }
 ]
