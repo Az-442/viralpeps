@@ -2164,5 +2164,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.testedpeptides.co.uk/product/l-glutathione-600mg/"
+  },
+  {
+    "ts": "2026-09-07T15:43:11.274Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
   }
 ]
