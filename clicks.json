@@ -3088,5 +3088,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-alpha-1-10mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-07T16:26:59.954Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://olresearch.co.uk/product/klow-80mg/"
   }
 ]
