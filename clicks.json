@@ -1053,5 +1053,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biotideuk.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-07T14:47:03.482Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-5mg-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
