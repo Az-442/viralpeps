@@ -29707,5 +29707,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4"
+  },
+  {
+    "ts": "2026-09-07T02:50:44.597Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
   }
 ]
