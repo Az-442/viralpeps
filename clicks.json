@@ -29149,5 +29149,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4"
+  },
+  {
+    "ts": "2026-09-07T01:01:41.360Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
   }
 ]
