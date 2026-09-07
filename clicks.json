@@ -30835,5 +30835,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://my-peptides.co.uk/products/kpv"
+  },
+  {
+    "ts": "2026-09-07T05:19:10.940Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptides.com/catalog/retatrutide"
   }
 ]
