@@ -546,5 +546,12 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-GHKCU-50"
+  },
+  {
+    "ts": "2026-09-07T14:10:48.441Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
