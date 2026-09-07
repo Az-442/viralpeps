@@ -31821,5 +31821,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://britpeptides.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-07T06:50:11.154Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://olresearch.co.uk/product/klow-80mg/"
   }
 ]
