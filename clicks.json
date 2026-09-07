@@ -5840,5 +5840,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://premiopeptides.co.uk/compounds/ghk-cu"
+  },
+  {
+    "ts": "2026-09-07T20:16:06.621Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
