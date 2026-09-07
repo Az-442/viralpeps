@@ -33483,5 +33483,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://anglopeptides.com/product/tesa-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-07T12:47:20.849Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg"
   }
 ]
