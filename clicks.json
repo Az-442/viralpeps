@@ -482,5 +482,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-BPC-10"
+  },
+  {
+    "ts": "2026-09-07T14:04:19.727Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
   }
 ]
