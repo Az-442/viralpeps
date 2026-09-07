@@ -32428,5 +32428,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "glp-3",
     "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg"
+  },
+  {
+    "ts": "2026-09-07T08:33:11.415Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://bluewellpeptides.com/product/melanotan-2-mt2-10mg/"
   }
 ]
