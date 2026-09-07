@@ -5522,5 +5522,14 @@
     "vendorName": "New Wave Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/dsip-delta-sleep-inducing-peptide"
+  },
+  {
+    "ts": "2026-09-07T19:46:28.108Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/thymalin"
   }
 ]
