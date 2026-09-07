@@ -1108,5 +1108,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
+  },
+  {
+    "ts": "2026-09-07T14:50:14.882Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biotideuk.com/products/nad-500-mg"
   }
 ]
