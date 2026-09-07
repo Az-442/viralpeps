@@ -2448,5 +2448,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://www.prime-peptides.co.uk/product/klow-blend-peptide/"
+  },
+  {
+    "ts": "2026-09-07T16:00:14.623Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen"
   }
 ]
