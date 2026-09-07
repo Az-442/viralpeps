@@ -31019,5 +31019,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.novapeptide.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-07T05:32:29.384Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
   }
 ]
