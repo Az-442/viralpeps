@@ -4038,5 +4038,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-07T17:35:08.183Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157/"
   }
 ]
