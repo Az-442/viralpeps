@@ -7231,5 +7231,14 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg"
+  },
+  {
+    "ts": "2026-09-07T22:49:03.046Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://peptideslabuk.com/product/vip/",
+    "refPage": "https://viralpeps.co.uk/vendors/peptides-lab-uk"
   }
 ]
