@@ -4829,5 +4829,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "pal-ghk",
     "destUrl": "https://peptidesuk.com/pal-ghk/"
+  },
+  {
+    "ts": "2026-09-07T18:45:05.337Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kissptin-10-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/kisspeptin-10"
   }
 ]
