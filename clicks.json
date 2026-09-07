@@ -29364,5 +29364,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://britpeptides.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-07T01:36:08.125Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/"
   }
 ]
