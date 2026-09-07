@@ -108,5 +108,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://alphamino.co.uk/shop/alp_l3/"
+  },
+  {
+    "ts": "2026-09-07T13:23:02.899Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
