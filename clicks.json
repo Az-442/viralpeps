@@ -3600,5 +3600,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-07T17:10:18.237Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://zentra-peptides.com/product/semax/",
+    "refPage": "https://viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
