@@ -33044,5 +33044,13 @@
     "vendorName": "BioPlex Peptides",
     "destUrl": "https://bioplexpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/bioplex-peptides"
+  },
+  {
+    "ts": "2026-09-07T11:09:11.320Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://peptideslabuk.com/product/hcg/"
   }
 ]
