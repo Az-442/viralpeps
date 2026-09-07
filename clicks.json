@@ -4245,5 +4245,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-07T17:49:54.093Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://trutide.co.uk/product/wolverine/",
+    "refPage": "https://viralpeps.co.uk/vendors/trutide"
   }
 ]
