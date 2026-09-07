@@ -4795,5 +4795,13 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.testedpeptides.co.uk/product/nad-500mg/",
     "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
+  },
+  {
+    "ts": "2026-09-07T18:41:53.909Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "aod-9604-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/pen"
   }
 ]
