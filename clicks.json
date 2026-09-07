@@ -2568,5 +2568,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/"
+  },
+  {
+    "ts": "2026-09-07T16:05:14.769Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
