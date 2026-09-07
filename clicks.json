@@ -29212,5 +29212,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://momentumpeptides.com/product/semax-10mg/"
+  },
+  {
+    "ts": "2026-09-07T01:10:00.057Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glow"
   }
 ]
