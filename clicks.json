@@ -29404,5 +29404,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://britpeptides.co.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-07T01:43:06.481Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial"
   }
 ]
