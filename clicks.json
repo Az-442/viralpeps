@@ -32100,5 +32100,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://bioplexpeptides.co.uk/products/cartalax-10mg-aed-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-07T07:22:19.954Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ghrp-6-research-peptide/"
   }
 ]
