@@ -31483,5 +31483,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.flexpeptides.co.uk/products/ghk-cu-100mg"
+  },
+  {
+    "ts": "2026-09-07T06:15:21.149Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://momentumpeptides.com/product/mots-c/"
   }
 ]
