@@ -32516,5 +32516,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "selank",
     "destUrl": "https://ukpeptidelab.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-07T09:01:50.468Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidesuk.com/bpc-157/"
   }
 ]
