@@ -31299,5 +31299,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "glp-3",
     "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg"
+  },
+  {
+    "ts": "2026-09-07T05:58:11.094Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide"
   }
 ]
