@@ -33005,5 +33005,13 @@
     "vendorName": "Bio Peptides UK",
     "destUrl": "https://biopeptides-uk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/bio-peptides-uk"
+  },
+  {
+    "ts": "2026-09-07T11:04:14.560Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "destUrl": "https://biopulsepeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/bio-pulse-peptides"
   }
 ]
