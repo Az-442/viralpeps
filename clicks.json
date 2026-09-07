@@ -5041,5 +5041,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/ipamore10mg-ghrp"
+  },
+  {
+    "ts": "2026-09-07T19:04:37.160Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157/"
   }
 ]
