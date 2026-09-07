@@ -4855,5 +4855,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
+  },
+  {
+    "ts": "2026-09-07T18:48:21.207Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
