@@ -291,5 +291,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg"
+  },
+  {
+    "ts": "2026-09-07T13:40:14.801Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/pfizer-hospira-bacteriostatic-water-usp-30ml"
   }
 ]
