@@ -29781,5 +29781,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-07T03:05:27.334Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/retatrutide"
   }
 ]
