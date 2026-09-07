@@ -2496,5 +2496,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-6/"
+  },
+  {
+    "ts": "2026-09-07T16:01:02.728Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.prime-peptides.co.uk/product/ghk-cu/"
   }
 ]
