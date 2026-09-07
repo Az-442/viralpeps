@@ -32691,5 +32691,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://reta-uk.com/products/tb-500"
+  },
+  {
+    "ts": "2026-09-07T09:53:57.733Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
   }
 ]
