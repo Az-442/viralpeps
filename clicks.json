@@ -2984,5 +2984,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesonline.uk/shop/tb-500/"
+  },
+  {
+    "ts": "2026-09-07T16:22:37.898Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
