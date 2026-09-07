@@ -30875,5 +30875,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/"
+  },
+  {
+    "ts": "2026-09-07T05:22:01.137Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/"
   }
 ]
