@@ -1932,5 +1932,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
+  },
+  {
+    "ts": "2026-09-07T15:26:56.397Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/mazdutide-10mg-vial/"
   }
 ]
