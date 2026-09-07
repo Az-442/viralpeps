@@ -490,5 +490,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
+  },
+  {
+    "ts": "2026-09-07T14:06:55.741Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
   }
 ]
