@@ -6435,5 +6435,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.proformapeptides.co.uk/product/aod9604/"
+  },
+  {
+    "ts": "2026-09-07T21:05:05.900Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.proformapeptides.co.uk/product/thymosin-alpha-1-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
