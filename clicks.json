@@ -267,5 +267,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://peptideslabuk.com/product/igf-1lr3/"
+  },
+  {
+    "ts": "2026-09-07T13:38:46.317Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/"
   }
 ]
