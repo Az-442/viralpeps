@@ -3740,5 +3740,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-dac-2mg"
+  },
+  {
+    "ts": "2026-09-07T17:17:38.548Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/"
   }
 ]
