@@ -5939,5 +5939,14 @@
     "vendorName": "Trutide",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://trutide.co.uk/product/wolverine/"
+  },
+  {
+    "ts": "2026-09-07T20:23:32.877Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "refPage": "https://viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
