@@ -29595,5 +29595,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-07T02:27:52.344Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
   }
 ]
