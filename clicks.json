@@ -32484,5 +32484,13 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
+  },
+  {
+    "ts": "2026-09-07T08:50:29.524Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/"
   }
 ]
