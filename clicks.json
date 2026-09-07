@@ -30731,5 +30731,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "adipotide-ftpp-5mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp"
+  },
+  {
+    "ts": "2026-09-07T05:07:44.095Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
   }
 ]
