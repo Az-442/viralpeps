@@ -3144,5 +3144,12 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://midshirelabs.co.uk/products/pt-141/"
+  },
+  {
+    "ts": "2026-09-07T16:28:30.198Z",
+    "type": "vendor-site",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "destUrl": "https://newwavepeptides.co.uk"
   }
 ]
