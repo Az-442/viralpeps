@@ -2347,5 +2347,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-07T15:55:20.501Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/"
   }
 ]
