@@ -30155,5 +30155,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "b7-33",
     "destUrl": "https://bioplexpeptides.co.uk/products/b7-33"
+  },
+  {
+    "ts": "2026-09-07T03:57:36.537Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
   }
 ]
