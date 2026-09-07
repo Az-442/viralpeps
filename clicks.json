@@ -2504,5 +2504,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.prime-peptides.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-07T16:01:11.634Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "follistatin-344-1mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/follistatin-344-1mg/"
   }
 ]
