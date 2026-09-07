@@ -6082,5 +6082,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/"
+  },
+  {
+    "ts": "2026-09-07T20:33:37.113Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "refPage": "https://viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
