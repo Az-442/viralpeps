@@ -7689,5 +7689,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://bioplexpeptides.co.uk/products/aod9604-5mg-growth-hormone-fragment"
+  },
+  {
+    "ts": "2026-09-07T23:54:43.461Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.peptidesx.uk/product/tb-500/"
   }
 ]
