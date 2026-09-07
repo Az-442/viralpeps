@@ -196,5 +196,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-07T13:30:14.139Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/nad-500mg"
   }
 ]
