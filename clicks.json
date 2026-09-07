@@ -3479,5 +3479,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ghrp-6-5mg",
     "destUrl": "https://purepeptidesuk.com/product/ghrp-6-5/"
+  },
+  {
+    "ts": "2026-09-07T17:01:49.722Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
