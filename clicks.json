@@ -5717,5 +5717,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "mots-c",
     "destUrl": "https://mypepbiotech.co.uk/product/mots-c-20mg/"
+  },
+  {
+    "ts": "2026-09-07T20:05:20.045Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/epithalon"
   }
 ]
