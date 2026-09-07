@@ -426,5 +426,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SS31-10"
+  },
+  {
+    "ts": "2026-09-07T13:57:05.791Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
   }
 ]
