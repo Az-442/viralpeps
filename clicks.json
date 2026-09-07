@@ -30012,5 +30012,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://bioplexpeptides.co.uk/products/semax-10mg-acth-4-10"
+  },
+  {
+    "ts": "2026-09-07T03:37:30.071Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghk-cu-100mg-copper-tripeptide-1"
   }
 ]
