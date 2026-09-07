@@ -601,5 +601,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-07T14:13:48.888Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "follistatin-344-1mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/follistatin-344-1mg/"
   }
 ]
