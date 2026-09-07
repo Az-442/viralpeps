@@ -32084,5 +32084,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://biotideuk.com/products/reta"
+  },
+  {
+    "ts": "2026-09-07T07:20:23.406Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
   }
 ]
