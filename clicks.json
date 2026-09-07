@@ -846,5 +846,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.prime-peptides.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-07T14:36:53.720Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://biotideuk.com/products/semax-10-mg"
   }
 ]
