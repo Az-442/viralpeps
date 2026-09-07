@@ -2840,5 +2840,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
+  },
+  {
+    "ts": "2026-09-07T16:16:13.920Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
