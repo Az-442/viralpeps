@@ -30427,5 +30427,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
+  },
+  {
+    "ts": "2026-09-07T04:33:37.921Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
   }
 ]
