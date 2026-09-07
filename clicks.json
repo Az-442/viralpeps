@@ -4532,5 +4532,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "nad-plus",
     "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/"
+  },
+  {
+    "ts": "2026-09-07T18:19:24.192Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
   }
 ]
