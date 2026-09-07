@@ -653,14 +653,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/semaglutide-20mg/",
-        "price": "£49.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/06/semaglutide-20mg-research-vial-uk-astra-labs-400x400.webp",
-        "dosage": "20mg"
-      },
-      {
         "vendor": "Bio Peptides UK",
         "url": "https://biopeptides-uk.com/product/semaglutide-10mg/",
         "price": "£59.00",
@@ -11149,23 +11141,6 @@
         "image": "/images/products/express-peptides/ipamorelin-vial-express.webp"
       },
       {
-        "vendor": "Dr P Research",
-        "url": "https://drpresearch.co.uk/product/dr-p-ipamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
-        "price": "£24.49",
-        "inStock": true,
-        "options": [
-          {
-            "size": "5 mg",
-            "price": "£24.49"
-          },
-          {
-            "size": "10 mg",
-            "price": "£44.99"
-          }
-        ],
-        "image": "/images/products/dr-peptides/ipamorelin.webp"
-      },
-      {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/ipamorelin-2mg/",
         "price": "£9.50",
@@ -11227,13 +11202,6 @@
         "url": "https://sterlingpeptides.co.uk/product/ipamorelin-5mg-peptide/",
         "inStock": true,
         "dosage": "5mg"
-      },
-      {
-        "vendor": "Dr P Research",
-        "price": "£44.99",
-        "url": "https://drpresearch.co.uk/product/dr-p-ipamorelin-10mg-research-material-for-laboratory-use-only/",
-        "inStock": true,
-        "dosage": "10mg"
       },
       {
         "vendor": "Research Peptides UK",
