@@ -6645,5 +6645,13 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://evapeptide.co.uk/product/buy-tesamorelin-uk/"
+  },
+  {
+    "ts": "2026-09-07T21:22:17.356Z",
+    "type": "vendor-site",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "destUrl": "https://www.prime-peptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/prime-peptides"
   }
 ]
