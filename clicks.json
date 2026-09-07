@@ -30171,5 +30171,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "hexarelin",
     "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/"
+  },
+  {
+    "ts": "2026-09-07T04:00:28.106Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362"
   }
 ]
