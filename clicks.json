@@ -307,5 +307,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
+  },
+  {
+    "ts": "2026-09-07T13:41:42.939Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/"
   }
 ]
