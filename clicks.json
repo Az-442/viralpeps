@@ -5760,5 +5760,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-07T20:09:23.701Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend"
   }
 ]
