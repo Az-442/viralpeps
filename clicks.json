@@ -3931,5 +3931,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/"
+  },
+  {
+    "ts": "2026-09-07T17:29:03.912Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://chiltonlabs.co.uk/product/ghk-cu-50mg/"
   }
 ]
