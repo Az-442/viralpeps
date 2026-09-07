@@ -259,5 +259,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://appliedpeptides.com/store/ols/products/tesamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-07T13:37:12.452Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptideslabuk.com/product/igf-1lr3/"
   }
 ]
