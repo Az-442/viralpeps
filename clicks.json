@@ -4468,5 +4468,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://peptidesuk.com/ace-031/"
+  },
+  {
+    "ts": "2026-09-07T18:11:29.762Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "mgf",
+    "destUrl": "https://peptidesuk.com/mgf/"
   }
 ]
