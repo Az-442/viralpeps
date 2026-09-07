@@ -29909,5 +29909,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin"
+  },
+  {
+    "ts": "2026-09-07T03:23:48.943Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biotideuk.com/products/ss-31-10mg"
   }
 ]
