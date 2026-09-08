@@ -20118,5 +20118,14 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
+  },
+  {
+    "ts": "2026-09-08T16:35:01.862Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
