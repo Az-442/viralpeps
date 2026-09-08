@@ -16566,5 +16566,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://purepeptidesuk.com/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-08T12:26:47.886Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://tidelabs.co.uk/products/selank"
   }
 ]
