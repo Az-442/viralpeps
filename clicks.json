@@ -16878,5 +16878,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "selank",
     "destUrl": "https://peptideslabuk.com/product/selank/"
+  },
+  {
+    "ts": "2026-09-08T12:27:40.782Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/"
   }
 ]
