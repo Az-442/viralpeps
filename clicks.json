@@ -21953,5 +21953,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptidesuk.com/ghrp6-10mg/"
+  },
+  {
+    "ts": "2026-09-08T18:53:50.375Z",
+    "type": "vendor-site",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "destUrl": "https://drpresearch.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
