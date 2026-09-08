@@ -24213,5 +24213,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-08T22:34:19.609Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/bio-pulse-peptides"
   }
 ]
