@@ -16998,5 +16998,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial"
+  },
+  {
+    "ts": "2026-09-08T12:28:00.796Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://bluewellpeptides.com/product/oxytocin-acetate-10mg-peptide/"
   }
 ]
