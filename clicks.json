@@ -20748,5 +20748,12 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptidesonline.uk/shop/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-08T17:17:01.316Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
