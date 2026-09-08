@@ -16822,5 +16822,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://biopeptides-uk.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-08T12:27:30.946Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/selank-10mg/"
   }
 ]
