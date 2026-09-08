@@ -24655,5 +24655,14 @@
     "vendorName": "RETA UK",
     "compoundSlug": "semax",
     "destUrl": "https://reta-uk.com/products/semax"
+  },
+  {
+    "ts": "2026-09-08T23:58:19.978Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopeptides-uk.com/product/nad-500mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
