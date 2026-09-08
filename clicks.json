@@ -24558,5 +24558,12 @@
     "vendorName": "UK Peptides",
     "destUrl": "https://ukpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/uk-peptides"
+  },
+  {
+    "ts": "2026-09-08T23:42:30.865Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
