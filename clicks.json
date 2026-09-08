@@ -8610,5 +8610,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "foxo4-dr1",
     "destUrl": "https://peptideslabuk.com/product/foxo4-dri/"
+  },
+  {
+    "ts": "2026-09-08T02:09:43.414Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/",
+    "refPage": "https://viralpeps.co.uk/compounds/cagrilintide"
   }
 ]
