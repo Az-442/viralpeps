@@ -24589,5 +24589,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-08T23:47:05.883Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biopeptides-uk.com/product/selank-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/bio-peptides-uk"
   }
 ]
