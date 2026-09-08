@@ -9755,5 +9755,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://chiltonlabs.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-08T03:38:43.015Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
