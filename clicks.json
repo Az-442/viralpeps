@@ -15678,5 +15678,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptideslabuk.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T12:24:09.643Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://xlpeptides.com/product/tesamorelin-5mg/"
   }
 ]
