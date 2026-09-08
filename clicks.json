@@ -9584,5 +9584,12 @@
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/mypep-biotech"
+  },
+  {
+    "ts": "2026-09-08T03:26:46.863Z",
+    "type": "vendor-site",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "destUrl": "https://mypepbiotech.co.uk"
   }
 ]
