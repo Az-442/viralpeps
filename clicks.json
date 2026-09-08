@@ -15114,5 +15114,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "glow",
     "destUrl": "https://supplypeptides.co.uk/products/glow"
+  },
+  {
+    "ts": "2026-09-08T11:32:07.562Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://momentumpeptides.com/product/melanotan-2-10-mg/"
   }
 ]
