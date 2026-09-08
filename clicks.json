@@ -23702,5 +23702,13 @@
     "vendorName": "Nova Peptide",
     "destUrl": "https://www.novapeptide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/nova-peptide"
+  },
+  {
+    "ts": "2026-09-08T21:35:03.234Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://oplabs.co.uk/product/bpc157-tb500-blend-10mg/"
   }
 ]
