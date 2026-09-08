@@ -19688,5 +19688,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-08T15:56:04.809Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://supplypeptides.co.uk/products/sema"
   }
 ]
