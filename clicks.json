@@ -11907,5 +11907,14 @@
     "vendorName": "Peptigen Labs",
     "destUrl": "https://peptigenlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptigen-labs"
+  },
+  {
+    "ts": "2026-09-08T07:21:01.806Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-10ml-large-bac-water-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/compounds/bacteriostatic-water"
   }
 ]
