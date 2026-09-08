@@ -19364,5 +19364,14 @@
     "vendorName": "Trutide",
     "compoundSlug": "nad-plus",
     "destUrl": "https://trutide.co.uk/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-08T15:27:53.607Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-kpv-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
