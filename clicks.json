@@ -9907,5 +9907,14 @@
     "vendorName": "OL Research",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://olresearch.co.uk/product/ahk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-08T03:48:14.235Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg",
+    "refPage": "https://viralpeps.co.uk/vendors/form-peptides"
   }
 ]
