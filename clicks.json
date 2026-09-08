@@ -14126,5 +14126,14 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "glp-3",
     "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg"
+  },
+  {
+    "ts": "2026-09-08T09:46:33.670Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/",
+    "refPage": "https://viralpeps.co.uk/compounds/oxytocin"
   }
 ]
