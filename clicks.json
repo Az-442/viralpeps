@@ -11654,5 +11654,13 @@
     "vendorSlug": "cmsr-labs",
     "vendorName": "CMSR Labs",
     "destUrl": "https://cmsrlabs.co"
+  },
+  {
+    "ts": "2026-09-08T07:04:16.839Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ghk-cu-50mg/"
   }
 ]
