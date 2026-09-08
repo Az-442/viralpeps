@@ -22196,5 +22196,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://peptidesuk.com/hgh-fragment/"
+  },
+  {
+    "ts": "2026-09-08T19:19:00.131Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen",
+    "refPage": "https://viralpeps.co.uk/compounds/vip"
   }
 ]
