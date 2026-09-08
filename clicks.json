@@ -16198,5 +16198,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "semax",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-08T12:25:45.623Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.proformapeptides.co.uk/product/semax-5mg/"
   }
 ]
