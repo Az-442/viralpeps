@@ -13088,5 +13088,13 @@
     "vendorSlug": "spx-labs",
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T08:29:15.322Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://helixcore.co.uk/products/mots-c"
   }
 ]
