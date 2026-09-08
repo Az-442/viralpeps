@@ -11609,5 +11609,12 @@
     "vendorSlug": "spx-labs",
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T06:59:50.536Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com"
   }
 ]
