@@ -20153,5 +20153,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://ukpeptidelab.co.uk/product/l-carnitine"
+  },
+  {
+    "ts": "2026-09-08T16:39:15.950Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.proformapeptides.co.uk/product/epitalon-10mg/"
   }
 ]
