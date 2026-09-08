@@ -11882,5 +11882,14 @@
     "vendorSlug": "the-peptide-code",
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk"
+  },
+  {
+    "ts": "2026-09-08T07:19:27.820Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cartalax/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
