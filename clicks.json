@@ -16102,5 +16102,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://britpeptides.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-08T12:25:28.614Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/"
   }
 ]
