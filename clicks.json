@@ -8060,5 +8060,14 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://precision-peptides.shop/product/nad-1000mg/",
     "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
+  },
+  {
+    "ts": "2026-09-08T00:42:36.348Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "5-amino-1mq-10mg",
+    "destUrl": "https://polygonpeptides.co.uk/product/5-amino-1mq-10mg-vial/",
+    "refPage": "https://viralpeps.co.uk/vendors/polygon-peptides"
   }
 ]
