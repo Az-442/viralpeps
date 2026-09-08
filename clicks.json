@@ -9519,5 +9519,13 @@
     "vendorName": "Midshire Labs",
     "destUrl": "https://midshirelabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/midshire-labs"
+  },
+  {
+    "ts": "2026-09-08T03:23:56.676Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://peptideslabuk.com/product/adipotide/"
   }
 ]
