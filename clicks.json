@@ -23414,5 +23414,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tesamorelin-vial-express",
     "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T21:04:17.836Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "kpv",
+    "destUrl": "https://ukpeptidelab.co.uk/product/kpv",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
