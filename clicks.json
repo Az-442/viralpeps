@@ -11274,5 +11274,14 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "glow",
     "destUrl": "https://pgnalabs.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-08T06:24:12.563Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-6-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/pen",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
