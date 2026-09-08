@@ -7956,5 +7956,14 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-08T00:29:55.048Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/cardiogen-research-peptide",
+    "refPage": "https://viralpeps.co.uk/compounds/cardiogen-research-peptide"
   }
 ]
