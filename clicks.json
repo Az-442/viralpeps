@@ -17744,5 +17744,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg"
+  },
+  {
+    "ts": "2026-09-08T12:57:16.813Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/"
   }
 ]
