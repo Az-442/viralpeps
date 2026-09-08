@@ -18053,5 +18053,13 @@
     "vendorSlug": "uk-peptide-lab",
     "vendorName": "UK Peptide Lab",
     "destUrl": "https://ukpeptidelab.co.uk"
+  },
+  {
+    "ts": "2026-09-08T13:24:29.929Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "dsip",
+    "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
   }
 ]
