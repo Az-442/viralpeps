@@ -16070,5 +16070,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.peptidesonline.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-08T12:25:23.005Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://xlpeptides.com/product/semax-10mg/"
   }
 ]
