@@ -24188,5 +24188,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.proformapeptides.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-08T22:28:28.753Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/bio-pulse-peptides"
   }
 ]
