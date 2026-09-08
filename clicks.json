@@ -19176,5 +19176,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://leolab.co.uk/peptides/semax/"
+  },
+  {
+    "ts": "2026-09-08T15:10:07.209Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/"
   }
 ]
