@@ -21528,5 +21528,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-08T18:15:19.057Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen",
+    "refPage": "https://viralpeps.co.uk/compounds/ara-290"
   }
 ]
