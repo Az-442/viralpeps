@@ -10192,5 +10192,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "selank",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-08T04:08:59.367Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/astra-labs"
   }
 ]
