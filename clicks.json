@@ -15702,5 +15702,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://chromapeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T12:24:13.795Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg"
   }
 ]
