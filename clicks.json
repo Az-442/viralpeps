@@ -11678,5 +11678,14 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-08T07:09:06.669Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ll-37-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/compounds/ll-37"
   }
 ]
