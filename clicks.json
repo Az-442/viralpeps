@@ -8806,5 +8806,13 @@
     "vendorName": "CMSR Labs",
     "destUrl": "https://cmsrlabs.co",
     "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs"
+  },
+  {
+    "ts": "2026-09-08T02:25:25.231Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
   }
 ]
