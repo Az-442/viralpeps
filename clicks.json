@@ -9983,5 +9983,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tesamorelin-2mg",
     "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T03:56:08.836Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/tesamorelin-20mg",
+    "refPage": "https://viralpeps.co.uk/vendors/flex-peptides"
   }
 ]
