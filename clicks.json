@@ -11924,5 +11924,12 @@
     "vendorName": "Eva Peptide UK",
     "destUrl": "https://evapeptide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/eva-peptide"
+  },
+  {
+    "ts": "2026-09-08T07:21:11.513Z",
+    "type": "vendor-site",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "destUrl": "https://evapeptide.co.uk"
   }
 ]
