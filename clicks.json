@@ -8712,5 +8712,13 @@
     "vendorName": "My Peptides",
     "destUrl": "https://my-peptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/my-peptides"
+  },
+  {
+    "ts": "2026-09-08T02:21:12.734Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
   }
 ]
