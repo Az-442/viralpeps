@@ -19347,5 +19347,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "kpv",
     "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-08T15:26:21.068Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
