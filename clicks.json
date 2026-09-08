@@ -11695,5 +11695,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "bpc-157-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-08T07:10:16.053Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-kpv-10mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
