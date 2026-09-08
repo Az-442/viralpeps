@@ -24262,5 +24262,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-08T22:39:45.829Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/pt-141-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/pt-141-bremelanotide"
   }
 ]
