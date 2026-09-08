@@ -20285,5 +20285,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "mots-c",
     "destUrl": "https://mypepbiotech.co.uk/product/mots-c-20mg/"
+  },
+  {
+    "ts": "2026-09-08T16:44:10.328Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
