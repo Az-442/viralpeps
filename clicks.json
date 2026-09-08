@@ -13550,5 +13550,13 @@
     "vendorSlug": "united-peptides",
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T08:43:12.090Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
   }
 ]
