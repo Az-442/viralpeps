@@ -15147,5 +15147,14 @@
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-code"
+  },
+  {
+    "ts": "2026-09-08T11:37:16.549Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymosin-alpha-1-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/thymosin-alpha-1/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
