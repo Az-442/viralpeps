@@ -22675,5 +22675,14 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.stratfordpeptides.com/products/ss-31"
+  },
+  {
+    "ts": "2026-09-08T19:56:43.006Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/",
+    "refPage": "https://viralpeps.co.uk/vendors/bluewell-peptides"
   }
 ]
