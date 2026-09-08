@@ -12746,5 +12746,14 @@
     "vendorName": "Raw Peptides",
     "destUrl": "https://rawpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/raw-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:13:41.957Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://chiltonlabs.co.uk/product/igf-1-lr3-1mg-vial/",
+    "refPage": "https://viralpeps.co.uk/vendors/chilton-labs"
   }
 ]
