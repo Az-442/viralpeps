@@ -15950,5 +15950,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.novapeptide.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T12:24:59.238Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin/"
   }
 ]
