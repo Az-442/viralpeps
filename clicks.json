@@ -18414,5 +18414,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://midshirelabs.co.uk/products/nad/"
+  },
+  {
+    "ts": "2026-09-08T13:49:02.121Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/"
   }
 ]
