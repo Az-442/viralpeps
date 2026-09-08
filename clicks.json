@@ -10792,5 +10792,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ara-290",
     "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/"
+  },
+  {
+    "ts": "2026-09-08T05:32:14.673Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
