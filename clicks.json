@@ -7973,5 +7973,14 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
+  },
+  {
+    "ts": "2026-09-08T00:31:28.141Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin/",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
