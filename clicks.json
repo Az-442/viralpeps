@@ -15229,5 +15229,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptidesuk.com/ghrp6-10mg/"
+  },
+  {
+    "ts": "2026-09-08T11:52:20.588Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://zentra-peptides.com/product/ipamorelin/"
   }
 ]
