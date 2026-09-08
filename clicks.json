@@ -13177,5 +13177,13 @@
     "vendorName": "Sterling Peptides",
     "destUrl": "https://sterlingpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:32:46.505Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/"
   }
 ]
