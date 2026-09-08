@@ -21303,5 +21303,14 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-research-peptide/"
+  },
+  {
+    "ts": "2026-09-08T17:56:53.993Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295"
   }
 ]
