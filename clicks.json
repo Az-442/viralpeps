@@ -14235,5 +14235,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.apexbiolabs.co.uk/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-08T09:55:54.443Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://britpeptides.co.uk/product/pt-141/",
+    "refPage": "https://viralpeps.co.uk/vendors/brit-peptides"
   }
 ]
