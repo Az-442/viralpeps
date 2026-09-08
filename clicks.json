@@ -8239,5 +8239,13 @@
     "vendorSlug": "bluewell-peptides",
     "vendorName": "Bluewell Peptides",
     "destUrl": "https://bluewellpeptides.com"
+  },
+  {
+    "ts": "2026-09-08T01:20:56.140Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
   }
 ]
