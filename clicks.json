@@ -13751,5 +13751,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "bpc-10mg-tb-10mg-20mg",
     "destUrl": "https://researchpeptide.co.uk/product/bpc-10mg-tb-10mg-20mg/"
+  },
+  {
+    "ts": "2026-09-08T08:57:50.584Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://biotideuk.com/products/glow-stack-70-mg",
+    "refPage": "https://viralpeps.co.uk/vendors/biotide-uk"
   }
 ]
