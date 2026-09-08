@@ -9207,5 +9207,14 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://momentumpeptides.com/product/semax-10mg/"
+  },
+  {
+    "ts": "2026-09-08T03:02:15.354Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
