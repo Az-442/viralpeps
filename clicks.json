@@ -23341,5 +23341,12 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://astralabs.co.uk/product/ss31-50mg/"
+  },
+  {
+    "ts": "2026-09-08T20:54:59.957Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk"
   }
 ]
