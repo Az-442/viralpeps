@@ -20657,5 +20657,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://zentra-peptides.com/product/semax/"
+  },
+  {
+    "ts": "2026-09-08T17:09:27.978Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://precision-peptides.shop/product/glp-3-reta-10mg/"
   }
 ]
