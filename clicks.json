@@ -20301,5 +20301,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "nad-research-peptide",
     "destUrl": "https://ukpeptidelab.co.uk/product/nad-plus"
+  },
+  {
+    "ts": "2026-09-08T16:44:56.455Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
