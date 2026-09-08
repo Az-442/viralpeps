@@ -12321,5 +12321,13 @@
     "vendorName": "PGNA Labs",
     "destUrl": "https://pgnalabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
+  },
+  {
+    "ts": "2026-09-08T07:50:16.148Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/"
   }
 ]
