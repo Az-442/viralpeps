@@ -16446,5 +16446,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://appliedpeptides.com/store/ols/products/semax-and-selank-10mg-bundle"
+  },
+  {
+    "ts": "2026-09-08T12:26:27.429Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://leolab.co.uk/peptides/semax/"
   }
 ]
