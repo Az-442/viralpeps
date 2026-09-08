@@ -8680,5 +8680,13 @@
     "compoundSlug": "cjc-1295",
     "destUrl": "https://my-peptides.co.uk/products/cjc-1295",
     "refPage": "https://viralpeps.co.uk/compounds/cjc-1295"
+  },
+  {
+    "ts": "2026-09-08T02:18:38.478Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chilton-labs"
   }
 ]
