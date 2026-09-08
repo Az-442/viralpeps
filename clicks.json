@@ -21295,5 +21295,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-08T17:56:52.344Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-research-peptide/"
   }
 ]
