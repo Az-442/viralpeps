@@ -21730,5 +21730,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-cjc-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo-dac/pen"
+  },
+  {
+    "ts": "2026-09-08T18:30:16.852Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymosin-alpha-1-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
