@@ -12846,5 +12846,13 @@
     "compoundSlug": "testagen",
     "destUrl": "https://www.buyreta.co.uk/product/testagen-uk",
     "refPage": "https://viralpeps.co.uk/vendors/buyreta"
+  },
+  {
+    "ts": "2026-09-08T08:19:05.304Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
