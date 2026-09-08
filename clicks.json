@@ -23796,5 +23796,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://leolab.co.uk/peptides/selank/"
+  },
+  {
+    "ts": "2026-09-08T21:41:28.862Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://xlpeptides.com/product/glow-peptide-blend/"
   }
 ]
