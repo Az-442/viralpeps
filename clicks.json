@@ -8255,5 +8255,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://octagonpeptides.co.uk/product/cjc-with-dac-5-mg/"
+  },
+  {
+    "ts": "2026-09-08T01:25:35.101Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg"
   }
 ]
