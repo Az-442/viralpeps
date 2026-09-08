@@ -19812,5 +19812,13 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptifyuk.com/product/ipamorelin-10mg",
     "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
+  },
+  {
+    "ts": "2026-09-08T16:09:35.663Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "destUrl": "https://peptidelabuk.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptide-lab-uk"
   }
 ]
