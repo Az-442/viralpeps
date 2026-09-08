@@ -8840,5 +8840,12 @@
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/crown-peptides"
+  },
+  {
+    "ts": "2026-09-08T02:28:42.708Z",
+    "type": "vendor-site",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "destUrl": "https://crownpeptides.co.uk"
   }
 ]
