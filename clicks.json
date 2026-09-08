@@ -10945,5 +10945,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "aod-9604-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/aod-9604-5mg/"
+  },
+  {
+    "ts": "2026-09-08T05:47:26.627Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk"
   }
 ]
