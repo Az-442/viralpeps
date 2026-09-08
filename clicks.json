@@ -17404,5 +17404,12 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://momentumpeptides.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-08T12:29:14.207Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com"
   }
 ]
