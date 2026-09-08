@@ -19218,5 +19218,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/"
+  },
+  {
+    "ts": "2026-09-08T15:13:39.920Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://kensingtonlabs.co.uk/product/ll37-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/kensington-labs"
   }
 ]
