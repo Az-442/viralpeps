@@ -10552,5 +10552,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://chiltonlabs.co.uk/product/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-08T05:04:49.136Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/tirzepatide.html"
   }
 ]
