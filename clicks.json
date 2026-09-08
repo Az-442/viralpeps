@@ -17284,5 +17284,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "glow",
     "destUrl": "https://www.apexbiolabs.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-08T12:28:51.878Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/klow-80mg/"
   }
 ]
