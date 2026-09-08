@@ -17332,5 +17332,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-08T12:29:01.450Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://momentumpeptides.com/product/bpc-157-10mg/"
   }
 ]
