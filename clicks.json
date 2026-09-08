@@ -14394,5 +14394,14 @@
     "vendorSlug": "premio-peptides",
     "vendorName": "Premio Peptides",
     "destUrl": "https://premiopeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T10:14:38.648Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+    "refPage": "https://viralpeps.co.uk/compounds/sermorelin"
   }
 ]
