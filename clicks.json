@@ -12705,5 +12705,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "semax",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
+  },
+  {
+    "ts": "2026-09-08T08:12:08.575Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
