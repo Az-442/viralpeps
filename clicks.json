@@ -12409,5 +12409,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://xlpeptides.com/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-08T07:54:21.117Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://chromapeptides.co.uk/product/igf-1-lr3/",
+    "refPage": "https://viralpeps.co.uk/compounds/igf1-lr3-vial-express"
   }
 ]
