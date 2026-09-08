@@ -13535,5 +13535,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://helixcore.co.uk/products/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-08T08:42:44.204Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/united-peptides"
   }
 ]
