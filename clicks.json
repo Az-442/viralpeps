@@ -10629,5 +10629,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bluewellpeptides.com/product/selank-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-08T05:13:24.752Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/polygon-peptides"
   }
 ]
