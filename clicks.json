@@ -10162,5 +10162,12 @@
     "vendorName": "Peptify UK",
     "destUrl": "https://www.peptifyuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptify-uk"
+  },
+  {
+    "ts": "2026-09-08T04:05:04.282Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "destUrl": "https://www.peptifyuk.com"
   }
 ]
