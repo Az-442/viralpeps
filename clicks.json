@@ -15204,5 +15204,14 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-08T11:50:59.354Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin-nasal-spray",
+    "refPage": "https://viralpeps.co.uk/compounds/kisspeptin-nasal-spray"
   }
 ]
