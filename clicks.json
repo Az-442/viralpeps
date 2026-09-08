@@ -14795,5 +14795,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-08T10:44:33.840Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin/",
+    "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
   }
 ]
