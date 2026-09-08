@@ -16454,5 +16454,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://leolab.co.uk/peptides/semax/"
+  },
+  {
+    "ts": "2026-09-08T12:26:28.921Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://bioplexpeptides.co.uk/products/semax-10mg-acth-4-10"
   }
 ]
