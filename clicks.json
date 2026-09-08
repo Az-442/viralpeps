@@ -17901,5 +17901,14 @@
     "vendorSlug": "octagon-peptides",
     "vendorName": "Octagon Peptides",
     "destUrl": "https://octagonpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T13:09:54.143Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://precision-peptides.shop/product/tb-500-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/tb-500"
   }
 ]
