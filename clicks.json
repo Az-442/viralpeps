@@ -19279,5 +19279,14 @@
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container",
     "refPage": "https://viralpeps.co.uk/vendors/imperial-peptides"
+  },
+  {
+    "ts": "2026-09-08T15:20:01.828Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ss-31"
   }
 ]
