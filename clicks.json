@@ -12926,5 +12926,13 @@
     "vendorSlug": "raccoon-peptides",
     "vendorName": "Raccoon Peptides",
     "destUrl": "https://www.raccoonpeptides.com"
+  },
+  {
+    "ts": "2026-09-08T08:21:59.642Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://astralabs.co.uk/product/semax-peptide-uk/"
   }
 ]
