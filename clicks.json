@@ -20948,5 +20948,14 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.raccoonpeptides.com/peptides/15-bacteriostatic-water-10ml.html"
+  },
+  {
+    "ts": "2026-09-08T17:31:39.030Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://leolab.co.uk/peptides/semax/",
+    "refPage": "https://viralpeps.co.uk/compounds/semax"
   }
 ]
