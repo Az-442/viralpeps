@@ -14209,5 +14209,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "dsip",
     "destUrl": "https://www.apexbiolabs.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-08T09:52:36.783Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-tesamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
