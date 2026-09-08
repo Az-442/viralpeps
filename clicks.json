@@ -20027,5 +20027,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-08T16:30:02.436Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
