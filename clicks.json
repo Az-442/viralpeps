@@ -10731,5 +10731,14 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/"
+  },
+  {
+    "ts": "2026-09-08T05:24:28.073Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidesx.uk/product/glow-blend/",
+    "refPage": "https://viralpeps.co.uk/vendors/peptidesx"
   }
 ]
