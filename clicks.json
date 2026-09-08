@@ -12992,5 +12992,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
+  },
+  {
+    "ts": "2026-09-08T08:26:32.186Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/reta-uk"
   }
 ]
