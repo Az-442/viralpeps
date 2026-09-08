@@ -15654,5 +15654,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
+  },
+  {
+    "ts": "2026-09-08T12:24:05.471Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg"
   }
 ]
