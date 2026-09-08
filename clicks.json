@@ -19744,5 +19744,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://my-peptides.co.uk/products/mots-c-32"
+  },
+  {
+    "ts": "2026-09-08T16:02:07.409Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/ss-31-50mg/"
   }
 ]
