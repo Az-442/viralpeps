@@ -18595,5 +18595,14 @@
     "vendorName": "PepNOVA",
     "destUrl": "https://pepnova.uk",
     "refPage": "https://viralpeps.co.uk/vendors/pepnova"
+  },
+  {
+    "ts": "2026-09-08T14:14:07.008Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://purepeptidesuk.com/product/ghrp-2-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-2"
   }
 ]
