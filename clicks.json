@@ -10200,5 +10200,13 @@
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/astra-labs"
+  },
+  {
+    "ts": "2026-09-08T04:09:25.915Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "destUrl": "https://peptigenlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptigen-labs"
   }
 ]
