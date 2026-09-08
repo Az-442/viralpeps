@@ -18810,5 +18810,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-08T14:35:56.606Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/aod9604",
+    "refPage": "https://viralpeps.co.uk/compounds/aod-9604"
   }
 ]
