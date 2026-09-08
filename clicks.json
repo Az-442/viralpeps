@@ -12227,5 +12227,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "igf-1-1-3-1mg",
     "destUrl": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/"
+  },
+  {
+    "ts": "2026-09-08T07:39:52.917Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://cmsrlabs.co/product/hcg-10000iu/",
+    "refPage": "https://viralpeps.co.uk/vendors/cmsr-labs"
   }
 ]
