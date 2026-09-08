@@ -10215,5 +10215,13 @@
     "vendorSlug": "peptigen-labs",
     "vendorName": "Peptigen Labs",
     "destUrl": "https://peptigenlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T04:10:15.609Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
   }
 ]
