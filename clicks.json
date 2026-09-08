@@ -11794,5 +11794,13 @@
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/applied-peptides"
+  },
+  {
+    "ts": "2026-09-08T07:16:05.505Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biotide-uk"
   }
 ]
