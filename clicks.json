@@ -12902,5 +12902,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T08:21:28.617Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
