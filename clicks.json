@@ -17022,5 +17022,12 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://premiopeptides.co.uk/compounds/oxytocin"
+  },
+  {
+    "ts": "2026-09-08T12:28:05.365Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk"
   }
 ]
