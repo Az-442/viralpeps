@@ -21902,5 +21902,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://xlpeptides.com/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-08T18:49:10.810Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
