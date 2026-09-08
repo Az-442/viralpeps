@@ -8016,5 +8016,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor"
+  },
+  {
+    "ts": "2026-09-08T00:36:25.441Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/retatrutide"
   }
 ]
