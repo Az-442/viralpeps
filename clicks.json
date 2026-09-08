@@ -21587,5 +21587,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tesamorelin-vial-express",
     "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T18:19:18.069Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/",
+    "refPage": "https://viralpeps.co.uk/vendors/eva-peptide"
   }
 ]
