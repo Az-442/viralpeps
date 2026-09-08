@@ -24606,5 +24606,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://leolab.co.uk/peptides/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T23:48:01.003Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://pgnalabs.co.uk/product/ipamorelin"
   }
 ]
