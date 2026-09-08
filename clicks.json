@@ -12837,5 +12837,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-08T08:18:36.562Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "testagen",
+    "destUrl": "https://www.buyreta.co.uk/product/testagen-uk",
+    "refPage": "https://viralpeps.co.uk/vendors/buyreta"
   }
 ]
