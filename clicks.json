@@ -11011,5 +11011,14 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "klow",
     "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
+  },
+  {
+    "ts": "2026-09-08T05:52:41.200Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/motsc.html",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
