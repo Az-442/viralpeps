@@ -20261,5 +20261,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biohackpeptides.co.uk/product/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-08T16:43:05.520Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://xlpeptides.com/product/mots-c-10mg/"
   }
 ]
