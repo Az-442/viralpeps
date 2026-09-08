@@ -13239,5 +13239,13 @@
     "vendorSlug": "supply-peptides",
     "vendorName": "SupplyPeptides",
     "destUrl": "https://supplypeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T08:33:47.769Z",
+    "type": "vendor-site",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "destUrl": "https://www.testedpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tested-peptides"
   }
 ]
