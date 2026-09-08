@@ -21128,5 +21128,14 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-08T17:45:50.450Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
