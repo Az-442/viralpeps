@@ -15189,5 +15189,12 @@
     "vendorName": "Grey Matter Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://greymatterpeptides.co.uk/peptides/klow-blend.html"
+  },
+  {
+    "ts": "2026-09-08T11:40:55.819Z",
+    "type": "vendor-site",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "destUrl": "https://formpeptides.co.uk"
   }
 ]
