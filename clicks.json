@@ -8720,5 +8720,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-08T02:21:15.319Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chilton-labs"
   }
 ]
