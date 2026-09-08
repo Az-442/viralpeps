@@ -19083,5 +19083,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://bluewellpeptides.com/product/cjc-1295-no-dac-ipamorelin-10mg-blend/"
+  },
+  {
+    "ts": "2026-09-08T15:02:40.560Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://xlpeptides.com/product/bpc-157-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
