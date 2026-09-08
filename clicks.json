@@ -13786,5 +13786,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://xlpeptides.com/product/glow-peptide-blend/"
+  },
+  {
+    "ts": "2026-09-08T09:02:30.233Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh",
+    "refPage": "https://viralpeps.co.uk/compounds/sermorelin"
   }
 ]
