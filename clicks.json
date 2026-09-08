@@ -15352,5 +15352,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.apex-pharma.co.uk/product/ahk-50mg/"
+  },
+  {
+    "ts": "2026-09-08T11:59:50.056Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ghk-cu-50mg/"
   }
 ]
