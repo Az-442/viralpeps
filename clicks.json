@@ -11153,5 +11153,14 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://appliedpeptides.com/store/ols/products/tesamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-08T06:10:00.207Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "peg-mgf-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/vial",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
