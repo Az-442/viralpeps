@@ -15312,5 +15312,13 @@
     "vendorSlug": "apex-pharma",
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk"
+  },
+  {
+    "ts": "2026-09-08T11:59:37.989Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
