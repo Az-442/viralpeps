@@ -19769,5 +19769,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://midshirelabs.co.uk/products/amino-1mq-t/"
+  },
+  {
+    "ts": "2026-09-08T16:05:23.724Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
