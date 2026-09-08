@@ -19638,5 +19638,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "semax",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
+  },
+  {
+    "ts": "2026-09-08T15:50:48.305Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg"
   }
 ]
