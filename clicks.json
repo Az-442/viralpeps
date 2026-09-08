@@ -8042,5 +8042,14 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://octagonpeptides.co.uk/product/cjc-with-dac-5-mg/"
+  },
+  {
+    "ts": "2026-09-08T00:39:29.403Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-ghrp-6-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghrp-6-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
