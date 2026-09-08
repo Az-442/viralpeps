@@ -9147,5 +9147,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://bioplexpeptides.co.uk/products/melanotan-2-10mg-afamelanotide"
+  },
+  {
+    "ts": "2026-09-08T02:59:45.128Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment",
+    "refPage": "https://www.viralpeps.co.uk/compounds/mots-c"
   }
 ]
