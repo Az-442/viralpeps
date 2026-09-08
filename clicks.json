@@ -24523,5 +24523,14 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-08T23:41:36.746Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157"
   }
 ]
