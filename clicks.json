@@ -20085,5 +20085,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "pt-141",
     "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
+  },
+  {
+    "ts": "2026-09-08T16:33:13.359Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial",
+    "refPage": "https://viralpeps.co.uk/compounds/oxytocin"
   }
 ]
