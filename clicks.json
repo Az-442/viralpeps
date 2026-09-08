@@ -8567,5 +8567,13 @@
     "vendorSlug": "chilton-labs",
     "vendorName": "Chilton Labs",
     "destUrl": "https://chiltonlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T02:04:20.150Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://trutide.co.uk/product/ghk-cu-100mg/"
   }
 ]
