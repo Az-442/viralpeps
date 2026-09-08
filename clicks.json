@@ -8410,5 +8410,14 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://tidelabs.co.uk/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-08T01:48:02.654Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptidesuk.com/epitalon/",
+    "refPage": "https://viralpeps.co.uk/compounds/epithalon"
   }
 ]
