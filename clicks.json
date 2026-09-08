@@ -11064,5 +11064,14 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "klow",
     "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
+  },
+  {
+    "ts": "2026-09-08T05:55:54.175Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ipamorelin-10mg",
+    "refPage": "https://viralpeps.co.uk/vendors/flex-peptides"
   }
 ]
