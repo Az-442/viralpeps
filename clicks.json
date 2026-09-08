@@ -21655,5 +21655,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "aicar-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/aicar/"
+  },
+  {
+    "ts": "2026-09-08T18:24:26.845Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
   }
 ]
