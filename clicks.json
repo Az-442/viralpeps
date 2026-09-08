@@ -18491,5 +18491,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://biopeptides-uk.com/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-08T13:58:01.939Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptideslabuk.com/product/dsip/",
+    "refPage": "https://viralpeps.co.uk/compounds/dsip"
   }
 ]
