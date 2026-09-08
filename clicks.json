@@ -21663,5 +21663,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-08T18:25:25.220Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cognitive-signalling-set-semax-selank",
+    "destUrl": "https://tidelabs.co.uk/products/cognitive-signalling-set-semax-selank"
   }
 ]
