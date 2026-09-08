@@ -21228,5 +21228,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/"
+  },
+  {
+    "ts": "2026-09-08T17:52:12.680Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial",
+    "refPage": "https://viralpeps.co.uk/compounds/ghk-cu"
   }
 ]
