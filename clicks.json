@@ -20755,5 +20755,13 @@
     "vendorSlug": "anglo-peptides",
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com"
+  },
+  {
+    "ts": "2026-09-08T17:17:18.354Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
   }
 ]
