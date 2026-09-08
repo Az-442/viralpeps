@@ -19604,5 +19604,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://bioplexpeptides.co.uk/products/hgh-fragment-176-191-5mg-ghrp"
+  },
+  {
+    "ts": "2026-09-08T15:48:20.645Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
