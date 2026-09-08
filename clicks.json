@@ -18160,5 +18160,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295"
+  },
+  {
+    "ts": "2026-09-08T13:30:16.654Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/glp-3"
   }
 ]
