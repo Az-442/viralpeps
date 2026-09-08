@@ -10560,5 +10560,14 @@
     "vendorName": "Grey Matter Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://greymatterpeptides.co.uk/peptides/tirzepatide.html"
+  },
+  {
+    "ts": "2026-09-08T05:05:28.612Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ara-290-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ara-290"
   }
 ]
