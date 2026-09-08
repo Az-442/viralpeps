@@ -14959,5 +14959,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "hcg",
     "destUrl": "https://peptideslabuk.com/product/hcg/"
+  },
+  {
+    "ts": "2026-09-08T11:08:07.473Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+    "refPage": "https://viralpeps.co.uk/compounds/igf-1-lr3-1mg"
   }
 ]
