@@ -22551,5 +22551,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "glow",
     "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-08T19:48:58.479Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://mypepbiotech.co.uk/product/ghk-cu/"
   }
 ]
