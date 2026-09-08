@@ -22887,5 +22887,12 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "hexarelin",
     "destUrl": "https://peptidesuk.com/hexarelin/"
+  },
+  {
+    "ts": "2026-09-08T20:19:49.660Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk"
   }
 ]
