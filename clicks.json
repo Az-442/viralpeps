@@ -24639,5 +24639,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "tb-500-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-08T23:56:07.285Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/ipamorelin/"
   }
 ]
