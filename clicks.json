@@ -9876,5 +9876,13 @@
     "vendorSlug": "ol-research",
     "vendorName": "OL Research",
     "destUrl": "https://olresearch.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:46:40.257Z",
+    "type": "vendor-site",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "destUrl": "https://greymatterpeptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/grey-matter-peptides"
   }
 ]
