@@ -16542,5 +16542,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://sterlingpeptides.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-08T12:26:43.798Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidesuk.com/selank/"
   }
 ]
