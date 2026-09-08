@@ -14779,5 +14779,13 @@
     "vendorName": "CMSR Labs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://cmsrlabs.co/product/tesamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-08T10:42:58.901Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com",
+    "refPage": "https://viralpeps.co.uk/vendors/stratford-peptides"
   }
 ]
