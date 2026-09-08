@@ -14100,5 +14100,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://xlpeptides.com/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-08T09:43:17.723Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.prime-peptides.co.uk/product/nad-plus/",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
