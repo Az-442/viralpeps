@@ -10239,5 +10239,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "dsip",
     "destUrl": "https://midshirelabs.co.uk/products/dsip/"
+  },
+  {
+    "ts": "2026-09-08T04:18:36.417Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/"
   }
 ]
