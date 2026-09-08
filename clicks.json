@@ -16990,5 +16990,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://zentra-peptides.com/product/oxytocin/"
+  },
+  {
+    "ts": "2026-09-08T12:27:59.466Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial"
   }
 ]
