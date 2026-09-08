@@ -9951,5 +9951,12 @@
     "vendorName": "PepNOVA",
     "destUrl": "https://pepnova.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
+  },
+  {
+    "ts": "2026-09-08T03:53:23.394Z",
+    "type": "vendor-site",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "destUrl": "https://pepnova.uk"
   }
 ]
