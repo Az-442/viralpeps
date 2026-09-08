@@ -23365,5 +23365,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.stratfordpeptides.com/products/ss-31"
+  },
+  {
+    "ts": "2026-09-08T20:57:29.520Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/tesamorelin.html"
   }
 ]
