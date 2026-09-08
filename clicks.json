@@ -13160,5 +13160,14 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://leolab.co.uk/peptides/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-08T08:32:37.684Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.buyreta.co.uk/product/igf-lr3-1mg-uk",
+    "refPage": "https://viralpeps.co.uk/compounds/igf1-lr3-vial-express"
   }
 ]
