@@ -16222,5 +16222,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-08T12:25:49.673Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptidesx.uk/product/semax/"
   }
 ]
