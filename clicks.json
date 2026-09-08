@@ -10500,5 +10500,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-08T04:59:10.684Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "5-amino-1mq-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
