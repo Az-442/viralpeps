@@ -21713,5 +21713,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tesofensine-500mcg-100-tablets",
     "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/"
+  },
+  {
+    "ts": "2026-09-08T18:28:43.218Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vip-5mg-research-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
