@@ -19696,5 +19696,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "semaglutide",
     "destUrl": "https://supplypeptides.co.uk/products/sema"
+  },
+  {
+    "ts": "2026-09-08T15:56:13.590Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidelabuk.co.uk/product/buy-selank-5mg-research-peptide/"
   }
 ]
