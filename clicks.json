@@ -8814,5 +8814,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
+  },
+  {
+    "ts": "2026-09-08T02:26:59.934Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://viralpeps.co.uk/vendors/midshire-labs"
   }
 ]
