@@ -21945,5 +21945,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://zentra-peptides.com/product/selank/"
+  },
+  {
+    "ts": "2026-09-08T18:52:24.004Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://peptidesuk.com/ghrp6-10mg/"
   }
 ]
