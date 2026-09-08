@@ -24140,5 +24140,13 @@
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/biohack-peptides"
+  },
+  {
+    "ts": "2026-09-08T22:26:12.385Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://peptideslabuk.com/product/hcg/"
   }
 ]
