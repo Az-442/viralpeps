@@ -19201,5 +19201,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "ss-31",
     "destUrl": "https://alphamino.co.uk/shop/ss-31/"
+  },
+  {
+    "ts": "2026-09-08T15:12:07.846Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/kensington-labs"
   }
 ]
