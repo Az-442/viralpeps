@@ -19143,5 +19143,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "bpc-157-oral",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-nasal-spray"
+  },
+  {
+    "ts": "2026-09-08T15:08:20.833Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aicar",
+    "destUrl": "https://peptideslabuk.com/product/aicar/"
   }
 ]
