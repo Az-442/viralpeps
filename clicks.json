@@ -19752,5 +19752,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31-50mg",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-50mg/"
+  },
+  {
+    "ts": "2026-09-08T16:04:04.880Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-dac-2mg",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295-with-dac"
   }
 ]
