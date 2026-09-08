@@ -8508,5 +8508,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-08T01:53:59.276Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1"
   }
 ]
