@@ -24287,5 +24287,14 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/nad-plus-500mg"
+  },
+  {
+    "ts": "2026-09-08T22:45:21.504Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ghk-cu-100mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/bio-pulse-peptides"
   }
 ]
