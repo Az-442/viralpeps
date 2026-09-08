@@ -8847,5 +8847,14 @@
     "vendorSlug": "crown-peptides",
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T02:30:07.961Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/ipamorelin/",
+    "refPage": "https://viralpeps.co.uk/vendors/midshire-labs"
   }
 ]
