@@ -22374,5 +22374,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "hexarelin",
     "destUrl": "https://peptidesuk.com/hexarelin/"
+  },
+  {
+    "ts": "2026-09-08T19:34:41.160Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://britpeptides.co.uk/product/tb-500/",
+    "refPage": "https://viralpeps.co.uk/vendors/brit-peptides"
   }
 ]
