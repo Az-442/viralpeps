@@ -22028,5 +22028,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/semax"
+  },
+  {
+    "ts": "2026-09-08T19:00:07.813Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/aod-9604/",
+    "refPage": "https://viralpeps.co.uk/vendors/crown-peptides"
   }
 ]
