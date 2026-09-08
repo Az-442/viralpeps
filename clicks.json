@@ -8704,5 +8704,13 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://my-peptides.co.uk/products/bpc-157",
     "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
+  },
+  {
+    "ts": "2026-09-08T02:20:43.265Z",
+    "type": "vendor-site",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "destUrl": "https://my-peptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/my-peptides"
   }
 ]
