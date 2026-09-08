@@ -17615,5 +17615,14 @@
     "vendorName": "PeptX",
     "compoundSlug": "aod-9604",
     "destUrl": "https://peptx.co.uk/product/aod-9604"
+  },
+  {
+    "ts": "2026-09-08T12:43:01.633Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hmg-75iu",
+    "destUrl": "https://purepeptidesuk.com/product/hmg-75iu/",
+    "refPage": "https://viralpeps.co.uk/compounds/hmg-75iu"
   }
 ]
