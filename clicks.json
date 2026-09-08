@@ -16126,5 +16126,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://peptidesuk.com/semax/"
+  },
+  {
+    "ts": "2026-09-08T12:25:33.175Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
