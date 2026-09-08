@@ -22053,5 +22053,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "aod-9604",
     "destUrl": "https://oplabs.co.uk/product/aod9604-2mg/"
+  },
+  {
+    "ts": "2026-09-08T19:03:20.276Z",
+    "type": "vendor-site",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "destUrl": "https://crownpeptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/crown-peptides"
   }
 ]
