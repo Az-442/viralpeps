@@ -18144,5 +18144,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://ukpeptidelab.co.uk/product/l-carnitine"
+  },
+  {
+    "ts": "2026-09-08T13:30:07.459Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ukpeptidelab.co.uk/product/tb-500"
   }
 ]
