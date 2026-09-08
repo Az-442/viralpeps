@@ -10184,5 +10184,13 @@
     "vendorSlug": "peptigen-labs",
     "vendorName": "Peptigen Labs",
     "destUrl": "https://peptigenlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T04:08:02.906Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
