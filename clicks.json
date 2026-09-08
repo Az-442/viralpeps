@@ -20864,5 +20864,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cjc-1295-ipamorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-ipamorelin-10mg-ghrh-ghrp"
+  },
+  {
+    "ts": "2026-09-08T17:25:22.838Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/thymosin-alpha-1"
   }
 ]
