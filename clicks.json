@@ -13847,5 +13847,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "aod-9604-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/aod-9604-5mg/"
+  },
+  {
+    "ts": "2026-09-08T09:11:56.681Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.stratfordpeptides.com/products/melanotan-2",
+    "refPage": "https://viralpeps.co.uk/compounds/mt2-10mg-imperial"
   }
 ]
