@@ -15862,5 +15862,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptifyuk.com/product/tesamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-08T12:24:42.992Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/"
   }
 ]
