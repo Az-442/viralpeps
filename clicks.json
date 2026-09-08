@@ -21850,5 +21850,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "bpc-157-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-08T18:42:51.739Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghk-cu-50mg-research-only-peptide-for-laboratory-use-only-coa-in-images/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
