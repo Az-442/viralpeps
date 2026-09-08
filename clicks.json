@@ -24481,5 +24481,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-08T23:29:13.079Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://supplypeptides.co.uk/products/pt-141"
   }
 ]
