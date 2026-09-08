@@ -11947,5 +11947,14 @@
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/mypep-biotech"
+  },
+  {
+    "ts": "2026-09-08T07:22:36.582Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "adamax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-adamax-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
