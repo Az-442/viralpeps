@@ -19100,5 +19100,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-08T15:04:22.410Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://thepeptidecode.co.uk/products/retatrutide-20mg-99-69-purity",
+    "refPage": "https://viralpeps.co.uk/compounds/retatrutide"
   }
 ]
