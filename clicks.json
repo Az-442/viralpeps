@@ -10826,5 +10826,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-08T05:35:04.147Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/alphamino"
   }
 ]
