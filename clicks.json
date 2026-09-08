@@ -15926,5 +15926,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.flexpeptides.co.uk/products/tesamorelin-20mg"
+  },
+  {
+    "ts": "2026-09-08T12:24:54.460Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/tesamorelin-10mg/"
   }
 ]
