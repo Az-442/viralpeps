@@ -20383,5 +20383,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "ghk-cu-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
+  },
+  {
+    "ts": "2026-09-08T16:50:42.237Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vesugen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
   }
 ]
