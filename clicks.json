@@ -12287,5 +12287,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/"
+  },
+  {
+    "ts": "2026-09-08T07:47:48.132Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://chromapeptides.co.uk/product/semax/",
+    "refPage": "https://viralpeps.co.uk/compounds/semax"
   }
 ]
