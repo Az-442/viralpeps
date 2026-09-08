@@ -9349,5 +9349,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "bpc-157-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-08T03:15:07.317Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/sermorelin-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/sermorelin"
   }
 ]
