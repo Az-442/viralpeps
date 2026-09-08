@@ -9239,5 +9239,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "foxo4-dr1",
     "destUrl": "https://peptideslabuk.com/product/foxo4-dri/"
+  },
+  {
+    "ts": "2026-09-08T03:03:50.491Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
