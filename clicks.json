@@ -13320,5 +13320,13 @@
     "vendorName": "The Peptide Company",
     "destUrl": "https://thepeptidecompany.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company"
+  },
+  {
+    "ts": "2026-09-08T08:35:58.860Z",
+    "type": "vendor-site",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "destUrl": "https://supplypeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/supply-peptides"
   }
 ]
