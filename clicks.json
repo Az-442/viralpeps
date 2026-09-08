@@ -23942,5 +23942,14 @@
     "vendorSlug": "nupex",
     "vendorName": "Nupex",
     "destUrl": "https://nupex.co.uk"
+  },
+  {
+    "ts": "2026-09-08T21:59:16.332Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "refPage": "https://viralpeps.co.uk/vendors/bioplex-peptides"
   }
 ]
