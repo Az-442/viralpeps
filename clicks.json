@@ -10247,5 +10247,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/"
+  },
+  {
+    "ts": "2026-09-08T04:19:42.779Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://zentra-peptides.com/product/thymosin-alpha-1/",
+    "refPage": "https://viralpeps.co.uk/compounds/thymosin-alpha-1"
   }
 ]
