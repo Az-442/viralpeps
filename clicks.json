@@ -22120,5 +22120,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "adipotide-ftpp-5mg",
     "destUrl": "https://bluewellpeptides.com/product/fftp-adipotide-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-08T19:09:35.761Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://chromapeptides.co.uk/product/tesamorelin/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides"
   }
 ]
