@@ -11206,5 +11206,14 @@
     "compoundSlug": "ipamorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/pen",
     "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-08T06:17:52.705Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-tesa-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
