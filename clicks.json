@@ -9306,5 +9306,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://alphamino.co.uk/shop/cjc-ipa/"
+  },
+  {
+    "ts": "2026-09-08T03:10:22.773Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
