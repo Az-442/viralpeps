@@ -19184,5 +19184,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "bpc-157",
     "destUrl": "https://alphamino.co.uk/shop/bpc/"
+  },
+  {
+    "ts": "2026-09-08T15:10:32.497Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/semax-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/kensington-labs"
   }
 ]
