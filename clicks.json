@@ -18629,5 +18629,14 @@
     "vendorSlug": "new-wave-peptides",
     "vendorName": "New Wave Peptides",
     "destUrl": "https://newwavepeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T14:18:40.733Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ara-290"
   }
 ]
