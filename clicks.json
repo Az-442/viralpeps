@@ -20060,5 +20060,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kpv",
     "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
+  },
+  {
+    "ts": "2026-09-08T16:31:38.348Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "peg-mgf-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/pen",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
