@@ -8929,5 +8929,13 @@
     "vendorSlug": "eva-peptide",
     "vendorName": "Eva Peptide UK",
     "destUrl": "https://evapeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-08T02:42:19.584Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ascendpeptidesuk.com/products/tb-500/"
   }
 ]
