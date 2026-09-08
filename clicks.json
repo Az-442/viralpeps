@@ -14024,5 +14024,14 @@
     "vendorName": "Lab77 Peptides",
     "destUrl": "https://lab77peptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/lab77-peptides"
+  },
+  {
+    "ts": "2026-09-08T09:36:54.878Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tirzepatide-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
