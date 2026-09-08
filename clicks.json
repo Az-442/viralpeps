@@ -11963,5 +11963,12 @@
     "vendorSlug": "mypep-biotech",
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk"
+  },
+  {
+    "ts": "2026-09-08T07:22:40.093Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk"
   }
 ]
