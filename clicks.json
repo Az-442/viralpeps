@@ -16470,5 +16470,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "semax",
     "destUrl": "https://www.novapeptide.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-08T12:26:32.034Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
   }
 ]
