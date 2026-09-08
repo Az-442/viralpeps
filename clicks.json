@@ -8435,5 +8435,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bluewellpeptides.com/product/selank-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-08T01:49:04.545Z",
+    "type": "vendor-site",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "destUrl": "https://www.buyreta.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/buyreta"
   }
 ]
