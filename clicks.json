@@ -22061,5 +22061,13 @@
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/crown-peptides"
+  },
+  {
+    "ts": "2026-09-08T19:04:18.826Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://chiltonlabs.co.uk/product/bpc-157-10mg-vial/"
   }
 ]
