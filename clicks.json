@@ -11576,5 +11576,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "mgf",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg"
+  },
+  {
+    "ts": "2026-09-08T06:57:11.898Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymalin-10mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/compounds/thymalin"
   }
 ]
