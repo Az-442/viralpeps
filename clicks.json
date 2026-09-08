@@ -12458,5 +12458,14 @@
     "vendorSlug": "premio-peptides",
     "vendorName": "Premio Peptides",
     "destUrl": "https://premiopeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T07:57:19.647Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://chromapeptides.co.uk/product/ghk-cu/",
+    "refPage": "https://viralpeps.co.uk/compounds/ghk-cu"
   }
 ]
