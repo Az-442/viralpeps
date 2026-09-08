@@ -13939,5 +13939,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://midshirelabs.co.uk/products/nad/"
+  },
+  {
+    "ts": "2026-09-08T09:25:53.254Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pe-22-28-10mg-research-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
