@@ -14016,5 +14016,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.peptifyuk.com/product/bac-water-10ml/"
+  },
+  {
+    "ts": "2026-09-08T09:35:56.918Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
