@@ -23752,5 +23752,14 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-08T21:38:31.624Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ara-290"
   }
 ]
