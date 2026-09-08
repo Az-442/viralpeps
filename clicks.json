@@ -14787,5 +14787,13 @@
     "vendorName": "Stratford Peptides",
     "destUrl": "https://www.stratfordpeptides.com",
     "refPage": "https://viralpeps.co.uk/vendors/stratford-peptides"
+  },
+  {
+    "ts": "2026-09-08T10:44:01.928Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
   }
 ]
