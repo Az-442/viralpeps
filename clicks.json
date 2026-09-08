@@ -16486,5 +16486,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://premiopeptides.co.uk/compounds/semax"
+  },
+  {
+    "ts": "2026-09-08T12:26:34.509Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://cmsrlabs.co/product/selank-5mg/"
   }
 ]
