@@ -8077,5 +8077,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-08T00:44:16.328Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://peptideslabuk.com/product/snap-8/",
+    "refPage": "https://viralpeps.co.uk/compounds/snap-8"
   }
 ]
