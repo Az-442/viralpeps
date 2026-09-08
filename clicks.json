@@ -13913,5 +13913,14 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://astralabs.co.uk/product/ss31-50mg/"
+  },
+  {
+    "ts": "2026-09-08T09:23:24.605Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/vial",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-6"
   }
 ]
