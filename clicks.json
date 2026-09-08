@@ -20923,5 +20923,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-08T17:30:04.613Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "refPage": "https://viralpeps.co.uk/vendors/leolab"
   }
 ]
