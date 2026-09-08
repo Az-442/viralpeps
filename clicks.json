@@ -11719,5 +11719,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-08T07:10:46.670Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/cagrilintide.html"
   }
 ]
