@@ -15237,5 +15237,14 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://zentra-peptides.com/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-08T11:52:33.209Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/klow",
+    "refPage": "https://viralpeps.co.uk/compounds/klow-stack"
   }
 ]
