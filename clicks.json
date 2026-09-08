@@ -12854,5 +12854,13 @@
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:19:35.638Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
