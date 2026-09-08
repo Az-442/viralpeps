@@ -9819,5 +9819,14 @@
     "vendorSlug": "ol-research",
     "vendorName": "OL Research",
     "destUrl": "https://olresearch.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:42:34.646Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg",
+    "refPage": "https://viralpeps.co.uk/vendors/imperial-peptides"
   }
 ]
