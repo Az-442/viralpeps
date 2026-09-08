@@ -13812,5 +13812,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-08T09:07:26.501Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://tidelabs.co.uk/products/snap-8-argireline-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/snap-8"
   }
 ]
