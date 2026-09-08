@@ -14050,5 +14050,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "glow",
     "destUrl": "https://www.peptifyuk.com/product/glow-blend-70mg"
+  },
+  {
+    "ts": "2026-09-08T09:38:49.216Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.peptifyuk.com/product/kpv-10mg"
   }
 ]
