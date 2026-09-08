@@ -20211,5 +20211,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
+  },
+  {
+    "ts": "2026-09-08T16:41:04.392Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-cjc-nodac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
