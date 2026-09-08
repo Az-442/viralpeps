@@ -19570,5 +19570,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "nad-500mg",
     "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
+  },
+  {
+    "ts": "2026-09-08T15:45:12.771Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg",
+    "refPage": "https://viralpeps.co.uk/vendors/form-peptides"
   }
 ]
