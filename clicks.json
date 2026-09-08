@@ -9780,5 +9780,14 @@
     "vendorName": "PeptX",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://peptx.co.uk/product/cagrilintide"
+  },
+  {
+    "ts": "2026-09-08T03:40:41.355Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/epithalon"
   }
 ]
