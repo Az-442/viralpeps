@@ -20788,5 +20788,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
+  },
+  {
+    "ts": "2026-09-08T17:18:58.738Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-acetic-acid",
+    "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
