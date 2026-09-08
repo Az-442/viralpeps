@@ -9567,5 +9567,14 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-08T03:26:08.034Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/ghk-cu-50mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/kensington-labs"
   }
 ]
