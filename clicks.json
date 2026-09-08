@@ -14829,5 +14829,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-pt-141-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-08T10:50:34.911Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/"
   }
 ]
