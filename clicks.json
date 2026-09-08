@@ -15401,5 +15401,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "hexarelin",
     "destUrl": "https://midshirelabs.co.uk/products/hexarelin/"
+  },
+  {
+    "ts": "2026-09-08T12:02:29.461Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-2"
   }
 ]
