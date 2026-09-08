@@ -22086,5 +22086,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/"
+  },
+  {
+    "ts": "2026-09-08T19:06:27.074Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://cmsrlabs.co/product/semax-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/cmsr-labs"
   }
 ]
