@@ -17116,5 +17116,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
+  },
+  {
+    "ts": "2026-09-08T12:28:22.125Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://helixcore.co.uk/products/ss-31"
   }
 ]
