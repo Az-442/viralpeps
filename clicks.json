@@ -11309,5 +11309,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-08T06:29:39.382Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/pen",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
