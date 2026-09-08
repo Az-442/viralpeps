@@ -11875,5 +11875,12 @@
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-code"
+  },
+  {
+    "ts": "2026-09-08T07:18:36.021Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "destUrl": "https://thepeptidecode.co.uk"
   }
 ]
