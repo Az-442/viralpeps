@@ -12616,5 +12616,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "kpv",
     "destUrl": "https://helixcore.co.uk/products/kpv"
+  },
+  {
+    "ts": "2026-09-08T08:10:29.185Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://helixcore.co.uk/products/thymalin"
   }
 ]
