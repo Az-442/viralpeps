@@ -7747,5 +7747,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-08T00:02:16.758Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/kisspeptin-5mg"
   }
 ]
