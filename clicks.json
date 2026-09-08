@@ -9264,5 +9264,13 @@
     "vendorName": "Kensington Labs UK",
     "destUrl": "https://www.kensingtonlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/kensington-labs"
+  },
+  {
+    "ts": "2026-09-08T03:06:06.527Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://pgnalabs.co.uk/product/ss-31"
   }
 ]
