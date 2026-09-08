@@ -13200,5 +13200,13 @@
     "vendorSlug": "stratford-peptides",
     "vendorName": "Stratford Peptides",
     "destUrl": "https://www.stratfordpeptides.com"
+  },
+  {
+    "ts": "2026-09-08T08:33:06.488Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://pgnalabs.co.uk/product/semax"
   }
 ]
