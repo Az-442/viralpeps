@@ -22591,5 +22591,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "kpv",
     "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-08T19:49:26.364Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/"
   }
 ]
