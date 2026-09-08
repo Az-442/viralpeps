@@ -17244,5 +17244,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.apexbiolabs.co.uk/product/kisspeptin-10mg/"
+  },
+  {
+    "ts": "2026-09-08T12:28:45.060Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "dsip",
+    "destUrl": "https://helixcore.co.uk/products/dsip"
   }
 ]
