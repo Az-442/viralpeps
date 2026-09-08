@@ -19117,5 +19117,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "ghk-cu-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
+  },
+  {
+    "ts": "2026-09-08T15:06:03.576Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.stratfordpeptides.com/products/kpv",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
