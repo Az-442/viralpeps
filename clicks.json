@@ -9665,5 +9665,14 @@
     "vendorSlug": "nova-peptide",
     "vendorName": "Nova Peptide",
     "destUrl": "https://www.novapeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:32:26.715Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://kensingtonlabs.co.uk/product/ace031-1mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ace-031-1mg"
   }
 ]
