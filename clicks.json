@@ -17300,5 +17300,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.apexbiolabs.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-08T12:28:54.582Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://helixcore.co.uk/products/5-amino-1mq"
   }
 ]
