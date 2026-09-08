@@ -15018,5 +15018,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptides.com/catalog/retatrutide"
+  },
+  {
+    "ts": "2026-09-08T11:19:07.955Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://ukpeptides.com/catalog/pal-ghk",
+    "refPage": "https://viralpeps.co.uk/compounds/pal-ghk"
   }
 ]
