@@ -8184,5 +8184,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "bpc-157-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-08T01:05:37.068Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/"
   }
 ]
