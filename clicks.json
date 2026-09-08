@@ -8263,5 +8263,14 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-08T01:31:26.652Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://ukpeptides.com/catalog/melanotan-ii",
+    "refPage": "https://viralpeps.co.uk/compounds/mt2-10mg-imperial"
   }
 ]
