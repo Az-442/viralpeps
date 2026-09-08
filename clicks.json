@@ -13073,5 +13073,13 @@
     "vendorName": "RETA UK",
     "destUrl": "https://reta-uk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/reta-uk"
+  },
+  {
+    "ts": "2026-09-08T08:29:04.600Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
