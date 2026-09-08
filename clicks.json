@@ -21203,5 +21203,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidesuk.com/dsip/"
+  },
+  {
+    "ts": "2026-09-08T17:50:35.668Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-2"
   }
 ]
