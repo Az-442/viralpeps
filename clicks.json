@@ -16702,5 +16702,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "selank",
     "destUrl": "https://supplypeptides.co.uk/products/selank"
+  },
+  {
+    "ts": "2026-09-08T12:27:10.828Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/selank-5mg/"
   }
 ]
