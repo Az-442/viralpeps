@@ -13232,5 +13232,12 @@
     "vendorName": "SupplyPeptides",
     "destUrl": "https://supplypeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/supply-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:33:29.301Z",
+    "type": "vendor-site",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "destUrl": "https://supplypeptides.co.uk"
   }
 ]
