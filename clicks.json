@@ -16606,5 +16606,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://www.proformapeptides.co.uk/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-08T12:26:54.359Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://olresearch.co.uk/product/selank-5mg/"
   }
 ]
