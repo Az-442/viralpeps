@@ -22400,5 +22400,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptidesuk.com/ghrp6-10mg/"
+  },
+  {
+    "ts": "2026-09-08T19:36:22.775Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
   }
 ]
