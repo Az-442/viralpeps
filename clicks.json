@@ -18012,5 +18012,14 @@
     "vendorName": "UK Peptide Lab",
     "destUrl": "https://ukpeptidelab.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/uk-peptide-lab"
+  },
+  {
+    "ts": "2026-09-08T13:22:27.862Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/ss-31-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
