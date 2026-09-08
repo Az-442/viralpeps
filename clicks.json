@@ -15934,5 +15934,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-08T12:24:56.157Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://anglopeptides.com/product/tesa-10mg-research-peptide/"
   }
 ]
