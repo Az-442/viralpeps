@@ -13999,5 +13999,14 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://anglopeptides.com/product/slu-pp-332-1mg-x100/"
+  },
+  {
+    "ts": "2026-09-08T09:35:20.286Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mgf",
+    "destUrl": "https://tidelabs.co.uk/products/mgf",
+    "refPage": "https://viralpeps.co.uk/compounds/mgf"
   }
 ]
