@@ -21320,5 +21320,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-08T17:58:24.657Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bacteriostatic-water/vial",
+    "refPage": "https://viralpeps.co.uk/compounds/bacteriostatic-water"
   }
 ]
