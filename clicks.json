@@ -14066,5 +14066,14 @@
     "vendorName": "Lab77 Peptides",
     "destUrl": "https://lab77peptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/lab77-peptides"
+  },
+  {
+    "ts": "2026-09-08T09:40:02.989Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
