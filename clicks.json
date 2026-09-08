@@ -21986,5 +21986,14 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://zentra-peptides.com/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-08T18:56:59.778Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/dsip/",
+    "refPage": "https://viralpeps.co.uk/vendors/crown-peptides"
   }
 ]
