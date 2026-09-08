@@ -9559,5 +9559,13 @@
     "vendorSlug": "my-peptides",
     "vendorName": "My Peptides",
     "destUrl": "https://my-peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:24:47.344Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/"
   }
 ]
