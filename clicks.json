@@ -22162,5 +22162,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://xlpeptides.com/product/glow-peptide-blend/"
+  },
+  {
+    "ts": "2026-09-08T19:14:32.261Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://chromapeptides.co.uk/product/glutathione/",
+    "refPage": "https://viralpeps.co.uk/compounds/glutathione"
   }
 ]
