@@ -9432,5 +9432,13 @@
     "compoundSlug": "peg-mgf",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/peg-mgf-2mg/",
     "refPage": "https://viralpeps.co.uk/vendors/kensington-labs"
+  },
+  {
+    "ts": "2026-09-08T03:20:13.005Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/leolab"
   }
 ]
