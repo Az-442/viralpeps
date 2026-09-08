@@ -21396,5 +21396,14 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://www.flexpeptides.co.uk/products/selank-5mg"
+  },
+  {
+    "ts": "2026-09-08T18:03:08.963Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://reta-uk.com/products/selank",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
