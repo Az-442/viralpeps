@@ -17776,5 +17776,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://pgnalabs.co.uk/product/tb-500"
+  },
+  {
+    "ts": "2026-09-08T12:57:47.484Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pgnalabs.co.uk/product/motsc"
   }
 ]
