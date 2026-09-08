@@ -11501,5 +11501,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-08T06:49:20.497Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://evapeptide.co.uk/product/buy-ghk-cu-uk/",
+    "refPage": "https://viralpeps.co.uk/compounds/ghk-cu"
   }
 ]
