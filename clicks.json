@@ -16870,5 +16870,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "selank",
     "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/"
+  },
+  {
+    "ts": "2026-09-08T12:27:39.238Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptideslabuk.com/product/selank/"
   }
 ]
