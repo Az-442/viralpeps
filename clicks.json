@@ -17589,5 +17589,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptideslabuk.com/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-08T12:40:28.626Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/mazdutide"
   }
 ]
