@@ -9591,5 +9591,14 @@
     "vendorSlug": "mypep-biotech",
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:27:46.762Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/dsip-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/dsip"
   }
 ]
