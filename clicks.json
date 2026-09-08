@@ -22408,5 +22408,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-08T19:37:49.238Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://britpeptides.co.uk/product/semax/",
+    "refPage": "https://viralpeps.co.uk/vendors/brit-peptides"
   }
 ]
