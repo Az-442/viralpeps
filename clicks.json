@@ -22543,5 +22543,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "selank",
     "destUrl": "https://mypepbiotech.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-08T19:48:57.062Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "glow",
+    "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/"
   }
 ]
