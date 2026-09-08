@@ -9472,5 +9472,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://xlpeptides.com/product/cjc-1295-5mg/"
+  },
+  {
+    "ts": "2026-09-08T03:23:00.021Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/glutathione-1500mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/kensington-labs"
   }
 ]
