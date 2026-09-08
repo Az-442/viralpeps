@@ -10000,5 +10000,13 @@
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptide-lab-uk"
+  },
+  {
+    "ts": "2026-09-08T03:56:59.864Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://xlpeptides.com/product/wolverine-stack/"
   }
 ]
