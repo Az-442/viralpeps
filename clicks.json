@@ -8128,5 +8128,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/"
+  },
+  {
+    "ts": "2026-09-08T00:53:46.708Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://reta-uk.com/products/cjc-1295-no-dac"
   }
 ]
