@@ -12813,5 +12813,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/"
+  },
+  {
+    "ts": "2026-09-08T08:17:31.872Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
