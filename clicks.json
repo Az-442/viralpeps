@@ -16550,5 +16550,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://peptidesuk.com/selank/"
+  },
+  {
+    "ts": "2026-09-08T12:26:45.138Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "selank",
+    "destUrl": "https://helixcore.co.uk/products/selank"
   }
 ]
