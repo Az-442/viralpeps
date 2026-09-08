@@ -22894,5 +22894,13 @@
     "vendorSlug": "research-peptide-uk",
     "vendorName": "Research Peptides UK",
     "destUrl": "https://researchpeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-08T20:19:59.813Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://mypepbiotech.co.uk/product/bpc-157/"
   }
 ]
