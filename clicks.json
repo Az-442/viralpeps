@@ -22477,5 +22477,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/thymosin-beta-4-tb500-10mg/"
+  },
+  {
+    "ts": "2026-09-08T19:45:41.811Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "dihexa",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-dihexa-10mg-research-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
