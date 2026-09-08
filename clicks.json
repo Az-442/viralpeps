@@ -22808,5 +22808,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "epitalon",
     "destUrl": "https://mypepbiotech.co.uk/product/epitalon-20mg/"
+  },
+  {
+    "ts": "2026-09-08T20:10:51.547Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
