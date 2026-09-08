@@ -11752,5 +11752,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-08T07:13:10.337Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "hhb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-hhb-10ml-research-solutionfor-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
