@@ -15958,5 +15958,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T12:25:03.169Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://helixcore.co.uk/products/tesamorelin"
   }
 ]
