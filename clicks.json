@@ -15622,5 +15622,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptidesonline.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-08T12:24:00.227Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide"
   }
 ]
