@@ -24431,5 +24431,14 @@
     "vendorName": "My Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
+  },
+  {
+    "ts": "2026-09-08T23:19:02.378Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biopeptides-uk.com/product/thymosin-alpha-1-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/thymosin-alpha-1"
   }
 ]
