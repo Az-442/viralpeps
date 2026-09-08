@@ -15918,5 +15918,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-08T12:24:53.009Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/tesamorelin-20mg"
   }
 ]
