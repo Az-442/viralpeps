@@ -21354,5 +21354,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/thymosin-beta-4-tb500-10mg/"
+  },
+  {
+    "ts": "2026-09-08T18:00:08.390Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://nupex.co.uk/products/tb-500-peptide-uk-research-grade",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
