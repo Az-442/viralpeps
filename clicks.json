@@ -17052,5 +17052,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "bpc-157",
     "destUrl": "https://helixcore.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-08T12:28:11.226Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://helixcore.co.uk/products/tb-500"
   }
 ]
