@@ -17752,5 +17752,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://leolab.co.uk/peptides/nad/"
+  },
+  {
+    "ts": "2026-09-08T12:57:18.149Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "destUrl": "https://thepeptidecode.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-code"
   }
 ]
