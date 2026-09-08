@@ -20973,5 +20973,14 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-08T17:33:12.258Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://leolab.co.uk/peptides/ghk-cu/",
+    "refPage": "https://viralpeps.co.uk/vendors/leolab"
   }
 ]
