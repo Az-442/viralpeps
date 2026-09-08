@@ -16190,5 +16190,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://purepeptidesuk.com/product/semax-5mg/"
+  },
+  {
+    "ts": "2026-09-08T12:25:44.361Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
