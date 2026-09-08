@@ -12738,5 +12738,13 @@
     "vendorName": "Raccoon Peptides",
     "destUrl": "https://www.raccoonpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/raccoon-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:13:33.143Z",
+    "type": "vendor-site",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "destUrl": "https://rawpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/raw-peptides"
   }
 ]
