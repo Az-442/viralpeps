@@ -19050,5 +19050,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-08T14:59:32.327Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
