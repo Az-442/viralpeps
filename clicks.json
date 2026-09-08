@@ -10291,5 +10291,14 @@
     "vendorName": "RETA UK",
     "compoundSlug": "klow",
     "destUrl": "https://reta-uk.com/products/klow"
+  },
+  {
+    "ts": "2026-09-08T04:26:01.191Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://ukpeptides.com/catalog/hcg",
+    "refPage": "https://viralpeps.co.uk/compounds/hcg"
   }
 ]
