@@ -8358,5 +8358,14 @@
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides"
+  },
+  {
+    "ts": "2026-09-08T01:41:58.363Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-10mg-tb-10mg-20mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/21-bpc-157-10mg-tb-500-10mg.html",
+    "refPage": "https://viralpeps.co.uk/vendors/raccoon-peptides"
   }
 ]
