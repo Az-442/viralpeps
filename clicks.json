@@ -18004,5 +18004,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-08T13:20:50.462Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "destUrl": "https://ukpeptidelab.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/uk-peptide-lab"
   }
 ]
