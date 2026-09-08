@@ -21471,5 +21471,14 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://zentra-peptides.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-08T18:08:39.900Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/tb-500"
   }
 ]
