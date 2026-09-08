@@ -9447,5 +9447,13 @@
     "vendorSlug": "leolab",
     "vendorName": "LeoLab Peptides UK",
     "destUrl": "https://leolab.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:20:28.872Z",
+    "type": "vendor-site",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "destUrl": "https://midshirelabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/midshire-labs"
   }
 ]
