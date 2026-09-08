@@ -9399,5 +9399,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "glow",
     "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-08T03:18:03.664Z",
+    "type": "vendor-site",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "destUrl": "https://www.kensingtonlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/kensington-labs"
   }
 ]
