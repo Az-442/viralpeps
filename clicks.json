@@ -8516,5 +8516,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-08T01:54:46.460Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://peptideslabuk.com/product/peg-mgf/",
+    "refPage": "https://viralpeps.co.uk/vendors/peptides-lab-uk"
   }
 ]
