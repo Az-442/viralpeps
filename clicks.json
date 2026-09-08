@@ -24172,5 +24172,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "selank",
     "destUrl": "https://pgnalabs.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-08T22:27:19.954Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/"
   }
 ]
