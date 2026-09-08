@@ -10016,5 +10016,13 @@
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptide-lab-uk"
+  },
+  {
+    "ts": "2026-09-08T03:57:18.556Z",
+    "type": "vendor-site",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "destUrl": "https://pepnova.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
   }
 ]
