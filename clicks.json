@@ -14302,5 +14302,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "kpv",
     "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-08T10:02:08.418Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semaglutide-20mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semaglutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
