@@ -8484,5 +8484,13 @@
     "vendorName": "BuyReta",
     "destUrl": "https://www.buyreta.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/buyreta"
+  },
+  {
+    "ts": "2026-09-08T01:51:34.251Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://premiopeptides.co.uk/compounds/tesamorelin"
   }
 ]
