@@ -13193,5 +13193,12 @@
     "vendorName": "Stratford Peptides",
     "destUrl": "https://www.stratfordpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/stratford-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:33:01.088Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com"
   }
 ]
