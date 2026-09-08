@@ -17658,5 +17658,14 @@
     "vendorName": "RETA UK",
     "compoundSlug": "klow",
     "destUrl": "https://reta-uk.com/products/klow"
+  },
+  {
+    "ts": "2026-09-08T12:47:58.491Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/ghk-cu-50mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
