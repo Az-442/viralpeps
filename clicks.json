@@ -20830,5 +20830,14 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-08T17:22:11.951Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-6"
   }
 ]
