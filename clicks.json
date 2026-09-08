@@ -12518,5 +12518,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-2/"
+  },
+  {
+    "ts": "2026-09-08T08:00:28.754Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "dihexa",
+    "destUrl": "https://chromapeptides.co.uk/product/dihexa/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides"
   }
 ]
