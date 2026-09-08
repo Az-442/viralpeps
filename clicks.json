@@ -22800,5 +22800,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/"
+  },
+  {
+    "ts": "2026-09-08T20:09:02.819Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://mypepbiotech.co.uk/product/epitalon-20mg/"
   }
 ]
