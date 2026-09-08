@@ -10231,5 +10231,13 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
+  },
+  {
+    "ts": "2026-09-08T04:16:03.893Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/"
   }
 ]
