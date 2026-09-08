@@ -13375,5 +13375,13 @@
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-code"
+  },
+  {
+    "ts": "2026-09-08T08:36:37.464Z",
+    "type": "vendor-site",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "destUrl": "https://tidelabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
   }
 ]
