@@ -8695,5 +8695,14 @@
     "vendorSlug": "chilton-labs",
     "vendorName": "Chilton Labs",
     "destUrl": "https://chiltonlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T02:19:08.615Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://my-peptides.co.uk/products/bpc-157",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
