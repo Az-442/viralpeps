@@ -14058,5 +14058,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "kpv",
     "destUrl": "https://www.peptifyuk.com/product/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-08T09:39:34.965Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
