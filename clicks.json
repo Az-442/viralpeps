@@ -15305,5 +15305,12 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-08T11:59:36.531Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk"
   }
 ]
