@@ -18201,5 +18201,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500"
+  },
+  {
+    "ts": "2026-09-08T13:31:53.096Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidesx.uk/product/tesamorelin/",
+    "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
   }
 ]
