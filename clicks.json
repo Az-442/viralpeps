@@ -16598,5 +16598,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bluewellpeptides.com/product/selank-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-08T12:26:53.138Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.proformapeptides.co.uk/product/selank-10mg/"
   }
 ]
