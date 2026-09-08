@@ -14885,5 +14885,12 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biotideuk.com/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-08T10:56:07.888Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com"
   }
 ]
