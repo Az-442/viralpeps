@@ -21824,5 +21824,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-08T18:39:42.688Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-kisspeptin-10-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
