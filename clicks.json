@@ -9280,5 +9280,14 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html"
+  },
+  {
+    "ts": "2026-09-08T03:07:49.072Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://viralpeps.co.uk/vendors/lab77-peptides"
   }
 ]
