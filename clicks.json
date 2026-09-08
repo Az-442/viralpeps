@@ -13383,5 +13383,13 @@
     "vendorName": "Tide Labs",
     "destUrl": "https://tidelabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
+  },
+  {
+    "ts": "2026-09-08T08:36:41.160Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://helixcore.co.uk/products/tesamorelin"
   }
 ]
