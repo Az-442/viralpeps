@@ -13040,5 +13040,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "nad-plus",
     "destUrl": "https://helixcore.co.uk/products/nad-plus"
+  },
+  {
+    "ts": "2026-09-08T08:27:44.739Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "glow",
+    "destUrl": "https://helixcore.co.uk/products/glow-research-blend"
   }
 ]
