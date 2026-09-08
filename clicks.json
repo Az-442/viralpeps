@@ -16350,5 +16350,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "semax",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
+  },
+  {
+    "ts": "2026-09-08T12:26:11.077Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://polygonpeptides.co.uk/product/semax-10mg/"
   }
 ]
