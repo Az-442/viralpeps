@@ -9383,5 +9383,13 @@
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/imperial-peptides"
+  },
+  {
+    "ts": "2026-09-08T03:17:28.782Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ipamore10mg-ghrp"
   }
 ]
