@@ -15942,5 +15942,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://anglopeptides.com/product/tesa-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-08T12:24:57.588Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.novapeptide.co.uk/product/tesamorelin/"
   }
 ]
