@@ -13312,5 +13312,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://helixcore.co.uk/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-08T08:35:50.188Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "destUrl": "https://thepeptidecompany.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
