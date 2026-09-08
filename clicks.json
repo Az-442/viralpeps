@@ -19736,5 +19736,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
+  },
+  {
+    "ts": "2026-09-08T16:02:02.543Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://my-peptides.co.uk/products/mots-c-32"
   }
 ]
