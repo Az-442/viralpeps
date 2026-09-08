@@ -14845,5 +14845,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://leolab.co.uk/peptides/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-08T10:52:30.288Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
