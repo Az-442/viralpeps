@@ -10893,5 +10893,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bluewellpeptides.com/product/pt-141-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-08T05:41:39.590Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.novapeptide.co.uk/product/semax/",
+    "refPage": "https://viralpeps.co.uk/compounds/semax"
   }
 ]
