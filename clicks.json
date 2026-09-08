@@ -9844,5 +9844,14 @@
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/imperial-peptides"
+  },
+  {
+    "ts": "2026-09-08T03:45:06.018Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/retatrutide.html",
+    "refPage": "https://viralpeps.co.uk/compounds/retatrutide"
   }
 ]
