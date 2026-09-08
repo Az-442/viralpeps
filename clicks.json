@@ -19646,5 +19646,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-08T15:51:29.042Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial",
+    "refPage": "https://viralpeps.co.uk/vendors/express-peptides"
   }
 ]
