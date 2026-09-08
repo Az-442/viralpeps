@@ -15196,5 +15196,13 @@
     "vendorSlug": "form-peptides",
     "vendorName": "FORM Peptides",
     "destUrl": "https://formpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T11:40:57.868Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/"
   }
 ]
