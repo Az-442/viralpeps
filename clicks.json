@@ -9682,5 +9682,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "selank",
     "destUrl": "https://midshirelabs.co.uk/products/selank/"
+  },
+  {
+    "ts": "2026-09-08T03:34:01.119Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/tb-500"
   }
 ]
