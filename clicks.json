@@ -23718,5 +23718,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "hcg",
     "destUrl": "https://peptideslabuk.com/product/hcg/"
+  },
+  {
+    "ts": "2026-09-08T21:35:42.745Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
