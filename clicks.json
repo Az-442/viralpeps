@@ -16110,5 +16110,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "semax",
     "destUrl": "https://thepeptidecompany.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-08T12:25:30.444Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://cmsrlabs.co/product/semax-5mg/"
   }
 ]
