@@ -24423,5 +24423,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "glow",
     "destUrl": "https://www.apexbiolabs.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-08T23:16:32.155Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
   }
 ]
