@@ -20599,5 +20599,14 @@
     "vendorSlug": "lab77-peptides",
     "vendorName": "Lab77 Peptides",
     "destUrl": "https://lab77peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T17:06:25.479Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptideslabuk.com/product/follistatin/",
+    "refPage": "https://viralpeps.co.uk/compounds/follistatin-344"
   }
 ]
