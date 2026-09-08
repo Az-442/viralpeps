@@ -14933,5 +14933,14 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
+  },
+  {
+    "ts": "2026-09-08T11:04:58.973Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin",
+    "refPage": "https://viralpeps.co.uk/compounds/kisspeptin-10"
   }
 ]
