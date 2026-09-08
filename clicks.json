@@ -9836,5 +9836,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
+  },
+  {
+    "ts": "2026-09-08T03:43:32.377Z",
+    "type": "vendor-site",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "destUrl": "https://www.imperialpeptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/imperial-peptides"
   }
 ]
