@@ -20052,5 +20052,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "selank",
     "destUrl": "https://ukpeptidelab.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-08T16:31:30.015Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "kpv",
+    "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
   }
 ]
