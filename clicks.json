@@ -20540,5 +20540,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "vip-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
+  },
+  {
+    "ts": "2026-09-08T17:00:15.341Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
