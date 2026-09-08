@@ -13335,5 +13335,13 @@
     "vendorSlug": "supply-peptides",
     "vendorName": "SupplyPeptides",
     "destUrl": "https://supplypeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T08:36:04.960Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://helixcore.co.uk/products/pt-141"
   }
 ]
