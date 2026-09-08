@@ -10449,5 +10449,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bluewellpeptides.com/product/aicar-50mg-peptide/"
+  },
+  {
+    "ts": "2026-09-08T04:50:29.323Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax"
   }
 ]
