@@ -14260,5 +14260,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-08T09:58:46.823Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/epithalon-epitalon-10mg/"
   }
 ]
