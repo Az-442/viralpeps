@@ -19587,5 +19587,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "aicar-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/aicar/"
+  },
+  {
+    "ts": "2026-09-08T15:46:45.377Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg",
+    "refPage": "https://viralpeps.co.uk/vendors/flex-peptides"
   }
 ]
