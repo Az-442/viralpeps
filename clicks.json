@@ -12043,5 +12043,13 @@
     "vendorName": "FORM Peptides",
     "destUrl": "https://formpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/form-peptides"
+  },
+  {
+    "ts": "2026-09-08T07:27:16.063Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
   }
 ]
