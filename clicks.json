@@ -15410,5 +15410,12 @@
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
     "refPage": "https://viralpeps.co.uk/compounds/ghrp-2"
+  },
+  {
+    "ts": "2026-09-08T12:03:10.409Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
