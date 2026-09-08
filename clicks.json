@@ -17164,5 +17164,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.apexbiolabs.co.uk/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-08T12:28:30.151Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://helixcore.co.uk/products/thymosin-alpha-1"
   }
 ]
