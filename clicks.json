@@ -12027,5 +12027,13 @@
     "vendorSlug": "brit-peptides",
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-08T07:26:49.605Z",
+    "type": "vendor-site",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "destUrl": "https://pepnova.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
   }
 ]
