@@ -10154,5 +10154,13 @@
     "vendorSlug": "peptidesx",
     "vendorName": "PeptidesX",
     "destUrl": "https://www.peptidesx.uk"
+  },
+  {
+    "ts": "2026-09-08T04:04:58.401Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "destUrl": "https://www.peptifyuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptify-uk"
   }
 ]
