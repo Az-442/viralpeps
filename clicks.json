@@ -12886,5 +12886,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.stratfordpeptides.com/products/kpv"
+  },
+  {
+    "ts": "2026-09-08T08:21:00.819Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/"
   }
 ]
