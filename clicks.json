@@ -13502,5 +13502,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-08T08:40:48.179Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://helixcore.co.uk/products/ghrp-6"
   }
 ]
