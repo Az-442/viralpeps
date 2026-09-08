@@ -8492,5 +8492,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://premiopeptides.co.uk/compounds/tesamorelin"
+  },
+  {
+    "ts": "2026-09-08T01:52:54.785Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "storage-container-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
   }
 ]
