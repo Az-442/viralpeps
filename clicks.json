@@ -16478,5 +16478,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
+  },
+  {
+    "ts": "2026-09-08T12:26:33.252Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://premiopeptides.co.uk/compounds/semax"
   }
 ]
