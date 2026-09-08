@@ -9716,5 +9716,12 @@
     "vendorName": "Nupex",
     "destUrl": "https://nupex.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/nupex"
+  },
+  {
+    "ts": "2026-09-08T03:35:43.325Z",
+    "type": "vendor-site",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "destUrl": "https://nupex.co.uk"
   }
 ]
