@@ -21102,5 +21102,14 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://anglopeptides.com/product/ghk-cu-100mg-new-batch-106-research-peptide/"
+  },
+  {
+    "ts": "2026-09-08T17:42:40.943Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg",
+    "refPage": "https://viralpeps.co.uk/vendors/form-peptides"
   }
 ]
