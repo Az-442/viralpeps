@@ -13682,5 +13682,14 @@
     "vendorName": "Zentra Peptides UK",
     "destUrl": "https://zentra-peptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/zentra-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:49:54.602Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biotideuk.com/products/mots-c-10-mg",
+    "refPage": "https://viralpeps.co.uk/vendors/biotide-uk"
   }
 ]
