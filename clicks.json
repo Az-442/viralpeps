@@ -15451,5 +15451,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://ukpeptidelab.co.uk/product/kisspeptin-10"
+  },
+  {
+    "ts": "2026-09-08T12:06:55.122Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://xlpeptides.com/product/nad-500mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
