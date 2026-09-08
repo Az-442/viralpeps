@@ -21919,5 +21919,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidesuk.com/dsip/"
+  },
+  {
+    "ts": "2026-09-08T18:50:45.892Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ipamorelin",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
