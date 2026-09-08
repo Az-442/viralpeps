@@ -12313,5 +12313,13 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
+  },
+  {
+    "ts": "2026-09-08T07:50:11.750Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
   }
 ]
