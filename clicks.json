@@ -13716,5 +13716,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
+  },
+  {
+    "ts": "2026-09-08T08:53:05.146Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg",
+    "refPage": "https://viralpeps.co.uk/vendors/biotide-uk"
   }
 ]
