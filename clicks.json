@@ -17843,5 +17843,13 @@
     "vendorName": "OL Research",
     "compoundSlug": "bpc-157",
     "destUrl": "https://olresearch.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-08T13:04:53.751Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
   }
 ]
