@@ -13649,5 +13649,13 @@
     "vendorName": "XL Peptides",
     "destUrl": "https://xlpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/xl-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:48:12.337Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://helixcore.co.uk/products/5-amino-1mq"
   }
 ]
