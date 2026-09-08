@@ -10526,5 +10526,14 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://astralabs.co.uk/product/cagrilintide-5mg/"
+  },
+  {
+    "ts": "2026-09-08T05:02:19.840Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/",
+    "refPage": "https://viralpeps.co.uk/compounds/igf1-lr3-vial-express"
   }
 ]
