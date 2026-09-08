@@ -16438,5 +16438,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.peptifyuk.com/product/semax-10mg"
+  },
+  {
+    "ts": "2026-09-08T12:26:26.210Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/semax-and-selank-10mg-bundle"
   }
 ]
