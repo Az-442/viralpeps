@@ -16086,5 +16086,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://chromapeptides.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-08T12:25:25.604Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
   }
 ]
