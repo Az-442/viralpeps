@@ -17851,5 +17851,14 @@
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
+  },
+  {
+    "ts": "2026-09-08T13:05:11.185Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://premiopeptides.co.uk/compounds/semax",
+    "refPage": "https://viralpeps.co.uk/compounds/semax"
   }
 ]
