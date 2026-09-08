@@ -20077,5 +20077,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://ukpeptidelab.co.uk/product/cagrilintide"
+  },
+  {
+    "ts": "2026-09-08T16:32:50.257Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
   }
 ]
