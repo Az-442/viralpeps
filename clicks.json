@@ -14746,5 +14746,14 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.stratfordpeptides.com/products/bcp-157"
+  },
+  {
+    "ts": "2026-09-08T10:41:26.068Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.stratfordpeptides.com/products/snap-8",
+    "refPage": "https://viralpeps.co.uk/compounds/snap-8"
   }
 ]
