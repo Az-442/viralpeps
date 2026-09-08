@@ -18078,5 +18078,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "ara-290",
     "destUrl": "https://midshirelabs.co.uk/products/ara-290/"
+  },
+  {
+    "ts": "2026-09-08T13:27:05.968Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-BACT-3",
+    "refPage": "https://viralpeps.co.uk/compounds/bacteriostatic-water"
   }
 ]
