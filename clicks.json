@@ -20665,5 +20665,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://precision-peptides.shop/product/glp-3-reta-10mg/"
+  },
+  {
+    "ts": "2026-09-08T17:09:36.907Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
   }
 ]
