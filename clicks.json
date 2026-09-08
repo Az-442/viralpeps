@@ -11996,5 +11996,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-08T07:26:41.204Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-pharma"
   }
 ]
