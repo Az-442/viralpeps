@@ -10688,5 +10688,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.apexbiolabs.co.uk/product/mots-c/"
+  },
+  {
+    "ts": "2026-09-08T05:19:36.771Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.peptifyuk.com/product/tb-500-5mg",
+    "refPage": "https://viralpeps.co.uk/vendors/peptify-uk"
   }
 ]
