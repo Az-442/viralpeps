@@ -13000,5 +13000,13 @@
     "vendorName": "RETA UK",
     "destUrl": "https://reta-uk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/reta-uk"
+  },
+  {
+    "ts": "2026-09-08T08:26:34.023Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax"
   }
 ]
