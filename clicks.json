@@ -22518,5 +22518,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "bpc-157",
     "destUrl": "https://mypepbiotech.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-08T19:48:52.430Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/",
+    "refPage": "https://viralpeps.co.uk/vendors/bluewell-peptides"
   }
 ]
