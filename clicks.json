@@ -13359,5 +13359,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "ara-290",
     "destUrl": "https://helixcore.co.uk/products/ara-290"
+  },
+  {
+    "ts": "2026-09-08T08:36:12.611Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://helixcore.co.uk/products/tb-500"
   }
 ]
