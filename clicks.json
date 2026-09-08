@@ -7799,5 +7799,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-08T00:09:28.498Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://www.peptidesx.uk/product/pt-141/",
+    "refPage": "https://viralpeps.co.uk/compounds/pt-141"
   }
 ]
