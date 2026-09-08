@@ -15417,5 +15417,14 @@
     "vendorSlug": "astra-labs",
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T12:03:47.285Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac-2mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-with-dac-2mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
