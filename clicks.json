@@ -10841,5 +10841,14 @@
     "vendorSlug": "alphamino",
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk"
+  },
+  {
+    "ts": "2026-09-08T05:35:23.227Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/vendors/peptide-lab-uk"
   }
 ]
