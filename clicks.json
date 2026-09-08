@@ -16646,5 +16646,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "selank",
     "destUrl": "https://mypepbiotech.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-08T12:27:01.327Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
