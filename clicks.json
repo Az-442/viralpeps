@@ -22239,5 +22239,14 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-08T19:23:42.654Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/",
+    "refPage": "https://viralpeps.co.uk/vendors/chilton-labs"
   }
 ]
