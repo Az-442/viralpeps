@@ -14361,5 +14361,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "kpv",
     "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-08T10:11:56.761Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg",
+    "refPage": "https://viralpeps.co.uk/compounds/mgf"
   }
 ]
