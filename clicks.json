@@ -11850,5 +11850,13 @@
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/applied-peptides"
+  },
+  {
+    "ts": "2026-09-08T07:17:48.795Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
   }
 ]
