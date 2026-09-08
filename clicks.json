@@ -14584,5 +14584,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "hcg",
     "destUrl": "https://peptideslabuk.com/product/hcg/"
+  },
+  {
+    "ts": "2026-09-08T10:32:08.260Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "5-amino-1mq-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/5-amino-1mq-10mg"
   }
 ]
