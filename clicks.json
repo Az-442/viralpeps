@@ -13032,5 +13032,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "selank",
     "destUrl": "https://helixcore.co.uk/products/selank"
+  },
+  {
+    "ts": "2026-09-08T08:27:31.799Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://helixcore.co.uk/products/nad-plus"
   }
 ]
