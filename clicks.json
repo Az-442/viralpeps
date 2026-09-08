@@ -22011,5 +22011,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mq-nad-c-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen"
+  },
+  {
+    "ts": "2026-09-08T18:58:33.865Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/cjc-1295-with-dac/",
+    "refPage": "https://viralpeps.co.uk/vendors/crown-peptides"
   }
 ]
