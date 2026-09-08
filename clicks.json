@@ -8247,5 +8247,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-08T01:23:34.757Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://octagonpeptides.co.uk/product/cjc-with-dac-5-mg/"
   }
 ]
