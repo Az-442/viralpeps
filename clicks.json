@@ -15646,5 +15646,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-08T12:24:04.061Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
   }
 ]
