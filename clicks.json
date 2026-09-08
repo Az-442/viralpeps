@@ -20998,5 +20998,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31-50mg",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-50mg/"
+  },
+  {
+    "ts": "2026-09-08T17:34:57.140Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://momentumpeptides.com/product/tirzepatide/",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
