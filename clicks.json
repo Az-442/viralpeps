@@ -17996,5 +17996,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "klow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/klow"
+  },
+  {
+    "ts": "2026-09-08T13:20:18.176Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glow"
   }
 ]
