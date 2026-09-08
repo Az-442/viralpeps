@@ -17268,5 +17268,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "dsip",
     "destUrl": "https://www.apexbiolabs.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-08T12:28:49.177Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://helixcore.co.uk/products/nad-plus"
   }
 ]
