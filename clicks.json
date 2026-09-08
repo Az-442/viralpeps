@@ -14252,5 +14252,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://xlpeptides.com/product/hgh-frag-176-191-5mg/"
+  },
+  {
+    "ts": "2026-09-08T09:57:40.973Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
   }
 ]
