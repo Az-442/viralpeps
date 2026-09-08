@@ -17801,5 +17801,14 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-08T13:00:40.400Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "refPage": "https://viralpeps.co.uk/compounds/l-carnitine"
   }
 ]
