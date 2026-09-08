@@ -22503,5 +22503,12 @@
     "vendorName": "Alphamino",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://alphamino.co.uk/shop/bac-water/"
+  },
+  {
+    "ts": "2026-09-08T19:48:44.538Z",
+    "type": "vendor-site",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "destUrl": "https://mypepbiotech.co.uk"
   }
 ]
