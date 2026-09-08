@@ -12585,5 +12585,12 @@
     "vendorName": "Proforma Peptides",
     "destUrl": "https://www.proformapeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides"
+  },
+  {
+    "ts": "2026-09-08T08:08:00.815Z",
+    "type": "vendor-site",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "destUrl": "https://www.proformapeptides.co.uk"
   }
 ]
