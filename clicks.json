@@ -10055,5 +10055,13 @@
     "vendorSlug": "peptide-lab-uk",
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:59:57.158Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptides-lab-uk"
   }
 ]
