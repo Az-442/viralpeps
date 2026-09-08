@@ -19820,5 +19820,13 @@
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptide-lab-uk"
+  },
+  {
+    "ts": "2026-09-08T16:10:39.974Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/"
   }
 ]
