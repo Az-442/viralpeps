@@ -9455,5 +9455,14 @@
     "vendorName": "Midshire Labs",
     "destUrl": "https://midshirelabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/midshire-labs"
+  },
+  {
+    "ts": "2026-09-08T03:21:24.572Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/nad-100mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/kensington-labs"
   }
 ]
