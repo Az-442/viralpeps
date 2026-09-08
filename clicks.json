@@ -13641,5 +13641,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://helixcore.co.uk/products/cjc-1295-ipamorelin-blend"
+  },
+  {
+    "ts": "2026-09-08T08:48:09.554Z",
+    "type": "vendor-site",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "destUrl": "https://xlpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/xl-peptides"
   }
 ]
