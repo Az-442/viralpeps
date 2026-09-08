@@ -9804,5 +9804,13 @@
     "vendorSlug": "pgna-labs",
     "vendorName": "PGNA Labs",
     "destUrl": "https://pgnalabs.co.uk"
+  },
+  {
+    "ts": "2026-09-08T03:42:23.501Z",
+    "type": "vendor-site",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "destUrl": "https://olresearch.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ol-research"
   }
 ]
