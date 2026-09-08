@@ -10952,5 +10952,13 @@
     "vendorSlug": "leolab",
     "vendorName": "LeoLab Peptides UK",
     "destUrl": "https://leolab.co.uk"
+  },
+  {
+    "ts": "2026-09-08T05:47:37.139Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/retatrutide.html"
   }
 ]
