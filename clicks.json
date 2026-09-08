@@ -23608,5 +23608,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
+  },
+  {
+    "ts": "2026-09-08T21:23:57.539Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidesuk.com/pt-141/"
   }
 ]
