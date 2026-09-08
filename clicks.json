@@ -19536,5 +19536,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-08T15:42:13.509Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/cagrilintide.html",
+    "refPage": "https://viralpeps.co.uk/compounds/cagrilintide"
   }
 ]
