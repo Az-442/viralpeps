@@ -17196,5 +17196,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "kpv",
     "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-08T12:28:35.394Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://helixcore.co.uk/products/ara-290"
   }
 ]
