@@ -5089,5 +5089,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-09T21:29:20.888Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "peg-mgf-2mg",
+    "destUrl": "https://researchpeptide.co.uk/product/peg-mgf-2mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
