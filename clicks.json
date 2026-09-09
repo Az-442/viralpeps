@@ -30657,5 +30657,14 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.apex-pharma.co.uk/product/bpc-10mg/"
+  },
+  {
+    "ts": "2026-09-09T12:28:35.323Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/igf-1-lr3-1mg"
   }
 ]
