@@ -25372,5 +25372,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-09T01:56:17.126Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "myostatin-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/myostatin-1mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/myostatin-1mg"
   }
 ]
