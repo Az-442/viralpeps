@@ -26012,5 +26012,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
+  },
+  {
+    "ts": "2026-09-09T03:36:42.807Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghk-cu-100mg-copper-tripeptide-1"
   }
 ]
