@@ -25489,5 +25489,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://polygonpeptides.co.uk/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-09T02:17:11.330Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/astra-labs"
   }
 ]
