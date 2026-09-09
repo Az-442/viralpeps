@@ -31700,5 +31700,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "epitalon",
     "destUrl": "https://mypepbiotech.co.uk/product/epitalon-20mg/"
+  },
+  {
+    "ts": "2026-09-09T13:16:22.512Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymalin-10mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/thymalin-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/thymalin-10mg-research-peptides-uk"
   }
 ]
