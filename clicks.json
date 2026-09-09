@@ -26235,5 +26235,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "hexarelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin"
+  },
+  {
+    "ts": "2026-09-09T04:01:37.457Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/aod-9604-5mg"
   }
 ]
