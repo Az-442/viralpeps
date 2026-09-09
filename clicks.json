@@ -621,5 +621,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-09T15:33:46.162Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
   }
 ]
