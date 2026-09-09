@@ -1016,5 +1016,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://chiltonlabs.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-09T16:05:07.379Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://purepeptidesuk.com/product/modified-grf-1-29-2mg/",
+    "refPage": "https://viralpeps.co.uk/go/pure-peptides-uk/cjc-1295"
   }
 ]
