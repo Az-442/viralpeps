@@ -6675,5 +6675,13 @@
     "vendorSlug": "grey-matter-peptides",
     "vendorName": "Grey Matter Peptides",
     "destUrl": "https://greymatterpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-09T23:56:58.984Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
   }
 ]
