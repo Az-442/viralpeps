@@ -27035,5 +27035,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "nad-1000-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/nad-1000-nasal-spray"
+  },
+  {
+    "ts": "2026-09-09T05:31:28.823Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ascendpeptidesuk.com/products/cjc-1295-with-dac/"
   }
 ]
