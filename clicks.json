@@ -1716,5 +1716,13 @@
     "vendorName": "Nova Peptide",
     "destUrl": "https://www.novapeptide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/nova-peptide"
+  },
+  {
+    "ts": "2026-09-09T17:02:04.241Z",
+    "type": "vendor-site",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "destUrl": "https://pepnova.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
   }
 ]
