@@ -30762,5 +30762,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "nad-plus",
     "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-09T12:35:01.420Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://mypepbiotech.co.uk/product/ghk-cu/"
   }
 ]
