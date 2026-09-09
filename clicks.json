@@ -6635,5 +6635,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-09T23:53:38.597Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
   }
 ]
