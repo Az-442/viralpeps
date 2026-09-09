@@ -5668,5 +5668,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "nad-500mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-09T22:21:40.419Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides"
   }
 ]
