@@ -25190,5 +25190,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptideslabuk.com/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T01:28:05.855Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://helixcore.co.uk/products/kisspeptin-10"
   }
 ]
