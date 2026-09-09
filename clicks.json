@@ -3159,5 +3159,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-tesa-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-09T19:37:04.176Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://tidelabs.co.uk/products/pancragen-research-peptide"
   }
 ]
