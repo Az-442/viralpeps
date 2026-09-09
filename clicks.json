@@ -27702,5 +27702,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin"
+  },
+  {
+    "ts": "2026-09-09T06:43:06.027Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://anglopeptides.com/product/thymosin-alpha-1-research-peptide-batch-101/",
+    "refPage": "https://viralpeps.co.uk/compounds/thymosin-alpha-1"
   }
 ]
