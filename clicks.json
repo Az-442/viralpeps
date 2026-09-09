@@ -29608,5 +29608,12 @@
     "vendorSlug": "spx-labs",
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-09T10:32:02.145Z",
+    "type": "vendor-site",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "destUrl": "https://my-peptides.co.uk"
   }
 ]
