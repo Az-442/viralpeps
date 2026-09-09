@@ -5130,5 +5130,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
+  },
+  {
+    "ts": "2026-09-09T21:31:46.636Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://xlpeptides.com/product/hgh-frag-176-191-5mg/"
   }
 ]
