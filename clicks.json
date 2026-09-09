@@ -27108,5 +27108,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "glow-combo-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/glow-research-peptide/"
+  },
+  {
+    "ts": "2026-09-09T05:37:37.813Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-pharma"
   }
 ]
