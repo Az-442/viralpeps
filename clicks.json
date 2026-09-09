@@ -5861,5 +5861,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://peptideslabuk.com/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-09T22:35:27.314Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax"
   }
 ]
