@@ -25879,5 +25879,13 @@
     "vendorSlug": "prime-peptides",
     "vendorName": "Prime Peptides",
     "destUrl": "https://www.prime-peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-09T03:14:45.180Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
   }
 ]
