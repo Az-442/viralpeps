@@ -2918,5 +2918,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "l-glutathione-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
+  },
+  {
+    "ts": "2026-09-09T19:23:56.164Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk"
   }
 ]
