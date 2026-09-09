@@ -1122,5 +1122,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "follistatin-344-1mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/follistatin-344-1mg/"
+  },
+  {
+    "ts": "2026-09-09T16:13:18.335Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com"
   }
 ]
