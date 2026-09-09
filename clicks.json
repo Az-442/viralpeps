@@ -516,5 +516,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "glow",
     "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-09T15:26:21.700Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
   }
 ]
