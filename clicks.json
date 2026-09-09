@@ -26751,5 +26751,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
+  },
+  {
+    "ts": "2026-09-09T05:08:00.989Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/"
   }
 ]
