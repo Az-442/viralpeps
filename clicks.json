@@ -4473,5 +4473,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "thymosin-alpha1-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/pen"
+  },
+  {
+    "ts": "2026-09-09T20:54:59.106Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "refPage": "https://viralpeps.co.uk/vendors/reta-uk"
   }
 ]
