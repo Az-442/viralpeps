@@ -28528,5 +28528,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-09T08:29:07.001Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research"
   }
 ]
