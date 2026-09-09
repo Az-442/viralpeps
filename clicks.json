@@ -4032,5 +4032,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg"
+  },
+  {
+    "ts": "2026-09-09T20:30:27.310Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/"
   }
 ]
