@@ -27181,5 +27181,14 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/bpc-157-tb-500-mix"
+  },
+  {
+    "ts": "2026-09-09T05:46:55.307Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/glutathione/",
+    "refPage": "https://viralpeps.co.uk/vendors/apex-biolabs"
   }
 ]
