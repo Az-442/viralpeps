@@ -943,5 +943,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ace-031-1mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ace-031-1mg/"
+  },
+  {
+    "ts": "2026-09-09T15:58:43.245Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "glutathione-1500mg",
+    "destUrl": "https://purepeptidesuk.com/product/glutathione-1500mg/"
   }
 ]
