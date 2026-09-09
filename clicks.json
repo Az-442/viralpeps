@@ -1732,5 +1732,13 @@
     "vendorName": "Peptides UK",
     "destUrl": "https://peptidesuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptides-uk"
+  },
+  {
+    "ts": "2026-09-09T17:02:25.513Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
   }
 ]
