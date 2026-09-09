@@ -6321,5 +6321,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
+  },
+  {
+    "ts": "2026-09-09T23:15:48.951Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/prem-mots-c-10mg/"
   }
 ]
