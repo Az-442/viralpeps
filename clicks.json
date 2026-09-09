@@ -29973,5 +29973,14 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://aegispeptidesuk.co.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-09T11:01:33.207Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "refPage": "https://viralpeps.co.uk/go/proforma-peptides/cjc-1295"
   }
 ]
