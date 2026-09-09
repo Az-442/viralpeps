@@ -3524,5 +3524,12 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://purepeptidesuk.com/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-09T20:00:02.617Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com"
   }
 ]
