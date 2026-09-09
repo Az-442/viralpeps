@@ -4747,5 +4747,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-mots-c-10mg",
     "destUrl": "https://purepeptidesuk.com/product/prem-mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-09T21:08:32.896Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-2"
   }
 ]
