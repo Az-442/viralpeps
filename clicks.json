@@ -2973,5 +2973,13 @@
     "vendorSlug": "prime-peptides",
     "vendorName": "Prime Peptides",
     "destUrl": "https://www.prime-peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-09T19:26:24.032Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
   }
 ]
