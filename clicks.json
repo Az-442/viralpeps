@@ -32479,5 +32479,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-09T13:58:25.358Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/"
   }
 ]
