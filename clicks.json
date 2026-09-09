@@ -5805,5 +5805,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptideslabuk.com/product/ghrp-6-acetate/"
+  },
+  {
+    "ts": "2026-09-09T22:31:39.697Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/85-thymulin-10mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/thymalin"
   }
 ]
