@@ -1572,5 +1572,13 @@
     "vendorName": "BioPlex Peptides",
     "destUrl": "https://bioplexpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/bioplex-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:00:39.455Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biotide-uk"
   }
 ]
