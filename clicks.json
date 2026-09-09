@@ -6537,5 +6537,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tb-500-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tb-500/vial"
+  },
+  {
+    "ts": "2026-09-09T23:40:34.595Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
   }
 ]
