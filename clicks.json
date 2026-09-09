@@ -2678,5 +2678,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-09T19:06:30.570Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
