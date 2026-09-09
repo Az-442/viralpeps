@@ -32455,5 +32455,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/"
+  },
+  {
+    "ts": "2026-09-09T13:56:59.231Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/tesamorelin.html"
   }
 ]
