@@ -5106,5 +5106,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-09T21:30:17.044Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/epithalon"
   }
 ]
