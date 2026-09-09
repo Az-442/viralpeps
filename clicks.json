@@ -5504,5 +5504,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-09T22:03:57.785Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "hcg-human-chorionic-gonadotropin",
+    "destUrl": "https://researchpeptide.co.uk/product/hcg-human-chorionic-gonadotropin/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
