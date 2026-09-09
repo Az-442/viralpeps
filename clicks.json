@@ -726,5 +726,13 @@
     "vendorSlug": "united-peptides",
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-09T15:41:23.538Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
   }
 ]
