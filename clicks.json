@@ -1836,5 +1836,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://pgnalabs.co.uk/product/bpc-tb-10mg"
+  },
+  {
+    "ts": "2026-09-09T17:08:31.897Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "cartalax-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/cartalax-20mg/"
   }
 ]
