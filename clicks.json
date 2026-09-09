@@ -2694,5 +2694,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-09T19:07:10.227Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
