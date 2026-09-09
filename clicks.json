@@ -2056,5 +2056,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-09T17:45:31.586Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "nad-500mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/nad-500mg-research-peptides-uk"
   }
 ]
