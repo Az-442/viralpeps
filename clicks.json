@@ -887,5 +887,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/"
+  },
+  {
+    "ts": "2026-09-09T15:50:44.330Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/"
   }
 ]
