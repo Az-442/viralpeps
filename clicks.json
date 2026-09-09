@@ -1692,5 +1692,13 @@
     "vendorName": "LeoLab Peptides UK",
     "destUrl": "https://leolab.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/leolab"
+  },
+  {
+    "ts": "2026-09-09T17:01:49.859Z",
+    "type": "vendor-site",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "destUrl": "https://my-peptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/my-peptides"
   }
 ]
