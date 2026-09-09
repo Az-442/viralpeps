@@ -31620,5 +31620,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-09T13:12:59.985Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg"
   }
 ]
