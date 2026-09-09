@@ -30301,5 +30301,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.prime-peptides.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-09T11:49:58.028Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidesx.uk/product/tesamorelin/"
   }
 ]
