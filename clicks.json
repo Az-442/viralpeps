@@ -3062,5 +3062,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://leolab.co.uk/peptides/epithalon/"
+  },
+  {
+    "ts": "2026-09-09T19:30:49.312Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
   }
 ]
