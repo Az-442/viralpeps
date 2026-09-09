@@ -2196,5 +2196,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/"
+  },
+  {
+    "ts": "2026-09-09T18:04:19.969Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen"
   }
 ]
