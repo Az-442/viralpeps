@@ -27719,5 +27719,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://peptidesuk.com/sermorelin-2mg/"
+  },
+  {
+    "ts": "2026-09-09T06:44:55.992Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4"
   }
 ]
