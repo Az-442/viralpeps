@@ -28351,5 +28351,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "cjc-1295-no-dac-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-09T08:16:45.025Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/"
   }
 ]
