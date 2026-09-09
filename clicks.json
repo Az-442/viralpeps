@@ -1268,5 +1268,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptidesuk.com/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T16:29:02.526Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-mod-grf-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-mod-grf-5mg/"
   }
 ]
