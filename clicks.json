@@ -24706,5 +24706,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biopeptides-uk.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-09T00:12:56.841Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500"
   }
 ]
