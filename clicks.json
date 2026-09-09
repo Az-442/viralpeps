@@ -25645,5 +25645,14 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-no-dac-5-mg-ipamorelin-5-mg-research-peptide-blend/"
+  },
+  {
+    "ts": "2026-09-09T02:47:19.361Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://ascendpeptidesuk.com/products/ghk-cu-100mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ghk-cu"
   }
 ]
