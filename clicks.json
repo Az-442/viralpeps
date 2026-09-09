@@ -32713,5 +32713,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-09T14:13:14.251Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/"
   }
 ]
