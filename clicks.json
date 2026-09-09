@@ -1852,5 +1852,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptideslabuk.com/product/ghrp-6-acetate/"
+  },
+  {
+    "ts": "2026-09-09T17:09:40.735Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
   }
 ]
