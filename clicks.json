@@ -29190,5 +29190,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "klow-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
+  },
+  {
+    "ts": "2026-09-09T09:22:19.362Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
+    "refPage": "http://www.viralpeps.co.uk/go/express-peptides/kpv-pen-express"
   }
 ]
