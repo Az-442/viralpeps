@@ -1973,5 +1973,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-mod-grf-5mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-mod-grf-5mg/"
+  },
+  {
+    "ts": "2026-09-09T17:30:59.482Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://biopeptides-uk.com/product/glow-70mg/"
   }
 ]
