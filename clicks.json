@@ -1684,5 +1684,13 @@
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/imperial-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:01:44.382Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/leolab"
   }
 ]
