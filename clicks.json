@@ -29173,5 +29173,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "aod-9604-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/vial"
+  },
+  {
+    "ts": "2026-09-09T09:22:10.444Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "peg-mgf-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/vial",
+    "refPage": "http://www.viralpeps.co.uk/go/express-peptides/peg-mgf-vial-express"
   }
 ]
