@@ -5603,5 +5603,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
+  },
+  {
+    "ts": "2026-09-09T22:13:29.048Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://supplypeptides.co.uk/products/ghk-cu"
   }
 ]
