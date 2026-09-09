@@ -28154,5 +28154,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-5pack-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/5"
+  },
+  {
+    "ts": "2026-09-09T07:44:14.260Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://xlpeptides.com/product/foxo4-dri-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/foxo4-dr1"
   }
 ]
