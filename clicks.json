@@ -5989,5 +5989,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/tb-500"
+  },
+  {
+    "ts": "2026-09-09T22:43:37.901Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
