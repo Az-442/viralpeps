@@ -27466,5 +27466,12 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesonline.uk/shop/tb-500/"
+  },
+  {
+    "ts": "2026-09-09T06:15:51.548Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com"
   }
 ]
