@@ -4658,5 +4658,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glutathione",
     "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
+  },
+  {
+    "ts": "2026-09-09T21:03:36.848Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin"
   }
 ]
