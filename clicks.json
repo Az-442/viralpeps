@@ -27628,5 +27628,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
+  },
+  {
+    "ts": "2026-09-09T06:36:56.606Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://anglopeptides.com/product/vip-10mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/vip"
   }
 ]
