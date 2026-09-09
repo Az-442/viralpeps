@@ -26086,5 +26086,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
+  },
+  {
+    "ts": "2026-09-09T03:43:32.154Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg",
+    "refPage": "https://viralpeps.co.uk/vendors/applied-peptides"
   }
 ]
