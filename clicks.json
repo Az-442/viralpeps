@@ -6063,5 +6063,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-09T22:47:27.658Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ss-31-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/pen"
   }
 ]
