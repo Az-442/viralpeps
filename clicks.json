@@ -2958,5 +2958,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biotideuk.com/products/tesa"
+  },
+  {
+    "ts": "2026-09-09T19:25:55.695Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research"
   }
 ]
