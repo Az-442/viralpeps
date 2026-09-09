@@ -30367,5 +30367,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide"
+  },
+  {
+    "ts": "2026-09-09T11:59:39.187Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-tb-500-10mg-research-blend/"
   }
 ]
