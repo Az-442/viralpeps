@@ -32244,5 +32244,13 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/"
+  },
+  {
+    "ts": "2026-09-09T13:47:33.074Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-with-dac-5mg-research-peptide/"
   }
 ]
