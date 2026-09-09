@@ -29906,5 +29906,14 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/"
+  },
+  {
+    "ts": "2026-09-09T10:56:45.932Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
