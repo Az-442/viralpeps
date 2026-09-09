@@ -30794,5 +30794,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
+  },
+  {
+    "ts": "2026-09-09T12:37:25.543Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://biotideuk.com/products/pt-141-10-mg"
   }
 ]
