@@ -26144,5 +26144,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://bluewellpeptides.com/product/slu-pp-332-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T03:52:56.488Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidesuk.com/selank/"
   }
 ]
