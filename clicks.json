@@ -28474,5 +28474,12 @@
     "compoundSlug": "thymalin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
     "refPage": "https://viralpeps.co.uk/compounds/thymalin"
+  },
+  {
+    "ts": "2026-09-09T08:25:53.951Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk"
   }
 ]
