@@ -1756,5 +1756,13 @@
     "vendorName": "Premio Peptides",
     "destUrl": "https://premiopeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/premio-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:02:45.596Z",
+    "type": "vendor-site",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "destUrl": "https://www.proformapeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
