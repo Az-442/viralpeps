@@ -30906,5 +30906,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-09T12:42:37.589Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/"
   }
 ]
