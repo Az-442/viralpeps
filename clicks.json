@@ -29199,5 +29199,12 @@
     "compoundSlug": "kpv-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
     "refPage": "http://www.viralpeps.co.uk/go/express-peptides/kpv-pen-express"
+  },
+  {
+    "ts": "2026-09-09T09:25:02.957Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk"
   }
 ]
