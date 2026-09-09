@@ -26284,5 +26284,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-09T04:08:20.266Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/"
   }
 ]
