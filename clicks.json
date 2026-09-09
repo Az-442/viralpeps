@@ -30023,5 +30023,12 @@
     "vendorName": "HelixCore",
     "compoundSlug": "nad-plus",
     "destUrl": "https://helixcore.co.uk/products/nad-plus"
+  },
+  {
+    "ts": "2026-09-09T11:07:21.717Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com"
   }
 ]
