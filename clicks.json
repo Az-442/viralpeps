@@ -29923,5 +29923,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "kpv",
     "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-09T10:57:47.201Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "refPage": "https://viralpeps.co.uk/go/proforma-peptides/cjc-1295"
   }
 ]
