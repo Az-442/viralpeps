@@ -2545,5 +2545,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-09T18:49:52.519Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
   }
 ]
