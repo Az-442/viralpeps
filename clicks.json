@@ -354,5 +354,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "hcg-human-chorionic-gonadotropin",
     "destUrl": "https://researchpeptide.co.uk/product/hcg-human-chorionic-gonadotropin/"
+  },
+  {
+    "ts": "2026-09-09T15:14:21.243Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/"
   }
 ]
