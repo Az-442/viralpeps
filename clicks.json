@@ -3531,5 +3531,13 @@
     "vendorSlug": "biotide-uk",
     "vendorName": "BioTide UK",
     "destUrl": "https://biotideuk.com"
+  },
+  {
+    "ts": "2026-09-09T20:00:16.793Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://xlpeptides.com/product/hgh-frag-176-191-5mg/"
   }
 ]
