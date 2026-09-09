@@ -783,5 +783,12 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://aegispeptidesuk.co.uk/product/klow/"
+  },
+  {
+    "ts": "2026-09-09T15:44:03.256Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk"
   }
 ]
