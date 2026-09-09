@@ -4024,5 +4024,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tesamorelin-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
+  },
+  {
+    "ts": "2026-09-09T20:30:16.302Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg"
   }
 ]
