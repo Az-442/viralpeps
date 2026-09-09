@@ -1436,5 +1436,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/"
+  },
+  {
+    "ts": "2026-09-09T16:48:03.901Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
