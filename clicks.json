@@ -25282,5 +25282,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "pt-141",
     "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
+  },
+  {
+    "ts": "2026-09-09T01:42:46.027Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://researchpeptide.co.uk/product/adipotide/"
   }
 ]
