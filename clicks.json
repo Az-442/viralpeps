@@ -28817,5 +28817,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "selank-5mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-09T08:46:36.700Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
