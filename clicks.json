@@ -3103,5 +3103,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/"
+  },
+  {
+    "ts": "2026-09-09T19:34:59.039Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend"
   }
 ]
