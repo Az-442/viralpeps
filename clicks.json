@@ -6055,5 +6055,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "peg-mgf-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/pen"
+  },
+  {
+    "ts": "2026-09-09T22:47:25.156Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
