@@ -28203,5 +28203,14 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
+  },
+  {
+    "ts": "2026-09-09T07:51:09.715Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glow",
+    "refPage": "https://viralpeps.co.uk/compounds/glow-stack"
   }
 ]
