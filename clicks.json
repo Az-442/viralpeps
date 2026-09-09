@@ -29342,5 +29342,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-09T09:43:15.006Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tb-500/"
   }
 ]
