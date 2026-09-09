@@ -32181,5 +32181,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biotideuk.com/products/thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-09T13:44:19.736Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.novapeptide.co.uk/product/bpc157-10mg/"
   }
 ]
