@@ -3903,5 +3903,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://peptideslabuk.com/product/thymalin/"
+  },
+  {
+    "ts": "2026-09-09T20:23:39.491Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://supplypeptides.co.uk/products/ghk-cu"
   }
 ]
