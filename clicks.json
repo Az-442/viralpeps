@@ -32520,5 +32520,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://leolab.co.uk/peptides/ss-31/"
+  },
+  {
+    "ts": "2026-09-09T14:02:37.830Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/"
   }
 ]
