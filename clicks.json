@@ -6142,5 +6142,13 @@
     "vendorSlug": "proforma-peptides",
     "vendorName": "Proforma Peptides",
     "destUrl": "https://www.proformapeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-09T22:54:14.893Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://evapeptide.co.uk/product/buy-aod9604-uk/"
   }
 ]
