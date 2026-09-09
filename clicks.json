@@ -1828,5 +1828,13 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
+  },
+  {
+    "ts": "2026-09-09T17:07:18.508Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pgnalabs.co.uk/product/bpc-tb-10mg"
   }
 ]
