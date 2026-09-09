@@ -5284,5 +5284,14 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
+  },
+  {
+    "ts": "2026-09-09T21:42:51.165Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "hexarelin-2mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/hexarelin-2mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/hexarelin-2mg-research-peptides-uk"
   }
 ]
