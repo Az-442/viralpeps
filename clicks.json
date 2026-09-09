@@ -28560,5 +28560,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://biopeptides-uk.com/product/retatrutide-10mg/"
+  },
+  {
+    "ts": "2026-09-09T08:30:07.766Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://oplabs.co.uk/product/aod9604-2mg/"
   }
 ]
