@@ -1957,5 +1957,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-alpha-1-10mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-09T17:28:54.085Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://oplabs.co.uk/product/bpc157-tb500-blend-10mg/"
   }
 ]
