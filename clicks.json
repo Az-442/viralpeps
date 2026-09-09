@@ -6214,5 +6214,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-09T23:03:38.328Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "dsip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/dsip/pen"
   }
 ]
