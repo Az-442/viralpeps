@@ -31010,5 +31010,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://zentra-peptides.com/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-09T12:46:56.729Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://helixcore.co.uk/products/nad-plus"
   }
 ]
