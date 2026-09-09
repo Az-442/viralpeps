@@ -27547,5 +27547,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-09T06:25:26.703Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/"
   }
 ]
