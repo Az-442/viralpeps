@@ -30609,5 +30609,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "bpc-157",
     "destUrl": "https://mypepbiotech.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T12:25:40.284Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kpv",
+    "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk"
   }
 ]
