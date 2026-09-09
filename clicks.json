@@ -1468,5 +1468,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
+  },
+  {
+    "ts": "2026-09-09T16:50:52.986Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
