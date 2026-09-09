@@ -1860,5 +1860,13 @@
     "vendorName": "Precision Peptides",
     "destUrl": "https://precision-peptides.shop",
     "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:09:55.012Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
