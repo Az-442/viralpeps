@@ -6578,5 +6578,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-6-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/pen"
+  },
+  {
+    "ts": "2026-09-09T23:45:46.909Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biotideuk.com/products/kpv-10-mg"
   }
 ]
