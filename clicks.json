@@ -2155,5 +2155,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-09T17:59:50.514Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
   }
 ]
