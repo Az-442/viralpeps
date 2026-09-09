@@ -6135,5 +6135,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
+  },
+  {
+    "ts": "2026-09-09T22:54:02.275Z",
+    "type": "vendor-site",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "destUrl": "https://www.proformapeptides.co.uk"
   }
 ]
