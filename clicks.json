@@ -2749,5 +2749,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "dsip",
     "destUrl": "https://biotideuk.com/products/dsip-10-mg"
+  },
+  {
+    "ts": "2026-09-09T19:09:37.451Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
