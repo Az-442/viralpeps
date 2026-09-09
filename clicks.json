@@ -3151,5 +3151,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "pancragen",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-pancragen/"
+  },
+  {
+    "ts": "2026-09-09T19:37:01.798Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-tesa-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
   }
 ]
