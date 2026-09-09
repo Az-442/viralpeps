@@ -26775,5 +26775,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "sermorelin-acetate",
     "destUrl": "https://researchpeptide.co.uk/product/sermorelin-acetate/"
+  },
+  {
+    "ts": "2026-09-09T05:09:26.024Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tb-500/",
+    "refPage": "https://viralpeps.co.uk/vendors/apex-biolabs"
   }
 ]
