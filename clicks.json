@@ -29221,5 +29221,13 @@
     "vendorSlug": "aegis-peptides",
     "vendorName": "Aegis Peptides",
     "destUrl": "https://aegispeptidesuk.co.uk"
+  },
+  {
+    "ts": "2026-09-09T09:27:56.251Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide"
   }
 ]
