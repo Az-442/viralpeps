@@ -1596,5 +1596,13 @@
     "vendorName": "BuyReta",
     "destUrl": "https://www.buyreta.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/buyreta"
+  },
+  {
+    "ts": "2026-09-09T17:00:49.624Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chilton-labs"
   }
 ]
