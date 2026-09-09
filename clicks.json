@@ -1620,5 +1620,13 @@
     "vendorName": "CMSR Labs",
     "destUrl": "https://cmsrlabs.co",
     "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs"
+  },
+  {
+    "ts": "2026-09-09T17:00:57.078Z",
+    "type": "vendor-site",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "destUrl": "https://crownpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/crown-peptides"
   }
 ]
