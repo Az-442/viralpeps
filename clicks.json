@@ -25702,5 +25702,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://peptideslabuk.com/product/follistatin/"
+  },
+  {
+    "ts": "2026-09-09T02:52:55.213Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://ascendpeptidesuk.com/products/bacteriostatic-water/",
+    "refPage": "https://viralpeps.co.uk/vendors/ascend-peptides"
   }
 ]
