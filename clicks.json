@@ -27678,5 +27678,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://anglopeptides.com/product/kpv-10mg-research-peptide-batch-102/"
+  },
+  {
+    "ts": "2026-09-09T06:41:53.320Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk"
   }
 ]
