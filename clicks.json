@@ -687,5 +687,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://xlpeptides.com/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-09T15:38:34.322Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
   }
 ]
