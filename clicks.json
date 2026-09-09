@@ -759,5 +759,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
+  },
+  {
+    "ts": "2026-09-09T15:43:59.275Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/"
   }
 ]
