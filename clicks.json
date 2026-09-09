@@ -4173,5 +4173,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptideslabuk.com/product/igf-des/"
+  },
+  {
+    "ts": "2026-09-09T20:37:12.800Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
   }
 ]
