@@ -5456,5 +5456,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptideslabuk.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-09T21:58:15.589Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
   }
 ]
