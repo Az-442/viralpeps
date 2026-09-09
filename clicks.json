@@ -4561,5 +4561,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-09T21:00:16.844Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "fgl",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-fgl-10mg-research-peptide-for-laboratory-use-only/"
   }
 ]
