@@ -30177,5 +30177,14 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "vip",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/vip-10mg/"
+  },
+  {
+    "ts": "2026-09-09T11:33:42.194Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://xlpeptides.com/product/kpv-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
