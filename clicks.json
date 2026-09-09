@@ -28171,5 +28171,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "bpc-5mg-tb-5mg",
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/"
+  },
+  {
+    "ts": "2026-09-09T07:47:58.004Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "pt-141-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
   }
 ]
