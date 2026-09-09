@@ -25298,5 +25298,14 @@
     "vendorName": "Trutide",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://trutide.co.uk/product/wolverine/"
+  },
+  {
+    "ts": "2026-09-09T01:45:04.737Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://astralabs.co.uk/product/ss31-50mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/astra-labs"
   }
 ]
