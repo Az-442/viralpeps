@@ -3587,5 +3587,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://bioplexpeptides.co.uk/products/cartalax-10mg-aed-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-09T20:03:25.567Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://reta-uk.com/products/bacteriorastic-water-10ml"
   }
 ]
