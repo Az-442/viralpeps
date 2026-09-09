@@ -645,5 +645,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptidesuk.com/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T15:35:43.535Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.testedpeptides.co.uk/product/follistatin-344-1mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/follistatin-344"
   }
 ]
