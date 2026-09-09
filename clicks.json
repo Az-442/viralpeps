@@ -5925,5 +5925,12 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.peptidesx.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-09T22:39:49.411Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk"
   }
 ]
