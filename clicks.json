@@ -29756,5 +29756,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-09T10:47:48.217Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/"
   }
 ]
