@@ -1524,5 +1524,13 @@
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/anglo-peptides"
+  },
+  {
+    "ts": "2026-09-09T16:59:57.815Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
