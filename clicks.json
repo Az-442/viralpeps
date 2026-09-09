@@ -751,5 +751,13 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/",
     "refPage": "https://viralpeps.co.uk/compounds/aod-9604"
+  },
+  {
+    "ts": "2026-09-09T15:43:25.776Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
   }
 ]
