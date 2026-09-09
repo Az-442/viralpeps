@@ -103,5 +103,13 @@
     "vendorSlug": "anglo-peptides",
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com"
+  },
+  {
+    "ts": "2026-09-09T14:49:51.073Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg"
   }
 ]
