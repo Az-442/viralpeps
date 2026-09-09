@@ -3919,5 +3919,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://peptidesuk.com/semax/"
+  },
+  {
+    "ts": "2026-09-09T20:24:56.533Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
   }
 ]
