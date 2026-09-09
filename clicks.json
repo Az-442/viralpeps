@@ -5570,5 +5570,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.peptidesonline.uk/shop/epitalon/"
+  },
+  {
+    "ts": "2026-09-09T22:10:51.948Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://reta-uk.com/products/tesamorelin"
   }
 ]
