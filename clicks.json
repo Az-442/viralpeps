@@ -30577,5 +30577,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biotideuk.com/products/kpv-10-mg"
+  },
+  {
+    "ts": "2026-09-09T12:23:40.399Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidelabuk.co.uk/product/ipamorelin-5mg-research-peptide/"
   }
 ]
