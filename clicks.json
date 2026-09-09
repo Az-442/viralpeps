@@ -25422,5 +25422,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "semax",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
+  },
+  {
+    "ts": "2026-09-09T02:02:34.615Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
   }
 ]
