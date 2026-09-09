@@ -2505,5 +2505,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://helixcore.co.uk/products/ghrp-6"
+  },
+  {
+    "ts": "2026-09-09T18:45:43.584Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg"
   }
 ]
