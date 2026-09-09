@@ -2830,5 +2830,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "nad-500mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-09T19:17:23.261Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com"
   }
 ]
