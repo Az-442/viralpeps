@@ -1396,5 +1396,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T16:43:10.887Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
   }
 ]
