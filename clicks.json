@@ -26703,5 +26703,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "mots-c-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-09T05:03:57.992Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.flexpeptides.co.uk/products/glutathione-1500mg"
   }
 ]
