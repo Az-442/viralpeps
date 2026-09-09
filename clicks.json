@@ -28383,5 +28383,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-09T08:18:53.630Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-bac-water-3ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-3ml/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
