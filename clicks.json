@@ -5018,5 +5018,13 @@
     "vendorSlug": "peptidesx",
     "vendorName": "PeptidesX",
     "destUrl": "https://www.peptidesx.uk"
+  },
+  {
+    "ts": "2026-09-09T21:24:10.509Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hexarelin-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/"
   }
 ]
