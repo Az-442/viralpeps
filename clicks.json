@@ -6288,5 +6288,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg"
+  },
+  {
+    "ts": "2026-09-09T23:11:47.227Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
   }
 ]
