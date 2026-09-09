@@ -5431,5 +5431,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-bac-water-3ml",
     "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-3ml/"
+  },
+  {
+    "ts": "2026-09-09T21:54:59.652Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://peptidesuk.com/pal-ghk/"
   }
 ]
