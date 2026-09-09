@@ -32777,5 +32777,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "mots-c",
     "destUrl": "https://mypepbiotech.co.uk/product/mots-c-20mg/"
+  },
+  {
+    "ts": "2026-09-09T14:18:51.290Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg"
   }
 ]
