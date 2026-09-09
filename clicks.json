@@ -26662,5 +26662,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesx.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-09T05:00:49.289Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://oplabs.co.uk/product/dsip-5mg/"
   }
 ]
