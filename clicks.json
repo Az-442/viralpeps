@@ -4335,5 +4335,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://researchpeptide.co.uk/product/igf-1-des-1mg/"
+  },
+  {
+    "ts": "2026-09-09T20:46:59.471Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "bronchogen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-bronchogen/"
   }
 ]
