@@ -1236,5 +1236,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "retatrutide",
     "destUrl": "https://peptx.co.uk/retatrutide"
+  },
+  {
+    "ts": "2026-09-09T16:23:45.873Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
