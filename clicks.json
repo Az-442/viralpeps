@@ -30448,5 +30448,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-09T12:10:59.673Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
   }
 ]
