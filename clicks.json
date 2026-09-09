@@ -31120,5 +31120,14 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/nad-plus-500mg"
+  },
+  {
+    "ts": "2026-09-09T12:51:35.252Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/go/dr-peptides/cjc-1295"
   }
 ]
