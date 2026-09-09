@@ -911,5 +911,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
+  },
+  {
+    "ts": "2026-09-09T15:53:42.465Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ipamorelin/"
   }
 ]
