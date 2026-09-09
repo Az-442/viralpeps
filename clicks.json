@@ -161,5 +161,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
+  },
+  {
+    "ts": "2026-09-09T14:56:01.337Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/"
   }
 ]
