@@ -25961,5 +25961,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ghk-cu-50mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-09T03:26:37.919Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/mots-c-20mg",
+    "refPage": "https://viralpeps.co.uk/vendors/applied-peptides"
   }
 ]
