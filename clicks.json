@@ -3611,5 +3611,14 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
+  },
+  {
+    "ts": "2026-09-09T20:06:10.985Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cjc-1295-dac-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
