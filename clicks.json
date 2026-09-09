@@ -31782,5 +31782,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "retatrutide",
     "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-09T13:22:03.871Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-5mg-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
