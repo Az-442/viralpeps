@@ -1516,5 +1516,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "retatrutide",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-09T16:59:44.275Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/anglo-peptides"
   }
 ]
