@@ -2570,5 +2570,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-09T18:51:39.708Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
