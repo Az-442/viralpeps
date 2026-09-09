@@ -2309,5 +2309,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
+  },
+  {
+    "ts": "2026-09-09T18:21:56.004Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bpc-157/"
   }
 ]
