@@ -30914,5 +30914,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/"
+  },
+  {
+    "ts": "2026-09-09T12:42:56.648Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/"
   }
 ]
