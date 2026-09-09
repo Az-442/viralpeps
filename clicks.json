@@ -28375,5 +28375,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "semax-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-09T08:18:36.583Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
   }
 ]
