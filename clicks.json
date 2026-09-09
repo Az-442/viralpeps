@@ -6602,5 +6602,14 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/"
+  },
+  {
+    "ts": "2026-09-09T23:47:52.943Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
   }
 ]
