@@ -1081,5 +1081,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "kpv",
     "destUrl": "https://peptideslabuk.com/product/kpv/"
+  },
+  {
+    "ts": "2026-09-09T16:10:27.954Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.stratfordpeptides.com/products/nad",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
