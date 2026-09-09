@@ -532,5 +532,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tesamorelin-vial-express",
     "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-09T15:26:30.089Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-no-dac-5-mg-ipamorelin-5-mg-research-peptide-blend/"
   }
 ]
