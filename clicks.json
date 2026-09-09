@@ -1137,5 +1137,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
+  },
+  {
+    "ts": "2026-09-09T16:15:56.679Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidelabuk.co.uk/product/buy-semax-5mg-research-peptide/"
   }
 ]
