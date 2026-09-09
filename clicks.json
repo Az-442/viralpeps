@@ -30625,5 +30625,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-09T12:26:29.618Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://mypepbiotech.co.uk/product/ipamorelin/"
   }
 ]
