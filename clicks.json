@@ -362,5 +362,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/"
+  },
+  {
+    "ts": "2026-09-09T15:14:56.735Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/vip"
   }
 ]
