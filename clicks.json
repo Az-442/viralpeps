@@ -26978,5 +26978,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "bac-water-10ml-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-09T05:25:25.583Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
   }
 ]
