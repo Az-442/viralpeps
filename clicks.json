@@ -29601,5 +29601,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
     "destUrl": "https://researchpeptide.co.uk/product/tesamorelin-13mg-ipamorelin-3mg-16mg-blend/"
+  },
+  {
+    "ts": "2026-09-09T10:31:50.979Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk"
   }
 ]
