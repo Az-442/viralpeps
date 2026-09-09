@@ -28505,5 +28505,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.stratfordpeptides.com/products/nad"
+  },
+  {
+    "ts": "2026-09-09T08:27:34.929Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
   }
 ]
