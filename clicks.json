@@ -613,5 +613,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "klow",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-09T15:32:42.141Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg"
   }
 ]
