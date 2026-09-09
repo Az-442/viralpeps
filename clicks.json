@@ -32093,5 +32093,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "pinealon",
     "destUrl": "https://peptidelabuk.co.uk/product/pinealon-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-09T13:39:26.386Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax"
   }
 ]
