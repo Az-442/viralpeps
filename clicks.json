@@ -29948,5 +29948,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "retatrutide",
     "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
+  },
+  {
+    "ts": "2026-09-09T10:59:31.410Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "refPage": "https://viralpeps.co.uk/go/proforma-peptides/cjc-1295"
   }
 ]
