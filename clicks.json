@@ -31510,5 +31510,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glow",
     "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
+  },
+  {
+    "ts": "2026-09-09T13:08:22.720Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/"
   }
 ]
