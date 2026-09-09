@@ -1284,5 +1284,13 @@
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/anglo-peptides"
+  },
+  {
+    "ts": "2026-09-09T16:29:49.143Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
