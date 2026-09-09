@@ -3273,5 +3273,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "vip",
     "destUrl": "https://peptideslabuk.com/product/vip/"
+  },
+  {
+    "ts": "2026-09-09T19:46:55.425Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://peptidesuk.com/hgh-fragment/"
   }
 ]
