@@ -32721,5 +32721,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "semaglutide",
     "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/"
+  },
+  {
+    "ts": "2026-09-09T14:14:03.124Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/motsc.html"
   }
 ]
