@@ -25057,5 +25057,13 @@
     "vendorName": "Bio Peptides UK",
     "destUrl": "https://biopeptides-uk.com",
     "refPage": "https://viralpeps.co.uk/vendors/bio-peptides-uk"
+  },
+  {
+    "ts": "2026-09-09T01:05:53.336Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://researchpeptide.co.uk/product/adipotide/"
   }
 ]
