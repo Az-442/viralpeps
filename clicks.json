@@ -79,5 +79,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "fragment-176-191-2mg",
     "destUrl": "https://purepeptidesuk.com/product/fragment-176-191-2mg/"
+  },
+  {
+    "ts": "2026-09-09T14:47:18.719Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://xlpeptides.com/product/glow-peptide-blend/",
+    "refPage": "https://viralpeps.co.uk/compounds/glow"
   }
 ]
