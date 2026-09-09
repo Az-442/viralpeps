@@ -290,5 +290,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ace-031-1mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ace-031-1mg/"
+  },
+  {
+    "ts": "2026-09-09T15:08:58.927Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
   }
 ]
