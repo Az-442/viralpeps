@@ -63,5 +63,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://precision-peptides.shop/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-09T14:45:47.006Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://tidelabs.co.uk/products/cjc-1295-no-dac"
   }
 ]
