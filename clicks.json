@@ -5789,5 +5789,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-09T22:31:19.171Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mk-677-ibutamoren-10mg-100-tablets",
+    "destUrl": "https://researchpeptide.co.uk/product/mk-677-ibutamoren-10mg-100-tablets/"
   }
 ]
