@@ -32933,5 +32933,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-09T14:36:24.818Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidesuk.com/semax/"
   }
 ]
