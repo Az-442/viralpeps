@@ -30144,5 +30144,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-09T11:31:41.006Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
