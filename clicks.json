@@ -26913,5 +26913,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/"
+  },
+  {
+    "ts": "2026-09-09T05:20:45.956Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
