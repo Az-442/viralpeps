@@ -26300,5 +26300,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesx.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-09T04:10:48.406Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/ghkcu-100mg"
   }
 ]
