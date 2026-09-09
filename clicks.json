@@ -6562,5 +6562,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "bpc-157",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-09T23:43:38.628Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
