@@ -31487,5 +31487,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://leolab.co.uk/peptides/aod-9604/"
+  },
+  {
+    "ts": "2026-09-09T13:07:19.878Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptidelabuk.co.uk/product/dsip-10mg-nasal-spray/"
   }
 ]
