@@ -2553,5 +2553,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-09T18:49:56.174Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://tidelabs.co.uk/products/selank",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
