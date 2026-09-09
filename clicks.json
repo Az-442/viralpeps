@@ -32053,5 +32053,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "oxytocin",
     "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/"
+  },
+  {
+    "ts": "2026-09-09T13:37:39.502Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/"
   }
 ]
