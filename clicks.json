@@ -1740,5 +1740,13 @@
     "vendorName": "PGNA Labs",
     "destUrl": "https://pgnalabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
+  },
+  {
+    "ts": "2026-09-09T17:02:34.427Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/polygon-peptides"
   }
 ]
