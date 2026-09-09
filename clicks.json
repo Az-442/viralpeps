@@ -5829,5 +5829,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.stratfordpeptides.com/products/epitalon"
+  },
+  {
+    "ts": "2026-09-09T22:33:37.805Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
   }
 ]
