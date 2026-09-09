@@ -30236,5 +30236,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
+  },
+  {
+    "ts": "2026-09-09T11:41:50.767Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
   }
 ]
