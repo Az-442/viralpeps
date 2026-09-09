@@ -3781,5 +3781,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-09T20:14:31.823Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://chiltonlabs.co.uk/product/melanotan-ii-mt2-10mg/"
   }
 ]
