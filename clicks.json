@@ -28244,5 +28244,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://bluewellpeptides.com/product/ara-290-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T07:58:05.803Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://tidelabs.co.uk/products/cjc-1295-no-dac",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295"
   }
 ]
