@@ -6296,5 +6296,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-09T23:12:52.238Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://bioplexpeptides.co.uk/products/melanotan-1-10mg-afamelanotide"
   }
 ]
