@@ -3563,5 +3563,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://purepeptidesuk.com/product/fragment-176-191-2mg/"
+  },
+  {
+    "ts": "2026-09-09T20:01:20.346Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
