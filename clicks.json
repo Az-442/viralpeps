@@ -28882,5 +28882,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://peptidesuk.com/sermorelin-2mg/"
+  },
+  {
+    "ts": "2026-09-09T08:54:08.401Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tb-500/"
   }
 ]
