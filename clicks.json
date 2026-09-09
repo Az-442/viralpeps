@@ -26566,5 +26566,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T04:44:55.875Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://precision-peptides.shop/product/nad-1000mg/"
   }
 ]
