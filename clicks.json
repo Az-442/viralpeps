@@ -26970,5 +26970,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.peptidesonline.uk/shop/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-09T05:24:42.794Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bac-water-10ml-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/"
   }
 ]
