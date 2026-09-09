@@ -32883,5 +32883,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-thymosin-beta-4-tb500-5mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500-1/"
+  },
+  {
+    "ts": "2026-09-09T14:30:01.527Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/"
   }
 ]
