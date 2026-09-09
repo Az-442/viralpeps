@@ -491,5 +491,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-09T15:22:20.697Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "age-reversal-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/age-reversal-stack/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
