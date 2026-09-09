@@ -31895,5 +31895,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "selank",
     "destUrl": "https://biotideuk.com/products/selank-10-mg"
+  },
+  {
+    "ts": "2026-09-09T13:30:46.626Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptidelabuk.co.uk/product/ss-31-10mg-research-peptide/"
   }
 ]
