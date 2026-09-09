@@ -5724,5 +5724,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-tesa-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-09T22:24:44.267Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/hgh-frag-176-191-2mg",
+    "refPage": "https://viralpeps.co.uk/compounds/hgh-fragment-176-191-5mg"
   }
 ]
