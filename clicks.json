@@ -4270,5 +4270,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial"
+  },
+  {
+    "ts": "2026-09-09T20:42:05.986Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.flexpeptides.co.uk/products/mots-c-20mg"
   }
 ]
