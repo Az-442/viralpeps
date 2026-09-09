@@ -1612,5 +1612,13 @@
     "vendorName": "Chroma Peptides",
     "destUrl": "https://chromapeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:00:54.510Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs"
   }
 ]
