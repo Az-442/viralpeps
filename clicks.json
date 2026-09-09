@@ -28600,5 +28600,12 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/"
+  },
+  {
+    "ts": "2026-09-09T08:30:32.321Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com"
   }
 ]
