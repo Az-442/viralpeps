@@ -379,5 +379,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://peptideslabuk.com/product/follistatin/"
+  },
+  {
+    "ts": "2026-09-09T15:16:08.973Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "l-carnitine-600mg",
+    "destUrl": "https://researchpeptide.co.uk/product/l-carnitine-600mg/"
   }
 ]
