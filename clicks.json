@@ -2448,5 +2448,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "kpv",
     "destUrl": "https://peptideslabuk.com/product/kpv/"
+  },
+  {
+    "ts": "2026-09-09T18:38:37.232Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/klow/"
   }
 ]
