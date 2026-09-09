@@ -30938,5 +30938,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.apex-pharma.co.uk/product/ahk-50mg/"
+  },
+  {
+    "ts": "2026-09-09T12:43:35.540Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
   }
 ]
