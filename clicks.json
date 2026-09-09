@@ -5932,5 +5932,13 @@
     "vendorSlug": "spx-labs",
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-09T22:40:17.947Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen"
   }
 ]
