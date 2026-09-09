@@ -5940,5 +5940,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mgf-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen"
+  },
+  {
+    "ts": "2026-09-09T22:40:59.681Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://astralabs.co.uk/product/cjc-1295-ipamorelin-10mg-peptide/",
+    "refPage": "https://viralpeps.co.uk/go/astra-labs/cjc-1295"
   }
 ]
