@@ -3499,5 +3499,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "wolverine-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/pen"
+  },
+  {
+    "ts": "2026-09-09T19:59:05.425Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
