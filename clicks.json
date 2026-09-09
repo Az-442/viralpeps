@@ -31960,5 +31960,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/"
+  },
+  {
+    "ts": "2026-09-09T13:34:32.672Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://helixcore.co.uk/products/ss-31"
   }
 ]
