@@ -30858,5 +30858,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "klow",
     "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
+  },
+  {
+    "ts": "2026-09-09T12:40:42.511Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/"
   }
 ]
