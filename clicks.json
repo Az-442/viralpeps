@@ -27514,5 +27514,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "mots-c-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-09T06:22:22.049Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
   }
 ]
