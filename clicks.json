@@ -4132,5 +4132,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "pal-ghk",
     "destUrl": "https://peptidesuk.com/pal-ghk/"
+  },
+  {
+    "ts": "2026-09-09T20:36:26.086Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin",
+    "refPage": "http://m.baidu.com/s?wd=themselvesvdg"
   }
 ]
