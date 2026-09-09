@@ -1628,5 +1628,13 @@
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/crown-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:00:59.034Z",
+    "type": "vendor-site",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "destUrl": "https://drpresearch.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/dr-peptides"
   }
 ]
