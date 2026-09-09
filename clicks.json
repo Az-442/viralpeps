@@ -29990,5 +29990,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.stratfordpeptides.com/products/mots-c"
+  },
+  {
+    "ts": "2026-09-09T11:02:10.334Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/"
   }
 ]
