@@ -2082,5 +2082,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://zentra-peptides.com/product/selank/"
+  },
+  {
+    "ts": "2026-09-09T17:50:01.388Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-alpha-1-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
   }
 ]
