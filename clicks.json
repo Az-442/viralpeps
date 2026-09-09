@@ -346,5 +346,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://peptideslabuk.com/product/igf-1lr3/"
+  },
+  {
+    "ts": "2026-09-09T15:14:07.088Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "hcg-human-chorionic-gonadotropin",
+    "destUrl": "https://researchpeptide.co.uk/product/hcg-human-chorionic-gonadotropin/"
   }
 ]
