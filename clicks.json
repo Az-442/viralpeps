@@ -26152,5 +26152,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://peptidesuk.com/selank/"
+  },
+  {
+    "ts": "2026-09-09T03:54:00.205Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://peptx.co.uk/product/liraglutide"
   }
 ]
