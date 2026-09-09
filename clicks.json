@@ -28146,5 +28146,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
+  },
+  {
+    "ts": "2026-09-09T07:43:44.629Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-5pack-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/5"
   }
 ]
