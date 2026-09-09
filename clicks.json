@@ -31518,5 +31518,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://leolab.co.uk/peptides/nad/"
+  },
+  {
+    "ts": "2026-09-09T13:08:53.524Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://helixcore.co.uk/products/ara-290"
   }
 ]
