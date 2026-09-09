@@ -4392,5 +4392,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "pbs-10ml",
     "destUrl": "https://purepeptidesuk.com/product/pbs-10ml/"
+  },
+  {
+    "ts": "2026-09-09T20:50:25.065Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial",
+    "refPage": "https://viralpeps.co.uk/go/express-peptides/cjc-1295"
   }
 ]
