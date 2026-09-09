@@ -24942,5 +24942,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://biopeptides-uk.com/product/aod-9604-5mg/"
+  },
+  {
+    "ts": "2026-09-09T00:49:48.053Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopeptides-uk.com/product/bacteriostatic-water-10ml-biopura/",
+    "refPage": "https://viralpeps.co.uk/vendors/bio-peptides-uk"
   }
 ]
