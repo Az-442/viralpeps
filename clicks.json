@@ -31463,5 +31463,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.prime-peptides.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-09T13:06:13.087Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "kpv",
+    "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/"
   }
 ]
