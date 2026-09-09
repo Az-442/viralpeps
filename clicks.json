@@ -27620,5 +27620,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "glow",
     "destUrl": "https://www.apexbiolabs.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-09T06:36:03.605Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
