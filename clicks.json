@@ -4650,5 +4650,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-09T21:03:07.869Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
   }
 ]
