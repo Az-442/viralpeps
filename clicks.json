@@ -5877,5 +5877,12 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/bpc-157-tb-500-mix"
+  },
+  {
+    "ts": "2026-09-09T22:36:33.495Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co"
   }
 ]
