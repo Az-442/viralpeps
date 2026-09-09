@@ -2397,5 +2397,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biopeptides-uk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-09T18:34:43.590Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://astralabs.co.uk/product/igf-1-lr3-1mg/"
   }
 ]
