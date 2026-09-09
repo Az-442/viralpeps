@@ -5326,5 +5326,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://peptidesuk.com/cjc1295-with-dac/"
+  },
+  {
+    "ts": "2026-09-09T21:46:17.909Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bpc-10mg/"
   }
 ]
