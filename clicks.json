@@ -96,5 +96,12 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html"
+  },
+  {
+    "ts": "2026-09-09T14:48:50.219Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
