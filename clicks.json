@@ -30552,5 +30552,14 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://leolab.co.uk/peptides/pt-141/"
+  },
+  {
+    "ts": "2026-09-09T12:21:36.327Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://thepeptidecode.co.uk/products/mots-c-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
