@@ -3773,5 +3773,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-09T20:13:52.925Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
   }
 ]
