@@ -27833,5 +27833,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptideslabuk.com/product/igf-des/"
+  },
+  {
+    "ts": "2026-09-09T07:02:30.090Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
   }
 ]
