@@ -27898,5 +27898,12 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://evapeptide.co.uk/product/buy-ghk-cu-uk/"
+  },
+  {
+    "ts": "2026-09-09T07:12:38.172Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk"
   }
 ]
