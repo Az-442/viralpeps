@@ -25727,5 +25727,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://bioplexpeptides.co.uk/products/glow-blend-70mg-ghk-cu-tb-500-bpc-157"
+  },
+  {
+    "ts": "2026-09-09T02:58:32.568Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://ascendpeptidesuk.com/products/aod-9604-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/ascend-peptides"
   }
 ]
