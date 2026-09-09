@@ -1588,5 +1588,13 @@
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:00:46.867Z",
+    "type": "vendor-site",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "destUrl": "https://www.buyreta.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/buyreta"
   }
 ]
