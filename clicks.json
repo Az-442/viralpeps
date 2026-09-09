@@ -5366,5 +5366,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T21:50:06.847Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "igf-1-1-3-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
