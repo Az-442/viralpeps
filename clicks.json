@@ -27401,5 +27401,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-09T06:10:42.624Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/"
   }
 ]
