@@ -31660,5 +31660,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.peptidesx.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T13:14:34.465Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://leolab.co.uk/peptides/retatrutide/"
   }
 ]
