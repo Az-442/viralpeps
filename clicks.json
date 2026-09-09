@@ -4221,5 +4221,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://zentra-peptides.com/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T20:40:16.051Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial"
   }
 ]
