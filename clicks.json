@@ -32220,5 +32220,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://leolab.co.uk/peptides/selank/"
+  },
+  {
+    "ts": "2026-09-09T13:46:23.080Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
