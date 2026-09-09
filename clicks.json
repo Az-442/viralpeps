@@ -27442,5 +27442,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg"
+  },
+  {
+    "ts": "2026-09-09T06:13:52.944Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/cjc-1295-no-dac-5mg"
   }
 ]
