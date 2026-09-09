@@ -5884,5 +5884,13 @@
     "vendorSlug": "cmsr-labs",
     "vendorName": "CMSR Labs",
     "destUrl": "https://cmsrlabs.co"
+  },
+  {
+    "ts": "2026-09-09T22:36:57.946Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
   }
 ]
