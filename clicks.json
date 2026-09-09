@@ -3684,5 +3684,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-09T20:09:56.205Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/tesamorelin.html"
   }
 ]
