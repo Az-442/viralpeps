@@ -28513,5 +28513,12 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T08:28:50.707Z",
+    "type": "vendor-site",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "destUrl": "https://crownpeptides.co.uk"
   }
 ]
