@@ -169,5 +169,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T14:57:02.458Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.flexpeptides.co.uk/products/mots-c-20mg"
   }
 ]
