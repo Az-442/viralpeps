@@ -6110,5 +6110,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-6-5mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-5mg/"
+  },
+  {
+    "ts": "2026-09-09T22:52:26.405Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
