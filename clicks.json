@@ -27116,5 +27116,13 @@
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/apex-pharma"
+  },
+  {
+    "ts": "2026-09-09T05:38:28.825Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://researchpeptide.co.uk/product/kisspeptin/"
   }
 ]
