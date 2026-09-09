@@ -1676,5 +1676,13 @@
     "vendorName": "HelixCore",
     "destUrl": "https://helixcore.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/helix-core"
+  },
+  {
+    "ts": "2026-09-09T17:01:38.061Z",
+    "type": "vendor-site",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "destUrl": "https://www.imperialpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/imperial-peptides"
   }
 ]
