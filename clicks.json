@@ -3732,5 +3732,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
+  },
+  {
+    "ts": "2026-09-09T20:13:06.467Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
