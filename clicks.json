@@ -3838,5 +3838,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-1000-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/1000"
+  },
+  {
+    "ts": "2026-09-09T20:19:03.503Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
