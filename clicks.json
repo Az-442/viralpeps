@@ -30946,5 +30946,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
+  },
+  {
+    "ts": "2026-09-09T12:43:40.325Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://biotideuk.com/products/aod9604-5-mg"
   }
 ]
