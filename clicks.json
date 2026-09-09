@@ -30268,5 +30268,14 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://chromapeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-09T11:46:58.339Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://ukpeptides.com/catalog/mazdutide",
+    "refPage": "https://viralpeps.co.uk/compounds/mazdutide"
   }
 ]
