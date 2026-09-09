@@ -25855,5 +25855,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-09T03:09:52.542Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/-tb-500-10mg",
+    "refPage": "https://viralpeps.co.uk/vendors/applied-peptides"
   }
 ]
