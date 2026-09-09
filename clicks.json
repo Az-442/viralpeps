@@ -32157,5 +32157,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
+  },
+  {
+    "ts": "2026-09-09T13:42:40.452Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research"
   }
 ]
