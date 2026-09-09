@@ -218,5 +218,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptideslabuk.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-09T15:01:01.419Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/"
   }
 ]
