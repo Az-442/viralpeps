@@ -6463,5 +6463,14 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://leolab.co.uk/peptides/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-09T23:27:04.868Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vilon-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/vilon-20mg"
   }
 ]
