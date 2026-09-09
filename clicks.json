@@ -29026,5 +29026,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-09T09:09:56.165Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://tidelabs.co.uk/products/kisspeptin-10"
   }
 ]
