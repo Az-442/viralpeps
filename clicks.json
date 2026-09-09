@@ -5521,5 +5521,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://my-peptides.co.uk/products/mots-c-32"
+  },
+  {
+    "ts": "2026-09-09T22:05:51.873Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/"
   }
 ]
