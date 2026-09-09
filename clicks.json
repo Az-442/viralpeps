@@ -1372,5 +1372,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-thymosin-beta-4-tb500-2mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-thymosin-beta-4-2mg-tb500/"
+  },
+  {
+    "ts": "2026-09-09T16:40:45.723Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "slu-pp-332-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/pen"
   }
 ]
