@@ -6455,5 +6455,13 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/"
+  },
+  {
+    "ts": "2026-09-09T23:25:24.218Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://leolab.co.uk/peptides/tirzepatide/"
   }
 ]
