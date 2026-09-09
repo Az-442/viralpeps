@@ -711,5 +711,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/ipamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-09T15:40:19.405Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin-5mg-peptide-research",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research"
   }
 ]
