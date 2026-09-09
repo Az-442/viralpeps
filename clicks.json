@@ -47,5 +47,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kpv",
     "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
+  },
+  {
+    "ts": "2026-09-09T14:43:20.082Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-ghrp-2-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghrp-2-5mg/"
   }
 ]
