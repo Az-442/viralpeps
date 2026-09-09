@@ -1129,5 +1129,13 @@
     "vendorSlug": "zentra-peptides",
     "vendorName": "Zentra Peptides UK",
     "destUrl": "https://zentra-peptides.com"
+  },
+  {
+    "ts": "2026-09-09T16:14:44.240Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
   }
 ]
