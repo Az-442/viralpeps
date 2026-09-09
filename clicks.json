@@ -32568,5 +32568,13 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "mots-c",
     "destUrl": "https://spxlabs.co.uk/product/mots-c-uk-10mg/"
+  },
+  {
+    "ts": "2026-09-09T14:05:38.656Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/spx-labs"
   }
 ]
