@@ -30030,5 +30030,13 @@
     "vendorSlug": "momentum-peptides",
     "vendorName": "Momentum Peptides",
     "destUrl": "https://momentumpeptides.com"
+  },
+  {
+    "ts": "2026-09-09T11:09:07.401Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/nad/"
   }
 ]
