@@ -2765,5 +2765,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "slu-pp-332-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/pen"
+  },
+  {
+    "ts": "2026-09-09T19:10:43.492Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://tidelabs.co.uk/products/epithalon",
+    "refPage": "https://viralpeps.co.uk/compounds/epithalon"
   }
 ]
