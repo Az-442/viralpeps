@@ -29010,5 +29010,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
+  },
+  {
+    "ts": "2026-09-09T09:07:43.524Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg"
   }
 ]
