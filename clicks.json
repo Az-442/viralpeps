@@ -2790,5 +2790,13 @@
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-09T19:13:55.209Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://precision-peptides.shop/product/mot-c-10mg/"
   }
 ]
