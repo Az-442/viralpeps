@@ -27473,5 +27473,13 @@
     "vendorSlug": "bluewell-peptides",
     "vendorName": "Bluewell Peptides",
     "destUrl": "https://bluewellpeptides.com"
+  },
+  {
+    "ts": "2026-09-09T06:16:50.613Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://thepeptidecode.co.uk/products/ghk-cu-100mg"
   }
 ]
