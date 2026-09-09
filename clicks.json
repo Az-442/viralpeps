@@ -3507,5 +3507,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "l-glutathione-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
+  },
+  {
+    "ts": "2026-09-09T19:59:14.745Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-20mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
