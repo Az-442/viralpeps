@@ -30826,5 +30826,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "epitalon",
     "destUrl": "https://tidelabs.co.uk/products/epithalon"
+  },
+  {
+    "ts": "2026-09-09T12:39:06.005Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidelabuk.co.uk/product/aod-9604-5mg-research-peptide/"
   }
 ]
