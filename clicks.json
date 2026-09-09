@@ -28520,5 +28520,13 @@
     "vendorSlug": "crown-peptides",
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-09T08:28:56.578Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
   }
 ]
