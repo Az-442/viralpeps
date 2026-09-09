@@ -1484,5 +1484,13 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://aegispeptidesuk.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T16:52:12.571Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
