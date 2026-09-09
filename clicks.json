@@ -28465,5 +28465,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-09T08:25:51.768Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/thymalin"
   }
 ]
