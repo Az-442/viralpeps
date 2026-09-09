@@ -2171,5 +2171,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "bpc-157",
     "destUrl": "https://mypepbiotech.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-09T18:01:25.810Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-nasal-spray",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157-oral"
   }
 ]
