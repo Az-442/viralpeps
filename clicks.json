@@ -29050,5 +29050,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-09T09:13:55.963Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
   }
 ]
