@@ -28719,5 +28719,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cartalax",
     "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
+  },
+  {
+    "ts": "2026-09-09T08:35:32.718Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://oplabs.co.uk/product/dsip-5mg/"
   }
 ]
