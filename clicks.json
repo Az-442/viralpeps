@@ -4302,5 +4302,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptidesuk.com/igf-1-des/"
+  },
+  {
+    "ts": "2026-09-09T20:44:02.753Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
   }
 ]
