@@ -1981,5 +1981,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "glow",
     "destUrl": "https://biopeptides-uk.com/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-09T17:32:25.656Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/53-mots-c-10mg.html"
   }
 ]
