@@ -29382,5 +29382,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://octagonpeptides.co.uk/product/cjc-no-dac-5-mg/"
+  },
+  {
+    "ts": "2026-09-09T09:52:47.910Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
