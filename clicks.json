@@ -31573,5 +31573,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "liraglutide",
     "destUrl": "https://mypepbiotech.co.uk/product/liraglutide-10mg/"
+  },
+  {
+    "ts": "2026-09-09T13:11:23.805Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu"
   }
 ]
