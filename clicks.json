@@ -28105,5 +28105,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://peptidesuk.com/hgh-fragment/"
+  },
+  {
+    "ts": "2026-09-09T07:37:19.280Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
