@@ -2644,5 +2644,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "mk-677-ibutamoren-10mg-100-tablets",
     "destUrl": "https://researchpeptide.co.uk/product/mk-677-ibutamoren-10mg-100-tablets/"
+  },
+  {
+    "ts": "2026-09-09T19:02:57.180Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg",
+    "refPage": "https://viralpeps.co.uk/go/imperial-peptides/cjc-1295"
   }
 ]
