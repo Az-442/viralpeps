@@ -28318,5 +28318,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "pt-141-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-09T08:11:58.132Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.stratfordpeptides.com/products/epitalon",
+    "refPage": "https://viralpeps.co.uk/compounds/epithalon"
   }
 ]
