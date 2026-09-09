@@ -4417,5 +4417,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin"
+  },
+  {
+    "ts": "2026-09-09T20:52:07.537Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
   }
 ]
