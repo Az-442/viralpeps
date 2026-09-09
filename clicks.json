@@ -2981,5 +2981,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-09T19:26:58.191Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg"
   }
 ]
