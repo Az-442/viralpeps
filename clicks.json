@@ -6683,5 +6683,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
+  },
+  {
+    "ts": "2026-09-09T23:57:04.004Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial"
   }
 ]
