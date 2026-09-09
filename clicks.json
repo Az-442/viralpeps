@@ -999,5 +999,14 @@
     "vendorName": "New Wave Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin"
+  },
+  {
+    "ts": "2026-09-09T16:03:38.099Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://supplypeptides.co.uk/products/glow",
+    "refPage": "https://viralpeps.co.uk/compounds/glow"
   }
 ]
