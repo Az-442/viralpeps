@@ -30334,5 +30334,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500"
+  },
+  {
+    "ts": "2026-09-09T11:53:51.387Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ss-31"
   }
 ]
