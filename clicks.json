@@ -967,5 +967,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
+  },
+  {
+    "ts": "2026-09-09T16:01:11.104Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://xlpeptides.com/product/epitalon-10mg/"
   }
 ]
