@@ -32649,5 +32649,12 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://biotideuk.com/products/cjc-1295-no-dac-5-mg-ipamorelin-5-mg"
+  },
+  {
+    "ts": "2026-09-09T14:09:16.873Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
