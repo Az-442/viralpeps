@@ -5407,5 +5407,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
+  },
+  {
+    "ts": "2026-09-09T21:52:47.875Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
