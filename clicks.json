@@ -27596,5 +27596,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide"
+  },
+  {
+    "ts": "2026-09-09T06:33:01.226Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "klow",
+    "destUrl": "https://trutide.co.uk/product/klow-80mg/"
   }
 ]
