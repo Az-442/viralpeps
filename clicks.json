@@ -2950,5 +2950,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin"
+  },
+  {
+    "ts": "2026-09-09T19:25:19.156Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa"
   }
 ]
