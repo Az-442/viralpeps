@@ -30015,5 +30015,13 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://aegispeptidesuk.co.uk/product/klow/"
+  },
+  {
+    "ts": "2026-09-09T11:07:07.606Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://helixcore.co.uk/products/nad-plus"
   }
 ]
