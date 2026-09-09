@@ -28081,5 +28081,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptideslabuk.com/product/igf-des/"
+  },
+  {
+    "ts": "2026-09-09T07:33:05.522Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
   }
 ]
