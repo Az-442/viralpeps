@@ -25662,5 +25662,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-09T02:48:19.467Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "acetic-acid-reconstitution-solvent-10ml",
+    "destUrl": "https://tidelabs.co.uk/products/acetic-acid-reconstitution-solvent-10ml"
   }
 ]
