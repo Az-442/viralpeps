@@ -5765,5 +5765,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "klow",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-09T22:28:17.371Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://oplabs.co.uk/product/ghk-cu-50mg/"
   }
 ]
