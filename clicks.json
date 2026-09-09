@@ -31831,5 +31831,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-09T13:25:48.779Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
   }
 ]
