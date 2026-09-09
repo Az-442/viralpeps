@@ -572,5 +572,14 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://rawpeptides.co.uk/product/mt2-30mg/"
+  },
+  {
+    "ts": "2026-09-09T15:28:47.840Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
