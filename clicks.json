@@ -1788,5 +1788,13 @@
     "vendorName": "Raw Peptides",
     "destUrl": "https://rawpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/raw-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:02:53.823Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "destUrl": "https://www.researchpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/research-peptides-uk-main"
   }
 ]
