@@ -31541,5 +31541,12 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "dsip",
     "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-09T13:09:52.468Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk"
   }
 ]
