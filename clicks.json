@@ -25347,5 +25347,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/pen"
+  },
+  {
+    "ts": "2026-09-09T01:50:42.444Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://astralabs.co.uk/product/semax-peptide-uk/",
+    "refPage": "https://viralpeps.co.uk/vendors/astra-labs"
   }
 ]
