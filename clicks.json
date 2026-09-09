@@ -29486,5 +29486,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cerebrolysin",
     "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/"
+  },
+  {
+    "ts": "2026-09-09T10:18:58.415Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://viralpeps.co.uk/go/lab77-peptides/cjc-1295"
   }
 ]
