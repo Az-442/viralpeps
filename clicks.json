@@ -1420,5 +1420,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
+  },
+  {
+    "ts": "2026-09-09T16:46:46.422Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://xlpeptides.com/product/ghrp-6-10mg/"
   }
 ]
