@@ -32061,5 +32061,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "semax",
     "destUrl": "https://mypepbiotech.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-09T13:37:51.930Z",
+    "type": "vendor-site",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "destUrl": "https://supplypeptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/supply-peptides"
   }
 ]
