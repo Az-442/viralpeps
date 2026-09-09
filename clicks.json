@@ -2578,5 +2578,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-09T18:51:57.042Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ipamorelin-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ipamorelin-5mg-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/ipamorelin-research-peptides-uk"
   }
 ]
