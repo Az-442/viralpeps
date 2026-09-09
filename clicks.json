@@ -4097,5 +4097,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-09T20:35:17.873Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://olresearch.co.uk/product/bpc-157-10mg/",
+    "refPage": "http://m.baidu.com/s?wd=regionpve"
   }
 ]
