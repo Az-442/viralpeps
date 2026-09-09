@@ -24861,5 +24861,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
+  },
+  {
+    "ts": "2026-09-09T00:41:49.477Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/ghk-cu-50mg"
   }
 ]
