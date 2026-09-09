@@ -31293,5 +31293,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "klow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/klow"
+  },
+  {
+    "ts": "2026-09-09T12:59:00.791Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptidelabuk.co.uk/product/kisspeptin-10-10mg-research-peptide/"
   }
 ]
