@@ -935,5 +935,13 @@
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
+  },
+  {
+    "ts": "2026-09-09T15:56:20.037Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ace-031-1mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ace-031-1mg/"
   }
 ]
