@@ -426,5 +426,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://ukpeptides.com/catalog/ghk-cu"
+  },
+  {
+    "ts": "2026-09-09T15:18:14.015Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://bebetterpeptides.com/products/cjc-1295-with-dac-2mg",
+    "refPage": "https://viralpeps.co.uk/go/be-better-peptides/cjc-1295"
   }
 ]
