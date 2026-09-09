@@ -3167,5 +3167,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "pancragen",
     "destUrl": "https://tidelabs.co.uk/products/pancragen-research-peptide"
+  },
+  {
+    "ts": "2026-09-09T19:38:03.362Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
   }
 ]
