@@ -814,5 +814,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-09T15:46:32.748Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
