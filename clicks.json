@@ -6086,5 +6086,13 @@
     "vendorSlug": "aegis-peptides",
     "vendorName": "Aegis Peptides",
     "destUrl": "https://aegispeptidesuk.co.uk"
+  },
+  {
+    "ts": "2026-09-09T22:50:18.173Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
   }
 ]
