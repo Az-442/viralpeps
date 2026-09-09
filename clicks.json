@@ -1844,5 +1844,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "cartalax-20mg",
     "destUrl": "https://purepeptidesuk.com/product/cartalax-20mg/"
+  },
+  {
+    "ts": "2026-09-09T17:09:37.505Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://peptideslabuk.com/product/ghrp-6-acetate/"
   }
 ]
