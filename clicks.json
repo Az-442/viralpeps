@@ -5627,5 +5627,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "dsip-5mg",
     "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-09T22:17:48.702Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-6-10mg",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
