@@ -31227,5 +31227,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://bluewellpeptides.com/product/melanotan-2-mt2-10mg/"
+  },
+  {
+    "ts": "2026-09-09T12:56:00.589Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://leolab.co.uk/peptides/kisspeptin/"
   }
 ]
