@@ -975,5 +975,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://xlpeptides.com/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-09T16:02:39.614Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britpeptides.co.uk/product/semaglutide-10mg-disposable-pen/"
   }
 ]
