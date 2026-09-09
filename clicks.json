@@ -1444,5 +1444,13 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
+  },
+  {
+    "ts": "2026-09-09T16:48:43.592Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
