@@ -25953,5 +25953,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-09T03:25:49.612Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu-50mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
   }
 ]
