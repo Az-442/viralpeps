@@ -25115,5 +25115,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-09T01:17:01.413Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bebetterpeptides.com/products/igf1-lr3-1mg",
+    "refPage": "https://viralpeps.co.uk/vendors/be-better-peptides"
   }
 ]
