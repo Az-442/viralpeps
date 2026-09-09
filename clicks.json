@@ -32133,5 +32133,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://helixcore.co.uk/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-09T13:41:32.892Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "dsip",
+    "destUrl": "https://helixcore.co.uk/products/dsip"
   }
 ]
