@@ -2595,5 +2595,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax-5mg",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-09T18:53:01.555Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
   }
 ]
