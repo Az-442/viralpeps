@@ -2488,5 +2488,14 @@
     "vendorName": "RETA UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://reta-uk.com/products/ss-31"
+  },
+  {
+    "ts": "2026-09-09T18:43:05.464Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide",
+    "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
   }
 ]
