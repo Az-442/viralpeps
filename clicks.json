@@ -4425,5 +4425,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
+  },
+  {
+    "ts": "2026-09-09T20:53:35.584Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
