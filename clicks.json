@@ -28678,5 +28678,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://biohackpeptides.co.uk/product/mots-c-10mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-09T08:32:28.740Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://my-peptides.co.uk/products/kpv"
   }
 ]
