@@ -26711,5 +26711,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.flexpeptides.co.uk/products/glutathione-1500mg"
+  },
+  {
+    "ts": "2026-09-09T05:04:59.388Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghk-cu-100mg-copper-tripeptide-1"
   }
 ]
