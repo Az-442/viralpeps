@@ -26210,5 +26210,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://chromapeptides.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-09T03:59:15.485Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "b7-33",
+    "destUrl": "https://bioplexpeptides.co.uk/products/b7-33"
   }
 ]
