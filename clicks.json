@@ -719,5 +719,12 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ipamorelin-5mg-peptide-research",
     "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research"
+  },
+  {
+    "ts": "2026-09-09T15:40:31.645Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk"
   }
 ]
