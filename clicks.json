@@ -26443,5 +26443,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
+  },
+  {
+    "ts": "2026-09-09T04:34:50.691Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://researchpeptide.co.uk/product/kisspeptin/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/kisspeptin"
   }
 ]
