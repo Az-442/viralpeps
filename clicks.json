@@ -32560,5 +32560,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.novapeptide.co.uk/product/bpc157-10mg/"
+  },
+  {
+    "ts": "2026-09-09T14:05:02.573Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://spxlabs.co.uk/product/mots-c-uk-10mg/"
   }
 ]
