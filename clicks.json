@@ -2048,5 +2048,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://ukpeptidelab.co.uk/product/cagrilintide"
+  },
+  {
+    "ts": "2026-09-09T17:43:43.473Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/"
   }
 ]
