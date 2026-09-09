@@ -4008,5 +4008,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "thymalin",
     "destUrl": "https://tidelabs.co.uk/products/thymalin"
+  },
+  {
+    "ts": "2026-09-09T20:27:32.322Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/"
   }
 ]
