@@ -31628,5 +31628,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg"
+  },
+  {
+    "ts": "2026-09-09T13:13:22.139Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptidelabuk.co.uk/product/pe-22-28-10mg-nasal-spray/"
   }
 ]
