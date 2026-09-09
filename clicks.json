@@ -903,5 +903,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "semax",
     "destUrl": "https://biotideuk.com/products/semax-10-mg"
+  },
+  {
+    "ts": "2026-09-09T15:52:34.988Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
   }
 ]
