@@ -29082,5 +29082,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
+  },
+  {
+    "ts": "2026-09-09T09:19:13.002Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mots-c-mitochondrial-derived-peptide",
+    "destUrl": "https://researchpeptide.co.uk/product/mots-c-mitochondrial-derived-peptide/"
   }
 ]
