@@ -29698,5 +29698,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://peptidesuk.com/hgh-fragment/"
+  },
+  {
+    "ts": "2026-09-09T10:41:57.139Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kpv",
+    "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
