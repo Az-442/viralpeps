@@ -2268,5 +2268,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-09T18:16:42.670Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://spxlabs.co.uk/product/mots-c-uk-10mg/"
   }
 ]
