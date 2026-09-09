@@ -1796,5 +1796,13 @@
     "vendorName": "Research Peptides",
     "destUrl": "https://www.researchpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/research-peptides-uk-main"
+  },
+  {
+    "ts": "2026-09-09T17:02:56.287Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
