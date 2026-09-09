@@ -3037,5 +3037,14 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "pinealon",
     "destUrl": "https://peptidelabuk.co.uk/product/pinealon-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-09T19:29:41.258Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/tesamorelin/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/tesamorelin-research-peptides-uk"
   }
 ]
