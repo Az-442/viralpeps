@@ -6166,5 +6166,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "hexarelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-09T22:57:36.097Z",
+    "type": "vendor-site",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "destUrl": "https://www.flexpeptides.co.uk"
   }
 ]
