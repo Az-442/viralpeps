@@ -2854,5 +2854,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "thymalin",
     "destUrl": "https://bluewellpeptides.com/product/thymalin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T19:18:44.366Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+    "destUrl": "https://researchpeptide.co.uk/product/tesamorelin-13mg-ipamorelin-3mg-16mg-blend/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/tesamorelin-13mg-ipamorelin-3mg-16mg-blend"
   }
 ]
