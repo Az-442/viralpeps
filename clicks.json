@@ -3822,5 +3822,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "thymalin",
     "destUrl": "https://bluewellpeptides.com/product/thymalin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T20:17:10.822Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen"
   }
 ]
