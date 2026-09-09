@@ -5236,5 +5236,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
+  },
+  {
+    "ts": "2026-09-09T21:40:17.554Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-5pack-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/5"
   }
 ]
