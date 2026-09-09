@@ -26767,5 +26767,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-09T05:09:24.808Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin-acetate",
+    "destUrl": "https://researchpeptide.co.uk/product/sermorelin-acetate/"
   }
 ]
