@@ -30754,5 +30754,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptidesx.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-09T12:34:23.533Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/"
   }
 ]
