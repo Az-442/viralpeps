@@ -30400,5 +30400,12 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "semaglutide",
     "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/"
+  },
+  {
+    "ts": "2026-09-09T12:04:11.386Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk"
   }
 ]
