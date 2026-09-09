@@ -605,5 +605,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "cartalax",
     "destUrl": "https://purepeptidesuk.com/product/cartalax-20mg/"
+  },
+  {
+    "ts": "2026-09-09T15:31:38.196Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "klow",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
