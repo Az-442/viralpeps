@@ -31407,5 +31407,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://biotideuk.com/products/reta"
+  },
+  {
+    "ts": "2026-09-09T13:03:34.894Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
