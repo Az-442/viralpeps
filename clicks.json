@@ -27694,5 +27694,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cerebrolysin",
     "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/"
+  },
+  {
+    "ts": "2026-09-09T06:42:54.970Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin"
   }
 ]
