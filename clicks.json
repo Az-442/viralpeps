@@ -24926,5 +24926,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "semax",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
+  },
+  {
+    "ts": "2026-09-09T00:47:29.874Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ss-31-10mg"
   }
 ]
