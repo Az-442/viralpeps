@@ -28767,5 +28767,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-09T08:39:44.947Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
