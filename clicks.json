@@ -6488,5 +6488,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "peg-mgf-2mg",
     "destUrl": "https://researchpeptide.co.uk/product/peg-mgf-2mg/"
+  },
+  {
+    "ts": "2026-09-09T23:34:00.727Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
