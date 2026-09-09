@@ -28481,5 +28481,13 @@
     "vendorSlug": "chilton-labs",
     "vendorName": "Chilton Labs",
     "destUrl": "https://chiltonlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-09T08:26:03.708Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
   }
 ]
