@@ -27067,5 +27067,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://bluewellpeptides.com/product/ss-31-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T05:34:27.638Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/apex-biolabs"
   }
 ]
