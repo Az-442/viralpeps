@@ -31597,5 +31597,12 @@
     "vendorName": "Nupex",
     "compoundSlug": "bpc-157",
     "destUrl": "https://nupex.co.uk/products/buy-bpc-157-peptide-uk"
+  },
+  {
+    "ts": "2026-09-09T13:12:10.658Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com"
   }
 ]
