@@ -5716,5 +5716,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://octagonpeptides.co.uk/product/ss-31-10-mg/"
+  },
+  {
+    "ts": "2026-09-09T22:24:21.494Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-tesa-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
   }
 ]
