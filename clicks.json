@@ -30078,5 +30078,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "semax",
     "destUrl": "https://purepeptidesuk.com/product/semax-5mg/"
+  },
+  {
+    "ts": "2026-09-09T11:17:28.824Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "dsip",
+    "destUrl": "https://helixcore.co.uk/products/dsip"
   }
 ]
