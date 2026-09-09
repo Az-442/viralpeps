@@ -26542,5 +26542,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://www.flexpeptides.co.uk/products/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-09T04:42:43.657Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.proformapeptides.co.uk/product/epitalon-10mg/"
   }
 ]
