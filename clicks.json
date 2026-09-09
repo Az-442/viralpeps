@@ -3927,5 +3927,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
+  },
+  {
+    "ts": "2026-09-09T20:25:35.405Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/"
   }
 ]
