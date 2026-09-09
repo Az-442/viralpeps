@@ -4310,5 +4310,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-09T20:44:44.400Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://olresearch.co.uk/product/mots-c-10mg/",
+    "refPage": "http://m.baidu.com/s?wd=hangf21"
   }
 ]
