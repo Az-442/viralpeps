@@ -6230,5 +6230,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptideslabuk.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-09T23:06:18.253Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/36-ghrp-2-10mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-2"
   }
 ]
