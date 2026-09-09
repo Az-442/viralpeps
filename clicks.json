@@ -879,5 +879,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "semax",
     "destUrl": "https://biotideuk.com/products/semax-10-mg"
+  },
+  {
+    "ts": "2026-09-09T15:50:02.130Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/"
   }
 ]
