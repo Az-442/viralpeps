@@ -2497,5 +2497,13 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide",
     "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
+  },
+  {
+    "ts": "2026-09-09T18:45:37.691Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://helixcore.co.uk/products/ghrp-6"
   }
 ]
