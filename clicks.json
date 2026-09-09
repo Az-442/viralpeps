@@ -991,5 +991,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295-ipamorelin",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-ipamorelin"
+  },
+  {
+    "ts": "2026-09-09T16:03:17.568Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin"
   }
 ]
