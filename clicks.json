@@ -3402,5 +3402,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "melanotan-i",
     "destUrl": "https://researchpeptide.co.uk/product/mt-1-melanotan-1-acetate-10mg/"
+  },
+  {
+    "ts": "2026-09-09T19:54:34.134Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/pen"
   }
 ]
