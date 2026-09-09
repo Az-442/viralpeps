@@ -4245,5 +4245,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-des-1mg/"
+  },
+  {
+    "ts": "2026-09-09T20:40:46.933Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
   }
 ]
