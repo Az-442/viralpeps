@@ -2627,5 +2627,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T18:56:53.032Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kpv-5mg-peptide-research",
+    "destUrl": "https://tidelabs.co.uk/products/kpv-5mg-peptide-research",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
   }
 ]
