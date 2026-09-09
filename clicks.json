@@ -1049,5 +1049,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "klow",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-09T16:07:55.387Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
   }
 ]
