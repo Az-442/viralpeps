@@ -31153,5 +31153,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-09T12:52:49.583Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/"
   }
 ]
