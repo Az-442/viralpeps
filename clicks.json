@@ -28866,5 +28866,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "semax",
     "destUrl": "https://reta-uk.com/products/semax"
+  },
+  {
+    "ts": "2026-09-09T08:51:21.761Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/"
   }
 ]
