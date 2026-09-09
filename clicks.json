@@ -5423,5 +5423,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "oxytocin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/pen"
+  },
+  {
+    "ts": "2026-09-09T21:53:53.578Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-bac-water-3ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-3ml/"
   }
 ]
