@@ -26550,5 +26550,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.proformapeptides.co.uk/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-09T04:43:26.448Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
   }
 ]
