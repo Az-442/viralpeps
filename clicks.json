@@ -27328,5 +27328,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://supplypeptides.co.uk/products/pt-141"
+  },
+  {
+    "ts": "2026-09-09T06:05:04.896Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/"
   }
 ]
