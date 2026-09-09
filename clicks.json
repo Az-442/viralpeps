@@ -28179,5 +28179,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "pt-141-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
+  },
+  {
+    "ts": "2026-09-09T07:48:06.221Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gonadorelin-acetategnrh-2mg",
+    "destUrl": "https://researchpeptide.co.uk/product/gonadorelin-acetategnrh-2mg/"
   }
 ]
