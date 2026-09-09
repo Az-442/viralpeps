@@ -30770,5 +30770,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://mypepbiotech.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-09T12:35:27.828Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://chiltonlabs.co.uk/product/igf-1-lr3-1mg-vial/"
   }
 ]
