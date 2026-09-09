@@ -629,5 +629,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-09T15:34:53.709Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.peptifyuk.com/product/kpv-10mg"
   }
 ]
