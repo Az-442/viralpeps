@@ -30407,5 +30407,13 @@
     "vendorSlug": "apex-biolabs",
     "vendorName": "APEX Biolabs",
     "destUrl": "https://www.apexbiolabs.co.uk"
+  },
+  {
+    "ts": "2026-09-09T12:04:21.766Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://spxlabs.co.uk/product/tesamorelin-uk-10mg/"
   }
 ]
