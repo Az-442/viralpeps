@@ -5350,5 +5350,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-09T21:47:22.018Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biopeptides-uk.com/product/tirzepatide-10mg/"
   }
 ]
