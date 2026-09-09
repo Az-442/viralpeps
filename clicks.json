@@ -27222,5 +27222,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
+  },
+  {
+    "ts": "2026-09-09T05:51:17.643Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
   }
 ]
