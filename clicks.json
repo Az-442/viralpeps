@@ -3474,5 +3474,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-tesa-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen"
+  },
+  {
+    "ts": "2026-09-09T19:58:50.181Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/"
   }
 ]
