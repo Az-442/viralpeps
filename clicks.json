@@ -2725,5 +2725,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-09T19:08:32.847Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/"
   }
 ]
