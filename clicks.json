@@ -30978,5 +30978,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.apex-pharma.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-09T12:45:07.626Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidelabuk.co.uk/product/ghk-cu-50mg-research-peptide/"
   }
 ]
