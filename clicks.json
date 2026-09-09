@@ -459,5 +459,13 @@
     "vendorSlug": "raccoon-peptides",
     "vendorName": "Raccoon Peptides",
     "destUrl": "https://www.raccoonpeptides.com"
+  },
+  {
+    "ts": "2026-09-09T15:19:03.839Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biotideuk.com/products/glutathione-600-mg"
   }
 ]
