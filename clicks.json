@@ -24672,5 +24672,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://chromapeptides.co.uk/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-09T00:00:06.652Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
   }
 ]
