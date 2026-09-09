@@ -695,5 +695,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
+  },
+  {
+    "ts": "2026-09-09T15:39:18.807Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
   }
 ]
