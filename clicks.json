@@ -27434,5 +27434,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
+  },
+  {
+    "ts": "2026-09-09T06:13:34.915Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg"
   }
 ]
