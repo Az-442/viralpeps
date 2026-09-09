@@ -26267,5 +26267,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bioplexpeptides.co.uk/products/klow-80mg-ghk-cu-bpc-tb500-kvp"
+  },
+  {
+    "ts": "2026-09-09T04:05:59.304Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ss-31-10mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/apex-pharma"
   }
 ]
