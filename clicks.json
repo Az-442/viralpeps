@@ -24853,5 +24853,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://my-peptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-09T00:40:06.548Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
   }
 ]
