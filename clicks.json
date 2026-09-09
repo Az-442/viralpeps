@@ -3797,5 +3797,14 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "semax",
     "destUrl": "https://pgnalabs.co.uk/product/semax"
+  },
+  {
+    "ts": "2026-09-09T20:16:21.521Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://octagonpeptides.co.uk/product/cjc-with-dac-5-mg/",
+    "refPage": "https://viralpeps.co.uk/go/octagon-peptides/cjc-1295"
   }
 ]
