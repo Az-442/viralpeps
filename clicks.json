@@ -31502,5 +31502,13 @@
     "vendorSlug": "anglo-peptides",
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com"
+  },
+  {
+    "ts": "2026-09-09T13:07:50.934Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
   }
 ]
