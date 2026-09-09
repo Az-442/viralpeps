@@ -959,5 +959,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kisspeptin-5mg",
     "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-09T16:00:34.735Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
   }
 ]
