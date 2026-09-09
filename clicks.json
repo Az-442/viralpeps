@@ -27522,5 +27522,14 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-09T06:24:03.945Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-2-10mg",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/ghrp-2-10mg"
   }
 ]
