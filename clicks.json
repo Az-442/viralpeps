@@ -5676,5 +5676,13 @@
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides"
+  },
+  {
+    "ts": "2026-09-09T22:21:46.339Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chilton-labs"
   }
 ]
