@@ -4730,5 +4730,14 @@
     "vendorName": "New Wave Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg-20mg"
+  },
+  {
+    "ts": "2026-09-09T21:07:21.548Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ukpeptides.com/catalog/cjc-1295",
+    "refPage": "https://viralpeps.co.uk/go/uk-peptides/cjc-1295"
   }
 ]
