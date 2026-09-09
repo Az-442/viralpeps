@@ -5853,5 +5853,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://bluewellpeptides.com/product/epithalon-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-09T22:35:26.028Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptideslabuk.com/product/glutathione/"
   }
 ]
