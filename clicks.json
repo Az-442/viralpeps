@@ -27393,5 +27393,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "pt-141-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/pt-141-10mg/"
+  },
+  {
+    "ts": "2026-09-09T06:09:36.530Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
   }
 ]
