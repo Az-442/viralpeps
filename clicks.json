@@ -5318,5 +5318,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "epithalon-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/pen"
+  },
+  {
+    "ts": "2026-09-09T21:44:15.624Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://peptidesuk.com/cjc1295-with-dac/"
   }
 ]
