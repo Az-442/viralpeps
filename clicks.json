@@ -32745,5 +32745,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biotideuk.com/products/tesa"
+  },
+  {
+    "ts": "2026-09-09T14:16:43.495Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
   }
 ]
