@@ -734,5 +734,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "hexarelin",
     "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
+  },
+  {
+    "ts": "2026-09-09T15:42:25.051Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/"
   }
 ]
