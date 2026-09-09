@@ -742,5 +742,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "hcg",
     "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/"
+  },
+  {
+    "ts": "2026-09-09T15:42:37.893Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/aod-9604"
   }
 ]
