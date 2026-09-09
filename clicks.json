@@ -14,5 +14,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
+  },
+  {
+    "ts": "2026-09-09T14:40:13.872Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://zentra-peptides.com/product/ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
