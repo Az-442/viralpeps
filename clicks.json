@@ -25065,5 +25065,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://researchpeptide.co.uk/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-09T01:08:20.235Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/"
   }
 ]
