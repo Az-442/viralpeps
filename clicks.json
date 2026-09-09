@@ -6432,5 +6432,12 @@
     "vendorName": "Alphamino",
     "compoundSlug": "nad-plus",
     "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/"
+  },
+  {
+    "ts": "2026-09-09T23:23:18.382Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk"
   }
 ]
