@@ -862,5 +862,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
+  },
+  {
+    "ts": "2026-09-09T15:49:36.121Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://supplypeptides.co.uk/products/sema",
+    "refPage": "https://viralpeps.co.uk/compounds/semaglutide"
   }
 ]
