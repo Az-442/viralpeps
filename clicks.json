@@ -1804,5 +1804,13 @@
     "vendorName": "Research Peptides UK",
     "destUrl": "https://researchpeptide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/research-peptide-uk"
+  },
+  {
+    "ts": "2026-09-09T17:02:58.786Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/reta-uk"
   }
 ]
