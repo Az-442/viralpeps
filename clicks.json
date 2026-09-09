@@ -32269,5 +32269,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-09T13:48:59.463Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://zentra-peptides.com/product/tb-500/"
   }
 ]
