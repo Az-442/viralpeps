@@ -919,5 +919,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-09T15:55:11.720Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
   }
 ]
