@@ -6329,5 +6329,12 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-mots-c-10mg",
     "destUrl": "https://purepeptidesuk.com/product/prem-mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-09T23:16:34.531Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
