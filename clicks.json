@@ -27865,5 +27865,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-09T07:08:02.524Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mots-c-mitochondrial-derived-peptide",
+    "destUrl": "https://researchpeptide.co.uk/product/mots-c-mitochondrial-derived-peptide/"
   }
 ]
