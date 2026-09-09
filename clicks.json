@@ -258,5 +258,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://peptideslabuk.com/product/igf-1lr3/"
+  },
+  {
+    "ts": "2026-09-09T15:05:37.912Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
   }
 ]
