@@ -6586,5 +6586,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biotideuk.com/products/kpv-10-mg"
+  },
+  {
+    "ts": "2026-09-09T23:46:58.395Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "aod-9604-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/vial"
   }
 ]
