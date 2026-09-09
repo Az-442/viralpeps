@@ -31210,5 +31210,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "glow",
     "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-09T12:55:21.805Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/go/dr-peptides/cjc-1295"
   }
 ]
