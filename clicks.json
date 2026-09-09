@@ -30544,5 +30544,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen"
+  },
+  {
+    "ts": "2026-09-09T12:21:20.305Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://leolab.co.uk/peptides/pt-141/"
   }
 ]
