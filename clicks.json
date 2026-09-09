@@ -27985,5 +27985,13 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://aegispeptidesuk.co.uk/product/nad/"
+  },
+  {
+    "ts": "2026-09-09T07:14:15.459Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/"
   }
 ]
