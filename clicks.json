@@ -30842,5 +30842,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptidelabuk.co.uk/product/nad-500mg-research-compound/"
+  },
+  {
+    "ts": "2026-09-09T12:40:10.821Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ss-31-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
   }
 ]
