@@ -31471,5 +31471,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "kpv",
     "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-09T13:06:27.014Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/"
   }
 ]
