@@ -6521,5 +6521,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial"
+  },
+  {
+    "ts": "2026-09-09T23:39:32.914Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ss-31-10mg/"
   }
 ]
