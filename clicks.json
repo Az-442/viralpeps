@@ -1356,5 +1356,13 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://evapeptide.co.uk/product/buy-mots-c-uk/"
+  },
+  {
+    "ts": "2026-09-09T16:39:36.912Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen"
   }
 ]
