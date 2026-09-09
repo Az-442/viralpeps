@@ -32641,5 +32641,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-09T14:09:02.775Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://biotideuk.com/products/cjc-1295-no-dac-5-mg-ipamorelin-5-mg"
   }
 ]
