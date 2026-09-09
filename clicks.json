@@ -6255,5 +6255,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptideslabuk.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-09T23:08:31.264Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://my-peptides.co.uk/products/pt-141"
   }
 ]
