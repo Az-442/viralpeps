@@ -25438,5 +25438,14 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://appliedpeptides.com/store/ols/products/pfizer-hospira-bacteriostatic-water-usp-30ml"
+  },
+  {
+    "ts": "2026-09-09T02:05:51.318Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://astralabs.co.uk/product/mots-c-40mg-uk/",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
