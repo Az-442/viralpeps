@@ -1452,5 +1452,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ara-290-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
+  },
+  {
+    "ts": "2026-09-09T16:49:24.975Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
