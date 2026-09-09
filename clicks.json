@@ -1033,5 +1033,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-no-dac-5-mg-ipamorelin-5-mg-research-peptide-blend/"
+  },
+  {
+    "ts": "2026-09-09T16:05:34.806Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/ghk-cu.html"
   }
 ]
