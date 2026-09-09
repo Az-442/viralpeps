@@ -2741,5 +2741,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.proformapeptides.co.uk/product/bpc-5/"
+  },
+  {
+    "ts": "2026-09-09T19:09:14.896Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg"
   }
 ]
