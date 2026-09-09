@@ -2301,5 +2301,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ipamorelin-10mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-09T18:20:55.448Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
   }
 ]
