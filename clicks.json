@@ -30601,5 +30601,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://biotideuk.com/products/kisspeptin-10-mg"
+  },
+  {
+    "ts": "2026-09-09T12:25:00.380Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://mypepbiotech.co.uk/product/bpc-157/"
   }
 ]
