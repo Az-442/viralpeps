@@ -26168,5 +26168,14 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://precision-peptides.shop/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-09T03:54:43.319Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/bpc157-10mg",
+    "refPage": "https://viralpeps.co.uk/vendors/applied-peptides"
   }
 ]
