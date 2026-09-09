@@ -838,5 +838,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/dsip/"
+  },
+  {
+    "ts": "2026-09-09T15:48:41.119Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://helixcore.co.uk/products/mots-c"
   }
 ]
