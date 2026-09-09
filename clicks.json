@@ -2220,5 +2220,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.flexpeptides.co.uk/products/mots-c-20mg"
+  },
+  {
+    "ts": "2026-09-09T18:08:45.452Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.buyreta.co.uk/product/bac-water-uk"
   }
 ]
