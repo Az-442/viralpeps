@@ -6173,5 +6173,13 @@
     "vendorSlug": "flex-peptides",
     "vendorName": "Flex Peptides",
     "destUrl": "https://www.flexpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-09T22:58:13.242Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://oplabs.co.uk/product/ghk-cu-50mg/"
   }
 ]
