@@ -1162,5 +1162,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "tesamorelin-15mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/"
+  },
+  {
+    "ts": "2026-09-09T16:17:17.289Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
