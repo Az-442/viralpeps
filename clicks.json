@@ -6079,5 +6079,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial"
+  },
+  {
+    "ts": "2026-09-09T22:49:35.919Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk"
   }
 ]
