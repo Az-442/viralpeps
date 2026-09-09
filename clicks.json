@@ -25555,5 +25555,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://peptideslabuk.com/product/follistatin/"
+  },
+  {
+    "ts": "2026-09-09T02:35:20.916Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/"
   }
 ]
