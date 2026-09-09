@@ -29018,5 +29018,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg"
+  },
+  {
+    "ts": "2026-09-09T09:08:25.031Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
   }
 ]
