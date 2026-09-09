@@ -28122,5 +28122,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/"
+  },
+  {
+    "ts": "2026-09-09T07:38:01.302Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "mots-c-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
   }
 ]
