@@ -30160,5 +30160,14 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-09T11:32:37.486Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+    "refPage": "https://viralpeps.co.uk/go/research-peptides-uk-main/cjc-1295"
   }
 ]
