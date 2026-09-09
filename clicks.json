@@ -822,5 +822,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "bpc-157",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-09T15:47:33.921Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/"
   }
 ]
