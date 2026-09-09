@@ -29002,5 +29002,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "cjc-1295-no-dac-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-09T09:07:10.055Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
