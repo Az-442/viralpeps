@@ -1500,5 +1500,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-09T16:52:53.625Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biohackpeptides.co.uk/product/mots-c-10mg-3ml-bac-water/"
   }
 ]
