@@ -2902,5 +2902,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
+  },
+  {
+    "ts": "2026-09-09T19:22:40.625Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/"
   }
 ]
