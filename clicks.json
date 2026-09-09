@@ -31952,5 +31952,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptideslabuk.com/product/nad/"
+  },
+  {
+    "ts": "2026-09-09T13:33:55.608Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/"
   }
 ]
