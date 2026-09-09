@@ -2894,5 +2894,13 @@
     "vendorSlug": "peptides-lab-uk",
     "vendorName": "Peptides Lab UK",
     "destUrl": "https://peptideslabuk.com"
+  },
+  {
+    "ts": "2026-09-09T19:21:38.743Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
   }
 ]
