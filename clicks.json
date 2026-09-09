@@ -1580,5 +1580,13 @@
     "vendorName": "BioTide UK",
     "destUrl": "https://biotideuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/biotide-uk"
+  },
+  {
+    "ts": "2026-09-09T17:00:44.740Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides"
   }
 ]
