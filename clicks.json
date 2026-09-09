@@ -306,5 +306,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-09T15:10:06.333Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biopeptides-uk.com/product/5-amino-1mq-5mg/"
   }
 ]
