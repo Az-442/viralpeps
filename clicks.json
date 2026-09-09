@@ -27654,5 +27654,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.peptidesonline.uk/shop/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-09T06:39:02.841Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
   }
 ]
