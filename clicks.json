@@ -3321,5 +3321,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial"
+  },
+  {
+    "ts": "2026-09-09T19:51:40.229Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
   }
 ]
