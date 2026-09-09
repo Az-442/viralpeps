@@ -2925,5 +2925,14 @@
     "vendorSlug": "leolab",
     "vendorName": "LeoLab Peptides UK",
     "destUrl": "https://leolab.co.uk"
+  },
+  {
+    "ts": "2026-09-09T19:24:37.559Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ipamorelin-5-mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
