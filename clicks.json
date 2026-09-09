@@ -31684,5 +31684,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biotideuk.com/products/nad-500-mg"
+  },
+  {
+    "ts": "2026-09-09T13:15:41.851Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/ghk-cu.html"
   }
 ]
