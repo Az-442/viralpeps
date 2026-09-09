@@ -1252,5 +1252,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "kpv",
     "destUrl": "https://peptideslabuk.com/product/kpv/"
+  },
+  {
+    "ts": "2026-09-09T16:26:17.579Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://olresearch.co.uk/product/selank-5mg/"
   }
 ]
