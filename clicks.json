@@ -26334,5 +26334,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/semax"
+  },
+  {
+    "ts": "2026-09-09T04:14:02.974Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-60-capsules",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-60-capsules/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/tesofensine-500mcg-60-capsules"
   }
 ]
