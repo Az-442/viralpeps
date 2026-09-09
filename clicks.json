@@ -5821,5 +5821,13 @@
     "vendorSlug": "spx-labs",
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-09T22:32:21.861Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.stratfordpeptides.com/products/epitalon"
   }
 ]
