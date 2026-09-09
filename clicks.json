@@ -32656,5 +32656,13 @@
     "vendorSlug": "astra-labs",
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk"
+  },
+  {
+    "ts": "2026-09-09T14:09:52.738Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://helixcore.co.uk/products/bacteriostatic-water"
   }
 ]
