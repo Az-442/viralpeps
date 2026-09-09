@@ -2910,5 +2910,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-09T19:23:41.953Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
