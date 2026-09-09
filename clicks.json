@@ -28686,5 +28686,14 @@
     "vendorName": "My Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://my-peptides.co.uk/products/kpv"
+  },
+  {
+    "ts": "2026-09-09T08:32:47.736Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/epithalon"
   }
 ]
