@@ -4970,5 +4970,14 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.apex-pharma.co.uk/product/bpc-10mg/"
+  },
+  {
+    "ts": "2026-09-09T21:22:24.162Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/pt-141-bremelanotide"
   }
 ]
