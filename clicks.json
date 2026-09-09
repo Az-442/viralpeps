@@ -2670,5 +2670,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "kpv",
     "destUrl": "https://peptideslabuk.com/product/kpv/"
+  },
+  {
+    "ts": "2026-09-09T19:05:56.615Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen"
   }
 ]
