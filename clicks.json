@@ -27165,5 +27165,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.peptidesonline.uk/shop/pt-141/"
+  },
+  {
+    "ts": "2026-09-09T05:44:20.337Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/"
   }
 ]
