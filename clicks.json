@@ -6513,5 +6513,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
+  },
+  {
+    "ts": "2026-09-09T23:38:27.728Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghk-cu-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial"
   }
 ]
