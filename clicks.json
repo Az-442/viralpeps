@@ -1907,5 +1907,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.apexbiolabs.co.uk/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-09T17:20:02.467Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ghk-cu/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/ghk-cu-research-peptides-uk"
   }
 ]
