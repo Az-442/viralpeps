@@ -5692,5 +5692,13 @@
     "vendorName": "Chilton Labs",
     "destUrl": "https://chiltonlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/chilton-labs"
+  },
+  {
+    "ts": "2026-09-09T22:22:11.041Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
   }
 ]
