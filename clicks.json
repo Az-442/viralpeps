@@ -27450,5 +27450,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-09T06:14:45.709Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://zentra-peptides.com/product/semax/"
   }
 ]
