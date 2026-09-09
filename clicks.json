@@ -1708,5 +1708,13 @@
     "vendorName": "New Wave Peptides",
     "destUrl": "https://newwavepeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/new-wave-peptides"
+  },
+  {
+    "ts": "2026-09-09T17:01:55.384Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/nova-peptide"
   }
 ]
