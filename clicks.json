@@ -4642,5 +4642,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
+  },
+  {
+    "ts": "2026-09-09T21:02:10.634Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/"
   }
 ]
