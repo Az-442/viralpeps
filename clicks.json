@@ -27198,5 +27198,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesonline.uk/shop/tb-500/"
+  },
+  {
+    "ts": "2026-09-09T05:48:48.252Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://zentra-peptides.com/product/semax/"
   }
 ]
