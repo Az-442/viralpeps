@@ -4861,5 +4861,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
+  },
+  {
+    "ts": "2026-09-09T21:16:56.958Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-tb-500-ghk-cu-kpv-80mg"
   }
 ]
