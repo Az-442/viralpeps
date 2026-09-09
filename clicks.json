@@ -25995,5 +25995,14 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.testedpeptides.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-09T03:32:50.553Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-6-5mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-5mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/ghrp-6-5mg-research-peptides-uk"
   }
 ]
