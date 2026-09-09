@@ -28089,5 +28089,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-09T07:34:41.081Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
   }
 ]
