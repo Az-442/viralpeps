@@ -1941,5 +1941,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glow",
     "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
+  },
+  {
+    "ts": "2026-09-09T17:28:43.036Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "pt-141-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
   }
 ]
