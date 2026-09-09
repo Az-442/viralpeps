@@ -1428,5 +1428,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://xlpeptides.com/product/ghrp-6-10mg/"
+  },
+  {
+    "ts": "2026-09-09T16:47:01.783Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/"
   }
 ]
