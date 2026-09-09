@@ -28615,5 +28615,12 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin"
+  },
+  {
+    "ts": "2026-09-09T08:30:37.334Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com"
   }
 ]
