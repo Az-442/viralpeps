@@ -3305,5 +3305,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/"
+  },
+  {
+    "ts": "2026-09-09T19:49:33.167Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
