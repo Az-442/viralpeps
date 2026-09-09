@@ -2822,5 +2822,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://precision-peptides.shop/product/mot-c-10mg/"
+  },
+  {
+    "ts": "2026-09-09T19:17:04.844Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "nad-500mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
   }
 ]
