@@ -5026,5 +5026,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "hexarelin-2mg",
     "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/"
+  },
+  {
+    "ts": "2026-09-09T21:25:15.779Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/thymosin-alpha-1-research-peptide/"
   }
 ]
