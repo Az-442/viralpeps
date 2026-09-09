@@ -27841,5 +27841,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
+  },
+  {
+    "ts": "2026-09-09T07:04:06.052Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
   }
 ]
