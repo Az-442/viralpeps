@@ -4376,5 +4376,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glow",
     "destUrl": "https://biotideuk.com/products/glow-stack-70-mg"
+  },
+  {
+    "ts": "2026-09-09T20:50:16.515Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "pbs-10ml",
+    "destUrl": "https://purepeptidesuk.com/product/pbs-10ml/"
   }
 ]
