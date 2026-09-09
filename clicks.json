@@ -32908,5 +32908,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptideslabuk.com/product/nad/"
+  },
+  {
+    "ts": "2026-09-09T14:33:12.749Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://astralabs.co.uk/product/retatrutide-10mg-uk/"
   }
 ]
