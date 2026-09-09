@@ -927,5 +927,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-09T15:55:38.217Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
   }
 ]
