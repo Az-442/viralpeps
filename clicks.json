@@ -31612,5 +31612,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-09T13:12:53.873Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
   }
 ]
