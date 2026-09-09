@@ -5276,5 +5276,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bundle-mito-stack",
     "destUrl": "https://purepeptidesuk.com/product/bundle-mito-stack/"
+  },
+  {
+    "ts": "2026-09-09T21:42:14.261Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
   }
 ]
