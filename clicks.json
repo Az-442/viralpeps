@@ -27051,5 +27051,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg"
+  },
+  {
+    "ts": "2026-09-09T05:33:03.381Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg"
   }
 ]
