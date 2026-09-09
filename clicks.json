@@ -6352,5 +6352,12 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-09T23:17:01.522Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk"
   }
 ]
