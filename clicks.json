@@ -32544,5 +32544,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://biotideuk.com/products/tb-500"
+  },
+  {
+    "ts": "2026-09-09T14:04:15.979Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/"
   }
 ]
