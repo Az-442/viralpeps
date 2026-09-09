@@ -32189,5 +32189,12 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.novapeptide.co.uk/product/bpc157-10mg/"
+  },
+  {
+    "ts": "2026-09-09T13:44:22.400Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk"
   }
 ]
