@@ -5211,5 +5211,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://biotideuk.com/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-09T21:38:11.063Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/"
   }
 ]
