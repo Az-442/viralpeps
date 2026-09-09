@@ -25315,5 +25315,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://my-peptides.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-09T01:46:01.810Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/81-tesamorelin-10mg.html"
   }
 ]
