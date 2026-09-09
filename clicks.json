@@ -467,5 +467,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://biotideuk.com/products/glutathione-600-mg"
+  },
+  {
+    "ts": "2026-09-09T15:19:17.035Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bpc-157/"
   }
 ]
