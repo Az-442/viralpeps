@@ -26800,5 +26800,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "peg-mgf-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/vial"
+  },
+  {
+    "ts": "2026-09-09T05:11:36.180Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gonadorelin-acetategnrh-2mg",
+    "destUrl": "https://researchpeptide.co.uk/product/gonadorelin-acetategnrh-2mg/"
   }
 ]
