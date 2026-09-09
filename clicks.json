@@ -5700,5 +5700,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
+  },
+  {
+    "ts": "2026-09-09T22:23:04.288Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://tidelabs.co.uk/products/peg-mgf"
   }
 ]
