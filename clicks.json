@@ -1875,5 +1875,13 @@
     "vendorSlug": "research-peptide-uk",
     "vendorName": "Research Peptides UK",
     "destUrl": "https://researchpeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-09T17:11:02.474Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
   }
 ]
