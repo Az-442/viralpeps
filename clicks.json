@@ -32859,5 +32859,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
+  },
+  {
+    "ts": "2026-09-09T14:26:47.848Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-BACT-3"
   }
 ]
