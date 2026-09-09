@@ -26526,5 +26526,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://researchpeptide.co.uk/product/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-09T04:40:46.774Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial"
   }
 ]
