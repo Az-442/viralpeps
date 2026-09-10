@@ -13650,5 +13650,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-10T09:07:20.556Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg"
   }
 ]
