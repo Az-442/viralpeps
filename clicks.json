@@ -22335,5 +22335,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://bioplexpeptides.co.uk/products/dsip-15mg-dsip-nonapeptide"
+  },
+  {
+    "ts": "2026-09-10T23:54:07.953Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vip-5mg-research-peptide-for-laboratory-use-only/"
   }
 ]
