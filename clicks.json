@@ -13890,5 +13890,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://pgnalabs.co.uk/product/nad"
+  },
+  {
+    "ts": "2026-09-10T09:08:37.206Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ovagen/"
   }
 ]
