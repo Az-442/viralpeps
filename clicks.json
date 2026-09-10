@@ -14374,5 +14374,12 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "tesamorelin-15mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/"
+  },
+  {
+    "ts": "2026-09-10T10:03:28.824Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com"
   }
 ]
