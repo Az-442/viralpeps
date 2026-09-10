@@ -18709,5 +18709,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "hcg",
     "destUrl": "https://peptideslabuk.com/product/hcg/"
+  },
+  {
+    "ts": "2026-09-10T15:17:36.773Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
   }
 ]
