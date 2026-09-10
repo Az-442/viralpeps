@@ -12033,5 +12033,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ghrp-2-5mg",
     "destUrl": "https://purepeptidesuk.com/product/ghrp-2-5mg/"
+  },
+  {
+    "ts": "2026-09-10T07:32:12.011Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-gh-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-gh-stack/"
   }
 ]
