@@ -13994,5 +13994,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "pt-141-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/pt-141-nasal-spray"
+  },
+  {
+    "ts": "2026-09-10T09:09:09.279Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptides.com/catalog/retatrutide"
   }
 ]
