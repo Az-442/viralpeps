@@ -21692,5 +21692,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://bluewellpeptides.com/product/igf1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-10T22:27:18.594Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://my-peptides.co.uk/products/nad-kit"
   }
 ]
