@@ -21606,5 +21606,12 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptx.co.uk/shop",
     "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
+  },
+  {
+    "ts": "2026-09-10T22:19:31.736Z",
+    "type": "vendor-site",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "destUrl": "https://www.flexpeptides.co.uk"
   }
 ]
