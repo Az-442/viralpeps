@@ -21255,5 +21255,12 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-10T21:38:41.578Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com"
   }
 ]
