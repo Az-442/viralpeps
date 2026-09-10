@@ -11595,5 +11595,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "hexarelin",
     "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/"
+  },
+  {
+    "ts": "2026-09-10T07:00:58.859Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://pgnalabs.co.uk/product/igf-1lr3",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
   }
 ]
