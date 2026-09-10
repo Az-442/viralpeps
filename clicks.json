@@ -6908,5 +6908,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://helixcore.co.uk/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-10T00:20:02.583Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://helixcore.co.uk/products/ll-37"
   }
 ]
