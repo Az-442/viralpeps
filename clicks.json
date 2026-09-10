@@ -21413,5 +21413,12 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.raccoonpeptides.com/peptides/29-dsip-5mg.html"
+  },
+  {
+    "ts": "2026-09-10T21:57:10.847Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co"
   }
 ]
