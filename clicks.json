@@ -19751,5 +19751,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesonline.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-10T18:30:43.659Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/",
+    "refPage": "https://viralpeps.co.uk/compounds/glow"
   }
 ]
