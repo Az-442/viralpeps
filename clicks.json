@@ -22151,5 +22151,12 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://oplabs.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-10T23:27:31.822Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "destUrl": "https://peptidelabuk.co.uk"
   }
 ]
