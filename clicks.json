@@ -8470,5 +8470,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-alpha-1-10mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/"
+  },
+  {
+    "ts": "2026-09-10T02:20:52.882Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/adipotide-ftpp-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/adipotide-ftpp-5mg"
   }
 ]
