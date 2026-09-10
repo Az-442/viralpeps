@@ -9649,5 +9649,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-10T03:11:27.154Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
