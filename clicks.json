@@ -15683,5 +15683,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bluewellpeptides.com/product/5-amino-1mq-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:03:14.685Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://helixcore.co.uk/products/5-amino-1mq"
   }
 ]
