@@ -16523,5 +16523,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "follistatin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/pen"
+  },
+  {
+    "ts": "2026-09-10T13:06:15.807Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-6-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/pen"
   }
 ]
