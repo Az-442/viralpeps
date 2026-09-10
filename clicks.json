@@ -6781,5 +6781,14 @@
     "vendorSlug": "express-peptides",
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T00:11:24.996Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ascendpeptidesuk.com/products/cjc-1295-with-dac/",
+    "refPage": "https://viralpeps.co.uk/go/ascend-peptides/cjc-1295"
   }
 ]
