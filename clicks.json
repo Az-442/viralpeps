@@ -19428,5 +19428,13 @@
     "vendorSlug": "ol-research",
     "vendorName": "OL Research",
     "destUrl": "https://olresearch.co.uk"
+  },
+  {
+    "ts": "2026-09-10T17:20:50.651Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
   }
 ]
