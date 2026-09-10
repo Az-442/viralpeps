@@ -7958,5 +7958,14 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg"
+  },
+  {
+    "ts": "2026-09-10T01:48:59.828Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
