@@ -12987,5 +12987,13 @@
     "vendorSlug": "cmsr-labs",
     "vendorName": "CMSR Labs",
     "destUrl": "https://cmsrlabs.co"
+  },
+  {
+    "ts": "2026-09-10T08:28:50.836Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://kensingtonlabs.co.uk/product/hexarelin-acetate-5/"
   }
 ]
