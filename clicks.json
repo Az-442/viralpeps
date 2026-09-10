@@ -21041,5 +21041,13 @@
     "type": "product",
     "vendorSlug": "test",
     "compoundSlug": "test"
+  },
+  {
+    "ts": "2026-09-10T21:21:14.622Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ukpeptidelab.co.uk/product/tb-500"
   }
 ]
