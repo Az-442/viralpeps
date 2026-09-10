@@ -18962,5 +18962,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
+  },
+  {
+    "ts": "2026-09-10T16:10:49.790Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
   }
 ]
