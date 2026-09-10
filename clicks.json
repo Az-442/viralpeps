@@ -20476,5 +20476,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptidelabuk.co.uk/product/nad-500mg-research-compound/"
+  },
+  {
+    "ts": "2026-09-10T20:18:58.300Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/"
   }
 ]
