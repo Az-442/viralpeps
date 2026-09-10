@@ -13233,5 +13233,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-10T09:02:52.875Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.peptifyuk.com/product/bpc-157-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157"
   }
 ]
