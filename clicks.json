@@ -22039,5 +22039,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "follistatin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
+  },
+  {
+    "ts": "2026-09-10T23:13:34.668Z",
+    "type": "vendor-site",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "destUrl": "https://www.imperialpeptides.co.uk"
   }
 ]
