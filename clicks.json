@@ -14250,5 +14250,13 @@
     "vendorSlug": "astra-labs",
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk"
+  },
+  {
+    "ts": "2026-09-10T09:43:03.114Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
