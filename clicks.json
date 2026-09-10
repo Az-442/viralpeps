@@ -6797,5 +6797,13 @@
     "vendorSlug": "apex-pharma",
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk"
+  },
+  {
+    "ts": "2026-09-10T00:13:39.074Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://oplabs.co.uk/product/ghrp-6-5mg/"
   }
 ]
