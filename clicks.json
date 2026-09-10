@@ -20275,5 +20275,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptidesonline.uk/shop/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-10T19:49:21.437Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://reta-uk.com/products/pt-141",
+    "refPage": "https://viralpeps.co.uk/compounds/pt-141-bremelanotide"
   }
 ]
