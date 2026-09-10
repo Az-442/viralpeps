@@ -20060,5 +20060,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "oxytocin",
     "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/"
+  },
+  {
+    "ts": "2026-09-10T19:18:34.901Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ghk-cu-100mg/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/ghk-cu"
   }
 ]
