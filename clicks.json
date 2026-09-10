@@ -6980,5 +6980,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://oplabs.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-10T00:20:25.228Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://helixcore.co.uk/products/thymalin"
   }
 ]
