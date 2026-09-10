@@ -14281,5 +14281,14 @@
     "vendorSlug": "chilton-labs",
     "vendorName": "Chilton Labs",
     "destUrl": "https://chiltonlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-10T09:50:06.214Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
