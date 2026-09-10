@@ -19510,5 +19510,12 @@
     "vendorSlug": "mypep-biotech",
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk"
+  },
+  {
+    "ts": "2026-09-10T17:32:43.383Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk"
   }
 ]
