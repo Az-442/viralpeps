@@ -20906,5 +20906,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.peptidesonline.uk/shop/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-10T21:07:28.874Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://premiopeptides.co.uk/compounds/glutathione",
+    "refPage": "https://viralpeps.co.uk/compounds/glutathione"
   }
 ]
