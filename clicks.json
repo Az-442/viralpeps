@@ -14274,5 +14274,12 @@
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk",
     "refPage": "https://www.viralpeps.co.uk"
+  },
+  {
+    "ts": "2026-09-10T09:43:52.113Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk"
   }
 ]
