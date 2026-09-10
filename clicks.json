@@ -7130,5 +7130,13 @@
     "vendorSlug": "bluewell-peptides",
     "vendorName": "Bluewell Peptides",
     "destUrl": "https://bluewellpeptides.com"
+  },
+  {
+    "ts": "2026-09-10T00:30:19.241Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/"
   }
 ]
