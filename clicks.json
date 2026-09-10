@@ -10816,5 +10816,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "semax",
     "destUrl": "https://reta-uk.com/products/semax"
+  },
+  {
+    "ts": "2026-09-10T05:14:48.149Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://peptideslabuk.com/product/hcg/"
   }
 ]
