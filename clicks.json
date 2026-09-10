@@ -19669,5 +19669,14 @@
     "vendorSlug": "astra-labs",
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk"
+  },
+  {
+    "ts": "2026-09-10T18:04:37.024Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-glow-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-glow-stack/",
+    "refPage": "https://viralpeps.co.uk/compounds/bundle-glow-stack"
   }
 ]
