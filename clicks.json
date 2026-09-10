@@ -16419,5 +16419,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipamorelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
+  },
+  {
+    "ts": "2026-09-10T13:05:53.686Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial"
   }
 ]
