@@ -8551,5 +8551,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bundle-mito-stack",
     "destUrl": "https://purepeptidesuk.com/product/bundle-mito-stack/"
+  },
+  {
+    "ts": "2026-09-10T02:23:38.791Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.apex-pharma.co.uk/product/nad-100mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
