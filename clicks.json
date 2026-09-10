@@ -20627,5 +20627,13 @@
     "vendorSlug": "peptides-uk",
     "vendorName": "Peptides UK",
     "destUrl": "https://peptidesuk.com"
+  },
+  {
+    "ts": "2026-09-10T20:43:04.318Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ss-31-10mg-research-peptide-for-laboratory-use-only/"
   }
 ]
