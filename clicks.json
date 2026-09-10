@@ -11251,5 +11251,12 @@
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-5mg-no-dac/",
     "refPage": "https://viralpeps.co.uk/vendors/tested-peptides"
+  },
+  {
+    "ts": "2026-09-10T06:26:13.190Z",
+    "type": "vendor-site",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "destUrl": "https://supplypeptides.co.uk"
   }
 ]
