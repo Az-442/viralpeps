@@ -7321,5 +7321,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/"
+  },
+  {
+    "ts": "2026-09-10T00:56:59.600Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "melatonin-10mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/melatonin-10mg/"
   }
 ]
