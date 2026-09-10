@@ -19566,5 +19566,12 @@
     "vendorName": "Alphamino",
     "compoundSlug": "ss-31-10mg-imperial",
     "destUrl": "https://alphamino.co.uk/shop/ss-31/"
+  },
+  {
+    "ts": "2026-09-10T17:45:01.092Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk"
   }
 ]
