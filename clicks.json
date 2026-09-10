@@ -18091,5 +18091,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "5-amino-1mq-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/5-amino-1mq/"
+  },
+  {
+    "ts": "2026-09-10T13:55:46.011Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/"
   }
 ]
