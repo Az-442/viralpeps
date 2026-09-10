@@ -15062,5 +15062,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://biopeptides-uk.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-10T12:02:17.309Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://oplabs.co.uk/product/ghk-cu-50mg/"
   }
 ]
