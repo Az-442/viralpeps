@@ -9931,5 +9931,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.proformapeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-10T03:23:36.737Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kpv"
   }
 ]
