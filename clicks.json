@@ -15803,5 +15803,13 @@
     "vendorName": "Be Better Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg"
+  },
+  {
+    "ts": "2026-09-10T13:03:51.872Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
