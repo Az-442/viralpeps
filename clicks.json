@@ -7877,5 +7877,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "klow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/klow"
+  },
+  {
+    "ts": "2026-09-10T01:42:23.977Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/pal-ghk-10mg"
   }
 ]
