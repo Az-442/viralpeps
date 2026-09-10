@@ -21620,5 +21620,13 @@
     "vendorSlug": "peptx",
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk"
+  },
+  {
+    "ts": "2026-09-10T22:20:01.015Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://oplabs.co.uk/product/ghrp-2-10mg/"
   }
 ]
