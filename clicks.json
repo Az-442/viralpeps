@@ -7027,5 +7027,13 @@
     "vendorSlug": "helix-core",
     "vendorName": "HelixCore",
     "destUrl": "https://helixcore.co.uk"
+  },
+  {
+    "ts": "2026-09-10T00:21:20.915Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.peptifyuk.com/product/bpc-157-10mg"
   }
 ]
