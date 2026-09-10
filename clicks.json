@@ -12780,5 +12780,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-10T08:14:36.979Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://helixcore.co.uk/products/ss-31"
   }
 ]
