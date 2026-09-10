@@ -21900,5 +21900,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/"
+  },
+  {
+    "ts": "2026-09-10T22:58:59.724Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
   }
 ]
