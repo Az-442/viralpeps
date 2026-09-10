@@ -11044,5 +11044,14 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
+  },
+  {
+    "ts": "2026-09-10T05:51:00.978Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptides.com/catalog/retatrutide",
+    "refPage": "https://viralpeps.co.uk/compounds/retatrutide"
   }
 ]
