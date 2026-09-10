@@ -10739,5 +10739,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
+  },
+  {
+    "ts": "2026-09-10T05:06:28.216Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://bioplexpeptides.co.uk/products/melanotan-2-10mg-afamelanotide"
   }
 ]
