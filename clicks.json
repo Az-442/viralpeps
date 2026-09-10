@@ -14600,5 +14600,13 @@
     "vendorSlug": "form-peptides",
     "vendorName": "FORM Peptides",
     "destUrl": "https://formpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T10:41:22.722Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://olresearch.co.uk/product/pt-141-10mg/"
   }
 ]
