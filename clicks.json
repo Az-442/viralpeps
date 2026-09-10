@@ -7621,5 +7621,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "hcg-human-chorionic-gonadotropin",
     "destUrl": "https://researchpeptide.co.uk/product/hcg-human-chorionic-gonadotropin/"
+  },
+  {
+    "ts": "2026-09-10T01:22:06.303Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk"
   }
 ]
