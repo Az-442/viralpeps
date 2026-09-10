@@ -12603,5 +12603,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-ghk-cu-50mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-10T08:02:59.171Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
