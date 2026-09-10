@@ -20052,5 +20052,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.flexpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-10T19:15:47.734Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/"
   }
 ]
