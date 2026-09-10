@@ -9529,5 +9529,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/"
+  },
+  {
+    "ts": "2026-09-10T03:05:32.930Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopeptides-uk.com/product/dsip-15mg/"
   }
 ]
