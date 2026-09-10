@@ -15531,5 +15531,13 @@
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-10T13:01:45.493Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/"
   }
 ]
