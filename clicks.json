@@ -20816,5 +20816,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
+  },
+  {
+    "ts": "2026-09-10T20:58:42.938Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://premiopeptides.co.uk/compounds/kpv",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
