@@ -14454,5 +14454,14 @@
     "vendorName": "LeoLab Peptides UK",
     "destUrl": "https://leolab.co.uk",
     "refPage": "https://www.viralpeps.co.uk"
+  },
+  {
+    "ts": "2026-09-10T10:19:29.726Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "dsip",
+    "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
