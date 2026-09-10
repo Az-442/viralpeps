@@ -19003,5 +19003,12 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "glow",
     "destUrl": "https://pgnalabs.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-10T16:15:45.265Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk"
   }
 ]
