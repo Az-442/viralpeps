@@ -10698,5 +10698,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "pinealon",
     "destUrl": "https://biopeptides-uk.com/product/pinealon-10mg/"
+  },
+  {
+    "ts": "2026-09-10T05:02:12.341Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/"
   }
 ]
