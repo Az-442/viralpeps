@@ -14316,5 +14316,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-10T09:50:32.575Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg"
   }
 ]
