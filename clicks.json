@@ -20394,5 +20394,14 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-research-peptide/"
+  },
+  {
+    "ts": "2026-09-10T20:06:33.780Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "bacteriostatic-water-0-9-sodium-chloride",
+    "destUrl": "https://researchpeptide.co.uk/product/bacteriostatic-water-0-9-sodium-chloride/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
