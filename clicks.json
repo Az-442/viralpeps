@@ -15422,5 +15422,13 @@
     "vendorSlug": "form-peptides",
     "vendorName": "FORM Peptides",
     "destUrl": "https://formpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T12:49:15.570Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
   }
 ]
