@@ -7805,5 +7805,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-dac"
+  },
+  {
+    "ts": "2026-09-10T01:35:10.934Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-60-capsules",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-60-capsules/"
   }
 ]
