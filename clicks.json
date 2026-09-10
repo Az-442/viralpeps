@@ -20987,5 +20987,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://chiltonlabs.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-10T21:16:07.490Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://precision-peptides.shop/product/glp-2-tirz-15mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
