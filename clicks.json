@@ -15110,5 +15110,12 @@
     "vendorName": "BioTide UK",
     "destUrl": "https://biotideuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/biotide-uk"
+  },
+  {
+    "ts": "2026-09-10T12:07:23.846Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com"
   }
 ]
