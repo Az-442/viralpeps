@@ -21635,5 +21635,13 @@
     "vendorSlug": "peptx",
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk"
+  },
+  {
+    "ts": "2026-09-10T22:21:15.403Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bpc-157-5mg",
+    "destUrl": "https://bluewellpeptides.com/product/bpc-157-5mg/"
   }
 ]
