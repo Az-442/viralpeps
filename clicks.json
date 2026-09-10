@@ -10857,5 +10857,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://bluewellpeptides.com/product/l-glutathione-1500-mg/"
+  },
+  {
+    "ts": "2026-09-10T05:22:01.746Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
