@@ -16235,5 +16235,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://premiopeptides.co.uk/compounds/dsip"
+  },
+  {
+    "ts": "2026-09-10T13:05:19.626Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://rawpeptides.co.uk/product/dsip-10mg/"
   }
 ]
