@@ -17650,5 +17650,12 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biotideuk.com/products/thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-10T13:27:46.953Z",
+    "type": "vendor-site",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "destUrl": "https://greymatterpeptides.co.uk"
   }
 ]
