@@ -21958,5 +21958,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
+  },
+  {
+    "ts": "2026-09-10T23:05:18.278Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide"
   }
 ]
