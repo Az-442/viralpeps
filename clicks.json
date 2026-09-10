@@ -10248,5 +10248,14 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
+  },
+  {
+    "ts": "2026-09-10T03:51:13.509Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "pt-141-10mg",
+    "destUrl": "https://researchpeptide.co.uk/product/pt-141-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/pt-141-10mg"
   }
 ]
