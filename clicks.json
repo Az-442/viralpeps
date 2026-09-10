@@ -20777,5 +20777,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "nad-500mg",
     "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
+  },
+  {
+    "ts": "2026-09-10T20:55:54.963Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://oplabs.co.uk/product/cjc-1295-without-dac-2mg/"
   }
 ]
