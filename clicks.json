@@ -10841,5 +10841,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-10T05:17:51.823Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/tirzepatide.html"
   }
 ]
