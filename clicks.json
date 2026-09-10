@@ -10306,5 +10306,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "mots-c-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/mots-c"
+  },
+  {
+    "ts": "2026-09-10T03:59:34.086Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157"
   }
 ]
