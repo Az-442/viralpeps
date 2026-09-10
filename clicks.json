@@ -13338,5 +13338,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://ukpeptides.com/catalog/aod-9604"
+  },
+  {
+    "ts": "2026-09-10T09:05:48.539Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
