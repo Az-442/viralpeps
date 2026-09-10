@@ -8205,5 +8205,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biotideuk.com/products/kpv-10-mg"
+  },
+  {
+    "ts": "2026-09-10T02:08:19.346Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta"
   }
 ]
