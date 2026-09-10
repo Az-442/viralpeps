@@ -21787,5 +21787,12 @@
     "vendorSlug": "eva-peptide",
     "vendorName": "Eva Peptide UK",
     "destUrl": "https://evapeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-10T22:43:04.078Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "destUrl": "https://www.researchpeptides.co.uk"
   }
 ]
