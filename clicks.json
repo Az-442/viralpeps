@@ -17458,5 +17458,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4"
+  },
+  {
+    "ts": "2026-09-10T13:10:23.771Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://astralabs.co.uk/product/ss31-50mg/"
   }
 ]
