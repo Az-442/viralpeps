@@ -15579,5 +15579,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide"
+  },
+  {
+    "ts": "2026-09-10T13:02:51.945Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.novapeptide.co.uk/product/5-amino-1mq/"
   }
 ]
