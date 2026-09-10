@@ -13168,5 +13168,12 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "kisspeptin-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/kisspeptin-nasal-spray"
+  },
+  {
+    "ts": "2026-09-10T08:46:01.844Z",
+    "type": "vendor-site",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "destUrl": "https://evapeptide.co.uk"
   }
 ]
