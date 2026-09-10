@@ -22173,5 +22173,13 @@
     "vendorSlug": "uk-peptide-lab",
     "vendorName": "UK Peptide Lab",
     "destUrl": "https://ukpeptidelab.co.uk"
+  },
+  {
+    "ts": "2026-09-10T23:33:30.123Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mq-nad-c-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen"
   }
 ]
