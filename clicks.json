@@ -15939,5 +15939,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.stratfordpeptides.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-10T13:04:18.973Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://astralabs.co.uk/product/tirzepatide-5mg-uk/"
   }
 ]
