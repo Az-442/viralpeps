@@ -14710,5 +14710,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/nad-plus-500mg"
+  },
+  {
+    "ts": "2026-09-10T11:04:30.798Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://astralabs.co.uk/product/igf-1-lr3-1mg/"
   }
 ]
