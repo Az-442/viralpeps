@@ -21153,5 +21153,14 @@
     "vendorName": "HelixCore",
     "compoundSlug": "kpv",
     "destUrl": "https://helixcore.co.uk/products/kpv"
+  },
+  {
+    "ts": "2026-09-10T21:33:32.047Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://precision-peptides.shop/product/glow-70mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/glow"
   }
 ]
