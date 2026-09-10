@@ -10432,5 +10432,12 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin/"
+  },
+  {
+    "ts": "2026-09-10T04:23:32.410Z",
+    "type": "vendor-site",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "destUrl": "https://octagonpeptides.co.uk"
   }
 ]
