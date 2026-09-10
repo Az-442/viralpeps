@@ -7764,5 +7764,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-10T01:32:18.383Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ace-031-1mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ace-031-1mg/"
   }
 ]
