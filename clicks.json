@@ -13354,5 +13354,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "b7-33",
     "destUrl": "https://kensingtonlabs.co.uk/product/b7-33-10mg/"
+  },
+  {
+    "ts": "2026-09-10T09:05:53.557Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pgnalabs.co.uk/product/bac-water"
   }
 ]
