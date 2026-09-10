@@ -20539,5 +20539,13 @@
     "vendorSlug": "the-peptide-company",
     "vendorName": "The Peptide Company",
     "destUrl": "https://thepeptidecompany.co.uk"
+  },
+  {
+    "ts": "2026-09-10T20:29:05.741Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://kensingtonlabs.co.uk/product/lipo-c-10ml/"
   }
 ]
