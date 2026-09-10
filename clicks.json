@@ -15899,5 +15899,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
+  },
+  {
+    "ts": "2026-09-10T13:04:12.002Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
   }
 ]
