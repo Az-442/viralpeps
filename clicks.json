@@ -15883,5 +15883,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
+  },
+  {
+    "ts": "2026-09-10T13:04:09.245Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/"
   }
 ]
