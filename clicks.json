@@ -14241,5 +14241,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://biohackpeptides.co.uk/product/5-amino-1mq-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-10T09:22:20.555Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
