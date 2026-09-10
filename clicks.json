@@ -18831,5 +18831,14 @@
     "vendorName": "BuyReta",
     "compoundSlug": "vip",
     "destUrl": "https://www.buyreta.co.uk/product/vip-uk"
+  },
+  {
+    "ts": "2026-09-10T15:45:20.732Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295"
   }
 ]
