@@ -14225,5 +14225,13 @@
     "vendorSlug": "ascend-peptides",
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com"
+  },
+  {
+    "ts": "2026-09-10T09:20:06.302Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptx.co.uk/tirzepatide"
   }
 ]
