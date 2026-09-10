@@ -21700,5 +21700,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit"
+  },
+  {
+    "ts": "2026-09-10T22:28:22.004Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://helixcore.co.uk/products/bpc-157-tb-500-blend"
   }
 ]
