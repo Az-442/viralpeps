@@ -21073,5 +21073,12 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://pgnalabs.co.uk/product/ipamorelin"
+  },
+  {
+    "ts": "2026-09-10T21:22:38.098Z",
+    "type": "vendor-site",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "destUrl": "https://oplabs.co.uk"
   }
 ]
