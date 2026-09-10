@@ -21819,5 +21819,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.expresspeptides.co.uk/product/dsip/vial"
+  },
+  {
+    "ts": "2026-09-10T22:46:23.986Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://olresearch.co.uk/product/semax-5mg/"
   }
 ]
