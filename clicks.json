@@ -9177,5 +9177,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/"
+  },
+  {
+    "ts": "2026-09-10T02:53:27.614Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://zentra-peptides.com/product/cjc-1295-without-dac/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/cjc-1295-no-dac"
   }
 ]
