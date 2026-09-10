@@ -351,7 +351,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         {featured && featuredVendorData && (
           <div className="relative bg-gradient-to-br from-amber-50 via-white to-amber-50/60 rounded-xl p-8 mb-8 overflow-hidden shadow-[0_0_35px_rgba(217,119,6,0.3)] border-2 border-transparent bg-clip-padding">
             {/* Animated glow border */}
-            <div className="absolute inset-0 rounded-xl" style={{
+            <div className="absolute inset-0 rounded-xl pointer-events-none" style={{
               background: 'linear-gradient(135deg, #f59e0b, #d97706, #f59e0b, #fbbf24, #f59e0b)',
               backgroundSize: '400% 400%',
               padding: '2px',
@@ -361,10 +361,10 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
               animation: 'gradientShift 3s ease infinite'
             }} />
             {/* Thicker corner accents */}
-            <div className="absolute top-0 left-0 w-10 h-10 border-t-[3px] border-l-[3px] border-amber-400 rounded-tl-lg" />
-            <div className="absolute top-0 right-0 w-10 h-10 border-t-[3px] border-r-[3px] border-amber-400 rounded-tr-lg" />
-            <div className="absolute bottom-0 left-0 w-10 h-10 border-b-[3px] border-l-[3px] border-amber-400 rounded-bl-lg" />
-            <div className="absolute bottom-0 right-0 w-10 h-10 border-b-[3px] border-r-[3px] border-amber-400 rounded-br-lg" />
+            <div className="absolute top-0 left-0 w-10 h-10 border-t-[3px] border-l-[3px] border-amber-400 rounded-tl-lg pointer-events-none" />
+            <div className="absolute top-0 right-0 w-10 h-10 border-t-[3px] border-r-[3px] border-amber-400 rounded-tr-lg pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-10 h-10 border-b-[3px] border-l-[3px] border-amber-400 rounded-bl-lg pointer-events-none" />
+            <div className="absolute bottom-0 right-0 w-10 h-10 border-b-[3px] border-r-[3px] border-amber-400 rounded-br-lg pointer-events-none" />
             <style>{`@keyframes gradientShift { 0%,100% { background-position: 0% 50% } 50% { background-position: 100% 50% } }`}</style>
             <div className="flex items-center gap-2 mb-4">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="#d97706">
