@@ -18954,5 +18954,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31-10mg",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-10T16:10:31.382Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
   }
 ]
