@@ -17114,5 +17114,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:08:15.661Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://helixcore.co.uk/products/ss-31"
   }
 ]
