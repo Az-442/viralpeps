@@ -22087,5 +22087,12 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.flexpeptides.co.uk/products/aod9604-10mg"
+  },
+  {
+    "ts": "2026-09-10T23:19:34.481Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "destUrl": "https://www.peptidesonline.uk"
   }
 ]
