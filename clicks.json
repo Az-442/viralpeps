@@ -21493,5 +21493,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "dsip",
     "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-10T22:07:22.768Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/"
   }
 ]
