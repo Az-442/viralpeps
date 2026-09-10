@@ -15463,5 +15463,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
+  },
+  {
+    "ts": "2026-09-10T12:56:56.229Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
