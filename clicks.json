@@ -21278,5 +21278,14 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://zentra-peptides.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-10T21:42:17.599Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://precision-peptides.shop/product/bacteriostatic-water-10ml/",
+    "refPage": "https://viralpeps.co.uk/compounds/bacteriostatic-water"
   }
 ]
