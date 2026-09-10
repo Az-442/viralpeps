@@ -14750,5 +14750,13 @@
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk",
     "refPage": "https://viralpeps.co.uk/vendors/united-peptides"
+  },
+  {
+    "ts": "2026-09-10T11:15:36.270Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://biotideuk.com/products/semax-10-mg"
   }
 ]
