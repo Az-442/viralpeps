@@ -22062,5 +22062,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide"
+  },
+  {
+    "ts": "2026-09-10T23:17:58.335Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-KISS-10",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptigen-labs"
   }
 ]
