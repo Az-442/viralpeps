@@ -16283,5 +16283,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidesuk.com/dsip/"
+  },
+  {
+    "ts": "2026-09-10T13:05:28.620Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "dsip-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/dsip/vial"
   }
 ]
