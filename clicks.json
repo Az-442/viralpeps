@@ -15819,5 +15819,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://precision-peptides.shop/product/glp-2-tirz-15mg/"
+  },
+  {
+    "ts": "2026-09-10T13:03:54.402Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/tirzepatide-30mg-"
   }
 ]
