@@ -16746,5 +16746,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "pt-141-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
+  },
+  {
+    "ts": "2026-09-10T13:07:07.245Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
   }
 ]
