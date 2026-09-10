@@ -18346,5 +18346,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-10T14:31:22.937Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
