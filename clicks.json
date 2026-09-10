@@ -8163,5 +8163,14 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/10ml-bacteriostatic-water"
+  },
+  {
+    "ts": "2026-09-10T02:07:03.798Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-gh-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-gh-stack/",
+    "refPage": "https://viralpeps.co.uk/compounds/bundle-gh-stack"
   }
 ]
