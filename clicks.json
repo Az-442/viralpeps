@@ -13602,5 +13602,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial"
+  },
+  {
+    "ts": "2026-09-10T09:07:06.922Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pgnalabs.co.uk/product/ghk-cu"
   }
 ]
