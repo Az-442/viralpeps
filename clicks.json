@@ -18369,5 +18369,13 @@
     "vendorSlug": "nupex",
     "vendorName": "Nupex",
     "destUrl": "https://nupex.co.uk"
+  },
+  {
+    "ts": "2026-09-10T14:32:08.323Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "age-reversal-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/age-reversal-stack/"
   }
 ]
