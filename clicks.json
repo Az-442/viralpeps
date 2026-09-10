@@ -21667,5 +21667,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/"
+  },
+  {
+    "ts": "2026-09-10T22:25:45.059Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptx.co.uk/semaglutide",
+    "refPage": "https://viralpeps.co.uk/compounds/semaglutide"
   }
 ]
