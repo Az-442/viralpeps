@@ -14859,5 +14859,14 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta"
+  },
+  {
+    "ts": "2026-09-10T11:33:33.304Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://ukpeptidelab.co.uk/product/kisspeptin-10",
+    "refPage": "https://viralpeps.co.uk/compounds/kisspeptin-10"
   }
 ]
