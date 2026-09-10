@@ -14138,5 +14138,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-10T09:09:52.534Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tp2-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/"
   }
 ]
