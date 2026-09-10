@@ -19943,5 +19943,12 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/"
+  },
+  {
+    "ts": "2026-09-10T18:58:53.671Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk"
   }
 ]
