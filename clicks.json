@@ -7210,5 +7210,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "hexarelin-2mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/hexarelin-2mg/"
+  },
+  {
+    "ts": "2026-09-10T00:43:22.874Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
