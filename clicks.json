@@ -18652,5 +18652,12 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://biopeptides-uk.com/product/retatrutide-10mg/"
+  },
+  {
+    "ts": "2026-09-10T15:07:19.032Z",
+    "type": "vendor-site",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "destUrl": "https://tidelabs.co.uk"
   }
 ]
