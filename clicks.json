@@ -20117,5 +20117,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://mypepbiotech.co.uk/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-10T19:26:54.320Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://reta-uk.com/products/bacteriorastic-water-10ml"
   }
 ]
