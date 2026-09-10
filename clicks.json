@@ -17633,5 +17633,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "cjc-1295-no-dac-5mg-ipamorelin-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg-ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-10T13:25:57.964Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/liraglutide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
