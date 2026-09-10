@@ -7202,5 +7202,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "wolverine-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/wolverine-stack-bpc-157-tb-500/"
+  },
+  {
+    "ts": "2026-09-10T00:40:18.932Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "hexarelin-2mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/hexarelin-2mg/"
   }
 ]
