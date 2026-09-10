@@ -20500,5 +20500,12 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://oplabs.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-10T20:22:34.644Z",
+    "type": "vendor-site",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "destUrl": "https://my-peptides.co.uk"
   }
 ]
