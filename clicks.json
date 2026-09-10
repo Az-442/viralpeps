@@ -13102,5 +13102,14 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://chromapeptides.co.uk/product/thymosin-alpha-1/"
+  },
+  {
+    "ts": "2026-09-10T08:37:26.721Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://ukpeptides.com/catalog/selank-nasal-spray",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
