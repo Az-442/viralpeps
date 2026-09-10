@@ -16938,5 +16938,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://supplypeptides.co.uk/products/ss-31"
+  },
+  {
+    "ts": "2026-09-10T13:07:45.377Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://chromapeptides.co.uk/product/ss-31/"
   }
 ]
