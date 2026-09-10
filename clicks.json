@@ -12980,5 +12980,12 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://oplabs.co.uk/product/ghrp-6-5mg/"
+  },
+  {
+    "ts": "2026-09-10T08:28:49.390Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co"
   }
 ]
