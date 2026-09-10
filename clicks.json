@@ -19693,5 +19693,14 @@
     "vendorSlug": "anglo-peptides",
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com"
+  },
+  {
+    "ts": "2026-09-10T18:13:42.852Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://purepeptidesuk.com/product/ace-031-1mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ace-031-1mg"
   }
 ]
