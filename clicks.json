@@ -7772,5 +7772,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ace-031-1mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ace-031-1mg/"
+  },
+  {
+    "ts": "2026-09-10T01:32:33.022Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "fragment-176-191-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/fragment-176-191-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
