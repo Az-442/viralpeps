@@ -21533,5 +21533,13 @@
     "vendorSlug": "peptides-lab-uk",
     "vendorName": "Peptides Lab UK",
     "destUrl": "https://peptideslabuk.com"
+  },
+  {
+    "ts": "2026-09-10T22:13:16.236Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://ukpeptides.com/catalog/kpv"
   }
 ]
