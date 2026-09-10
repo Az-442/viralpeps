@@ -7869,5 +7869,13 @@
     "vendorSlug": "research-peptides-uk-main",
     "vendorName": "Research Peptides",
     "destUrl": "https://www.researchpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T01:42:00.303Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/klow"
   }
 ]
