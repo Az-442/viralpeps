@@ -21884,5 +21884,13 @@
     "vendorSlug": "crown-peptides",
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T22:53:36.633Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu"
   }
 ]
