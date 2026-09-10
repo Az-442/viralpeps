@@ -10205,5 +10205,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-10T03:39:09.252Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://premiopeptides.co.uk/compounds/pt-141",
+    "refPage": "https://viralpeps.co.uk/compounds/pt-141-bremelanotide"
   }
 ]
