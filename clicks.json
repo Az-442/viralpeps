@@ -18741,5 +18741,13 @@
     "vendorSlug": "peptify-uk",
     "vendorName": "Peptify UK",
     "destUrl": "https://www.peptifyuk.com"
+  },
+  {
+    "ts": "2026-09-10T15:21:38.549Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://chiltonlabs.co.uk/product/ghrp-6-5mg-vial/"
   }
 ]
