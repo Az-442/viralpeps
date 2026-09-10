@@ -20833,5 +20833,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "peg-mgf-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/pen"
+  },
+  {
+    "ts": "2026-09-10T21:00:32.890Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.peptidesonline.uk/shop/melanotan-2/"
   }
 ]
