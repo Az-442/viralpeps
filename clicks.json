@@ -18628,5 +18628,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-10T15:06:14.732Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://xlpeptides.com/product/pt-141-10mg/"
   }
 ]
