@@ -14218,5 +14218,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/"
+  },
+  {
+    "ts": "2026-09-10T09:37:23.933Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water-0-9-benzyl",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
