@@ -22046,5 +22046,13 @@
     "vendorSlug": "imperial-peptides",
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T23:14:32.290Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://peptideslabuk.com/product/peg-mgf/"
   }
 ]
