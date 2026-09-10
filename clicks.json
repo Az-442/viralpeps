@@ -15867,5 +15867,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biotideuk.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-10T13:04:06.746Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
   }
 ]
