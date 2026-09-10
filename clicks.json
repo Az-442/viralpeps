@@ -11242,5 +11242,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://chiltonlabs.co.uk/product/igf-1-lr3-1mg-vial/"
+  },
+  {
+    "ts": "2026-09-10T06:25:46.770Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-5mg-no-dac/",
+    "refPage": "https://viralpeps.co.uk/vendors/tested-peptides"
   }
 ]
