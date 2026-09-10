@@ -14851,5 +14851,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-10T11:32:54.523Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta"
   }
 ]
