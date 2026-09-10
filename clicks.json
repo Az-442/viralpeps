@@ -19373,5 +19373,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://supplypeptides.co.uk/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-10T17:10:52.009Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/"
   }
 ]
