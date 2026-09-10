@@ -9385,5 +9385,13 @@
     "vendorSlug": "united-peptides",
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T03:01:12.579Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://biopeptides-uk.com/product/mots-c-10mg/"
   }
 ]
