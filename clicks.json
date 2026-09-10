@@ -17474,5 +17474,12 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://biotideuk.com/products/tb-500"
+  },
+  {
+    "ts": "2026-09-10T13:14:18.680Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com"
   }
 ]
