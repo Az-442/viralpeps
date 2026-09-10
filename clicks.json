@@ -22246,5 +22246,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-10T23:42:25.995Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3"
   }
 ]
