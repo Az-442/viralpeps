@@ -8229,5 +8229,12 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31-10mg",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-10T02:09:53.020Z",
+    "type": "vendor-site",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "destUrl": "https://www.prime-peptides.co.uk"
   }
 ]
