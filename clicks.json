@@ -7442,5 +7442,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "slu-pp-332-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/slu-pp-332/"
+  },
+  {
+    "ts": "2026-09-10T01:07:19.085Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "metabolic-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/"
   }
 ]
