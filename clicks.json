@@ -13183,5 +13183,13 @@
     "vendorName": "OL Research",
     "compoundSlug": "kpv",
     "destUrl": "https://olresearch.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-10T08:46:57.378Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
