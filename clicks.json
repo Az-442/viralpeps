@@ -10188,5 +10188,14 @@
     "vendorSlug": "stratford-peptides",
     "vendorName": "Stratford Peptides",
     "destUrl": "https://www.stratfordpeptides.com"
+  },
+  {
+    "ts": "2026-09-10T03:33:27.019Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
   }
 ]
