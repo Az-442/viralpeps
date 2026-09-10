@@ -9224,5 +9224,14 @@
     "vendorSlug": "proforma-peptides",
     "vendorName": "Proforma Peptides",
     "destUrl": "https://www.proformapeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T02:54:49.196Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.apex-pharma.co.uk/product/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
