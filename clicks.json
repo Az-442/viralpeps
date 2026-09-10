@@ -10892,5 +10892,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-10T05:24:26.283Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "5-amino-1mq-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/"
   }
 ]
