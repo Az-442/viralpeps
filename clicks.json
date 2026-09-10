@@ -13346,5 +13346,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
+  },
+  {
+    "ts": "2026-09-10T09:05:50.588Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "b7-33",
+    "destUrl": "https://kensingtonlabs.co.uk/product/b7-33-10mg/"
   }
 ]
