@@ -12225,5 +12225,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "cartalax-20mg",
     "destUrl": "https://purepeptidesuk.com/product/cartalax-20mg/"
+  },
+  {
+    "ts": "2026-09-10T07:42:25.251Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/"
   }
 ]
