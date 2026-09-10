@@ -22158,5 +22158,13 @@
     "vendorSlug": "peptide-lab-uk",
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk"
+  },
+  {
+    "ts": "2026-09-10T23:29:46.234Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
   }
 ]
