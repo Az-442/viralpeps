@@ -6924,5 +6924,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "tb-500",
     "destUrl": "https://helixcore.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-10T00:20:05.246Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://helixcore.co.uk/products/ss-31"
   }
 ]
