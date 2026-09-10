@@ -12684,5 +12684,13 @@
     "vendorSlug": "cmsr-labs",
     "vendorName": "CMSR Labs",
     "destUrl": "https://cmsrlabs.co"
+  },
+  {
+    "ts": "2026-09-10T08:08:47.607Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/thymosin-alpha-1-5mg/"
   }
 ]
