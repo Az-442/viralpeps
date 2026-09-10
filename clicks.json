@@ -6940,5 +6940,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "bpc-157",
     "destUrl": "https://helixcore.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-10T00:20:08.892Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://helixcore.co.uk/products/nad-plus"
   }
 ]
