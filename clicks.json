@@ -13842,5 +13842,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "melanotan-i",
     "destUrl": "https://researchpeptide.co.uk/product/mt-1-melanotan-1-acetate-10mg/"
+  },
+  {
+    "ts": "2026-09-10T09:08:20.878Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://ukpeptides.com/catalog/melanotan-ii"
   }
 ]
