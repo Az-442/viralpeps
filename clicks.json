@@ -14926,5 +14926,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen"
+  },
+  {
+    "ts": "2026-09-10T11:43:38.409Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://trutide.co.uk/product/wolverine/"
   }
 ]
