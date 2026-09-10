@@ -7885,5 +7885,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "pal-ghk",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/pal-ghk-10mg"
+  },
+  {
+    "ts": "2026-09-10T01:42:41.701Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://chiltonlabs.co.uk/product/tesamorelin-10mg-vial/"
   }
 ]
