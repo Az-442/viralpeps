@@ -14328,5 +14328,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-6/"
+  },
+  {
+    "ts": "2026-09-10T09:31:51.248Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
