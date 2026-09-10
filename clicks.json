@@ -14677,5 +14677,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-10T10:58:23.657Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/gonadorelin-5mg-acetate-gnrh"
   }
 ]
