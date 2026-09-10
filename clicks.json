@@ -21035,5 +21035,11 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html"
+  },
+  {
+    "ts": "2026-09-10T21:20:04.483Z",
+    "type": "product",
+    "vendorSlug": "test",
+    "compoundSlug": "test"
   }
 ]
