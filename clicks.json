@@ -18921,5 +18921,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "melanotan-i",
     "destUrl": "https://ukpeptidelab.co.uk/product/melanotan-i"
+  },
+  {
+    "ts": "2026-09-10T16:02:42.049Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/dsip"
   }
 ]
