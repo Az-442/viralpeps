@@ -19365,5 +19365,13 @@
     "vendorSlug": "xl-peptides",
     "vendorName": "XL Peptides",
     "destUrl": "https://xlpeptides.com"
+  },
+  {
+    "ts": "2026-09-10T17:10:13.246Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://supplypeptides.co.uk/products/retatrutide"
   }
 ]
