@@ -14218,5 +14218,12 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/"
+  },
+  {
+    "ts": "2026-09-10T09:18:51.294Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com"
   }
 ]
