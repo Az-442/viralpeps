@@ -8146,5 +8146,14 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg"
+  },
+  {
+    "ts": "2026-09-10T02:05:25.843Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://evapeptide.co.uk/product/buy-cjc-1295-dac-uk/",
+    "refPage": "https://viralpeps.co.uk/go/eva-peptide/cjc-1295"
   }
 ]
