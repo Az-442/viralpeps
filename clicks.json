@@ -17961,5 +17961,14 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://my-peptides.co.uk/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-10T13:36:43.239Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://mypepbiotech.co.uk/product/bpc-157-tb-500-20mg-vial-wolverine-stack/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
