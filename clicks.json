@@ -9537,5 +9537,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://biopeptides-uk.com/product/dsip-15mg/"
+  },
+  {
+    "ts": "2026-09-10T03:06:21.835Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
   }
 ]
