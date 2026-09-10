@@ -20700,5 +20700,12 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "acetic-acid-10ml",
     "destUrl": "https://www.peptidesonline.uk/shop/acetic-acid-0-6-10ml/"
+  },
+  {
+    "ts": "2026-09-10T20:51:56.429Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "destUrl": "https://biopulsepeptides.co.uk"
   }
 ]
