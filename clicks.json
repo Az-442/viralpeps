@@ -21643,5 +21643,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bpc-157-5mg",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-10T22:22:06.143Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
