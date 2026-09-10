@@ -11408,5 +11408,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T06:50:11.174Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
