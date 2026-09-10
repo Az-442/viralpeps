@@ -7107,5 +7107,12 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/pt-141/"
+  },
+  {
+    "ts": "2026-09-10T00:28:03.613Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com"
   }
 ]
