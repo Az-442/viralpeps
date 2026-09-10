@@ -18289,5 +18289,13 @@
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
+  },
+  {
+    "ts": "2026-09-10T14:23:49.015Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://momentumpeptides.com/product/selank-10mg/"
   }
 ]
