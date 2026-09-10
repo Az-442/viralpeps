@@ -19726,5 +19726,14 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/selank/"
+  },
+  {
+    "ts": "2026-09-10T18:22:02.442Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.prime-peptides.co.uk/product/glutathione-gsh/",
+    "refPage": "https://viralpeps.co.uk/compounds/glutathione"
   }
 ]
