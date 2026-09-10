@@ -11627,5 +11627,14 @@
     "vendorSlug": "lab77-peptides",
     "vendorName": "Lab77 Peptides",
     "destUrl": "https://lab77peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T07:05:57.332Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295",
+    "refPage": "https://viralpeps.co.uk/go/uk-peptide-lab/cjc-1295"
   }
 ]
