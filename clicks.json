@@ -21485,5 +21485,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "epitalon",
     "destUrl": "https://thepeptidecode.co.uk/products/epithalon-10mg"
+  },
+  {
+    "ts": "2026-09-10T22:06:24.689Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "dsip",
+    "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/"
   }
 ]
