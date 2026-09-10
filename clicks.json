@@ -22358,5 +22358,14 @@
     "vendorSlug": "crown-peptides",
     "vendorName": "Crown Peptides",
     "destUrl": "https://crownpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T23:59:26.910Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/epithalon-epitalon-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/epitalon"
   }
 ]
