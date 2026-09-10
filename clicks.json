@@ -15763,5 +15763,13 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://evapeptide.co.uk/product/buy-5-amino-1mq-uk/"
+  },
+  {
+    "ts": "2026-09-10T13:03:44.247Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
   }
 ]
