@@ -17521,5 +17521,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "aod-9604",
     "destUrl": "https://ascendpeptidesuk.com/products/aod-9604-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:16:30.889Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/vial"
   }
 ]
