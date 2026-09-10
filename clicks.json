@@ -13258,5 +13258,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.peptifyuk.com/product/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-10T09:05:25.855Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-5-amino-1-mq-50mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
