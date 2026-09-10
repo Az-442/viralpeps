@@ -7305,5 +7305,13 @@
     "vendorSlug": "helix-core",
     "vendorName": "HelixCore",
     "destUrl": "https://helixcore.co.uk"
+  },
+  {
+    "ts": "2026-09-10T00:54:59.790Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ss-31-10mg/"
   }
 ]
