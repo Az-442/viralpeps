@@ -20197,5 +20197,12 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://zentra-peptides.com/product/ss-31/"
+  },
+  {
+    "ts": "2026-09-10T19:35:00.492Z",
+    "type": "vendor-site",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "destUrl": "https://premiopeptides.co.uk"
   }
 ]
