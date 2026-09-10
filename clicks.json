@@ -12732,5 +12732,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "semax",
     "destUrl": "https://midshirelabs.co.uk/products/semax/"
+  },
+  {
+    "ts": "2026-09-10T08:11:03.504Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/ss-31-10mg/"
   }
 ]
