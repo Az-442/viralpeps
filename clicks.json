@@ -15851,5 +15851,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-10T13:03:59.930Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/cardiogen-research-peptide"
   }
 ]
