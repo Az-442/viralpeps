@@ -14523,5 +14523,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T10:28:25.309Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157-tb-500"
   }
 ]
