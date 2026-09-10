@@ -15827,5 +15827,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/tirzepatide-30mg-"
+  },
+  {
+    "ts": "2026-09-10T13:03:55.907Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
   }
 ]
