@@ -21223,5 +21223,13 @@
     "vendorSlug": "apex-pharma",
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk"
+  },
+  {
+    "ts": "2026-09-10T21:36:24.097Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://pgnalabs.co.uk/product/igf-1lr3"
   }
 ]
