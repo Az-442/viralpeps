@@ -18185,5 +18185,12 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://thepeptidecompany.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-10T14:10:55.906Z",
+    "type": "vendor-site",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "destUrl": "https://octagonpeptides.co.uk"
   }
 ]
