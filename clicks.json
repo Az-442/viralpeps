@@ -19461,5 +19461,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/pen"
+  },
+  {
+    "ts": "2026-09-10T17:22:15.653Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/"
   }
 ]
