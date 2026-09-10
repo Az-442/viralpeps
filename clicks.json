@@ -16802,5 +16802,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "liraglutide",
     "destUrl": "https://mypepbiotech.co.uk/product/liraglutide-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:07:17.477Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://peptx.co.uk/product/liraglutide"
   }
 ]
