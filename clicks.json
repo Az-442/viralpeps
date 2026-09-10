@@ -8252,5 +8252,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31-10mg",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-10T02:10:03.361Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://leolab.co.uk/peptides/dsip/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
