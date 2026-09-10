@@ -14799,5 +14799,14 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/cjc-1295-without-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-10T11:27:37.960Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
