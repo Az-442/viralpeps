@@ -9298,5 +9298,14 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://www.proformapeptides.co.uk/product/ara-290-10mg/"
+  },
+  {
+    "ts": "2026-09-10T02:57:35.932Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
