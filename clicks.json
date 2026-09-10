@@ -11324,5 +11324,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "selank",
     "destUrl": "https://biotideuk.com/products/selank-10-mg"
+  },
+  {
+    "ts": "2026-09-10T06:37:15.761Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
