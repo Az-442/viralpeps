@@ -20314,5 +20314,13 @@
     "vendorSlug": "the-peptide-code",
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk"
+  },
+  {
+    "ts": "2026-09-10T19:56:10.475Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
   }
 ]
