@@ -21437,5 +21437,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://peptideslabuk.com/product/snap-8/"
+  },
+  {
+    "ts": "2026-09-10T21:59:38.855Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://pgnalabs.co.uk/product/nad",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
   }
 ]
