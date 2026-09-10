@@ -16267,5 +16267,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptideslabuk.com/product/dsip/"
+  },
+  {
+    "ts": "2026-09-10T13:05:25.392Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/dsip-5mg"
   }
 ]
