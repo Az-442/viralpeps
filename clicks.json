@@ -8188,5 +8188,14 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-10T02:08:01.484Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "aicar",
+    "destUrl": "https://mypepbiotech.co.uk/product/aicar-100mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
