@@ -19718,5 +19718,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "kpv",
     "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-10T18:15:52.371Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/selank/"
   }
 ]
