@@ -8038,5 +8038,12 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg"
+  },
+  {
+    "ts": "2026-09-10T01:54:50.401Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk"
   }
 ]
