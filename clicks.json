@@ -10723,5 +10723,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://precision-peptides.shop/product/glp-3-reta-10mg/"
+  },
+  {
+    "ts": "2026-09-10T05:04:16.906Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bluewellpeptides.com/product/selank-10mg-peptide/"
   }
 ]
