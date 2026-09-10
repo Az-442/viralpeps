@@ -7162,5 +7162,13 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
+  },
+  {
+    "ts": "2026-09-10T00:33:39.001Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://oplabs.co.uk/product/ghrp-2-10mg/"
   }
 ]
