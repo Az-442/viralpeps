@@ -10747,5 +10747,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://bioplexpeptides.co.uk/products/melanotan-2-10mg-afamelanotide"
+  },
+  {
+    "ts": "2026-09-10T05:08:40.749Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/motsc.html"
   }
 ]
