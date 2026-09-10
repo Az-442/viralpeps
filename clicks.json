@@ -6853,5 +6853,13 @@
     "vendorSlug": "pgna-labs",
     "vendorName": "PGNA Labs",
     "destUrl": "https://pgnalabs.co.uk"
+  },
+  {
+    "ts": "2026-09-10T00:19:08.021Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://spxlabs.co.uk/product/mots-c-uk-10mg/"
   }
 ]
