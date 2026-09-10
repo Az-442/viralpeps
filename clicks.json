@@ -18970,5 +18970,14 @@
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
+  },
+  {
+    "ts": "2026-09-10T16:11:29.670Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/raw-peptides"
   }
 ]
