@@ -14625,5 +14625,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptideslabuk.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-10T10:45:07.860Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://nupex.co.uk/products/cjc-1295-research-peptide-uk",
+    "refPage": "https://viralpeps.co.uk/go/nupex/cjc-1295"
   }
 ]
