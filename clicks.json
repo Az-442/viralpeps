@@ -8069,5 +8069,12 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ahk-cu-100mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/ahk-cu/"
+  },
+  {
+    "ts": "2026-09-10T01:57:51.369Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com"
   }
 ]
