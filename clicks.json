@@ -14669,5 +14669,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-10T10:57:21.625Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
   }
 ]
