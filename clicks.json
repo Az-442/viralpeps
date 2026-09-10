@@ -21613,5 +21613,12 @@
     "vendorSlug": "flex-peptides",
     "vendorName": "Flex Peptides",
     "destUrl": "https://www.flexpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T22:19:35.522Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk"
   }
 ]
