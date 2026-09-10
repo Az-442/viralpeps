@@ -18281,5 +18281,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-10T14:23:07.515Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
   }
 ]
