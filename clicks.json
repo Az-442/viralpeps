@@ -21262,5 +21262,13 @@
     "vendorSlug": "reta-uk",
     "vendorName": "RETA UK",
     "destUrl": "https://reta-uk.com"
+  },
+  {
+    "ts": "2026-09-10T21:39:15.427Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
