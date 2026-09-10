@@ -21145,5 +21145,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/"
+  },
+  {
+    "ts": "2026-09-10T21:32:34.468Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "kpv",
+    "destUrl": "https://helixcore.co.uk/products/kpv"
   }
 ]
