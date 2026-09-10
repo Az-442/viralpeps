@@ -9674,5 +9674,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-10T03:13:10.002Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ghrp-2-10mg/"
   }
 ]
