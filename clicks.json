@@ -14114,5 +14114,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "testagen",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/"
+  },
+  {
+    "ts": "2026-09-10T09:09:45.250Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymalin-10mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
