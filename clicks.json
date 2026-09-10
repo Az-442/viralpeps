@@ -19809,5 +19809,12 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-10T18:43:47.683Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com"
   }
 ]
