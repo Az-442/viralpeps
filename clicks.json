@@ -20101,5 +20101,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
+  },
+  {
+    "ts": "2026-09-10T19:25:02.807Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bebetterpeptides.com/products/buy-bpc-157-10mg"
   }
 ]
