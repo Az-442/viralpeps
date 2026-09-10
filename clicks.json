@@ -21381,5 +21381,13 @@
     "vendorSlug": "form-peptides",
     "vendorName": "FORM Peptides",
     "destUrl": "https://formpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T21:52:22.822Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/"
   }
 ]
