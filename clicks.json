@@ -19639,5 +19639,12 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-10T17:58:08.083Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk"
   }
 ]
