@@ -10290,5 +10290,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T03:57:14.298Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://rawpeptides.co.uk/product/mots-c-40mg/"
   }
 ]
