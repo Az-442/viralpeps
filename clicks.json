@@ -19310,5 +19310,13 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://chiltonlabs.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-10T16:56:55.122Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/"
   }
 ]
