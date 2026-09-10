@@ -8114,5 +8114,13 @@
     "vendorSlug": "peptide-lab-uk",
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk"
+  },
+  {
+    "ts": "2026-09-10T02:01:07.177Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg"
   }
 ]
