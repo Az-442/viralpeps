@@ -7450,5 +7450,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "metabolic-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/"
+  },
+  {
+    "ts": "2026-09-10T01:09:21.763Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/tesamorelin-10mg/"
   }
 ]
