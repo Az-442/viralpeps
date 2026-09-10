@@ -19614,5 +19614,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesonline.uk/shop/tb-500/"
+  },
+  {
+    "ts": "2026-09-10T17:55:52.673Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://purepeptidesuk.com/product/follistatin-344-1mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/follistatin-344"
   }
 ]
