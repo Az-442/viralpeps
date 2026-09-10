@@ -7942,5 +7942,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-10T01:47:32.357Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biotideuk.com/products/nad-500-mg"
   }
 ]
