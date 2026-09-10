@@ -8642,5 +8642,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "mots-c-5mg",
     "destUrl": "https://purepeptidesuk.com/product/mots-c-5mg/"
+  },
+  {
+    "ts": "2026-09-10T02:27:48.708Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "adamax-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/adamax-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
