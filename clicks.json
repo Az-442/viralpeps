@@ -13127,5 +13127,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://biopeptides-uk.com/product/dsip-15mg/"
+  },
+  {
+    "ts": "2026-09-10T08:39:02.609Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://biopeptides-uk.com/product/pt-141-10mg/"
   }
 ]
