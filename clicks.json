@@ -10513,5 +10513,12 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "selank",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-10T04:39:09.153Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
