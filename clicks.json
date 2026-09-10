@@ -20411,5 +20411,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-10T20:09:35.417Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "kpv",
+    "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
   }
 ]
