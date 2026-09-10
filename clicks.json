@@ -15923,5 +15923,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-10T13:04:16.157Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
