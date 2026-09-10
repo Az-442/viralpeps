@@ -10579,5 +10579,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://researchpeptide.co.uk/product/mt-2-melanotan-2-acetate-10mg/"
+  },
+  {
+    "ts": "2026-09-10T04:50:49.181Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "destUrl": "https://peptigenlabs.co.uk"
   }
 ]
