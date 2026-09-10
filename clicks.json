@@ -15253,5 +15253,14 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://anglopeptides.com/product/vip-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-10T12:25:00.036Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta",
+    "refPage": "https://viralpeps.co.uk/compounds/tb-500"
   }
 ]
