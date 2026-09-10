@@ -21526,5 +21526,12 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://polygonpeptides.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-10T22:13:13.724Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com"
   }
 ]
