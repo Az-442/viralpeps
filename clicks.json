@@ -14742,5 +14742,13 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-10T11:15:18.191Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/vendors/united-peptides"
   }
 ]
