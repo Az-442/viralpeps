@@ -21739,5 +21739,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "aod-9604-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/pen"
+  },
+  {
+    "ts": "2026-09-10T22:35:11.565Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptx.co.uk/product/cagrilintide",
+    "refPage": "https://viralpeps.co.uk/compounds/cagrilintide"
   }
 ]
