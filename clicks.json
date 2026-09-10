@@ -16227,5 +16227,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg"
+  },
+  {
+    "ts": "2026-09-10T13:05:18.303Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://premiopeptides.co.uk/compounds/dsip"
   }
 ]
