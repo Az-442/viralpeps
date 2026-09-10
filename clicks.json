@@ -14381,5 +14381,13 @@
     "vendorSlug": "ascend-peptides",
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com"
+  },
+  {
+    "ts": "2026-09-10T10:03:52.318Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/"
   }
 ]
