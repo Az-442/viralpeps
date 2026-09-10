@@ -18257,5 +18257,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-10T14:19:41.171Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/vial"
   }
 ]
