@@ -14758,5 +14758,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "semax",
     "destUrl": "https://biotideuk.com/products/semax-10-mg"
+  },
+  {
+    "ts": "2026-09-10T11:17:47.700Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
   }
 ]
