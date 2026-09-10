@@ -18848,5 +18848,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vip",
     "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/"
+  },
+  {
+    "ts": "2026-09-10T15:48:32.292Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial"
   }
 ]
