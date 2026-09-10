@@ -14532,5 +14532,12 @@
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500",
     "refPage": "https://viralpeps.co.uk/compounds/bpc-157-tb-500"
+  },
+  {
+    "ts": "2026-09-10T10:34:27.340Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com"
   }
 ]
