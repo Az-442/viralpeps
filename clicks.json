@@ -6861,5 +6861,12 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "mots-c",
     "destUrl": "https://spxlabs.co.uk/product/mots-c-uk-10mg/"
+  },
+  {
+    "ts": "2026-09-10T00:19:19.823Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk"
   }
 ]
