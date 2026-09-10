@@ -19116,5 +19116,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin"
+  },
+  {
+    "ts": "2026-09-10T16:32:06.438Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pgnalabs.co.uk/product/motsc"
   }
 ]
