@@ -18154,5 +18154,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "bacteriostatic-water-0-9-benzyl",
     "destUrl": "https://researchpeptide.co.uk/product/bacteriostatic-water-0-9-benzyl/"
+  },
+  {
+    "ts": "2026-09-10T14:06:31.123Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk"
   }
 ]
