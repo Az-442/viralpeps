@@ -9393,5 +9393,12 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "mots-c-10mg",
     "destUrl": "https://biopeptides-uk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-10T03:02:15.008Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk"
   }
 ]
