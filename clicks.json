@@ -18749,5 +18749,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://chiltonlabs.co.uk/product/ghrp-6-5mg-vial/"
+  },
+  {
+    "ts": "2026-09-10T15:27:55.088Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water/",
+    "refPage": "https://viralpeps.co.uk/compounds/bacteriostatic-water"
   }
 ]
