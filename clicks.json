@@ -11849,5 +11849,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "mots-c-10mg",
     "destUrl": "https://purepeptidesuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-10T07:23:08.826Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
