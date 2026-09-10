@@ -11332,5 +11332,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-10T06:39:20.457Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/cagrilintide.html"
   }
 ]
