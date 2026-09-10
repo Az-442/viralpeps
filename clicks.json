@@ -21581,5 +21581,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-tb-500-ghk-cu-glow-blend/"
+  },
+  {
+    "ts": "2026-09-10T22:13:56.819Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://oplabs.co.uk/product/bpc157-tb500-blend-10mg/"
   }
 ]
