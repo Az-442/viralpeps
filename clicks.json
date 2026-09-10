@@ -10391,5 +10391,13 @@
     "vendorSlug": "trutide",
     "vendorName": "Trutide",
     "destUrl": "https://trutide.co.uk"
+  },
+  {
+    "ts": "2026-09-10T04:16:34.621Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh"
   }
 ]
