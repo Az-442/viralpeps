@@ -16658,5 +16658,13 @@
     "vendorSlug": "express-peptides",
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T13:06:51.430Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen"
   }
 ]
