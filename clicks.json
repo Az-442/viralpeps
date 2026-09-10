@@ -15875,5 +15875,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:04:07.989Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
   }
 ]
