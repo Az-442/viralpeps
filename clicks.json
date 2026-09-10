@@ -17505,5 +17505,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "pinealon",
     "destUrl": "https://bluewellpeptides.com/product/pinealon-20mg-peptide/"
+  },
+  {
+    "ts": "2026-09-10T13:14:29.100Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/"
   }
 ]
