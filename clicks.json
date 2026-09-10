@@ -17042,5 +17042,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.proformapeptides.co.uk/product/ss31-10mg-2/"
+  },
+  {
+    "ts": "2026-09-10T13:08:03.684Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://precision-peptides.shop/product/ss-31-10mg/"
   }
 ]
