@@ -22197,5 +22197,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "adamax",
     "destUrl": "https://bluewellpeptides.com/product/adamax-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-10T23:35:22.326Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-BPC-10",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
