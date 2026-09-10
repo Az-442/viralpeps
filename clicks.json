@@ -18555,5 +18555,14 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/"
+  },
+  {
+    "ts": "2026-09-10T14:53:02.356Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.stratfordpeptides.com/products/ss-31",
+    "refPage": "https://viralpeps.co.uk/compounds/ss-31"
   }
 ]
