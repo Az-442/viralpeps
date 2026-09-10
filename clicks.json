@@ -7235,5 +7235,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "glutathione-1500mg",
     "destUrl": "https://purepeptidesuk.com/product/glutathione-1500mg/"
+  },
+  {
+    "ts": "2026-09-10T00:45:04.087Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biotideuk.com/products/ahk-cu-100-mg"
   }
 ]
