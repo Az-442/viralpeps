@@ -15102,5 +15102,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-5mg",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/"
+  },
+  {
+    "ts": "2026-09-10T12:04:31.921Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biotide-uk"
   }
 ]
