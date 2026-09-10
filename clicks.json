@@ -10924,5 +10924,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://my-peptides.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-10T05:33:21.246Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mq-nad-c-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen"
   }
 ]
