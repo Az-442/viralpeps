@@ -20866,5 +20866,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-10T21:04:09.532Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://octagonpeptides.co.uk/product/epithalon-10-mg/"
   }
 ]
