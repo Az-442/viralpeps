@@ -10908,5 +10908,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "bpc-157",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-10T05:30:13.423Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
   }
 ]
