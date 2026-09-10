@@ -21112,5 +21112,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "bpc-157-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-10T21:26:22.591Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/bpc-157"
   }
 ]
