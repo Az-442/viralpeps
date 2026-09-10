@@ -22279,5 +22279,12 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "mots-c",
     "destUrl": "https://pgnalabs.co.uk/product/motsc"
+  },
+  {
+    "ts": "2026-09-10T23:45:32.636Z",
+    "type": "vendor-site",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "destUrl": "https://xlpeptides.com"
   }
 ]
