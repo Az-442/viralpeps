@@ -11100,5 +11100,13 @@
     "vendorSlug": "aegis-peptides",
     "vendorName": "Aegis Peptides",
     "destUrl": "https://aegispeptidesuk.co.uk"
+  },
+  {
+    "ts": "2026-09-10T06:04:36.352Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://helixcore.co.uk/products/pt-141"
   }
 ]
