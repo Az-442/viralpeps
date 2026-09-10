@@ -22310,5 +22310,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
+  },
+  {
+    "ts": "2026-09-10T23:50:23.333Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html"
   }
 ]
