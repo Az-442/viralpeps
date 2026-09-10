@@ -8723,5 +8723,12 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "dsip-5mg",
     "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-10T02:32:42.294Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "destUrl": "https://biopeptides-uk.com"
   }
 ]
