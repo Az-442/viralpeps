@@ -11913,5 +11913,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ll-37-5mg",
     "destUrl": "https://purepeptidesuk.com/product/ll-37-5mg/"
+  },
+  {
+    "ts": "2026-09-10T07:27:43.367Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
   }
 ]
