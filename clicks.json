@@ -8061,5 +8061,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-10T01:57:12.058Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ahk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ahk-cu/"
   }
 ]
