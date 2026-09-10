@@ -13191,5 +13191,13 @@
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides"
+  },
+  {
+    "ts": "2026-09-10T08:47:17.370Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/pen"
   }
 ]
