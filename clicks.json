@@ -9617,5 +9617,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://www.proformapeptides.co.uk/product/thymosin-alpha-1-5mg/"
+  },
+  {
+    "ts": "2026-09-10T03:10:17.107Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
   }
 ]
