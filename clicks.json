@@ -9585,5 +9585,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T03:08:52.264Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.proformapeptides.co.uk/product/thymosin-alpha-1-5mg/"
   }
 ]
