@@ -11142,5 +11142,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-10T06:11:51.884Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://ukpeptidelab.co.uk/product/l-carnitine",
+    "refPage": "https://viralpeps.co.uk/compounds/l-carnitine"
   }
 ]
