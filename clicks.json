@@ -10051,5 +10051,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-tb-500-10mg-research-blend/"
+  },
+  {
+    "ts": "2026-09-10T03:25:14.909Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidelabuk.co.uk/product/bacteriostatic-water-10ml-laboratory-grade/"
   }
 ]
