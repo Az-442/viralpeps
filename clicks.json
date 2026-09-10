@@ -14430,5 +14430,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://oplabs.co.uk/product/ghrp-2-10mg/"
+  },
+  {
+    "ts": "2026-09-10T10:17:44.740Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
