@@ -17170,5 +17170,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.novapeptide.co.uk/product/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-10T13:08:30.740Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://leolab.co.uk/peptides/kisspeptin/"
   }
 ]
