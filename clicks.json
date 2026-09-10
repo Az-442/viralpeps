@@ -9794,5 +9794,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-10T03:17:45.170Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "bpc-157-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/bpc-157/"
   }
 ]
