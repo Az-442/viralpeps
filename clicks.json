@@ -18305,5 +18305,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-2-pralmorelin-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-pralmorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-10T14:25:55.830Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
   }
 ]
