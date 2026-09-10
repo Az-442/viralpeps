@@ -7146,5 +7146,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://oplabs.co.uk/product/cjc-1295-without-dac-2mg/"
+  },
+  {
+    "ts": "2026-09-10T00:31:30.327Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
