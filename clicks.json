@@ -19950,5 +19950,13 @@
     "vendorSlug": "united-peptides",
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T19:01:05.513Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biotideuk.com/products/epitalon-10-mg"
   }
 ]
