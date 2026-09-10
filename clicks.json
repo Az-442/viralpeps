@@ -18856,5 +18856,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "thymosin-alpha1-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial"
+  },
+  {
+    "ts": "2026-09-10T15:54:49.901Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "semax-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/semax/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
