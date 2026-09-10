@@ -7267,5 +7267,12 @@
     "vendorName": "Nupex",
     "compoundSlug": "mots-c",
     "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research"
+  },
+  {
+    "ts": "2026-09-10T00:49:32.434Z",
+    "type": "vendor-site",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "destUrl": "https://mypepbiotech.co.uk"
   }
 ]
