@@ -19816,5 +19816,13 @@
     "vendorSlug": "uk-peptides",
     "vendorName": "UK Peptides",
     "destUrl": "https://ukpeptides.com"
+  },
+  {
+    "ts": "2026-09-10T18:45:29.614Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/glow/"
   }
 ]
