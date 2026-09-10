@@ -11201,5 +11201,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/aod-9604/"
+  },
+  {
+    "ts": "2026-09-10T06:18:46.080Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://my-peptides.co.uk/products/kpv"
   }
 ]
