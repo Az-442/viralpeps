@@ -10131,5 +10131,13 @@
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk",
     "refPage": "https://www.viralpeps.co.uk"
+  },
+  {
+    "ts": "2026-09-10T03:26:26.998Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
