@@ -6948,5 +6948,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "nad-plus",
     "destUrl": "https://helixcore.co.uk/products/nad-plus"
+  },
+  {
+    "ts": "2026-09-10T00:20:10.562Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://helixcore.co.uk/products/bacteriostatic-water"
   }
 ]
