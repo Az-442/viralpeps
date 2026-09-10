@@ -15293,5 +15293,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://peptideslabuk.com/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-10T12:33:56.355Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
