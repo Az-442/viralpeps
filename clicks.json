@@ -14389,5 +14389,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-10T10:04:02.350Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biopeptides-uk.com/product/tirzepatide-10mg/"
   }
 ]
