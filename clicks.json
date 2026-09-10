@@ -6964,5 +6964,13 @@
     "vendorName": "HelixCore",
     "compoundSlug": "dsip",
     "destUrl": "https://helixcore.co.uk/products/dsip"
+  },
+  {
+    "ts": "2026-09-10T00:20:18.751Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/"
   }
 ]
