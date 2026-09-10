@@ -16155,5 +16155,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:05:02.102Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.testedpeptides.co.uk/product/dsip-5-mg-research-peptide/"
   }
 ]
