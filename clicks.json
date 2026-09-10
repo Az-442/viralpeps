@@ -12964,5 +12964,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-10T08:26:43.637Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.peptidesx.uk/product/semaglutide/"
   }
 ]
