@@ -11416,5 +11416,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "selank",
     "destUrl": "https://alphamino.co.uk/shop/selank/"
+  },
+  {
+    "ts": "2026-09-10T06:53:15.457Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "glow",
+    "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
