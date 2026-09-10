@@ -21908,5 +21908,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
+  },
+  {
+    "ts": "2026-09-10T22:59:08.309Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/mots-c/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/mots-c"
   }
 ]
