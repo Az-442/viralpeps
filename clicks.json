@@ -9432,5 +9432,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.proformapeptides.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-10T03:02:37.817Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
   }
 ]
