@@ -7354,5 +7354,12 @@
     "vendorName": "New Wave Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/pt-141"
+  },
+  {
+    "ts": "2026-09-10T00:59:17.628Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "destUrl": "https://thepeptidecompany.co.uk"
   }
 ]
