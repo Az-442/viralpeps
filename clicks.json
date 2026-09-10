@@ -15045,5 +15045,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T11:58:51.143Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-slu-pp-332-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/slu-pp-332-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
