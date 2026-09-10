@@ -10900,5 +10900,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "5-amino-1mq-50mg",
     "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/"
+  },
+  {
+    "ts": "2026-09-10T05:27:11.098Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
