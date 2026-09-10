@@ -19710,5 +19710,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-10T18:14:55.185Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "kpv",
+    "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/"
   }
 ]
