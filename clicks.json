@@ -18362,5 +18362,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/vial"
+  },
+  {
+    "ts": "2026-09-10T14:31:55.375Z",
+    "type": "vendor-site",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "destUrl": "https://nupex.co.uk"
   }
 ]
