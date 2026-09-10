@@ -10447,5 +10447,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "semaglutide",
     "destUrl": "https://biopeptides-uk.com/product/semaglutide-10mg/"
+  },
+  {
+    "ts": "2026-09-10T04:24:07.682Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptideslabuk.com/product/glutathione/"
   }
 ]
