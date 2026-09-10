@@ -8707,5 +8707,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "dsip-5mg",
     "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-10T02:30:08.126Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/"
   }
 ]
