@@ -14910,5 +14910,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://leolab.co.uk/peptides/bpc-157/"
+  },
+  {
+    "ts": "2026-09-10T11:41:23.184Z",
+    "type": "vendor-site",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "destUrl": "https://tidelabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
   }
 ]
