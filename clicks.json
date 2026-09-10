@@ -10163,5 +10163,14 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "hcg",
     "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/"
+  },
+  {
+    "ts": "2026-09-10T03:29:51.626Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "kpv",
+    "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
