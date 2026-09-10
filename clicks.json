@@ -7313,5 +7313,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.apex-pharma.co.uk/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-10T00:56:01.963Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/"
   }
 ]
