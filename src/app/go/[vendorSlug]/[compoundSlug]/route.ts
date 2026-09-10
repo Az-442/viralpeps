@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import compoundsData from "@/data/compounds.json";
 import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
+import { detectBot, visitorId } from "@/lib/click-guard";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -48,18 +49,22 @@ export async function GET(
     );
   }
 
-  // 5. Log the outbound product click BEFORE redirecting. The logger never
-  //    throws and is safe to await; a failure only means the click isn't
-  //    counted — never breaks the redirect.
+  // 5. Log the outbound product click BEFORE redirecting — but only for real
+  //    humans. Bots/prefetchers are redirected as normal, just not counted.
+  //    The logger never throws; a failure only means the click isn't counted.
   try {
-    await logClick({
-      type: "product",
-      vendorSlug,
-      vendorName: vendor.name,
-      compoundSlug: compound.slug,
-      destUrl: match.url,
-      refPage: request.headers.get("referer") || undefined,
-    });
+    const bot = detectBot(request.headers);
+    if (!bot.isBot) {
+      await logClick({
+        type: "product",
+        vendorSlug,
+        vendorName: vendor.name,
+        compoundSlug: compound.slug,
+        destUrl: match.url,
+        refPage: request.headers.get("referer") || undefined,
+        visitorId: visitorId(request.headers),
+      });
+    }
   } catch {
     /* never block the redirect on a logging failure */
   }

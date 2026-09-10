@@ -72,6 +72,23 @@ const vendorRows = [...byVendor.entries()]
 const limited = top ? vendorRows.slice(0, top) : vendorRows;
 
 console.log(`\n=== OUTBOUND SUPPLIER CLICKS (${filtered.length} total${days ? `, last ${days}d` : " all-time"}) ===\n`);
+
+// Unique-visitor summary (only rows logged after visitorId was added have it).
+const withId = filtered.filter((r) => r.visitorId);
+if (withId.length) {
+  const uniq = new Set(withId.map((r) => r.visitorId));
+  console.log(`UNIQUE VISITORS: ${uniq.size} (from ${withId.length} identified clicks; avg ${(withId.length / uniq.size).toFixed(2)} clicks/visitor)`);
+  // Top repeat visitors
+  const counts = new Map();
+  for (const r of withId) counts.set(r.visitorId, (counts.get(r.visitorId) || 0) + 1);
+  const repeat = [...counts.entries()].filter(([, c]) => c > 1).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  if (repeat.length) {
+    console.log("TOP REPEAT VISITORS:");
+    for (const [id, c] of repeat) console.log(`  ${c.toString().padStart(4)}  ${id}`);
+  }
+  console.log("");
+}
+
 console.log("PER SUPPLIER:");
 for (const v of limited) {
   console.log(`  ${v.total.toString().padStart(4)}  ${v.name}  (${v.slug})`);

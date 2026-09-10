@@ -29,6 +29,7 @@ export interface ClickRow {
   compoundSlug?: string;
   destUrl?: string; // exact URL left to (for direct /go/{vendor} and /go/{vendor}/{compound})
   refPage?: string; // page the click happened on (referrer)
+  visitorId?: string; // anonymous, one-way hash — lets us count unique humans
 }
 
 /** Row as persisted to clicks.json (timestamp prepended). */

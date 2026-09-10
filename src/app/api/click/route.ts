@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { logClick } from "@/lib/click-logger";
+import { detectBot, visitorId } from "@/lib/click-guard";
 
 export const runtime = "nodejs";
 
@@ -20,6 +21,11 @@ export async function POST(request: NextRequest) {
     const validTypes = ["vendor-site", "product", "vendor-profile"];
     const clickType = validTypes.includes(type) ? type : "vendor-site";
 
+    // Skip logging for bots / prefetchers — same rule as the /go/ routes.
+    if (detectBot(request.headers).isBot) {
+      return NextResponse.json({ ok: true, skipped: "bot" });
+    }
+
     // Await so the GitHub write completes on Vercel (un-awaited work can be
     // terminated once the response is returned). Log failures are swallowed.
     await logClick({
@@ -29,6 +35,7 @@ export async function POST(request: NextRequest) {
       compoundSlug: typeof compoundSlug === "string" ? compoundSlug : undefined,
       destUrl: typeof destUrl === "string" ? destUrl : undefined,
       refPage: typeof refPage === "string" ? refPage : undefined,
+      visitorId: visitorId(request.headers),
     });
 
     return NextResponse.json({ ok: true });
