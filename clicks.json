@@ -14405,5 +14405,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://appliedpeptides.com/store/ols/products/-tb-500-10mg"
+  },
+  {
+    "ts": "2026-09-10T10:08:03.978Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bluewellpeptides.com/product/selank-10mg-peptide/"
   }
 ]
