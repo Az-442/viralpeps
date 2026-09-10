@@ -21794,5 +21794,14 @@
     "vendorSlug": "research-peptides-uk-main",
     "vendorName": "Research Peptides",
     "destUrl": "https://www.researchpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T22:43:09.369Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptx.co.uk/product/aod-9604",
+    "refPage": "https://viralpeps.co.uk/compounds/aod-9604"
   }
 ]
