@@ -19219,5 +19219,14 @@
     "vendorSlug": "uk-peptide-lab",
     "vendorName": "UK Peptide Lab",
     "destUrl": "https://ukpeptidelab.co.uk"
+  },
+  {
+    "ts": "2026-09-10T16:42:47.299Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/",
+    "refPage": "https://viralpeps.co.uk/go/bio-pulse-peptides/mots-c"
   }
 ]
