@@ -20579,5 +20579,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "glow",
     "destUrl": "https://www.peptidesonline.uk/shop/glow-blend/"
+  },
+  {
+    "ts": "2026-09-10T20:36:23.365Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin/"
   }
 ]
