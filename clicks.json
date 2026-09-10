@@ -7708,5 +7708,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "thymosin-beta-4-tb500-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/thymosin-beta-4-tb500-10mg/"
+  },
+  {
+    "ts": "2026-09-10T01:28:11.545Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
   }
 ]
