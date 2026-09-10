@@ -11644,5 +11644,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://oplabs.co.uk/product/cjc-1295-without-dac-2mg/"
+  },
+  {
+    "ts": "2026-09-10T07:07:49.505Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptx.co.uk/tirzepatide",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
