@@ -20227,5 +20227,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "selank",
     "destUrl": "https://www.apexbiolabs.co.uk/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-10T19:40:23.735Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "nad-1000mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/nad-100mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
