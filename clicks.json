@@ -21998,5 +21998,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ipamorelin-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-10T23:09:21.059Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://supplypeptides.co.uk/products/pt-141"
   }
 ]
