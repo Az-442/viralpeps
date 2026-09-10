@@ -12724,5 +12724,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/thymosin-alpha-1-5mg/"
+  },
+  {
+    "ts": "2026-09-10T08:09:25.741Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/"
   }
 ]
