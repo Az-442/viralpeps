@@ -20793,5 +20793,12 @@
     "vendorName": "OP Labs",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://oplabs.co.uk/product/bpc157-tb500-blend-10mg/"
+  },
+  {
+    "ts": "2026-09-10T20:56:10.708Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "destUrl": "https://peptidesuk.com"
   }
 ]
