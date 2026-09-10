@@ -18774,5 +18774,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/tb-500"
+  },
+  {
+    "ts": "2026-09-10T15:31:12.751Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ara-290-16mg",
+    "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/"
   }
 ]
