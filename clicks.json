@@ -10407,5 +10407,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://leolab.co.uk/peptides/cjc-1295/"
+  },
+  {
+    "ts": "2026-09-10T04:20:05.747Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biopeptides-uk.com/product/ahk-cu-100mg/"
   }
 ]
