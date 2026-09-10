@@ -22286,5 +22286,13 @@
     "vendorSlug": "xl-peptides",
     "vendorName": "XL Peptides",
     "destUrl": "https://xlpeptides.com"
+  },
+  {
+    "ts": "2026-09-10T23:46:32.810Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
   }
 ]
