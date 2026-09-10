@@ -21851,5 +21851,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://peptidesuk.com/follistatin-344/"
+  },
+  {
+    "ts": "2026-09-10T22:50:51.414Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/pt-141/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/pt-141-bremelanotide"
   }
 ]
