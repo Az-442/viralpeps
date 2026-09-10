@@ -19848,5 +19848,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://pgnalabs.co.uk/product/bac-water"
+  },
+  {
+    "ts": "2026-09-10T18:46:59.928Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://pgnalabs.co.uk/product/selank"
   }
 ]
