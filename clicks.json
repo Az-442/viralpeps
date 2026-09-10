@@ -12233,5 +12233,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/"
+  },
+  {
+    "ts": "2026-09-10T07:44:07.227Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
   }
 ]
