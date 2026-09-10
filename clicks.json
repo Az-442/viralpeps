@@ -16730,5 +16730,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-10T13:07:03.628Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/vial"
   }
 ]
