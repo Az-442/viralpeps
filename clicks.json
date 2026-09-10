@@ -16107,5 +16107,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidelabuk.co.uk/product/dsip-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-10T13:04:52.633Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/"
   }
 ]
