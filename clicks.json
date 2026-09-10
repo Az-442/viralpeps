@@ -20219,5 +20219,13 @@
     "vendorSlug": "tested-peptides",
     "vendorName": "Tested Peptides",
     "destUrl": "https://www.testedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T19:38:15.785Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/selank-10mg/"
   }
 ]
