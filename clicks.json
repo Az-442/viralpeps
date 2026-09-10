@@ -11036,5 +11036,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/glutathione-1500mg/"
+  },
+  {
+    "ts": "2026-09-10T05:50:01.527Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
