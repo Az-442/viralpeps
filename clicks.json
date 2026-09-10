@@ -15029,5 +15029,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-10T11:57:17.071Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biopeptides-uk.com/product/thymosin-alpha-1-10mg/"
   }
 ]
