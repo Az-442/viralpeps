@@ -18123,5 +18123,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://premiopeptides.co.uk/compounds/oxytocin"
+  },
+  {
+    "ts": "2026-09-10T14:02:24.789Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://astralabs.co.uk/product/semaglutide-10mg-uk/"
   }
 ]
