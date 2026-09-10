@@ -13051,5 +13051,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "kpv",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-10T08:32:41.254Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
