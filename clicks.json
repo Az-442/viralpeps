@@ -10972,5 +10972,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "epitalon",
     "destUrl": "https://mypepbiotech.co.uk/product/epitalon-20mg/"
+  },
+  {
+    "ts": "2026-09-10T05:40:22.283Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
   }
 ]
