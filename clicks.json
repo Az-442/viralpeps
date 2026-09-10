@@ -21708,5 +21708,12 @@
     "vendorName": "HelixCore",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://helixcore.co.uk/products/bpc-157-tb-500-blend"
+  },
+  {
+    "ts": "2026-09-10T22:28:59.173Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "destUrl": "https://www.peptifyuk.com"
   }
 ]
