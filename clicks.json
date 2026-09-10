@@ -11003,5 +11003,13 @@
     "vendorSlug": "proforma-peptides",
     "vendorName": "Proforma Peptides",
     "destUrl": "https://www.proformapeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T05:46:02.818Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
