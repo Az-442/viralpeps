@@ -19180,5 +19180,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cardiogen-research-peptide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-10T16:40:18.546Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kpv-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
   }
 ]
