@@ -10603,5 +10603,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
+  },
+  {
+    "ts": "2026-09-10T04:55:35.666Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
   }
 ]
