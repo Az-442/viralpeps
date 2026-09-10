@@ -19768,5 +19768,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "semax",
     "destUrl": "https://mypepbiotech.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-10T18:37:25.032Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/"
   }
 ]
