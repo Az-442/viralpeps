@@ -16371,5 +16371,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
+  },
+  {
+    "ts": "2026-09-10T13:05:44.979Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/pen"
   }
 ]
