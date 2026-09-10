@@ -7434,5 +7434,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptideslabuk.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-10T01:06:59.451Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "slu-pp-332-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/slu-pp-332/"
   }
 ]
