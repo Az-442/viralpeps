@@ -12427,5 +12427,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bundle-premium-gh-stack",
     "destUrl": "https://purepeptidesuk.com/product/bundle-premium-gh-stack/"
+  },
+  {
+    "ts": "2026-09-10T07:53:12.453Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://helixcore.co.uk/products/bacteriostatic-water"
   }
 ]
