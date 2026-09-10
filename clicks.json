@@ -21597,5 +21597,14 @@
     "vendorName": "OP Labs",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://oplabs.co.uk/product/ghrp-6-5mg/"
+  },
+  {
+    "ts": "2026-09-10T22:17:03.509Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptx.co.uk/shop",
+    "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
   }
 ]
