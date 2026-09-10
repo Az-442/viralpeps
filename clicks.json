@@ -15161,5 +15161,12 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/tb-500"
+  },
+  {
+    "ts": "2026-09-10T12:12:21.214Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "destUrl": "https://biopulsepeptides.co.uk"
   }
 ]
