@@ -7409,5 +7409,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.apex-pharma.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T01:03:39.181Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "aicar-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/aicar/"
   }
 ]
