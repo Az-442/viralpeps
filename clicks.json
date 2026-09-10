@@ -14875,5 +14875,14 @@
     "vendorSlug": "imperial-peptides",
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T11:37:37.948Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
