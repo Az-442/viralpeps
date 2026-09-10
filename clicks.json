@@ -21549,5 +21549,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/"
+  },
+  {
+    "ts": "2026-09-10T22:13:47.624Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ahk-cu-100mg",
+    "destUrl": "https://tidelabs.co.uk/products/ahk-cu-100mg"
   }
 ]
