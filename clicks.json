@@ -10439,5 +10439,13 @@
     "vendorSlug": "octagon-peptides",
     "vendorName": "Octagon Peptides",
     "destUrl": "https://octagonpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T04:23:42.574Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://biopeptides-uk.com/product/semaglutide-10mg/"
   }
 ]
