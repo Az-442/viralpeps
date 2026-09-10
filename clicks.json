@@ -14042,5 +14042,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-10T09:09:23.787Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "shb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-shb-10mg-research-solutionfor-laboratory-use-only/"
   }
 ]
