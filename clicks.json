@@ -21397,5 +21397,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
+  },
+  {
+    "ts": "2026-09-10T21:55:25.640Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/glutathione-1500mg/"
   }
 ]
