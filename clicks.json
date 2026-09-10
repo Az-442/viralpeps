@@ -14130,5 +14130,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial"
+  },
+  {
+    "ts": "2026-09-10T09:09:49.954Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/"
   }
 ]
