@@ -9378,5 +9378,12 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-10T03:01:02.364Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk"
   }
 ]
