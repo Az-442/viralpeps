@@ -20723,5 +20723,12 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-10T20:52:50.201Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com"
   }
 ]
