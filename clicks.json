@@ -20938,5 +20938,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.peptidesonline.uk/shop/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-10T21:10:45.359Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/sermorelin/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/sermorelin"
   }
 ]
