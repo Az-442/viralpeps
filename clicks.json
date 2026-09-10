@@ -20564,5 +20564,12 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://biopeptides-uk.com/product/oxytocin-2mg/"
+  },
+  {
+    "ts": "2026-09-10T20:33:02.455Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
