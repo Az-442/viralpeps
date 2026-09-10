@@ -20643,5 +20643,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptidesonline.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-10T20:46:25.269Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://oplabs.co.uk/product/aod9604-2mg/"
   }
 ]
