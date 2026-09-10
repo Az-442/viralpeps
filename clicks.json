@@ -16203,5 +16203,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-10T13:05:13.521Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "dsip",
+    "destUrl": "https://helixcore.co.uk/products/dsip"
   }
 ]
