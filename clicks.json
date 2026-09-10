@@ -19413,5 +19413,13 @@
     "vendorSlug": "apex-pharma",
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk"
+  },
+  {
+    "ts": "2026-09-10T17:17:24.741Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://tidelabs.co.uk/products/peg-mgf"
   }
 ]
