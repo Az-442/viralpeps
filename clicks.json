@@ -18240,5 +18240,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-10T14:18:14.909Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://xlpeptides.com/product/wolverine-stack/",
+    "refPage": "https://viralpeps.co.uk/compounds/wolverine-stack-bpc157-tb500-blend"
   }
 ]
