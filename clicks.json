@@ -19662,5 +19662,12 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "foxo4-dr1",
     "destUrl": "https://peptideslabuk.com/product/foxo4-dri/"
+  },
+  {
+    "ts": "2026-09-10T18:02:21.952Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
