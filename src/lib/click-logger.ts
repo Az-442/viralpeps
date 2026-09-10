@@ -12,6 +12,10 @@
 
 const REPO = "Az-442/viralpeps";
 const LIST_PATH = "clicks.json";
+// Data branch: clicks are committed here, NEVER to main. Vercel only builds
+// from main, so writing to a separate branch stops every outbound click from
+// triggering a production deploy (which was burning the daily deploy quota).
+const DATA_BRANCH = "clicks-data";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
 const MIN_INTERVAL_MS = 1200; // guard against rapid duplicate commits
 
@@ -35,7 +39,7 @@ export interface StoredClickRow extends ClickRow {
 let lastPushAt = 0;
 
 async function getCurrentFile(): Promise<{ content: string; sha?: string } | { ok: false; error: string }> {
-  const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${LIST_PATH}`, {
+  const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${LIST_PATH}?ref=${DATA_BRANCH}`, {
     headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: "application/vnd.github+json" },
   });
   if (res.status === 404) return { content: "[]" };
@@ -82,6 +86,7 @@ export async function logClick(row: ClickRow): Promise<boolean> {
     const body: Record<string, unknown> = {
       message: `Log outbound click: ${row.vendorSlug}${row.compoundSlug ? "/" + row.compoundSlug : ""} [bot]`,
       content: Buffer.from(newContent).toString("base64"),
+      branch: DATA_BRANCH,
     };
     if (file.sha) body.sha = file.sha;
 
