@@ -14082,5 +14082,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-10T09:09:35.351Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/survodutide-10mg/"
   }
 ]
