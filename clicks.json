@@ -22181,5 +22181,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mq-nad-c-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen"
+  },
+  {
+    "ts": "2026-09-10T23:33:51.378Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
   }
 ]
