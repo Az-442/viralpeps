@@ -9996,5 +9996,12 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "glow",
     "destUrl": "https://peptidelabuk.co.uk/product/glow-blend-70mg-ghk-cu-bpc-157-tb-500/"
+  },
+  {
+    "ts": "2026-09-10T03:25:01.165Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "destUrl": "https://peptidelabuk.co.uk"
   }
 ]
