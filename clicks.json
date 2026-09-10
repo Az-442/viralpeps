@@ -8130,5 +8130,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg"
+  },
+  {
+    "ts": "2026-09-10T02:03:19.947Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/retatrutide.html"
   }
 ]
