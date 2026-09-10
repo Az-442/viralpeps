@@ -13175,5 +13175,13 @@
     "vendorSlug": "eva-peptide",
     "vendorName": "Eva Peptide UK",
     "destUrl": "https://evapeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-10T08:46:19.012Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://olresearch.co.uk/product/kpv-10mg/"
   }
 ]
