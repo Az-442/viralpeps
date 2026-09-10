@@ -10496,5 +10496,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-ipamorelin-2mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-ipamorelin-2mg/"
+  },
+  {
+    "ts": "2026-09-10T04:34:42.170Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://precision-peptides.shop/product/dermorphin-5mg-no-packaging/",
+    "refPage": "https://viralpeps.co.uk/compounds/dermorphin"
   }
 ]
