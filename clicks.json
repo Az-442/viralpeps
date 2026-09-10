@@ -7628,5 +7628,12 @@
     "vendorSlug": "apex-pharma",
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk"
+  },
+  {
+    "ts": "2026-09-10T01:22:37.779Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
