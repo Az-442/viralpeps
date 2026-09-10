@@ -7274,5 +7274,13 @@
     "vendorSlug": "mypep-biotech",
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk"
+  },
+  {
+    "ts": "2026-09-10T00:50:19.065Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://researchpeptide.co.uk/product/gdf-8/"
   }
 ]
