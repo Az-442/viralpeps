@@ -10940,5 +10940,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bluewellpeptides.com/product/pt-141-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-10T05:35:35.409Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://peptidelabuk.co.uk/product/pt-141-10mg-research-peptide/"
   }
 ]
