@@ -10059,5 +10059,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://peptidelabuk.co.uk/product/bacteriostatic-water-10ml-laboratory-grade/"
+  },
+  {
+    "ts": "2026-09-10T03:25:18.002Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/"
   }
 ]
