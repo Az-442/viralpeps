@@ -18889,5 +18889,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopeptides-uk.com/product/bacteriostatic-water-10ml-biopura/"
+  },
+  {
+    "ts": "2026-09-10T15:58:43.785Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/cjc-1295-no-dac-5mg/"
   }
 ]
