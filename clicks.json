@@ -22254,5 +22254,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "snap-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3"
+  },
+  {
+    "ts": "2026-09-10T23:44:01.975Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
   }
 ]
