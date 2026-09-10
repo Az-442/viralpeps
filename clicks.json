@@ -14693,5 +14693,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptideslabuk.com/product/ghrp-6-acetate/"
+  },
+  {
+    "ts": "2026-09-10T11:03:21.254Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ss-31-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/ss-31"
   }
 ]
