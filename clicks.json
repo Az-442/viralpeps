@@ -14942,5 +14942,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-thymosin-beta-4-tb500-2mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-thymosin-beta-4-2mg-tb500/"
+  },
+  {
+    "ts": "2026-09-10T11:47:25.601Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/ipamorelin-10mg/"
   }
 ]
