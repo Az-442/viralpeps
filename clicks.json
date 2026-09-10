@@ -18385,5 +18385,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-10T14:35:40.374Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://tidelabs.co.uk/products/ll-37-cathelicidin-5mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ll-37"
   }
 ]
