@@ -22134,5 +22134,14 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-10T23:26:40.221Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-GLUT-600",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptigen-labs"
   }
 ]
