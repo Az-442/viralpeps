@@ -18734,5 +18734,12 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://biotideuk.com/products/5-amino-1mq-50-mg"
+  },
+  {
+    "ts": "2026-09-10T15:20:47.376Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "destUrl": "https://www.peptifyuk.com"
   }
 ]
