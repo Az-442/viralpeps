@@ -9072,5 +9072,14 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "semax",
     "destUrl": "https://peptidelabuk.co.uk/product/buy-semax-5mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-10T02:50:39.582Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.proformapeptides.co.uk/product/selank-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
