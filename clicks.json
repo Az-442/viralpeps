@@ -10611,5 +10611,13 @@
     "vendorName": "Precision Peptides",
     "destUrl": "https://precision-peptides.shop",
     "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
+  },
+  {
+    "ts": "2026-09-10T04:56:31.195Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
