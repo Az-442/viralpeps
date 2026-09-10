@@ -18002,5 +18002,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.stratfordpeptides.com/products/5-amino-1mq"
+  },
+  {
+    "ts": "2026-09-10T13:41:56.697Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "selank-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
   }
 ]
