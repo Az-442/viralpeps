@@ -15843,5 +15843,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://britpeptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-10T13:03:58.488Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/"
   }
 ]
