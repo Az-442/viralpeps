@@ -10666,5 +10666,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-10T05:01:15.384Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
   }
 ]
