@@ -7068,5 +7068,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://oplabs.co.uk/product/cjc-1295-with-dac-2mg/"
+  },
+  {
+    "ts": "2026-09-10T00:24:04.030Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://oplabs.co.uk/product/dsip-5mg/"
   }
 ]
