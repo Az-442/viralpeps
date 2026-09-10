@@ -15455,5 +15455,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "igf-1-1-3-1mg",
     "destUrl": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/"
+  },
+  {
+    "ts": "2026-09-10T12:54:58.773Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
   }
 ]
