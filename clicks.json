@@ -18659,5 +18659,13 @@
     "vendorSlug": "tide-labs",
     "vendorName": "Tide Labs",
     "destUrl": "https://tidelabs.co.uk"
+  },
+  {
+    "ts": "2026-09-10T15:10:17.218Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
   }
 ]
