@@ -16507,5 +16507,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial"
+  },
+  {
+    "ts": "2026-09-10T13:06:08.842Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen"
   }
 ]
