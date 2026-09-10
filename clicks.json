@@ -15891,5 +15891,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/"
+  },
+  {
+    "ts": "2026-09-10T13:04:10.528Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg"
   }
 ]
