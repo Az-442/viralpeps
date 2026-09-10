@@ -11696,5 +11696,12 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://leolab.co.uk/peptides/epithalon/",
     "refPage": "https://www.viralpeps.co.uk"
+  },
+  {
+    "ts": "2026-09-10T07:10:32.367Z",
+    "type": "vendor-site",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "destUrl": "https://xlpeptides.com"
   }
 ]
