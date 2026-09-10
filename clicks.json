@@ -7114,5 +7114,14 @@
     "vendorSlug": "biotide-uk",
     "vendorName": "BioTide UK",
     "destUrl": "https://biotideuk.com"
+  },
+  {
+    "ts": "2026-09-10T00:29:27.967Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "mots-c-40mg",
+    "destUrl": "https://purepeptidesuk.com/product/mots-c-40mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
