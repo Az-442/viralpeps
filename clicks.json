@@ -6715,5 +6715,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "5-amino-1mq-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/vial"
+  },
+  {
+    "ts": "2026-09-10T00:00:36.424Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/cjc-1295-no-dac-5mg/",
+    "refPage": "https://viralpeps.co.uk/go/bio-pulse-peptides/cjc-1295"
   }
 ]
