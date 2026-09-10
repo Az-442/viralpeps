@@ -18050,5 +18050,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://biopeptides-uk.com/product/sermorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:47:36.422Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/bpc-157-research-peptide/"
   }
 ]
