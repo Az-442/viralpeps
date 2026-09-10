@@ -7298,5 +7298,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghk-cu-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-10T00:54:40.885Z",
+    "type": "vendor-site",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "destUrl": "https://helixcore.co.uk"
   }
 ]
