@@ -16347,5 +16347,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-1000-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/1000"
+  },
+  {
+    "ts": "2026-09-10T13:05:40.870Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
   }
 ]
