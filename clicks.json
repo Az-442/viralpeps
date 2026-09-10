@@ -19421,5 +19421,12 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://tidelabs.co.uk/products/peg-mgf"
+  },
+  {
+    "ts": "2026-09-10T17:18:39.394Z",
+    "type": "vendor-site",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "destUrl": "https://olresearch.co.uk"
   }
 ]
