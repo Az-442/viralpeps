@@ -7821,5 +7821,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-10T01:36:37.796Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "destUrl": "https://researchpeptide.co.uk/product/klow-blend-ghk-cu-bpc157-tb500-kpv/"
   }
 ]
