@@ -17849,5 +17849,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "klow",
     "destUrl": "https://peptidelabuk.co.uk/product/buy-klow-80mg/"
+  },
+  {
+    "ts": "2026-09-10T13:28:23.360Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidelabuk.co.uk/product/bacteriostatic-water-10ml-laboratory-grade/"
   }
 ]
