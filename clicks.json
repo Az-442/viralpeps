@@ -10536,5 +10536,14 @@
     "vendorSlug": "the-peptide-code",
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk"
+  },
+  {
+    "ts": "2026-09-10T04:45:57.363Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.stratfordpeptides.com/products/cjc-1295-no-dac",
+    "refPage": "https://viralpeps.co.uk/go/stratford-peptides/cjc-1295"
   }
 ]
