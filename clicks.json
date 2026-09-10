@@ -11209,5 +11209,14 @@
     "vendorName": "My Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://my-peptides.co.uk/products/kpv"
+  },
+  {
+    "ts": "2026-09-10T06:18:48.466Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://tidelabs.co.uk/products/ara-290-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/ara-290"
   }
 ]
