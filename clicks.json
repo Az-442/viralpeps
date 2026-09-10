@@ -18782,5 +18782,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ara-290-16mg",
     "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/"
+  },
+  {
+    "ts": "2026-09-10T15:32:39.852Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cjc-1295-nodac-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg/"
   }
 ]
