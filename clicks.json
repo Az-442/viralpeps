@@ -19155,5 +19155,14 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://momentumpeptides.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-10T16:37:31.499Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk"
   }
 ]
