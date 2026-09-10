@@ -10298,5 +10298,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://rawpeptides.co.uk/product/mots-c-40mg/"
+  },
+  {
+    "ts": "2026-09-10T03:59:16.611Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "mots-c-the-peptide-company",
+    "destUrl": "https://ukpeptidelab.co.uk/product/mots-c"
   }
 ]
