@@ -18620,5 +18620,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg"
+  },
+  {
+    "ts": "2026-09-10T15:02:40.599Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
   }
 ]
