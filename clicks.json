@@ -15987,5 +15987,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biopeptides-uk.com/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-10T13:04:27.730Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://cmsrlabs.co/product/tirzepatide-10mg/"
   }
 ]
