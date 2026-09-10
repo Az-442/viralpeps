@@ -16051,5 +16051,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://bioplexpeptides.co.uk/products/dsip-15mg-dsip-nonapeptide"
+  },
+  {
+    "ts": "2026-09-10T13:04:38.812Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
