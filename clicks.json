@@ -15955,5 +15955,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://octagonpeptides.co.uk/product/tirze-30-mg/"
+  },
+  {
+    "ts": "2026-09-10T13:04:21.559Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/"
   }
 ]
