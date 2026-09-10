@@ -18667,5 +18667,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-10T15:10:19.076Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://octagonpeptides.co.uk/product/aod-9604-5-mg/"
   }
 ]
