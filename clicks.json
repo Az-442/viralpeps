@@ -7020,5 +7020,12 @@
     "vendorName": "HelixCore",
     "compoundSlug": "sermorelin",
     "destUrl": "https://helixcore.co.uk/products/sermorelin"
+  },
+  {
+    "ts": "2026-09-10T00:20:38.423Z",
+    "type": "vendor-site",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "destUrl": "https://helixcore.co.uk"
   }
 ]
