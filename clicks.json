@@ -10586,5 +10586,14 @@
     "vendorSlug": "peptigen-labs",
     "vendorName": "Peptigen Labs",
     "destUrl": "https://peptigenlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-10T04:53:29.963Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500"
   }
 ]
