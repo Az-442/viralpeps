@@ -11019,5 +11019,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-10T05:49:18.968Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/",
+    "refPage": "https://viralpeps.co.uk/go/midshire-labs/cjc-1295"
   }
 ]
