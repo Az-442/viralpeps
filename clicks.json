@@ -16491,5 +16491,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-10T13:06:05.970Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tb-500-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tb-500/vial"
   }
 ]
