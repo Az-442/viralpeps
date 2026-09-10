@@ -20337,5 +20337,13 @@
     "vendorSlug": "supply-peptides",
     "vendorName": "SupplyPeptides",
     "destUrl": "https://supplypeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-10T19:57:34.345Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "cjc-1295-ipamorelin",
+    "destUrl": "https://pgnalabs.co.uk/product/cjc-1295-ipamorelin-stack"
   }
 ]
