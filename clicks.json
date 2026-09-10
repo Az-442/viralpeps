@@ -7092,5 +7092,12 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/"
+  },
+  {
+    "ts": "2026-09-10T00:26:59.345Z",
+    "type": "vendor-site",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "destUrl": "https://oplabs.co.uk"
   }
 ]
