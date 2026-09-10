@@ -10366,5 +10366,14 @@
     "vendorSlug": "be-better-peptides",
     "vendorName": "Be Better Peptides",
     "destUrl": "https://bebetterpeptides.com"
+  },
+  {
+    "ts": "2026-09-10T04:14:11.650Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
