@@ -32520,5 +32520,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "hcg",
     "destUrl": "https://ukpeptides.com/catalog/hcg"
+  },
+  {
+    "ts": "2026-09-11T12:36:19.480Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
   }
 ]
