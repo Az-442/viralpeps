@@ -27344,5 +27344,14 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://premiopeptides.co.uk/compounds/thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-11T06:30:39.154Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://xlpeptides.com/product/tb-500-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/tb-500"
   }
 ]
