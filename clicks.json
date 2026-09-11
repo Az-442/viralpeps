@@ -27850,5 +27850,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://alphamino.co.uk/shop/bac-water/"
+  },
+  {
+    "ts": "2026-09-11T07:05:49.452Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://tidelabs.co.uk/products/aod-9604",
+    "refPage": "https://viralpeps.co.uk/compounds/aod-9604"
   }
 ]
