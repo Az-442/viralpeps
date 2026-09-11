@@ -5871,5 +5871,13 @@
     "vendorName": "Research Peptides UK",
     "destUrl": "https://researchpeptide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/research-peptide-uk"
+  },
+  {
+    "ts": "2026-09-11T23:16:08.475Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.buyreta.co.uk/product/tb500-10mg-uk"
   }
 ]
