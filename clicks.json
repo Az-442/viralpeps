@@ -3853,5 +3853,14 @@
     "vendorName": "Trutide",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://trutide.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-11T20:35:11.504Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.proformapeptides.co.uk/product/dsip-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
