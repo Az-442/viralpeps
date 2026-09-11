@@ -5054,5 +5054,14 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://zentra-peptides.com/product/kpv-peptide/"
+  },
+  {
+    "ts": "2026-09-11T22:02:13.264Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.novapeptide.co.uk/product/cjc-1295-10mg-without-dac/",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295"
   }
 ]
