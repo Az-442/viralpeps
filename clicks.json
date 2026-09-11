@@ -30506,5 +30506,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "aod-9604-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/aod-9604-5mg/"
+  },
+  {
+    "ts": "2026-09-11T09:49:28.248Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/pt-141-10mg/"
   }
 ]
