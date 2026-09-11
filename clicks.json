@@ -29047,5 +29047,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "hcg",
     "destUrl": "https://biohackpeptides.co.uk/product/hcg-peptide-5000-iu-vial-high-purity-for-research-use/"
+  },
+  {
+    "ts": "2026-09-11T08:25:44.681Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.stratfordpeptides.com/products/aod-9604"
   }
 ]
