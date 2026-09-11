@@ -2941,5 +2941,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-11T19:11:54.964Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ss-31"
   }
 ]
