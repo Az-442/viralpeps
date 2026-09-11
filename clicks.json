@@ -26461,5 +26461,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "selank",
     "destUrl": "https://tidelabs.co.uk/products/selank"
+  },
+  {
+    "ts": "2026-09-11T05:23:44.067Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/"
   }
 ]
