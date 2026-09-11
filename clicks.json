@@ -30810,5 +30810,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "kpv-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/kpv/"
+  },
+  {
+    "ts": "2026-09-11T10:16:57.698Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg"
   }
 ]
