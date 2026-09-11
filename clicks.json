@@ -2805,5 +2805,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://premiopeptides.co.uk/compounds/5-amino-1mq"
+  },
+  {
+    "ts": "2026-09-11T19:01:33.498Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/"
   }
 ]
