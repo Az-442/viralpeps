@@ -451,5 +451,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://www.prime-peptides.co.uk/product/klow-blend-peptide/"
+  },
+  {
+    "ts": "2026-09-11T14:41:21.724Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "nad-500mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
   }
 ]
