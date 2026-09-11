@@ -1397,5 +1397,13 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://aegispeptidesuk.co.uk/product/nad/"
+  },
+  {
+    "ts": "2026-09-11T16:41:10.390Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://chromapeptides.co.uk/product/nad/"
   }
 ]
