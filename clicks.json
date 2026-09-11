@@ -2563,5 +2563,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/snap-8-10mg/"
+  },
+  {
+    "ts": "2026-09-11T18:38:25.259Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptideslabuk.com/product/follistatin/"
   }
 ]
