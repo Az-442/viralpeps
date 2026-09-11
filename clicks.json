@@ -750,5 +750,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://bioplexpeptides.co.uk/products/dsip-15mg-dsip-nonapeptide"
+  },
+  {
+    "ts": "2026-09-11T15:16:01.388Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-cjc-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo-dac/pen"
   }
 ]
