@@ -23808,5 +23808,12 @@
     "vendorName": "My Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://my-peptides.co.uk/products/mots-c-32"
+  },
+  {
+    "ts": "2026-09-11T02:15:01.140Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com"
   }
 ]
