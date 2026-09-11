@@ -23623,5 +23623,12 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.peptidesonline.uk/shop/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T02:03:06.150Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk"
   }
 ]
