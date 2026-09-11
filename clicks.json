@@ -3791,5 +3791,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "acetic-acid-10ml",
     "destUrl": "https://www.peptidesonline.uk/shop/acetic-acid-0-6-10ml/"
+  },
+  {
+    "ts": "2026-09-11T20:27:10.868Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.prime-peptides.co.uk/product/epitalon/"
   }
 ]
