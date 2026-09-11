@@ -3679,5 +3679,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.peptidesonline.uk/shop/bacteriostatic-water-10ml/"
+  },
+  {
+    "ts": "2026-09-11T20:10:35.624Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ghk-cu"
   }
 ]
