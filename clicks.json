@@ -31794,5 +31794,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T11:38:19.860Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://kensingtonlabs.co.uk/product/pinealon-10mg/"
   }
 ]
