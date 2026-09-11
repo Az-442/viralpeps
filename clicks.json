@@ -33348,5 +33348,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "pnc-27",
     "destUrl": "https://bluewellpeptides.com/product/pnc-27-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T13:50:46.649Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
