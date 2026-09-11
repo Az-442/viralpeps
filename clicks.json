@@ -3277,5 +3277,13 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://aegispeptidesuk.co.uk/product/retatrutide-10mg/"
+  },
+  {
+    "ts": "2026-09-11T19:32:23.935Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://my-peptides.co.uk/products/mots-c-32"
   }
 ]
