@@ -25546,5 +25546,13 @@
     "vendorSlug": "raw-peptides",
     "vendorName": "Raw Peptides",
     "destUrl": "https://rawpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T04:19:48.930Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://supplypeptides.co.uk/products/melanotan-2"
   }
 ]
