@@ -28491,5 +28491,12 @@
     "vendorName": "New Wave Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/thymosin-a1"
+  },
+  {
+    "ts": "2026-09-11T07:51:40.834Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk"
   }
 ]
