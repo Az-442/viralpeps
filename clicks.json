@@ -4909,5 +4909,14 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/semax/"
+  },
+  {
+    "ts": "2026-09-11T21:52:33.523Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.novapeptide.co.uk/product/pt-141-vial/",
+    "refPage": "https://viralpeps.co.uk/compounds/pt-141-bremelanotide"
   }
 ]
