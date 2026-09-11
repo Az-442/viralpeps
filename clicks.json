@@ -28174,5 +28174,12 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "glow",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-glow-70mg-research-only-peptide-for-laboratory-use-only-coa-for-all-ingredients/"
+  },
+  {
+    "ts": "2026-09-11T07:25:47.944Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk"
   }
 ]
