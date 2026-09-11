@@ -4165,5 +4165,13 @@
     "vendorSlug": "express-peptides",
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T20:54:30.284Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.peptidesx.uk/product/ghrp-6/"
   }
 ]
