@@ -1357,5 +1357,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "dermorphin",
     "destUrl": "https://precision-peptides.shop/product/dermorphin-5mg-no-packaging/"
+  },
+  {
+    "ts": "2026-09-11T16:39:09.420Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
   }
 ]
