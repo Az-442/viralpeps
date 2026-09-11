@@ -3196,5 +3196,14 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-11T19:27:30.589Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://octagonpeptides.co.uk/product/hexarelin-5-mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/hexarelin"
   }
 ]
