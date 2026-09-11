@@ -1180,5 +1180,13 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://pepnova.uk/",
     "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
+  },
+  {
+    "ts": "2026-09-11T16:15:43.572Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptx.co.uk/tirzepatide"
   }
 ]
