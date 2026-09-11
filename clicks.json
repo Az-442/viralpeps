@@ -31996,5 +31996,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.peptifyuk.com/product/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-11T11:53:51.691Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
   }
 ]
