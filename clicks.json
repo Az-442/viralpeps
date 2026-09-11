@@ -4492,5 +4492,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-11T21:26:39.061Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research"
   }
 ]
