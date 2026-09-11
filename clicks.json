@@ -25700,5 +25700,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-11T04:30:44.830Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://reta-uk.com/products/bpc-157-tb-500-mix"
   }
 ]
