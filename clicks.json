@@ -27579,5 +27579,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T06:47:29.821Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/"
   }
 ]
