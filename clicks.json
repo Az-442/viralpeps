@@ -26166,5 +26166,12 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://biohackpeptides.co.uk/product/glutathione-1500mg-10ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-11T04:57:10.927Z",
+    "type": "vendor-site",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "destUrl": "https://tidelabs.co.uk"
   }
 ]
