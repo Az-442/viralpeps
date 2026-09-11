@@ -1067,5 +1067,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://premiopeptides.co.uk/compounds/ipamorelin"
+  },
+  {
+    "ts": "2026-09-11T15:59:33.043Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://zentra-peptides.com/product/thymosin-alpha-1/"
   }
 ]
