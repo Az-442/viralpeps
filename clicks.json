@@ -2137,5 +2137,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.peptidesonline.uk/shop/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T17:44:11.804Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://anglopeptides.com/product/epitalon-10mg-batch-103-research-peptide/"
   }
 ]
