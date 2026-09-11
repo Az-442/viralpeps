@@ -29378,5 +29378,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "oxytocin",
     "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/"
+  },
+  {
+    "ts": "2026-09-11T08:47:03.270Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
   }
 ]
