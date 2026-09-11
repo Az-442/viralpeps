@@ -29217,5 +29217,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "nad-500mg",
     "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
+  },
+  {
+    "ts": "2026-09-11T08:36:49.475Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bluewellpeptides.com/product/vesugen-20mg-peptide/"
   }
 ]
