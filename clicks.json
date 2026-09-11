@@ -24802,5 +24802,12 @@
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesonline.uk/shop/dsip/",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptides-online-uk"
+  },
+  {
+    "ts": "2026-09-11T03:28:20.043Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk"
   }
 ]
