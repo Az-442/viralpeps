@@ -23727,5 +23727,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vesugen",
     "destUrl": "https://purepeptidesuk.com/product/vesugen-20mg/"
+  },
+  {
+    "ts": "2026-09-11T02:09:23.275Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vesugen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide"
   }
 ]
