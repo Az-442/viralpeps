@@ -28300,5 +28300,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://peptidesuk.com/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-11T07:36:29.505Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://ukpeptidelab.co.uk/product/tesamorelin"
   }
 ]
