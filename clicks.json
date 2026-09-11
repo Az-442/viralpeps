@@ -30562,5 +30562,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
+  },
+  {
+    "ts": "2026-09-11T09:58:17.771Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ss-31-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
   }
 ]
