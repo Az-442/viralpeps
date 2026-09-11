@@ -27377,5 +27377,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://peptidesuk.com/ipamorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-11T06:32:20.107Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipamorelin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
   }
 ]
