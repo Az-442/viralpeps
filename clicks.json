@@ -5831,5 +5831,13 @@
     "vendorSlug": "uk-peptides",
     "vendorName": "UK Peptides",
     "destUrl": "https://ukpeptides.com"
+  },
+  {
+    "ts": "2026-09-11T23:14:17.369Z",
+    "type": "vendor-site",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "destUrl": "https://tidelabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
   }
 ]
