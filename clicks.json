@@ -27554,5 +27554,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-11T06:44:30.146Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157-tb500-blend/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/wolverine-stack-bpc157-tb500-blend"
   }
 ]
