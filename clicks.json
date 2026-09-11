@@ -30594,5 +30594,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "selank",
     "destUrl": "https://ukpeptidelab.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-11T10:03:33.865Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tb-500/"
   }
 ]
