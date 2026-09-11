@@ -548,5 +548,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T14:51:32.515Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "bpc-157-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
   }
 ]
