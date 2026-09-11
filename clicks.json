@@ -30996,5 +30996,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://polygonpeptides.co.uk/product/semax-10mg/"
+  },
+  {
+    "ts": "2026-09-11T10:37:33.448Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
   }
 ]
