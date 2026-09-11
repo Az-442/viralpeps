@@ -646,5 +646,12 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-11T15:05:06.202Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk"
   }
 ]
