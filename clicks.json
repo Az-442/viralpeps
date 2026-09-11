@@ -22613,5 +22613,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-11T00:27:29.746Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://ukpeptides.com/catalog/mazdutide"
   }
 ]
