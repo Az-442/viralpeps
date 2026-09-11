@@ -26445,5 +26445,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-11T05:22:30.202Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://bluewellpeptides.com/product/ss-31-10mg-peptide/"
   }
 ]
