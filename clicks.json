@@ -24489,5 +24489,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glutathione",
     "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
+  },
+  {
+    "ts": "2026-09-11T03:04:49.215Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial"
   }
 ]
