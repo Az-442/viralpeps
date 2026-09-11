@@ -3317,5 +3317,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-11T19:37:10.131Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://octagonpeptides.co.uk/product/ghk-cu-100-mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ghk-cu"
   }
 ]
