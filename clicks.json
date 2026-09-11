@@ -30264,5 +30264,14 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-11T09:24:49.005Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-100-tablets",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
