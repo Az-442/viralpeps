@@ -1236,5 +1236,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "klow-stack",
     "destUrl": "https://alphamino.co.uk/shop/klow-stack/"
+  },
+  {
+    "ts": "2026-09-11T16:21:58.566Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://xlpeptides.com/product/semax-10mg/"
   }
 ]
