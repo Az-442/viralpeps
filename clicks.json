@@ -3518,5 +3518,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesonline.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-11T19:51:08.638Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/31-epitalon-10mg.html"
   }
 ]
