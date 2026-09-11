@@ -4214,5 +4214,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.peptidesx.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-11T20:58:31.926Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta"
   }
 ]
