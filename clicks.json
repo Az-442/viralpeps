@@ -28790,5 +28790,12 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.apexbiolabs.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-11T08:10:15.669Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "destUrl": "https://biopeptides-uk.com"
   }
 ]
