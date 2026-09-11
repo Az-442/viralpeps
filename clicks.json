@@ -345,5 +345,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bpc-157-5mg",
     "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-11T14:28:57.655Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://biohackpeptides.co.uk/product/semax-5mg-3ml-bac-water/"
   }
 ]
