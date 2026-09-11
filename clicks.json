@@ -26804,5 +26804,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
+  },
+  {
+    "ts": "2026-09-11T05:48:35.468Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://supplypeptides.co.uk/products/glow"
   }
 ]
