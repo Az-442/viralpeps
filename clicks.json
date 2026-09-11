@@ -27819,5 +27819,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "sermorelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-11T07:03:26.730Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://peptideslabuk.com/product/hgh-fragments/"
   }
 ]
