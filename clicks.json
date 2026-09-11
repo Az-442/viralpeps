@@ -22448,5 +22448,12 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://xlpeptides.com/product/igf-1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-11T00:11:38.910Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk"
   }
 ]
