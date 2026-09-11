@@ -2869,5 +2869,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-11T19:06:59.684Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
   }
 ]
