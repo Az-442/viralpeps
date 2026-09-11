@@ -1509,5 +1509,13 @@
     "vendorSlug": "bluewell-peptides",
     "vendorName": "Bluewell Peptides",
     "destUrl": "https://bluewellpeptides.com"
+  },
+  {
+    "ts": "2026-09-11T16:45:53.719Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "dsip-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/dsip/vial"
   }
 ]
