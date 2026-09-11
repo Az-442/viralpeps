@@ -1790,5 +1790,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/nad-plus-500mg"
+  },
+  {
+    "ts": "2026-09-11T17:11:42.368Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
   }
 ]
