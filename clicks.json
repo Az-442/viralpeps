@@ -31238,5 +31238,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biohackpeptides.co.uk/product/nad-500mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-11T10:54:27.742Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide"
   }
 ]
