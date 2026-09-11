@@ -1002,5 +1002,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipam-cjc-nodac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen"
+  },
+  {
+    "ts": "2026-09-11T15:52:48.171Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
   }
 ]
