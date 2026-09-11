@@ -29539,5 +29539,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-2/"
+  },
+  {
+    "ts": "2026-09-11T09:01:49.678Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "b7-33",
+    "destUrl": "https://bioplexpeptides.co.uk/products/b7-33"
   }
 ]
