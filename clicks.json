@@ -28268,5 +28268,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
+  },
+  {
+    "ts": "2026-09-11T07:32:27.873Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
   }
 ]
