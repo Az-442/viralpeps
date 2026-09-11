@@ -6227,5 +6227,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://www.testedpeptides.co.uk/product/follistatin-344-1mg/"
+  },
+  {
+    "ts": "2026-09-11T23:59:48.363Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides"
   }
 ]
