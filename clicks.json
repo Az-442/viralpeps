@@ -29699,5 +29699,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.stratfordpeptides.com/products/ipamorelin"
+  },
+  {
+    "ts": "2026-09-11T09:16:39.657Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/pen"
   }
 ]
