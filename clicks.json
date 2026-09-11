@@ -217,5 +217,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptidesx.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-11T14:14:49.800Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptideslabuk.com/product/5-amino-1mq/"
   }
 ]
