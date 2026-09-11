@@ -24746,5 +24746,13 @@
     "vendorSlug": "applied-peptides",
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com"
+  },
+  {
+    "ts": "2026-09-11T03:25:33.678Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial"
   }
 ]
