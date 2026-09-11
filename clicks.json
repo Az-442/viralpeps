@@ -1228,5 +1228,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
+  },
+  {
+    "ts": "2026-09-11T16:21:31.718Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/"
   }
 ]
