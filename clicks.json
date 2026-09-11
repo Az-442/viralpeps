@@ -30923,5 +30923,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.flexpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-11T10:27:51.924Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
   }
 ]
