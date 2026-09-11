@@ -929,5 +929,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "ss-31",
     "destUrl": "https://midshirelabs.co.uk/products/ss31/"
+  },
+  {
+    "ts": "2026-09-11T15:43:20.819Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptx.co.uk/product/aod-9604"
   }
 ]
