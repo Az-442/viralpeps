@@ -1220,5 +1220,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://ukpeptidelab.co.uk/product/kisspeptin-10"
+  },
+  {
+    "ts": "2026-09-11T16:19:53.896Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
   }
 ]
