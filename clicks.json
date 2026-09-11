@@ -27804,5 +27804,12 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "sterling-cagrilintide-5mg",
     "destUrl": "https://www.raccoonpeptides.com/peptides/22-cagrilintide-5mg.html"
+  },
+  {
+    "ts": "2026-09-11T07:00:21.215Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk"
   }
 ]
