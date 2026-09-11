@@ -3758,5 +3758,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.peptidesonline.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-11T20:22:43.042Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://alphamino.co.uk/shop/glow-research-peptide/"
   }
 ]
