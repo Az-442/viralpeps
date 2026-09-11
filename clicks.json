@@ -30336,5 +30336,13 @@
     "vendorSlug": "xl-peptides",
     "vendorName": "XL Peptides",
     "destUrl": "https://xlpeptides.com"
+  },
+  {
+    "ts": "2026-09-11T09:32:23.594Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
   }
 ]
