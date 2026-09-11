@@ -4836,5 +4836,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghk-cu-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial"
+  },
+  {
+    "ts": "2026-09-11T21:42:53.457Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
