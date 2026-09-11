@@ -257,5 +257,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "pancragen",
     "destUrl": "https://tidelabs.co.uk/products/pancragen-research-peptide"
+  },
+  {
+    "ts": "2026-09-11T14:19:21.621Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-20mg/"
   }
 ]
