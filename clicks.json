@@ -4812,5 +4812,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
+  },
+  {
+    "ts": "2026-09-11T21:41:03.632Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ipamorelin/"
   }
 ]
