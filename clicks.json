@@ -27651,5 +27651,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://my-peptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-11T06:52:33.801Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://anglopeptides.com/product/kpv-10mg-research-peptide-batch-102/"
   }
 ]
