@@ -32116,5 +32116,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://xlpeptides.com/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-11T11:59:52.450Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/"
   }
 ]
