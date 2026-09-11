@@ -3213,5 +3213,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen"
+  },
+  {
+    "ts": "2026-09-11T19:28:54.834Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/glow/"
   }
 ]
