@@ -1927,5 +1927,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ghk-cu-50mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-11T17:24:17.663Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://supplypeptides.co.uk/products/klow"
   }
 ]
