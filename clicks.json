@@ -26970,5 +26970,13 @@
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
+  },
+  {
+    "ts": "2026-09-11T06:00:13.341Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/glow-blend/"
   }
 ]
