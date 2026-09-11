@@ -2516,5 +2516,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://premiopeptides.co.uk/compounds/selank"
+  },
+  {
+    "ts": "2026-09-11T18:33:58.313Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
   }
 ]
