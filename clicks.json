@@ -160,5 +160,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "semax",
     "destUrl": "https://reta-uk.com/products/semax"
+  },
+  {
+    "ts": "2026-09-11T14:11:40.397Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin"
   }
 ]
