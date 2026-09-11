@@ -31730,5 +31730,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide"
+  },
+  {
+    "ts": "2026-09-11T11:34:33.910Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "mgf",
+    "destUrl": "https://peptidesuk.com/mgf/"
   }
 ]
