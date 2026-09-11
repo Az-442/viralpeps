@@ -24310,5 +24310,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "glow",
     "destUrl": "https://www.peptidesx.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-11T02:50:23.001Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://tidelabs.co.uk/products/thymosin-alpha-1"
   }
 ]
