@@ -978,5 +978,13 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://pepnova.uk/",
     "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
+  },
+  {
+    "ts": "2026-09-11T15:48:57.049Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
   }
 ]
