@@ -29322,5 +29322,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
+  },
+  {
+    "ts": "2026-09-11T08:43:38.570Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://anglopeptides.com/product/5-amino-1mq-10mg-vial-research-peptide/"
   }
 ]
