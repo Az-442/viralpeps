@@ -31488,5 +31488,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://pgnalabs.co.uk/product/bpc-tb-10mg"
+  },
+  {
+    "ts": "2026-09-11T11:12:11.231Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://astralabs.co.uk/product/selank-10mg/"
   }
 ]
