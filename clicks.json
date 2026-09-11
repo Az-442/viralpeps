@@ -30698,5 +30698,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bluewellpeptides.com/product/5-amino-1mq-10mg/"
+  },
+  {
+    "ts": "2026-09-11T10:11:17.494Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-dac"
   }
 ]
