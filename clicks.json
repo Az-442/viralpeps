@@ -31601,5 +31601,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T11:22:11.687Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg"
   }
 ]
