@@ -32148,5 +32148,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://bluewellpeptides.com/product/vip-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T12:01:52.155Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://premiopeptides.co.uk/compounds/selank",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
