@@ -25531,5 +25531,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://my-peptides.co.uk/products/pt-141"
+  },
+  {
+    "ts": "2026-09-11T04:19:19.953Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/pen"
   }
 ]
