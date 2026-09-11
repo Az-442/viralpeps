@@ -152,5 +152,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tesamorelin-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-11T14:11:25.364Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax"
   }
 ]
