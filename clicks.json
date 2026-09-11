@@ -30706,5 +30706,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-dac"
+  },
+  {
+    "ts": "2026-09-11T10:11:26.422Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ghk-cu/"
   }
 ]
