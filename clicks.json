@@ -2908,5 +2908,13 @@
     "vendorSlug": "anglo-peptides",
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com"
+  },
+  {
+    "ts": "2026-09-11T19:07:39.607Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://bioplexpeptides.co.uk/products/klow-80mg-ghk-cu-bpc-tb500-kvp"
   }
 ]
