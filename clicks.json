@@ -799,5 +799,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-11T15:25:00.522Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://xlpeptides.com/product/nad-500mg/"
   }
 ]
