@@ -29386,5 +29386,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-11T08:47:56.043Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptx.co.uk/product/cagrilintide"
   }
 ]
