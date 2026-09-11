@@ -1301,5 +1301,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "l-glutathione-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
+  },
+  {
+    "ts": "2026-09-11T16:33:23.013Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
