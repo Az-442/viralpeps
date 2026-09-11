@@ -26382,5 +26382,12 @@
     "vendorName": "Chilton Labs",
     "compoundSlug": "hcg",
     "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/"
+  },
+  {
+    "ts": "2026-09-11T05:16:53.915Z",
+    "type": "vendor-site",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "destUrl": "https://midshirelabs.co.uk"
   }
 ]
