@@ -5401,5 +5401,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://zentra-peptides.com/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-11T22:26:56.608Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/ss-31-50mg/"
   }
 ]
