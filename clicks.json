@@ -24302,5 +24302,13 @@
     "vendorSlug": "biohack-peptides",
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T02:50:19.241Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidesx.uk/product/glow-blend/"
   }
 ]
