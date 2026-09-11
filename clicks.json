@@ -25500,5 +25500,12 @@
     "vendorName": "RETA UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://reta-uk.com/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-11T04:16:18.696Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk"
   }
 ]
