@@ -24793,5 +24793,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6"
+  },
+  {
+    "ts": "2026-09-11T03:27:48.222Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.peptidesonline.uk/shop/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptides-online-uk"
   }
 ]
