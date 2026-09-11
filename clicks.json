@@ -30344,5 +30344,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
+  },
+  {
+    "ts": "2026-09-11T09:33:28.984Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
+    "refPage": "https://viralpeps.co.uk/compounds/tesamorelin"
   }
 ]
