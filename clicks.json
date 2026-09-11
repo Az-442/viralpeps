@@ -28213,5 +28213,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://peptideslabuk.com/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-11T07:28:26.337Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ghk-cu-50mg/"
   }
 ]
