@@ -26859,5 +26859,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "semax",
     "destUrl": "https://reta-uk.com/products/semax"
+  },
+  {
+    "ts": "2026-09-11T05:51:46.264Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157"
   }
 ]
