@@ -5760,5 +5760,14 @@
     "vendorName": "BuyReta",
     "compoundSlug": "snap-8",
     "destUrl": "https://www.buyreta.co.uk/product/snap-8-uk"
+  },
+  {
+    "ts": "2026-09-11T23:09:54.928Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/selank-peptide",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
