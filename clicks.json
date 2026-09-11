@@ -2916,5 +2916,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://bioplexpeptides.co.uk/products/klow-80mg-ghk-cu-bpc-tb500-kvp"
+  },
+  {
+    "ts": "2026-09-11T19:08:10.511Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://octagonpeptides.co.uk/product/mots-c-20-mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
