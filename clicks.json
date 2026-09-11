@@ -24191,5 +24191,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://my-peptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-11T02:43:24.441Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "myostatin-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/myostatin-1mg/"
   }
 ]
