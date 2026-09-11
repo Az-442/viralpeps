@@ -144,5 +144,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://premiopeptides.co.uk/compounds/cjc-1295-no-dac"
+  },
+  {
+    "ts": "2026-09-11T14:10:28.603Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/tesamorelin/"
   }
 ]
