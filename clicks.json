@@ -29370,5 +29370,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biotideuk.com/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-11T08:46:54.996Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://mypepbiotech.co.uk/product/oxytocin/"
   }
 ]
