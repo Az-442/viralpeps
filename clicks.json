@@ -580,5 +580,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
+  },
+  {
+    "ts": "2026-09-11T14:54:41.349Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.novapeptide.co.uk/product/semax/"
   }
 ]
