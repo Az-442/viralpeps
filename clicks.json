@@ -28782,5 +28782,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-11T08:09:09.648Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ghk-cu-100mg/"
   }
 ]
