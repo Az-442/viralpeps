@@ -4110,5 +4110,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "glow",
     "destUrl": "https://reta-uk.com/products/glow"
+  },
+  {
+    "ts": "2026-09-11T20:49:28.066Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://reta-uk.com/products/klow"
   }
 ]
