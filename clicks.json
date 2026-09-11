@@ -5608,5 +5608,13 @@
     "vendorName": "Precision Peptides",
     "destUrl": "https://precision-peptides.shop",
     "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
+  },
+  {
+    "ts": "2026-09-11T22:49:39.570Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://precision-peptides.shop/product/glp-3-reta-10mg/"
   }
 ]
