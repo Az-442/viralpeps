@@ -4828,5 +4828,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/"
+  },
+  {
+    "ts": "2026-09-11T21:42:38.211Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghk-cu-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial"
   }
 ]
