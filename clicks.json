@@ -32560,5 +32560,12 @@
     "vendorName": "RETA UK",
     "compoundSlug": "selank",
     "destUrl": "https://reta-uk.com/products/selank"
+  },
+  {
+    "ts": "2026-09-11T12:43:18.313Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
