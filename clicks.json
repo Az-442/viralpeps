@@ -831,5 +831,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glutathione",
     "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
+  },
+  {
+    "ts": "2026-09-11T15:29:34.602Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://supplypeptides.co.uk/products/bpc-157-tb-500-mix"
   }
 ]
