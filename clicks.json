@@ -1140,5 +1140,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://ukpeptides.com/catalog/ipamorelin"
+  },
+  {
+    "ts": "2026-09-11T16:10:01.270Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
