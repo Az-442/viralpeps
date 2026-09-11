@@ -1823,5 +1823,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopeptides-uk.com/product/bacteriostatic-water-10ml-biopura/"
+  },
+  {
+    "ts": "2026-09-11T17:15:31.752Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://xlpeptides.com/product/ghrp-6-10mg/"
   }
 ]
