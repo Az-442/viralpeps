@@ -22830,5 +22830,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://ukpeptides.com/catalog/ghk-cu"
+  },
+  {
+    "ts": "2026-09-11T00:50:49.644Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-6"
   }
 ]
