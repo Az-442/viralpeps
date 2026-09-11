@@ -23089,5 +23089,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://peptidesuk.com/ace-031/"
+  },
+  {
+    "ts": "2026-09-11T01:05:37.209Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html"
   }
 ]
