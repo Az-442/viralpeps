@@ -25515,5 +25515,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://reta-uk.com/products/nad"
+  },
+  {
+    "ts": "2026-09-11T04:17:09.858Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/"
   }
 ]
