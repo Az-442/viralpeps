@@ -24097,5 +24097,12 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "glp-3",
     "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg"
+  },
+  {
+    "ts": "2026-09-11T02:36:32.322Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com"
   }
 ]
