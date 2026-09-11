@@ -27915,5 +27915,14 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://octagonpeptides.co.uk/product/kpv-10-mg/"
+  },
+  {
+    "ts": "2026-09-11T07:10:21.401Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/selank-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/selank"
   }
 ]
