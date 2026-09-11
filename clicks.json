@@ -28758,5 +28758,13 @@
     "vendorSlug": "anglo-peptides",
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com"
+  },
+  {
+    "ts": "2026-09-11T08:07:56.370Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidesuk.com/aod-9604/"
   }
 ]
