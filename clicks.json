@@ -3774,5 +3774,14 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://www.peptidesonline.uk/shop/cjc-1295-no-dac/"
+  },
+  {
+    "ts": "2026-09-11T20:25:31.156Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.proformapeptides.co.uk/product/epitalon-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
