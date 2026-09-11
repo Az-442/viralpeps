@@ -23348,5 +23348,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/glow"
+  },
+  {
+    "ts": "2026-09-11T01:34:52.676Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "follistatin-344-1mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/follistatin-344-1mg/"
   }
 ]
