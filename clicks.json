@@ -4158,5 +4158,12 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "glow",
     "destUrl": "https://www.peptidesx.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-11T20:54:24.028Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk"
   }
 ]
