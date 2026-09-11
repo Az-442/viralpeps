@@ -30554,5 +30554,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
+  },
+  {
+    "ts": "2026-09-11T09:57:19.744Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
   }
 ]
