@@ -1204,5 +1204,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "gonadorelin",
     "destUrl": "https://kensingtonlabs.co.uk/product/gonadorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-11T16:18:51.086Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://astralabs.co.uk/product/cagrilintide-5mg/"
   }
 ]
