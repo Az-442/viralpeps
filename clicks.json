@@ -28003,5 +28003,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-dac-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen"
+  },
+  {
+    "ts": "2026-09-11T07:14:14.660Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "glp-transformation-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
