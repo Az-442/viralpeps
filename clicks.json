@@ -5472,5 +5472,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "kpv-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-11T22:32:54.999Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tb-500/"
   }
 ]
