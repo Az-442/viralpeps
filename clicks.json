@@ -28125,5 +28125,14 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "dermorphin",
     "destUrl": "https://kensingtonlabs.co.uk/product/dermorphin-5mg/"
+  },
+  {
+    "ts": "2026-09-11T07:22:53.934Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company"
   }
 ]
