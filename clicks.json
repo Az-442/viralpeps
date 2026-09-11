@@ -27891,5 +27891,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "vip",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/vip-10mg/"
+  },
+  {
+    "ts": "2026-09-11T07:09:26.405Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
   }
 ]
