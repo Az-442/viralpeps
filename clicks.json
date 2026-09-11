@@ -31544,5 +31544,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T11:16:26.486Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://premiopeptides.co.uk/compounds/dsip"
   }
 ]
