@@ -26620,5 +26620,13 @@
     "vendorSlug": "tested-peptides",
     "vendorName": "Tested Peptides",
     "destUrl": "https://www.testedpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T05:34:55.048Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor"
   }
 ]
