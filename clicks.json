@@ -22717,5 +22717,14 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-11T00:36:18.533Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-dac/",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295-with-dac"
   }
 ]
