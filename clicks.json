@@ -1525,5 +1525,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biopeptides-uk.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T16:48:51.458Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-nad-100mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
