@@ -27546,5 +27546,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://supplypeptides.co.uk/products/nad"
+  },
+  {
+    "ts": "2026-09-11T06:44:27.701Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial"
   }
 ]
