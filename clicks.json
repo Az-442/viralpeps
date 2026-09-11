@@ -28372,5 +28372,12 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "acetic-acid-reconstitution-solvent-10ml",
     "destUrl": "https://tidelabs.co.uk/products/acetic-acid-reconstitution-solvent-10ml"
+  },
+  {
+    "ts": "2026-09-11T07:42:05.999Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "destUrl": "https://peptigenlabs.co.uk"
   }
 ]
