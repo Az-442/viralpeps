@@ -4901,5 +4901,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/"
+  },
+  {
+    "ts": "2026-09-11T21:51:09.611Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/semax/"
   }
 ]
