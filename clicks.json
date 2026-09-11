@@ -2104,5 +2104,14 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.peptifyuk.com/product/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-11T17:41:05.090Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://olresearch.co.uk/product/r3ta-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ol-research"
   }
 ]
