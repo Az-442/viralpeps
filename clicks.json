@@ -25195,5 +25195,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://supplypeptides.co.uk/products/mots-c"
+  },
+  {
+    "ts": "2026-09-11T03:54:15.496Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
