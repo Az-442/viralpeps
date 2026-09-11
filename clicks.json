@@ -3013,5 +3013,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/aod-9604-5mg"
+  },
+  {
+    "ts": "2026-09-11T19:16:39.162Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
   }
 ]
