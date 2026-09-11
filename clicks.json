@@ -27161,5 +27161,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg"
+  },
+  {
+    "ts": "2026-09-11T06:12:28.377Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pe-22-28-10mg-research-peptide-for-laboratory-use-only/"
   }
 ]
