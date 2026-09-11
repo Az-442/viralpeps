@@ -27106,5 +27106,12 @@
     "vendorSlug": "apex-biolabs",
     "vendorName": "APEX Biolabs",
     "destUrl": "https://www.apexbiolabs.co.uk"
+  },
+  {
+    "ts": "2026-09-11T06:09:33.538Z",
+    "type": "vendor-site",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "destUrl": "https://trutide.co.uk"
   }
 ]
