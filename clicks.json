@@ -25227,5 +25227,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen"
+  },
+  {
+    "ts": "2026-09-11T03:57:56.138Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://biohackpeptides.co.uk/product/kisspeptin-peptide-5mg-3ml-bac-water/"
   }
 ]
