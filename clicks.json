@@ -2877,5 +2877,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-11T19:07:01.091Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
   }
 ]
