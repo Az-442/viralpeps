@@ -4173,5 +4173,14 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.peptidesx.uk/product/ghrp-6/"
+  },
+  {
+    "ts": "2026-09-11T20:55:11.588Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidesuk.com/mots-c/",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
