@@ -386,5 +386,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-11T14:33:19.944Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://anglopeptides.com/product/mots-c-10mg-batch-106-research-peptide/"
   }
 ]
