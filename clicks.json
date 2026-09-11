@@ -28927,5 +28927,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://ukpeptides.com/catalog/nad-plus"
+  },
+  {
+    "ts": "2026-09-11T08:17:09.256Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://octagonpeptides.co.uk/product/bpc-157-10-mg/"
   }
 ]
