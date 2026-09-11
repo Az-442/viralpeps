@@ -27043,5 +27043,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-11T06:05:27.758Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tb-500/vial"
   }
 ]
