@@ -25323,5 +25323,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "hexarelin",
     "destUrl": "https://peptidesuk.com/hexarelin/"
+  },
+  {
+    "ts": "2026-09-11T04:02:43.324Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/",
+    "refPage": "https://viralpeps.co.uk/compounds/oxytocin"
   }
 ]
