@@ -540,5 +540,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bioplexpeptides.co.uk/products/kvp-10mg-kpv-tripeptide"
+  },
+  {
+    "ts": "2026-09-11T14:51:12.940Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/"
   }
 ]
