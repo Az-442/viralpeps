@@ -24481,5 +24481,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "ghk-cu-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/ghk-cu"
+  },
+  {
+    "ts": "2026-09-11T03:03:50.580Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
   }
 ]
