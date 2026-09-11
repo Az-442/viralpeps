@@ -1010,5 +1010,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-11T15:52:49.685Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/pt-141"
   }
 ]
