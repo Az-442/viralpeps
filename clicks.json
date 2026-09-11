@@ -3293,5 +3293,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-11T19:33:44.400Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.peptidesonline.uk/shop/epitalon/"
   }
 ]
