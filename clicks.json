@@ -28854,5 +28854,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kisspeptin-5mg",
     "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-11T08:12:31.619Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/pen"
   }
 ]
