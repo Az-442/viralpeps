@@ -26715,5 +26715,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-11T05:41:47.146Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
