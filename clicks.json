@@ -22774,5 +22774,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "klow",
     "destUrl": "https://www.peptifyuk.com/product/klow-blend-80mg"
+  },
+  {
+    "ts": "2026-09-11T00:44:46.363Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://biotideuk.com/products/semax-10-mg"
   }
 ]
