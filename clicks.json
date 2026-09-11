@@ -28467,5 +28467,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "pt-141",
     "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
+  },
+  {
+    "ts": "2026-09-11T07:50:48.592Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ss-31-10mg/"
   }
 ]
