@@ -31480,5 +31480,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit"
+  },
+  {
+    "ts": "2026-09-11T11:12:09.047Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pgnalabs.co.uk/product/bpc-tb-10mg"
   }
 ]
