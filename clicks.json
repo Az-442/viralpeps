@@ -29071,5 +29071,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "liraglutide",
     "destUrl": "https://mypepbiotech.co.uk/product/liraglutide-10mg/"
+  },
+  {
+    "ts": "2026-09-11T08:27:18.928Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://octagonpeptides.co.uk/product/peg-mgf-2-mg/"
   }
 ]
