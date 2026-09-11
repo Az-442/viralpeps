@@ -5440,5 +5440,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/"
+  },
+  {
+    "ts": "2026-09-11T22:30:09.105Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research"
   }
 ]
