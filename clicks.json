@@ -621,5 +621,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptideslabuk.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-11T15:04:22.403Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidelabuk.co.uk/product/ipamorelin-5mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
