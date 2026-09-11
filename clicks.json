@@ -2571,5 +2571,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "follistatin-344",
     "destUrl": "https://peptideslabuk.com/product/follistatin/"
+  },
+  {
+    "ts": "2026-09-11T18:39:09.532Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://olresearch.co.uk/product/glow-70mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ol-research"
   }
 ]
