@@ -32132,5 +32132,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghk-cu-100mg-copper-tripeptide-1"
+  },
+  {
+    "ts": "2026-09-11T12:01:11.294Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
