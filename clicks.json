@@ -29667,5 +29667,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-11T09:16:18.739Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg"
   }
 ]
