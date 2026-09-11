@@ -725,5 +725,14 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "pinealon",
     "destUrl": "https://supplypeptides.co.uk/products/pinealon-10"
+  },
+  {
+    "ts": "2026-09-11T15:13:05.684Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/cagrilintide"
   }
 ]
