@@ -30393,5 +30393,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
+  },
+  {
+    "ts": "2026-09-11T09:39:48.271Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/"
   }
 ]
