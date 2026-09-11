@@ -1694,5 +1694,13 @@
     "vendorName": "Nupex",
     "compoundSlug": "nad-plus",
     "destUrl": "https://nupex.co.uk/products/nad-supplement-uk-research-grade-peptide"
+  },
+  {
+    "ts": "2026-09-11T16:59:15.628Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://thepeptidecode.co.uk/products/bpc-157-tb-500-blend"
   }
 ]
