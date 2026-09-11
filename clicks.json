@@ -1188,5 +1188,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://peptx.co.uk/tirzepatide"
+  },
+  {
+    "ts": "2026-09-11T16:17:26.877Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/"
   }
 ]
