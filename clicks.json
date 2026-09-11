@@ -22533,5 +22533,14 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.stratfordpeptides.com/products/kpv"
+  },
+  {
+    "ts": "2026-09-11T00:18:53.690Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptidesx.uk/product/semax/",
+    "refPage": "https://viralpeps.co.uk/compounds/semax"
   }
 ]
