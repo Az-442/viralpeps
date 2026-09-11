@@ -4342,5 +4342,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "semax",
     "destUrl": "https://midshirelabs.co.uk/products/semax/"
+  },
+  {
+    "ts": "2026-09-11T21:13:52.722Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kpv",
+    "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
