@@ -22701,5 +22701,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidesuk.com/dsip/"
+  },
+  {
+    "ts": "2026-09-11T00:35:02.154Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/pen"
   }
 ]
