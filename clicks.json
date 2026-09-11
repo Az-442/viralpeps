@@ -2024,5 +2024,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "nad-plus",
     "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-11T17:33:52.969Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptideslabuk.com/product/nad/"
   }
 ]
