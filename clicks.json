@@ -2210,5 +2210,13 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://astralabs.co.uk/product/tesamorelin-5mg-uk/"
+  },
+  {
+    "ts": "2026-09-11T17:56:45.226Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://helixcore.co.uk/products/nad-plus"
   }
 ]
