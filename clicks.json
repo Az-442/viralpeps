@@ -1365,5 +1365,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
+  },
+  {
+    "ts": "2026-09-11T16:39:10.770Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/nad/"
   }
 ]
