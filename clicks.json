@@ -25635,5 +25635,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "nad-1000-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/nad-1000-nasal-spray"
+  },
+  {
+    "ts": "2026-09-11T04:26:23.997Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg"
   }
 ]
