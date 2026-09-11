@@ -26819,5 +26819,13 @@
     "vendorSlug": "raccoon-peptides",
     "vendorName": "Raccoon Peptides",
     "destUrl": "https://www.raccoonpeptides.com"
+  },
+  {
+    "ts": "2026-09-11T05:48:43.300Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptides.com/catalog/retatrutide"
   }
 ]
