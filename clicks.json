@@ -30008,5 +30008,14 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit",
     "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus"
+  },
+  {
+    "ts": "2026-09-11T09:22:31.203Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://chromapeptides.co.uk/product/nad/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus"
   }
 ]
