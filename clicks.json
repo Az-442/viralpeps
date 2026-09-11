@@ -1429,5 +1429,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://midshirelabs.co.uk/products/nad/"
+  },
+  {
+    "ts": "2026-09-11T16:41:38.255Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.stratfordpeptides.com/products/nad"
   }
 ]
