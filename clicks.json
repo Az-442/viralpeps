@@ -29024,5 +29024,12 @@
     "vendorName": "RETA UK",
     "compoundSlug": "semax",
     "destUrl": "https://reta-uk.com/products/semax"
+  },
+  {
+    "ts": "2026-09-11T08:24:48.823Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com"
   }
 ]
