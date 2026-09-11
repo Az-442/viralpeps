@@ -774,5 +774,14 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "nad-research-peptide",
     "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
+  },
+  {
+    "ts": "2026-09-11T15:22:02.494Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
