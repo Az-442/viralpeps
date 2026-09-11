@@ -27971,5 +27971,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen"
+  },
+  {
+    "ts": "2026-09-11T07:13:13.363Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/melanotan-ii-10mg"
   }
 ]
