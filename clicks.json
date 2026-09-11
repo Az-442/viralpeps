@@ -32769,5 +32769,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.apexbiolabs.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-11T12:57:01.237Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
   }
 ]
