@@ -22782,5 +22782,14 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "semax",
     "destUrl": "https://biotideuk.com/products/semax-10-mg"
+  },
+  {
+    "ts": "2026-09-11T00:45:01.749Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295-ipamorelin-blend"
   }
 ]
