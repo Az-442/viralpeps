@@ -986,5 +986,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide"
+  },
+  {
+    "ts": "2026-09-11T15:49:58.373Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4"
   }
 ]
