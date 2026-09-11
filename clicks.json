@@ -1766,5 +1766,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://precision-peptides.shop/product/nad-1000mg/"
+  },
+  {
+    "ts": "2026-09-11T17:08:22.674Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidesuk.com/thymosin-alpha-1/"
   }
 ]
