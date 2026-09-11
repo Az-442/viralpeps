@@ -4238,5 +4238,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptidesx.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-11T21:02:53.883Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.peptidesx.uk/product/tb-500/"
   }
 ]
