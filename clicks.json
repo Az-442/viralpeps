@@ -26509,5 +26509,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
+  },
+  {
+    "ts": "2026-09-11T05:25:45.982Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://pgnalabs.co.uk/product/glow"
   }
 ]
