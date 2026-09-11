@@ -32938,5 +32938,12 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-11T13:09:31.822Z",
+    "type": "vendor-site",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "destUrl": "https://bioplexpeptides.co.uk"
   }
 ]
