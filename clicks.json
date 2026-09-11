@@ -28451,5 +28451,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "semax",
     "destUrl": "https://reta-uk.com/products/semax"
+  },
+  {
+    "ts": "2026-09-11T07:49:03.490Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
   }
 ]
