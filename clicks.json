@@ -25154,5 +25154,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/"
+  },
+  {
+    "ts": "2026-09-11T03:53:36.902Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.stratfordpeptides.com/products/l-carnitine"
   }
 ]
