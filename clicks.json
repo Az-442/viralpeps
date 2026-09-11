@@ -5030,5 +5030,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://zentra-peptides.com/product/epithalon/"
+  },
+  {
+    "ts": "2026-09-11T22:00:44.518Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/ghk-cu-50mg"
   }
 ]
