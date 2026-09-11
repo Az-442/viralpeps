@@ -25740,5 +25740,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://mypepbiotech.co.uk/product/bpc-157-tb-500-20mg-vial-wolverine-stack/"
+  },
+  {
+    "ts": "2026-09-11T04:32:28.625Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://bluewellpeptides.com/product/ara-290-10mg-peptide/"
   }
 ]
