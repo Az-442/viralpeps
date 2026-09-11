@@ -32165,5 +32165,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T12:04:50.224Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://supplypeptides.co.uk/products/retatrutide"
   }
 ]
