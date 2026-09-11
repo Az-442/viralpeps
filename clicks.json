@@ -23195,5 +23195,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://ukpeptides.com/catalog/nad-plus"
+  },
+  {
+    "ts": "2026-09-11T01:22:11.242Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/nad-plus/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/nad-plus"
   }
 ]
