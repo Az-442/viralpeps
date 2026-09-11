@@ -30610,5 +30610,13 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html"
+  },
+  {
+    "ts": "2026-09-11T10:05:21.618Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
