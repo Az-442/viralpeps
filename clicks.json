@@ -27835,5 +27835,12 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html"
+  },
+  {
+    "ts": "2026-09-11T07:04:28.390Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com"
   }
 ]
