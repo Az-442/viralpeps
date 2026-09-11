@@ -2145,5 +2145,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://anglopeptides.com/product/epitalon-10mg-batch-103-research-peptide/"
+  },
+  {
+    "ts": "2026-09-11T17:44:37.270Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
   }
 ]
