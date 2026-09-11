@@ -30618,5 +30618,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T10:06:20.666Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://supplypeptides.co.uk/products/selank"
   }
 ]
