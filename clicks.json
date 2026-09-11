@@ -29747,5 +29747,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "bpc-157-oral",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-nasal-spray"
+  },
+  {
+    "ts": "2026-09-11T09:21:46.743Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.stratfordpeptides.com/products/nad",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus"
   }
 ]
