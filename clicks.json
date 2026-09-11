@@ -26994,5 +26994,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://biohackpeptides.co.uk/product/5-amino-1mq-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-11T06:01:14.063Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://supplypeptides.co.uk/products/sema"
   }
 ]
