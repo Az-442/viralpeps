@@ -27683,5 +27683,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://polygonpeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-11T06:53:44.512Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "snap-8-argireline-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/snap-8-argireline-10mg"
   }
 ]
