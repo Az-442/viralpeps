@@ -3021,5 +3021,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
+  },
+  {
+    "ts": "2026-09-11T19:16:41.142Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
   }
 ]
