@@ -2555,5 +2555,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://premiopeptides.co.uk/compounds/oxytocin"
+  },
+  {
+    "ts": "2026-09-11T18:38:02.983Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/snap-8-10mg/"
   }
 ]
