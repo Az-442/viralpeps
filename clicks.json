@@ -25933,5 +25933,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide"
+  },
+  {
+    "ts": "2026-09-11T04:43:53.128Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
   }
 ]
