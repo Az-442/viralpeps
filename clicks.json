@@ -2668,5 +2668,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
+  },
+  {
+    "ts": "2026-09-11T18:46:22.048Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://nupex.co.uk/products/buy-bpc-157-peptide-uk"
   }
 ]
