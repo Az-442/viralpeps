@@ -27731,5 +27731,14 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
+  },
+  {
+    "ts": "2026-09-11T06:56:45.367Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157-tb500-bacteriostatic-water-research-kit",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb500-bacteriostatic-water-research-kit",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
   }
 ]
