@@ -29466,5 +29466,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://mypepbiotech.co.uk/product/tesamorelin-40mg/"
+  },
+  {
+    "ts": "2026-09-11T08:56:56.637Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://tidelabs.co.uk/products/5-amino-1mq-10mg"
   }
 ]
