@@ -27620,5 +27620,12 @@
     "vendorName": "OL Research",
     "compoundSlug": "mots-c",
     "destUrl": "https://olresearch.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-11T06:50:04.287Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com"
   }
 ]
