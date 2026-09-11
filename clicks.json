@@ -298,5 +298,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.flexpeptides.co.uk/products/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-11T14:22:47.960Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/"
   }
 ]
