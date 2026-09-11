@@ -3726,5 +3726,13 @@
     "vendorSlug": "precision-peptides",
     "vendorName": "Precision Peptides",
     "destUrl": "https://precision-peptides.shop"
+  },
+  {
+    "ts": "2026-09-11T20:17:29.324Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
   }
 ]
