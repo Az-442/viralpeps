@@ -2274,5 +2274,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.testedpeptides.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T18:03:47.025Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/"
   }
 ]
