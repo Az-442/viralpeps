@@ -25901,5 +25901,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
+  },
+  {
+    "ts": "2026-09-11T04:41:14.461Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/vial"
   }
 ]
