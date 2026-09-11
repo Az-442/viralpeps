@@ -26334,5 +26334,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/5-amino-1mq/"
+  },
+  {
+    "ts": "2026-09-11T05:13:57.232Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "semax",
+    "destUrl": "https://thepeptidecode.co.uk/products/semax-10mg"
   }
 ]
