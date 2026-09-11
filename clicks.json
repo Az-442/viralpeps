@@ -2096,5 +2096,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "nad-plus",
     "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/"
+  },
+  {
+    "ts": "2026-09-11T17:41:02.327Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.peptifyuk.com/product/mots-c-10mg"
   }
 ]
