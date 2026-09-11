@@ -5543,5 +5543,14 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-11T22:40:54.362Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://octagonpeptides.co.uk/product/aod-9604-5-mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/octagon-peptides"
   }
 ]
