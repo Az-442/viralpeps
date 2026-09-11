@@ -27940,5 +27940,12 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "ss-31",
     "destUrl": "https://thepeptidecode.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-11T07:12:34.759Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
