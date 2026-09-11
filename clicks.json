@@ -3623,5 +3623,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesonline.uk/shop/tb-500/"
+  },
+  {
+    "ts": "2026-09-11T20:05:15.654Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.peptidesonline.uk/shop/cjc-1295-with-dac/"
   }
 ]
