@@ -31939,5 +31939,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://biopeptides-uk.com/product/cagrilintide-10mg/"
+  },
+  {
+    "ts": "2026-09-11T11:50:51.954Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg"
   }
 ]
