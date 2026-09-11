@@ -27764,5 +27764,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T06:58:39.130Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/dsip-10mg/"
   }
 ]
