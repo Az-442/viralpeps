@@ -5801,5 +5801,12 @@
     "vendorName": "Zentra Peptides UK",
     "destUrl": "https://zentra-peptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/zentra-peptides"
+  },
+  {
+    "ts": "2026-09-11T23:12:49.398Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com"
   }
 ]
