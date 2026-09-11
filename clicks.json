@@ -2338,5 +2338,13 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-11T18:10:07.167Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c"
   }
 ]
