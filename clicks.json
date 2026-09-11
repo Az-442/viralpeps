@@ -2475,5 +2475,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ahk-cu-100mg",
     "destUrl": "https://tidelabs.co.uk/products/ahk-cu-100mg"
+  },
+  {
+    "ts": "2026-09-11T18:26:33.141Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu"
   }
 ]
