@@ -3837,5 +3837,13 @@
     "vendorSlug": "peptigen-labs",
     "vendorName": "Peptigen Labs",
     "destUrl": "https://peptigenlabs.co.uk"
+  },
+  {
+    "ts": "2026-09-11T20:32:40.960Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "klow",
+    "destUrl": "https://trutide.co.uk/product/klow-80mg/"
   }
 ]
