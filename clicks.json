@@ -1050,5 +1050,14 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html"
+  },
+  {
+    "ts": "2026-09-11T15:57:32.161Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pepnova.uk/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
   }
 ]
