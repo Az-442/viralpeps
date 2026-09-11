@@ -30297,5 +30297,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-11T09:28:45.235Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-6-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/vial"
   }
 ]
