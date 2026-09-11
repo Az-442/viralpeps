@@ -1831,5 +1831,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://xlpeptides.com/product/ghrp-6-10mg/"
+  },
+  {
+    "ts": "2026-09-11T17:15:35.348Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/"
   }
 ]
