@@ -4230,5 +4230,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptidesx.uk/product/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-11T21:01:13.348Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidesx.uk/product/tesamorelin/"
   }
 ]
