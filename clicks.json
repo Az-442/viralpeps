@@ -27899,5 +27899,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
+  },
+  {
+    "ts": "2026-09-11T07:09:56.376Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ll-37-cathelicidin-5mg",
+    "destUrl": "https://tidelabs.co.uk/products/ll-37-cathelicidin-5mg"
   }
 ]
