@@ -1887,5 +1887,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-11T17:19:47.198Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
   }
 ]
