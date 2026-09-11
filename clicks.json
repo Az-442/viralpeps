@@ -22992,5 +22992,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen"
+  },
+  {
+    "ts": "2026-09-11T00:58:17.700Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/"
   }
 ]
