@@ -32092,5 +32092,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "ss-31-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/ss-31/"
+  },
+  {
+    "ts": "2026-09-11T11:58:25.605Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://peptx.co.uk/product/liraglutide"
   }
 ]
