@@ -1293,5 +1293,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/melanotan-ii-10mg"
+  },
+  {
+    "ts": "2026-09-11T16:31:07.386Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
