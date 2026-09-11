@@ -24642,5 +24642,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
+  },
+  {
+    "ts": "2026-09-11T03:17:56.216Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "epithalon-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/epithalon/"
   }
 ]
