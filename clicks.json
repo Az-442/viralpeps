@@ -31842,5 +31842,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "selank-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
+  },
+  {
+    "ts": "2026-09-11T11:42:58.380Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ahk-cu/"
   }
 ]
