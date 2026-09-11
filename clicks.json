@@ -953,5 +953,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-11T15:46:15.946Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://www.expresspeptides.co.uk/product/peg-mgf/vial"
   }
 ]
