@@ -30321,5 +30321,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
+  },
+  {
+    "ts": "2026-09-11T09:30:28.590Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://bioplexpeptides.co.uk/products/glow-blend-70mg-ghk-cu-tb-500-bpc-157"
   }
 ]
