@@ -29595,5 +29595,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/aod-9604/"
+  },
+  {
+    "ts": "2026-09-11T09:06:39.788Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://supplypeptides.co.uk/products/semax"
   }
 ]
