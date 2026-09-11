@@ -572,5 +572,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "klow",
     "destUrl": "https://reta-uk.com/products/klow"
+  },
+  {
+    "ts": "2026-09-11T14:52:51.207Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.stratfordpeptides.com/products/retatrutide"
   }
 ]
