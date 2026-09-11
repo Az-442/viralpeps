@@ -2837,5 +2837,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-11T19:04:20.127Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tb-500-5mg"
   }
 ]
