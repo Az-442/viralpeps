@@ -26827,5 +26827,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptides.com/catalog/retatrutide"
+  },
+  {
+    "ts": "2026-09-11T05:49:11.403Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
   }
 ]
