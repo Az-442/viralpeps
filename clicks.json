@@ -24841,5 +24841,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "thymalin",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg"
+  },
+  {
+    "ts": "2026-09-11T03:29:34.986Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
