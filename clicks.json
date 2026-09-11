@@ -23056,5 +23056,14 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.apexbiolabs.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-11T01:02:25.010Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidesuk.com/thymosin-alpha-1/",
+    "refPage": "https://viralpeps.co.uk/compounds/thymosin-alpha-1"
   }
 ]
