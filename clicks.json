@@ -3309,5 +3309,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-6/"
+  },
+  {
+    "ts": "2026-09-11T19:36:26.151Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
   }
 ]
