@@ -22509,5 +22509,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "vip-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
+  },
+  {
+    "ts": "2026-09-11T00:17:01.792Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://xlpeptides.com/product/aod-9604/"
   }
 ]
