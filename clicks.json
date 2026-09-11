@@ -22589,5 +22589,13 @@
     "vendorSlug": "dr-peptides",
     "vendorName": "Dr P Research",
     "destUrl": "https://drpresearch.co.uk"
+  },
+  {
+    "ts": "2026-09-11T00:26:12.751Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.prime-peptides.co.uk/product/ipamorelin-5mg/"
   }
 ]
