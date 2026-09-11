@@ -26262,5 +26262,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "epitalon",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-EPI-10"
+  },
+  {
+    "ts": "2026-09-11T05:07:47.247Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg"
   }
 ]
