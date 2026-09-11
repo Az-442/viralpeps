@@ -3245,5 +3245,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-dac"
+  },
+  {
+    "ts": "2026-09-11T19:31:18.863Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/retatrutide-10mg/"
   }
 ]
