@@ -32448,5 +32448,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/vip/"
+  },
+  {
+    "ts": "2026-09-11T12:32:02.907Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
   }
 ]
