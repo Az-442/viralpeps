@@ -22846,5 +22846,12 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://anglopeptides.com/product/glow-blend-peptide-70mg-vial-batch-103-research-peptide/"
+  },
+  {
+    "ts": "2026-09-11T00:51:46.288Z",
+    "type": "vendor-site",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "destUrl": "https://pepnova.uk"
   }
 ]
