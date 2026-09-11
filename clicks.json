@@ -31334,5 +31334,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape"
+  },
+  {
+    "ts": "2026-09-11T11:00:32.619Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/25-cjc-1295-with-dac-5mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295-with-dac"
   }
 ]
