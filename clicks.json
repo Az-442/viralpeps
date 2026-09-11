@@ -30458,5 +30458,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
+  },
+  {
+    "ts": "2026-09-11T09:44:06.348Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
   }
 ]
