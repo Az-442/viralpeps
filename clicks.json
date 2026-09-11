@@ -27947,5 +27947,13 @@
     "vendorSlug": "astra-labs",
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk"
+  },
+  {
+    "ts": "2026-09-11T07:12:38.880Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
   }
 ]
