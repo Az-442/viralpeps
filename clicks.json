@@ -22693,5 +22693,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/semax"
+  },
+  {
+    "ts": "2026-09-11T00:33:40.609Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptidesuk.com/dsip/"
   }
 ]
