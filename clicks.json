@@ -32020,5 +32020,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4"
+  },
+  {
+    "ts": "2026-09-11T11:54:11.075Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
   }
 ]
