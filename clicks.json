@@ -4455,5 +4455,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesx.uk/product/dsip/"
+  },
+  {
+    "ts": "2026-09-11T21:24:28.418Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/aod-9604-5mg"
   }
 ]
