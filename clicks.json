@@ -26565,5 +26565,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "adipotide-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/pen"
+  },
+  {
+    "ts": "2026-09-11T05:28:33.286Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://midshirelabs.co.uk/products/amino-1mq-t/"
   }
 ]
