@@ -6146,5 +6146,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "kpv",
     "destUrl": "https://www.buyreta.co.uk/product/kpv-oral-uk"
+  },
+  {
+    "ts": "2026-09-11T23:50:50.053Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides"
   }
 ]
