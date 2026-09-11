@@ -30232,5 +30232,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg"
+  },
+  {
+    "ts": "2026-09-11T09:23:33.709Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
