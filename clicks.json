@@ -32004,5 +32004,13 @@
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
+  },
+  {
+    "ts": "2026-09-11T11:53:59.548Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biohackpeptides.co.uk/product/kpv-10mg-3ml-bac-water/"
   }
 ]
