@@ -22462,5 +22462,13 @@
     "vendorSlug": "nova-peptide",
     "vendorName": "Nova Peptide",
     "destUrl": "https://www.novapeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-11T00:12:56.558Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymalin-10mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/thymalin-10mg/"
   }
 ]
