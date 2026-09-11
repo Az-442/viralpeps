@@ -71,5 +71,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-11T14:02:00.986Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.peptidesonline.uk/shop/dsip/"
   }
 ]
