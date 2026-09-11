@@ -5511,5 +5511,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "klow",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-11T22:37:09.682Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine"
   }
 ]
