@@ -24440,5 +24440,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://premiopeptides.co.uk/compounds/5-amino-1mq"
+  },
+  {
+    "ts": "2026-09-11T03:01:14.356Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
   }
 ]
