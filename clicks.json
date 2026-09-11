@@ -1156,5 +1156,12 @@
     "vendorName": "OP Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-11T16:10:42.244Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk"
   }
 ]
