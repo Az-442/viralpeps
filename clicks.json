@@ -29095,5 +29095,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/"
+  },
+  {
+    "ts": "2026-09-11T08:28:23.073Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
   }
 ]
