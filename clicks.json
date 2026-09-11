@@ -26158,5 +26158,13 @@
     "vendorSlug": "buyreta",
     "vendorName": "BuyReta",
     "destUrl": "https://www.buyreta.co.uk"
+  },
+  {
+    "ts": "2026-09-11T04:57:08.087Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biohackpeptides.co.uk/product/glutathione-1500mg-10ml-bac-water/"
   }
 ]
