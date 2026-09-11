@@ -168,5 +168,14 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-11T14:12:04.570Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidelabuk.co.uk/product/buy-selank-5mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
