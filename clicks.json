@@ -32866,5 +32866,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-dac-5mg-ghrh"
+  },
+  {
+    "ts": "2026-09-11T13:03:19.888Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/glutathione/"
   }
 ]
