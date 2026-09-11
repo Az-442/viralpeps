@@ -22432,5 +22432,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://peptideslabuk.com/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-11T00:10:14.290Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "destUrl": "https://www.peptifyuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptify-uk"
   }
 ]
