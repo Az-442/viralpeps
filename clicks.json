@@ -29482,5 +29482,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.stratfordpeptides.com/products/nad"
+  },
+  {
+    "ts": "2026-09-11T08:57:47.847Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
   }
 ]
