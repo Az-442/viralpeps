@@ -22424,5 +22424,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-pen-1000-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/1000"
+  },
+  {
+    "ts": "2026-09-11T00:09:52.516Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptideslabuk.com/product/glutathione/"
   }
 ]
