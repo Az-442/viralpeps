@@ -30433,5 +30433,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-11T09:42:11.074Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "bpc-5mg-tb-5mg",
+    "destUrl": "https://researchpeptide.co.uk/product/bpc-5mg-tb-5mg/",
+    "refPage": "https://viralpeps.co.uk/vendors/research-peptide-uk"
   }
 ]
