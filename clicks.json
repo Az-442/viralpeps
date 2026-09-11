@@ -2949,5 +2949,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://premiopeptides.co.uk/compounds/ss-31"
+  },
+  {
+    "ts": "2026-09-11T19:13:25.855Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg"
   }
 ]
