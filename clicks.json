@@ -23212,5 +23212,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500"
+  },
+  {
+    "ts": "2026-09-11T01:24:57.010Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs"
   }
 ]
