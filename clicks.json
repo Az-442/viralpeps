@@ -5960,5 +5960,12 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-11T23:27:29.524Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
