@@ -29999,5 +29999,14 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.testedpeptides.co.uk/product/nad-500mg/",
     "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus"
+  },
+  {
+    "ts": "2026-09-11T09:22:29.682Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://my-peptides.co.uk/products/nad-kit",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus"
   }
 ]
