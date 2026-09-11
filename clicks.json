@@ -30682,5 +30682,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-11T10:11:10.118Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
   }
 ]
