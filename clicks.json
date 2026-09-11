@@ -361,5 +361,14 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://peptidesuk.com/sermorelin-2mg/"
+  },
+  {
+    "ts": "2026-09-11T14:29:32.751Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptidelabuk.co.uk/product/nad-500mg-research-compound/",
+    "refPage": "https://viralpeps.co.uk/compounds/nad-plus"
   }
 ]
