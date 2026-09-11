@@ -25579,5 +25579,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://biohackpeptides.co.uk/product/klow-blend-peptide-80mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-11T04:22:22.471Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.peptidesx.uk/product/ghrp-2/"
   }
 ]
