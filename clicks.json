@@ -32343,5 +32343,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ace-031-1mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ace-031-1mg/"
+  },
+  {
+    "ts": "2026-09-11T12:25:14.380Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
