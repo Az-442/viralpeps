@@ -24529,5 +24529,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "pt-141",
     "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
+  },
+  {
+    "ts": "2026-09-11T03:08:17.210Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
