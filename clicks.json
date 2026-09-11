@@ -5687,5 +5687,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
+  },
+  {
+    "ts": "2026-09-11T22:58:54.219Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://www.buyreta.co.uk/product/bpc-157-oral-uk"
   }
 ]
