@@ -6170,5 +6170,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-11T23:55:01.988Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/"
   }
 ]
