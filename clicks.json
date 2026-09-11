@@ -3132,5 +3132,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "mots-c",
     "destUrl": "https://thepeptidecode.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-11T19:23:29.910Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "klow",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
