@@ -32616,5 +32616,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg"
+  },
+  {
+    "ts": "2026-09-11T12:48:20.630Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
   }
 ]
