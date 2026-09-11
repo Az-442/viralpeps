@@ -1855,5 +1855,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://leolab.co.uk/peptides/nad/"
+  },
+  {
+    "ts": "2026-09-11T17:15:44.206Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
   }
 ]
