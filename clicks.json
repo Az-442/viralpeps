@@ -791,5 +791,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "dermorphin",
     "destUrl": "https://bioplexpeptides.co.uk/products/dermorphin-5mg-dermorphin-heptapeptide-d-ala"
+  },
+  {
+    "ts": "2026-09-11T15:23:26.005Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://purepeptidesuk.com/product/kisspeptin-5mg/"
   }
 ]
