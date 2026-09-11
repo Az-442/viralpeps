@@ -483,5 +483,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biohackpeptides.co.uk/product/thymosin-alpha-1-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-11T14:42:42.823Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://olresearch.co.uk/product/semax-5mg/"
   }
 ]
