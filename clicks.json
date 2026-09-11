@@ -28443,5 +28443,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "ss-31",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T07:48:44.161Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax"
   }
 ]
