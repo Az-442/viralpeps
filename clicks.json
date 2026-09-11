@@ -24295,5 +24295,12 @@
     "vendorName": "RETA UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://reta-uk.com/products/mots-c"
+  },
+  {
+    "ts": "2026-09-11T02:49:21.930Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk"
   }
 ]
