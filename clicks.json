@@ -23936,5 +23936,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://purepeptidesuk.com/product/cjc-1295-dac-2mg/"
+  },
+  {
+    "ts": "2026-09-11T02:22:33.256Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
   }
 ]
