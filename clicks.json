@@ -26756,5 +26756,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "klow",
     "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
+  },
+  {
+    "ts": "2026-09-11T05:44:53.610Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
   }
 ]
