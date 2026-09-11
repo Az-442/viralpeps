@@ -25170,5 +25170,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-11T03:53:54.632Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptideslabuk.com/product/ss-31/",
+    "refPage": "https://viralpeps.co.uk/compounds/ss-31"
   }
 ]
