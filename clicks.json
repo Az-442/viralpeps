@@ -24272,5 +24272,12 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://ukpeptides.com/catalog/retatrutide"
+  },
+  {
+    "ts": "2026-09-11T02:47:35.254Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk"
   }
 ]
