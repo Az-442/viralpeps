@@ -27255,5 +27255,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
+  },
+  {
+    "ts": "2026-09-11T06:19:52.608Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bluewellpeptides.com/product/thymosin-alpha-1-10mg-peptide/"
   }
 ]
