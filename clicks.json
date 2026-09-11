@@ -31971,5 +31971,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "bpc-157-tb-500-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-nasal-spray"
+  },
+  {
+    "ts": "2026-09-11T11:52:46.768Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides"
   }
 ]
