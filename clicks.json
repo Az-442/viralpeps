@@ -23446,5 +23446,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-11T01:41:14.152Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://www.peptidesx.uk/product/pt-141/"
   }
 ]
