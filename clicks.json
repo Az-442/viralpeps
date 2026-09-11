@@ -1879,5 +1879,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glutathione",
     "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
+  },
+  {
+    "ts": "2026-09-11T17:17:59.028Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/"
   }
 ]
