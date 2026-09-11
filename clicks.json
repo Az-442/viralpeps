@@ -24762,5 +24762,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "gagrilintide-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/gagrilintide-5mg/"
+  },
+  {
+    "ts": "2026-09-11T03:26:13.390Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
   }
 ]
