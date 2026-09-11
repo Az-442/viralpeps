@@ -31746,5 +31746,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "storage-container-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/3ml-vial-storage-container"
+  },
+  {
+    "ts": "2026-09-11T11:35:22.931Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/",
+    "refPage": "https://viralpeps.co.uk/compounds/hexarelin"
   }
 ]
