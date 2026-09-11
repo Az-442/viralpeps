@@ -27571,5 +27571,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-11T06:47:27.225Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
   }
 ]
