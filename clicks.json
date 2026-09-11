@@ -6105,5 +6105,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.buyreta.co.uk/product/bpc-157-uk"
+  },
+  {
+    "ts": "2026-09-11T23:46:53.791Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk"
   }
 ]
