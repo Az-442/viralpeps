@@ -22766,5 +22766,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-11T00:42:20.167Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.peptifyuk.com/product/klow-blend-80mg"
   }
 ]
