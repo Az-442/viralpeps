@@ -5793,5 +5793,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "oxytocin",
     "destUrl": "https://www.buyreta.co.uk/product/oxytocin-uk"
+  },
+  {
+    "ts": "2026-09-11T23:12:48.012Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/zentra-peptides"
   }
 ]
