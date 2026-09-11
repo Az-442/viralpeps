@@ -3639,5 +3639,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/sermorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-11T20:07:37.238Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
