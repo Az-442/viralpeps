@@ -26541,5 +26541,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
+  },
+  {
+    "ts": "2026-09-11T05:27:19.164Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
   }
 ]
