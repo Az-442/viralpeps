@@ -30466,5 +30466,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T09:44:42.486Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen"
   }
 ]
