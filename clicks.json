@@ -459,5 +459,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "nad-500mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T14:41:54.825Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
