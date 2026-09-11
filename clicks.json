@@ -2861,5 +2861,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/nad-plus-500mg"
+  },
+  {
+    "ts": "2026-09-11T19:05:20.577Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/epitalon-10mg"
   }
 ]
