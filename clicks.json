@@ -28142,5 +28142,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg"
+  },
+  {
+    "ts": "2026-09-11T07:24:05.915Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "premium-mod-grf-1-29-2mg",
+    "destUrl": "https://peptidesuk.com/mod-grf-1-29/"
   }
 ]
