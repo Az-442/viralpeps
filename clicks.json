@@ -128,5 +128,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tb-500",
     "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
+  },
+  {
+    "ts": "2026-09-11T14:08:41.962Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
   }
 ]
