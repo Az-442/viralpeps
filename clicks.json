@@ -29419,5 +29419,13 @@
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
+  },
+  {
+    "ts": "2026-09-11T08:50:04.499Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bluewellpeptides.com/product/bpc-157-10mg-peptide/"
   }
 ]
