@@ -209,5 +209,13 @@
     "vendorName": "OP Labs",
     "compoundSlug": "epitalon",
     "destUrl": "https://oplabs.co.uk/product/epithalon-10mg/"
+  },
+  {
+    "ts": "2026-09-11T14:14:45.228Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidesx.uk/product/tesamorelin/"
   }
 ]
