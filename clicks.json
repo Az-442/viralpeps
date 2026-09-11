@@ -2379,5 +2379,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/nad-research-compound/"
+  },
+  {
+    "ts": "2026-09-11T18:13:46.051Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
   }
 ]
