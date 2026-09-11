@@ -2547,5 +2547,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
+  },
+  {
+    "ts": "2026-09-11T18:37:57.811Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://premiopeptides.co.uk/compounds/oxytocin"
   }
 ]
