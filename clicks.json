@@ -3061,5 +3061,14 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://aegispeptidesuk.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-11T19:17:49.804Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://octagonpeptides.co.uk/product/igf-1-lr3/",
+    "refPage": "https://viralpeps.co.uk/compounds/igf-1-lr3-1mg"
   }
 ]
