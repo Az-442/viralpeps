@@ -2965,5 +2965,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-11T19:14:20.450Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/mots-c/"
   }
 ]
