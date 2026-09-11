@@ -3550,5 +3550,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/mots-c/"
+  },
+  {
+    "ts": "2026-09-11T19:55:09.426Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2"
   }
 ]
