@@ -22670,5 +22670,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "cerebrolysin",
     "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/"
+  },
+  {
+    "ts": "2026-09-11T00:32:15.264Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/"
   }
 ]
