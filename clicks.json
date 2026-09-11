@@ -23420,5 +23420,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "epitalon",
     "destUrl": "https://midshirelabs.co.uk/products/epithalon/"
+  },
+  {
+    "ts": "2026-09-11T01:39:15.743Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/aod-9604/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/aod-9604"
   }
 ]
