@@ -717,5 +717,13 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-11T15:12:19.465Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://supplypeptides.co.uk/products/pinealon-10"
   }
 ]
