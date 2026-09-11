@@ -1502,5 +1502,12 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "igf-1-1-3-1mg",
     "destUrl": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/"
+  },
+  {
+    "ts": "2026-09-11T16:45:32.942Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com"
   }
 ]
