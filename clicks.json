@@ -31585,5 +31585,13 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
+  },
+  {
+    "ts": "2026-09-11T11:18:34.709Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "slu-pp-332-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/slu-pp-332/"
   }
 ]
