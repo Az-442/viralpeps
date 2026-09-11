@@ -201,5 +201,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-ghrp-2-5mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-ghrp-2-5mg/"
+  },
+  {
+    "ts": "2026-09-11T14:14:32.344Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://oplabs.co.uk/product/epithalon-10mg/"
   }
 ]
