@@ -22959,5 +22959,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://xlpeptides.com/product/igf-1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-11T00:56:25.080Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax"
   }
 ]
