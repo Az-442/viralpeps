@@ -24144,5 +24144,12 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://peptidesuk.com/cjc1295-with-dac/"
+  },
+  {
+    "ts": "2026-09-11T02:39:21.618Z",
+    "type": "vendor-site",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "destUrl": "https://www.proformapeptides.co.uk"
   }
 ]
