@@ -26835,5 +26835,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
+  },
+  {
+    "ts": "2026-09-11T05:49:56.193Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/selank-10mg/"
   }
 ]
