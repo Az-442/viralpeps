@@ -1662,5 +1662,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "cartalax-20mg",
     "destUrl": "https://purepeptidesuk.com/product/cartalax-20mg/"
+  },
+  {
+    "ts": "2026-09-11T16:58:33.906Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://nupex.co.uk/products/nad-supplement-uk-research-grade-peptide"
   }
 ]
