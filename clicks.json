@@ -27192,5 +27192,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/"
+  },
+  {
+    "ts": "2026-09-11T06:15:28.280Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "klow",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
