@@ -1638,5 +1638,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
+  },
+  {
+    "ts": "2026-09-11T16:55:40.678Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
   }
 ]
