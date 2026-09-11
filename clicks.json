@@ -1341,5 +1341,13 @@
     "vendorSlug": "astra-labs",
     "vendorName": "Astra Labs",
     "destUrl": "https://astralabs.co.uk"
+  },
+  {
+    "ts": "2026-09-11T16:37:07.145Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/"
   }
 ]
