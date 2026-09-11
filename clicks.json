@@ -6121,5 +6121,14 @@
     "vendorName": "BuyReta",
     "compoundSlug": "glow",
     "destUrl": "https://www.buyreta.co.uk/product/glow-uk"
+  },
+  {
+    "ts": "2026-09-11T23:48:35.599Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/ghk-cu-copper-peptide",
+    "refPage": "https://viralpeps.co.uk/compounds/ghk-cu"
   }
 ]
