@@ -896,5 +896,14 @@
     "vendorName": "PeptX",
     "compoundSlug": "semax",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T15:39:13.673Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pepnova.uk/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
   }
 ]
