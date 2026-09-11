@@ -23880,5 +23880,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "klow-stack",
     "destUrl": "https://ukpeptidelab.co.uk/product/klow"
+  },
+  {
+    "ts": "2026-09-11T02:18:46.843Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://kensingtonlabs.co.uk/product/gdf-8-1mg/"
   }
 ]
