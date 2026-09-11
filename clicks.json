@@ -25909,5 +25909,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/vial"
+  },
+  {
+    "ts": "2026-09-11T04:42:22.730Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tb-500/"
   }
 ]
