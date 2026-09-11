@@ -2821,5 +2821,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://premiopeptides.co.uk/compounds/cjc-1295-no-dac"
+  },
+  {
+    "ts": "2026-09-11T19:02:46.947Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
   }
 ]
