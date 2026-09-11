@@ -29723,5 +29723,13 @@
     "vendorName": "Dr P Research",
     "compoundSlug": "testagen",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/"
+  },
+  {
+    "ts": "2026-09-11T09:18:50.520Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial"
   }
 ]
