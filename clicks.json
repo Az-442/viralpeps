@@ -3156,5 +3156,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptidesonline.uk/shop/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-11T19:26:02.186Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
   }
 ]
