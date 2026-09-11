@@ -26245,5 +26245,14 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://premiopeptides.co.uk/compounds/epithalon"
+  },
+  {
+    "ts": "2026-09-11T05:03:36.746Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://peptideslabuk.com/product/adipotide/",
+    "refPage": "https://viralpeps.co.uk/vendors/peptides-lab-uk"
   }
 ]
