@@ -27538,5 +27538,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://premiopeptides.co.uk/compounds/tesamorelin"
+  },
+  {
+    "ts": "2026-09-11T06:44:07.317Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://supplypeptides.co.uk/products/nad"
   }
 ]
