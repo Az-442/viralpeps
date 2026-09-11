@@ -32262,5 +32262,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "oxytocin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/pen"
+  },
+  {
+    "ts": "2026-09-11T12:16:40.045Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
