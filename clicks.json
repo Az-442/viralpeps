@@ -27129,5 +27129,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-ghrp-6-5mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-ghrp-6-5mg/"
+  },
+  {
+    "ts": "2026-09-11T06:10:47.665Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.stratfordpeptides.com/products/tirzepatide"
   }
 ]
