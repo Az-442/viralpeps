@@ -5592,5 +5592,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.buyreta.co.uk/product/igf-lr3-1mg-uk"
+  },
+  {
+    "ts": "2026-09-11T22:48:51.319Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "refPage": "https://www.viralpeps.co.uk/vendors/precision-peptides"
   }
 ]
