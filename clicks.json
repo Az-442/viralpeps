@@ -26453,5 +26453,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://bluewellpeptides.com/product/ss-31-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T05:22:49.275Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://tidelabs.co.uk/products/selank"
   }
 ]
