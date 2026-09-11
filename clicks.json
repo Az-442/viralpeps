@@ -27385,5 +27385,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ipamorelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial"
+  },
+  {
+    "ts": "2026-09-11T06:32:22.358Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
