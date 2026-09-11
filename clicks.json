@@ -25755,5 +25755,13 @@
     "vendorSlug": "lab77-peptides",
     "vendorName": "Lab77 Peptides",
     "destUrl": "https://lab77peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T04:33:42.627Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-6/vial"
   }
 ]
