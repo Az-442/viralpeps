@@ -28530,5 +28530,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.peptidesonline.uk/shop/pt-141/"
+  },
+  {
+    "ts": "2026-09-11T07:53:04.123Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen"
   }
 ]
