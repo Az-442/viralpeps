@@ -30626,5 +30626,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "selank",
     "destUrl": "https://supplypeptides.co.uk/products/selank"
+  },
+  {
+    "ts": "2026-09-11T10:06:56.449Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bebetterpeptides.com/products/aod-9604-5mg"
   }
 ]
