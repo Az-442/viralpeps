@@ -4326,5 +4326,13 @@
     "vendorSlug": "polygon-peptides",
     "vendorName": "Polygon Peptides",
     "destUrl": "https://polygonpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T21:12:58.232Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-no-dac/"
   }
 ]
