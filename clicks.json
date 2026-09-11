@@ -31802,5 +31802,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "pinealon",
     "destUrl": "https://kensingtonlabs.co.uk/product/pinealon-10mg/"
+  },
+  {
+    "ts": "2026-09-11T11:38:58.543Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/"
   }
 ]
