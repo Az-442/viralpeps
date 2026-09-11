@@ -1349,5 +1349,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/"
+  },
+  {
+    "ts": "2026-09-11T16:37:12.258Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://precision-peptides.shop/product/dermorphin-5mg-no-packaging/"
   }
 ]
