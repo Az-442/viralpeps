@@ -27587,5 +27587,14 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "selank",
     "destUrl": "https://midshirelabs.co.uk/products/selank/"
+  },
+  {
+    "ts": "2026-09-11T06:48:02.974Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cortagen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/cortagen-research-peptide",
+    "refPage": "https://www.viralpeps.co.uk/vendors/tide-labs"
   }
 ]
