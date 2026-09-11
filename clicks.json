@@ -26358,5 +26358,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "fragment-176-191-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial"
+  },
+  {
+    "ts": "2026-09-11T05:14:23.093Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://reta-uk.com/products/ss-31"
   }
 ]
