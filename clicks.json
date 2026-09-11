@@ -23187,5 +23187,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.peptidesonline.uk/shop/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-11T01:19:56.078Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://ukpeptides.com/catalog/nad-plus"
   }
 ]
