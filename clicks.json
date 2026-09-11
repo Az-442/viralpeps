@@ -29619,5 +29619,12 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/aicar-50mg"
+  },
+  {
+    "ts": "2026-09-11T09:08:51.175Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk"
   }
 ]
