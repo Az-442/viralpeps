@@ -1630,5 +1630,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/nad-100mg/"
+  },
+  {
+    "ts": "2026-09-11T16:55:37.733Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/"
   }
 ]
