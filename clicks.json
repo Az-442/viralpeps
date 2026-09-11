@@ -5480,5 +5480,12 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://biopulsepeptides.co.uk/shop/tb-500/"
+  },
+  {
+    "ts": "2026-09-11T22:34:22.043Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "destUrl": "https://biopulsepeptides.co.uk"
   }
 ]
