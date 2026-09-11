@@ -23138,5 +23138,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/dsip/"
+  },
+  {
+    "ts": "2026-09-11T01:11:06.746Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
   }
 ]
