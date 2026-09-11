@@ -25803,5 +25803,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T04:36:03.285Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
   }
 ]
