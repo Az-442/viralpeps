@@ -4029,5 +4029,14 @@
     "vendorName": "RETA UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://reta-uk.com/products/ipamorelin"
+  },
+  {
+    "ts": "2026-09-11T20:44:51.990Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://premiopeptides.co.uk/compounds/bpc-157",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
