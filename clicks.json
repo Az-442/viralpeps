@@ -6178,5 +6178,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-11T23:55:54.329Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
   }
 ]
