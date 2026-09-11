@@ -378,5 +378,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
+  },
+  {
+    "ts": "2026-09-11T14:33:14.603Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu"
   }
 ]
