@@ -32914,5 +32914,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
+  },
+  {
+    "ts": "2026-09-11T13:08:11.797Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://premiopeptides.co.uk/compounds/retatrutide"
   }
 ]
