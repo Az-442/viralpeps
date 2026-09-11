@@ -4804,5 +4804,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ss-31/"
+  },
+  {
+    "ts": "2026-09-11T21:40:52.290Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
   }
 ]
