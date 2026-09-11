@@ -26094,5 +26094,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-11T04:54:52.860Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://peptideslabuk.com/product/ghrp-6-acetate/",
+    "refPage": "https://viralpeps.co.uk/compounds/ghrp-6"
   }
 ]
