@@ -588,5 +588,14 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "semax",
     "destUrl": "https://www.novapeptide.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-11T14:55:41.277Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptidelabuk.co.uk/product/buy-klow-80mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/klow"
   }
 ]
