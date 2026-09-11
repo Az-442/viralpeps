@@ -31617,5 +31617,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "adipotide-ftpp-5mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp"
+  },
+  {
+    "ts": "2026-09-11T11:22:46.239Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
   }
 ]
