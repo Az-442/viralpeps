@@ -32945,5 +32945,14 @@
     "vendorSlug": "bioplex-peptides",
     "vendorName": "BioPlex Peptides",
     "destUrl": "https://bioplexpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T13:11:10.941Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptideslabuk.com/product/selank/",
+    "refPage": "https://viralpeps.co.uk/compounds/selank"
   }
 ]
