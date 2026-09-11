@@ -25675,5 +25675,14 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/cjc-1295-with-dac/"
+  },
+  {
+    "ts": "2026-09-11T04:28:45.976Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptideslabuk.com/product/kpv/",
+    "refPage": "https://viralpeps.co.uk/compounds/kpv"
   }
 ]
