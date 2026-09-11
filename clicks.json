@@ -26119,5 +26119,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-11T04:55:48.271Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kisspeptin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
   }
 ]
