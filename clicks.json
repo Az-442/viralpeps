@@ -24415,5 +24415,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg"
+  },
+  {
+    "ts": "2026-09-11T02:59:20.289Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptideslabuk.com/product/bpc-157/"
   }
 ]
