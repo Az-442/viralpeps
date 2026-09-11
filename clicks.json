@@ -467,5 +467,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T14:42:10.212Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
   }
 ]
