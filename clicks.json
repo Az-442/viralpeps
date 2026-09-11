@@ -1758,5 +1758,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptidelab.co.uk/product/dsip"
+  },
+  {
+    "ts": "2026-09-11T17:08:15.020Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://precision-peptides.shop/product/nad-1000mg/"
   }
 ]
