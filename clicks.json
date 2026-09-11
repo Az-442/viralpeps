@@ -32278,5 +32278,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "cjc-1295-no-dac-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-no-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-11T12:18:56.917Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://precision-peptides.shop/product/ll-37-5mg-no-packaging/",
+    "refPage": "https://viralpeps.co.uk/compounds/ll-37"
   }
 ]
