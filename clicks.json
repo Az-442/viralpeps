@@ -26533,5 +26533,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://peptidesuk.com/ghrp2-10mg/"
+  },
+  {
+    "ts": "2026-09-11T05:27:00.152Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bioplexpeptides.co.uk/products/slupp-5mg-slu-pp-332"
   }
 ]
