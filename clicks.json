@@ -1421,5 +1421,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit"
+  },
+  {
+    "ts": "2026-09-11T16:41:36.300Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://midshirelabs.co.uk/products/nad/"
   }
 ]
