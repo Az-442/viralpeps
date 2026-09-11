@@ -30971,5 +30971,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/"
+  },
+  {
+    "ts": "2026-09-11T10:33:08.238Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ipamore10mg-ghrp"
   }
 ]
