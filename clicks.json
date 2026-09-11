@@ -28419,5 +28419,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-11T07:46:40.727Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackpeptides.co.uk/product/ghk-cu-peptide-50mg-vial-high-purity-copper-peptide-for-research/"
   }
 ]
