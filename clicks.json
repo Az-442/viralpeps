@@ -24594,5 +24594,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://ukpeptides.com/catalog/dsip-nasal-spray"
+  },
+  {
+    "ts": "2026-09-11T03:14:34.525Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://astralabs.co.uk/product/ss31-50mg/"
   }
 ]
