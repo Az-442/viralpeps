@@ -27083,5 +27083,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://bluewellpeptides.com/product/slu-pp-332-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T06:08:00.037Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://octagonpeptides.co.uk/product/mots-c-20-mg/"
   }
 ]
