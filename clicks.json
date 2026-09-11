@@ -28189,5 +28189,13 @@
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/applied-peptides"
+  },
+  {
+    "ts": "2026-09-11T07:26:23.020Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu-50mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg"
   }
 ]
