@@ -32962,5 +32962,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.peptifyuk.com/product/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-11T13:12:36.613Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://oplabs.co.uk/product/aod9604-2mg/"
   }
 ]
