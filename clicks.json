@@ -30546,5 +30546,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://premiopeptides.co.uk/compounds/kpv"
+  },
+  {
+    "ts": "2026-09-11T09:56:57.686Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
   }
 ]
