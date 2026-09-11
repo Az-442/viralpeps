@@ -28805,5 +28805,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/sermorelin-5mg/"
+  },
+  {
+    "ts": "2026-09-11T08:10:29.874Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://xlpeptides.com/product/kpv-10mg/"
   }
 ]
