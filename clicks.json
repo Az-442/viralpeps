@@ -31714,5 +31714,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-11T11:33:59.343Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://peptidesuk.com/peg-mgf/"
   }
 ]
