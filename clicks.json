@@ -5624,5 +5624,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://www.buyreta.co.uk/product/slu-pp-332-uk"
+  },
+  {
+    "ts": "2026-09-11T22:50:26.720Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/polygon-peptides"
   }
 ]
