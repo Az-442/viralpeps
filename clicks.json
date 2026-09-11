@@ -28813,5 +28813,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://xlpeptides.com/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-11T08:10:43.455Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/",
+    "refPage": "https://viralpeps.co.uk/go/bio-pulse-peptides/ipamorelin"
   }
 ]
