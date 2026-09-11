@@ -30931,5 +30931,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/"
+  },
+  {
+    "ts": "2026-09-11T10:27:59.128Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg"
   }
 ]
