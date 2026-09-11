@@ -25643,5 +25643,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg"
+  },
+  {
+    "ts": "2026-09-11T04:26:52.282Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://peptidesuk.com/pal-ghk/"
   }
 ]
