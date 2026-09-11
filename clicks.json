@@ -3830,5 +3830,12 @@
     "vendorSlug": "trutide",
     "vendorName": "Trutide",
     "destUrl": "https://trutide.co.uk"
+  },
+  {
+    "ts": "2026-09-11T20:31:30.015Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "destUrl": "https://peptigenlabs.co.uk"
   }
 ]
