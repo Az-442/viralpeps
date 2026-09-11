@@ -913,5 +913,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-11T15:39:59.013Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
   }
 ]
