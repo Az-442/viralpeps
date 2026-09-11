@@ -28618,5 +28618,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-11T08:00:20.781Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/sermorelin/",
+    "refPage": "https://www.google.com/"
   }
 ]
