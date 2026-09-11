@@ -29683,5 +29683,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://polygonpeptides.co.uk/product/tr10/"
+  },
+  {
+    "ts": "2026-09-11T09:16:26.316Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/"
   }
 ]
