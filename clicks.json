@@ -4853,5 +4853,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ll-37-research-peptide/"
+  },
+  {
+    "ts": "2026-09-11T21:45:02.221Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
   }
 ]
