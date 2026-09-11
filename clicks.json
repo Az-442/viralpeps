@@ -994,5 +994,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4"
+  },
+  {
+    "ts": "2026-09-11T15:50:23.182Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-cjc-nodac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen"
   }
 ]
