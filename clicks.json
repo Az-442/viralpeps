@@ -22478,5 +22478,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://bluewellpeptides.com/product/aod-9604-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T00:15:11.359Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
   }
 ]
