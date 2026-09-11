@@ -28711,5 +28711,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-carnitine/vial"
+  },
+  {
+    "ts": "2026-09-11T08:05:27.085Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://tidelabs.co.uk/products/aod-9604"
   }
 ]
