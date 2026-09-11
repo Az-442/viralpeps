@@ -23372,5 +23372,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bioplexpeptides.co.uk/products/selank-10mg-selanc"
+  },
+  {
+    "ts": "2026-09-11T01:37:14.347Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://peptidesuk.com/hexarelin/",
+    "refPage": "https://viralpeps.co.uk/compounds/hexarelin"
   }
 ]
