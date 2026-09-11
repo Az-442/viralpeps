@@ -3910,5 +3910,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://reta-uk.com/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-11T20:38:41.211Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs"
   }
 ]
