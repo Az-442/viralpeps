@@ -26549,5 +26549,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://www.imperialpeptides.co.uk/products/selank-5mg"
+  },
+  {
+    "ts": "2026-09-11T05:27:22.871Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://spxlabs.co.uk/product/mots-c-uk-10mg/"
   }
 ]
