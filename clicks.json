@@ -475,5 +475,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tb-500",
     "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
+  },
+  {
+    "ts": "2026-09-11T14:42:38.381Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biohackpeptides.co.uk/product/thymosin-alpha-1-5mg-3ml-bac-water/"
   }
 ]
