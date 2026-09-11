@@ -29547,5 +29547,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "b7-33",
     "destUrl": "https://bioplexpeptides.co.uk/products/b7-33"
+  },
+  {
+    "ts": "2026-09-11T09:03:00.652Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
