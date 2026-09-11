@@ -4311,5 +4311,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "aicar",
     "destUrl": "https://peptideslabuk.com/product/aicar/"
+  },
+  {
+    "ts": "2026-09-11T21:11:17.429Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.peptidesx.uk/product/epitalon/"
   }
 ]
