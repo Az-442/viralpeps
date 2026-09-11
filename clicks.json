@@ -4422,5 +4422,13 @@
     "vendorSlug": "peptidesx",
     "vendorName": "PeptidesX",
     "destUrl": "https://www.peptidesx.uk"
+  },
+  {
+    "ts": "2026-09-11T21:21:36.652Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://purepeptidesuk.com/product/cjc-1295-dac-2mg/"
   }
 ]
