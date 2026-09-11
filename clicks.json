@@ -23944,5 +23944,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
+  },
+  {
+    "ts": "2026-09-11T02:23:05.768Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
   }
 ]
