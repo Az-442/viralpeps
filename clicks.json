@@ -30409,5 +30409,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ghrp-6-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-10mg/"
+  },
+  {
+    "ts": "2026-09-11T09:40:14.210Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
   }
 ]
