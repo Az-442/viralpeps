@@ -2764,5 +2764,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg"
+  },
+  {
+    "ts": "2026-09-11T18:54:59.497Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ghk-cu"
   }
 ]
