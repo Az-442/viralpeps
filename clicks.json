@@ -23081,5 +23081,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "bpc-157-research-peptides-uk",
     "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157"
+  },
+  {
+    "ts": "2026-09-11T01:03:56.475Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://peptidesuk.com/ace-031/"
   }
 ]
