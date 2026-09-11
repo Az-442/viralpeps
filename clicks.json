@@ -28181,5 +28181,13 @@
     "vendorSlug": "research-peptide-uk",
     "vendorName": "Research Peptides UK",
     "destUrl": "https://researchpeptide.co.uk"
+  },
+  {
+    "ts": "2026-09-11T07:26:16.824Z",
+    "type": "vendor-site",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "destUrl": "https://appliedpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/applied-peptides"
   }
 ]
