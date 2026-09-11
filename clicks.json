@@ -5385,5 +5385,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://zentra-peptides.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-11T22:24:16.398Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ahk-cu/"
   }
 ]
