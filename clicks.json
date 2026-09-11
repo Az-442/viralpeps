@@ -4246,5 +4246,14 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptidesx.uk/product/tb-500/"
+  },
+  {
+    "ts": "2026-09-11T21:04:12.478Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://nupex.co.uk/products/buy-ss-31-research-peptides",
+    "refPage": "https://viralpeps.co.uk/compounds/ss-31"
   }
 ]
