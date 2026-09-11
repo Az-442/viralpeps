@@ -1895,5 +1895,12 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
+  },
+  {
+    "ts": "2026-09-11T17:20:58.399Z",
+    "type": "vendor-site",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "destUrl": "https://nupex.co.uk"
   }
 ]
