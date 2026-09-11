@@ -3486,5 +3486,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptidesonline.uk/shop/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-11T19:48:24.336Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "bpc-157-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/bpc-157/"
   }
 ]
