@@ -29490,5 +29490,14 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-11T08:58:39.943Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "semax",
+    "destUrl": "https://thepeptidecode.co.uk/products/semax-10mg",
+    "refPage": "https://viralpeps.co.uk/compounds/semax"
   }
 ]
