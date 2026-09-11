@@ -22621,5 +22621,14 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "mazdutide",
     "destUrl": "https://ukpeptides.com/catalog/mazdutide"
+  },
+  {
+    "ts": "2026-09-11T00:27:36.364Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.peptidesx.uk/product/mots-c/",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
