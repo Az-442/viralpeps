@@ -32319,5 +32319,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500"
+  },
+  {
+    "ts": "2026-09-11T12:22:40.040Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://oplabs.co.uk/product/dsip-5mg/"
   }
 ]
