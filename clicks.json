@@ -33187,5 +33187,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "glp-transformation-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/"
+  },
+  {
+    "ts": "2026-09-11T13:35:09.745Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/"
   }
 ]
