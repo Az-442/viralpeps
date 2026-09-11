@@ -5424,5 +5424,13 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-11T22:29:44.526Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein"
   }
 ]
