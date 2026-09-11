@@ -28061,5 +28061,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mgf",
     "destUrl": "https://bioplexpeptides.co.uk/products/mgf-2mg-mechano-growth-factor-igf-1ec-peptide"
+  },
+  {
+    "ts": "2026-09-11T07:16:59.587Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://bluewellpeptides.com/product/l-glutathione-1500-mg/"
   }
 ]
