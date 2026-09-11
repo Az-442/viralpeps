@@ -1871,5 +1871,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "thymalin",
     "destUrl": "https://bluewellpeptides.com/product/thymalin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T17:16:39.870Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
   }
 ]
