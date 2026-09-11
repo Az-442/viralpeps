@@ -2072,5 +2072,13 @@
     "vendorName": "Bio Pulse Peptides",
     "destUrl": "https://biopulsepeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/bio-pulse-peptides"
+  },
+  {
+    "ts": "2026-09-11T17:39:46.781Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/"
   }
 ]
