@@ -25130,5 +25130,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-11T03:51:38.939Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ss-31-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
   }
 ]
