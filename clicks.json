@@ -4222,5 +4222,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://biotideuk.com/products/reta"
+  },
+  {
+    "ts": "2026-09-11T20:59:32.685Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.peptidesx.uk/product/ipamorelin/"
   }
 ]
