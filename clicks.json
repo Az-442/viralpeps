@@ -25380,5 +25380,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://polygonpeptides.co.uk/product/selank-10mg-vial/"
+  },
+  {
+    "ts": "2026-09-11T04:08:08.606Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/78-survodutide-10mg.html"
   }
 ]
