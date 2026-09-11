@@ -2588,5 +2588,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://peptidesuk.com/selank/"
+  },
+  {
+    "ts": "2026-09-11T18:40:23.657Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://premiopeptides.co.uk/compounds/pt-141"
   }
 ]
