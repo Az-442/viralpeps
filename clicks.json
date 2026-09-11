@@ -26501,5 +26501,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen"
+  },
+  {
+    "ts": "2026-09-11T05:24:51.261Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/cjc-1295-no-dac/"
   }
 ]
