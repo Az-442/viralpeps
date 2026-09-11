@@ -27748,5 +27748,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-11T06:57:07.573Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.peptidesx.uk/product/epitalon/"
   }
 ]
