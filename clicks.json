@@ -5241,5 +5241,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "snap-8",
     "destUrl": "https://zentra-peptides.com/product/snap-8/"
+  },
+  {
+    "ts": "2026-09-11T22:14:11.682Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://zentra-peptides.com/product/oxytocin/"
   }
 ]
