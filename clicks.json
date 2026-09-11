@@ -1863,5 +1863,13 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/spx-labs"
+  },
+  {
+    "ts": "2026-09-11T17:15:58.682Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://bluewellpeptides.com/product/thymalin-10mg-peptide/"
   }
 ]
