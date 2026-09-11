@@ -1902,5 +1902,14 @@
     "vendorSlug": "nupex",
     "vendorName": "Nupex",
     "destUrl": "https://nupex.co.uk"
+  },
+  {
+    "ts": "2026-09-11T17:21:44.325Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/bpc-157"
   }
 ]
