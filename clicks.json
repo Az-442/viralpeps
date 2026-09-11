@@ -1734,5 +1734,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-11T17:04:18.471Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://olresearch.co.uk/product/klow-80mg/"
   }
 ]
