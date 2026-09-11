@@ -30690,5 +30690,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
+  },
+  {
+    "ts": "2026-09-11T10:11:14.410Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bluewellpeptides.com/product/5-amino-1mq-10mg/"
   }
 ]
