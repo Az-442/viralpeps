@@ -23000,5 +23000,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://midshirelabs.co.uk/products/bpc157/"
+  },
+  {
+    "ts": "2026-09-11T00:59:19.270Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/kpv-5mg/"
   }
 ]
