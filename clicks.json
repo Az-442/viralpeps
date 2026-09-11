@@ -26748,5 +26748,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin"
+  },
+  {
+    "ts": "2026-09-11T05:43:31.030Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg"
   }
 ]
