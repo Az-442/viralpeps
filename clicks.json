@@ -27177,5 +27177,12 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "sermorelin",
     "destUrl": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg"
+  },
+  {
+    "ts": "2026-09-11T06:14:20.110Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk"
   }
 ]
