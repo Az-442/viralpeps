@@ -3164,5 +3164,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
+  },
+  {
+    "ts": "2026-09-11T19:26:27.574Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/"
   }
 ]
