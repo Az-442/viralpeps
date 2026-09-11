@@ -24279,5 +24279,13 @@
     "vendorSlug": "lab77-peptides",
     "vendorName": "Lab77 Peptides",
     "destUrl": "https://lab77peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T02:47:39.953Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide"
   }
 ]
