@@ -6162,5 +6162,13 @@
     "vendorName": "Chroma Peptides",
     "destUrl": "https://chromapeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides"
+  },
+  {
+    "ts": "2026-09-11T23:53:43.146Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ll-37-5-mg-research-peptide/"
   }
 ]
