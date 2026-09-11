@@ -26636,5 +26636,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ll-37",
     "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin"
+  },
+  {
+    "ts": "2026-09-11T05:36:07.953Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
