@@ -28743,5 +28743,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://xlpeptides.com/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-11T08:06:59.888Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/"
   }
 ]
