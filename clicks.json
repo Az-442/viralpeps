@@ -2387,5 +2387,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
+  },
+  {
+    "ts": "2026-09-11T18:15:11.174Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
   }
 ]
