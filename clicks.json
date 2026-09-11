@@ -4756,5 +4756,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://purepeptidesuk.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-11T21:36:45.099Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tesamorelin-research-peptide/"
   }
 ]
