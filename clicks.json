@@ -28648,5 +28648,13 @@
     "vendorSlug": "express-peptides",
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T08:01:16.629Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "slu-pp-332-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/slu-pp-332/pen"
   }
 ]
