@@ -1549,5 +1549,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://anglopeptides.com/product/nad-500mg-new-batch-102-research-peptide/"
+  },
+  {
+    "ts": "2026-09-11T16:49:34.171Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://astralabs.co.uk/product/retatrutide-10mg-uk/"
   }
 ]
