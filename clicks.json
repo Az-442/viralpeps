@@ -32664,5 +32664,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "gdf-8",
     "destUrl": "https://researchpeptide.co.uk/product/gdf-8/"
+  },
+  {
+    "ts": "2026-09-11T12:51:19.008Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://astralabs.co.uk/product/nad-500mg/"
   }
 ]
