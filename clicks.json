@@ -24618,5 +24618,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T03:15:51.529Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://premiopeptides.co.uk/compounds/ss-31"
   }
 ]
