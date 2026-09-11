@@ -24937,5 +24937,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "pt-141",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/pt-141-10mg"
+  },
+  {
+    "ts": "2026-09-11T03:40:10.345Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://premiopeptides.co.uk/compounds/selank"
   }
 ]
