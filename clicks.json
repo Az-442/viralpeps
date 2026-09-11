@@ -27756,5 +27756,13 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.peptidesx.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-11T06:57:15.230Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://bluewellpeptides.com/product/semax-10mg-peptide/"
   }
 ]
