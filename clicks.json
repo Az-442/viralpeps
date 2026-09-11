@@ -28703,5 +28703,13 @@
     "vendorSlug": "alphamino",
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk"
+  },
+  {
+    "ts": "2026-09-11T08:04:14.775Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-carnitine/vial"
   }
 ]
