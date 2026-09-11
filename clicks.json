@@ -273,5 +273,14 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "mk-677-ibutamoren-10mg-100-tablets",
     "destUrl": "https://researchpeptide.co.uk/product/mk-677-ibutamoren-10mg-100-tablets/"
+  },
+  {
+    "ts": "2026-09-11T14:20:48.769Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/",
+    "refPage": "https://viralpeps.co.uk/compounds/oxytocin"
   }
 ]
