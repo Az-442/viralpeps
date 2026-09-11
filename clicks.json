@@ -2048,5 +2048,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://zentra-peptides.com/product/nad/"
+  },
+  {
+    "ts": "2026-09-11T17:36:08.928Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/"
   }
 ]
