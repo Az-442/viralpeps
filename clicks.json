@@ -25787,5 +25787,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg"
+  },
+  {
+    "ts": "2026-09-11T04:35:47.664Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-6-5mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-5mg/"
   }
 ]
