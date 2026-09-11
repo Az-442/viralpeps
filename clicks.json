@@ -29579,5 +29579,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial"
+  },
+  {
+    "ts": "2026-09-11T09:04:32.269Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "oxytocin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial"
   }
 ]
