@@ -24873,5 +24873,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/sermorelin-10mg-ghrh"
+  },
+  {
+    "ts": "2026-09-11T03:33:26.700Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "b7-33",
+    "destUrl": "https://kensingtonlabs.co.uk/product/b7-33-10mg/"
   }
 ]
