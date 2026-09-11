@@ -25732,5 +25732,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://ukpeptides.com/catalog/pt-141"
+  },
+  {
+    "ts": "2026-09-11T04:32:21.873Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://mypepbiotech.co.uk/product/bpc-157-tb-500-20mg-vial-wolverine-stack/"
   }
 ]
