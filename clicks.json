@@ -605,5 +605,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kpv",
     "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
+  },
+  {
+    "ts": "2026-09-11T14:59:33.752Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.peptidesonline.uk/shop/igf-1-lr3/"
   }
 ]
