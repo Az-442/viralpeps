@@ -120,5 +120,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://peptidesuk.com/ghrp6-10mg/"
+  },
+  {
+    "ts": "2026-09-11T14:07:33.405Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
   }
 ]
