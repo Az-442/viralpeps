@@ -26205,5 +26205,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.imperialpeptides.co.uk/products/bpc-157-10mg"
+  },
+  {
+    "ts": "2026-09-11T05:01:01.844Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://xlpeptides.com/product/dsip/"
   }
 ]
