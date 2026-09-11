@@ -31173,5 +31173,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "oxytocin-acetate",
     "destUrl": "https://researchpeptide.co.uk/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-11T10:51:01.491Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
