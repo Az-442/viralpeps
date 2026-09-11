@@ -26898,5 +26898,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://peptidesuk.com/epitalon/"
+  },
+  {
+    "ts": "2026-09-11T05:53:39.468Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin/"
   }
 ]
