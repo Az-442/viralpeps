@@ -27137,5 +27137,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.stratfordpeptides.com/products/tirzepatide"
+  },
+  {
+    "ts": "2026-09-11T06:11:43.118Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/thymosin-alpha-1-research-peptide/"
   }
 ]
