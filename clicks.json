@@ -29200,5 +29200,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "selank",
     "destUrl": "https://mypepbiotech.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-11T08:36:05.158Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/glutathione/",
+    "refPage": "https://viralpeps.co.uk/go/apex-biolabs/glutathione"
   }
 ]
