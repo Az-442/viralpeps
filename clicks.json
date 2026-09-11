@@ -32108,5 +32108,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mgf-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen"
+  },
+  {
+    "ts": "2026-09-11T11:59:32.190Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://xlpeptides.com/product/tb-500-5mg/"
   }
 ]
