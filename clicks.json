@@ -2241,5 +2241,14 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.peptidesx.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-11T18:00:25.541Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://olresearch.co.uk/product/klow-80mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/klow"
   }
 ]
