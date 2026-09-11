@@ -28870,5 +28870,13 @@
     "vendorName": "Octagon Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://octagonpeptides.co.uk/product/cjc-with-dac-5-mg/"
+  },
+  {
+    "ts": "2026-09-11T08:12:49.987Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp"
   }
 ]
