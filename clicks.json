@@ -28696,5 +28696,12 @@
     "vendorName": "Be Better Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://bebetterpeptides.com/products/igf1-lr3-1mg"
+  },
+  {
+    "ts": "2026-09-11T08:04:07.313Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk"
   }
 ]
