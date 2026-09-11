@@ -33211,5 +33211,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-11T13:35:55.746Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://premiopeptides.co.uk/compounds/oxytocin"
   }
 ]
