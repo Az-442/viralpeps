@@ -265,5 +265,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymalin-20mg",
     "destUrl": "https://purepeptidesuk.com/product/thymalin-20mg/"
+  },
+  {
+    "ts": "2026-09-11T14:20:16.837Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mk-677-ibutamoren-10mg-100-tablets",
+    "destUrl": "https://researchpeptide.co.uk/product/mk-677-ibutamoren-10mg-100-tablets/"
   }
 ]
