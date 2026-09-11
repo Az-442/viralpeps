@@ -1646,5 +1646,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue"
+  },
+  {
+    "ts": "2026-09-11T16:56:08.543Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://premiopeptides.co.uk/compounds/nad-plus"
   }
 ]
