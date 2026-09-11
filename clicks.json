@@ -693,5 +693,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "oxytocin",
     "destUrl": "https://ukpeptides.com/catalog/oxytocin"
+  },
+  {
+    "ts": "2026-09-11T15:12:01.500Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://premiopeptides.co.uk/compounds/mots-c"
   }
 ]
