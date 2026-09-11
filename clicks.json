@@ -5639,5 +5639,14 @@
     "vendorSlug": "polygon-peptides",
     "vendorName": "Polygon Peptides",
     "destUrl": "https://polygonpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T22:50:34.727Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.novapeptide.co.uk/product/aod-9604/",
+    "refPage": "https://viralpeps.co.uk/compounds/aod-9604"
   }
 ]
