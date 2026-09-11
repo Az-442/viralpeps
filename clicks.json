@@ -25275,5 +25275,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.testedpeptides.co.uk/product/l-glutathione-600mg/"
+  },
+  {
+    "ts": "2026-09-11T04:00:53.266Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "nad-research-peptide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/nad-plus"
   }
 ]
