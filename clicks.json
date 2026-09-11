@@ -27723,5 +27723,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "epitalon-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-11T06:56:35.607Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
   }
 ]
