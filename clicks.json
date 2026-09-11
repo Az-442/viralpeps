@@ -31593,5 +31593,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "slu-pp-332-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/slu-pp-332/"
+  },
+  {
+    "ts": "2026-09-11T11:22:07.498Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
