@@ -888,5 +888,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://tidelabs.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-11T15:38:47.396Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
