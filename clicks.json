@@ -4861,5 +4861,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
+  },
+  {
+    "ts": "2026-09-11T21:45:22.970Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ghrp-6-research-peptide/"
   }
 ]
