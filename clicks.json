@@ -27796,5 +27796,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/"
+  },
+  {
+    "ts": "2026-09-11T07:00:02.046Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "sterling-cagrilintide-5mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/22-cagrilintide-5mg.html"
   }
 ]
