@@ -32068,5 +32068,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://ukpeptidelab.co.uk/product/cagrilintide"
+  },
+  {
+    "ts": "2026-09-11T11:56:46.902Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://thepeptidecode.co.uk/products/epithalon-10mg"
   }
 ]
