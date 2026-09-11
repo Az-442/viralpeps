@@ -426,5 +426,14 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-11T14:38:16.091Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://peptidelabuk.co.uk/product/ll-37-5mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/ll-37"
   }
 ]
