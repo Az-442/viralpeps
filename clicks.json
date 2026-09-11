@@ -32536,5 +32536,13 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
+  },
+  {
+    "ts": "2026-09-11T12:37:59.126Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/glow-blend-70mg/"
   }
 ]
