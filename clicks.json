@@ -1999,5 +1999,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.buyreta.co.uk/product/nad-plus-500mg-uk"
+  },
+  {
+    "ts": "2026-09-11T17:30:27.538Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
   }
 ]
