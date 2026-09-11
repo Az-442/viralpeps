@@ -880,5 +880,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research"
+  },
+  {
+    "ts": "2026-09-11T15:37:50.145Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://tidelabs.co.uk/products/tb-500"
   }
 ]
