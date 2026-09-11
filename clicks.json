@@ -1413,5 +1413,13 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.raccoonpeptides.com/peptides/43-kisspeptin-10-10mg.html"
+  },
+  {
+    "ts": "2026-09-11T16:41:34.892Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://my-peptides.co.uk/products/nad-kit"
   }
 ]
