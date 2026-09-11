@@ -1445,5 +1445,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.stratfordpeptides.com/products/nad"
+  },
+  {
+    "ts": "2026-09-11T16:42:30.665Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptideslabuk.com/product/nad/"
   }
 ]
