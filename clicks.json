@@ -32640,5 +32640,13 @@
     "vendorName": "Be Better Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://bebetterpeptides.com/products/ghrp-2-10mg"
+  },
+  {
+    "ts": "2026-09-11T12:50:39.930Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh"
   }
 ]
