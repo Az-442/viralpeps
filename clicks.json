@@ -32456,5 +32456,13 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
+  },
+  {
+    "ts": "2026-09-11T12:32:41.973Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://helixcore.co.uk/products/ara-290"
   }
 ]
