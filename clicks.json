@@ -4319,5 +4319,12 @@
     "vendorName": "PeptidesX",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.peptidesx.uk/product/epitalon/"
+  },
+  {
+    "ts": "2026-09-11T21:12:42.088Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk"
   }
 ]
