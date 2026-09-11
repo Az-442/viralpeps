@@ -28221,5 +28221,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.proformapeptides.co.uk/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-11T07:28:56.968Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "dsip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-peptides-dsip-5mg-research-peptide-for-laboratory-use-only-2/"
   }
 ]
