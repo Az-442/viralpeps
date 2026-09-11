@@ -25941,5 +25941,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://polygonpeptides.co.uk/product/rt10/"
+  },
+  {
+    "ts": "2026-09-11T04:44:35.471Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
   }
 ]
