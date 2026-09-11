@@ -26740,5 +26740,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "klow",
     "destUrl": "https://www.apexbiolabs.co.uk/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-11T05:42:20.577Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin"
   }
 ]
