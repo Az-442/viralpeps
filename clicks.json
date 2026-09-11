@@ -29055,5 +29055,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.stratfordpeptides.com/products/aod-9604"
+  },
+  {
+    "ts": "2026-09-11T08:26:11.333Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/vial"
   }
 ]
