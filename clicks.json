@@ -30722,5 +30722,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "vip-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
+  },
+  {
+    "ts": "2026-09-11T10:11:39.587Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://tidelabs.co.uk/products/ss-31-10mg"
   }
 ]
