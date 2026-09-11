@@ -241,5 +241,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg"
+  },
+  {
+    "ts": "2026-09-11T14:17:49.659Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://anglopeptides.com/product/frag-176-191-5mg-research-peptide-awaiting-test-results/"
   }
 ]
