@@ -1654,5 +1654,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://premiopeptides.co.uk/compounds/nad-plus"
+  },
+  {
+    "ts": "2026-09-11T16:57:44.970Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "cartalax-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/cartalax-20mg/"
   }
 ]
