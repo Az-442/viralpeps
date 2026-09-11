@@ -2636,5 +2636,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://peptx.co.uk/tirzepatide"
+  },
+  {
+    "ts": "2026-09-11T18:44:50.286Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ss-31-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/pen"
   }
 ]
