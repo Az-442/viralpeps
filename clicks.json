@@ -1710,5 +1710,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ss-31-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/pen"
+  },
+  {
+    "ts": "2026-09-11T16:59:56.102Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://polygonpeptides.co.uk/product/tesamorelin-10mg/"
   }
 ]
