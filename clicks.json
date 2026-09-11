@@ -2202,5 +2202,13 @@
     "vendorName": "APEX Biolabs",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157-tb500-blend/"
+  },
+  {
+    "ts": "2026-09-11T17:56:02.193Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://astralabs.co.uk/product/tesamorelin-5mg-uk/"
   }
 ]
