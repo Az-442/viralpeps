@@ -742,5 +742,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/nad-research-compound/"
+  },
+  {
+    "ts": "2026-09-11T15:15:45.577Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://bioplexpeptides.co.uk/products/dsip-15mg-dsip-nonapeptide"
   }
 ]
