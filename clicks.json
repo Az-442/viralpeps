@@ -29103,5 +29103,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/"
+  },
+  {
+    "ts": "2026-09-11T08:29:11.272Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend"
   }
 ]
