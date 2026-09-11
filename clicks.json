@@ -31069,5 +31069,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tb-500-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tb-500/vial"
+  },
+  {
+    "ts": "2026-09-11T10:44:44.931Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/sermorelin-10mg"
   }
 ]
