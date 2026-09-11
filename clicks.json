@@ -638,5 +638,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://bluewellpeptides.com/product/igf1-lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-11T15:04:56.099Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
