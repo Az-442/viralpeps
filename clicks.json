@@ -2524,5 +2524,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
+  },
+  {
+    "ts": "2026-09-11T18:34:34.380Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://nupex.co.uk/products/kisspeptin-10-peptide-research-grade"
   }
 ]
