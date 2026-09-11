@@ -3124,5 +3124,13 @@
     "vendorName": "Aegis Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://aegispeptidesuk.co.uk/product/klow/"
+  },
+  {
+    "ts": "2026-09-11T19:22:44.789Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://thepeptidecode.co.uk/products/mots-c-10mg"
   }
 ]
