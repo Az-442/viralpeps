@@ -1815,5 +1815,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://reta-uk.com/products/tb-500"
+  },
+  {
+    "ts": "2026-09-11T17:13:33.628Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopeptides-uk.com/product/bacteriostatic-water-10ml-biopura/"
   }
 ]
