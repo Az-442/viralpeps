@@ -29314,5 +29314,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "snap-8",
     "destUrl": "https://anglopeptides.com/product/snap-8-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-11T08:43:32.256Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
   }
 ]
