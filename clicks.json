@@ -28101,5 +28101,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://researchpeptide.co.uk/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-11T07:20:14.176Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://anglopeptides.com/product/aod-9604-5mg-research-peptide/"
   }
 ]
