@@ -2539,5 +2539,13 @@
     "vendorSlug": "alphamino",
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk"
+  },
+  {
+    "ts": "2026-09-11T18:35:33.382Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://premiopeptides.co.uk/compounds/glutathione"
   }
 ]
