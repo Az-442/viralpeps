@@ -32246,5 +32246,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://supplypeptides.co.uk/products/ss-31"
+  },
+  {
+    "ts": "2026-09-11T12:16:27.177Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.stratfordpeptides.com/products/melanotan-2"
   }
 ]
