@@ -23607,5 +23607,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment"
+  },
+  {
+    "ts": "2026-09-11T02:02:24.119Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://thepeptidecode.co.uk/products/bpc-157-tb-500-blend"
   }
 ]
