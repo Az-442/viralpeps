@@ -28554,5 +28554,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "mgf",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg"
+  },
+  {
+    "ts": "2026-09-11T07:55:01.815Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/"
   }
 ]
