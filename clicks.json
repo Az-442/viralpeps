@@ -25122,5 +25122,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://ukpeptides.com/catalog/cjc-1295"
+  },
+  {
+    "ts": "2026-09-11T03:51:29.342Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/"
   }
 ]
