@@ -22517,5 +22517,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://xlpeptides.com/product/aod-9604/"
+  },
+  {
+    "ts": "2026-09-11T00:17:53.107Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "pt-141-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
   }
 ]
