@@ -22814,5 +22814,13 @@
     "vendorSlug": "peptides-uk",
     "vendorName": "Peptides UK",
     "destUrl": "https://peptidesuk.com"
+  },
+  {
+    "ts": "2026-09-11T00:47:23.920Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
   }
 ]
