@@ -32898,5 +32898,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://supplypeptides.co.uk/products/cjc-1295-no-dac"
+  },
+  {
+    "ts": "2026-09-11T13:05:43.437Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "bpc-5mg-tb-5mg",
+    "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/"
   }
 ]
