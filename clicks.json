@@ -5209,5 +5209,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-11T22:12:44.978Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://zentra-peptides.com/product/snap-8/"
   }
 ]
