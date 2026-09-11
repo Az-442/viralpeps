@@ -27271,5 +27271,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "tp2-10mg",
     "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/"
+  },
+  {
+    "ts": "2026-09-11T06:20:13.298Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
