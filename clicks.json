@@ -26189,5 +26189,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://ukpeptides.com/catalog/kisspeptin"
+  },
+  {
+    "ts": "2026-09-11T05:00:18.970Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "kpv",
+    "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
   }
 ]
