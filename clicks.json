@@ -1026,5 +1026,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://ukpeptides.com/catalog/tesamorelin"
+  },
+  {
+    "ts": "2026-09-11T15:54:27.644Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research"
   }
 ]
