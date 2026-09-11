@@ -31464,5 +31464,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "pal-ghk",
     "destUrl": "https://ukpeptides.com/catalog/pal-ghk"
+  },
+  {
+    "ts": "2026-09-11T11:10:28.999Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial"
   }
 ]
