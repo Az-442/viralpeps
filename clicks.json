@@ -5448,5 +5448,13 @@
     "vendorName": "Nupex",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research"
+  },
+  {
+    "ts": "2026-09-11T22:31:13.899Z",
+    "type": "vendor-site",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "destUrl": "https://olresearch.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ol-research"
   }
 ]
