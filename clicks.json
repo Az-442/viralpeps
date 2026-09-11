@@ -23542,5 +23542,13 @@
     "vendorSlug": "apex-pharma",
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk"
+  },
+  {
+    "ts": "2026-09-11T01:53:00.479Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "dsip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/dsip/pen"
   }
 ]
