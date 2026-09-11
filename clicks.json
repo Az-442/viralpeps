@@ -25114,5 +25114,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "kpv",
     "destUrl": "https://www.novapeptide.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-11T03:50:08.835Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ukpeptides.com/catalog/cjc-1295"
   }
 ]
