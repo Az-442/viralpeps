@@ -26867,5 +26867,12 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://ukpeptides.com/catalog/bpc-157"
+  },
+  {
+    "ts": "2026-09-11T05:52:09.572Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
