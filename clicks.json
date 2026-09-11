@@ -29651,5 +29651,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
+  },
+  {
+    "ts": "2026-09-11T09:14:25.266Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mt-2-10mg"
   }
 ]
