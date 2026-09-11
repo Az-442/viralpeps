@@ -3542,5 +3542,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.peptidesonline.uk/shop/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-11T19:53:10.658Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/mots-c/"
   }
 ]
