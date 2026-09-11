@@ -1589,5 +1589,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bluewellpeptides.com/product/tesamorelin-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T16:52:43.489Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://oplabs.co.uk/product/epithalon-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/epithalon"
   }
 ]
