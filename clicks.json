@@ -25539,5 +25539,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "cjc-1295-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/pen"
+  },
+  {
+    "ts": "2026-09-11T04:19:45.868Z",
+    "type": "vendor-site",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "destUrl": "https://rawpeptides.co.uk"
   }
 ]
