@@ -1494,5 +1494,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://reta-uk.com/products/nad"
+  },
+  {
+    "ts": "2026-09-11T16:45:31.651Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "igf-1-1-3-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/"
   }
 ]
