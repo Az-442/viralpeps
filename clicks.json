@@ -23332,5 +23332,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "nad-250mg",
     "destUrl": "https://peptidesuk.com/nad-250mg/"
+  },
+  {
+    "ts": "2026-09-11T01:31:40.640Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
   }
 ]
