@@ -25404,5 +25404,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://premiopeptides.co.uk/compounds/nad-plus"
+  },
+  {
+    "ts": "2026-09-11T04:08:51.164Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide"
   }
 ]
