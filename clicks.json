@@ -4142,5 +4142,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "klow",
     "destUrl": "https://reta-uk.com/products/klow"
+  },
+  {
+    "ts": "2026-09-11T20:51:08.742Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.peptidesx.uk/product/semaglutide/"
   }
 ]
