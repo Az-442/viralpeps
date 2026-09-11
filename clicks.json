@@ -22486,5 +22486,12 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "semax-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial"
+  },
+  {
+    "ts": "2026-09-11T00:16:21.251Z",
+    "type": "vendor-site",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "destUrl": "https://trutide.co.uk"
   }
 ]
