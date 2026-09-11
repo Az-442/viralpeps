@@ -193,5 +193,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://anglopeptides.com/product/tb-500-10mg-research-peptide-batch-108/"
+  },
+  {
+    "ts": "2026-09-11T14:14:28.846Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-ghrp-2-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghrp-2-5mg/"
   }
 ]
