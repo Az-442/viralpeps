@@ -26930,5 +26930,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "selank-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
+  },
+  {
+    "ts": "2026-09-11T05:56:45.935Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "acetic-acid-reconstitution-solvent-10ml",
+    "destUrl": "https://tidelabs.co.uk/products/acetic-acid-reconstitution-solvent-10ml"
   }
 ]
