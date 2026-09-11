@@ -26922,5 +26922,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "snap-8",
     "destUrl": "https://bluewellpeptides.com/product/snap-8-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T05:56:21.743Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "selank-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/selank/vial"
   }
 ]
