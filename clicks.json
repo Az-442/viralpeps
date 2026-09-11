@@ -22,5 +22,14 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ipamorelin/"
+  },
+  {
+    "ts": "2026-09-11T13:54:39.918Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/tirzepatide"
   }
 ]
