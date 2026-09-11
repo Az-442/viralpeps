@@ -136,5 +136,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg"
+  },
+  {
+    "ts": "2026-09-11T14:10:20.372Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://premiopeptides.co.uk/compounds/cjc-1295-no-dac"
   }
 ]
