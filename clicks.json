@@ -2363,5 +2363,13 @@
     "vendorName": "PepNOVA",
     "compoundSlug": "bpc-157",
     "destUrl": "https://pepnova.uk/"
+  },
+  {
+    "ts": "2026-09-11T18:11:17.980Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://trutide.co.uk/product/nad-1000mg/"
   }
 ]
