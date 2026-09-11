@@ -4484,5 +4484,13 @@
     "vendorSlug": "nupex",
     "vendorName": "Nupex",
     "destUrl": "https://nupex.co.uk"
+  },
+  {
+    "ts": "2026-09-11T21:25:36.812Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tb-500-5mg"
   }
 ]
