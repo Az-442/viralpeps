@@ -1042,5 +1042,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-11T15:57:14.873Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html"
   }
 ]
