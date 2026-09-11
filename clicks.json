@@ -26173,5 +26173,13 @@
     "vendorSlug": "tide-labs",
     "vendorName": "Tide Labs",
     "destUrl": "https://tidelabs.co.uk"
+  },
+  {
+    "ts": "2026-09-11T04:57:40.052Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial"
   }
 ]
