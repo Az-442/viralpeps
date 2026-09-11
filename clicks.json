@@ -5816,5 +5816,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "semax",
     "destUrl": "https://www.buyreta.co.uk/product/semax-30mg-uk"
+  },
+  {
+    "ts": "2026-09-11T23:13:37.986Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/uk-peptides"
   }
 ]
