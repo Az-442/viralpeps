@@ -22558,5 +22558,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.stratfordpeptides.com/products/epitalon"
+  },
+  {
+    "ts": "2026-09-11T00:22:05.248Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
   }
 ]
