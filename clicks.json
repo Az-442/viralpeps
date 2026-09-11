@@ -29507,5 +29507,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/semax/"
+  },
+  {
+    "ts": "2026-09-11T08:58:44.241Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.stratfordpeptides.com/products/mots-c"
   }
 ]
