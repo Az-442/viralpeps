@@ -30714,5 +30714,13 @@
     "vendorName": "Zentra Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://zentra-peptides.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-11T10:11:35.958Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
   }
 ]
