@@ -1774,5 +1774,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://peptidesuk.com/thymosin-alpha-1/"
+  },
+  {
+    "ts": "2026-09-11T17:08:37.426Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptideslabuk.com/product/igf-1lr3/"
   }
 ]
