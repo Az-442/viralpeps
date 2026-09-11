@@ -31771,5 +31771,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "thymalin",
     "destUrl": "https://tidelabs.co.uk/products/thymalin"
+  },
+  {
+    "ts": "2026-09-11T11:36:26.378Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs"
   }
 ]
