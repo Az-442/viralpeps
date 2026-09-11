@@ -28244,5 +28244,13 @@
     "vendorSlug": "op-labs",
     "vendorName": "OP Labs",
     "destUrl": "https://oplabs.co.uk"
+  },
+  {
+    "ts": "2026-09-11T07:30:26.243Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/"
   }
 ]
