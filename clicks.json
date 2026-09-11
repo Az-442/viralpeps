@@ -22951,5 +22951,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "semax",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-11T00:56:23.671Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://xlpeptides.com/product/igf-1-lr3-1mg/"
   }
 ]
