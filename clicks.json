@@ -1991,5 +1991,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen"
+  },
+  {
+    "ts": "2026-09-11T17:30:05.778Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.buyreta.co.uk/product/nad-plus-500mg-uk"
   }
 ]
