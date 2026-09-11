@@ -27627,5 +27627,13 @@
     "vendorSlug": "reta-uk",
     "vendorName": "RETA UK",
     "destUrl": "https://reta-uk.com"
+  },
+  {
+    "ts": "2026-09-11T06:50:27.411Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.stratfordpeptides.com/products/bcp-157"
   }
 ]
