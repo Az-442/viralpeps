@@ -27099,5 +27099,12 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://crownpeptides.co.uk/shop/crown/glutathione/"
+  },
+  {
+    "ts": "2026-09-11T06:08:34.777Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk"
   }
 ]
