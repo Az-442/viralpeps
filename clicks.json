@@ -30842,5 +30842,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tb500-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tb500/pen"
+  },
+  {
+    "ts": "2026-09-11T10:19:07.144Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://xlpeptides.com/product/foxo4-dri-10mg/"
   }
 ]
