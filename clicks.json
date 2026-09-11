@@ -2186,5 +2186,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg"
+  },
+  {
+    "ts": "2026-09-11T17:54:20.009Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen"
   }
 ]
