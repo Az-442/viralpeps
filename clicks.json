@@ -418,5 +418,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "premium-mod-grf-5mg",
     "destUrl": "https://purepeptidesuk.com/product/premium-mod-grf-5mg/"
+  },
+  {
+    "ts": "2026-09-11T14:37:46.869Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/"
   }
 ]
