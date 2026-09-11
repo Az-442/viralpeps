@@ -25476,5 +25476,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin"
+  },
+  {
+    "ts": "2026-09-11T04:14:27.643Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://octagonpeptides.co.uk/product/tb-500-10-mg/"
   }
 ]
