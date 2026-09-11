@@ -2845,5 +2845,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-11T19:04:41.955Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://premiopeptides.co.uk/compounds/semax"
   }
 ]
