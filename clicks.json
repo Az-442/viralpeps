@@ -31568,5 +31568,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "foxo4-dr1",
     "destUrl": "https://bioplexpeptides.co.uk/products/fox04-10mg-foxo4-dri"
+  },
+  {
+    "ts": "2026-09-11T11:17:56.643Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://purepeptidesuk.com/product/mots-c-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
