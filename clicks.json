@@ -25748,5 +25748,12 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://bluewellpeptides.com/product/ara-290-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T04:32:31.743Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk"
   }
 ]
