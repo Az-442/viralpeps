@@ -2346,5 +2346,14 @@
     "vendorName": "RETA UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://reta-uk.com/products/mots-c"
+  },
+  {
+    "ts": "2026-09-11T18:10:58.540Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://olresearch.co.uk/product/aod9604-5mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/aod-9604"
   }
 ]
