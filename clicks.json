@@ -1983,5 +1983,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-beta"
+  },
+  {
+    "ts": "2026-09-11T17:28:28.803Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen"
   }
 ]
