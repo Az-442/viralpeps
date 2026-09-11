@@ -5095,5 +5095,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/epitalon-10mg"
+  },
+  {
+    "ts": "2026-09-11T22:05:32.754Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://zentra-peptides.com/product/tesamorelin/"
   }
 ]
