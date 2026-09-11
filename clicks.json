@@ -104,5 +104,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bioplexpeptides.co.uk/products/selank-10mg-selanc"
+  },
+  {
+    "ts": "2026-09-11T14:04:32.900Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "aod-9604-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/vial"
   }
 ]
