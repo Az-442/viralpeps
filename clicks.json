@@ -24183,5 +24183,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "bpc-5mg-tb-5mg",
     "destUrl": "https://researchpeptide.co.uk/product/bpc-5mg-tb-5mg/"
+  },
+  {
+    "ts": "2026-09-11T02:42:21.103Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500"
   }
 ]
