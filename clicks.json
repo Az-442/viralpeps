@@ -32591,5 +32591,14 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/igf-1lr3-1mg/"
+  },
+  {
+    "ts": "2026-09-11T12:45:03.079Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-TB5-5",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptigen-labs"
   }
 ]
