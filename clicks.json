@@ -32100,5 +32100,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "liraglutide",
     "destUrl": "https://peptx.co.uk/product/liraglutide"
+  },
+  {
+    "ts": "2026-09-11T11:58:55.985Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen"
   }
 ]
