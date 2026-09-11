@@ -26764,5 +26764,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg"
+  },
+  {
+    "ts": "2026-09-11T05:45:15.351Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://kensingtonlabs.co.uk/product/10ml-bacteriostatic-mixing-water/"
   }
 ]
