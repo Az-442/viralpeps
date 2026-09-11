@@ -26812,5 +26812,12 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "glow",
     "destUrl": "https://supplypeptides.co.uk/products/glow"
+  },
+  {
+    "ts": "2026-09-11T05:48:40.353Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com"
   }
 ]
