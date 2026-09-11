@@ -30674,5 +30674,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://researchpeptide.co.uk/product/igf-1-des-1mg/"
+  },
+  {
+    "ts": "2026-09-11T10:10:43.370Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/"
   }
 ]
