@@ -32793,5 +32793,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.stratfordpeptides.com/products/cjc-1295-no-dac"
+  },
+  {
+    "ts": "2026-09-11T12:58:47.104Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide"
   }
 ]
