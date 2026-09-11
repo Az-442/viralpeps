@@ -23340,5 +23340,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-11T01:33:26.478Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glow"
   }
 ]
