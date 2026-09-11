@@ -63,5 +63,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://biotideuk.com/products/thymosin-alpha-1"
+  },
+  {
+    "ts": "2026-09-11T14:01:48.227Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu"
   }
 ]
