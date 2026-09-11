@@ -24667,5 +24667,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://ukpeptides.com/catalog/glow"
+  },
+  {
+    "ts": "2026-09-11T03:19:31.983Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/"
   }
 ]
