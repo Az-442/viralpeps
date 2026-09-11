@@ -185,5 +185,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "tb-500",
     "destUrl": "https://ukpeptidelab.co.uk/product/tb-500"
+  },
+  {
+    "ts": "2026-09-11T14:13:30.927Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://anglopeptides.com/product/tb-500-10mg-research-peptide-batch-108/"
   }
 ]
