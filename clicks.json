@@ -4046,5 +4046,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptideslabuk.com/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-11T20:46:06.492Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://reta-uk.com/products/bacteriorastic-water-10ml"
   }
 ]
