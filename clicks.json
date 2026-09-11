@@ -1726,5 +1726,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://xlpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T17:02:30.269Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg"
   }
 ]
