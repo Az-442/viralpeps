@@ -1163,5 +1163,13 @@
     "vendorSlug": "alphamino",
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk"
+  },
+  {
+    "ts": "2026-09-11T16:11:25.507Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
   }
 ]
