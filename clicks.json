@@ -4772,5 +4772,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://my-peptides.co.uk/products/ipamorelin"
+  },
+  {
+    "ts": "2026-09-11T21:38:13.629Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/vip/"
   }
 ]
