@@ -30401,5 +30401,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/"
+  },
+  {
+    "ts": "2026-09-11T09:40:05.630Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-6-10mg",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-10mg/"
   }
 ]
