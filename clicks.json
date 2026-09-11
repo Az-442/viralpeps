@@ -322,5 +322,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.peptidesonline.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-11T14:26:24.417Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/"
   }
 ]
