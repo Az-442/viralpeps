@@ -32335,5 +32335,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "hexarelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen"
+  },
+  {
+    "ts": "2026-09-11T12:25:09.880Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ace-031-1mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ace-031-1mg/"
   }
 ]
