@@ -29192,5 +29192,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://peptidesuk.com/tb500-5mg/"
+  },
+  {
+    "ts": "2026-09-11T08:35:09.614Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "selank",
+    "destUrl": "https://mypepbiotech.co.uk/product/selank/"
   }
 ]
