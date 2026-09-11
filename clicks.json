@@ -30313,5 +30313,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://supplypeptides.co.uk/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-11T09:29:16.013Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
   }
 ]
