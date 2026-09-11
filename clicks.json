@@ -29458,5 +29458,13 @@
     "vendorSlug": "ascend-peptides",
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com"
+  },
+  {
+    "ts": "2026-09-11T08:56:47.601Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://mypepbiotech.co.uk/product/tesamorelin-40mg/"
   }
 ]
