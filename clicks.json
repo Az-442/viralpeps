@@ -2709,5 +2709,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "5-amino-1mq-50mg",
     "destUrl": "https://bluewellpeptides.com/product/5-amino-1mq-50mg/"
+  },
+  {
+    "ts": "2026-09-11T18:50:05.492Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://premiopeptides.co.uk/compounds/follistatin-344"
   }
 ]
