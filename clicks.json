@@ -33018,5 +33018,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "klow",
     "destUrl": "https://anglopeptides.com/product/klow-blend-80mg-vial-batch-107-research-peptide/"
+  },
+  {
+    "ts": "2026-09-11T13:17:25.863Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptx.co.uk/semaglutide"
   }
 ]
