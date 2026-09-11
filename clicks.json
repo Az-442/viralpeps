@@ -28635,5 +28635,11 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/vial"
+  },
+  {
+    "ts": "2026-09-11T08:00:33.731Z",
+    "type": "product",
+    "vendorSlug": "botcheck",
+    "compoundSlug": "x"
   }
 ]
