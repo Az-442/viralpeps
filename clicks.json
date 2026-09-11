@@ -314,5 +314,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://bluewellpeptides.com/product/selank-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-11T14:26:10.522Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptidesonline.uk/shop/semax/"
   }
 ]
