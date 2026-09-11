@@ -1486,5 +1486,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://reta-uk.com/products/nad"
+  },
+  {
+    "ts": "2026-09-11T16:44:10.633Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://reta-uk.com/products/nad"
   }
 ]
