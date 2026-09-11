@@ -24448,5 +24448,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/bacteriostatic-water-3ml"
+  },
+  {
+    "ts": "2026-09-11T03:01:36.526Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
