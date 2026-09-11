@@ -2225,5 +2225,13 @@
     "vendorSlug": "be-better-peptides",
     "vendorName": "Be Better Peptides",
     "destUrl": "https://bebetterpeptides.com"
+  },
+  {
+    "ts": "2026-09-11T17:58:48.518Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-nad-100mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/"
   }
 ]
