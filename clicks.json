@@ -3406,5 +3406,12 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.peptidesonline.uk/shop/bpc-157/"
+  },
+  {
+    "ts": "2026-09-11T19:44:21.995Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk"
   }
 ]
