@@ -23146,5 +23146,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bluewellpeptides.com/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-11T01:11:08.800Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidesuk.com/semax/",
+    "refPage": "https://viralpeps.co.uk/compounds/semax"
   }
 ]
