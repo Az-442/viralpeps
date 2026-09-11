@@ -3413,5 +3413,13 @@
     "vendorSlug": "polygon-peptides",
     "vendorName": "Polygon Peptides",
     "destUrl": "https://polygonpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-11T19:44:24.792Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/78-survodutide-10mg.html"
   }
 ]
