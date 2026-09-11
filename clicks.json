@@ -22440,5 +22440,13 @@
     "vendorName": "Peptify UK",
     "destUrl": "https://www.peptifyuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptify-uk"
+  },
+  {
+    "ts": "2026-09-11T00:11:01.194Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://xlpeptides.com/product/igf-1-lr3-1mg/"
   }
 ]
