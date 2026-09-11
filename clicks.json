@@ -2007,5 +2007,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/"
+  },
+  {
+    "ts": "2026-09-11T17:31:24.167Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://olresearch.co.uk/product/snap-8-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/snap-8"
   }
 ]
