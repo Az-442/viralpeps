@@ -4780,5 +4780,13 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/vip/"
+  },
+  {
+    "ts": "2026-09-11T21:38:16.134Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg"
   }
 ]
