@@ -2218,5 +2218,12 @@
     "vendorName": "HelixCore",
     "compoundSlug": "nad-plus",
     "destUrl": "https://helixcore.co.uk/products/nad-plus"
+  },
+  {
+    "ts": "2026-09-11T17:58:11.991Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com"
   }
 ]
