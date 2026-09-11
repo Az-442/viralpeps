@@ -23235,5 +23235,13 @@
     "vendorSlug": "peptidesx",
     "vendorName": "PeptidesX",
     "destUrl": "https://www.peptidesx.uk"
+  },
+  {
+    "ts": "2026-09-11T01:26:15.646Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
   }
 ]
