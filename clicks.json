@@ -27505,5 +27505,14 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://premiopeptides.co.uk/compounds/semax"
+  },
+  {
+    "ts": "2026-09-11T06:39:20.303Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin/",
+    "refPage": "https://viralpeps.co.uk/compounds/ipamorelin"
   }
 ]
