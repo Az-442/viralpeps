@@ -5038,5 +5038,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/ghk-cu-50mg"
+  },
+  {
+    "ts": "2026-09-11T22:00:58.852Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg"
   }
 ]
