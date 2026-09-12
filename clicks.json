@@ -16362,5 +16362,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://peptidesuk.com/kisspeptin/"
+  },
+  {
+    "ts": "2026-09-12T02:42:46.373Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidesx.uk/product/tesamorelin/"
   }
 ]
