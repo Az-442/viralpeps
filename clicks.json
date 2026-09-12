@@ -7173,5 +7173,13 @@
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/mypep-biotech"
+  },
+  {
+    "ts": "2026-09-12T01:48:28.288Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://britpeptides.co.uk/product/bpc-157/"
   }
 ]
