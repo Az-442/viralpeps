@@ -7711,5 +7711,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-BPC-10"
+  },
+  {
+    "ts": "2026-09-12T02:15:05.475Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://evapeptide.co.uk/product/buy-bpc-157-uk/"
   }
 ]
