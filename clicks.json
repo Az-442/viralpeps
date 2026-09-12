@@ -7010,5 +7010,12 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://xlpeptides.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-12T01:17:26.249Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk"
   }
 ]
