@@ -18294,5 +18294,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "glutathione",
     "destUrl": "https://ukpeptidelab.co.uk/product/glutathione"
+  },
+  {
+    "ts": "2026-09-12T07:18:19.340Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/snap-8-10mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/research-peptides-uk-main"
   }
 ]
