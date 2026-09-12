@@ -12084,5 +12084,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial"
+  },
+  {
+    "ts": "2026-09-12T02:29:17.428Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://octagonpeptides.co.uk/product/epithalon-10-mg/"
   }
 ]
