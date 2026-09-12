@@ -18847,5 +18847,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295-ipamorelin",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-ipamorelin"
+  },
+  {
+    "ts": "2026-09-12T09:37:58.788Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://pgnalabs.co.uk/product/cjc-1295",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs"
   }
 ]
