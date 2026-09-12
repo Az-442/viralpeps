@@ -9725,5 +9725,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "semax-vial-express",
     "destUrl": "https://alphamino.co.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-12T02:21:44.391Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
