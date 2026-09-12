@@ -6702,5 +6702,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "bpc-157-10mg-the-peptide-company",
     "destUrl": "https://alphamino.co.uk/shop/bpc/"
+  },
+  {
+    "ts": "2026-09-12T00:42:11.003Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
   }
 ]
