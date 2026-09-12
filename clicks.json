@@ -10652,5 +10652,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.prime-peptides.co.uk/product/igf-1-lr3/"
+  },
+  {
+    "ts": "2026-09-12T02:24:39.198Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://chromapeptides.co.uk/product/dsip/"
   }
 ]
