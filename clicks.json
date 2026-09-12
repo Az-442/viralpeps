@@ -14548,5 +14548,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "klow",
     "destUrl": "https://supplypeptides.co.uk/products/klow"
+  },
+  {
+    "ts": "2026-09-12T02:37:22.597Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/klow-blend.html"
   }
 ]
