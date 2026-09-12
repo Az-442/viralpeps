@@ -6347,5 +6347,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.testedpeptides.co.uk/product/ghrp-6-10-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-12T00:15:13.134Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kissptin-10-10mg/"
   }
 ]
