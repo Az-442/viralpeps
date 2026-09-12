@@ -10996,5 +10996,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://www.proformapeptides.co.uk/product/ss31-10mg-2/"
+  },
+  {
+    "ts": "2026-09-12T02:25:50.160Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://helixcore.co.uk/products/ss-31"
   }
 ]
