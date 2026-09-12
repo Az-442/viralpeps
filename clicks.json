@@ -9541,5 +9541,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "bpc-157-oral",
     "destUrl": "https://alphamino.co.uk/shop/bpc/"
+  },
+  {
+    "ts": "2026-09-12T02:21:08.003Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/"
   }
 ]
