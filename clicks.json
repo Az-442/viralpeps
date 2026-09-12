@@ -12068,5 +12068,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "epitalon",
     "destUrl": "https://biopeptides-uk.com/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:29:14.719Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
