@@ -16873,5 +16873,12 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tirz3-15mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirz3-15mg/"
+  },
+  {
+    "ts": "2026-09-12T02:44:15.248Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com"
   }
 ]
