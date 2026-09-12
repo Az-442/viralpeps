@@ -7687,5 +7687,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-12T02:15:01.535Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biopeptides-uk.com/product/bpc-157-10mg/"
   }
 ]
