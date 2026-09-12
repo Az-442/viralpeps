@@ -7415,5 +7415,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "semaglutide",
     "destUrl": "https://biopeptides-uk.com/product/semaglutide-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:13:48.905Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britpeptides.co.uk/product/semaglutide-10mg-disposable-pen/"
   }
 ]
