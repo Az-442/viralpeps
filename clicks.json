@@ -7230,5 +7230,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://purepeptidesuk.com/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:09:46.047Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://my-peptides.co.uk/products/mots-c-32",
+    "refPage": "https://viralpeps.co.uk/compounds/mots-c"
   }
 ]
