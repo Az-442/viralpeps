@@ -17370,5 +17370,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://www.stratfordpeptides.com/products/l-carnitine"
+  },
+  {
+    "ts": "2026-09-12T02:56:37.888Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biohackpeptides.co.uk/product/nad-500mg-3ml-bac-water/"
   }
 ]
