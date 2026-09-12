@@ -13500,5 +13500,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://www.proformapeptides.co.uk/product/thymosin-alpha-1-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:33:47.885Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial"
   }
 ]
