@@ -19489,5 +19489,12 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "cjc-1295-ipamorelin",
     "destUrl": "https://ukpeptidelab.co.uk/product/cjc-1295-ipamorelin"
+  },
+  {
+    "ts": "2026-09-12T12:14:07.589Z",
+    "type": "vendor-site",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "destUrl": "https://formpeptides.co.uk"
   }
 ]
