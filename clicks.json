@@ -17955,5 +17955,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-12T05:41:38.916Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glutathione",
+    "refPage": "https://viralpeps.co.uk/compounds/glutathione"
   }
 ]
