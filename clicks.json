@@ -16394,5 +16394,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "selank",
     "destUrl": "https://www.peptifyuk.com/product/selank-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:42:52.040Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-SMX-10"
   }
 ]
