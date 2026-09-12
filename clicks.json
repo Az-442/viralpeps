@@ -7002,5 +7002,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://xlpeptides.com/product/dsip/"
+  },
+  {
+    "ts": "2026-09-12T01:17:08.870Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://xlpeptides.com/product/selank-10mg/"
   }
 ]
