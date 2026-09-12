@@ -11292,5 +11292,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptidesuk.com/igf-1-des/"
+  },
+  {
+    "ts": "2026-09-12T02:26:47.728Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg"
   }
 ]
