@@ -16895,5 +16895,13 @@
     "vendorSlug": "supply-peptides",
     "vendorName": "SupplyPeptides",
     "destUrl": "https://supplypeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-12T02:44:19.537Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://supplypeptides.co.uk/products/semax"
   }
 ]
