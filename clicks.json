@@ -12644,5 +12644,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://my-peptides.co.uk/products/nad-kit"
+  },
+  {
+    "ts": "2026-09-12T02:31:06.066Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/pal-ghk-10mg"
   }
 ]
