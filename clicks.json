@@ -10756,5 +10756,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.proformapeptides.co.uk/product/dsip-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:25:06.219Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/"
   }
 ]
