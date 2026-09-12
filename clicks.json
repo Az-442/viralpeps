@@ -18936,5 +18936,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
+  },
+  {
+    "ts": "2026-09-12T10:07:48.167Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://biopeptides-uk.com/product/oxytocin-2mg/"
   }
 ]
