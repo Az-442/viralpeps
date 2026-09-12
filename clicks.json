@@ -15749,5 +15749,12 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "5-amino-1mq-50mg",
     "destUrl": "https://bluewellpeptides.com/product/5-amino-1mq-50mg/"
+  },
+  {
+    "ts": "2026-09-12T02:40:56.824Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk"
   }
 ]
