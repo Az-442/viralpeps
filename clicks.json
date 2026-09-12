@@ -6985,5 +6985,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/"
+  },
+  {
+    "ts": "2026-09-12T01:15:38.284Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://mypepbiotech.co.uk/product/epitalon-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/mypep-biotech"
   }
 ]
