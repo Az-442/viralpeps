@@ -17567,5 +17567,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/"
+  },
+  {
+    "ts": "2026-09-12T03:34:24.112Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidelabuk.co.uk/product/tb-500-5mg-research-peptide-thymosin/"
   }
 ]
