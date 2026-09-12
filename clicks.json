@@ -18218,5 +18218,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://biopeptides-uk.com/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-12T07:05:34.259Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://tidelabs.co.uk/products/tb-500"
   }
 ]
