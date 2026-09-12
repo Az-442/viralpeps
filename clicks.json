@@ -10836,5 +10836,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://peptidesuk.com/dsip/"
+  },
+  {
+    "ts": "2026-09-12T02:25:21.141Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362"
   }
 ]
