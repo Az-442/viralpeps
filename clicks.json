@@ -18482,5 +18482,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "gnrh-triptorelin-100mcg",
     "destUrl": "https://purepeptidesuk.com/product/gnrh-triptorelin-100/"
+  },
+  {
+    "ts": "2026-09-12T08:09:01.197Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
