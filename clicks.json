@@ -18179,5 +18179,12 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
+  },
+  {
+    "ts": "2026-09-12T06:57:47.209Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk"
   }
 ]
