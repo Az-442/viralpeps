@@ -12540,5 +12540,13 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.novapeptide.co.uk/product/nad/"
+  },
+  {
+    "ts": "2026-09-12T02:30:43.995Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.peptidesx.uk/product/nad-plus/"
   }
 ]
