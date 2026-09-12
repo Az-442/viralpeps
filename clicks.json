@@ -18401,5 +18401,13 @@
     "vendorSlug": "bluewell-peptides",
     "vendorName": "Bluewell Peptides",
     "destUrl": "https://bluewellpeptides.com"
+  },
+  {
+    "ts": "2026-09-12T07:47:19.892Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
   }
 ]
