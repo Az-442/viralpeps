@@ -13180,5 +13180,13 @@
     "vendorName": "BioTide UK",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://biotideuk.com/products/ahk-cu-100-mg"
+  },
+  {
+    "ts": "2026-09-12T02:32:47.777Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-matrixyl-3000/"
   }
 ]
