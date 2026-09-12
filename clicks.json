@@ -19446,5 +19446,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "tb-500",
     "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
+  },
+  {
+    "ts": "2026-09-12T11:57:45.551Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "refPage": "https://viralpeps.co.uk/vendors/leolab"
   }
 ]
