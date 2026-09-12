@@ -19050,5 +19050,14 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "b7-33",
     "destUrl": "https://bioplexpeptides.co.uk/products/b7-33"
+  },
+  {
+    "ts": "2026-09-12T10:33:36.226Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "aicar-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/aicar/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/aicar-research-peptides-uk"
   }
 ]
