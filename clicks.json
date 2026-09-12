@@ -7343,5 +7343,13 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://precision-peptides.shop/product/glp-2-tirz-15mg/"
+  },
+  {
+    "ts": "2026-09-12T02:13:37.070Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
   }
 ]
