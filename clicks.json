@@ -19281,5 +19281,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-12T11:27:37.820Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "selank",
+    "destUrl": "https://mypepbiotech.co.uk/product/selank/"
   }
 ]
