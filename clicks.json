@@ -18944,5 +18944,14 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://biopeptides-uk.com/product/oxytocin-2mg/"
+  },
+  {
+    "ts": "2026-09-12T10:10:12.562Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.peptifyuk.com/product/selank-10mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptify-uk"
   }
 ]
