@@ -12924,5 +12924,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "thymalin",
     "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:31:57.751Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "aicar",
+    "destUrl": "https://mypepbiotech.co.uk/product/aicar-100mg/"
   }
 ]
