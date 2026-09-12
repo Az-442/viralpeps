@@ -7327,5 +7327,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://britpeptides.co.uk/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-12T02:13:34.281Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
   }
 ]
