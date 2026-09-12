@@ -19289,5 +19289,14 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "selank",
     "destUrl": "https://mypepbiotech.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-12T11:29:34.952Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://bluewellpeptides.com/product/cjc-1295-mod-grf-1-29-without-dac-5mg/",
+    "refPage": "https://viralpeps.co.uk/go/bluewell-peptides/cjc-1295"
   }
 ]
