@@ -8791,5 +8791,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:18:44.108Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.novapeptide.co.uk/product/ipamorelin/"
   }
 ]
