@@ -15702,5 +15702,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://biohackpeptides.co.uk/product/selank-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-12T02:40:48.723Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/"
   }
 ]
