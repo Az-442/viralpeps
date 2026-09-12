@@ -8495,5 +8495,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "mots-c",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-MOTS-10"
+  },
+  {
+    "ts": "2026-09-12T02:17:40.472Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidelabuk.co.uk/product/mots-c-10mg-research-peptide/"
   }
 ]
