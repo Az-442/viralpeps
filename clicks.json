@@ -12324,5 +12324,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glow",
     "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
+  },
+  {
+    "ts": "2026-09-12T02:30:01.987Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptidelabuk.co.uk/product/glow-blend-70mg-ghk-cu-bpc-157-tb-500/"
   }
 ]
