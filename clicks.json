@@ -11380,5 +11380,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "sermorelin",
     "destUrl": "https://polygonpeptides.co.uk/product/sermorelin/"
+  },
+  {
+    "ts": "2026-09-12T02:27:04.839Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
