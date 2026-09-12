@@ -7431,5 +7431,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "semaglutide",
     "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/"
+  },
+  {
+    "ts": "2026-09-12T02:13:51.480Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/bpc-157-5mg"
   }
 ]
