@@ -9126,5 +9126,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "epithalon-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/pen"
+  },
+  {
+    "ts": "2026-09-12T02:19:41.255Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "oxytocin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/pen"
   }
 ]
