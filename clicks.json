@@ -17012,5 +17012,13 @@
     "vendorSlug": "the-peptide-code",
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk"
+  },
+  {
+    "ts": "2026-09-12T02:44:39.937Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg"
   }
 ]
