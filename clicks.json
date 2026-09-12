@@ -7743,5 +7743,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-2mg-thymosin-beta"
+  },
+  {
+    "ts": "2026-09-12T02:15:10.597Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.peptidesx.uk/product/tb-500/"
   }
 ]
