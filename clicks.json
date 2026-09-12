@@ -18369,5 +18369,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "selank",
     "destUrl": "https://ukpeptidelab.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-12T07:38:15.195Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/"
   }
 ]
