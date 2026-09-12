@@ -16534,5 +16534,12 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://premiopeptides.co.uk/compounds/selank"
+  },
+  {
+    "ts": "2026-09-12T02:43:16.292Z",
+    "type": "vendor-site",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "destUrl": "https://www.prime-peptides.co.uk"
   }
 ]
