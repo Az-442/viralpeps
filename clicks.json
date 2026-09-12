@@ -17386,5 +17386,14 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.peptifyuk.com/product/ipamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:59:02.918Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://midshirelabs.co.uk/products/nad/",
+    "refPage": "https://viralpeps.co.uk/vendors/midshire-labs"
   }
 ]
