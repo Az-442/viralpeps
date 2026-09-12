@@ -9900,5 +9900,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "kpv-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/kpv/"
+  },
+  {
+    "ts": "2026-09-12T02:22:21.201Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+    "destUrl": "https://researchpeptide.co.uk/product/tesamorelin-13mg-ipamorelin-3mg-16mg-blend/"
   }
 ]
