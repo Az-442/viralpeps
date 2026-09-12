@@ -17265,5 +17265,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://ukpeptides.com/catalog/kisspeptin"
+  },
+  {
+    "ts": "2026-09-12T02:45:23.254Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://xlpeptides.com/product/tesamorelin-5mg/"
   }
 ]
