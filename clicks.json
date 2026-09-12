@@ -15977,5 +15977,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://www.flexpeptides.co.uk/products/kisspeptin-5mg"
+  },
+  {
+    "ts": "2026-09-12T02:41:37.779Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor"
   }
 ]
