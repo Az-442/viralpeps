@@ -18031,5 +18031,14 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.apex-pharma.co.uk/product/ahk-50mg/"
+  },
+  {
+    "ts": "2026-09-12T06:03:07.784Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-kisspeptin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
