@@ -9502,5 +9502,12 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "vilon-20mg",
     "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/"
+  },
+  {
+    "ts": "2026-09-12T02:21:01.367Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk"
   }
 ]
