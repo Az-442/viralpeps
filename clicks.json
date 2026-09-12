@@ -7607,5 +7607,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-12T02:14:48.729Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bpc-10mg/"
   }
 ]
