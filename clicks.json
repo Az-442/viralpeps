@@ -17656,5 +17656,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptideslabuk.com/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-12T04:01:32.229Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
   }
 ]
