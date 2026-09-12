@@ -7391,5 +7391,13 @@
     "vendorName": "Raccoon Peptides",
     "compoundSlug": "semaglutide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html"
+  },
+  {
+    "ts": "2026-09-12T02:13:44.807Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptx.co.uk/semaglutide"
   }
 ]
