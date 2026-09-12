@@ -18146,5 +18146,14 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-12T06:56:50.482Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-selank-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides"
   }
 ]
