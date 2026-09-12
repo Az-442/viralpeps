@@ -15601,5 +15601,13 @@
     "vendorSlug": "ascend-peptides",
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com"
+  },
+  {
+    "ts": "2026-09-12T02:40:31.215Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://ascendpeptidesuk.com/products/tesamorelin-10mg/"
   }
 ]
