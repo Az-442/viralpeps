@@ -17906,5 +17906,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "semax-the-peptide-company",
     "destUrl": "https://ukpeptidelab.co.uk/product/semax"
+  },
+  {
+    "ts": "2026-09-12T05:24:52.674Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/"
   }
 ]
