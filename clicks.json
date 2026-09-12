@@ -17664,5 +17664,13 @@
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
+  },
+  {
+    "ts": "2026-09-12T04:01:39.680Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/p10ml-bacteriostatic-water"
   }
 ]
