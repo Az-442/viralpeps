@@ -6323,5 +6323,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-12T00:10:53.829Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
   }
 ]
