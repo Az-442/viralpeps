@@ -6896,5 +6896,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://premiopeptides.co.uk/compounds/tesamorelin"
+  },
+  {
+    "ts": "2026-09-12T01:02:44.716Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://xlpeptides.com/product/tb-500-5mg/"
   }
 ]
