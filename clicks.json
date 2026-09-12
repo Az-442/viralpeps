@@ -12804,5 +12804,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.stratfordpeptides.com/products/5-amino-1mq"
+  },
+  {
+    "ts": "2026-09-12T02:31:35.436Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide"
   }
 ]
