@@ -7089,5 +7089,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://xlpeptides.com/product/semax-10mg/"
+  },
+  {
+    "ts": "2026-09-12T01:24:21.057Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://xlpeptides.com/product/bpc-157-5mg/"
   }
 ]
