@@ -18394,5 +18394,12 @@
     "vendorName": "Nupex",
     "compoundSlug": "kpv",
     "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk"
+  },
+  {
+    "ts": "2026-09-12T07:45:42.497Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com"
   }
 ]
