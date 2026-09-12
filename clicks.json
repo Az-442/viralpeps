@@ -15969,5 +15969,13 @@
     "vendorName": "Flex Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://www.flexpeptides.co.uk/products/selank-5mg"
+  },
+  {
+    "ts": "2026-09-12T02:41:35.585Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/kisspeptin-5mg"
   }
 ]
