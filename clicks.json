@@ -15356,5 +15356,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-tb500-10mg-pentadecape-beta-4"
+  },
+  {
+    "ts": "2026-09-12T02:39:48.092Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/"
   }
 ]
