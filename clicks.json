@@ -18226,5 +18226,13 @@
     "vendorName": "Tide Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://tidelabs.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-12T07:06:11.575Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/semax/"
   }
 ]
