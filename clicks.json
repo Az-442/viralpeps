@@ -19100,5 +19100,14 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "glow-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen"
+  },
+  {
+    "ts": "2026-09-12T10:53:17.951Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pepnova.uk/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pepnova"
   }
 ]
