@@ -7303,5 +7303,13 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/"
+  },
+  {
+    "ts": "2026-09-12T02:13:30.530Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
