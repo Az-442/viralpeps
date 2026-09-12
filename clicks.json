@@ -17841,5 +17841,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "klow",
     "destUrl": "https://reta-uk.com/products/klow"
+  },
+  {
+    "ts": "2026-09-12T04:50:19.717Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://tidelabs.co.uk/products/cjc-1295-with-dac"
   }
 ]
