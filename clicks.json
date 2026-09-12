@@ -10748,5 +10748,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.expresspeptides.co.uk/product/dsip/vial"
+  },
+  {
+    "ts": "2026-09-12T02:25:02.856Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.proformapeptides.co.uk/product/dsip-5mg/"
   }
 ]
