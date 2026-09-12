@@ -11700,5 +11700,13 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "mgf",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg"
+  },
+  {
+    "ts": "2026-09-12T02:28:06.118Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mgf",
+    "destUrl": "https://tidelabs.co.uk/products/mgf"
   }
 ]
