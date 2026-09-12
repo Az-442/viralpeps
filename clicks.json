@@ -6904,5 +6904,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://xlpeptides.com/product/tb-500-5mg/"
+  },
+  {
+    "ts": "2026-09-12T01:04:11.766Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://xlpeptides.com/product/klow-peptide-blend/"
   }
 ]
