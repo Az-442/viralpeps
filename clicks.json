@@ -7927,5 +7927,13 @@
     "vendorName": "Ascend Peptides UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://ascendpeptidesuk.com/products/tb-500/"
+  },
+  {
+    "ts": "2026-09-12T02:15:42.786Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://britpeptides.co.uk/product/tb-500/"
   }
 ]
