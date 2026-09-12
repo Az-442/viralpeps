@@ -10260,5 +10260,13 @@
     "vendorName": "LeoLab Peptides UK",
     "compoundSlug": "retatrutide",
     "destUrl": "https://leolab.co.uk/peptides/retatrutide/"
+  },
+  {
+    "ts": "2026-09-12T02:23:24.182Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/retatrutide-20mg/"
   }
 ]
