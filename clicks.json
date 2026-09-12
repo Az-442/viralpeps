@@ -8958,5 +8958,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "tesamorelin-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial"
+  },
+  {
+    "ts": "2026-09-12T02:19:13.227Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/vial"
   }
 ]
