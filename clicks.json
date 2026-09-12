@@ -17005,5 +17005,12 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "glp-transformation-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/"
+  },
+  {
+    "ts": "2026-09-12T02:44:38.702Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "destUrl": "https://thepeptidecode.co.uk"
   }
 ]
