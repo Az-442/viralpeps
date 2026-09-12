@@ -16331,5 +16331,12 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "semax",
     "destUrl": "https://www.peptidesonline.uk/shop/semax/"
+  },
+  {
+    "ts": "2026-09-12T02:42:40.977Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "destUrl": "https://peptidesuk.com"
   }
 ]
