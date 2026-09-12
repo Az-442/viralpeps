@@ -18409,5 +18409,13 @@
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com",
     "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides"
+  },
+  {
+    "ts": "2026-09-12T07:47:45.015Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
