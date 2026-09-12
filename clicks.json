@@ -16641,5 +16641,13 @@
     "vendorSlug": "reta-uk",
     "vendorName": "RETA UK",
     "destUrl": "https://reta-uk.com"
+  },
+  {
+    "ts": "2026-09-12T02:43:35.623Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax"
   }
 ]
