@@ -13716,5 +13716,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "vip",
     "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen"
+  },
+  {
+    "ts": "2026-09-12T02:34:30.262Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://peptideslabuk.com/product/vip/"
   }
 ]
