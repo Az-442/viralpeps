@@ -16386,5 +16386,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.peptifyuk.com/product/tesamorelin-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:42:50.593Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.peptifyuk.com/product/selank-10mg"
   }
 ]
