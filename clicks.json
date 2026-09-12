@@ -18720,5 +18720,13 @@
     "vendorSlug": "apex-pharma",
     "vendorName": "Apex Pharma",
     "destUrl": "https://www.apex-pharma.co.uk"
+  },
+  {
+    "ts": "2026-09-12T08:56:06.274Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://supplypeptides.co.uk/products/selank"
   }
 ]
