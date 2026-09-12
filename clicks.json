@@ -15540,5 +15540,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "pt-141",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/pt-141-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:40:20.126Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://helixcore.co.uk/products/pt-141"
   }
 ]
