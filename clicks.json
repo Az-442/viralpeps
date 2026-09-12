@@ -7367,5 +7367,13 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-12T02:13:40.930Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.peptidesx.uk/product/semaglutide/"
   }
 ]
