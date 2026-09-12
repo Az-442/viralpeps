@@ -17599,5 +17599,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptideslabuk.com/product/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-12T03:45:33.253Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://helixcore.co.uk/products/tesamorelin"
   }
 ]
