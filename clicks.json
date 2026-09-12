@@ -19503,5 +19503,15 @@
     "vendorSlug": "applied-peptides",
     "vendorName": "Applied Peptides",
     "destUrl": "https://appliedpeptides.com"
+  },
+  {
+    "ts": "2026-09-12T13:46:30.264Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://helixcore.co.uk/products/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "99f965fe46a36817"
   }
 ]
