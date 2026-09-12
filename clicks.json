@@ -11484,5 +11484,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.peptidesonline.uk/shop/ghrp-6/"
+  },
+  {
+    "ts": "2026-09-12T02:27:24.398Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://helixcore.co.uk/products/ghrp-6"
   }
 ]
