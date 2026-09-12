@@ -17614,5 +17614,13 @@
     "vendorSlug": "uk-peptide-lab",
     "vendorName": "UK Peptide Lab",
     "destUrl": "https://ukpeptidelab.co.uk"
+  },
+  {
+    "ts": "2026-09-12T03:47:55.625Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/"
   }
 ]
