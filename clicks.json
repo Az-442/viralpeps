@@ -8311,5 +8311,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial"
+  },
+  {
+    "ts": "2026-09-12T02:17:04.228Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://chromapeptides.co.uk/product/mots-c/"
   }
 ]
