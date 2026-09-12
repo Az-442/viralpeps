@@ -10884,5 +10884,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "l-carnitine",
     "destUrl": "https://ukpeptidelab.co.uk/product/l-carnitine"
+  },
+  {
+    "ts": "2026-09-12T02:25:29.067Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bluewellpeptides.com/product/fftp-adipotide-5mg-peptide/"
   }
 ]
