@@ -18336,5 +18336,14 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://bluewellpeptides.com/product/thymosin-alpha-1-10mg-peptide/"
+  },
+  {
+    "ts": "2026-09-12T07:29:03.952Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/research-peptides-uk-main"
   }
 ]
