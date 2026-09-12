@@ -6742,5 +6742,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
+  },
+  {
+    "ts": "2026-09-12T00:45:27.166Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://my-peptides.co.uk/products/ipamorelin"
   }
 ]
