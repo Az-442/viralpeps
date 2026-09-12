@@ -7335,5 +7335,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:13:35.708Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://precision-peptides.shop/product/glp-2-tirz-15mg/"
   }
 ]
