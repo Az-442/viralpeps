@@ -11732,5 +11732,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "testagen",
     "destUrl": "https://www.buyreta.co.uk/product/testagen-uk"
+  },
+  {
+    "ts": "2026-09-12T02:28:11.495Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg"
   }
 ]
