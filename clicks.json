@@ -12532,5 +12532,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500"
+  },
+  {
+    "ts": "2026-09-12T02:30:42.720Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.novapeptide.co.uk/product/nad/"
   }
 ]
