@@ -18615,5 +18615,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "glutathione",
     "destUrl": "https://peptideslabuk.com/product/glutathione/"
+  },
+  {
+    "ts": "2026-09-12T08:32:34.521Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "sermorelin-grf-1-29-5mg",
+    "destUrl": "https://tidelabs.co.uk/products/sermorelin-grf-1-29-5mg"
   }
 ]
