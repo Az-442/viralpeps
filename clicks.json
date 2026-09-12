@@ -13292,5 +13292,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:33:07.014Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.stratfordpeptides.com/products/kpv"
   }
 ]
