@@ -16158,5 +16158,13 @@
     "vendorSlug": "my-peptides",
     "vendorName": "My Peptides",
     "destUrl": "https://my-peptides.co.uk"
+  },
+  {
+    "ts": "2026-09-12T02:42:09.346Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://my-peptides.co.uk/products/tesamorelin"
   }
 ]
