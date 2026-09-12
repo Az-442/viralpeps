@@ -15380,5 +15380,13 @@
     "vendorName": "Applied Peptides",
     "compoundSlug": "cagrilintide",
     "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg"
+  },
+  {
+    "ts": "2026-09-12T02:39:52.223Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://mypepbiotech.co.uk/product/cagrilintide/"
   }
 ]
