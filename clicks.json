@@ -11228,5 +11228,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/vial"
+  },
+  {
+    "ts": "2026-09-12T02:26:34.794Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2"
   }
 ]
