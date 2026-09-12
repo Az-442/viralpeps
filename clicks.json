@@ -7106,5 +7106,12 @@
     "compoundSlug": "dsip",
     "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/",
     "refPage": "https://www.viralpeps.co.uk/vendors/mypep-biotech"
+  },
+  {
+    "ts": "2026-09-12T01:25:47.595Z",
+    "type": "vendor-site",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "destUrl": "https://xlpeptides.com"
   }
 ]
