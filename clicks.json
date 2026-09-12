@@ -12588,5 +12588,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://reta-uk.com/products/nad"
+  },
+  {
+    "ts": "2026-09-12T02:30:52.544Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/nad-plus/"
   }
 ]
