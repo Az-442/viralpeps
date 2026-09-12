@@ -12484,5 +12484,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
+  },
+  {
+    "ts": "2026-09-12T02:30:32.620Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/nad-500mg"
   }
 ]
