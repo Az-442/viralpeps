@@ -17297,5 +17297,12 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://xlpeptides.com/product/cjc-1295-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:45:28.806Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com"
   }
 ]
