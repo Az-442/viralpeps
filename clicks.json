@@ -6750,5 +6750,14 @@
     "vendorName": "My Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://my-peptides.co.uk/products/ipamorelin"
+  },
+  {
+    "ts": "2026-09-12T00:46:37.376Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/mypep-biotech"
   }
 ]
