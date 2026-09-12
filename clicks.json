@@ -7189,5 +7189,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://britpeptides.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-12T01:54:40.241Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank",
+    "destUrl": "https://alphamino.co.uk/shop/selank/"
   }
 ]
