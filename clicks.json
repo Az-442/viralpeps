@@ -19117,5 +19117,13 @@
     "vendorName": "Midshire Labs",
     "compoundSlug": "kpv",
     "destUrl": "https://midshirelabs.co.uk/products/kpv/"
+  },
+  {
+    "ts": "2026-09-12T10:56:17.195Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://pgnalabs.co.uk/product/nad"
   }
 ]
