@@ -17889,5 +17889,14 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "adipotide",
     "destUrl": "https://peptideslabuk.com/product/adipotide/"
+  },
+  {
+    "ts": "2026-09-12T05:20:09.964Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://ukpeptides.com/catalog/cjc-1295",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295"
   }
 ]
