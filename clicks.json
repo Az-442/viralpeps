@@ -13724,5 +13724,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "vip",
     "destUrl": "https://peptideslabuk.com/product/vip/"
+  },
+  {
+    "ts": "2026-09-12T02:34:31.615Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cartalax-10mg-aed-peptide-bioregulator"
   }
 ]
