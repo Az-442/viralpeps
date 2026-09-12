@@ -17801,5 +17801,13 @@
     "vendorSlug": "op-labs",
     "vendorName": "OP Labs",
     "destUrl": "https://oplabs.co.uk"
+  },
+  {
+    "ts": "2026-09-12T04:44:57.771Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "glow",
+    "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/"
   }
 ]
