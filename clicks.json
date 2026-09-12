@@ -13252,5 +13252,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "kpv",
     "destUrl": "https://pgnalabs.co.uk/product/kpv"
+  },
+  {
+    "ts": "2026-09-12T02:33:00.320Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "kpv",
+    "destUrl": "https://mypepbiotech.co.uk/product/kpv-10mg/"
   }
 ]
