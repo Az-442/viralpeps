@@ -14524,5 +14524,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://rawpeptides.co.uk/product/bpc157-10mg-tb500-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:37:13.269Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/44-klow-blend-80mg.html"
   }
 ]
