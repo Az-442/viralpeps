@@ -18417,5 +18417,14 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-12T07:50:33.296Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/91-vip-10mg.html",
+    "refPage": "https://viralpeps.co.uk/compounds/vip"
   }
 ]
