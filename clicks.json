@@ -13420,5 +13420,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "kpv",
     "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:33:34.019Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://chromapeptides.co.uk/product/kpv/"
   }
 ]
