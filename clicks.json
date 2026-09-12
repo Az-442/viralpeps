@@ -18666,5 +18666,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "selank",
     "destUrl": "https://pgnalabs.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-12T08:47:20.815Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://oplabs.co.uk/product/ghk-cu-50mg/"
   }
 ]
