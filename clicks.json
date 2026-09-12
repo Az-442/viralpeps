@@ -7815,5 +7815,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4"
+  },
+  {
+    "ts": "2026-09-12T02:15:24.025Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ukpeptidelab.co.uk/product/tb-500"
   }
 ]
