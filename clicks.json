@@ -18163,5 +18163,13 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
+  },
+  {
+    "ts": "2026-09-12T06:57:16.829Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptideslabuk.com/product/5-amino-1mq/"
   }
 ]
