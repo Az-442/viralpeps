@@ -8854,5 +8854,13 @@
     "vendorSlug": "express-peptides",
     "vendorName": "Express Peptides",
     "destUrl": "https://www.expresspeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-12T02:18:55.662Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial"
   }
 ]
