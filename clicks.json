@@ -15516,5 +15516,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "melanotan-i",
     "destUrl": "https://bioplexpeptides.co.uk/products/melanotan-1-10mg-afamelanotide"
+  },
+  {
+    "ts": "2026-09-12T02:40:16.110Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
