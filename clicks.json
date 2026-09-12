@@ -7735,5 +7735,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://premiopeptides.co.uk/compounds/bpc-157"
+  },
+  {
+    "ts": "2026-09-12T02:15:09.364Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-2mg-thymosin-beta"
   }
 ]
