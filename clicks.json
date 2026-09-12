@@ -18977,5 +18977,11 @@
     "vendorName": "Research Peptides",
     "compoundSlug": "ghrp-6",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg"
+  },
+  {
+    "ts": "2026-09-12T10:15:38.127Z",
+    "type": "product",
+    "vendorSlug": "test",
+    "compoundSlug": "t"
   }
 ]
