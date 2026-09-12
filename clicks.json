@@ -8471,5 +8471,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.peptifyuk.com/product/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:17:32.778Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.flexpeptides.co.uk/products/mots-c-20mg"
   }
 ]
