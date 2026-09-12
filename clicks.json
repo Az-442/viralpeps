@@ -6420,5 +6420,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-12T00:23:50.767Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ghk-cu-100mg/"
   }
 ]
