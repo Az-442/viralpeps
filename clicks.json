@@ -14356,5 +14356,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "hcg",
     "destUrl": "https://peptideslabuk.com/product/hcg/"
+  },
+  {
+    "ts": "2026-09-12T02:36:20.291Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "oxytocin-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/oxytocin-nasal-spray"
   }
 ]
