@@ -12220,5 +12220,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "glow",
     "destUrl": "https://supplypeptides.co.uk/products/glow"
+  },
+  {
+    "ts": "2026-09-12T02:29:40.329Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-glow-70mg-research-only-peptide-for-laboratory-use-only-coa-for-all-ingredients/"
   }
 ]
