@@ -6815,5 +6815,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://my-peptides.co.uk/products/bpc-157"
+  },
+  {
+    "ts": "2026-09-12T00:54:22.497Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidesonline.uk/shop/ghk-cu/"
   }
 ]
