@@ -15679,5 +15679,12 @@
     "vendorName": "Bio Pulse Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:40:44.855Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk"
   }
 ]
