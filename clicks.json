@@ -12948,5 +12948,13 @@
     "vendorName": "Anglo Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://anglopeptides.com/product/aicar-50mg/"
+  },
+  {
+    "ts": "2026-09-12T02:32:01.874Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bluewellpeptides.com/product/aicar-50mg-peptide/"
   }
 ]
