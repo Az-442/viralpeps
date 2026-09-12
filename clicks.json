@@ -11148,5 +11148,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://supplypeptides.co.uk/products/ss-31"
+  },
+  {
+    "ts": "2026-09-12T02:26:17.809Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/"
   }
 ]
