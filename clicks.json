@@ -18450,5 +18450,12 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.prime-peptides.co.uk/product/retatrutide/"
+  },
+  {
+    "ts": "2026-09-12T07:59:32.447Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com"
   }
 ]
