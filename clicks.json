@@ -12300,5 +12300,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "glow",
     "destUrl": "https://www.prime-peptides.co.uk/product/glow-blend/"
+  },
+  {
+    "ts": "2026-09-12T02:29:57.825Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://chromapeptides.co.uk/product/glow/"
   }
 ]
