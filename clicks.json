@@ -12124,5 +12124,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "ara-290",
     "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide"
+  },
+  {
+    "ts": "2026-09-12T02:29:23.929Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/"
   }
 ]
