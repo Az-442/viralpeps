@@ -10356,5 +10356,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://purepeptidesuk.com/product/modified-grf-1-29-2mg/"
+  },
+  {
+    "ts": "2026-09-12T02:23:43.396Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial"
   }
 ]
