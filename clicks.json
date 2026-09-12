@@ -10388,5 +10388,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/"
+  },
+  {
+    "ts": "2026-09-12T02:23:50.019Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://britpeptides.co.uk/product/cjc-1295-without-dac/"
   }
 ]
