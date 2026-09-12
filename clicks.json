@@ -16997,5 +16997,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "metabolic-stack-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/"
+  },
+  {
+    "ts": "2026-09-12T02:44:37.413Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "glp-transformation-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/"
   }
 ]
