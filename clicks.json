@@ -8847,5 +8847,12 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "ipamorelin",
     "destUrl": "https://premiopeptides.co.uk/compounds/ipamorelin"
+  },
+  {
+    "ts": "2026-09-12T02:18:54.417Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk"
   }
 ]
