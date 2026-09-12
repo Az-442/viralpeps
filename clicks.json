@@ -16198,5 +16198,12 @@
     "vendorName": "Nova Peptide",
     "compoundSlug": "semax",
     "destUrl": "https://www.novapeptide.co.uk/product/semax/"
+  },
+  {
+    "ts": "2026-09-12T02:42:16.458Z",
+    "type": "vendor-site",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "destUrl": "https://octagonpeptides.co.uk"
   }
 ]
