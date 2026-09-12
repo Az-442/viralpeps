@@ -16316,5 +16316,12 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "sterling-cagrilintide-5mg",
     "destUrl": "https://peptideslabuk.com"
+  },
+  {
+    "ts": "2026-09-12T02:42:38.226Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "destUrl": "https://www.peptidesonline.uk"
   }
 ]
