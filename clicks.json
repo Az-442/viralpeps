@@ -17509,5 +17509,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "mots-c-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-12T03:21:55.716Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
   }
 ]
