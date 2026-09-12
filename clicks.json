@@ -15718,5 +15718,12 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "kisspeptin",
     "destUrl": "https://biohackpeptides.co.uk/product/kisspeptin-peptide-5mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-12T02:40:51.336Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com"
   }
 ]
