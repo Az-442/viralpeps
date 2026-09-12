@@ -10820,5 +10820,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "dsip",
     "destUrl": "https://biopeptides-uk.com/product/dsip-15mg/"
+  },
+  {
+    "ts": "2026-09-12T02:25:18.388Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptidelabuk.co.uk/product/dsip-10mg-nasal-spray/"
   }
 ]
