@@ -6355,5 +6355,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.testedpeptides.co.uk/product/kissptin-10-10mg/"
+  },
+  {
+    "ts": "2026-09-12T00:16:38.580Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.testedpeptides.co.uk/product/bacteriostatic-bac-water-10ml/"
   }
 ]
