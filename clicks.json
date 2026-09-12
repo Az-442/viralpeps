@@ -16001,5 +16001,12 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/cjc-1295-no-dac-5mg"
+  },
+  {
+    "ts": "2026-09-12T02:41:42.256Z",
+    "type": "vendor-site",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "destUrl": "https://www.imperialpeptides.co.uk"
   }
 ]
