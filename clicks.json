@@ -7655,5 +7655,13 @@
     "vendorName": "Polygon Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://polygonpeptides.co.uk/product/bpc-157-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:14:56.384Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape"
   }
 ]
