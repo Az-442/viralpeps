@@ -16261,5 +16261,12 @@
     "vendorName": "OL Research",
     "compoundSlug": "selank",
     "destUrl": "https://olresearch.co.uk/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:42:27.015Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com"
   }
 ]
