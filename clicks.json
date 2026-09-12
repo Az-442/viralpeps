@@ -10060,5 +10060,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "ipamorelin-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ipamorelin-5mg-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:22:48.827Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "aicar-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/aicar/"
   }
 ]
