@@ -16103,5 +16103,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "selank",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/selank-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:41:59.881Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/peg-mgf-2mg/"
   }
 ]
