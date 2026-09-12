@@ -7847,5 +7847,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.peptifyuk.com/product/tb-500-5mg"
+  },
+  {
+    "ts": "2026-09-12T02:15:29.311Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/tb-500/"
   }
 ]
