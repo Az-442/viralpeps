@@ -11428,5 +11428,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "hexarelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial"
+  },
+  {
+    "ts": "2026-09-12T02:27:12.893Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://tidelabs.co.uk/products/hexarelin-5mg"
   }
 ]
