@@ -18753,5 +18753,14 @@
     "vendorName": "PeptideLabUK",
     "compoundSlug": "oxytocin",
     "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/"
+  },
+  {
+    "ts": "2026-09-12T09:04:04.040Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://researchpeptide.co.uk/product/gdf-8/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/gdf-8"
   }
 ]
