@@ -16618,5 +16618,13 @@
     "vendorSlug": "raw-peptides",
     "vendorName": "Raw Peptides",
     "destUrl": "https://rawpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-12T02:43:31.659Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg"
   }
 ]
