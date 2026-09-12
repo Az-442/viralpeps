@@ -6783,5 +6783,13 @@
     "vendorName": "Peptides UK",
     "compoundSlug": "selank",
     "destUrl": "https://peptidesuk.com/selank/"
+  },
+  {
+    "ts": "2026-09-12T00:49:47.210Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://my-peptides.co.uk/products/tesamorelin"
   }
 ]
