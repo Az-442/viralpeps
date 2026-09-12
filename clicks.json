@@ -14924,5 +14924,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "selank-semax-blend",
     "destUrl": "https://www.peptifyuk.com/product/selank-semax-blend-20mg"
+  },
+  {
+    "ts": "2026-09-12T02:38:29.192Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://kensingtonlabs.co.uk/product/dermorphin-5mg/"
   }
 ]
