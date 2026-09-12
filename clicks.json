@@ -9996,5 +9996,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "nad-250mg",
     "destUrl": "https://researchpeptide.co.uk/product/nad-250mg/"
+  },
+  {
+    "ts": "2026-09-12T02:22:37.110Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "myostatin-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/myostatin-1mg/"
   }
 ]
