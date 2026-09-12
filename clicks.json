@@ -10932,5 +10932,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "liraglutide",
     "destUrl": "https://mypepbiotech.co.uk/product/liraglutide-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:25:36.831Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://reta-uk.com/products/eloralintide"
   }
 ]
