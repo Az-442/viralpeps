@@ -17704,5 +17704,13 @@
     "vendorName": "Brit Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://britpeptides.co.uk/product/bacteriostatic-water/"
+  },
+  {
+    "ts": "2026-09-12T04:19:22.740Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://my-peptides.co.uk/products/ipamorelin"
   }
 ]
