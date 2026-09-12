@@ -17680,5 +17680,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://purepeptidesuk.com/product/mots-c-5mg/"
+  },
+  {
+    "ts": "2026-09-12T04:10:18.001Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://xlpeptides.com/product/bacteriostatic-water-10ml/"
   }
 ]
