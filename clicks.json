@@ -16166,5 +16166,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://my-peptides.co.uk/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-12T02:42:10.773Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/tesamorelin"
   }
 ]
