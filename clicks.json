@@ -6888,5 +6888,13 @@
     "vendorName": "Chroma Peptides",
     "destUrl": "https://chromapeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides"
+  },
+  {
+    "ts": "2026-09-12T01:02:30.277Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://premiopeptides.co.uk/compounds/tesamorelin"
   }
 ]
