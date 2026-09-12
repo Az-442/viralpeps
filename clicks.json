@@ -16721,5 +16721,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-tirzepatide-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:43:49.024Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-5mg/"
   }
 ]
