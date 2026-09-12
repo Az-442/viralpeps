@@ -18442,5 +18442,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://biohackpeptides.co.uk/product/mots-c-10mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-12T07:58:09.499Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/retatrutide/"
   }
 ]
