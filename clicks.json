@@ -18073,5 +18073,12 @@
     "vendorSlug": "peptidesx",
     "vendorName": "PeptidesX",
     "destUrl": "https://www.peptidesx.uk"
+  },
+  {
+    "ts": "2026-09-12T06:20:27.563Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com"
   }
 ]
