@@ -6275,5 +6275,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.testedpeptides.co.uk/product/5-amino-1mq-10-mg-research-peptide/"
+  },
+  {
+    "ts": "2026-09-12T00:05:07.277Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ipamorelin-5-mg/"
   }
 ]
