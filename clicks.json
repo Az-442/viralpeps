@@ -11156,5 +11156,13 @@
     "vendorName": "Bio Peptides UK",
     "compoundSlug": "ss-31",
     "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/"
+  },
+  {
+    "ts": "2026-09-12T02:26:19.048Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/"
   }
 ]
