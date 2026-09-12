@@ -6315,5 +6315,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "glutathione",
     "destUrl": "https://www.testedpeptides.co.uk/product/l-glutathione-600mg/"
+  },
+  {
+    "ts": "2026-09-12T00:09:27.805Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.testedpeptides.co.uk/product/bpc-157-10mg/"
   }
 ]
