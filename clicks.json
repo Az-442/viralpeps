@@ -16457,5 +16457,12 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "selank",
     "destUrl": "https://pgnalabs.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-12T02:43:02.598Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk"
   }
 ]
