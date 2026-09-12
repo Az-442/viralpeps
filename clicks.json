@@ -16048,5 +16048,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "semax-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg"
+  },
+  {
+    "ts": "2026-09-12T02:41:50.528Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "mots-c-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg"
   }
 ]
