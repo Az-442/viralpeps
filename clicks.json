@@ -10692,5 +10692,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesonline.uk/shop/dsip/"
+  },
+  {
+    "ts": "2026-09-12T02:24:53.488Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "dsip",
+    "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/"
   }
 ]
