@@ -6331,5 +6331,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-12T00:12:23.248Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.testedpeptides.co.uk/product/tb-500-10mg/"
   }
 ]
