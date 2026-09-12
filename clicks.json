@@ -6767,5 +6767,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://my-peptides.co.uk/products/tb-500"
+  },
+  {
+    "ts": "2026-09-12T00:48:20.292Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://my-peptides.co.uk/products/ghk-cu"
   }
 ]
