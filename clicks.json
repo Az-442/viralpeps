@@ -10740,5 +10740,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://xlpeptides.com/product/dsip/"
+  },
+  {
+    "ts": "2026-09-12T02:25:01.518Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/dsip/vial"
   }
 ]
