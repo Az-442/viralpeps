@@ -8263,5 +8263,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://my-peptides.co.uk/products/ghk-cu"
+  },
+  {
+    "ts": "2026-09-12T02:16:52.784Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://thepeptidecode.co.uk/products/mots-c-10mg"
   }
 ]
