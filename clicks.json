@@ -8295,5 +8295,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://biohackpeptides.co.uk/product/mots-c-10mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-12T02:16:59.936Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://precision-peptides.shop/product/mot-c-10mg/"
   }
 ]
