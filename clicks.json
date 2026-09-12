@@ -17289,5 +17289,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://xlpeptides.com/product/selank-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:45:27.562Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://xlpeptides.com/product/cjc-1295-5mg/"
   }
 ]
