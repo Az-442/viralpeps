@@ -9869,5 +9869,12 @@
     "vendorName": "Alphamino",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://alphamino.co.uk/shop/bpc/"
+  },
+  {
+    "ts": "2026-09-12T02:22:08.175Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk"
   }
 ]
