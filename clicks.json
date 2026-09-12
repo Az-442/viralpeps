@@ -10844,5 +10844,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "mazdutide",
     "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362"
+  },
+  {
+    "ts": "2026-09-12T02:25:22.375Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/mazdutide-10mg-vial/"
   }
 ]
