@@ -17249,5 +17249,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray"
+  },
+  {
+    "ts": "2026-09-12T02:45:20.439Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://ukpeptides.com/catalog/oxytocin"
   }
 ]
