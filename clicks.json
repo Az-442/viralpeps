@@ -14316,5 +14316,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://ukpeptides.com/catalog/kisspeptin"
+  },
+  {
+    "ts": "2026-09-12T02:36:13.136Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://ukpeptides.com/catalog/hcg"
   }
 ]
