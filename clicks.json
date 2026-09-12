@@ -12556,5 +12556,13 @@
     "vendorName": "Prime Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.prime-peptides.co.uk/product/nad-plus/"
+  },
+  {
+    "ts": "2026-09-12T02:30:46.869Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://midshirelabs.co.uk/products/nad/"
   }
 ]
