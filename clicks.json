@@ -12476,5 +12476,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
+  },
+  {
+    "ts": "2026-09-12T02:30:31.195Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/"
   }
 ]
