@@ -10980,5 +10980,13 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ss-31",
     "destUrl": "https://xlpeptides.com/product/ss-31-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:25:46.906Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
