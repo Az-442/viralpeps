@@ -15954,5 +15954,12 @@
     "vendorName": "Eva Peptide UK",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://evapeptide.co.uk/product/buy-cjc-1295-no-dac-uk/"
+  },
+  {
+    "ts": "2026-09-12T02:41:32.801Z",
+    "type": "vendor-site",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "destUrl": "https://www.flexpeptides.co.uk"
   }
 ]
