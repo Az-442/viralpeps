@@ -6856,5 +6856,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/"
+  },
+  {
+    "ts": "2026-09-12T01:01:43.536Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://britpeptides.co.uk/product/bpc-157/"
   }
 ]
