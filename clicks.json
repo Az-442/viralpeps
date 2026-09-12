@@ -7351,5 +7351,13 @@
     "vendorName": "Momentum Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://momentumpeptides.com/product/tirzepatide/"
+  },
+  {
+    "ts": "2026-09-12T02:13:38.307Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/"
   }
 ]
