@@ -16888,5 +16888,12 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:44:18.057Z",
+    "type": "vendor-site",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "destUrl": "https://supplypeptides.co.uk"
   }
 ]
