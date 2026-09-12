@@ -19141,5 +19141,13 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "nad-research-peptide",
     "destUrl": "https://ukpeptidelab.co.uk/product/nad-plus"
+  },
+  {
+    "ts": "2026-09-12T11:04:00.926Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg"
   }
 ]
