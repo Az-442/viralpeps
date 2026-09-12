@@ -14140,5 +14140,13 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://supplypeptides.co.uk/products/pt-141"
+  },
+  {
+    "ts": "2026-09-12T02:35:42.943Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.novapeptide.co.uk/product/pt-141-vial/"
   }
 ]
