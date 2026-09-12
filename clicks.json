@@ -18457,5 +18457,14 @@
     "vendorSlug": "anglo-peptides",
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com"
+  },
+  {
+    "ts": "2026-09-12T08:01:18.828Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://purepeptidesuk.com/product/snap-8-10mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/snap-8"
   }
 ]
