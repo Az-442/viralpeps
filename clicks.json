@@ -16449,5 +16449,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "semax",
     "destUrl": "https://pgnalabs.co.uk/product/semax"
+  },
+  {
+    "ts": "2026-09-12T02:43:01.266Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://pgnalabs.co.uk/product/selank"
   }
 ]
