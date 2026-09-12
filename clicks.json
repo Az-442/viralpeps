@@ -12116,5 +12116,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://premiopeptides.co.uk/compounds/epithalon"
+  },
+  {
+    "ts": "2026-09-12T02:29:22.620Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ara-290-10mg-cibinetide"
   }
 ]
