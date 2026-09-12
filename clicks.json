@@ -7197,5 +7197,14 @@
     "vendorName": "Alphamino",
     "compoundSlug": "selank",
     "destUrl": "https://alphamino.co.uk/shop/selank/"
+  },
+  {
+    "ts": "2026-09-12T01:54:56.095Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500",
+    "refPage": "https://viralpeps.co.uk/compounds/tb-500"
   }
 ]
