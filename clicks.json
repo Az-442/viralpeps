@@ -16511,5 +16511,12 @@
     "vendorName": "Precision Peptides",
     "compoundSlug": "thymalin-10mg",
     "destUrl": "https://precision-peptides.shop/product/thymalin-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:43:12.064Z",
+    "type": "vendor-site",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "destUrl": "https://premiopeptides.co.uk"
   }
 ]
