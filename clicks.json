@@ -17525,5 +17525,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "selank",
     "destUrl": "https://ukpeptidelab.co.uk/product/selank"
+  },
+  {
+    "ts": "2026-09-12T03:28:04.286Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://midshirelabs.co.uk/products/glow50/",
+    "refPage": "https://viralpeps.co.uk/vendors/midshire-labs"
   }
 ]
