@@ -7025,5 +7025,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
+  },
+  {
+    "ts": "2026-09-12T01:18:39.762Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/"
   }
 ]
