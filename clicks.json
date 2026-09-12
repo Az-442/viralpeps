@@ -14540,5 +14540,13 @@
     "vendorName": "RETA UK",
     "compoundSlug": "klow",
     "destUrl": "https://reta-uk.com/products/klow"
+  },
+  {
+    "ts": "2026-09-12T02:37:19.453Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://supplypeptides.co.uk/products/klow"
   }
 ]
