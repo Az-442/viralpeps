@@ -17980,5 +17980,14 @@
     "vendorName": "SupplyPeptides",
     "compoundSlug": "bpc-157-tb-500",
     "destUrl": "https://supplypeptides.co.uk/products/bpc-157-tb-500-mix"
+  },
+  {
+    "ts": "2026-09-12T05:45:04.478Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-2-10mg",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/ghrp-2-10mg"
   }
 ]
