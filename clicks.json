@@ -16957,5 +16957,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "ipamorelin-10mg-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:44:30.726Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semaglutide-20mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semaglutide-20mg/"
   }
 ]
