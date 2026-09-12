@@ -3541,5 +3541,56 @@
       },
       "checkedAt": "2026-09-11T00:44:22.505Z"
     }
+  },
+  {
+    "id": "peptide-pal",
+    "name": "Peptide Pal",
+    "slug": "peptide-pal",
+    "website": "https://www.peptidepal.co.uk",
+    "rating": 4,
+    "verified": false,
+    "founded": 2026,
+    "country": "UK",
+    "description": "UK-based research peptide supplier operating a research-gated (18+) storefront with a full research-use-only policy. Every compound is stated as independently tested to 99%+ purity by accredited third-party laboratories, verified by HPLC and mass spectrometry on every batch rather than self-reported, with batch documentation included in each shipment. The catalogue covers 14 research compounds — BPC-157 + TB-500, CJC-1295 + Ipamorelin, GHK-Cu, GLOW, KLOW, MOTS-c, NAD+, Tesamorelin, Selank, Semax, MT1, MT2, Glutathione and Bacteriostatic Water. Orders dispatch from within the UK in 1–2 business days (same/next business day for orders placed before 2pm), sent tracked and insured in plain, unbranded outer packaging with no reference to contents. Compounds are supplied as lyophilised powder in sealed sterile vials and are sold strictly for laboratory and in-vitro research only — not for human consumption, medical use or self-administration. A free reconstitution calculator and an independent research/studies library are also provided.",
+    "highlights": [
+      "Every batch independently third-party tested to 99%+ purity (HPLC & mass spectrometry)",
+      "Research-gated storefront (18+) with a strict research-use-only policy",
+      "14 research compounds including BPC-157 + TB-500, CJC-1295 + Ipamorelin, GHK-Cu and GLOW",
+      "UK-based dispatch within 1–2 business days (before 2pm typically same/next day)",
+      "Tracked and insured UK delivery in plain, unbranded outer packaging",
+      "Free peptide reconstitution calculator and peer-reviewed research library",
+      "1 business day support response from a compound-literate team"
+    ],
+    "shipping": [
+      "UK addresses (dispatched from within the UK)",
+      "Dispatch within 1–2 business days; orders before 2pm UK time typically same/next business day",
+      "Tracked UK delivery, typically 1–3 business days after dispatch",
+      "All parcels tracked and insured in transit; tracking emailed on dispatch",
+      "Plain, unbranded outer packaging with no reference to contents",
+      "Selected international destinations available (tracked, 5–14 business days)"
+    ],
+    "payment": [
+      "Card (Visa / Mastercard via secure checkout)",
+      "PayPal"
+    ],
+    "lastTested": "",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-12T00:33:59.376Z"
+    }
   }
 ]
