@@ -7399,5 +7399,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "semaglutide",
     "destUrl": "https://peptx.co.uk/semaglutide"
+  },
+  {
+    "ts": "2026-09-12T02:13:46.269Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://cmsrlabs.co/product/semaglutide-10mg/"
   }
 ]
