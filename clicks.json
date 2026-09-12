@@ -15524,5 +15524,13 @@
     "vendorName": "PeptX",
     "compoundSlug": "pt-141",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-12T02:40:17.532Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://ukpeptidelab.co.uk/product/pt-141"
   }
 ]
