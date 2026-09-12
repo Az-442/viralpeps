@@ -6718,5 +6718,14 @@
     "vendorName": "My Peptides",
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://my-peptides.co.uk/products/pt-141"
+  },
+  {
+    "ts": "2026-09-12T00:43:52.407Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "kpv-10mg",
+    "destUrl": "https://researchpeptide.co.uk/product/kpv/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/kpv-10mg"
   }
 ]
