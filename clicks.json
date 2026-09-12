@@ -16441,5 +16441,13 @@
     "vendorName": "PGNA Labs",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://pgnalabs.co.uk/product/tesamorelin"
+  },
+  {
+    "ts": "2026-09-12T02:42:59.978Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://pgnalabs.co.uk/product/semax"
   }
 ]
