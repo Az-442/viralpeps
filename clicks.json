@@ -6363,5 +6363,14 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.testedpeptides.co.uk/product/bacteriostatic-bac-water-10ml/"
+  },
+  {
+    "ts": "2026-09-12T00:17:01.525Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "semax-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/semax/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/semax-research-peptides-uk"
   }
 ]
