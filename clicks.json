@@ -17696,5 +17696,13 @@
     "vendorName": "Premio Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://premiopeptides.co.uk/compounds/mots-c"
+  },
+  {
+    "ts": "2026-09-12T04:15:20.424Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://britpeptides.co.uk/product/bacteriostatic-water/"
   }
 ]
