@@ -18713,5 +18713,12 @@
     "vendorSlug": "imperial-peptides",
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk"
+  },
+  {
+    "ts": "2026-09-12T08:55:57.730Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk"
   }
 ]
