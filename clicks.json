@@ -14804,5 +14804,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "gdf-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8"
+  },
+  {
+    "ts": "2026-09-12T02:38:08.439Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/"
   }
 ]
