@@ -19157,5 +19157,14 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "kpv-5mg",
     "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/"
+  },
+  {
+    "ts": "2026-09-12T11:12:00.824Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymosin-alpha-1-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/thymosin-alpha-1/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/thymosin-alpha-1-research-peptides-uk"
   }
 ]
