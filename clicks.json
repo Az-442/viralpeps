@@ -15900,5 +15900,12 @@
     "vendorName": "Crown Peptides",
     "compoundSlug": "semax",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/semax/"
+  },
+  {
+    "ts": "2026-09-12T02:41:22.996Z",
+    "type": "vendor-site",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "destUrl": "https://drpresearch.co.uk"
   }
 ]
