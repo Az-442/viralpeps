@@ -10484,5 +10484,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.stratfordpeptides.com/products/no-product"
+  },
+  {
+    "ts": "2026-09-12T02:24:08.093Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://lab77peptides.co.uk/collections"
   }
 ]
