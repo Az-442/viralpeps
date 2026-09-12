@@ -6251,5 +6251,13 @@
     "vendorName": "Research Peptides UK",
     "compoundSlug": "tesamorelin-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/tesamorelin/"
+  },
+  {
+    "ts": "2026-09-12T00:02:14.385Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/"
   }
 ]
