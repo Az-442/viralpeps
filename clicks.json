@@ -7165,5 +7165,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "mots-c",
     "destUrl": "https://thepeptidecode.co.uk/products/mots-c-10mg"
+  },
+  {
+    "ts": "2026-09-12T01:44:39.891Z",
+    "type": "vendor-site",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "destUrl": "https://mypepbiotech.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/mypep-biotech"
   }
 ]
