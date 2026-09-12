@@ -19015,5 +19015,14 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-ghk-cu-100mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu-100mg/"
+  },
+  {
+    "ts": "2026-09-12T10:30:12.753Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://viralpeps.co.uk/go/dr-peptides/cjc-1295"
   }
 ]
