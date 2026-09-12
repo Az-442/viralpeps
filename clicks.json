@@ -18928,5 +18928,13 @@
     "vendorName": "Pure Peptides UK",
     "compoundSlug": "bpc-157",
     "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/"
+  },
+  {
+    "ts": "2026-09-12T10:03:08.243Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/semax-10mg"
   }
 ]
