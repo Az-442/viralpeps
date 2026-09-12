@@ -18770,5 +18770,14 @@
     "vendorName": "UK Peptide Lab",
     "compoundSlug": "kpv",
     "destUrl": "https://ukpeptidelab.co.uk/product/kpv"
+  },
+  {
+    "ts": "2026-09-12T09:05:45.580Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://polygonpeptides.co.uk/product/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/polygon-peptides"
   }
 ]
