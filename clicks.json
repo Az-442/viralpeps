@@ -18474,5 +18474,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "ghrp-2-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen"
+  },
+  {
+    "ts": "2026-09-12T08:06:38.298Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "gnrh-triptorelin-100mcg",
+    "destUrl": "https://purepeptidesuk.com/product/gnrh-triptorelin-100/"
   }
 ]
