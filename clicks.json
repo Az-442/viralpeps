@@ -16681,5 +16681,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-acetic-acid",
     "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/"
+  },
+  {
+    "ts": "2026-09-12T02:43:42.267Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-bac-water-10ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-10ml/"
   }
 ]
