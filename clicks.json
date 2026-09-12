@@ -7287,5 +7287,13 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://thepeptidecode.co.uk/products/tirzepatide-20mg"
+  },
+  {
+    "ts": "2026-09-12T02:13:27.755Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide"
   }
 ]
