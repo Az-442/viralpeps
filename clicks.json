@@ -7575,5 +7575,13 @@
     "vendorName": "The Peptide Company",
     "compoundSlug": "bpc-157",
     "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/"
+  },
+  {
+    "ts": "2026-09-12T02:14:43.470Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://thepeptidecode.co.uk/products/bpc-157-10mg"
   }
 ]
