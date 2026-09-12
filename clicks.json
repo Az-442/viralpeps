@@ -14308,5 +14308,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://www.expresspeptides.co.uk/product/kisspeptin/pen"
+  },
+  {
+    "ts": "2026-09-12T02:36:11.696Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin"
   }
 ]
