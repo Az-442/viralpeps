@@ -12316,5 +12316,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "glow",
     "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-12T02:30:00.559Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/"
   }
 ]
