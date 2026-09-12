@@ -16409,5 +16409,13 @@
     "vendorSlug": "peptx",
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk"
+  },
+  {
+    "ts": "2026-09-12T02:42:54.542Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
