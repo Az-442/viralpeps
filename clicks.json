@@ -13220,5 +13220,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "vesugen",
     "destUrl": "https://bluewellpeptides.com/product/vesugen-20mg-peptide/"
+  },
+  {
+    "ts": "2026-09-12T02:32:54.746Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "melatonin-10mg",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-10mg-melatonin-research-only-peptide-for-laboratory-use-only/"
   }
 ]
