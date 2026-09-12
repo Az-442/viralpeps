@@ -9070,5 +9070,13 @@
     "vendorName": "Express Peptides",
     "compoundSlug": "pt-141-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial"
+  },
+  {
+    "ts": "2026-09-12T02:19:32.200Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen"
   }
 ]
