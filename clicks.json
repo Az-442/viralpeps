@@ -10860,5 +10860,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "mazdutide",
     "destUrl": "https://ukpeptides.com/catalog/mazdutide"
+  },
+  {
+    "ts": "2026-09-12T02:25:24.951Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-lipo-c-10ml-research-solution-for-laboratory-use-only/"
   }
 ]
