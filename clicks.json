@@ -10244,5 +10244,13 @@
     "vendorName": "Peptigen Labs",
     "compoundSlug": "retatrutide",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10"
+  },
+  {
+    "ts": "2026-09-12T02:23:21.449Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-retatrutide-uk/"
   }
 ]
