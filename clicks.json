@@ -6872,5 +6872,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide"
+  },
+  {
+    "ts": "2026-09-12T01:02:13.318Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides"
   }
 ]
