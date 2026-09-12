@@ -18260,5 +18260,14 @@
     "vendorName": "XL Peptides",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/"
+  },
+  {
+    "ts": "2026-09-12T07:11:00.800Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/retatrutide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk"
   }
 ]
