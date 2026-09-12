@@ -15625,5 +15625,12 @@
     "vendorName": "Astra Labs",
     "compoundSlug": "semax",
     "destUrl": "https://astralabs.co.uk/product/semax-peptide-uk/"
+  },
+  {
+    "ts": "2026-09-12T02:40:35.167Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com"
   }
 ]
