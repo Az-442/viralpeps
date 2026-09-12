@@ -8487,5 +8487,13 @@
     "vendorName": "Apex Pharma",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:17:37.252Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-MOTS-10"
   }
 ]
