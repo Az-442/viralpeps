@@ -12668,5 +12668,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "nad-1000-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/nad-1000-nasal-spray"
+  },
+  {
+    "ts": "2026-09-12T02:31:10.217Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://tidelabs.co.uk/products/pinealon-research-peptide"
   }
 ]
