@@ -6727,5 +6727,12 @@
     "compoundSlug": "kpv-10mg",
     "destUrl": "https://researchpeptide.co.uk/product/kpv/",
     "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-12T00:44:00.782Z",
+    "type": "vendor-site",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "destUrl": "https://my-peptides.co.uk"
   }
 ]
