@@ -7663,5 +7663,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "bpc-157",
     "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape"
+  },
+  {
+    "ts": "2026-09-12T02:14:57.599Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://precision-peptides.shop/product/bpc-157-research-peptide-10mg/"
   }
 ]
