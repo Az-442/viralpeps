@@ -15860,5 +15860,13 @@
     "vendorName": "Chroma Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://chromapeptides.co.uk/product/selank/"
+  },
+  {
+    "ts": "2026-09-12T02:41:15.748Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://chromapeptides.co.uk/product/cjc-1295-no-dac/"
   }
 ]
