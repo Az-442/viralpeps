@@ -12620,5 +12620,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.testedpeptides.co.uk/product/nad-500mg/"
+  },
+  {
+    "ts": "2026-09-12T02:30:59.942Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water-0-9-benzyl",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/"
   }
 ]
