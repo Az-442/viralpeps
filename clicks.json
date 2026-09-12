@@ -11268,5 +11268,13 @@
     "vendorName": "UK Peptides",
     "compoundSlug": "ghrp-2",
     "destUrl": "https://ukpeptides.com/catalog/ghrp-2"
+  },
+  {
+    "ts": "2026-09-12T02:26:43.582Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial"
   }
 ]
