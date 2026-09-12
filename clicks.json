@@ -16151,5 +16151,12 @@
     "vendorName": "Lab77 Peptides",
     "compoundSlug": "selank",
     "destUrl": "https://lab77peptides.co.uk/collections"
+  },
+  {
+    "ts": "2026-09-12T02:42:08.145Z",
+    "type": "vendor-site",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "destUrl": "https://my-peptides.co.uk"
   }
 ]
