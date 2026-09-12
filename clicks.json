@@ -10788,5 +10788,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://www.stratfordpeptides.com/products/disp"
+  },
+  {
+    "ts": "2026-09-12T02:25:12.874Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg"
   }
 ]
