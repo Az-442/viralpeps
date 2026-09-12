@@ -6509,5 +6509,13 @@
     "vendorName": "Alphamino",
     "compoundSlug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
     "destUrl": "https://alphamino.co.uk/shop/klow-stack/"
+  },
+  {
+    "ts": "2026-09-12T00:29:45.463Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides"
   }
 ]
