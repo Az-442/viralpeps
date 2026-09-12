@@ -6823,5 +6823,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.peptidesonline.uk/shop/ghk-cu/"
+  },
+  {
+    "ts": "2026-09-12T00:55:32.239Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://my-peptides.co.uk/products/melanotan-2"
   }
 ]
