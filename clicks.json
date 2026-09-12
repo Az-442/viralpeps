@@ -8359,5 +8359,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/"
+  },
+  {
+    "ts": "2026-09-12T02:17:14.275Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://mypepbiotech.co.uk/product/mots-c-20mg/"
   }
 ]
