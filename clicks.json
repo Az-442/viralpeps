@@ -17591,5 +17591,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "cardiogen-research-peptide",
     "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator"
+  },
+  {
+    "ts": "2026-09-12T03:41:31.615Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideslabuk.com/product/ghk-cu/"
   }
 ]
