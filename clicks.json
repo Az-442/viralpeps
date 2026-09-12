@@ -6412,5 +6412,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/"
+  },
+  {
+    "ts": "2026-09-12T00:23:29.741Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptx.co.uk/shop"
   }
 ]
