@@ -6267,5 +6267,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/"
+  },
+  {
+    "ts": "2026-09-12T00:03:40.872Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.testedpeptides.co.uk/product/5-amino-1mq-10-mg-research-peptide/"
   }
 ]
