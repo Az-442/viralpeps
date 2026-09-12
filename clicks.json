@@ -18863,5 +18863,14 @@
     "vendorSlug": "cmsr-labs",
     "vendorName": "CMSR Labs",
     "destUrl": "https://cmsrlabs.co"
+  },
+  {
+    "ts": "2026-09-12T09:48:44.158Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/retatrutide",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptx"
   }
 ]
