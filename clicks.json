@@ -8351,5 +8351,13 @@
     "vendorName": "Peptides Online UK",
     "compoundSlug": "mots-c",
     "destUrl": "https://www.peptidesonline.uk/shop/mots-c-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:17:12.874Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/"
   }
 ]
