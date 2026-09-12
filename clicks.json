@@ -17378,5 +17378,13 @@
     "vendorName": "Biohack Peptides",
     "compoundSlug": "nad-plus",
     "destUrl": "https://biohackpeptides.co.uk/product/nad-500mg-3ml-bac-water/"
+  },
+  {
+    "ts": "2026-09-12T02:58:11.267Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.peptifyuk.com/product/ipamorelin-10mg"
   }
 ]
