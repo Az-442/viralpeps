@@ -11940,5 +11940,13 @@
     "vendorName": "Proforma Peptides",
     "compoundSlug": "epitalon",
     "destUrl": "https://www.proformapeptides.co.uk/product/epitalon-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:28:51.738Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://thepeptidecode.co.uk/products/epithalon-10mg"
   }
 ]
