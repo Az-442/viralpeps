@@ -17036,5 +17036,12 @@
     "vendorName": "ThePeptideCode",
     "compoundSlug": "selank",
     "destUrl": "https://thepeptidecode.co.uk/products/selank-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:44:44.027Z",
+    "type": "vendor-site",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "destUrl": "https://tidelabs.co.uk"
   }
 ]
