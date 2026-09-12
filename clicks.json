@@ -18911,5 +18911,14 @@
     "vendorName": "SPX Labs",
     "compoundSlug": "tb-500",
     "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/"
+  },
+  {
+    "ts": "2026-09-12T09:59:27.918Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-IPA-5",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptigen-labs"
   }
 ]
