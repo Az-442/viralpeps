@@ -7359,5 +7359,13 @@
     "vendorName": "Raw Peptides",
     "compoundSlug": "tirzepatide",
     "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:13:39.633Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidelabuk.co.uk/product/tirzepatide-20mg-research-peptide/"
   }
 ]
