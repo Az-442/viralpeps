@@ -13676,5 +13676,13 @@
     "vendorName": "BuyReta",
     "compoundSlug": "vip",
     "destUrl": "https://www.buyreta.co.uk/product/vip-uk"
+  },
+  {
+    "ts": "2026-09-12T02:34:21.857Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg"
   }
 ]
