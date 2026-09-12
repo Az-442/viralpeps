@@ -14668,5 +14668,13 @@
     "vendorName": "Peptides Lab UK",
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/"
+  },
+  {
+    "ts": "2026-09-12T02:37:44.836Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "klow",
+    "destUrl": "https://pepnova.uk/"
   }
 ]
