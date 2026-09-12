@@ -17809,5 +17809,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "glow",
     "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/"
+  },
+  {
+    "ts": "2026-09-12T04:45:07.631Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://helixcore.co.uk/products/ll-37"
   }
 ]
