@@ -18490,5 +18490,14 @@
     "vendorName": "PeptX",
     "compoundSlug": "selank",
     "destUrl": "https://peptx.co.uk/shop"
+  },
+  {
+    "ts": "2026-09-12T08:09:31.406Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "melatonin-10mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/melatonin-10mg/",
+    "refPage": "https://viralpeps.co.uk/go/research-peptide-uk/melatonin-10mg-research-peptides-uk"
   }
 ]
