@@ -17607,5 +17607,12 @@
     "vendorName": "HelixCore",
     "compoundSlug": "tesamorelin",
     "destUrl": "https://helixcore.co.uk/products/tesamorelin"
+  },
+  {
+    "ts": "2026-09-12T03:47:27.600Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "destUrl": "https://ukpeptidelab.co.uk"
   }
 ]
