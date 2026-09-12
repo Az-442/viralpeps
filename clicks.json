@@ -6396,5 +6396,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-with-dac-5mg/"
+  },
+  {
+    "ts": "2026-09-12T00:20:57.941Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ss-31-10-mg-research-peptide/"
   }
 ]
