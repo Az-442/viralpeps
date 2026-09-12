@@ -10452,5 +10452,13 @@
     "vendorName": "My Peptides",
     "compoundSlug": "cjc-1295",
     "destUrl": "https://my-peptides.co.uk/products/cjc-1295"
+  },
+  {
+    "ts": "2026-09-12T02:24:02.775Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://peptidesuk.com/cjc1295-with-dac/"
   }
 ]
