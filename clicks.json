@@ -12724,5 +12724,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/"
+  },
+  {
+    "ts": "2026-09-12T02:31:21.957Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-SLU-5"
   }
 ]
