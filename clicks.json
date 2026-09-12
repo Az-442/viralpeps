@@ -6339,5 +6339,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "tb-500",
     "destUrl": "https://www.testedpeptides.co.uk/product/tb-500-10mg/"
+  },
+  {
+    "ts": "2026-09-12T00:13:45.831Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ghrp-6-10-mg-research-peptide/"
   }
 ]
