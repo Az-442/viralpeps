@@ -16064,5 +16064,13 @@
     "vendorName": "Imperial Peptides UK",
     "compoundSlug": "kpv-10mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg"
+  },
+  {
+    "ts": "2026-09-12T02:41:53.229Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "epitalon-10mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg"
   }
 ]
