@@ -12508,5 +12508,13 @@
     "vendorName": "Peptify UK",
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.peptifyuk.com/product/nad-500mg"
+  },
+  {
+    "ts": "2026-09-12T02:30:38.543Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://mypepbiotech.co.uk/product/nad-1000mg/"
   }
 ]
