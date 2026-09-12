@@ -13300,5 +13300,13 @@
     "vendorName": "Stratford Peptides",
     "compoundSlug": "kpv",
     "destUrl": "https://www.stratfordpeptides.com/products/kpv"
+  },
+  {
+    "ts": "2026-09-12T02:33:08.325Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/"
   }
 ]
