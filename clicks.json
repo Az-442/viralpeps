@@ -6243,5 +6243,13 @@
     "vendorName": "Tested Peptides",
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-5mg-no-dac/"
+  },
+  {
+    "ts": "2026-09-12T00:01:31.206Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/tesamorelin/"
   }
 ]
