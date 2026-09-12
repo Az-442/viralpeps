@@ -10916,5 +10916,13 @@
     "vendorName": "Kensington Labs UK",
     "compoundSlug": "survodutide",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/survodutide-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:25:34.245Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://peptx.co.uk/product/liraglutide"
   }
 ]
