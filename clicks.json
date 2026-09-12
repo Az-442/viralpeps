@@ -10780,5 +10780,13 @@
     "vendorName": "FORM Peptides",
     "compoundSlug": "dsip",
     "destUrl": "https://formpeptides.co.uk/catalogue/product/dsip-5mg"
+  },
+  {
+    "ts": "2026-09-12T02:25:11.418Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp"
   }
 ]
