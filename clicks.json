@@ -12956,5 +12956,13 @@
     "vendorName": "Bluewell Peptides",
     "compoundSlug": "aicar",
     "destUrl": "https://bluewellpeptides.com/product/aicar-50mg-peptide/"
+  },
+  {
+    "ts": "2026-09-12T02:32:03.278Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://bluewellpeptides.com/product/l-glutathione-1500-mg/"
   }
 ]
