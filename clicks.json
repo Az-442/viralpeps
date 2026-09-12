@@ -16785,5 +16785,13 @@
     "vendorName": "Sterling Peptides",
     "compoundSlug": "sterling-kpv-10mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/kpv-10mg/"
+  },
+  {
+    "ts": "2026-09-12T02:44:00.140Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-mots-c-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/"
   }
 ]
