@@ -15985,5 +15985,13 @@
     "vendorName": "BioPlex Peptides",
     "compoundSlug": "peg-mgf",
     "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor"
+  },
+  {
+    "ts": "2026-09-12T02:41:39.250Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/selank-5mg"
   }
 ]
