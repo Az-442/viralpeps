@@ -12932,5 +12932,13 @@
     "vendorName": "MyPep Biotech",
     "compoundSlug": "aicar",
     "destUrl": "https://mypepbiotech.co.uk/product/aicar-100mg/"
+  },
+  {
+    "ts": "2026-09-12T02:31:59.132Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aicar",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aicar-50mg-research-only-peptide-for-laboratory-use-only/"
   }
 ]
