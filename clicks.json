@@ -20729,5 +20729,41 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://purepeptidesuk.com/product/epitalon-10mg/",
     "visitorId": "b0a13b44e29dd2c8"
+  },
+  {
+    "ts": "2026-09-13T21:00:44.154Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/",
+    "visitorId": "87a486ba162e3989"
+  },
+  {
+    "ts": "2026-09-13T21:00:48.839Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/",
+    "visitorId": "e6898f90bf663e9b"
+  },
+  {
+    "ts": "2026-09-13T21:00:54.228Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/",
+    "visitorId": "86794bfc6b91408f"
+  },
+  {
+    "ts": "2026-09-13T21:05:33.537Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/epithalon-epitalon-10mg/",
+    "visitorId": "0de9cb5fc7c2a618"
   }
 ]
