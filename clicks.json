@@ -20604,5 +20604,32 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://evapeptide.co.uk/product/buy-epithalon-uk/",
     "visitorId": "7f5dfd669fdd2582"
+  },
+  {
+    "ts": "2026-09-13T17:50:53.159Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.testedpeptides.co.uk/product/epitalon-10mg/",
+    "visitorId": "3ddde475eed9b7d0"
+  },
+  {
+    "ts": "2026-09-13T17:53:04.701Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides",
+    "visitorId": "a1f9670fd417bfb9"
+  },
+  {
+    "ts": "2026-09-13T18:10:50.362Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://momentumpeptides.com/product/selank-10mg/",
+    "visitorId": "f0b2a3b8a0781438"
   }
 ]
