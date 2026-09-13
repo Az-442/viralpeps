@@ -20523,5 +20523,23 @@
     "compoundSlug": "cjc-1295-ipamorelin",
     "destUrl": "https://spxlabs.co.uk/product/cjc-1295-ipamorelin-uk-10mg/",
     "visitorId": "f2cc66a9e75b2cec"
+  },
+  {
+    "ts": "2026-09-13T17:20:02.385Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-EPI-10",
+    "visitorId": "a33532f34a1b29ed"
+  },
+  {
+    "ts": "2026-09-13T17:21:28.868Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg",
+    "visitorId": "b9f9098ea6b7b332"
   }
 ]
