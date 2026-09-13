@@ -20577,5 +20577,23 @@
     "compoundSlug": "klow",
     "destUrl": "https://biotideuk.com/products/klow-stack-80-mg",
     "visitorId": "b9f9098ea6b7b332"
+  },
+  {
+    "ts": "2026-09-13T17:29:18.182Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "cjc-1295-ipamorelin",
+    "destUrl": "https://spxlabs.co.uk/product/cjc-1295-ipamorelin-uk-10mg/",
+    "visitorId": "f2cc66a9e75b2cec"
+  },
+  {
+    "ts": "2026-09-13T17:35:16.042Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "visitorId": "13884256de116ce1"
   }
 ]
