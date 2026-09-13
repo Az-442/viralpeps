@@ -17,7 +17,16 @@ const LIST_PATH = "clicks.json";
 // triggering a production deploy (which was burning the daily deploy quota).
 const DATA_BRANCH = "clicks-data";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
-const MIN_INTERVAL_MS = 1200; // guard against rapid duplicate commits
+// Guard against one commit per rapid click. Serverless instances are ephemeral,
+// so this only ever throttles within a single warm instance.
+const MIN_INTERVAL_MS = 1200;
+
+// NOTE: this logger commits to the `clicks-data` branch. If Vercel is not told to
+// IGNORE that branch it will build every one of these commits as a Preview, which
+// exhausted the free-tier 100 deploys/day cap on 12 Sep 2026 and blocked every
+// `main` deploy for a day. The writer-side throttle below reduces the commit rate
+// but does NOT remove the risk — the durable fix is Vercel → Settings → Git →
+// Ignored Build Step for `clicks-data` (or moving clicks off git into KV/DB).
 
 export type ClickType = "vendor-site" | "product" | "vendor-profile";
 
