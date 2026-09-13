@@ -19746,5 +19746,14 @@
     "vendorName": "Research Peptides UK",
     "destUrl": "https://researchpeptide.co.uk",
     "visitorId": "a21cee6bca1c0af4"
+  },
+  {
+    "ts": "2026-09-13T00:08:35.977Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://thepeptidecode.co.uk/products/melanotan-ii-10mg",
+    "visitorId": "fe39e85e9763a949"
   }
 ]
