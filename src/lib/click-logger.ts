@@ -9,24 +9,49 @@
 //
 // The logger is deliberately fire-and-forget: wrapped in try/catch so a log
 // write failure NEVER blocks or slows the redirect it accompanies.
+//
+// ---------------------------------------------------------------------------
+// WRITE-BATCHING (13 Sep 2026) — fixes the Vercel deploy-quota exhaustion
+// ---------------------------------------------------------------------------
+// HISTORY: the original implementation committed ONE GitHub commit PER CLICK to
+// the `clicks-data` branch. The in-memory throttle (MIN_INTERVAL_MS) only ever
+// throttled within a single warm serverless instance, so N concurrent instances
+// produced N commits — observed at ~148 commits/day, well over Vercel's
+// free-tier 100 deploys/day cap. That starved `main` of deploy slots and took
+// supplier pages down on 12 Sep 2026.
+//
+// FIX: clicks are now accumulated in an in-process buffer and flushed to GitHub
+// at most once per FLUSH_INTERVAL_MS (default 5 minutes), and only when the
+// buffer is non-empty. Worst case with a handful of concurrent instances is a
+// small number of commits per 5-minute window instead of one per click.
+//
+// TRADE-OFF: because serverless instances are ephemeral, a click buffered in an
+// instance that is then frozen/recycled before its flush window elapses will be
+// lost. In practice URL-redirect traffic keeps instances warm and the buffer is
+// flushed on every request that crosses the interval, so loss is minimal — and
+// it is strictly better than saturating the deploy quota. Clicks are analytics,
+// not billing: the redirect itself is never affected.
+//
+// DURABLE FIX (recommended, not yet implemented): move click events off git
+// entirely into a KV/DB store (Vercel KV / Upstash Redis). That removes the
+// commit-per-write pattern completely. The buffer below is a safe interim.
 
 const REPO = "Az-442/viralpeps";
 const LIST_PATH = "clicks.json";
 // Data branch: clicks are committed here, NEVER to main. Vercel only builds
 // from main, so writing to a separate branch stops every outbound click from
 // triggering a production deploy (which was burning the daily deploy quota).
+// Vercel MUST also be told to ignore this branch (Settings -> Git -> Ignored
+// Build Step), otherwise these commits still consume Preview deploy quota.
 const DATA_BRANCH = "clicks-data";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
-// Guard against one commit per rapid click. Serverless instances are ephemeral,
-// so this only ever throttles within a single warm instance.
-const MIN_INTERVAL_MS = 1200;
 
-// NOTE: this logger commits to the `clicks-data` branch. If Vercel is not told to
-// IGNORE that branch it will build every one of these commits as a Preview, which
-// exhausted the free-tier 100 deploys/day cap on 12 Sep 2026 and blocked every
-// `main` deploy for a day. The writer-side throttle below reduces the commit rate
-// but does NOT remove the risk — the durable fix is Vercel → Settings → Git →
-// Ignored Build Step for `clicks-data` (or moving clicks off git into KV/DB).
+// Minimum wall-clock gap between GitHub flushes, per warm instance.
+// 5 minutes -> at most 12 commits/hour/instance instead of ~6/minute.
+const FLUSH_INTERVAL_MS = 5 * 60 * 1000;
+// Hard cap on buffered rows so a long-lived instance cannot grow unbounded
+// between flushes. Oldest rows are dropped first if exceeded.
+const MAX_BUFFER_ROWS = 500;
 
 export type ClickType = "vendor-site" | "product" | "vendor-profile";
 
@@ -46,7 +71,10 @@ export interface StoredClickRow extends ClickRow {
   ts: string; // ISO timestamp
 }
 
-let lastPushAt = 0;
+// --- module-scoped buffer (lives for the life of a warm serverless instance) --
+let buffer: StoredClickRow[] = [];
+let lastFlushAt = 0;
+let flushing = false;
 
 async function getCurrentFile(): Promise<{ content: string; sha?: string } | { ok: false; error: string }> {
   const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${LIST_PATH}?ref=${DATA_BRANCH}`, {
@@ -69,42 +97,33 @@ function parseRows(content: string): StoredClickRow[] {
   return [];
 }
 
-/**
- * Append one click row to clicks.json. Fire-and-forget: returns a boolean but
- * never throws. Callers MUST treat the return as advisory only (logging must
- * never break the redirect it accompanies).
- */
-export async function logClick(row: ClickRow): Promise<boolean> {
+/** Read-modify-write the buffered rows into clicks.json. Never throws. */
+async function flush(): Promise<boolean> {
+  if (!GITHUB_TOKEN || buffer.length === 0 || flushing) return false;
+  flushing = true;
+  const batch = buffer;
+  buffer = [];
   try {
-    if (!row || !row.vendorSlug) return false;
-    if (!GITHUB_TOKEN) {
-      // Fail soft — no token set (e.g. local dev). Redirect must still work.
-      console.warn("[click-logger] GITHUB_TOKEN not set — click not persisted", row.vendorSlug);
-      return false;
-    }
-
     const file = await getCurrentFile();
     if (!("content" in file)) {
+      // Put the batch back so it can be retried on the next interval.
+      buffer = batch.concat(buffer);
       console.warn("[click-logger] could not read clicks.json", file.error);
       return false;
     }
 
     const rows = parseRows(file.content);
-    rows.push({ ts: new Date().toISOString(), ...row });
+    rows.push(...batch);
 
     const newContent = `${JSON.stringify(rows, null, 2)}\n`;
     const body: Record<string, unknown> = {
-      message: `Log outbound click: ${row.vendorSlug}${row.compoundSlug ? "/" + row.compoundSlug : ""} [bot]`,
+      message:
+        `Log outbound clicks: ${batch.length} event${batch.length === 1 ? "" : "s"} ` +
+        `(${new Date().toISOString()}) [bot]`,
       content: Buffer.from(newContent).toString("base64"),
       branch: DATA_BRANCH,
     };
     if (file.sha) body.sha = file.sha;
-
-    const now = Date.now();
-    if (now - lastPushAt < MIN_INTERVAL_MS) {
-      return true; // rate-guarded but treated as accepted
-    }
-    lastPushAt = now;
 
     const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${LIST_PATH}`, {
       method: "PUT",
@@ -117,14 +136,65 @@ export async function logClick(row: ClickRow): Promise<boolean> {
     });
 
     if (!res.ok && res.status !== 409) {
-      // 409 = concurrent update — the click is effectively captured by another write
+      // 409 = concurrent update — another writer already moved the branch.
+      // Re-buffer so the batch is not silently lost.
+      buffer = batch.concat(buffer);
       console.warn("[click-logger] push failed", res.status);
-      // Optionally retry once after refetching:
       return false;
+    }
+    lastFlushAt = Date.now();
+    return true;
+  } catch (err) {
+    buffer = batch.concat(buffer);
+    console.warn("[click-logger] unexpected flush error — batch re-buffered", err);
+    return false;
+  } finally {
+    flushing = false;
+  }
+}
+
+/**
+ * Record one outbound click into the in-process buffer, and flush to GitHub at
+ * most once per FLUSH_INTERVAL_MS. Fire-and-forget: never throws. Callers MUST
+ * treat the return as advisory only (logging must never break the redirect).
+ *
+ * Returns true when the click was accepted into the buffer (the normal case),
+ * false only when there is no token configured or the row is invalid.
+ */
+export async function logClick(row: ClickRow): Promise<boolean> {
+  try {
+    if (!row || !row.vendorSlug) return false;
+    if (!GITHUB_TOKEN) {
+      // Fail soft — no token set (e.g. local dev). Redirect must still work.
+      console.warn("[click-logger] GITHUB_TOKEN not set — click not persisted", row.vendorSlug);
+      return false;
+    }
+
+    buffer.push({ ts: new Date().toISOString(), ...row });
+    if (buffer.length > MAX_BUFFER_ROWS) {
+      buffer = buffer.slice(-MAX_BUFFER_ROWS);
+    }
+
+    // Only pay the network round-trip once the interval has elapsed.
+    if (Date.now() - lastFlushAt >= FLUSH_INTERVAL_MS) {
+      await flush();
     }
     return true;
   } catch (err) {
     console.warn("[click-logger] unexpected error — click NOT persisted", err);
     return false;
   }
+}
+
+/**
+ * Force a flush of any buffered clicks. Safe to call anytime (no-op when the
+ * buffer is empty). Exposed for scripts/tests and for a future cron sweep.
+ */
+export async function flushClicks(): Promise<boolean> {
+  return flush();
+}
+
+/** Introspection for diagnostics — never used on the redirect hot path. */
+export function clickBufferState(): { buffered: number; lastFlushAt: number } {
+  return { buffered: buffer.length, lastFlushAt };
 }
