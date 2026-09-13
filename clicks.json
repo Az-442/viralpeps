@@ -20684,5 +20684,50 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.apex-pharma.co.uk/product/ipamorelin-10mg/",
     "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-13T20:42:41.736Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-13T20:42:43.493Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-09-13T20:43:02.473Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.peptidesx.uk/product/epitalon/",
+    "visitorId": "682569d4cd829212"
+  },
+  {
+    "ts": "2026-09-13T20:43:05.685Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biotideuk.com/products/epitalon-10-mg",
+    "visitorId": "922e06bcdfb51819"
+  },
+  {
+    "ts": "2026-09-13T20:57:29.694Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://purepeptidesuk.com/product/epitalon-10mg/",
+    "visitorId": "b0a13b44e29dd2c8"
   }
 ]
