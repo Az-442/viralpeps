@@ -20496,5 +20496,23 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://biotideuk.com/products/ghk-cu",
     "visitorId": "34a86978b74dfebf"
+  },
+  {
+    "ts": "2026-09-13T16:53:44.037Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://spxlabs.co.uk/product/bpc-157-uk-10mg/",
+    "visitorId": "f2cc66a9e75b2cec"
+  },
+  {
+    "ts": "2026-09-13T16:55:31.945Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu",
+    "visitorId": "f2cc66a9e75b2cec"
   }
 ]
