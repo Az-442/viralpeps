@@ -21367,5 +21367,49 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://olresearch.co.uk/product/epithalon-10mg/",
     "visitorId": "318065f059ee2d1f"
+  },
+  {
+    "ts": "2026-09-14T09:38:16.117Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://precision-peptides.shop/product/epithalon-10mg/",
+    "visitorId": "bc637ebfe87e630b"
+  },
+  {
+    "ts": "2026-09-14T09:40:32.909Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://chromapeptides.co.uk/product/epithalon/",
+    "visitorId": "97f4e7884f6f32a0"
+  },
+  {
+    "ts": "2026-09-14T09:41:11.488Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://biopeptides-uk.com/product/cagrilintide-10mg/",
+    "visitorId": "4379eb9aa8fee7af"
+  },
+  {
+    "ts": "2026-09-14T09:41:15.125Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://biopeptides-uk.com/product/cagrilintide-10mg/",
+    "visitorId": "309df76dd0be336f"
+  },
+  {
+    "ts": "2026-09-14T09:44:22.162Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk",
+    "visitorId": "c26fafab784b4638"
   }
 ]
