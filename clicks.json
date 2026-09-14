@@ -21119,5 +21119,32 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
     "visitorId": "f8696534f5a2e030"
+  },
+  {
+    "ts": "2026-09-14T08:44:45.981Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.novapeptide.co.uk/product/bac-water-10ml/",
+    "visitorId": "595e9f40add1ec93"
+  },
+  {
+    "ts": "2026-09-14T08:45:12.924Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg",
+    "visitorId": "f8696534f5a2e030"
+  },
+  {
+    "ts": "2026-09-14T08:49:25.326Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-with-dac/",
+    "visitorId": "99ec69523ef0ae71"
   }
 ]
