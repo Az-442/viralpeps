@@ -21217,5 +21217,46 @@
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk",
     "visitorId": "c26fafab784b4638"
+  },
+  {
+    "ts": "2026-09-14T09:12:29.619Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk",
+    "visitorId": "c26fafab784b4638"
+  },
+  {
+    "ts": "2026-09-14T09:12:56.479Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "visitorId": "c26fafab784b4638"
+  },
+  {
+    "ts": "2026-09-14T09:13:20.811Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides",
+    "visitorId": "79e12bd9f70e61f2"
+  },
+  {
+    "ts": "2026-09-14T09:13:35.455Z",
+    "type": "vendor-site",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "destUrl": "https://appliedpeptides.com",
+    "visitorId": "c26fafab784b4638"
+  },
+  {
+    "ts": "2026-09-14T09:18:17.289Z",
+    "type": "vendor-site",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "destUrl": "https://apexpure.co.uk",
+    "visitorId": "c26fafab784b4638"
   }
 ]
