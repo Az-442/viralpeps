@@ -11,30 +11,33 @@
 // write failure NEVER blocks or slows the redirect it accompanies.
 //
 // ---------------------------------------------------------------------------
-// WRITE-BATCHING (13 Sep 2026) — fixes the Vercel deploy-quota exhaustion
+// WRITE-BATCHING + BUILD-IGNORE (14 Sep 2026) — deploy-quota exhaustion FIXED
 // ---------------------------------------------------------------------------
 // HISTORY: the original implementation committed ONE GitHub commit PER CLICK to
 // the `clicks-data` branch. The in-memory throttle (MIN_INTERVAL_MS) only ever
 // throttled within a single warm serverless instance, so N concurrent instances
 // produced N commits — observed at ~148 commits/day, well over Vercel's
 // free-tier 100 deploys/day cap. That starved `main` of deploy slots and took
-// supplier pages down on 12 Sep 2026.
+// supplier pages down on 12 Sep 2026 (and again 14 Sep 2026).
 //
-// FIX: clicks are now accumulated in an in-process buffer and flushed to GitHub
-// at most once per FLUSH_INTERVAL_MS (default 5 minutes), and only when the
-// buffer is non-empty. Worst case with a handful of concurrent instances is a
-// small number of commits per 5-minute window instead of one per click.
+// FIX (two layers, both applied):
+//  1. BUILD-IGNORE (primary) — vercel.json sets `ignoreCommand` to
+//     scripts/ignore-clicks-data.sh, which exits 0 for the `clicks-data`
+//     branch so Vercel SKIPS the build entirely. Commits to that branch no
+//     longer consume any deploy quota. This is what actually stops the leak.
+//  2. BATCHING (secondary) — clicks accumulate in an in-process buffer and
+//     flush at most once per FLUSH_INTERVAL_MS (30 min), cutting the git
+//     commit rate to <=2/hour/instance.
 //
-// TRADE-OFF: because serverless instances are ephemeral, a click buffered in an
-// instance that is then frozen/recycled before its flush window elapses will be
-// lost. In practice URL-redirect traffic keeps instances warm and the buffer is
-// flushed on every request that crosses the interval, so loss is minimal — and
-// it is strictly better than saturating the deploy quota. Clicks are analytics,
-// not billing: the redirect itself is never affected.
+// TRADE-OFF: serverless instances are ephemeral, so a click buffered in an
+// instance recycled before its flush window elapses is lost. Redirect traffic
+// keeps instances warm and the buffer flushes on any later request past the
+// interval, so loss is small — and strictly better than saturating the quota.
+// Clicks are analytics, not billing: the redirect itself is never affected.
 //
-// DURABLE FIX (recommended, not yet implemented): move click events off git
-// entirely into a KV/DB store (Vercel KV / Upstash Redis). That removes the
-// commit-per-write pattern completely. The buffer below is a safe interim.
+// DURABLE UPGRADE (not implemented): move clicks off git into Vercel KV /
+// Upstash Redis. That removes the commit-per-write pattern completely. The
+// two layers above are sufficient to protect the deploy quota meanwhile.
 
 const REPO = "Az-442/viralpeps";
 const LIST_PATH = "clicks.json";
@@ -47,8 +50,19 @@ const DATA_BRANCH = "clicks-data";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
 
 // Minimum wall-clock gap between GitHub flushes, per warm instance.
-// 5 minutes -> at most 12 commits/hour/instance instead of ~6/minute.
-const FLUSH_INTERVAL_MS = 5 * 60 * 1000;
+//
+// TUNED 14 Sep 2026: raised 5min -> 30min. Even with the per-instance buffer,
+// N concurrent serverless instances still each flushed every 5 minutes, which
+// held the commit rate at ~70/day on `clicks-data` — enough to matter against
+// Vercel's free-tier 100 deploys/day cap.
+//
+// The PRIMARY fix is vercel.json -> ignoreCommand (scripts/ignore-clicks-data.sh),
+// which stops Vercel from building `clicks-data` at all. This interval is the
+// belt-and-braces second layer: it caps the git commit rate regardless of how
+// many instances are warm, so the branch can never run away again.
+//
+// 30 minutes -> at most 2 commits/hour/instance.
+const FLUSH_INTERVAL_MS = 30 * 60 * 1000;
 // Hard cap on buffered rows so a long-lived instance cannot grow unbounded
 // between flushes. Oldest rows are dropped first if exceeded.
 const MAX_BUFFER_ROWS = 500;
