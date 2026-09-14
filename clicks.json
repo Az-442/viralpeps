@@ -21524,5 +21524,38 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "visitorId": "32cce2f90298d3f1"
+  },
+  {
+    "ts": "2026-09-14T10:11:43.330Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk",
+    "visitorId": "32cce2f90298d3f1"
+  },
+  {
+    "ts": "2026-09-14T10:12:25.583Z",
+    "type": "vendor-site",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "destUrl": "https://trutide.co.uk",
+    "visitorId": "32cce2f90298d3f1"
+  },
+  {
+    "ts": "2026-09-14T10:13:16.058Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com",
+    "visitorId": "32cce2f90298d3f1"
+  },
+  {
+    "ts": "2026-09-14T10:16:51.443Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "8821d940a1005f13"
   }
 ]
