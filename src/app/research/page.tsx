@@ -103,10 +103,10 @@ export default function ResearchPage() {
               Understanding research peptides in the UK starts with the right information. Our
               research library brings together easy-to-read guides, study summaries and practical
               articles — covering topics from{" "}
-              <Link href="/research/sc-bpc-157" className="font-semibold text-blue-600 hover:text-blue-700">BPC-157</Link>,{" "}
-              <Link href="/research/sc-semaglutide" className="font-semibold text-blue-600 hover:text-blue-700">Semaglutide</Link>{" "}
+              <Link href="/research/bpc157-research-summary" className="font-semibold text-blue-600 hover:text-blue-700">BPC-157</Link>,{" "}
+              <Link href="/research/semaglutide-research-summary" className="font-semibold text-blue-600 hover:text-blue-700">Semaglutide</Link>{" "}
               and{" "}
-              <Link href="/research/sc-tirzepatide" className="font-semibold text-blue-600 hover:text-blue-700">Tirzepatide</Link>{" "}
+              <Link href="/research/tirzepatide-research-summary" className="font-semibold text-blue-600 hover:text-blue-700">Tirzepatide</Link>{" "}
               to everyday questions around reconstitution, dosing and sourcing.
             </p>
 
