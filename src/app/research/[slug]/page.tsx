@@ -4,6 +4,17 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import { guides, ResearchArticle } from "@/data/research";
 import researchContent from "@/data/research-content";
+import compounds from "@/data/compounds.json";
+
+/** Set of compound page slugs that actually exist (avoids internal 404s). */
+const COMPOUND_SLUGS = new Set(
+  (compounds as any[]).map((c) => c?.slug).filter(Boolean)
+);
+/** Returns the compound href only when that page exists; otherwise null (omit link). */
+function compoundHref(slug?: string): string | null {
+  if (!slug) return null;
+  return COMPOUND_SLUGS.has(slug) ? `/compounds/${slug}` : null;
+}
 
 export const dynamic = "force-dynamic";
 
@@ -235,22 +246,22 @@ export default async function ResearchArticlePage({
             <span className="text-xs font-bold text-white bg-teal-600 px-3 py-1 rounded-full uppercase tracking-wider">
               {guide.category}
             </span>
-            {guide.compound && content.compoundSlug && (
+            {guide.compound && compoundHref(content.compoundSlug) && (
               <div className="flex items-center gap-2">
                 <Link
-                  href={`/compounds/${content.compoundSlug}`}
+                  href={compoundHref(content.compoundSlug)!}
                   className="text-xs text-teal-300 hover:text-teal-200"
                 >
                   {guide.compound}
                 </Link>
-                {content.compoundSlug2 && (
+                {compoundHref(content.compoundSlug2) && (
                   <>
                     <span className="text-teal-500 text-xs">vs</span>
                     <Link
-                      href={`/compounds/${content.compoundSlug2}`}
+                      href={compoundHref(content.compoundSlug2)!}
                       className="text-xs text-teal-300 hover:text-teal-200"
                     >
-                      {content.compoundSlug2.charAt(0).toUpperCase() + content.compoundSlug2.slice(1).replace(/-/g, ' ')}
+                      {content.compoundSlug2!.charAt(0).toUpperCase() + content.compoundSlug2!.slice(1).replace(/-/g, ' ')}
                     </Link>
                   </>
                 )}
@@ -350,7 +361,7 @@ export default async function ResearchArticlePage({
         )}
 
         {/* === BIG COMPARE PRICES BANNER (like PS) === */}
-        {content.compoundSlug && (
+        {compoundHref(content.compoundSlug) && (
           <div className="mt-12 mb-8 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-100 rounded-2xl p-8 text-center">
             <div className="flex justify-center mb-4">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
@@ -369,7 +380,7 @@ export default async function ResearchArticlePage({
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <Link
-                href={`/compounds/${content.compoundSlug}`}
+                href={compoundHref(content.compoundSlug)!}
                 className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-sm"
               >
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -379,9 +390,9 @@ export default async function ResearchArticlePage({
                 </svg>
                 {guide.compound || "View Prices"} &rarr;
               </Link>
-              {content.compoundSlug2 && (
+              {compoundHref(content.compoundSlug2) && (
                 <Link
-                  href={`/compounds/${content.compoundSlug2}`}
+                  href={compoundHref(content.compoundSlug2)!}
                   className="inline-flex items-center gap-2 bg-white hover:bg-blue-50 text-blue-600 font-bold px-8 py-3 rounded-xl transition-colors shadow-sm border border-blue-200"
                 >
                   <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -389,7 +400,7 @@ export default async function ResearchArticlePage({
                     <path d="M2 17l10 5 10-5" />
                     <path d="M2 12l10 5 10-5" />
                   </svg>
-                  {content.compoundSlug2.charAt(0).toUpperCase() + content.compoundSlug2.slice(1).replace(/-/g, ' ')} Prices &rarr;
+                  {content.compoundSlug2!.charAt(0).toUpperCase() + content.compoundSlug2!.slice(1).replace(/-/g, ' ')} Prices &rarr;
                 </Link>
               )}
             </div>

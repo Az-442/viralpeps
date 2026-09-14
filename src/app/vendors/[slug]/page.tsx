@@ -137,6 +137,16 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
   // Build a lookup: master comparison slug -> that compound (for compareSlug links)
   const compoundBySlug: Record<string, any> = {};
   compounds.forEach((c) => { compoundBySlug[c.slug] = c; });
+
+  // Resolve the real destination for a catalog entry's "Compare" link.
+  // The link target must be a compound page that actually exists, otherwise we
+  // omit the link (renders as plain text) to avoid internal 404s.
+  const resolveCompareHref = (c: any): string | null => {
+    const candidate = (c as any)?.compareSlug || c?.slug;
+    if (candidate && compoundBySlug[candidate]) return `/compounds/${candidate}`;
+    if (c?.slug && compoundBySlug[c.slug]) return `/compounds/${c.slug}`;
+    return null;
+  };
   const hasFreeShipping = vendor.shipping?.some((s) => s.toLowerCase().includes("free"));
   const hasLabTested = !!vendor.labTested;
   const hasNextDay = vendor.highlights?.some((h) => h.toLowerCase().includes("dispatch") || h.toLowerCase().includes("shipping"));
@@ -417,12 +427,25 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   <div className="flex flex-row items-center justify-between px-3 pb-3 md:px-4 md:pb-4 pt-2 border-t border-slate-100">
                     <div className="text-lg md:text-2xl font-bold text-emerald-600">{source?.price}</div>
                     <div className="flex items-center gap-2">
-                      <Link
-                        href={`/compounds/${(c as any)?.compareSlug || c.slug}`}
-                        className="text-xs sm:text-sm font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
-                      >
-                        Compare {((c as any)?.compareSlug ? compoundBySlug[(c as any).compareSlug]?.sources?.length || c.sources.length : c.sources.length)} suppliers →
-                      </Link>
+                      {(() => {
+                        const href = resolveCompareHref(c);
+                        const count = (c as any)?.compareSlug
+                          ? compoundBySlug[(c as any).compareSlug]?.sources?.length || c.sources.length
+                          : c.sources.length;
+                        const label = `Compare ${count} suppliers →`;
+                        return href ? (
+                          <Link
+                            href={href}
+                            className="text-xs sm:text-sm font-medium text-blue-600 hover:text-blue-700 underline underline-offset-2 whitespace-nowrap"
+                          >
+                            {label}
+                          </Link>
+                        ) : (
+                          <span className="text-xs sm:text-sm font-medium text-slate-400 whitespace-nowrap">
+                            {label}
+                          </span>
+                        );
+                      })()}
                       <a
                         href={`/go/${slug}/${c.slug}`}
                         target="_blank"

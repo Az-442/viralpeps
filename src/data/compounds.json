@@ -25889,7 +25889,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "aod9604",
+    "compareSlug": "aod-9604",
     "longDescription": ""
   },
   {
@@ -25920,7 +25920,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "aod9604",
+    "compareSlug": "aod-9604",
     "longDescription": ""
   },
   {
@@ -27210,7 +27210,6 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin-cjc-1295-no-dac",
     "longDescription": ""
   },
   {
@@ -27241,7 +27240,6 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin-cjc-1295-with-dac",
     "longDescription": ""
   },
   {
@@ -27272,7 +27270,6 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ipamorelin-tesamorelin",
     "longDescription": ""
   },
   {
@@ -27310,7 +27307,6 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu-bpc-157-tb-500",
     "longDescription": ""
   },
   {
@@ -27348,7 +27344,6 @@
       }
     ],
     "faq": [],
-    "compareSlug": "ghk-cu-bpc-157-tb-500-kpv",
     "longDescription": ""
   },
   {
@@ -27379,7 +27374,6 @@
       }
     ],
     "faq": [],
-    "compareSlug": "nad-5-amino-1mq-mots-c",
     "longDescription": ""
   },
   {
@@ -27417,7 +27411,6 @@
     "id": "tesofensine-500mcg-60-capsules",
     "name": "Tesofensine 500mcg (60 Capsules)",
     "slug": "tesofensine-500mcg-60-capsules",
-    "compareSlug": "tesofensine",
     "category": "glp-1-agonists",
     "description": "Tesofensine 500mcg capsules for research purposes.",
     "sources": [
@@ -27577,7 +27570,6 @@
     "id": "tesofensine-500mcg-100-tablets",
     "name": "Tesofensine 500mcg (100 Tablets)",
     "slug": "tesofensine-500mcg-100-tablets",
-    "compareSlug": "tesofensine",
     "category": "glp-1-agonists",
     "description": "Tesofensine 500mcg tablets for research.",
     "sources": [
@@ -27672,7 +27664,6 @@
     "id": "ace-031-1mg-research-peptides-uk",
     "name": "Ace 031 1mg",
     "slug": "ace-031-1mg-research-peptides-uk",
-    "compareSlug": "ace-031",
     "category": "growth-hormone",
     "description": "Ace 031 1mg for research purposes.",
     "sources": [
@@ -27745,7 +27736,6 @@
     "id": "follistatin-344-1mg-research-peptides-uk",
     "name": "Follistatin 344 1mg",
     "slug": "follistatin-344-1mg-research-peptides-uk",
-    "compareSlug": "follistatin",
     "category": "growth-hormone",
     "description": "Follistatin 344 1mg for research purposes.",
     "sources": [
@@ -27847,7 +27837,6 @@
     "id": "mk-677-ibutamoren-10mg-100-tablets",
     "name": "MK-677 / Ibutamoren 10mg (100 Tablets)",
     "slug": "mk-677-ibutamoren-10mg-100-tablets",
-    "compareSlug": "mk-677",
     "category": "growth-hormone",
     "description": "MK-677 (Ibutamoren) 10mg tablets for research.",
     "sources": [
@@ -27994,7 +27983,6 @@
     "id": "gagrilintide-5mg",
     "name": "Gagrilintide 5mg",
     "slug": "gagrilintide-5mg",
-    "compareSlug": "gagrilintide",
     "category": "glp-1-agonists",
     "description": "Gagrilintide 5mg for research purposes.",
     "sources": [
@@ -28111,7 +28099,6 @@
     "id": "igf-1-1-3-1mg",
     "name": "IGF-1 (1-3) 1mg",
     "slug": "igf-1-1-3-1mg",
-    "compareSlug": "igf-1-1-3",
     "category": "growth-hormone",
     "description": "IGF-1 (1-3) 1mg for research purposes.",
     "sources": [
@@ -28213,7 +28200,6 @@
     "id": "myostatin-1mg",
     "name": "Myostatin 1mg",
     "slug": "myostatin-1mg",
-    "compareSlug": "myostatin",
     "category": "growth-hormone",
     "description": "Myostatin 1mg for research purposes.",
     "sources": [
@@ -28890,7 +28876,6 @@
     "id": "melatonin-10mg-research-peptides-uk",
     "name": "Melatonin 10mg",
     "slug": "melatonin-10mg-research-peptides-uk",
-    "compareSlug": "melatonin",
     "category": "anti-aging",
     "description": "Melatonin 10mg for research purposes.",
     "sources": [
@@ -30440,7 +30425,6 @@
     "id": "sterling-hgh-frag-176-191",
     "name": "HGH Frag 176-191 Peptide",
     "slug": "sterling-hgh-frag-176-191",
-    "compareSlug": "hgh-frag-176-191",
     "category": "aod-fragments",
     "description": "HGH Frag 176-191 Peptide for research purposes.",
     "aliases": [],
