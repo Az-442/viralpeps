@@ -21817,5 +21817,13 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://cmsrlabs.co/product/tirzepatide-10mg/",
     "visitorId": "a4dbea43497bf093"
+  },
+  {
+    "ts": "2026-09-14T20:39:53.262Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk",
+    "visitorId": "33b9dc0c56bdfeff"
   }
 ]
