@@ -21047,5 +21047,23 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://leolab.co.uk/peptides/epithalon/",
     "visitorId": "fb095a119b3e46fd"
+  },
+  {
+    "ts": "2026-09-14T07:32:54.861Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://zentra-peptides.com/product/epithalon/",
+    "visitorId": "fd94b59a5fa3cfa8"
+  },
+  {
+    "ts": "2026-09-14T07:43:30.254Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/",
+    "visitorId": "9ab8b1197881c881"
   }
 ]
