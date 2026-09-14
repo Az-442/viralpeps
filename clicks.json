@@ -21674,5 +21674,41 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/",
     "visitorId": "a2e2a445ac60a445"
+  },
+  {
+    "ts": "2026-09-14T12:25:18.447Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://tidelabs.co.uk/products/epithalon",
+    "visitorId": "278fe7137253cfec"
+  },
+  {
+    "ts": "2026-09-14T12:25:42.924Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+    "visitorId": "c8761d0e5cdff6a7"
+  },
+  {
+    "ts": "2026-09-14T12:28:37.642Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.novapeptide.co.uk/product/epitalon/",
+    "visitorId": "413be8baf4b55915"
+  },
+  {
+    "ts": "2026-09-14T12:38:38.463Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://sterlingpeptides.co.uk/product/epitalon/",
+    "visitorId": "dad7b7f1e706ef3e"
   }
 ]
