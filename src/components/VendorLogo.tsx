@@ -20,11 +20,15 @@ export default function VendorLogo({
   size?: SizeVariant;
 }) {
   const [src, setSrc] = useState(`/images/vendors/${slug}.png`);
-  const [fallback, setFallback] = useState<"png" | "svg" | "initials">("png");
+  const [fallback, setFallback] = useState<"png" | "webp" | "svg" | "initials">("png");
   const sizeClass = SIZE_MAP[size];
 
   const onImgError = () => {
+    // Try every supported format before degrading to initials.
     if (fallback === "png") {
+      setFallback("webp");
+      setSrc(`/images/vendors/${slug}.webp`);
+    } else if (fallback === "webp") {
       setFallback("svg");
       setSrc(`/images/vendors/${slug}.svg`);
     } else {

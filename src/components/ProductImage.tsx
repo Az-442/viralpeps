@@ -46,6 +46,8 @@ export default function ProductImage({
       candidates.push(`${base}.jpg`);
       // 5. Vendor logo
       candidates.push(`/images/vendors/${vendorSlug}.png`);
+      candidates.push(`/images/vendors/${vendorSlug}.webp`);
+      candidates.push(`/images/vendors/${vendorSlug}.svg`);
       // 6. Compound icon (fallback)
       candidates.push(`/images/compounds/${compoundSlug}.png`);
 
