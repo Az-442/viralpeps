@@ -21173,5 +21173,49 @@
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://biopeptides-uk.com/product/kisspeptin-10mg/",
     "visitorId": "187c058c2e64acdb"
+  },
+  {
+    "ts": "2026-09-14T08:59:42.079Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.prime-peptides.co.uk/product/cjc-1295/",
+    "visitorId": "b4a2ca52686af20a"
+  },
+  {
+    "ts": "2026-09-14T09:00:14.197Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://biopeptides-uk.com/product/kisspeptin-10mg/",
+    "visitorId": "78a49e87b8081faa"
+  },
+  {
+    "ts": "2026-09-14T09:01:07.487Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://biopeptides-uk.com/product/kisspeptin-10mg/",
+    "visitorId": "410f4071f458a578"
+  },
+  {
+    "ts": "2026-09-14T09:01:13.406Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://biopeptides-uk.com/product/kisspeptin-10mg/",
+    "visitorId": "5df4735372293cee"
+  },
+  {
+    "ts": "2026-09-14T09:11:12.153Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "visitorId": "c26fafab784b4638"
   }
 ]
