@@ -20859,5 +20859,31 @@
     "vendorName": "Momentum Peptides",
     "destUrl": "https://momentumpeptides.com",
     "visitorId": "d2a0dca801341e13"
+  },
+  {
+    "ts": "2026-09-14T00:45:07.944Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com",
+    "visitorId": "da5dc7d954c4b245"
+  },
+  {
+    "ts": "2026-09-14T00:49:55.571Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://mypepbiotech.co.uk/product/epitalon-20mg/",
+    "visitorId": "09821c565524e5d8"
+  },
+  {
+    "ts": "2026-09-14T00:57:15.193Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptideslabuk.com/product/epithalon/",
+    "visitorId": "fd94b59a5fa3cfa8"
   }
 ]
