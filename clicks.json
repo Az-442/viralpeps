@@ -21428,5 +21428,21 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://www.imperialpeptides.co.uk/products/epitalon-10mg",
     "visitorId": "729979f1bc01b969"
+  },
+  {
+    "ts": "2026-09-14T09:54:17.736Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "visitorId": "c26fafab784b4638"
+  },
+  {
+    "ts": "2026-09-14T10:03:04.810Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "destUrl": "https://peptidesuk.com",
+    "visitorId": "32cce2f90298d3f1"
   }
 ]
