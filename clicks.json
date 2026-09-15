@@ -23968,5 +23968,149 @@
     "vendorName": "Imperial Peptides UK",
     "destUrl": "https://www.imperialpeptides.co.uk",
     "visitorId": "a356e4e89dfb838f"
+  },
+  {
+    "ts": "2026-09-15T13:39:06.303Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://pioneerpeptides.co.uk/products/aod-9604/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-15T13:49:05.178Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.peptidepal.co.uk/products/klow",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-15T13:49:07.177Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.peptidepal.co.uk/products/klow",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-15T13:49:07.230Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidepal.co.uk/products/glow",
+    "visitorId": "12267b0a13115564"
+  },
+  {
+    "ts": "2026-09-15T13:49:09.413Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.peptidepal.co.uk/products/klow",
+    "visitorId": "dc27bfbe4684178e"
+  },
+  {
+    "ts": "2026-09-15T13:49:10.699Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidepal.co.uk/products/glow",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-15T13:49:14.629Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidepal.co.uk/products/glow",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-15T13:55:49.220Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://claripep.co.uk/product/tb-500-5mg/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-15T13:55:49.734Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://claripep.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-15T13:55:53.809Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://claripep.co.uk/product/tb-500-5mg/",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-15T13:55:54.396Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://claripep.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-15T13:55:59.055Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://claripep.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "ab835b2313933276"
+  },
+  {
+    "ts": "2026-09-15T13:59:08.470Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "epitalon-10mg",
+    "destUrl": "https://claripep.co.uk/product/epithalon-10mg/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-15T13:59:13.123Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "epitalon-10mg",
+    "destUrl": "https://claripep.co.uk/product/epithalon-10mg/",
+    "visitorId": "68c493052c0703cd"
+  },
+  {
+    "ts": "2026-09-15T13:59:19.783Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "epitalon-10mg",
+    "destUrl": "https://claripep.co.uk/product/epithalon-10mg/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-15T14:02:28.034Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "thymosin-beta-4-tb500-10mg",
+    "destUrl": "https://claripep.co.uk/product/tb-500-10mg/",
+    "visitorId": "8715f3c67d4e8f56"
   }
 ]
