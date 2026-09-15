@@ -26103,5 +26103,14 @@
     "compoundSlug": "dsip-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/dsip/pen",
     "visitorId": "337b0019c4c9c879"
+  },
+  {
+    "ts": "2026-09-15T18:02:18.881Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-dac-5mg-ghrh",
+    "visitorId": "0c9beb8ab63b0a7f"
   }
 ]
