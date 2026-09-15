@@ -23924,5 +23924,49 @@
     "compoundSlug": "cjc-1295-dac",
     "destUrl": "https://pioneerpeptides.co.uk/products/cjc-1295-with-dac/",
     "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-15T12:55:46.544Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ghrp-2/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-15T13:11:07.693Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pioneerpeptides.co.uk/products/bpc-157-tb-500-blend/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-15T13:12:27.689Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ghk-cu/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-15T13:15:47.539Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://pioneerpeptides.co.uk/products/aicar/",
+    "visitorId": "62de1aaf5f371c2a"
+  },
+  {
+    "ts": "2026-09-15T13:31:29.718Z",
+    "type": "vendor-site",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "destUrl": "https://www.imperialpeptides.co.uk",
+    "visitorId": "a356e4e89dfb838f"
   }
 ]
