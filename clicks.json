@@ -23213,5 +23213,365 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
     "visitorId": "2ddcc53970131d4e"
+  },
+  {
+    "ts": "2026-09-15T11:29:03.164Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-15T11:29:03.535Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://olresearch.co.uk/product/glow-70mg/",
+    "visitorId": "3b6ef287760d1506"
+  },
+  {
+    "ts": "2026-09-15T11:29:06.100Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://olresearch.co.uk/product/glow-70mg/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-15T11:29:06.369Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-09-15T11:29:07.011Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-15T11:29:08.726Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-09-15T11:29:09.337Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-15T11:29:10.042Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://olresearch.co.uk/product/glow-70mg/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-15T11:32:35.557Z",
+    "type": "vendor-site",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "destUrl": "https://pioneerpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pioneer-peptides",
+    "visitorId": "989c0e7328292c80"
+  },
+  {
+    "ts": "2026-09-15T11:34:30.528Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptide-pal",
+    "visitorId": "989c0e7328292c80"
+  },
+  {
+    "ts": "2026-09-15T11:35:48.856Z",
+    "type": "vendor-site",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "destUrl": "https://claripep.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/claripep",
+    "visitorId": "276c0dc45a4485cc"
+  },
+  {
+    "ts": "2026-09-15T11:41:08.593Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ahk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ahk-cu/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-15T11:41:14.347Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ahk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ahk-cu/",
+    "visitorId": "96d906d6034ddc14"
+  },
+  {
+    "ts": "2026-09-15T11:42:25.027Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "metabolic-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/",
+    "visitorId": "1eb3230d1df9a94f"
+  },
+  {
+    "ts": "2026-09-15T11:42:26.767Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/",
+    "visitorId": "68c493052c0703cd"
+  },
+  {
+    "ts": "2026-09-15T11:42:27.992Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "total-repair-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/total-repair-stack/",
+    "visitorId": "c7db6d801ce33886"
+  },
+  {
+    "ts": "2026-09-15T11:42:29.625Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "metabolic-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-15T11:42:31.738Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "glp-transformation-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-09-15T11:42:32.352Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "total-repair-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/total-repair-stack/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-15T11:42:32.565Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-15T11:42:34.050Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "metabolic-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/metabolic-stack-nad-semaglutide/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-15T11:42:37.113Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/gkcu-blue-copper-peptide-100mg/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-09-15T11:42:37.527Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "glp-transformation-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-15T11:42:39.884Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "total-repair-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/total-repair-stack/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-15T11:42:41.894Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "glp-transformation-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/glp-transformation-stack/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-15T11:45:44.082Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "tesamorelin-15mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-15T11:45:45.083Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "wolverine-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/wolverine-stack-bpc-157-tb-500/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-15T11:45:50.959Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "wolverine-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/wolverine-stack-bpc-157-tb-500/",
+    "visitorId": "2ddcc53970131d4e"
+  },
+  {
+    "ts": "2026-09-15T11:47:44.048Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "tesamorelin-15mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/",
+    "visitorId": "0e631e2a276ba2af"
+  },
+  {
+    "ts": "2026-09-15T11:47:48.744Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "tesamorelin-15mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-15T11:49:05.738Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "c1f4ee09b7eba759"
+  },
+  {
+    "ts": "2026-09-15T11:49:11.500Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "68c493052c0703cd"
+  },
+  {
+    "ts": "2026-09-15T11:49:17.327Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-15T11:52:27.061Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/",
+    "visitorId": "3b6ef287760d1506"
+  },
+  {
+    "ts": "2026-09-15T11:52:27.926Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "nad-1000mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/nad-100mg/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-15T11:52:32.346Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "nad-1000mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/nad-100mg/",
+    "visitorId": "68c493052c0703cd"
+  },
+  {
+    "ts": "2026-09-15T11:52:37.787Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "nad-1000mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/nad-100mg/",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-09-15T11:54:27.568Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-15T11:54:32.337Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-15T11:59:04.673Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "age-reversal-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/age-reversal-stack/",
+    "visitorId": "2b220764f11dec3d"
   }
 ]
