@@ -29167,5 +29167,14 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "visitorId": "71a3a87da4e15693"
+  },
+  {
+    "ts": "2026-09-16T23:46:15.995Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/ghk-cu.html",
+    "visitorId": "7fc560120f7431e6"
   }
 ]
