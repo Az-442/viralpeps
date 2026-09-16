@@ -29132,5 +29132,14 @@
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk",
     "visitorId": "210d4a3622d1e9d1"
+  },
+  {
+    "ts": "2026-09-16T19:47:59.447Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/",
+    "visitorId": "009518e6cdf1954d"
   }
 ]
