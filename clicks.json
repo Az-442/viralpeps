@@ -27737,5 +27737,185 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.proformapeptides.co.uk/product/aod9604/",
     "visitorId": "5a1cf028177178b6"
+  },
+  {
+    "ts": "2026-09-16T02:26:30.985Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/",
+    "visitorId": "86f89d3f058c1d76"
+  },
+  {
+    "ts": "2026-09-16T02:27:36.067Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg",
+    "visitorId": "519f6cc2d26ed0f2"
+  },
+  {
+    "ts": "2026-09-16T02:27:49.680Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://octagonpeptides.co.uk/product/tesamorelin-10-mg/",
+    "visitorId": "09821c565524e5d8"
+  },
+  {
+    "ts": "2026-09-16T02:28:09.659Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "visitorId": "726939f303666916"
+  },
+  {
+    "ts": "2026-09-16T02:29:05.283Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptideslabuk.com/product/igf-1lr3/",
+    "visitorId": "703b929e66230499"
+  },
+  {
+    "ts": "2026-09-16T02:29:14.475Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "bpc-5mg-tb-5mg",
+    "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/",
+    "visitorId": "d59257324ddaf9c1"
+  },
+  {
+    "ts": "2026-09-16T02:29:14.586Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "pt-141-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/vial",
+    "visitorId": "3182d4ffe1768649"
+  },
+  {
+    "ts": "2026-09-16T02:29:16.869Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/dermorphin-5mg-dermorphin-heptapeptide-d-ala",
+    "visitorId": "eed6a037e3986ea1"
+  },
+  {
+    "ts": "2026-09-16T02:29:37.293Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://zentra-peptides.com/product/cjc-1295-with-dac/",
+    "visitorId": "f162743cde9ea823"
+  },
+  {
+    "ts": "2026-09-16T02:30:54.430Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/cjc-1295-without-dac-5mg/",
+    "visitorId": "86f89d3f058c1d76"
+  },
+  {
+    "ts": "2026-09-16T02:30:57.834Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biotideuk.com/products/ss-31-10mg",
+    "visitorId": "4eb520dc8d30bdad"
+  },
+  {
+    "ts": "2026-09-16T02:31:01.347Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/cjc-1295-ipamorelin-blend-10mg/",
+    "visitorId": "f762683016d30af2"
+  },
+  {
+    "ts": "2026-09-16T02:32:16.723Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "pnc-27",
+    "destUrl": "https://anglopeptides.com/product/pnc-27-5mg-peptide/",
+    "visitorId": "f98b53a52f56b9ee"
+  },
+  {
+    "ts": "2026-09-16T02:32:18.312Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin/",
+    "visitorId": "578d08a0859225a4"
+  },
+  {
+    "ts": "2026-09-16T02:32:25.983Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://anglopeptides.com/product/cjc-1295-without-dac-ipamorelin-5-mg-5-mg-batch-102-research-peptides/",
+    "visitorId": "e24ac32a0c60bd76"
+  },
+  {
+    "ts": "2026-09-16T02:37:12.462Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tb500-uk/",
+    "visitorId": "0926bb407113bc51"
+  },
+  {
+    "ts": "2026-09-16T02:37:21.134Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biopeptides-uk.com/product/glutathione-1500mg/",
+    "visitorId": "826a83cb14522033"
+  },
+  {
+    "ts": "2026-09-16T02:38:49.993Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ipamorelin-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/ipamorelin-5mg/",
+    "visitorId": "ea7e615a1770be0e"
+  },
+  {
+    "ts": "2026-09-16T02:40:29.607Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-mod-grf-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-mod-grf-5mg/",
+    "visitorId": "263b6b13b73b3678"
+  },
+  {
+    "ts": "2026-09-16T03:18:30.943Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://xlpeptides.com/product/aod-9604/",
+    "visitorId": "b5e9d6aa680dd2ab"
   }
 ]
