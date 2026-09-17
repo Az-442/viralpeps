@@ -10,6 +10,8 @@ import CompoundPageClient from "./CompoundPageClient";
 import { guides, ResearchArticle } from "@/data/research";
 import { getBreadcrumbs } from "@/data/breadcrumbs";
 import { JsonLd, compoundProduct } from "@/components/JsonLd";
+import RetaSiloTiles from "@/components/RetaSiloTiles";
+import { getRetaStats } from "@/data/retatrutide-silo";
 
 export const dynamic = "force-dynamic";
 
@@ -216,6 +218,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     const mb = parseInt(b.replace(/[^0-9]/g, ""));
     return ma - mb;
   });
+
+  // Retatrutide silo tile stats — only computed on the retatrutide hub page.
+  const retaStats = slug === "retatrutide" ? getRetaStats() : null;
 
   // Build Product + AggregateOffer schema (only if ≥1 real, valid vendor price)
   const productSchema = compoundProduct(compound as any);
@@ -463,6 +468,15 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           totalProducts={totalProducts}
         />
       </div>
+
+      {/* ===== RETATRUTIDE BUYING GUIDES — silo tiles (hub only) ===== */}
+      {slug === "retatrutide" && retaStats && (
+        <div className="bg-blue-50 border-t border-gray-100 py-12">
+          <div className="max-w-[76rem] mx-auto px-4">
+            <RetaSiloTiles stats={retaStats} />
+          </div>
+        </div>
+      )}
 
       {/* ===== RESEARCH LIBRARY — compound-specific only ===== */}
       {(() => {

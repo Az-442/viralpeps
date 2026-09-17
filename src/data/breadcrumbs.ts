@@ -48,4 +48,9 @@ export const BREADCRUMBS: Record<string, BreadcrumbItem[]> = {
   research: [{ label: "Research", href: "/research" }],
   // Home › Tools
   tools: [{ label: "Tools", href: "/tools" }],
+  // Home › Retatrutide › [guide]  (silo spokes)
+  "compound-guides": [
+    { label: "Peptides", href: "/compounds" },
+    { label: "Retatrutide", href: "/compounds/retatrutide" },
+  ],
 };

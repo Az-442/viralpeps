@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 import { guides } from "@/data/research";
+import { RETA_SPOKES } from "@/data/retatrutide-silo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://viralpeps.co.uk";
@@ -44,5 +45,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...compoundPages, ...vendorPages, ...researchPages];
+  // Retatrutide silo spokes (compound-guides) — weekly price content
+  const compoundGuidePages = RETA_SPOKES.map((s) => ({
+    url: `${baseUrl}/compound-guides/${s.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...compoundPages, ...vendorPages, ...researchPages, ...compoundGuidePages];
 }
