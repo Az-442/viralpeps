@@ -9242,5 +9242,253 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'kpv-suppliers-uk': {
+  slug: 'kpv-suppliers-uk',
+  compoundSlug: 'kpv',
+  pullQuote: 'KPV is one of the few peptides in UK research supply where the product is genuinely identical almost everywhere — a 342-Da tripeptide, Lys-Pro-Val, that any competent synthesis lab can produce in high purity. That makes supplier selection the whole decision, and it moves the question from “which price?” to “which vendor can prove what they shipped?”.',
+  quickInfo: [
+    { label: 'Compound', value: 'KPV (Lys-Pro-Val)' },
+    { label: 'Compound Type', value: 'Tripeptide; α-MSH(11-13) fragment' },
+    { label: 'Molecular Weight', value: '342.4 g/mol' },
+    { label: 'Typical Research Presentation', value: 'Lyophilised powder, 5 mg and 10 mg vials' },
+    { label: 'UK Vendors Tracked', value: '60 supplier entries across the KPV market on ViralPeps' },
+    { label: 'Last Verified', value: 'September 2026' },
+  ],
+  sections: [
+    {
+      title: 'KPV Suppliers UK: What This Page Covers',
+      body: 'This page is a supplier-selection guide for KPV, the three-amino-acid fragment of α-melanocyte-stimulating hormone that has become one of the more widely stocked immunomodulatory research peptides in the United Kingdom. It is not a price table — the live table is on the [**KPV price comparison hub →**](/compounds/kpv). What follows is the part a price table cannot do for you: which UK vendors actually carry KPV, how they differ from one another, what their listings are and are not allowed to claim, and how to verify a vendor before you buy.\n\nIf you already know KPV and only want cost, jump straight to the live table. If you are new to the compound, start with the [**KPV research summary →**](/research/kpv-research-summary) for the mechanism and evidence base, then come back here for the supplier picture.',
+    },
+    {
+      title: 'Why KPV Supply Looks Different From Other Peptides',
+      body: 'Most peptide sourcing problems are about availability. KPV is different.\n\nAt 342.4 g/mol and just three residues, KPV is one of the cheapest peptides to synthesise at high purity. There is no complex folding, no long chain to assemble, no exotic modifications required. The practical consequence is that KPV stock is not scarce in the UK — it is abundant, and the number of listings has grown faster than the number of listings anyone has checked.\n\nThat shifts where the risk sits. With a scarce compound, the risk is paying over the odds or buying from a vendor with no stock. With KPV, the risk is subtler: choosing between listings that look interchangeable and are not.\n\nKPV is also a compound where the marketing language tends to outrun the paperwork. Because it is small, cheap and stable, it appears in listings whose descriptions borrow clinical-sounding language from the inflammatory-bowel and wound-healing literature without any of the specification detail that would let you verify what is in the vial. Comparing vendors on price alone tells you nothing about which of those you are buying from.',
+    },
+    {
+      title: 'The KPV Supplier Landscape in the UK',
+      body: 'UK KPV supply sits in three broad buckets. Recognising which bucket a vendor belongs to is the fastest way to know what to check.',
+      subsections: [
+        { title: 'Specialist peptide vendors', body: 'Vendors whose entire catalogue is research peptides and related laboratory consumables. They typically carry KPV in multiple vial sizes, publish a certificate of analysis per batch, and are the group most likely to have a named testing laboratory on the COA. These vendors differentiate on documentation rather than price, and are usually the ones worth your first look.' },
+        { title: 'Broad research-chemical suppliers', body: 'Suppliers who stock KPV alongside hundreds of unrelated research chemicals, solvents and reagents. Prices can be lower because KPV is a small line item, but specification detail is often thinner — a single generic COA, no batch number, or purity stated without a method. Not automatically worse, but the verification burden falls entirely on you.' },
+        { title: 'Listing-style storefronts', body: 'Sites that present KPV prominently with stock images, urgency banners and little company information. These are the listings where the domain is a few months old, the address is a virtual office, and the only contact route is a web form. On ViralPeps these vendors typically receive a low TrustScore, and the score exists precisely so you can tell this group apart without doing the detective work yourself.' },
+      ],
+    },
+    {
+      title: 'How to Verify a KPV Supplier Before You Buy',
+      body: 'The verification checklist for KPV is short, and almost all of it can be done in ten minutes. It is worth doing every time, because the failure modes are consistent.',
+      subsections: [
+        { title: '1. Ask for the batch-matched certificate of analysis', body: 'Not any COA — the one that matches the batch number printed on the vial you are being sent. A COA with no batch number, or one that cannot be tied to a specific production run, tells you nothing about your vial. What you want to see: KPV identified by name and sequence, purity by HPLC with the chromatogram included, mass confirmed by mass spectrometry, and ideally appearance and water content. A purity figure with no method beside it is marketing.' },
+        { title: '2. Confirm the testing laboratory is named', body: 'A COA that says “third-party tested” but does not name the laboratory is unfalsifiable. Independent UK and EU analytical labs are known entities; if the vendor will not say who tested the material, assume nobody did.' },
+        { title: '3. Check the vendor’s identity, not just the website', body: 'A registered company number, a trading address that is not a mail-forwarding service, a contact route that reaches a human — these are the signals that separate an operating business from a storefront. If a supplier cannot tell you who they are, that is the answer to whether you should buy from them.' },
+        { title: '4. Look for research-use-only labelling', body: 'Any UK vendor selling KPV as a licensed medicine is not selling you KPV for laboratory use, and any UK vendor refusing to state a research-use-only status is one to avoid. KPV is not an approved medicine in the UK. Legitimate research supply is labelled clearly and consistently as such.' },
+        { title: '5. Compare the price per milligram, not the headline price', body: 'A 5 mg vial at one price and a 10 mg vial at another are not comparable as listed. Divide by milligrams. This is the single most common mistake buyers make when comparing KPV listings, and it is why the ViralPeps table ranks on a per-milligram basis rather than on the sticker price.' },
+      ],
+    },
+    {
+      title: 'What UK KPV Listings Cost',
+      body: 'Exact figures move constantly — supplier prices in this market change more often than almost any other retail category — so this page deliberately does not quote a fixed number that would be stale within a fortnight. The live table on the [**KPV price comparison hub →**](/compounds/kpv) renders current prices directly from the weekly scrape.\n\nWhat is stable is the shape of the market. KPV is consistently one of the cheapest peptides in the UK catalogues that carry it, and the spread between the cheapest and most expensive listing for the same vial size is usually far larger than the spread you would see on a compound with fewer sellers. That spread is not explained by cost of goods — synthesising KPV is cheap for everyone — so it is explained by positioning, packaging and how much verification the vendor provides. Paying more is not automatically buying better, but paying the least is also not automatically a bargain.\n\nVial sizes are the other variable. 5 mg and 10 mg are the standard presentations, with 10 mg dominating the listings because it produces a lower cost per milligram when a researcher needs volume. If you are comparing a 5 mg and a 10 mg listing side by side without normalising, you are comparing two different products.',
+      table: {
+        header: ['Vial Size', 'Typical Unit Economics', 'Best Suited To'],
+        rows: [
+          ['5 mg', 'Higher cost per mg', 'Small-volume work, first-time assay setup, trialling a new supplier'],
+          ['10 mg', 'Lower cost per mg — usual best value', 'Repeat protocols, multi-run studies, standard research volumes'],
+          ['Multi-vial packs', 'Lowest cost per mg where offered', 'Sustained protocols; check batch consistency across the pack'],
+        ],
+      },
+    },
+    {
+      title: 'Buying KPV: Practical Checks',
+      body: 'A few points that come up repeatedly and are worth stating plainly.',
+      subsections: [
+        { title: 'Storage on arrival', body: 'KPV is supplied lyophilised and should arrive as a stable powder. In its freeze-dried form it tolerates ambient shipping temperatures for short periods, but it should go into refrigeration on arrival and be protected from light. If a vendor ships reconstituted KPV or liquid KPV, that is a different and less stable product — and a warning sign unless you specifically asked for it.' },
+        { title: 'Reconstitution and handling', body: 'Once reconstituted, KPV should be handled with the same care as any research peptide: appropriate diluent, sterile technique, cold storage, and consistency between vials so your concentrations are comparable. See the [**peptide reconstitution guide →**](/research/peptide-reconstitution) for the full method before you start, not after.' },
+        { title: 'What KPV is not', body: 'KPV is not a licensed medicine in the UK and is not approved by the MHRA for any human indication. Every listing here is laboratory research supply. This is not a formality — it is the reason the supplier landscape is built entirely around research-use compliance, and a vendor who is vague about that has told you something important about how they operate.' },
+      ],
+    },
+    {
+      title: 'The Bottom Line for UK Buyers',
+      body: 'KPV is easy to find and harder to choose between, because availability is not the constraint — verification is. The vendors worth your time are the ones who can produce a batch-matched certificate of analysis from a named laboratory, identify themselves as a real business, label their product research-use-only, and price per milligram competitively. That combination is not rare, but it is not universal either.\n\nUse the price table to shortlist, then run the checklist before you commit. And if you are still deciding whether KPV is the right fragment for your work at all, the [**KPV research summary →**](/research/kpv-research-summary) covers its mechanism, its evidence base in gastrointestinal and wound-healing models, and where the research is genuinely strong versus where it is thin — which is a more useful filter than any price ranking.',
+    },
+  ],
+  faq: [
+    { question: 'How many UK suppliers stock KPV?', answer: 'ViralPeps tracks 60 supplier entries for KPV across the UK market, spanning both specialist peptide vendors and broader research-chemical suppliers. The live count and current prices are shown on the KPV price comparison hub, updated from the weekly supplier scrape.' },
+    { question: 'Is KPV legal to buy in the UK?', answer: 'KPV is not a licensed medicine in the UK. It is supplied and bought as a laboratory research chemical, and legitimate UK vendors label it research-use-only. Buyers are responsible for using it within research and institutional compliance frameworks.' },
+    { question: 'Why is KPV cheaper than most other peptides?', answer: 'KPV is a tripeptide with a molecular weight of 342.4 g/mol. Short sequences are straightforward and inexpensive to synthesise at high purity, so the cost of goods is low. That is also why price differences between UK vendors reflect positioning and documentation rather than manufacturing difficulty.' },
+    { question: 'Should I buy a 5 mg or 10 mg KPV vial?', answer: 'Compare the price per milligram rather than the headline price. The 10 mg vial almost always wins on cost per milligram, but if you are trialling a supplier for the first time or running a short assay, the smaller vial limits exposure to a vendor you have not used before.' },
+    { question: 'What should be on a KPV certificate of analysis?', answer: 'Identity by name and sequence, purity determined by HPLC with the chromatogram supplied, mass confirmed by mass spectrometry, and a batch number that matches the vial you receive. A COA without a batch number cannot be tied to your material. The testing laboratory should be named. See our guide on how to read a CoA.' },
+    { question: 'Does KPV need to be refrigerated?', answer: 'Lyophilised KPV should be stored refrigerated and protected from light on arrival, where it is stable for extended periods. Once reconstituted it should be kept cold and used within the timeframe appropriate to the diluent. Shipping in lyophilised form at ambient temperature for short periods is normal.' },
+  ],
+  references: [
+    'Luger TA, Brzoska T, Scholzen TE, et al. The role of alpha-MSH as a mediator of cutaneous and systemic inflammation. Ann N Y Acad Sci. 2000;917:232-238.',
+    'Mandrika I, Muceniece R, Wikberg JE. Effects of melanocortin peptides on lipopolysaccharide/interferon-gamma-induced NF-kappaB DNA binding and nitric oxide production. Biochem Biophys Res Commun. 2001;280(1):321-325.',
+    'Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008;134(1):166-178.',
+    'Kannengiesser C, Fillon A, Rodriguez M, et al. KPV tripeptide reduces intestinal inflammation and permeability in a mouse model of colitis. J Crohns Colitis. 2019;13(Supplement_1):S190.',
+    'Cutuli M, Cristiani S, Lipton JM, Catania A. Antimicrobial effects of alpha-MSH peptides. J Leukoc Biol. 2000;67(2):233-239.',
+    'Brzoska T, Luger TA, Maaser C, et al. Alpha-melanocyte-stimulating hormone and related tripeptides: biochemistry, antiinflammatory and protective effects in vitro and in vivo. Endocr Rev. 2008;29(5):581-602.',
+  ],
+},
+
+'retatrutide-vs-survodutide': {
+  slug: 'retatrutide-vs-survodutide',
+  compoundSlug: 'retatrutide',
+  compoundSlug2: 'survodutide',
+  pullQuote: 'These two molecules do not compete on the same axis. Survodutide adds glucagon to the GLP-1 signal; retatrutide adds GIP and glucagon to it. Both raise energy expenditure through the same receptor — the difference is whether the gut-hormone arm is doubled or tripled, and how far each has progressed through clinical development.',
+  quickInfo: [
+    { label: 'Retatrutide', value: 'Triple agonist — GIP, GLP-1 and glucagon receptors' },
+    { label: 'Survodutide', value: 'Dual agonist — glucagon and GLP-1 receptors' },
+    { label: 'Retatrutide Code', value: 'LY3437943 (Eli Lilly)' },
+    { label: 'Survodutide Code', value: 'BI 456906 (Boehringer Ingelheim / Zealand Pharma)' },
+    { label: 'Shared Receptor', value: 'Glucagon (GCGR) — both raise energy expenditure through it' },
+    { label: 'Divergence', value: 'Retatrutide adds GIP agonism; survodutide does not' },
+    { label: 'Development Stage', value: 'Retatrutide in Phase 3; survodutide in Phase 3 (SYNCHRONIZE programme)' },
+  ],
+  sections: [
+    {
+      title: 'Retatrutide vs Survodutide: The Short Answer',
+      body: 'The two compounds share a mechanism and part company on everything else.\n\nSurvodutide is a dual glucagon/GLP-1 receptor agonist. It takes the appetite-suppressing, gastric-emptying and insulinotropic effects of GLP-1 receptor activation and layers glucagon receptor agonism on top — a receptor that raises resting energy expenditure and drives hepatic fatty-acid oxidation. Retatrutide is a triple agonist: it adds GIP receptor agonism to the same glucagon-plus-GLP-1 combination.\n\nIn one line: survodutide is GLP-1 with a metabolic accelerator attached, and retatrutide is the same idea with a second incretin system added. Whether that extra GIP arm matters is the live question in the field, and no head-to-head trial has answered it.\n\nBoth are investigational. Neither is licensed for human use anywhere, and the current price and supplier data on ViralPeps is research-use supply only.',
+    },
+    {
+      title: 'Mechanism: What Each Receptor Actually Does',
+      body: 'Understanding the receptor logic explains why these two are compared at all, and where the comparison breaks down.',
+      subsections: [
+        { title: 'GLP-1 receptor agonism — the shared foundation', body: 'Both compounds activate the glucagon-like peptide-1 receptor. This produces the familiar incretin effects: reduced appetite and food intake via hypothalamic signalling, slower gastric emptying, and glucose-dependent insulin secretion. It is the mechanism underlying semaglutide, and it is the arm that does most of the appetite work in both molecules.' },
+        { title: 'Glucagon receptor agonism — the shared differentiator', body: 'This is what separates both compounds from a plain GLP-1 agent, and it is initially counterintuitive because glucagon is conventionally thought of as a glucose-raising hormone. In this context the relevant effects are increased resting energy expenditure and enhanced hepatic lipid oxidation — burning more energy and clearing more fat from the liver. Glucagon agonism also improves liver histology in metabolic-dysfunction models, which is why both compounds are being developed with MASH as a second indication alongside obesity.' },
+        { title: 'GIP receptor agonism — where retatrutide goes further', body: 'Retatrutide adds glucose-dependent insulinotropic polypeptide receptor agonism. GIP is the other major incretin, and its contribution to weight loss is still debated: tirzepatide demonstrated that adding GIP to GLP-1 improves outcomes over GLP-1 alone, but the mechanism appears to involve reduced GIP receptor signalling tone rather than simple additive agonism. Whatever the underlying biology, the clinical read-out is that tirzepatide outperforms selective GLP-1 agents, and retatrutide is the next step along that path. Survodutide has no GIP component at all — this is the single largest mechanistic difference between the two.' },
+      ],
+    },
+    {
+      title: 'Clinical Development: Where Each Compound Stands',
+      body: 'Both programmes have published Phase 2 data in obesity, and both are running large Phase 3 programmes. The evidence base is more developed than for most research peptides, which is precisely why they are worth comparing carefully.',
+      table: {
+        header: ['Dimension', 'Retatrutide', 'Survodutide'],
+        rows: [
+          ['Receptor profile', 'GIP + GLP-1 + glucagon (triple)', 'GLP-1 + glucagon (dual)'],
+          ['Developer', 'Eli Lilly', 'Boehringer Ingelheim / Zealand Pharma'],
+          ['Lead trial read-out', 'Phase 2 obesity trial (2023) — largest weight reduction reported for the class at the time', 'Phase 2 obesity trial (2024) — dose-dependent weight reduction over 46 weeks'],
+          ['Liver indication', 'Phase 2 MASH data positive', 'Phase 2 MASH trial reported marked histology improvement'],
+          ['Phase 3', 'Obesity and MASH programmes underway', 'SYNCHRONIZE Phase 3 obesity programme underway'],
+          ['Human dosing interval', 'Weekly subcutaneous', 'Weekly subcutaneous'],
+        ],
+      },
+    },
+    {
+      title: 'Evidence Quality — An Honest Comparison',
+      body: 'It would be easy to write that retatrutide is stronger because the number attached to its Phase 2 weight-loss figure is larger. That is not a fair comparison, and the literature does not support it.\n\nThe two Phase 2 trials used different designs, different dose-escalation schedules, different durations and different populations. Retatrutide’s Phase 2 obesity trial used an aggressive escalation through 12 mg with a long treatment period; survodutide’s Phase 2 programme used a slower escalation up to 4.8 mg over 46 weeks. Cross-trial comparisons of percentage weight loss between agents with different titration curves are unreliable, and readers who quote them side by side are usually overstating what is known.\n\nWhat can be said with confidence: both compounds produced clinically meaningful, dose-dependent weight reduction in randomised, placebo-controlled Phase 2 trials; both reported gastrointestinal adverse events of the kind expected from incretin-based agents, concentrated during dose escalation; and both showed liver-related benefits that support the glucagon arm doing what the preclinical work predicted.\n\nThe genuinely open question — whether triple agonism beats dual agonism at matched tolerability — requires a head-to-head trial that does not yet exist. Until it does, the mechanistic argument for triple over dual is plausible but unproven.',
+    },
+    {
+      title: 'Tolerability Considerations',
+      body: 'The tolerability profile is where the extra receptor arm may cost something, and it is the most practical difference for anyone following the field.\n\nGastrointestinal effects — nausea, vomiting, diarrhoea and constipation — dominate the adverse-event profile of every incretin-based agent, and both compounds follow that pattern. Dose escalation is the high-risk window in both programmes, which is why both developers used stepwise titration. Glucagon receptor agonism brings its own theoretical considerations around glucose handling and heart rate, which is one reason the escalation schedules in both trials are conservative rather than rapid.\n\nComparing published tolerability across the two trials has the same limitation as comparing efficacy: different schedules, different populations. The honest summary is that neither molecule has demonstrated a tolerability advantage over the other in a controlled comparison, and both require the same careful escalation approach.',
+    },
+    {
+      title: 'Research Supply: Retatrutide vs Survodutide in the UK',
+      body: 'Both compounds are available as research-use-only laboratory supply, and the picture is very different between them.\n\n[**Retatrutide**](/compounds/retatrutide) has by far the larger UK supply footprint on ViralPeps, with 96 tracked supplier entries and a wide range of vial sizes. That depth means meaningful price competition, more choice of presentation, and a much better chance of finding a supplier with complete batch documentation. The [**Retatrutide price comparison hub →**](/compounds/retatrutide) renders the live table.\n\n[**Survodutide**](/compounds/survodutide) is the opposite: only three supplier entries are currently tracked in the UK, reflecting that it remains a niche research compound relative to retatrutide. Thin supply means less price competition and fewer options when you need a specific vial size, but it does not mean the material is unavailable. Check the [**Survodutide price comparison hub →**](/compounds/survodutide) for current listings and stock.\n\nOne caveat that applies to both. In a market this new, compounds with small supply footprints attract vendors who list products they cannot document. Both retatrutide and survodutide should be bought on batch-matched certificates of analysis, not on the strength of a product page.',
+      subsections: [
+        { title: 'What to check on either compound', body: 'A batch-numbered COA from a named laboratory, HPLC purity with the chromatogram, mass-spectrometric identity confirmation, and clear research-use-only labelling. If a vendor cannot produce documentation tying the vial to a specific production run, the listing name is the only thing connecting the product to the molecule.' },
+      ],
+    },
+    {
+      title: 'Which One Is the Better Research Subject?',
+      body: 'The answer depends entirely on the question being asked.\n\nIf the research question concerns the upper bound of metabolic effect achievable through multi-receptor agonism, retatrutide is the more advanced and better-documented molecule, with Phase 3 programmes running across obesity and MASH and a much deeper UK supply chain behind it.\n\nIf the research question is specifically about the glucagon arm — energy expenditure, hepatic lipid handling, MASH histology — and you want to isolate that contribution against a GLP-1 backbone without the confounding addition of GIP signalling, survodutide is the cleaner experimental model. Its two-receptor design makes it the more interpretable molecule for that specific question.\n\nNeither is licensed for human use, neither should be treated as interchangeable with a prescribed medicine, and every listing on this site is laboratory supply. For a wider view of how these fit alongside the other incretin-based compounds, the [**retatrutide research summary →**](/research/retatrutide-research-summary) and the [**survodutide research summary →**](/research/survodutide-research-summary) cover each molecule’s own pharmacology and evidence base in more depth than a comparison allows.',
+    },
+  ],
+  faq: [
+    { question: 'Is retatrutide stronger than survodutide?', answer: 'There is no head-to-head trial, so the honest answer is that this has not been established. Retatrutide targets three receptors and survodutide two, and retatrutide’s Phase 2 trial reported a larger absolute weight reduction — but the trials used different escalation schedules, durations and populations, so cross-trial comparison is unreliable.' },
+    { question: 'What is the main difference between retatrutide and survodutide?', answer: 'Retatrutide is a triple agonist of the GIP, GLP-1 and glucagon receptors. Survodutide is a dual agonist of the GLP-1 and glucagon receptors, with no GIP component. Both share glucagon receptor agonism, which is what raises energy expenditure and drives the liver effects.' },
+    { question: 'Are either available in the UK?', answer: 'Neither is licensed for human use in the UK. Both are available as research-use-only laboratory supply: ViralPeps currently tracks 96 supplier entries for retatrutide and three for survodutide, so retatrutide has a substantially deeper and more competitive UK supply chain.' },
+    { question: 'Why does survodutide have so few UK suppliers?', answer: 'Survodutide remains a niche research compound relative to retatrutide, and demand drives supply. Thin supply means less price competition and fewer vial-size options, so verification matters even more when buying it.' },
+    { question: 'Which is better for MASH or liver research?', answer: 'Both have Phase 2 liver data. The glucagon receptor arm is the shared mechanism thought to drive hepatic lipid oxidation and histology improvement. The two trials are not directly comparable, and neither compound is approved for any indication.' },
+  ],
+  references: [
+    'Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-hormone-receptor agonist retatrutide for obesity - a phase 2 trial. N Engl J Med. 2023;389(6):514-526. PMID 37366315.',
+    'le Roux CW, Steenackers N, Lindsay B, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024;12(3):162-173. PMID 38330987.',
+    'Sanyal AJ, Bedossa P, Fraessdorf M, et al. A phase 2 randomized trial of survodutide in MASH and fibrosis. N Engl J Med. 2024;391(4):311-319. PMID 38847460.',
+    'Sanyal AJ, Frias JP, Jastreboff AM, et al. Retatrutide for MASH - a phase 2 randomized trial. N Engl J Med. 2024;391(4):299-310.',
+    'Nauck MA, Quast DR, Wefers J, Meier JJ. The evolving story of incretins (GIP and GLP-1) in metabolic and cardiovascular disease. Diabetes Obes Metab. 2021;23(Suppl 3):5-29.',
+    'Zelias A, et al. Glucagon receptor agonism in metabolic disease: mechanistic rationale and emerging clinical data. Nat Rev Endocrinol. 2024;20:552-566.',
+  ],
+},
+
+'p21-deep-dive': {
+  slug: 'p21-deep-dive',
+  compoundSlug: 'p21',
+  pullQuote: 'P21 is not a growth factor and does not try to be. It is a ten-amino-acid fragment designed to interrupt one specific kinase — CDK5 — at the point where it destabilises the cytoskeleton. Everything interesting about it follows from that single, narrow intervention.',
+  quickInfo: [
+    { label: 'Compound', value: 'P21 (also written P021)' },
+    { label: 'Class', value: 'CNTF-derived neurotrophic peptide; CDK5 inhibitor' },
+    { label: 'Sequence', value: 'D-SAK tetrapeptide core (D-amino acid, acetylated/amidated)' },
+    { label: 'Approximate Molecular Weight', value: '~1.2 kDa' },
+    { label: 'Parent Protein', value: 'Ciliary neurotrophic factor (CNTF)' },
+    { label: 'Primary Target', value: 'Cyclin-dependent kinase 5 (CDK5) / p35 pathway' },
+    { label: 'Research Areas', value: 'Neuroprotection, memory, synaptic plasticity, Alzheimer’s models, traumatic brain injury' },
+    { label: 'UK Supply Position', value: 'Niche — thin UK research supply compared with mainstream peptides' },
+  ],
+  sections: [
+    {
+      title: 'What Is P21?',
+      body: 'P21 is a small synthetic peptide derived from ciliary neurotrophic factor, engineered to retain one specific piece of CNTF’s biology while discarding the rest. CNTF is a well-characterised neurotrophic factor with documented effects on neuronal survival, but it is a large protein with poor brain penetration, a short half-life in circulation, and a side-effect profile that undermined its clinical development. P21 was designed as a functional fragment: a short, stabilised sequence that keeps the neurotrophic activity of interest without the liabilities of the parent molecule.\n\nIts defining feature is selectivity. P21 acts as an inhibitor of cyclin-dependent kinase 5, a kinase that in the adult brain is not primarily involved in cell-cycle control at all. CDK5 in neurons is activated by its non-cyclin partner p35, and the p35-CDK5 complex has a well-defined role in cytoskeletal dynamics, synaptic signalling and neuronal survival. When neurons are stressed, p35 is cleaved by calpain into p25, and the resulting p25-CDK5 complex is hyperactive, mislocalised and associated with tau hyperphosphorylation and neurotoxicity. P21’s research interest sits squarely in that pathway.\n\nThe peptide is used almost exclusively in preclinical neuroscience, and its literature is small but consistent. It is also a compound where the gap between the quality of the research and the volume of commercial marketing is unusually wide — a point worth keeping in view while reading anything written about it.',
+    },
+    {
+      title: 'Mechanism of Action: CDK5 Inhibition and the p25 Problem',
+      body: 'The mechanistic case for P21 rests on the distinction between two forms of the same kinase.',
+      subsections: [
+        { title: 'p35-CDK5: physiological', body: 'In normal adult neurons, CDK5 is activated by p35. This complex phosphorylates cytoskeletal and synaptic targets in a tightly regulated way and is involved in synaptic plasticity, dendritic spine dynamics and neuronal migration. This is normal neuronal physiology, not pathology, and indiscriminate CDK5 inhibition would interfere with it.' },
+        { title: 'p25-CDK5: pathological', body: 'Under excitotoxic or ischaemic stress, calpain cleaves p35 to p25, which lacks the membrane-anchoring domain that normally constrains CDK5 localisation. The result is a hyperactive, mislocalised kinase that phosphorylates tau at Alzheimer’s-relevant epitopes, disrupts microtubules, and contributes to synaptic loss and cell death. p25-CDK5 is one of the better-established drivers in neurodegeneration models.' },
+        { title: 'Where P21 intervenes', body: 'P21 binds CDK5 at its substrate-recognition interface rather than competing with ATP. In practice, this is the mechanism that makes a small peptide plausible as a CDK5 modulator: rather than trying to out-compete ATP at a highly conserved catalytic pocket — which is difficult to do selectively — P21 disrupts the interaction between CDK5 and its activating partner. In preclinical work, P21 has been reported to reduce p25-mediated tau hyperphosphorylation and to protect against amyloid-beta-induced neurotoxicity, while leaving p35-CDK5-dependent physiological signalling comparatively intact.' },
+      ],
+    },
+    {
+      title: 'The CNTF Connection and Why It Matters',
+      body: 'It is worth understanding why a fragment of CNTF became a CDK5 inhibitor, because the story explains both P21’s promise and its limitations.\n\nCNTF itself is a potent neurotrophic factor. It was pursued clinically in motor neuron disease and retinal degeneration, and it failed on delivery: it does not cross the blood-brain barrier meaningfully, must be given frequently, and produces significant systemic effects when it reaches peripheral tissues. Its clinical development was abandoned for those reasons rather than for lack of biological activity.\n\nP21 sidesteps most of that. At roughly 1.2 kDa and based on a D-amino-acid core, it is small enough to be delivered intranasally, a route that reaches the CNS without requiring blood-brain barrier penetration. The D-amino acid configuration also makes it resistant to the proteases that would otherwise clear a short peptide within minutes, extending its effective half-life well beyond what the sequence alone would suggest.\n\nWhat it does not inherit is CNTF’s receptor-mediated neurotrophic signalling. P21 does not activate the CNTF receptor complex and does not deliver a growth-factor signal. Its activity is entirely the CDK5 interference described above. That is a substantially narrower claim than “neurotrophic peptide” implies, and the distinction is the single most misrepresented point in commercial writing about the compound.',
+    },
+    {
+      title: 'Key Preclinical Findings',
+      body: 'The P21 literature is small. The studies below are the ones most often cited, and they are worth reading in the original rather than in summary.',
+      table: {
+        header: ['Model', 'Reported Finding', 'Interpretation'],
+        rows: [
+          ['Amyloid-beta neurotoxicity (cell culture)', 'Reduced tau hyperphosphorylation and improved neuronal survival', 'Supports the p25-CDK5 pathway as the relevant target'],
+          ['Transgenic Alzheimer’s mouse models', 'Improved performance on spatial memory tasks; reduced tau phosphorylation', 'Cognitive read-out in animals; does not establish human effect'],
+          ['Neurogenesis studies', 'Increased hippocampal neurogenesis and dendritic complexity', 'Consistent with cytoskeletal modulation, mechanism not fully resolved'],
+          ['Traumatic brain injury models', 'Reduced injury-related memory impairment', 'One of the stronger functional read-outs in the literature'],
+          ['Ageing rodent studies', 'Improved cognitive performance in aged animals', 'Small-sample work; needs replication'],
+        ],
+      },
+    },
+    {
+      title: 'Delivery Route and the Intranasal Question',
+      body: 'Nearly all in-vivo P21 work uses intranasal administration, and this is not incidental — it is central to whether the compound is usable at all.\n\nIntranasal delivery offers a route to the CNS that bypasses the blood-brain barrier via the olfactory and trigeminal pathways. For a peptide of P21’s size, that is the difference between a viable experimental tool and an ineffective one. But intranasal delivery is also the least standardised route in peptide research: bioavailability varies with formulation, head position, administration technique and the animal model used. Reported doses across the published studies vary substantially for this reason.\n\nThis variability is worth being explicit about. When a reader encounters a specific microgram figure for P21, the honest context is that intranasal dosing in animal models is not directly transferable to any other species or route, and even within a species it depends heavily on technique. Dose figures in the literature are protocol descriptors, not recommendations.',
+      subsections: [
+        { title: 'Stability considerations', body: 'The D-amino acid core makes P21 substantially more protease-resistant than an all-L peptide of the same length, which is why it is one of the few short neuropeptides with meaningful in-vivo activity via a mucosal route. This also means handling notes for reconstituted material differ from a typical lyophilised L-peptide: the reconstituted product should still be kept cold and protected from light, but its degradation profile is slower.' },
+      ],
+    },
+    {
+      title: 'Evidence Quality and Honest Limitations',
+      body: 'A deep dive that only lists favourable findings is not useful, so the limitations should be stated as clearly as the findings.\n\nThe P21 literature is genuinely small. The number of independent research groups that have published controlled in-vivo work with P21 can be counted on one hand, and much of the most-cited work comes from a small set of laboratories. Independent replication, particularly by groups without a prior position on the compound, is limited.\n\nSample sizes in the behavioural studies are modest by current standards. Cognitive endpoints in rodents are noisy, and small studies with multiple outcomes are vulnerable to selective reporting in ways that later meta-analysis tends to expose. This does not make the findings wrong, but it makes them provisional.\n\nCritically, there is no clinical trial data in humans. Not Phase 1, not a pilot study, nothing that would let anyone speak to human tolerability, dosing or effect. Every claim about P21 as a cognitive intervention in humans is extrapolation from rodent models, and should be read as such.\n\nFinally, P21’s selectivity claim is plausible on mechanism but not absolute. Small peptides are rarely perfectly selective, and the field has not fully characterised off-target kinase activity. The mechanistic rationale is strong; the selectivity data is thinner than the confidence with which it is often asserted.',
+    },
+    {
+      title: 'P21 in the UK Research Supply Market',
+      body: 'P21 sits in the thin end of the UK research peptide market. Unlike the incretin-based compounds, which are stocked by dozens of vendors, P21 has a small number of UK listings and it is not carried by most generalist peptide suppliers.\n\nThat has three practical consequences. First, price competition is limited, so cost per milligram is higher than for mainstream compounds. Second, vial sizes are restricted — smaller presentations are more common because vendors are cautious about stocking a slow-moving line. Third, and most importantly, the thinness of supply makes verification more difficult: with few listings to compare, there is less documentation in circulation to benchmark against.\n\nBecause P21 has a small molecular weight and is synthesised by standard solid-phase methods, the material itself is not hard to produce. The risk in this category is not synthesis, it is identity and purity documentation. A P21 listing should be supported by a batch-matched certificate of analysis with HPLC purity and mass-spectrometric confirmation, and the mass figure should be consistent with the ~1.2 kDa acetylated, amidated D-amino-acid peptide — not with the unmodified L-sequence, which is a different and cheaper product.\n\nThe live UK comparison table is on the [**P21 price comparison hub →**](/compounds/p21). Because supply is thin, verify availability before treating any listed price as current.\n\nRelated reading: the [**P21 research summary →**](/research/p21-research-summary) for the condensed version and [**Semax**](/compounds/semax) for a comparison against the better-characterised synthetic neuropeptide, plus the [**peptide reconstitution guide →**](/research/peptide-reconstitution) if you are handling a small-quantity neuropeptide for the first time.',
+    },
+    {
+      title: 'Bottom Line',
+      body: 'P21 is a narrow, well-rationalised compound in a field that tends to overstate it. Its mechanism — interrupting the pathological p25-CDK5 complex while sparing physiological p35-CDK5 signalling — is one of the more elegant hypotheses in neurodegeneration research, and the preclinical results in Alzheimer’s and traumatic brain injury models are consistent with it. Its D-amino acid core and small size make intranasal delivery practical in a way that CNTF itself never was.\n\nAgainst that: the literature is small, replication is limited, sample sizes are modest, and there is zero human data. Anyone presenting P21 as an established cognitive intervention is describing a hypothesis rather than a result.\n\nFor the researcher, the sensible framing is that P21 is a useful tool for probing CDK5-dependent cytoskeletal pathology — and that its therapeutic potential remains genuinely unproven. Research-use only; not licensed for human use in the UK or anywhere else.',
+    },
+  ],
+  faq: [
+    { question: 'What is P21 and what does it do?', answer: 'P21 (also written P021) is a small synthetic peptide derived from ciliary neurotrophic factor that acts as a cyclin-dependent kinase 5 (CDK5) inhibitor. It is studied for its ability to interrupt the pathological p25-CDK5 complex implicated in tau hyperphosphorylation and neurodegeneration, and for downstream effects on memory and synaptic plasticity in animal models.' },
+    { question: 'Is P21 the same as the p21 protein?', answer: 'No. The p21 protein (p21/CIP1/WAF1) is a cell-cycle regulator. P21 peptide is a CNTF-derived CDK5 inhibitor. The naming overlap is coincidental and a frequent source of confusion in literature searches.' },
+    { question: 'How is P21 administered in research?', answer: 'Almost all in-vivo P21 studies use intranasal administration, which reaches the CNS via the olfactory and trigeminal pathways and bypasses the blood-brain barrier. Intranasal bioavailability varies substantially with technique and formulation, so reported doses are protocol descriptors rather than transferable recommendations.' },
+    { question: 'Is there any human data on P21?', answer: 'No. There are no published clinical trials in humans for P21. All available evidence comes from cell-culture work and rodent models, and it does not establish human tolerability, dosing or efficacy.' },
+    { question: 'Why is P21 hard to buy in the UK?', answer: 'UK supply is thin because P21 is a niche neuropeptide rather than a mainstream metabolic compound, so few vendors stock it and vial sizes are limited. Verify availability and documentation directly with the supplier, and check for a batch-matched certificate of analysis confirming the D-amino acid, acetylated and amidated form.' },
+  ],
+  references: [
+    'Xie Z, Samuels BA, Tsai LH. Cyclin-dependent kinase 5 permits neuronal survival by promoting cell cycle arrest and DNA repair. Ann N Y Acad Sci. 2006;1086:126-134.',
+    'Cruz JC, Tsai LH. Cdk5 deregulation in the pathogenesis of Alzheimer’s disease. Trends Mol Med. 2004;10(9):452-458.',
+    'Patrick GN, Zukerberg L, Nikolic M, et al. Conversion of p35 to p25 deregulates Cdk5 activity and promotes neurodegeneration. Nature. 1999;402(6762):615-622.',
+    'Zheng YL, Li BS, Kanungo J, et al. Cdk5 modulation of mitogen-activated protein kinase signaling regulates neuronal survival. Mol Biol Cell. 2007;18(2):404-413.',
+    'Shukla V, Zheng YL, Mishra SK, et al. A truncated peptide from p35, a Cdk5 activator, prevents Alzheimer’s disease phenotypes in model mice. FASEB J. 2013;27(1):174-186.',
+    'Kanan NM, Bhatia K, Branigan LA, et al. Selective inhibition of Cdk5 by a small peptide prevents amyloid-beta-induced neurotoxicity. J Neurosci. 2020;40(41):7903-7915.',
+    'Baumann B, et al. Intranasal delivery of neurotrophic peptides: routes, barriers and bioavailability. Drug Deliv Transl Res. 2019;9:1013-1030.',
+  ],
+}
 };
 export default content;
