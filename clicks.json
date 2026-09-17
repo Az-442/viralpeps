@@ -29398,5 +29398,14 @@
     "vendorName": "Revexa",
     "destUrl": "https://www.revexa.co.uk",
     "visitorId": "e78b7ffe9da71b7f"
+  },
+  {
+    "ts": "2026-09-17T20:47:03.996Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "visitorId": "d61fecf1e4192b28"
   }
 ]
