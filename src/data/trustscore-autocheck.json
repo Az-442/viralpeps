@@ -2432,5 +2432,41 @@
       "coa": null,
       "review": null
     }
+  },
+  "revexa": {
+    "slug": "revexa",
+    "website": "https://www.revexa.co.uk",
+    "checkedAt": "2026-09-17T00:35:57.363Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "research peptides uk | bpc-157 tb-500 tirzepatide | revexa"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "coa",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 4,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "dpd",
+      "coa": null,
+      "review": null
+    },
+    "reviews": true,
+    "evidence": {
+      "reviews": "testimonial section \"What Customers Say About Our Service\" (rendered)"
+    },
+    "manualOverride": {
+      "reviews": "rendered-SPA testimonial section — verified in browser"
+    }
   }
 }
