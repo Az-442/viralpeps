@@ -30619,5 +30619,203 @@
     "compoundSlug": "dsip",
     "destUrl": "https://www.buyreta.co.uk/product/dsip-uk",
     "visitorId": "841d8ecb3db38ede"
+  },
+  {
+    "ts": "2026-09-18T19:59:53.758Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptx.co.uk/single-vials/tesamorelin",
+    "visitorId": "727547b72e645c93"
+  },
+  {
+    "ts": "2026-09-18T20:00:01.607Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-research-peptide",
+    "visitorId": "89b166bfa8a84c67"
+  },
+  {
+    "ts": "2026-09-18T20:00:44.777Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://cmsrlabs.co/product/tesamorelin-5mg/",
+    "visitorId": "6dc452224f74919a"
+  },
+  {
+    "ts": "2026-09-18T20:03:27.324Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "2c3b5b6dce17c0cf"
+  },
+  {
+    "ts": "2026-09-18T20:03:38.467Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.buyreta.co.uk/product/ipamorelin-10mg-uk",
+    "visitorId": "154c21e02682059f"
+  },
+  {
+    "ts": "2026-09-18T20:05:13.492Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://britpeptides.co.uk/product/mots-c-10mg/",
+    "visitorId": "e785b9de1978f108"
+  },
+  {
+    "ts": "2026-09-18T20:05:13.803Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://polygonpeptides.co.uk/product/klow-80mg/",
+    "visitorId": "1dd912125444fc70"
+  },
+  {
+    "ts": "2026-09-18T20:06:09.598Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://www.buyreta.co.uk/product/bpc-tb500-mix-uk",
+    "visitorId": "304e9068bac4cd01"
+  },
+  {
+    "ts": "2026-09-18T20:12:23.485Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biohackpeptides.co.uk/product/ss-31-50mg-3ml-bac-water/",
+    "visitorId": "5002141b4b1b102b"
+  },
+  {
+    "ts": "2026-09-18T20:12:23.499Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+    "visitorId": "801d1826cabab583"
+  },
+  {
+    "ts": "2026-09-18T20:12:38.878Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg",
+    "visitorId": "ffa6c35d7e2fbcec"
+  },
+  {
+    "ts": "2026-09-18T20:13:41.775Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "visitorId": "c2b1ddda508af45e"
+  },
+  {
+    "ts": "2026-09-18T20:13:50.117Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "c2b1ddda508af45e"
+  },
+  {
+    "ts": "2026-09-18T20:14:12.588Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://chiltonlabs.co.uk/product/ipamorelin-10mg-vial/",
+    "visitorId": "559f0677e04499b5"
+  },
+  {
+    "ts": "2026-09-18T20:15:53.875Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptx.co.uk/single-vials/ss-31",
+    "visitorId": "715f61adfe3a0a34"
+  },
+  {
+    "ts": "2026-09-18T20:16:50.101Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/",
+    "visitorId": "56d0aaf9d9eebc7e"
+  },
+  {
+    "ts": "2026-09-18T20:24:12.780Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
+    "visitorId": "5b6cf2614567e273"
+  },
+  {
+    "ts": "2026-09-18T20:24:14.404Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/dsip-10mg",
+    "visitorId": "1a41718c026ce3a6"
+  },
+  {
+    "ts": "2026-09-18T20:26:51.160Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://britpeptides.co.uk/product/selank/",
+    "visitorId": "1a41718c026ce3a6"
+  },
+  {
+    "ts": "2026-09-18T20:28:13.589Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ss-31-10mg",
+    "visitorId": "03cd08c82d206931"
+  },
+  {
+    "ts": "2026-09-18T20:28:21.184Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biohackpeptides.co.uk/product/mots-c-10mg-3ml-bac-water/",
+    "visitorId": "e81c2e35e027434c"
+  },
+  {
+    "ts": "2026-09-18T20:29:32.646Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/",
+    "visitorId": "727547b72e645c93"
   }
 ]
