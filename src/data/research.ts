@@ -1188,6 +1188,38 @@ export const guides: ResearchArticle[] = [
   minutes: 13,
   tags: ['p21', 'p021', 'cdk5', 'cntf', 'neuropeptide', 'neuroprotection', 'neurogenesis', 'deep-dive', 'intranasal'],
 },
+  {
+    title: "Epitalon for Longevity: What the Research Actually Shows",
+    desc: "Epitalon (AEDG) for longevity — the telomerase induction and pineal/circadian hypotheses, what the preclinical and small clinical literature supports, and where the evidence runs out.",
+    category: "Guide",
+    section: "goals",
+    compound: "Epitalon",
+    slug: "epitalon-for-longevity",
+    image: "epitalon-for-longevity",
+    minutes: 11,
+    tags: ["epitalon", "aedg", "longevity", "telomerase", "pineal", "circadian", "anti-aging"],
+  },
+  {
+    title: "CJC-1295 (With DAC) Deep Dive: The Albumin Conjugate Explained",
+    desc: "How the drug-affinity complex turns a 29-residue GHRH analogue into a week-long depot — mechanism, pharmacokinetics, comparison with other GH-axis peptides, and the UK supply picture.",
+    category: "Compound Profiles",
+    section: "peptides",
+    compound: "CJC-1295 (With DAC)",
+    slug: "cjc-1295-with-dac-deep-dive",
+    image: "cjc-1295-with-dac-deep-dive",
+    minutes: 12,
+    tags: ["cjc-1295", "dac", "ghrh", "growth-hormone", "albumin", "half-life", "deep-dive"],
+  },
+  {
+    title: "Types of Research Peptides: A Structural and Functional Map",
+    desc: "The five structural classes of research peptides — native sequences, modified analogues, minimal fragments, conjugated peptides and cyclic/constrained peptides — plus the nine functional research areas in the UK catalogue.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "types-of-research-peptides",
+    image: "types-of-research-peptides",
+    minutes: 13,
+    tags: ["research-peptides", "peptide-classes", "structural-classification", "primer", "guide"],
+  },
 ];
 
 export const compoundList: string[] = [
