@@ -30817,5 +30817,86 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/",
     "visitorId": "727547b72e645c93"
+  },
+  {
+    "ts": "2026-09-18T20:29:39.788Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-nasal-spray",
+    "visitorId": "2a3200d43703d3a4"
+  },
+  {
+    "ts": "2026-09-18T20:29:47.016Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.peptidepal.co.uk/products/mots-c",
+    "visitorId": "54deb23bd050a047"
+  },
+  {
+    "ts": "2026-09-18T20:34:01.753Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/mots-c-20mg",
+    "visitorId": "db3cd4a824f52097"
+  },
+  {
+    "ts": "2026-09-18T20:37:48.305Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "dihexa",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/dihexa-10mg-5ml/",
+    "visitorId": "2e24989b9dd4a353"
+  },
+  {
+    "ts": "2026-09-18T20:37:48.659Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg",
+    "visitorId": "c4417288828f3e59"
+  },
+  {
+    "ts": "2026-09-18T20:44:41.914Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "7f5e6f4eedc608ec"
+  },
+  {
+    "ts": "2026-09-18T20:56:08.543Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "4d3b6d6ac407f54e"
+  },
+  {
+    "ts": "2026-09-18T20:56:50.723Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/klow-80mg/",
+    "visitorId": "660126cf1eb04fb6"
+  },
+  {
+    "ts": "2026-09-18T21:01:37.411Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500",
+    "visitorId": "d9de98f0b6da8e45"
   }
 ]
