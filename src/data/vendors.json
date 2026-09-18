@@ -1979,8 +1979,8 @@
       "Bank transfer",
       "Cards"
     ],
-    "lastTested": "",
-    "labTested": false,
+    "lastTested": "2026-09-18",
+    "labTested": true,
     "_autoChecks": {
       "live": true,
       "coa": true,
@@ -1991,12 +1991,12 @@
       "productPageFetched": true,
       "evidence": {
         "coa": "coa",
-        "ruo": "for research purposes",
+        "ruo": "research use only",
         "reviews": null,
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:53.815Z"
+      "checkedAt": "2026-09-18T00:34:02.298Z"
     }
   },
   {
@@ -3883,7 +3883,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:06:10.078Z"
+      "checkedAt": "2026-09-18T00:43:20.699Z"
     }
   },
   {
@@ -3996,6 +3996,103 @@
       "manualOverride": {
         "reviews": "Revexa testimonial section is JS-injected (Wix) and absent from the raw HTTP fetch; confirmed rendering in a real browser at / (rendered SPA)."
       }
+    }
+  },
+  {
+    "id": "vialverse",
+    "name": "VialVerse",
+    "slug": "vialverse",
+    "website": "https://vialverse.com",
+    "rating": 4.5,
+    "verified": true,
+    "country": "UK",
+    "description": "VialVerse is a UK research-peptide supplier stocking a broad catalogue of peptides, blends and laboratory essentials, with products grouped by research field (metabolic, longevity, repair and recovery, neurochemical, hormone and receptor). Every listing carries a batch-level Certificate of Analysis and purity details, and orders are dispatched from the UK via Royal Mail Tracked 24 with tracking supplied after dispatch. All material is supplied strictly for scientific laboratory and analytical research use.",
+    "highlights": [
+      "Broad catalogue covering peptides, blends and laboratory essentials",
+      "Batch-level COA and purity documentation published on product pages",
+      "Products organised by research field for easier navigation",
+      "Royal Mail Tracked 24 - next-working-day delivery aim after dispatch",
+      "Free UK delivery on orders over £75",
+      "Research-use-only - not for human consumption"
+    ],
+    "shipping": [
+      "UK - Royal Mail Tracked 24 (next-working-day delivery aim following dispatch)",
+      "£4.95 standard tracked UK delivery",
+      "Free UK delivery automatically applied to qualifying orders over £75",
+      "Orders normally prepared for dispatch within 1-2 working days",
+      "Tracking information supplied after dispatch"
+    ],
+    "payment": [
+      "Card payment",
+      "Pay by Bank",
+      "Manual bank transfer where available at checkout"
+    ],
+    "lastTested": "2026-09-18",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "laboratory research",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-18T00:43:14.588Z"
+    }
+  },
+  {
+    "id": "kings-bio-labs",
+    "name": "Kings BioLabs",
+    "slug": "kings-bio-labs",
+    "website": "https://www.kingsbiolabs.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "country": "UK",
+    "description": "Kings BioLabs is a UK research-peptide supplier operated by Kings BioLabs Ltd (company no. 17404130, registered in England and Wales) offering lyophilised research material with batch traceability and a Certificate of Analysis available on request for each product and strength. Orders are shipped via an appropriate tracked UK delivery service, with a £4.99 UK delivery charge. The site is TrustedSite verified and runs a research-use-only policy across the range.",
+    "highlights": [
+      "UK-registered company - Kings BioLabs Ltd, company no. 17404130",
+      "Batch traceability across the catalogue",
+      "Certificate of Analysis available on request per product and strength",
+      "Tracked UK delivery service where available",
+      "TrustedSite verified and verified payment processing (Wallid)",
+      "Research-use-only - not for human consumption, diagnostic or therapeutic use"
+    ],
+    "shipping": [
+      "UK - tracked delivery service where available",
+      "£4.99 UK delivery",
+      "Dispatch estimated at point of order - same-day dispatch not guaranteed",
+      "Estimated delivery times begin from date of dispatch, not date of order"
+    ],
+    "payment": [
+      "Card payment",
+      "Verified payment processing (Wallid)"
+    ],
+    "lastTested": "2026-09-18",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-18T00:43:02.969Z",
+      "note": "shipping confirmed by direct fetch of /shipping-returns; autocheck pageCandidates.slice(0,4) window stopped before that page"
     }
   }
 ]

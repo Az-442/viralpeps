@@ -246,7 +246,7 @@ export default function VendorsPage() {
               const hasFreeShipping = v.shipping?.some((s) => s.toLowerCase().includes("free"));
               const hasLabTested = v.labTested;
               // Auto-detect vendor logo — try .svg first, fallback .png, fallback initials
-              const bigLogo = ["dr-peptides", "express-peptides", "the-peptide-company", "raw-peptides"].includes(v.slug);
+              const bigLogo = ["dr-peptides", "express-peptides", "the-peptide-company", "raw-peptides", "vialverse"].includes(v.slug);
               return (
                 <Link
                   key={v.id}
