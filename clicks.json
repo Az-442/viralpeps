@@ -30032,5 +30032,168 @@
     "compoundSlug": "ara-290",
     "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen",
     "visitorId": "c476efd027615b43"
+  },
+  {
+    "ts": "2026-09-18T16:27:37.581Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/cjc-1295-no-dac-5mg/",
+    "visitorId": "1b6d9c167c6fc14d"
+  },
+  {
+    "ts": "2026-09-18T16:28:02.542Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/",
+    "visitorId": "ee26f116caf958c0"
+  },
+  {
+    "ts": "2026-09-18T16:28:48.199Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://tidelabs.co.uk/products/5-amino-1mq-10mg",
+    "visitorId": "fae44fde29b0154b"
+  },
+  {
+    "ts": "2026-09-18T16:31:07.781Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://peptidelabuk.co.uk/product/pinealon-10mg-research-peptide/",
+    "visitorId": "c5f9651060d1298b"
+  },
+  {
+    "ts": "2026-09-18T16:32:46.320Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://pslabs.uk/products/klow-80mg",
+    "visitorId": "0de9cb5fc7c2a618"
+  },
+  {
+    "ts": "2026-09-18T16:35:38.933Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://fatpigpeptides.co.uk/product/ss-31/",
+    "visitorId": "f5a384092b959e34"
+  },
+  {
+    "ts": "2026-09-18T16:35:55.121Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptifyuk.com/product/semax-10mg",
+    "visitorId": "cc7683774147cff9"
+  },
+  {
+    "ts": "2026-09-18T16:41:53.641Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
+    "visitorId": "f5a384092b959e34"
+  },
+  {
+    "ts": "2026-09-18T16:42:10.348Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "78720efd6af7b7d5"
+  },
+  {
+    "ts": "2026-09-18T16:43:30.773Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/klow/",
+    "visitorId": "67a730db076e1e28"
+  },
+  {
+    "ts": "2026-09-18T16:43:31.087Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "f3f6a6a8c8188bc0"
+  },
+  {
+    "ts": "2026-09-18T16:43:41.378Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/",
+    "visitorId": "7f5e6f4eedc608ec"
+  },
+  {
+    "ts": "2026-09-18T16:43:46.635Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
+    "visitorId": "3608efbed8aafc3a"
+  },
+  {
+    "ts": "2026-09-18T16:43:55.878Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/",
+    "visitorId": "b4ac3a871706b8b7"
+  },
+  {
+    "ts": "2026-09-18T16:44:38.138Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://researchpeptide.co.uk/product/igf-1-des-1mg/",
+    "visitorId": "9dc8667505ea9a70"
+  },
+  {
+    "ts": "2026-09-18T16:44:38.317Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://ukpeptides.com/catalog/ghrp-6",
+    "visitorId": "4bd91f623b4cc7d9"
+  },
+  {
+    "ts": "2026-09-18T16:48:07.757Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ghk-cu-100mg-2/",
+    "visitorId": "fb5439f49afd726a"
+  },
+  {
+    "ts": "2026-09-18T17:01:24.946Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://tidelabs.co.uk/products/5-amino-1mq-10mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cd2f68bceac148b4"
   }
 ]
