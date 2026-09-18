@@ -30898,5 +30898,104 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://my-peptides.co.uk/products/tb-500",
     "visitorId": "d9de98f0b6da8e45"
+  },
+  {
+    "ts": "2026-09-18T21:07:41.312Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "hgh-97",
+    "destUrl": "https://precision-peptides.shop/product/hgh-10-iu/",
+    "visitorId": "98ebc2cafa724fe3"
+  },
+  {
+    "ts": "2026-09-18T21:07:52.563Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://rawpeptides.co.uk/product/dsip-10mg/",
+    "visitorId": "f824d5941b8c1c7f"
+  },
+  {
+    "ts": "2026-09-18T21:07:52.821Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://tidelabs.co.uk/products/dsip-delta-sleep-peptide",
+    "visitorId": "70becb056706fed8"
+  },
+  {
+    "ts": "2026-09-18T21:17:53.494Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://reta-uk.com/products/pt-141",
+    "visitorId": "ea2fb13e43ef4ac6"
+  },
+  {
+    "ts": "2026-09-18T21:21:39.398Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "bde7a1198e510cb7"
+  },
+  {
+    "ts": "2026-09-18T21:22:27.586Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://ascendpeptidesuk.com/products/aod-9604-10mg/",
+    "visitorId": "e0014cd43c650573"
+  },
+  {
+    "ts": "2026-09-18T21:25:22.924Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ahk-cu/",
+    "visitorId": "c8761d0e5cdff6a7"
+  },
+  {
+    "ts": "2026-09-18T21:26:38.933Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ipamorelin/",
+    "visitorId": "3fe756ae365854ce"
+  },
+  {
+    "ts": "2026-09-18T21:27:30.261Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/pfizer-hospira-bacteriostatic-water-usp-30ml",
+    "visitorId": "e3640f68f49a06e3"
+  },
+  {
+    "ts": "2026-09-18T21:27:36.591Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "e3449ccf51d5959a"
+  },
+  {
+    "ts": "2026-09-18T21:35:33.134Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://apexpure.co.uk/product/retatrutide-20mg-uk/",
+    "visitorId": "c476efd027615b43"
   }
 ]
