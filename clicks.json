@@ -30565,5 +30565,59 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/",
     "visitorId": "f15c81044e26a14a"
+  },
+  {
+    "ts": "2026-09-18T19:20:20.371Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/",
+    "visitorId": "141c16380e24300b"
+  },
+  {
+    "ts": "2026-09-18T19:20:21.957Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-09-18T19:33:33.005Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://olresearch.co.uk/product/kpv-10mg/",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-18T19:33:34.321Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://olresearch.co.uk/product/kpv-10mg/",
+    "visitorId": "625859f9f7d95501"
+  },
+  {
+    "ts": "2026-09-18T19:33:36.132Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://olresearch.co.uk/product/kpv-10mg/",
+    "visitorId": "b4f261adf0e1fb4d"
+  },
+  {
+    "ts": "2026-09-18T19:58:59.071Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.buyreta.co.uk/product/dsip-uk",
+    "visitorId": "841d8ecb3db38ede"
   }
 ]
