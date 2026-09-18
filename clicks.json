@@ -29688,5 +29688,79 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
     "visitorId": "b7c7f07f9b3a6e1d"
+  },
+  {
+    "ts": "2026-09-18T15:20:42.482Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biotideuk.com/products/5-amino-1mq-50-mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "61131630669a4131"
+  },
+  {
+    "ts": "2026-09-18T15:20:45.929Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biotideuk.com/products/5-amino-1mq-50-mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "708cc8822268e67a"
+  },
+  {
+    "ts": "2026-09-18T15:20:50.152Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "b7c7f07f9b3a6e1d"
+  },
+  {
+    "ts": "2026-09-18T15:20:50.439Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "b7c7f07f9b3a6e1d"
+  },
+  {
+    "ts": "2026-09-18T15:21:30.809Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "b7c7f07f9b3a6e1d"
+  },
+  {
+    "ts": "2026-09-18T15:22:41.563Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pgnalabs.co.uk/product/ghk-cu",
+    "visitorId": "b7c7f07f9b3a6e1d"
+  },
+  {
+    "ts": "2026-09-18T15:24:17.895Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://vialverse.com/peptides/ghk-cu",
+    "visitorId": "f3c79ebb05ddf5ea"
+  },
+  {
+    "ts": "2026-09-18T15:51:37.934Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/",
+    "visitorId": "103a8324f24a50bf"
   }
 ]
