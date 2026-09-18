@@ -30421,5 +30421,122 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://www.flexpeptides.co.uk/products/mots-c-20mg",
     "visitorId": "13e8c4a53d4bf21e"
+  },
+  {
+    "ts": "2026-09-18T18:06:54.205Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin/vial",
+    "visitorId": "250d9b5dba39dae5"
+  },
+  {
+    "ts": "2026-09-18T18:13:36.025Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ss-31-10mg",
+    "visitorId": "c5016f28f5e898e3"
+  },
+  {
+    "ts": "2026-09-18T18:20:48.567Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/adipotide-ftpp-5mg/",
+    "visitorId": "28980d4f99140321"
+  },
+  {
+    "ts": "2026-09-18T18:20:55.134Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "visitorId": "ffa6c35d7e2fbcec"
+  },
+  {
+    "ts": "2026-09-18T18:23:20.921Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "6e4304c58161f28a"
+  },
+  {
+    "ts": "2026-09-18T18:24:49.889Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg",
+    "visitorId": "3c1a80ca1ec1a035"
+  },
+  {
+    "ts": "2026-09-18T18:31:24.364Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/",
+    "visitorId": "3a23862546039ef7"
+  },
+  {
+    "ts": "2026-09-18T18:31:24.378Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://britpeptides.co.uk/product/nad-500mg/",
+    "visitorId": "4b8c15e1d9fde09b"
+  },
+  {
+    "ts": "2026-09-18T18:31:30.466Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://astralabs.co.uk/product/mots-c-40mg-uk/",
+    "visitorId": "486a0a97711b1d65"
+  },
+  {
+    "ts": "2026-09-18T18:32:54.414Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/glow-blend-70mg/",
+    "visitorId": "73f465c87c179d9f"
+  },
+  {
+    "ts": "2026-09-18T18:32:59.056Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/",
+    "visitorId": "0a2d7bac97d1202b"
+  },
+  {
+    "ts": "2026-09-18T18:34:27.525Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/",
+    "visitorId": "90b29d1f0e162167"
+  },
+  {
+    "ts": "2026-09-18T18:41:43.240Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://cmsrlabs.co/product/ara-290-10mg/",
+    "visitorId": "d452f3cba522a99d"
   }
 ]
