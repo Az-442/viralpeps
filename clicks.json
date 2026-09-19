@@ -364,5 +364,14 @@
     "vendorName": "Nupex",
     "destUrl": "https://nupex.co.uk",
     "visitorId": "c9b8b8c0616df060"
+  },
+  {
+    "ts": "2026-09-19T12:18:25.240Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidepal.co.uk/products/ghkcu",
+    "visitorId": "930147f15f831823"
   }
 ]
