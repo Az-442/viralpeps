@@ -417,5 +417,23 @@
     "vendorName": "MyPep Biotech",
     "destUrl": "https://mypepbiotech.co.uk",
     "visitorId": "6dc452224f74919a"
+  },
+  {
+    "ts": "2026-09-19T18:40:05.359Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ascendpeptidesuk.com/products/tb-500/",
+    "visitorId": "f1ede3d5c6220ea7"
+  },
+  {
+    "ts": "2026-09-19T19:17:25.071Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://ascendpeptidesuk.com/products/bpc-157/",
+    "visitorId": "b2228589ef4a71dd"
   }
 ]
