@@ -28,11 +28,35 @@ Build: passed. All internal links + PMIDs verified.
 
 ---
 
+## Day 3 — Fri 18 Sep (3 articles) ✅ DONE
+Completed 19 Sep 03:00 by daily blog cron (main branch, direct).
+- `buy-follistatin-344-uk` — buy follistatin 344 UK (buy) — section: research-hub
+- `tirzepatide-suppliers-uk` — tirzepatide suppliers UK (suppliers) — section: research-hub
+- `tb-500-vs-ghk-cu` — tb-500 (vs) — section: comparisons
+
+Cards: `public/images/guides/{buy-follistatin-344-uk,tirzepatide-suppliers-uk,tb-500-vs-ghk-cu}.png`
+Card script: `scripts/make_kw_phase1_day3_cards.py`
+Word counts (visible body, incl. chrome): 3,072 / 2,859 / 2,751
+Build: passed (145/145 pages). All internal links verified 200. 35 PubMed IDs verified via E-utilities.
+
+### ⚠️ Known cosmetic bug found (pre-existing, NOT introduced by Day 3)
+The big "Compare … Prices" banner at the bottom of a comparison article renders a
+DE-SLUGGED slug for the second compound — `Ghk cuPrices →`. The template
+(`src/app/research/[slug]/page.tsx` line ~403) uses
+`content.compoundSlug2.charAt(0).toUpperCase() + ...slice(1).replace(/-/g,' ')`
+instead of the compound's display name. It already affects the Day 1 article
+`retatrutide-vs-survodutide` (renders `SurvodutidePrices →`). The teal hero chip
+renders correctly (`TB-500 vs GHK-Cu`) because it uses `guide.compound`.
+Fix would be a one-line change to the template — deliberately left untouched to
+avoid a site-wide change inside a content cron. Needs a separate scoped task.
+
+---
+
 ## Next up
-**Day 3 — Fri 18 Sep (3 articles)**
-- `buy-follistatin-344-uk` — buy follistatin 344 UK (buy)
-- `tirzepatide-suppliers-uk` — tirzepatide suppliers UK (suppliers)
-- `tb-500-vs-ghk-cu` — tb-500 (vs)
+**Day 4 — Sat 19 Sep (3 articles)**
+- `cognitive-peptide-suppliers-uk` — cognitive peptide suppliers UK (grouped)
+- `uk-peptide-directory` — UK peptide directory (pillar)
+- `where-to-buy-peptides-uk` — where to buy peptides (buy)
 
 ---
 

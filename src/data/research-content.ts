@@ -9750,5 +9750,484 @@ slug: 'bpc-157-for-recovery',
   ],
 }
 
+,
+
+'buy-follistatin-344-uk': {
+  slug: 'buy-follistatin-344-uk',
+  compoundSlug: 'follistatin-344',
+  pullQuote: 'Follistatin-344 is the most expensive molecule in most UK catalogues and the easiest one to buy badly. The price spread between listings is roughly six-fold for what is nominally the same 1 mg vial — and because follistatin is a 344-amino-acid recombinant glycoprotein rather than a synthesised peptide, the specification that matters is not on the vial at all. It is on the paperwork.',
+  quickInfo: [
+    {
+      label: 'Compound',
+      value: 'Follistatin-344 (FS-344, FST-344)',
+    },
+    {
+      label: 'Compound Type',
+      value: 'Recombinant glycoprotein; 344 amino acids; activin-binding',
+    },
+    {
+      label: 'Molecular Weight',
+      value: '~37,000 g/mol (protein, not a synthetic peptide)',
+    },
+    {
+      label: 'CAS Number',
+      value: '80449-31-6',
+    },
+    {
+      label: 'Research Areas',
+      value: 'Myostatin inhibition, muscle hypertrophy, sarcopenia, cachexia, muscular dystrophy',
+    },
+    {
+      label: 'Typical Presentation',
+      value: 'Lyophilised powder, 1 mg vials',
+    },
+    {
+      label: 'UK Vendors Tracked',
+      value: '9 suppliers, 10 listings, £39.95–£229.00',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'Buy Follistatin 344 UK: What This Page Covers',
+      body: 'This is a buyer\'s guide to follistatin-344 in the UK research market — what the compound actually is, why its price range is so much wider than any synthesised peptide in the catalogue, how to read a certificate of analysis for a protein rather than a peptide, and where the legal line sits.\n\nIt is not a price table. The live supplier table renders current listings from the weekly scrape on the [**Follistatin-344 price comparison hub →**](/compounds/follistatin-344). What follows is the part a price table cannot do: telling you why one listing is £39.95 and another is £229.00 when both say \'1 mg follistatin\', and what you should be checking before either reaches your bench.\n\nIf you are new to the compound, start with the [**Follistatin 344 research summary →**](/research/follistatin-344-research-summary) for the myostatin biology, then come back here for the procurement picture.',
+    },
+    {
+      title: 'What Follistatin-344 Actually Is',
+      body: 'Follistatin-344 is not a synthesised research peptide in the sense that a tripeptide like [**KPV**](/compounds/kpv) or an analogue like [**TB-500**](/compounds/tb-500) is. It is a secreted glycoprotein — a single-chain protein of 344 amino acids with a mass of roughly 37 kDa, produced recombinantly rather than assembled on a synthesiser.\n\nThat distinction drives almost everything else on this page. A peptide of 15–40 residues is chemically assembled, analytically simple, and cheap to make at high purity. A 344-residue glycoprotein has to be expressed in a host cell system, folded correctly, and glycosylated. Expression systems differ — bacterial, yeast, insect, mammalian — and the glycosylation pattern that results differs with them. Two vials both labelled \'follistatin-344, 1 mg\' can differ in host system, glycosylation microheterogeneity, aggregation state, and monomer content, and none of those differences are visible on the label.\n\nFunctionally, the protein binds and neutralises members of the TGF-β superfamily — principally myostatin (GDF-8) and the activins — preventing them from engaging activin type II receptors. That removes a negative regulatory brake on satellite cell activation and myoblast proliferation. It is worth noting early that the literature shows follistatin\'s hypertrophic effect is not purely myostatin-mediated: Gilson and colleagues demonstrated in 2009 that follistatin induces muscle hypertrophy through satellite cell proliferation with inhibition of both myostatin and activin, and Winbanks and colleagues showed in 2012 that the effect is regulated through Smad3 and mTOR in a partially myostatin-independent way ([PMID 19435857](https://pubmed.ncbi.nlm.nih.gov/19435857/), [PMID 22711699](https://pubmed.ncbi.nlm.nih.gov/22711699/)). The compound is more promiscuous in its targets than the marketing language around it usually admits.\n\n[**Compare Follistatin 344 prices from UK suppliers →**](/compounds/follistatin-344)',
+    },
+    {
+      title: 'Why the UK Price Range Is So Wide',
+      body: 'The UK market for follistatin-344 currently runs from about £40 to about £230 for what is nominally the same product — a 1 mg lyophilised vial. That is roughly a six-fold spread, and it is the widest in the catalogue. Understanding why it exists is the single most useful thing you can do before buying.\n\nThree factors drive it.\n\nThe first is production cost. Recombinant expression is materially more expensive than solid-phase peptide synthesis per milligram of finished product, but the cost is amortised across a batch. A vendor buying larger batches at a lower unit cost can price at £40; a vendor buying small quantities through a reseller cannot.\n\nThe second is documentation. A follistatin listing that comes with a batch-matched certificate of analysis naming the testing laboratory, specifying host system, purity by SDS-PAGE or HPLC, endotoxin level and sterility is a more expensive product to bring to market than one shipping with a generic spec sheet. The difference in price between those two listings is frequently the difference in cost of the testing, not the cost of the protein.\n\nThe third is positioning and presentation. Some listings are aimed at buyers who compare on price; others are aimed at buyers who will not buy the cheapest option on principle. Follistatin sits in the second category more than most compounds because the absolute price is high enough that buyers anchor on the per-vial figure rather than shopping across the full table.\n\nThe practical consequence: paying more is not automatically buying better, and paying least is not automatically a bargain. The only way to know which listing you are looking at is the paperwork.',
+    },
+    {
+      title: 'What a Certificate of Analysis Should Show for a Protein',
+      body: 'The certificate of analysis is the entire specification for a recombinant protein. For a small synthesised peptide, a COA is a useful confirmation; for follistatin-344 it is the only thing separating one listing from another, because the vial itself carries no information beyond the label.\n\nThe [**guide to reading a certificate of analysis →**](/research/how-to-read-a-coa) covers the general ground. The protein-specific points are these.',
+      subsections: [
+        {
+          title: '1. Host expression system',
+          body: 'The COA should state the system used to express the protein — E. coli, Pichia pastoris, insect (Sf9), or mammalian (CHO/HEK). This matters because it determines whether the product is glycosylated, and if so how. A mammalian-expressed follistatin carries glycan structures a bacterial-expressed one does not, and the two are not interchangeable as research reagents.',
+        },
+        {
+          title: '2. Identity by mass, appropriate to the method',
+          body: 'For a 37 kDa glycoprotein, mass alone is not identity — glycoforms produce a spread of masses rather than a single peak. What you want is either a mass spectrum showing the expected envelope with the reported molecular weight range, or SDS-PAGE showing a band at the expected apparent molecular weight plus an assessment of the monomer/dimer ratio. A COA that reports a single sharp mass for a glycosylated protein is reporting something that does not exist.',
+        },
+        {
+          title: '3. Purity by a stated method, with the data',
+          body: 'A purity figure without a method is marketing. For follistatin you are looking for SDS-PAGE densitometry or HPLC, with the gel image or chromatogram supplied. Purity should be stated against a definition — for example, percentage of total protein staining intensity — not as an unqualified number.',
+        },
+        {
+          title: '4. Aggregation and monomer content',
+          body: 'Recombinant proteins aggregate. Aggregated protein is analytically different from monomeric protein, behaves differently in solution, and will not produce the same results. A COA that reports only total purity without distinguishing monomer from aggregate is telling you less than it appears to. This is the single most commonly missing specification on UK follistatin listings.',
+        },
+        {
+          title: '5. Endotoxin and sterility',
+          body: 'Where a certificate reports an endotoxin level, that level should be quantitative — EU/mg or EU/µg against a stated assay. Endotoxin is the most common contaminant in bacterially expressed protein. A listing that does not mention it at all has not tested for it.',
+        },
+        {
+          title: '6. Batch number matching the vial',
+          body: 'The COA must be traceable to the specific batch in the vial you are sent. A generic COA for the product line, with no batch number, cannot verify anything about the material in your hand.',
+        },
+      ],
+    },
+    {
+      title: 'The Legal Position in the UK',
+      body: 'Follistatin-344 is not a licensed medicine in the United Kingdom and is not authorised by the MHRA for human use. It is sold in the UK as a research chemical, and legitimate vendors label it research-use-only.\n\nTwo practical consequences follow.\n\nThe first is that buying follistatin-344 for human consumption is outside what any UK vendor is permitted to sell, and any vendor marketing it in those terms is telling you something about how they operate. Research-use-only labelling is not a technicality — it is the basis on which the material is legally supplied at all.\n\nThe second is that the legal position varies by jurisdiction. Follistatin is not a controlled drug under the UK Misuse of Drugs Act, but its regulatory classification differs in other countries and it does attract attention from sporting anti-doping frameworks, where myostatin inhibitors have been on the prohibited list for years. If your research travels with you, check the destination rules rather than assuming the UK position applies.\n\nThe honest summary for a UK researcher: purchase the material as a research reagent from a vendor who documents it as such, and do not treat any supplier\'s marketing copy as regulatory guidance. If a listing promises outcomes rather than specifications, that is the vendor\'s position, not the law\'s.',
+    },
+    {
+      title: 'How to Compare Follistatin-344 Listings',
+      body: 'With nine UK vendors and ten listings currently tracked, the comparison problem is not volume — it is that the listings are not directly comparable as presented. A short working method:\n\nNormalise by milligram before anything else. Most follistatin is sold as 1 mg. Where a listing is not 1 mg, divide. The per-milligram figure is the only price that can be compared.\n\nRead the specification line, not the marketing line. The question is not whether the listing uses the word \'pharmaceutical grade\' but whether the certificate names a laboratory, a host system, a purity method and an endotoxin figure. A listing with those four items and a higher price is a different product from a listing without them at a lower price — the difference is not a premium, it is a different item.\n\nCheck whether the product is in stock or listed as a backorder. Follistatin is the compound in the UK catalogue most likely to be listed but not held, because the unit cost of holding stock is high. A listing that ships in three days from stock and one that ships in three weeks from a scheduled batch are not the same offer at the same price.\n\nVerify the vendor, not just the listing. The [**guide to choosing a UK supplier →**](/research/choosing-a-uk-supplier) covers the firm-level checks — registered company, trading address, contact route, whether the vendor can name who tested the material. For a high-value recombinant product, these checks are worth more than they are for a cheap synthesised peptide, because the financial downside of a mis-specified vial is larger.\n\nFinally, treat a dramatic discount with the same scrutiny as a dramatic premium. In a market where the underlying product is hard to make cheaply, a listing far below the pack is either a smaller quantity, a different presentation, a reseller clearing stock, or a specification gap. All four are legitimate things to buy — but you should know which one you are buying.',
+    },
+    {
+      title: 'Handling and Storage on Receipt',
+      body: 'Recombinant proteins are less forgiving than synthesised peptides, and follistatin-344 is no exception.\n\nLyophilised follistatin should be stored at −20 °C or colder, desiccated, and protected from light. Repeated freeze–thaw cycles of the lyophilised powder are less damaging than for a reconstituted solution, but the vial septum should still be handled cleanly and the powder should not be left at room temperature for extended periods.\n\nOnce reconstituted, the handling rules tighten considerably. Use a buffer appropriate to the protein rather than assuming bacteriostatic water is correct — protein stability is pH- and ionic-strength dependent in a way that a tripeptide\'s is not. Avoid vigorous vortexing, which promotes aggregation and surface denaturation; invert or pipette gently to dissolve. Aliquot before freezing so that each aliquot is thawed once, and keep aliquots at −20 °C or −80 °C.\n\nWatch for visible particulates or cloudiness in a reconstituted solution. For a protein, that is a sign of aggregation and it means the material is no longer what the certificate described. The [**peptide storage guide →**](/research/peptide-storage-guide) covers the general handling framework; the [**reconstitution guide →**](/research/peptide-reconstitution-guide) covers technique.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Follistatin-344 is the compound in the UK research market where the gap between what a listing claims and what it documents is widest, because it is a recombinant glycoprotein sold through a market that mostly handles small synthetic peptides. The buying question is not \'which is cheapest\' but \'which listing can tell me what is in the vial\'.\n\nThree rules cover most of it. Normalise everything to cost per milligram and ignore presentation differences until you have. Demand a batch-matched certificate naming the expression system, the purity method with data, and an endotoxin figure — a listing that cannot produce those is not a worse deal, it is an unspecified product. And treat the legal position as settled: research-use-only, no human use claims, from a vendor that documents it that way.\n\nThe evidence base is genuinely interesting and genuinely limited in humans — follistatin\'s hypertrophic mechanism in animal models is well characterised, and the myostatin-independent component of that mechanism is the part most often left out of the summaries. Read the [**Follistatin 344 research summary →**](/research/follistatin-344-research-summary) for that side. For the current market, the [**Follistatin-344 price comparison hub →**](/compounds/follistatin-344) renders live listings from the weekly scrape.',
+    },
+  ],
+  faq: [
+    {
+      question: 'Is follistatin-344 legal to buy in the UK?',
+      answer: 'It is legally supplied in the UK as a research chemical with research-use-only labelling. It is not an MHRA-authorised medicine and no UK vendor may lawfully sell it for human use. Regulatory classification differs in other jurisdictions, and myostatin inhibitors are prohibited in sport under WADA rules.',
+    },
+    {
+      question: 'Why is follistatin-344 so much more expensive than other peptides?',
+      answer: 'It is a 344-amino-acid recombinant glycoprotein of roughly 37 kDa, not a chemically synthesised peptide. It has to be expressed in a host cell system and folded, which is materially more expensive per milligram than solid-phase synthesis of a short chain. Documentation and testing costs also represent a larger share of the price.',
+    },
+    {
+      question: 'What should the certificate of analysis include for follistatin?',
+      answer: 'The host expression system, identity assessment appropriate to a glycoprotein (mass envelope or SDS-PAGE with monomer/aggregate assessment), purity by a stated method with the gel or chromatogram supplied, a quantitative endotoxin figure, and a batch number matching the vial. A single sharp molecular weight for a glycosylated protein is a red flag.',
+    },
+    {
+      question: 'What is the UK price range for 1 mg follistatin-344?',
+      answer: 'Across the listings ViralPeps tracks, 1 mg presentations currently run from approximately £39.95 to £229.00 — roughly a six-fold spread. Live figures are on the Follistatin-344 price comparison hub, which renders current prices from the weekly scrape.',
+    },
+    {
+      question: 'How should follistatin-344 be stored?',
+      answer: 'Lyophilised powder at −20 °C or colder, desiccated and protected from light. Once reconstituted, use a buffer appropriate to the protein rather than assuming bacteriostatic water, avoid vortexing, aliquot before freezing, and keep aliquots at −20 °C or −80 °C to avoid repeated freeze–thaw cycles.',
+    },
+    {
+      question: 'Is the muscle growth effect of follistatin only through myostatin?',
+      answer: 'No. Follistatin binds myostatin and the activins, and the literature shows a substantial myostatin-independent component. Gilson et al. (2009) demonstrated satellite cell proliferation with inhibition of both myostatin and activin, and Winbanks et al. (2012) showed regulation through Smad3 and mTOR independently of myostatin.',
+    },
+  ],
+  references: [
+    'Chang F, Fang R, Wang M, et al. The transgenic expression of human follistatin-344 increases skeletal muscle mass in pigs. Transgenic Res. 2017;26(1):25-36. PMID 27787698',
+    'Gilson H, Schakman O, Kalista S, et al. Follistatin induces muscle hypertrophy through satellite cell proliferation and inhibition of both myostatin and activin. Am J Physiol Endocrinol Metab. 2009;297(1):E157-64. PMID 19435857',
+    'Winbanks CE, Weeks KL, Thomson RE, et al. Follistatin-mediated skeletal muscle hypertrophy is regulated by Smad3 and mTOR independently of myostatin. J Cell Biol. 2012;197(7):997-1008. PMID 22711699',
+    'Lee SJ, Lee YS, Zimmers TA, et al. Regulation of muscle mass by follistatin and activins. Mol Endocrinol. 2010;24(10):1998-2008. PMID 20810712',
+    'Rodino-Klapac LR, Haidet AM, Kota J, et al. Inhibition of myostatin with emphasis on follistatin as a therapy for muscle disease. Muscle Nerve. 2009;39(3):283-96. PMID 19208403',
+    'Mendell JR, Sahenk Z, Malik V, et al. A phase 1/2a follistatin gene therapy trial for Becker muscular dystrophy. Mol Ther. 2015;23(1):192-201. PMID 25322757',
+    'Barbé C, Bray F, devaux M, et al. Comparative Proteomic and Transcriptomic Analysis of Follistatin-Induced Skeletal Muscle Hypertrophy. J Proteome Res. 2017;16(10):3477-3490. PMID 28810121',
+    'Schumann C, Nguyen DT, Norgard M, et al. Increasing lean muscle mass in mice via nanoparticle-mediated hepatic delivery of follistatin mRNA. Theranostics. 2018;8(19):5276-5288. PMID 30555546',
+    'Zheng H, Qiao C, Yuan Z, et al. Follistatin N terminus differentially regulates muscle size and fat in vivo. Exp Mol Med. 2017;49(9):e377. PMID 28912572',
+    'Stefanakis K, Kokkoris S, Stamatelopoulos K, et al. The impact of weight loss on fat-free mass, muscle, bone and hematopoiesis health: implications for emerging pharmacotherapies aiming at fat reduction and lean mass preservation. Metabolism. 2024;161:156057. PMID 39481534',
+  ],
+},
+
+'tirzepatide-suppliers-uk': {
+  slug: 'tirzepatide-suppliers-uk',
+  compoundSlug: 'tirzepatide',
+  pullQuote: 'Tirzepatide is the most competitive market in UK research peptides — 30 vendors, 69 listings, and a price spread that runs from £24.99 to £345.00 for the same molecule. It is also the compound where the shape of a listing tells you most about the vendor: whether the price scales sensibly with vial size, and whether the listing knows what a GIP/GLP-1 co-agonist actually is.',
+  quickInfo: [
+    {
+      label: 'Compound',
+      value: 'Tirzepatide (LY3298176)',
+    },
+    {
+      label: 'Compound Type',
+      value: 'Dual GIP/GLP-1 receptor co-agonist; 39-amino-acid modified peptide',
+    },
+    {
+      label: 'Molecular Weight',
+      value: '4,813.5 g/mol',
+    },
+    {
+      label: 'CAS Number',
+      value: '2023788-19-2',
+    },
+    {
+      label: 'Research Areas',
+      value: 'Type 2 diabetes, weight management, metabolic health, NAFLD/NASH',
+    },
+    {
+      label: 'Typical Presentations',
+      value: '5 mg to 90 mg vials; multi-vial kits to 200 mg',
+    },
+    {
+      label: 'UK Vendors Tracked',
+      value: '30 suppliers, 69 listings, £24.99–£345.00',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'Tirzepatide Suppliers UK: What This Page Covers',
+      body: 'This is a supplier-selection guide for tirzepatide in the UK research market. Tirzepatide is the most heavily stocked peptide on ViralPeps — 30 vendors carry it in 69 listings — and the density of that market changes what the buying problem is.\n\nWith a scarce compound, the problem is finding anyone who has it. With tirzepatide, the problem is that the listings look more similar than they are. Vial sizes range from 5 mg to 90 mg with multi-vial kits beyond that; prices range from £24.99 to £345.00; and a large share of the variance is packaging and positioning rather than anything about the molecule.\n\nThis page is not the price table. The live table renders current listings on the [**Tirzepatide price comparison hub →**](/compounds/tirzepatide). What follows is the part the table cannot do: how the UK supply base is structured, how to tell a sensibly priced listing from a badly priced one, how to verify a vendor, and where the legal line falls.\n\nIf you are new to the compound, the [**Tirzepatide research summary →**](/research/tirzepatide-research-summary) covers the pharmacology, and the [**Tirzepatide for weight loss →**](/research/tirzepatide-for-weight-loss) article covers the trial evidence.',
+    },
+    {
+      title: 'Why Tirzepatide Is Different From Every Other Compound in the Catalogue',
+      body: 'Tirzepatide is a 39-residue synthetic analogue engineered to act as a co-agonist at two receptors rather than one. As a dual GIP and GLP-1 receptor agonist it produces incretin signalling through both pathways simultaneously, which is what separates it from selective GLP-1 agonists and from earlier single-target compounds ([PMID 34186022](https://pubmed.ncbi.nlm.nih.gov/34186022/)).\n\nThree market consequences follow from that.\n\nIt has an approved-drug comparator, so there is a reference price. Tirzepatide is licensed as Mounjaro and Zepbound in various jurisdictions. That means the research market is competing against a known prescription price for a known strength, and listings are routinely marketed by comparison against it. This is unusual — for most compounds in the catalogue there is no pharmaceutical benchmark at all.\n\nIt has an enormous clinical evidence base. The SURPASS programme for type 2 diabetes and the SURMOUNT programme for obesity include randomised phase 3 trials with tens of thousands of participants, plus head-to-head data against semaglutide. The breadth of that literature is why tirzepatide attracts more search traffic and more supplier listings than any other research peptide in the UK.\n\nIt is sold in a much wider range of vial sizes than a typical research peptide. The UK listings tracked by ViralPeps run from 5 mg to 90 mg single vials, plus 100 mg and 200 mg multi-vial kits. That range exists because the research-relevant dose scale is large relative to a compound like [**CJC-1295**](/compounds/cjc-1295) — and it means the price-per-milligram comparison, not the sticker price, is the only meaningful one.\n\n[**Compare Tirzepatide prices from UK suppliers →**](/compounds/tirzepatide)',
+    },
+    {
+      title: 'How the UK Tirzepatide Supply Base Is Structured',
+      body: 'The 30 vendors carrying tirzepatide separate into recognisable groups, and knowing which group a vendor is in tells you what to check.',
+      subsections: [
+        {
+          title: 'Volume-structured vendors',
+          body: 'Vendors who publish a full ladder of vial sizes with prices that scale sensibly — a higher-strength vial costing proportionally less per milligram than a lower one. This is the signature of a vendor pricing from actual cost. When the 40 mg vial costs more per milligram than the 10 mg vial, either the vendor is not tracking their own economics or the listings are not maintained.',
+        },
+        {
+          title: 'Flat-priced vendors',
+          body: 'A smaller group prices multiple vial sizes identically — several listings in the tracked market put 10 mg, 20 mg, 30 mg and 60 mg at the same figure. Where that appears it is usually a data or listing artefact rather than a genuine offer, and it makes the listing untrustworthy at the higher sizes regardless of intent.',
+        },
+        {
+          title: 'Single-SKU vendors',
+          body: 'Vendors carrying one or two tirzepatide listings at a mid-market price with a full certificate package. Often the best documentation-to-price ratio in the market, because they are not maintaining a dozen SKUs.',
+        },
+        {
+          title: 'Kit and bulk vendors',
+          body: 'Vendors selling multi-vial kits — 5 × 20 mg, 5 × 40 mg and similar. These have the lowest cost per milligram in the tracked market but the highest absolute outlay, and the specification checks matter more at that scale rather than less.',
+        },
+        {
+          title: 'Listing-style storefronts',
+          body: 'Sites with tirzepatide priced lowest, stock imagery, no company information and no testing laboratory named. Tirzepatide attracts this group more than any other compound because it is the highest-search-volume term in the category. These vendors typically score lowest on TrustScore, and the score exists so you do not have to do the detective work yourself.',
+        },
+      ],
+    },
+    {
+      title: 'How to Verify a Tirzepatide Supplier Before You Buy',
+      body: 'The verification checklist is the same one that applies across the catalogue, with two tirzepatide-specific additions.',
+      subsections: [
+        {
+          title: '1. Normalise to cost per milligram, at a stated vial size',
+          body: 'Tirzepatide listings are the most common place to see a price quoted without a strength. A £59.99 listing that does not say whether it is 10 mg or 30 mg is not a price at all. Before comparing anything, establish the milligram figure. The live table carries a price-per-milligram column for exactly this reason.',
+        },
+        {
+          title: '2. Check that the strength ladder is internally consistent',
+          body: 'If a vendor\'s 10 mg is £50 and their 20 mg is also £50, one of the two listings is wrong. Inconsistent ladders are the most reliable early indicator that a vendor\'s catalogue is not maintained — and an unmaintained catalogue is a documentation risk, not just a pricing one.',
+        },
+        {
+          title: '3. Demand the batch-matched certificate of analysis',
+          body: 'As with any compound: the COA should name the testing laboratory, give purity by HPLC with the chromatogram supplied, confirm identity by mass spectrometry, and carry a batch number matching the vial. Tirzepatide is a 39-residue modified peptide, so the mass check is meaningful — the expected molecular weight is 4,813.5 g/mol and a COA reporting a materially different mass is not describing tirzepatide.',
+        },
+        {
+          title: '4. Confirm research-use-only labelling and the absence of dosing guidance',
+          body: 'Any UK vendor presenting tirzepatide with administration instructions, titration schedules for human use, or \'pen\' framing is marketing a medicine, not a research reagent. Tirzepatide is an approved prescription medicine in the UK; research supply of the same molecule is a separate and clearly-labelled category.',
+        },
+        {
+          title: '5. Verify the vendor as a business',
+          body: 'Registered company number, trading address, a contact route that reaches a human, and a website that has existed for more than a few months. The [**guide to choosing a UK supplier →**](/research/choosing-a-uk-supplier) covers the firm-level checks in detail.',
+        },
+        {
+          title: '6. Check stock status and dispatch times',
+          body: 'Tirzepatide is the compound where listed-but-out-of-stock is most common, because the high search volume makes backorder listings commercially attractive. A listing showing a price but no stock ships later than the table implies.',
+        },
+      ],
+    },
+    {
+      title: 'The Legal Position in the UK',
+      body: 'The distinction that matters most with tirzepatide is that the molecule is a licensed medicine when supplied as one and a research chemical when supplied as one — and the two are not interchangeable routes.\n\nTirzepatide is authorised in the UK as a prescription-only medicine under the brand Mounjaro for type 2 diabetes and weight management, subject to MHRA authorisation and NICE appraisal. Legitimate supply of the medicine runs through a prescriber and a registered pharmacy. It is a prescription-only medicine, which means the advertising restrictions that apply to prescription medicines apply to it.\n\nResearch peptide vendors supply tirzepatide as a research chemical with research-use-only labelling, outside the medicines supply chain. That is a distinct category with distinct obligations. A UK research vendor is not permitted to market it with dosing guidance, administration instructions or therapeutic claims, and a vendor offering those is operating outside the framework that makes the rest of their catalogue lawful.\n\nFor a UK researcher, the operative points are: buy the research-use-only product as a research reagent, do not buy it as a substitute route to an unlicensed medicine, and do not treat any supplier\'s guidance on administration as anything other than marketing by an unlicensed seller.\n\nThe clinical evidence base for tirzepatide is large and publicly available. The SURPASS programme established glycaemic superiority in type 2 diabetes ([PMID 34186022](https://pubmed.ncbi.nlm.nih.gov/34186022/)), the SURMOUNT programme established weight reduction in obesity ([PMID 35658024](https://pubmed.ncbi.nlm.nih.gov/35658024/)), and tirzepatide has since been evaluated in MASH with liver fibrosis ([PMID 38856224](https://pubmed.ncbi.nlm.nih.gov/38856224/)). Read the primary literature rather than a vendor page.',
+    },
+    {
+      title: 'What Moves a Tirzepatide Price',
+      body: 'Tirzepatide prices in the UK research market move more, and more often, than any other compound in the catalogue. Three things drive it.\n\nSearch demand. Tirzepatide is the highest-volume term in the category, and vendor pricing responds to search traffic more than to cost of goods. New entrants typically launch at a low headline price to buy visibility, then adjust upward once they have listings. A price that has moved up 20% in three months at a given vendor is more likely a positioning correction than a supply problem.\n\nStrength mix. Because vial sizes run from 5 mg to 90 mg plus bulk kits, a vendor\'s average price can shift without any individual listing changing, simply by discontinuing a cheap low-strength SKU. Compare like strengths to like strengths.\n\nBatch economics. Peptide synthesis and purification costs are batch-dependent, and tirzepatide is a 39-residue modified sequence — more synthetic steps than a short fragment. Vendors buying larger batches can price lower, and that effect is visible in the difference between the bulk-kit vendors and the single-SKU vendors.\n\nBecause prices move, this page does not quote a fixed figure. The [**Tirzepatide price comparison hub →**](/compounds/tirzepatide) renders current listings from the weekly scrape, with a price-per-milligram column so that different strengths can be compared directly.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Tirzepatide supply in the UK is a mature, crowded market, and the density cuts both ways. There is more genuine competition on price than anywhere else in the catalogue, and there is also more noise — more unmaintained listings, more out-of-stock prices on display, more listings whose strength is ambiguous, and more vendors whose entire differentiation is a low sticker price on a vial whose size is not stated.\n\nThree rules do most of the work. Normalise everything to cost per milligram at a stated strength, and treat any price without a stated strength as no price at all. Check whether the vendor\'s strength ladder makes internal sense — a 10 mg and a 20 mg at the same price tells you the catalogue is not maintained. And require the certificate: batch-matched, laboratory named, purity by a stated method with data, mass checked against 4,813.5 g/mol.\n\nFor the market view, the [**Tirzepatide price comparison hub →**](/compounds/tirzepatide) renders live listings. For the pharmacology, the [**research summary →**](/research/tirzepatide-research-summary). For how tirzepatide sits against the newer triple agonists, [**Retatrutide vs Tirzepatide →**](/research/retatrutide-vs-tirzepatide).',
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK suppliers sell tirzepatide?',
+      answer: 'ViralPeps currently tracks 30 UK vendors carrying tirzepatide across 69 listings, which makes it the most widely stocked research peptide in the UK catalogue. Live figures are on the tirzepatide price comparison hub.',
+    },
+    {
+      question: 'What is the cheapest tirzepatide in the UK?',
+      answer: 'The tracked range currently runs from approximately £24.99 to £345.00, but the headline figures are not comparable because vial sizes differ from 5 mg to 90 mg and beyond in bulk kits. Always compare cost per milligram at a stated strength — the live table carries a per-milligram column.',
+    },
+    {
+      question: 'Is it legal to buy tirzepatide as a research chemical in the UK?',
+      answer: 'Tirzepatide is legally supplied as a research chemical with research-use-only labelling. The same molecule is also an MHRA-authorised prescription-only medicine under the brand Mounjaro, supplied only via a prescriber and registered pharmacy. The two routes are separate, and research vendors may not provide dosing or administration guidance.',
+    },
+    {
+      question: 'What should a tirzepatide certificate of analysis show?',
+      answer: 'Purity by HPLC with the chromatogram supplied, identity confirmed by mass spectrometry against the expected 4,813.5 g/mol, the name of the testing laboratory, and a batch number matching the vial. A purity figure with no stated method and no chromatogram is marketing rather than analysis.',
+    },
+    {
+      question: 'Why do tirzepatide prices change so often?',
+      answer: 'Search demand drives vendor pricing more than cost of goods in this category, and tirzepatide is the highest-search-volume compound in the catalogue. New entrants launch low for visibility, vendors adjust positioning, and discontinued SKUs shift a vendor\'s average price without any individual listing changing.',
+    },
+    {
+      question: 'What is the difference between tirzepatide and retatrutide?',
+      answer: 'Tirzepatide is a dual GIP/GLP-1 receptor co-agonist. Retatrutide is a triple agonist adding glucagon receptor activity. Tirzepatide has a far larger phase 3 evidence base; retatrutide is earlier in its development. See the retatrutide vs tirzepatide comparison for the full breakdown.',
+    },
+  ],
+  references: [
+    'Rosenstock J, Wysham C, Frías JP, et al. Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. Lancet. 2021;398(10295):143-155. PMID 34186022',
+    'Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. N Engl J Med. 2021;385(6):503-515. PMID 34170647',
+    'Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216. PMID 35658024',
+    'Garvey WT, Frias JP, Jastreboff AM, et al. Tirzepatide once weekly for the treatment of obesity in people with type 2 diabetes (SURMOUNT-2): a double-blind, randomised, multicentre, placebo-controlled, phase 3 trial. Lancet. 2023;402(10402):613-626. PMID 37385275',
+    'Aronne LJ, Sattar N, Horn DB, et al. Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial. JAMA. 2024;331(1):38-48. PMID 38078870',
+    'Loomba R, Hartman ML, Lawitz EJ, et al. Tirzepatide for Metabolic Dysfunction-Associated Steatohepatitis with Liver Fibrosis. N Engl J Med. 2024;391(4):299-310. PMID 38856224',
+    'Rosenstock J, Frías JP, Rodbard HW, et al. Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes: The SURPASS-6 Randomized Clinical Trial. JAMA. 2023;330(17):1631-1640. PMID 37786396',
+    'Look M, Dunn JP, Kushner RF, et al. Body composition changes during weight reduction with tirzepatide in the SURMOUNT-1 study of adults with obesity or overweight. Diabetes Obes Metab. 2025;27(5):2720-2729. PMID 39996356',
+    'Nauck MA, Quast DR, Wefers J, et al. Tirzepatide, a dual GIP/GLP-1 receptor co-agonist for the treatment of type 2 diabetes with unmatched effectiveness regarding glycaemic control and body weight reduction. Cardiovasc Diabetol. 2022;21(1):169. PMID 36050763',
+    'Min T, Bain SC. The Role of Tirzepatide, Dual GIP and GLP-1 Receptor Agonist, in the Management of Type 2 Diabetes: The SURPASS Clinical Trials. Diabetes Ther. 2021;12(1):143-157. PMID 33325008',
+  ],
+},
+
+'tb-500-vs-ghk-cu': {
+  slug: 'tb-500-vs-ghk-cu',
+  compoundSlug: 'tb-500',
+  compoundSlug2: 'ghk-cu',
+  pullQuote: 'TB-500 and GHK-Cu are the two most commonly stacked repair peptides in UK research — and they work through mechanisms with almost nothing in common. TB-500 is an actin-sequestering fragment that acts on cell migration within hours. GHK-Cu is a copper-binding tripeptide that acts on gene expression over days. Confusing one for the other is the most common error in recovery-peptide research design.',
+  quickInfo: [
+    {
+      label: 'Comparison',
+      value: 'TB-500 vs GHK-Cu',
+    },
+    {
+      label: 'TB-500 Identity',
+      value: 'Thymosin β4 fragment, 43 residues, actin sequestration',
+    },
+    {
+      label: 'GHK-Cu Identity',
+      value: 'Glycyl-L-histidyl-L-lysine copper complex, 3 residues',
+    },
+    {
+      label: 'Molecular Weight',
+      value: 'TB-500 4,961.5 g/mol; GHK-Cu 403.9 g/mol (peptide only)',
+    },
+    {
+      label: 'Primary Target',
+      value: 'TB-500 — actin cytoskeleton and cell migration; GHK-Cu — copper delivery and gene transcription',
+    },
+    {
+      label: 'Typical Latency',
+      value: 'TB-500 — acute, hours to days; GHK-Cu — transcriptional, days to weeks',
+    },
+    {
+      label: 'UK Supply',
+      value: '72 vendors track TB-500 from £11.95; 81 track GHK-Cu from £6.48',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'TB-500 vs GHK-Cu: Two Repair Peptides, Two Mechanisms',
+      body: 'TB-500 and GHK-Cu are grouped together constantly — in stack protocols, in supplier marketing, and in the shorthand language of recovery research. They are not the same kind of compound and they do not work in the same way.\n\nTB-500 is the synthetic 43-residue fragment of thymosin β4, a naturally occurring actin-binding protein. Its primary action is cytoplasmic and mechanical: it sequesters G-actin, maintains the monomer pool, and by doing so regulates the cytoskeletal dynamics that cell migration depends on ([PMID 11381088](https://pubmed.ncbi.nlm.nih.gov/11381088/)). Its downstream effects on angiogenesis and wound closure follow from that primary action, not from receptor signalling in the conventional sense.\n\nGHK-Cu is a three-amino-acid copper complex — glycyl-L-histidyl-L-lysine bound to a copper(II) ion. It is not an actin-binding protein and it is not a fragment of anything larger. Its action is as a copper delivery vehicle and a transcriptional modulator: it chelates copper, delivers it intracellularly, and shifts the expression of a large set of genes associated with matrix remodelling, collagen synthesis and antioxidant defence ([PMID 29986520](https://pubmed.ncbi.nlm.nih.gov/29986520/), [PMID 26236730](https://pubmed.ncbi.nlm.nih.gov/26236730/)).\n\nThe practical gap between them is the timescale. TB-500 acts on processes that begin within hours. GHK-Cu acts by changing what cells transcribe, which takes days. A study design that treats them as interchangeable because both are \'repair peptides\' will not produce interpretable results.\n\n[**Compare TB-500 prices from UK suppliers →**](/compounds/tb-500) · [**Compare GHK-Cu prices from UK suppliers →**](/compounds/ghk-cu)',
+    },
+    {
+      title: 'Mechanism: Actin Cytoskeleton vs Copper-Mediated Transcription',
+      body: 'The mechanistic distinction is the whole comparison, so it is worth setting out precisely.',
+      subsections: [
+        {
+          title: 'TB-500 — actin sequestration and migration',
+          body: 'Actin exists in cells in two states: filamentous (F-actin) and monomeric (G-actin). The balance between them controls whether a cell can extend a leading edge and move. Thymosin β4 binds G-actin and maintains the monomer pool; the TB-500 fragment carries that actin-binding activity. McCormack and colleagues demonstrated the relationship directly in migrating intestinal epithelial cells, where polyamine depletion altered the F-actin/G-actin/thymosin β4 relationship and impaired migration ([PMID 9950774](https://pubmed.ncbi.nlm.nih.gov/9950774/)). Roy and colleagues showed that photoreleasing caged thymosin β4 in locomoting keratocytes caused the cells to turn — a direct demonstration that local thymosin β4 concentration steers migration in real time ([PMID 11381088](https://pubmed.ncbi.nlm.nih.gov/11381088/)). Downstream of migration, TB-500\'s effects on wound closure and neovascularisation follow from cells arriving where they need to be.',
+        },
+        {
+          title: 'GHK-Cu — copper delivery and gene modulation',
+          body: 'GHK has a high affinity for copper(II), and the complex is the biologically active form in the literature. Copper is a cofactor for lysyl oxidase, which cross-links collagen and elastin — which is why a copper-carrying tripeptide alters matrix architecture rather than merely signalling for it. Beyond cofactor delivery, GHK-Cu has been shown to alter the expression of a large gene set. Pickart\'s 2018 review assembled the gene-expression data for GHK-Cu across studies and reported effects spanning collagen synthesis, antioxidant enzymes, matrix metalloproteinases and inflammatory mediators ([PMID 29986520](https://pubmed.ncbi.nlm.nih.gov/29986520/)). That review is the origin of the commonly repeated claim that GHK-Cu resets the expression of thousands of genes — a figure worth reading in the source, because the number depends on how the gene set was defined and analysed.',
+        },
+        {
+          title: 'The evidence base, side by side',
+          body: 'TB-500\'s mechanistic literature is dominated by cell-migration and wound-healing models; its clinical literature is thin but not empty, including a randomised controlled trial in venous ulcers ([PMID 17495250](https://pubmed.ncbi.nlm.nih.gov/17495250/)), a phase 2 randomised trial in dry eye ([PMID 26056426](https://pubmed.ncbi.nlm.nih.gov/26056426/)) and a single- and multiple-dose safety study in healthy volunteers ([PMID 20536472](https://pubmed.ncbi.nlm.nih.gov/20536472/)). GHK-Cu\'s literature is weighted towards skin and matrix biology — in-vivo connective-tissue accumulation in experimental wounds ([PMID 8227353](https://pubmed.ncbi.nlm.nih.gov/8227353/)), matrix metalloproteinase modulation in wounds ([PMID 10383745](https://pubmed.ncbi.nlm.nih.gov/10383745/)), and a randomised trial in laser-resurfaced skin ([PMID 16847171](https://pubmed.ncbi.nlm.nih.gov/16847171/)). Both are preclinical-weighted; neither has a human evidence base comparable to a licensed medicine.',
+        },
+      ],
+    },
+    {
+      title: 'Which One for Which Research Question',
+      body: 'The selection question is straightforward once the mechanism is clear, because the two compounds answer different questions.\n\nIf the research question is about cell migration, wound closure, angiogenesis or the mechanics of tissue repair, TB-500 is the relevant tool. The measurable endpoints — scratch-assay closure, endothelial tube formation, actin dynamics — sit directly downstream of its mechanism.\n\nIf the question is about matrix composition, collagen architecture, skin biology, oxidative stress or transcriptional change, GHK-Cu is the relevant tool. Endpoints like collagen content, hydroxyproline, MMP activity, or gene-expression panels map onto its mechanism.\n\nIf the question is about a combined repair protocol, both can feature, but they should be dosed and measured on their own timescales. TB-500\'s effects manifest first; GHK-Cu\'s transcriptionally-mediated effects manifest over a longer window. Treating them as a single intervention loses the ability to attribute an observed change to either.\n\nA specific point worth making about the copper: much of GHK-Cu\'s literature concerns the copper complex, not the free tripeptide. Choi and colleagues examined the stem-cell recovering effect of copper-free GHK in skin and found activity distinct from the complex ([PMID 23019153](https://pubmed.ncbi.nlm.nih.gov/23019153/)) — meaning GHK-Cu is not simply a copper salt. If your research question is about copper handling, the complex form is not optional.\n\nRelated reading: [**TB-500 for Recovery →**](/research/tb-500-for-recovery), [**GHK-Cu for Skin & Hair →**](/research/ghk-cu-for-skin-hair), and the [**TB-500 vs BPC-157 comparison →**](/research/tb500-vs-bpc157) for how TB-500 sits against the other major repair peptide.',
+    },
+    {
+      title: 'Side-by-Side Specification Comparison',
+      body: 'The table below compares the properties that matter for research use. Figures are drawn from the ViralPeps compound records and the cited literature.',
+      table: {
+        header: [
+          'Property',
+          'TB-500',
+          'GHK-Cu',
+        ],
+        rows: [
+          [
+            'Full identity',
+            'Thymosin β4 fragment (43 residues)',
+            'Glycyl-L-histidyl-L-lysine copper(II) complex',
+          ],
+          [
+            'Molecular weight',
+            '4,961.5 g/mol',
+            '403.9 g/mol peptide; ~466.5 g/mol complex',
+          ],
+          [
+            'CAS number',
+            '77591-33-4',
+            '89030-95-5',
+          ],
+          [
+            'Primary mechanism',
+            'Actin sequestration; cell migration',
+            'Copper delivery; transcriptional modulation',
+          ],
+          [
+            'Principal literature',
+            'Migration, wound healing, cardiac repair',
+            'Matrix remodelling, skin, gene expression',
+          ],
+          [
+            'Reported half-life',
+            '2–4 hours',
+            '~30 minutes in plasma',
+          ],
+          [
+            'Typical research areas',
+            'Wound healing, cardiac repair, anti-inflammatory, hair, eye',
+            'Wound healing, skin regeneration, hair growth, anti-ageing, antioxidant',
+          ],
+          [
+            'UK vendors tracked',
+            '72 vendors, 97 listings, from £11.95',
+            '81 vendors, 109 listings, from £6.48',
+          ],
+          [
+            'Common vial sizes',
+            '2 mg, 5 mg, 10 mg',
+            '50 mg, 100 mg (also lower strengths)',
+          ],
+          [
+            'Outstanding question',
+            'Human efficacy data thin outside venous ulcer, dry eye',
+            'Most data is topical and preclinical; little systemic human data',
+          ],
+        ],
+      },
+    },
+    {
+      title: 'UK Supply and Price Landscape',
+      body: 'Both compounds are among the most heavily stocked in the UK catalogue, and the supply characteristics differ in ways that affect how you compare listings.\n\nTB-500 is stocked by 72 vendors across 97 listings, with tracked prices from £11.95 for a 2 mg vial to £199.99 at the top of the market. The dominant presentation is 10 mg, with 5 mg second. The price spread per milligram is large and is not explained by cost of synthesis — a 43-residue peptide is not cheap to make, but the range between the cheapest and most expensive 10 mg listing is several-fold. As with every compound on this site, normalise to cost per milligram at a stated vial size before comparing.\n\nGHK-Cu is stocked by 81 vendors across 109 listings, from £6.48 to £350.00. It is the most widely stocked compound in the catalogue, which is a direct consequence of its synthesis economics — a tripeptide is cheap to make at high purity, so almost everyone carries it. Presentations run from 5 mg to 1000 mg, with 50 mg and 100 mg dominating. The 1000 mg listing at £350 is a bulk presentation rather than a research-scale one.\n\nThe supply risk differs too. With GHK-Cu, the failure mode is not scarcity — it is listings that market copper-peptide claims without any specification detail, because the low cost of goods means a low price can still carry a healthy margin. With TB-500, the failure mode is listings whose strength is ambiguous, since 2 mg, 5 mg and 10 mg presentations all exist and some listings quote a price without a size.\n\nBoth compounds are covered by the same verification standard: batch-matched certificate of analysis naming the laboratory, purity by HPLC with the chromatogram supplied, and identity by mass spectrometry against the expected molecular weight. For GHK-Cu specifically, the expected mass differs between the free tripeptide and the copper complex, and a COA that reports one while the listing sells the other is a documentation failure you will only catch by knowing which number to expect.\n\nLive pricing: [**TB-500 price comparison →**](/compounds/tb-500) and [**GHK-Cu price comparison →**](/compounds/ghk-cu).',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'TB-500 and GHK-Cu are compared constantly and are mechanistically unrelated. TB-500 is a 43-residue actin-binding fragment whose effects run through cytoskeletal dynamics and cell migration, measurable within hours. GHK-Cu is a copper-binding tripeptide whose effects run through copper delivery and altered transcription, measurable over days.\n\nChoose on the endpoint, not on the category. Migration, wound closure and angiogenesis point to TB-500. Matrix composition, collagen architecture, skin biology and oxidative stress point to GHK-Cu. If you are running both, run them on separate timescales so the result is attributable.\n\nThe evidence position is honest and mixed for both. Each has a handful of small human trials — venous ulcer and dry eye for TB-500, laser-resurfaced skin for GHK-Cu — sitting on a much larger preclinical base. Neither has anything resembling the phase 3 programme behind tirzepatide, and neither is a licensed medicine in the UK. Research-use-only, from a vendor who documents what they shipped.\n\nFor the pharmacology in depth, read [**TB-500 for Recovery →**](/research/tb-500-for-recovery) and [**GHK-Cu for Skin & Hair →**](/research/ghk-cu-for-skin-hair). For the live market, [**compare TB-500 prices →**](/compounds/tb-500) or [**compare GHK-Cu prices →**](/compounds/ghk-cu).',
+    },
+  ],
+  faq: [
+    {
+      question: 'What is the main difference between TB-500 and GHK-Cu?',
+      answer: 'Mechanism and timescale. TB-500 is a 43-residue fragment of thymosin β4 that sequesters actin and regulates cell migration, with effects measurable within hours. GHK-Cu is a copper-binding tripeptide that delivers copper and modulates gene expression, with transcriptional effects developing over days.',
+    },
+    {
+      question: 'Are TB-500 and GHK-Cu often stacked together?',
+      answer: 'They are frequently grouped in recovery protocols because both are described as repair peptides, but they act through unrelated mechanisms. If used together in research, they should be dosed and measured on separate timescales so that an observed effect can be attributed to one or the other.',
+    },
+    {
+      question: 'Which is cheaper in the UK, TB-500 or GHK-Cu?',
+      answer: 'GHK-Cu is generally cheaper because it is a three-amino-acid peptide and inexpensive to synthesise — tracked listings start at around £6.48. TB-500 is a 43-residue peptide and tracked listings start higher. Because vial sizes differ substantially, compare cost per milligram at a stated size rather than headline prices.',
+    },
+    {
+      question: 'Does GHK-Cu work without the copper?',
+      answer: 'Research indicates copper-free GHK has activity distinct from the copper complex, including effects on skin stem cells. However, a large part of the GHK-Cu literature concerns the copper complex specifically, because copper is a cofactor for lysyl oxidase in collagen cross-linking.',
+    },
+    {
+      question: 'How many controlled human trials exist for TB-500 and GHK-Cu?',
+      answer: 'Both are preclinical-weighted. TB-500 has a randomised trial in venous ulcers, a phase 2 randomised trial in dry eye and a single/multiple-dose safety study in healthy volunteers. GHK-Cu has a randomised trial in CO2 laser-resurfaced skin plus extensive topical dermatological work. Neither has a large phase 3 programme.',
+    },
+    {
+      question: 'What molecular weight should appear on the certificate of analysis?',
+      answer: '4,961.5 g/mol for TB-500. For GHK-Cu it depends on the form: approximately 403.9 g/mol for the free tripeptide and around 466.5 g/mol for the copper complex. A certificate reporting the free-peptide mass for a product sold as GHK-Cu is a documentation discrepancy worth querying.',
+    },
+  ],
+  references: [
+    'Roy P, Petroll WM, Cavanagh HD, et al. Local photorelease of caged thymosin beta4 in locomoting keratocytes causes cell turning. J Cell Biol. 2001;153(5):1035-48. PMID 11381088',
+    'McCormack SA, Ray RM, Blanner PM, Johnson LR. Polyamine depletion alters the relationship of F-actin, G-actin, and thymosin beta4 in migrating IEC-6 cells. Am J Physiol. 1999;276(2):C459-68. PMID 9950774',
+    'Malinda KM, Sidhu GS, Mani H, et al. Thymosin beta4 accelerates wound healing. J Invest Dermatol. 1999;113(3):364-8. PMID 10469335',
+    'Shrivastava S, Srivastava D, Olson EN, et al. Thymosin beta4 and cardiac repair. Ann N Y Acad Sci. 2010;1194:87-96. PMID 20536454',
+    'Smart N, Risebro CA, Melville AA, et al. Thymosin beta-4 is essential for coronary vessel development and promotes neovascularization via adult epicardium. Ann N Y Acad Sci. 2007;1112:171-88. PMID 17495252',
+    'Guarnera G, DeRosa A, Camerini R. Thymosin beta-4 and venous ulcers: clinical remarks on a European prospective, randomized study on safety, tolerability, and enhancement on healing. Ann N Y Acad Sci. 2007;1112:407-12. PMID 17495250',
+    'Sosne G, Ousler GW. Thymosin beta 4 ophthalmic solution for dry eye: a randomized, placebo-controlled, Phase II clinical trial conducted using the controlled adverse environment (CAE) model. Clin Ophthalmol. 2015;9:877-84. PMID 26056426',
+    'Ruff D, Crockford D, Girardi G, Zhang M. A randomized, placebo-controlled, single and multiple dose study of intravenous thymosin beta4 in healthy volunteers. Ann N Y Acad Sci. 2010;1194:223-9. PMID 20536472',
+    'Pickart L, Vasquez-Soltero JM, Margolina A. Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data. Int J Mol Sci. 2018;19(7):1987. PMID 29986520',
+    'Pickart L, Vasquez-Soltero JM, Margolina A. GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration. Biomed Res Int. 2015;2015:648108. PMID 26236730',
+    'Pickart L, Vasquez-Soltero JM, Margolina A. The human tri-peptide GHK and tissue remodeling. J Biomater Sci Polym Ed. 2008;19(8):969-88. PMID 18644225',
+    'Maquart FX, Bellon G, Chaqour B, et al. In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds. J Clin Invest. 1993;92(5):2368-76. PMID 8227353',
+    'Siméon A, Monier F, Emonard H, et al. Expression and activation of matrix metalloproteinases in wounds: modulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. J Invest Dermatol. 1999;112(6):957-64. PMID 10383745',
+    'Choi HR, Kang YA, Ryoo SJ, et al. Stem cell recovering effect of copper-free GHK in skin. J Pept Sci. 2012;18(11):685-90. PMID 23019153',
+    'Miller TR, Wagner JD, Baack BR, Eisbach KJ. Effects of topical copper tripeptide complex on CO2 laser-resurfaced skin. Arch Facial Plast Surg. 2006;8(4):252-9. PMID 16847171',
+  ],
+}
+
 };
 export default content;
