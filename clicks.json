@@ -373,5 +373,14 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.peptidepal.co.uk/products/ghkcu",
     "visitorId": "930147f15f831823"
+  },
+  {
+    "ts": "2026-09-19T16:42:01.629Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "selank",
+    "destUrl": "https://helixcore.co.uk/products/selank",
+    "visitorId": "29ea21ee1aebbcc1"
   }
 ]
