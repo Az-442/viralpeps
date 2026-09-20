@@ -10227,6 +10227,368 @@ slug: 'bpc-157-for-recovery',
     'Choi HR, Kang YA, Ryoo SJ, et al. Stem cell recovering effect of copper-free GHK in skin. J Pept Sci. 2012;18(11):685-90. PMID 23019153',
     'Miller TR, Wagner JD, Baack BR, Eisbach KJ. Effects of topical copper tripeptide complex on CO2 laser-resurfaced skin. Arch Facial Plast Surg. 2006;8(4):252-9. PMID 16847171',
   ],
+},
+
+'cognitive-peptide-suppliers-uk': {
+  slug: 'cognitive-peptide-suppliers-uk',
+  pullQuote: 'The cognitive band is the thinnest and most unevenly supplied group in the UK research catalogue. Semax and Selank have more than sixty vendors each. P21 has one. That gap is not a supply problem waiting to be solved — it is a structural feature of the market, and understanding it is the difference between finding a supplier and being sold the wrong thing.',
+  quickInfo: [
+    { label: 'Group Covered', value: 'Neurotrophic, nootropic and neuromodulatory research peptides' },
+    { label: 'Best-Supplied', value: 'Semax (63 vendors) and Selank (62 vendors) — both supply-saturated' },
+    { label: 'Mid-Tier', value: 'DSIP (48 vendors), Pinealon (11), ADAMAX (7), Dermorphin (6)' },
+    { label: 'Thinly Supplied', value: 'Cerebrolysin (1), FGL (1), P21 (1), Dihexa (3), PE-22-28 (4)' },
+    { label: 'General Vendors Tracked', value: '73 UK vendors carry at least one cognitive-band compound' },
+    { label: 'Deepest Specialists', value: 'Dr P Research (12 compounds), Pioneer Peptides (8), seven vendors at 7' },
+    { label: 'Price Range', value: '£7.50 (Semax/Selank low end) to £199.99 (high-strength listings)' },
+    { label: 'Last Verified', value: 'September 2026' },
+  ],
+  sections: [
+    {
+      title: 'Cognitive Peptide Suppliers UK: What This Group Actually Looks Like',
+      body: 'Cognitive peptides are the most requested and least evenly supplied category in the UK research market. The typical buyer arrives looking for "a cognitive peptide supplier" as though the group were a single product line. It is not. The compounds grouped here under a cognitive or neurotrophic heading span a three-residue anti-inflammatory fragment, a synthetic ACTH analogue, a copper-free pineal tetrapeptide, and a long-established porcine neuropeptide preparation — and the vendors who carry them are not a coherent set.\n\nThe supply data makes this concrete. [**Semax**](/compounds/semax) is carried by 63 UK vendors in 77 listings. [**Selank**](/compounds/selank) is carried by 62 vendors in 73 listings. Between them there are over 150 listings for two Russian-developed regulatory peptides, both tracked from £7.50 at the low end. In the same functional group, [**P21**](/compounds/p21) is stocked by exactly one vendor at £32.00, [**FGL**](/compounds/fgl) by exactly one at £49.99, and [**Cerebrolysin**](/compounds/cerebrolysin) by exactly one at £32.95.\n\nThat distribution is the story. Semax and Selank are easy to source because a short synthetic sequence is cheap to make at high purity and the research literature behind them is substantial. The thinly-supplied compounds are thinly supplied for different reasons — Cerebrolysin is a biological preparation rather than a synthetic peptide, which puts it outside the core capability of most research vendors, while P21 and Dihexa sit at the far edge of the market where demand has not justified catalogue depth.\n\nThis page covers how the supply base is structured, which vendors actually specialise in this band, how to verify a cognitive-peptide listing, and where the evidence genuinely stands. For the pharmacology of the two flagship compounds, the [**Semax research summary →**](/research/semax-research-summary) and the [**Selank research summary →**](/research/selank-research-summary) cover mechanism and literature in depth.',
+    },
+    {
+      title: 'The Supply Map: Four Tiers, Not One Market',
+      body: 'Sorting the seventy-plus vendors that carry something in this band by catalogue depth produces four clearly separated tiers. Which tier a vendor sits in determines what kind of question you should be asking them.\n\nThere is no single "cognitive peptide supplier" to find, because the group spans a supply-saturated pair and a set of compounds with one or two vendors each. Work out which tier your compound of interest sits in first, then apply the checks that tier requires.',
+      subsections: [
+        {
+          title: 'Tier 1 — The saturated pair: Semax and Selank',
+          body: '63 and 62 vendors respectively. At this density, availability is never the problem; price and documentation are. Both compounds are short synthetic sequences, which means the cost of goods is low enough that a vendor can enter the category with a small outlay, and the low end of the tracked range — £7.50 — reflects that. When more than sixty vendors sell the same vial, the differentiator is not the molecule. It is whether the certificate of analysis is batch-matched, whether the purity figure carries a stated method, and whether the vendor is an established business. Both compounds have a well-defined expected molecular weight, so a mass check is a meaningful test rather than a formality. Semax is an ACTH(4-10) analogue with a C-terminal Pro-Gly-Pro extension and Selank is a synthetic analogue of the endogenous immunopeptide tuftsin, and their masses differ — a certificate that reports the wrong one has tested the wrong vial.',
+        },
+        {
+          title: 'Tier 2 — The sleep and longevity adjacent middle: DSIP and Pinealon',
+          body: 'DSIP is carried by 48 vendors in 60 listings from £9.99, which places it firmly in mainstream catalogue territory. Pinealon is carried by 11 vendors in 11 listings from £18.99, with 10 mg and 20 mg presentations. Both sit on the boundary between the cognitive band and the sleep, circadian and longevity categories, and both are short synthetic sequences with straightforward analytical profiles. The Pinealon count is the more interesting figure: eleven vendors for a compound with a modest research literature is enough to make sourcing easy, but not so many that listings are commoditised. Expect documentation quality to vary more here than in Tier 1, because there is less competitive pressure on specification.',
+        },
+        {
+          title: 'Tier 3 — The small specialist set: ADAMAX, Dermorphin, PE-22-28',
+          body: 'These three sit between four and eight vendors each. [**ADAMAX**](/compounds/adamax) is tracked at 7 vendors in 8 listings from £29.95, [**Dermorphin**](/compounds/dermorphin) at 6 vendors from £24.99, and [**PE-22-28**](/compounds/pe-22-28) at 4 vendors from £25.99. ADAMAX is the notable one — a synthetic peptide researched for neuroprotective and cognitive applications whose UK supply has grown to the point where it is now genuinely available rather than a single-vendor curiosity. Dermorphin is an unusual inclusion in a cognitive grouping: it is a naturally occurring heptapeptide opioid agonist first isolated from amphibian skin, and D-amino-acid residues in its sequence make it markedly resistant to enzymatic degradation. It belongs on this page because it is a CNS-active research peptide with a small but real UK supply base, not because it shares a mechanism with Semax. Buyers who arrive expecting a nootropic and find an opioid receptor agonist have misread the catalogue.',
+        },
+        {
+          title: 'Tier 4 — The single-vendor compounds: Cerebrolysin, FGL, P21',
+          body: '[**Cerebrolysin**](/compounds/cerebrolysin) is a porcine brain-derived peptide preparation used clinically in some European and Asian jurisdictions for cognitive impairment. That origin is why it has one UK research vendor at £32.95 and not sixty: it is a biological extract with a variable composition rather than a synthesised sequence, and a variable-composition product cannot be specified by molecular weight or sequence the way a synthetic peptide can. [**FGL**](/compounds/fgl) is a synthetic neural cell adhesion molecule-derived peptide with one vendor at £49.99. [**P21**](/compounds/p21) is a CNTF-derived peptide with one vendor at £32.00. Single-vendor supply does not make a compound suspect — there are legitimate reasons for thin catalogues in a small market. It does change the verification approach, because there is no competitive pressure and no cross-vendor price signal to tell you whether a figure is reasonable. On these compounds, the documentation is the only evidence you have.',
+        },
+      ],
+    },
+    {
+      title: 'Which Vendors Specialise in This Band',
+      body: 'Catalogue depth in the cognitive group is unevenly distributed, and a vendor carrying twelve cognitive-band compounds is a different proposition from a vendor carrying two.\n\nAt the top of the depth ranking, Dr P Research carries 12 compounds across this band — the widest cognitive coverage in the tracked market. Pioneer Peptides carries 8. Seven vendors carry 7 each: Express Peptides, Pure Peptides UK, Kensington Labs UK, Bluewell Peptides, Chroma Peptides, and Advanced Peptides UK. A further group of six-compound carriers includes UK Peptides, Imperial Peptides UK, Revexa and VialVerse.\n\nWhat breadth actually tells you. A vendor maintaining twelve compounds in a niche band has made a deliberate inventory decision. That usually correlates with better specification practice, because maintaining a broad niche catalogue requires supplier relationships rather than opportunistic purchases. It does not guarantee quality, and it certainly does not excuse the documentation check — but it does mean the vendor has an ongoing commercial interest in the category, which is a signal about continuity.\n\nWhat it does not tell you. Depth in the abstract is not depth in your compound. Dr P Research\'s twelve compounds may or may not include the one you want. Always check the specific compound page rather than assuming a specialist covers everything in the band.\n\nSeventy-three UK vendors in total carry at least one compound in this group. That figure is high, but it is inflated by Semax and Selank, which between them account for most of the coverage. Strip those two out and the number of vendors carrying any other cognitive-band compound falls sharply. The [**UK peptide directory →**](/research/uk-peptide-directory) lists the full vendor set, and the [**supplier guide for choosing a UK vendor →**](/research/choosing-a-uk-supplier) covers the firm-level checks.\n\n[**Compare Semax prices from UK suppliers →**](/compounds/semax) · [**Compare Selank prices from UK suppliers →**](/compounds/selank)',
+    },
+    {
+      title: 'How to Verify a Cognitive Peptide Listing',
+      body: 'The verification standard is the same across the catalogue, but three checks matter more than usual in this band.',
+      subsections: [
+        {
+          title: '1. Match the molecular weight to the named compound',
+          body: 'Cognitive peptides are analytically ambiguous in a way that many categories are not. Semax and Selank are both short synthetic regulatory peptides developed in the same research tradition, both marketed with overlapping cognitive and anxiolytic language, and both commonly listed by vendors who do not distinguish them carefully. They are not the same molecule. Confirm the expected mass for the specific compound on the certificate, and treat a certificate whose mass matches the other compound as a documentation failure rather than a typo. The same logic applies to the Russian-derived peptide family more broadly — Pinealon, Vesugen, Cortagen and Cardiogen are all short synthetic sequences from the same development programme, and a vendor listing several of them with a single shared certificate is not providing batch-level documentation.',
+        },
+        {
+          title: '2. Check the delivered mass, not just the purity percentage',
+          body: 'A purity figure without a mass check tells you how much of the material is the target compound only if you already know the material is the target compound. Ask what mass was dispensed against what mass was declared. This matters most for the single-vendor compounds, where there is no price comparison to act as a sanity check.',
+        },
+        {
+          title: '3. Read the language on the listing itself',
+          body: 'UK research vendors may not market any compound with human dosing guidance, administration instructions or therapeutic claims. Cognitive peptides attract that marketing more than most categories because the research interest is inherently about mental function, and vendor copy drifts from "researched for cognitive effects" towards "improves focus" very easily. A vendor marketing a research-use-only product on the basis of how it will make the buyer feel has moved outside the framing that makes the rest of their catalogue operable. Treat the listing language as part of the evidence about the vendor.',
+        },
+        {
+          title: '4. Confirm the certificate names the laboratory',
+          body: 'An anonymous COA — a purity figure with no testing laboratory and no chromatogram — is marketing material. A usable certificate names the lab, gives purity with the method stated and the chromatogram supplied, confirms identity by mass spectrometry, and carries a batch number that matches the vial. The [**how to read a certificate of analysis →**](/research/how-to-read-a-coa) guide walks through each element.',
+        },
+      ],
+    },
+    {
+      title: 'What the Evidence Actually Supports',
+      body: 'Cognitive peptides attract more confident marketing than the underlying evidence justifies, and it is worth being precise about the difference between the two flagship compounds and the rest of the group.\n\nThe Semax and Selank literature is real, but it is overwhelmingly preclinical and predominantly from a small number of research groups. Semax is studied for BDNF and trkB regulation in the hippocampus, with Dolotov and colleagues reporting that Semax regulates BDNF and trkB expression in rat hippocampus ([PMID 16996037](https://pubmed.ncbi.nlm.nih.gov/16996037/)) and separately that it binds specifically and increases BDNF protein levels in rat basal forebrain ([PMID 16635254](https://pubmed.ncbi.nlm.nih.gov/16635254/)). Its ischaemia literature is more specific still, with genome-wide transcriptional work in rat focal ischaemia ([PMID 24661604](https://pubmed.ncbi.nlm.nih.gov/24661604/)) and a transcriptome-level study of the same peptide following cerebral ischaemia-reperfusion ([PMID 32580520](https://pubmed.ncbi.nlm.nih.gov/32580520/)). One human study reported outcomes in patients at different stages of ischaemic stroke ([PMID 29798983](https://pubmed.ncbi.nlm.nih.gov/29798983/)). That is a meaningful body of work, and none of it is a basis for claiming a cognitive benefit in healthy people.\n\nSelank\'s literature runs through the tuftsin family and the anxiolytic question. Kasian and colleagues reported that Selank enhanced the effect of diazepam in reducing anxiety under chronic mild stress in rats ([PMID 28280289](https://pubmed.ncbi.nlm.nih.gov/28280289/)), and Filatova and colleagues examined how Selank and olanzapine affect the expression of genes involved in GABAergic neurotransmission in IMR-32 cells ([PMID 28293190](https://pubmed.ncbi.nlm.nih.gov/28293190/)). A clinical study in generalised anxiety disorder and neurasthenia exists ([PMID 18454096](https://pubmed.ncbi.nlm.nih.gov/18454096/)), but it is not a large randomised trial by contemporary standards. A functional connectomics study examined Selank and Semax effects together ([PMID 32342318](https://pubmed.ncbi.nlm.nih.gov/32342318/)).\n\nFor the rest of the band, evidence depth falls away quickly. P21 derives from ciliary neurotrophic factor and sits in a literature dominated by CNTF biology rather than the fragment itself — the [**P21 deep dive →**](/research/p21-deep-dive) covers the distinction. Dihexa\'s mechanistic literature concerns the hepatocyte growth factor/c-Met system rather than the compound in isolation: Benoist and colleagues demonstrated that the procognitive and synaptogenic effects of angiotensin IV-derived peptides depend on activation of the HGF/c-Met system ([PMID 25187433](https://pubmed.ncbi.nlm.nih.gov/25187433/)), and Wright and Harding reviewed that receptor system as a target in Alzheimer\'s disease ([PMID 25649658](https://pubmed.ncbi.nlm.nih.gov/25649658/)). Cerebrolysin has the strongest formal evidence in the group and the weakest provenance for a synthetic-peptide catalogue — the Cochrane review of Cerebrolysin for vascular dementia is the relevant assessment ([PMID 31710397](https://pubmed.ncbi.nlm.nih.gov/31710397/)).\n\nThe honest summary: this is a preclinical band. The two flagship compounds have more literature than most research peptides because they were developed as clinical candidates in a national programme, not because a cognitive benefit has been established. Treat every claim in this category as a research hypothesis.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Cognitive peptide supply in the UK is two markets wearing one label. Semax and Selank are commodity compounds with more than sixty vendors each, low prices and no availability constraint — where the entire buying problem is documentation quality and vendor legitimacy. Everything else in the band is a thin market, from DSIP at forty-eight vendors down to Cerebrolysin, FGL and P21 at one vendor each, where availability is the constraint and the certificate is the only real evidence you have.\n\nThree rules do most of the work. Establish which tier your compound is in before you shop, because the checks differ. Match the certificate\'s molecular weight to the specific compound rather than to the family, since this band contains several similar short peptides with overlapping marketing. And read the listing language, because cognitive peptides attract efficacy marketing more than any other category — a research vendor describing how a compound will make the user feel is describing a medicine they are not licensed to sell.\n\nFor the compounds, the [**Semax research summary →**](/research/semax-research-summary) and [**Selank research summary →**](/research/selank-research-summary) cover mechanism and literature, and the [**P21 deep dive →**](/research/p21-deep-dive) covers the CNTF-derived fragment. For the market, the [**UK peptide directory →**](/research/uk-peptide-directory) lists the full vendor set.',
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK suppliers sell cognitive peptides?',
+      answer: 'ViralPeps tracks 73 UK vendors carrying at least one cognitive-band compound. That figure is dominated by Semax (63 vendors) and Selank (62 vendors). Outside those two, supply thins sharply: DSIP is carried by 48 vendors, Pinealon by 11, ADAMAX by 7, Dermorphin by 6, PE-22-28 by 4, Dihexa by 3, and Cerebrolysin, FGL and P21 by one vendor each.',
+    },
+    {
+      question: 'Which UK vendor carries the widest range of cognitive peptides?',
+      answer: 'Dr P Research carries 12 cognitive-band compounds, the widest coverage in the tracked market. Pioneer Peptides carries 8, and Express Peptides, Pure Peptides UK, Kensington Labs UK, Bluewell Peptides, Chroma Peptides and Advanced Peptides UK each carry 7. Breadth signals a deliberate inventory decision but does not replace the certificate check for your specific compound.',
+    },
+    {
+      question: 'Are cognitive peptides legal to buy in the UK as research chemicals?',
+      answer: 'Most are supplied as research-use-only chemicals, which is a lawful category. The exceptions matter: Cerebrolysin is a biological preparation with clinical use in some jurisdictions, and compounds with opioid receptor activity such as Dermorphin sit in a different legal context entirely. UK research vendors may not provide dosing or administration guidance for any of them.',
+    },
+    {
+      question: 'Why are some cognitive peptides sold by only one UK vendor?',
+      answer: 'Two different reasons. Cerebrolysin is a biological extract with variable composition, which puts it outside the normal synthetic-peptide supply chain. P21 and FGL are niche research fragments where UK demand has not justified catalogue depth. Thin supply is not inherently suspect, but it removes the cross-vendor price signal, so documentation matters more.',
+    },
+    {
+      question: 'How do I verify a Semax or Selank certificate of analysis?',
+      answer: 'Check that the reported molecular weight matches the specific compound — Semax and Selank are related short synthetic peptides with different masses and are frequently confused in vendor documentation. The certificate should also name the testing laboratory, state the purity method with the chromatogram supplied, confirm identity by mass spectrometry, and carry a batch number matching the vial.',
+    },
+    {
+      question: 'Is there human clinical evidence for cognitive peptides?',
+      answer: 'Very limited. Semax has one reported human study in ischaemic stroke and Selank has a clinical study in generalised anxiety disorder and neurasthenia, with Cerebrolysin assessed in a Cochrane review for vascular dementia — the strongest formal evidence in the group. Everything else is preclinical, largely rodent work from a small number of research groups.',
+    },
+    {
+      question: 'What is the cheapest cognitive peptide in the UK?',
+      answer: 'Semax and Selank listings are tracked from £7.50 at the low end, which reflects their status as short synthetic sequences with low synthesis costs. Prices run to £199.99 at the top of the tracked market. Because vial sizes differ, compare cost per milligram at a stated strength rather than headline prices.',
+    },
+  ],
+  references: [
+    'Dolotov OV, Karpenko EA, Inozemtseva LS, et al. Semax, an analog of ACTH(4-10) with cognitive effects, regulates BDNF and trkB expression in the rat hippocampus. Brain Res. 2006;1117(1):54-60. PMID 16996037',
+    'Dolotov OV, Karpenko EA, Seredenina TS, et al. Semax, an analogue of adrenocorticotropin (4-10), binds specifically and increases levels of brain-derived neurotrophic factor protein in rat basal forebrain. J Neurochem. 2006;97(1):82-6. PMID 16635254',
+    'Medvedeva EV, Dmitrieva VG, Povarova OV, et al. The peptide semax affects the expression of genes related to the immune and vascular systems in rat brain focal ischemia: genome-wide transcriptional analysis. BMC Genomics. 2014;15:228. PMID 24661604',
+    'Filippenkov IB, Stavchansky VV, Glazova NY, et al. Novel Insights into the Protective Properties of ACTH(4-7)PGP (Semax) Peptide at the Transcriptome Level Following Cerebral Ischaemia-Reperfusion in Rats. Genes (Basel). 2020;11(6):681. PMID 32580520',
+    'Gusev EI, Martynov MY, Kostenko EV, et al. [The efficacy of semax in the treatment of patients at different stages of ischemic stroke]. Zh Nevrol Psikhiatr Im S S Korsakova. 2018;118(3. Vyp. 2):61-68. PMID 29798983',
+    'Kasian A, Kolomin T, Andreeva L, et al. Peptide Selank Enhances the Effect of Diazepam in Reducing Anxiety in Unpredictable Chronic Mild Stress Conditions in Rats. Behav Neurol. 2017;2017:5091027. PMID 28280289',
+    'Filatova E, Kasian A, Kolomin T, et al. GABA, Selank, and Olanzapine Affect the Expression of Genes Involved in GABAergic Neurotransmission in IMR-32 Cells. Front Pharmacol. 2017;8:89. PMID 28293190',
+    'Zozulia AA, Neznamov GG, Siuniakov TS, et al. [Efficacy and possible mechanisms of action of a new peptide anxiolytic selank in the therapy of generalized anxiety disorders and neurasthenia]. Zh Nevrol Psikhiatr Im S S Korsakova. 2008;108(4):38-48. PMID 18454096',
+    'Panikratova YR, Lebedeva IS, Sokolov OY, et al. Functional Connectomic Approach to Studying Selank and Semax Effects. Dokl Biol Sci. 2020;490(1):9-11. PMID 32342318',
+    'Kolik LG, Nadorova AV, Antipova TA, et al. Selank, Peptide Analogue of Tuftsin, Protects Against Ethanol-Induced Memory Impairment by Regulating of BDNF Content in the Hippocampus and Prefrontal Cortex in Rats. Bull Exp Biol Med. 2019;167(4):461-464. PMID 31625062',
+    'Slominsky PA, Shadrina MI, Kolomin TA, et al. Peptides semax and selank affect the behavior of rats with 6-OHDA induced PD-like parkinsonism. Dokl Biol Sci. 2017;474(1):101-103. PMID 28702721',
+    'Khavinson V, Ribakova Y, Kulebiakin K, et al. Pinealon increases cell viability by suppression of free radical levels and activating proliferative processes. Rejuvenation Res. 2011;14(5):535-41. PMID 21978084',
+    'Benoist CC, Kawas LH, Zhu M, et al. The procognitive and synaptogenic effects of angiotensin IV-derived peptides are dependent on activation of the hepatocyte growth factor/c-met system. J Pharmacol Exp Ther. 2014;351(2):390-402. PMID 25187433',
+    'Wright JW, Harding JW. The Brain Hepatocyte Growth Factor/c-Met Receptor System: A New Target for the Treatment of Alzheimer\'s Disease. J Alzheimers Dis. 2015;45(4):985-1000. PMID 25649658',
+    'Cui S, Chen N, Yang M, et al. Cerebrolysin for vascular dementia. Cochrane Database Syst Rev. 2019;2019(11):CD008900. PMID 31710397',
+    'Gavrilova SI, Alvarez A. Cerebrolysin in the therapy of mild cognitive impairment and dementia due to Alzheimer\'s disease: 30 years of clinical use. Med Res Rev. 2021;41(5):2775-2803. PMID 32808294',
+    'Ostrovskaya RU, Vakhitova YV, Kuzmina US, et al. Neuroprotective effect of novel cognitive enhancer noopept on AD-related cellular model involves the attenuation of apoptosis and tau hyperphosphorylation. J Biomed Sci. 2014;21(1):74. PMID 25096780',
+    'Graf MV, Kastin AJ. Delta-sleep-inducing peptide (DSIP): an update. Peptides. 1986;7(6):1165-87. PMID 3550726',
+    'Kovalzon VM, Strekalova TV. Delta sleep-inducing peptide (DSIP): a still unresolved riddle. J Neurochem. 2006;97(1):303-9. PMID 16539679',
+  ],
+},
+
+'uk-peptide-directory': {
+  slug: 'uk-peptide-directory',
+  pullQuote: 'A directory is only useful if it tells you what it is a directory OF. The UK research peptide market runs to 88 tracked vendors, 154 research compounds and 2,894 individual product listings, and the single most common failure is comparing a figure from one vendor profile against a figure from another when the two numbers were never counting the same thing. This page sets out how to read a UK peptide directory so the numbers mean something.',
+  quickInfo: [
+    { label: 'UK Vendors Tracked', value: '88 — verified against live sites, not aggregated from forums' },
+    { label: 'Research Compounds', value: '154 master compounds across the catalogue' },
+    { label: 'Product Listings', value: '2,894 individual vendor listings with tracked prices' },
+    { label: 'Site-Verified Vendors', value: '56 of 88 — verified as live trading businesses with a contact route' },
+    { label: 'Lab-Tested Badge', value: '81 of 88 vendors publish third-party testing or a named laboratory' },
+    { label: 'Free UK Shipping', value: '61 of 88 vendors offer free delivery above a stated threshold' },
+    { label: 'Average Vendor Rating', value: '4.54 / 5 across all rated vendors' },
+    { label: 'Last Verified', value: 'September 2026' },
+  ],
+  sections: [
+    {
+      title: 'What a UK Peptide Directory Should Actually Do',
+      body: 'Search for a UK peptide directory and you will find aggregator pages, affiliate listicles and forum threads. Most of them share a structural weakness: they tell you a vendor exists without telling you what the vendor actually sells, and they present a product count without saying how it was derived. That is enough to generate a click and not enough to make a decision.\n\nA directory that is worth using has to do three things. It has to be sourced from live vendor sites rather than compiled once and left to rot, because the UK research peptide market turns over quickly — vendors launch, rebuild their catalogues, and disappear on a timescale of months rather than years. It has to count what is actually displayed, so that the number on a vendor card is the number of products rendered on that vendor\'s page rather than an accumulated total of dosage variants. And it has to distinguish the compounds from the listings, because a catalogue of 154 distinct research compounds and a database of 2,894 vendor listings are two different measurements of the same market, and conflating them produces nonsense.\n\nViralPeps is a UK peptide directory built on those three rules. The vendor count is 88 companies verified against their live websites. The compound count is 154 master compounds — distinct research peptides, not dosage variants of the same molecule. The listing count is 2,894 individual vendor product entries with tracked prices and URLs. Every price on the site carries a source URL and a verification date.\n\nThis page explains how to use it: how the three numbers relate, what each badge means, which directory metrics are genuinely informative, and which are easy to inflate. If you want the compounds rather than the vendors, start from the [**types of research peptides →**](/research/types-of-research-peptides) primer. If you want to evaluate a specific vendor, the [**guide to choosing a UK supplier →**](/research/choosing-a-uk-supplier) is the more focused read.',
+    },
+    {
+      title: 'The Three Numbers, and Why Conflating Them Breaks Everything',
+      body: 'Almost every misleading claim you will encounter about the UK research peptide market comes from mixing up these three quantities. They are related but not interchangeable, and a directory that does not separate them cannot be read accurately.',
+      subsections: [
+        {
+          title: 'Vendors — how many businesses trade in the market',
+          body: 'ViralPeps tracks 88 UK peptide vendors. That figure counts distinct businesses with distinct websites and distinct payment routes, not storefronts belonging to the same operator. The number matters because market density drives price competition: a compound carried by 78 vendors behaves completely differently from one carried by 6. Across the whole catalogue 73 vendors carry at least one cognitive-band compound, 81 carry GHK-Cu, and 78 carry BPC-157 — while Cerebrolysin, FGL and P21 have one vendor each. A vendor count by itself is close to meaningless; a vendor count per compound is the figure you actually want.',
+        },
+        {
+          title: 'Compounds — how many distinct research peptides exist in the catalogue',
+          body: 'The catalogue holds 154 master compounds. This number is deliberately conservative. When a vendor sells BPC-157 in 5 mg, 10 mg and a pre-mixed pen format, that is three listings of one compound, not three compounds. Treating dosage variants as separate compounds is the single most common way directory product counts get inflated: a site that reports "400+ products" may be counting packaging variants of a much smaller number of molecules. ViralPeps publishes both figures separately for exactly this reason — 154 master compounds and 2,894 total listings, with the distinction stated rather than blurred.',
+        },
+        {
+          title: 'Listings — how many individual vendor product entries are tracked',
+          body: 'The 2,894 figure is the deepest and the least intuitive. Each listing is a specific product at a specific vendor at a specific price, with its own URL and its own verification date. Listings are where price comparison actually happens, because a listing carries a vial size and a price and therefore supports a cost-per-milligram calculation that a compound-level figure cannot. When a comparison table shows thirty suppliers for tirzepatide across sixty-nine listings, those are sixty-nine separately tracked products with sixty-nine separately verified prices — which is why the price spread is real and not an artefact of aggregation.',
+        },
+      ],
+    },
+    {
+      title: 'Reading the Vendor Records',
+      body: 'Each vendor in the directory carries a small set of fields, and understanding what each one does and does not tell you is the difference between using the data and being misled by it.\n\nThe verified flag covers 56 of 88 vendors. Verification means the site was checked as a live trading business — a reachable website, a stated contact route, and evidence of trading activity. It does not mean the vendor is endorsed, and it does not mean the compounds are good. A verified vendor can still ship an under-specified product, and an unverified vendor is not automatically a bad actor; a newly launched business will sit unverified until it has been checked. Treat the flag as "this business demonstrably exists", nothing more.\n\nThe lab-tested flag covers 81 of 88 vendors, and it means the vendor publishes third-party testing or names the laboratory that performs it. This is a materially stronger signal than the verified flag, because it is about the product rather than the business. Eighty-one out of eighty-eight is a high proportion, which sounds reassuring until you notice that the flag records the existence of published testing rather than the quality of it. A vendor who posts a certificate with no laboratory name and no chromatogram technically publishes testing. The [**how to read a certificate of analysis →**](/research/how-to-read-a-coa) guide covers what a usable certificate actually contains.\n\nThe rating field averages 4.54 out of 5 across all 88 vendors. Vendor ratings are the least discriminating metric in the directory and should be read with the most caution. On a five-point scale with a compressed distribution, almost every vendor lands between 4.2 and 4.8, which means the field separates almost nothing. It is included because it is what buyers expect to see, but a rating of 4.7 does not distinguish a careful operator from a careless one.\n\nThe shipping field shows 61 of 88 vendors offering free UK delivery above a stated threshold. This is the most operationally useful of the basic fields, because it changes the effective cost of an order in a way that is easy to overlook when comparing headline prices. A vendor charging £1.50 less per vial but £5.99 for delivery is more expensive on a single-vial order and cheaper on a three-vial order. The threshold matters more than the flag.',
+    },
+    {
+      title: 'The Metrics That Actually Discriminate',
+      body: 'Most directory fields vary so little across the market that they cannot help you choose. Four figures do discriminate, and they are the ones worth reading.',
+      subsections: [
+        {
+          title: 'Suppliers per compound',
+          body: 'This is the highest-value number in the entire directory. It tells you immediately whether a compound is a competitive market or a thin one. Semax at 63 vendors, GHK-Cu at 81 and BPC-157 at 78 are mature markets where price competition is real and the buying problem is documentation. Cerebrolysin, FGL and P21 at one vendor each are thin markets where there is no price signal at all and the certificate is the only evidence available. The [**cognitive peptide suppliers →**](/research/cognitive-peptide-suppliers-uk) page shows how this single metric splits one nominal category into two completely different shopping problems.',
+        },
+        {
+          title: 'Cost per milligram at a stated strength',
+          body: 'The only price figure that is comparable across listings. A £39.99 listing for tirzepatide is meaningless without the milligram figure, because tracked vial sizes run from 5 mg to 90 mg plus bulk kits. Headline prices are the most prominent numbers on a comparison site and the least informative. Every compound page in the directory carries a per-milligram column for this reason.',
+        },
+        {
+          title: 'Strength-ladder consistency',
+          body: 'Whether a vendor pricing a ladder of vial sizes charges progressively less per milligram at higher strengths. A vendor whose 10 mg and 20 mg cost the same has a catalogue that is not being maintained, and an unmaintained catalogue is a documentation risk rather than only a pricing oddity. This is a diagnostic you can run yourself in under a minute on any vendor\'s compound page.',
+        },
+        {
+          title: 'Catalogue breadth within a niche',
+          body: 'How many compounds a vendor carries in a specific research area. Dr P Research carries 12 cognitive-band compounds and Pioneer Peptides carries 8, against a market where the median vendor carries two or three. Breadth in a niche band indicates a deliberate inventory strategy and established supplier relationships. It does not substitute for checking the specific compound, but it is a meaningful signal about continuity.',
+        },
+      ],
+    },
+    {
+      title: 'What a Directory Cannot Tell You',
+      body: 'It is worth being direct about the limits, because a directory that oversells itself is worse than no directory.\n\nA directory cannot tell you the purity of a specific batch. It can tell you that a vendor publishes testing, which laboratory they use and whether their certificate format is complete. It cannot substitute for reading the certificate that ships with your vial.\n\nA directory cannot tell you whether a price will still be valid when you order. Prices in this market move, and they move fastest on high-search-volume compounds. Tirzepatide prices shift more often than any other compound in the catalogue because vendor pricing responds to search demand more than to cost of goods. Every price carries a verification date; treat anything older than a few weeks as indicative rather than current.\n\nA directory cannot assess a vendor\'s commercial intentions. It can record that a website is live and that testing is published. It cannot detect whether a vendor is about to close, whether stock is genuinely held or back-ordered, or whether a listing is accurate or aspirational. The stock-status check is one you have to run at the point of purchase.\n\nA directory cannot give you dosing guidance, and any UK peptide directory that does is operating outside the framing that makes research supply lawful. Research-use-only compounds are supplied for laboratory research, and UK vendors may not provide administration instructions. A directory that fills that gap for you has told you something important about itself.',
+    },
+    {
+      title: 'How to Use the Directory',
+      body: 'A practical sequence gets you from a compound name to a decision in five steps.\n\nStart with the compound. Every compound page in the directory carries its own supplier count and price range at the top, so the first question — is this a competitive market or a thin one — is answered immediately.\n\nCheck the per-milligram column. Normalise every listing to cost per milligram at a stated strength. Discard any listing that does not state a strength, because a price without a size is not a price.\n\nRun the ladder check. On your shortlisted vendors, compare their higher-strength listings against their lower-strength ones. Inconsistency there tells you more about a catalogue\'s reliability than any badge.\n\nRead the certificate. Match the reported mass to the specific compound, confirm the laboratory is named, and check the chromatogram is supplied rather than merely referenced. The [**how to read a COA →**](/research/how-to-read-a-coa) guide walks through each element.\n\nCheck the vendor as a business. The [**choosing a UK supplier →**](/research/choosing-a-uk-supplier) guide covers the firm-level checks — trading history, contact routes, payment methods and how the vendor responds to a specification question.\n\nThe directory itself is the entry point rather than the answer. Its job is to make the market legible: 88 vendors, 154 compounds, 2,894 listings, each price sourced and dated. What you do with a legible market is still your decision.\n\n[**Browse the full compound catalogue with live prices →**](/compounds) · [**Browse the UK supplier directory →**](/vendors)',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'A UK peptide directory is only as good as its counting rules. The three numbers that matter — 88 vendors, 154 master compounds, 2,894 tracked listings — are useful precisely because they are kept separate, and most of the misleading market claims you will encounter come from blurring them. A site advertising "400+ products" is usually counting dosage variants of a much smaller number of molecules.\n\nFour metrics do the actual work: suppliers per compound, cost per milligram at a stated strength, strength-ladder consistency, and catalogue breadth within a niche. The rest — ratings, badges, headline prices — are either too uniform to discriminate or too easy to inflate to rely on alone. The lab-tested flag at 81 of 88 vendors records that testing is published, not that the testing is adequate; that distinction only resolves when you read the certificate.\n\nAnd a directory cannot do the last mile. It cannot assay your batch, cannot promise a price holds until you order, and cannot tell you how to administer anything — a research-use-only directory that offers administration guidance has told you it is not a research directory.\n\nFor the compounds, start with the [**types of research peptides primer →**](/research/types-of-research-peptides). For vendor evaluation, the [**choosing a UK supplier guide →**](/research/choosing-a-uk-supplier). To see the numbers applied to a specific group, the [**cognitive peptide supplier breakdown →**](/research/cognitive-peptide-suppliers-uk).',
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK peptide suppliers are there?',
+      answer: 'ViralPeps tracks 88 UK research peptide vendors, verified against their live websites rather than aggregated from forums. 56 carry site-verification as live trading businesses, 81 publish third-party testing or a named laboratory, and 61 offer free UK delivery above a stated threshold.',
+    },
+    {
+      question: 'How many research peptides are sold in the UK?',
+      answer: 'The catalogue holds 154 master compounds — distinct research peptides, not dosage variants. Across those compounds there are 2,894 individual vendor listings. The two figures are published separately because counting dosage variants as separate compounds is the most common way directory product counts are inflated.',
+    },
+    {
+      question: 'What does the verified badge on a peptide vendor mean?',
+      answer: 'It means the vendor was checked as a live trading business with a reachable website and a stated contact route. It is not an endorsement and says nothing about product quality. 56 of the 88 tracked vendors carry it; new businesses will sit unverified until they have been checked.',
+    },
+    {
+      question: 'Is a vendor rating useful for choosing a peptide supplier?',
+      answer: 'Barely. Across 88 vendors the average rating is 4.54 out of 5, with almost every vendor landing between 4.2 and 4.8. A compressed distribution on a five-point scale separates almost nothing, which is why the rating is the least discriminating field in the directory.',
+    },
+    {
+      question: 'What is the most useful metric in a peptide directory?',
+      answer: 'Suppliers per compound. It immediately tells you whether a compound is a competitive market like Semax (63 vendors) or a thin one like Cerebrolysin, FGL or P21 (one vendor each), which determines what checks matter. Cost per milligram at a stated strength is the most useful price metric.',
+    },
+    {
+      question: 'Why do peptide prices on a directory sometimes not match the vendor site?',
+      answer: 'Prices move, fastest on high-search-volume compounds, and every tracked price carries a verification date rather than being live. Treat anything older than a few weeks as indicative. Any price quoted without a stated vial strength should be treated as no price at all.',
+    },
+    {
+      question: 'Can a UK peptide directory give dosing guidance?',
+      answer: 'No. Research-use-only compounds are supplied for laboratory research, and UK vendors may not provide dosing or administration instructions. A directory that fills that gap for the reader is operating outside the framing that makes research supply lawful.',
+    },
+  ],
+  references: [
+    'Pickart L, Vasquez-Soltero JM, Margolina A. Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data. Int J Mol Sci. 2018;19(7):1987. PMID 29986520',
+    'Roy P, Petroll WM, Cavanagh HD, et al. Local photorelease of caged thymosin beta4 in locomoting keratocytes causes cell turning. J Cell Biol. 2001;153(5):1035-48. PMID 11381088',
+    'Rosenstock J, Wysham C, Frías JP, et al. Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. Lancet. 2021;398(10295):143-155. PMID 34186022',
+    'Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216. PMID 35658024',
+    'Dolotov OV, Karpenko EA, Inozemtseva LS, et al. Semax, an analog of ACTH(4-10) with cognitive effects, regulates BDNF and trkB expression in the rat hippocampus. Brain Res. 2006;1117(1):54-60. PMID 16996037',
+    'Kasian A, Kolomin T, Andreeva L, et al. Peptide Selank Enhances the Effect of Diazepam in Reducing Anxiety in Unpredictable Chronic Mild Stress Conditions in Rats. Behav Neurol. 2017;2017:5091027. PMID 28280289',
+    'Cui S, Chen N, Yang M, et al. Cerebrolysin for vascular dementia. Cochrane Database Syst Rev. 2019;2019(11):CD008900. PMID 31710397',
+    'Burdick DJ, Stults JT. Analysis of peptide synthesis products by electrospray ionization mass spectrometry. Methods Enzymol. 1997;289:499-519. PMID 9353735',
+    'Strege MA, Oman TJ, Hemenway MS, et al. Enantiomeric purity analysis of synthetic peptide therapeutics by direct chiral high-performance liquid chromatography-electrospray ionization tandem mass spectrometry. J Chromatogr B Analyt Technol Biomed Life Sci. 2023;1219:123653. PMID 36857849',
+    'Song J, Zhou D, Zhang L, et al. A potential primary method for peptide purity analysis by gas chromatography-isotope dilution infrared spectrometry. Anal Bioanal Chem. 2023;415(18):4403-4412. PMID 37291250',
+    'Khavinson V, Ribakova Y, Kulebiakin K, et al. Pinealon increases cell viability by suppression of free radical levels and activating proliferative processes. Rejuvenation Res. 2011;14(5):535-41. PMID 21978084',
+    'Graf MV, Kastin AJ. Delta-sleep-inducing peptide (DSIP): an update. Peptides. 1986;7(6):1165-87. PMID 3550726',
+    'Wright JW, Harding JW. The Brain Hepatocyte Growth Factor/c-Met Receptor System: A New Target for the Treatment of Alzheimer\'s Disease. J Alzheimers Dis. 2015;45(4):985-1000. PMID 25649658',
+    'Medvedeva EV, Dmitrieva VG, Povarova OV, et al. The peptide semax affects the expression of genes related to the immune and vascular systems in rat brain focal ischemia: genome-wide transcriptional analysis. BMC Genomics. 2014;15:228. PMID 24661604',
+  ],
+},
+
+'where-to-buy-peptides-uk': {
+  slug: 'where-to-buy-peptides-uk',
+  pullQuote: 'The question "where can I buy peptides in the UK" has a short answer and a long answer. The short answer is that 88 UK vendors will sell you research peptides today. The long answer is that roughly a third of the listings you will meet in the first ten minutes of searching will fail at least one of four basic checks, and none of those failures are visible from the search results page.',
+  quickInfo: [
+    { label: 'The Question', value: 'Where to buy research peptides in the UK, and how to tell a viable vendor from a listing' },
+    { label: 'Market Size', value: '88 UK vendors; 154 research compounds; 2,894 tracked listings' },
+    { label: 'Price Floor in UK', value: 'GHK-Cu is tracked from £6.48; Semax and Selank from £7.50; BPC-157 from £13.95' },
+    { label: 'Core Checks', value: 'Batch-matched COA, stated purity method, mass identity, research-use-only labelling' },
+    { label: 'Legal Position', value: 'Research-use-only supply is lawful; prescribing claims and dosing guidance are not' },
+    { label: 'Most Common Failure', value: 'Purity figure quoted with no testing laboratory, no method and no chromatogram' },
+    { label: 'Free UK Shipping', value: '61 of 88 vendors offer free delivery above a stated threshold' },
+    { label: 'Last Verified', value: 'September 2026' },
+  ],
+  sections: [
+    {
+      title: 'Where to Buy Peptides in the UK: The Short Answer and the Real One',
+      body: 'Research peptides are sold in the UK by 88 vendors tracked on ViralPeps, across 154 distinct compounds and 2,894 individual listings. Prices start low — GHK-Cu is tracked from £6.48, Semax and Selank from £7.50, BPC-157 from £13.95 — and the market is legal, mature and competitive. Finding somewhere to buy is not the hard part. Finding somewhere worth buying from is.\n\nThe reason is that the entry barriers are low and the visible signals are weak. A peptide vendor needs a website, a payment processor and a synthesis supplier. Nothing about that requires a laboratory, a quality system or any published evidence about the material being sold. The result is a market where a well-run operation and a reseller with a template site present identically on a search results page, and where the differentiating evidence — the certificate of analysis — is usually a link at the bottom of a product page that most buyers never open.\n\nThis guide covers the four checks that separate a viable supplier from a listing, the specific ways each check is faked, the legal position on research-use-only supply in the UK, and how to think about price without being misled by it. For the compound-level picture, the [**types of research peptides →**](/research/types-of-research-peptides) primer explains the structural classes; for evaluating a shortlisted vendor as a business, the [**choosing a UK supplier →**](/research/choosing-a-uk-supplier) guide goes deeper. If you are already decided on a compound, the [**UK peptide directory →**](/research/uk-peptide-directory) explains how the supplier data is built.',
+    },
+    {
+      title: 'The Four Checks That Separate a Supplier From a Listing',
+      body: 'Four questions do almost all the work. Each is answerable in under two minutes from the vendor\'s own site, and each has a specific failure mode that is easy to miss.',
+      subsections: [
+        {
+          title: '1. Is there a batch-matched certificate of analysis?',
+          body: 'The certificate is the only document that connects the vial in your hand to a measurement. A usable one carries a batch number that matches the vial label, names the testing laboratory, reports purity with the analytical method stated, supplies the chromatogram rather than just citing a percentage, and confirms identity by mass spectrometry. The failure mode is not the absence of a certificate — most vendors publish something. It is the certificate that reports "99% purity" with no laboratory, no method and no chromatogram. That is a marketing figure with a document around it. The [**how to read a COA →**](/research/how-to-read-a-coa) guide walks through each element, and if you want to skip ahead, the single fastest test is whether a laboratory is named.',
+        },
+        {
+          title: '2. Does the reported mass match the molecule you think you are buying?',
+          body: 'Mass spectrometry confirms identity, and identity is where several common compounds get confused. GHK-Cu sold as the copper complex has a different expected mass from the free tripeptide. CJC-1295 with DAC carries a maleimidopropionic acid linker that binds the peptide to serum albumin, giving an approximate molecular weight around 3,651 Da — against a much lighter unconjugated backbone, so a certificate reporting the backbone mass is describing a different molecule. Semax and Selank are related short synthetic peptides with different sequences and different masses, and vendors conflate them in documentation more often than you would expect. Pick the mass you expect before you open the certificate, and treat a mismatch as a documentation failure rather than a typo.',
+        },
+        {
+          title: '3. Is the product labelled and marketed research-use-only?',
+          body: 'A UK research vendor may supply compounds for laboratory research and may not market them with human dosing guidance, administration instructions or therapeutic claims. This is not a technicality — it is the boundary that makes the supply category operable. A vendor publishing a titration schedule, a reconstitution guide framed as administration instructions, or claims about what a compound will do for the buyer has moved from selling a research reagent into marketing an unlicensed medicine. That shift says something about how they treat the rest of their obligations too. A vendor whose product pages are clean RUO listings and whose certificate practice is solid is a different proposition from one whose marketing implies a health outcome.',
+        },
+        {
+          title: '4. Is the price quoted against a stated strength?',
+          body: 'A price without a vial size is not a price. This is the most common practical failure in the whole market and the easiest to fall for, because headline prices sort search results and comparison tables. GHK-Cu presentations run from 5 mg to 1000 mg; tirzepatide from 5 mg to 90 mg plus bulk kits; BPC-157 across 5 mg and 10 mg vials. A £39.99 listing means nothing until you know whether it is 10 mg or 30 mg. Normalise every candidate listing to cost per milligram at a stated strength before you compare anything. Any vendor who will not state the strength prominently is either disorganised or relying on the ambiguity.',
+        },
+      ],
+    },
+    {
+      title: 'How Each Check Gets Faked',
+      body: 'A checklist is less useful than knowing the specific ways each item fails, because the failures are designed to satisfy the checklist superficially.\n\nThe anonymous purity figure is the most common. A page states 99%+ purity in large type. There is a downloadable PDF. The PDF repeats the purity figure, adds a logo, and does not name a laboratory or reproduce a chromatogram. Everything on the checklist appears satisfied: there is a certificate, there is a purity number. What is absent is the one thing that makes a purity figure meaningful, which is the method and the raw data behind it. If you cannot name which laboratory produced the figure, you do not have analytical data.\n\nThe shared certificate across multiple products is the second pattern. A vendor sells nine compounds in the same family — for instance the short Russian-derived peptides Pinealon, Vesugen, Cortagen and Cardiogen — and publishes one certificate covering all of them, or a certificate whose batch number appears unchanged across products. A certificate is batch-specific by definition; a document that covers nine SKUs without batch differentiation is a template.\n\nThe strength ambiguity is the third. A listing shows a striking price and the strength appears in the product title as a tiny string, or in a dropdown, or nowhere at all. Cost-per-milligram comparison is what exposes this, because a £39.99 listing that turns out to be 5 mg is twice the per-milligram cost of a £69.99 listing at 10 mg. The comparison table exists to make that arithmetic automatic.\n\nThe imported-medicine framing is the fourth, and it is the one with legal consequences rather than commercial ones. A vendor whose copy describes how a compound is administered, what results to expect, or how it compares to a prescription product is marketing a medicine. For compounds that are licensed medicines in the UK — tirzepatide and semaglutide being the obvious cases — that distinction is not semantic. The lawful research route and the prescription route are separate, and a vendor describing the research product in prescription-medicine terms has crossed between them.',
+    },
+    {
+      title: 'The Legal Position, Plainly',
+      body: 'Two things are true at once in the UK, and conflating them causes most of the confusion on this topic.\n\nResearch-use-only supply of peptides is a lawful category. A vendor may sell a peptide as a research chemical with RUO labelling, and a researcher may buy it as a research reagent. This is the basis on which the entire UK market operates, and 88 vendors trade within it. The category carries obligations: RUO labelling, no dosing guidance, no therapeutic claims, no administration instructions.\n\nPrescription medicines are a separate category. Some compounds sold in the research market are also licensed medicines in the UK — tirzepatide as Mounjaro, semaglutide as Ozempic and Wegovy, tesamorelin in other jurisdictions, and the GHRH analogues. Where a compound is a licensed medicine, legitimate supply runs through a prescriber and a registered pharmacy, and the advertising restrictions that apply to prescription medicines apply. Buying the research-use-only version of a licensed medicine is not a shortcut to the medicine, and no research vendor may present it as one.\n\nWhat this means practically for someone searching for where to buy peptides. Buy within the research category and expect it to be labelled as such. Treat a vendor offering dosing guidance as a vendor with a compliance problem rather than a vendor being helpful. And for compounds where there is an approved medicine and an approved route to it, use that route — the research market is not a substitute and does not claim to be.\n\nWhat it means for the compound literature. If your interest is in what the evidence shows rather than in sourcing, the primary literature is public and superior to any vendor page. For the major compound families the ViralPeps research library carries the summary material, and the [**types of research peptides primer →**](/research/types-of-research-peptides) is the structural starting point.',
+    },
+    {
+      title: 'How to Think About Price',
+      body: 'Price is the most visible and least useful variable in this market, because the ranges involved are large and much of the spread is not explained by cost.\n\nThe tracked floor prices — £6.48 for GHK-Cu, £7.50 for Semax and Selank, £13.95 for BPC-157, £24.99 for tirzepatide — are real, and they generally reflect synthesis economics. A three-amino-acid peptide is cheap to make at high purity; that is why GHK-Cu has 81 vendors and why the floor is so low. A 43-residue peptide like TB-500 costs more to synthesise, and its floor sits higher. Where price tracks sequence length, it is tracking something real.\n\nWhere it does not track anything real is at the top of the range. The same compound is routinely listed at several times the floor price for a comparable vial. That spread is positioning, packaging, presentation and marketing rather than a difference in what is in the vial. There is nothing wrong with paying more for better service, faster dispatch or a vendor you trust, but it is worth knowing that above roughly the second quartile of a compound\'s price range you are buying the vendor rather than the molecule.\n\nThree specific traps. First, unit confusion: compare only cost per milligram at a stated strength, never headline price. Second, shipping arithmetic: 61 of 88 vendors offer free UK delivery above a threshold, and a £5.99 shipping charge on a single-vial order can invert a price ranking. Third, strength-ladder inconsistency — a vendor whose 10 mg and 20 mg listings carry the same price has a catalogue that is not maintained, which is a documentation risk rather than just a pricing oddity.\n\nAnd a note on the top of the market. A compound listed at £199.99 is not necessarily the best-specified product in the catalogue. The price ceiling on most compounds is set by bulk presentations — the GHK-Cu listing at the top of the tracked range is a bulk size rather than a research-scale one. Read the strength column before you read the price column.\n\n[**Compare live UK prices for BPC-157 →**](/compounds/bpc-157) · [**Compare live UK prices for GHK-Cu →**](/compounds/ghk-cu) · [**Compare live UK prices for Semax →**](/compounds/semax)',
+    },
+    {
+      title: 'A Practical Buying Sequence',
+      body: 'Five steps, in order, from search to order.\n\nIdentify the compound and its structural class. A tripeptide fragment and a conjugated GHRH analogue have different expected masses and different storage profiles, and knowing which you are buying determines what the certificate should say. The [**types of research peptides →**](/research/types-of-research-peptides) primer covers the classes.\n\nEstablish the market density. Check the compound\'s supplier count on its comparison page. Sixty-plus vendors means a competitive market where price is informative; one or two vendors means the certificate is your only evidence.\n\nNormalise every candidate to cost per milligram at a stated strength, and drop anything without a stated strength. Then check the strength ladder of each shortlisted vendor for internal consistency.\n\nOpen the certificate. Laboratory named, method stated, chromatogram supplied, mass matched to the expected molecule, batch number matching the vial. If the certificate has no laboratory on it, that is the entire answer.\n\nJudge the vendor as a business. Trading history, contact route that reaches a human, payment methods, and how they respond when you ask a specification question. A vendor who answers a technical query competently is a different proposition from one who does not answer at all.\n\n[**Browse the UK supplier directory →**](/vendors) · [**Browse every compound with live prices →**](/compounds)',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Buying research peptides in the UK is easy — 88 vendors, 154 compounds, prices from under £10 for the cheapest presentations. Buying them well comes down to four checks, and each one has a known failure mode.\n\nDemand a batch-matched certificate with a laboratory named, a method stated and a mass that matches the molecule. Confirm the mass against what that specific compound should weigh, because GHK-Cu, CJC-1295 with DAC, and Semax and Selank are all routinely mis-documented. Insist on research-use-only labelling and treat any vendor offering administration guidance as having a compliance problem. And normalise everything to cost per milligram at a stated strength, because a headline price without a size is not a price.\n\nPay attention to the middle of the price range rather than the bottom. Above roughly the second quartile you are buying the vendor, not the molecule, and that can be a perfectly sensible purchase — but know which one you are making. Below the bottom of the range, ask what was left out.\n\nFor compound selection, start with the [**types of research peptides primer →**](/research/types-of-research-peptides). For vendor evaluation, the [**choosing a UK supplier guide →**](/research/choosing-a-uk-supplier). And to see how the market is actually structured, the [**UK peptide directory →**](/research/uk-peptide-directory).',
+    },
+  ],
+  faq: [
+    {
+      question: 'Where can I buy research peptides in the UK?',
+      answer: 'ViralPeps tracks 88 UK research peptide vendors across 154 compounds and 2,894 listings. Research-use-only peptide supply is a lawful category in the UK. The practical question is not where to buy but which vendor meets the four basic checks: batch-matched certificate with a named laboratory, mass identity matching the molecule, research-use-only labelling, and prices quoted against a stated strength.',
+    },
+    {
+      question: 'Is it legal to buy peptides in the UK?',
+      answer: 'Research-use-only peptide supply is lawful. Vendors may sell peptides as research chemicals with RUO labelling but may not provide dosing guidance, administration instructions or therapeutic claims. Where a compound is also a licensed prescription medicine, such as tirzepatide or semaglutide, legitimate supply of the medicine runs through a prescriber and registered pharmacy — a separate route from research supply.',
+    },
+    {
+      question: 'How much do peptides cost in the UK?',
+      answer: 'Tracked floor prices are around £6.48 for GHK-Cu, £7.50 for Semax and Selank, £13.95 for BPC-157 and £24.99 for tirzepatide. Ranges extend to £199.99 and beyond for bulk presentations. Because vial sizes differ substantially, headline prices are not comparable — always compare cost per milligram at a stated strength.',
+    },
+    {
+      question: 'What should I check on a peptide certificate of analysis before buying?',
+      answer: 'Four things: a named testing laboratory, purity reported with the analytical method stated and the chromatogram supplied, identity confirmed by mass spectrometry against the expected molecular weight for that specific compound, and a batch number matching the vial label. A purity percentage with no laboratory and no chromatogram is marketing rather than analysis.',
+    },
+    {
+      question: 'Why do some peptide listings show a price without a vial size?',
+      answer: 'Usually because the ambiguity is commercially useful — a headline price without a stated strength sorts well in search results and comparison tables. It is the most common practical failure in the market. A price without a size is not a price; normalise every listing to cost per milligram at a stated strength before comparing.',
+    },
+    {
+      question: 'Is the most expensive peptide the best quality?',
+      answer: 'No. Above roughly the second quartile of a compound\'s price range you are paying for vendor positioning, presentation and service rather than for a better molecule. Where price tracks sequence length it tracks something real — a short tripeptide is genuinely cheaper to synthesise than a 43-residue fragment — but the spread at the top of most ranges is not explained by cost of goods.',
+    },
+    {
+      question: 'Do I need to pay for shipping when buying peptides in the UK?',
+      answer: 'It depends on the vendor and the order value. 61 of the 88 tracked UK vendors offer free UK delivery above a stated threshold. On a single-vial order a shipping charge can invert a price ranking, so check the threshold alongside the product price rather than treating delivery as a fixed cost.',
+    },
+    {
+      question: 'Should a peptide vendor provide dosing guidance?',
+      answer: 'No. UK research vendors may not provide dosing or administration guidance for research-use-only compounds. A vendor publishing titration schedules or administration instructions has moved outside the framing that makes research supply lawful, and that is a compliance signal worth weighing when you assess the rest of their operation.',
+    },
+  ],
+  references: [
+    'Burdick DJ, Stults JT. Analysis of peptide synthesis products by electrospray ionization mass spectrometry. Methods Enzymol. 1997;289:499-519. PMID 9353735',
+    'Strege MA, Oman TJ, Hemenway MS, et al. Enantiomeric purity analysis of synthetic peptide therapeutics by direct chiral high-performance liquid chromatography-electrospray ionization tandem mass spectrometry. J Chromatogr B Analyt Technol Biomed Life Sci. 2023;1219:123653. PMID 36857849',
+    'Song J, Zhou D, Zhang L, et al. A potential primary method for peptide purity analysis by gas chromatography-isotope dilution infrared spectrometry. Anal Bioanal Chem. 2023;415(18):4403-4412. PMID 37291250',
+    'Pickart L, Vasquez-Soltero JM, Margolina A. Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data. Int J Mol Sci. 2018;19(7):1987. PMID 29986520',
+    'Rosenstock J, Wysham C, Frías JP, et al. Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. Lancet. 2021;398(10295):143-155. PMID 34186022',
+    'Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216. PMID 35658024',
+    'Roy P, Petroll WM, Cavanagh HD, et al. Local photorelease of caged thymosin beta4 in locomoting keratocytes causes cell turning. J Cell Biol. 2001;153(5):1035-48. PMID 11381088',
+    'Dolotov OV, Karpenko EA, Inozemtseva LS, et al. Semax, an analog of ACTH(4-10) with cognitive effects, regulates BDNF and trkB expression in the rat hippocampus. Brain Res. 2006;1117(1):54-60. PMID 16996037',
+    'Kolik LG, Nadorova AV, Antipova TA, et al. Selank, Peptide Analogue of Tuftsin, Protects Against Ethanol-Induced Memory Impairment by Regulating of BDNF Content in the Hippocampus and Prefrontal Cortex in Rats. Bull Exp Biol Med. 2019;167(4):461-464. PMID 31625062',
+    'Mateescu DM, Gavrilescu DM, et al. BPC-157 as an Investigational Peptide Therapeutic: Biopharmaceutical Challenges, Formulation Strategies, and Translational Development Barriers. Pharmaceutics. 2026. PMID 42198317',
+    'Gavrilova SI, Alvarez A. Cerebrolysin in the therapy of mild cognitive impairment and dementia due to Alzheimer\'s disease: 30 years of clinical use. Med Res Rev. 2021;41(5):2775-2803. PMID 32808294',
+    'Khavinson V, Ribakova Y, Kulebiakin K, et al. Pinealon increases cell viability by suppression of free radical levels and activating proliferative processes. Rejuvenation Res. 2011;14(5):535-41. PMID 21978084',
+  ],
 }
 
 };

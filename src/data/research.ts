@@ -1253,6 +1253,37 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ["tb-500", "ghk-cu", "comparison", "tissue-repair", "actin", "copper-peptide", "wound-healing"],
   },
+  {
+    title: "Cognitive Peptide Suppliers UK: Semax, Selank and the Thin Market",
+    desc: "Semax and Selank have 63 and 62 UK vendors each; P21, FGL and Cerebrolysin have one. How the cognitive peptide supply base splits into four tiers, which vendors specialise, and how to verify a listing in a group where documentation varies more than availability.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Semax",
+    slug: "cognitive-peptide-suppliers-uk",
+    image: "cognitive-peptide-suppliers-uk",
+    minutes: 13,
+    tags: ["semax", "selank", "cognitive", "nootropic", "suppliers", "uk", "dsip", "pinealon", "cerebrolysin", "p21"],
+  },
+  {
+    title: "UK Peptide Directory: How to Read the Vendor, Compound and Listing Data",
+    desc: "88 UK vendors, 154 research compounds and 2,894 tracked listings — and why conflating those three numbers breaks every market claim. The metrics that actually discriminate, what each badge means, and what a directory cannot tell you.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "uk-peptide-directory",
+    image: "uk-peptide-directory",
+    minutes: 12,
+    tags: ["directory", "uk", "vendors", "suppliers", "comparison", "ratings", "lab-tested", "research-hub"],
+  },
+  {
+    title: "Where to Buy Peptides UK: The Four Checks That Matter",
+    desc: "Research-use-only peptide supply is lawful in the UK and 88 vendors trade in it. The four checks that separate a supplier from a listing — batch-matched COA, mass identity, RUO labelling and stated strengths — how each one gets faked, and the legal position.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "where-to-buy-peptides-uk",
+    image: "where-to-buy-peptides-uk",
+    minutes: 13,
+    tags: ["buy", "uk", "sourcing", "coa", "purity", "research-use-only", "legal", "buying-guide", "suppliers"],
+  },
 ];
 
 export const compoundList: string[] = [
