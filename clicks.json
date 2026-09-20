@@ -643,5 +643,15 @@
     "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "b751d5f9e2a52571"
+  },
+  {
+    "ts": "2026-09-20T03:10:47.993Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "80b5537ef98ceaa4"
   }
 ]
