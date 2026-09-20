@@ -827,5 +827,95 @@
     "compoundSlug": "glow",
     "destUrl": "https://anglopeptides.com/product/glow-blend-peptide-70mg-vial-batch-103-research-peptide/",
     "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-20T06:37:12.459Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-20T06:37:14.875Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-09-20T06:37:18.405Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.apex-pharma.co.uk/product/mots-c-10mg/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-20T06:45:30.944Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-09-20T06:45:33.857Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-20T06:45:36.707Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-20T06:48:52.014Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://olresearch.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-20T06:48:56.029Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://olresearch.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-09-20T06:49:02.625Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://olresearch.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-20T07:08:33.093Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "a633c5659643b575"
   }
 ]
