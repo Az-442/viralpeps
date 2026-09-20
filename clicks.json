@@ -633,5 +633,15 @@
     "destUrl": "https://helixcore.co.uk/products/sermorelin",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "8640cc3dfd03bd32"
+  },
+  {
+    "ts": "2026-09-20T02:54:34.467Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b751d5f9e2a52571"
   }
 ]
