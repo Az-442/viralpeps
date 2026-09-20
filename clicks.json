@@ -2884,5 +2884,71 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/",
     "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-20T08:40:37.714Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.buyreta.co.uk/product/semax-30mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6e18370733fa739e"
+  },
+  {
+    "ts": "2026-09-20T08:51:02.642Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.buyreta.co.uk/product/mots-c-40mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5505fd810b9ef3c3"
+  },
+  {
+    "ts": "2026-09-20T08:54:35.840Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-20T08:54:39.717Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-20T08:54:44.247Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-09-20T09:02:44.012Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "mgf",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-mgf-2mg/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-20T09:10:32.333Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://bioplexpeptides.co.uk/products/melanotan-1-10mg-afamelanotide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "36548982a0a391b2"
   }
 ]
