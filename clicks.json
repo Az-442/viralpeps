@@ -3821,5 +3821,220 @@
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://polygonpeptides.co.uk/product/cjc-1295-no-dac/",
     "visitorId": "493d4a4fbb728590"
+  },
+  {
+    "ts": "2026-09-20T22:44:12.159Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk",
+    "visitorId": "709531e19f851fce"
+  },
+  {
+    "ts": "2026-09-20T22:44:22.946Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c1ff0dc5fcc37a87"
+  },
+  {
+    "ts": "2026-09-20T22:45:59.962Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://helixcore.co.uk/products/epitalon",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c2dcc12a133e7409"
+  },
+  {
+    "ts": "2026-09-20T22:47:09.265Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "nad-500mg",
+    "destUrl": "https://fatpigpeptides.co.uk/product/nad-500mg/",
+    "visitorId": "a3d2c284360a7aa4"
+  },
+  {
+    "ts": "2026-09-20T22:47:45.395Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/selank-10mg-5ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "54e19db647c3db08"
+  },
+  {
+    "ts": "2026-09-20T22:51:29.550Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://pslabs.uk/products/ipamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "fd48709442971a32"
+  },
+  {
+    "ts": "2026-09-20T22:51:37.280Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://pioneerpeptides.co.uk/products/aicar/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "2cc19e46c860891a"
+  },
+  {
+    "ts": "2026-09-20T22:52:44.150Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pslabs.uk/products/rt-glp3",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "acb58f79ded68fdb"
+  },
+  {
+    "ts": "2026-09-20T22:56:35.070Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "ghk-cu-50mg",
+    "destUrl": "https://claripep.co.uk/product/ghk-cu/",
+    "visitorId": "7d058c291d79736e"
+  },
+  {
+    "ts": "2026-09-20T22:57:04.606Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/klow-80mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a2f851fa28fe705a"
+  },
+  {
+    "ts": "2026-09-20T23:01:33.548Z",
+    "type": "vendor-site",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "destUrl": "https://advancedpeptidesuk.co.uk",
+    "visitorId": "10c6dae0e6b81601"
+  },
+  {
+    "ts": "2026-09-20T23:01:45.963Z",
+    "type": "vendor-site",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "destUrl": "https://pslabs.uk",
+    "visitorId": "e47009314790476e"
+  },
+  {
+    "ts": "2026-09-20T23:03:03.921Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://apexpure.co.uk/product/sermorelin-peptide-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a3d2c284360a7aa4"
+  },
+  {
+    "ts": "2026-09-20T23:03:41.372Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "447498ec60c7fdfe"
+  },
+  {
+    "ts": "2026-09-20T23:03:51.612Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://britpeptides.co.uk/product/nad-500mg/",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-20T23:03:58.531Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://britpeptides.co.uk/product/nad-500mg/",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-20T23:04:05.002Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://pioneerpeptides.co.uk/products/acetic-acid-water-aa/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "97c1320a12e08537"
+  },
+  {
+    "ts": "2026-09-20T23:04:18.041Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://pioneerpeptides.co.uk/products/acetic-acid-water-aa/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "32bcc901df42c02d"
+  },
+  {
+    "ts": "2026-09-20T23:09:02.947Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com",
+    "visitorId": "fe4c0a2dd00d462a"
+  },
+  {
+    "ts": "2026-09-20T23:09:09.619Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://apexpure.co.uk/product/ipamorelin-peptide-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "86efae057701e208"
+  },
+  {
+    "ts": "2026-09-20T23:09:13.025Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-20T23:09:14.856Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-20T23:10:44.129Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://pioneerpeptides.co.uk/products/slu-pp-332/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a0bd2666161e7fa6"
   }
 ]
