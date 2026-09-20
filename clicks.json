@@ -759,5 +759,64 @@
     "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "f581c4a755555785"
+  },
+  {
+    "ts": "2026-09-20T05:40:34.620Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f03d516dfe6e6b35"
+  },
+  {
+    "ts": "2026-09-20T05:44:45.895Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "dihexa",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/dihexa-10mg-5ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "49f48305a1cead30"
+  },
+  {
+    "ts": "2026-09-20T05:50:27.085Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.buyreta.co.uk/product/ss31-50mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "142a60876fb43745"
+  },
+  {
+    "ts": "2026-09-20T05:51:34.790Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-nasal-spray",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-20T05:53:55.728Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.buyreta.co.uk/product/klow-80mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3a9eb36b535ee519"
+  },
+  {
+    "ts": "2026-09-20T06:11:12.222Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/selank-10mg-5ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a99f551b869af3b8"
   }
 ]
