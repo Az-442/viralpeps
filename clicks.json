@@ -739,5 +739,15 @@
     "compoundSlug": "snap-8",
     "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3",
     "visitorId": "303e28c67a7a6b18"
+  },
+  {
+    "ts": "2026-09-20T05:23:53.535Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "49f48305a1cead30"
   }
 ]
