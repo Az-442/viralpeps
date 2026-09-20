@@ -917,5 +917,87 @@
     "compoundSlug": "ara-290",
     "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
     "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-20T07:08:40.601Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "30667e146f8f7a53"
+  },
+  {
+    "ts": "2026-09-20T07:08:45.468Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-20T07:12:01.109Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://helixcore.co.uk/products/aod-9604",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3e0f00e07e351af9"
+  },
+  {
+    "ts": "2026-09-20T07:17:40.912Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cagrilintide-10mg-amylin-analogue",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-20T07:28:55.094Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://cmsrlabs.co/product/selank-5mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-20T07:35:51.166Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://rawpeptides.co.uk/product/bpc157-10mg-tb500-10mg/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-09-20T07:35:53.165Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://rawpeptides.co.uk/product/bpc157-10mg-tb500-10mg/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-20T07:35:57.079Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://rawpeptides.co.uk/product/bpc157-10mg-tb500-10mg/",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-20T07:39:09.220Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://precision-peptides.shop/product/bpc-tb500-10mg-blend/",
+    "visitorId": "93a36b7ea5ddcc2b"
   }
 ]
