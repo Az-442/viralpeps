@@ -3075,5 +3075,118 @@
     "destUrl": "https://www.buyreta.co.uk/product/ll-37-uk",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "dc4ea156a25abbf4"
+  },
+  {
+    "ts": "2026-09-20T14:33:20.251Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bioplexpeptides.co.uk/products/igf-1-lr3-1mg-insulin-like-growth-factor-1",
+    "visitorId": "3a23862546039ef7"
+  },
+  {
+    "ts": "2026-09-20T14:36:33.021Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tb-500/",
+    "visitorId": "dfca7be0869884ed"
+  },
+  {
+    "ts": "2026-09-20T14:39:14.764Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biotideuk.com/products/glutathione-600-mg",
+    "visitorId": "1eb3230d1df9a94f"
+  },
+  {
+    "ts": "2026-09-20T14:39:17.254Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biotideuk.com/products/glutathione-600-mg",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-20T14:39:22.372Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biotideuk.com/products/glutathione-600-mg",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-20T14:41:57.878Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ss-31-10mg-elamipretide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "84c849978a9fad1e"
+  },
+  {
+    "ts": "2026-09-20T14:41:59.613Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ss-31-10mg-elamipretide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7dc8a994ead5c194"
+  },
+  {
+    "ts": "2026-09-20T14:47:14.800Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.revexa.co.uk/product-page/selank-10mg",
+    "refPage": "https://www.google.co.uk/",
+    "visitorId": "30ac64710948715f"
+  },
+  {
+    "ts": "2026-09-20T14:47:34.993Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.revexa.co.uk/product-page/copy-of-retatrutide-research-grade",
+    "refPage": "https://www.google.co.uk/",
+    "visitorId": "cf536a28c37a6eb2"
+  },
+  {
+    "ts": "2026-09-20T14:47:35.208Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.revexa.co.uk/product-page/copy-of-retatrutide-research-grade",
+    "refPage": "https://www.google.co.uk/",
+    "visitorId": "fb144783b8e72960"
+  },
+  {
+    "ts": "2026-09-20T14:52:23.922Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "glow",
+    "destUrl": "https://helixcore.co.uk/products/glow-research-blend",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "190062da66ffcbc2"
+  },
+  {
+    "ts": "2026-09-20T15:04:50.632Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "visitorId": "ccaa4e7c6d3681e8"
   }
 ]
