@@ -565,5 +565,63 @@
     "destUrl": "https://helixcore.co.uk/products/tesamorelin",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "87d256715190c569"
+  },
+  {
+    "ts": "2026-09-20T01:01:21.397Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://helixcore.co.uk/products/ll-37",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6b5f67f2b319d031"
+  },
+  {
+    "ts": "2026-09-20T01:01:49.255Z",
+    "type": "vendor-site",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "destUrl": "https://bioplexpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7a079e004c95ca57"
+  },
+  {
+    "ts": "2026-09-20T01:01:53.224Z",
+    "type": "vendor-site",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "destUrl": "https://bioplexpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8e6a1a3b72486a21"
+  },
+  {
+    "ts": "2026-09-20T01:20:46.697Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f1cc8f8b60c88bbc"
+  },
+  {
+    "ts": "2026-09-20T01:24:50.008Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "selank",
+    "destUrl": "https://helixcore.co.uk/products/selank",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2dc6a71a16ebf24f"
+  },
+  {
+    "ts": "2026-09-20T01:36:25.091Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://bioplexpeptides.co.uk/products/melanotan-2-10mg-afamelanotide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5d538bbc467c1cd1"
   }
 ]
