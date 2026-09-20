@@ -3188,5 +3188,15 @@
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com",
     "visitorId": "ccaa4e7c6d3681e8"
+  },
+  {
+    "ts": "2026-09-20T15:32:26.663Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://helixcore.co.uk/products/thymalin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "194d75b5bd5c996e"
   }
 ]
