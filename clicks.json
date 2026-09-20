@@ -3423,5 +3423,14 @@
     "vendorName": "Raccoon Peptides",
     "destUrl": "https://www.raccoonpeptides.com",
     "visitorId": "7a9f421e23a75874"
+  },
+  {
+    "ts": "2026-09-20T17:12:10.618Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-60-capsules",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-60-capsules/",
+    "visitorId": "72b94d234fe4b541"
   }
 ]
