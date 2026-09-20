@@ -485,5 +485,75 @@
     "destUrl": "https://helixcore.co.uk/products/kpv",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "dffbe5d5805534a4"
+  },
+  {
+    "ts": "2026-09-20T00:01:55.132Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "271b18368b6847af"
+  },
+  {
+    "ts": "2026-09-20T00:01:57.699Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "898e4ceda0e20056"
+  },
+  {
+    "ts": "2026-09-20T00:02:25.583Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghk-cu-100mg-copper-tripeptide-1",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "290d32dae2f131b1"
+  },
+  {
+    "ts": "2026-09-20T00:02:29.137Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghk-cu-100mg-copper-tripeptide-1",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fc5e6d68006f33b3"
+  },
+  {
+    "ts": "2026-09-20T00:03:14.299Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5a7d2cf51faff4d5"
+  },
+  {
+    "ts": "2026-09-20T00:03:21.254Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b4c80aea6dae5b41"
+  },
+  {
+    "ts": "2026-09-20T00:16:09.641Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.buyreta.co.uk/product/ahk-cu-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "42fef856982b4d79"
   }
 ]
