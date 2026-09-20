@@ -749,5 +749,15 @@
     "destUrl": "https://bioplexpeptides.co.uk/products/retatrutide-glp-3-20mg",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "49f48305a1cead30"
+  },
+  {
+    "ts": "2026-09-20T05:40:31.852Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bioplexpeptides.co.uk/products/epitalon-10mg-epithalamin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f581c4a755555785"
   }
 ]
