@@ -730,5 +730,14 @@
     "destUrl": "https://helixcore.co.uk/products/ss-31",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "8d47250bed937ddd"
+  },
+  {
+    "ts": "2026-09-20T04:49:08.715Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3",
+    "visitorId": "303e28c67a7a6b18"
   }
 ]
