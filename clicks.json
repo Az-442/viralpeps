@@ -3274,5 +3274,154 @@
     "destUrl": "https://www.buyreta.co.uk/product/selank-10-uk",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "81876fd2180e4392"
+  },
+  {
+    "ts": "2026-09-20T16:16:08.041Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://www.buyreta.co.uk/product/bpc-157-oral-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7742ee002b3e7dfe"
+  },
+  {
+    "ts": "2026-09-20T16:17:03.659Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "visitorId": "cf4c76d57f84ee99"
+  },
+  {
+    "ts": "2026-09-20T16:19:05.234Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b98d033dad29d87d"
+  },
+  {
+    "ts": "2026-09-20T16:19:06.591Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tesamorelin-10mg-ghrh",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ea52a4f43c30e1d9"
+  },
+  {
+    "ts": "2026-09-20T16:19:14.662Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa",
+    "visitorId": "6a6dedf9c5963931"
+  },
+  {
+    "ts": "2026-09-20T16:19:16.343Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa",
+    "visitorId": "675e87ab69d1cfac"
+  },
+  {
+    "ts": "2026-09-20T16:19:17.869Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-20T16:19:19.058Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.buyreta.co.uk/product/slu-pp-332-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e40a9dd8ea81f0da"
+  },
+  {
+    "ts": "2026-09-20T16:19:56.593Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.buyreta.co.uk/product/ipamorelin-10mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0effe9370c8e0ce7"
+  },
+  {
+    "ts": "2026-09-20T16:30:09.327Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://helixcore.co.uk/products/tesamorelin",
+    "visitorId": "337b0019c4c9c879"
+  },
+  {
+    "ts": "2026-09-20T16:31:53.935Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://www.buyreta.co.uk/product/cartalax-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "20dc23f997d2080c"
+  },
+  {
+    "ts": "2026-09-20T16:39:14.239Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://olresearch.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-20T16:39:15.768Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://olresearch.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-20T16:39:17.385Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://olresearch.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-20T16:44:30.265Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/41-igf-1lr3-1mg.html",
+    "visitorId": "9adb1f4ade2fe65c"
+  },
+  {
+    "ts": "2026-09-20T16:49:20.415Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "7a9f421e23a75874"
   }
 ]
