@@ -3198,5 +3198,71 @@
     "destUrl": "https://helixcore.co.uk/products/thymalin",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "194d75b5bd5c996e"
+  },
+  {
+    "ts": "2026-09-20T15:38:41.184Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "nad-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/nad-research-peptide",
+    "visitorId": "6e4304c58161f28a"
+  },
+  {
+    "ts": "2026-09-20T15:39:16.065Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://polygonpeptides.co.uk/product/cjc-1295-no-dac/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-20T15:51:27.627Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk",
+    "visitorId": "db21084b1cdc2fbd"
+  },
+  {
+    "ts": "2026-09-20T15:51:56.717Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.buyreta.co.uk/product/oxytocin-uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bde20b866b7835c2"
+  },
+  {
+    "ts": "2026-09-20T15:52:26.028Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://helixcore.co.uk/products/ara-290",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ee19bd8294032eaa"
+  },
+  {
+    "ts": "2026-09-20T15:55:54.055Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ipamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0c1dad2f577a3e9b"
+  },
+  {
+    "ts": "2026-09-20T16:05:15.526Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://helixcore.co.uk/products/tb-500",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "84452cf46d7cb6ad"
   }
 ]
