@@ -9249,5 +9249,81 @@
     "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "87d256715190c569"
+  },
+  {
+    "ts": "2026-09-21T19:49:23.154Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cf644449f189dbbd"
+  },
+  {
+    "ts": "2026-09-21T19:50:06.379Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "visitorId": "f15c81044e26a14a"
+  },
+  {
+    "ts": "2026-09-21T19:50:08.577Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "visitorId": "c208cfcf2dce383e"
+  },
+  {
+    "ts": "2026-09-21T19:50:10.613Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-21T20:01:08.475Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend",
+    "visitorId": "f28edb5ff7436cb7"
+  },
+  {
+    "ts": "2026-09-21T20:04:37.971Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://midshirelabs.co.uk/products/nad/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0c1dad2f577a3e9b"
+  },
+  {
+    "ts": "2026-09-21T20:04:43.819Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://midshirelabs.co.uk/products/nad/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "707ff0c385b38735"
+  },
+  {
+    "ts": "2026-09-21T20:22:52.182Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ahk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "afaf1d517eb18161"
   }
 ]
