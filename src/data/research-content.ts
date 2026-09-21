@@ -10589,7 +10589,364 @@ slug: 'bpc-157-for-recovery',
     'Gavrilova SI, Alvarez A. Cerebrolysin in the therapy of mild cognitive impairment and dementia due to Alzheimer\'s disease: 30 years of clinical use. Med Res Rev. 2021;41(5):2775-2803. PMID 32808294',
     'Khavinson V, Ribakova Y, Kulebiakin K, et al. Pinealon increases cell viability by suppression of free radical levels and activating proliferative processes. Rejuvenation Res. 2011;14(5):535-41. PMID 21978084',
   ],
-}
+},
+
+'mots-c-vs-5-amino-1mq': {
+  slug: 'mots-c-vs-5-amino-1mq',
+  compoundSlug: 'mots-c',
+  compoundSlug2: '5-amino-1mq',
+  pullQuote: 'MOTS-c and 5-Amino-1MQ are compared constantly as "metabolic peptides" and they are not the same kind of molecule at all. MOTS-c is a 16-residue mitochondrial-encoded peptide that acts through AMPK. 5-Amino-1MQ is a small-molecule NNMT inhibitor that acts on methylation flux. MOTS-c has 78 UK vendors and a deep mechanistic literature. 5-Amino-1MQ has 37 vendors and almost no human data. The evidence gap between them is the largest of any pairing on this site.',
+  quickInfo: [
+    {
+      label: 'Comparison',
+      value: 'MOTS-c vs 5-Amino-1MQ',
+    },
+    {
+      label: 'MOTS-c Identity',
+      value: 'Mitochondrial-derived peptide, 16 residues (MRWQEMGYIFYPRKLR), encoded in mtDNA 12S rRNA',
+    },
+    {
+      label: '5-Amino-1MQ Identity',
+      value: 'Small-molecule NNMT inhibitor — 5-amino-1-methylquinolinium; not a peptide',
+    },
+    {
+      label: 'Molecular Weight',
+      value: 'MOTS-c 1,734.9 g/mol; 5-Amino-1MQ approximately 159 g/mol (cation)',
+    },
+    {
+      label: 'Primary Mechanism',
+      value: 'MOTS-c — AMPK activation and nuclear retrograde signalling; 5-Amino-1MQ — NNMT inhibition, raised SAM and NAD+',
+    },
+    {
+      label: 'Route in Research',
+      value: 'MOTS-c — injectable lyophilised powder; 5-Amino-1MQ — injectable, with no established peptide handling route',
+    },
+    {
+      label: 'UK Supply',
+      value: 'MOTS-c: 78 vendors, 131 listings, from £10.86. 5-Amino-1MQ: 37 vendors, 52 listings, from £16.00',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'MOTS-c vs 5-Amino-1MQ: A Peptide Compared Against a Small Molecule',
+      body: 'MOTS-c and 5-Amino-1MQ appear together in almost every "metabolic peptide" list on the internet, and the pairing is misleading from the first word. [**MOTS-c**](/compounds/mots-c) is a peptide: a 16-amino-acid chain encoded in the mitochondrial genome, produced inside the mitochondrion and acting as a retrograde signal back to the nucleus. [**5-Amino-1MQ**](/compounds/5-amino-1mq) is not a peptide at all — it is a small molecule, roughly a tenth of the molecular weight, that inhibits an enzyme called nicotinamide N-methyltransferase (NNMT).\n\nThat distinction is not pedantry. It changes the mechanism, the research literature you should be reading, the handling requirements, and — most importantly — how much is actually known.\n\nMOTS-c has been characterised in a coherent body of work running from 2015 to the present, including identification of its AMPK-dependent mechanism, exercise-response studies in mice and humans, and circulating-level measurements across several disease states. 5-Amino-1MQ has a real and growing target-validation literature behind NNMT, but the compound itself appears in very few of those papers — most NNMT research uses other inhibitors or genetic knockdown. Searching PubMed for the compound name returns essentially nothing, and that is the single most important fact on this page.\n\nWhat follows is a mechanism-by-mechanism comparison, the evidence position for each, and how the two supply bases differ in the UK market. Live listings are on the [**MOTS-c price comparison →**](/compounds/mots-c) and the [**5-Amino-1MQ price comparison →**](/compounds/5-amino-1mq).'
+    },
+    {
+      title: 'Mechanism: AMPK Signalling vs NNMT Inhibition',
+      body: 'The two compounds act on metabolic regulation through routes with nothing in common, so the comparison has to be made at the level of what each actually does inside a cell.',
+      subsections: [
+        {
+          title: 'MOTS-c — a mitochondrial retrograde signal acting through AMPK',
+          body: 'MOTS-c is translated from a short open reading frame within the mitochondrial 12S ribosomal RNA gene, making it one of a small group of peptides encoded outside the nuclear genome. Lee and colleagues established the founding characterisation in 2015, showing that MOTS-c translocates to the nucleus under metabolic stress and regulates gene expression through an AMPK-dependent mechanism, improving glucose uptake and fatty acid oxidation and reducing diet-induced obesity and insulin resistance in mice ([PMID 25738459](https://pubmed.ncbi.nlm.nih.gov/25738459/)).\n\nThe AMPK dependency has since been demonstrated directly. Yang and colleagues showed that MOTS-c interacts synergistically with exercise to regulate PGC-1α expression and attenuate insulin resistance in mice via AMPK signalling ([PMID 33722744](https://pubmed.ncbi.nlm.nih.gov/33722744/)), and Gudiksen and colleagues reported improved intrinsic muscle mitochondrial bioenergetic efficiency in a PGC-1α/AMPK-dependent manner ([PMID 41520850](https://pubmed.ncbi.nlm.nih.gov/41520850/)). The mechanism is therefore reasonably well mapped: mitochondrial signal → nuclear translocation → AMPK/PGC-1α axis → altered substrate handling. Lee\'s later review sets out the muscle and fat metabolism framing ([PMID 27216708](https://pubmed.ncbi.nlm.nih.gov/27216708/)).'
+        },
+        {
+          title: '5-Amino-1MQ — inhibiting a methylation-consuming enzyme',
+          body: 'NNMT transfers a methyl group from S-adenosylmethionine (SAM) to nicotinamide, producing 1-methylnicotinamide (1-MNA) and S-adenosylhomocysteine. Inhibiting it raises the available SAM pool and alters the nicotinamide/NAD+ relationship, which is why NNMT inhibition is studied in metabolic and epigenetic contexts.\n\nThe target-validation literature is substantial. Kannt and colleagues showed that NNMT mRNA expression in human adipose tissue and plasma 1-MNA concentrations associate with insulin resistance ([PMID 25596852](https://pubmed.ncbi.nlm.nih.gov/25596852/)). Ström and colleagues established that 1-MNA is itself a signalling molecule produced in skeletal muscle that coordinates energy metabolism ([PMID 29445118](https://pubmed.ncbi.nlm.nih.gov/29445118/)). Roberti and colleagues showed NNMT regulates glucocorticoid signalling during early adipogenesis ([PMID 37217546](https://pubmed.ncbi.nlm.nih.gov/37217546/)) and Yoda and colleagues mapped NNMT-dependent lipid regulation in hepatocytes through SAM and 1-MNA ([PMID 37014628](https://pubmed.ncbi.nlm.nih.gov/37014628/)).\n\nWhere the chain breaks is the last link. The pharmacological studies use their own inhibitors — Ruf and colleagues characterised tricyclic small-molecule NNMT inhibitors for metabolic disorders ([PMID 36104373](https://pubmed.ncbi.nlm.nih.gov/36104373/)) and Babula and colleagues demonstrated that a NNMT inhibitor mitigated obesity-related metabolic dysfunction in vivo ([PMID 39161060](https://pubmed.ncbi.nlm.nih.gov/39161060/)). Those are different molecules from 5-Amino-1MQ. A study showing that "NNMT inhibition does X" is not a study showing that "5-Amino-1MQ does X".'
+        },
+        {
+          title: 'Why the mechanism difference matters downstream',
+          body: 'A peptide and an enzyme inhibitor have different pharmacokinetic behaviour, different handling and different failure modes. MOTS-c, as a 16-residue peptide, is subject to proteolysis; its reported plasma half-life in the compound record is around 60 minutes. Its active window is short and its dosing logic resembles other short peptide signals.\n\n5-Amino-1MQ is a permanently charged quaternary ammonium small molecule. That has two consequences worth stating plainly. It is charged at physiological pH, which limits passive membrane permeability. And because it is a small molecule rather than a peptide, it does not fit the reconstitution, cold-chain and handling conventions that peptide users assume — the compound records list it as a lyophilised powder, but it should not be treated as interchangeable with the peptide workflow around it.'
+        },
+      ]
+    },
+    {
+      title: 'The Evidence Base: Where the Two Compounds Actually Stand',
+      body: 'This is the section that should decide how the comparison is used, because the papers are not equivalent in kind.',
+      subsections: [
+        {
+          title: 'MOTS-c — mechanistic depth, human data emerging',
+          body: 'MOTS-c\'s evidence base runs from mechanism to humans. Reynolds and colleagues demonstrated that MOTS-c is an exercise-induced regulator of age-dependent physical decline and muscle homeostasis ([PMID 33473109](https://pubmed.ncbi.nlm.nih.gov/33473109/)), and Hyatt and colleagues showed MOTS-c increases in skeletal muscle after long-term physical activity and improves acute exercise performance after a single dose ([PMID 35808870](https://pubmed.ncbi.nlm.nih.gov/35808870/)). Fuku and colleagues proposed it as a player in exceptional longevity on the basis of a mitochondrial haplotype association ([PMID 26289118](https://pubmed.ncbi.nlm.nih.gov/26289118/)).\n\nHuman association data has continued to accumulate. Kutuk and colleagues reported reduced serum and skeletal muscle MOTS-c in women with polycystic ovary syndrome, associated with mitochondrial dysfunction ([PMID 41680431](https://pubmed.ncbi.nlm.nih.gov/41680431/)). Cao and colleagues found circulating MOTS-c higher in acute coronary syndrome and prognostic for major cardiac events after myocardial infarction ([PMID 41368821](https://pubmed.ncbi.nlm.nih.gov/41368821/)). Kumagai and colleagues linked the K14Q mtDNA polymorphism to muscle fibre composition and muscular performance ([PMID 34728329](https://pubmed.ncbi.nlm.nih.gov/34728329/)).\n\nThe honest summary: MOTS-c has a mapped mechanism, reproducible exercise and metabolic phenotypes in animal models, and a growing human biomarker literature. What it does not have is a sizeable body of human intervention trials with MOTS-c administered as a research compound. Most of the human data is observational, measuring endogenous levels rather than testing the compound.'
+        },
+        {
+          title: '5-Amino-1MQ — a validated target, an unvalidated tool',
+          body: 'The NNMT literature is genuinely strong on target biology. It is weak on this specific molecule. Liu and colleagues\' review of NNMT in obesity and type 2 diabetes collects the association data ([PMID 34368359](https://pubmed.ncbi.nlm.nih.gov/34368359/)), Liang and colleagues identified NNMT as a therapeutic target for sarcopenia ([PMID 38838088](https://pubmed.ncbi.nlm.nih.gov/38838088/)), and Puleo and colleagues reviewed the emerging opportunities for NNMT inhibitor clinical translation ([PMID 42067476](https://pubmed.ncbi.nlm.nih.gov/42067476/)) — a paper whose value here is that it frames what still has to be demonstrated before any NNMT inhibitor reaches clinical use.\n\nNone of that establishes 5-Amino-1MQ as an effective NNMT inhibitor at any given dose, in any given system, with any measured downstream effect. As of September 2026 the compound has no indexed PubMed record under its own name. Anyone presenting 5-Amino-1MQ research claims is almost certainly borrowing evidence from a different inhibitor and presenting it as if it transferred.\n\nThis is not an argument that the compound is worthless. NNMT is a legitimate target and the direction of the biology is consistent across the association studies. It is an argument that a researcher using 5-Amino-1MQ cannot currently cite compound-specific evidence, and should design studies accordingly — with a pilot, with a measured target-engagement endpoint, and without assuming that an in vivo NNMT inhibitor result from a different molecule will reproduce.'
+        },
+        {
+          title: 'Comparing the evidence honestly',
+          body: 'MOTS-c: mechanism mapped, animal phenotypes reproducible, human association data growing, human intervention data sparse.\n\n5-Amino-1MQ: mechanism plausible by analogy to a validated target, animal phenotype demonstrated for other NNMT inhibitors, human data absent, compound-specific published data absent.\n\nThe practical consequence is that the two compounds carry very different levels of risk in a research design. MOTS-c is a compound where you can reasonably predict what a given intervention should do and check it against published endpoints. 5-Amino-1MQ is a compound where the first experiment has to be establishing that it does anything measurable at all.'
+        },
+      ]
+    },
+    {
+      title: 'Side-by-Side Specification Comparison',
+      body: 'The table below compares the properties that matter for research use. Identity and mechanism figures are drawn from the cited literature; supply figures from the ViralPeps compound records as of September 2026.',
+      table: {
+        header: [
+          'Property',
+          'MOTS-c',
+          '5-Amino-1MQ',
+        ],
+        rows: [
+          [
+            'Class',
+            'Mitochondrial-derived signalling peptide',
+            'Small-molecule enzyme inhibitor (not a peptide)',
+          ],
+          [
+            'Full identity',
+            '16-residue peptide encoded in mtDNA 12S rRNA',
+            '5-amino-1-methylquinolinium (quaternary ammonium cation)',
+          ],
+          [
+            'Sequence',
+            'MRWQEMGYIFYPRKLR',
+            'Not applicable',
+          ],
+          [
+            'Molecular weight',
+            '1,734.9 g/mol',
+            'Approximately 159 g/mol for the cation',
+          ],
+          [
+            'Primary mechanism',
+            'AMPK activation; nuclear retrograde signalling; PGC-1α regulation',
+            'NNMT inhibition; raised SAM, altered 1-MNA and NAD+ flux',
+          ],
+          [
+            'Reported half-life',
+            'Around 60 minutes in the compound record',
+            'Not established in the indexed literature',
+          ],
+          [
+            'Form supplied',
+            'Lyophilised powder, ≥98% purity typical',
+            'Lyophilised powder, mostly 50 mg presentations',
+          ],
+          [
+            'Principal literature',
+            'Metabolic regulation, exercise mimetics, insulin sensitivity, ageing',
+            'NNMT target biology; compound-specific records absent',
+          ],
+          [
+            'Human intervention data',
+            'Sparse; human data is largely observational biomarker work',
+            'None indexed',
+          ],
+          [
+            'UK vendors tracked',
+            '78 vendors, 131 listings, from £10.86',
+            '37 vendors, 52 listings, from £16.00',
+          ],
+          [
+            'Common vial sizes',
+            '5 mg, 10 mg, 20 mg, 40 mg, 60 mg',
+            '5 mg, 10 mg, 50 mg, 100 mg',
+          ],
+          [
+            'Median tracked price',
+            '£27.49',
+            '£40.00',
+          ],
+        ],
+      },
+    },
+    {
+      title: 'UK Supply and Price Landscape',
+      body: 'The supply bases differ in depth, and the difference tracks the evidence position closely — which is a useful signal in itself.\n\nMOTS-c is carried by 78 UK vendors across 131 tracked listings. The cheapest tracked listing is £10.86 for a 5 mg vial, and the median tracked price across all listings is £27.49, against a top of market at £199.99. The distribution is concentrated: 36 vendors have a cheapest listing between £25 and £40, and only three have a cheapest listing under £15. Presentations span 5 mg, 10 mg, 20 mg, 30 mg, 32 mg, 40 mg and 60 mg, plus a 5 mg × 10-vial pack and at least one blend listing. The 10 mg presentation dominates the low-cost end of the market — the four cheapest 10 mg listings sit between £14.99 and £16.00.\n\n5-Amino-1MQ is carried by 37 vendors across 52 tracked listings — roughly half the vendor count on roughly 40% of the listings. The cheapest tracked listing is £16.00 for a 10 mg vial and the median is £40.00, against a top of market at £220.00. Presenting vial sizes are 5 mg, 10 mg, 50 mg, 100 mg and a 10 mg × 10-vial pack. Notably, one of the cheapest listings in the market is a 50 mg vial at £22.00, which is a lower cost per milligram than several 10 mg listings priced a few pounds cheaper.\n\nThat last point is the buying lesson for both compounds. The price spread is not explained by cost of goods in either case — MOTS-c is a 16-residue peptide, which is moderately expensive to synthesise, while 5-Amino-1MQ is a small molecule that should be inexpensive. Where the spread is widest, packaging and positioning are doing the work. Normalise to cost per milligram at a stated vial size before drawing any conclusion.\n\nLive pricing: [**MOTS-c price comparison →**](/compounds/mots-c) and [**5-Amino-1MQ price comparison →**](/compounds/5-amino-1mq).'
+    },
+    {
+      title: 'Choosing Between Them: What the Comparison Actually Tells You',
+      body: 'If the research question is about mitochondrial signalling, exercise adaptation, AMPK activation, insulin sensitivity or PGC-1α, MOTS-c is the relevant tool and there is a published mechanistic framework to design against. Endpoints such as glucose tolerance, insulin sensitivity indices, PGC-1α expression, mitochondrial respiratory capacity and circulating MOTS-c itself all map onto its known mechanism.\n\nIf the research question is about NNMT, methylation flux, SAM availability or 1-MNA signalling, then 5-Amino-1MQ is one of the compounds people reach for — but it should be treated as an exploratory tool rather than a characterised one. A defensible design measures NNMT activity or 1-MNA directly, runs a dose-ranging pilot before committing to a full protocol, and does not assume that in vivo results reported for other NNMT inhibitors will transfer.\n\nIf the question is about weight or body composition broadly, neither is the direct comparator. Compounds with large human randomised datasets sit in the incretin class, and the [**Tirzepatide research summary →**](/research/tirzepatide-research-summary) covers that evidence base properly.\n\nWhat the pairing does have in common is a shared failure mode in the market: both are frequently described as "metabolic peptides" when one is a peptide and the other is not, and both are sold on borrowed evidence. With MOTS-c the borrowing is unnecessary because the primary literature exists. With 5-Amino-1MQ the borrowing is the entire evidence claim.\n\nFor the pharmacology of each in depth, read the [**MOTS-c research summary →**](/research/mots-c-research-summary) and the [**5-Amino-1MQ research summary →**](/research/5-amino-1mq-research-summary). For sourcing standards that apply to both, the [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk) guide sets out the four checks, and [**How to Read a COA →**](/research/how-to-read-a-coa) covers the documentation side.'
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'MOTS-c and 5-Amino-1MQ are compared as metabolic peptides and only one of them is a peptide. MOTS-c is a 16-residue mitochondrial-encoded signal acting through AMPK and the PGC-1α axis, with a mapped mechanism, reproducible animal phenotypes and a growing human biomarker literature. 5-Amino-1MQ is a small-molecule NNMT inhibitor whose target is well validated but whose own indexed evidence base is effectively empty.\n\nChoose on the mechanism, not the category label. Mitochondrial signalling, exercise adaptation and AMPK endpoints point to MOTS-c. NNMT activity, methylation flux and 1-MNA endpoints point to 5-Amino-1MQ, with the caveat that the compound-specific evidence does not yet exist.\n\nSupply reflects the same gap. MOTS-c reaches 78 UK vendors from £10.86 with a median of £27.49. 5-Amino-1MQ reaches 37 vendors from £16.00 with a median of £40.00 — twice the vendor concentration and half the listing depth, at a higher median price for a molecule that should cost less to make.\n\nNeither compound is a licensed medicine in the UK and neither has a human evidence base comparable to an approved drug. Both are research-use-only. For the live market, [**compare MOTS-c prices →**](/compounds/mots-c) or [**compare 5-Amino-1MQ prices →**](/compounds/5-amino-1mq).'
+    },
+  ],
+  faq: [
+    {
+      question: 'Is 5-Amino-1MQ a peptide?',
+      answer: 'No. 5-Amino-1MQ (5-amino-1-methylquinolinium) is a small molecule of roughly 159 g/mol that inhibits the enzyme nicotinamide N-methyltransferase. It is frequently listed alongside peptides because it is sold by the same vendors and studied in the same metabolic research area, but it is not a peptide and does not behave like one.'
+    },
+    {
+      question: 'What is the main mechanistic difference between MOTS-c and 5-Amino-1MQ?',
+      answer: 'MOTS-c is a mitochondrial-encoded peptide that translocates to the nucleus and acts through AMPK and PGC-1α signalling to regulate glucose uptake and fatty acid oxidation. 5-Amino-1MQ inhibits NNMT, the enzyme that converts nicotinamide to 1-methylnicotinamide using SAM as a methyl donor, thereby altering methylation flux and the nicotinamide/NAD+ relationship.'
+    },
+    {
+      question: 'Does 5-Amino-1MQ have published research behind it?',
+      answer: 'The NNMT target has a substantial literature, but as of September 2026 5-Amino-1MQ itself has no indexed PubMed record under its own name. Studies describing NNMT inhibition generally use different inhibitors such as the tricyclic compounds characterised by Ruf et al. (PMID 36104373) or genetic knockdown, so their results cannot be assumed to transfer to this molecule.'
+    },
+    {
+      question: 'Which is cheaper in the UK, MOTS-c or 5-Amino-1MQ?',
+      answer: 'MOTS-c is cheaper at the entry point and at the median. The cheapest tracked MOTS-c listing is £10.86 with a median tracked price of £27.49 across 131 listings. The cheapest tracked 5-Amino-1MQ listing is £16.00 with a median of £40.00 across 52 listings. Compare cost per milligram at a stated vial size, since vial sizes differ substantially between the two.'
+    },
+    {
+      question: 'How many UK vendors stock each compound?',
+      answer: '78 UK vendors carry MOTS-c across 131 tracked listings. 37 UK vendors carry 5-Amino-1MQ across 52 tracked listings. The supply depth gap roughly mirrors the difference in published compound-specific evidence.'
+    },
+    {
+      question: 'What should appear on a certificate of analysis for each compound?',
+      answer: 'For MOTS-c, a batch-matched COA naming the testing laboratory with purity by HPLC and identity by mass spectrometry against the expected 1,734.9 g/mol. For 5-Amino-1MQ the expected mass is approximately 159 g/mol for the cation — a COA reporting a peptide-scale molecular weight for a product sold as 5-Amino-1MQ indicates a documentation or identity error.'
+    },
+  ],
+  references: [
+    'Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. Cell Metab. 2015;21(3):443-54. PMID 25738459',
+    'Lee C, Kim KH, Cohen P. MOTS-c: A novel mitochondrial-derived peptide regulating muscle and fat metabolism. Free Radic Biol Med. 2016;100:182-187. PMID 27216708',
+    'Fuku N, Pareja-Galeano H, Zempo H, et al. The mitochondrial-derived peptide MOTS-c: a player in exceptional longevity? Aging Cell. 2015;14(6):921-3. PMID 26289118',
+    'Reynolds JC, Lai RW, Woodhead JST, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12(1):470. PMID 33473109',
+    'Hyatt JK, Powers BL, Smith K, et al. MOTS-c increases in skeletal muscle following long-term physical activity and improves acute exercise performance after a single dose. Physiol Rep. 2022;10(13):e15377. PMID 35808870',
+    'Yang B, Yu Q, Chang B, et al. MOTS-c interacts synergistically with exercise intervention to regulate PGC-1α expression, attenuate insulin resistance and enhance glucose metabolism in mice via AMPK signaling pathway. Biochim Biophys Acta Mol Basis Dis. 2021;1867(6):166126. PMID 33722744',
+    'Gudiksen A, Qoqaj A, Ringholm S, et al. MOTS-c improves intrinsic muscle mitochondrial bioenergetic health and efficiency in a PGC-1α/AMPK-dependent manner. Free Radic Biol Med. 2026;246:682-696. PMID 41520850',
+    'Kumagai H, Naito H, Ogawa T, et al. The MOTS-c K14Q polymorphism in the mtDNA is associated with muscle fiber composition and muscular performance. Biochim Biophys Acta Gen Subj. 2022;1866(2):130048. PMID 34728329',
+    'Kutuk IS, et al. Reduced serum and skeletal muscle MOTS-c levels in women with polycystic ovary syndrome are associated with mitochondrial dysfunction. Sci Rep. 2026;16(1). PMID 41680431',
+    'Cao P, et al. Circulating Mitochondrial Open Reading Frame of the 12S Ribosomal RNA Type-c Is Higher in Acute Coronary Syndrome and Is a Prognostic Biomarker for Major Cardiac Events in Patients With Acute Myocardial Infarction: A Case-Control Study. J Am Heart Assoc. 2025;14(24):e041905. PMID 41368821',
+    'Kannt A, Pfenninger A, Teichert L, et al. Association of nicotinamide-N-methyltransferase mRNA expression in human adipose tissue and the plasma concentration of its product, 1-methylnicotinamide, with insulin resistance. Diabetologia. 2015;58(4):799-808. PMID 25596852',
+    'Ström K, Morales-Alamo D, Ottosson F, et al. N(1)-methylnicotinamide is a signalling molecule produced in skeletal muscle coordinating energy metabolism. Sci Rep. 2018;8(1):3016. PMID 29445118',
+    'Roberti A, Fernández A, Kalmarzi RN, et al. Nicotinamide N-methyltransferase (NNMT) regulates the glucocorticoid signaling pathway during the early phase of adipogenesis. Sci Rep. 2023;13(1):8293. PMID 37217546',
+    'Yoda M, et al. Nicotinamide-N-methyltransferase regulates lipid metabolism via SAM and 1-methylnicotinamide in the AML12 hepatocyte cell line. J Biochem. 2023;174(1):89-98. PMID 37014628',
+    'Ruf S, Rajagopal S, Kadnur SV, et al. Novel tricyclic small molecule inhibitors of Nicotinamide N-methyltransferase for the treatment of metabolic disorders. Sci Rep. 2022;12(1):15440. PMID 36104373',
+    'Babula JJ, et al. Nicotinamide N-methyltransferase inhibition mitigates obesity-related metabolic dysfunction. Diabetes Obes Metab. 2024;26(11):5272-5282. PMID 39161060',
+    'Liu JR, et al. Roles of Nicotinamide N-Methyltransferase in Obesity and Type 2 Diabetes. Biomed Res Int. 2021;2021:9924314. PMID 34368359',
+    'Liang R, et al. Identification of nicotinamide N-methyltransferase as a promising therapeutic target for sarcopenia. Aging Cell. 2024;23(9):e14236. PMID 38838088',
+    'Puleo N, et al. Emerging opportunities for nicotinamide N-methyltransferase (NNMT) inhibitor clinical translation. Trends Pharmacol Sci. 2026;47(6):638-654. PMID 42067476',
+  ],
+},
+
+'semax-suppliers-uk': {
+  slug: 'semax-suppliers-uk',
+  compoundSlug: 'semax',
+  pullQuote: 'Semax is one of the most widely stocked research peptides in the UK — 63 vendors, 84 tracked listings, and an entry price of £7.50. That density is not a guarantee of anything. The listings are genuinely comparable in a way tirzepatide listings are not, because Semax has no approved-drug comparator and no multi-vial kit economics to obscure the price. What it does have is a five-milligram-versus-ten-milligram confusion running through a large share of the market, and a licence status in its country of origin that suppliers routinely get wrong.',
+  quickInfo: [
+    {
+      label: 'Compound',
+      value: 'Semax',
+    },
+    {
+      label: 'Compound Type',
+      value: 'Synthetic heptapeptide analogue of ACTH(4-10)',
+    },
+    {
+      label: 'Sequence',
+      value: 'Met-Glu-His-Phe-Pro-Gly-Pro',
+    },
+    {
+      label: 'Molecular Weight',
+      value: '814.9 g/mol',
+    },
+    {
+      label: 'CAS Number',
+      value: '80714-61-0',
+    },
+    {
+      label: 'Research Areas',
+      value: 'Cognitive function, neuroprotection, ischaemic stroke recovery, optic nerve, anxiety',
+    },
+    {
+      label: 'UK Vendors Tracked',
+      value: '63 suppliers, 84 listings, £7.50–£199.99',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'Semax Suppliers UK: What This Page Covers',
+      body: 'This is a supplier-selection guide for Semax in the UK research market. Semax is a synthetic seven-amino-acid analogue of the ACTH(4-10) fragment, developed in Russia, and it is one of the most heavily stocked research peptides in the UK catalogue: 63 vendors, 84 tracked listings.\n\nThat is a different buying problem from a scarce compound. With a compound carried by three or four vendors, the question is availability. With Semax, availability is not the constraint — the cheapest tracked listing is £7.50 and 26 vendors have a cheapest listing under £25. The question is which of more than eighty listings is worth using.\n\nThis page covers how the UK supply base is structured, the pricing pattern across vial sizes, the two documentation problems that recur specifically with Semax, why the "Russian prescription drug" framing that appears on a lot of supplier pages is misleading, and how to verify a listing before ordering.\n\nThe live price table renders on the [**Semax price comparison hub →**](/compounds/semax). For the pharmacology, the [**Semax research summary →**](/research/semax-research-summary) covers the ACTH(4-10) mechanism and the BDNF/NGF literature, and [**Semax for Focus →**](/research/semax-for-focus) covers the cognitive-research applications.' 
+    },
+    {
+      title: 'What Makes the Semax Market Different',
+      body: 'Semax is a short synthetic peptide. Seven residues is cheap to synthesise at high purity compared with a 39-residue incretin analogue, and that single fact explains most of the market structure: a large number of vendors can carry it profitably at a low unit price.\n\nThree consequences follow, and each of them is worth understanding before comparing listings.\n\nThere is no approved-drug comparator in the UK, so there is no reference price. Unlike tirzepatide, where the research market is constantly measured against a licensed prescription product, Semax has no UK medicines benchmark. Every listing is priced against other listings, which means the market convention — not a cost floor — sets the anchor.\n\nThe typical vial is small, so the kilogram-scale economics that dominate bulk compounds do not apply. Semax is stocked overwhelmingly in 5 mg and 10 mg vials. A handful of vendors carry 30 mg, and a small number sell multi-millilitre pre-mixed or nasal presentations. There are no 100 mg or 200 mg bulk kits in the tracked market because there is no demand pattern that would support them.\n\nThe handling conventions matter more than for most compounds, because Semax is unusually prone to being treated as a general-purpose nootropic rather than a specific research tool. The same compound-name ambiguity shows up in pricing. Several tracked vendors list a 5 mg and a 10 mg vial at the same figure, and at least one lists them within a few pence of each other, which is not a discount — it is an unmaintained listing.\n\n[**Compare Semax prices from UK suppliers →**](/compounds/semax)'
+    },
+    {
+      title: 'How the UK Semax Supply Base Is Structured',
+      body: 'The 63 tracked vendors separate into a few recognisable groups, and the group a listing belongs to tells you what to check.',
+      subsections: [
+        {
+          title: 'Short-sequence generalists and the price floor',
+          body: 'Most vendors carrying Semax carry the rest of the short-peptide range — Selank, DSIP, Epitalon, GHK-Cu and similar 3- to 10-residue compounds. These vendors compete on price and range breadth. The price floor in the tracked market sits here: the cheapest listing is £7.50 for a 10 mg vial, followed by £13.99 for a 5 mg vial and £15.00 for a 5 mg vial. A 10 mg vial at £7.50 is a genuinely low cost per milligram, and it is worth confirming the listing is not a mispriced or stale entry before treating it as the market floor.'
+        },
+        {
+          title: 'Panel-focused vendors with fuller documentation',
+          body: 'A second group positions on documentation rather than price — batch-matched certificates of analysis, stated HPLC purity, mass-spectrometry identity, sometimes a published batch number lookup. These vendors typically sit in the £19 to £30 band for a 5 mg or 10 mg vial. Semax is a legitimate place to pay for documentation because the compound is small enough that identity testing is unambiguous: the expected mass is 814.9 g/mol and there is no ambiguity about the form, unlike GHK-Cu where the copper complexes and the free tripeptide give different expected masses.'
+        },
+        {
+          title: 'Pre-mixed, nasal and multi-vial presentations',
+          body: 'A smaller group offers Semax as a pre-mixed solution, a nasal spray, or a multi-vial pack. These are not directly comparable to lyophilised powder listings on a per-milligram basis, and the tracked market shows why: a "10 mg/5 ml" presentation is a solution, not a lyophilised vial, and it should not be priced as though it were. Where a vendor stocks both, compare the powder price to the solution price before assuming the solution is cheaper — it frequently is not.'
+        },
+      ]
+    },
+    {
+      title: 'Price Patterns Across the Semax Market',
+      body: 'The tracked market runs from £7.50 to £199.99, and the shape of the distribution matters more than the extremes.\n\nOf the 63 vendors carrying Semax, 3 have a cheapest listing under £15. A further 26 have a cheapest listing between £15 and £25, and 32 sit between £25 and £40. Only two vendors have a cheapest listing above £40. In other words, roughly 85% of the market prices Semax between £15 and £40 for an entry-level vial, and the genuine outliers are at the bottom, not the top.\n\nThe 10 mg presentation anchors the low end. The three cheapest 10 mg listings in the tracked market are between £7.50 and £15.00. The 5 mg presentation clusters between £13.99 and £19.00. At face value the 5 mg listings look comparable to the 10 mg listings, which is exactly the confusion the market creates — a 5 mg vial at £17.99 is more than twice the cost per milligram of a 10 mg vial at £7.50.\n\nThe practical rule for Semax is therefore unusually simple. Because the compound is cheap to synthesise and the market is dense, the price per milligram is the only figure worth comparing. Where a vendor lists both sizes, checking the ratio tells you immediately whether the listing is maintained: a 10 mg vial should cost less per milligram than a 5 mg vial from the same vendor. Where it does not, the vendor is pricing the sticker, not the compound.\n\nThe top of the market — listings above £60 and up to £199.99 — is almost entirely accounted for by multi-vial packs, pre-mixed presentations and higher-strength entries rather than by single 5 mg or 10 mg vials. No single low-strength Semax vial in the tracked market justifies a three-figure price.\n\nLive pricing: [**Semax price comparison →**](/compounds/semax).'
+    },
+    {
+      title: 'Two Documentation Problems Specific to Semax',
+      body: 'Generic supplier advice applies here, but Semax has two recurring issues that are worth checking separately.',
+      subsections: [
+        {
+          title: 'The 5 mg / 10 mg strength ambiguity',
+          body: 'A significant share of tracked Semax listings quote a price without stating a vial size in the structured listing data. Where the size is stated, it appears in inconsistent forms — "5mg", "10 mg", "10mg/5ml" and "30mg" all occur in the same market. Before comparing anything, establish three things: the vial size, whether the product is lyophilised powder or a solution, and whether the price refers to a single vial or a pack. A £199.99 listing and a £7.50 listing can both be correct and not remotely comparable.'
+        },
+        {
+          title: 'The regulatory framing that suppliers get wrong',
+          body: 'Semax was developed in Russia and is described in the Russian literature as a registered medicinal product for ischaemic stroke, transient ischaemic attack and optic nerve conditions. UK supplier pages often compress this into a claim that Semax is "an approved drug", which is not true in the UK — Semax has no UK marketing authorisation and is not a licensed medicine here. The correct position is that UK supply is research-use-only, that the compound has a clinical literature generated under a different regulatory regime, and that a supplier presenting Russian clinical licensing as UK approval is misrepresenting the status of what they are selling. The same misrepresentation problem applies to any supplier claiming Semax is licensed for human use in the UK: it is not, and UK vendors selling it for human consumption would be acting outside the research-use-only framing the entire category depends on.'
+        },
+        {
+          title: 'What a defensible Semax COA contains',
+          body: 'Purity by HPLC with the chromatogram supplied, not just a percentage. Identity by mass spectrometry against 814.9 g/mol. A batch number that matches the vial label. A named testing laboratory — third-party rather than in-house. And a date, because a batch certificate from three years ago describes a batch that has almost certainly been superseded. The [**How to Read a COA →**](/research/how-to-read-a-coa) guide covers how each of these gets faked.'
+        },
+      ]
+    },
+    {
+      title: 'Where the Semax Evidence Stands',
+      body: 'Supplier selection and evidence quality are separate questions, and it is worth being precise about the second one before choosing a vendor.\n\nSemax has a substantial preclinical literature. Shadrina and colleagues mapped the temporal dynamics of NGF and BDNF gene expression in rat hippocampus, frontal cortex and retina under Semax administration ([PMID 19662538](https://pubmed.ncbi.nlm.nih.gov/19662538/)), and Agapova and colleagues reported neurotrophin gene expression changes in rat brain ([PMID 17353092](https://pubmed.ncbi.nlm.nih.gov/17353092/)). Dmitrieva and colleagues showed Semax and its C-terminal Pro-Gly-Pro fragment activate transcription of neurotrophins and their receptor genes after cerebral ischaemia ([PMID 19633950](https://pubmed.ncbi.nlm.nih.gov/19633950/)). Romanova and colleagues demonstrated neuroprotective and antiamnesic effects in experimental cortical infarction ([PMID 17603664](https://pubmed.ncbi.nlm.nih.gov/17603664/)).\n\nOn the clinical side, Gusev and colleagues published on Semax efficacy in patients at different stages of ischaemic stroke ([PMID 29798983](https://pubmed.ncbi.nlm.nih.gov/29798983/)) and earlier on prevention of disease progression in cerebrovascular insufficiency ([PMID 15792140](https://pubmed.ncbi.nlm.nih.gov/15792140/)). Both are Russian-language publications.\n\nThe honest framing: Semax has a mapped neurotrophic mechanism, reproducible preclinical effects, and clinical publications that are not matched by any large English-language randomised programme. Separately, a meaningful share of the consumer-facing research interest is about cognitive performance rather than the stroke-recovery indication the clinical work addresses — Pae and colleagues raised Semax as a possible antidepressant ([PMID 18204410](https://pubmed.ncbi.nlm.nih.gov/18204410/)) and Tsai and colleagues proposed it for ADHD and Rett syndrome ([PMID 16996699](https://pubmed.ncbi.nlm.nih.gov/16996699/)), but both are hypothesis papers rather than trials.\n\nNone of this is a reason not to source Semax. It is a reason not to accept a supplier\'s description of the evidence at face value. The mechanism and preclinical literature are real; the framing around it is frequently inflated. For the depth version, read the [**Semax deep dive →**](/research/semax-deep-dive).'
+    },
+    {
+      title: 'Choosing a Semax Supplier: The Checklist',
+      body: 'Six checks, in order of how often they actually catch a bad listing.\n\nFirst, confirm the vial size and the form. Lyophilised powder and pre-mixed solution are different products and should be priced differently.\n\nSecond, compute cost per milligram. With a market floor at £7.50 for a 10 mg vial, anything materially above that needs a justification in documentation, not in branding.\n\nThird, request the batch-matched COA and check that the batch number on the certificate matches the vial. This is the single highest-value check and it takes one email.\n\nFourth, confirm the identity figure is 814.9 g/mol. Because Semax is a short, unambiguous sequence, a mass-spectrometry result that does not match indicates a real problem rather than a formatting quirk.\n\nFifth, check whether the vendor describes Semax as an approved or licensed medicine. If they do — in the UK context — that is a reliable signal that their regulatory framing is being written for marketing rather than accuracy, and it is worth applying the same scepticism to the rest of their claims.\n\nSixth, check stock status and dispatch terms rather than assuming them. Semax is a short peptide supplied in small vials and most vendors hold it in stock, but a listing that shows no dispatch information is a listing that has not been maintained.\n\nThe general sourcing standard is set out in [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk), and the wider vendor landscape including Semax\'s position within it is in the [**Cognitive Peptide Suppliers UK →**](/research/cognitive-peptide-suppliers-uk) guide. For the comparison against the compound it is most often paired with, see [**Semax vs Selank →**](/research/semax-vs-selank).'
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Semax is one of the easiest research peptides to source in the UK and one of the easiest to overpay for. 63 vendors carry it across 84 tracked listings, the market floor is £7.50 for a 10 mg vial, and roughly 85% of vendors price an entry-level vial between £15 and £40.\n\nThe buying decision is a documentation decision, not an availability decision. Nobody needs help finding a Semax listing. What separates the market is whether the batch-matched COA exists, whether the identity figure matches 814.9 g/mol, and whether the vendor describes the compound\'s regulatory status accurately.\n\nThe evidence position is genuinely mixed and worth stating plainly. Semax has a real preclinical literature on neurotrophin expression and neuroprotection, and Russian clinical publications on ischaemic stroke. It does not have a large English-language randomised programme, it is not a licensed UK medicine, and a meaningful share of the online interest in it concerns cognitive performance rather than the indication the clinical work studied.\n\nResearch-use-only, from a vendor who documents what they shipped. For the live market, [**compare Semax prices from UK suppliers →**](/compounds/semax).'
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK suppliers stock Semax?',
+      answer: '63 UK vendors carry Semax across 84 tracked listings as of September 2026, making it one of the most widely stocked research peptides in the catalogue. Tracked prices run from £7.50 for a 10 mg vial to £199.99 for multi-vial and higher-strength presentations.'
+    },
+    {
+      question: 'Why is Semax so much cheaper than other research peptides?',
+      answer: 'Semax is a seven-amino-acid peptide. Short sequences are inexpensive to synthesise at high purity compared with long modified peptides such as tirzepatide, so a large number of vendors can carry it profitably at a low unit price. That is why the tracked market floor is £7.50 rather than the £20 to £30 typical of longer compounds.'
+    },
+    {
+      question: 'Is Semax an approved medicine in the UK?',
+      answer: 'No. Semax has no UK marketing authorisation and is not a licensed medicine in the UK. It is described in Russian literature as a registered medicinal product for ischaemic stroke and related neurological conditions, and that Russian registration is sometimes presented by suppliers as equivalent to approval. UK supply of Semax is research-use-only, and a supplier claiming UK licensing is misrepresenting the compound\'s status.'
+    },
+    {
+      question: 'What should I check on a Semax certificate of analysis?',
+      answer: 'Purity by HPLC with the chromatogram supplied rather than just a percentage, identity by mass spectrometry against the expected 814.9 g/mol, a batch number matching the vial label, the name of the third-party testing laboratory, and a recent date. Because Semax is a short unambiguous sequence, an identity figure that does not match the expected mass indicates a genuine problem.'
+    },
+    {
+      question: 'Should I buy Semax as 5 mg or 10 mg vials?',
+      answer: 'Compare cost per milligram rather than sticker price. A 10 mg vial should cost less per milligram than a 5 mg vial. In the tracked UK market the cheapest 10 mg listings are between £7.50 and £15.00 while 5 mg listings cluster between £13.99 and £19.00, so a 5 mg vial at £17.99 works out at more than twice the cost per milligram of a 10 mg vial at £7.50.'
+    },
+    {
+      question: 'Is Semax supplied as a powder or a pre-mixed solution?',
+      answer: 'Both appear in the UK market. Most listings are lyophilised powder in 5 mg or 10 mg vials, and the tracked data includes a "10 mg/5 ml" solution presentation plus a small number of nasal and multi-vial formats. Powders and solutions are different products and should not be compared on headline price.'
+    },
+  ],
+  references: [
+    'Shadrina M, Kolomin T, Agapova T, et al. Comparison of the temporary dynamics of NGF and BDNF gene expression in rat hippocampus, frontal cortex, and retina under Semax action. J Mol Neurosci. 2010;41(1):30-5. PMID 19662538',
+    'Agapova TY, Agniullin YV, Shadrina MI, et al. Neurotrophin gene expression in rat brain under the action of Semax, an analogue of ACTH 4-10. Neurosci Lett. 2007;417(2):201-5. PMID 17353092',
+    'Dmitrieva VG, Povarova OV, Skvortsova VI, et al. Semax and Pro-Gly-Pro activate the transcription of neurotrophins and their receptor genes after cerebral ischemia. Cell Mol Neurobiol. 2010;30(1):71-9. PMID 19633950',
+    'Stavchanskiĭ VV, Tvorogova TV, Botsina AIu, et al. The effect of semax and its C-end peptide PGP on expression of the neurotrophins and their receptors in the rat brain during incomplete global ischemia. Mol Biol (Mosk). 2011;45(6):1026-35. PMID 22295573',
+    'Romanova GA, Silachev DN, Shakova FM, et al. Neuroprotective and antiamnesic effects of Semax during experimental ischemic infarction of the cerebral cortex. Bull Exp Biol Med. 2006;142(6):663-6. PMID 17603664',
+    'Gusev EI, Martynov MIu, Kostenko EV, et al. The efficacy of semax in the treatment of patients at different stages of ischemic stroke. Zh Nevrol Psikhiatr Im S S Korsakova. 2018;118(3. Vyp. 2):61-68. PMID 29798983',
+    'Gusev EI, Skvortsova VI, Chukanova EI, et al. Semax in prevention of disease progress and development of exacerbations in patients with cerebrovascular insufficiency. Zh Nevrol Psikhiatr Im S S Korsakova. 2005;105(2):35-40. PMID 15792140',
+    'Pae CU, Serretti A, Chiesa A, et al. Therapeutic possibility of "Semax" for depression. CNS Spectr. 2008;13(1):20-1. PMID 18204410',
+    'Tsai SJ. Semax, an analogue of adrenocorticotropin (4-10), is a potential agent for the treatment of attention-deficit hyperactivity disorder and Rett syndrome. Med Hypotheses. 2007;68(5):1144-6. PMID 16996699',
+    'Levitskaia NG, Glazova NIu, Sebentsova EA, et al. Influence of Semax on the emotional state of white rats in the norm and against the background of cholecystokinin-tetrapeptide action. Izv Akad Nauk Ser Biol. 2010;(2):231-7. PMID 20387390',
+    'Inozemtseva LS, et al. Antidepressant-like and antistress effects of the ACTH(4-10) synthetic analogs Semax and Melanotan II on male rats in a model of chronic unpredictable stress. Eur J Pharmacol. 2024;984:177068. PMID 39442746',
+    'Glazova NY, et al. Semax, synthetic ACTH(4-10) analogue, attenuates behavioural and neurochemical alterations following early-life fluvoxamine exposure in white rats. Neuropeptides. 2021;86:102114. PMID 33418449',
+  ],
+},
 
 };
 export default content;

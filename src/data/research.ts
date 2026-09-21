@@ -1284,6 +1284,28 @@ export const guides: ResearchArticle[] = [
     minutes: 13,
     tags: ["buy", "uk", "sourcing", "coa", "purity", "research-use-only", "legal", "buying-guide", "suppliers"],
   },
+  {
+    title: "MOTS-c vs 5-Amino-1MQ: A Peptide Compared Against a Small Molecule",
+    desc: "MOTS-c is a 16-residue mitochondrial-encoded peptide acting through AMPK. 5-Amino-1MQ is a small-molecule NNMT inhibitor. Mechanism, evidence base and the UK supply gap — 78 vendors versus 37, and why the evidence difference is the real story.",
+    category: "Articles",
+    section: "comparisons",
+    compound: "MOTS-c",
+    slug: "mots-c-vs-5-amino-1mq",
+    image: "mots-c-vs-5-amino-1mq",
+    minutes: 14,
+    tags: ["mots-c", "5-amino-1mq", "comparison", "metabolic", "mitochondrial", "nnmt", "ampk", "uk"],
+  },
+  {
+    title: "Semax Suppliers UK: How to Compare 63 Vendors Without Overpaying",
+    desc: "63 UK vendors, 84 tracked listings and a £7.50 floor for a 10 mg vial. How the Semax market is structured, the 5 mg versus 10 mg pricing trap, the COA checks that matter, and why the Russian clinical literature is not UK approval.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Semax",
+    slug: "semax-suppliers-uk",
+    image: "semax-suppliers-uk",
+    minutes: 13,
+    tags: ["semax", "suppliers", "uk", "nootropic", "neuroprotective", "coa", "purity", "price-comparison"],
+  },
 ];
 
 export const compoundList: string[] = [
