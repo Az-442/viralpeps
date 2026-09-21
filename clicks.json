@@ -6781,5 +6781,96 @@
     "compoundSlug": "snap-8-10mg",
     "destUrl": "https://pslabs.uk/products/snap-8-10mg",
     "visitorId": "a697690913659119"
+  },
+  {
+    "ts": "2026-09-21T08:14:14.964Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500-1/",
+    "visitorId": "1eb3230d1df9a94f"
+  },
+  {
+    "ts": "2026-09-21T08:14:20.830Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500-1/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-21T08:14:25.032Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500-1/",
+    "visitorId": "d558780a070db0a8"
+  },
+  {
+    "ts": "2026-09-21T08:18:43.979Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "visitorId": "8160b907f1626ebb"
+  },
+  {
+    "ts": "2026-09-21T08:19:56.874Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu",
+    "visitorId": "675e87ab69d1cfac"
+  },
+  {
+    "ts": "2026-09-21T08:19:59.021Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-21T08:20:01.047Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-09-21T08:22:55.324Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c9a60b0c59fa3ea7"
+  },
+  {
+    "ts": "2026-09-21T08:23:00.294Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "917e7a50864448ed"
+  },
+  {
+    "ts": "2026-09-21T08:44:01.898Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/semax-peptide",
+    "visitorId": "f7a3f0dc932078f3"
   }
 ]
