@@ -7010,5 +7010,159 @@
     "destUrl": "https://pioneerpeptides.co.uk/products/tb-500/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "80efba04c2beef13"
+  },
+  {
+    "ts": "2026-09-21T10:06:06.807Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-21T10:06:08.424Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-21T10:06:09.937Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-21T10:10:38.773Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://pioneerpeptides.co.uk/products/slu-pp-332/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f33e5341e21e59ac"
+  },
+  {
+    "ts": "2026-09-21T10:13:44.928Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://helixcore.co.uk/products/cjc-1295-ipamorelin-blend",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b7f8c7324316b55a"
+  },
+  {
+    "ts": "2026-09-21T10:15:39.748Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "cjc-1295-ipamorelin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/cjc-1295-ipa-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6c33da9765f55095"
+  },
+  {
+    "ts": "2026-09-21T10:18:47.363Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "visitorId": "9f6471e48ae760b3"
+  },
+  {
+    "ts": "2026-09-21T10:18:49.511Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-21T10:19:11.664Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "afcdb518a834fbfe"
+  },
+  {
+    "ts": "2026-09-21T10:19:48.777Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "ghrp-2-10mg",
+    "destUrl": "https://evolvepeptides.uk/products/ghrp2-acetate-10mg",
+    "visitorId": "c755d96aa966fbe3"
+  },
+  {
+    "ts": "2026-09-21T10:25:08.098Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "visitorId": "62de1aaf5f371c2a"
+  },
+  {
+    "ts": "2026-09-21T10:25:10.214Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-21T10:31:05.334Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "destUrl": "https://ukpeptidelab.co.uk",
+    "visitorId": "f28edb5ff7436cb7"
+  },
+  {
+    "ts": "2026-09-21T10:31:23.425Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-21T10:31:25.381Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-21T10:31:27.606Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-21T10:34:36.883Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "tesamorelin-10mg",
+    "destUrl": "https://pslabs.uk/products/tesamorelin-10mg",
+    "visitorId": "250d9b5dba39dae5"
   }
 ]
