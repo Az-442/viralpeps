@@ -8300,5 +8300,86 @@
     "compoundSlug": "glow",
     "destUrl": "https://thepeptidecode.co.uk/products/glow70-peptide-pen",
     "visitorId": "1b883e20e75ea38e"
+  },
+  {
+    "ts": "2026-09-21T15:13:34.099Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-10mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "4ab2c249db922002"
+  },
+  {
+    "ts": "2026-09-21T15:14:20.165Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/",
+    "visitorId": "002bdbfaf8449d43"
+  },
+  {
+    "ts": "2026-09-21T15:18:13.353Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://claripep.co.uk/product/tb-500-5mg/",
+    "visitorId": "874f1ae2a1b10993"
+  },
+  {
+    "ts": "2026-09-21T15:20:33.284Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "5-amino-1mq-50mg",
+    "destUrl": "https://fatpigpeptides.co.uk/product/5-amino-1mq-50mg/",
+    "visitorId": "0566efecf8af78c0"
+  },
+  {
+    "ts": "2026-09-21T15:20:33.315Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.buyreta.co.uk/product/glutathione-uk",
+    "visitorId": "d1823c9e9018aa7a"
+  },
+  {
+    "ts": "2026-09-21T15:24:07.843Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://spxlabs.co.uk/product/cjc-1295-no-dac-uk-5mg/",
+    "visitorId": "637cc2233cbaf30a"
+  },
+  {
+    "ts": "2026-09-21T15:26:30.503Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/",
+    "visitorId": "3e93080806412c44"
+  },
+  {
+    "ts": "2026-09-21T15:28:11.896Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-research-peptide",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "262b3b0c346781ee"
+  },
+  {
+    "ts": "2026-09-21T15:33:23.252Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/",
+    "visitorId": "0dfa3ab3233ee9e6"
   }
 ]
