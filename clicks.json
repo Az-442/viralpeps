@@ -7549,5 +7549,123 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/",
     "visitorId": "8d251ee128640bc1"
+  },
+  {
+    "ts": "2026-09-21T12:01:31.657Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/",
+    "visitorId": "f1d0f538c6e8079f"
+  },
+  {
+    "ts": "2026-09-21T12:06:41.294Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "c208cfcf2dce383e"
+  },
+  {
+    "ts": "2026-09-21T12:06:45.588Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-21T12:06:47.825Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-21T12:11:38.534Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/",
+    "visitorId": "7baef2ec24409be3"
+  },
+  {
+    "ts": "2026-09-21T12:15:19.523Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://fatpigpeptides.co.uk/product/mot-c-10mg-20mg/",
+    "visitorId": "eb4b655b9244db50"
+  },
+  {
+    "ts": "2026-09-21T12:15:19.664Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "epitalon-10mg",
+    "destUrl": "https://claripep.co.uk/product/epithalon-10mg/",
+    "visitorId": "3f2ea9f20d23534c"
+  },
+  {
+    "ts": "2026-09-21T12:15:56.854Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "kpv-10mg",
+    "destUrl": "https://pslabs.uk/products/kpv-10mg",
+    "visitorId": "1f5f5e7061ead20e"
+  },
+  {
+    "ts": "2026-09-21T12:15:57.228Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ahk-cu-100mg",
+    "destUrl": "https://pslabs.uk/products/ahk-cu-100mg",
+    "visitorId": "52883ceda8978722"
+  },
+  {
+    "ts": "2026-09-21T12:24:28.803Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "7d5f0089692d9b47"
+  },
+  {
+    "ts": "2026-09-21T12:24:31.605Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-21T12:24:33.908Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-21T12:31:24.658Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e18ff76e7b804129"
   }
 ]
