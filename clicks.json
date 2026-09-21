@@ -7183,5 +7183,362 @@
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://alphamino.co.uk/shop/alp_l3/",
     "visitorId": "5aeade40ea75f2cf"
+  },
+  {
+    "ts": "2026-09-21T11:13:17.870Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-21T11:13:20.076Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-21T11:13:22.347Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-21T11:21:43.672Z",
+    "type": "vendor-site",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "destUrl": "https://apexpure.co.uk",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:43.828Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://apexpure.co.uk/product/tirzepatide-40mg-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:43.979Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://apexpure.co.uk/product/semaglutide-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:44.129Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://apexpure.co.uk/product/bpc-157-peptide-5mg/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:44.308Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://apexpure.co.uk/product/tb-500-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:44.472Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://apexpure.co.uk/product/aod-9604-peptide-9604-5mg/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:44.622Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://apexpure.co.uk/product/retatrutide-20mg-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:44.777Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://apexpure.co.uk/product/igf-1-lr3-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:44.944Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://apexpure.co.uk/product/sermorelin-peptide-5mg/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:45.104Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://apexpure.co.uk/product/mots-c-uk-10mg/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:45.252Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://apexpure.co.uk/product/ghk-cu-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:45.410Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://apexpure.co.uk/product/epitalon-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:45.560Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "semax",
+    "destUrl": "https://apexpure.co.uk/product/semax-uk/",
+    "visitorId": "da149acc3d0c98cc"
+  },
+  {
+    "ts": "2026-09-21T11:21:45.724Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "selank",
+    "destUrl": "https://apexpure.co.uk/product/selank-uk/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:46.015Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://apexpure.co.uk/product/ipamorelin-peptide-5mg/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:46.173Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://apexpure.co.uk/product/ghrp-6-uk/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:46.323Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://apexpure.co.uk/product/pt-141-bremelanotide-peptide-10mg-research-grade/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:46.476Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://apexpure.co.uk/product/bpc-157-tb-500-blend-uk/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:46.650Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "glow",
+    "destUrl": "https://apexpure.co.uk/product/glow-blend-uk/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:46.795Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://apexpure.co.uk/product/snap-8-peptide-10mg/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:46.942Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://apexpure.co.uk/product/nad-uk/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:47.095Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://apexpure.co.uk/product/matrixyl-3000-uk/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:47.243Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8-argireline-10mg",
+    "destUrl": "https://apexpure.co.uk/product/argireline-uk-acetyl-hexapeptide-8-10mg/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:47.429Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://apexpure.co.uk/product/cjc-1295-no-dac-peptide-5mg/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:21:47.576Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://apexpure.co.uk/product/cagrilintide-uk/",
+    "visitorId": "a5a0c093e708b3c2"
+  },
+  {
+    "ts": "2026-09-21T11:23:06.745Z",
+    "type": "vendor-site",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "destUrl": "https://claripep.co.uk",
+    "visitorId": "922e06bcdfb51819"
+  },
+  {
+    "ts": "2026-09-21T11:25:39.305Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "5-amino-1mq-10mg",
+    "destUrl": "https://polygonpeptides.co.uk/product/5-amino-1mq-10mg-vial/",
+    "visitorId": "463b904527ab924c"
+  },
+  {
+    "ts": "2026-09-21T11:27:04.664Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/kisspeptin-5mg",
+    "visitorId": "a8c3799e3ef48b08"
+  },
+  {
+    "ts": "2026-09-21T11:28:05.576Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "selank-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/selank-5mg",
+    "visitorId": "f349ab06b784132c"
+  },
+  {
+    "ts": "2026-09-21T11:29:09.698Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "visitorId": "559b6503290a9dd9"
+  },
+  {
+    "ts": "2026-09-21T11:31:07.861Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://leolab.co.uk/peptides/tirzepatide/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-21T11:31:10.693Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://leolab.co.uk/peptides/tirzepatide/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-21T11:31:13.871Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://leolab.co.uk/peptides/tirzepatide/",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-21T11:33:20.934Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "2e5f6d087340d59c"
+  },
+  {
+    "ts": "2026-09-21T11:33:32.779Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pioneerpeptides.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6331747647437217"
+  },
+  {
+    "ts": "2026-09-21T11:36:02.297Z",
+    "type": "vendor-site",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "destUrl": "https://appliedpeptides.com",
+    "visitorId": "9ec217baee8134f4"
+  },
+  {
+    "ts": "2026-09-21T11:48:53.051Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://leolab.co.uk/peptides/pt-141/",
+    "visitorId": "344fdee5ce767189"
   }
 ]
