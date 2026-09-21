@@ -139,3 +139,59 @@ dead-link remediation run.
 This was the **one-off expanded run**. Tomorrow `52e36371d2c1` returns to normal:
 **one new supplier per day, standard prompt.** The new guards (site-alive check,
 coverage reconciliation) should be kept in the standard prompt.
+
+---
+
+# ADDENDUM — 21 Sep 2026 verification pass (job `52e36371d2c1`)
+
+The 17 Sep 4-task spec re-fired on 21 Sep. **Tasks 1–4 were already complete** (commit `e8e962e9`,
+logged 19 Sep). This run re-verified everything against live rather than redoing it, and found
+**one real defect the prior log had waved through**.
+
+## Re-verified as correct (all guards re-run against live)
+- **PeptX** — 29 `/single-vials/` sources, 0 category/soft-404 URLs, all titles compound-specific,
+  0 price flags, 0 shared-MD5 images. `labTested: true`, `lastTested: 2026-09-19`.
+- **Claripep** — 12 sources, all titles valid, 10 unique image MD5s.
+  The GHK-Cu £90 ">3x median" flag is a **confirmed false positive**: dose-normalised it is
+  `ppm_ratio=1.00` vs peers (it's a 200mg bulk vial, correctly labelled).
+- **VialVerse** — 52 sources, all titles valid, 0 price flags.
+  Two suspected price errors were checked against the site's own structured data and
+  **both stored values are correct** (`"50mg"..."price":15` → £15.00; `"10mg"..."price":19` → £19.00).
+- **Kings BioLabs** — correctly absent; live profile returns 404.
+
+## DEFECT FOUND AND FIXED
+**PeptX `eloralintide` had `price: ""`** — the prior log recorded this as "left blank — not
+invented" and treated it as acceptable. It was not: an empty price string propagated into the
+page's meta description and FAQ JSON-LD as **"prices starting from £0.00"**, and the entry also
+carried `inStock: true` despite the live page reading **"Production paused / not orderable right now"**.
+
+Live page does render `£45.99 · Out of stock`, but it is **not orderable**, so it must not be
+listed as a comparable retail price (same rule already applied to aod-9604 / cagrilintide /
+liraglutide — no orderable single vial).
+
+**Fix:** removed the PeptX source from `eloralintide` (8-line deletion, no collateral changes).
+`eloralintide` retains RETA UK (£100) and PS Labs (£70). Live now reads
+"from £70.00 · 2 verified UK suppliers". Commit `8ac802a8`, verified live after deploy.
+
+### Process note — a mistake caught and corrected mid-run
+The first attempt at this fix rewrote the whole file with `json.dump(..., ensure_ascii=False)`,
+unescaping every `\u00a3` to a literal `£` and producing a 3,659-line diff. That violates the
+**no-collateral-changes** rule, so it was reverted (`a0ae8f4f`) and redone as a byte-precise
+`patch()` deletion. Lesson: **never round-trip `compounds.json` through `json.dump` for a
+single-entry edit** — it reformats escaping site-wide.
+
+## STILL OPEN (pre-existing, pre-dates this run — recommend a dedicated pass)
+**28 remaining non-numeric prices** corrupt the same meta/JSON-LD path on their pages:
+- **Peptides UK — 27 entries** priced `"£—"` (tb-500, ghrp-2, aod-9604, cjc-1295, igf-1-lr3,
+  igf-1-des, sermorelin, mots-c, thymosin-alpha-1, epitalon, semax, selank, fragment-176-191,
+  hexarelin, ghrp-6, pt-141, dsip, snap-8, pal-ghk, mgf, follistatin-344, ace-031,
+  premium-mod-grf-1-29-2mg, peg-mgf, nad-250mg, kisspeptin)
+- **Prime Peptides — 1** (`igf-1-lr3`, empty string)
+- Plus `pal-ghk / Research Peptides` priced `"£Out of stock"` — a stock token in a price field.
+
+Fix requires either sourcing the real price or removing the vendor from those compounds.
+
+## REVERT
+Back to **one new supplier per day** with the standard prompt.
+Keep the guards: title-content, category-page reject, image-MD5 uniqueness, price sanity,
+site-alive, and coverage reconciliation.
