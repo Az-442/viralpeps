@@ -7752,5 +7752,79 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
     "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-21T13:02:03.142Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-21T13:02:05.447Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-21T13:03:57.508Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pioneerpeptides.co.uk/products/bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8c7aa9dda726e2e2"
+  },
+  {
+    "ts": "2026-09-21T13:13:19.297Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ghk-cu-100mg-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a4affc30d3789c38"
+  },
+  {
+    "ts": "2026-09-21T13:17:47.979Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295/",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-21T13:17:50.321Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-21T13:17:54.112Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295/",
+    "visitorId": "7d3527f8978becb5"
+  },
+  {
+    "ts": "2026-09-21T13:35:36.964Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://leolab.co.uk/peptides/kisspeptin/",
+    "visitorId": "d2fb532ec5f5f4d8"
   }
 ]
