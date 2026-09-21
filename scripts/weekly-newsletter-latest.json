@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-09-14",
+  "source": "https://viralpeps.co.uk",
+  "status": "HELD — MailerLite account 2509467 status=terminated; POST /api/campaigns returns 403 'Not available on closed or terminated account'",
+  "site_stats": {
+    "peptides_tracked": 134,
+    "verified_suppliers": 81,
+    "prices_updated": "daily"
+  },
+  "deals": [
+    { "compound": "GHK-Cu", "dosage": "5mg", "supplier": "Nupex", "original": "£350.00", "current": "£6.48", "save": "£343.52", "pct": "98%", "slug": "ghk-cu" },
+    { "compound": "Ipamorelin", "dosage": "300mcg", "supplier": "Research Peptides", "original": "£199.99", "current": "£6.99", "save": "£193.00", "pct": "97%", "slug": "ipamorelin" },
+    { "compound": "Semax", "dosage": "600mcg", "supplier": "XL Peptides", "original": "£199.99", "current": "£7.50", "save": "£192.49", "pct": "96%", "slug": "semax" },
+    { "compound": "Selank", "dosage": "600mcg", "supplier": "XL Peptides", "original": "£199.99", "current": "£7.50", "save": "£192.49", "pct": "96%", "slug": "selank" },
+    { "compound": "CJC-1295", "dosage": "2mg", "supplier": "Research Peptides", "original": "£199.99", "current": "£9.95", "save": "£190.04", "pct": "95%", "slug": "cjc-1295" },
+    { "compound": "IGF-1 LR3", "dosage": "60mcg", "supplier": "Pure Peptides UK", "original": "£199.99", "current": "£10.00", "save": "£189.99", "pct": "95%", "slug": "igf-1-lr3" },
+    { "compound": "MOTS-c", "dosage": "15mg", "supplier": "Nupex", "original": "£199.99", "current": "£10.86", "save": "£189.13", "pct": "95%", "slug": "mots-c" },
+    { "compound": "DSIP (Delta Sleep-Inducing Peptide)", "dosage": "", "supplier": "Raccoon Peptides", "original": "£199.99", "current": "£9.99", "save": "£190.00", "pct": "95%", "slug": "dsip" }
+  ],
+  "trending": [
+    { "name": "GHK-Cu", "suppliers": 103, "from": "£6.48", "slug": "ghk-cu", "fact": "Most compared compound on the site — copper peptide for skin and tissue repair research. 103 suppliers now listed." },
+    { "name": "MOTS-c", "suppliers": 101, "from": "£10.86", "slug": "mots-c", "fact": "Mitochondrial-derived peptide, jumped to 101 suppliers. Biggest saving today at 95%." },
+    { "name": "BPC-157", "suppliers": 96, "from": "£12.00", "slug": "bpc-157", "fact": "The healing and recovery staple — 96 UK suppliers to compare." },
+    { "name": "TB-500", "suppliers": 90, "from": "£0.00", "slug": "tb-500", "fact": "Tissue repair research mainstay, now 90 suppliers deep." },
+    { "name": "Tesamorelin", "suppliers": 90, "from": "£19.95", "slug": "tesamorelin", "fact": "Growth-hormone secretagogue with a wide price spread across 90 suppliers." },
+    { "name": "Retatrutide", "suppliers": 88, "from": "£35.00", "slug": "retatrutide", "fact": "Newer metabolic compound gaining fast — 88 suppliers and climbing." }
+  ],
+  "new_suppliers": [
+    { "name": "Tested Peptides", "note": "Third-party HPLC tested, wide catalogue from BPC-157 to NAD+" },
+    { "name": "Trutide", "note": "UK registered (Trutide Research Ltd), Royal Mail Tracked 24 over £25, same-day dispatch before 2pm" }
+  ],
+  "top_suppliers_by_price": [
+    { "name": "Express Peptides", "best_price": "£7.50", "products": 118 },
+    { "name": "Pure Peptides UK", "best_price": "£7.50", "products": 105, "verified": true },
+    { "name": "Alphamino", "best_price": "£5.00", "products": 85 },
+    { "name": "Research Peptides UK", "best_price": "£6.99", "products": 77, "verified": true }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scraped_at": "2026-09-14",
+  "source": "https://viralpeps.co.uk (Top deals of the day)",
+  "note": "Deals captured while MailerLite account was TERMINATED. Ready to send once account is reinstated.",
+  "deals": [
+    { "compound": "GHK-Cu", "dosage": "5mg", "supplier": "Nupex", "original": "£350.00", "current": "£6.48", "save": "£343.52", "pct": "98%", "slug": "ghk-cu" },
+    { "compound": "Ipamorelin", "dosage": "300mcg", "supplier": "Research Peptides", "original": "£199.99", "current": "£6.99", "save": "£193.00", "pct": "97%", "slug": "ipamorelin" },
+    { "compound": "Semax", "dosage": "600mcg", "supplier": "XL Peptides", "original": "£199.99", "current": "£7.50", "save": "£192.49", "pct": "96%", "slug": "semax" },
+    { "compound": "Selank", "dosage": "600mcg", "supplier": "XL Peptides", "original": "£199.99", "current": "£7.50", "save": "£192.49", "pct": "96%", "slug": "selank" },
+    { "compound": "CJC-1295", "dosage": "2mg", "supplier": "Research Peptides", "original": "£199.99", "current": "£9.95", "save": "£190.04", "pct": "95%", "slug": "cjc-1295" },
+    { "compound": "IGF-1 LR3", "dosage": "60mcg", "supplier": "Pure Peptides UK", "original": "£199.99", "current": "£10.00", "save": "£189.99", "pct": "95%", "slug": "igf-1-lr3" },
+    { "compound": "MOTS-c", "dosage": "15mg", "supplier": "Nupex", "original": "£199.99", "current": "£10.86", "save": "£189.13", "pct": "95%", "slug": "mots-c" },
+    { "compound": "DSIP (Delta Sleep-Inducing Peptide)", "dosage": "", "supplier": "Raccoon Peptides", "original": "£199.99", "current": "£9.99", "save": "£190.00", "pct": "95%", "slug": "dsip" }
+  ]
+}

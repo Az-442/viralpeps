@@ -1,0 +1,56 @@
+H1: Retatrutide Price Comparison  [36px, 700]
+BODY BG: rgb(255, 255, 255)  WIDTH:1440
+
+=== SECTION GEOMETRY (h2 blocks) ===
+1) "// 30-DAY TREND"
+    h=517px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 12px w400 rgb(115, 115, 115) align:start transform:uppercase
+    contains: {"svg":1}
+2) "// LIVE ORDER BOOK"
+    h=1462px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 12px w400 rgb(115, 115, 115) align:start transform:uppercase
+    contains: {"table":19,"img":117,"svg":202,"a":242}
+3) "// TOP-RANKED SELLERS"
+    h=304px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 12px w400 rgb(115, 115, 115) align:start transform:uppercase
+    contains: {"ul":3,"img":3,"svg":7,"a":9,"LAYOUT:grid 453.328125px 453.328125px 453.328125px":1}
+4) "How our Retatrutide price comparison works"
+    h=828px  bg=rgb(255, 255, 255)  pad=40/40
+    h2: 24px w700 rgb(23, 23, 23) align:start transform:none
+    contains: {"ul":1,"a":1}
+5) "Reading the Retatrutide price spread"
+    h=828px  bg=rgb(255, 255, 255)  pad=40/40
+    h2: 24px w700 rgb(23, 23, 23) align:start transform:none
+    contains: {"ul":1,"a":1}
+6) "What moves the Retatrutide price?"
+    h=828px  bg=rgb(255, 255, 255)  pad=40/40
+    h2: 24px w700 rgb(23, 23, 23) align:start transform:none
+    contains: {"ul":1,"a":1}
+7) "Tracking Retatrutide prices over time"
+    h=828px  bg=rgb(255, 255, 255)  pad=40/40
+    h2: 24px w700 rgb(23, 23, 23) align:start transform:none
+    contains: {"ul":1,"a":1}
+8) "Compare every Retatrutide deal in one place"
+    h=272px  bg=rgba(0, 0, 0, 0)  pad=48/48
+    h2: 30px w700 rgb(255, 255, 255) align:center transform:none
+    contains: {"a":2,"LAYOUT:flex none":1}
+9) "Get Peptide Price-drop Alerts"
+    h=1086px  bg=rgb(15, 76, 129)  pad=56/56
+    h2: 30px w700 rgb(255, 255, 255) align:center transform:none
+    contains: {"button":1,"input":100}
+10) "Cookies on PeptideSupermarket®"
+    h=216px  bg=rgb(255, 255, 255)  pad=20/20
+    h2: 16px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"svg":2,"a":1,"button":3}
+
+=== SIDEBAR / RAIL (sticky) ===
+
+=== TABLE STYLING ===
+  table: w=0 border-collapse:collapse radius:0px
+  th: bg=rgba(0, 0, 0, 0) color=rgb(30, 41, 59) size=14px pad=16
+  td: size=14px color=rgb(100, 116, 139) pad=16 border=oklch(0.928 0.006 264.531006)
+  row0 bg=oklab(0.269 0 0 / 0.05)  row1 bg=rgba(0, 0, 0, 0)
+
+=== FIRST 5 BLOCK ELEMENTS IN MAIN ===
+  1. <section> h=198 bg=rgb(255, 255, 255) class=border-b border-zinc-300 bg-white
+  2. <div> h=4243 bg=rgba(0, 0, 0, 0) class=mx-auto max-w-site px-6 py-10

@@ -1,0 +1,49 @@
+H1: Buy Retatrutide Online in the UK — Cheap  [48px, 900]
+BODY BG: rgb(255, 255, 255)  WIDTH:1440
+
+=== SECTION GEOMETRY (h2 blocks) ===
+1) "Cheapest Retatrutide deals today"
+    h=981px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w900 rgb(255, 255, 255) align:start transform:none
+    contains: {"img":10,"svg":10,"a":21}
+2) "Buy now or wait?"
+    h=573px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w900 rgb(255, 255, 255) align:start transform:none
+    contains: {"svg":1}
+3) "The cheapest place to buy Retatrutide online today"
+    h=774px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(255, 255, 255) align:start transform:none
+    contains: {"ul":1,"a":1}
+4) "How to buy Retatrutide cheap without the risk"
+    h=774px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(255, 255, 255) align:start transform:none
+    contains: {"ul":1,"a":1}
+5) "Should you buy Retatrutide now or wait?"
+    h=774px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(255, 255, 255) align:start transform:none
+    contains: {"ul":1,"a":1}
+6) "Is it safe to buy Retatrutide online in the UK?"
+    h=774px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(255, 255, 255) align:start transform:none
+    contains: {"ul":1,"a":1}
+7) "Never overpay for Retatrutide again"
+    h=274px  bg=rgba(0, 0, 0, 0)  pad=48/48
+    h2: 30px w900 rgb(255, 255, 255) align:center transform:none
+    contains: {"a":2,"LAYOUT:flex none":1}
+8) "Get Peptide Price-drop Alerts"
+    h=1086px  bg=rgb(15, 76, 129)  pad=56/56
+    h2: 30px w700 rgb(255, 255, 255) align:center transform:none
+    contains: {"button":1,"input":100}
+9) "Cookies on PeptideSupermarket®"
+    h=216px  bg=rgb(255, 255, 255)  pad=20/20
+    h2: 16px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"svg":2,"a":1,"button":3}
+
+=== SIDEBAR / RAIL (sticky) ===
+
+=== TABLE STYLING ===
+  (no table on this page)
+
+=== FIRST 5 BLOCK ELEMENTS IN MAIN ===
+  1. <section> h=603 bg=rgba(0, 0, 0, 0) class=relative overflow-hidden border-b border-slate-800
+  2. <div> h=3390 bg=rgba(0, 0, 0, 0) class=max-w-site mx-auto px-6 py-12

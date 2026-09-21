@@ -1,0 +1,55 @@
+H1: Where to Buy Retatrutide in the UK  [36px, 700]
+BODY BG: rgb(255, 255, 255)  WIDTH:1440
+
+=== SECTION GEOMETRY (h2 blocks) ===
+1) "The best places to buy Retatrutide in the UK"
+    h=1465px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"ul":1,"a":1}
+2) "What to look for in a Retatrutide supplier"
+    h=1465px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"ul":1,"a":1}
+3) "How much does Retatrutide cost?"
+    h=1465px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"ul":1,"a":1}
+4) "How to store Retatrutide after delivery"
+    h=1465px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"ul":1,"a":1}
+5) "Frequently asked questions"
+    h=1465px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"ul":1,"a":1}
+6) "Compare all Retatrutide suppliers"
+    h=1498px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"table":19,"img":117,"svg":202,"a":242}
+7) "Recommended Retatrutide suppliers"
+    h=352px  bg=rgba(0, 0, 0, 0)  pad=0/0
+    h2: 24px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"ul":3,"img":3,"svg":7,"a":9,"LAYOUT:grid 453.328125px 453.328125px 453.328125px":1}
+8) "Compare every Retatrutide deal in one place"
+    h=272px  bg=rgb(30, 41, 59)  pad=48/48
+    h2: 30px w700 rgb(255, 255, 255) align:center transform:none
+    contains: {"a":2,"LAYOUT:flex none":1}
+9) "Get Peptide Price-drop Alerts"
+    h=1086px  bg=rgb(15, 76, 129)  pad=56/56
+    h2: 30px w700 rgb(255, 255, 255) align:center transform:none
+    contains: {"button":1,"input":100}
+10) "Cookies on PeptideSupermarket®"
+    h=216px  bg=rgb(255, 255, 255)  pad=20/20
+    h2: 16px w700 rgb(30, 41, 59) align:start transform:none
+    contains: {"svg":2,"a":1,"button":3}
+
+=== SIDEBAR / RAIL (sticky) ===
+
+=== TABLE STYLING ===
+  table: w=0 border-collapse:collapse radius:0px
+  th: bg=rgba(0, 0, 0, 0) color=rgb(30, 41, 59) size=14px pad=16
+  td: size=14px color=rgb(100, 116, 139) pad=16 border=oklch(0.928 0.006 264.531006)
+  row0 bg=oklab(0.269 0 0 / 0.05)  row1 bg=rgba(0, 0, 0, 0)
+
+=== FIRST 5 BLOCK ELEMENTS IN MAIN ===
+  1. <div> h=5034 bg=rgba(0, 0, 0, 0) class=max-w-site mx-auto px-6

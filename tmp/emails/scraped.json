@@ -1,0 +1,71 @@
+{
+  "Zentra": {
+    "domain": "zentra-peptides.com",
+    "emails": [
+      "info@zentra-peptides.com",
+      "john@research-lab.co.uk"
+    ]
+  },
+  "Apex Biolabs": {
+    "domain": "apexbiolabs.co.uk",
+    "emails": [
+      "info@apexbiolabs.co.uk"
+    ]
+  },
+  "Momentum Peptides": {
+    "domain": "momentumpeptides.com",
+    "emails": []
+  },
+  "Peptide Lab UK": {
+    "domain": "peptidelabuk.co.uk",
+    "emails": [
+      "info@peptidelabuk.co.uk"
+    ]
+  },
+  "Grey Matter Peptides": {
+    "domain": "greymatterpeptides.co.uk",
+    "emails": []
+  },
+  "Bio Tide UK": {
+    "domain": "biotideuk.com",
+    "emails": [
+      "support@biotideuk.com"
+    ]
+  },
+  "MyPep Biotech": {
+    "domain": "mypepbiotech.co.uk",
+    "emails": [
+      "mypepbiotechuk@gmail.com"
+    ]
+  },
+  "Leo Lab Peptides UK": {
+    "domain": "leolab.co.uk",
+    "emails": []
+  },
+  "Aegis Peptides": {
+    "domain": "aegispeptidesuk.co.uk",
+    "emails": [
+      "info@aegispeptidesuk.co.uk"
+    ]
+  },
+  "Apex Pure": {
+    "domain": "apexpure.co.uk",
+    "emails": [
+      "carlforward11@gmail.com",
+      "support@apexpure.co.uk"
+    ]
+  },
+  "Peptide Pal": {
+    "domain": "peptidepal.co.uk",
+    "emails": [
+      "your@email.com"
+    ]
+  },
+  "Pioneer Peptides": {
+    "domain": "pioneerpeptides.co.uk",
+    "emails": [
+      "orders@pioneerpeptides.co.uk",
+      "you@institution.ac.uk"
+    ]
+  }
+}

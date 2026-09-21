@@ -1,0 +1,37 @@
+{
+  "id": "revexa",
+  "name": "Revexa",
+  "slug": "revexa",
+  "website": "https://www.revexa.co.uk",
+  "rating": 5,
+  "verified": true,
+  "founded": 2025,
+  "country": "UK",
+  "description": "Revexa is a UK research-peptide supplier based at 20 Wenlock Road, London N1 7GU, focused on peptide and longevity compounds for laboratory and investigational use. The catalogue spans 43 listings across metabolic research (Tirzepatide, Retatrutide, MOTS-C), repair and recovery (BPC-157, TB-500, GHK-Cu, KPV, the Klow blend), longevity (NAD+, Epitalon, Pinealon, SS-31), nootropics (Semax, Selank, Adamax, DSIP) and melanocortin research (PT-141, Melanotan II). Every compound is supplied as a lyophilised powder for reconstitution under sterile lab conditions, with product pages carrying research summaries, sequences and storage guidance. UK orders ship via tracked Royal Mail 24/48 with free delivery over £99, and orders placed before 2pm Monday to Friday are dispatched the same or next working day. Payment is accepted by major debit and credit card, bank transfer and cryptocurrency. All material is supplied strictly for laboratory research use only.",
+  "highlights": [
+    "UK-based supplier at a registered London address (20 Wenlock Road, N1 7GU)",
+    "43 research listings — metabolic, repair, longevity, nootropic and melanocortin compounds",
+    "Lyophilised powder supplied for sterile lab reconstitution",
+    "Product pages include research summaries, sequences and storage guidance",
+    "Free UK delivery on orders over £99",
+    "Tracked Royal Mail 24/48 delivery, UK only",
+    "Same or next working day dispatch on orders placed before 2pm (Mon–Fri)",
+    "Card, bank transfer and cryptocurrency payment accepted",
+    "Research-use-only — no guidance on human or veterinary use given"
+  ],
+  "shipping": [
+    "UK only — tracked Royal Mail services",
+    "Tracked & Signed For delivery: 24 and 48 hours from dispatch",
+    "Free UK delivery on orders over £99",
+    "Orders placed before 2pm (Mon–Fri) dispatched same or next working day",
+    "No dispatch on Saturdays, Sundays or UK bank holidays",
+    "Tracking details emailed on dispatch"
+  ],
+  "payment": [
+    "Major credit and debit cards",
+    "Bank transfer",
+    "Cryptocurrency (BTC, ETH, USDT)"
+  ],
+  "lastTested": "2026-09-17",
+  "labTested": true
+}

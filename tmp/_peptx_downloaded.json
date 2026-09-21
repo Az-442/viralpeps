@@ -1,0 +1,152 @@
+{
+  "tirzepatide": {
+    "file": "public/images/products/peptx/tirzepatide.webp",
+    "bytes": 275596,
+    "md5": "d984b8c36fb2887bc3f09f235c9ad7ee"
+  },
+  "semaglutide": {
+    "file": "public/images/products/peptx/semaglutide.webp",
+    "bytes": 269728,
+    "md5": "379fb7bf72cf5b6b7113aa00850d3cb4"
+  },
+  "retatrutide": {
+    "file": "public/images/products/peptx/retatrutide.webp",
+    "bytes": 278548,
+    "md5": "8232c64d904f59f77400394d1fa53732"
+  },
+  "bpc-157": {
+    "file": "public/images/products/peptx/bpc-157.webp",
+    "bytes": 217816,
+    "md5": "b986626e9a9b33043812038e39f8b430"
+  },
+  "ghk-cu": {
+    "file": "public/images/products/peptx/ghk-cu.webp",
+    "bytes": 258984,
+    "md5": "1fb23157a671267d8f1d3ff7542340ae"
+  },
+  "tesamorelin": {
+    "file": "public/images/products/peptx/tesamorelin.webp",
+    "bytes": 288202,
+    "md5": "0ddc1fc52886eab73f1804ff81b1a820"
+  },
+  "mots-c": {
+    "file": "public/images/products/peptx/mots-c.webp",
+    "bytes": 247148,
+    "md5": "58496385aa7c2c0f9538000d7f319a5a"
+  },
+  "ss-31": {
+    "file": "public/images/products/peptx/ss-31.webp",
+    "bytes": 302282,
+    "md5": "406096b0eb7eab78496a042eff9da869"
+  },
+  "selank": {
+    "file": "public/images/products/peptx/selank.webp",
+    "bytes": 247742,
+    "md5": "c136f47057187f6ace189d7a0b1da2da"
+  },
+  "semax": {
+    "file": "public/images/products/peptx/semax.webp",
+    "bytes": 249408,
+    "md5": "48033752faae8ea4c2acaee81acb93fe"
+  },
+  "kisspeptin-10": {
+    "file": "public/images/products/peptx/kisspeptin-10.webp",
+    "bytes": 249096,
+    "md5": "368c347c94e5635136ca3938cc7fadfb"
+  },
+  "pt-141": {
+    "file": "public/images/products/peptx/pt-141.webp",
+    "bytes": 275240,
+    "md5": "740dac165a3979e257ed17a66e15aed0"
+  },
+  "nad-plus": {
+    "file": "public/images/products/peptx/nad-plus.webp",
+    "bytes": 252594,
+    "md5": "891b70ed6ec332c446dad3788e049900"
+  },
+  "kpv": {
+    "file": "public/images/products/peptx/kpv.webp",
+    "bytes": 267558,
+    "md5": "36861072d217ee32472e8a82115a1ce9"
+  },
+  "sermorelin": {
+    "file": "public/images/products/peptx/sermorelin.webp",
+    "bytes": 270720,
+    "md5": "f897854695c848927bce814bc93f2941"
+  },
+  "ipamorelin": {
+    "file": "public/images/products/peptx/ipamorelin.webp",
+    "bytes": 246784,
+    "md5": "42449323f77e8d9618fb3263e0c3013a"
+  },
+  "dsip": {
+    "file": "public/images/products/peptx/dsip.webp",
+    "bytes": 179072,
+    "md5": "bde2a1d34e8dc85bf0efe55a1b881bba"
+  },
+  "mt-1": {
+    "file": "public/images/products/peptx/mt-1.webp",
+    "bytes": 279986,
+    "md5": "25a9f2fbb942b07469b32e379ea3d4b7"
+  },
+  "ahk-cu": {
+    "file": "public/images/products/peptx/ahk-cu.webp",
+    "bytes": 259966,
+    "md5": "85bc745f08191b13b368857502c884ff"
+  },
+  "5-amino-1mq": {
+    "file": "public/images/products/peptx/5-amino-1mq.webp",
+    "bytes": 295498,
+    "md5": "d3fb496cd366413f7e9b0240ac43a857"
+  },
+  "ara-290": {
+    "file": "public/images/products/peptx/ara-290.webp",
+    "bytes": 270428,
+    "md5": "e172dfcb20e6cb970c66e0c5b378f910"
+  },
+  "cartalax": {
+    "file": "public/images/products/peptx/cartalax.webp",
+    "bytes": 277978,
+    "md5": "a8386efde0cc20a4b5ebb45440294fb1"
+  },
+  "pe-22-28": {
+    "file": "public/images/products/peptx/pe-22-28.webp",
+    "bytes": 283172,
+    "md5": "a8a0526443a3c593440beb448deeff27"
+  },
+  "mazdutide": {
+    "file": "public/images/products/peptx/mazdutide.webp",
+    "bytes": 266504,
+    "md5": "18a42ee8ecac5d2f1098f509cc1f8ddf"
+  },
+  "thymosin-alpha-1": {
+    "file": "public/images/products/peptx/thymosin-alpha-1.webp",
+    "bytes": 285290,
+    "md5": "a0715ad9755bcde65c8f7468cc153d78"
+  },
+  "klow-blend": {
+    "file": "public/images/products/peptx/klow-blend.webp",
+    "bytes": 319764,
+    "md5": "ec12f48464dda5cfa26ee528e3360cd4"
+  },
+  "glutathione": {
+    "file": "public/images/products/peptx/glutathione.webp",
+    "bytes": 253544,
+    "md5": "210bf99285d5236598237bf90cc0cb70"
+  },
+  "l-carnitine": {
+    "file": "public/images/products/peptx/l-carnitine.webp",
+    "bytes": 276792,
+    "md5": "3281282c9a80eb7fc0f89269c6d1e82a"
+  },
+  "oxytocin-acetate": {
+    "file": "public/images/products/peptx/oxytocin-acetate.webp",
+    "bytes": 279868,
+    "md5": "aa7d23929bee9e3b2b11016f16bbf98a"
+  },
+  "eloralintide": {
+    "file": "public/images/products/peptx/eloralintide.webp",
+    "bytes": 260800,
+    "md5": "f0a4c8c427447c2ad802123638f7d4d0"
+  }
+}

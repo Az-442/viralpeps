@@ -51,11 +51,42 @@ Each builds a segmented list. Standard model: sell newsletter slots to vendors w
 
 ### B2B Consultancy — Peptide Business Setup
 One-off service (£500-2,000): help someone start a peptide supply company — sourcing, compliance, website, marketing.
+
 Recurring income options:
 - Monthly retainer for ongoing compliance/sourcing support (£200-500/mo)
 - Commission on supplier referrals
 - White-label website maintenance monthly fee
 - "Certified Supplier" badge — annual fee for graduates
+
+#### Managed Web Hosting (included service line)
+Hosting sold as part of the B2B setup package, and as a standalone recurring product for
+graduates and other peptide/E-comm clients.
+- **What's included:** UK-based managed hosting, SSL, daily backups, uptime monitoring,
+  security patching, CDN.
+- **Positioning:** the client never touches a server. This is the "done for you" layer on
+  top of the site build.
+- **Pricing:** recurring monthly (£30-100/mo depending on plan) — sits naturally alongside
+  the white-label maintenance fee.
+- **Why it matters:** turns the one-off build into recurring revenue and gives a reason to
+  stay in contact with the client, which feeds the retainer and badge upsells.
+- **Blocker/clarify:** decide the hosting stack + margin before selling. Do NOT sell
+  hosting on a reseller plan that can't absorb traffic spikes.
+
+#### Free Rebuild Guarantee (if the site goes down)
+A guaranteed rebuild/restore commitment offered with the B2B package — a trust signal that
+de-risks the purchase.
+- **What it promises:** if the client's site goes down and cannot be restored, we rebuild it
+  free of charge, back to the last working state.
+- **Backed by:** the daily backups + uptime monitoring in the managed hosting line. Without
+  those, this promise is uninsurable — hosting must be in place first.
+- **Scope must be written down:** what counts as "down", the restore time target, what is
+  covered (site + content + products) and what isn't (client's own DNS/domain failures,
+  third-party payment gateway outages, force majeure).
+- **Price it in:** this guarantee is a selling point, not a freebie. It should be reflected
+  in the package price / retainer.
+- **Marketing use:** strongest single trust line for cold outreach — "we host it, and if it
+  ever goes down we rebuild it free."
+- **Legal:** must appear in the B2B T&Cs with the exact scope and exclusions defined.
 
 ### B2C Protocol Service (Research Use Only)
 A service where users submit details (goals, weight, height, experience level) and receive a personalised research protocol framework — compounds to study, dosages, cycle length, stacking suggestions. Priced per protocol or subscription.
