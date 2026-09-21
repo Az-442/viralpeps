@@ -6872,5 +6872,113 @@
     "compoundSlug": "semax",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/semax-peptide",
     "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-21T08:44:07.295Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/semax-peptide",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-21T08:44:11.340Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/semax-peptide",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-21T08:48:35.109Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-10mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "ebc439f4f0e99217"
+  },
+  {
+    "ts": "2026-09-21T08:48:40.759Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://vialverse.com/peptides/tb-500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "c0a11ef8e0ddf312"
+  },
+  {
+    "ts": "2026-09-21T08:49:21.123Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/",
+    "visitorId": "fa230e0a31beb326"
+  },
+  {
+    "ts": "2026-09-21T08:53:23.544Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "thymosin-beta-4-tb500-10mg",
+    "destUrl": "https://claripep.co.uk/product/tb-500-10mg/",
+    "visitorId": "7050b449563bf853"
+  },
+  {
+    "ts": "2026-09-21T09:00:03.366Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "6df0e1244f90c81f"
+  },
+  {
+    "ts": "2026-09-21T09:01:41.035Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptx.co.uk/single-vials/glutathione",
+    "visitorId": "452fae3e84a6ad0a"
+  },
+  {
+    "ts": "2026-09-21T09:09:18.722Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-21T09:09:20.574Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-21T09:09:22.149Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-21T09:22:00.432Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "visitorId": "4c57b1b3a580035e"
   }
 ]
