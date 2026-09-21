@@ -4517,5 +4517,194 @@
     "destUrl": "https://pslabs.uk/products/cag",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "8cdb848b7caeb040"
+  },
+  {
+    "ts": "2026-09-21T01:14:04.260Z",
+    "type": "vendor-site",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "destUrl": "https://www.buyreta.co.uk",
+    "visitorId": "9214165635f1745a"
+  },
+  {
+    "ts": "2026-09-21T01:14:25.971Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ss-31-elamipretide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0488e861b2ef385e"
+  },
+  {
+    "ts": "2026-09-21T01:19:22.891Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://pslabs.uk/products/klow-80mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "f2d88d8e6305d2ce"
+  },
+  {
+    "ts": "2026-09-21T01:19:33.827Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/semax/",
+    "visitorId": "219be771da1d08e2"
+  },
+  {
+    "ts": "2026-09-21T01:19:39.703Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://pioneerpeptides.co.uk/products/cjc-1295-with-dac/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "79b99a2ef616b092"
+  },
+  {
+    "ts": "2026-09-21T01:21:01.633Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-research-peptide",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "732acd9ad146b1a8"
+  },
+  {
+    "ts": "2026-09-21T01:21:01.674Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptx.co.uk/single-vials/pe-22-28",
+    "visitorId": "3a23862546039ef7"
+  },
+  {
+    "ts": "2026-09-21T01:27:51.882Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://pioneerpeptides.co.uk/products/dermorphin/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "8cdb848b7caeb040"
+  },
+  {
+    "ts": "2026-09-21T01:28:18.639Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial",
+    "visitorId": "decb1310f736feae"
+  },
+  {
+    "ts": "2026-09-21T01:30:04.632Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6",
+    "visitorId": "a8295b13319c0926"
+  },
+  {
+    "ts": "2026-09-21T01:30:05.994Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-09-21T01:30:07.543Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-21T01:32:20.777Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://pslabs.uk/products/semax-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "8cdb848b7caeb040"
+  },
+  {
+    "ts": "2026-09-21T01:32:47.698Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "670bc1060e167882"
+  },
+  {
+    "ts": "2026-09-21T01:34:51.134Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://evolvepeptides.uk/products/tb-500-5mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d7fa232cd34be2e7"
+  },
+  {
+    "ts": "2026-09-21T01:36:05.083Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "nad-500mg",
+    "destUrl": "https://pslabs.uk/products/nad-500mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "08d29de9211c38d0"
+  },
+  {
+    "ts": "2026-09-21T01:37:28.241Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/bpc-157-5mg",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-21T01:40:00.472Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/melanotan-2/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "930147f15f831823"
+  },
+  {
+    "ts": "2026-09-21T01:40:16.575Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "16baa1ab78ea9bd2"
+  },
+  {
+    "ts": "2026-09-21T01:44:02.572Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://fatpigpeptides.co.uk/product/bpc-157/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "dadcef7a7e617c87"
   }
 ]
