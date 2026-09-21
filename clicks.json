@@ -5210,5 +5210,223 @@
     "vendorName": "Ascend Peptides UK",
     "destUrl": "https://ascendpeptidesuk.com",
     "visitorId": "ecea98a4d2e49271"
+  },
+  {
+    "ts": "2026-09-21T03:27:41.948Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://fatpigpeptides.co.uk/product/tb500-5mg-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "9097c9c7d0f02999"
+  },
+  {
+    "ts": "2026-09-21T03:28:54.487Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9af1b845be070079"
+  },
+  {
+    "ts": "2026-09-21T03:28:57.100Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4980445e6f84965e"
+  },
+  {
+    "ts": "2026-09-21T03:29:10.406Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/semax/",
+    "visitorId": "eed7ba0d6454ffce"
+  },
+  {
+    "ts": "2026-09-21T03:31:34.279Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://apexpure.co.uk/product/cagrilintide-uk/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c5f9651060d1298b"
+  },
+  {
+    "ts": "2026-09-21T03:31:48.910Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://pioneerpeptides.co.uk/products/kisspeptin-10/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b117cf341eddfdc2"
+  },
+  {
+    "ts": "2026-09-21T03:31:59.864Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.revexa.co.uk/product-page/tb-500-5mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "79b99a2ef616b092"
+  },
+  {
+    "ts": "2026-09-21T03:33:26.431Z",
+    "type": "vendor-site",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "destUrl": "https://evolvepeptides.uk",
+    "visitorId": "0746e811401fcc4d"
+  },
+  {
+    "ts": "2026-09-21T03:34:32.176Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptx.co.uk/single-vials/dsip",
+    "visitorId": "f50d965ccbc79c4e"
+  },
+  {
+    "ts": "2026-09-21T03:34:32.368Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptx.co.uk/single-vials/5-amino-1mq",
+    "visitorId": "6dc452224f74919a"
+  },
+  {
+    "ts": "2026-09-21T03:35:19.641Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-21T03:35:22.534Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "c79d04c6c882849e"
+  },
+  {
+    "ts": "2026-09-21T03:35:23.855Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-21T03:37:35.111Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "f5b9d361218062ea"
+  },
+  {
+    "ts": "2026-09-21T03:38:41.813Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "destUrl": "https://pioneerpeptides.co.uk/products/klow-blend/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "f153a890420a2f5a"
+  },
+  {
+    "ts": "2026-09-21T03:40:07.790Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "semax-the-peptide-company",
+    "destUrl": "https://ukpeptidelab.co.uk/product/semax",
+    "visitorId": "8e2a211e35ef307e"
+  },
+  {
+    "ts": "2026-09-21T03:42:31.790Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "59ee148adc79232f"
+  },
+  {
+    "ts": "2026-09-21T03:42:34.789Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8d2a0759ad5878cc"
+  },
+  {
+    "ts": "2026-09-21T03:44:55.033Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://pioneerpeptides.co.uk/products/cartalax/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "06f42a8a460527ea"
+  },
+  {
+    "ts": "2026-09-21T03:49:22.762Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/glow-blend-70mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e4ce638f62afcc05"
+  },
+  {
+    "ts": "2026-09-21T03:52:39.576Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ipamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "2cc19e46c860891a"
+  },
+  {
+    "ts": "2026-09-21T03:52:40.404Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://pioneerpeptides.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4add3a45fc74722a"
+  },
+  {
+    "ts": "2026-09-21T03:55:14.291Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/nad-500mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "21ba4c720b384e95"
   }
 ]
