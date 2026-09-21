@@ -7667,5 +7667,90 @@
     "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "e18ff76e7b804129"
+  },
+  {
+    "ts": "2026-09-21T12:31:29.269Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "17c0763d8652f1fe"
+  },
+  {
+    "ts": "2026-09-21T12:34:47.400Z",
+    "type": "vendor-site",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "destUrl": "https://pioneerpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a499cb42d8938c6b"
+  },
+  {
+    "ts": "2026-09-21T12:35:47.143Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b8bd9958f25d3679"
+  },
+  {
+    "ts": "2026-09-21T12:35:49.377Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ec92f9c160a39406"
+  },
+  {
+    "ts": "2026-09-21T12:42:16.005Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-21T12:42:18.332Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://helixcore.co.uk/products/bpc-157-tb-500-blend",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "47da8b237a6c17c9"
+  },
+  {
+    "ts": "2026-09-21T12:42:19.669Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-09-21T12:42:22.660Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-21T13:01:59.487Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "visitorId": "5021b45458749f19"
   }
 ]
