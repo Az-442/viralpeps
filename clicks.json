@@ -6518,5 +6518,88 @@
     "compoundSlug": "ss-31-10mg",
     "destUrl": "https://pslabs.uk/products/ss31-10mg",
     "visitorId": "56e02fd881112fe8"
+  },
+  {
+    "ts": "2026-09-21T07:05:38.671Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-09-21T07:05:41.085Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-21T07:05:42.899Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mot-c-10mg-mitochondrial-fragment",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-21T07:11:20.286Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://purepeptidesuk.com/product/fragment-176-191-2mg/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-21T07:11:21.834Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://purepeptidesuk.com/product/fragment-176-191-2mg/",
+    "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-21T07:11:23.603Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://purepeptidesuk.com/product/fragment-176-191-2mg/",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-09-21T07:15:51.718Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-tb500-10mg-pentadecape-beta-4",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "52db02d162a7adbf"
+  },
+  {
+    "ts": "2026-09-21T07:15:53.727Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-tb500-10mg-pentadecape-beta-4",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a67fc61f666c3c42"
+  },
+  {
+    "ts": "2026-09-21T07:20:04.219Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.buyreta.co.uk/product/cjc-1295-no-dac-uk",
+    "visitorId": "ee46fad8651428c3"
   }
 ]
