@@ -6980,5 +6980,15 @@
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk",
     "visitorId": "4c57b1b3a580035e"
+  },
+  {
+    "ts": "2026-09-21T09:52:12.560Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biotideuk.com/products/thymosin-alpha-1",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f50f86c3ac0d7cc0"
   }
 ]
