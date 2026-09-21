@@ -5438,5 +5438,253 @@
     "destUrl": "https://apexpure.co.uk/product/nad-uk/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "5b6cf2614567e273"
+  },
+  {
+    "ts": "2026-09-21T04:04:22.351Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://olresearch.co.uk/product/tb-500-10mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-21T04:04:23.735Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://olresearch.co.uk/product/tb-500-10mg/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-21T04:04:25.473Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://olresearch.co.uk/product/tb-500-10mg/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-21T04:06:04.620Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "premium-ghk-cu-50mg",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "56d0aaf9d9eebc7e"
+  },
+  {
+    "ts": "2026-09-21T04:09:21.132Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.revexa.co.uk/product-page/tirzepatide-research-grade-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7894e88237f8563b"
+  },
+  {
+    "ts": "2026-09-21T04:10:31.386Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "visitorId": "76c83d6c49d59c16"
+  },
+  {
+    "ts": "2026-09-21T04:11:44.388Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://nupex.co.uk/products/buy-ss-31-research-peptides",
+    "visitorId": "9717093adf67dc59"
+  },
+  {
+    "ts": "2026-09-21T04:11:45.905Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://nupex.co.uk/products/buy-ss-31-research-peptides",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-21T04:11:47.332Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://nupex.co.uk/products/buy-ss-31-research-peptides",
+    "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-09-21T04:13:02.609Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/mots-c-20mg",
+    "visitorId": "91a0652543d02639"
+  },
+  {
+    "ts": "2026-09-21T04:14:38.869Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pioneerpeptides.co.uk/products/bpc-157/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c4fbadee17fe5d43"
+  },
+  {
+    "ts": "2026-09-21T04:16:07.324Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "5-amino-1mq-50mg",
+    "destUrl": "https://pslabs.uk/products/5-amino-1mq-50mg",
+    "visitorId": "eb35fc6d7e2c60f8"
+  },
+  {
+    "ts": "2026-09-21T04:16:07.414Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "destUrl": "https://thepeptidecompany.co.uk",
+    "visitorId": "e0bd6fea2cf88ee9"
+  },
+  {
+    "ts": "2026-09-21T04:18:10.306Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://pslabs.uk/products/mt-1-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4060ca867bfa32bc"
+  },
+  {
+    "ts": "2026-09-21T04:19:24.776Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "oxytocin-acetate",
+    "destUrl": "https://peptx.co.uk/single-vials/oxytocin-acetate",
+    "visitorId": "dbf80abbad17dcaf"
+  },
+  {
+    "ts": "2026-09-21T04:21:28.809Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/tb-500-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "2ad627afcb5dcf9e"
+  },
+  {
+    "ts": "2026-09-21T04:25:17.880Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com",
+    "visitorId": "661393ba79187d69"
+  },
+  {
+    "ts": "2026-09-21T04:26:24.932Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "chonliten",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-chonliten-10mg/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-21T04:26:26.528Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "chonliten",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-chonliten-10mg/",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-09-21T04:26:28.312Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "chonliten",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-chonliten-10mg/",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-21T04:29:13.464Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ahk-cu-100mg",
+    "destUrl": "https://pslabs.uk/products/ahk-cu-100mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "304e9068bac4cd01"
+  },
+  {
+    "ts": "2026-09-21T04:29:32.730Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/kisspeptin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "185b104f22a697bc"
+  },
+  {
+    "ts": "2026-09-21T04:30:39.455Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/slu-pp-322-20mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "1d33b2e2bd2885d5"
+  },
+  {
+    "ts": "2026-09-21T04:33:47.576Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-21T04:33:49.859Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-21T04:33:52.159Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-21T04:34:09.771Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/uncategorized/kpv-20mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0706df97d7afac70"
   }
 ]
