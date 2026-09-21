@@ -176,22 +176,6 @@
         "dosage": "5mg\u00d710vials"
       },
       {
-        "vendor": "ThePeptideCode",
-        "url": "https://thepeptidecode.co.uk/products/tirzepatide-20mg",
-        "price": "\u00a343.20",
-        "inStock": true,
-        "image": "/images/products/the-peptide-code/tirzepatide-20mg.png",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "ThePeptideCode",
-        "url": "https://thepeptidecode.co.uk/products/tirzepatide-30mg",
-        "price": "\u00a370.00",
-        "inStock": true,
-        "image": "/images/products/the-peptide-code/tirzepatide-30mg.jpg",
-        "dosage": "30mg"
-      },
-      {
         "vendor": "Raw Peptides",
         "url": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/",
         "price": "\u00a3110.00",
@@ -2621,13 +2605,6 @@
         "price": "\u00a358.99",
         "inStock": true,
         "image": "https://peptideslabuk.com/wp-content/uploads/2025/07/Melanotan_2_Acetate-470x588.jpg",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Biohack Peptides",
-        "url": "",
-        "price": "\u00a319.99",
-        "inStock": true,
         "dosage": "10mg"
       },
       {

@@ -1,11 +1,12 @@
 {
-  "captured_at": "2026-09-14",
+  "captured_at": "2026-09-21",
   "source": "https://viralpeps.co.uk",
-  "status": "HELD — MailerLite account 2509467 status=terminated; POST /api/campaigns returns 403 'Not available on closed or terminated account'",
+  "status": "HELD — MailerLite account 2509467 status=terminated (updated_at frozen 2026-08-14); POST /api/campaigns returns HTTP 403 'Not available on closed or terminated account'. Weekly newsletter NOT sent on 2026-09-21. No alternative ESP configured — .env.local holds only MAILERLITE_API_KEY, SMTP_USER, INFO_EMAIL.",
   "site_stats": {
-    "peptides_tracked": 134,
-    "verified_suppliers": 81,
-    "prices_updated": "daily"
+    "peptides_tracked": 154,
+    "verified_suppliers": 88,
+    "prices_updated": "daily",
+    "audience": "All Subscribers segment 193155917484656413 — 7 subscribers, 43.75% open rate"
   },
   "deals": [
     { "compound": "GHK-Cu", "dosage": "5mg", "supplier": "Nupex", "original": "£350.00", "current": "£6.48", "save": "£343.52", "pct": "98%", "slug": "ghk-cu" },

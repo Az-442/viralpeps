@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-14",
+  "scraped_at": "2026-09-21",
   "source": "https://viralpeps.co.uk (Top deals of the day)",
-  "note": "Deals captured while MailerLite account was TERMINATED. Ready to send once account is reinstated.",
+  "note": "Deals captured while MailerLite account was TERMINATED. Ready to send once account is reinstated. Slugs verified 200 on 2026-09-21.",
   "deals": [
     { "compound": "GHK-Cu", "dosage": "5mg", "supplier": "Nupex", "original": "£350.00", "current": "£6.48", "save": "£343.52", "pct": "98%", "slug": "ghk-cu" },
     { "compound": "Ipamorelin", "dosage": "300mcg", "supplier": "Research Peptides", "original": "£199.99", "current": "£6.99", "save": "£193.00", "pct": "97%", "slug": "ipamorelin" },
