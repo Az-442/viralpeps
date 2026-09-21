@@ -9325,5 +9325,43 @@
     "destUrl": "https://pioneerpeptides.co.uk/products/ahk-cu/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "afaf1d517eb18161"
+  },
+  {
+    "ts": "2026-09-21T20:40:30.024Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://vialverse.com/peptides/matrixyl",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-21T20:50:26.535Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1899935202b052ff"
+  },
+  {
+    "ts": "2026-09-21T20:50:28.758Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e85ea26e0a6fe78a"
+  },
+  {
+    "ts": "2026-09-21T20:54:14.736Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen",
+    "visitorId": "21616305aa6c4d35"
   }
 ]
