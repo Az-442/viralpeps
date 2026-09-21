@@ -6190,5 +6190,142 @@
     "compoundSlug": "selank-5mg",
     "destUrl": "https://alphamino.co.uk/shop/selank/",
     "visitorId": "35c402ccdfdf0dbd"
+  },
+  {
+    "ts": "2026-09-21T05:35:11.789Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-40mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "89b166bfa8a84c67"
+  },
+  {
+    "ts": "2026-09-21T05:37:01.466Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "cda649a28a95f73e"
+  },
+  {
+    "ts": "2026-09-21T05:41:07.037Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-5mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "a5d43ce0fefed2ae"
+  },
+  {
+    "ts": "2026-09-21T05:45:17.162Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/",
+    "visitorId": "318065f059ee2d1f"
+  },
+  {
+    "ts": "2026-09-21T05:48:29.792Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "808a4580813ad1f9"
+  },
+  {
+    "ts": "2026-09-21T05:48:31.683Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "91d518ba2f10ac0c"
+  },
+  {
+    "ts": "2026-09-21T05:51:24.688Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-21T05:51:29.771Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-09-21T05:51:33.809Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-09-21T05:52:26.535Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "c81b41542232faee"
+  },
+  {
+    "ts": "2026-09-21T06:02:46.514Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-09-21T06:02:48.172Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-21T06:02:50.256Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/",
+    "visitorId": "0e631e2a276ba2af"
+  },
+  {
+    "ts": "2026-09-21T06:04:12.732Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8-argireline-10mg",
+    "destUrl": "https://apexpure.co.uk/product/argireline-uk-acetyl-hexapeptide-8-10mg/",
+    "visitorId": "f153a890420a2f5a"
+  },
+  {
+    "ts": "2026-09-21T06:08:30.989Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "08fd37fa0ae200e2"
   }
 ]
