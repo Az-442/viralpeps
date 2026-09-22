@@ -115,11 +115,56 @@ Commit: `994d4846` · pushed to main (0 unpushed).
 
 ---
 
+## Day 6 — Mon 21 Sep (3 articles) ✅ DONE
+Completed 22 Sep 03:00 by daily blog cron (main branch, direct).
+
+- `cardiogen-suppliers-uk` — cardiogen suppliers UK (suppliers) — section: research-hub
+- `buy-melanotan-ii-uk` — buy melanotan ii UK (buy) — section: research-hub, compoundSlug: melanotan-ii
+- `research-peptides-for-sale-uk` — research peptides for sale UK (pillar) — section: research-hub
+
+Cards:
+- `public/images/guides/cardiogen-suppliers-uk.png` — Pillow single-vial (Cardiogen vial)
+- `public/images/guides/buy-melanotan-ii-uk.png` — Pillow single-vial (Melanotan II vial)
+- `public/images/guides/research-peptides-for-sale-uk.png` — photorealistic AI base + Pillow chrome.
+  Base reused from the approved Day-4 FAL Flux 2 photo because **`image_generate` is NOT available
+  in this cron session's toolset** — a fresh generation was not possible inside the job. The base
+  is compound-neutral and unbranded apart from the VIRALPEPS wordmark, which suits a
+  market-structure pillar. Regenerate and replace if a dedicated generation becomes possible.
+
+Card scripts: `scripts/make_kw_phase1_day7_cards.py` (2 compound cards, shared Pillow template)
+and `scripts/compose_kw_day7_photo_card.py` (pillar, Pillow chrome over photorealistic base).
+
+Word counts (visible body: sections + subsections + pullQuote + FAQ):
+3,002 / 2,941 / 3,024
+
+Build: passed (153/153 pages). All 20 internal links verified against `compounds.json` slugs and
+existing `research-content.ts` keys — 0 broken. All 31 PMIDs verified individually via NCBI
+E-utilities esummary (author, journal, title, year checked — none guessed). All 3 guide card
+`image:` refs cross-checked against disk: OK.
+
+### ⚠️ Lessons from this run
+1. **`write_file` doubles `\'` escapes in /tmp fragments** (confirmed again). Every fragment needed
+   a raw-byte normalisation pass (`\\'` → `\'`) before merging, or the build fails with
+   `Expected ',', got 'ident'` at the apostrophe. `references/write_file-escape-doubling.md` is
+   right. Always run the normaliser on every fragment.
+2. **Do NOT add a `.replace("\\'", "'")` "guard" in the merge script.** That was the actual cause of
+   the first build failure this run: it stripped correct escapes from the merged content, producing
+   the same parse error. Assert the absence of doubled escapes; never transform them in the merge.
+3. **The `research-content.ts` seam form in the Day-4 note is WRONG for the current file.** The
+   working seam is a TWO-SPACE indent before `]`:
+   `'\n  ],\n},\n\n};\nexport default content;'` (matches exactly once).
+   The Day-4 note's `'],\n}\n\n};'` form matches 0 times.
+4. **`image_generate` unavailable in cron.** Non-compound guides cannot get a fresh photorealistic
+   FAL base from inside the job — reuse an approved existing base and re-compose the chrome.
+
+---
+
 ## Next up
-**Day 6 — Mon 21 Sep (3 articles)**
-- `cardiogen-suppliers-uk` — cardiogen suppliers UK (suppliers)
-- `buy-melanotan-ii-uk` — buy melanotan ii UK (buy)
-- `research-peptides-for-sale-uk` — research peptides for sale UK (pillar)
+**Day 7 — Tue 22 Sep (2 articles)**
+- `kpv-deep-dive` — kpv (deep)
+- `epitalon-vs-thymalin` — epitalon (vs)
+
+Neither slug exists yet (verified — 0 matches across BOTH `research-content.ts` and `research.ts`).
 
 ---
 

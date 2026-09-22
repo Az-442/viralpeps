@@ -10948,5 +10948,460 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'cardiogen-suppliers-uk': {
+  slug: 'cardiogen-suppliers-uk',
+  pullQuote: 'The Khavinson bioregulator range has 48 UK vendors carrying Epitalon and 14 carrying Thymalin. Cardiogen has two. That is not a hidden gem waiting to be discovered — it is a compound whose supply base reflects how thin the published evidence actually is. When you are choosing between two listings, there is no market to compare against, and the verification burden shifts entirely onto you.',
+  quickInfo: [
+    {
+      label: 'Compound',
+      value: 'Cardiogen',
+    },
+    {
+      label: 'Compound Type',
+      value: 'Synthetic organ-specific short peptide (Khavinson bioregulator family)',
+    },
+    {
+      label: 'Sequence',
+      value: 'Ala-Glu-Asp-Arg (AEDR)',
+    },
+    {
+      label: 'Molecular Weight',
+      value: '489.5 g/mol',
+    },
+    {
+      label: 'CAS Number',
+      value: 'Not assigned',
+    },
+    {
+      label: 'UK Vendors Tracked',
+      value: '2 suppliers, 2 listings, £24.99–£46.99',
+    },
+    {
+      label: 'Purity / Form',
+      value: '98%+ stated, lyophilised powder',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'Cardiogen Suppliers UK: What This Page Covers',
+      body: 'Cardiogen is one of the smallest compounds tracked on this site, and the supplier landscape reflects that. Two UK vendors carry it. Tide Labs lists a 10 mg vial at £24.99 and BioPlex Peptides lists a 20 mg vial at £46.99. Those are the only two tracked listings in the market as of September 2026.\n\nThat figure needs to be read against the rest of the bioregulator range to mean anything. Epitalon — the tetrapeptide most closely associated with the same research tradition — has 48 UK vendors and 59 tracked listings. Thymalin has 10 vendors. Cardiogen has two.\n\nA suppliers guide for a two-vendor market is a different document from a suppliers guide for Semax or KPV. When 50 vendors carry a compound, the work is comparison: price per milligram, documentation quality, listing maintenance. When two vendors carry it, comparison is impossible and the work becomes verification — establishing what the compound is, what a defensible certificate of analysis looks like for a substance with no assigned CAS number, and whether the listing in front of you is a maintained one or a catalogue placeholder.\n\nThis page covers the AEDR tetrapeptide identity and where it sits in the Khavinson bioregulator framework, why the UK supply base is this thin, the cost-per-milligram arithmetic across the two listings, how to verify a Cardiogen certificate when there is no CAS number to check against, and what the published literature actually supports.\n\nLive listings render on the [**Cardiogen price comparison →**](/compounds/cardiogen-research-peptide). For the supply context this compound sits inside, the [**UK Peptide Directory →**](/research/uk-peptide-directory) covers the vendor landscape, and [**Types of Research Peptides →**](/research/types-of-research-peptides) explains where organ-specific bioregulators sit in the broader catalogue.',
+    },
+    {
+      title: 'What Cardiogen Actually Is: AEDR and the Khavinson Bioregulators',
+      body: 'Cardiogen is a synthetic tetrapeptide with the sequence alanine-glutamic acid-aspartic acid-arginine, abbreviated AEDR. It has a molecular weight of 489.5 g/mol and belongs to a family of short peptides developed in the Khavinson research tradition, in which organ-specific tetrapeptides of three to four residues are studied for tissue-associated regulatory activity.\n\nIt is worth being precise about what that family is and is not, because the framing around it is unusually prone to inflation.',
+      subsections: [
+        {
+          title: 'The bioregulator framework',
+          body: 'The Khavinson compounds — Cardiogen, Cortagen, Pancragen, Pinealon, Vilon, Testagen and others — are short synthetic peptides named for the tissue in which they were originally studied. The naming convention is the source of most of the confusion. A compound called Cardiogen is not a cardiac medicine; it is a tetrapeptide that was reported to show effects in cardiac-derived cell systems and was named accordingly. The name encodes a research hypothesis, not an approved indication.\n\nKhavinson and colleagues set out the mechanistic case in a review of peptide regulation of gene expression, and in a systematic review of short peptides as gene-expression regulators. Later work by the same group examined the transport of a panel of twenty-six biologically active ultrashort peptides through the LAT and PEPT family transporters, which is the closest thing the field has to a pharmacokinetic framework for these compounds ([PMID 36979488](https://pubmed.ncbi.nlm.nih.gov/36979488/)).\n\nThe practical implication is that these peptides are studied as transcription-level signals rather than as receptor agonists. That is a genuinely different research frame from something like a GLP-1 analogue or a melanocortin agonist, and it means the relevant literature is cell-culture and gene-expression work rather than dose-response pharmacology.'
+        },
+        {
+          title: 'The AEDR sequence and its physicochemical limits',
+          body: 'AEDR is four residues and 489.5 g/mol. That size has two consequences worth stating plainly. First, the compound is at the very bottom of the size range at which a peptide can carry specific information — a four-residue chain has limited structural complexity and its binding specificity, if any, must come from the exact sequence rather than from a folded structure. Second, a molecule this small is comparatively inexpensive to synthesise at high purity, which means a high price in this market is not explained by manufacturing cost.\n\nCardiogen has no assigned CAS number. That is not unusual for research peptides that were never commercialised as a registered product, but it does have a concrete effect on the buying decision: you cannot verify a listing by looking up a CAS registry entry, and you cannot compare a supplier\'s stated identity against an authoritative identifier. Identity verification has to be done by mass spectrometry against the expected 489.5 g/mol, and the certificate has to be read on its own terms.'
+        },
+        {
+          title: 'Why the name overstates the evidence',
+          body: 'Every supplier listing Cardiogen faces the same tension: the compound name asserts a cardiac association, and the evidence base behind that association is preclinical, Russian-language and small. Chalisova and colleagues studied the effect of AEDR on organotypic myocardial tissue cultures taken from young and aged rats ([PMID 20210190](https://pubmed.ncbi.nlm.nih.gov/20210190/)), and a follow-up by the same group examined amino acid combinations on myocardium culture development ([PMID 22448367](https://pubmed.ncbi.nlm.nih.gov/22448367/)). Zakutskii and colleagues reported tissue-specific effects of synthetic peptide bioregulators in organotypic culture from young and old rats ([PMID 17152728](https://pubmed.ncbi.nlm.nih.gov/17152728/)).\n\nThose are cell-culture observations in tissue explants. They are a legitimate starting point for research interest. They are not a clinical evidence base, and a supplier who presents Cardiogen as a cardiac research tool with established effects in vivo is describing something the literature does not contain.'
+        },
+      ]
+    },
+    {
+      title: 'Why the UK Supply Base Is Only Two Vendors',
+      body: 'Two vendors out of a tracked market of 89 suppliers is an extreme outlier even among the obscure compounds. Understanding why explains what kind of market you are buying into.',
+      subsections: [
+        {
+          title: 'Demand concentrates on a handful of names',
+          body: 'The listing distribution on this site is heavily skewed. GHK-Cu appears in 110 listings across 82 vendors, BPC-157 in 104 across 79, and Epitalon in 59 across 48. The compounds that dominate are the ones with the largest and most accessible evidence bases, and vendor catalogue decisions follow search demand rather than research merit.\n\nCardiogen sits on the wrong side of that divide. It is short, cheap to synthesise, and easy to stock — the barrier to listing it is low. The reason so few vendors do is that almost nobody searches for it. In a market where a vendor invests in photography, a certificate of analysis and a product page, listing a compound that sells a few vials a year is not worth the shelf space.\n\nThat has a direct consequence for the buyer: the two vendors who do carry it are not competing on price in any meaningful sense, because there is no third listing to undercut.'
+        },
+        {
+          title: 'The synthesis and sourcing question',
+          body: 'A four-residue peptide is straightforward to produce. There is no formulation challenge, no cold-chain complexity beyond what applies to any lyophilised peptide, and no supply constraint that would explain scarcity. The constraint is commercial, not technical.\n\nWhere scarcity does create risk is in provenance. A vendor carrying a compound they sell rarely has a weaker incentive to hold a current batch certificate and to refresh it. The listing may be perfectly maintained. It may also be a catalogue entry created once and never revisited. The only way to tell the difference is to ask for the batch-matched document and see what comes back.'
+        },
+      ]
+    },
+    {
+      title: 'The Cardiogen Price Structure: Two Listings and a Cost-Per-Milligram Trap',
+      body: 'The two tracked listings are £24.99 for a 10 mg vial from Tide Labs and £46.99 for a 20 mg vial from BioPlex Peptides. On sticker price, the second looks like roughly double the first. On cost per milligram, the ranking reverses.\n\nAt £24.99 for 10 mg, the first listing works out at £2.50 per milligram. At £46.99 for 20 mg, the second works out at £2.35 per milligram. The larger vial is about 6% cheaper per milligram despite carrying a sticker price nearly twice as high.\n\nThat is a small difference and it is worth saying so — this is not a dramatic spread, and a six per cent gap does not by itself justify choosing one listing over the other. The point is that the sticker-price comparison, which is what almost every buyer does first, gives the wrong answer. In a two-listing market there is no median to anchor against, so the per-milligram calculation is the only comparison available.\n\nThere is a second reason the arithmetic matters here. Because Cardiogen listings are rare, a prospective buyer has no reference point for what the compound should cost. Epitalon, with 59 tracked listings, has a median 10 mg price of £18.00 and an established floor of £11.95 — the market itself provides a sanity check. Cardiogen has no such anchor. The two listings are the market, and a buyer who does not compute cost per milligram has no basis at all for judging whether £24.99 is reasonable.\n\nLive figures: [**Cardiogen price comparison →**](/compounds/cardiogen-research-peptide).',
+    },
+    {
+      title: 'Verifying a Cardiogen Listing With No CAS Number to Check Against',
+      body: 'Buying a compound with no assigned CAS number changes the verification workflow. The usual short-cut — look up the registry entry, compare the supplier\'s stated identity against the authoritative record — is not available. Everything therefore rests on the certificate and on the identity method used to produce it.\n\nFour checks matter, in order of how often they catch a problem.',
+      subsections: [
+        {
+          title: 'Mass spectrometry against 489.5 g/mol',
+          body: 'Because there is no CAS number, mass spectrometry is the primary identity check rather than a secondary one. The certificate should show an observed mass matching the theoretical 489.5 g/mol for AEDR, with the method stated — typically electrospray ionisation in positive mode, in which case the reported species will be the protonated or sodiated ion rather than the neutral mass.\n\nA certificate that reports a purity percentage with no mass figure is not an identity document. Purity and identity are different measurements, and for a four-residue peptide a purity number alone tells you how much of the material is the target compound by chromatographic area, not that the target compound is what the label says.'
+        },
+        {
+          title: 'A batch number that matches the vial',
+          body: 'This is the highest-value check and it costs one email. Ask for the certificate for the specific batch you will receive — not a generic certificate, not one from a previous batch, not a screenshot of a certificate on a product page. Then confirm the batch identifier on the certificate matches the identifier on the vial label when it arrives.\n\nA supplier who cannot produce a batch-matched document for a rarely sold compound is often a supplier who has not ordered a fresh batch recently. That is not automatically disqualifying, but it is information.'
+        },
+        {
+          title: 'A named testing laboratory and a recent date',
+          body: 'The certificate should name the laboratory that performed the analysis and should be third-party rather than in-house. It should carry a date. For a compound with a thin supply base, a certificate dated three years ago describes a batch that has almost certainly been superseded, and there is no reason to accept it as evidence about the material in front of you.\n\nThe general standard for reading these documents is set out in the [**How to Read a COA →**](/research/how-to-read-a-coa) guide.'
+        },
+        {
+          title: 'Claim discipline on the product page',
+          body: 'A supplier\'s product copy is a proxy for how carefully they treat the rest of their documentation. With a compound named for a tissue, the temptation to write marketing copy around cardiac effects is strong. Where a product page describes Cardiogen in terms of established effects on heart tissue, or implies a clinical application, that is a page written for conversion rather than accuracy — and it is reasonable to apply the same scepticism to the certificate.'
+        },
+      ]
+    },
+    {
+      title: 'Where the Cardiogen Evidence Stands',
+      body: 'The published literature on Cardiogen is small, preclinical, and largely published in Russian-language gerontology journals. That is not a reason to dismiss it, but it is essential context for anyone considering the compound.\n\nChalisova and colleagues reported that AEDR and related amino acid combinations affected the development of organotypic myocardial tissue cultures from young and aged rats ([PMID 20210190](https://pubmed.ncbi.nlm.nih.gov/20210190/), [PMID 22448367](https://pubmed.ncbi.nlm.nih.gov/22448367/)). The same research group reported tissue-specific effects of synthetic peptide bioregulators in organotypic culture across age groups ([PMID 17152728](https://pubmed.ncbi.nlm.nih.gov/17152728/)). These are ex vivo tissue-culture experiments, and the reported readouts concern cell proliferation and tissue development in the explant system.\n\nKhavinson and colleagues later placed these compounds in a broader regulatory framework. The transport study established that a panel of twenty-six ultrashort peptides, including members of this family, are substrates for the LAT and PEPT family transporters ([PMID 36979488](https://pubmed.ncbi.nlm.nih.gov/36979488/)) — a mechanistically useful finding because it offers a route by which a four-residue peptide could enter cells at all. A separate review examined the senescence-associated secretory phenotype in cardiovascular cells and the perspective of peptide regulation ([PMID 36611900](https://pubmed.ncbi.nlm.nih.gov/36611900/)).\n\nFor a useful comparison within the family, Anisimov and colleagues used microarray analysis to examine the effect of the brain-cortex tetrapeptide Cortagen on gene expression in mouse heart ([PMID 15159690](https://pubmed.ncbi.nlm.nih.gov/15159690/)). That paper is instructive in two directions: it demonstrates that the family\'s research programme does produce tissue-level gene-expression data, and it shows how small those experiments are.\n\nThe honest summary is that Cardiogen has a mapped research tradition, ex vivo tissue-culture data, and a mechanistic transport paper. It does not have in vivo efficacy data in the English-language literature, it does not have a clinical programme, and it has no assigned CAS number. A supplier presenting it as a characterised cardiac research tool is working ahead of the evidence.\n\nThis is not a judgement on the compound. It is a statement about what a research-use-only purchase can and cannot be justified by, and the [**Epitalon for Longevity →**](/research/epitalon-for-longevity) guide applies the same standard to a compound with a far larger literature.',
+    },
+    {
+      title: 'Choosing a Cardiogen Supplier: The Checklist',
+      body: 'Five checks, adapted for a market with only two listings.\n\nFirst, compute cost per milligram rather than comparing sticker prices. £24.99 for 10 mg and £46.99 for 20 mg are £2.50/mg and £2.35/mg respectively. In a market this thin, this calculation is the only comparative tool available.\n\nSecond, confirm the vial size from the structured listing rather than the page headline, and confirm it again on dispatch. With no third listing to cross-check against, a size discrepancy has nothing to reveal it.\n\nThird, request the batch-matched certificate and verify the identity figure against 489.5 g/mol. Because Cardiogen has no CAS number, mass spectrometry is the only identity check available and it cannot be substituted with a purity percentage.\n\nFourth, read the supplier\'s product copy for claim discipline. A listing that frames a preclinical tetrapeptide in terms of established cardiac effects has told you something about the standard applied elsewhere on the page.\n\nFifth, ask directly how much stock they hold and when the current batch was produced. For a compound sold this rarely, that question separates a vendor who keeps it on the shelf from a vendor whose catalogue entry is a placeholder.\n\nFor the wider vendor context, the [**UK Peptide Directory →**](/research/uk-peptide-directory) covers how the UK supply base is structured, and [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk) sets out the general sourcing standard. The closest compounds by both mechanism and supply profile are [**Epitalon →**](/compounds/epitalon), with 48 vendors, and [**Thymalin →**](/compounds/thymalin), with 10.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Cardiogen is carried by two UK vendors: Tide Labs at £24.99 for 10 mg and BioPlex Peptides at £46.99 for 20 mg. Those are the only tracked listings in the market, against 59 for Epitalon and 14 for Thymalin. The supply base is thin for commercial reasons, not technical ones — a four-residue peptide is cheap to make and easy to stock, and almost nobody searches for it.\n\nThe buying consequence is that the per-milligram calculation is the only comparison available, and it reverses the sticker-price ranking: the £46.99 twenty-milligram vial is about £2.35/mg against £2.50/mg for the £24.99 ten-milligram vial.\n\nThe verification consequence is larger. Cardiogen has no assigned CAS number, so mass spectrometry against 489.5 g/mol is the primary identity check and a purity percentage cannot substitute for it. The batch-matched certificate and the vial label are the only corroborating documents you will have.\n\nThe evidence position is worth stating without decoration. Cardiogen has ex vivo myocardial tissue-culture data from the Chalisova group, a mechanistically relevant transport paper from the Khavinson group, and a research tradition that has produced tissue-level gene-expression work for comparable family members. It has no English-language in vivo efficacy data and no clinical programme. It is a research-use-only material with a small literature and a two-supplier market.\n\nFor the live listings, [**compare Cardiogen prices from UK suppliers →**](/compounds/cardiogen-research-peptide).',
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK suppliers stock Cardiogen?',
+      answer: 'Two UK vendors carry Cardiogen in the tracked market as of September 2026: Tide Labs lists a 10 mg vial at £24.99 and BioPlex Peptides lists a 20 mg vial at £46.99. That makes Cardiogen one of the thinnest supply bases on the site, against 48 vendors for Epitalon and 10 for Thymalin.'
+    },
+    {
+      question: 'Is Cardiogen a licensed medicine in the UK?',
+      answer: 'No. Cardiogen has no UK marketing authorisation and is not a licensed medicine. It is a synthetic tetrapeptide researched in laboratory settings and supplied in the UK under research-use-only framing. A supplier implying a clinical or licensed status is misrepresenting the compound.'
+    },
+    {
+      question: 'Why does Cardiogen have no CAS number?',
+      answer: 'Cardiogen (AEDR) was never commercialised as a registered chemical or medicinal product, so no CAS registry number was assigned. That removes the usual cross-check against an authoritative identifier and makes mass spectrometry, matched against the expected 489.5 g/mol, the primary identity verification method.'
+    },
+    {
+      question: 'Is the 20 mg Cardiogen vial better value than the 10 mg vial?',
+      answer: 'In the currently tracked market, yes on a per-milligram basis. Tide Labs at £24.99 for 10 mg works out at £2.50 per milligram; BioPlex Peptides at £46.99 for 20 mg works out at about £2.35 per milligram. The difference is modest — around six per cent — but it reverses the sticker-price ranking.'
+    },
+    {
+      question: 'What should I check on a Cardiogen certificate of analysis?',
+      answer: 'Mass spectrometry showing an observed mass consistent with 489.5 g/mol, HPLC purity with the chromatogram supplied rather than just a percentage, a batch number matching the vial label, a named third-party testing laboratory, and a recent date. Because there is no CAS number, the mass figure is the only unambiguous identity check available.'
+    },
+    {
+      question: 'What research has been published on Cardiogen?',
+      answer: 'The literature is preclinical and largely Russian-language. Chalisova and colleagues studied AEDR in organotypic myocardial tissue cultures from young and aged rats. Khavinson and colleagues established that ultrashort peptides including this family are substrates for LAT and PEPT family transporters, and reviewed peptide regulation of the senescence-associated secretory phenotype in cardiovascular cells. There is no English-language in vivo efficacy data and no clinical programme.'
+    },
+  ],
+  references: [
+    'Chalisova NI, Lesniak VV, Balykina NA, et al. [The effect of the amino acids and cardiogen on the development of myocard tissue culture from young and old rats]. Adv Gerontol. 2009;22(3):409-413. PMID 20210190',
+    'Chalisova NI, Smirnoff AV. Effects of amino acid combinations on the development of organotypic culture of the myocardium from young and old rats. Bull Exp Biol Med. 2011 Aug;151(4):446-449. PMID 22448367',
+    'Zakutskiĭ AN, Chalisova NI, Ryzhak GA, et al. [The tissue-specific effect of synthetic peptides-biologic regulators in organotypic tissues culture in young and old rats]. Adv Gerontol. 2006;19:32-36. PMID 17152728',
+    'Khavinson VK, Linkova NS, Rudskoy AI, et al. Feasibility of Transport of 26 Biologically Active Ultrashort Peptides via LAT and PEPT Family Transporters. Biomolecules. 2023 Mar 17;13(3):552. PMID 36979488',
+    'Khavinson V, Linkova N, Dyatlova A, et al. Senescence-Associated Secretory Phenotype of Cardiovascular System Cells and Inflammaging: Perspectives of Peptide Regulation. Cells. 2022 Dec 27;12(1):106. PMID 36611900',
+    'Anisimov SV, Khavinson VKh, Anisimov VN. Elucidation of the effect of brain cortex tetrapeptide Cortagen on gene expression in mouse heart by microarray. Neuro Endocrinol Lett. 2004 Feb-Apr;25(1-2):87-91. PMID 15159690',
+    'Khavinson VK, Popovich IG, Linkova NS, et al. Peptide Regulation of Gene Expression: A Systematic Review. Molecules. 2021 Nov 24;26(23):7053.',
+    'Khavinson VK, Lin\'kova NS, Tarnovskaya SI. Short Peptides Regulate Gene Expression. Bull Exp Biol Med. 2016 Dec;162(2):288-292.',
+    'Lin\'kova NS, Poliakova VO, Trofimov AV, et al. [Influence of peptides from pineal gland on thymus function at aging]. Adv Gerontol. 2010;23(4):539-543. PMID 21510076',
+    'Kuznetsova TA, Besednova NN, Zaporozhets TS, et al. [Comparative study of immunomodulatory activity of peptides, tinrostim and thymalin]. Antibiot Khimioter. 2013;58(7-8):36-39. PMID 24734422',
+  ],
+},
+
+'buy-melanotan-ii-uk': {
+  slug: 'buy-melanotan-ii-uk',
+  compoundSlug: 'melanotan-ii',
+  pullQuote: 'Melanotan II is the most heavily marketed unlicensed peptide in the UK and one of the least honestly described. 46 vendors carry it, the tracked floor is £14.99 for a 10 mg vial, and the market band from £15 to £30 contains almost everything legitimate. What the listings do not tell you is that the compound has no UK marketing authorisation, that supplying it for human consumption is unlawful, and that a large share of the demand driving those 46 listings is cosmetic rather than research-based.',
+  quickInfo: [
+    {
+      label: 'Compound',
+      value: 'Melanotan II',
+    },
+    {
+      label: 'Compound Type',
+      value: 'Cyclic heptapeptide analogue of alpha-melanocyte-stimulating hormone',
+    },
+    {
+      label: 'Sequence',
+      value: 'Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-NH2',
+    },
+    {
+      label: 'Molecular Weight',
+      value: '1024.2 g/mol',
+    },
+    {
+      label: 'CAS Number',
+      value: '121062-08-6',
+    },
+    {
+      label: 'UK Vendors Tracked',
+      value: '46 suppliers, 48 listings, from £14.99',
+    },
+    {
+      label: 'Predominant Presentation',
+      value: '10 mg lyophilised vial (37 of 48 tracked listings)',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'Buy Melanotan II UK: What This Guide Covers',
+      body: 'Melanotan II is one of the most widely stocked compounds on this site and one of the least carefully bought. Forty-six UK vendors carry it across 48 tracked listings, the cheapest tracked 10 mg vial is £14.99, and most of the market sits between £15 and £30. Finding a listing takes seconds. Establishing whether the listing is worth using takes longer, and the reasons are specific to this compound.\n\nMelanotan II is not a licensed medicine in the UK. It has no marketing authorisation, is not on the general sale list, and supplying it for human consumption is unlawful. Every legitimate UK listing is therefore research-use-only material, and a supplier who sells it on cosmetic terms is describing a use the law does not permit them to facilitate.\n\nThat legal position sits behind almost every practical problem in this market. The marketing around the compound is aimed at people who intend to use it on themselves, which pulls the entire supply chain toward cosmetic language, weak documentation and price competition on sticker price. A buyer approaching it as research material has to work against that grain.\n\nThis guide covers what the compound actually is and why the chemistry matters, the real price structure across the tracked market and the cost-per-milligram arithmetic that changes the ranking, the UK legal position stated accurately, the specific transactional failure modes in this market, what to verify before ordering, and where the underlying research literature actually sits.\n\nLive listings render on the [**Melanotan II price comparison →**](/compounds/melanotan-ii). For the compound\'s own research profile, see the [**Melanotan II Research Summary →**](/research/melanotan-ii-research-summary). For the general sourcing standard this guide assumes, [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk).',
+    },
+    {
+      title: 'What You Are Actually Buying: The Cyclic Alpha-MSH Analogue',
+      body: 'Melanotan II is a synthetic cyclic heptapeptide analogue of alpha-melanocyte-stimulating hormone. Its structure is Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-NH2, with a molecular weight of 1024.2 g/mol and CAS number 121062-08-6.\n\nThe sequence details are not trivia. Three structural features determine how the compound behaves and how it should be verified.',
+      subsections: [
+        {
+          title: 'The lactam ring and why cyclisation matters',
+          body: 'The compound is cyclised: the aspartic acid side chain carboxyl forms a lactam bridge with the lysine side chain amine, closing the peptide into a ring. That constrains the conformation of the whole molecule.\n\nLinear melanocortin peptides are readily cleaved by circulating proteases. A cyclic structure is substantially more resistant, which is the reason this compound and its relatives have longer activity than the linear alpha-MSH fragment they derive from. The cyclisation is also the single most useful identity signal on a certificate: a linear byproduct will have a different mass from the cyclic product, and mass spectrometry distinguishes them.\n\nFor a buyer, this matters because a supplier selling a "melanotan" that is not correctly cyclised is selling a different molecule with different stability. Identity verification against 1024.2 g/mol is the check that catches it.'
+        },
+        {
+          title: 'The D-Phe residue',
+          body: 'The phenylalanine at position four is the D-enantiomer rather than the naturally occurring L-form. This is a deliberate design feature. Substituting a D-amino acid at that position increases resistance to enzymatic degradation and alters receptor binding relative to the all-L peptide.\n\nIt also creates a verification requirement that is easy to overlook. Standard mass spectrometry reports the mass of the molecule, not its stereochemistry. A peptide with L-Phe at position four would have the same nominal mass as the correct D-Phe compound. Distinguishing them requires either chiral analysis or a supplier whose certificate states the synthesis used the D-isomer and whose chromatographic trace is consistent with a single diastereomer rather than a mixture.\n\nThis is one of the harder things to verify from the outside, and it is worth asking about directly.'
+        },
+        {
+          title: 'Amidation and the 10 mg default',
+          body: 'The C-terminus is amidated, which is common for melanocortin peptides and contributes to their stability. The amide adds a small mass difference relative to the free acid, so a certificate should be consistent with the amidated form.\n\nThe 10 mg vial dominates the market for a practical reason — 37 of the 48 tracked listings are 10 mg presentations. It is the size vendors standardise on, which means it is the size most likely to be freshly stocked and most likely to be priced competitively. Larger sizes exist but are less common, and smaller sizes are rare.'
+        },
+      ]
+    },
+    {
+      title: 'The Real Price Structure: £14.99 to £30 and What Sits Outside It',
+      body: 'The tracked UK market runs from £14.99 for a 10 mg vial to a notional £199.99 for a catalogue entry, but the useful information is in the distribution rather than the extremes.\n\nThe overwhelming majority of legitimate single-vial 10 mg listings sit between £15.00 and £30.00. The tracked floor cluster starts at £14.99, moves through the £15.00 to £20.00 band occupied by the highest-volume vendors, and settles around £20.00 to £30.00 for vendors who price on documentation rather than volume.\n\nAbove £30.00 for a single 10 mg vial, the justification becomes documentary. Vendors in that band typically offer batch-matched certificates, third-party testing and more complete listing data, and the premium is defensible if you intend to verify the material. Above £60.00 for a single vial, there is no explanation in the tracked market other than multi-vial packs, higher strengths, or a listing that has not been maintained.\n\nCost per milligram is the calculation that matters, and it changes the ranking. A 10 mg vial at £14.99 works out at £1.50 per milligram. A 20 mg vial at £35.00 works out at £1.75 per milligram — a higher sticker price and a worse value. A 30 mg vial at £44.99 works out at £1.50 per milligram, matching the floor. The pattern to check, as with any compound, is whether a vendor offering two sizes prices the larger vial below the smaller one per milligram. Where they do not, the vendor is pricing the sticker rather than the material.\n\nOne market-specific trap is worth flagging. Some listings sell a "kit" comprising a vial plus bacteriostatic water plus syringes. The sticker price is higher and the cost-per-milligram comparison becomes meaningless unless the kit contents are priced separately. Compare like with like before concluding anything.\n\nLive figures: [**Melanotan II price comparison →**](/compounds/melanotan-ii).',
+    },
+    {
+      title: 'The UK Legal Position, Stated Accurately',
+      body: 'This is the part of the market that suppliers most often obscure, and it should be stated plainly.\n\nMelanotan II is not a licensed medicine in the UK. It has no marketing authorisation from the Medicines and Healthcare products Regulatory Agency, it is not on the general sale list, and it is not a pharmacy medicine. It is not approved for any human use in the UK.\n\nSupplying a substance for human consumption that is not a licensed medicine is an offence under UK medicines law. That means the entire legitimate UK market for Melanotan II is research-use-only material supplied to laboratories, and a supplier marketing it on the basis of how it will affect the person taking it is advertising a use that the law does not permit them to supply.\n\nThe practical consequence for a buyer is not primarily legal risk to the purchaser — possession for personal use is not the same offence as supply — but informational risk. A supplier whose marketing assumes human use has no incentive to maintain the documentation that research material requires. Their pricing is driven by consumer demand, their product copy is written for consumer conversion, and their certificate of analysis is often an afterthought.\n\nA supplier who writes clear research-use-only copy, states the vial size and form in structured listing data, and can produce a batch-matched certificate on request is a different kind of business. That distinction is the single most useful filter in this market.\n\nThe general framing for the whole category is set out in [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk).',
+    },
+    {
+      title: 'The Transactional Failure Modes Specific to This Market',
+      body: 'Four problems recur across tracked Melanotan II listings, and each has a concrete check.',
+      subsections: [
+        {
+          title: 'Unstated vial size in the structured listing data',
+          body: 'A large share of tracked listings quote a price without a machine-readable vial size. Where the size does appear, it takes inconsistent forms — "10mg", "10 mg", "10mg vial" and similar. This matters because a price is meaningless without a size. A £20 listing for 5 mg is £4.00 per milligram; a £20 listing for 10 mg is £2.00 per milligram.\n\nBefore comparing anything, establish three facts: the vial size in milligrams, whether the material is lyophilised powder or a reconstituted solution, and whether the price covers one vial or a pack. A claim in a page headline is not a substitute for the structured listing data, because headline copy is the part most likely to be stale.'
+        },
+        {
+          title: 'Stale prices and unmaintained listings',
+          body: 'Because this compound sells on search demand rather than laboratory procurement, listing maintenance varies widely. A price captured during a promotional period may persist on the page for months after the promotion ended. The pattern to look for is a listing whose price sits materially below the market band with no documentary justification — a 10 mg vial at £8.00 against a tracked floor of £14.99 is more likely to be a stale entry than a genuine bargain.\n\nThe same applies in the other direction. A widely stocked compound with several hundred per cent variation across vendors is not a market where loyalty pays. Compare every time.'
+        },
+        {
+          title: 'Cosmetic marketing as a documentation signal',
+          body: 'Product copy is a proxy for how carefully the rest of a supplier\'s operation is run. For Melanotan II, the tell is the framing. Copy centred on tanning outcomes, before-and-after language, or guidance about how the product should be administered indicates a listing written for a consumer rather than a laboratory. Suppliers writing that copy are typically also the suppliers least able to produce a batch-matched certificate, because their business model does not depend on it.\n\nThe mirror image is also true. A vendor whose page describes the melanocortin receptor pharmacology, states the sequence and molecular weight, and offers a certificate is signalling that they expect a different kind of buyer.'
+        },
+        {
+          title: 'Mislabelled strengths',
+          body: 'With a compound where the standard presentation is 10 mg and the price per milligram is the only meaningful comparison, a mislabelled vial size is the failure mode with the largest financial consequence. A vial sold as 10 mg that contains 5 mg costs the buyer double the effective price.\n\nThe check is straightforward: confirm the strength on the vial label against the strength on the order and the certificate, on arrival, before the material enters storage. This is worth doing for every compound, but it matters more here because the market\'s pricing is opaque enough that a discrepancy will not be obvious from the price alone.'
+        },
+      ]
+    },
+    {
+      title: 'What to Verify Before Ordering',
+      body: 'Five checks, ordered by how much they catch.\n\nFirst, confirm the vial size and the form from the structured listing, not the headline, and confirm both again on arrival. For a compound where 10 mg is the default, a size discrepancy is the highest-cost error available.\n\nSecond, request the batch-matched certificate of analysis and check that the batch number on the certificate matches the batch on the vial. This is the check with the highest return for the least effort, and it takes one email.\n\nThird, verify the identity figure against 1024.2 g/mol. Because the compound is cyclic and D-phenylalanine-substituted, a certificate showing only a purity percentage is insufficient — the mass confirms you have the right molecule, and the purity figure tells you how much of it there is.\n\nFourth, ask whether the certificate includes stereochemical information or whether the synthesis used the correct D-isomer. This is the hardest of the five to verify independently and the most likely to be answered vaguely. A supplier who can speak to it directly is a supplier who understands their own material.\n\nFifth, check stock and dispatch terms rather than assuming them. A compound with 46 vendors and an active consumer market is generally held in stock, but a listing with no dispatch information is a listing that has not been reviewed.\n\nThe general standard for reading these documents is in the [**How to Read a COA →**](/research/how-to-read-a-coa) guide, and the compound\'s receptor pharmacology is set out in the [**Melanotan II research summary →**](/research/melanotan-ii-research-summary).',
+    },
+    {
+      title: 'Where the Research Literature Actually Sits',
+      body: 'Melanotan II is a melanocortin receptor agonist, and the legitimate research interest in it concerns receptor pharmacology rather than cosmetic outcomes. That distinction is worth drawing precisely, because the consumer market for the compound has almost nothing to do with the literature.\n\nThe compound acts at the melanocortin receptor family. The MC1R subtype is expressed on melanocytes and mediates pigmentation signalling; the MC4R subtype is expressed centrally and is associated with appetite and energy-balance regulation. The overlap between those two receptor populations is what produces the compound\'s dual reputation — melanocortin agonism at MC1R is the basis of the pigmentation interest, and activity at MC4R is the basis of the metabolic research interest.\n\nLuger and Brzoska reviewed alpha-MSH-related peptides as a class of anti-inflammatory and immunomodulating agents, which places the melanocortin family\'s broader pharmacology in context and explains why these receptors attract research attention well beyond pigmentation ([PMID 17934097](https://pubmed.ncbi.nlm.nih.gov/17934097/)). Barcellini and colleagues examined alpha-MSH peptide activity in a chronically infected promonocytic cell line, an early demonstration that melanocortin peptides have effects on immune-cell signalling rather than only on pigmentation ([PMID 11073109](https://pubmed.ncbi.nlm.nih.gov/11073109/)).\n\nThe honest framing for this compound is that it is a well-characterised melanocortin agonist with a real receptor-level literature and a substantial consumer market that has almost no relationship to it. Research interest in melanocortin signalling is legitimate and ongoing. The cosmetic demand that stocks 46 UK vendors is not a research demand, and a buyer should be clear about which of the two they are participating in.\n\nFor the compound placed against the closest relative in the same market, see [**PT-141 vs Melanotan II →**](/research/pt141-vs-melanotan2), and for the earlier deep-dive treatment of the compound see [**Melanotan II Deep Dive →**](/research/melanotan2-deep-dive). Neither should be read as an endorsement of personal use — the compound is not licensed for human use in the UK.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Melanotan II is widely available in the UK and unusually poorly documented. Forty-six vendors carry it across 48 tracked listings, the cheapest tracked 10 mg vial is £14.99, and the legitimate market band for a single vial sits between £15.00 and £30.00. Above that, the premium should be justified by documentation; above £60.00 for a single 10 mg vial, it is not.\n\nThe per-milligram calculation is the only comparison that survives the market\'s variable vial sizes and kit listings. A 10 mg vial at £14.99 is £1.50 per milligram. A 20 mg vial at £35.00 is £1.75 per milligram — higher sticker, worse value. Check the ratio where a vendor offers two sizes, because it reveals whether the listing is maintained.\n\nThe legal position is clear and should not be softened. Melanotan II has no UK marketing authorisation, is not on the general sale list, and is not approved for any human use. Supply for human consumption is unlawful. The legitimate market is research-use-only material, and a supplier marketing the compound on tanning terms is selling against a use they cannot lawfully support.\n\nVerification comes down to five things: vial size confirmed in structured data, a batch-matched certificate, an identity figure of 1024.2 g/mol by mass spectrometry, an answer about the D-phenylalanine stereochemistry, and dispatch terms that are stated rather than assumed.\n\nThe compound\'s research literature is about melanocortin receptor signalling, and it is real. The consumer market around it is a different thing entirely. For the live market, [**compare Melanotan II prices from UK suppliers →**](/compounds/melanotan-ii).',
+    },
+  ],
+  faq: [
+    {
+      question: 'Is Melanotan II legal in the UK?',
+      answer: 'Melanotan II is not a licensed medicine in the UK. It has no marketing authorisation, is not on the general sale list, and is not approved for human use. Supplying it for human consumption is unlawful under UK medicines law. The legitimate UK market is research-use-only material supplied to laboratories.'
+    },
+    {
+      question: 'How many UK suppliers sell Melanotan II?',
+      answer: 'Forty-six UK vendors carry Melanotan II across 48 tracked listings as of September 2026. That makes it one of the more widely stocked compounds on the site, with a tracked floor of £14.99 for a 10 mg vial and most single-vial listings between £15.00 and £30.00.'
+    },
+    {
+      question: 'What is a fair price for a 10 mg Melanotan II vial in the UK?',
+      answer: 'The tracked market band for a single 10 mg vial runs from £14.99 to about £30.00. Above £30.00 the premium should be justified by documentation such as a batch-matched certificate and third-party testing. Above £60.00 for a single 10 mg vial there is no justification visible in the tracked market.'
+    },
+    {
+      question: 'How do I verify a Melanotan II certificate of analysis?',
+      answer: 'Check four things: an identity figure consistent with 1024.2 g/mol by mass spectrometry, HPLC purity with the chromatogram supplied rather than a bare percentage, a batch number matching the vial label, and a named third-party testing laboratory. Because the compound is cyclic and contains a D-phenylalanine residue, ask whether the certificate speaks to stereochemistry — a mass figure alone does not distinguish the D-isomer from the L-isomer.'
+    },
+    {
+      question: 'Why is the 10 mg vial the standard presentation?',
+      answer: 'Of 48 tracked UK listings, 37 are 10 mg presentations. It is the size vendors standardise on, which generally means it is the most likely to be freshly stocked and the most competitively priced. Larger sizes such as 20 mg and 30 mg exist in smaller numbers, and smaller sizes are rare.'
+    },
+    {
+      question: 'Is the cheapest Melanotan II listing the best value?',
+      answer: 'Not necessarily. Cost per milligram is the comparison that matters. A 10 mg vial at £14.99 is £1.50 per milligram; a 20 mg vial at £35.00 is £1.75 per milligram, which is a higher sticker price and worse value. Where a vendor lists two sizes, check whether the larger vial is cheaper per milligram — if it is not, the listing is priced on the sticker rather than the material.'
+    },
+  ],
+  references: [
+    'Luger TA, Brzoska T. alpha-MSH related peptides: a new class of anti-inflammatory and immunomodulating drugs. Ann Rheum Dis. 2007 Nov;66(Suppl 3):iii52-iii55. PMID 17934097',
+    'Barcellini W, Colombo G, La Maestra L, et al. Alpha-melanocyte-stimulating hormone peptides inhibit HIV-1 expression in chronically infected promonocytic U1 cells and in acutely infected monocytes. J Leukoc Biol. 2000 Nov;68(5):693-699. PMID 11073109',
+    'Catania A, Cutuli M, Garofalo L, et al. The neuropeptide alpha-MSH in host defense. Ann N Y Acad Sci. 2000;917:227-231. PMID 11268348',
+    'Ichiyama T, Sakai T, Catania A, et al. The neuroimmunomodulatory peptide alpha-MSH. Ann N Y Acad Sci. 2000;917:221-226. PMID 11268347',
+    'Brzoska T, Luger TA, Maaser C, et al. Terminal signal: anti-inflammatory effects of alpha-melanocyte-stimulating hormone related peptides beyond the pharmacophore. Adv Exp Med Biol. 2010;681:107-116. PMID 21222263',
+    'Mori K, et al. Melanocortin-4 receptor in macrophages attenuated angiotensin II-induced abdominal aortic aneurysm in mice. Sci Rep. 2023 Nov 13;13(1):19825. PMID 37957201',
+    'Weng WT, et al. alpha-Melanocyte-Stimulating Hormone Attenuates Neovascularization by Inducing Nitric Oxide Deficiency via MC-Rs/PKA/NF-kappaB Signaling. Int J Mol Sci. 2018 Nov 30;19(12):3823. PMID 30513637',
+    'Váradi J, Harazin A, Fenyvesi F, et al. Alpha-Melanocyte Stimulating Hormone Protects against Cytokine-Induced Barrier Damage in Caco-2 Intestinal Epithelial Monolayers. PLoS One. 2017 Jan 12;12(1):e0170298. PMID 28103316',
+    'Wang M, et al. TAT-HSA-alpha-MSH fusion protein with extended half-life inhibits tumor necrosis factor-alpha in brain inflammation of mice. Appl Microbiol Biotechnol. 2016 Jun;100(12):5353-5361. PMID 26816094',
+    'Ryu S, Johnson A, Park Y, et al. The Alpha-Melanocyte-Stimulating Hormone Suppresses TLR2-Mediated Functional Responses through IRAK-M in Normal Human Keratinocytes. PLoS One. 2015 Aug 28;10(8):e0136887. PMID 26309029',
+    'Liu Y, et al. Rigid linker peptides improve the stability and anti-inflammation effect of human serum albumin and alpha-melanocyte-stimulating hormone fusion protein. Biotechnol J. 2024 Mar;19(3):e2300432. PMID 38479996',
+  ],
+},
+
+'research-peptides-for-sale-uk': {
+  slug: 'research-peptides-for-sale-uk',
+  pullQuote: 'The phrase "research peptides for sale" describes a market that is real but is not organised the way the phrase implies. There are 89 UK suppliers, 154 tracked compounds and 2,819 priced listings — but the distribution is so uneven that a handful of compounds account for most of the volume, and the cheapest listing on a given page is frequently a catalogue entry rather than a maintained one. Understanding the market structure is what turns a search result into a considered purchase.',
+  quickInfo: [
+    {
+      label: 'Market',
+      value: 'UK research-use-only peptide supply',
+    },
+    {
+      label: 'Suppliers Tracked',
+      value: '89 UK vendors',
+    },
+    {
+      label: 'Compounds Tracked',
+      value: '154 master compounds',
+    },
+    {
+      label: 'Priced Listings',
+      value: '2,819 tracked prices across 2,901 source entries',
+    },
+    {
+      label: 'Price Range',
+      value: '£2.50 (bacteriostatic water) to £495.00',
+    },
+    {
+      label: 'Median Listing Price',
+      value: '£32.99',
+    },
+    {
+      label: 'Most Stocked Compound',
+      value: 'GHK-Cu — 82 vendors, 110 listings',
+    },
+    {
+      label: 'Last Verified',
+      value: 'September 2026',
+    },
+  ],
+  sections: [
+    {
+      title: 'Research Peptides for Sale UK: How the Market Is Actually Structured',
+      body: 'The UK research peptide market is large, unevenly distributed and frequently misdescribed. This page is about its structure: who supplies what, how pricing actually works across the range, why the cheapest listing on a page is often not the listing you want, and why the phrase "for sale" itself is a poor description of what is lawfully happening.\n\nThe tracked numbers give the scale. Eighty-nine UK vendors are active in the market. One hundred and fifty-four master compounds are listed. Across them there are roughly 2,900 source entries carrying about 2,819 prices, ranging from £2.50 for a vial of bacteriostatic water to £495.00 for the largest multi-vial kits. The median listing price is £32.99.\n\nWhat those aggregates hide is the shape of the distribution. GHK-Cu is carried by 82 vendors across 110 listings. BPC-157 is carried by 79 vendors. Cardiogen — a tetrapeptide in the same broad research tradition as Epitalon — is carried by two. The market is not a flat list of compounds with roughly comparable supply. It is a handful of very widely stocked names and a long tail of compounds with one to ten vendors.\n\nThis matters practically, because the correct buying approach differs completely depending on which end of the distribution you are on. In the dense end, the work is comparison. In the thin end, the work is verification. Most generic advice about "buying research peptides" is written for the dense end and is actively unhelpful in the thin end.\n\nThis guide covers the market\'s scale and shape, the vendor tiers and what each one\'s pricing tells you, the price architecture and why the cheapest listing is not automatically the best, the "for sale" framing problem, the listing quality issues that recur, and a compressed evaluation checklist. Related reading: the [**UK Peptide Directory →**](/research/uk-peptide-directory) for vendor-level context, [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk) for the buying process, and [**Types of Research Peptides →**](/research/types-of-research-peptides) for the compound taxonomy.',
+    },
+    {
+      title: 'The Scale and Shape of the UK Market',
+      body: 'Eighty-nine vendors and 154 compounds sounds like a broad market. It behaves like a narrow one.\n\nThe concentration is the first thing to understand. The most widely stocked compounds on this site — GHK-Cu, BPC-157, MOTS-c, TB-500, Tesamorelin, Ipamorelin, Semax, Selank and NAD+ — are each carried by more than sixty vendors. Nine compounds account for a very large share of the total listing volume. Below them sits a middle tier of perhaps thirty compounds carried by twenty to fifty vendors, and below that a long tail where most compounds are carried by fewer than fifteen.\n\nThe tail is longer and thinner than most buyers expect. KPV — a tripeptide with a genuine anti-inflammatory research literature — is carried by 52 vendors. Epitalon, one of the most-discussed anti-aging research peptides, is carried by 48. Thymalin is carried by 10. Cardiogen is carried by two.\n\nThe pricing spread mirrors the supply spread. Across all 2,819 priced listings, the range runs from £2.50 to £495.00 with a median of £32.99. That median is not a typical price for any individual compound — it is an artefact of mixing single 5 mg vials with multi-vial kits. The useful comparisons are always within a compound, at a fixed vial size.',
+      subsections: [
+        {
+          title: 'Why concentration matters for the buyer',
+          body: 'In a compound carried by 70 vendors, the market itself provides a reference price. A listing that sits far below or far above the band is identifiably an outlier, and the buyer can reason about it. In a compound carried by five vendors, there is no band. Whatever those five vendors charge is the market, and the buyer has no external frame for judging whether it is reasonable.\n\nThat asymmetry is why the per-milligram calculation matters more, not less, as supply thins. It is the only comparison available that does not depend on having a crowd of listings to average against.'
+        },
+        {
+          title: 'The category distribution',
+          body: 'By master-compound count, the categories break down unevenly. Anti-aging and bioregulator compounds account for the largest group at 32 compounds, followed by growth hormone secretagogues at 30 and blends at 22. Metabolic and GLP-1-related compounds number 14, immunity peptides 10, cognitive peptides 8, and tanning/libido compounds 7. A further thirteen compounds have no assigned category.\n\nThe gap between the category counts and the vendor counts is instructive. The anti-aging category has the most compounds but Epitalon — its most-stocked member — is only the fourteenth most widely stocked compound overall. Volume concentrates in categories with strong search demand and well-known names, not in the categories with the most compounds.'
+        },
+      ]
+    },
+    {
+      title: 'The Four Vendor Tiers and What Their Pricing Tells You',
+      body: 'The supply side of this market separates into recognisable groups, and identifying which group a listing belongs to tells you more than its price does.',
+      subsections: [
+        {
+          title: 'Mass-market generalists',
+          body: 'This is the largest group by listing count. These vendors carry forty to a hundred compounds across the full range of popular names, price at the lower end of each compound\'s band, and compete on range breadth and delivery speed. Their listings are usually well maintained because catalogue maintenance is core to their business.\n\nWhat to expect: prices in the bottom third of the band for the compound, fast dispatch, and documentation that is available but not the selling point. The COA is provided on request; it is not the reason the vendor exists.'
+        },
+        {
+          title: 'Documentation-led vendors',
+          body: 'A smaller group positions explicitly on verification — batch-matched certificates, stated HPLC purity with chromatograms, mass-spectrometry identity figures, sometimes a batch lookup on the site. Their pricing typically sits 20% to 60% above the mass-market band for the same vial size.\n\nThe premium is defensible if you intend to verify the material and need the paperwork to do it. It is not defensible if you are buying by price alone and will never open the certificate. The relevant question is whether the documentation changes what you can do with the material, and for a research context it often does.'
+        },
+        {
+          title: 'Single-compound and niche specialists',
+          body: 'A third group carries a narrow range — often blends, often a specific therapeutic area, sometimes a single compound in several presentations. Pricing varies widely and has no consistent relationship to the market band, because these vendors are not competing on the same axis.\n\nThe distinguishing feature is depth rather than breadth: a specialist may carry one compound in four vial sizes with a batch certificate for each. That is genuinely useful if the compound is the one you need, and irrelevant otherwise.'
+        },
+        {
+          title: 'Catalogue-only entries',
+          body: 'The fourth group is the one to be careful about. Every compound on this site has at least one listing that looks like a catalogue entry — a vendor name, a compound name, a price, and very little else. Prices are frequently high and uniform across a vendor\'s range, which is the signature: a vendor pricing everything at the same round figure is not pricing per compound.\n\nA catalogue entry is not automatically a bad purchase. It is a listing that has not been maintained and whose price almost certainly reflects nothing current. Treat the price as unknown and ask directly. The uniform high price is the reason compounds like Premio Peptides\' entries appear at £199.99 across unrelated compounds — it is a catalogue convention, not a market price.',
+        },
+      ]
+    },
+    {
+      title: 'Price Architecture: Why the Same Compound Runs from £12 to £200',
+      body: 'The single most common source of confusion in this market is a compound page showing prices spanning an order of magnitude. The spread is real and it has several distinct causes that should be separated.\n\nVial size accounts for the largest and least interesting part of it. A 10 mg vial and a 50 mg vial of the same compound are different products at different prices, and comparing them as though they were the same listing is the most frequent analytical error. Epitalon, for example, is tracked across 10 mg, 5 mg, 20 mg, 25 mg and 50 mg presentations, with a 10 mg vending cluster between £11.95 and £24.95 and 50 mg listings running considerably higher. Neither figure tells you anything about the other.\n\nMulti-vial and kit presentations account for the next largest share. A "10 vials of 10 mg" pack is not comparable to a single 10 mg vial, and vendors list both. Where a compound is commonly resold in kits, the top of the price range is almost entirely kit listings.\n\nThe genuinely interesting part of the spread is what remains after those two are removed: the variance between vendors selling the same compound in the same vial size. That variance runs from modest to extreme. For a densely stocked compound, the spread between the cheapest and median 10 mg listing is typically 40% to 80%. For some compounds it is larger.\n\nTwo explanations dominate. The first is stale listings — a price captured during a promotion and never updated. The second is the documentation premium described above. Distinguishing them is usually straightforward: a stale listing sits below the band with no supporting documentation, and a documentation-led listing sits above it with the certificate on the page.\n\nThe practical rule is to compute cost per milligram within a fixed vial size, check whether a vendor offering two sizes prices the larger one lower per milligram, and treat any listing far outside the band as a question to investigate rather than a bargain to take. Worked examples are on individual compound pages such as [**KPV →**](/compounds/kpv), [**Epitalon →**](/compounds/epitalon) and [**GHK-Cu →**](/compounds/ghk-cu).',
+    },
+    {
+      title: 'The "For Sale" Framing Problem',
+      body: 'The search term "research peptides for sale" implies a consumer transaction, and the legal position in the UK is not that. Understanding the difference changes what a legitimate listing looks like.\n\nResearch peptides are sold as laboratory reagents, not as consumer products. Most of the compounds in this market have no UK marketing authorisation, are not on the general sale list, and are not licensed for human use. The market exists on a research-use-only basis: material supplied to laboratories and researchers for in vitro and preclinical work.\n\nThat framing has concrete consequences for what a supplier can and cannot lawfully say, and those consequences are visible in listing quality. A supplier selling to laboratories writes product copy describing the sequence, molecular weight, purity specification, storage conditions and reconstitution. A supplier selling to consumers writes copy describing outcomes and how the product should be taken. The second kind of copy describes a use the supplier cannot lawfully support, which means the listing is being written for marketing rather than accuracy — and the documentation is usually written to the same standard.\n\nFor a buyer, this is the most efficient single filter in the market. Read the product copy before the price. If it describes research — identity, purity, analytical method, handling — the listing is likely from a vendor set up for research supply. If it describes personal outcomes, the listing is aimed at a market the vendor is not lawfully entitled to serve.\n\nThe wider sourcing standard, including what to check on documentation, is set out in [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk) and [**How to Read a COA →**](/research/how-to-read-a-coa).',
+    },
+    {
+      title: 'The Listing Quality Problems That Recur',
+      body: 'Across the tracked market, the same four defects appear repeatedly. Each has a specific check.',
+      subsections: [
+        {
+          title: 'Unstated vial sizes and doses',
+          body: 'A large share of listings quote a price with no machine-readable vial size. Where a size is present, formats vary: "10mg", "10 mg", "10mg vial", "10mg/5ml". The gap matters because a price without a size cannot be compared to anything. Establishing the size, the form and whether the price covers one vial or a pack is the minimum before any comparison is meaningful.'
+        },
+        {
+          title: 'Uniform catalogue pricing',
+          body: 'When a vendor lists unrelated compounds at identical prices — the same round figure for a tetrapeptide and a thirty-nine-residue GLP-1 analogue — the price is a catalogue convention rather than a market price. It does not reflect synthesis cost, demand, or anything else about the compound. These entries are the main source of the £199.99-style outliers that inflate the apparent price range of thin compounds.'
+        },
+        {
+          title: 'Dead and stale listings',
+          body: 'Entries that 404, prices that have not moved in months, and product pages whose structured data no longer matches the visible page are all common. A listing that returns an error is not evidence about a vendor\'s current catalogue — it is evidence that the page is unmaintained. Where a listing 404s, the appropriate action is to check the vendor\'s live site directly rather than concluding the compound is unavailable.'
+        },
+        {
+          title: 'Missing or generic documentation',
+          body: 'Certificates that are not batch-matched, purity percentages quoted without chromatograms, identity figures absent altogether, and test reports with no named laboratory or date are the norm across the lower-cost end of the market. The standard to hold listings to is set out in [**How to Read a COA →**](/research/how-to-read-a-coa): purity with the chromatogram, identity by mass spectrometry against the expected molecular weight, a batch number matching the vial, a named third-party laboratory, and a recent date.'
+        },
+      ]
+    },
+    {
+      title: 'Evaluating a Listing: Six Checks',
+      body: 'Six checks, ordered by how much they catch and how quickly.\n\nFirst, read the product copy. Research framing — sequence, molecular weight, purity specification, handling — indicates a vendor set up for laboratory supply. Personal-outcome framing indicates a vendor serving a market they cannot lawfully supply, and it is the strongest single signal available before you spend anything.\n\nSecond, establish the vial size, the form and the pack contents from the structured listing rather than the headline. A price without those three facts cannot be compared to anything else on the page.\n\nThird, compute cost per milligram at a fixed vial size. Where a vendor offers two sizes, check whether the larger vial is cheaper per milligram. If it is not, the listing is priced on the sticker rather than the material.\n\nFourth, request the batch-matched certificate and confirm the batch number on the certificate matches the batch on the vial. This is the highest-value check in the market and it costs one email.\n\nFifth, verify the identity figure against the compound\'s expected molecular weight by mass spectrometry. A purity percentage alone does not establish identity, and for compounds with unusual features — cyclisation, D-amino acids, metal complexation — identity is the check most likely to reveal a problem.\n\nSixth, confirm dispatch and stock terms rather than assuming them. A listing with no dispatch information is a listing that has not been reviewed.\n\nThe vendor-level context behind these checks is in the [**UK Peptide Directory →**](/research/uk-peptide-directory), and the compound taxonomy used above is in [**Types of Research Peptides →**](/research/types-of-research-peptides).',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'The UK research peptide market has 89 suppliers, 154 tracked compounds and about 2,819 priced listings, but it behaves like a much narrower market than those numbers suggest. Nine compounds account for a large share of the total supply volume, and a long tail of compounds is carried by fewer than fifteen vendors each — some by as few as two.\n\nThat distribution determines the correct approach. In a densely stocked compound, comparison works and the market provides its own reference price. In a thinly stocked compound, comparison is impossible and verification is the whole job. Generic buying advice written for the dense end is actively misleading in the thin end.\n\nPricing spans £2.50 to £495.00 with a median of £32.99, but those aggregates are not useful for any individual decision. The useful calculations are cost per milligram at a fixed vial size, and — where a vendor offers two sizes — the ratio between them.\n\nThe framing matters as much as the arithmetic. The entire legitimate UK market is research-use-only material supplied to laboratories, and a supplier whose copy describes personal outcomes rather than research specifications is telling you something about how the rest of their operation is run. Reading the product copy before the price is the fastest filter available in this market.\n\nFor the market in full, start with the [**UK Peptide Directory →**](/research/uk-peptide-directory), the sourcing process in [**Where to Buy Peptides UK →**](/research/where-to-buy-peptides-uk), and live comparison on [**KPV →**](/compounds/kpv), [**Epitalon →**](/compounds/epitalon) and [**BPC-157 →**](/compounds/bpc-157).',
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK suppliers sell research peptides?',
+      answer: 'Eighty-nine UK vendors are tracked as active in the market as of September 2026, carrying 154 master compounds across roughly 2,901 source entries and 2,819 priced listings. Supply is heavily concentrated: the most widely stocked compound, GHK-Cu, is carried by 82 of those vendors.'
+    },
+    {
+      question: 'Is it legal to buy research peptides in the UK?',
+      answer: 'Research peptides are supplied in the UK as laboratory reagents on a research-use-only basis. Most compounds in the market have no UK marketing authorisation and are not licensed for human use, and a supplier may not lawfully supply them for human consumption. The legitimate market is material supplied for in vitro and preclinical research. A listing whose product copy describes personal outcomes rather than research specifications is describing a use the supplier cannot lawfully support.'
+    },
+    {
+      question: 'Why do prices for the same peptide vary so much?',
+      answer: 'Three causes, in order of size: different vial sizes, kit or multi-vial presentations being listed alongside single vials, and genuine vendor-to-vendor variance. The last is driven mainly by stale listings sitting below the band and documentation-led vendors sitting above it. Comparing cost per milligram at a fixed vial size removes the first two causes and makes the third visible.'
+    },
+    {
+      question: 'What is the median price of a research peptide listing in the UK?',
+      answer: 'The median across all 2,819 tracked priced listings is £32.99, with a range from £2.50 for bacteriostatic water to £495.00 for the largest multi-vial kits. That median is an aggregate across different compounds and vial sizes and is not a typical price for any individual product — comparisons are only meaningful within a compound at a fixed vial size.'
+    },
+    {
+      question: 'Why are some compounds listed at £199.99 by several vendors?',
+      answer: 'That pattern is a signature of catalogue-only entries, where a vendor prices an entire range at the same round figure regardless of compound. It does not reflect synthesis cost or market demand. These entries inflate the apparent upper price range of thin compounds and should be treated as unmaintained listings rather than as market prices.'
+    },
+    {
+      question: 'What should I check before buying a research peptide in the UK?',
+      answer: 'Six checks: whether the product copy uses research framing rather than personal-outcome framing; the vial size, form and pack contents from the structured listing; cost per milligram at a fixed vial size; a batch-matched certificate with a batch number matching the vial; an identity figure by mass spectrometry against the compound\'s expected molecular weight; and stated dispatch and stock terms.'
+    },
+  ],
+  references: [
+    'Luger TA, Brzoska T. alpha-MSH related peptides: a new class of anti-inflammatory and immunomodulating drugs. Ann Rheum Dis. 2007 Nov;66(Suppl 3):iii52-iii55. PMID 17934097',
+    'Khavinson VK, Linkova NS, Rudskoy AI, et al. Feasibility of Transport of 26 Biologically Active Ultrashort Peptides via LAT and PEPT Family Transporters. Biomolecules. 2023 Mar 17;13(3):552. PMID 36979488',
+    'Khavinson VK, Popovich IG, Linkova NS, et al. Peptide Regulation of Gene Expression: A Systematic Review. Molecules. 2021 Nov 24;26(23):7053.',
+    'Araj SK, Brzezik J, Mądra-Gackowska K, et al. Overview of Epitalon-Highly Bioactive Pineal Tetrapeptide with Promising Properties. Int J Mol Sci. 2025 Mar 17;26(6):2663. PMID 40141333',
+    'Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008 Jan;134(1):166-178. PMID 18061177',
+    'Adnan SB, Maarof M, Fauzi MB, et al. Exploring the Role of Tripeptides in Wound Healing and Skin Regeneration: A Comprehensive Review. Int J Med Sci. 2025;22(14):3341-3362. PMID 41209547',
+    'Chalisova NI, Lesniak VV, Balykina NA, et al. [The effect of the amino acids and cardiogen on the development of myocard tissue culture from young and old rats]. Adv Gerontol. 2009;22(3):409-413. PMID 20210190',
+    'Al-Dulaimi S, Thomas R, Matta S, et al. Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity. Biogerontology. 2025 Sep 4;26(5):147. PMID 40908429',
+    'Pickart L, Margolina A. Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data. Int J Mol Sci. 2018 Jul 7;19(7):1987. PMID 29986520',
+    'Kuznetsova TA, Besednova NN, Zaporozhets TS, et al. [Comparative study of immunomodulatory activity of peptides, tinrostim and thymalin]. Antibiot Khimioter. 2013;58(7-8):36-39. PMID 24734422',
+  ],
+},
+
 };
 export default content;

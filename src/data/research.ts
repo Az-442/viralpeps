@@ -1306,6 +1306,37 @@ export const guides: ResearchArticle[] = [
     minutes: 13,
     tags: ["semax", "suppliers", "uk", "nootropic", "neuroprotective", "coa", "purity", "price-comparison"],
   },
+  {
+    title: "Cardiogen Suppliers UK: The Thinnest Supply Base in the Bioregulator Range",
+    desc: "Two UK vendors carry Cardiogen (AEDR) against 48 for Epitalon. Why the supply base is thin, the cost-per-milligram trap across the two listings, how to verify identity with no CAS number, and what the published literature actually supports.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "cardiogen-suppliers-uk",
+    image: "cardiogen-suppliers-uk",
+    minutes: 13,
+    tags: ["cardiogen", "aedr", "suppliers", "uk", "khavinson", "bioregulator", "coa", "purity", "price-comparison"],
+  },
+  {
+    title: "Buy Melanotan II UK: 46 Vendors, a £14.99 Floor and Why the Legal Position Matters",
+    desc: "Melanotan II is stocked by 46 UK vendors and is not a licensed medicine here. The real price band, the cost-per-milligram arithmetic that reverses the sticker ranking, the verification checks that matter, and why cosmetic product copy is the fastest filter in this market.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Melanotan 2",
+    slug: "buy-melanotan-ii-uk",
+    image: "buy-melanotan-ii-uk",
+    minutes: 12,
+    tags: ["melanotan-ii", "buy", "uk", "melanocortin", "legal", "coa", "purity", "research-use-only", "price-comparison"],
+  },
+  {
+    title: "Research Peptides for Sale UK: How the Market Is Actually Structured",
+    desc: "89 UK suppliers, 154 tracked compounds and 2,819 priced listings across a heavily concentrated market. The four vendor tiers, why the same compound runs from £12 to £200, the listing-quality defects that recur, and why \"for sale\" misdescribes what is lawfully happening.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "research-peptides-for-sale-uk",
+    image: "research-peptides-for-sale-uk",
+    minutes: 13,
+    tags: ["research-peptides", "uk", "market", "sourcing", "suppliers", "coa", "purity", "buying-guide", "directory"],
+  },
 ];
 
 export const compoundList: string[] = [
