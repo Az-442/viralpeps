@@ -10307,5 +10307,229 @@
     "destUrl": "https://vialverse.com/peptides/ara-290",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "4066a12cf3fdd9dc"
+  },
+  {
+    "ts": "2026-09-22T00:56:07.047Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-22T00:56:10.287Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "a8295b13319c0926"
+  },
+  {
+    "ts": "2026-09-22T00:56:14.633Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-09-22T00:58:55.297Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://vialverse.com/peptides/bpc-157-tb-500",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "eaa4e2e15006c722"
+  },
+  {
+    "ts": "2026-09-22T00:59:44.469Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://fatpigpeptides.co.uk/product/wolverine-peptide-blend/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d452f3cba522a99d"
+  },
+  {
+    "ts": "2026-09-22T01:01:34.096Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymalin-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-22T01:01:35.529Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymalin-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "9717093adf67dc59"
+  },
+  {
+    "ts": "2026-09-22T01:01:36.748Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-thymalin-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "72904ad4e06d512b"
+  },
+  {
+    "ts": "2026-09-22T01:02:57.945Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://evolvepeptides.uk/products/glow-70mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "081b4cf623d9b36d"
+  },
+  {
+    "ts": "2026-09-22T01:03:48.301Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://vialverse.com/peptides/pe-22-28",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0706df97d7afac70"
+  },
+  {
+    "ts": "2026-09-22T01:04:57.929Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "fgl",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-fgl-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "7fc560120f7431e6"
+  },
+  {
+    "ts": "2026-09-22T01:05:02.499Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "fgl",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-fgl-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-09-22T01:05:42.572Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kpv",
+    "destUrl": "https://vialverse.com/peptides/kpv",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "8bb7f8406112a6c7"
+  },
+  {
+    "ts": "2026-09-22T01:06:45.351Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.proformapeptides.co.uk/product/tb500-5mg/",
+    "visitorId": "f15c81044e26a14a"
+  },
+  {
+    "ts": "2026-09-22T01:10:18.471Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://fatpigpeptides.co.uk/product/mot-c-10mg-20mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d7fa232cd34be2e7"
+  },
+  {
+    "ts": "2026-09-22T01:13:14.816Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "667fe5caab4c0488"
+  },
+  {
+    "ts": "2026-09-22T01:13:55.897Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.stratfordpeptides.com/products/nad",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-22T01:13:58.027Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.stratfordpeptides.com/products/nad",
+    "visitorId": "303e28c67a7a6b18"
+  },
+  {
+    "ts": "2026-09-22T01:13:59.361Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.stratfordpeptides.com/products/nad",
+    "visitorId": "30667e146f8f7a53"
+  },
+  {
+    "ts": "2026-09-22T01:15:39.398Z",
+    "type": "vendor-site",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "destUrl": "https://evolvepeptides.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c81b41542232faee"
+  },
+  {
+    "ts": "2026-09-22T01:15:46.053Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/",
+    "visitorId": "303e28c67a7a6b18"
+  },
+  {
+    "ts": "2026-09-22T01:15:48.658Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-09-22T01:16:01.897Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "aod-9604-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/aod-9604-5mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "dadcef7a7e617c87"
+  },
+  {
+    "ts": "2026-09-22T01:19:16.378Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/tb-500/",
+    "visitorId": "7773ed4690ded0f7"
   }
 ]
