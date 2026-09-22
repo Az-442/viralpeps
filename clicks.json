@@ -12097,5 +12097,256 @@
     "compoundSlug": "glow",
     "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/",
     "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-22T04:54:52.843Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "glow",
+    "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-22T04:54:56.858Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "glow",
+    "destUrl": "https://mypepbiotech.co.uk/product/glow-70mg/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-09-22T04:55:26.036Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "destUrl": "https://pioneerpeptides.co.uk/products/klow-blend/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d1ee8a3d1bbfd699"
+  },
+  {
+    "ts": "2026-09-22T04:55:41.967Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+    "visitorId": "65f9a0c77792c1dd"
+  },
+  {
+    "ts": "2026-09-22T04:57:58.509Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-22T04:58:03.221Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://rawpeptides.co.uk/product/retatrutide-20mg/",
+    "visitorId": "0e631e2a276ba2af"
+  },
+  {
+    "ts": "2026-09-22T05:01:17.814Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-22T05:01:19.868Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-22T05:01:21.345Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html",
+    "visitorId": "a8295b13319c0926"
+  },
+  {
+    "ts": "2026-09-22T05:04:12.057Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4eded066b326486e"
+  },
+  {
+    "ts": "2026-09-22T05:04:13.726Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f2b35bf0fa7b2f4f"
+  },
+  {
+    "ts": "2026-09-22T05:08:18.733Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pioneerpeptides.co.uk/products/bpc-157-tb-500-blend/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b0f2ed063127061e"
+  },
+  {
+    "ts": "2026-09-22T05:08:51.555Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://pioneerpeptides.co.uk/products/aicar/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9e66e849d986b0d7"
+  },
+  {
+    "ts": "2026-09-22T05:10:53.777Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://reta-uk.com/products/klow",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-22T05:10:55.225Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://reta-uk.com/products/klow",
+    "visitorId": "c79d04c6c882849e"
+  },
+  {
+    "ts": "2026-09-22T05:10:56.882Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://reta-uk.com/products/klow",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-22T05:14:07.331Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-22T05:14:08.974Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "72904ad4e06d512b"
+  },
+  {
+    "ts": "2026-09-22T05:14:10.467Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "9717093adf67dc59"
+  },
+  {
+    "ts": "2026-09-22T05:19:28.302Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5505fd810b9ef3c3"
+  },
+  {
+    "ts": "2026-09-22T05:19:31.007Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0141034f318d1ba4"
+  },
+  {
+    "ts": "2026-09-22T05:20:32.975Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://evolvepeptides.uk/products/pinealon-5mg",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-22T05:20:34.447Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://evolvepeptides.uk/products/pinealon-5mg",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-09-22T05:20:37.532Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://evolvepeptides.uk/products/pinealon-5mg",
+    "visitorId": "9717093adf67dc59"
+  },
+  {
+    "ts": "2026-09-22T05:23:46.739Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "visitorId": "f15c81044e26a14a"
+  },
+  {
+    "ts": "2026-09-22T05:23:53.397Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-22T05:26:30.189Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://biotideuk.com/products/melanotan-1-10-mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6e18370733fa739e"
   }
 ]
