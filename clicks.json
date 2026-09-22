@@ -12992,5 +12992,13 @@
     "compoundSlug": "ss-31",
     "destUrl": "https://alphamino.co.uk/shop/ss-31/",
     "visitorId": "12267b0a13115564"
+  },
+  {
+    "ts": "2026-09-22T13:06:30.961Z",
+    "type": "vendor-site",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "destUrl": "https://mypepbiotech.co.uk",
+    "visitorId": "87ae2c5d52180690"
   }
 ]
