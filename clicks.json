@@ -13100,5 +13100,14 @@
     "compoundSlug": "dsip",
     "destUrl": "https://www.kingsbiolabs.co.uk/dsip",
     "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-22T17:00:48.902Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://chiltonlabs.co.uk/product/retatrutide-10mg-vial/",
+    "visitorId": "47fbc5ad9b84568d"
   }
 ]
