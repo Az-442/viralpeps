@@ -12785,5 +12785,95 @@
     "destUrl": "https://peptidelabuk.co.uk/product/pe-22-28-10mg-nasal-spray/",
     "refPage": "https://www.google.com/",
     "visitorId": "a552772fc88de9fe"
+  },
+  {
+    "ts": "2026-09-22T09:31:12.176Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "f30f349bef6e8cc3"
+  },
+  {
+    "ts": "2026-09-22T09:35:07.755Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/kpv-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "deab8ce3fba5b0d4"
+  },
+  {
+    "ts": "2026-09-22T09:35:10.698Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://evolvepeptides.uk/products/thymalin-10mg",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-22T09:35:12.184Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://evolvepeptides.uk/products/thymalin-10mg",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-22T09:35:13.793Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://evolvepeptides.uk/products/thymalin-10mg",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-09-22T09:41:25.968Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/kisspeptin-5mg",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-22T09:41:27.309Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/kisspeptin-5mg",
+    "visitorId": "103af4e743b8ed0a"
+  },
+  {
+    "ts": "2026-09-22T09:41:28.987Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/kisspeptin-5mg",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-09-22T09:47:13.827Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "f9d89c1c940e5290"
+  },
+  {
+    "ts": "2026-09-22T09:51:35.631Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "f1d0f538c6e8079f"
   }
 ]
