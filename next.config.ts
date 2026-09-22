@@ -889,6 +889,11 @@ const nextConfig: NextConfig = {
         destination: "/compounds/bacteriostatic-water",
         permanent: true,
       },
+      {
+        source: "/terms",
+        destination: "/disclaimer",
+        permanent: true,
+      },
     ];
   },
 };
