@@ -11648,5 +11648,247 @@
     "destUrl": "https://vialverse.com/peptides/thymulin",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "337b0019c4c9c879"
+  },
+  {
+    "ts": "2026-09-22T03:25:39.730Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "feecc5cbd7de9783"
+  },
+  {
+    "ts": "2026-09-22T03:25:51.192Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "63448eddbf096d13"
+  },
+  {
+    "ts": "2026-09-22T03:26:14.363Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "epitalon-10mg",
+    "destUrl": "https://evolvepeptides.uk/products/epithalon-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "2cc19e46c860891a"
+  },
+  {
+    "ts": "2026-09-22T03:28:24.710Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "vip",
+    "destUrl": "https://vialverse.com/peptides/vip",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "351f8428d3c552fe"
+  },
+  {
+    "ts": "2026-09-22T03:29:08.944Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://evolvepeptides.uk/products/pinealon-5mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0a2c9c5d9dbfb177"
+  },
+  {
+    "ts": "2026-09-22T03:30:58.166Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-09-22T03:34:45.732Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "abaloparatide",
+    "destUrl": "https://vialverse.com/peptides/abaloparatide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a7e9e40c74a221f1"
+  },
+  {
+    "ts": "2026-09-22T03:37:23.160Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-mito-stack/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-22T03:37:24.751Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-mito-stack/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-22T03:37:25.634Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "selank",
+    "destUrl": "https://vialverse.com/peptides/selank",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c49bb6b4b848ad9b"
+  },
+  {
+    "ts": "2026-09-22T03:37:26.351Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-mito-stack/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-22T03:37:56.885Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0e9a222d7908126f"
+  },
+  {
+    "ts": "2026-09-22T03:38:06.228Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://purepeptidesuk.com/product/glutathione-1500mg/",
+    "visitorId": "30c18b2f4571cd2a"
+  },
+  {
+    "ts": "2026-09-22T03:39:38.445Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://vialverse.com/peptides/glutathione",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "55440c8a392cd2c8"
+  },
+  {
+    "ts": "2026-09-22T03:41:47.678Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://vialverse.com/peptides/ghrp-2",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "12d5858923d5f49e"
+  },
+  {
+    "ts": "2026-09-22T03:43:47.579Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://fatpigpeptides.co.uk/product/mt-2-melanotan-ii-acetate-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "12d5858923d5f49e"
+  },
+  {
+    "ts": "2026-09-22T03:45:28.464Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://fatpigpeptides.co.uk/product/cjc-1295-without-dac/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "863314a07993f656"
+  },
+  {
+    "ts": "2026-09-22T03:46:14.709Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://vialverse.com/peptides/mazdutide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ed7ab7af5aa7fd1b"
+  },
+  {
+    "ts": "2026-09-22T03:46:23.452Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://pioneerpeptides.co.uk/products/kisspeptin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0c5a7f5318104450"
+  },
+  {
+    "ts": "2026-09-22T03:47:24.354Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "acetic-acid-reconstitution-solvent-10ml",
+    "destUrl": "https://fatpigpeptides.co.uk/product/acetic-acid-water/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "32bcc901df42c02d"
+  },
+  {
+    "ts": "2026-09-22T03:49:45.813Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/mots-c-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7e0cabdfdca95cb6"
+  },
+  {
+    "ts": "2026-09-22T03:53:11.372Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://reta-uk.com/products/nad",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-22T03:53:12.950Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://reta-uk.com/products/nad",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-22T03:53:15.354Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://reta-uk.com/products/nad",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-22T03:54:56.037Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "85f17da54d9e28f9"
   }
 ]
