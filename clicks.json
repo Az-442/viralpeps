@@ -14505,5 +14505,122 @@
     "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "5135b810692ee2af"
+  },
+  {
+    "ts": "2026-09-23T18:22:36.903Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a2841282a2d18081"
+  },
+  {
+    "ts": "2026-09-23T18:34:06.541Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "dsip",
+    "destUrl": "https://vialverse.com/peptides/dsip",
+    "visitorId": "7a3e8fad8a0c0f19"
+  },
+  {
+    "ts": "2026-09-23T18:35:43.994Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "klow",
+    "destUrl": "https://vialverse.com/peptides/klow-blend",
+    "visitorId": "a8c3799e3ef48b08"
+  },
+  {
+    "ts": "2026-09-23T18:35:52.848Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "7dddf71597c68606"
+  },
+  {
+    "ts": "2026-09-23T18:38:35.474Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "abaloparatide",
+    "destUrl": "https://vialverse.com/peptides/abaloparatide",
+    "visitorId": "34b548b0683fd5dc"
+  },
+  {
+    "ts": "2026-09-23T18:39:42.599Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://vialverse.com/peptides/snap-8",
+    "visitorId": "4b8c15e1d9fde09b"
+  },
+  {
+    "ts": "2026-09-23T18:40:29.597Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "84eb660319013ad2"
+  },
+  {
+    "ts": "2026-09-23T18:40:34.352Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "007168ffd4b93a58"
+  },
+  {
+    "ts": "2026-09-23T18:40:46.762Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "5134950f098dc473"
+  },
+  {
+    "ts": "2026-09-23T18:41:56.821Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "7dddf71597c68606"
+  },
+  {
+    "ts": "2026-09-23T18:48:52.590Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "8a255b5538d28a19"
+  },
+  {
+    "ts": "2026-09-23T18:50:12.130Z",
+    "type": "vendor-site",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "destUrl": "https://redpandapeptides.co.uk",
+    "visitorId": "8a255b5538d28a19"
+  },
+  {
+    "ts": "2026-09-23T18:57:08.980Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7c45ac4b14e0e83d"
   }
 ]
