@@ -13537,5 +13537,359 @@
     "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "0ae33b14b1adcb52"
+  },
+  {
+    "ts": "2026-09-23T07:00:23.744Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "007b46df1d274b3a"
+  },
+  {
+    "ts": "2026-09-23T07:00:57.352Z",
+    "type": "vendor-site",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "destUrl": "https://advancedpeptidesuk.co.uk",
+    "visitorId": "f9974a03f4bd5df8"
+  },
+  {
+    "ts": "2026-09-23T07:01:42.727Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "visitorId": "f9974a03f4bd5df8"
+  },
+  {
+    "ts": "2026-09-23T07:02:16.526Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:03:09.479Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:04:01.945Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "destUrl": "https://biopulsepeptides.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:04:17.071Z",
+    "type": "vendor-site",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "destUrl": "https://bioplexpeptides.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:04:45.110Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:05:52.430Z",
+    "type": "vendor-site",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "destUrl": "https://www.buyreta.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:06:18.226Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:07:28.217Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:07:50.581Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:08:21.304Z",
+    "type": "vendor-site",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "destUrl": "https://drpresearch.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:09:03.278Z",
+    "type": "vendor-site",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "destUrl": "https://evolvepeptides.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:09:34.036Z",
+    "type": "vendor-site",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "destUrl": "https://evolvepeptides.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:09:54.908Z",
+    "type": "vendor-site",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "destUrl": "https://fatpigpeptides.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:11:10.691Z",
+    "type": "vendor-site",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "destUrl": "https://formpeptides.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:11:32.028Z",
+    "type": "vendor-site",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "destUrl": "https://helixcore.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:11:53.039Z",
+    "type": "vendor-site",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "destUrl": "https://www.kensingtonlabs.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:12:30.051Z",
+    "type": "vendor-site",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "destUrl": "https://kyrolabspeptides.co.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:13:39.699Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:13:51.534Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:14:09.100Z",
+    "type": "vendor-site",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "destUrl": "https://mypepbiotech.co.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:14:36.758Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:14:50.743Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:15:00.648Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:15:10.843Z",
+    "type": "vendor-site",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "destUrl": "https://octagonpeptides.co.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:15:36.424Z",
+    "type": "vendor-site",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "destUrl": "https://oplabs.co.uk",
+    "visitorId": "6532faa97903f1d2"
+  },
+  {
+    "ts": "2026-09-23T07:16:38.128Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "visitorId": "00e41191bd4375ec"
+  },
+  {
+    "ts": "2026-09-23T07:17:20.876Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:17:51.572Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "destUrl": "https://peptidesuk.com",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:18:44.422Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "destUrl": "https://www.peptifyuk.com",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:19:06.633Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:19:51.086Z",
+    "type": "vendor-site",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "destUrl": "https://pioneerpeptides.co.uk",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:20:16.606Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:20:49.285Z",
+    "type": "vendor-site",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "destUrl": "https://www.prime-peptides.co.uk",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:24:00.208Z",
+    "type": "vendor-site",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "destUrl": "https://pslabs.uk",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:25:17.243Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "5015873da7d95cf2"
+  },
+  {
+    "ts": "2026-09-23T07:25:18.503Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "5015873da7d95cf2"
+  },
+  {
+    "ts": "2026-09-23T07:25:34.470Z",
+    "type": "vendor-site",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "destUrl": "https://redpandapeptides.co.uk",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:25:56.633Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:26:42.651Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "visitorId": "5015873da7d95cf2"
+  },
+  {
+    "ts": "2026-09-23T07:27:19.025Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "visitorId": "ee15f23ccabdbd42"
+  },
+  {
+    "ts": "2026-09-23T07:30:58.567Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk",
+    "visitorId": "5015873da7d95cf2"
   }
 ]
