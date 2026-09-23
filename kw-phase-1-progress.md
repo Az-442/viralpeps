@@ -159,12 +159,68 @@ E-utilities esummary (author, journal, title, year checked — none guessed). Al
 
 ---
 
-## Next up
-**Day 7 — Tue 22 Sep (2 articles)**
-- `kpv-deep-dive` — kpv (deep)
-- `epitalon-vs-thymalin` — epitalon (vs)
+## Day 7 — Tue 22 Sep (2 articles) ✅ DONE
+Completed 23 Sep 03:00 by daily blog cron (main branch, direct).
 
-Neither slug exists yet (verified — 0 matches across BOTH `research-content.ts` and `research.ts`).
+- `kpv-deep-dive` — kpv (deep) — section: peptides, compoundSlug: kpv
+- `epitalon-vs-thymalin` — epitalon (vs) — section: comparisons, compoundSlug: epitalon,
+  compoundSlug2: thymalin
+
+Cards:
+- `public/images/guides/kpv-deep-dive.png` — Pillow single-vial (KPV vial, 75% card height),
+  badge "Deep Dive Report"
+- `public/images/guides/epitalon-vs-thymalin.png` — Pillow dual-vial (Epitalon + Thymalin vials,
+  50% card height each), badge "Head-to-Head Comparison"
+
+Card script: `scripts/make_kw_phase1_day8_cards.py` (shared Pillow template — misnamed "day8"
+to avoid colliding with the Day-6 script that was already sitting at `make_kw_phase1_day7_cards.py`).
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,965 / 2,856. Rendered page word counts (incl. all site chrome): 8,227 / 8,333.
+
+Build: passed (155/155 pages, up from 153). 17 PMIDs verified individually via NCBI E-utilities
+esummary (title + journal + author + year checked — none guessed). All 7 internal links verified
+against `compounds.json` slugs and existing `research-content.ts` keys — 0 broken. Both guide card
+`image:` refs cross-checked against disk: OK (71 refs checked, 0 missing).
+
+Live verified: `/research/kpv-deep-dive` and `/research/epitalon-vs-thymalin` both 200 with correct
+`<title>`, self-referencing canonical, card image serving at matching byte size, both listed on
+`/research`, and both present in their compounds' Research Library sections
+(`/compounds/kpv`, `/compounds/epitalon`).
+
+Commit: `c015215d` · pushed to main (0 unpushed).
+
+### Lessons from this run
+1. **`write_file` did NOT double escapes this run.** Both /tmp fragments were written directly by
+   the parent session (not by subagents) and came out with 0 doubled `\\n` and 0 doubled `\\'`.
+   The normaliser was still run as a check-first step and reported clean. Doubling appears to be a
+   subagent-output artifact, not a universal `write_file` behaviour — always *check*, never blindly
+   transform. (The Day-6 note's warning against adding a `.replace("\\'", "'")` guard in the merge
+   still stands.)
+2. **Seam confirmed again** for the current file: `'\n  ],\n},\n\n};'` — matches exactly once.
+   The merge replacement form that works is
+   `'\n  ],\n},\n\n' + block + ',\n\n};'` — i.e. the last new entry carries a trailing comma
+   because it is no longer last, and each new entry keeps its own `slug:` field (the Record key
+   alone does not satisfy `ResearchPageContent`).
+3. **Vial label QA is still worth doing.** All three vials used here (kpv-vial, epitalon-vial,
+   thymalin-vial) were checked with the vision tool *before* card generation and all read correctly.
+   The Day-5 `5-Amio-1MQ` typo is the reason this step stays in the loop.
+
+---
+
+## Next up
+**Day 8 — Wed 23 Sep (3 articles)**
+- `p21-for-neurogenesis` — p21 (for)
+- `growth-hormone-peptide-suppliers-uk` — growth hormone peptide suppliers UK (grouped)
+- `peptides-for-sale-uk` — peptides for sale (pillar)
+
+None of these slugs exist yet. Note `p21-for-neurogenesis` is the same compound as the already-live
+`p21-deep-dive` (Day 1) but a different article type — spaced 7 days apart, which satisfies the
+5+ day no-KW-stacking rule. `growth-hormone-peptide-suppliers-uk` should be kept distinct from the
+existing `cognitive-peptide-suppliers-uk` (different category, different vendor tier structure).
+`peptides-for-sale-uk` is adjacent to the live `research-peptides-for-sale-uk` (Day 6) — write it
+as a distinct angle (broad "peptides for sale" intent vs the market-structure piece) or swap for
+an unused slug from a later day.
 
 ---
 
