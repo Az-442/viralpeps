@@ -1337,6 +1337,28 @@ export const guides: ResearchArticle[] = [
     minutes: 13,
     tags: ["research-peptides", "uk", "market", "sourcing", "suppliers", "coa", "purity", "buying-guide", "directory"],
   },
+  {
+    title: "KPV Deep Dive: How a Three-Residue Fragment Keeps α-MSH's Anti-Inflammatory Activity",
+    desc: "KPV (Lys-Pro-Val) is the C-terminal tripeptide of α-MSH — and it retains the parent hormone's anti-inflammatory and antimicrobial activity while shedding its pigmenting effects. PepT1 uptake, NF-κB and MAPK mechanisms, the murine colitis evidence, the missing human data, and the UK supply picture across 52 vendors.",
+    category: "Compound Profiles",
+    section: "peptides",
+    compound: "KPV",
+    slug: "kpv-deep-dive",
+    image: "kpv-deep-dive",
+    minutes: 14,
+    tags: ["kpv", "lys-pro-val", "alpha-msh", "tripeptide", "pept1", "nf-kb", "anti-inflammatory", "deep-dive", "immunity"],
+  },
+  {
+    title: "Epitalon vs Thymalin: A Defined Tetrapeptide Against a Tissue Fraction",
+    desc: "Both are sold as peptide bioregulators and both come out of St Petersburg — but Epitalon is Ala-Glu-Asp-Gly with a CAS number, and Thymalin is a thymus-derived fraction with no single sequence and no calculable mass. Telomerase and pineal signalling versus thymic T-cell maturation, why the identity problem drives a 48-versus-10 vendor gap, and what it means for reproducibility.",
+    category: "Articles",
+    section: "comparisons",
+    compound: "Epitalon",
+    slug: "epitalon-vs-thymalin",
+    image: "epitalon-vs-thymalin",
+    minutes: 14,
+    tags: ["epitalon", "thymalin", "comparison", "bioregulator", "khavinson", "telomerase", "thymus", "immune-senescence", "aedg"],
+  },
 ];
 
 export const compoundList: string[] = [

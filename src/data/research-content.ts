@@ -11403,5 +11403,354 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'kpv-deep-dive': {
+  slug: 'kpv-deep-dive',
+  compoundSlug: 'kpv',
+  pullQuote: 'KPV is the cleanest natural experiment in peptide pharmacology: strip a thirty-nine-residue hormone down to its last three amino acids and the anti-inflammatory activity survives while almost everything else disappears.',
+  quickInfo: [
+    { label: 'Compound', value: 'KPV (Lys-Pro-Val)' },
+    { label: 'Parent Molecule', value: '\u03b1-MSH(11-13) \u2014 C-terminal tripeptide of alpha-melanocyte-stimulating hormone' },
+    { label: 'CAS Number', value: '69352-14-3' },
+    { label: 'Molecular Weight', value: '342.4 g/mol' },
+    { label: 'Residues', value: '3 (lysine, proline, valine)' },
+    { label: 'Uptake Route', value: 'PepT1 (SLC15A1) di/tripeptide transporter' },
+    { label: 'Primary Mechanisms', value: 'NF-\u03baB inhibition, MAPK modulation, antimicrobial activity, barrier protection' },
+    { label: 'UK Supply', value: '52 vendors, 63 tracked listings on ViralPeps' },
+    { label: 'Evidence Stage', value: 'Strong preclinical (murine colitis, corneal and dermal wound models); no pivotal human trials' },
+    { label: 'Form', value: 'Lyophilised powder, \u226599% purity' },
+  ],
+  sections: [
+    {
+      title: 'KPV Deep Dive: The Short Answer',
+      body: 'KPV is a naturally occurring tripeptide with the sequence lysine-proline-valine. It is the C-terminal fragment of \u03b1-melanocyte-stimulating hormone, the thirty-nine-residue peptide that governs pigmentation, inflammation, immune signalling and energy balance.\n\nWhat makes KPV a genuine pharmacological curiosity is what survives truncation. Cutting a hormone down to three amino acids normally destroys it. Here the opposite happens: the anti-inflammatory and antimicrobial activity of the full-length \u03b1-MSH concentrates into the fragment, while melanotropic activity \u2014 the pigmenting effect that makes \u03b1-MSH unsuitable for anything other than research \u2014 is largely lost.\n\nThe mechanistic explanation has two strands. First, KPV is a substrate for PepT1, the di/tripeptide transporter expressed throughout the small intestine and upregulated in inflamed colon. That gives it an uptake route no full-length peptide has. Second, it acts substantially independently of the melanocortin receptors that the parent hormone uses, driving anti-inflammatory effects through intracellular signalling rather than cell-surface receptor engagement.\n\nThat combination \u2014 oral-adjacent bioavailability plus receptor-independent anti-inflammatory action \u2014 is why KPV has persisted in the literature for two decades while other \u03b1-MSH fragments have faded. It is the smallest peptide in the ViralPeps catalogue by residue count and one of the most widely stocked, with 52 UK vendors carrying it. Every price is compared at [**KPV UK prices**](/compounds/kpv).'
+    },
+    {
+      title: 'Why a Three-Residue Peptide Works At All',
+      body: 'Peptide drug design carries a bias that longer is more specific and therefore better. KPV is the counterexample, and understanding why it works requires separating two things that are usually coupled: binding and signalling.\n\nFor most peptide hormones, activity depends on a folded structure that presents the correct chemical groups to a receptor binding pocket. Destroy the fold and activity dies. \u03b1-MSH is a case in point \u2014 its melanocortin activity depends on the core tetrapeptide His-Phe-Arg-Trp sequence adopting the right geometry inside the MC1R pocket.\n\nBut \u03b1-MSH also works through mechanisms that do not require receptor binding at all. Part of its anti-inflammatory action is delivered intracellularly, where the peptide interferes with transcription-factor signalling directly. That activity is carried by the residues near the C-terminus, and critically, it does not depend on a folded architecture \u2014 a short linear sequence is sufficient.\n\nOnce you accept that some anti-inflammatory signalling is sequence-local rather than structure-dependent, the apparent paradox dissolves. KPV is not a degraded hormone. It is a fragment that retains a self-contained signalling module while shedding the parts of the parent molecule that needed folding to work.',
+      subsections: [
+        {
+          title: 'The PepT1 angle',
+          body: 'KPV is transported by PepT1, encoded by SLC15A1, a member of the solute carrier family that handles dietary di- and tripeptides across the intestinal brush border. The transporter has a strict size preference: it accepts two or three residues and rejects anything larger.\n\nThis matters because the transporter is not expressed uniformly. PepT1 sits at low levels in healthy small intestine and is strongly induced in inflamed colon tissue \u2014 the pathological setting where an anti-inflammatory peptide would be most useful. KPV therefore has a delivery route that is enriched precisely where the therapeutic target is.\n\nThe Dalmasso group demonstrated this directly, showing that PepT1-mediated uptake of KPV reduces intestinal inflammation, and that the effect tracks transporter availability. It is one of the cleaner mechanistic results in the peptide literature: the size constraint that makes KPV a poor receptor ligand is the same property that makes it a good PepT1 substrate.'
+        },
+        {
+          title: 'The receptor question',
+          body: 'KPV has been reported to interact with MC1R and MC3R, and some of its dermal and keratinocyte effects are consistent with melanocortin receptor engagement. But the anti-inflammatory activity does not disappear when receptor signalling is blocked, which rules out a receptor-exclusive mechanism.\n\nThe most defensible reading of the literature is that KPV has a mixed profile: some activity through melanocortin receptors, and a substantial receptor-independent component acting downstream of uptake. This is unusual enough that it should be treated as a hypothesis under test rather than settled pharmacology \u2014 but it is the reading that best fits the published data.'
+        }
+      ]
+    },
+    {
+      title: 'Mechanism of Action in Detail',
+      body: 'The mechanistic literature on KPV converges on three pathways. None of them is unique to KPV, but the combination is.',
+      subsections: [
+        {
+          title: 'NF-\u03baB inhibition',
+          body: 'Nuclear factor kappa-B is the master transcription factor for inflammatory gene expression. In resting cells it is held in the cytoplasm by I\u03baB inhibitor proteins. Inflammatory stimuli trigger I\u03baB kinase to phosphorylate and degrade the inhibitor, freeing NF-\u03baB to translocate to the nucleus and drive transcription of TNF-\u03b1, IL-1\u03b2, IL-6, iNOS and COX-2.\n\nKPV blunts this cascade. The published work shows reduced nuclear translocation of NF-\u03baB and correspondingly reduced transcription of its target genes in KPV-treated cells and tissue. Because this operates on the transcription factor rather than on a single upstream receptor, the suppression is broad-spectrum \u2014 which is both the appeal and the reason it is studied in multi-pathway conditions like colitis rather than in narrow receptor-defined diseases.'
+        },
+        {
+          title: 'MAPK pathway modulation',
+          body: 'The mitogen-activated protein kinase cascades \u2014 ERK, JNK and p38 \u2014 translate extracellular stress and cytokine signals into transcriptional responses. p38 and JNK in particular are pro-inflammatory arms, driving cytokine production and apoptotic signalling under stress.\n\nKPV has been shown to modulate MAPK phosphorylation in several model systems, reducing stress-activated signalling. This is mechanistically complementary to the NF-\u03baB effect rather than redundant: NF-\u03baB controls which inflammatory genes are transcribed, while MAPK signalling controls how strongly the cell responds to the stimulus that triggers them.'
+        },
+        {
+          title: 'Direct antimicrobial activity',
+          body: 'Separately from its anti-inflammatory work, KPV retains antimicrobial activity against a range of organisms. The Cutuli group characterised antimicrobial effects across \u03b1-MSH peptides and found the C-terminal fragment active. The mechanism is not receptor-mediated; it is the membrane-disruptive mode typical of short cationic host-defence peptides, though KPV is notably short even by that standard.\n\nThe dimerised form [Ac-CKPV]2 has been studied specifically for candidacidal activity and its three-dimensional structure solved, showing that the acetylated dimer retains activity. This matters for the endotoxin work: the Gatti group showed that (CKPV)2 inhibits endotoxin-induced host reactions, extending the activity profile from direct antimicrobial action into modulation of the inflammatory response to bacterial products.'
+        }
+      ]
+    },
+    {
+      title: 'The Evidence Base: What Has Actually Been Shown',
+      body: 'KPV\u2019s literature is small, focused and overwhelmingly preclinical. That is not a criticism, but it does define the limits of what can honestly be claimed.',
+      table: {
+        header: ['Research area', 'Model', 'Key finding', 'Reference'],
+        rows: [
+          ['Intestinal inflammation', 'Murine colitis', 'PepT1-mediated KPV uptake reduces intestinal inflammation', 'Dalmasso 2008, Gastroenterology (PMID 18061177)'],
+          ['Inflammatory bowel disease', 'Murine IBD models', 'Melanocortin-derived KPV shows anti-inflammatory potential', 'Kannengiesser 2008, Inflamm Bowel Dis (PMID 18092346)'],
+          ['Colitis delivery', 'Murine ulcerative colitis', 'Oral nanoparticle-targeted KPV alleviates colitis', 'Xiao 2017, Mol Ther (PMID 28143741)'],
+          ['Antimicrobial', 'In vitro panels', 'C-terminal \u03b1-MSH peptides retain antimicrobial activity', 'Cutuli 2000, J Leukoc Biol (PMID 10670585)'],
+          ['Endotoxin response', 'In vivo / in vitro', '(CKPV)2 inhibits endotoxin-induced host reactions', 'Gatti 2006, J Surg Res (PMID 16413580)'],
+          ['Corneal wound healing', 'Corneal epithelium', 'Tripeptide \u03b1-MSH(11-13) promotes healing via nitric oxide', 'Bonfiglio 2006, Exp Eye Res (PMID 16965771)'],
+          ['Keratinocyte signalling', 'Human keratinocytes', '\u03b1-MSH, KPV and ACTH signalling characterised in skin cells', 'Elliott 2004, J Invest Dermatol (PMID 15102092)'],
+          ['Host defence context', 'Review', 'Receptor-independent mechanisms across \u03b1-MSH peptides', 'Luger 2003, Ann N Y Acad Sci (PMID 12851308)'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'Where the evidence is strongest',
+          body: 'Intestinal inflammation is the best-supported area, and unusually for this field, the support is mechanistic rather than merely observational. The Dalmasso work establishes the uptake pathway, the Kannengiesser work establishes the anti-inflammatory effect in disease models, and the Xiao nanoparticle work demonstrates that delivery route can be engineered to improve outcomes. Three independent groups, converging on a consistent picture, is a materially stronger position than a single model result.\n\nThe corneal wound-healing finding is also worth noting because it implicates nitric oxide signalling \u2014 a different pathway from the NF-\u03baB and MAPK effects that dominate the colitis literature. If KPV is acting through distinct mechanisms in different tissues, that argues against a single-pathway explanation and in favour of the mixed-mechanism reading.'
+        },
+        {
+          title: 'Where the evidence stops',
+          body: 'There are no pivotal human trials of KPV. The literature contains no dose-ranging study in humans, no randomised controlled trial in any indication, and no pharmacokinetic study in humans that would establish systemic exposure after the routes of administration used in animal work.\n\nThis is a real limit and it has a specific consequence: nothing in the published record supports extrapolating murine colitis results to human gastrointestinal conditions. Animal models of colitis are imperfect proxies even for other animal models, let alone for human disease. The honest position is that KPV has a well-characterised mechanism and a reproducible preclinical signal, and that the translation step has not been taken.\n\nIt is also worth being precise about the peptide identity question. Thymalin, discussed in [**our comparison with Epitalon**](/research/epitalon-vs-thymalin), is a tissue-derived fraction containing multiple peptide species rather than a single sequence. KPV is the opposite case \u2014 a single defined tripeptide with a CAS number and an unambiguous structure. That is a genuine analytical advantage: identity verification is a solved problem for KPV in a way it is not for fractionated preparations.'
+        }
+      ]
+    },
+    {
+      title: 'KPV in the UK Research Supply Market',
+      body: 'KPV is one of the widest-stocked compounds in the UK research supply market, and the breadth is worth understanding because it is not obviously justified by cost of goods.\n\nAt 342.4 g/mol, KPV is a three-residue solid-phase synthesis product. Synthesis cost scales roughly with sequence length and the difficulty of coupling, and three residues is close to the floor \u2014 it is among the cheapest peptides that can be made at research scale. Yet list prices on ViralPeps run from \u00a317.00 to \u00a3199.99, a spread far wider than the underlying cost differential explains.\n\nThe current data on ViralPeps: 63 tracked listings across 52 vendors, with the market concentrated in 10 mg and 5 mg presentations (37 and 8 listings respectively). The upper end of the price range is not a different product \u2014 it is the same compound sold at a markup, sometimes in a larger presentation, sometimes not.',
+      table: {
+        header: ['Presentation', 'Listings tracked', 'Typical role in the market'],
+        rows: [
+          ['10 mg', '37', 'The dominant presentation \u2014 most vendors stock only this'],
+          ['5 mg', '8', 'Entry-size vial, often the cheapest headline price'],
+          ['20 mg', '1', 'Larger format, marginal presence in UK supply'],
+          ['30 mg', '1', 'Larger format, marginal presence in UK supply'],
+          ['500 mcg', '1', 'Unusually small \u2014 check the specification carefully'],
+          ['Unspecified', '13', 'Listings with no stated strength \u2014 a documentation red flag'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'What to check on a KPV certificate of analysis',
+          body: 'The verification checklist for KPV is specific to a short synthetic peptide.\n\nFirst, mass confirmation. The theoretical monoisotopic mass of Lys-Pro-Val is straightforward to calculate and any competent laboratory will report an observed mass by electrospray or MALDI. For a tripeptide the tolerance should be tight \u2014 a few parts per million. A certificate reporting purity without mass identity has established that something is 99% pure, not that it is KPV.\n\nSecond, HPLC purity with the chromatogram attached. Tripeptides are short enough that deletion sequences \u2014 products missing one residue \u2014 are the dominant impurity class, and they can elute close to the target. A purity figure without the trace does not let you judge whether the impurity is a truncation product.\n\nThird, the counter-ion. Short basic peptides like KPV are commonly supplied as the trifluoroacetate salt. Trifluoroacetate has documented cellular effects at higher concentrations, and if it is present and unquantified it becomes an uncontrolled variable. The better certificates state the salt form.\n\nFourth, batch traceability. The certificate must reference the batch number on the vial you receive. A generic certificate of analysis not tied to a specific lot tells you the vendor has tested something, at some point.'
+        },
+        {
+          title: 'Why the price spread matters more here than elsewhere',
+          body: 'For a compound with high synthesis cost, a wide price spread usually reflects genuine differences in scale, purity grade or testing depth. For a tripeptide, the cost floor is low, so the spread is more likely to reflect marketing position than product difference.\n\nThat means price is a weak signal for KPV and documentation is a strong one. A vendor charging \u00a317 and a vendor charging \u00a3199.99 may be selling functionally identical material; the question that discriminates is whether each supplies a batch-matched certificate with mass data. Our [**KPV supplier guide**](/research/kpv-suppliers-uk) covers the verification workflow in detail.'
+        }
+      ]
+    },
+    {
+      title: 'Practical Research Considerations',
+      body: 'Several practical points recur in KPV research and are worth stating plainly.',
+      subsections: [
+        {
+          title: 'Stability and handling',
+          body: 'KPV is a lyophilised powder with a reported half-life in the order of one to two hours. The short half-life is a consequence of its size: three residues is below the threshold at which serum proteases need to work hard, and free peptide is cleared rapidly.\n\nFor research use this means the powdered form is the sensible storage state. Lyophilised KPV is stable at -20\u00b0C for extended periods; reconstituted solution is substantially less stable, and the difference is large enough that reconstitution timing matters to experimental reproducibility. If a protocol requires solution, the general rule for short peptides applies: reconstitute fresh, keep cold, minimise freeze-thaw cycling.\n\nNone of this constitutes a dosing protocol, and nothing here is medical guidance. KPV is a research chemical.'
+        },
+        {
+          title: 'Why the half-life may matter less than it appears',
+          body: 'A one-to-two-hour half-life looks disqualifying for a systemic agent. For an intestinal target it may not be, because PepT1-mediated uptake is a local transport process rather than a systemic exposure problem \u2014 the peptide does not need to survive in circulation if its target is on the other side of the brush border.\n\nThis is the strongest argument for treating KPV as a compartment-specific research tool rather than a general anti-inflammatory. The pharmacokinetics that look like a liability systemically are less of a problem when the delivery route is local uptake at the site of action. It is also why most of the compelling published work uses direct intestinal or topical administration rather than systemic routes.'
+        }
+      ]
+    },
+    {
+      title: 'Common Questions About KPV',
+      body: 'The questions that recur when researchers evaluate KPV tend to cluster around identity, stability and evidence stage.',
+      subsections: [
+        {
+          title: 'Is KPV the same as \u03b1-MSH?',
+          body: 'No. \u03b1-MSH is a thirty-nine-residue peptide that requires the MC1R receptor for its pigmenting activity. KPV is a three-residue fragment corresponding to positions 11-13 of \u03b1-MSH. It retains much of the anti-inflammatory activity but substantially less melanotropic activity. The distinction matters experimentally: results with \u03b1-MSH cannot be assumed to transfer to KPV, because the receptor engagement profile differs.'
+        },
+        {
+          title: 'Does the KPV half-life rule it out?',
+          body: 'For systemic delivery, largely. For local delivery to intestinal epithelium via PepT1, the pharmacokinetic argument is weaker, because the peptide does not need systemic circulation to reach its target. Most of the published preclinical work uses local or targeted administration for this reason.'
+        },
+        {
+          title: 'Why is there so little human data?',
+          body: 'KPV sits outside the commercial pathway that generates human trial data. It is a short, unpatentable natural fragment with no obvious exclusivity route, which removes the usual commercial incentive to fund clinical development. The consequence is a well-characterised mechanism with the translation step simply never taken by anyone.'
+        }
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: 'What is KPV?',
+      answer: 'KPV is a naturally occurring tripeptide with the sequence Lys-Pro-Val, corresponding to the C-terminal fragment of alpha-melanocyte-stimulating hormone. It is studied primarily for anti-inflammatory, antimicrobial and epithelial barrier activity, and has CAS number 69352-14-3.'
+    },
+    {
+      question: 'Is KPV peptide available in the UK?',
+      answer: 'Yes. KPV is one of the most widely stocked research peptides in the UK, with 52 vendors and 63 tracked listings on ViralPeps. It is sold as a research-use-only chemical, not as a medicine.'
+    },
+    {
+      question: 'Why does KPV work despite being only three amino acids?',
+      answer: 'Because part of the parent hormone\u2019s anti-inflammatory activity is sequence-local rather than structure-dependent. KPV retains the residues that mediate intracellular anti-inflammatory signalling while shedding the melanotropic activity that required the full folded structure and melanocortin receptor engagement.'
+    },
+    {
+      question: 'How does KPV get absorbed?',
+      answer: 'KPV is a substrate for PepT1 (SLC15A1), the intestinal di/tripeptide transporter. PepT1 accepts peptides of two or three residues and is upregulated in inflamed colon tissue, giving KPV an uptake route enriched at a relevant inflammatory site.'
+    },
+    {
+      question: 'Has KPV been tested in humans?',
+      answer: 'No. The published literature is preclinical, dominated by murine colitis models and in vitro antimicrobial and keratinocyte work. There are no pivotal human trials and no human pharmacokinetic studies.'
+    }
+  ],
+  references: [
+    'Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008;134(1):166-178. PMID 18061177',
+    'Kannengiesser K, Maaser C, Heidemann J, et al. Melanocortin-derived tripeptide KPV has anti-inflammatory potential in murine models of inflammatory bowel disease. Inflamm Bowel Dis. 2008;14(3):324-331. PMID 18092346',
+    'Xiao B, Xu Z, Viennois E, et al. Orally targeted delivery of tripeptide KPV via hyaluronic acid-functionalized nanoparticles efficiently alleviates ulcerative colitis. Mol Ther. 2017;25(7):1628-1640. PMID 28143741',
+    'Cutuli M, Cristiani S, Lipton JM, Catania A. Antimicrobial effects of alpha-MSH peptides. J Leukoc Biol. 2000;67(2):233-239. PMID 10670585',
+    'Gatti S, Carlin A, Sordi A, et al. Inhibitory effects of the peptide (CKPV)2 on endotoxin-induced host reactions. J Surg Res. 2006;131(2):209-214. PMID 16413580',
+    'Bonfiglio V, Camillieri G, Avitabile T, et al. Effects of the COOH-terminal tripeptide alpha-MSH(11-13) on corneal epithelial wound healing: role of nitric oxide. Exp Eye Res. 2006;83(6):1366-1372. PMID 16965771',
+    'Elliott RJ, Szabo M, Wagner MJ, et al. alpha-Melanocyte-stimulating hormone, MSH 11-13 KPV and adrenocorticotropic hormone signalling in human keratinocyte cells. J Invest Dermatol. 2004;122(4):1010-1019. PMID 15102092',
+    'Luger TA, Scholzen TE, Brzoska T, Bohm M. New insights into the functions of alpha-MSH and related peptides in the immune system. Ann N Y Acad Sci. 2003;994:133-140. PMID 12851308',
+  ],
+},
+
+'epitalon-vs-thymalin': {
+  slug: 'epitalon-vs-thymalin',
+  compoundSlug: 'epitalon',
+  compoundSlug2: 'thymalin',
+  pullQuote: 'These two are usually sold as a pair, but they are not the same kind of thing at all. One is a defined tetrapeptide with a CAS number. The other is a tissue fraction with no single sequence, no molecular weight and a substantially weaker claim to analytical identity.',
+  quickInfo: [
+    { label: 'Epitalon', value: 'Ala-Glu-Asp-Gly (AEDG) \u2014 synthetic tetrapeptide' },
+    { label: 'Thymalin', value: 'Thymus-derived polypeptide fraction \u2014 no single defined sequence' },
+    { label: 'Epitalon CAS', value: '130268-60-9' },
+    { label: 'Thymalin CAS', value: 'Not applicable \u2014 mixture, not a discrete compound' },
+    { label: 'Epitalon MW', value: '390.4 g/mol' },
+    { label: 'Thymalin MW', value: 'No single value \u2014 fractionated preparation' },
+    { label: 'Epitalon Origin', value: 'Synthetic analogue of the pineal extract epithalamin' },
+    { label: 'Thymalin Origin', value: 'Polypeptide fraction extracted from bovine thymus tissue' },
+    { label: 'Research Focus', value: 'Epitalon: telomerase, circadian/pineal signalling. Thymalin: T-cell maturation, immune senescence' },
+    { label: 'UK Supply', value: 'Epitalon 48 vendors / 59 listings \u00b7 Thymalin 10 vendors / 14 listings' },
+  ],
+  sections: [
+    {
+      title: 'Epitalon vs Thymalin: The Short Answer',
+      body: 'Both are sold as \u201cpeptide bioregulators\u201d, both come out of the same research tradition at the St Petersburg Institute of Bioregulation and Gerontology, and vendors frequently list them side by side. The resemblance largely ends there.\n\nEpitalon is a synthetic tetrapeptide with a defined sequence \u2014 alanine-glutamate-aspartate-glycine, abbreviated AEDG \u2014 a molecular weight of 390.4 g/mol, and CAS number 130268-60-9. It was designed as an analogue of epithalamin, a peptide extract from bovine pineal gland, and it is the compound that put the peptide-bioregulator class on the map outside Russia. Its research identity is wrapped up with telomerase activation and pineal-circadian signalling.\n\nThymalin is a different kind of object. The original is a fractionated polypeptide preparation extracted from thymus tissue, containing multiple low-molecular-weight components rather than one defined sequence. Review work has identified short peptides within the fraction \u2014 the dipeptides Glu-Trp and Lys-Glu, the tripeptide Glu-Asp-Pro \u2014 but the preparation as a whole has no single molecular weight and no CAS number, because it is not a discrete compound. Its research identity is thymic: T-cell maturation, immunomodulation and immune senescence.\n\nThat difference in kind, not degree, drives everything else in this comparison \u2014 including the supply picture, where Epitalon has 48 UK vendors against Thymalin\u2019s 10. Current prices for both are tracked at [**Epitalon UK prices**](/compounds/epitalon) and [**Thymalin UK prices**](/compounds/thymalin).'
+    },
+    {
+      title: 'The Identity Problem: A Defined Compound vs a Fraction',
+      body: 'This is the most important distinction between the two compounds and the one that is most often glossed over, because a vendor selling both has a commercial interest in presenting them as interchangeable.\n\nWhen you buy Epitalon, the specification question is answerable. The peptide has a known sequence, so a laboratory can confirm it by mass spectrometry and quantify purity by HPLC against a known standard. The certificate of analysis is a testable document: you can compute the expected mass of Ala-Glu-Asp-Gly and check it against the reported observed mass. It is either the right molecule or it is not.\n\nWhen you buy Thymalin, that question has no equivalent answer. A fractionated tissue extract containing Glu-Trp, Lys-Glu and Glu-Asp-Pro among other components cannot be verified by a single mass figure, because it does not have one. The analytical question becomes something closer to compositional profiling than identity confirmation.\n\nThis does not mean Thymalin is not worth studying. It means the reproducibility assumption is different. A result obtained with an Epitalon batch is more likely to replicate with a different vendor\u2019s Epitalon batch than a Thymalin result is to replicate with a different vendor\u2019s Thymalin, because the latter\u2019s composition is less constrained. Research using Thymalin needs to specify the source and batch in a way Epitalon research does not.',
+      subsections: [
+        {
+          title: 'Why the CAS number matters more than it looks',
+          body: 'A CAS number is not bureaucratic decoration. It is a registry entry that means a specific chemical structure has been defined well enough to index, and it is what allows a laboratory to order a reference standard, compute a theoretical mass and compare.\n\nEpitalon has CAS 130268-60-9. Thymalin has none, and cannot have one, because a variable-composition tissue fraction has no single structure to register. When a listing shows a CAS number for a product that cannot have one, that is a documentation defect \u2014 and it is one of the fastest filters for a carelessly assembled product page.'
+        },
+        {
+          title: 'The genuine multi-component case',
+          body: 'There is a defensible argument for multi-component thymic preparations: the original research used the full extract, and if the active principle is a combination rather than a single peptide, replacing it with one purified dipeptide changes the experiment. That argument is worth taking seriously.\n\nIt does, however, cut against the way these products are usually sold. If the rationale for Thymalin is the whole fraction, then a listing that advertises a specific dipeptide content is not obviously selling the thing the original research characterised. The two positions \u2014 fraction-based and single-peptide-based \u2014 are not consistent with each other, and vendors rarely commit to one.'
+        }
+      ]
+    },
+    {
+      title: 'Mechanism: Telomerase and Pineal Signalling vs Thymic Selection',
+      body: 'The two compounds act in different organ systems through different proposed mechanisms, which is why grouping them as \u201cthe longevity pair\u201d is misleading.',
+      subsections: [
+        {
+          title: 'Epitalon \u2014 telomerase and the pineal axis',
+          body: 'Epitalon\u2019s central claim is telomerase induction. The Khavinson group reported that epithalon peptide induces telomerase activity and telomere elongation in human somatic cells, with a follow-up paper describing promotion of the division limit in cultured human somatic cells. Telomerase is the reverse transcriptase that maintains telomeric repeats; in most human somatic cells it is silenced, and telomere attrition is one of the hallmarks of replicative ageing. Inducing it in culture is a meaningful result.\n\nThe mechanism is proposed to run through gene-expression regulation rather than direct enzymatic action. This is the broader Khavinson hypothesis: short peptides are thought to enter cells and influence transcription of specific genes, possibly through direct DNA interaction. The group published structural work arguing that DNA double-helix binds regulatory peptides in a manner similar to transcription factors, and later systematic reviews of short-peptide gene regulation.\n\nSeparately, Epitalon is linked to the pineal axis. The Korkushko group studied the epithalamin preparation in elderly subjects, reporting effects on the circadian rhythm of pineal melatonin-producing function, and found the pineal preparation influenced the diurnal blood-pressure profile in middle-aged and elderly women with ischaemic heart disease and hypertension. If Epitalon has a circadian effect, this is the evidence lineage for it \u2014 and it is the more reproducible of the two pharmacological claims, because circadian endpoints are measurable without relying on gene-expression theory.'
+        },
+        {
+          title: 'Thymalin \u2014 thymic function and immune senescence',
+          body: 'Thymalin\u2019s proposed mechanism is thymic. The thymus is where T-lymphocytes undergo selection and maturation, and it involutes progressively with age \u2014 a process linked to declining naive T-cell output and reduced repertoire diversity, a phenomenon known as immune senescence.\n\nThe Khavinson group reported that Thymalin activates differentiation of human haematopoietic stem cells, and follow-up work in the COVID-19 context examined the influence of KE and EW dipeptides found in the Thymalin drug on gene expression and protein synthesis. A separate line of work has discussed the use of haematopoietic stem cell differentiation activators in complex therapy.\n\nThe thymic-involution framing is coherent: if the clinical problem is reduced thymic output with age, a preparation derived from thymic tissue and studied for T-cell effects is a rational place to look. What is missing is the mechanistic specificity that Epitalon\u2019s telomerase work provides \u2014 the telomerase result is a defined biochemical endpoint, while \u201cactivates differentiation\u201d is a broader cellular observation that is harder to falsify.'
+        }
+      ]
+    },
+    {
+      title: 'The Evidence Base Compared',
+      body: 'Both compounds come from a literature dominated by a single research group, which is a structural limitation worth weighing explicitly.',
+      table: {
+        header: ['Dimension', 'Epitalon (AEDG)', 'Thymalin'],
+        rows: [
+          ['Chemical identity', 'Defined tetrapeptide, CAS 130268-60-9', 'Tissue-derived fraction, no single sequence'],
+          ['Mass verification', 'Possible \u2014 theoretical mass calculable', 'Not possible \u2014 no single mass'],
+          ['Primary research claim', 'Telomerase induction, telomere elongation', 'T-cell maturation, immune senescence'],
+          ['Secondary claim', 'Pineal/circadian melatonin regulation', 'Haematopoietic stem cell differentiation'],
+          ['Key preclinical work', 'Khavinson 2003 (PMID 12937682); Khavinson 2004 (PMID 15455129)', 'Khavinson 2020 (PMID 33237528); Linkova 2023 (PMID 37686182)'],
+          ['Key clinical work', 'Korkushko 2004 (PMID 15452611); Korkushko 2011 (PMID 22451889)', 'Khavinson 2003 (PMID 14523363) \u2014 joint pineal/thymus study'],
+          ['Literature size', 'Larger, more internationally cited', 'Smaller, heavily Russian-language'],
+          ['Proposed mechanism specificity', 'Relatively specific (telomerase enzymatic endpoint)', 'Broad (differentiation, gene expression)'],
+          ['UK supply', '48 vendors, 59 listings', '10 vendors, 14 listings'],
+          ['Price floor', '\u00a311.95', '\u00a314.95'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'The 15-year follow-up finding',
+          body: 'The single most-cited clinical result in this class comes from the Korkushko group and is usually described as a study of a pituitary-derived peptide geroprotector in elderly subjects with 15-year follow-up. The size and duration of that study are what give the peptide-bioregulator field its remaining credibility outside Russia.\n\nIt is also the study that should be read most carefully. Long follow-up geroprotection studies are exceptionally hard to run well: attrition, confounding, and the difficulty of blinding participants for fifteen years are all serious problems. The result is interesting and it is the best available, but it is not the kind of evidence that settles a question \u2014 and it is frequently cited as though it does.'
+        },
+        {
+          title: 'The single-group concentration problem',
+          body: 'Both compounds trace back predominantly to the St Petersburg Institute of Bioregulation and Gerontology and to Vladimir Khavinson\u2019s group. That is not itself a disqualification \u2014 some areas of research legitimately concentrate in one laboratory \u2014 but it does change how the evidence should be weighted.\n\nIndependent replication is the mechanism that catches systematic error. Where an entire literature comes from one group, using one set of methods and one theoretical framework, errors in method or interpretation propagate through every paper rather than being caught by a second team. For Epitalon, the telomerase result is the finding that most needs independent confirmation, because it is the strongest specific claim and the one carrying the most weight in the class\u2019s reputation.'
+        }
+      ]
+    },
+    {
+      title: 'UK Supply: 48 Vendors Against 10',
+      body: 'The supply picture for these two compounds is very different, and it tracks the identity question closely.',
+      table: {
+        header: ['Metric', 'Epitalon', 'Thymalin'],
+        rows: [
+          ['UK vendors', '48', '10'],
+          ['Tracked listings', '59', '14'],
+          ['Cheapest tracked price', '\u00a311.95', '\u00a314.95'],
+          ['Highest tracked price', '\u00a3199.99', '\u00a348.99'],
+          ['Dominant presentation', '10 mg (32 listings)', '10 mg (7 listings)'],
+          ['Larger presentations', '50 mg, 20 mg, 25 mg, 10 x 10-vial kit', '20 mg'],
+          ['Listings with no stated strength', '17', '4'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'Why Thymalin\u2019s supply is thin',
+          body: 'Ten vendors against forty-eight is a large gap, and the explanation is largely the identity problem working through the supply chain.\n\nEpitalon can be ordered from any peptide synthesis house. You specify the sequence, you get a certificate with a mass and a purity figure, and you sell it. The barrier to stocking it is essentially low. Thymalin, if it is a genuine tissue-derived fraction, requires a biological extraction process that a contract synthesis house does not offer. A vendor wanting to stock it either sources a preparation of uncertain provenance or buys a peptide and calls it Thymalin \u2014 and neither route scales the way a synthesised tetrapeptide does.\n\nThe practical consequence is that Thymalin listings deserve more scrutiny per listing than Epitalon listings, not because the vendors are worse but because the analytical problem is harder and the supply chain is less standardised.'
+        },
+        {
+          title: 'Price spread and what it means here',
+          body: 'Epitalon\u2019s spread runs from \u00a311.95 to \u00a3199.99, a sixteen-fold range. Thymalin\u2019s runs from \u00a314.95 to \u00a348.99, a little over three-fold.\n\nThe narrower Thymalin spread is not evidence of a better-behaved market. It is more likely that the upper end of a Thymalin price range cannot be sustained, because a buyer who scrutinises the specification has less to go on and therefore less reason to pay a premium. Epitalon\u2019s wide spread partly reflects the fact that you can pay more for documentation you can actually check \u2014 mass confirmation, batch-matched chromatograms, specified salt form \u2014 and that is a defensible reason to pay more.'
+        }
+      ]
+    },
+    {
+      title: 'Which One Fits Which Research Question',
+      body: 'The choice is not about which compound is stronger. It is about which question you are asking and how much identity certainty the question requires.',
+      subsections: [
+        {
+          title: 'Choose Epitalon when',
+          body: 'The research question involves telomere biology, replicative capacity, or pineal and circadian signalling. In each case Epitalon is the better-defined tool: it has a sequence you can verify, a mass you can check, and the telomerase literature gives a specific biochemical endpoint to design against.\n\nIt is also the better choice when reproducibility across batches matters, simply because the identity problem is solved. Two Epitalon batches from different vendors are more likely to be the same thing than two Thymalin batches are.'
+        },
+        {
+          title: 'Choose Thymalin when',
+          body: 'The research question involves thymic function, T-cell maturation or immune senescence, and when the specific preparation being studied is the one the original literature describes. The thymic framing is coherent and the immune-senescence problem is real and under-studied.\n\nThe caveat is unavoidable: without a defined sequence you cannot fully characterise what you are testing, and you should assume that results may not transfer between vendors. If the experimental design requires a known molecular entity, Thymalin is the wrong tool regardless of how relevant the biology is.'
+        },
+        {
+          title: 'Why they get sold together',
+          body: 'Both compounds sit in the \u201canti-ageing\u201d category on ViralPeps, and both come from the same institutional lineage, so they get bundled commercially as a longevity protocol pair. That bundling obscures a distinction that matters: the thymus is an immune organ and the pineal gland is an endocrine one, and a protocol addressing immune senescence and one addressing circadian regulation are not interchangeable interventions.\n\nIf you are evaluating them as a pair, the sensible approach is to decide which biological problem is the actual target and treat the other as a separate question. Our [**KPV deep dive**](/research/kpv-deep-dive) makes the equivalent point about grouping compounds by commercial category rather than by mechanism.'
+        }
+      ]
+    },
+    {
+      title: 'Common Questions: Epitalon vs Thymalin',
+      body: 'The recurring questions when comparing these two compounds concern identity, verification and evidence quality.',
+      subsections: [
+        {
+          title: 'Can Thymalin be verified by mass spectrometry?',
+          body: 'Not in the way a defined peptide can. Thymalin is a fractionated preparation containing multiple peptide species, so there is no single theoretical mass to compare against. If a certificate of analysis reports a single mass figure for Thymalin, that certificate describes a purified peptide, not the fraction \u2014 which raises the question of what is actually in the vial.'
+        },
+        {
+          title: 'Is Epitalon a natural compound?',
+          body: 'Epitalon is synthetic. It was designed as an analogue of epithalamin, a peptide preparation extracted from bovine pineal gland. Epitalon itself \u2014 Ala-Glu-Asp-Gly \u2014 is a defined synthetic tetrapeptide, which is why it has a CAS number and a calculable mass.'
+        },
+        {
+          title: 'Do these compounds have UK marketing authorisation?',
+          body: 'No. Both are supplied in the UK as research-use-only chemicals. Neither has a UK marketing authorisation as a medicine, and no claim of therapeutic efficacy should be read into their availability. The legal framing for research-use supply is covered in our [**UK peptide directory guide**](/research/uk-peptide-directory).'
+        }
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: 'What is the main difference between Epitalon and Thymalin?',
+      answer: 'Chemical identity. Epitalon is a defined synthetic tetrapeptide (Ala-Glu-Asp-Gly, CAS 130268-60-9) with a calculable molecular weight. Thymalin is a fractionated polypeptide preparation derived from thymus tissue, containing multiple peptide species and having no single sequence or mass. Epitalon research focuses on telomerase and circadian signalling; Thymalin research focuses on thymic function and T-cell maturation.'
+    },
+    {
+      question: 'Are Epitalon and Thymalin both available in the UK?',
+      answer: 'Yes, both are available as research-use-only chemicals. Epitalon has much wider supply with 48 UK vendors and 59 tracked listings on ViralPeps, against 10 vendors and 14 listings for Thymalin. Neither has a UK marketing authorisation as a medicine.'
+    },
+    {
+      question: 'Why does Thymalin not have a CAS number?',
+      answer: 'Because it is not a discrete chemical compound. A CAS number indexes a specific defined structure, and a variable-composition tissue fraction containing multiple peptide species has no single structure to register. Any listing showing a CAS number for Thymalin is displaying incorrect documentation.'
+    },
+    {
+      question: 'Which has stronger evidence, Epitalon or Thymalin?',
+      answer: 'Epitalon has a larger and more internationally cited literature, with the telomerase induction and telomere elongation work providing a specific biochemical endpoint. Thymalin\u2019s evidence base is smaller and more heavily concentrated in Russian-language journals. Both literatures come predominantly from the same research group, which limits independent replication.'
+    },
+    {
+      question: 'Can Epitalon and Thymalin be compared directly?',
+      answer: 'Only with care. They act in different organ systems through different proposed mechanisms \u2014 Epitalon on telomerase and pineal/circadian signalling, Thymalin on thymic T-cell maturation. The main axis on which they genuinely differ is analytical identity: Epitalon can be verified by mass spectrometry, Thymalin cannot.'
+    }
+  ],
+  references: [
+    'Khavinson VKh, Bondarev IE, Butyugov AA. Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells. Bull Exp Biol Med. 2003;135(6):590-592. PMID 12937682',
+    'Khavinson VKh, Bondarev IE, Butyugov AA, Smirnov AY. Peptide promotes overcoming of the division limit in human somatic cell. Bull Exp Biol Med. 2004;137(5):503-506. PMID 15455129',
+    'Khavinson VKh, Morozov VG. Peptides of pineal gland and thymus prolong human life. Neuro Endocrinol Lett. 2003;24(3-4):233-240. PMID 14523363',
+    'Khavinson VKh, Morozov VG, Anisimov VN. [Geroprotective effect of thymalin and epithalamin]. Adv Gerontol. 2002;10:80-86. PMID 12577695',
+    'Korkushko OV, Khavinson VKh, Shatilo VB, Antonyk-Sheglova IA. Effect of peptide preparation epithalamin on circadian rhythm of epiphyseal melatonin-producing function in elderly people. Bull Exp Biol Med. 2004;137(4):395-397. PMID 15452611',
+    'Korkushko OV, Khavinson VKh, Shatilo VB, et al. Peptide geroprotector from the pituitary gland inhibits rapid aging of elderly people: results of 15-year follow-up. Bull Exp Biol Med. 2011;151(3):366-369. PMID 22451889',
+    'Khavinson VK, Linkova NS, Chalisova NI, et al. Thymalin: Activation of Differentiation of Human Hematopoietic Stem Cells. Bull Exp Biol Med. 2020;170(2):250-254. PMID 33237528',
+    'Linkova N, Diatlova A, Katinas G, et al. The Influence of KE and EW Dipeptides in the Composition of the Thymalin Drug on Gene Expression and Protein Synthesis Involved in the Pathogenesis of COVID-19. Int J Mol Sci. 2023;24(17):13410. PMID 37686182',
+    'Merkur\u2019eva GA, Korkushko OV, Shatilo VB, et al. [Effect of the pineal gland peptide preparation on the diurnal profile of arterial pressure in middle-aged and elderly women with ischemic heart disease and arterial hypertension]. Adv Gerontol. 2008;21(2):237-240. PMID 18546838',
+  ],
+},
+
 };
 export default content;
