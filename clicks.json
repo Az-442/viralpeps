@@ -14382,5 +14382,109 @@
     "destUrl": "https://midshirelabs.co.uk/products/selank/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "4de269aac8699886"
+  },
+  {
+    "ts": "2026-09-23T16:51:13.190Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2b8746d291f26357"
+  },
+  {
+    "ts": "2026-09-23T16:51:16.782Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fdd09eef6377a9dd"
+  },
+  {
+    "ts": "2026-09-23T16:51:22.668Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a1930be2201a09b3"
+  },
+  {
+    "ts": "2026-09-23T17:02:25.918Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://vialverse.com/peptides/matrixyl",
+    "visitorId": "a697690913659119"
+  },
+  {
+    "ts": "2026-09-23T17:05:13.088Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin-ipamorelin",
+    "visitorId": "dbf80abbad17dcaf"
+  },
+  {
+    "ts": "2026-09-23T17:10:46.726Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "13a3b951006bfd6a"
+  },
+  {
+    "ts": "2026-09-23T17:10:49.071Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5a7d72781d39ae23"
+  },
+  {
+    "ts": "2026-09-23T17:16:22.877Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/",
+    "visitorId": "f18bfc7eee7f4d47"
+  },
+  {
+    "ts": "2026-09-23T17:16:29.673Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.peptifyuk.com/product/ipamorelin-10mg",
+    "visitorId": "8c14af64e4edb641"
+  },
+  {
+    "ts": "2026-09-23T17:17:22.508Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-without-dac-5mg-ipa-5mg/",
+    "visitorId": "51d04ffcceaed49c"
+  },
+  {
+    "ts": "2026-09-23T17:22:03.719Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://vialverse.com/peptides/kisspeptin-10",
+    "visitorId": "7b6e58d044195c5f"
   }
 ]
