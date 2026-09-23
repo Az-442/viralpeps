@@ -14657,5 +14657,15 @@
     "vendorName": "VialVerse",
     "destUrl": "https://vialverse.com",
     "visitorId": "dbf80abbad17dcaf"
+  },
+  {
+    "ts": "2026-09-23T20:40:29.609Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4d8fa4523d9f7645"
   }
 ]
