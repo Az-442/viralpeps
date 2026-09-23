@@ -13375,5 +13375,80 @@
     "destUrl": "https://www.buyreta.co.uk/product/bpc-tb500-mix-uk",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "6f304e558cbff82a"
+  },
+  {
+    "ts": "2026-09-23T04:50:47.916Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biotideuk.com/products/ahk-cu-100-mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "465e1c617365e5e0"
+  },
+  {
+    "ts": "2026-09-23T04:52:42.197Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "11c2d15683774526"
+  },
+  {
+    "ts": "2026-09-23T04:52:45.064Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc1295-with-dac/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "407cb9b4370fdd0c"
+  },
+  {
+    "ts": "2026-09-23T04:58:57.092Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "peg-mgf-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/peg-mgf-5mg/",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-23T04:58:58.461Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "peg-mgf-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/peg-mgf-5mg/",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-23T04:59:00.556Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-23T04:59:05.755Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-09-23T05:14:03.932Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "visitorId": "af2f63ec38c98bfd"
   }
 ]
