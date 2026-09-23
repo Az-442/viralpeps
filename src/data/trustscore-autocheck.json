@@ -1,30 +1,30 @@
 {
-  "claripep": {
-    "slug": "claripep",
-    "website": "https://claripep.co.uk",
-    "checkedAt": "2026-09-18T00:43:20.699Z",
+  "red-panda-peptides": {
+    "slug": "red-panda-peptides",
+    "website": "https://redpandapeptides.co.uk",
+    "checkedAt": "2026-09-23T00:36:02.945Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "certificate of analys",
-      "ruo": null,
+      "ruo": "research use only",
       "review": null,
-      "shipping": "tracking",
+      "shipping": "tracked",
       "contact": "contact",
-      "title": "home - claripep"
+      "title": "research peptides uk | red panda peptides"
     },
     "product": {
       "fetched": true,
       "coa": null,
-      "ruo": null,
+      "ruo": "research use only",
       "status": 200
     },
     "secondary": {
-      "probed": 5,
+      "probed": 6,
       "contact": "contact",
       "ruo": "research use only",
-      "shipping": "tracking",
-      "coa": "certificate of analys",
+      "shipping": "tracked",
+      "coa": "coa",
       "review": null
     }
   }

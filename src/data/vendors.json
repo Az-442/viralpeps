@@ -4103,5 +4103,57 @@
       "checkedAt": "2026-09-22T01:00:00.000Z",
       "note": "Re-verified 2026-09-22: site back online after a Webflow outage that took it down on 2026-09-19. Trustpilot profile live (reviews=true). Product-page title guard passed on all 13 URLs; all 13 product images unique (MD5)."
     }
+  },
+  {
+    "id": "red-panda-peptides",
+    "name": "Red Panda Peptides",
+    "slug": "red-panda-peptides",
+    "website": "https://redpandapeptides.co.uk",
+    "rating": 5.0,
+    "verified": true,
+    "country": "UK",
+    "description": "Red Panda Peptides is a UK-based research-peptide supplier stocking a focused catalogue of lyophilised research compounds with GBP pricing and UK-only fulfilment. Batches are sourced from selected manufacturing partners, with batch-specific Certificates of Analysis and supplier-arranged third-party laboratory testing reviewed before purchase; the company states its roadmap includes additional independent UK laboratory testing on selected batches. Orders are dispatched from UK stock via Royal Mail Tracked 24, normally within 1-2 UK business days of cleared payment. The range is supplied strictly for laboratory and research use only.",
+    "highlights": [
+      "UK-based, UK-stocked fulfillment",
+      "Batch-specific Certificates of Analysis reviewed per product",
+      "Third-party laboratory testing arranged by supplier",
+      "Royal Mail Tracked 24 dispatch from UK stock",
+      "Roadmap includes additional independent UK lab testing",
+      "Research-use-only - not for human consumption"
+    ],
+    "email": "info@redpandapeptides.co.uk",
+    "delivery": "Royal Mail Tracked 24 · next-working-day delivery aim (not guaranteed) · dispatched within 1-2 UK business days · international by prior arrangement only · no free-delivery threshold stated · UK-only as standard",
+    "shipping": [
+      "UK — Royal Mail Tracked 24 (next-working-day aim, not guaranteed)",
+      "Orders normally processed within 1-2 UK business days after payment confirmation",
+      "Weekend/public-holiday orders processed from the next business day",
+      "Tracking provided after dispatch where available",
+      "International shipping may be available by prior arrangement (contact before ordering)",
+      "Discreet external packaging and temperature-conscious packaging where required"
+    ],
+    "payment": [
+      "Card payment"
+    ],
+    "lastTested": "2026-09-23",
+    "labTested": true,
+    "contactNote": "Contact-form only; email info@redpandapeptides.co.uk published in footer. No public phone number or registered address listed.",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-23T01:00:00.000Z",
+      "note": "Onboarded 2026-09-23. Guard 1 passed: all 19 product URLs returned product-specific <title> (e.g. 'BPC-157 10mg - Red Panda Peptides'), not the bare site title. Guard 2 passed: all URLs are /product/{slug}/, no category pages. Guard 3 passed: all 19 product images unique MD5. Guard 4 passed: no bulk/MOQ prices; all GBP single-vial retail pricing. reviews=false: site shows an on-site 5.0/15-review widget but NO third-party review platform profile (no Trustpilot/Reviews.io/Feefo found on site or by search) — the TrustScore reviews signal requires a third-party platform."
+    }
   }
 ]
