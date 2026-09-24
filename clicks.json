@@ -15169,5 +15169,23 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
     "visitorId": "e1969a688fd0a128"
+  },
+  {
+    "ts": "2026-09-24T17:16:36.195Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "e1969a688fd0a128"
+  },
+  {
+    "ts": "2026-09-24T18:13:40.759Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://reta-uk.com/products/tesamorelin",
+    "visitorId": "c6b650ff68caeb19"
   }
 ]
