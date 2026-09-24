@@ -15040,5 +15040,32 @@
     "compoundSlug": "mots-c-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen",
     "visitorId": "f9d89c1c940e5290"
+  },
+  {
+    "ts": "2026-09-24T11:33:12.236Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen",
+    "visitorId": "8d251ee128640bc1"
+  },
+  {
+    "ts": "2026-09-24T11:35:25.064Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen",
+    "visitorId": "1808b397ac963bd6"
+  },
+  {
+    "ts": "2026-09-24T11:59:15.173Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "teriparatide",
+    "destUrl": "https://vialverse.com/peptides/teriparatide",
+    "visitorId": "0e927ae1c66ce550"
   }
 ]
