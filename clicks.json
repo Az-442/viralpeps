@@ -15105,5 +15105,43 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.stratfordpeptides.com/products/tirzepatide",
     "visitorId": "ea541399886f57a7"
+  },
+  {
+    "ts": "2026-09-24T14:53:50.111Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg",
+    "visitorId": "34afec8c781edcf1"
+  },
+  {
+    "ts": "2026-09-24T15:10:58.065Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9ef23343a031e7d0"
+  },
+  {
+    "ts": "2026-09-24T15:11:05.010Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "14a6cfb3234de6ff"
+  },
+  {
+    "ts": "2026-09-24T15:33:08.335Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
+    "visitorId": "da304aba57374a2c"
   }
 ]
