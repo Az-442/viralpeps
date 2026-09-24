@@ -14854,5 +14854,32 @@
     "compoundSlug": "ghrp-6",
     "destUrl": "https://vialverse.com/peptides/ghrp-6",
     "visitorId": "69e452f096bf0d38"
+  },
+  {
+    "ts": "2026-09-24T04:44:02.794Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://vialverse.com/peptides/survodutide",
+    "visitorId": "9e2812bfdc198d10"
+  },
+  {
+    "ts": "2026-09-24T04:52:18.398Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://vialverse.com/peptides/mazdutide",
+    "visitorId": "e583e3aef613b779"
+  },
+  {
+    "ts": "2026-09-24T05:09:26.483Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "aicar",
+    "destUrl": "https://vialverse.com/peptides/aicar",
+    "visitorId": "2e24989b9dd4a353"
   }
 ]
