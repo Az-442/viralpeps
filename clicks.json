@@ -14918,5 +14918,62 @@
     "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "48f21cfe745609db"
+  },
+  {
+    "ts": "2026-09-24T06:43:28.581Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c9ab2efd5107b613"
+  },
+  {
+    "ts": "2026-09-24T06:53:16.885Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7bc1e1d24f9f9306"
+  },
+  {
+    "ts": "2026-09-24T06:53:20.330Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1ed2ba38005cd4e4"
+  },
+  {
+    "ts": "2026-09-24T06:58:59.741Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "pnc-27",
+    "destUrl": "https://vialverse.com/peptides/pnc-27",
+    "visitorId": "a5d43ce0fefed2ae"
+  },
+  {
+    "ts": "2026-09-24T07:08:13.225Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "destUrl": "https://biopulsepeptides.co.uk",
+    "refPage": "https://viralpeps.co.uk/go/bio-pulse-peptides",
+    "visitorId": "e28d37718b603295"
+  },
+  {
+    "ts": "2026-09-24T07:21:01.181Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "selank",
+    "destUrl": "https://vialverse.com/peptides/selank",
+    "visitorId": "180c8c7b5ff3d649"
   }
 ]
