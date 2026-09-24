@@ -15196,5 +15196,59 @@
     "compoundSlug": "semax-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial",
     "visitorId": "c990a1804def70a8"
+  },
+  {
+    "ts": "2026-09-24T19:14:59.301Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/cjc-1295-no-dac-5mg/",
+    "visitorId": "11388953b0b5c854"
+  },
+  {
+    "ts": "2026-09-24T19:25:39.884Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-24T19:25:41.520Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide",
+    "visitorId": "b37eedd83250ef64"
+  },
+  {
+    "ts": "2026-09-24T19:25:43.040Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-24T19:35:13.481Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg",
+    "visitorId": "9a5e88b5eeeae47d"
+  },
+  {
+    "ts": "2026-09-24T19:45:17.052Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
+    "visitorId": "314feda9978ce84e"
   }
 ]
