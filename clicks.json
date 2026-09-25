@@ -20296,5 +20296,52 @@
     "compoundSlug": "tesamorelin-10mg",
     "destUrl": "https://purepeptidesuk.com/product/tesamorelin-10mg/",
     "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-25T18:40:20.860Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-10mg/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-25T18:49:52.904Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://peptidesuk.com/ace-031/",
+    "visitorId": "912fa4326498333a"
+  },
+  {
+    "ts": "2026-09-25T19:05:52.450Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6376ef617ad2c0d6"
+  },
+  {
+    "ts": "2026-09-25T19:05:56.293Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "38275417e81f84b7"
+  },
+  {
+    "ts": "2026-09-25T19:28:18.911Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptideslabuk.com/product/thymosin-alpha-1/",
+    "visitorId": "df01386090664fac"
   }
 ]
