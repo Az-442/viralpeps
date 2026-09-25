@@ -20407,5 +20407,103 @@
     "compoundSlug": "klow",
     "destUrl": "https://www.raccoonpeptides.com/peptides/44-klow-blend-80mg.html",
     "visitorId": "7e73abb5b69ecdb6"
+  },
+  {
+    "ts": "2026-09-25T22:10:03.611Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "visitorId": "16c9b94c42c290ab"
+  },
+  {
+    "ts": "2026-09-25T22:10:42.059Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-tb-500-ghk-cu-kpv-80mg",
+    "visitorId": "af1e9a780466b0fb"
+  },
+  {
+    "ts": "2026-09-25T22:11:17.124Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "nad-1000-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/nad-1000-nasal-spray",
+    "visitorId": "6404bfb247fac74f"
+  },
+  {
+    "ts": "2026-09-25T22:12:20.467Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "klow",
+    "destUrl": "https://vialverse.com/peptides/klow-blend",
+    "visitorId": "3653323e6eb3356d"
+  },
+  {
+    "ts": "2026-09-25T22:12:55.307Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://ukpeptides.com/catalog/kglow25",
+    "visitorId": "3653323e6eb3356d"
+  },
+  {
+    "ts": "2026-09-25T22:14:08.385Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "klow",
+    "destUrl": "https://vialverse.com/peptides/klow-blend",
+    "visitorId": "3653323e6eb3356d"
+  },
+  {
+    "ts": "2026-09-25T22:15:00.912Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/44-klow-blend-80mg.html",
+    "visitorId": "4f6723f5705de2c9"
+  },
+  {
+    "ts": "2026-09-25T22:18:20.576Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bluewellpeptides.com/product/snap-8-10mg-peptide/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-09-25T22:18:52.021Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.revexa.co.uk/product-page/bacteriostatic-water",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "747361053f83dc8f"
+  },
+  {
+    "ts": "2026-09-25T22:28:39.863Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://peptidelabuk.co.uk/product/pt-141-10mg-research-peptide/",
+    "visitorId": "3f43ee014e3f0f4f"
+  },
+  {
+    "ts": "2026-09-25T22:45:48.251Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "visitorId": "8e19dd84a788ceae"
   }
 ]
