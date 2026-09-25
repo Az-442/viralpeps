@@ -20036,5 +20036,63 @@
     "compoundSlug": "sermorelin",
     "destUrl": "https://pioneerpeptides.co.uk/products/sermorelin-acetate/",
     "visitorId": "fd12f7a31b1f7d82"
+  },
+  {
+    "ts": "2026-09-25T16:26:03.711Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f368b72ef2b77f6c"
+  },
+  {
+    "ts": "2026-09-25T16:26:08.196Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cdae8dec6e9ba88f"
+  },
+  {
+    "ts": "2026-09-25T16:37:18.732Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://peptideslabuk.com/product/sermorelin-acetate/",
+    "visitorId": "72e80d94ecbc6cf8"
+  },
+  {
+    "ts": "2026-09-25T16:42:38.404Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7f2eab40c5f73c75"
+  },
+  {
+    "ts": "2026-09-25T16:42:50.533Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e0b563dfa972702b"
+  },
+  {
+    "ts": "2026-09-25T16:59:26.837Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "visitorId": "3b2faa0c739f8d9e"
   }
 ]
