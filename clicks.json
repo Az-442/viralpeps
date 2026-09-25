@@ -19890,5 +19890,106 @@
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/selank/",
     "visitorId": "96d906d6034ddc14"
+  },
+  {
+    "ts": "2026-09-25T14:50:00.696Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-25T14:50:03.914Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-25T14:52:49.676Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-carnitine/vial",
+    "visitorId": "1b17664d395af41a"
+  },
+  {
+    "ts": "2026-09-25T14:59:27.010Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-25T14:59:29.877Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-25T14:59:34.588Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://purepeptidesuk.com/product/hexarelin-2/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-25T15:03:43.753Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://peptx.co.uk/single-vials/l-carnitine",
+    "visitorId": "f5af0c387913046f"
+  },
+  {
+    "ts": "2026-09-25T15:11:10.919Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f85d7cd360941ab4"
+  },
+  {
+    "ts": "2026-09-25T15:11:17.016Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "53a4d7ac324a5158"
+  },
+  {
+    "ts": "2026-09-25T15:13:07.949Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4",
+    "visitorId": "d9691d92351d421d"
+  },
+  {
+    "ts": "2026-09-25T15:23:13.229Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hgh-fragment-176-191-5mg-ghrp",
+    "visitorId": "df71f3d8a9541643"
   }
 ]
