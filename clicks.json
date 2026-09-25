@@ -20505,5 +20505,15 @@
     "vendorName": "RETA UK",
     "destUrl": "https://reta-uk.com",
     "visitorId": "8e19dd84a788ceae"
+  },
+  {
+    "ts": "2026-09-25T23:32:01.542Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ec01e42ee93f29c6"
   }
 ]
