@@ -19778,5 +19778,99 @@
     "compoundSlug": "ovagen",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-ovagen/",
     "visitorId": "5d27496fe0cc5018"
+  },
+  {
+    "ts": "2026-09-25T13:35:07.248Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ovagen/",
+    "visitorId": "12f6b799744930da"
+  },
+  {
+    "ts": "2026-09-25T13:35:08.895Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ovagen/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-25T13:36:10.246Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "11b0ad5f5ea79318"
+  },
+  {
+    "ts": "2026-09-25T13:36:13.960Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "46c83a660fc2390f"
+  },
+  {
+    "ts": "2026-09-25T13:51:42.363Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9f6afa8d1b2a88ce"
+  },
+  {
+    "ts": "2026-09-25T13:51:45.878Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4280b7e2ac507534"
+  },
+  {
+    "ts": "2026-09-25T13:58:11.865Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptidepal.co.uk/products/semax",
+    "visitorId": "5d27496fe0cc5018"
+  },
+  {
+    "ts": "2026-09-25T13:58:15.885Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptidepal.co.uk/products/semax",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-25T13:58:21.684Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptidepal.co.uk/products/semax",
+    "visitorId": "3b6ef287760d1506"
+  },
+  {
+    "ts": "2026-09-25T14:07:30.279Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-5mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "6829883754155058"
   }
 ]
