@@ -15455,5 +15455,72 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://nupex.co.uk/products/tb-500-peptide-uk-research-grade",
     "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-25T06:29:08.899Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://nupex.co.uk/products/tb-500-peptide-uk-research-grade",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-09-25T06:29:10.279Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://nupex.co.uk/products/tb-500-peptide-uk-research-grade",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-25T06:42:32.452Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6e1f08b3ccefaa84"
+  },
+  {
+    "ts": "2026-09-25T06:42:34.927Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4531d377a81b38fc"
+  },
+  {
+    "ts": "2026-09-25T06:53:11.134Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "42a6228c8a020b0e"
+  },
+  {
+    "ts": "2026-09-25T06:53:21.787Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c64ac340772d347b"
+  },
+  {
+    "ts": "2026-09-25T07:04:07.950Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
+    "visitorId": "3ee686d24af326e9"
   }
 ]
