@@ -20000,5 +20000,41 @@
     "compoundSlug": "sermorelin",
     "destUrl": "https://apexpure.co.uk/product/sermorelin-peptide-5mg/",
     "visitorId": "47a705d32439dff6"
+  },
+  {
+    "ts": "2026-09-25T16:13:13.733Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://astralabs.co.uk/product/retatrutide-10mg-uk/",
+    "visitorId": "b5ff9b26724cc15c"
+  },
+  {
+    "ts": "2026-09-25T16:13:44.940Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "b5ff9b26724cc15c"
+  },
+  {
+    "ts": "2026-09-25T16:21:03.004Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://biohackpeptides.co.uk/product/selank-5mg-3ml-bac-water/",
+    "visitorId": "a60398f7c17881f9"
+  },
+  {
+    "ts": "2026-09-25T16:25:19.314Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://pioneerpeptides.co.uk/products/sermorelin-acetate/",
+    "visitorId": "fd12f7a31b1f7d82"
   }
 ]
