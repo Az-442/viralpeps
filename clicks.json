@@ -19418,5 +19418,59 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://supplypeptides.co.uk/products/tesamorelin",
     "visitorId": "b11b21925e811a37"
+  },
+  {
+    "ts": "2026-09-25T11:03:53.331Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://rawpeptides.co.uk/product/glow-70mg/",
+    "visitorId": "d34486f46d9f4d8d"
+  },
+  {
+    "ts": "2026-09-25T11:08:07.264Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-25T11:08:08.616Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-25T11:08:10.305Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-25T11:13:48.828Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/melanotan-ii-10mg",
+    "visitorId": "75613fa9bbf8a29c"
+  },
+  {
+    "ts": "2026-09-25T11:30:02.085Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "6829883754155058"
   }
 ]
