@@ -15522,5 +15522,43 @@
     "compoundSlug": "mazdutide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
     "visitorId": "3ee686d24af326e9"
+  },
+  {
+    "ts": "2026-09-25T07:31:33.067Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "69407165fe494dd2"
+  },
+  {
+    "ts": "2026-09-25T07:31:36.608Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "191dbd89f960e4fb"
+  },
+  {
+    "ts": "2026-09-25T07:33:04.366Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "2723d463473f006b"
+  },
+  {
+    "ts": "2026-09-25T07:42:41.216Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mq-nad-c-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen",
+    "visitorId": "f9d89c1c940e5290"
   }
 ]
