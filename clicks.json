@@ -15419,5 +15419,32 @@
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.stratfordpeptides.com/products/no-product",
     "visitorId": "00de6ca6f94610bb"
+  },
+  {
+    "ts": "2026-09-25T05:24:44.462Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://fatpigpeptides.co.uk/product/glp-3-40mg/",
+    "visitorId": "163dace6b4650f3f"
+  },
+  {
+    "ts": "2026-09-25T05:33:09.968Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg",
+    "visitorId": "39b580092110e459"
+  },
+  {
+    "ts": "2026-09-25T05:43:27.151Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.peptifyuk.com/product/kpv-10mg",
+    "visitorId": "a208d1724aa3a983"
   }
 ]
