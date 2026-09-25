@@ -15277,5 +15277,93 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
     "visitorId": "4fda27748bd88382"
+  },
+  {
+    "ts": "2026-09-24T23:29:24.312Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pslabs.uk/products/rt-glp3",
+    "visitorId": "56f7ec69d0c4f59d"
+  },
+  {
+    "ts": "2026-09-24T23:30:02.836Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/retatrutide.html",
+    "visitorId": "f49fa91887e6dc34"
+  },
+  {
+    "ts": "2026-09-24T23:30:42.073Z",
+    "type": "vendor-site",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "destUrl": "https://redpandapeptides.co.uk",
+    "visitorId": "a53fc5e882dd2b0e"
+  },
+  {
+    "ts": "2026-09-24T23:31:04.365Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/premium-retatrutide-30mg-pen-",
+    "visitorId": "f49fa91887e6dc34"
+  },
+  {
+    "ts": "2026-09-24T23:31:17.093Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta",
+    "visitorId": "a53fc5e882dd2b0e"
+  },
+  {
+    "ts": "2026-09-24T23:31:38.617Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "destUrl": "https://ukpeptidelab.co.uk",
+    "visitorId": "f49fa91887e6dc34"
+  },
+  {
+    "ts": "2026-09-24T23:42:12.105Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "a2e2a445ac60a445"
+  },
+  {
+    "ts": "2026-09-24T23:48:45.072Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "87d819226d58d9fc"
+  },
+  {
+    "ts": "2026-09-24T23:54:13.410Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html",
+    "visitorId": "9b45356a1174c013"
+  },
+  {
+    "ts": "2026-09-25T00:04:29.795Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://evapeptide.co.uk/product/buy-ipamorelin-uk/",
+    "visitorId": "8e921d3f835a610b"
   }
 ]
