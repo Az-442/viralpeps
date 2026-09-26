@@ -20515,5 +20515,52 @@
     "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "ec01e42ee93f29c6"
+  },
+  {
+    "ts": "2026-09-25T23:40:43.014Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "935fdc89b7e1acff"
+  },
+  {
+    "ts": "2026-09-25T23:40:47.757Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "58a418895fe3222a"
+  },
+  {
+    "ts": "2026-09-25T23:45:25.506Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/",
+    "visitorId": "9050ac63ece083cf"
+  },
+  {
+    "ts": "2026-09-25T23:55:55.851Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-26T00:05:13.085Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.stratfordpeptides.com/products/selank",
+    "visitorId": "c76b8ac4946dbc93"
   }
 ]
