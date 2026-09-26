@@ -23115,5 +23115,87 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://apexpure.co.uk/product/tb-500-uk/",
     "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-26T23:00:33.127Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://apexpure.co.uk/product/tb-500-uk/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-26T23:00:37.113Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://apexpure.co.uk/product/tb-500-uk/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-26T23:06:51.819Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ahk-cu-100mg/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-26T23:06:53.388Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ahk-cu-100mg/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-26T23:06:54.857Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ahk-cu-100mg/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-26T23:13:22.275Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptideslabuk.com/product/selank/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-26T23:13:24.431Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptideslabuk.com/product/selank/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-26T23:13:26.296Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptideslabuk.com/product/selank/",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-09-26T23:37:01.712Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/retatrutide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ab5cac1e7ccc1519"
   }
 ]
