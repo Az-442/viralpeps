@@ -23071,5 +23071,40 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://peptideslabuk.com/product/bac-water/",
     "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-26T22:02:19.733Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://apexpure.co.uk/product/ipamorelin-peptide-5mg/",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-26T22:02:23.722Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://apexpure.co.uk/product/ipamorelin-peptide-5mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-26T22:02:27.634Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://apexpure.co.uk/product/ipamorelin-peptide-5mg/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-26T22:28:41.028Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "destUrl": "https://peptidesuk4u.co.uk",
+    "visitorId": "2902f1263b4776db"
   }
 ]
