@@ -23106,5 +23106,14 @@
     "vendorName": "Peptides UK 4U",
     "destUrl": "https://peptidesuk4u.co.uk",
     "visitorId": "2902f1263b4776db"
+  },
+  {
+    "ts": "2026-09-26T23:00:27.600Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://apexpure.co.uk/product/tb-500-uk/",
+    "visitorId": "df01386090664fac"
   }
 ]
