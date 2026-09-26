@@ -21188,5 +21188,108 @@
     "compoundSlug": "hcg",
     "destUrl": "https://purepeptidesuk.com/product/hcg-5000iu/",
     "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-09-26T04:56:47.742Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://purepeptidesuk.com/product/hcg-5000iu/",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-09-26T04:56:50.819Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://purepeptidesuk.com/product/hcg-5000iu/",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-09-26T05:04:39.781Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.revexa.co.uk/product-page/pt-141-10mg-melanocortin-receptor-research-peptide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b46b026baffa3bd5"
+  },
+  {
+    "ts": "2026-09-26T05:12:00.829Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-26T05:12:04.667Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-09-26T05:12:06.006Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-26T05:17:30.677Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "08d29de9211c38d0"
+  },
+  {
+    "ts": "2026-09-26T05:21:28.581Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.revexa.co.uk/product-page/ss-31-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cf8b09adc126d108"
+  },
+  {
+    "ts": "2026-09-26T05:21:52.249Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b46b026baffa3bd5"
+  },
+  {
+    "ts": "2026-09-26T05:22:28.272Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/ipamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "6f087003f84cb0c1"
+  },
+  {
+    "ts": "2026-09-26T05:32:27.302Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "visitorId": "c79d04c6c882849e"
   }
 ]
