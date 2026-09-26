@@ -21291,5 +21291,107 @@
     "compoundSlug": "hexarelin",
     "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
     "visitorId": "c79d04c6c882849e"
+  },
+  {
+    "ts": "2026-09-26T05:32:31.407Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-26T05:32:32.816Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "visitorId": "2b7ed4f0816ad173"
+  },
+  {
+    "ts": "2026-09-26T05:35:48.614Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://peptideslabuk.com/product/gonadorelin-acetate/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-26T05:42:42.846Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://pslabs.uk/products/selank-10mg",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-26T05:42:48.146Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "adamax",
+    "destUrl": "https://www.revexa.co.uk/product-page/adamax-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "be6d00d76d32a2fa"
+  },
+  {
+    "ts": "2026-09-26T05:47:46.370Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-26T05:47:50.303Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-26T05:47:51.883Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-09-26T05:49:01.640Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ahk-cu-50mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0746e811401fcc4d"
+  },
+  {
+    "ts": "2026-09-26T05:50:55.552Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/tesamorelin-research-grade-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ec01e42ee93f29c6"
+  },
+  {
+    "ts": "2026-09-26T06:03:06.537Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://reta-uk.com/products/ss-31",
+    "visitorId": "7773ed4690ded0f7"
   }
 ]
