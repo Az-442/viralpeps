@@ -208,21 +208,80 @@ Commit: `c015215d` · pushed to main (0 unpushed).
 
 ---
 
-## Next up
-**Day 8 — Wed 23 Sep (3 articles)**
-- `p21-for-neurogenesis` — p21 (for)
-- `growth-hormone-peptide-suppliers-uk` — growth hormone peptide suppliers UK (grouped)
-- `peptides-for-sale-uk` — peptides for sale (pillar)
+## Day 8 — Wed 23 Sep (3 articles) ✅ DONE
+Completed 26 Sep 03:00 by daily blog cron (branch `kw/day8`, pushed to main).
 
-None of these slugs exist yet. Note `p21-for-neurogenesis` is the same compound as the already-live
-`p21-deep-dive` (Day 1) but a different article type — spaced 7 days apart, which satisfies the
-5+ day no-KW-stacking rule. `growth-hormone-peptide-suppliers-uk` should be kept distinct from the
-existing `cognitive-peptide-suppliers-uk` (different category, different vendor tier structure).
-`peptides-for-sale-uk` is adjacent to the live `research-peptides-for-sale-uk` (Day 6) — write it
-as a distinct angle (broad "peptides for sale" intent vs the market-structure piece) or swap for
-an unused slug from a later day.
+- `p21-for-neurogenesis` — p21 (for) — section: goals, compound: P21
+- `growth-hormone-peptide-suppliers-uk` — growth hormone peptide suppliers UK (grouped)
+  — section: research-hub
+- `peptides-for-sale-uk` — peptides for sale (pillar) — section: research-hub
+
+Cards:
+- `public/images/guides/p21-for-neurogenesis.png` — Pillow single-vial (P21), "Deep Dive Report"
+- `public/images/guides/growth-hormone-peptide-suppliers-uk.png` — Pillow dual-vial 50%-height
+  (Tesamorelin + Ipamorelin), "Supplier Guide"
+- `public/images/guides/peptides-for-sale-uk.png` — photorealistic base + Pillow chrome
+  (see note below on base recovery)
+
+Card scripts: `scripts/make_kw_phase1_day8_cards.py` (2 compound cards) and
+`scripts/compose_kw_day8_photo_card.py` (pillar card).
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,288 / 2,251 / 2,567
+
+Build: passed (155/155 pages, up from 152). All 26 internal links verified against
+`compounds.json` slugs and live `research.ts` / `research-content.ts` keys — 0 broken.
+All 26 PMIDs verified individually via NCBI E-utilities esummary. All 3 guide card
+`image:` refs cross-checked against disk: OK (74 refs, 0 missing).
+
+Commit: `854fb742` · pushed to main (0 unpushed).
+
+### ⚠️ Lessons from this run
+1. **PMID guesses are wrong far more often than they look right.** The first pass
+   contained 10 of 14 PMIDs that resolved to entirely unrelated papers (e.g. 14642275
+   came back as a FAK/cortical-abnormality paper, 18046909 as an overactive-bladder
+   drug review, 24816527 as a paediatric hydatid cyst case report). Every reference
+   must be fetched and title-matched; a plausible-looking PMID is not evidence.
+   The correct Cruz et al. p25 paper is PMID 14642273 (not 14642275).
+   The modern P21 paper is Pao et al., PNAS 2023, PMID 37043533 — always search for
+   it rather than assuming the 2000s-era citations are the whole literature.
+2. **The seam uses REAL newlines, not literal `\n`.** The current working seam is
+   `"  ]," + NL + "}," + NL + NL + "};" + NL + "export default content;"` (NL = chr(10)).
+   Constructing it with `chr(92)+"n"` matches 0 times.
+3. **Each inserted entry needs its OWN trailing comma.** The replacement tail already
+   supplies `  ],
+},` for the original last entry, so every inserted entry must end
+   `},` — including the final one. Omitting it fails the build with
+   `Expected ',', got 'string literal'` at the next `'slug':` line.
+   Verify with raw bytes (`open(...,'rb')`), not `repr()` on decoded text: repr makes
+   real newlines and literal backslash-n look identical, which hid the bug for three
+   merge attempts this run.
+4. **A parse check is cheap and catches what lint cannot.** Wrapping each fragment as
+   `const x: ResearchPageContent = {...}` and running the project's own
+   `./node_modules/.bin/tsc --noEmit` caught a markdown table written with real
+   newlines inside a single-quoted TS string. Markdown tables belong in the section's
+   `table: { header, rows }` field, never inline in `body`.
+5. **The dual-vial layout leaves ~413px of title width.** "Growth Hormone Peptides"
+   (501px) overflowed and was clipped at the card edge; "GH Peptides UK" (305px) fits
+   with ~108px of margin. Measure titles with `draw.textlength()` before generating a
+   2-vial card — the template only auto-wraps on `" vs "`.
+6. **`image_generate` is still NOT available in cron, and `/tmp/gen_cards/` is cleared
+   between runs.** The Day-4 photorealistic base photo was gone. Recovered it by
+   cropping the untouched photo panel back out of the rendered Day-4 card
+   (`uk-peptide-directory.png`) — the compose routine pastes the photo but never draws
+   over it. Native resolution only (550x484); do NOT upscale, it reads as a render.
+   Then tighten to the content bounding box, since the source carries wide white margins.
+
+## Next up
+**Day 9 — Thu 24 Sep (2 articles)**
+- `tirzepatide-vs-survodutide` — **tirzepatide** (vs)
+- `oxytocin-nasal-spray-suppliers-uk` — **oxytocin nasal spray suppliers UK** (suppliers)
+
+Neither slug exists yet. Check both against BOTH quote formats and the `slug:` field
+form before writing (see the gap/stub detection note in the skill).
 
 ---
+
 
 ## Notes for future runs
 - Day 1 slugs are already in `research-content.ts` — do not re-write them.
