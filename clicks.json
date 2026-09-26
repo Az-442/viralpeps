@@ -22770,5 +22770,80 @@
     "compoundSlug": "snap-8",
     "destUrl": "https://apexpure.co.uk/product/snap-8-peptide-10mg/",
     "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-26T15:21:30.740Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://apexpure.co.uk/product/snap-8-peptide-10mg/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-26T15:21:35.370Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://apexpure.co.uk/product/snap-8-peptide-10mg/",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-26T15:43:43.966Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "81ded1eda819a74a"
+  },
+  {
+    "ts": "2026-09-26T15:43:49.094Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "47484fd2eed60864"
+  },
+  {
+    "ts": "2026-09-26T15:45:23.532Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-snap-8-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-26T15:45:27.563Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-snap-8-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-26T15:45:29.992Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-snap-8-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-26T15:53:36.896Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "24b1f02647ba4866"
   }
 ]
