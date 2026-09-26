@@ -22359,5 +22359,125 @@
     "compoundSlug": "selank-vial-express",
     "destUrl": "https://alphamino.co.uk/shop/selank/",
     "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-26T12:15:50.097Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-26T12:15:54.073Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-26T12:16:52.655Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/cjc-1295-with-dac-5mg/",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-09-26T12:16:54.943Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/cjc-1295-with-dac-5mg/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-26T12:16:58.876Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/cjc-1295-with-dac-5mg/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-26T12:22:13.290Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/tesamorelin-research-grade-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ec01e42ee93f29c6"
+  },
+  {
+    "ts": "2026-09-26T12:23:13.563Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bebetterpeptides.com/products/buy-bpc-157-10mg",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-26T12:23:15.254Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bebetterpeptides.com/products/buy-bpc-157-10mg",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-09-26T12:23:18.900Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bebetterpeptides.com/products/buy-bpc-157-10mg",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-26T12:38:52.062Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/ipamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a767a67185c3c03c"
+  },
+  {
+    "ts": "2026-09-26T12:43:18.234Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-26T12:43:23.378Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-26T12:51:17.275Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ghk-cu-50mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "47d06e7c755e28a6"
   }
 ]
