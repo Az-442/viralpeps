@@ -21483,5 +21483,97 @@
     "compoundSlug": "vesugen-research-peptide",
     "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide",
     "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-26T07:09:37.725Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vesugen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/vesugen-research-peptide",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-09-26T07:14:32.312Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "78407b40877f8633"
+  },
+  {
+    "ts": "2026-09-26T07:14:36.179Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "31d9f73788d0d93d"
+  },
+  {
+    "ts": "2026-09-26T07:14:36.960Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-26T07:14:40.870Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-26T07:14:44.784Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-26T07:24:49.731Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "testagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-26T07:24:52.589Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "testagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-26T07:24:54.838Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "testagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-26T07:55:28.729Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://apexpure.co.uk/product/pt-141-bremelanotide-peptide-10mg-research-grade/",
+    "visitorId": "0095d02c577f8b7f"
   }
 ]
