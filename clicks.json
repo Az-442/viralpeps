@@ -20918,5 +20918,59 @@
     "compoundSlug": "nad-research-peptide",
     "destUrl": "https://www.peptidepal.co.uk/products/nad",
     "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-09-26T01:25:11.746Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "nad-research-peptide",
+    "destUrl": "https://www.peptidepal.co.uk/products/nad",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-26T01:25:14.187Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "nad-research-peptide",
+    "destUrl": "https://www.peptidepal.co.uk/products/nad",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-26T01:36:09.739Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-26T01:36:11.480Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-26T01:36:13.252Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-26T02:02:36.773Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "7be7536bc24fcfc4"
   }
 ]
