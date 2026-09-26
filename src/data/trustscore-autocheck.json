@@ -27,5 +27,34 @@
       "coa": "coa",
       "review": null
     }
+  },
+  "peptides-uk-4u": {
+    "slug": "peptides-uk-4u",
+    "website": "https://peptidesuk4u.co.uk",
+    "checkedAt": "2026-09-26T00:39:50.387Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracked",
+      "contact": "email",
+      "title": "peptides uk \u2014 buy research peptide vials | retatrutide uk stock"
+    },
+    "product": {
+      "fetched": true,
+      "coa": null,
+      "ruo": null,
+      "status": 200
+    },
+    "secondary": {
+      "probed": 2,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "coa",
+      "review": null
+    }
   }
 }

@@ -4109,7 +4109,7 @@
     "name": "Red Panda Peptides",
     "slug": "red-panda-peptides",
     "website": "https://redpandapeptides.co.uk",
-    "rating": 5.0,
+    "rating": 5,
     "verified": true,
     "country": "UK",
     "description": "Red Panda Peptides is a UK-based research-peptide supplier stocking a focused catalogue of lyophilised research compounds with GBP pricing and UK-only fulfilment. Batches are sourced from selected manufacturing partners, with batch-specific Certificates of Analysis and supplier-arranged third-party laboratory testing reviewed before purchase; the company states its roadmap includes additional independent UK laboratory testing on selected batches. Orders are dispatched from UK stock via Royal Mail Tracked 24, normally within 1-2 UK business days of cleared payment. The range is supplied strictly for laboratory and research use only.",
@@ -4154,6 +4154,50 @@
       },
       "checkedAt": "2026-09-23T01:00:00.000Z",
       "note": "Onboarded 2026-09-23. Guard 1 passed: all 19 product URLs returned product-specific <title> (e.g. 'BPC-157 10mg - Red Panda Peptides'), not the bare site title. Guard 2 passed: all URLs are /product/{slug}/, no category pages. Guard 3 passed: all 19 product images unique MD5. Guard 4 passed: no bulk/MOQ prices; all GBP single-vial retail pricing. reviews=false: site shows an on-site 5.0/15-review widget but NO third-party review platform profile (no Trustpilot/Reviews.io/Feefo found on site or by search) — the TrustScore reviews signal requires a third-party platform."
+    }
+  },
+  {
+    "id": "peptides-uk-4u",
+    "name": "Peptides UK 4U",
+    "slug": "peptides-uk-4u",
+    "website": "https://peptidesuk4u.co.uk",
+    "rating": 4.6,
+    "verified": true,
+    "founded": 2024,
+    "country": "UK",
+    "description": "Family-run UK research peptide supplier stocking 39 products including Retatrutide, Tirzepatide, Semaglutide, BPC-157 and NAD+. Every batch is independently HPLC and mass-spec tested by European lab Analiza Bialek with batch-traceable certificates of analysis. Same-day Royal Mail Tracked 24 dispatch on orders before 2pm.",
+    "highlights": [
+      "39 products in UK stock",
+      "Batch-traceable COAs (Analiza Bialek, EU)",
+      "Same-day Royal Mail Tracked 24 dispatch",
+      "Family-run UK business",
+      "Vials & pre-filled Quick Pens"
+    ],
+    "shipping": [
+      "UK only (Royal Mail Tracked 24)",
+      "Same-day dispatch before 2pm"
+    ],
+    "payment": [
+      "Cards"
+    ],
+    "lastTested": "2026-09-26",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "email"
+      },
+      "checkedAt": "2026-09-26T00:39:50.387Z"
     }
   }
 ]
