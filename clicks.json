@@ -22741,5 +22741,34 @@
     "destUrl": "https://www.revexa.co.uk/product-page/igf-1-lr3-1mg",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "8e24d762104ae4b1"
+  },
+  {
+    "ts": "2026-09-26T14:53:55.113Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.revexa.co.uk/product-page/klow-blend-peptide-complex-80mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "efc3ceeb366b6bc6"
+  },
+  {
+    "ts": "2026-09-26T14:56:47.542Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-inducing-peptide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d7fd7366b2d061f4"
+  },
+  {
+    "ts": "2026-09-26T15:21:24.244Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://apexpure.co.uk/product/snap-8-peptide-10mg/",
+    "visitorId": "29ea21ee1aebbcc1"
   }
 ]
