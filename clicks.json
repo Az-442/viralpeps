@@ -22999,5 +22999,77 @@
     "compoundSlug": "kpv",
     "destUrl": "https://precision-peptides.shop/product/kpv-10mg/",
     "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-26T20:50:07.587Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://precision-peptides.shop/product/kpv-10mg/",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-26T20:50:11.555Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://precision-peptides.shop/product/kpv-10mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-26T20:55:42.445Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-26T20:55:44.229Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "169cb0694eaac943"
+  },
+  {
+    "ts": "2026-09-26T21:18:33.671Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-09-26T21:18:35.019Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-26T21:18:36.535Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-26T21:42:57.215Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptideslabuk.com/product/bac-water/",
+    "visitorId": "99a2d1a45829d6ec"
   }
 ]
