@@ -20871,5 +20871,52 @@
     "compoundSlug": "kpv-5mg",
     "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/",
     "visitorId": "0e631e2a276ba2af"
+  },
+  {
+    "ts": "2026-09-26T00:44:36.185Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "kpv-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/kpv-5mg/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-26T00:53:08.303Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://vialverse.com/peptides/thymulin",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-26T01:06:45.416Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.revexa.co.uk/product-page/kisspeptin-5mg-gnrh-pathway-research-compound",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "5d1ac62e8dcdf77a"
+  },
+  {
+    "ts": "2026-09-26T01:12:38.141Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.revexa.co.uk/product-page/100mg-nad-nicotinamide-adenine-dinucleotide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "67b630ce844fe964"
+  },
+  {
+    "ts": "2026-09-26T01:25:08.424Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "nad-research-peptide",
+    "destUrl": "https://www.peptidepal.co.uk/products/nad",
+    "visitorId": "7773ed4690ded0f7"
   }
 ]
