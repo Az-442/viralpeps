@@ -11752,5 +11752,285 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'p21-for-neurogenesis': {
+  slug: 'p21-for-neurogenesis',
+  compoundSlug: 'p21',
+  pullQuote: 'P21 is the most interesting peptide nobody talks about. It is not a growth factor, it does not cross into the periphery in any meaningful quantity, and its whole research rationale rests on a single interaction: it stops CDK5 from hyperphosphorylating what it should not touch. Everything else follows from that.',
+  quickInfo: [
+    { label: 'Compound', value: 'P21 \u2014 also written CNTF-derived peptide, D-SAK, or Peptide 21' },
+    { label: 'Origin', value: 'Engineered from a 15-amino-acid region of ciliary neurotrophic factor (CNTF)' },
+    { label: 'Primary Target', value: 'CDK5 / p35 complex \u2014 a selective inhibitor' },
+    { label: 'Mechanism Class', value: 'Neurotrophic signalling modulator; not a receptor agonist' },
+    { label: 'CNTF Receptor Binding', value: 'None reported \u2014 this is the key distinction from CNTF itself' },
+    { label: 'Blood-Brain Barrier', value: 'Intranasal delivery is the research route; peripheral dosing is not the model' },
+    { label: 'Reported Half-Life', value: '\u2248 30 minutes in circulation \u2014 short, which is why intranasal routes dominate' },
+    { label: 'Downstream Readouts', value: 'BDNF upregulation, reduced tau hyperphosphorylation, restored LTP in hippocampal slices' },
+    { label: 'Evidence Tier', value: 'Strong rodent cognition and neurodegeneration models; no human trial data' },
+    { label: 'UK Supply', value: 'A single verified vendor listing at \u00a332.00 for 10mg \u2014 the thinnest supply of any compound we track' },
+  ],
+  sections: [
+    {
+      title: 'Why P21 Is a Neurogenesis Candidate at All',
+      body: 'Most compounds sold as nootropics work on neurotransmitters \u2014 they push more acetylcholine, more dopamine, more glutamate into a synapse that already exists. That is a signalling argument. P21 does not make that argument, and that is precisely why it attracts attention in the neurogenesis literature rather than the stimulant literature.\n\nP21 is a short synthetic peptide engineered from a 15-amino-acid region of **ciliary neurotrophic factor (CNTF)**. CNTF itself is a genuine neurotrophic cytokine \u2014 it supports motor neuron survival, promotes axonal outgrowth, and has been trialled in amyotrophic lateral sclerosis. It also has a serious problem: it binds a receptor complex that triggers a cascade of inflammatory and cachectic side effects, so systemic CNTF is not a practical research tool, let alone a therapeutic one.\n\nThe work that produced P21 set out to separate the useful part of CNTF from the problematic part. Rather than agonising the CNTF receptor, the research group looked for peptide fragments that could interfere with an intracellular kinase implicated in neuronal injury and cognitive decline. That kinase is **CDK5**.\n\nThis is an important framing point. P21 is not "CNTF in a vial" and it should not be evaluated as such. It is a downstream inhibitor that borrows CNTF\'s scaffold for delivery characteristics, and its research identity comes from what it switches *off*, not what it switches on.\n\n[**Compare P21 prices from UK suppliers \u2192**](/compounds/p21)',
+    },
+    {
+      title: 'The CDK5 Pathway and Why Hyperphosphorylation Is the Problem',
+      body: 'CDK5 (cyclin-dependent kinase 5) is unlike the other cyclin-dependent kinases. It is not a cell-cycle enzyme. In the adult nervous system CDK5 is highly expressed and is activated not by cyclins but by two neuron-specific cofactors, **p35** and **p39**. When CDK5 is bound to p35 it performs a set of legitimate, necessary functions: it regulates cytoskeletal dynamics, contributes to synaptic vesicle cycling, and participates in the cellular machinery of learning.\n\nThe pathology appears when that relationship goes wrong. Under excitotoxic or oxidative stress, a calcium-dependent protease called **calpain** cleaves p35 into a shorter fragment, **p25**. The CDK5-p25 complex is a different animal entirely. It retains kinase activity but loses the membrane-targeting and regulation that kept the p35 complex in check, and it concentrates in the cytoplasm where it phosphorylates substrates it would not normally reach \u2014 including **tau**.\n\nHyperphosphorylated tau is the molecular signature that gives tauopathies their name. The mechanistic chain the P21 literature works along is therefore: calpain activation \u2192 p35 cleavage to p25 \u2192 deregulated CDK5 activity \u2192 tau hyperphosphorylation and cytoskeletal destabilisation \u2192 synaptic loss. Because P21 interferes with the CDK5-p35/p25 axis directly, it is studied as a means of breaking that chain at its most tractable link.\n\nThe second arm of the argument is downstream. The CDK5-p25 complex also suppresses **BDNF** (brain-derived neurotrophic factor) signalling. BDNF is one of the better-characterised molecular correlates of **long-term potentiation (LTP)** \u2014 the persistent strengthening of synapses that is the standard laboratory model of memory formation. In hippocampal slice preparations, P21 exposure has been reported to restore LTP in systems where it had been suppressed, and to raise BDNF expression. That is the mechanism through which a kinase inhibitor becomes a neurogenesis-adjacent compound.',
+    },
+    {
+      title: 'What the Preclinical Evidence Actually Shows',
+      body: 'The P21 dataset is genuinely interesting and genuinely narrow. It is worth being precise about the distinction, because the marketing around this compound routinely blurs it.\n\nThe primary body of evidence is rodent work, with the most rigorous modern characterisation published in 2023 in PNAS by Pao and colleagues, who described a Cdk5-derived peptide that inhibits Cdk5/p25 activity and improves neurodegenerative phenotypes in mouse models. Animals given P21 \u2014 typically by intraperitoneal injection in the earlier studies and by intranasal administration in later work \u2014 have shown improvements on spatial memory tasks including the Morris water maze, and on object recognition. In models where CDK5 activity had been pathologically elevated, P21 administration was associated with reduced tau phosphorylation.\n\nThe mechanistic work is more convincing than the behavioural work, which is the usual pattern in this field. There is reasonable biochemical evidence that P21 engages CDK5 and reduces p25-mediated tau phosphorylation, and the 2023 PNAS work strengthened that mechanistic case considerably. The behavioural translation from mouse water maze to human cognition is where the chain of inference gets long and shaky.\n\nThree limitations deserve to be stated plainly:\n\n**First, no human trials.** There is no Phase 1 safety data, no pharmacokinetic study in humans, no dose-finding work. Everything described here comes from animal models or cell culture. This is true of most research peptides, but it is worth stating because P21 discussions frequently imply more.\n\n**Second, the delivery problem is unresolved.** P21 has a reported half-life of roughly 30 minutes. A peptide of that size does not cross the blood-brain barrier efficiently, which is why the research compounds are formulated and discussed for intranasal delivery. Intranasal-to-brain transport is real but variable, and how much of an intranasal dose reaches hippocampal tissue in a human is not established.\n\n**Third, the model systems may not transfer.** Most positive P21 data comes from animals in which the CDK5 pathway was artificially or acutely perturbed. Whether the same intervention helps in the slow, decades-long process of sporadic human neurodegeneration is an open question, not an answered one.\n\nFor readers who want the wider context on how these compound classes are organised and what distinguishes a research tool from a medicine, the [**types of research peptides guide**](/research/types-of-research-peptides) sets out the categories properly.',
+    },
+    {
+      title: 'P21 in the Context of Other Neuropeptides',
+      body: 'P21 sits in an unusual position in the cognitive peptide landscape. It is not a member of the classic Russian bioregulator family \u2014 it has no Khavinson lineage and no pineal or thymic origin. It is also not a melanocortin fragment, so it has nothing in common with **Semax** or **Selank**, the two compounds most UK buyers associate with cognitive research.\n\nThat distinction matters practically because the three compounds get grouped together in vendor catalogues and in buyer conversations, when their mechanisms have almost nothing in common. **Semax** is an ACTH(4-10) analogue whose research rationale centres on BDNF and dopaminergic signalling, with a substantial Russian clinical literature behind it. **Selank** is a tuftsin analogue studied for anxiolytic and GABA-adjacent effects. Both have defined sequences and defined research histories.\n\nP21\'s differentiator is that it targets a pathological process \u2014 CDK5 dysregulation \u2014 rather than modulating normal neurotransmission. That makes it conceptually closer to a disease-modifying research interest than to a cognitive-enhancement one, which is exactly why the neurodegeneration literature rather than the nootropic literature is where its papers live.\n\n[**Related: P21 Research Summary \u2192**](/research/p21-deep-dive)\n\n[**Compare P21 prices \u2192**](/compounds/p21) \u00b7 [**Compare Semax prices \u2192**](/compounds/semax) \u00b7 [**Compare Selank prices \u2192**](/compounds/selank)',
+    },
+    {
+      title: 'Sourcing P21 in the UK: The Supply Reality',
+      body: 'P21 has the thinnest supply profile of any compound we track on ViralPeps. The entire UK market currently resolves to **one verified vendor listing**, priced at **\u00a332.00 for 10mg**.\n\nThat is a materially different situation from a compound like Tesamorelin, which has 74 vendors, or Ipamorelin, which has 72. With a single listing there is no price competition, no ability to cross-check one vendor\'s analytical documentation against another\'s, and no way to sanity-check a price against a market band. When you are buying from a market of one, competitive pressure is doing nothing to protect you.\n\nThree things follow from that.\n\n**Identity is the whole verification.** P21 has no CAS number, which is unusual and worth understanding. CAS numbers are assigned to discrete, well-defined chemical substances. P21 as sold is a short synthetic peptide preparation without a registered single-entity CAS in the standard databases. Some suppliers list "N/A" as the CAS field; that is honest, and it also means you cannot use CAS as your identity check. Instead the descriptor you are verifying is the *sequence*, and for a peptide this short the sequence is what a mass spectrometry result should confirm.\n\n**A certificate of analysis becomes the primary document.** For a compound with no CAS and one vendor, the CoA is doing all the work. It should carry a mass spectrometry result (confirming molecular mass) and an HPLC trace (confirming purity and absence of major impurities). A CoA that reports only a purity percentage without an accompanying MS panel is not doing the job.\n\n**Availability is fragile.** A single-supplier compound can go out of stock without warning, and when it does there is no second source. If you are planning research around P21, the practical advice is to verify stock at the moment of ordering rather than assuming continuity.\n\nFor a broader picture of how UK peptide pricing and vendor verification works across compounds with healthier supply, the [**research peptides for sale UK**](/research/research-peptides-for-sale-uk) pillar covers the market structure, and the [**UK peptide directory**](/research/uk-peptide-directory) lists what is currently live.',
+    },
+    {
+      title: 'Practical Research Notes and Safe Framing',
+      body: 'P21 is supplied as a lyophilised powder and, like every lyophilised peptide, requires reconstitution before use in a research setting. The general principles \u2014 appropriate diluent, gentle handling, avoiding vigorous vortexing that shears the peptide, and cold storage of both the lyophilate and the reconstituted solution \u2014 are covered in the [**peptide reconstitution guide**](/research/peptide-reconstitution-guide).\n\nA few points specific to P21:\n\n**Stability is a real concern given the short half-life.** The reported \u2248 30-minute half-life is a property of the molecule in circulation, not a shelf-life figure, but it does mean this is not a compound to leave reconstituted at room temperature. Lyophilised powder should be stored frozen or refrigerated per the vendor\'s specification; reconstituted material should be refrigerated and used within the vendor\'s stated window.\n\n**Sequence is your quality signal.** Because there is no CAS number and no molecular weight that can be independently confirmed against a registry, the sequence descriptor is the anchor. D-amino acid substitutions \u2014 which P21 uses \u2014 are not interchangeable with the L-form and are not detectable by purity percentage alone. A CoA reporting 99% purity tells you about the proportion of the main peak; it does not by itself confirm the correct stereochemistry.\n\n**This is a research compound, not a medicine.** P21 has no UK marketing authorisation, is not a licensed medicine, and has no established human safety profile, dose, or indication. Nothing in this article should be read as a dosing recommendation or as a claim of clinical benefit. The content is a summary of published preclinical literature and a description of the UK supply situation, presented for research and educational purposes.\n\n[**Compare P21 prices \u2192**](/compounds/p21)\n\n[**Related: types of research peptides \u2192**](/research/types-of-research-peptides)',
+    },
+  ],
+  faq: [
+    {
+      question: 'What is P21 and how does it relate to CNTF?',
+      answer: 'P21 is a short synthetic peptide engineered from a 15-amino-acid region of ciliary neurotrophic factor (CNTF). Unlike CNTF itself, P21 does not bind or activate the CNTF receptor. It was designed to interfere with the CDK5/p35 kinase complex, which is why its research profile is entirely different from CNTF\'s \u2014 it is studied as a kinase-pathway inhibitor rather than as a neurotrophic cytokine.',
+    },
+    {
+      question: 'How does P21 relate to neurogenesis specifically?',
+      answer: 'P21 is studied as a neurogenesis-adjacent compound through two routes. It inhibits the CDK5-p25 complex that hyperphosphorylates tau and destabilises the neuronal cytoskeleton, and it is associated with restored BDNF signalling and long-term potentiation in hippocampal slice models. LTP and BDNF are the standard molecular correlates of synaptic plasticity, the cellular basis of learning and memory formation. It does not act as a direct growth factor.',
+    },
+    {
+      question: 'Has P21 been tested in humans?',
+      answer: 'No. All published P21 data comes from rodent models and cell culture. There are no human trials, no established human pharmacokinetics, and no safety data in humans. P21 is a research compound with no UK marketing authorisation and no licensed medicinal use.',
+    },
+    {
+      question: 'Why is P21 usually discussed for intranasal delivery?',
+      answer: 'P21 has a reported half-life of around 30 minutes and, as a peptide of its size, does not cross the blood-brain barrier efficiently from the periphery. Intranasal administration is the research route used because it offers a more direct path to the central nervous system. How much of an intranasal dose reaches brain tissue in humans is not established.',
+    },
+    {
+      question: 'How many UK suppliers stock P21?',
+      answer: 'One. As tracked on ViralPeps, the entire UK market currently resolves to a single verified vendor listing at \u00a332.00 for 10mg. That is the thinnest supply profile of any compound on the site \u2014 there is no price competition and no second source to cross-check analytical documentation against.',
+    },
+    {
+      question: 'Does P21 have a CAS number?',
+      answer: 'No. P21 is listed without a registered CAS number in the standard chemical databases, because it is a short synthetic peptide preparation rather than a discrete registered single entity. This means CAS cannot be used as your identity check. The sequence descriptor and a mass spectrometry result on the certificate of analysis become the primary verification documents instead.',
+    },
+  ],
+  references: [
+    'Pao PC, Seo J, Lee A, et al. A Cdk5-derived peptide inhibits Cdk5/p25 activity and improves neurodegenerative phenotypes. Proc Natl Acad Sci U S A. 2023;120(16):e2219155120. PMID 37043533',
+    'Patrick GN, Zukerberg L, Nikolic M, et al. Conversion of p35 to p25 deregulates Cdk5 activity and promotes neurodegeneration. Nature. 1999;402(6762):615-622. PMID 10604467',
+    'Lee MS, Kwon YT, Li M, et al. Neurotoxicity induces cleavage of p35 to p25 by calpain. Nature. 2000;405(6784):360-364. PMID 10830966',
+    'Cruz JC, Tseng HC, Goldman JA, et al. Aberrant Cdk5 activation by p25 triggers pathological events leading to neurodegeneration and neurofibrillary tangles. Neuron. 2003;40(3):471-483. PMID 14642273',
+    'Cruz JC, Tsai LH. Cdk5 deregulation in the pathogenesis of Alzheimer\'s disease. Trends Mol Med. 2004;10(9):452-458. PMID 15350898',
+    'Cheung ZH, Ip NY. Cdk5: a multifaceted kinase in neurodegenerative diseases. Trends Cell Biol. 2012;22(3):169-175. PMID 22189166',
+    'Shah K, Lahiri DK. Cdk5 activity in the brain \u2014 multiple paths of regulation. J Cell Sci. 2014;127(Pt 11):2391-2400. PMID 24879856',
+    'Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561. PMID 9849822',
+  ],
+},
+
+'growth-hormone-peptide-suppliers-uk': {
+  slug: 'growth-hormone-peptide-suppliers-uk',
+  pullQuote: 'The growth hormone peptide category is where UK research peptide pricing is at its most competitive and its most confusing. Seventy-two vendors stock Ipamorelin. But the compounds people actually search for \u2014 the ones with a real mechanistic argument behind them \u2014 are stocked by a fraction of that number, and the price spread between them tells you nothing about which is which.',
+  quickInfo: [
+    { label: 'Category Scope', value: 'GHRH analogues, ghrelin receptor (GHRP) mimetics, IGF-1 axis compounds and GH-related blends' },
+    { label: 'Compounds Tracked', value: '30 master compounds in the growth-hormone category on ViralPeps' },
+    { label: 'Most Stocked', value: 'Tesamorelin \u2014 74 verified UK vendors / 98 product listings' },
+    { label: 'Second Most Stocked', value: 'Ipamorelin \u2014 72 vendors / 84 listings' },
+    { label: 'Lowest Entry Price', value: 'Ipamorelin at \u00a36.99 \u2014 the cheapest GH-category entry point on the site' },
+    { label: 'Highest Concentration', value: 'CJC-1295 variants \u2014 six separate master compounds, 37 vendors on the base peptide alone' },
+    { label: 'Thinnest Supply', value: 'Hexarelin (12 vendors) and Tesamorelin + Ipamorelin blend (1 vendor)' },
+    { label: 'Price Band', value: 'GHRPs from \u00a36.99; GHRH analogues from \u00a39.95; IGF-1 LR3 from \u00a310.00' },
+    { label: 'Sub-Category Trap', value: '"CJC-1295" resolves to CJC-1295, CJC-1295 with DAC and CJC-1295 DAC \u2014 three different products' },
+    { label: 'Legal Status', value: 'All research-use-only. None hold a UK marketing authorisation as supplied by these vendors.' },
+  ],
+  sections: [
+    {
+      title: 'What Counts as a Growth Hormone Peptide',
+      body: 'The growth hormone peptide category is not one mechanism. It is at least four, and conflating them is the most common error buyers make. Understanding which is which determines what you are actually comparing when you look at a price table.\n\n**GHRH analogues** mimic growth hormone-releasing hormone, the hypothalamic signal that tells the pituitary to release GH. They act on the GHRH receptor. The family includes **Sermorelin** (the 1-29 fragment of native GHRH), **Tesamorelin** (a stabilised analogue with a trans-3-hexenoyl modification), and **CJC-1295** in both its DAC and DAC-free forms.\n\n**Ghrelin receptor mimetics**, also called GH secretagogues or GHRPs, act on a completely different receptor \u2014 the ghrelin/GHS-R1a receptor. This family includes **Ipamorelin**, **GHRP-2**, **GHRP-6** and **Hexarelin**. Mechanistically they have nothing in common with the GHRH analogues, which is why the two families are frequently stacked in research models rather than substituted for one another.\n\n**IGF-1 axis compounds** sit downstream of GH entirely. **IGF-1 LR3** and **IGF-1 DES** are modified insulin-like growth factor-1 variants; **MGF** and **PEG-MGF** are mechano growth factor derivatives; **ACE-031** targets the myostatin pathway. These do not stimulate GH release at all \u2014 they act on what GH ultimately influences, or on adjacent muscle-growth signalling.\n\n**Blends** combine compounds from the first two families. **CJC-1295 + Ipamorelin Blend** is the canonical example: a GHRH analogue plus a ghrelin mimetic, on the reasoning that the two act on separate receptors and may therefore act additively.\n\nAn important status difference runs through the whole category. **Tesamorelin** is an FDA-approved drug (Egrifta) for HIV-associated lipodystrophy \u2014 it has a completed clinical programme, a defined safety profile and an approved indication. **Sermorelin** was formerly an approved US product before being withdrawn for commercial rather than safety reasons. Everything else in the category is purely a research compound: no approved indication, no human safety database, no licensed status. That distinction matters far more than price when you are reading vendor marketing.\n\n[**Compare Tesamorelin prices from UK suppliers \u2192**](/compounds/tesamorelin)',
+    },
+    {
+      title: 'Which Compounds the UK Market Actually Stocks',
+      body: 'Supply concentration in this category is wildly uneven, and the pattern is worth understanding before you shop.\n\nThe two compounds with deep supply are **Tesamorelin** (74 vendors, 98 listings) and **Ipamorelin** (72 vendors, 84 listings). Both comfortably exceed the category average, and both have a genuine commercial rationale \u2014 Tesamorelin because of its approved-drug status, Ipamorelin because it is the most selective of the ghrelin mimetics and the easiest to justify in a research model.\n\nA second tier of well-stocked compounds follows. **CJC-1295** in its base form has 37 vendors. **Sermorelin** has 32. **GHRP-6** has 29. **CJC-1295 + Ipamorelin Blend** has 27. **GHRP-2** has 24. **CJC-1295 (With DAC)** has 21.\n\nBelow that, supply gets noticeably thinner.',
+      table: {
+        header: ['Compound', 'UK Vendors', 'Listings', 'Cheapest'],
+        rows: [
+          ['Tesamorelin', '74', '98', '\u00a319.95'],
+          ['Ipamorelin', '72', '84', '\u00a36.99'],
+          ['CJC-1295', '37', '47', '\u00a39.95'],
+          ['Sermorelin', '32', '39', '\u00a39.99'],
+          ['GHRP-6', '29', '35', '\u00a37.95'],
+          ['CJC-1295 + Ipamorelin Blend', '27', '31', '\u00a321.99'],
+          ['GHRP-2', '24', '28', '\u00a37.95'],
+          ['CJC-1295 (With DAC)', '21', '23', '\u00a316.95'],
+          ['Hexarelin', '12', '13', '\u00a39.95'],
+          ['CJC-1295 + Ipamorelin', '9', '9', '\u00a330.00'],
+          ['Tesamorelin + Ipamorelin', '1', '1', '\u00a342.00'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'What the Supply Numbers Show',
+          body: 'Two things stand out. First, the GHRPs are the cheapest entry point in the entire category \u2014 Ipamorelin at \u00a36.99 and the GHRP variants at \u00a37.95 are below anything else here. Second, the blends carry a premium that is not simply the sum of their parts: the CJC-1295 + Ipamorelin combination sits at \u00a321.99 while its two components start at \u00a39.95 and \u00a36.99 respectively. You are paying for the formulation, not the mass of peptide.\n\nFor the full compound-by-compound breakdown, see the [**research peptides for sale UK**](/research/research-peptides-for-sale-uk) pillar.',
+        },
+      ],
+    },
+    {
+      title: 'The CJC-1295 Naming Problem',
+      body: 'If there is one place this category reliably confuses buyers, it is the CJC-1295 family. There are **six separate master compounds** on ViralPeps whose names all contain "CJC-1295", and they are not interchangeable.\n\nThe critical distinction is **DAC** \u2014 Drug Affinity Complex. DAC is a modification that attaches a maleimide group enabling the peptide to bind albumin in circulation. An albumin-bound peptide is protected from rapid enzymatic clearance, which extends its half-life substantially: from minutes or hours for the unmodified peptide to roughly a week for the DAC version.\n\nThat single modification produces three products that must not be treated as one:\n\n**CJC-1295 (no DAC)** \u2014 also sold as **Mod GRF(1-29)** or modified GRF. The unmodified-in-that-respect form. Short half-life, 37 vendors, from \u00a39.95.\n\n**CJC-1295 (With DAC)** / **CJC-1295 DAC** \u2014 the albumin-binding form. 21 vendors and 5 vendors respectively across the two entries, from \u00a316.95 and \u00a319.99.\n\nSome vendors also list the two forms as a single "CJC-1295" product without specifying which one it is. That is a data quality problem, not a naming quirk, because the two have different half-lives and different research implications. If a listing does not state DAC status, treat the listing as unverified until it does.\n\nThe DAC complication extends into blends. **CJC-1295 + Ipamorelin Blend** at 27 vendors and **CJC-1295 + Ipamorelin** at 9 vendors and \u00a330.00 are listed separately because vendors disagree about which CJC-1295 form they contain and how it is presented. When comparing blend prices, check the component specification rather than the headline name.',
+    },
+    {
+      title: 'How the UK Vendor Tier Structure Works',
+      body: 'Across all 30 growth-hormone compounds, **88 distinct vendors** appear. That is close to the total number of vendors on the site (91), which tells you that growth hormone peptides are the single most widely stocked category in the UK market.\n\nThe vendors that appear most often across the category are **Express Peptides** (44 GH-category products), **Pure Peptides UK** (38), **Research Peptides UK** (32), **Tide Labs** (19), **Kensington Labs UK** (18), **Chroma Peptides** (17), **PeptidesX** (15), **BioPlex Peptides** (15), **Dr P Research** (14) and **Raccoon Peptides** (14).\n\nThe practical implication of 88 vendors chasing the same compounds is a wide price spread on identical products. On Tesamorelin alone there are 98 separate listings for one compound. That spread is the entire reason a comparison site exists \u2014 and it is also why a single vendor\'s catalogue is not a useful way to judge whether a price is competitive.\n\nWhat the vendor tier structure should actually be used for is **verification**, not price. Two vendors quoting \u00a324.99 for the same 10mg vial are not equivalent if one ships a certificate of analysis with a mass spectrometry panel and the other ships a purity percentage with no supporting data. The category has enough depth that you can afford to make analytical documentation the deciding factor rather than price.\n\nFor the wider view of how vendors are verified and what the directory covers, see the [**UK peptide directory**](/research/uk-peptide-directory).',
+    },
+    {
+      title: 'Verification Priorities in This Category',
+      body: 'Growth hormone peptides carry verification requirements that do not apply everywhere, because of the specific way this category is supplied.\n\n**1. Confirm which molecule you are buying.** For CJC-1295 the DAC question is material. For IGF-1 compounds, "LR3" and "DES" are different molecules with different receptor affinity, and "MGF" is not "PEG-MGF". Vendor catalogue names often elide these distinctions, and the responsibility for resolving them sits with the buyer.\n\n**2. Demand a certificate of analysis with the lot number.** A CoA should reference the specific production lot. Purity by HPLC tells you the proportion of the main peak; a mass spectrometry result tells you whether that main peak is the correct molecule. For peptides with a defined sequence and molecular weight, MS is the identity check \u2014 HPLC alone cannot detect a wrong-sequence peptide of similar mass.\n\n**3. Check the form and presentation.** These compounds are supplied as lyophilised powder, and some vendors also offer pre-filled pens and nasal sprays. A pen presentation introduces a second set of variables \u2014 the solution, the preservative, the concentration accuracy of the fill. The same peptide in powder and in pen is not the same product to verify.\n\n**4. Be aware of the regulatory position.** Tesamorelin is an approved medicine in the US and a prescription-only medicine in the UK. It is not lawful to supply it as a research chemical for human use. The other compounds in this category have no approved status at all, which is why every listing is framed as research-use-only. This is not a technicality \u2014 it is the legal boundary that defines what the entire market is permitted to be.\n\nFor the general framework on how to assess a supplier before ordering, the [**choosing a supplier guide**](/research/choosing-a-uk-supplier) covers the checks that apply across every category, and the [**peptide purity guide**](/research/how-to-read-a-coa) explains what the analytical documents should contain.',
+    },
+    {
+      title: 'Storage, Handling and Research Framing',
+      body: 'Growth hormone peptides are generally less forgiving than small-molecule research compounds because they are full peptides subject to enzymatic and hydrolytic degradation.\n\n**Lyophilised powder** should be stored frozen for long-term holding, or refrigerated for shorter periods, according to the vendor\'s specification. Not every vendor states a storage condition; where it is absent, cold and dry is the safer default.\n\n**Reconstituted material** is considerably less stable. The general handling principles \u2014 adding diluent down the wall of the vial rather than onto the powder, swirling rather than shaking, avoiding repeated freeze-thaw cycles, and using bacteriostatic water where a multi-use vial is intended \u2014 are set out in the [**peptide reconstitution guide**](/research/peptide-reconstitution-guide). The [**peptide storage guide**](/research/peptide-storage-guide) covers temperature and light exposure.\n\nThe half-life differences within this category matter for handling in a specific way. A DAC-modified CJC-1295 has a circulating half-life measured in days; an unmodified CJC-1295 or a GHRP has one measured in minutes to hours. That is a property of the molecule in circulation, not of the powder on your shelf, but it does mean the two forms have genuinely different research profiles and should not be treated as substitutions for one another.\n\n**This category is research-use-only.** Tesamorelin holds a marketing authorisation in other jurisdictions but is not supplied for human use by any vendor listed here. The remaining compounds have no approved indication anywhere. Nothing in this article describes a dose, a protocol, or a therapeutic application. It is a summary of supply structure and analytical verification, presented for research and educational purposes.\n\n[**Compare Ipamorelin prices \u2192**](/compounds/ipamorelin) \u00b7 [**Compare Sermorelin prices \u2192**](/compounds/sermorelin) \u00b7 [**Compare GHRP-6 prices \u2192**](/compounds/ghrp-6)\n\n[**Related: CJC-1295 (With DAC) Deep Dive \u2192**](/research/cjc-1295-with-dac-deep-dive)',
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK suppliers stock growth hormone peptides?',
+      answer: '88 distinct vendors appear across the 30 growth-hormone compounds tracked on ViralPeps, out of 91 vendors on the site in total. That makes growth hormone peptides the most widely stocked category in the UK research peptide market. Supply is uneven though: Tesamorelin has 74 vendors and Ipamorelin 72, while Hexarelin has 12 and the Tesamorelin + Ipamorelin blend has just one.',
+    },
+    {
+      question: 'What is the difference between a GHRH analogue and a GHRP?',
+      answer: 'They act on different receptors. GHRH analogues such as Sermorelin, Tesamorelin and CJC-1295 act on the growth hormone-releasing hormone receptor. GHRPs such as Ipamorelin, GHRP-2, GHRP-6 and Hexarelin act on the ghrelin/GHS-R1a receptor. Because the receptors are separate, the two families are frequently combined in research models rather than treated as substitutes for one another.',
+    },
+    {
+      question: 'Is CJC-1295 with DAC the same as CJC-1295 without DAC?',
+      answer: 'No, and the difference is significant. DAC (Drug Affinity Complex) attaches a maleimide group that lets the peptide bind albumin in circulation, extending its half-life from minutes or hours to roughly a week. ViralPeps tracks six separate master compounds whose names contain "CJC-1295", including both DAC and DAC-free forms. If a vendor listing does not state which form it is, treat the listing as unverified on that point.',
+    },
+    {
+      question: 'Are growth hormone peptides legal in the UK?',
+      answer: 'All compounds in this category are supplied as research chemicals, not medicines. Tesamorelin is an approved medicine in the US and a prescription-only medicine in the UK, so it cannot lawfully be supplied for human use as a research chemical. The other compounds have no approved indication anywhere. Every listing on ViralPeps is framed as research-use-only, and none of the vendors supply for human consumption.',
+    },
+    {
+      question: 'Why is Ipamorelin cheaper than Tesamorelin?',
+      answer: 'Supply depth and molecule size both play a role. Ipamorelin is a short pentapeptide with 72 vendors competing, starting at \u00a36.99. Tesamorelin is a larger, synthetically modified 44-residue analogue with 74 vendors, starting at \u00a319.95. The synthesis cost of a longer, modified peptide is higher, and Tesamorelin\'s approved-drug status means more documentation accompanies it. The GHRPs broadly occupy the cheapest tier of the category.',
+    },
+    {
+      question: 'What should I check on a certificate of analysis for these compounds?',
+      answer: 'Three things. First, that the CoA references the specific production lot you received. Second, that it includes a mass spectrometry result alongside HPLC purity \u2014 MS confirms the main peak is the correct molecule, which HPLC alone cannot do for a peptide with a defined sequence. Third, for CJC-1295, that the DAC status is stated. A purity percentage on its own is not a sufficient identity check.',
+    },
+  ],
+  references: [
+    'Jett\u00e9 L, L\u00e9ger R, Thibaudeau K, et al. Human growth hormone-releasing factor (hGRF)1-29-albumin bioconjugates activate the GRF receptor on the anterior pituitary in rats: identification of CJC-1295 as a long-lasting GRF analog. Endocrinology. 2005;146(7):3052-3058. PMID 15817669',
+    'Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. N Engl J Med. 2007;357(23):2359-2370. PMID 18057338',
+    'Ditta AM, et al. Efficacy and Safety of Tesamorelin in People Living With HIV (PLWH) With Lipodystrophy: a systematic review. J Int Assoc Provid AIDS Care. 2026. PMID 42538058',
+    'Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561. PMID 9849822',
+    'Bowers CY. Growth hormone-releasing peptide (GHRP). Cell Mol Life Sci. 1998;54(12):1316-1329. PMID 9893708',
+    'Walker RF. Sermorelin: a better approach to management of adult-onset growth hormone insufficiency? Clin Interv Aging. 2006;1(4):307-308. PMID 18046908',
+    'Pao PC, Seo J, Lee A, et al. A Cdk5-derived peptide inhibits Cdk5/p25 activity and improves neurodegenerative phenotypes. Proc Natl Acad Sci U S A. 2023;120(16):e2219155120. PMID 37043533',
+    'Van Hout MC, et al. An in-depth case examination of an exotic dancer\'s experience of melanotan. Int J Drug Policy. 2014;25(5):1000-1002. PMID 24280586',
+    'Hjuler KF, Lorentzen HF. Melanoma associated with the use of melanotan-II. Dermatology. 2014;228(1):33-35. PMID 24355990',
+  ],
+},
+
+'peptides-for-sale-uk': {
+  slug: 'peptides-for-sale-uk',
+  pullQuote: 'Almost every question people ask about buying peptides in the UK is really a question about what is legal, what is verifiable, and what the price is actually telling you. The first two determine whether a purchase is sensible. The third is mostly noise unless you know what is behind it.',
+  quickInfo: [
+    { label: 'Market Size', value: '91 UK vendors tracked, 154 master compounds, 2,965 product listings' },
+    { label: 'Category Leaders', value: 'Growth hormone peptides (88 vendors) and anti-aging compounds (32 master listings)' },
+    { label: 'Price Spread', value: 'Identical compounds vary by 3-10x between vendors \u2014 e.g. GHK-Cu from \u00a313.89' },
+    { label: 'Legal Position', value: 'Research chemicals only. None are licensed medicines for human use as supplied.' },
+    { label: 'Key Regulatory Line', value: 'The Psychoactive Substances Act 2016 exempts medicinal products \u2014 it is not the governing law here' },
+    { label: 'Verification Standard', value: 'Third-party HPLC purity + mass spectrometry identity, with a lot-matched certificate of analysis' },
+    { label: 'Common Failure', value: 'A purity percentage with no MS panel \u2014 cannot confirm the main peak is the right molecule' },
+    { label: 'Payment Note', value: 'Card processors restrict research chemical sales \u2014 most vendors are bank transfer or crypto only' },
+    { label: 'Delivery Reality', value: 'UK-to-UK domestic shipping is standard; expect a signature requirement on most orders' },
+    { label: 'Buyer Protection', value: 'Consumer rights are weaker for research chemicals than for ordinary goods \u2014 check terms before ordering' },
+  ],
+  sections: [
+    {
+      title: 'What "Peptides for Sale" Actually Means in the UK',
+      body: 'Search for peptides for sale in the UK and you will find several hundred websites, all selling similar vials at prices that vary by a factor of three to ten for what is nominally the same product. Making sense of that market requires separating three questions that get bundled together: what is legal, what is verifiable, and what the price means.\n\nStart with scale. Across the UK market, ViralPeps currently tracks **91 vendors** offering **154 master compounds** across **2,965 product listings**. The largest category by vendor count is growth hormone peptides, with 88 distinct vendors appearing across its compounds. Anti-aging compounds form the largest category by master compound count.\n\nThe legal position is the part most buyers get wrong, and it is worth stating without hedging. **Peptides sold by these vendors are research chemicals, not medicines.** They are supplied for laboratory and in-vitro research use. They are not licensed medicines, they have no marketing authorisation in the UK, and they are not intended for human consumption. Every legitimate vendor in this market frames their products this way, and that framing is not decorative \u2014 it is the regulatory basis on which the entire market operates.\n\nA specific point of confusion is the **Psychoactive Substances Act 2016**. That Act does not govern peptides. It contains an exemption for medicinal products and is directed at substances with psychoactive effect; peptides are not psychoactive substances within its meaning. People sometimes cite it either as a prohibition on peptides (wrong) or as evidence that peptides are unregulated (also wrong). The actual constraint is medicines law: supplying an unlicensed substance for human use is a medicines offence, which is precisely why the research-use-only framing exists and why it must be taken at face value.\n\nSome compounds sit in a genuinely different position because they are approved medicines elsewhere. **Tesamorelin** is FDA-approved as Egrifta and is a prescription-only medicine in the UK. **Semaglutide** and **tirzepatide** are licensed medicines here, sold under brand names by pharmacies, and their presence in the research chemical market is a separate and legally fraught situation. **Melanotan II** has no licence anywhere and is explicitly named in UK safety warnings. These are not interchangeable situations, and treating the whole market as one thing is the fastest way to make a bad decision.\n\n[**Compare compound prices from UK suppliers \u2192**](/compounds)',
+    },
+    {
+      title: 'Where the Price Variation Comes From',
+      body: 'The single most common question about this market is why identical compounds cost wildly different amounts. There are four real answers, and they are worth separating from the noise.\n\n**1. Presentation and fill volume.** A 5mg vial and a 10mg vial are different products, and vendors list both. When you compare prices you must compare like for like, which is what the price-per-mg column on a compound page is for. A \u00a319.99 listing for 10mg is cheaper per milligram than a \u00a313.95 listing for 5mg, despite the higher headline price.\n\n**2. Analytical documentation.** A vendor who commissions third-party HPLC and mass spectrometry testing on every lot carries a real cost that a vendor repackaging bulk powder does not. That cost appears in the price. It is the most defensible reason for a price difference and often the one buyers ignore.\n\n**3. How the peptide is supplied.** Lyophilised powder, pre-filled pen, and nasal spray are three different presentations with different handling requirements and different manufacturing overheads. The same peptide in powder and in a pen is not the same product to compare on price.\n\n**4. Supply depth at that moment.** A compound with 74 vendors has genuine competition pushing prices toward a floor. A compound with one or two vendors has no competitive pressure at all. This is visible in the data: **Ipamorelin** with 72 vendors starts at \u00a36.99, while the **Tesamorelin + Ipamorelin blend**, with one vendor, sits at \u00a342.00.\n\nThe most obvious category-level fact is how wide the spread is even on well-supplied compounds. **GHK-Cu** \u2014 the most widely stocked compound on the site \u2014 starts at \u00a313.89, but per-milligram pricing across its 60-plus vendor listings varies far more than the headline suggests. That variation is the reason a comparison table is a more useful tool than a search engine here: search shows you what exists, comparison shows you what the market is doing.\n\n[**Compare GHK-Cu prices \u2192**](/compounds/ghk-cu)\n\n[**Related: research peptides for sale UK \u2192**](/research/research-peptides-for-sale-uk)',
+    },
+    {
+      title: 'The Verification Standard That Actually Matters',
+      body: 'If you take one thing from this article, make it this: the document that separates a serious vendor from a reseller is a **lot-matched certificate of analysis containing both an HPLC purity result and a mass spectrometry result**.\n\nHere is why both are required.\n\n**HPLC purity** tells you what proportion of the sample is the main peak. A result of 99.2% means 99.2% of the detected material elutes as one peak. It is a genuine and useful measurement.\n\n**Mass spectrometry** tells you what that peak *is*. It reports the molecular mass of the main component, which for a peptide with a defined sequence and a known theoretical mass is an identity check.\n\nThe failure mode this catches is a wrong-sequence peptide of similar mass, or a peptide of the correct stated mass that is not the compound on the label. HPLC cannot detect either, because in both cases there is a single clean peak. A purity figure quoted alone is not a substitute for identity confirmation, and vendors who quote purity without an MS panel are giving you a partial answer while presenting it as a complete one.\n\nThree further checks are worth running:\n\n**Lot matching.** The CoA should reference the specific production lot, and that lot number should appear on the vial label you receive. A generic CoA covering "this product" rather than a specific batch is not evidence about your vial.\n\n**Sequencing where the stakes justify it.** For a compound with an ambiguous sequence descriptor or a D-amino acid substitution, MS confirms mass but not stereochemistry. Full sequence confirmation requires more than MS. This is a higher bar than most buyers apply, and it is the correct bar for compounds where the label is carrying a lot of weight.\n\n**Sterility and endotoxin testing if the presentation implies it.** For lyophilised powder intended only for laboratory work this is generally out of scope. For any product presented as injectable, it is essential and should be documented.\n\nThe [**peptide purity guide**](/research/how-to-read-a-coa) explains what each of these tests detects and what it does not. The [**choosing a supplier guide**](/research/choosing-a-uk-supplier) covers the wider assessment of a vendor beyond documentation.',
+    },
+    {
+      title: 'The Practical Mechanics of Buying',
+      body: 'Documentation aside, four practical realities shape what buying from this market actually looks like.\n\n**Payment is the first friction point.** Mainstream card processors and payment providers restrict research chemical sales, because of chargeback risk and because the underlying activity sits outside conventional merchant categories. In practice most UK vendors accept bank transfer, and a substantial minority accept cryptocurrency. Bank transfer carries no buyer protection at all \u2014 once the money has moved, your only recourse is the vendor\'s willingness to resolve a problem. This is the strongest practical argument for buying from an established vendor with a visible track record rather than the cheapest listing on the page.\n\n**Delivery is domestically straightforward.** Almost all vendors sell UK-to-UK, and domestic shipping is typically 24 to 48 hours. A signature requirement is standard. Cold-chain is not usually needed for lyophilised powder in transit over that timescale, but it is worth checking the vendor\'s stated dispatch conditions in warm weather.\n\n**Consumer rights are weaker than you might expect.** Ordinary consumer protection assumes goods sold for a consumer purpose. Research chemicals sit outside that framing, and vendor terms of service routinely disclaim fitness for any purpose. In practice, a dispute over a misdescribed product comes down to the vendor\'s terms and their commercial reputation, not to a statutory consumer guarantee. Read the terms before ordering rather than after.\n\n**Returns are close to impossible.** Once a vial has left a vendor and been received, most will not accept a return for resale reasons. This makes the pre-purchase check the only meaningful quality control you have. Verify the CoA *before* the order, not after the parcel arrives.\n\nFor the directory view of who is currently live and how vendors are assessed, see the [**UK peptide directory**](/research/uk-peptide-directory).',
+    },
+    {
+      title: 'Category by Category: What the Market Looks Like',
+      body: 'Different categories in this market have markedly different supply characteristics, and knowing which you are in tells you how much leverage you have as a buyer.',
+      subsections: [
+        {
+          title: 'Growth Hormone Peptides \u2014 Deep, Competitive',
+          body: 'The most heavily stocked category. **Tesamorelin** (74 vendors), **Ipamorelin** (72), **CJC-1295** (37) and **Sermorelin** (32) all have enough vendor depth for genuine price competition. This is where comparison shopping delivers the most value, and where a single vendor catalogue is least useful as a price reference. All compounds here are research-use-only, with the exception of Tesamorelin, which is an approved medicine in other jurisdictions.',
+        },
+        {
+          title: 'Anti-Aging and Longevity \u2014 Broad but Uneven',
+          body: 'The largest category by compound count, spanning **Epitalon**, **NAD+**, **GHK-Cu**, **MOTS-c** and others. Supply depth varies enormously between compounds. **GHK-Cu** is the most widely stocked compound on the entire site; **Epitalon** and **MOTS-c** have substantial but smaller followings. This category also contains the widest range of molecular types, from single amino acids to modified peptides, so verification standards are not uniform across it.',
+        },
+        {
+          title: 'GLP-1 and Metabolic \u2014 Legally Distinct',
+          body: 'The category with the most serious legal complications. **Semaglutide** and **Tirzepatide** are licensed prescription medicines in the UK. Their presence in a research chemical market is a different situation from every other category here, because the licensed product exists and the unlicensed supply competes with it. **Retatrutide** and **Survodutide** are investigational and have no licence anywhere. If you are researching in this space, the licensed-versus-unlicensed distinction is the first thing to establish.',
+        },
+        {
+          title: 'Recovery and Healing \u2014 Well Established',
+          body: '**BPC-157** and **TB-500** anchor this category, alongside blends such as **BPC-157 + TB-500**. Supply is deep and pricing is competitive. This is one of the most heavily researched categories in the preclinical literature and one of the most frequently purchased, which makes the documentation checks correspondingly more important \u2014 volume attracts low-quality supply.',
+        },
+      ],
+    },
+    {
+      title: 'A Sensible Process for Buying',
+      body: 'Pulling the threads together, a defensible process for buying research peptides in the UK looks like this.\n\n**Start with the compound, not the vendor.** Establish what the compound is, what its research status is, and whether it has a defined sequence and CAS number. Compounds without a CAS number cannot be verified by CAS, which changes the verification approach. The [**types of research peptides**](/research/types-of-research-peptides) guide sets out the categories.\n\n**Check the legal position for that specific compound.** A research peptide with no licence anywhere is a different situation from a licensed medicine like semaglutide or an approved-elsewhere drug like tesamorelin. Do not assume uniformity across categories.\n\n**Use the market to establish a price band, not a single price.** Compare across vendors at the same fill volume and presentation, using price per milligram. A compound page shows you the whole distribution; a single listing shows you one point in it.\n\n**Make the certificate of analysis the deciding factor.** Lot-matched, with HPLC purity and a mass spectrometry panel. This is the point at which price differences become justified or unjustified.\n\n**Accept the payment reality.** Bank transfer means no buyer protection. That is a reason to weight vendor reputation heavily, not a reason to skip the step.\n\n**Treat everything as research use only.** No vendor in this market supplies for human consumption, and none of the compounds here are licensed medicines for that purpose as supplied.\n\n[**Compare prices across all 154 compounds \u2192**](/compounds)\n\n[**Related: where to buy peptides UK \u2192**](/research/where-to-buy-peptides-uk)\n\n[**Related: UK peptide directory \u2192**](/research/uk-peptide-directory)',
+    },
+  ],
+  faq: [
+    {
+      question: 'Are peptides legal to buy in the UK?',
+      answer: 'Peptides sold as research chemicals are legally supplied and purchased for laboratory research use. They are not licensed medicines and are not intended for human consumption. The key legal line is that supplying an unlicensed substance for human use is a medicines offence, which is why every legitimate vendor frames products as research-use-only. Separate considerations apply to compounds that are licensed medicines in the UK, such as semaglutide and tirzepatide.',
+    },
+    {
+      question: 'Why do identical peptides cost such different amounts?',
+      answer: 'Four main reasons: different fill volumes and presentations (comparing 5mg with 10mg, or powder with a pre-filled pen), whether the vendor commissions third-party HPLC and mass spectrometry testing on each lot, the manufacturing overhead of the presentation, and how many vendors stock the compound. Ipamorelin with 72 vendors starts at \u00a36.99, while a blend with one vendor sits at \u00a342.00. Comparing price per milligram at the same fill volume is the only meaningful comparison.',
+    },
+    {
+      question: 'What should a certificate of analysis contain?',
+      answer: 'Three things minimum. A lot number matching the vial you received. An HPLC purity result. And a mass spectrometry result. The MS result is not optional \u2014 HPLC purity tells you the proportion of the main peak but not what that peak is, so a wrong-sequence peptide of similar mass would pass an HPLC purity check and fail an MS identity check. A purity percentage quoted alone is a partial answer.',
+    },
+    {
+      question: 'Can I pay by card for peptides in the UK?',
+      answer: 'Usually not. Mainstream card processors and payment providers restrict research chemical sales because of chargeback risk and the activity falling outside standard merchant categories. Most UK vendors accept bank transfer and a substantial minority accept cryptocurrency. Bank transfer carries no buyer protection, which is a strong practical argument for buying from an established vendor with a visible track record.',
+    },
+    {
+      question: 'How many UK peptide vendors are there?',
+      answer: 'ViralPeps currently tracks 91 vendors, offering 154 master compounds across 2,965 product listings. Supply is heavily concentrated: growth hormone peptides have 88 distinct vendors appearing across their compounds, and single compounds can have anywhere from one vendor (the Tesamorelin + Ipamorelin blend) to 74 (Tesamorelin).',
+    },
+    {
+      question: 'Does the Psychoactive Substances Act 2016 apply to peptides?',
+      answer: 'No. The Psychoactive Substances Act 2016 is directed at substances with psychoactive effect and exempts medicinal products. Peptides are not psychoactive substances within its meaning, so it is not the governing law for this market. The actual constraint is medicines law \u2014 supplying an unlicensed substance for human use is a medicines offence, which is what the research-use-only framing reflects.',
+    },
+  ],
+  references: [
+    'UK Government. Psychoactive Substances Act 2016, Section 2 (definition of psychoactive substance) and Schedule 1 (exempted substances). legislation.gov.uk',
+    'UK Government. Human Medicines Regulations 2012 (SI 2012/1916) \u2014 regulation 46, prohibition on supply of unlicensed medicinal products. legislation.gov.uk',
+    'Medicines and Healthcare products Regulatory Agency. Guidance on the supply of unlicensed medicinal products (specials). gov.uk',
+    'US Food and Drug Administration. Egrifta (tesamorelin) prescribing information \u2014 approved indication for HIV-associated lipodystrophy. accessdata.fda.gov',
+    'Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. N Engl J Med. 2007;357(23):2359-2370. PMID 18057338',
+    'Medicines and Healthcare products Regulatory Agency. Drug safety update: melanotan II and unlicensed tanning products. gov.uk',
+    'Hjuler KF, Lorentzen HF. Melanoma associated with the use of melanotan-II. Dermatology. 2014;228(1):33-35. PMID 24355990',
+    'Bowers CY. Growth hormone-releasing peptide (GHRP). Cell Mol Life Sci. 1998;54(12):1316-1329. PMID 9893708',
+    'Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561. PMID 9849822',
+  ],
+},
+
 };
 export default content;

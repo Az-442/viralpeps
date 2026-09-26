@@ -1,10 +1,18 @@
-"""Generate the 2 Day-7 KW Phase 1 guide cards (1200x675).
+"""Generate the 3 Day-8 KW Phase 1 guide cards (1200x675).
 
-- kpv-deep-dive         -> single-vial KPV card, "Deep Dive Report"
-- epitalon-vs-thymalin  -> dual-vial Epitalon + Thymalin card, "Head-to-Head Comparison"
+Day 8 articles (Wed 23 Sep):
+- p21-for-neurogenesis                  -> single-vial P21 card, "Deep Dive Report"
+- growth-hormone-peptide-suppliers-uk   -> dual-vial GH card (Tesamorelin + Ipamorelin),
+                                            "Supplier Guide"
+- peptides-for-sale-uk                  -> photorealistic base + Pillow chrome
+                                            (handled by compose_kw_day8_photo_card.py)
 
-Uses the shared draw_guide_card() layout from batch_generate_guide_cards.py
-so sizing/template matches every other card on the site.
+Uses the shared draw_guide_card() layout from batch_generate_guide_cards.py so
+sizing/template matches every other card on the site.
+
+Vial labels were QA'd with the vision tool before compositing (day-5 lesson:
+the 5-Amino-1MQ vial shipped with "5-Amio-1MQ" printed on it). All three vials
+used here read correctly.
 """
 import os
 import sys
@@ -21,33 +29,31 @@ def p(rel):
 
 CARDS = [
     {
-        # Single vial, 75% card height (deep dive styling)
-        "compound": "KPV",
-        "vial_paths": [p("public/images/compounds/kpv-vial.png")],
-        "output_path": p("public/images/guides/kpv-deep-dive.png"),
+        "compound": "P21",
+        "vial_paths": [p("public/images/compounds/p21.png")],
+        "output_path": p("public/images/guides/p21-for-neurogenesis.png"),
         "description_lines": [
-            "How a three-amino-acid fragment of",
-            "alpha-MSH keeps the anti-inflammatory",
-            "activity and loses the pigmentation.",
+            "A CDK5 inhibitor, not a growth factor.",
+            "How the p25 cascade drives tau pathology,",
+            "and why one vendor is the whole UK market.",
         ],
         "badge_text": "Deep Dive Report",
-        "subtitle_text": "KPV (Lys-Pro-Val) Research",
+        "subtitle_text": "P21 for Neurogenesis",
     },
     {
-        # Dual vial, 50% card height each (comparison styling)
-        "compound": "Epitalon vs Thymalin",
+        "compound": "GH Peptides UK",
         "vial_paths": [
-            p("public/images/compounds/epitalon-vial.png"),
-            p("public/images/compounds/thymalin-vial.png"),
+            p("public/images/compounds/tesamorelin.png"),
+            p("public/images/compounds/ipamorelin.png"),
         ],
-        "output_path": p("public/images/guides/epitalon-vs-thymalin.png"),
+        "output_path": p("public/images/guides/growth-hormone-peptide-suppliers-uk.png"),
         "description_lines": [
-            "A defined tetrapeptide against a tissue",
-            "fraction - telomerase and circadian",
-            "signalling versus thymic T-cell function.",
+            "88 vendors, four mechanisms, one category.",
+            "Tesamorelin 74 vendors from GBP 19.95.",
+            "Ipamorelin 72 vendors from GBP 6.99.",
         ],
-        "badge_text": "Head-to-Head Comparison",
-        "subtitle_text": "Peptide Bioregulators Compared",
+        "badge_text": "Supplier Guide",
+        "subtitle_text": "Growth Hormone Peptide Suppliers UK",
     },
 ]
 

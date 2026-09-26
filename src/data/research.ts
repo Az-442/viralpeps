@@ -1359,6 +1359,37 @@ export const guides: ResearchArticle[] = [
     minutes: 14,
     tags: ["epitalon", "thymalin", "comparison", "bioregulator", "khavinson", "telomerase", "thymus", "immune-senescence", "aedg"],
   },
+  {
+    title: "P21 for Neurogenesis: A CDK5 Inhibitor, Not a Growth Factor",
+    desc: "P21 is a short synthetic peptide engineered from ciliary neurotrophic factor that inhibits the CDK5/p35 kinase complex. How the calpain-p25 cascade drives tau hyperphosphorylation, why restored BDNF and LTP make it a neurogenesis candidate, what the 2023 PNAS characterisation adds, and why the entire UK market is currently one vendor at GBP 32.00.",
+    category: "Compound Profiles",
+    section: "goals",
+    compound: "P21",
+    slug: "p21-for-neurogenesis",
+    image: "p21-for-neurogenesis",
+    minutes: 13,
+    tags: ["p21", "neurogenesis", "cdk5", "p25", "tau", "neuroprotection", "cognitive", "cnfb", "bdnf", "ltp", "uk-supply", "research-peptide"],
+  },
+  {
+    title: "Growth Hormone Peptide Suppliers UK: 88 Vendors, Four Mechanisms",
+    desc: "Growth hormone peptides are the most widely stocked category in the UK market, with 88 distinct vendors across 30 compounds. GHRH analogues versus ghrelin mimetics versus the IGF-1 axis, why CJC-1295 is really six products, the full vendor depth table from Tesamorelin (74 vendors) to Hexarelin (12), and what to verify on a certificate of analysis.",
+    category: "Articles",
+    section: "research-hub",
+    slug: "growth-hormone-peptide-suppliers-uk",
+    image: "growth-hormone-peptide-suppliers-uk",
+    minutes: 14,
+    tags: ["growth-hormone", "ghrp", "ghrh", "tesamorelin", "ipamorelin", "cjc-1295", "sermorelin", "suppliers", "uk", "supplier-guide", "verification", "coa"],
+  },
+  {
+    title: "Peptides for Sale UK: What the Price Is Telling You",
+    desc: "91 vendors, 154 compounds and 2,965 listings, and prices for the same peptide vary by up to ten times. What is legal, what is verifiable and where the price spread actually comes from — the four reasons identical vials carry different prices, why HPLC purity alone is not an identity check, and the payment and consumer-rights realities of buying research peptides in the UK.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "peptides-for-sale-uk",
+    image: "peptides-for-sale-uk",
+    minutes: 14,
+    tags: ["peptides-for-sale", "uk", "market", "sourcing", "suppliers", "legal", "regulatory", "coa", "purity", "mass-spectrometry", "buying-guide", "price-comparison"],
+  },
 ];
 
 export const compoundList: string[] = [
