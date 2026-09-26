@@ -22489,5 +22489,144 @@
     "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "d8d0348bdbca4365"
+  },
+  {
+    "ts": "2026-09-26T13:13:28.249Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f67af7eec1db23fb"
+  },
+  {
+    "ts": "2026-09-26T13:20:51.711Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-26T13:20:53.723Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-26T13:20:55.506Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-26T13:26:03.605Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.revexa.co.uk/product-page/mots-c-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "02dcddfb814ba9ce"
+  },
+  {
+    "ts": "2026-09-26T13:28:06.819Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ab30acdb7a15a28f"
+  },
+  {
+    "ts": "2026-09-26T13:30:03.384Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.revexa.co.uk/product-page/ss-31-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ef53dd163dc6275f"
+  },
+  {
+    "ts": "2026-09-26T13:38:39.278Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-RET-10",
+    "visitorId": "228884670096f906"
+  },
+  {
+    "ts": "2026-09-26T13:39:26.859Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "228884670096f906"
+  },
+  {
+    "ts": "2026-09-26T13:40:30.555Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "228884670096f906"
+  },
+  {
+    "ts": "2026-09-26T13:40:50.435Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cf8b09adc126d108"
+  },
+  {
+    "ts": "2026-09-26T13:40:51.164Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
+    "visitorId": "228884670096f906"
+  },
+  {
+    "ts": "2026-09-26T13:42:05.197Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "visitorId": "f65884d62b1e833c"
+  },
+  {
+    "ts": "2026-09-26T13:42:40.865Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "visitorId": "f65884d62b1e833c"
+  },
+  {
+    "ts": "2026-09-26T13:43:48.526Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-retatrutide-uk/",
+    "visitorId": "f65884d62b1e833c"
   }
 ]
