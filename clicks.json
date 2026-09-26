@@ -22224,5 +22224,31 @@
     "compoundSlug": "dermorphin",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-dermorphin-5mg-research-only-peptide-for-laboratory-use-only/",
     "visitorId": "675e87ab69d1cfac"
+  },
+  {
+    "ts": "2026-09-26T11:00:19.347Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-dermorphin-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-26T11:00:23.371Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-dermorphin-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-26T11:45:35.146Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "visitorId": "c76b8ac4946dbc93"
   }
 ]
