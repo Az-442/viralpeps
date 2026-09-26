@@ -20562,5 +20562,305 @@
     "compoundSlug": "selank",
     "destUrl": "https://www.stratfordpeptides.com/products/selank",
     "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-26T00:05:18.386Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.stratfordpeptides.com/products/selank",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-26T00:05:26.673Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.stratfordpeptides.com/products/selank",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-26T00:08:41.822Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.revexa.co.uk/product-page/igf-1-lr3-1mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "fcb61d1fd92429e3"
+  },
+  {
+    "ts": "2026-09-26T00:21:59.892Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://redpandapeptides.co.uk/product/tb-500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7e98dce79c97b47d"
+  },
+  {
+    "ts": "2026-09-26T00:22:00.513Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://redpandapeptides.co.uk/product/tb-500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c6f0df8dd1837d2d"
+  },
+  {
+    "ts": "2026-09-26T00:28:16.714Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:16.899Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.revexa.co.uk/product-page/tirzepatide-research-grade-10mg",
+    "visitorId": "f4c7168fc0e3f6e9"
+  },
+  {
+    "ts": "2026-09-26T00:28:17.046Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.revexa.co.uk/product-page/bpc-157-5mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:17.183Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.revexa.co.uk/product-page/tb-500-5mg",
+    "visitorId": "f4c7168fc0e3f6e9"
+  },
+  {
+    "ts": "2026-09-26T00:28:17.329Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.revexa.co.uk/product-page/melanotan-2-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:17.465Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.revexa.co.uk/product-page/copy-of-retatrutide-research-grade",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:17.611Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.revexa.co.uk/product-page/igf-1-lr3-1mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:17.746Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/tesamorelin-research-grade-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:17.880Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.revexa.co.uk/product-page/mots-c-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.015Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.revexa.co.uk/product-page/ss-31-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.154Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ghk-cu-50mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.303Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.449Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.revexa.co.uk/product-page/epitalon-10mg-telomerase-research-tetrapeptide",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.583Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.revexa.co.uk/product-page/semax-10mg-acth-4-10-analogue",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.718Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.revexa.co.uk/product-page/selank-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.860Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/ipamorelin-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:18.998Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.revexa.co.uk/product-page/pt-141-10mg-melanocortin-receptor-research-peptide",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:19.140Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.revexa.co.uk/product-page/kisspeptin-5mg-gnrh-pathway-research-compound",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:19.300Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-inducing-peptide",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:19.447Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.revexa.co.uk/product-page/klow-blend-peptide-complex-80mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:19.585Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.revexa.co.uk/product-page/snap-8-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:19.731Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.revexa.co.uk/product-page/bacteriostatic-water",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:19.872Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.revexa.co.uk/product-page/100mg-nad-nicotinamide-adenine-dinucleotide",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:20.016Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://www.revexa.co.uk/product-page/pinealon-10mg-neuroprotective-research-tripeptide",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:20.155Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.revexa.co.uk/product-page/5-amino-1mq-10mg-small-molecule",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:20.295Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "adamax",
+    "destUrl": "https://www.revexa.co.uk/product-page/adamax-10mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:28:20.431Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ahk-cu-50mg",
+    "visitorId": "d287c4f7a21d86c4"
+  },
+  {
+    "ts": "2026-09-26T00:35:31.556Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "be723a5f277ae029"
   }
 ]
