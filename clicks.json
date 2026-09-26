@@ -21074,5 +21074,82 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://reta-uk.com/products/bpc-157-tb-500-mix",
     "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-26T02:52:33.638Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://reta-uk.com/products/bpc-157-tb-500-mix",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-26T03:02:21.281Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-inducing-peptide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b0a13b44e29dd2c8"
+  },
+  {
+    "ts": "2026-09-26T03:07:11.243Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.revexa.co.uk/product-page/melanotan-2-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "07e96268c1e5a273"
+  },
+  {
+    "ts": "2026-09-26T03:12:16.203Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/",
+    "visitorId": "c79d04c6c882849e"
+  },
+  {
+    "ts": "2026-09-26T03:12:20.664Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-26T03:20:37.585Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bc859ec78cdee397"
+  },
+  {
+    "ts": "2026-09-26T03:20:43.712Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4c80b2c281519fe0"
+  },
+  {
+    "ts": "2026-09-26T03:32:46.460Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.revexa.co.uk/product-page/semax-10mg-acth-4-10-analogue",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "f73a0244fe4952be"
   }
 ]
