@@ -24166,5 +24166,38 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://spxlabs.co.uk/product/ipamorelin-uk-5mg/",
     "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-27T09:43:34.032Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-27T09:43:35.431Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-09-27T09:43:36.818Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "visitorId": "1eb3230d1df9a94f"
+  },
+  {
+    "ts": "2026-09-27T10:21:37.816Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://peptideslabuk.com/product/ara-290/",
+    "visitorId": "7be7536bc24fcfc4"
   }
 ]
