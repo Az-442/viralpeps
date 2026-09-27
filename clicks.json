@@ -24979,5 +24979,88 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4",
     "visitorId": "3903b127d47e4e14"
+  },
+  {
+    "ts": "2026-09-27T19:02:32.347Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-27T19:02:34.544Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-27T19:11:33.054Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "dc7c280215f97acd"
+  },
+  {
+    "ts": "2026-09-27T19:11:41.377Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "017804a2d152134d"
+  },
+  {
+    "ts": "2026-09-27T19:22:52.198Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bebetterpeptides.com/products/epithalon",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-09-27T19:22:53.614Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bebetterpeptides.com/products/epithalon",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-27T19:22:55.175Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bebetterpeptides.com/products/epithalon",
+    "visitorId": "96d906d6034ddc14"
+  },
+  {
+    "ts": "2026-09-27T19:24:27.262Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-60-capsules",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-60-capsules/",
+    "visitorId": "cb4a7548f68d53a3"
+  },
+  {
+    "ts": "2026-09-27T19:33:05.996Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://purepeptidesuk.com/product/glutathione-1500mg/",
+    "visitorId": "8482aabaa2a1ce41"
   }
 ]
