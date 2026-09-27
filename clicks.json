@@ -25319,5 +25319,41 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://vialverse.com/peptides/retatrutide",
     "visitorId": "5434c2dfc0bf32b1"
+  },
+  {
+    "ts": "2026-09-27T23:13:45.623Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-6-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "0e5dcece0d734a2d"
+  },
+  {
+    "ts": "2026-09-27T23:13:46.890Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-6-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-27T23:13:48.346Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-6-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-27T23:39:35.815Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-kpv-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "8b67b7d6ab6aac79"
   }
 ]
