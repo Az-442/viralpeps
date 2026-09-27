@@ -24281,5 +24281,110 @@
     "compoundSlug": "ll-37",
     "destUrl": "https://tidelabs.co.uk/products/ll-37-cathelicidin-5mg",
     "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-27T11:42:13.107Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://tidelabs.co.uk/products/ll-37-cathelicidin-5mg",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-27T11:42:15.396Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://tidelabs.co.uk/products/ll-37-cathelicidin-5mg",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-27T12:00:59.396Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://purepeptidesuk.com/product/peptides-igf-1-lr3-100/",
+    "visitorId": "2b7ed4f0816ad173"
+  },
+  {
+    "ts": "2026-09-27T12:01:03.267Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://purepeptidesuk.com/product/peptides-igf-1-lr3-100/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-27T12:01:04.848Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://purepeptidesuk.com/product/peptides-igf-1-lr3-100/",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-27T12:05:42.664Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-20mg/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-27T12:05:46.055Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-20mg/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-27T12:05:51.523Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-20mg/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-27T12:10:28.694Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-27T12:10:31.530Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-09-27T12:10:33.912Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-27T12:15:13.495Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tp2-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/",
+    "visitorId": "5b5a881faecc1b90"
   }
 ]
