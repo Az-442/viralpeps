@@ -272,16 +272,93 @@ Commit: `854fb742` · pushed to main (0 unpushed).
    over it. Native resolution only (550x484); do NOT upscale, it reads as a render.
    Then tighten to the content bounding box, since the source carries wide white margins.
 
-## Next up
-**Day 9 — Thu 24 Sep (2 articles)**
-- `tirzepatide-vs-survodutide` — **tirzepatide** (vs)
-- `oxytocin-nasal-spray-suppliers-uk` — **oxytocin nasal spray suppliers UK** (suppliers)
+## Day 9 — Thu 24 Sep (2 articles) ✅ DONE
+Completed 27 Sep 03:00 by daily blog cron (main branch, direct).
 
-Neither slug exists yet. Check both against BOTH quote formats and the `slug:` field
+- `tirzepatide-vs-survodutide` — tirzepatide (vs) — section: comparisons,
+  compoundSlug: tirzepatide, compoundSlug2: survodutide
+- `oxytocin-nasal-spray-suppliers-uk` — oxytocin nasal spray suppliers UK (suppliers)
+  — section: research-hub, compoundSlug: oxytocin
+
+Cards:
+- `public/images/guides/tirzepatide-vs-survodutide.png` — Pillow dual-vial 50%-height
+  (Tirzepatide + Survodutide), badge "Head-to-Head Comparison". Title auto-wrapped on
+  " vs " (measured 538px vs 395px available) — correct behaviour.
+- `public/images/guides/oxytocin-nasal-spray-suppliers-uk.png` — Pillow single-vial
+  75%-height (oxytocin nasal spray vial), badge "Supplier Guide".
+
+Card script: `scripts/make_kw_phase1_day9_cards.py` (shared draw_guide_card template).
+Vial labels QA'd with the vision tool before compositing: tirzepatide-vial ("Tirzepatide
+/ 10mg"), survodutide-vial ("Survodutide / 10mg"), oxytocin-nasal-spray ("Oxytocin /
+Nasal / 10ml") — all compound identifiers correct. Both finished cards vision-checked:
+no clipping, no overflow.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+3,101 / 3,244
+
+Build: passed (160/160 pages, up from 155). All Day-9 internal links verified against
+`compounds.json` slugs, `vendors.json` slugs and live `research.ts` slugs — 0 broken.
+**8 PMIDs verified individually via NCBI E-utilities esummary** (title + journal + author
++ volume/pages matched):
+35658024 (SURMOUNT-1), 34170647 (SURPASS-2), 38330987 (survodutide obesity),
+38847460 (survodutide MASH), 38858523 (retatrutide MASH), 37366315 (retatrutide obesity),
+32807845 (intranasal oxytocin review), 34644471 (oxytocin ASD trial NEJM),
+29032324 (oxytocin meta-analysis), 26088114 (oxytocin BPD review).
+All 129 guide card `image:` refs cross-checked against disk: OK.
+
+### ⚠️ Lessons from this run
+1. **NCBI esearch (the search endpoint) was DOWN this run** — returns
+   `Search Backend failed: Cannot connect to SOLR`. `esummary` by PMID continued to work
+   fine. Workaround: find candidate PMIDs via web_search, then TITLE-VERIFY each one with
+   esummary before use. Guessing PMIDs remains near-useless: of 10 initial guesses only
+   3 were correct (the other 7 resolved to a SARS-CoV-2 antibody assay, a surgeon-bias
+   paper, a paediatric hydatid case report, etc.).
+2. **A sibling subagent writing `src/data/research-content.ts` CAN clobber a `patch()`
+   applied moments earlier.** A `patch()` that fixed one broken internal link in the new
+   oxytocin article was silently reverted when a concurrent subagent wrote the same file
+   from a stale read. **Always re-grep the file after patching it whenever a sibling may
+   be active, and re-run the link validator against the file on disk immediately before
+   committing.** The link validator reading live from disk is what caught it.
+3. **Two PRE-EXISTING broken forward-links were repaired** (not introduced this run):
+   `](/research/peptide-reconstitution)` appeared twice (KPV article line 9303, P21
+   article line 9469). The correct slug is `peptide-reconstitution-guide`. Fixed both.
+4. **Four remaining broken forward-links are OUT OF SCOPE and left alone.** They point at
+   articles not yet written:
+   - `/research/hgh-fragment-176-191-research-summary`
+   - `/research/igf-1-lr3-research-summary`
+   - `/research/p21-research-summary`  ← planned Day 27 of `kw-phase-1-list.md`
+   - `/research/thymosin-alpha1-research-summary`
+   These sit in pre-existing articles (HCG, MGF, P21, Thymalin). They will resolve when
+   the planned articles ship; do NOT "fix" them by inventing stubs. Flagged for awareness.
+5. **The merge seam used and worked (real newlines):**
+   `"  ]," + NL + "}," + NL + NL + "};" + NL + "export default content;"` — exactly 1
+   match. Replacement keeps that tail and inserts the block with a trailing comma.
+6. **`research.ts` guides-array insertion:** the array closes with `  },\n];` immediately
+   before `export const compoundList`. Insert AFTER the last entry's comma and BEFORE the
+   `]`. Inserting after the `];` (offset `li+2`) puts entries after the array and breaks
+   nothing at build time only by luck — it actually puts them outside `guides` entirely.
+   Walk back from `];` over whitespace to the `,` and insert there.
+7. **`write_file` did NOT double escapes this run** (confirmed for the second run in a
+   row on parent-written fragments). The pre-merge assertion
+   (`raw.count(b'\\\\n') == raw.count(b'\\n')`, doubled-`\\'` == 0) reported clean.
+
+### ⚠️ Day 1 overlap note (no duplication risk)
+`retatrutide-vs-survodutide` already existed (written on Day 1). Day 9's planned article
+is `tirzepatide-vs-survodutide` — a DIFFERENT compound pairing (tirzepatide, not
+retatrutide) and a genuinely distinct article. Both are now live and do not duplicate.
+The existing `public/images/guides/retatrutide-vs-survodutide.png` card belongs to the
+Day-1 article and was NOT reused; a separate `tirzepatide-vs-survodutide.png` was made.
+
+## Next up
+**Day 10 — Fri 25 Sep (3 articles)**
+- `follistatin-344-deep-dive` — **follistatin 344** (deep)
+- `cjc-1295-with-dac-suppliers-uk` — **cjc-1295 (with dac) suppliers UK** (suppliers)
+- `buy-peptides-online-uk` — **buy peptides online** (pillar)
+
+None of the three slugs exist yet. Re-check both quote formats AND the `slug:` field
 form before writing (see the gap/stub detection note in the skill).
 
 ---
-
 
 ## Notes for future runs
 - Day 1 slugs are already in `research-content.ts` — do not re-write them.

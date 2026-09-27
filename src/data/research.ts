@@ -1390,6 +1390,28 @@ export const guides: ResearchArticle[] = [
     minutes: 14,
     tags: ["peptides-for-sale", "uk", "market", "sourcing", "suppliers", "legal", "regulatory", "coa", "purity", "mass-spectrometry", "buying-guide", "price-comparison"],
   },
+{
+  title: 'Tirzepatide vs Survodutide: Dual Agonist Comparison for Metabolic Research',
+  desc: 'Tirzepatide (GIP + GLP-1, LY3298176) compared with survodutide (glucagon + GLP-1, BI 456906). The shared GLP-1 foundation, why tirzepatide adds GIP and survodutide adds glucagon, the evidence gap between a licensed medicine and a phase 2 candidate, tolerability caveats, and the very different UK research-supply pictures.',
+  category: 'Articles',
+  section: 'comparisons',
+  compound: 'Tirzepatide',
+  slug: 'tirzepatide-vs-survodutide',
+  image: 'tirzepatide-vs-survodutide',
+  minutes: 11,
+  tags: ['tirzepatide', 'survodutide', 'comparison', 'glp-1', 'gip', 'glucagon', 'dual-agonist', 'incretin', 'mash'],
+},
+{
+  title: 'Oxytocin Nasal Spray Suppliers UK: Intranasal Research Guide',
+  desc: 'How intranasal oxytocin works, why the nasal route bypasses the blood-brain barrier, and which UK suppliers carry oxytocin nasal spray. Covers the nose-to-brain evidence, the 2% bioavailability caveat, the autism trial that found no clinical benefit, and the thin UK nasal supply chain.',
+  category: 'Articles',
+  section: 'research-hub',
+  compound: 'Oxytocin',
+  slug: 'oxytocin-nasal-spray-suppliers-uk',
+  image: 'oxytocin-nasal-spray-suppliers-uk',
+  minutes: 10,
+  tags: ['oxytocin', 'nasal-spray', 'intranasal', 'suppliers', 'nose-to-brain', 'neuropeptide', 'uk'],
+}
 ];
 
 export const compoundList: string[] = [

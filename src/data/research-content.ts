@@ -9300,7 +9300,7 @@ slug: 'bpc-157-for-recovery',
       body: 'A few points that come up repeatedly and are worth stating plainly.',
       subsections: [
         { title: 'Storage on arrival', body: 'KPV is supplied lyophilised and should arrive as a stable powder. In its freeze-dried form it tolerates ambient shipping temperatures for short periods, but it should go into refrigeration on arrival and be protected from light. If a vendor ships reconstituted KPV or liquid KPV, that is a different and less stable product — and a warning sign unless you specifically asked for it.' },
-        { title: 'Reconstitution and handling', body: 'Once reconstituted, KPV should be handled with the same care as any research peptide: appropriate diluent, sterile technique, cold storage, and consistency between vials so your concentrations are comparable. See the [**peptide reconstitution guide →**](/research/peptide-reconstitution) for the full method before you start, not after.' },
+        { title: 'Reconstitution and handling', body: 'Once reconstituted, KPV should be handled with the same care as any research peptide: appropriate diluent, sterile technique, cold storage, and consistency between vials so your concentrations are comparable. See the [**peptide reconstitution guide →**](/research/peptide-reconstitution-guide) for the full method before you start, not after.' },
         { title: 'What KPV is not', body: 'KPV is not a licensed medicine in the UK and is not approved by the MHRA for any human indication. Every listing here is laboratory research supply. This is not a formality — it is the reason the supplier landscape is built entirely around research-use compliance, and a vendor who is vague about that has told you something important about how they operate.' },
       ],
     },
@@ -9466,7 +9466,7 @@ slug: 'bpc-157-for-recovery',
     },
     {
       title: 'P21 in the UK Research Supply Market',
-      body: 'P21 sits in the thin end of the UK research peptide market. Unlike the incretin-based compounds, which are stocked by dozens of vendors, P21 has a small number of UK listings and it is not carried by most generalist peptide suppliers.\n\nThat has three practical consequences. First, price competition is limited, so cost per milligram is higher than for mainstream compounds. Second, vial sizes are restricted — smaller presentations are more common because vendors are cautious about stocking a slow-moving line. Third, and most importantly, the thinness of supply makes verification more difficult: with few listings to compare, there is less documentation in circulation to benchmark against.\n\nBecause P21 has a small molecular weight and is synthesised by standard solid-phase methods, the material itself is not hard to produce. The risk in this category is not synthesis, it is identity and purity documentation. A P21 listing should be supported by a batch-matched certificate of analysis with HPLC purity and mass-spectrometric confirmation, and the mass figure should be consistent with the ~1.2 kDa acetylated, amidated D-amino-acid peptide — not with the unmodified L-sequence, which is a different and cheaper product.\n\nThe live UK comparison table is on the [**P21 price comparison hub →**](/compounds/p21). Because supply is thin, verify availability before treating any listed price as current.\n\nRelated reading: the [**P21 research summary →**](/research/p21-research-summary) for the condensed version and [**Semax**](/compounds/semax) for a comparison against the better-characterised synthetic neuropeptide, plus the [**peptide reconstitution guide →**](/research/peptide-reconstitution) if you are handling a small-quantity neuropeptide for the first time.',
+      body: 'P21 sits in the thin end of the UK research peptide market. Unlike the incretin-based compounds, which are stocked by dozens of vendors, P21 has a small number of UK listings and it is not carried by most generalist peptide suppliers.\n\nThat has three practical consequences. First, price competition is limited, so cost per milligram is higher than for mainstream compounds. Second, vial sizes are restricted — smaller presentations are more common because vendors are cautious about stocking a slow-moving line. Third, and most importantly, the thinness of supply makes verification more difficult: with few listings to compare, there is less documentation in circulation to benchmark against.\n\nBecause P21 has a small molecular weight and is synthesised by standard solid-phase methods, the material itself is not hard to produce. The risk in this category is not synthesis, it is identity and purity documentation. A P21 listing should be supported by a batch-matched certificate of analysis with HPLC purity and mass-spectrometric confirmation, and the mass figure should be consistent with the ~1.2 kDa acetylated, amidated D-amino-acid peptide — not with the unmodified L-sequence, which is a different and cheaper product.\n\nThe live UK comparison table is on the [**P21 price comparison hub →**](/compounds/p21). Because supply is thin, verify availability before treating any listed price as current.\n\nRelated reading: the [**P21 research summary →**](/research/p21-research-summary) for the condensed version and [**Semax**](/compounds/semax) for a comparison against the better-characterised synthetic neuropeptide, plus the [**peptide reconstitution guide →**](/research/peptide-reconstitution-guide) if you are handling a small-quantity neuropeptide for the first time.',
     },
     {
       title: 'Bottom Line',
@@ -12029,6 +12029,168 @@ slug: 'bpc-157-for-recovery',
     'Hjuler KF, Lorentzen HF. Melanoma associated with the use of melanotan-II. Dermatology. 2014;228(1):33-35. PMID 24355990',
     'Bowers CY. Growth hormone-releasing peptide (GHRP). Cell Mol Life Sci. 1998;54(12):1316-1329. PMID 9893708',
     'Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561. PMID 9849822',
+  ],
+},
+
+'tirzepatide-vs-survodutide': {
+  slug: 'tirzepatide-vs-survodutide',
+  compoundSlug: 'tirzepatide',
+  compoundSlug2: 'survodutide',
+  pullQuote: 'Both compounds take GLP-1 as their foundation and then bolt a second receptor onto it. Tirzepatide adds GIP. Survodutide adds glucagon. That single design choice — which second signal you amplify — is the whole comparison, and no trial has yet put the two side by side.',
+  quickInfo: [
+    { label: 'Tirzepatide', value: 'Dual agonist — GIP and GLP-1 receptors' },
+    { label: 'Survodutide', value: 'Dual agonist — glucagon and GLP-1 receptors' },
+    { label: 'Tirzepatide Code', value: 'LY3298176 (Eli Lilly)' },
+    { label: 'Survodutide Code', value: 'BI 456906 (Boehringer Ingelheim / Zealand Pharma)' },
+    { label: 'Shared Foundation', value: 'GLP-1 receptor agonism — appetite, gastric emptying, insulin secretion' },
+    { label: 'Divergence', value: 'Tirzepatide adds GIP; survodutide adds glucagon' },
+    { label: 'Approval Status', value: 'Tirzepatide licensed as a medicine; survodutide investigational only' },
+    { label: 'UK Research Supply', value: 'Tirzepatide deep and highly competitive; survodutide limited to a handful of vendors' },
+  ],
+  sections: [
+    {
+      title: 'Tirzepatide vs Survodutide: The Short Answer',
+      body: 'Both molecules are built on the same idea: GLP-1 receptor agonism alone is not the ceiling, so add a second receptor and see how much more the biology will give. Where they differ is which second receptor they chose.\\n\\nTirzepatide is a dual agonist of the glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 receptors. It is the first dual incretin agonist to reach the market and is licensed as a medicine for type 2 diabetes and for weight management. Survodutide is a dual agonist of the glucagon and GLP-1 receptors. It takes the same GLP-1 arm and attaches glucagon agonism — a receptor that raises resting energy expenditure and drives hepatic fatty-acid oxidation — rather than GIP.\\n\\nIn one line: tirzepatide amplifies the incretin system, and survodutide adds a metabolic accelerator. Both are investigational or licensed as medicines, not research chemicals in the ordinary sense, but both appear in the UK research supply market as laboratory-grade material and the two are frequently compared by researchers. Every listing tracked on ViralPeps is research-use supply only.',
+    },
+    {
+      title: 'Mechanism: What Each Second Receptor Actually Brings',
+      body: 'The receptor logic explains why these two are so often placed side by side, and where the comparison stops being useful.',
+      subsections: [
+        { title: 'GLP-1 receptor agonism — the shared foundation', body: 'Both compounds activate the glucagon-like peptide-1 receptor. This produces the familiar incretin effects: reduced appetite and food intake through hypothalamic signalling, slower gastric emptying, and glucose-dependent insulin secretion. It is the mechanism behind semaglutide and it is the arm that does most of the appetite work in both molecules.' },
+        { title: 'GIP receptor agonism — tirzepatide\'s addition', body: 'Tirzepatide adds glucose-dependent insulinotropic polypeptide receptor agonism. GIP is the other major incretin, produced by K cells in the upper small intestine, and its contribution to weight loss is more subtle than simple additive agonism. The current understanding is that GIP receptor activation improves the tolerability and efficacy of GLP-1 agonism, in part by modulating the downstream signalling tone of the receptor. Whatever the precise biology, the clinical consequence is established: tirzepatide outperformed semaglutide head to head in the SURPASS-2 diabetes trial and produced large, sustained weight reduction in SURMOUNT-1.' },
+        { title: 'Glucagon receptor agonism — survodutide\'s addition', body: 'Survodutide adds glucagon receptor agonism. This is counterintuitive at first, because glucagon is conventionally thought of as a glucose-raising hormone. In this context the relevant effects are different: increased resting energy expenditure, enhanced hepatic lipid oxidation, and improved liver histology in metabolic-dysfunction models. Glucagon agonism is also what makes both survodutide and retatrutide candidates for MASH, a condition in which the liver benefits appear to track the glucagon arm rather than the incretin arm. The trade-off is that glucagon agonism has its own theoretical considerations around glucose handling.' },
+      ],
+    },
+    {
+      title: 'Clinical Development: Where Each Compound Stands',
+      body: 'The two programmes are in very different places, and that asymmetry matters more than any mechanistic argument when comparing the evidence base.',
+      table: {
+        header: ['Dimension', 'Tirzepatide', 'Survodutide'],
+        rows: [
+          ['Receptor profile', 'GIP + GLP-1 (dual incretin)', 'Glucagon + GLP-1 (dual, metabolic)'],
+          ['Developer', 'Eli Lilly', 'Boehringer Ingelheim / Zealand Pharma'],
+          ['Licensed status', 'Approved as a medicine in the UK, US, EU and elsewhere', 'Investigational — not approved anywhere'],
+          ['Lead obesity trial', 'SURMOUNT-1, 72 weeks, phase 3', 'Phase 2 dose-finding, 46 weeks'],
+          ['Diabetes evidence', 'SURPASS programme — multiple phase 3 trials', 'No phase 3 diabetes programme reported'],
+          ['Liver indication', 'Phase 3 SYNERGY-NASH data reported', 'Phase 2 MASH trial reported marked histology improvement'],
+          ['Evidence depth', 'Extensive — thousands of trial participants across many trials', 'Limited — one phase 2 obesity trial and one phase 2 MASH trial'],
+          ['Human dosing interval', 'Weekly subcutaneous', 'Weekly subcutaneous'],
+        ],
+      },
+    },
+    {
+      title: 'Evidence Quality — An Honest Comparison',
+      body: 'It would be convenient to write that tirzepatide is simply better because it has more data. That conflates how far a compound has progressed with how good it is, and the two are not the same thing.\\n\\nTirzepatide\'s evidence base is vastly deeper. It has been studied in thousands of participants across the SURPASS diabetes programme and the SURMOUNT obesity programme, with head-to-head data against semaglutide and a licensed indication attached to it. In SURMOUNT-1, once-weekly tirzepatide over 72 weeks produced substantial and sustained weight reduction in adults with obesity without diabetes. In SURPASS-2, it outperformed semaglutide on glycaemic control.\\n\\nSurvodutide\'s evidence base is a fraction of that. It has one published phase 2 obesity trial — a randomised, double-blind, placebo-controlled dose-finding study over 46 weeks — and one published phase 2 MASH trial reporting marked histology improvement. Both are the work of a single developer and both are modest in size relative to the tirzepatide programme.\\n\\nCritically, no head-to-head trial exists between the two. Comparing percentage weight loss across a 72-week phase 3 trial and a 46-week phase 2 dose-finding study with different escalation schedules, populations and endpoints is not a valid comparison, and researchers who quote the two figures side by side are overstating what is known. What can be said: tirzepatide is a licensed medicine with an extensive evidence base; survodutide is a promising investigational compound with early but consistent signals in obesity and liver disease.',
+    },
+    {
+      title: 'Tolerability Considerations',
+      body: 'Gastrointestinal effects dominate the adverse-event profile of every incretin-based agent, and both compounds follow that pattern.\\n\\nNausea, vomiting, diarrhoea and constipation are the most commonly reported events for both, and they concentrate during dose escalation. This is why both developers used stepwise titration schedules rather than starting at target dose. In the tirzepatide programme the tolerability profile is now well characterised across large populations; for survodutide the profile is drawn from a much smaller dataset.\\n\\nThe glucagon arm adds a set of considerations that the GIP arm does not. Glucagon receptor agonism has theoretical implications for glucose handling and heart rate, which is one reason survodutide\'s phase 2 escalation was deliberately conservative. Cross-trial comparison of tolerability carries the same limitation as cross-trial comparison of efficacy: different populations, different schedules, different reporting. The honest summary is that neither molecule has demonstrated a tolerability advantage over the other in a controlled comparison, and both require careful escalation.',
+    },
+    {
+      title: 'Research Supply: Tirzepatide vs Survodutide in the UK',
+      body: 'Both compounds appear in the UK research supply market, and the difference in availability is stark.\\n\\n[**Tirzepatide**](/compounds/tirzepatide) has by far the larger supply footprint on ViralPeps, tracked across dozens of vendors with a wide range of vial sizes and presentations. That depth means real price competition, more choice of presentation, and a much better chance of finding a supplier with complete batch documentation. The [**Tirzepatide price comparison hub →**](/compounds/tirzepatide) renders the live table.\\n\\n[**Survodutide**](/compounds/survodutide) is the opposite: only a handful of supplier entries are currently tracked in the UK, reflecting that it remains a niche research compound relative to tirzepatide and semaglutide. Thin supply means less price competition and fewer options when a specific vial size is needed, but it does not mean the material is unavailable. Check the [**Survodutide price comparison hub →**](/compounds/survodutide) for current listings and stock.\\n\\nOne caveat applies to both. Tirzepatide\'s status as a licensed medicine makes its name valuable, and listings that use the medicine\'s brand-name associations while supplying research-grade lyophilised powder require careful scrutiny. Survodutide\'s novelty means vendors may list products they cannot document. Both should be bought on batch-matched certificates of analysis, not on the strength of a product page.',
+      subsections: [
+        { title: 'What to check on either compound', body: 'A batch-numbered COA from a named laboratory, HPLC purity with the chromatogram, mass-spectrometric identity confirmation, and clear research-use-only labelling. For tirzepatide specifically, be alert to listings that blur the line between a licensed medicine and research-grade powder — they are not the same product and do not carry the same regulatory assurances.' },
+      ],
+    },
+    {
+      title: 'Which One Is the Better Research Subject?',
+      body: 'The answer depends on the question being asked.\\n\\nIf the research question concerns the incretin system — how GIP and GLP-1 co-agonism compares with GLP-1 agonism alone, or how a dual incretin agonist performs against semaglutide — tirzepatide is the better-documented and more advanced molecule, with head-to-head trial data and a licensed indication behind it.\\n\\nIf the research question is specifically about the glucagon arm — energy expenditure, hepatic lipid handling, MASH histology — and you want to isolate that contribution against a GLP-1 backbone without adding GIP signalling, survodutide is the cleaner experimental model. Its two-receptor design makes it the more interpretable molecule for that specific question, and its MASH data make it directly relevant to liver research.\\n\\nNeither should be treated as interchangeable with a prescribed medicine, and every listing on this site is laboratory supply. For wider context on how these fit alongside the other incretin-based compounds, the [**tirzepatide research summary →**](/research/tirzepatide-research-summary) and the [**survodutide research summary →**](/research/survodutide-research-summary) cover each molecule\'s own pharmacology and evidence base in more depth than a comparison allows.',
+    },
+  ],
+  faq: [
+    { question: 'Is tirzepatide stronger than survodutide?', answer: 'There is no head-to-head trial, so this has not been established. Tirzepatide has a far deeper evidence base and a licensed indication, and survodutide\'s data come from smaller phase 2 trials. But comparing weight-loss figures across a 72-week phase 3 trial and a 46-week phase 2 trial with different designs is not a valid comparison.' },
+    { question: 'What is the main difference between tirzepatide and survodutide?', answer: 'Tirzepatide is a dual agonist of the GIP and GLP-1 receptors — a dual incretin. Survodutide is a dual agonist of the glucagon and GLP-1 receptors. Both share GLP-1 agonism as their foundation; they diverge on which second receptor they add.' },
+    { question: 'Why do people compare tirzepatide with survodutide rather than with semaglutide?', answer: 'Because both are dual agonists rather than single-receptor GLP-1 agents. The comparison isolates the question of which second receptor arm — GIP or glucagon — produces the more useful metabolic effect, without the confounding of a single versus dual design.' },
+    { question: 'Is survodutide available in the UK?', answer: 'Survodutide is not licensed for human use anywhere. It is available as research-use-only laboratory supply, and ViralPeps currently tracks only a small number of UK supplier entries, so the supply chain is thin compared with tirzepatide.' },
+    { question: 'Which is better for MASH or liver research?', answer: 'Both have liver data. Tirzepatide\'s SYNERGY-NASH programme reported phase 3 data; survodutide\'s phase 2 MASH trial reported marked histology improvement. The glucagon receptor arm is the shared mechanism thought to drive hepatic lipid oxidation and histology improvement in the glucagon-based compounds.' },
+    { question: 'Is tirzepatide legal in the UK?', answer: 'Tirzepatide is a licensed medicine in the UK, prescribed for type 2 diabetes and weight management under medical supervision. The research-grade lyophilised powder listed on comparison sites is a different product supplied for laboratory use only, and it is not a substitute for a prescribed medicine.' },
+  ],
+  references: [
+    'Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;387(3):205-216. PMID 35658024.',
+    'Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes. N Engl J Med. 2021;385(6):503-515. PMID 34170647.',
+    'le Roux CW, Steenackers N, Lindsay B, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024;12(3):162-173. PMID 38330987.',
+    'Sanyal AJ, Bedossa P, Fraessdorf M, et al. A phase 2 randomized trial of survodutide in MASH and fibrosis. N Engl J Med. 2024;391(4):311-319. PMID 38847460.',
+    'Sanyal AJ, Frias JP, Jastreboff AM, et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nat Med. 2024;30(7):2037-2048. PMID 38858523.',
+    'Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-hormone-receptor agonist retatrutide for obesity - a phase 2 trial. N Engl J Med. 2023;389(6):514-526. PMID 37366315.',
+  ],
+},
+
+'oxytocin-nasal-spray-suppliers-uk': {
+  slug: 'oxytocin-nasal-spray-suppliers-uk',
+  compoundSlug: 'oxytocin',
+  pullQuote: 'Oxytocin nasal spray is the delivery format that made the compound a research subject in the first place. The pharmacology is modest — minutes of plasma half-life, roughly 2% nasal bioavailability — but the route is the whole point, and the UK supply picture is far thinner than for the injectable vials.',
+  quickInfo: [
+    { label: 'Compound', value: 'Oxytocin (synthetic nonapeptide, CAS 50-56-6)' },
+    { label: 'Presentation', value: 'Intranasal spray — typically 15 mL with ~2 mg per spray' },
+    { label: 'Molecular Weight', value: '1,007.2 g/mol' },
+    { label: 'Plasma Half-Life', value: '~3-5 minutes' },
+    { label: 'CSF Half-Life (intranasal)', value: '~19 minutes' },
+    { label: 'Nasal Bioavailability', value: '~2% in animal models — most brain exposure via direct nose-to-brain transport' },
+    { label: 'UK Nasal Supply', value: 'Narrow — one dedicated nasal spray listing, plus sprays sold under the parent compound' },
+    { label: 'Legal Status', value: 'Licensed medicine as Pitocin/Syntocinon; research-listed sprays are research-use only' },
+  ],
+  sections: [
+    {
+      title: 'What Is Oxytocin Nasal Spray?',
+      body: 'Oxytocin nasal spray is a research presentation of oxytocin delivered through the nasal mucosa rather than by injection. The compound itself is a nine-amino-acid cyclic neuropeptide produced in the hypothalamus and released by the posterior pituitary. It is the same molecule that has been used clinically for decades as an obstetric medicine to induce labour and control postpartum bleeding, where it is given intravenously. The nasal spray is a different route to the same peptide, and it exists because of a specific problem: how to get oxytocin into the central nervous system without an injection and without depending on it crossing the blood-brain barrier.\\n\\nThat problem is harder than it looks. Oxytocin has a plasma half-life of only a few minutes and poor blood-brain barrier permeability, so intravenous dosing produces high peripheral concentrations with limited central exposure. Intranasal delivery was proposed as a way around this, on the theory that the nasal cavity provides a direct route to the brain via the olfactory and trigeminal nerve pathways that innervate it. Whether that theory holds is the central question in the field, and the evidence is more interesting — and more nuanced — than the marketing would suggest.\\n\\nOn ViralPeps, oxytocin nasal spray is tracked as a distinct research presentation, alongside the lyophilised injectable vials of the parent compound. Every listing is laboratory supply. The licensed obstetric medicine is a separate product obtained through clinical channels and is not what a comparison site lists.',
+    },
+    {
+      title: 'How Intranasal Delivery Actually Works',
+      body: 'The route is the entire scientific rationale for the nasal spray, so it deserves more than a sentence.',
+      subsections: [
+        { title: 'The nose-to-brain hypothesis', body: 'The nasal cavity is unusual because it is the only part of the body where the central nervous system is directly exposed to the external environment via nerve endings. The olfactory nerve passes through the cribriform plate, and both the olfactory and trigeminal nerves provide routes that bypass the blood-brain barrier — a fluid channel along perineural and perivascular spaces through which substances can reach the CSF and brain tissue. The hypothesis that intranasally administered oxytocin uses this route, rather than simply entering the blood and then attempting to cross the BBB, is the foundation of every intranasal oxytocin study.' },
+        { title: 'The evidence that it reaches the brain', body: 'The strongest evidence comes from a nonhuman primate study that administered deuterated (labelled) oxytocin intranasally and intravenously to rhesus macaques, then measured labelled and endogenous oxytocin in twelve brain regions by mass spectrometry. Labelled oxytocin delivered intranasally reached the brain; intravenous administration did not produce the same pattern. Human work points the same way: comparable peripheral plasma levels are achievable by both routes, yet the social-cognitive and neural effects appear only after intranasal administration. That dissociation is difficult to explain if the effects were driven purely by peripheral oxytocin crossing the blood-brain barrier.' },
+        { title: 'The bioavailability caveat', body: 'Nasal bioavailability is low — animal work suggests on the order of 2% — and more than 95% of the oxytocin measured in the brain after nasal dosing appears to arrive by direct transport from the nasal cavity rather than via circulation. This is why device and technique matter. The spray has to reach the nasal mucosa, not be swallowed into the throat, and nasal congestion is likely to reduce uptake. Published trials have used both standard pump sprays and powered devices specifically designed to target the upper nasal cavity.' },
+      ],
+    },
+    {
+      title: 'Why Oxytocin Is Researched Intranasally',
+      body: 'Oxytocin is studied across a wide range of behavioural and clinical domains, which is why interest in the nasal route has persisted despite methodological criticism.',
+      table: {
+        header: ['Research Area', 'What Is Studied', 'Evidence Position'],
+        rows: [
+          ['Social cognition', 'Recognition of emotion, attention to social cues, trust behaviour', 'Effects reported in neurotypical participants; effect sizes modest and context-dependent'],
+          ['Autism spectrum disorder', 'Core social functioning and behavioural outcomes', 'Large multicentre trial found no significant improvement vs placebo over 24 weeks'],
+          ['Anxiety and stress regulation', 'Amygdala reactivity, stress response, cortisol', 'Consistent neural effects reported; clinical translation unclear'],
+          ['Borderline personality disorder', 'Interpersonal dysfunction, emotional reactivity', 'Trialled in a small number of studies; evidence insufficient for conclusions'],
+          ['Wound healing and pain', 'Peripheral oxytocin receptor effects', 'Preclinical and early clinical interest'],
+          ['Parental and bonding behaviour', 'Parent-infant interaction, pair bonding', 'Well-characterised in observational and experimental work'],
+        ],
+      },
+    },
+    {
+      title: 'The Evidence Problem — An Honest Assessment',
+      body: 'Intranasal oxytocin is one of the more criticised areas in behavioural neuroscience, and the criticism is worth understanding before reading any supplier page.\\n\\nThe field moved quickly. Early studies were small, statistically underpowered, and reported effects that later failed to replicate. Reviews have drawn attention to inconsistent dosing, differences in delivery device, variability in how much oxytocin actually reaches the nasal mucosa, and the uncomfortable finding that oxytocin does not exclusively enhance prosocial behaviour — in some contexts it may increase envy, gloating or in-group favouritism at the expense of outsiders. That context-dependence is the reason simple claims about oxytocin making people nicer or more trusting do not survive contact with the literature.\\n\\nThe most informative single result is the large multicentre trial of intranasal oxytocin in children and adolescents with autism spectrum disorder. Conducted across multiple sites with a placebo control over 24 weeks, it found no significant between-group differences in social or cognitive functioning. It is not that intranasal oxytocin does nothing — neural and behavioural effects are reproducible in controlled laboratory settings — but that translating those effects into a durable clinical benefit has not been demonstrated. A meta-analysis of intranasal oxytocin in neurodevelopmental disorders reached similarly cautious conclusions.\\n\\nFor anyone researching the compound, this matters: the interesting question is no longer whether intranasal oxytocin changes brain activity, but which doses, devices, populations and outcome measures produce effects that replicate.',
+    },
+    {
+      title: 'UK Supplier Landscape for Oxytocin Nasal Spray',
+      body: 'The nasal presentation has a much thinner supply chain than the injectable vials, and this is the practical point that matters most for UK researchers.\\n\\nOn ViralPeps, [**oxytocin nasal spray**](/compounds/oxytocin-nasal-spray) is tracked as a distinct presentation with very limited UK availability — currently a single dedicated listing, from [**UK Peptides**](/vendors/uk-peptides) at £49.99. UK Peptides is a verified, lab-tested supplier with a 4.7 rating and was last tested in June 2026.\\n\\nThe nasal format also appears inside the broader [**oxytocin**](/compounds/oxytocin) listing, where [**PeptideLabUK**](/vendors/peptide-lab-uk) sells a 10mg nasal spray at £64.99. PeptideLabUK is verified and lab-tested with a 4.6 rating. The parent compound listing is where the real competition sits: the lyophilised injectable vials are supplied by well over a dozen UK vendors, and the cheapest entries are substantially cheaper per milligram than the nasal format.\\n\\nThe practical consequence is that anyone specifically needing the intranasal presentation has very little choice, while anyone able to work with lyophilised powder has a deep and competitive market. Check the [**Oxytocin price comparison hub →**](/compounds/oxytocin) for the live combined table, and the [**Oxytocin Nasal Spray listing →**](/compounds/oxytocin-nasal-spray) for the spray-specific entries.',
+      subsections: [
+        { title: 'Notable UK suppliers carrying oxytocin', body: 'Beyond the two nasal-spray listings, the injectable oxytocin market on ViralPeps includes UK Peptides (from £20.00 for 2mg), Dr P Research (from £19.49), XL Peptides (from £10.99 for 2mg), Octagon Peptides (£25.00 for 5mg), BuyReta (£24.00 for 5mg), Kensington Labs UK (£29.90 for 10mg), Raccoon Peptides (£24.90 for 10mg) and Zentra Peptides UK (£34.95 for 10mg). At the top of the range, Premio Peptides lists oxytocin at £199.99 with no vial size attached — a reminder to check what a price is actually buying before comparing it against the rest.' },
+        { title: 'What to verify before buying any oxytocin listing', body: 'A batch-numbered certificate of analysis from a named laboratory, HPLC purity with the chromatogram supplied, mass-spectrometric identity confirmation for a peptide this small, and unambiguous research-use-only labelling. For a nasal spray specifically, check what the device delivers per actuation and how the declared concentration maps to the stated vial or bottle volume — spray products are where a listing\'s numbers most often do not add up.' },
+      ],
+    },
+    {
+      title: 'Handling, Storage and the Practical Considerations',
+      body: 'Oxytocin is a small, comparatively fragile peptide, and the nasal spray format introduces storage questions that do not apply to lyophilised powder.\\n\\nLyophilised oxytocin vials should be stored cold and protected from light, and reconstituted material is less stable than the powder — the short plasma half-life reflects rapid enzymatic degradation, and the same enzymes do not wait for the compound to be used. Nasal spray formulations are aqueous, which means they are subject to the usual concerns about preservative systems, microbial contamination once opened, and the effect of repeated temperature cycling on a liquid formulation.\\n\\nNone of this is specific to research peptides — it is ordinary pharmaceutical handling logic — but it is a genuine difference between the two presentations, and it is a reason the nasal format trades at a premium.\\n\\nFor a broader look at reconstitution, storage and handling conventions across research peptides, see the [**reconstitution guide →**](/research/peptide-reconstitution-guide) and the [**oxytocin deep dive →**](/research/oxytocin-deep-dive), which covers the receptor biology, the social-cognition literature and the methodological criticisms in more depth than a supplier page allows.',
+    },
+  ],
+  faq: [
+    { question: 'How many UK suppliers sell oxytocin nasal spray?', answer: 'Very few. On ViralPeps the dedicated oxytocin nasal spray listing currently has a single UK supplier, UK Peptides, at £49.99. A nasal spray also appears under the parent oxytocin compound from PeptideLabUK at £64.99. The injectable vials have a much deeper supplier market.' },
+    { question: 'How does intranasal oxytocin differ from injected oxytocin?', answer: 'The route is the point. Intravenous oxytocin produces high peripheral levels but limited central exposure and does not appear to reach brain tissue in the same pattern as intranasal dosing. Intranasal administration is thought to use direct nose-to-brain transport via the olfactory and trigeminal nerve pathways, bypassing the blood-brain barrier.' },
+    { question: 'Does intranasal oxytocin actually work?', answer: 'It produces reproducible neural and behavioural effects in controlled laboratory studies, but translating those into durable clinical benefit has not been demonstrated. A large multicentre trial in children and adolescents with autism found no significant improvement versus placebo over 24 weeks. The honest position is that the mechanism is real and the clinical case is unproven.' },
+    { question: 'What is the half-life of intranasal oxytocin?', answer: 'Plasma half-life is roughly 3-5 minutes. After intranasal administration the CSF half-life of exogenous oxytocin is around 19 minutes, which suggests that effects observed 40-60 minutes later involve increases in endogenous oxytocin production rather than the administered dose alone.' },
+    { question: 'Is oxytocin nasal spray legal in the UK?', answer: 'Oxytocin is a licensed prescription medicine in the UK for obstetric use. The nasal spray products listed on research supply sites are sold for laboratory research use only and are not licensed medicines. Obtaining a licensed oxytocin product requires a prescription through clinical channels.' },
+    { question: 'What should I check on a nasal spray listing?', answer: 'The delivered dose per actuation, the declared concentration and total volume, whether the numbers are internally consistent, and a batch-numbered COA from a named laboratory with HPLC purity data. Spray products are where declared figures most often fail to reconcile.' },
+  ],
+  references: [
+    'Quintana DS, Lischke A, Grace S, et al. Advances in the field of intranasal oxytocin research: lessons learned and future directions for clinical research. Mol Psychiatry. 2021;26(1):80-91. PMID 32807845.',
+    'Sikich L, Kolevzon A, King BH, et al. Intranasal oxytocin in children and adolescents with autism spectrum disorder. N Engl J Med. 2021;385(16):1462-1473. PMID 34644471.',
+    'Keech B, Crowe S, Hocking DR. Intranasal oxytocin, social cognition and neurodevelopmental disorders: a meta-analysis. Psychoneuroendocrinology. 2018;87:9-19. PMID 29032324.',
+    'Amad A, Thomas P, Fovet T. Borderline personality disorder and oxytocin: review of clinical trials and future directions. Curr Pharm Des. 2015;21(23):3311-3316. PMID 26088114.',
+    'Lee MR, Shnitko TA, Blue SW, et al. Labeled oxytocin administered via the intranasal route reaches the brain in rhesus macaques. Nat Commun. 2020;11(1):2783.',
+    'Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;387(3):205-216. PMID 35658024.',
   ],
 },
 
