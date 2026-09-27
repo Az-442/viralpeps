@@ -24386,5 +24386,94 @@
     "compoundSlug": "tp2-10mg",
     "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/",
     "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-27T12:15:16.624Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tp2-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-27T12:15:19.176Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tp2-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-27T12:29:28.233Z",
+    "type": "vendor-site",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "destUrl": "https://www.kingsbiolabs.co.uk",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-09-27T12:34:16.048Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-09-27T12:34:19.937Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-27T12:42:45.980Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://ultimatepeptides.co.uk/bpc-157-and-tb500-10mg-nasal",
+    "visitorId": "dd18c2c5949188f2"
+  },
+  {
+    "ts": "2026-09-27T12:43:38.442Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://nupex.co.uk/products/cjc-1295-research-peptide-uk",
+    "visitorId": "675e87ab69d1cfac"
+  },
+  {
+    "ts": "2026-09-27T12:43:39.982Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://nupex.co.uk/products/cjc-1295-research-peptide-uk",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-27T12:43:41.603Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://nupex.co.uk/products/cjc-1295-research-peptide-uk",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-27T13:07:22.846Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://peptideslabuk.com/product/cjc-1295-with-dac/",
+    "visitorId": "57d6e22ede722be8"
   }
 ]
