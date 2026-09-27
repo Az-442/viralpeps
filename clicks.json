@@ -23959,5 +23959,95 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://leolab.co.uk/peptides/ghk-cu/",
     "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-27T07:45:06.565Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-09-27T07:45:11.421Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-27T07:45:13.259Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "visitorId": "675e87ab69d1cfac"
+  },
+  {
+    "ts": "2026-09-27T07:49:52.805Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.stratfordpeptides.com/products/bcp-157",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-27T07:49:56.761Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.stratfordpeptides.com/products/bcp-157",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-27T07:50:00.660Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.stratfordpeptides.com/products/bcp-157",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-09-27T08:04:03.727Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.peptidepal.co.uk/products/glutathione",
+    "visitorId": "3d41550c714e3c36"
+  },
+  {
+    "ts": "2026-09-27T08:04:05.479Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.peptidepal.co.uk/products/glutathione",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-27T08:04:07.452Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.peptidepal.co.uk/products/glutathione",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-27T08:13:33.503Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cartalax/",
+    "visitorId": "25fd680b57dd2c76"
   }
 ]
