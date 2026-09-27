@@ -24578,5 +24578,59 @@
     "compoundSlug": "selank",
     "destUrl": "https://biopeptides-uk.com/product/selank-10mg/",
     "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-27T14:24:55.031Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biopeptides-uk.com/product/selank-10mg/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-27T14:24:59.204Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biopeptides-uk.com/product/selank-10mg/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-27T14:37:20.892Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://reta-uk.com/products/cjc-1295-no-dac",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-27T14:37:24.458Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://reta-uk.com/products/cjc-1295-no-dac",
+    "visitorId": "2b7ed4f0816ad173"
+  },
+  {
+    "ts": "2026-09-27T14:37:25.995Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://reta-uk.com/products/cjc-1295-no-dac",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-09-27T14:55:03.141Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.peptidesonline.uk/shop/ipamorelin/",
+    "visitorId": "04686a7988290714"
   }
 ]
