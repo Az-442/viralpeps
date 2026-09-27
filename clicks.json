@@ -24199,5 +24199,78 @@
     "compoundSlug": "ara-290",
     "destUrl": "https://peptideslabuk.com/product/ara-290/",
     "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-27T10:26:13.504Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://vialverse.com/peptides/pt-141",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-27T10:35:42.601Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://midshirelabs.co.uk/products/amino-1mq-t/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-27T10:35:44.013Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://midshirelabs.co.uk/products/amino-1mq-t/",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-09-27T10:35:45.581Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://midshirelabs.co.uk/products/amino-1mq-t/",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-09-27T10:45:11.139Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-27T10:45:15.042Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-09-27T10:45:18.910Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-09-27T10:57:27.211Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1070462984c106e6"
   }
 ]
