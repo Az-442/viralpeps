@@ -25062,5 +25062,32 @@
     "compoundSlug": "glutathione",
     "destUrl": "https://purepeptidesuk.com/product/glutathione-1500mg/",
     "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-09-27T19:34:27.605Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://evapeptide.co.uk/product/buy-epithalon-uk/",
+    "visitorId": "505ada8a6d00f08f"
+  },
+  {
+    "ts": "2026-09-27T19:49:00.967Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gagrilintide-5mg",
+    "destUrl": "https://researchpeptide.co.uk/product/gagrilintide-5mg/",
+    "visitorId": "87874803f7606237"
+  },
+  {
+    "ts": "2026-09-27T20:06:00.452Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-100-tablets",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/",
+    "visitorId": "f100fe0015290256"
   }
 ]
