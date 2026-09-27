@@ -24694,5 +24694,52 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
     "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-09-27T16:26:08.874Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-27T16:41:33.840Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "568b58ad5803c334"
+  },
+  {
+    "ts": "2026-09-27T16:41:38.233Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d98039f216304e40"
+  },
+  {
+    "ts": "2026-09-27T16:52:35.815Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/retatrutide",
+    "visitorId": "cf2b0d64e738fe03"
+  },
+  {
+    "ts": "2026-09-27T16:57:01.691Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu",
+    "visitorId": "5b5a881faecc1b90"
   }
 ]
