@@ -23391,5 +23391,69 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
     "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-27T03:06:49.579Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
+    "visitorId": "9050ac63ece083cf"
+  },
+  {
+    "ts": "2026-09-27T03:06:51.484Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
+    "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-09-27T03:25:40.989Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-09-27T03:25:42.950Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-09-27T03:25:45.056Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-27T03:30:56.183Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://redpandapeptides.co.uk/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d7fa232cd34be2e7"
+  },
+  {
+    "ts": "2026-09-27T03:44:39.037Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "fd8075a7f561ba8d"
   }
 ]
