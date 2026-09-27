@@ -41,7 +41,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:19.695Z"
+      "checkedAt": "2026-09-27T00:34:21.940Z"
     }
   },
   {
@@ -85,7 +85,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:21.240Z"
+      "checkedAt": "2026-09-27T00:34:23.282Z"
     }
   },
   {
@@ -123,7 +123,7 @@
       "contact": false,
       "productPageFetched": false,
       "evidence": {},
-      "checkedAt": "2026-09-16T09:02:22.112Z"
+      "checkedAt": "2026-09-27T00:34:23.906Z"
     }
   },
   {
@@ -168,7 +168,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:22.120Z"
+      "checkedAt": "2026-09-27T00:34:23.930Z"
     }
   },
   {
@@ -212,7 +212,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:26.965Z"
+      "checkedAt": "2026-09-27T00:34:29.574Z"
     }
   },
   {
@@ -256,7 +256,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:28.924Z"
+      "checkedAt": "2026-09-27T00:34:31.851Z"
     }
   },
   {
@@ -285,21 +285,15 @@
     "lastTested": "2026-06-27",
     "labTested": false,
     "_autoChecks": {
-      "live": true,
+      "live": false,
       "coa": false,
-      "ruo": true,
+      "ruo": false,
       "reviews": false,
-      "shipping": true,
-      "contact": true,
-      "productPageFetched": true,
-      "evidence": {
-        "coa": null,
-        "ruo": "research use only",
-        "reviews": null,
-        "shipping": "next-day",
-        "contact": "contact"
-      },
-      "checkedAt": "2026-09-16T09:02:29.680Z"
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {},
+      "checkedAt": "2026-09-27T00:34:32.745Z"
     }
   },
   {
@@ -343,7 +337,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:34.101Z"
+      "checkedAt": "2026-09-27T00:34:33.114Z"
     }
   },
   {
@@ -386,7 +380,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:41.019Z"
+      "checkedAt": "2026-09-27T00:34:45.668Z"
     }
   },
   {
@@ -431,7 +425,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:42.073Z"
+      "checkedAt": "2026-09-27T00:34:50.524Z"
     }
   },
   {
@@ -466,20 +460,20 @@
     "labTested": true,
     "_autoChecks": {
       "live": false,
-      "coa": true,
+      "coa": false,
       "ruo": false,
       "reviews": false,
       "shipping": false,
       "contact": false,
       "productPageFetched": false,
       "evidence": {
-        "coa": "coa",
+        "coa": null,
         "ruo": null,
         "reviews": null,
         "shipping": null,
         "contact": null
       },
-      "checkedAt": "2026-09-16T09:02:43.235Z"
+      "checkedAt": "2026-09-27T00:34:58.837Z"
     }
   },
   {
@@ -527,7 +521,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:43.709Z"
+      "checkedAt": "2026-09-27T00:34:59.653Z"
     }
   },
   {
@@ -575,7 +569,7 @@
         "shipping": "dpd",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:45.113Z"
+      "checkedAt": "2026-09-27T00:35:04.420Z"
     }
   },
   {
@@ -620,7 +614,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:45.791Z"
+      "checkedAt": "2026-09-27T00:35:16.419Z"
     }
   },
   {
@@ -662,7 +656,7 @@
         "shipping": null,
         "contact": null
       },
-      "checkedAt": "2026-09-16T09:02:52.186Z"
+      "checkedAt": "2026-09-27T00:35:23.946Z"
     }
   },
   {
@@ -706,7 +700,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:56.953Z"
+      "checkedAt": "2026-09-27T00:35:28.409Z"
     }
   },
   {
@@ -755,7 +749,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:58.510Z"
+      "checkedAt": "2026-09-27T00:35:29.581Z"
     }
   },
   {
@@ -801,7 +795,7 @@
         "shipping": "dpd",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:02:59.210Z"
+      "checkedAt": "2026-09-27T00:35:34.968Z"
     }
   },
   {
@@ -846,7 +840,7 @@
         "shipping": "tracking",
         "contact": "email"
       },
-      "checkedAt": "2026-09-16T09:03:00.723Z"
+      "checkedAt": "2026-09-27T00:35:36.961Z"
     }
   },
   {
@@ -892,7 +886,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:05.871Z"
+      "checkedAt": "2026-09-27T00:35:41.276Z"
     }
   },
   {
@@ -939,7 +933,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:06.224Z"
+      "checkedAt": "2026-09-27T00:35:50.247Z"
     }
   },
   {
@@ -979,7 +973,7 @@
       "contact": false,
       "productPageFetched": false,
       "evidence": {},
-      "checkedAt": "2026-09-16T09:03:06.855Z"
+      "checkedAt": "2026-09-27T00:35:50.830Z"
     }
   },
   {
@@ -1025,7 +1019,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:06.857Z"
+      "checkedAt": "2026-09-27T00:35:50.844Z"
     }
   },
   {
@@ -1070,7 +1064,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:07.175Z"
+      "checkedAt": "2026-09-27T00:36:02.484Z"
     }
   },
   {
@@ -1099,21 +1093,15 @@
     "lastTested": "",
     "labTested": true,
     "_autoChecks": {
-      "live": true,
-      "coa": true,
-      "ruo": true,
+      "live": false,
+      "coa": false,
+      "ruo": false,
       "reviews": false,
-      "shipping": true,
-      "contact": true,
-      "productPageFetched": true,
-      "evidence": {
-        "coa": "lab report",
-        "ruo": "laboratory use",
-        "reviews": null,
-        "shipping": "tracking",
-        "contact": "contact"
-      },
-      "checkedAt": "2026-09-16T09:03:07.777Z"
+      "shipping": false,
+      "contact": false,
+      "productPageFetched": false,
+      "evidence": {},
+      "checkedAt": "2026-09-27T00:36:03.396Z"
     }
   },
   {
@@ -1150,13 +1138,13 @@
       "contact": true,
       "productPageFetched": true,
       "evidence": {
-        "coa": "third-party test",
+        "coa": "coa",
         "ruo": null,
         "reviews": null,
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:10.230Z"
+      "checkedAt": "2026-09-27T00:36:03.516Z"
     }
   },
   {
@@ -1201,7 +1189,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:11.738Z"
+      "checkedAt": "2026-09-27T00:36:05.776Z"
     }
   },
   {
@@ -1246,7 +1234,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:12.616Z"
+      "checkedAt": "2026-09-27T00:36:06.506Z"
     }
   },
   {
@@ -1292,7 +1280,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:13.222Z"
+      "checkedAt": "2026-09-27T00:36:08.032Z"
     }
   },
   {
@@ -1335,7 +1323,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:15.464Z"
+      "checkedAt": "2026-09-27T00:36:10.489Z"
     }
   },
   {
@@ -1380,7 +1368,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:15.962Z"
+      "checkedAt": "2026-09-27T00:36:37.109Z"
     }
   },
   {
@@ -1426,7 +1414,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:19.227Z"
+      "checkedAt": "2026-09-27T00:36:40.685Z"
     }
   },
   {
@@ -1471,7 +1459,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:20.245Z"
+      "checkedAt": "2026-09-27T00:36:42.335Z"
     }
   },
   {
@@ -1514,7 +1502,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:20.539Z"
+      "checkedAt": "2026-09-27T00:36:43.082Z"
     }
   },
   {
@@ -1558,7 +1546,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:21.511Z"
+      "checkedAt": "2026-09-27T00:36:47.416Z"
     }
   },
   {
@@ -1601,7 +1589,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:26.213Z"
+      "checkedAt": "2026-09-27T00:36:51.176Z"
     }
   },
   {
@@ -1648,7 +1636,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:28.662Z"
+      "checkedAt": "2026-09-27T00:36:54.827Z"
     }
   },
   {
@@ -1693,7 +1681,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:33.513Z"
+      "checkedAt": "2026-09-27T00:36:59.897Z"
     }
   },
   {
@@ -1741,7 +1729,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:37.313Z"
+      "checkedAt": "2026-09-27T00:37:11.351Z"
     }
   },
   {
@@ -1787,7 +1775,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:42.141Z"
+      "checkedAt": "2026-09-27T00:37:20.799Z"
     }
   },
   {
@@ -1832,7 +1820,7 @@
         "shipping": "dhl",
         "contact": null
       },
-      "checkedAt": "2026-09-16T09:03:51.296Z"
+      "checkedAt": "2026-09-27T00:37:25.494Z"
     }
   },
   {
@@ -1873,7 +1861,7 @@
       "contact": false,
       "productPageFetched": false,
       "evidence": {},
-      "checkedAt": "2026-09-16T09:03:53.559Z"
+      "checkedAt": "2026-09-27T00:37:27.790Z"
     }
   },
   {
@@ -1912,7 +1900,7 @@
       "contact": false,
       "productPageFetched": false,
       "evidence": {},
-      "checkedAt": "2026-09-16T09:03:53.658Z"
+      "checkedAt": "2026-09-27T00:37:28.083Z"
     }
   },
   {
@@ -1950,7 +1938,7 @@
       "contact": false,
       "productPageFetched": false,
       "evidence": {},
-      "checkedAt": "2026-09-16T09:03:53.681Z"
+      "checkedAt": "2026-09-27T00:37:28.127Z"
     }
   },
   {
@@ -1992,12 +1980,12 @@
       "productPageFetched": true,
       "evidence": {
         "coa": "coa",
-        "ruo": "research use only",
+        "ruo": "for research purposes",
         "reviews": null,
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-18T00:34:02.298Z"
+      "checkedAt": "2026-09-27T00:37:28.196Z"
     },
     "email": "Dave@peptx.co.uk",
     "delivery": "UK Express single vials: 24-hour UK dispatch, free UK delivery over £100 · Factory Direct: ships from outside the UK, 10-vial MOQ, times at checkout · international available"
@@ -2044,7 +2032,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:55.565Z"
+      "checkedAt": "2026-09-27T00:37:28.774Z"
     }
   },
   {
@@ -2092,7 +2080,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:57.012Z"
+      "checkedAt": "2026-09-27T00:37:30.742Z"
     }
   },
   {
@@ -2139,7 +2127,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:03:57.674Z"
+      "checkedAt": "2026-09-27T00:37:31.338Z"
     }
   },
   {
@@ -2184,7 +2172,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:02.831Z"
+      "checkedAt": "2026-09-27T00:37:35.354Z"
     }
   },
   {
@@ -2227,7 +2215,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:03.955Z"
+      "checkedAt": "2026-09-27T00:37:36.272Z"
     }
   },
   {
@@ -2274,7 +2262,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:04.864Z"
+      "checkedAt": "2026-09-27T00:37:37.726Z"
     }
   },
   {
@@ -2320,7 +2308,7 @@
         "shipping": null,
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:06.030Z"
+      "checkedAt": "2026-09-27T00:37:38.653Z"
     }
   },
   {
@@ -2366,7 +2354,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:06.475Z"
+      "checkedAt": "2026-09-27T00:37:39.256Z"
     }
   },
   {
@@ -2414,7 +2402,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:07.968Z"
+      "checkedAt": "2026-09-27T00:37:40.124Z"
     }
   },
   {
@@ -2462,7 +2450,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:12.598Z"
+      "checkedAt": "2026-09-27T00:37:45.267Z"
     }
   },
   {
@@ -2500,15 +2488,15 @@
       "reviews": false,
       "shipping": true,
       "contact": true,
-      "productPageFetched": false,
+      "productPageFetched": true,
       "evidence": {
-        "coa": "janoshik",
-        "ruo": "laboratory use",
+        "coa": "certificate of analys",
+        "ruo": "research use only",
         "reviews": null,
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:21.001Z"
+      "checkedAt": "2026-09-27T00:37:49.458Z"
     }
   },
   {
@@ -2558,7 +2546,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:21.541Z"
+      "checkedAt": "2026-09-27T00:38:03.904Z"
     }
   },
   {
@@ -2605,7 +2593,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:22.530Z"
+      "checkedAt": "2026-09-27T00:38:04.974Z"
     }
   },
   {
@@ -2651,7 +2639,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:27.485Z"
+      "checkedAt": "2026-09-27T00:38:11.794Z"
     }
   },
   {
@@ -2699,7 +2687,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:29.289Z"
+      "checkedAt": "2026-09-27T00:38:13.371Z"
     }
   },
   {
@@ -2744,7 +2732,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:33.904Z"
+      "checkedAt": "2026-09-27T00:38:17.944Z"
     }
   },
   {
@@ -2791,7 +2779,7 @@
         "shipping": null,
         "contact": null
       },
-      "checkedAt": "2026-09-16T09:04:35.826Z"
+      "checkedAt": "2026-09-27T00:38:20.667Z"
     }
   },
   {
@@ -2842,7 +2830,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:36.592Z"
+      "checkedAt": "2026-09-27T00:38:21.197Z"
     }
   },
   {
@@ -2890,7 +2878,7 @@
         "shipping": "tracking",
         "contact": "support"
       },
-      "checkedAt": "2026-09-16T09:04:38.682Z"
+      "checkedAt": "2026-09-27T00:38:23.827Z"
     }
   },
   {
@@ -2937,7 +2925,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:41.994Z"
+      "checkedAt": "2026-09-27T00:38:27.250Z"
     }
   },
   {
@@ -2984,7 +2972,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:44.929Z"
+      "checkedAt": "2026-09-27T00:38:28.102Z"
     }
   },
   {
@@ -3031,7 +3019,7 @@
         "shipping": null,
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:04:55.407Z"
+      "checkedAt": "2026-09-27T00:38:30.776Z"
     }
   },
   {
@@ -3079,7 +3067,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-15T00:42:14.608Z"
+      "checkedAt": "2026-09-27T00:38:33.580Z"
     }
   },
   {
@@ -3120,7 +3108,7 @@
       "contact": false,
       "productPageFetched": false,
       "evidence": {},
-      "checkedAt": "2026-09-16T09:05:04.367Z"
+      "checkedAt": "2026-09-27T00:38:40.968Z"
     }
   },
   {
@@ -3166,7 +3154,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:04.382Z"
+      "checkedAt": "2026-09-27T00:38:40.986Z"
     }
   },
   {
@@ -3200,18 +3188,18 @@
       "live": true,
       "coa": true,
       "ruo": true,
-      "reviews": true,
+      "reviews": false,
       "shipping": true,
       "contact": true,
       "productPageFetched": true,
       "evidence": {
         "coa": "certificate of analys",
         "ruo": "research use only",
-        "reviews": "trustpilot",
+        "reviews": null,
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:06.196Z"
+      "checkedAt": "2026-09-27T00:38:42.460Z"
     }
   },
   {
@@ -3261,7 +3249,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:40.329Z"
+      "checkedAt": "2026-09-27T00:39:14.269Z"
     }
   },
   {
@@ -3310,7 +3298,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:42.714Z"
+      "checkedAt": "2026-09-27T00:39:16.412Z"
     }
   },
   {
@@ -3354,7 +3342,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:44.464Z"
+      "checkedAt": "2026-09-27T00:39:16.941Z"
     }
   },
   {
@@ -3390,18 +3378,18 @@
       "live": true,
       "coa": true,
       "ruo": true,
-      "reviews": false,
+      "reviews": true,
       "shipping": true,
       "contact": true,
       "productPageFetched": true,
       "evidence": {
         "coa": "coa",
         "ruo": "research use only",
-        "reviews": null,
+        "reviews": "trustpilot",
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:45.341Z"
+      "checkedAt": "2026-09-27T00:39:18.562Z"
     },
     "domainVerified": true
   },
@@ -3449,7 +3437,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:50.080Z"
+      "checkedAt": "2026-09-27T00:39:19.543Z"
     }
   },
   {
@@ -3494,7 +3482,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:50.756Z"
+      "checkedAt": "2026-09-27T00:39:20.270Z"
     }
   },
   {
@@ -3543,7 +3531,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:52.225Z"
+      "checkedAt": "2026-09-27T00:39:21.424Z"
     }
   },
   {
@@ -3594,7 +3582,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:57.611Z"
+      "checkedAt": "2026-09-27T00:39:23.216Z"
     }
   },
   {
@@ -3643,7 +3631,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:05:59.439Z"
+      "checkedAt": "2026-09-27T00:39:24.779Z"
     }
   },
   {
@@ -3689,7 +3677,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:06:00.673Z"
+      "checkedAt": "2026-09-27T00:39:26.367Z"
     }
   },
   {
@@ -3739,7 +3727,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:06:03.264Z"
+      "checkedAt": "2026-09-27T00:39:28.788Z"
     }
   },
   {
@@ -3782,13 +3770,13 @@
       "contact": true,
       "productPageFetched": true,
       "evidence": {
-        "coa": "coa",
+        "coa": "certificate of analys",
         "ruo": "research use only",
         "reviews": null,
-        "shipping": "tracked",
+        "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:06:04.792Z"
+      "checkedAt": "2026-09-27T00:39:30.360Z"
     }
   },
   {
@@ -3838,7 +3826,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:06:06.028Z"
+      "checkedAt": "2026-09-27T00:39:31.637Z"
     }
   },
   {
@@ -3886,7 +3874,7 @@
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-18T00:43:20.699Z"
+      "checkedAt": "2026-09-27T00:39:35.918Z"
     },
     "email": "research@claripep.co.uk",
     "delivery": "Next-working-day via Royal Mail Tracked 24 · same-day dispatch on orders before 2pm · every order tracked (tracking emailed)"
@@ -3929,21 +3917,18 @@
       "live": true,
       "coa": true,
       "ruo": true,
-      "reviews": true,
+      "reviews": false,
       "shipping": true,
       "contact": true,
       "productPageFetched": true,
       "evidence": {
         "coa": "certificate of analys",
         "ruo": "research use only",
-        "reviews": "judge.me 17 reviews 5.0 (rendered)",
+        "reviews": null,
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-16T09:06:16.519Z",
-      "manualOverride": {
-        "reviews": "Judge.me widget — JS-injected; 17 verified reviews at 5.0 confirmed in a real browser at /pages/reviews"
-      }
+      "checkedAt": "2026-09-27T00:39:36.478Z"
     }
   },
   {
@@ -3986,21 +3971,18 @@
       "live": true,
       "coa": true,
       "ruo": true,
-      "reviews": true,
+      "reviews": false,
       "shipping": true,
       "contact": true,
-      "productPageFetched": true,
+      "productPageFetched": false,
       "evidence": {
         "coa": "coa",
         "ruo": "research use only",
-        "reviews": "testimonial section \"What Customers Say About Our Service\" (rendered)",
+        "reviews": null,
         "shipping": "tracking",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-17T00:35:57.363Z",
-      "manualOverride": {
-        "reviews": "Revexa testimonial section is JS-injected (Wix) and absent from the raw HTTP fetch; confirmed rendering in a real browser at / (rendered SPA)."
-      }
+      "checkedAt": "2026-09-27T00:39:38.145Z"
     }
   },
   {
@@ -4044,12 +4026,12 @@
       "productPageFetched": true,
       "evidence": {
         "coa": "certificate of analys",
-        "ruo": "laboratory research",
+        "ruo": "research use only",
         "reviews": "trustpilot",
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-18T00:43:14.588Z"
+      "checkedAt": "2026-09-27T00:39:56.463Z"
     },
     "email": "info@vialverse.com",
     "delivery": "£4.95 standard UK delivery · free over £75 · Royal Mail Tracked 24 · UK-only · 1-2 working days to dispatch"
@@ -4090,18 +4072,17 @@
       "coa": true,
       "ruo": true,
       "reviews": true,
-      "shipping": true,
+      "shipping": false,
       "contact": true,
-      "productPageFetched": true,
+      "productPageFetched": false,
       "evidence": {
         "coa": "certificate of analys",
         "ruo": "research use only",
         "reviews": "trustpilot",
-        "shipping": "tracked",
+        "shipping": null,
         "contact": "contact"
       },
-      "checkedAt": "2026-09-22T01:00:00.000Z",
-      "note": "Re-verified 2026-09-22: site back online after a Webflow outage that took it down on 2026-09-19. Trustpilot profile live (reviews=true). Product-page title guard passed on all 13 URLs; all 13 product images unique (MD5)."
+      "checkedAt": "2026-09-27T00:39:58.322Z"
     }
   },
   {
@@ -4152,8 +4133,7 @@
         "shipping": "tracked",
         "contact": "contact"
       },
-      "checkedAt": "2026-09-23T01:00:00.000Z",
-      "note": "Onboarded 2026-09-23. Guard 1 passed: all 19 product URLs returned product-specific <title> (e.g. 'BPC-157 10mg - Red Panda Peptides'), not the bare site title. Guard 2 passed: all URLs are /product/{slug}/, no category pages. Guard 3 passed: all 19 product images unique MD5. Guard 4 passed: no bulk/MOQ prices; all GBP single-vial retail pricing. reviews=false: site shows an on-site 5.0/15-review widget but NO third-party review platform profile (no Trustpilot/Reviews.io/Feefo found on site or by search) — the TrustScore reviews signal requires a third-party platform."
+      "checkedAt": "2026-09-27T00:39:58.825Z"
     }
   },
   {
@@ -4197,7 +4177,56 @@
         "shipping": "tracked",
         "contact": "email"
       },
-      "checkedAt": "2026-09-26T00:39:50.387Z"
+      "checkedAt": "2026-09-27T00:40:00.280Z"
+    }
+  },
+  {
+    "id": "ultimate-peptides",
+    "name": "Ultimate Peptides",
+    "slug": "ultimate-peptides",
+    "website": "https://ultimatepeptides.co.uk",
+    "rating": 4.7,
+    "verified": true,
+    "country": "UK",
+    "description": "Ultimate Peptides is a UK-based research-peptide supplier operating a focused catalogue of lyophilised compounds and ready-to-use nasal sprays with GBP pricing. All material is supplied strictly for research purposes and is not for human consumption. The site publishes per-product specifications and states same-day dispatch for orders placed before 12pm, with orders after 12pm dispatched the next working day. The range covers metabolic compounds (Retatrutide), growth hormone secretagogues (Ipamorelin, CJC-1295 no DAC, Tesamorelin), healing and regenerative research compounds (BPC-157, TB-500, GHK-Cu, Glow 70), Cagrilintide and Melanotan II, plus bacteriostatic water.",
+    "highlights": [
+      "UK-based supplier with GBP pricing",
+      "Same-day dispatch on orders before 12pm",
+      "Orders after 12pm dispatched next working day",
+      "Lyophilised vials and ready-to-use nasal sprays",
+      "Per-product specifications published on every listing",
+      "Research-use-only - not for human consumption"
+    ],
+    "email": "contact@ultimatepeptides.co.uk",
+    "delivery": "same-day dispatch on orders before 12pm · orders after 12pm dispatched next working day · courier not stated · UK-only · free-delivery threshold not stated",
+    "shipping": [
+      "UK - orders placed before 12pm are eligible for same-day dispatch",
+      "Orders placed after 12pm are dispatched the next working day",
+      "Courier not stated on site",
+      "Free-delivery threshold not stated"
+    ],
+    "payment": [
+      "Card payment"
+    ],
+    "lastTested": "2026-09-27",
+    "labTested": false,
+    "contactNote": "Contact page publishes contact@ultimatepeptides.co.uk. Same contact page also shows a typo'd variant contact@ultimateprptides.co.uk - the correct published address is contact@ultimatepeptides.co.uk. No public phone number or registered address listed.",
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": "for research purposes",
+        "reviews": null,
+        "shipping": "next-day",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-27T00:40:01.172Z"
     }
   }
 ]
