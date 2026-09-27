@@ -24484,5 +24484,99 @@
     "compoundSlug": "selank",
     "destUrl": "https://reta-uk.com/products/selank",
     "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-09-27T13:46:53.221Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://reta-uk.com/products/selank",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-09-27T13:46:54.768Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://reta-uk.com/products/selank",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-27T13:52:23.964Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a117f68e70a64d4b"
+  },
+  {
+    "ts": "2026-09-27T13:52:29.965Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3a6436d1c114366b"
+  },
+  {
+    "ts": "2026-09-27T14:04:29.842Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1e7ae976fe054739"
+  },
+  {
+    "ts": "2026-09-27T14:04:33.352Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f53a10dab0f5f1c8"
+  },
+  {
+    "ts": "2026-09-27T14:12:05.021Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vip-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-27T14:12:08.915Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vip-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-09-27T14:12:12.274Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vip-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-27T14:24:49.384Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biopeptides-uk.com/product/selank-10mg/",
+    "visitorId": "a633c5659643b575"
   }
 ]
