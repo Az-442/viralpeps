@@ -27667,5 +27667,57 @@
     "vendorName": "Stratford Peptides",
     "destUrl": "https://www.stratfordpeptides.com",
     "visitorId": "22e179b9278035b9"
+  },
+  {
+    "ts": "2026-09-28T21:06:55.705Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-09-28T21:06:57.243Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-28T21:29:08.376Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://purepeptidesuk.com/product/selank-5mg/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-28T21:29:10.099Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://purepeptidesuk.com/product/selank-5mg/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-28T21:29:11.780Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://purepeptidesuk.com/product/selank-5mg/",
+    "visitorId": "e2ccef13c02d9391"
+  },
+  {
+    "ts": "2026-09-28T21:43:58.819Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-glutathione-1500mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "991396dbce05919d"
   }
 ]
