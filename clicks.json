@@ -27844,5 +27844,33 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg",
     "visitorId": "912fa4326498333a"
+  },
+  {
+    "ts": "2026-09-28T22:43:26.637Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mots-c-10mg",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-09-28T23:02:08.241Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/cagrilintide-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "aea64809bf9e3eaf"
+  },
+  {
+    "ts": "2026-09-28T23:21:45.716Z",
+    "type": "vendor-site",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "destUrl": "https://ultimatepeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e235d7dd6d99c5ae"
   }
 ]
