@@ -27650,5 +27650,14 @@
     "vendorName": "Kings BioLabs",
     "destUrl": "https://www.kingsbiolabs.co.uk",
     "visitorId": "22d021cea30f2a50"
+  },
+  {
+    "ts": "2026-09-28T20:29:44.701Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://tidelabs.co.uk/products/mots-c-research-peptide",
+    "visitorId": "6e02536da33bcfab"
   }
 ]
