@@ -27362,5 +27362,24 @@
     "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "cf9555e04e0a7f7c"
+  },
+  {
+    "ts": "2026-09-28T15:22:06.357Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3ad5c8127d9c88c8"
+  },
+  {
+    "ts": "2026-09-28T16:02:32.838Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://olresearch.co.uk/product/r3ta-20mg/",
+    "visitorId": "ab208fb966d278b6"
   }
 ]
