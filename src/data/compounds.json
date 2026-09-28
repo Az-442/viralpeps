@@ -16169,6 +16169,14 @@
         "price": "£24.99",
         "inStock": true,
         "image": "/images/products/mypep-biotech/oxytocin.webp"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/oxytocin/",
+        "price": "£25.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/Oxytocin.png",
+        "dosage": "2mg"
       }
     ],
     "longDescription": "## Overview\n\nOxytocin is a 9-amino-acid cyclic neuropeptide (sequence CYIQNCPLG with a disulfide bridge between Cys1 and Cys6) that functions as both a hormone and a neurotransmitter. First identified in 1906 by Sir Henry Dale for its role in uterine contraction during childbirth, oxytocin has since been recognised as a key modulator of social behaviour, emotional processing, and stress regulation. It is synthesised primarily in the paraventricular and supraoptic nuclei of the hypothalamus and released into circulation via the posterior pituitary. Centrally, oxytocinergic neurons project to limbic structures including the amygdala, hippocampus, nucleus accumbens, and prefrontal cortex, where oxytocin modulates social cognition, trust, empathy, and pair bonding. UK researchers in behavioural neuroscience, psychiatry, and psychopharmacology continue to investigate oxytocin's therapeutic potential for social anxiety, autism spectrum disorder, post-traumatic stress disorder, and substance use disorders.\n\n## Mechanism of Action\n\nOxytocin exerts its effects through the oxytocin receptor (OXTR), a G-protein-coupled receptor belonging to the rhodopsin-type GPCR family. OXTR activation triggers phospholipase C-mediated hydrolysis of phosphatidylinositol bisphosphate, generating inositol trisphosphate (IP3) and diacylglycerol (DAG). IP3 mobilises intracellular calcium from the endoplasmic reticulum, while DAG activates protein kinase C, leading to downstream MAPK/ERK signalling. In the central nervous system, oxytocin receptor activation modulates GABAergic inhibitory neurotransmission and dopaminergic reward signalling. In the periphery, oxytocin stimulates uterine smooth muscle contraction during labour and milk ejection from mammary glands during lactation. The vasopressin V1a receptor also binds oxytocin with lower affinity, contributing to some of its peripheral effects.\n\n## Research & Clinical Data\n\nHuman and animal studies have demonstrated oxytocin's effects on social cognition and behaviour. Intranasal oxytocin administration has been shown to increase trust in economic games, enhance emotion recognition, improve eye gaze in social interactions, and reduce amygdala reactivity to threatening stimuli. In autism spectrum disorder research, oxytocin has shown promise for improving social responsiveness and reducing repetitive behaviours, though results have been variable across clinical trials. Preclinical studies have explored oxytocin's analgesic properties, anti-inflammatory effects in wound healing models, and cardioprotective actions during ischaemia-reperfusion injury. Intranasal dosing protocols (10–40 IU) are most common in human research.\n\n## Dosage & Administration\n\nResearch dosages vary by route of administration. Intranasal administration at 10–40 IU per dose is standard in human behavioural research, with effects typically lasting 60–120 minutes. Systemic subcutaneous doses in animal research range from 100–500 µg per day. The plasma half-life is approximately 5 minutes, necessitating repeated or continuous administration for sustained effects. Intranasal delivery is preferred for central nervous system research due to direct nose-to-brain transport bypassing the blood-brain barrier.\n\n## Safety & Legal\n\nOxytocin is for research purposes only and is not approved for human use outside of clinical settings. It has a well-characterised safety profile from decades of clinical use in obstetrics. Potential side effects at research doses include mild headache, transient hypotension, and facial flushing. Oxytocin should not be used by pregnant individuals outside of approved clinical settings. Lyophilised powder should be stored at -20°C and protected from light.",
@@ -16620,6 +16628,14 @@
         "price": "£45.00",
         "inStock": true,
         "image": "/images/products/ultimate-peptides/glow-70.webp",
+        "dosage": "70mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/glow70/",
+        "price": "£65.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/GLOW70.png",
         "dosage": "70mg"
       }
     ],
@@ -17281,6 +17297,14 @@
         "price": "£16.00",
         "inStock": true,
         "image": "/images/products/vialverse/snap-8.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/snap-8/",
+        "price": "£20.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/Snap-8.png",
         "dosage": "10mg"
       }
     ],
@@ -19534,6 +19558,14 @@
         "inStock": true,
         "image": "/images/products/revexa/pinealon-10mg.webp",
         "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/pinealon/",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/PINEALON-20MG.png",
+        "dosage": "20mg"
       }
     ],
     "longDescription": "",
@@ -20251,6 +20283,14 @@
         "inStock": true,
         "image": "/images/products/peptx/5-amino-1mq.webp",
         "dosage": "50mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/5-amino-1mq/",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/5-Amino-1MQ.png",
+        "dosage": "50mg"
       }
     ],
     "longDescription": "",
@@ -20440,6 +20480,14 @@
         "price": "£30.00",
         "inStock": true,
         "image": "/images/products/vialverse/ll-37.webp",
+        "dosage": "5mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/ll37/",
+        "price": "£25.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/06/LL37.png",
         "dosage": "5mg"
       }
     ],
@@ -20760,6 +20808,14 @@
         "inStock": true,
         "image": "/images/products/vialverse/vip.webp",
         "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/vip/",
+        "price": "£85.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/06/VIP-10mg.png",
+        "dosage": "10mg"
       }
     ],
     "longDescription": "",
@@ -20997,6 +21053,14 @@
         "inStock": true,
         "image": "/images/products/peptides-uk-4u/adamax.webp",
         "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/adamax/",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/06/ADAMAX.png",
+        "dosage": "5mg"
       }
     ],
     "longDescription": ""
@@ -21628,6 +21692,14 @@
           }
         ],
         "image": "/images/products/dr-peptides/vitamin-b12.webp"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/vitamin-b12/",
+        "price": "£17.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/Vitamin-B12-1mg-ml.png",
+        "dosage": "1mg/ml"
       }
     ],
     "longDescription": ""
@@ -21736,6 +21808,14 @@
         "inStock": true,
         "image": "/images/products/peptx/cartalax.webp",
         "dosage": "40mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/cartalax/",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/CARTALAX-20MG.png",
+        "dosage": "20mg"
       }
     ],
     "longDescription": ""
@@ -22046,6 +22126,14 @@
         "inStock": true,
         "image": "/images/products/buyreta/ovagen.webp",
         "dosage": "20mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/ovagen/",
+        "price": "£40.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/Ovagen.png",
+        "dosage": "20mg"
       }
     ],
     "longDescription": ""
@@ -22092,6 +22180,14 @@
         "price": "£48.95",
         "inStock": true,
         "image": "/images/products/tide-labs/pancragen.webp"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/pancragen/",
+        "price": "£40.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/Pancragen.png",
+        "dosage": "10mg"
       }
     ],
     "longDescription": ""
@@ -22139,6 +22235,14 @@
         "price": "£45.00",
         "inStock": true,
         "image": "/images/products/buyreta/testagen.webp",
+        "dosage": "20mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/testagen/",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/TESTAGEN-20MG1.png",
         "dosage": "20mg"
       }
     ],
@@ -22201,6 +22305,14 @@
         "inStock": true,
         "image": "/images/products/bluewell-peptides/vesugen-20mg-peptide.png",
         "dosage": "20mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/vesugen/",
+        "price": "£40.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/Vesugen.png",
+        "dosage": "20mg"
       }
     ],
     "longDescription": ""
@@ -22241,6 +22353,14 @@
           }
         ],
         "image": "/images/products/dr-peptides/bronchogen.webp"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/bronchogen/",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/Bronchogen.png",
+        "dosage": "20mg"
       }
     ],
     "longDescription": ""
@@ -24422,6 +24542,14 @@
         "url": "https://purepeptidesuk.com/product/n-acetyl-selank-amidate-10mg/",
         "inStock": true,
         "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/n-acetyl-selank-amidate/",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/NA-Selank.png",
+        "dosage": "10mg"
       }
     ],
     "faq": [],
@@ -24504,6 +24632,14 @@
         "price": "£21.00",
         "url": "https://purepeptidesuk.com/product/n-acetyl-semax-amidate-10mg/",
         "inStock": true,
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/n-acetyl-semax-amidate/",
+        "price": "£25.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/09/NA-Semax.png",
         "dosage": "10mg"
       }
     ],
@@ -24851,6 +24987,14 @@
         "price": "£43.99",
         "inStock": true,
         "image": "/images/products/evolve-peptides/thymosin-alpha-1-10mg.webp"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/thymosin-alpha-1/",
+        "price": "£35.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/06/THYMOSIN-ALAPHA‑1.png",
+        "dosage": "10mg"
       }
     ],
     "faq": [],
@@ -25131,6 +25275,14 @@
         "price": "£35.00",
         "inStock": true,
         "image": "/images/products/pure-peptides-uk/vilon-20mg.webp"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/vilon/",
+        "price": "£35.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/VILON-20MG.png",
+        "dosage": "20mg"
       }
     ],
     "faq": [],
@@ -25171,6 +25323,14 @@
         "price": "£46.99",
         "inStock": true,
         "image": "/images/products/bioplex-peptides/cardiogen.webp",
+        "dosage": "20mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/cardiogen/",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/CARDIOGEN-20MG.png",
         "dosage": "20mg"
       }
     ],
@@ -25244,6 +25404,14 @@
         "price": "£45.00",
         "inStock": true,
         "image": "/images/products/pioneer-peptides/cortagen.webp",
+        "dosage": "20mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/cortagen/",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/CORTAGEN-20MG1.png",
         "dosage": "20mg"
       }
     ],
@@ -32324,6 +32492,14 @@
         "inStock": true,
         "image": "/images/products/chilton-labs/cagrilintide.webp",
         "dosage": "5mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/cagrilintide-10mg/",
+        "price": "£40.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/Cagrilintide-10mg-.png",
+        "dosage": "10mg"
       }
     ],
     "faq": []
@@ -33307,6 +33483,14 @@
         "inStock": true,
         "image": "/images/products/pioneer-peptides/foxo4-dri.webp",
         "dosage": "5mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/fox04/",
+        "price": "£80.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/06/FOX04.png",
+        "dosage": "10mg"
       }
     ],
     "faq": [
@@ -33590,6 +33774,14 @@
         "price": "£18.00–£29.99",
         "inStock": true,
         "image": "/images/products/alphamino/selank.webp"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/semax-selank/",
+        "price": "£45.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/Semax-Selank-Bundle.png",
+        "dosage": "5mg+5mg"
       }
     ],
     "longDescription": "",
@@ -34596,6 +34788,14 @@
         "inStock": true,
         "image": "/images/products/vialverse/thymulin.webp",
         "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/thymulin/",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/06/THYMULIN.png",
+        "dosage": "10mg"
       }
     ]
   },
@@ -34633,6 +34833,14 @@
         "inStock": true,
         "image": "/images/products/vialverse/tesamorelin-ipamorelin.webp",
         "dosage": "10mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+        "price": "£80.00",
+        "inStock": true,
+        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/Tesamoreling-Ipamorelin.png",
+        "dosage": "10mg+5mg"
       }
     ]
   }
