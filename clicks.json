@@ -27552,5 +27552,41 @@
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://peptideslabuk.com/product/hgh-fragments/",
     "visitorId": "f3f9e491463c99ef"
+  },
+  {
+    "ts": "2026-09-28T18:23:34.034Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://leolab.co.uk/peptides/dsip/",
+    "visitorId": "4e44afd1b9b3a80c"
+  },
+  {
+    "ts": "2026-09-28T18:23:36.627Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://leolab.co.uk/peptides/dsip/",
+    "visitorId": "b4f261adf0e1fb4d"
+  },
+  {
+    "ts": "2026-09-28T18:23:39.168Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://leolab.co.uk/peptides/dsip/",
+    "visitorId": "109d72bde86b0a32"
+  },
+  {
+    "ts": "2026-09-28T18:53:14.174Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "adamax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-adamax-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "cae3b4633ddb2092"
   }
 ]
