@@ -25929,5 +25929,86 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.uk-peptides.com/10ml-bacteriostatic-water",
     "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-28T11:13:02.575Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-28T11:13:04.922Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-28T11:13:08.162Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-28T11:20:33.268Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-28T11:20:35.694Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-28T11:27:52.090Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-09-28T11:27:53.739Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "visitorId": "3ac2b8c1a63113f9"
+  },
+  {
+    "ts": "2026-09-28T11:27:57.581Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-09-28T11:57:35.534Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://www.uk-peptides.com/uk-tesamorelin-peptide",
+    "visitorId": "daad28c1bee2f602"
   }
 ]
