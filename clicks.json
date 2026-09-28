@@ -25801,5 +25801,41 @@
     "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "3398644b62b9df99"
+  },
+  {
+    "ts": "2026-09-28T07:26:44.918Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0b92522b5655c396"
+  },
+  {
+    "ts": "2026-09-28T07:38:10.070Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk",
+    "visitorId": "74901675cfa344ab"
+  },
+  {
+    "ts": "2026-09-28T07:45:13.241Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/tirzepatide.html",
+    "visitorId": "4b2a45d09ba8c6e3"
+  },
+  {
+    "ts": "2026-09-28T07:59:58.432Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
+    "visitorId": "3a74dfa8fab12041"
   }
 ]
