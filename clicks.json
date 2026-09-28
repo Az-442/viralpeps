@@ -27215,5 +27215,115 @@
     "compoundSlug": "kpv",
     "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
     "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-28T13:41:32.736Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
+    "visitorId": "96d906d6034ddc14"
+  },
+  {
+    "ts": "2026-09-28T13:47:05.821Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "047e1dcb5553aa13"
+  },
+  {
+    "ts": "2026-09-28T13:47:08.020Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2f23894527de9d91"
+  },
+  {
+    "ts": "2026-09-28T13:56:19.498Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide",
+    "visitorId": "96d906d6034ddc14"
+  },
+  {
+    "ts": "2026-09-28T13:56:23.574Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide",
+    "visitorId": "daad28c1bee2f602"
+  },
+  {
+    "ts": "2026-09-28T13:56:27.845Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide",
+    "visitorId": "94ce7ee62a557ec4"
+  },
+  {
+    "ts": "2026-09-28T14:03:48.046Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/",
+    "visitorId": "da304aba57374a2c"
+  },
+  {
+    "ts": "2026-09-28T14:04:39.106Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/",
+    "visitorId": "76f4402e5d43aa91"
+  },
+  {
+    "ts": "2026-09-28T14:11:10.199Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "visitorId": "6e02536da33bcfab"
+  },
+  {
+    "ts": "2026-09-28T14:11:11.844Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "visitorId": "f7ca3224258d1576"
+  },
+  {
+    "ts": "2026-09-28T14:11:14.744Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "visitorId": "3b2faa0c739f8d9e"
+  },
+  {
+    "ts": "2026-09-28T14:12:47.201Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/",
+    "visitorId": "8b2f5fb962f975ab"
   }
 ]
