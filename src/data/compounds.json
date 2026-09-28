@@ -17801,6 +17801,14 @@
         "inStock": true,
         "image": "/images/products/ultimate-peptides/bacteriostatic-water.webp",
         "dosage": "10ml"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/10ml-bacteriostatic-water",
+        "price": "£5.95",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/bacteriostatic-water-10ml.webp",
+        "dosage": "10ml"
       }
     ],
     "longDescription": ""
@@ -23333,6 +23341,14 @@
         "inStock": true,
         "image": "/images/products/claripep/ghk-cu.webp",
         "dosage": "50mg"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/ghk-cu-50mg",
+        "price": "£26.99",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/ghk-cu-50mg.webp",
+        "dosage": "50mg"
       }
     ],
     "faq": [],
@@ -23433,6 +23449,14 @@
         "price": "£11.99",
         "inStock": true,
         "image": "/images/products/evolve-peptides/ghrp-6-5mg.webp"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/ghrp-6-5mg",
+        "price": "£9.95",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/ghrp-6-5mg.webp",
+        "dosage": "5mg"
       }
     ],
     "faq": [],
@@ -23634,6 +23658,14 @@
         "price": "£9.50",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ipamorelin-2mg-front.png"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/ipamorelin-2000mcg",
+        "price": "£9.95",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/ipamorelin-2mg.webp",
+        "dosage": "2mg"
       }
     ],
     "faq": [],
@@ -24299,6 +24331,14 @@
         "price": "£20.00",
         "inStock": true,
         "image": "/images/products/ps-labs/pt-141-bremelanotide-10mg.webp"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/pt-141-bremelanotide",
+        "price": "£21.00",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/pt-141-10mg.webp",
+        "dosage": "10mg"
       }
     ],
     "faq": [],
@@ -24631,6 +24671,14 @@
         "price": "£52.50",
         "inStock": true,
         "image": "/images/products/alphamino/tesamorelin.webp"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/uk-tesamorelin-peptide",
+        "price": "£29.00",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/tesamorelin-2mg.webp",
+        "dosage": "2mg"
       }
     ],
     "faq": [],
@@ -24834,6 +24882,14 @@
         "price": "£16.00",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/tb500-thymosin-beta-4-2mg-front.png"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/thymosin-beta-4-2mg-tb500",
+        "price": "£16.95",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/tb-500-2mg.webp",
+        "dosage": "2mg"
       }
     ],
     "faq": [],
@@ -24903,6 +24959,14 @@
         "price": "£28.00",
         "inStock": false,
         "image": "/images/products/claripep/thymosin-beta-4-tb500-5mg.webp",
+        "dosage": "5mg"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/tb500-peptide-5mg",
+        "price": "£33.00",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/tb-500-5mg.webp",
         "dosage": "5mg"
       }
     ],
@@ -26365,6 +26429,14 @@
         "inStock": true,
         "image": "/images/products/ultimate-peptides/cjc-1295.webp",
         "dosage": "10mg"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/cjc-1295-mod-grf",
+        "price": "£12.95",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/cjc-1295-no-dac-2mg.webp",
+        "dosage": "2mg"
       }
     ],
     "faq": [
@@ -33373,6 +33445,14 @@
         "price": "£48.00",
         "inStock": false,
         "image": "/images/products/alphamino/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/igf1-lr3-1mg",
+        "price": "£59.00",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/igf-1-lr3-1mg.webp",
+        "dosage": "1mg"
       }
     ]
   },

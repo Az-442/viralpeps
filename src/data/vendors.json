@@ -4228,5 +4228,57 @@
       },
       "checkedAt": "2026-09-27T00:40:01.172Z"
     }
+  },
+  {
+    "id": "uk-peptides-com",
+    "name": "UK-Peptides.com",
+    "slug": "uk-peptides-com",
+    "website": "https://www.uk-peptides.com",
+    "rating": 4.7,
+    "verified": true,
+    "country": "UK",
+    "description": "UK Peptides is a Middlesbrough-based research-peptide supplier operating a curated catalogue of lyophilised vials and lab supplies with GBP, EUR and USD pricing. All material is supplied strictly for research use only and the site states it is not for human use. Orders confirmed before 3pm Monday to Friday are dispatched the same working day, with most UK orders shipped via Royal Mail Tracked 24 and tracked Royal Mail Special Delivery available for guaranteed next-working-day delivery by 1pm. The range covers healing and regenerative compounds (BPC-157, TB-500 2mg and 5mg), growth hormone secretagogues (CJC-1295 MOD GRF, Ipamorelin, GHRP-6, IGF-1 LR3, Tesamorelin), GHK-Cu copper peptide, PT-141 Bremelanotide, plus bacteriostatic mixing water. Stock is held in temperature-controlled cold rooms and laboratory-grade fridges pre-dispatch, and the site publishes storage, stability and reconstitution guidance alongside each listing.",
+    "highlights": [
+      "UK-based supplier with GBP, EUR and USD pricing",
+      "Same-day dispatch on orders confirmed before 3pm Mon-Fri",
+      "Royal Mail Tracked 24 and Special Delivery by 1pm options",
+      "Cold-chain storage in walk-in cold rooms and lab-grade fridges",
+      "No minimum order value - single-vial orders welcome",
+      "Research-use-only - not for human use"
+    ],
+    "email": "sales@uk-peptides.com",
+    "delivery": "same-day dispatch on orders confirmed before 3pm Mon-Fri · orders after 3pm go next working day · Royal Mail Tracked 24 (1-2 working days) and Royal Mail Special Delivery guaranteed by 1pm · UPS courier option · UK and international · shipping costs shown at checkout, free-delivery threshold not stated",
+    "shipping": [
+      "UK - Royal Mail Tracked 24, next-working-day aim, fully tracked (1-2 working days)",
+      "UK - Royal Mail Special Delivery Guaranteed by 1pm, next working day",
+      "International - Royal Mail International Tracked (5-12 working days) and International Tracked & Signed",
+      "Dispatch cutoff 3pm Mon-Fri; same-day dispatch on confirmed orders before 3pm",
+      "No minimum order value; single-vial orders processed the same as larger orders",
+      "Free-delivery threshold not stated - shipping costs shown at checkout"
+    ],
+    "payment": [
+      "Card payment",
+      "Bank transfer / payment link"
+    ],
+    "lastTested": "2026-09-28",
+    "labTested": false,
+    "contactNote": "Contact page publishes sales@uk-peptides.com (address obfuscated behind Cloudflare email protection). Registered office: UK Peptides, 409 Linthorpe Road, Middlesbrough, TS5 6JN, UK. Support line +44 7547 718714 for order/payment/delivery queries only - the site states it does not offer product advice or guidance and cannot reply to texts. Office hours Mon-Fri 10:30-16:00, closed weekends. Contact form available on site.",
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": "not for human use",
+        "reviews": null,
+        "shipping": "same-day dispatch",
+        "contact": "sales@uk-peptides.com"
+      },
+      "checkedAt": "2026-09-28T00:00:00.000Z"
+    }
   }
 ]
