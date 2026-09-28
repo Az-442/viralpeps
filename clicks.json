@@ -27872,5 +27872,42 @@
     "destUrl": "https://ultimatepeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "e235d7dd6d99c5ae"
+  },
+  {
+    "ts": "2026-09-28T23:27:54.937Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "53e33416affb96f7"
+  },
+  {
+    "ts": "2026-09-28T23:27:56.676Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "eb7e63b7c9396b4c"
+  },
+  {
+    "ts": "2026-09-28T23:27:58.434Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "73df4112e5016898"
+  },
+  {
+    "ts": "2026-09-28T23:53:50.692Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://peptidesuk4u.co.uk/product/ara290-16mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "aea64809bf9e3eaf"
   }
 ]
