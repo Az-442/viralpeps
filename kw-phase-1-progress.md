@@ -349,14 +349,99 @@ retatrutide) and a genuinely distinct article. Both are now live and do not dupl
 The existing `public/images/guides/retatrutide-vs-survodutide.png` card belongs to the
 Day-1 article and was NOT reused; a separate `tirzepatide-vs-survodutide.png` was made.
 
-## Next up
-**Day 10 — Fri 25 Sep (3 articles)**
-- `follistatin-344-deep-dive` — **follistatin 344** (deep)
-- `cjc-1295-with-dac-suppliers-uk` — **cjc-1295 (with dac) suppliers UK** (suppliers)
-- `buy-peptides-online-uk` — **buy peptides online** (pillar)
+## Day 10 — Fri 25 Sep (3 articles) ✅ DONE
+Completed 28 Sep 03:00 by daily blog cron (main branch, direct).
 
-None of the three slugs exist yet. Re-check both quote formats AND the `slug:` field
-form before writing (see the gap/stub detection note in the skill).
+- `follistatin-344-deep-dive` — follistatin 344 (deep) — section: peptides,
+  compoundSlug: follistatin-344
+- `cjc-1295-with-dac-suppliers-uk` — cjc-1295 (with dac) suppliers UK (suppliers)
+  — section: research-hub, compoundSlug: cjc-1295-with-dac
+- `buy-peptides-online-uk` — buy peptides online (pillar) — section: research-hub
+  (no compoundSlug — market-structure pillar)
+
+Cards:
+- `public/images/guides/follistatin-344-deep-dive.png` — Pillow single-vial 75%-height
+  (follistatin-344-vial), badge "Deep Dive Report"
+- `public/images/guides/cjc-1295-with-dac-suppliers-uk.png` — Pillow single-vial 75%-height
+  (cjc-1295-with-dac-vial), badge "Supplier Guide"
+- `public/images/guides/buy-peptides-online-uk.png` — photorealistic base + Pillow chrome,
+  badge "Buyer's Guide"
+
+Card scripts: `scripts/make_kw_phase1_day10_cards.py` (2 compound cards) and
+`scripts/compose_kw_day10_photo_card.py` (pillar card).
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,352 / 1,685 / 2,061
+
+Build: passed (163/163 pages, up from 160). All 34 internal links verified against
+`compounds.json` slugs, `vendors.json` slugs and live `research.ts`/`research-content.ts`
+keys — 0 broken. **21 PMIDs verified individually via NCBI E-utilities esummary**
+(title + journal matched for every one).
+All 74 guide card `image:` refs cross-checked against disk: OK.
+
+Commit: `c02b380b` · pushed to main (0 unpushed).
+
+### ⚠️ Lessons from this run
+1. **`write_file` DID double escapes this run** — all three /tmp fragments came out with
+   3 backslashes before `n` (i.e. `\\\n` = literal backslash + real newline), which is NOT
+   a valid escape inside a single-quoted TS string. The Day-7 note saying doubling is a
+   subagent-only artefact does not hold: these fragments were parent-written. Fix is a
+   regex normaliser, collapsing `(\\{3,})n` -> `\\n` and `(\\{2,})'` -> `\'`. Run it on
+   EVERY fragment. A cheap two-byte count (`raw.count(b'\\\\n')`) is not enough — count
+   the *backslash-run length* before the `n`, because 3-backslash runs make a naive
+   doubled-count read as clean.
+2. **Type-check each fragment as a real module before merging.** Wrapping the bare object
+   as `const x: ResearchPageContent = {...}` and running the project's own
+   `./node_modules/.bin/tsc --noEmit` caught everything before the merge. This is the
+   cheapest gate in the whole run and it caught the `compoundSlug: undefined` mistake
+   (an explicit `undefined` is fine at runtime but is not in the interface's optional form
+   and reads as a bug — omit the field instead).
+3. **`category` in `research.ts` is `'Guide'` (singular), NOT `'Guides'`.** The
+   `ResearchArticle` union is `"Guide" | "Articles" | "Research Summaries" |
+   "Compound Profiles"`. Writing `'Guides'` fails the build at the type-check step with a
+   clear "Did you mean 'Guide'?" — but only after a full 14s compile, so check the union
+   before writing the registry block.
+4. **Link validator must match BOTH Record-key quote formats AND the `slug:` field form.**
+   `peptide-reconstitution-guide` is stored as a double-quoted indent-2 key (line 1184)
+   and was falsely reported BROKEN by a single-quote-only scan. Same trap as the gap
+   detector in the skill. Use `^\s*["']key["']:\s*\{` plus a `slug:\s*["']...["']` sweep
+   over BOTH data files.
+5. **Broken forward-links found and fixed before publish (3 total).** Two vendor slugs and
+   one research slug were wrong in my first draft:
+   - `/vendors/research-peptides-uk` -> `/vendors/research-peptide-uk` (the near-duplicate
+     vendor-name trap; "Research Peptides UK" is `research-peptide-uk`, while
+     "Research Peptides" is `research-peptides-uk-main`)
+   - `/vendors/dr-p-research` -> `/vendors/dr-peptides` (Dr P Research's slug does not
+     contain "p-research")
+   - `/research/peptide-purity` -> `/research/how-to-read-a-coa` (no article with a
+     `peptide-purity` slug exists; the COA guide is the right target)
+   All three were fixed scoped to the three new articles only, by slicing each article's
+   byte range and replacing within it — never a global replace on the file.
+6. **The seam is unchanged and still matches exactly once:**
+   `"  ]," + NL + "}," + NL + NL + "};" + NL + "export default content;"` (real newlines).
+   The replacement keeps that tail and inserts the block with the final new entry carrying
+   its own trailing comma.
+7. **`research.ts` guides-array tail has NO comma before `];`.** The last entry closes with
+   `}` immediately followed by `];`. A helper that assumes `,` before `];` (or that inserts
+   after the `,`) will mis-place the block. The working anchor is the whole
+   `"}\n];\n\nexport const compoundList"` string, replaced by
+   `"},\n<blocks>\n];\n\nexport const compoundList"`. The Day-9 note about walking back
+   over whitespace to a comma only applies when a comma exists there.
+8. **`image_generate` is still unavailable in cron**, so the pillar card reused the
+   recovered photorealistic base, as on Days 7/8. The Day-8 `recover_base()` writes to its
+   OWN hardcoded path — a Day-10 wrapper must copy the result to its own base path or
+   `compose()` raises FileNotFoundError.
+
+---
+
+## Next up
+**Day 11 — Sat 26 Sep (2 articles)**
+- `buy-tb-500-uk` — **buy tb-500 UK** (buy)
+- `mots-c-for-metabolism` — **mots-c** (for)
+
+None of the two slugs exist yet. Re-check both quote formats AND the `slug:` field
+form before writing (see the gap/stub detection note in the skill), and remember
+`category` in `research.ts` is `'Guide'` singular for guide-type articles.
 
 ---
 
