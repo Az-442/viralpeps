@@ -1411,7 +1411,39 @@ export const guides: ResearchArticle[] = [
   image: 'oxytocin-nasal-spray-suppliers-uk',
   minutes: 10,
   tags: ['oxytocin', 'nasal-spray', 'intranasal', 'suppliers', 'nose-to-brain', 'neuropeptide', 'uk'],
-}
+},
+  {
+    title: 'Follistatin 344 Deep Dive — Myostatin, Muscle and the Missing Human Data',
+    desc: 'A full research review of follistatin 344: myostatin and activin neutralisation, the satellite cell mechanism, the preclinical evidence base, the 37,000 g/mol manufacturing problem, and why the human trial used gene transfer rather than the protein.',
+    category: 'Compound Profiles',
+    section: 'peptides',
+    compound: 'Follistatin 344',
+    slug: 'follistatin-344-deep-dive',
+    image: 'follistatin-344-deep-dive',
+    minutes: 11,
+    tags: ['follistatin', 'follistatin-344', 'myostatin', 'gdf-8', 'muscle', 'hypertrophy', 'activin', 'deep-dive', 'uk'],
+  },
+  {
+    title: 'CJC-1295 With DAC Suppliers UK — Prices, Half-Life and What to Verify',
+    desc: 'Which UK suppliers stock CJC-1295 with DAC, what the albumin-binding DAC linker actually does, the 2006 healthy-adult pharmacokinetic data, and how to tell the with-DAC product from the no-DAC version.',
+    category: 'Articles',
+    section: 'research-hub',
+    compound: 'CJC-1295',
+    slug: 'cjc-1295-with-dac-suppliers-uk',
+    image: 'cjc-1295-with-dac-suppliers-uk',
+    minutes: 10,
+    tags: ['cjc-1295', 'cjc-1295-dac', 'ghrh', 'growth-hormone', 'suppliers', 'uk', 'prices', 'albumin'],
+  },
+  {
+    title: 'Buy Peptides Online UK — How the Market Actually Works',
+    desc: 'A buyer\'s guide to the UK research peptide market: 93 suppliers, 406 listings and 2,904 prices analysed, what separates a verifiable listing from one that only looks credible, plus the legal position stated plainly.',
+    category: 'Guide',
+    section: 'research-hub',
+    slug: 'buy-peptides-online-uk',
+    image: 'buy-peptides-online-uk',
+    minutes: 12,
+    tags: ['buy-peptides', 'buying-guide', 'uk', 'suppliers', 'certificate-of-analysis', 'coa', 'legal', 'market'],
+  },
 ];
 
 export const compoundList: string[] = [
