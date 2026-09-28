@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-09-21",
+  "captured_at": "2026-09-28",
   "source": "https://viralpeps.co.uk",
-  "status": "HELD — MailerLite account 2509467 status=terminated (updated_at frozen 2026-08-14); POST /api/campaigns returns HTTP 403 'Not available on closed or terminated account'. Weekly newsletter NOT sent on 2026-09-21. No alternative ESP configured — .env.local holds only MAILERLITE_API_KEY, SMTP_USER, INFO_EMAIL.",
+  "status": "HELD — MailerLite account 2509467 status=terminated (updated_at frozen 2026-08-14); POST /api/campaigns returns HTTP 403 'Not available on closed or terminated account'. Weekly newsletter NOT sent on 2026-09-28. No alternative ESP configured — .env.local holds only MAILERLITE_API_KEY, SMTP_USER, INFO_EMAIL.",
   "site_stats": {
     "peptides_tracked": 154,
-    "verified_suppliers": 88,
+    "verified_suppliers": 93,
     "prices_updated": "daily",
-    "audience": "All Subscribers segment 193155917484656413 — 7 subscribers, 43.75% open rate"
+    "audience": "All Subscribers segment 193155917484656413"
   },
   "deals": [
     { "compound": "GHK-Cu", "dosage": "5mg", "supplier": "Nupex", "original": "£350.00", "current": "£6.48", "save": "£343.52", "pct": "98%", "slug": "ghk-cu" },
@@ -19,21 +19,21 @@
     { "compound": "DSIP (Delta Sleep-Inducing Peptide)", "dosage": "", "supplier": "Raccoon Peptides", "original": "£199.99", "current": "£9.99", "save": "£190.00", "pct": "95%", "slug": "dsip" }
   ],
   "trending": [
-    { "name": "GHK-Cu", "suppliers": 103, "from": "£6.48", "slug": "ghk-cu", "fact": "Most compared compound on the site — copper peptide for skin and tissue repair research. 103 suppliers now listed." },
-    { "name": "MOTS-c", "suppliers": 101, "from": "£10.86", "slug": "mots-c", "fact": "Mitochondrial-derived peptide, jumped to 101 suppliers. Biggest saving today at 95%." },
-    { "name": "BPC-157", "suppliers": 96, "from": "£12.00", "slug": "bpc-157", "fact": "The healing and recovery staple — 96 UK suppliers to compare." },
-    { "name": "TB-500", "suppliers": 90, "from": "£0.00", "slug": "tb-500", "fact": "Tissue repair research mainstay, now 90 suppliers deep." },
-    { "name": "Tesamorelin", "suppliers": 90, "from": "£19.95", "slug": "tesamorelin", "fact": "Growth-hormone secretagogue with a wide price spread across 90 suppliers." },
-    { "name": "Retatrutide", "suppliers": 88, "from": "£35.00", "slug": "retatrutide", "fact": "Newer metabolic compound gaining fast — 88 suppliers and climbing." }
+    { "name": "GHK-Cu", "suppliers": 113, "from": "£6.48", "slug": "ghk-cu", "fact": "Most compared compound on the site — copper peptide for skin and tissue repair research. Now 113 suppliers, up from 103 last week." },
+    { "name": "MOTS-c", "suppliers": 108, "from": "£10.86", "slug": "mots-c", "fact": "Mitochondrial-derived peptide, jumped to 108 suppliers from 101. Also the deepest saving in this week's list at 95%." },
+    { "name": "BPC-157", "suppliers": 107, "from": "£12.00", "slug": "bpc-157", "fact": "The healing and recovery staple — 107 UK suppliers to compare, up from 96." },
+    { "name": "Retatrutide", "suppliers": 107, "from": "£27.99", "slug": "retatrutide", "fact": "Fastest riser this week: 88 suppliers last week to 107 now. Newer metabolic compound, wide price spread." },
+    { "name": "TB-500", "suppliers": 99, "from": "£0.00", "slug": "tb-500", "fact": "Tissue repair research mainstay, now 99 suppliers deep." },
+    { "name": "Tesamorelin", "suppliers": 99, "from": "£19.95", "slug": "tesamorelin", "fact": "Growth-hormone secretagogue with a wide price spread across 99 suppliers." }
   ],
   "new_suppliers": [
     { "name": "Tested Peptides", "note": "Third-party HPLC tested, wide catalogue from BPC-157 to NAD+" },
     { "name": "Trutide", "note": "UK registered (Trutide Research Ltd), Royal Mail Tracked 24 over £25, same-day dispatch before 2pm" }
   ],
   "top_suppliers_by_price": [
+    { "name": "Alphamino", "best_price": "£5.00", "products": 85 },
     { "name": "Express Peptides", "best_price": "£7.50", "products": 118 },
     { "name": "Pure Peptides UK", "best_price": "£7.50", "products": 105, "verified": true },
-    { "name": "Alphamino", "best_price": "£5.00", "products": 85 },
     { "name": "Research Peptides UK", "best_price": "£6.99", "products": 77, "verified": true }
   ]
 }

@@ -93,6 +93,8 @@ Once reinstated, re-run the send. No code changes are needed — the send pipeli
 |---|---|---|---|
 | 2026-09-14 (Price Drops run) | terminated | 403 | First discovery |
 | 2026-09-14 (Weekly Newsletter run) | terminated | 403 (`{"message":"Not available on closed or terminated account"}`) | Still blocked; data + script prepared for instant send |
+| 2026-09-28 (Price Drops run) | terminated | 403 (`{"message":"Not available on closed or terminated account"}`) | Still blocked. No deal drift vs 21 Sep. HTML staged at `/tmp/vp-price-drops-2026-09-28.html`. Probe script added: `scripts/probe-price-drops-status.mjs`. |
+| 2026-09-28 (Weekly Newsletter run) | terminated | 403 (`{"message":"Not available on closed or terminated account"}`) | Still blocked. `send-viralpeps-weekly.mjs` aborted at exit 2 (account gate). Data refreshed from live site: **154 peptides / 93 suppliers** (was 134/81). Deals unchanged vs 21 Sep. Trending moved: GHK-Cu 103→113, MOTS-c 101→108, BPC-157 96→107, Retatrutide 88→107. Newsletter staged at `/tmp/vp-weekly-newsletter-2026-09-28.html` (23,131 bytes, render-verified). Staging helper added: `scripts/stage-weekly-html.mjs` (renders HTML with zero API calls). |
 
 `updated_at` is still `2026-08-14 18:08:38` — the account has not been touched. Nothing has
 changed on MailerLite's side; this genuinely needs a human to contact MailerLite support.
