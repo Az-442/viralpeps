@@ -27334,5 +27334,33 @@
     "compoundSlug": "kisspeptin-10",
     "destUrl": "https://leolab.co.uk/peptides/kisspeptin/",
     "visitorId": "912fa4326498333a"
+  },
+  {
+    "ts": "2026-09-28T14:41:04.991Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://leolab.co.uk/peptides/kisspeptin/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-28T14:41:12.511Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://leolab.co.uk/peptides/kisspeptin/",
+    "visitorId": "7d5f0089692d9b47"
+  },
+  {
+    "ts": "2026-09-28T15:21:55.798Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cf9555e04e0a7f7c"
   }
 ]
