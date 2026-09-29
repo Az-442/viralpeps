@@ -185,6 +185,22 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           return sortedSources[random];
         })()
       : undefined;
+  // Optional per-source override so the featured card can lead with a specific
+  // dose (e.g. Retatrutide 40mg) while the price table keeps its own ordering.
+  const featuredDisplay = (() => {
+    if (!featured) return featured;
+    const fv: any = featuredVendor;
+    const override = fv?.featuredDosage;
+    if (!override) return featured;
+    const opts = (featured as any).options;
+    const match = Array.isArray(opts)
+      ? opts.find((o: any) => o.size === override)
+      : null;
+    if (match) {
+      return { ...(featured as any), price: match.price, dosage: match.size };
+    }
+    return featured;
+  })();
   // Find the vendor data (paid or random)
   const featuredVendorData = featuredVendor || (featured ? vendors.find(v => v.name === featured.vendor) : undefined);
   const accent = getAccent(compound.category || "");
@@ -418,7 +434,10 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                 )}
               </div>
               <div className="text-right">
-                <div className="text-2xl font-bold text-gray-900">{featured.price}</div>
+                <div className="text-2xl font-bold text-gray-900">{featuredDisplay?.price ?? featured.price}</div>
+                {(featuredDisplay as any)?.dosage && (
+                  <p className="text-xs text-gray-500 font-medium">{(featuredDisplay as any).dosage}</p>
+                )}
                 <p className="text-xs text-gray-400">FREE delivery</p>
                 <a
                         href={`/go/${featuredVendorData?.slug || featured.vendor.toLowerCase().replace(/\s+/g, '-')}/${slug}`}

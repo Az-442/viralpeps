@@ -2716,6 +2716,7 @@
     "lastTested": "2026-08-22",
     "labTested": true,
     "featuredCompounds": ["retatrutide", "tirzepatide"],
+    "featuredDosage": "40mg",
     "embedEnabled": true,
     "domainVerified": true,
     "_autoChecks": {
