@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 import { guides } from "@/data/research";
-import { RETA_SPOKES } from "@/data/retatrutide-silo";
+import { allSpokeSlugs, SILOS } from "@/data/silos";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://viralpeps.co.uk";
@@ -45,13 +45,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Retatrutide silo spokes (compound-guides) — weekly price content
-  const compoundGuidePages = RETA_SPOKES.map((s) => ({
-    url: `${baseUrl}/compound-guides/${s.slug}`,
+  // Compound silo spokes (compound-guides) — weekly price content.
+  // Driven by the SILOS registry so every live silo is listed automatically.
+  const compoundGuidePages = allSpokeSlugs().map((slug) => ({
+    url: `${baseUrl}/compound-guides/${slug}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
 
-  return [...staticPages, ...compoundPages, ...vendorPages, ...researchPages, ...compoundGuidePages];
+  // Compound-guides hub index — only listed while at least one silo is live.
+  const compoundGuideHub = SILOS.length
+    ? [
+        {
+          url: `${baseUrl}/compound-guides`,
+          lastModified: new Date(),
+          changeFrequency: "weekly" as const,
+          priority: 0.8,
+        },
+      ]
+    : [];
+
+  return [
+    ...staticPages,
+    ...compoundPages,
+    ...vendorPages,
+    ...researchPages,
+    ...compoundGuideHub,
+    ...compoundGuidePages,
+  ];
 }

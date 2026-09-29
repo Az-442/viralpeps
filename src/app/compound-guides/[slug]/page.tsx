@@ -3,7 +3,9 @@ import Link from "next/link";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import BreadcrumbList from "@/components/BreadcrumbList";
-import RetaPriceTable from "@/components/RetaPriceTable";
+import PriceTable from "@/components/PriceTable";
+import { SILOS, type SiloSpoke } from "@/data/silos";
+import { spokes as retaSpokes, getSpoke as getRetaSpoke, type Spoke } from "@/data/retatrutide-spokes";
 import {
   getRetaRows,
   getRetaStats,
@@ -12,18 +14,36 @@ import {
   sortByTrust,
   RETA_SPOKES,
 } from "@/data/retatrutide-silo";
-import { spokes, getSpoke, type Spoke } from "@/data/retatrutide-spokes";
+import { spokes as trizSpokes, getSpoke as getTrizSpoke } from "@/data/tirzepatide-spokes";
+import {
+  getTrizRows,
+  getTrizStats,
+  sortByPrice as trizSortByPrice,
+  sortByPricePerMg as trizSortByPricePerMg,
+  sortByTrust as trizSortByTrust,
+  TIRZ_SPOKES,
+} from "@/data/tirzepatide-silo";
 
 export const dynamic = "force-dynamic";
 
+/** Resolve which compound a spoke slug belongs to. */
+function resolveSpoke(slug: string) {
+  const reta = getRetaSpoke(slug);
+  if (reta) return { spoke: reta, compound: "retatrutide" as const };
+  const triz = getTrizSpoke(slug);
+  if (triz) return { spoke: triz, compound: "tirzepatide" as const };
+  return null;
+}
+
 export async function generateStaticParams() {
-  return spokes.map((s) => ({ slug: s.slug }));
+  return [...retaSpokes.map((s) => ({ slug: s.slug })), ...trizSpokes.map((s) => ({ slug: s.slug }))];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const spoke = getSpoke(slug);
-  if (!spoke) return {};
+  const found = resolveSpoke(slug);
+  if (!found) return {};
+  const { spoke } = found;
   return {
     title: spoke.title,
     description: spoke.description,
@@ -70,16 +90,34 @@ function BodyText({ text }: { text: string }) {
   );
 }
 
-/** Rows + badge key for a given spoke's table mode. */
-function tableData(spoke: Spoke) {
-  const all = getRetaRows();
-  let sorted = sortByPrice(all);
+/**
+ * Rows + badge key for a given spoke's table mode, resolved for the compound.
+ * Retatrutide and Tirzepatide expose the same row shape, so the table component
+ * is shared; only the row source and sorters differ.
+ */
+function tableData(compound: "retatrutide" | "tirzepatide", spoke: Spoke) {
+  if (compound === "retatrutide") {
+    const all = getRetaRows();
+    let sorted = sortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = sortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = sortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
+  const all = getTrizRows();
+  let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
   if (spoke.tableMode === "perMg") {
-    sorted = sortByPricePerMg(all);
+    sorted = trizSortByPricePerMg(all);
     bestKey = sorted[0]?.key ?? null;
   } else if (spoke.tableMode === "trust") {
-    sorted = sortByTrust(all);
+    sorted = trizSortByTrust(all);
     bestKey = null;
   }
   const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
@@ -88,12 +126,18 @@ function tableData(spoke: Spoke) {
 
 export default async function CompoundGuidePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const spoke = getSpoke(slug);
-  if (!spoke) notFound();
+  const found = resolveSpoke(slug);
+  if (!found) notFound();
+  const { spoke, compound } = found;
 
-  const stats = getRetaStats();
-  const { rows, bestKey } = tableData(spoke);
-  const siblings = RETA_SPOKES.filter((s) => s.slug !== slug);
+  const isReta = compound === "retatrutide";
+  const stats = isReta ? getRetaStats() : getTrizStats();
+  const { rows, bestKey } = tableData(compound, spoke);
+
+  const compoundName = isReta ? "Retatrutide" : "Tirzepatide";
+  const siblings: SiloSpoke[] = (isReta ? RETA_SPOKES : TIRZ_SPOKES).filter(
+    (s) => s.slug !== slug
+  ) as unknown as SiloSpoke[];
 
   // FAQPage schema
   const faqSchema = {
@@ -129,8 +173,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
           {
             "@type": "ListItem",
             position: 2,
-            name: "Retatrutide",
-            item: "https://www.viralpeps.co.uk/compounds/retatrutide",
+            name: compoundName,
+            item: `https://www.viralpeps.co.uk/compounds/${compound}`,
           },
           {
             "@type": "ListItem",
@@ -152,7 +196,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
       <BreadcrumbList
         items={[
           { label: "Home", href: "/" },
-          { label: "Retatrutide", href: "/compounds/retatrutide" },
+          { label: compoundName, href: `/compounds/${compound}` },
           { label: spoke.h1 },
         ]}
       />
@@ -162,10 +206,10 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         <div className="max-w-[76rem] mx-auto px-4 py-10 md:py-14">
           <div className="flex flex-wrap items-center gap-2 mb-4">
             <Link
-              href="/compounds/retatrutide"
+              href={`/compounds/${compound}`}
               className="text-[10px] font-bold text-blue-200 bg-white/10 border border-white/20 px-2.5 py-1 rounded-full uppercase tracking-widest hover:bg-white/20 transition-colors"
             >
-              ← Retatrutide Hub
+              ← {compoundName} Hub
             </Link>
             <span className="text-[10px] font-bold text-emerald-300 bg-emerald-900/40 px-2.5 py-1 rounded-full uppercase tracking-widest">
               Buying Guide
@@ -183,7 +227,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
       <div className="bg-amber-50 border-b border-amber-100">
         <div className="max-w-[76rem] mx-auto px-4 py-2.5 text-center">
           <p className="text-[11px] text-amber-800/80 leading-relaxed">
-            For educational and research reference only. Not medical advice. Retatrutide is not for human
+            For educational and research reference only. Not medical advice. {compoundName} is not for human
             consumption — all peptides referenced are for in-vitro research use only.
           </p>
         </div>
@@ -222,9 +266,10 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
 
         {/* ── LIVE PRICE TABLE (shared component) ── */}
         <div id="price-table" className="mb-12">
-          <RetaPriceTable
+          <PriceTable
             rows={rows}
             heading={spoke.tableHeading}
+            compoundSlug={compound}
             bestKey={bestKey}
             supplierCount={stats.suppliers}
             showTrust={spoke.tableMode === "trust"}
@@ -286,22 +331,22 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         {/* ── CTA ── */}
         <div className="my-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl px-6 py-8 text-center">
           <h2 className="text-xl md:text-2xl font-bold text-white mb-2">
-            Compare all {stats.suppliers} retatrutide suppliers
+            Compare all {stats.suppliers} {compoundName.toLowerCase()} suppliers
           </h2>
           <p className="text-blue-100 text-sm mb-5">
-            Live pricing, pack sizes and per-mg cost on the Retatrutide hub page.
+            Live pricing, pack sizes and per-mg cost on the {compoundName} hub page.
           </p>
           <Link
-            href="/compounds/retatrutide"
+            href={`/compounds/${compound}`}
             className="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-6 py-3 rounded-full hover:bg-blue-50 transition-colors text-sm"
           >
-            Retatrutide price comparison →
+            {compoundName} price comparison →
           </Link>
         </div>
 
         {/* ── RELATED GUIDES ── */}
         <div className="mb-12">
-          <h2 className="text-lg font-bold text-slate-900 mb-4">Related Retatrutide Guides</h2>
+          <h2 className="text-lg font-bold text-slate-900 mb-4">Related {compoundName} Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {siblings.map((s) => (
               <Link
