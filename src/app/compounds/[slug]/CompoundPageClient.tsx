@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import ProductImage from "@/components/ProductImage";
 import compoundTabs, { getBaseCompoundSlug } from "@/data/compound-tabs";
+import { getTrustScore } from "@/lib/trust-score";
 
 // ── Types ──
 interface Source {
@@ -233,10 +234,20 @@ export default function CompoundPageClient({
         });
         break;
       case "rating": {
+        // "Supplier Rating" now orders by TrustScore (highest → lowest)
         list.sort((a, b) => {
+          const ta = getTrustScore(a.vendor).score;
+          const tb = getTrustScore(b.vendor).score;
+          if (tb !== ta) return tb - ta;
+          // tie-break on the legacy star rating, then price
           const va = vendors.find((v) => v.name === a.vendor);
           const vb = vendors.find((v) => v.name === b.vendor);
-          return (vb?.rating || 0) - (va?.rating || 0);
+          const rd = (vb?.rating || 0) - (va?.rating || 0);
+          if (rd !== 0) return rd;
+          return (
+            parseFloat(a.price.replace(/[£$€,]/g, "")) -
+            parseFloat(b.price.replace(/[£$€,]/g, ""))
+          );
         });
         break;
       }
@@ -995,18 +1006,39 @@ export default function CompoundPageClient({
                     </span>
                   )}
                 </div>
-                <a
-                  href={`/go/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}/${compound.slug}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="inline-flex items-center gap-1 text-[13px] font-bold text-white bg-blue-600 hover:bg-blue-500 active:bg-blue-700 px-4 py-2 rounded-lg transition-colors shadow-sm flex-shrink-0"
-                >
-                  Visit
-                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
-                  </svg>
-                </a>
+                <div className="flex items-center gap-2 flex-shrink-0">
+                  <Link
+                    href={`/vendors/${vendor?.slug || ""}`}
+                    onClick={(e) => e.stopPropagation()}
+                    title="ViralPeps TrustScore — independent, never for sale"
+                    className="text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full inline-flex items-center gap-1 hover:bg-slate-200 transition-colors"
+                  >
+                    {(() => {
+                      const ts = getTrustScore(s.vendor).score;
+                      const color = ts >= 80 ? "#16a34a" : ts >= 60 ? "#d97706" : ts >= 40 ? "#ea580c" : "#dc2626";
+                      return (
+                        <>
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill={color} aria-hidden="true">
+                            <path d="M12 2l7 3v6c0 4.42-2.99 8.36-7 9.5C7.99 19.36 5 15.42 5 11V5l7-3z" />
+                          </svg>
+                          TrustScore {ts}
+                        </>
+                      );
+                    })()}
+                  </Link>
+                  <a
+                    href={`/go/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}/${compound.slug}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-flex items-center gap-1 text-[13px] font-bold text-white bg-blue-600 hover:bg-blue-500 active:bg-blue-700 px-4 py-2 rounded-lg transition-colors shadow-sm flex-shrink-0"
+                  >
+                    Visit
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           );
