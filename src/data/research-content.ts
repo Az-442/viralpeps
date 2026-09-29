@@ -12425,5 +12425,213 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'buy-tb-500-uk': {
+  slug: 'buy-tb-500-uk',
+  compoundSlug: 'tb-500',
+  pullQuote: 'TB-500 is the most widely listed research peptide in the UK and the one where the same nominal product sells for anywhere between £11.95 and £199.99. That spread is not a difference in quality you can see on the vial — it is a difference in what the seller is actually shipping, how much of it is in the vial, and how much documentation comes with it.',
+  quickInfo: [
+    { label: 'Compound', value: 'TB-500 (Thymosin Beta-4 fragment, TB4)' },
+    { label: 'Compound Type', value: 'Synthetic 43-amino-acid peptide fragment of thymosin beta-4' },
+    { label: 'Molecular Weight', value: '~4,963 g/mol' },
+    { label: 'CAS Number', value: '77591-33-4' },
+    { label: 'Research Areas', value: 'Actin sequestration, cell migration, wound repair, angiogenesis, tendon and muscle repair models' },
+    { label: 'Typical Presentation', value: 'Lyophilised powder, 2 mg / 5 mg / 10 mg vials' },
+    { label: 'UK Vendors Tracked', value: '75 suppliers, 100 listings, £11.95–£199.99' },
+    { label: 'Last Verified', value: 'September 2026' },
+  ],
+  sections: [
+    {
+      title: 'Buy TB-500 UK: What This Page Covers',
+      body: 'This is a buyer\'s guide to TB-500 in the UK research market — what the molecule actually is, why 75 suppliers can list the same compound 100 different ways at 17 different price points, how to work out what you are really paying per milligram, and what a useful certificate of analysis looks like for this compound specifically.\n\nIt is not a price list. The live table renders current listings from the weekly scrape on the [**TB-500 price comparison hub →**](/compounds/tb-500). What follows is the part a table cannot do: explaining why £11.95 for 2 mg and £19.95 for 5 mg are the same deal and a much worse one respectively, and which questions to ask before either arrives.\n\nIf you want the biology first, start with the [**TB-500 research summary →**](/research/tb-500-for-recovery), then come back here for the procurement picture. For how the market as a whole is structured, see the [**UK peptide directory →**](/research/uk-peptide-directory) and the companion guide on [**where to buy peptides in the UK →**](/research/where-to-buy-peptides-uk).',
+    },
+    {
+      title: 'What TB-500 Actually Is',
+      body: 'TB-500 is not a full protein. It is a synthetic 43-amino-acid fragment corresponding to the actin-binding N-terminal region of thymosin beta-4, a 43-residue peptide in humans that is one of the most abundant intracellular actin-sequestering molecules in the body. The nomenclature in the UK market is loose — TB-500 and TB4 are used interchangeably by some vendors and distinguished by others — but the product most UK suppliers ship is the synthetic fragment, not the full-length native protein expressed recombinantly.\n\nThe mechanism that makes it interesting to researchers is actin binding. Thymosin beta-4 sequesters G-actin monomers, and that sequestration shifts the equilibrium between globular and filamentous actin in a way that promotes cell migration and re-epithelialisation. The downstream observations in preclinical models are increased cell motility, migration of keratinocytes and endothelial cells into wound sites, and angiogenesis. A large share of the mechanistic literature is built on the full-length peptide and on the Ac-SDKP cleavage fragment rather than on the 43-mer fragment sold as TB-500, which is worth knowing when you are reading papers alongside a product listing.\n\nIt is not a licensed medicine anywhere, it is not approved for human use in the UK, and it is not a controlled drug. It is sold as a research chemical for laboratory use, which is the framing every legitimate UK listing uses.\n\n[**Compare TB-500 prices from 75 UK suppliers →**](/compounds/tb-500)',
+    },
+    {
+      title: 'Why the Price Range Is a Factor of Seventeen',
+      body: 'The UK market currently runs from £11.95 to £199.99 — a factor of roughly seventeen. Four different things produce that spread, and only one of them is quality.',
+      subsections: [
+        {
+          title: '1. The price per milligram, not the price per vial',
+          body: 'Most of the apparent spread is packaging. A 2 mg vial at £11.95 and a 5 mg vial at £19.95 are not competing products — the second is 40% more expensive per milligram. Across the tracked listings the cheapest way to buy TB-500 is almost never the cheapest sticker price, because the cheapest stickers are on the smallest vials. The price-per-mg column on the comparison hub is the only figure worth sorting by, and it is worth saying plainly: the low end of the range is a small-vial phenomenon.',
+        },
+        {
+          title: '2. Presentation and format',
+          body: 'Pre-filled pen devices and prepared cartridges sit at the top of the range. A disposable pen listing at £99.90 for 10 mg is broadly ten times the cheapest 5 mg vial. That is the cost of the device, the formulation work and the convenience, not ten times the peptide. If you are comparing research material on a like-for-like basis, pens and vials do not belong in the same sort.',
+        },
+        {
+          title: '3. Multi-vial and bulk listings',
+          body: 'A handful of listings sell ten vials as one line item — for example a 5 mg × 10 vial listing at £105.00. Per milligram that is competitive with mid-market single vials. It is only expensive if you read it as a single 5 mg vial, which is exactly how the price column encourages you to read it. Check the dosage field on the listing before drawing any conclusion from the price.',
+        },
+        {
+          title: '4. Genuine quality and documentation differences',
+          body: 'This is the factor that matters and the hardest one to see. A listing that ships a batch-matched certificate of analysis naming the testing laboratory, the analytical method, a purity figure and a batch number that matches the vial is a different product from one that ships a generic spec sheet with no batch reference. Two vials of "5 mg TB-500" at £16.00 and £46.99 may differ in net peptide content, purity, counter-ion, and water content after lyophilisation — all of which affect how much peptide you actually have. Mass alone does not tell you.',
+        },
+      ],
+    },
+    {
+      title: 'What to Check in a Certificate of Analysis',
+      body: 'The [**guide to reading a certificate of analysis →**](/research/how-to-read-a-coa) covers the general ground. The TB-500-specific points are these.',
+      subsections: [
+        {
+          title: 'Purity by a named method',
+          body: 'HPLC purity should be quoted with the method (typically RP-HPLC at a stated wavelength) and ideally with the chromatogram. A figure of "≥99%" with no chromatogram and no method is a marketing number. For a 43-mer, a purity of 98–99% area is achievable and common; anything advertised above 99.5% deserves a chromatogram to back it up.',
+        },
+        {
+          title: 'Mass confirmation by mass spectrometry',
+          body: 'The measured mass should match the theoretical monoisotopic mass of the 43-residue sequence within a stated tolerance. A certificate that quotes a mass but not the expected mass is unverifiable. This is also the fastest way to spot a listing selling a different peptide fragment under the TB-500 name.',
+        },
+        {
+          title: 'Peptide content, not just mass',
+          body: 'A "5 mg" vial contains 5 mg of powder. Some of that powder is peptide, some is counter-ion and residual water. Labs that report net peptide content are telling you something material; most do not. Ask.',
+        },
+        {
+          title: 'Endotoxin, sterility and batch traceability',
+          body: 'Endotoxin is quoted less often for TB-500 than for compounds sold in larger volumes, but if it is quoted, look for a figure rather than a pass/fail. The batch number on the certificate must match the batch number on the vial — a mismatch means the document does not describe your product.',
+        },
+      ],
+    },
+    {
+      title: 'Storage, Handling and What Arrives',
+      body: 'TB-500 ships as a lyophilised powder and is stable at ambient temperature for short transit periods, but it should be stored cold on arrival. The practical points are the same as for any lyophilised research peptide, and the [**peptide storage guide →**](/research/peptide-storage-guide) covers them in full: −20 °C or colder for the powder, dessicated and protected from light; reconstitute with an appropriate solvent rather than assuming any diluent is fine; avoid vortexing; and aliquot before freezing so you are not repeatedly freeze–thawing a single stock.\n\nOne TB-500-specific caution: several UK listings bundle the peptide with bacteriostatic water or describe it as a "pen-ready" format. Those are convenience products, not research reagents with different specifications, and they are priced accordingly. If your interest is the peptide itself, the plain lyophilised vial is the comparison you want.\n\nFor the handling basics — reconstitution arithmetic, concentration and solvent compatibility — see the [**peptide reconstitution guide →**](/research/peptide-reconstitution-guide).',
+    },
+    {
+      title: 'The Legal Position in the UK',
+      body: 'TB-500 is not a licensed medicine, not a prescription-only medicine and not a controlled drug under the Misuse of Drugs Act. It is sold in the UK as a research chemical for laboratory use, and essentially every listing in the tracked market carries a research-use-only disclaimer.\n\nThe practical consequences for a buyer are straightforward. There is no pharmacy-grade supply chain for this compound, no marketing authorisation, and therefore no regulatory specification that a supplier must meet. The certificate of analysis is not a legal requirement — it is a voluntary disclosure, which is precisely why the variation between suppliers is so wide. Products sold as research chemicals and represented as suitable for human use are misrepresented under UK consumer and medicines law, and listings that make therapeutic claims about a research reagent are a signal about the seller rather than about the product.\n\nViralPeps lists suppliers for comparison and does not sell peptides. Nothing on this page is medical advice, and none of these products is intended for human or veterinary use.',
+    },
+    {
+      title: 'How to Compare Listings in Practice',
+      body: 'A short, mechanical routine that separates most of the noise:\n\n**Step 1 — Fix the vial size.** Decide what presentation you actually need, then compare only listings of that size. Comparing a 2 mg to a 10 mg vial is not a comparison.\n\n**Step 2 — Sort by price per milligram.** The hub carries the figure for every listing that has a dosage field. That single column collapses most of the seventeen-fold spread.\n\n**Step 3 — Exclude pens, cartridges and multi-vial bundles** if you are benchmarking raw material. They are different products at a different price point.\n\n**Step 4 — Check the documentation before the price.** A listing with a batch-matched certificate naming a testing lab is worth a premium over one with a spec sheet. How much premium is a judgement call; that there is a premium is not.\n\n**Step 5 — Check the listing is current.** The weekly scrape flags price changes and delistings on the hub, and a price that looks too good is often a listing that has not been re-verified.\n\n[**Compare all 100 TB-500 listings →**](/compounds/tb-500)',
+    },
+  ],
+  faq: [
+    {
+      question: 'How much does TB-500 cost in the UK?',
+      answer: 'Across the 75 suppliers and 100 listings ViralPeps tracks, TB-500 runs from £11.95 to £199.99. That range mostly reflects vial size, presentation and documentation rather than the peptide itself — the cheapest listings are generally the smallest vials, and the most expensive are pen devices or multi-vial bundles. Current figures are on the TB-500 price comparison hub.',
+    },
+    {
+      question: 'Is the cheapest TB-500 listing per vial also the cheapest per milligram?',
+      answer: 'Usually not. The lowest sticker prices sit on 2 mg vials. Once you divide by milligram, mid-size vials (5 mg and 10 mg) are normally more economical, and a small number of multi-vial listings are more economical again. Sort by price per milligram, not by price.',
+    },
+    {
+      question: 'Does TB-500 require a prescription in the UK?',
+      answer: 'No. TB-500 is not a licensed medicine and not a controlled drug in the UK. It is supplied as a research chemical for laboratory use, which is why listings carry research-use-only disclaimers. That also means there is no regulatory specification a supplier must meet, so the certificate of analysis is your only view of what you are buying.',
+    },
+    {
+      question: 'What should be on a TB-500 certificate of analysis?',
+      answer: 'Purity by a named analytical method with the chromatogram, mass confirmation by mass spectrometry against the expected mass for the 43-residue sequence, ideally net peptide content, and a batch number that matches the vial. Endotoxin and sterility figures are reported by some suppliers and are a useful differentiator.',
+    },
+    {
+      question: 'How should TB-500 be stored?',
+      answer: 'Lyophilised powder at −20 °C or colder, desiccated and protected from light. Once reconstituted, store cold, avoid vortexing, and aliquot before freezing to avoid repeated freeze–thaw cycles. Full handling notes are in the peptide storage guide and the peptide reconstitution guide.',
+    },
+  ],
+  references: [
+    'Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta4: actin-sequestering protein moonlights to repair injured tissues. Trends Mol Med. 2005;11(9):421-9. PMID 16099219',
+    'Smart N, Rossdeutsch A, Riley PR. Thymosin beta4 and angiogenesis: modes of action and therapeutic potential. Angiogenesis. 2007;10(4):229-41. PMID 17632766',
+    'Philp D, Goldstein AL, Kleinman HK. Thymosin beta4 promotes angiogenesis, wound healing, and hair follicle development. Mech Ageing Dev. 2004;125(2):113-5. PMID 15037013',
+    'Malinda KM, Sidhu GS, Mani H, et al. Thymosin beta4 accelerates wound healing. J Invest Dermatol. 1999;113(3):364-8. PMID 10469335',
+    'Crockford D, Turjman N, Allan C, Angel J. Thymosin beta4: structure, function, and biological properties supporting current and future clinical applications. Ann N Y Acad Sci. 2010;1194:179-89. PMID 20536467',
+    'Ho EN, Kwok WH, Lau MY, et al. Doping control analysis of TB-500, a synthetic version of an active region of thymosin beta4, in equine urine and plasma. J Chromatogr A. 2012;1265:57-69. PMID 23084823',
+    'Goldstein AL, Hannappel E, Sosne G, Kleinman HK. Thymosin beta4: a multi-functional regenerative peptide. Basic properties and clinical applications. Expert Opin Biol Ther. 2012;12(1):37-51. PMID 22074294',
+    'Sosne G, Qiu P, Kurpakus-Wheater M, Matthew H. Thymosin beta4 and corneal wound healing: visions of the future. Ann N Y Acad Sci. 2010;1194:190-8. PMID 20536468',
+  ],
+},
+'mots-c-for-metabolism': {
+  slug: 'mots-c-for-metabolism',
+  compoundSlug: 'mots-c',
+  pullQuote: 'MOTS-c is the only research peptide in the current catalogue that is encoded in mitochondrial DNA rather than the nuclear genome. That single fact drives everything interesting about it — and also explains why the human data is thinner than the mouse data everyone quotes.',
+  quickInfo: [
+    { label: 'Compound', value: 'MOTS-c (Mitochondrial Open Reading Frame of the 12S rRNA-c)' },
+    { label: 'Compound Type', value: 'Mitochondrial-derived peptide; 16 amino acids' },
+    { label: 'Molecular Weight', value: '~2,174 g/mol' },
+    { label: 'CAS Number', value: '2109764-79-0' },
+    { label: 'Sequence', value: 'MRWQEMGYIFYPRKLR' },
+    { label: 'Research Areas', value: 'AMPK activation, insulin sensitivity, glucose and lipid metabolism, metabolic homeostasis, exercise mimetic models' },
+    { label: 'Typical Presentation', value: 'Lyophilised powder, 5 mg / 10 mg / 20 mg / 40 mg vials' },
+    { label: 'UK Vendors Tracked', value: '78 suppliers, 106 listings, £10.86–£199.99' },
+    { label: 'Last Verified', value: 'September 2026' },
+  ],
+  sections: [
+    {
+      title: 'MOTS-c for Metabolism: What This Page Covers',
+      body: 'MOTS-c is one of the most frequently mis-categorised compounds in the UK research market. It is listed alongside GLP-1 receptor agonists as a weight-loss peptide, sold at prices that imply a licensed medicine, and described in marketing copy using the vocabulary of endocrine pharmacology. It is none of those things.\n\nWhat it actually is: a 16-amino-acid mitochondrial-derived peptide, encoded in the 12S rRNA region of mitochondrial DNA, that acts as a metabolic regulator and, under metabolic stress, translocates to the nucleus where it influences gene expression. The research that gets cited most is about AMPK activation and insulin sensitivity in high-fat-fed mice.\n\nThis page sets out what the mechanism literature actually shows, where the human evidence sits, and what that implies for how the compound should be bought and evaluated. Live prices and supplier listings render on the [**MOTS-c price comparison hub →**](/compounds/mots-c). For the general biology of the peptide family it belongs to, see the [**MOTS-c research summary →**](/research/mots-c-research-summary) and the [**guide to how peptides work →**](/research/how-peptides-work).',
+    },
+    {
+      title: 'What MOTS-c Is and Where It Comes From',
+      body: 'Almost every research peptide in a UK catalogue is synthesised to mimic a peptide the body makes from a nuclear gene. MOTS-c is different in a way that changes how you should read its literature.\n\nIt is encoded in mitochondrial DNA — specifically within the 12S ribosomal RNA gene — and it was identified using computational methods that looked for short open reading frames inside mitochondrial sequences, a class of molecules that had been overlooked because mitochondrial DNA was assumed not to encode functional peptides. The name is an acronym for that discovery route: Mitochondrial Open Reading frame of the Twelve S rRNA-c.\n\nThe peptide is 16 residues long and about 2.2 kDa. Two features matter for anyone reading the literature. First, it circulates and has been measured in human plasma, which means it has a plausible physiological role rather than being a purely synthetic tool compound. Second, it is stress-responsive: intracellular MOTS-c levels and its localisation change under metabolic stress, and in that state the peptide translocates from the mitochondria to the nucleus, where it interacts with transcription machinery and modulates the expression of a set of stress-response genes. That nuclear translocation is the mechanistic claim that distinguishes MOTS-c from a straightforward signalling peptide.\n\n[**Compare MOTS-c prices from 78 UK suppliers →**](/compounds/mots-c)',
+    },
+    {
+      title: 'The Mechanism: AMPK, the Folate Cycle and Metabolic Stress',
+      body: 'The central in-vitro and in-vivo finding in the MOTS-c literature is activation of AMP-activated protein kinase, or AMPK. AMPK is the cell\'s principal energy-status sensor: it is activated when the AMP-to-ATP ratio rises, and activation switches the cell towards catabolic, energy-producing pathways and away from energy-consuming biosynthesis. A mitochondrial peptide that activates AMPK has an obvious mechanistic story — the mitochondrion is telling the rest of the cell how much energy is available.\n\nA more specific and more surprising finding came from work on the folate cycle. MOTS-c was shown to inhibit the de novo purine biosynthesis pathway by interfering with the folate cycle, specifically by targeting the enzyme and its 5-aminoimidazole-4-carboxamide ribonucleotide (AICAR) metabolite step that links the folate cycle to purine synthesis. The practical consequence of that inhibition is a rise in intracellular AICAR, which is itself an AMPK activator. This is why MOTS-c is described as an endogenous AMPK activator: it does not act on AMPK directly, it acts upstream by disrupting a metabolic cycle whose intermediates feed into AMPK activation.\n\nTwo further lines of work are relevant. In mouse models, MOTS-c administration improved insulin sensitivity and glucose handling in animals on a high-fat diet, with effects reported on skeletal muscle in particular. And MOTS-c has been described as an exercise mimetic in mouse skeletal muscle — that is, some of the metabolic and gene-expression changes normally induced by exercise training were reproduced by the peptide in sedentary animals. The exercise-mimetic framing is accurate as a description of the mouse data. It is frequently used in product marketing as though it were an established human property, which it is not.',
+    },
+    {
+      title: 'What the Evidence Actually Shows — and Where It Stops',
+      body: '',
+      subsections: [
+        {
+          title: 'Mouse and cell data: substantial',
+          body: 'The high-fat-diet mouse work is the core of the case. MOTS-c treatment in mice fed a high-fat diet has been reported to reduce diet-induced insulin resistance, improve glucose tolerance, and alter lipid handling, with skeletal muscle as the principal tissue examined. The folate-cycle and AMPK findings are cell-based mechanistic work with clear, reproducible readouts. There is also work describing MOTS-c as a regulator of metabolic homeostasis under stress and as a factor in the response to exercise.',
+        },
+        {
+          title: 'Human association data: real but observational',
+          body: 'MOTS-c has been measured in human plasma and has been associated with metabolic status in observational studies, including work examining its relationship to glucose metabolism and to ageing-related metabolic decline. Association is not intervention. Observing that circulating MOTS-c correlates with a metabolic marker in humans tells you the peptide is physiologically relevant; it does not tell you that administering it changes the marker. That distinction is the single most common error in how this compound is discussed.',
+        },
+        {
+          title: 'Human intervention data: essentially absent',
+          body: 'There is no published human randomised controlled trial of MOTS-c administration with metabolic endpoints. There is no licensed product, no established human dosing, and no human safety database. Claims about what MOTS-c does "for metabolism" in people are extrapolations from mouse pharmacology, and the honest framing of this compound is that it is a mechanistically interesting metabolic regulator with an uncharacterised human pharmacology.',
+        },
+      ],
+    },
+    {
+      title: 'Why MOTS-c Gets Mis-Sold Alongside GLP-1 Agonists',
+      body: 'MOTS-c appears in the weight-loss section of many supplier catalogues, priced in the same band as compounds that are either licensed medicines or direct analogues of them. There are three reasons, and each is worth understanding before you compare prices.\n\nThe first is categorical convenience. Sellers group products by what customers search for. "Metabolic" becomes "weight loss" becomes the same page as semaglutide and tirzepatide, even though the mechanism has nothing in common — a GLP-1 receptor agonist is an incretin analogue acting on a receptor in the gut–brain axis, while MOTS-c is a mitochondrial peptide acting intracellularly on AMPK signalling. The only thing they share is that both are studied in the context of energy balance.\n\nThe second is the exercise-mimetic framing. In mouse skeletal muscle, MOTS-c reproduces some training-induced adaptations. Marketing converts that into body-composition claims that the human data does not support.\n\nThe third is price anchoring. Because several compounds in the weight-loss aisle are expensive, a £60 MOTS-c listing does not look unusual in that context. Compared against other 16-residue synthetic peptides, where the raw material cost is unremarkable, it looks expensive — and comparing it to the [**sibling mitochondrial fragment 5-amino-1MQ →**](/compounds/5-amino-1mq) is more informative than comparing it to a GLP-1 analogue. Directions of travel between the two are compared in the [**MOTS-c vs 5-Amino-1MQ comparison →**](/research/mots-c-vs-5-amino-1mq).\n\n[**See all MOTS-c prices and vial sizes →**](/compounds/mots-c)',
+    },
+    {
+      title: 'Buying MOTS-c in the UK: What the Price Range Tells You',
+      body: 'The tracked UK market for MOTS-c runs from £10.86 to £199.99 across 78 suppliers and 106 listings, and the shape of that range is more informative here than for most compounds, because the vial sizes vary so widely — 5 mg, 10 mg, 20 mg, 32 mg, 40 mg and 60 mg are all listed.\n\nThe first thing to notice is that MOTS-c is a 16-residue peptide synthesised by standard solid-phase chemistry. Its production cost per milligram is low; it is one of the simplest molecules in the catalogue. When a 10 mg vial on one hand sells for around £15 and on the other for four times that, the difference is not the peptide.\n\nThe second thing is vial size. A 40 mg vial at £40 and a 10 mg vial at £15 are not comparable listings — the first is a quarter of the price per milligram. Sorting by price per milligram collapses most of the apparent range, and the price-per-mg column on the hub exists precisely for this.\n\nThe third is that some listings are not vials at all. There are blend listings, ten-vial bundles and prepared formats in the market, and these will appear in the same sort unless you filter them out. A single listing at £39.99 labelled as a blend is not a single-vial price.\n\nOn documentation, the same rule as every other research peptide applies: a batch-matched certificate of analysis naming the analytical method, the mass-spectrometry confirmation and the batch number is worth more than a spec sheet, and the [**certificate of analysis guide →**](/research/how-to-read-a-coa) sets out what to look for. For a molecule this cheap to make, an unusually high price with no documentation is the least defensible position in the table — you are paying a premium for nothing you can verify.',
+    },
+    {
+      title: 'Handling and Research Framing',
+      body: 'MOTS-c ships as a lyophilised powder and is handled like any other short synthetic peptide. Store the powder at −20 °C or colder, desiccated and protected from light; reconstitute appropriately; aliquot before freezing. The [**peptide storage guide →**](/research/peptide-storage-guide) and the [**peptide reconstitution guide →**](/research/peptide-reconstitution-guide) cover the procedure, and the arithmetic is identical to any other 16-mer — nothing about MOTS-c being mitochondrially encoded changes how the powder behaves in a vial.\n\nOne framing point to close on, because it is where most of the noise around this compound comes from. MOTS-c is a genuinely interesting molecule: a mitochondrial-encoded peptide with a nuclear translocation mechanism, a defined upstream route to AMPK activation via the folate cycle, and reproducible metabolic effects in mice. That is a respectable mechanistic story. It is also a story that stops, firmly, before human intervention data. Research use only means exactly that, and no part of this page is medical advice or a suggestion of any human application.',
+    },
+  ],
+  faq: [
+    {
+      question: 'What is MOTS-c and where does it come from?',
+      answer: 'MOTS-c is a 16-amino-acid peptide encoded in mitochondrial DNA, within the 12S rRNA region. It was discovered by computational screening for short open reading frames in mitochondrial sequences. It circulates in plasma and, under metabolic stress, translocates from the mitochondria to the nucleus where it modulates gene expression.',
+    },
+    {
+      question: 'Does MOTS-c help with weight loss in humans?',
+      answer: 'There is no published human randomised controlled trial of MOTS-c administration with metabolic or weight endpoints. The metabolic claims derive from high-fat-diet mouse models and cell-based mechanistic work. Human data is limited to observational associations between circulating MOTS-c and metabolic markers, which do not establish that administering the peptide changes anything.',
+    },
+    {
+      question: 'How to read the MOTS-c price range in the UK?',
+      answer: 'Sort by price per milligram rather than price per vial. The tracked market spans about £10.86 to £199.99 across 78 suppliers, but most of that range is explained by vial size (5 mg up to 60 mg), by blends and multi-vial bundles, and by documentation. MOTS-c is a short 16-residue synthetic peptide with a low production cost, so an unusually high price for a plain vial is hard to justify.',
+    },
+    {
+      question: 'How does MOTS-c activate AMPK?',
+      answer: 'Indirectly. MOTS-c inhibits de novo purine biosynthesis by interfering with the folate cycle, which raises intracellular AICAR — itself an AMPK activator. That upstream mechanism is why MOTS-c is described as an endogenous AMPK activator rather than a direct AMPK ligand.',
+    },
+    {
+      question: 'How should MOTS-c be stored?',
+      answer: 'Lyophilised powder at −20 °C or colder, desiccated and protected from light. Reconstitute with an appropriate solvent, avoid vortexing, and aliquot before freezing to avoid repeated freeze–thaw cycles.',
+    },
+  ],
+  references: [
+    'Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. Cell Metab. 2015;21(3):443-54. PMID 25738459',
+    'Kim KH, Son JM, Benayoun BA, Lee C. The mitochondrial-encoded peptide MOTS-c translocates to the nucleus to regulate nuclear gene expression in response to metabolic stress. Cell Metab. 2018;28(3):516-524.e7. PMID 29983246',
+    'Lee C, Kim KH, Cohen P. MOTS-c: a novel mitochondrial-derived peptide regulating muscle and fat metabolism. Free Radic Biol Med. 2016;100:182-187. PMID 27216708',
+    'Wan W, Zhang L, Lin Y, et al. Mitochondria-derived peptide MOTS-c: effects and mechanisms related to stress, metabolism and aging. J Transl Med. 2023;21(1):36. PMID 36670507',
+    'Zheng Y, Wei Z, Wang T. MOTS-c: a promising mitochondrial-derived peptide for therapeutic exploitation. Front Endocrinol (Lausanne). 2023;14:1120533. PMID 36761202',
+    'Kal S, Kumar S, Singh S, et al. Mitochondrial-derived peptides: antidiabetic functions and evolutionary perspectives. Peptides. 2024;172:171147. PMID 38160808',
+    'Reynolds JC, Lai RW, Woodhead JST, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12(1):470. PMID 33473109',
+    'Fuku N, Pareja-Galeano H, Zempo H, et al. The mitochondrial-derived peptide MOTS-c: a player in exceptional longevity? Aging Cell. 2015;14(6):921-3. PMID 26289118',
+    'Cataldo LR, Fernández-Verdejo R, Santos JL, Galgani JE. Plasma MOTS-c levels are associated with insulin sensitivity in lean but not in obese individuals. J Investig Med. 2018;66(6):1019-1022. PMID 29593067',
+    'Kim SJ, Miller B, Mehta HH, et al. The mitochondrial-derived peptide MOTS-c is a regulator of plasma metabolites and enhances insulin sensitivity. Physiol Rep. 2019;7(13):e14171. PMID 31293078',
+  ],
+},
+
 };
 export default content;

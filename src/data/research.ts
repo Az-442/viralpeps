@@ -1444,6 +1444,28 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ['buy-peptides', 'buying-guide', 'uk', 'suppliers', 'certificate-of-analysis', 'coa', 'legal', 'market'],
   },
+  {
+    title: 'Buy TB-500 UK \u2014 Suppliers, Prices and How to Read the Certificate',
+    desc: 'A buyer\u2019s guide to TB-500 in the UK: 75 suppliers and 100 listings tracked from \u00a311.95 to \u00a3199.99, why the same nominal vial varies so widely, price-per-milligram arithmetic, and what a useful certificate of analysis shows for a 43-residue thymosin beta-4 fragment.',
+    category: 'Guide',
+    section: 'research-hub',
+    compound: 'TB-500',
+    slug: 'buy-tb-500-uk',
+    image: 'buy-tb-500-uk',
+    minutes: 11,
+    tags: ['tb-500', 'tb500', 'thymosin-beta-4', 'buy', 'uk', 'prices', 'suppliers', 'certificate-of-analysis', 'coa'],
+  },
+  {
+    title: 'MOTS-c for Metabolism \u2014 AMPK, the Folate Cycle and Where the Evidence Stops',
+    desc: 'A research profile of MOTS-c: the mitochondrial-encoded 16-amino-acid peptide, its indirect AMPK activation via the folate cycle, the high-fat-diet mouse data, the exercise-mimetic framing, and why the human intervention evidence is essentially absent despite the price tag it carries.',
+    category: 'Compound Profiles',
+    section: 'goals',
+    compound: 'MOTS-c',
+    slug: 'mots-c-for-metabolism',
+    image: 'mots-c-for-metabolism',
+    minutes: 10,
+    tags: ['mots-c', 'motsc', 'mitochondrial', 'ampk', 'metabolism', 'insulin-sensitivity', 'folate-cycle', 'uk'],
+  },
 ];
 
 export const compoundList: string[] = [
