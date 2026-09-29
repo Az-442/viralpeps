@@ -30356,5 +30356,44 @@
     "compoundSlug": "dsip",
     "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/",
     "visitorId": "f3f9e491463c99ef"
+  },
+  {
+    "ts": "2026-09-29T17:22:49.970Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial",
+    "visitorId": "8cb751b362766091"
+  },
+  {
+    "ts": "2026-09-29T17:31:39.998Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "82e37a9fa29359c6"
+  },
+  {
+    "ts": "2026-09-29T17:31:43.486Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "22c222d44f58b254"
+  },
+  {
+    "ts": "2026-09-29T17:53:15.709Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2628259749813310"
   }
 ]
