@@ -2715,7 +2715,10 @@
     ],
     "lastTested": "2026-08-22",
     "labTested": true,
-    "featuredCompounds": ["retatrutide", "tirzepatide"],
+    "featuredCompounds": [
+      "retatrutide",
+      "tirzepatide"
+    ],
     "featuredDosage": "40mg",
     "embedEnabled": true,
     "domainVerified": true,
@@ -4335,6 +4338,174 @@
         "contact": "contact"
       },
       "checkedAt": "2026-09-29T00:40:50.617Z"
+    }
+  },
+  {
+    "id": "biohackerxlab",
+    "name": "BIOHACKERxLAB",
+    "slug": "biohackerxlab",
+    "website": "https://biohackerxlab.com",
+    "rating": 4.5,
+    "verified": true,
+    "country": "UK",
+    "description": "BIOHACKERxLAB is a UK research-peptide supplier running a WooCommerce store with a focused catalogue of lyophilised compounds covering GLP-1 and triple-agonist research (retatrutide), recovery and healing peptides (BPC-157, TB-500), cosmetic and anti-ageing copper peptides (GHK-Cu), growth-hormone secretagogues (ipamorelin, tesamorelin), mitochondrial and longevity research compounds (MOTS-c, epitalon). Every compound is offered as both a lyophilised vial and a pre-mixed pen, with volume discounts of 5% over GBP100 and 10% over GBP200. Products are supplied strictly for laboratory research use only and are not intended for human or veterinary consumption. UK delivery is free, with international shipping calculated at checkout.",
+    "highlights": [
+      "Focused catalogue of GLP-1, healing, copper-peptide, GH-secretagogue and longevity compounds",
+      "Every compound available as both a lyophilised vial and a pre-mixed pen",
+      "Free UK delivery on all orders",
+      "5% off orders over GBP100 and 10% off orders over GBP200",
+      "Card and cryptocurrency payments accepted",
+      "Research-use-only supplier - not for human or veterinary consumption",
+      "Worldwide shipping with rates calculated at checkout"
+    ],
+    "email": "",
+    "delivery": "Free UK delivery on all orders - UK in-stock items 2-3 business days, backorder items 7-14 days - orders dispatched within 1-2 business days of payment confirmation with a carrier tracking number emailed on every order - international 7-14 days in stock, 14-21 days backorder, rates calculated at checkout by destination, weight and carrier - customs duties and import taxes are the buyer's responsibility - estimates run from the date of order, and carrier or customs delays are not grounds for cancellation or refund of shipping charges",
+    "shipping": [
+      "Free UK delivery on all orders",
+      "UK in-stock items 2-3 business days; backorder items 7-14 days",
+      "Dispatch within 1-2 business days of payment confirmation",
+      "Carrier tracking number emailed with every dispatch confirmation",
+      "International in-stock 7-14 days; backorder 14-21 days",
+      "International rates calculated at checkout by destination, weight and carrier",
+      "Customs duties and import taxes are the buyer's responsibility",
+      "Right to decline orders to destinations where import is prohibited or restricted"
+    ],
+    "payment": [
+      "Debit/credit card",
+      "Cryptocurrency"
+    ],
+    "lastTested": "2026-09-30",
+    "labTested": false,
+    "contactNote": "No public email address published - contact is via a web form on /contact-us/. Store notice advertises 5% off orders over GBP100 and 10% off orders over GBP200 plus free UK shipping. Terms state all products are supplied strictly for laboratory research use only and are not food, drugs, dietary supplements or cosmetics; purchasers must be 18+ and confirm they are a researcher, professional or institution. Prices in GBP and exclude VAT/duties where applicable. Coupon codes 5off (5%) and 10off (10%) are publicly listed.",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-29T23:40:07.424Z"
+    }
+  },
+  {
+    "id": "jgpeptidesplus",
+    "name": "JGPep+",
+    "slug": "jgpeptidesplus",
+    "website": "https://jgpeptidesplus.com",
+    "rating": 4.3,
+    "verified": true,
+    "country": "UK",
+    "description": "JGPep+ is a UK research-peptide supplier operating an evidence-first catalogue with strength-specific product pages, GBP pricing and published batch documentation. The range covers GLP-1 and triple-agonist research compounds (retatrutide, tirzepatide, semaglutide, cagrilintide), healing and recovery peptides (BPC-157, TB-500, BPC-157 + TB-500 blend), copper and cognitive peptides (GHK-Cu, semax), growth-hormone secretagogues (ipamorelin, tesamorelin, CJC-1295 no DAC, CJC-1295 + ipamorelin blend), mitochondrial and longevity research (MOTS-c, NAD+, epitalon-range compounds), anti-ageing blends GLOW and KLOW, plus laboratory materials and solvents. Products are supplied strictly for laboratory research use only and are not for human or veterinary use. Fulfilment is from Redhill, Surrey with multi-vial volume discounts.",
+    "highlights": [
+      "36 strength-specific product pages with clear GBP pricing and current COA status",
+      "Published batch COAs on selected compounds; batch-specific COA requests on the rest",
+      "Multi-vial volume tiers - 5% off 3 vials, 10% off 5 vials, 15% off 10 vials",
+      "Trustpilot rating 4.3 out of 5 from 9 reviews",
+      "Card payment via Stripe or Pay by Bank via Fena Open Banking",
+      "WhatsApp support plus email and contact form",
+      "Free UK delivery on orders over GBP100",
+      "Research-use-only supplier - not for human or veterinary use"
+    ],
+    "email": "service@jgpeptidesplus.com",
+    "delivery": "UK dispatch from Nobel House, 4 Queensway, Redhill, RH1 1TY - free UK delivery on orders over GBP100 - standard GBP3.99, estimated 3-5 business days after dispatch - express GBP4.99, estimated next working day after dispatch - carrier timeframes are estimates, not guarantees - UK delivery cost shown before checkout - payment completes on the Stripe card page or Fena Open Banking page after the order is placed, and the order is not paid until payment completes",
+    "shipping": [
+      "UK fulfilment from Redhill, Surrey (Nobel House, 4 Queensway, RH1 1TY)",
+      "Free UK delivery on orders over GBP100",
+      "Standard UK GBP3.99, estimated 3-5 business days after dispatch",
+      "Express UK GBP4.99, estimated next working day after dispatch",
+      "Carrier timeframes are estimates, not guarantees",
+      "Delivery cost shown at checkout before payment",
+      "Batch-specific COA available on request per order"
+    ],
+    "payment": [
+      "Card via Stripe",
+      "Pay by Bank via Fena Open Banking"
+    ],
+    "lastTested": "2026-09-30",
+    "labTested": true,
+    "contactNote": "Contact page publishes service@jgpeptidesplus.com, WhatsApp +44 7438 930755 (described as the fastest response route), an affiliate portal and a contact form; response time stated as within 24 hours Mon-Fri. Organization JSON-LD on the site also lists email service@jgpeptidesplus.com and address Nobel House, 4 Queensway, Redhill, RH1 1TY, United Kingdom. Catalogue pages state JGPep+ UK fulfilment. Individual product pages confirm payment routes (Stripe card or Fena Open Banking) and 'Research use only - not for human use'. Terms/returns/FAQ pages available.",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-29T23:40:22.852Z"
+    }
+  },
+  {
+    "id": "ukpeptides",
+    "name": "UKPeptides.org",
+    "slug": "ukpeptides",
+    "website": "https://ukpeptides.org",
+    "rating": 4.5,
+    "verified": true,
+    "country": "UK",
+    "description": "UK Peptides is the trading name of AURYXRESEARCH LTD (company number 17388727, registered in England and Wales), a Manchester-based supplier of lyophilised research peptides. The 17-compound catalogue spans metabolic and GLP-1 research (retatrutide), recovery and healing peptides (BPC-157, TB-500, CJC-1295 + ipamorelin), skin and collagen peptides (GHK-Cu, GLOW, KLOW, glutathione), growth-factor research (IGF-1 LR3), cognitive and mood compounds (semax, selank), mitochondrial and longevity research (MOTS-c, NAD+), sleep and anti-inflammatory research (DSIP, KPV), melanocortin research (MT-2) and reconstitution accessories. Every lot is tested by an accredited external laboratory for HPLC-UV purity and mass-spectrometry identity before release, and the signed certificate is published against the lot number on the product page - 21 certificates are currently published. Products are supplied strictly for in-vitro laboratory research use only and are not for human or veterinary use.",
+    "highlights": [
+      "Every lot independently tested by an accredited external laboratory before release",
+      "21 signed certificates published by lot and linked from the product page",
+      "Lot-matched CoA on every order; batch-traceable from dispatch",
+      "Same-day dispatch from Manchester on every order - no cut-off time",
+      "Stored at -20C until dispatch",
+      "Verify the company at Companies House - AURYXRESEARCH LTD, 17388727",
+      "Volume tiers: 10% off 2 vials, 20% off 3 vials, 30% off 5 vials",
+      "Card payment via Visa, Mastercard and American Express",
+      "Research-use-only supplier - not for human or veterinary use"
+    ],
+    "email": "admin@uk-peptides.org",
+    "delivery": "Dispatched from Manchester - every order ships the same day it is placed, with no cut-off time - Royal Mail Tracked 24 with end-to-end tracking and a tracking number emailed on dispatch, estimated next working day to most UK mainland addresses and 2-3 working days for Scottish Highlands, islands and Northern Ireland - signature not required as standard - standard shipping GBP3.99, free on UK orders over GBP40 - UK addresses only - if tracking shows no movement for 5 working days past the expected delivery date UK Peptides will investigate with Royal Mail, and a parcel confirmed lost after 10 working days will be resent or fully refunded at the customer's preference",
+    "shipping": [
+      "Same-day dispatch from Manchester on every order, no cut-off time",
+      "Royal Mail Tracked 24 with end-to-end tracking",
+      "Tracking number emailed once dispatched",
+      "Estimated next working day to most UK mainland addresses",
+      "Remote UK addresses (Scottish Highlands, islands, Northern Ireland) 2-3 working days",
+      "Standard shipping GBP3.99, free on UK orders over GBP40",
+      "UK addresses only - no international shipping",
+      "Signature not required as standard"
+    ],
+    "payment": [
+      "Visa",
+      "Mastercard",
+      "American Express"
+    ],
+    "lastTested": "2026-09-30",
+    "labTested": true,
+    "contactNote": "Contact email admin@uk-peptides.org published on the About and Shipping pages. Trading name of AURYXRESEARCH LTD, company number 17388727, registered in England and Wales. Registered office 3 Goose Cross, Highfields Caldecote, CB23 7ZL, United Kingdom (legal correspondence only, not a returns or collection address). Support hours Monday to Friday 9am-4pm GMT. Not VAT registered - prices contain no VAT element. Measured purity stated as 99.99% HPLC-UV per lot, tested by an external laboratory. About page openly notes that certificates test identity and purity rather than fill weight, and that bacteriostatic water has no HPLC certificate.",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-29T23:40:24.944Z"
     }
   }
 ]
