@@ -28257,5 +28257,81 @@
     "compoundSlug": "selank-semax-blend",
     "destUrl": "https://alphamino.co.uk/shop/selank/",
     "visitorId": "636947b19d96c956"
+  },
+  {
+    "ts": "2026-09-29T03:42:22.356Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "424513a56c46bde4"
+  },
+  {
+    "ts": "2026-09-29T03:47:45.704Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.proformapeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "610c80af58a3d509"
+  },
+  {
+    "ts": "2026-09-29T03:47:48.027Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.proformapeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "9043a005a8d843f8"
+  },
+  {
+    "ts": "2026-09-29T03:47:50.409Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.proformapeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "f8b4896342999779"
+  },
+  {
+    "ts": "2026-09-29T03:55:09.037Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidesuk4u.co.uk/product/aod-9604-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e0014cd43c650573"
+  },
+  {
+    "ts": "2026-09-29T04:02:42.695Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://midshirelabs.co.uk/products/glow50/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8de0fe9022ff1c91"
+  },
+  {
+    "ts": "2026-09-29T04:02:46.221Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://midshirelabs.co.uk/products/glow50/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a36f28c7316a3733"
+  },
+  {
+    "ts": "2026-09-29T04:16:36.248Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptidesuk4u.co.uk/product/ss-31-50mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "340ece0d6cbfbe88"
   }
 ]
