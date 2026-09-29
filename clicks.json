@@ -29970,5 +29970,78 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
     "visitorId": "643a78e7ebd589db"
+  },
+  {
+    "ts": "2026-09-29T10:32:55.791Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-29T10:32:58.454Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-29T10:33:00.351Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/bacteriostatic-water/",
+    "visitorId": "4b2a45d09ba8c6e3"
+  },
+  {
+    "ts": "2026-09-29T10:37:22.558Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://astralabs.co.uk/product/retatrutide-10mg-uk/",
+    "visitorId": "1d95df708cfc21d3"
+  },
+  {
+    "ts": "2026-09-29T10:38:14.890Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk",
+    "visitorId": "a04aab0b5585a51f"
+  },
+  {
+    "ts": "2026-09-29T10:52:31.986Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6870da7ae7946cd0"
+  },
+  {
+    "ts": "2026-09-29T10:52:35.889Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c679ab7ecea39043"
+  },
+  {
+    "ts": "2026-09-29T11:08:37.399Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin",
+    "visitorId": "8ab78959113c984f"
   }
 ]
