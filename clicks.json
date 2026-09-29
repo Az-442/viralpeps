@@ -28641,5 +28641,153 @@
     "destUrl": "https://peptidesuk4u.co.uk/product/klow",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "a120ead6f5660bda"
+  },
+  {
+    "ts": "2026-09-29T06:21:59.392Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "13baa0ec69fccb6f"
+  },
+  {
+    "ts": "2026-09-29T06:22:05.804Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "128d35805b5ee74d"
+  },
+  {
+    "ts": "2026-09-29T06:28:04.719Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidesuk4u.co.uk/product/ipamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "bfd22c177978f242"
+  },
+  {
+    "ts": "2026-09-29T06:31:03.714Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/38-ghrp-6-10mg.html",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-29T06:31:05.383Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/38-ghrp-6-10mg.html",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-09-29T06:31:09.352Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/38-ghrp-6-10mg.html",
+    "visitorId": "a3c462a69455860c"
+  },
+  {
+    "ts": "2026-09-29T06:33:24.482Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://ultimatepeptides.co.uk/bpc-157-and-tb500-10mg-nasal",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d0cbcf62e61a5dac"
+  },
+  {
+    "ts": "2026-09-29T06:34:17.277Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://ultimatepeptides.co.uk/retatrutide-pen",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c1d9651bffd57a9c"
+  },
+  {
+    "ts": "2026-09-29T06:42:12.337Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://ultimatepeptides.co.uk/bacteriostatic-water-10ml",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d14d71f68f1d9f31"
+  },
+  {
+    "ts": "2026-09-29T06:44:39.459Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-29T06:44:41.164Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-29T06:44:44.883Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-09-29T06:50:52.995Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "cae3b4633ddb2092"
+  },
+  {
+    "ts": "2026-09-29T06:50:57.464Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "ce513a1ed50964b0"
+  },
+  {
+    "ts": "2026-09-29T06:51:02.085Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "d0799c0bd205ba78"
+  },
+  {
+    "ts": "2026-09-29T06:57:59.366Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://ultimatepeptides.co.uk/cjc-1295-10mg-no-dac",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "696a808fcb1b76de"
   }
 ]
