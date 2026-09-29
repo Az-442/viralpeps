@@ -30717,5 +30717,43 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://peptideslabuk.com/product/aod9604/",
     "visitorId": "6a322b524f3f1c51"
+  },
+  {
+    "ts": "2026-09-29T23:01:24.471Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptideslabuk.com/product/aod9604/",
+    "visitorId": "cd57319c649ebaa0"
+  },
+  {
+    "ts": "2026-09-29T23:16:43.923Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f28fc28a14b779d3"
+  },
+  {
+    "ts": "2026-09-29T23:16:46.947Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d142fa1cab78cc57"
+  },
+  {
+    "ts": "2026-09-29T23:35:44.675Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://momentumpeptides.com/product/mots-c/",
+    "visitorId": "8cdcb9d3450cea72"
   }
 ]
