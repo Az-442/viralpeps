@@ -30524,5 +30524,51 @@
     "destUrl": "https://midshirelabs.co.uk/products/ss31/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "b955d7e7659e8b35"
+  },
+  {
+    "ts": "2026-09-29T19:12:00.390Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "43c2b4f4fda8e589"
+  },
+  {
+    "ts": "2026-09-29T19:33:09.697Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "visitorId": "518749685e9341e3"
+  },
+  {
+    "ts": "2026-09-29T19:33:12.280Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "visitorId": "cae3b4633ddb2092"
+  },
+  {
+    "ts": "2026-09-29T19:33:14.524Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-09-29T19:50:24.993Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "ce5152d07bc5b43e"
   }
 ]
