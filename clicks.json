@@ -28051,5 +28051,97 @@
     "destUrl": "https://peptidesuk4u.co.uk/product/the-wolverine-stack-bpc-157-tb-500",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "07c827a8d9523f46"
+  },
+  {
+    "ts": "2026-09-29T01:04:30.550Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "a60398f7c17881f9"
+  },
+  {
+    "ts": "2026-09-29T01:04:36.192Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "102bc1ad6a73ee72"
+  },
+  {
+    "ts": "2026-09-29T01:10:44.431Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "80a24363cab15af1"
+  },
+  {
+    "ts": "2026-09-29T01:10:50.141Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a85df799616fa0d2"
+  },
+  {
+    "ts": "2026-09-29T01:11:50.528Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-oxytocin-2mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "d05a0118f2d4d82c"
+  },
+  {
+    "ts": "2026-09-29T01:11:56.849Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-oxytocin-2mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-29T01:19:18.517Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide",
+    "visitorId": "8c40c57e7226d6ae"
+  },
+  {
+    "ts": "2026-09-29T01:19:30.228Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-09-29T01:19:32.767Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bioplexpeptides.co.uk/products/nad-1-000iu-nico-adenine-dinucleotide",
+    "visitorId": "64c1361ba84e1c9d"
+  },
+  {
+    "ts": "2026-09-29T01:34:08.430Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-6-10mg-ghrp-6",
+    "visitorId": "303e28c67a7a6b18"
   }
 ]
