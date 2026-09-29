@@ -28172,5 +28172,90 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://britpeptides.co.uk/product/nad-500mg/",
     "visitorId": "912fa4326498333a"
+  },
+  {
+    "ts": "2026-09-29T03:03:32.406Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://britpeptides.co.uk/product/nad-500mg/",
+    "visitorId": "9028d8de7c454789"
+  },
+  {
+    "ts": "2026-09-29T03:07:54.718Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://peptidesuk4u.co.uk/product/melanotan-1-mt-1-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "3182d4ffe1768649"
+  },
+  {
+    "ts": "2026-09-29T03:17:24.674Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ff73fce83a2f7bcd"
+  },
+  {
+    "ts": "2026-09-29T03:17:27.568Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5655aab89db561cb"
+  },
+  {
+    "ts": "2026-09-29T03:18:14.126Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://ultimatepeptides.co.uk/tb-500-and-bpc-157-bundle",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "be6d00d76d32a2fa"
+  },
+  {
+    "ts": "2026-09-29T03:25:30.948Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://britpeptides.co.uk/product/tirzepatide/",
+    "visitorId": "8ad9fa7a2489393f"
+  },
+  {
+    "ts": "2026-09-29T03:25:35.527Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://britpeptides.co.uk/product/tirzepatide/",
+    "visitorId": "d05a0118f2d4d82c"
+  },
+  {
+    "ts": "2026-09-29T03:25:40.024Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://britpeptides.co.uk/product/tirzepatide/",
+    "visitorId": "2b85025963fa7f66"
+  },
+  {
+    "ts": "2026-09-29T03:40:22.168Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "636947b19d96c956"
   }
 ]
