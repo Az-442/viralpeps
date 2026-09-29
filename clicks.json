@@ -28386,5 +28386,106 @@
     "compoundSlug": "epithalon-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
     "visitorId": "d6bdb386ce0844e3"
+  },
+  {
+    "ts": "2026-09-29T05:01:17.024Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptidesuk4u.co.uk/product/pe-22-28-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "023456044b88097f"
+  },
+  {
+    "ts": "2026-09-29T05:02:00.743Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/78-survodutide-10mg.html",
+    "visitorId": "822a66cceae4a5cf"
+  },
+  {
+    "ts": "2026-09-29T05:02:02.664Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/78-survodutide-10mg.html",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-29T05:02:05.160Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/78-survodutide-10mg.html",
+    "visitorId": "4d6c755ce9d63c7d"
+  },
+  {
+    "ts": "2026-09-29T05:03:39.620Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+    "visitorId": "73a381c923eb662b"
+  },
+  {
+    "ts": "2026-09-29T05:12:46.488Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "destUrl": "https://peptidesuk4u.co.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "715f61adfe3a0a34"
+  },
+  {
+    "ts": "2026-09-29T05:24:17.272Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/",
+    "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-09-29T05:24:21.262Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-29T05:24:25.301Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-29T05:28:00.277Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptidesuk4u.co.uk/product/glow",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "86bec54d84128071"
+  },
+  {
+    "ts": "2026-09-29T05:31:53.549Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://purepeptidesuk.com/product/5-amino-1mq-50mg/",
+    "visitorId": "3c972bf9028ccb78"
   }
 ]
