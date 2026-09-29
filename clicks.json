@@ -30079,5 +30079,60 @@
     "compoundSlug": "ahk-cu",
     "destUrl": "https://biotideuk.com/products/ahk-cu-100-mg",
     "visitorId": "3b6ef287760d1506"
+  },
+  {
+    "ts": "2026-09-29T12:31:59.791Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biotideuk.com/products/ahk-cu-100-mg",
+    "visitorId": "912fa4326498333a"
+  },
+  {
+    "ts": "2026-09-29T12:32:02.822Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biotideuk.com/products/ahk-cu-100-mg",
+    "visitorId": "109d72bde86b0a32"
+  },
+  {
+    "ts": "2026-09-29T12:43:48.215Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://olresearch.co.uk/product/aod9604-5mg/",
+    "visitorId": "4f867bafc3beff09"
+  },
+  {
+    "ts": "2026-09-29T12:43:50.184Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://olresearch.co.uk/product/aod9604-5mg/",
+    "visitorId": "a2253bb609d98283"
+  },
+  {
+    "ts": "2026-09-29T12:43:52.197Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://olresearch.co.uk/product/aod9604-5mg/",
+    "visitorId": "5d27496fe0cc5018"
+  },
+  {
+    "ts": "2026-09-29T13:11:45.455Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "adeacdcc4cefc202"
   }
 ]
