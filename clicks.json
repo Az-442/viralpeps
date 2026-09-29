@@ -29926,5 +29926,40 @@
     "compoundSlug": "ghrp-2",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin",
     "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-29T09:08:18.640Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin",
+    "visitorId": "424513a56c46bde4"
+  },
+  {
+    "ts": "2026-09-29T09:08:20.195Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-09-29T09:18:40.726Z",
+    "type": "vendor-site",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "destUrl": "https://pioneerpeptides.co.uk",
+    "visitorId": "6698255f57ecb620"
+  },
+  {
+    "ts": "2026-09-29T09:45:16.275Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidepal.co.uk/products/tesamorelin",
+    "visitorId": "dcb3f8ae5cab82e4"
   }
 ]
