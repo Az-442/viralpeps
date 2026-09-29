@@ -434,13 +434,84 @@ Commit: `c02b380b` · pushed to main (0 unpushed).
 
 ---
 
-## Next up
-**Day 11 — Sat 26 Sep (2 articles)**
-- `buy-tb-500-uk` — **buy tb-500 UK** (buy)
-- `mots-c-for-metabolism` — **mots-c** (for)
+## Day 11 — Sat 26 Sep (2 articles) ✅ DONE
+Completed 29 Sep 03:00 by daily blog cron (main branch, direct).
 
-None of the two slugs exist yet. Re-check both quote formats AND the `slug:` field
-form before writing (see the gap/stub detection note in the skill), and remember
+- `buy-tb-500-uk` — buy tb-500 UK (buy) — section: research-hub, compound: TB-500
+- `mots-c-for-metabolism` — mots-c (for) — section: goals, compound: MOTS-c
+
+Cards:
+- `public/images/guides/buy-tb-500-uk.png` — Pillow single-vial 75%-height (tb-500-vial),
+  badge "Buyer's Guide"
+- `public/images/guides/mots-c-for-metabolism.png` — Pillow single-vial 75%-height
+  (mots-c-vial), badge "Compound Profile"
+
+Card script: `scripts/make_kw_phase1_day11_cards.py` (shared draw_guide_card template).
+Vial labels QA'd with the vision tool before compositing: tb-500-vial ("TB-500 / 5mg") and
+mots-c-vial ("MOTS-c / 10mg") — both compound identifiers correct. Both finished cards
+vision-checked: no clipping, no overflow past the card edge.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+1,814 / 1,882 (rendered page: 6,380 / 6,518 incl. site chrome).
+
+Build: passed (165/165 pages, up from 163). All 19 internal links verified against
+`compounds.json` and live `research.ts`/`research-content.ts` keys — 0 broken, and all
+12 distinct targets re-verified live 200 after deploy.
+**18 PMIDs verified individually via NCBI E-utilities esummary** (title + journal matched).
+All 134 guide card `image:` refs cross-checked against disk: OK.
+
+Commit: `e242b9f6` · pushed to main (0 unpushed). Live verified: both articles 200 with
+correct `<title>`, self-referencing canonical, card images serving at matching byte size,
+both listed on `/research`, and both present in their compounds' Research Library sections
+(`/compounds/tb-500`, `/compounds/mots-c`).
+
+### ⚠️ Lessons from this run
+1. **The skill's PMID warning holds emphatically — 6 of 15 first-pass PMIDs were entirely
+   wrong.** `17659491` returned a German body-dysmorphic-symptom paper (correct Smart et al.
+   angiogenesis paper is `17632766`); `20536466` returned a cancer-immunotherapy paper (the
+   real Crockford TB4 paper is `20536467`, one digit off); `22171664` returned a PRP/joint
+   paper (real Goldstein TB4 review is `22074294`); `20536467` returned the Crockford paper
+   (real Sosne corneal paper is `20536468`). On the MOTS-c side `30017356` returned a
+   dietary-fat mouse paper (real nuclear-translocation paper is `29983246`), `37963424`
+   returned a soil-phenanthrene remediation paper, and `37471231` returned a diabetes
+   albumin-glycation paper. **Every reference must be searched then title-verified.**
+   A one-digit-off PMID is the most dangerous failure mode because it looks plausible.
+2. **NCBI `esearch` was UP this run** (the Day-9 note said it was down with a SOLR error).
+   Searching by author + title keywords was far more reliable than guessing.
+3. **Cite the PMID's real paper, not the paper you wanted it to be.** One entry kept a real
+   PMID (`38160808`) with a fabricated author/title pair. After esummary showed it was
+   Kal S et al., *Peptides* 2024, the citation was corrected to match. A reference list is
+   a factual claim about a database record — attach the PMID only to the record it belongs to.
+4. **The seam matched exactly once and worked unchanged:**
+   `"  ]," + NL + "}," + NL + NL + "};" + NL + "export default content;"`
+   Replacement appends the block with each new entry carrying its own trailing comma.
+5. **`research.ts` still closes the guides array with `},` then `];`** — the
+   `"  },\n];\n\nexport const compoundList"` anchor matched exactly once, and inserting
+   `"  },\n\n<entries>\n];\n\nexport const compoundList"` placed both entries inside the
+   guides array correctly. Verify with `grep -n "export const compoundList"` afterwards.
+6. **A cheap pre-merge `tsc` gate on a synthetic wrapper caught nothing this run, but the
+   real build found nothing either** — both fragments were parent-written and clean
+   (0 doubled `\\n`, 0 doubled `\\'`). Still worth running, since it is 15 seconds.
+7. **Use `goals` for "X for Y" articles.** `mots-c-for-metabolism` is an `(for)` type, and
+   the sibling `epitalon-for-longevity` (Day 2) uses `section: 'goals'` — matching that
+   keeps the type-to-section mapping consistent. Flat `research-hub` is the right home for
+   `(buy)`, `(suppliers)`, `(grouped)` and `(pillar)` types, as on Days 3/4/6/9/10.
+
+---
+
+## Next up
+**Day 12 — Sun 27 Sep (3 articles)**
+- `kpv-vs-thymosin-alpha1` — **kpv** (vs) — section: comparisons,
+  compoundSlug: kpv, compoundSlug2: thymosin-alpha1
+- `epitalon-deep-dive` — **epitalon** (deep) — section: peptides, compoundSlug: epitalon
+- `ghk-cu-suppliers-uk` — **ghk-cu suppliers UK** (suppliers) — section: research-hub,
+  compoundSlug: ghk-cu
+
+None of the three slugs exist yet. **Check `thymosin-alpha1` exists in `compounds.json`
+before setting `compoundSlug2`** — the Thymosin Alpha-1 *article* was removed on 28 Jul 2026
+and the Day-9 notes list `/research/thymosin-alpha1-research-summary` as a known unresolved
+forward-link, so verify the compound slug separately from the article slug.
+Re-check both quote formats AND the `slug:` field form before writing, and remember
 `category` in `research.ts` is `'Guide'` singular for guide-type articles.
 
 ---
