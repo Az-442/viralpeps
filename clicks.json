@@ -28342,5 +28342,49 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://apexpure.co.uk/product/ghk-cu-uk/",
     "visitorId": "8ad9fa7a2489393f"
+  },
+  {
+    "ts": "2026-09-29T04:25:00.734Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://apexpure.co.uk/product/ghk-cu-uk/",
+    "visitorId": "424513a56c46bde4"
+  },
+  {
+    "ts": "2026-09-29T04:25:04.854Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://apexpure.co.uk/product/ghk-cu-uk/",
+    "visitorId": "822a66cceae4a5cf"
+  },
+  {
+    "ts": "2026-09-29T04:53:28.378Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+    "visitorId": "65f9a0c77792c1dd"
+  },
+  {
+    "ts": "2026-09-29T04:54:35.529Z",
+    "type": "vendor-site",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "destUrl": "https://polygonpeptides.co.uk",
+    "visitorId": "6f6b1fa50daf4bd6"
+  },
+  {
+    "ts": "2026-09-29T05:01:08.516Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+    "visitorId": "d6bdb386ce0844e3"
   }
 ]
