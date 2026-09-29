@@ -30161,5 +30161,107 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://leolab.co.uk/peptides/tirzepatide/",
     "visitorId": "d858892dd4f1e9a9"
+  },
+  {
+    "ts": "2026-09-29T14:10:07.751Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://momentumpeptides.com/product/tirzepatide/",
+    "visitorId": "d858892dd4f1e9a9"
+  },
+  {
+    "ts": "2026-09-29T14:14:19.351Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.stratfordpeptides.com/products/epitalon",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-09-29T14:14:23.347Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.stratfordpeptides.com/products/epitalon",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-09-29T14:14:25.271Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.stratfordpeptides.com/products/epitalon",
+    "visitorId": "a2a17a7c2fe79e47"
+  },
+  {
+    "ts": "2026-09-29T14:16:08.749Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "02124617db9a0c6d"
+  },
+  {
+    "ts": "2026-09-29T14:25:22.680Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "09f8cc0247ac5701"
+  },
+  {
+    "ts": "2026-09-29T14:25:26.614Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "547a9c8d5575dfa7"
+  },
+  {
+    "ts": "2026-09-29T14:29:48.295Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/36-ghrp-2-10mg.html",
+    "visitorId": "816829dc40d2dbd8"
+  },
+  {
+    "ts": "2026-09-29T14:29:52.069Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/36-ghrp-2-10mg.html",
+    "visitorId": "9f6471e48ae760b3"
+  },
+  {
+    "ts": "2026-09-29T14:29:55.248Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/36-ghrp-2-10mg.html",
+    "visitorId": "ba362e6b2b137583"
+  },
+  {
+    "ts": "2026-09-29T15:09:53.028Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "refPage": "https://search.google.com/",
+    "visitorId": "a6f9a292e99dbce4"
   }
 ]
