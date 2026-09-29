@@ -4280,5 +4280,59 @@
       },
       "checkedAt": "2026-09-28T00:00:00.000Z"
     }
+  },
+  {
+    "id": "bionik-peptides",
+    "name": "Bionik Peptides",
+    "slug": "bionik-peptides",
+    "website": "https://bionikpeptides.com",
+    "rating": 4.6,
+    "verified": true,
+    "country": "UK",
+    "description": "Bionik Peptides (Bionik Wellness LTD) is a London-registered research-peptide supplier specialising in longevity, recovery and biohacking compounds. The catalogue spans 70+ lyophilised vials covering GLP-1 and amylin agonists (retatrutide, tirzepatide, semaglutide, cagrilintide, liraglutide, survodutide), growth-hormone secretagogues, regenerative and anti-ageing peptides, cognitive research compounds and cosmetic copper peptides, plus curated multi-vial research stacks (W1-W4). Products are supplied strictly for laboratory research use only and are not intended for human or animal consumption. Orders placed before 2pm Mon-Fri are dispatched the same working day, with Royal Mail Tracked 48, Tracked 24 and Special Delivery Guaranteed by 1pm options, and free tracked UK delivery on orders over GBP100. International shipping is offered to Europe and selected worldwide destinations. The site publishes per-batch Certificates of Analysis, GBP/EUR pricing and a research-use-only disclaimer on every listing.",
+    "highlights": [
+      "70+ research compounds including GLP-1, GH secretagogue and longevity peptides",
+      "Same-day dispatch on orders confirmed before 2pm Mon-Fri",
+      "Free Royal Mail tracked UK delivery on orders over GBP100",
+      "Royal Mail Tracked 48/24 and Special Delivery Guaranteed by 1pm",
+      "Batch-specific Certificates of Analysis published per product",
+      "International delivery to Europe and selected worldwide destinations",
+      "Research-use-only supplier - not for human or animal consumption"
+    ],
+    "email": "support@bionikpeptides.com",
+    "delivery": "same-day dispatch on orders confirmed before 2pm Mon-Fri (up to 1 extra working day in peak periods) - orders after 2pm and weekend orders dispatched next/Monday - Royal Mail Tracked 48 GBP3.99 (~2 working days) - Royal Mail Tracked 24 GBP4.99 (usually next working day, not guaranteed) - Special Delivery Guaranteed GBP7.50 (next working day) - FREE Royal Mail tracked delivery on UK orders over GBP100 - Europe Express GBP9.99 (3-7 working days), Worldwide Tracked GBP12.95 (5-7 working days) - fully tracked once dispatched - EU import VAT/duties not included at checkout",
+    "shipping": [
+      "UK - Royal Mail Tracked 48, GBP3.99, approximately 2 working days",
+      "UK - Royal Mail Tracked 24, GBP4.99, usually next working day (not guaranteed)",
+      "UK - Royal Mail Special Delivery Guaranteed by 1pm, GBP7.50, next working day",
+      "Free UK Royal Mail tracked delivery on orders over GBP100",
+      "Europe Express, GBP9.99, 3-7 working days",
+      "Worldwide Tracked, GBP12.95, 5-7 working days",
+      "Dispatch cutoff 2pm Mon-Fri; same-day dispatch on orders confirmed before 2pm",
+      "EU orders subject to local VAT and customs handling fees, not included at checkout"
+    ],
+    "payment": [
+      "PayPal"
+    ],
+    "lastTested": "2026-09-29",
+    "labTested": true,
+    "contactNote": "Contact page publishes support@bionikpeptides.com and telephone +447513 79 3355, plus a contact form. Registered name: Bionik Wellness LTD, registered in England & Wales under company number 17133366. Registered address 71-75 Covent Garden, London, WC2H 9JQ, UK. Site states 24/7 service and next-day delivery for orders placed before 2pm.",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-29T00:40:50.617Z"
+    }
   }
 ]
