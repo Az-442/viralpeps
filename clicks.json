@@ -27909,5 +27909,137 @@
     "destUrl": "https://peptidesuk4u.co.uk/product/ara290-16mg",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "aea64809bf9e3eaf"
+  },
+  {
+    "ts": "2026-09-28T23:57:38.655Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-28T23:57:40.915Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-28T23:57:43.303Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.apex-pharma.co.uk/product/reta-20mg/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-09-28T23:57:59.003Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "hgh-97",
+    "destUrl": "https://precision-peptides.shop/product/hgh-10-iu/",
+    "visitorId": "32b0d5ad0802140a"
+  },
+  {
+    "ts": "2026-09-29T00:03:08.609Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://ultimatepeptides.co.uk/cagrilintide-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "80c7faea413f0b48"
+  },
+  {
+    "ts": "2026-09-29T00:05:04.169Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/melanotan-2/",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-09-29T00:14:46.631Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidesuk4u.co.uk/product/mots-c-40mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7e0cabdfdca95cb6"
+  },
+  {
+    "ts": "2026-09-29T00:14:47.507Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidesuk4u.co.uk/product/mots-c-40mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "023456044b88097f"
+  },
+  {
+    "ts": "2026-09-29T00:19:52.902Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/cardiogen-research-peptide",
+    "visitorId": "9d1801ff3654fb19"
+  },
+  {
+    "ts": "2026-09-29T00:19:54.457Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/cardiogen-research-peptide",
+    "visitorId": "c47d0d802dc32d76"
+  },
+  {
+    "ts": "2026-09-29T00:19:56.235Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://tidelabs.co.uk/products/cardiogen-research-peptide",
+    "visitorId": "822a66cceae4a5cf"
+  },
+  {
+    "ts": "2026-09-29T00:21:47.721Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/mazdutide-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c00bc6d1f027dc70"
+  },
+  {
+    "ts": "2026-09-29T00:22:00.691Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/mazdutide-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "462a6c71fc019e5d"
+  },
+  {
+    "ts": "2026-09-29T00:24:13.162Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptidesuk4u.co.uk/product/dsip-15mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "764c626d606d1351"
   }
 ]
