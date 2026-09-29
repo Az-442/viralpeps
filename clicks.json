@@ -28631,5 +28631,15 @@
     "vendorName": "Fat Pig Peptides",
     "destUrl": "https://fatpigpeptides.co.uk",
     "visitorId": "47fbc5ad9b84568d"
+  },
+  {
+    "ts": "2026-09-29T06:21:16.683Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptidesuk4u.co.uk/product/klow",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a120ead6f5660bda"
   }
 ]
