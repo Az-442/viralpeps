@@ -155,11 +155,16 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
   }, 0) / compound.sources.length;
 
   // Sort vendors: featured first (by flagged vendor), then verified, then by price
+  const isFeaturedOn = (v: any, s: string) =>
+    v && (v.featuredCompounds
+      ? Array.isArray(v.featuredCompounds) && v.featuredCompounds.includes(s)
+      : v.featured === true);
+
   const sortedSources = [...compound.sources].sort((a, b) => {
     const va = vendors.find((v) => v.name === a.vendor);
     const vb = vendors.find((v) => v.name === b.vendor);
-    const aFeatured = va && (va as any).featured ? 0 : 1;
-    const bFeatured = vb && (vb as any).featured ? 0 : 1;
+    const aFeatured = isFeaturedOn(va, slug) ? 0 : 1;
+    const bFeatured = isFeaturedOn(vb, slug) ? 0 : 1;
     if (aFeatured !== bFeatured) return aFeatured - bFeatured;
     const aVerified = va?.verified ? 0 : 1;
     const bVerified = vb?.verified ? 0 : 1;
@@ -169,8 +174,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     return pa - pb;
   });
 
-  // Featured supplier = source from a paid featured vendor, or random if none paid
-  const featuredVendor = vendors.find((v) => (v as any).featured === true);
+  // Featured supplier = source from a paid featured vendor (optionally scoped to
+  // specific compounds via `featuredCompounds`), or random if none.
+  const featuredVendor = vendors.find((v) => isFeaturedOn(v, slug));
   const featured = featuredVendor
     ? sortedSources.find((s) => s.vendor === featuredVendor.name) || sortedSources[0]
     : sortedSources.length > 0
