@@ -30764,5 +30764,87 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://www.raccoonpeptides.com/peptides/53-mots-c-10mg.html",
     "visitorId": "cd57319c649ebaa0"
+  },
+  {
+    "ts": "2026-09-29T23:58:33.239Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/53-mots-c-10mg.html",
+    "visitorId": "8ad9fa7a2489393f"
+  },
+  {
+    "ts": "2026-09-30T00:09:54.865Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ipamorelin-10mg",
+    "visitorId": "ec8fdc89cad61d8e"
+  },
+  {
+    "ts": "2026-09-30T00:09:58.931Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ipamorelin-10mg",
+    "visitorId": "93abf3aa3a72d4ab"
+  },
+  {
+    "ts": "2026-09-30T00:10:03.311Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/ipamorelin-10mg",
+    "visitorId": "148889ea3a54b8fd"
+  },
+  {
+    "ts": "2026-09-30T00:20:39.161Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://pgnalabs.co.uk/product/igf-1lr3",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "57cbbafcfee9df0f"
+  },
+  {
+    "ts": "2026-09-30T00:21:16.664Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vip-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "8cdcb9d3450cea72"
+  },
+  {
+    "ts": "2026-09-30T00:21:18.134Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vip-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "ec8fdc89cad61d8e"
+  },
+  {
+    "ts": "2026-09-30T00:21:19.865Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vip-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "8cdcb9d3450cea72"
+  },
+  {
+    "ts": "2026-09-30T00:32:44.838Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://supplypeptides.co.uk/products/nad",
+    "visitorId": "77b3d30221ec4509"
   }
 ]
