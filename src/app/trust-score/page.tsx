@@ -17,17 +17,17 @@ const bands = [
 
 const signals = [
   { pts: "+25", title: "COAs & lab testing", desc: "Published Certificates of Analysis with batch numbers from a named third-party lab (e.g. Janoshik HPLC). The single most decisive signal a supplier controls." },
-  { pts: "+10", title: "Contact verified", desc: "A real, working way to reach a person — a replying email, phone number, or functional contact form." },
+  { pts: "+15", title: "Contact verified", desc: "A real, working way to reach a person — a replying email, phone number, or functional contact form." },
   { pts: "+10", title: "Genuine reviews", desc: "Volume and quality of authentic Google and Trustpilot reviews. Fake review sites are penalised — we only use trusted websites." },
-  { pts: "+5", title: "Research-use compliance", desc: "Clear \u201cfor in-vitro research only\u201d labelling and no marketing of research chemicals for human or medical use." },
-  { pts: "+5", title: "Shipping & support", desc: "Reliable dispatch, realistic delivery times, and responsive customer support." },
-  { pts: "+20", title: "Domain verified", desc: "Free — supplier installs the TrustScore badge on their site (linking back to ViralPeps). We confirm they own and operate the website." },
+  { pts: "+10", title: "Research-use compliance", desc: "Clear \u201cfor in-vitro research only\u201d labelling and no marketing of research chemicals for human or medical use." },
+  { pts: "+10", title: "Shipping & support", desc: "Reliable dispatch, realistic delivery times, and responsive customer support." },
+  { pts: "+15", title: "Domain verified", desc: "Free — supplier installs the TrustScore badge on their site (linking back to ViralPeps). We confirm they own and operate the website." },
 ];
 
 const entityTiers = [
-  { entity: "Verified entity (Ltd or sole trader)", card: "+25", crypto: "—", note: "Card or bank = top tier, regardless of entity type" },
-  { entity: "Limited company, crypto only", card: "—", crypto: "+20", note: "Still a registered business" },
-  { entity: "Sole trader, crypto only", card: "—", crypto: "+10", note: "Verified to a person, crypto only" },
+  { entity: "Verified entity (Ltd or sole trader)", card: "+15", crypto: "—", note: "Card or bank = top of the range, regardless of entity type" },
+  { entity: "Limited company, crypto only", card: "—", crypto: "+10", note: "Still a registered business" },
+  { entity: "Sole trader, crypto only", card: "—", crypto: "+5", note: "Verified to a person, crypto only" },
 ];
 
 const verified = ["Contact", "Domain", "COAs", "Compliant", "Lab-Tested", "Registered Business", "Sole Trader Verified"];
@@ -132,9 +132,9 @@ export default function TrustScorePage() {
             </table>
           </div>
           <p className="text-xs text-gray-400 mt-3">
-            The flagship 90+ band is reserved for a verified business taking card or bank payments.
-            Crypto can never reach the top tier. Scores are never for sale — the audit price covers
-            the cost of manually re-confirming a business every month.
+            The flagship 86+ band is reserved for a verified business taking card or bank payments.
+            Crypto can reach the band but earns fewer points. Scores are never for sale — the audit
+            price covers the cost of manually re-confirming a business every month.
           </p>
         </div>
 

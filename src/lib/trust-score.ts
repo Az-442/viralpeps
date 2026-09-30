@@ -2,20 +2,22 @@
 // AUTOMATED (machine-vetted against the supplier's live site) and AUDITED signals.
 //
 // Published methodology (on /trust-score):
-//   AUTOMATED (system checks the live site) — max 55:
+//   AUTOMATED (system checks the live site) — max 70:
 //     Lab-Tested (+25) — COA / certificate of analysis available on the website
+//     Contact    (+15) — checkable contact route (email/phone/support page)
 //     Reviews    (+10) — independent review platform confirmed (Trustpilot/Reviews.io/etc)
-//     Contact    (+10) — checkable contact route (email/phone/support page)
-//     Shipping    (+5) — tracked shipping advertised
-//     Compliant   (+5) — RUO (research-use-only) disclaimer on site AND products
-//   DOMAIN (+20) — FREE: supplier installs the TrustScore badge on their site
+//     Compliant  (+10) — RUO (research-use-only) disclaimer on site AND products
+//     Shipping   (+10) — tracked shipping advertised
+//   DOMAIN (+15) — FREE: supplier installs the TrustScore badge on their site
 //     (linking back to ViralPeps), then we confirm domain ownership once live.
-//   ENTITY (£50/month recertification audit — set by us, never auto):
-//     Card/bank payment + verified entity (Ltd OR sole trader) (+25)
-//     Limited company + crypto (+20)  |  Sole trader + crypto (+10)
+//   ENTITY (£50/month recertification audit — set by us, never auto) — max 15:
+//     Card/bank payment + verified entity (Ltd OR sole trader) (+15)
+//     Limited company + crypto (+10)  |  Sole trader + crypto (+5)
 //     -- Real-money, traceable payment is the deciding signal: any verified
-//        entity taking card/bank reaches the top tier; crypto cannot.
-//     -- Flagship "Excellent" band (90+) is reserved for card/bank entities.
+//        entity taking card/bank reaches the top of the range; crypto earns less.
+//
+// Ceiling without the audit = 85 (auto 70 + domain 15). The paid audit is the
+// only route into the flagship "Excellent" band (86+).
 //
 // AUTOMATED signals are read from the `_autoChecks` block on each vendor record,
 // which is produced by `scripts/checks/vendor-autocheck.mjs`. A signal only
@@ -37,9 +39,9 @@ export interface TrustScoreBreakdown {
 // Entity audit → points. entityType: "ltd" | "sole_trader"
 // paymentMethod: "card" | "bank" | "crypto"
 export function entityPoints(entityType?: string, paymentMethod?: string): number {
-  if (paymentMethod === "card" || paymentMethod === "bank") return 25; // real-money: any verified entity reaches the top tier
-  if (entityType === "ltd") return 20; // Ltd, crypto only
-  if (entityType === "sole_trader") return 10; // Sole trader, crypto only
+  if (paymentMethod === "card" || paymentMethod === "bank") return 15; // real-money: any verified entity reaches the top of the range
+  if (entityType === "ltd") return 10; // Ltd, crypto only
+  if (entityType === "sole_trader") return 5; // Sole trader, crypto only
   return 0;
 }
 
@@ -62,40 +64,40 @@ export function getTrustScore(vendorName: string): TrustScoreBreakdown {
   let score = 0;
   const ticks: string[] = [];
 
-  // ---- AUTOMATED signals (machine-vetted) ---- max 55
+  // ---- AUTOMATED signals (machine-vetted) ---- max 70
   // Lab-Tested (+25)
   if (auto?.coa === true) {
     score += 25;
     ticks.push("Lab-Tested");
   }
-  // Compliant (+5) — RUO on the site
-  if (auto?.ruo === true) {
-    score += 5;
-    ticks.push("Compliant");
+  // Contact (+15) — checkable contact route
+  if (auto?.contact === true) {
+    score += 15;
+    ticks.push("Contact");
   }
   // Reviews (+10) — independent platform
   if (auto?.reviews === true) {
     score += 10;
     ticks.push("Reviews");
   }
-  // Shipping (+5) — tracked
+  // Compliant (+10) — RUO on the site
+  if (auto?.ruo === true) {
+    score += 10;
+    ticks.push("Compliant");
+  }
+  // Shipping (+10) — tracked
   if (auto?.shipping === true) {
-    score += 5;
+    score += 10;
     ticks.push("Shipping");
   }
-  // Contact (+10) — checkable contact route
-  if (auto?.contact === true) {
-    score += 10;
-    ticks.push("Contact");
-  }
 
-  // ---- DOMAIN (+20) — FREE widget backlink code ----
+  // ---- DOMAIN (+15) — FREE widget backlink code ----
   if (v.embedded === true || v.domainVerified === true) {
-    score += 20;
+    score += 15;
     ticks.push("Domain");
   }
 
-  // ---- ENTITY (£50/month recertification audit) ----
+  // ---- ENTITY (£50/month recertification audit) ---- max 15
   const ep = entityPoints(v.entityType, v.paymentMethod);
   if (ep > 0) {
     score += ep;
