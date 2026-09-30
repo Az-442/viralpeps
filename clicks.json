@@ -31593,5 +31593,42 @@
     "destUrl": "https://pgnalabs.co.uk/product/ss-31",
     "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
     "visitorId": "124f1c2d1fe2725a"
+  },
+  {
+    "ts": "2026-09-30T10:45:15.853Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://pgnalabs.co.uk/product/ss-31",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "fdf24349f2194a76"
+  },
+  {
+    "ts": "2026-09-30T10:56:22.998Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://redpandapeptides.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "4b2a45d09ba8c6e3"
+  },
+  {
+    "ts": "2026-09-30T10:56:29.530Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://redpandapeptides.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "3af958661e1ac2ba"
+  },
+  {
+    "ts": "2026-09-30T11:26:29.291Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://britpeptides.co.uk/product/retatrutide/",
+    "visitorId": "8482aabaa2a1ce41"
   }
 ]
