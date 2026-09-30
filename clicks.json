@@ -32841,5 +32841,69 @@
     "compoundSlug": "ara-290",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-ara-290-10mg-research-only-peptide-for-laboratory-use-only/",
     "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-09-30T23:05:07.910Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-2-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-09-30T23:13:35.580Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "9050ac63ece083cf"
+  },
+  {
+    "ts": "2026-09-30T23:13:40.372Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pslabs.uk/products/rt-glp3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "59ee148adc79232f"
+  },
+  {
+    "ts": "2026-09-30T23:22:10.271Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-09-30T23:22:12.174Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-09-30T23:22:16.716Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "9717093adf67dc59"
+  },
+  {
+    "ts": "2026-09-30T23:30:44.444Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pe-22-28-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "a955a36ddec60e43"
   }
 ]
