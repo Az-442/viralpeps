@@ -843,8 +843,25 @@ export default function CompoundPageClient({
                             )}
                           </div>
                           <div className="flex items-center gap-1.5 mt-1">
-                            <StarRating rating={vendor?.rating || 0} />
-                            <span className="text-sm text-gray-400">{vendor?.rating || "—"}</span>
+                            <Link
+                              href={`/vendors/${vendor?.slug || ""}`}
+                              onClick={(e) => e.stopPropagation()}
+                              title="ViralPeps TrustScore — independent, never for sale"
+                              className="inline-flex items-center gap-1 text-[12px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full hover:bg-slate-200 transition-colors"
+                            >
+                              {(() => {
+                                const ts = getTrustScore(s.vendor).score;
+                                const color = ts >= 80 ? "#16a34a" : ts >= 60 ? "#d97706" : ts >= 40 ? "#ea580c" : "#dc2626";
+                                return (
+                                  <>
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill={color} aria-hidden="true">
+                                      <path d="M12 2l7 3v6c0 4.42-2.99 8.36-7 9.5C7.99 19.36 5 15.42 5 11V5l7-3z" />
+                                    </svg>
+                                    TrustScore {ts}
+                                  </>
+                                );
+                              })()}
+                            </Link>
                           </div>
                           {(s as any).dosage && (
                             <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded mt-1 inline-block">{(s as any).dosage}</span>
@@ -976,7 +993,23 @@ export default function CompoundPageClient({
                     )}
                   </div>
                   <div className="flex items-center gap-1.5 mt-0.5">
-                    <span className="text-amber-500 text-xs">★ {vendor?.rating || "—"}</span>
+                    <span
+                      title="ViralPeps TrustScore — independent, never for sale"
+                      className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded-full"
+                    >
+                      {(() => {
+                        const ts = getTrustScore(s.vendor).score;
+                        const color = ts >= 80 ? "#16a34a" : ts >= 60 ? "#d97706" : ts >= 40 ? "#ea580c" : "#dc2626";
+                        return (
+                          <>
+                            <svg width="10" height="10" viewBox="0 0 24 24" fill={color} aria-hidden="true">
+                              <path d="M12 2l7 3v6c0 4.42-2.99 8.36-7 9.5C7.99 19.36 5 15.42 5 11V5l7-3z" />
+                            </svg>
+                            TrustScore {ts}
+                          </>
+                        );
+                      })()}
+                    </span>
                     {(s as any).dosage && (
                       <span className="text-[11px] text-gray-500 bg-gray-100 px-1.5 py-0.5 rounded">{(s as any).dosage}</span>
                     )}

@@ -6,6 +6,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import ProductImage from "@/components/ProductImage";
 import VendorLogo from "@/components/VendorLogo";
+import TrustScoreIcon from "@/components/TrustScoreIcon";
 import BreadcrumbList from "@/components/BreadcrumbList";
 import { getBreadcrumbs } from "@/data/breadcrumbs";
 import { getVendorStats } from "@/data/vendor-stats";
@@ -259,9 +260,9 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
 
                 {/* Stats row */}
                 <div className="flex flex-wrap items-center gap-x-5 gap-y-1 text-sm text-slate-300 mb-3">
-                  <span className="flex items-center gap-1">
-                    <StarIcon />
-                    <span className="text-amber-400 font-medium">{vendor.rating}</span>
+                  <span className="flex items-center gap-1" title="ViralPeps TrustScore — independent, never for sale">
+                    <TrustScoreIcon className="w-4 h-4" />
+                    <span className="text-slate-100 font-bold">{trust.score}<span className="text-slate-400 font-normal">/100 TrustScore</span></span>
                   </span>
                   <span className="flex items-center gap-1">
                     <BoxIcon />
