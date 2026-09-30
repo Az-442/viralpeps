@@ -32466,5 +32466,89 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://apexpure.co.uk/product/nad-uk/",
     "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-09-30T20:25:07.694Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://apexpure.co.uk/product/nad-uk/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-30T20:37:49.921Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://cmsrlabs.co/product/melanotan-ii/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs",
+    "visitorId": "2f3cde1602be36d3"
+  },
+  {
+    "ts": "2026-09-30T20:38:01.010Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://cmsrlabs.co/product/melanotan-ii/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs",
+    "visitorId": "3ab4adae49cdaa4e"
+  },
+  {
+    "ts": "2026-09-30T20:39:53.705Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ipamorelin-10mg/",
+    "visitorId": "0f560ed575b32d91"
+  },
+  {
+    "ts": "2026-09-30T20:39:57.623Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ipamorelin-10mg/",
+    "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-09-30T20:40:01.614Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ipamorelin-10mg/",
+    "visitorId": "c6b650ff68caeb19"
+  },
+  {
+    "ts": "2026-09-30T20:43:59.556Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pgnalabs.co.uk/product/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "71995f0d4c6c46d3"
+  },
+  {
+    "ts": "2026-09-30T20:53:10.850Z",
+    "type": "vendor-site",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "destUrl": "https://redpandapeptides.co.uk",
+    "visitorId": "ccdea89726cb2256"
+  },
+  {
+    "ts": "2026-09-30T21:10:57.210Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://cmsrlabs.co/product/selank-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs",
+    "visitorId": "3ea797b19f826ba9"
   }
 ]
