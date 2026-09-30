@@ -1,5 +1,6 @@
 import { RETA_SPOKES, getRetaStats, type RetaStats } from "@/data/retatrutide-silo";
 import { TIRZ_SPOKES, getTrizStats, type TrizStats } from "@/data/tirzepatide-silo";
+import { SEMA_SPOKES, getSemaStats, type SemaStats } from "@/data/semaglutide-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -58,6 +59,14 @@ export const SILOS: Silo[] = [
     spokes: TIRZ_SPOKES as unknown as SiloSpoke[],
     getStats: () => getTrizStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "semaglutide",
+    name: "Semaglutide",
+    blurb:
+      "GLP-1 receptor agonist buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: SEMA_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getSemaStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -73,4 +82,4 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats };
+export type { RetaStats, TrizStats, SemaStats };

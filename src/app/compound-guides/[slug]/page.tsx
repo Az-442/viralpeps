@@ -23,8 +23,25 @@ import {
   sortByTrust as trizSortByTrust,
   TIRZ_SPOKES,
 } from "@/data/tirzepatide-silo";
+import { spokes as semaSpokes, getSpoke as getSemaSpoke } from "@/data/semaglutide-spokes";
+import {
+  getSemaRows,
+  getSemaStats,
+  sortByPrice as semaSortByPrice,
+  sortByPricePerMg as semaSortByPricePerMg,
+  sortByTrust as semaSortByTrust,
+  SEMA_SPOKES,
+} from "@/data/semaglutide-silo";
 
 export const dynamic = "force-dynamic";
+
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide";
+
+const COMPOUND_NAMES: Record<CompoundKey, string> = {
+  retatrutide: "Retatrutide",
+  tirzepatide: "Tirzepatide",
+  semaglutide: "Semaglutide",
+};
 
 /** Resolve which compound a spoke slug belongs to. */
 function resolveSpoke(slug: string) {
@@ -32,11 +49,17 @@ function resolveSpoke(slug: string) {
   if (reta) return { spoke: reta, compound: "retatrutide" as const };
   const triz = getTrizSpoke(slug);
   if (triz) return { spoke: triz, compound: "tirzepatide" as const };
+  const sema = getSemaSpoke(slug);
+  if (sema) return { spoke: sema, compound: "semaglutide" as const };
   return null;
 }
 
 export async function generateStaticParams() {
-  return [...retaSpokes.map((s) => ({ slug: s.slug })), ...trizSpokes.map((s) => ({ slug: s.slug }))];
+  return [
+    ...retaSpokes.map((s) => ({ slug: s.slug })),
+    ...trizSpokes.map((s) => ({ slug: s.slug })),
+    ...semaSpokes.map((s) => ({ slug: s.slug })),
+  ];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -95,7 +118,7 @@ function BodyText({ text }: { text: string }) {
  * Retatrutide and Tirzepatide expose the same row shape, so the table component
  * is shared; only the row source and sorters differ.
  */
-function tableData(compound: "retatrutide" | "tirzepatide", spoke: Spoke) {
+function tableData(compound: CompoundKey, spoke: Spoke) {
   if (compound === "retatrutide") {
     const all = getRetaRows();
     let sorted = sortByPrice(all);
@@ -105,6 +128,20 @@ function tableData(compound: "retatrutide" | "tirzepatide", spoke: Spoke) {
       bestKey = sorted[0]?.key ?? null;
     } else if (spoke.tableMode === "trust") {
       sorted = sortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
+  if (compound === "semaglutide") {
+    const all = getSemaRows();
+    let sorted = semaSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = semaSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = semaSortByTrust(all);
       bestKey = null;
     }
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
@@ -131,13 +168,18 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
   const { spoke, compound } = found;
 
   const isReta = compound === "retatrutide";
-  const stats = isReta ? getRetaStats() : getTrizStats();
+  const stats =
+    compound === "retatrutide"
+      ? getRetaStats()
+      : compound === "semaglutide"
+        ? getSemaStats()
+        : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
-  const compoundName = isReta ? "Retatrutide" : "Tirzepatide";
-  const siblings: SiloSpoke[] = (isReta ? RETA_SPOKES : TIRZ_SPOKES).filter(
-    (s) => s.slug !== slug
-  ) as unknown as SiloSpoke[];
+  const compoundName = COMPOUND_NAMES[compound];
+  const spokeManifest =
+    compound === "retatrutide" ? RETA_SPOKES : compound === "semaglutide" ? SEMA_SPOKES : TIRZ_SPOKES;
+  const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema
   const faqSchema = {
