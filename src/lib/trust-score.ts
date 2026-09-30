@@ -115,11 +115,11 @@ export function getTrustScore(vendorName: string): TrustScoreBreakdown {
 // Single source of truth for the colour bands published on /trust-score
 // ("What a score means"). Any surface showing a TrustScore MUST use these so
 // the colour always matches the published band.
-//   90–100  Excellent Trust  — emerald-500
-//   75–89   High Trust       — green-100 / green-800
-//   60–74   Moderate Trust   — amber-100 / amber-800
-//   40–59   Limited Trust    — red-100 / red-800
-//   0–39    Low Trust        — red-100 / red-800
+//   86–100  Excellent Trust  — emerald-500
+//   65–85   High Trust       — green-100 / green-800
+//   45–64   Moderate Trust   — amber-100 / amber-800
+//   30–44   Limited Trust    — red-100 / red-800
+//   0–29    Low Trust        — red-100 / red-800
 export type TrustBand = {
   label: string;
   range: string;
@@ -130,17 +130,17 @@ export type TrustBand = {
 };
 
 export function getTrustBand(score: number): TrustBand {
-  if (score >= 90) {
-    return { label: "Excellent Trust", range: "90 – 100", className: "bg-emerald-500 text-white", hex: "#10b981" };
+  if (score >= 86) {
+    return { label: "Excellent Trust", range: "86 – 100", className: "bg-emerald-500 text-white", hex: "#10b981" };
   }
-  if (score >= 75) {
-    return { label: "High Trust", range: "75 – 89", className: "bg-green-100 text-green-800", hex: "#22a06b" };
+  if (score >= 65) {
+    return { label: "High Trust", range: "65 – 85", className: "bg-green-100 text-green-800", hex: "#22a06b" };
   }
-  if (score >= 60) {
-    return { label: "Moderate Trust", range: "60 – 74", className: "bg-amber-100 text-amber-800", hex: "#f59e0b" };
+  if (score >= 45) {
+    return { label: "Moderate Trust", range: "45 – 64", className: "bg-amber-100 text-amber-800", hex: "#f59e0b" };
   }
-  if (score >= 40) {
-    return { label: "Limited Trust", range: "40 – 59", className: "bg-red-100 text-red-800", hex: "#dc2626" };
+  if (score >= 30) {
+    return { label: "Limited Trust", range: "30 – 44", className: "bg-red-100 text-red-800", hex: "#dc2626" };
   }
-  return { label: "Low Trust", range: "0 – 39", className: "bg-red-100 text-red-800", hex: "#b91c1c" };
+  return { label: "Low Trust", range: "0 – 29", className: "bg-red-100 text-red-800", hex: "#b91c1c" };
 }

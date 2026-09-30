@@ -8,11 +8,11 @@ export const metadata = {
 };
 
 const bands = [
-  { range: "90 – 100", label: "Excellent Trust", color: "bg-emerald-500 text-white", desc: "Fully verified business, published third-party COAs, strong genuine reviews and clear research-use-only labelling." },
-  { range: "75 – 89", label: "High Trust", color: "bg-green-100 text-green-800", desc: "Verifiable company and contact, most trust signals confirmed, little cause for concern." },
-  { range: "60 – 74", label: "Moderate Trust", color: "bg-amber-100 text-amber-800", desc: "Some signals confirmed but gaps remain — check the breakdown before you buy." },
-  { range: "40 – 59", label: "Limited Trust", color: "bg-red-100 text-red-800", desc: "Fewer verifiable signals. Higher risk — proceed with caution." },
-  { range: "0 – 39", label: "Low Trust", color: "bg-red-100 text-red-800", desc: "Little verifiable evidence or concerning red flags. Tread very carefully." },
+  { range: "86 – 100", label: "Excellent Trust", color: "bg-emerald-500 text-white", desc: "Fully verified business, published third-party COAs, strong genuine reviews and clear research-use-only labelling." },
+  { range: "65 – 85", label: "High Trust", color: "bg-green-100 text-green-800", desc: "Verifiable company and contact, most trust signals confirmed, little cause for concern." },
+  { range: "45 – 64", label: "Moderate Trust", color: "bg-amber-100 text-amber-800", desc: "Some signals confirmed but gaps remain — check the breakdown before you buy." },
+  { range: "30 – 44", label: "Limited Trust", color: "bg-red-100 text-red-800", desc: "Fewer verifiable signals. Higher risk — proceed with caution." },
+  { range: "0 – 29", label: "Low Trust", color: "bg-red-100 text-red-800", desc: "Little verifiable evidence or concerning red flags. Tread very carefully." },
 ];
 
 const signals = [
