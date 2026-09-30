@@ -31443,5 +31443,42 @@
     "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "310ff6432fdfc189"
+  },
+  {
+    "ts": "2026-09-30T05:16:23.147Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "3ac2b8c1a63113f9"
+  },
+  {
+    "ts": "2026-09-30T05:16:25.102Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "25bc2423a8765024"
+  },
+  {
+    "ts": "2026-09-30T05:16:27.536Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-30T05:48:04.657Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://cmsrlabs.co/product/semax-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs",
+    "visitorId": "cfec2392f6f80348"
   }
 ]
