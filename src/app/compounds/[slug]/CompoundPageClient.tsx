@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import ProductImage from "@/components/ProductImage";
 import compoundTabs, { getBaseCompoundSlug } from "@/data/compound-tabs";
-import { getTrustScore } from "@/lib/trust-score";
+import { getTrustScore, getTrustBand } from "@/lib/trust-score";
 
 // ── Types ──
 interface Source {
@@ -847,14 +847,14 @@ export default function CompoundPageClient({
                               href={`/vendors/${vendor?.slug || ""}`}
                               onClick={(e) => e.stopPropagation()}
                               title="ViralPeps TrustScore — independent, never for sale"
-                              className="inline-flex items-center gap-1 text-[12px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full hover:bg-slate-200 transition-colors"
+                              className={`inline-flex items-center gap-1 text-[12px] font-bold px-2 py-0.5 rounded-full hover:opacity-90 transition-opacity ${getTrustBand(getTrustScore(s.vendor).score).className}`}
                             >
                               {(() => {
                                 const ts = getTrustScore(s.vendor).score;
-                                const color = ts >= 80 ? "#16a34a" : ts >= 60 ? "#d97706" : ts >= 40 ? "#ea580c" : "#dc2626";
+                                const band = getTrustBand(ts);
                                 return (
                                   <>
-                                    <svg width="12" height="12" viewBox="0 0 24 24" fill={color} aria-hidden="true">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill={band.hex} aria-hidden="true">
                                       <path d="M12 2l7 3v6c0 4.42-2.99 8.36-7 9.5C7.99 19.36 5 15.42 5 11V5l7-3z" />
                                     </svg>
                                     TrustScore {ts}
@@ -995,14 +995,14 @@ export default function CompoundPageClient({
                   <div className="flex items-center gap-1.5 mt-0.5">
                     <span
                       title="ViralPeps TrustScore — independent, never for sale"
-                      className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded-full"
+                      className={`inline-flex items-center gap-1 text-[11px] font-bold px-1.5 py-0.5 rounded-full ${getTrustBand(getTrustScore(s.vendor).score).className}`}
                     >
                       {(() => {
                         const ts = getTrustScore(s.vendor).score;
-                        const color = ts >= 80 ? "#16a34a" : ts >= 60 ? "#d97706" : ts >= 40 ? "#ea580c" : "#dc2626";
+                        const band = getTrustBand(ts);
                         return (
                           <>
-                            <svg width="10" height="10" viewBox="0 0 24 24" fill={color} aria-hidden="true">
+                            <svg width="10" height="10" viewBox="0 0 24 24" fill={band.hex} aria-hidden="true">
                               <path d="M12 2l7 3v6c0 4.42-2.99 8.36-7 9.5C7.99 19.36 5 15.42 5 11V5l7-3z" />
                             </svg>
                             TrustScore {ts}
@@ -1044,14 +1044,14 @@ export default function CompoundPageClient({
                     href={`/vendors/${vendor?.slug || ""}`}
                     onClick={(e) => e.stopPropagation()}
                     title="ViralPeps TrustScore — independent, never for sale"
-                    className="text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full inline-flex items-center gap-1 hover:bg-slate-200 transition-colors"
+                    className={`text-[11px] font-bold px-2 py-0.5 rounded-full inline-flex items-center gap-1 hover:opacity-90 transition-opacity ${getTrustBand(getTrustScore(s.vendor).score).className}`}
                   >
                     {(() => {
                       const ts = getTrustScore(s.vendor).score;
-                      const color = ts >= 80 ? "#16a34a" : ts >= 60 ? "#d97706" : ts >= 40 ? "#ea580c" : "#dc2626";
+                      const band = getTrustBand(ts);
                       return (
                         <>
-                          <svg width="11" height="11" viewBox="0 0 24 24" fill={color} aria-hidden="true">
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill={band.hex} aria-hidden="true">
                             <path d="M12 2l7 3v6c0 4.42-2.99 8.36-7 9.5C7.99 19.36 5 15.42 5 11V5l7-3z" />
                           </svg>
                           TrustScore {ts}

@@ -10,7 +10,7 @@ import VendorLogo from "@/components/VendorLogo";
 import { PEPTIDE_COUNT } from "@/data/stats";
 import { ALL_VENDOR_STATS, ALL_VISIBLE_COUNTS } from "@/data/vendor-stats";
 import { JsonLd, itemList } from "@/components/JsonLd";
-import { getTrustScore } from "@/lib/trust-score";
+import { getTrustScore, getTrustBand } from "@/lib/trust-score";
 
 function CheckIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -269,14 +269,14 @@ export default function VendorsPage() {
                       <div className="flex items-center gap-2 mt-0.5">
                         <span
                           title="ViralPeps TrustScore — independent, never for sale"
-                          className="inline-flex items-center gap-1 text-[12px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full"
+                          className={`inline-flex items-center gap-1 text-[12px] font-bold px-2 py-0.5 rounded-full ${getTrustBand(getTrustScore(v.name).score).className}`}
                         >
                           {(() => {
                             const ts = getTrustScore(v.name).score;
-                            const color = ts >= 80 ? "#16a34a" : ts >= 60 ? "#d97706" : ts >= 40 ? "#ea580c" : "#dc2626";
+                            const band = getTrustBand(ts);
                             return (
                               <>
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill={color} aria-hidden="true">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill={band.hex} aria-hidden="true">
                                   <path d="M12 2l7 3v6c0 4.42-2.99 8.36-7 9.5C7.99 19.36 5 15.42 5 11V5l7-3z" />
                                 </svg>
                                 TrustScore {ts}
