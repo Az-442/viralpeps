@@ -31546,5 +31546,33 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://bebetterpeptides.com/products/buy-ghk-cu-50mg",
     "visitorId": "b5d47b277dc6e8d3"
+  },
+  {
+    "ts": "2026-09-30T08:55:19.574Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bebetterpeptides.com/products/buy-ghk-cu-50mg",
+    "visitorId": "1b78876bade99977"
+  },
+  {
+    "ts": "2026-09-30T08:55:21.337Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bebetterpeptides.com/products/buy-ghk-cu-50mg",
+    "visitorId": "4f867bafc3beff09"
+  },
+  {
+    "ts": "2026-09-30T10:01:55.034Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "748ae1b55d37cefd"
   }
 ]
