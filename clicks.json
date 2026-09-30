@@ -31684,5 +31684,126 @@
     "compoundSlug": "mazdutide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
     "visitorId": "d75c22972c906373"
+  },
+  {
+    "ts": "2026-09-30T12:53:06.097Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://peptx.co.uk/single-vials/mazdutide",
+    "visitorId": "d75c22972c906373"
+  },
+  {
+    "ts": "2026-09-30T12:53:23.553Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "02b14c2766709225"
+  },
+  {
+    "ts": "2026-09-30T12:57:39.849Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "2ea91db9b34b9531"
+  },
+  {
+    "ts": "2026-09-30T13:02:25.837Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/84-thymosin-alpha-1-10mg.html",
+    "visitorId": "7a0bff299db6c84a"
+  },
+  {
+    "ts": "2026-09-30T13:02:27.973Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/84-thymosin-alpha-1-10mg.html",
+    "visitorId": "9acb08b64c4c0fa3"
+  },
+  {
+    "ts": "2026-09-30T13:02:30.057Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/84-thymosin-alpha-1-10mg.html",
+    "visitorId": "4b2a45d09ba8c6e3"
+  },
+  {
+    "ts": "2026-09-30T13:10:14.114Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fae0de1a591c79cd"
+  },
+  {
+    "ts": "2026-09-30T13:10:19.014Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2cd3f7e24544bedf"
+  },
+  {
+    "ts": "2026-09-30T13:11:28.547Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-30T13:11:32.773Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-09-30T13:11:34.639Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "visitorId": "774a11ac34174d7b"
+  },
+  {
+    "ts": "2026-09-30T13:11:36.755Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b6ffd793857d51b9"
+  },
+  {
+    "ts": "2026-09-30T13:25:16.190Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://cmsrlabs.co/product/retatrutide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs",
+    "visitorId": "429bf1f874736cd1"
   }
 ]
