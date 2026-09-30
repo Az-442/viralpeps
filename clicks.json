@@ -30874,5 +30874,41 @@
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
     "visitorId": "972855e9da0dfeae"
+  },
+  {
+    "ts": "2026-09-30T01:18:31.666Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-09-30T01:18:34.887Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-09-30T01:27:11.270Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bam15",
+    "destUrl": "https://phoenixbiolabs.net/shop/bam15/",
+    "visitorId": "46d65d76c1272dd0"
+  },
+  {
+    "ts": "2026-09-30T02:04:10.715Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-beta-4-tb500-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/",
+    "visitorId": "8c40c57e7226d6ae"
   }
 ]
