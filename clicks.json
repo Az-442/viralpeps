@@ -30928,5 +30928,99 @@
     "compoundSlug": "selank-semax-blend",
     "destUrl": "https://alphamino.co.uk/shop/selank/",
     "visitorId": "a2e11f4febedc759"
+  },
+  {
+    "ts": "2026-09-30T02:56:08.819Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/semax-selank/",
+    "visitorId": "f5af0c387913046f"
+  },
+  {
+    "ts": "2026-09-30T03:07:15.589Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://www.peptifyuk.com/product/selank-semax-blend-20mg",
+    "visitorId": "893840eaa0d6b495"
+  },
+  {
+    "ts": "2026-09-30T03:12:41.859Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b3aaefa497e2a27c"
+  },
+  {
+    "ts": "2026-09-30T03:12:44.610Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://olresearch.co.uk/product/nad-500mg/",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-09-30T03:12:46.814Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://olresearch.co.uk/product/nad-500mg/",
+    "visitorId": "f380ed2f38200055"
+  },
+  {
+    "ts": "2026-09-30T03:12:49.157Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://olresearch.co.uk/product/nad-500mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-30T03:12:49.694Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ef18b315601bda9e"
+  },
+  {
+    "ts": "2026-09-30T03:13:37.295Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://midshirelabs.co.uk/products/glow50/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b7d5bc7437cd07d4"
+  },
+  {
+    "ts": "2026-09-30T03:13:43.525Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://midshirelabs.co.uk/products/glow50/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b1532e8d23007887"
+  },
+  {
+    "ts": "2026-09-30T03:21:14.721Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial",
+    "visitorId": "9a901ea3eb0a3357"
   }
 ]
