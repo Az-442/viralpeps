@@ -32017,5 +32017,49 @@
     "destUrl": "https://www.novapeptide.co.uk/product/tesamorelin/",
     "refPage": "https://ahrefs.com/",
     "visitorId": "b964a5747af9132e"
+  },
+  {
+    "ts": "2026-09-30T16:18:25.331Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/tesamorelin-5mg/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-09-30T16:18:32.731Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/tesamorelin-5mg/",
+    "visitorId": "ab835b2313933276"
+  },
+  {
+    "ts": "2026-09-30T16:30:43.494Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://purepeptidesuk.com/product/ghrp-2-5mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-09-30T16:30:45.301Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://purepeptidesuk.com/product/ghrp-2-5mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-30T16:38:57.182Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "22d021cea30f2a50"
   }
 ]
