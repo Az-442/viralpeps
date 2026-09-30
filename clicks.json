@@ -31379,5 +31379,69 @@
     "vendorName": "Bio Peptides UK",
     "destUrl": "https://biopeptides-uk.com",
     "visitorId": "a2e2a445ac60a445"
+  },
+  {
+    "ts": "2026-09-30T04:35:41.251Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "visitorId": "df2479e135ee5c06"
+  },
+  {
+    "ts": "2026-09-30T04:36:26.792Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/vial",
+    "visitorId": "727b76cfb76a3bda"
+  },
+  {
+    "ts": "2026-09-30T04:54:33.778Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://reta-uk.com/products/klow",
+    "visitorId": "3ac2b8c1a63113f9"
+  },
+  {
+    "ts": "2026-09-30T04:54:37.145Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://reta-uk.com/products/klow",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-09-30T04:54:39.464Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://reta-uk.com/products/klow",
+    "visitorId": "1941c071de5eb651"
+  },
+  {
+    "ts": "2026-09-30T04:56:28.349Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidesuk4u.co.uk/product/bacteriostatic-water-10ml",
+    "visitorId": "7c0b97194505c326"
+  },
+  {
+    "ts": "2026-09-30T05:11:41.218Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "310ff6432fdfc189"
   }
 ]
