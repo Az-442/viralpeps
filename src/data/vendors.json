@@ -4507,5 +4507,61 @@
       },
       "checkedAt": "2026-09-29T23:40:24.944Z"
     }
+  },
+  {
+    "id": "phoenix-biolabs",
+    "name": "Phoenix BioLabs",
+    "slug": "phoenix-biolabs",
+    "website": "https://phoenixbiolabs.net",
+    "rating": 4.6,
+    "verified": false,
+    "country": "UK",
+    "description": "Phoenix BioLabs is a UK-based supplier of lyophilised research compounds selling through its own WooCommerce store, phoenixbiolabs.net. The catalogue spans metabolic and GLP-1-adjacent research (5-Amino-1MQ, BAM15, L-carnitine, Lipo-C, SLU-PP-332), growth-hormone secretagogue research (ipamorelin, CJC-1295 with and without DAC, tesamorelin, sermorelin, CJC-1295 + ipamorelin, tesamorelin + ipamorelin), repair and healing research (BPC-157, TB-500, BPC-157 + TB-500 blends), skin and collagen research (GHK-Cu, GLOW, KLOW), mitochondrial and longevity research (MOTS-c, SS-31, NAD+, epitalon, FOXO4-DRI, glutathione, ARA-290), cognitive research (semax, selank, selank + semax), sleep research (DSIP), melanocortin research (PT-141) and reconstitution accessories. Compounds are supplied as standard vials, as premixed prefilled research pens, and in some cases as research capsules or bundles. Every product page states that the material is supplied strictly for in-vitro laboratory research use only and is not intended for human or veterinary use, and third-party Certificates of Analysis hosted by the testing laboratory are published on a dedicated COA page covering 15 compounds. Products are posted from within the UK with free shipping on orders over GBP50.",
+    "highlights": [
+      "Third-party Certificates of Analysis published on a dedicated COA page (15 compounds listed)",
+      "Every batch independently analysed, with batch-level verification documentation",
+      "Strict research-use-only policy stated on every product page - not for human or veterinary use",
+      "Free UK shipping on orders over GBP50",
+      "Vial, premixed prefilled pen, capsule and bundle formats available",
+      "UK-based despatch with order tracking supplied on dispatch",
+      "14-day replacement promise for verified quality concerns",
+      "Card payment via SSL-encrypted trusted payment providers"
+    ],
+    "email": "sales@phoenixbiolabs.net",
+    "delivery": "Despatched from the UK - free shipping on orders over GBP50 (a free-delivery progress bar is shown on the store). Tracked UK delivery; a tracking number is issued in the shipping confirmation email and orders can be tracked on the site's Shipment Tracking page. The exact courier, the paid shipping rate below the GBP50 threshold and the headline delivery timeframe are not stated on the site. Described as fast and discreet UK delivery. Risk of loss passes to the buyer when goods are handed to the carrier, and delivery times are stated as estimates only.",
+    "shipping": [
+      "Free shipping on orders over GBP50",
+      "Tracked UK delivery - tracking number sent in the shipping confirmation email",
+      "Order tracking lookup available on the site's Shipment Tracking page",
+      "UK-based despatch, described as fast and discreet",
+      "Paid shipping rate below the GBP50 threshold not stated on the site",
+      "Courier and headline delivery timeframe not stated on the site",
+      "Risk of loss passes to buyer on handover to the carrier; delivery times are estimates only"
+    ],
+    "payment": [
+      "Visa",
+      "Mastercard",
+      "SSL-encrypted trusted payment providers"
+    ],
+    "lastTested": "2026-09-30",
+    "labTested": true,
+    "contactNote": "Contact form on the Contact page plus published email addresses: sales@phoenixbiolabs.net (general/orders) and customerservices@phoenixbiolabs.net (refunds and damaged/incorrect items). Returns policy requires written notification within 3 business days of delivery with photographic evidence; all research compounds are non-returnable once shipped except in cases of verified damage or error. 14-day replacement promise shown on the contact page. £50+/month-close discount code PBL15 was displayed at time of onboarding. Products also sold via an EU storefront (eu.phoenixbiolabs.net) in DE/EL/ES/FR/IT/PT. Age and research-use confirmation gate on site entry.",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "for research purposes",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-09-30T00:38:46.939Z"
+    }
   }
 ]
