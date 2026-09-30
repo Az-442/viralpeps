@@ -32439,5 +32439,32 @@
     "compoundSlug": "pt-141",
     "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
     "visitorId": "b9f9098ea6b7b332"
+  },
+  {
+    "ts": "2026-09-30T19:51:23.508Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://jgpeptidesplus.com/product/retatrutide-5mg/",
+    "visitorId": "687d1ebdc62f3821"
+  },
+  {
+    "ts": "2026-09-30T19:52:46.061Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/retatrutide-10mg/",
+    "visitorId": "687d1ebdc62f3821"
+  },
+  {
+    "ts": "2026-09-30T20:25:01.951Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://apexpure.co.uk/product/nad-uk/",
+    "visitorId": "0b59748343b57175"
   }
 ]
