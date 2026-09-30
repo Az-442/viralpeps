@@ -31889,5 +31889,95 @@
     "compoundSlug": "oxytocin",
     "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
     "visitorId": "33a062f635a6bb32"
+  },
+  {
+    "ts": "2026-09-30T14:05:33.280Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
+    "visitorId": "cb942f26267cf965"
+  },
+  {
+    "ts": "2026-09-30T14:06:54.442Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://pgnalabs.co.uk/product/selank",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "2694abdaea54de53"
+  },
+  {
+    "ts": "2026-09-30T14:23:32.314Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-09-30T14:23:37.848Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/",
+    "visitorId": "a16f0e6057fa3034"
+  },
+  {
+    "ts": "2026-09-30T14:23:41.888Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-09-30T14:25:13.824Z",
+    "type": "vendor-site",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "destUrl": "https://pslabs.uk",
+    "visitorId": "76ecf76f60fee0c4"
+  },
+  {
+    "ts": "2026-09-30T14:32:28.952Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://britpeptides.co.uk/product/ipamorelin-10mg-cjc-1295-without-dac-10mg-disposable-pen/",
+    "visitorId": "f1c6c3af2910efb1"
+  },
+  {
+    "ts": "2026-09-30T14:32:34.448Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://britpeptides.co.uk/product/ipamorelin-10mg-cjc-1295-without-dac-10mg-disposable-pen/",
+    "visitorId": "a219d160c1c2ab33"
+  },
+  {
+    "ts": "2026-09-30T14:32:38.719Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://britpeptides.co.uk/product/ipamorelin-10mg-cjc-1295-without-dac-10mg-disposable-pen/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-09-30T14:44:08.077Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://phoenixbiolabs.net/shop/glutathione-1500mg-prefilled-premixed-pen-research-compound-copy/",
+    "visitorId": "b9f9098ea6b7b332"
   }
 ]
