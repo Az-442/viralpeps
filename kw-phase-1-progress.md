@@ -499,20 +499,100 @@ both listed on `/research`, and both present in their compounds' Research Librar
 
 ---
 
-## Next up
-**Day 12 — Sun 27 Sep (3 articles)**
+## Day 12 — Sun 27 Sep (3 articles) ✅ DONE
+Completed 30 Sep 03:00 by daily blog cron (main branch, direct).
+
 - `kpv-vs-thymosin-alpha1` — **kpv** (vs) — section: comparisons,
-  compoundSlug: kpv, compoundSlug2: thymosin-alpha1
+  compoundSlug: kpv, compoundSlug2: thymosin-alpha-1
 - `epitalon-deep-dive` — **epitalon** (deep) — section: peptides, compoundSlug: epitalon
 - `ghk-cu-suppliers-uk` — **ghk-cu suppliers UK** (suppliers) — section: research-hub,
   compoundSlug: ghk-cu
 
-None of the three slugs exist yet. **Check `thymosin-alpha1` exists in `compounds.json`
-before setting `compoundSlug2`** — the Thymosin Alpha-1 *article* was removed on 28 Jul 2026
-and the Day-9 notes list `/research/thymosin-alpha1-research-summary` as a known unresolved
-forward-link, so verify the compound slug separately from the article slug.
-Re-check both quote formats AND the `slug:` field form before writing, and remember
-`category` in `research.ts` is `'Guide'` singular for guide-type articles.
+Cards:
+- `public/images/guides/kpv-vs-thymosin-alpha1.png` — Pillow dual-vial 50%-height
+  (KPV + Thymosin Alpha-1), badge "Head-to-Head Comparison"
+- `public/images/guides/epitalon-deep-dive.png` — Pillow single-vial 75%-height
+  (epitalon-vial), badge "Deep Dive Report"
+- `public/images/guides/ghk-cu-suppliers-uk.png` — Pillow single-vial 75%-height
+  (ghk-cu-vial), badge "Supplier Guide"
+
+Card script: `scripts/make_kw_phase1_day12_cards.py` (shared draw_guide_card template).
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,029 / 2,042 / 2,276
+
+Build: passed (180/180 pages). All 13 internal links verified against `compounds.json`
+slugs and live `research.ts` / `research-content.ts` keys — 0 broken.
+**43 PMIDs verified individually via NCBI E-utilities esummary** (title + journal +
+author + year matched for every one). All 135 guide card `image:` refs cross-checked
+against disk: OK.
+
+Commit: `f9042a1f` · pushed to main (0 unpushed).
+
+### ⚠️ Lessons from this run
+1. **The `thymosin-alpha1` slug does NOT exist — the compound slug is `thymosin-alpha-1`
+   (with a hyphen before the 1).** The Next progress note in this file said to check
+   `thymosin-alpha1`; that string is only a *variant product* slug
+   (`thymosin-alpha1-vial-express`, `thymosin-alpha1-pen-express`), while the master
+   compound is `thymosin-alpha-1` (38 sources). The corresponding VIAL file IS named
+   `thymosin-alpha1-vial.png` (no hyphen). Do not assume the compound slug and the vial
+   filename match — verify both separately.
+2. **The `research-content.ts` seam in the Day-4/5/6/7/8/9/10/11 notes is WRONG for the
+   current file — the `],` line has NO leading indent.** The working seam this run was
+   `"]," + NL + "}," + NL + NL + "};" + NL + "export default content;"` (matches exactly 1).
+   The notes' `"  ],"` form (2-space indent) matches **0**. The actual tail is
+   `...PMID 31293078',\n  ],\n},\n\n};\nexport default content;`. Always re-probe the seam
+   with a variant-matching script before merging; do not trust the note.
+3. **`research.ts` guides-array anchor confirmed:** `"  },\n];\n\nexport const compoundList"`
+   matches exactly once. Replacement = keep `"  },\n"`, insert the blocks, append `",\n];\n\nexport const compoundList"`.
+4. **A dual-vial card title overflows far sooner than expected — the Day-8 note is right
+   and it bit again.** "KPV vs Thymosin Alpha-1" auto-wrapped on `" vs "` into
+   `KPV` + `vs Thymosin Alpha-1` = **423px against 395px available → 28px clipped**.
+   Fixed by shortening the title to **"KPV vs Tα1"** (231px) and moving the full compound
+   name into the description's first line. **Measure with `draw.textlength()` before
+   generating any 2-vial card** — the template's auto-wrap only splits on `" vs "` and
+   does NOT re-measure the second half.
+5. **Vision QA on the card sheet was unreliable this run — measure programmatically.**
+   The vision tool reported clipped headlines, truncated body copy and vial-label overlap
+   that did not exist, and misread the badges (claimed the KPV card badge read
+   "Comparisons"). Measuring every text run against `card_w - text_left - 25` with
+   `draw.textlength()` found the one real defect (item 4) and cleared the rest. Use the
+   vision tool for "is the vial the right compound", and pixel arithmetic for fit.
+6. **`write_file` DID double escapes this run — 2-backslash runs before `n` in all three
+   fragments** (30/34/44 occurrences). Normaliser (`(\\{2,})n` → `\n`, same for `'`/`"`)
+   ran on every fragment and reported clean afterwards. Two real apostrophe bugs were also
+   caught by the pre-merge `tsc` gate: `Lin'kina` and `Sopel'` in Epitalon reference
+   author names needed `\'`. **Wrap each fragment as `const x: ResearchPageContent = {...}`
+   and run the project's own `tsc --noEmit` before merging** — this caught both.
+7. **One broken forward-link caught and fixed before publish.**
+   `/research/ghk-cu-vs-ahk-cu` does not exist (it is planned for Day 25) — replaced with
+   `/research/ghkcu-deep-dive`, which is live. The GHK-Cu slug family in `research.ts` /
+   `research-content.ts` uses the compact form (`ghkcu-deep-dive`, `ghkcu-vs-retinol`,
+   `ghkcu-research-summary`, `ghkcu-vs-bpc157`), NOT `ghk-cu-*`. Note that `research.ts`
+   contains some slugs with NO corresponding `research-content.ts` entry
+   (`ghkcu-deep-dive`, `ghkcu-vs-retinol`) — they still resolve 200, so the registry is
+   the right place to check link validity, not `research-content.ts` alone.
+8. **Do not link planned-but-unwritten articles.** The Day-9 note listed four unresolved
+   forward-links in pre-existing content; this run's first draft added a fifth. Always run
+   the link validator against `compounds.json` + BOTH quote formats in `research.ts` +
+   `research-content.ts` before merging.
+
+---
+
+## Next up
+**Day 13 — Mon 28 Sep (2 articles)**
+- `cardiogen-for-heart-health` — **cardiogen** (for) — section: goals, compoundSlug: cardiogen
+- `aod-9604-suppliers-uk` — **aod-9604 suppliers UK** (suppliers) — section: research-hub,
+  compoundSlug: aod-9604
+
+Neither slug exists yet. Both are `(for)`/`(suppliers)` types — `goals` for the first,
+flat `research-hub` for the second (matching Days 3/4/6/9/10). Check `aod-9604` and
+`cardiogen` exist in `compounds.json` before setting `compoundSlug` (note AOD has
+variant-slug cousins such as `aod-fragments`; verify the master).
+
+Re-check the seam by variant-matching (it currently has NO indent on `],`), re-check both
+quote formats AND the `slug:` field form before writing, and remember `category` in
+`research.ts` is `'Guide'` or `'Compound Profiles'` singular.
 
 ---
 
