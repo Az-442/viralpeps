@@ -32,15 +32,25 @@ import {
   sortByTrust as semaSortByTrust,
   SEMA_SPOKES,
 } from "@/data/semaglutide-silo";
+import { spokes as semaxSpokes, getSpoke as getSemaxSpoke } from "@/data/semax-spokes";
+import {
+  getSemaxRows,
+  getSemaxStats,
+  sortByPrice as semaxSortByPrice,
+  sortByPricePerMg as semaxSortByPricePerMg,
+  sortByTrust as semaxSortByTrust,
+  SEMAX_SPOKES,
+} from "@/data/semax-silo";
 
 export const dynamic = "force-dynamic";
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
   tirzepatide: "Tirzepatide",
   semaglutide: "Semaglutide",
+  semax: "Semax",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -51,6 +61,8 @@ function resolveSpoke(slug: string) {
   if (triz) return { spoke: triz, compound: "tirzepatide" as const };
   const sema = getSemaSpoke(slug);
   if (sema) return { spoke: sema, compound: "semaglutide" as const };
+  const semax = getSemaxSpoke(slug);
+  if (semax) return { spoke: semax, compound: "semax" as const };
   return null;
 }
 
@@ -59,6 +71,7 @@ export async function generateStaticParams() {
     ...retaSpokes.map((s) => ({ slug: s.slug })),
     ...trizSpokes.map((s) => ({ slug: s.slug })),
     ...semaSpokes.map((s) => ({ slug: s.slug })),
+    ...semaxSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -147,6 +160,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "semax") {
+    const all = getSemaxRows();
+    let sorted = semaxSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = semaxSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = semaxSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -173,12 +200,20 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
       ? getRetaStats()
       : compound === "semaglutide"
         ? getSemaStats()
-        : getTrizStats();
+        : compound === "semax"
+          ? getSemaxStats()
+          : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
   const compoundName = COMPOUND_NAMES[compound];
   const spokeManifest =
-    compound === "retatrutide" ? RETA_SPOKES : compound === "semaglutide" ? SEMA_SPOKES : TIRZ_SPOKES;
+    compound === "retatrutide"
+      ? RETA_SPOKES
+      : compound === "semaglutide"
+        ? SEMA_SPOKES
+        : compound === "semax"
+          ? SEMAX_SPOKES
+          : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema

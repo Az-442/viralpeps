@@ -1,6 +1,7 @@
 import { RETA_SPOKES, getRetaStats, type RetaStats } from "@/data/retatrutide-silo";
 import { TIRZ_SPOKES, getTrizStats, type TrizStats } from "@/data/tirzepatide-silo";
 import { SEMA_SPOKES, getSemaStats, type SemaStats } from "@/data/semaglutide-silo";
+import { SEMAX_SPOKES, getSemaxStats, type SemaxStats } from "@/data/semax-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -67,6 +68,14 @@ export const SILOS: Silo[] = [
     spokes: SEMA_SPOKES as unknown as SiloSpoke[],
     getStats: () => getSemaStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "semax",
+    name: "Semax",
+    blurb:
+      "ACTH(4-10) heptapeptide buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: SEMAX_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getSemaxStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -82,4 +91,4 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats };
