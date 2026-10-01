@@ -534,5 +534,299 @@
     "compoundSlug": "vip",
     "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
     "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-10-01T05:22:22.840Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
+    "visitorId": "72904ad4e06d512b"
+  },
+  {
+    "ts": "2026-10-01T05:22:24.231Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
+    "visitorId": "0e5dcece0d734a2d"
+  },
+  {
+    "ts": "2026-10-01T05:23:26.255Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bionikpeptides.com/products/vesugen",
+    "refPage": "https://www.viralpeps.co.uk/compounds/vesugen",
+    "visitorId": "b3c64447559cdc77"
+  },
+  {
+    "ts": "2026-10-01T05:25:17.998Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://helixcore.co.uk/products/kisspeptin-10",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "4904809bb981ad35"
+  },
+  {
+    "ts": "2026-10-01T05:25:22.353Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://helixcore.co.uk/products/kisspeptin-10",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "d7d6445228d9a5a7"
+  },
+  {
+    "ts": "2026-10-01T05:26:20.747Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-01T05:26:24.952Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-01T05:26:27.884Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/",
+    "visitorId": "451d7b6a031c33d6"
+  },
+  {
+    "ts": "2026-10-01T05:30:18.886Z",
+    "type": "vendor-site",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "destUrl": "https://rawpeptides.co.uk",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-10-01T05:30:23.046Z",
+    "type": "vendor-site",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "destUrl": "https://rawpeptides.co.uk",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-01T05:31:52.280Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.peptidesonline.uk/shop/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e2b168a9b9d96dac"
+  },
+  {
+    "ts": "2026-10-01T05:33:41.165Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.revexa.co.uk/product-page/klow-blend-peptide-complex-80mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "b0ea682cee8f79ea"
+  },
+  {
+    "ts": "2026-10-01T05:34:06.380Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7e9b8238ee126137"
+  },
+  {
+    "ts": "2026-10-01T05:36:10.310Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pgnalabs.co.uk/product/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "f5d52654197889a2"
+  },
+  {
+    "ts": "2026-10-01T05:38:17.472Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://precision-peptides.shop/product/klow-80mg/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-10-01T05:38:21.352Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://precision-peptides.shop/product/klow-80mg/",
+    "visitorId": "1eb3230d1df9a94f"
+  },
+  {
+    "ts": "2026-10-01T05:38:25.366Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://precision-peptides.shop/product/klow-80mg/",
+    "visitorId": "451d7b6a031c33d6"
+  },
+  {
+    "ts": "2026-10-01T05:41:11.171Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pgnalabs.co.uk/product/bpc-tb-10mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "94e3e2f798f5d10f"
+  },
+  {
+    "ts": "2026-10-01T05:41:27.378Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pgnalabs.co.uk/product/bpc-tb-10mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "0bde1f1dcab26f62"
+  },
+  {
+    "ts": "2026-10-01T05:41:32.342Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://cmsrlabs.co/product/retatrutide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs",
+    "visitorId": "e856f12480e0483f"
+  },
+  {
+    "ts": "2026-10-01T05:46:35.047Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.testedpeptides.co.uk/product/l-glutathione-600mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/glutathione",
+    "visitorId": "7abbbf5b37ba1442"
+  },
+  {
+    "ts": "2026-10-01T05:47:11.116Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://precision-peptides.shop/product/ll-37-5mg-no-packaging/",
+    "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-10-01T05:47:15.079Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://precision-peptides.shop/product/ll-37-5mg-no-packaging/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-01T05:47:19.232Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://precision-peptides.shop/product/ll-37-5mg-no-packaging/",
+    "visitorId": "9ffadbddcfa84224"
+  },
+  {
+    "ts": "2026-10-01T05:48:49.513Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://vialverse.com/peptides/snap-8",
+    "refPage": "https://www.viralpeps.co.uk/compounds/snap-8",
+    "visitorId": "aebca58f45ed587a"
+  },
+  {
+    "ts": "2026-10-01T05:48:52.168Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://vialverse.com/peptides/snap-8",
+    "refPage": "https://www.viralpeps.co.uk/compounds/snap-8",
+    "visitorId": "0540e3e22029dbc9"
+  },
+  {
+    "ts": "2026-10-01T05:48:53.690Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
+    "visitorId": "7d509e89451c19af"
+  },
+  {
+    "ts": "2026-10-01T05:48:54.749Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://vialverse.com/peptides/snap-8",
+    "refPage": "https://www.viralpeps.co.uk/compounds/snap-8",
+    "visitorId": "8049affd96f6d8a6"
+  },
+  {
+    "ts": "2026-10-01T05:48:55.988Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
+    "visitorId": "56deb68efd942283"
+  },
+  {
+    "ts": "2026-10-01T05:49:02.692Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
+    "visitorId": "b2b9b8a96df8b3ad"
+  },
+  {
+    "ts": "2026-10-01T05:54:11.755Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/",
+    "visitorId": "7fc560120f7431e6"
   }
 ]
