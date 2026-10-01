@@ -1558,5 +1558,128 @@
     "destUrl": "https://evolvepeptides.uk/products/melanotan-10mg",
     "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
     "visitorId": "033b577b855052a9"
+  },
+  {
+    "ts": "2026-10-01T09:22:49.695Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://evolvepeptides.uk/products/melanotan-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
+    "visitorId": "d0fe275b1bc57eb2"
+  },
+  {
+    "ts": "2026-10-01T09:25:05.067Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-10-01T09:25:09.904Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-10-01T09:25:17.452Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-10-01T09:25:22.603Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://helixcore.co.uk/products/epitalon",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "eee66147603aed06"
+  },
+  {
+    "ts": "2026-10-01T09:37:04.417Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/ipamorelin-10mg/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-10-01T09:37:08.418Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/ipamorelin-10mg/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-10-01T09:37:12.291Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/ipamorelin-10mg/",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-10-01T09:37:56.957Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/mgf",
+    "visitorId": "2ae338f0c23d4ef0"
+  },
+  {
+    "ts": "2026-10-01T09:38:32.546Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/mgf",
+    "visitorId": "e17c898ea7400004"
+  },
+  {
+    "ts": "2026-10-01T09:39:58.951Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.peptidesonline.uk/shop/cjc-1295-no-dac/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "1c5835f75779a319"
+  },
+  {
+    "ts": "2026-10-01T09:40:21.201Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.peptidesonline.uk/shop/cjc-1295-no-dac/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "238f171a3025bb40"
+  },
+  {
+    "ts": "2026-10-01T10:00:56.034Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/5-amino-1mq-10mg/",
+    "visitorId": "f16382faa5189dbe"
   }
 ]
