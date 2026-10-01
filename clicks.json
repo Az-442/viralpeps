@@ -1788,5 +1788,44 @@
     "vendorName": "BIOHACKERxLAB",
     "destUrl": "https://biohackerxlab.com",
     "visitorId": "e26dbbbf8ccb0299"
+  },
+  {
+    "ts": "2026-10-01T11:58:36.408Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
+    "visitorId": "9cfb5d97cdecf8b9"
+  },
+  {
+    "ts": "2026-10-01T12:02:12.527Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/epitalon-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "0241b97385a6ee52"
+  },
+  {
+    "ts": "2026-10-01T12:02:59.044Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-lr3",
+    "visitorId": "f41c1622af55b8c8"
+  },
+  {
+    "ts": "2026-10-01T12:11:32.462Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
+    "visitorId": "b008898924b9da70"
   }
 ]
