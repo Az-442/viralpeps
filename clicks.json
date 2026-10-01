@@ -7142,5 +7142,43 @@
     "vendorName": "Pyrox Labs",
     "destUrl": "https://pyroxlabs.co.uk",
     "visitorId": "9bc05622ff4d06b4"
+  },
+  {
+    "ts": "2026-10-01T23:18:59.679Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidesonline.uk/shop/tesamorelin/",
+    "visitorId": "9271130eac823cac"
+  },
+  {
+    "ts": "2026-10-01T23:24:32.935Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://phoenixbiolabs.net/shop/ara-290-20mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "02b14c2766709225"
+  },
+  {
+    "ts": "2026-10-01T23:38:22.671Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://phoenixbiolabs.net/shop/ara-290-20mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "47ffee8bfcbf6fac"
+  },
+  {
+    "ts": "2026-10-01T23:57:09.195Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "6631660a0cfe7418"
   }
 ]
