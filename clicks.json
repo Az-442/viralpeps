@@ -1827,5 +1827,122 @@
     "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
     "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
     "visitorId": "b008898924b9da70"
+  },
+  {
+    "ts": "2026-10-01T12:24:26.291Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://zentra-peptides.com/product/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "648c8409ebf83bd8"
+  },
+  {
+    "ts": "2026-10-01T12:27:07.512Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "d76612ec2aaa686c"
+  },
+  {
+    "ts": "2026-10-01T12:30:26.745Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "3d8da983fc3ee27f"
+  },
+  {
+    "ts": "2026-10-01T12:30:45.339Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+    "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-des",
+    "visitorId": "5e13ff6a47f790d1"
+  },
+  {
+    "ts": "2026-10-01T12:30:52.287Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+    "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-des",
+    "visitorId": "1a32877c82272937"
+  },
+  {
+    "ts": "2026-10-01T12:30:58.916Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+    "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-des",
+    "visitorId": "f24b48682a158e2c"
+  },
+  {
+    "ts": "2026-10-01T12:32:24.921Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://chromapeptides.co.uk/product/tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "be16333346af5109"
+  },
+  {
+    "ts": "2026-10-01T12:32:28.868Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://chromapeptides.co.uk/product/tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "f94ed52e3c13362c"
+  },
+  {
+    "ts": "2026-10-01T12:32:31.070Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://chromapeptides.co.uk/product/tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "d29f54301136d926"
+  },
+  {
+    "ts": "2026-10-01T12:32:56.059Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "3d8da983fc3ee27f"
+  },
+  {
+    "ts": "2026-10-01T12:33:17.296Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-10-01T12:47:40.158Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://crownpeptides.co.uk/shop/crown/nad-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "fd3b20cc7932a84a"
   }
 ]
