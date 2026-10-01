@@ -1050,5 +1050,15 @@
     "compoundSlug": "glutathione",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen",
     "visitorId": "303e28c67a7a6b18"
+  },
+  {
+    "ts": "2026-10-01T07:08:32.571Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://pioneerpeptides.co.uk/products/nadplus/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "a41bf796638c0448"
   }
 ]
