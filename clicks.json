@@ -525,5 +525,14 @@
     "destUrl": "https://xlpeptides.com/product/epitalon-10mg/",
     "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
     "visitorId": "6134879b8b436d73"
+  },
+  {
+    "ts": "2026-10-01T05:22:20.183Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
+    "visitorId": "afdba0f9e202fa49"
   }
 ]
