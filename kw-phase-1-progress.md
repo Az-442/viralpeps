@@ -579,20 +579,149 @@ Commit: `f9042a1f` · pushed to main (0 unpushed).
 
 ---
 
+## Day 13 — Mon 28 Sep (2 articles) ✅ DONE
+Completed 1 Oct 03:00 by daily blog cron (main branch, direct).
+This job resumed at Day 13: Day 14 was still unwritten, so the plan day
+completed was Day 13 (2 articles), not Day 14.
+
+- `cardiogen-for-heart-health` — **cardiogen** (for) — section: goals,
+  compoundSlug: cardiogen-research-peptide
+- `aod-9604-suppliers-uk` — **aod-9604 suppliers UK** (suppliers)
+  — section: research-hub, compoundSlug: aod-9604
+
+Cards:
+- `public/images/guides/cardiogen-for-heart-health.png` — Pillow single-vial
+  75%-height (cardiogen-research-peptide.png), badge "Compound Profile"
+- `public/images/guides/aod-9604-suppliers-uk.png` — Pillow single-vial
+  75%-height (aod-9604-vial.png), badge "Supplier Guide"
+
+Card script: `scripts/make_kw_phase1_day13_cards.py` (shared draw_guide_card template).
+Vial labels QA'd with the vision tool before compositing: aod-9604-vial
+("AOD 9604 / 5mg") and cardiogen-research-peptide ("VIRALPEPS / Cardiogen /
+For Research Use Only") — both compound identifiers correct. Both finished
+cards vision-checked by pixel arithmetic (see lesson 2) and by vision tool.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,438 / 2,308
+
+Build: passed (189/189 pages, up from 178). All 7 internal links verified
+against `compounds.json` slugs, live `research.ts`/`research-content.ts` keys
+— 0 broken, and all 6 distinct targets re-verified live 200 after deploy.
+**25 PMIDs verified individually via NCBI E-utilities esummary** (title +
+journal + author + volume/pages matched for every one). All 140 guide card
+`image:` refs cross-checked against disk: OK.
+
+Live verified: both articles 200 with correct `<title>`, self-referencing
+canonical, card images serving at matching byte size, both listed on
+`/research`, both present in their compounds' Research Library sections
+(`/compounds/cardiogen-research-peptide`, `/compounds/aod-9604`), and both
+in `sitemap.xml`.
+
+Commit: `447270f3` · pushed to main (0 unpushed).
+
+### ⚠️ Lessons from this run
+1. **`BASE_SLUGS` had a real latent bug that this run fixed.** The compound
+   master slug for Cardiogen is `cardiogen-research-peptide`, but
+   `BASE_SLUGS` in `compound-tabs.tsx` only listed `cardiogen`. So
+   `getBaseCompoundSlug('cardiogen-research-peptide')` returned the slug
+   unchanged, `compoundTabs[slug]` was undefined, and the entire Cardiogen
+   Overview/Molecular/Dosing/Safety/References tab set fell through to
+   "Content Coming Soon" — even though a full `cardiogen` entry exists in
+   `compound-tabs.tsx` (line ~4314). Fixed by adding
+   `"cardiogen-research-peptide"` to `BASE_SLUGS`. Verified live: the
+   Cardiogen page no longer renders "Content Coming Soon".
+   **General rule: when a master compound slug differs from its
+   `compound-tabs.tsx` key, the slug must ALSO appear in `BASE_SLUGS`, or
+   the tabs silently disappear.** Check this for every new compound whose
+   master slug is longer than the tab key (e.g. `conliten`-style variants —
+   note `cortagen-research-peptide` appears to be in the same position and
+   should be audited).
+
+2. **Vision QA on a 3-card contact sheet produced a confident false positive,
+   exactly as the Day-12 note warns.** The vision tool reported that the
+   KPV vs LL-37 card's headline, subtitle and body were "clipped at the card
+   edge" and described the card as "cramped/unbalanced on the right". Pixel
+   arithmetic with `draw.textlength()` against `card_w - text_left - 25`
+   showed the real numbers: title 268px, subtitle 134px, desc 214/249px,
+   badge 152px — all against 395px available. **Nothing was clipped.** Use
+   the vision tool only for identity ("is this the right compound"), and
+   `draw.textlength()` for fit. Do not act on a vision fit complaint without
+   measuring first.
+
+3. **The `research-content.ts` seam has changed indent again — it is now the
+   4-space form.** The Day-12 note said the `],` line had NO indent; this run
+   it is `    ],` + NL + `  },`. Probe all three variants (no-indent /
+   2-space / 4-space) every run instead of trusting the note:
+   ```python
+   variants = {
+       "no-indent": '],' + NL + '},' + NL + NL + '};' + NL + 'export default content;',
+       "2-space":   '  ],' + NL + '},' + NL + NL + '};' + NL + 'export default content;',
+       "4-space":   '    ],' + NL + '  },' + NL + NL + '};' + NL + 'export default content;',
+   }
+   ```
+   The 4-space form matched exactly once; the other two matched 0.
+
+4. **The pre-merge `tsc` gate needs the object brace convention right.**
+   The fragment body already ends with the object's own closing `  }`, so a
+   harness that appends `};` produces `}};` and a spurious
+   `TS1128: Declaration or statement expected` at the final line. The wrapper
+   must be `const x: ResearchPageContent = {` + body (which ends `  }`) +
+   `;`. This cost two iterations before the cause was clear.
+
+5. **`write_file` did NOT double escapes this run.** All fragments were
+   parent-written and came out with strictly single backslash-runs before
+   `n` (64 / 37 / 40 occurrences) and before `'` (2 / 2 / 8). The validator
+   reported clean and the pre-merge assertions passed. The normaliser is
+   still worth running as a check-first step.
+
+6. **`research.ts` guides-array anchor confirmed:**
+   `"  }," + NL + "];" + NL + NL + "export const compoundList"` matches
+   exactly once. Replacement inserts the blocks after the existing `  },`
+   and before `];`. Verified afterwards that each new entry's
+   `slug:` position sits between `export const guides` and
+   `export const compoundList` (i.e. inside the guides array, not the
+   later `compoundList` string array).
+
+7. **A `silo/` job is active on this repo — commit only your own files.**
+   `git status` showed ` m .wt/day2` (a modified submodule pointer inside the
+   `kw/day2` worktree) and `M tsconfig.tsbuildinfo` (build artefact). Neither
+   was staged; the commit contains only the 3 data/script files and 3 card
+   PNGs. `silo/retatrutide-spokes` appears in `git branch -a` but has no
+   worktree and was untouched. Always `git fetch origin main` and check
+   `HEAD..origin/main` before pushing.
+
+8. **Existing broken-link debt is unchanged and still out of scope.**
+   Four `/research/*` forward-links remain broken in pre-existing content
+   (unchanged from Day 9, plus `p21-research-summary`): they point at
+   `hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+   `p21-research-summary` (planned Day 27) and
+   `thymosin-alpha1-research-summary`. Live HTTP sweep of all 86
+   `/research/` links in `research-content.ts` confirmed exactly these four
+   404 and nothing else. They will resolve when the planned articles ship;
+   do NOT "fix" them by inventing stubs.
+
+---
+
 ## Next up
-**Day 13 — Mon 28 Sep (2 articles)**
-- `cardiogen-for-heart-health` — **cardiogen** (for) — section: goals, compoundSlug: cardiogen
-- `aod-9604-suppliers-uk` — **aod-9604 suppliers UK** (suppliers) — section: research-hub,
-  compoundSlug: aod-9604
+**Day 14 — Tue 29 Sep (3 articles)**
+- `p21-suppliers-uk` — **p21 suppliers UK** (suppliers) — section: research-hub,
+  compoundSlug: p21
+- `where-to-buy-tirzepatide-uk` — **where to buy tirzepatide** (buy)
+  — section: research-hub, compoundSlug: tirzepatide
+- `oxytocin-nasal-spray-research-summary` — **oxytocin nasal spray** (summary)
+  — section: peptides, compoundSlug: oxytocin
 
-Neither slug exists yet. Both are `(for)`/`(suppliers)` types — `goals` for the first,
-flat `research-hub` for the second (matching Days 3/4/6/9/10). Check `aod-9604` and
-`cardiogen` exist in `compounds.json` before setting `compoundSlug` (note AOD has
-variant-slug cousins such as `aod-fragments`; verify the master).
+None of the three slugs exist yet. Check `p21`, `tirzepatide`, `oxytocin` in
+`compounds.json` before setting `compoundSlug` (note `oxytocin` and
+`oxytocin-nasal-spray` are SEPARATE compound entries — `oxytocin-nasal-spray-
+suppliers-uk` already exists and uses `compoundSlug: 'oxytocin'`, so the
+summary article should almost certainly use `oxytocin` as well to avoid
+orphaning it).
 
-Re-check the seam by variant-matching (it currently has NO indent on `],`), re-check both
-quote formats AND the `slug:` field form before writing, and remember `category` in
-`research.ts` is `'Guide'` or `'Compound Profiles'` singular.
+Re-check the seam by variant-matching (it is currently the **4-space** form),
+re-check both quote formats AND the `slug:` field form before writing, and
+remember `category` in `research.ts` is `'Guide'` / `'Compound Profiles'` /
+`'Articles'` / `'Research Summaries'` — all singular.
 
 ---
 
