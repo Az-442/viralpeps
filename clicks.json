@@ -1691,5 +1691,15 @@
     "destUrl": "https://zentra-peptides.com/product/nad/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "1418df04178b0589"
+  },
+  {
+    "ts": "2026-10-01T11:05:36.845Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptideslabuk.com/product/klow-80mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "f310e5abc249af91"
   }
 ]
