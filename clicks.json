@@ -1701,5 +1701,92 @@
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/",
     "refPage": "https://www.viralpeps.co.uk/compounds/klow",
     "visitorId": "f310e5abc249af91"
+  },
+  {
+    "ts": "2026-10-01T11:08:36.410Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://trutide.co.uk/product/nad-1000mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "4e1bd7c0d2345fc6"
+  },
+  {
+    "ts": "2026-10-01T11:08:43.359Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://trutide.co.uk/product/nad-1000mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "676486ee8de53a16"
+  },
+  {
+    "ts": "2026-10-01T11:20:34.864Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biopeptides-uk.com/product/tb-500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "08847f11a420c4b1"
+  },
+  {
+    "ts": "2026-10-01T11:21:03.960Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://nupex.co.uk/products/kisspeptin-10-peptide-research-grade",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "2497b5d343a36899"
+  },
+  {
+    "ts": "2026-10-01T11:21:16.901Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://nupex.co.uk/products/kisspeptin-10-peptide-research-grade",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "abb3cf80dde76cbc"
+  },
+  {
+    "ts": "2026-10-01T11:29:03.418Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen",
+    "visitorId": "7dddf71597c68606"
+  },
+  {
+    "ts": "2026-10-01T11:32:24.203Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.buyreta.co.uk/product/nad-plus-500mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "8e49b5e759fe341a"
+  },
+  {
+    "ts": "2026-10-01T11:33:19.116Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biohackpeptides.co.uk/product/nad-500mg-3ml-bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "34a127ba731929fc"
+  },
+  {
+    "ts": "2026-10-01T11:37:05.723Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "e26dbbbf8ccb0299"
   }
 ]
