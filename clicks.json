@@ -1953,5 +1953,134 @@
     "compoundSlug": "nad-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen",
     "visitorId": "76f4402e5d43aa91"
+  },
+  {
+    "ts": "2026-10-01T12:53:50.668Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://peptidelabuk.co.uk/product/ll-37-5mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ll-37",
+    "visitorId": "09900d7924f3c381"
+  },
+  {
+    "ts": "2026-10-01T13:01:41.244Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen",
+    "visitorId": "9cfb5d97cdecf8b9"
+  },
+  {
+    "ts": "2026-10-01T13:01:58.183Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptideslabuk.com/product/igf-des/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-des",
+    "visitorId": "f6b390b2124764b5"
+  },
+  {
+    "ts": "2026-10-01T13:02:17.488Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptideslabuk.com/product/igf-des/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-des",
+    "visitorId": "dcaf603b572bcce3"
+  },
+  {
+    "ts": "2026-10-01T13:10:38.744Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/mgf",
+    "visitorId": "44b6b9ea28559853"
+  },
+  {
+    "ts": "2026-10-01T13:11:56.777Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8fbffe44ba0762f4"
+  },
+  {
+    "ts": "2026-10-01T13:12:06.127Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "016b29dccac6c025"
+  },
+  {
+    "ts": "2026-10-01T13:14:52.751Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/retatrutide",
+    "visitorId": "0c2c21791bbb2bc2"
+  },
+  {
+    "ts": "2026-10-01T13:15:43.804Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/retatrutide",
+    "visitorId": "5ac77e096940ce81"
+  },
+  {
+    "ts": "2026-10-01T13:17:14.234Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/mgf-2mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/mgf",
+    "visitorId": "a41bf796638c0448"
+  },
+  {
+    "ts": "2026-10-01T13:17:15.413Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4632e38840956348"
+  },
+  {
+    "ts": "2026-10-01T13:17:19.979Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b5c1777396225b65"
+  },
+  {
+    "ts": "2026-10-01T13:36:08.958Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://thepeptidecode.co.uk/products/epithalon-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "044fd8581541f96e"
   }
 ]
