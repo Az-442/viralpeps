@@ -2239,5 +2239,123 @@
     "destUrl": "https://redpandapeptides.co.uk/product/nad-500mg/",
     "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
     "visitorId": "a803133eb2332101"
+  },
+  {
+    "ts": "2026-10-01T14:07:31.050Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.flexpeptides.co.uk/products/tb-500-5mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "92da11c925accd39"
+  },
+  {
+    "ts": "2026-10-01T14:14:29.370Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/oxytocin",
+    "visitorId": "b7ae64d9df360e44"
+  },
+  {
+    "ts": "2026-10-01T14:18:58.232Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "94b4682cee2497fe"
+  },
+  {
+    "ts": "2026-10-01T14:19:00.494Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "60ab127560cbe7de"
+  },
+  {
+    "ts": "2026-10-01T14:19:04.339Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "6b0ee090ebcd743c"
+  },
+  {
+    "ts": "2026-10-01T14:19:36.472Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/nad/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "69d5414406ed57f9"
+  },
+  {
+    "ts": "2026-10-01T14:19:41.124Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/nad/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "3d7cf7c8eca0c562"
+  },
+  {
+    "ts": "2026-10-01T14:19:59.146Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-hexarelin-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "c208cfcf2dce383e"
+  },
+  {
+    "ts": "2026-10-01T14:24:12.929Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.peptidepal.co.uk/products/klow",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "927183902df900a5"
+  },
+  {
+    "ts": "2026-10-01T14:26:46.121Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://bionikpeptides.com/products/survodutide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/survodutide",
+    "visitorId": "c541bbff0485f7ec"
+  },
+  {
+    "ts": "2026-10-01T14:35:04.619Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biotideuk.com/products/tb-500",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "7d509e89451c19af"
+  },
+  {
+    "ts": "2026-10-01T14:38:13.863Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "e990519dbdb25b62"
   }
 ]
