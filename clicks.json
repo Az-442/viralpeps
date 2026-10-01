@@ -7116,5 +7116,31 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
     "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-10-01T22:43:01.723Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
+    "visitorId": "f16382faa5189dbe"
+  },
+  {
+    "ts": "2026-10-01T22:43:05.564Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-10-01T23:16:08.379Z",
+    "type": "vendor-site",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "destUrl": "https://pyroxlabs.co.uk",
+    "visitorId": "9bc05622ff4d06b4"
   }
 ]
