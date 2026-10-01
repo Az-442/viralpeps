@@ -1548,5 +1548,15 @@
     "compoundSlug": "kpv",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
     "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-01T09:22:40.008Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://evolvepeptides.uk/products/melanotan-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
+    "visitorId": "033b577b855052a9"
   }
 ]
