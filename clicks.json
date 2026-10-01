@@ -5111,5 +5111,532 @@
     "destUrl": "https://www.peptidesx.uk/product/igf-1-lr3/",
     "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-lr3",
     "visitorId": "2999b03141a4a730"
+  },
+  {
+    "ts": "2026-10-01T20:07:59.937Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.peptifyuk.com/product/klow-blend-80mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "baa392e1e126a8ff"
+  },
+  {
+    "ts": "2026-10-01T20:08:43.954Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://pslabs.uk/products/klow-80mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "6e12a34efe0ca552"
+  },
+  {
+    "ts": "2026-10-01T20:09:02.717Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://polygonpeptides.co.uk/product/mt2-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
+    "visitorId": "179cc993250ecc04"
+  },
+  {
+    "ts": "2026-10-01T20:10:12.989Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://biotideuk.com/products/glutathione-600-mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/glutathione",
+    "visitorId": "f3177251c90a1784"
+  },
+  {
+    "ts": "2026-10-01T20:11:29.649Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "visitorId": "272357fc57fe8395"
+  },
+  {
+    "ts": "2026-10-01T20:11:59.180Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://xlpeptides.com/product/nad-500mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "14cfa2b8219d946b"
+  },
+  {
+    "ts": "2026-10-01T20:12:19.799Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/follistatin-344",
+    "visitorId": "033b577b855052a9"
+  },
+  {
+    "ts": "2026-10-01T20:12:58.502Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "abaloparatide",
+    "destUrl": "https://vialverse.com/peptides/abaloparatide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/abaloparatide",
+    "visitorId": "bec0f117e90b6908"
+  },
+  {
+    "ts": "2026-10-01T20:13:00.790Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "abaloparatide",
+    "destUrl": "https://vialverse.com/peptides/abaloparatide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/abaloparatide",
+    "visitorId": "54c2b7af8b3c212a"
+  },
+  {
+    "ts": "2026-10-01T20:13:03.078Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "abaloparatide",
+    "destUrl": "https://vialverse.com/peptides/abaloparatide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/abaloparatide",
+    "visitorId": "54c2b7af8b3c212a"
+  },
+  {
+    "ts": "2026-10-01T20:14:55.078Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ghrp-6-10-mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghrp-6",
+    "visitorId": "67453fa9cbd40747"
+  },
+  {
+    "ts": "2026-10-01T20:14:55.665Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "988aa6df0c23c97f"
+  },
+  {
+    "ts": "2026-10-01T20:14:58.208Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/premium-retatrutide-30mg-pen-",
+    "refPage": "https://www.viralpeps.co.uk/compounds/retatrutide",
+    "visitorId": "172e251a9ad6195f"
+  },
+  {
+    "ts": "2026-10-01T20:14:58.565Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "7b9decbc84a6a927"
+  },
+  {
+    "ts": "2026-10-01T20:15:01.422Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "38033e8785da2718"
+  },
+  {
+    "ts": "2026-10-01T20:15:03.914Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ghrp-6-10-mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghrp-6",
+    "visitorId": "b73a3167f7b08b03"
+  },
+  {
+    "ts": "2026-10-01T20:18:36.949Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghrp-6",
+    "visitorId": "69be0ddf8fcdc263"
+  },
+  {
+    "ts": "2026-10-01T20:20:19.155Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://kensingtonlabs.co.uk/product/ll37-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ll-37",
+    "visitorId": "46d0706af49b137e"
+  },
+  {
+    "ts": "2026-10-01T20:20:45.919Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://vialverse.com/peptides/nad",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "1e0b9f0d72bc5afb"
+  },
+  {
+    "ts": "2026-10-01T20:20:50.960Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://vialverse.com/peptides/nad",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "fc725f14a8476a84"
+  },
+  {
+    "ts": "2026-10-01T20:23:16.971Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://vialverse.com/peptides/glutathione",
+    "refPage": "https://www.viralpeps.co.uk/compounds/glutathione",
+    "visitorId": "b5eff94ca4212740"
+  },
+  {
+    "ts": "2026-10-01T20:23:29.153Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a144c3827a72d32a"
+  },
+  {
+    "ts": "2026-10-01T20:23:32.491Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://precision-peptides.shop/product/melanotan-ii-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/melanotan-ii",
+    "visitorId": "4b148fbd80b8f2b2"
+  },
+  {
+    "ts": "2026-10-01T20:23:32.882Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7ce4034cfc33da88"
+  },
+  {
+    "ts": "2026-10-01T20:25:00.548Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://midshirelabs.co.uk/products/pancragen/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pancragen",
+    "visitorId": "18742ea25882030d"
+  },
+  {
+    "ts": "2026-10-01T20:25:08.278Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://midshirelabs.co.uk/products/pancragen/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pancragen",
+    "visitorId": "481119546aa5c32f"
+  },
+  {
+    "ts": "2026-10-01T20:25:21.551Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://midshirelabs.co.uk/products/pancragen/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pancragen",
+    "visitorId": "f4366beb49230337"
+  },
+  {
+    "ts": "2026-10-01T20:25:54.267Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/klow/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "5a1a9e0f7aca4296"
+  },
+  {
+    "ts": "2026-10-01T20:26:05.878Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/klow/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "ede1c1b6ea6437bf"
+  },
+  {
+    "ts": "2026-10-01T20:26:10.294Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/klow/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "032a8273412c1e84"
+  },
+  {
+    "ts": "2026-10-01T20:26:25.069Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://fatpigpeptides.co.uk/product/klow-80mg-blend/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "14f470027412ae8c"
+  },
+  {
+    "ts": "2026-10-01T20:27:27.857Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial",
+    "refPage": "https://www.viralpeps.co.uk/compounds/follistatin-344",
+    "visitorId": "f2d3151c115a6410"
+  },
+  {
+    "ts": "2026-10-01T20:27:36.586Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://helixcore.co.uk/products/tesamorelin",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-01T20:28:49.871Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bluewellpeptides.com/product/fftp-adipotide-5mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/adipotide-ftpp-5mg",
+    "visitorId": "4bfbd41974203d1d"
+  },
+  {
+    "ts": "2026-10-01T20:29:51.623Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157-tb-500",
+    "visitorId": "8f70b83668d5f441"
+  },
+  {
+    "ts": "2026-10-01T20:30:38.925Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/oxytocin",
+    "visitorId": "7ce87372bf9b7c6f"
+  },
+  {
+    "ts": "2026-10-01T20:31:10.823Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghrp-6",
+    "visitorId": "d6328cc838857848"
+  },
+  {
+    "ts": "2026-10-01T20:31:14.753Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghrp-6",
+    "visitorId": "e856f12480e0483f"
+  },
+  {
+    "ts": "2026-10-01T20:32:02.589Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://chiltonlabs.co.uk/product/thymosin-tb-500-10mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "b63fa866b43cbc3a"
+  },
+  {
+    "ts": "2026-10-01T20:32:15.853Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f85d7cd360941ab4"
+  },
+  {
+    "ts": "2026-10-01T20:32:19.568Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8ad57c3897bb2533"
+  },
+  {
+    "ts": "2026-10-01T20:33:03.010Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptideslabuk.com/product/glutathione/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/glutathione",
+    "visitorId": "c2ce6474e1654224"
+  },
+  {
+    "ts": "2026-10-01T20:33:10.337Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptideslabuk.com/product/glutathione/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/glutathione",
+    "visitorId": "bb996b696301ee9d"
+  },
+  {
+    "ts": "2026-10-01T20:33:18.391Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptideslabuk.com/product/glutathione/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/glutathione",
+    "visitorId": "c2ce6474e1654224"
+  },
+  {
+    "ts": "2026-10-01T20:34:07.438Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://vialverse.com/peptides/slu-pp-332",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
+    "visitorId": "59c9c6f8b74c94a4"
+  },
+  {
+    "ts": "2026-10-01T20:34:27.350Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://vialverse.com/peptides/slu-pp-332",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
+    "visitorId": "1e2e59d8e8e9b87a"
+  },
+  {
+    "ts": "2026-10-01T20:34:51.457Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://premiopeptides.co.uk/compounds/retatrutide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/retatrutide",
+    "visitorId": "ca5ad62364d8c804"
+  },
+  {
+    "ts": "2026-10-01T20:35:43.931Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.prime-peptides.co.uk/product/nad-plus/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "0afe31acebc614db"
+  },
+  {
+    "ts": "2026-10-01T20:35:59.907Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://apexpure.co.uk/product/retatrutide-20mg-uk/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/retatrutide",
+    "visitorId": "148a696c251243b4"
+  },
+  {
+    "ts": "2026-10-01T20:36:14.232Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://chiltonlabs.co.uk/product/nad-500mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "e85d02e3e319444f"
+  },
+  {
+    "ts": "2026-10-01T20:36:19.350Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://momentumpeptides.com/product/tb-500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "646d15578d2d8272"
+  },
+  {
+    "ts": "2026-10-01T20:36:22.038Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://biopeptides-uk.com/product/snap-8-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/snap-8",
+    "visitorId": "184c0f107d8bd7cf"
+  },
+  {
+    "ts": "2026-10-01T20:37:39.299Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-snap-8-10mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/snap-8",
+    "visitorId": "07a7712e8ede3c35"
   }
 ]
