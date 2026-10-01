@@ -25,5 +25,132 @@
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://www.stratfordpeptides.com/products/no-product",
     "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-10-01T02:19:58.709Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.stratfordpeptides.com/products/no-product",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-10-01T02:20:00.277Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.stratfordpeptides.com/products/no-product",
+    "visitorId": "7fc560120f7431e6"
+  },
+  {
+    "ts": "2026-10-01T02:20:50.980Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "c14bc0cffc7335b7"
+  },
+  {
+    "ts": "2026-10-01T02:20:53.407Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "e83bba2022dad197"
+  },
+  {
+    "ts": "2026-10-01T02:20:55.098Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "44b6b9ea28559853"
+  },
+  {
+    "ts": "2026-10-01T02:22:19.233Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cerebrolysin",
+    "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/cerebrolysin",
+    "visitorId": "eb1a595f9dca287a"
+  },
+  {
+    "ts": "2026-10-01T02:31:01.037Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-nad-100mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "b0038ff10e8a4826"
+  },
+  {
+    "ts": "2026-10-01T02:33:41.218Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://chromapeptides.co.uk/product/aod-9604/",
+    "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-10-01T02:41:18.008Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/-tb-500-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "35eedad0d1d85a0c"
+  },
+  {
+    "ts": "2026-10-01T02:49:00.614Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "edf7125230e02be5"
+  },
+  {
+    "ts": "2026-10-01T02:49:03.242Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "044fd8581541f96e"
+  },
+  {
+    "ts": "2026-10-01T02:49:13.504Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "6acb87c0b38dc891"
+  },
+  {
+    "ts": "2026-10-01T02:50:52.905Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/oxytocin",
+    "visitorId": "d0fe275b1bc57eb2"
   }
 ]
