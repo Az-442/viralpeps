@@ -1499,6 +1499,40 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ['ghk-cu', 'ghk', 'copper-peptide', 'copper-tripeptide', 'suppliers', 'uk', 'prices', 'certificate-of-analysis', 'coa', 'skin'],
   },
+
+  {
+    title: 'Cardiogen for Heart Health: A Cardiac Designation With No Cardiac Function Data',
+    desc: 'Cardiogen (AEDR) is a Khavinson tetrapeptide whose cardiac designation traces to a patent title, not a physiological finding. The four studies that make up its entire published record, why the most substantive result is in a sarcoma model, the verification problem created by having no CAS number, the 5 mg-versus-20 mg cost-per-milligram trap across three UK vendors, and how it compares with its far better-characterised sibling Epitalon.',
+    category: 'Compound Profiles',
+    section: 'goals',
+    compound: 'Cardiogen',
+    slug: 'cardiogen-for-heart-health',
+    image: 'cardiogen-for-heart-health',
+    minutes: 13,
+    tags: ['cardiogen', 'aedr', 'khavinson', 'bioregulator', 'cardiac', 'heart-health', 'tetrapeptide', 'gerontology', 'coa'],
+  },
+  {
+    title: 'AOD-9604 Suppliers UK: Six Trials, One Shelved Programme, 44 Vendors',
+    desc: 'AOD-9604 is the best-characterised fat-loss peptide in the UK catalogue and the only one whose developer terminated the obesity programme after a 24-week Phase 2b failure. A supplier-selection guide: the hGH 176-191 versus 177-191 identity trap, why the 1,815 Da mass figure is the line on the certificate that matters, the 5 mg versus 2 mg cost-per-milligram spread across 53 UK listings, and what the GRAS food-ingredient notice does and does not mean.',
+    category: 'Guide',
+    section: 'research-hub',
+    compound: 'AOD-9604',
+    slug: 'aod-9604-suppliers-uk',
+    image: 'aod-9604-suppliers-uk',
+    minutes: 12,
+    tags: ['aod-9604', 'aod9604', 'hgh-fragment', '176-191', 'lipolysis', 'fat-loss', 'metabolic', 'suppliers', 'uk', 'coa'],
+  },
+  {
+    title: 'KPV vs LL-37: A 3-Residue PepT1 Substrate Against a 37-Residue Pore Former',
+    desc: 'Both are filed as antimicrobial immunity peptides in UK catalogues, and they have almost nothing in common. KPV is a tripeptide that enters cells through PepT1 and dampens NF-kB signalling from inside; LL-37 is a 37-residue amphipathic helix that physically disrupts microbial membranes before modulating immune signalling through FPR2. Mechanism, evidence depth, handling burden, and the 66-versus-45 UK supply gap.',
+    category: 'Articles',
+    section: 'comparisons',
+    compound: 'KPV',
+    slug: 'kpv-vs-ll-37',
+    image: 'kpv-vs-ll-37',
+    minutes: 13,
+    tags: ['kpv', 'll-37', 'll37', 'cathelicidin', 'comparison', 'antimicrobial', 'pept1', 'immunity', 'alpha-msh', 'amp'],
+  },
 ];
 
 export const compoundList: string[] = [
