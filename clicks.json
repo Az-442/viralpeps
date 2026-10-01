@@ -303,5 +303,120 @@
     "destUrl": "https://pgnalabs.co.uk/product/nad",
     "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
     "visitorId": "69be0ddf8fcdc263"
+  },
+  {
+    "ts": "2026-10-01T03:30:22.078Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "98d10f9c06b87733"
+  },
+  {
+    "ts": "2026-10-01T03:37:50.675Z",
+    "type": "vendor-site",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "destUrl": "https://jgpeptidesplus.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/jgpeptidesplus",
+    "visitorId": "569235962fb9c1f0"
+  },
+  {
+    "ts": "2026-10-01T03:40:12.285Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://midshirelabs.co.uk/products/glow50/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "58275e0de7083afd"
+  },
+  {
+    "ts": "2026-10-01T03:47:22.809Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://midshirelabs.co.uk/products/oxytocin/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/oxytocin",
+    "visitorId": "828777ba050049fa"
+  },
+  {
+    "ts": "2026-10-01T03:48:00.409Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://midshirelabs.co.uk/products/oxytocin/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/oxytocin",
+    "visitorId": "599d5b88e6fd2629"
+  },
+  {
+    "ts": "2026-10-01T03:51:53.366Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4ec959b5c5e1afd4"
+  },
+  {
+    "ts": "2026-10-01T03:51:58.483Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ae83d3bd8fffc9ee"
+  },
+  {
+    "ts": "2026-10-01T03:54:48.963Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghk-cu-50mg-research-only-peptide-for-laboratory-use-only-coa-in-images/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-01T03:54:50.524Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghk-cu-50mg-research-only-peptide-for-laboratory-use-only-coa-in-images/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-10-01T03:54:53.393Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghk-cu-50mg-research-only-peptide-for-laboratory-use-only-coa-in-images/",
+    "visitorId": "04c3b4b12c03bc47"
+  },
+  {
+    "ts": "2026-10-01T03:56:42.851Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptidesuk.com/follistatin-344/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/follistatin-344",
+    "visitorId": "988aa6df0c23c97f"
+  },
+  {
+    "ts": "2026-10-01T03:58:46.333Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+    "visitorId": "ecef50cd1f61ba75"
   }
 ]
