@@ -942,5 +942,113 @@
     "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/tb500-10mg/",
     "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
     "visitorId": "a66f9406bf5df401"
+  },
+  {
+    "ts": "2026-10-01T06:34:02.263Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-10-01T06:35:38.328Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0543ec945e8afb44"
+  },
+  {
+    "ts": "2026-10-01T06:35:45.157Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "93b6dd4695aaeed8"
+  },
+  {
+    "ts": "2026-10-01T06:41:30.368Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.peptidesonline.uk/shop/dsip/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4699b061a30c157f"
+  },
+  {
+    "ts": "2026-10-01T06:41:47.778Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.peptidesonline.uk/shop/dsip/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a374666b635686f3"
+  },
+  {
+    "ts": "2026-10-01T06:46:08.616Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "f91fd8a8dd258e41"
+  },
+  {
+    "ts": "2026-10-01T06:46:13.128Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "6512d24872352fd4"
+  },
+  {
+    "ts": "2026-10-01T06:46:16.931Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "cb8af84cbedbcea4"
+  },
+  {
+    "ts": "2026-10-01T06:51:28.869Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "47672e467d4970aa"
+  },
+  {
+    "ts": "2026-10-01T06:51:35.575Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c22d042ec3f3eb9f"
+  },
+  {
+    "ts": "2026-10-01T06:57:54.266Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen",
+    "visitorId": "303e28c67a7a6b18"
   }
 ]
