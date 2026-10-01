@@ -2377,5 +2377,163 @@
     "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
     "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-lr3",
     "visitorId": "4fc48c81c03fc18f"
+  },
+  {
+    "ts": "2026-10-01T15:11:56.047Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.stratfordpeptides.com/products/kpv",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-10-01T15:11:58.756Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.stratfordpeptides.com/products/kpv",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-10-01T15:19:32.297Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.testedpeptides.co.uk/product/epitalon-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "8d3f84c57b7e3237"
+  },
+  {
+    "ts": "2026-10-01T15:22:57.762Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/retatrutide",
+    "visitorId": "dc3e426c6c0e21be"
+  },
+  {
+    "ts": "2026-10-01T15:32:50.065Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bionikpeptides.com/products/slu-pp-332",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
+    "visitorId": "c9b3098325f9ebf3"
+  },
+  {
+    "ts": "2026-10-01T15:33:45.718Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://chromapeptides.co.uk/product/nad/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "790c89a9f089183e"
+  },
+  {
+    "ts": "2026-10-01T15:34:09.275Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://octagonpeptides.co.uk/product/kisspeptin-10-mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "98d10f9c06b87733"
+  },
+  {
+    "ts": "2026-10-01T15:34:19.924Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://chromapeptides.co.uk/product/nad/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "6d4683e207a3442a"
+  },
+  {
+    "ts": "2026-10-01T15:37:32.621Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://chromapeptides.co.uk/product/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "571e393af746160f"
+  },
+  {
+    "ts": "2026-10-01T15:37:35.090Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://chromapeptides.co.uk/product/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "9dc1437da8d982b6"
+  },
+  {
+    "ts": "2026-10-01T15:37:42.530Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://chromapeptides.co.uk/product/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "902ed7deb3f661fd"
+  },
+  {
+    "ts": "2026-10-01T15:38:01.047Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "d5b82044ce0bde04"
+  },
+  {
+    "ts": "2026-10-01T15:38:07.731Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "184c0f107d8bd7cf"
+  },
+  {
+    "ts": "2026-10-01T15:38:11.525Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "a09fac23ff98ffa9"
+  },
+  {
+    "ts": "2026-10-01T15:38:40.370Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://apexpure.co.uk/product/nad-uk/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "2d256b9ec6dd4885"
+  },
+  {
+    "ts": "2026-10-01T15:39:42.680Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://chromapeptides.co.uk/product/igf-1-lr3/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/igf-1-lr3",
+    "visitorId": "54d67df19fd98af9"
   }
 ]
