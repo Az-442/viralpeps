@@ -33178,5 +33178,224 @@
     "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500",
     "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
     "visitorId": "5099a38c93c90f05"
+  },
+  {
+    "ts": "2026-10-01T01:27:50.347Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500",
+    "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
+    "visitorId": "5099a38c93c90f05"
+  },
+  {
+    "ts": "2026-10-01T01:29:58.379Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://www.buyreta.co.uk/product/bpc-tb500-mix-uk",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157-tb-500",
+    "visitorId": "60aeb98e533401e1"
+  },
+  {
+    "ts": "2026-10-01T01:30:47.601Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-10-01T01:30:49.051Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-10-01T01:30:50.484Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/tb-500-5mg",
+    "visitorId": "a955a36ddec60e43"
+  },
+  {
+    "ts": "2026-10-01T01:32:21.042Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pslabs.uk/products/bpc-157-tb-500-blend-20mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157-tb-500",
+    "visitorId": "8b205acd6d3d33d2"
+  },
+  {
+    "ts": "2026-10-01T01:32:34.049Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pslabs.uk/products/bpc-157-tb-500-blend-20mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157-tb-500",
+    "visitorId": "b084fbb93cf244a4"
+  },
+  {
+    "ts": "2026-10-01T01:32:46.580Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pslabs.uk/products/bpc-157-tb-500-blend-20mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157-tb-500",
+    "visitorId": "ca0e5306975593fc"
+  },
+  {
+    "ts": "2026-10-01T01:34:35.255Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta",
+    "refPage": "https://www.viralpeps.co.uk/compounds/retatrutide",
+    "visitorId": "923ebb4f9f329043"
+  },
+  {
+    "ts": "2026-10-01T01:39:49.398Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptx.co.uk/single-vials/klow-blend",
+    "refPage": "https://www.viralpeps.co.uk/compounds/klow",
+    "visitorId": "21930d3c0d053998"
+  },
+  {
+    "ts": "2026-10-01T01:41:09.063Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tb-500-2mg-thymosin-beta",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "8f70b83668d5f441"
+  },
+  {
+    "ts": "2026-10-01T01:42:44.339Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pancragen/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pancragen",
+    "visitorId": "5aaa24a05752a75e"
+  },
+  {
+    "ts": "2026-10-01T01:43:59.293Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mgf",
+    "destUrl": "https://tidelabs.co.uk/products/mgf",
+    "refPage": "https://www.viralpeps.co.uk/compounds/mgf",
+    "visitorId": "79c3cdb0a3c9c442"
+  },
+  {
+    "ts": "2026-10-01T01:47:57.806Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://precision-peptides.shop/product/sermorelin-10mg/",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-10-01T01:48:01.677Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://precision-peptides.shop/product/sermorelin-10mg/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-01T01:48:20.514Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/tb500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "e3074e68636bd504"
+  },
+  {
+    "ts": "2026-10-01T01:52:33.145Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "glow",
+    "destUrl": "https://apexpure.co.uk/product/glow-blend-uk/",
+    "visitorId": "00850fcf24531554"
+  },
+  {
+    "ts": "2026-10-01T01:52:36.983Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "glow",
+    "destUrl": "https://apexpure.co.uk/product/glow-blend-uk/",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-10-01T01:52:41.089Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "glow",
+    "destUrl": "https://apexpure.co.uk/product/glow-blend-uk/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-01T01:57:04.134Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+    "visitorId": "afdba0f9e202fa49"
+  },
+  {
+    "ts": "2026-10-01T01:57:05.706Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+    "visitorId": "eeeba1cff641264c"
+  },
+  {
+    "ts": "2026-10-01T01:57:07.289Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+    "visitorId": "9050ac63ece083cf"
+  },
+  {
+    "ts": "2026-10-01T01:59:19.711Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/snap-8-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/snap-8",
+    "visitorId": "c14bc0cffc7335b7"
   }
 ]
