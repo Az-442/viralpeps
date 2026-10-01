@@ -1060,5 +1060,14 @@
     "destUrl": "https://pioneerpeptides.co.uk/products/nadplus/",
     "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
     "visitorId": "a41bf796638c0448"
+  },
+  {
+    "ts": "2026-10-01T07:33:46.929Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "9ae7b0579cc9e912"
   }
 ]
