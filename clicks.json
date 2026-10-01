@@ -152,5 +152,156 @@
     "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
     "refPage": "https://www.viralpeps.co.uk/compounds/oxytocin",
     "visitorId": "d0fe275b1bc57eb2"
+  },
+  {
+    "ts": "2026-10-01T02:51:57.280Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-01T02:51:58.930Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide",
+    "visitorId": "0b59748343b57175"
+  },
+  {
+    "ts": "2026-10-01T02:52:00.306Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide",
+    "visitorId": "c79d04c6c882849e"
+  },
+  {
+    "ts": "2026-10-01T03:01:06.254Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/ipamorelin-2mg/",
+    "visitorId": "303e28c67a7a6b18"
+  },
+  {
+    "ts": "2026-10-01T03:01:10.247Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/ipamorelin-2mg/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-10-01T03:01:12.073Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/ipamorelin-2mg/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-01T03:05:40.715Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-2-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-01T03:05:42.233Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-2-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-10-01T03:05:44.702Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-2-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-10-01T03:07:48.120Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tp2-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tp2-10mg",
+    "visitorId": "c995fe7febb43f4c"
+  },
+  {
+    "ts": "2026-10-01T03:07:51.956Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tp2-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/tp2-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tp2-10mg",
+    "visitorId": "0a7be3c7171f5b8d"
+  },
+  {
+    "ts": "2026-10-01T03:13:39.410Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "2836d9279524828b"
+  },
+  {
+    "ts": "2026-10-01T03:15:41.708Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "bd2d1825da652d31"
+  },
+  {
+    "ts": "2026-10-01T03:19:24.503Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://premiopeptides.co.uk/compounds/kisspeptin-10",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "a307137f7e1c9934"
+  },
+  {
+    "ts": "2026-10-01T03:19:25.774Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://fatpigpeptides.co.uk/product/tb500-5mg-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tb-500",
+    "visitorId": "fc4df05e50a38a72"
+  },
+  {
+    "ts": "2026-10-01T03:27:03.592Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://pgnalabs.co.uk/product/nad",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pgna-labs",
+    "visitorId": "69be0ddf8fcdc263"
   }
 ]
