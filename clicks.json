@@ -427,5 +427,103 @@
     "compoundSlug": "klow",
     "destUrl": "https://jgpeptidesplus.com/product/klow-80mg",
     "visitorId": "703b00bbbcf48748"
+  },
+  {
+    "ts": "2026-10-01T04:29:47.135Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bebetterpeptides.com/products/epithalon",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "1a0e5235e2d1430f"
+  },
+  {
+    "ts": "2026-10-01T04:31:52.834Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://tidelabs.co.uk/products/kisspeptin-10",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "9461ffb5c863f68f"
+  },
+  {
+    "ts": "2026-10-01T04:32:03.603Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://tidelabs.co.uk/products/kisspeptin-10",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kisspeptin-10",
+    "visitorId": "531a39b52cda70a3"
+  },
+  {
+    "ts": "2026-10-01T04:35:47.426Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/75-slu-pp-332-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
+    "visitorId": "3bbbe0d6f2b32fd7"
+  },
+  {
+    "ts": "2026-10-01T04:35:53.704Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/75-slu-pp-332-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
+    "visitorId": "96d70ce7e37acbd3"
+  },
+  {
+    "ts": "2026-10-01T04:35:59.831Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/75-slu-pp-332-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/slu-pp-332",
+    "visitorId": "38bf1ca50bebb089"
+  },
+  {
+    "ts": "2026-10-01T04:43:54.404Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "visitorId": "7fbdb0bc57e0abd1"
+  },
+  {
+    "ts": "2026-10-01T04:46:33.854Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://jgpeptidesplus.com/product/tesamorelin-10mg",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-01T04:51:24.592Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://bionikpeptides.com/products/mgf",
+    "refPage": "https://www.viralpeps.co.uk/compounds/mgf",
+    "visitorId": "08d8cc2246202db3"
+  },
+  {
+    "ts": "2026-10-01T05:00:29.657Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://xlpeptides.com/product/epitalon-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/epitalon",
+    "visitorId": "6134879b8b436d73"
   }
 ]
