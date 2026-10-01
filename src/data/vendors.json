@@ -4563,5 +4563,51 @@
       },
       "checkedAt": "2026-09-30T00:38:46.939Z"
     }
+  },
+  {
+    "id": "pyrox-labs",
+    "name": "Pyrox Labs",
+    "slug": "pyrox-labs",
+    "website": "https://pyroxlabs.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "Pyrox Labs is a UK-registered research peptide supplier (Pyrox Labs Ltd, registered in England & Wales) offering laboratory-grade compounds with independently tested purity and published batch certificates of analysis. Their range spans metabolic research compounds, tissue-repair blends, longevity peptides and the lab essentials needed to reconstitute and store them correctly.",
+    "highlights": [
+      "Independently tested purity with published certificates of analysis",
+      "Same-day UK dispatch on in-stock orders before 4:30pm (Mon-Fri)",
+      "Free Royal Mail Tracked 24 on orders over £50",
+      "Research bundles, starter kits and combination blends available"
+    ],
+    "shipping": [
+      "Same-day dispatch on in-stock orders placed before 4:30pm Monday to Friday",
+      "Free Royal Mail Tracked 24 on all UK orders over £50 (applied automatically at checkout)",
+      "Dispatched via Royal Mail or DPD with tracked delivery",
+      "UK orders only by default — international orders by email quote"
+    ],
+    "payment": [
+      "Card",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-09-30",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-01T00:38:05.130Z"
+    }
   }
 ]
