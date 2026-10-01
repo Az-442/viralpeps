@@ -1944,5 +1944,14 @@
     "destUrl": "https://crownpeptides.co.uk/shop/crown/nad-research-compound/",
     "refPage": "https://www.viralpeps.co.uk/compounds/nad-plus",
     "visitorId": "fd3b20cc7932a84a"
+  },
+  {
+    "ts": "2026-10-01T12:53:38.587Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen",
+    "visitorId": "76f4402e5d43aa91"
   }
 ]
