@@ -24076,5 +24076,170 @@
     "vendorName": "BIOHACKERxLAB",
     "destUrl": "https://biohackerxlab.com",
     "visitorId": "1effad05ca1e5dbd"
+  },
+  {
+    "ts": "2026-10-02T22:55:57.649Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "1effad05ca1e5dbd"
+  },
+  {
+    "ts": "2026-10-02T23:17:50.354Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-20mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "4406a60570a40738"
+  },
+  {
+    "ts": "2026-10-02T23:17:53.999Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-20mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "9638d573eddba3af"
+  },
+  {
+    "ts": "2026-10-02T23:17:55.952Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-20mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "648c8409ebf83bd8"
+  },
+  {
+    "ts": "2026-10-02T23:18:14.634Z",
+    "type": "vendor-site",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "destUrl": "https://premiopeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/premio-peptides",
+    "visitorId": "fc29d338ff8abaa1"
+  },
+  {
+    "ts": "2026-10-02T23:19:14.829Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.proformapeptides.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/proforma-peptides",
+    "visitorId": "0b5f2527ff9e8cc5"
+  },
+  {
+    "ts": "2026-10-02T23:21:21.129Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evapeptide.co.uk/product/buy-cjc-1295-no-dac-uk/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/eva-peptide",
+    "visitorId": "9476c076448e1064"
+  },
+  {
+    "ts": "2026-10-02T23:21:28.234Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evapeptide.co.uk/product/buy-cjc-1295-no-dac-uk/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/eva-peptide",
+    "visitorId": "6c002fcd465f3396"
+  },
+  {
+    "ts": "2026-10-02T23:22:03.238Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-mots-c-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "cb5ee9f3e539dcd2"
+  },
+  {
+    "ts": "2026-10-02T23:22:06.022Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-mots-c-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "a5b07f9109f1f196"
+  },
+  {
+    "ts": "2026-10-02T23:22:08.116Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-mots-c-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "21930d3c0d053998"
+  },
+  {
+    "ts": "2026-10-02T23:22:31.097Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/kisspeptin-5mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/evolve-peptides",
+    "visitorId": "863f10a26d0843a0"
+  },
+  {
+    "ts": "2026-10-02T23:22:37.823Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "kisspeptin-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/kisspeptin-5mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/evolve-peptides",
+    "visitorId": "460327040ae658da"
+  },
+  {
+    "ts": "2026-10-02T23:22:49.466Z",
+    "type": "vendor-site",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "destUrl": "https://fatpigpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/fat-pig-peptides",
+    "visitorId": "247f2f363adfbbea"
+  },
+  {
+    "ts": "2026-10-02T23:23:55.206Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "24e280bf752eee4f"
+  },
+  {
+    "ts": "2026-10-02T23:25:17.576Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://ukpeptidelab.co.uk/product/melanotan-i",
+    "refPage": "https://www.viralpeps.co.uk/go/xl-peptides/melanotan-i",
+    "visitorId": "0fcc422ef7b0c1d2"
+  },
+  {
+    "ts": "2026-10-02T23:30:00.983Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/revexa",
+    "visitorId": "f2d3151c115a6410"
   }
 ]
