@@ -702,26 +702,129 @@ Commit: `447270f3` · pushed to main (0 unpushed).
 
 ---
 
-## Next up
-**Day 14 — Tue 29 Sep (3 articles)**
+## Day 14 — Tue 29 Sep (3 articles) ✅ DONE
+Completed 2 Oct 03:00 by daily blog cron (main branch, direct).
+
 - `p21-suppliers-uk` — **p21 suppliers UK** (suppliers) — section: research-hub,
-  compoundSlug: p21
+  compoundSlug: p21, compound: P21
 - `where-to-buy-tirzepatide-uk` — **where to buy tirzepatide** (buy)
-  — section: research-hub, compoundSlug: tirzepatide
+  — section: research-hub, compoundSlug: tirzepatide, compound: Tirzepatide
 - `oxytocin-nasal-spray-research-summary` — **oxytocin nasal spray** (summary)
-  — section: peptides, compoundSlug: oxytocin
+  — section: peptides, compoundSlug: oxytocin, compound: Oxytocin,
+  category: `Research Summaries`
 
-None of the three slugs exist yet. Check `p21`, `tirzepatide`, `oxytocin` in
-`compounds.json` before setting `compoundSlug` (note `oxytocin` and
-`oxytocin-nasal-spray` are SEPARATE compound entries — `oxytocin-nasal-spray-
-suppliers-uk` already exists and uses `compoundSlug: 'oxytocin'`, so the
-summary article should almost certainly use `oxytocin` as well to avoid
-orphaning it).
+Cards:
+- `public/images/guides/p21-suppliers-uk.png` — Pillow single-vial 75%-height
+  (p21.png), badge "Supplier Guide"
+- `public/images/guides/where-to-buy-tirzepatide-uk.png` — Pillow single-vial
+  75%-height (tirzepatide-vial.png), badge "Buyer's Guide"
+- `public/images/guides/oxytocin-nasal-spray-research-summary.png` — Pillow
+  single-vial 75%-height (oxytocin-nasal-spray.png), badge "Research Summary"
 
-Re-check the seam by variant-matching (it is currently the **4-space** form),
-re-check both quote formats AND the `slug:` field form before writing, and
-remember `category` in `research.ts` is `'Guide'` / `'Compound Profiles'` /
-`'Articles'` / `'Research Summaries'` — all singular.
+Card script: `scripts/make_kw_phase1_day14_cards.py` (shared draw_guide_card
+template). All three vial labels vision-QA'd BEFORE compositing: P21 ("P21 /
+5mg"), Tirzepatide ("Tirzepatide / 10mg"), Oxytocin nasal spray ("Oxytocin /
+Nasal / 10ml"). All three finished cards vision-checked — correct compound
+identified on each, no clipping.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,810 / 2,883 / 2,499
+
+Build: passed (198/198 pages). All 12 internal links verified against
+`compounds.json` slugs and live `research.ts`/`research-content.ts` keys
+— 0 broken. **36 references verified individually via NCBI E-utilities
+esummary** (title + journal + author + volume/pages matched for every one).
+All 3 guide card `image:` refs cross-checked against disk: OK.
+
+Live verified: all three articles 200 with correct `<title>`, self-referencing
+canonical, card images serving at matching byte size, all three listed on
+`/research`, present in their compounds' Research Library sections
+(`/compounds/p21`, `/compounds/tirzepatide`, `/compounds/oxytocin`), and all
+three in `sitemap.xml`.
+
+Commit: `2f21acd9` · pushed to main (0 unpushed).
+
+### ⚠️ Lessons from this run
+1. **The `research-content.ts` seam CHANGED AGAIN — but the 4-space form still
+   matched.** This run the tail was
+   `...PMID 32567398',\n  ],\n  },\n\n};\nexport default content;` — i.e.
+   the `],` line is indented **2 spaces**, not 4. Variant probe returned
+   no-indent 0 / 2-space 0 / 4-space 1. **The `4-space` variant string in the
+   Day-13 note is `'    ],' + NL + '  },'` — note the `],` has FOUR spaces and
+   the `},` has TWO.** That is what matched. Build the probe from the note but
+   ALWAYS confirm the count is exactly 1 before replacing; do not assume.
+2. **`write_file` doubled escapes again — 2-backslash runs before `'` only.**
+   Two of the three fragments had no escape problems at all (all backslash-runs
+   before `n` were length 1), but all three had `\\'` (length-2 runs) before
+   apostrophes in strings like `Alzheimer\\'s` and `D\\'Souza`. The normaliser
+   (`(\\{2,})n` -> `\n`, `(\\{2,})'` -> `\'`) fixed 12 / 0 / 7 occurrences.
+   The lesson from Day 10 holds: count the **backslash-run length**, not
+   "doubled" bytes. A naive `raw.count(b'\\\\n')` check reads as clean because
+   the problem was in the apostrophe runs, not the newline runs.
+3. **TWO Python brace-substitution bugs cost four build iterations.** Writing
+   the `tsc` wrapper with `"const x: T = {" + body + "}"` via a `write_file`d
+   script is fine, but writing it through a **`write_file` heredoc where the
+   braces are literal in the template** produced `{{` in the output file
+   (`__fragcheck.ts(2,33): error TS1136`). Fix: build the wrapper inside a
+   Python script (as here) rather than as a literal template, and assert
+   `body.startswith('{')` before concatenating. `tsc` then reported only a
+   module-resolution error, which is the clean signal that the parse succeeded.
+4. **`tsc` needs the import path to be relative, not aliased.** `from
+   '@/data/research-content'` failed with `TS2307: Cannot find module`; `from
+   './research-content'` passed. Because `__fragcheck.ts` is written into
+   `src/data/`, a relative import is correct and the alias is not guaranteed
+   to resolve outside the normal `tsconfig` include set.
+5. **Verify the registry insert landed INSIDE `guides`, not `compoundList`.**
+   The anchor `"  },\n];\n\nexport const compoundList"` matched exactly once
+   and the replacement inserted the three blocks between the last existing
+   entry's `},` and `];`. Checked afterwards: all three new `slug:` lines sit
+   at line 1542/1553/1564 with `export const compoundList` at 1571.
+6. **The compound slug and the vial filename differ — always verify both.**
+   `p21` is the compound slug and the vial is `public/images/compounds/p21.png`
+   (not `p21-vial.png`). `oxytocin-nasal-spray` is a SEPARATE compound entry
+   from `oxytocin`; the article uses `compoundSlug: 'oxytocin'` to match the
+   existing sibling article `oxytocin-nasal-spray-suppliers-uk`, so both appear
+   in the same Research Library section. The vial used is the nasal-spray image.
+7. **One live-verification gotcha: the first check 75s after push returned 404
+   with the `/research` LISTING title.** That is the site's not-found fallback
+   while Vercel was mid-deploy, not a routing bug. Re-checking after ~2 more
+   minutes returned 200 with correct titles. Do not debug a 404 seen within
+   the first two minutes of a push — wait and re-curl.
+8. **Image `content-length` is the cheapest deploy check.** Local file bytes
+   (142219 / 135742 / 159355) matched the live `content-length` exactly, which
+   confirms the card PNGs deployed rather than a cached placeholder. Note the
+   `curl -I` gets a 308 first (apex -> www redirect) — follow redirects with
+   `-L` or the status read is misleading.
+9. **Existing broken-link debt unchanged and still out of scope.** Four
+   `/research/*` forward-links remain broken in pre-existing content
+   (`hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+   `p21-research-summary` — planned Day 27, `thymosin-alpha1-research-summary`).
+   The Day-14 draft's `/research/p21-research-summary` link was deliberately
+   NOT used for this reason. Do not "fix" these by inventing stubs.
+
+---
+
+## Next up
+**Day 15 — Wed 30 Sep (2 articles)**
+- `skin-hair-peptide-suppliers-uk` — **skin and hair peptide suppliers UK**
+  (grouped) — section: research-hub
+- `uk-peptide-price-comparison` — **UK peptide price comparison** (+ peptide
+  price comparison, compare peptide prices UK) (pillar) — section: research-hub
+
+None of the two slugs exist yet. Day 15 is a `(grouped)` + `(pillar)` pair —
+both non-compound, so **both cards need photorealistic AI base imagery, NOT
+Pillow-drawn vial graphics** (skill rule for non-compound practical/pillar
+guides). Since `image_generate` is unavailable in cron, reuse the recovered
+photo base: the Day-8/10 routine `recover_base()` in
+`scripts/compose_kw_day8_photo_card.py` crops the untouched photo panel back
+out of `public/images/guides/uk-peptide-directory.png`. A Day-15 wrapper must
+copy it to its own base path or `compose()` raises FileNotFoundError.
+
+Re-check the seam by variant-matching (currently matches the **4-space**
+variant string, `'    ],' + NL + '  },' + NL + NL + '};' + NL + 'export default
+content;'`, exactly once), and re-check BOTH quote formats AND the `slug:`
+field form before writing. Remember `category` in `research.ts` is `'Guide'` /
+`'Compound Profiles'` / `'Articles'` / `'Research Summaries'` — all singular.
 
 ---
 
