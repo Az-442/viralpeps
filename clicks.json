@@ -7509,5 +7509,15 @@
     "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/vial",
     "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides",
     "visitorId": "e277c7bd9d075e02"
+  },
+  {
+    "ts": "2026-10-02T01:09:45.812Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bacteriostatic-water",
+    "visitorId": "01d78a0fd4b712d7"
   }
 ]
