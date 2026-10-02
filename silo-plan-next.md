@@ -208,6 +208,85 @@ each URL in isolation with a pause. Verified: all 68 Semax go-links return 302 i
 
 ---
 
+## ✅ DONE — SELANK SILO (commit `3d0f69be`)
+
+Queue item 4 of 5. Built per the locked SOP. Deploy verified live 2026-10-02.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-selank-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-selank-uk
+- https://www.viralpeps.co.uk/compound-guides/selank-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-selank-online-uk
+- https://www.viralpeps.co.uk/compound-guides/selank-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-selank-peptide
+
+**Verified metrics:** rendered words 1,424–2,045 (all ≥1,200) · titles 51–54 chars ·
+descriptions 155–160 chars · focus keyword in H1 + intro[0] · 69 unique live go-links from
+compounds.json (all resolve 302/308 → /go/), hub tiles present on `/compounds/selank`
+(6 compound-guides links) · index lists Selank · all 6 spokes in sitemap · `npx tsc --noEmit`
+0 errors · `npm run build` clean.
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-02)
+
+⚠️ **Four of the six default modifiers returned ZERO UK results for Selank** — substituted,
+as the SOP requires. Selank is not a GLP-1, so the GLP-1 modifier set does not transfer
+(same pattern as Semax).
+
+| Modifier | Result |
+|---|---|
+| `where to buy selank uk` | **exact match #1** — passed |
+| `cheapest selank uk` | ⚠️ **0 results** → substituted `cheapest selank` (**exact match #1**) |
+| `selank price comparison uk` | ⚠️ **0 results** → substituted `selank price` (**exact match #1**) |
+| `buy selank online uk` | ⚠️ **0 results** → substituted `buy selank peptide uk` (**exact match #1**) |
+| `selank uk supplier` | ⚠️ **0 results** (`selank supplier uk` / `selank suppliers uk` also 0) → substituted `selank for sale uk` (**exact match #1**, also #3 under `selank for sale`) |
+| `best selank peptide` | **exact match #1** — passed |
+
+Corroborating hits: `selank uk buy`, `buy selank uk`, `selank peptide uk`, `selank price`,
+`selank nasal spray uk`, `where can i buy selank`, `best place to buy selank peptides`.
+
+### ⚠️ Spoke 5 substitution detail
+`selank uk supplier` / `selank supplier uk` / `selank suppliers uk` **all returned 0 results** —
+no supplier-intent phrasing for Selank in UK autocomplete (same as Semax). Spoke 5 was built on
+**`selank for sale uk`**, which returned an exact #1 UK hit.
+
+### Collision check (KW Phase 1)
+`grep -niE "selank|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`:
+- line 105 `selank-suppliers-uk` → **informational intent, KEPT** (not a shopping-intent
+  duplicate of any spoke). Internally linked to hub + spokes.
+- line 34 `where-to-buy-peptides-uk`, line 122 `cheapest-peptides-uk` → pillar pages, no clash.
+**No plan collisions — nothing removed.**
+
+### Data
+- 81 Selank sources in compounds.json → 81 rows (1 `options[]` array on UK Peptides nasal spray).
+- Uses the `vendorSlugFor()` helper (the Semax fix) — resolves real slugs from `vendors.json`
+  instead of synthesising them, so **0 broken go-links**. 13 vendors would have mismatched on
+  the synthesised slug (e.g. `HelixCore`→`helix-core`, `Kensington Labs UK`→`kensington-labs`).
+- 5 go-links return **308** (Next.js trailing-slash normalisation) rather than 302 — verified
+  this is identical behaviour on the already-live Semax silo, so it is a pre-existing platform
+  quirk, not a Selank regression. All 308s redirect into the `/go/` route correctly.
+
+### PubMed sources used (all verified via NCBI E-utilities `esummary`)
+- 30255741 — Peptide-based Anxiolytics: Molecular Aspects of Heptapeptide Selank (Protein Pept Lett 2018)
+- 18841804 — Intranasal Selank regulates BDNF expression in rat hippocampus (Dokl Biol Sci 2008)
+- 26924987 — Selank affects GABAergic neurotransmission gene expression (Front Pharmacol 2016)
+- 28361410 — Effect of Selank on spontaneous synaptic activity, hippocampal CA1 (Bull Exp Biol Med 2017)
+- 31625062 — Selank protects against ethanol-induced memory impairment via BDNF (Bull Exp Biol Med 2019)
+- 28745220 — Tuftsin — Properties and Analogs (Curr Med Chem 2017)
+- 31667971 — Cognitive enhancing research peptides in seized preparations (Drug Test Anal 2020)
+
+⚠️ **Caution reconfirmed:** all 12 plausible-looking PMIDs I first drafted (12479438, 21299443,
+30903506, 24374943, 25481465, 27146730, 29778505, 31778875, 34564267, 36212635, 37402420,
+38799267) resolved to **unrelated papers**. Always search via `esearch` then verify each ID
+with `esummary` — never draft from memory.
+
+### Files changed
+`src/data/selank-silo.ts` (new) · `src/data/selank-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 5 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block). Sitemap auto-includes via the registry.
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
@@ -317,7 +396,7 @@ Rule: **fold, don't canonicalise.** Canonicals are only for true duplicates.
 | 1 | **Tirzepatide** | 79 | ✅ | ✅ strong — **BUILT** (`447f1fd9`) |
 | 2 | **Semaglutide** | 27 | ✅ | ✅ strong — **BUILT** (`7b7f3051`) |
 | 3 | **Semax** | 83 | ✅ | ✅ (3 of 6 modifiers substituted) — **BUILT** (`a627fc5e`) |
-| 4 | **Selank** | 80 | ✅ (verify) | same — **NEXT** |
+| 4 | **Selank** | 81 | ✅ | ✅ (4 of 6 modifiers substituted) — **BUILT** (`3d0f69be`) |
 | 5 | **Ipamorelin** | 91 | ✅ (verify) | growth-hormone family, big pool |
 | 6 | **MOTS-c** | 116 | ✅ (verify) | 3rd-largest pool |
 
