@@ -4609,5 +4609,41 @@
       },
       "checkedAt": "2026-10-01T00:38:05.130Z"
     }
+  },
+  {
+    "id": "everything-peptides",
+    "name": "Everything Peptides",
+    "slug": "everything-peptides",
+    "website": "https://everythingpeptides.co.uk",
+    "rating": 4.3,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "Everything Peptides is a UK research-peptide superstore (part of the Novara Trading Group) stocking research peptides, blends, reconstitution solutions and laboratory consumables in single-vial and box-of-10 formats. Every peptide listing publishes a Certificate of Analysis in a public COA library, and orders are dispatched same-day from UK stock with tracked delivery. All material is supplied strictly for in-vitro laboratory research use only.",
+    "highlights": [
+      "Single vials and boxes of 10 across a broad peptide catalogue",
+      "Public COA library with batch documentation",
+      "Same-day dispatch on orders placed before 15:00",
+      "Free UK tracked delivery on orders over £50",
+      "10% off first order with code EP10",
+      "Research-use-only — not for human consumption"
+    ],
+    "shipping": [
+      "Same-day dispatch on orders placed before 15:00 (Mon–Fri)",
+      "Free UK standard tracked delivery on orders over £50",
+      "UK: estimated 1–8 business days after payment clears",
+      "Europe: 5–8 business days",
+      "International: 5–12 business days",
+      "Tracking supplied; card-link payments take up to 2 working days to clear"
+    ],
+    "payment": [
+      "Card",
+      "Card link",
+      "PayPal where offered at checkout"
+    ],
+    "lastTested": "2026-10-02",
+    "labTested": true,
+    "email": "info@everythingpeptides.co.uk",
+    "delivery": "Free UK tracked delivery over £50 · same-day dispatch before 15:00 · UK 1–8 business days, Europe 5–8, International 5–12 · tracked shipping"
   }
 ]
