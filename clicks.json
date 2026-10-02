@@ -23970,5 +23970,111 @@
     "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "3d3d4647ccc572ea"
+  },
+  {
+    "ts": "2026-10-02T22:35:59.291Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "2b1bf191f93511ec"
+  },
+  {
+    "ts": "2026-10-02T22:38:03.223Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://supplypeptides.co.uk/products/tirz-20mg",
+    "visitorId": "2b1bf191f93511ec"
+  },
+  {
+    "ts": "2026-10-02T22:40:38.387Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "2b1bf191f93511ec"
+  },
+  {
+    "ts": "2026-10-02T22:44:40.181Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "1c3d2f969c3f8a85"
+  },
+  {
+    "ts": "2026-10-02T22:45:53.101Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "1c3d2f969c3f8a85"
+  },
+  {
+    "ts": "2026-10-02T22:46:17.152Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "1c3d2f969c3f8a85"
+  },
+  {
+    "ts": "2026-10-02T22:46:56.721Z",
+    "type": "vendor-site",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "destUrl": "https://jgpeptidesplus.com",
+    "visitorId": "1c3d2f969c3f8a85"
+  },
+  {
+    "ts": "2026-10-02T22:48:34.292Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "1c3d2f969c3f8a85"
+  },
+  {
+    "ts": "2026-10-02T22:52:05.512Z",
+    "type": "vendor-site",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "destUrl": "https://pslabs.uk",
+    "visitorId": "1effad05ca1e5dbd"
+  },
+  {
+    "ts": "2026-10-02T22:52:42.993Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "visitorId": "1effad05ca1e5dbd"
+  },
+  {
+    "ts": "2026-10-02T22:53:16.430Z",
+    "type": "vendor-site",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "destUrl": "https://pyroxlabs.co.uk",
+    "visitorId": "1effad05ca1e5dbd"
+  },
+  {
+    "ts": "2026-10-02T22:53:53.601Z",
+    "type": "vendor-site",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "destUrl": "https://redpandapeptides.co.uk",
+    "visitorId": "1effad05ca1e5dbd"
+  },
+  {
+    "ts": "2026-10-02T22:55:26.281Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "1effad05ca1e5dbd"
   }
 ]
