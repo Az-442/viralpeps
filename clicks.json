@@ -7519,5 +7519,15 @@
     "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
     "refPage": "https://www.viralpeps.co.uk/compounds/bacteriostatic-water",
     "visitorId": "01d78a0fd4b712d7"
+  },
+  {
+    "ts": "2026-10-02T01:14:17.198Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://my-peptides.co.uk/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/vendors/my-peptides",
+    "visitorId": "1e2e59d8e8e9b87a"
   }
 ]
