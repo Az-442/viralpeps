@@ -4300,5 +4300,63 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
     "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-10-03T20:20:36.016Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-10-03T20:22:58.835Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f85fcfb9fcd64439"
+  },
+  {
+    "ts": "2026-10-03T20:23:03.819Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ec99720596d6daa3"
+  },
+  {
+    "ts": "2026-10-03T20:33:13.519Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3ee1a07b2dabcb06"
+  },
+  {
+    "ts": "2026-10-03T20:33:27.728Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4fa4f8a20e178867"
+  },
+  {
+    "ts": "2026-10-03T21:12:39.865Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://purepeptidesuk.com/product/ss-31-10mg/",
+    "visitorId": "9a8316319a7dfed5"
   }
 ]
