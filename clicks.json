@@ -4235,5 +4235,61 @@
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk",
     "visitorId": "a3b28974b88d6817"
+  },
+  {
+    "ts": "2026-10-03T18:48:35.501Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.revexa.co.uk/product-page/tirzepatide-research-grade-10mg",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-10-03T18:53:15.295Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5597afcadb51c07e"
+  },
+  {
+    "ts": "2026-10-03T18:53:24.169Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3abb02d9f34a990b"
+  },
+  {
+    "ts": "2026-10-03T19:06:41.583Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.stratfordpeptides.com/products/selank",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-10-03T19:06:54.858Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.stratfordpeptides.com/products/selank",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-03T19:52:53.102Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "168aaeba79a8b6b0"
   }
 ]
