@@ -24251,5 +24251,105 @@
     "destUrl": "https://pslabs.uk/products/mt-1-10mg",
     "refPage": "https://www.viralpeps.co.uk/go/xl-peptides/melanotan-i",
     "visitorId": "63abd319f0c6d021"
+  },
+  {
+    "ts": "2026-10-02T23:46:14.570Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "aod-9604-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/aod-9604-5mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/evolve-peptides",
+    "visitorId": "f91fd8a8dd258e41"
+  },
+  {
+    "ts": "2026-10-02T23:46:24.441Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://pyroxlabs.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/new-wave-peptides/cjc-1295-ipamorelin-blend",
+    "visitorId": "69be0ddf8fcdc263"
+  },
+  {
+    "ts": "2026-10-02T23:46:32.140Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://reta-uk.com/products/melanotan-1",
+    "refPage": "https://www.viralpeps.co.uk/vendors/reta-uk",
+    "visitorId": "fd649a6e0d2c42a8"
+  },
+  {
+    "ts": "2026-10-02T23:46:35.804Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://reta-uk.com/products/melanotan-1",
+    "refPage": "https://www.viralpeps.co.uk/vendors/reta-uk",
+    "visitorId": "98d10f9c06b87733"
+  },
+  {
+    "ts": "2026-10-02T23:46:39.202Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://reta-uk.com/products/melanotan-1",
+    "refPage": "https://www.viralpeps.co.uk/vendors/reta-uk",
+    "visitorId": "bec0f117e90b6908"
+  },
+  {
+    "ts": "2026-10-02T23:48:28.865Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "571e393af746160f"
+  },
+  {
+    "ts": "2026-10-02T23:48:33.758Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "a1a1014c75233202"
+  },
+  {
+    "ts": "2026-10-03T00:02:58.260Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pyroxlabs.co.uk/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/go/the-peptide-company/bacteriostatic-water",
+    "visitorId": "3fdb7586779f4ea3"
+  },
+  {
+    "ts": "2026-10-03T00:09:19.047Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://everythingpeptides.co.uk/products/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/go/bio-peptides-uk/cagrilintide",
+    "visitorId": "c0fc1ac012219403"
+  },
+  {
+    "ts": "2026-10-03T00:16:50.364Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "acth-1-39",
+    "destUrl": "https://bionikpeptides.com/products/acth-1-391",
+    "refPage": "https://www.viralpeps.co.uk/vendors/bionik-peptides",
+    "visitorId": "56deb68efd942283"
   }
 ]
