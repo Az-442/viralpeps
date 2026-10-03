@@ -25373,5 +25373,70 @@
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://evapeptide.co.uk/product/buy-pt-141-uk/",
     "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-10-03T02:34:14.706Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-pt-141-uk/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-03T02:39:42.348Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://peptx.co.uk/single-vials/pt-141",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pt-141",
+    "visitorId": "db7230ea4c752f9a"
+  },
+  {
+    "ts": "2026-10-03T02:51:41.975Z",
+    "type": "vendor-site",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "destUrl": "https://advancedpeptidesuk.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/advanced-peptides-uk",
+    "visitorId": "5c123205d5c58328"
+  },
+  {
+    "ts": "2026-10-03T02:53:16.695Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "8e19dd84a788ceae"
+  },
+  {
+    "ts": "2026-10-03T02:58:42.659Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "b39f8586e37ee6e8"
+  },
+  {
+    "ts": "2026-10-03T03:00:51.192Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "b39f8586e37ee6e8"
+  },
+  {
+    "ts": "2026-10-03T03:06:16.496Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "semax-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/semax-5mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/evolve-peptides",
+    "visitorId": "c1bfd16b30a4a210"
   }
 ]
