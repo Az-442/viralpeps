@@ -25438,5 +25438,73 @@
     "destUrl": "https://evolvepeptides.uk/products/semax-5mg",
     "refPage": "https://www.viralpeps.co.uk/vendors/evolve-peptides",
     "visitorId": "c1bfd16b30a4a210"
+  },
+  {
+    "ts": "2026-10-03T03:06:39.032Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://chiltonlabs.co.uk/product/cagrilintide-5mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chilton-labs",
+    "visitorId": "4e1bd7c0d2345fc6"
+  },
+  {
+    "ts": "2026-10-03T03:06:46.602Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://chiltonlabs.co.uk/product/cagrilintide-5mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chilton-labs",
+    "visitorId": "7f957a5f6929c263"
+  },
+  {
+    "ts": "2026-10-03T03:16:12.313Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/bluewell-peptides",
+    "visitorId": "c2ce6474e1654224"
+  },
+  {
+    "ts": "2026-10-03T03:19:19.123Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "b39f8586e37ee6e8"
+  },
+  {
+    "ts": "2026-10-03T03:23:54.310Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e457dcf3821ec942"
+  },
+  {
+    "ts": "2026-10-03T03:24:00.552Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ea5891bcceaaa0e7"
+  },
+  {
+    "ts": "2026-10-03T03:44:49.771Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/semaglutide",
+    "refPage": "https://www.viralpeps.co.uk/compound-guides/semaglutide-price-comparison-uk",
+    "visitorId": "a6004b9e74829626"
   }
 ]
