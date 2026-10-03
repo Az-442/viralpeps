@@ -25098,5 +25098,138 @@
     "destUrl": "https://pyroxlabs.co.uk/product/rt3-5mg/",
     "refPage": "https://www.viralpeps.co.uk/compound-guides/where-to-buy-retatrutide",
     "visitorId": "12fe663d9f4de672"
+  },
+  {
+    "ts": "2026-10-03T00:51:49.896Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "destUrl": "https://www.researchpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/research-peptides-uk-main",
+    "visitorId": "c6f07615be653dae"
+  },
+  {
+    "ts": "2026-10-03T00:59:28.270Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides",
+    "visitorId": "83cf79f165e7998b"
+  },
+  {
+    "ts": "2026-10-03T00:59:34.969Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides",
+    "visitorId": "7b1afd834f7eb47a"
+  },
+  {
+    "ts": "2026-10-03T00:59:40.094Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/brit-peptides",
+    "visitorId": "8c46cda3b0a850df"
+  },
+  {
+    "ts": "2026-10-03T01:01:13.391Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides",
+    "visitorId": "de3570977aae011c"
+  },
+  {
+    "ts": "2026-10-03T01:01:20.105Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://peptidesuk.com/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptides-uk",
+    "visitorId": "a1fb0fb0f4c4787c"
+  },
+  {
+    "ts": "2026-10-03T01:01:21.161Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://biohackpeptides.co.uk/product/cjc-1295-no-dac-5mg-3ml-bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biohack-peptides",
+    "visitorId": "f2d3151c115a6410"
+  },
+  {
+    "ts": "2026-10-03T01:01:36.090Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "pt-141-bremelanotide-10mg",
+    "destUrl": "https://pslabs.uk/products/pt-141-bremelanotide-10mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ps-labs",
+    "visitorId": "9d99b02e13adcdad"
+  },
+  {
+    "ts": "2026-10-03T01:03:14.437Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kpv",
+    "visitorId": "947902bc79d631ca"
+  },
+  {
+    "ts": "2026-10-03T01:03:19.259Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kpv",
+    "visitorId": "c541bbff0485f7ec"
+  },
+  {
+    "ts": "2026-10-03T01:03:22.772Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kpv",
+    "visitorId": "4ca417cc438cc11d"
+  },
+  {
+    "ts": "2026-10-03T01:10:05.736Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-10-03T01:10:10.392Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-03T01:26:06.784Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://supplypeptides.co.uk/products/pt-141",
+    "visitorId": "6829883754155058"
   }
 ]
