@@ -30287,5 +30287,63 @@
     "destUrl": "https://ukpeptidelab.co.uk/product/5-amino-1mq",
     "refPage": "https://www.viralpeps.co.uk/vendors/uk-peptide-lab",
     "visitorId": "e5b763215ae1379c"
+  },
+  {
+    "ts": "2026-10-03T12:10:23.475Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://phoenixbiolabs.net/shop/glutathione-1500mg-prefilled-premixed-pen-research-compound-copy/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f24a2475b220be14"
+  },
+  {
+    "ts": "2026-10-03T12:21:21.604Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "kpv",
+    "destUrl": "https://helixcore.co.uk/products/kpv",
+    "refPage": "https://www.viralpeps.co.uk/vendors/helix-core",
+    "visitorId": "14f470027412ae8c"
+  },
+  {
+    "ts": "2026-10-03T12:25:15.256Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "5c3fa12ac94637f1"
+  },
+  {
+    "ts": "2026-10-03T12:25:23.095Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "270b4176b0dc52c2"
+  },
+  {
+    "ts": "2026-10-03T12:25:24.961Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "6b0ee090ebcd743c"
+  },
+  {
+    "ts": "2026-10-03T12:34:23.100Z",
+    "type": "vendor-site",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "destUrl": "https://jgpeptidesplus.com",
+    "visitorId": "d31ad397d961b343"
   }
 ]
