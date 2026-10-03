@@ -4384,5 +4384,15 @@
     "vendorName": "BIOHACKERxLAB",
     "destUrl": "https://biohackerxlab.com",
     "visitorId": "fb05e7ba7449c1a7"
+  },
+  {
+    "ts": "2026-10-03T23:26:02.077Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0b263e992d96140e"
   }
 ]
