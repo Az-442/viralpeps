@@ -10366,5 +10366,91 @@
     "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "e40a9dd8ea81f0da"
+  },
+  {
+    "ts": "2026-10-04T13:53:53.608Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "311105e11d21fea0"
+  },
+  {
+    "ts": "2026-10-04T13:56:01.721Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ac7f95ba12bba405"
+  },
+  {
+    "ts": "2026-10-04T13:56:06.665Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "13929f5d8a34441c"
+  },
+  {
+    "ts": "2026-10-04T14:02:11.774Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.stratfordpeptides.com/products/bcp-157",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-04T14:02:16.850Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.stratfordpeptides.com/products/bcp-157",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-04T14:04:06.357Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "teriparatide",
+    "destUrl": "https://vialverse.com/peptides/teriparatide",
+    "visitorId": "c9b1bf1d083c2073"
+  },
+  {
+    "ts": "2026-10-04T14:15:02.013Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "1e0b9f0d72bc5afb"
+  },
+  {
+    "ts": "2026-10-04T14:22:31.888Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://chromapeptides.co.uk/product/ss-31/",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-10-04T14:25:38.948Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://everythingpeptides.co.uk/products/pinealon",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "83cf79f165e7998b"
   }
 ]
