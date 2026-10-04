@@ -14251,5 +14251,148 @@
     "vendorName": "VialVerse",
     "destUrl": "https://vialverse.com",
     "visitorId": "0b7aec86910f1fc8"
+  },
+  {
+    "ts": "2026-10-04T23:18:37.213Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "cabf99d1a1d74e31"
+  },
+  {
+    "ts": "2026-10-04T23:22:22.242Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
+    "visitorId": "02b14c2766709225"
+  },
+  {
+    "ts": "2026-10-04T23:23:26.904Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "dsip",
+    "destUrl": "https://vialverse.com/peptides/dsip",
+    "visitorId": "d21c74ac0e3f5973"
+  },
+  {
+    "ts": "2026-10-04T23:31:20.041Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://vialverse.com/peptides/thymulin",
+    "visitorId": "0c5ce2c07ec393d9"
+  },
+  {
+    "ts": "2026-10-04T23:31:31.809Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://vialverse.com/peptides/thymulin",
+    "visitorId": "94ab734ac5e1cdab"
+  },
+  {
+    "ts": "2026-10-04T23:33:22.490Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "visitorId": "d8c67940ca330bc3"
+  },
+  {
+    "ts": "2026-10-04T23:33:37.797Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "visitorId": "0503bca56eb91a68"
+  },
+  {
+    "ts": "2026-10-04T23:38:25.754Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+    "visitorId": "da3f03cad36bf602"
+  },
+  {
+    "ts": "2026-10-04T23:38:47.913Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+    "visitorId": "806e6a47a3dd5219"
+  },
+  {
+    "ts": "2026-10-04T23:39:04.430Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+    "visitorId": "a07c19a104d9e6d4"
+  },
+  {
+    "ts": "2026-10-04T23:44:03.415Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.kingsbiolabs.co.uk/cjc-1295-ipamorelin",
+    "visitorId": "0ed5ca7248ac05a8"
+  },
+  {
+    "ts": "2026-10-04T23:44:13.158Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.kingsbiolabs.co.uk/cjc-1295-ipamorelin",
+    "visitorId": "702d5bf1f10f8f6e"
+  },
+  {
+    "ts": "2026-10-04T23:44:24.026Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://bionikpeptides.com/products/semaglutide",
+    "visitorId": "e6746f097cb15f3e"
+  },
+  {
+    "ts": "2026-10-04T23:44:25.431Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://bionikpeptides.com/products/semaglutide",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-10-04T23:44:26.762Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://bionikpeptides.com/products/semaglutide",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-10-04T23:52:46.326Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://vialverse.com/peptides/cjc-1295-with-dac",
+    "visitorId": "f562b8103accaa01"
   }
 ]
