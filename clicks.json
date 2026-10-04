@@ -14121,5 +14121,127 @@
     "vendorName": "Evolve Peptides",
     "destUrl": "https://evolvepeptides.uk",
     "visitorId": "9002a65985e1efbc"
+  },
+  {
+    "ts": "2026-10-04T22:19:25.155Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ahk-cu-100mg",
+    "destUrl": "https://pslabs.uk/products/ahk-cu-100mg",
+    "visitorId": "0211f2c3087ffd23"
+  },
+  {
+    "ts": "2026-10-04T22:19:35.365Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ahk-cu-100mg",
+    "destUrl": "https://pslabs.uk/products/ahk-cu-100mg",
+    "visitorId": "9acc5282669b1e30"
+  },
+  {
+    "ts": "2026-10-04T22:19:45.851Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ahk-cu-100mg",
+    "destUrl": "https://pslabs.uk/products/ahk-cu-100mg",
+    "visitorId": "f293db897d95c347"
+  },
+  {
+    "ts": "2026-10-04T22:27:16.591Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-100-tablets",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/",
+    "visitorId": "2534e23e43d72bfb"
+  },
+  {
+    "ts": "2026-10-04T22:29:23.019Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://helixcore.co.uk/products/epitalon",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-10-04T22:29:33.884Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://helixcore.co.uk/products/epitalon",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-04T22:31:24.434Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.kingsbiolabs.co.uk/thymosin-alpha-1",
+    "visitorId": "32c244073f856944"
+  },
+  {
+    "ts": "2026-10-04T22:33:46.329Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.kingsbiolabs.co.uk/mots-c",
+    "visitorId": "b089dea27361bb86"
+  },
+  {
+    "ts": "2026-10-04T22:35:16.739Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "c35b8e6e8ae3fd48"
+  },
+  {
+    "ts": "2026-10-04T22:36:38.658Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk",
+    "visitorId": "abd57d3b93da45c4"
+  },
+  {
+    "ts": "2026-10-04T22:37:57.983Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "visitorId": "01921abc88909127"
+  },
+  {
+    "ts": "2026-10-04T22:38:18.292Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.kingsbiolabs.co.uk/dsip",
+    "visitorId": "f95283e007ec4fff"
+  },
+  {
+    "ts": "2026-10-04T22:39:41.041Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "visitorId": "01921abc88909127"
+  },
+  {
+    "ts": "2026-10-04T22:40:42.589Z",
+    "type": "vendor-site",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "destUrl": "https://bluewellpeptides.com",
+    "visitorId": "689e75cdba72a430"
   }
 ]
