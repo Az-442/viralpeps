@@ -10149,5 +10149,91 @@
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://peptideslabuk.com/product/pt-141/",
     "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-10-04T11:41:01.136Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://everythingpeptides.co.uk/products/glutathione",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "cd08a9d5312ab44d"
+  },
+  {
+    "ts": "2026-10-04T11:42:26.064Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "03064ab8d3f0ebe3"
+  },
+  {
+    "ts": "2026-10-04T11:53:13.641Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "destUrl": "https://www.uk-peptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/uk-peptides-com",
+    "visitorId": "fd649a6e0d2c42a8"
+  },
+  {
+    "ts": "2026-10-04T12:03:37.949Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.uk-peptides.com/cjc-1295-mod-grf",
+    "refPage": "https://www.viralpeps.co.uk/compounds/cjc-1295-no-dac",
+    "visitorId": "83cf79f165e7998b"
+  },
+  {
+    "ts": "2026-10-04T12:03:42.132Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.uk-peptides.com/cjc-1295-mod-grf",
+    "refPage": "https://www.viralpeps.co.uk/compounds/cjc-1295-no-dac",
+    "visitorId": "2451122bcb1a607f"
+  },
+  {
+    "ts": "2026-10-04T12:08:26.410Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://everythingpeptides.co.uk/products/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "d6e00488db136c2f"
+  },
+  {
+    "ts": "2026-10-04T12:09:03.380Z",
+    "type": "vendor-site",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "destUrl": "https://chiltonlabs.co.uk",
+    "visitorId": "c0171c6b3e2c8050"
+  },
+  {
+    "ts": "2026-10-04T12:09:22.481Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "3b842389d76e880f"
+  },
+  {
+    "ts": "2026-10-04T12:18:09.060Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
+    "refPage": "https://www.viralpeps.co.uk/compound-guides/where-to-buy-tirzepatide-uk",
+    "visitorId": "fbb9b5be0e061340"
   }
 ]
