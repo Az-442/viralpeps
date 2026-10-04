@@ -11040,5 +11040,136 @@
     "compoundSlug": "pancragen",
     "destUrl": "https://tidelabs.co.uk/products/pancragen-research-peptide",
     "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-10-04T17:43:57.875Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "a27b4cd9b4fdca02"
+  },
+  {
+    "ts": "2026-10-04T17:46:39.974Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/",
+    "visitorId": "e0565947fa96ad61"
+  },
+  {
+    "ts": "2026-10-04T17:46:50.218Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/",
+    "visitorId": "af7f99be5f556a63"
+  },
+  {
+    "ts": "2026-10-04T17:47:19.781Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/klow-blend.html",
+    "visitorId": "4e7cb05e2fdd3a2a"
+  },
+  {
+    "ts": "2026-10-04T17:47:31.733Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/klow-blend.html",
+    "visitorId": "c443644134806f6a"
+  },
+  {
+    "ts": "2026-10-04T17:47:45.817Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/klow-blend.html",
+    "visitorId": "9dbca4a423c97310"
+  },
+  {
+    "ts": "2026-10-04T17:48:22.191Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://pioneerpeptides.co.uk/products/kpv/",
+    "visitorId": "0de17035a765d265"
+  },
+  {
+    "ts": "2026-10-04T17:50:12.580Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/",
+    "visitorId": "f23acae7ed55a7d2"
+  },
+  {
+    "ts": "2026-10-04T17:50:31.802Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semax",
+    "destUrl": "https://mypepbiotech.co.uk/product/semax/",
+    "visitorId": "8dc8f9be1ef145a0"
+  },
+  {
+    "ts": "2026-10-04T17:50:57.289Z",
+    "type": "vendor-site",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "destUrl": "https://kyrolabspeptides.co.uk",
+    "visitorId": "66fdd216d9db94a1"
+  },
+  {
+    "ts": "2026-10-04T17:51:09.767Z",
+    "type": "vendor-site",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "destUrl": "https://kyrolabspeptides.co.uk",
+    "visitorId": "1ca21463af18f3ad"
+  },
+  {
+    "ts": "2026-10-04T17:52:23.654Z",
+    "type": "vendor-site",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "destUrl": "https://advancedpeptidesuk.co.uk",
+    "visitorId": "3c60853cded64770"
+  },
+  {
+    "ts": "2026-10-04T17:54:10.526Z",
+    "type": "vendor-site",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "destUrl": "https://apexpure.co.uk",
+    "visitorId": "1a292979993eb185"
+  },
+  {
+    "ts": "2026-10-04T17:54:29.335Z",
+    "type": "vendor-site",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "destUrl": "https://apexpure.co.uk",
+    "visitorId": "832f2a3432921c76"
+  },
+  {
+    "ts": "2026-10-04T17:59:29.007Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://peptidesuk.com/pal-ghk/",
+    "visitorId": "93a36b7ea5ddcc2b"
   }
 ]
