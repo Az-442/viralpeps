@@ -4423,5 +4423,59 @@
     "destUrl": "https://claripep.co.uk/product/bpc-157-5mg/",
     "refPage": "https://www.viralpeps.co.uk/vendors/claripep",
     "visitorId": "1d59e6f3c3e330f9"
+  },
+  {
+    "ts": "2026-10-04T02:20:05.224Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://unitedpeptides.co.uk/product/tirzepatide-60mg/",
+    "visitorId": "e36e0e637040e62f"
+  },
+  {
+    "ts": "2026-10-04T02:24:46.153Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "ceb365ba0858f698"
+  },
+  {
+    "ts": "2026-10-04T02:25:19.019Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
+    "visitorId": "b3ff0cc7bd42b56b"
+  },
+  {
+    "ts": "2026-10-04T02:25:40.812Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.stratfordpeptides.com/products/tirzepatide",
+    "visitorId": "dad261dc89fb624e"
+  },
+  {
+    "ts": "2026-10-04T02:25:47.429Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/tirzepatide",
+    "visitorId": "28160ec415e57cdc"
+  },
+  {
+    "ts": "2026-10-04T02:30:33.914Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "3fc247eae774b13d"
   }
 ]
