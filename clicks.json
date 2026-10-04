@@ -10452,5 +10452,122 @@
     "destUrl": "https://everythingpeptides.co.uk/products/pinealon",
     "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
     "visitorId": "83cf79f165e7998b"
+  },
+  {
+    "ts": "2026-10-04T14:25:42.572Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://everythingpeptides.co.uk/products/pinealon",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "0f9aa203978cfcc7"
+  },
+  {
+    "ts": "2026-10-04T14:26:55.929Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://everythingpeptides.co.uk/products/snap-8-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "8d4e834fda1088a2"
+  },
+  {
+    "ts": "2026-10-04T14:30:41.058Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company",
+    "visitorId": "d16fc62fe0c20723"
+  },
+  {
+    "ts": "2026-10-04T14:30:52.890Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company",
+    "visitorId": "c995fe7febb43f4c"
+  },
+  {
+    "ts": "2026-10-04T14:34:25.084Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://everythingpeptides.co.uk/products/oxytocin-acetate",
+    "refPage": "https://www.viralpeps.co.uk/go/mypep-biotech/oxytocin",
+    "visitorId": "b0038ff10e8a4826"
+  },
+  {
+    "ts": "2026-10-04T14:34:29.377Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://everythingpeptides.co.uk/products/oxytocin-acetate",
+    "refPage": "https://www.viralpeps.co.uk/go/mypep-biotech/oxytocin",
+    "visitorId": "88d3ee7991a3ef73"
+  },
+  {
+    "ts": "2026-10-04T14:46:12.715Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "destUrl": "https://thepeptidecompany.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company",
+    "visitorId": "f3177251c90a1784"
+  },
+  {
+    "ts": "2026-10-04T14:46:20.520Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "destUrl": "https://thepeptidecompany.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company",
+    "visitorId": "c0fc1ac012219403"
+  },
+  {
+    "ts": "2026-10-04T14:46:26.213Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "destUrl": "https://thepeptidecompany.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company",
+    "visitorId": "14f470027412ae8c"
+  },
+  {
+    "ts": "2026-10-04T14:53:37.542Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pyroxlabs.co.uk/product/bpc-157-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/mypep-biotech/bpc-157",
+    "visitorId": "da484bf7082d9f41"
+  },
+  {
+    "ts": "2026-10-04T14:53:48.676Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pyroxlabs.co.uk/product/bpc-157-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/mypep-biotech/bpc-157",
+    "visitorId": "4fb337091a96ab6e"
+  },
+  {
+    "ts": "2026-10-04T14:57:43.763Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3270d7800e7754fc"
   }
 ]
