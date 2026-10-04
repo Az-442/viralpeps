@@ -6777,5 +6777,449 @@
     "destUrl": "https://chromapeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides",
     "visitorId": "c1b3854b5b98aa5d"
+  },
+  {
+    "ts": "2026-10-04T07:36:21.006Z",
+    "type": "vendor-site",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "destUrl": "https://chromapeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/chroma-peptides",
+    "visitorId": "9275e800c41a2364"
+  },
+  {
+    "ts": "2026-10-04T07:36:35.932Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopeptides-uk.com/product/nad-500mg/",
+    "visitorId": "9cb7ac77d37dfe3e"
+  },
+  {
+    "ts": "2026-10-04T07:36:59.283Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen",
+    "refPage": "https://www.viralpeps.co.uk/compounds/cjc-1295-ipamorelin-blend",
+    "visitorId": "5dfe3f0580e62d68"
+  },
+  {
+    "ts": "2026-10-04T07:36:59.318Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/semaglutide",
+    "visitorId": "bb8b567536b91f70"
+  },
+  {
+    "ts": "2026-10-04T07:36:59.922Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-pharma",
+    "visitorId": "eb588cea2c6e2860"
+  },
+  {
+    "ts": "2026-10-04T07:37:01.675Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/semaglutide",
+    "visitorId": "296471d14d3e0690"
+  },
+  {
+    "ts": "2026-10-04T07:37:03.317Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-pharma",
+    "visitorId": "8dc28314822da839"
+  },
+  {
+    "ts": "2026-10-04T07:37:06.385Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/semaglutide",
+    "visitorId": "32c85d570a6de097"
+  },
+  {
+    "ts": "2026-10-04T07:37:17.191Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/apex-pharma",
+    "visitorId": "3823950e5893d5b5"
+  },
+  {
+    "ts": "2026-10-04T07:37:22.650Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157",
+    "visitorId": "ade6c86792f68ff5"
+  },
+  {
+    "ts": "2026-10-04T07:37:25.281Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157",
+    "visitorId": "b267442080e84726"
+  },
+  {
+    "ts": "2026-10-04T07:37:28.510Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157",
+    "visitorId": "2a7aadb1c4b9a91a"
+  },
+  {
+    "ts": "2026-10-04T07:38:37.916Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidepal.co.uk/products/ghkcu",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-04T07:38:50.709Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "dsip-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk",
+    "visitorId": "3b8fac8db5173008"
+  },
+  {
+    "ts": "2026-10-04T07:39:02.950Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "dsip-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk",
+    "visitorId": "296471d14d3e0690"
+  },
+  {
+    "ts": "2026-10-04T07:39:09.335Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "dsip-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/dsip-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk",
+    "visitorId": "11fc7eaee3f6d218"
+  },
+  {
+    "ts": "2026-10-04T07:46:54.481Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pt-141-bremelanotide",
+    "visitorId": "c1bfd16b30a4a210"
+  },
+  {
+    "ts": "2026-10-04T07:46:57.583Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pt-141-bremelanotide",
+    "visitorId": "9139a10abb425804"
+  },
+  {
+    "ts": "2026-10-04T07:47:01.805Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/compounds/pt-141-bremelanotide",
+    "visitorId": "b008898924b9da70"
+  },
+  {
+    "ts": "2026-10-04T07:49:24.541Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk",
+    "visitorId": "51681fc2ccb627f2"
+  },
+  {
+    "ts": "2026-10-04T07:49:28.142Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk",
+    "visitorId": "2a7aadb1c4b9a91a"
+  },
+  {
+    "ts": "2026-10-04T07:49:31.522Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk",
+    "visitorId": "c4b0b42b53eade11"
+  },
+  {
+    "ts": "2026-10-04T07:49:38.393Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-hulk-stack-10mg-ipamorelin-5mg-cjc-w-o-dac-5mg-research-grade-material-for-laboratory-use-only/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/dr-peptides",
+    "visitorId": "2790750cd6a4cacb"
+  },
+  {
+    "ts": "2026-10-04T07:52:00.045Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "98ebc2cafa724fe3"
+  },
+  {
+    "ts": "2026-10-04T07:53:06.529Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tirzepatide",
+    "visitorId": "d76612ec2aaa686c"
+  },
+  {
+    "ts": "2026-10-04T07:53:33.082Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghrp-2-acetate",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "2836d9279524828b"
+  },
+  {
+    "ts": "2026-10-04T07:54:38.282Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ipamorelin",
+    "visitorId": "88d3ee7991a3ef73"
+  },
+  {
+    "ts": "2026-10-04T07:54:40.865Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ipamorelin",
+    "visitorId": "6b7a2d9df13364ae"
+  },
+  {
+    "ts": "2026-10-04T07:55:06.577Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "02849ec61173d12a"
+  },
+  {
+    "ts": "2026-10-04T07:55:58.349Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://vialverse.com/peptides/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/vendors/vialverse",
+    "visitorId": "3823950e5893d5b5"
+  },
+  {
+    "ts": "2026-10-04T07:56:05.222Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "990dfaac2b1aea05"
+  },
+  {
+    "ts": "2026-10-04T07:56:19.751Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tesamorelin-uk/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/tesamorelin",
+    "visitorId": "cb5ee9f3e539dcd2"
+  },
+  {
+    "ts": "2026-10-04T07:57:10.962Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptx.co.uk/single-vials/semaglutide",
+    "refPage": "https://www.viralpeps.co.uk/compounds/semaglutide",
+    "visitorId": "3823950e5893d5b5"
+  },
+  {
+    "ts": "2026-10-04T07:57:27.491Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghk-cu",
+    "visitorId": "69be0ddf8fcdc263"
+  },
+  {
+    "ts": "2026-10-04T07:57:36.160Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghk-cu",
+    "visitorId": "fc8ffe7882622276"
+  },
+  {
+    "ts": "2026-10-04T07:58:15.044Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://chromapeptides.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghk-cu",
+    "visitorId": "189b4a5cc19f491f"
+  },
+  {
+    "ts": "2026-10-04T07:58:27.026Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://chromapeptides.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghk-cu",
+    "visitorId": "57f882468e0437db"
+  },
+  {
+    "ts": "2026-10-04T08:01:05.715Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://evapeptide.co.uk/product/buy-5-amino-1mq-uk/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/5-amino-1mq",
+    "visitorId": "c7535b87c71f959b"
+  },
+  {
+    "ts": "2026-10-04T08:02:39.253Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/glow/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/aegis-peptides",
+    "visitorId": "36844bc79cd78739"
+  },
+  {
+    "ts": "2026-10-04T08:02:46.071Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/glow/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/aegis-peptides",
+    "visitorId": "c8d6baecfa14b805"
+  },
+  {
+    "ts": "2026-10-04T08:02:59.537Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bebetterpeptides.com/products/buy-bpc-157-10mg",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bpc-157",
+    "visitorId": "54d67df19fd98af9"
+  },
+  {
+    "ts": "2026-10-04T08:05:43.397Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bacteriostatic-water",
+    "visitorId": "32c85d570a6de097"
+  },
+  {
+    "ts": "2026-10-04T08:05:45.570Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bacteriostatic-water",
+    "visitorId": "9d99b02e13adcdad"
+  },
+  {
+    "ts": "2026-10-04T08:05:50.469Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/bacteriostatic-water",
+    "visitorId": "c8c389876905a59b"
+  },
+  {
+    "ts": "2026-10-04T08:06:10.190Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "pbs-10ml",
+    "destUrl": "https://purepeptidesuk.com/product/pbs-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/pure-peptides-uk",
+    "visitorId": "02b629626636204e"
   }
 ]
