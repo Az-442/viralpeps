@@ -4662,5 +4662,54 @@
       },
       "checkedAt": "2026-10-02T00:45:34.241Z"
     }
+  },
+  {
+    "id": "british-peptide-labs",
+    "name": "British Peptide Labs",
+    "slug": "british-peptide-labs",
+    "website": "https://britishpeptidelabs.com",
+    "rating": 4.4,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "British Peptide Labs is a UK-registered research peptide supplier (AODAEMON LTD, Companies House No. 17176945, London) selling lyophilised research compounds strictly for in-vitro laboratory use. Each product page publishes the compound's identifiers (CAS, molecular formula, molecular weight, sequence), storage requirements and certificate status, backed by a public COA library. Orders dispatch same-day before 3pm via Royal Mail Tracked 24 with free UK shipping.",
+    "highlights": [
+      "UK-registered company (AODAEMON LTD, Companies House No. 17176945)",
+      "Certificate status shown on every product page with a public COA library",
+      "Same-day UK dispatch on orders placed before 3pm (Mon–Sat)",
+      "Free Royal Mail Tracked 24 shipping on every order (min £10)",
+      "Per-product identifiers: CAS, molecular formula, molecular weight, sequence",
+      "Research-use-only — not for human or veterinary use"
+    ],
+    "shipping": [
+      "Orders placed before 3pm (Mon–Sat) dispatched same day; after cut-off or Sunday dispatched next working day",
+      "Sent by Royal Mail Tracked 24, tracked from dispatch to delivery",
+      "UK shipping free on every order (minimum order value £10)",
+      "UK-only dispatch — no international shipping"
+    ],
+    "payment": [
+      "Card"
+    ],
+    "lastTested": "2026-10-04",
+    "labTested": true,
+    "email": "info@britishpeptidelabs.com",
+    "delivery": "Free UK shipping on every order (min £10) · Royal Mail Tracked 24 · same-day dispatch before 3pm Mon–Sat · UK-only",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-04T00:36:56.388Z"
+    }
   }
 ]

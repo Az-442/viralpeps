@@ -2820,5 +2820,34 @@
       "coa": "coa",
       "review": "reviews.io"
     }
+  },
+  "british-peptide-labs": {
+    "slug": "british-peptide-labs",
+    "website": "https://britishpeptidelabs.com",
+    "checkedAt": "2026-10-04T00:36:56.388Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "buy research peptides in the uk | british peptide labs"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 5,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "certificate of analys",
+      "review": null
+    }
   }
 }
