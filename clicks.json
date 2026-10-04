@@ -4758,5 +4758,65 @@
     "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/",
     "refPage": "https://www.viralpeps.co.uk/vendors/the-peptide-company",
     "visitorId": "16b5f59781b56b7b"
+  },
+  {
+    "ts": "2026-10-04T03:27:23.624Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://everythingpeptides.co.uk/products/kisspeptin-10",
+    "refPage": "https://www.viralpeps.co.uk/vendors/everything-peptides",
+    "visitorId": "35cb5f6f4f6a31cf"
+  },
+  {
+    "ts": "2026-10-04T03:34:51.928Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "36b4363eefe567b0"
+  },
+  {
+    "ts": "2026-10-04T03:34:56.173Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "943eb567dc292771"
+  },
+  {
+    "ts": "2026-10-04T03:35:34.922Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "bronchogen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-bronchogen/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/dr-peptides",
+    "visitorId": "54d67df19fd98af9"
+  },
+  {
+    "ts": "2026-10-04T03:35:35.012Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/kpv",
+    "visitorId": "d29f54301136d926"
+  },
+  {
+    "ts": "2026-10-04T03:36:38.732Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/compounds/ghk-cu",
+    "visitorId": "0c30982d3b399c1b"
   }
 ]
