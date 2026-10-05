@@ -17339,5 +17339,556 @@
     "compoundSlug": "5-amino-1mq-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
     "visitorId": "f68201c132481048"
+  },
+  {
+    "ts": "2026-10-05T07:38:41.911Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-epithalon-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/epithalon-10mg/",
+    "visitorId": "598659cb9b484f30"
+  },
+  {
+    "ts": "2026-10-05T07:38:55.836Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-epithalon-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/epithalon-10mg/",
+    "visitorId": "7a9db49c2da05164"
+  },
+  {
+    "ts": "2026-10-05T07:39:07.779Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-50mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "d436c4bebf0a8736"
+  },
+  {
+    "ts": "2026-10-05T07:39:47.738Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/vial",
+    "visitorId": "1144ebab4c8f911e"
+  },
+  {
+    "ts": "2026-10-05T07:40:19.391Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
+    "visitorId": "3e54cb1d766ffdd8"
+  },
+  {
+    "ts": "2026-10-05T07:41:25.105Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "selank",
+    "destUrl": "https://helixcore.co.uk/products/selank",
+    "visitorId": "dfd5607ac156efc8"
+  },
+  {
+    "ts": "2026-10-05T07:41:35.648Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "selank",
+    "destUrl": "https://helixcore.co.uk/products/selank",
+    "visitorId": "04dbe96710ce1070"
+  },
+  {
+    "ts": "2026-10-05T07:42:23.248Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://zentra-peptides.com/product/kpv-peptide/",
+    "visitorId": "f293db897d95c347"
+  },
+  {
+    "ts": "2026-10-05T07:42:27.835Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "visitorId": "c7f3285516543af8"
+  },
+  {
+    "ts": "2026-10-05T07:42:43.130Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "visitorId": "59d3bde2ed204ec1"
+  },
+  {
+    "ts": "2026-10-05T07:42:44.755Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://zentra-peptides.com/product/kpv-peptide/",
+    "visitorId": "eceefc499c7b443b"
+  },
+  {
+    "ts": "2026-10-05T07:42:54.129Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "visitorId": "aa82cd2daa03818d"
+  },
+  {
+    "ts": "2026-10-05T07:45:03.562Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vilon-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-10-05T07:45:06.583Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vilon-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/",
+    "visitorId": "1eb3230d1df9a94f"
+  },
+  {
+    "ts": "2026-10-05T07:45:11.811Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vilon-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-05T07:46:16.420Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://premiopeptides.co.uk/compounds/dsip",
+    "visitorId": "00e834e659bde4ee"
+  },
+  {
+    "ts": "2026-10-05T07:47:17.970Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+    "visitorId": "5a65286d39413487"
+  },
+  {
+    "ts": "2026-10-05T07:47:24.244Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pbs-10ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/",
+    "visitorId": "0d4fee2f4dec1f60"
+  },
+  {
+    "ts": "2026-10-05T07:47:30.049Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+    "visitorId": "bbb29e4f530f7a2e"
+  },
+  {
+    "ts": "2026-10-05T07:47:37.687Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pbs-10ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/",
+    "visitorId": "ba777bd3d3a26883"
+  },
+  {
+    "ts": "2026-10-05T07:47:50.437Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pbs-10ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/",
+    "visitorId": "cce68e229bf532ab"
+  },
+  {
+    "ts": "2026-10-05T07:47:50.664Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+    "visitorId": "4549df340a74523d"
+  },
+  {
+    "ts": "2026-10-05T07:49:04.604Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cjc-1295-nodac-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg/",
+    "visitorId": "6f5ed9e1c557453a"
+  },
+  {
+    "ts": "2026-10-05T07:49:21.179Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cjc-1295-nodac-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg/",
+    "visitorId": "6c4b7f5a374bc89e"
+  },
+  {
+    "ts": "2026-10-05T07:53:03.654Z",
+    "type": "vendor-site",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "destUrl": "https://olresearch.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ol-research",
+    "visitorId": "2ef414c4f3f1374e"
+  },
+  {
+    "ts": "2026-10-05T07:53:07.401Z",
+    "type": "vendor-site",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "destUrl": "https://olresearch.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ol-research",
+    "visitorId": "8ca24df068837243"
+  },
+  {
+    "ts": "2026-10-05T07:54:19.106Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "865c35c01d64f3ef"
+  },
+  {
+    "ts": "2026-10-05T07:54:21.364Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tirz3-15mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirz3-15mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "60aeb98e533401e1"
+  },
+  {
+    "ts": "2026-10-05T07:54:26.315Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bcff949baf27df3d"
+  },
+  {
+    "ts": "2026-10-05T07:54:28.561Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tirz3-15mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirz3-15mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "b450b914510ef58c"
+  },
+  {
+    "ts": "2026-10-05T07:54:35.817Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tirz3-15mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirz3-15mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "b96d2387dc4fd618"
+  },
+  {
+    "ts": "2026-10-05T07:56:25.063Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "abceac7e3f13b815"
+  },
+  {
+    "ts": "2026-10-05T07:56:45.400Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "59d998f8009fdd76"
+  },
+  {
+    "ts": "2026-10-05T07:56:57.472Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "b90fcb12f12d806b"
+  },
+  {
+    "ts": "2026-10-05T07:57:42.140Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://chromapeptides.co.uk/product/kisspeptin/",
+    "visitorId": "2695d4b4722a9df3"
+  },
+  {
+    "ts": "2026-10-05T07:57:55.801Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://chromapeptides.co.uk/product/kisspeptin/",
+    "visitorId": "49fa0fd798ff2e8c"
+  },
+  {
+    "ts": "2026-10-05T07:58:07.856Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-acetic-acid",
+    "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "caa7ec2a984ae687"
+  },
+  {
+    "ts": "2026-10-05T07:58:16.105Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-acetic-acid",
+    "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "661e045099277833"
+  },
+  {
+    "ts": "2026-10-05T07:58:22.783Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-acetic-acid",
+    "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "daa9241f1955e39d"
+  },
+  {
+    "ts": "2026-10-05T07:58:44.000Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pt-141-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/",
+    "visitorId": "3b859f650eb0711b"
+  },
+  {
+    "ts": "2026-10-05T07:58:54.174Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pt-141-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/",
+    "visitorId": "0b394f89a71a3fc4"
+  },
+  {
+    "ts": "2026-10-05T07:59:05.198Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pt-141-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/",
+    "visitorId": "4034f5a45957005b"
+  },
+  {
+    "ts": "2026-10-05T07:59:22.253Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://reta-uk.com/products/ghk-cu",
+    "visitorId": "a1a196cb143d1c5c"
+  },
+  {
+    "ts": "2026-10-05T07:59:34.684Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://reta-uk.com/products/ghk-cu",
+    "visitorId": "786d5e4a593ae13a"
+  },
+  {
+    "ts": "2026-10-05T07:59:44.805Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://reta-uk.com/products/ghk-cu",
+    "visitorId": "d256dad4ad69bbf1"
+  },
+  {
+    "ts": "2026-10-05T08:00:33.027Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "9130af6cd7dc93ab"
+  },
+  {
+    "ts": "2026-10-05T08:01:11.794Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-05T08:01:40.247Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg",
+    "visitorId": "8feb9cf25c7326d6"
+  },
+  {
+    "ts": "2026-10-05T08:01:44.789Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "testagen",
+    "destUrl": "https://midshirelabs.co.uk/products/testagen/",
+    "visitorId": "e6dede45b887b0c5"
+  },
+  {
+    "ts": "2026-10-05T08:01:51.546Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "testagen",
+    "destUrl": "https://midshirelabs.co.uk/products/testagen/",
+    "visitorId": "78b53f0cbe23804d"
+  },
+  {
+    "ts": "2026-10-05T08:01:57.430Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "testagen",
+    "destUrl": "https://midshirelabs.co.uk/products/testagen/",
+    "visitorId": "e3a56819a99e28d5"
+  },
+  {
+    "ts": "2026-10-05T08:02:00.566Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/kpv-30mg",
+    "visitorId": "2c67cd35f5184353"
+  },
+  {
+    "ts": "2026-10-05T08:03:21.711Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen",
+    "visitorId": "9f733e35ffe1bf2f"
+  },
+  {
+    "ts": "2026-10-05T08:04:46.206Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tesamorelin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "78cd716fcd0a7031"
+  },
+  {
+    "ts": "2026-10-05T08:04:46.244Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/leolab",
+    "visitorId": "db7230ea4c752f9a"
+  },
+  {
+    "ts": "2026-10-05T08:04:48.112Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/leolab",
+    "visitorId": "2edb6b9784c79d1a"
+  },
+  {
+    "ts": "2026-10-05T08:04:50.751Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/leolab",
+    "visitorId": "32e3c87bab1fa9db"
+  },
+  {
+    "ts": "2026-10-05T08:04:53.534Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tesamorelin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "0af8193ee3ab683d"
+  },
+  {
+    "ts": "2026-10-05T08:05:01.456Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tesamorelin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "32d27f4b83e9a264"
+  },
+  {
+    "ts": "2026-10-05T08:09:49.585Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/pt-141-bremelanotide-10mg/",
+    "visitorId": "e126ae8d2c82cf2f"
   }
 ]
