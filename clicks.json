@@ -14584,5 +14584,69 @@
     "compoundSlug": "selank",
     "destUrl": "https://www.kingsbiolabs.co.uk/selank",
     "visitorId": "dadb3fdb972e314e"
+  },
+  {
+    "ts": "2026-10-05T02:33:20.491Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/sermorelin/",
+    "visitorId": "ccebd31929d5a5e2"
+  },
+  {
+    "ts": "2026-10-05T02:38:56.025Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3ac70d6188554e97"
+  },
+  {
+    "ts": "2026-10-05T02:55:26.676Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://vialverse.com/peptides/sermorelin",
+    "visitorId": "7cfddc7a1803e8b0"
+  },
+  {
+    "ts": "2026-10-05T02:55:46.416Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://vialverse.com/peptides/sermorelin",
+    "visitorId": "c3d229aa21339809"
+  },
+  {
+    "ts": "2026-10-05T02:56:10.490Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bionikpeptides.com/products/sermorelin",
+    "visitorId": "a84fb47cda41268f"
+  },
+  {
+    "ts": "2026-10-05T02:56:31.247Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bionikpeptides.com/products/sermorelin",
+    "visitorId": "4fa4f8a20e178867"
+  },
+  {
+    "ts": "2026-10-05T03:13:05.550Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin",
+    "visitorId": "21c153e53049cfb9"
   }
 ]
