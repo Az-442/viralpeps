@@ -804,12 +804,32 @@ Commit: `2f21acd9` · pushed to main (0 unpushed).
 
 ---
 
+## Day 15 — Wed 30 Sep (2 articles) ✅ DONE (published 5 Oct 2026)
+
+**Shipped (actual slugs differ from plan — the plan's Day-15 pair was NOT written):**
+- `follistatin-344-vs-mgf` — **Follistatin 344 vs MGF** (comparison) — section:
+  comparisons — card: Pillow 2-vial comparison card
+- `selank-suppliers-uk` — **Selank suppliers UK** (supplier guide) — section:
+  research-hub — card: Pillow single-vial supplier card
+
+Both committed (`ddd62403`) and pushed to main; Vercel live, 200 with correct
+titles, in sitemap and linked from `/research`.
+
+**Fix applied this run:** both articles linked 2× to a non-existent
+`/research/uk-peptide-price-comparison` (404). Repointed to the real page
+`/research/uk-peptide-directory`. "Follistatin 344 vs MGF" card was missing
+(only the Selank card had been generated) — created via
+`scripts/make_kw_phase1_day15_comparison_card.py`.
+
+**Still outstanding from the original Day-15 plan (NOT written):**
+- `skin-hair-peptide-suppliers-uk` — **skin and hair peptide suppliers UK** (grouped) — research-hub
+- `uk-peptide-price-comparison` — **UK peptide price comparison** (pillar) — research-hub
+  (Note: the pillar slug the articles were wrongly linking to never existed. If it is still wanted, build it — otherwise the directory page is the working substitute.)
+
+---
+
 ## Next up
-**Day 15 — Wed 30 Sep (2 articles)**
-- `skin-hair-peptide-suppliers-uk` — **skin and hair peptide suppliers UK**
-  (grouped) — section: research-hub
-- `uk-peptide-price-comparison` — **UK peptide price comparison** (+ peptide
-  price comparison, compare peptide prices UK) (pillar) — section: research-hub
+*Day 15's planned pair was skipped in favour of the two comparison/supplier pieces above. Next run should either write the skipped pair or advance to Day 16 — do NOT re-write the two articles shipped on 5 Oct.*
 
 None of the two slugs exist yet. Day 15 is a `(grouped)` + `(pillar)` pair —
 both non-compound, so **both cards need photorealistic AI base imagery, NOT
