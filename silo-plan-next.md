@@ -287,6 +287,77 @@ with `esummary` — never draft from memory.
 
 ---
 
+## ✅ DONE — IPAMORELIN SILO (commit `6e281f69`)
+
+Queue item 5 of 5. Built per the locked SOP. Deploy verified live 2026-10-05.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-ipamorelin-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-ipamorelin-uk
+- https://www.viralpeps.co.uk/compound-guides/ipamorelin-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-ipamorelin-online-uk
+- https://www.viralpeps.co.uk/compound-guides/ipamorelin-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-ipamorelin-peptide
+
+**Verified metrics:** rendered words 1,761–2,307 (all ≥1,200) · titles 55–61 chars ·
+descriptions 155–160 chars · focus keyword in H1 + body · 80 unique live price rows on the
+full comparison spoke · 0 broken go-links (22 tested individually) · hub tiles present on
+`/compounds/ipamorelin` (6 compound-guides links) · index lists Ipamorelin · all 6 spokes in
+sitemap · `npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-05)
+
+⚠️ **Five of the six default modifiers returned ZERO UK results for Ipamorelin** — substituted,
+as the SOP requires. Ipamorelin is not a GLP-1, so the GLP-1 modifier set does not transfer
+(same pattern as Semax and Selank).
+
+| Modifier | Result |
+|---|---|
+| `where to buy ipamorelin uk` | ⚠️ **0 results** → substituted `where can i buy ipamorelin` (**exact #1**) |
+| `cheapest ipamorelin uk` | ⚠️ **0 results** → substituted `ipamorelin price uk` (under `ipamorelin price `) / `ipamorelin price` (**exact #3**) |
+| `ipamorelin price comparison uk` | ⚠️ **0 results** → substituted `ipamorelin price` (**exact #3**) |
+| `buy ipamorelin online uk` | ⚠️ **0 results** → substituted `buy ipamorelin uk` (**#3** under `buy ipamorelin `; also `ipamorelin buy uk` #1) |
+| `ipamorelin uk supplier` | ⚠️ **0 results** → substituted `ipamorelin for sale uk` (**exact #1**) |
+| `best ipamorelin peptide` | **exact match #1** — passed |
+
+Corroborating hits: `ipamorelin uk buy` (#4 under `ipamorelin uk `), `ipamorelin peptide buy uk`,
+`ipamorelin uk peptides`, `buy ipamorelin peptide`, `where can i buy ipamorelin peptide`.
+
+### ⚠️ Spoke 5 substitution detail
+`ipamorelin uk supplier` returned 0 results — no supplier-intent phrasing for Ipamorelin in UK
+autocomplete (same as Semax and Selank). Spoke 5 was built on **`ipamorelin for sale uk`**,
+which returned an exact #1 UK hit.
+
+### Collision check (KW Phase 1)
+`grep -niE "ipamorelin|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md` returned
+**zero ipamorelin matches**. Only unrelated pillar rows: `where-to-buy-peptides-uk` (line 34),
+`where-to-buy-tirzepatide-uk` (line 88), `cheapest-peptides-uk` (line 122).
+**No plan collisions — nothing removed.**
+
+### Data
+- 108 Ipamorelin rows (94 master sources + child variant entries) → 80 unique live go-links on
+  the full-table spoke.
+- Uses the `vendorSlugFor()` helper (the Semax fix) — resolves real slugs from `vendors.json`
+  instead of synthesising them, so **0 broken go-links** (verified: 22 tested individually, all 302/308).
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 9849822 — Ipamorelin, the first selective growth hormone secretagogue (Eur J Endocrinol 1998)
+- 10828840 — The GH secretagogues ipamorelin and GH-releasing peptide-6 increase bone mineral content in adult female rats (J Endocrinol 2000)
+- 19289567 — Efficacy of ipamorelin, a novel ghrelin mimetic, in a rodent model of postoperative ileus (J Pharmacol Exp Ther 2009)
+- 25331030 — Prospective, randomized, controlled proof-of-concept study of the ghrelin mimetic ipamorelin for postoperative ileus in bowel resection patients (Int J Colorectal Dis 2014)
+- 10496658 — Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (Pharm Res 1999)
+- 9879640 — Pharmacokinetic evaluation of ipamorelin with emphasis on nasal absorption (Xenobiotica 1998)
+- 29864719 — Analysis of new growth promoting black market products (Growth Horm IGF Res 2018)
+- 30136411 — Glycine-modified growth hormone secretagogues identified in seized doping material (Drug Test Anal 2019)
+
+### Files changed
+`src/data/ipamorelin-silo.ts` (new) · `src/data/ipamorelin-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 6 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block). Sitemap auto-includes via the registry.
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
@@ -397,8 +468,8 @@ Rule: **fold, don't canonicalise.** Canonicals are only for true duplicates.
 | 2 | **Semaglutide** | 27 | ✅ | ✅ strong — **BUILT** (`7b7f3051`) |
 | 3 | **Semax** | 83 | ✅ | ✅ (3 of 6 modifiers substituted) — **BUILT** (`a627fc5e`) |
 | 4 | **Selank** | 81 | ✅ | ✅ (4 of 6 modifiers substituted) — **BUILT** (`3d0f69be`) |
-| 5 | **Ipamorelin** | 91 | ✅ (verify) | growth-hormone family, big pool |
-| 6 | **MOTS-c** | 116 | ✅ (verify) | 3rd-largest pool |
+| 5 | **Ipamorelin** | 94 | ✅ | ✅ (5 of 6 modifiers substituted) — **BUILT** (`6e281f69`) |
+| 6 | **MOTS-c** | 116 | ✅ (verify) | 3rd-largest pool — **NEXT** |
 
 **Rule: only pick a compound whose spokes ALL appear in autocomplete.** Re-run the harvest
 script per compound; some modifiers (e.g. `for sale`) fail for non-GLP-1 compounds.
