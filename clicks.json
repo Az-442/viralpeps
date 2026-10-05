@@ -14871,5 +14871,379 @@
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://oplabs.co.uk/product/cjc-1295-with-dac-2mg/",
     "visitorId": "80ca5d5b5c9f74fb"
+  },
+  {
+    "ts": "2026-10-05T04:41:31.202Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://oplabs.co.uk/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "09a0dabc9a8c4d82"
+  },
+  {
+    "ts": "2026-10-05T04:41:41.895Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://oplabs.co.uk/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "b98d3b6077cf26fb"
+  },
+  {
+    "ts": "2026-10-05T04:45:18.085Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "59c9c6f8b74c94a4"
+  },
+  {
+    "ts": "2026-10-05T04:45:30.026Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "0540e3e22029dbc9"
+  },
+  {
+    "ts": "2026-10-05T04:52:42.875Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "bacteriostatic-water-0-9-sodium-chloride",
+    "destUrl": "https://researchpeptide.co.uk/product/bacteriostatic-water-0-9-sodium-chloride/",
+    "visitorId": "f48b28225109b359"
+  },
+  {
+    "ts": "2026-10-05T04:53:08.279Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/",
+    "visitorId": "e912b0b8b35404b7"
+  },
+  {
+    "ts": "2026-10-05T04:53:25.771Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/",
+    "visitorId": "b3b172e9e6c1cab2"
+  },
+  {
+    "ts": "2026-10-05T04:53:46.099Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.testedpeptides.co.uk/product/mots-c-peptide-10mg/",
+    "visitorId": "0baa4a47ab49582e"
+  },
+  {
+    "ts": "2026-10-05T04:54:01.118Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidesuk.com/semax/",
+    "visitorId": "dabf248b06ada00e"
+  },
+  {
+    "ts": "2026-10-05T04:54:10.602Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidesuk.com/semax/",
+    "visitorId": "5ec5cbd9f5153bb3"
+  },
+  {
+    "ts": "2026-10-05T04:54:24.472Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidesuk.com/semax/",
+    "visitorId": "60ae1c107dcfa1a9"
+  },
+  {
+    "ts": "2026-10-05T04:54:37.066Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tb-500-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "be16333346af5109"
+  },
+  {
+    "ts": "2026-10-05T04:54:42.100Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://polygonpeptides.co.uk/product/wolverine-blend-20mg/",
+    "visitorId": "a266a16b5ad8e54d"
+  },
+  {
+    "ts": "2026-10-05T04:54:44.055Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tb-500-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "a66739ee246efbf6"
+  },
+  {
+    "ts": "2026-10-05T04:54:54.680Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tb-500-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "d29f54301136d926"
+  },
+  {
+    "ts": "2026-10-05T04:55:53.496Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/",
+    "visitorId": "9cb79aa9feb64bf2"
+  },
+  {
+    "ts": "2026-10-05T04:56:22.391Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/",
+    "visitorId": "0b4f48b098c46c60"
+  },
+  {
+    "ts": "2026-10-05T04:56:39.679Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vesugen-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vesugen-20mg/",
+    "visitorId": "f90eb32314b80d75"
+  },
+  {
+    "ts": "2026-10-05T04:56:41.040Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/",
+    "visitorId": "4efc2db1fbaddbb2"
+  },
+  {
+    "ts": "2026-10-05T04:58:48.900Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
+    "visitorId": "49fbb9673f7ab9b3"
+  },
+  {
+    "ts": "2026-10-05T04:59:29.624Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://zentra-peptides.com/product/nad/",
+    "visitorId": "9a1f96acb553c991"
+  },
+  {
+    "ts": "2026-10-05T04:59:55.514Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://zentra-peptides.com/product/nad/",
+    "visitorId": "085a563b52031b26"
+  },
+  {
+    "ts": "2026-10-05T05:00:15.241Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://zentra-peptides.com/product/nad/",
+    "visitorId": "2a77fb529a847191"
+  },
+  {
+    "ts": "2026-10-05T05:00:27.831Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tesamorelin-research-peptide/",
+    "visitorId": "b81e4ebce2de3e8a"
+  },
+  {
+    "ts": "2026-10-05T05:00:38.174Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/tesamorelin-research-peptide/",
+    "visitorId": "be8dba41dca8fe07"
+  },
+  {
+    "ts": "2026-10-05T05:02:33.435Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghk-cu-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/pen",
+    "visitorId": "eff2915f4426cbec"
+  },
+  {
+    "ts": "2026-10-05T05:03:44.800Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://ukpeptidelab.co.uk/product/klow",
+    "visitorId": "e8079e1b1379cea9"
+  },
+  {
+    "ts": "2026-10-05T05:03:55.429Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://fatpigpeptides.co.uk/product/semax/",
+    "visitorId": "0f86cd201d4b2e89"
+  },
+  {
+    "ts": "2026-10-05T05:04:15.162Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://fatpigpeptides.co.uk/product/semax/",
+    "visitorId": "89c54fb4e13c3733"
+  },
+  {
+    "ts": "2026-10-05T05:04:32.374Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/",
+    "visitorId": "3cef599db3f9a761"
+  },
+  {
+    "ts": "2026-10-05T05:04:35.487Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://fatpigpeptides.co.uk/product/semax/",
+    "visitorId": "73e4f180ade18b11"
+  },
+  {
+    "ts": "2026-10-05T05:04:40.512Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/",
+    "visitorId": "2b9536986dbbea7a"
+  },
+  {
+    "ts": "2026-10-05T05:05:08.004Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1418347f2765d024"
+  },
+  {
+    "ts": "2026-10-05T05:05:49.805Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/eloralintide-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "687d1ebdc62f3821"
+  },
+  {
+    "ts": "2026-10-05T05:08:08.361Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://precision-peptides.shop/product/kpv-10mg/",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-10-05T05:08:12.455Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://precision-peptides.shop/product/kpv-10mg/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-10-05T05:08:13.534Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://octagonpeptides.co.uk/product/tb-500-10-mg/",
+    "visitorId": "5510075a20be217a"
+  },
+  {
+    "ts": "2026-10-05T05:08:16.748Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://precision-peptides.shop/product/kpv-10mg/",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-05T05:09:07.204Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://trutide.co.uk/product/wolverine/",
+    "visitorId": "a12f2b70162a439f"
+  },
+  {
+    "ts": "2026-10-05T05:09:25.518Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://trutide.co.uk/product/wolverine/",
+    "visitorId": "a914e02bce8e3b27"
+  },
+  {
+    "ts": "2026-10-05T05:11:32.247Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mq-nad-c-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen",
+    "visitorId": "37bbedfddeb7471f"
   }
 ]
