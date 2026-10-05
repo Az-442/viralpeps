@@ -14787,5 +14787,89 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://www.kingsbiolabs.co.uk/tb-500",
     "visitorId": "5e18b82317f5cc70"
+  },
+  {
+    "ts": "2026-10-05T04:21:29.927Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-ss-31-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ss-31-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "f407093fe963ecc3"
+  },
+  {
+    "ts": "2026-10-05T04:21:32.827Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-ss-31-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ss-31-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "fd649a6e0d2c42a8"
+  },
+  {
+    "ts": "2026-10-05T04:21:40.509Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-ss-31-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ss-31-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/vendors/sterling-peptides",
+    "visitorId": "a385d6d82996d389"
+  },
+  {
+    "ts": "2026-10-05T04:36:57.917Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "995c0dec804cca5a"
+  },
+  {
+    "ts": "2026-10-05T04:39:04.785Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://vialverse.com/peptides/cjc-1295-ipamorelin",
+    "visitorId": "0b203cd0c93dc1b6"
+  },
+  {
+    "ts": "2026-10-05T04:39:12.653Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "35c078b8e7ee284a"
+  },
+  {
+    "ts": "2026-10-05T04:39:22.761Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "a98b8df0e45ea602"
+  },
+  {
+    "ts": "2026-10-05T04:39:34.783Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "f6c4bd0d91e8f668"
+  },
+  {
+    "ts": "2026-10-05T04:41:14.307Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://oplabs.co.uk/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "80ca5d5b5c9f74fb"
   }
 ]
