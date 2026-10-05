@@ -231,22 +231,6 @@
         "image": "/images/products/stratford-peptides/tirzepatide.png"
       },
       {
-        "vendor": "Precision Peptides",
-        "url": "https://precision-peptides.shop/product/glp-2-tirz-15mg/",
-        "price": "£65.00",
-        "inStock": true,
-        "image": "/images/products/precision-peptides/glp-2-tirz-30mg.jpeg",
-        "dosage": "15mg"
-      },
-      {
-        "vendor": "Precision Peptides",
-        "url": "https://precision-peptides.shop/product/glp-2-tirz-30mg/",
-        "price": "£120.00",
-        "inStock": true,
-        "image": "/images/products/precision-peptides/glp-2-tirz-30mg.jpeg",
-        "dosage": "30mg"
-      },
-      {
         "vendor": "Astra Labs",
         "url": "https://astralabs.co.uk/product/tirzepatide-5mg-uk/",
         "price": "£24.99",
@@ -379,14 +363,6 @@
         "inStock": true,
         "image": "/images/products/applied-peptides/tirzepatide-30mg.webp",
         "dosage": "30mg"
-      },
-      {
-        "vendor": "SupplyPeptides",
-        "url": "https://supplypeptides.co.uk/products/tirz-20mg",
-        "price": "£50.00",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/supply-peptides/tirzepatide.webp"
       },
       {
         "vendor": "PepNOVA",
@@ -919,14 +895,6 @@
         "inStock": true,
         "image": "/images/products/peptx/semaglutide.webp",
         "dosage": "20mg"
-      },
-      {
-        "vendor": "SupplyPeptides",
-        "url": "https://supplypeptides.co.uk/products/sema",
-        "price": "£40.00",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/supply-peptides/semaglutide.webp"
       },
       {
         "vendor": "PeptidesX",
@@ -4643,22 +4611,6 @@
         "image": "/images/products/stratford-peptides/retatrutide.png"
       },
       {
-        "vendor": "Precision Peptides",
-        "url": "https://precision-peptides.shop/product/glp-3-reta-10mg/",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/precision-peptides/glp-3-reta-10mg.jpeg",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Precision Peptides",
-        "url": "https://precision-peptides.shop/product/glp-3-reta-20mg/",
-        "price": "£95.00",
-        "inStock": true,
-        "image": "/images/products/precision-peptides/glp-3-reta-10mg.jpeg",
-        "dosage": "20mg"
-      },
-      {
         "vendor": "Astra Labs",
         "url": "https://astralabs.co.uk/product/retatrutide-10mg-uk/",
         "price": "£59.99",
@@ -4871,14 +4823,6 @@
         "inStock": true,
         "image": "/images/products/applied-peptides/retatrutide-bundle-10mg.webp",
         "note": "Bundle 10mg"
-      },
-      {
-        "vendor": "SupplyPeptides",
-        "url": "https://supplypeptides.co.uk/products/retatrutide",
-        "price": "£50.00",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/supply-peptides/retatrutide.webp"
       },
       {
         "vendor": "PepNOVA",
