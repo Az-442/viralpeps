@@ -1566,6 +1566,29 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ['oxytocin', 'nasal-spray', 'intranasal', 'research-summary', 'nose-to-brain', 'oxytocin-receptor', 'social-cognition', 'autism', 'pharmacokinetics', 'neuropeptide'],
   },
+
+  {
+    title: "Follistatin 344 vs MGF: Removal vs Addition in Muscle Research",
+    desc: "A head-to-head on the two most-compared muscle peptides in the UK market, which have almost nothing in common. Follistatin 344 is a 344-residue secreted glycoprotein that neutralises myostatin and activin A, with phase 1/2a human gene-therapy trials in Becker muscular dystrophy and inclusion body myositis behind it. MGF is the IGF-1Ec splice variant, sold as a 24-residue E-domain fragment with no human data at all. Mechanisms, the Nakatani transgenic and Mendell trial evidence, the ocular safety signal, the fragment problem, and the two very different UK supply pictures - 10 vendors from GBP 39.95 for follistatin versus 8 vendors from GBP 10.95 for MGF.",
+    category: "Articles",
+    section: "comparisons",
+    compound: "Follistatin 344",
+    slug: "follistatin-344-vs-mgf",
+    image: "follistatin-344-vs-mgf",
+    minutes: 13,
+    tags: ["follistatin-344", "mgf", "mechano-growth-factor", "myostatin", "igf-1ec", "comparison", "muscle", "growth-hormone"],
+  },
+  {
+    title: "Selank Suppliers UK: Prices, Vendor Verification and the Nasal Spray Trap",
+    desc: "A supplier guide to Selank in the UK - 83 tracked listings across 72 vendors from GBP 7.50 to GBP 199.99, and what that price spread actually means. The four strands of the mechanism, the honest state of the human evidence, how to verify a vendor in a market where the same molecule sells at a 26x range, and why the nasal spray presentation and the lyophilised vial are not interchangeable.",
+    category: "Articles",
+    section: "research-hub",
+    compound: "Selank",
+    slug: "selank-suppliers-uk",
+    image: "selank-suppliers-uk",
+    minutes: 12,
+    tags: ["selank", "suppliers", "uk", "verify", "certificate-of-analysis", "tuftsin", "anxiolytic", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
