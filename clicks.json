@@ -14648,5 +14648,135 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://vialverse.com/peptides/tesamorelin",
     "visitorId": "21c153e53049cfb9"
+  },
+  {
+    "ts": "2026-10-05T03:13:19.860Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin",
+    "visitorId": "77c9233bb93fe159"
+  },
+  {
+    "ts": "2026-10-05T03:14:55.856Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://vialverse.com/peptides/thymosin-alpha-1",
+    "visitorId": "fa38ccd9721536ad"
+  },
+  {
+    "ts": "2026-10-05T03:15:13.143Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://vialverse.com/peptides/thymosin-alpha-1",
+    "visitorId": "5f37c2096360d95c"
+  },
+  {
+    "ts": "2026-10-05T03:24:50.993Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0d9c86495a364ad5"
+  },
+  {
+    "ts": "2026-10-05T03:24:59.035Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b2e0c9fc370026bf"
+  },
+  {
+    "ts": "2026-10-05T03:28:43.962Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.kingsbiolabs.co.uk/ss-31",
+    "visitorId": "0d4fee2f4dec1f60"
+  },
+  {
+    "ts": "2026-10-05T03:29:17.414Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "teriparatide",
+    "destUrl": "https://vialverse.com/peptides/teriparatide",
+    "visitorId": "ce7eb6c3220c21ac"
+  },
+  {
+    "ts": "2026-10-05T03:29:39.443Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "teriparatide",
+    "destUrl": "https://vialverse.com/peptides/teriparatide",
+    "visitorId": "3d5850a96b66d743"
+  },
+  {
+    "ts": "2026-10-05T03:32:54.551Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/",
+    "visitorId": "4ab43df3da8d24af"
+  },
+  {
+    "ts": "2026-10-05T03:33:17.151Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/",
+    "visitorId": "3a67a54574606837"
+  },
+  {
+    "ts": "2026-10-05T03:33:41.107Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bluewellpeptides.com/product/10ml-bacteriostatic-mixing-water/",
+    "visitorId": "fdb6b6f39eab3114"
+  },
+  {
+    "ts": "2026-10-05T03:42:16.742Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "nad-500mg",
+    "destUrl": "https://pslabs.uk/products/nad-500mg",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ps-labs",
+    "visitorId": "db22873ef901e703"
+  },
+  {
+    "ts": "2026-10-05T03:42:49.322Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.kingsbiolabs.co.uk/bpc-157",
+    "visitorId": "ccba9fcfb590e093"
+  },
+  {
+    "ts": "2026-10-05T03:44:01.879Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cagrilintide-5mg",
+    "refPage": "https://www.viralpeps.co.uk/go/bio-peptides-uk/cagrilintide",
+    "visitorId": "cd08a9d5312ab44d"
   }
 ]
