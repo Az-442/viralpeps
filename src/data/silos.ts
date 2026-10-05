@@ -3,6 +3,11 @@ import { TIRZ_SPOKES, getTrizStats, type TrizStats } from "@/data/tirzepatide-si
 import { SEMA_SPOKES, getSemaStats, type SemaStats } from "@/data/semaglutide-silo";
 import { SEMAX_SPOKES, getSemaxStats, type SemaxStats } from "@/data/semax-silo";
 import { SELANK_SPOKES, getSelankStats, type SelankStats } from "@/data/selank-silo";
+import {
+  IPAMORELIN_SPOKES,
+  getIpamorelinStats,
+  type IpamorelinStats,
+} from "@/data/ipamorelin-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -85,6 +90,14 @@ export const SILOS: Silo[] = [
     spokes: SELANK_SPOKES as unknown as SiloSpoke[],
     getStats: () => getSelankStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "ipamorelin",
+    name: "Ipamorelin",
+    blurb:
+      "Selective growth hormone secretagogue buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: IPAMORELIN_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getIpamorelinStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -100,4 +113,4 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats };
