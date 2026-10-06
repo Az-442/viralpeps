@@ -59,10 +59,19 @@ import {
   sortByTrust as ipamorelinSortByTrust,
   IPAMORELIN_SPOKES,
 } from "@/data/ipamorelin-silo";
+import { spokes as motsCSpokes, getSpoke as getMotsCSpoke } from "@/data/mots-c-spokes";
+import {
+  getMotsCRows,
+  getMotsCStats,
+  sortByPrice as motsCSortByPrice,
+  sortByPricePerMg as motsCSortByPricePerMg,
+  sortByTrust as motsCSortByTrust,
+  MOTS_C_SPOKES,
+} from "@/data/mots-c-silo";
 
 export const dynamic = "force-dynamic";
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -71,6 +80,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   semax: "Semax",
   selank: "Selank",
   ipamorelin: "Ipamorelin",
+  "mots-c": "MOTS-c",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -87,6 +97,8 @@ function resolveSpoke(slug: string) {
   if (selank) return { spoke: selank, compound: "selank" as const };
   const ipamorelin = getIpamorelinSpoke(slug);
   if (ipamorelin) return { spoke: ipamorelin, compound: "ipamorelin" as const };
+  const motsC = getMotsCSpoke(slug);
+  if (motsC) return { spoke: motsC, compound: "mots-c" as const };
   return null;
 }
 
@@ -98,6 +110,7 @@ export async function generateStaticParams() {
     ...semaxSpokes.map((s) => ({ slug: s.slug })),
     ...selankSpokes.map((s) => ({ slug: s.slug })),
     ...ipamorelinSpokes.map((s) => ({ slug: s.slug })),
+    ...motsCSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -228,6 +241,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "mots-c") {
+    const all = getMotsCRows();
+    let sorted = motsCSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = motsCSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = motsCSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -260,7 +287,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
             ? getSelankStats()
             : compound === "ipamorelin"
               ? getIpamorelinStats()
-              : getTrizStats();
+              : compound === "mots-c"
+                ? getMotsCStats()
+                : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
   const compoundName = COMPOUND_NAMES[compound];
@@ -275,7 +304,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
             ? SELANK_SPOKES
             : compound === "ipamorelin"
               ? IPAMORELIN_SPOKES
-              : TIRZ_SPOKES;
+              : compound === "mots-c"
+                ? MOTS_C_SPOKES
+                : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema

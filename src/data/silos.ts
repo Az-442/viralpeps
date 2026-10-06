@@ -8,6 +8,7 @@ import {
   getIpamorelinStats,
   type IpamorelinStats,
 } from "@/data/ipamorelin-silo";
+import { MOTS_C_SPOKES, getMotsCStats, type MotsCStats } from "@/data/mots-c-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -98,6 +99,14 @@ export const SILOS: Silo[] = [
     spokes: IPAMORELIN_SPOKES as unknown as SiloSpoke[],
     getStats: () => getIpamorelinStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "mots-c",
+    name: "MOTS-c",
+    blurb:
+      "Mitochondrial-derived peptide buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: MOTS_C_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getMotsCStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -113,4 +122,4 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats };
