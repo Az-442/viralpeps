@@ -1617,5 +1617,15 @@
     "compoundSlug": "dsip",
     "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/",
     "visitorId": "075da5c5c19376e2"
+  },
+  {
+    "ts": "2026-10-06T12:40:38.905Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb-500-nasal-spray",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ae15019cf14d96d1"
   }
 ]
