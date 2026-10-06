@@ -1473,5 +1473,14 @@
     "compoundSlug": "dsip",
     "destUrl": "https://midshirelabs.co.uk/products/dsip/",
     "visitorId": "e990519dbdb25b62"
+  },
+  {
+    "ts": "2026-10-06T10:35:21.809Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "f9d89c1c940e5290"
   }
 ]
