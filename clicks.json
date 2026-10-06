@@ -4192,5 +4192,132 @@
     "compoundSlug": "mots-c-5mg",
     "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
     "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-06T20:37:27.482Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-hgh-frag-176-191",
+    "destUrl": "https://sterlingpeptides.co.uk/product/hgh-frag-176-191/",
+    "visitorId": "eeb884027866fafb"
+  },
+  {
+    "ts": "2026-10-06T20:39:43.301Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "67c1cc223c2b2701"
+  },
+  {
+    "ts": "2026-10-06T20:40:25.825Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg",
+    "visitorId": "479ccfdab07f34b5"
+  },
+  {
+    "ts": "2026-10-06T20:48:18.427Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-06T20:48:20.309Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-06T20:53:23.583Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://biopeptides-uk.com/product/thymosin-alpha-1-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/bio-peptides-uk/thymosin-alpha-1",
+    "visitorId": "caed638a6a2916b6"
+  },
+  {
+    "ts": "2026-10-06T20:54:37.194Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-l-carnitine-10ml-research-only-solution-for-research-use-only/",
+    "visitorId": "705ed6a3d1b017e4"
+  },
+  {
+    "ts": "2026-10-06T20:54:44.473Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://allmypeptides.com/product/slu-pp-332/",
+    "visitorId": "b8cbad43ba0b6488"
+  },
+  {
+    "ts": "2026-10-06T21:01:25.818Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.stratfordpeptides.com/products/l-carnitine",
+    "visitorId": "2323ef8d1f721056"
+  },
+  {
+    "ts": "2026-10-06T21:02:30.487Z",
+    "type": "product",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://claripep.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "e37b935ce02e48e3"
+  },
+  {
+    "ts": "2026-10-06T21:04:35.046Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://phoenixbiolabs.net/shop/l-carnitine-3000/",
+    "visitorId": "e0a8930065936387"
+  },
+  {
+    "ts": "2026-10-06T21:04:36.063Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "f16382faa5189dbe"
+  },
+  {
+    "ts": "2026-10-06T21:04:39.212Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-06T21:06:30.147Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.novapeptide.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide/kpv",
+    "visitorId": "a2620c8e0ae8361e"
   }
 ]
