@@ -358,6 +358,90 @@ which returned an exact #1 UK hit.
 
 ---
 
+## ✅ DONE — MOTS-c SILO (commit `5c65227e` + `0e1b5e50`)
+
+Queue item 6 of 5 (final queued item). Built per the locked SOP. Deploy verified live 2026-10-06.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-mots-c-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-mots-c-uk
+- https://www.viralpeps.co.uk/compound-guides/mots-c-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-mots-c-online-uk
+- https://www.viralpeps.co.uk/compound-guides/mots-c-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-mots-c-peptide
+
+**Verified metrics:** rendered words 1,614–2,518 (all ≥1,200) · titles 50–55 chars ·
+descriptions 155–159 chars · focus keyword in H1 + intro[0] · 86 unique live go-links on the
+full comparison spoke (all resolve 302/308) · hub tiles present on `/compounds/mots-c`
+(6 compound-guides links) · index lists MOTS-c · all 6 spokes in sitemap · `npx tsc --noEmit`
+0 errors · `npm run build` clean.
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-06)
+
+⚠️ **Four of the six default modifiers returned ZERO UK results for MOTS-c** — substituted,
+as the SOP requires. MOTS-c is not a GLP-1, so the GLP-1 modifier set does not transfer
+(same pattern as Semax, Selank and Ipamorelin).
+
+| Modifier | Result |
+|---|---|
+| `where to buy mots-c uk` | **exact match #1** (`where to buy mots c uk`) — passed |
+| `cheapest mots-c uk` | ⚠️ **0 results** → substituted `cheapest mots c peptide` (**exact #1**) |
+| `mots-c price comparison uk` | ⚠️ **0 results** → substituted `mots c uk price` (**exact #1**) |
+| `buy mots-c online uk` | ⚠️ **0 results** → substituted `buy mots c peptide uk` (**exact #1**) |
+| `mots-c uk supplier` | ⚠️ **0 results** (`mots c supplier uk` / `mots c suppliers uk` also 0) → substituted `mots c for sale uk` (**exact #1**) |
+| `best mots-c peptide` | **exact match #1** — passed |
+
+Corroborating hits: `mots c uk where to buy` (#3 under `mots c uk `), `mots c uk price`,
+`mots c uk peptides`, `mots c buy online uk`, `mots c peptide buy online uk`,
+`buy mots c uk`, `mots c for sale` (broad), `cheapest mots c` (broad), `mots c prices`,
+`mots c best price`.
+
+Note: `mots-c` autocompletes in the hyphenated form for compound-level probes but the UK
+modifier probes resolve under the spaced form (`mots c`). Both were harvested; all six
+substitutions carry a real UK hit.
+
+### ⚠️ Spoke 5 substitution detail
+`mots-c uk supplier` returned 0 results — no supplier-intent phrasing for MOTS-c in UK
+autocomplete (same as Semax, Selank and Ipamorelin). Spoke 5 was built on
+**`mots c for sale uk`**, which returned an exact #1 UK hit.
+
+### Collision check (KW Phase 1)
+`grep -niE "mots|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`:
+- line 38 `mots-c-vs-5-amino-1mq` → **distinct (vs intent), KEPT.**
+- line 72 `mots-c-for-metabolism` → **informational, KEPT** (not shopping intent).
+- line 132 `aod-9604-vs-mots-c` → **distinct (vs intent), KEPT.**
+- line 174 `mots-c-suppliers-uk` → **informational, KEPT** (not a shopping-intent duplicate).
+- lines 34/88/122 pillar rows → no clash.
+**No plan collisions — nothing removed.**
+
+### Data
+- 121 MOTS-c sources in compounds.json (2 with `options[]` arrays) → 87 vendors.
+- Uses the `vendorSlugFor()` helper (the Semax fix) — resolves real slugs from `vendors.json`
+  instead of synthesising them, so **0 broken go-links** (verified: all 86 tested, 302/308).
+- 3 price rows have a non-mg pack label (e.g. "kit") and correctly show "—" per mg.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 25738459 — The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance (Cell Metab 2015)
+- 33473109 — MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis (Nat Commun 2021)
+- 39559755 — MOTS-c modulates skeletal muscle function by directly binding and activating CK2 (iScience 2024)
+- 41520850 — MOTS-c improves intrinsic muscle mitochondrial bioenergetic health in a PGC-1α/AMPK-dependent manner (Free Radic Biol Med 2026)
+- 36670507 — Mitochondria-derived peptide MOTS-c: effects and mechanisms related to stress, metabolism and aging (J Transl Med 2023)
+- 36677050 — MOTS-c Functionally Prevents Metabolic Disorders (Metabolites 2023)
+- 29691953 — Circulating MOTS-c levels are decreased in obese male children and adolescents and associated with insulin resistance (Pediatr Diabetes 2018)
+- 26842585 — Emerging drugs affecting skeletal muscle function and mitochondrial biogenesis (Rapid Commun Mass Spectrom 2016)
+
+⚠️ **Caution reconfirmed:** the hyphens in `mots-c` break NCBI term matching — search using
+`MOTS-c` quoted or `MOTS-c+<topic>`; verify each ID with `esummary`, never draft from memory.
+
+### Files changed
+`src/data/mots-c-silo.ts` (new) · `src/data/mots-c-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 7 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block). Sitemap auto-includes via the registry
+(verified live: all 6 spokes present).
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
@@ -469,7 +553,10 @@ Rule: **fold, don't canonicalise.** Canonicals are only for true duplicates.
 | 3 | **Semax** | 83 | ✅ | ✅ (3 of 6 modifiers substituted) — **BUILT** (`a627fc5e`) |
 | 4 | **Selank** | 81 | ✅ | ✅ (4 of 6 modifiers substituted) — **BUILT** (`3d0f69be`) |
 | 5 | **Ipamorelin** | 94 | ✅ | ✅ (5 of 6 modifiers substituted) — **BUILT** (`6e281f69`) |
-| 6 | **MOTS-c** | 116 | ✅ (verify) | 3rd-largest pool — **NEXT** |
+| 6 | **MOTS-c** | 121 | ✅ | ✅ (4 of 6 modifiers substituted) — **BUILT** (`5c65227e` + `0e1b5e50`) |
+
+**🎉 SILO QUEUE COMPLETE** — all 6 queued compounds built and live (Retatrutide, Tirzepatide,
+Semaglutide, Semax, Selank, Ipamorelin, MOTS-c = 7 silos total, 42 spokes).
 
 **Rule: only pick a compound whose spokes ALL appear in autocomplete.** Re-run the harvest
 script per compound; some modifiers (e.g. `for sale`) fail for non-GLP-1 compounds.
