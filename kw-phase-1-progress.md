@@ -840,8 +840,90 @@ move on to Day 16 next.
 
 ---
 
+## Day 16 — Thu 01 Oct (3 articles) ✅ DONE
+Completed 6 Oct 2026 by daily blog cron (main branch, direct).
+
+- `survodutide-for-weight-loss` — **survodutide** (for) — section: goals,
+  compoundSlug: survodutide, compound: Survodutide
+- `melanotan-ii-suppliers-uk` — **melanotan ii suppliers UK** (suppliers)
+  — section: research-hub, compoundSlug: melanotan-ii, compound: Melanotan II
+- `kpv-for-inflammation` — **kpv** (for) — section: goals,
+  compoundSlug: kpv, compound: KPV
+
+Cards (all Pillow single-vial 75%-height):
+- `public/images/guides/survodutide-for-weight-loss.png` — survodutide-vial, "Compound Profile"
+- `public/images/guides/melanotan-ii-suppliers-uk.png` — melanotan-ii-vial, "Supplier Guide"
+- `public/images/guides/kpv-for-inflammation.png` — kpv-vial, "Compound Profile"
+
+Card script: `scripts/make_kw_phase1_day16_cards.py` (shared draw_guide_card template).
+Vial labels QA'd with the vision tool before compositing: survodutide-vial ("ViralPeps /
+Survodutide / 10mg"), melanotan-ii-vial ("ViralPeps / Melanotan 2 / 10mg"), kpv-vial
+("ViralPeps / KPV / 5mg") — all compound identifiers correct. All three finished cards
+vision-checked: correct compound, no clipping.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,012 / 2,143 / 2,054
+
+Build: passed (217/217 pages). All 16 internal links verified against `compounds.json`
+slugs, `vendors.json` slugs and live `research.ts`/`research-content.ts` keys — 0 broken.
+All 23 references verified individually via NCBI E-utilities esummary (title + journal +
+author + volume/pages matched for every one).
+
+Live verified: all three articles 200 with correct `<title>`, card images serving at
+matching byte size, all three listed on `/research`, and all three present in their
+compounds' Research Library sections (`/compounds/survodutide`, `/compounds/melanotan-ii`,
+`/compounds/kpv`).
+
+Commit: `e833c403` · pushed to main (0 unpushed).
+
+### ⚠️ Lessons from this run
+1. **Day 16's planned pair was already partly shipped.** The plan listed
+   `follistatin-344-vs-mgf` for Day 16, but that article was shipped on Day 15 (see the
+   Day-15 note above), so only `survodutide-for-weight-loss` and `melanotan-ii-suppliers-uk`
+   remained unwritten today. The third slot was filled with `kpv-for-inflammation` from
+   Day 17 — a different compound (KPV, not follistatin) and a different article type
+   (`for`, not `vs`), so no keyword stacking. **Always grep the plan's slugs against
+   BOTH `research.ts` and `research-content.ts` before writing** — the plan and the
+   shipped reality had drifted by one article.
+2. **The `research-content.ts` seam is currently the `"  ]," + NL + "  },"` form** —
+   i.e. the `],` line has TWO spaces and the `},` line has TWO spaces. None of the
+   no-indent / 2-space-`],` / 4-space variants from the Day-13/14 notes matched; the
+   working seam was `'  ],' + NL + '  },' + NL + NL + '};' + NL + 'export default content;'`
+   (exactly 1 match). **Probe variants every run; the file's tail indent has changed on
+   almost every run and the notes are consistently one state behind.**
+3. **`patch()` on `research-content.ts` doubles the `\\n` escapes inside a single-quoted
+   TS string.** The melanotan link fix re-introduced 4 `\\n` (literal backslash + n)
+   escapes into the article body. Caught by a post-patch byte-count and repaired with a
+   scoped `re.sub(r'\\{2,}n', r'\\n', segment)`. **After ANY `patch()` on this file,
+   re-count doubled-backslash-n runs in the patched segment.** The merge script's
+   normaliser does not run on post-merge patches.
+4. **A sibling subagent was active on `research-content.ts` this run** (`git status`
+   warning from the patch tool: "modified by sibling subagent ... but this agent never
+   read it"). The fixes were re-grepped and re-validated against the file on disk
+   immediately before committing, per the Day-9 lesson. The link validator reading
+   live from disk is what confirmed the final state was correct.
+5. **Link validator caught two planned-but-unwritten forward-links before publish:**
+   `/research/melanotan-ii-vs-melanotan-1` (planned Day 27) and
+   `/research/recovery-peptide-suppliers-uk` (planned Day 22). Both replaced with live
+   targets (`/research/pt141-vs-melanotan2` and `/research/kpv-suppliers-uk`). The rule
+   from Day 12 holds: never link planned articles.
+6. **`image_generate` still unavailable in cron, but no photo base was needed this
+   run** — all three articles are compound-specific, so all three cards used the Pillow
+   single-vial template. The pillar-photo-base path was not exercised.
+7. **Existing broken-link debt unchanged and still out of scope:** `/research/
+   hgh-fragment-176-191-research-summary`, `/research/igf-1-lr3-research-summary`,
+   `/research/p21-research-summary` (planned Day 27), `/research/
+   thymosin-alpha1-research-summary`. Do not invent stubs for these.
+
+---
+
 ## Next up
-*Day 15's planned pair is now fully shipped (regular pieces 5 Oct, skipped pair 6 Oct catch-up). Advance to Day 16 — do NOT re-write any Day-15 article.*
+*Day 16 complete. Advance to Day 17 — remaining unshipped Day-17 article is
+`selank-suppliers-uk`... **NO — check first:** `selank-suppliers-uk` was already shipped
+on Day 15 (commit `ddd62403`). So Day 17's other article `kpv-for-inflammation` was pulled
+forward to Day 16 today. **Before writing Day 17, grep its slugs against both data files** —
+the plan has drifted and at least `selank-suppliers-uk` is already live. Then proceed to
+Day 18 (`epitalon-suppliers-uk`, `cjc-1295-with-dac-vs-without-dac`, `research-peptides-guide`).*
 
 ---
 
