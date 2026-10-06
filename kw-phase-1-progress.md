@@ -821,30 +821,27 @@ titles, in sitemap and linked from `/research`.
 (only the Selank card had been generated) — created via
 `scripts/make_kw_phase1_day15_comparison_card.py`.
 
-**Still outstanding from the original Day-15 plan (NOT written):**
+**Skipped Day-15 pair — SHIPPED (one-off catch-up, 6 Oct 2026):** ✅ BOTH LIVE
 - `skin-hair-peptide-suppliers-uk` — **skin and hair peptide suppliers UK** (grouped) — research-hub
+  — committed `bde50020`; live 200, title "Skin and Hair Peptide Suppliers UK: Copper Peptides, Cosmetic Peptides and the Presentation Trap"; ~3,387 words; card from recovered photo base.
 - `uk-peptide-price-comparison` — **UK peptide price comparison** (pillar) — research-hub
-  (Note: the pillar slug the articles were wrongly linking to never existed. If it is still wanted, build it — otherwise the directory page is the working substitute.)
+  — committed `bde50020`; live 200, title "UK Peptide Price Comparison: 102 Vendors, 158 Compounds, 3,354 Listings"; ~3,378 words; card from recovered photo base.
+
+No duplicate slugs existed (neither was written before). Both are non-compound,
+so both cards used the recovered photorealistic base via the Day-15 catch-up
+wrapper `scripts/make_kw_phase1_day15_catchup_cards.py` (calls
+`recover_base()` in `scripts/compose_kw_day8_photo_card.py`, copies the base to
+its own path, then `compose()`). `tsc --noEmit` clean; build 208/208. Every
+internal link verified to resolve (the pillar exists now, so links to
+`/research/uk-peptide-price-comparison` are now valid).
+
+The original "next run should write the skipped pair" note is now satisfied —
+move on to Day 16 next.
 
 ---
 
 ## Next up
-*Day 15's planned pair was skipped in favour of the two comparison/supplier pieces above. Next run should either write the skipped pair or advance to Day 16 — do NOT re-write the two articles shipped on 5 Oct.*
-
-None of the two slugs exist yet. Day 15 is a `(grouped)` + `(pillar)` pair —
-both non-compound, so **both cards need photorealistic AI base imagery, NOT
-Pillow-drawn vial graphics** (skill rule for non-compound practical/pillar
-guides). Since `image_generate` is unavailable in cron, reuse the recovered
-photo base: the Day-8/10 routine `recover_base()` in
-`scripts/compose_kw_day8_photo_card.py` crops the untouched photo panel back
-out of `public/images/guides/uk-peptide-directory.png`. A Day-15 wrapper must
-copy it to its own base path or `compose()` raises FileNotFoundError.
-
-Re-check the seam by variant-matching (currently matches the **4-space**
-variant string, `'    ],' + NL + '  },' + NL + NL + '};' + NL + 'export default
-content;'`, exactly once), and re-check BOTH quote formats AND the `slug:`
-field form before writing. Remember `category` in `research.ts` is `'Guide'` /
-`'Compound Profiles'` / `'Articles'` / `'Research Summaries'` — all singular.
+*Day 15's planned pair is now fully shipped (regular pieces 5 Oct, skipped pair 6 Oct catch-up). Advance to Day 16 — do NOT re-write any Day-15 article.*
 
 ---
 
