@@ -13672,5 +13672,301 @@ slug: 'bpc-157-for-recovery',
   ],
   },
 
+'survodutide-for-weight-loss': {
+  slug: 'survodutide-for-weight-loss',
+  compoundSlug: 'survodutide',
+  pullQuote: 'Survodutide is the first obesity drug designed around a mechanism that is not primarily about appetite. Its glucagon arm attacks liver fat and visceral fat directly — and the phase 3 data now show it doing exactly that, with a lean-mass profile the GLP-1-only class cannot match. It is also not approved, not licensed, and not available as a medicine in the UK in 2026.',
+  quickInfo: [
+    { label: 'Compound', value: 'Survodutide (BI 456906)' },
+    { label: 'Class', value: 'Glucagon receptor / GLP-1 receptor dual agonist' },
+    { label: 'Originator', value: 'Zealand Pharma; licensed to Boehringer Ingelheim' },
+    { label: 'Structure', value: 'Acylated peptide analogue built on the natural hormone oxyntomodulin' },
+    { label: 'Administration (trials)', value: 'Once weekly subcutaneous injection, dose-escalated' },
+    { label: 'Weight Loss (SYNCHRONIZE-1)', value: 'Up to 16.6% at 76 weeks vs 3.2% placebo' },
+    { label: 'Visceral Fat', value: 'Up to 34.0% relative reduction (MRI sub-study)' },
+    { label: 'Liver Fat', value: 'Up to 63.1% reduction (pre-specified analysis)' },
+    { label: 'Regulatory Status (2026)', value: 'Investigational — not approved by MHRA, EMA or FDA' },
+    { label: 'UK Supply (Oct 2026)', value: '5 vendors, 5 listings, £39.00 to £160.00, all 10 mg' },
+  ],
+  sections: [
+    {
+      title: 'What Survodutide Is',
+      body: "Survodutide is a synthetic dual agonist that activates two receptors at once: the glucagon receptor (GCGR) and the glucagon-like peptide-1 receptor (GLP-1R). It was designed by the Danish company Zealand Pharma and licensed to Boehringer Ingelheim, which is running the clinical programme under the SYNCHRONIZE banner.\n\nThe molecule is built from **oxyntomodulin**, a naturally occurring gut hormone that is itself a dual GCGR/GLP-1R agonist. Oxyntomodulin is released after eating and has a short half-life, so the drug is a stabilised, acylated analogue engineered to last long enough for once-weekly dosing.\n\nThe reason survodutide attracts so much attention is that it breaks the pattern of the obesity drug classes either side of it. Semaglutide and tirzepatide are primarily appetite drugs that happen to reduce weight. Survodutide's glucagon arm is a direct hepatic signal: glucagon drives the liver to burn fat and clear lipid, which is why the trial programme measures visceral fat and liver fat as headline endpoints rather than afterthoughts. This is a metabolic drug that also suppresses appetite, rather than an appetite drug that also happens to help the liver.\n\n[**See the survivable UK price picture on the Survodutide compound page →**](/compounds/survodutide)",
+    },
+    {
+      title: 'How the Dual Mechanism Works',
+      body: "Understanding why a glucagon agonist is being used to treat obesity requires setting aside the textbook role of glucagon as a blood-sugar-raising hormone. In the doses and the context used here, the two receptor arms do complementary work.",
+      subsections: [
+        {
+          title: '1. The GLP-1 arm — appetite and satiety',
+          body: "GLP-1 receptor agonism is the familiar half. It slows gastric emptying, increases the feeling of fullness, reduces the drive to eat, and improves glucose-dependent insulin secretion. This is the same arm that semaglutide uses alone and that tirzepatide pairs with GIP. It is what produces the bulk of the weight loss in the early phase of treatment.",
+        },
+        {
+          title: '2. The glucagon arm — direct fat oxidation',
+          body: "Glucagon receptor agonism in the liver increases hepatic fat oxidation and reduces de novo lipogenesis — the liver makes and stores less fat. In the phase 3 data this shows up as the visceral fat and liver fat reductions, which are larger than the weight-loss percentage alone would predict. Critically, the glucagon arm is also the proposed reason survodutide's weight loss is disproportionately fat mass: in the SYNCHRONIZE-1 MRI sub-study, lean tissue accounted for no more than 11.3% of the total tissue mass change at the highest dose.",
+        },
+        {
+          title: '3. Why the pairing is the point',
+          body: "Glucagon agonism alone raises blood glucose, which is why it has historically been a hard sell in a metabolic-disease drug. Pairing it with GLP-1, which improves glucose-dependent insulin secretion and slows gastric emptying, offsets the hyperglycaemic effect while keeping the hepatic fat-burning signal. The dual mechanism is not additive marketing — the two arms are the reason the compound is tolerable as a glucose-lowering agent at all.",
+        },
+      ],
+    },
+    {
+      title: 'The Phase 3 Evidence — What the SYNCHRONIZE Trials Show',
+      body: "Survodutide has one of the most complete phase 3 datasets of any obesity drug candidate as of late 2026. Three trials matter for anyone reading the research literature.",
+      table: {
+        header: ['Trial', 'Population', 'Duration', 'Headline Result'],
+        rows: [
+          ['SYNCHRONIZE-1', 'Obesity/overweight without type 2 diabetes', '76 weeks', 'Up to 16.6% weight loss vs 3.2% placebo (p<0.0001)'],
+          ['SYNCHRONIZE-2', 'Obesity with type 2 diabetes', '76 weeks', 'Up to 13.1% weight loss vs 3.1% placebo'],
+          ['SYNCHRONIZE-MASLD', 'Obesity with MASLD (± type 2 diabetes)', '48 weeks', '84.2% achieved ≥30% liver fat reduction vs 24.3% placebo'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'Visceral fat and liver fat — the differentiating endpoints',
+          body: "In SYNCHRONIZE-1, a pre-specified MRI sub-study measured up to a 34.0% relative reduction in visceral fat and up to a 63.1% reduction in liver fat at the highest dose. In SYNCHRONIZE-MASLD, 61.0% of participants reached **liver fat normalisation** (liver fat content below 5%) at week 48, against 5.7% on placebo — six participants in ten. These are the numbers that separate survodutide from an appetite drug in the literature, and they are the reason its development is being framed around metabolic dysfunction rather than around weight alone.",
+        },
+        {
+          title: 'The lean-mass question',
+          body: "One persistent criticism of the GLP-1 class is that a meaningful fraction of the weight lost is lean tissue. In SYNCHRONIZE-1, lean mass accounted for no more than 11.3% of the total tissue mass change at the highest dose after dataset recalculation — a figure the sponsor presents as evidence that the loss is predominantly fat. Read the primary paper rather than the press release: the lean-mass share is a small number, but it is not zero, and the measurement method (MRI sub-study versus DXA in other programmes) is not directly comparable across drugs.",
+        },
+        {
+          title: 'The safety signal — GI events and discontinuation',
+          body: "In the phase 3 trials the most common adverse events were gastrointestinal — nausea, vomiting, diarrhoea and constipation — mostly mild to moderate and concentrated during dose escalation. Treatment discontinuation due to GI events was **19% on survodutide versus 2.9% on placebo** in the MASLD trial. That discontinuation rate is the number to hold onto: it is the honest cost of the glucagon arm, and it is higher than the headline tolerability language suggests. No new safety signals beyond the known GLP-1 class effects were identified.",
+        },
+      ],
+    },
+    {
+      title: 'Regulatory Status — Investigational, Not Approved',
+      body: "As of October 2026 survodutide is an **investigational agent**. It has received FDA Fast Track (May 2021) and Breakthrough Therapy (September 2024) designations, EMA PRIME acceptance (November 2023), and Breakthrough Therapy designation in China and Taiwan. None of these are approvals. There is no MHRA licence, no EMA marketing authorisation and no FDA approval, and no licensed medicine containing survodutide exists anywhere.\n\nWhat exists in the UK is a research-reagent market: lyophilised survodutide sold **for research use only**. This is a fundamentally different product from a licensed medicine. It carries no regulatory assurance of identity, dose accuracy, sterility or purity beyond whatever certificate the vendor chooses to publish, and it is illegal to supply for human consumption. More on that distinction is in the [**UK peptide price comparison →**](/research/uk-peptide-price-comparison) and the [**Survodutide research summary →**](/research/survodutide-research-summary).",
+    },
+    {
+      title: 'The UK Research Market for Survodutide',
+      body: "The UK research-reagent market for survodutide is unusually thin compared with the GLP-1 compounds it is often mentioned alongside. As of October 2026 ViralPeps tracks **5 vendors and 5 listings**, every one of them a 10 mg vial, priced from £39.00 to £160.00.\n\nThat is a 4.1x spread on a single dose tier — far narrower than the 54x spread on GHK-Cu, but built on a very small sample. Compare the supply depth: tirzepatide sits on hundreds of listings and retatrutide on well over a hundred, because both have large, established consumer demand. Survodutide has almost none, because it has no approved use.\n\nThree cautions follow from the thinness of this market. First, with five listings there is no meaningful median, so any 'average price' figure is close to meaningless. Second, a small number of vendors means less competitive pressure on verification — check for a batch-matched certificate of analysis rather than assuming one. Third, the compound's complexity (it is a large, acylated peptide) makes it harder and more expensive to synthesise than a short peptide, so the £39 floor is credible rather than suspicious, and a listing far below it deserves scrutiny rather than enthusiasm.\n\nHow to read a certificate properly is set out in the [**how to read a CoA guide →**](/research/how-to-read-a-coa).",
+    },
+  ],
+  faq: [
+    { question: 'Is survodutide approved for weight loss?', answer: 'No. As of October 2026 survodutide is an investigational agent. It holds FDA Fast Track and Breakthrough Therapy designations and EMA PRIME acceptance, but it has never been approved by the MHRA, EMA or FDA, and no licensed medicine containing it exists. Everything sold in the UK is a research reagent labelled for research use only.' },
+    { question: 'How much weight loss did survodutide produce in trials?', answer: 'In SYNCHRONIZE-1, a 76-week phase 3 trial in adults with obesity without type 2 diabetes, survodutide produced up to 16.6% average weight loss from baseline versus 3.2% on placebo. In SYNCHRONIZE-2, in people with obesity and type 2 diabetes, the figure was up to 13.1% versus 3.1% placebo.' },
+    { question: 'How is survodutide different from semaglutide and tirzepatide?', answer: 'It is a glucagon/GLP-1 dual agonist rather than a GLP-1 agonist (semaglutide) or a GIP/GLP-1 dual agonist (tirzepatide). The glucagon arm acts directly on the liver to reduce fat, which is why the trial programme reports visceral fat and liver fat reductions — up to 34% and 63% respectively — as headline endpoints rather than afterthoughts.' },
+    { question: 'What are the side effects of survodutide?', answer: 'Gastrointestinal events dominate: nausea, vomiting, diarrhoea and constipation, mostly mild to moderate and concentrated during dose escalation. In the SYNCHRONIZE-MASLD trial 19% of participants discontinued because of GI events, versus 2.9% on placebo. That discontinuation rate is the most important tolerability number in the dataset.' },
+    { question: 'Can I buy survodutide in the UK?', answer: 'You can buy survodutide as a research reagent, but not as a medicine. It is supplied for research use only and is not authorised for human consumption. As of October 2026 ViralPeps tracks five UK listings, all 10 mg vials, from £39.00 to £160.00. Because the market is so thin, verify the certificate of analysis for each listing individually.' },
+  ],
+  references: [
+    'le Roux CW, et al. Survodutide Once Weekly for the Treatment of Adults with Obesity. N Engl J Med. 2026;395:776-787. PMID 42253238.',
+    'Wharton S, et al. Survodutide Once Weekly in Adults with Obesity and Type 2 Diabetes (SYNCHRONIZE-2). N Engl J Med. 2026. PMID 42820639.',
+    'Kaplan LM, et al. Survodutide in adults with obesity and metabolic dysfunction-associated steatotic liver disease: SYNCHRONIZE-MASLD. Nat Med. 2026;32:2948-2958. PMID 42252333.',
+    'le Roux CW, et al. Baseline characteristics of participants in SYNCHRONIZE-1. Diabetes Obes Metab. 2026;28:337-346. PMID 41187967.',
+    'Wharton S, et al. Survodutide for treatment of obesity: rationale and design of the SYNCHRONIZE-1 and -2 trials. Obesity (Silver Spring). 2025;33:67-77. PMID 39495965.',
+    'Sergi CM. Survodutide for the treatment of obesity: mechanistic rationale, clinical evidence, and remaining uncertainties. Contemp Clin Trials. 2026;108493. PMID 42822760.',
+    'Boehringer Ingelheim. Positive data from two Phase III SYNCHRONIZE obesity trials. Press release, 7 June 2026.',
+    'ViralPeps catalogue data — 5 survodutide listings across 5 vendors, October 2026 snapshot.',
+  ],
+},
+'melanotan-ii-suppliers-uk': {
+  slug: 'melanotan-ii-suppliers-uk',
+  compoundSlug: 'melanotan-ii',
+  pullQuote: 'Melanotan II is the most-supplied compound in the entire UK catalogue — 56 vendors — and the one with the most explicit regulatory warning attached to it. It has never been licensed anywhere, the MHRA has told the public not to use it, and it is the only peptide on this site that has generated published case reports of priapism and renal injury from unregulated use. A supplier guide to it has to start with that.',
+  quickInfo: [
+    { label: 'Compound', value: 'Melanotan II (MT-II, Melanotan 2)' },
+    { label: 'Class', value: 'Non-selective melanocortin receptor agonist' },
+    { label: 'Origin', value: 'Synthetic analogue of alpha-MSH, developed at the University of Arizona' },
+    { label: 'CAS Number', value: '121062-08-6' },
+    { label: 'Molecular Weight', value: '1024.2 g/mol' },
+    { label: 'Half-Life', value: '30-60 minutes in circulation; cutaneous effects persist for days to weeks' },
+    { label: 'Primary Research Areas', value: 'Melanogenesis, sexual function, appetite regulation, erythropoietic protoporphyria' },
+    { label: 'Regulatory Status', value: 'Never licensed anywhere; MHRA and TGA have issued public warnings' },
+    { label: 'UK Supply (Oct 2026)', value: '56 vendors, 58 listings, £14.75 to £199.99' },
+    { label: 'Dose Tiers', value: '10 mg dominates; 5 mg, 20 mg and 30 mg also listed' },
+  ],
+  sections: [
+    {
+      title: 'What Melanotan II Is',
+      body: "Melanotan II is a synthetic peptide analogue of **alpha-melanocyte-stimulating hormone (alpha-MSH)**, the endogenous hormone that drives melanin production in the skin. It was developed at the University of Arizona in the late 1980s as a potential sunless-tanning and photoprotective agent, and it is a non-selective agonist: it activates several melanocortin receptor subtypes rather than one, which is precisely why it produces tanning, appetite suppression and sexual effects all at once.\n\nThe compound is structurally related to **bremelanotide (PT-141)**, itself a licensed medicine in some jurisdictions for hypoactive sexual desire disorder. The two are often confused because they share a lineage — bremelanotide is a metabolite-derived analogue of Melanotan II — but they are different molecules with different regulatory status. Melanotan II has no licence anywhere.\n\nWhat makes Melanotan II unusual in the UK catalogue is the collision of two facts. It is the **most widely supplied research peptide ViralPeps tracks**, with 56 vendors, because demand for tanning is large and the molecule is cheap to make. And it is the compound with the **most explicit regulatory warning attached to it**, because the MHRA has publicly advised against its use after case reports of serious harm. High supply plus a public safety warning is the exact combination that produces a market in which buyers stop asking questions — which is why this guide is organised around verification rather than around price.",
+    },
+    {
+      title: 'Why the Evidence Base Is Unusual',
+      body: "Melanotan II sits in an odd evidentiary position. It is more interesting pharmacologically than its grey-market reputation suggests, and it is less safe than its popularity implies.",
+      subsections: [
+        {
+          title: '1. Real pharmacology, no clinical programme',
+          body: "The melanocortin system is well understood: MC1R activation increases melanin synthesis, MC3R and MC4R are involved in energy balance and sexual function. Melanotan II's non-selective agonism across these receptors is the reason a single molecule produces tanning, appetite reduction and erectile effects. The mechanistic papers are legitimate — microinjection and receptor-selectivity studies are published in solid journals. What does not exist is a completed, modern, registered clinical trial programme leading to a licence. Development was effectively abandoned, and the compound moved into unregulated supply.",
+        },
+        {
+          title: '2. Published harms, not theoretical ones',
+          body: "Unlike most research peptides, Melanotan II has generated **case reports of serious adverse events** in the peer-reviewed literature, not just theoretical warnings. Reported harms include **priapism** (prolonged, painful erection requiring emergency intervention) documented in BMJ Case Reports and Sexual Medicine, and dermatological concerns including changes to existing moles. The priapism reports are notable because they involve a mechanism — non-selective melanocortin agonism — that explains the event rather than merely coinciding with it.",
+        },
+        {
+          title: '3. The MHRA warning',
+          body: "The UK Medicines and Healthcare products Regulatory Agency (MHRA) has issued a public warning advising people not to use Melanotan injections, citing the lack of regulatory oversight and reports of serious side effects. This is a regulatory fact that should inform any reading of a supplier page: the product being sold is not a medicine, has no quality assurance in law, and the UK regulator has said not to use it. None of that changes the fact that it is legally sold as a research reagent; all of it changes how a buyer should read a price list.",
+        },
+      ],
+    },
+    {
+      title: 'The UK Market — 56 Vendors and a £14.75 Floor',
+      body: "Melanotan II is among the deepest-supplied compounds on ViralPeps. As of October 2026 the catalogue tracks **56 vendors and 58 listings**, priced from **£14.75 to £199.99** — a 13.6x spread across a market where the 10 mg vial is the dominant tier.\n\nThe price distribution has a recognisable shape. The floor is set by high-volume, low-cost vendors — Everything Peptides at £14.75 for 10 mg, ThePeptideCode at £14.99, UK Peptides at £15.00. The middle of the market clusters in the £20-£40 range. The ceiling is occupied by vendors that sit at a recurring £199.99 without regard to compound, and by larger vials where the price is partly a dose artefact: Raw Peptides at £89.99 for 30 mg and My Peptides at £100.00 for 20 mg are expensive per vial but more defensible per milligram.\n\nRead price per milligram, not price per vial. A 30 mg vial at £89.99 is £3.00/mg; a 10 mg vial at £14.75 is £1.48/mg. The cheap-looking small vial is the more expensive product by the only measure that compares like with like. The method is set out in the [**UK peptide price comparison →**](/research/uk-peptide-price-comparison).",
+      table: {
+        header: ['Price Band', 'Representative Listing', 'Dose', 'Price per mg'],
+        rows: [
+          ['£14.75-£15.00', 'Everything Peptides / ThePeptideCode / UK Peptides', '10 mg', '£1.48-£1.50'],
+          ['£20-£40', 'Mid-market cluster', '10 mg', '£2.00-£4.00'],
+          ['£89.99', 'Raw Peptides', '30 mg', '£3.00'],
+          ['£100.00', 'My Peptides', '20 mg', '£5.00'],
+          ['£199.99', 'Premio Peptides', 'unspecified', 'n/a'],
+        ],
+      },
+    },
+    {
+      title: 'The Six Verification Traps for Melanotan II',
+      body: "Melanotan II's combination of high demand and low regulatory oversight makes it a magnet for poor-quality supply. These are the specific things to check.",
+      subsections: [
+        {
+          title: '1. The cosmetic-serum substitution',
+          body: "Because demand is consumer-driven, the market contains products that are not Melanotan II at all — nasal sprays, 'tanning drops', creams and 'accelerators' that sit in the same search results. A lyophilised research vial is a specific product; a cosmetic serum is a different category with no peptide-content guarantee. Check that what is listed is a vial of peptide with a stated milligram content.",
+        },
+        {
+          title: '2. Certificate of analysis, batch-matched',
+          body: "The most important document on any listing. It should carry a batch number matching the vial, an HPLC purity figure, and a mass-spectrometry confirmation of identity. Melanotan II is a 1024 g/mol peptide, so identity is verifiable — a vendor that cannot show a mass-spec trace is asking you to take the label on trust, which in this market is not a reasonable request.",
+        },
+        {
+          title: '3. The near-duplicate vendor trap',
+          body: "Several UK vendors have confusingly similar names. 'Research Peptides' (researchpeptides.co.uk) and 'Research Peptides UK' (researchpeptide.co.uk) are two separate businesses, as are the various 'Peptides UK' permutations. A review or price scraped from one vendor is not evidence about another. Always check the domain, not the brand string.",
+        },
+        {
+          title: '4. Out-of-stock pricing',
+          body: "On a compound this popular, a very low price on an out-of-stock listing is a lead-generation tactic, not a market signal. Filter for in-stock listings before drawing any conclusion about the floor price.",
+        },
+        {
+          title: '5. The pen and pre-mixed problem',
+          body: "Some listings are pre-mixed pens or reconstituted solutions rather than lyophilised powder. These are different products with different storage requirements and much shorter stability. A lyophilised vial and a pre-mixed pen are not comparable on price, and the pen carries sterility risks the powder does not.",
+        },
+        {
+          title: '6. Regulatory reality',
+          body: "None of the above is legal assurance. Melanotan II is a research reagent, not a medicine. It is not authorised for human use, and the MHRA has advised against it. The verification steps here improve the odds of receiving a correctly-labelled vial of the correct molecule; they do not make the product safe or legal to consume. That distinction belongs at the top of every supplier guide for this compound.",
+        },
+      ],
+    },
+    {
+      title: 'How This Compound Compares',
+      body: "Melanotan II is often discussed alongside two compounds it is related to but distinct from. **Bremelanotide (PT-141)** is a licensed medicine in some markets and shares a developmental lineage; **Melanotan I** (afamelanotide) is a licensed photoprotective implant (Scenesse) in the EU for erythropoietic protoporphyria, and is a selective rather than non-selective agonist. The comparison between Melanotan II and bremelanotide is worth reading in full: [**PT-141 vs Melanotan II →**](/research/pt141-vs-melanotan2). Background on the compound itself is in the [**Melanotan II research summary →**](/research/melanotan-ii-research-summary) and the deeper pharmacology in the [**Melanotan II deep dive →**](/research/melanotan2-deep-dive).\n\nRead together, the three compounds illustrate the difference between a molecule with a licensing pathway (bremelanotide, afamelanotide) and one without (Melanotan II). That difference is not about which molecule works; it is about which one has been through the evidence and safety process that a licence requires.\n\nFor the wider market structure these listings sit inside, see the [**UK peptide directory →**](/research/uk-peptide-directory).",
+    },
+  ],
+  faq: [
+    { question: 'How many UK vendors sell Melanotan II?', answer: 'As of October 2026 ViralPeps tracks 56 UK vendors and 58 listings for Melanotan II, making it one of the most widely supplied compounds in the catalogue. Prices run from £14.75 for a 10 mg vial to £199.99, a 13.6x spread.' },
+    { question: 'Is Melanotan II legal in the UK?', answer: 'Melanotan II is not a licensed medicine anywhere. It is legally sold as a research reagent labelled for research use only, but it is not authorised for human consumption, and the MHRA has issued a public warning advising people not to use Melanotan injections. Selling it for human use would be unlawful.' },
+    { question: 'What are the side effects of Melanotan II?', answer: 'The peer-reviewed literature contains case reports of priapism (prolonged painful erection requiring emergency treatment) published in BMJ Case Reports and Sexual Medicine, as well as dermatological concerns including changes to existing moles. The non-selective melanocortin agonism that produces the tan also drives the sexual and appetite effects, which is why the side-effect profile is broad.' },
+    { question: 'Why is Melanotan II cheaper than other peptides?', answer: 'Demand is consumer-driven and the molecule, though not trivial at 1024 g/mol, is well-established to synthesise. That combination of high volume and established manufacturing produces a low floor — £14.75 for 10 mg. The cheapest per-milligram listing, however, is usually the £14.75-£15.00 10 mg band at roughly £1.48-£1.50/mg, not the larger vials.' },
+    { question: 'What is the cheapest way to buy Melanotan II?', answer: 'By price per milligram, the 10 mg band at £14.75 to £15.00 is the cheapest at approximately £1.48-£1.50/mg. Raw Peptides at £89.99 for 30 mg works out to £3.00/mg, and My Peptides at £100.00 for 20 mg to £5.00/mg — the larger vials are more expensive per milligram, not less. Filter out-of-stock listings before comparing.' },
+  ],
+  references: [
+    'Habbema L, et al. Risks of unregulated use of alpha-melanocyte-stimulating hormone analogues: a review. Int J Dermatol. 2017;56:975-980. PMID 28266027.',
+    'Dreyer BA, et al. Melanotan-induced priapism: a hard-earned tan. BMJ Case Rep. 2019;12. PMID 30796078.',
+    'Mallory CW, et al. Melanotan Tanning Injection: A Rare Cause of Priapism. Sex Med. 2021;9:100298. PMID 33460908.',
+    'Eliason NL, et al. Melanocortin receptor agonist melanotan-II microinjected in the nucleus accumbens decreases appetitive and consumptive responding for food. Neuropeptides. 2022;96:102289. PMID 36155088.',
+    'Tomassi S, et al. CLIPSing Melanotan-II to Discover Multiple Functionally Selective hMCR Agonists. J Med Chem. 2022;65:4007-4017. PMID 35188390.',
+    'O\'Leary RE, et al. Update on tanning: More risks, fewer benefits. J Am Acad Dermatol. 2014;70:562-568. PMID 24388421.',
+    'Medicines and Healthcare products Regulatory Agency (MHRA) — public warning on Melanotan injections.',
+    'ViralPeps catalogue data — 56 vendors, 58 listings for Melanotan II, October 2026 snapshot.',
+  ],
+},
+'kpv-for-inflammation': {
+  slug: 'kpv-for-inflammation',
+  compoundSlug: 'kpv',
+  pullQuote: 'KPV is a three-amino-acid fragment of alpha-MSH with a genuinely unusual property: it is anti-inflammatory without being immunosuppressive. The 2008 Gastroenterology paper that made its name showed it works by hitching a ride on the PepT1 transporter into intestinal cells and shutting down NF-kB signalling from inside. Three amino acids, one transporter, and a mechanism that is still the most-cited reason to study it.',
+  quickInfo: [
+    { label: 'Compound', value: 'KPV (Lys-Pro-Val)' },
+    { label: 'Class', value: 'Alpha-MSH C-terminal tripeptide; anti-inflammatory / antimicrobial' },
+    { label: 'Sequence', value: 'Lys-Pro-Val (corresponds to alpha-MSH residues 11-13)' },
+    { label: 'CAS Number', value: '69352-14-3' },
+    { label: 'Molecular Weight', value: '342.4 g/mol' },
+    { label: 'Half-Life', value: 'Short — approximately 1-2 hours reported' },
+    { label: 'Primary Research Areas', value: 'Colitis and IBD, NF-kB signalling, wound healing, antimicrobial activity, GI barrier function' },
+    { label: 'Key Mechanism', value: 'PepT1-mediated intestinal uptake; NF-kB and MAP-kinase suppression' },
+    { label: 'Evidence Status', value: 'Preclinical (cell and murine models only); no completed human trials' },
+    { label: 'UK Supply (Oct 2026)', value: '68 vendors, 68 listings, £12.75 to £199.99' },
+  ],
+  sections: [
+    {
+      title: 'What KPV Is',
+      body: "KPV is a **tripeptide** — three amino acids, lysine-proline-valine — that corresponds exactly to residues 11 to 13 at the C-terminal end of alpha-melanocyte-stimulating hormone (alpha-MSH). It is the smallest fragment of alpha-MSH that retains the parent hormone's anti-inflammatory activity, which is the whole reason it is studied as a compound in its own right rather than as a footnote to alpha-MSH.\n\nThe distinction matters. Alpha-MSH is a 13-amino-acid hormone that acts at melanocortin receptors across the body. KPV, as the C-terminal tail, does not need the melanocortin receptor at all to exert its anti-inflammatory effect — it works through a different route entirely, and that route is the interesting part.\n\nWhat KPV offers a researcher is a clean mechanistic story in a tiny molecule. It is 342 g/mol, it is cheap to synthesise, it is stable enough to work with, and its principal claimed action — reducing inflammatory signalling in gut epithelium — has been mapped to a specific transporter, a specific transcription factor, and a specific set of mouse colitis models. Few peptides this small have a mechanism this well-characterised.\n\n[**See KPV suppliers and live UK prices →**](/compounds/kpv)",
+    },
+    {
+      title: 'How KPV Reduces Inflammation',
+      body: "The mechanism is the reason KPV is cited in colitis and IBD research, and it is worth understanding at the level of the individual steps.",
+      subsections: [
+        {
+          title: '1. Entry via the PepT1 transporter',
+          body: "KPV enters intestinal epithelial cells through **PepT1** (peptide transporter 1, SLC15A1) — the same transporter the gut uses to absorb dietary di- and tripeptides. This is the 2008 *Gastroenterology* finding by Dalmasso and colleagues: KPV uptake is PepT1-dependent, and the anti-inflammatory effect follows the uptake. It is a neat piece of pharmacology because it explains why a three-amino-acid peptide is active in gut tissue specifically — the transporter that lets the gut absorb small peptides is the same one that lets KPV in.",
+        },
+        {
+          title: '2. Suppression of NF-kB signalling',
+          body: "Once inside the cell, KPV reduces **NF-kB** activation. NF-kB is the master transcription factor for a large family of pro-inflammatory cytokines, so suppressing its activation reduces the downstream output of inflammatory signalling — TNF-alpha, IL-6 and related mediators — without the broad immunosuppression that corticosteroids produce. KPV also reduces MAP-kinase signalling, giving it a second, parallel anti-inflammatory pathway rather than a single point of intervention.",
+        },
+        {
+          title: "3. Why 'anti-inflammatory without immunosuppression' matters",
+          body: "The phrase that recurs in the KPV literature is that it is anti-inflammatory **without being immunosuppressive**. Corticosteroids suppress inflammation by broadly damping immune function, which is why they carry infection risk and are unsuitable for long-term use. If KPV's mechanism is genuinely targeted — reduce NF-kB-driven inflammatory signalling rather than suppress immune cell function generally — it addresses the central problem of existing IBD pharmacology. That is a hypothesis supported by mechanism and by mouse models, not yet by human trials, and the distance between those two things is the honest framing.",
+        },
+      ],
+    },
+    {
+      title: 'The Evidence — What Has Actually Been Shown',
+      body: "KPV's literature is deeper than its supply-market reputation would suggest, but it is entirely preclinical. No completed human clinical trials exist.",
+      subsections: [
+        {
+          title: '1. The foundational intestinal study (2008)',
+          body: "Dalmasso et al., *Gastroenterology* 2008, established PepT1-mediated KPV uptake and the reduction of intestinal inflammation. This is the paper that defines KPV as a gut-targeted anti-inflammatory peptide, and it remains the most-cited single study in the field.",
+        },
+        {
+          title: '2. The colitis-associated cancer model (2016)',
+          body: "Viennois et al., *Cellular and Molecular Gastroenterology and Hepatology* 2016, showed KPV reduced inflammation and produced therapeutic benefit in a murine model of colitis-associated cancer, working through PepT1. This extended the earlier finding from acute inflammation into a chronic-disease model, and it is the paper most often cited for the claim that KPV has activity in disease states rather than just in cell culture.",
+        },
+        {
+          title: '3. Multiple mouse colitis models',
+          body: "Separate 2008-era studies reported anti-inflammatory findings in DSS, TNBS and T-cell transfer colitis models — three mechanistically different ways of inducing colitis, all responding to KPV. That triangulation across models is more persuasive than a single positive result, because it suggests the effect is not an artefact of one particular induction method.",
+        },
+        {
+          title: '4. The wound-healing and antimicrobial branches',
+          body: "KPV has a second life in wound-healing research, where it is studied alongside other small peptides for skin regeneration, and its derivative (CKPV)2 has shown antimicrobial activity against Candida. These are separate literatures from the colitis work and are at an earlier stage. The Brozoska *Endocrine Reviews* 2008 review is the best single entry point to the alpha-MSH-related-peptide field overall.",
+        },
+      ],
+      table: {
+        header: ['Study', 'Model', 'Finding'],
+        rows: [
+          ['Dalmasso et al. 2008 (Gastroenterology)', 'Intestinal epithelial cells / murine', 'PepT1-mediated KPV uptake reduces intestinal inflammation'],
+          ['Viennois et al. 2016 (Cell Mol Gastroenterol Hepatol)', 'Murine colitis-associated cancer', 'KPV reduces inflammation via PepT1 in a chronic disease model'],
+          ['Brzoska et al. 2008 (Endocrine Reviews)', 'Review', 'Alpha-MSH-related tripeptides: biochemistry, anti-inflammatory and protective effects'],
+          ['Catania et al. 2005 (J Pept Res)', 'Structural / candidacidal', 'Structure of the alpha-MSH-derived candidacidal peptide [Ac-CKPV]2'],
+        ],
+      },
+    },
+    {
+      title: 'The UK Market — 68 Vendors and a Low Floor',
+      body: "KPV is one of the cheapest and most widely stocked peptides in the UK catalogue. As of October 2026 ViralPeps tracks **68 vendors and 68 listings**, priced from **£12.75 to £199.99** — a 15.7x spread that is mostly a dose-tier and positioning artefact rather than a quality signal.\n\nThe floor is low because KPV is a tripeptide: three amino acids are cheap to synthesise, so there is no legitimate manufacturing reason for a high price. Everything Peptides lists 10 mg at £12.75, PGNA Labs £17.00, MyPep Biotech £17.99. The upper end is occupied by the recurring £199.99 ceiling and by dose variants — My Peptides at £100.00 for 12 mg, BuyReta at £95.00 for 500 mcg (which is £190/mg, an extreme outlier created by selling a tiny vial).\n\nThe 500 mcg listing is a useful illustration of why price per milligram is the right measure. £95.00 sounds comparable to a £100 listing, but at 500 mcg the milligram cost is £190 — more than 100 times the £12.75 listing's £1.28/mg. Normalise before comparing. The method is in the [**UK peptide price comparison →**](/research/uk-peptide-price-comparison).\n\nOn a compound this cheap and this widely sold, the risk is not price gouging — it is unverified synthesis. The margin on a tripeptide is thin at £12.75, and thin margins are where vendors cut corners on purity testing. Check for a batch-matched certificate of analysis rather than assuming that a low price reflects efficiency. How to read one is covered in the [**how to read a CoA guide →**](/research/how-to-read-a-coa).",
+    },
+    {
+      title: 'Why KPV Is Studied Alongside Other Compounds',
+      body: "KPV is rarely discussed in isolation because its mechanism overlaps interestingly with two other peptides. It is the small-molecule counterpart to **BPC-157** in the gut-inflammation literature — both act on intestinal tissue and barrier function, by different mechanisms — and it is frequently stacked in research designs with **TB-500** for wound-healing endpoints. The mechanistic contrast with BPC-157 is the more interesting one: BPC-157 has the broader multi-system profile, KPV the more precisely mapped single-pathway mechanism.\n\nBoth connections are worth reading in full: the [**KPV deep dive →**](/research/kpv-deep-dive) covers the pharmacology, the [**KPV research summary →**](/research/kpv-research-summary) is the short version, and the [**KPV vs LL-37 →**](/research/kpv-vs-ll-37) comparison sets the compound against another host-defence peptide. For the wider anti-inflammatory and immunity category these compounds sit in, see the [**KPV suppliers UK guide →**](/research/kpv-suppliers-uk).",
+    },
+  ],
+  faq: [
+    { question: 'What is KPV used for in research?', answer: 'KPV is studied for intestinal inflammation (colitis, IBD models), wound healing, antimicrobial activity and GI barrier function. Its mechanism is PepT1-mediated uptake into intestinal epithelial cells followed by suppression of NF-kB signalling, which is why the colitis literature dominates. There are no completed human trials.' },
+    { question: 'How does KPV work?', answer: 'KPV enters intestinal cells via the PepT1 peptide transporter, the same transporter that absorbs dietary tripeptides. Once inside, it reduces NF-kB activation and MAP-kinase signalling, damping pro-inflammatory cytokine production without broadly suppressing immune function — the distinction the literature calls anti-inflammatory without being immunosuppressive.' },
+    { question: 'Is KPV the same as alpha-MSH?', answer: 'No. KPV is a tripeptide corresponding to residues 11-13 at the C-terminal end of alpha-MSH. It is the smallest fragment retaining anti-inflammatory activity, and unlike the full hormone it does not require melanocortin receptor activation to work — it uses the PepT1 pathway instead.' },
+    { question: 'How much does KPV cost in the UK?', answer: 'As of October 2026 ViralPeps tracks 68 UK vendors and 68 listings from £12.75 to £199.99. The cheapest 10 mg listings are around £12.75-£17.99, which is roughly £1.28-£1.80/mg. Watch for small-vial outliers — one 500 mcg listing at £95.00 works out to £190/mg.' },
+    { question: 'What are the side effects of KPV?', answer: 'Because KPV has no completed human trials, the human side-effect profile is not established. The preclinical literature reports anti-inflammatory activity without immunosuppression, but this is a mechanistic claim from cell and animal work, not a clinical safety finding. KPV is sold as a research reagent for research use only.' },
+  ],
+  references: [
+    'Dalmasso G, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008;134:166-178. PMID 18061177.',
+    'Viennois E, et al. Critical role of PepT1 in promoting colitis-associated cancer and therapeutic benefits of the anti-inflammatory PepT1-mediated tripeptide KPV in a murine model. Cell Mol Gastroenterol Hepatol. 2016;2:340-357. PMID 27458604.',
+    'Brzoska T, et al. Alpha-melanocyte-stimulating hormone and related tripeptides: biochemistry, antiinflammatory and protective effects in vitro and in vivo, and future perspectives for the treatment of immune-mediated inflammatory diseases. Endocr Rev. 2008;29:581-602. PMID 18612139.',
+    'Brzoska T, et al. Terminal signal: anti-inflammatory effects of alpha-melanocyte-stimulating hormone related peptides beyond the pharmacophore. Adv Exp Med Biol. 2010;681:107-116. PMID 21222263.',
+    'Luger TA, et al. alpha-MSH related peptides: a new class of anti-inflammatory and immunomodulating drugs. Ann Rheum Dis. 2007;66(Suppl 3):iii52-55. PMID 17934097.',
+    'Catania A, et al. Three-dimensional structure of the alpha-MSH-derived candidacidal peptide [Ac-CKPV]2. J Pept Res. 2005;66:19-26. PMID 15946192.',
+    'Gatti S, et al. Inhibitory effects of the peptide (CKPV)2 on endotoxin-induced host reactions. J Surg Res. 2006;131:209-214. PMID 16413580.',
+    'ViralPeps catalogue data — 68 vendors, 68 listings for KPV, October 2026 snapshot.',
+  ],
+},
+
 };
 export default content;

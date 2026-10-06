@@ -1611,6 +1611,40 @@ export const guides: ResearchArticle[] = [
     minutes: 15,
     tags: ["price-comparison", "uk", "peptide-prices", "compare-prices", "vendors", "suppliers", "price-per-mg", "research-hub", "market"],
   },
+
+  {
+    title: "Survodutide for Weight Loss: What the Phase 3 Data Show — and Why It Is Still Unapproved",
+    desc: "The glucagon/GLP-1 dual agonist that attacks visceral fat and liver fat directly. How the SYNCHRONIZE trials produced up to 16.6% weight loss, a 34% visceral fat reduction and a 63% liver fat reduction, why the glucagon arm is the whole point, and the 19% GI discontinuation rate that is the honest cost of it. Plus the UK research market: five vendors, five listings, £39 to £160.",
+    category: "Guide",
+    section: "goals",
+    compound: "Survodutide",
+    slug: "survodutide-for-weight-loss",
+    image: "survodutide-for-weight-loss",
+    minutes: 11,
+    tags: ["survodutide", "glp-1", "glucagon", "weight-loss", "obesity", "masld", "liver-fat", "visceral-fat", "phsae-3", "synchronize", "for", "metabolic"],
+  },
+  {
+    title: "Melanotan II Suppliers UK: 56 Vendors, a £14.75 Floor and an MHRA Warning",
+    desc: "Melanotan II is the most widely supplied peptide in the UK catalogue and the one carrying the most explicit regulatory warning. Why the tanning hormone is cheap and everywhere, the priapism and dermatological case reports in the peer-reviewed literature, the MHRA advisory against it, and the six verification traps — cosmetic substitutions, missing certificates, near-duplicate vendor names — that matter more than price on a compound this popular.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Melanotan II",
+    slug: "melanotan-ii-suppliers-uk",
+    image: "melanotan-ii-suppliers-uk",
+    minutes: 12,
+    tags: ["melanotan-ii", "melanotan-2", "mt-2", "suppliers", "uk", "tanning", "melanocortin", "alpha-msh", "mhra", "safety", "vendors"],
+  },
+  {
+    title: "KPV for Inflammation: PepT1, NF-kB and the Tripeptide That Is Not Immunosuppressive",
+    desc: "Why a three-amino-acid fragment of alpha-MSH is studied for colitis and IBD. The 2008 Gastroenterology paper that showed KPV enters intestinal cells through the PepT1 transporter and suppresses NF-kB signalling from inside, the 2016 colitis-associated cancer model that extended it, and the honest limits — preclinical only, no human trials. Plus the UK market: 68 vendors from £12.75, and why the 500 mcg listing at £95 is the most expensive KPV on the site.",
+    category: "Guide",
+    section: "goals",
+    compound: "KPV",
+    slug: "kpv-for-inflammation",
+    image: "kpv-for-inflammation",
+    minutes: 11,
+    tags: ["kpv", "inflammation", "colitis", "ibd", "nf-kb", "pept1", "anti-inflammatory", "alpha-msh", "gut-health", "for", "immune"],
+  },
 ];
 
 export const compoundList: string[] = [
