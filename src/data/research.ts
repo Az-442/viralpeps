@@ -1589,6 +1589,28 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ["selank", "suppliers", "uk", "verify", "certificate-of-analysis", "tuftsin", "anxiolytic", "research-hub"],
   },
+  {
+    title: "Skin and Hair Peptide Suppliers UK: Copper Peptides, Cosmetic Peptides and the Presentation Trap",
+    desc: "A grouped supplier guide to the skin, hair and cosmetic peptide category \u2014 94 vendors stocking GHK-Cu across 130 listings, SNAP-8 as a topical cosmetic ingredient rather than an injectable, and the melanocortin peptides that ride along in the same catalogues. Why the category's strongest molecule is its cheapest, how to tell a research vial from a cosmetic serum, and the 54x spread that makes GHK-Cu the widest-priced compound on the site.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "GHK-Cu",
+    slug: "skin-hair-peptide-suppliers-uk",
+    image: "skin-hair-peptide-suppliers-uk",
+    minutes: 14,
+    tags: ["ghk-cu", "copper-peptide", "skin", "hair", "snap-8", "acetyl-octapeptide-3", "melanotan", "suppliers", "uk", "cosmetic", "anti-aging", "collagen"],
+  },
+  {
+    title: "UK Peptide Price Comparison: 102 Vendors, 158 Compounds, 3,354 Listings",
+    desc: "The pillar price comparison for the UK research peptide market. How 3,354 tracked listings from 102 vendors actually price \u2014 why the same molecule carries a 54x spread, why Retatrutide costs six times what GHK-Cu does, why a narrow spread says nothing about quality and a wide one says nothing about value, and the four-step method (fix the tier, price per milligram, check the presentation, price the certificate) that turns a list of numbers into a comparison.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "GHK-Cu",
+    slug: "uk-peptide-price-comparison",
+    image: "uk-peptide-price-comparison",
+    minutes: 15,
+    tags: ["price-comparison", "uk", "peptide-prices", "compare-prices", "vendors", "suppliers", "price-per-mg", "research-hub", "market"],
+  },
 ];
 
 export const compoundList: string[] = [
