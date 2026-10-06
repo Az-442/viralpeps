@@ -1627,5 +1627,158 @@
     "destUrl": "https://alphamino.co.uk/shop/bpc/",
     "refPage": "https://www.google.com/",
     "visitorId": "ae15019cf14d96d1"
+  },
+  {
+    "ts": "2026-10-06T12:48:15.825Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://thepeptidecode.co.uk/products/melanotan-ii-10mg",
+    "visitorId": "b81e4ebce2de3e8a"
+  },
+  {
+    "ts": "2026-10-06T12:48:57.430Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157",
+    "visitorId": "e13b5b5f0b120bc2"
+  },
+  {
+    "ts": "2026-10-06T12:49:16.817Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157",
+    "visitorId": "0cc476134a4dfbee"
+  },
+  {
+    "ts": "2026-10-06T12:49:17.880Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptideslabuk.com/product/pt-141/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-06T12:49:25.511Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptideslabuk.com/product/pt-141/",
+    "visitorId": "72ce8cec131ed5a1"
+  },
+  {
+    "ts": "2026-10-06T12:49:33.547Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157",
+    "visitorId": "2fa535c99d68a912"
+  },
+  {
+    "ts": "2026-10-06T12:50:47.045Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg",
+    "visitorId": "215562988a8f0a45"
+  },
+  {
+    "ts": "2026-10-06T12:50:58.862Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg",
+    "visitorId": "e1e5e94508118cb1"
+  },
+  {
+    "ts": "2026-10-06T12:57:52.682Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://purepeptidesuk.com/product/follistatin-344-1mg/",
+    "visitorId": "381b1f336c3167d2"
+  },
+  {
+    "ts": "2026-10-06T13:01:23.847Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
+    "visitorId": "a0425bc9b3f0f5ec"
+  },
+  {
+    "ts": "2026-10-06T13:09:01.206Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "dsip",
+    "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/",
+    "visitorId": "6a41ca052e545a58"
+  },
+  {
+    "ts": "2026-10-06T13:09:21.350Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://anglopeptides.com/product/kpv-10mg-research-peptide-batch-102/",
+    "visitorId": "27f5c2011396ae9c"
+  },
+  {
+    "ts": "2026-10-06T13:09:39.162Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa",
+    "visitorId": "ff726cc33b63f564"
+  },
+  {
+    "ts": "2026-10-06T13:09:48.825Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://jgpeptidesplus.com/product/tirz-40mg/",
+    "visitorId": "4cf9fc17c1b72408"
+  },
+  {
+    "ts": "2026-10-06T13:09:55.402Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "visitorId": "52ea7545096e29d0"
+  },
+  {
+    "ts": "2026-10-06T13:09:58.118Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "visitorId": "4cf9fc17c1b72408"
+  },
+  {
+    "ts": "2026-10-06T13:13:37.350Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/follistatin-1mg",
+    "visitorId": "1f4010a3b893b6e8"
   }
 ]
