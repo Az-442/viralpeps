@@ -95,3 +95,17 @@ listing). Then upsell candidate — no widget installed yet.
 - **2026-09-17** — Created log. SPX Labs recorded: widget installed, TrustScore 65, no package upgrade, no banners/promo products.
 - **2026-09-17** — Added PeptX. 22 listings found broken (prices, `/shop` URLs, soft-404 URLs, identical placeholder images); TrustScore `labTested:false` understates real certificates. Fix scheduled in 18 Sep supplier cron. Added "Fixes owed" table.
 - **2026-10-01** — Added **Pyrox Labs** (`pyrox-labs`, pyroxlabs.co.uk, Pyrox Labs Ltd, registered England & Wales). Status `FREE`, TrustScore **60/100** (Lab-Tested + Contact + Compliant + Shipping; no reviews platform, no widget, no paid audit). 33 single-unit source entries across 20 master compounds, 33 real localised product images, logo installed (navy-panel variant — the "Dark" logo was white-on-transparent and invisible on the white card, so the panel variant was used instead). All 33 URLs passed the GET + `<title>` content check; price-sanity guard flagged only the documented Pillar 8 mg-normalisation false positive (`tirzepatide 5mg £24.99` vs a median dominated by 20–60mg doses — per-mg curve verifies as correct). Multi-vial research bundles, starter kits and Bac Water multipacks were excluded from the single-unit comparison column (PeptX Pitfall 3). Reconfirmed the `vendor-autocheck.mjs --slug=` cache-wipe bug — the per-slug run replaced the 97-key `trustscore-autocheck.json` with a 1-key file; restored by merging HEAD + new entry (98 keys).
+- **2026-10-06** — Added **Peptide Global** (`peptide-global`, peptideglobal.co.uk, **Peptide Global Ltd**, registered England & Wales, company number 17355820). Status `FREE`, TrustScore **60/100** (Lab-Tested + Contact + Compliant + Shipping; no reviews platform, no widget, no paid audit). 32 source entries across 20 master compounds (10 pre-mixed pens + 22 vial/liquid formats), 32 real localised product images (32 unique MD5s — Guard 3 pass), logo installed (`logo-stacked-blue` variant — the primary logo's white S-ribbon vanishes on white; the stacked-blue mark is blue with a white-on-blue GLOBAL badge, safe on white). All 32 URLs passed the GET + `<title>` content check. Coverage reconciliation (Pillar 7) clean. Guard 4 flagged the 10 pens at >3x the vial median — verified as the documented **Pillar 8 mg-normalisation false positive** (pens are multi-dose formats; per-mg maths confirms genuine pricing, not MOQ leaks). Reconfirmed the `--slug=` cache-wipe bug; cache restored by merging HEAD + new entry (103 keys). Email `sales@peptideglobal.co.uk`; free tracked UK next-day, same-day dispatch before 2pm GMT; payment by open banking / bank transfer.
+
+---
+
+### Peptide Global — `peptide-global` (FREE, upsell candidate)
+
+- **Site:** https://peptideglobal.co.uk
+- **Legal entity:** Peptide Global Ltd — England & Wales, company number **17355820**
+- **Status:** `FREE` — listed, no widget, no paid package
+- **TrustScore:** **60/100** | Widget installed: ❌ no | Package upgrade: ❌ no
+- **Email:** sales@peptideglobal.co.uk
+- **Delivery:** Free tracked UK next-day on every order (no minimum) · same-day dispatch before 2pm GMT · 24–48h · EU 2–4 working days, RoW 3–7 at checkout · cold-chain handled
+- **Payment:** Open banking / bank transfer (no card details collected)
+- **Next action:** no widget installed — upsell the free TrustScore badge, then the £50/mo package.
