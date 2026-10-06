@@ -4765,5 +4765,60 @@
       },
       "checkedAt": "2026-10-05T00:42:02.252Z"
     }
+  },
+  {
+    "id": "peptide-global",
+    "name": "Peptide Global",
+    "slug": "peptide-global",
+    "website": "https://peptideglobal.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "founded": 2026,
+    "country": "UK",
+    "description": "Peptide Global is a UK-based research peptide supplier (Peptide Global Ltd, registered in England & Wales, company number 17355820) supplying premium research-grade compounds in both lyophilised vials and pre-mixed dosing pens. Orders are cold-chain handled and dispatched from their own UK facility the same working day before the 2pm GMT cut-off, with free tracked UK next-day delivery (24-48 hours) as standard. Payment is by secure open banking or direct bank transfer - no card details are collected. Sold strictly for laboratory research use only.",
+    "highlights": [
+      "UK-registered company (Peptide Global Ltd, company number 17355820, England & Wales)",
+      "40+ compounds stocked in lyophilised vials and pre-mixed pens",
+      "Free tracked UK next-day delivery on every order - no minimum spend",
+      "Same-day dispatch on orders before 2pm GMT from their own UK facility",
+      "Cold-chain handled with thermal packaging and tamper seals",
+      "Secure open banking / bank transfer payment (no card details collected)",
+      "Research-use-only - not for human or veterinary consumption"
+    ],
+    "shipping": [
+      "Free tracked UK delivery on every order (no minimum spend)",
+      "UK: tracked next-day, 1 working day (free)",
+      "Same-day dispatch on orders placed before 2pm GMT",
+      "Typical delivery 24-48 hours from dispatch",
+      "EU: tracked express 2-4 working days (calculated at checkout)",
+      "Rest of world: tracked international 3-7 working days (calculated at checkout)",
+      "Tracking number emailed the moment the order ships",
+      "Cold-chain handled with thermal packaging and tamper seals"
+    ],
+    "payment": [
+      "Open banking",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-10-06",
+    "labTested": true,
+    "email": "sales@peptideglobal.co.uk",
+    "delivery": "Free tracked UK next-day delivery on every order (no minimum) · same-day dispatch before 2pm GMT · 24-48h delivery · EU 2-4 working days, RoW 3-7 working days at checkout · cold-chain handled",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-06T00:38:22.624Z"
+    }
   }
 ]

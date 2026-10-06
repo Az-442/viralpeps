@@ -2877,5 +2877,34 @@
       "coa": "coa",
       "review": "trustpilot"
     }
+  },
+  "peptide-global": {
+    "slug": "peptide-global",
+    "website": "https://peptideglobal.co.uk",
+    "checkedAt": "2026-10-06T00:38:22.624Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "buy peptides uk | pre-mixed research pens &#8211; peptide global"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "independent lab",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 4,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "independent lab",
+      "review": null
+    }
   }
 }
