@@ -1509,5 +1509,95 @@
     "compoundSlug": "selank",
     "destUrl": "https://leolab.co.uk/peptides/selank/",
     "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-06T11:01:24.619Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-10-06T11:01:29.995Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "f16382faa5189dbe"
+  },
+  {
+    "ts": "2026-10-06T11:03:27.523Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "visitorId": "e0083e64cc4fb1cd"
+  },
+  {
+    "ts": "2026-10-06T11:03:40.142Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "visitorId": "4ef845cb2e271239"
+  },
+  {
+    "ts": "2026-10-06T11:07:36.213Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
+    "visitorId": "e7426218b76fe5b4"
+  },
+  {
+    "ts": "2026-10-06T11:07:47.197Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
+    "visitorId": "0b4f48b098c46c60"
+  },
+  {
+    "ts": "2026-10-06T11:08:06.756Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
+    "visitorId": "a2546ea8ee875a3f"
+  },
+  {
+    "ts": "2026-10-06T11:10:17.225Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "visitorId": "2b7ed4f0816ad173"
+  },
+  {
+    "ts": "2026-10-06T11:19:27.491Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-10-06T11:37:20.701Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hcg",
+    "destUrl": "https://purepeptidesuk.com/product/hcg-5000iu/",
+    "visitorId": "25fd680b57dd2c76"
   }
 ]
