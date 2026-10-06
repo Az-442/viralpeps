@@ -28497,5 +28497,15 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://supplypeptides.co.uk/products/nad",
     "visitorId": "21264b60f86504a7"
+  },
+  {
+    "ts": "2026-10-06T00:42:00.875Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://bionikpeptides.com/products/pt-141",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "400a10cf9a78aea5"
   }
 ]
