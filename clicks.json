@@ -4166,5 +4166,13 @@
     "compoundSlug": "l-carnitine",
     "destUrl": "https://www.expresspeptides.co.uk/product/l-carnitine/vial",
     "visitorId": "9d06f27e4f9692b3"
+  },
+  {
+    "ts": "2026-10-06T20:23:15.771Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "visitorId": "fa0be121e4c963ef"
   }
 ]
