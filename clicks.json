@@ -228,5 +228,434 @@
     "compoundSlug": "ahk-cu",
     "destUrl": "https://www.revexa.co.uk/product-page/ahk-cu-50mg",
     "visitorId": "a4f0ae6fe1325296"
+  },
+  {
+    "ts": "2026-10-06T06:34:05.576Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ahk-cu-50mg",
+    "visitorId": "958b522bc2f1a668"
+  },
+  {
+    "ts": "2026-10-06T06:34:16.865Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ahk-cu-50mg",
+    "visitorId": "4e7cb05e2fdd3a2a"
+  },
+  {
+    "ts": "2026-10-06T06:36:25.309Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.revexa.co.uk/product-page/semax-10mg-acth-4-10-analogue",
+    "visitorId": "727bead9e9d40d38"
+  },
+  {
+    "ts": "2026-10-06T06:37:06.329Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "5cce02334e98c194"
+  },
+  {
+    "ts": "2026-10-06T06:39:07.482Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-with-dac-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "6e68a58652ae6e1a"
+  },
+  {
+    "ts": "2026-10-06T06:39:16.359Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bionikpeptides.com/products/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "77f5a0419444e732"
+  },
+  {
+    "ts": "2026-10-06T06:39:20.540Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-with-dac-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "529289072faef5fe"
+  },
+  {
+    "ts": "2026-10-06T06:39:48.234Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://phoenixbiolabs.net/shop/bacteriostatic-sterile-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "590beb647d8f9706"
+  },
+  {
+    "ts": "2026-10-06T06:40:22.801Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "visitorId": "e8ca898e97ea7a61"
+  },
+  {
+    "ts": "2026-10-06T06:40:22.842Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "visitorId": "956c6d1061d65bfa"
+  },
+  {
+    "ts": "2026-10-06T06:40:42.997Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "visitorId": "5eeb4a54a4b4f002"
+  },
+  {
+    "ts": "2026-10-06T06:40:44.850Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://redpandapeptides.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "88a47c63edbe5305"
+  },
+  {
+    "ts": "2026-10-06T06:41:00.428Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "visitorId": "e4820acfc81a1fa2"
+  },
+  {
+    "ts": "2026-10-06T06:41:23.249Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://bionikpeptides.com/products/pe-22-28",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "590beb647d8f9706"
+  },
+  {
+    "ts": "2026-10-06T06:42:05.100Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bionikpeptides.com/products/aod-9604",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "590beb647d8f9706"
+  },
+  {
+    "ts": "2026-10-06T06:43:21.924Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/rt3-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "33d6662f6b08f785"
+  },
+  {
+    "ts": "2026-10-06T06:43:58.417Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://ukpeptides.org/buy/mots-c-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "f349ab06b784132c"
+  },
+  {
+    "ts": "2026-10-06T06:44:07.948Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://bionikpeptides.com/products/matrixyl",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "f775cea9e5ce5ddd"
+  },
+  {
+    "ts": "2026-10-06T06:44:47.422Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pyroxlabs.co.uk/product/ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "69d961d77cbd1c73"
+  },
+  {
+    "ts": "2026-10-06T06:45:57.621Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://jgpeptidesplus.com/product/cjc-1295-no-dac-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "28980d4f99140321"
+  },
+  {
+    "ts": "2026-10-06T06:47:23.559Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "visitorId": "70e446461f25c5b6"
+  },
+  {
+    "ts": "2026-10-06T06:47:56.534Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "visitorId": "fd1224b7e65e9d7e"
+  },
+  {
+    "ts": "2026-10-06T06:48:31.670Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/semaglutide",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4add3a45fc74722a"
+  },
+  {
+    "ts": "2026-10-06T06:49:31.491Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "visitorId": "b44aae90aed72b03"
+  },
+  {
+    "ts": "2026-10-06T06:49:48.104Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "visitorId": "39905cc108789257"
+  },
+  {
+    "ts": "2026-10-06T06:50:01.772Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "visitorId": "57ceb1c4b74e71af"
+  },
+  {
+    "ts": "2026-10-06T06:50:11.076Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0af99168f496cf86"
+  },
+  {
+    "ts": "2026-10-06T06:50:26.065Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "34e8ab6edaeebe5a"
+  },
+  {
+    "ts": "2026-10-06T06:50:53.931Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://bionikpeptides.com/products/vip",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "591630bc9c311ca9"
+  },
+  {
+    "ts": "2026-10-06T06:52:51.562Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackerxlab.com/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "591630bc9c311ca9"
+  },
+  {
+    "ts": "2026-10-06T06:52:59.437Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackerxlab.com/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7278d0da73a816bb"
+  },
+  {
+    "ts": "2026-10-06T06:53:04.379Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackerxlab.com/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "acb58f79ded68fdb"
+  },
+  {
+    "ts": "2026-10-06T06:55:55.969Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.revexa.co.uk/product-page/epitalon-10mg-telomerase-research-tetrapeptide",
+    "visitorId": "8523921883474bc1"
+  },
+  {
+    "ts": "2026-10-06T06:56:14.232Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.revexa.co.uk/product-page/epitalon-10mg-telomerase-research-tetrapeptide",
+    "visitorId": "db6dbef4e362ea74"
+  },
+  {
+    "ts": "2026-10-06T06:56:24.927Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.revexa.co.uk/product-page/epitalon-10mg-telomerase-research-tetrapeptide",
+    "visitorId": "01fa3687126367e1"
+  },
+  {
+    "ts": "2026-10-06T07:00:03.470Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bionikpeptides.com/products/nad",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cd4a31f803ff7592"
+  },
+  {
+    "ts": "2026-10-06T07:01:27.487Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.peptifyuk.com/product/kpv-10mg",
+    "visitorId": "5cc2982ac4ed1d8b"
+  },
+  {
+    "ts": "2026-10-06T07:02:15.133Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7732876b124a2ea7"
+  },
+  {
+    "ts": "2026-10-06T07:02:22.722Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8682a50a566a1554"
+  },
+  {
+    "ts": "2026-10-06T07:02:23.654Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kpv",
+    "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk",
+    "visitorId": "e6dede45b887b0c5"
+  },
+  {
+    "ts": "2026-10-06T07:02:45.085Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kpv",
+    "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk",
+    "visitorId": "a0129b96beba8674"
+  },
+  {
+    "ts": "2026-10-06T07:03:05.725Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biohackerxlab.com/product/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b9122901e293dc4a"
+  },
+  {
+    "ts": "2026-10-06T07:03:10.916Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biohackerxlab.com/product/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c476efd027615b43"
+  },
+  {
+    "ts": "2026-10-06T07:03:18.360Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://biohackerxlab.com/product/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "3ebad62e22f68cf7"
+  },
+  {
+    "ts": "2026-10-06T07:04:48.512Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bionikpeptides.com/products/5-amino-1mq",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "274aa00376237c73"
   }
 ]
