@@ -4174,5 +4174,14 @@
     "vendorName": "Pure Peptides UK",
     "destUrl": "https://purepeptidesuk.com",
     "visitorId": "fa0be121e4c963ef"
+  },
+  {
+    "ts": "2026-10-06T20:35:07.035Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://peptx.co.uk/single-vials/l-carnitine",
+    "visitorId": "86ba54d71b667b7b"
   }
 ]
