@@ -10602,5 +10602,90 @@
     "vendorName": "Biohack Peptides",
     "destUrl": "https://biohackpeptides.co.uk",
     "visitorId": "67b9f2ee5855823c"
+  },
+  {
+    "ts": "2026-10-07T17:13:55.651Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "visitorId": "edb026e0d16ad792"
+  },
+  {
+    "ts": "2026-10-07T17:14:08.726Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/",
+    "visitorId": "edb026e0d16ad792"
+  },
+  {
+    "ts": "2026-10-07T17:16:22.182Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "548a7232a9e3633f"
+  },
+  {
+    "ts": "2026-10-07T17:16:29.362Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1d2b82fc74fd3e9d"
+  },
+  {
+    "ts": "2026-10-07T17:18:33.195Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptidelabuk.co.uk/product/glow-blend-70mg-ghk-cu-bpc-157-tb-500/",
+    "visitorId": "a519cf92a1a8e123"
+  },
+  {
+    "ts": "2026-10-07T17:20:06.358Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://zentra-peptides.com/product/glow-blend-bpc-157-tb-500-ghk-cu/",
+    "visitorId": "e1a91b4ebe5a9d92"
+  },
+  {
+    "ts": "2026-10-07T17:33:33.600Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c760bb00520ba58c"
+  },
+  {
+    "ts": "2026-10-07T17:33:38.067Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4b1e65654680eee9"
+  },
+  {
+    "ts": "2026-10-07T17:49:25.985Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/",
+    "visitorId": "f3ac7685dd105d03"
   }
 ]
