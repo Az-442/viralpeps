@@ -11431,5 +11431,86 @@
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
     "visitorId": "bd294de3b938699e"
+  },
+  {
+    "ts": "2026-10-07T23:28:30.408Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://allmypeptides.com/product/wolverine-blend/",
+    "visitorId": "31127a92dcf37503"
+  },
+  {
+    "ts": "2026-10-07T23:31:35.806Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
+    "visitorId": "d43849e2de7c1174"
+  },
+  {
+    "ts": "2026-10-07T23:31:46.044Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
+    "visitorId": "9e3746e0275161e1"
+  },
+  {
+    "ts": "2026-10-07T23:32:00.431Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
+    "visitorId": "15859edbdeb835d0"
+  },
+  {
+    "ts": "2026-10-07T23:42:09.767Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://biopeptides-uk.com/product/snap-8-10mg/",
+    "visitorId": "8b2f5fb962f975ab"
+  },
+  {
+    "ts": "2026-10-07T23:46:24.734Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bioplexpeptides.co.uk/products/igf-1-lr3-1mg-insulin-like-growth-factor-1",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-07T23:51:28.620Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "visitorId": "dfe253dc8c0b32fc"
+  },
+  {
+    "ts": "2026-10-07T23:53:15.654Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157-tb500-blend/",
+    "visitorId": "6fe61607f1ea7066"
+  },
+  {
+    "ts": "2026-10-07T23:55:40.852Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-tb-500-10mg-research-blend/",
+    "visitorId": "dfe253dc8c0b32fc"
   }
 ]
