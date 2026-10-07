@@ -6304,5 +6304,179 @@
     "compoundSlug": "kpv",
     "destUrl": "https://leolab.co.uk/peptides/kpv/",
     "visitorId": "6363c252c87a32dc"
+  },
+  {
+    "ts": "2026-10-07T03:23:06.075Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://allmypeptides.com/product/pt-141/",
+    "visitorId": "76dd2ab68a5b4afd"
+  },
+  {
+    "ts": "2026-10-07T03:26:00.621Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/pt-141-10mg",
+    "visitorId": "76dd2ab68a5b4afd"
+  },
+  {
+    "ts": "2026-10-07T03:27:19.235Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://cmsrlabs.co/product/retatrutide-10mg/",
+    "visitorId": "c523199557d2a8df"
+  },
+  {
+    "ts": "2026-10-07T03:27:46.977Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://allmypeptides.com/product/glutathione/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "f0f7ac1bc4dfc644"
+  },
+  {
+    "ts": "2026-10-07T03:33:13.876Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
+    "visitorId": "1f4010a3b893b6e8"
+  },
+  {
+    "ts": "2026-10-07T03:35:47.992Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/15-bacteriostatic-water-10ml.html",
+    "visitorId": "bd82379a28f67c81"
+  },
+  {
+    "ts": "2026-10-07T03:35:53.901Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/15-bacteriostatic-water-10ml.html",
+    "visitorId": "fbdd24b01ec14db2"
+  },
+  {
+    "ts": "2026-10-07T03:36:03.714Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/15-bacteriostatic-water-10ml.html",
+    "visitorId": "ec3ebb0374a6ed0d"
+  },
+  {
+    "ts": "2026-10-07T03:39:29.694Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta",
+    "visitorId": "b064f0a3336b2a5c"
+  },
+  {
+    "ts": "2026-10-07T03:39:46.919Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta",
+    "visitorId": "e8c2d00b8e035c86"
+  },
+  {
+    "ts": "2026-10-07T03:39:47.397Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://pgnalabs.co.uk/product/pt-141",
+    "visitorId": "0f2e3e5e87697fb6"
+  },
+  {
+    "ts": "2026-10-07T03:40:08.126Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta",
+    "visitorId": "cb6a3a8dfe0dc0fc"
+  },
+  {
+    "ts": "2026-10-07T03:40:23.323Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/thymosin-alpha-1",
+    "visitorId": "80b974dbe18b4df9"
+  },
+  {
+    "ts": "2026-10-07T03:44:20.304Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/pt-141-10mg/",
+    "visitorId": "08f779694c1c9318"
+  },
+  {
+    "ts": "2026-10-07T03:44:48.407Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/ipamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/bio-peptides-uk/ipamorelin",
+    "visitorId": "0fa99c23326fc94f"
+  },
+  {
+    "ts": "2026-10-07T03:47:24.746Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://precision-peptides.shop/product/ghrp-2-10mg/",
+    "visitorId": "1929150d6a27c974"
+  },
+  {
+    "ts": "2026-10-07T03:49:26.800Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ghrp-2-10mg/",
+    "visitorId": "6fe61607f1ea7066"
+  },
+  {
+    "ts": "2026-10-07T03:52:00.148Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://ukpeptides.com/catalog/ghrp-2",
+    "visitorId": "f8f91f39270de52b"
+  },
+  {
+    "ts": "2026-10-07T03:53:51.415Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/kpv/",
+    "visitorId": "493ee909145e03e2"
   }
 ]
