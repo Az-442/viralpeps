@@ -7889,5 +7889,78 @@
     "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "08bb08001f29a239"
+  },
+  {
+    "ts": "2026-10-07T07:39:02.654Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8f1767d8d78eb8e7"
+  },
+  {
+    "ts": "2026-10-07T07:55:56.709Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://biotideuk.com/products/semax-10-mg",
+    "visitorId": "04710b308339561b"
+  },
+  {
+    "ts": "2026-10-07T07:56:07.365Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://biotideuk.com/products/semax-10-mg",
+    "visitorId": "c20d4bf565b312c1"
+  },
+  {
+    "ts": "2026-10-07T07:58:55.225Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidesuk.com/ipamorelin-5mg/",
+    "visitorId": "d086addd7404b21d"
+  },
+  {
+    "ts": "2026-10-07T07:59:39.193Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bebetterpeptides.com/products/aod-9604-5mg",
+    "visitorId": "ba1cfa2de6232108"
+  },
+  {
+    "ts": "2026-10-07T08:03:19.545Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://zentra-peptides.com/product/thymosin-alpha-1/",
+    "visitorId": "ea2fd27b3ff3da82"
+  },
+  {
+    "ts": "2026-10-07T08:08:51.142Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://biotideuk.com/products/wolverine-stack-20-mg",
+    "visitorId": "00289b081958dcb4"
+  },
+  {
+    "ts": "2026-10-07T08:10:15.826Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bionikpeptides.com/products/aod-9604",
+    "visitorId": "5df767bbdf80d346"
   }
 ]
