@@ -7971,5 +7971,159 @@
     "compoundSlug": "klow",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-tb-500-ghk-cu-kpv-80mg",
     "visitorId": "d111164b77095902"
+  },
+  {
+    "ts": "2026-10-07T08:28:26.096Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://xlpeptides.com/product/hgh-frag-176-191-5mg/",
+    "visitorId": "024f74aa7cd6a5aa"
+  },
+  {
+    "ts": "2026-10-07T08:28:34.054Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://redpandapeptides.co.uk/product/bpc-157-10mg/",
+    "visitorId": "a16e604a59e94ff2"
+  },
+  {
+    "ts": "2026-10-07T08:28:37.377Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://redpandapeptides.co.uk/product/bpc-157-10mg/",
+    "visitorId": "b979c110829fa170"
+  },
+  {
+    "ts": "2026-10-07T08:28:52.663Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://olresearch.co.uk/product/aod9604-5mg/",
+    "visitorId": "6326789a6e9afc7c"
+  },
+  {
+    "ts": "2026-10-07T08:33:43.270Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/thymosin-alpha-1-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/kensington-labs/thymosin-alpha-1",
+    "visitorId": "a88395bdaec4dd62"
+  },
+  {
+    "ts": "2026-10-07T08:39:31.608Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-10-07T08:39:33.312Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-07T08:42:22.815Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ipamorelin-5-mg/",
+    "visitorId": "d790a91ef7f9162a"
+  },
+  {
+    "ts": "2026-10-07T08:48:04.039Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "chonliten",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-chonliten-10mg/",
+    "visitorId": "2b7ed4f0816ad173"
+  },
+  {
+    "ts": "2026-10-07T08:51:21.529Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://my-peptides.co.uk/products/kpv",
+    "visitorId": "71a5fd3e8c354612"
+  },
+  {
+    "ts": "2026-10-07T08:51:24.279Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/aod-9604-5mg",
+    "visitorId": "b42fdd7035f98b99"
+  },
+  {
+    "ts": "2026-10-07T08:54:23.941Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-07T08:54:27.037Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-07T08:56:38.923Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-07T08:56:40.609Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-07T08:56:44.221Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157",
+    "visitorId": "b4f261adf0e1fb4d"
+  },
+  {
+    "ts": "2026-10-07T09:00:57.457Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://biohackpeptides.co.uk/product/slu-pp-332-5mg-3ml-bac-water/",
+    "visitorId": "f7a3f0dc932078f3"
   }
 ]
