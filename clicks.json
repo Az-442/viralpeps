@@ -6181,5 +6181,128 @@
     "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
     "refPage": "https://www.viralpeps.co.uk/go/tide-labs/ipamorelin",
     "visitorId": "e6a93e3be821a59b"
+  },
+  {
+    "ts": "2026-10-07T02:52:21.408Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://everythingpeptides.co.uk/products/nadplus-buffered",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0746e811401fcc4d"
+  },
+  {
+    "ts": "2026-10-07T02:53:19.219Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.peptidesx.uk/product/melanotan-2/",
+    "visitorId": "e23c1eae547b4ecd"
+  },
+  {
+    "ts": "2026-10-07T02:53:43.209Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.peptidesx.uk/product/melanotan-2/",
+    "visitorId": "02698135d27c0faf"
+  },
+  {
+    "ts": "2026-10-07T02:57:01.975Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://biopeptides-uk.com/product/ghrp-2-10mg/",
+    "visitorId": "e0a8930065936387"
+  },
+  {
+    "ts": "2026-10-07T02:58:45.234Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "6fe61607f1ea7066"
+  },
+  {
+    "ts": "2026-10-07T03:01:33.845Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://everythingpeptides.co.uk/products/ara-290-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "5493e400edf3d932"
+  },
+  {
+    "ts": "2026-10-07T03:05:23.315Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://xlpeptides.com/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/xl-peptides/kpv",
+    "visitorId": "fc7bbda81fb4b867"
+  },
+  {
+    "ts": "2026-10-07T03:06:01.505Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://everythingpeptides.co.uk/products/pt-141-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b0a13b44e29dd2c8"
+  },
+  {
+    "ts": "2026-10-07T03:06:17.286Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://allmypeptides.com/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ae7e6ed5da399986"
+  },
+  {
+    "ts": "2026-10-07T03:18:35.518Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biotideuk.com/products/reta",
+    "refPage": "https://www.viralpeps.co.uk/go/biotide-uk/retatrutide",
+    "visitorId": "e5977486483fbd22"
+  },
+  {
+    "ts": "2026-10-07T03:20:39.858Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidesuk.com/selank/",
+    "visitorId": "912fa4326498333a"
+  },
+  {
+    "ts": "2026-10-07T03:20:45.515Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidesuk.com/selank/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-07T03:23:05.875Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "visitorId": "6363c252c87a32dc"
   }
 ]
