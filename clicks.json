@@ -10537,5 +10537,70 @@
     "destUrl": "https://midshirelabs.co.uk/products/selank/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "b9fa45103acdd327"
+  },
+  {
+    "ts": "2026-10-07T16:39:05.334Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2da4f47f4da32dd0"
+  },
+  {
+    "ts": "2026-10-07T16:59:27.181Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://ascendpeptidesuk.com/products/bacteriostatic-water/",
+    "visitorId": "31d9f73788d0d93d"
+  },
+  {
+    "ts": "2026-10-07T17:00:07.777Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://chromapeptides.co.uk/product/glow/",
+    "visitorId": "c6d9da7b2ce680f4"
+  },
+  {
+    "ts": "2026-10-07T17:00:59.876Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c443089ef22e5e1c"
+  },
+  {
+    "ts": "2026-10-07T17:01:05.865Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9bd067e74be6f263"
+  },
+  {
+    "ts": "2026-10-07T17:07:52.649Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidesx.uk/product/glow-blend/",
+    "visitorId": "ae62400a725bfd29"
+  },
+  {
+    "ts": "2026-10-07T17:12:46.692Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "visitorId": "67b9f2ee5855823c"
   }
 ]
