@@ -9697,5 +9697,77 @@
     "compoundSlug": "glow",
     "destUrl": "https://www.novapeptide.co.uk/product/glow-blend/",
     "visitorId": "76dd2ab68a5b4afd"
+  },
+  {
+    "ts": "2026-10-07T11:39:41.048Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klotho",
+    "destUrl": "https://bionikpeptides.com/products/klotho",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-07T11:39:46.233Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klotho",
+    "destUrl": "https://bionikpeptides.com/products/klotho",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-10-07T11:39:51.061Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klotho",
+    "destUrl": "https://bionikpeptides.com/products/klotho",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-10-07T11:42:23.741Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.buyreta.co.uk/product/ipamorelin-10mg-uk",
+    "visitorId": "03192bfeb5749001"
+  },
+  {
+    "ts": "2026-10-07T11:44:20.258Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidepal.co.uk/products/glow",
+    "visitorId": "dfe253dc8c0b32fc"
+  },
+  {
+    "ts": "2026-10-07T11:53:37.779Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://britpeptides.co.uk/product/glow-stack-disposable-pen-ghk-cu-tb-500-bpc-157-blend/",
+    "visitorId": "ab95cbcb96baca09"
+  },
+  {
+    "ts": "2026-10-07T12:01:13.712Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://pyroxlabs.co.uk/product/glow-70-blend-70mg/",
+    "visitorId": "36ad5236d8cccac5"
+  },
+  {
+    "ts": "2026-10-07T12:11:50.435Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://midshirelabs.co.uk/products/glow50/",
+    "visitorId": "76dd2ab68a5b4afd"
   }
 ]
