@@ -11008,5 +11008,104 @@
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://biotideuk.com/products/wolverine-stack-20-mg",
     "visitorId": "2323ef8d1f721056"
+  },
+  {
+    "ts": "2026-10-07T20:40:29.138Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "67b6aafecd7bada5"
+  },
+  {
+    "ts": "2026-10-07T20:45:12.942Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "2a9427d7434a4c76"
+  },
+  {
+    "ts": "2026-10-07T20:48:44.576Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "855e66212d64f968"
+  },
+  {
+    "ts": "2026-10-07T20:48:49.987Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4c3d3199d77da040"
+  },
+  {
+    "ts": "2026-10-07T20:59:43.523Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-fragment-176-191",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-10-07T20:59:44.974Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-fragment-176-191",
+    "visitorId": "f16382faa5189dbe"
+  },
+  {
+    "ts": "2026-10-07T20:59:46.417Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-fragment-176-191",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-07T21:00:17.571Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/revexa/kpv",
+    "visitorId": "993ab53ef973098a"
+  },
+  {
+    "ts": "2026-10-07T21:07:22.165Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://chiltonlabs.co.uk/product/melanotan-ii-mt2-10mg/",
+    "visitorId": "2b88eaa5da1802a4"
+  },
+  {
+    "ts": "2026-10-07T21:07:24.269Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://precision-peptides.shop/product/bpc-tb500-10mg-blend/",
+    "visitorId": "6893b51226833a73"
+  },
+  {
+    "ts": "2026-10-07T21:14:05.622Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "2c6a92bc18b75202"
   }
 ]
