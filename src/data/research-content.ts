@@ -13968,5 +13968,305 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'epitalon-suppliers-uk': {
+  slug: 'epitalon-suppliers-uk',
+  compoundSlug: 'epitalon',
+  pullQuote: "Epitalon is the cheapest longevity compound in the UK catalogue and the one with the longest-running evidence problem. It is a four-amino-acid tetrapeptide sold by 55 vendors from £10.99 — a price low enough that nobody stops to ask which of the 67 listings are actually the same molecule, which are the same batch relabelled, and which carry a certificate that says anything at all.",
+  quickInfo: [
+    { label: 'Compound', value: 'Epitalon (Epithalon, Epithalamin analogue, AEDG)' },
+    { label: 'Sequence', value: 'Ala-Glu-Asp-Gly (4 amino acids)' },
+    { label: 'CAS Number', value: '130268-60-9' },
+    { label: 'Molecular Weight', value: '390.4 g/mol' },
+    { label: 'Class', value: 'Pineal-derived regulatory tetrapeptide' },
+    { label: 'Primary Research Areas', value: 'Telomerase activation, circadian rhythm, melatonin regulation, longevity' },
+    { label: 'Regulatory Status', value: 'No MHRA, EMA or FDA licence; research use only' },
+    { label: 'UK Supply (Oct 2026)', value: '55 vendors, 67 listings, £10.99 to £199.99' },
+    { label: 'Dominant Dose Tier', value: '10 mg vial (37 of 67 listings)' },
+  ],
+  sections: [
+    {
+      title: 'What Epitalon Actually Is',
+      body: "Epitalon — also spelled epithalon, and abbreviated AEDG after its sequence Ala-Glu-Asp-Gly — is a synthetic tetrapeptide modelled on **epithalamin**, a peptide fraction extracted from bovine pineal glands and studied in Russia from the 1970s. Where epithalamin is a heterogeneous extract of dozens of peptides, epitalon is the single four-residue fragment that Khavinson's group at the Saint Petersburg Institute of Bioregulation and Gerontology identified as the carrier of the pineal-extract effect.\n\nIt is worth being precise about how small that is. Epitalon is four amino acids. That is the same length as a tripeptide with one residue added — smaller than almost every other compound in the UK research catalogue. It has no tertiary structure, no disulphide bonds and no glycosylation, which makes it trivially cheap to synthesise by solid-phase peptide synthesis and trivially easy to get wrong: a single-residue error produces a molecule of almost identical mass that a vendor's own certificate may not distinguish if it reports only a single-number purity.\n\nThat combination — cheap, tiny, popular, and impossible for a buyer to verify by inspection — is the entire reason this supplier guide is organised around certification rather than around price.\n\n[**See the full Epitalon price picture on the compound page →**](/compounds/epitalon)",
+    },
+    {
+      title: 'The Evidence Base, Honestly Stated',
+      body: "Epitalon carries a reputation for telomere extension that is larger than the literature supporting it. Distinguishing the two matters when you are deciding which vendor to trust, because the marketing language attached to epitalon routinely overstates what has been shown.",
+      subsections: [
+        {
+          title: '1. The telomerase finding is real — and it is in vitro',
+          body: "The foundational claim traces to Khavinson, Bondarev and Butyugov (2003), who cultured telomerase-negative human fetal fibroblasts with the peptide and reported induction of the catalytic subunit of telomerase, measurable enzymatic activity, and a mean telomere elongation of roughly **33%** against controls. That is a genuine, citation-worthy result. It is also a cell-culture result. It tells you the peptide can influence telomerase in a dish; it does not tell you that a systemic exposure in an organism reaches the relevant cell populations at a concentration that produces the same effect.",
+        },
+        {
+          title: '2. The 2025 replication changed the picture — and complicated it',
+          body: "For two decades the telomerase claim rested almost entirely on one group's output. In 2025 an independent group at Brunel University London reproduced dose-dependent telomere extension in normal human cell lines — important, because independent replication is the thing Khavinson's work had never had. The same paper, however, found that epitalon increased telomere length through **either telomerase upregulation or ALT activity** (alternative lengthening of telomeres), depending on the cell line. ALT is a recombination-based mechanism associated with a subset of cancers. An effect that runs through ALT is not automatically the same effect as physiological telomerase maintenance, and the paper does not resolve which mechanism dominates in vivo.",
+        },
+        {
+          title: '3. The animal lifespan data is one mouse strain, one lab',
+          body: "Anisimov's group reported in *Biogerontology* (2003) that epitalon reduced spontaneous tumour incidence and extended lifespan in female SHR mice. The effect is the strongest single animal result in the compound's file and it is the origin of the '12 to 24% lifespan extension' figure that circulates online. It is also a single-sex, single-strain mouse study from the same research programme as the telomerase work. Treat it as a hypothesis-generating result, not a settled one.",
+        },
+        {
+          title: '4. The human data is old, Russian, and not randomised-controlled',
+          body: "Khavinson's group published human observations: telomere length in blood cells of patients aged 60 to 65 and 75 to 80; a geroprotective effect in elderly subjects with accelerated cardiovascular ageing (Korkushko, 2006); normalisation of the nocturnal melatonin rhythm in old monkeys and elderly people (Korkushko, 2007); and a reported improvement in retinitis pigmentosa (Khavinson, 2002). These are real published papers. None of them is a modern, pre-registered, placebo-controlled, multi-centre trial, and none has been independently replicated to the standard a licensed medicine would require. The honest summary is that epitalon has a plausible mechanism, a consistent body of work from one research lineage, and a 2025 in-vitro replication — not proof that it lengthens human lifespan.",
+        },
+      ],
+    },
+    {
+      title: 'The UK Supply Market — 55 Vendors, 67 Listings',
+      body: "Epitalon is one of the most widely stocked compounds in the UK research catalogue and one of the cheapest. As of October 2026 ViralPeps tracks **55 vendors and 67 listings**, priced from **£10.99 to £199.99**. That is an 18x spread on the same nominal molecule, which is a much more useful number than it first appears.",
+      table: {
+        header: ['Metric', 'Value', 'What It Tells You'],
+        rows: [
+          ['Vendors stocking epitalon', '55', 'Very high — epitalon is a catalogue staple, not a niche item'],
+          ['Priced listings tracked', '67', 'Thin per-vendor: most vendors carry one dose tier only'],
+          ['Lowest price', '£10.99 (10 mg)', 'Near the floor of what solid-phase synthesis of a tetrapeptide can cost'],
+          ['Highest price', '£199.99', '18x the floor — priced on branding, not on molecule'],
+          ['Dominant dose tier', '10 mg (37 listings)', '10 mg is the de facto standard vial'],
+          ['Other tiers', '5 mg, 20 mg, 25 mg, 50 mg, 10x10 mg', 'Bulk and precision tiers exist but are thinly supplied'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'Why the spread is so wide on a molecule this cheap',
+          body: "A four-residue peptide is the cheapest thing a peptide laboratory can make. The raw material cost of a 10 mg epitalon vial is small — the synthesis is a handful of coupling steps. A wide spread on a molecule this simple is therefore not explained by manufacturing difficulty. It is explained by **market positioning**: vendors price epitalon against the longevity-buyer's expectations rather than against their cost base, and a £199.99 listing is not delivering a better molecule than a £10.99 one. It is delivering a brand, a certificate, or a bundle. When price varies 18x on a compound whose synthesis cost is near-uniform, price is telling you about the seller, not the substance.",
+        },
+        {
+          title: 'The dose tiers are a verification problem, not a pricing one',
+          body: "Most listings are 10 mg, but the catalogue also carries 5 mg, 20 mg, 25 mg, 50 mg and a 10x10 mg bulk format. Each of those is a different fill, and a certificate that covers a 10 mg batch does not cover a 50 mg batch unless it names the batch. **Check that the certificate matches the vial size and the batch code on the specific listing you are buying**, not the product page in general. This is the single most common failure in the epitalon market because the low unit price discourages the kind of scrutiny a £200 growth-hormone vial attracts.",
+        },
+      ],
+    },
+    {
+      title: 'The Five Verification Traps on Epitalon',
+      body: "Because epitalon is cheap and popular, it attracts exactly the kind of listing that cuts corners. These are the traps that matter, in order of how often they appear in the catalogue.",
+      subsections: [
+        {
+          title: 'Trap 1 — The purity number with no method',
+          body: "A listing that says '99% pure' without stating the method (HPLC-UV, HPLC-MS, UPLC) and the date is not making a verifiable claim. HPLC purity in the high nineties is achievable for a tetrapeptide by almost any competent laboratory; the question is whether the *identity* was confirmed, not just the purity. Look for a mass-spectrometry result that matches the theoretical mass of 390.4 g/mol.",
+        },
+        {
+          title: 'Trap 2 — The certificate that is not batch-matched',
+          body: "A certificate of analysis is a statement about one batch. If the listing shows a generic certificate with no batch number, or a batch number that does not match the vial you receive, the document is decoration. This is the single most useful thing to check and the one buyers skip because epitalon feels too cheap to bother with.",
+        },
+        {
+          title: 'Trap 3 — The 10 mg vial at a price the molecule cannot support',
+          body: "A 10 mg epitalon listing priced below the raw-material floor is a flag, not a bargain. Tetrapeptides are cheap, but not free: below roughly the £10 mark you are looking at either a smaller fill than advertised, a lower-purity synthesis sold on a purity claim, or a listing that has simply not been maintained. The floor price in the catalogue is £10.99; treat anything dramatically beneath it with suspicion.",
+        },
+        {
+          title: 'Trap 4 — Cosmetic and \'anti-aging serum\' substitution',
+          body: "The same word — epitalon — appears in the cosmetic market attached to serums, creams and 'skin-repair' formulations that are not research-grade lyophilised peptide at all. If a listing offers epitalon as a topical or a capsule rather than a lyophilised powder, it is a different product category and should not be compared on price with the vials. The research market is lyophilised powder for reconstitution.",
+        },
+        {
+          title: 'Trap 5 — Near-duplicate vendor names',
+          body: "The UK catalogue contains vendors with confusingly similar names, and the epitalon market is dense enough that two differently-branded storefronts can be the same operation. Before treating two listings as competing suppliers, check whether they share a certificate issuer, a contact address, or an identical product photograph. Where they do, the 'competition' is illusory and the spread is not a signal.",
+        },
+      ],
+    },
+    {
+      title: 'How to Read a Vendor Claim on Epitalon',
+      body: "Given how thin the human evidence is, the sensible way to evaluate an epitalon *supplier* is the same way you would evaluate any research reagent: ignore the longevity copy and interrogate the specification. Ask four questions, in this order.\n\n**One — does the listing state the sequence?** Epitalon is Ala-Glu-Asp-Gly. A listing that names the compound but not the sequence is relying on you to assume. A vendor who states the sequence has at least engaged with the molecule.\n\n**Two — is there a mass-spectrometry identity confirmation?** Theoretical monoisotopic mass for AEDG is 390.4 g/mol. An LC-MS or ESI-MS result that matches confirms you have the right four residues, which is the failure mode a purity number alone will not catch.\n\n**Three — is the certificate batch-matched and dated?** A certificate is a claim about a specific sample. No batch number, no date, no lab name — no claim.\n\n**Four — does the price sit in a defensible band?** On a molecule this cheap, the price is not a quality signal in either direction. It is a positioning signal. A £10.99 listing and a £60 listing may both be legitimate; the deciding factor is the paperwork, not the number. How to read that paperwork properly is set out in the [**how to read a CoA guide →**](/research/how-to-read-a-coa).\n\nFor the mechanism and evidence in more depth, see the [**Epitalon deep dive →**](/research/epitalon-deep-dive) and the [**Epitalon research summary →**](/research/epitalon-research-summary). For how epitalon compares to the other thymic longevity peptides, the [**Epitalon vs Thymalin comparison →**](/research/epitalon-vs-thymalin) covers the pairing directly.",
+    },
+  ],
+  faq: [
+    { question: 'How many UK vendors sell epitalon?', answer: 'As of October 2026 ViralPeps tracks 55 UK vendors and 67 priced listings for epitalon, from £10.99 to £199.99. Most vendors carry a single dose tier, and 10 mg is the dominant vial size across the catalogue.' },
+    { question: 'Why does epitalon price vary so much if it is a cheap peptide?', answer: 'Because the spread is not driven by manufacturing cost. A four-residue peptide has a near-uniform synthesis cost, so an 18x spread reflects market positioning — branding, bundling and buyer expectation — rather than a difference in the molecule. Judge epitalon suppliers on the certificate of analysis, not on price.' },
+    { question: 'Is epitalon research use only in the UK?', answer: 'Yes. Epitalon has no MHRA, EMA or FDA marketing authorisation. It is sold in the UK as a research reagent labelled for research use only, and it is illegal to supply it for human consumption. This is a different regulatory category from a licensed medicine.' },
+    { question: 'What should a certificate of analysis for epitalon contain?', answer: 'The method used (HPLC-UV or UPLC for purity, LC-MS for identity), the measured purity, a mass-spectrometry result matching the theoretical mass of 390.4 g/mol, the batch number, the testing date and the name of the laboratory. A purity percentage without a stated method and a manufacturer-assigned batch number is not a verifiable claim.' },
+    { question: 'Does epitalon extend telomeres in humans?', answer: 'The evidence does not support that claim at present. Khavinson et al. (2003) showed telomerase induction and roughly 33% telomere elongation in cultured human fibroblasts, and an independent 2025 study reproduced telomere extension in human cell lines through telomerase upregulation or ALT activity. Both are in-vitro results. The human observations are old, non-randomised, and from a single research lineage. No modern controlled human trial supports a telomere-lengthening claim.' },
+  ],
+  references: [
+    'Khavinson VKh, Bondarev IE, Butyugov AA. Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells. Bull Exp Biol Med. 2003 Jun;135(6):590-592. PMID 12937682.',
+    'Al-Dulaimi S, Thomas R, Matta S, et al. Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity. Biogerontology. 2025 Sep 4;26(5):178. PMID 40908429.',
+    'Anisimov VN, Khavinson VKh, Provinciali M, et al. Effect of Epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female Swiss-derived SHR mice. Biogerontology. 2003;4(4):193-202. PMID 14501183.',
+    'Korkushko OV, Khavinson VKh, Shatilo VB, et al. Geroprotective effect of epithalamine (pineal gland peptide preparation) in elderly subjects with accelerated aging. Bull Exp Biol Med. 2006 Sep;142(3):356-359. PMID 17426848.',
+    'Korkushko OV, Khavinson VKh, Shatilo VB, et al. Normalizing effect of the pineal gland peptides on the daily melatonin rhythm in old monkeys and elderly people. Adv Gerontol. 2007;20(1):74-85. PMID 17969590.',
+    'Khavinson V, Razumovsky M, Trofimova S, et al. Pineal-regulating tetrapeptide epitalon improves eye retina condition in retinitis pigmentosa. Neuro Endocrinol Lett. 2002 Aug;23(4):365-368. PMID 12195242.',
+    'Araj SK, Brzezik J, Madra-Gackowska K, et al. Overview of Epitalon-Highly Bioactive Pineal Tetrapeptide with Promising Properties. Int J Mol Sci. 2025 Mar 17;26(6):2663. PMID 40141333.',
+    'Khavinson VK, Linkova NS, Rudskoy AI, et al. Feasibility of Transport of 26 Biologically Active Ultrashort Peptides via LAT and PEPT Family Transporters. Biomolecules. 2023 Mar 17;13(3):552. PMID 36979488.',
+    'Wang L, Wang N, Zhang W, et al. Therapeutic peptides: current applications and future directions. Signal Transduct Target Ther. 2022 Feb 14;7(1):48. PMID 35165272.',
+    'ViralPeps catalogue data — 55 vendors, 67 listings for epitalon, October 2026 snapshot.',
+  ],
+},
+
+'cjc-1295-with-dac-vs-without-dac': {
+  slug: 'cjc-1295-with-dac-vs-without-dac',
+  compoundSlug: 'cjc-1295-with-dac',
+  compoundSlug2: 'cjc-1295-no-dac',
+  pullQuote: "The two compounds sold as CJC-1295 are the same 29-residue backbone with one chemical difference: a maleimidopropionic acid linker that bonds covalently to circulating albumin. That single linker takes the half-life from about thirty minutes to roughly a week. It also changes the shape of the growth-hormone signal itself — and it is the reason a buyer comparing two listings labelled 'CJC-1295' may not be comparing the same molecule at all.",
+  quickInfo: [
+    { label: 'Both Forms', value: 'Modified human GHRH(1-29), tetrasubstituted backbone' },
+    { label: 'The Difference', value: 'Presence or absence of the Drug Affinity Complex (DAC) linker at Lys30' },
+    { label: 'With DAC — Half-Life', value: 'Reported 5.8 to 8.1 days (albumin-bound); GH elevated ~6 days, IGF-1 ~9-11 days' },
+    { label: 'Without DAC — Half-Life', value: 'Approximately 30 minutes (unmodified clearing)' },
+    { label: 'DAC Chemistry', value: 'Maleimidopropionic acid linker forming a covalent bond with albumin Cys34' },
+    { label: 'Originator', value: 'ConjuChem Biotechnologies (DAC:GRF program)' },
+    { label: 'With DAC — UK Supply (Oct 2026)', value: '23 vendors, 25 listings, £16.95 to £150.00' },
+    { label: 'Without DAC — UK Supply (Oct 2026)', value: '33 vendors, 36 listings, £9.95 to £89.99' },
+    { label: 'Regulatory Status', value: 'No MHRA, EMA or FDA licence for either form; research use only' },
+  ],
+  sections: [
+    {
+      title: 'The One Distinction That Matters',
+      body: "Every confusion in the CJC-1295 market resolves to a single question: **does the molecule carry the Drug Affinity Complex?**\n\nCJC-1295 is a modified version of human growth hormone-releasing hormone, specifically the GHRH(1-29) fragment with four amino-acid substitutions that protect it from enzymatic cleavage. On its own, that tetrasubstituted backbone is a competent but short-lived GHRH analogue. The DAC — a maleimidopropionic acid linker attached at the lysine in position 30 — is a separate chemical addition that lets the peptide form a **covalent bond with cysteine-34 of circulating serum albumin**.\n\nBecause albumin has a circulation time measured in weeks, a peptide bolted to it inherits that circulation time. The consequence is the entire commercial and pharmacological story: the same backbone goes from clearing in about half an hour to a reported half-life of **5.8 to 8.1 days** in humans once the linker is present.\n\nThe naming is where the market breaks down. In the research catalogue, 'CJC-1295' is used loosely to mean either form, and the compound page for plain CJC-1295 in the ViralPeps database carries source entries for both. A listing that says only 'CJC-1295' is not telling you which molecule it is selling, and the two are not interchangeable for any purpose where the timing of the growth-hormone signal matters.\n\n[**See the CJC-1295 (With DAC) compound page →**](/compounds/cjc-1295-with-dac) · [**See the CJC-1295 (no DAC) compound page →**](/compounds/cjc-1295-no-dac)",
+    },
+    {
+      title: 'What the DAC Actually Does to Growth Hormone',
+      body: "It is tempting to assume that a longer-acting GHRH analogue is simply the short-acting one stretched out — the same pulse, held. The human data says otherwise, and the difference is the most interesting thing in the compound's file.",
+      subsections: [
+        {
+          title: '1. The half-life difference is not just convenience',
+          body: "The unmodified form is cleared in roughly thirty minutes. The DAC form is estimated at 5.8 to 8.1 days in small randomised trials in healthy adults. That is a difference of roughly two orders of magnitude, and it is produced by one linker. In practical research terms it means a single administration of the DAC form sustains elevated exposure for a week, where the short form would require repeated dosing to maintain any comparable exposure.",
+        },
+        {
+          title: '2. The pulse survives — which surprised the field',
+          body: "The textbook objection to a long-acting GHRH analogue is that continuous GHRH exposure should flatten the pulsatile release of growth hormone, and pulsatility is thought to matter for several of GH's effects. Ionescu and colleagues (2006) tested this directly and found that **pulsatile GH secretion persists during continuous stimulation** by the DAC form. Endogenous somatostatin keeps interrupting the signal, so the hormone is still released in pulses even while the stimulus is constant. This is the single most cited mechanistic finding about the DAC form, and it is why the compound occupies a different category from a straight infusion.",
+        },
+        {
+          title: '3. The downstream profile — GH for six days, IGF-1 for longer',
+          body: "In the Teichman (2006) phase 2 trial in healthy adults, subcutaneous CJC-1295 produced sustained, dose-dependent increases in GH and IGF-1. Mean GH was elevated for **six days or more** and mean IGF-1 for **nine to eleven days** after a single exposure, with evidence of a cumulative effect after repeated doses. That mismatch — GH returning toward baseline before IGF-1 does — is a direct consequence of the IGF-1 axis's own lag, and it is the reason a researcher cannot read the compound's activity off GH alone.",
+        },
+        {
+          title: '4. The honest caveat — outcome data does not exist',
+          body: "Both the Teichman and Ionescu trials measured hormone levels and short-duration tolerability. Neither measured body composition, strength, recovery or any clinical outcome, and both were small. The evidence supports the claim that the DAC form raises GH and IGF-1 for days from a single dose; it does not support claims about fat loss, muscle gain or longevity. Those are extrapolations from the hormone data, and the literature does not contain the trials that would close the gap.",
+        },
+      ],
+    },
+    {
+      title: 'Comparing the Two Forms Side by Side',
+      body: "The table below summarises the practical differences between the two molecules for a researcher deciding which to source.",
+      table: {
+        header: ['Property', 'With DAC', 'Without DAC'],
+        rows: [
+          ['Backbone', 'Modified GHRH(1-29), tetrasubstituted', 'Modified GHRH(1-29), tetrasubstituted'],
+          ['Albumin binding', 'Covalent, via Cys34', 'None'],
+          ['Reported half-life', '5.8-8.1 days', 'Approximately 30 minutes'],
+          ['GH elevation after one dose', '~6 days', 'Short-lived, hours'],
+          ['IGF-1 elevation after one dose', '9-11 days', 'Hours to a day'],
+          ['Pulsatility preserved', 'Yes (Ionescu 2006)', 'Yes (native pattern)'],
+          ['UK vendors (Oct 2026)', '23 vendors, 25 listings', '33 vendors, 36 listings'],
+          ['UK price range', '£16.95 to £150.00', '£9.95 to £89.99'],
+          ['Typical UK dose tiers', '2 mg, 5 mg', '2 mg, 5 mg, 10 mg'],
+        ],
+      },
+    },
+    {
+      title: 'The UK Market for Both Forms',
+      body: "The two forms are supplied at different depths and different prices, and the gap tells a story about how the market has settled.\n\nThe **with-DAC** form is tracked across **23 vendors and 25 listings**, priced **£16.95 to £150.00** on 2 mg and 5 mg tiers. The spread is wide — nearly 9x — but the supply is thin, because the DAC chemistry is a harder synthesis and fewer laboratories offer it. The **without-DAC** form is tracked across **33 vendors and 36 listings**, priced **£9.95 to £89.99**, and it additionally appears in the plain CJC-1295 compound page where vendors list it without a DAC qualifier at all.\n\nTwo consequences follow. First, the without-DAC form is the more widely faked by mislabelling: because 'CJC-1295' is a legal label for either molecule, a vendor selling the cheap short-acting form can list it, without lying, in a way that lets a buyer *assume* the long-acting form. **Read the product page for the words 'with DAC', 'DAC', or 'no DAC' — absence of a qualifier is not evidence of the DAC form.** Second, the £150 top-of-market with-DAC listing is roughly nine times the £16.95 floor; on a molecule whose extra cost is one synthetic linker step, that gap is positioning, not chemistry.\n\nThe chemistry behind the difference is set out in more depth in the [**CJC-1295 (With DAC) deep dive →**](/research/cjc-1295-with-dac-deep-dive). For how the compound pairs with a GH secretagogue, see the [**CJC-1295 vs Ipamorelin comparison →**](/research/cjc1295-vs-ipamorelin); for the GHRH-analogue field generally, the [**CJC-1295 vs Tesamorelin comparison →**](/research/cjc1295-vs-tesamorelin) is the natural companion. Growth-hormone supply across all compounds is surveyed in the [**growth hormone peptide suppliers guide →**](/research/growth-hormone-peptide-suppliers-uk).",
+    },
+    {
+      title: 'Which Form a Researcher Should Actually Source',
+      body: "There is no universal answer, but there is a decision rule that follows from the pharmacology rather than from vendor marketing.\n\n**If the study design depends on a sustained exposure window** — anything where you want the GH/IGF-1 axis held elevated across several days from a single administration — the with-DAC form is the only one of the two that can deliver it, and paying the premium is unavoidable.\n\n**If the study design depends on a discrete, short pulse** that then clears, the without-DAC form is not merely cheaper; it is the correct tool, because the DAC form's week-long tail would contaminate the window. Using the long-acting form in a pulse-design study is a design error, not a compromise.\n\n**If the listing does not say which form it is**, assume nothing. On a market where the same label covers two molecules differing by two orders of magnitude in half-life and by a factor of nine in price, the qualifier is the specification. Ask for it explicitly, and check it against the certificate.",
+    },
+  ],
+  faq: [
+    { question: 'What is the difference between CJC-1295 with DAC and without DAC?', answer: 'They share the same modified GHRH(1-29) backbone. The with-DAC form carries a maleimidopropionic acid linker at position 30 that forms a covalent bond with circulating albumin, extending the reported half-life to roughly 5.8 to 8.1 days. The without-DAC form has no linker and clears in about thirty minutes. The linker is the only chemical difference and it accounts for the entire pharmacological difference.' },
+    { question: 'Does CJC-1295 with DAC flatten growth hormone pulsatility?', answer: 'No. Ionescu and colleagues (2006) showed that pulsatile GH secretion persists during continuous stimulation by CJC-1295, because endogenous somatostatin continues to interrupt the signal. Preserving pulsatility while extending exposure is the key mechanistic finding about the DAC form.' },
+    { question: 'How long do GH and IGF-1 stay elevated after a CJC-1295 dose?', answer: 'In the Teichman (2006) trial in healthy adults, mean GH was elevated for six days or more and mean IGF-1 for nine to eleven days after a single subcutaneous dose of the DAC form. The IGF-1 elevation outlasts the GH elevation because of the IGF-1 axis lag.' },
+    { question: 'Which CJC-1295 form is more common in the UK?', answer: 'The without-DAC form. As of October 2026 ViralPeps tracks 33 vendors and 36 listings for the no-DAC form from £9.95, against 23 vendors and 25 listings for the with-DAC form from £16.95. The without-DAC form is also the more commonly mislabelled, because plain CJC-1295 is a valid label for either molecule.' },
+    { question: 'Is either form of CJC-1295 licensed in the UK?', answer: 'No. Neither the with-DAC nor the without-DAC form holds an MHRA, EMA or FDA marketing authorisation. Both are supplied in the UK as research reagents labelled for research use only and are not authorised for human consumption.' },
+  ],
+  references: [
+    'Teichman SL, Neale A, Lawrence B, et al. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. J Clin Endocrinol Metab. 2006 Mar;91(3):799-805. PMID 16352683.',
+    'Ionescu M, Frohman LA. Pulsatile secretion of growth hormone (GH) persists during continuous stimulation by CJC-1295, a long-acting GH-releasing hormone analog. J Clin Endocrinol Metab. 2006 Dec;91(12):4792-4797. PMID 17018654.',
+    'Jette L, Leger R, Thibaudeau K, et al. Human growth hormone-releasing factor (hGRF)1-29-albumin bioconjugates activate the GRF receptor on the anterior pituitary in rats. Endocrinology. 2005 Jul;146(7):3052-3058.',
+    'Jamieson BB, et al. The gatekeepers of growth: The neural roles and regulation of growth hormone-releasing hormone neurons. J Neuroendocrinol. 2026 Jan;38(1):e70117. PMID 41250802.',
+    'Wang L, Wang N, Zhang W, et al. Therapeutic peptides: current applications and future directions. Signal Transduct Target Ther. 2022 Feb 14;7(1):48. PMID 35165272.',
+    'Werle M, Bernkop-Schnurch A. Strategies to improve plasma half life time of peptide and protein drugs. Amino Acids. 2006 Jun;30(4):351-367.',
+    'ViralPeps catalogue data — 23 vendors / 25 listings (with DAC) and 33 vendors / 36 listings (no DAC), October 2026 snapshot.',
+  ],
+},
+
+'research-peptides-guide': {
+  slug: 'research-peptides-guide',
+  pullQuote: "A research peptide is not a weak drug. It is a different category of product with a different regulatory status, a different quality-control standard and a different set of failure modes. The UK market holds 104 vendors, 158 compounds and more than 3,400 priced listings — and the single most useful thing a buyer can learn is how to tell a verified reagent from one that merely has a certificate-shaped PDF.",
+  quickInfo: [
+    { label: 'What a Research Peptide Is', value: 'A synthesised peptide supplied for laboratory investigation, not for human use' },
+    { label: 'Regulatory Basis', value: 'UK Human Medicines Regulations 2012 — supplying for human use without a licence is unlawful' },
+    { label: 'UK Market Size (Oct 2026)', value: '104 vendors, 158 compounds, 3,409 priced listings' },
+    { label: 'Typical Supply Form', value: 'Lyophilised powder in a sealed vial, reconstituted with bacteriostatic water' },
+    { label: 'Core Quality Tests', value: 'Identity (mass spectrometry), purity (HPLC), and where relevant endotoxin and sterility' },
+    { label: 'Cost Range Across Catalogue', value: 'From roughly £10 for short peptides to £200+ for large or complex ones' },
+    { label: 'Key Failure Mode', value: 'Certificate of analysis that is not batch-matched to the vial supplied' },
+  ],
+  sections: [
+    {
+      title: 'What "Research Peptide" Actually Means',
+      body: "The phrase describes a **regulatory category**, not a chemical one. A research peptide is a peptide sold for laboratory investigation — in-vitro work, assay development, animal studies under the appropriate approvals — and explicitly not for human use. The compound itself may be identical to a licensed medicine; semaglutide sold as a research reagent is the same molecule as semaglutide sold as a prescription drug. What differs is the supply chain, the quality-control standard and the legal footing.\n\nIn the UK, the governing instrument is the Human Medicines Regulations 2012. Supplying a substance for human use without a marketing authorisation is unlawful, and the 'research use only' label is what keeps a reagent outside that regime — provided the vendor actually restricts supply to research. A vendor who labels a product research-use-only while marketing it for human consumption has not found a loophole; the label is not a shield.\n\nThis distinction is not pedantry. It determines what quality assurance you can expect. A licensed medicine is manufactured under Good Manufacturing Practice, tested against a pharmacopoeial monograph, and released batch by batch against documented specifications. A research reagent is released against whatever specification the vendor chooses to publish. The gap between those two standards is where every serious risk in this market lives — and it is why the rest of this guide is about verification rather than about compounds.",
+    },
+    {
+      title: 'The UK Market in Numbers',
+      body: "ViralPeps tracks the UK research peptide market directly from vendor catalogues. As of October 2026 the shape of that market is unusually skewed, and understanding the skew is more useful than memorising any individual price.",
+      table: {
+        header: ['Metric', 'Value', 'What It Implies'],
+        rows: [
+          ['Vendors tracked', '104', 'A crowded market — new storefronts appear weekly'],
+          ['Compounds tracked', '158', 'A long tail: a handful of compounds dominate volume'],
+          ['Priced listings', '3,409', 'Average of ~33 listings per compound, but distribution is uneven'],
+          ['Most-supplied compound class', 'Melanotan II, GHK-Cu, epitalon', 'Cheap, popular, and heavily duplicated across vendors'],
+          ['Thinnest compounds', 'Novel metabolic agents', '5 to 25 listings — small samples, weak price signals'],
+          ['Price spread, same molecule', 'Up to 54x on GHK-Cu', 'Large spreads track branding, not quality'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'Why a handful of compounds hold most of the supply',
+          body: "The catalogue is not evenly distributed. A small number of cheap, popular compounds — melanotan II, GHK-Cu, epitalon, BPC-157, TB-500 — are stocked by most of the 104 vendors. At the other end, newer or complex compounds may be carried by five to twenty-five vendors. This matters because **supply depth is the only thing that makes a price comparison meaningful**. On a compound with 68 listings you can identify a genuine floor; on one with 5 listings you cannot, and any 'average price' figure is close to noise.",
+        },
+        {
+          title: 'Why the same molecule carries a 54x spread',
+          body: "A 54x spread between the cheapest and most expensive listing of the same compound looks like a quality signal. It is not. On compounds whose synthesis cost is broadly uniform, the spread is produced by positioning: branding, bundling, packaging, perceived trust, and the price the seller believes a certain buyer will accept. The number that actually compares two listings is **price per milligram at a fixed dose tier and a fixed purity band** — anything else is comparing a label to a label.",
+        },
+      ],
+    },
+    {
+      title: 'How to Verify a Research Peptide',
+      body: "There are four independent things worth checking, and a vendor who cannot satisfy all four is not necessarily dishonest — but a vendor who satisfies all four has demonstrated competence.",
+      subsections: [
+        {
+          title: '1. Identity — does mass spectrometry confirm the molecule?',
+          body: "Purity and identity are different claims. A sample can be 99% pure *and* be the wrong peptide, because purity measures how much of the detected material is the main peak, not whether that peak is the right compound. The check that answers the identity question is **mass spectrometry** — LC-MS or ESI-MS — reporting a measured mass that matches the theoretical mass of the stated sequence. A certificate that reports only an HPLC purity percentage has not confirmed identity. This is the single most common gap in research-peptide certificates.",
+        },
+        {
+          title: '2. Purity — with a stated method, not just a number',
+          body: "Purity is reported as a percentage from an HPLC chromatogram, and the number is only as meaningful as the method behind it. '99% pure' with no method, no column and no date is not a verifiable claim. Look for HPLC-UV or UPLC with the wavelength stated. For most research purposes, purity in the high nineties is the expected standard; a claim of 99.9% deserves the same scrutiny as a claim of 90%, because both are only as good as the document supporting them.",
+        },
+        {
+          title: '3. Batch matching — the certificate must belong to the vial',
+          body: "A certificate of analysis is a claim about one specific batch. If the certificate has no batch number, or the batch number does not match the vial you receive, the document says nothing about your material. **This is the highest-yield check in the entire market**, and the one buyers skip most often — particularly on cheap compounds where the low price discourages scrutiny. Ask for the batch-matched certificate before purchase, not after.",
+        },
+        {
+          title: '4. Presentation — lyophilised, sealed, and correctly stated',
+          body: "The expected presentation for a research peptide is a **lyophilised powder in a sealed glass vial**, shipped with a desiccant, and accompanied by a stated fill mass. Liquid formulations, capsules and topical products sold under the same compound name are a different product category with a different stability and quality situation entirely. Fill accuracy — the mass of peptide actually in the vial — is a specification that is frequently unstated and never verifiable after receipt without a balance accurate to the milligram.",
+        },
+      ],
+    },
+    {
+      title: 'Handling, Storage and the Stability Question',
+      body: "A peptide's quality is not fixed at the point of manufacture. It degrades slowly in storage and quickly in poor handling, and the degradation pathways are well characterised — deamidation, oxidation, peptide-bond cleavage and, in the solid state, the Maillard reaction, all of which are reviewed in the pharmaceutical literature.\n\nThe practical consequences are simple. **Lyophilised powder is stable for extended periods at reduced temperature; reconstituted solution is not.** Once a vial is reconstituted it should be refrigerated, protected from light, and used within a defined window — days to a few weeks depending on the compound — not stored indefinitely. Repeated freeze-thaw cycles are the most common avoidable harm a researcher inflicts on a reconstituted peptide.\n\nBacteriostatic water is the standard reconstitution diluent: the benzyl alcohol content suppresses bacterial growth and gives a pH window that suits most peptides. It offers no protection against oxidation, light or freeze-thaw damage, so additional controls are required for anything held for long. The working methods — diluent choice, concentration maths, storage windows — are set out in the [**peptide reconstitution guide →**](/research/peptide-reconstitution-guide) and the [**peptide storage guide →**](/research/peptide-storage-guide).",
+    },
+    {
+      title: 'The Regulatory Position, Plainly',
+      body: "Research peptides are legal to possess and to sell as research reagents in the UK. They are **not licensed medicines**, and the differences are specific rather than symbolic.\n\nThere is no MHRA marketing authorisation for the overwhelming majority of compounds in the catalogue. Advertising or supplying them for human use is contrary to the Human Medicines Regulations 2012. For a small number of compounds — melanotan II is the clearest example — the MHRA has issued a public warning, and for a subset of metabolic and growth-hormone compounds the originator manufacturers have begun legal action against sellers they allege are marketing research-labelled products for human use.\n\nWhat this means practically is that a research-peptide purchase carries no regulatory assurance of identity, dose accuracy, sterility or purity beyond what the vendor has chosen to document. The assurances a licensed medicine would carry by default must, in this market, be requested and evaluated explicitly. That is not a reason to avoid the market; it is the reason the certificate of analysis is the only document that matters. The full method for reading one is in the [**how to read a CoA guide →**](/research/how-to-read-a-coa), and the regulatory context for the category as a whole is in the [**types of research peptides →**](/research/types-of-research-peptides) pillar.\n\nFor buyers starting from the market rather than the molecule, the [**research peptides for sale UK →**](/research/research-peptides-for-sale-uk) pillar sets out how the supply side is structured, and the [**UK peptide directory →**](/research/uk-peptide-directory) is the supplier-side entry point.",
+    },
+  ],
+  faq: [
+    { question: 'What is a research peptide?', answer: 'A research peptide is a synthesised peptide supplied for laboratory investigation rather than for human use. The term describes a regulatory category, not a chemical one — the molecule may be identical to a licensed medicine, but it is manufactured, tested and supplied to a research-reagent standard rather than to a pharmaceutical standard, and it is labelled research use only.' },
+    { question: 'Are research peptides legal in the UK?', answer: 'Yes, as research reagents. Possessing and selling them for research is lawful, but supplying or advertising them for human use without a marketing authorisation is contrary to the Human Medicines Regulations 2012. The research-use-only label is only valid if the vendor genuinely restricts supply to research purposes.' },
+    { question: 'How do I verify a research peptide is genuine?', answer: 'Four checks: mass spectrometry confirming the identity of the molecule, an HPLC purity result with the method stated, a certificate of analysis batch-matched to the vial you receive, and a presentation consistent with a lyophilised research reagent. A purity percentage alone does not confirm identity, and a certificate without a batch number says nothing about your material.' },
+    { question: 'Why does the same peptide cost so much more from one vendor than another?', answer: 'On compounds with uniform synthesis cost, the spread reflects vendor positioning rather than quality. The only meaningful comparison is price per milligram at a fixed dose tier and purity band. A 54x spread on a cheap compound is a branding signal, not a quality one.' },
+    { question: 'How should research peptides be stored?', answer: 'Lyophilised powder should be stored refrigerated or frozen, protected from light, and is stable for extended periods. Once reconstituted with bacteriostatic water, the solution should be refrigerated, protected from light, and used within a defined window of days to a few weeks. Avoid repeated freeze-thaw cycles, which are the most common cause of avoidable degradation.' },
+  ],
+  references: [
+    'Wang L, Wang N, Zhang W, et al. Therapeutic peptides: current applications and future directions. Signal Transduct Target Ther. 2022 Feb 14;7(1):48. PMID 35165272.',
+    'Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. J Pharm Sci. 1999 May;88(5):489-500. PMID 10229638.',
+    'Fosgerau K, Hoffmann T. Peptide therapeutics: current status and future directions. Drug Discov Today. 2015 Jan;20(1):122-128.',
+    'Lau JL, Dunn MK. Therapeutic peptides: historical perspectives, current development trends, and future directions. Bioorg Med Chem. 2018 May 15;26(10):2700-2707.',
+    'Henninot A, Collins JC, Nuss JM. The current state of peptide drug discovery: back to the future? J Med Chem. 2018 Feb 22;61(4):1382-1414.',
+    'Werle M, Bernkop-Schnurch A. Strategies to improve plasma half life time of peptide and protein drugs. Amino Acids. 2006 Jun;30(4):351-367.',
+    'Khavinson VK, Linkova NS, Rudskoy AI, et al. Feasibility of Transport of 26 Biologically Active Ultrashort Peptides via LAT and PEPT Family Transporters. Biomolecules. 2023 Mar 17;13(3):552. PMID 36979488.',
+    'Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008 Jan;134(1):166-178. PMID 18061177.',
+    'ViralPeps catalogue data — 104 vendors, 158 compounds, 3,409 priced listings, October 2026 snapshot.',
+  ],
+},
+
 };
 export default content;

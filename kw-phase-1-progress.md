@@ -917,13 +917,114 @@ Commit: `e833c403` · pushed to main (0 unpushed).
 
 ---
 
+## Day 17 — Fri 02 Oct (2 articles) ✅ DONE (both shipped early)
+- `kpv-for-inflammation` was pulled forward and shipped on Day 16 (commit `e833c403`).
+- `selank-suppliers-uk` was shipped on Day 15 (commit `ddd62403`).
+Both Day-17 articles were therefore already live before this job ran; Day 17 is complete.
+
+---
+
+## Day 18 — Sat 03 Oct (3 articles) ✅ DONE
+Completed 7 Oct 03:00 by daily blog cron (main branch, direct).
+
+- `epitalon-suppliers-uk` — **epitalon suppliers UK** (suppliers) — section: research-hub,
+  compoundSlug: epitalon, compound: Epitalon
+- `cjc-1295-with-dac-vs-without-dac` — **cjc-1295 (with dac)** (vs) — section: comparisons,
+  compoundSlug: cjc-1295-with-dac, compoundSlug2: cjc-1295-no-dac,
+  compound: CJC-1295 (With DAC)
+- `research-peptides-guide` — **research peptides** (pillar) — section: research-hub
+  (no compoundSlug — market-structure pillar)
+
+Cards:
+- `public/images/guides/epitalon-suppliers-uk.png` — Pillow single-vial 75%-height
+  (epitalon-vial), badge "Supplier Guide"
+- `public/images/guides/cjc-1295-with-dac-vs-without-dac.png` — Pillow dual-vial 50%-height
+  (cjc-1295-with-dac-vial + cjc-1295-no-dac-vial), badge "Head-to-Head Comparison".
+  Title shortened to "CJC-1295 DAC vs No DAC" after measurement showed the longer form's
+  first wrapped half hit the 395px limit exactly (395.0 vs 395 available).
+- `public/images/guides/research-peptides-guide.png` — photorealistic base + Pillow chrome,
+  badge "Pillar Guide"
+
+Card scripts: `scripts/make_kw_phase1_day18_cards.py` (2 compound cards) and
+`scripts/compose_kw_day18_photo_card.py` (pillar card).
+
+Vial labels QA'd with the vision tool before compositing: epitalon-vial ("EPITALON / 10mg"),
+cjc-1295-with-dac-vial ("CJC-1295 / DAC"), cjc-1295-no-dac-vial ("CJC-1295 / No DAC / 2mg")
+— all compound identifiers correct. All three finished cards vision-checked: correct
+compound, no clipping.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+1,915 / 1,498 / 1,679
+
+Build: passed (220/220 pages). All 17 internal links verified against `compounds.json`
+slugs, `vendors.json` slugs and live `research.ts`/`research-content.ts` keys — 0 broken.
+All 22 references verified individually via NCBI E-utilities esummary (title + journal +
+author + volume/pages matched for every one).
+
+Local render verified pre-push: all three routes 200 with correct `<title>`, card images
+referenced, and both compound-specific articles present in their compounds' Research
+Library sections (`/compounds/epitalon`, `/compounds/cjc-1295-with-dac`).
+
+### ⚠️ Lessons from this run
+1. **`research-content.ts` key format changed AGAIN — the newest entries have their
+   Record key at COLUMN 0 with NO indent** (`'slug': {`), separated by real newlines and
+   `},` + blank line. The seam probe is still the safest approach, but the tail is now
+   `"  ]," + NL + "}," + NL + NL + "};" + NL + "export default content;"` — note the
+   `],` line has TWO spaces and the closing `}` has ZERO indent. Variant `A_noidnt`
+   (`'],' + NL + '},'`) also reports count 1 because it is a substring of the C variant;
+   probe BOTH and prefer the explicit 2-space form. **Probe every run.**
+2. **The escape normaliser bug that cost three build iterations.** `write_file` doubled
+   the `\n` escapes in every fragment (16/20/14 doubled runs). The normaliser MUST collapse
+   `\\{2,}n` back to a **literal backslash + n** (`r'\\n'`), NOT to a real newline (`r'\n'`).
+   Collapsing to a real newline splits a double-quoted TS string across physical lines and
+   produces `TS1005: ',' expected` at the first line of body text. The correct per-character
+   replacements are `r'\\n'`, `r"\\'"`, `r'\\"'`.
+3. **The pre-merge `tsc` harness must mirror the file's record shape.** The fragment block
+   INCLUDES its Record key (`'slug': { ... }`), so wrapping it as
+   `const x: ResearchPageContent = <block>` is wrong (it produces `= 'slug': {` → TS1005).
+   Wrap as `const x: Record<string, ResearchPageContent> = { <block> };` instead. With the
+   correct harness all three fragments parsed clean on the first attempt after the
+   normaliser fix.
+4. **The registry-insert anchor `"  },\n];\n\nexport const compoundList"` EATS the
+   preceding entry's closing `},`.** My replacement was `blocks + anchor`, which put the
+   three new `{...}` entries directly after the previous entry's `tags: [...]` line with
+   no closing brace, and left a stray `},` before `];` at the end. The correct replacement
+   is `"  },\n" + blocks + "];\n\nexport const compoundList"` — i.e. re-emit the consumed
+   `  },` and drop the anchor's own `  },`. The build caught it as
+   `Parsing ecmascript source code failed` at the first new entry; the LSP diagnostics were
+   correct but one patch removed the wrong brace and needed a second pass.
+5. **A dual-vial card title can sit EXACTLY on the limit.** "CJC-1295 With DAC" measured
+   395.0px against 395px available (`card_w - text_left - 25`). At the limit a sub-pixel
+   difference clips, so it was shortened to "CJC-1295 DAC vs No DAC" (291 / 216 wrapped).
+   Measure with `draw.textlength()` BEFORE generating; the template only wraps on `" vs "`
+   and does not re-measure.
+6. **The `research.ts` registry anchor is unchanged** and worked as in the Day-16 note once
+   the brace was fixed. The `section` field sits alongside `category: "Guide"` in the
+   registry entry; `research-content.ts` entries do NOT carry `section`.
+7. **`image_generate` is still unavailable in cron**, so the pillar card reused the
+   recovered photorealistic base via `recover_base()` in `compose_kw_day8_photo_card.py`,
+   copied to its own path. The recovered base is only 355x241 native (Day-8 note: do NOT
+   upscale) — acceptable for a market-structure pillar.
+8. **No sibling job was active** (`git status` clean of foreign edits; the
+   `silo/retatrutide-spokes` branch has no worktree). Committed 11 files only.
+9. **Day 18's planned `research-peptides-guide` slug did NOT already exist** — the
+   research-content.ts key scan confirmed all three Day-18 slugs were absent before
+   writing. `research-peptides-for-sale-uk` (a DIFFERENT existing pillar) was linked to,
+   not duplicated.
+10. **Existing broken-link debt unchanged and still out of scope:** the four
+    `/research/*` forward-links (`hgh-fragment-176-191-research-summary`,
+    `igf-1-lr3-research-summary`, `p21-research-summary` — planned Day 27,
+    `thymosin-alpha1-research-summary`). None were linked from this run's articles.
+
+---
+
 ## Next up
-*Day 16 complete. Advance to Day 17 — remaining unshipped Day-17 article is
-`selank-suppliers-uk`... **NO — check first:** `selank-suppliers-uk` was already shipped
-on Day 15 (commit `ddd62403`). So Day 17's other article `kpv-for-inflammation` was pulled
-forward to Day 16 today. **Before writing Day 17, grep its slugs against both data files** —
-the plan has drifted and at least `selank-suppliers-uk` is already live. Then proceed to
-Day 18 (`epitalon-suppliers-uk`, `cjc-1295-with-dac-vs-without-dac`, `research-peptides-guide`).*
+*Day 18 complete. Advance to Day 19 (`cardiogen-research-summary`, `tb-500-suppliers-uk`).
+**Before writing, grep both slugs against `research.ts` and `research-content.ts`** — the
+plan has drifted repeatedly (Day 15/16/17 all had pre-shipped articles). Day 19's pair is
+2 articles of different types (summary + suppliers) on different compounds, so no stacking.
+Note `cardiogen-research-summary` likely maps to compoundSlug `cardiogen-research-peptide`
+(the master slug — see Day-13 lesson 1 about `BASE_SLUGS`).*
 
 ---
 
