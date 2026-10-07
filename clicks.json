@@ -11107,5 +11107,14 @@
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk",
     "visitorId": "2c6a92bc18b75202"
+  },
+  {
+    "ts": "2026-10-07T21:37:05.469Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://peptidesuk4u.co.uk/product/the-wolverine-stack-bpc-157-tb-500",
+    "visitorId": "3d871239209ffd14"
   }
 ]
