@@ -8439,5 +8439,852 @@
     "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1",
     "refPage": "https://www.viralpeps.co.uk/go/bioplex-peptides/thymosin-alpha-1",
     "visitorId": "22bedf7d49a36a47"
+  },
+  {
+    "ts": "2026-10-07T10:06:00.232Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://precision-peptides.shop/product/aod-9604-10mg/",
+    "visitorId": "8aecacd6c087efc5"
+  },
+  {
+    "ts": "2026-10-07T10:06:18.739Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/kpv-5mg/",
+    "visitorId": "6ba05da278241ebd"
+  },
+  {
+    "ts": "2026-10-07T10:10:16.602Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.buyreta.co.uk/product/thymosin-alpha-1-uk",
+    "visitorId": "179c38da17997fab"
+  },
+  {
+    "ts": "2026-10-07T10:13:28.657Z",
+    "type": "vendor-site",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "destUrl": "https://bionikpeptides.com",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:28.793Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://bionikpeptides.com/products/tirzepatide",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:28.927Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://bionikpeptides.com/products/semaglutide",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:29.067Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bionikpeptides.com/products/bpc-157",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:29.233Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bionikpeptides.com/products/tb-500",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:29.444Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://bionikpeptides.com/products/melatonin-mt-ii",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:29.579Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-2",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:29.714Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bionikpeptides.com/products/aod-9604",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:29.854Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bionikpeptides.com/products/retatrutide",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:29.992Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://bionikpeptides.com/products/cjc-1295",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:30.131Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bionikpeptides.com/products/igf-1-lr3",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:30.269Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bionikpeptides.com/products/tesamorelin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:30.410Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bionikpeptides.com/products/sermorelin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:30.552Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bionikpeptides.com/products/mots-c",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:30.710Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://bionikpeptides.com/products/ss-31",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:30.849Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bionikpeptides.com/products/ghk-cu",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:30.990Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bionikpeptides.com/products/kpv",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:31.135Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bionikpeptides.com/products/thymosin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:31.272Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bionikpeptides.com/products/epitalon",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:31.414Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://bionikpeptides.com/products/semax",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:31.556Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bionikpeptides.com/products/selank",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:31.697Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://bionikpeptides.com/products/ara-290",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:31.830Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bionikpeptides.com/products/hgh-fragment-176-191",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:31.967Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bionikpeptides.com/products/hexarelin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:32.100Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bionikpeptides.com/products/ipamorelin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:32.239Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-6",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:32.394Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cerebrolysin",
+    "destUrl": "https://bionikpeptides.com/products/cerebrolysin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:32.529Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "p21",
+    "destUrl": "https://bionikpeptides.com/products/p-21",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:32.670Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-7",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:32.813Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://bionikpeptides.com/products/dsip",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:34.978Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://bionikpeptides.com/products/oxytocin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:35.114Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://bionikpeptides.com/products/glow-blend",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:35.253Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://bionikpeptides.com/products/klow-blend",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:37.095Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://anglopeptides.com/product/aod-9604-5mg-research-peptide/",
+    "visitorId": "b42fdd7035f98b99"
+  },
+  {
+    "ts": "2026-10-07T10:13:37.411Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bionikpeptides.com/products/snap-8",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:37.554Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bionikpeptides.com/products/bac-water",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:39.695Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bionikpeptides.com/products/nad",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:39.842Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://bionikpeptides.com/products/hcg",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:39.982Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://bionikpeptides.com/products/mic-lipo-c-with-b12",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:40.120Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://bionikpeptides.com/products/pinealon",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:40.261Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://bionikpeptides.com/products/demorphin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:40.400Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bionikpeptides.com/products/slu-pp-332",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:40.538Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bionikpeptides.com/products/5-amino-1mq",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:40.677Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bionikpeptides.com/products/ll-37",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:40.818Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://bionikpeptides.com/products/thymalin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:40.959Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://bionikpeptides.com/products/vip",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:41.103Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bionikpeptides.com/products/aicar",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:41.245Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://bionikpeptides.com/products/pe-22-28",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:41.379Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://bionikpeptides.com/products/ahk-cu",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:41.516Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bionikpeptides.com/products/cartalax",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:41.662Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://bionikpeptides.com/products/matrixyl",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:41.801Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://bionikpeptides.com/products/mgf",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:41.935Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bionikpeptides.com/products/vesugen",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:42.075Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bronchogen",
+    "destUrl": "https://bionikpeptides.com/products/bronchogen",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:42.208Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://bionikpeptides.com/products/follistatin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:42.348Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://bionikpeptides.com/products/ace-031",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:42.489Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bionikpeptides.com/products/ftt-adipotide",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:42.641Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-gh-stack",
+    "destUrl": "https://bionikpeptides.com/products/w1-muscle-building-bundle",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:42.799Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-glow-stack",
+    "destUrl": "https://bionikpeptides.com/products/w1-longevity-anti-ageing",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:42.943Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-super-stack",
+    "destUrl": "https://bionikpeptides.com/products/weight-loss",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:43.083Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://bionikpeptides.com/products/w2-energy-performance",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:43.224Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cortagen-research-peptide",
+    "destUrl": "https://bionikpeptides.com/products/cortagen",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:43.365Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://bionikpeptides.com/products/cjc-1295-no-dac",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:43.527Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://bionikpeptides.com/products/gdf-8",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:43.663Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://bionikpeptides.com/products/kisspeptin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:43.802Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "hgh-191aa-the-peptide-company",
+    "destUrl": "https://bionikpeptides.com/products/hgh-191aa-somatropin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:43.945Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://bionikpeptides.com/products/survodutide",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:44.106Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://bionikpeptides.com/products/fox-04-dri",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:44.252Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "acth-1-39",
+    "destUrl": "https://bionikpeptides.com/products/acth-1-391",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:44.401Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bionikpeptides.com/products/cagrilintide",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:44.538Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://bionikpeptides.com/products/pt-141",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:44.675Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://bionikpeptides.com/products/liraglutide",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:44.809Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "humanin",
+    "destUrl": "https://bionikpeptides.com/products/humanin",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:44.943Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "orexin-b",
+    "destUrl": "https://bionikpeptides.com/products/orexin-b",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:13:45.083Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klotho",
+    "destUrl": "https://bionikpeptides.com/products/klotho",
+    "visitorId": "cbcede1268c0ae1e"
+  },
+  {
+    "ts": "2026-10-07T10:14:37.813Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin/",
+    "visitorId": "4ca2fef45ced3d6c"
+  },
+  {
+    "ts": "2026-10-07T10:15:05.267Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "visitorId": "6893b51226833a73"
+  },
+  {
+    "ts": "2026-10-07T10:16:27.121Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://octagonpeptides.co.uk/product/aod-9604-5-mg/",
+    "visitorId": "72efe9dd07c6f412"
+  },
+  {
+    "ts": "2026-10-07T10:18:42.049Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://polygonpeptides.co.uk/product/rt10/",
+    "refPage": "https://www.viralpeps.co.uk/go/polygon-peptides/retatrutide",
+    "visitorId": "4f54401ff3d9631d"
+  },
+  {
+    "ts": "2026-10-07T10:22:27.890Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/glow-research-peptide/",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-10-07T10:22:33.216Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/glow-research-peptide/",
+    "visitorId": "675e87ab69d1cfac"
+  },
+  {
+    "ts": "2026-10-07T10:22:39.064Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "glow-stack",
+    "destUrl": "https://alphamino.co.uk/shop/glow-research-peptide/",
+    "visitorId": "2b220764f11dec3d"
+  },
+  {
+    "ts": "2026-10-07T10:23:05.234Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptx.co.uk/single-vials/kpv",
+    "refPage": "https://www.viralpeps.co.uk/go/peptx/kpv",
+    "visitorId": "d07d766aa0878a6c"
+  },
+  {
+    "ts": "2026-10-07T10:24:46.264Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu",
+    "visitorId": "ac83e123967d41d5"
+  },
+  {
+    "ts": "2026-10-07T10:24:57.326Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu",
+    "visitorId": "50f910e023a53ae6"
+  },
+  {
+    "ts": "2026-10-07T10:25:19.556Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biotideuk.com/products/ghk-cu",
+    "visitorId": "5b917da1eb827682"
+  },
+  {
+    "ts": "2026-10-07T10:26:41.832Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin-ipamorelin",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-07T10:30:55.609Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidepal.co.uk/products/ghkcu",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-07T10:31:07.517Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidepal.co.uk/products/ghkcu",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-10-07T10:31:11.004Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidepal.co.uk/products/ghkcu",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-07T10:32:00.147Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aod-9604-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "8a3c5a6058fc73f5"
   }
 ]
