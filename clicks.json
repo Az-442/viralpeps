@@ -8125,5 +8125,166 @@
     "compoundSlug": "slu-pp-332",
     "destUrl": "https://biohackpeptides.co.uk/product/slu-pp-332-5mg-3ml-bac-water/",
     "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-07T09:04:50.694Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptidesuk.com/follistatin-344/",
+    "visitorId": "40e6d21cf38d7659"
+  },
+  {
+    "ts": "2026-10-07T09:05:16.409Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-07T09:05:22.346Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-07T09:07:10.829Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://biopeptides-uk.com/product/mots-c-10mg/",
+    "visitorId": "78f0a83ed74523f6"
+  },
+  {
+    "ts": "2026-10-07T09:07:29.545Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://biopeptides-uk.com/product/mots-c-10mg/",
+    "visitorId": "0b7aec86910f1fc8"
+  },
+  {
+    "ts": "2026-10-07T09:09:12.007Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidesuk4u.co.uk/product/ipamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-uk-4u/ipamorelin",
+    "visitorId": "e9f1b9ed698e49a8"
+  },
+  {
+    "ts": "2026-10-07T09:09:30.052Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://peptideslabuk.com/product/hgh-fragments/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-07T09:09:34.805Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://peptideslabuk.com/product/hgh-fragments/",
+    "visitorId": "109d72bde86b0a32"
+  },
+  {
+    "ts": "2026-10-07T09:09:39.616Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://peptideslabuk.com/product/hgh-fragments/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-10-07T09:12:04.229Z",
+    "type": "vendor-site",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "destUrl": "https://newwavepeptides.co.uk",
+    "visitorId": "d111164b77095902"
+  },
+  {
+    "ts": "2026-10-07T09:12:33.616Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "visitorId": "7508c9ccdf086d09"
+  },
+  {
+    "ts": "2026-10-07T09:12:35.307Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "visitorId": "2678a3bc9084a656"
+  },
+  {
+    "ts": "2026-10-07T09:12:42.788Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/ipamorelin-10mg",
+    "visitorId": "2373578f53446123"
+  },
+  {
+    "ts": "2026-10-07T09:12:51.473Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg-peptide/",
+    "visitorId": "d111164b77095902"
+  },
+  {
+    "ts": "2026-10-07T09:20:56.914Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "f40e0f025bfe6f40"
+  },
+  {
+    "ts": "2026-10-07T09:30:55.663Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hmg-75iu",
+    "destUrl": "https://purepeptidesuk.com/product/hmg-75iu/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-07T09:30:57.205Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hmg-75iu",
+    "destUrl": "https://purepeptidesuk.com/product/hmg-75iu/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-10-07T09:30:59.153Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "hmg-75iu",
+    "destUrl": "https://purepeptidesuk.com/product/hmg-75iu/",
+    "visitorId": "12f6b799744930da"
   }
 ]
