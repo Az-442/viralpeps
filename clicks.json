@@ -10916,5 +10916,97 @@
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/",
     "visitorId": "6fe61607f1ea7066"
+  },
+  {
+    "ts": "2026-10-07T20:11:03.789Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend",
+    "visitorId": "31127a92dcf37503"
+  },
+  {
+    "ts": "2026-10-07T20:12:26.532Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin-ipamorelin",
+    "visitorId": "36ad5236d8cccac5"
+  },
+  {
+    "ts": "2026-10-07T20:14:37.287Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/vial",
+    "visitorId": "133a49612de9b50f"
+  },
+  {
+    "ts": "2026-10-07T20:19:43.341Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-10-07T20:19:44.717Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-07T20:19:46.121Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-07T20:27:02.340Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://biopeptides-uk.com/product/vip-10mg/",
+    "visitorId": "65cb1290e11a2655"
+  },
+  {
+    "ts": "2026-10-07T20:27:07.383Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b9809d387090d2e1"
+  },
+  {
+    "ts": "2026-10-07T20:27:12.879Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "249e05d22e8505b1"
+  },
+  {
+    "ts": "2026-10-07T20:37:26.145Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://biotideuk.com/products/wolverine-stack-20-mg",
+    "visitorId": "2323ef8d1f721056"
   }
 ]
