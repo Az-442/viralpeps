@@ -10853,5 +10853,59 @@
     "compoundSlug": "glow",
     "destUrl": "https://everythingpeptides.co.uk/products/glow-blend-x-10-vials",
     "visitorId": "2d756d11b379e665"
+  },
+  {
+    "ts": "2026-10-07T19:26:10.733Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://polygonpeptides.co.uk/product/glow-70-70mg/",
+    "visitorId": "133a49612de9b50f"
+  },
+  {
+    "ts": "2026-10-07T19:31:34.132Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://fatpigpeptides.co.uk/product/wolverine-peptide-blend/",
+    "visitorId": "a14503991f2b1a97"
+  },
+  {
+    "ts": "2026-10-07T19:36:13.970Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "2d756d11b379e665"
+  },
+  {
+    "ts": "2026-10-07T19:47:27.679Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://thepeptidecode.co.uk/products/bpc-157-tb-500-blend",
+    "visitorId": "8a3c5a6058fc73f5"
+  },
+  {
+    "ts": "2026-10-07T19:52:03.397Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://biopeptides-uk.com/product/research-bundle-a-bpc157-10mg-tb500-10mg-peptide-vial-bundle/",
+    "visitorId": "bd294de3b938699e"
+  },
+  {
+    "ts": "2026-10-07T20:00:24.389Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "visitorId": "aee43738f1892fd6"
   }
 ]
