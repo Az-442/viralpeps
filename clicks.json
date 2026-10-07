@@ -10080,5 +10080,106 @@
     "compoundSlug": "glow",
     "destUrl": "https://www.peptidesonline.uk/shop/glow-blend/",
     "visitorId": "d5bb1c54ef5d16f0"
+  },
+  {
+    "ts": "2026-10-07T13:53:15.127Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptideslabuk.com/product/kpv/",
+    "visitorId": "62f19db27fe3a9d8"
+  },
+  {
+    "ts": "2026-10-07T13:57:35.664Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptideslabuk.com/product/follistatin/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-lab-uk/follistatin-344",
+    "visitorId": "56fe4544a7be2f58"
+  },
+  {
+    "ts": "2026-10-07T14:01:59.730Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.stratfordpeptides.com/products/kpv",
+    "refPage": "https://www.viralpeps.co.uk/go/stratford-peptides/kpv",
+    "visitorId": "ec7a5d1a804d95be"
+  },
+  {
+    "ts": "2026-10-07T14:03:14.608Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/melanotan-2/",
+    "visitorId": "b75c2010f02fbcc1"
+  },
+  {
+    "ts": "2026-10-07T14:03:26.064Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/melanotan-2/",
+    "visitorId": "cfc7711654130e6f"
+  },
+  {
+    "ts": "2026-10-07T14:03:49.781Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/melanotan-2/",
+    "visitorId": "26203990fecb1e5e"
+  },
+  {
+    "ts": "2026-10-07T14:06:17.728Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
+    "visitorId": "6c7ce69c7a45e93b"
+  },
+  {
+    "ts": "2026-10-07T14:06:57.858Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideglobal.co.uk/product/glow-peptide-pen/",
+    "visitorId": "198cfcbda37cfd4e"
+  },
+  {
+    "ts": "2026-10-07T14:09:33.082Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "glow",
+    "destUrl": "https://helixcore.co.uk/products/glow-research-blend",
+    "visitorId": "d360f6dbc2c0ef39"
+  },
+  {
+    "ts": "2026-10-07T14:15:33.849Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.expresspeptides.co.uk/product/glow-combo/pen",
+    "visitorId": "6893b51226833a73"
+  },
+  {
+    "ts": "2026-10-07T14:26:08.779Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://rawpeptides.co.uk/product/glow-70mg/",
+    "visitorId": "86ba54d71b667b7b"
   }
 ]
