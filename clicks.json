@@ -10705,5 +10705,153 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://spxlabs.co.uk/product/bpc-157-uk-10mg/",
     "visitorId": "9bd2afeaceb8dbf4"
+  },
+  {
+    "ts": "2026-10-07T18:48:03.059Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://spxlabs.co.uk/product/tb-500-uk-5mg/",
+    "visitorId": "9bd2afeaceb8dbf4"
+  },
+  {
+    "ts": "2026-10-07T18:48:08.505Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "9bd2afeaceb8dbf4"
+  },
+  {
+    "ts": "2026-10-07T19:00:20.513Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/retatrutide",
+    "visitorId": "e9d7d763607769de"
+  },
+  {
+    "ts": "2026-10-07T19:01:22.674Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://nupex.co.uk/products/buy-ipamorelin-uk",
+    "visitorId": "5cf132d517f2112a"
+  },
+  {
+    "ts": "2026-10-07T19:01:24.180Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://nupex.co.uk/products/buy-ipamorelin-uk",
+    "visitorId": "a633c5659643b575"
+  },
+  {
+    "ts": "2026-10-07T19:01:26.696Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://nupex.co.uk/products/buy-ipamorelin-uk",
+    "visitorId": "4d4b96484a946b00"
+  },
+  {
+    "ts": "2026-10-07T19:02:28.723Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
+    "visitorId": "ad6715bc5509759c"
+  },
+  {
+    "ts": "2026-10-07T19:02:40.077Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
+    "visitorId": "8917df809077c564"
+  },
+  {
+    "ts": "2026-10-07T19:02:49.702Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
+    "visitorId": "007b46df1d274b3a"
+  },
+  {
+    "ts": "2026-10-07T19:03:46.571Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://biopeptides-uk.com/product/aod-9604-5mg/",
+    "visitorId": "50f910e023a53ae6"
+  },
+  {
+    "ts": "2026-10-07T19:07:34.176Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8c6f21ae918d9c9d"
+  },
+  {
+    "ts": "2026-10-07T19:07:39.708Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9cdc984022a0b302"
+  },
+  {
+    "ts": "2026-10-07T19:10:03.327Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/",
+    "visitorId": "f52c28d249681eb3"
+  },
+  {
+    "ts": "2026-10-07T19:15:08.067Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e36b3181c85bd2a3"
+  },
+  {
+    "ts": "2026-10-07T19:15:16.724Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "80f8f375c0ec255c"
+  },
+  {
+    "ts": "2026-10-07T19:22:17.088Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://everythingpeptides.co.uk/products/glow-blend-x-10-vials",
+    "visitorId": "2d756d11b379e665"
   }
 ]
