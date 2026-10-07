@@ -4820,5 +4820,60 @@
       },
       "checkedAt": "2026-10-06T00:38:22.624Z"
     }
+  },
+  {
+    "id": "nilah-labs",
+    "name": "Nilah Labs",
+    "slug": "nilah-labs",
+    "website": "https://nilahlabs.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "Nilah Labs is a UK-based research peptide supplier (Nilah Ltd, trading as Nilah Labs, registered in England & Wales, company number 16924398) selling HPLC-tested research compounds for in-vitro laboratory use. All compounds ship from UK stock with certificates of analysis available, and delivery via Royal Mail Tracked 24 is free on every order. Orders placed before 3pm GMT on business days are dispatched the same working day. UK mainland delivery only, sold strictly for laboratory research use only.",
+    "highlights": [
+      "UK-registered company (Nilah Ltd, company number 16924398, England & Wales)",
+      "HPLC-tested compounds with certificates of analysis available",
+      "Free Royal Mail Tracked 24 next-day delivery on all orders - no minimum spend",
+      "Same-day dispatch on orders placed before 3pm GMT (Mon-Fri)",
+      "Trustpilot profile rated 5 out of 5",
+      "Research reward tiers - save up to 15% at £90 / £150 / £250",
+      "Research-use-only - not for human or veterinary consumption"
+    ],
+    "shipping": [
+      "Free Royal Mail Tracked 24 delivery on all UK orders (no minimum spend)",
+      "Same-day dispatch on orders placed before 3pm GMT, Monday to Friday",
+      "All orders processed within 24 hours of payment confirmation",
+      "Tracking number emailed on despatch - track at royalmail.com",
+      "UK mainland delivery only (Channel Islands, Isle of Wight, Isle of Man, Isles of Scilly, Scottish Highlands & Islands and Northern Ireland may incur extra charges - contact first)",
+      "No international shipping"
+    ],
+    "payment": [
+      "Card",
+      "PayPal",
+      "Google Pay",
+      "Shop Pay"
+    ],
+    "lastTested": "2026-10-07",
+    "labTested": true,
+    "email": "support@nilahlabs.co.uk",
+    "delivery": "Free Royal Mail Tracked 24 next-day delivery on all UK orders (no minimum) · same-day dispatch before 3pm GMT Mon-Fri · UK mainland only · no international shipping",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-07T00:55:00.000Z"
+    }
   }
 ]
