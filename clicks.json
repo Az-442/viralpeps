@@ -7214,5 +7214,15 @@
     "vendorName": "Kings BioLabs",
     "destUrl": "https://www.kingsbiolabs.co.uk",
     "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-07T06:12:17.289Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://allmypeptides.com/product/glow-blend/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "5815e9a76ec1aca6"
   }
 ]
