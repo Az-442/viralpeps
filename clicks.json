@@ -13649,5 +13649,14 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.novapeptide.co.uk/product/nad/",
     "visitorId": "36ad5236d8cccac5"
+  },
+  {
+    "ts": "2026-10-08T15:25:29.347Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.novapeptide.co.uk/product/mots-c-10mg/",
+    "visitorId": "6079e02c7964662c"
   }
 ]
