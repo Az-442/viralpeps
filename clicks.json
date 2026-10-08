@@ -14616,5 +14616,114 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://xlpeptides.com/product/mots-c-10mg/",
     "visitorId": "ce04573ddc92b2f0"
+  },
+  {
+    "ts": "2026-10-08T19:11:18.125Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://xlpeptides.com/product/ss-31-10mg/",
+    "visitorId": "aa2d0933c8a579fb"
+  },
+  {
+    "ts": "2026-10-08T19:12:17.832Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://vialverse.com/peptides/cagrilintide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "638b51c34f784a18"
+  },
+  {
+    "ts": "2026-10-08T19:16:46.262Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biopeptides-uk.com/product/ahk-cu-100mg/",
+    "visitorId": "15859edbdeb835d0"
+  },
+  {
+    "ts": "2026-10-08T19:16:50.875Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biopeptides-uk.com/product/ahk-cu-100mg/",
+    "visitorId": "7b21cfa137378d04"
+  },
+  {
+    "ts": "2026-10-08T19:17:00.088Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biopeptides-uk.com/product/ahk-cu-100mg/",
+    "visitorId": "f5bb98daba76070d"
+  },
+  {
+    "ts": "2026-10-08T19:17:11.065Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-dac-2mg",
+    "visitorId": "979f09f2d28c3827"
+  },
+  {
+    "ts": "2026-10-08T19:18:41.534Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://apexpure.co.uk/product/snap-8-peptide-10mg/",
+    "visitorId": "83e2ae4f27a257a3"
+  },
+  {
+    "ts": "2026-10-08T19:20:55.544Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/37-glutathione-1500mg.html",
+    "visitorId": "8a3c5a6058fc73f5"
+  },
+  {
+    "ts": "2026-10-08T19:28:41.996Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://apexpure.co.uk/product/aod-9604-peptide-9604-5mg/",
+    "visitorId": "872b2f2d462da800"
+  },
+  {
+    "ts": "2026-10-08T19:31:26.718Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/pen",
+    "visitorId": "5dd91bf0827cfdd4"
+  },
+  {
+    "ts": "2026-10-08T19:34:12.351Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-tesa-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen",
+    "visitorId": "6079e02c7964662c"
+  },
+  {
+    "ts": "2026-10-08T19:39:54.779Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "semax",
+    "destUrl": "https://apexpure.co.uk/product/semax-uk/",
+    "visitorId": "034fcb1c1e6d43a9"
   }
 ]
