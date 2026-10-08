@@ -13640,5 +13640,14 @@
     "compoundSlug": "kpv-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
     "visitorId": "009518e6cdf1954d"
+  },
+  {
+    "ts": "2026-10-08T14:43:27.943Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.novapeptide.co.uk/product/nad/",
+    "visitorId": "36ad5236d8cccac5"
   }
 ]
