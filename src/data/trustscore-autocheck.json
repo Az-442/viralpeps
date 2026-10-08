@@ -2906,5 +2906,34 @@
       "coa": "independent lab",
       "review": null
     }
+  },
+  "kingston-peptides": {
+    "slug": "kingston-peptides",
+    "website": "https://kingstonpeptides.com",
+    "checkedAt": "2026-10-08T00:35:54.185Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "coa",
+      "ruo": null,
+      "review": null,
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "kingston peptides - premium research compounds for scient..."
+    },
+    "product": {
+      "fetched": true,
+      "coa": "coa",
+      "ruo": null,
+      "status": 200
+    },
+    "secondary": {
+      "probed": 6,
+      "contact": "contact",
+      "ruo": "in vitro",
+      "shipping": "tracking",
+      "coa": "coa",
+      "review": null
+    }
   }
 }
