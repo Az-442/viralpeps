@@ -12605,5 +12605,133 @@
     "compoundSlug": "cjc-1295",
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/cjc-1295-without-dac",
     "visitorId": "b73067491f2adf8b"
+  },
+  {
+    "ts": "2026-10-08T10:24:33.813Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.proformapeptides.co.uk/product/bpc-5/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-08T10:24:35.622Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.proformapeptides.co.uk/product/bpc-5/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-08T10:24:37.161Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.proformapeptides.co.uk/product/bpc-5/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-08T10:26:44.466Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://vialverse.com/peptides/ara-290",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "378db65eaa0ea4d8"
+  },
+  {
+    "ts": "2026-10-08T10:39:29.623Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "288a833b5f87cfae"
+  },
+  {
+    "ts": "2026-10-08T10:39:32.706Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "392f081b6455f9e9"
+  },
+  {
+    "ts": "2026-10-08T10:42:28.768Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/ipamorelin",
+    "visitorId": "133926072c793bb6"
+  },
+  {
+    "ts": "2026-10-08T10:47:35.666Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideslabuk.com/product/ghk-cu/",
+    "visitorId": "7afa024ed2ab6614"
+  },
+  {
+    "ts": "2026-10-08T10:47:39.683Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideslabuk.com/product/ghk-cu/",
+    "visitorId": "7b9628c1d2301a0f"
+  },
+  {
+    "ts": "2026-10-08T10:47:44.608Z",
+    "type": "vendor-site",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "destUrl": "https://newwavepeptides.co.uk",
+    "visitorId": "76dd2ab68a5b4afd"
+  },
+  {
+    "ts": "2026-10-08T10:47:48.852Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideslabuk.com/product/ghk-cu/",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-10-08T10:50:18.871Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ghk-cu-100mg/",
+    "visitorId": "3dc61cea46f25787"
+  },
+  {
+    "ts": "2026-10-08T10:51:13.964Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/kpv-10mg/",
+    "visitorId": "1929150d6a27c974"
+  },
+  {
+    "ts": "2026-10-08T10:52:45.299Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/selank-10mg/",
+    "visitorId": "3dc61cea46f25787"
   }
 ]
