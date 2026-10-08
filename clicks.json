@@ -15639,5 +15639,60 @@
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/selank/pen",
     "visitorId": "323cd563af1bf445"
+  },
+  {
+    "ts": "2026-10-08T22:35:07.701Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://xlpeptides.com/product/bpc-157-5mg/",
+    "visitorId": "5dd91bf0827cfdd4"
+  },
+  {
+    "ts": "2026-10-08T22:47:12.740Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-08T22:47:15.799Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-08T22:56:55.152Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/15-bacteriostatic-water-10ml.html",
+    "visitorId": "b73067491f2adf8b"
+  },
+  {
+    "ts": "2026-10-08T22:59:52.589Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ss-31-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ss-31/vial",
+    "visitorId": "dfe253dc8c0b32fc"
+  },
+  {
+    "ts": "2026-10-08T23:07:26.117Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://vialverse.com/peptides/mazdutide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "6f43a450351bf2ae"
   }
 ]
