@@ -14735,5 +14735,163 @@
     "destUrl": "https://vialverse.com/peptides/sermorelin",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "80efba04c2beef13"
+  },
+  {
+    "ts": "2026-10-08T19:45:53.417Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/51-melanotan-2-10mg.html",
+    "visitorId": "d8dfc48a3fbcec9b"
+  },
+  {
+    "ts": "2026-10-08T19:49:17.794Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://vialverse.com/peptides/igf-1-lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "74fbc77755a6e99a"
+  },
+  {
+    "ts": "2026-10-08T19:51:22.670Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/79-tb-500-10mg.html",
+    "visitorId": "b4c9316eac253a24"
+  },
+  {
+    "ts": "2026-10-08T19:53:07.949Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "fragment-176-191-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/fragment-176-191/pen",
+    "visitorId": "d360f6dbc2c0ef39"
+  },
+  {
+    "ts": "2026-10-08T19:56:07.596Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-1000-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen/1000",
+    "visitorId": "3d871239209ffd14"
+  },
+  {
+    "ts": "2026-10-08T20:01:30.034Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
+    "visitorId": "c2a6ac1db387a3a2"
+  },
+  {
+    "ts": "2026-10-08T20:02:36.647Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://vialverse.com/peptides/ghk-cu",
+    "refPage": "https://www.google.com/",
+    "visitorId": "71b50d107813951a"
+  },
+  {
+    "ts": "2026-10-08T20:03:14.552Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://vialverse.com/peptides/pt-141",
+    "refPage": "https://www.google.com/",
+    "visitorId": "12f57a28078ce63f"
+  },
+  {
+    "ts": "2026-10-08T20:03:30.007Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://vialverse.com/peptides/ghrp-2",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5ece7c069483d9a2"
+  },
+  {
+    "ts": "2026-10-08T20:04:22.387Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://vialverse.com/peptides/thymulin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5d538bbc467c1cd1"
+  },
+  {
+    "ts": "2026-10-08T20:05:15.586Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://xlpeptides.com/product/ghrp-6-10mg/",
+    "visitorId": "bb20219b6581b5da"
+  },
+  {
+    "ts": "2026-10-08T20:09:10.285Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "1ed5c25e10cee2ea"
+  },
+  {
+    "ts": "2026-10-08T20:09:59.478Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
+    "visitorId": "05edc61c6676b0c1"
+  },
+  {
+    "ts": "2026-10-08T20:11:29.944Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/",
+    "visitorId": "07b00b01dbe0d56e"
+  },
+  {
+    "ts": "2026-10-08T20:11:35.648Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/",
+    "visitorId": "805557472de037bd"
+  },
+  {
+    "ts": "2026-10-08T20:11:38.872Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/",
+    "visitorId": "64f5502d1b07ed81"
+  },
+  {
+    "ts": "2026-10-08T20:17:17.344Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
+    "visitorId": "6ed8e95708cdfcb9"
   }
 ]
