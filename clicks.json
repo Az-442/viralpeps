@@ -14350,5 +14350,124 @@
     "compoundSlug": "sermorelin-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen",
     "visitorId": "9466a6499612b854"
+  },
+  {
+    "ts": "2026-10-08T17:33:40.674Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/vial",
+    "visitorId": "86ba54d71b667b7b"
+  },
+  {
+    "ts": "2026-10-08T17:34:00.642Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://vialverse.com/peptides/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "83ee6c0163ddb51e"
+  },
+  {
+    "ts": "2026-10-08T17:37:26.968Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/vial",
+    "visitorId": "bd294de3b938699e"
+  },
+  {
+    "ts": "2026-10-08T17:40:01.416Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen",
+    "visitorId": "2a9427d7434a4c76"
+  },
+  {
+    "ts": "2026-10-08T17:40:43.414Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/pen",
+    "visitorId": "2fffe0721685c232"
+  },
+  {
+    "ts": "2026-10-08T17:45:09.285Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "50913151087c6781"
+  },
+  {
+    "ts": "2026-10-08T17:45:21.664Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-with-dac-5mg-research-peptide/",
+    "visitorId": "1285f3100bf7ec37"
+  },
+  {
+    "ts": "2026-10-08T17:45:24.997Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-with-dac-5mg-research-peptide/",
+    "visitorId": "9df416ec80800b7f"
+  },
+  {
+    "ts": "2026-10-08T17:53:09.404Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://vialverse.com/peptides/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f8bffd631d86255d"
+  },
+  {
+    "ts": "2026-10-08T17:55:58.061Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/26-cjc1295-5mg-ipamorelin-5mg.html",
+    "visitorId": "2dd68f53f54f264a"
+  },
+  {
+    "ts": "2026-10-08T17:59:11.251Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/",
+    "visitorId": "51931359055b62b7"
+  },
+  {
+    "ts": "2026-10-08T18:00:59.537Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/41-igf-1lr3-1mg.html",
+    "visitorId": "3c47cf963e256d90"
+  },
+  {
+    "ts": "2026-10-08T18:01:00.698Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://evapeptide.co.uk/product/buy-bpc-157-uk/",
+    "visitorId": "e9e777e1bcb32d91"
   }
 ]
