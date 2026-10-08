@@ -14579,5 +14579,42 @@
     "compoundSlug": "adipotide-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/pen",
     "visitorId": "e1a91b4ebe5a9d92"
+  },
+  {
+    "ts": "2026-10-08T18:50:02.452Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "aod-9604-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/aod-9604/vial",
+    "visitorId": "36ad5236d8cccac5"
+  },
+  {
+    "ts": "2026-10-08T18:54:29.036Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://vialverse.com/peptides/kisspeptin-10",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3b5642257ec775de"
+  },
+  {
+    "ts": "2026-10-08T19:05:30.710Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/12-aod-9604-5mg.html",
+    "visitorId": "3c3e350070e9f123"
+  },
+  {
+    "ts": "2026-10-08T19:09:52.511Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://xlpeptides.com/product/mots-c-10mg/",
+    "visitorId": "ce04573ddc92b2f0"
   }
 ]
