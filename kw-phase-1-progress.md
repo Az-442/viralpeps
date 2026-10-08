@@ -1018,13 +1018,77 @@ Library sections (`/compounds/epitalon`, `/compounds/cjc-1295-with-dac`).
 
 ---
 
+## Day 19 — Sun 04 Oct (2 articles) ✅ DONE
+Completed 8 Oct 03:00 by daily blog cron (worktree branch `kw/day19`, merged to main).
+
+- `cardiogen-research-summary` — **cardiogen** (summary) — section: peptides,
+  compoundSlug: cardiogen-research-peptide, compound: Cardiogen
+- `tb-500-suppliers-uk` — **tb-500 suppliers UK** (suppliers) — section: research-hub,
+  compoundSlug: tb-500, compound: TB-500
+
+Cards (all Pillow single-vial 75%-height):
+- `public/images/guides/cardiogen-research-summary.png` — cardiogen-research-peptide.png,
+  badge "Research Summary" (title shortened to "Cardiogen Research" — see lesson 2)
+- `public/images/guides/tb-500-suppliers-uk.png` — tb-500-vial.png, badge "Supplier Guide"
+
+Card script: `scripts/make_kw_phase1_day19_cards.py` (shared draw_guide_card template).
+Vial labels QA'd with the vision tool before compositing: tb-500-vial ("Viral Peps /
+TB-500 / 5mg") and cardiogen-research-peptide ("VIRALPEPS / Cardiogen / For Research Use
+Only") — both compound identifiers correct. Both finished cards vision-checked.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+1,968 / 1,798
+
+Build: passed (222/222 pages, up from 220). All 11 internal links verified against
+`compounds.json` slugs, `vendors.json` slugs and live `research.ts`/`research-content.ts`
+keys — 0 broken. All 14 references verified individually via NCBI E-utilities esummary
+(title + journal + author + year matched for every one).
+
+### ⚠️ Lessons from this run
+1. **The `research-content.ts` seam is BACK to the no-indent form.**
+   `'],' + NL + '},' + NL + NL + '};' + NL + 'export default content;'` matched exactly once.
+   BUT the `2-space-],-0-}` variant ALSO reported count 1 because it is a substring — probe
+   all variants and prefer the explicit form. **The merge replacement must re-emit the
+   seam's own `},` for the original last entry and give EACH inserted entry its own trailing
+   comma; the last inserted entry keeps its comma too.** My first merge produced `},,`
+   (double comma) at both boundaries because I appended `,` after a block that already ended
+   `},`. Fix was a `},,\n-> },\n` sweep. **After any merge, grep for `},,`.**
+2. **The vision tool was RIGHT about clipping this time — and the measurement confirmed it.**
+   The Cardiogen card's planned title "Cardiogen Research Summary" measured 609px against
+   579px available (`card_w - text_left - 25`, single-vial layout with text_left=596) and
+   clipped the "y". Shortened to "Cardiogen Research" (407px). **For single-vial cards the
+   available width is only ~579px, not 395px** — the Day-13/18 notes' 395px figure is for
+   the dual-vial layout. Measure with `draw.textlength()` against the correct layout's
+   available width.
+3. **`write_file` doubled escapes again — all 16 `\n` in each fragment.** The normaliser is
+   mandatory (`\\{2,}n` -> literal `\n`, NOT a real newline). After normalising, both
+   fragments passed a wrapped-`Record<string, ResearchPageContent>` tsc gate on the first try.
+4. **`research.ts` registry anchor unchanged:** `"  },\n];\n\nexport const compoundList"`
+   matched exactly once. The Day-18 brace rule applied — replacement is
+   `"  },\n" + blocks + "];\n\nexport const compoundList"` (re-emit the consumed `  },`,
+   drop the anchor's own). Both new `slug:` lines verified to sit before
+   `export const compoundList`.
+5. **TB-500 PMID guesses were wrong again.** Of the first batch, `9194529` resolved to a
+   perinatal-asphyxia paper (correct is `9194528`, Malinda 1997) and `15555058` to an
+   osteoprogenitor paper (correct Philp wound paper is `12581423`). Every reference must be
+   fetched and title-matched — never reuse a half-remembered PMID.
+6. **Cardiogen (`cardiogen-research-peptide`) master slug already in `BASE_SLUGS`** (fixed
+   Day 13), so the compound page tabs resolve correctly. Verified the article appears in
+   `/compounds/cardiogen-research-peptide` Research Library.
+7. **No sibling job active** — committed 5 files only (2 data, 1 script, 2 PNGs);
+   `tsconfig.tsbuildinfo` left unstaged.
+8. **Existing broken-link debt unchanged and out of scope:** the four
+   `/research/*` forward-links (`hgh-fragment-176-191-research-summary`,
+   `igf-1-lr3-research-summary`, `p21-research-summary` — planned Day 27,
+   `thymosin-alpha1-research-summary`). None were linked from this run's articles.
+
+---
+
 ## Next up
-*Day 18 complete. Advance to Day 19 (`cardiogen-research-summary`, `tb-500-suppliers-uk`).
-**Before writing, grep both slugs against `research.ts` and `research-content.ts`** — the
-plan has drifted repeatedly (Day 15/16/17 all had pre-shipped articles). Day 19's pair is
-2 articles of different types (summary + suppliers) on different compounds, so no stacking.
-Note `cardiogen-research-summary` likely maps to compoundSlug `cardiogen-research-peptide`
-(the master slug — see Day-13 lesson 1 about `BASE_SLUGS`).*
+*Day 19 complete. Advance to Day 20 (`p21-vs-semax`, `weight-loss-peptide-suppliers-uk`,
+`cheapest-peptides-uk` — 3 articles). **Before writing, grep every slug against `research.ts`
+AND `research-content.ts`** — the plan has drifted repeatedly. Day 20's trio is 3 different
+types (vs + grouped + pillar) on different subjects, so no stacking.*
 
 ---
 
