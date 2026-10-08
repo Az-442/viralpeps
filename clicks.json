@@ -14286,5 +14286,60 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://biotideuk.com/products/tirzepatide",
     "visitorId": "ce04573ddc92b2f0"
+  },
+  {
+    "ts": "2026-10-08T16:30:37.263Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biotideuk.com/products/klow-stack-80-mg",
+    "visitorId": "d1b5dbddf9a06bf2"
+  },
+  {
+    "ts": "2026-10-08T16:42:55.525Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://vialverse.com/peptides/ss-31",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d6feb5ff7aeaea00"
+  },
+  {
+    "ts": "2026-10-08T16:44:43.337Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com",
+    "visitorId": "bd294de3b938699e"
+  },
+  {
+    "ts": "2026-10-08T16:55:17.409Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biotideuk.com/products/bpc-157",
+    "visitorId": "86ba54d71b667b7b"
+  },
+  {
+    "ts": "2026-10-08T16:56:05.675Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "0f2e3e5e87697fb6"
+  },
+  {
+    "ts": "2026-10-08T17:00:33.833Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kpv",
+    "destUrl": "https://vialverse.com/peptides/kpv",
+    "refPage": "https://www.google.com/",
+    "visitorId": "60ecf97f8cf78b74"
   }
 ]
