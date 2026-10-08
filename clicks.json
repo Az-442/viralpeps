@@ -12733,5 +12733,141 @@
     "compoundSlug": "selank",
     "destUrl": "https://www.apexbiolabs.co.uk/product/selank-10mg/",
     "visitorId": "3dc61cea46f25787"
+  },
+  {
+    "ts": "2026-10-08T10:55:02.076Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://my-peptides.co.uk/products/ipamorelin",
+    "visitorId": "236a42c9eec1da2d"
+  },
+  {
+    "ts": "2026-10-08T10:58:51.960Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://everythingpeptides.co.uk/products/l-carnitine",
+    "visitorId": "4106be3df1dc1372"
+  },
+  {
+    "ts": "2026-10-08T10:59:03.103Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://my-peptides.co.uk/products/nad-kit",
+    "visitorId": "6079e02c7964662c"
+  },
+  {
+    "ts": "2026-10-08T11:00:19.249Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://chromapeptides.co.uk/product/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/kpv",
+    "visitorId": "f9262336664f9b7f"
+  },
+  {
+    "ts": "2026-10-08T11:02:37.442Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://my-peptides.co.uk/products/cjc-1295",
+    "visitorId": "1929150d6a27c974"
+  },
+  {
+    "ts": "2026-10-08T11:03:08.679Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com",
+    "visitorId": "0b81b4ed3f389488"
+  },
+  {
+    "ts": "2026-10-08T11:04:45.562Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "selank",
+    "destUrl": "https://vialverse.com/peptides/selank",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "43da3377f04298ac"
+  },
+  {
+    "ts": "2026-10-08T11:06:13.495Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-nasal-spray",
+    "visitorId": "6c4b7f5a374bc89e"
+  },
+  {
+    "ts": "2026-10-08T11:08:51.475Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.revexa.co.uk/product-page/snap-8-10mg",
+    "visitorId": "dfe253dc8c0b32fc"
+  },
+  {
+    "ts": "2026-10-08T11:10:25.892Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://britpeptides.co.uk/product/retatrutide/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-08T11:10:31.147Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://britpeptides.co.uk/product/retatrutide/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-10-08T11:21:42.463Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-08T11:21:44.401Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+    "visitorId": "f3f9e491463c99ef"
+  },
+  {
+    "ts": "2026-10-08T11:21:46.880Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+    "visitorId": "ab835b2313933276"
+  },
+  {
+    "ts": "2026-10-08T11:24:30.932Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ghk-cu-50mg",
+    "visitorId": "e503adb9af3a1bab"
   }
 ]
