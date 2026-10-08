@@ -13586,5 +13586,59 @@
     "destUrl": "https://vialverse.com/peptides/pnc-27",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "18e4c3fc385f7b9c"
+  },
+  {
+    "ts": "2026-10-08T14:15:17.402Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
+    "visitorId": "07a1d019573c962e"
+  },
+  {
+    "ts": "2026-10-08T14:19:07.520Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "destUrl": "https://peptidesuk4u.co.uk",
+    "visitorId": "bd294de3b938699e"
+  },
+  {
+    "ts": "2026-10-08T14:24:27.142Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/",
+    "visitorId": "197b9b5b62d675f0"
+  },
+  {
+    "ts": "2026-10-08T14:24:28.984Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "semax",
+    "destUrl": "https://vialverse.com/peptides/semax",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c0802f5f813e26a1"
+  },
+  {
+    "ts": "2026-10-08T14:24:36.329Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/",
+    "visitorId": "821a6fc270e41411"
+  },
+  {
+    "ts": "2026-10-08T14:37:44.547Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
+    "visitorId": "009518e6cdf1954d"
   }
 ]
