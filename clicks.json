@@ -13658,5 +13658,77 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://www.novapeptide.co.uk/product/mots-c-10mg/",
     "visitorId": "6079e02c7964662c"
+  },
+  {
+    "ts": "2026-10-08T15:28:41.398Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/",
+    "visitorId": "dfe253dc8c0b32fc"
+  },
+  {
+    "ts": "2026-10-08T15:40:14.390Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-08T15:40:17.518Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://allmypeptides.com/product/nad-plus/",
+    "visitorId": "86ba54d71b667b7b"
+  },
+  {
+    "ts": "2026-10-08T15:41:53.289Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen",
+    "visitorId": "2a9427d7434a4c76"
+  },
+  {
+    "ts": "2026-10-08T15:43:45.562Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://allmypeptides.com/product/melanotan-2/",
+    "visitorId": "6fe61607f1ea7066"
+  },
+  {
+    "ts": "2026-10-08T15:44:43.446Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://allmypeptides.com/product/ghk-cu/",
+    "visitorId": "5dd91bf0827cfdd4"
+  },
+  {
+    "ts": "2026-10-08T15:47:17.714Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://phoenixbiolabs.net/shop/glutathione-1500mg-prefilled-premixed-pen-research-compound-copy/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-08T15:57:34.475Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://allmypeptides.com/product/melanotan-1/",
+    "visitorId": "7a2a52476170e338"
   }
 ]
