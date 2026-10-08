@@ -14893,5 +14893,57 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
     "visitorId": "6ed8e95708cdfcb9"
+  },
+  {
+    "ts": "2026-10-08T20:18:13.480Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
+    "visitorId": "79c16d997a98cfb6"
+  },
+  {
+    "ts": "2026-10-08T20:35:37.825Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.peptifyuk.com/product/bac-water-10ml/",
+    "visitorId": "3c21527eae8c9f71"
+  },
+  {
+    "ts": "2026-10-08T20:41:40.238Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://vialverse.com/peptides/snap-8",
+    "visitorId": "48b6aa8d42211822"
+  },
+  {
+    "ts": "2026-10-08T20:43:06.755Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com",
+    "visitorId": "9871e92d4c41ffcc"
+  },
+  {
+    "ts": "2026-10-08T20:45:18.563Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com",
+    "visitorId": "9871e92d4c41ffcc"
+  },
+  {
+    "ts": "2026-10-08T20:48:02.769Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://vialverse.com/peptides/cjc-1295-no-dac",
+    "visitorId": "60a50fe20fcec866"
   }
 ]
