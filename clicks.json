@@ -15694,5 +15694,121 @@
     "destUrl": "https://vialverse.com/peptides/mazdutide",
     "refPage": "https://www.google.com/",
     "visitorId": "6f43a450351bf2ae"
+  },
+  {
+    "ts": "2026-10-08T23:07:44.259Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "dsip",
+    "destUrl": "https://vialverse.com/peptides/dsip",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b2ed139368fcd6b3"
+  },
+  {
+    "ts": "2026-10-08T23:08:48.664Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghk-cu-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial",
+    "visitorId": "aa2d0933c8a579fb"
+  },
+  {
+    "ts": "2026-10-08T23:11:24.877Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://vialverse.com/peptides/hexarelin",
+    "refPage": "https://www.google.com/",
+    "visitorId": "833a2039dd13e97d"
+  },
+  {
+    "ts": "2026-10-08T23:12:54.337Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://vialverse.com/peptides/slu-pp-332",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "54aa6d66e12026d2"
+  },
+  {
+    "ts": "2026-10-08T23:15:05.971Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin-ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "271b18368b6847af"
+  },
+  {
+    "ts": "2026-10-08T23:15:18.851Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://vialverse.com/peptides/thymosin-alpha-1",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "493e6a988d82e3a7"
+  },
+  {
+    "ts": "2026-10-08T23:24:51.816Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/75-slu-pp-332-5mg.html",
+    "visitorId": "76dd2ab68a5b4afd"
+  },
+  {
+    "ts": "2026-10-08T23:31:09.520Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/72-semax-10mg.html",
+    "visitorId": "133926072c793bb6"
+  },
+  {
+    "ts": "2026-10-08T23:31:46.218Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "dsip",
+    "destUrl": "https://vialverse.com/peptides/dsip",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "80efba04c2beef13"
+  },
+  {
+    "ts": "2026-10-08T23:31:53.477Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "adamax",
+    "destUrl": "https://vialverse.com/peptides/adamax",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6c28c4a1be9adc95"
+  },
+  {
+    "ts": "2026-10-08T23:34:05.470Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://vialverse.com/peptides/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7639fbd9de24d8ed"
+  },
+  {
+    "ts": "2026-10-08T23:39:26.802Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "2dd68f53f54f264a"
   }
 ]
