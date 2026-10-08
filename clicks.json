@@ -12047,5 +12047,81 @@
     "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "4080d38b1a3db1d3"
+  },
+  {
+    "ts": "2026-10-08T06:18:11.395Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://allmypeptides.com/product/ss-31/",
+    "refPage": "https://www.google.com.hk/",
+    "visitorId": "b8d36af51c37a4cb"
+  },
+  {
+    "ts": "2026-10-08T06:18:45.937Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "d8dfc48a3fbcec9b"
+  },
+  {
+    "ts": "2026-10-08T06:24:25.659Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://vialverse.com/peptides/tb-500",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b39b757e05839cb5"
+  },
+  {
+    "ts": "2026-10-08T06:24:37.583Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/cjc-1295-with-dac-5mg",
+    "visitorId": "dfe253dc8c0b32fc"
+  },
+  {
+    "ts": "2026-10-08T06:26:57.359Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "b4c9316eac253a24"
+  },
+  {
+    "ts": "2026-10-08T06:32:30.561Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://vialverse.com/peptides/5-amino-1mq",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f44582961cee186f"
+  },
+  {
+    "ts": "2026-10-08T06:38:16.326Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "visitorId": "87d819226d58d9fc"
+  },
+  {
+    "ts": "2026-10-08T06:50:56.795Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://vialverse.com/peptides/glutathione",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5594e6d17e554aed"
   }
 ]
