@@ -14963,5 +14963,150 @@
     "compoundSlug": "klow",
     "destUrl": "https://supplypeptides.co.uk/products/klow",
     "visitorId": "ccdea89726cb2256"
+  },
+  {
+    "ts": "2026-10-08T20:59:24.974Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "b7d38eb39fe4bf97"
+  },
+  {
+    "ts": "2026-10-08T20:59:26.975Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://allmypeptides.com/product/klow-blend/",
+    "visitorId": "ccdea89726cb2256"
+  },
+  {
+    "ts": "2026-10-08T21:00:06.788Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "destUrl": "https://biohackpeptides.co.uk",
+    "visitorId": "b7d38eb39fe4bf97"
+  },
+  {
+    "ts": "2026-10-08T21:00:23.819Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://supplypeptides.co.uk/products/klow",
+    "visitorId": "ccdea89726cb2256"
+  },
+  {
+    "ts": "2026-10-08T21:00:24.843Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-08T21:00:26.872Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-10-08T21:00:37.751Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://everythingpeptides.co.uk/products/klow-blend-x-10-vials",
+    "visitorId": "ccdea89726cb2256"
+  },
+  {
+    "ts": "2026-10-08T21:05:58.947Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "adipotide",
+    "destUrl": "https://vialverse.com/peptides/adipotide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cb291f972e3a3ff2"
+  },
+  {
+    "ts": "2026-10-08T21:11:10.142Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water/",
+    "visitorId": "8a63c82e86d476e5"
+  },
+  {
+    "ts": "2026-10-08T21:11:10.554Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "655280db8d188ca5"
+  },
+  {
+    "ts": "2026-10-08T21:11:23.123Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water/",
+    "visitorId": "98a2de0bfcd9f060"
+  },
+  {
+    "ts": "2026-10-08T21:11:33.472Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water/",
+    "visitorId": "65439f7c477948a0"
+  },
+  {
+    "ts": "2026-10-08T21:19:21.157Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "pt-141-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/pen",
+    "visitorId": "7e2a8a975d1ed515"
+  },
+  {
+    "ts": "2026-10-08T21:21:38.500Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "pnc-27",
+    "destUrl": "https://vialverse.com/peptides/pnc-27",
+    "refPage": "https://www.google.com/",
+    "visitorId": "2177541e2c0aaa03"
+  },
+  {
+    "ts": "2026-10-08T21:24:19.787Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "142d7fb22aabe15a"
+  },
+  {
+    "ts": "2026-10-08T21:29:51.637Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "ab95cbcb96baca09"
   }
 ]
