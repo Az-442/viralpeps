@@ -11659,5 +11659,90 @@
     "destUrl": "https://vialverse.com/peptides/survodutide",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "52724d8c46d01b6f"
+  },
+  {
+    "ts": "2026-10-08T03:49:04.988Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://vialverse.com/peptides/bpc-157-tb-500",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3b8b91d02d46131e"
+  },
+  {
+    "ts": "2026-10-08T03:50:16.700Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://nupex.co.uk/products/nad-supplement-uk-research-grade-peptide",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-08T03:50:19.035Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://nupex.co.uk/products/nad-supplement-uk-research-grade-peptide",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-08T04:01:44.971Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://fatpigpeptides.co.uk/product/ipamorelin-5mg-10mg/",
+    "visitorId": "445fbcceefdd4a5f"
+  },
+  {
+    "ts": "2026-10-08T04:05:06.993Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "aicar",
+    "destUrl": "https://vialverse.com/peptides/aicar",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e40a9dd8ea81f0da"
+  },
+  {
+    "ts": "2026-10-08T04:13:35.551Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://vialverse.com/peptides/mazdutide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "047e1dcb5553aa13"
+  },
+  {
+    "ts": "2026-10-08T04:13:52.100Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "glow",
+    "destUrl": "https://vialverse.com/peptides/glow-blend",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fb60e1618aef024b"
+  },
+  {
+    "ts": "2026-10-08T04:17:21.527Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://helixcore.co.uk/products/cjc-1295-ipamorelin-blend",
+    "visitorId": "8a3c5a6058fc73f5"
+  },
+  {
+    "ts": "2026-10-08T04:21:51.100Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-cjc-combo/pen",
+    "visitorId": "133926072c793bb6"
   }
 ]
