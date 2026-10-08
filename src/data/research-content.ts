@@ -14268,5 +14268,187 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'tb-500-suppliers-uk': {
+  slug: 'tb-500-suppliers-uk',
+  compoundSlug: 'tb-500',
+  pullQuote: 'TB-500 is the most widely stocked recovery peptide in the UK catalogue and one of the least honestly described. It is sold by 83 vendors from £11.95, listed under at least four different names for the same seven-residue fragment, and priced across a 17x range — and the certificate is the only part of the listing that tells you which molecule you are actually buying.',
+  quickInfo: [
+    { label: 'Compound', value: 'TB-500 (Thymosin Beta-4 fragment, Ac-LKKTETQ)' },
+    { label: 'Parent Protein', value: 'Thymosin Beta-4 (T\u03b24) \u2014 43 amino acids' },
+    { label: 'Active Sequence', value: 'LKKTETQ (amino acids 17\u201323 of T\u03b24)' },
+    { label: 'CAS Number', value: '885340-08-9' },
+    { label: 'Molecular Weight', value: '~889 Da (fragment); 4,963 Da (full T\u03b24)' },
+    { label: 'Class', value: 'Recovery / tissue-repair research peptide' },
+    { label: 'Regulatory Status', value: 'No MHRA, EMA or FDA licence; research use only' },
+    { label: 'UK Supply (Oct 2026)', value: '83 vendors, 112 priced listings, £11.95 to £199.99' },
+    { label: 'Dominant Dose Tier', value: '10 mg vial (46 listings), then 5 mg (29)' },
+    { label: 'Lowest 10 mg listing', value: '£19.95' },
+  ],
+  sections: [
+    {
+      title: 'What TB-500 Actually Is \u2014 And Why the Name Matters',
+      body: 'TB-500 is a synthetic fragment of thymosin beta-4, a 43-amino-acid protein first isolated from calf thymus in 1981. The fragment corresponds to residues 17\u201323 \u2014 the sequence LKKTETQ \u2014 which is the actin-binding region of the parent protein. That short motif is the entire biologically active claim: it binds G-actin and regulates the cytoskeletal machinery cells use to migrate toward an injury site.\n\nThe naming matters because the UK market does not agree on it. The same fragment is sold as **TB-500**, as **Thymosin Beta-4**, as **TB4**, and as **TB500** \u2014 and occasionally under those names in the same vendor catalogue at different prices. It is worth being precise about what TB-500 is not. It is not the full 43-residue protein; it is a seven-residue peptide. It is not thymosin alpha-1, a different thymic peptide with an immune mechanism and an entirely separate evidence base. And it is not Ac-SDKP, a different thymosin-derived tetrapeptide that appears in cardiovascular research and is frequently confused with it online.\n\nThat confusion is the single most useful thing to understand about the TB-500 supply market: a listing that says "Thymosin Beta-4" without stating the sequence could be selling the fragment, the full protein, or a related peptide, and the price will not tell you which.\n\n[**See the full TB-500 price picture on the compound page \u2192**](/compounds/tb-500)',
+    },
+    {
+      title: 'The UK Supply Market \u2014 83 Vendors, 112 Listings',
+      body: 'TB-500 is one of the most widely stocked peptides in the UK research catalogue. As of October 2026 ViralPeps tracks **83 vendors and 112 priced listings**, from **£11.95 to £199.99**. That is a 17x spread on the same nominal fragment, and unlike a large-molecule market, that spread is not explained by manufacturing difficulty \u2014 a seven-residue peptide is among the cheapest things a peptide laboratory can synthesise.',
+      table: {
+        header: ['Metric', 'Value', 'What It Tells You'],
+        rows: [
+          ['Vendors stocking TB-500', '83', 'Extremely high \u2014 a catalogue staple for every recovery-range vendor'],
+          ['Priced listings tracked', '112', 'Deep: many vendors carry multiple dose tiers'],
+          ['Lowest price', '£11.95 (2 mg)', 'Near the floor of what the fragment can cost to synthesise'],
+          ['Lowest 10 mg listing', '£19.95', 'The practical entry point for the standard vial'],
+          ['Highest price', '£199.99', '17x the floor \u2014 priced on brand, not on molecule'],
+          ['Dominant dose tier', '10 mg (46 listings)', '10 mg is the de facto standard vial'],
+          ['Second tier', '5 mg (29 listings)', 'Roughly a third of listings are 5 mg'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'Why the spread is so wide on a cheap fragment',
+          body: 'A seven-residue peptide through solid-phase synthesis is a short, cheap chain, so a 17x spread is not a manufacturing-cost story. It is a positioning story: vendors price TB-500 against the recovery buyer\u2019s expectations rather than their cost base. A £199.99 listing and a £19.95 listing may both be legitimate \u2014 but a £199.99 listing is delivering a brand, a certificate or a bundle, not a fundamentally better molecule. When price varies 17x on a fragment whose production cost is near-uniform, price is telling you about the seller.',
+        },
+        {
+          title: 'The dose tiers are a verification problem, not a pricing one',
+          body: 'Most listings are 10 mg, but the catalogue also carries 2 mg, 5 mg and bulk formats such as 5mg\u00d710 vials. Each is a different fill, and a certificate that covers a 10 mg batch does not cover a 5 mg batch unless it names the batch. **Check that the certificate matches the vial size and the batch code on the specific listing you are buying**, not the product page in general. On a cheap, fast-moving compound this is the most common failure in the market.',
+        },
+      ],
+    },
+    {
+      title: 'The Five Verification Traps on TB-500',
+      body: 'Because TB-500 is cheap, popular and sold under several names, it attracts exactly the kind of listing that cuts corners. These are the traps that matter, in order of how often they appear.',
+      subsections: [
+        {
+          title: 'Trap 1 \u2014 The purity number with no method',
+          body: 'A listing that says "99% pure" without stating the method (HPLC-UV, HPLC-MS, UPLC) and the date is not making a verifiable claim. HPLC purity in the high nineties is routine for a short peptide; the question is whether the *identity* was confirmed. Look for a mass-spectrometry result that matches the expected mass of the fragment, not just a percentage.',
+        },
+        {
+          title: 'Trap 2 \u2014 The certificate that is not batch-matched',
+          body: 'A certificate of analysis is a statement about one batch. If the listing shows a generic certificate with no batch number, or a batch number that does not match the vial you receive, the document is decoration. This is the single most useful thing to check and the one buyers skip.',
+        },
+        {
+          title: 'Trap 3 \u2014 The sequence that is never stated',
+          body: 'The active fragment is LKKTETQ. A listing that names the compound but never states the sequence is relying on you to assume it is the fragment and not the full protein or a related peptide. A vendor who states the sequence has at least engaged with the molecule.',
+        },
+        {
+          title: 'Trap 4 \u2014 Confusion with thymosin alpha-1 and Ac-SDKP',
+          body: 'Thymosin alpha-1 and Ac-SDKP are different molecules with different mechanisms and different evidence bases. Listings that blur them \u2014 or use "thymosin" generically \u2014 are selling on a category name rather than a specification. The research market for recovery is the LKKTETQ fragment; anything else is a different product.',
+        },
+        {
+          title: 'Trap 5 \u2014 Near-duplicate vendor names',
+          body: 'The UK catalogue contains vendors with confusingly similar names, and the TB-500 market is dense enough that two differently-branded storefronts can be the same operation. Before treating two listings as competing suppliers, check whether they share a certificate issuer, a contact address or an identical product photograph. Where they do, the "competition" is illusory.',
+        },
+      ],
+    },
+    {
+      title: 'How to Read a TB-500 Supplier Claim',
+      body: 'Given how thin the human evidence is, the sensible way to evaluate a TB-500 *supplier* is the same way you would evaluate any research reagent: ignore the recovery copy and interrogate the specification. Ask four questions, in this order.\n\n**One \u2014 does the listing state the sequence?** TB-500 is the LKKTETQ fragment of thymosin beta-4. A listing that names the compound but not the sequence is relying on you to assume.\n\n**Two \u2014 is there a mass-spectrometry identity confirmation?** A short peptide\u2019s purity can be high while its identity is wrong; an LC-MS or ESI-MS result confirms you have the right chain, which a purity number alone will not catch.\n\n**Three \u2014 is the certificate batch-matched and dated?** A certificate is a claim about a specific sample. No batch number, no date, no lab name \u2014 no claim.\n\n**Four \u2014 does the price sit in a defensible band?** On a molecule this cheap, price is not a quality signal in either direction. A £19.95 listing and a £60 listing may both be legitimate; the deciding factor is the paperwork, not the number. How to read that paperwork properly is set out in the [**how to read a CoA guide \u2192**](/research/how-to-read-a-coa).\n\nFor the mechanism and evidence in more depth, see the [**TB-500 for recovery guide \u2192**](/research/tb-500-for-recovery) and the [**TB-500 vs BPC-157 comparison \u2192**](/research/tb500-vs-bpc157). TB-500 is frequently researched alongside [**BPC-157**](/compounds/bpc-157) \u2014 the two cover the complementary rate-limiting steps of tissue repair, which is why the [**Wolverine Stack**](/compounds/wolverine-stack-bpc157-tb500-blend) exists as a blend \u2014 and alongside [**GHK-Cu**](/compounds/ghk-cu) in skin and hair research.',
+    },
+  ],
+  faq: [
+    { question: 'How many UK vendors sell TB-500?', answer: 'As of October 2026 ViralPeps tracks 83 UK vendors and 112 priced listings for TB-500, from £11.95 to £199.99. The most common vial is 10 mg (46 listings), followed by 5 mg (29 listings).' },
+    { question: 'Why is TB-500 sold under so many names?', answer: 'The same LKKTETQ fragment is sold as TB-500, Thymosin Beta-4, TB4 and TB500. The names are not interchangeable in a strict sense: the full protein is 43 amino acids, while TB-500 is the seven-residue active fragment. A listing should state the sequence \u2014 if it does not, you cannot tell which molecule is being sold.' },
+    { question: 'What is a fair price for a 10 mg TB-500 vial?', answer: 'The cheapest 10 mg listing in the UK catalogue is £19.95, and most legitimate 10 mg listings sit in the £20\u2013£45 band. Prices above that are usually brand positioning rather than a different molecule; far below it, check the fill and the certificate carefully.' },
+    { question: 'How do I verify a TB-500 supplier?', answer: 'Four checks: the listing states the LKKTETQ sequence; a mass-spectrometry identity confirmation is available; the certificate of analysis is batch-matched and dated; and the price sits in a defensible band. The paperwork, not the price, is the deciding factor. [**How to read a CoA \u2192**](/research/how-to-read-a-coa)' },
+    { question: 'Is TB-500 the same as thymosin alpha-1?', answer: 'No. TB-500 is a fragment of thymosin beta-4 and works on actin dynamics and cell migration. Thymosin alpha-1 is a different thymic peptide with an immune-modulating mechanism and a separate evidence base. Listings that blur the two are selling on a category name, not a specification.' },
+    { question: 'What does TB-500 cost at the low end, and why?', answer: 'The UK floor is £11.95 for a 2 mg vial. A short seven-residue peptide is cheap to synthesise, so a low price is not automatically suspicious \u2014 but a 10 mg listing priced far below the £19.95 floor is a flag: check the fill size and whether the certificate matches the batch.' },
+  ],
+  references: [
+    'Malinda KM, et al. Thymosin beta 4 stimulates directional migration of human umbilical vein endothelial cells. FASEB J. 1997;11(6):474-481. PMID: 9194528.',
+    'Philp D, et al. Thymosin beta 4 and a synthetic peptide containing its actin-binding domain promote dermal wound repair in db/db diabetic mice and in aged mice. Wound Repair Regen. 2003;11(1):19-24. PMID: 12581423.',
+    'Philp D, et al. The actin binding site on thymosin beta4 promotes angiogenesis. FASEB J. 2003;17(14):2103-2105. PMID: 14500546.',
+    'Smart N, et al. Thymosin beta4 induces adult epicardial progenitor mobilization and neovascularization. Nature. 2007;445(7124):177-182. PMID: 17108969.',
+    'Philp D, et al. Animal studies with thymosin beta, a multifunctional tissue repair and regeneration peptide. Ann N Y Acad Sci. 2010;1194:81-86. PMID: 20536453.',
+    'Bi\u00e7er O, et al. Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: a histopathological and biomechanical study. Jt Dis Relat Surg. 2026. PMID: 42542926.',
+    'Ying Y, et al. Thymosin beta4 and Actin: Binding Modes, Biological Functions and Clinical Applications. Curr Protein Pept Sci. 2023;24(2):117-130. PMID: 36464872.',
+    'ViralPeps catalogue data \u2014 83 TB-500 vendors, 112 priced listings, October 2026 snapshot.',
+  ],
+},
+
+'cardiogen-research-summary': {
+  slug: 'cardiogen-research-summary',
+  compoundSlug: 'cardiogen-research-peptide',
+  pullQuote: 'Cardiogen is a four-amino-acid tetrapeptide with a genuinely interesting mechanism, a single research lineage behind every paper, and a safety question its own literature raises but has never answered. It is the clearest example in the Khavinson bioregulator class of a compound whose story is more interesting than its evidence.',
+  quickInfo: [
+    { label: 'Compound', value: 'Cardiogen (AEDR)' },
+    { label: 'Sequence', value: 'Ala-Glu-Asp-Arg (4 amino acids)' },
+    { label: 'Class', value: 'Khavinson short-peptide bioregulator (heart-targeted)' },
+    { label: 'Origin', value: 'St. Petersburg Institute of Bioregulation and Gerontology' },
+    { label: 'Molecular Weight', value: '~461 g/mol (tetrapeptide)' },
+    { label: 'Primary Research Areas', value: 'Cardiac proliferation, p53/apoptosis modulation, cardiovascular ageing, SASP/inflammaging' },
+    { label: 'Evidence Base', value: 'Preclinical only \u2014 single research lineage, zero independent human trials' },
+    { label: 'Key Unresolved Question', value: 'Context-dependent p53 suppression (anti-apoptotic in myocardium, pro-apoptotic in tumour tissue)' },
+    { label: 'Regulatory Status', value: 'No MHRA, EMA or FDA licence; research use only' },
+  ],
+  sections: [
+    {
+      title: 'What Cardiogen Actually Is',
+      body: 'Cardiogen is the synthetic tetrapeptide **Ala-Glu-Asp-Arg (AEDR)**, developed within Vladimir Khavinson\u2019s bioregulator programme at the St. Petersburg Institute of Bioregulation and Gerontology \u2014 the same institute behind epitalon (AEDG) and the wider family of tissue-specific short peptides. Cardiogen is the member of that family assigned to heart tissue under the programme\u2019s central hypothesis: that ultrashort peptides carry organ-selective regulatory information and can bias gene expression toward the tissue they were derived from.\n\nIt is worth being clear about how small Cardiogen is. At four amino acids it is at the very bottom of the size range at which a peptide can carry specific information. It has no tertiary structure and no post-translational modification to distinguish it from its neighbours in the class \u2014 epitalon is AEDG; Cardiogen is AEDR. One residue separates them. That is the entire structural basis for the claim of cardiac specificity, and it is the reason the mechanism, not the chemistry, has to carry the argument.\n\nThis summary covers what Cardiogen is, what the published research actually shows, the safety question the field has left open, and how it sits within the Khavinson bioregulator group.\n\n[**See the full Cardiogen listing on the compound page \u2192**](/compounds/cardiogen-research-peptide)',
+    },
+    {
+      title: 'The Proposed Mechanism \u2014 Epigenetic Gene Regulation',
+      body: 'The Khavinson class is proposed to act not by receptor binding but through a short-peptide epigenetic mechanism: cellular uptake, then interaction with DNA or chromatin-associated proteins, modulating transcription. For Cardiogen specifically, two published lines of work support the mechanism.',
+      subsections: [
+        {
+          title: '1. Cellular Uptake via Amino-Acid and Peptide Transporters',
+          body: 'A key objection to any four-residue peptide is that a molecule this small should not survive long enough or enter cells selectively enough to regulate genes. Khavinson et al. (2023) addressed this directly by docking 26 biologically active ultrashort peptides against the LAT1, LAT2 (amino-acid) and PEPT1 (peptide) transporter binding sites. AEDR was among the most efficient computed ligands of those transporters \u2014 a proposed physical route by which a tetrapeptide could cross the membrane and reach the nucleus (PMID 36979488).',
+        },
+        {
+          title: '2. Gene-Expression Modulation in Cardiac Tissue',
+          body: 'The mechanistic claim is supported by microarray work from the same programme. Anisimov, Khavinson and Anisimov (2004) used DNA-microarray technology to show that a cortex-derived tetrapeptide altered gene expression in mouse heart, and earlier work (2002) did the same for Vilon and epithalon \u2014 establishing that short peptides can shift cardiac transcriptional profiles in vivo (PMIDs 15159690, 12360356). These are the experiments most often cited as proof that the class works as proposed.',
+        },
+        {
+          title: '3. The SASP / Inflammaging Framing',
+          body: 'The most recent synthetic-tagged paper in the Cardiogen file is Khavinson et al. (2022), which reviewed the senescence-associated secretory phenotype and inflammaging in cardiovascular cells and placed peptide regulation of those pathways as a perspective for intervention (PMID 36611900). This is a review, not a new experiment \u2014 but it defines how the field currently frames Cardiogen\u2019s intended target: the aged, inflamed myocardium rather than acute injury.',
+        },
+      ],
+    },
+    {
+      title: 'What the Research-Observed Effects Actually Show',
+      body: 'The published Cardiogen results cluster into three findings. All three are preclinical, and all three come from the same research lineage, which is the central caveat for everything that follows.',
+      subsections: [
+        {
+          title: 'Cardiac Cell Proliferation at Picomolar Concentrations',
+          body: 'Organotypic myocardial cultures from both young (3-month) and aged (24-month) rats responded to Cardiogen with stimulated proliferation at concentrations as low as 10\u207b\u00b9\u00b2 M, with earlier work reporting effectiveness at 0.05 ng/ml. The striking detail is the control: of 20 individual amino acids tested, only 2 showed any activity in aged tissue \u2014 the claim being that the specific tetrapeptide sequence, not its constituent residues, carries the effect.',
+        },
+        {
+          title: 'p53 Suppression and Apoptosis Modulation',
+          body: 'Immunohistochemical analysis showed decreased p53 protein expression in treated cardiac tissue, interpreted as inhibition of apoptosis and preservation of cardiomyocyte populations. This is the mechanistic centrepiece of the cardiac claim \u2014 and, as the next section explains, also its most serious unresolved problem.',
+        },
+        {
+          title: 'Tumour-Vascular Effects in a Rodent Sarcoma Model',
+          body: 'In senescent rats bearing transplanted M-1 sarcoma, Cardiogen produced dose-dependent tumour growth inhibition via haemorrhagic necrosis and increased tumour-cell apoptosis, acting through the tumour vascular network rather than by direct cytotoxicity. This is a single transplanted-tumour model and preliminary \u2014 but it is the finding that defines the compound\u2019s central paradox.',
+        },
+      ],
+    },
+    {
+      title: 'The Safety Question the Literature Leaves Open',
+      body: 'Cardiogen raises a genuine mechanistic concern that its own literature identifies but has never resolved. The compound **lowers p53 in normal myocardium** \u2014 suppressing apoptosis and supporting cardiomyocyte survival \u2014 while **increasing apoptosis in tumour tissue** through an indirect vascular mechanism.\n\np53 is the central tumour suppressor in human biology. A compound that chronically suppresses p53 in healthy tissue is, on first principles, a compound whose long-term use carries an oncologic risk. The published work acknowledges this context-dependent, tissue-specific behaviour as the defining and still-unexplained feature of the compound, and no experiment has been designed to test the oncologic risk directly. The tumour-model result is often cited as reassurance, but it is a different tissue, a different mechanism (vascular, not cellular), and a single rodent model.\n\nThe honest position for a research summary is this: Cardiogen\u2019s mechanism is plausible and its cardiac findings are consistent, but its defining property \u2014 the ability to tip apoptosis in opposite directions in different tissues \u2014 is precisely the property that would need human safety data before any translational claim could be made, and no such data exists. This is the kind of specification question a supplier cannot answer with a certificate, and reading one properly is covered in the [**how to read a CoA guide \u2192**](/research/how-to-read-a-coa).',
+    },
+    {
+      title: 'Where Cardiogen Sits in the Khavinson Class',
+      body: 'It helps to place Cardiogen against its siblings, because buyers frequently meet the whole family at once.\n\n**Epitalon (AEDG)** is the best-measured member: a telomerase/telomere story, a 2025 independent in-vitro replication, and the only Khavinson compound with independent Western data. **Thymalin** is the thymic member with the only human outcome cohort \u2014 and, critically, that cohort was collected on a biological *extract*, not the synthetic fragment vendors sell. **Cardiogen (AEDR)** is the cardiac member, and the archive counts 12 matched publications for it, of which most are untagged or conference abstracts.\n\nThe distinction that matters most across the whole class is the **extract-versus-synthetic gap**: the human mortality and outcome data that give these peptides their reputation were collected on tissue extracts (epithalamin, thymalin), while what is sold worldwide is the synthetic fragment. No head-to-head trial establishes that the synthetic reproduces the extract\u2019s clinical effect \u2014 for any pair. Cardiogen sits entirely on the synthetic side of that gap, with no extract counterpart established at all.\n\nFor the wider picture, the [**epitalon suppliers guide \u2192**](/research/epitalon-suppliers-uk) works through the same evidence problem on the class\u2019s most popular member, and the [**Epitalon vs Thymalin comparison \u2192**](/research/epitalon-vs-thymalin) covers the thymic branch directly. For a compound whose cardiac evidence is stronger and whose clinical footprint actually exists, the [**TB-500 for recovery guide \u2192**](/research/tb-500-for-recovery) offers a useful contrast in evidence quality.',
+    },
+  ],
+  faq: [
+    { question: 'What is Cardiogen?', answer: 'Cardiogen is the synthetic tetrapeptide Ala-Glu-Asp-Arg (AEDR), a member of the Khavinson short-peptide bioregulator class assigned to cardiac tissue. It is proposed to act through epigenetic gene regulation rather than receptor binding.' },
+    { question: 'Is there any human data on Cardiogen?', answer: 'No. All published Cardiogen evidence is preclinical, and it comes from a single research lineage \u2014 the St. Petersburg Institute of Bioregulation and Gerontology. There are no Western human trials, randomised or otherwise.' },
+    { question: 'What is the concern with Cardiogen and p53?', answer: 'Cardiogen has been shown to lower p53 protein in normal cardiac tissue (interpreted as apoptosis suppression) while increasing apoptosis in a rodent tumour model via a vascular mechanism. Because p53 is a central tumour suppressor, chronic suppression in healthy tissue is an oncologic risk the literature identifies but has never experimentally addressed.' },
+    { question: 'How does Cardiogen differ from Epitalon and Thymalin?', answer: 'All three are Khavinson bioregulators but target different tissues: Epitalon (AEDG) targets the pineal/telomere axis, Thymalin the thymus/immune system, and Cardiogen (AEDR) heart tissue. Epitalon has the only independent Western in-vitro data; Thymalin has the only human cohort, though it was collected on extracts, not the synthetic fragment.' },
+    { question: 'Does cardiogen human outcome data exist?', answer: 'The Khavinson archive counts 12 matched publications for Cardiogen, mostly untagged or conference abstracts, with zero independent Western human trials. Per the archive\u2019s own tagging, the human outcome data in the class \u2014 including a 266-patient mortality cohort \u2014 was collected on extracts, not the synthetic fragments vendors sell.' },
+    { question: 'Is Cardiogen approved for human use?', answer: 'No. Cardiogen is not approved by the MHRA, EMA or FDA. It is supplied for laboratory and research purposes only.' },
+  ],
+  references: [
+    'Khavinson VK, et al. Feasibility of Transport of 26 Biologically Active Ultrashort Peptides via LAT and PEPT Family Transporters. Biomolecules. 2023;13(3):552. PMID: 36979488.',
+    'Khavinson V, et al. Senescence-Associated Secretory Phenotype of Cardiovascular System Cells and Inflammaging: Perspectives of Peptide Regulation. Cells. 2022;12(1):106. PMID: 36611900.',
+    'Anisimov SV, Khavinson VKh, Anisimov VN. Elucidation of the effect of brain cortex tetrapeptide Cortagen on gene expression in mouse heart by microarray. Neuro Endocrinol Lett. 2004;25(1-2):87-93. PMID: 15159690.',
+    'Anisimov SV, et al. Studies of the effects of Vilon and Epithalon on gene expression in mouse heart using DNA-microarray technology. Bull Exp Biol Med. 2002;133(3):293-299. PMID: 12360356.',
+    'Khavinson VKh. Peptides and Ageing. Neuro Endocrinol Lett. 2002;23(Suppl 3):1-144. PMID: 12374906.',
+    'Khavinson Peptide Research Archive \u2014 Cardiogen record: 12 matched publications (1991\u20132023), no independent Western human trials. peptideresearcharchive.org/khavinson/cardiogen.html.',
+    'ViralPeps catalogue data \u2014 3 UK Cardiogen vendors, October 2026 snapshot.',
+  ],
+},
+
 };
 export default content;

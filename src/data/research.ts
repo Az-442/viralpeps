@@ -1677,6 +1677,26 @@ export const guides: ResearchArticle[] = [
     minutes: 13,
     tags: ["research-peptides", "guide", "uk", "verification", "coa", "purity", "quality", "regulatory", "pillar", "research-use-only"],
   },
+  {
+    title: "TB-500 Suppliers UK: 83 Vendors, 112 Listings and the Naming Problem",
+    desc: "A supplier guide to TB-500 in the UK research market \u2014 83 vendors from \u00a311.95, the four names the LKKTETQ fragment is sold under, and the five verification traps that matter most.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "TB-500",
+    slug: "tb-500-suppliers-uk",
+    image: "tb-500-suppliers-uk",
+    tags: ["tb-500", "suppliers", "recovery", "thymosin-beta-4"],
+  },
+  {
+    title: "Cardiogen Research Summary: AEDR, p53 and the Khavinson Cardiac Bioregulator",
+    desc: "Research summary of Cardiogen (AEDR), the heart-targeted Khavinson tetrapeptide \u2014 its epigenetic mechanism, cardiac findings, and the unresolved p53 safety question.",
+    category: "Compound Profiles",
+    section: "peptides",
+    compound: "Cardiogen",
+    slug: "cardiogen-research-summary",
+    image: "cardiogen-research-summary",
+    tags: ["cardiogen", "aedr", "cardiac", "bioregulator", "longevity"],
+  },
 ];
 
 export const compoundList: string[] = [
