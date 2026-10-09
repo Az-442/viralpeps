@@ -16512,5 +16512,78 @@
     "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/",
     "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/oxytocin",
     "visitorId": "02dd8f65074467a7"
+  },
+  {
+    "ts": "2026-10-09T05:17:51.592Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "5d1331c663deaa1c"
+  },
+  {
+    "ts": "2026-10-09T05:18:09.482Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://vialverse.com/peptides/matrixyl",
+    "refPage": "https://www.google.com/",
+    "visitorId": "6e2125106a3eb8b3"
+  },
+  {
+    "ts": "2026-10-09T05:25:25.327Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://bluewellpeptides.com/product/cjc-1295-mod-grf-1-29-without-dac-5mg/",
+    "visitorId": "72b94d234fe4b541"
+  },
+  {
+    "ts": "2026-10-09T05:33:04.309Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/85-thymulin-10mg.html",
+    "visitorId": "b42fdd7035f98b99"
+  },
+  {
+    "ts": "2026-10-09T05:34:18.767Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-pbs-10ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pbs-10ml/",
+    "visitorId": "f033e5cfab3c4993"
+  },
+  {
+    "ts": "2026-10-09T05:36:31.361Z",
+    "type": "vendor-site",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "destUrl": "https://xlpeptides.com",
+    "visitorId": "47a705d32439dff6"
+  },
+  {
+    "ts": "2026-10-09T05:42:41.429Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-40mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-40mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-retatrutide-40mg",
+    "visitorId": "bd55eb109d1c674a"
+  },
+  {
+    "ts": "2026-10-09T05:48:19.278Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://reta-uk.com/products/tb-500",
+    "visitorId": "c2a6ac1db387a3a2"
   }
 ]
