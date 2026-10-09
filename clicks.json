@@ -17786,5 +17786,105 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://reta-uk.com/products/bacteriorastic-water-10ml",
     "visitorId": "133926072c793bb6"
+  },
+  {
+    "ts": "2026-10-09T12:39:46.019Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362",
+    "visitorId": "8aecacd6c087efc5"
+  },
+  {
+    "ts": "2026-10-09T12:43:18.840Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/go/bio-pulse-peptides/ipamorelin",
+    "visitorId": "deb6546d86d64e98"
+  },
+  {
+    "ts": "2026-10-09T12:44:30.984Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghk-cu-100mg-copper-tripeptide-1",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-09T12:56:36.141Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-10mg/",
+    "visitorId": "fad406bab4315469"
+  },
+  {
+    "ts": "2026-10-09T12:59:33.678Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-09T12:59:36.930Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-09T12:59:39.281Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ipamorelin-5mg-peptide-research",
+    "visitorId": "12f6b799744930da"
+  },
+  {
+    "ts": "2026-10-09T13:02:27.981Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-bac-water-3ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-3ml/",
+    "visitorId": "fb1f0714ac5cc537"
+  },
+  {
+    "ts": "2026-10-09T13:03:57.791Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c",
+    "visitorId": "86ba54d71b667b7b"
+  },
+  {
+    "ts": "2026-10-09T13:07:38.754Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.stratfordpeptides.com/products/bcp-157",
+    "visitorId": "99e1e1dcb216f20e"
+  },
+  {
+    "ts": "2026-10-09T13:08:46.412Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aod9604-5mg-growth-hormone-fragment",
+    "visitorId": "ab95cbcb96baca09"
   }
 ]
