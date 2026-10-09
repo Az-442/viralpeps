@@ -15819,5 +15819,95 @@
     "compoundSlug": "semax",
     "destUrl": "https://biopeptides-uk.com/product/semax-5mg/",
     "visitorId": "ac83e123967d41d5"
+  },
+  {
+    "ts": "2026-10-09T00:00:32.590Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://biopeptides-uk.com/product/semax-5mg/",
+    "visitorId": "0141034f318d1ba4"
+  },
+  {
+    "ts": "2026-10-09T00:00:36.382Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://biopeptides-uk.com/product/semax-5mg/",
+    "visitorId": "68949dd1452da665"
+  },
+  {
+    "ts": "2026-10-09T00:13:13.116Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://xlpeptides.com/product/aod-9604/",
+    "visitorId": "86ba54d71b667b7b"
+  },
+  {
+    "ts": "2026-10-09T00:16:13.098Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/klow-combo/pen",
+    "visitorId": "7e2a8a975d1ed515"
+  },
+  {
+    "ts": "2026-10-09T00:18:33.208Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin-nasal-spray",
+    "visitorId": "102bce5eabd051c1"
+  },
+  {
+    "ts": "2026-10-09T00:18:34.399Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/81-tesamorelin-10mg.html",
+    "visitorId": "5dd91bf0827cfdd4"
+  },
+  {
+    "ts": "2026-10-09T00:18:53.458Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com",
+    "visitorId": "102bce5eabd051c1"
+  },
+  {
+    "ts": "2026-10-09T00:20:02.816Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://xlpeptides.com/product/dsip/",
+    "visitorId": "e502cdd1a2369b38"
+  },
+  {
+    "ts": "2026-10-09T00:26:24.992Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "p21",
+    "destUrl": "https://vialverse.com/peptides/p21",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9ec672ba1ef0956f"
+  },
+  {
+    "ts": "2026-10-09T00:33:07.078Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/pen",
+    "visitorId": "86ba54d71b667b7b"
   }
 ]
