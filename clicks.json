@@ -16733,5 +16733,99 @@
     "compoundSlug": "liraglutide",
     "destUrl": "https://bionikpeptides.com/products/liraglutide",
     "visitorId": "9f2e086e09f7cec3"
+  },
+  {
+    "ts": "2026-10-09T06:58:20.113Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.novapeptide.co.uk/product/semax/",
+    "visitorId": "ac1cda1e60660daf"
+  },
+  {
+    "ts": "2026-10-09T07:06:48.456Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://pslabs.uk/products/ipamorelin-10mg",
+    "visitorId": "4075fdbe29df764e"
+  },
+  {
+    "ts": "2026-10-09T07:07:09.890Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://vialverse.com/peptides/tb-500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "8edaabd80cf6745b"
+  },
+  {
+    "ts": "2026-10-09T07:15:28.415Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-retatrutide-20mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide-20mg/",
+    "visitorId": "c65f2ee2f048b057"
+  },
+  {
+    "ts": "2026-10-09T07:15:39.328Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://vialverse.com/peptides/ghrp-6",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ae6361c6448f2ec1"
+  },
+  {
+    "ts": "2026-10-09T07:15:50.294Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "epitalon-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/epitalon-10mg/",
+    "visitorId": "d57172cc54377c85"
+  },
+  {
+    "ts": "2026-10-09T07:17:12.518Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "852f4bea51b0e6ed"
+  },
+  {
+    "ts": "2026-10-09T07:17:14.890Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0f7477c9cb6b3e66"
+  },
+  {
+    "ts": "2026-10-09T07:22:05.295Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://reta-uk.com/products/ghk-cu",
+    "visitorId": "6fe61607f1ea7066"
+  },
+  {
+    "ts": "2026-10-09T07:26:56.826Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://everythingpeptides.co.uk/products/ss-31",
+    "visitorId": "b9cad63ff619b3c1"
   }
 ]
