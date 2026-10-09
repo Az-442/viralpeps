@@ -17081,5 +17081,116 @@
     "destUrl": "https://vialverse.com/peptides/mots-c",
     "refPage": "https://www.google.com/",
     "visitorId": "9729845f83edf198"
+  },
+  {
+    "ts": "2026-10-09T09:17:39.256Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/survodutide-10mg/",
+    "visitorId": "edd90370571ed3fc"
+  },
+  {
+    "ts": "2026-10-09T09:18:00.041Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://bioplexpeptides.co.uk/products/glow-blend-70mg-ghk-cu-tb-500-bpc-157",
+    "visitorId": "236a42c9eec1da2d"
+  },
+  {
+    "ts": "2026-10-09T09:20:12.202Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://reta-uk.com/products/ipamorelin",
+    "visitorId": "8a3c5a6058fc73f5"
+  },
+  {
+    "ts": "2026-10-09T09:27:57.425Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://vialverse.com/peptides/sermorelin",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b4b0623ff1b4a6b9"
+  },
+  {
+    "ts": "2026-10-09T09:30:49.809Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "visitorId": "a4a46d6dfd6a3545"
+  },
+  {
+    "ts": "2026-10-09T09:30:58.398Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "a4a46d6dfd6a3545"
+  },
+  {
+    "ts": "2026-10-09T09:30:58.682Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "a4a46d6dfd6a3545"
+  },
+  {
+    "ts": "2026-10-09T09:30:59.457Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f57b6e431574e1e2"
+  },
+  {
+    "ts": "2026-10-09T09:36:43.701Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://vialverse.com/peptides/sermorelin",
+    "refPage": "https://www.google.com/",
+    "visitorId": "12f57a28078ce63f"
+  },
+  {
+    "ts": "2026-10-09T09:37:56.883Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://peptideslabuk.com/product/survodutide/",
+    "visitorId": "c5df0adbfaa98ee3"
+  },
+  {
+    "ts": "2026-10-09T09:43:42.624Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://bioplexpeptides.co.uk/products/klow-80mg-ghk-cu-bpc-tb500-kvp",
+    "visitorId": "236a42c9eec1da2d"
+  },
+  {
+    "ts": "2026-10-09T09:51:00.231Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp",
+    "visitorId": "f569f1d9618deb96"
   }
 ]
