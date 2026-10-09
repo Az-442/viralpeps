@@ -16400,5 +16400,117 @@
     "destUrl": "https://www.novapeptide.co.uk",
     "refPage": "https://www.viralpeps.co.uk/go/nova-peptide",
     "visitorId": "2751e418a89acbc1"
+  },
+  {
+    "ts": "2026-10-09T04:48:15.810Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "133926072c793bb6"
+  },
+  {
+    "ts": "2026-10-09T04:49:09.878Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://vialverse.com/peptides/sermorelin",
+    "visitorId": "47a705d32439dff6"
+  },
+  {
+    "ts": "2026-10-09T04:52:17.577Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "fe0fe219a73e532f"
+  },
+  {
+    "ts": "2026-10-09T05:00:52.161Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cagrilintide-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cagrilintide-5mg/",
+    "visitorId": "796858f4246ded38"
+  },
+  {
+    "ts": "2026-10-09T05:07:16.678Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "selank",
+    "destUrl": "https://vialverse.com/peptides/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1036cf13a9337096"
+  },
+  {
+    "ts": "2026-10-09T05:07:19.510Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "selank",
+    "destUrl": "https://vialverse.com/peptides/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "95051d006c82d8ca"
+  },
+  {
+    "ts": "2026-10-09T05:08:06.830Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://vialverse.com/peptides/ghrp-2",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f90fd54603165fbb"
+  },
+  {
+    "ts": "2026-10-09T05:08:42.190Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "9466a6499612b854"
+  },
+  {
+    "ts": "2026-10-09T05:09:11.676Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/",
+    "visitorId": "9894d7d984c04061"
+  },
+  {
+    "ts": "2026-10-09T05:09:17.666Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/",
+    "visitorId": "01e3b6a5682dbdf8"
+  },
+  {
+    "ts": "2026-10-09T05:09:20.494Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-5mg-research-peptide/",
+    "visitorId": "01e3b6a5682dbdf8"
+  },
+  {
+    "ts": "2026-10-09T05:17:42.541Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptidelabuk.co.uk/product/oxytocin-10mg-nasal-spray/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/oxytocin",
+    "visitorId": "02dd8f65074467a7"
   }
 ]
