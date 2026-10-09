@@ -16967,5 +16967,71 @@
     "destUrl": "https://vialverse.com/peptides/slu-pp-332",
     "refPage": "https://www.google.com/",
     "visitorId": "94d5690314d68925"
+  },
+  {
+    "ts": "2026-10-09T08:08:54.380Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ipamore10mg-ghrp",
+    "visitorId": "edb51c0d7bafeab7"
+  },
+  {
+    "ts": "2026-10-09T08:13:23.523Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/retatrutide",
+    "visitorId": "35fe12d39695abfe"
+  },
+  {
+    "ts": "2026-10-09T08:18:40.784Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://leolab.co.uk/peptides/tirzepatide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4e9d4a0e0503c5ca"
+  },
+  {
+    "ts": "2026-10-09T08:19:00.404Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bluewellpeptides.com/product/sermorelin-grf-1-29-5mg/",
+    "visitorId": "72b94d234fe4b541"
+  },
+  {
+    "ts": "2026-10-09T08:19:18.657Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://leolab.co.uk/peptides/tirzepatide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4c666f66f98d67a8"
+  },
+  {
+    "ts": "2026-10-09T08:28:15.303Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/sermorelin-10mg",
+    "visitorId": "ecf4be94883ce4b6"
+  },
+  {
+    "ts": "2026-10-09T08:42:55.843Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
+    "visitorId": "8b8f06bf61ae9ab5"
   }
 ]
