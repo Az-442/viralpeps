@@ -16065,5 +16065,89 @@
     "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
     "destUrl": "https://peptidelabuk.co.uk/product/bpc-157-tb-500-10mg-research-blend/",
     "visitorId": "bcf1090144473334"
+  },
+  {
+    "ts": "2026-10-09T02:36:35.862Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/84-thymosin-alpha-1-10mg.html",
+    "visitorId": "4e8e1acb7568147c"
+  },
+  {
+    "ts": "2026-10-09T02:38:22.283Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "d8dfc48a3fbcec9b"
+  },
+  {
+    "ts": "2026-10-09T02:38:35.712Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptidelabuk.co.uk/product/glow-blend-70mg-ghk-cu-bpc-157-tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/glow",
+    "visitorId": "fb8b9b106c25b9fa"
+  },
+  {
+    "ts": "2026-10-09T02:46:53.923Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidelabuk.co.uk/product/tb-500-5mg-research-peptide-thymosin/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/tb-500",
+    "visitorId": "36faf6fb5d61d2bd"
+  },
+  {
+    "ts": "2026-10-09T02:50:58.117Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+    "visitorId": "c2a6ac1db387a3a2"
+  },
+  {
+    "ts": "2026-10-09T02:55:17.706Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-nad-100mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-nad-100mg",
+    "visitorId": "5949fc7ead7dad86"
+  },
+  {
+    "ts": "2026-10-09T02:57:10.799Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://chromapeptides.co.uk/product/mots-c/",
+    "visitorId": "1c135482a074dd4d"
+  },
+  {
+    "ts": "2026-10-09T02:59:02.950Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "nad-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad/pen",
+    "visitorId": "6fe61607f1ea7066"
+  },
+  {
+    "ts": "2026-10-09T03:03:52.295Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://peptidelabuk.co.uk/product/pinealon-10mg-research-peptide/",
+    "visitorId": "d56f37e3b4a67fa4"
   }
 ]
