@@ -18128,5 +18128,170 @@
     "compoundSlug": "mq-nad-c-combo-pen-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen",
     "visitorId": "8b1c9fe6e5053c6f"
+  },
+  {
+    "ts": "2026-10-09T15:03:56.630Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://momentumpeptides.com/product/mots-c/",
+    "visitorId": "c6e4c8a7e394ec94"
+  },
+  {
+    "ts": "2026-10-09T15:08:49.158Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://fatpigpeptides.co.uk/product/glp-3-40mg/",
+    "visitorId": "0a1e79e57216c3a0"
+  },
+  {
+    "ts": "2026-10-09T15:12:05.707Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides",
+    "visitorId": "08d0181bca93e18a"
+  },
+  {
+    "ts": "2026-10-09T15:12:37.328Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "aicar",
+    "destUrl": "https://vialverse.com/peptides/aicar",
+    "refPage": "https://www.google.com/",
+    "visitorId": "8edaabd80cf6745b"
+  },
+  {
+    "ts": "2026-10-09T15:14:14.204Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mq-nad-c-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen",
+    "visitorId": "ca2a657a338fbfca"
+  },
+  {
+    "ts": "2026-10-09T15:15:27.741Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "visitorId": "36ad5236d8cccac5"
+  },
+  {
+    "ts": "2026-10-09T15:17:15.147Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/snap-8-10mg-acetyl-octapeptide-3",
+    "visitorId": "f660206b35e696b2"
+  },
+  {
+    "ts": "2026-10-09T15:17:38.576Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptifyuk.com/product/glow-blend-70mg",
+    "visitorId": "ad16e4019900008e"
+  },
+  {
+    "ts": "2026-10-09T15:20:34.014Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-sermorelin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/sermorelin-5mg/",
+    "visitorId": "25906da0c2825372"
+  },
+  {
+    "ts": "2026-10-09T15:21:43.429Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bioplexpeptides.co.uk/products/aicar-50mg-acadesine",
+    "visitorId": "d1b5dbddf9a06bf2"
+  },
+  {
+    "ts": "2026-10-09T15:22:31.460Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1c7d3eeab4556e11"
+  },
+  {
+    "ts": "2026-10-09T15:22:35.997Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1e14e85d41e77a79"
+  },
+  {
+    "ts": "2026-10-09T15:23:28.367Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bioplexpeptides.co.uk/products/thymosin-10mg-thymosin-alpha-1",
+    "visitorId": "31302b74d93edf85"
+  },
+  {
+    "ts": "2026-10-09T15:29:03.381Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://ultimatepeptides.co.uk/cjc-1295-10mg-no-dac",
+    "visitorId": "461b5633ef96d792"
+  },
+  {
+    "ts": "2026-10-09T15:31:03.438Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-09T15:31:05.129Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "37a330c4dc06811a"
+  },
+  {
+    "ts": "2026-10-09T15:31:06.766Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "38cd4235f8cf712d"
+  },
+  {
+    "ts": "2026-10-09T15:34:12.089Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein",
+    "visitorId": "bd294de3b938699e"
   }
 ]
