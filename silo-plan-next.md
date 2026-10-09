@@ -442,6 +442,117 @@ autocomplete (same as Semax, Selank and Ipamorelin). Spoke 5 was built on
 
 ---
 
+## ✅ DONE — BPC-157 SILO (commit `b287f5d0`)
+
+Queue item 7 (first compound beyond the original 5-item queue). Built per the locked SOP.
+Deploy verified live 2026-10-09.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-bpc-157-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-bpc-157-uk
+- https://www.viralpeps.co.uk/compound-guides/bpc-157-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-bpc-157-online-uk
+- https://www.viralpeps.co.uk/compound-guides/bpc-157-uk-supplier
+- https://www.viralpeps.co.uk/compound-guides/best-bpc-157-peptide
+
+**Verified metrics:** rendered words 1,567–2,358 (all ≥1,200) · titles 52–59 chars ·
+descriptions 155–160 chars · focus keyword in H1 + intro[0] · 99 unique live go-links on the
+full comparison spoke (all resolve 302/308, 0 broken) · hub tiles present on
+`/compounds/bpc-157` (12 compound-guides links) · index lists BPC-157 · all 6 spokes in
+sitemap · `npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+**Why BPC-157 was chosen:** all 5 originally-queued compounds were already built (queue
+complete per the note below). BPC-157 was the highest-source unbuilt compound in
+`compounds.json` — **130 master sources** — making it the strongest remaining silo candidate
+(hub `/compounds/bpc-157` returns 200).
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-09)
+
+⚠️ **Two of the six default modifiers returned ZERO UK results for BPC-157** — substituted,
+as the SOP requires. BPC-157 is not a GLP-1, so the GLP-1 modifier set does not fully
+transfer (same pattern as Semax, Selank, Ipamorelin and MOTS-c).
+
+| Modifier | Result |
+|---|---|
+| `where to buy bpc-157 uk` | **real UK hits** (`bpc 157 where to buy uk online`, `bpc 157 peptide where to buy uk`) — passed |
+| `cheapest bpc-157 uk` | ⚠️ **0 results** → substituted `cheapest bpc 157` (**exact match #1**; also `cheapest bpc 157 peptide`) |
+| `bpc-157 price comparison uk` | ⚠️ **0 results** → substituted `bpc 157 price uk` (UK hit under `bpc 157 price `) |
+| `buy bpc-157 online uk` | **real UK hits** (`bpc 157 online uk`, `best place to buy bpc 157 uk online`) — passed |
+| `bpc-157 uk supplier` | **exact match #1** (`bpc 157 uk supplier`) — passed |
+| `best bpc-157 peptide` | **exact match #1** — passed |
+
+Corroborating hits: `bpc 157 uk buy` #3, `bpc 157 peptide for sale uk`, `bpc 157 buy uk`,
+`bpc 157 oral buy uk`, `bpc 157 uk peptides`, `where can you buy bpc 157`,
+`buy bpc 157 uk`. Note `bpc-157` autocompletes mostly in the spaced form (`bpc 157`) for the
+UK modifier probes; both forms were harvested.
+
+### Spoke 5 substitution detail
+`bpc-157 uk supplier` returned an **exact #1 UK hit** for BPC-157 (unlike Semax/Selank/
+Ipamorelin/MOTS-c where it was 0) — so spoke 5 is `bpc-157-uk-supplier`, matching the
+Tirzepatide pattern. Only `cheapest` and `price comparison` needed substitution.
+
+### Collision check (KW Phase 1)
+`grep -niE "bpc-157|bpc 157|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`:
+- line 142 `cardiogen-vs-bpc-157` → **distinct (vs intent), KEPT.**
+- lines 34/88/122 `where-to-buy-peptides-uk`, `where-to-buy-tirzepatide-uk`,
+  `cheapest-peptides-uk` → pillar pages, no clash.
+**No plan collisions — nothing removed.**
+
+### Data
+- 156 price rows (130 master sources + 11 child variant entries folded in) → 99 unique live
+  go-links, 0 broken.
+- Uses the `vendorSlugFor()` helper (the Semax fix) — resolves real slugs from `vendors.json`.
+
+### ⚠️ NEW PITFALL FOUND + FIXED — variant-only vendors produced 404 `/go/` links
+Unlike Retatrutide (which has **zero** variant-only vendors), BPC-157 has three vendors that
+appear ONLY on child variant entries, never on the master entry:
+- `Evolve Peptides` → only on `bpc-157-5mg`
+- `Research Peptides UK` → only on `bpc-10mg-tb-10mg-20mg`, `bpc-5mg-tb-5mg`,
+  `bpc-157-research-peptides-uk`
+- `UK Peptide Lab` → only on `bpc-157-research-peptides-uk`
+
+The `/go/[vendorSlug]/[compoundSlug]` route resolves the source by looking up the
+`compoundSlug` entry and matching the vendor name against **that entry's** `sources[]`. When
+the silo folds child-variant vendors into the table but emits a `/go/{vendor}/bpc-157` link,
+the master entry has no matching source → 404 (3 broken links initially).
+
+**FIX (in `bpc-157-silo.ts` only):** each row now carries a `goCompoundSlug` — the slug of the
+entry whose `sources[]` actually contains that vendor. Master-listed vendors resolve at
+`bpc-157`; variant-only vendors resolve at their child slug. `PriceTable.tsx` uses
+`row.goCompoundSlug || compoundSlug` (optional field — all other silos unaffected).
+
+⚠️ **TODO for a future pass:** the other 7 silos read only the master `sources[]`, so they
+never hit this — but if a future silo folds in child variants (as this one does for
+completeness), it must set `goCompoundSlug` too.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 17713731 — Stable gastric pentadecapeptide BPC 157 in trials for inflammatory bowel disease (Surg Today 2007)
+- 34267654 — Stable Gastric Pentadecapeptide BPC 157 and Wound Healing (Front Pharmacol 2021)
+- 29998800 — BPC 157 and Standard Angiogenic Growth Factors (Curr Pharm Des 2018)
+- 27847966 — Therapeutic potential of pro-angiogenic BPC157 is associated with VEGFR2 activation (J Mol Med 2017)
+- 32445447 — BPC 157 Rescued NSAID-cytotoxicity Via Stabilizing Intestinal Permeability (Curr Pharm Des 2020)
+- 24304574 — Stable gastric pentadecapeptide BPC 157 heals cysteamine-colitis (J Physiol Pharmacol 2013)
+- 31266512 — Stable gastric pentadecapeptide BPC 157 can improve the healing course of spinal cord injury (J Orthop Surg Res 2019)
+- 40005999 — Multifunctionality and Possible Medical Application of the BPC 157 Peptide (Pharmaceuticals 2025)
+- 42198317 — BPC-157 as an Investigational Peptide Therapeutic (Pharmaceutics 2026)
+- 40756949 — Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review (HSS J 2025)
+- 38980576 — New studies with stable gastric pentadecapeptide protecting gastrointestinal tract (Inflammopharmacology 2024)
+- 36551977 — Stable Gastric Pentadecapeptide BPC 157 and Striated, Smooth, and Heart Muscle (Biomedicines 2022)
+
+⚠️ **Caution reconfirmed:** `BPC-157 as an Investigational Peptide Therapeutic` did not match
+under a `[Title]` search (special characters) — resolved via topic search + direct esummary of
+PMID 42198317. Always confirm each ID with `esummary`, never draft from memory.
+
+### Files changed
+`src/data/bpc-157-silo.ts` (new) · `src/data/bpc-157-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 8 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block) ·
+`src/components/PriceTable.tsx` (optional `goCompoundSlug` row override).
+Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
@@ -554,9 +665,14 @@ Rule: **fold, don't canonicalise.** Canonicals are only for true duplicates.
 | 4 | **Selank** | 81 | ✅ | ✅ (4 of 6 modifiers substituted) — **BUILT** (`3d0f69be`) |
 | 5 | **Ipamorelin** | 94 | ✅ | ✅ (5 of 6 modifiers substituted) — **BUILT** (`6e281f69`) |
 | 6 | **MOTS-c** | 121 | ✅ | ✅ (4 of 6 modifiers substituted) — **BUILT** (`5c65227e` + `0e1b5e50`) |
+| 7 | **BPC-157** | 130 | ✅ | ✅ (2 of 6 modifiers substituted) — **BUILT** (`b287f5d0`) |
 
-**🎉 SILO QUEUE COMPLETE** — all 6 queued compounds built and live (Retatrutide, Tirzepatide,
-Semaglutide, Semax, Selank, Ipamorelin, MOTS-c = 7 silos total, 42 spokes).
+**🎉 SILO QUEUE COMPLETE** — all originally-queued compounds built and live (Retatrutide,
+Tirzepatide, Semaglutide, Semax, Selank, Ipamorelin, MOTS-c = 7 silos, 42 spokes). BPC-157
+added beyond the queue as the highest-source unbuilt compound (8 silos, 48 spokes total).
+
+**Next silo candidates (by source count, hub 200, not yet built):** GHK-Cu (138), TB-500 (113),
+Tesamorelin (112), NAD+ (93), Bacteriostatic Water (77), SS-31 (74), DSIP (70).
 
 **Rule: only pick a compound whose spokes ALL appear in autocomplete.** Re-run the harvest
 script per compound; some modifiers (e.g. `for sale`) fail for non-GLP-1 compounds.
