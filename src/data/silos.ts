@@ -9,6 +9,11 @@ import {
   type IpamorelinStats,
 } from "@/data/ipamorelin-silo";
 import { MOTS_C_SPOKES, getMotsCStats, type MotsCStats } from "@/data/mots-c-silo";
+import {
+  BPC_157_SPOKES,
+  getBpcStats,
+  type BpcStats,
+} from "@/data/bpc-157-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -107,6 +112,14 @@ export const SILOS: Silo[] = [
     spokes: MOTS_C_SPOKES as unknown as SiloSpoke[],
     getStats: () => getMotsCStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "bpc-157",
+    name: "BPC-157",
+    blurb:
+      "Body Protection Compound 157 buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: BPC_157_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getBpcStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -122,4 +135,4 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats };

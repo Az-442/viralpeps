@@ -21,6 +21,12 @@ export interface PriceTableRow {
   url: string;
   inStock: boolean;
   trustScore: number | null;
+  /**
+   * Optional per-row override for the compound slug used in the /go/ link.
+   * Needed when a vendor only appears on a child variant entry of the compound
+   * (the /go/ route resolves sources against a specific entry slug).
+   */
+  goCompoundSlug?: string;
 }
 
 interface Props {
@@ -130,7 +136,7 @@ export default function PriceTable({
                   )}
                   <td className="px-[20px] py-[13px] text-right whitespace-nowrap">
                     <Link
-                      href={`/go/${row.vendorSlug}/${compoundSlug}`}
+                      href={`/go/${row.vendorSlug}/${row.goCompoundSlug || compoundSlug}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block text-[12px] font-bold text-blue-600 border border-blue-200 bg-white px-[13px] py-[6px] rounded-lg hover:bg-blue-50"
