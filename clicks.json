@@ -17366,5 +17366,103 @@
     "compoundSlug": "ss-31",
     "destUrl": "https://bioplexpeptides.co.uk/products/ss-31-10mg-elamipretide",
     "visitorId": "8aecacd6c087efc5"
+  },
+  {
+    "ts": "2026-10-09T10:51:48.874Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d88d3e1e4bcbef02"
+  },
+  {
+    "ts": "2026-10-09T10:51:52.958Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a3cdc9a086a7ff9b"
+  },
+  {
+    "ts": "2026-10-09T11:03:17.367Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://vialverse.com/peptides/bpc-157",
+    "refPage": "https://www.google.com/",
+    "visitorId": "af0caa294a1d5031"
+  },
+  {
+    "ts": "2026-10-09T11:03:42.255Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-ghk-cu-50mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-ghk-cu-50mg",
+    "visitorId": "49ddf5b2f5147ecf"
+  },
+  {
+    "ts": "2026-10-09T11:04:15.739Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://vialverse.com/peptides/aod-9604",
+    "refPage": "https://www.google.com/",
+    "visitorId": "94de307f627c8e6d"
+  },
+  {
+    "ts": "2026-10-09T11:05:37.329Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://vialverse.com/peptides/ss-31",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cb291f972e3a3ff2"
+  },
+  {
+    "ts": "2026-10-09T11:11:08.734Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin",
+    "visitorId": "76dd2ab68a5b4afd"
+  },
+  {
+    "ts": "2026-10-09T11:20:58.443Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://bioplexpeptides.co.uk/products/gdf-8-1mg-growth-factor-8",
+    "visitorId": "4db37c7ddef55ba1"
+  },
+  {
+    "ts": "2026-10-09T11:21:36.501Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-klow-80mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/klow-80mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-klow-80mg",
+    "visitorId": "591129c2d0e4bbc0"
+  },
+  {
+    "ts": "2026-10-09T11:31:41.145Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax",
+    "destUrl": "https://alphamino.co.uk/shop/semax/",
+    "refPage": "https://www.viralpeps.co.uk/compound-guides/cheapest-semax-uk",
+    "visitorId": "76503697d758de1a"
   }
 ]
