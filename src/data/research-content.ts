@@ -14449,6 +14449,310 @@ slug: 'bpc-157-for-recovery',
     'ViralPeps catalogue data \u2014 3 UK Cardiogen vendors, October 2026 snapshot.',
   ],
 },
+'p21-vs-semax': {
+  slug: 'p21-vs-semax',
+  compoundSlug: 'p21',
+  compoundSlug2: 'semax',
+  pullQuote: 'P21 and Semax are the two most-stocked cognitive research peptides in the UK catalogue, and they could not be more different in how thin their evidence is. Semax has forty years of human use behind it in Russia and a scattered Western literature; P21 has twenty rodent studies from a single laboratory and met its first independent replication in 2024 — which failed to reproduce the in vivo result. If you are comparing them, you are comparing one compound with a clinical history and one with a single-lab hypothesis.',
+  quickInfo: [
+    { label: 'Compound A', value: 'P21 (a.k.a. P021) — CNTF-derived neurotrophic peptide' },
+    { label: 'Compound B', value: 'Semax — synthetic ACTH(4-10) analogue (heptapeptide)' },
+    { label: 'P21 Structure', value: 'CNTF-derived short peptide (aa 148-151 region + adamantylated glycine); MW ~578 Da reported for the tetrapeptide mimetic' },
+    { label: 'Semax Sequence', value: 'Met-Glu-His-Phe-Pro-Gly-Pro (ACTH 4-10 with C-terminal Pro-Gly-Pro)' },
+    { label: 'P21 Mechanism', value: 'BDNF upregulation; proposed GSK3-beta inhibition; LIF-signalling disinhibition' },
+    { label: 'Semax Mechanism', value: 'BDNF and NGF upregulation; melanocortin/ACTH-family signalling; PGP metabolite' },
+    { label: 'P21 Evidence', value: '~20 preclinical studies, effectively one research group (CUNY); 0 human studies; 2024 independent replication negative in vivo' },
+    { label: 'Semax Evidence', value: 'Human clinical use in Russia (stroke, cognitive); multiple independent groups; limited Western RCTs' },
+    { label: 'UK Supply (Oct 2026)', value: 'P21: 2 vendors from GBP 32.00 · Semax: 75 vendors from GBP 7.50' },
+    { label: 'Pharmacokinetics', value: 'Both short half-life; both used intranasally or subcutaneously in research' },
+  ],
+  sections: [
+    {
+      title: 'Two Kinds of "Nootropic Peptide"',
+      body: 'P21 and Semax get grouped together on vendor sites as cognitive research peptides, and the grouping hides the single most important difference between them: one is a clinically used pharmaceutical and the other is a laboratory hypothesis.\n\n**Semax** is a synthetic heptapeptide — ACTH(4-10) with a C-terminal Pro-Gly-Pro tail — developed at the Institute of Molecular Genetics in Moscow and registered for clinical use in Russia and several neighbouring countries. It has been given to stroke patients, studied in optic nerve disease, and used for decades, which means it carries an actual human safety record even where the efficacy evidence is uneven.\n\n**P21** — often written **P021** in the literature — is a short CNTF-derived peptide that emerged from a single American research programme at the City University of New York (CUNY). It has never been given to a human in a controlled study. Its entire case rests on rodent work, almost all of it from the one laboratory that developed it.\n\nThat asymmetry is the article. Everything else — mechanism, dose, price — flows from it.\n\n[**Compare P21 prices from UK suppliers ->**](/compounds/p21) · [**Compare Semax prices ->**](/compounds/semax)',
+    },
+    {
+      title: 'What Each Compound Actually Is',
+      body: 'Getting the molecules right matters more here than on a well-characterised compound, because the P21 literature is genuinely confusing about its own subject.',
+      subsections: [
+        {
+          title: 'Semax — a defined, sequence-known heptapeptide',
+          body: 'Semax is unambiguous. The sequence is **Met-Glu-His-Phe-Pro-Gly-Pro**: the first four residues are ACTH(4-10), the biologically active fragment of adrenocorticotropic hormone, extended by a Pro-Gly-Pro tripeptide that improves stability and CNS penetration. It degrades in part to a shorter peptide, **PGP**, which has its own reported neuropeptide activity.\n\nThe compound has a CAS number (80714-61-0), a defined mass, and a 2010s-era Russian generic pharmaceutical footprint. Whatever one thinks of the evidence base, there is no question about *which molecule* is being studied.',
+        },
+        {
+          title: 'P21 — one label, several molecules in the literature',
+          body: 'The P21 label is applied loosely across the literature and the vendor market, and this is the single biggest practical hazard in researching it.\n\nThe compound that produced the well-known rodent neurogenesis data is described in the primary papers as **P021**, a small CNTF-derived peptide mimetic built from the biologically active region of human CNTF (roughly residues 148-151) with an adamantylated glycine appended for stability and lipophilicity. The Mottolese 2024 paper in *Journal of Neurodevelopmental Disorders* states its structure explicitly as **Ac-DGGLAG-NH2, MW 578.3** and calls it a tetra-peptide.\n\nMeanwhile some vendor pages describe "P21" as an 11-amino-acid peptide, others as a 21-residue fragment, and the compound description carried on this site and elsewhere calls it a "selective CDK5 inhibitor" — language that actually belongs to a *different* molecule, the Cdk5-derived peptide reported by Pao et al. in *PNAS* 2023.\n\nThe practical consequence: **a listing that says "P21" has not told you which molecule it is selling.** Ask for the sequence. If the vendor cannot state it, you do not have a specification — and on a compound whose entire evidence base is one laboratory, a specification is all you have.',
+        },
+      ],
+    },
+    {
+      title: 'Mechanism — What the Two Compounds Are Supposed to Do',
+      body: 'Both compounds are studied for cognitive endpoints. The proposed routes are similar in outcome (more BDNF, more hippocampal plasticity) but different in upstream biology.',
+      table: {
+        header: ['', 'P21 (P021)', 'Semax'],
+        rows: [
+          ['Upstream biology', 'CNTF-family neurotrophic signalling', 'ACTH(4-10) melanocortin signalling'],
+          ['Core proposed action', 'BDNF upregulation; hippocampal neurogenesis; GSK3-beta inhibition (reported)', 'BDNF and NGF upregulation; neuroprotection'],
+          ['Reported downstream', 'Increased BrdU+ dentate gyrus cells; improved Morris water maze', 'Reduced infarct volume; improved cognitive scores in stroke cohorts'],
+          ['Blood-brain barrier', 'Truncated for CNS penetration; intranasal research use', 'Pro-Gly-Pro tail aids stability and CNS access'],
+          ['Active metabolite', 'Not characterised in the public literature', 'PGP tripeptide, separately studied'],
+          ['Primary evidence type', 'Rodent, single laboratory', 'Russian clinical series plus rodent work'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'P21 — the BDNF/neurogenesis hypothesis',
+          body: 'The P021 case is built on a clean story. CNTF itself is powerfully neurotrophic but unusable systemically: it drives anorexia and cachexia, which ended its clinical development. The CUNY approach was to truncate CNTF down to a short mimetic that retains the neurogenic signal while escaping the metabolic side effects. In their rodent models the peptide increased hippocampal neurogenesis (BrdU labelling in the dentate gyrus), raised BDNF, and improved spatial memory in the Morris water maze.\n\nThe 2024 independent study is where the story becomes interesting. A Bologna-led group tested P021 in a CDKL5-deficiency-disorder model — a severe paediatric epileptic encephalopathy — and found that the peptide **rescued cellular defects in vitro but produced no meaningful benefit in vivo**. Hippocampal neurogenesis, BDNF levels and spine maturation were unchanged in the treated mice. The authors reported effects only on catalepsy and a trend toward reduced anxiety, and speculated that dopaminergic signalling rather than hippocampal neurogenesis was doing the work.\n\nThat is a single study in a single disease model, not a refutation of everything. But it is the first time the P021 hypothesis has been tested outside the originating laboratory, and it did not hold in vivo.',
+        },
+        {
+          title: 'Semax — the neurotrophin-upregulation story',
+          body: 'Semax raises BDNF and NGF messenger RNA and protein in rat hippocampus and frontal cortex, with the PGP fragment contributing to the effect. It has been reported to reduce ischaemic damage and, in Russian clinical series, to improve outcomes at different stages after ischaemic stroke. A 2021 study found it attenuated behavioural and neurochemical changes in a rat model of early-life fluvoxamine exposure, and a 2025 British Journal of Pharmacology paper proposed a mu-opioid-receptor mechanism in spinal cord injury.\n\nThe honesty caveat is the same one that applies to most Russian-developed peptides: much of the human evidence is published in Russian-language journals that are not indexed prominently, the trials are often small and unblinded by Western standards, and independent Western replication is thin. The evidence is *broader* than P21\\u2019s — more groups, more models, some human data — but it is not strong by the standards applied to a modern drug.',
+        },
+      ],
+    },
+    {
+      title: 'What the Evidence Compares To',
+      body: 'Ranking the two compounds on evidence strength is not close, but neither is impressive.\n\n**Semax** has human exposure and a genuine publication record across independent groups. It fails modern evidence standards because the trials are small and often not blinded, the human data are concentrated in Russian journals, and the endpoints vary. But "weak and broad" is a different risk profile from "narrow and unreplicated."\n\n**P21** has a coherent mechanism and a clean rodent story from one laboratory, and one independent 2024 study that found the in vivo effects did not reproduce in a different model. Its entire human evidence base is zero.\n\nIf you are choosing between them for research use, the practical difference is this: there is at least a question about whether Semax works in humans, answered ambivalently by forty years of Russian data. For P21 there is no human question yet — only the question of whether the rodent effect is real outside one lab, which the first independent attempt answered negatively.\n\nFor a deeper dive on either compound, see the [**P21 deep dive ->**](/research/p21-deep-dive) and the [**Semax research summary ->**](/research/semax-research-summary). P21 is frequently compared with [**Semax**](/compounds/semax) and [**Selank**](/compounds/selank) in the cognitive-peptide research market; the Semax-Selank pairing is examined separately in [**Selank vs Semax ->**](/research/selank-vs-semax-adhd).',
+    },
+    {
+      title: 'UK Supply and Price — A 14x Difference',
+      body: 'The supply picture is as lopsided as the evidence, and it runs in the opposite direction to what you might expect: the better-evidenced compound is cheaper and far more widely stocked.',
+      table: {
+        header: ['Metric', 'P21', 'Semax'],
+        rows: [
+          ['UK vendors tracked', '2', '75'],
+          ['Priced listings', '2', '91'],
+          ['Lowest price', 'GBP 32.00', 'GBP 7.50'],
+          ['Highest price', 'GBP 55.00', 'GBP 199.99'],
+          ['Typical dose tier', 'Research vial (100-500 mcg dosing references)', '5 mg and 10 mg vials'],
+          ['Price spread', 'Roughly 1.7x', 'Roughly 27x'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'Why Semax is cheap and P21 is expensive',
+          body: 'A seven-residue peptide is cheap to synthesise at scale, and Semax is supplied by dozens of UK vendors in a crowded market — 75 vendors competing on the same heptapeptide drives the floor down to GBP 7.50. P21 sits at the other extreme: two UK vendors, near-zero competition, and a price that reflects scarcity and positioning rather than cost. A price of GBP 32-55 for a short CNTF-derived peptide is not a manufacturing-cost statement. It is a statement about how few people stock it.',
+        },
+        {
+          title: 'The verification question changes per compound',
+          body: 'For Semax, the risk is homogenisation — with 75 vendors selling the same sequence, the certificate is what separates a verified batch from a relabelled one, and buyers should check that the CoA states the full sequence and is batch-matched. For P21, the risk is more fundamental: because the label is used loosely, a CoA that confirms *a* peptide may not confirm the *right* peptide. Even more than usual, demand the sequence, not just a purity percentage. The verification method is set out in the [**how to read a CoA guide ->**](/research/how-to-read-a-coa).',
+        },
+      ],
+    },
+    {
+      title: 'Which One, and For What',
+      body: 'This is a comparison article, not a recommendation, but the two compounds genuinely suit different research questions.\n\n**If your interest is human-relevant cognitive or neuroprotective endpoints with a real safety record**, Semax is the only one of the two with any human data to study — and its price and availability make it practical. Its weakness is evidence quality, not availability.\n\n**If your interest is the neurogenesis hypothesis itself** — whether a truncated CNTF mimetic can raise BDNF and drive hippocampal neurogenesis — P21 is the more interesting molecule, but you are researching a hypothesis that has survived exactly one laboratory and failed its first external test. That is a legitimate reason to study it, provided you are honest that it is a hypothesis.\n\nWhat you cannot do is treat them as interchangeable "nootropic peptides." They differ by a factor of roughly fourteen in price, by a factor of thirty-seven in vendor availability, and by the entire gap between a clinically-used drug and a single-lab rodent finding.\n\nFor the broader picture of this compound class, see the [**types of research peptides pillar ->**](/research/types-of-research-peptides) and the [**cognitive peptide suppliers guide ->**](/research/cognitive-peptide-suppliers-uk).',
+    },
+  ],
+  faq: [
+    { question: 'Is P21 the same as Semax?', answer: 'No. Semax is a synthetic ACTH(4-10) heptapeptide (Met-Glu-His-Phe-Pro-Gly-Pro) with clinical use in Russia. P21 (P021) is a separate CNTF-derived neurotrophic peptide from a single American research group. They are different molecules with different mechanisms and very different evidence bases.' },
+    { question: 'Which has better evidence, P21 or Semax?', answer: 'Semax, clearly. It has human clinical use in Russia, multiple independent research groups, and a published safety record. P21 has around twenty preclinical studies, effectively all from one laboratory, no human data, and a 2024 independent replication that found no in vivo benefit in a different disease model.' },
+    { question: 'Why is P21 so much more expensive than Semax?', answer: 'Availability, not molecule cost. Semax is stocked by 75 UK vendors competing on the same heptapeptide, which drives the floor to GBP 7.50. P21 is stocked by two UK vendors, so the GBP 32-55 range reflects scarcity and positioning rather than synthesis cost.' },
+    { question: 'What is the P21 sequence and why does it matter?', answer: 'The primary literature (Mottolese et al. 2024) gives the CNTF-derived mimetic P021 as Ac-DGGLAG-NH2, MW 578.3 — a tetra-peptide. Vendor pages describe "P21" variously as 11 or 21 amino acids, so the label is not a reliable specification. Always ask the vendor for the sequence. [**How to read a CoA ->**](/research/how-to-read-a-coa)' },
+    { question: 'How is Semax taken in research?', answer: 'Semax is most commonly used intranasally (it was developed for intranasal delivery) or subcutaneously in rodent studies. Its Pro-Gly-Pro tail improves stability and CNS penetration. The clinical Russian protocols are predominantly intranasal.' },
+    { question: 'Do these compounds work in humans?', answer: 'Semax has human clinical data from Russia suggesting benefit in ischaemic stroke and cognitive endpoints, though the trials are small by Western standards. P21 has never been tested in a controlled human study; its case rests on rodent work from one laboratory.' },
+  ],
+  references: [
+    'Blanchard J, et al. Beneficial effect of a CNTF tetrapeptide on adult hippocampal neurogenesis, neuronal plasticity, and spatial memory in mice. J Alzheimers Dis. 2010;21(4):1185-1195. PMID: 20952820.',
+    'Chohan MO, et al. Enhancement of dentate gyrus neurogenesis, dendritic and synaptic plasticity and memory by a neurotrophic peptide. Neurobiol Aging. 2011;32(8):1420-1434. PMID: 19767127.',
+    'Bolognin S, et al. Rescue of cognitive-aging by administration of a neurogenic and/or neurotrophic compound. Neurobiol Aging. 2014;35(9):2134-2146. PMID: 24702821.',
+    'Kazim SF, et al. Disease modifying effect of chronic oral treatment with a neurotrophic peptidergic compound in a triple transgenic mouse model of Alzheimer\\u2019s disease. Neurobiol Dis. 2014;71:110-130. PMID: 25046994.',
+    'Kazim SF, et al. Early neurotrophic pharmacotherapy rescues developmental delay and Alzheimer\\u2019s-like memory deficits in the Ts65Dn mouse model of Down syndrome. Sci Rep. 2017;7:45561. PMID: 28368015.',
+    'Baazaoui N, et al. Prevention of Amyloid-beta and Tau Pathologies, Associated Neurodegeneration, and Cognitive Deficit by Early Treatment with a Neurotrophic Compound. J Alzheimers Dis. 2017;58(1):215-230. PMID: 28387677.',
+    'Mottolese N, et al. Effects of a ciliary neurotrophic factor (CNTF) small-molecule peptide mimetic in an in vitro and in vivo model of CDKL5 deficiency disorder. J Neurodev Disord. 2024;16(1):65. PMID: 39592934.',
+    'Pao PC, et al. A Cdk5-derived peptide inhibits Cdk5/p25 activity and improves neurodegenerative phenotypes. Proc Natl Acad Sci U S A. 2023;120(16):e2217864120. PMID: 37043533.',
+    'Cruz JC, et al. Aberrant Cdk5 activation by p25 triggers pathological events leading to neurodegeneration and neurofibrillary tangles. Neuron. 2003;40(3):471-483. PMID: 14642273.',
+    'Gusev EI, et al. The efficacy of semax in the treatment of patients at different stages of ischemic stroke. Zh Nevrol Psikhiatr Im S S Korsakova. 2018;118(3. Vyp. 2):61-68. PMID: 29798983.',
+    'Glazova NY, et al. Semax, synthetic ACTH(4-10) analogue, attenuates behavioural and neurochemical alterations following early-life fluvoxamine exposure in white rats. Neuropeptides. 2021;86:102114. PMID: 33418449.',
+    'Inozemtseva LS, et al. Antidepressant-like and antistress effects of the ACTH(4-10) synthetic analogs Semax and Melanotan II on male rats in a model of chronic unpredictable stress. Eur J Pharmacol. 2024;984:177068. PMID: 39442746.',
+    'Shadrina M, et al. Comparison of the temporary dynamics of NGF and BDNF gene expression in rat hippocampus, frontal cortex, and retina under Semax action. J Mol Neurosci. 2010;41(1):30-35. PMID: 19662538.',
+    'Sciacca MFM, et al. Semax, a Synthetic Regulatory Peptide, Affects Copper-Induced Abeta Aggregation and Amyloid Formation in Artificial Membrane Models. ACS Chem Neurosci. 2022;13(4):486-496. PMID: 35080861.',
+    'Liu R, et al. Semax peptide targets the mu opioid receptor gene Oprm1 to promote deubiquitination and functional recovery after spinal cord injury in female mice. Br J Pharmacol. 2025;182(22):5489-5516. PMID: 40692165.',
+    'Tsai SJ. Semax, an analogue of adrenocorticotropin (4-10), is a potential agent for the treatment of attention-deficit hyperactivity disorder and Rett syndrome. Med Hypotheses. 2007;68(5):1144-1146. PMID: 16996699.',
+    'ViralPeps catalogue data \\u2014 P21 (2 vendors, from GBP 32.00) and Semax (75 vendors, from GBP 7.50), October 2026 snapshot.',
+  ],
+},
+'weight-loss-peptide-suppliers-uk': {
+  slug: 'weight-loss-peptide-suppliers-uk',
+  pullQuote: 'Weight loss is the only compound category in the UK research market where the suppliers mostly do not sell what the buyers think they are buying. The molecules with actual clinical evidence — semaglutide, tirzepatide, retatrutide — are prescription-only medicines in the UK, and no research-chemical vendor can lawfully sell them for human use. What the catalogue actually lists is the same category of unlicensed research reagent as everything else on the site, and the gap between the clinical reality and the listing language is the most expensive trap in the market.',
+  quickInfo: [
+    { label: 'Category', value: 'Weight-loss and metabolic research peptides (GLP-1, dual and triple agonists, and metabolic adjuvants)' },
+    { label: 'UK vendors stocking the category', value: '70 vendors across 15 tracked compounds' },
+    { label: 'Priced listings tracked', value: '305 (October 2026 snapshot)' },
+    { label: 'GLP-1 / incretin subgroup', value: '64 vendors, 281 listings' },
+    { label: 'Cheapest category entry', value: 'L-Carnitine GBP 9.99; semaglutide and tirzepatide both from GBP 14.75' },
+    { label: 'Most-stocked compound', value: 'Retatrutide — 138 listings, 55 vendors' },
+    { label: 'Regulatory status in the UK', value: 'Semaglutide and tirzepatide are prescription-only medicines; retatrutide is unlicensed everywhere' },
+    { label: 'Key hazard', value: 'Listings that imply a licensed medicine while selling an unlicensed research reagent' },
+  ],
+  sections: [
+    {
+      title: 'What "Weight Loss Peptide Suppliers UK" Actually Means',
+      body: 'This is the most searched and least understood corner of the UK peptide market, and the confusion is structural rather than incidental.\n\nThe category mixes two completely different things under one heading:\n\n**Prescription medicines.** Semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) are licensed medicines in the UK, prescribed through the NHS or private clinicians for type 2 diabetes and obesity. They are regulated medicines with real human trial data behind them.\n\n**Research peptides.** The same named molecules — plus retatrutide, survodutide, mazdutide and a set of metabolic adjuvants — are sold by research-chemical vendors as lyophilised powders for laboratory use. These listings are not medicines, cannot lawfully be sold for human use, and are governed by the same research-reagent framing as every other peptide on this site.\n\nWhen someone searches "weight loss peptide suppliers UK," they may want either. The suppliers almost all sit on the research-reagent side, and the successful ones make that clear. The ones to avoid are the listings that borrow clinical language — "Ozempic alternative," "same as Mounjaro" — while selling an unlicensed reagent.\n\n[**Compare every semaglutide price ->**](/compounds/semaglutide) · [**Compare every tirzepatide price ->**](/compounds/tirzepatide) · [**Compare every retatrutide price ->**](/compounds/retatrutide)',
+    },
+    {
+      title: 'The UK Supply Market — 70 Vendors, 15 Compounds, 305 Listings',
+      body: 'As of October 2026 ViralPeps tracks **70 UK vendors selling 305 priced weight-loss listings across 15 compounds**, with the incretin subgroup alone accounting for **64 vendors and 281 listings**. That makes weight loss the second-deepest category in the catalogue after recovery, and by far the most concentrated in buyer attention.',
+      table: {
+        header: ['Compound', 'Vendors', 'Listings', 'Lowest Price', 'What It Is'],
+        rows: [
+          ['Retatrutide', '55', '138', 'GBP 18.45', 'Triple GLP-1/GIP/glucagon agonist; unlicensed everywhere'],
+          ['Tirzepatide', '36', '90', 'GBP 14.75', 'Dual GIP/GLP-1 agonist; a licensed medicine in the UK'],
+          ['Semaglutide', '20', '31', 'GBP 14.75', 'GLP-1 agonist; a licensed medicine in the UK'],
+          ['L-Carnitine', '8', '10', 'GBP 9.99', 'Metabolic adjuvant solution, not an incretin'],
+          ['Mazdutide', '7', '7', 'GBP 27.99', 'Dual GLP-1/glucagon agonist (investigational)'],
+          ['Lipo-C', '6', '6', 'GBP 24.49', 'Lipotropic injection blend, not an incretin'],
+          ['Survodutide', '5', '5', 'GBP 39.00', 'Dual GLP-1/glucagon agonist (investigational)'],
+          ['Adipotide (FTPP)', '4', '4', 'GBP 33.99', 'Adipose-targeting peptide; early-stage'],
+          ['Eloralintide', '3', '3', 'GBP 70.00', 'Amylin analogue (investigational)'],
+          ['GLP-3 (RT)', '3', '3', 'GBP 59.00', 'Vendor-labelled retatrutide variant; naming is non-standard'],
+        ],
+      },
+    },
+    {
+      title: 'The Four Traps That Define This Category',
+      body: 'Weight loss attracts more misleading listings than any other category on the site, because the clinical drugs are famous and the research reagents are not. These are the four traps that matter.',
+      subsections: [
+        {
+          title: 'Trap 1 — Clinical branding on a research reagent',
+          body: 'A listing that names Ozempic, Wegovy or Mounjaro is either selling a licensed medicine it cannot lawfully sell, or borrowing the name of a licensed medicine to sell an unlicensed reagent. Both are red flags. A legitimate research vendor names the molecule (semaglutide), states the form (lyophilised powder) and does not repeatedly reference brand-name medicines. The words "Ozempic alternative" on a research-chemical listing are a marketing device, not a specification.',
+        },
+        {
+          title: 'Trap 2 — The purity number with no mass confirmation',
+          body: 'GLP-1 analogues are large, modified peptides — semaglutide is a 31-residue backbone with a fatty-acid side chain, tirzepatide is a 39-residue dual agonist. These are among the most synthetically demanding compounds on the site, which makes identity confirmation more important here than for a short fragment. A "99% pure" claim without a mass-spectrometry result that matches the expected mass of the analogue is not verification. Demand the method and the mass.',
+        },
+        {
+          title: 'Trap 3 — Non-standard names hiding non-standard molecules',
+          body: 'The catalogue contains listings such as "GLP-3 (RT)" — a vendor coinage that appears to reference retatrutide but is not a standard chemical name. On a category this hyped, invented names are a way to sell an uncharacterised or mislabelled product without claiming to be a specific licensed compound. If a listing does not use the standard INN for the molecule, treat the specification as unverified until the vendor provides an identity document.',
+        },
+        {
+          title: 'Trap 4 — Dose confusion between research and clinical units',
+          body: 'Clinical semaglutide and tirzepatide are dosed in milligrams on a titrated weekly schedule; research listings are sold as milligram vials of lyophilised powder with no dosing guidance. Buyers arriving from the clinical world frequently assume the research listing maps onto a clinical protocol. It does not. A research vial is a reagent, and the gulf between a licensed medicine and an unlicensed powder with the same name is the entire reason this category needs its own guide.',
+        },
+      ],
+    },
+    {
+      title: 'Which Suppliers Sit Where',
+      body: 'The category is served by two broad types of vendor, and they carry different risk profiles.\n\n**Breadth vendors** — operations such as those tracking five or more weight-loss compounds — treat the category as one shelf among many and usually sell the incretins alongside recovery, growth-hormone and cosmetic peptides. They are not specialists, and the practical question is whether their identity paperwork is consistent across the whole catalogue, not just the flagship listing.\n\n**Depth vendors** — operations carrying one or two incretins but many dose tiers — are effectively retatrutide or tirzepatide specialists. Depth often means better batch documentation for the molecule they focus on, but it also means their listing language tends to drift toward the clinical register, because that is what their buyers search for.\n\nIn neither case does the supplier type tell you the reagent is verified. The verification is the certificate, not the storefront. Because this category spans compounds of very different sizes and modifications, the checks are the same ones set out in the [**how to read a CoA guide ->**](/research/how-to-read-a-coa): state the sequence, confirm the mass, batch-match the certificate, and treat the brand name on the listing as advertising rather than evidence.',
+    },
+    {
+      title: 'The Clinical Context Buyers Should Have',
+      body: 'The reason weight-loss peptides are searched so heavily is that the incretins are genuinely effective medicines, and it is worth stating the real numbers plainly, because they are the benchmark against which any research listing should be read.\n\n**Semaglutide** produced roughly 14.9% mean weight loss in the STEP-1 trial of adults with overweight or obesity. **Tirzepatide** produced up to about 20.9% in SURMOUNT-1 — the strongest result of any phase 3 obesity trial. **Retatrutide**, the triple agonist, produced around 24% at its highest dose in a phase 2 trial. These are licenced or investigational medicines, delivered by titration under clinical supervision, with monitoring.\n\nNone of that transfers to a research vial. The trial results describe a regulated drug in a controlled protocol, not a lyophilised powder sold for laboratory use. When a research listing implies the clinical result, it is conflating a medicine with a reagent — and that conflation is the single most useful thing for a buyer in this category to be able to spot.\n\nFor the trial-level detail, see the [**tirzepatide for weight loss guide ->**](/research/tirzepatide-for-weight-loss), the [**semaglutide for weight loss guide ->**](/research/semaglutide-for-weight-loss), and the [**survodutide for weight loss guide ->**](/research/survodutide-for-weight-loss). The head-to-head compound comparisons are covered in [**tirzepatide vs survodutide ->**](/research/tirzepatide-vs-survodutide) and [**retatrutide vs tirzepatide ->**](/research/retatrutide-vs-tirzepatide).',
+    },
+    {
+      title: 'How to Evaluate a Weight-Loss Supplier',
+      body: 'Stripped of the marketing, the evaluation is the same as for any research reagent, with one category-specific addition.\n\n**One — does the listing avoid clinical branding?** A vendor that names the molecule and states the form is being straight; one that leads with Ozempic or Mounjaro is selling a feeling.\n\n**Two — is there a mass-spectrometry identity confirmation?** For a modified 31- or 39-residue analogue this is the decisive document. Purity without mass does not confirm you have the right molecule.\n\n**Three — is the certificate batch-matched and dated?** Same rule as everywhere: no batch number, no date, no lab name — no claim.\n\n**Four — does the price sit in a defensible band?** The category floor is roughly GBP 14.75 for semaglutide and tirzepatide, and the wide spread above it reflects brand positioning and dose tier rather than molecule difficulty.\n\n**Five, and specific to this category — is the listing honest about what it is not?** The best weight-loss vendors say plainly that their product is a research reagent and not a medicine. That sentence is worth more than any purity badge.\n\nFor the broader supplier landscape, the [**UK peptide directory ->**](/research/uk-peptide-directory) covers all 106 vendors, and the [**best peptides for weight loss ->**](/research/best-peptides-for-weight-loss) guide compares the compounds on evidence rather than price.',
+    },
+  ],
+  faq: [
+    { question: 'How many UK vendors sell weight-loss peptides?', answer: 'As of October 2026 ViralPeps tracks 70 UK vendors selling 305 priced weight-loss listings across 15 compounds. The incretin subgroup alone accounts for 64 vendors and 281 listings, led by retatrutide (55 vendors, 138 listings).' },
+    { question: 'Can I legally buy semaglutide or tirzepatide as a research peptide in the UK?', answer: 'Semaglutide and tirzepatide are prescription-only medicines in the UK. Research-chemical vendors sell the same named molecules as unlicensed laboratory reagents, which cannot lawfully be sold for human use. Buying a research reagent is not the same as obtaining a licensed medicine, and the listings that blur the two are the ones to avoid.' },
+    { question: 'Why is retatrutide so widely stocked if it is unlicensed?', answer: 'Retatrutide is an investigational triple agonist not approved anywhere, so it cannot be a licensed medicine — which leaves the research-reagent market as its only route to buyers. That is why it is the most-stocked compound in the category (55 UK vendors) despite having no approved status anywhere in the world.' },
+    { question: 'What is a fair price for a weight-loss research peptide in the UK?', answer: 'The category floor is roughly GBP 14.75 (semaglutide and tirzepatide). Retatrutide starts around GBP 18.45. For the larger modified analogues, low prices deserve scrutiny on fill size and batch documentation rather than being taken as a bargain.' },
+    { question: 'How do I verify a weight-loss peptide supplier?', answer: 'Five checks: the listing avoids clinical branding; a mass-spectrometry identity confirmation is available; the certificate is batch-matched and dated; the price sits in a defensible band; and the vendor states plainly that its product is a research reagent, not a medicine. [**How to read a CoA ->**](/research/how-to-read-a-coa)' },
+    { question: 'Are "GLP-3" listings the same as retatrutide?', answer: 'Not verifiably. "GLP-3 (RT)" is a vendor coinage, not a standard chemical name. It appears to reference retatrutide, but without an identity document you cannot confirm which molecule is being sold. Treat non-standard names as unverified specifications.' },
+  ],
+  references: [
+    'Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384(11):989-1002. PMID: 33567185.',
+    'Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216. PMID: 35658024.',
+    'Fr\u00edas JP, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. N Engl J Med. 2021;385(6):503-515. PMID: 34170647.',
+    'Jastreboff AM, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med. 2023;389(6):514-526. PMID: 37366315.',
+    'Bawadi H, et al. Impact of Semaglutide, Liraglutide and Tirzepatide on Cardiometabolic Outcomes: A Comparative Narrative Review. Endocrinol Diabetes Metab. 2026;9(3). PMID: 42747132.',
+    'Ahmed MM, et al. GLP-1 receptor agonists in primary care: readiness, equity, and the risk of a two-tiered obesity treatment landscape. Ther Adv Endocrinol Metab. 2026;17. PMID: 42523902.',
+    'ViralPeps catalogue data \u2014 70 weight-loss vendors, 305 listings across 15 compounds, October 2026 snapshot.',
+  ],
+},
+'cheapest-peptides-uk': {
+  slug: 'cheapest-peptides-uk',
+  pullQuote: 'The cheapest peptide in the United Kingdom is not a peptide at all — it is bacteriostatic water at GBP 1.99. The cheapest actual research peptide is GHK-Cu at GBP 6.48, stocked by 98 vendors. But a list of low prices is the least useful thing a buyer can have, because in this market the cheapest listing is often the cheapest for a reason the price does not disclose. This is what the floor of the UK catalogue looks like, and how to tell a genuinely good value from a trap.',
+  quickInfo: [
+    { label: 'Scope', value: 'Lowest-priced listings across the entire ViralPeps UK catalogue' },
+    { label: 'UK vendors tracked', value: '106' },
+    { label: 'Priced listings tracked', value: '3,443 (October 2026 snapshot)' },
+    { label: 'Master compounds with at least one price', value: '146' },
+    { label: 'Cheapest non-peptide supply item', value: 'Bacteriostatic water — GBP 1.99 (77 listings, 66 vendors)' },
+    { label: 'Cheapest research peptide', value: 'GHK-Cu — GBP 6.48 (138 listings, 98 vendors)' },
+    { label: 'Cheapest cognitive peptide', value: 'Selank and Semax — both GBP 7.50' },
+    { label: 'Cheapest growth-hormone secretagogue', value: 'Ipamorelin GBP 6.99; GHRP-2 GBP 7.95' },
+    { label: 'Key insight', value: 'Price is a poor quality signal in both directions on short peptides' },
+  ],
+  sections: [
+    {
+      title: 'What "Cheapest Peptides UK" Really Asks',
+      body: 'The phrase covers three different questions, and the answer depends entirely on which one you mean.\n\n**Cheapest per vial?** That is a real question with a real answer, and it is dominated by supply items — bacteriostatic water, acetic acid, storage containers — that are not peptides at all. A buyer who greps for the lowest number finds a GBP 1.99 water vial and stops.\n\n**Cheapest peptide molecule?** Also answerable. The cheapest actual research peptides in the UK catalogue are the short, simple chains: GHK-Cu at GBP 6.48, Ipamorelin at GBP 6.99, and the Semax/Selank pair at GBP 7.50. These are short sequences that are cheap to synthesise, so a low price is not automatically a warning.\n\n**Cheapest legitimate supply?** This is the question that matters and the one price alone cannot answer. On a seven- or ten-residue peptide, price tells you almost nothing about quality in either direction, and the cheapest listing is frequently the one with the weakest documentation.\n\nThis guide answers all three, and then explains why the third is the only one you can trust.\n\n[**See the full UK price comparison across 158 compounds ->**](/research/uk-peptide-price-comparison)',
+    },
+    {
+      title: 'The Floor of the UK Catalogue',
+      body: 'As of October 2026 ViralPeps tracks **106 UK vendors, 3,443 priced listings and 146 master compounds with at least one live price**. Sorting the whole catalogue by lowest listing price produces a table that is dominated at the bottom by non-peptide supplies, and only becomes about peptides about ten rows in.',
+      table: {
+        header: ['Rank', 'Item', 'Lowest Price', 'Vendors', 'What It Is'],
+        rows: [
+          ['1', 'Bacteriostatic Water', 'GBP 1.99', '66', 'Reconstitution solvent — not a peptide'],
+          ['2', 'Acetic Acid 10ml', 'GBP 3.00', '7', 'Reconstitution solvent — not a peptide'],
+          ['3', 'Storage Container', 'GBP 3.00', '1', 'Empty glassware — not a peptide'],
+          ['4', 'Acetic Acid 0.6% Solution', 'GBP 3.95', '4', 'Reconstitution solvent — not a peptide'],
+          ['5', 'GHK-Cu', 'GBP 6.48', '98', 'Cheapest actual peptide — copper tripeptide'],
+          ['6', 'Ipamorelin', 'GBP 6.99', '82', 'Growth-hormone secretagogue (pentapeptide)'],
+          ['7', 'PBS 10ml', 'GBP 7.50', '1', 'Phosphate-buffered saline — not a peptide'],
+          ['8', 'Selank', 'GBP 7.50', '74', 'Cognitive peptide (heptapeptide)'],
+          ['9', 'Semax', 'GBP 7.50', '75', 'Cognitive peptide (heptapeptide)'],
+          ['10', 'GHRP-2', 'GBP 7.95', '26', 'Growth-hormone secretagogue'],
+          ['11', 'GHRP-6', 'GBP 7.95', '31', 'Growth-hormone secretagogue'],
+          ['12', 'Oxytocin', 'GBP 9.45', '19', 'Nonapeptide hormone'],
+          ['13', 'Gonadorelin', 'GBP 9.75', '6', 'GnRH decapeptide'],
+          ['14', 'CJC-1295', 'GBP 9.95', '40', 'Growth-hormone releasing hormone analogue'],
+          ['15', 'Hexarelin', 'GBP 9.95', '13', 'Growth-hormone secretagogue'],
+        ],
+      },
+    },
+    {
+      title: 'Why the Cheap End of the Market Looks the Way It Does',
+      body: 'The shape of this table is not accidental — it is a direct map of synthesis cost and demand.',
+      subsections: [
+        {
+          title: 'Short chains are cheap, and that is legitimate',
+          body: 'GHK-Cu is a tripeptide (glycyl-L-histidyl-L-lysine complexed with copper). Ipamorelin is a pentapeptide. Semax and Selank are heptapeptides. A short solid-phase peptide chain is genuinely inexpensive to synthesise, so the GBP 6.48-GBP 7.50 band at the top of the peptide section is a fair reflection of the chemistry, not a red flag. When the molecule is short and the market is crowded — GHK-Cu has 98 vendors, Ipamorelin 82 — the floor is set by competition, and it settles where the synthesis cost plus a thin margin allows.',
+        },
+        {
+          title: 'Cheap and popular are the same thing here',
+          body: 'Every compound in the cheap band is also very widely stocked. GHK-Cu appears in 138 listings across 98 vendors; Ipamorelin in 99 listings across 82; Selank and Semax in 87 and 91 listings across 74 and 75 vendors. This is the opposite of the weight-loss category, where the most-hyped compounds are the most expensive. Cheap here correlates with *mature, high-volume, short-chain* compounds, because those are the ones every vendor can produce and wants to stock as a loss-leader.',
+        },
+        {
+          title: 'The expensive end is a positioning story, not a chemistry one',
+          body: 'The same GHK-Cu molecule that starts at GBP 6.48 is sold for over GBP 60 by some vendors, and the same is true of Ipamorelin and Semax. On a tripeptide whose synthesis cost is near-uniform across the market, a tenfold spread cannot be a manufacturing cost. It is brand positioning, bundling, or a premium storefront. The molecule is the same; the price is telling you about the seller.',
+        },
+      ],
+    },
+    {
+      title: 'Price Is Not a Quality Signal — In Either Direction',
+      body: 'This is the central point of the guide, and it cuts both ways.\n\n**A cheap price is not evidence of poor quality.** GHK-Cu at GBP 6.48 is one of the cheapest peptides in the catalogue and also one of the best-studied cosmetic research peptides. Its low price reflects a short chain and a crowded market, not a corner cut. Dismissing a cheap listing because it is cheap is as lazy as trusting it because it is cheap.\n\n**An expensive price is not evidence of good quality.** The GBP 199.99 Semax listing and the GBP 7.50 Semax listing may both be verified batches of the same heptapeptide. The premium is buying packaging, a brand, or a certificate presentational style — not a different molecule.\n\nWhat actually distinguishes a verified reagent from a trap is the documentation, and it is the same three checks at every price point: does the listing state the sequence, is there a mass-spectrometry identity confirmation, and is the certificate of analysis batch-matched and dated? A GBP 6.48 listing that meets all three is a better buy than a GBP 60 listing that meets none. The method is set out in the [**how to read a CoA guide ->**](/research/how-to-read-a-coa).',
+    },
+    {
+      title: 'How to Shop the Cheap End Without Getting Burned',
+      body: 'The cheap band is where value is real, and it is also where the market\u2019s documentation is thinnest, because high-volume short peptides are exactly the products vendors are least motivated to describe in detail. Five practical rules.\n\n**One — start with the molecule, not the price.** Decide which compound you need, then find its price floor within that compound. A cross-catalogue "cheapest" search will always surface solvent and glassware ahead of anything biologically interesting.\n\n**Two — expect the floor to be legitimate on short chains.** GHK-Cu, Ipamorelin, Selank and Semax are cheap because they are cheap to make. A GBP 7 listing for one of these is normal; it is not the same warning sign that a GBP 7 listing for a 39-residue GLP-1 analogue would be.\n\n**Three — check the fill, not just the price.** A GBP 6.99 Ipamorelin listing may be a 2 mg vial while a GBP 19.95 listing is 10 mg. Price per vial is meaningless without the fill size. Compare on a per-milligram basis wherever the dosage field is populated.\n\n**Four — the certificate is the whole game at this price.** On a cheap, high-volume compound the difference between vendors is almost entirely paperwork. A cheap listing with a batch-matched, mass-confirmed certificate is the value buy of the whole market.\n\n**Five — be sceptical of "cheapest" aggregator claims generally.** Many sites list a "cheapest peptide" headline number that turns out to be bacteriostatic water or a promotional loss-leader. The number is technically true and practically useless.\n\nFor the full vendor landscape, see the [**UK peptide directory ->**](/research/uk-peptide-directory); for how prices are tracked across the catalogue, see the [**UK peptide price comparison ->**](/research/uk-peptide-price-comparison). Related compound guides that dominate the cheap band include [**Semax ->**](/research/semax-research-summary), [**Selank ->**](/research/selank-research-summary) and [**Ipamorelin ->**](/research/ipamorelin-research-summary).',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'If you want the single cheapest peptide in the UK, it is **GHK-Cu at GBP 6.48**, stocked by 98 vendors. If you want the cheapest cognitive peptide, it is **Semax or Selank at GBP 7.50**. If you want the cheapest growth-hormone secretagogue, it is **Ipamorelin at GBP 6.99**.\n\nBut the honest answer to "what is the cheapest peptide in the UK" is that the question is less useful than it sounds. On the cheap end of this market, where the molecules are short and the competition is fierce, price carries almost no information about what you are buying. The floor is low because the chemistry is simple, and every vendor can reach it. The thing that separates a GBP 6.48 reagent from a GBP 6.48 liability is a certificate, not a price.\n\n[**Compare every UK peptide price, sorted cheapest first ->**](/compounds)',
+    },
+  ],
+  faq: [
+    { question: 'What is the cheapest peptide in the UK?', answer: 'The cheapest actual research peptide in the ViralPeps catalogue is GHK-Cu at GBP 6.48, stocked by 98 UK vendors. The cheapest non-peptide supply item is bacteriostatic water at GBP 1.99, which often tops "cheapest peptide" lists by mistake.' },
+    { question: 'Why are some peptides so cheap?', answer: 'Short peptide chains are genuinely inexpensive to synthesise. GHK-Cu is a tripeptide, Ipamorelin a pentapeptide, and Semax and Selank heptapeptides. High vendor competition on these mature compounds drives the floor to roughly GBP 6.50-GBP 8.00, which is a fair reflection of synthesis cost, not a quality warning.' },
+    { question: 'Does a cheap peptide mean poor quality?', answer: 'No. On short chains, price is a poor quality signal in both directions. A GBP 6.48 listing with a batch-matched, mass-confirmed certificate is a better buy than a GBP 60 listing without one. The documentation, not the price, separates a verified reagent from a trap.' },
+    { question: 'How many vendors and listings does the UK catalogue contain?', answer: 'As of October 2026 ViralPeps tracks 106 UK vendors, 3,443 priced listings and 146 master compounds with at least one live price. The cheapest peptide band is dominated by short chains: GHK-Cu (98 vendors), Ipamorelin (82), Semax (75) and Selank (74).' },
+    { question: 'Should I compare peptides by price per vial or price per milligram?', answer: 'Per milligram, wherever the dosage is known. A GBP 6.99 listing may be a 2 mg vial while a GBP 19.95 listing is 10 mg, which reverses the apparent value. Always check the fill size before treating a low price as a bargain. [**Compare prices ->**](/compounds)' },
+    { question: 'Why do some vendors charge ten times more for the same peptide?', answer: 'On a molecule whose synthesis cost is near-uniform, a wide spread is positioning, not chemistry. The same GHK-Cu starts at GBP 6.48 and sells for over GBP 60 elsewhere. The premium buys brand, packaging or certificate presentation, not a different molecule.' },
+  ],
+  references: [
+    'Pickart L, et al. GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration. Biomed Res Int. 2015;2015:648108. PMID: 26236730.',
+    'Pickart L, et al. The human tri-peptide GHK and tissue remodeling. J Biomater Sci Polym Ed. 2008;19(8):969-988. PMID: 18644225.',
+    'Raun K, et al. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561. PMID: 9849822.',
+    'Shadrina M, et al. Comparison of the temporary dynamics of NGF and BDNF gene expression in rat hippocampus, frontal cortex, and retina under Semax action. J Mol Neurosci. 2010;41(1):30-35. PMID: 19662538.',
+    'Kozlovskaya MM, et al. Selank and Semax: anxiolytic and nootropic effects. Neurosci Behav Physiol. 2002. PMID: 12469845.',
+    'ViralPeps catalogue data \u2014 106 UK vendors, 3,443 priced listings, 146 master compounds with a live price, October 2026 snapshot.',
+  ],
+},
 
 };
 export default content;
