@@ -15954,5 +15954,79 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://xlpeptides.com/product/nad-500mg/",
     "visitorId": "bd1201465b8a7541"
+  },
+  {
+    "ts": "2026-10-09T01:26:49.708Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidelabuk.co.uk/product/aod-9604-5mg-research-peptide/",
+    "visitorId": "7a5b06436f453fc2"
+  },
+  {
+    "ts": "2026-10-09T01:31:37.963Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/go/momentum-peptides",
+    "visitorId": "f068edf48dfa7b00"
+  },
+  {
+    "ts": "2026-10-09T01:37:13.847Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/igf-1lr3-1mg/",
+    "visitorId": "90e627f5d22b1e41"
+  },
+  {
+    "ts": "2026-10-09T01:40:22.635Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.novapeptide.co.uk/product/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide/epitalon",
+    "visitorId": "fb8b9b106c25b9fa"
+  },
+  {
+    "ts": "2026-10-09T01:47:47.192Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/tesamorelin-5mg/",
+    "visitorId": "d7d0f4caec8fdd96"
+  },
+  {
+    "ts": "2026-10-09T01:48:18.023Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptidelabuk.co.uk/product/nad-500mg-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/nad-plus",
+    "visitorId": "4f3acab288de6af7"
+  },
+  {
+    "ts": "2026-10-09T01:52:04.772Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://xlpeptides.com/product/klow-peptide-blend/",
+    "visitorId": "6079e02c7964662c"
+  },
+  {
+    "ts": "2026-10-09T01:57:02.601Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "5d102ffe941c54c8"
   }
 ]
