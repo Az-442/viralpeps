@@ -17033,5 +17033,53 @@
     "compoundSlug": "ipamorelin-5mg-imperial",
     "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
     "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-09T08:43:01.741Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
+    "visitorId": "417dbe58a136f7a0"
+  },
+  {
+    "ts": "2026-10-09T08:43:05.647Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ipamorelin-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ipamorelin-5mg",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-10-09T08:56:29.670Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.kingsbiolabs.co.uk/ara-290",
+    "refPage": "https://www.google.com/",
+    "visitorId": "2e889dfc00469db0"
+  },
+  {
+    "ts": "2026-10-09T09:07:16.064Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "adamax",
+    "destUrl": "https://vialverse.com/peptides/adamax",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bd78b55d253e94b4"
+  },
+  {
+    "ts": "2026-10-09T09:16:27.504Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://vialverse.com/peptides/mots-c",
+    "refPage": "https://www.google.com/",
+    "visitorId": "9729845f83edf198"
   }
 ]
