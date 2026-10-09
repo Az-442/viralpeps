@@ -16279,5 +16279,126 @@
     "vendorName": "British Peptide Labs",
     "destUrl": "https://britishpeptidelabs.com",
     "visitorId": "b78a7ea39754660f"
+  },
+  {
+    "ts": "2026-10-09T04:10:43.830Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kisspeptin-5mg/",
+    "visitorId": "bcf1090144473334"
+  },
+  {
+    "ts": "2026-10-09T04:11:58.466Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "semax",
+    "destUrl": "https://vialverse.com/peptides/semax",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ce974f1d7988a44d"
+  },
+  {
+    "ts": "2026-10-09T04:14:01.746Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/pen",
+    "visitorId": "0f2e3e5e87697fb6"
+  },
+  {
+    "ts": "2026-10-09T04:16:47.381Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-dac-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295-with-dac/pen",
+    "visitorId": "e502cdd1a2369b38"
+  },
+  {
+    "ts": "2026-10-09T04:16:49.326Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "teriparatide",
+    "destUrl": "https://vialverse.com/peptides/teriparatide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d0784357e7f2d30a"
+  },
+  {
+    "ts": "2026-10-09T04:23:12.256Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "follistatin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/follistatin-344/pen",
+    "visitorId": "7e2a8a975d1ed515"
+  },
+  {
+    "ts": "2026-10-09T04:24:43.766Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/78-survodutide-10mg.html",
+    "visitorId": "4db37c7ddef55ba1"
+  },
+  {
+    "ts": "2026-10-09T04:27:16.526Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/united-peptides/retatrutide",
+    "visitorId": "919faa258f380077"
+  },
+  {
+    "ts": "2026-10-09T04:28:05.637Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/35-glow-blend.html",
+    "visitorId": "0f2e3e5e87697fb6"
+  },
+  {
+    "ts": "2026-10-09T04:31:18.709Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-10mg-tb-10mg-20mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/21-bpc-157-10mg-tb-500-10mg.html",
+    "visitorId": "a14503991f2b1a97"
+  },
+  {
+    "ts": "2026-10-09T04:35:41.796Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.novapeptide.co.uk/product/vial-selank/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide/selank",
+    "visitorId": "1c2333c69d657fc0"
+  },
+  {
+    "ts": "2026-10-09T04:37:27.683Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/sermorelin/",
+    "visitorId": "c4976883ad6e9631"
+  },
+  {
+    "ts": "2026-10-09T04:44:04.824Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide",
+    "visitorId": "2751e418a89acbc1"
   }
 ]
