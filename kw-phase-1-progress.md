@@ -1084,11 +1084,104 @@ keys — 0 broken. All 14 references verified individually via NCBI E-utilities 
 
 ---
 
+## Day 20 — Mon 05 Oct (3 articles) ✅ DONE
+Completed 9 Oct 03:00 by daily blog cron (main branch, direct, commit `112ffd2e`).
+
+- `p21-vs-semax` — **p21** (vs) — section: comparisons, compoundSlug: p21, compoundSlug2: semax.
+  P21 (P021) CNTF-derived neurotrophic peptide vs Semax ACTH(4-10) analogue. Core angle: one
+  compound has 40 years of Russian clinical use, the other ~20 rodent studies from a single lab
+  (CUNY) and a 2024 independent replication (Mottolese) that found NO in vivo benefit.
+- `weight-loss-peptide-suppliers-uk` — **weight loss peptide suppliers UK** (grouped)
+  — section: research-hub, no compoundSlug. 70 WL vendors, 305 listings across 15 compounds;
+  GLP-1 subgroup 64 vendors / 281 listings. Four traps: clinical branding on a research reagent,
+  purity-without-mass, non-standard names (e.g. "GLP-3 (RT)"), clinical-vs-research dose confusion.
+- `cheapest-peptides-uk` — **cheapest peptides UK** (pillar) — section: research-hub, no
+  compoundSlug. 106 vendors, 3,443 listings, 146 priced compounds. Cheapest real peptide GHK-Cu
+  £6.48 (98 vendors); cheapest supply item bacteriostatic water £1.99. Theme: price is a poor
+  quality signal in BOTH directions on short chains.
+
+Cards:
+- `public/images/guides/p21-vs-semax.png` — Pillow dual-vial 50%-height (p21.png + semax-vial.png),
+  badge "Comparison", title "P21 vs Semax", subtitle "Two Cognitive Peptides"
+- `public/images/guides/weight-loss-peptide-suppliers-uk.png` — Pillow dual-vial 50%-height
+  (tirzepatide-vial.png + retatrutide-vial.png), badge "Supplier Guide", title "GLP-1 Peptides UK",
+  subtitle "Suppliers & Price Guide"
+- `public/images/guides/cheapest-peptides-uk.png` — photorealistic base + Pillow chrome (pillar),
+  badge "Price Guide", title "Cheapest Peptides UK", subtitle "What the Price Floor Means"
+
+Card script: `scripts/make_kw_phase1_day20_cards.py` (shared dual-vial Pillow template +
+`compose()` over the recovered photo base via `recover_base()` in compose_kw_day8_photo_card.py).
+
+Vial labels QA'd with the vision tool BEFORE compositing: p21.png ("VIRALPEPS / P21 / 5mg / For
+Research Use Only"), semax-vial.png ("ViralPeps / Semax / 600mcg"), tirzepatide-vial.png
+("Tirzepatide / 10mg"), retatrutide-vial.png ("Retatrutide / 10mg") — all compound identifiers
+correct. All three finished cards vision-checked: correct compound, no clipping.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,788 / 2,147 / 2,085. (Whole-record counts incl. quickInfo/refs — consistent with prior days.)
+
+Build: passed (231/231 pages, up from 228). All 30 internal links verified against
+`compounds.json` slugs, `vendors.json` slugs and live `research.ts`/`research-content.ts` keys
+— 0 broken. **34 PMIDs verified individually via NCBI E-utilities esummary** (title + journal +
+author + volume/pages matched for every one). All 158 guide card `image:` refs cross-checked
+against disk: OK.
+
+Live verified: all three articles 200 with correct `<title>`, card images serving at MATCHING
+byte size (128417 / 124051 / 170946), all three listed on `/research`, all three in `sitemap.xml`,
+and `p21-vs-semax` present in BOTH its compounds' Research Library sections
+(`/compounds/p21`, `/compounds/semax`).
+
+### ⚠️ Lessons from this run
+1. **P21 is an ambiguous label — the honest article had to say so.** The vendor "P21" is the
+   literature compound **P021**: a CNTF-derived peptide mimetic given in Mottolese 2024 as
+   **Ac-DGGLAG-NH2, MW 578.3** (a *tetra*-peptide), whereas vendor pages describe "P21" variously
+   as 11-aa or 21-aa. Separately, the compound-tab blurbs (and many sites) call P21 a "selective
+   CDK5 inhibitor" — that language actually belongs to a DIFFERENT molecule, the Cdk5-derived
+   peptide in Pao et al. *PNAS* 2023 (PMID 37043533). The article states this ambiguity explicitly
+   rather than repeating the CDK5 claim. **When a compound's identity is contested in the
+   literature, say so — do not launder a vendor description into a "mechanism".**
+2. **The research-content.ts seam was the NO-INDENT form this run**:
+   `'],' + NL + '},' + NL + NL + '};' + NL + 'export default content;'` matched exactly 1
+   (the `2s-0` variant also reports 1 as a substring — probe all and prefer the explicit form).
+   Replacement re-emits the seam's own `],\n},` and gives each inserted entry its own trailing
+   comma. Verify with `out.count('},\n,\n') == 0` afterwards.
+3. **The file has MIXED key indentation — match the RECENT convention (column 0).** Older bulk
+   entries use 2-space-indented keys (`  'slug': {`), but every entry from Day 2 onward uses
+   **column-0 keys** (`'slug': {`). My first merge produced 2-space keys; a follow-up de-indent of
+   the byte range between the first new key and the tail restored column-0 form. **Check the last
+   few keys' indentation and match them; do not assume a single convention across the whole file.**
+4. **The `research.ts` guides-array anchor was `"  },\n];\n\nexport const compoundList"` (count 1)
+   and the Day-18/19 brace rule applied** — replacement is `"  },\n" + blocks + "];\n\nexport...
+   compoundList"` (re-emit the consumed `  },`, drop the anchor's own). Verify each new `slug:`
+   position sits before `export const compoundList` (it did: 96453 / 97047 / 97671 < 96191+).
+5. **`write_file` doubled escapes again — 2-backslash runs before `n` only** (38 / 34 / 32 runs).
+   The normaliser (`(\\{2,})[n'"]` -> single backslash) ran on every fragment. The pre-merge
+   wrapper `const x: Record<string, ResearchPageContent> = { <block> };` + project `tsc --noEmit`
+   passed all three on the first attempt. **Count the backslash-run LENGTH, not "doubled bytes".**
+6. **The photo base still needed the Day-8 recovery path** — `image_generate` remains unavailable
+   in cron. `recover_base()` cropped the untouched photo panel out of `uk-peptide-directory.png`
+   (355×241 native, no upscale) and the Day-20 wrapper copied it to its own base path before
+   `compose()`. This is the third run (Days 8, 10, 18, 20) relying on the same recovered base;
+   if a dedicated generation ever becomes possible, regenerate and replace.
+7. **A 404 within the first ~2 minutes of a push is the deploy fallback, not a routing bug.**
+   Confirmed again: the first check ~75s after push returned 404 with the `/research` listing
+   title; a re-check ~3 minutes later returned 200 with correct titles. Do not debug it.
+8. **`git status` is noisy with pre-existing untracked files** from earlier supplier/mailerlite
+   work (`tmp/_*.py`, `*.bak.*`, `MAILERLITE-BLOCKED.md`, etc.). Staged ONLY my 6 files
+   (2 data, 1 card script, 3 PNGs). No sibling job was active on `research-content.ts` this run.
+9. **Existing broken-link debt unchanged and still out of scope:** the four `/research/*`
+   forward-links (`hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+   `p21-research-summary` — planned Day 27, `thymosin-alpha1-research-summary`). None were linked
+   from this run's articles.
+
+---
+
 ## Next up
-*Day 19 complete. Advance to Day 20 (`p21-vs-semax`, `weight-loss-peptide-suppliers-uk`,
-`cheapest-peptides-uk` — 3 articles). **Before writing, grep every slug against `research.ts`
-AND `research-content.ts`** — the plan has drifted repeatedly. Day 20's trio is 3 different
-types (vs + grouped + pillar) on different subjects, so no stacking.*
+*Day 20 complete. Advance to Day 21 (`buy-tirzepatide-uk`, `retatrutide-suppliers-uk` — 2 articles).
+**Before writing, grep every slug against `research.ts` AND `research-content.ts`** — the plan has
+drifted repeatedly. Day 21's pair is 2 different types (buy + suppliers) on the same compound
+family (tirzepatide / retatrutide) — check for keyword stacking concerns; they are different
+article types on different compounds, so accept as planned if neither slug already exists.*
 
 ---
 
