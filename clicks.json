@@ -18293,5 +18293,89 @@
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein",
     "visitorId": "bd294de3b938699e"
+  },
+  {
+    "ts": "2026-10-09T15:37:23.525Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-no-dac-10mg-peptide/",
+    "visitorId": "85ce8c86d2fc43b3"
+  },
+  {
+    "ts": "2026-10-09T15:37:56.511Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg",
+    "visitorId": "00de6ca6f94610bb"
+  },
+  {
+    "ts": "2026-10-09T15:46:04.050Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/retatrutide.html",
+    "visitorId": "d5ded215509868fb"
+  },
+  {
+    "ts": "2026-10-09T15:48:31.490Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://britishpeptidelabs.com/products/ss-31",
+    "visitorId": "c33ccbd82845ff5b"
+  },
+  {
+    "ts": "2026-10-09T15:48:42.378Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://reta-uk.com/products/melanotan-1",
+    "visitorId": "51d5f797cf72842a"
+  },
+  {
+    "ts": "2026-10-09T15:53:48.904Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://ultimatepeptides.co.uk/ghk-cu-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/ultimate-peptides/ghk-cu",
+    "visitorId": "f6cf63f34799c19d"
+  },
+  {
+    "ts": "2026-10-09T15:55:23.254Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britishpeptidelabs.com/products/semaglutide",
+    "visitorId": "40d810f35f71b783"
+  },
+  {
+    "ts": "2026-10-09T16:02:19.144Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidelabuk.co.uk/product/ghk-cu-50mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/ghk-cu",
+    "visitorId": "e58c9e426d167aca"
+  },
+  {
+    "ts": "2026-10-09T16:10:35.798Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-acetic-acid",
+    "destUrl": "https://sterlingpeptides.co.uk/product/acetic-acid-0-6-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-acetic-acid",
+    "visitorId": "eedf62edf249a1ad"
   }
 ]
