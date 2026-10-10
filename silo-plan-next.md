@@ -553,6 +553,101 @@ Sitemap auto-includes via the registry (verified live: all 6 spokes present).
 
 ---
 
+## ✅ DONE — GHK-Cu SILO (commit `0411235f`)
+
+Queue item 8 (highest-source unbuilt compound). Built per the locked SOP.
+Deploy verified live 2026-10-10.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-ghk-cu-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-ghk-cu-uk
+- https://www.viralpeps.co.uk/compound-guides/ghk-cu-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-ghk-cu-online-uk
+- https://www.viralpeps.co.uk/compound-guides/ghk-cu-uk-supplier
+- https://www.viralpeps.co.uk/compound-guides/best-ghk-cu-peptide
+
+**Verified metrics:** rendered words 1,530–2,781 (all ≥1,200) · titles 48–60 chars ·
+descriptions 155–160 chars · focus keyword in H1 + intro[0] · 104 unique live go-links on the
+full comparison spoke (sampled 35 individually, all 302/308, 0 broken) · hub tiles present on
+`/compounds/ghk-cu` (12 compound-guides links) · index lists GHK-Cu · all 6 spokes in sitemap ·
+`npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+**Why GHK-Cu was chosen:** the original 5-item queue (Semaglutide, Semax, Selank, Ipamorelin,
+MOTS-c) was already complete, as was BPC-157. GHK-Cu was the highest-source unbuilt compound in
+`compounds.json` — **139 master sources** (more than Retatrutide's 138) — making it the strongest
+remaining silo candidate (hub `/compounds/ghk-cu` returns 200).
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-10)
+
+⚠️ **Two of the six default modifiers returned ZERO UK results for GHK-Cu** — substituted, as the
+SOP requires. GHK-Cu is not a GLP-1, so the GLP-1 modifier set does not fully transfer (same
+pattern as Semax, Selank, Ipamorelin, MOTS-c).
+
+| Modifier | Result |
+|---|---|
+| `where to buy ghk-cu uk` | **real UK hits** (`where to buy ghk cu uk`, `where to buy ghk cu peptide uk`) — passed |
+| `cheapest ghk-cu uk` | ⚠️ **0 results** → substituted `cheapest ghk cu` (**exact #2**; also `cheapest ghk cu peptide` #1, `best price ghk cu`) |
+| `ghk-cu price comparison uk` | ⚠️ **0 results** → substituted `ghk cu price uk` (**exact #1**; also `ghk cu peptide price uk`) |
+| `buy ghk-cu online uk` | **real UK hit** (`ghk cu buy online uk`) — passed |
+| `ghk-cu uk supplier` | **exact match #1** (`ghk cu uk supplier`; also `ghk cu peptide uk supplier`) — passed |
+| `best ghk-cu peptide` | **exact match #1** (`best ghk cu peptide` / `best ghk-cu peptide`) — passed |
+
+Corroborating hits: `ghk-cu uk peptides`, `ghk cu uk buy`, `ghk cu peptide uk`, `ghk cu for sale uk`,
+`ghk cu price uk`, `ghk cu peptide injection uk price`, `cheapest place to get ghk cu`,
+`best place to buy ghk cu`. Note GHK-Cu autocompletes in BOTH the hyphenated (`ghk-cu`) and spaced
+(`ghk cu`) forms; both were harvested.
+
+### ⚠️ Spoke 5 detail
+`ghk-cu uk supplier` returned an **exact #1 UK hit** (unlike Semax/Selank/Ipamorelin/MOTS-c where
+it was 0) — so spoke 5 is `ghk-cu-uk-supplier`, matching the Tirzepatide/BPC-157 pattern. Only
+`cheapest` and `price comparison` needed substitution.
+
+### Collision check (KW Phase 1)
+`grep -niE "ghk|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`:
+- line 28 `tb-500-vs-ghk-cu` → **distinct (vs intent), KEPT.**
+- line 78 `ghk-cu-suppliers-uk` → **informational intent, KEPT** (not a shopping-intent duplicate).
+- line 148 `ghk-cu-vs-ahk-cu` → **distinct (vs intent), KEPT.**
+- line 175 `buy-ghk-cu-uk` → **DUPLICATE shopping intent of spoke 4** → **REMOVED from plan**
+  (spoke owns it). Plan total adjusted 76 → 75 articles.
+- lines 34/88/122 pillar rows → no clash.
+
+### Data
+- 139 master sources + 13 child variant entries folded in (14 GHK-Cu entries total) → 104 unique
+  live go-links on the full-table spoke.
+- Uses the `vendorSlugFor()` helper (the Semax fix) AND the `goCompoundSlug` row field (the BPC-157
+  fix) — three vendors appear ONLY on child variant entries (`UK-Peptides.com` → `ghk-cu-50mg`,
+  `Research Peptides UK` + `UK Peptide Lab` → `ghk-cu-research-peptides-uk`), so their rows
+  resolve `/go/` at the child slug. **0 broken go-links** (verified).
+- Pack sizes: 50mg and 100mg dominate; one 200mg and one 1000mg outlier; one `1250mcg 60 tablets`
+  oral listing (correctly shows "—" per mg).
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 42797253 — GHK-Cu as a Bioactive Metallopeptide and Drug-Delivery Cargo (Pharmaceutics 2026)
+- 42787770 — A Systematic Review of the Mechanisms and Therapeutic Applications of GHK-Cu (Arch Intern Med Res 2026)
+- 42619529 — The Regenerative Potential of GHK-Cu in Aesthetic Medicine (Aesthet Surg J 2026)
+- 40672369 — Exploring the beneficial effects of GHK-Cu on an experimental model of colitis (Front Pharmacol 2025)
+- 25302294 — GHK and DNA: resetting the human genome to health (Biomed Res Int 2014)
+- 27489425 — Efficacy of an ALA + Glycyl-Histidyl-Lysine complex on hair growth (Ann Dermatol 2016)
+- 39963574 — Topically applied GHK as an anti-wrinkle peptide (Bioimpacts 2025)
+- 37896245 — Liposomes as Carriers of GHK-Cu Tripeptide for Cosmetic Application (Pharmaceutics 2023)
+- 18644225 — The human tri-peptide GHK and tissue remodeling (J Biomater Sci Polym Ed 2008)
+- 38345677 — Effects of Gly-His-Lys-D-Ala Peptide on Skin Wound Regeneration (Bull Exp Biol Med 2024)
+- 23019153 — Stem cell recovering effect of copper-free GHK in skin (J Pept Sci 2012)
+- 31500015 — Electrophoretic deposition of GHK-Cu loaded MSN-chitosan coatings (Mater Sci Eng C 2019)
+
+⚠️ **Caution reconfirmed:** all IDs were harvested via `esearch` then verified with `esummary` —
+never drafted from memory. The hyphens in `GHK-Cu` genuinely match in NCBI term search (unlike
+`MOTS-c`), so topic probes returned clean results.
+
+### Files changed
+`src/data/ghk-cu-silo.ts` (new) · `src/data/ghk-cu-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 9 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block) · `kw-phase-1-list.md` (collision removal).
+Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
