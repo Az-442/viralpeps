@@ -4967,5 +4967,56 @@
       },
       "checkedAt": "2026-10-09T00:46:08.379Z"
     }
+  },
+  {
+    "id": "novavitality",
+    "name": "NovaVitality",
+    "slug": "novavitality",
+    "website": "https://novavitality.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "NovaVitality is a UK research-peptide supplier based in Blyth, Northumberland, supplying research compounds for laboratory and scientific use only. The catalogue covers metabolic, repair, longevity, nootropic and melanocortin research compounds, supplied as lyophilised powder or ready-to-use liquid. Batches are documented, a Certificate of Analysis is published for each batch where held, and randomly selected batches are sent to independent laboratories to check identity and purity. Temperature-sensitive products stay cold-stored until dispatch, and orders placed by 2pm Monday to Friday are dispatched the same day. UK delivery is via Royal Mail Tracked 24. All material is supplied strictly for research use only.",
+    "highlights": [
+      "UK-based supplier in Blyth, Northumberland",
+      "Batch COAs published in an open COA Library where held",
+      "Randomly selected batches sent to independent laboratories",
+      "Cold-stored until dispatch; same-day dispatch on orders by 2pm Mon–Fri",
+      "UK delivery via Royal Mail Tracked 24",
+      "Research-use-only — no guidance on human or animal use given"
+    ],
+    "shipping": [
+      "UK only — Royal Mail Tracked 24",
+      "Tracked 24 is £5, free on orders over £100",
+      "Orders placed by 2pm Mon–Fri are dispatched the same day; later orders next working day",
+      "Blyth (NE24) local delivery available",
+      "Temperature-sensitive products stay cold-stored until dispatch"
+    ],
+    "payment": [
+      "Secure open-banking bank payment via Fena",
+      "Prices in GBP, VAT included where applicable"
+    ],
+    "lastTested": "2026-10-10",
+    "labTested": true,
+    "email": "info@novavitality.co.uk",
+    "delivery": "UK Royal Mail Tracked 24 (£5, free over £100) · same-day dispatch by 2pm Mon–Fri · UK only",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-10T00:41:25.132Z"
+    }
   }
 ]
