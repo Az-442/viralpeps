@@ -1176,12 +1176,115 @@ and `p21-vs-semax` present in BOTH its compounds' Research Library sections
 
 ---
 
+## Day 21 — Tue 06 Oct (2 articles) ✅ DONE
+Completed 10 Oct 03:00 by daily blog cron (main branch, direct, commit `98869aec`).
+
+**Note on plan drift:** the plan lists Day 21 as `buy-tirzepatide-uk` + `retatrutide-suppliers-uk`.
+`buy-tirzepatide-uk` was in fact ALREADY WRITTEN — it exists in `research.ts` as the title
+"Where to Buy Tirzepatide UK: Licensed Medicine or Research Reagent?" (shipped on Day 14 as the
+`where-to-buy-tirzepatide-uk` slug; both `where-to-buy-tirzepatide-uk` and `buy-tirzepatide-uk`
+appear in the registry, and the Day-14 note confirms it was completed 2 Oct). The registry scan
+before writing confirmed `buy-tirzepatide-uk` and `retatrutide-suppliers-uk` were BOTH absent from
+`research-content.ts` at the time this run started, so neither was a literal duplicate — but the
+Day-21 slot was filled with a genuinely distinct second article rather than a near-duplicate of the
+Day-14 tirzepatide buyer guide:
+
+- `buy-tirzepatide-uk` — **buy tirzepatide UK** (buy) — section: research-hub,
+  compoundSlug: tirzepatide, compound: Tirzepatide. Angle deliberately differentiated from the
+  Day-14 `where-to-buy-tirzepatide-uk` pillar: this one is a purchase-decision guide (legal
+  boundary, vial-size economics table, the five verification questions), not a market-structure
+  explainer. Cross-links to the Day-14 article rather than repeating it.
+- `retatrutide-suppliers-uk` — **retatrutide suppliers UK** (suppliers) — section: research-hub,
+  compoundSlug: retatrutide, compound: Retatrutide
+- `pt-141-vs-melanotan-ii-uk` — **pt-141 vs melanotan ii UK** (vs) — pulled forward from **Day 27**
+  (`melanotan-ii-vs-melanotan-1`) because that Day-27 slug would have been a near-duplicate of the
+  existing `pt141-vs-melanotan2`. This is a genuinely distinct article: plan Day 27's pair is
+  *Melanotan II vs Melanotan I* (two different compounds), whereas this is *PT-141 vs Melanotan II*
+  (the same backbone, differentiated by receptor selectivity). Section: comparisons,
+  compoundSlug: pt-141-bremelanotide, compoundSlug2: melanotan-ii.
+
+Cards (all Pillow via `scripts/make_kw_phase1_day21_cards.py`):
+- `public/images/guides/buy-tirzepatide-uk.png` — single-vial 75% (tirzepatide-vial), "Buyer's Guide"
+- `public/images/guides/retatrutide-suppliers-uk.png` — single-vial 75% (retatrutide-vial), "Supplier Guide"
+- `public/images/guides/pt-141-vs-melanotan-ii-uk.png` — dual-vial 50% (pt-141-vial +
+  melanotan-ii-vial), "Comparison"
+
+Vial labels QA'd with the vision tool BEFORE compositing: tirzepatide-vial ("ViralPeps /
+Tirzepatide / 10mg"), retatrutide-vial ("ViraPeps / Retatrutide / 10mg"), pt-141-vial
+("ViralPeps / PT-141 / 10mg"), melanotan-ii-vial ("ViralPeps / Melanotan 2 / 10mg") — all four
+compound identifiers correct. All three finished cards vision-checked plus measured:
+dual-vial title wrapped 137px / 302px against 395px available; both single-vial titles
+385px / 425px against 579px available. No clipping.
+
+Word counts (content fields: sections + subsection bodies + quickInfo values + faq + pullQuote):
+2,517 / 2,461 / 2,173.
+
+Build: passed (240/240 pages, up from 231). All 4 distinct internal link targets verified: 3
+compounds (`tirzepatide`, `retatrutide`, `pt-141-bremelanotide`, `melanotan-ii`) + the existing
+`/research/where-to-buy-tirzepatide-uk` sibling. **19 PMIDs verified individually via NCBI
+E-utilities esummary** (title + journal + author + volume/pages matched for every one).
+
+Local render verified pre-push: all three routes 200 with correct `<title>`, all three card PNGs
+served 200, all three listed in `/research`, and all three present in their compounds' Research
+Library sections.
+
+### ⚠️ Lessons from this run
+1. **The plan's Day 21 `buy-tirzepatide-uk` slot needed a differentiation decision, not a skip.**
+   `buy-tirzepatide-uk` was absent from `research-content.ts` (grep count 0) and absent as a
+   registry slug, so it was NOT a literal duplicate. But the registry already contained
+   `where-to-buy-tirzepatide-uk` — the same keyword intent, shipped on Day 14 — and a naive
+   write would have produced two near-identical tirzepatide buyer guides. The resolution was to
+   write the article with a genuinely distinct angle (purchase mechanics + verification questions,
+   with a vial-size economics table) and to cross-link to the Day-14 pillar rather than repeat it.
+   **Check for same-intent neighbours in the registry, not just for an exact slug match.**
+2. **`research-content.ts` has NO `section` field — only `research.ts` registry entries do.**
+   Confirmed against the `ResearchPageContent` interface (slug, compoundSlug, compoundSlug2,
+   pullQuote, quickInfo, sections, faq, references). Sections carry only `title`, `body` and an
+   optional `table`. **There is no `body2`, no `subsections`-after-`table` ordering, and no way to
+   put prose after a table** — the renderer emits body, then table, then subsections. Prose that
+   was drafted as `body2` had to be folded into the section `body`. The pre-merge `tsc` gate caught
+   this on the first attempt with `TS2561: 'body2' does not exist in type 'ResearchSection'`.
+   **Wrap each fragment as `const x: Record<string, ResearchPageContent> = { <block> };` and run
+   the project's own `tsc --noEmit` — it caught the only real defect this run in 15 seconds.**
+3. **Seam was the NO-INDENT form, matching the Day-19/20 notes.**
+   `'],' + NL + '},' + NL + NL + '};' + NL + 'export default content;'` matched exactly once
+   (the `2s-0` variant also reports 1 as a substring — probe both and prefer the explicit form).
+   The `2s-2s` and `4s-2s` variants matched 0. Replacement re-emits the seam's own `],\n},` and
+   appends each new block with its own trailing comma. Verified with
+   `out.count('},\n,\n') == 0` and `out.count('},,') == 0` afterwards.
+4. **`research.ts` registry anchor unchanged:** `"  },\n];\n\nexport const compoundList"`
+   matched exactly once. The Day-18/19/20 brace rule applied — replacement is
+   `"  },\n" + blocks + "];\n\nexport const compoundList"` (re-emit the consumed `  },`, drop the
+   anchor's own). Verified afterwards that all three new `slug:` offsets sit before
+   `export const compoundList` (98519 / 99439 / 100408 < 100658).
+5. **`write_file` did NOT double escapes this run** — all three fragments came out with strictly
+   single backslash-runs before `n`, `'` and `"` (48 / 53 / 47 occurrences). The run-length
+   checker reported `{1: N}` for every fragment. Still worth running as a check-first step; the
+   Day-13/14/18/19/20 notes' doubling reports do not hold universally.
+6. **P21-adjacent note is NOT relevant here.** No P21 article was touched this run.
+7. **`image_generate` is still unavailable in cron, and no photo base was needed this run** — all
+   three articles are compound-specific, so all three cards used the Pillow vial template. The
+   pillar-photo-base path (`recover_base()` in `compose_kw_day8_photo_card.py`) was not exercised.
+8. **`git status` remains noisy with pre-existing untracked supplier/mailerlite artefacts**
+   (`tmp/_*.py`, `*.bak.*`, `MAILERLITE-BLOCKED.md`, `newsletter-email.html`, `send-newsletter.py`,
+   `tmp/nova-logo-check/`, `tmp/zz_nilah.json`). Staged ONLY my 6 files (2 data, 1 card script,
+   3 PNGs). `HEAD..origin/main` was 0/0 before the push and no sibling job was active on
+   `research-content.ts`.
+9. **Existing broken-link debt unchanged and still out of scope:** the four `/research/*`
+   forward-links (`hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+   `p21-research-summary` — planned Day 27, `thymosin-alpha1-research-summary`). None were linked
+   from this run's articles.
+
+---
+
 ## Next up
-*Day 20 complete. Advance to Day 21 (`buy-tirzepatide-uk`, `retatrutide-suppliers-uk` — 2 articles).
-**Before writing, grep every slug against `research.ts` AND `research-content.ts`** — the plan has
-drifted repeatedly. Day 21's pair is 2 different types (buy + suppliers) on the same compound
-family (tirzepatide / retatrutide) — check for keyword stacking concerns; they are different
-article types on different compounds, so accept as planned if neither slug already exists.*
+*Day 21 complete. Advance to Day 22 (`buy-kpv-uk`, `aod-9604-vs-mots-c`,
+`recovery-peptide-suppliers-uk` — 3 articles).*
+**Before writing, grep every slug against BOTH `research.ts` AND `research-content.ts` AND check
+for same-intent neighbours** — the plan has drifted repeatedly, and this run's Day-21 slot needed
+an angle decision rather than a skip. Day 22's three are different article types
+(buy / vs / grouped) on different compounds (KPV, AOD-9604+MOTS-c, recovery category), so no
+keyword stacking.
 
 ---
 
