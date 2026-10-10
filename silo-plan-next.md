@@ -764,10 +764,11 @@ Rule: **fold, don't canonicalise.** Canonicals are only for true duplicates.
 
 **🎉 SILO QUEUE COMPLETE** — all originally-queued compounds built and live (Retatrutide,
 Tirzepatide, Semaglutide, Semax, Selank, Ipamorelin, MOTS-c = 7 silos, 42 spokes). BPC-157
-added beyond the queue as the highest-source unbuilt compound (8 silos, 48 spokes total).
+added beyond the queue as the highest-source unbuilt compound (8 silos, 48 spokes total),
+then GHK-Cu (9 silos, 54 spokes total).
 
-**Next silo candidates (by source count, hub 200, not yet built):** GHK-Cu (138), TB-500 (113),
-Tesamorelin (112), NAD+ (93), Bacteriostatic Water (77), SS-31 (74), DSIP (70).
+**Next silo candidates (by source count, hub 200, not yet built):** TB-500 (114),
+Tesamorelin (113), NAD+ (94), Bacteriostatic Water (77), SS-31 (75), DSIP (71), KPV (69).
 
 **Rule: only pick a compound whose spokes ALL appear in autocomplete.** Re-run the harvest
 script per compound; some modifiers (e.g. `for sale`) fail for non-GLP-1 compounds.
