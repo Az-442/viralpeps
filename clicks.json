@@ -22138,5 +22138,15 @@
     "vendorName": "SPX Labs",
     "destUrl": "https://spxlabs.co.uk",
     "visitorId": "693a55bc1c57f119"
+  },
+  {
+    "ts": "2026-10-10T04:08:19.082Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mgf-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mgf/pen",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides/mgf-pen-express",
+    "visitorId": "1a2e61feeb72b6dd"
   }
 ]
