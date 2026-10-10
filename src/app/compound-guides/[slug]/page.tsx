@@ -77,10 +77,19 @@ import {
   sortByTrust as bpcSortByTrust,
   BPC_157_SPOKES,
 } from "@/data/bpc-157-silo";
+import { spokes as ghkSpokes, getSpoke as getGhkSpoke } from "@/data/ghk-cu-spokes";
+import {
+  getGhkRows,
+  getGhkStats,
+  sortByPrice as ghkSortByPrice,
+  sortByPricePerMg as ghkSortByPricePerMg,
+  sortByTrust as ghkSortByTrust,
+  GHK_CU_SPOKES,
+} from "@/data/ghk-cu-silo";
 
 export const dynamic = "force-dynamic";
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -91,6 +100,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   ipamorelin: "Ipamorelin",
   "mots-c": "MOTS-c",
   "bpc-157": "BPC-157",
+  "ghk-cu": "GHK-Cu",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -111,6 +121,8 @@ function resolveSpoke(slug: string) {
   if (motsC) return { spoke: motsC, compound: "mots-c" as const };
   const bpc = getBpcSpoke(slug);
   if (bpc) return { spoke: bpc, compound: "bpc-157" as const };
+  const ghk = getGhkSpoke(slug);
+  if (ghk) return { spoke: ghk, compound: "ghk-cu" as const };
   return null;
 }
 
@@ -124,6 +136,7 @@ export async function generateStaticParams() {
     ...ipamorelinSpokes.map((s) => ({ slug: s.slug })),
     ...motsCSpokes.map((s) => ({ slug: s.slug })),
     ...bpcSpokes.map((s) => ({ slug: s.slug })),
+    ...ghkSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -282,6 +295,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "ghk-cu") {
+    const all = getGhkRows();
+    let sorted = ghkSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = ghkSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = ghkSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -318,7 +345,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                 ? getMotsCStats()
                 : compound === "bpc-157"
                   ? getBpcStats()
-                  : getTrizStats();
+                  : compound === "ghk-cu"
+                    ? getGhkStats()
+                    : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
   const compoundName = COMPOUND_NAMES[compound];
@@ -337,7 +366,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                 ? MOTS_C_SPOKES
                 : compound === "bpc-157"
                   ? BPC_157_SPOKES
-                  : TIRZ_SPOKES;
+                  : compound === "ghk-cu"
+                    ? GHK_CU_SPOKES
+                    : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema

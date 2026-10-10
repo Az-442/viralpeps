@@ -172,9 +172,8 @@
 
 ## Day 30 — Thu 15 Oct (3 articles)
 - `mots-c-suppliers-uk` — **mots-c suppliers UK** (suppliers)
-- `buy-ghk-cu-uk` — **buy ghk-cu UK** (buy)
 - `buy-research-peptides-uk` — **buy research peptides UK** (pillar)
 
 ---
 
-**Total: 76 articles over 30 days**
+**Total: 75 articles over 30 days**
