@@ -24791,5 +24791,175 @@
     "vendorName": "Precision Peptides",
     "destUrl": "https://precision-peptides.shop",
     "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-10-10T14:40:54.619Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-10-10T14:46:28.412Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pyroxlabs.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "b7b771274769b6d9"
+  },
+  {
+    "ts": "2026-10-10T14:46:41.022Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pyroxlabs.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "bc789e660fff2be8"
+  },
+  {
+    "ts": "2026-10-10T14:46:55.428Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pyroxlabs.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "16157526db7f8978"
+  },
+  {
+    "ts": "2026-10-10T14:48:07.843Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-hexarelin-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-10-10T14:48:09.651Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-hexarelin-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-10T14:48:14.099Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-hexarelin-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-10-10T14:50:23.582Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/prem-mots-c-10mg/",
+    "visitorId": "439189be54dcd849"
+  },
+  {
+    "ts": "2026-10-10T14:54:50.850Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://ukpeptides.org/buy/nad-500mg",
+    "visitorId": "45dd3c0184aa4ec2"
+  },
+  {
+    "ts": "2026-10-10T14:55:19.317Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://ukpeptides.org/buy/nad-500mg",
+    "visitorId": "91dbf170a6acf61f"
+  },
+  {
+    "ts": "2026-10-10T14:55:24.428Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-10T14:55:25.908Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-10-10T14:55:28.279Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "1eb3230d1df9a94f"
+  },
+  {
+    "ts": "2026-10-10T15:02:44.225Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-10-10T15:03:48.511Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-10-10T15:03:52.305Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymalin-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/thymalin-10mg/",
+    "visitorId": "7ec552676e1d3ff1"
+  },
+  {
+    "ts": "2026-10-10T15:04:18.224Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://apexpure.co.uk/product/tb-500-uk/",
+    "refPage": "https://www.viralpeps.co.uk/go/apexpure/tb-500",
+    "visitorId": "8f229fc0bc730555"
+  },
+  {
+    "ts": "2026-10-10T15:07:18.254Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://ukpeptides.org/buy/bacteriostatic-water-3ml",
+    "visitorId": "75480621052835f5"
+  },
+  {
+    "ts": "2026-10-10T15:11:27.214Z",
+    "type": "vendor-site",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "destUrl": "https://ukpeptides.org",
+    "visitorId": "f5bb98daba76070d"
   }
 ]
