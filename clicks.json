@@ -24626,5 +24626,162 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://bebetterpeptides.com/products/aod-9604-5mg",
     "visitorId": "5e06dce26a55f929"
+  },
+  {
+    "ts": "2026-10-10T13:41:34.981Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/",
+    "visitorId": "fa688f33743b10e6"
+  },
+  {
+    "ts": "2026-10-10T13:41:55.335Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tirzepatide/",
+    "visitorId": "0ed78343e8f6cc5a"
+  },
+  {
+    "ts": "2026-10-10T13:42:04.055Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackerxlab.com/product/ghk-cu/",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-10-10T13:48:23.655Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/sm1-20mg/",
+    "visitorId": "59d2418607f1aa8e"
+  },
+  {
+    "ts": "2026-10-10T13:48:34.519Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/sm1-20mg/",
+    "visitorId": "8a52088adf0da5c8"
+  },
+  {
+    "ts": "2026-10-10T13:48:56.263Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/sm1-20mg/",
+    "visitorId": "116a96b888f8511a"
+  },
+  {
+    "ts": "2026-10-10T13:49:22.463Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-10-10T13:54:38.723Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pioneerpeptides.co.uk/products/bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/go/pioneer-peptides/bacteriostatic-water",
+    "visitorId": "71e76f59b42d554c"
+  },
+  {
+    "ts": "2026-10-10T13:54:48.083Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://pgnalabs.co.uk/product/nad",
+    "refPage": "https://www.viralpeps.co.uk/go/pgna-labs/nad-plus",
+    "visitorId": "e5977486483fbd22"
+  },
+  {
+    "ts": "2026-10-10T13:58:40.541Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-10-10T14:04:05.133Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://ukpeptides.org/buy/nad-500mg",
+    "visitorId": "eae60ba300ea37af"
+  },
+  {
+    "ts": "2026-10-10T14:06:04.741Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biohackerxlab.com/product/tb-500/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-10T14:06:45.073Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "cjc-1295-ipamorelin",
+    "destUrl": "https://ukpeptides.org/buy/cjc-1295-ipamorelin",
+    "visitorId": "f9bb9876e5b6b600"
+  },
+  {
+    "ts": "2026-10-10T14:08:37.203Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8e7cc5e6b94c883b"
+  },
+  {
+    "ts": "2026-10-10T14:08:41.198Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "06dceb2b601b7683"
+  },
+  {
+    "ts": "2026-10-10T14:09:00.451Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pt-141-bremelanotide-10mg",
+    "destUrl": "https://tidelabs.co.uk/products/pt-141-bremelanotide-10mg",
+    "visitorId": "ecac6407b0634977"
+  },
+  {
+    "ts": "2026-10-10T14:19:27.617Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://leolab.co.uk/peptides/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "dfb7d897f0a68b05"
   }
 ]
