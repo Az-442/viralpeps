@@ -28204,5 +28204,441 @@
     "compoundSlug": "semaglutide",
     "destUrl": "https://astralabs.co.uk/product/semaglutide-10mg-uk/",
     "visitorId": "afd47874d2d84fdd"
+  },
+  {
+    "ts": "2026-10-10T18:43:09.681Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-10T18:43:11.172Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-10T18:43:13.520Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/pt-141-10mg-bremelanotide",
+    "visitorId": "96d906d6034ddc14"
+  },
+  {
+    "ts": "2026-10-10T18:46:42.905Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides",
+    "visitorId": "395023256fd26104"
+  },
+  {
+    "ts": "2026-10-10T18:56:38.218Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://britishpeptidelabs.com/products/semax",
+    "visitorId": "fbeca1b3af599827"
+  },
+  {
+    "ts": "2026-10-10T18:56:58.019Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://britishpeptidelabs.com/products/semax",
+    "visitorId": "37df52e02ec4f6d5"
+  },
+  {
+    "ts": "2026-10-10T18:57:23.383Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pyroxlabs.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "8561b7b2d6f0224e"
+  },
+  {
+    "ts": "2026-10-10T18:57:33.822Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pyroxlabs.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "b891084f161aee20"
+  },
+  {
+    "ts": "2026-10-10T18:57:54.847Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pyroxlabs.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "5049750b89b55ac2"
+  },
+  {
+    "ts": "2026-10-10T19:00:07.259Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0b1d103a21c02b44"
+  },
+  {
+    "ts": "2026-10-10T19:00:41.849Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://www.buyreta.co.uk/product/ovagen-uk",
+    "visitorId": "b05fa158665066c6"
+  },
+  {
+    "ts": "2026-10-10T19:01:34.346Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0fb462a6f4c8b578"
+  },
+  {
+    "ts": "2026-10-10T19:01:48.076Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.prime-peptides.co.uk/product/ipamorelin-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b91b8775b4ca27dd"
+  },
+  {
+    "ts": "2026-10-10T19:01:53.662Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cb291f972e3a3ff2"
+  },
+  {
+    "ts": "2026-10-10T19:01:55.305Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d30f10f87cd6496c"
+  },
+  {
+    "ts": "2026-10-10T19:02:47.329Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://jgpeptidesplus.com/product/mots-c-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "2a30be135e19e917"
+  },
+  {
+    "ts": "2026-10-10T19:02:52.865Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://britpeptides.co.uk/product/cjc-1295-without-dac/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f7041c61bab811be"
+  },
+  {
+    "ts": "2026-10-10T19:03:07.596Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://momentumpeptides.com/product/ghk-cu/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b2cd4d5e1f07a5f7"
+  },
+  {
+    "ts": "2026-10-10T19:03:09.568Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.peptidesx.uk/product/igf-1-lr3/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "567a95c95c2fcfc6"
+  },
+  {
+    "ts": "2026-10-10T19:03:31.591Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://purepeptidesuk.com/product/glutathione-1500mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "817d4dacef03a488"
+  },
+  {
+    "ts": "2026-10-10T19:03:44.534Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pslabs.uk/products/rt-glp3",
+    "visitorId": "5e6b6de74a5bafd3"
+  },
+  {
+    "ts": "2026-10-10T19:04:23.888Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://pgnalabs.co.uk/product/glow",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d713c6df58ad3254"
+  },
+  {
+    "ts": "2026-10-10T19:04:28.517Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.flexpeptides.co.uk/products/bpc-157-5mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b127b341f43a6c71"
+  },
+  {
+    "ts": "2026-10-10T19:05:13.953Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-tesamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-10T19:05:15.845Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-tesamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-10T19:05:16.960Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://pioneerpeptides.co.uk/products/slu-pp-332/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "69a3fca6a7a6f602"
+  },
+  {
+    "ts": "2026-10-10T19:05:17.327Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-tesamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-10T19:05:47.665Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.buyreta.co.uk/product/ipamorelin-10mg-uk",
+    "refPage": "https://www.google.com/",
+    "visitorId": "18f7a3b6842ccaef"
+  },
+  {
+    "ts": "2026-10-10T19:06:59.939Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://sterlingpeptides.co.uk/product/selank/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cb85011236bb6f2c"
+  },
+  {
+    "ts": "2026-10-10T19:07:10.009Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://ascendpeptidesuk.com/products/igf-1-lr3/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d6513f70c609b275"
+  },
+  {
+    "ts": "2026-10-10T19:07:17.842Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://allmypeptides.com/product/thymosin-alpha-1/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d713c6df58ad3254"
+  },
+  {
+    "ts": "2026-10-10T19:08:20.130Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "dc5fe25f3b00ccd2"
+  },
+  {
+    "ts": "2026-10-10T19:08:24.517Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://supplypeptides.co.uk/products/cjc-1295-no-dac",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d0784357e7f2d30a"
+  },
+  {
+    "ts": "2026-10-10T19:08:26.041Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/cjc-1295-ipamorelin-blend-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3508327204bc389d"
+  },
+  {
+    "ts": "2026-10-10T19:08:56.533Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://sterlingpeptides.co.uk/product/selank/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "c011dae71a6315f0"
+  },
+  {
+    "ts": "2026-10-10T19:09:29.325Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://allmypeptides.com/product/thymosin-alpha-1/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cb85011236bb6f2c"
+  },
+  {
+    "ts": "2026-10-10T19:09:32.455Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://supplypeptides.co.uk/products/mots-c",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7d6f5d2baabfea26"
+  },
+  {
+    "ts": "2026-10-10T19:09:35.681Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "selank",
+    "destUrl": "https://mypepbiotech.co.uk/product/selank/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "92066da090939ad2"
+  },
+  {
+    "ts": "2026-10-10T19:10:17.485Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b8b607268bcbb3d2"
+  },
+  {
+    "ts": "2026-10-10T19:10:36.114Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3206bb0b72617c16"
+  },
+  {
+    "ts": "2026-10-10T19:10:52.186Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://my-peptides.co.uk/products/tb-500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "8f441f277161802b"
+  },
+  {
+    "ts": "2026-10-10T19:11:15.665Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f4e61f38e30ae0fb"
+  },
+  {
+    "ts": "2026-10-10T19:11:18.698Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://supplypeptides.co.uk/products/ghk-cu",
+    "refPage": "https://www.google.com/",
+    "visitorId": "81f074cdd23525a5"
+  },
+  {
+    "ts": "2026-10-10T19:11:23.797Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "selank",
+    "destUrl": "https://mypepbiotech.co.uk/product/selank/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "817d4dacef03a488"
+  },
+  {
+    "ts": "2026-10-10T19:11:58.988Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pslabs.uk/products/rt-glp3",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d62cca38ff95feb7"
   }
 ]
