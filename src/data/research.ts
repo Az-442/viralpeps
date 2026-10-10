@@ -1725,6 +1725,40 @@ export const guides: ResearchArticle[] = [
     image: "cheapest-peptides-uk",
     tags: ["cheapest", "price", "value", "uk", "directory", "ghk-cu", "pillar"],
   },
+{
+    title: 'Buy Tirzepatide UK: The Two Markets, the Legal Line and What You Are Actually Paying For',
+    desc: 'A buyer\\u2019s guide to tirzepatide in the UK, where the same name covers a licensed prescription medicine and a research-grade laboratory reagent. Covers the MHRA position on Mounjaro, the Human Medicines Regulations 2012 boundary that makes research-use-only labelling load-bearing, why the research market runs from GBP 14.75 to GBP 345.00 across 90 listings and 36 vendors, vial-size economics, and the five verification questions that separate a documented reagent from an anonymous PDF.',
+    category: 'Guide',
+    section: 'research-hub',
+    compound: 'Tirzepatide',
+    slug: 'buy-tirzepatide-uk',
+    image: 'buy-tirzepatide-uk',
+    minutes: 12,
+    tags: ['tirzepatide', 'buy', 'uk', 'mounjaro', 'prescription', 'research-use-only', 'legal', 'mhra', 'glp-1', 'gip', 'price-comparison', 'coa'],
+  },
+  {
+    title: 'Retatrutide Suppliers UK: 55 Vendors, 138 Listings and a 27x Price Range',
+    desc: 'A supplier guide to the largest unlicensed GLP-1 market in the UK. Retatrutide has no marketing authorisation anywhere, no reference price and no regulatory floor, which is why 138 listings across 55 vendors span GBP 18.45 to GBP 489.00 without any product-level explanation. Covers why supply ran ahead of the evidence, the bimodal price distribution, identity-versus-purity testing, why pen presentations signal a vendor outside the reagent lane, and how the vendor count compares to tirzepatide.',
+    category: 'Guide',
+    section: 'research-hub',
+    compound: 'Retatrutide',
+    slug: 'retatrutide-suppliers-uk',
+    image: 'retatrutide-suppliers-uk',
+    minutes: 12,
+    tags: ['retatrutide', 'suppliers', 'uk', 'glp-1', 'triple-agonist', 'unlicensed', 'mhra', 'price-comparison', 'verification', 'coa', 'research-use-only'],
+  },
+  {
+    title: 'PT-141 vs Melanotan II: One Backbone, Two Receptor Profiles',
+    desc: 'A head-to-head on two compounds that share the identical cyclic heptapeptide backbone at 1,024.2 g/mol and are separated almost entirely by melanocortin receptor selectivity. Melanotan II is non-selective across MC1R to MC5R, which is why it tans. PT-141 was developed to favour MC3R and MC4R over MC1R, which is why it does not. Covers the RECONNECT phase 3 trials and the FDA approval of bremelanotide as Vyleesi, Melanotan II\\u2019s unapproved status and documented label-mismatch problem, and the two UK supply pictures.',
+    category: 'Articles',
+    section: 'comparisons',
+    compound: 'PT-141 (Bremelanotide)',
+    slug: 'pt-141-vs-melanotan-ii-uk',
+    image: 'pt-141-vs-melanotan-ii-uk',
+    minutes: 12,
+    tags: ['pt-141', 'bremelanotide', 'melanotan-ii', 'mt-2', 'comparison', 'melanocortin', 'mc1r', 'mc4r', 'sexual-health', 'tanning', 'vyleesi'],
+  },
+
 ];
 
 export const compoundList: string[] = [
