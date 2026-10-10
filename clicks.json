@@ -25923,5 +25923,1034 @@
     "compoundSlug": "semax",
     "destUrl": "https://jgpeptidesplus.com/product/semax-10mg",
     "visitorId": "b891084f161aee20"
+  },
+  {
+    "ts": "2026-10-10T16:49:17.700Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://jgpeptidesplus.com/product/tirz-40mg/",
+    "visitorId": "67fb2ee73b055850"
+  },
+  {
+    "ts": "2026-10-10T16:53:26.135Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "a7a5995c15f16cb1"
+  },
+  {
+    "ts": "2026-10-10T16:53:49.706Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "fdb6b6f39eab3114"
+  },
+  {
+    "ts": "2026-10-10T16:55:30.208Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/aod-9604-5mg",
+    "refPage": "https://www.viralpeps.co.uk/go/form-peptides/aod-9604",
+    "visitorId": "da4764f814ad0e28"
+  },
+  {
+    "ts": "2026-10-10T17:00:11.432Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://everythingpeptides.co.uk/products/glutathione",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f0aaf5626514ee5c"
+  },
+  {
+    "ts": "2026-10-10T17:00:22.105Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://apexpure.co.uk/product/sermorelin-peptide-5mg/",
+    "visitorId": "12f6b799744930da"
+  },
+  {
+    "ts": "2026-10-10T17:00:22.978Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://leolab.co.uk/peptides/dsip/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bc4783b67eb86f40"
+  },
+  {
+    "ts": "2026-10-10T17:00:26.091Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://apexpure.co.uk/product/sermorelin-peptide-5mg/",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-10T17:00:26.240Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://leolab.co.uk/peptides/dsip/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e31bef1245abfe8f"
+  },
+  {
+    "ts": "2026-10-10T17:00:28.109Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cbab1a20607211c9"
+  },
+  {
+    "ts": "2026-10-10T17:00:31.175Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://apexpure.co.uk/product/sermorelin-peptide-5mg/",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-10-10T17:00:33.567Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.na-peptides.co.uk/product/ghk-cu-100mg-vial/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cbe9ef03ac96b167"
+  },
+  {
+    "ts": "2026-10-10T17:00:35.979Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "817d4dacef03a488"
+  },
+  {
+    "ts": "2026-10-10T17:00:37.347Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://britishpeptidelabs.com/products/cagrilintide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "229af6c27c6353b0"
+  },
+  {
+    "ts": "2026-10-10T17:00:38.524Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidesuk.com/ipamorelin-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "adeee923ea6de631"
+  },
+  {
+    "ts": "2026-10-10T17:00:42.886Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e1adf2bfb6a620b0"
+  },
+  {
+    "ts": "2026-10-10T17:01:20.410Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "96d043fd93542c9c"
+  },
+  {
+    "ts": "2026-10-10T17:01:28.780Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://jgpeptidesplus.com/product/mots-c-10mg",
+    "visitorId": "0d2fa40d4e628a67"
+  },
+  {
+    "ts": "2026-10-10T17:01:36.172Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "adamax",
+    "destUrl": "https://purepeptidesuk.com/product/adamax-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "40398a6dce30dfe9"
+  },
+  {
+    "ts": "2026-10-10T17:01:41.149Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://jgpeptidesplus.com/product/mots-c-10mg",
+    "visitorId": "7e2f38c8ac56820f"
+  },
+  {
+    "ts": "2026-10-10T17:01:44.939Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa",
+    "refPage": "https://www.google.com/",
+    "visitorId": "2156d58e35d52936"
+  },
+  {
+    "ts": "2026-10-10T17:01:47.237Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://britpeptides.co.uk/product/aod-9604-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "395f999106e0200d"
+  },
+  {
+    "ts": "2026-10-10T17:01:56.243Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.google.com/",
+    "visitorId": "23368e7c637582f9"
+  },
+  {
+    "ts": "2026-10-10T17:02:36.834Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biotideuk.com/products/tesa",
+    "refPage": "https://www.google.com/",
+    "visitorId": "40398a6dce30dfe9"
+  },
+  {
+    "ts": "2026-10-10T17:02:58.245Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "00c993acee37cb9d"
+  },
+  {
+    "ts": "2026-10-10T17:03:25.864Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.proformapeptides.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "dfcd0966175c9b21"
+  },
+  {
+    "ts": "2026-10-10T17:03:29.156Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://britpeptides.co.uk/product/aod-9604-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5d4e3ded512f895f"
+  },
+  {
+    "ts": "2026-10-10T17:03:31.503Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://premiopeptides.co.uk/compounds/kpv",
+    "refPage": "https://www.google.com/",
+    "visitorId": "9acd54bddd9a6d8c"
+  },
+  {
+    "ts": "2026-10-10T17:03:55.993Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://everythingpeptides.co.uk/products/ara-290-x-10-vials",
+    "refPage": "https://www.google.com/",
+    "visitorId": "29a83f4bca701507"
+  },
+  {
+    "ts": "2026-10-10T17:04:01.213Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptidesuk.com/igf-1-lr3/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ce0f01d7563fc177"
+  },
+  {
+    "ts": "2026-10-10T17:04:02.062Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britishpeptidelabs.com/products/semaglutide",
+    "visitorId": "8a2f968b47cd0340"
+  },
+  {
+    "ts": "2026-10-10T17:04:08.673Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bionikpeptides.com/products/bpc-157",
+    "refPage": "https://www.google.com/",
+    "visitorId": "2cc313e32150145a"
+  },
+  {
+    "ts": "2026-10-10T17:04:18.729Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britishpeptidelabs.com/products/semaglutide",
+    "visitorId": "793301c519e77c9b"
+  },
+  {
+    "ts": "2026-10-10T17:04:27.621Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "817d4dacef03a488"
+  },
+  {
+    "ts": "2026-10-10T17:04:35.482Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britishpeptidelabs.com/products/ghk-cu",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d9c3ce2fc8eda6b1"
+  },
+  {
+    "ts": "2026-10-10T17:04:43.016Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/rt3-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "372da73197d7f327"
+  },
+  {
+    "ts": "2026-10-10T17:05:12.434Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.proformapeptides.co.uk/product/mots-10/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "759836ef6d255721"
+  },
+  {
+    "ts": "2026-10-10T17:05:39.340Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://everythingpeptides.co.uk/products/ara-290-x-10-vials",
+    "refPage": "https://www.google.com/",
+    "visitorId": "dffbe5d5805534a4"
+  },
+  {
+    "ts": "2026-10-10T17:05:46.925Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bionikpeptides.com/products/bpc-157",
+    "refPage": "https://www.google.com/",
+    "visitorId": "a19784f955e6dd7d"
+  },
+  {
+    "ts": "2026-10-10T17:06:54.922Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pyroxlabs.co.uk/product/mots-c-40mg/",
+    "visitorId": "7175b559e6d48727"
+  },
+  {
+    "ts": "2026-10-10T17:06:58.078Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://reta-uk.com/products/ipamorelin",
+    "refPage": "https://www.google.com/",
+    "visitorId": "10b6386d6a54e2e2"
+  },
+  {
+    "ts": "2026-10-10T17:06:58.758Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.na-peptides.co.uk/product/tesamorelin-10mg-vial/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3659f3a1997f8a6b"
+  },
+  {
+    "ts": "2026-10-10T17:07:10.596Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-inducing-peptide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5085ed0e6fb43a95"
+  },
+  {
+    "ts": "2026-10-10T17:07:23.680Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pyroxlabs.co.uk/product/mots-c-40mg/",
+    "visitorId": "c8f9f48029942095"
+  },
+  {
+    "ts": "2026-10-10T17:07:39.948Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-2",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-10-10T17:07:45.605Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-2",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-10-10T17:07:52.253Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-2",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-10T17:07:58.391Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ll-37-research-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bbd886b90f715015"
+  },
+  {
+    "ts": "2026-10-10T17:08:25.820Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptideslabuk.com/product/semax/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "168d693bad7f24f2"
+  },
+  {
+    "ts": "2026-10-10T17:08:27.451Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://ukpeptidelab.co.uk/product/bpc-157-tb-500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "9729845f83edf198"
+  },
+  {
+    "ts": "2026-10-10T17:08:32.552Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://peptx.co.uk/single-vials/pt-141",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e633a3fcbb8e36d0"
+  },
+  {
+    "ts": "2026-10-10T17:08:37.855Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1ae7189fdd9629c5"
+  },
+  {
+    "ts": "2026-10-10T17:08:43.490Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://ukpeptides.com/catalog/igf-1-lr3",
+    "refPage": "https://www.google.com/",
+    "visitorId": "817d4dacef03a488"
+  },
+  {
+    "ts": "2026-10-10T17:09:28.596Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://bluewellpeptides.com/product/kisspeptin-10-10mg-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "70a4e25969688ee3"
+  },
+  {
+    "ts": "2026-10-10T17:09:38.570Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d7e9dfaa84377c68"
+  },
+  {
+    "ts": "2026-10-10T17:09:42.632Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1a2da4235c97abaa"
+  },
+  {
+    "ts": "2026-10-10T17:09:44.418Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://olresearch.co.uk/product/cjc-1295-dac-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "af0caa294a1d5031"
+  },
+  {
+    "ts": "2026-10-10T17:10:17.947Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "9358d440c9bdaca4"
+  },
+  {
+    "ts": "2026-10-10T17:10:18.535Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d0f00a35cbdd3ae1"
+  },
+  {
+    "ts": "2026-10-10T17:10:24.607Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://britpeptides.co.uk/product/retatrutide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "12f57a28078ce63f"
+  },
+  {
+    "ts": "2026-10-10T17:10:27.385Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://peptideslabuk.com/product/ara-290/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d713c6df58ad3254"
+  },
+  {
+    "ts": "2026-10-10T17:10:37.464Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "selank",
+    "destUrl": "https://helixcore.co.uk/products/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d6a6a5d568a40262"
+  },
+  {
+    "ts": "2026-10-10T17:10:37.828Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://astralabs.co.uk/product/nad-500mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "70a4e25969688ee3"
+  },
+  {
+    "ts": "2026-10-10T17:10:57.992Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/ipamorelin/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d30f10f87cd6496c"
+  },
+  {
+    "ts": "2026-10-10T17:11:11.706Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b0981bdd03a5d1b8"
+  },
+  {
+    "ts": "2026-10-10T17:11:15.608Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "10b6386d6a54e2e2"
+  },
+  {
+    "ts": "2026-10-10T17:11:17.093Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://olresearch.co.uk/product/cjc-1295-dac-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "61ff4926cf4523d5"
+  },
+  {
+    "ts": "2026-10-10T17:11:35.147Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://olresearch.co.uk/product/klow-80mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b4b0623ff1b4a6b9"
+  },
+  {
+    "ts": "2026-10-10T17:11:44.837Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "6379d6c9499a6c92"
+  },
+  {
+    "ts": "2026-10-10T17:12:19.409Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.buyreta.co.uk/product/snap-8-uk",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7a016af068e8eb60"
+  },
+  {
+    "ts": "2026-10-10T17:12:20.444Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.stratfordpeptides.com/products/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0983cb19651861d7"
+  },
+  {
+    "ts": "2026-10-10T17:12:21.482Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "aa419738b923c19c"
+  },
+  {
+    "ts": "2026-10-10T17:12:35.612Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://my-peptides.co.uk/products/cjc-1295",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f60ecd03f5bd5483"
+  },
+  {
+    "ts": "2026-10-10T17:12:57.114Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://ultimatepeptides.co.uk/ipamorelin-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "109cf72461e481d2"
+  },
+  {
+    "ts": "2026-10-10T17:13:04.502Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://olresearch.co.uk/product/klow-80mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e32e8c0ba3cb444d"
+  },
+  {
+    "ts": "2026-10-10T17:13:11.573Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ukpeptides.org/buy/tb-500-5mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e1adf2bfb6a620b0"
+  },
+  {
+    "ts": "2026-10-10T17:13:11.613Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e1adf2bfb6a620b0"
+  },
+  {
+    "ts": "2026-10-10T17:13:21.273Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "af0caa294a1d5031"
+  },
+  {
+    "ts": "2026-10-10T17:13:48.842Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3819ce6fec47096c"
+  },
+  {
+    "ts": "2026-10-10T17:13:49.708Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.stratfordpeptides.com/products/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d713c6df58ad3254"
+  },
+  {
+    "ts": "2026-10-10T17:14:19.961Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://astralabs.co.uk/product/retatrutide-10mg-uk/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "dffbe5d5805534a4"
+  },
+  {
+    "ts": "2026-10-10T17:14:28.911Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/uncategorized/kpv-20mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "817d4dacef03a488"
+  },
+  {
+    "ts": "2026-10-10T17:14:45.327Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://mypepbiotech.co.uk/product/slu-pp-332-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7a016af068e8eb60"
+  },
+  {
+    "ts": "2026-10-10T17:14:48.609Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ae893570c511f0db"
+  },
+  {
+    "ts": "2026-10-10T17:14:51.328Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen",
+    "refPage": "https://www.google.com/",
+    "visitorId": "c002e5d5a36e9bff"
+  },
+  {
+    "ts": "2026-10-10T17:14:58.121Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/snap-8-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "133b11d35190dddf"
+  },
+  {
+    "ts": "2026-10-10T17:15:00.036Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-10T17:15:02.167Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideglobal.co.uk/product/glow-peptide-pen/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "af29a348c8099023"
+  },
+  {
+    "ts": "2026-10-10T17:15:02.286Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-10T17:15:05.645Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "visitorId": "94ce7ee62a557ec4"
+  },
+  {
+    "ts": "2026-10-10T17:15:06.160Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://zentra-peptides.com/product/ss-31/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "915a12422b0c0a4f"
+  },
+  {
+    "ts": "2026-10-10T17:15:13.950Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.revexa.co.uk/product-page/bpc-157-5mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "a1f62a82b8a9ff09"
+  },
+  {
+    "ts": "2026-10-10T17:16:04.148Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptideslabuk.com/product/semax/",
+    "visitorId": "c6d0c4197df68f86"
+  },
+  {
+    "ts": "2026-10-10T17:16:18.723Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptideslabuk.com/product/semax/",
+    "visitorId": "0c3d4a454c5d7f81"
+  },
+  {
+    "ts": "2026-10-10T17:16:33.615Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptideslabuk.com/product/semax/",
+    "visitorId": "35c078b8e7ee284a"
+  },
+  {
+    "ts": "2026-10-10T17:16:41.355Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://biotideuk.com/products/kisspeptin-10-mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f7835f28a963630d"
+  },
+  {
+    "ts": "2026-10-10T17:17:26.347Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://precision-peptides.shop/product/cjc-1295-with-dac-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3819ce6fec47096c"
+  },
+  {
+    "ts": "2026-10-10T17:17:32.771Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://pyroxlabs.co.uk/product/ss-31-50mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "50ff17f9d401dad9"
+  },
+  {
+    "ts": "2026-10-10T17:17:43.656Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.peptidepal.co.uk/products/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "6f43a450351bf2ae"
+  },
+  {
+    "ts": "2026-10-10T17:18:09.002Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://biotideuk.com/products/kisspeptin-10-mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "833a2039dd13e97d"
+  },
+  {
+    "ts": "2026-10-10T17:18:24.070Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "dsip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-peptides-dsip-5mg-research-peptide-for-laboratory-use-only-2/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "94de307f627c8e6d"
+  },
+  {
+    "ts": "2026-10-10T17:18:41.077Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://zentra-peptides.com/product/ipamorelin/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d7e9dfaa84377c68"
+  },
+  {
+    "ts": "2026-10-10T17:18:55.101Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://precision-peptides.shop/product/cjc-1295-with-dac-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e8dbf6b855a3bd2d"
+  },
+  {
+    "ts": "2026-10-10T17:19:12.200Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.peptidepal.co.uk/products/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "17e76057294cd55f"
+  },
+  {
+    "ts": "2026-10-10T17:19:16.111Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://ukpeptides.com/catalog/snap-8",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bc5e60f43018a66e"
   }
 ]
