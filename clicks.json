@@ -23118,5 +23118,80 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ipamorelin-10mg/",
     "visitorId": "b705d4700e4cf22f"
+  },
+  {
+    "ts": "2026-10-11T22:35:36.122Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-with-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidesx/cjc-1295-ipamorelin-blend",
+    "visitorId": "0a4b7ddcbabda089"
+  },
+  {
+    "ts": "2026-10-11T22:46:05.957Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://fatpigpeptides.co.uk/product/mot-c-10mg-20mg/",
+    "visitorId": "679a119d28048972"
+  },
+  {
+    "ts": "2026-10-11T22:46:08.841Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghrp-2-acetate",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-10-11T22:46:10.231Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghrp-2-acetate",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-10-11T22:46:11.803Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghrp-2-acetate",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-10-11T22:54:28.183Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc157-tb-10-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "443a567be779db26"
+  },
+  {
+    "ts": "2026-10-11T23:02:37.572Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.peptifyuk.com/product/ipamorelin-10mg",
+    "visitorId": "d2c685a2f0547e4e"
+  },
+  {
+    "ts": "2026-10-11T23:06:23.483Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bionikpeptides.com/products/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/bpc-157",
+    "visitorId": "f85515acb1d395f7"
   }
 ]
