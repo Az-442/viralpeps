@@ -1277,14 +1277,114 @@ Library sections.
 
 ---
 
+## Day 22 — Wed 07 Oct (3 articles) ✅ DONE
+Completed 11 Oct 2026 by daily blog cron (main branch, direct, commit `6d21bd58`).
+
+All three planned slugs were absent from BOTH `research.ts` and `research-content.ts` at the
+start of this run (verified by a plan-vs-registry reconciliation script) — no dedupe skip needed.
+
+- `buy-kpv-uk` — **buy KPV UK** (buy) — section: research-hub, compoundSlug: kpv, compound: KPV.
+  Angle: a tripeptide spans £12.75–£199.99 (15.7x) on a molecule with no manufacturing
+  complexity. Purchase-decision guide: the tripeptide cost argument, the market table, the five
+  verification questions, and what "buy KPV UK" should actually cost.
+- `aod-9604-vs-mots-c` — **aod-9604 vs mots-c** (vs) — section: comparisons,
+  compoundSlug: aod-9604, compoundSlug2: mots-c, compound: AOD-9604.
+  Angle: hGH fragment 176-191 vs a mitochondrial-DNA-encoded peptide — two 16-residue metabolic
+  fragments with completely different origins and evidence bases. Table compares origin, animal
+  data, human trial data, mechanism clarity and UK price floor.
+- `recovery-peptide-suppliers-uk` — **recovery peptide suppliers UK** (grouped) — section:
+  research-hub (no compoundSlug — category-level grouped guide).
+  Angle: the recovery aisle by the numbers — BPC-157 (131 listings), GHK-Cu (139), TB-500 (114),
+  KPV (69) — and the verification sequence that lets a buyer pay the floor without trading away
+  batch testing.
+
+Article types are all different (buy / vs / grouped) on different compounds — no keyword stacking.
+
+Cards (all Pillow via `scripts/make_kw_phase1_day22_cards.py`):
+- `public/images/guides/buy-kpv-uk.png` — single-vial 75% (kpv-vial), "Buyer's Guide"
+- `public/images/guides/aod-9604-vs-mots-c.png` — dual-vial 50% (aod-9604-vial + mots-c-vial),
+  "Comparison"
+- `public/images/guides/recovery-peptide-suppliers-uk.png` — dual-vial 50% (bpc-157-vial +
+  tb-500-vial), "Supplier Guide"
+
+Vial labels QA'd with the vision tool BEFORE compositing: kpv-vial ("KPV / 5mg"), aod-9604-vial
+("AOD 9604 / 5mg"), mots-c-vial ("MOTS-c / 10mg") — all compound identifiers correct. All three
+cards vision-checked; the recovery card's title was **corrected from "Recovery Peptides UK"
+(measured 446px) to "Recovery Peptides" (374px) after vision QA showed it clipped** against the
+395px available width in the dual-vial layout.
+
+Word counts (rendered `<article>` text from the live pages, excl. site chrome):
+1,646 / 1,897 / 1,523.
+
+Build: passed (243/243 pages, up from 240). All 15 internal links verified against
+`compounds.json` slugs and live `research.ts`/`research-content.ts` keys — 0 broken.
+**15 PMIDs verified individually via NCBI E-utilities esummary** (title + journal + author matched).
+All 164 guide card `image:` refs cross-checked against disk: OK.
+
+Live verified: all three articles 200 with correct `<title>`, self-referencing canonical, card
+images serving at MATCHING byte size (126760 / 142169 / 159390), all three listed on `/research`
+and in `sitemap.xml`, and both compound-scoped articles present in their compounds' Research
+Library sections (`buy-kpv-uk` in `/compounds/kpv`; `aod-9604-vs-mots-c` in BOTH `/compounds/aod-9604`
+and `/compounds/mots-c`).
+
+### ⚠️ Lessons from this run
+1. **The `research-content.ts` seam CHANGED again — it is now the 2s-INDENT closing brace form:**
+   `'  ],' + NL + '  },' + NL + NL + '};' + NL + 'export default content;'` (matched exactly 1).
+   The Day-21 "no-indent" form (`'],' + NL + '},' ...`) matched 0 this run. The shift happened
+   because the most recent sibling entries close with a 2-space-indented `}`. **Always PROBE all
+   candidate seam forms and assert exactly 1 match before merging** — do not assume the previous
+   run's form still holds.
+2. **`write_file` doubled escapes again — 2-backslash runs before `n` and `'`.** The normaliser
+   (`\\{2,}n` → `\n`, `\\{2,}'` → `\'`) ran on every fragment before merge.
+3. **`write_file` also silently converted ONE closing `'` to a `"`** — in `kw22_b.ts` the section-1
+   `body` string opened with `'` and closed with `"`, producing `TS1002: Unterminated string
+   literal`. The pre-merge `tsc` gate caught it on the first attempt. **Run a per-line scan for
+   field-value lines that don't end in the same quote they opened with** — a plain escape-count is
+   not enough, because this defect has no doubled backslashes anywhere.
+4. **The `tsc` pre-merge gate is the cheapest insurance in the run.** Wrapping the three fragments
+   as `const x: Record<string, ResearchPageContent> = { <block> };` + the project's own
+   `./node_modules/.bin/tsc --noEmit --strict` caught the unterminated-string defect in 15 seconds,
+   before any merge touched the real data file.
+5. **The `research.ts` guides-array anchor is now `'  },\n\n];\n\nexport const compoundList'`
+   (blank line between `},` and `];`)** — matched exactly once. The Day-19/20/21 notes' `'  },\n];'`
+   form (no blank line) is no longer valid. Verified all three new `slug:` offsets sit before
+   `export const compoundList`.
+6. **Two forward-link slugs were wrong in the first draft and were fixed scoped to the three new
+   articles only** (by slicing each article's byte range, never a global replace):
+   - `/research/choosing-supplier` → `/research/choosing-a-uk-supplier` (the real slug is
+     `choosing-a-uk-supplier`, title "Choosing a UK Peptide Supplier"; `choosing-supplier` is only
+     the *image* filename, which is the trap)
+   - `/research/bpc-157-suppliers-uk` → `/research/bpc-157-for-recovery` (no `bpc-157-suppliers-uk`
+     article exists; BPC-157's supplier-adjacent article is `bpc-157-for-recovery`)
+7. **One PMID was invalid (24487520, no record) and was replaced** with the verified Maquart 1988
+   GHK-Cu collagen-synthesis paper (PMID 3169264). Of the 21 PMIDs checked, 20 were correct on the
+   first pass — but the one bad citation proves the verify-every-PMID rule still holds.
+8. **A sibling subagent was active on `src/data/research-content.ts` this run** (the patch tool
+   warned twice). The link validator was re-run against the file on disk immediately before the
+   merge and immediately before committing — both clean. Staged ONLY my 6 files (2 data, 1 card
+   script, 3 PNGs).
+9. **Dual-vial cards have ~395px of title width.** Measure every title with `draw.textlength()`
+   before generating — "Recovery Peptides UK" (446px) clipped, "Recovery Peptides" (374px) fits.
+   This is the same trap the Day-8 note flagged for "Growth Hormone Peptides" (501px).
+10. **`image_generate` is still unavailable in cron, and no photo base was needed** — all three
+    Day-22 articles are compound- or category-specific, so all three cards used the Pillow vial
+    template. The pillar photo-base path was not exercised.
+11. **Existing broken-link debt unchanged and still out of scope:** the four `/research/*`
+    forward-links (`hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+    `p21-research-summary` — planned Day 27, `thymosin-alpha1-research-summary`). None were linked
+    from this run's articles.
+
+---
+
 ## Next up
-*Day 21 complete. Advance to Day 22 (`buy-kpv-uk`, `aod-9604-vs-mots-c`,
-`recovery-peptide-suppliers-uk` — 3 articles).*
+*Day 22 complete. Advance to Day 23 (`follistatin-344-suppliers-uk`, `survodutide-deep-dive` —
+2 articles).*
 **Before writing, grep every slug against BOTH `research.ts` AND `research-content.ts` AND check
-for same-intent neighbours** — the plan has drifted repeatedly, and this run's Day-21 slot needed
-an angle decision rather than a skip. Day 22's three are different article types
-(buy / vs / grouped) on different compounds (KPV, AOD-9604+MOTS-c, recovery category), so no
-keyword stacking.
+for same-intent neighbours.** Also note: plan Day 27 lists `melanotan-ii-vs-melanotan-1` — check it
+against the existing `pt141-vs-melanotan2` and the Day-21 `pt-141-vs-melanotan-ii-uk` before
+writing, as that slot has drifted repeatedly. Plan Day 29 lists `kpv-vs-ll37` but the existing
+slug is `kpv-vs-ll-37` — a likely duplicate that should be skipped in favour of the next unused
+article.
 
 ---
 
