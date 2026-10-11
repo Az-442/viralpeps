@@ -1814,5 +1814,14 @@
     "destUrl": "https://ukpeptidelab.co.uk/product/kpv",
     "refPage": "https://www.google.com/",
     "visitorId": "6f028e20e9674da3"
+  },
+  {
+    "ts": "2026-10-11T02:31:33.594Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mgf-2mg-mechano-growth-factor-igf-1ec-peptide",
+    "visitorId": "a6cb9d2732829617"
   }
 ]
