@@ -1759,6 +1759,39 @@ export const guides: ResearchArticle[] = [
     tags: ['pt-141', 'bremelanotide', 'melanotan-ii', 'mt-2', 'comparison', 'melanocortin', 'mc1r', 'mc4r', 'sexual-health', 'tanning', 'vyleesi'],
   },
 
+  {
+    title: 'Where to Buy KPV in the UK: What a Tripeptide Should Cost',
+    desc: 'A purchase-decision guide to buying KPV in the UK — why a three-amino-acid peptide spans £12.75 to £199.99, what a batch-specific COA must show, and the five verification questions to ask before ordering.',
+    category: 'Guide',
+    section: 'research-hub',
+    compound: 'KPV',
+    slug: 'buy-kpv-uk',
+    image: 'buy-kpv-uk',
+    minutes: 11,
+    tags: ['kpv', 'buy', 'uk', 'tripeptide', 'coa', 'suppliers', 'price'],
+  },
+  {
+    title: 'AOD-9604 vs MOTS-c: Two Metabolic Fragments Compared',
+    desc: 'AOD-9604 is a fragment of human growth hormone; MOTS-c is encoded in mitochondrial DNA. A head-to-head comparison of mechanism, evidence base, and UK price — and why neither is anchored to a licensed product.',
+    category: 'Articles',
+    section: 'comparisons',
+    compound: 'AOD-9604',
+    slug: 'aod-9604-vs-mots-c',
+    image: 'aod-9604-vs-mots-c',
+    minutes: 12,
+    tags: ['aod-9604', 'mots-c', 'comparison', 'metabolism', 'ampk', 'lipolysis', 'fragment'],
+  },
+  {
+    title: 'Recovery Peptide Suppliers UK: BPC-157, TB-500, GHK-Cu & KPV',
+    desc: 'The UK recovery peptide market by the numbers — BPC-157, TB-500, GHK-Cu and KPV listing counts, price floors, and the verification sequence that lets you pay the floor without trading away batch testing.',
+    category: 'Guide',
+    section: 'research-hub',
+    slug: 'recovery-peptide-suppliers-uk',
+    image: 'recovery-peptide-suppliers-uk',
+    minutes: 11,
+    tags: ['recovery', 'suppliers', 'uk', 'bpc-157', 'tb-500', 'ghk-cu', 'kpv'],
+  },
+
 ];
 
 export const compoundList: string[] = [

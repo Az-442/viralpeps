@@ -14980,5 +14980,212 @@ slug: 'bpc-157-for-recovery',
   ],
   },
 
+'buy-kpv-uk': {
+  slug: 'buy-kpv-uk',
+  compoundSlug: 'kpv',
+  pullQuote: 'KPV costs £12.75 at the bottom of the UK market and £199.99 at the top — a 15x spread on a three-amino-acid peptide with no meaningful manufacturing complexity. When that range exists on the simplest molecule in the catalogue, price is telling you about marketing, not purity.',
+  quickInfo: [
+    { label: 'Compound', value: 'KPV (Lys-Pro-Val), alpha-MSH(11-13) tripeptide' },
+    { label: 'CAS Number', value: '69352-14-3' },
+    { label: 'Molecular Weight', value: '342.4 g/mol' },
+    { label: 'Sequence', value: 'Lys-Pro-Val (3 amino acids)' },
+    { label: 'UK Market (October 2026)', value: '69 listings across 58 vendors, £12.75–£199.99' },
+    { label: 'Typical Vial Sizes', value: '5mg, 10mg lyophilised powder' },
+    { label: 'Licensed Status', value: 'Not licensed in the UK. Research reagent only — no MHRA marketing authorisation exists for KPV.' },
+    { label: 'Why It Matters', value: 'A tripeptide is trivially cheap to synthesise — a six-figure-highest price on it is a red flag, not a premium.' },
+  ],
+  sections: [
+    {
+      title: 'What You Are Actually Buying When You Buy KPV',
+      body: 'KPV is the smallest compound in this catalogue and the cheapest to manufacture. It is a three-amino-acid fragment of alpha-melanocyte-stimulating hormone — **Lys-Pro-Val**, molecular weight 342.4 g/mol — and solid-phase peptide synthesis produces it in a single coupling cycle. Compare that to a 30-residue GHRH analog or a 44-residue GLP-1 backbone and the economics are not close: KPV is orders of magnitude cheaper to make per milligram.\n\nThat matters for a buyer because it sets a hard ceiling on what a legitimate price can be. If someone is asking £199.99 for a 10mg vial of a tripeptide whose raw material costs pennies per milligram, the premium is not going into synthesis, purification, or testing. It is going into the price tag.\n\nKPV has genuine research literature behind it — PepT1-mediated uptake in intestinal inflammation, melanocortin-receptor signalling in keratinocytes, corneal wound-healing models — but none of that literature was produced with a product you can buy from a UK research vendor. You are buying a reagent, and the reagent has a manufacturing cost. Know the cost, and the price range stops being mysterious.',
+    },
+    {
+      title: 'The UK KPV Market: Numbers First',
+      body: 'Here is the actual spread across the UK vendors this site tracks (October 2026):',
+      table: {
+        header: ['Metric', 'Figure'],
+        rows: [
+          ['Total listings tracked', '69'],
+          ['Distinct vendors', '58'],
+          ['Lowest price', '£12.75'],
+          ['Highest price', '£199.99'],
+          ['Price multiple (high ÷ low)', '≈15.7x'],
+          ['Common vial sizes', '5mg, 10mg'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'Why a 15x spread exists on a tripeptide',
+          body: 'A 15x spread on KPV is not explained by manufacturing cost — a tripeptide does not get 15 times harder to synthesise at the top of the market. The spread is explained by three things that have nothing to do with the molecule:\n\n**Bundling.** Some vendors sell KPV only inside multi-vial "recovery" or "immune" kits, which inflates the per-vial sticker price. **Brand positioning.** Vendors targeting a premium "pharmaceutical-grade" narrative price accordingly, whether or not the COA differs. **Low-volume listing.** A vendor who stocks two vials of KPV and rarely sells them has no incentive to compete on price.\n\nThe practical consequence: on KPV, the cheapest listing and the most expensive listing can plausibly be the same peptide. There is no mechanism by which a legitimately synthesised tripeptide should vial at £199.99.',
+        },
+      ],
+    },
+    {
+      title: 'The Five Questions to Ask Before You Buy',
+      body: 'Because the price spread tells you so little on this compound, the buying decision has to rest on verification. Ask each vendor for the same five things and compare the answers, not the prices:\n\n**1. A batch-specific COA.** Not a generic certificate, not a COA for a different lot number. The certificate must name the batch on your vial and show HPLC purity plus mass-spec identity.\n\n**2. HPLC purity figure and method.** 98%+ by area is the working floor. Ask whether the purity is by UV area or by a validated method, and whether impurities are itemised.\n\n**3. Mass-spec confirmation.** KPV\'s molecular weight is 342.4 g/mol. The mass-spec trace should show the expected [M+H]+ ion. If the COA shows no MS data, purity claims are unverified.\n\n**4. Vial presentation.** Lyophilised powder in a sealed, crimped vial with a legible batch number and, ideally, a QR or lot-lookup. A vial with no batch marking cannot be matched to any certificate.\n\n**5. Shipping form.** KPV is a short-half-life tripeptide (1–2 hours in circulation); lyophilised powder is stable at ambient for shipping, but reconstituted solution is not. Confirm the vendor ships powder, not pre-mixed liquid, unless the liquid is explicitly stabilised and dated.',
+    },
+    {
+      title: 'What "Buy KPV UK" Should Cost You',
+      body: 'For a 10mg lyophilised vial with a batch COA, the sensible range is the lower half of the market. Sub-£20 vials are entirely plausible for a tripeptide and should not be treated as suspicious on price alone. Above roughly £40 for a 10mg vial you are paying for a bundle, a brand, or inattention — and you should be able to see which.\n\n[**Compare every KPV price from UK suppliers →**](/compounds/kpv)\n\nBefore ordering, it is worth reading the buying framework in [how to choose a UK peptide supplier](/research/choosing-a-uk-supplier) and checking what a legitimate certificate looks like in [how to read a COA](/research/how-to-read-a-coa). For KPV specifically, the compound page linked above lists every tracked vendor with live prices so you can see the spread for yourself.',
+    },
+  ],
+  faq: [
+    { question: 'Is KPV legal to buy in the UK?', answer: 'KPV is not a licensed medicine in the UK — no MHRA marketing authorisation exists for it. It is sold as a research reagent for laboratory use, not for human consumption. Buyers should treat it as a lab chemical and comply with the vendor\'s stated research-use-only terms.' },
+    { question: 'Why is KPV so much cheaper than other peptides?', answer: 'KPV is a three-amino-acid tripeptide (Lys-Pro-Val, MW 342.4 g/mol). Solid-phase synthesis produces it in a single cycle at a fraction of the cost of a 30–44 residue peptide. Its low manufacturing cost sets a low natural price floor — which makes the top of the UK market hard to justify.' },
+    { question: 'What vial size should I buy?', answer: '5mg and 10mg lyophilised vials are the standard UK presentation. 10mg is the better value per milligram if you will use it within the vial\'s stability window; 5mg is sensible if you are testing a new vendor or want smaller aliquots.' },
+    { question: 'Does a higher price mean higher purity for KPV?', answer: 'No. Unlike some long-chain peptides where cost can partly reflect synthesis difficulty, a tripeptide has no such gradient. Purity is proven by a batch-specific COA with HPLC and mass-spec data — not by the price tag. A £199.99 KPV vial and a £14 vial can carry identical purity.' },
+    { question: 'What should I check on a KPV certificate of analysis?', answer: 'The batch number matching your vial, HPLC purity (98%+ by area), a mass-spec trace showing the expected 342.4 g/mol ion, the testing laboratory\'s identity and accreditation, and a testing date. A COA missing the batch number or the MS trace proves nothing.' },
+  ],
+  references: [
+    'Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008;134(1):166-178. PMID 18061177',
+    'Kannengiesser K, Maaser C, Heidemann J, et al. Melanocortin-derived tripeptide KPV has anti-inflammatory potential in murine models of inflammatory bowel disease. Inflamm Bowel Dis. 2008;14(3):324-331. PMID 18092346',
+    'Xiao B, Xu Z, Viennois E, et al. Orally Targeted Delivery of Tripeptide KPV via Hyaluronic Acid-Functionalized Nanoparticles Efficiently Alleviates Ulcerative Colitis. Mol Ther. 2017;25(7):1628-1640. PMID 28143741',
+    'Elliott RJ, Szabo M, Wagner MJ, et al. alpha-Melanocyte-stimulating hormone, MSH 11-13 KPV and adrenocorticotropic hormone signalling in human keratinocyte cells. J Invest Dermatol. 2004;122(4):1010-1019. PMID 15102092',
+    'Bonfiglio V, Camillieri G, Avitabile T, et al. Effects of the COOH-terminal tripeptide alpha-MSH(11-13) on corneal epithelial wound healing: role of nitric oxide. Exp Eye Res. 2006;83(6):1366-1372. PMID 16965771',
+    'Zhao Y, et al. A KPV-binding double-network hydrogel restores gut mucosal barrier in an inflamed colon. Acta Biomater. 2022;143:211-226. PMID 35245681',
+    'Luger TA, Scholzen TE, Brzoska T, Böhm M. New insights into the functions of alpha-MSH and related peptides in the immune system. Ann N Y Acad Sci. 2003;994:133-140. PMID 12851308',
+  ],
+},
+'aod-9604-vs-mots-c': {
+  slug: 'aod-9604-vs-mots-c',
+  compoundSlug: 'aod-9604',
+  compoundSlug2: 'mots-c',
+  pullQuote: 'AOD-9604 is a 16-residue fragment cut from the tail of human growth hormone; MOTS-c is a 16-residue peptide encoded in the mitochondrial 12S rRNA. Both are short peptide fragments. Only one of them is a fragment of anything you have heard of — and that difference in origin is also a difference in what the literature can claim.',
+  quickInfo: [
+    { label: 'AOD-9604', value: 'hGH fragment 176-191 (modified), 16 residues, MW ~1,814 g/mol' },
+    { label: 'AOD-9604 CAS', value: '221231-10-3' },
+    { label: 'MOTS-c', value: 'Mitochondrial open reading frame of the 12S rRNA-c, 16 residues, MW ~1,734.9 g/mol' },
+    { label: 'MOTS-c CAS', value: '1627588-39-5' },
+    { label: 'Origin', value: 'AOD-9604: spliced from the C-terminus of human growth hormone. MOTS-c: encoded by mitochondrial DNA, not nuclear DNA.' },
+    { label: 'Primary Research Focus', value: 'AOD-9604 — lipolysis and fat metabolism. MOTS-c — insulin sensitivity, AMPK signalling, and exercise-mimetic metabolic effects.' },
+    { label: 'Licensed Status', value: 'Neither is licensed in the UK. Both are sold as research reagents only.' },
+    { label: 'UK Research Market (Oct 2026)', value: 'AOD-9604 — 55 listings / 46 vendors, £18.90–£142.00. MOTS-c — 123 listings / 89 vendors, £10.86–£199.99.' },
+  ],
+  sections: [
+    {
+      title: 'Two Fragments, Two Different Things',
+      body: 'The comparison looks natural because both compounds are short peptides that show up in the same "fat loss and metabolism" aisle of a UK research vendor. That is where the similarity ends.\n\n**AOD-9604** is the C-terminal fragment of human growth hormone — residues 176–191, chemically modified to resist degradation. It was engineered. AOD-9604 was designed as a synthetic analogue of a region of growth hormone that retains lipolytic activity without the insulin-desensitising and IGF-1-raising effects of the full hormone. Its whole identity is a modification of a known sequence with a specific metabolic goal in mind.\n\n**MOTS-c** was discovered, not designed. It is a mitochondrial-derived peptide — its open reading frame sits inside the mitochondrial 12S ribosomal RNA gene, which means it is encoded by mitochondrial DNA rather than nuclear DNA. That makes MOTS-c a member of the mitochondrial-derived peptide family, and it gives the peptide a fundamentally different research premise: it is a retrograde signalling molecule that the mitochondrion uses to communicate with the nucleus about metabolic state.\n\nSo the honest framing is not "which fat-loss peptide wins". It is: these are two peptides that both touch metabolism, one derived from a pituitary hormone and one derived from a mitochondrion, and the evidence base for each was built on different questions.',
+    },
+    {
+      title: 'Mechanism: What Each One Actually Does',
+      body: '',
+      subsections: [
+        {
+          title: 'AOD-9604 — lipolysis via the β3-adrenergic axis',
+          body: 'AOD-9604\'s original proposed mechanism is stimulation of lipolysis in fat tissue, acting through the human β3-adrenergic receptor and influencing the balance of lipogenesis versus fat oxidation. In the Heffernan work, chronic treatment of obese mice with AOD-9604 increased fat oxidation and caused weight loss.\n\nWhat is conspicuously absent is the growth-hormone effect. Fragment 176-191 was pursued precisely because it appeared to separate the lipolytic region of hGH from the parts responsible for IGF-1 induction and glucose handling. Whether that separation is as clean in humans as it looked in rodent models is the open question, and the human trial record is thin.'
+        },
+        {
+          title: 'MOTS-c — AMPK activation and methionine-folate metabolism',
+          body: 'MOTS-c\'s most cited mechanism is activation of the AMPK pathway — the cellular energy sensor — and interference with the methionine-folate cycle, which alters the balance of nucleotide precursors and appears to contribute to its insulin-sensitising effect. The Lee et al. work in *Cell Metabolism* showed that MOTS-c treatment reduced diet-induced obesity and improved insulin resistance in mice.\n\nIn addition to its metabolic role, MOTS-c has since acquired a second, unexpected identity: recent work has proposed it functions as a mitochondrial-encoded host-defence peptide with interferon-linked activity. That is a young and unsettled literature, and it is worth knowing before treating MOTS-c as a single-purpose metabolic research peptide.'
+        }
+      ]
+    },
+    {
+      title: 'What the Evidence Base Actually Supports',
+      body: 'This is where the two compounds separate most sharply, and where marketing tends to overwrite the literature.',
+      table: {
+        header: ['Dimension', 'AOD-9604', 'MOTS-c'],
+        rows: [
+          ['Origin', 'Synthetic hGH fragment 176-191', 'Mitochondrial DNA-encoded peptide'],
+          ['Core animal data', 'Yes — fat oxidation and weight loss in obese mice', 'Yes — reduced obesity and insulin resistance in mice'],
+          ['Human trial data', 'Limited; Phase 2b programme did not lead to approval', 'Minimal; mostly observational serum-level studies'],
+          ['Mechanism clarity', 'β3-adrenergic lipolysis; GH effects removed by design', 'AMPK activation; methionine-folate cycle interaction'],
+          ['Licensed status', 'No UK licence', 'No UK licence'],
+          ['UK price floor (Oct 2026)', '£18.90', '£10.86'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'Why the mouse data matters less than it looks',
+          body: 'Both compounds have mechanistic animal data, and both are routinely sold on the strength of it. But rodent obesity models respond to a very wide range of interventions that fail in humans, and neither AOD-9604 nor MOTS-c has a completed human outcome trial that supports the claims made on vendor pages. AOD-9604 went furthest — it entered human clinical development — but the programme did not produce a licensed product.\n\nThat does not make either compound uninteresting as a research object. It means the literature supports "this peptide has a demonstrated effect on metabolic parameters in rodent models, with a plausible mechanism" and nothing stronger. Any vendor framing stronger than that is writing marketing, not describing a trial result.'
+        }
+      ]
+    },
+    {
+      title: 'Choosing Between Them for Research Use',
+      body: 'If you are selecting a peptide for metabolic research, the choice should follow the research question rather than a price comparison:\n\n**Choose AOD-9604 if** your question concerns lipolysis, fat-mass regulation, or the separation of growth-hormone lipolytic activity from IGF-1 and glucose effects. It is the more mechanistically specific of the two, and its "designed fragment" identity makes it a cleaner probe for β3-adrenergic lipolysis.\n\n**Choose MOTS-c if** your question concerns mitochondrial-nuclear signalling, AMPK activation, exercise-mimetic metabolic effects, or insulin sensitivity as an end point. Its mitochondrial origin is the whole point, and that context is where its literature is strongest.\n\n**Do not choose on price.** MOTS-c has both the lower floor (£10.86 versus £18.90) and the wider ceiling (£199.99) — 123 listings across 89 vendors, which is one of the most crowded and least anchored markets on the site. AOD-9604, at 55 listings across 46 vendors, is tighter.\n\n[**Compare live AOD-9604 prices from UK suppliers →**](/compounds/aod-9604)\n[**Compare live MOTS-c prices from UK suppliers →**](/compounds/mots-c)\n\nFor a broader view of how these fit into the metabolic aisle, see [GLP-1 peptide suppliers UK](/research/weight-loss-peptide-suppliers-uk) and the compound count breakdown in [types of research peptides](/research/types-of-research-peptides). Both compounds also appear in the supplier comparison workflow described in [how to choose a UK peptide supplier](/research/choosing-a-uk-supplier).'
+    }
+  ],
+  faq: [
+    { question: 'Is AOD-9604 the same as growth hormone?', answer: 'No. AOD-9604 is a 16-residue C-terminal fragment of growth hormone (residues 176-191), chemically modified. It was engineered specifically to retain lipolytic activity while removing the growth-hormone effects that raise IGF-1 and affect glucose handling. It is a fragment, not the hormone.' },
+    { question: 'What is MOTS-c derived from?', answer: 'MOTS-c is encoded by an open reading frame within the mitochondrial 12S ribosomal RNA gene. It is a mitochondrial-derived peptide — encoded by mitochondrial DNA rather than nuclear DNA — and is studied as a retrograde mitochondrial-to-nuclear signalling molecule.' },
+    { question: 'Which has more human trial evidence, AOD-9604 or MOTS-c?', answer: 'AOD-9604 has more, but that is a low bar. It entered human clinical development for obesity but the programme did not lead to a licensed product. MOTS-c evidence is mostly preclinical plus observational serum-level studies. Neither has a completed human outcome trial supporting its vendor-page claims.' },
+    { question: 'What is the difference in mechanism?', answer: 'AOD-9604 is proposed to stimulate lipolysis via the β3-adrenergic axis, altering the balance of fat storage and oxidation. MOTS-c activates AMPK signalling and interacts with the methionine-folate cycle, improving insulin sensitivity in rodent models. They are not interchangeable mechanisms.' },
+    { question: 'Which is cheaper in the UK?', answer: 'MOTS-c has the lower price floor — £10.86 versus £18.90 for AOD-9604 as of October 2026 — but also the higher ceiling (£199.99) and a much more crowded market (123 listings / 89 vendors versus 55 / 46). Neither price range is anchored to a licensed product, so price should not drive the choice.' }
+  ],
+  references: [
+    'Heffernan MA, Thorburn AW, Fam B, et al. Increase of fat oxidation and weight loss in obese mice caused by chronic treatment with human growth hormone or a modified C-terminal fragment. Int J Obes Relat Metab Disord. 2001;25(10):1442-1449. PMID 11673763',
+    'Heffernan M, Summers RJ, Thorburn A, et al. The effects of human GH and its lipolytic fragment (AOD9604) on lipid metabolism following chronic treatment in obese mice and beta(3)-AR knock-out mice. Endocrinology. 2001;142(12):5182-5189. PMID 11713213',
+    'Wilding J. AOD-9604 Metabolic. Curr Opin Investig Drugs. 2004;5(4):436-440. PMID 15134286',
+    'Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. Cell Metab. 2015;21(3):443-454. PMID 25738459',
+    'Zarse K, Ristow M. A mitochondrially encoded hormone ameliorates obesity and insulin resistance. Cell Metab. 2015;21(3):355-356. PMID 25738453',
+    'Yang B, Yu Q, Chang B, et al. MOTS-c interacts synergistically with exercise intervention to regulate PGC-1α expression, attenuate insulin resistance and enhance glucose metabolism in a PGC-1α-dependent manner. Biochim Biophys Acta Mol Basis Dis. 2021;1867(6):166126. PMID 33722744',
+    'Mohtashami Z, Singh MK, Neto-Neves EM, et al. MOTS-c, the Most Recent Mitochondrial Derived Peptide in Human Aging and Age-Related Diseases. Int J Mol Sci. 2022;23(19):11991. PMID 36233287',
+    'Zheng Y, Wei Z, Wang T. MOTS-c: A promising mitochondrial-derived peptide for therapeutic exploitation. Front Endocrinol (Lausanne). 2023;14:1120533. PMID 36761202',
+    'Rice MC, et al. MOTS-c is a mitochondrial-encoded interferon-linked host defense peptide. Elife. 2026. PMID 42611943',
+  ],
+},
+'recovery-peptide-suppliers-uk': {
+  slug: 'recovery-peptide-suppliers-uk',
+  pullQuote: 'The recovery aisle is the oldest, deepest and most crowded part of the UK peptide market — and it is also the one where the buyer has the least excuse for choosing badly, because the compounds sold as "recovery" peptides are the most extensively characterised in the whole catalogue.',
+  quickInfo: [
+    { label: 'Category', value: 'Recovery / tissue-repair research peptides' },
+    { label: 'Core Compounds', value: 'BPC-157, TB-500, GHK-Cu, KPV, and their blends' },
+    { label: 'Market Size (Oct 2026)', value: 'BPC-157: 131 listings / 9 suppliers on the compound page. TB-500: 114 listings. GHK-Cu: 139 listings.' },
+    { label: 'Typical Price Band', value: 'BPC-157 from £13.95; TB-500 typically £18–£45 for a 5–10mg vial; GHK-Cu from around £15' },
+    { label: 'Licensed Status', value: 'None licensed in the UK. All sold as research reagents only.' },
+    { label: 'Why So Competitive', value: 'These are high-demand, simple-chain peptides — so vendors compete hard on price and the floor is genuinely low.' },
+    { label: 'Buyer Leverage', value: 'The depth of the market means you can demand a batch COA and still pay the floor price. You do not have to trade verification for cost here.' },
+  ],
+  sections: [
+    {
+      title: 'What "Recovery Peptides" Actually Covers',
+      body: 'Recovery is a category label, not a mechanism. It groups compounds that are studied in the context of tissue repair, wound healing, inflammation control and structural regeneration — but the compounds inside it work by completely different routes:\n\n**BPC-157** is a 15-residue gastric pentadecapeptide associated with angiogenesis, collagen signalling and GI integrity. **TB-500** is a synthetic fragment of thymosin beta-4 that regulates actin and cell migration. **GHK-Cu** is a copper-binding tripeptide studied for collagen synthesis and gene-expression modulation in skin and connective tissue. **KPV** is an alpha-MSH fragment studied for melanocortin-mediated anti-inflammatory effects in the gut.\n\nGrouping them is useful for navigation, but a buyer should not treat "recovery peptide" as meaning any of them are interchangeable. The category tells you what aisle you are in, not what the compound does.'
+    },
+    {
+      title: 'The Recovery Market by the Numbers',
+      body: 'These are the tracked UK figures as of October 2026 — every figure derived from the live vendor and compound data on this site:',
+      table: {
+        header: ['Compound', 'Listings tracked', 'Typical vial sizes', 'Price floor', 'Dominant route'],
+        rows: [
+          ['BPC-157', '131', '5mg, 10mg', '£13.95', 'Subcutaneous research models'],
+          ['GHK-Cu', '139', '50mg, 100mg', '~£15', 'Topical and dermal research'],
+          ['TB-500', '114', '5mg, 10mg', '~£18', 'Injectable research models'],
+          ['KPV', '69', '5mg, 10mg', '£12.75', 'Oral / GI-targeted research'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'Why the recovery aisle is so price-competitive',
+          body: 'Every compound in this category is short-chain and synthesised at scale, which means no vendor has a manufacturing moat. Combine high demand (recovery is the highest-intent research category on the site) with low manufacturing cost, and you get exactly what the numbers show: deep listing counts and a price floor near the cost of goods.\n\nThat is good news for a buyer. In thin markets like survival-analogue peptides the premium tiers can hide behind scarcity. Here there is no scarcity, so a high price is a choice — and you can verify that by asking the same vendor for the same COA they would give at a lower price.'
+        }
+      ]
+    },
+    {
+      title: 'How to Vet a Recovery Peptide Supplier',
+      body: 'Because the market is deep, the supplier filter should be verification-first rather than price-first. Use this sequence:\n\n**1. Start from the compound page, not the vendor.** Every compound above has a comparison page listing all tracked suppliers with live prices. Starting there means you see the market before you see a marketing page. See [BPC-157 suppliers UK](/research/bpc-157-for-recovery) for a worked example of how that surface looks.\n\n**2. Require a batch-specific COA** with HPLC purity at 98%+ and a matching mass-spec trace. Recovery peptides are among the most counterfeited in the market because the demand is high — the certificate is not optional.\n\n**3. Check the presentation.** Lyophilised powder, crimped sealed vial, legible batch number. Blends (BPC-157 + TB-500, for example) are legitimately common in this category but require the COA to cover both components.\n\n**4. Read the storage and shipping terms.** GHK-Cu and the copper-binding peptides are more sensitive to light and moisture than the non-copper peptides; check the vendor stores them correctly.\n\n**5. Cross-reference delivery and payment.** Free UK delivery and card/PayPal payment are common at the top end of this market; a vendor charging above the floor with no verification is the pattern to avoid.'
+    },
+    {
+      title: 'Which Recovery Supplier to Choose, by Use Case',
+      body: 'Because the market is deep, the honest answer is that no single vendor is best across the whole category. Match the vendor to the compound:\n\n**For BPC-157 and TB-500.** These are the two highest-volume compounds and most vendors stock both. Compare on [BPC-157](/compounds/bpc-157) and [TB-500](/compounds/tb-500) directly — the price floor is genuinely low, so a vendor asking double the floor needs to justify it with a COA and presentation that the cheap vendor lacks.\n\n**For GHK-Cu.** Its primary research route is topical, so prioritise vendors who present it in a form suited to that use and who document stability. See the [GHK-Cu compound page](/compounds/ghk-cu) for the tracked range.\n\n**For blends and stacks.** If you want the combined BPC-157 + TB-500 product, verify the COA covers both peptides and the ratio is stated. Blends are priced at a premium to the sum of the singles in some listings and a discount in others — check both.\n\nFor the broader supplier landscape, [how to choose a UK peptide supplier](/research/choosing-a-uk-supplier) sets out the verification framework, and [best peptides for recovery](/research/best-peptides-for-recovery) covers the compound selection in depth. Buyers comparing the full market should also read [buys peptides on the UK comparison workflow](/research/uk-peptide-price-comparison).'
+    }
+  ],
+  faq: [
+    { question: 'What are recovery peptides?', answer: '"Recovery peptide" is a category label for compounds researched in the context of tissue repair, wound healing and inflammation control. The main ones are BPC-157, TB-500, GHK-Cu and KPV — but they work through different mechanisms and are not interchangeable.' },
+    { question: 'Which recovery peptide has the widest UK supply?', answer: 'GHK-Cu has the highest listing count at 139, followed by BPC-157 at 131 and TB-500 at 114. This depth means no single vendor controls supply, and prices stay close to the cost floor.' },
+    { question: 'Are recovery peptides legal in the UK?', answer: 'None of the recovery peptides are licensed medicines in the UK. They are sold as research reagents for laboratory use only. Buyers must comply with the research-use-only terms of the vendor.' },
+    { question: 'Why is BPC-157 so cheap?', answer: 'BPC-157 is a 15-residue peptide that is cheap to synthesise at scale, and it is the highest-demand compound in the category — so vendors compete hard on price. The price floor of around £13.95 reflects genuine manufacturing cost, not a quality compromise.' },
+    { question: 'What should I check on a recovery peptide COA?', answer: 'A batch-specific certificate with HPLC purity of 98%+ and a mass-spec trace. For blends, the COA must cover both peptides. A certificate without a batch number matching your vial proves nothing.' }
+  ],
+  references: [
+    'Sikiric P, Seiwerth S, Rucman R, et al. Stable gastric pentadecapeptide BPC 157: novel therapy in gastrointestinal tract. Curr Pharm Des. 2011;17(16):1612-1632. PMID 21548867',
+    'Goldstein AL, Hannappel E, Sosne G, Kleinman HK. Thymosin β4: a multi-functional regenerative peptide. Basic properties and clinical applications. Expert Opin Biol Ther. 2012;12(1):37-51. PMID 22074294',
+    'Pickart L, Vasquez-Soltero JM, Margolina A. GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration. Biomed Res Int. 2015;2015:648108. PMID 26236730',
+    'Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008;134(1):166-178. PMID 18061177',
+    'Maquart FX, Pickart L, Laurent M, et al. Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. FEBS Lett. 1988;238(2):343-346. PMID 3169264',
+    'Malinda KM, Sidhu GS, Mani H, et al. Thymosin beta4 accelerates wound healing. J Invest Dermatol. 1999;113(3):364-368. PMID 10469335',
+  ],
+},
+
 };
 export default content;
