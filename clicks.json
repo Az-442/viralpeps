@@ -24222,5 +24222,61 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://britpeptides.co.uk/product/tirzepatide/",
     "visitorId": "eb6b2472d687d7f9"
+  },
+  {
+    "ts": "2026-10-12T04:10:30.453Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://everythingpeptides.co.uk/products/ara-290-x-10-vials",
+    "visitorId": "52fb60631fa61421"
+  },
+  {
+    "ts": "2026-10-12T04:20:24.795Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-10mg-br-ghrh",
+    "refPage": "https://www.viralpeps.co.uk/go/bioplex-peptides/cjc-1295-no-dac",
+    "visitorId": "d75eb3b941ede29a"
+  },
+  {
+    "ts": "2026-10-12T04:22:19.106Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://ukpeptides.com/catalog/semax-nasal-spray",
+    "visitorId": "c80731b968d097f5"
+  },
+  {
+    "ts": "2026-10-12T04:30:29.964Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-glutathione-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-glutathione/pen",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides/l-glutathione-pen-express",
+    "visitorId": "0eb804faee471036"
+  },
+  {
+    "ts": "2026-10-12T04:36:15.385Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://sterlingpeptides.co.uk/product/epitalon/",
+    "visitorId": "c80731b968d097f5"
+  },
+  {
+    "ts": "2026-10-12T04:39:27.319Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bionikpeptides.com/products/snap-8",
+    "visitorId": "5b5a881faecc1b90"
   }
 ]
