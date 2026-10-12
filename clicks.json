@@ -24454,5 +24454,42 @@
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://polygonpeptides.co.uk/product/mt2-10mg/",
     "visitorId": "53c0fb61446a9b39"
+  },
+  {
+    "ts": "2026-10-12T06:12:30.803Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "bpc-157-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/bpc-157-5mg",
+    "visitorId": "7d7829e40a69bd4a"
+  },
+  {
+    "ts": "2026-10-12T06:19:09.541Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "af35a607992b91df"
+  },
+  {
+    "ts": "2026-10-12T06:22:11.988Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biotideuk.com/products/5-amino-1mq-50-mg",
+    "visitorId": "be1cb5041681a0c1"
+  },
+  {
+    "ts": "2026-10-12T06:32:32.420Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial",
+    "visitorId": "9defacccbe87932a"
   }
 ]
