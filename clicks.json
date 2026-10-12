@@ -24491,5 +24491,53 @@
     "compoundSlug": "oxytocin",
     "destUrl": "https://www.expresspeptides.co.uk/product/oxytocin/vial",
     "visitorId": "9defacccbe87932a"
+  },
+  {
+    "ts": "2026-10-12T06:34:48.340Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://phoenixbiolabs.net/shop/ara-290-20mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a242e4512ea8ec41"
+  },
+  {
+    "ts": "2026-10-12T06:39:32.844Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://pyroxlabs.co.uk/product/kisspeptin-10-10mg/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-12T06:42:24.234Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/go/leolab/epitalon",
+    "visitorId": "a819097e28b2b264"
+  },
+  {
+    "ts": "2026-10-12T06:52:35.984Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/dsip-delta-sleep-inducing-peptide",
+    "refPage": "https://www.viralpeps.co.uk/go/new-wave-peptides/dsip",
+    "visitorId": "3add86905a19464d"
+  },
+  {
+    "ts": "2026-10-12T07:02:35.666Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+    "visitorId": "68fbc8fe53c980e8"
   }
 ]
