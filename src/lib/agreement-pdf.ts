@@ -11,42 +11,54 @@ export type AgreementData = {
   signaturePng: string; // data URL
   signedAt: string;
   termsVersion: string;
+  trialAccepted?: boolean;
 };
 
 const TERMS: [string, string][] = [
   [
-    "1. What you are buying",
-    "A £50/month subscription for verification work — not a purchase of points, a rating, or a band. Verified Entity (+15): we verify your legal identity (registered Ltd or sole trader) and that you accept card or bank payment. Domain Verified (+15): free — you install the TrustScore badge linking back to ViralPeps, and we confirm you own the domain. We recertify every 12 months. Scores are never for sale.",
+    "1. The Service",
+    "The Verified Package is a monthly verification and audit service supplied at a fee of £50 per calendar month (the Fee). The Fee constitutes consideration for the verification services described herein. It does not constitute a purchase of, or entitlement to, any TrustScore, rating, band, or numerical value. Verified Entity (+15): ViralPeps shall verify the Subscriber's legal business identity (a company registered at Companies House or a sole trader) and shall confirm that the Subscriber accepts real-money payment by card or bank transfer. Domain Verification (+15): provided at no additional charge; the Subscriber shall install the TrustScore badge on its website, linked to viralpeps.co.uk, and ViralPeps shall confirm the Subscriber's ownership and operation of the relevant domain. Recertification: ViralPeps shall re-verify the Subscriber's entity and payment particulars at intervals of twelve (12) months. TrustScores are not offered for sale; the Fee is payable in respect of the audit performed, and any points are awarded solely upon verification of the underlying facts.",
   ],
   [
-    "2. What you must provide",
-    "Your registered company name and Companies House number (or sole-trader evidence); confirmation of your payment provider; and proof you own the website carrying the badge. We may request further evidence.",
+    "2. Subscriber Obligations",
+    "The Subscriber shall provide: its registered company name and Companies House number, or such evidence of sole-trader status as ViralPeps may reasonably require; confirmation of its payment provider (card processor or bank); and evidence of ownership and operation of the website upon which the badge is displayed. ViralPeps may request such further evidence as it reasonably considers necessary to complete or renew the audit, and the Subscriber shall provide such evidence within a reasonable time.",
   ],
   [
-    "3. Payment",
-    "£50/month by Direct Debit (default), or £60/month by bank transfer (the higher rate covers manual collection). Billed monthly in advance until cancelled, with 30 days' written notice to cancel. If payment is 7 days late, your entity verification is suspended (your score reverts to the automatic score, maximum 85) and a £10 late fee applies. Verification is restored immediately on payment.",
+    "3. Fees and Payment",
+    "£50 per month by Direct Debit (standard rate), the first thirty (30) days of which are free of charge; or £60 per month by bank transfer (the higher rate reflects the additional administrative cost of manual collection). During the free-of-charge period, the verification shall proceed and the TrustScore shall be awarded in full. Following the free-of-charge period, the Fee shall be collected monthly in advance and shall continue until termination in accordance with these Terms. The Subscriber shall receive a GoCardless Direct Debit link from ViralPeps in order to establish the Direct Debit mandate. Termination requires thirty (30) days' written notice. Where any sum remains outstanding for more than seven (7) days from its due date, whether payable by Direct Debit or bank transfer, the Subscriber's TrustScore shall be suspended, subject to a maximum of 85, and an administrative late-payment fee of £10 shall become payable; the score shall be restored upon receipt of payment. Where payment is not made, the Subscriber's TrustScore shall revert to the automatically calculated score, subject to a maximum of 85.",
   ],
   [
-    "4. No sale of scores",
-    "The fee buys verification, not a score. We award +15 only if the facts verify; a failed check is not refundable. We may re-check, downgrade, or remove points if evidence proves false, and cancel the subscription. We do not promise a specific band or number.",
+    "4. No Sale of Scores",
+    "The Fee is payable for verification services, not for any score. The +15 shall be awarded only upon successful verification; a failed verification shall not give rise to any refund. ViralPeps reserves the right to re-verify, downgrade, or withdraw any points at any time where evidence is found to be false, misleading, or incomplete, and to terminate the subscription accordingly. ViralPeps gives no warranty, representation, or guarantee as to any particular band or numerical outcome. The audit measures; it does not grade.",
   ],
   [
-    "5. Badge display",
-    "The badge must be shown unmodified and link back to viralpeps.co.uk. We may withdraw badge rights for misleading use.",
+    "5. Badge Display and Use",
+    "The Subscriber shall display the badge unmodified and linked to viralpeps.co.uk. ViralPeps may withdraw the Subscriber's right to display the badge where the Subscriber misrepresents its TrustScore or uses the badge in a misleading manner.",
   ],
   [
-    "6. Scope & liability",
-    "The audit covers entity and payment facts only — not product quality, safety, or compliance. It is not an endorsement. Research-use-only disclaimers still apply. We are not liable for business losses arising from your score, band, or badge.",
+    "6. Scope of Verification and Liability",
+    "The audit extends to entity and payment particulars only. It does not extend to, and constitutes no representation concerning, product quality, safety, efficacy, or legal compliance. The Verified Package is not an endorsement of the Subscriber's products or services; research-use-only disclaimers continue to apply. To the fullest extent permitted by law, ViralPeps shall not be liable for any business losses, loss of profit, or consequential loss arising from the Subscriber's TrustScore, band, or display of the badge.",
   ],
   [
-    "7. Your data",
-    "We store your evidence only to conduct and renew the audit, share it only to verify it or where legally required, and delete it on request after cancellation (subject to legal retention).",
+    "7. Data Protection",
+    "ViralPeps shall store the Subscriber's evidence solely for the purpose of conducting and renewing the audit. Such evidence shall be disclosed only as necessary to verify it, or where required by law. ViralPeps shall delete such evidence upon request following termination of the subscription, subject to any statutory retention obligations.",
   ],
   [
-    "8. Changes & law",
-    "We may update these terms with 30 days' notice. Governed by the laws of England & Wales.",
+    "8. Variation and Governing Law",
+    "ViralPeps may vary these Terms upon thirty (30) days' written notice; continued subscription following such notice shall constitute acceptance of the varied Terms. This agreement shall be governed by and construed in accordance with the laws of England & Wales.",
   ],
 ];
+
+export async function blobToBase64(blob: Blob): Promise<string> {
+  const buf = await blob.arrayBuffer();
+  let binary = "";
+  const bytes = new Uint8Array(buf);
+  const chunk = 0x8000;
+  for (let i = 0; i < bytes.length; i += chunk) {
+    binary += String.fromCharCode(...bytes.subarray(i, i + chunk));
+  }
+  return btoa(binary);
+}
 
 export function buildAgreementPdf(d: AgreementData): Blob {
   const doc = new jsPDF({ unit: "mm", format: "a4" });
@@ -186,6 +198,15 @@ export function buildAgreementPdf(d: AgreementData): Blob {
   doc.setFont("helvetica", "normal");
   doc.setTextColor(15, 23, 42);
   doc.text(new Date(d.signedAt).toLocaleDateString("en-GB"), 130, y + 5);
+
+  doc.setFontSize(8);
+  doc.setTextColor(grey[0], grey[1], grey[2]);
+  doc.text(
+    `30-day free trial accepted: ${d.trialAccepted ? "Yes" : "No"}`,
+    130,
+    y + 11
+  );
+  doc.text("GoCardless Direct Debit link to follow.", 130, y + 16);
 
   void brand;
 

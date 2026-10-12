@@ -36,6 +36,8 @@ type Agreement = {
   startDate: string;
   nextDueDate: string;
   monthlyAmount: number;
+  trialAccepted?: boolean;
+  pdfPath?: string;
   signaturePng?: string;
   agree: boolean;
   ip?: string;
@@ -77,6 +79,33 @@ function esc(s: string): string {
   );
 }
 
+async function putRepoFile(path: string, contentBase64: string, message: string, sha?: string): Promise<boolean> {
+  const putBody: Record<string, unknown> = { message, content: contentBase64 };
+  if (sha) putBody.sha = sha;
+  const t = Date.now();
+  if (t - lastPushAt < MIN_INTERVAL_MS) return true; // rate-guarded
+  lastPushAt = t;
+  const put = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+    method: "PUT",
+    headers: {
+      Authorization: `Bearer ${TOKEN}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(putBody),
+  });
+  return put.ok || put.status === 409;
+}
+
+async function getFileSha(path: string): Promise<string | undefined> {
+  const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+    headers: { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json" },
+  });
+  if (!res.ok) return undefined;
+  const data = await res.json();
+  return data.sha as string | undefined;
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -90,6 +119,8 @@ export async function POST(request: NextRequest) {
     const payment = String(body.payment || "").trim();
     const signaturePng = String(body.signature || "");
     const agree = body.agree === true;
+    const trialAccepted = body.trialAccepted === true;
+    const pdfBase64 = String(body.pdfBase64 || "").replace(/^data:application\/pdf;base64,/, "");
 
     // validation
     if (!company || !website || !signatory || !position || !email || !payment) {
@@ -106,12 +137,15 @@ export async function POST(request: NextRequest) {
     }
 
     const now = new Date();
-    const signedAt = now.toISOString();
+    const signedAt = String(body.signedAt || now.toISOString());
     const monthlyAmount = payment.toLowerCase().includes("direct") ? 50 : 60;
+    const safeName = company.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
+    const stamp = signedAt.replace(/[:.]/g, "-");
+    const pdfPath = `agreements/pdfs/${stamp}-${safeName}.pdf`;
 
     const record: Agreement = {
       signedAt,
-      termsVersion: String(body.termsVersion || "1.0"),
+      termsVersion: String(body.termsVersion || "2.0"),
       company,
       companiesHouse,
       website,
@@ -122,6 +156,8 @@ export async function POST(request: NextRequest) {
       startDate: signedAt,
       nextDueDate: addMonth(signedAt),
       monthlyAmount,
+      trialAccepted,
+      pdfPath,
       signaturePng,
       agree,
       ip: (request.headers.get("x-forwarded-for") || "").split(",")[0].trim() || undefined,
@@ -134,6 +170,16 @@ export async function POST(request: NextRequest) {
       storeError = "GITHUB_TOKEN not set";
     } else {
       try {
+        // 1a. write the signed PDF as its own file
+        if (pdfBase64) {
+          const pdfOk = await putRepoFile(pdfPath, pdfBase64, `Verified Package PDF: ${company} [bot]`);
+          if (!pdfOk) {
+            storeError = "pdf push failed";
+            delete record.pdfPath;
+          }
+        }
+
+        // 1b. append the record to the JSON log
         const file = await getCurrentFile();
         if (!("content" in file)) {
           storeError = file.error;
@@ -141,29 +187,13 @@ export async function POST(request: NextRequest) {
           const list = parseList(file.content);
           list.push(record);
           const newContent = `${JSON.stringify(list, null, 2)}\n`;
-          const putBody: Record<string, unknown> = {
-            message: `Verified Package signed: ${company} [bot]`,
-            content: Buffer.from(newContent).toString("base64"),
-          };
-          if (file.sha) putBody.sha = file.sha;
-
-          const t = Date.now();
-          if (t - lastPushAt >= MIN_INTERVAL_MS) {
-            lastPushAt = t;
-            const put = await fetch(`https://api.github.com/repos/${REPO}/contents/${LIST_PATH}`, {
-              method: "PUT",
-              headers: {
-                Authorization: `Bearer ${TOKEN}`,
-                Accept: "application/vnd.github+json",
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify(putBody),
-            });
-            storedOk = put.ok || put.status === 409;
-            if (!storedOk) storeError = `push failed (${put.status})`;
-          } else {
-            storedOk = true; // rate-guarded, will be captured next write
-          }
+          storedOk = await putRepoFile(
+            LIST_PATH,
+            Buffer.from(newContent).toString("base64"),
+            `Verified Package signed: ${company} [bot]`,
+            file.sha
+          );
+          if (!storedOk) storeError = "agreement list push failed";
         }
       } catch (e) {
         storeError = (e as Error).message;

@@ -10,6 +10,7 @@ export default function VerifiedPackageForm() {
   const [sending, setSending] = useState(false);
   const [payment, setPayment] = useState<"dd" | "bt">("dd");
   const [agree, setAgree] = useState(false);
+  const [trial, setTrial] = useState(false);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -118,6 +119,9 @@ export default function VerifiedPackageForm() {
     }
     if (!dirty.current) { setStatus({ kind: "err", msg: "Please add your signature." }); return; }
     if (!agree) { setStatus({ kind: "err", msg: "Please tick the declaration." }); return; }
+    if (payment === "dd" && !trial) {
+      setStatus({ kind: "err", msg: "Please accept the 30-day free trial terms." }); return;
+    }
 
     const payload = {
       company: val("company"),
@@ -129,19 +133,38 @@ export default function VerifiedPackageForm() {
       email: val("email"),
       signature: canvasRef.current!.toDataURL("image/png"),
       agree,
-      termsVersion: "1.0",
+      trialAccepted: trial,
+      termsVersion: "2.0",
     };
 
     setSending(true);
     setStatus({ kind: "info", msg: "Submitting…" });
 
-    // 1. Store the signed record in the site repo (no database).
+    // Build the signed PDF once — used for BOTH repo storage and the email.
+    const { buildAgreementPdf, blobToBase64 } = await import("@/lib/agreement-pdf");
+    const signedAt = new Date().toISOString();
+    const pdfBlob = buildAgreementPdf({
+      company: payload.company,
+      companiesHouse: payload.companiesHouse,
+      website: payload.website,
+      payment: payload.payment,
+      signatory: payload.signatory,
+      position: payload.position,
+      email: payload.email,
+      signaturePng: payload.signature,
+      signedAt,
+      termsVersion: payload.termsVersion,
+      trialAccepted: payload.trialAccepted,
+    });
+    const pdfBase64 = await blobToBase64(pdfBlob);
+
+    // 1. Store the signed record + the signed PDF in the site repo (no database).
     let stored = false;
     try {
       const res = await fetch("/api/verified-package", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({ ...payload, pdfBase64, signedAt }),
       });
       const data = await res.json().catch(() => ({}));
       stored = res.ok && data.stored === true;
@@ -151,7 +174,7 @@ export default function VerifiedPackageForm() {
 
     // 2. Email the owner via FormSubmit — the same mechanism the VP wholesale
     //    and vendor-registration forms already use. No API key required.
-    //    Attachment = a generated signed PDF (terms + details + signature).
+    //    Attachment = the signed PDF (terms + details + signature).
     let emailed = false;
     try {
       const fd = new FormData();
@@ -163,27 +186,13 @@ export default function VerifiedPackageForm() {
       fd.append("Authorised signatory", payload.signatory);
       fd.append("Position", payload.position);
       fd.append("Email", payload.email);
+      fd.append("30-day free trial accepted", payload.trialAccepted ? "Yes" : "No");
       fd.append("Terms version", payload.termsVersion);
-      fd.append("Signed at", new Date().toISOString());
+      fd.append("Signed at", signedAt);
       fd.append("Type", "Verified Package agreement");
       fd.append("_template", "table");
       fd.append("_captcha", "false");
 
-      // build the signed PDF and attach it
-      const { buildAgreementPdf } = await import("@/lib/agreement-pdf");
-      const signedAt = new Date().toISOString();
-      const pdfBlob = buildAgreementPdf({
-        company: payload.company,
-        companiesHouse: payload.companiesHouse,
-        website: payload.website,
-        payment: payload.payment,
-        signatory: payload.signatory,
-        position: payload.position,
-        email: payload.email,
-        signaturePng: payload.signature,
-        signedAt,
-        termsVersion: payload.termsVersion,
-      });
       const safeName = payload.company.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
       fd.append("attachment", pdfBlob, `verified-package-${safeName}.pdf`);
 
@@ -216,59 +225,89 @@ export default function VerifiedPackageForm() {
       <div className="bg-white border border-slate-200 rounded-2xl p-7 mb-5">
         <h2 className="text-base font-bold text-[#0f1b3d] mb-3">Terms &amp; Conditions</h2>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">1. What you are buying</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">1. The Service</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          A <strong>£50/month subscription for verification work</strong> — not a purchase of points, a rating, or a
-          band. <strong>Verified Entity (+15):</strong> we verify your legal identity (registered Ltd or sole trader) and
-          that you accept card or bank payment. <strong>Domain Verified (+15):</strong> free — you install the
-          TrustScore badge linking back to ViralPeps, and we confirm you own the domain. We recertify every 12 months.
-          Scores are <strong>never for sale</strong>.
+          The Verified Package is a <strong>monthly verification and audit service</strong> supplied at a fee of £50
+          per calendar month (&ldquo;the Fee&rdquo;). The Fee constitutes consideration for the verification services
+          described herein. It does not constitute a purchase of, or entitlement to, any TrustScore, rating, band, or
+          numerical value. <strong>Verified Entity (+15):</strong> ViralPeps shall verify the Subscriber&rsquo;s legal
+          business identity (a company registered at Companies House or a sole trader) and shall confirm that the
+          Subscriber accepts real-money payment by card or bank transfer. <strong>Domain Verification (+15):</strong>{" "}
+          provided at no additional charge; the Subscriber shall install the TrustScore badge on its website, linked to
+          viralpeps.co.uk, and ViralPeps shall confirm the Subscriber&rsquo;s ownership and operation of the relevant
+          domain. <strong>Recertification:</strong> ViralPeps shall re-verify the Subscriber&rsquo;s entity and payment
+          particulars at intervals of twelve (12) months. TrustScores are <strong>not offered for sale</strong>; the Fee
+          is payable in respect of the audit performed, and any points are awarded solely upon verification of the
+          underlying facts.
         </p>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">2. What you must provide</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">2. Subscriber Obligations</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          Your registered company name and Companies House number (or sole-trader evidence); confirmation of your
-          payment provider; and proof you own the website carrying the badge. We may request further evidence.
+          The Subscriber shall provide: its registered company name and Companies House number, or such evidence of
+          sole-trader status as ViralPeps may reasonably require; confirmation of its payment provider (card processor
+          or bank); and evidence of ownership and operation of the website upon which the badge is displayed. ViralPeps
+          may request such further evidence as it reasonably considers necessary to complete or renew the audit, and the
+          Subscriber shall provide such evidence within a reasonable time.
         </p>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">3. Payment</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">3. Fees and Payment</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          £50/month by Direct Debit (default), or £60/month by bank transfer (the higher rate covers manual
-          collection). Billed monthly in advance until cancelled, with <strong>30 days&rsquo; written notice</strong> to
-          cancel. If payment is <strong>7 days late</strong>, your entity verification is suspended (your score reverts
-          to the automatic score, maximum 85) and a <strong>£10 late fee</strong> applies. Verification is restored
-          immediately on payment.
+          <strong>£50 per month by Direct Debit</strong> (standard rate), the first <strong>thirty (30) days</strong> of
+          which are free of charge; <strong>or £60 per month by bank transfer</strong> (the higher rate reflects the
+          additional administrative cost of manual collection). During the free-of-charge period, the verification shall
+          proceed and the TrustScore shall be awarded in full. Following the free-of-charge period, the Fee shall be
+          collected monthly in advance and shall continue until termination in accordance with these Terms.{" "}
+          <strong>
+            The Subscriber shall receive a GoCardless Direct Debit link from ViralPeps in order to establish the Direct
+            Debit mandate.
+          </strong>{" "}
+          Termination requires <strong>thirty (30) days&rsquo; written notice</strong>. Where any sum remains
+          outstanding for more than <strong>seven (7) days</strong> from its due date, whether payable by Direct Debit
+          or bank transfer, the Subscriber&rsquo;s TrustScore shall be suspended, subject to a maximum of 85, and an
+          administrative <strong>late-payment fee of £10</strong> shall become payable. The score shall be restored upon
+          receipt of payment. Where payment is not made, the Subscriber&rsquo;s TrustScore shall revert to the
+          automatically calculated score, subject to a maximum of 85.
         </p>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">4. No sale of scores</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">4. No Sale of Scores</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          The fee buys <strong>verification, not a score</strong>. We award +15 only if the facts verify; a failed check
-          is not refundable. We may re-check, downgrade, or remove points if evidence proves false, and cancel the
-          subscription. We do not promise a specific band or number.
+          The Fee is payable for <strong>verification services, not for any score</strong>. The +15 shall be awarded
+          only upon successful verification; a failed verification shall not give rise to any refund. ViralPeps reserves
+          the right to re-verify, downgrade, or withdraw any points at any time where evidence is found to be false,
+          misleading, or incomplete, and to terminate the subscription accordingly. ViralPeps gives no warranty,
+          representation, or guarantee as to any particular band or numerical outcome. The audit measures; it does not
+          grade.
         </p>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">5. Badge display</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">5. Badge Display and Use</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          The badge must be shown unmodified and link back to viralpeps.co.uk. We may withdraw badge rights for
-          misleading use.
+          The Subscriber shall display the badge unmodified and linked to viralpeps.co.uk. ViralPeps may withdraw the
+          Subscriber&rsquo;s right to display the badge where the Subscriber misrepresents its TrustScore or uses the
+          badge in a misleading manner.
         </p>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">6. Scope &amp; liability</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">6. Scope of Verification and Liability</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          The audit covers entity and payment facts only — not product quality, safety, or compliance. It is not an
-          endorsement. Research-use-only disclaimers still apply. We are not liable for business losses arising from
-          your score, band, or badge.
+          The audit extends to entity and payment particulars only. It does not extend to, and constitutes no
+          representation concerning, product quality, safety, efficacy, or legal compliance. The Verified Package is not
+          an endorsement of the Subscriber&rsquo;s products or services; research-use-only disclaimers continue to apply.
+          To the fullest extent permitted by law, ViralPeps shall not be liable for any business losses, loss of profit,
+          or consequential loss arising from the Subscriber&rsquo;s TrustScore, band, or display of the badge.
         </p>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">7. Your data</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">7. Data Protection</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          We store your evidence only to conduct and renew the audit, share it only to verify it or where legally
-          required, and delete it on request after cancellation (subject to legal retention).
+          ViralPeps shall store the Subscriber&rsquo;s evidence solely for the purpose of conducting and renewing the
+          audit. Such evidence shall be disclosed only as necessary to verify it, or where required by law. ViralPeps
+          shall delete such evidence upon request following termination of the subscription, subject to any statutory
+          retention obligations.
         </p>
 
-        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">8. Changes &amp; law</h3>
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">8. Variation and Governing Law</h3>
         <p className="text-sm text-slate-600 leading-relaxed">
-          We may update these terms with 30 days&rsquo; notice. Governed by the laws of England &amp; Wales.
+          ViralPeps may vary these Terms upon <strong>thirty (30) days&rsquo; written notice</strong>; continued
+          subscription following such notice shall constitute acceptance of the varied Terms. This agreement shall be
+          governed by and construed in accordance with the laws of England &amp; Wales.
         </p>
       </div>
 
@@ -311,6 +350,16 @@ export default function VerifiedPackageForm() {
             Bank transfer — £60/mo
           </label>
         </div>
+
+        {payment === "dd" && (
+          <label className="flex gap-2.5 items-start mt-3.5 mb-1.5 text-[13px] text-slate-600">
+            <input type="checkbox" checked={trial} onChange={(e) => setTrial(e.target.checked)} className="mt-1" />
+            <span>
+              I accept the 30-day free trial, after which £50/month will be collected by Direct Debit. I understand I
+              will receive a GoCardless Direct Debit link to set this up.
+            </span>
+          </label>
+        )}
 
         <div className="flex gap-3.5">
           <div className="flex-1">
