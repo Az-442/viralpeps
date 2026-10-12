@@ -24387,5 +24387,72 @@
     "compoundSlug": "selank",
     "destUrl": "https://www.peptidepal.co.uk/products/selank",
     "visitorId": "d93cda6e73acdc88"
+  },
+  {
+    "ts": "2026-10-12T05:31:48.843Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/sermorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/the-peptide-code/sermorelin",
+    "visitorId": "8e8a22195110f8a1"
+  },
+  {
+    "ts": "2026-10-12T05:38:25.256Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "69407165fe494dd2"
+  },
+  {
+    "ts": "2026-10-12T05:38:32.903Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "513bde519fc26e33"
+  },
+  {
+    "ts": "2026-10-12T05:42:06.351Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ss-31/",
+    "visitorId": "178e0279021db606"
+  },
+  {
+    "ts": "2026-10-12T05:44:49.666Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://pyroxlabs.co.uk/product/ss-31-50mg/",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-12T05:51:43.389Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptideslabuk.com/product/aod9604/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-lab-uk/aod-9604",
+    "visitorId": "f9262336664f9b7f"
+  },
+  {
+    "ts": "2026-10-12T06:02:05.742Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://polygonpeptides.co.uk/product/mt2-10mg/",
+    "visitorId": "53c0fb61446a9b39"
   }
 ]
