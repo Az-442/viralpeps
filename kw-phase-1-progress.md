@@ -1376,15 +1376,113 @@ and `/compounds/mots-c`).
 
 ---
 
+## Day 23 — Thu 08 Oct (2 articles) ✅ DONE
+Completed 12 Oct 2026 by daily blog cron (main branch, direct, commit `af9ba34a`).
+
+All three planned slugs for Days 23–24 were absent from BOTH `research.ts` and
+`research-content.ts` at the start of this run (reconciliation script) — no dedupe skip needed.
+
+- `survodutide-deep-dive` — **survodutide** (deep) — section: peptides, compoundSlug: survodutide,
+  compound: Survodutide. Angle: the glucagon-BIASED GCGR/GLP-1 dual agonist — oxyntomodulin
+  backbone, why a glucagon agonist treats a metabolic disease (hepatic fat oxidation, not
+  appetite), the 2026 phase 3 SYNCHRONIZE-1/-2 week-76 data under the treatment-regimen estimand,
+  the phase 2 MASH **quadratic** dose-response (62% at 4.8 mg vs 43% at 6.0 mg — "higher is better"
+  is a misreading), and the mediation question that decides whether the liver benefit is a real
+  mechanism. 5-vendor / £39–£160 UK research supply.
+- `follistatin-344-suppliers-uk` — **follistatin 344 suppliers UK** (suppliers) — section:
+  research-hub, compoundSlug: follistatin-344, compound: Follistatin 344. Angle: a 344-residue
+  **recombinant glycoprotein** (~37,000 g/mol) sold with tripeptide-style presentation. Why mass
+  spec cannot identify a glycosylated protein, why purity needs a stated METHOD, why endotoxin is
+  the most-omitted spec, and why there is no bioactivity assay to ask for. 11 vendors, 12 listings,
+  **7.6× spread** (£30.00–£229.00). The published central serous chorioretinopathy signal.
+
+Article types differ (deep / suppliers) on different compounds — no keyword stacking.
+
+Cards (both Pillow single-vial 75%-height, via `scripts/make_kw_phase1_day23_cards.py`):
+- `public/images/guides/survodutide-deep-dive.png` — survodutide-vial, "Deep Dive Report",
+  subtitle "The Glucagon-Biased Dual Agonist"
+- `public/images/guides/follistatin-344-suppliers-uk.png` — follistatin-344-vial, "Supplier Guide",
+  subtitle "A Protein Sold Like a Peptide"
+
+Vial labels QA'd with the vision tool BEFORE compositing: follistatin-344-vial ("Follistatin 344 /
+1mg") and survodutide-vial ("Survodutide / 10mg") — both compound identifiers correct. Both finished
+cards vision-checked: correct compound, no clipping. Title widths measured with `draw.textlength()`
+against the single-vial 579px allowance: 281px and 246px. Build: passed (251/251 pages, up from 243).
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+2,331 / 2,335.
+
+All 6 internal links verified against `compounds.json` slugs and live `research.ts` /
+`research-content.ts` keys — 0 broken. **23 references verified individually via NCBI E-utilities
+esummary** (title + journal matched for every one) — including the newly-published 2026 phase 3
+trials, which were found by SEARCH not guessed: SYNCHRONIZE-1 PMID 42253238, SYNCHRONIZE-2 PMID
+42820639, phase 2 MASH PMID 38847460, SYNCHRONIZE-MASLD PMID 42252333, mediation analysis PMID
+42545725. Both guide card `image:` refs cross-checked against disk: OK.
+
+Live verified: both articles 200 with correct `<title>`, self-referencing canonical, card images
+serving at MATCHING byte size (188256 / 190269), both listed on `/research` and in `sitemap.xml`,
+and both present in their compounds' Research Library sections (`/compounds/survodutide`,
+`/compounds/follistatin-344`).
+
+### ⚠️ Lessons from this run
+1. **`write_file` did NOT double escapes this run** — run-length checker reported `{1: 40}` and
+   `{1: 48}` (single backslash before every `n`), 0 doubled quote escapes. The normaliser was
+   still run as a check-first step and reported clean. Consistent with Days 7 and 21.
+2. **The `research-content.ts` seam was the NO-INDENT form this run:**
+   `'],' + NL + '},' + NL + NL + '};' + NL + 'export default content;'` matched exactly 1
+   (the `2s-0` variant also reports 1 as a substring — probe all and prefer the explicit form).
+   The `2s-2s` and `4s-2s` variants matched 0. Replacement re-emitted the seam's own `],\n},` and
+   appended each new block with its own trailing comma. Verified `},\n,\n` count == 0 afterwards.
+3. **⚠️ NEW PITFALL — `tmp/` IS INSIDE THE BUILD'S TYPE-CHECK SCOPE.** The first `npx next build`
+   after merging FAILED with `./tmp/kw23/frag_follistatin.ts:1:31 Type error: ';' expected`. My
+   /tmp-fragment staging directory was created **inside the repo** (`viralpeps/tmp/kw23/`), and
+   Turbopack's "Running TypeScript" step picks up every `.ts` file under the project root — including
+   bare object fragments that are not valid standalone TypeScript. Fix: stage fragments OUTSIDE the
+   repo tree (`~/.hermes/tmp/kw23/`). **Never write working fragments anywhere under the repo root.**
+   The pre-existing `tmp/_*.py` files are fine because they are Python, not TypeScript.
+4. **The pre-merge `tsc` gate must be run as a wrapper module, not on the bare fragment.** Wrapping
+   both fragments as `const x: Record<string, ResearchPageContent> = { <frag1><frag2> };` and running
+   the project's own `./node_modules/.bin/tsc --noEmit --strict` passed rc=0 on the first attempt —
+   this gate plus the byte-level escape assertions is the cheapest insurance in the run.
+5. **`research.ts` guides-array anchor was `"  },\n\n];\n\nexport const compoundList"` (count 1)** —
+   the Day-22 note's form (blank line between `},` and `];`) still holds. Day-18/19/20/21 brace rule
+   applied: replacement is `"  },\n\n" + blocks + "];\n\nexport const compoundList"`. Verified both
+   new `slug:` offsets sit before `export const compoundList` (102896 / 103692 < 103920).
+6. **The 2026 phase 3 survodutide publications were found by SEARCH, not memory.** These trials
+   reported after my training data and the numbers (week-76 body-weight change under the
+   treatment-regimen estimand, not a completers analysis) matter — quoting a remembered figure would
+   have been wrong. **For any molecule with an active clinical programme, search NCBI esearch first;
+   do not reach for a half-remembered result.** NCBI esearch was UP this run.
+7. **A non-monotonic dose-response must be reported as such.** The phase 2 MASH trial's 6.0 mg arm
+   (43%) underperformed 4.8 mg (62%) against 14% placebo. The investigators pre-specified a
+   **quadratic** dose-response model; the article says so and says the quadratic curve fitted best.
+   Vendors and secondary sources routinely compress this to "higher dose, better result" — reading
+   the abstract directly is what catches it.
+8. **Two compound slugs were miscategorised by my own validator, not by the data.** A link validator
+   that only scans `research.ts` + `research-content.ts` reports `/compounds/<slug>` links as BROKEN
+   because compound slugs live in `compounds.json`. Verify compound targets against `compounds.json`
+   separately — the same three-file split the Day-10 note describes.
+9. **`git status` remained noisy with pre-existing untracked supplier/mailerlite artefacts**
+   (`MAILERLITE-BLOCKED.md`, `newsletter-email.html`, `price-drops-email.html`, `send-newsletter.py`,
+   `tmp/_*.py`, `*.bak.delisted_*`, `*.bak.pg_*`) and two pre-existing MODIFIED files
+   (`tmp/_add_sources.py`, `tmp/_guards.py` — foreign edits, pure rewrites, untouched by me).
+   Staged ONLY my 5 files (2 data, 1 card script, 2 PNGs). `HEAD..origin/main` was 0/0 before the
+   push. No sibling job was active on `research-content.ts`.
+10. **Existing broken-link debt unchanged and still out of scope:** the four `/research/*`
+    forward-links (`hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+    `p21-research-summary` — planned Day 27, `thymosin-alpha1-research-summary`). None were linked
+    from this run's articles.
+
+---
+
 ## Next up
-*Day 22 complete. Advance to Day 23 (`follistatin-344-suppliers-uk`, `survodutide-deep-dive` —
-2 articles).*
+*Day 23 complete. Advance to Day 24 (`cardiogen-vs-bpc-157`, `longevity-peptide-suppliers-uk`,
+`high-purity-research-peptides` — 3 articles).*
 **Before writing, grep every slug against BOTH `research.ts` AND `research-content.ts` AND check
-for same-intent neighbours.** Also note: plan Day 27 lists `melanotan-ii-vs-melanotan-1` — check it
-against the existing `pt141-vs-melanotan2` and the Day-21 `pt-141-vs-melanotan-ii-uk` before
-writing, as that slot has drifted repeatedly. Plan Day 29 lists `kpv-vs-ll37` but the existing
-slug is `kpv-vs-ll-37` — a likely duplicate that should be skipped in favour of the next unused
-article.
+for same-intent neighbours.** Note that `tb-500-deep-dive` (Day 25) and `cjc-1295-suppliers-uk`
+(Day 26) are still unwritten but Day 24's slugs were all confirmed absent on 12 Oct.
+⚠️ **Stage any temp fragments OUTSIDE the repo root** — `viralpeps/tmp/` is inside the build's
+TypeScript scope and bare `.ts` fragments there fail the build (see Day-23 lesson 3).
 
 ---
 
