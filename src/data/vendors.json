@@ -5018,5 +5018,49 @@
       },
       "checkedAt": "2026-10-10T00:41:25.132Z"
     }
+  },
+  {
+    "id": "nova-peptide-lab",
+    "name": "Nova Peptide Lab",
+    "slug": "nova-peptide-lab",
+    "website": "https://novapeptidelab.co.uk",
+    "rating": 4.5,
+    "verified": false,
+    "country": "UK",
+    "description": "Nova Peptide Lab is a UK-based supplier of synthetic research peptides and laboratory research materials covering peptide chemistry, molecular biology, cellular signalling and preclinical research. The catalogue includes BPC-157, TB-500, Retatrutide, GHK-Cu, MOTS-C and pre-mixed research pens, dispatched from UK stock with COA documentation.",
+    "highlights": [
+      "UK-based supplier, UK stock dispatch",
+      "COA documentation per batch",
+      "Pre-mixed research pens available",
+      "Royal Mail tracked delivery"
+    ],
+    "shipping": [
+      "Order before 3:30pm (Mon-Fri) for next-day delivery",
+      "Royal Mail 2 business days with tracking",
+      "Free shipping on orders over £250",
+      "Worldwide shipping available on selected products"
+    ],
+    "payment": [
+      "Secure encrypted online checkout"
+    ],
+    "lastTested": "2026-10-12",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-12T00:39:06.520Z"
+    }
   }
 ]
