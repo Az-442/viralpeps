@@ -25054,5 +25054,68 @@
     "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/",
     "refPage": "https://www.viralpeps.co.uk/go/biohack-peptides/tesamorelin",
     "visitorId": "458d3ff1582bed13"
+  },
+  {
+    "ts": "2026-10-12T13:07:50.146Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "0a040ee6c297ace7"
+  },
+  {
+    "ts": "2026-10-12T13:11:56.424Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.stratfordpeptides.com/products/cjc-1295-no-dac",
+    "visitorId": "7202caea043f9a37"
+  },
+  {
+    "ts": "2026-10-12T13:16:43.376Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptideslabuk.com/product/mt-2-melanotan-2-acetate/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-12T13:16:51.978Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptideslabuk.com/product/mt-2-melanotan-2-acetate/",
+    "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-10-12T13:18:04.244Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "testagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-testagen/",
+    "visitorId": "097b153c574ed755"
+  },
+  {
+    "ts": "2026-10-12T13:22:25.080Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/",
+    "visitorId": "21b5490dd5e2853d"
+  },
+  {
+    "ts": "2026-10-12T13:28:01.012Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "aod-9604-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/aod-9604-5mg",
+    "visitorId": "fa4125d569e6610c"
   }
 ]
