@@ -27663,5 +27663,295 @@
     "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water/",
     "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/bacteriostatic-water",
     "visitorId": "35e0d1aa6f992e43"
+  },
+  {
+    "ts": "2026-10-12T17:18:07.652Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/mots-c-40/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c3291e8d0a2fbd2a"
+  },
+  {
+    "ts": "2026-10-12T17:19:59.187Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://britishpeptidelabs.com/products/bacteriostatic-water",
+    "refPage": "https://www.viralpeps.co.uk/go/british-peptide-labs/bacteriostatic-water",
+    "visitorId": "36faf6fb5d61d2bd"
+  },
+  {
+    "ts": "2026-10-12T17:20:34.386Z",
+    "type": "vendor-site",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "destUrl": "https://olresearch.co.uk",
+    "visitorId": "e23c1eae547b4ecd"
+  },
+  {
+    "ts": "2026-10-12T17:23:40.852Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://xlpeptides.com/product/ghk-cu-50mg/",
+    "visitorId": "d1c944851207b4de"
+  },
+  {
+    "ts": "2026-10-12T17:23:48.716Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://jgpeptidesplus.com/product/pt141-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/jgpeptidesplus/pt-141",
+    "visitorId": "afe6b60525ab0630"
+  },
+  {
+    "ts": "2026-10-12T17:25:45.330Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-mots-c-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/mots-c-10mg/",
+    "visitorId": "faf171b1d1bc08e1"
+  },
+  {
+    "ts": "2026-10-12T17:27:54.828Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "039a4f3470162d8c"
+  },
+  {
+    "ts": "2026-10-12T17:28:03.106Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "c83f55e0e883c1be"
+  },
+  {
+    "ts": "2026-10-12T17:28:05.659Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "c83f55e0e883c1be"
+  },
+  {
+    "ts": "2026-10-12T17:28:54.833Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-kisspeptin-10-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "8a2f968b47cd0340"
+  },
+  {
+    "ts": "2026-10-12T17:29:15.026Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-kisspeptin-10-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "95fea6be8b643192"
+  },
+  {
+    "ts": "2026-10-12T17:29:30.050Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://mypepbiotech.co.uk/product/mots-c-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/mypep-biotech/mots-c",
+    "visitorId": "cba81352df47b8d0"
+  },
+  {
+    "ts": "2026-10-12T17:31:32.411Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "destUrl": "https://thepeptidecode.co.uk",
+    "visitorId": "fabb13eb106e700b"
+  },
+  {
+    "ts": "2026-10-12T17:34:43.719Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://peptideslabuk.com/product/snap-8/",
+    "visitorId": "958b522bc2f1a668"
+  },
+  {
+    "ts": "2026-10-12T17:35:01.676Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://peptideslabuk.com/product/snap-8/",
+    "visitorId": "7202581db0ba1ad2"
+  },
+  {
+    "ts": "2026-10-12T17:35:12.449Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://allmypeptides.com/product/mots-c/",
+    "visitorId": "708bfbff4ea97aeb"
+  },
+  {
+    "ts": "2026-10-12T17:35:41.520Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://allmypeptides.com/product/mots-c/",
+    "visitorId": "3bceb18d4e2cc52a"
+  },
+  {
+    "ts": "2026-10-12T17:37:10.405Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://novavitality.co.uk/product/bpc-157-tb-500-mixture/",
+    "visitorId": "5da8f4a2bf6b6778"
+  },
+  {
+    "ts": "2026-10-12T17:37:36.767Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vesugen/",
+    "visitorId": "e606c6e8c643a54a"
+  },
+  {
+    "ts": "2026-10-12T17:37:47.525Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://novavitality.co.uk/product/bpc-157-tb-500-mixture/",
+    "visitorId": "51242fc458686b80"
+  },
+  {
+    "ts": "2026-10-12T17:38:00.796Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vesugen/",
+    "visitorId": "432ed6a3c0f94b97"
+  },
+  {
+    "ts": "2026-10-12T17:38:13.776Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vesugen/",
+    "visitorId": "64c12f1ea35ec92a"
+  },
+  {
+    "ts": "2026-10-12T17:39:00.143Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "vip",
+    "destUrl": "https://novavitality.co.uk/product/vip/",
+    "visitorId": "71a5fd3e8c354612"
+  },
+  {
+    "ts": "2026-10-12T17:40:35.590Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/",
+    "visitorId": "7135cde10deeb34f"
+  },
+  {
+    "ts": "2026-10-12T17:40:52.974Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/",
+    "visitorId": "d4f99b1c982eaf03"
+  },
+  {
+    "ts": "2026-10-12T17:40:55.683Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://britpeptides.co.uk/product/selank/",
+    "visitorId": "094cb95c9229dc6f"
+  },
+  {
+    "ts": "2026-10-12T17:42:57.569Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://peptidesuk4u.co.uk/product/melanotan-1-mt-1-10mg",
+    "visitorId": "669f88c367f5ee0d"
+  },
+  {
+    "ts": "2026-10-12T17:44:50.377Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157/",
+    "visitorId": "090e0b5084590268"
+  },
+  {
+    "ts": "2026-10-12T17:45:04.263Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157/",
+    "visitorId": "6f87c9d67f6beaed"
+  },
+  {
+    "ts": "2026-10-12T17:45:12.184Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/semax/",
+    "visitorId": "c6deb0cd83c35bb7"
+  },
+  {
+    "ts": "2026-10-12T17:46:36.045Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://kingstonpeptides.com/en/products/bacteriostatic-water",
+    "visitorId": "614fdce3cd25f2a9"
+  },
+  {
+    "ts": "2026-10-12T17:48:32.635Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu",
+    "visitorId": "f608469f745eea73"
   }
 ]
