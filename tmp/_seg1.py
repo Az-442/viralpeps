@@ -1,0 +1,10 @@
+raw = open('/tmp/kw22_b.ts','rb').read()
+i = raw.find(b"title: 'Two Fragments, Two Different Things'")
+j = raw.find(b"title: 'Mechanism: What Each One Actually Does'")
+seg = raw[i:j]
+print("segment length", len(seg))
+print("real newlines in segment:", seg.count(b'\n'))
+print("escaped \\n in segment:", seg.count(b'\\n'))
+print(repr(seg[:600]))
+print("...")
+print(repr(seg[-400:]))

@@ -231,46 +231,6 @@
         "image": "/images/products/stratford-peptides/tirzepatide.png"
       },
       {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/tirzepatide-5mg-uk/",
-        "price": "£24.99",
-        "inStock": false,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/05/tirzepatide-5mg-uk-astra-labs-front-view-scaled-400x400.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/tirzepatide-10mg-uk/",
-        "price": "£44.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/05/tirzepatide-10mg-uk-astra-labs-front-view-scaled-400x400.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/tirzepatide-20mg-uk/",
-        "price": "£64.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/05/tirzepatide-20mg-uk-astra-labs-front-view-scaled-400x400.webp",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/tirzepatide-40mg/",
-        "price": "£99.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/06/tirzepatide-40mg-research-vial-uk-astra-labs-400x400.webp",
-        "dosage": "40mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/tirzepatide-60mg/",
-        "price": "£139.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/06/tirzepatide-60mg-research-vial-uk-astra-labs-400x400.webp",
-        "dosage": "60mg"
-      },
-      {
         "vendor": "Octagon Peptides",
         "url": "https://octagonpeptides.co.uk/product/tirze-30-mg/",
         "price": "£80.00",
@@ -903,14 +863,6 @@
         "inStock": true,
         "image": "/images/products/raw-peptides/semaglutide-30mg.jpg",
         "dosage": "30mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/semaglutide-10mg-uk/",
-        "price": "£25.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/05/semaglutide-10mg-uk-astra-labs-front-view-scaled-400x400.webp",
-        "dosage": "10mg"
       },
       {
         "vendor": "Bio Peptides UK",
@@ -4839,38 +4791,6 @@
         "image": "/images/products/stratford-peptides/retatrutide.png"
       },
       {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/retatrutide-10mg-uk/",
-        "price": "£59.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/03/retatrutide-10mg-front.jpg-scaled-400x400.jpg",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/retatrutide-20mg/",
-        "price": "£79.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/03/retatrutide-20mg-front.jpg-scaled-400x400.jpg",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/retatrutide-40mg/",
-        "price": "£139.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/06/retatrutide-40mg-research-vial-uk-astra-labs-400x400.webp",
-        "dosage": "40mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/retatrutide-60mg/",
-        "price": "£159.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/06/retatrutide-60mg-research-vial-uk-astra-labs-400x400.webp",
-        "dosage": "60mg"
-      },
-      {
         "vendor": "OL Research",
         "url": "https://olresearch.co.uk/product/r3ta-20mg/",
         "price": "£81.00",
@@ -7227,14 +7147,6 @@
         "inStock": true,
         "image": "/images/products/precision-peptides/tesamorelin-10mg.jpeg",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/tesamorelin-5mg-uk/",
-        "price": "£27.99",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/05/tesamorelin-5mg-uk-astra-labs-front-view-scaled-400x400.webp",
-        "dosage": "5mg"
       },
       {
         "vendor": "OL Research",
@@ -12919,14 +12831,6 @@
         "price": "£30.00",
         "inStock": true,
         "image": "/images/products/precision-peptides/semax-10mg.jpeg",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Astra Labs",
-        "url": "https://astralabs.co.uk/product/semax-peptide-uk/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "https://astralabs.co.uk/wp-content/uploads/2026/03/semax-10mg-front.jpg-scaled-400x400.jpg",
         "dosage": "10mg"
       },
       {
