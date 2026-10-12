@@ -24287,5 +24287,105 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://nilahlabs.co.uk/products/glp-3-rt",
     "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-12T05:00:09.512Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://nilahlabs.co.uk/products/glp-3-rt",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-12T05:00:11.668Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://nilahlabs.co.uk/products/glp-3-rt",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-12T05:01:12.991Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.apex-pharma.co.uk/product/bac-water-10ml/",
+    "visitorId": "21870dcbca78a1ca"
+  },
+  {
+    "ts": "2026-10-12T05:03:59.647Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-2-pralmorelin-5mg",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-pralmorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/ghrp-2-pralmorelin-5mg",
+    "visitorId": "d8407316de28c309"
+  },
+  {
+    "ts": "2026-10-12T05:07:58.779Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "12b0c25ad37afcc7"
+  },
+  {
+    "ts": "2026-10-12T05:13:48.612Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pyroxlabs.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-12T05:14:10.226Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "visitorId": "47ffee8bfcbf6fac"
+  },
+  {
+    "ts": "2026-10-12T05:14:38.922Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://cmsrlabs.co/shop/",
+    "visitorId": "47ffee8bfcbf6fac"
+  },
+  {
+    "ts": "2026-10-12T05:18:03.799Z",
+    "type": "vendor-site",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "destUrl": "https://newwavepeptides.co.uk",
+    "visitorId": "9759aea5baf918f7"
+  },
+  {
+    "ts": "2026-10-12T05:21:12.311Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://supplypeptides.co.uk/products/pt-141",
+    "refPage": "https://www.viralpeps.co.uk/go/supply-peptides/pt-141-bremelanotide",
+    "visitorId": "0e2fa15be5027d8a"
+  },
+  {
+    "ts": "2026-10-12T05:31:24.487Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.peptidepal.co.uk/products/selank",
+    "visitorId": "d93cda6e73acdc88"
   }
 ]
