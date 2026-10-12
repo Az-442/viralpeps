@@ -25604,5 +25604,455 @@
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg-blend/",
     "visitorId": "ee5611e84d3f23fb"
+  },
+  {
+    "ts": "2026-10-12T15:04:41.457Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg-blend/",
+    "visitorId": "311105e11d21fea0"
+  },
+  {
+    "ts": "2026-10-12T15:04:54.814Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptidelabuk.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg-blend/",
+    "visitorId": "d16b45e0ced9db31"
+  },
+  {
+    "ts": "2026-10-12T15:05:32.345Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cerebrolysin",
+    "destUrl": "https://bionikpeptides.com/products/cerebrolysin",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-12T15:06:17.431Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp",
+    "visitorId": "59575c482e79ce04"
+  },
+  {
+    "ts": "2026-10-12T15:06:31.139Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp",
+    "visitorId": "75480621052835f5"
+  },
+  {
+    "ts": "2026-10-12T15:06:39.434Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "92b787097a9f46f0"
+  },
+  {
+    "ts": "2026-10-12T15:06:40.504Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.stratfordpeptides.com/products/disp",
+    "visitorId": "e768a3258af3f91c"
+  },
+  {
+    "ts": "2026-10-12T15:09:25.213Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/kisspeptin-5mg",
+    "refPage": "https://www.viralpeps.co.uk/go/flex-peptides/kisspeptin",
+    "visitorId": "79ab6f7561bcda47"
+  },
+  {
+    "ts": "2026-10-12T15:14:16.588Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptideslabuk.com/product/klow-80mg/",
+    "visitorId": "40b25a762e1cc196"
+  },
+  {
+    "ts": "2026-10-12T15:15:34.175Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptideslabuk.com/product/tesamorelin/",
+    "visitorId": "e4cb2d9d31f18a4d"
+  },
+  {
+    "ts": "2026-10-12T15:15:45.026Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptideslabuk.com/product/tesamorelin/",
+    "visitorId": "391f36bfee906414"
+  },
+  {
+    "ts": "2026-10-12T15:16:04.075Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptideslabuk.com/product/igf-des/",
+    "visitorId": "55c49f2f447d3279"
+  },
+  {
+    "ts": "2026-10-12T15:16:07.948Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptideslabuk.com/product/tesamorelin/",
+    "visitorId": "6443ec5bc9b382b1"
+  },
+  {
+    "ts": "2026-10-12T15:16:28.450Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptideslabuk.com/product/igf-des/",
+    "visitorId": "2c147e6faee13892"
+  },
+  {
+    "ts": "2026-10-12T15:19:16.257Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-matrixyl-3000/",
+    "visitorId": "462eea98ecdae58e"
+  },
+  {
+    "ts": "2026-10-12T15:19:24.369Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-matrixyl-3000/",
+    "visitorId": "9eb9a0f32fe98e5d"
+  },
+  {
+    "ts": "2026-10-12T15:19:42.048Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-matrixyl-3000/",
+    "visitorId": "9c58edb55f77e376"
+  },
+  {
+    "ts": "2026-10-12T15:19:48.587Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://nilahlabs.co.uk/products/nad",
+    "visitorId": "9191c43132b1274b"
+  },
+  {
+    "ts": "2026-10-12T15:19:48.801Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://nilahlabs.co.uk/products/klow",
+    "visitorId": "72ce8cec131ed5a1"
+  },
+  {
+    "ts": "2026-10-12T15:19:50.816Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://nilahlabs.co.uk/products/mt2",
+    "visitorId": "f8b4896342999779"
+  },
+  {
+    "ts": "2026-10-12T15:19:51.707Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bluewellpeptides.com/product/vesugen-20mg-peptide/",
+    "visitorId": "c556afcff8bd05e3"
+  },
+  {
+    "ts": "2026-10-12T15:19:51.915Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://nilahlabs.co.uk/products/klow",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-10-12T15:19:53.409Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://nilahlabs.co.uk/products/nad",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-10-12T15:19:54.258Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://nilahlabs.co.uk/products/mt2",
+    "visitorId": "5e09d3b11f43ec1b"
+  },
+  {
+    "ts": "2026-10-12T15:19:54.305Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://nilahlabs.co.uk/products/klow",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-12T15:19:57.657Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://nilahlabs.co.uk/products/mt2",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-10-12T15:22:22.774Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nilahlabs.co.uk/products/mots-c",
+    "visitorId": "2ddcc53970131d4e"
+  },
+  {
+    "ts": "2026-10-12T15:22:23.904Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nilahlabs.co.uk/products/ghkcu",
+    "visitorId": "770fa3c81b8f2004"
+  },
+  {
+    "ts": "2026-10-12T15:22:25.157Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://nilahlabs.co.uk/products/glow",
+    "visitorId": "2625f70b732ee1c2"
+  },
+  {
+    "ts": "2026-10-12T15:22:25.980Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://nilahlabs.co.uk/products/glp-3-rt",
+    "visitorId": "6c6b110fc8f60223"
+  },
+  {
+    "ts": "2026-10-12T15:22:26.348Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://nilahlabs.co.uk/products/wolverine-blend",
+    "visitorId": "71b8fc1e9bc9f7eb"
+  },
+  {
+    "ts": "2026-10-12T15:22:28.644Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://nilahlabs.co.uk/products/glow",
+    "visitorId": "72ce8cec131ed5a1"
+  },
+  {
+    "ts": "2026-10-12T15:22:29.732Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://nilahlabs.co.uk/products/wolverine-blend",
+    "visitorId": "e3f495e9156dfe87"
+  },
+  {
+    "ts": "2026-10-12T15:22:32.186Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://nilahlabs.co.uk/products/wolverine-blend",
+    "visitorId": "cea3888533cfc909"
+  },
+  {
+    "ts": "2026-10-12T15:22:32.893Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://nilahlabs.co.uk/products/glow",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-12T15:24:26.098Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nilahlabs.co.uk/products/ghkcu",
+    "visitorId": "18031dcca2288576"
+  },
+  {
+    "ts": "2026-10-12T15:25:00.810Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://nilahlabs.co.uk/products/bac-water-ampoule",
+    "visitorId": "77e6da1dd1177e9f"
+  },
+  {
+    "ts": "2026-10-12T15:27:02.969Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://nilahlabs.co.uk/products/bac-water-ampoule",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-12T15:27:36.259Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://nilahlabs.co.uk/products/pt-141",
+    "visitorId": "18031dcca2288576"
+  },
+  {
+    "ts": "2026-10-12T15:27:39.487Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://nilahlabs.co.uk/products/pt-141",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-12T15:27:45.315Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://nilahlabs.co.uk/products/pt-141",
+    "visitorId": "b4f261adf0e1fb4d"
+  },
+  {
+    "ts": "2026-10-12T15:27:53.045Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com",
+    "visitorId": "3e6228678bd59852"
+  },
+  {
+    "ts": "2026-10-12T15:28:13.970Z",
+    "type": "vendor-site",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "destUrl": "https://www.stratfordpeptides.com",
+    "visitorId": "e2a28db8df14e47f"
+  },
+  {
+    "ts": "2026-10-12T15:29:46.788Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://pslabs.uk/products/semax-10mg",
+    "visitorId": "5cbde645e5a64a5e"
+  },
+  {
+    "ts": "2026-10-12T15:30:11.299Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://nilahlabs.co.uk/products/bpc-157",
+    "visitorId": "57649e693b514651"
+  },
+  {
+    "ts": "2026-10-12T15:32:17.726Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://nilahlabs.co.uk/products/bpc-157",
+    "visitorId": "a60398f7c17881f9"
+  },
+  {
+    "ts": "2026-10-12T15:32:47.465Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://nilahlabs.co.uk/products/ipamorelin",
+    "visitorId": "ae0d759f129012c7"
+  },
+  {
+    "ts": "2026-10-12T15:32:51.062Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://nilahlabs.co.uk/products/ipamorelin",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-10-12T15:32:53.310Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://nilahlabs.co.uk/products/ipamorelin",
+    "visitorId": "df01386090664fac"
+  },
+  {
+    "ts": "2026-10-12T15:37:50.965Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://olresearch.co.uk/product/cjc-1295-dac-5mg/",
+    "visitorId": "c3acbebb40870536"
   }
 ]
