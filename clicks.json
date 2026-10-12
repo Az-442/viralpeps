@@ -24587,5 +24587,25 @@
     "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg-ghk-cu-50mg",
     "refPage": "https://www.viralpeps.co.uk/go/new-wave-peptides/glow",
     "visitorId": "c7c0285fa3970f4c"
+  },
+  {
+    "ts": "2026-10-12T08:13:36.629Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.buyreta.co.uk/product/nad-plus-500mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/go/buyreta/nad-plus",
+    "visitorId": "2f2c059a5d3511c7"
+  },
+  {
+    "ts": "2026-10-12T08:23:50.163Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-6-5mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/ghrp-6-5mg-research-peptides-uk",
+    "visitorId": "90afc111aba178b4"
   }
 ]
