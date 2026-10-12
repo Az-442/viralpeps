@@ -23258,5 +23258,116 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.novapeptide.co.uk/product/ipamorelin/",
     "visitorId": "592de5bcb9b6ca7b"
+  },
+  {
+    "ts": "2026-10-11T23:44:21.953Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ae5e195ed8e4c28d"
+  },
+  {
+    "ts": "2026-10-11T23:46:35.920Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "l-carnitine-600mg",
+    "destUrl": "https://researchpeptide.co.uk/product/l-carnitine-600mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/l-carnitine-600mg",
+    "visitorId": "2104e55f7cd3356f"
+  },
+  {
+    "ts": "2026-10-11T23:53:06.945Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://everythingpeptides.co.uk/products/glutathione",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-11T23:53:08.321Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://everythingpeptides.co.uk/products/glutathione",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-11T23:53:09.876Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://everythingpeptides.co.uk/products/glutathione",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-11T23:56:41.979Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://chromapeptides.co.uk/product/ghrp-2-5-mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/ghrp-2",
+    "visitorId": "26913029d1f831b6"
+  },
+  {
+    "ts": "2026-10-11T23:58:26.698Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/retatrutide-10mg",
+    "visitorId": "be396c987baed0ec"
+  },
+  {
+    "ts": "2026-10-12T00:03:39.798Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://everythingpeptides.co.uk/products/ipamorelin",
+    "visitorId": "344fdee5ce767189"
+  },
+  {
+    "ts": "2026-10-12T00:03:41.358Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://everythingpeptides.co.uk/products/ipamorelin",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-12T00:06:59.891Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptideglobal.co.uk/product/semax-pen/",
+    "visitorId": "2ff4b5c90aa08858"
+  },
+  {
+    "ts": "2026-10-12T00:12:00.362Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://purepeptidesuk.com/product/thymosin-alpha-1-10mg/",
+    "visitorId": "592de5bcb9b6ca7b"
+  },
+  {
+    "ts": "2026-10-12T00:17:00.445Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "be1cb5041681a0c1"
   }
 ]
