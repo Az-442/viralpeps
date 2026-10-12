@@ -134,6 +134,9 @@ export default function VerifiedPackageForm() {
 
     setSending(true);
     setStatus({ kind: "info", msg: "Submitting…" });
+
+    // 1. Store the signed record in the site repo (no database).
+    let stored = false;
     try {
       const res = await fetch("/api/verified-package", {
         method: "POST",
@@ -141,13 +144,50 @@ export default function VerifiedPackageForm() {
         body: JSON.stringify(payload),
       });
       const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
-      setStatus({ kind: "ok", msg: "Thank you — your signed agreement has been received." });
-    } catch (err) {
-      setStatus({ kind: "err", msg: `Could not submit (${(err as Error).message}). Please email us instead.` });
-    } finally {
-      setSending(false);
+      stored = res.ok && data.stored === true;
+    } catch {
+      stored = false;
     }
+
+    // 2. Email the owner via FormSubmit — the same mechanism the VP wholesale
+    //    and vendor-registration forms already use. No API key required.
+    let emailed = false;
+    try {
+      const fd = new FormData();
+      fd.append("_subject", `Verified Package signed: ${payload.company} (${payload.payment})`);
+      fd.append("Company", payload.company);
+      fd.append("Companies House no.", payload.companiesHouse || "—");
+      fd.append("Website", payload.website);
+      fd.append("Payment method", payload.payment);
+      fd.append("Authorised signatory", payload.signatory);
+      fd.append("Position", payload.position);
+      fd.append("Email", payload.email);
+      fd.append("Terms version", payload.termsVersion);
+      fd.append("Signed at", new Date().toISOString());
+      fd.append("Type", "Verified Package agreement");
+      fd.append("_template", "table");
+      fd.append("_captcha", "false");
+      // attach the signature image
+      const blob = await (await fetch(payload.signature)).blob();
+      fd.append("attachment", blob, `signature-${payload.company.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}.png`);
+
+      const fRes = await fetch("https://formsubmit.co/ajax/info@viralpeps.co.uk", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: fd,
+      });
+      const fData = await fRes.json().catch(() => ({}));
+      emailed = fRes.ok && fData.success !== "false";
+    } catch {
+      emailed = false;
+    }
+
+    if (emailed || stored) {
+      setStatus({ kind: "ok", msg: "Thank you — your signed agreement has been received." });
+    } else {
+      setStatus({ kind: "err", msg: "Could not submit. Please email info@viralpeps.co.uk instead." });
+    }
+    setSending(false);
   };
 
   const inputCls =
