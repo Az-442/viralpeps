@@ -24548,5 +24548,44 @@
     "compoundSlug": "snap-8",
     "destUrl": "https://biopeptides-uk.com/product/snap-8-10mg/",
     "visitorId": "a673b055bd5beca7"
+  },
+  {
+    "ts": "2026-10-12T07:33:27.371Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://olresearch.co.uk/product/copper-ghk-cu-50mg/",
+    "visitorId": "a0b707e664e9e3d9"
+  },
+  {
+    "ts": "2026-10-12T07:37:43.349Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/ipamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "68282330f4723562"
+  },
+  {
+    "ts": "2026-10-12T07:43:11.942Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides/mots-c-pen-express",
+    "visitorId": "7155950e403fc854"
+  },
+  {
+    "ts": "2026-10-12T07:53:23.815Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg-ghk-cu-50mg",
+    "refPage": "https://www.viralpeps.co.uk/go/new-wave-peptides/glow",
+    "visitorId": "c7c0285fa3970f4c"
   }
 ]
