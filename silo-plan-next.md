@@ -648,6 +648,99 @@ Sitemap auto-includes via the registry (verified live: all 6 spokes present).
 
 ---
 
+## ✅ DONE — TB-500 SILO (commit `edc5cffe`)
+
+Queue item 9 (highest-source unbuilt compound). Built per the locked SOP.
+Deploy verified live 2026-10-12.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-tb-500-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-tb-500-uk
+- https://www.viralpeps.co.uk/compound-guides/tb-500-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-tb-500-online-uk
+- https://www.viralpeps.co.uk/compound-guides/tb-500-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-tb-500-peptide
+
+**Verified metrics:** rendered words 1,805–2,623 (all ≥1,200) · titles 44–55 chars ·
+descriptions 155–159 chars · focus keyword in H1 + intro[0] · 86 unique live go-links on the
+full comparison spoke (all 302/308, 0 broken — swept individually) · hub tiles present on
+`/compounds/tb-500` (6 compound-guides links) · index lists TB-500 · all 6 spokes in sitemap ·
+`npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+**Why TB-500 was chosen:** the original 5-item queue was complete, as were BPC-157 and GHK-Cu.
+TB-500 was the highest-source unbuilt compound in `compounds.json` — **116 master sources** —
+making it the strongest remaining silo candidate (hub `/compounds/tb-500` returns 200).
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-12)
+
+⚠️ **Four of the six default modifiers returned ZERO UK results for TB-500** — substituted, as
+the SOP requires. TB-500 is not a GLP-1, so the GLP-1 modifier set does not transfer (same
+pattern as Semax, Selank, Ipamorelin, MOTS-c and GHK-Cu). Note TB-500 autocompletes in the
+spaced form (`tb 500`) for most UK modifier probes; both forms were harvested.
+
+| Modifier | Result |
+|---|---|
+| `where to buy tb-500 uk` | **real UK hits** (`buy tb 500 uk`, `where to buy tb 500`) — passed |
+| `cheapest tb-500 uk` | ⚠️ **0 results** (`cheapest tb 500 uk` / `cheapest tb 500` also 0) → substituted `tb 500 price uk` (**exact #1**; also `tb 500 peptide uk price`) |
+| `tb-500 price comparison uk` | ⚠️ **0 results** → substituted `tb 500 peptide uk price` (#3 under `tb 500 peptide uk`) |
+| `buy tb-500 online uk` | ⚠️ **0 results** (`buy tb 500 online uk` also 0) → substituted `buy tb 500 peptide uk` (**exact #1**) |
+| `tb-500 uk supplier` | ⚠️ **0 results** (`tb 500 uk supplier` / `tb 500 supplier uk` also 0) → substituted `tb 500 for sale uk` (#3) / `tb 500 buy uk` (**exact #1**) |
+| `best tb-500 peptide` | **exact match #1** — passed |
+
+Corroborating hits: `tb 500 uk peptides`, `tb 500 uk for sale`, `buy tb 500 uk`, `tb 500 buy uk`,
+`tb 500 peptide uk`, `tb 500 peptide uk price`, `tb 500 capsules uk`, `tb 500 tablets uk`,
+`tb 500 uk price`, `tb 500 peptide for sale`, `where can i buy tb 500 peptide`, `tb 500 dosage uk`.
+
+### ⚠️ Spoke 5 substitution detail
+`tb-500 uk supplier` / `tb 500 supplier uk` / `tb 500 suppliers uk` **all returned 0 results** —
+no supplier-intent phrasing for TB-500 in UK autocomplete (same as Semax/Selank/Ipamorelin/
+MOTS-c). Spoke 5 was built on **`tb-500-for-sale-uk`**, which has real UK demand
+(`tb 500 uk for sale`, `tb 500 buy uk` #1, `tb 500 for sale uk`).
+
+### Collision check (KW Phase 1)
+`grep -niE "tb-500|tb 500|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`:
+- line 71 `buy-tb-500-uk` → **DUPLICATE shopping intent of spoke 4** → **REMOVED from plan**
+  (spoke owns it). Plan total adjusted.
+- line 28 `tb-500-vs-ghk-cu` → **distinct (vs intent), KEPT.**
+- line 116 `tb-500-suppliers-uk` → **informational intent, KEPT** (not a shopping-intent duplicate).
+- line 149 `tb-500-deep-dive` → **informational, KEPT.**
+- lines 34/88/122 pillar rows → no clash.
+
+### Data
+- 116 master sources + 10 child variant entries folded in (11 TB-500 entries total) → 86 unique
+  live go-links on the full-table spoke.
+- Uses the `vendorSlugFor()` helper (the Semax fix) AND the `goCompoundSlug` row field (the
+  BPC-157 fix) — three vendors appear ONLY on child variant entries (`UK-Peptides.com` →
+  `thymosin-beta-4-tb500-2mg` / `-5mg`, `Claripep` → `thymosin-beta-4-tb500-5mg` / `-10mg`), so
+  their rows resolve `/go/` at the child slug. **0 broken go-links** (all 86 swept individually).
+- Pack sizes: 2mg, 5mg and 10mg dominate; 3 sources carry `options[]` arrays (UK Peptides,
+  Dr P Research, Kingston Peptides) expanded into one row per size.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 36464872 — Thymosin β4 and Actin: Binding Modes, Biological Functions and Clinical Applications (Curr Protein Pept Sci 2023)
+- 27450738 — Thymosin β4 Promotes Dermal Healing (Vitam Horm 2016)
+- 42542926 — Effects of BPC-157 and TB-500 on Achilles tendon healing in rats (Jt Dis Relat Surg 2026)
+- 36580759 — Thymosin β4 and the anti-fibrotic switch (Int Immunopharmacol 2023)
+- 34495765 — Discovery of thymosin beta 4 as a human exerkine and growth factor (Am J Physiol Cell Physiol 2021)
+- 31333080 — Thymosin β4: A Multi-Faceted Tissue Repair Stimulating Protein in Heart Injury (Curr Med Chem 2020)
+- 36709593 — Thymosin beta-4 denotes new directions towards developing prosperous anti-aging regenerative therapies (Int Immunopharmacol 2023)
+- 42757290 — Dangers of Injectable Peptides and Other Unregulated "Biohacking" Drugs (Mo Med 2026)
+- 41966639 — Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance (Sports Med 2026)
+- 33393222 — Multiple potential roles of thymosin β4 in the growth and development of hair follicles (J Cell Mol Med 2021)
+
+⚠️ **Caution reconfirmed:** every ID was harvested via `esearch` then verified with `esummary` —
+never drafted from memory. `TB-500` as a bare term returns mostly unrelated hits; the useful
+literature is under `thymosin beta 4` + topic.
+
+### Files changed
+`src/data/tb-500-silo.ts` (new) · `src/data/tb-500-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 10 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block) · `kw-phase-1-list.md` (collision removal).
+Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
@@ -767,8 +860,9 @@ Tirzepatide, Semaglutide, Semax, Selank, Ipamorelin, MOTS-c = 7 silos, 42 spokes
 added beyond the queue as the highest-source unbuilt compound (8 silos, 48 spokes total),
 then GHK-Cu (9 silos, 54 spokes total).
 
-**Next silo candidates (by source count, hub 200, not yet built):** TB-500 (114),
-Tesamorelin (113), NAD+ (94), Bacteriostatic Water (77), SS-31 (75), DSIP (71), KPV (69).
+**Next silo candidates (by source count, hub 200, not yet built):** Tesamorelin (114),
+NAD+ (94), Bacteriostatic Water (78), SS-31 (75), DSIP (71), KPV (70), Epitalon (68).
+(TB-500, 116 sources, built 2026-10-12 — see below.)
 
 **Rule: only pick a compound whose spokes ALL appear in autocomplete.** Re-run the harvest
 script per compound; some modifiers (e.g. `for sale`) fail for non-GLP-1 compounds.

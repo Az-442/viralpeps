@@ -68,7 +68,8 @@
 
 
 ## Day 11 — Sat 26 Sep (2 articles)
-- `buy-tb-500-uk` — **buy tb-500 UK** (buy)
+- ~~`buy-tb-500-uk` — **buy tb-500 UK** (buy)~~ → **REMOVED 2026-10-12**: duplicate shopping
+  intent, owned by the TB-500 silo spoke `/compound-guides/buy-tb-500-online-uk`.
 - `mots-c-for-metabolism` — **mots-c** (for)
 
 
