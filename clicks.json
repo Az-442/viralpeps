@@ -24607,5 +24607,88 @@
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-5mg/",
     "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/ghrp-6-5mg-research-peptides-uk",
     "visitorId": "90afc111aba178b4"
+  },
+  {
+    "ts": "2026-10-12T08:30:18.906Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bc0f5edcc525f8f3"
+  },
+  {
+    "ts": "2026-10-12T08:30:25.756Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "01ac4da12dcd5f99"
+  },
+  {
+    "ts": "2026-10-12T08:33:53.534Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://everythingpeptides.co.uk/products/nadplus-buffered",
+    "visitorId": "cd59e098adbab0e0"
+  },
+  {
+    "ts": "2026-10-12T08:34:22.029Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://britishpeptidelabs.com/products/bacteriostatic-water",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-10-12T08:43:59.502Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "visitorId": "693a55bc1c57f119"
+  },
+  {
+    "ts": "2026-10-12T08:44:04.678Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "visitorId": "ec7943682904c3cf"
+  },
+  {
+    "ts": "2026-10-12T08:44:07.501Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "visitorId": "ec7943682904c3cf"
+  },
+  {
+    "ts": "2026-10-12T08:47:42.356Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://britishpeptidelabs.com/products/selank",
+    "visitorId": "c79d04c6c882849e"
+  },
+  {
+    "ts": "2026-10-12T08:54:16.515Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bionikpeptides.com/products/vesugen",
+    "visitorId": "e4055e212d0bbd3d"
   }
 ]
