@@ -24699,5 +24699,52 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://britishpeptidelabs.com/products/ghk-cu",
     "visitorId": "30667e146f8f7a53"
+  },
+  {
+    "ts": "2026-10-12T09:14:29.993Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "epitalon-10mg",
+    "destUrl": "https://evolvepeptides.uk/products/epithalon-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/evolve-peptides/epitalon-10mg",
+    "visitorId": "bb7b3646878f9c2e"
+  },
+  {
+    "ts": "2026-10-12T09:24:50.931Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://peptideslabuk.com/product/ara-290/",
+    "visitorId": "bcf1090144473334"
+  },
+  {
+    "ts": "2026-10-12T09:29:20.784Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://phoenixbiolabs.net/shop/l-carnitine-3000/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8ab8150046b5c452"
+  },
+  {
+    "ts": "2026-10-12T09:35:00.271Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://www.buyreta.co.uk/product/bpc-157-oral-uk",
+    "visitorId": "644eee8918ace83b"
+  },
+  {
+    "ts": "2026-10-12T09:55:09.744Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://cmsrlabs.co/product/melanotan-ii/",
+    "visitorId": "8002ee0e0adec609"
   }
 ]
