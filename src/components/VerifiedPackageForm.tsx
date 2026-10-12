@@ -254,19 +254,26 @@ export default function VerifiedPackageForm() {
         <p className="text-sm text-slate-600 leading-relaxed">
           <strong>£50 per month by Direct Debit</strong> (standard rate), the first <strong>thirty (30) days</strong> of
           which are free of charge; <strong>or £60 per month by bank transfer</strong> (the higher rate reflects the
-          additional administrative cost of manual collection). During the free-of-charge period, the verification shall
-          proceed and the TrustScore shall be awarded in full. Following the free-of-charge period, the Fee shall be
-          collected monthly in advance and shall continue until termination in accordance with these Terms.{" "}
+          additional administrative cost of manual collection). <strong>ViralPeps&rsquo; preferred payment method is
+          Direct Debit</strong>, which benefits from a 30-day free trial and automated collection under the GoCardless
+          mandate; bank transfer is offered as an alternative at the higher rate stated above. During the free-of-charge
+          period, the verification shall proceed and the TrustScore shall be awarded in full. Following the
+          free-of-charge period, the Fee shall be collected monthly in advance and shall continue until termination in
+          accordance with these Terms.{" "}
           <strong>
             The Subscriber shall receive a GoCardless Direct Debit link from ViralPeps in order to establish the Direct
             Debit mandate.
           </strong>{" "}
-          Termination requires <strong>thirty (30) days&rsquo; written notice</strong>. Where any sum remains
-          outstanding for more than <strong>seven (7) days</strong> from its due date, whether payable by Direct Debit
-          or bank transfer, the Subscriber&rsquo;s TrustScore shall be suspended, subject to a maximum of 85, and an
-          administrative <strong>late-payment fee of £10</strong> shall become payable. The score shall be restored upon
-          receipt of payment. Where payment is not made, the Subscriber&rsquo;s TrustScore shall revert to the
-          automatically calculated score, subject to a maximum of 85.
+          Termination requires <strong>thirty (30) days&rsquo; written notice</strong>. Where payment is not made, the
+          Subscriber&rsquo;s TrustScore shall revert to the automatically calculated score, subject to a maximum of 85.
+        </p>
+
+        <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">3A. Late Payment</h3>
+        <p className="text-sm text-slate-600 leading-relaxed">
+          Where any sum remains outstanding for more than <strong>seven (7) days</strong> from its due date — whether
+          payable by Direct Debit or bank transfer — the Subscriber&rsquo;s TrustScore shall be suspended, subject to a
+          maximum of 85, and an administrative <strong>late-payment fee of £10</strong> shall become payable. The
+          Subscriber&rsquo;s TrustScore shall be restored upon receipt of payment.
         </p>
 
         <h3 className="text-[13px] font-bold text-[#0f1b3d] mt-4 mb-1">4. No Sale of Scores</h3>
