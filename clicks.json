@@ -23698,5 +23698,149 @@
     "compoundSlug": "dsip",
     "destUrl": "https://bionikpeptides.com/products/dsip",
     "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-12T02:48:45.779Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://bionikpeptides.com/products/dsip",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-12T02:49:30.352Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac-5mg-imperial",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "737bc76141caa5a4"
+  },
+  {
+    "ts": "2026-10-12T02:58:54.685Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "chonliten",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-chonliten-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/dr-peptides/chonliten",
+    "visitorId": "f7af9b9869a2069b"
+  },
+  {
+    "ts": "2026-10-12T02:59:17.997Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://reta-uk.com/products/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/go/reta-uk/ipamorelin",
+    "visitorId": "7459e10e9c9fbf0b"
+  },
+  {
+    "ts": "2026-10-12T03:05:30.546Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://phoenixbiolabs.net/shop/klow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d4bdc4db53d31024"
+  },
+  {
+    "ts": "2026-10-12T03:09:43.012Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-no-dac/",
+    "visitorId": "c164b6e82b4b3b63"
+  },
+  {
+    "ts": "2026-10-12T03:09:55.109Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bionikpeptides.com/products/cartalax",
+    "visitorId": "7ec552676e1d3ff1"
+  },
+  {
+    "ts": "2026-10-12T03:10:00.326Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bionikpeptides.com/products/cartalax",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-10-12T03:10:06.539Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bionikpeptides.com/products/cartalax",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-12T03:12:56.954Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidesuk.com/semax/",
+    "visitorId": "3ebc12d69cd53686"
+  },
+  {
+    "ts": "2026-10-12T03:17:03.920Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/ipamorelin-10mg/",
+    "visitorId": "c76b8ac4946dbc93"
+  },
+  {
+    "ts": "2026-10-12T03:17:15.435Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biopeptides-uk.com/product/ipamorelin-10mg/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-10-12T03:17:34.295Z",
+    "type": "vendor-site",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "destUrl": "https://momentumpeptides.com",
+    "visitorId": "6ab25f091c401d7e"
+  },
+  {
+    "ts": "2026-10-12T03:17:58.638Z",
+    "type": "vendor-site",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "destUrl": "https://olresearch.co.uk",
+    "visitorId": "6ab25f091c401d7e"
+  },
+  {
+    "ts": "2026-10-12T03:18:13.067Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk",
+    "visitorId": "6ab25f091c401d7e"
+  },
+  {
+    "ts": "2026-10-12T03:19:44.967Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghk-cu-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/pen",
+    "visitorId": "2965340321c3575e"
   }
 ]
