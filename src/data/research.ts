@@ -1792,6 +1792,28 @@ export const guides: ResearchArticle[] = [
     tags: ['recovery', 'suppliers', 'uk', 'bpc-157', 'tb-500', 'ghk-cu', 'kpv'],
   },
 
+  {
+    title: "Survodutide Deep Dive: The Glucagon-Biased Dual Agonist",
+    desc: "A full research review of survodutide (BI 456906) - how an oxyntomodulin analogue engineered to bias the glucagon receptor differs from every incretin drug before it, the 2026 SYNCHRONIZE-1 and SYNCHRONIZE-2 phase 3 results at week 76, the phase 2 MASH data and why the 6 mg arm underperformed, the mediation question that decides whether the liver benefit is a real mechanism, and the five-vendor UK research supply picture from GBP 39.00 to GBP 160.00.",
+    category: "Compound Profiles",
+    section: "peptides",
+    compound: "Survodutide",
+    slug: "survodutide-deep-dive",
+    image: "survodutide-deep-dive",
+    minutes: 13,
+    tags: ["survodutide", "bi-456906", "glucagon", "gcg", "glp-1", "dual-agonist", "synchronize", "mash", "deep-dive"],
+  },
+  {
+    title: "Follistatin 344 Suppliers UK: A Protein Sold Like a Peptide",
+    desc: "A UK supplier guide to follistatin 344 - why a 344-residue recombinant glycoprotein cannot be verified the way a 5 mg synthetic peptide can, the 11 vendors and 7.6-fold price spread, what a real certificate of analysis requires for an expressed protein (purity by method, endotoxin, lot traceability), the published central serous chorioretinopathy signal, and why there is no bioactivity assay to ask for.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Follistatin 344",
+    slug: "follistatin-344-suppliers-uk",
+    image: "follistatin-344-suppliers-uk",
+    minutes: 12,
+    tags: ["follistatin", "follistatin-344", "suppliers", "uk", "myostatin", "recombinant-protein", "coa", "endotoxin"],
+  },
 ];
 
 export const compoundList: string[] = [

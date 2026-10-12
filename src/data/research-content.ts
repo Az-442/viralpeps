@@ -15187,5 +15187,199 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'survodutide-deep-dive': {
+  slug: 'survodutide-deep-dive',
+  compoundSlug: 'survodutide',
+  pullQuote: 'Survodutide is the first molecule in the incretin era whose primary mechanism is not appetite suppression. It is a glucagon receptor agonist that happens to also hit GLP-1 — and in 2026 that distinction stopped being theoretical: the phase 3 programme reported at week 76, and the liver-fat data came in where the phase 2 signal said it would.',
+  quickInfo: [
+    { label: 'Compound', value: 'Survodutide (BI 456906)' },
+    { label: 'Class', value: 'Glucagon receptor (GCGR) / GLP-1 receptor dual agonist' },
+    { label: 'Originator', value: 'Zealand Pharma, licensed to Boehringer Ingelheim' },
+    { label: 'Backbone', value: 'Stabilised, acylated analogue of the native gut hormone oxyntomodulin' },
+    { label: 'Receptor Balance', value: 'Engineered to bias GCGR over GLP-1R — the inverse of tirzepatide/semaglutide' },
+    { label: 'Administration (trials)', value: 'Once weekly subcutaneous, dose-escalated to 3.6 mg or 6.0 mg' },
+    { label: 'Weight Change (SYNCHRONIZE-1, wk 76)', value: '-12.2% (3.6 mg) and -13.0% (6.0 mg) vs -5.4% placebo' },
+    { label: 'Weight Change (SYNCHRONIZE-2, T2D, wk 76)', value: '-8.2% (3.6 mg) and -9.8% (6.0 mg) vs -3.9% placebo' },
+    { label: 'MASH (phase 2, wk 48)', value: 'MASH improvement without fibrosis worsening in 62% at 4.8 mg vs 14% placebo' },
+    { label: 'Regulatory Status (2026)', value: 'Investigational - not approved by MHRA, EMA or FDA' },
+    { label: 'UK Research Supply (Oct 2026)', value: '5 vendors, 5 listings, all 10 mg, £39.00 to £160.00' },
+  ],
+  sections: [
+    {
+      title: 'What Survodutide Is, and Why the Glucagon Arm Matters',
+      body: "Survodutide is a synthetic peptide that activates two receptors at once: the glucagon receptor (GCGR) and the glucagon-like peptide-1 receptor (GLP-1R). It was designed by Zealand Pharma and licensed to Boehringer Ingelheim, which runs the clinical programme under the SYNCHRONIZE name. The molecule is a stabilised analogue of **oxyntomodulin** - a natural gut hormone released after eating that is itself a weak dual GCGR/GLP-1R agonist. Native oxyntomodulin has a half-life measured in minutes; the drug is acylated and otherwise engineered so that once-weekly dosing is possible.\n\nThe reason this matters is that every obesity drug before it was fundamentally an appetite drug. Semaglutide is a GLP-1 analogue. Tirzepatide adds a GIP arm but is still, at bottom, an incretin-driven satiety molecule. Survodutide inverts the emphasis: it is engineered to bias **glucagon** signalling relative to GLP-1, which is the opposite of what most dual-agonist programmes do. That single design choice is what makes it interesting, and it is also what makes it harder to assess.\n\nGlucagon's textbook role is to raise blood glucose - it drives hepatic glycogenolysis and gluconeogenesis. Using a glucagon agonist to treat a metabolic disease therefore looks, at first pass, like a contradiction. It is not, and the resolution is the whole point of the compound.\n\n[**Compare survodutide listings across UK suppliers →**](/compounds/survodutide)",
+    },
+    {
+      title: 'The Mechanism: Hepatic Fat Oxidation, Not Appetite',
+      body: "Glucagon's hyperglycaemic reputation comes from its acute, fasted-state role. In the presence of adequate insulin signalling, the same receptor drives a different set of outputs: increased hepatic fatty-acid oxidation, reduced de novo lipogenesis, and increased energy expenditure. Activating GCGR in the liver tells hepatocytes to burn lipid rather than store it, and to export less triglyceride into circulation. That is a direct, hepatic route to reducing liver fat and visceral fat - not a downstream consequence of eating less.\n\nThis is the mechanistic claim the survodutide programme was built to test, and it is why the trial endpoints go beyond body weight. The phase 2 MASH trial measured liver-fat content by imaging and fibrosis by repeat biopsy. The phase 3 MASLD sub-study measured visceral adipose tissue by MRI. A pure appetite drug can lower liver fat indirectly, by producing weight loss; a GCGR agonist is predicted to lower it through a mechanism that operates partly independently of weight change. The mediation analyses of the liver endpoints are the field's attempt to separate those two contributions.\n\nThe GLP-1 arm is not decoration. It provides the appetite suppression and the slowing of gastric emptying that make a tolerable, tolerable weight-loss drug - and, importantly, it blunts the hyperglycaemic effect of glucagon agonism. The two receptors pull in partially opposing directions on glucose, and the engineered receptor balance is what keeps the combination usable. A GCGR agonist alone would push blood glucose up. The GLP-1 arm holds it down.\n\nThe honest caveat is that the relative contribution of each arm in humans remains an active question. The mechanistic rationale is sound and the liver-fat data are consistent with it, but 'glucagon-driven fat oxidation in humans at these doses' is still inferred from the pattern of results rather than measured directly at the tissue level in a trial participant.",
+    },
+    {
+      title: 'The Phase 3 Data: SYNCHRONIZE-1 and SYNCHRONIZE-2',
+      body: "The phase 3 programme reported in 2026 and is the reason survodutide is worth a deep dive rather than a footnote.\n\n**SYNCHRONIZE-1 (obesity without diabetes)** randomised 725 adults with a BMI of 30 or higher, or 27 or higher with at least one obesity-related complication, to survodutide 3.6 mg, survodutide 6.0 mg, or placebo, all with lifestyle counselling. At week 76, using the treatment-regimen estimand - which counts participants who stopped the drug as discontinued rather than excluding them - the mean body-weight change was **-12.2%** at 3.6 mg, **-13.0%** at 6.0 mg, and **-5.4%** on placebo. The proportion achieving at least 5% weight reduction was 72.6%, 71.9% and 46.3% respectively. Gastrointestinal adverse events occurred in 80.9% (3.6 mg) and 89.7% (6.0 mg) of participants versus 47.9% on placebo, and were typically mild to moderate. No deaths were reported.\n\n**SYNCHRONIZE-2 (obesity with type 2 diabetes)** randomised 752 adults with a BMI of 27 or higher. At week 76 the mean weight change was **-8.2%** at 3.6 mg, **-9.8%** at 6.0 mg and **-3.9%** on placebo. Glycated haemoglobin fell by 0.9 percentage points at 3.6 mg and 0.8 points at 6.0 mg, from a baseline of 7.4%, versus 0.2 points on placebo. Weight reduction of at least 5% occurred in 57.6%, 64.5% and 35.1% respectively. Gastrointestinal events affected roughly 73% and 78% of the active arms versus 39% on placebo.\n\nTwo things are worth noting in those numbers. First, the T2D population lost substantially less weight than the non-diabetic population - a pattern that repeats across the entire incretin class and is not specific to survodutide. Second, the estimand matters enormously. The treatment-regimen estimand deliberately incorporates the effect of early discontinuation and of protocol-prohibited obesity medications, which makes it a more conservative and more real-world-faithful figure than a completers-only analysis. Headline figures quoted from the trial should be read against that method.",
+      table: {
+        header: ['Trial', 'Population', 'Dose', 'Weight change wk 76', 'Placebo', '>=5% weight loss'],
+        rows: [
+          ['SYNCHRONIZE-1', 'Obesity, no diabetes (n=725)', '3.6 mg', '-12.2%', '-5.4%', '72.6% vs 46.3%'],
+          ['SYNCHRONIZE-1', 'Obesity, no diabetes (n=725)', '6.0 mg', '-13.0%', '-5.4%', '71.9% vs 46.3%'],
+          ['SYNCHRONIZE-2', 'Obesity with T2D (n=752)', '3.6 mg', '-8.2%', '-3.9%', '57.6% vs 35.1%'],
+          ['SYNCHRONIZE-2', 'Obesity with T2D (n=752)', '6.0 mg', '-9.8%', '-3.9%', '64.5% vs 35.1%'],
+        ],
+      },
+    },
+    {
+      title: 'The Liver Data: Phase 2 MASH and the MASLD Programme',
+      body: "The MASH evidence is where the glucagon mechanism is most directly tested, because the liver is where GCGR signalling does its distinctive work.\n\nThe phase 2 MASH trial randomised 293 adults with biopsy-confirmed MASH and fibrosis stage F1 to F3 to survodutide 2.4 mg, 4.8 mg, 6.0 mg or placebo for 48 weeks. The primary endpoint - histologic improvement in MASH with no worsening of fibrosis - was met in **47% at 2.4 mg, 62% at 4.8 mg and 43% at 6.0 mg**, against **14% on placebo**. A reduction in liver-fat content of at least 30% occurred in 63%, 67% and 57% of the active arms versus 14% on placebo. Improvement in fibrosis by at least one stage occurred in 34%, 36% and 34% versus 22%.\n\nThe non-monotonic dose-response in that dataset is conspicuous and worth flagging: 6.0 mg performed numerically worse than 4.8 mg on the primary endpoint. The pre-specified analysis fitted a quadratic dose-response model, which accommodates a peak rather than a monotonic increase - the authors report the quadratic curve as the best-fitting model, not a linear one. Anyone quoting 'the higher dose worked better' is misreading the trial.\n\nThe phase 3 MASLD sub-study (SYNCHRONIZE-MASLD) extended the liver work into the larger programme, and a separate mediation analysis has examined how much of the liver-endpoint benefit is attributable to weight reduction versus a weight-independent glucagon effect. That mediation question is the crux of the whole thesis. If the liver benefit is entirely mediated by weight loss, survodutide is a weight-loss drug that happens to help the liver. If a meaningful fraction is weight-independent, it is a genuinely new class of metabolic agent.",
+    },
+    {
+      title: 'What Is Actually Being Sold in the UK',
+      body: "Survodutide is investigational. It is not approved by the MHRA, the EMA or the FDA, there is no licensed product, and there is no pharmacy supply. Everything sold in the UK is a research-use-only reagent.\n\nThe research supply base is correspondingly thin. As of October 2026 the ViralPeps catalogue tracks **5 survodutide listings across 5 vendors**, all presented as 10 mg vials, ranging from **£39.00 to £160.00**. The spread on an identical nominal specification is roughly four-fold. Compare that with retatrutide, which has 140 listings across 56 vendors, or tirzepatide at 90 listings across 36 vendors: survodutide has not been widely absorbed into the research market.\n\nThat thinness is not a quality signal either way, but it does change the buying problem. In a deep market, the task is finding the cheapest vendor with credible batch documentation. In a five-vendor market, the task is simply finding anyone with documentation at all - and a four-fold spread on the same 10 mg label is far more likely to reflect differences in what is in the vial than differences in overhead.\n\nOne point of confusion is worth pre-empting. Several vendors list a compound under near-identical names or describe 'GLP-3' style invented nomenclatures. Survodutide's actual development code is **BI 456906**; there is no licensed or well-characterised compound called 'GLP-3'. If a listing cannot state a development code, a molecular weight, or provide a certificate of analysis tied to a lot number, the price is not the most important variable.",
+    },
+    {
+      title: 'How to Read the Evidence Honestly',
+      body: "Three things are true at once about survodutide, and holding all three is the point.\n\n**First, the mechanism is genuinely differentiated.** The glucagon-biased design is not marketing - it is a distinct receptor pharmacology with a distinct predicted tissue effect, and the liver-fat and visceral-fat results are consistent with it in a way that a pure GLP-1 result would not be. The MASH endpoint data at 48 weeks are the strongest single piece of evidence for the class.\n\n**Second, it is not approved, and the research market for it is five vendors deep.** Phase 3 reporting is not approval. There is no MHRA licence, no EMA authorisation, and no manufacturer making a pharmaceutical-grade product. A 10 mg vial sold as 'survodutide' for research use is a reagent of unknown purity, and the four-fold price spread across five vendors says nothing good about the market's ability to police itself.\n\n**Third, the tolerability profile is real.** Gastrointestinal adverse events affected roughly 81-90% of participants on active drug in SYNCHRONIZE-1, versus about 48% on placebo. The SYNCHRONIZE-1 doses were also higher than the 2.4-6.0 mg range used in the phase 2 MASH trial. This is a molecule with a narrow therapeutic window between the dose that produces the metabolic effect and the dose that produces intolerable nausea - and self-experimentation with a research reagent removes the entire safety net that made the trial tolerable: blinded dose escalation, antiemetic support, and monitoring.\n\n[**See the full UK survodutide price picture, cheapest first →**](/compounds/survodutide)\n\nFor the weight-loss-focused treatment of the same molecule, see [Survodutide for Weight Loss: The Glucagon Arm Explained](/research/survodutide-for-weight-loss). For how it compares with the other glucagon-containing incretin agonist, see [Retatrutide vs Survodutide](/research/retatrutide-vs-survodutide).",
+    },
+  ],
+  faq: [
+    {
+      question: 'Is survodutide approved in the UK?',
+      answer: 'No. Survodutide (BI 456906) is investigational. It has not been authorised by the MHRA, the EMA or the FDA, and there is no licensed pharmaceutical product. Everything sold in the UK is a research-use-only reagent, not a medicine.',
+    },
+    {
+      question: 'How is survodutide different from semaglutide or tirzepatide?',
+      answer: 'Semaglutide is a GLP-1 receptor agonist. Tirzepatide is a GIP/GLP-1 dual agonist. Survodutide is a glucagon receptor (GCGR) / GLP-1 dual agonist, engineered to bias GCGR over GLP-1 - the inverse of most dual-agonist designs. Its glucagon arm is predicted to act directly on hepatic fat oxidation, making it more than an appetite drug.',
+    },
+    {
+      question: 'What did SYNCHRONIZE-1 find?',
+      answer: 'In 725 adults with obesity without diabetes, survodutide produced mean weight changes of -12.2% (3.6 mg) and -13.0% (6.0 mg) at week 76, versus -5.4% on placebo, using the treatment-regimen estimand. At least 5% weight loss occurred in 72.6%, 71.9% and 46.3% respectively. Gastrointestinal adverse events affected 80.9% and 89.7% of the active arms versus 47.9% on placebo.',
+    },
+    {
+      question: 'Why did the higher dose perform worse in the MASH trial?',
+      answer: 'In the 48-week phase 2 MASH trial, histologic improvement occurred in 47% at 2.4 mg, 62% at 4.8 mg and 43% at 6.0 mg versus 14% on placebo. The investigators pre-specified a quadratic dose-response model, which permits a peak rather than a monotonic increase - the quadratic curve fitted best. The data do not support a simple "higher is better" reading.',
+    },
+    {
+      question: 'How many UK vendors stock survodutide research material?',
+      answer: 'Five vendors, each with a single listing, all presented as 10 mg vials, priced from £39.00 to £160.00 (October 2026 ViralPeps snapshot). For comparison, retatrutide has 140 listings across 56 vendors. A four-fold spread on an identical nominal specification in a five-vendor market is not a reliable quality signal in either direction.',
+    },
+    {
+      question: 'Does survodutide cause hypoglycaemia?',
+      answer: 'Glucagon receptor agonism raises blood glucose, and the GLP-1 arm offsets it. In SYNCHRONIZE-2 (obesity with type 2 diabetes), HbA1c fell by 0.8-0.9 percentage points from a baseline of 7.4%, versus 0.2 points on placebo. The receptors pull in partially opposing directions on glucose, and the engineered receptor balance is what makes the combination usable. Any glucose-lowering or glucose-affecting agent carries a hypoglycaemia consideration in a research context.',
+    },
+  ],
+  references: [
+    'le Roux CW, Wharton S, Startseva E, et al. Survodutide Once Weekly for the Treatment of Adults with Obesity. N Engl J Med. 2026;395(8):776-787. PMID 42253238.',
+    'Wharton S, et al. Survodutide Once Weekly in Adults with Obesity and Type 2 Diabetes. N Engl J Med. 2026. PMID 42820639.',
+    'Sanyal AJ, et al. A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis. N Engl J Med. 2024;391(4):299-310. PMID 38847460.',
+    'Kaplan LM, et al. Survodutide in adults with obesity and metabolic dysfunction-associated steatotic liver disease: SYNCHRONIZE-MASLD. Nat Med. 2026. PMID 42252333.',
+    'Noureddin M, et al. Weight reduction-dependent/-independent effects of survodutide on liver endpoints: mediation analysis. Hepatology. 2026. PMID 42545725.',
+    'le Roux CW, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024;12(3):162-173. PMID 38330987.',
+    'Bluher M, et al. Dose-response effects on HbA1c and bodyweight reduction of survodutide, a dual glucagon/GLP-1 receptor agonist. Diabetologia. 2024;67(4):662-672. PMID 38095657.',
+    'Sergi CM. Survodutide for the treatment of obesity: mechanistic rationale, clinical evidence, and remaining uncertainties. Contemp Clin Trials. 2026;108493. PMID 42822760.',
+    'Melander SA, et al. OXM-104, a potential candidate for the treatment of obesity, NASH and type 2 diabetes. Eur J Pharmacol. 2024;964:176305. PMID 38056618.',
+    'Dutta D, et al. Efficacy and Safety of Twincretin Survodutide, a Dual Glucagon-Like Peptide-1 and Glucagon Receptor Agonist. Indian J Endocrinol Metab. 2025. PMID 40688625.',
+    'Camilleri M. Newer pharmacological interventions directed at gut hormones for obesity. Br J Pharmacol. 2024;181(8):1153-1164. PMID 37917871.',
+    'Hamilton A, et al. Nephroprotective Effects of the Dual GCGR/GLP-1R Agonist Survodutide in Hypertension-Accelerated Diabetic Kidney Disease. Diabetes Obes Metab. 2026. PMID 42823075.',
+    'ViralPeps catalogue data - 5 survodutide listings across 5 vendors, October 2026 snapshot.',
+  ],
+},
+
+'follistatin-344-suppliers-uk': {
+  slug: 'follistatin-344-suppliers-uk',
+  compoundSlug: 'follistatin-344',
+  pullQuote: 'Follistatin 344 is a 344-amino-acid recombinant glycoprotein sold alongside 5 mg tripeptides as if it belonged in the same catalogue. It does not. The supply side is eleven vendors, a six-fold price spread, and a specification problem no other compound on this site has: most of what makes it expensive is invisible on a vial label.',
+  quickInfo: [
+    { label: 'Compound', value: 'Follistatin 344 (FS-344, FST-344)' },
+    { label: 'Class', value: 'Recombinant glycoprotein - activin-binding protein, myostatin antagonist' },
+    { label: 'Nature', value: 'NOT a synthetic peptide - a 344-residue expressed protein, ~37,000 g/mol' },
+    { label: 'Mechanism', value: 'Binds and neutralises myostatin (GDF-8) and activins, releasing the brake on muscle growth' },
+    { label: 'Human Data', value: 'Phase 1/2a gene-therapy trials (Becker MD, inclusion body myositis) - not the protein itself' },
+    { label: 'UK Supply (Oct 2026)', value: '11 vendors, 12 listings, £30.00 to £229.00' },
+    { label: 'Price Spread', value: '7.6x between the cheapest and most expensive 1 mg listing' },
+    { label: 'Typical Listed Size', value: '1 mg (one vendor lists without a stated mass)' },
+    { label: 'Handling', value: 'Requires cold-chain storage and careful reconstitution - it is a protein, not a lyophilised short chain' },
+    { label: 'Regulatory Status (2026)', value: 'Not a licensed medicine anywhere. Research reagent only.' },
+  ],
+  sections: [
+    {
+      title: 'Why Follistatin 344 Is a Different Kind of Supply Problem',
+      body: "Every other compound on this site is a synthetic peptide. Follistatin 344 is not. It is a **recombinant glycoprotein** - a 344-amino-acid expressed protein weighing roughly 37,000 g/mol - and that single fact changes everything about how it is manufactured, shipped, stored and verified.\n\nA 5 mg tripeptide like KPV is a short chain of amino acids made by solid-phase synthesis. It is chemically robust, it resists temperature excursions, and its identity can be confirmed with a mass spectrum that produces one clean peak. Follistatin 344 is none of those things. It has to be expressed in a cell system, folded correctly, glycosylated, and purified without denaturing it. It has a three-dimensional structure that matters to its function, and that structure is the first thing to go wrong under poor handling.\n\nThe consequence for the buyer is that the number on the vial label carries less information than it does for any other compound in the catalogue. A 1 mg quantity of correctly folded follistatin 344 and a 1 mg quantity of aggregated, partially denatured protein look identical on a label and are not the same product. The specification that distinguishes them - purity by SDS-PAGE, endotoxin, aggregation state, bioactivity - is almost never published in full.\n\n[**Compare follistatin 344 listings across UK suppliers →**](/compounds/follistatin-344)",
+    },
+    {
+      title: 'The UK Supply Base by the Numbers',
+      body: "As of the October 2026 ViralPeps catalogue snapshot, follistatin 344 is stocked by **11 vendors across 12 listings**, priced from **£30.00 to £229.00**. That is a **7.6-fold spread** on what is usually the same nominal specification - a 1 mg vial.\n\nFor context, follistatin 344 sits at the thin end of the growth-hormone-adjacent market. Tesamorelin has 114 listings across 87 vendors; ipamorelin has 101 listings across 84. Follistatin has 12 across 11. The market is not competitive in the way the GLP-1 or recovery aisles are - there are not enough vendors for price to converge on a floor, and there is not enough volume for any of them to be challenged on specification.\n\nA 7.6-fold spread on identical nominal content is not explained by overheads. Recombinant protein expression is genuinely more expensive than solid-phase synthesis, so a higher price is not inherently a red flag. But the reverse inference - that the cheap listing is a bargain - is unsafe. In a market this thin, with a product this hard to verify, the price spread is most likely tracking differences in what is actually in the vial, how it was stored, and whether the vendor can produce documentation at all.\n\nThe single most useful filter is not price. It is whether a listing states a **purity figure with a method**, an **endotoxin specification**, and a **lot-linked certificate of analysis**. A vendor who publishes none of those has priced a protein like a tripeptide.",
+      table: {
+        header: ['Vendor', 'Listed Price', 'Stated Size', 'Lab Tested'],
+        rows: [
+          ['NovaVitality', '£30.00', '1 mg', 'Yes'],
+          ['Research Peptides', '£39.95', '-', 'No'],
+          ['Research Peptides UK', '£39.95', '1 mg', 'Yes'],
+          ['Tested Peptides', '£49.99', '1 mg', 'Yes'],
+          ['Tide Labs', '£62.90', '-', 'Yes'],
+          ['Pure Peptides UK', '£75.00', '1 mg', 'Yes'],
+          ['Express Peptides', '£80.00', '-', 'No'],
+          ['Bionik Peptides', '£80.00', '1 mg', 'Yes'],
+          ['Premio Peptides', '£199.99', '-', 'Yes'],
+          ['Peptides Lab UK', '£229.00', '1 mg', 'Yes'],
+        ],
+      },
+    },
+    {
+      title: 'The Recombinant Protein Trap: What a Real Specification Requires',
+      body: "For a short synthetic peptide, the minimum credible documentation is a mass-spectrometry identity confirmation and an HPLC purity figure. For a recombinant glycoprotein, that is not enough - and this is the trap that catches buyers who apply tripeptide logic to follistatin.\n\n**Mass does not identify a protein.** A 37,000 g/mol glycoprotein has a mass envelope, not a single mass, because glycosylation varies between molecules in the same batch. A mass spec that reports a clean single molecular weight for a 344-residue glycoprotein is reporting something that almost certainly is not follistatin 344 as claimed.\n\n**Purity has to be specified by method.** For a protein, purity is normally determined by SDS-PAGE with densitometry, or by size-exclusion chromatography. '98% purity' with no method attached is a meaningless figure - 98% of what, measured how? Aggregates and truncation products are the two failure modes that matter, and neither is visible in a simple HPLC purity number.\n\n**Endotoxin is not optional.** Recombinant proteins expressed in bacterial systems carry endotoxin risk, and this is the specification most often missing from research-vendor listings. A defensible listing states an endotoxin figure in EU/mg or EU/µg.\n\n**Bioactivity is the specification nobody publishes.** Correctly folded follistatin binds myostatin. Aggregated protein does not. A binding or reporter assay is the only way to distinguish them, and it is essentially never offered. This is the honest limit of what a buyer can verify in this market: you can ask for purity and endotoxin, and you cannot verify function.\n\n**Storage and cold chain change the product.** Follistatin 344 requires careful handling - freeze-thaw cycling and ambient shipping degrade a protein in ways they do not degrade a short peptide. A vendor who ships it like a tripeptide has already compromised it, whatever the CoA says.",
+    },
+    {
+      title: 'The Mechanism, Stated Precisely',
+      body: "Follistatin binds and neutralises **myostatin** (GDF-8) and the **activins** - members of the TGF-beta superfamily that act as negative regulators of muscle growth. Myostatin signalling through activin type II receptors restrains satellite cell activation and myoblast proliferation; follistatin sequesters the ligand and removes that brake.\n\nThe mechanism has a subtlety that is frequently lost in vendor copy. Follistatin's hypertrophic effect is not purely a myostatin effect. Work with follistatin in muscle has shown that the hypertrophy response is regulated through Smad3 and mTOR and operates **independently of myostatin** - meaning that in a myostatin-null background follistatin still increases muscle mass. Follistatin also binds activin A, and the activin arm contributes to the phenotype. So the accurate statement is that follistatin 344 is an activin-binding protein that neutralises myostatin and activins together, and its effect is broader than myostatin inhibition alone.\n\nThe clinical evidence base is worth stating carefully, because it is routinely overstated. The human trials of follistatin in muscle disease - Becker muscular dystrophy and sporadic inclusion body myositis - used **AAV-mediated gene transfer**, delivering the follistatin gene so the patient's own muscle expressed the protein. They did not administer recombinant follistatin 344 protein. The trials are genuine human evidence that follistatin expression has a biological effect in human muscle, and they are not evidence that injecting the purchased protein does anything comparable. The route, the expression level and the tissue distribution are all different.",
+    },
+    {
+      title: 'The Safety Signal That Should Be in Every Buying Decision',
+      body: "A buying guide for follistatin 344 has to include the adverse event that distinguishes it from the rest of the catalogue: **central serous chorioretinopathy**. A retrospective case series reported the condition in people using high-dose follistatin 344 - a retinal fluid leakage that affects central vision and can persist.\n\nThis matters for two reasons. First, it is a real, published signal attached to this specific compound rather than a generic 'research use only' disclaimer. Second, it illustrates the structural problem with the whole research-reagent category for a molecule like this: the mechanism is systemic. Follistatin binds TGF-beta superfamily ligands that are expressed in many tissues, not just skeletal muscle, and the eye is one of the tissues where that signalling matters. A locally-acting short peptide does not carry that kind of risk profile. A broadly-acting secreted glycoprotein does.\n\nThere is also a detection-side wrinkle. Follistatin 344 has a documented history of appearing in black-market sports products and has been the subject of analytical detection work for anti-doping purposes. That means both that the compound is known to circulate outside research channels, and that the analytical reference standards for identifying it exist and are used - a small piece of good news on the verification front, though it does not help a retail buyer.\n\nFinally, an honest note on sourcing: follistatin 344 is a protein sold as a research reagent, not a medicine. It has no licensed manufacturer, no approved indication, and no pharmacy distribution. Anyone presenting it as a therapeutic - particularly anyone accompanying that claim with dosing advice - is outside the evidence.",
+    },
+    {
+      title: 'A Practical Verification Sequence for Follistatin 344',
+      body: "Because the specification is the whole problem with this compound, it is worth reducing the decision to an ordered checklist.\n\n**1. Does the listing state a mass and a purity with a method?** A credible listing names the expressed protein, states the mass (typically 1 mg), and gives purity by SDS-PAGE or SEC. A purity percentage with no method is a pass-through figure.\n\n**2. Is endotoxin specified, and in what units?** This is the specification most commonly omitted and the one that matters most for a recombinant protein.\n\n**3. Is there a lot-linked certificate of analysis?** Not a generic CoA template - one that names the batch. A vendor supplying a 37,000 g/mol protein should be able to trace a vial to a lot.\n\n**4. How is it shipped?** Cold chain or ambient? A protein shipped at ambient temperature in summer has an unknown storage history, and no CoA retroactively fixes that.\n\n**5. Does the price sit inside a plausible band?** With 11 vendors and a 7.6x spread, the extremes at both ends deserve more scrutiny than the middle. The cheapest listing at £30.00 and the most expensive at £229.00 both need a documented reason to be trusted.\n\n**6. Does the vendor also sell it as a tripeptide-style product with tripeptide-style claims?** If the same listing page markets follistatin 344 with the language and presentation of a 5 mg synthetic peptide, that is the clearest available signal that the vendor has not engaged with what the product actually is.\n\n[**See every UK follistatin 344 listing, cheapest first →**](/compounds/follistatin-344)\n\nFor the underlying biology, mechanism and preclinical evidence base, see the [Follistatin 344 Deep Dive](/research/follistatin-344-deep-dive). For how it compares with the other muscle-growth research compound in the catalogue, see [Follistatin 344 vs MGF](/research/follistatin-344-vs-mgf).",
+    },
+  ],
+  faq: [
+    {
+      question: 'Is follistatin 344 a peptide?',
+      answer: 'No, not in the conventional sense. Follistatin 344 is a recombinant glycoprotein of about 344 amino acids and roughly 37,000 g/mol. It is expressed in a cell system, folded and glycosylated, rather than made by solid-phase peptide synthesis. That changes its manufacturing cost, its stability, its storage requirements and the way its purity must be documented.',
+    },
+    {
+      question: 'How many UK vendors stock follistatin 344?',
+      answer: 'Eleven vendors across twelve listings, priced from £30.00 to £229.00 (October 2026 ViralPeps snapshot). That is a 7.6-fold spread on what is usually the same nominal 1 mg specification. For comparison, tesamorelin has 114 listings across 87 vendors and ipamorelin 101 across 84 - follistatin sits at the thin end of the market.',
+    },
+    {
+      question: 'What should a follistatin 344 certificate of analysis include?',
+      answer: 'Purity with a stated method (typically SDS-PAGE with densitometry or size-exclusion chromatography), an endotoxin figure in EU/mg or EU/µg, and a lot-linked batch reference. Mass spectrometry is a weaker identity check for a glycoprotein than for a short peptide, because glycosylation produces a mass envelope rather than a single mass. Bioactivity - the ability to actually bind myostatin - is essentially never published.',
+    },
+    {
+      question: 'Has follistatin 344 been tested in humans?',
+      answer: 'Follistatin has been studied in humans, but not as the recombinant protein. The phase 1/2a trials in Becker muscular dystrophy and sporadic inclusion body myositis used AAV-mediated gene transfer, delivering the follistatin gene so the patient\'s own muscle expressed the protein. Those trials are human evidence that follistatin expression affects human muscle. They are not evidence that injecting the purchased research protein does anything comparable.',
+    },
+    {
+      question: 'What are the reported risks of follistatin 344?',
+      answer: 'A retrospective case series reported central serous chorioretinopathy - retinal fluid leakage affecting central vision - in people using high-dose follistatin 344. This is a specific, published safety signal attached to this compound. Because follistatin binds TGF-beta superfamily ligands expressed across many tissues, its effects are systemic rather than local to skeletal muscle.',
+    },
+    {
+      question: 'Why is follistatin 344 more expensive than other compounds?',
+      answer: 'It is a recombinant protein, not a synthetic peptide. Expression in a cell system, correct folding, glycosylation and purification without denaturation are all more expensive than solid-phase synthesis of a short chain. A higher price is not by itself a red flag - but in an 11-vendor market with a 7.6-fold spread, price is a weak signal in both directions.',
+    },
+  ],
+  references: [
+    'Gilson H, Schakman O, Kalista S, et al. Follistatin induces muscle hypertrophy through satellite cell proliferation and inhibition of both myostatin and activin. Am J Physiol Endocrinol Metab. 2009;297(1):E157-64. PMID 19435857.',
+    'Amthor H, Nicholas G, McKinnell I, et al. Follistatin complexes Myostatin and antagonises Myostatin-mediated inhibition of myogenesis. Dev Biol. 2004;270(1):19-30. PMID 15136138.',
+    'Winbanks CE, Weeks KL, Thomson RE, et al. Follistatin-mediated skeletal muscle hypertrophy is regulated by Smad3 and mTOR independently of myostatin. J Cell Biol. 2012;197(7):997-1008. PMID 22711699.',
+    'Lee SJ, Lee YS, Zimmers TA, et al. Regulation of muscle mass by follistatin and activins. Mol Endocrinol. 2010;24(10):1998-2008. PMID 20810712.',
+    'Mendell JR, Sahenk Z, Malik V, et al. A phase 1/2a follistatin gene therapy trial for Becker muscular dystrophy. Mol Ther. 2015;23(1):192-201. PMID 25322757.',
+    'Mendell JR, Sahenk Z, Al-Zaidy S, et al. Follistatin Gene Therapy for Sporadic Inclusion Body Myositis Improves Functional Outcomes. Mol Ther. 2017;25(4):870-879. PMID 28279643.',
+    'Rodino-Klapac LR, Haidet AM, Kota J, et al. Inhibition of myostatin with emphasis on follistatin as a therapy for muscle disease. Muscle Nerve. 2009;39(3):283-96. PMID 19208403.',
+    'Chang F, Fang R, Wang M, et al. The transgenic expression of human follistatin-344 increases skeletal muscle mass in pigs. Transgenic Res. 2017;26(1):25-36. PMID 27787698.',
+    'Dag U, Caglayan M, Oncul H, et al. Central serous chorioretinopathy associated with high-dose follistatin-344: a retrospective case series. Int Ophthalmol. 2020;40(11):3155-3161. PMID 32671599.',
+    'Reichel C, Gmeiner G, Thevis M. Detection of black market follistatin 344. Drug Test Anal. 2019;11(11-12):1675-1697. PMID 31758732.',
+    'Schumann C, Nguyen DT, Norgard M, et al. Increasing lean muscle mass in mice via nanoparticle-mediated hepatic delivery of follistatin mRNA. Theranostics. 2018;8(19):5276-5288. PMID 30555546.',
+    'ViralPeps catalogue data - 12 follistatin 344 listings across 11 vendors, October 2026 snapshot.',
+  ],
+},
+
 };
 export default content;
