@@ -24746,5 +24746,50 @@
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://cmsrlabs.co/product/melanotan-ii/",
     "visitorId": "8002ee0e0adec609"
+  },
+  {
+    "ts": "2026-10-12T09:55:17.437Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://allmypeptides.com/product/kpv/",
+    "refPage": "https://www.google.com.hk/",
+    "visitorId": "f5f6120138c3881d"
+  },
+  {
+    "ts": "2026-10-12T10:04:53.963Z",
+    "type": "vendor-site",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "destUrl": "https://ukpeptides.org",
+    "visitorId": "83468eac4b4afcb7"
+  },
+  {
+    "ts": "2026-10-12T10:14:49.316Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "9f30842ab65e3482"
+  },
+  {
+    "ts": "2026-10-12T10:15:30.860Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-ghk-cu-50mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "visitorId": "117e09045c023f78"
+  },
+  {
+    "ts": "2026-10-12T10:25:29.830Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides/ara-290",
+    "visitorId": "11e4f450cbf46cf3"
   }
 ]
