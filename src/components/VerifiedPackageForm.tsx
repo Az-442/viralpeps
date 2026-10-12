@@ -151,6 +151,7 @@ export default function VerifiedPackageForm() {
 
     // 2. Email the owner via FormSubmit — the same mechanism the VP wholesale
     //    and vendor-registration forms already use. No API key required.
+    //    Attachment = a generated signed PDF (terms + details + signature).
     let emailed = false;
     try {
       const fd = new FormData();
@@ -167,9 +168,24 @@ export default function VerifiedPackageForm() {
       fd.append("Type", "Verified Package agreement");
       fd.append("_template", "table");
       fd.append("_captcha", "false");
-      // attach the signature image
-      const blob = await (await fetch(payload.signature)).blob();
-      fd.append("attachment", blob, `signature-${payload.company.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}.png`);
+
+      // build the signed PDF and attach it
+      const { buildAgreementPdf } = await import("@/lib/agreement-pdf");
+      const signedAt = new Date().toISOString();
+      const pdfBlob = buildAgreementPdf({
+        company: payload.company,
+        companiesHouse: payload.companiesHouse,
+        website: payload.website,
+        payment: payload.payment,
+        signatory: payload.signatory,
+        position: payload.position,
+        email: payload.email,
+        signaturePng: payload.signature,
+        signedAt,
+        termsVersion: payload.termsVersion,
+      });
+      const safeName = payload.company.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
+      fd.append("attachment", pdfBlob, `verified-package-${safeName}.pdf`);
 
       const fRes = await fetch("https://formsubmit.co/ajax/info@viralpeps.co.uk", {
         method: "POST",
