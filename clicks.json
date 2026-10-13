@@ -12033,5 +12033,175 @@
     "compoundSlug": "cjc-1295-with-dac",
     "destUrl": "https://www.testedpeptides.co.uk/product/cjc-1295-with-dac-5mg/",
     "visitorId": "49ff860cc0849f1a"
+  },
+  {
+    "ts": "2026-10-13T15:38:18.473Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://apexpure.co.uk/product/retatrutide-20mg-uk/",
+    "visitorId": "b78557faba05fb96"
+  },
+  {
+    "ts": "2026-10-13T15:39:23.378Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://rawpeptides.co.uk/product/bpc157-10mg-tb500-10mg/",
+    "visitorId": "19311c6143e8050e"
+  },
+  {
+    "ts": "2026-10-13T15:41:07.472Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://britpeptides.co.uk/product/nad-500mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/brit-peptides/nad-plus",
+    "visitorId": "a831ec92bc8c576c"
+  },
+  {
+    "ts": "2026-10-13T15:43:06.500Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://octagonpeptides.co.uk/product/mt-2-10-mg/",
+    "visitorId": "75aa0c3391dd1673"
+  },
+  {
+    "ts": "2026-10-13T15:45:00.388Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://precision-peptides.shop/product/bpc-157-research-peptide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/precision-peptides/bpc-157",
+    "visitorId": "e83a5a8bd84443fc"
+  },
+  {
+    "ts": "2026-10-13T15:45:54.927Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://tidelabs.co.uk/products/semax",
+    "visitorId": "8482aabaa2a1ce41"
+  },
+  {
+    "ts": "2026-10-13T15:45:56.413Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://tidelabs.co.uk/products/semax",
+    "visitorId": "946508c6eb690967"
+  },
+  {
+    "ts": "2026-10-13T15:45:58.575Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://tidelabs.co.uk/products/semax",
+    "visitorId": "a98fa0b275a9417e"
+  },
+  {
+    "ts": "2026-10-13T15:46:49.148Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://jgpeptidesplus.com/product/bpc-157-10mg",
+    "visitorId": "edb961ae879e5ce6"
+  },
+  {
+    "ts": "2026-10-13T15:48:43.365Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://pioneerpeptides.co.uk/products/kisspeptin-10/",
+    "refPage": "https://www.viralpeps.co.uk/go/pioneer-peptides/kisspeptin-10",
+    "visitorId": "66582a34ae1e89be"
+  },
+  {
+    "ts": "2026-10-13T15:51:00.173Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://spxlabs.co.uk/product/ghk-cu-uk-50mg/",
+    "visitorId": "ea6369d463eb4e2e"
+  },
+  {
+    "ts": "2026-10-13T15:52:30.655Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.buyreta.co.uk/product/mots-c-40mg-uk",
+    "refPage": "https://www.viralpeps.co.uk/go/buyreta/mots-c",
+    "visitorId": "ca93c4801a0a16dc"
+  },
+  {
+    "ts": "2026-10-13T15:54:23.679Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cartalax/pen",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides/cartalax",
+    "visitorId": "52a313ccbbc6e914"
+  },
+  {
+    "ts": "2026-10-13T15:56:18.506Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://everythingpeptides.co.uk/products/selank",
+    "refPage": "https://www.viralpeps.co.uk/go/everything-peptides/selank",
+    "visitorId": "a7ce0bb72efb1508"
+  },
+  {
+    "ts": "2026-10-13T15:56:20.876Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu",
+    "visitorId": "5c5dcbc7a076522f"
+  },
+  {
+    "ts": "2026-10-13T15:56:23.739Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu",
+    "visitorId": "5c5dcbc7a076522f"
+  },
+  {
+    "ts": "2026-10-13T15:58:12.343Z",
+    "type": "product",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://astralabs.co.uk/product/nad-500mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/astra-labs/nad-plus",
+    "visitorId": "efe29bee54fe36c2"
+  },
+  {
+    "ts": "2026-10-13T16:14:30.866Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fcb79cbf5b430d40"
   }
 ]
