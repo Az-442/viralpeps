@@ -12829,5 +12829,41 @@
     "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "f85fcfb9fcd64439"
+  },
+  {
+    "ts": "2026-10-13T21:42:32.747Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "melatonin-10mg",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-10mg-melatonin-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "fd8075a7f561ba8d"
+  },
+  {
+    "ts": "2026-10-13T21:42:34.342Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "melatonin-10mg",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-10mg-melatonin-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "f3e9279ea56f860b"
+  },
+  {
+    "ts": "2026-10-13T21:42:51.541Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "visitorId": "6509806acc996fa4"
+  },
+  {
+    "ts": "2026-10-13T22:01:00.464Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghk-cu-50mg-research-only-peptide-for-laboratory-use-only-coa-in-images/",
+    "visitorId": "a47691b079917746"
   }
 ]
