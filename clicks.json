@@ -1131,5 +1131,282 @@
     "destUrl": "https://phoenixbiolabs.net/shop/ghk-cu-tested-99/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "cfedd78475179cca"
+  },
+  {
+    "ts": "2026-10-13T02:16:33.433Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "cjc-1295-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/cjc-1295/vial",
+    "visitorId": "343fe0af4a868b29"
+  },
+  {
+    "ts": "2026-10-13T02:18:18.212Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/phoenix-biolabs/selank",
+    "visitorId": "fd66c2c7db9363fd"
+  },
+  {
+    "ts": "2026-10-13T02:20:00.035Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aod-9604-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "286e948268273b53"
+  },
+  {
+    "ts": "2026-10-13T02:20:01.879Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aod-9604-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "12f6b799744930da"
+  },
+  {
+    "ts": "2026-10-13T02:20:03.826Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aod-9604-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-13T02:20:17.664Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.peptidepal.co.uk/products/mt2",
+    "visitorId": "084051bb2fb6410d"
+  },
+  {
+    "ts": "2026-10-13T02:20:51.340Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://xlpeptides.com/product/wolverine-stack/",
+    "visitorId": "57d036f2fb50fdb3"
+  },
+  {
+    "ts": "2026-10-13T02:22:11.944Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/bpc-157-10mg/",
+    "visitorId": "9d11b7ad59371050"
+  },
+  {
+    "ts": "2026-10-13T02:24:05.905Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-bpc-157-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/prem-bpc-157-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/premium-bpc-157-5mg",
+    "visitorId": "516aabeaa22f052c"
+  },
+  {
+    "ts": "2026-10-13T02:26:00.809Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://everythingpeptides.co.uk/products/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/go/everything-peptides/ipamorelin",
+    "visitorId": "99580fe0effb01ff"
+  },
+  {
+    "ts": "2026-10-13T02:27:54.680Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg",
+    "refPage": "https://www.viralpeps.co.uk/go/form-peptides/bpc-157",
+    "visitorId": "cfd5ba180caf878f"
+  },
+  {
+    "ts": "2026-10-13T02:29:48.300Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin-acetate",
+    "destUrl": "https://researchpeptide.co.uk/product/sermorelin-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/sermorelin-acetate",
+    "visitorId": "2305385f0ca61bfa"
+  },
+  {
+    "ts": "2026-10-13T02:31:35.849Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://reta-uk.com/products/melanotan-1",
+    "visitorId": "4a4927a7b95359d6"
+  },
+  {
+    "ts": "2026-10-13T02:33:36.065Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://ukpeptides.com/catalog/dsip-nasal-spray",
+    "refPage": "https://www.viralpeps.co.uk/go/uk-peptides/dsip",
+    "visitorId": "c5ce5dac78960b75"
+  },
+  {
+    "ts": "2026-10-13T02:35:30.521Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-pal",
+    "visitorId": "49915c7dbbaa37e7"
+  },
+  {
+    "ts": "2026-10-13T02:37:48.038Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.stratfordpeptides.com/products/tb500-tb4",
+    "visitorId": "ebaa007f7c514ea2"
+  },
+  {
+    "ts": "2026-10-13T02:39:15.811Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "d12ba766b3d0025f"
+  },
+  {
+    "ts": "2026-10-13T02:39:23.388Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ll-37-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/ll-37-5mg/",
+    "visitorId": "88d1f26a334af181"
+  },
+  {
+    "ts": "2026-10-13T02:39:30.058Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ll-37-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/ll-37-5mg/",
+    "visitorId": "db26563c58042cbd"
+  },
+  {
+    "ts": "2026-10-13T02:41:10.264Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "d12ba766b3d0025f"
+  },
+  {
+    "ts": "2026-10-13T02:41:11.892Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-bac-water-10ml",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-bac-water-10ml",
+    "visitorId": "d259f29472adb82f"
+  },
+  {
+    "ts": "2026-10-13T02:42:23.276Z",
+    "type": "vendor-site",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "destUrl": "https://kingstonpeptides.com",
+    "visitorId": "e38ba6c54ea01dca"
+  },
+  {
+    "ts": "2026-10-13T02:43:05.625Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-40mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "25ea8293ab212392"
+  },
+  {
+    "ts": "2026-10-13T02:43:19.159Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "e38ba6c54ea01dca"
+  },
+  {
+    "ts": "2026-10-13T02:44:30.159Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "e38ba6c54ea01dca"
+  },
+  {
+    "ts": "2026-10-13T02:44:31.037Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "e38ba6c54ea01dca"
+  },
+  {
+    "ts": "2026-10-13T02:44:47.874Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "e38ba6c54ea01dca"
+  },
+  {
+    "ts": "2026-10-13T02:44:57.328Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "e38ba6c54ea01dca"
+  },
+  {
+    "ts": "2026-10-13T02:45:01.737Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
+    "visitorId": "e3f6df66108d3c69"
+  },
+  {
+    "ts": "2026-10-13T02:45:08.486Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
+    "visitorId": "0d031ae859bfde78"
+  },
+  {
+    "ts": "2026-10-13T02:46:40.654Z",
+    "type": "vendor-site",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "destUrl": "https://jgpeptidesplus.com",
+    "visitorId": "e38ba6c54ea01dca"
   }
 ]
