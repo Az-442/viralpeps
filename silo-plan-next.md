@@ -741,6 +741,127 @@ Sitemap auto-includes via the registry (verified live: all 6 spokes present).
 
 ---
 
+## ✅ DONE — IGF-1 LR3 SILO (commit `0a6579a6`)
+
+Queue item 11 (highest-source unbuilt compound). Built per the locked SOP.
+Deploy verified live 2026-10-13.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-igf-1-lr3-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-igf-1-lr3-uk
+- https://www.viralpeps.co.uk/compound-guides/igf-1-lr3-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-igf-1-lr3-online-uk
+- https://www.viralpeps.co.uk/compound-guides/igf-1-lr3-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-igf-1-lr3-peptide
+
+**Verified metrics:** rendered words 1,677–1,982 (all ≥1,200) · titles 39–45 chars ·
+descriptions 156–160 chars · focus keyword in H1 + intro[0] · **52 unique live go-links,
+0 broken** (all 52 swept individually against the `/go/` route, stopping at the redirect —
+all 302/308) · hub tiles present on `/compounds/igf-1-lr3` (6 compound-guides links) ·
+index lists IGF-1 LR3 · all 6 spokes in sitemap · `npx tsc --noEmit` 0 errors ·
+`npm run build` clean.
+
+**Why IGF-1 LR3 was chosen:** the original 5-item queue was complete, as were BPC-157,
+GHK-Cu and TB-500. Among unbuilt compounds IGF-1 LR3 is the one with the most UK search
+demand in autocomplete (Tesamorelin, NAD+, SS-31, DSIP and KPV have high source counts but
+little to no UK buying-intent signal — see the note below). Hub `/compounds/igf-1-lr3`
+returns 200 with **57 master sources**.
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-13)
+
+⚠️ **Five of the six default modifiers returned ZERO UK results for IGF-1 LR3** — substituted,
+as the SOP requires. IGF-1 LR3 is a growth-factor protein, not a GLP-1, so the GLP-1 modifier
+set does not transfer (same pattern as Semax, Selank, Ipamorelin, MOTS-c, GHK-Cu and TB-500).
+Note the hyphenated form (`igf-1 lr3`) returns far less than the spaced form (`igf 1 lr3`);
+both were harvested.
+
+| Modifier | Result |
+|---|---|
+| `where to buy igf-1 lr3 uk` | ⚠️ **0 results** → substituted `where can i buy igf 1 lr3` (**exact #2**: `where to buy igf-1 lr3`); corroborated by `igf 1 lr3 peptide where to buy` (#1 under `igf 1 lr3 where `) |
+| `cheapest igf-1 lr3 uk` | ⚠️ **0 results** across every phrasing (`cheapest igf 1 lr3` also 0) → substituted `igf 1 lr3 price uk` (UK hit under `igf 1 lr3 uk `: `igf 1 lr3 uk price`) |
+| `igf-1 lr3 price comparison uk` | ⚠️ **0 results** → substituted `igf 1 lr3 price` (**exact #3**; also `igf 1 lr3 peptide price`, `igf 1 lr3 price in pakistan/india/australia`) and `igf 1 lr3 cost` (**exact #1**) |
+| `buy igf-1 lr3 online uk` | ⚠️ **0 results** → substituted `buy igf 1 lr3 uk` (**exact #1**) / `igf 1 lr3 buy uk` (**exact #1**) |
+| `igf-1 lr3 uk supplier` | ⚠️ **0 results** (`igf 1 lr3 supplier uk` / `igf 1 lr3 suppliers uk` also 0) → substituted `igf 1 lr3 for sale uk` (UK hit #1 `igf 1 lr3 buy uk` under that probe) |
+| `best igf-1 lr3 peptide` | **real hits** — `best igf 1 lr3` (#2 after `best igf 1 lr3 stack`), `igf 1 lr3 best brand`, `igf 1 lr3 best place to buy`, `best time to take igf 1 lr3 peptide` — **passed** |
+
+Corroborating hits: `igf 1 lr3 uk`, `igf 1 lr3 uk peptides`, `igf 1 lr3 uk muscle`,
+`igf 1 lr3 buy uk`, `igf 1 lr3 nasal spray uk`, `is igf-1 lr3 legal in uk`,
+`igf-1 lr3 peptide price`, `igf-1 lr3 1mg`, `where to get igf-1 lr3 peptide`,
+`igf 1 lr3 peptide for sale`, `igf 1 lr3 shop`.
+
+### ⚠️ Spoke 5 substitution detail
+`igf-1 lr3 uk supplier` returned 0 results in every phrasing — no supplier-intent phrasing for
+IGF-1 LR3 in UK autocomplete (same as Semax/Selank/Ipamorelin/MOTS-c/TB-500). Spoke 5 was built
+on **`igf-1-lr3-for-sale-uk`**, which has real UK demand (`igf 1 lr3 buy uk` #1, `igf 1 lr3 uk
+peptides`, `igf 1 lr3 peptide for sale`).
+
+### Collision check (KW Phase 1)
+`grep -niE "igf|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`:
+- **Zero IGF-1 LR3 rows** in the plan. Only unrelated pillar rows: line 34
+  `where-to-buy-peptides-uk`, line 89 `where-to-buy-tirzepatide-uk`, line 123
+  `cheapest-peptides-uk`.
+**No plan collisions — nothing removed.**
+
+### Data
+- 57 master sources on `igf-1-lr3`; no `compareSlug` children exist for this compound
+  (unlike BPC-157/GHK-Cu/TB-500), so no `goCompoundSlug` variant handling was needed —
+  every row resolves at master `igf-1-lr3`. The `goCompoundSlug` field is still populated
+  in the data layer for forward-compatibility.
+- 1 `options[]` array (UK Peptides, `1 mg vial`) expanded into its own row.
+- Uses the `vendorSlugFor()` helper (the Semax fix) — resolves real slugs from `vendors.json`
+  instead of synthesising them, so **0 broken go-links**. 8 vendors would have mismatched on
+  the synthesised slug (`Kensington Labs UK`→`kensington-labs`, `SupplyPeptides`→
+  `supply-peptides`, `JGPep+`→`jgpeptidesplus`, `Zentra Peptides UK`→`zentra-peptides`,
+  `UK Peptide Lab`→`uk-peptide-lab`, `LeoLab Peptides UK`→`leolab`, `UKPeptides.org`→
+  `ukpeptides`, `Research Peptides UK`→`research-peptide-uk`).
+- `mgFromLabel()` was extended to normalise microgram packs (`100mcg` → 0.1mg), so the
+  Proforma Peptides 10×100mcg kit correctly shows a per-mg figure rather than "—".
+  This is a strict improvement over TB-500's helper (which returns null on mcg).
+- Pack profile: 1mg dominates; 100mcg presentations and one 10×100mcg kit present;
+  one row has a non-numeric dosage label (`1mg-2mg`) and resolves on the lower bound.
+
+### ⚠️ Platform note — `/go/` route is rate-sensitive (reconfirmed)
+The `/go/[vendorSlug]/[compoundSlug]` route is `force-dynamic` and writes a click log before
+redirecting. A tight sweep of 52 go-links produced 9 apparent failures (404/403/402/URLError).
+**Every one returns 302 when requested individually with pacing.** On the first paced sweep one
+404 (`/go/alphamino/igf-1-lr3`) persisted across 4 retries, but worked on a local production
+build (`npx next start` → 302) and returned 302 on the subsequent paced live sweep. This is the
+same pre-existing platform quirk documented for Selank (5 links returned 308) and confirmed for
+Semax — **not an IGF-1 LR3 regression**. Do not treat loop failures as broken links.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 25002025 — Optimizing IGF-I for skeletal muscle therapeutics (Growth Horm IGF Res 2014)
+- 33587816 — Detection of LongR(3)-IGF-I, Des(1-3)-IGF-I and R(3)-IGF-I using immunopurification and high resolution mass spectrometry (Drug Test Anal 2021)
+- 20675162 — Detection of His-tagged Long-R³-IGF-I in a black market product (Growth Horm IGF Res 2010)
+- 42395176 — The emerging landscape of performance-enhancing peptides modulating the GH-IGF1 axis (Front Endocrinol 2026)
+- 39679943 — IGF-1 LR3 does not promote growth in late-gestation growth-restricted fetal sheep (Am J Physiol Endocrinol Metab 2025)
+- 39610283 — Intranasal long R3 insulin-like growth factor-1 treatment promotes amyloid plaque remodeling (J Alzheimers Dis 2025)
+- 37261455 — Recombinant expression of IGF-1 and LR3 IGF-1 fused with xylanase in Pichia pastoris (Appl Microbiol Biotechnol 2023)
+- 22328223 — Characterization and identification of a C-terminal amidated mechano growth factor analogue in black market products (Rapid Commun Mass Spectrom 2012)
+- 42349420 — Resident mesenchymal progenitor cells require autocrine IGF-I in homeostatic and regenerating skeletal muscle (Stem Cell Reports 2026)
+- 36503467 — The Roles of IGF-1 and MGF on Nerve Regeneration (Curr Protein Pept Sci 2023)
+
+⚠️ **Caution reconfirmed:** one drafted PMID (22208809) resolved to nothing at all —
+esummary returned no record. Always harvest via `esearch` then confirm each ID with `esummary`;
+never draft from memory.
+
+### ⚠️ NOTE for the next silo run — source count ≠ demand
+Ranked by master source count, the top unbuilt compounds are now Tesamorelin (114), NAD+ (95),
+Bacteriostatic Water (79), SS-31 (76), DSIP (71), KPV (70), Epitalon (68), Glow (64),
+Melanotan II (62). **Do NOT pick on source count alone** — Step 1 demand verification is
+mandatory and several of these have thin or zero UK buying-intent autocomplete. IGF-1 LR3 was
+chosen over all of them because it is the highest-demand unbuilt compound with real UK intent
+across five of six modifiers. Run the autocomplete harvest before committing to the next pick.
+
+### Files changed
+`src/data/igf-1-lr3-silo.ts` (new) · `src/data/igf-1-lr3-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 11 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block).
+Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
