@@ -10319,5 +10319,253 @@
     "destUrl": "https://helixcore.co.uk/products/sermorelin",
     "refPage": "https://www.viralpeps.co.uk/go/helix-core/sermorelin",
     "visitorId": "5e889a1028df61d4"
+  },
+  {
+    "ts": "2026-10-13T12:28:59.806Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/alphamino/ghk-cu-100mg-the-peptide-company",
+    "visitorId": "42d9fd0111df1b92"
+  },
+  {
+    "ts": "2026-10-13T12:31:13.230Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "3ec93ef874d78ae7"
+  },
+  {
+    "ts": "2026-10-13T12:31:19.157Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "5b06b18765e97c7a"
+  },
+  {
+    "ts": "2026-10-13T12:31:21.931Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "5b06b18765e97c7a"
+  },
+  {
+    "ts": "2026-10-13T12:32:26.357Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2",
+    "visitorId": "90a837d11eda2fd6"
+  },
+  {
+    "ts": "2026-10-13T12:32:31.191Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-13T12:32:34.028Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-13T12:32:47.982Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://purepeptidesuk.com/product/ghrp-2-5mg/",
+    "visitorId": "95ddd6b1d97057db"
+  },
+  {
+    "ts": "2026-10-13T12:33:28.841Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.flexpeptides.co.uk/products/tb-500-5mg",
+    "visitorId": "d2fb532ec5f5f4d8"
+  },
+  {
+    "ts": "2026-10-13T12:33:32.909Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.flexpeptides.co.uk/products/tb-500-5mg",
+    "visitorId": "57d6e22ede722be8"
+  },
+  {
+    "ts": "2026-10-13T12:33:38.049Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.flexpeptides.co.uk/products/tb-500-5mg",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-13T12:36:36.218Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptx.co.uk/single-vials/ss-31",
+    "visitorId": "160e77c17fc7d62f"
+  },
+  {
+    "ts": "2026-10-13T12:38:29.751Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://ukpeptides.com/catalog/nad-plus",
+    "refPage": "https://www.viralpeps.co.uk/go/uk-peptides/nad-plus",
+    "visitorId": "a6beb09ae2254fd0"
+  },
+  {
+    "ts": "2026-10-13T12:39:02.813Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
+    "visitorId": "1e098238410131b1"
+  },
+  {
+    "ts": "2026-10-13T12:39:08.407Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-13T12:39:28.122Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1e7dbda93ec66229"
+  },
+  {
+    "ts": "2026-10-13T12:40:24.315Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "refPage": "https://www.viralpeps.co.uk/go/precision-peptides",
+    "visitorId": "16e9f2de181c5c9c"
+  },
+  {
+    "ts": "2026-10-13T12:42:49.188Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.stratfordpeptides.com/products/melanotan-2",
+    "visitorId": "271b50701061496c"
+  },
+  {
+    "ts": "2026-10-13T12:44:12.528Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptideglobal.co.uk/product/bpc-157-5mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-global/bpc-157",
+    "visitorId": "05fc145234a92079"
+  },
+  {
+    "ts": "2026-10-13T12:46:22.761Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "d93cda6e73acdc88"
+  },
+  {
+    "ts": "2026-10-13T12:47:59.860Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/epithalon",
+    "refPage": "https://www.viralpeps.co.uk/go/new-wave-peptides/epitalon",
+    "visitorId": "2db271996bb6fcab"
+  },
+  {
+    "ts": "2026-10-13T12:49:57.721Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/cjc-1295-w-o-dac-2mg",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptides-uk-main/cjc-1295-no-dac",
+    "visitorId": "741725f9f1045d6e"
+  },
+  {
+    "ts": "2026-10-13T12:52:03.822Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://researchpeptide.co.uk/product/kisspeptin/",
+    "visitorId": "7d7829e40a69bd4a"
+  },
+  {
+    "ts": "2026-10-13T12:53:57.638Z",
+    "type": "vendor-site",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "destUrl": "https://claripep.co.uk",
+    "visitorId": "6235d522c0c414cf"
+  },
+  {
+    "ts": "2026-10-13T12:54:36.583Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ghk-cu-100mg/",
+    "visitorId": "72ce8cec131ed5a1"
+  },
+  {
+    "ts": "2026-10-13T12:55:35.848Z",
+    "type": "vendor-site",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "destUrl": "https://britpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/brit-peptides",
+    "visitorId": "adc4b1a0dd1906d1"
+  },
+  {
+    "ts": "2026-10-13T12:57:29.243Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://anglopeptides.com/product/cjc-1295-without-dac-10mgnew-batch-170-research-peptide/",
+    "visitorId": "0794b66f93635029"
   }
 ]
