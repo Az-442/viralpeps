@@ -12724,5 +12724,70 @@
     "compoundSlug": "bam15",
     "destUrl": "https://phoenixbiolabs.net/shop/bam15/",
     "visitorId": "39b580092110e459"
+  },
+  {
+    "ts": "2026-10-13T20:12:08.076Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/kisspeptin-10mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-13T20:12:12.150Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/kisspeptin-10mg/",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-13T20:12:42.448Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c5e82acb6f906fe7"
+  },
+  {
+    "ts": "2026-10-13T20:12:48.664Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "84021a57c6afbf6f"
+  },
+  {
+    "ts": "2026-10-13T20:15:50.984Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://phoenixbiolabs.net/shop/ara-290-20mg-prefilled-premixed-pen-research-compound/",
+    "visitorId": "cb4a7548f68d53a3"
+  },
+  {
+    "ts": "2026-10-13T20:20:52.495Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "visitorId": "ead29b45aed6e342"
+  },
+  {
+    "ts": "2026-10-13T20:30:11.014Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "tesamorelin-10mg",
+    "destUrl": "https://biopeptides-uk.com/product/tesamorelin-10mg/",
+    "visitorId": "8b67b7d6ab6aac79"
   }
 ]
