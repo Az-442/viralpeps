@@ -589,6 +589,15 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         </div>
       )}
 
+      {/* ===== IGF-1 LR3 BUYING GUIDES — silo tiles (hub only) ===== */}
+      {slug === "igf-1-lr3" && activeSilo && (
+        <div className="bg-blue-50 border-t border-gray-100 py-12">
+          <div className="max-w-[76rem] mx-auto px-4">
+            <SiloTiles silo={activeSilo} />
+          </div>
+        </div>
+      )}
+
       {/* ===== RESEARCH LIBRARY — compound-specific only ===== */}
       {(() => {
         const compoundNameLower = compound.name.toLowerCase();

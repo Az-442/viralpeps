@@ -16,6 +16,11 @@ import {
 } from "@/data/bpc-157-silo";
 import { GHK_CU_SPOKES, getGhkStats, type GhkStats } from "@/data/ghk-cu-silo";
 import { TB_500_SPOKES, getTbStats, type TbStats } from "@/data/tb-500-silo";
+import {
+  IGF_1_LR3_SPOKES,
+  getIgfStats,
+  type IgfStats,
+} from "@/data/igf-1-lr3-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -138,6 +143,14 @@ export const SILOS: Silo[] = [
     spokes: TB_500_SPOKES as unknown as SiloSpoke[],
     getStats: () => getTbStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "igf-1-lr3",
+    name: "IGF-1 LR3",
+    blurb:
+      "Long R3 insulin-like growth factor-1 buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: IGF_1_LR3_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getIgfStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -153,6 +166,5 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats };
 export type { GhkStats };
-export type { TbStats };
