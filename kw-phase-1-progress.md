@@ -1475,14 +1475,123 @@ and both present in their compounds' Research Library sections (`/compounds/surv
 
 ---
 
+## Day 24 — Fri 09 Oct (3 articles) ✅ DONE
+Completed 13 Oct 2026 by daily blog cron (main branch, direct, commit `057b1b92`).
+
+All three planned slugs were absent from BOTH `research.ts` and `research-content.ts` at the
+start of this run (plan-vs-registry reconciliation script) — no dedupe skip needed.
+
+- `cardiogen-vs-bpc-157` — **cardiogen** (vs) — section: comparisons,
+  compoundSlug: cardiogen-research-peptide, compoundSlug2: bpc-157, compound: Cardiogen.
+  Angle: two heart research peptides grouped together by vendors but sitting at opposite ends of
+  the evidence curve. BPC-157 has multi-lab, internationally indexed preclinical literature
+  (VEGFR2/angiogenesis, tendon fibroblasts, a 2026 critical review of rodent ischaemia-reperfusion
+  work) and 133 UK listings; Cardiogen's cardiac rationale rests on organotypic tissue-culture
+  work from the St Petersburg gerontology programme, much of it in Russian-language journals, with
+  just 3 UK listings and no published sequence. Core point: BPC-157 can be verified against an
+  independent spec, Cardiogen cannot.
+- `longevity-peptide-suppliers-uk` — **longevity peptide suppliers UK** (grouped) — section:
+  research-hub (no compoundSlug — category-level grouped guide).
+  Angle: the "longevity peptide" category is really three markets wearing one label —
+  compounds with replicated biology (GHK-Cu 141 listings, NAD+ 95), the single-programme
+  peptide-bioregulator family (Epitalon 68, Thymalin 17, Vesugen 6), and single-source novelties
+  (Humanin 1, Klotho 1). 26 compounds / 716 listings / 107 vendors. Why wide price spreads
+  (GHK-Cu 54x) signal a consumer channel rather than a quality difference, and why narrow spreads
+  (Vesugen 1.3x) signal a thin research-only market.
+- `high-purity-research-peptides` — **high purity research peptides** (pillar) — section:
+  research-hub (no compoundSlug — market/analytical pillar).
+  Angle: a purity figure is the output of a method, not a property of a compound. 160 of 410
+  tracked compounds state ≥99%. What reverse-phase HPLC at 214 nm cannot detect (TFA counterion,
+  residual solvents, water content, metal ions, bacterial endotoxin), the four ways purity claims
+  mislead in practice, and the five specifications that matter more than the number — mass spec
+  identity, endotoxin, batch traceability, a named lab, storage/shipping.
+
+Article types are all different (vs / grouped / pillar) on different subjects — no keyword stacking.
+None of the three articles carries a `compound` display name where the slug form is ambiguous
+(the comparison uses `compound: "Cardiogen"` to match the existing Cardiogen articles).
+
+Cards (all Pillow via `scripts/make_kw_phase1_day24_cards.py`):
+- `public/images/guides/cardiogen-vs-bpc-157.png` — dual-vial 50% (cardiogen-research-peptide +
+  bpc-157-vial), badge "Comparison", subtitle "Evidence vs Availability"
+- `public/images/guides/longevity-peptide-suppliers-uk.png` — dual-vial 50% (epitalon-vial +
+  ghk-cu-vial), badge "Supplier Guide", subtitle "Three Markets, One Label". **Title shortened
+  from "Longevity Peptides UK" (measured 458px) to "Longevity Peptides" (386px)** against the
+  395px dual-vial allowance — third run in a row where a dual-vial title clipped.
+- `public/images/guides/high-purity-research-peptides.png` — single-vial 75% (bpc-157-vial),
+  badge "Technical Guide", subtitle "What the Number Misses"
+
+Vial labels QA'd with the vision tool BEFORE compositing: cardiogen-research-peptide
+("VIRALPEPS / Cardiogen / For Research Use Only"), bpc-157-vial ("BPC-157 / 10mg"),
+epitalon-vial ("ViralPeps / EPITALON / 10mg"), ghk-cu-vial ("Viral Peps / GHK-Cu / 50mg") —
+all four compound identifiers correct. All three finished cards vision-checked: correct compound,
+no clipping.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+1,781 / 1,883 / 1,906. Rendered article word counts (incl. table cells, excl. site chrome):
+2,674 / 2,725 / 2,634.
+
+Build: passed (262/262 pages, up from 251). All 22 internal links verified against
+`compounds.json` slugs, `vendors.json` slugs and live `research.ts`/`research-content.ts`
+keys — 0 broken. **39 references verified individually via NCBI E-utilities esummary**
+(title + journal + author + volume/pages matched for every one — none guessed).
+All 3 guide card `image:` refs cross-checked against disk: OK.
+
+Local render verified pre-push: all three routes 200 with correct `<title>`, all three listed
+on `/research`, `cardiogen-vs-bpc-157` present in BOTH compounds' Research Library sections
+(`/compounds/cardiogen-research-peptide`, `/compounds/bpc-157`), and
+`longevity-peptide-suppliers-uk` present in both `/compounds/ghk-cu` and `/compounds/epitalon`.
+
+### ⚠️ Lessons from this run
+1. **The `research-content.ts` seam was the 2s-`],` / 0-indent-`}` form this run:**
+   `'  ],' + NL + '},' + NL + NL + '};' + NL + 'export default content;'` matched exactly 1.
+   The no-indent variant ALSO reported 1 as a substring. **Probe every run and prefer the
+   explicit (longest) matching form** — the script sorts candidates by length descending and
+   takes the first, which picked `2s-0` correctly. The Day-23 note's no-indent form did not hold.
+2. **`write_file` did NOT double escapes this run** — run-length checker reported `{1: 40}`,
+   `{1: 52}`, `{1: 52}` (single backslash before every `n`) and `{1: 16}` / `{1: 4}` / `{1: 2}`
+   before apostrophes. The normaliser was still run check-first and reported clean.
+   Consistent with Days 7, 21 and 23.
+3. **The pre-merge `tsc` gate needs a RELATIVE import, not the `@/` alias.**
+   `import type { ResearchPageContent } from '@/data/research-content'` failed with
+   `TS2307: Cannot find module` even though the harness file was written into `src/data/`.
+   `'./research-content'` passed (rc=0). Same as the Day-14 finding — the alias does not
+   resolve when `tsc` is invoked with an explicit file argument rather than through the
+   project's own build.
+4. **The `research.ts` guides-array anchor has NO blank line before `];`.** The Day-22/23 notes'
+   `'  },\n\n];'` form matched 0; the working anchor was `'  },\n];\n\nexport const compoundList'`
+   (count 1). The Day-18/19/20/21 brace rule applied: replacement is
+   `'  },\n' + blocks + '];\n\nexport const compoundList'` (re-emit the consumed `  },`, drop
+   the anchor's own).
+5. **Third consecutive run where a dual-vial card title clipped.** "Longevity Peptides UK"
+   measured 458px against the 395px allowance and was shortened to "Longevity Peptides" (386px).
+   The Day-22 note flagged the same trap for "Recovery Peptides UK" (446px). **Always measure a
+   dual-vial title against 395px with `draw.textlength()`** — and note the template wraps on
+   `" vs "` but does NOT re-measure either half, so a `" vs "` title must be measured as two
+   halves against 395px each (measured: "Cardiogen" 208px / "vs BPC-157" 229px — both fine).
+6. **`README`-level render check caught nothing but is cheap.** All three routes 200'd on the
+   first local check with correct titles; the compound Research Library cross-check (grep the
+   rendered HTML of each compound page for the new slug) confirmed the auto-link wiring.
+7. **`git status` remained noisy with pre-existing artefacts** (`.wt/day2` submodule pointer —
+   foreign) but no sibling job was active on `research-content.ts` this run. Staged ONLY my
+   6 files (2 data, 1 card script, 3 PNGs). `HEAD..origin/main` was 0/0 before the push.
+8. **Existing broken-link debt unchanged and still out of scope:** the four `/research/*`
+   forward-links (`hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+   `p21-research-summary` — planned Day 27, `thymosin-alpha1-research-summary`). None were linked
+   from this run's articles.
+
+---
+
 ## Next up
-*Day 23 complete. Advance to Day 24 (`cardiogen-vs-bpc-157`, `longevity-peptide-suppliers-uk`,
-`high-purity-research-peptides` — 3 articles).*
+*Day 24 complete. Advance to Day 25 (`ghk-cu-vs-ahk-cu`, `tb-500-deep-dive` — 2 articles).*
 **Before writing, grep every slug against BOTH `research.ts` AND `research-content.ts` AND check
-for same-intent neighbours.** Note that `tb-500-deep-dive` (Day 25) and `cjc-1295-suppliers-uk`
-(Day 26) are still unwritten but Day 24's slugs were all confirmed absent on 12 Oct.
+for same-intent neighbours.** Note the GHK-Cu slug family in the registry uses the COMPACT form
+(`ghkcu-deep-dive`, `ghkcu-vs-retinol`, `ghkcu-vs-bpc157`) — but `ghk-cu-suppliers-uk` uses the
+hyphenated form, so check which convention `ghk-cu-vs-ahk-cu` should follow before writing, and
+verify the AHK-Cu compound slug (`ahk-cu`) separately.
 ⚠️ **Stage any temp fragments OUTSIDE the repo root** — `viralpeps/tmp/` is inside the build's
 TypeScript scope and bare `.ts` fragments there fail the build (see Day-23 lesson 3).
+⚠️ **Vial filenames differ from compound slugs** — verify both separately (`p21.png` not
+`p21-vial.png`; `thymosin-alpha1-vial.png` for compound `thymosin-alpha-1`).
 
 ---
 
