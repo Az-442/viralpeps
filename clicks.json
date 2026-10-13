@@ -8276,5 +8276,13 @@
     "compoundSlug": "cjc-1295",
     "destUrl": "https://biopulsepeptides.co.uk/shop/cjc-1295-no-dac-5mg/",
     "visitorId": "75aa0c3391dd1673"
+  },
+  {
+    "ts": "2026-10-13T11:24:53.454Z",
+    "type": "vendor-site",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "destUrl": "https://helixcore.co.uk",
+    "visitorId": "60f5cc2a8012f5a1"
   }
 ]
