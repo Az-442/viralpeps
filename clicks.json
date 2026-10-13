@@ -12799,5 +12799,35 @@
     "destUrl": "https://aegispeptidesuk.co.uk/product/mt-2/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "0730e4daa34a8e07"
+  },
+  {
+    "ts": "2026-10-13T20:53:46.796Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "48e1e4e0ff8b6cbe"
+  },
+  {
+    "ts": "2026-10-13T20:53:53.285Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "898e4ceda0e20056"
+  },
+  {
+    "ts": "2026-10-13T21:24:08.862Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f85fcfb9fcd64439"
   }
 ]
