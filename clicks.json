@@ -12599,5 +12599,92 @@
     "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "be723a5f277ae029"
+  },
+  {
+    "ts": "2026-10-13T17:33:43.879Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6722b56ee9deacf8"
+  },
+  {
+    "ts": "2026-10-13T17:46:05.996Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2f760bbf0de77edc"
+  },
+  {
+    "ts": "2026-10-13T17:46:09.293Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "90dcb1fbbc633ec8"
+  },
+  {
+    "ts": "2026-10-13T17:46:31.277Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "acth-1-39",
+    "destUrl": "https://bionikpeptides.com/products/acth-1-391",
+    "visitorId": "12f6b799744930da"
+  },
+  {
+    "ts": "2026-10-13T17:46:33.066Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "acth-1-39",
+    "destUrl": "https://bionikpeptides.com/products/acth-1-391",
+    "visitorId": "72ce8cec131ed5a1"
+  },
+  {
+    "ts": "2026-10-13T17:46:34.924Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "acth-1-39",
+    "destUrl": "https://bionikpeptides.com/products/acth-1-391",
+    "visitorId": "6a9031946439e5b0"
+  },
+  {
+    "ts": "2026-10-13T17:50:45.263Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9addff2752c7041a"
+  },
+  {
+    "ts": "2026-10-13T17:50:49.573Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6fa8ea2605187c87"
+  },
+  {
+    "ts": "2026-10-13T18:06:53.844Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://phoenixbiolabs.net/shop/fox04-dri-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c940f67d7fffd517"
   }
 ]
