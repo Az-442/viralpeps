@@ -5062,5 +5062,56 @@
       },
       "checkedAt": "2026-10-12T00:39:06.520Z"
     }
+  },
+  {
+    "id": "reta-research",
+    "name": "Reta Research",
+    "slug": "reta-research",
+    "website": "https://retaresearch.co",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2025,
+    "country": "UK",
+    "description": "Reta Research is a UK research-peptide supplier (trading as Fesobella LTD, Company No. 17439704) built around batch-level independent verification. Every lot is tested by HPLC for purity and by mass spectrometry for identity before it is listed, and the Certificate of Analysis is published openly on each product page. Stock is stored and dispatched from a UK warehouse via Royal Mail 24, with orders placed before noon sent the same day. All material is supplied strictly for laboratory research use.",
+    "highlights": [
+      "Every batch HPLC-tested to ≥99% purity before listing",
+      "Certificate of Analysis published on each product page",
+      "Mass-spectrometry identity confirmation on every lot",
+      "Royal Mail 24 — same-day dispatch on orders before noon",
+      "UK warehouse, discreet tracked packaging",
+      "Research-use-only — no dosing or clinical guidance given"
+    ],
+    "shipping": [
+      "UK — Royal Mail 24 (next-day UK delivery aim)",
+      "Same-day dispatch on orders placed before 12pm, Mon–Fri",
+      "Tracked shipping with tracking supplied after dispatch",
+      "Discreet, plain unbranded packaging",
+      "Local pick-up point option available at checkout"
+    ],
+    "payment": [
+      "Card payment",
+      "Secure online checkout"
+    ],
+    "lastTested": "2026-10-13",
+    "labTested": true,
+    "email": "help@retaresearch.co",
+    "delivery": "Royal Mail 24 — next-day UK delivery · same-day dispatch on orders before 12pm · tracked, discreet packaging · UK warehouse",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-13T04:00:00.000Z"
+    }
   }
 ]
