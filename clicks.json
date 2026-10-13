@@ -12695,5 +12695,34 @@
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
     "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-10-13T19:05:10.242Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7777e4b886ee7ba9"
+  },
+  {
+    "ts": "2026-10-13T19:12:25.824Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glow",
+    "destUrl": "https://phoenixbiolabs.net/shop/glow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1b0522134edcc839"
+  },
+  {
+    "ts": "2026-10-13T19:22:10.991Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bam15",
+    "destUrl": "https://phoenixbiolabs.net/shop/bam15/",
+    "visitorId": "39b580092110e459"
   }
 ]
