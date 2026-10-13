@@ -1814,6 +1814,38 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ["follistatin", "follistatin-344", "suppliers", "uk", "myostatin", "recombinant-protein", "coa", "endotoxin"],
   },
+
+  {
+    title: "Cardiogen vs BPC-157: Two Heart Research Peptides, Two Very Different Paper Trails",
+    desc: "A head-to-head comparison of Cardiogen and BPC-157 for cardiac research - why the two compounds are grouped in the same vendor category despite sitting at opposite ends of the evidence curve. Covers BPC-157's multi-lab, internationally indexed preclinical literature (VEGFR2, angiogenesis, tendon fibroblast work) against Cardiogen's single-programme organotypic tissue-culture base in the Russian gerontology tradition, with market data on 133 BPC-157 listings versus 3 Cardiogen listings and the practical problem of verifying a compound with no published sequence.",
+    category: "Guide",
+    section: "comparisons",
+    compound: "Cardiogen",
+    slug: "cardiogen-vs-bpc-157",
+    image: "cardiogen-vs-bpc-157",
+    minutes: 11,
+    tags: ["cardiogen", "bpc-157", "comparison", "cardiac", "heart", "bioregulator", "khavinson", "evidence"],
+  },
+  {
+    title: "Longevity Peptide Suppliers UK: 26 Compounds, 716 Listings, Three Different Markets",
+    desc: "A UK supplier guide to the longevity and anti-ageing research peptide category - why it is actually three distinct markets (compounds with replicated biology, the single-programme bioregulator family, and single-source novelties), the 54x price spread on GHK-Cu and why wide spreads signal a consumer channel rather than a quality difference, which vendors specialise in the thin compounds nobody else stocks, and the five verification questions to ask before buying.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "longevity-peptide-suppliers-uk",
+    image: "longevity-peptide-suppliers-uk",
+    minutes: 13,
+    tags: ["longevity", "anti-ageing", "suppliers", "uk", "ghk-cu", "epitalon", "nad", "bioregulator", "geroprotective"],
+  },
+  {
+    title: "High Purity Research Peptides: What the Number Does Not Tell You",
+    desc: "A technical guide to peptide purity claims in the UK research market - why 160 of 410 compounds state a >=99% purity that is close to meaningless without the method behind it, what reverse-phase HPLC at 214 nm cannot detect (TFA counterion, residual solvents, water content, metal ions, bacterial endotoxin), the four ways purity claims mislead in practice, and the five specifications that matter more than the purity figure.",
+    category: "Guide",
+    section: "research-hub",
+    slug: "high-purity-research-peptides",
+    image: "high-purity-research-peptides",
+    minutes: 12,
+    tags: ["purity", "hplc", "mass-spectrometry", "endotoxin", "coa", "quality", "analytical", "verification"],
+  },
 ];
 
 export const compoundList: string[] = [
