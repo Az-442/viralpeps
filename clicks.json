@@ -18433,5 +18433,118 @@
     "destUrl": "https://kingstonpeptides.com/en/products/selank",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "6e4c138bad871c55"
+  },
+  {
+    "ts": "2026-10-14T12:09:22.608Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://kingstonpeptides.com/en/products/selank",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "1811db8c4e275ee8"
+  },
+  {
+    "ts": "2026-10-14T12:19:55.119Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "4d382c3865d9e906"
+  },
+  {
+    "ts": "2026-10-14T12:20:54.586Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "b8803c565b775b51"
+  },
+  {
+    "ts": "2026-10-14T12:24:33.201Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2eaec22e2fc1aa46"
+  },
+  {
+    "ts": "2026-10-14T12:25:33.776Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptideglobal.co.uk/product/tesamorelin-pen/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0746e811401fcc4d"
+  },
+  {
+    "ts": "2026-10-14T12:27:20.317Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "2ddcc53970131d4e"
+  },
+  {
+    "ts": "2026-10-14T12:27:23.127Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "f487876c8b3819c0"
+  },
+  {
+    "ts": "2026-10-14T12:27:24.785Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/semax-5mg",
+    "visitorId": "141ba299bdc65ec4"
+  },
+  {
+    "ts": "2026-10-14T12:28:56.687Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptideglobal.co.uk/product/epithalon-10mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "645f6ce623d9b130"
+  },
+  {
+    "ts": "2026-10-14T12:30:59.255Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://kingstonpeptides.com/en/products/bacteriostatic-water",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "00c538d2a93186e5"
+  },
+  {
+    "ts": "2026-10-14T12:31:31.344Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://unitedpeptides.co.uk/product/tirzepatide-60mg/",
+    "visitorId": "8b6fa1379c14f04a"
+  },
+  {
+    "ts": "2026-10-14T12:50:45.299Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/epithalon-epitalon-10mg/",
+    "visitorId": "aaedab527eeb3d07"
   }
 ]
