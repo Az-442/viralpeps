@@ -18310,5 +18310,118 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
     "visitorId": "68b24f9783b7c36a"
+  },
+  {
+    "ts": "2026-10-14T10:42:50.956Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "68b24f9783b7c36a"
+  },
+  {
+    "ts": "2026-10-14T10:43:51.875Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://everythingpeptides.co.uk/products/mots-c",
+    "visitorId": "68b24f9783b7c36a"
+  },
+  {
+    "ts": "2026-10-14T10:44:40.810Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "visitorId": "439189be54dcd849"
+  },
+  {
+    "ts": "2026-10-14T10:45:23.013Z",
+    "type": "vendor-site",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "destUrl": "https://octagonpeptides.co.uk",
+    "visitorId": "ecd06e71673ce141"
+  },
+  {
+    "ts": "2026-10-14T10:45:31.547Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptidelabuk.co.uk/product/kisspeptin-10-10mg-research-peptide/",
+    "visitorId": "7cf8b02308e0710c"
+  },
+  {
+    "ts": "2026-10-14T10:45:32.788Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "visitorId": "61453ab36f6a4929"
+  },
+  {
+    "ts": "2026-10-14T10:45:59.285Z",
+    "type": "vendor-site",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "destUrl": "https://octagonpeptides.co.uk",
+    "visitorId": "8a0a47a4d0dfd906"
+  },
+  {
+    "ts": "2026-10-14T10:45:59.813Z",
+    "type": "vendor-site",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "destUrl": "https://bioplexpeptides.co.uk",
+    "visitorId": "1c12adc59b8d98df"
+  },
+  {
+    "ts": "2026-10-14T10:46:00.659Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "destUrl": "https://peptidelabuk.co.uk",
+    "visitorId": "a632d9810d99245c"
+  },
+  {
+    "ts": "2026-10-14T10:46:06.910Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "destUrl": "https://peptidelabuk.co.uk",
+    "visitorId": "3ddf35382546fdc6"
+  },
+  {
+    "ts": "2026-10-14T10:48:46.022Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptideglobal.co.uk/product/klow-pen/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "bf5b0486de6f3fa6"
+  },
+  {
+    "ts": "2026-10-14T11:05:24.845Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://nilahlabs.co.uk/products/semax",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d8d20f082014e795"
+  },
+  {
+    "ts": "2026-10-14T11:20:38.900Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-tesamorelin-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "4d679a1ed675a6ff"
   }
 ]
