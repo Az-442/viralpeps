@@ -23040,5 +23040,118 @@
     "destUrl": "https://nilahlabs.co.uk/products/mots-c",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "5a65967e8c768e87"
+  },
+  {
+    "ts": "2026-10-14T13:22:14.660Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nilahlabs.co.uk/products/mots-c",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "51143da00dc8a7aa"
+  },
+  {
+    "ts": "2026-10-14T13:22:56.922Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://octagonpeptides.co.uk/product/cjc-no-dac-5-mg/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-14T13:25:18.121Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e8708490dde2af62"
+  },
+  {
+    "ts": "2026-10-14T13:27:08.832Z",
+    "type": "vendor-site",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "destUrl": "https://fatpigpeptides.co.uk",
+    "visitorId": "0ddcb4d19a60d89e"
+  },
+  {
+    "ts": "2026-10-14T13:27:35.313Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://redpandapeptides.co.uk/product/tirzepitide-20mg/",
+    "visitorId": "0ddcb4d19a60d89e"
+  },
+  {
+    "ts": "2026-10-14T13:31:51.912Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptideglobal.co.uk/product/kisspeptin-10-5mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ad91ce934f3e6db8"
+  },
+  {
+    "ts": "2026-10-14T13:31:54.190Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptideglobal.co.uk/product/kisspeptin-10-5mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "15ed65d4c7babee6"
+  },
+  {
+    "ts": "2026-10-14T13:35:42.246Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptideglobal.co.uk/product/dsip-5mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "07935b1b1135234b"
+  },
+  {
+    "ts": "2026-10-14T13:46:09.562Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "96d906d6034ddc14"
+  },
+  {
+    "ts": "2026-10-14T13:46:14.283Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "45dc309bd3787383"
+  },
+  {
+    "ts": "2026-10-14T13:46:16.206Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biotideuk.com/products/selank-10-mg",
+    "visitorId": "c1f4ee09b7eba759"
+  },
+  {
+    "ts": "2026-10-14T13:53:40.654Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "69071032f46cb90a"
   }
 ]
