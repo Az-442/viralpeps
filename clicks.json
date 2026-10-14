@@ -18211,5 +18211,104 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
     "visitorId": "670b77b355cb0bb1"
+  },
+  {
+    "ts": "2026-10-14T10:07:05.691Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://nilahlabs.co.uk/products/bac-water-ampoule",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7930a8e1c7400320"
+  },
+  {
+    "ts": "2026-10-14T10:07:39.039Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "670b77b355cb0bb1"
+  },
+  {
+    "ts": "2026-10-14T10:08:23.869Z",
+    "type": "vendor-site",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "destUrl": "https://kingstonpeptides.com",
+    "visitorId": "670b77b355cb0bb1"
+  },
+  {
+    "ts": "2026-10-14T10:09:44.765Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk",
+    "visitorId": "670b77b355cb0bb1"
+  },
+  {
+    "ts": "2026-10-14T10:11:07.095Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "670b77b355cb0bb1"
+  },
+  {
+    "ts": "2026-10-14T10:17:49.450Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "366d855070491d8a"
+  },
+  {
+    "ts": "2026-10-14T10:17:53.820Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f4aec1088bd689d3"
+  },
+  {
+    "ts": "2026-10-14T10:24:04.064Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "8bf57387f5208d6b"
+  },
+  {
+    "ts": "2026-10-14T10:35:29.549Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-semax-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4ec959b5c5e1afd4"
+  },
+  {
+    "ts": "2026-10-14T10:36:22.570Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptideglobal.co.uk/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "9097c9c7d0f02999"
+  },
+  {
+    "ts": "2026-10-14T10:42:03.154Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "68b24f9783b7c36a"
   }
 ]
