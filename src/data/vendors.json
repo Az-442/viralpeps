@@ -5113,5 +5113,59 @@
       },
       "checkedAt": "2026-10-13T04:00:00.000Z"
     }
+  },
+  {
+    "id": "north-peptides-uk",
+    "name": "North Peptides UK",
+    "slug": "north-peptides-uk",
+    "website": "https://www.northpeptidesuk.com",
+    "rating": 4.6,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "North Peptides UK is a UK-stocked research-peptide supplier holding 20 compounds plus laboratory supplies, with purity stated on every listing. Stock is stored at -20C from arrival until dispatch and batch numbers are recorded on receipt. Independent HPLC laboratory reports are published on-site for Retatrutide and GHK-Cu (99% purity, Analiza Bialek, Wroclaw). Vials are supplied lyophilised for laboratory reconstitution, with optional pre-filled pen-vial kits including disposable pen, sterile tips and alcohol wipes. Orders placed before 12pm Mon-Fri are aimed at next-working-day dispatch from a UK facility. All material is supplied strictly for laboratory research use only.",
+    "highlights": [
+      "20 research compounds plus lab supplies, UK stocked",
+      "Purity stated on every listing",
+      "Independent HPLC lab reports published for Retatrutide and GHK-Cu (99%)",
+      "Stored at -20C from arrival until dispatch; batch numbers recorded",
+      "Optional pre-filled pen-vial kits with pen, tips and wipes included",
+      "Free UK delivery on orders of £100 or more",
+      "Next-working-day dispatch aim on orders before 12pm Mon-Fri",
+      "Direct support by email, Telegram or WhatsApp with COA requests by batch reference",
+      "Research-use-only - no guidance on human or animal use given"
+    ],
+    "shipping": [
+      "UK - Royal Mail Tracked 48 £3.99, Tracked 24 £6.99 (£4.99 on £100+ orders)",
+      "Free UK delivery on orders of £100 or more",
+      "DHL Express £11.99 available",
+      "Optional chilled packaging £5 per order, added at checkout",
+      "Orders before 12pm Mon-Fri aimed at next-working-day dispatch (allow 24-48h after payment)",
+      "Tracking provided after dispatch"
+    ],
+    "payment": [
+      "UK bank transfer"
+    ],
+    "lastTested": "2026-10-14",
+    "labTested": true,
+    "email": "orders@northpeptidesuk.com",
+    "delivery": "Royal Mail Tracked 48 £3.99 (free from £100) - Tracked 24 £6.99 - DHL Express £11.99 - UK stocked, dispatch aim next working day on orders before 12pm Mon-Fri - optional chilled packaging £5/order",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analysis / independent lab report",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "free uk delivery",
+        "contact": "orders@northpeptidesuk.com"
+      },
+      "checkedAt": "2026-10-14T01:30:00.000Z"
+    }
   }
 ]
