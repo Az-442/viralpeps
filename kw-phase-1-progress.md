@@ -1581,17 +1581,176 @@ on `/research`, `cardiogen-vs-bpc-157` present in BOTH compounds' Research Libra
 
 ---
 
+## Day 25 — Sat 10 Oct (2 articles) ✅ DONE
+Completed 14 Oct 2026 by daily blog cron (main branch, direct, commit `3c132d3b`).
+
+Both planned slugs (`ghk-cu-vs-ahk-cu`, `tb-500-deep-dive`) were absent from BOTH
+`research.ts` and `research-content.ts` at the start of this run (grep count 0) — no
+dedupe skip needed. A same-intent check was run per the Day-21 lesson: the registry's
+GHK-Cu family uses the COMPACT form (`ghkcu-deep-dive`, `ghkcu-vs-retinol`,
+`ghkcu-vs-bpc157`, `ghkcu-research-summary`) while the supplier guide uses the
+hyphenated `ghk-cu-suppliers-uk`. `ghk-cu-vs-ahk-cu` was written hyphenated to match
+the compound slugs it links to (`/compounds/ghk-cu`, `/compounds/ahk-cu`); the registry
+carries `tb-500-vs-ghk-cu` in the same hyphenated form, so the convention is consistent.
+No near-duplicate existed for either article — the closest neighbour, `tb-500-suppliers-uk`,
+is a supplier guide rather than a mechanism deep dive, and `ahk-cu-research-summary`
+is a compound profile rather than a comparison.
+
+- `ghk-cu-vs-ahk-cu` — **ghk-cu** (vs) — section: comparisons, compoundSlug: ghk-cu,
+  compoundSlug2: ahk-cu, compound: GHK-Cu. Angle: the two copper tripeptides sold side by
+  side on every UK shelf differ by one N-terminal residue (glycine in GHK, alanine in AHK).
+  The copper-binding end is identical, so the copper-delivery endpoints are shared; the
+  N-terminus changes proteolytic susceptibility and steric fit. AHK is not a documented
+  endogenous human plasma peptide, whereas GHK was isolated from plasma albumin. AHK-Cu's
+  entire peer-reviewed record is one 2007 in-vitro hair-follicle study that reports a CLASS
+  effect across a tripeptide panel, not an AHK-specific superiority — and no study has ever
+  run the two head-to-head. Core market point: the price is inverted relative to synthesis
+  economics (one methyl group of difference) — AHK-Cu's £24.99 floor against GHK-Cu's £6.48
+  is a function of 16 vendors vs 102, and its 2.4x spread signals a thin market rather than
+  quality. Verification trap: AHK-Cu has no CAS number and no published complex mass, so
+  there is no independent number to check a COA against; calculated values (~417.4 g/mol
+  free, ~480 g/mol complexed) are given explicitly as calculated.
+- `tb-500-deep-dive` — **tb-500** (deep) — section: peptides, compoundSlug: tb-500,
+  compound: TB-500. Angle: one fragment, four names, three molecules. Thymosin beta-4
+  (43 residues, 4,961.5 g/mol, CAS 77591-33-4), the N-terminally acetylated 17–23 fragment
+  identified in the equine anti-doping work (PMID 22962027), and the short fragment actually
+  shipped. Actin sequestration via the LKKTETQ motif, the separable-active-sites finding
+  (PMID 20179146), the Ac-SDKP degradation pathway (PMID 36362069, PMID 30854877), the
+  full-length protein's phase I / venous-ulcer / dry-eye trial record, and the unflattering
+  2026 Mendias appraisal of peptide therapies for musculoskeletal injury (PMID 41966639).
+  Core sourcing point: on this compound a LOW price is not a red flag — a 7-residue
+  acetylated peptide is genuinely cheap to make, so £11.95 is consistent with a real
+  fragment; the question is which molecule the COA mass describes (~889 g/mol for the
+  fragment against 4,961.5 g/mol for the protein). 88 vendors, 118 listings, 16.7x spread.
+
+Article types differ (vs / deep) on different compounds — no keyword stacking.
+
+Cards (both Pillow via `scripts/make_kw_phase1_day25_cards.py`):
+- `public/images/guides/ghk-cu-vs-ahk-cu.png` — dual-vial 50% (ghk-cu-vial + ahk-cu-vial),
+  badge "Comparison", subtitle "One Residue Apart"
+- `public/images/guides/tb-500-deep-dive.png` — single-vial 75% (tb-500-vial),
+  badge "Deep Dive Report", subtitle "One Fragment, Four Names"
+
+Vial labels QA'd with the vision tool BEFORE compositing: ghk-cu-vial ("GHK-Cu / 50mg"),
+ahk-cu-vial ("AHK-CU / 100mg"), tb-500-vial ("TB-500 / 5mg") — all three compound
+identifiers correct. Both finished cards vision-checked: correct compound, no clipping.
+Title widths measured with `draw.textlength()`: the dual-vial title measured 393px against
+the 395px allowance — the narrowest pass yet (fourth consecutive run where the dual-vial
+allowance was the binding constraint, though this one passed rather than clipping). The
+single-vial title measured 139px against 579px.
+
+Word counts (content fields: sections + subsections + quickInfo + faq + pullQuote):
+3,187 / 3,401.
+
+Build: passed (264/264 pages, up from 262). All 10 internal links verified against
+`compounds.json` slugs and live `research.ts` / `research-content.ts` keys — 0 broken.
+**28 PMIDs verified individually via NCBI E-utilities esummary** (title + journal + author
++ volume/pages matched for every one — none guessed). Both guide card `image:` refs
+cross-checked against disk: OK.
+
+Live verified: both articles 200 with correct `<title>`, self-referencing canonical, card
+images serving at MATCHING byte size (157546 / 182788), both listed on `/research` and in
+`sitemap.xml`, and both present in their compounds' Research Library sections
+(`ghk-cu-vs-ahk-cu` in BOTH `/compounds/ghk-cu` and `/compounds/ahk-cu`;
+`tb-500-deep-dive` in `/compounds/tb-500`).
+
+### ⚠️ Pre-existing data errors found and fixed (data hygiene, no content changes)
+1. **`compounds.json` — AHK-Cu master compound had a dosage variant as its NAME.** The
+   entry was `"name": "AHK-CU 100mg"`, so the compound's display name across the site read
+   as a vial size and the compound listing avatar rendered "A" for a product called
+   "AHK-CU 100mg". Changed to `"AHK-Cu"` (matching the pattern used for GHK-Cu and TB-500,
+   which carry clean names). The `id`, `slug` and all sources were left untouched.
+2. **`research.ts` — `ahk-cu-research-summary` used the all-caps compound label
+   `'AHK-CU'`.** Every other compound label is mixed case in the registry. Changed to
+   `'AHK-Cu'` and added `ghk-cu` to its tags (the article is a close sibling of the GHK-Cu
+   family and was not cross-linked from anywhere in the tag system).
+Both changes are limited to those single fields; no article body, source entry, category
+or FAQ was modified. Verified no other compound in `compounds.json` carries a dosage
+suffix in its `name` field alongside a clean name — the only other multi-slug candidates
+(`ghk-cu-50mg`, `ahk-cu-100mg`, `sterling-*`) are separate vendor-variant entries where a
+dosage-specific name is correct.
+
+### ⚠️ Lessons from this run
+1. **The `research-content.ts` seam was the 2s-`],` / 0-INDENT-`}` form:**
+   `'  ],' + NL + '},' + NL + NL + '};' + NL + 'export default content;'` (len 35, count 1).
+   The `2s-2s` variant (len 37) matched **0** this run, and the no-indent-`],` variant
+   (len 33) ALSO reported count 1 as a substring. The sort-by-length-descending probe
+   picked the correct (longest matching) form. **The Day-24 note's `2s-0` description was
+   right; the Day-22 note's `2s-2s` form did not hold.** Probe all candidates every run.
+2. **`write_file` did NOT double escapes this run** — run-length checker reported
+   `{1: 46}` / `{1: 13}` and `{1: 38}` / `{1: 8}` (strictly single backslash runs before
+   every `n` and `'`). The normaliser was run as a check-first step and reported clean.
+   Consistent with Days 7, 21, 23 and 24.
+3. **The naive quote-balance scanner in the gate script is NOT usable as a gate.** It
+   flagged 45 and 55 "suspicious" lines respectively — every one a false positive caused
+   by the scanner treating the *opening* quote of a multi-line TS string as unclosed. The
+   real gate that works is the `tsc` check on a wrapped harness. Do not add a quote-balance
+   heuristic; it produces noise that would mask a real defect.
+4. **The `tsc` pre-merge gate needs a RELATIVE import, not the `@/` alias** (Day-24 lesson
+   confirmed again). `import type { ResearchPageContent } from './research-content'` passed
+   rc=0 with `./node_modules/.bin/tsc --noEmit --strict src/data/kw25_gate.ts`. The harness
+   files were written INTO `src/data/` for the check and deleted immediately afterwards —
+   never left under the repo root (Day-23 lesson 3 on `tmp/` and Turbopack's type-check
+   scope).
+5. **The `research.ts` guides-array anchor has NO blank line before `];`:**
+   `'  },\n];\n\nexport const compoundList'` (count 1). The Day-23/24 notes' `'  },\n\n];'`
+   form (blank line) matched 0. The Day-18/19/20/21 brace rule applied: replacement is
+   `'  },\n' + ENTRIES + '];\n\nexport const compoundList'` (re-emit the consumed `  },`,
+   drop the anchor's own). Verified both new `slug:` offsets sit before
+   `export const compoundList` (107179 / 108095 < 108324).
+6. **Dual-vial cards are down to 3px of headroom on a title like this.** "GHK-Cu vs AHK-Cu"
+   measured 393px against the 395px allowance. The template wraps on `" vs "` only when
+   the full string exceeds the allowance — at 393px it did NOT wrap and rendered on one
+   line, which is correct and fits, but the margin is now effectively zero. **Any future
+   dual-vial title of comparable length should be assumed to need shortening or a forced
+   two-line split.** Note the measurement must be taken against the FULL string first, and
+   the two-half split (measured against the same 395px each) applied only if the full
+   string overflows — measuring halves first would have wrongly forced this one to wrap.
+7. **A compound's `name` field is not always a name.** The `AHK-CU 100mg` discovery is a
+   class of data error worth sweeping for: master compounds whose `name` embeds a dosage or
+   pack size. It renders in the compound-listing avatar, the search results, the vendor
+   pages and the compound hero. Worth a dedicated audit of all 411 compounds for
+   dosage-suffixed `name` values on master (non-vendor-variant) slugs — not done here
+   because it is out of scope for a content cron, but flagged.
+8. **`image_generate` is still unavailable in cron, and no photo base was needed this run** —
+   both articles are compound-specific, so both cards used the Pillow vial template. The
+   pillar photo-base path was not exercised.
+9. **`git status` remained noisy** (`.wt/day2` submodule pointer — foreign) but no sibling
+   job was active on `research-content.ts` this run. Staged ONLY my 6 files (2 data,
+   1 card script, 2 PNGs) — plus the compounds.json name fix, which was made deliberately
+   and documented in the commit message. `HEAD..origin/main` was 0/0 before the push.
+10. **Existing broken-link debt unchanged and still out of scope:** the four `/research/*`
+    forward-links (`hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+    `p21-research-summary` — planned Day 27, `thymosin-alpha1-research-summary`). None were
+    linked from this run's articles.
+
+---
+
 ## Next up
-*Day 24 complete. Advance to Day 25 (`ghk-cu-vs-ahk-cu`, `tb-500-deep-dive` — 2 articles).*
-**Before writing, grep every slug against BOTH `research.ts` AND `research-content.ts` AND check
-for same-intent neighbours.** Note the GHK-Cu slug family in the registry uses the COMPACT form
-(`ghkcu-deep-dive`, `ghkcu-vs-retinol`, `ghkcu-vs-bpc157`) — but `ghk-cu-suppliers-uk` uses the
-hyphenated form, so check which convention `ghk-cu-vs-ahk-cu` should follow before writing, and
-verify the AHK-Cu compound slug (`ahk-cu`) separately.
-⚠️ **Stage any temp fragments OUTSIDE the repo root** — `viralpeps/tmp/` is inside the build's
-TypeScript scope and bare `.ts` fragments there fail the build (see Day-23 lesson 3).
-⚠️ **Vial filenames differ from compound slugs** — verify both separately (`p21.png` not
-`p21-vial.png`; `thymosin-alpha1-vial.png` for compound `thymosin-alpha-1`).
+*Day 25 complete. Advance to Day 26 (`cjc-1295-suppliers-uk`, `uk-peptide-comparison-site`
+— 2 articles).*
+
+⚠️ **`cjc-1295-suppliers-uk` is a trap.** The registry already contains a large CJC-1295
+family: `cjc-1295-with-dac-deep-dive`, `cjc-1295-with-dac-suppliers-uk`,
+`cjc-1295-with-dac-vs-without-dac`, plus research summaries. **Check whether
+`cjc-1295-suppliers-uk` is a genuine gap or a near-duplicate of
+`cjc-1295-with-dac-suppliers-uk`** — the latter already covers the with-DAC form's UK
+supply, and the plan's slug is unscoped. If the unscoped version would duplicate it,
+either differentiate sharply (no-DAC/without-DAC supply angle) or pull a different article
+forward from a later day, as Day 21 did. Also confirm which compound slug applies
+(`cjc-1295` vs `cjc-1295-with-dac` vs `cjc-1295-no-dac` — all three exist in
+`compounds.json`).
+
+⚠️ **`uk-peptide-comparison-site` is an odd plan slug** — it reads like a brand/competitor
+naming risk ("comparison site" invites naming ViralPeps or rivals). Treat it as a
+market-structure pillar about how UK comparison sites work, not a page about this site.
+Its near-neighbour `uk-peptide-price-comparison` already shipped on Day 15, so check for
+overlap and differentiate toward the *site* mechanics rather than the *price* data.
+
+⚠️ **Stage any temp fragments OUTSIDE the repo root** — `viralpeps/tmp/` is inside the
+build's TypeScript scope and bare `.ts` fragments there fail the build (Day-23 lesson 3).
+The `tsc` harness files must be deleted from `src/data/` immediately after the check.
+⚠️ **Vial filenames differ from compound slugs** — verify both separately.
 
 ---
 
