@@ -12947,5 +12947,55 @@
     "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "3b99381c45ad0cd1"
+  },
+  {
+    "ts": "2026-10-14T01:04:45.914Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://phoenixbiolabs.net/shop/epitalon-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e546e1840aa9d5d0"
+  },
+  {
+    "ts": "2026-10-14T01:08:16.026Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b273030606c1cd1e"
+  },
+  {
+    "ts": "2026-10-14T01:08:22.732Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d653422990ed6f49"
+  },
+  {
+    "ts": "2026-10-14T01:17:37.368Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bam15",
+    "destUrl": "https://phoenixbiolabs.net/shop/bam15/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5eb0117ea3e19c8c"
+  },
+  {
+    "ts": "2026-10-14T01:32:58.996Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound-copy/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "88eb3ce5e99b27be"
   }
 ]
