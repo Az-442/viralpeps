@@ -15631,5 +15631,313 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'ghk-cu-vs-ahk-cu': {
+  slug: 'ghk-cu-vs-ahk-cu',
+  compoundSlug: 'ghk-cu',
+  compoundSlug2: 'ahk-cu',
+  pullQuote: 'GHK-Cu and AHK-Cu are sold side by side on almost every copper-peptide shelf in the UK, priced within a few pounds of each other, and described in near-identical language. They differ by one amino acid in three. GHK-Cu has a published literature going back to 1988 and 143 tracked UK listings. AHK-Cu has a single in-vitro hair-follicle paper and 17 listings. That asymmetry is the entire comparison.',
+  quickInfo: [
+    { label: 'Comparison', value: 'GHK-Cu vs AHK-Cu' },
+    { label: 'GHK-Cu Identity', value: 'Glycyl-L-histidyl-L-lysine + copper(II), 3 residues' },
+    { label: 'AHK-Cu Identity', value: 'Alanyl-L-histidyl-L-lysine + copper(II), 3 residues' },
+    { label: 'The Only Difference', value: 'Position 1 — glycine in GHK, alanine in AHK' },
+    { label: 'Liver Copper', value: 'GHK was first isolated from human plasma albumin; AHK is not a documented human plasma peptide' },
+    { label: 'UK Supply', value: '102 vendors track GHK-Cu across 143 listings from £6.48; 16 vendors track AHK-Cu across 17 listings from £24.99' },
+    { label: 'Price Spread', value: 'GHK-Cu 54x; AHK-Cu 2.4x' },
+    { label: 'Last Verified', value: 'October 2026' },
+  ],
+  sections: [
+    {
+      title: 'GHK-Cu vs AHK-Cu: One Residue, Two Different Markets',
+      body: 'Walk into the copper-peptide section of any UK research vendor and you will usually find GHK-Cu and AHK-Cu next to each other. They are sold at similar strengths, in the same lyophilised 50 mg and 100 mg vials, under the same category heading, frequently with the same copy. The impression given is that they are near-equivalents and the choice is a matter of preference.\n\nThe chemistry does support the first half of that impression. Both are tripeptides ending in histidyl-lysine, and both are sold as copper(II) complexes. GHK-Cu is glycyl-L-histidyl-L-lysine bound to copper. AHK-Cu is alanyl-L-histidyl-L-lysine bound to copper. The difference is a single residue at the N-terminus: glycine, the smallest amino acid, has been replaced by alanine, which carries one extra methyl group. Everything else — the copper-binding histidine, the lysine, the complex geometry — is the same.\n\nThe market does not support the second half. [**GHK-Cu**](/compounds/ghk-cu) is the most widely stocked compound on ViralPeps: 102 vendors, 143 tracked listings, a price floor of £6.48 and a spread of 54x. [**AHK-Cu**](/compounds/ahk-cu) is carried by 16 vendors across 17 listings, from £24.99 to £59.00. That is a 2.4x spread on a compound whose cheapest listing is nearly four times GHK-Cu\'s.\n\nThe asymmetry in literature is sharper still. GHK was isolated from human plasma albumin in 1973 and its copper complex has been studied continuously since — collagen synthesis in fibroblast culture in 1988, connective-tissue accumulation in rat wounds in 1993, and a substantial gene-expression literature assembled through the 2010s. AHK-Cu\'s peer-reviewed record is one in-vitro human hair-follicle study from 2007 that tested several tripeptide-copper complexes and did not single AHK out as the strongest.\n\nThat is the comparison. This article sets out the chemistry precisely, examines what the AHK literature actually shows, explains why the price relationship is inverted relative to the synthesis cost, and gives a concrete answer to the sourcing question for each of the two realistic research use cases.\n\n[**Compare GHK-Cu prices from UK suppliers →**](/compounds/ghk-cu) · [**Compare AHK-Cu prices from UK suppliers →**](/compounds/ahk-cu)',
+    },
+    {
+      title: 'The Chemistry: What Changes When Glycine Becomes Alanine',
+      body: 'The one-residue difference sounds trivial and is not, for two separate reasons — one about synthesis and one about biology. It is worth separating them, because only one of them is favourable to AHK-Cu.',
+      subsections: [
+        {
+          title: 'The copper-binding end is identical',
+          body: 'Both peptides use the same copper-binding motif and both form the same class of complex. The histidine imidazole nitrogen and the preceding amide nitrogen coordinate the copper(II) ion, and the lysine side chain sits at the C-terminus in both cases. This is why the two compounds behave similarly in the assays that depend only on copper delivery to a cell — collagen synthesis in fibroblast culture, lysyl oxidase cofactor supply, and the generic antioxidant effects that follow from copper handling. A 2023 study of GHK-Cu and hyaluronic acid in fibroblasts and ex-vivo skin showed the collagen-IV upregulation effect is copper-dependent and measurable at the protein level ([PMID 37062921](https://pubmed.ncbi.nlm.nih.gov/37062921/)). The identical binding end means AHK-Cu plausibly produces a similar effect on that specific endpoint, and there is no published work demonstrating that it does not.',
+        },
+        {
+          title: 'The N-terminus is where the peptides diverge',
+          body: 'The N-terminal residue is the part of a tripeptide most exposed to the surrounding medium, and it determines how the peptide is recognised by proteases, transporters and any receptor that reads the free N-terminus. Substituting glycine for alanine adds a methyl group where the peptide chain was previously flat and flexible. This changes proteolytic susceptibility — glycine at position 1 makes a peptide more vulnerable to peptidases that cleave after small residues — and it changes the steric fit of the N-terminal end into any binding pocket that reads it. Whether that matters for a specific research question is generally not known, because almost nobody has run AHK-Cu head-to-head against GHK-Cu on a mechanistically informative endpoint.',
+        },
+        {
+          title: 'AHK is not a documented human plasma peptide',
+          body: 'The strongest biological argument for GHK-Cu\'s relevance is that GHK is endogenous. It was identified in human plasma as a copper-binding fraction, is released from the N-terminus of albumin in vivo, and rises in wound fluid — which is the basis for describing it as a natural repair signal. AHK does not have that provenance. Alanine at position 1 in place of glycine appears in synthetic tripeptide-copper series used in cosmetic and hair research, not as a characterised endogenous human peptide. For a study framed around physiological mechanisms, the endogenous compound has the clearer rationale. For a study framed around copper delivery as such, the distinction is much weaker.',
+        },
+      ],
+    },
+    {
+      title: 'What the AHK-Cu Literature Actually Contains',
+      body: 'The honest summary is that AHK-Cu has a very small published record, and the record does not establish superiority over GHK-Cu on any endpoint. It establishes that the copper-tripeptide class is active in hair-follicle models.',
+      subsections: [
+        {
+          title: 'The 2007 hair-growth study',
+          body: 'Pyo and colleagues examined the effect of tripeptide-copper complexes on human hair growth in vitro, testing a series of tripeptides including the alanine-substituted one against the dermal papilla and outer-root-sheath cell system used for hair-growth assays ([PMID 17703734](https://pubmed.ncbi.nlm.nih.gov/17703734/)). The study is real and the finding — that copper tripeptides promote hair-follicle proliferation in culture — is the origin of essentially every AHK-Cu marketing claim in circulation. Two caveats matter more than the finding. First, it is an in-vitro assay measuring proliferation of follicle cells, not hair growth in a person. Second, it tested a panel of tripeptides; the paper\'s contribution is a class effect, not an AHK-specific result. Reading it as evidence that AHK-Cu is better than GHK-Cu for hair requires a comparison the paper does not make.',
+        },
+        {
+          title: 'What is missing',
+          body: 'For AHK-Cu specifically there is no in-vivo wound model, no gene-expression dataset, no randomised trial, no published pharmacokinetics, and no structural study of the copper complex. There is also no established CAS number and no published molar mass figure on the compound records here — the AHK-Cu entry on this site has empty mechanism, CAS, molar-mass, sequence and half-life fields, which reflects the state of the literature rather than a gap in the data collection. Vendor listings quote a molecular weight in the 400–470 g/mol region by analogy with GHK-Cu, which is thermodynamically correct (alanine is 14 Da heavier than glycine, so the free peptide should be about 417.4 g/mol and the complex about 480 g/mol) but is not sourced from a characterisation paper. If a vendor\'s certificate of analysis reports a mass identical to GHK-Cu\'s, that is a documentation error worth raising.',
+        },
+        {
+          title: 'The comparison that has not been run',
+          body: 'No published study puts GHK-Cu and AHK-Cu against each other in the same model with the same readout. This is the single most important fact for anyone choosing between them. The absence of a head-to-head means the choice cannot be made on evidence of differential activity — it can only be made on the strength of the surrounding literature, the availability of a verification standard, and the price.',
+        },
+      ],
+    },
+    {
+      title: 'Why AHK-Cu Costs More Than GHK-Cu',
+      body: 'The price relationship is inverted relative to what synthesis economics would predict, and the reason is worth understanding because it explains why the market looks the way it does.\n\nGHK-Cu is cheap to make. Glycine and alanine are both commodity amino acids, so the synthesis cost is essentially indistinguishable between the two peptides, and both are three residues long — at the scale of a research vial, the cost of goods for either is a small fraction of the retail price. On cost of goods alone AHK-Cu should be priced within a pound or two of GHK-Cu. Instead its floor is £24.99 against GHK-Cu\'s £6.48.\n\nThe explanation is market structure, not chemistry. GHK-Cu is stocked by 102 vendors because it is the compound the category is built around: it has the endogenous-peptide story, the published gene-expression data, the widely cited collagen work, and the recognition that comes from being the answer to the question \"what is a copper peptide?\" That density of supply is what drives the price to £6.48 — when a hundred vendors sell the same three-amino-acid vial, the price converges on the marginal cost of listing it.\n\nAHK-Cu is stocked by 16 vendors because it is a catalogue extension rather than a category anchor. Fewer sellers, thinner competition, and a customer base that arrives already looking for it by name rather than shopping on price. A compound with 17 listings does not experience the price compression that 143 listings produce. The consequence for a buyer is that AHK-Cu carries a premium with no evidence-based justification — you are paying for scarcity of listings, not for a better molecule.\n\nThe spread tells the same story from the other direction. GHK-Cu\'s 54x spread (£6.48 to £350) reflects a consumer-facing category with thousands of buyers, huge variety in presentation, and wide variation in what vendors will charge a less price-sensitive customer. AHK-Cu\'s 2.4x spread reflects a thin, research-oriented listing base where essentially nobody is competing on price. Neither spread says anything about purity. A narrow spread is not a quality signal — on this site it is consistently a signal of a thin market, and Vesugen\'s 1.3x spread is the clearest example.\n\nPractical consequence: if you are selecting a copper peptide on the basis of price per milligram, GHK-Cu wins by a wide margin, and the saving comes from market depth rather than from any quality difference.',
+    },
+    {
+      title: 'Side-by-Side Specification Comparison',
+      body: 'The table below compares the properties that matter for research sourcing. Molecular-weight figures for AHK-Cu are calculated from the established GHK-Cu values plus the 14 Da alanine substitution, and are flagged as calculated rather than measured.',
+      table: {
+        header: ['Property', 'GHK-Cu', 'AHK-Cu'],
+        rows: [
+          ['Sequence', 'Gly-His-Lys (GHK)', 'Ala-His-Lys (AHK)'],
+          ['N-terminal residue', 'Glycine', 'Alanine'],
+          ['Copper complex', 'Yes — copper(II) complex', 'Yes — copper(II) complex'],
+          ['Free peptide mass', '403.9 g/mol', '~417.4 g/mol (calculated)'],
+          ['Complex mass', '~466.5 g/mol', '~480 g/mol (calculated)'],
+          ['CAS number', '89030-95-5', 'Not established'],
+          ['Endogenous in humans', 'Yes — isolated from plasma albumin', 'No documented endogenous role'],
+          ['Principal literature', 'Collagen synthesis, connective-tissue accumulation, gene expression, skin, hair', 'One in-vitro hair-follicle study (2007)'],
+          ['Published half-life', '~30 minutes in plasma', 'Not published'],
+          ['UK vendors tracked', '102 vendors, 143 listings', '16 vendors, 17 listings'],
+          ['Price floor', '£6.48', '£24.99'],
+          ['Price spread', '54x (£6.48–£350.00)', '2.4x (£24.99–£59.00)'],
+          ['Dominant vial size', '50 mg and 100 mg', '100 mg'],
+          ['Verification standard', 'Batch COA, HPLC purity, mass spec against 403.9 or 466.5', 'Same standard, but no published reference mass to check against'],
+        ],
+      },
+    },
+    {
+      title: 'Which One for Which Research Question',
+      body: 'The selection question resolves cleanly once the literature position is clear, because the two compounds support different kinds of claim.\n\nIf the research question is about copper-peptide biology with a mechanistic endpoint — collagen synthesis, extracellular-matrix accumulation, matrix metalloproteinase activity, gene-expression change, or copper handling — GHK-Cu is the only one of the two with the evidence base to support the design. The primary references are all GHK-Cu: collagen synthesis in fibroblast culture ([PMID 3169264](https://pubmed.ncbi.nlm.nih.gov/3169264/)), in-vivo connective-tissue accumulation in experimental wounds ([PMID 8227353](https://pubmed.ncbi.nlm.nih.gov/8227353/)), and the gene-expression and skin-regeneration reviews that assemble the wider dataset ([PMID 29986520](https://pubmed.ncbi.nlm.nih.gov/29986520/), [PMID 26236730](https://pubmed.ncbi.nlm.nih.gov/26236730/), [PMID 18644225](https://pubmed.ncbi.nlm.nih.gov/18644225/)). A result obtained with AHK-Cu on any of these endpoints cannot be interpreted against that literature, because there is no AHK-Cu literature to interpret it against.\n\nIf the research question is specifically about copper-tripeptide effects on hair-follicle cells, AHK-Cu is defensible — it has one directly relevant in-vitro paper, and the follicle proliferation effect is the class effect the paper describes ([PMID 17703734](https://pubmed.ncbi.nlm.nih.gov/17703734/)). But the same argument applies to GHK-Cu, which is the more commonly tested member of the class, and there is a separate GHK-Cu hair study also from the Pyo group plus a wider follicle literature. The honest position is that AHK-Cu is neither better evidenced nor better characterised for hair — it is simply the one with a paper that gets cited on hair pages.\n\nIf the research is a formulation or cosmetic-development exercise, AHK-Cu\'s role in commercial tripeptide-copper blends is a legitimate reason to include it, and the choice becomes a formulation question rather than an evidence question.\n\nWhat should not drive the decision is the assumption that a higher price reflects a better or more thoroughly characterised molecule. On this pair, the more expensive compound is the less characterised one. The one place where that inverts is manufacturing novelty: AHK-Cu is not a commodity in the way GHK-Cu has become, and a researcher who specifically wants the alanine-substituted variant for a structure-activity question will pay for it — correctly, because there is no cheaper route to that compound.\n\nRelated reading: [**GHK-Cu Suppliers UK →**](/research/ghk-cu-suppliers-uk), [**Skin and Hair Peptide Suppliers UK →**](/research/skin-hair-peptide-suppliers-uk), [**GHK-Cu vs BPC-157 →**](/research/ghkcu-vs-bpc157), and the [**GHK-Cu Research Summary →**](/research/ghkcu-research-summary).',
+    },
+    {
+      title: 'UK Supply and the Verification Problem',
+      body: 'Both compounds are sold under the same research-use-only convention, and both can be checked against the same four-part standard. One of them is materially easier to check than the other, and that difference is a practical reason to think carefully before buying AHK-Cu.\n\nThe standard is unchanged across this site: mass-spectrometry identity against a stated expected mass; HPLC purity with the method stated and the chromatogram supplied; a certificate that matches the batch number on the vial; and a named testing laboratory. Presentation matters too — a lyophilised copper peptide should be blue or blue-green, because the colour is the copper complex. A white powder sold as GHK-Cu or AHK-Cu is not the complex.\n\nThe verification problem is specific to AHK-Cu. GHK-Cu has a published CAS number and two published masses — 403.9 g/mol for the free tripeptide and approximately 466.5 g/mol for the copper complex — and a certificate reporting the wrong one tells you something specific about what was tested. AHK-Cu has neither. There is no established CAS number on the compound record, no published complex mass, and no characterisation paper. A vendor that reports a mass for AHK-Cu is either using a calculated figure (about 417.4 g/mol free, about 480 g/mol complexed) or a figure copied from GHK-Cu. There is no independently verifiable number to check it against.\n\nThe practical position on supply is straightforward. GHK-Cu is available from more than a hundred vendors, so the buyer has real choice and can afford to insist on documentation — the price floor of £6.48 means a listing that will not supply a batch-matched certificate is not worth the conversation. AHK-Cu is available from sixteen, so the buyer has almost no choice, and the £24.99 floor makes the documentation ask harder to make stick: a vendor with few competitors has little incentive to answer a detailed technical query.\n\nOne presentational trap applies to both. Neither compound is offered as a topical cosmetic in this catalogue, and both are sold as lyophilised powder for reconstitution. If a listing for AHK-Cu or GHK-Cu is described as a serum, a cream or a ready-to-use solution, it is a different product category being marketed with the same name, and the research-use framing does not carry over.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'GHK-Cu and AHK-Cu differ by one residue — glycine replaced by alanine at the N-terminus — and by almost everything else that matters for research sourcing.\n\nGHK-Cu is an endogenous human copper-binding tripeptide with a published literature running from 1973 to the present, an established CAS number, two published masses depending on whether the copper is counted, 143 tracked UK listings from £6.48, and a fibre of mechanistic work covering collagen synthesis, matrix accumulation and gene expression. AHK-Cu is a synthetic variant of the same tripeptide with one in-vitro hair-follicle paper, no CAS number, no published mass, no in-vivo work, and 17 tracked UK listings starting at £24.99.\n\nThe price inversion is the trap. AHK-Cu costs roughly four times GHK-Cu at the floor not because it is a better or harder-to-make molecule — the synthesis difference is one methyl group — but because sixteen vendors compete on it instead of a hundred and two. A higher price here signals a thinner market, not a superior reagent.\n\nChoose on the endpoint. Copper-peptide biology, matrix remodelling, collagen and gene-expression work point firmly to GHK-Cu, and the literature only exists for GHK-Cu. Hair-follicle-specific work makes AHK-Cu defensible, though no better evidenced than its parent. Structure-activity work that specifically requires the alanine substitution is the one case where AHK-Cu is the right answer and no substitute exists.\n\nNeither is a licensed medicine in the UK and both are sold for research use only. For the live market, [**compare GHK-Cu prices →**](/compounds/ghk-cu) or [**compare AHK-Cu prices →**](/compounds/ahk-cu).',
+    },
+  ],
+  faq: [
+    {
+      question: 'What is the difference between GHK-Cu and AHK-Cu?',
+      answer: 'One amino acid. GHK-Cu is glycyl-L-histidyl-L-lysine bound to copper; AHK-Cu is alanyl-L-histidyl-L-lysine bound to copper. Glycine at the N-terminus is replaced by alanine, which adds a single methyl group. The copper-binding histidine and the C-terminal lysine are identical in both.',
+    },
+    {
+      question: 'Is AHK-Cu the same as GHK-Cu?',
+      answer: 'No, although they are closely related and are often sold as alternatives. They share the histidyl-lysine copper-binding motif and form the same class of copper(II) complex, but the N-terminal residue differs, which changes proteolytic stability and the shape of the free N-terminus. They are also not interchangeable in the literature: virtually all published copper-tripeptide research uses GHK-Cu.',
+    },
+    {
+      question: 'Why is AHK-Cu more expensive than GHK-Cu?',
+      answer: 'Market depth, not chemistry. GHK-Cu is stocked by 102 tracked UK vendors across 143 listings, which compresses the price floor to £6.48. AHK-Cu is stocked by 16 vendors across 17 listings, so there is little price competition and the floor sits at £24.99. The synthesis cost difference between the two peptides is one methyl group.',
+    },
+    {
+      question: 'Does AHK-Cu promote hair growth?',
+      answer: 'The evidence for that claim is a single in-vitro study from 2007 that tested a panel of tripeptide-copper complexes on human hair-follicle cells in culture and found a proliferation effect. It is an in-vitro assay, not human hair growth, and the paper reports a class effect rather than singling out AHK-Cu as superior to GHK-Cu.',
+    },
+    {
+      question: 'What is AHK-Cu\'s CAS number and molecular weight?',
+      answer: 'AHK-Cu has no established CAS number and no published complex molecular weight. Calculated figures are approximately 417.4 g/mol for the free tripeptide and about 480 g/mol for the copper complex, derived from the established GHK-Cu values plus the 14 Da alanine substitution. Treat vendor-quoted masses with caution if they match GHK-Cu\'s numbers exactly.',
+    },
+    {
+      question: 'Which copper peptide should I choose for research?',
+      answer: 'For copper-peptide biology, matrix remodelling, collagen synthesis or gene-expression work, GHK-Cu — it is the only one of the two with a published evidence base. For structure-activity work that specifically requires the alanine-substituted tripeptide, AHK-Cu, and there is no substitute. For hair-follicle endpoints, either is defensible but AHK-Cu is no better evidenced.',
+    },
+    {
+      question: 'What colour should a copper peptide powder be?',
+      answer: 'Blue or blue-green. The colour is the copper complex — a lyophilised GHK-Cu or AHK-Cu should be visibly blue or blue-green, becoming more intense at higher concentration. A white or off-white powder sold as either compound is not the copper complex regardless of what the label says.',
+    },
+  ],
+  references: [
+    'Pickart L, Vasquez-Soltero JM, Margolina A. Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data. Int J Mol Sci. 2018;19(7):1987. PMID 29986520',
+    'Pickart L, Vasquez-Soltero JM, Margolina A. GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration. Biomed Res Int. 2015;2015:648108. PMID 26236730',
+    'Pickart L, Vasquez-Soltero JM, Margolina A. The human tri-peptide GHK and tissue remodeling. J Biomater Sci Polym Ed. 2008;19(8):969-88. PMID 18644225',
+    'Maquart FX, Pickart L, Laurent M, et al. Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. FEBS Lett. 1988;238(2):343-6. PMID 3169264',
+    'Maquart FX, Bellon G, Chaqour B, et al. In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds. J Clin Invest. 1993;92(5):2368-76. PMID 8227353',
+    'Jiang F, et al. Synergy of GHK-Cu and hyaluronic acid on collagen IV upregulation via fibroblast and ex-vivo skin tests. J Cosmet Dermatol. 2023;22(9):2598-2604. PMID 37062921',
+    'Pyo HK, Yoo HG, Won CH, et al. The effect of tripeptide-copper complex on human hair growth in vitro. Arch Pharm Res. 2007;30(7):834-9. PMID 17703734',
+    'Najafi N, et al. A Systematic Review of the Mechanisms and Therapeutic Applications of GHK-Cu (Glycyl-L-Histidyl-L-Lysine-Copper Complex) in Topical Microneedle Delivery. Arch Intern Med Res. 2026;9:269-293. PMID 42787770',
+  ],
+},
+
+'tb-500-deep-dive': {
+  slug: 'tb-500-deep-dive',
+  compoundSlug: 'tb-500',
+  pullQuote: 'TB-500 is the most-named and least-agreed-upon peptide in the UK catalogue. It is sold as thymosin beta-4, as TB4, as Tbeta4 and as TB-500, and those four names describe at least two different molecules. The full protein is 43 residues and 4,961.5 g/mol. The synthetic fragment characterised in the anti-doping literature is seven residues. Both are on sale, both are called TB-500, and only one of them is what the wound-healing literature actually studied.',
+  quickInfo: [
+    { label: 'Compound', value: 'TB-500 (thymosin beta-4 fragment)' },
+    { label: 'Full Protein', value: 'Thymosin beta-4 / Tbeta4, 43 residues, 4,961.5 g/mol' },
+    { label: 'Sold As', value: 'Thymosin beta-4, TB4, Tbeta4, TB-500, thymosin beta-4 fragment' },
+    { label: 'CAS Number', value: '77591-33-4' },
+    { label: 'Active Region', value: 'LKKTETQ — the actin-binding motif at residues 17–23' },
+    { label: 'Reported Half-Life', value: '2–4 hours' },
+    { label: 'UK Supply', value: '88 vendors across 118 listings, from £11.95 to £199.99' },
+    { label: 'Common Vial Sizes', value: '2 mg, 5 mg, 10 mg; blends and pens also listed' },
+    { label: 'Last Verified', value: 'October 2026' },
+  ],
+  sections: [
+    {
+      title: 'TB-500 Deep Dive: One Fragment, Four Names',
+      body: 'TB-500 is unusual among research peptides in that the primary difficulty is not mechanism, evidence or sourcing. It is nomenclature. The same product name is applied to a 43-residue protein, to a 17-residue synthetic fragment, and to a 7-residue fragment, and a substantial proportion of what is written about "TB-500" does not specify which of the three is meant.\n\nThe underlying biology is thymosin beta-4, a small actin-binding protein of 43 amino acids that is one of the most abundant intracellular peptides in mammalian cells. Its defining property is that it sequesters monomeric G-actin — it binds actin monomers and holds them in a polymerisation-competent state, which is how it regulates the cytoskeletal dynamics that cell migration depends on. The actin-binding region sits in the middle of the sequence, at residues 17 to 23, and the motif is LKKTETQ.\n\nTB-500 as sold in the research market is a synthetic peptide corresponding to that actin-binding region. Which region, exactly, is where the naming problem begins. The compound studied in the equine anti-doping literature — the work that first established how to detect TB-500 in a biological sample — characterised it as an N-terminally acetylated 17–23 fragment ([PMID 22962027](https://pubmed.ncbi.nlm.nih.gov/22962027/)). Separately, the mass-spectrometry method developed for doping control describes TB-500 as a synthetic version of an active region of thymosin beta-4 and detects it in equine urine and plasma ([PMID 23084823](https://pubmed.ncbi.nlm.nih.gov/23084823/)). Meanwhile many UK listings describe the 43-residue full-length protein as thymosin beta-4, TB4 or Tbeta4 rather than TB-500 — and a proportion of the literature cited on those pages concerns the intact protein, which is a different molecule with different pharmacokinetics.\n\nThis article sets out what thymosin beta-4 actually does, exactly which fragment TB-500 corresponds to and why that matters, what the human and animal evidence genuinely shows, what the four names conceal at the point of sale, and how to verify what a UK supplier has actually shipped. The supply picture is 88 vendors across 118 tracked listings from £11.95, which is deep enough that verification is the only real differentiator.\n\n[**Compare TB-500 prices from UK suppliers →**](/compounds/tb-500)',
+    },
+    {
+      title: 'The Mechanism: Actin Sequestration and Why It Is Unusual',
+      body: 'Thymosin beta-4 works by a mechanism that has no equivalent among the other repair peptides in the UK catalogue, and getting it right explains most of what follows.',
+      subsections: [
+        {
+          title: 'G-actin sequestration',
+          body: 'Actin exists in cells in two interconvertible states: filamentous F-actin, which forms the structural scaffold of the cytoskeleton, and monomeric G-actin, which is the pool from which filaments are extended. The balance between them determines whether a cell can push out a leading edge and move. Thymosin beta-4 binds G-actin and maintains the monomer pool, acting as a buffer that keeps polymerisation-competent actin available. The relationship was demonstrated directly in migrating intestinal epithelial cells, where disrupting the F-actin/G-actin/thymosin beta-4 balance impaired migration ([PMID 9950774](https://pubmed.ncbi.nlm.nih.gov/9950774/)). The actin-binding function is localised: Shah and colleagues showed that thymosin beta-4 inhibits PDGF-BB-induced activation of hepatic stellate cells specifically via its actin-binding domain, which is a clean demonstration that the domain does the work ([PMID 30063851](https://pubmed.ncbi.nlm.nih.gov/30063851/)).',
+        },
+        {
+          title: 'The active sites are separable',
+          body: 'The most useful paper for anyone designing a TB-500 experiment is Sosne and colleagues\' study of the biological activities of thymosin beta-4 as defined by active sites in short peptide sequences ([PMID 20179146](https://pubmed.ncbi.nlm.nih.gov/20179146/)). The finding is that thymosin beta-4\'s several activities map onto different short sequences within the protein rather than requiring the whole molecule — which is precisely why a fragment is sold at all, and precisely why the fragment identity matters. If you buy a 7-residue fragment you have bought a specific subset of the protein\'s activities, not a miniature version of it. Philp and colleagues took the same logic into an in-vivo model and showed that thymosin beta-4 and a synthetic peptide containing its actin-binding domain both promoted dermal wound repair in diabetic and aged mice ([PMID 12581423](https://pubmed.ncbi.nlm.nih.gov/12581423/)). That study is the most-cited preclinical support for selling the fragment rather than the protein.',
+        },
+        {
+          title: 'Downstream effects',
+          body: 'Because cell migration is upstream of so much of tissue repair, the downstream findings are broad — accelerated wound closure, keratinocyte and fibroblast migration into injury sites, neovascularisation, and modulation of inflammatory mediators. Thymosin beta-4 has also been linked to coronary vessel development, where its absence produces a vascular phenotype, and to the anti-fibrotic switch in organ fibrosis. The degradation pathway matters in this context: thymosin beta-4 is cleaved to the tetrapeptide Ac-SDKP, which has its own opposing biology in fibrosis and inflammation. The Tbeta4–POP–Ac-SDKP axis has been mapped in organ fibrosis ([PMID 36362069](https://pubmed.ncbi.nlm.nih.gov/36362069/)) and its cardiovascular relevance reviewed separately ([PMID 30854877](https://pubmed.ncbi.nlm.nih.gov/30854877/)). Any study measuring thymosin beta-4 activity over a long window has to consider that some of what is observed may be Ac-SDKP activity rather than the parent peptide.',
+        },
+      ],
+    },
+    {
+      title: 'The Naming Problem in Detail',
+      body: 'The four names in circulation are not synonyms. Sorting them out is the single most useful thing a buyer can do before ordering.',
+      subsections: [
+        {
+          title: 'Thymosin beta-4 / TB4 / Tbeta4 — the full protein',
+          body: 'These names refer to the intact 43-residue protein, 4,961.5 g/mol, sequence Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES. This is the molecule in almost all of the mechanistic literature — the actin-binding work, the knockout phenotypes, the cardiac and renal studies. It is a protein, not a peptide, and it is expensive and difficult to make recombinantly at research scale. When a UK listing is headed "Thymosin Beta-4" rather than "TB-500", the underlying stock is frequently the synthetic fragment anyway, because that is what the manufacturing supply chain produces — so the name may describe the biology while the vial contains the fragment. That ambiguity is the buyer\'s problem to resolve, not the vendor\'s.',
+        },
+        {
+          title: 'TB-500 — the fragment',
+          body: 'TB-500 properly denotes a synthetic fragment of thymosin beta-4 covering the actin-binding region. The equine anti-doping work identified it as the N-terminally acetylated 17–23 fragment ([PMID 22962027](https://pubmed.ncbi.nlm.nih.gov/22962027/)), making it a seven-residue peptide with the LKKTETQ actin-binding motif. The product name itself originates in the grey-market and sports context rather than the scientific literature, which is why the same label has been applied loosely. If a listing for TB-500 states a molecular weight near 4,961 g/mol it is describing the full protein under the fragment\'s name; if it states a mass in the 800–900 g/mol region it is consistent with the short acetylated fragment.',
+        },
+        {
+          title: 'The 43 vs 17 vs 7 question at the point of sale',
+          body: 'The practical consequence is that a certificate of analysis is the only way to know what was shipped, and the expected mass is the field that settles it. A vendor who describes the biology of the full 43-residue protein and ships a 7-residue fragment is not necessarily making a false claim — the fragment carries the actin-binding activity that the biology describes — but the two are not interchangeable in an experiment. Different molecular weight means different molar dosing at the same milligram quantity, different clearance, and different exposure of the epitope any antibody-based assay will detect.',
+        },
+      ],
+    },
+    {
+      title: 'What the Evidence Actually Shows',
+      body: 'Thymosin beta-4 has a wider clinical record than most research peptides, and the honest reading of it is mixed in a specific way: the safety data are reasonably good and the efficacy data are thin.',
+      subsections: [
+        {
+          title: 'Human trials',
+          body: 'The compound has been through a first-in-human randomised, double-blind, single- and multiple-dose phase I study of recombinant human thymosin beta-4 in healthy volunteers, which established a dose range and a safety profile ([PMID 34346165](https://pubmed.ncbi.nlm.nih.gov/34346165/)). A randomised controlled trial in venous stasis ulcers reported enhancement of healing ([PMID 17495250](https://pubmed.ncbi.nlm.nih.gov/17495250/)), and a single- and multiple-dose intravenous safety study in healthy volunteers was published in the same period ([PMID 20536472](https://pubmed.ncbi.nlm.nih.gov/20536472/)). In ophthalmology, a phase II randomised placebo-controlled trial of thymosin beta-4 ophthalmic solution for dry eye was conducted using a controlled adverse environment model ([PMID 26056426](https://pubmed.ncbi.nlm.nih.gov/26056426/)), and the bench-to-bedside programme in eye disease has been reviewed by the same group ([PMID 30063853](https://pubmed.ncbi.nlm.nih.gov/30063853/)).',
+        },
+        {
+          title: 'The decisive review',
+          body: 'The most important paper in this area is recent and unflattering. Mendias and colleagues assessed the safety and efficacy of approved and unapproved peptide therapies for musculoskeletal injuries and athletic performance ([PMID 41966639](https://pubmed.ncbi.nlm.nih.gov/41966639/)) — a systematic appraisal of exactly the use case for which TB-500 is most commonly purchased. Reviews of this type consistently find that the musculoskeletal evidence base for these peptides is small, methodologically limited, and insufficient to support efficacy claims. A 2026 histopathological and biomechanical study of BPC-157 and TB-500 in rat Achilles tendon healing ([PMID 42542926](https://pubmed.ncbi.nlm.nih.gov/42542926/)) is a useful, current example of the preclinical work: real, tendon-specific, and in rats.',
+        },
+        {
+          title: 'Renal and cardiac phenotypes',
+          body: 'Some of the strongest mechanistic evidence comes from loss-of-function rather than supplementation. Thymosin beta-4 deficiency exacerbates renal and cardiac injury in angiotensin-II-induced hypertension ([PMID 29632102](https://pubmed.ncbi.nlm.nih.gov/29632102/)), loss of endogenous thymosin beta-4 accelerates glomerular disease ([PMID 27575556](https://pubmed.ncbi.nlm.nih.gov/27575556/)), and the peptide and its degradation product Ac-SDKP act as reparative factors in renal fibrosis ([PMID 23739235](https://pubmed.ncbi.nlm.nih.gov/23739235/)). These studies establish that the endogenous protein does something important. They do not establish that supplementing it in a healthy organism does anything useful, which is a different claim.',
+        },
+        {
+          title: 'Where the evidence does not reach',
+          body: 'There is no published randomised trial of TB-500 as a fragment in any musculoskeletal indication. There is no human pharmacokinetic dataset for the short fragment — the 2–4 hour figure quoted on listings is not traceable to a fragment-specific study. There is no head-to-head comparison of the 7-residue and 43-residue forms in any model. And there is no dose-response work establishing what a rational research dose would be. These are the gaps, and they are wide.',
+        },
+      ],
+    },
+    {
+      title: 'UK Supply: 88 Vendors and 118 Listings',
+      body: 'TB-500 is one of the most heavily stocked compounds in the UK research catalogue, and the supply data are only interpretable once the naming problem is understood.\n\n88 vendors carry it across 118 tracked listings, ranging from £11.95 at the floor to £199.99 at the top. That is a 16.7x spread, which is wide but not exceptional for a compound with this listing depth — GHK-Cu carries 54x across 143. The dominant presentations are 5 mg and 10 mg, with 2 mg, 20 mg and 30 mg also appearing, plus 300 mcg tablets and 5 mg x 10-vial bulk packs. Blends that combine TB-500 with BPC-157 are also common, and those are separate compounds with their own listings.\n\nThe low entry price is partly a function of the short fragment. A seven-residue acetylated peptide is inexpensive to synthesise — far cheaper than a 43-residue protein — so a £11.95 listing is entirely consistent with a genuine short fragment at reasonable purity. This is worth stating plainly because it inverts the usual intuition: on TB-500, a low price is not evidence of a problem in the way it might be for a large or structurally complex peptide. The relevant question is not price, it is which of the three molecules the listing contains.\n\nThat question is answerable from the certificate. Ask for the expected molecular weight and check it against what the listing claims. A listing headed thymosin beta-4 that reports 4,961.5 g/mol and a listing headed TB-500 that reports a mass near 889 g/mol (the acetylated 7-residue fragment) are both internally coherent and describe different products. A listing headed TB-500 that reports 4,961.5 g/mol is describing the full protein. A listing headed TB-500 with no stated mass anywhere, on the listing or the certificate, cannot be resolved at all — and with 88 vendors to choose from, there is no reason to accept that.\n\nThe second check is presentation. TB-500 is supplied lyophilised and reconstituted with bacteriostatic water. It is also sold as a nasal spray and, in some catalogues, in pen format. Those are different delivery formats with different stability and dosing characteristics; a nasal spray listing and a lyophilised vial listing for the same nominal compound are not interchangeable research materials, and the certificate standards that apply to a reconstituted liquid are not the same as those for a powder.\n\nThe third check is whether the batch is named. TB-500 sits in the same regulatory position as every other research peptide on this site — sold for research use only, not a licensed medicine, not for human use — and that position is what makes batch traceability the buyer\'s responsibility rather than a regulatory guarantee.',
+    },
+    {
+      title: 'Side-by-Side Specification Comparison',
+      body: 'The table sets out the three molecular forms sold under the TB-500 and thymosin beta-4 names. Masses for the fragments are the expected values implied by the published sequences; only the full-length protein figure is an established reference mass.',
+      table: {
+        header: ['Property', 'Thymosin beta-4 (full protein)', 'TB-500 (17–23 fragment)', 'TB-500 (short fragment)'],
+        rows: [
+          ['Sold as', 'Thymosin beta-4, TB4, Tbeta4', 'TB-500', 'TB-500'],
+          ['Residue count', '43', '7 (N-terminally acetylated 17–23)', '7'],
+          ['Sequence', 'Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES', 'Ac-LKKTETQ region', 'LKKTETQ with N-acetyl'],
+          ['Molecular weight', '4,961.5 g/mol', '~889 g/mol', '~889 g/mol'],
+          ['CAS number', '77591-33-4', 'Not separately assigned', 'Not separately assigned'],
+          ['Contains LKKTETQ actin-binding motif', 'Yes', 'Yes', 'Yes'],
+          ['Mechanistic literature', 'Extensive — actin binding, knockouts, cardiac, renal', 'Characterised in doping-control MS methods', 'Limited'],
+          ['Human trial data', 'Phase I safety; venous ulcer RCT; dry eye phase II', 'None', 'None'],
+          ['Reported half-life', '2–4 hours', 'Not established', 'Not established'],
+          ['UK listings tracked', 'Listed under TB-500 names', '118 listings, 88 vendors', '118 listings, 88 vendors'],
+          ['Price range', '£11.95–£199.99', '£11.95–£199.99', '£11.95–£199.99'],
+          ['Verification field', 'Mass 4,961.5 g/mol', 'Mass ~889 g/mol', 'Mass ~889 g/mol'],
+        ],
+      },
+    },
+    {
+      title: 'How to Verify a TB-500 Listing',
+      body: 'Five checks, in order of how much they resolve.\n\nFirst, read what molecule the listing actually claims to sell. The heading and the description often disagree — a page headed "Thymosin Beta-4" that describes the actin-binding fragment is not necessarily wrong but is not specific, and it should be read as a fragment listing. A page that gives the full 43-residue sequence and sells a vial priced at £12 is describing one molecule and selling another.\n\nSecond, get the molecular weight from the certificate of analysis and check it. This is the field that resolves the naming problem definitively. 4,961.5 g/mol is the full protein. Approximately 889 g/mol is consistent with the acetylated seven-residue fragment. Anything else needs an explanation, and with 88 vendors available there is no reason to accept an unexplained figure.\n\nThird, check whether the certificate is batch-matched to the vial in your hand. A certificate for a different lot number is a document about a different product. This costs the vendor nothing to supply correctly and vendors who will not supply it are telling you something.\n\nFourth, check that the purity figure states its method. Reverse-phase HPLC at a stated wavelength, with the chromatogram included, is the standard. A purity percentage with no method is not a specification.\n\nFifth, check the presentation against the format. A lyophilised powder should be a white to off-white cake or powder. A nasal spray or pen format is a formulated product and should carry its own documentation — concentration, buffer, preservative, expiry — none of which the powder certificate tells you.\n\nMass-spectrometry identity is the check that matters most on this compound specifically, because it is the only check that separates the three molecules being sold under one name. On most peptides a correct mass confirms the batch; on TB-500 it also confirms which compound you bought.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'TB-500 is a synthetic fragment of thymosin beta-4, the 43-residue actin-sequestering protein whose actin-binding motif sits at residues 17 to 23. Its mechanism is genuinely distinctive among UK research peptides — G-actin sequestration and the cytoskeletal control of cell migration — and it is the reason the compound is grouped with BPC-157 in recovery protocols despite the two having nothing mechanistically in common.\n\nThe naming problem is the real content of this article. Four names circulate — thymosin beta-4, TB4, Tbeta4 and TB-500 — and they describe a 43-residue protein, a 17-residue fragment and a 7-residue fragment. The equine anti-doping literature identified the TB-500 product as the N-terminally acetylated 17–23 fragment ([PMID 22962027](https://pubmed.ncbi.nlm.nih.gov/22962027/)). Almost all of the mechanistic literature is about the full protein. Those are not the same molecule.\n\nThe evidence position is honest and modest. Phase I safety work exists, a venous ulcer trial reported enhanced healing, and a dry eye phase II trial was run — all of it on the full-length protein, none of it on the fragment sold in the UK. Mendias and colleagues\' 2026 appraisal of peptide therapies for musculoskeletal injuries found the evidence base insufficient to support the performance claims made for it ([PMID 41966639](https://pubmed.ncbi.nlm.nih.gov/41966639/)). There is no randomised trial of the fragment in any indication.\n\nSupply is not the constraint. 88 vendors, 118 listings, from £11.95 — and on this compound a low price is consistent with a genuine short fragment, because a seven-residue acetylated peptide is cheap to make. The constraint is specification. Ask for the mass, check it against the molecule the listing claims, and confirm the batch matches the vial.\n\nNeither form is a licensed medicine in the UK and both are sold for research use only. For the live market, [**compare TB-500 prices →**](/compounds/tb-500). For how TB-500 sits against the other repair peptides, see [**TB-500 vs BPC-157 →**](/research/tb500-vs-bpc157), [**TB-500 vs GHK-Cu →**](/research/tb-500-vs-ghk-cu) and [**TB-500 for Recovery →**](/research/tb-500-for-recovery).',
+    },
+  ],
+  faq: [
+    {
+      question: 'Is TB-500 the same as thymosin beta-4?',
+      answer: 'Not exactly. Thymosin beta-4 is the full 43-residue actin-binding protein, 4,961.5 g/mol. TB-500 is a synthetic fragment of it covering the actin-binding region, identified in the anti-doping literature as the N-terminally acetylated 17–23 fragment — a seven-residue peptide. UK vendors apply the names loosely, so the certificate of analysis mass is the only reliable way to tell which one a given listing contains.',
+    },
+    {
+      question: 'What is the molecular weight of TB-500?',
+      answer: 'It depends which molecule is meant. The full thymosin beta-4 protein is 4,961.5 g/mol. The acetylated 17–23 fragment characterised in the equine doping-control work is approximately 889 g/mol. A listing headed TB-500 that reports 4,961.5 g/mol is describing the full protein; one reporting approximately 889 g/mol is consistent with the short fragment.',
+    },
+    {
+      question: 'What does TB-500 actually do?',
+      answer: 'It sequesters monomeric G-actin, maintaining the pool of actin monomers available for filament extension, and thereby regulates the cytoskeletal dynamics that cell migration depends on. Its actin-binding motif is LKKTETQ, at residues 17–23 of thymosin beta-4. Downstream effects on wound closure, angiogenesis and inflammation follow from cells being able to migrate to injury sites.',
+    },
+    {
+      question: 'Has TB-500 been tested in humans?',
+      answer: 'The full-length protein has: a phase I single- and multiple-dose safety study in healthy volunteers, a randomised controlled trial in venous stasis ulcers, and a phase II randomised dry-eye trial. The synthetic fragment sold as TB-500 has no published human trials. A 2026 systematic appraisal of peptide therapies for musculoskeletal injuries found the evidence base insufficient to support efficacy claims.',
+    },
+    {
+      question: 'Why is TB-500 cheaper than other research peptides?',
+      answer: 'Because a short acetylated peptide is inexpensive to synthesise compared with a large or structurally complex one. TB-500 should not be judged by price in the way a 43-residue protein would be — a £11.95 listing is entirely consistent with a genuine short fragment at reasonable purity. What matters is the certificate of analysis, not the price.',
+    },
+    {
+      question: 'What should the certificate of analysis state for TB-500?',
+      answer: 'A batch number matching the vial, a stated purity by HPLC with the method and chromatogram, and an identity check by mass spectrometry giving the expected molecular weight — approximately 889 g/mol for the acetylated fragment, or 4,961.5 g/mol if the full protein is being sold. It should also name the testing laboratory.',
+    },
+    {
+      question: 'What is the CAS number for TB-500?',
+      answer: '77591-33-4 is the CAS number associated with thymosin beta-4 and is the number quoted on TB-500 listings. No separate CAS number is assigned to the synthetic fragment itself, which is a further reason the expected molecular weight on the certificate matters more than the CAS field.',
+    },
+    {
+      question: 'Does TB-500 come in a nasal spray or pen?',
+      answer: 'Yes, some UK vendors list TB-500 as a nasal spray and a few list pen formats. These are formulated products rather than lyophilised powder and are not interchangeable with the lyophilised vial for research purposes. A spray or pen should carry its own documentation covering concentration, buffer, preservative and expiry, which a powder certificate does not tell you.',
+    },
+  ],
+  references: [
+    'Esposito S, Deventer K, Van Eenoo P. Synthesis and characterization of the N-terminal acetylated 17-23 fragment of thymosin beta 4 identified in TB-500, a product suspected to possess doping potential. Drug Test Anal. 2012;4(9):733-8. PMID 22962027',
+    'Ho EN, Kwok WH, Lau MY, et al. Doping control analysis of TB-500, a synthetic version of an active region of thymosin beta4, in equine urine and plasma by liquid chromatography-mass spectrometry. J Chromatogr A. 2012;1265:57-69. PMID 23084823',
+    'Sosne G, Qiu P, Goldstein AL, Wheater M. Biological activities of thymosin beta4 defined by active sites in short peptide sequences. FASEB J. 2010;24(7):2144-51. PMID 20179146',
+    'Philp D, Badamchian M, Scheremeta B, et al. Thymosin beta 4 and a synthetic peptide containing its actin-binding domain promote dermal wound repair in db/db diabetic mice and in aged mice. Wound Repair Regen. 2003;11(1):19-24. PMID 12581423',
+    'Shah R, Reyes-Gordillo K, Rojkind M. Thymosin beta4 inhibits PDGF-BB induced activation, proliferation, and migration of human hepatic stellate cells via its actin-binding domain. Expert Opin Biol Ther. 2018;18(sup1):177-184. PMID 30063851',
+    'McCormack SA, Ray RM, Blanner PM, Johnson LR. Polyamine depletion alters the relationship of F-actin, G-actin, and thymosin beta4 in migrating IEC-6 cells. Am J Physiol. 1999;276(2):C459-68. PMID 9950774',
+    'Ying Y, Wang Y, et al. Thymosin beta4 and Actin: Binding Modes, Biological Functions and Clinical Applications. Curr Protein Pept Sci. 2023;24(1):78-88. PMID 36464872',
+    'Malinda KM, Sidhu GS, Mani H, et al. Thymosin beta4 accelerates wound healing. J Invest Dermatol. 1999;113(3):364-8. PMID 10469335',
+    'Guarnera G, DeRosa A, Camerini R. Thymosin beta-4 and venous ulcers: clinical remarks on a European prospective, randomized study on safety, tolerability, and enhancement of healing. Ann N Y Acad Sci. 2007;1112:407-12. PMID 17495250',
+    'Sosne G, Ousler GW. Thymosin beta 4 ophthalmic solution for dry eye: a randomized, placebo-controlled, Phase II clinical trial conducted using the controlled adverse environment (CAE) model. Clin Ophthalmol. 2015;9:877-84. PMID 26056426',
+    'Wang X, et al. A first-in-human, randomized, double-blind, single- and multiple-dose, phase I study of recombinant human thymosin beta4 in healthy Chinese volunteers. J Cell Mol Med. 2021;25(17):8222-8228. PMID 34346165',
+    'Ruff D, Crockford D, Girardi G, Zhang M. A randomized, placebo-controlled, single and multiple dose study of intravenous thymosin beta4 in healthy volunteers. Ann N Y Acad Sci. 2010;1194:223-9. PMID 20536472',
+    'Sosne G, Berger A. Thymosin beta 4 and the eye: the journey from bench to bedside. Expert Opin Biol Ther. 2018;18(sup1):99-104. PMID 30063853',
+    'Mendias CL, et al. Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance. Sports Med. 2026;56:1921-1935. PMID 41966639',
+    'Bicer O, et al. Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study. Jt Dis Relat Surg. 2026;37:822-837. PMID 42542926',
+    'Kumar N, et al. Thymosin beta4 Deficiency Exacerbates Renal and Cardiac Injury in Angiotensin-II-Induced Hypertension. Hypertension. 2018;71(6):1133-1142. PMID 29632102',
+    'Vasilopoulou E, et al. Loss of endogenous thymosin beta4 accelerates glomerular disease. Kidney Int. 2016;90(5):1056-1070. PMID 27575556',
+    'Zuo Y, et al. Thymosin beta4 and its degradation product, Ac-SDKP, are novel reparative factors in renal fibrosis. Kidney Int. 2013;84(6):1166-75. PMID 23739235',
+    'Wang W, et al. The Role of Tbeta4-POP-Ac-SDKP Axis in Organ Fibrosis. Int J Mol Sci. 2022;23(21). PMID 36362069',
+    'Kassem KM, et al. Tbeta4-Ac-SDKP pathway: Any relevance for the cardiovascular system? Can J Physiol Pharmacol. 2019;97(7):589-599. PMID 30854877',
+  ],
+},
+
 };
 export default content;
