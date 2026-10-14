@@ -23407,5 +23407,148 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
     "visitorId": "e6fbbb2f99003883"
+  },
+  {
+    "ts": "2026-10-14T14:48:44.312Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "393a35a12d734d63"
+  },
+  {
+    "ts": "2026-10-14T14:52:45.567Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "393a35a12d734d63"
+  },
+  {
+    "ts": "2026-10-14T14:53:01.325Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "393a35a12d734d63"
+  },
+  {
+    "ts": "2026-10-14T14:56:48.862Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "393a35a12d734d63"
+  },
+  {
+    "ts": "2026-10-14T14:57:02.081Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-14T14:57:06.239Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax",
+    "visitorId": "94da9eb4a2cf74a9"
+  },
+  {
+    "ts": "2026-10-14T15:00:35.609Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "3e8b4de5d12f0f39"
+  },
+  {
+    "ts": "2026-10-14T15:03:03.836Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://jgpeptidesplus.com/product/retatrutide-5mg/",
+    "visitorId": "9340d89a619cbb9a"
+  },
+  {
+    "ts": "2026-10-14T15:03:26.566Z",
+    "type": "vendor-site",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "destUrl": "https://jgpeptidesplus.com",
+    "visitorId": "9340d89a619cbb9a"
+  },
+  {
+    "ts": "2026-10-14T15:03:40.066Z",
+    "type": "vendor-site",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "destUrl": "https://allmypeptides.com",
+    "visitorId": "9340d89a619cbb9a"
+  },
+  {
+    "ts": "2026-10-14T15:04:58.573Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
+    "visitorId": "9340d89a619cbb9a"
+  },
+  {
+    "ts": "2026-10-14T15:05:32.913Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://kingstonpeptides.com/en/products/ghk-cu",
+    "visitorId": "9dedde027596e772"
+  },
+  {
+    "ts": "2026-10-14T15:06:00.285Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a5bb92f3b9907239"
+  },
+  {
+    "ts": "2026-10-14T15:12:42.929Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2dcdbc1e2a0d75c4"
+  },
+  {
+    "ts": "2026-10-14T15:12:47.830Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7218d60867be6600"
+  },
+  {
+    "ts": "2026-10-14T15:29:02.883Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://kingstonpeptides.com/en/products/melanotan-ii",
+    "visitorId": "3e6f8425e948bade"
   }
 ]
