@@ -23905,5 +23905,224 @@
     "compoundSlug": "sermorelin",
     "destUrl": "https://precision-peptides.shop/product/sermorelin-10mg/",
     "visitorId": "7586adbf49d17c36"
+  },
+  {
+    "ts": "2026-10-14T16:41:13.139Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "adamax",
+    "destUrl": "https://vialverse.com/peptides/adamax",
+    "visitorId": "bd7ca2423297329b"
+  },
+  {
+    "ts": "2026-10-14T16:42:59.090Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "vip",
+    "destUrl": "https://tidelabs.co.uk/products/vip-10mg",
+    "visitorId": "17ac93004fcdfcd7"
+  },
+  {
+    "ts": "2026-10-14T16:44:39.724Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://chiltonlabs.co.uk/product/ghrp-6-5mg-vial/",
+    "visitorId": "6f93e26464d35351"
+  },
+  {
+    "ts": "2026-10-14T16:46:29.849Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "adamax",
+    "destUrl": "https://bluewellpeptides.com/product/adamax-10mg-peptide/",
+    "visitorId": "0a84f1e2f590d426"
+  },
+  {
+    "ts": "2026-10-14T16:48:27.162Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://chromapeptides.co.uk/product/snap-8/",
+    "visitorId": "d5d886743417811c"
+  },
+  {
+    "ts": "2026-10-14T16:50:06.052Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-SLU-5",
+    "refPage": "https://www.viralpeps.co.uk/go/peptigen-labs/slu-pp-332",
+    "visitorId": "e5b6a4236b745e49"
+  },
+  {
+    "ts": "2026-10-14T16:50:10.246Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "315eca2f9f573735"
+  },
+  {
+    "ts": "2026-10-14T16:52:00.651Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c",
+    "refPage": "https://www.viralpeps.co.uk/go/reta-uk/mots-c",
+    "visitorId": "e8c551d57561ff45"
+  },
+  {
+    "ts": "2026-10-14T16:53:53.849Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://bionikpeptides.com/products/pt-141",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/pt-141",
+    "visitorId": "507c064f2141e65c"
+  },
+  {
+    "ts": "2026-10-14T16:55:56.168Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://trutide.co.uk/product/ghk-cu-100mg/",
+    "visitorId": "8952fefc760a359a"
+  },
+  {
+    "ts": "2026-10-14T16:57:55.113Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://bluewellpeptides.com/product/cjc-1295-mod-grf-1-29-without-dac-5mg/",
+    "visitorId": "493ee909145e03e2"
+  },
+  {
+    "ts": "2026-10-14T16:59:23.836Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://vialverse.com/peptides/cjc-1295-with-dac",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/cjc-1295-with-dac",
+    "visitorId": "458d3ff1582bed13"
+  },
+  {
+    "ts": "2026-10-14T17:00:58.197Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
+    "visitorId": "72ce8cec131ed5a1"
+  },
+  {
+    "ts": "2026-10-14T17:01:18.468Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidepal.co.uk/products/glow",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-pal/glow",
+    "visitorId": "ec7a5d1a804d95be"
+  },
+  {
+    "ts": "2026-10-14T17:02:54.726Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://www.buyreta.co.uk/product/melanotan-1-uk",
+    "refPage": "https://www.google.com/",
+    "visitorId": "aae4963d320079ce"
+  },
+  {
+    "ts": "2026-10-14T17:03:06.164Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://novavitality.co.uk/product/dermorphin/",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality/dermorphin",
+    "visitorId": "02747f0dac8c1d47"
+  },
+  {
+    "ts": "2026-10-14T17:05:00.629Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/go/be-better-peptides",
+    "visitorId": "6bb15b39a256c060"
+  },
+  {
+    "ts": "2026-10-14T17:05:41.972Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/24-cjc-1295-no-dac-10mg.html",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f53508e16c3595bb"
+  },
+  {
+    "ts": "2026-10-14T17:06:47.814Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ghk-cu-100mg-2/",
+    "refPage": "https://www.viralpeps.co.uk/go/advanced-peptides-uk/ghk-cu",
+    "visitorId": "d07d766aa0878a6c"
+  },
+  {
+    "ts": "2026-10-14T17:07:06.694Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "76c9d51fe6c01dfd"
+  },
+  {
+    "ts": "2026-10-14T17:07:20.102Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/24-cjc-1295-no-dac-10mg.html",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ee6243091207a28a"
+  },
+  {
+    "ts": "2026-10-14T17:08:42.472Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://chromapeptides.co.uk/product/cartalax/",
+    "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/cartalax",
+    "visitorId": "591129c2d0e4bbc0"
+  },
+  {
+    "ts": "2026-10-14T17:10:29.998Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptx.co.uk/single-vials/pe-22-28",
+    "refPage": "https://www.viralpeps.co.uk/go/peptx/pe-22-28",
+    "visitorId": "ad0dcc4e138e6615"
   }
 ]
