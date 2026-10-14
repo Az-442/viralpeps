@@ -13016,5 +13016,87 @@
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg",
     "visitorId": "08fd37fa0ae200e2"
+  },
+  {
+    "ts": "2026-10-14T02:53:09.551Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-10-14T02:53:11.346Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg",
+    "visitorId": "509650cd4003b9e7"
+  },
+  {
+    "ts": "2026-10-14T03:05:18.552Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vesugen/",
+    "visitorId": "9dedde027596e772"
+  },
+  {
+    "ts": "2026-10-14T03:05:20.171Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vesugen/",
+    "visitorId": "477c0e342e242b23"
+  },
+  {
+    "ts": "2026-10-14T03:05:22.933Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vesugen/",
+    "visitorId": "2ddcc53970131d4e"
+  },
+  {
+    "ts": "2026-10-14T03:09:08.738Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://phoenixbiolabs.net/shop/klow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e844b2fbf295edf3"
+  },
+  {
+    "ts": "2026-10-14T03:17:30.759Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-gh-stack",
+    "destUrl": "https://bionikpeptides.com/products/w1-muscle-building-bundle",
+    "visitorId": "98d404a6046fe7b2"
+  },
+  {
+    "ts": "2026-10-14T03:17:32.684Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-gh-stack",
+    "destUrl": "https://bionikpeptides.com/products/w1-muscle-building-bundle",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-14T04:09:11.221Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://bionikpeptides.com/products/semaglutide",
+    "visitorId": "5b5a881faecc1b90"
   }
 ]
