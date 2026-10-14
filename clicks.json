@@ -24703,5 +24703,185 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.peptidepal.co.uk/products/bacteriostatic-water",
     "visitorId": "bcf1090144473334"
+  },
+  {
+    "ts": "2026-10-14T18:39:30.045Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://allmypeptides.com/product/glutathione/",
+    "visitorId": "27663065f2ab8f78"
+  },
+  {
+    "ts": "2026-10-14T18:41:32.513Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "dsip",
+    "destUrl": "https://mypepbiotech.co.uk/product/dsip-10mg/",
+    "visitorId": "41eeb56369ca902d"
+  },
+  {
+    "ts": "2026-10-14T18:43:18.672Z",
+    "type": "vendor-site",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "destUrl": "https://trutide.co.uk",
+    "visitorId": "0e93015eb5205f55"
+  },
+  {
+    "ts": "2026-10-14T18:45:28.712Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://pyroxlabs.co.uk/product/dsip-10mg/",
+    "visitorId": "fabb13eb106e700b"
+  },
+  {
+    "ts": "2026-10-14T18:46:54.307Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://purepeptidesuk.com/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/bacteriostatic-water",
+    "visitorId": "943f2373e71da2d7"
+  },
+  {
+    "ts": "2026-10-14T18:48:41.962Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.na-peptides.co.uk/product/bacteriostatic-water-3ml/",
+    "refPage": "https://www.viralpeps.co.uk/go/na-peptides/bacteriostatic-water",
+    "visitorId": "6f461b6f403b2820"
+  },
+  {
+    "ts": "2026-10-14T18:50:35.012Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/lab77-peptides",
+    "visitorId": "647eff4d81a3b969"
+  },
+  {
+    "ts": "2026-10-14T18:52:30.010Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-the-peptide-company",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "7586adbf49d17c36"
+  },
+  {
+    "ts": "2026-10-14T18:54:18.287Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://lab77peptides.co.uk/collections",
+    "refPage": "https://www.viralpeps.co.uk/go/lab77-peptides/bpc-157",
+    "visitorId": "08deca87a164c390"
+  },
+  {
+    "ts": "2026-10-14T18:56:11.992Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://cmsrlabs.co/product/selank-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/cmsr-labs/selank",
+    "visitorId": "c108066d79573492"
+  },
+  {
+    "ts": "2026-10-14T18:57:59.875Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "bd270eb41fce7ff0"
+  },
+  {
+    "ts": "2026-10-14T19:00:06.495Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gonadorelin-acetategnrh-2mg",
+    "destUrl": "https://researchpeptide.co.uk/product/gonadorelin-acetategnrh-2mg/",
+    "visitorId": "6635301c4957cb8e"
+  },
+  {
+    "ts": "2026-10-14T19:01:44.595Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://pioneerpeptides.co.uk/products/dsip/",
+    "visitorId": "fc7ea457e9fe36e1"
+  },
+  {
+    "ts": "2026-10-14T19:03:41.367Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://sterlingpeptides.co.uk/product/selank/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/selank",
+    "visitorId": "ce7f6f582424ffe9"
+  },
+  {
+    "ts": "2026-10-14T19:05:23.050Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg",
+    "refPage": "https://www.viralpeps.co.uk/go/form-peptides/igf-1-lr3",
+    "visitorId": "5a4804be9f28c3fa"
+  },
+  {
+    "ts": "2026-10-14T19:05:52.457Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://retaresearch.co/products/melanotan-1",
+    "refPage": "https://www.google.com/",
+    "visitorId": "06871bf0f8c85ba5"
+  },
+  {
+    "ts": "2026-10-14T19:07:18.560Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://redpandapeptides.co.uk/product/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/red-panda-peptides/selank",
+    "visitorId": "4b72158d219a972a"
+  },
+  {
+    "ts": "2026-10-14T19:07:42.235Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://retaresearch.co/products/melanotan-1",
+    "refPage": "https://www.google.com/",
+    "visitorId": "31a0b1b7ac87bc1e"
+  },
+  {
+    "ts": "2026-10-14T19:09:05.982Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://apexpure.co.uk/product/ghrp-6-uk/",
+    "refPage": "https://www.viralpeps.co.uk/go/apexpure/ghrp-6",
+    "visitorId": "fd66c2c7db9363fd"
   }
 ]
