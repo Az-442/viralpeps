@@ -17714,5 +17714,60 @@
     "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "9a5ddd0b015a4696"
+  },
+  {
+    "ts": "2026-10-14T06:16:33.469Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3e488e1792d037af"
+  },
+  {
+    "ts": "2026-10-14T06:24:16.082Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biohackerxlab.com/product/bpc-157/",
+    "visitorId": "ab0dd06d0b9658f8"
+  },
+  {
+    "ts": "2026-10-14T06:24:23.330Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://kingstonpeptides.com/en/products/bpc-157",
+    "visitorId": "eba1d326b2851bed"
+  },
+  {
+    "ts": "2026-10-14T06:27:09.263Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/",
+    "visitorId": "fce8c75546b427e1"
+  },
+  {
+    "ts": "2026-10-14T06:28:27.543Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.peptidesonline.uk/shop/bpc-157/",
+    "visitorId": "fce8c75546b427e1"
+  },
+  {
+    "ts": "2026-10-14T06:47:57.084Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/",
+    "visitorId": "a74f864895b8868a"
   }
 ]
