@@ -17769,5 +17769,86 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/",
     "visitorId": "a74f864895b8868a"
+  },
+  {
+    "ts": "2026-10-14T06:52:23.447Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/bpc-157-10mg",
+    "visitorId": "fce8c75546b427e1"
+  },
+  {
+    "ts": "2026-10-14T06:56:34.774Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://helixcore.co.uk/products/bpc-157",
+    "visitorId": "17974d1f50cff2fe"
+  },
+  {
+    "ts": "2026-10-14T07:01:06.792Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
+    "visitorId": "dd91132e7d4d6a18"
+  },
+  {
+    "ts": "2026-10-14T07:03:56.176Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
+    "visitorId": "7f5f69e741065e52"
+  },
+  {
+    "ts": "2026-10-14T07:08:47.370Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157/",
+    "visitorId": "7f5f69e741065e52"
+  },
+  {
+    "ts": "2026-10-14T07:13:58.914Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.peptidesx.uk/product/bpc-157/",
+    "visitorId": "fce8c75546b427e1"
+  },
+  {
+    "ts": "2026-10-14T07:14:51.520Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://ukpeptides.org/buy/bpc-157-5mg",
+    "visitorId": "fce8c75546b427e1"
+  },
+  {
+    "ts": "2026-10-14T07:16:42.029Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/bpc-157-5mg",
+    "visitorId": "fce8c75546b427e1"
+  },
+  {
+    "ts": "2026-10-14T07:18:42.700Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-5mg-10mg",
+    "visitorId": "7f5f69e741065e52"
   }
 ]
