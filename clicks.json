@@ -12937,5 +12937,15 @@
     "vendorName": "AllMyPeptides",
     "destUrl": "https://allmypeptides.com",
     "visitorId": "b33146035d1e97be"
+  },
+  {
+    "ts": "2026-10-14T00:57:57.538Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3b99381c45ad0cd1"
   }
 ]
