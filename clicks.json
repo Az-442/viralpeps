@@ -25067,5 +25067,166 @@
     "compoundSlug": "cerebrolysin",
     "destUrl": "https://bluewellpeptides.com/product/cerebrolysin-60mg/",
     "visitorId": "1b68eb86de40c17f"
+  },
+  {
+    "ts": "2026-10-14T20:10:45.662Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk",
+    "visitorId": "62518c09dfa4019e"
+  },
+  {
+    "ts": "2026-10-14T20:12:11.513Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://crownpeptides.co.uk/shop/crown/nad-research-compound/",
+    "visitorId": "74d130eb74ef1845"
+  },
+  {
+    "ts": "2026-10-14T20:14:00.318Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://peptideslabuk.com/product/oxytocin-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-lab-uk/oxytocin",
+    "visitorId": "11bd3f42bf59d2c9"
+  },
+  {
+    "ts": "2026-10-14T20:17:42.265Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://britishpeptidelabs.com/products/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/go/british-peptide-labs/cagrilintide",
+    "visitorId": "78becc49ce504807"
+  },
+  {
+    "ts": "2026-10-14T20:18:19.885Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-without-dac/",
+    "visitorId": "3483c7736e62246e"
+  },
+  {
+    "ts": "2026-10-14T20:19:36.476Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://nilahlabs.co.uk/products/wolverine-blend",
+    "refPage": "https://www.viralpeps.co.uk/go/nilah-labs/wolverine-stack-bpc157-tb500-blend",
+    "visitorId": "7f78f5adf8e28444"
+  },
+  {
+    "ts": "2026-10-14T20:21:24.112Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://redpandapeptides.co.uk/product/mt-2-10mg/",
+    "visitorId": "889abdf988a1dd18"
+  },
+  {
+    "ts": "2026-10-14T20:23:18.219Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/",
+    "refPage": "https://www.viralpeps.co.uk/go/xl-peptides/cjc-1295-ipamorelin-blend",
+    "visitorId": "bd55eb109d1c674a"
+  },
+  {
+    "ts": "2026-10-14T20:25:05.742Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptideslabuk.com/product/bac-water/",
+    "visitorId": "3f0948e4daae8975"
+  },
+  {
+    "ts": "2026-10-14T20:25:55.780Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://novavitality.co.uk/product/bpc-157-tb-500-ghk-cu-mixture-70mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "751b957878d31718"
+  },
+  {
+    "ts": "2026-10-14T20:28:54.199Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://precision-peptides.shop/product/5-amino-1mq-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/precision-peptides/5-amino-1mq",
+    "visitorId": "8dc11ad9425aac14"
+  },
+  {
+    "ts": "2026-10-14T20:30:48.944Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pgnalabs.co.uk/product/tesamorelin",
+    "refPage": "https://www.viralpeps.co.uk/go/pgna-labs/tesamorelin",
+    "visitorId": "37a2382a55ea5bb3"
+  },
+  {
+    "ts": "2026-10-14T20:32:58.224Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen",
+    "visitorId": "ae309bd49410822c"
+  },
+  {
+    "ts": "2026-10-14T20:34:32.670Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://xlpeptides.com/product/dsip/",
+    "visitorId": "bc26cb4cfc653ad0"
+  },
+  {
+    "ts": "2026-10-14T20:36:12.072Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-2-mt-ii/",
+    "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/melanotan-ii",
+    "visitorId": "22bedf7d49a36a47"
+  },
+  {
+    "ts": "2026-10-14T20:38:05.931Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://polygonpeptides.co.uk/product/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/polygon-peptides/semax",
+    "visitorId": "efe29bee54fe36c2"
+  },
+  {
+    "ts": "2026-10-14T20:40:13.549Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "2b579b3baf52b1e2"
   }
 ]
