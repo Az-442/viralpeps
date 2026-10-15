@@ -1201,5 +1201,62 @@
     "destUrl": "https://midshirelabs.co.uk/products/dsip/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "f9f1cc59f47e573f"
+  },
+  {
+    "ts": "2026-10-15T20:52:21.508Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6ff3d23b13958c68"
+  },
+  {
+    "ts": "2026-10-15T21:00:40.029Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e2ee0d091b62adbd"
+  },
+  {
+    "ts": "2026-10-15T21:00:43.216Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "47468be01ac753c1"
+  },
+  {
+    "ts": "2026-10-15T21:03:06.475Z",
+    "type": "vendor-site",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "destUrl": "https://britishpeptidelabs.com",
+    "visitorId": "8a090c86f57ad270"
+  },
+  {
+    "ts": "2026-10-15T21:17:04.462Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "15063d374b3e1c7c"
+  },
+  {
+    "ts": "2026-10-15T21:24:54.412Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-l-carnitine-10ml-research-only-solution-for-research-use-only/",
+    "visitorId": "29ea21ee1aebbcc1"
   }
 ]
