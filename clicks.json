@@ -26222,5 +26222,174 @@
     "destUrl": "https://tidelabs.co.uk/products/thymalin",
     "refPage": "https://www.viralpeps.co.uk/go/tide-labs/thymalin",
     "visitorId": "e0b2217a297e84a4"
+  },
+  {
+    "ts": "2026-10-14T23:34:11.759Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://supplypeptides.co.uk/products/semax",
+    "visitorId": "b223ffce46a71df9"
+  },
+  {
+    "ts": "2026-10-14T23:36:28.467Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-beta-4-5mg-10mg-research-peptide",
+    "visitorId": "68fbc8fe53c980e8"
+  },
+  {
+    "ts": "2026-10-14T23:38:05.535Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "destUrl": "https://peptideglobal.co.uk",
+    "visitorId": "60f5cc2a8012f5a1"
+  },
+  {
+    "ts": "2026-10-14T23:40:57.066Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://www.na-peptides.co.uk/product/mt-1-10mg-vial/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d81c1decc69ef868"
+  },
+  {
+    "ts": "2026-10-14T23:41:35.955Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "adamax",
+    "destUrl": "https://purepeptidesuk.com/product/adamax-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/adamax",
+    "visitorId": "80b974dbe18b4df9"
+  },
+  {
+    "ts": "2026-10-14T23:41:59.521Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://novapeptidelab.co.uk/product/glow-70mg-blend/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "57e4f58f34083cbd"
+  },
+  {
+    "ts": "2026-10-14T23:43:29.612Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://olresearch.co.uk/product/selank-5mg/",
+    "visitorId": "cdbefce46b768b87"
+  },
+  {
+    "ts": "2026-10-14T23:43:35.594Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://olresearch.co.uk/product/selank-5mg/",
+    "visitorId": "3a16bf3fd4b00239"
+  },
+  {
+    "ts": "2026-10-14T23:45:18.305Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mgf-2mg-mechano-growth-factor-igf-1ec-peptide",
+    "visitorId": "f2f8f768214b0411"
+  },
+  {
+    "ts": "2026-10-14T23:47:27.125Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bionikpeptides.com/products/bac-water",
+    "visitorId": "bae1c41627d3c23d"
+  },
+  {
+    "ts": "2026-10-14T23:49:03.690Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://biopeptides-uk.com/product/ace-031-1mg/",
+    "visitorId": "bc26cb4cfc653ad0"
+  },
+  {
+    "ts": "2026-10-14T23:50:53.939Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/semax/",
+    "refPage": "https://www.viralpeps.co.uk/go/alphamino/semax-5mg-imperial",
+    "visitorId": "9c1b3eee9d6cbd69"
+  },
+  {
+    "ts": "2026-10-14T23:52:42.198Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://biohackpeptides.co.uk/product/pt-141-peptide-10mg-3ml-bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/go/biohack-peptides/pt-141-bremelanotide",
+    "visitorId": "8ec4804ad8417e92"
+  },
+  {
+    "ts": "2026-10-14T23:54:36.397Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://peptideslabuk.com/product/foxo4-dri/",
+    "visitorId": "7cf8b02308e0710c"
+  },
+  {
+    "ts": "2026-10-14T23:56:23.744Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://bionikpeptides.com/products/ss-31",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/ss-31",
+    "visitorId": "8857b513cb7e9f60"
+  },
+  {
+    "ts": "2026-10-14T23:58:15.000Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://britishpeptidelabs.com/products/selank",
+    "refPage": "https://www.viralpeps.co.uk/go/british-peptide-labs/selank",
+    "visitorId": "12519db617d88dbf"
+  },
+  {
+    "ts": "2026-10-15T00:00:42.079Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/alphamino/ghk-cu-research-peptides-uk",
+    "visitorId": "be81ada6eb38919c"
+  },
+  {
+    "ts": "2026-10-15T00:05:43.403Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://apexpure.co.uk/product/cjc-1295-no-dac-peptide-5mg/",
+    "visitorId": "17f4ece62da150a9"
   }
 ]
