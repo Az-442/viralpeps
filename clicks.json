@@ -1258,5 +1258,59 @@
     "compoundSlug": "l-carnitine",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-l-carnitine-10ml-research-only-solution-for-research-use-only/",
     "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-15T21:25:00.668Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-l-carnitine-10ml-research-only-solution-for-research-use-only/",
+    "visitorId": "105e5b5438ae2f16"
+  },
+  {
+    "ts": "2026-10-15T21:25:02.610Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-l-carnitine-10ml-research-only-solution-for-research-use-only/",
+    "visitorId": "9050ac63ece083cf"
+  },
+  {
+    "ts": "2026-10-15T21:37:41.174Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
+    "visitorId": "cbdf6a80621e4563"
+  },
+  {
+    "ts": "2026-10-15T21:52:40.616Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/",
+    "visitorId": "0eb82021381fc8b5"
+  },
+  {
+    "ts": "2026-10-15T21:54:28.392Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://peptideslabuk.com/product/gonadorelin-acetate/",
+    "visitorId": "dc531e32904f49a9"
+  },
+  {
+    "ts": "2026-10-15T22:01:43.985Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "55720f95bb0a04e6"
   }
 ]
