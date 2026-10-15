@@ -1098,5 +1098,98 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
     "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-15T19:28:20.620Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-15T19:28:22.251Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-15T19:40:55.392Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pe-22-28-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-15T19:40:57.426Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pe-22-28-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "ecef50cd1f61ba75"
+  },
+  {
+    "ts": "2026-10-15T19:40:59.408Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-pe-22-28-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-10-15T19:42:36.771Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "121754d164067c69"
+  },
+  {
+    "ts": "2026-10-15T19:42:45.478Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "416b1a63c1c110bf"
+  },
+  {
+    "ts": "2026-10-15T19:45:09.269Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glow",
+    "destUrl": "https://phoenixbiolabs.net/shop/glow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b704ce1e758f112e"
+  },
+  {
+    "ts": "2026-10-15T19:49:25.928Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.peptidesx.uk/product/ss-31/",
+    "visitorId": "0a90f74d2ec65ab3"
+  },
+  {
+    "ts": "2026-10-15T20:06:47.884Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg",
+    "visitorId": "e235b2d05939f16c"
   }
 ]
