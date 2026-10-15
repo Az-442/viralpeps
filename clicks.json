@@ -32672,5 +32672,98 @@
     "compoundSlug": "kpv",
     "destUrl": "https://biotideuk.com/products/kpv-10-mg",
     "visitorId": "71a5fd3e8c354612"
+  },
+  {
+    "ts": "2026-10-15T15:58:14.711Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
+    "visitorId": "78beb32af5d9b227"
+  },
+  {
+    "ts": "2026-10-15T16:15:53.355Z",
+    "type": "vendor-site",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "destUrl": "https://advancedpeptidesuk.co.uk",
+    "visitorId": "e6e31cdcc7cd13c6"
+  },
+  {
+    "ts": "2026-10-15T16:16:03.284Z",
+    "type": "vendor-site",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "destUrl": "https://advancedpeptidesuk.co.uk",
+    "visitorId": "e6e31cdcc7cd13c6"
+  },
+  {
+    "ts": "2026-10-15T16:18:39.212Z",
+    "type": "vendor-site",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "destUrl": "https://aegispeptidesuk.co.uk",
+    "visitorId": "e6e31cdcc7cd13c6"
+  },
+  {
+    "ts": "2026-10-15T16:19:44.803Z",
+    "type": "vendor-site",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "destUrl": "https://allmypeptides.com",
+    "visitorId": "e6e31cdcc7cd13c6"
+  },
+  {
+    "ts": "2026-10-15T16:21:30.743Z",
+    "type": "vendor-site",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "destUrl": "https://allmypeptides.com",
+    "visitorId": "df110383e3395241"
+  },
+  {
+    "ts": "2026-10-15T16:21:44.703Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "visitorId": "e6e31cdcc7cd13c6"
+  },
+  {
+    "ts": "2026-10-15T16:22:55.979Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f2939f8251f6ec03"
+  },
+  {
+    "ts": "2026-10-15T16:22:59.496Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1216fb367358dc49"
+  },
+  {
+    "ts": "2026-10-15T16:24:36.370Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com",
+    "visitorId": "e6e31cdcc7cd13c6"
+  },
+  {
+    "ts": "2026-10-15T16:26:58.412Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "visitorId": "e6e31cdcc7cd13c6"
   }
 ]
