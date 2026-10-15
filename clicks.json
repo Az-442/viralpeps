@@ -1033,5 +1033,70 @@
     "compoundSlug": "ll-37",
     "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin",
     "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-15T18:50:25.994Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-10-15T18:50:27.989Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin",
+    "visitorId": "2b7ed4f0816ad173"
+  },
+  {
+    "ts": "2026-10-15T18:51:52.709Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fc409580711fb767"
+  },
+  {
+    "ts": "2026-10-15T18:52:00.103Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "32328e9653c5a664"
+  },
+  {
+    "ts": "2026-10-15T19:05:14.508Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://jgpeptidesplus.com/product/retatrutide-5mg/",
+    "visitorId": "b90ed928a292bc1e"
+  },
+  {
+    "ts": "2026-10-15T19:05:26.011Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/rt3-5mg/",
+    "visitorId": "b90ed928a292bc1e"
+  },
+  {
+    "ts": "2026-10-15T19:28:17.424Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "d4a39b1f93b39703"
   }
 ]
