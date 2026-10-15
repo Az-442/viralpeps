@@ -32496,5 +32496,181 @@
     "destUrl": "https://precision-peptides.shop/product/ghrp-2-10mg/",
     "refPage": "https://www.viralpeps.co.uk/go/precision-peptides/ghrp-2",
     "visitorId": "ac56b0ee98c710ad"
+  },
+  {
+    "ts": "2026-10-15T15:26:45.634Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/wolverine-stack-bpc157-tb500-blend",
+    "visitorId": "a0782182c0720b2c"
+  },
+  {
+    "ts": "2026-10-15T15:27:56.048Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://novavitality.co.uk/product/bpc-157-tb-500-mixture/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7bff47372bf821d9"
+  },
+  {
+    "ts": "2026-10-15T15:28:57.639Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "visitorId": "3463bf9665378ece"
+  },
+  {
+    "ts": "2026-10-15T15:30:41.866Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.peptifyuk.com/product/bac-water-10ml/",
+    "visitorId": "ecb878cc708b3c9e"
+  },
+  {
+    "ts": "2026-10-15T15:33:36.675Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin-ipamorelin",
+    "visitorId": "6235d522c0c414cf"
+  },
+  {
+    "ts": "2026-10-15T15:34:18.634Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://peptideslabuk.com/product/survodutide/",
+    "visitorId": "a93a45dab5ab4f4a"
+  },
+  {
+    "ts": "2026-10-15T15:36:01.813Z",
+    "type": "vendor-site",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "destUrl": "https://sterlingpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides",
+    "visitorId": "26f5fe2e63294b95"
+  },
+  {
+    "ts": "2026-10-15T15:37:50.505Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghrp-6-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://www.viralpeps.co.uk/go/dr-peptides/ghrp-6",
+    "visitorId": "1b669b60c987a3ed"
+  },
+  {
+    "ts": "2026-10-15T15:41:31.457Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape",
+    "visitorId": "d4a39b1f93b39703"
+  },
+  {
+    "ts": "2026-10-15T15:41:33.247Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidelabuk.co.uk/product/tb-500-5mg-research-peptide-thymosin/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/tb-500",
+    "visitorId": "230adb1f79e07d35"
+  },
+  {
+    "ts": "2026-10-15T15:41:34.497Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bioplexpeptides.co.uk/products/bpc-157-10mg-bpc-pentadecape",
+    "visitorId": "25fd680b57dd2c76"
+  },
+  {
+    "ts": "2026-10-15T15:42:23.109Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/revexa",
+    "visitorId": "bfc2c0ab172ce0e0"
+  },
+  {
+    "ts": "2026-10-15T15:43:27.165Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/kpv",
+    "visitorId": "473cf06036784676"
+  },
+  {
+    "ts": "2026-10-15T15:45:14.768Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kpv",
+    "destUrl": "https://vialverse.com/peptides/kpv",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/kpv",
+    "visitorId": "b8569b01a159bdf3"
+  },
+  {
+    "ts": "2026-10-15T15:47:14.932Z",
+    "type": "vendor-site",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "destUrl": "https://www.testedpeptides.co.uk",
+    "visitorId": "693a55bc1c57f119"
+  },
+  {
+    "ts": "2026-10-15T15:49:02.819Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "cortagen-research-peptide",
+    "destUrl": "https://pioneerpeptides.co.uk/products/cortagen/",
+    "refPage": "https://www.viralpeps.co.uk/go/pioneer-peptides/cortagen-research-peptide",
+    "visitorId": "a42b58430df6f4b3"
+  },
+  {
+    "ts": "2026-10-15T15:51:08.172Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pslabs.uk/products/mt-2-10mg",
+    "visitorId": "2965340321c3575e"
+  },
+  {
+    "ts": "2026-10-15T15:52:43.292Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptx.co.uk/single-vials/kpv",
+    "visitorId": "55b420e13ccbeef8"
+  },
+  {
+    "ts": "2026-10-15T15:56:39.043Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biotideuk.com/products/kpv-10-mg",
+    "visitorId": "71a5fd3e8c354612"
   }
 ]
