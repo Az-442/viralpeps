@@ -27141,5 +27141,93 @@
     "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "27e71fb92501a3dd"
+  },
+  {
+    "ts": "2026-10-15T04:27:52.560Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2a9fc8a335180ee9"
+  },
+  {
+    "ts": "2026-10-15T04:31:20.959Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-wolverine-stack-research-blend-bpc-157-10mg-tb500-10mg-total-20mg-research-material-for-laboratory-use-only/",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-10-15T04:33:13.227Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://novavitality.co.uk/product/dermorphin/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "950edd562947bac9"
+  },
+  {
+    "ts": "2026-10-15T04:37:44.937Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://novavitality.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "337b0019c4c9c879"
+  },
+  {
+    "ts": "2026-10-15T04:43:16.137Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fdcdbd404fb0db64"
+  },
+  {
+    "ts": "2026-10-15T04:43:38.468Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "beaebd1af2e3f59a"
+  },
+  {
+    "ts": "2026-10-15T04:43:41.414Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "18ac5dc78bbefbab"
+  },
+  {
+    "ts": "2026-10-15T04:45:51.950Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-without-dac/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "667fe5caab4c0488"
+  },
+  {
+    "ts": "2026-10-15T04:56:16.508Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://momentumpeptides.com/product/selank-10mg/",
+    "visitorId": "7223db726b71a99f"
   }
 ]
