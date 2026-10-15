@@ -1191,5 +1191,15 @@
     "compoundSlug": "glp-3",
     "destUrl": "https://www.peptifyuk.com/product/glp-3-rt-10mg",
     "visitorId": "e235b2d05939f16c"
+  },
+  {
+    "ts": "2026-10-15T20:52:15.999Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f9f1cc59f47e573f"
   }
 ]
