@@ -26945,5 +26945,191 @@
     "compoundSlug": "semax",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-semax-5mg-research-only-peptide-for-laboratory-use-only/",
     "visitorId": "7773ed4690ded0f7"
+  },
+  {
+    "ts": "2026-10-15T02:55:25.942Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-semax-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-15T02:55:27.712Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-semax-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "99a2d1a45829d6ec"
+  },
+  {
+    "ts": "2026-10-15T02:57:43.378Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
+    "visitorId": "29ea21ee1aebbcc1"
+  },
+  {
+    "ts": "2026-10-15T02:57:47.178Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-15T02:57:50.646Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/ghk-cu-50mg",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-15T03:02:01.089Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.na-peptides.co.uk/product/tb500-10mg/",
+    "visitorId": "5b5a881faecc1b90"
+  },
+  {
+    "ts": "2026-10-15T03:02:23.580Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.na-peptides.co.uk/product/bpc-157-10mg-research-peptide/",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-15T03:04:29.212Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/cjc-1295-no-dac-5mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "6fff64ccf1b931a6"
+  },
+  {
+    "ts": "2026-10-15T03:04:39.626Z",
+    "type": "vendor-site",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "destUrl": "https://www.na-peptides.co.uk",
+    "visitorId": "a6cb9d2732829617"
+  },
+  {
+    "ts": "2026-10-15T03:06:51.688Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://www.na-peptides.co.uk/product/wolverine-stack-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cdbc095abdaca2a2"
+  },
+  {
+    "ts": "2026-10-15T03:11:37.715Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-15T03:11:39.849Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-15T03:11:41.534Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-15T03:14:26.173Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://retaresearch.co/products/bacteriorastic-water-10ml",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1baa1b66c87c2109"
+  },
+  {
+    "ts": "2026-10-15T03:15:47.356Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://tidelabs.co.uk/products/cjc-1295-no-dac",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e3bac6348db9a7c2"
+  },
+  {
+    "ts": "2026-10-15T03:16:21.617Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://tidelabs.co.uk/products/kisspeptin-10",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-15T03:16:23.269Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://tidelabs.co.uk/products/kisspeptin-10",
+    "visitorId": "8b67b7d6ab6aac79"
+  },
+  {
+    "ts": "2026-10-15T03:17:16.995Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://tidelabs.co.uk/products/cjc-1295-no-dac",
+    "refPage": "https://www.google.com/",
+    "visitorId": "c4fbadee17fe5d43"
+  },
+  {
+    "ts": "2026-10-15T03:19:02.808Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "thymosin-beta-4-tb500-2mg",
+    "destUrl": "https://www.uk-peptides.com/thymosin-beta-4-2mg-tb500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bc5e60f43018a66e"
+  },
+  {
+    "ts": "2026-10-15T04:01:56.915Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://researchpeptide.co.uk/product/gdf-8/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bc5e60f43018a66e"
   }
 ]
