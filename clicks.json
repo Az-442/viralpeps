@@ -1321,5 +1321,50 @@
     "compoundSlug": "selank",
     "destUrl": "https://leolab.co.uk/peptides/selank/",
     "visitorId": "0a1e79e57216c3a0"
+  },
+  {
+    "ts": "2026-10-15T23:03:44.791Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://redpandapeptides.co.uk/product/tirzepitide-20mg/",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-15T23:03:46.279Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://redpandapeptides.co.uk/product/tirzepitide-20mg/",
+    "visitorId": "94da9eb4a2cf74a9"
+  },
+  {
+    "ts": "2026-10-15T23:03:47.658Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://redpandapeptides.co.uk/product/tirzepitide-20mg/",
+    "visitorId": "93a36b7ea5ddcc2b"
+  },
+  {
+    "ts": "2026-10-15T23:16:24.149Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://leolab.co.uk/peptides/semaglutide/",
+    "visitorId": "6e6c93acaf090b99"
+  },
+  {
+    "ts": "2026-10-15T23:25:50.145Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/",
+    "visitorId": "ead29b45aed6e342"
   }
 ]
