@@ -3592,5 +3592,40 @@
     "vendorName": "PeptX",
     "destUrl": "https://peptx.co.uk",
     "visitorId": "a54b1b7954b9f381"
+  },
+  {
+    "ts": "2026-10-16T20:28:01.602Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
+    "visitorId": "1a6c3637ffb38da8"
+  },
+  {
+    "ts": "2026-10-16T20:30:37.372Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "f9f7bbda84191349"
+  },
+  {
+    "ts": "2026-10-16T20:36:06.751Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "visitorId": "8b55beddfd14e371"
+  },
+  {
+    "ts": "2026-10-16T21:09:22.008Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aicar",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aicar-50mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "9a8316319a7dfed5"
   }
 ]
