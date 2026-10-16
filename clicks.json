@@ -1859,5 +1859,71 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://novavitality.co.uk/product/ghk-cu/",
     "visitorId": "6f3a7e500fa8dd88"
+  },
+  {
+    "ts": "2026-10-16T04:32:44.074Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "visitorId": "0001f22aca6b2256"
+  },
+  {
+    "ts": "2026-10-16T04:32:49.209Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "visitorId": "0001f22aca6b2256"
+  },
+  {
+    "ts": "2026-10-16T04:40:23.699Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://novavitality.co.uk/product/5-amino-1mq/",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality/5-amino-1mq",
+    "visitorId": "1d088b3385b927d9"
+  },
+  {
+    "ts": "2026-10-16T04:52:34.457Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://retaresearch.co/products/ipamorelin",
+    "visitorId": "b2aba7e94a971985"
+  },
+  {
+    "ts": "2026-10-16T04:53:53.291Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://retaresearch.co/products/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/go/reta-research/cagrilintide",
+    "visitorId": "a7ce0bb72efb1508"
+  },
+  {
+    "ts": "2026-10-16T04:57:49.144Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ll-37-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/ll-37-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/ll-37-5mg",
+    "visitorId": "b053494a32d42853"
+  },
+  {
+    "ts": "2026-10-16T05:04:52.079Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-without-dac/",
+    "visitorId": "84a8f595203bb0d9"
   }
 ]
