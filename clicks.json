@@ -2615,5 +2615,81 @@
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesonline.uk/shop/dsip/",
     "visitorId": "874fc9733f11e31a"
+  },
+  {
+    "ts": "2026-10-16T09:47:54.456Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e116b44a29fe2391"
+  },
+  {
+    "ts": "2026-10-16T09:48:07.548Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://phoenixbiolabs.net/shop/l-carnitine-3000/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "80b3b77064dfc760"
+  },
+  {
+    "ts": "2026-10-16T09:48:35.614Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "kpv",
+    "destUrl": "https://novapeptidelab.co.uk/product/kpv-research-peptide-uk/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide-lab/kpv",
+    "visitorId": "a0599e2c146d3ea4"
+  },
+  {
+    "ts": "2026-10-16T09:55:21.498Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://pioneerpeptides.co.uk/products/dsip/",
+    "visitorId": "d9691d92351d421d"
+  },
+  {
+    "ts": "2026-10-16T10:05:45.343Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://novavitality.co.uk/product/follistatin-344/",
+    "visitorId": "b6eb8e6e02f5cc92"
+  },
+  {
+    "ts": "2026-10-16T10:06:55.120Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://pioneerpeptides.co.uk/products/aicar/",
+    "visitorId": "11388953b0b5c854"
+  },
+  {
+    "ts": "2026-10-16T10:16:04.272Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://allmypeptides.com/product/bacteriostatic-water/",
+    "visitorId": "78aa38c53f7e94dd"
+  },
+  {
+    "ts": "2026-10-16T10:24:36.120Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://novapeptidelab.co.uk/product/cjc-1295-without-dac/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide-lab/cjc-1295-no-dac",
+    "visitorId": "7250caf71ee76a31"
   }
 ]
