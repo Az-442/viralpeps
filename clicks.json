@@ -1609,5 +1609,71 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://oplabs.co.uk/product/ipamorelin-5mg/",
     "visitorId": "42547cfee3117b3c"
+  },
+  {
+    "ts": "2026-10-16T02:46:42.781Z",
+    "type": "vendor-site",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "destUrl": "https://phoenixbiolabs.net",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f944c3a9196f6ae3"
+  },
+  {
+    "ts": "2026-10-16T02:49:34.034Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "kpv",
+    "destUrl": "https://novavitality.co.uk/product/kpv/",
+    "visitorId": "873f80c5690ea896"
+  },
+  {
+    "ts": "2026-10-16T02:52:15.465Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "ghk-cu-50mg",
+    "destUrl": "https://www.uk-peptides.com/ghk-cu-50mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e0741679ab4471f0"
+  },
+  {
+    "ts": "2026-10-16T02:54:37.396Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.prime-peptides.co.uk/product/tirzepatide/",
+    "visitorId": "0a1e79e57216c3a0"
+  },
+  {
+    "ts": "2026-10-16T02:58:36.266Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://phoenixbiolabs.net/shop/klow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b89051b1d1dc1c0a"
+  },
+  {
+    "ts": "2026-10-16T03:05:04.605Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://phoenixbiolabs.net/shop/ghk-cu-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0189d569b088bb0d"
+  },
+  {
+    "ts": "2026-10-16T03:07:24.968Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://retaresearch.co/products/ghk-cu",
+    "visitorId": "70c8bc23e9896c1c"
   }
 ]
