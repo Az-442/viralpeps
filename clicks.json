@@ -3249,5 +3249,43 @@
     "compoundSlug": "dsip",
     "destUrl": "https://pslabs.uk/products/dsip-10mg",
     "visitorId": "0395da8c97d895c3"
+  },
+  {
+    "ts": "2026-10-16T17:13:22.840Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://pslabs.uk/products/dsip-10mg",
+    "visitorId": "da47301dfe038a32"
+  },
+  {
+    "ts": "2026-10-16T17:15:01.053Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://retaresearch.co/products/semax",
+    "refPage": "https://www.google.com/",
+    "visitorId": "836d749d4c081a7c"
+  },
+  {
+    "ts": "2026-10-16T17:19:59.186Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://retaresearch.co/products/semax",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e4542f351202fa52"
+  },
+  {
+    "ts": "2026-10-16T17:52:21.659Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://evapeptide.co.uk/product/buy-aod9604-uk/",
+    "visitorId": "8a9eb2dd0b5610ad"
   }
 ]
