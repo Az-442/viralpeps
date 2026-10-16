@@ -2194,5 +2194,50 @@
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://lab77peptides.co.uk/collections",
     "visitorId": "e7a7c77432950413"
+  },
+  {
+    "ts": "2026-10-16T06:00:03.852Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "c73aad4df57b0378"
+  },
+  {
+    "ts": "2026-10-16T06:00:06.802Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "c73aad4df57b0378"
+  },
+  {
+    "ts": "2026-10-16T06:05:32.161Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://allmypeptides.com/product/wolverine-blend/",
+    "visitorId": "d7d0f4caec8fdd96"
+  },
+  {
+    "ts": "2026-10-16T06:16:17.426Z",
+    "type": "vendor-site",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "destUrl": "https://novavitality.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality",
+    "visitorId": "856463dcd660e08d"
+  },
+  {
+    "ts": "2026-10-16T06:32:46.708Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://retaresearch.co/products/pt-141",
+    "visitorId": "ebaa007f7c514ea2"
   }
 ]
