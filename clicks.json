@@ -1703,5 +1703,105 @@
     "destUrl": "https://peptidelabuk.co.uk/product/cagrilintide-5mg-research-peptide/",
     "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/cagrilintide",
     "visitorId": "72134437e3851aad"
+  },
+  {
+    "ts": "2026-10-16T04:01:42.149Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "adamax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-adamax-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "18031dcca2288576"
+  },
+  {
+    "ts": "2026-10-16T04:01:44.392Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "adamax",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-adamax-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "22209b079bb521a5"
+  },
+  {
+    "ts": "2026-10-16T04:13:46.447Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "e1be7f4ad63bb77b"
+  },
+  {
+    "ts": "2026-10-16T04:13:53.787Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://phoenixbiolabs.net/shop/ara-290-20mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "afd580b13781d3b4"
+  },
+  {
+    "ts": "2026-10-16T04:14:10.856Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.na-peptides.co.uk/product/tb500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/na-peptides/tb-500",
+    "visitorId": "db05d686782206be"
+  },
+  {
+    "ts": "2026-10-16T04:14:17.025Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "270fb0ecf24e3f49"
+  },
+  {
+    "ts": "2026-10-16T04:14:25.007Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "44aec89ac8ad2b30"
+  },
+  {
+    "ts": "2026-10-16T04:14:27.462Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "44aec89ac8ad2b30"
+  },
+  {
+    "ts": "2026-10-16T04:24:57.041Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "destUrl": "https://biopeptides-uk.com",
+    "visitorId": "b96185a8e44d3756"
+  },
+  {
+    "ts": "2026-10-16T04:27:16.163Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://novapeptidelab.co.uk/product/ipamorelin-research-peptide/",
+    "visitorId": "7536058dabe0deb5"
+  },
+  {
+    "ts": "2026-10-16T04:32:35.350Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "visitorId": "592de5bcb9b6ca7b"
   }
 ]
