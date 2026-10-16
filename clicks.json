@@ -2841,5 +2841,114 @@
     "destUrl": "https://phoenixbiolabs.net/shop/ss-31-10mg-research-peptide/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "8ab8150046b5c452"
+  },
+  {
+    "ts": "2026-10-16T12:09:09.782Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "visitorId": "ed4312b7787f214e"
+  },
+  {
+    "ts": "2026-10-16T12:09:17.359Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "visitorId": "4143ac7d07a700fb"
+  },
+  {
+    "ts": "2026-10-16T12:09:21.816Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "visitorId": "4143ac7d07a700fb"
+  },
+  {
+    "ts": "2026-10-16T12:17:22.424Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-TB5-5",
+    "visitorId": "dc5ff76ddf1b38fb"
+  },
+  {
+    "ts": "2026-10-16T12:22:41.760Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://bluewellpeptides.com/product/ahk-cu-100mg-peptide/",
+    "visitorId": "dbcad0c3bdca7023"
+  },
+  {
+    "ts": "2026-10-16T12:23:20.180Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "kpv-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/kpv/pen",
+    "visitorId": "4bd8ed87667c3b79"
+  },
+  {
+    "ts": "2026-10-16T12:26:56.937Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/23-cagrilintide-10mg.html",
+    "visitorId": "708bfbff4ea97aeb"
+  },
+  {
+    "ts": "2026-10-16T12:26:59.064Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/23-cagrilintide-10mg.html",
+    "visitorId": "708bfbff4ea97aeb"
+  },
+  {
+    "ts": "2026-10-16T12:27:25.537Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/23-cagrilintide-10mg.html",
+    "visitorId": "889abdf988a1dd18"
+  },
+  {
+    "ts": "2026-10-16T12:27:28.275Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/23-cagrilintide-10mg.html",
+    "visitorId": "889abdf988a1dd18"
+  },
+  {
+    "ts": "2026-10-16T12:37:03.645Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ahk-cu/",
+    "visitorId": "21c21b46f73af4c3"
+  },
+  {
+    "ts": "2026-10-16T12:38:11.495Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d34e7383af023e9e"
   }
 ]
