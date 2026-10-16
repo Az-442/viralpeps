@@ -2313,5 +2313,97 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
     "visitorId": "cc6e29bebbe03910"
+  },
+  {
+    "ts": "2026-10-16T07:27:10.937Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "cc6e29bebbe03910"
+  },
+  {
+    "ts": "2026-10-16T07:27:41.041Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/go/midshire-labs/hexarelin",
+    "visitorId": "adc4b1a0dd1906d1"
+  },
+  {
+    "ts": "2026-10-16T07:28:53.938Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "7e856fb9a2c27e3b"
+  },
+  {
+    "ts": "2026-10-16T07:35:26.663Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "premium-mots-c-10mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "b28fc952f212a9ee"
+  },
+  {
+    "ts": "2026-10-16T07:43:54.066Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://novavitality.co.uk/product/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality/kisspeptin-10",
+    "visitorId": "26a232d858dc89bd"
+  },
+  {
+    "ts": "2026-10-16T07:44:08.098Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://unitedpeptides.co.uk/product/tirzepatide-60mg/",
+    "visitorId": "f66748a798a166a6"
+  },
+  {
+    "ts": "2026-10-16T07:45:22.530Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "2df0454e191be74c"
+  },
+  {
+    "ts": "2026-10-16T07:46:09.945Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "7996c88fa2c5c24a"
+  },
+  {
+    "ts": "2026-10-16T07:54:26.446Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "29405f19e4b65319"
+  },
+  {
+    "ts": "2026-10-16T08:00:00.659Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://retaresearch.co/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "133ec665a7212a1f"
   }
 ]
