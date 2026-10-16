@@ -3510,5 +3510,70 @@
     "compoundSlug": "aicar",
     "destUrl": "https://www.researchpeptides.co.uk/product-page/aicar-50mg",
     "visitorId": "c7a387c8f49842ed"
+  },
+  {
+    "ts": "2026-10-16T19:46:47.761Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://retaresearch.co/products/ss-31",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-16T19:46:49.298Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://retaresearch.co/products/ss-31",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-10-16T19:46:50.691Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://retaresearch.co/products/ss-31",
+    "visitorId": "f7a3f0dc932078f3"
+  },
+  {
+    "ts": "2026-10-16T20:00:52.482Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://retaresearch.co/products/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "2be2c175fa51c457"
+  },
+  {
+    "ts": "2026-10-16T20:03:50.289Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://retaresearch.co/products/selank",
+    "refPage": "https://www.google.com/",
+    "visitorId": "6bc07e5df6a7e62e"
+  },
+  {
+    "ts": "2026-10-16T20:09:30.975Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://olresearch.co.uk/product/selank-5mg/",
+    "visitorId": "5252cefa2d9fa620"
+  },
+  {
+    "ts": "2026-10-16T20:16:10.961Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://chromapeptides.co.uk/product/hexarelin/",
+    "visitorId": "f1100d7148525f7a"
   }
 ]
