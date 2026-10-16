@@ -3361,5 +3361,154 @@
     "destUrl": "https://www.northpeptidesuk.com/products/tirzepatide/",
     "refPage": "http://www.viralpeps.co.uk/go/north-peptides-uk/tirzepatide",
     "visitorId": "b73a066fd9d52f72"
+  },
+  {
+    "ts": "2026-10-16T19:09:54.097Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://olresearch.co.uk/product/epithalon-10mg/",
+    "visitorId": "bf7322388e0864b9"
+  },
+  {
+    "ts": "2026-10-16T19:09:55.469Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pslabs.uk/products/mt-2-10mg",
+    "visitorId": "22920aaeb113daca"
+  },
+  {
+    "ts": "2026-10-16T19:12:57.868Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/hexarelin-2mg",
+    "visitorId": "66b6b06f47f7328e"
+  },
+  {
+    "ts": "2026-10-16T19:13:05.541Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://olresearch.co.uk/product/r3ta-20mg/",
+    "visitorId": "0b72d94c52bb2325"
+  },
+  {
+    "ts": "2026-10-16T19:16:52.324Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.northpeptidesuk.com/products/ss-31/",
+    "refPage": "http://www.viralpeps.co.uk/go/north-peptides-uk/ss-31",
+    "visitorId": "075d243f0076936a"
+  },
+  {
+    "ts": "2026-10-16T19:18:25.422Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "0b81b4ed3f389488"
+  },
+  {
+    "ts": "2026-10-16T19:19:28.026Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.northpeptidesuk.com/products/ss-31/",
+    "refPage": "http://m.baidu.com/s?wd=zulus2x",
+    "visitorId": "fa68a941c4438a95"
+  },
+  {
+    "ts": "2026-10-16T19:19:38.107Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nilahlabs.co.uk/products/mots-c",
+    "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-16T19:19:39.879Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nilahlabs.co.uk/products/mots-c",
+    "visitorId": "9a8316319a7dfed5"
+  },
+  {
+    "ts": "2026-10-16T19:19:43.978Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nilahlabs.co.uk/products/mots-c",
+    "visitorId": "105e5b5438ae2f16"
+  },
+  {
+    "ts": "2026-10-16T19:20:09.126Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://www.northpeptidesuk.com/products/klow-stack/",
+    "refPage": "http://www.viralpeps.co.uk/go/north-peptides-uk/klow-stack",
+    "visitorId": "8b7cfe966102f39a"
+  },
+  {
+    "ts": "2026-10-16T19:20:12.531Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.northpeptidesuk.com/products/nad-plus/",
+    "refPage": "http://www.viralpeps.co.uk/go/north-peptides-uk/nad-plus",
+    "visitorId": "f59cbd382bf98f78"
+  },
+  {
+    "ts": "2026-10-16T19:21:16.551Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://www.northpeptidesuk.com/products/klow-stack/",
+    "refPage": "http://m.baidu.com/s?wd=collegejsb",
+    "visitorId": "e6ba475a391ee012"
+  },
+  {
+    "ts": "2026-10-16T19:35:23.904Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "pal-ghk",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/pal-ghk-10mg",
+    "visitorId": "8fc4c2c35e456bce"
+  },
+  {
+    "ts": "2026-10-16T19:37:56.612Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/",
+    "visitorId": "4448b2e343e8e7c6"
+  },
+  {
+    "ts": "2026-10-16T19:39:53.842Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/aicar-50mg",
+    "visitorId": "c7a387c8f49842ed"
   }
 ]
