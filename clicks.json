@@ -2110,5 +2110,61 @@
     "compoundSlug": "hexarelin",
     "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin",
     "visitorId": "5021b45458749f19"
+  },
+  {
+    "ts": "2026-10-16T05:09:04.858Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "49aaec86db948844"
+  },
+  {
+    "ts": "2026-10-16T05:09:29.417Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://novapeptidelab.co.uk/product/bacteriostatic-water-uk/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide-lab/bacteriostatic-water",
+    "visitorId": "ca93c4801a0a16dc"
+  },
+  {
+    "ts": "2026-10-16T05:09:56.342Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-10mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "1981a78072075875"
+  },
+  {
+    "ts": "2026-10-16T05:10:41.504Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-10mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "a2791c4b69c28e66"
+  },
+  {
+    "ts": "2026-10-16T05:24:09.214Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://reta-uk.com/products/selank",
+    "visitorId": "f9d40b35d2a99a22"
+  },
+  {
+    "ts": "2026-10-16T05:51:01.199Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "epithalon-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
+    "visitorId": "475f32b7ca9e4390"
   }
 ]
