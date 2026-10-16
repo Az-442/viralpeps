@@ -3213,5 +3213,32 @@
     "destUrl": "https://retaresearch.co",
     "refPage": "https://www.google.com/",
     "visitorId": "ba1e8654cd032769"
+  },
+  {
+    "ts": "2026-10-16T16:22:35.797Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f90fd54603165fbb"
+  },
+  {
+    "ts": "2026-10-16T16:34:00.615Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "follistatin-344-1mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/follistatin-344-1mg/",
+    "visitorId": "e088df7993758a92"
+  },
+  {
+    "ts": "2026-10-16T16:53:13.200Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "myostatin-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/myostatin-1mg/",
+    "visitorId": "66b6b06f47f7328e"
   }
 ]
