@@ -1385,5 +1385,70 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://aegispeptidesuk.co.uk/product/nad/",
     "visitorId": "82d8b3f78f32ca2a"
+  },
+  {
+    "ts": "2026-10-16T00:09:38.356Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
+    "visitorId": "2ff4b5c90aa08858"
+  },
+  {
+    "ts": "2026-10-16T00:09:44.512Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
+    "visitorId": "dfebc26e5b24390a"
+  },
+  {
+    "ts": "2026-10-16T00:09:47.836Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
+    "visitorId": "e7462a0a9293cbdb"
+  },
+  {
+    "ts": "2026-10-16T00:20:15.139Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ffa099d3638ffaf1"
+  },
+  {
+    "ts": "2026-10-16T00:20:21.147Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0868225afedb4e81"
+  },
+  {
+    "ts": "2026-10-16T00:33:05.220Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://ascendpeptidesuk.com/products/m2/",
+    "visitorId": "2e6a362531144390"
+  },
+  {
+    "ts": "2026-10-16T00:37:04.607Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://my-peptides.co.uk/products/mots-c-32",
+    "visitorId": "5f9ec35cbf4747ae"
   }
 ]
