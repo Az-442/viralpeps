@@ -2010,5 +2010,105 @@
     "compoundSlug": "mgf",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-mgf-2mg/",
     "visitorId": "f0873ad83e58a402"
+  },
+  {
+    "ts": "2026-10-16T05:13:00.341Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "mgf",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-mgf-2mg/",
+    "visitorId": "0e631e2a276ba2af"
+  },
+  {
+    "ts": "2026-10-16T05:14:16.285Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/igf-1lr3-1mg/",
+    "visitorId": "8a9eb2dd0b5610ad"
+  },
+  {
+    "ts": "2026-10-16T05:14:53.762Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.uk-peptides.com/cjc-1295-mod-grf",
+    "refPage": "https://www.viralpeps.co.uk/go/uk-peptides-com/cjc-1295-no-dac",
+    "visitorId": "2494800dce5b97df"
+  },
+  {
+    "ts": "2026-10-16T05:16:00.143Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295/",
+    "visitorId": "11ae0c8353579e3e"
+  },
+  {
+    "ts": "2026-10-16T05:16:07.387Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295/",
+    "visitorId": "6ed35cf2ba1bc1b3"
+  },
+  {
+    "ts": "2026-10-16T05:25:58.242Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aod-9604-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "2a2846669af1e079"
+  },
+  {
+    "ts": "2026-10-16T05:28:26.277Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://tidelabs.co.uk/products/thymalin",
+    "visitorId": "6829883754155058"
+  },
+  {
+    "ts": "2026-10-16T05:28:29.471Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://tidelabs.co.uk/products/thymalin",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-16T05:28:32.586Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://tidelabs.co.uk/products/thymalin",
+    "visitorId": "14c5752db0a1feae"
+  },
+  {
+    "ts": "2026-10-16T05:41:30.536Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "gnrh-triptorelin-100mcg",
+    "destUrl": "https://purepeptidesuk.com/product/gnrh-triptorelin-100/",
+    "visitorId": "b268201974b618e8"
+  },
+  {
+    "ts": "2026-10-16T05:45:43.843Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin",
+    "visitorId": "5021b45458749f19"
   }
 ]
