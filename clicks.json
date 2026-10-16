@@ -3184,5 +3184,34 @@
     "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "f258d8457c8327cc"
+  },
+  {
+    "ts": "2026-10-16T15:44:03.823Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ff5bd6b80665fdd7"
+  },
+  {
+    "ts": "2026-10-16T15:44:06.131Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3f9c0e60adfb333c"
+  },
+  {
+    "ts": "2026-10-16T16:18:36.425Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ba1e8654cd032769"
   }
 ]
