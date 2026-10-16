@@ -2405,5 +2405,122 @@
     "destUrl": "https://retaresearch.co/products/ghk-cu",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "133ec665a7212a1f"
+  },
+  {
+    "ts": "2026-10-16T08:01:29.447Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://retaresearch.co/products/selank",
+    "visitorId": "e40399cc7a267f7b"
+  },
+  {
+    "ts": "2026-10-16T08:06:29.275Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mq-nad-c-combo-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/nad-amino-mots-combo/pen",
+    "visitorId": "779b6ebeb9dac8c1"
+  },
+  {
+    "ts": "2026-10-16T08:08:24.439Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://phoenixbiolabs.net/shop/5-amino-1mq/",
+    "visitorId": "51b381ee56c695a3"
+  },
+  {
+    "ts": "2026-10-16T08:08:30.510Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "bbfd3cb59c05406f"
+  },
+  {
+    "ts": "2026-10-16T08:13:13.222Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "c23050a6df495d8f"
+  },
+  {
+    "ts": "2026-10-16T08:14:34.867Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "c23050a6df495d8f"
+  },
+  {
+    "ts": "2026-10-16T08:17:14.217Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://everythingpeptides.co.uk/products/5-amino-1mq",
+    "visitorId": "59ff259833d3f392"
+  },
+  {
+    "ts": "2026-10-16T08:21:14.944Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://nilahlabs.co.uk/products/wolverine-blend",
+    "visitorId": "a1c500cbcfcbb78e"
+  },
+  {
+    "ts": "2026-10-16T08:21:21.771Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://nilahlabs.co.uk/products/wolverine-blend",
+    "visitorId": "63107f07c70ecfac"
+  },
+  {
+    "ts": "2026-10-16T08:21:25.624Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://nilahlabs.co.uk/products/wolverine-blend",
+    "visitorId": "8b8f06bf61ae9ab5"
+  },
+  {
+    "ts": "2026-10-16T08:25:30.089Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.kingsbiolabs.co.uk/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "930147f15f831823"
+  },
+  {
+    "ts": "2026-10-16T08:26:08.062Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.expresspeptides.co.uk/product/semax/vial",
+    "visitorId": "4d2e7f38dc858161"
+  },
+  {
+    "ts": "2026-10-16T08:34:53.035Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://helixcore.co.uk/products/mt-1",
+    "visitorId": "c33ccbd82845ff5b"
   }
 ]
