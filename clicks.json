@@ -2960,5 +2960,80 @@
     "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "1c75123f7008e03a"
+  },
+  {
+    "ts": "2026-10-16T13:11:35.040Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ahk-cu/",
+    "visitorId": "5b17e50b797d5ae5"
+  },
+  {
+    "ts": "2026-10-16T13:18:01.111Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a37eda8ff3328a65"
+  },
+  {
+    "ts": "2026-10-16T13:20:23.840Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/41-igf-1lr3-1mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/igf-1-lr3",
+    "visitorId": "4fdbe0724d150116"
+  },
+  {
+    "ts": "2026-10-16T13:22:00.892Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://polygonpeptides.co.uk/product/ahk-cu-100mg/",
+    "visitorId": "38664991f8ac890c"
+  },
+  {
+    "ts": "2026-10-16T13:34:11.825Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9cd9a68ec4a7f58c"
+  },
+  {
+    "ts": "2026-10-16T13:34:16.565Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d69f7554d54a266e"
+  },
+  {
+    "ts": "2026-10-16T13:38:16.450Z",
+    "type": "vendor-site",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "destUrl": "https://www.na-peptides.co.uk",
+    "visitorId": "61302f8221b15801"
+  },
+  {
+    "ts": "2026-10-16T13:55:45.449Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://retaresearch.co/products/melanotan-2",
+    "visitorId": "689b4efefb171938"
   }
 ]
