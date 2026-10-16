@@ -1869,6 +1869,27 @@ export const guides: ResearchArticle[] = [
     minutes: 14,
     tags: ['tb-500', 'thymosin-beta-4', 'tb4', 'tbeta4', 'actin', 'lkktetq', 'deep-dive', 'wound-healing', 'recovery', 'coa', 'uk', 'suppliers'],
   },
+  {
+    title: 'CJC-1295 Suppliers UK: The Molecule the Name Does Not Describe',
+    desc: 'A UK supplier guide to the CJC-1295 sold by most vendors - which is modified GRF(1-29), the tetrasubstituted GHRH(1-29) backbone with no albumin-binding DAC linker, and therefore none of the multi-day half-life the name implies. Covers the two modifications that created the CJC-1295 family, the 1980s substitution work behind the real molecule, why the human pharmacokinetic data belongs to the DAC conjugate, and the UK market of 71 suppliers and 86 no-DAC listings from GBP 9.95 - with the price-per-milligram arithmetic that reorders the table.',
+    category: 'Guide',
+    section: 'research-hub',
+    compound: 'CJC-1295',
+    slug: 'cjc-1295-suppliers-uk',
+    image: 'cjc-1295-suppliers-uk',
+    minutes: 12,
+    tags: ['cjc-1295', 'cjc-1295-no-dac', 'modified-grf-1-29', 'mod-grf', 'ghrh', 'growth-hormone', 'suppliers', 'uk', 'prices', 'half-life'],
+  },
+  {
+    title: 'UK Peptide Comparison Sites: How the Rankings Are Actually Built',
+    desc: 'A market-structure guide to how UK research peptide comparison sites work - the three jobs they perform (aggregation, normalisation, trust scoring), why price per milligram is the only comparable unit, and how the published ranking formulas blend independent verification signals with affiliate commission (worth up to 20 of 100 points on at least one UK site, and the first tie-breaker). Includes the nine weighted signals, three penalties and four hard caps, the discount-code and coverage-bias traps in a cheapest-first table, and the four things no comparison site can verify.',
+    category: 'Guide',
+    section: 'research-hub',
+    slug: 'uk-peptide-comparison-site',
+    image: 'uk-peptide-comparison-site',
+    minutes: 11,
+    tags: ['comparison-site', 'price-comparison', 'uk', 'suppliers', 'afiliate-commission', 'trust-score', 'price-per-mg', 'research-hub'],
+  },
 ];
 
 export const compoundList: string[] = [
