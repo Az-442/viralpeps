@@ -2701,5 +2701,71 @@
     "destUrl": "https://www.raccoonpeptides.com/peptides/81-tesamorelin-10mg.html",
     "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/tesamorelin",
     "visitorId": "430b44b6d74afcd7"
+  },
+  {
+    "ts": "2026-10-16T11:02:53.047Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "549b3adf52588ef4"
+  },
+  {
+    "ts": "2026-10-16T11:02:57.074Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2f28968464d220b7"
+  },
+  {
+    "ts": "2026-10-16T11:15:48.436Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "460537256f65ddf1"
+  },
+  {
+    "ts": "2026-10-16T11:15:52.730Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "98f5d44f78fc6bad"
+  },
+  {
+    "ts": "2026-10-16T11:15:55.788Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "98f5d44f78fc6bad"
+  },
+  {
+    "ts": "2026-10-16T11:20:36.997Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://vialverse.com/peptides/ghrp-6",
+    "refPage": "https://www.google.com/",
+    "visitorId": "dfc46ac5c16c834b"
+  },
+  {
+    "ts": "2026-10-16T11:32:46.731Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "0095d02c577f8b7f"
   }
 ]
