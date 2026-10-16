@@ -2522,5 +2522,89 @@
     "compoundSlug": "melanotan-i",
     "destUrl": "https://helixcore.co.uk/products/mt-1",
     "visitorId": "c33ccbd82845ff5b"
+  },
+  {
+    "ts": "2026-10-16T08:46:37.708Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.northpeptidesuk.com/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "96b946183bb32aa6"
+  },
+  {
+    "ts": "2026-10-16T08:48:59.756Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidepal.co.uk/products/ghkcu",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a05177faaee21082"
+  },
+  {
+    "ts": "2026-10-16T08:53:56.727Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
+    "visitorId": "4a4927a7b95359d6"
+  },
+  {
+    "ts": "2026-10-16T08:54:03.760Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
+    "visitorId": "d6ea43ed6f1ce7c5"
+  },
+  {
+    "ts": "2026-10-16T08:54:08.180Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://midshirelabs.co.uk/products/bacteriostatic-water/",
+    "visitorId": "d6ea43ed6f1ce7c5"
+  },
+  {
+    "ts": "2026-10-16T08:56:09.723Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://helixcore.co.uk/products/ss-31",
+    "visitorId": "c8cabf777d72e919"
+  },
+  {
+    "ts": "2026-10-16T09:04:05.927Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://drpresearch.co.uk/product/dr-peptides-pinealon-10mg-research-peptide-for-laboratory-use-only-2/",
+    "visitorId": "883a4a3053358d1b"
+  },
+  {
+    "ts": "2026-10-16T09:04:07.985Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://drpresearch.co.uk/product/dr-peptides-pinealon-10mg-research-peptide-for-laboratory-use-only-2/",
+    "visitorId": "5cf132d517f2112a"
+  },
+  {
+    "ts": "2026-10-16T09:13:29.919Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/59-peg-mgf-2mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/peg-mgf",
+    "visitorId": "5117df1ac75c6674"
   }
 ]
