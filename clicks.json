@@ -2239,5 +2239,61 @@
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://retaresearch.co/products/pt-141",
     "visitorId": "ebaa007f7c514ea2"
+  },
+  {
+    "ts": "2026-10-16T06:35:29.195Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-lipo-c-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "66b6b06f47f7328e"
+  },
+  {
+    "ts": "2026-10-16T06:40:11.765Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "593f2cc5e1406818"
+  },
+  {
+    "ts": "2026-10-16T06:40:14.299Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c95d2e40fa354dd3"
+  },
+  {
+    "ts": "2026-10-16T06:56:56.244Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackerxlab.com/product/ghk-cu/",
+    "visitorId": "e48d081fce383e69"
+  },
+  {
+    "ts": "2026-10-16T07:01:29.230Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "e31b9ca76fe393a7"
+  },
+  {
+    "ts": "2026-10-16T07:03:29.794Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://biohackerxlab.com/product/retatrutide/",
+    "visitorId": "e31b9ca76fe393a7"
   }
 ]
