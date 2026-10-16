@@ -2166,5 +2166,15 @@
     "compoundSlug": "epithalon-vial-express",
     "destUrl": "https://www.expresspeptides.co.uk/product/epithalon/vial",
     "visitorId": "475f32b7ca9e4390"
+  },
+  {
+    "ts": "2026-10-16T05:57:15.829Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/ipamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6ee7b857419d0428"
   }
 ]
