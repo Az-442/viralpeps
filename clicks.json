@@ -2767,5 +2767,79 @@
     "compoundSlug": "vitamin-b12",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
     "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-10-16T11:32:52.275Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "0095d02c577f8b7f"
+  },
+  {
+    "ts": "2026-10-16T11:32:56.159Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "94ce7ee62a557ec4"
+  },
+  {
+    "ts": "2026-10-16T11:33:29.112Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://helixcore.co.uk/products/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/go/helix-core/ipamorelin",
+    "visitorId": "9610e957ede40c8f"
+  },
+  {
+    "ts": "2026-10-16T11:44:00.466Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://allmypeptides.com/product/kisspeptin-10/",
+    "visitorId": "fde90886288586b9"
+  },
+  {
+    "ts": "2026-10-16T11:51:19.157Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/",
+    "visitorId": "3648caa029c04793"
+  },
+  {
+    "ts": "2026-10-16T11:51:26.638Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/",
+    "visitorId": "4aeada7f418e37e4"
+  },
+  {
+    "ts": "2026-10-16T11:51:29.054Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://midshirelabs.co.uk/products/semax/",
+    "visitorId": "4aeada7f418e37e4"
+  },
+  {
+    "ts": "2026-10-16T12:07:51.065Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://phoenixbiolabs.net/shop/ss-31-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8ab8150046b5c452"
   }
 ]
