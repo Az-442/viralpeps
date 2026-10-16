@@ -1450,5 +1450,72 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://my-peptides.co.uk/products/mots-c-32",
     "visitorId": "5f9ec35cbf4747ae"
+  },
+  {
+    "ts": "2026-10-16T00:44:02.912Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://phoenixbiolabs.net/shop/epitalon-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3a4163c0c0c72032"
+  },
+  {
+    "ts": "2026-10-16T00:45:08.583Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://retaresearch.co/products/ss-31",
+    "visitorId": "ea682bdce7d491b6"
+  },
+  {
+    "ts": "2026-10-16T00:45:32.700Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://jgpeptidesplus.com/product/mots-c-10mg",
+    "visitorId": "f6fac8955341dbce"
+  },
+  {
+    "ts": "2026-10-16T00:53:14.413Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://phoenixbiolabs.net/shop/glutathione-1500mg-prefilled-premixed-pen-research-compound-copy/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b480de7b582be916"
+  },
+  {
+    "ts": "2026-10-16T00:57:08.719Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b786a4d31a706926"
+  },
+  {
+    "ts": "2026-10-16T01:02:57.147Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/alphamino",
+    "visitorId": "ac56b0ee98c710ad"
+  },
+  {
+    "ts": "2026-10-16T01:17:27.133Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://phoenixbiolabs.net/shop/5-amino-1mq/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "47a39a13b8081a48"
   }
 ]
