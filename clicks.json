@@ -3287,5 +3287,60 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://evapeptide.co.uk/product/buy-aod9604-uk/",
     "visitorId": "8a9eb2dd0b5610ad"
+  },
+  {
+    "ts": "2026-10-16T17:58:09.359Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bebetterpeptides.com/products/buy-hgh-fragment-176-191-5mg",
+    "visitorId": "fc190d0db53e7229"
+  },
+  {
+    "ts": "2026-10-16T17:58:13.424Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bebetterpeptides.com/products/buy-hgh-fragment-176-191-5mg",
+    "visitorId": "7be7536bc24fcfc4"
+  },
+  {
+    "ts": "2026-10-16T18:03:56.485Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://biopeptides-uk.com/product/aod-9604-5mg/",
+    "visitorId": "6209a754507c21f8"
+  },
+  {
+    "ts": "2026-10-16T18:09:18.572Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://novapeptidelab.co.uk/product/retatrutide-research-peptide-uk/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e1a87b6f2b08b2e7"
+  },
+  {
+    "ts": "2026-10-16T18:13:43.333Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.flexpeptides.co.uk/products/aod9604-10mg",
+    "visitorId": "6709c9eceb326e12"
+  },
+  {
+    "ts": "2026-10-16T18:24:02.240Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/",
+    "visitorId": "4e1cd6d4d5e2516a"
   }
 ]
