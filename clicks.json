@@ -1803,5 +1803,61 @@
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
     "visitorId": "592de5bcb9b6ca7b"
+  },
+  {
+    "ts": "2026-10-16T04:12:51.693Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "6f4790e43894731d"
+  },
+  {
+    "ts": "2026-10-16T04:18:59.179Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mazdutide-10mg-dual-glp-bi-362",
+    "visitorId": "94da9eb4a2cf74a9"
+  },
+  {
+    "ts": "2026-10-16T04:20:29.933Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/midshire-labs/igf-1-lr3",
+    "visitorId": "bc70b1e889a52be0"
+  },
+  {
+    "ts": "2026-10-16T04:29:42.810Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://novavitality.co.uk/product/pinealon/",
+    "visitorId": "634f948bb4c2e573"
+  },
+  {
+    "ts": "2026-10-16T04:34:39.349Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5bac083dbbbdc643"
+  },
+  {
+    "ts": "2026-10-16T04:37:39.375Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://novavitality.co.uk/product/ghk-cu/",
+    "visitorId": "6f3a7e500fa8dd88"
   }
 ]
