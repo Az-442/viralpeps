@@ -1925,5 +1925,90 @@
     "compoundSlug": "cjc-1295-no-dac",
     "destUrl": "https://novavitality.co.uk/product/cjc-1295-without-dac/",
     "visitorId": "84a8f595203bb0d9"
+  },
+  {
+    "ts": "2026-10-16T04:43:02.796Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f4d5969032f1060d"
+  },
+  {
+    "ts": "2026-10-16T04:43:05.685Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "62562b05c45f29d4"
+  },
+  {
+    "ts": "2026-10-16T04:44:52.351Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://novapeptidelab.co.uk/product/bpc-157-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide-lab/bpc-157",
+    "visitorId": "b01ea3986cabd6c6"
+  },
+  {
+    "ts": "2026-10-16T04:44:58.713Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bacd914bc90ff88a"
+  },
+  {
+    "ts": "2026-10-16T04:46:09.971Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
+    "visitorId": "78aa38c53f7e94dd"
+  },
+  {
+    "ts": "2026-10-16T05:01:05.475Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
+    "visitorId": "d5145ee100374594"
+  },
+  {
+    "ts": "2026-10-16T05:01:15.043Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
+    "visitorId": "55b420e13ccbeef8"
+  },
+  {
+    "ts": "2026-10-16T05:02:33.428Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "visitorId": "dad5ae8cb73ddff8"
+  },
+  {
+    "ts": "2026-10-16T05:12:57.012Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "mgf",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-mgf-2mg/",
+    "visitorId": "f0873ad83e58a402"
   }
 ]
