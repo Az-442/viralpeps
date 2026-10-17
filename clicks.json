@@ -11502,5 +11502,68 @@
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://novapeptidelab.co.uk/product/5-amino-1mq-research-compound/",
     "visitorId": "3a32a793db5453f0"
+  },
+  {
+    "ts": "2026-10-17T08:57:21.946Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "visitorId": "eaef1e50a5fb14ab"
+  },
+  {
+    "ts": "2026-10-17T08:57:27.782Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "visitorId": "eaef1e50a5fb14ab"
+  },
+  {
+    "ts": "2026-10-17T08:58:09.432Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "visitorId": "eaef1e50a5fb14ab"
+  },
+  {
+    "ts": "2026-10-17T09:01:41.517Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://precision-peptides.shop/product/melanotan-ii-10mg/",
+    "visitorId": "839444fdc98b5eb9"
+  },
+  {
+    "ts": "2026-10-17T09:01:45.646Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://novapeptidelab.co.uk/product/glow-70mg-blend/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "a6dae146bc18800b"
+  },
+  {
+    "ts": "2026-10-17T09:07:18.636Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://novapeptidelab.co.uk/product/glow-70mg-blend/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0f60e78ebb21b262"
+  },
+  {
+    "ts": "2026-10-17T09:10:54.523Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://novapeptidelab.co.uk/product/aod-9604-research-peptide-uk/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0f4dd556a48b0e7c"
   }
 ]
