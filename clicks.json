@@ -11423,5 +11423,45 @@
     "destUrl": "https://retaresearch.co/products/ghk-cu",
     "refPage": "https://www.viralpeps.co.uk/go/reta-research/ghk-cu",
     "visitorId": "908cd29c529a04a3"
+  },
+  {
+    "ts": "2026-10-17T07:02:03.239Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://novapeptidelab.co.uk/product/ghk-cu-peptide-uk/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "3522616326f35ae5"
+  },
+  {
+    "ts": "2026-10-17T07:19:53.149Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://retaresearch.co/products/ss-31",
+    "refPage": "https://www.google.com/",
+    "visitorId": "21b8255edc553f0b"
+  },
+  {
+    "ts": "2026-10-17T07:22:59.879Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://retaresearch.co/products/ss-31",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f77c34b77f9d3e3e"
+  },
+  {
+    "ts": "2026-10-17T07:42:36.411Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d252a6e420b80535"
   }
 ]
