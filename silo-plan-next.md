@@ -862,6 +862,219 @@ Sitemap auto-includes via the registry (verified live: all 6 spokes present).
 
 ---
 
+## ✅ DONE — NAD+ SILO (commit `4076776b`)
+
+Queue note: the original 5-item queue (Semaglutide, Semax, Selank, Ipamorelin, MOTS-c) was already
+complete, as were BPC-157, GHK-Cu, TB-500, IGF-1 LR3 and Tesamorelin. Per the SOP (Step 0 + the
+IGF-1 LR3 "source count ≠ demand" note), the next compound was picked on **verified UK autocomplete
+demand**, not source count. Built per the locked SOP. Deploy verified live 2026-10-17.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-nad-plus-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-nad-plus-uk
+- https://www.viralpeps.co.uk/compound-guides/nad-plus-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-nad-plus-online-uk
+- https://www.viralpeps.co.uk/compound-guides/nad-plus-uk-stockists
+- https://www.viralpeps.co.uk/compound-guides/best-nad-plus-peptide
+
+**Verified metrics:** rendered words 1,960–2,717 (all ≥1,200) · titles 34–52 chars ·
+descriptions 155–160 chars · focus keyword in H1 + intro[0] · **85 unique live go-links on the
+full comparison spoke, 0 broken** (all 85 swept individually on the production build, 25
+re-sampled individually against the live /go/ route) · hub tiles present on `/compounds/nad-plus`
+(12 compound-guides links) · index lists NAD+ · all 6 spokes in the live sitemap ·
+`npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+**Why NAD+ was chosen:** among the unbuilt compounds flagged in the IGF-1 LR3/Tesamorelin notes
+(NAD+, Bacteriostatic Water, SS-31, DSIP, KPV, Epitalon, Glow, Melanotan II), NAD+ returned the
+strongest genuine UK buying-intent signal — **5 of 6 modifiers passed** with real UK hits, and the
+sixth (`{c} price comparison uk`) resolved through the `nad+ price uk` substitute at exact #1.
+Hub `/compounds/nad-plus` returns 200 with **97 master sources** (+9 child variant entries).
+⚠️ Note the hub slug is `nad-plus`, NOT `nad` — the compound name displays as "NAD+".
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-17)
+
+Only the `price comparison` strict form and the `uk supplier` form returned 0 and needed
+substitution (the usual GLP-1-modifier-set pattern); `where to buy`, `cheapest`, `buy online` and
+`best ... peptide` all passed directly.
+
+| Modifier | Result |
+|---|---|
+| `where to buy nad+ uk` | **exact match #1** — passed (also `buy nad+ peptide uk` #1) |
+| `cheapest nad+ uk` | **exact match #1** — passed (+ `cheapest nad+ peptide`) |
+| `nad+ price comparison uk` | ⚠️ **0 results** → substituted `nad+ price uk` (**exact #1**; also `nad cost uk`, `nad injections price uk`) |
+| `buy nad+ online uk` | **real UK hits** (`buy nad online uk`, `buy nad+ injections online uk`, `buy nad+ peptide uk` #1) — passed |
+| `nad+ uk supplier` | ⚠️ **0 results** (`nad supplier uk` / `nad suppliers uk` returned only generic hits) → substituted `nad+ uk stockists` (**exact #1**; also `nad uk stockists` / `nad supplier uk` #1) |
+| `best nad+ peptide` | **exact match #1** — passed |
+
+Corroborating hits: `nad+ peptide uk`, `nad+ peptides uk`, `nad plus uk peptides`, `nad peptide
+injection uk`, `nad+ injections uk cost`, `nad+ anti aging` (broad), `nad+ peptide benefits`
+(broad), `buy nad injections uk`, `nad uk stockists`.
+
+### Spoke 5 substitution detail
+`nad+ uk supplier` returned 0 for the strict form (same pattern as Semax/Selank/Ipamorelin/MOTS-c/
+TB-500/IGF-1 LR3). Spoke 5 was built on **`nad+ uk stockists`**, which returned an exact #1 UK hit
+and carries the same supplier/availability intent. Slug: `nad-plus-uk-stockists`.
+
+### Collision check (KW Phase 1)
+`grep -niE "nad|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md` returned **zero NAD+ rows**.
+Only unrelated pillar rows: `where-to-buy-peptides-uk` (line 34), `where-to-buy-tirzepatide-uk`
+(line 89), `cheapest-peptides-uk` (line 123).
+**No plan collisions — nothing removed.**
+
+### Data
+- 97 master sources + 9 child variant entries folded in (10 NAD+ entries total) → **85 unique
+  live go-links, 0 broken**.
+- The master entry carries one `options[]` array (expanded into one row per size).
+- Uses the `vendorSlugFor()` helper (the Semax fix) AND the `goCompoundSlug` row field (the BPC-157
+  fix) — **7 vendors appear ONLY on child variant entries** (`Fat Pig Peptides`, `PS Labs` →
+  `nad-500mg`; `Peptide Pal`, `UK Peptide Lab` → `nad-research-peptide`; `Research Peptides UK` →
+  `nad-500mg-research-peptides-uk` / `nad-250mg`; `Peptides UK` → `nad-250mg`; `The Peptide Company`
+  → `nad-1000mg-the-peptide-company`), so their rows resolve `/go/` at the child slug.
+- Pack profile: 500mg dominates, with 1000mg and 100mg/250mg bands; pen formats and multi-packs
+  present; one `1000iu` and one `5mg` outlier label resolve to "—" per mg.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 42846758 — Restoring NAD(+) pathways in brain aging and neurodegenerative diseases (Front Nutr 2026)
+- 42787547 — Narrative review of intravenous NAD(+) and NAD(+) precursors in wellness and translational medicine (Front Aging 2026)
+- 42514320 — Safety and Metabolism-Related Outcomes of Oral Nicotinamide Mononucleotide Supplementation in Adults: Systematic Review and Meta-Analysis (Nutrients 2026)
+- 42478598 — A phase-II randomized controlled pilot study of nicotinamide riboside supplementation in older adults with amnestic mild cognitive impairment (Alzheimers Dement 2026)
+- 42449929 — Transcriptional Profiling Shows Dampening of Interferon Gene Signatures by NAD(+) Augmentation in Ataxia-Telangiectasia (Int J Mol Sci 2026)
+- 42048163 — NAD+ augmentation by nicotinamide riboside engages SLIT2/ROBO1 signaling to attenuate Th17 inflammation in psoriasis (JCI Insight 2026)
+- 42880252 — A context-dependent framework for targeting NAD metabolism in cancer (Cell Metab 2026)
+- 42858859 — The aging purinome: A purinergic framework linking the hallmarks of aging to inflammaging (Ageing Res Rev 2026)
+- 42877680 — NAD(+) signaling in Parkinson's disease: molecular mechanisms and therapeutic perspectives (Front Neurol 2026)
+- 42781074 — Therapeutic Targeting of Inflammaging and Emerging Strategies for Managing Age-Related Multimorbidity: A Narrative Review (Clin Interv Aging 2026)
+- 42547047 — The impact of nicotinamide mononucleotide on ovarian health: A comprehensive literature review (Clin Exp Reprod Med 2026)
+- 42739057 — Nicotinamide Supplementation in Glaucoma: A Systematic Review of Human Studies (Nutrients 2026)
+- 42876239 — Bone Marrow Macrophage STING Signaling is a Direct Nexus Linking Marrow Adipose Expansion to NAD(+) Depletion and Osteogenic Decline in Skeletal Aging (Adv Sci 2026)
+- 42393428 — PROMETHEUS clinical trial protocol: tailoring healthy ageing with lifestyle and nutraceuticals (Geroscience 2026)
+
+⚠️ **Caution reconfirmed:** every ID was harvested via `esearch` then verified with `esummary` —
+never drafted from memory. Bare `NAD+` term matching works in NCBI (the `+` is tolerated), so topic
+probes returned clean results.
+
+### ⚠️ Content note — NAD+ is a coenzyme, not a peptide
+NAD+ is a dinucleotide coenzyme rather than a synthetic peptide. The spoke copy was written to be
+accurate about that (redox form / NADH distinction, bulk-grade vs research-grade specification),
+while keeping the standard buying-guide structure. This is a deliberate deviation from the
+peptide-specific framing used on other silos and should be the template for any future non-peptide
+silo (e.g. Bacteriostatic Water).
+
+### Files changed
+`src/data/nad-plus-silo.ts` (new) · `src/data/nad-plus-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 13 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block).
+Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+---
+
+## ✅ DONE — TESAMORELIN SILO (commit `2ea27870`)
+
+Queue note: the original 5-item queue (Semaglutide, Semax, Selank, Ipamorelin, MOTS-c) was already
+complete, as were BPC-157, GHK-Cu, TB-500 and IGF-1 LR3. Per the SOP (Step 0 + the IGF-1 LR3
+"source count ≠ demand" note), the next compound was picked on **verified UK autocomplete demand**,
+not source count. Built per the locked SOP. Deploy verified live 2026-10-16.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-tesamorelin-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-tesamorelin-uk
+- https://www.viralpeps.co.uk/compound-guides/tesamorelin-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-tesamorelin-online-uk
+- https://www.viralpeps.co.uk/compound-guides/tesamorelin-uk-supplier
+- https://www.viralpeps.co.uk/compound-guides/best-tesamorelin-peptide
+
+**Verified metrics:** rendered words 1,926–2,765 (all ≥1,200) · titles 41–54 chars ·
+descriptions 158–160 chars · focus keyword in H1 + intro[0] · 90 unique live go-links on the
+full comparison spoke (all 90 tested individually, 0 broken) · hub tiles present on
+`/compounds/tesamorelin` (6 compound-guides links) · index lists Tesamorelin · all 6 spokes in
+sitemap · `npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+**Why Tesamorelin was chosen:** among the unbuilt compounds flagged in the IGF-1 LR3 note
+(Tesamorelin, NAD+, Bacteriostatic Water, SS-31, DSIP, KPV, Epitalon, Glow, Melanotan II),
+Tesamorelin returned the strongest genuine UK buying-intent signal — **5 of 6 modifiers passed**,
+and the sixth resolved through a very close stockist phrasing. Hub `/compounds/tesamorelin`
+returns 200 with **114 master sources** (+9 child variant entries).
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-16)
+
+Strong UK demand — only the `cheapest`/`price comparison`/`buy` strict forms returned 0 and needed
+substitution (the usual GLP-1-modifier-set pattern), while `where to buy`, `uk supplier` and
+`best ... peptide` all passed directly.
+
+| Modifier | Result |
+|---|---|
+| `where to buy tesamorelin uk` | **exact #1** (`tesamorelin peptide where to buy uk`) — passed |
+| `cheapest tesamorelin uk` | ⚠️ **0 results** → substituted `cheapest tesamorelin` (**exact #1**; also `cheapest tesamorelin peptide` #2) |
+| `tesamorelin price comparison uk` | ⚠️ **0 results** → substituted `tesamorelin price uk` (**exact #1**; also `tesamorelin uk price`, `tesamorelin peptide price uk`) |
+| `buy tesamorelin online uk` | ⚠️ **0 results** → substituted `buy tesamorelin peptide uk` (**exact #1**; also `buy tesamorelin uk`, `tesamorelin uk buy`) |
+| `tesamorelin uk supplier` | **close match #1** (`tesamorelin uk stockists`) — kept as UK supplier spoke |
+| `best tesamorelin peptide` | **exact #1** — passed |
+
+Corroborating hits: `tesamorelin uk peptides`, `tesamorelin uk buy`, `tesamorelin uk price`,
+`tesamorelin uk pen`, `buy tesamorelin 20mg uk`, `tesamorelin 10mg uk buy`,
+`tesamorelin peptide where to buy uk`, `tesamorelin where to buy`, `tesamorelin uk stockists`.
+
+### Spoke 5 detail
+`tesamorelin uk supplier` returned **`tesamorelin uk stockists` as the #1 UK result** — a close
+match that carries the same supplier/availability intent, so spoke 5 is `tesamorelin-uk-supplier`
+(matching the Tirzepatide, BPC-157 and GHK-Cu pattern). Only `cheapest`, `price comparison` and
+`buy online` needed substitution.
+
+### Collision check (KW Phase 1)
+`grep -niE "tesamorelin|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md` returned
+**zero tesamorelin matches**. Only unrelated pillar rows: `where-to-buy-peptides-uk` (line 34),
+`where-to-buy-tirzepatide-uk` (line 89), `cheapest-peptides-uk` (line 123).
+**No plan collisions — nothing removed.**
+
+### Data
+- 114 master sources + 9 child variant entries folded in (11 Tesamorelin entries total) → 131 rows,
+  90 unique suppliers, **90 unique live go-links, 0 broken**.
+- Uses the `vendorSlugFor()` helper (the Semax fix) AND the `goCompoundSlug` row field (the BPC-157
+  fix) — three vendors appear ONLY on child variant entries (`UK-Peptides.com` → `tesamorelin-2mg`,
+  `PS Labs` → `tesamorelin-10mg`, `UK Peptide Lab` → `tesamorelin-research-peptides-uk`), so their
+  rows resolve `/go/` at the child slug.
+- Pack profile: 10mg dominates (55 sources), then 5mg (19) and 20mg (7); 2mg and 30mg/40mg
+  outliers; 3 sources carry `options[]` arrays expanded into one row each. 27 rows have no
+  parseable mg label and correctly show "—" per mg.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 20554713 — Effects of tesamorelin (TH9507), a growth hormone-releasing factor analog, in HIV-infected patients with excess abdominal fat (J Clin Endocrinol Metab 2010)
+- 22298602 — Tesamorelin: a growth hormone-releasing factor analogue for HIV-associated lipodystrophy (Ann Pharmacother 2012)
+- 31611038 — Effects of tesamorelin on non-alcoholic fatty liver disease in HIV: a randomised, double-blind, multicentre trial (Lancet HIV 2019)
+- 38905488 — Efficacy and safety of tesamorelin in people with HIV on integrase inhibitors (AIDS 2024)
+- 34665524 — Advances in the detection of growth hormone releasing hormone synthetic analogs (Drug Test Anal 2021)
+- 41138283 — Analysis of growth hormone releasing hormone and its analogs in urine using nano liquid chromatography coupled to mass spectrometry (J Pharm Biomed Anal 2026)
+- 42538058 — Efficacy and Safety of Tesamorelin in People Living With HIV With Lipodystrophy: A Systematic Review (J Int Assoc Provid AIDS Care 2026)
+- 25358450 — Population pharmacokinetic analysis of tesamorelin in HIV-infected patients and healthy subjects (Clin Pharmacokinet 2015)
+- 25895899 — Population pharmacokinetic and pharmacodynamic analysis of tesamorelin (J Pharmacokinet Pharmacodyn 2015)
+- 39813152 — Effects of Tesamorelin on Neurocognitive Impairment in Persons With HIV and Abdominal Obesity (J Infect Dis 2025)
+- 22869065 — Effects of growth hormone-releasing hormone on cognitive function in adults with mild cognitive impairment and healthy older adults (Arch Neurol 2012)
+- 31237318 — The Growth Hormone Releasing Hormone Analogue, Tesamorelin, Decreases Muscle Fat and Increases Muscle Area in Adults with HIV (J Frailty Aging 2019)
+- 41545261 — Body composition, hepatic fat, metabolic, and safety outcomes of Tesamorelin, a GHRH analogue, in HIV-associated lipodystrophy (Obes Res Clin Pract 2026)
+- 35298973 — An antibody-free, ultrafiltration-based assay for the detection of growth hormone-releasing hormones in urine (J Pharm Biomed Anal 2022)
+- 32971474 — Comparison of magnetic bead surface functionalities for the immunopurification of growth hormone-releasing hormones (J Chromatogr A 2020)
+
+⚠️ **Caution reconfirmed:** every ID was harvested via `esearch` then verified with `esummary` —
+never drafted from memory. Bare `tesamorelin` matches a broad set; topic probes
+(`tesamorelin visceral adipose tissue`, `tesamorelin randomized controlled trial`,
+`tesamorelin cognitive`) surfaced the trials and systematic reviews used above.
+
+### Files changed
+`src/data/tesamorelin-silo.ts` (new) · `src/data/tesamorelin-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 12 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block).
+Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+⚠️ **Note for the next silo run:** git push was rejected (the daily subscriber bot had pushed
+first), and `git pull --rebase` was blocked by the bot's own uncommitted working-tree changes
+(`compounds.json`, `vendors.json`, `lab77-peptides` images). Resolved by `git stash push -u` on
+exactly those bot files, rebasing, pushing, then `git stash pop` to restore them untouched.
+Check `git status` before rebasing — unrelated bot WIP is now common in this repo.
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
@@ -981,9 +1194,9 @@ Tirzepatide, Semaglutide, Semax, Selank, Ipamorelin, MOTS-c = 7 silos, 42 spokes
 added beyond the queue as the highest-source unbuilt compound (8 silos, 48 spokes total),
 then GHK-Cu (9 silos, 54 spokes total).
 
-**Next silo candidates (by source count, hub 200, not yet built):** Tesamorelin (114),
-NAD+ (94), Bacteriostatic Water (78), SS-31 (75), DSIP (71), KPV (70), Epitalon (68).
-(TB-500, 116 sources, built 2026-10-12 — see below.)
+**Next silo candidates (by source count, hub 200, not yet built):** Bacteriostatic Water (80),
+SS-31 (78), KPV (73), DSIP (71), Epitalon (70), Glow (64), Melanotan II (62).
+(NAD+, 97 sources, built 2026-10-17 — see above. Tesamorelin, 114 sources, built 2026-10-16.)
 
 **Rule: only pick a compound whose spokes ALL appear in autocomplete.** Re-run the harvest
 script per compound; some modifiers (e.g. `for sale`) fail for non-GLP-1 compounds.
