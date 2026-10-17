@@ -12759,5 +12759,83 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
     "visitorId": "3df9a94a58079ea6"
+  },
+  {
+    "ts": "2026-10-17T21:07:13.768Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "6362818f806f7a83"
+  },
+  {
+    "ts": "2026-10-17T21:07:16.480Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "6362818f806f7a83"
+  },
+  {
+    "ts": "2026-10-17T21:12:03.771Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "visitorId": "6271fdbe03fc462d"
+  },
+  {
+    "ts": "2026-10-17T21:12:05.270Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "visitorId": "245a3902231eb10a"
+  },
+  {
+    "ts": "2026-10-17T21:12:06.860Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "visitorId": "5383747e1519190c"
+  },
+  {
+    "ts": "2026-10-17T21:30:35.731Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideglobal.co.uk/product/ghk-cu-pen/",
+    "visitorId": "6f1934adac73d7d2"
+  },
+  {
+    "ts": "2026-10-17T21:32:15.953Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "a8bf94578c956395"
+  },
+  {
+    "ts": "2026-10-17T21:32:16.273Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "a8bf94578c956395"
+  },
+  {
+    "ts": "2026-10-17T21:39:14.637Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "mgf",
+    "destUrl": "https://tidelabs.co.uk/products/mgf",
+    "visitorId": "326a2c35ed1c260a"
   }
 ]
