@@ -12846,5 +12846,61 @@
     "compoundSlug": "klow",
     "destUrl": "https://www.raccoonpeptides.com/peptides/44-klow-blend-80mg.html",
     "visitorId": "21a22dc6f48a42e9"
+  },
+  {
+    "ts": "2026-10-17T21:54:40.273Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/44-klow-blend-80mg.html",
+    "visitorId": "30e38d71679e2f13"
+  },
+  {
+    "ts": "2026-10-17T21:54:42.601Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/44-klow-blend-80mg.html",
+    "visitorId": "30e38d71679e2f13"
+  },
+  {
+    "ts": "2026-10-17T22:07:03.643Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b753ed954c39cc05"
+  },
+  {
+    "ts": "2026-10-17T22:11:12.435Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://biopeptides-uk.com/product/snap-8-10mg/",
+    "visitorId": "f47f1354e6ee7e92"
+  },
+  {
+    "ts": "2026-10-17T22:18:03.956Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://ukpeptides.com/catalog/snap-8",
+    "visitorId": "b057bc7f8ee1ebcc"
+  },
+  {
+    "ts": "2026-10-17T22:27:30.957Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://phoenixbiolabs.net/shop/bacteriostatic-sterile-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "28b3e641bfdd07a1"
   }
 ]
