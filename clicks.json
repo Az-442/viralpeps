@@ -3917,5 +3917,115 @@
     "destUrl": "https://chromapeptides.co.uk/product/ghrp-6-5-mg/",
     "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides",
     "visitorId": "638378a7ea9a5c44"
+  },
+  {
+    "ts": "2026-10-17T04:42:54.510Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "993044982eb80d71"
+  },
+  {
+    "ts": "2026-10-17T04:46:33.713Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4ed424a6e8e53454"
+  },
+  {
+    "ts": "2026-10-17T05:04:15.594Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/",
+    "refPage": "https://viralpeps.co.uk/compounds/sermorelin",
+    "visitorId": "bc513e79194d982f"
+  },
+  {
+    "ts": "2026-10-17T05:04:21.744Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://peptideslabuk.com/product/sermorelin-acetate/",
+    "refPage": "https://viralpeps.co.uk/compounds/sermorelin",
+    "visitorId": "624dfcd905812e6c"
+  },
+  {
+    "ts": "2026-10-17T05:06:51.999Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://chromapeptides.co.uk/product/tesamorelin/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides",
+    "visitorId": "be7257e8fed54e5b"
+  },
+  {
+    "ts": "2026-10-17T05:07:38.455Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://chromapeptides.co.uk/product/aod-9604/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides",
+    "visitorId": "7f18b3838963d501"
+  },
+  {
+    "ts": "2026-10-17T05:07:41.251Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://chromapeptides.co.uk/product/ipamorelin/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides",
+    "visitorId": "5bc05f9f5684a455"
+  },
+  {
+    "ts": "2026-10-17T05:08:06.306Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://chromapeptides.co.uk/product/selank/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides",
+    "visitorId": "2eda4651113369ec"
+  },
+  {
+    "ts": "2026-10-17T05:08:06.505Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://chromapeptides.co.uk/product/sermorelin/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides",
+    "visitorId": "a37283d961f28a4a"
+  },
+  {
+    "ts": "2026-10-17T05:09:18.640Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://chromapeptides.co.uk/product/bpc-157/",
+    "refPage": "https://viralpeps.co.uk/vendors/chroma-peptides",
+    "visitorId": "43c9c517c60f6f93"
+  },
+  {
+    "ts": "2026-10-17T05:10:05.331Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9b3c3d12713f020a"
   }
 ]
