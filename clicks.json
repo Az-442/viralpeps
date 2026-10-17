@@ -11565,5 +11565,72 @@
     "destUrl": "https://novapeptidelab.co.uk/product/aod-9604-research-peptide-uk/",
     "refPage": "https://www.google.com/",
     "visitorId": "0f4dd556a48b0e7c"
+  },
+  {
+    "ts": "2026-10-17T09:13:56.454Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "60beed3f57aeda1a"
+  },
+  {
+    "ts": "2026-10-17T09:14:02.913Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "f9d9df8b244e378f"
+  },
+  {
+    "ts": "2026-10-17T09:14:06.356Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "visitorId": "f9d9df8b244e378f"
+  },
+  {
+    "ts": "2026-10-17T09:20:13.512Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://retaresearch.co/products/tb-500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0593b38b12d13fa1"
+  },
+  {
+    "ts": "2026-10-17T09:21:56.461Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://novapeptidelab.co.uk/product/tb-500-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "e2ced5fc8d74697b"
+  },
+  {
+    "ts": "2026-10-17T09:23:18.649Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://retaresearch.co/products/tb-500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "37b0cfa6402ce344"
+  },
+  {
+    "ts": "2026-10-17T09:45:39.062Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://phoenixbiolabs.net/shop/l-carnitine-3000/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d0fae1759a5d10a1"
   }
 ]
