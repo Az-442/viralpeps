@@ -12245,5 +12245,15 @@
     "vendorName": "Peptide Global",
     "destUrl": "https://peptideglobal.co.uk",
     "visitorId": "29a80b2b97b13a6d"
+  },
+  {
+    "ts": "2026-10-17T15:47:18.866Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3692b63458c95dc2"
   }
 ]
