@@ -12072,5 +12072,34 @@
     "destUrl": "https://novapeptidelab.co.uk/product/ghk-cu-peptide-uk/",
     "refPage": "https://www.viralpeps.co.uk/go/nova-peptide-lab/ghk-cu",
     "visitorId": "039925ceb2618d3f"
+  },
+  {
+    "ts": "2026-10-17T13:36:29.442Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4a17c0753e40caec"
+  },
+  {
+    "ts": "2026-10-17T13:44:34.827Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://novavitality.co.uk/product/5-amino-1mq/",
+    "visitorId": "54ebf1cf6a7400af"
+  },
+  {
+    "ts": "2026-10-17T14:01:35.036Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "mgf",
+    "destUrl": "https://peptidesuk.com/mgf/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-uk/mgf",
+    "visitorId": "1d22d41d625064de"
   }
 ]
