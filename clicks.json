@@ -6756,5 +6756,14 @@
     "destUrl": "https://leolab.co.uk/peptides/pt-141/",
     "refPage": "https://viralpeps.co.uk/vendors/leolab",
     "visitorId": "d673c7dc9462e8ff"
+  },
+  {
+    "ts": "2026-10-17T06:12:13.875Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "refPage": "https://viralpeps.co.uk/vendors/be-better-peptides",
+    "visitorId": "1e1dd0ffeac22409"
   }
 ]
