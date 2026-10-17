@@ -12449,5 +12449,15 @@
     "vendorName": "Optimus Labs",
     "destUrl": "https://optimuslabs.co.uk",
     "visitorId": "9de606c56b8cd3db"
+  },
+  {
+    "ts": "2026-10-17T17:56:05.603Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "07c1d15fabaa6aaf"
   }
 ]
