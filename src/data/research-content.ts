@@ -16077,5 +16077,457 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'survodutide-suppliers-uk': {
+  slug: 'survodutide-suppliers-uk',
+  compoundSlug: 'survodutide',
+  pullQuote: 'Five vendors, five listings, one compound. Survodutide is the thinnest supply line in the UK incretin market at the exact moment its phase 3 data made it one of the most interesting molecules in obesity research — and a market that thin cannot discipline its own prices, its own purity claims, or its own product descriptions.',
+  quickInfo: [
+    { label: 'Compound', value: 'Survodutide (BI 456906)' },
+    { label: 'Class', value: 'Dual glucagon receptor / GLP-1 receptor agonist (GCGR/GLP-1R)' },
+    { label: 'Developer', value: 'Boehringer Ingelheim; licensed from Zealand Pharma (peptide backbone)' },
+    { label: 'Structural Basis', value: 'Glucagon backbone with GLP-1 receptor activity engineered in; acylated for albumin binding' },
+    { label: 'UK Supply (Oct 2026)', value: '5 vendors, 5 listings, £39.00 to £160.00' },
+    { label: 'Predominant Presentation', value: '10 mg lyophilised vial (5 of 5 tracked listings)' },
+    { label: 'Normalised Cost', value: '£3.90/mg to £16.00/mg — a 4.1x spread on an identical nominal vial' },
+    { label: 'Regulatory Status', value: 'Investigational everywhere. No MHRA, EMA or FDA authorisation. Not a licensed medicine in any market.' },
+  ],
+  sections: [
+    {
+      title: 'Survodutide Suppliers UK: What This Page Covers',
+      body: 'This is a supplier-selection guide for survodutide in the United Kingdom, written for researchers and buyers who have decided to source the compound and now need to work out which listing is the real one. It is not a mechanism explainer and it is not a trial summary — both of those already exist on this site, and the phase 3 numbers are now well documented enough that repeating them adds nothing.\n\nThe [**live survodutide price comparison**](/compounds/survodutide) table is where current prices and stock status render. This page explains what those prices mean, why the market looks the way it does, and what a certificate of analysis has to say before a listing should be taken seriously.\n\nThat framing matters more here than on almost any other compound in the catalogue, because survodutide supply in the UK is currently five vendors and five listings. Five is not a market. Five is a set of independent decisions that happen to share a compound name, and there is nothing in the structure of that supply to make any of those decisions converge.',
+    },
+    {
+      title: 'Why the UK Survodutide Market Is Five Vendors Deep',
+      body: 'Every other incretin compound on this site has a supply base measured in dozens. Tirzepatide runs to 36 vendors; retatrutide to a similar number; semaglutide and its variants to more than 80. Survodutide sits at 5. That gap is not a pricing anomaly and it is not a marketing failure. It is a consequence of what the molecule is and when the market learned about it.\n\nThree things keep the supply base small.',
+      subsections: [
+        {
+          title: '1. It arrived at the vendor market late',
+          body: 'The compounds that dominate UK research supply — BPC-157, TB-500, GHK-Cu, semaglutide, tirzepatide — all had years of grey-market and research-catalogue presence before the vendors that now stock them existed. Survodutide spent most of its life as a clinical asset inside Boehringer Ingelheim, referenced in the literature by its development code BI 456906, and it only became an item people searched for by name once the phase 3 readouts landed.\n\nVendors respond to search demand. A compound with no established search volume has no reason to be on a shelf.',
+        },
+        {
+          title: '2. It is more expensive to make than a straight GLP-1 analogue',
+          body: 'Survodutide is a substantially modified peptide. It carries the glucagon backbone, additional substitutions to build GLP-1 receptor activity into that backbone, and an acylation that provides albumin binding for the once-weekly profile. Each of those features adds a synthesis and purification step.\n\nA vendor deciding whether to list a compound weighs expected sales against batch cost and shelf risk. A compound that costs materially more per milligram to produce, sells at a price only a small segment of the market will pay, and has a short shelf life once lyophilised is a poor inventory decision at scale. The small supply base is the rational outcome.',
+        },
+        {
+          title: '3. The regulatory position is unambiguous, and it discourages volume sellers',
+          body: 'Survodutide is not licensed anywhere. It is not a medicine in the UK, it is not a food supplement, and the only coherent description of it is a research chemical. Vendors whose business depends on high-volume retail traffic and repeat purchasing tend to avoid compounds with no established use case, because the customer who buys once does not come back.\n\nThe five vendors that do stock it are, broadly, the specialists — businesses whose model is the research catalogue rather than the consumer storefront.',
+        },
+      ],
+    },
+    {
+      title: 'What Five Vendors Actually Costs the Buyer',
+      body: 'A thin market does not merely mean fewer choices. It removes the mechanisms that normally convert competition into quality, and each loss is worth naming.\n\n**There is no price discovery.** With five listings, a headline price is not the output of competition; it is one vendor decision that three others did not correct. The tracked range runs from £39.00 to £160.00 for what every listing describes as a 10 mg vial — the same nominal product at 4.1x difference. On a compound with 60 vendors, a 4x spread usually indicates different presentations or different reliability tiers. On a compound with five, it can simply be five unrelated pricing strategies with nobody to arbitrage the gap.\n\n**There is no substitution pressure.** If your vendor of choice is out of stock, you have four alternatives, and they are not interchangeable on specification. On tirzepatide you can walk away from a vendor whose certificate looks thin and find twelve others with better documentation. Here, walking away may mean not sourcing the compound at all.\n\n**There is no failure signal.** In a deep market, a vendor that ships the wrong peptide is reported, discussed, and loses custom. In a market of five, the feedback loop barely exists. Reviews on a site with 60 vendors are noise; reviews on a site with five vendors are the entire evidence base.\n\n**Product descriptions are copied rather than written.** This is the most visible symptom of thin supply and the easiest to check. Several listings for survodutide reproduce phrases that originate in clinical trial summaries or press releases. A research vendor writing its own copy describes a lyophilised peptide, its storage conditions and its specification. A vendor copying a pharmaceutical description writes about indications and dosing schedules — language that has no business on a research listing.',
+    },
+    {
+      title: 'The 4.1x Price Spread, Read Properly',
+      body: 'The headline range is £39.00 to £160.00, and every listing in the tracked set is a 10 mg vial. Because all five present the same quantity, the headline spread and the normalised spread are identical — £3.90/mg at the floor against £16.00/mg at the ceiling. There is no vial-size confound to explain the difference away, which is unusual and makes this a clean case.',
+      table: {
+        header: ['Position', 'Price (10 mg)', 'Cost per mg', 'What the price is doing'],
+        rows: [
+          ['Floor', '£39.00', '£3.90/mg', 'Consistent with a mid-cost acylated peptide sold at a competitive margin'],
+          ['Mid-low', '£40.00', '£4.00/mg', 'Effectively matching the floor — a competitive response, not an error'],
+          ['Mid', '£49.90', '£4.99/mg', 'A normal 25-30% premium over floor, typical of a vendor not competing on price'],
+          ['Mid-high', '£65.00', '£6.50/mg', 'The listing is marked out of stock, which usually means the price has not been revisited'],
+          ['Ceiling', '£160.00', '£16.00/mg', 'More than 4x the floor for an identical stated quantity with no stated difference'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'What the ceiling price might legitimately represent',
+          body: 'There are honest reasons for a premium. A vendor may hold a genuinely batch-matched certificate from a named third-party laboratory, publish the full analytical panel including endotoxin and water content, hold stock in the UK with same-day dispatch, and price the administrative overhead in. That is a real cost and a small premium is fair.\n\nNone of that explains 4x. A certificate of analysis costs a few hundred pounds per batch and is amortised across a batch, not a vial. What a ceiling price usually represents in a thin market is a vendor who has concluded that a buyer with four alternatives and no price anchor will pay whatever the first search result says.',
+        },
+        {
+          title: 'Why the floor is not automatically the right choice',
+          body: 'The cheap listing is not automatically suspect either — a genuine 10 mg vial of a peptide that costs materially less to make than a full-length antibody can honestly sell at £39. The floor price is plausible. The question is not whether the price is too low to be real, it is whether the vendor can produce a batch-matched certificate from an independent laboratory with a stated method and a mass figure consistent with the molecule.\n\nOn a compound with five suppliers, the practical approach is to rank listings by documentation and then look at price within the documented group, rather than the reverse.',
+        },
+      ],
+    },
+    {
+      title: 'The Five Specification Checks for a Survodutide Listing',
+      body: 'These are the checks that separate a real listing from a relabelled one. They apply to any research peptide, but the case for each is sharper on survodutide because the identity is harder to confirm than on a short linear peptide.',
+      subsections: [
+        {
+          title: '1. Identity by mass, against the right molecule',
+          body: 'Survodutide is a large, acylated, heavily substituted peptide. A certificate must state the measured mass and the method used to obtain it, and that mass must correspond to the full acylated molecule — not to a des-acyl intermediate or an unprotected precursor that shares much of the sequence.\n\nThis is where thin supply hurts most. A buyer cannot compare a certificate against ten others from the same market; there may be no second certificate in existence to compare against. The mass must therefore be checked against the published structure, not against a peer listing.',
+        },
+        {
+          title: '2. A batch number that appears on both the vial and the certificate',
+          body: 'A certificate that is not batch-matched is a marketing document. It proves that at some point a sample of something passed a test. It says nothing about the vial in your hand.\n\nThe check is mechanical: the batch or lot number printed on the certificate must be the same string printed on the vial label. If the certificate covers a batch you cannot identify, it is not your certificate.',
+        },
+        {
+          title: '3. Purity with a stated method and a stated wavelength',
+          body: 'A purity figure without a method is not a specification. Reverse-phase HPLC at 214 nm and HPLC at 280 nm give different numbers for the same sample, and neither detects everything — residual solvents, water content, trifluoroacetate counterion and bacterial endotoxin are all invisible to it.\n\nFor a compound this large and this acylated, the purity number matters less than whether the vendor tells you how it was obtained. A listing that says ">99%" and stops has told you nothing you can act on.',
+        },
+        {
+          title: '4. Endotoxin, stated explicitly',
+          body: 'Peptides are made by chemical synthesis and the endotoxin risk is lower than for a recombinant protein, but it is not zero, and it is not addressed by a purity number. A specification serious about a large acylated peptide states an endotoxin result and the assay used to obtain it.\n\nThis is a reasonable proxy for vendor quality generally: a vendor that thought about endotoxin thought about the rest of the panel too.',
+        },
+        {
+          title: '5. Research-use-only labelling with no dosing language',
+          body: 'Survodutide has no authorised human dose in any jurisdiction. A listing that describes a dosing schedule, references a phase 3 protocol as if it were a prescribing guide, or uses the word "treatment" is describing a medicine it is not licensed to supply — and has given you, in the same document, grounds to distrust everything else it says.',
+        },
+      ],
+    },
+    {
+      title: 'What Survodutide Is, and Why the Evidence Base Should Shape Your Questions',
+      body: 'Survodutide is a dual agonist at the glucagon and GLP-1 receptors. The GLP-1 arm does the familiar work — slowed gastric emptying, reduced appetite signalling. The glucagon arm does something a GLP-1 alone cannot: it raises energy expenditure and drives hepatic fat oxidation directly, which is why the compound is studied in both obesity and metabolic dysfunction-associated steatotic liver disease rather than obesity alone.\n\nThe distinction is not cosmetic. It has produced a body of evidence that now includes phase 3 obesity data in adults with and without type 2 diabetes, a dedicated liver-disease trial, and mechanistic work showing that the weight-loss advantage is partly dependent on hepatic glucagon receptor signalling rather than being a generic incretin effect. It also, importantly, produced a trial in inclusion-body myositis that was formally contested in the literature — a reminder that a compound with a strong mechanism story can still generate results that do not survive scrutiny.\n\nWhat none of this produces is a human dose you can responsibly extrapolate. The trial doses are pharmaceutical doses of a pharmaceutical formulation, and the vial on a research catalogue is lyophilised research material with no pharmacokinetic equivalence established to the commercial formulation. Any dosing language applied to a research vial is an assumption.\n\n**Practical consequence for a supplier question:** because the evidence is strong and the supply is thin, vendors can lean on the strength of the science to imply the quality of their vial. Those are unrelated. The phase 3 data are properties of the molecule; the certificate is a property of the batch.',
+    },
+    {
+      title: 'Where These Listings Usually Fail',
+      body: 'Across the small tracked set, the recurring failure modes are consistent and all of them are visible without a laboratory:\n\n- **A 10 mg vial with no stated storage or handling guidance.** An acylated peptide of this size is not a set-and-forget powder. A listing that omits reconstitution and storage guidance has not been written by anyone who handles the product.\n- **A clinical description repurposed as product copy.** Phrases lifted from trial summaries are the signature of a vendor that has never had the peptide analysed and is describing the literature instead.\n- **A price that has not moved while the listing is out of stock.** A stale price on an unavailable item is a signal that nobody is maintaining the listing.\n- **No named laboratory.** "Third-party tested" without a laboratory name, an assay and a batch number is a claim, not a verification.\n- **A purity figure with no method.** Common across the market, and on this compound it is the single most load-bearing number in the specification.',
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Survodutide is one of the genuinely interesting compounds in the incretin field and one of the worst-supplied in the UK. Five vendors and five listings is not enough for a market to police itself, and a 4.1x spread for the same nominal 10 mg vial is the clearest evidence of that.\n\nThe practical position: treat documentation as the primary selection criterion, treat price as a secondary one, and treat any listing that describes a dosing schedule or reproduces pharmaceutical copy as disqualifying rather than merely imperfect. Ask for a batch-matched certificate with a stated mass, a stated method and a named laboratory — and accept that on a market this thin, the honest answer may be that no listing currently meets that bar.\n\nCompare the [**live survodutide prices**](/compounds/survodutide) against the specification checks above, and read the [**survodutide deep dive**](/research/survodutide-deep-dive) for the trial record those checks should not be confused with.\n\n*Research use only. Survodutide is not authorised as a medicine by the MHRA, EMA or FDA and must not be administered to humans.*',
+    },
+  ],
+  faq: [
+    {
+      question: 'How many UK vendors sell survodutide?',
+      answer: 'Five tracked vendors across five listings as of October 2026, with prices from £39.00 to £160.00 for a stated 10 mg vial. That is the thinnest supply base of any incretin compound in the UK research catalogue — tirzepatide runs to roughly seven times the vendor count.'
+    },
+    {
+      question: 'Why is survodutide so much more expensive per milligram than tirzepatide?',
+      answer: 'Two reasons. Synthesis cost is higher because the molecule is heavily modified and acylated, and market pressure is lower because only five vendors compete. The second factor is the larger one: on a compound with a deep supply base, a 4x spread gets arbitraged away within weeks. On five listings there is nothing to arbitrage.'
+    },
+    {
+      question: 'Is survodutide legal to buy in the UK?',
+      answer: 'It can be sold as a research chemical, but it is not a licensed medicine and it is not a food supplement. Selling it for human consumption, or making medicinal claims for it, falls outside what a research supplier may lawfully do. A listing that describes dosing or treatment is describing a medicine it is not authorised to supply.'
+    },
+    {
+      question: 'What should a survodutide certificate of analysis show?',
+      answer: 'A batch number matching the vial label, identity by mass spectrometry with the measured value stated, purity with the analytical method and wavelength named, an endotoxin result, and the name of the laboratory that produced it. A purity percentage without a method is not a specification.'
+    },
+    {
+      question: 'Should I choose the cheapest survodutide listing?',
+      answer: 'Not on price alone, but not by avoiding the floor either. At £3.90/mg the floor price is plausible for the molecule. The useful order is to filter by documentation first — batch-matched certificate, named lab, stated method — and then compare price within the documented group. On a five-vendor market, the documented group may be empty or contain one listing.'
+    },
+    {
+      question: 'Is a survodutide research vial the same as the trial formulation?',
+      answer: 'No. Trial participants received a pharmaceutical formulation administered on a defined schedule. A research catalogue supplies lyophilised peptide with no established pharmacokinetic equivalence to that formulation, and no authorised human dose exists to extrapolate from.'
+    },
+  ],
+  references: [
+    'le Roux CW, Steenackers N, Lindsay B, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024;12(3):162-173. PMID 38330987',
+    'le Roux CW, et al. Survodutide Once Weekly for the Treatment of Adults with Obesity. N Engl J Med. 2026;395(8):776-787. PMID 42253238',
+    'Wharton S, et al. Survodutide Once Weekly in Adults with Obesity and Type 2 Diabetes. N Engl J Med. 2026. PMID 42820639',
+    'Kaplan LM, et al. Survodutide in adults with obesity and metabolic dysfunction-associated steatotic liver disease: SYNCHRONIZE-MASLD, a randomized, double-blind, placebo-controlled phase 3 trial. Nat Med. 2026;32(8):2948-2958. PMID 42252333',
+    'Sanyal AJ, et al. A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis. N Engl J Med. 2024;391(4):299-310. PMID 38847460',
+    'Noureddin M, et al. Weight reduction-dependent/-independent effects of survodutide on liver endpoints: mediation analysis of a phase 2 trial in MASH. Hepatology. 2026. PMID 42545725',
+    'Long F, et al. Hepatic GCGR is required for the superior weight loss and metabolic effects of a structurally related analogue of the dual GCGR/GLP-1R agonist survodutide in mice. Diabetes Obes Metab. 2026;28(3):2437-2442. PMID 41388343',
+    'Zimmermann T, et al. Survodutide acts through circumventricular organs in the brain and activates neuronal regions associated with appetite regulation. Mol Metab. 2026;105:102326. PMID 41638399',
+    'Ekinci EI, et al. Dual Glucagon and GLP-1 Receptor Agonist Survodutide Improves Biomarkers of Beta-Cell Function and Insulin Sensitivity in People With Type 2 Diabetes or Living With Overweight/Obesity. Diabetes Obes Metab. 2026;28(9):8242-8253. PMID 42331726',
+    'Wharton S, et al. Survodutide for treatment of obesity: rationale and design of two randomized phase 3 clinical trials (SYNCHRONIZE-1 and -2). Obesity (Silver Spring). 2025;33(1):67-77. PMID 39495965',
+    'Amjad MM, et al. Efficacy and Safety of Dual GLP-1/Glucagon Receptor Agonism in Overweight and Obesity: A Class-Specific Systematic Review and Meta-Analysis. Diabetes Obes Metab. 2026. PMID 42811393',
+    'Yathindra MR, et al. A review of survodutide: a new dual acting agonist. Minerva Endocrinol (Torino). 2026;51(3):306-321. PMID 41855048',
+    'ViralPeps catalogue data — 5 survodutide listings across 5 vendors, October 2026 snapshot.',
+  ],
+},
+
+'buy-epitalon-uk': {
+  slug: 'buy-epitalon-uk',
+  compoundSlug: 'epitalon',
+  pullQuote: 'Epitalon is the cheapest compound in the UK longevity catalogue and the hardest one to buy on evidence rather than on story. Fifty-seven vendors, a £10.99 floor, an 18x ceiling — and a 2026 narrative review that finally puts the telomerase claim and the marketing claim in the same document, at the same distance.',
+  quickInfo: [
+    { label: 'Compound', value: 'Epitalon (also sold as Epithalon, AEDG)' },
+    { label: 'Sequence', value: 'Ala-Glu-Asp-Gly — a four-residue tetrapeptide' },
+    { label: 'CAS Number', value: '130268-60-9' },
+    { label: 'Molecular Weight', value: '390.4 g/mol' },
+    { label: 'UK Supply (Oct 2026)', value: '57 vendors, 69 listings, £10.99 to £199.99' },
+    { label: 'Predominant Presentation', value: '10 mg vial (39 of 69 listings); 50 mg next most common (6)' },
+    { label: 'Normalised Cost', value: '£0.80/mg to £4.50/mg; median £1.80/mg' },
+    { label: 'Regulatory Status', value: 'Unlicensed everywhere. Research chemical; no MHRA authorisation, no GRAS status.' },
+  ],
+  sections: [
+    {
+      title: 'Buy Epitalon UK: What This Page Covers',
+      body: 'This is a purchasing guide, not a science article. It assumes you have read enough about epitalon to have decided to source it and now need to work out how to buy it without paying for a story.\n\nThe biology, the trial record and the honest assessment of the evidence all exist elsewhere on this site — see the [**epitalon deep dive**](/research/epitalon-deep-dive) for the literature and the [**epitalon suppliers guide**](/research/epitalon-suppliers-uk) for the market structure. What this page adds is the buying mechanics: which quantity to actually buy, why the headline price is a poor guide on this particular molecule, which of the five recurring listing traps catch people, and what to do after the vial arrives.\n\nLive prices and stock render on the [**epitalon price comparison**](/compounds/epitalon). Everything below explains what you will see there.',
+    },
+    {
+      title: 'Read the Price Per Milligram, Not the Price',
+      body: 'Epitalon is a four-amino-acid tetrapeptide. It is cheap to synthesise — genuinely cheap, not cheap-looking — which is why it has a £10.99 floor and why that floor is not suspicious. The problem is that this low cost has made the market extremely tolerant of vial-size games, and headline price comparisons on this compound are almost meaningless without normalisation.',
+      table: {
+        header: ['Vial size', 'Listings', 'Range', 'Cost per mg at the floor'],
+        rows: [
+          ['10 mg', '40', '£10.99 – £45.00', '£1.10/mg'],
+          ['50 mg', '6', '£39.99 – £75.00', '£0.80/mg'],
+          ['25 mg', '1', '£88.88', '£3.56/mg'],
+          ['20 mg', '2', '£30.00 – £65.00', '£1.50/mg'],
+          ['5 mg', '2', '£14.99 – £19.75', '£3.00/mg'],
+          ['10 × 10 mg pack', '1', '£42.00', '£0.42/mg'],
+          ['Not stated', '17', '£11.95 – £199.99', '—'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'The large-vial inversion',
+          body: 'The 50 mg vial is not automatically the better buy. A 50 mg presentation of a peptide that is typically researched in small repeated quantities is a large amount of material to keep stable: lyophilised peptide has a long shelf life in the freezer, but reconstituted material does not, and 50 mg reconstituted at a standard concentration is a substantial volume.\n\nThere is also a genuine market anomaly here worth knowing. The cheapest 50 mg listing tracks at £39.99 — against a 10 mg floor of £10.99. That is £0.80/mg against £1.10/mg, which is a real per-milligram saving, but the absolute outlay has tripled for a quantity almost nobody will use within a working window.\n\nOn this compound, the size that matches how the research will actually be conducted is worth more than the per-milligram saving. A 10 mg vial at £1.10/mg that gets used properly is better value than a 50 mg vial at £0.80/mg that is half-used and stored too long.',
+        },
+        {
+          title: 'The bulk pack is the genuine value outlier',
+          body: 'The single tracked 10 × 10 mg pack prices at £42.00 — roughly £0.42/mg, less than half the cost of the cheapest single 10 mg vial. That is a plausible bulk discount rather than a red flag, because it is the same ten vials sold together at a lower per-unit handling cost.\n\nBut it also means committing £42 to a single vendor on a compound where documentation quality varies enormously. On a bulk purchase the certificate question doubles in importance: a poor certificate on one 10 mg vial is an annoyance, on ten it is the entire order.',
+        },
+      ],
+    },
+    {
+      title: 'Why the Range Runs to 18x',
+      body: 'The tracked range is £10.99 to £199.99 — an 18.2x spread. That sounds like a market without discipline, and on this compound the impression is largely correct, but the spread is not uniform across the catalogue. It has two distinct components.\n\n**Within a stated vial size, the spread is wide but explicable.** The 10 mg presentation runs £10.99 to £45.00 — a 4.1x spread on an identical stated quantity. That is the real pricing signal on this compound, and it is much narrower than the headline number suggests.\n\n**The 18x figure is inflated by listings with no stated quantity.** Seventeen tracked listings do not state a vial size at all. Their prices run from £11.95 to £199.99, and the ceiling listing is one of them. A price with no quantity is not a price: it cannot be compared, it cannot be normalised, and its presence distorts the spread that other buyers use to judge what is reasonable.\n\n**The upper band partly reflects a genuine documentation premium.** Kensington Labs UK at £74.95 for 50 mg is £1.50/mg — above the 50 mg floor of £0.80/mg, but comfortably inside the market band on a per-milligram basis. That is what a premium for documented supply looks like when it is honest: a multiple on cost, not on narrative.\n\n**The real anomaly is precision, not magnitude.** A 5 mg vial at £19.75 works out at £3.95/mg — more than double the median — for the least economical presentation in the catalogue. Small vials on a cheap compound are almost always bad value, and this market confirms it.',
+      subsections: [
+        {
+          title: 'What the "Epithalon" spelling tells you',
+          body: 'A meaningful share of epitalon listings use the spelling "Epithalon", which is the transliteration from the Russian «Эпиталон» literature and the form used in several of the founding papers. Both spellings refer to the same molecule and the same sequence, and several vendors use one on the storefront and the other in the URL.\n\nIt matters for two practical reasons. First, when searching for a listing or checking a certificate, both spellings must be searched — a vendor may use one on the site and the other in the analytical document. Second, a vendor that uses "Epithalon" almost always has Russian-literature-derived product copy, which is a useful signal about whether they have read the primary papers or a summary of them.\n\nNeither spelling is correct or incorrect. But if a certificate names the sequence as something other than Ala-Glu-Asp-Gly, the spelling is irrelevant and the order should stop.',
+        },
+        {
+          title: 'The 50 mg purity question',
+          body: 'In a peptide this short, synthesis is not the constraint — purification is. Crude AEDG is easy to make and harder to bring to a high purity, because the tetrapeptide and its common truncation and deletion impurities are close in size and charge.\n\nThis is why the large presentations deserve more scrutiny than the 10 mg. A vendor offering 50 mg at £39.99 has to be producing at scale with a purification step that holds, and the per-milligram price is low enough that a shortcut would not show up in the headline number. Ask for the chromatogram, not just the purity figure.',
+        },
+      ],
+    },
+    {
+      title: 'The Five Buying Traps',
+      body: 'These are the failure modes that recur across the tracked listings. None require a laboratory to detect.',
+      subsections: [
+        {
+          title: 'Trap 1 — The cosmetic serum dressed as a research peptide',
+          body: 'Epitalon is a plausible cosmetic ingredient and appears in anti-ageing skincare copy. A serum, cream or nasal spray labelled with the compound is not a research peptide and the specification is not commensurable with a lyophilised vial. If the page sells a cosmetic, the certificate argument does not apply and the purity number is not comparable. Buy the lyophilised powder or buy nothing.'
+        },
+        {
+          title: 'Trap 2 — The certificate that is not batch-matched',
+          body: 'A generic certificate — same document on every product page, no lot number, or a lot number that does not match the vial — proves nothing about your order. On a compound this cheap, vendors often buy in bulk from a single synthesis partner and the certificate is the only document connecting the vial to an analysis. If it does not name the batch on the label, it is marketing.'
+        },
+        {
+          title: 'Trap 3 — Purity with no stated method',
+          body: 'A purity figure is only meaningful with the analytical method and wavelength attached. On a tetrapeptide with closely related impurities this matters more, not less: 99% by one method and 95% by another can describe the same sample. Ask which method, at which wavelength, and whether the chromatogram is available.'
+        },
+        {
+          title: 'Trap 4 — Near-duplicate vendor names',
+          body: 'The UK research market contains vendors whose names differ by a hyphen, a ".co.uk" versus ".com", or a single word. "Research Peptides" and "Research Peptides UK" are two separate businesses with separate domains and separate catalogues, and both appear in the epitalon listings. Before ordering, confirm the domain, the company behind it, and that the certificate and the contact address belong to the same operation.'
+        },
+        {
+          title: 'Trap 5 — The unstated quantity',
+          body: 'Any listing priced without a stated quantity should be excluded from your comparison. It cannot be evaluated on price, it cannot be compared on value, and the presence of one in a market distorts the spread that other buyers use to judge what is reasonable.'
+        },
+      ],
+    },
+    {
+      title: 'What the Certificate Should Say, Line by Line',
+      body: 'For a compound this straightforward, a serious certificate should be short and specific. This is the checklist to send a vendor before ordering.',
+      table: {
+        header: ['Field', 'What it should say', 'Why it matters here'],
+        rows: [
+          ['Compound name', 'Epitalon / Epithalon, stated once, consistently', 'Both spellings are used; inconsistency suggests the document was repurposed'],
+          ['Sequence', 'Ala-Glu-Asp-Gly (AEDG)', 'The single most important identity check on a short peptide'],
+          ['Batch / lot number', 'A string matching the vial label', 'Without this the certificate does not cover your order'],
+          ['Identity method', 'Mass spectrometry, with measured mass stated', 'Expected around 390.4 g/mol; a des-Gly impurity is close in mass'],
+          ['Purity', 'Percentage plus method plus wavelength', 'A number alone is not a specification'],
+          ['Chromatogram', 'Attached or available on request', 'The purity number is a summary of a trace you should be able to see'],
+          ['Endotoxin', 'Stated result or explicit statement of method', 'Not covered by purity; a quality proxy'],
+          ['Laboratory', 'Named, ideally independent of the vendor', 'An unnamed lab is not third-party testing'],
+        ],
+      },
+      subsections: [
+        {
+          title: 'What this evidence base does and does not support',
+          body: 'A 2026 narrative review by Jain and colleagues consolidates the mechanistic, preclinical and clinical evidence on epitalon and epithalamin in a single document, and it is worth reading before ordering anything — not because it changes the purchasing decision but because it sets the correct expectation of what the compound is for.\n\nThe short version: the telomerase induction finding is real and reproducible in cultured human cells, the circadian and pineal effects have a plausible mechanistic basis, the rodent lifespan work is a small number of studies, and the human data is old, largely non-randomised, and not replicated in modern trials. That is a legitimate research compound with a thin clinical record — which is the correct description of almost every peptide in this catalogue.\n\nThe purchasing implication is narrow but useful: because no human dose exists, no listing can quote one, and any listing that does has told you it is inventing its own specification.'
+        },
+        {
+          title: 'Reconstitution and storage on arrival',
+          body: 'Epitalon arrives lyophilised. Store the sealed vial refrigerated or frozen per the vendor instruction, and avoid repeated freeze-thaw cycles. Once reconstituted with bacteriostatic water, standard practice is refrigeration and use within a defined window rather than indefinite storage.\n\nAEDG has no disulphide bonds and is a relatively robust sequence, but four residues give you very little margin: there is no structural redundancy to absorb damage, and a tetrapeptide that degrades has few degradation products that are analytically distinguishable from the parent on a simple assay. That is an argument for buying smaller quantities more often rather than larger quantities once.\n\nIf you are unsure of the reconstitution arithmetic for a given vial, the [**peptide reconstitution guide**](/research/peptide-reconstitution-guide) covers the calculation and the common errors.'
+        },
+      ],
+    },
+    {
+      title: 'The Buying Decision, Summarised',
+      body: 'The epitalon market is large, cheap, and not especially disciplined. The decision that matters is not which of 57 vendors to use — it is which **specification** to accept, and then which vendor can evidence it.\n\nWork in this order:\n\n1. **Exclude anything that is not a lyophilised research vial** — cosmetics, serums, sprays.\n2. **Exclude any listing with no stated quantity.**\n3. **Normalise to cost per milligram** — the floor is around £1.10/mg for a 10 mg vial and the median is £1.80/mg; anything much above £3.00/mg on a 10 mg presentation needs a documented reason.\n4. **Rank the survivors by documentation** — batch-matched certificate, sequence stated, method and wavelength named, named laboratory, chromatogram available.\n5. **Buy the quantity that matches the research window**, not the quantity with the lowest per-milligram price.\n\nOn a compound where the molecule costs very little to make, almost all of the price above the floor is being charged for something other than the molecule. That something should be documentation. When it is, the premium is fair. When it is narrative, it is not.\n\nCompare current stock and pricing on the [**UK epitalon price comparison**](/compounds/epitalon), read the [**epitalon deep dive**](/research/epitalon-deep-dive) for the evidence the certificate should not be confused with, and see the [**survodutide suppliers guide**](/research/survodutide-suppliers-uk) for how the same verification logic applies to a much thinner, far more expensive market.\n\n*Research use only. Epitalon is not a licensed medicine and must not be administered to humans.*',
+    },
+  ],
+  faq: [
+    {
+      question: 'What is a fair price for epitalon in the UK?',
+      answer: 'On a 10 mg vial, £11 to £45, which works out at £1.10 to £4.50 per milligram, with a tracked median of about £1.80/mg. A 50 mg vial at £40 to £75 (£0.80 to £1.50/mg) is also reasonable because the per-milligram cost drops with the larger presentation. Anything materially above £3/mg on a 10 mg vial needs a documented specification reason.'
+    },
+    {
+      question: 'Is Epitalon the same as Epithalon?',
+      answer: 'Yes. They are two transliterations of the same compound — the same four-residue sequence, Ala-Glu-Asp-Gly, and the same CAS number 130268-60-9. UK vendors use both spellings. Search both when checking listings and certificates.'
+    },
+    {
+      question: 'Why is epitalon so cheap compared with other peptides?',
+      answer: 'It is a four-amino-acid tetrapeptide. Short linear sequences with no disulphide bonds or complex modifications are inexpensive to synthesise at scale. A £10.99 floor is consistent with the manufacturing cost, which is why the low price on this compound is not itself a red flag — unlike on something like follistatin-344, where the same price would be.'
+    },
+    {
+      question: 'What is the minimum a certificate of analysis should show for epitalon?',
+      answer: 'The sequence (Ala-Glu-Asp-Gly), a batch number matching the vial label, identity confirmed by mass spectrometry with the measured mass stated, purity expressed as a percentage with the method and wavelength named, and the name of the laboratory that produced the document. A chromatogram should be available on request.'
+    },
+    {
+      question: 'Should I buy a 50 mg vial to save money?',
+      answer: 'Only if the research window justifies it. The per-milligram saving is real, but reconstituted peptide has a limited working life and a 50 mg vial produces a substantial volume at standard concentrations. Half-used material that degrades is not cheaper than a correctly sized vial.'
+    },
+    {
+      question: 'Is epitalon a licensed medicine in the UK?',
+      answer: 'No. It has no MHRA marketing authorisation and is not a licensed medicine in any major jurisdiction. It is supplied as a research chemical for laboratory work only. Any listing that quotes a human dosing schedule has invented one — no authorised human dose exists.'
+    },
+  ],
+  references: [
+    'Jain A, et al. Epitalon and Epithalamin: A Narrative Review of Mechanistic, Preclinical, and Clinical Evidence. Int J Mol Sci. 2026;27(19). PMID 42884164',
+    'Khavinson VKh, Bondarev IE, Butyugov AA. Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells. Bull Exp Biol Med. 2003;135(6):590-592. PMID 12937682',
+    'Khavinson VKh, Bondarev IE, Butyugov AA, Smirnova TD. Peptide promotes overcoming of the division limit in human somatic cell. Bull Exp Biol Med. 2004;137(5):503-506. PMID 15455129',
+    'Al-Dulaimi S, et al. Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity. Biogerontology. 2025;26(5):178. PMID 40908429',
+    'Al-Dulaimi S, et al. Correction: Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity. Biogerontology. 2025;27(1):1. PMID 41240216',
+    'Araj SK, et al. Overview of Epitalon-Highly Bioactive Pineal Tetrapeptide with Promising Properties. Int J Mol Sci. 2025;26(6). PMID 40141333',
+    'Anisimov VN, Khavinson VKh, Provinciali M, et al. Effect of Epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female Swiss-derived SHR mice. Biogerontology. 2003;4(4):193-202. PMID 14501183',
+    'Korkushko OV, Khavinson VKh, Shatilo VB, et al. Geroprotective effect of epithalamine (pineal gland peptide preparation) in elderly subjects with accelerated aging. Bull Exp Biol Med. 2006;142(3):356-359. PMID 17426848',
+    'Korkushko OV, Khavinson VKh, Shatilo VB, et al. Normalizing effect of the pineal gland peptides on the daily melatonin rhythm in old monkeys and elderly people. Adv Gerontol. 2007;20(1):74-85. PMID 17969590',
+    'Khavinson V, Goncharova ND, Lapin BA. Synthetic tetrapeptide epitalon restores disturbed neuroendocrine regulation in senescent monkeys. Neuro Endocrinol Lett. 2001;22(4):251-254. PMID 11524632',
+    'Yue X, et al. Epitalon protects against post-ovulatory aging-related damage of mouse oocytes in vitro. Aging (Albany NY). 2022;14(7):3191-3202. PMID 35413689',
+    'Khavinson V, Linkova N, Dyatlova A, et al. AEDG Peptide (Epitalon) Stimulates Gene Expression and Protein Synthesis during Neurogenesis: Possible Epigenetic Mechanism. Molecules. 2020;25(3). PMID 32019204',
+    'Khavinson VK. Identification of Peptide AEDG in the Polypeptide Complex of the Pineal Gland. Bull Exp Biol Med. 2017;164(1):41-43. PMID 29124531',
+    'Vanhee C, et al. Identification of the small research tetra peptide Epitalon, assumed to be a potential treatment for cancer, old age and Retinitis Pigmentosa in two illegal pharmaceutical preparations. Drug Test Anal. 2015;7(3):259-264. PMID 25535022',
+    'ViralPeps catalogue data — 69 epitalon listings across 57 vendors, October 2026 snapshot.',
+  ],
+},
+
+'follistatin-344-for-muscle-growth': {
+  slug: 'follistatin-344-for-muscle-growth',
+  compoundSlug: 'follistatin-344',
+  pullQuote: 'Follistatin does not build muscle. It removes the brake that was stopping muscle from growing — and in the one human trial that tested the brake, a formal letter to the journal argued that the improvement attributed to it could not be supported by the data. That letter is the most important document in the follistatin literature and the one no vendor mentions.',
+  quickInfo: [
+    { label: 'Compound', value: 'Follistatin 344 (FST-344, FS-344)' },
+    { label: 'Class', value: 'Secreted activin-binding glycoprotein; myostatin (GDF-8) antagonist' },
+    { label: 'Length', value: '344 amino acids (follistatin isoform splicing to 288, 300 and 315 also exist)' },
+    { label: 'Primary Targets', value: 'Myostatin, activin A, activin B, and other TGF-β superfamily ligands' },
+    { label: 'Human Data', value: 'Phase 1/2a AAV gene-therapy trials only — no trial of injected follistatin protein' },
+    { label: 'Contested Finding', value: 'The 2017 IBM trial result was formally challenged in Mol Ther (PMID 28927986)' },
+    { label: 'UK Supply (Oct 2026)', value: '10 vendors, 11 listings, £30.00 to £229.00 for a stated 1 mg vial' },
+    { label: 'Regulatory Status', value: 'Unlicensed. A recombinant protein, not a synthetic peptide, supplied as a research reagent.' },
+  ],
+  sections: [
+    {
+      title: 'Follistatin for Muscle Growth: The Claim and the Problem',
+      body: 'The case for follistatin in muscle research is one of the cleanest mechanistic arguments in the entire catalogue. Myostatin is a TGF-β family ligand that restrains skeletal muscle mass. Follistatin binds myostatin directly and neutralises it. Remove the restraint and muscle grows. Cattle with naturally occurring myostatin loss-of-function mutations are visibly hypermuscular. Mice engineered to overexpress follistatin have substantially more muscle than their littermates.\n\nThat chain of reasoning is sound, and it is why follistatin is studied. The problem is the step between the reasoning and the product, and it has three links that are routinely skipped:\n\n**The mechanism has been demonstrated by genetic manipulation, not by injected protein.** Almost the entire hypertrophy literature uses transgenic overexpression or AAV-mediated gene delivery. That is a fundamentally different pharmacological proposition from injecting a 344-amino-acid glycosylated protein into circulation.\n\n**The one human trial was a gene therapy, and it was contested.** The phase 1/2a work in Becker muscular dystrophy and inclusion body myositis delivered a follistatin gene via AAV1 into muscle, not follistatin protein systemically. The inclusion body myositis result drew a formal published challenge arguing the functional improvement could not be attributed to the treatment.\n\n**What UK vendors sell is a 1 mg recombinant protein vial.** It is not a gene therapy. It has not been tested as an injected protein in humans. The mechanistic argument that supports follistatin research does not transfer to that vial automatically.\n\nThis page is about what the evidence supports, what it does not, and why the gap matters for anyone researching the compound.',
+    },
+    {
+      title: 'The Myostatin Axis, Stated Precisely',
+      body: 'The mechanism is often described as "follistatin blocks myostatin", which is true but incomplete enough to be misleading.',
+      subsections: [
+        {
+          title: 'How myostatin restrains growth',
+          body: 'Myostatin (growth and differentiation factor 8, GDF-8) is secreted predominantly by skeletal muscle and acts as a negative regulator of muscle mass. It signals through a receptor complex of activin type II receptors (ActRIIA/ActRIIB) and the type I receptor ALK4/5, which activates the Smad2/3 intracellular cascade. That cascade suppresses protein synthesis and satellite-cell activation.\n\nThe myostatin knockout mouse, first described in 1997, shows a two-to-three-fold increase in muscle mass, with both fibre hyperplasia and hypertrophy. Natural loss-of-function mutations produce the same phenotype in cattle, sheep, dogs and — in a single reported human case — a child with pronounced muscle hypertrophy. Myostatin is genuinely a brake, and the genetics are unambiguous.',
+        },
+        {
+          title: 'How follistatin releases it',
+          body: 'Follistatin is a secreted glycoprotein that binds activin A with high affinity and myostatin with lower but still meaningful affinity. Binding sequesters the ligand and prevents it from engaging the ActRII receptor complex, so the Smad2/3 brake is released.\n\nThe critical complication is that follistatin is not selective. It binds activins, and activin A is itself a potent negative regulator of muscle mass — in some models a stronger one than myostatin. It also interacts with other TGF-β superfamily members. The hypertrophic effect of follistatin overexpression is therefore not purely a myostatin effect, and studies using myostatin-null backgrounds show follistatin still produces additional muscle growth. That is evidence the mechanism is broader than the simplified story suggests.',
+        },
+        {
+          title: 'Why this matters for a vial of protein',
+          body: 'Follistatin has a short circulating half-life, and that is not a side note — it is the reason the entire commercial development effort around the molecule is about pharmacokinetics rather than potency. Published work on engineered follistatin variants exists specifically to improve half-life and exposure, which tells you the native protein does not hold in circulation long enough on its own.\n\nGenetic overexpression produces continuous local production inside the muscle over months, at high concentration, at the site. A single injection of recombinant protein produces a transient systemic exposure that is not equivalent to the intervention that generated the hypertrophy data.\n\nThis is the central pharmacological gap on this compound, and it is not a technicality. It is the difference between the experiment that worked and the product that is sold.',
+        },
+        {
+          title: 'The evidence that the effect is local, not systemic',
+          body: 'This is the most informative result in the whole follistatin field for a research buyer, and it comes from Industry rather than academia. Acceleron developed ACE-083, a follistatin-based ligand trap engineered as a locally acting molecule, and published work showing that local administration produced hypertrophy confined to the injected muscle, with functional improvement in neuromuscular disease models. A separate follistatin-288-Fc fusion produced the same pattern of localised growth.\n\nThat the developers deliberately engineered for local action, rather than chasing systemic exposure, is a strong signal about which mechanism produced the muscle effect. Local, sustained, high-concentration follistatin at the muscle works. A circulating bolus is a different experiment.\n\nThe ACE-083 programme did not ultimately deliver a licensed medicine, and the later clinical disappointments in this field are worth knowing about, because they are the honest context for a compound still marketed on the strength of its animal data.',
+        },
+      ],
+    },
+    {
+      title: 'What the Animal Data Shows',
+      body: 'The preclinical case is genuinely strong and worth stating at full strength, because a fair assessment has to account for it.\n\n**Transgenic overexpression produces large increases in muscle mass**, with the effect documented across multiple models. **AAV-mediated follistatin delivery to muscle** increased mass and strength in aged and dystrophic models, and co-delivery with micro-dystrophin restored function in an aged DMD model — one of the more encouraging results in the muscular dystrophy gene-therapy literature.\n\n**Inhibition of myostatin with follistatin improved myoblast transplantation success** in dystrophic mice, suggesting a role beyond bulk hypertrophy.\n\nWhat this body of work establishes is that sustained, local, high-level follistatin expression inside muscle removes the myostatin brake and produces functional benefit. That is a real finding and it underpins the whole research programme.\n\nWhat it does not establish is that a 1 mg recombinant protein vial injected systemically reproduces any of it. The delivery mode in every one of those successful experiments is the variable that changed, and no study has substituted an injected protein for gene delivery and obtained the same result.',
+      table: {
+        header: ['Study type', 'Delivery', 'Main finding', 'Generalises to an injected vial?'],
+        rows: [
+          ['Transgenic mouse', 'Germline overexpression', 'Substantial muscle hypertrophy', 'No — continuous local production from birth'],
+          ['AAV follistatin, dystrophic models', 'Intramuscular gene delivery', 'Increased mass and strength', 'No — sustained local expression'],
+          ['AAV + micro-dystrophin, aged DMD', 'Intramuscular gene delivery', 'Restored muscle function', 'No — combination gene therapy'],
+          ['Myoblast transplantation, dystrophic mice', 'Follistatin co-administration', 'Improved graft success', 'Partly — but a local, not systemic, effect'],
+          ['ACE-083 ligand trap, neuromuscular models', 'Local intramuscular administration', 'Hypertrophy confined to the injected muscle', 'No — deliberately engineered to act locally'],
+          ['Phase 1/2a human gene therapy', 'AAV1 intramuscular injection', 'Ambiguous; result formally contested', 'No — gene, not protein'],
+          ['Injected recombinant protein, humans', '—', 'No trial identified', 'This is the untested case'],
+        ],
+      },
+    },
+    {
+      title: 'The Human Trial Record — and the Letter That Matters',
+      body: 'Two phase 1/2a trials of AAV1-follistatin gene therapy were run by the Mendell group: one in Becker muscular dystrophy, published in Molecular Therapy in 2015, and one in sporadic inclusion body myositis, published in the same journal in 2017.\n\nThe Becker trial was a small, open-label dose-escalation study. The IBM trial reported improved functional outcomes and was, at the time, presented as encouraging for a condition with no approved therapy.\n\nThen, in October 2017, Steven Greenberg of Brigham and Women\'s Hospital published a formal critique in Molecular Therapy titled "Unfounded Claims of Improved Functional Outcomes Attributed to Follistatin Gene Therapy in Inclusion Body Myositis." The argument was not that the mechanism was wrong. It was that the functional improvements reported could not be attributed to the treatment — that the natural history of the disease and the structure of the assessment left the claimed effect unsupported by the data.\n\nThis is the single most important document in the follistatin clinical literature and almost no vendor page mentions it. The reason is not conspiracy: it is that product copy is written from abstracts and press coverage, and a rebuttal letter is neither. But a buyer assessing a compound should know that the one human result most often invoked in its favour is the subject of a published methodological challenge.\n\nThe honest summary of the human record is therefore: two small gene-therapy trials, one of which produced a contested functional claim, and zero trials of injected follistatin protein in any population.',
+      subsections: [
+        {
+          title: 'Why the Becker result is more defensible than the IBM result',
+          body: 'The Becker trial had a clearer biological rationale — a dystrophinopathy where muscle is in continuous regeneration and myostatin inhibition addresses a plausible downstream consequence. Its limitations are the standard ones for a small open-label dose-escalation study: no control arm, small numbers, and outcome measures that are difficult to interpret without natural-history comparison.\n\nThat is a meaningful difference from the IBM case, where the natural history of the disease is variable and the functional endpoints are more susceptible to interpretation. It is not a difference that rescues the compound for a research buyer, because both trials delivered a gene rather than a protein.',
+        },
+        {
+          title: 'The safety signal worth knowing about',
+          body: 'Myostatin inhibition has produced non-muscle effects in the literature, including vascular and cardiac observations in some models and off-target effects attributable to the breadth of activin signalling. AAV-follistatin delivery raised transient concerns in trial monitoring, and the more general lesson from the ActRII-inhibitor field is that blocking this axis is not a muscle-specific intervention.\n\nFor a research context this is a reason to treat dosing assumptions with caution and to read the safety discussion in the primary papers rather than the abstract.',
+        },
+      ],
+    },
+    {
+      title: 'The Manufacturing Problem',
+      body: 'Follistatin 344 is sold in the same catalogues, in the same vials and at comparable prices to a 5 mg tripeptide. It is not the same kind of product, and the specification requirements are not comparable.\n\nIt is a 344-amino-acid glycoprotein produced recombinantly — usually expressed in a host cell system, then purified. That means the specification has to address things a synthetic peptide certificate never mentions:\n\n**Host expression system and its identity**, because a protein from E. coli and a protein from a mammalian cell line are not the same product, and the glycosylation differs.\n\n**Aggregation and monomer content**, because a large recombinant protein can form aggregates that are immunogenic and that would not be visible on a simple purity assay.\n\n**Endotoxin and sterility**, because a recombinant process carries a materially higher endotoxin risk than solid-phase synthesis, and a 1 mg vial is a small quantity in which a small absolute amount of endotoxin is a large relative burden.\n\n**Identity by a method appropriate to a protein**, meaning mass spectrometry that accounts for glycosylation and terminal processing rather than a single calculated mass figure, plus ideally an activity or binding assay.\n\nThe practical consequence is that a follistatin listing without a protein-appropriate certificate has told you almost nothing, whereas a peptide listing without an equivalent may still be perfectly adequate.',
+    },
+    {
+      title: 'The UK Supply Picture and What It Costs',
+      body: 'The tracked UK market is 10 vendors and 11 listings, priced from £30.00 to £229.00 for a stated 1 mg vial — a 7.6x spread on an identical quantity, which is the widest relative spread of any compound in this catalogue once quantity is held constant.\n\nNormalised to cost per milligram across the six listings that state a quantity, the range is £30.00/mg to £229.00/mg with a median of £62.50/mg. That is a genuinely expensive research reagent, and the spread is not explained by presentation differences.\n\nFive of the eleven listings do not state a vial size at all, which on a compound this expensive is a material omission — a £199.99 listing with no stated quantity cannot be evaluated against a £229.00 listing stated as 1 mg.\n\nThe gap between the floor and the ceiling deserves attention. £30.00 for 1 mg of a correctly specified, recombinantly produced glycoprotein with a full analytical panel is a low price but not an impossible one for a well-run operation with volume purchasing. £229.00 is a 7.6x multiple, and no certificate costs enough to justify that on a per-vial basis.\n\nOn this compound, more than any other in the catalogue, the price range and the specification range do not move together. The cheap listing is not automatically the bad one and the expensive listing is not automatically the good one — which is precisely why documentation has to be the primary filter.',
+      subsections: [
+        {
+          title: 'What a 1 mg vial actually represents in research terms',
+          body: 'At 1 mg, the vial contains roughly 29 nanomoles of a 34.5 kDa protein. That is a very small molar quantity. In the animal literature, doses are typically expressed in micrograms to milligrams per kilogram, and a single 1 mg vial is a modest amount of material for anything beyond cell work or a small rodent study.\n\nThis matters for buying: a researcher planning an in-vivo study should calculate the total material required before ordering, because on this compound the vial count can escalate quickly and the cost with it. It is also a reason the 7.6x spread is consequential — the difference between £30 and £229 compounds with the number of vials needed.',
+        },
+        {
+          title: 'Storage and handling',
+          body: 'Lyophilised recombinant protein should be stored frozen and reconstituted with care. Repeated freeze-thaw cycles are more damaging to a 34.5 kDa glycoprotein than to a short synthetic peptide, and aggregation on repeated handling is a real risk. Aliquot before freezing where the vial size permits, and avoid vigorous mixing.\n\nIf ordering, ask the vendor for the buffer composition of the lyophilised cake, because a protein supplied without a stated buffer or carrier protein is harder to handle correctly and gives you no information about how it was stabilised.',
+        },
+      ],
+    },
+    {
+      title: 'The Bottom Line',
+      body: 'Follistatin 344 is one of the most mechanistically compelling compounds on this site and one of the worst matched between its evidence base and the product sold under its name.\n\nThe mechanism is real: myostatin is a brake, follistatin releases it, and the genetics of myostatin loss-of-function are unambiguous. The animal data are strong. But every successful experiment used genetic manipulation with sustained local expression, the one human trial of relevance was a gene therapy whose functional result was formally contested in print, and no trial of injected follistatin protein exists in any population.\n\nFor a researcher, that means follistatin is a legitimate subject for in-vitro and animal work with a well-understood mechanism — and a poor candidate for any assumption that a vial of protein reproduces the transgenic phenotype. The three questions worth taking to a vendor are: what expression system produced it, does the certificate address aggregation and endotoxin, and can you supply the chromatogram and the activity data.\n\nRead the [**follistatin-344 deep dive**](/research/follistatin-344-deep-dive) for the mechanism in full, the [**follistatin-344 suppliers guide**](/research/follistatin-344-suppliers-uk) for the market structure, and compare current [**UK follistatin-344 prices**](/compounds/follistatin-344) against the specification bar rather than the price bar.\n\n*Research use only. Follistatin 344 is not a licensed medicine and must not be administered to humans.*',
+    },
+  ],
+  faq: [
+    {
+      question: 'Does follistatin 344 build muscle?',
+      answer: 'It does not add muscle directly. It binds and neutralises myostatin (GDF-8) and activin A, removing a brake on muscle growth. The muscle increases seen in animal studies come from genetic overexpression or gene delivery producing sustained local follistatin, not from injected protein. No human trial of injected follistatin protein has been conducted.'
+    },
+    {
+      question: 'What did the human follistatin trials actually show?',
+      answer: 'Two phase 1/2a AAV1 gene-therapy trials: one in Becker muscular dystrophy (2015) and one in sporadic inclusion body myositis (2017). Both were small and open-label. The IBM functional result was formally challenged in Molecular Therapy in 2017 on the basis that the reported improvements could not be attributed to the treatment. Neither trial delivered follistatin protein — both delivered a gene.'
+    },
+    {
+      question: 'Why is follistatin 344 more expensive than other peptides?',
+      answer: 'Because it is not a synthetic peptide. It is a 344-amino-acid glycosylated protein produced recombinantly, which requires a host expression system and a purification and characterisation process far more involved than solid-phase peptide synthesis. UK prices run £30 to £229 for a stated 1 mg vial, a 7.6x spread on an identical quantity.'
+    },
+    {
+      question: 'What should a follistatin certificate of analysis include that a peptide certificate does not?',
+      answer: 'The host expression system, aggregation and monomer content, endotoxin and sterility results, identity by a method that accounts for glycosylation, and ideally an activity or binding assay. A purity percentage alone is inadequate for a recombinant protein.'
+    },
+    {
+      question: 'Is a 1 mg follistatin vial enough for an animal study?',
+      answer: 'Usually not for more than a small pilot. 1 mg of a 34.5 kDa protein is roughly 29 nanomoles, and animal doses are typically expressed per kilogram of body weight. Calculate total material across the planned dose groups and duration before ordering — the vial count, and therefore the cost, escalates quickly.'
+    },
+    {
+      question: 'Is follistatin 344 legal to buy as a research reagent?',
+      answer: 'It can be supplied as a research chemical for laboratory use. It is not a licensed medicine in the UK or elsewhere and is not a food supplement. Any listing that describes dosing schedules or therapeutic use is describing a medicine it is not authorised to supply.'
+    },
+  ],
+  references: [
+    'McPherron AC, Lawler AM, Lee SJ. Regulation of skeletal muscle mass in mice by a new TGF-beta superfamily member. Nature. 1997;387(6628):83-90. PMID 9139826',
+    'Rodino-Klapac LR, Haidet AM, Kota J, et al. Inhibition of myostatin with emphasis on follistatin as a therapy for muscle disease. Muscle Nerve. 2009;39(3):283-296. PMID 19208403',
+    'Mendell JR, Sahenk Z, Malik V, et al. A phase 1/2a follistatin gene therapy trial for becker muscular dystrophy. Mol Ther. 2015;23(1):192-201. PMID 25322757',
+    'Al-Zaidy SA, Sahenk Z, Rodino-Klapac LR, et al. Follistatin Gene Therapy Improves Ambulation in Becker Muscular Dystrophy. J Neuromuscul Dis. 2015;2(3):185-192. PMID 27858738',
+    'Mendell JR, Sahenk Z, Al-Zaidy S, et al. Follistatin Gene Therapy for Sporadic Inclusion Body Myositis Improves Functional Outcomes. Mol Ther. 2017;25(4):870-879. PMID 28279643',
+    'Greenberg SA. Unfounded Claims of Improved Functional Outcomes Attributed to Follistatin Gene Therapy in Inclusion Body Myositis. Mol Ther. 2017;25(10):2235-2237. PMID 28927986',
+    'Rodino-Klapac LR, Janssen PM, Montgomery CL, et al. Micro-dystrophin and follistatin co-delivery restores muscle function in aged DMD model. Hum Mol Genet. 2013;22(24):4929-4937. PMID 23863459',
+    'Benabdallah BF, Bouchentouf M, Rousseau J, et al. Overexpression of follistatin in human myoblasts increases their proliferation and differentiation, and improves the graft success in SCID mice. Cell Transplant. 2009;18(7):709-718. PMID 19520047',
+    'Pearsall RS, et al. Follistatin-based ligand trap ACE-083 induces localized hypertrophy of skeletal muscle with functional improvement in models of neuromuscular disease. Sci Rep. 2019;9(1):11392. PMID 31388039',
+    'Castonguay R, et al. Follistatin-288-Fc Fusion Protein Promotes Localized Growth of Skeletal Muscle. J Pharmacol Exp Ther. 2019;368(3):435-445. PMID 30563942',
+    'Datta-Mannan A, et al. An engineered human follistatin variant: insights into the pharmacokinetic and pharmacodynamic relationships of a novel molecule with broad therapeutic potential. J Pharmacol Exp Ther. 2013;344(3):616-623. PMID 23249626',
+    'Shen C, et al. Protein Engineering on Human Recombinant Follistatin: Enhancing Pharmacokinetic Characteristics for Therapeutic Application. J Pharmacol Exp Ther. 2018;366(2):291-302. PMID 29752426',
+    'Cash JN, Rejon CA, McPherron AC, Bernard DJ, Thompson TB. The structure of myostatin:follistatin 288: insights into receptor utilization and heparin binding. EMBO J. 2009;28(17):2662-2676. PMID 19644449',
+    'Cash JN, Angerman EB, Kattamuri C, et al. Characterization of follistatin-type domains and their contribution to myostatin and activin A antagonism. Mol Endocrinol. 2012;26(7):1167-1178. PMID 22593183',
+    'Samali SA, et al. Myostatin inhibitors in sarcopenia treatment: A comprehensive review of mechanisms, efficacy and future directions. Mol Biol Rep. 2025;53(1):224. PMID 41460393',
+    'Lisco G, et al. Targeting the activin/myostatin - ActRII pathway to preserve skeletal muscle mass in obesity: mechanistic insights and therapeutic perspectives. Rev Endocr Metab Disord. 2026;27(4):763-780. PMID 41954678',
+    'Aslam MR, et al. Deletion of fibro-adipogenic progenitors-specific follistatin impairs muscle function and accelerates skeletal muscle atrophy in obese mice. Mol Med. 2025;31(1):340. PMID 41272451',
+    'Bromer FD, et al. The Effect of Anti-Activin Receptor Type IIA and Type IIB Antibody on Muscle, Bone and Blood in Healthy and Osteosarcopenic Mice. J Cachexia Sarcopenia Muscle. 2025;16(1):e13718. PMID 39887865',
+    'ViralPeps catalogue data — 11 follistatin-344 listings across 10 vendors, October 2026 snapshot.',
+  ],
+},
+
 };
 export default content;

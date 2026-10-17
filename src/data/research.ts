@@ -1890,6 +1890,40 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ['comparison-site', 'price-comparison', 'uk', 'suppliers', 'afiliate-commission', 'trust-score', 'price-per-mg', 'research-hub'],
   },
+
+  {
+    title: "Survodutide Suppliers UK: Five Vendors, a 4x Price Spread and the Verification Problem",
+    desc: "A supplier guide to survodutide in the UK \\u2014 5 tracked vendors and 5 listings, from GBP 39.00 to GBP 160.00 for an identical 10 mg vial. Why the thinnest supply line in the incretin market cannot discipline its own prices, what five vendors costs the buyer in substitution and feedback, the five specification checks that separate a real listing from a relabelled one, and why the phase 3 evidence says nothing about the vial.",
+    category: "Articles",
+    section: "research-hub",
+    compound: "Survodutide",
+    slug: "survodutide-suppliers-uk",
+    image: "survodutide-suppliers-uk",
+    minutes: 11,
+    tags: ["survodutide", "suppliers", "uk", "sourcing", "verification", "coa", "gcgr", "glp-1", "incretin", "bi-456906", "price-comparison", "research-hub"],
+  },
+  {
+    title: "Buy Epitalon UK: Cost Per Milligram, Vial Size and the Five Buying Traps",
+    desc: "A purchasing guide to epitalon in the UK \\u2014 57 vendors, 69 listings and a GBP 10.99 floor, with the headline 18x spread reduced to a far narrower 4.1x once quantity is held constant. Why 17 listings state no vial size at all, which presentation is actually the best value, the five recurring traps from cosmetic serums to near-duplicate vendor names, and the line-by-line certificate checklist.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Epitalon",
+    slug: "buy-epitalon-uk",
+    image: "buy-epitalon-uk",
+    minutes: 10,
+    tags: ["epitalon", "epithalon", "aedg", "buy", "uk", "sourcing", "certificate-of-analysis", "longevity", "telomerase", "price-comparison", "research-hub"],
+  },
+  {
+    title: "Follistatin 344 for Muscle Growth: The Brake, and the Letter Nobody Mentions",
+    desc: "Follistatin does not build muscle \\u2014 it removes the myostatin brake. A goal article on what the mechanism actually is, why every successful hypertrophy experiment used genetic manipulation rather than injected protein, the ACE-083 work showing the effect is local, and the one human trial whose functional result was formally contested in Molecular Therapy. Plus the 7.6x UK price spread and what a protein-appropriate certificate has to contain.",
+    category: "Articles",
+    section: "goals",
+    compound: "Follistatin 344",
+    slug: "follistatin-344-for-muscle-growth",
+    image: "follistatin-344-for-muscle-growth",
+    minutes: 12,
+    tags: ["follistatin-344", "fst-344", "myostatin", "muscle-growth", "goals", "gdf-8", "activin", "ibm", "gene-therapy", "ace-083", "recombinant-protein", "sourcing"],
+  },
 ];
 
 export const compoundList: string[] = [
