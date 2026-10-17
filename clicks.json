@@ -11977,5 +11977,90 @@
     "destUrl": "https://unitedpeptides.co.uk/product/semaglutide/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "03fbd76f4ccf1c81"
+  },
+  {
+    "ts": "2026-10-17T12:36:53.342Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-without-dac/",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality/cjc-1295-no-dac",
+    "visitorId": "470ba52de02c71fe"
+  },
+  {
+    "ts": "2026-10-17T12:45:12.716Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://midshirelabs.co.uk/products/ovagen/",
+    "visitorId": "e47ce6ce6ccc8a08"
+  },
+  {
+    "ts": "2026-10-17T12:45:13.113Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://midshirelabs.co.uk/products/ovagen/",
+    "visitorId": "81dbb3a9ba83d6e3"
+  },
+  {
+    "ts": "2026-10-17T12:45:13.514Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://midshirelabs.co.uk/products/ovagen/",
+    "visitorId": "ecf8fe04beac6e75"
+  },
+  {
+    "ts": "2026-10-17T12:45:15.581Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e34db906f6afdb4a"
+  },
+  {
+    "ts": "2026-10-17T12:46:07.625Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://midshirelabs.co.uk/products/ovagen/",
+    "visitorId": "b25f432d2a701536"
+  },
+  {
+    "ts": "2026-10-17T12:53:47.837Z",
+    "type": "vendor-site",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "destUrl": "https://novavitality.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality",
+    "visitorId": "0110125bdb054f47"
+  },
+  {
+    "ts": "2026-10-17T12:58:28.691Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "45f0ad1f0b6404e6"
+  },
+  {
+    "ts": "2026-10-17T13:10:56.668Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/81-tesamorelin-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/tesamorelin",
+    "visitorId": "649be94ac235ebf8"
   }
 ]
