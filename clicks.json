@@ -12275,5 +12275,179 @@
     "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "a5ea774e634e6d86"
+  },
+  {
+    "ts": "2026-10-17T16:42:30.328Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b0056a26870190ee"
+  },
+  {
+    "ts": "2026-10-17T16:47:23.879Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/go/midshire-labs/aod-9604",
+    "visitorId": "775cd90ec6467968"
+  },
+  {
+    "ts": "2026-10-17T16:48:27.286Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "97ff0db1530e7203"
+  },
+  {
+    "ts": "2026-10-17T16:51:05.856Z",
+    "type": "vendor-site",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "destUrl": "https://www.na-peptides.co.uk",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:06.024Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.na-peptides.co.uk/product/tirzepatide-20mg-vial/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:06.222Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.na-peptides.co.uk/product/bpc-157-10mg-research-peptide/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:06.364Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.na-peptides.co.uk/product/tb500-10mg/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:06.520Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.na-peptides.co.uk/product/retatrutide-20mg-uk/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:06.671Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.na-peptides.co.uk/product/tesamorelin-10mg-vial/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:06.853Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.na-peptides.co.uk/product/ghk-cu-100mg-vial/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:07.008Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.na-peptides.co.uk/product/klow-peptide-80mg/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:07.159Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.na-peptides.co.uk/product/bacteriostatic-water-3ml/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:07.347Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://www.na-peptides.co.uk/product/cagrilintide-5mg-vial/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:07.488Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://www.na-peptides.co.uk/product/mt-1-10mg-vial/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T16:51:07.663Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://www.na-peptides.co.uk/product/wolverine-stack-10mg/",
+    "visitorId": "50b1fc40c712ea2f"
+  },
+  {
+    "ts": "2026-10-17T17:02:31.514Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "dc6c00f6cf2323e5"
+  },
+  {
+    "ts": "2026-10-17T17:02:35.301Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://midshirelabs.co.uk/products/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b91a2be59ebc5d5b"
+  },
+  {
+    "ts": "2026-10-17T17:11:02.302Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://spxlabs.co.uk/product/bpc-157-uk-10mg/",
+    "visitorId": "71e20180e88b713d"
+  },
+  {
+    "ts": "2026-10-17T17:13:02.061Z",
+    "type": "vendor-site",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "destUrl": "https://optimuslabs.co.uk",
+    "visitorId": "9de606c56b8cd3db"
   }
 ]
