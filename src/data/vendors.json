@@ -1868,40 +1868,56 @@
     "id": "lab77-peptides",
     "name": "Lab77 Peptides",
     "slug": "lab77-peptides",
-    "website": "https://lab77peptides.co.uk",
+    "website": "https://lab77peptides.uk",
     "rating": 4.7,
     "verified": true,
     "founded": 2025,
     "country": "UK",
-    "description": "London-based research peptide supplier with own-name Janoshik HPLC certificates on every batch. One of only 28 UK suppliers verified by The Peptide Watch. 44 compounds available in vial or pre-filled pen formats with same-day UK dispatch before 2pm. All batches independently tested to 99%+ purity with verification keys on every COA.",
+    "description": "Lab77 Peptides is a UK research-peptide supplier whose every batch carries an own-name Janoshik Analytical HPLC certificate — the report names Lab77 as the client, so researchers can verify it directly on Janoshik's own site with the printed key. 44 compounds are stocked as lyophilised vials or pre-filled research pens, dispatched same-day from the UK on weekday orders before 2pm via Royal Mail Tracked 24. Orders ship in plain unbranded packaging with needles and alcohol wipes included. All material is supplied strictly for in-vitro laboratory research use only.",
     "highlights": [
-      "Janoshik HPLC tested — own-name COA",
-      "The Peptide Watch verified",
-      "99%+ purity on every batch",
-      "44 compounds — vial & pen formats",
-      "Same-day dispatch (before 2pm)",
-      "London-based stock"
+      "Own-name Janoshik HPLC certificate on every batch",
+      "Verification key on every COA — check it on Janoshik's own site",
+      "44 compounds, vial or pre-filled research pen",
+      "Same-day UK dispatch on weekday orders before 2pm",
+      "Royal Mail Tracked 24, plain unbranded packaging",
+      "Needles and alcohol wipes included free with every order",
+      "Direct human support by email or WhatsApp",
+      "Research-use-only — no human or animal dosing guidance given"
     ],
     "shipping": [
-      "UK (Royal Mail Tracked 24, same-day dispatch before 2pm Mon-Fri)"
+      "UK — Royal Mail Tracked 24 £5 flat on every order, regardless of value",
+      "Special Delivery before 11am — £10",
+      "Same-day dispatch on weekday orders before 2pm Mon-Fri",
+      "Saturday-morning orders dispatched same day; after 2pm Saturday and all Sunday dispatched Monday",
+      "Mainland Europe available from £60 — arranged via WhatsApp",
+      "Needles, needle heads and alcohol wipes included free with every order",
+      "Tracking number sent by WhatsApp after dispatch; plain unbranded packaging"
     ],
     "payment": [
-      "Cards (Visa/Mastercard)",
+      "Card (Visa/Mastercard)",
       "Bank transfer"
     ],
-    "lastTested": "2026-07-19",
+    "lastTested": "2026-10-16",
     "labTested": true,
     "_autoChecks": {
-      "live": false,
-      "coa": false,
-      "ruo": false,
+      "live": true,
+      "coa": true,
+      "ruo": true,
       "reviews": false,
-      "shipping": false,
-      "contact": false,
-      "productPageFetched": false,
-      "evidence": {},
-      "checkedAt": "2026-10-09T00:42:39.710Z"
-    }
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "janoshik hplc certificate, own-name, verification key",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "royal mail tracked 24",
+        "contact": "info@lab77peptides.uk"
+      },
+      "checkedAt": "2026-10-16T01:50:00.000Z"
+    },
+    "email": "info@lab77peptides.uk",
+    "delivery": "Royal Mail Tracked 24 £5 flat (every order, any value) - Special Delivery before 11am £10 - same-day UK dispatch on weekday orders before 2pm Mon-Fri - plain unbranded packaging - needles + alcohol wipes included free - tracking sent via WhatsApp"
   },
   {
     "id": "bio-pulse-peptides",
@@ -5166,6 +5182,63 @@
         "contact": "orders@northpeptidesuk.com"
       },
       "checkedAt": "2026-10-14T01:30:00.000Z"
+    }
+  },
+  {
+    "id": "optimus-labs",
+    "name": "Optimus Labs",
+    "slug": "optimus-labs",
+    "website": "https://optimuslabs.co.uk",
+    "rating": 4.5,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "Optimus Labs is a UK research-compound supplier running a batch-controlled catalogue of 20 peptides and laboratory compounds, with purity stated on every listing (typically >=99% by HPLC). Each batch is assigned a unique reference for traceability and documentation, and the range is tested on a per-batch basis. Vials are supplied lyophilised for laboratory reconstitution, alongside bacteriostatic water as a research consumable. Orders are dispatched from the UK via Royal Mail tracked services, with free shipping on orders over £30 and same-working-day dispatch on orders placed before 2pm Mon-Fri. International orders are handled on request by WhatsApp. All material is supplied strictly for laboratory research use only.",
+    "highlights": [
+      "20 research peptides and compounds, UK stocked",
+      "Purity stated on every listing — typically >=99% by HPLC",
+      "Batch-controlled manufacturing with a unique reference per batch",
+      "Free UK delivery on orders over £30",
+      "Same-working-day dispatch on orders before 2pm Mon-Fri",
+      "Royal Mail tracked delivery with tracking emailed after dispatch",
+      "Bacteriostatic water stocked as a research consumable",
+      "Direct support by email; international orders via WhatsApp",
+      "Research-use-only — 18+ declaration required before entry"
+    ],
+    "shipping": [
+      "UK — Royal Mail tracked services only",
+      "Free UK shipping on orders over £30 (48hr tracked, 2-3 working days)",
+      "Royal Mail 48hr tracked: £3.99 (2-3 working days)",
+      "Royal Mail 24hr tracked: £4.99 (1-2 days)",
+      "Orders before 2pm Mon-Fri typically dispatched the same working day",
+      "Orders after the cut-off dispatched the next working day",
+      "Tracking details emailed on dispatch",
+      "International delivery on request via WhatsApp before ordering"
+    ],
+    "payment": [
+      "Card payment",
+      "Secure online checkout"
+    ],
+    "lastTested": "2026-10-17",
+    "labTested": true,
+    "email": "hello@optimuslabs.co.uk",
+    "delivery": "Royal Mail tracked only — free UK shipping over £30 (48hr tracked), 48hr tracked £3.99, 24hr tracked £4.99 — same-working-day dispatch on orders before 2pm Mon-Fri — tracking emailed after dispatch — international on request via WhatsApp",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-17T00:37:04.597Z"
     }
   }
 ]
