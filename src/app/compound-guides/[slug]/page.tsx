@@ -113,10 +113,19 @@ import {
   sortByTrust as tesaSortByTrust,
   TESA_SPOKES,
 } from "@/data/tesamorelin-silo";
+import { spokes as nadSpokes, getSpoke as getNadSpoke } from "@/data/nad-plus-spokes";
+import {
+  getNadRows,
+  getNadStats,
+  sortByPrice as nadSortByPrice,
+  sortByPricePerMg as nadSortByPricePerMg,
+  sortByTrust as nadSortByTrust,
+  NAD_SPOKES,
+} from "@/data/nad-plus-silo";
 
 export const dynamic = "force-dynamic";
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -131,6 +140,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   "tb-500": "TB-500",
   "igf-1-lr3": "IGF-1 LR3",
   tesamorelin: "Tesamorelin",
+  "nad-plus": "NAD+",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -159,6 +169,8 @@ function resolveSpoke(slug: string) {
   if (igf) return { spoke: igf, compound: "igf-1-lr3" as const };
   const tesa = getTesaSpoke(slug);
   if (tesa) return { spoke: tesa, compound: "tesamorelin" as const };
+  const nad = getNadSpoke(slug);
+  if (nad) return { spoke: nad, compound: "nad-plus" as const };
   return null;
 }
 
@@ -176,6 +188,7 @@ export async function generateStaticParams() {
     ...tbSpokes.map((s) => ({ slug: s.slug })),
     ...igfSpokes.map((s) => ({ slug: s.slug })),
     ...tesaSpokes.map((s) => ({ slug: s.slug })),
+    ...nadSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -390,6 +403,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "nad-plus") {
+    const all = getNadRows();
+    let sorted = nadSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = nadSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = nadSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -434,7 +461,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                         ? getIgfStats()
                         : compound === "tesamorelin"
                           ? getTesaStats()
-                          : getTrizStats();
+                          : compound === "nad-plus"
+                            ? getNadStats()
+                            : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
   const compoundName = COMPOUND_NAMES[compound];
@@ -461,7 +490,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                         ? IGF_1_LR3_SPOKES
                         : compound === "tesamorelin"
                           ? TESA_SPOKES
-                          : TIRZ_SPOKES;
+                          : compound === "nad-plus"
+                            ? NAD_SPOKES
+                            : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema

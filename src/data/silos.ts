@@ -22,6 +22,7 @@ import {
   type IgfStats,
 } from "@/data/igf-1-lr3-silo";
 import { TESA_SPOKES, getTesaStats, type TesaStats } from "@/data/tesamorelin-silo";
+import { NAD_SPOKES, getNadStats, type NadStats } from "@/data/nad-plus-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -160,6 +161,14 @@ export const SILOS: Silo[] = [
     spokes: TESA_SPOKES as unknown as SiloSpoke[],
     getStats: () => getTesaStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "nad-plus",
+    name: "NAD+",
+    blurb:
+      "Nicotinamide adenine dinucleotide buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: NAD_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getNadStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -175,5 +184,5 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats };
 export type { GhkStats };
