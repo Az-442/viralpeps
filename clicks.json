@@ -11463,5 +11463,35 @@
     "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "d252a6e420b80535"
+  },
+  {
+    "ts": "2026-10-17T07:42:44.608Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c659138ba482c9c5"
+  },
+  {
+    "ts": "2026-10-17T08:08:53.568Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ll-37-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/ll-37-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/ll-37-5mg",
+    "visitorId": "822eb1677f4229b0"
+  },
+  {
+    "ts": "2026-10-17T08:21:51.370Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://novapeptidelab.co.uk/product/tesamorelin-research-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "c0609f770d932422"
   }
 ]
