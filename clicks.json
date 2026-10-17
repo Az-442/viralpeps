@@ -12683,5 +12683,81 @@
     "destUrl": "https://midshirelabs.co.uk/products/dsip/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "fe342c3a6c3d5b12"
+  },
+  {
+    "ts": "2026-10-17T20:33:33.984Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d8b0c5675bcc46b3"
+  },
+  {
+    "ts": "2026-10-17T20:43:24.009Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.kingsbiolabs.co.uk/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/go/kings-bio-labs/bpc-157",
+    "visitorId": "d7818a53a0287599"
+  },
+  {
+    "ts": "2026-10-17T20:44:52.923Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://rawpeptides.co.uk/product/mt2-30mg/",
+    "visitorId": "3ebd25ee7bc0de25"
+  },
+  {
+    "ts": "2026-10-17T20:44:54.741Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://rawpeptides.co.uk/product/mt2-30mg/",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-17T20:44:56.120Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://rawpeptides.co.uk/product/mt2-30mg/",
+    "visitorId": "bdbf09604ea044c6"
+  },
+  {
+    "ts": "2026-10-17T20:52:53.535Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1d4a6c701c7f24fd"
+  },
+  {
+    "ts": "2026-10-17T20:53:01.493Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6c96484c55326ae9"
+  },
+  {
+    "ts": "2026-10-17T21:07:06.293Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/17-bpc-157-10mg.html",
+    "visitorId": "3df9a94a58079ea6"
   }
 ]
