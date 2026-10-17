@@ -12551,5 +12551,62 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://drpresearch.co.uk/product/dr-p-10ml-large-bac-water-for-laboratory-use-only/",
     "visitorId": "1b1c7b52f143c771"
+  },
+  {
+    "ts": "2026-10-17T18:34:57.604Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-10ml-large-bac-water-for-laboratory-use-only/",
+    "visitorId": "6e3715de2ee5a49d"
+  },
+  {
+    "ts": "2026-10-17T18:34:59.979Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-10ml-large-bac-water-for-laboratory-use-only/",
+    "visitorId": "7f254f2a3d6a4f86"
+  },
+  {
+    "ts": "2026-10-17T18:45:29.720Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/semax-selank/",
+    "refPage": "https://www.viralpeps.co.uk/go/midshire-labs/selank-semax-blend",
+    "visitorId": "dce74b600dad7c03"
+  },
+  {
+    "ts": "2026-10-17T18:46:46.386Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f5bc0b9194008286"
+  },
+  {
+    "ts": "2026-10-17T18:57:33.548Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b09419bf6c6d9ee2"
+  },
+  {
+    "ts": "2026-10-17T19:08:58.891Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "visitorId": "ef85d7b9af292ba6"
   }
 ]
