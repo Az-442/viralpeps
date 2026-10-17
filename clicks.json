@@ -3728,5 +3728,15 @@
     "vendorName": "Prime Peptides",
     "destUrl": "https://www.prime-peptides.co.uk",
     "visitorId": "d8a319ef0368b64a"
+  },
+  {
+    "ts": "2026-10-17T00:01:42.974Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://retaresearch.co/products/cjc-1295-no-dac-ipamorelin-mix",
+    "refPage": "https://www.google.com/",
+    "visitorId": "410d0fdcc2ad4931"
   }
 ]
