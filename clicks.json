@@ -11735,5 +11735,41 @@
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk",
     "visitorId": "138869ec1ce791e8"
+  },
+  {
+    "ts": "2026-10-17T10:39:23.491Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "visitorId": "4e5c2d65fb0e2da9"
+  },
+  {
+    "ts": "2026-10-17T10:55:11.580Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://novapeptidelab.co.uk/product/ipamorelin-research-peptide/",
+    "visitorId": "1e397d81e34f055c"
+  },
+  {
+    "ts": "2026-10-17T10:56:49.957Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-semax-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9c8a4756d70b406f"
+  },
+  {
+    "ts": "2026-10-17T11:12:52.901Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "af815df183df1f0f"
   }
 ]
