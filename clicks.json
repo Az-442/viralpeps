@@ -11856,5 +11856,116 @@
     "destUrl": "https://www.raccoonpeptides.com/peptides/59-peg-mgf-2mg.html",
     "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/peg-mgf",
     "visitorId": "4756a782d202b234"
+  },
+  {
+    "ts": "2026-10-17T11:56:23.169Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://phoenixbiolabs.net/shop/ss-31-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b2ef411396856dcc"
+  },
+  {
+    "ts": "2026-10-17T11:58:03.096Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/",
+    "visitorId": "67e49f6a7bea464b"
+  },
+  {
+    "ts": "2026-10-17T11:59:14.750Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "visitorId": "67e49f6a7bea464b"
+  },
+  {
+    "ts": "2026-10-17T12:00:31.885Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "67e49f6a7bea464b"
+  },
+  {
+    "ts": "2026-10-17T12:00:41.141Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://spxlabs.co.uk/product/tesamorelin-uk-10mg/",
+    "visitorId": "67e49f6a7bea464b"
+  },
+  {
+    "ts": "2026-10-17T12:00:59.880Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://spxlabs.co.uk/product/ipamorelin-uk-5mg/",
+    "visitorId": "67e49f6a7bea464b"
+  },
+  {
+    "ts": "2026-10-17T12:02:55.476Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://retaresearch.co/products/cagrilintide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5ca9ad156821235b"
+  },
+  {
+    "ts": "2026-10-17T12:03:02.900Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "destUrl": "https://novavitality.co.uk/product/ghk-cu-tb-500-bpc-157-kpv-mixture-70mg/",
+    "visitorId": "3d83901db497a291"
+  },
+  {
+    "ts": "2026-10-17T12:06:49.653Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://retaresearch.co/products/cagrilintide",
+    "refPage": "https://www.google.com/",
+    "visitorId": "13b97adfca594a83"
+  },
+  {
+    "ts": "2026-10-17T12:08:13.457Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "67e49f6a7bea464b"
+  },
+  {
+    "ts": "2026-10-17T12:09:58.070Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "67e49f6a7bea464b"
+  },
+  {
+    "ts": "2026-10-17T12:19:53.790Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://novavitality.co.uk/product/follistatin-344/",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality/follistatin-344",
+    "visitorId": "920dd381430ae962"
   }
 ]
