@@ -23,6 +23,11 @@ import {
 } from "@/data/igf-1-lr3-silo";
 import { TESA_SPOKES, getTesaStats, type TesaStats } from "@/data/tesamorelin-silo";
 import { NAD_SPOKES, getNadStats, type NadStats } from "@/data/nad-plus-silo";
+import {
+  BAC_SPOKES,
+  getBacStats,
+  type BacStats,
+} from "@/data/bacteriostatic-water-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -169,6 +174,14 @@ export const SILOS: Silo[] = [
     spokes: NAD_SPOKES as unknown as SiloSpoke[],
     getStats: () => getNadStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "bacteriostatic-water",
+    name: "Bacteriostatic Water",
+    blurb:
+      "Laboratory diluent buying guides — verified UK suppliers, lowest cost per ml, full price comparison and evidence-ranked supplier checks.",
+    spokes: BAC_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getBacStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -184,5 +197,5 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats, BacStats };
 export type { GhkStats };

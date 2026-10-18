@@ -122,10 +122,19 @@ import {
   sortByTrust as nadSortByTrust,
   NAD_SPOKES,
 } from "@/data/nad-plus-silo";
+import { spokes as bacSpokes, getSpoke as getBacSpoke } from "@/data/bacteriostatic-water-spokes";
+import {
+  getBacRows,
+  getBacStats,
+  sortByPrice as bacSortByPrice,
+  sortByPricePerMg as bacSortByPricePerMg,
+  sortByTrust as bacSortByTrust,
+  BAC_SPOKES,
+} from "@/data/bacteriostatic-water-silo";
 
 export const dynamic = "force-dynamic";
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -141,6 +150,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   "igf-1-lr3": "IGF-1 LR3",
   tesamorelin: "Tesamorelin",
   "nad-plus": "NAD+",
+  "bacteriostatic-water": "Bacteriostatic Water",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -171,6 +181,8 @@ function resolveSpoke(slug: string) {
   if (tesa) return { spoke: tesa, compound: "tesamorelin" as const };
   const nad = getNadSpoke(slug);
   if (nad) return { spoke: nad, compound: "nad-plus" as const };
+  const bac = getBacSpoke(slug);
+  if (bac) return { spoke: bac, compound: "bacteriostatic-water" as const };
   return null;
 }
 
@@ -189,6 +201,7 @@ export async function generateStaticParams() {
     ...igfSpokes.map((s) => ({ slug: s.slug })),
     ...tesaSpokes.map((s) => ({ slug: s.slug })),
     ...nadSpokes.map((s) => ({ slug: s.slug })),
+    ...bacSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -417,6 +430,21 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "bacteriostatic-water") {
+    const all = getBacRows();
+    let sorted = bacSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      // For a diluent the "perMg" mode ranks on cost per millilitre.
+      sorted = bacSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = bacSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -463,7 +491,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                           ? getTesaStats()
                           : compound === "nad-plus"
                             ? getNadStats()
-                            : getTrizStats();
+                            : compound === "bacteriostatic-water"
+                              ? getBacStats()
+                              : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
   const compoundName = COMPOUND_NAMES[compound];
@@ -492,7 +522,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                           ? TESA_SPOKES
                           : compound === "nad-plus"
                             ? NAD_SPOKES
-                            : TIRZ_SPOKES;
+                            : compound === "bacteriostatic-water"
+                              ? BAC_SPOKES
+                              : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema
