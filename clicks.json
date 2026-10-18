@@ -15051,5 +15051,32 @@
     "destUrl": "https://retaresearch.co/products/cjc-1295-no-dac-ipamorelin-mix",
     "refPage": "https://www.viralpeps.co.uk/go/reta-research/cjc-1295-ipamorelin-blend",
     "visitorId": "e96499799f44fc14"
+  },
+  {
+    "ts": "2026-10-18T20:09:55.436Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "e5124f0ed7b9b7a1"
+  },
+  {
+    "ts": "2026-10-18T20:10:53.523Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "e5124f0ed7b9b7a1"
+  },
+  {
+    "ts": "2026-10-18T20:44:06.097Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://novapeptidelab.co.uk/product/aod-9604-research-peptide-uk/",
+    "visitorId": "aa680ad0fe0ca50d"
   }
 ]
