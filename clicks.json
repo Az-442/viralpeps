@@ -14223,5 +14223,50 @@
     "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "efb088c1dc65276c"
+  },
+  {
+    "ts": "2026-10-18T13:13:22.345Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "826c04aafddc6f58"
+  },
+  {
+    "ts": "2026-10-18T13:25:51.305Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "7f254f2a3d6a4f86"
+  },
+  {
+    "ts": "2026-10-18T13:38:36.050Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptidelabuk.co.uk/product/pe-22-28-10mg-nasal-spray/",
+    "visitorId": "8c121d49fb66685a"
+  },
+  {
+    "ts": "2026-10-18T13:38:44.835Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptidelabuk.co.uk/product/pe-22-28-10mg-nasal-spray/",
+    "visitorId": "5e225ab1506abd9a"
+  },
+  {
+    "ts": "2026-10-18T13:52:53.380Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hgh-fragment-176-191-5mg-ghrp",
+    "visitorId": "6e3715de2ee5a49d"
   }
 ]
