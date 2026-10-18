@@ -3100,5 +3100,34 @@
       "coa": "coa",
       "review": null
     }
+  },
+  "peptide-shop-uk": {
+    "slug": "peptide-shop-uk",
+    "website": "https://peptidesshopuk.com",
+    "checkedAt": "2026-10-18T00:41:07.267Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "hplc",
+      "ruo": null,
+      "review": null,
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "peptide shop uk | high-purity research peptides &amp; stabilized pens"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "hplc",
+      "ruo": null,
+      "status": 200
+    },
+    "secondary": {
+      "probed": 2,
+      "contact": "contact",
+      "ruo": "research purposes",
+      "shipping": "tracked",
+      "coa": "hplc",
+      "review": null
+    }
   }
 }

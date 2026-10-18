@@ -5240,5 +5240,62 @@
       },
       "checkedAt": "2026-10-17T00:37:04.597Z"
     }
+  },
+  {
+    "id": "peptide-shop-uk",
+    "name": "Peptide Shop UK",
+    "slug": "peptide-shop-uk",
+    "website": "https://peptidesshopuk.com",
+    "rating": 4.3,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "Peptide Shop UK is a UK research-peptide supplier specialising in pre-filled, stabilised multi-dose pens alongside a smaller range of lyophilised vials. The catalogue covers metabolic (tirzepatide, retatrutide, cagrilintide), recovery (BPC-157/TB-500 blends, KLOW, GLOW, GHK-Cu), growth-hormone secretagogue and cognitive research compounds, with purity stated at >98% by HPLC on every listing. Orders ship from the UK only, packed unbranded, via Royal Mail tracked delivery in 2-4 working days, with dispatch typically within 24-48 hours of payment confirmation. Payment is by bank transfer or crypto rather than card. All material is supplied strictly for research and development use only, and the site states it will cancel orders it believes are intended for anything other than legitimate laboratory research.",
+    "highlights": [
+      "24 research products listed, UK stocked",
+      "Specialises in pre-filled 3ml stabilised pens (no reconstitution)",
+      "Purity stated >98% by HPLC on every listing",
+      "Royal Mail tracked delivery, 2-4 working days",
+      "Dispatched from the UK only - no international shipping",
+      "Unbranded discreet outer packaging",
+      "Bank transfer or crypto payment only (no card checkout)",
+      "Research-use-only policy; orders deemed non-research may be cancelled",
+      "Email and phone support with 24h weekday response target"
+    ],
+    "shipping": [
+      "UK only - domestic closed-loop distribution, no international orders",
+      "Royal Mail tracked delivery as standard",
+      "Stated delivery window: 2-4 working days",
+      "Dispatch typically within 24-48 hours of payment confirmation",
+      "Tracking number issued on every shipment",
+      "Unbranded protective packaging (light and shock protection)",
+      "No returns accepted on dispatched product unless seal compromised or wrong item received (report within 48h)",
+      "No free-delivery threshold stated"
+    ],
+    "payment": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "lastTested": "2026-10-18",
+    "labTested": true,
+    "email": "info@peptidesshopuk.com",
+    "delivery": "UK only, Royal Mail tracked, stated 2-4 working days, dispatch typically 24-48h after payment; tracking on every order; no free-delivery threshold stated; no returns once dispatched except compromised seal / wrong item reported within 48h",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "hplc",
+        "ruo": "research purposes",
+        "reviews": null,
+        "shipping": "tracking",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-18T00:41:07.267Z"
+    }
   }
 ]
