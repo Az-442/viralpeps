@@ -12921,5 +12921,35 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://retaresearch.co/products/tesamorelin",
     "visitorId": "dacf124fe9f0905c"
+  },
+  {
+    "ts": "2026-10-17T23:44:49.551Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "15d72fca83b4469d"
+  },
+  {
+    "ts": "2026-10-17T23:52:18.379Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://novapeptidelab.co.uk/product/tesamorelin-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide-lab/tesamorelin",
+    "visitorId": "fcd6436843f6fd92"
+  },
+  {
+    "ts": "2026-10-18T00:15:16.791Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://phoenixbiolabs.net/shop/epitalon-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "40f4a006e7b7050a"
   }
 ]
