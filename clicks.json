@@ -13832,5 +13832,118 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://www.northpeptidesuk.com/products/epitalon/",
     "visitorId": "fe23721fc55f8e20"
+  },
+  {
+    "ts": "2026-10-18T07:02:52.733Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://retaresearch.co/products/tesamorelin",
+    "visitorId": "f044a28cebc1c09b"
+  },
+  {
+    "ts": "2026-10-18T07:12:34.850Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.northpeptidesuk.com/products/bpc-157/",
+    "visitorId": "4b3dba80bce33b77"
+  },
+  {
+    "ts": "2026-10-18T07:12:46.369Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://novapeptidelab.co.uk/product/bpc-157-research-peptide/",
+    "visitorId": "e0143c000002b1c6"
+  },
+  {
+    "ts": "2026-10-18T07:12:58.972Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://retaresearch.co/products/bpc-157",
+    "visitorId": "c16badb20f99e1f3"
+  },
+  {
+    "ts": "2026-10-18T07:13:59.203Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.northpeptidesuk.com/products/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e8a8d9a5263d7df6"
+  },
+  {
+    "ts": "2026-10-18T07:14:33.115Z",
+    "type": "vendor-site",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "destUrl": "https://www.imperialpeptides.co.uk",
+    "visitorId": "389004b448f95a17"
+  },
+  {
+    "ts": "2026-10-18T07:15:35.054Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://optimuslabs.co.uk/product/bpc-157/",
+    "visitorId": "5ef6366d2da92d1c"
+  },
+  {
+    "ts": "2026-10-18T07:16:44.761Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "visitorId": "389004b448f95a17"
+  },
+  {
+    "ts": "2026-10-18T07:20:52.423Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptideslabuk.com/product/bpc-157/",
+    "visitorId": "97ac4602e4f87ad1"
+  },
+  {
+    "ts": "2026-10-18T07:21:16.721Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "destUrl": "https://www.researchpeptides.co.uk",
+    "visitorId": "fe4ff04961a6c6e0"
+  },
+  {
+    "ts": "2026-10-18T07:23:26.484Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com",
+    "visitorId": "526c3f5bb1501438"
+  },
+  {
+    "ts": "2026-10-18T07:23:45.009Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "526c3f5bb1501438"
+  },
+  {
+    "ts": "2026-10-18T07:30:24.703Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/35-glow-blend.html",
+    "visitorId": "6176b98ec258635f"
   }
 ]
