@@ -14078,5 +14078,54 @@
     "destUrl": "https://phoenixbiolabs.net/shop/l-carnitine-3000/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "a0a58deb5a840af3"
+  },
+  {
+    "ts": "2026-10-18T11:28:10.614Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-semax-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ab78ac3326941d0e"
+  },
+  {
+    "ts": "2026-10-18T11:40:50.702Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/pen",
+    "visitorId": "fc633f9456eacf2e"
+  },
+  {
+    "ts": "2026-10-18T11:49:14.307Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "65c7f104185ea9c4"
+  },
+  {
+    "ts": "2026-10-18T11:49:20.788Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "46493245332265b1"
+  },
+  {
+    "ts": "2026-10-18T12:04:05.783Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kpv",
+    "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk",
+    "refPage": "https://www.viralpeps.co.uk/go/nupex/kpv",
+    "visitorId": "38a71d1aef361738"
   }
 ]
