@@ -14968,5 +14968,78 @@
     "compoundSlug": "thymosin-alpha-1",
     "destUrl": "https://evapeptide.co.uk/product/buy-thymosin-alpha-1-uk/",
     "visitorId": "75c3f6dd5faf9f50"
+  },
+  {
+    "ts": "2026-10-18T18:47:41.179Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.peptidesx.uk/product/dsip/",
+    "visitorId": "61abdd370f3fbd28"
+  },
+  {
+    "ts": "2026-10-18T18:52:11.027Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bionikpeptides.com/products/retatrutide",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-18T18:52:12.573Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bionikpeptides.com/products/retatrutide",
+    "visitorId": "f044a28cebc1c09b"
+  },
+  {
+    "ts": "2026-10-18T18:54:47.545Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "refPage": "https://www.viralpeps.co.uk/go/reta-research",
+    "visitorId": "e19f7b1b29357a08"
+  },
+  {
+    "ts": "2026-10-18T19:04:38.423Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pslabs.uk/products/rt-glp3",
+    "visitorId": "f1c7b79b76b6e88b"
+  },
+  {
+    "ts": "2026-10-18T19:05:18.919Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "f1c7b79b76b6e88b"
+  },
+  {
+    "ts": "2026-10-18T19:16:35.497Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://retaresearch.co/products/igf-lr3",
+    "refPage": "https://www.viralpeps.co.uk/go/reta-research/igf-1-lr3",
+    "visitorId": "06f1f71016ae4d6b"
+  },
+  {
+    "ts": "2026-10-18T19:19:21.692Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "ce60ab8ca7b68d8e"
   }
 ]
