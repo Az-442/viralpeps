@@ -13739,5 +13739,52 @@
     "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
     "refPage": "https://www.viralpeps.co.uk/go/alphamino/premium-mots-c-10mg",
     "visitorId": "0265ba66fb745732"
+  },
+  {
+    "ts": "2026-10-18T06:10:07.189Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides/bpc-157",
+    "visitorId": "b191448ba669dd5b"
+  },
+  {
+    "ts": "2026-10-18T06:13:51.312Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.stratfordpeptides.com/products/melanotan-2",
+    "visitorId": "1c1626305f2faba8"
+  },
+  {
+    "ts": "2026-10-18T06:13:59.998Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.stratfordpeptides.com/products/melanotan-2",
+    "visitorId": "29a80b2b97b13a6d"
+  },
+  {
+    "ts": "2026-10-18T06:14:04.015Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.stratfordpeptides.com/products/melanotan-2",
+    "visitorId": "bdbf09604ea044c6"
+  },
+  {
+    "ts": "2026-10-18T06:18:39.609Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/ipamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4c24efb83d50ada1"
   }
 ]
