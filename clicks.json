@@ -14420,5 +14420,23 @@
     "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-10/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "f014c2caf95b4a46"
+  },
+  {
+    "ts": "2026-10-18T16:37:08.189Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-100-tablets",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/",
+    "visitorId": "748c052b6e892889"
+  },
+  {
+    "ts": "2026-10-18T16:57:18.790Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "6066e8ccf69361af"
   }
 ]
