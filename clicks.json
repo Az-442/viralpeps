@@ -13642,5 +13642,92 @@
     "destUrl": "https://phoenixbiolabs.net/shop/ara-290-20mg-prefilled-premixed-pen-research-compound/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "a1c649b363282f83"
+  },
+  {
+    "ts": "2026-10-18T04:35:35.477Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/go/midshire-labs/ghk-cu",
+    "visitorId": "01f361fe5b1176ad"
+  },
+  {
+    "ts": "2026-10-18T04:37:19.315Z",
+    "type": "vendor-site",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "destUrl": "https://nilahlabs.co.uk",
+    "visitorId": "6271fdbe03fc462d"
+  },
+  {
+    "ts": "2026-10-18T04:37:57.267Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1e7957c550e76220"
+  },
+  {
+    "ts": "2026-10-18T04:59:15.869Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-beta-4-5mg-10mg-research-peptide",
+    "visitorId": "24ad53e810c366a5"
+  },
+  {
+    "ts": "2026-10-18T04:59:17.289Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://retaresearch.co/products/sema",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b91c9630456ca7c3"
+  },
+  {
+    "ts": "2026-10-18T04:59:39.607Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0ef78ba65ad41cbb"
+  },
+  {
+    "ts": "2026-10-18T04:59:49.774Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1572d1577f435d1b"
+  },
+  {
+    "ts": "2026-10-18T04:59:56.820Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d339e1b8f444bca6"
+  },
+  {
+    "ts": "2026-10-18T05:06:08.320Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "303b20576e074471"
   }
 ]
