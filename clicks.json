@@ -14438,5 +14438,445 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
     "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-18T16:57:22.662Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "2469a6590ba551c0"
+  },
+  {
+    "ts": "2026-10-18T16:57:24.528Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "a1d1b6d892645c7c"
+  },
+  {
+    "ts": "2026-10-18T17:17:49.443Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-60-capsules",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-60-capsules/",
+    "visitorId": "2f41cb9b9b1aa6d9"
+  },
+  {
+    "ts": "2026-10-18T17:21:42.376Z",
+    "type": "vendor-site",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "destUrl": "https://novavitality.co.uk",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:42.542Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://novavitality.co.uk/product/bpc-157/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:42.706Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://novavitality.co.uk/product/tb-500/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:42.867Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://novavitality.co.uk/product/melanotan-2/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:43.031Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://novavitality.co.uk/product/aod-9604/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:43.179Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://novavitality.co.uk/product/igf1lr3/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:43.342Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://novavitality.co.uk/product/tesamorelin/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:43.509Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://novavitality.co.uk/product/sermorelin/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:43.906Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://novavitality.co.uk/product/mots-c/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:44.050Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://novavitality.co.uk/product/ss-31/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:44.196Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://novavitality.co.uk/product/ghk-cu/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:44.366Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "kpv",
+    "destUrl": "https://novavitality.co.uk/product/kpv/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:44.527Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://novavitality.co.uk/product/epitalon/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:44.678Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "semax",
+    "destUrl": "https://novavitality.co.uk/product/semax10mg/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:44.819Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "selank",
+    "destUrl": "https://novavitality.co.uk/product/selank/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:44.981Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://novavitality.co.uk/product/ipamorelin/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:45.154Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://novavitality.co.uk/product/pt-141/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:45.372Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://novavitality.co.uk/product/kisspeptin/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:45.507Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "dsip",
+    "destUrl": "https://novavitality.co.uk/product/dsip/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:45.671Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://novavitality.co.uk/product/oxytocin-acetate/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:45.813Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://novavitality.co.uk/product/snap-8/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:45.964Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://novavitality.co.uk/product/nad/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:46.146Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-no-dac-ipamorelin/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:46.287Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://novavitality.co.uk/product/pinealon/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:46.421Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "dermorphin",
+    "destUrl": "https://novavitality.co.uk/product/dermorphin/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:46.552Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://novavitality.co.uk/product/slu-pp-332/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:46.697Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://novavitality.co.uk/product/l-carnitine/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:46.843Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://novavitality.co.uk/product/5-amino-1mq/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:46.992Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://novavitality.co.uk/product/thymalin/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:47.172Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "vip",
+    "destUrl": "https://novavitality.co.uk/product/vip/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:47.315Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://novavitality.co.uk/product/glutathione/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:47.461Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "pnc-27",
+    "destUrl": "https://novavitality.co.uk/product/pnc-27/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:47.633Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://novavitality.co.uk/product/ahk-cu/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:47.781Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://novavitality.co.uk/product/b12/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:47.992Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://novavitality.co.uk/product/palmitoyl-pentapeptide-4/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:48.130Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "mgf",
+    "destUrl": "https://novavitality.co.uk/product/mgf/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:48.265Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://novavitality.co.uk/product/follistatin-344/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:48.422Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://novavitality.co.uk/product/ace-031/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:48.577Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://novavitality.co.uk/product/peg-mgf/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:48.716Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-with-dac/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:48.847Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-without-dac/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:48.991Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "destUrl": "https://novavitality.co.uk/product/ghk-cu-tb-500-bpc-157-kpv-mixture-70mg/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:49.133Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://novavitality.co.uk/product/bpc-157-tb-500-ghk-cu-mixture-70mg/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:49.268Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://novavitality.co.uk/product/melanotan1/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:21:49.416Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://novavitality.co.uk/product/bpc-157-tb-500-mixture/",
+    "visitorId": "3b255bfd08c0f256"
+  },
+  {
+    "ts": "2026-10-18T17:58:04.577Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "gagrilintide-5mg",
+    "destUrl": "https://evapeptide.co.uk/product/buy-cagrilintide-uk/",
+    "visitorId": "eb2f8dd00a609d25"
   }
 ]
