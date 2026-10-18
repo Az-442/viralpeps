@@ -13565,5 +13565,44 @@
     "destUrl": "https://www.raccoonpeptides.com/peptides/21-bpc-157-10mg-tb-500-10mg.html",
     "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/bpc-10mg-tb-10mg-20mg",
     "visitorId": "f587a450d219a2c3"
+  },
+  {
+    "ts": "2026-10-18T02:53:24.182Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://phoenixbiolabs.net/shop/ghk-cu-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f005775f26693340"
+  },
+  {
+    "ts": "2026-10-18T02:56:35.696Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://phoenixbiolabs.net/shop/klow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f7dbe8a6b3b61242"
+  },
+  {
+    "ts": "2026-10-18T03:01:12.301Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/go/uk-peptides",
+    "visitorId": "05dade023a14009b"
+  },
+  {
+    "ts": "2026-10-18T03:24:41.871Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/84-thymosin-alpha-1-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/thymosin-alpha-1",
+    "visitorId": "f8cfcf9b185f5335"
   }
 ]
