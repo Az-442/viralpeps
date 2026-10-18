@@ -13994,5 +13994,61 @@
     "compoundSlug": "selank",
     "destUrl": "https://everythingpeptides.co.uk/products/selank",
     "visitorId": "ce60ab8ca7b68d8e"
+  },
+  {
+    "ts": "2026-10-18T08:25:05.712Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://everythingpeptides.co.uk/products/selank",
+    "visitorId": "ce60ab8ca7b68d8e"
+  },
+  {
+    "ts": "2026-10-18T08:31:49.753Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
+    "visitorId": "2e37bc7a79f38796"
+  },
+  {
+    "ts": "2026-10-18T08:36:35.430Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://retaresearch.co/products/tirz-20mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "76d9a73fba250063"
+  },
+  {
+    "ts": "2026-10-18T08:49:29.527Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/pen",
+    "visitorId": "ef8dc7be9e03ff0a"
+  },
+  {
+    "ts": "2026-10-18T08:52:27.784Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.northpeptidesuk.com/products/tirzepatide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "19c7b399dc99c59a"
+  },
+  {
+    "ts": "2026-10-18T08:55:22.895Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.buyreta.co.uk/product/kpv-oral-uk",
+    "visitorId": "c1474ca000cdd512"
   }
 ]
