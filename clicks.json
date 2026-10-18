@@ -14156,5 +14156,72 @@
     "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "4a8bbd14f14c2bbf"
+  },
+  {
+    "ts": "2026-10-18T12:48:06.456Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://phoenixbiolabs.net/shop/ss-31-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "23bb390f76b39baf"
+  },
+  {
+    "ts": "2026-10-18T12:51:18.792Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://www.buyreta.co.uk/product/ovagen-uk",
+    "refPage": "https://www.viralpeps.co.uk/go/buyreta/ovagen",
+    "visitorId": "2b9dfc0b930d803e"
+  },
+  {
+    "ts": "2026-10-18T12:53:46.052Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e8320c0317cefba1"
+  },
+  {
+    "ts": "2026-10-18T12:57:32.608Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://britpeptides.co.uk/product/aod-9604-5mg/",
+    "visitorId": "bdbf09604ea044c6"
+  },
+  {
+    "ts": "2026-10-18T12:57:37.901Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://britpeptides.co.uk/product/aod-9604-5mg/",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-18T12:57:45.296Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://britpeptides.co.uk/product/aod-9604-5mg/",
+    "visitorId": "6e3715de2ee5a49d"
+  },
+  {
+    "ts": "2026-10-18T13:13:13.110Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "efb088c1dc65276c"
   }
 ]
