@@ -14344,5 +14344,71 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://bionikpeptides.com/products/ghk-cu",
     "visitorId": "86e7d90ec76c62b0"
+  },
+  {
+    "ts": "2026-10-18T15:43:32.474Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7da348e3f189c97c"
+  },
+  {
+    "ts": "2026-10-18T15:43:36.611Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "562e2aca870d3167"
+  },
+  {
+    "ts": "2026-10-18T15:45:25.490Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1ed907ff81e3e60f"
+  },
+  {
+    "ts": "2026-10-18T15:48:06.935Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "45e35f9eee232e3c"
+  },
+  {
+    "ts": "2026-10-18T15:50:31.957Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "45e35f9eee232e3c"
+  },
+  {
+    "ts": "2026-10-18T15:52:05.707Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "45e35f9eee232e3c"
+  },
+  {
+    "ts": "2026-10-18T15:54:16.811Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.na-peptides.co.uk/product/retatrutide-20mg-uk/",
+    "visitorId": "a633248b4a742867"
   }
 ]
