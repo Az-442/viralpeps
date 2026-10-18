@@ -14268,5 +14268,53 @@
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://bioplexpeptides.co.uk/products/hgh-fragment-176-191-5mg-ghrp",
     "visitorId": "6e3715de2ee5a49d"
+  },
+  {
+    "ts": "2026-10-18T14:02:18.630Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "destUrl": "https://www.peptifyuk.com",
+    "visitorId": "c428ac39055d2160"
+  },
+  {
+    "ts": "2026-10-18T14:09:44.546Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "205fdd7f59780dff"
+  },
+  {
+    "ts": "2026-10-18T14:15:29.735Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "930b8482379de021"
+  },
+  {
+    "ts": "2026-10-18T14:15:42.132Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://midshirelabs.co.uk/products/kisspeptin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b6b460bfc8f3b42d"
+  },
+  {
+    "ts": "2026-10-18T14:25:47.879Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.novapeptide.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide/kpv",
+    "visitorId": "8d15cabba3c0100f"
   }
 ]
