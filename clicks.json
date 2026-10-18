@@ -13794,5 +13794,43 @@
     "vendorName": "BioPlex Peptides",
     "destUrl": "https://bioplexpeptides.co.uk",
     "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-18T06:22:50.843Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8f67b802382e3043"
+  },
+  {
+    "ts": "2026-10-18T06:22:55.857Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f94d52d96ffd9ccd"
+  },
+  {
+    "ts": "2026-10-18T06:33:52.515Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://ukpeptides.com/catalog/glow",
+    "visitorId": "9d3d2e70e754e68f"
+  },
+  {
+    "ts": "2026-10-18T06:57:43.577Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.northpeptidesuk.com/products/epitalon/",
+    "visitorId": "fe23721fc55f8e20"
   }
 ]
