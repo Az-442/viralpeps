@@ -15078,5 +15078,41 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://novapeptidelab.co.uk/product/aod-9604-research-peptide-uk/",
     "visitorId": "aa680ad0fe0ca50d"
+  },
+  {
+    "ts": "2026-10-18T21:10:21.067Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://bionikpeptides.com/products/tirzepatide",
+    "visitorId": "86230ad5d293706b"
+  },
+  {
+    "ts": "2026-10-18T21:10:23.230Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://bionikpeptides.com/products/tirzepatide",
+    "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-18T21:13:13.571Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "hcg",
+    "destUrl": "https://chiltonlabs.co.uk/product/hcg-5000iu-vial-bac-water-included/",
+    "visitorId": "e5c2ff160b38ea00"
+  },
+  {
+    "ts": "2026-10-18T21:25:13.198Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://olresearch.co.uk/product/mots-c-10mg/",
+    "visitorId": "00389cd2abd1a6f8"
   }
 ]
