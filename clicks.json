@@ -14325,5 +14325,24 @@
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://thepeptidecode.co.uk/products/melanotan-ii-10mg",
     "visitorId": "9f78a81522d8e9ea"
+  },
+  {
+    "ts": "2026-10-18T15:13:00.008Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://biohackpeptides.co.uk/product/klow-blend-peptide-80mg-3ml-bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/go/biohack-peptides/klow",
+    "visitorId": "4504fc2751ad8072"
+  },
+  {
+    "ts": "2026-10-18T15:23:11.251Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bionikpeptides.com/products/ghk-cu",
+    "visitorId": "86e7d90ec76c62b0"
   }
 ]
