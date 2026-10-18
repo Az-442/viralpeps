@@ -1075,6 +1075,128 @@ Check `git status` before rebasing — unrelated bot WIP is now common in this r
 
 ---
 
+## ✅ DONE — BACTERIOSTATIC WATER SILO (commit `b4d779da`)
+
+Queue note: the original 5-item queue was already complete (Semaglutide, Semax, Selank,
+Ipamorelin, MOTS-c), as were BPC-157, GHK-Cu, TB-500, IGF-1 LR3, Tesamorelin and NAD+.
+Per the SOP (Step 0 + the IGF-1 LR3 "source count ≠ demand" note), the next compound was
+picked on **verified UK autocomplete demand**, not source count. Bacteriostatic Water won
+decisively: **all six modifiers returned real UK hits with no substitution required on the
+core intent**, against 1–2 hits for SS-31, KPV, DSIP, Epitalon and Melanotan II.
+Built per the locked SOP. Deploy verified live 2026-10-18.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-bacteriostatic-water-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-bacteriostatic-water-uk
+- https://www.viralpeps.co.uk/compound-guides/bacteriostatic-water-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-bacteriostatic-water-online-uk
+- https://www.viralpeps.co.uk/compound-guides/bacteriostatic-water-uk-supplier
+- https://www.viralpeps.co.uk/compound-guides/best-bacteriostatic-water-peptide
+
+**Verified metrics:** rendered words 1,932–2,597 (all ≥1,200) · titles 47–56 chars ·
+descriptions 156–160 chars · focus keyword in H1 + intro[0] · **72 unique /go/ links on the
+full comparison spoke, 0 broken** (swept individually, paced: 66×302 + 6×308) · hub tiles
+present on `/compounds/bacteriostatic-water` (12 compound-guides links) · index lists
+Bacteriostatic Water (6 spoke links) · all 6 spokes in the live sitemap · `npx tsc --noEmit`
+0 errors · `npm run build` clean.
+
+**Why Bacteriostatic Water was chosen:** among the unbuilt compounds ranked by source count
+it was the only one with genuine, broad UK buying intent. Hub `/compounds/bacteriostatic-water`
+returns 200 with **81 master sources** (+8 child entries, 5 of which are genuine water listings).
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-18)
+
+Five of the six modifiers hit the exact UK phrasing or a very close variant; only
+`price comparison` needed a real substitution (there is no UK comparison-intent phrasing for
+this item — confirmed across four probe variants).
+
+| Modifier | Result |
+|---|---|
+| `where to buy bacteriostatic water uk` | **exact match #1** — passed |
+| `cheapest bacteriostatic water uk` | ⚠️ strict form 0 → substituted `cheapest bac water uk` (**exact #1**) |
+| `bacteriostatic water price comparison uk` | ⚠️ **0 results**; `bacteriostatic water price uk` also 0 → substituted `where to buy bacteriostatic water pharmacy uk` (#1 under the pharmacy probe) + `bacteriostatic water uk 30ml` (exact #1) |
+| `buy bacteriostatic water online uk` | close match **`buy bac water online uk`** (exact #1) — passed |
+| `bacteriostatic water uk supplier` | close match **`bac water supplier uk`** (exact #1) — kept as UK supplier spoke |
+| `best bacteriostatic water peptide` | close match **`best bacteriostatic water for peptides`** (exact #1) + `best bac water peptides` (exact #1) — passed |
+
+Corroborating hits: `bacteriostatic water uk peptides`, `bacteriostatic water uk 30ml`,
+`bacteriostatic water where to buy`, `where to buy bacteriostatic water uk boots`,
+`where to buy hospira bacteriostatic water uk`, `bacteriostatic water for sale uk`,
+`bac water buy uk`, `bacteriostatic water uk pharmacy`, `bacteriostatic water uk reviews`.
+
+**Candidates rejected on demand this run:** SS-31 (2 UK hits, 4 of 6 modifiers 0), KPV
+(1 hit, 4 of 6 zero), DSIP (1 hit, 5 of 6 zero), Epitalon (1 hit, 5 of 6 zero),
+Melanotan II (2 hits, 5 of 6 zero).
+
+### Collision check (KW Phase 1)
+`grep -niE "bacteriostatic|bac-water|bac water|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`
+returned **zero bacteriostatic / bac-water rows**. Only unrelated pillar rows:
+`where-to-buy-peptides-uk` (line 34), `where-to-buy-tirzepatide-uk` (line 89),
+`cheapest-peptides-uk` (line 123).
+**No plan collisions — nothing removed.**
+
+### ⚠️ Content note — this is a diluent, not a research compound
+Bacteriostatic Water is a sterile preserved diluent (water for injection + 0.9% benzyl
+alcohol), not a peptide. Every spoke is therefore written about the **supply** — sterility,
+preservative, fill volume, documentation, working life — rather than about biological
+effects. This follows the NAD+ precedent (a coenzyme written as a coenzyme) and is the
+template for any future supply-item silo. No human-use or therapeutic claims anywhere.
+
+### Data
+- 81 master sources + 5 genuine child entries folded in. **Excluded** 3 child entries filed
+  under `compareSlug: bacteriostatic-water` that are *not* bacteriostatic water —
+  `sterling-acetic-acid` (acetic acid 0.6%), `sterling-pbs-10ml` (PBS),
+  and duplicate Alphamino ranges on the two 0.9% children. 88 rows, 71 suppliers.
+- Uses `vendorSlugFor()` (real slugs from vendors.json — **10 vendors** would have broken
+  on a synthesised slug: `kyro-labs-peptides`, `helix-core`, `na-peptides`, `jgpeptidesplus`,
+  `dr-peptides`, `research-peptides-uk-main`, `ukpeptides`, `kensington-labs`,
+  `peptide-lab-uk`, `ascend-peptides`).
+- Uses `goCompoundSlug` — `Research Peptides UK` appears **only** on child entries
+  (`bacteriostatic-water-0-9-benzyl`, `bacteriostatic-water-0-9-sodium-chloride`), so those
+  rows resolve `/go/` at the child slug. **0 broken go-links.**
+- **Per-ml, not per-mg.** A diluent has no meaningful mass metric; the silo ranks on
+  **cost per millilitre**. `perMg` is kept in the row shape only because the shared
+  `PriceTable` expects the field and always renders "—" for this silo.
+  `BacStats.bestPerMg` is an alias of `bestPerMl` so the shared route's stats strip needs
+  no changes.
+- Range price (`Alphamino` £5.00–£9.00) resolves on the lower bound.
+- Pack profile: 39× 10ml, 16× 3ml, 2× 30ml, 1× 5ml, plus 18 listings with no stated volume
+  (correctly "—" per ml, sunk to the bottom of per-ml sorts).
+
+### ⚠️ Ranking change — evidence-first, because TrustScore collapses on this population
+The shared site-wide TrustScore formula puts **58 of 71 suppliers on exactly 65 and 28 on
+75**, so it cannot rank this supplier population. `sortByTrust` in
+`bacteriostatic-water-silo.ts` therefore ranks on verification **evidence** first:
+`productCoa` (COA on the product page) → `homeCoa` → `reviewSource` → `live` → TrustScore →
+price. This is scoped to this silo only; no other silo's scoring was touched. All four
+signal fields are read from the existing `trustscore-autocheck.json` — no new data source.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 36839885 — Antimicrobial Preservatives for Protein and Peptide Formulations: An Overview (Pharmaceutics 2023)
+- 17722087 — Antimicrobial preservative use in parenteral products: past and present (J Pharm Sci 2007)
+- 15539807 — Liquid growth hormone: preservatives and buffers (Horm Res 2004)
+- 26620825 — Stability of lyophilized teriparatide, PTH(1-34), after reconstitution (Eur J Pharm Biopharm 2016)
+- 35017698 — Bacteriostatic preserved saline for pain-free periocular injections: review (Eye (Lond) 2022)
+- 3369469 — Incompatibility of ifosfamide with benzyl-alcohol-preserved bacteriostatic water for injection (Am J Hosp Pharm 1988)
+- 11766131 — Final report on the safety assessment of Benzyl Alcohol, Benzoic Acid, and Sodium Benzoate (Int J Toxicol 2001)
+- 41649135 — Benzyl Alcohol: Allergen of the Year 2026 (Dermatitis 2026)
+- 15728052 — Bacteriostatic saline containing benzyl alcohol decreases the pain associated with the injection of propofol (Anesth Analg 2005)
+- 23164205 — Bacteriostatic normal saline compared with buffered 1% lidocaine when injected intradermally (J Perianesth Nurs 2012)
+
+⚠️ **Caution reconfirmed:** plausible-looking terms returned nothing or junk —
+`benzyl alcohol gasping syndrome low birth weight infants` (0), `benzyl alcohol preservative
+multidose vial` (0), `benzyl alcohol 0.9% parenteral maximum concentration` (0). One drafted
+PMID (35252499) resolved to a high-cycle fatigue paper on aluminium-silicon alloys. Harvest
+with `esearch`, confirm every ID with `esummary`, never draft from memory.
+
+### Files changed
+`src/data/bacteriostatic-water-silo.ts` (new) · `src/data/bacteriostatic-water-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) · `src/app/compound-guides/[slug]/page.tsx`
+(compound-aware switch for 14 compounds) · `src/app/compounds/[slug]/page.tsx` (hub tile block).
+Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+---
+
 ## Part 1 — Where we are
 
 ### Retatrutide silo (reference implementation, live)
