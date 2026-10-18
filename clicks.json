@@ -15123,5 +15123,52 @@
     "compoundSlug": "ace-031-1mg",
     "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein",
     "visitorId": "ac6dfd2ac78e4ea9"
+  },
+  {
+    "ts": "2026-10-18T22:04:45.713Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein",
+    "visitorId": "29a80b2b97b13a6d"
+  },
+  {
+    "ts": "2026-10-18T22:11:00.162Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://novapeptidelab.co.uk/product/mots-c-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/nova-peptide-lab/mots-c",
+    "visitorId": "f4736e9609343191"
+  },
+  {
+    "ts": "2026-10-18T22:31:50.700Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/bpc-157-10mg",
+    "visitorId": "6e3715de2ee5a49d"
+  },
+  {
+    "ts": "2026-10-18T22:33:09.593Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://retaresearch.co/products/sema",
+    "visitorId": "97963f064cf557f9"
+  },
+  {
+    "ts": "2026-10-18T22:54:41.697Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://retaresearch.co/products/tb-500",
+    "refPage": "https://www.viralpeps.co.uk/go/reta-research/tb-500",
+    "visitorId": "c9369207cce46b0f"
   }
 ]
