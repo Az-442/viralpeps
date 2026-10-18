@@ -13955,5 +13955,44 @@
     "destUrl": "https://ukpeptides.com/catalog/tb500-theymalin",
     "refPage": "https://www.viralpeps.co.uk/go/uk-peptides/tb-500",
     "visitorId": "4df9a0ad3d13466a"
+  },
+  {
+    "ts": "2026-10-18T07:53:25.569Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2ab26903a7ed91fa"
+  },
+  {
+    "ts": "2026-10-18T07:53:28.766Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f809504cf7b8971a"
+  },
+  {
+    "ts": "2026-10-18T08:08:05.902Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidelabuk.co.uk/product/buy-selank-5mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptide-lab-uk/selank",
+    "visitorId": "5d89f9933e5cb388"
+  },
+  {
+    "ts": "2026-10-18T08:25:01.771Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://everythingpeptides.co.uk/products/selank",
+    "visitorId": "ce60ab8ca7b68d8e"
   }
 ]
