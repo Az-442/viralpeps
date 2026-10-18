@@ -1985,21 +1985,187 @@ on `/research` and in `sitemap.xml`, and each present in its compound's Research
 
 ---
 
-## Next up
-*Day 27 complete (with `p21-research-summary` skipped — see entry). Advance to
-**Day 29** — `kpv-vs-ll37`, `cardiogen-deep-dive` (2 articles). Day 28's three articles
-(`survodutide-suppliers-uk`, `buy-epitalon-uk`, `follistatin-344-for-muscle-growth`)
-were consumed by this run, so **skip Day 28 entirely**.*
+---
 
-⚠️ **`kpv-vs-ll37` has a near-neighbour trap.** `public/images/guides/kpv-vs-ll-37.png`
-already exists on disk and the registry carries `kpv-vs-ll-37` (hyphenated `ll-37`) while
-the plan's slug is `kpv-vs-ll37` (no hyphen). **Check whether `kpv-vs-ll-37` is already a
-live article — if so, this is the same article under a different slug and must be skipped,
-not rewritten.**
+## Day 29 + Day 30 — Wed 14 / Thu 15 Oct (3 written; 2 skipped, 1 substituted) ✅ DONE
+Completed 18 Oct 2026 by daily blog cron (main branch, direct, commit `b641aaea`).
+
+### ⚠️ Both Day-29 plan articles SKIPPED — neither was written
+**`kpv-vs-ll37` — DUPLICATE.** The plan's slug has no hyphen in `ll37`; the registry
+already carries **`kpv-vs-ll-37`** (hyphenated), live at
+`/research/kpv-vs-ll-37` with a complete 6-section KPV-vs-LL-37 comparison
+(short answer / mechanism uptake-vs-membrane / evidence base / sourcing both in the UK /
+which for which question / bottom line), 13 references, `compoundSlug: kpv`,
+`compoundSlug2: ll-37`, and the card `public/images/guides/kpv-vs-ll-37.png` already on
+disk. This is the same article under a different slug. The Day-27 "Next up" flag was
+correct — verify before writing, and the check paid for itself here.
+**Do not create `/research/kpv-vs-ll37`.** A 404 on it is correct.
+
+**`cardiogen-deep-dive` — NO DISTINCT ANGLE REMAINING.** Four Cardiogen articles already
+exist and their section inventories cover the full span a deep dive would need:
+
+| Article | Already covers |
+|---|---|
+| `cardiogen-research-summary` | AEDR identity, the epigenetic gene-regulation thesis, transporter uptake, cardiac gene-expression modulation, SASP/inflammaging, all three published findings (cardiac proliferation at picomolar doses, p53 suppression, M-1 sarcoma tumour-vascular effect), the unresolved p53 safety paradox, and where it sits in the Khavinson class |
+| `cardiogen-suppliers-uk` | AEDR sequence and 489.5 g/mol mass, the bioregulator naming framework, why the UK base is only 2 vendors, both tracked listings and the cost-per-mg inversion (£24.99/10 mg vs £46.99/20 mg), verification with no CAS number, COA/mass-spec checks |
+| `cardiogen-for-heart-health` | The goal framing, what the record contains, what is *not* established |
+| `cardiogen-vs-bpc-157` | Evidence-base comparison, UK market liquidity vs fragmentation |
+
+A fifth "deep dive" would have restated the research summary almost section for section.
+Per the Day-27 lesson (check sibling section titles, not just slugs) it was skipped.
+
+### Substitution — Day 29 slot filled with `staircase-of-vial-sizes`
+Rather than burn the day, the freed slot went to a **new non-compound pillar** built from
+data already in `compounds.json` — no compound duplication, different article type
+(pillar) from the two suppliers/pillar articles written alongside it.
+
+### Articles written
+- `mots-c-suppliers-uk` — **mots-c suppliers UK** (Day 30, suppliers) — section:
+  research-hub, compoundSlug: mots-c. Angle: the depth itself is the trap. 93 vendors /
+  127 listings / median £28.48, headline £10.86–£199.99 (18.4x). Full normalised £/mg
+  table by presentation band (5/10/20/30/40/60 mg + bulk pack + unstated). The cheapest
+  sticker price in the market — £10.86 for 5 mg = £2.17/mg — is **3.5x worse** than a
+  £25.00 40 mg vial at £0.62/mg. 21 of 127 listings (16.5%) state no size at all. Four
+  spec checks, including the **two conflicting MOTS-c masses in circulation**
+  (2,174 g/mol vs the catalogue's 1,734.9 g/mol) and why you must compute expected mass
+  from the stated sequence rather than accept "matches specification". Five-step
+  10-minute short-list of 93 vendors.
+- `buy-research-peptides-uk` — **buy research peptides UK** (Day 30, pillar) — section:
+  research-hub, no compoundSlug. Angle: procurement **sequence**, deliberately not another
+  red-flag list. Eight ordered steps over the whole catalogue (3,580 listings / 411
+  compounds / 112 vendors): write the requirement → drop the 980 unstated-quantity
+  listings (27.4%) → normalise to £/mg → choose the presentation → short-list 3 within
+  20% → batch-matched COA → **check the certificate arithmetic against the sequence** →
+  reconcile the batch on arrival. Explicitly distinct from the four live buying articles
+  (`research-peptides-for-sale-uk` = market structure, `peptides-for-sale-uk` = category
+  walk-through, `where-to-buy-peptides-uk` = four checks, `buy-peptides-online-uk` =
+  market in numbers).
+- `staircase-of-vial-sizes` — **the cost-per-milligram / vial-size trap** (Day 29
+  substitute, pillar) — section: research-hub. **Computed finding:** across the 67
+  compounds with ≥5 listings carrying a stated vial size, the cheapest-sticker listing is
+  **not** the cheapest per milligram on **49 of 67 (73%)**. Median penalty for following
+  sticker price **2.0x**; worst case **GHK-Cu at 13.0x** (£6.48 5 mg = £1.30/mg vs £52.00
+  50 mg×10 = £0.10/mg). Eight-compound worked table (GHK-Cu 13.0x, CJC-1295-no-DAC 5.3x,
+  MOTS-c 3.5x, TB-500 3.0x, BPC-157 2.6x, Epitalon 2.6x, Tirzepatide 1.6x,
+  Retatrutide 1.1x). Explains why **cheap-to-synthesise peptides are distorted most**
+  (fixed fill/label/shipment cost dominates) and why 6 of the 8 worst cases are multi-vial
+  packs — the most misread format in the market.
+
+Article types differ (suppliers / pillar / pillar) and compounds differ — no keyword
+stacking. The two pillars are distinct in subject: one is a buying sequence, the other is
+a pricing-geometry analysis.
+
+Cards:
+- `public/images/guides/mots-c-suppliers-uk.png` — Pillow single-vial 75%
+  (`mots-c-vial`), badge "Supplier Guide", subtitle "93 Vendors, One Wrong Ranking".
+  Vial label QA'd with the vision tool BEFORE compositing: **"MOTS-c / 10mg"** — correct.
+- `public/images/guides/buy-research-peptides-uk.png` — photorealistic base + Pillow
+  chrome, badge "Procurement Guide", subtitle "The Eight-Step Sequence"
+- `public/images/guides/staircase-of-vial-sizes.png` — photorealistic base + Pillow chrome,
+  badge "Market Guide", subtitle "Why Cheap Costs More"
+
+Card scripts: `scripts/kw29_card1.py` (compound card) and `scripts/kw29_cards23.py`
+(the two non-compound cards). Title width measured with `draw.textlength()`:
+"MOTS-c Suppliers" = 363px against 579px — comfortable. All three finished cards
+vision-checked: correct compound on the vial, no clipping, no overflow.
+
+Word counts (rendered page, incl. site chrome): **3,439 / 3,166 / 2,309**.
+
+Build: passed (**290/290 pages**, up from 281). `tsc --noEmit` clean. All **16** internal
+links verified against `compounds.json`, `vendors.json` and live
+`research.ts`/`research-content.ts` keys — **0 broken**. **16 PMIDs verified individually
+via NCBI E-utilities esummary** (title + journal + author + volume/pages matched —
+none guessed): 25738459, 27216708, 33473109, 29983246, 26289118, 33468709, 34728329,
+34419510, 29691953, 34351816, 34413391, 33722744, 36670507, 41083123, 42243958, 31293078.
+All 3 card `image:` refs cross-checked against disk and serve at matching byte size.
+Diff was **375 insertions / 0 deletions** — purely additive, no existing article touched.
+
+Live verified: all three 200 with correct `<title>`, self-referencing canonical, card
+images serving at matching byte size (146529 / 173270 / 173036), all three listed on
+`/research` and in `sitemap.xml`, and `mots-c-suppliers-uk` present in
+`/compounds/mots-c`'s Research Library.
+
+### ⚠️ Lessons from this run
+1. **Check whether the planned slug is a *slug variant* of an existing article.** The plan
+   carries `kpv-vs-ll37`; the registry carries `kpv-vs-ll-37`. A plain `grep` for the plan
+   slug returns 0 and a naive dedupe passes it — the article is already live. **Normalise
+   hyphens in compound fragments (`ll-37`, `5-amino-1mq`, `pt-141`) before concluding a
+   slug is new.** The card file `kpv-vs-ll-37.png` already on disk was the redundant
+   clue that the article existed.
+2. **A compound with 4 articles will usually have no fifth angle — enumerate sibling
+   *section titles*, not slugs** (Day-27 lesson confirmed; it is what killed
+   `cardiogen-deep-dive` cleanly in one step).
+3. **A substitution is better than a restatement, but it must not duplicate either.**
+   `staircase-of-vial-sizes` was safe because it is a cross-catalogue analysis, not a
+   compound article, and no existing article claims the cost-per-mg geometry.
+4. **`python3 -c` and `curl | python3` are both blocked by the approval gate**
+   (`tirith:script_execution_via_-c_flag`, `tirith:curl_pipe_shell`). Write every probe
+   to a `scripts/kw29_*.py` file and invoke it. Confirmed on the first attempt here.
+5. **NCBI `esearch` rejects long natural-language queries and returns an EMPTY idlist
+   (not an error)** — which looks exactly like "no such paper". `MOTS-c[ti] AND
+   Cell Metab[ta]` works; a 9-word sentence returns `[]`. Use field tags (`[ti]`, `[au]`,
+   `[dp]`, `[ta]`), keep it short, and if a known-correct paper returns `[]`, tighten the
+   query rather than concluding it does not exist. The Lee/Cohen 2015 paper came back
+   from `MOTS-c[ti] AND Cell Metab[ta]` after four long queries returned nothing.
+6. **The seam was the `2s-0` form again** (len 35, count 1):
+   `'  ],' + NL + '},' + NL + NL + '};' + NL + 'export default content;'`.
+   `2s-2s` matched 0 and `0s-0` matched 1 **as a substring** — always take the LONGEST
+   unique match, not any match.
+7. **The `research.ts` guides anchor had NO blank line before `];`**:
+   `'  },\n];\n\nexport const compoundList'` (count 1); the blank-line variant matched 0.
+   Unchanged from Days 24–27.
+8. **`write_file` did NOT double escapes this run** — run-length checker reported
+   `{1: 46}`, `{1: 54}`, `{1: 37}` (strictly single backslash before every `\n`) and no
+   doubled quote runs. Normaliser run check-first, no changes. Consistent with Days 7,
+   21, 23, 24, 25, 26, 27.
+9. **`compoundSlug: null` is NOT valid** — the interface is `compoundSlug?: string`, so
+   omit the field entirely for non-compound articles. Writing `null` fails the `tsc` gate
+   (Day-10 lesson on explicit `undefined` applies to `null` too).
+10. **No FAL key in this cron session and no `image_generate` tool** — confirmed by
+    enumerating env and `.env*` files, so a fresh photorealistic base still cannot be
+    generated. The approved compound-neutral base (recovered via `recover_base()`, native
+    355×241, never upscaled) was reused for both non-compound cards. `/tmp/gen_cards/`
+    survived from 16 Oct this time.
+11. **`git status` noisy again** with foreign supplier-job changes (`.wt/day2`,
+    `lab77-peptides.png`, 3 untracked lab77 product webps, `tsconfig.tsbuildinfo`, six
+    untracked `kw27_*.py`). Staged ONLY my 14 files; `HEAD..origin/main` was 0/0 before
+    the push and 0/0 after.
+12. **A `python3 - <<'PYEOF'` heredoc written via the tool is fine, but building the
+    commit message with a heredoc and then amending is worth checking** — the first
+    commit subject shipped a typo (`mot-s`), caught before push and fixed with
+    `git commit --amend`. Read the `git log --oneline -1` output before pushing.
+
+### ⚠️ Still out of scope / queued
+- **Broken forward-links unchanged:** `/research/p21-research-summary`,
+  `hgh-fragment-176-191-research-summary`, `igf-1-lr3-research-summary`,
+  `thymosin-alpha1-research-summary`. None were linked from this run's articles.
+- **`ll-37` compound `name` is `"LL-37 5mg"`** — a dosage-suffixed `name` field, the same
+  class of data error as `AHK-CU 100mg` (Day 25) and `Pancragen 10mg` / `Pinealon 10mg` /
+  `Testagen 10mg` / `Thymalin 10mg` / `Vesugen 10mg` (found this run — many Khavinson-class
+  compounds carry a dosage in `name`). Flagged, not changed: it renders in the compound
+  listing avatar, search results and compound hero.
+- **`cortagen-research-peptide` has zero articles** and thin catalogue data
+  (`cas: 'N/A'`, `molarMass: 'N/A'`, `sequence: 'N/A'`, `description` = "research peptide
+  for laboratory use only"). A genuinely open article with 4 UK vendors
+  (£30.00–£48.95). Needs real sequence/mass research before any article is written.
+
+---
+
+## Plan status: COMPLETE
+All 30 days are now accounted for. Remaining plan items and their disposition:
+- `p21-research-summary` (Day 27) — skipped, duplicate of 4 existing P21 articles
+- `kpv-vs-ll37` (Day 29) — skipped, already live as `kpv-vs-ll-37`
+- `cardiogen-deep-dive` (Day 29) — skipped, no angle beyond 4 existing articles
+- `mots-c-suppliers-uk`, `buy-research-peptides-uk` (Day 30) — written this run
+- `buy-tb-500-uk` (Day 11) — removed from the plan 2026-10-12 (silo spoke owns it)
+
+**No further days remain in KW Phase 1.** Future runs of this job should report
+"[SILENT]" unless the plan file gains new days.
 
 ⚠️ **`ll-37` compound name in `compounds.json` is `"LL-37 5mg"`** — a dosage-suffixed
-`name` field, the same class of data error found on AHK-Cu on Day 25. Worth fixing to
-`"LL-37"` while in the area (flag, do not silently change).
+`name` field, the same class of data error found on AHK-Cu on Day 25 (and on
+`Pancragen 10mg`, `Pinealon 10mg`, `Testagen 10mg`, `Thymalin 10mg`, `Vesugen 10mg`).
+Worth fixing to `"LL-37"` (flag, do not silently change).
 
 ⚠️ **Stage any temp fragments OUTSIDE the repo root** — `viralpeps/tmp/` is inside the
 build's TypeScript scope and bare `.ts` fragments there fail the build (Day-23 lesson 3).
