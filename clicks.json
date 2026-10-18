@@ -13546,5 +13546,14 @@
     "compoundSlug": "ll-37",
     "destUrl": "https://vialverse.com/peptides/ll-37",
     "visitorId": "d14b8c1194c502c4"
+  },
+  {
+    "ts": "2026-10-18T02:15:12.222Z",
+    "type": "vendor-site",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "destUrl": "https://phoenixbiolabs.net",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "89a691d56aef0a33"
   }
 ]
