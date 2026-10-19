@@ -20248,5 +20248,86 @@
     "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "72aa4a159817bd49"
+  },
+  {
+    "ts": "2026-10-19T21:19:32.847Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.peptidesx.uk/product/epitalon/",
+    "visitorId": "12dac91eb439dacb"
+  },
+  {
+    "ts": "2026-10-19T21:23:41.581Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.revexa.co.uk/product-page/epitalon-10mg-telomerase-research-tetrapeptide",
+    "visitorId": "f264e3700b831255"
+  },
+  {
+    "ts": "2026-10-19T21:23:41.744Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://novavitality.co.uk/product/melanotan1/",
+    "visitorId": "0afbd4f7791cc61f"
+  },
+  {
+    "ts": "2026-10-19T21:24:23.085Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "d1286c12d653fde0"
+  },
+  {
+    "ts": "2026-10-19T21:28:42.702Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "premium-bpc-157-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "6acac942064f7eb4"
+  },
+  {
+    "ts": "2026-10-19T21:28:42.740Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.buyreta.co.uk/product/vip-uk",
+    "visitorId": "a45aa51df2fc46d8"
+  },
+  {
+    "ts": "2026-10-19T21:29:42.695Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptx.co.uk/single-vials/pe-22-28",
+    "visitorId": "c92e3868508ec8dd"
+  },
+  {
+    "ts": "2026-10-19T21:31:49.676Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://vialverse.com/peptides/kisspeptin-10",
+    "visitorId": "aade3224591fe486"
+  },
+  {
+    "ts": "2026-10-19T21:43:59.742Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.revexa.co.uk/product-page/semax-10mg-acth-4-10-analogue",
+    "visitorId": "6c816fcbc34c620d"
   }
 ]
