@@ -18696,5 +18696,78 @@
     "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
     "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/ara-290",
     "visitorId": "4df9a0ad3d13466a"
+  },
+  {
+    "ts": "2026-10-19T18:47:15.674Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/tesamorelin-research-grade-10mg",
+    "visitorId": "2ede8009242302b2"
+  },
+  {
+    "ts": "2026-10-19T18:47:15.688Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "0afbd4f7791cc61f"
+  },
+  {
+    "ts": "2026-10-19T19:08:17.904Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.apex-pharma.co.uk/product/semax-10mg/",
+    "visitorId": "a165ad16843ea02e"
+  },
+  {
+    "ts": "2026-10-19T19:09:36.729Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "0fbb9f606dbff360"
+  },
+  {
+    "ts": "2026-10-19T19:10:47.331Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.peptidesx.uk/product/tb-500/",
+    "visitorId": "a45aa51df2fc46d8"
+  },
+  {
+    "ts": "2026-10-19T19:13:41.605Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glow",
+    "destUrl": "https://phoenixbiolabs.net/shop/glow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f1d53f387694e32a"
+  },
+  {
+    "ts": "2026-10-19T19:16:45.079Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.buyreta.co.uk/product/mots-c-40mg-uk",
+    "visitorId": "77723c19d6e73f05"
+  },
+  {
+    "ts": "2026-10-19T19:18:39.620Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin",
+    "visitorId": "12dac91eb439dacb"
   }
 ]
