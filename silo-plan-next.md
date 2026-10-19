@@ -1444,6 +1444,98 @@ Record the new silo in `silo-plan-next.md` and, if the pattern changed, patch th
 
 ---
 
+## ✅ DONE — SS-31 SILO (commit `2ec5ea8a`)
+
+Queue: all 5 originally-queued compounds were already built. SS-31 was chosen as the highest-source
+unbuilt compound in `compounds.json` (80 master sources + 7 child variant entries = 95 rows,
+71 vendors) with a 200 hub. Built per the locked SOP. Deploy verified live 2026-10-19.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-ss-31-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-ss-31-uk
+- https://www.viralpeps.co.uk/compound-guides/ss-31-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-ss-31-online-uk
+- https://www.viralpeps.co.uk/compound-guides/ss-31-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-ss-31-peptide
+
+**Verified metrics:** rendered words 1,849–2,341 (all ≥1,200) · titles 47–59 chars ·
+descriptions 155–159 chars · focus keyword in H1 + intro[0] · 71 unique live go-links on the
+full comparison spoke (67× 302, 4× 308 trailing-slash normalisation — same as live Semax/Selank;
+0 broken) · 0 body-copy duplication across spokes (only the site-wide RUO disclaimer + global
+nav repeat) · hub tiles present on `/compounds/ss-31` (6 compound-guides links) · index lists
+SS-31 · all 6 spokes in sitemap · `npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-19)
+
+⚠️ **Five of the six default modifiers returned ZERO UK results for SS-31** — substituted, as
+the SOP requires. `ss-31` autocompletes in the spaced form (`ss 31`) for most modifiers; both
+forms were harvested.
+
+| Modifier | Result |
+|---|---|
+| `where to buy ss-31 uk` | ⚠️ **0 results** (only `buy ss 31 uk` + one irrelevant sug) → substituted `where can i buy ss-31` (**exact #1**; also `where can i buy ss-31 peptide`) |
+| `cheapest ss-31 uk` | ⚠️ **0 results** → substituted `ss 31 best price` / `ss 31 peptide best price` (real hits under `ss 31 price`) |
+| `ss-31 price comparison uk` | ⚠️ **0 results** → substituted `ss 31 price` (**exact #1**; plus `ss 31 peptide price`, `ss 31 50mg price`, `ss 31 10mg price`, `ss 31 elamipretide price`) |
+| `buy ss-31 online uk` | ⚠️ **0 results** → substituted `buy ss 31 peptide uk` (**exact #1**; also `buy ss 31 uk` under `buy ss-31 `, `ss 31 peptide buy uk`) |
+| `ss-31 uk supplier` | ⚠️ **0 results** (`ss-31 uk suppliers` also 0) → substituted `ss 31 peptide for sale` (**exact #1**; UK form `ss 31 peptide buy uk`) |
+| `best ss-31 peptide` | **exact match #1** — passed |
+
+Corroborating hits: `ss 31 uk peptides`, `ss 31 50mg uk`, `peptide ss-31 uk`, `elamipretide uk`,
+`elamipretide buy uk`, `ss 31 peptide buy`, `ss 31 peptide buy online`, `ss 31 peptide vs mots c`.
+
+### ⚠️ Spoke 5 substitution detail
+**No supplier-intent phrasing exists for SS-31** (`ss-31 uk supplier` / `ss-31 suppliers uk` both 0).
+Spoke 5 was built on **`ss-31 for sale uk`** (autocomplete base: `ss 31 peptide for sale`, exact #1),
+with the page framed around availability — which is the real differentiator for SS-31, since
+elamipretide's clinical status makes stock event-driven.
+
+### Collision check (KW Phase 1)
+`grep -niE "ss-31|ss 31|elamipretide|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`
+returned **zero ss-31 / elamipretide matches**. Only unrelated pillar rows:
+`where-to-buy-peptides-uk` (34), `where-to-buy-tirzepatide-uk` (89), `cheapest-peptides-uk` (123).
+**No plan collisions — nothing removed.**
+
+### Data
+- 95 rows from 80 master sources + 7 child variant entries (`ss-31-10mg`, `ss-31-50mg`,
+  `ss-31-10mg-imperial`, `ss-31-vial-express`, `ss-31-pen-express`,
+  `ss-31-research-peptides-uk`, `sterling-ss-31-10mg`) → 71 vendors, 0 missing from vendors.json.
+- Uses the `vendorSlugFor()` helper (the Semax fix) — real slugs from `vendors.json`, 0 broken go-links.
+- **29 of 95 rows have no mg figure** in compounds.json (vendor pages don't state pack size).
+  These correctly render "—" per mg rather than a guessed number. Worth a future data pass.
+- Pack distribution: 46× 10mg · 29× unspecified · 15× 50mg · remainder kits/pens/other.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary)
+- 39940712 — Elamipretide: A Review of Its Structure, Mechanism of Action, and Therapeutic Potential (Int J Mol Sci 2025)
+- 21546574 — Mitochondria-targeted peptide accelerates ATP recovery and reduces ischemic kidney injury (JASN 2011)
+- 17429296 — Potent mitochondria-targeted peptides reduce myocardial infarction in rats (Coron Artery Dis 2007)
+- 38530359 — Genome-wide CRISPR screen identifies phospholipid scramblase 3 as the SS-31 target (JASN 2024)
+- 23692570 — Mitochondria-targeted peptide rapidly improves mitochondrial energetics and skeletal muscle performance in aged mice (Aging Cell 2013)
+- 30597195 — Improving mitochondrial function with SS-31 reverses age-related redox stress and improves exercise tolerance (Free Radic Biol Med 2019)
+- 33077895 — Phase 2/3 RCT + open-label extension of elamipretide in Barth syndrome (Genet Med 2021)
+- 38602181 — 168-week TAZPOWER open-label extension (Genet Med 2024)
+- 39574155 — MMPOWER-3 genotype-specific post hoc analysis (Orphanet J Rare Dis 2024)
+- 39605874 — ReCLAIM-2 phase 2 trial in AMD geographic atrophy (Ophthalmol Sci 2025)
+- 38871974 — SS-31 in a murine Barth syndrome model (Sci Rep 2024)
+- 42448476 — Elamipretide: a mitochondria-targeting drug for Barth syndrome (Trends Pharmacol Sci 2026)
+- 41260682 — Elamipretide first cardiolipin-directed mitochondrial therapeutic, accelerated approval (Drug Discov Ther 2026)
+- 35707274 — SS-31, a Mitochondria-Targeting Peptide, Ameliorates Kidney Disease (Oxid Med Cell Longev 2022)
+- 42456009 — SS-31 attenuates radiation-induced cardiomyocyte senescence (J Radiat Res 2026)
+- 42708867 — MitoQ vs SS-31 in aged female mice under nutritional stress (Physiol Res 2026)
+- 39364755 — SS-31 in diabetic cardiomyopathy, mitoGPX4 (Int J Mol Med 2024)
+
+⚠️ Caution reconfirmed: every ID was harvested via `esearch` then verified with `esummary`
+before use — none drafted from memory. A phase 3 HFpEF rat-model paper (42290373) and a
+cortical microhaemorrhage paper (40169521) were found but not used.
+
+### Files changed
+`src/data/ss-31-silo.ts` (new) · `src/data/ss-31-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 15 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block). Sitemap auto-includes via the registry
+(verified live: all 6 spokes present).
+
+---
+
 ## Pitfalls (carry these into every build)
 
 - **Never build `/<compound>-uk`** — the hub owns it. (Error made 15 Sep 2026.)
