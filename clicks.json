@@ -17808,5 +17808,86 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide",
     "visitorId": "1c1626305f2faba8"
+  },
+  {
+    "ts": "2026-10-19T10:35:19.753Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://tidelabs.co.uk/products/ghrh-analog-amide",
+    "visitorId": "9855564913d05ba1"
+  },
+  {
+    "ts": "2026-10-19T10:47:32.675Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "klow",
+    "destUrl": "https://vialverse.com/peptides/klow-blend",
+    "visitorId": "4e0d92fa0885cf8c"
+  },
+  {
+    "ts": "2026-10-19T10:55:35.308Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptx.co.uk/single-vials/tirzepatide",
+    "visitorId": "5ee7351812aafb6f"
+  },
+  {
+    "ts": "2026-10-19T10:55:35.406Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://vialverse.com/peptides/snap-8",
+    "visitorId": "2558d6634fbe3b01"
+  },
+  {
+    "ts": "2026-10-19T10:56:41.304Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.revexa.co.uk/product-page/ahk-cu-50mg",
+    "visitorId": "27640c1ad75ff6a6"
+  },
+  {
+    "ts": "2026-10-19T11:01:44.391Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidesx.uk/product/ghk-cu/",
+    "visitorId": "8cee507647643f87"
+  },
+  {
+    "ts": "2026-10-19T11:02:54.241Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+    "destUrl": "https://www.buyreta.co.uk/product/tesamorelin-ipamorelin-uk",
+    "visitorId": "2ff78f31d4eeaa87"
+  },
+  {
+    "ts": "2026-10-19T11:04:15.357Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-15mg-the-peptide-company",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "2469a6590ba551c0"
+  },
+  {
+    "ts": "2026-10-19T11:05:43.712Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://allmypeptides.com/product/melanotan-1/",
+    "visitorId": "9fd1da888698692f"
   }
 ]
