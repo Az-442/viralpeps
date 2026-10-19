@@ -17160,5 +17160,89 @@
     "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "4f9d3567dd27600b"
+  },
+  {
+    "ts": "2026-10-19T04:46:05.727Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "fd940bebc8e71e8f"
+  },
+  {
+    "ts": "2026-10-19T04:56:05.911Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5f2ce77ad2a31a3d"
+  },
+  {
+    "ts": "2026-10-19T04:56:45.832Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "615406bf1ddf2073"
+  },
+  {
+    "ts": "2026-10-19T04:56:50.005Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "95ba86317ac85ea4"
+  },
+  {
+    "ts": "2026-10-19T04:57:39.324Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ipamore10mg-ghrp",
+    "visitorId": "2469a6590ba551c0"
+  },
+  {
+    "ts": "2026-10-19T04:59:17.421Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "teriparatide",
+    "destUrl": "https://vialverse.com/peptides/teriparatide",
+    "visitorId": "81e4a827a6417fde"
+  },
+  {
+    "ts": "2026-10-19T05:00:51.116Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "913f6e56c51fda15"
+  },
+  {
+    "ts": "2026-10-19T05:01:17.429Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://vialverse.com/peptides/tb-500",
+    "visitorId": "6aca7c357b72dff7"
+  },
+  {
+    "ts": "2026-10-19T05:03:17.330Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "semax",
+    "destUrl": "https://vialverse.com/peptides/semax",
+    "visitorId": "bb64b63bd9dc8e46"
   }
 ]
