@@ -17889,5 +17889,69 @@
     "compoundSlug": "melanotan-i",
     "destUrl": "https://allmypeptides.com/product/melanotan-1/",
     "visitorId": "9fd1da888698692f"
+  },
+  {
+    "ts": "2026-10-19T11:09:49.104Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://vialverse.com/peptides/hexarelin",
+    "visitorId": "14ea34be60dba6e3"
+  },
+  {
+    "ts": "2026-10-19T11:14:01.237Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://www.revexa.co.uk/product-page/pinealon-10mg-neuroprotective-research-tripeptide",
+    "visitorId": "3baee7fe9eb38a3a"
+  },
+  {
+    "ts": "2026-10-19T11:19:42.100Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "163c672a5473ba63"
+  },
+  {
+    "ts": "2026-10-19T11:20:59.757Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.peptidesx.uk/product/mots-c/",
+    "visitorId": "5bd9c3ed5d0a459f"
+  },
+  {
+    "ts": "2026-10-19T11:26:02.921Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.peptidesx.uk/product/nad-plus/",
+    "visitorId": "36057e10259e5b7b"
+  },
+  {
+    "ts": "2026-10-19T11:35:13.029Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-10mg",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/",
+    "visitorId": "6f413c01abaeceb5"
+  },
+  {
+    "ts": "2026-10-19T11:37:14.227Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://vialverse.com/peptides/ll-37",
+    "visitorId": "27b688cf5bfc8831"
   }
 ]
