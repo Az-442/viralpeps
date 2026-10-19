@@ -18517,5 +18517,80 @@
     "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
     "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/kpv",
     "visitorId": "777ebf937ca1cf4f"
+  },
+  {
+    "ts": "2026-10-19T17:46:33.739Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://ukpeptides.org/buy/bpc-157-5mg",
+    "visitorId": "7ffef2703ec35bff"
+  },
+  {
+    "ts": "2026-10-19T17:58:17.377Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b8006bf84f0ac4c7"
+  },
+  {
+    "ts": "2026-10-19T17:58:20.506Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "90c2de5220563c55"
+  },
+  {
+    "ts": "2026-10-19T17:59:43.333Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.buyreta.co.uk/product/aod-9604-uk",
+    "visitorId": "654413e9fbe2170b"
+  },
+  {
+    "ts": "2026-10-19T18:05:29.432Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.northpeptidesuk.com/products/slu-pp-332/",
+    "visitorId": "5d960ec5403ec3c5"
+  },
+  {
+    "ts": "2026-10-19T18:05:30.398Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://phoenixbiolabs.net/shop/fox04-dri-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "54cff3a6aa545e9c"
+  },
+  {
+    "ts": "2026-10-19T18:08:55.465Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://www.buyreta.co.uk/product/aa-water-uk",
+    "visitorId": "caa863bb77260d1f"
+  },
+  {
+    "ts": "2026-10-19T18:16:01.403Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "6824508ba0b22f7a"
   }
 ]
