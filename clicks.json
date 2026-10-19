@@ -17789,5 +17789,15 @@
     "vendorName": "ThePeptideCode",
     "destUrl": "https://thepeptidecode.co.uk",
     "visitorId": "1c5c899f4a8977e4"
+  },
+  {
+    "ts": "2026-10-19T10:34:48.418Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-semax-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "556320754d3146b5"
   }
 ]
