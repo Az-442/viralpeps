@@ -17515,5 +17515,23 @@
     "compoundSlug": "glow",
     "destUrl": "https://www.peptidesx.uk/product/glow-blend/",
     "visitorId": "56d6f7e94f9cc3b1"
+  },
+  {
+    "ts": "2026-10-19T07:25:31.435Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptx.co.uk/single-vials/mots-c",
+    "visitorId": "ef80c86b8b3a893f"
+  },
+  {
+    "ts": "2026-10-19T07:53:00.026Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://ukpeptides.org/buy/mt-2-10mg",
+    "visitorId": "cdf2ce9e7cc2f945"
   }
 ]
