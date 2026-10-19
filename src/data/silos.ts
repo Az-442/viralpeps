@@ -28,6 +28,7 @@ import {
   getBacStats,
   type BacStats,
 } from "@/data/bacteriostatic-water-silo";
+import { SS_31_SPOKES, getSs31Stats, type Ss31Stats } from "@/data/ss-31-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -182,6 +183,14 @@ export const SILOS: Silo[] = [
     spokes: BAC_SPOKES as unknown as SiloSpoke[],
     getStats: () => getBacStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "ss-31",
+    name: "SS-31",
+    blurb:
+      "Elamipretide (mitochondria-targeted tetrapeptide) buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: SS_31_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getSs31Stats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -197,5 +206,5 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats, BacStats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats, BacStats, Ss31Stats };
 export type { GhkStats };
