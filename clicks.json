@@ -17392,5 +17392,63 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://retaresearch.co/products/mots-c",
     "visitorId": "080d2d9ae04e3c79"
+  },
+  {
+    "ts": "2026-10-19T06:04:16.551Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.northpeptidesuk.com/products/nad-plus/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "9a871f5833a9b6c1"
+  },
+  {
+    "ts": "2026-10-19T06:15:37.118Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.northpeptidesuk.com/products/kpv/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "be633b9eece2f9cc"
+  },
+  {
+    "ts": "2026-10-19T06:23:32.145Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-5mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/semax/",
+    "visitorId": "f55cd42ede465b16"
+  },
+  {
+    "ts": "2026-10-19T06:26:07.681Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2759cb34d278981d"
+  },
+  {
+    "ts": "2026-10-19T06:26:12.727Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/cjc-1295-ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cc9059d1b0e3d56a"
+  },
+  {
+    "ts": "2026-10-19T06:33:10.682Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://retaresearch.co/products/tesamorelin-ipamorelin-mix",
+    "visitorId": "5a97fa099e6aae09"
   }
 ]
