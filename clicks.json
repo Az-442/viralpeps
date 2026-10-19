@@ -18769,5 +18769,87 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://vialverse.com/peptides/tesamorelin",
     "visitorId": "12dac91eb439dacb"
+  },
+  {
+    "ts": "2026-10-19T19:25:44.132Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptx.co.uk/single-vials/ipamorelin",
+    "visitorId": "7ace6bcf1aad016e"
+  },
+  {
+    "ts": "2026-10-19T19:27:59.943Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://ukpeptides.org/buy/bacteriostatic-water-3ml",
+    "visitorId": "693897288429ab8f"
+  },
+  {
+    "ts": "2026-10-19T19:27:59.956Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://peptx.co.uk/single-vials/kisspeptin-10",
+    "visitorId": "942bc8cf1b993227"
+  },
+  {
+    "ts": "2026-10-19T19:28:50.366Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/38-ghrp-6-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/ghrp-6",
+    "visitorId": "b330bd37a7b5eb49"
+  },
+  {
+    "ts": "2026-10-19T19:29:49.054Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.revexa.co.uk/product-page/selank-10mg",
+    "visitorId": "df974e0fa7ddb9fb"
+  },
+  {
+    "ts": "2026-10-19T19:31:48.540Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://www.revexa.co.uk/product-page/kisspeptin-5mg-gnrh-pathway-research-compound",
+    "visitorId": "b38e3346fde7c6bb"
+  },
+  {
+    "ts": "2026-10-19T19:46:03.607Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.buyreta.co.uk/product/slu-pp-332-uk",
+    "visitorId": "20f02e863fc60f7f"
+  },
+  {
+    "ts": "2026-10-19T19:48:18.682Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "d8680c35058402e6"
+  },
+  {
+    "ts": "2026-10-19T19:49:13.095Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://vialverse.com/peptides/sermorelin",
+    "visitorId": "89436f7fc2fdc3d3"
   }
 ]
