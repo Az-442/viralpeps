@@ -18592,5 +18592,109 @@
     "compoundSlug": "selank-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/selank/",
     "visitorId": "6824508ba0b22f7a"
+  },
+  {
+    "ts": "2026-10-19T18:18:58.677Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://vialverse.com/peptides/survodutide",
+    "visitorId": "ba784601da53d8ef"
+  },
+  {
+    "ts": "2026-10-19T18:23:21.603Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9d245388332c924b"
+  },
+  {
+    "ts": "2026-10-19T18:26:19.551Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "71402baaece539eb"
+  },
+  {
+    "ts": "2026-10-19T18:26:25.880Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "1c0aeb01ca7fda95"
+  },
+  {
+    "ts": "2026-10-19T18:26:28.831Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "1c0aeb01ca7fda95"
+  },
+  {
+    "ts": "2026-10-19T18:34:42.712Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5d0bb050b29e2195"
+  },
+  {
+    "ts": "2026-10-19T18:34:46.832Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ce9bf4f74c18a60d"
+  },
+  {
+    "ts": "2026-10-19T18:35:08.271Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://www.buyreta.co.uk/product/ll-37-uk",
+    "visitorId": "eea9d53eb89f3bd8"
+  },
+  {
+    "ts": "2026-10-19T18:35:08.349Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.buyreta.co.uk/product/semax-30mg-uk",
+    "visitorId": "34bd3ea0118b909f"
+  },
+  {
+    "ts": "2026-10-19T18:43:03.265Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2bcb8a7e21567a8a"
+  },
+  {
+    "ts": "2026-10-19T18:47:08.580Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/ara-290",
+    "visitorId": "4df9a0ad3d13466a"
   }
 ]
