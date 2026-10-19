@@ -17542,5 +17542,88 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://www.revexa.co.uk/product-page/mots-c-10mg",
     "visitorId": "c69d4eee4c2df373"
+  },
+  {
+    "ts": "2026-10-19T08:23:18.703Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://vialverse.com/peptides/igf-1-lr3",
+    "visitorId": "2eb1031f85ec6ad7"
+  },
+  {
+    "ts": "2026-10-19T08:28:29.373Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "glow-nasal-spray",
+    "destUrl": "https://alphamino.co.uk/shop/glow-research-peptide/",
+    "visitorId": "903f9dbeef2cbe9b"
+  },
+  {
+    "ts": "2026-10-19T08:34:33.668Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://retaresearch.co/products/klow",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cfb23de63c535130"
+  },
+  {
+    "ts": "2026-10-19T08:40:33.969Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-50mg",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/",
+    "visitorId": "3d935e6ea36464c6"
+  },
+  {
+    "ts": "2026-10-19T08:43:11.050Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://www.northpeptidesuk.com/products/slu-pp-332/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "8332bb58610f4ec5"
+  },
+  {
+    "ts": "2026-10-19T08:43:36.343Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "aicar",
+    "destUrl": "https://vialverse.com/peptides/aicar",
+    "visitorId": "efcbf47880681bb2"
+  },
+  {
+    "ts": "2026-10-19T08:45:01.917Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://everythingpeptides.co.uk/products/pt-141-x-10-vials",
+    "visitorId": "0d536806c4e716d9"
+  },
+  {
+    "ts": "2026-10-19T08:45:07.659Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://everythingpeptides.co.uk/products/pt-141-x-10-vials",
+    "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-19T08:58:49.942Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "1c236e73070ca8cf"
   }
 ]
