@@ -5297,5 +5297,60 @@
       },
       "checkedAt": "2026-10-18T00:41:07.267Z"
     }
+  },
+  {
+    "id": "peptidehub",
+    "name": "PeptideHub",
+    "slug": "peptidehub",
+    "website": "https://peptidehub.co.uk",
+    "rating": 4.3,
+    "verified": true,
+    "founded": 2026,
+    "country": "UK",
+    "description": "PeptideHub is a UK research-peptide supplier running a focused catalogue of 18 lyophilised research compounds plus bacteriostatic water, covering metabolic (MOTS-c, NAD+, tesamorelin), recovery and tissue-repair (BPC-157, TB-500, GHK-Cu, KPV), growth-hormone secretagogue (ipamorelin, CJC-1295 DAC), immune (thymosin alpha-1), cognitive (semax, selank, DSIP) and mitochondrial (SS-31) research areas. Products are stated as research-grade, supplied strictly for in-vitro laboratory use only, with batch testing and certificates of analysis available via the site's COA page. Orders are dispatched from London via Royal Mail Tracked 24, free over £120 and normally arriving next working day, with packaging described as unbranded and secure. The site states products are not for human or animal consumption.",
+    "highlights": [
+      "18 research products listed, UK stocked",
+      "Lyophilised vials plus bacteriostatic water",
+      "COA page and verified batch testing stated",
+      "Free Royal Mail Tracked 24 delivery over £120",
+      "Next-working-day delivery target (up to 3 days allowance)",
+      "London-based (71-75 Shelton Street, Covent Garden)",
+      "Research-use-only policy - not for human or animal use",
+      "10% off orders over £200",
+      "Email support at info@peptidehub.co.uk"
+    ],
+    "shipping": [
+      "UK only - all orders shipped via Royal Mail Tracked 24",
+      "Free shipping over £120; orders below £120 shipped Royal Mail Tracked 24 at a charge",
+      "Next working day delivery target; allow up to 3 working days for postal delays",
+      "Orders dispatched the next working day",
+      "Royal Mail tracking information emailed on dispatch",
+      "Unbranded, securely packed outer packaging",
+      "10% off orders over £200"
+    ],
+    "payment": [
+      "Card (WooCommerce checkout)"
+    ],
+    "lastTested": "2026-10-19",
+    "labTested": true,
+    "email": "info@peptidehub.co.uk",
+    "delivery": "UK only, Royal Mail Tracked 24, free over £120 (charged below), dispatched next working day, next-day target with up to 3 working days allowance; tracking emailed on dispatch; unbranded packaging; 10% off orders over £200",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-19T00:36:44.348Z"
+    }
   }
 ]

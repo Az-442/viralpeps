@@ -3129,5 +3129,34 @@
       "coa": "hplc",
       "review": null
     }
+  },
+  "peptidehub": {
+    "slug": "peptidehub",
+    "website": "https://peptidehub.co.uk",
+    "checkedAt": "2026-10-19T00:36:44.348Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "home - peptidehub"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 2,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "coa",
+      "review": null
+    }
   }
 }
