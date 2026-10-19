@@ -18328,5 +18328,54 @@
     "compoundSlug": "glutathione",
     "destUrl": "https://peptx.co.uk/single-vials/glutathione",
     "visitorId": "5c6284f60e193ea4"
+  },
+  {
+    "ts": "2026-10-19T16:18:46.709Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/mots-c-40/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "19027a42980ea182"
+  },
+  {
+    "ts": "2026-10-19T16:21:02.804Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/mgf",
+    "visitorId": "b1574e4af0b9a79e"
+  },
+  {
+    "ts": "2026-10-19T16:23:23.260Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1382a8f32ffa3ae2"
+  },
+  {
+    "ts": "2026-10-19T16:24:19.864Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptx.co.uk/single-vials/semaglutide",
+    "visitorId": "2ac0a5159721545f"
+  },
+  {
+    "ts": "2026-10-19T16:41:50.214Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/24-cjc-1295-no-dac-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/cjc-1295-no-dac",
+    "visitorId": "92e12042637004fe"
   }
 ]
