@@ -17027,5 +17027,128 @@
     "destUrl": "https://retaresearch.co/products/bacteriorastic-water-10ml",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "1b709091567eac0f"
+  },
+  {
+    "ts": "2026-10-19T03:59:51.521Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://retaresearch.co/products/nad",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "19c7b399dc99c59a"
+  },
+  {
+    "ts": "2026-10-19T04:00:24.222Z",
+    "type": "vendor-site",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "destUrl": "https://pslabs.uk",
+    "visitorId": "794ae1c09c1dab0a"
+  },
+  {
+    "ts": "2026-10-19T04:00:55.503Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://retaresearch.co/products/glow",
+    "visitorId": "4b3dba80bce33b77"
+  },
+  {
+    "ts": "2026-10-19T04:02:29.356Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "klow-stack",
+    "destUrl": "https://www.northpeptidesuk.com/products/klow-stack/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "06ad9f5408dbd573"
+  },
+  {
+    "ts": "2026-10-19T04:07:10.223Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://retaresearch.co/products/mots-c",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "53d9a74e9ed1d633"
+  },
+  {
+    "ts": "2026-10-19T04:21:59.816Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://retaresearch.co/products/bpc-157-tb-500-mix",
+    "visitorId": "e57177c3a1f9a41d"
+  },
+  {
+    "ts": "2026-10-19T04:23:11.179Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.northpeptidesuk.com/products/ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e8c8dbba3e96d348"
+  },
+  {
+    "ts": "2026-10-19T04:23:47.767Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bionikpeptides.com/products/kpv",
+    "visitorId": "d3f87e6c84e13a78"
+  },
+  {
+    "ts": "2026-10-19T04:23:49.878Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bionikpeptides.com/products/kpv",
+    "visitorId": "2a07a161836dc1ed"
+  },
+  {
+    "ts": "2026-10-19T04:23:52.539Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bionikpeptides.com/products/kpv",
+    "visitorId": "7ea75a94fb667d3b"
+  },
+  {
+    "ts": "2026-10-19T04:24:38.658Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "wolverine-stack-bpc157-tb500-blend",
+    "destUrl": "https://retaresearch.co/products/bpc-157-tb-500-mix",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "db1b0e769e270404"
+  },
+  {
+    "ts": "2026-10-19T04:27:28.212Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.northpeptidesuk.com/products/semax/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "abc6664b272c6385"
+  },
+  {
+    "ts": "2026-10-19T04:31:17.236Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://retaresearch.co/products/melanotan-2",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ddb050eb2e1b3a6d"
   }
 ]
