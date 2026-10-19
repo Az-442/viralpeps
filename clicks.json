@@ -17253,5 +17253,135 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/",
     "visitorId": "1a0b4a84951e2e8f"
+  },
+  {
+    "ts": "2026-10-19T05:29:34.354Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "dc708c1e748e4b57"
+  },
+  {
+    "ts": "2026-10-19T05:30:42.737Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "7faabc887d2c5647"
+  },
+  {
+    "ts": "2026-10-19T05:31:39.851Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://vialverse.com/peptides/matrixyl",
+    "visitorId": "c103c36cff151564"
+  },
+  {
+    "ts": "2026-10-19T05:34:30.779Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/ipamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cf3e9090e886e6aa"
+  },
+  {
+    "ts": "2026-10-19T05:36:29.425Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://retaresearch.co/products/igf-lr3",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "50ea21645a81c9be"
+  },
+  {
+    "ts": "2026-10-19T05:41:50.052Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.buyreta.co.uk/product/igf-lr3-1mg-uk",
+    "visitorId": "cf712e827af5edb0"
+  },
+  {
+    "ts": "2026-10-19T05:45:57.281Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "visitorId": "c9c2b952e987b74e"
+  },
+  {
+    "ts": "2026-10-19T05:45:59.988Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "visitorId": "e7d1e91ba8eecb59"
+  },
+  {
+    "ts": "2026-10-19T05:46:03.330Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "visitorId": "6fc51cf562034130"
+  },
+  {
+    "ts": "2026-10-19T05:49:19.351Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.northpeptidesuk.com/products/ghk-cu/",
+    "visitorId": "ca57acff88cbf8ac"
+  },
+  {
+    "ts": "2026-10-19T05:50:00.929Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://ukpeptides.org/buy/mots-c-10mg",
+    "visitorId": "9bfce636e17d0615"
+  },
+  {
+    "ts": "2026-10-19T05:55:15.218Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://retaresearch.co/products/cjc-1295-no-dac",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "5d8227a33bd5df5a"
+  },
+  {
+    "ts": "2026-10-19T05:56:01.013Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb500-bacteriostatic-water-research-kit",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "d1f80e1437750015"
+  },
+  {
+    "ts": "2026-10-19T06:00:07.656Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "958bdae88302b204"
   }
 ]
