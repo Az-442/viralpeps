@@ -16233,5 +16233,635 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://www.na-peptides.co.uk/product/tesamorelin-10mg-vial/",
     "visitorId": "48e4e0464786b169"
+  },
+  {
+    "ts": "2026-10-19T01:47:50.494Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tesamorelin/",
+    "visitorId": "c0b1c2883a2f9039"
+  },
+  {
+    "ts": "2026-10-19T01:48:03.553Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/12-aod-9604-5mg.html",
+    "visitorId": "249f8f1b5c83d15a"
+  },
+  {
+    "ts": "2026-10-19T01:48:20.304Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/12-aod-9604-5mg.html",
+    "visitorId": "61165f171d0794ea"
+  },
+  {
+    "ts": "2026-10-19T01:48:22.013Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "kpv",
+    "destUrl": "https://novavitality.co.uk/product/kpv/",
+    "visitorId": "256363e45deb02cd"
+  },
+  {
+    "ts": "2026-10-19T01:48:26.873Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg",
+    "visitorId": "ff35ffae6853f7d5"
+  },
+  {
+    "ts": "2026-10-19T01:48:48.332Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://thepeptidecode.co.uk/products/tesamorelin-10mg",
+    "visitorId": "a2529c03f166cfa7"
+  },
+  {
+    "ts": "2026-10-19T01:49:29.063Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://allmypeptides.com/product/5-amino-1mq/",
+    "visitorId": "e9737715ab96e7fe"
+  },
+  {
+    "ts": "2026-10-19T01:49:46.936Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://retaresearch.co/products/klow",
+    "visitorId": "9c702d88abf753d9"
+  },
+  {
+    "ts": "2026-10-19T01:50:01.190Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://everythingpeptides.co.uk/products/5-amino-1mq",
+    "visitorId": "3ddc09335fa8aa1c"
+  },
+  {
+    "ts": "2026-10-19T01:51:24.652Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://octagonpeptides.co.uk/product/tesamorelin-10-mg/",
+    "visitorId": "b13e8d58ecd8be2e"
+  },
+  {
+    "ts": "2026-10-19T01:51:42.722Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidesuk4u.co.uk/product/aod-9604-10mg",
+    "visitorId": "f2c879abf5876ae5"
+  },
+  {
+    "ts": "2026-10-19T01:52:27.038Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptideslabuk.com/product/kpv/",
+    "visitorId": "b13e8d58ecd8be2e"
+  },
+  {
+    "ts": "2026-10-19T01:52:44.927Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptideslabuk.com/product/kpv/",
+    "visitorId": "cdd1804bb080b908"
+  },
+  {
+    "ts": "2026-10-19T01:53:07.854Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://octagonpeptides.co.uk/product/kpv-10-mg/",
+    "visitorId": "342fd297968d083c"
+  },
+  {
+    "ts": "2026-10-19T01:54:28.965Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://tidelabs.co.uk/products/follistatin-344",
+    "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-19T01:54:31.749Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/tesamorelin-2mg",
+    "visitorId": "7571e595c39925e3"
+  },
+  {
+    "ts": "2026-10-19T01:55:00.530Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://chromapeptides.co.uk/product/kpv/",
+    "visitorId": "13ea3fcad93f8d71"
+  },
+  {
+    "ts": "2026-10-19T01:55:16.295Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://chromapeptides.co.uk/product/kpv/",
+    "visitorId": "6965c32ad7be313d"
+  },
+  {
+    "ts": "2026-10-19T01:55:23.536Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://britpeptides.co.uk/product/aod-9604-5mg/",
+    "visitorId": "592ffa998459b2ce"
+  },
+  {
+    "ts": "2026-10-19T01:55:56.354Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://tidelabs.co.uk/products/aod-9604",
+    "visitorId": "a04e3f11b757f3f2"
+  },
+  {
+    "ts": "2026-10-19T01:55:57.323Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-5-amino-1-mq-50mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "18ab678f361f1421"
+  },
+  {
+    "ts": "2026-10-19T01:56:00.769Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptifyuk.com/product/tesamorelin-10mg",
+    "visitorId": "cc1684bd2bf037e8"
+  },
+  {
+    "ts": "2026-10-19T01:56:01.469Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://polygonpeptides.co.uk/product/kpv-10mg/",
+    "visitorId": "948987fafc39be36"
+  },
+  {
+    "ts": "2026-10-19T01:56:13.809Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://britpeptides.co.uk/product/aod-9604-5mg/",
+    "visitorId": "074b7794a5944c2d"
+  },
+  {
+    "ts": "2026-10-19T01:56:33.405Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://pioneerpeptides.co.uk/products/5-amino-1mq/",
+    "visitorId": "19f05657ae6af21b"
+  },
+  {
+    "ts": "2026-10-19T01:56:39.703Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.buyreta.co.uk/product/5-amino-1mq-uk",
+    "visitorId": "fbc1c62e42ce5b5e"
+  },
+  {
+    "ts": "2026-10-19T01:57:36.595Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157/vial",
+    "visitorId": "7976c8a77bc0a204"
+  },
+  {
+    "ts": "2026-10-19T01:57:42.903Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://precision-peptides.shop/product/aod-9604-10mg/",
+    "visitorId": "e91002004e11bde7"
+  },
+  {
+    "ts": "2026-10-19T01:57:47.614Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidesuk4u.co.uk/product/aod-9604-10mg",
+    "visitorId": "79df39cdc6b363d5"
+  },
+  {
+    "ts": "2026-10-19T01:58:04.732Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://my-peptides.co.uk/products/kpv",
+    "visitorId": "657e29520916006f"
+  },
+  {
+    "ts": "2026-10-19T01:58:05.643Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.proformapeptides.co.uk/product/5-amino-1-mq-5mg/",
+    "visitorId": "0a2391d8ff982383"
+  },
+  {
+    "ts": "2026-10-19T01:58:21.875Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/tesamorelin-10mg",
+    "visitorId": "d435262b0e60d3ac"
+  },
+  {
+    "ts": "2026-10-19T01:58:23.772Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://evapeptide.co.uk/product/buy-5-amino-1mq-uk/",
+    "visitorId": "f08ba18da7a56090"
+  },
+  {
+    "ts": "2026-10-19T01:58:44.691Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/kpv-5mg/",
+    "visitorId": "891b636d7f81f5a2"
+  },
+  {
+    "ts": "2026-10-19T01:59:13.556Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://xlpeptides.com/product/kpv-10mg/",
+    "visitorId": "1e4967db7af95474"
+  },
+  {
+    "ts": "2026-10-19T01:59:30.747Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptideslabuk.com/product/tesamorelin/",
+    "visitorId": "cd9390f46fa2726d"
+  },
+  {
+    "ts": "2026-10-19T01:59:46.327Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptideslabuk.com/product/tesamorelin/",
+    "visitorId": "8dc680f9d4c16486"
+  },
+  {
+    "ts": "2026-10-19T01:59:50.374Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://biotideuk.com/products/aod9604-5-mg",
+    "visitorId": "44024cfe421d2497"
+  },
+  {
+    "ts": "2026-10-19T02:00:33.070Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://crownpeptides.co.uk/shop/crown/5-amino-1mq/",
+    "visitorId": "80b24f360d713d3e"
+  },
+  {
+    "ts": "2026-10-19T02:00:34.154Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://helixcore.co.uk/products/5-amino-1mq",
+    "visitorId": "706c9fc85b1a29b8"
+  },
+  {
+    "ts": "2026-10-19T02:00:47.724Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/5-amino-1-mq-5mg/",
+    "visitorId": "3e66a6174938199c"
+  },
+  {
+    "ts": "2026-10-19T02:00:55.847Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin",
+    "visitorId": "6f7fc095ebbe71ed"
+  },
+  {
+    "ts": "2026-10-19T02:01:35.289Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg",
+    "visitorId": "3ddd28cf500c3ff6"
+  },
+  {
+    "ts": "2026-10-19T02:02:20.539Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bionikpeptides.com/products/5-amino-1mq",
+    "visitorId": "93bdcd88caa4c7f1"
+  },
+  {
+    "ts": "2026-10-19T02:02:59.797Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/",
+    "visitorId": "0f762ad5c590b0c8"
+  },
+  {
+    "ts": "2026-10-19T02:05:21.742Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "kpv",
+    "destUrl": "https://nupex.co.uk/products/kpv-research-peptide-uk",
+    "visitorId": "5004f77c9c796cc7"
+  },
+  {
+    "ts": "2026-10-19T02:05:45.227Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://novavitality.co.uk/product/5-amino-1mq/",
+    "visitorId": "4177f01092561c2e"
+  },
+  {
+    "ts": "2026-10-19T02:05:57.962Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/",
+    "visitorId": "343508b43acc4e86"
+  },
+  {
+    "ts": "2026-10-19T02:06:24.311Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biotideuk.com/products/kpv-10-mg",
+    "visitorId": "66634b34e19637bc"
+  },
+  {
+    "ts": "2026-10-19T02:06:33.140Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://olresearch.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "18d13a026dff07d0"
+  },
+  {
+    "ts": "2026-10-19T02:06:54.582Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://novavitality.co.uk/product/5-amino-1mq/",
+    "visitorId": "6d3f42100faa2e90"
+  },
+  {
+    "ts": "2026-10-19T02:06:56.845Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://olresearch.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "93b4d7c1488f2997"
+  },
+  {
+    "ts": "2026-10-19T02:07:03.906Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/tesamorelin-5mg",
+    "visitorId": "0a2391d8ff982383"
+  },
+  {
+    "ts": "2026-10-19T02:07:33.554Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/kpv-10mg",
+    "visitorId": "55a445e225c98b05"
+  },
+  {
+    "ts": "2026-10-19T02:07:34.269Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://sterlingpeptides.co.uk/product/aod-9604/",
+    "visitorId": "bec3809293eeb137"
+  },
+  {
+    "ts": "2026-10-19T02:07:51.578Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.testedpeptides.co.uk/product/kpv-5mg/",
+    "visitorId": "ab0655269409c6e1"
+  },
+  {
+    "ts": "2026-10-19T02:11:04.418Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://ukpeptides.com/catalog/aod-9604",
+    "visitorId": "19f05657ae6af21b"
+  },
+  {
+    "ts": "2026-10-19T02:11:05.112Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "visitorId": "76ccd2000f837926"
+  },
+  {
+    "ts": "2026-10-19T02:11:16.061Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://retaresearch.co/products/melanotan-1",
+    "visitorId": "9573d7aa033fd298"
+  },
+  {
+    "ts": "2026-10-19T02:11:43.162Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.revexa.co.uk/product-page/5-amino-1mq-10mg-small-molecule",
+    "visitorId": "c80c33428c6c4064"
+  },
+  {
+    "ts": "2026-10-19T02:12:07.389Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "kpv",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-kpv-10mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "0c80a666f7042230"
+  },
+  {
+    "ts": "2026-10-19T02:12:12.277Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://midshirelabs.co.uk/products/vesugen/",
+    "visitorId": "8864da97c2949b52"
+  },
+  {
+    "ts": "2026-10-19T02:12:34.952Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://midshirelabs.co.uk/products/vesugen/",
+    "visitorId": "39cdb48bc5bf3673"
+  },
+  {
+    "ts": "2026-10-19T02:13:03.192Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://midshirelabs.co.uk/products/kpv/",
+    "visitorId": "d0b35ac3d9960ea6"
+  },
+  {
+    "ts": "2026-10-19T02:14:47.395Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://jgpeptidesplus.com/product/5-amino-1mq-5mg/",
+    "visitorId": "e509fe7ffd856be7"
+  },
+  {
+    "ts": "2026-10-19T02:14:58.009Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://biopeptides-uk.com/product/aod-9604-5mg/",
+    "visitorId": "f13546164c972fbe"
+  },
+  {
+    "ts": "2026-10-19T02:15:07.930Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptx.co.uk/single-vials/kpv",
+    "visitorId": "305655db34d9039d"
+  },
+  {
+    "ts": "2026-10-19T02:15:27.873Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "28bc264fc76159ad"
+  },
+  {
+    "ts": "2026-10-19T02:17:26.532Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://evapeptide.co.uk/product/buy-aod9604-uk/",
+    "visitorId": "0bed3515b4aebdf8"
+  },
+  {
+    "ts": "2026-10-19T02:21:27.606Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/tesamorelin/vial",
+    "visitorId": "2feb07c63c414c39"
   }
 ]
