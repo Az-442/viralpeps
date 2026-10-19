@@ -18216,5 +18216,99 @@
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://alphamino.co.uk/shop/alp_l3/",
     "visitorId": "06a4209cc29c09c7"
+  },
+  {
+    "ts": "2026-10-19T14:35:20.491Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "aa642f050c2bebe9"
+  },
+  {
+    "ts": "2026-10-19T14:35:24.980Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ecd076e0750cf48d"
+  },
+  {
+    "ts": "2026-10-19T14:36:44.614Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-10mg-the-peptide-company",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "3d793ac9aa8dd964"
+  },
+  {
+    "ts": "2026-10-19T14:39:51.772Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://phoenixbiolabs.net/shop/ss-31-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a5eab39a560d0daa"
+  },
+  {
+    "ts": "2026-10-19T14:42:46.270Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-the-peptide-company",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "36057e10259e5b7b"
+  },
+  {
+    "ts": "2026-10-19T14:47:24.559Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/",
+    "visitorId": "beddcf30cca91c43"
+  },
+  {
+    "ts": "2026-10-19T14:54:02.216Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.peptidesx.uk/product/cjc-1295-no-dac/",
+    "visitorId": "75c92c6bd8102f50"
+  },
+  {
+    "ts": "2026-10-19T14:54:03.075Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.peptidesx.uk/product/tesamorelin/",
+    "visitorId": "12d064e5557a89b1"
+  },
+  {
+    "ts": "2026-10-19T14:54:45.024Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ipamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/apex-pharma/ipamorelin",
+    "visitorId": "9f116411066b7161"
+  },
+  {
+    "ts": "2026-10-19T15:27:28.496Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-10mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "2f49f4b6b8012612"
   }
 ]
