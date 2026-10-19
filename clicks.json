@@ -17468,5 +17468,52 @@
     "compoundSlug": "ss-31-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/ss-31/",
     "visitorId": "afb023ae6a0fdab5"
+  },
+  {
+    "ts": "2026-10-19T07:08:16.074Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptx.co.uk/single-vials/retatrutide",
+    "visitorId": "09d6dfe90981c37d"
+  },
+  {
+    "ts": "2026-10-19T07:16:52.122Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://novapeptidelab.co.uk/product/glow-70mg-blend/",
+    "visitorId": "e8ee81ceda0a8b95"
+  },
+  {
+    "ts": "2026-10-19T07:18:44.286Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://retaresearch.co/products/cjc-1295-no-dac-ipamorelin-mix",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "666409df777ef23d"
+  },
+  {
+    "ts": "2026-10-19T07:32:37.762Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.northpeptidesuk.com/products/cjc-1295/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "9c363f136a517e63"
+  },
+  {
+    "ts": "2026-10-19T07:45:51.585Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidesx.uk/product/glow-blend/",
+    "visitorId": "56d6f7e94f9cc3b1"
   }
 ]
