@@ -18070,5 +18070,87 @@
     "compoundSlug": "snap-8",
     "destUrl": "https://www.buyreta.co.uk/product/snap-8-uk",
     "visitorId": "5e3d83dff70b10e8"
+  },
+  {
+    "ts": "2026-10-19T12:59:26.622Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.buyreta.co.uk/product/sermorelin-uk",
+    "visitorId": "30b2825e14454deb"
+  },
+  {
+    "ts": "2026-10-19T13:04:05.796Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9a844b4a29b26b69"
+  },
+  {
+    "ts": "2026-10-19T13:10:32.511Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.revexa.co.uk/product-page/ss-31-10mg",
+    "visitorId": "1824db3fcf039037"
+  },
+  {
+    "ts": "2026-10-19T13:12:33.752Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.buyreta.co.uk/product/ahk-cu-uk",
+    "visitorId": "f15cfe7d0b1f90bb"
+  },
+  {
+    "ts": "2026-10-19T13:16:40.716Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.revexa.co.uk/product-page/melanotan-2-10mg",
+    "visitorId": "137d0f66601c19de"
+  },
+  {
+    "ts": "2026-10-19T13:20:37.840Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/",
+    "visitorId": "67c3281519bda894"
+  },
+  {
+    "ts": "2026-10-19T13:20:41.555Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/",
+    "visitorId": "fc712fcafd845813"
+  },
+  {
+    "ts": "2026-10-19T13:20:44.643Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/",
+    "visitorId": "957a9300d268a14a"
+  },
+  {
+    "ts": "2026-10-19T13:26:48.546Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.revexa.co.uk/product-page/bpc-157-5mg",
+    "visitorId": "ac3af1977bb98f15"
   }
 ]
