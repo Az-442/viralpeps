@@ -20545,5 +20545,78 @@
     "compoundSlug": "ss-31",
     "destUrl": "https://vialverse.com/peptides/ss-31",
     "visitorId": "b6b4ca8d95c97b40"
+  },
+  {
+    "ts": "2026-10-19T23:35:41.782Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://www.peptidesx.uk/product/pt-141/",
+    "visitorId": "d7a5329b1b014780"
+  },
+  {
+    "ts": "2026-10-19T23:35:46.566Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://chromapeptides.co.uk/product/cjc-1295-dac/",
+    "visitorId": "e09afd3341760978"
+  },
+  {
+    "ts": "2026-10-19T23:35:56.902Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://chromapeptides.co.uk/product/cjc-1295-dac/",
+    "visitorId": "95f475731dc3c42a"
+  },
+  {
+    "ts": "2026-10-19T23:36:06.921Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://chromapeptides.co.uk/product/cjc-1295-dac/",
+    "visitorId": "a5fad5782b5154ab"
+  },
+  {
+    "ts": "2026-10-19T23:37:39.511Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://www.buyreta.co.uk/product/melanotan-1-uk",
+    "visitorId": "7f4d557c2a92a618"
+  },
+  {
+    "ts": "2026-10-19T23:39:46.030Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.buyreta.co.uk/product/ghk-cu-uk",
+    "visitorId": "1309f872690c30bd"
+  },
+  {
+    "ts": "2026-10-19T23:41:41.319Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "35c7f211d835fa5f"
+  },
+  {
+    "ts": "2026-10-19T23:58:09.216Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "78d15d57c77773a2"
   }
 ]
