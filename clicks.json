@@ -22901,5 +22901,23 @@
     "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "00e57bb4ce382edf"
+  },
+  {
+    "ts": "2026-10-20T06:51:33.893Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/",
+    "visitorId": "10df067b78d060d1"
+  },
+  {
+    "ts": "2026-10-20T07:24:46.927Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/pt-141-10mg/",
+    "visitorId": "7ce9b2991cc0a1ca"
   }
 ]
