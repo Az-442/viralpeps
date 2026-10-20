@@ -22420,5 +22420,50 @@
     "destUrl": "https://phoenixbiolabs.net",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "df64e5b70eca8968"
+  },
+  {
+    "ts": "2026-10-20T02:35:01.978Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
+    "visitorId": "283f431bb682a298"
+  },
+  {
+    "ts": "2026-10-20T02:36:36.093Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://bionikpeptides.com/products/melatonin-mt-ii",
+    "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-20T02:42:25.344Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://ukpeptides.org/buy/nad-500mg",
+    "visitorId": "df7452b0b85912af"
+  },
+  {
+    "ts": "2026-10-20T02:44:19.605Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.buyreta.co.uk/product/bpc-157-uk",
+    "visitorId": "1fffefc43372b5e9"
+  },
+  {
+    "ts": "2026-10-20T03:31:06.929Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://vialverse.com/peptides/ara-290",
+    "visitorId": "eb97c2d1dcad4d11"
   }
 ]
