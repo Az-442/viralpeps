@@ -24990,5 +24990,50 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://peptx.co.uk/single-vials/tesamorelin",
     "visitorId": "8b929fb47ce52941"
+  },
+  {
+    "ts": "2026-10-20T21:16:18.695Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/",
+    "visitorId": "e6d5ef765d549036"
+  },
+  {
+    "ts": "2026-10-20T21:21:43.674Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "mots-c-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/mots-c/",
+    "visitorId": "36fc70c76795ae1b"
+  },
+  {
+    "ts": "2026-10-20T21:24:19.821Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "pnc-27",
+    "destUrl": "https://vialverse.com/peptides/pnc-27",
+    "visitorId": "0bf2198b8251c7d9"
+  },
+  {
+    "ts": "2026-10-20T21:28:30.061Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-50mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "c71c0e38825d6d3e"
+  },
+  {
+    "ts": "2026-10-20T21:44:52.691Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/",
+    "visitorId": "268b9443d632404f"
   }
 ]
