@@ -24061,5 +24061,186 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://ascendpeptidesuk.com/products/ghk-cu-100mg/",
     "visitorId": "aea93ff5159f447b"
+  },
+  {
+    "ts": "2026-10-20T17:13:00.039Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://phoenixbiolabs.net/shop/bacteriostatic-sterile-water-10ml/",
+    "visitorId": "83cfbdd2f9bbc7f4"
+  },
+  {
+    "ts": "2026-10-20T17:14:19.945Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://supplypeptides.co.uk/products/ghk-cu",
+    "visitorId": "40ec1a304e5d05ae"
+  },
+  {
+    "ts": "2026-10-20T17:17:18.064Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://optimuslabs.co.uk/product/thymalin-10mg/",
+    "visitorId": "4ead142e08660699"
+  },
+  {
+    "ts": "2026-10-20T17:20:52.959Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.prime-peptides.co.uk/product/ghk-cu/",
+    "visitorId": "1f38da82a924883d"
+  },
+  {
+    "ts": "2026-10-20T17:22:35.648Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "cb114c5ca7f4c05a"
+  },
+  {
+    "ts": "2026-10-20T17:22:36.759Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "8f103ea8844ae829"
+  },
+  {
+    "ts": "2026-10-20T17:22:42.271Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "75d4a5d82f6d0bff"
+  },
+  {
+    "ts": "2026-10-20T17:25:30.373Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu",
+    "visitorId": "92ec4510ce285202"
+  },
+  {
+    "ts": "2026-10-20T17:25:35.407Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://vialverse.com/peptides/ghrp-6",
+    "visitorId": "b1e17263e624bd45"
+  },
+  {
+    "ts": "2026-10-20T17:25:53.214Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://spxlabs.co.uk/product/ghk-cu-uk-50mg/",
+    "visitorId": "27c7ec4654ce4515"
+  },
+  {
+    "ts": "2026-10-20T17:25:53.595Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/",
+    "visitorId": "90bd125734793f4c"
+  },
+  {
+    "ts": "2026-10-20T17:29:44.999Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://chromapeptides.co.uk/product/ghk-cu/",
+    "visitorId": "856f3ca6f385735d"
+  },
+  {
+    "ts": "2026-10-20T17:30:08.572Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://precision-peptides.shop/product/ghk-cu-100mg/",
+    "visitorId": "9fb3897c732901a1"
+  },
+  {
+    "ts": "2026-10-20T17:30:10.097Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://optimuslabs.co.uk/product/kpv/",
+    "visitorId": "4249fde487cc8407"
+  },
+  {
+    "ts": "2026-10-20T17:32:31.222Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://phoenixbiolabs.net/shop/glutathione-1500mg-prefilled-premixed-pen-research-compound-copy/",
+    "visitorId": "21666575631f1bd6"
+  },
+  {
+    "ts": "2026-10-20T17:33:46.865Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "022ff5c4a1a51a92"
+  },
+  {
+    "ts": "2026-10-20T17:36:48.968Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.peptidesx.uk/product/semax/",
+    "visitorId": "9cac6311786cbd3e"
+  },
+  {
+    "ts": "2026-10-20T17:37:37.051Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bam15",
+    "destUrl": "https://phoenixbiolabs.net/shop/bam15/",
+    "visitorId": "265dc5fb2bff2285"
+  },
+  {
+    "ts": "2026-10-20T17:38:55.847Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britishpeptidelabs.com/products/ghk-cu",
+    "visitorId": "e41bf87a2bc750f6"
+  },
+  {
+    "ts": "2026-10-20T17:43:04.226Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "wolverine-stack-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/wolverine-stack-bpc-157-tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/go/the-peptide-company/wolverine-stack-the-peptide-company",
+    "visitorId": "eb17c36971bb9cc9"
   }
 ]
