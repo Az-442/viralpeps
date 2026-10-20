@@ -24368,5 +24368,130 @@
     "compoundSlug": "dsip",
     "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
     "visitorId": "7f4d557c2a92a618"
+  },
+  {
+    "ts": "2026-10-20T18:47:14.854Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial",
+    "visitorId": "9497e1f2fea181b3"
+  },
+  {
+    "ts": "2026-10-20T18:47:15.545Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.northpeptidesuk.com/products/ipamorelin/",
+    "visitorId": "b62eed14eb8267e9"
+  },
+  {
+    "ts": "2026-10-20T18:49:37.453Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.northpeptidesuk.com/products/nad-plus/",
+    "visitorId": "c4b5c55a3cfb8cdc"
+  },
+  {
+    "ts": "2026-10-20T18:58:00.028Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://novavitality.co.uk/product/igf1lr3/",
+    "visitorId": "7fbeba791b81259e"
+  },
+  {
+    "ts": "2026-10-20T19:00:45.332Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk/go/the-peptide-company/semax-the-peptide-company",
+    "visitorId": "6ec3567ba42bd4b6"
+  },
+  {
+    "ts": "2026-10-20T19:02:19.801Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptx.co.uk/single-vials/nad",
+    "visitorId": "aa7cdb9dee728da8"
+  },
+  {
+    "ts": "2026-10-20T19:02:23.425Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://novavitality.co.uk/product/cjc-1295-no-dac-ipamorelin/",
+    "visitorId": "26d044a80bfe6ed2"
+  },
+  {
+    "ts": "2026-10-20T19:04:06.919Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://octagonpeptides.co.uk/product/dsip-10-mg/",
+    "visitorId": "5bc46c9f55540fb4"
+  },
+  {
+    "ts": "2026-10-20T19:09:46.464Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "db74789e4c2273bd"
+  },
+  {
+    "ts": "2026-10-20T19:09:46.710Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "db74789e4c2273bd"
+  },
+  {
+    "ts": "2026-10-20T19:10:06.319Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://midshirelabs.co.uk/products/mots-c/",
+    "visitorId": "69e6cffc9be6dd76"
+  },
+  {
+    "ts": "2026-10-20T19:13:11.855Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://midshirelabs.co.uk/products/ovagen/",
+    "visitorId": "791975905c2d4631"
+  },
+  {
+    "ts": "2026-10-20T19:13:12.567Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://midshirelabs.co.uk/products/ovagen/",
+    "visitorId": "791975905c2d4631"
+  },
+  {
+    "ts": "2026-10-20T19:17:22.600Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "myostatin-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/myostatin-1mg/",
+    "visitorId": "7351bf5f08b25d23"
   }
 ]
