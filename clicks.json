@@ -22366,5 +22366,59 @@
     "vendorName": "United Peptides",
     "destUrl": "https://unitedpeptides.co.uk",
     "visitorId": "3944203836cd40f2"
+  },
+  {
+    "ts": "2026-10-20T02:32:08.670Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://ukpeptides.org/buy/igf-1-lr3-1mg",
+    "visitorId": "6486268c7a5567b9"
+  },
+  {
+    "ts": "2026-10-20T02:35:23.387Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "semax",
+    "destUrl": "https://ukpeptides.org/buy/semax-10mg",
+    "visitorId": "b8f74438f4a96da7"
+  },
+  {
+    "ts": "2026-10-20T02:36:28.677Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://bionikpeptides.com/products/melatonin-mt-ii",
+    "visitorId": "a8c3d7d385befd60"
+  },
+  {
+    "ts": "2026-10-20T02:36:32.733Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://bionikpeptides.com/products/melatonin-mt-ii",
+    "visitorId": "bec4fc4f0584163e"
+  },
+  {
+    "ts": "2026-10-20T02:59:35.344Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow-combo-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "1430b71a5c53425d"
+  },
+  {
+    "ts": "2026-10-20T03:07:50.075Z",
+    "type": "vendor-site",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "destUrl": "https://phoenixbiolabs.net",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "df64e5b70eca8968"
   }
 ]
