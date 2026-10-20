@@ -22610,5 +22610,50 @@
     "compoundSlug": "kpv",
     "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/",
     "visitorId": "0fc76b0d8acd983e"
+  },
+  {
+    "ts": "2026-10-20T05:08:48.560Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://allmypeptides.com/product/5-amino-1mq/",
+    "visitorId": "a42cc001be235131"
+  },
+  {
+    "ts": "2026-10-20T05:08:52.035Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptideslabuk.com/product/dsip/",
+    "visitorId": "a92668dde9ca381f"
+  },
+  {
+    "ts": "2026-10-20T05:08:57.319Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptideslabuk.com/product/dsip/",
+    "visitorId": "15817ec7f36b9634"
+  },
+  {
+    "ts": "2026-10-20T05:09:09.383Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptideslabuk.com/product/dsip/",
+    "visitorId": "b7e7603661fd2ac7"
+  },
+  {
+    "ts": "2026-10-20T05:55:36.693Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
+    "visitorId": "0d3c04dc436f3d27"
   }
 ]
