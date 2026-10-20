@@ -22583,5 +22583,32 @@
     "compoundSlug": "ghrp-6",
     "destUrl": "https://leolab.co.uk/peptides/ghrp-6/",
     "visitorId": "52159a13a035cc84"
+  },
+  {
+    "ts": "2026-10-20T04:45:30.903Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://lab77peptides.uk/peptides/igf1-lr3?format=vial&size=1mg",
+    "visitorId": "bec881afcc7ea3b7"
+  },
+  {
+    "ts": "2026-10-20T04:46:44.294Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://spxlabs.co.uk/product/ghk-cu-uk-50mg/",
+    "visitorId": "5458f16f9469f7b2"
+  },
+  {
+    "ts": "2026-10-20T05:24:53.117Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/",
+    "visitorId": "0fc76b0d8acd983e"
   }
 ]
