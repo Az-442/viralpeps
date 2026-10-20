@@ -23841,5 +23841,77 @@
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/",
     "visitorId": "28becb264cd8ac9f"
+  },
+  {
+    "ts": "2026-10-20T16:13:29.156Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "1cc146925ed5730e"
+  },
+  {
+    "ts": "2026-10-20T16:22:48.088Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://alphamino.co.uk/shop/nad-research-grade/",
+    "visitorId": "9f673faf0f5c17e1"
+  },
+  {
+    "ts": "2026-10-20T16:26:19.107Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "n-acetyl-semax-amidate-10mg",
+    "destUrl": "https://midshirelabs.co.uk/products/n-acetyl-semax-amidate/",
+    "visitorId": "49e529c9451d05aa"
+  },
+  {
+    "ts": "2026-10-20T16:26:31.111Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "n-acetyl-semax-amidate-10mg",
+    "destUrl": "https://midshirelabs.co.uk/products/n-acetyl-semax-amidate/",
+    "visitorId": "676222153cd530f3"
+  },
+  {
+    "ts": "2026-10-20T16:26:33.942Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "n-acetyl-semax-amidate-10mg",
+    "destUrl": "https://midshirelabs.co.uk/products/n-acetyl-semax-amidate/",
+    "visitorId": "676222153cd530f3"
+  },
+  {
+    "ts": "2026-10-20T16:31:43.861Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/dsip/vial",
+    "visitorId": "49cb96432345b51e"
+  },
+  {
+    "ts": "2026-10-20T16:38:54.766Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "tesamorelin-15mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/tesamorelin-15mg/",
+    "visitorId": "7b98ed5ab6c8954e"
+  },
+  {
+    "ts": "2026-10-20T16:42:13.123Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bam15",
+    "destUrl": "https://phoenixbiolabs.net/shop/bam15/",
+    "visitorId": "203c1458d5f83feb"
   }
 ]
