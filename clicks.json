@@ -23010,5 +23010,51 @@
     "vendorName": "Anglo Peptides",
     "destUrl": "https://anglopeptides.com",
     "visitorId": "94b6042e9758eb94"
+  },
+  {
+    "ts": "2026-10-20T08:51:58.655Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://optimuslabs.co.uk/product/ghk-cu/",
+    "visitorId": "35a733a5cea18377"
+  },
+  {
+    "ts": "2026-10-20T09:08:02.185Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "visitorId": "99cd4d31c74b0498"
+  },
+  {
+    "ts": "2026-10-20T09:08:11.321Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "visitorId": "10df067b78d060d1"
+  },
+  {
+    "ts": "2026-10-20T09:10:44.718Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptidesuk4u.co.uk/product/igf-1-lr3-1mg",
+    "visitorId": "3f44ca768a00af73"
+  },
+  {
+    "ts": "2026-10-20T09:23:32.867Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://peptidesuk.com/ghrp6-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-uk/ghrp-6",
+    "visitorId": "8dcfbe89de308ab2"
   }
 ]
