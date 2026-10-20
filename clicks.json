@@ -23101,5 +23101,142 @@
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://bluewellpeptides.com/product/5-amino-1mq-10mg/",
     "visitorId": "b42e7ea37a5ef0c9"
+  },
+  {
+    "ts": "2026-10-20T10:32:46.651Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://lab77peptides.uk/peptides/mt2?format=vial&size=10mg",
+    "visitorId": "7c898014b36b97ff"
+  },
+  {
+    "ts": "2026-10-20T10:33:46.158Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg-peptide/",
+    "visitorId": "8d416527959130df"
+  },
+  {
+    "ts": "2026-10-20T10:33:56.887Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg-peptide/",
+    "visitorId": "bf63d342155c928a"
+  },
+  {
+    "ts": "2026-10-20T10:34:10.162Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg-peptide/",
+    "visitorId": "d3e5b309a62cb1bc"
+  },
+  {
+    "ts": "2026-10-20T10:39:17.938Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biohackerxlab.com/product/mots-c/",
+    "visitorId": "05650d03e24aa579"
+  },
+  {
+    "ts": "2026-10-20T10:39:33.011Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research",
+    "visitorId": "05650d03e24aa579"
+  },
+  {
+    "ts": "2026-10-20T10:40:22.265Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://thepeptidecode.co.uk/products/mots-c-10mg",
+    "visitorId": "05650d03e24aa579"
+  },
+  {
+    "ts": "2026-10-20T10:40:51.026Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biohackpeptides.co.uk/product/mots-c-10mg-3ml-bac-water/",
+    "visitorId": "05650d03e24aa579"
+  },
+  {
+    "ts": "2026-10-20T10:41:48.705Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://nupex.co.uk/products/mots-c-peptide-for-research",
+    "visitorId": "05650d03e24aa579"
+  },
+  {
+    "ts": "2026-10-20T10:47:05.603Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://phoenixbiolabs.net/shop/l-carnitine-3000/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "da963683def0996a"
+  },
+  {
+    "ts": "2026-10-20T10:51:21.428Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://retaresearch.co/products/melanotan-1",
+    "visitorId": "cf4e45ee814c2b33"
+  },
+  {
+    "ts": "2026-10-20T10:51:22.378Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://retaresearch.co/products/melanotan-1",
+    "visitorId": "611fbea8eea1b24a"
+  },
+  {
+    "ts": "2026-10-20T11:00:34.034Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://bionikpeptides.com/products/pinealon",
+    "visitorId": "1c1626305f2faba8"
+  },
+  {
+    "ts": "2026-10-20T11:00:41.767Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://bionikpeptides.com/products/pinealon",
+    "visitorId": "f11ca88a608564d1"
+  },
+  {
+    "ts": "2026-10-20T11:06:45.949Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://midshirelabs.co.uk/products/klow80/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7befa653e78be30b"
   }
 ]
