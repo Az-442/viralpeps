@@ -23913,5 +23913,153 @@
     "compoundSlug": "bam15",
     "destUrl": "https://phoenixbiolabs.net/shop/bam15/",
     "visitorId": "203c1458d5f83feb"
+  },
+  {
+    "ts": "2026-10-20T16:47:01.247Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "b69746e5a4800dea"
+  },
+  {
+    "ts": "2026-10-20T16:48:19.096Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "375df2ae04a04348"
+  },
+  {
+    "ts": "2026-10-20T16:49:58.694Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "3489c5b1c8be250e"
+  },
+  {
+    "ts": "2026-10-20T16:51:33.842Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://optimuslabs.co.uk/product/bacteriostatic-water/",
+    "refPage": "https://www.viralpeps.co.uk/go/optimus-labs/bacteriostatic-water",
+    "visitorId": "0f70d47d8dd7d4d4"
+  },
+  {
+    "ts": "2026-10-20T16:52:46.443Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://anglopeptides.com/product/ghk-cu-100mg-new-batch-106-research-peptide/",
+    "visitorId": "caead2b2d2f90325"
+  },
+  {
+    "ts": "2026-10-20T16:57:28.823Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ara-290-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ara-290/pen",
+    "visitorId": "3c70b2d69c2c10a0"
+  },
+  {
+    "ts": "2026-10-20T16:57:37.300Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f1051ddd08c30d8e"
+  },
+  {
+    "ts": "2026-10-20T17:03:35.552Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghk-cu",
+    "visitorId": "60750eaf017a6d29"
+  },
+  {
+    "ts": "2026-10-20T17:04:33.061Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://optimuslabs.co.uk/product/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/go/optimus-labs/mots-c",
+    "visitorId": "f2254443dfa03629"
+  },
+  {
+    "ts": "2026-10-20T17:08:23.527Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://biotideuk.com/products/melanotan-2-10-mg",
+    "visitorId": "3e732f830bb505ec"
+  },
+  {
+    "ts": "2026-10-20T17:08:24.390Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://biotideuk.com/products/melanotan-2-10-mg",
+    "visitorId": "e1e82991bde82113"
+  },
+  {
+    "ts": "2026-10-20T17:08:26.979Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://biotideuk.com/products/melanotan-2-10-mg",
+    "visitorId": "27e0cb4236a2982e"
+  },
+  {
+    "ts": "2026-10-20T17:08:44.950Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://biotideuk.com/products/melanotan-2-10-mg",
+    "visitorId": "18eb25717988174a"
+  },
+  {
+    "ts": "2026-10-20T17:08:58.851Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideglobal.co.uk/product/ghk-cu-pen/",
+    "visitorId": "7e449f610f909b5e"
+  },
+  {
+    "ts": "2026-10-20T17:11:26.679Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://vialverse.com/peptides/thymosin-alpha-1",
+    "visitorId": "139f9cb68910bd2d"
+  },
+  {
+    "ts": "2026-10-20T17:12:47.543Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://ascendpeptidesuk.com/products/ghk-cu-100mg/",
+    "visitorId": "aea93ff5159f447b"
   }
 ]
