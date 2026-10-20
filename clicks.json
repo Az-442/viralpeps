@@ -22655,5 +22655,61 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
     "visitorId": "0d3c04dc436f3d27"
+  },
+  {
+    "ts": "2026-10-20T05:28:44.065Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ff56548b59e5ee55"
+  },
+  {
+    "ts": "2026-10-20T05:45:04.099Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b94cf2f44495261a"
+  },
+  {
+    "ts": "2026-10-20T05:45:11.480Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "ec0614b26726349c"
+  },
+  {
+    "ts": "2026-10-20T05:45:15.122Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "a0c0858790835cc4"
+  },
+  {
+    "ts": "2026-10-20T05:45:17.976Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://biopeptides-uk.com/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "de182960385e63bf"
+  },
+  {
+    "ts": "2026-10-20T05:55:47.583Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
+    "visitorId": "8935d84417945548"
   }
 ]
