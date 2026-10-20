@@ -24251,5 +24251,122 @@
     "compoundSlug": "kpv",
     "destUrl": "https://vialverse.com/peptides/kpv",
     "visitorId": "06bb1e894c56710b"
+  },
+  {
+    "ts": "2026-10-20T18:08:40.146Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bac-water-10ml-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/",
+    "visitorId": "dfa7105b54f633dc"
+  },
+  {
+    "ts": "2026-10-20T18:09:43.765Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://bluewellpeptides.com/product/ghk-cu-100mg-copper-peptide/",
+    "visitorId": "835817c8354e8ed3"
+  },
+  {
+    "ts": "2026-10-20T18:10:16.467Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://vialverse.com/peptides/5-amino-1mq",
+    "visitorId": "66534f5d7bb753db"
+  },
+  {
+    "ts": "2026-10-20T18:11:18.537Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://phoenixbiolabs.net/shop/fox04-dri-10mg/",
+    "visitorId": "8ec3578a63995d9d"
+  },
+  {
+    "ts": "2026-10-20T18:20:13.440Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://momentumpeptides.com/product/ghk-cu/",
+    "visitorId": "18f050fb4b8f054e"
+  },
+  {
+    "ts": "2026-10-20T18:21:48.830Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://optimuslabs.co.uk/product/epitalon/",
+    "visitorId": "3377ab12ba9d157f"
+  },
+  {
+    "ts": "2026-10-20T18:22:53.539Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghk-cu/vial",
+    "visitorId": "9fb3897c732901a1"
+  },
+  {
+    "ts": "2026-10-20T18:25:29.806Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "ca7106c83b723507"
+  },
+  {
+    "ts": "2026-10-20T18:25:31.287Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "fc7ae3f5f637ad46"
+  },
+  {
+    "ts": "2026-10-20T18:25:34.751Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "9d05bf254fe6ff5f"
+  },
+  {
+    "ts": "2026-10-20T18:32:39.541Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://jgpeptidesplus.com/product/nad-plus-500mg/",
+    "visitorId": "6a2216fad14a3648"
+  },
+  {
+    "ts": "2026-10-20T18:34:37.542Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://optimuslabs.co.uk/product/5-amino-1mq/",
+    "visitorId": "5da0ed0705c76554"
+  },
+  {
+    "ts": "2026-10-20T18:43:43.342Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "visitorId": "7f4d557c2a92a618"
   }
 ]
