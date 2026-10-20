@@ -22974,5 +22974,33 @@
     "compoundSlug": "ss-31",
     "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/",
     "visitorId": "988c958ddac27de8"
+  },
+  {
+    "ts": "2026-10-20T07:53:29.067Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://www.buyreta.co.uk/product/ovagen-uk",
+    "visitorId": "68d1e5e75c71045a"
+  },
+  {
+    "ts": "2026-10-20T07:54:16.766Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5a4cb65594ce0676"
+  },
+  {
+    "ts": "2026-10-20T08:03:26.489Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://chromapeptides.co.uk/product/melanotan-2-mt-ii/",
+    "visitorId": "d44cbdbbcdf419ec"
   }
 ]
