@@ -23056,5 +23056,41 @@
     "destUrl": "https://peptidesuk.com/ghrp6-10mg/",
     "refPage": "https://www.viralpeps.co.uk/go/peptides-uk/ghrp-6",
     "visitorId": "8dcfbe89de308ab2"
+  },
+  {
+    "ts": "2026-10-20T09:26:59.724Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "vip",
+    "destUrl": "https://vialverse.com/peptides/vip",
+    "visitorId": "4632980a0f54509d"
+  },
+  {
+    "ts": "2026-10-20T09:30:00.603Z",
+    "type": "product",
+    "vendorSlug": "my-peptides",
+    "vendorName": "My Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://my-peptides.co.uk/products/melanotan-2",
+    "visitorId": "47dfeb91ea949d5d"
+  },
+  {
+    "ts": "2026-10-20T09:48:29.734Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://everythingpeptides.co.uk/products/kisspeptin-10",
+    "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-20T09:55:47.476Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://evapeptide.co.uk/product/buy-melanotan-2-uk/",
+    "visitorId": "37b16962c65afc41"
   }
 ]
