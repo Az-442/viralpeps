@@ -22711,5 +22711,59 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://biopulsepeptides.co.uk/shop/hospira-bacteriostatic-water-30ml/",
     "visitorId": "8935d84417945548"
+  },
+  {
+    "ts": "2026-10-20T05:11:57.461Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-6/",
+    "visitorId": "ac16f985d3ede674"
+  },
+  {
+    "ts": "2026-10-20T05:12:01.960Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-6/",
+    "visitorId": "da93b1a02f5b6084"
+  },
+  {
+    "ts": "2026-10-20T05:12:07.832Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-6/",
+    "visitorId": "39620a69173c1464"
+  },
+  {
+    "ts": "2026-10-20T05:35:16.167Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://pioneerpeptides.co.uk/products/dsip/",
+    "visitorId": "5bd9c3ed5d0a459f"
+  },
+  {
+    "ts": "2026-10-20T05:35:16.198Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-research-peptide",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "02786ae5fc444e95"
+  },
+  {
+    "ts": "2026-10-20T06:03:50.364Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bionikpeptides.com/products/igf-1-lr3",
+    "visitorId": "5154d587622d7e5d"
   }
 ]
