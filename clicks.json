@@ -22882,5 +22882,24 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://biopulsepeptides.co.uk/shop/tb-500/",
     "visitorId": "18e3d8ac6fcad68a"
+  },
+  {
+    "ts": "2026-10-20T06:49:01.721Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://reta-uk.com/products/melanotan-1",
+    "visitorId": "f00902905544bb51"
+  },
+  {
+    "ts": "2026-10-20T07:23:18.682Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "00e57bb4ce382edf"
   }
 ]
