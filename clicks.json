@@ -23475,5 +23475,96 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://www.revexa.co.uk/product-page/bacteriostatic-water",
     "visitorId": "e26f0f6dd8dd9c05"
+  },
+  {
+    "ts": "2026-10-20T12:53:30.841Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/tirzepatide",
+    "visitorId": "b35ff2b7e6169900"
+  },
+  {
+    "ts": "2026-10-20T12:54:14.129Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5b456b409ca3c919"
+  },
+  {
+    "ts": "2026-10-20T12:56:57.549Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "334236aaa897b790"
+  },
+  {
+    "ts": "2026-10-20T13:00:01.057Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://unitedpeptides.co.uk/product/tirzepatide-60mg/",
+    "visitorId": "2a39e4cd2998779f"
+  },
+  {
+    "ts": "2026-10-20T13:01:22.246Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.northpeptidesuk.com/products/selank/",
+    "visitorId": "4956168a8f8b840b"
+  },
+  {
+    "ts": "2026-10-20T13:06:25.627Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/3-5-amino-1mq-50mg.html",
+    "visitorId": "753b85ebea4ece26"
+  },
+  {
+    "ts": "2026-10-20T13:06:25.924Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "semax-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/semax/",
+    "visitorId": "43b5f0d3efe59121"
+  },
+  {
+    "ts": "2026-10-20T13:06:36.540Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/3-5-amino-1mq-50mg.html",
+    "visitorId": "be689a72a9b67a21"
+  },
+  {
+    "ts": "2026-10-20T13:06:40.261Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/3-5-amino-1mq-50mg.html",
+    "visitorId": "2b63438f76a62332"
+  },
+  {
+    "ts": "2026-10-20T13:11:25.506Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "ebd137030ae02e51"
   }
 ]
