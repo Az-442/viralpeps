@@ -20618,5 +20618,141 @@
     "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "78d15d57c77773a2"
+  },
+  {
+    "ts": "2026-10-20T00:07:07.091Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "caa863bb77260d1f"
+  },
+  {
+    "ts": "2026-10-20T00:08:38.819Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidesuk4u.co.uk/product/ipamorelin-10mg",
+    "visitorId": "03101775d022d139"
+  },
+  {
+    "ts": "2026-10-20T00:12:08.123Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7f8825bf04207e74"
+  },
+  {
+    "ts": "2026-10-20T00:12:31.350Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biopeptides-uk.com/product/5-amino-1mq-5mg/",
+    "visitorId": "a1d1b6d892645c7c"
+  },
+  {
+    "ts": "2026-10-20T00:12:39.298Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biopeptides-uk.com/product/5-amino-1mq-5mg/",
+    "visitorId": "93c9a556f044d8f0"
+  },
+  {
+    "ts": "2026-10-20T00:13:27.014Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fc85e5137d5e41a7"
+  },
+  {
+    "ts": "2026-10-20T00:22:23.011Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptx.co.uk/single-vials/5-amino-1mq",
+    "visitorId": "a656c84988a59b6e"
+  },
+  {
+    "ts": "2026-10-20T00:23:20.610Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "76bcb026fc54ffb6"
+  },
+  {
+    "ts": "2026-10-20T00:23:54.769Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "17c27540a8bb4ded"
+  },
+  {
+    "ts": "2026-10-20T00:24:20.999Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/31-epitalon-10mg.html",
+    "visitorId": "17c27540a8bb4ded"
+  },
+  {
+    "ts": "2026-10-20T00:24:23.467Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://ukpeptides.org/buy/glutathione-1500mg",
+    "visitorId": "aaf67a6b3cd211ef"
+  },
+  {
+    "ts": "2026-10-20T00:24:43.369Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptidesuk4u.co.uk/product/epithalon-50mg",
+    "visitorId": "17c27540a8bb4ded"
+  },
+  {
+    "ts": "2026-10-20T00:25:25.761Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "ace-031-1mg",
+    "destUrl": "https://www.buyreta.co.uk/product/ace-031-uk",
+    "visitorId": "f005fef16a40ebd1"
+  },
+  {
+    "ts": "2026-10-20T00:27:21.390Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.revexa.co.uk/product-page/100mg-nad-nicotinamide-adenine-dinucleotide",
+    "visitorId": "eca1f65b3fcd5211"
+  },
+  {
+    "ts": "2026-10-20T00:33:25.253Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "visitorId": "34bd3ea0118b909f"
   }
 ]
