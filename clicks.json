@@ -22321,5 +22321,50 @@
     "compoundSlug": "melanotan-i",
     "destUrl": "https://chromapeptides.co.uk/product/melanotan-i-mt-1/",
     "visitorId": "a63796567dd5e92f"
+  },
+  {
+    "ts": "2026-10-20T02:24:09.160Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptx.co.uk/single-vials/nad",
+    "visitorId": "5298fbbd901b1b47"
+  },
+  {
+    "ts": "2026-10-20T02:27:04.027Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://alphamino.co.uk/shop/cjc-ipa/",
+    "visitorId": "4100e13d0dfbaf84"
+  },
+  {
+    "ts": "2026-10-20T02:28:09.307Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://oplabs.co.uk/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "4a84261cfb3398a4"
+  },
+  {
+    "ts": "2026-10-20T02:29:28.334Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://phoenixbiolabs.net/shop/ghk-cu-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8399d80f8f85c471"
+  },
+  {
+    "ts": "2026-10-20T02:50:48.823Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "3944203836cd40f2"
   }
 ]
