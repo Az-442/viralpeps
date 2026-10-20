@@ -22565,5 +22565,23 @@
     "compoundSlug": "dsip",
     "destUrl": "https://peptideslabuk.com/product/dsip/",
     "visitorId": "e894506001acb55e"
+  },
+  {
+    "ts": "2026-10-20T04:16:54.200Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://vialverse.com/peptides/ghrp-2",
+    "visitorId": "6f413c01abaeceb5"
+  },
+  {
+    "ts": "2026-10-20T05:11:54.071Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-6/",
+    "visitorId": "52159a13a035cc84"
   }
 ]
