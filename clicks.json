@@ -22801,5 +22801,86 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/",
     "visitorId": "e8d12d0eac8f146a"
+  },
+  {
+    "ts": "2026-10-20T06:26:12.067Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "acetic-acid-reconstitution-solvent-10ml",
+    "destUrl": "https://chromapeptides.co.uk/product/acetic-acid-0-6/",
+    "visitorId": "c345cc147ec15324"
+  },
+  {
+    "ts": "2026-10-20T06:26:21.835Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "acetic-acid-reconstitution-solvent-10ml",
+    "destUrl": "https://chromapeptides.co.uk/product/acetic-acid-0-6/",
+    "visitorId": "f4146d2cc4d10218"
+  },
+  {
+    "ts": "2026-10-20T06:35:32.561Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bionikpeptides.com/products/igf-1-lr3",
+    "visitorId": "5beb45e9211a53a9"
+  },
+  {
+    "ts": "2026-10-20T06:51:24.187Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/",
+    "visitorId": "e0d083752dc7d932"
+  },
+  {
+    "ts": "2026-10-20T06:53:35.022Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://www.buyreta.co.uk/product/bpc-157-oral-uk",
+    "visitorId": "89436f7fc2fdc3d3"
+  },
+  {
+    "ts": "2026-10-20T06:55:36.774Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://optimuslabs.co.uk/product/igf-1-lr3/",
+    "visitorId": "21290db2343a9c69"
+  },
+  {
+    "ts": "2026-10-20T06:55:39.939Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://optimuslabs.co.uk/product/igf-1-lr3/",
+    "visitorId": "bc9565e6a2abd266"
+  },
+  {
+    "ts": "2026-10-20T06:55:46.172Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://optimuslabs.co.uk/product/igf-1-lr3/",
+    "visitorId": "c2d7bbf2f7cea7bb"
+  },
+  {
+    "ts": "2026-10-20T07:00:25.567Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tb-500/",
+    "visitorId": "18e3d8ac6fcad68a"
   }
 ]
