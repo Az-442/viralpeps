@@ -24690,5 +24690,15 @@
     "vendorName": "Peptides UK 4U",
     "destUrl": "https://peptidesuk4u.co.uk",
     "visitorId": "db3f0d0ee853271f"
+  },
+  {
+    "ts": "2026-10-20T20:04:26.837Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://www.northpeptidesuk.com/products/cjc-1295/",
+    "refPage": "https://www.viralpeps.co.uk/go/north-peptides-uk/cjc-1295",
+    "visitorId": "f7208f28bd4d77dd"
   }
 ]
