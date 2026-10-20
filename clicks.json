@@ -22528,5 +22528,42 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.buyreta.co.uk/product/nad-plus-500mg-uk",
     "visitorId": "16e6e96429326269"
+  },
+  {
+    "ts": "2026-10-20T04:25:44.916Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://phoenixbiolabs.net/shop/ara-290-20mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3e6c2344ce35e374"
+  },
+  {
+    "ts": "2026-10-20T04:33:55.885Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "675c37b54f3fd583"
+  },
+  {
+    "ts": "2026-10-20T04:39:15.942Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "visitorId": "df7452b0b85912af"
+  },
+  {
+    "ts": "2026-10-20T05:08:48.179Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptideslabuk.com/product/dsip/",
+    "visitorId": "e894506001acb55e"
   }
 ]
