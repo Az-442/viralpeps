@@ -24700,5 +24700,142 @@
     "destUrl": "https://www.northpeptidesuk.com/products/cjc-1295/",
     "refPage": "https://www.viralpeps.co.uk/go/north-peptides-uk/cjc-1295",
     "visitorId": "f7208f28bd4d77dd"
+  },
+  {
+    "ts": "2026-10-20T20:05:13.213Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.revexa.co.uk/product-page/ipamorelin-10mg",
+    "visitorId": "893b518a8b1dd74b"
+  },
+  {
+    "ts": "2026-10-20T20:10:16.896Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "64f67ff647ac6a73"
+  },
+  {
+    "ts": "2026-10-20T20:10:16.936Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.testedpeptides.co.uk/product/5-amino-1mq-10-mg-research-peptide/",
+    "visitorId": "e4f5bc7efd38cac3"
+  },
+  {
+    "ts": "2026-10-20T20:11:21.570Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tb-500-5mg-imperial",
+    "destUrl": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/",
+    "visitorId": "19f616e9b3f162f5"
+  },
+  {
+    "ts": "2026-10-20T20:17:27.509Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://optimuslabs.co.uk/product/thymosin-alpha-1/",
+    "refPage": "https://www.viralpeps.co.uk/go/optimus-labs/thymosin-alpha-1",
+    "visitorId": "fe7ea34f8834f69c"
+  },
+  {
+    "ts": "2026-10-20T20:18:18.655Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://biotideuk.com/products/melanotan-1-10-mg",
+    "visitorId": "ebd137030ae02e51"
+  },
+  {
+    "ts": "2026-10-20T20:18:19.549Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://biotideuk.com/products/melanotan-1-10-mg",
+    "visitorId": "e245ca0e45848033"
+  },
+  {
+    "ts": "2026-10-20T20:18:23.415Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://biotideuk.com/products/melanotan-1-10-mg",
+    "visitorId": "8ee7e1153d2548a8"
+  },
+  {
+    "ts": "2026-10-20T20:24:31.051Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "tesamorelin-vial-express",
+    "destUrl": "https://alphamino.co.uk/shop/tesamorelin/",
+    "visitorId": "9b24f270115e2969"
+  },
+  {
+    "ts": "2026-10-20T20:26:32.052Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-2/",
+    "visitorId": "349e3b31cae4d3a4"
+  },
+  {
+    "ts": "2026-10-20T20:26:33.211Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-2/",
+    "visitorId": "12e80d4a395bdc9a"
+  },
+  {
+    "ts": "2026-10-20T20:26:35.042Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-2/",
+    "visitorId": "abc05a03e5349cb6"
+  },
+  {
+    "ts": "2026-10-20T20:31:53.270Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "12425514478893a3"
+  },
+  {
+    "ts": "2026-10-20T20:32:31.385Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://armapeptideshop.com/product/retatrutide-30mg/",
+    "visitorId": "12425514478893a3"
+  },
+  {
+    "ts": "2026-10-20T20:43:03.222Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/",
+    "refPage": "https://www.viralpeps.co.uk/go/the-peptide-company/bpc-157-10mg-the-peptide-company",
+    "visitorId": "fbf527ce9beb39f5"
   }
 ]
