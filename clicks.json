@@ -23776,5 +23776,61 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://vialverse.com/peptides/retatrutide",
     "visitorId": "029e69f48cf2cc3c"
+  },
+  {
+    "ts": "2026-10-20T15:19:03.120Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b88f44114abf40e7"
+  },
+  {
+    "ts": "2026-10-20T15:20:37.021Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://researchpeptide.co.uk/product/mt-1-melanotan-1-acetate-10mg/",
+    "visitorId": "5ef1a19a4a97d4e6"
+  },
+  {
+    "ts": "2026-10-20T15:20:39.865Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://researchpeptide.co.uk/product/mt-1-melanotan-1-acetate-10mg/",
+    "visitorId": "5b0f798e755aac96"
+  },
+  {
+    "ts": "2026-10-20T15:35:56.214Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "selank-5mg-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/selank/",
+    "visitorId": "ca3e2e6787a46166"
+  },
+  {
+    "ts": "2026-10-20T15:39:21.042Z",
+    "type": "product",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.kingsbiolabs.co.uk/kpv",
+    "refPage": "https://www.viralpeps.co.uk/go/kings-bio-labs/kpv",
+    "visitorId": "9ebc98f702581ccf"
+  },
+  {
+    "ts": "2026-10-20T15:50:12.441Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.stratfordpeptides.com/products/no-product",
+    "visitorId": "7c146e9c4fb45661"
   }
 ]
