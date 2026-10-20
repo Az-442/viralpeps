@@ -24837,5 +24837,158 @@
     "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/",
     "refPage": "https://www.viralpeps.co.uk/go/the-peptide-company/bpc-157-10mg-the-peptide-company",
     "visitorId": "fbf527ce9beb39f5"
+  },
+  {
+    "ts": "2026-10-20T20:45:48.051Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://britishpeptidelabs.com/products/mt2",
+    "visitorId": "b4f90e16c88770e1"
+  },
+  {
+    "ts": "2026-10-20T20:45:48.074Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.peptidesx.uk/product/bpc-157/",
+    "visitorId": "f1170fc8d2936f8f"
+  },
+  {
+    "ts": "2026-10-20T20:47:45.849Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://peptx.co.uk/single-vials/mt-1",
+    "visitorId": "82b69b3aa93b19b2"
+  },
+  {
+    "ts": "2026-10-20T20:51:59.520Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/",
+    "visitorId": "1e138becf00b8a36"
+  },
+  {
+    "ts": "2026-10-20T20:56:22.431Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.northpeptidesuk.com/products/kpv/",
+    "visitorId": "0ff1f865b35460c8"
+  },
+  {
+    "ts": "2026-10-20T20:59:03.505Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.peptidesx.uk/product/ghrp-2/",
+    "visitorId": "9fd1da888698692f"
+  },
+  {
+    "ts": "2026-10-20T21:01:05.154Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-research-peptides-uk",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/",
+    "visitorId": "bdfaaefa4ef46179"
+  },
+  {
+    "ts": "2026-10-20T21:06:08.665Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/raccoon-peptides",
+    "visitorId": "855e8ef58d51fdb5"
+  },
+  {
+    "ts": "2026-10-20T21:09:30.959Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "3a236264ea12a809"
+  },
+  {
+    "ts": "2026-10-20T21:09:38.668Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "ipamorelin-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "88b317c0b4d0b506"
+  },
+  {
+    "ts": "2026-10-20T21:12:15.600Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "visitorId": "5298fbbd901b1b47"
+  },
+  {
+    "ts": "2026-10-20T21:12:16.606Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "visitorId": "24b46f3c992fa03a"
+  },
+  {
+    "ts": "2026-10-20T21:12:21.297Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "visitorId": "14df80c33b078523"
+  },
+  {
+    "ts": "2026-10-20T21:12:50.367Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://nilahlabs.co.uk/products/mt2",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-20T21:12:52.463Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://nilahlabs.co.uk/products/mt2",
+    "visitorId": "9855564913d05ba1"
+  },
+  {
+    "ts": "2026-10-20T21:12:54.433Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://nilahlabs.co.uk/products/mt2",
+    "visitorId": "7ea75a94fb667d3b"
+  },
+  {
+    "ts": "2026-10-20T21:13:11.656Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptx.co.uk/single-vials/tesamorelin",
+    "visitorId": "8b929fb47ce52941"
   }
 ]
