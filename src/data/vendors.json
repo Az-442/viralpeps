@@ -5352,5 +5352,40 @@
       },
       "checkedAt": "2026-10-19T00:36:44.348Z"
     }
+  },
+  {
+    "id": "arma-peptides",
+    "name": "Arma Peptides",
+    "slug": "arma-peptides",
+    "website": "https://armapeptideshop.com",
+    "rating": 4.5,
+    "verified": true,
+    "country": "UK",
+    "description": "UK-based research peptide supplier (trading name of Arma Nova Pharma) with 45+ compounds including vials, pre-filled pens and blends. Every batch is HPLC-verified at ≥99% purity with Certificates of Analysis available.",
+    "highlights": [
+      "COA on every batch",
+      "HPLC-verified ≥99%",
+      "Pre-filled pens available",
+      "UK & EU delivery"
+    ],
+    "shipping": [
+      "UK tracked (free over £200)",
+      "EU & international (DPD/Royal Mail)"
+    ],
+    "payment": [
+      "Cards",
+      "Google Pay",
+      "Apple Pay"
+    ],
+    "lastTested": "2026-10-20",
+    "labTested": true,
+    "_autoChecks": {
+      "coa": true,
+      "ruo": true,
+      "contact": true,
+      "shipping": true,
+      "reviews": false,
+      "live": true
+    }
   }
 ]
