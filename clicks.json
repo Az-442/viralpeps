@@ -8050,5 +8050,35 @@
     "destUrl": "https://phoenixbiolabs.net/shop/glow-blend-tested-99/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "1553a14bec354ac3"
+  },
+  {
+    "ts": "2026-10-21T19:57:51.583Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2cc97982173d58f5"
+  },
+  {
+    "ts": "2026-10-21T19:57:55.285Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://midshirelabs.co.uk/products/ss31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3aca249bff2a0ee7"
+  },
+  {
+    "ts": "2026-10-21T20:17:04.209Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2bba30cfecd4f5d7"
   }
 ]
