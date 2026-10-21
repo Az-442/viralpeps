@@ -7064,5 +7064,50 @@
     "vendorName": "Be Better Peptides",
     "destUrl": "https://bebetterpeptides.com",
     "visitorId": "4429add98ac47a53"
+  },
+  {
+    "ts": "2026-10-21T09:22:33.852Z",
+    "type": "vendor-site",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "destUrl": "https://bebetterpeptides.com",
+    "visitorId": "2974c41fcb27836c"
+  },
+  {
+    "ts": "2026-10-21T09:26:36.184Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "wolverine-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/vial",
+    "visitorId": "a8195e0cfeaff7e8"
+  },
+  {
+    "ts": "2026-10-21T09:45:50.668Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "destUrl": "https://www.apex-pharma.co.uk",
+    "visitorId": "1040d890eb2bb5d8"
+  },
+  {
+    "ts": "2026-10-21T09:47:14.701Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/imperial-peptides/kpv",
+    "visitorId": "2d28afc5536e816b"
+  },
+  {
+    "ts": "2026-10-21T10:09:08.337Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e1c116dae270d0a4"
   }
 ]
