@@ -7616,5 +7616,32 @@
     "compoundSlug": "snap-8",
     "destUrl": "https://midshirelabs.co.uk/products/snap-8/",
     "visitorId": "0c4a71b494629bc1"
+  },
+  {
+    "ts": "2026-10-21T14:43:13.599Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "mots-c-40mg",
+    "destUrl": "https://biopeptides-uk.com/product/mots-c-40mg/",
+    "visitorId": "fbe2ee40b43642d7"
+  },
+  {
+    "ts": "2026-10-21T14:55:59.584Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://supplypeptides.co.uk/products/selank",
+    "visitorId": "fb2c82cae4b5849f"
+  },
+  {
+    "ts": "2026-10-21T15:09:08.855Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://midshirelabs.co.uk/products/snap-8/",
+    "visitorId": "5b7d2baa56432bf2"
   }
 ]
