@@ -7046,5 +7046,15 @@
     "vendorName": "FORM Peptides",
     "destUrl": "https://formpeptides.co.uk",
     "visitorId": "34a55273161b8365"
+  },
+  {
+    "ts": "2026-10-21T08:49:00.224Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://xlpeptides.com/product/bpc-157-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5a4cb65594ce0676"
   }
 ]
