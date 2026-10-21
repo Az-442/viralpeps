@@ -5387,5 +5387,47 @@
       "reviews": false,
       "live": true
     }
+  },
+  {
+    "id": "peptidespecialist",
+    "name": "Peptides Specialist UK",
+    "slug": "peptidespecialist",
+    "website": "https://peptidespecialist.co.uk",
+    "rating": 4.3,
+    "verified": true,
+    "country": "UK",
+    "description": "London-based UK research peptide supplier with around 50 products — lyophilised vials and pre-filled peptide pens (BPC-157, TB-500, CJC-1295 no DAC, GHK-Cu, NAD+, SS-31 and more). Batches are HPLC and mass-spec verified at 99%+ purity with independent testing, and supplied strictly for in vitro laboratory research.",
+    "highlights": [
+      "99%+ purity, HPLC + mass-spec verified",
+      "Independent third-party testing",
+      "Vials and pre-filled peptide pens",
+      "UK delivery via Royal Mail"
+    ],
+    "shipping": [
+      "UK only — Royal Mail",
+      "Free delivery over £500"
+    ],
+    "payment": [
+      "not stated"
+    ],
+    "lastTested": "2026-10-21",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "in vitro",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-21T00:36:21.608Z"
+    }
   }
 ]

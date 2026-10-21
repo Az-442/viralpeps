@@ -3158,5 +3158,34 @@
       "coa": "coa",
       "review": null
     }
+  },
+  "peptidespecialist": {
+    "slug": "peptidespecialist",
+    "website": "https://peptidespecialist.co.uk",
+    "checkedAt": "2026-10-21T00:36:21.608Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "in vitro",
+      "review": null,
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "home - peptides uk|buy research peptides uk| peptides specialist uk"
+    },
+    "product": {
+      "fetched": true,
+      "coa": null,
+      "ruo": null,
+      "status": 200
+    },
+    "secondary": {
+      "probed": 2,
+      "contact": "contact",
+      "ruo": "not for human",
+      "shipping": "tracking",
+      "coa": "third-party test",
+      "review": null
+    }
   }
 }
