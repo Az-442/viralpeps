@@ -7872,5 +7872,52 @@
     "compoundSlug": "tesamorelin",
     "destUrl": "https://bionikpeptides.com/products/tesamorelin",
     "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-21T17:28:50.216Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/cjc-1295-without-dac-5mg",
+    "visitorId": "245a3902231eb10a"
+  },
+  {
+    "ts": "2026-10-21T17:28:54.117Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/cjc-1295-without-dac-5mg",
+    "visitorId": "b48c5d382f51b0ed"
+  },
+  {
+    "ts": "2026-10-21T17:31:55.552Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8c4122c0290d88a1"
+  },
+  {
+    "ts": "2026-10-21T17:36:07.521Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidehub.co.uk/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidehub/bacteriostatic-water",
+    "visitorId": "e4f3ada947ac2bc6"
+  },
+  {
+    "ts": "2026-10-21T18:23:26.144Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu",
+    "visitorId": "82b84c4c5621def4"
   }
 ]
