@@ -8167,5 +8167,62 @@
     "compoundSlug": "igf-1-des",
     "destUrl": "https://peptideslabuk.com/product/igf-des/",
     "visitorId": "44dbf4b4160d70f2"
+  },
+  {
+    "ts": "2026-10-21T22:23:00.726Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://researchpeptide.co.uk/product/igf-1-des-1mg/",
+    "visitorId": "2ae2e83d458a63c2"
+  },
+  {
+    "ts": "2026-10-21T22:24:08.824Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidehub.co.uk/product/ipamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidehub/ipamorelin",
+    "visitorId": "091112afe8233e02"
+  },
+  {
+    "ts": "2026-10-21T22:25:56.376Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc157-tb-10-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e7adfac69f41b0fe"
+  },
+  {
+    "ts": "2026-10-21T22:35:24.720Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://jgpeptidesplus.com/product/cagrilintide-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "dd60ea276e13d976"
+  },
+  {
+    "ts": "2026-10-21T22:48:07.646Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptidehub.co.uk/product/epitalon-10mg-2/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidehub/epitalon",
+    "visitorId": "1cc9424a22eeaa88"
+  },
+  {
+    "ts": "2026-10-21T23:16:40.717Z",
+    "type": "vendor-site",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "destUrl": "https://redpandapeptides.co.uk",
+    "visitorId": "38f2d0791fc3d581"
   }
 ]
