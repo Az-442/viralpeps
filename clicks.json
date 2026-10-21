@@ -7661,5 +7661,98 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://peptidesshopuk.com/product/reta-20/",
     "visitorId": "950883b4c7039ee4"
+  },
+  {
+    "ts": "2026-10-21T15:30:41.360Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptidesshopuk.com/product/glow-70/",
+    "visitorId": "f044a28cebc1c09b"
+  },
+  {
+    "ts": "2026-10-21T15:33:28.016Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidesshopuk.com/product/sela-10/",
+    "visitorId": "0404926f368ff544"
+  },
+  {
+    "ts": "2026-10-21T15:47:13.227Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://armapeptideshop.com/product/tb500-10mg/",
+    "visitorId": "df214693eb49e862"
+  },
+  {
+    "ts": "2026-10-21T15:49:45.655Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "hgh-97",
+    "destUrl": "https://armapeptideshop.com/product/hgh-100-iu/",
+    "visitorId": "f044a28cebc1c09b"
+  },
+  {
+    "ts": "2026-10-21T15:52:06.440Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://armapeptideshop.com/product/bpc-157-tb500-blend-20mg/",
+    "visitorId": "ab1bec900b1434f4"
+  },
+  {
+    "ts": "2026-10-21T15:53:19.612Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://armapeptideshop.com/product/bpc-157-5mg/",
+    "visitorId": "29a80b2b97b13a6d"
+  },
+  {
+    "ts": "2026-10-21T15:55:01.535Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2152ca84f8fb642e"
+  },
+  {
+    "ts": "2026-10-21T15:55:05.732Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bf9dc8766c2c22a4"
+  },
+  {
+    "ts": "2026-10-21T15:57:51.250Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "96455d6ff5bac129"
+  },
+  {
+    "ts": "2026-10-21T16:01:52.494Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://armapeptideshop.com/product/sermorelin-10mg/",
+    "visitorId": "4350fa748c94ca26"
   }
 ]
