@@ -7957,5 +7957,51 @@
     "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "af3a11049d85fd60"
+  },
+  {
+    "ts": "2026-10-21T18:21:33.447Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bionikpeptides.com/products/tesamorelin",
+    "visitorId": "0d536806c4e716d9"
+  },
+  {
+    "ts": "2026-10-21T18:21:35.435Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://bionikpeptides.com/products/tesamorelin",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-21T18:23:20.615Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu",
+    "visitorId": "2469a6590ba551c0"
+  },
+  {
+    "ts": "2026-10-21T18:23:22.230Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu",
+    "visitorId": "da17def630b8c81d"
+  },
+  {
+    "ts": "2026-10-21T18:58:40.712Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "pt-141",
+    "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6c88d99bab555c77"
   }
 ]
