@@ -7782,5 +7782,49 @@
     "destUrl": "https://midshirelabs.co.uk/products/selank/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "e7525278937d0e26"
+  },
+  {
+    "ts": "2026-10-21T15:09:05.609Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://midshirelabs.co.uk/products/snap-8/",
+    "visitorId": "5b7d2baa56432bf2"
+  },
+  {
+    "ts": "2026-10-21T15:30:10.698Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "destUrl": "https://peptidesshopuk.com",
+    "visitorId": "2974c41fcb27836c"
+  },
+  {
+    "ts": "2026-10-21T15:35:12.776Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptidesshopuk.com/product/ss-31/",
+    "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-21T15:35:20.183Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptidesshopuk.com/product/ss-31/",
+    "visitorId": "82b84c4c5621def4"
+  },
+  {
+    "ts": "2026-10-21T16:48:36.047Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidehub.co.uk/product/mots-c-10mg/",
+    "visitorId": "3c5d355b2ab0b428"
   }
 ]
