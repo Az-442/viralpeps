@@ -1536,6 +1536,121 @@ cortical microhaemorrhage paper (40169521) were found but not used.
 
 ---
 
+## ✅ DONE — SERMORELIN SILO (commit `aa7657a5`)
+
+Queue item 8 (queue items 1–5 were already complete before this run). Built per the locked SOP.
+Deploy verified live 2026-10-21.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-sermorelin-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-sermorelin-uk
+- https://www.viralpeps.co.uk/compound-guides/sermorelin-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-sermorelin-online-uk
+- https://www.viralpeps.co.uk/compound-guides/sermorelin-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-sermorelin-peptide
+
+**Verified metrics (LIVE, not local):** rendered words 2,225–2,804 (all ≥1,200) · titles 43–46
+chars · descriptions 155–158 chars · focus keyword in H1 + intro[0] of all 6 · price rows
+25 / 42 / 42 / 20 / 42 / 42 · 34 unique live go-links on the full comparison spoke, all
+resolving 302/308, **0 broken** · hub tiles present on `/compounds/sermorelin` (6
+compound-guides links) · index lists Sermorelin and all 6 spokes · all 6 in sitemap ·
+`npx tsc --noEmit` 0 errors · `npm run build` clean.
+
+**Why Sermorelin:** the 5-item queue was already complete (all 5 in `silos.ts` before this
+run), so the SOP Step 0 fallback applied — highest-source unbuilt compound with real demand.
+Sermorelin carries 43 master + 5 child sources and returned the strongest and most complete
+autocomplete evidence of the candidates probed (Epitalon, KPV, DSIP, Melanotan II, CJC-1295
+were also harvested; Melanotan II and CJC-1295 had weak/zero coverage on 4+ modifiers).
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-21)
+
+⚠️ **Four of the six default modifiers returned ZERO UK results for Sermorelin** —
+substituted, as the SOP requires. Sermorelin is not a GLP-1, so the GLP-1 modifier set does
+not transfer (same pattern as Semax, Selank, Ipamorelin, MOTS-c, BPC-157 and SS-31).
+
+| Modifier | Result |
+|---|---|
+| `where to buy sermorelin uk` | ⚠️ **0 results** → substituted `where can i buy sermorelin` (**exact #1**, also `where can i buy sermorelin peptide`) |
+| `cheapest sermorelin uk` | ⚠️ **0 results** → substituted `cheapest sermorelin` (**exact #1**, also `cheapest sermorelin peptide`, `sermorelin cheapest price`) |
+| `sermorelin price comparison uk` | ⚠️ **0 results** → substituted `sermorelin price uk` (**exact #1**, also `sermorelin peptide uk price`, `sermorelin 10mg uk price`) |
+| `buy sermorelin online uk` | ⚠️ **0 results** → substituted `buy sermorelin uk` (**exact #1**, also `buy sermorelin nasal spray uk`; corroborated by `buy sermorelin online`, `sermorelin buy uk`) |
+| `sermorelin uk supplier` | ⚠️ **0 results** (`sermorelin suppliers uk` also 0) → substituted `sermorelin for sale uk` (close hit `sermorelin peptide for sale uk` #1, plus `sermorelin buy uk`) |
+| `best sermorelin peptide` | **exact match #1** — passed |
+
+Corroborating hits: `sermorelin uk peptides`, `sermorelin uk legal`, `sermorelin uk dosage`,
+`sermorelin uk prescription`, `sermorelin uk nasal spray`, `sermorelin peptide buy uk`.
+
+### ⚠️ Spoke 5 substitution detail
+`sermorelin uk supplier` and `sermorelin suppliers uk` both returned 0 — no supplier-intent
+phrasing for Sermorelin in UK autocomplete (same as Semax, Selank, Ipamorelin, MOTS-c,
+BPC-157 partly). Spoke 5 was built on **`sermorelin for sale uk`**.
+
+### Collision check (KW Phase 1)
+`grep -niE "sermorelin|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md` returned
+**zero sermorelin matches**. Only unrelated pillar rows: `where-to-buy-peptides-uk` (line 34),
+`where-to-buy-tirzepatide-uk` (line 89), `cheapest-peptides-uk` (line 123).
+**No plan collisions — nothing removed.**
+
+### Data
+- 43 master + 5 child sources → **42 display rows across 34 unique suppliers**
+  (stats read live: suppliers 34, products 42, lowest £9.99, highest £55.00, best per mg
+  £2.50 — NovaVitality, packs 6).
+- Uses the `vendorSlugFor()` helper (the Semax fix) — 0 broken go-links (34/34 verified live).
+- **Price ranges in the data:** `Research Peptides UK` publishes `£29.00 – £45.00`. The
+  builder takes the low end, normalises to `£29.00`, and records `priceIsRange: true` rather
+  than inventing a midpoint. Documented in the silo file header.
+- **Missing pack labels:** 11 rows publish no mg figure (dash). These sort to the bottom of
+  any per-mg ranking by design and render `—` for per-mg. The copy explains this rather than
+  hiding it.
+
+### ⚠️ NEW PITFALL FOUND — seven vendors carry duplicate child rows in compounds.json
+The pre-dedupe key includes the child entry's own `url`, and five of the six `compareSlug`
+children for Sermorelin have a **different URL** from their master row (e.g. Sterling
+`sermorelin-5mg` vs `sermorelin-5mg-peptide`), so a URL-based key never collapses them. The
+result was 45 rows with 2–3 near-identical rows per vendor (7 vendors affected: Dr P Research,
+Tide Labs, Sterling Peptides, Research Peptides UK, Ascend Peptides UK, Phoenix BioLabs, and
+Express Peptides).
+
+**Fix in `sermorelin-silo.ts`:** two-pass de-dupe — pass 1 drops an **unlabelled** row when a
+labelled row exists for the same vendor + price; pass 2 removes exact `vendor|price|pack`
+repeats. Legitimate multi-pack vendors (Ascend 2mg/5mg, Pioneer 2mg/5mg/10mg, Phoenix 5mg +
+5mg/ipamorelin blend) all survive. Result: 45 → 42 rows, 0 visible duplicates.
+
+⚠️ **TODO for a future data pass:** this duplicate pattern is almost certainly present on OTHER
+compounds whose child entries have distinct URLs. Do not "fix" it by deleting sources — a
+child entry may be the only place a `/go/` link can resolve. The row-level de-dupe belongs in
+each silo builder (or a shared helper) until compounds.json is cleaned.
+
+### PubMed sources used (all verified via NCBI E-utilities esearch + esummary, none drafted)
+- 18046908 — Sermorelin: a better approach to management of adult-onset GH insufficiency? (Clin Interv Aging 2006)
+- 18031173 — Sermorelin: a review of its use in diagnosis and treatment of children with idiopathic GHD (BioDrugs 1999)
+- 9141536 — Endocrine and metabolic effects of long-term GHRH-(1-29)-NH2 in age-advanced men and women (JCEM 1997)
+- 9360512 — Effects of [Nle27]GHRH(1-29)-NH2 on the immune system of aging men and women (JCEM 1997)
+- 9005976 — Effects of single nightly injections of GHRH 1-29 in healthy elderly men (Metabolism 1997)
+- 3096623 — IV, SC and intranasal [Nle27]GHRH(1-29)-NH2 dose-response in normal men (Clin Pharmacol Ther 1986)
+- 7962295 — D-Ala2 GHRH-(1-29)-NH2 increases half-life and decreases metabolic clearance (JCEM 1994)
+- 8772599 — Once daily subcutaneous GHRH accelerates growth in GHD children (JCEM 1996)
+- 39913072 — Hypothalamic GHRH (Rev Endocr Metab Disord 2025)
+- 39681762 — The history of the GHRH test in clinical practice (Rev Endocr Metab Disord 2025)
+- 28245459 — The Somatotrope GHRH/GH/IGF-1 Axis in Immunoregulation and Immunosenescence (Front Horm Res 2017)
+- 32257855 — GH secretagogues and body composition in hypogonadal males (Transl Androl Urol 2020)
+- 41490200 — Therapeutic Peptides in Orthopaedics (JAAOS Glob Res Rev 2026)
+- 42395176 — Performance-enhancing peptides modulating the GH-IGF1 axis (Front Endocrinol 2026)
+- 2866222 — hGRF1-29NH2 plasma levels after IV and SC administration (J Endocrinol 1985)
+
+⚠️ Caution reconfirmed (third time): `CEDA AND sermorelin` returned 0 hits — the old CEDA
+obesity data is not indexed under that term. Every ID above was harvested with `esearch` and
+verified with `esummary` before use.
+
+### Files changed
+`src/data/sermorelin-silo.ts` (new) · `src/data/sermorelin-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 16 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block). Sitemap auto-includes via the registry
+(verified live: all 6 spokes present).
+
+---
+
 ## Pitfalls (carry these into every build)
 
 - **Never build `/<compound>-uk`** — the hub owns it. (Error made 15 Sep 2026.)
