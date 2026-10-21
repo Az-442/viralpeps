@@ -25468,5 +25468,142 @@
     "compoundSlug": "dsip",
     "destUrl": "https://biotideuk.com/products/dsip-10-mg",
     "visitorId": "52f949e2b43d4b7b"
+  },
+  {
+    "ts": "2026-10-21T00:01:49.183Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.proformapeptides.co.uk/product/5-amino-1-mq-5mg/",
+    "visitorId": "b0248abb72d63ea7"
+  },
+  {
+    "ts": "2026-10-21T00:01:50.396Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.proformapeptides.co.uk/product/5-amino-1-mq-5mg/",
+    "visitorId": "69556bf7977331b5"
+  },
+  {
+    "ts": "2026-10-21T00:01:51.683Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg",
+    "visitorId": "d4b7b65a4a08a527"
+  },
+  {
+    "ts": "2026-10-21T00:01:52.434Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.proformapeptides.co.uk/product/5-amino-1-mq-5mg/",
+    "visitorId": "3c2db8f43d1de9fe"
+  },
+  {
+    "ts": "2026-10-21T00:01:55.518Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg",
+    "visitorId": "cd129d7622e990f5"
+  },
+  {
+    "ts": "2026-10-21T00:02:03.046Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg",
+    "visitorId": "f93b828860c0235d"
+  },
+  {
+    "ts": "2026-10-21T00:06:55.499Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
+    "visitorId": "5f7b4e30a4aa6f02"
+  },
+  {
+    "ts": "2026-10-21T00:08:45.285Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://optimuslabs.co.uk/product/tb-500/",
+    "refPage": "https://www.viralpeps.co.uk/go/optimus-labs/tb-500",
+    "visitorId": "d90f5a2e24dd3b02"
+  },
+  {
+    "ts": "2026-10-21T00:18:01.783Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "abaloparatide",
+    "destUrl": "https://vialverse.com/peptides/abaloparatide",
+    "visitorId": "8173a35a8ef65db3"
+  },
+  {
+    "ts": "2026-10-21T00:21:40.060Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ss-31-elamipretide/",
+    "refPage": "https://www.viralpeps.co.uk/go/pioneer-peptides/ss-31",
+    "visitorId": "a13a32fa78a3d749"
+  },
+  {
+    "ts": "2026-10-21T00:26:14.235Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://tidelabs.co.uk/products/dsip-delta-sleep-peptide",
+    "visitorId": "61aae51ec8c14c4d"
+  },
+  {
+    "ts": "2026-10-21T00:26:15.176Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://tidelabs.co.uk/products/dsip-delta-sleep-peptide",
+    "visitorId": "3860af042828289d"
+  },
+  {
+    "ts": "2026-10-21T00:26:30.130Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://tidelabs.co.uk/products/dsip-delta-sleep-peptide",
+    "visitorId": "4a0d2c74ed664eb8"
+  },
+  {
+    "ts": "2026-10-21T00:28:36.007Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://retaresearch.co/products/mots-c",
+    "visitorId": "3f8aa5ff43b03498"
+  },
+  {
+    "ts": "2026-10-21T00:34:53.283Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "glow",
+    "destUrl": "https://alphamino.co.uk/shop/glow-research-peptide/",
+    "visitorId": "a9c74b3998e7e1f0"
   }
 ]
