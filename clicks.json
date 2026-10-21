@@ -7928,5 +7928,34 @@
     "compoundSlug": "cjc-1295",
     "destUrl": "https://peptidehub.co.uk/product/cjc-1295-dac-5mg/",
     "visitorId": "d2e12c962197a8e9"
+  },
+  {
+    "ts": "2026-10-21T18:00:21.418Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidesshopuk.com/product/reta-20/",
+    "visitorId": "ed9106d6106accd8"
+  },
+  {
+    "ts": "2026-10-21T18:05:15.823Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/bpc-157-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "255a4b53d9107354"
+  },
+  {
+    "ts": "2026-10-21T18:49:35.911Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "af3a11049d85fd60"
   }
 ]
