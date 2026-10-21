@@ -7175,5 +7175,34 @@
     "compoundSlug": "bpc-157-tb-500-mix",
     "destUrl": "https://fatpigpeptides.co.uk/product/wolverine-peptide-blend/",
     "visitorId": "d7cd00fa4a13251c"
+  },
+  {
+    "ts": "2026-10-21T13:33:02.365Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "99e41763085c9613"
+  },
+  {
+    "ts": "2026-10-21T13:33:05.929Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bec881afcc7ea3b7"
+  },
+  {
+    "ts": "2026-10-21T14:10:25.240Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "bd2e654f1e57269c"
   }
 ]
