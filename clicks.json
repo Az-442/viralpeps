@@ -8224,5 +8224,418 @@
     "vendorName": "Red Panda Peptides",
     "destUrl": "https://redpandapeptides.co.uk",
     "visitorId": "38f2d0791fc3d581"
+  },
+  {
+    "ts": "2026-10-21T23:16:53.659Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptidehub.co.uk/product/ss-31-10mg/",
+    "visitorId": "eddf777072546ef0"
+  },
+  {
+    "ts": "2026-10-21T23:29:46.809Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2eef791ddf8f0943"
+  },
+  {
+    "ts": "2026-10-21T23:35:01.732Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "destUrl": "https://novapeptidelab.co.uk",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:01.909Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://novapeptidelab.co.uk/product/bpc-157-research-peptide/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:02.055Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://novapeptidelab.co.uk/product/tb-500-10mg/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:02.213Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://novapeptidelab.co.uk/product/aod-9604-research-peptide-uk/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:02.379Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://novapeptidelab.co.uk/product/retatrutide-research-peptide-uk/",
+    "visitorId": "70ea4a2298090fe6"
+  },
+  {
+    "ts": "2026-10-21T23:35:02.609Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://novapeptidelab.co.uk/product/tesamorelin-research-peptide/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:02.761Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://novapeptidelab.co.uk/product/mots-c-research-peptide/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:02.902Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://novapeptidelab.co.uk/product/ghk-cu-peptide-uk/",
+    "visitorId": "70ea4a2298090fe6"
+  },
+  {
+    "ts": "2026-10-21T23:35:03.058Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "kpv",
+    "destUrl": "https://novapeptidelab.co.uk/product/kpv-research-peptide-uk/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:03.214Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://novapeptidelab.co.uk/product/ipamorelin-research-peptide/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:03.347Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://novapeptidelab.co.uk/product/the-wolverine-stack-bpc-157-tb-500/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:03.484Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://novapeptidelab.co.uk/product/bacteriostatic-water-uk/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:03.609Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://novapeptidelab.co.uk/product/5-amino-1mq-research-compound/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:03.746Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://novapeptidelab.co.uk/product/cjc-1295-without-dac/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:03.909Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "glow-blend-ghk-cu-bpc157-tb500",
+    "destUrl": "https://novapeptidelab.co.uk/product/glow-70mg-blend/",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.063Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "destUrl": "https://retaresearch.co",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.201Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://retaresearch.co/products/tirz-20mg",
+    "visitorId": "70ea4a2298090fe6"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.336Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://retaresearch.co/products/sema",
+    "visitorId": "70ea4a2298090fe6"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.464Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://retaresearch.co/products/bpc-157",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.591Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://retaresearch.co/products/tb-500",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.723Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://retaresearch.co/products/melanotan-2",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.858Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://retaresearch.co/products/retatrutide",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:04.997Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://retaresearch.co/products/igf-lr3",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:05.127Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://retaresearch.co/products/tesamorelin",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:05.454Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://retaresearch.co/products/mots-c",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:05.582Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://retaresearch.co/products/ss-31",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:05.714Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://retaresearch.co/products/ghk-cu",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:05.844Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://retaresearch.co/products/semax",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:05.978Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "selank",
+    "destUrl": "https://retaresearch.co/products/selank",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:06.112Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://retaresearch.co/products/ipamorelin",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:06.247Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://retaresearch.co/products/pt-141",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:06.380Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://retaresearch.co/products/bpc-157-tb-500-mix",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:06.543Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "glow",
+    "destUrl": "https://retaresearch.co/products/glow",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:06.713Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "klow",
+    "destUrl": "https://retaresearch.co/products/klow",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:06.849Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://retaresearch.co/products/bacteriorastic-water-10ml",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:06.978Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://retaresearch.co/products/nad",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:07.124Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://retaresearch.co/products/cjc-1295-no-dac-ipamorelin-mix",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:07.254Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://retaresearch.co/products/pinealon-10",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:07.388Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://retaresearch.co/products/cjc-1295-no-dac",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:07.522Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://retaresearch.co/products/cagrilintide",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:07.652Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://retaresearch.co/products/melanotan-1",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:35:07.793Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://retaresearch.co/products/tesamorelin-ipamorelin-mix",
+    "visitorId": "d54d6b2a5854e3fd"
+  },
+  {
+    "ts": "2026-10-21T23:36:13.342Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptidehub.co.uk/product/nad-500mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidehub/nad-plus",
+    "visitorId": "e7973a71e9538160"
+  },
+  {
+    "ts": "2026-10-21T23:56:56.652Z",
+    "type": "vendor-site",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "destUrl": "https://kingstonpeptides.com",
+    "visitorId": "a6f04c8b55e9c339"
   }
 ]
