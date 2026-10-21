@@ -25370,5 +25370,103 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
     "visitorId": "8bc4b6348fa861eb"
+  },
+  {
+    "ts": "2026-10-20T23:30:52.423Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "visitorId": "7e3db73f3da528d9"
+  },
+  {
+    "ts": "2026-10-20T23:30:55.414Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "visitorId": "7e3db73f3da528d9"
+  },
+  {
+    "ts": "2026-10-20T23:39:20.991Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptideglobal.co.uk/product/mt2-pen/",
+    "visitorId": "caa863bb77260d1f"
+  },
+  {
+    "ts": "2026-10-20T23:41:19.024Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/",
+    "visitorId": "df7452b0b85912af"
+  },
+  {
+    "ts": "2026-10-20T23:41:20.835Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/",
+    "visitorId": "e245ca0e45848033"
+  },
+  {
+    "ts": "2026-10-20T23:41:26.111Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/",
+    "visitorId": "37a5527b5dbec092"
+  },
+  {
+    "ts": "2026-10-20T23:41:28.372Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/dsip/",
+    "visitorId": "186b86f9c3ae5da1"
+  },
+  {
+    "ts": "2026-10-20T23:43:18.249Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://optimuslabs.co.uk/product/semax/",
+    "visitorId": "840075c68e563b9f"
+  },
+  {
+    "ts": "2026-10-20T23:48:38.144Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water-0-9-sodium-chloride",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/",
+    "visitorId": "337f419dc69d43e7"
+  },
+  {
+    "ts": "2026-10-20T23:55:57.824Z",
+    "type": "vendor-site",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "destUrl": "https://www.northpeptidesuk.com",
+    "visitorId": "3ed8b50c217467cc"
+  },
+  {
+    "ts": "2026-10-21T00:01:49.158Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://biotideuk.com/products/dsip-10-mg",
+    "visitorId": "52f949e2b43d4b7b"
   }
 ]
