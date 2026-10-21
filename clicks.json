@@ -7598,5 +7598,14 @@
     "vendorName": "Raccoon Peptides",
     "destUrl": "https://www.raccoonpeptides.com",
     "visitorId": "fb92d139269b275c"
+  },
+  {
+    "ts": "2026-10-21T14:43:01.880Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "mots-c-40mg",
+    "destUrl": "https://biopeptides-uk.com/product/mots-c-40mg/",
+    "visitorId": "8eae3794c4cf43b9"
   }
 ]
