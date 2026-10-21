@@ -2162,6 +2162,30 @@ All 30 days are now accounted for. Remaining plan items and their disposition:
 **No further days remain in KW Phase 1.** Future runs of this job should report
 "[SILENT]" unless the plan file gains new days.
 
+### ✅ Independent verification — 21 Oct 2026 03:00 cron
+This job re-ran the completeness check against `kw-phase-1-list.md` and the live registry
+(`scripts/kw_check_plan_status.py`, quote-agnostic: matches both single- and double-quoted
+Record keys AND `slug:` fields — 179 entries discovered).
+**All 30 days are complete. Exactly 4 plan items are absent, all deliberate and documented above:**
+
+| Plan item | Day | Disposition |
+|---|---|---|
+| `p21-research-summary` | 27 | Skipped — duplicate of 4 existing P21 articles |
+| `melanotan-ii-vs-melanotan-1` | 27 | Replaced by `pt-141-vs-melanotan-ii-uk` (Day 14 run) — distinct pairing |
+| `kpv-vs-ll37` | 29 | Already live as `kpv-vs-ll-37`; `/research/kpv-vs-ll37` correctly 404s |
+| `cardiogen-deep-dive` | 29 | Skipped — no angle beyond 4 existing Cardiogen articles |
+
+Live spot-check (GET + `<title>`): `mots-c-suppliers-uk`, `buy-research-peptides-uk`,
+`staircase-of-vial-sizes`, `kpv-suppliers-uk`, `retatrutide-vs-survodutide`, `p21-deep-dive`,
+`pt-141-vs-melanotan-ii-uk`, `kpv-vs-ll-37`, `cardiogen-research-summary` — all **200** with
+correct titles. Nothing was written or pushed by this run; no article was duplicated.
+
+**Note on the quote-style trap:** a regex sweep that only matches `slug:` fields reports the
+three Day-30 entries as missing, because they are stored as single-quoted Record keys
+(`'mots-c-suppliers-uk': {`) — the `slug:` line sits on the *next* line and is fine. Any future
+gap-check must scan keys, not just `slug:` fields, or it will "find" phantom work.
+
+
 ⚠️ **`ll-37` compound name in `compounds.json` is `"LL-37 5mg"`** — a dosage-suffixed
 `name` field, the same class of data error found on AHK-Cu on Day 25 (and on
 `Pancragen 10mg`, `Pinealon 10mg`, `Testagen 10mg`, `Thymalin 10mg`, `Vesugen 10mg`).
