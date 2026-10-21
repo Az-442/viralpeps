@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
       },
       // --- Legacy/typo compound URLs (were internal 404s; links now omitted) ---
       {
+        source: "/compounds/wolverine-stack-bpc157-tb500-blend",
+        destination: "/compounds/bpc-157-tb-500-mix",
+        permanent: true,
+      },
+      {
         source: "/compounds/aod9604",
         destination: "/compounds/aod-9604",
         permanent: true,
