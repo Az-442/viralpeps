@@ -7117,5 +7117,25 @@
     "vendorName": "British Peptide Labs",
     "destUrl": "https://britishpeptidelabs.com",
     "visitorId": "fd0e34cbbd9cfc18"
+  },
+  {
+    "ts": "2026-10-21T11:49:22.639Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://phoenixbiolabs.net/shop/ss-31-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "748836f46db964bb"
+  },
+  {
+    "ts": "2026-10-21T12:27:50.244Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank-semax-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-semax-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5b2294f5a4acca22"
   }
 ]
