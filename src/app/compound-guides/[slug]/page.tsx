@@ -140,10 +140,19 @@ import {
   sortByTrust as ss31SortByTrust,
   SS_31_SPOKES,
 } from "@/data/ss-31-silo";
+import { spokes as sermorelinSpokes, getSpoke as getSermorelinSpoke } from "@/data/sermorelin-spokes";
+import {
+  getSermorelinRows,
+  getSermorelinStats,
+  sortByPrice as sermorelinSortByPrice,
+  sortByPricePerMg as sermorelinSortByPricePerMg,
+  sortByTrust as sermorelinSortByTrust,
+  SERMORELIN_SPOKES,
+} from "@/data/sermorelin-silo";
 
 export const dynamic = "force-dynamic";
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -161,6 +170,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   "nad-plus": "NAD+",
   "bacteriostatic-water": "Bacteriostatic Water",
   "ss-31": "SS-31",
+  sermorelin: "Sermorelin",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -195,6 +205,8 @@ function resolveSpoke(slug: string) {
   if (bac) return { spoke: bac, compound: "bacteriostatic-water" as const };
   const ss31 = getSs31Spoke(slug);
   if (ss31) return { spoke: ss31, compound: "ss-31" as const };
+  const sermorelin = getSermorelinSpoke(slug);
+  if (sermorelin) return { spoke: sermorelin, compound: "sermorelin" as const };
   return null;
 }
 
@@ -215,6 +227,7 @@ export async function generateStaticParams() {
     ...nadSpokes.map((s) => ({ slug: s.slug })),
     ...bacSpokes.map((s) => ({ slug: s.slug })),
     ...ss31Spokes.map((s) => ({ slug: s.slug })),
+    ...sermorelinSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -472,6 +485,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "sermorelin") {
+    const all = getSermorelinRows();
+    let sorted = sermorelinSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = sermorelinSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = sermorelinSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -522,7 +549,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                               ? getBacStats()
                               : compound === "ss-31"
                                 ? getSs31Stats()
-                                : getTrizStats();
+                                : compound === "sermorelin"
+                                  ? getSermorelinStats()
+                                  : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
   const compoundName = COMPOUND_NAMES[compound];
@@ -555,7 +584,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                               ? BAC_SPOKES
                               : compound === "ss-31"
                                 ? SS_31_SPOKES
-                                : TIRZ_SPOKES;
+                                : compound === "sermorelin"
+                                  ? SERMORELIN_SPOKES
+                                  : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema

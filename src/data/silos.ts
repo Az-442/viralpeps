@@ -29,6 +29,11 @@ import {
   type BacStats,
 } from "@/data/bacteriostatic-water-silo";
 import { SS_31_SPOKES, getSs31Stats, type Ss31Stats } from "@/data/ss-31-silo";
+import {
+  SERMORELIN_SPOKES,
+  getSermorelinStats,
+  type SermorelinStats,
+} from "@/data/sermorelin-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -191,6 +196,14 @@ export const SILOS: Silo[] = [
     spokes: SS_31_SPOKES as unknown as SiloSpoke[],
     getStats: () => getSs31Stats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "sermorelin",
+    name: "Sermorelin",
+    blurb:
+      "GHRH(1-29) analogue buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: SERMORELIN_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getSermorelinStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -207,4 +220,5 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
 }
 
 export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats, BacStats, Ss31Stats };
+export type { SermorelinStats };
 export type { GhkStats };
