@@ -4049,7 +4049,9 @@
       "checkedAt": "2026-10-09T00:45:31.929Z"
     },
     "email": "info@vialverse.com",
-    "delivery": "£4.95 standard UK delivery · free over £75 · Royal Mail Tracked 24 · UK-only · 1-2 working days to dispatch"
+    "delivery": "£4.95 standard UK delivery · free over £75 · Royal Mail Tracked 24 · UK-only · 1-2 working days to dispatch",
+    "domainVerified": true,
+    "embedded": true
   },
   {
     "id": "kings-bio-labs",
