@@ -541,8 +541,22 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                   {/* International shipping */}
                   <div className="flex items-center justify-between py-2">
                     <span className="text-sm text-slate-600">International</span>
-                    <span className="text-sm font-bold text-slate-800">{vendor.shipping?.some((s: string) => s.toLowerCase().includes("international")) ? "Yes" : "No"}</span>
+                    <span className="text-sm font-bold text-slate-800">{vendor.shipping?.some((s: string) => s.toLowerCase().includes("international")) ? "Yes" : "We dispatch to the UK only."}</span>
                   </div>
+                  {/* COA library */}
+                  {vendor.coaUrl && (
+                    <div className="flex items-center justify-between py-2 border-t border-slate-100">
+                      <span className="text-sm text-slate-600">COA</span>
+                      <a
+                        href={vendor.coaUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-bold text-blue-600 hover:text-blue-500 underline underline-offset-2"
+                      >
+                        View certificates →
+                      </a>
+                    </div>
+                  )}
                 </>);
               })()}
             </div>

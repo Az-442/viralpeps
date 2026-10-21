@@ -17677,10 +17677,12 @@
     "longDescription": ""
   },
   {
-    "id": "wolverine-stack-bpc157-tb500-blend",
-    "name": "Wolverine Stack BPC157 & TB 500 Blend",
-    "slug": "wolverine-stack-bpc157-tb500-blend",
+    "id": "bpc-157-tb-500-mix",
+    "name": "BPC-157 / TB-500 Mix",
+    "slug": "bpc-157-tb-500-mix",
     "aliases": [
+      "BPC-157 / TB-500 Mix",
+      "Wolverine Stack",
       "BPC-157/TB-500 Stack",
       "Regenerative blend",
       "BPC/TB mix",
@@ -27189,7 +27191,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
+    "compareSlug": "bpc-157-tb-500-mix",
     "longDescription": ""
   },
   {
@@ -29939,7 +29941,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
+    "compareSlug": "bpc-157-tb-500-mix",
     "longDescription": ""
   },
   {
@@ -31595,7 +31597,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
+    "compareSlug": "bpc-157-tb-500-mix",
     "longDescription": ""
   },
   {
@@ -31626,7 +31628,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
+    "compareSlug": "bpc-157-tb-500-mix",
     "longDescription": ""
   },
   {
@@ -35980,7 +35982,7 @@
     "id": "wolverine-stack-the-peptide-company",
     "name": "Wolverine Stack (BPC157 & TB500) 10mg",
     "slug": "wolverine-stack-the-peptide-company",
-    "compareSlug": "wolverine-stack-bpc157-tb500-blend",
+    "compareSlug": "bpc-157-tb-500-mix",
     "category": "peptide-blends",
     "description": "Wolverine Stack (BPC-157 & TB-500) 10mg peptide blend for research.",
     "aliases": [],
