@@ -8030,5 +8030,25 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://peptidehub.co.uk/product/tb-500-10mg/",
     "visitorId": "1d538fd248307fb8"
+  },
+  {
+    "ts": "2026-10-21T19:16:06.610Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "aaa44872d706415e"
+  },
+  {
+    "ts": "2026-10-21T20:09:50.454Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glow",
+    "destUrl": "https://phoenixbiolabs.net/shop/glow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1553a14bec354ac3"
   }
 ]
