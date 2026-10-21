@@ -8128,5 +8128,35 @@
     "compoundSlug": "kpv",
     "destUrl": "https://peptidehub.co.uk/product/kpv-10mg/",
     "visitorId": "d246912ccf0a8891"
+  },
+  {
+    "ts": "2026-10-21T21:54:30.934Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bdabaef70b1af04a"
+  },
+  {
+    "ts": "2026-10-21T22:00:25.512Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidehub.co.uk/product/semax-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidehub/semax",
+    "visitorId": "31074c8c24a8858d"
+  },
+  {
+    "ts": "2026-10-21T22:12:41.662Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://phoenixbiolabs.net/shop/bacteriostatic-sterile-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "175d3d8f27069ee8"
   }
 ]
