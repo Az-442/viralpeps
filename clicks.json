@@ -8100,5 +8100,24 @@
     "destUrl": "https://midshirelabs.co.uk/products/dsip/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "940e17b8ad026eb8"
+  },
+  {
+    "ts": "2026-10-21T20:17:10.286Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d98bc6aa45826cc4"
+  },
+  {
+    "ts": "2026-10-21T21:12:38.863Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptidehub.co.uk/product/kisspeptin-10-5mg/",
+    "visitorId": "1d6ddcd8237102b3"
   }
 ]
