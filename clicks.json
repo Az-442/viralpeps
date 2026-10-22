@@ -21539,5 +21539,22 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
     "visitorId": "70671ea9a21183d7"
+  },
+  {
+    "ts": "2026-10-22T07:32:14.501Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "6b2cda12d5d6d601"
+  },
+  {
+    "ts": "2026-10-22T08:28:31.852Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
+    "visitorId": "660364a764d49778"
   }
 ]
