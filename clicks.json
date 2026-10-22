@@ -8637,5 +8637,15 @@
     "vendorName": "Kingston Peptides",
     "destUrl": "https://kingstonpeptides.com",
     "visitorId": "a6f04c8b55e9c339"
+  },
+  {
+    "ts": "2026-10-22T00:13:57.441Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d54f6ec13198bc2e"
   }
 ]
