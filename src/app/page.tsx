@@ -12,6 +12,7 @@ import { PEPTIDE_COUNT as peptideCount, SUPPLIER_COUNT as vendorCount } from "@/
 import { HOMEPAGE_CATEGORY_GROUPS } from "@/data/categories";
 import { getVendorStats } from "@/data/vendor-stats";
 import { guides } from "@/data/research";
+import { getTrustScore } from "@/lib/trust-score";
 
 // --- Data helpers ---
 const totalCompounds = peptideCount;
@@ -25,8 +26,16 @@ const vendorCompoundCounts: Record<string, number> = Object.fromEntries(
   Object.entries(allVendorStats).map(([name, s]) => [name, s.compoundCount])
 );
 
+// Top 4 vendors by TrustScore (highest first) — recomputed on every build from live vendor data
 const topVendors = [...vendors]
- .sort((a, b) => (vendorCompoundCounts[b.name] || 0) - (vendorCompoundCounts[a.name] || 0))
+ .sort((a, b) => {
+   const diff = getTrustScore(b.name).score - getTrustScore(a.name).score;
+   if (diff !== 0) return diff;
+   // tie-break: more compounds listed, then alphabetical for stable order
+   const cd = (vendorCompoundCounts[b.name] || 0) - (vendorCompoundCounts[a.name] || 0);
+   if (cd !== 0) return cd;
+   return a.name.localeCompare(b.name);
+ })
  .slice(0, 4);
 
 // Min and max prices per vendor (computed dynamically)
@@ -310,7 +319,7 @@ export default function Home() {
  </div>
  </div>
  <ScrollSection>
-   {topVendors.map((v) => {
+   {topVendors.map((v, i) => {
      const count = vendorCompoundCounts[v.name] || 0;
      const prices = vendorPrices[v.name];
      return (
@@ -322,6 +331,15 @@ export default function Home() {
            <div className="min-w-0 flex-1">
              <h3 className="font-semibold text-gray-900 text-sm truncate">{v.name}</h3>
              <div className="flex flex-wrap items-center gap-1 mt-1">
+               {(() => {
+                 const ts = getTrustScore(v.name).score;
+                 const cls = ts >= 65 ? "text-emerald-700 bg-emerald-50" : ts >= 45 ? "text-amber-700 bg-amber-50" : "text-slate-600 bg-slate-100";
+                 return (
+                   <span className={`inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full ${cls}`}>
+                     TrustScore {ts}
+                   </span>
+                 );
+               })()}
                {v.verified && (
                  <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full">
                    <svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
@@ -334,15 +352,15 @@ export default function Home() {
          </div>
          <div className="flex items-center justify-between pt-3 border-t border-slate-100">
            <div>
-             <span className="text-[10px] text-slate-400 uppercase font-medium">{v === topVendors[0] ? "BEST PRICE" : v === topVendors[topVendors.length - 1] ? "HIGHEST" : "FROM"}</span>
+             <span className="text-[10px] text-slate-400 uppercase font-medium">{i === 0 ? "TOP RATED" : "FROM"}</span>
              <div className="text-xl font-extrabold text-emerald-600">{prices ? `£${prices.min.toFixed(2)}` : ""}</div>
              <div className="text-[10px] text-slate-400">{count} products</div>
            </div>
            <span className="text-sm text-blue-600 font-medium group-hover:underline">View &rarr;</span>
          </div>
        </Link>
-     );
-   })}
+       );
+       })}
    {/* Browse all button */}
    <Link href="/vendors" className="flex-shrink-0 w-52 bg-indigo-100 border border-black rounded-xl p-5 hover:bg-indigo-200 transition-all snap-start flex items-center justify-center">
      <span className="text-sm font-semibold text-blue-600">Compare all &rarr;</span>
