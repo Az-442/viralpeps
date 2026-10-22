@@ -4,6 +4,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import BreadcrumbList from "@/components/BreadcrumbList";
 import PriceTable from "@/components/PriceTable";
+import FeaturedSlot from "@/components/FeaturedSlot";
 import { SILOS, type SiloSpoke } from "@/data/silos";
 import { spokes as retaSpokes, getSpoke as getRetaSpoke, type Spoke } from "@/data/retatrutide-spokes";
 import {
@@ -583,6 +584,30 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                     : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
+  // Featured slot (silo hero, top-right). Highest TrustScore row, tie-break cheapest.
+  const featuredSlotData = (() => {
+    if (!rows.length) return null;
+    const best = [...rows].sort(
+      (a, b) =>
+        (b.trustScore ?? 0) - (a.trustScore ?? 0) || a.price - b.price
+    )[0];
+    if (!best) return null;
+    return {
+      vendorName: best.vendor,
+      vendorSlug: best.vendorSlug,
+      compoundName: COMPOUND_NAMES[compound] || compound,
+      pack: best.pack,
+      price: best.price,
+      perMg: best.perMg,
+      trustScore: best.trustScore,
+      rating: null,
+      inStock: best.inStock,
+      verified: best.verified,
+      goUrl: `/go/${best.vendorSlug}/${compound}`,
+      imageUrl: `/images/products/${best.vendorSlug}/${compound}.webp`,
+    };
+  })();
+
   const compoundName = COMPOUND_NAMES[compound];
   const spokeManifest =
     compound === "retatrutide"
@@ -685,22 +710,32 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
       {/* ── HERO ── */}
       <section className="bg-gradient-to-br from-[#0b1a2e] via-[#162d50] to-[#0f1f38] text-white">
         <div className="max-w-[76rem] mx-auto px-4 py-10 md:py-14">
-          <div className="flex flex-wrap items-center gap-2 mb-4">
-            <Link
-              href={`/compounds/${compound}`}
-              className="text-[10px] font-bold text-blue-200 bg-white/10 border border-white/20 px-2.5 py-1 rounded-full uppercase tracking-widest hover:bg-white/20 transition-colors"
-            >
-              ← {compoundName} Hub
-            </Link>
-            <span className="text-[10px] font-bold text-emerald-300 bg-emerald-900/40 px-2.5 py-1 rounded-full uppercase tracking-widest">
-              Buying Guide
-            </span>
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_348px] gap-7 lg:gap-8 items-start">
+            <div>
+              <div className="flex flex-wrap items-center gap-2 mb-4">
+                <Link
+                  href={`/compounds/${compound}`}
+                  className="text-[10px] font-bold text-blue-200 bg-white/10 border border-white/20 px-2.5 py-1 rounded-full uppercase tracking-widest hover:bg-white/20 transition-colors"
+                >
+                  ← {compoundName} Hub
+                </Link>
+                <span className="text-[10px] font-bold text-emerald-300 bg-emerald-900/40 px-2.5 py-1 rounded-full uppercase tracking-widest">
+                  Buying Guide
+                </span>
+              </div>
+              <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-3 max-w-[640px]">{spoke.h1}</h1>
+              <p className="text-blue-200 text-sm md:text-base max-w-3xl leading-relaxed">
+                Independent comparison across {stats.suppliers} verified UK suppliers · {stats.products} tracked
+                listings · prices refreshed weekly
+              </p>
+            </div>
+
+            {featuredSlotData && (
+              <div className="lg:mt-1">
+                <FeaturedSlot data={featuredSlotData} />
+              </div>
+            )}
           </div>
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-3">{spoke.h1}</h1>
-          <p className="text-blue-200 text-sm md:text-base max-w-3xl leading-relaxed">
-            Independent comparison across {stats.suppliers} verified UK suppliers · {stats.products} tracked
-            listings · prices refreshed weekly
-          </p>
         </div>
       </section>
 
