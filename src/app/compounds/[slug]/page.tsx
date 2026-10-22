@@ -482,7 +482,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
               </div>
 
               <div className="relative z-[2] flex flex-col items-center gap-3">
-                <div className="w-[188px] h-[214px] rounded-2xl bg-[radial-gradient(circle_at_50%_32%,rgba(255,255,255,0.98),rgba(219,234,254,0.92)_70%)] flex items-center justify-center shadow-[0_14px_34px_-12px_rgba(0,0,0,0.6)] overflow-hidden p-2">
+                <div className="w-[188px] h-[214px] rounded-2xl bg-white flex items-center justify-center shadow-[0_14px_34px_-12px_rgba(0,0,0,0.6)] overflow-hidden p-3">
                   <ProductImage
                     vendorSlug={featuredVendorData.slug}
                     compoundSlug={slug}
