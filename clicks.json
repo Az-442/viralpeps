@@ -22272,5 +22272,77 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://www.raccoonpeptides.com/peptides/12-aod-9604-5mg.html",
     "visitorId": "a96bacdc8234db5c"
+  },
+  {
+    "ts": "2026-10-22T21:16:20.331Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/12-aod-9604-5mg.html",
+    "visitorId": "0737b7f40db633f1"
+  },
+  {
+    "ts": "2026-10-22T21:16:25.208Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/12-aod-9604-5mg.html",
+    "visitorId": "0737b7f40db633f1"
+  },
+  {
+    "ts": "2026-10-22T21:23:39.725Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "visitorId": "b4736047dfd8fe68"
+  },
+  {
+    "ts": "2026-10-22T21:24:34.841Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.buyreta.co.uk/product/igf-lr3-1mg-uk",
+    "visitorId": "c25b03056de35358"
+  },
+  {
+    "ts": "2026-10-22T21:29:25.940Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ukpeptides.org/buy/tb-500-5mg",
+    "visitorId": "0200020932714287"
+  },
+  {
+    "ts": "2026-10-22T21:32:56.149Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://peptidesuk.com/ghrp6-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-uk/ghrp-6",
+    "visitorId": "e139585e2d15532a"
+  },
+  {
+    "ts": "2026-10-22T21:38:13.868Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidesuk.com/ghk-cu/",
+    "visitorId": "8f83ebb84eba6f1d"
+  },
+  {
+    "ts": "2026-10-22T21:47:53.084Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://novavitality.co.uk/product/l-carnitine/",
+    "visitorId": "8d0be1c37e227772"
   }
 ]
