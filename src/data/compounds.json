@@ -6302,7 +6302,13 @@
     "slug": "igf-1-lr3",
     "aliases": [
       "Long R3 IGF-1",
-      "Insulin-like Growth Factor-1 Long Arginine 3"
+      "Insulin-like Growth Factor-1 Long Arginine 3",
+      "igf-1-lr3-1mg",
+      "igf-1-lr3-100mcg",
+      "igf-1-long-r3-1mg",
+      "igf1-lr3-1mg",
+      "igf1-lr3-vial-express",
+      "igf1-lr3-pen-express"
     ],
     "category": "growth-hormone",
     "description": "IGF-1 LR3 is a synthetic 83-amino acid analogue of human IGF-1 with an arginine substitution at position three and an N-terminal extension. It has significantly reduced binding to IGF-binding proteins, resulting in a much longer half-life and greater bioavailability than native IGF-1.",
@@ -6785,6 +6791,14 @@
         "image": "/images/products/peptidespecialist/igf-1-lr3-1mg-pen.webp",
         "dosage": "1mg",
         "form": "Peptide Pen"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/igf1-lr3-1mg",
+        "price": "£59.00",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/igf-1-lr3-1mg.webp",
+        "dosage": "1mg"
       }
     ],
     "longDescription": "## Overview\n\nIGF-1 LR3 (Long Arginine 3 Insulin-like Growth Factor-1) is a synthetic 83-amino acid analogue of human IGF-1 engineered for dramatically enhanced bioavailability and half-life. The modification involves substituting the third amino acid (arginine for glutamic acid) and adding an N-terminal extension (MFPAMPLSSLFNGPRTLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA), creating a peptide with approximately 1000-fold reduced affinity for IGF-binding proteins (IGFBPs). Normally, native IGF-1 is rapidly sequestered by IGFBPs and cleared within 10–12 minutes. IGF-1 LR3 overcomes this limitation, achieving a half-life of 20–30 hours and significantly greater bioavailability at target tissues. This makes IGF-1 LR3 a powerful research tool for studying muscle growth, recovery, insulin sensitivity, nerve regeneration, and anti-aging pathways. UK researchers in sports science and regenerative medicine have utilised IGF-1 LR3 to investigate protein synthesis and tissue repair mechanisms.\n\n## Mechanism of Action\n\nIGF-1 LR3 exerts its effects by binding to the IGF-1 receptor (IGF-1R), a receptor tyrosine kinase that activates the PI3K/Akt and MAPK/ERK signalling cascades. This leads to increased protein synthesis through mTOR activation, enhanced nitrogen retention, inhibited protein breakdown (through FoxO phosphorylation), and promotion of cell proliferation and survival. The reduced binding to IGFBPs (particularly IGFBP-3, the most abundant circulating binding protein) means that a much larger proportion of administered peptide remains free and biologically active — a critical advantage over native IGF-1. IGF-1 LR3 also exhibits some cross-reactivity with the insulin receptor, though with lower affinity, potentially contributing to improved insulin sensitivity in certain research contexts.\n\n## Research & Clinical Data\n\nResearch studies have demonstrated that IGF-1 LR3 significantly enhances muscle protein synthesis and promotes myoblast proliferation and differentiation in vitro. Animal studies report improved muscle regeneration following injury, enhanced nerve regeneration after peripheral nerve damage, and increased bone density in models of osteoporosis. The extended half-life of 20–30 hours allows for once or twice daily dosing schedules, compared to the impractical continuous infusion required for native IGF-1. Clinical applications for IGF-1 deficiency, muscle wasting diseases, and metabolic disorders continue to be explored.\n\n## Dosage & Administration\n\nCommon research dosages for IGF-1 LR3 range from 20–60 mcg per day for general research purposes, with post-workout protocols of 40–80 mcg used in muscle growth studies. Due to its 20–30 hour half-life, once or twice daily administration is sufficient. Subcutaneous or intramuscular injection are both used in research protocols. The peptide should be reconstituted with bacteriostatic water (or dilute acetic acid for optimal stability) and stored at 2–8°C after reconstitution.\n\n## Safety & Legal\n\nIGF-1 LR3 is for research purposes only. Potential risks associated with IGF-1 pathway activation include hypoglycaemia (due to insulin receptor cross-reactivity), acromegaly-like effects with chronic use, and theoretical concerns regarding cell proliferation in susceptible tissues. The lyophilised powder should be stored at -20°C and protected from light and moisture.\n\n\nThe engineering of IGF-1 LR3 addressed a fundamental challenge in growth factor therapeutics: the rapid clearance of IGF-1 due to its high-affinity binding to a family of six binding proteins (IGFBPs) present in plasma at molar excess. Native IGF-1 has a half-life of only 10–12 minutes because it is rapidly sequestered by IGFBPs, primarily IGFBP-3. The R3 substitution (arginine for glutamic acid at position 3) reduces affinity for all IGFBPs by approximately 1000-fold, while the N-terminal extension further enhances this property.\n\nThe implications of this reduced IGFBP binding extend beyond pharmacokinetics. IGFBPs not only transport IGF-1 in the circulation but also modulate its interaction with the IGF-1 receptor. Some IGFBPs can potentiate or inhibit IGF-1 signalling in a tissue-specific manner. By circumventing these regulatory proteins, IGF-1 LR3 provides a more direct and uniform activation of the IGF-1 receptor across different target tissues — which may be advantageous for some research applications but could also bypass important physiological regulatory mechanisms.\n\nResearch has demonstrated that IGF-1 LR3 is particularly effective in promoting muscle protein synthesis. Studies in animal models show increased muscle mass and fibre cross-sectional area with IGF-1 LR3 treatment, even in the absence of resistance exercise. The peptide also promotes satellite cell activation and myonuclear accretion, suggesting it may enhance the regenerative capacity of skeletal muscle — a finding with implications for sarcopenia and muscle-wasting conditions.\n\nFor research use, IGF-1 LR3 requires careful handling due to its susceptibility to oxidation and aggregation. Reconstitution with dilute acetic acid (rather than bacteriostatic water) can improve stability. The peptide should be stored at -20°C as lyophilised powder and used promptly after reconstitution. UK researchers should source from vendors who provide purity analysis and storage recommendations specific to this peptide.",
@@ -16619,7 +16633,10 @@
     "aliases": [
       "Bremelanotide",
       "PT141",
-      "Vyleesi"
+      "Vyleesi",
+      "pt-141",
+      "pt-141-bremelanotide-10mg",
+      "pt-141-vial-express"
     ],
     "category": "tanning-libido",
     "description": "PT-141 (Bremelanotide) is a synthetic cyclic heptapeptide analogue of Melanotan II that selectively activates melanocortin receptors MC3R and MC4R. Unlike Melanotan II, it has minimal effect on skin pigmentation (MC1R) and is primarily researched for sexual dysfunction and female hypoactive sexual desire disorder.",
@@ -17057,6 +17074,164 @@
         "price": "£20.95",
         "inStock": true,
         "image": "/images/products/peptidehub/pt-141-bremelanotide.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "PeptX",
+        "url": "https://peptx.co.uk/single-vials/pt-141",
+        "price": "£23.99",
+        "inStock": true,
+        "dosage": "10mg",
+        "image": "/images/products/peptx/pt-141.webp"
+      },
+      {
+        "vendor": "UK Peptide Lab",
+        "url": "https://ukpeptidelab.co.uk/product/pt-141",
+        "price": "£20.99",
+        "inStock": true,
+        "dosage": "10mg",
+        "image": "/images/products/uk-peptide-lab/pt-141.webp"
+      },
+      {
+        "vendor": "FORM Peptides",
+        "url": "https://formpeptides.co.uk/catalogue/product/pt-141-10mg",
+        "price": "£20.00",
+        "inStock": true,
+        "image": "/images/products/form-peptides/pt-141.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "PeptidesX",
+        "url": "https://www.peptidesx.uk/product/pt-141/",
+        "price": "£19.95",
+        "inStock": true,
+        "dosage": "10mg",
+        "image": "/images/products/peptidesx/pt-141.webp"
+      },
+      {
+        "vendor": "PeptideLabUK",
+        "url": "https://peptidelabuk.co.uk/product/pt-141-10mg-research-peptide/",
+        "price": "£49.99",
+        "inStock": true,
+        "image": "/images/products/peptide-lab-uk/pt-141.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "HelixCore",
+        "url": "https://helixcore.co.uk/products/pt-141",
+        "price": "£21.99",
+        "inStock": true,
+        "dosage": "10mg",
+        "image": "/images/products/helix-core/pt-141.webp"
+      },
+      {
+        "vendor": "Advanced Peptides UK",
+        "url": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/pt-141-10mg/",
+        "price": "£60.00",
+        "inStock": true,
+        "image": "/images/products/advanced-peptides-uk/pt-141-10mg.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Evolve Peptides",
+        "url": "https://evolvepeptides.uk/products/pt141",
+        "price": "£18.99",
+        "inStock": true,
+        "image": "/images/products/evolve-peptides/pt-141.webp"
+      },
+      {
+        "vendor": "VialVerse",
+        "url": "https://vialverse.com/peptides/pt-141",
+        "price": "£19.00",
+        "inStock": true,
+        "image": "/images/products/vialverse/pt-141.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Bionik Peptides",
+        "url": "https://bionikpeptides.com/products/pt-141",
+        "price": "£20.00",
+        "inStock": true,
+        "image": "/images/products/bionik-peptides/pt-141.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "JGPep+",
+        "url": "https://jgpeptidesplus.com/product/pt141-10mg",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "/images/products/jgpeptidesplus/pt-141.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Phoenix BioLabs",
+        "url": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+        "price": "£44.99",
+        "inStock": true,
+        "image": "/images/products/phoenix-biolabs/pt-141-10mg-prefilled-premixed-pen-research-compound.webp",
+        "dosage": "10mg",
+        "options": [
+          {
+            "size": "10mg",
+            "price": "£19.99"
+          },
+          {
+            "size": "20mg",
+            "price": "£59.99"
+          }
+        ]
+      },
+      {
+        "vendor": "British Peptide Labs",
+        "url": "https://britishpeptidelabs.com/products/pt-141",
+        "price": "£40.00",
+        "inStock": true,
+        "image": "/images/products/british-peptide-labs/pt-141.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Peptide Shop UK",
+        "url": "https://peptidesshopuk.com/product/pt-10/",
+        "price": "£19.99",
+        "inStock": true,
+        "image": "/images/products/peptide-shop-uk/pt-141.jpg",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Arma Peptides",
+        "url": "https://armapeptideshop.com/product/pt-141-10mg/",
+        "price": "£16.00",
+        "inStock": true,
+        "image": "/images/products/arma-peptides/pt-141-10mg.webp",
+        "dosage": "10mg"
+      },
+      {
+        "vendor": "Peptides Specialist UK",
+        "url": "https://peptidespecialist.co.uk/product/pt-141/",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "/images/products/peptidespecialist/pt-141-vial.webp",
+        "form": "Vial",
+        "options": [
+          {
+            "size": "5mg",
+            "price": "£120.00"
+          }
+        ]
+      },
+      {
+        "vendor": "PS Labs",
+        "url": "https://pslabs.uk/products/pt-141-bremelanotide-10mg",
+        "price": "£20.00",
+        "inStock": true,
+        "image": "/images/products/ps-labs/pt-141-bremelanotide-10mg.webp"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/pt-141-bremelanotide",
+        "price": "£21.00",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/pt-141-10mg.webp",
         "dosage": "10mg"
       }
     ],
@@ -19237,7 +19412,12 @@
     "name": "Glow",
     "slug": "glow",
     "aliases": [
-      "Glow peptide blend"
+      "Glow peptide blend",
+      "glow-stack",
+      "bundle-glow-stack",
+      "glow-blend-ghk-cu-bpc157-tb500",
+      "glow-combo-pen-express",
+      "sterling-glow-70mg"
     ],
     "category": "anti-aging",
     "description": "Glow is a peptide blend commonly used in cosmetic research. The combination is designed to support skin health research applications including collagen synthesis and tissue regeneration studies.",
@@ -19669,7 +19849,13 @@
         "price": "£65.00",
         "inStock": true,
         "image": "/images/products/bionik-peptides/glow-blend.webp",
-        "dosage": "70mg"
+        "dosage": "70mg",
+        "options": [
+          {
+            "size": "bundle",
+            "price": "£130.00"
+          }
+        ]
       },
       {
         "vendor": "JGPep+",
@@ -19790,6 +19976,67 @@
         "inStock": true,
         "image": "/images/products/peptidespecialist/glow-blend.webp",
         "form": "Vial"
+      },
+      {
+        "vendor": "UK Peptide Lab",
+        "url": "https://ukpeptidelab.co.uk/product/glow",
+        "price": "£59.99",
+        "inStock": true,
+        "dosage": "70mg",
+        "image": "/images/products/uk-peptide-lab/glow-stack.webp"
+      },
+      {
+        "vendor": "North Peptides UK",
+        "url": "https://www.northpeptidesuk.com/products/glow-stack/",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "/images/products/north-peptides-uk/glow-stack.webp",
+        "dosage": "70mg"
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/bundle-glow-stack/",
+        "price": "£139.96",
+        "inStock": true,
+        "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Glow-Stack.jpg"
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/glow-blend-ghk-cu-bpc157-tb500/",
+        "price": "£45.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/glow-blend-ghk-cu-bpc157-tb500.webp"
+      },
+      {
+        "vendor": "Pioneer Peptides",
+        "url": "https://pioneerpeptides.co.uk/products/glow-blend/",
+        "price": "£75.00",
+        "inStock": true,
+        "image": "/images/products/pioneer-peptides/glow-blend.webp",
+        "dosage": "70mg"
+      },
+      {
+        "vendor": "NovaVitality",
+        "url": "https://novavitality.co.uk/product/bpc-157-tb-500-ghk-cu-mixture-70mg/",
+        "price": "£55.00",
+        "inStock": true,
+        "image": "/images/products/novavitality/glow-blend-ghk-cu-bpc157-tb500.webp",
+        "dosage": "70mg"
+      },
+      {
+        "vendor": "Nova Peptide Lab",
+        "url": "https://novapeptidelab.co.uk/product/glow-70mg-blend/",
+        "price": "£80.00",
+        "inStock": true,
+        "image": "/images/products/nova-peptide-lab/glow-blend-70mg.webp",
+        "dosage": "70mg"
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/glow-70mg/",
+        "price": "£69.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-glow-70mg.webp"
       }
     ],
     "longDescription": ""
@@ -19800,7 +20047,11 @@
     "slug": "klow",
     "aliases": [
       "KGlow25",
-      "K-LOW"
+      "K-LOW",
+      "klow-stack",
+      "klow-combo-pen-express",
+      "klow-blend-ghk-cu-bpc157-tb500-kpv",
+      "sterling-klow-80mg"
     ],
     "category": "peptide-blends",
     "description": "KLOW is a specialized peptide complex designed for research into tissue health and regeneration. It combines multiple peptide sequences to support cellular health research applications.",
@@ -20262,6 +20513,52 @@
         "inStock": true,
         "image": "/images/products/port-peptides/klow-blend.webp",
         "dosage": "80mg"
+      },
+      {
+        "vendor": "UK Peptide Lab",
+        "url": "https://ukpeptidelab.co.uk/product/klow",
+        "price": "£79.99",
+        "inStock": true,
+        "dosage": "80mg",
+        "image": "/images/products/uk-peptide-lab/klow-stack.webp"
+      },
+      {
+        "vendor": "North Peptides UK",
+        "url": "https://www.northpeptidesuk.com/products/klow-stack/",
+        "price": "£60.00",
+        "inStock": true,
+        "image": "/images/products/north-peptides-uk/klow-stack.webp",
+        "dosage": "80mg"
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/klow-blend-ghk-cu-bpc157-tb500-kpv/",
+        "price": "£79.00",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/klow-blend-ghk-cu-bpc157-tb500-kpv.webp"
+      },
+      {
+        "vendor": "Pioneer Peptides",
+        "url": "https://pioneerpeptides.co.uk/products/klow-blend/",
+        "price": "£90.00",
+        "inStock": true,
+        "image": "/images/products/pioneer-peptides/klow-blend.webp",
+        "dosage": "80mg"
+      },
+      {
+        "vendor": "NovaVitality",
+        "url": "https://novavitality.co.uk/product/ghk-cu-tb-500-bpc-157-kpv-mixture-70mg/",
+        "price": "£75.00",
+        "inStock": true,
+        "image": "/images/products/novavitality/klow-blend-ghk-cu-bpc157-tb500-kpv.webp",
+        "dosage": "70mg"
+      },
+      {
+        "vendor": "Sterling Peptides",
+        "url": "https://sterlingpeptides.co.uk/product/klow-80mg/",
+        "price": "£89.99",
+        "inStock": true,
+        "image": "/images/products/sterling-peptides/sterling-klow-80mg.webp"
       }
     ],
     "longDescription": ""
@@ -27412,48 +27709,6 @@
     "longDescription": ""
   },
   {
-    "id": "bundle-glow-stack",
-    "name": "Bundle Glow Stack",
-    "slug": "bundle-glow-stack",
-    "aliases": [],
-    "category": "peptide-blends",
-    "description": "Bundle Glow Stack — research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "Cosmetic research",
-      "Skin health",
-      "Collagen synthesis",
-      "Tissue regeneration",
-      "Anti-aging"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/bundle-glow-stack/",
-        "price": "£139.96",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Glow-Stack.jpg"
-      },
-      {
-        "vendor": "Bionik Peptides",
-        "url": "https://bionikpeptides.com/products/w1-longevity-anti-ageing",
-        "price": "£130.00",
-        "inStock": true,
-        "image": "/images/products/bionik-peptides/w1-longevity-anti-ageing.webp",
-        "dosage": "bundle"
-      }
-    ],
-    "faq": [],
-    "longDescription": ""
-  },
-  {
     "id": "bundle-super-stack",
     "name": "Bundle Super Stack",
     "slug": "bundle-super-stack",
@@ -28669,59 +28924,6 @@
       }
     ],
     "faq": [],
-    "longDescription": ""
-  },
-  {
-    "id": "pt-141-bremelanotide-10mg",
-    "name": "PT-141 Bremelanotide 10mg",
-    "slug": "pt-141-bremelanotide-10mg",
-    "aliases": [],
-    "category": "tanning-libido",
-    "description": "PT-141 Bremelanotide 10mg — research grade material supplied for laboratory research use only.",
-    "mechanism": "Under research. See product page for details.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥98%",
-    "form": "Various",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Pure Peptides UK",
-        "url": "https://purepeptidesuk.com/product/pt-141-bremelanotide-10mg/",
-        "price": "£20.00",
-        "inStock": true,
-        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/pt-141-10mg-front.png"
-      },
-      {
-        "vendor": "Tide Labs",
-        "url": "https://tidelabs.co.uk/products/pt-141-bremelanotide-10mg",
-        "price": "£20.90",
-        "inStock": true,
-        "image": "/images/products/tide-labs/pt-141.webp"
-      },
-      {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/pt-141-bremelanotide-10mg",
-        "price": "£20.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/pt-141-bremelanotide-10mg.webp"
-      },
-      {
-        "vendor": "UK-Peptides.com",
-        "url": "https://www.uk-peptides.com/pt-141-bremelanotide",
-        "price": "£21.00",
-        "inStock": true,
-        "image": "/images/products/uk-peptides-com/pt-141-10mg.webp",
-        "dosage": "10mg"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "pt-141-bremelanotide",
     "longDescription": ""
   },
   {
@@ -33035,37 +33237,6 @@
     "longDescription": ""
   },
   {
-    "id": "pt-141-vial-express",
-    "name": "PT-141 10mg",
-    "slug": "pt-141-vial-express",
-    "aliases": [],
-    "category": "tanning-libido",
-    "description": "PT-141 10mg by Express Peptides — high-purity research peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Lyophilised powder",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://www.expresspeptides.co.uk/product/pt-141/vial",
-        "price": "£24.99",
-        "inStock": true,
-        "image": "/images/products/express-peptides/pt-141-vial-express.webp"
-      }
-    ],
-    "faq": [],
-    "compareSlug": "pt-141",
-    "longDescription": ""
-  },
-  {
     "id": "pt-141-pen-express",
     "name": "PT-141 Pre-mixed Pen 10mg",
     "slug": "pt-141-pen-express",
@@ -33093,7 +33264,7 @@
       }
     ],
     "faq": [],
-    "compareSlug": "pt-141",
+    "compareSlug": "pt-141-bremelanotide",
     "longDescription": ""
   },
   {
@@ -33887,80 +34058,6 @@
     "longDescription": ""
   },
   {
-    "id": "glow-combo-pen-express",
-    "name": "GLOW Combo Pen 25+5+5mg",
-    "slug": "glow-combo-pen-express",
-    "aliases": [],
-    "category": "peptide-blends",
-    "description": "GLOW Combo Pen 25+5+5mg by Express Peptides — high-purity research peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Pre-mixed pen",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://www.expresspeptides.co.uk/product/glow-combo/pen",
-        "price": "£75.00",
-        "inStock": true,
-        "image": "/images/products/express-peptides/glow-combo-pen-express.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/glow-research-peptide/",
-        "price": "£55.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/glow.webp"
-      }
-    ],
-    "faq": [],
-    "longDescription": ""
-  },
-  {
-    "id": "klow-combo-pen-express",
-    "name": "KLOW Combo Pen 25+5+5+5mg",
-    "slug": "klow-combo-pen-express",
-    "aliases": [],
-    "category": "peptide-blends",
-    "description": "KLOW Combo Pen 25+5+5+5mg by Express Peptides — high-purity research peptide for in vitro laboratory research use only.",
-    "mechanism": "For laboratory research purposes only.",
-    "cas": "N/A",
-    "molarMass": "N/A",
-    "sequence": "N/A",
-    "purity": "≥99%",
-    "form": "Pre-mixed pen",
-    "halfLife": "N/A",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [],
-    "sources": [
-      {
-        "vendor": "Express Peptides",
-        "url": "https://www.expresspeptides.co.uk/product/klow-combo/pen",
-        "price": "£84.00",
-        "inStock": true,
-        "image": "/images/products/express-peptides/klow-combo-pen-express.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/klow-stack/",
-        "price": "£57.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/klow.webp"
-      }
-    ],
-    "faq": [],
-    "longDescription": ""
-  },
-  {
     "id": "mq-nad-c-combo-pen-express",
     "name": "MQ-NAD-C Combo Pen 200/50/10mg",
     "slug": "mq-nad-c-combo-pen-express",
@@ -34302,58 +34399,6 @@
         "price": "£79.99",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/ace-031-1mg.webp"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
-    "id": "klow-blend-ghk-cu-bpc157-tb500-kpv",
-    "name": "Klow Blend (GHK-CU/BPC157/TB500/KPV)",
-    "slug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
-    "compareSlug": "ghk-cu",
-    "category": "anti-aging",
-    "description": "Klow Blend peptide complex for research.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/klow-blend-ghk-cu-bpc157-tb500-kpv/",
-        "price": "£79.00",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/klow-blend-ghk-cu-bpc157-tb500-kpv.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/klow-stack/",
-        "price": "£57.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/klow.webp"
-      },
-      {
-        "vendor": "Pioneer Peptides",
-        "url": "https://pioneerpeptides.co.uk/products/klow-blend/",
-        "price": "£90.00",
-        "inStock": true,
-        "image": "/images/products/pioneer-peptides/klow-blend.webp",
-        "dosage": "80mg"
-      },
-      {
-        "vendor": "NovaVitality",
-        "url": "https://novavitality.co.uk/product/ghk-cu-tb-500-bpc-157-kpv-mixture-70mg/",
-        "price": "£75.00",
-        "inStock": true,
-        "image": "/images/products/novavitality/klow-blend-ghk-cu-bpc157-tb500-kpv.webp",
-        "dosage": "70mg"
       }
     ],
     "faq": [],
@@ -34920,66 +34965,6 @@
         "price": "£45.00",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/glutathione-peptide.webp"
-      }
-    ],
-    "faq": [],
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": ""
-  },
-  {
-    "id": "glow-blend-ghk-cu-bpc157-tb500",
-    "name": "Glow Blend (GHK-CU/BPC157/TB500)",
-    "slug": "glow-blend-ghk-cu-bpc157-tb500",
-    "compareSlug": "ghk-cu",
-    "category": "anti-aging",
-    "description": "Glow Blend peptide complex for research.",
-    "sources": [
-      {
-        "vendor": "Research Peptides UK",
-        "url": "https://researchpeptide.co.uk/product/glow-blend-ghk-cu-bpc157-tb500/",
-        "price": "£45.00",
-        "inStock": true,
-        "image": "/images/products/research-peptide-uk/glow-blend-ghk-cu-bpc157-tb500.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/glow-research-peptide/",
-        "price": "£55.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/glow.webp"
-      },
-      {
-        "vendor": "Pioneer Peptides",
-        "url": "https://pioneerpeptides.co.uk/products/glow-blend/",
-        "price": "£75.00",
-        "inStock": true,
-        "image": "/images/products/pioneer-peptides/glow-blend.webp",
-        "dosage": "70mg"
-      },
-      {
-        "vendor": "NovaVitality",
-        "url": "https://novavitality.co.uk/product/bpc-157-tb-500-ghk-cu-mixture-70mg/",
-        "price": "£55.00",
-        "inStock": true,
-        "image": "/images/products/novavitality/glow-blend-ghk-cu-bpc157-tb500.webp",
-        "dosage": "70mg"
-      },
-      {
-        "vendor": "Nova Peptide Lab",
-        "url": "https://novapeptidelab.co.uk/product/glow-70mg-blend/",
-        "price": "£80.00",
-        "inStock": true,
-        "image": "/images/products/nova-peptide-lab/glow-blend-70mg.webp",
-        "dosage": "70mg"
       }
     ],
     "faq": [],
@@ -35721,7 +35706,7 @@
     "id": "pt-141-10mg",
     "name": "PT-141 10mg",
     "slug": "pt-141-10mg",
-    "compareSlug": "pt-141",
+    "compareSlug": "pt-141-bremelanotide",
     "category": "tanning-libido",
     "description": "PT-141 (Bremelanotide) 10mg for research.",
     "sources": [
@@ -36955,35 +36940,6 @@
     "faq": []
   },
   {
-    "id": "sterling-glow-70mg",
-    "name": "Glow 70mg Peptide Blend",
-    "slug": "sterling-glow-70mg",
-    "compareSlug": "ghk-cu",
-    "category": "anti-aging",
-    "description": "Glow 70mg Peptide Blend for research purposes.",
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": "",
-    "sources": [
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://sterlingpeptides.co.uk/product/glow-70mg/",
-        "price": "£69.99",
-        "inStock": true,
-        "image": "/images/products/sterling-peptides/sterling-glow-70mg.webp"
-      }
-    ],
-    "faq": []
-  },
-  {
     "id": "sterling-hgh-frag-176-191",
     "name": "HGH Frag 176-191 Peptide",
     "slug": "sterling-hgh-frag-176-191",
@@ -37065,35 +37021,6 @@
         "price": "£24.99",
         "inStock": true,
         "image": "/images/products/sterling-peptides/sterling-kisspeptin-5mg.webp"
-      }
-    ],
-    "faq": []
-  },
-  {
-    "id": "sterling-klow-80mg",
-    "name": "KLOW Peptide Blend 80mg",
-    "slug": "sterling-klow-80mg",
-    "compareSlug": "ghk-cu",
-    "category": "anti-aging",
-    "description": "KLOW Peptide Blend 80mg for research purposes.",
-    "aliases": [],
-    "cas": "",
-    "molarMass": "",
-    "sequence": "",
-    "purity": "",
-    "form": "",
-    "halfLife": "",
-    "researchAreas": [],
-    "commonDosages": [],
-    "longDescription": "",
-    "mechanism": "",
-    "sources": [
-      {
-        "vendor": "Sterling Peptides",
-        "url": "https://sterlingpeptides.co.uk/product/klow-80mg/",
-        "price": "£89.99",
-        "inStock": true,
-        "image": "/images/products/sterling-peptides/sterling-klow-80mg.webp"
       }
     ],
     "faq": []
@@ -37218,7 +37145,7 @@
     "id": "sterling-pt-141-10mg",
     "name": "PT-141 10mg",
     "slug": "sterling-pt-141-10mg",
-    "compareSlug": "pt-141",
+    "compareSlug": "pt-141-bremelanotide",
     "category": "tanning-libido",
     "description": "PT-141 10mg for research purposes.",
     "aliases": [],
@@ -37875,72 +37802,6 @@
     ]
   },
   {
-    "id": "igf-1-lr3-100mcg-redirect",
-    "name": "IGF-1 LR3 100mcg",
-    "slug": "igf-1-lr3-100mcg",
-    "redirect": "igf-1-lr3",
-    "sources": [
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/alp_l3/",
-        "price": "£48.00",
-        "inStock": false,
-        "image": "/images/products/alphamino/igf-1-lr3.webp"
-      }
-    ]
-  },
-  {
-    "id": "igf-1-long-r3-1mg-redirect",
-    "name": "IGF-1 Long R3 1mg",
-    "slug": "igf-1-long-r3-1mg",
-    "redirect": "igf-1-lr3",
-    "sources": []
-  },
-  {
-    "id": "igf1-lr3-1mg-redirect",
-    "name": "IGF1-LR3 1mg",
-    "slug": "igf1-lr3-1mg",
-    "redirect": "igf-1-lr3",
-    "sources": []
-  },
-  {
-    "id": "igf1-lr3-vial-express-redirect",
-    "name": "IGF-1 LR3 1mg",
-    "slug": "igf1-lr3-vial-express",
-    "redirect": "igf-1-lr3",
-    "sources": []
-  },
-  {
-    "id": "igf1-lr3-pen-express-redirect",
-    "name": "IGF-1 LR3 Pre-mixed Pen 1mg",
-    "slug": "igf1-lr3-pen-express",
-    "redirect": "igf-1-lr3",
-    "sources": []
-  },
-  {
-    "id": "igf-1-lr3-1mg-redirect",
-    "name": "IGF-1 LR3 1mg",
-    "slug": "igf-1-lr3-1mg",
-    "redirect": "igf-1-lr3",
-    "sources": [
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/alp_l3/",
-        "price": "£48.00",
-        "inStock": false,
-        "image": "/images/products/alphamino/igf-1-lr3.webp"
-      },
-      {
-        "vendor": "UK-Peptides.com",
-        "url": "https://www.uk-peptides.com/igf1-lr3-1mg",
-        "price": "£59.00",
-        "inStock": true,
-        "image": "/images/products/uk-peptides-com/igf-1-lr3-1mg.webp",
-        "dosage": "1mg"
-      }
-    ]
-  },
-  {
     "id": "igf1-des-vial-express-redirect",
     "name": "IGF-1 Des 2mg",
     "slug": "igf1-des-vial-express",
@@ -38373,216 +38234,6 @@
     ]
   },
   {
-    "id": "pt-141",
-    "name": "PT-141",
-    "slug": "pt-141",
-    "aliases": [
-      "Bremelanotide",
-      "Vyleesi"
-    ],
-    "category": "melanocortin-agonists",
-    "description": "PT-141 (Bremelanotide) is a synthetic cyclic heptapeptide melanocortin receptor agonist derived from Melanotan II. Unlike other melanocortin peptides, PT-141 was specifically designed to minimize melanogenic effects while retaining sexual function activity.",
-    "mechanism": "Selectively activates melanocortin receptors MC3R and MC4R in the central nervous system. MC4R activation in the hypothalamus triggers a signalling cascade that modulates sexual arousal and erectile function pathways independently of the nitric oxide/cGMP pathway.",
-    "cas": "189691-06-3",
-    "molarMass": "1025.2 g/mol",
-    "sequence": "Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-OH",
-    "purity": "≥99%",
-    "form": "Lyophilized powder",
-    "halfLife": "~2-3 hours",
-    "researchAreas": [
-      "Sexual health",
-      "Female sexual dysfunction",
-      "Erectile dysfunction",
-      "Melanocortin receptor research",
-      "CNS receptor signalling"
-    ],
-    "commonDosages": [
-      "0.5-1 mg",
-      "1-1.5 mg",
-      "1.5-2 mg"
-    ],
-    "sources": [
-      {
-        "vendor": "PeptX",
-        "url": "https://peptx.co.uk/single-vials/pt-141",
-        "price": "£23.99",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/peptx/pt-141.webp"
-      },
-      {
-        "vendor": "UK Peptide Lab",
-        "url": "https://ukpeptidelab.co.uk/product/pt-141",
-        "price": "£20.99",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/uk-peptide-lab/pt-141.webp"
-      },
-      {
-        "vendor": "FORM Peptides",
-        "url": "https://formpeptides.co.uk/catalogue/product/pt-141-10mg",
-        "price": "£20.00",
-        "inStock": true,
-        "image": "/images/products/form-peptides/pt-141.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/pt-141/",
-        "price": "£19.95",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/peptidesx/pt-141.webp"
-      },
-      {
-        "vendor": "PeptideLabUK",
-        "url": "https://peptidelabuk.co.uk/product/pt-141-10mg-research-peptide/",
-        "price": "£49.99",
-        "inStock": true,
-        "image": "/images/products/peptide-lab-uk/pt-141.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "HelixCore",
-        "url": "https://helixcore.co.uk/products/pt-141",
-        "price": "£21.99",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/helix-core/pt-141.webp"
-      },
-      {
-        "vendor": "Advanced Peptides UK",
-        "url": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/pt-141-10mg/",
-        "price": "£60.00",
-        "inStock": true,
-        "image": "/images/products/advanced-peptides-uk/pt-141-10mg.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Evolve Peptides",
-        "url": "https://evolvepeptides.uk/products/pt141",
-        "price": "£18.99",
-        "inStock": true,
-        "image": "/images/products/evolve-peptides/pt-141.webp"
-      },
-      {
-        "vendor": "VialVerse",
-        "url": "https://vialverse.com/peptides/pt-141",
-        "price": "£19.00",
-        "inStock": true,
-        "image": "/images/products/vialverse/pt-141.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Bionik Peptides",
-        "url": "https://bionikpeptides.com/products/pt-141",
-        "price": "£20.00",
-        "inStock": true,
-        "image": "/images/products/bionik-peptides/pt-141.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/pt141-10mg",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/pt-141.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
-        "price": "£44.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/pt-141-10mg-prefilled-premixed-pen-research-compound.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/pt-10mg-research-compound/",
-        "price": "£19.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/pt-10mg-research-compound.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/pt-prefilled-premixed-pen-research-compound/",
-        "price": "£59.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/pt-prefilled-premixed-pen-research-compound.webp",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "British Peptide Labs",
-        "url": "https://britishpeptidelabs.com/products/pt-141",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/british-peptide-labs/pt-141.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Peptide Shop UK",
-        "url": "https://peptidesshopuk.com/product/pt-10/",
-        "price": "£19.99",
-        "inStock": true,
-        "image": "/images/products/peptide-shop-uk/pt-141.jpg",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Arma Peptides",
-        "url": "https://armapeptideshop.com/product/pt-141-10mg/",
-        "price": "£16.00",
-        "inStock": true,
-        "image": "/images/products/arma-peptides/pt-141-10mg.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Peptides Specialist UK",
-        "url": "https://peptidespecialist.co.uk/product/pt-141/",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/peptidespecialist/pt-141-vial.webp",
-        "form": "Vial"
-      },
-      {
-        "vendor": "Peptides Specialist UK",
-        "url": "https://peptidespecialist.co.uk/product/pt-141-5-mg-peptide-pen/",
-        "price": "£120.00",
-        "inStock": true,
-        "image": "/images/products/peptidespecialist/pt-141-5mg-pen.webp",
-        "dosage": "5mg",
-        "form": "Peptide Pen"
-      }
-    ],
-    "faq": [
-      {
-        "question": "What is PT-141 used for in research?",
-        "answer": "PT-141 is researched primarily for sexual health and female sexual dysfunction, as well as erectile dysfunction and CNS melanocortin receptor signalling. It is a synthetic cyclic heptapeptide derived from Melanotan II that activates MC3R and MC4R. See our <a href=\"/research/pt141-research-summary\" class=\"text-blue-600 underline hover:text-blue-700\">PT-141 Research Summary</a> for a full overview."
-      },
-      {
-        "question": "How does PT-141 work?",
-        "answer": "PT-141 selectively activates melanocortin receptors MC3R and MC4R in the central nervous system. MC4R activation in the hypothalamus triggers a signalling cascade that modulates sexual arousal and erectile function pathways independently of the nitric oxide/cGMP pathway. A closer look at the receptor pharmacology is in our <a href=\"/research/pt141-profile\" class=\"text-blue-600 underline hover:text-blue-700\">PT-141 Profile</a>."
-      },
-      {
-        "question": "How does PT-141 differ from Melanotan II?",
-        "answer": "While both are melanocortin agonists, PT-141 was specifically designed to minimise melanogenic (skin-darkening) effects while retaining the sexual function activity many researchers explore in Melanotan II. For the practical differences, see our <a href=\"/research/pt141-vs-melanotan2\" class=\"text-blue-600 underline hover:text-blue-700\">PT-141 vs Melanotan II</a> comparison."
-      },
-      {
-        "question": "What is the typical PT-141 research dosage?",
-        "answer": "Research dosages commonly range from 0.5–2 mg, with schedules of 0.5–1 mg, 1–1.5 mg, and 1.5–2 mg reported depending on the protocol. The peptide has a half-life of roughly 2–3 hours. Follow general measurement and reconstitution guidance in our <a href=\"/research/peptide-dosing-guide\" class=\"text-blue-600 underline hover:text-blue-700\">Peptide Dosing Guide</a>."
-      },
-      {
-        "question": "Is PT-141 legally available in the UK for research?",
-        "answer": "PT-141 is available from UK research peptide suppliers as a laboratory-use-only compound, and research use is not regulated as a medicine. When you buy PT-141 UK suppliers typically ship lyophilised powder for reconstitution. Use our <a href=\"/research/choosing-a-uk-supplier\" class=\"text-blue-600 underline hover:text-blue-700\">guide to choosing a UK supplier</a> to compare labs on transparency and independent testing."
-      },
-      {
-        "question": "How should PT-141 be stored and how can I verify purity?",
-        "answer": "Store lyophilised PT-141 in the freezer or a cool, dry place away from light and moisture, and keep reconstituted solution refrigerated, using it within its stated window to limit degradation. Look for ≥99% purity claims backed by a certificate of analysis (COA) before running studies."
-      }
-    ]
-  },
-  {
     "id": "liraglutide",
     "name": "Liraglutide",
     "slug": "liraglutide",
@@ -38731,88 +38382,6 @@
         "inStock": true,
         "image": "/images/products/port-peptides/cjc-ipa-no-dac.webp",
         "dosage": "20mg"
-      }
-    ]
-  },
-  {
-    "id": "glow-stack",
-    "name": "GLOW Stack",
-    "slug": "glow-stack",
-    "category": "peptides",
-    "description": "GLOW Stack - research peptide supplied by UK Peptide Lab. For laboratory research use only.",
-    "mechanism": "Research peptide. Mechanism details available from published literature.",
-    "purity": "≥98%",
-    "form": "Lyophilized powder",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [
-      "70mg"
-    ],
-    "sources": [
-      {
-        "vendor": "UK Peptide Lab",
-        "url": "https://ukpeptidelab.co.uk/product/glow",
-        "price": "£59.99",
-        "inStock": true,
-        "dosage": "70mg",
-        "image": "/images/products/uk-peptide-lab/glow-stack.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/glow-research-peptide/",
-        "price": "£55.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/glow.webp"
-      },
-      {
-        "vendor": "North Peptides UK",
-        "url": "https://www.northpeptidesuk.com/products/glow-stack/",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/north-peptides-uk/glow-stack.webp",
-        "dosage": "70mg"
-      }
-    ]
-  },
-  {
-    "id": "klow-stack",
-    "name": "KLOW Stack",
-    "slug": "klow-stack",
-    "category": "peptides",
-    "description": "KLOW Stack - research peptide supplied by UK Peptide Lab. For laboratory research use only.",
-    "mechanism": "Research peptide. Mechanism details available from published literature.",
-    "purity": "≥98%",
-    "form": "Lyophilized powder",
-    "researchAreas": [
-      "General research"
-    ],
-    "commonDosages": [
-      "80mg"
-    ],
-    "sources": [
-      {
-        "vendor": "UK Peptide Lab",
-        "url": "https://ukpeptidelab.co.uk/product/klow",
-        "price": "£79.99",
-        "inStock": true,
-        "dosage": "80mg",
-        "image": "/images/products/uk-peptide-lab/klow-stack.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/klow-stack/",
-        "price": "£57.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/klow.webp"
-      },
-      {
-        "vendor": "North Peptides UK",
-        "url": "https://www.northpeptidesuk.com/products/klow-stack/",
-        "price": "£60.00",
-        "inStock": true,
-        "image": "/images/products/north-peptides-uk/klow-stack.webp",
-        "dosage": "80mg"
       }
     ]
   },
@@ -39741,5 +39310,149 @@
         "dosage": "75iu pen"
       }
     ]
+  },
+  {
+    "id": "bundle-glow-stack-redirect",
+    "slug": "bundle-glow-stack",
+    "name": "Bundle Glow Stack",
+    "redirect": "glow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "glow-blend-ghk-cu-bpc157-tb500-redirect",
+    "slug": "glow-blend-ghk-cu-bpc157-tb500",
+    "name": "Glow Blend Ghk Cu Bpc157 Tb500",
+    "redirect": "glow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "glow-combo-pen-express-redirect",
+    "slug": "glow-combo-pen-express",
+    "name": "Glow Combo Pen",
+    "redirect": "glow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "glow-stack-redirect",
+    "slug": "glow-stack",
+    "name": "Glow Stack",
+    "redirect": "glow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "igf-1-long-r3-1mg-redirect",
+    "slug": "igf-1-long-r3-1mg",
+    "name": "Igf 1 Long R3 1Mg",
+    "redirect": "igf-1-lr3",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "igf-1-lr3-100mcg-redirect",
+    "slug": "igf-1-lr3-100mcg",
+    "name": "Igf 1 Lr3 100Mcg",
+    "redirect": "igf-1-lr3",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "igf-1-lr3-1mg-redirect",
+    "slug": "igf-1-lr3-1mg",
+    "name": "Igf 1 Lr3 1Mg",
+    "redirect": "igf-1-lr3",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "igf1-lr3-1mg-redirect",
+    "slug": "igf1-lr3-1mg",
+    "name": "Igf1 Lr3 1Mg",
+    "redirect": "igf-1-lr3",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "igf1-lr3-pen-express-redirect",
+    "slug": "igf1-lr3-pen-express",
+    "name": "Igf1 Lr3 Pen",
+    "redirect": "igf-1-lr3",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "igf1-lr3-vial-express-redirect",
+    "slug": "igf1-lr3-vial-express",
+    "name": "Igf1 Lr3 Vial",
+    "redirect": "igf-1-lr3",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "klow-blend-ghk-cu-bpc157-tb500-kpv-redirect",
+    "slug": "klow-blend-ghk-cu-bpc157-tb500-kpv",
+    "name": "Klow Blend Ghk Cu Bpc157 Tb500 Kpv",
+    "redirect": "klow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "klow-combo-pen-express-redirect",
+    "slug": "klow-combo-pen-express",
+    "name": "Klow Combo Pen",
+    "redirect": "klow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "klow-stack-redirect",
+    "slug": "klow-stack",
+    "name": "Klow Stack",
+    "redirect": "klow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "pt-141-redirect",
+    "slug": "pt-141",
+    "name": "Pt 141",
+    "redirect": "pt-141-bremelanotide",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "pt-141-bremelanotide-10mg-redirect",
+    "slug": "pt-141-bremelanotide-10mg",
+    "name": "Pt 141 Bremelanotide 10Mg",
+    "redirect": "pt-141-bremelanotide",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "pt-141-vial-express-redirect",
+    "slug": "pt-141-vial-express",
+    "name": "Pt 141 Vial",
+    "redirect": "pt-141-bremelanotide",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "sterling-glow-70mg-redirect",
+    "slug": "sterling-glow-70mg",
+    "name": "Sterling Glow 70Mg",
+    "redirect": "glow",
+    "category": null,
+    "sources": []
+  },
+  {
+    "id": "sterling-klow-80mg-redirect",
+    "slug": "sterling-klow-80mg",
+    "name": "Sterling Klow 80Mg",
+    "redirect": "klow",
+    "category": null,
+    "sources": []
   }
 ]
