@@ -21715,5 +21715,24 @@
     "destUrl": "https://www.novapeptide.co.uk/product/ghk-cu/",
     "refPage": "https://www.viralpeps.co.uk/go/nova-peptide/ghk-cu",
     "visitorId": "5188ea1f9e377259"
+  },
+  {
+    "ts": "2026-10-22T12:28:04.422Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d6dda58685d6eb77"
+  },
+  {
+    "ts": "2026-10-22T12:34:40.827Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://allmypeptides.com/product/glow-blend/",
+    "visitorId": "f2b642207794d5ac"
   }
 ]
