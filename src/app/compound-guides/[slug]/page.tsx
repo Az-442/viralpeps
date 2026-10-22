@@ -586,21 +586,47 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
 
   // Featured slot (silo hero, top-right). Pinned to the paid placement vendor
   // where one exists for this compound; otherwise highest TrustScore, tie-break cheapest.
+  //
+  // IMPORTANT: the table is sliced to `spoke.rowLimit`, so the sponsored vendor can
+  // fall outside `rows`. Always resolve against the FULL row set for this compound.
   const featuredSlotData = (() => {
-    if (!rows.length) return null;
+    const allRows: typeof rows = (() => {
+      switch (compound) {
+        case "retatrutide": return getRetaRows();
+        case "tirzepatide": return getTrizRows();
+        case "semaglutide": return getSemaRows();
+        case "semax": return getSemaxRows();
+        case "selank": return getSelankRows();
+        case "ipamorelin": return getIpamorelinRows();
+        case "mots-c": return getMotsCRows();
+        case "bpc-157": return getBpcRows();
+        case "ghk-cu": return getGhkRows();
+        case "tb-500": return getTbRows();
+        case "igf-1-lr3": return getIgfRows();
+        case "tesamorelin": return getTesaRows();
+        case "nad-plus": return getNadRows();
+        case "bacteriostatic-water": return getBacRows();
+        case "ss-31": return getSs31Rows();
+        case "sermorelin": return getSermorelinRows();
+        case "aod-9604": return getAodRows();
+        default: return rows;
+      }
+    })();
+    if (!allRows.length) return null;
+
     const SPONSORED_VENDORS: Record<string, string> = {
       retatrutide: "united-peptides",
       tirzepatide: "united-peptides",
     };
     const pinnedSlug = SPONSORED_VENDORS[compound];
     const pinned = pinnedSlug
-      ? [...rows]
+      ? [...allRows]
           .filter((r) => r.vendorSlug === pinnedSlug)
           .sort((a, b) => a.price - b.price)[0]
       : undefined;
     const best =
       pinned ||
-      [...rows].sort(
+      [...allRows].sort(
         (a, b) => (b.trustScore ?? 0) - (a.trustScore ?? 0) || a.price - b.price
       )[0];
     if (!best) return null;
