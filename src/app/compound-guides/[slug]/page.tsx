@@ -149,10 +149,19 @@ import {
   sortByTrust as sermorelinSortByTrust,
   SERMORELIN_SPOKES,
 } from "@/data/sermorelin-silo";
+import { spokes as aodSpokes, getSpoke as getAodSpoke } from "@/data/aod-9604-spokes";
+import {
+  getAodRows,
+  getAodStats,
+  sortByPrice as aodSortByPrice,
+  sortByPricePerMg as aodSortByPricePerMg,
+  sortByTrust as aodSortByTrust,
+  AOD_SPOKES,
+} from "@/data/aod-9604-silo";
 
 export const dynamic = "force-dynamic";
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -171,6 +180,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   "bacteriostatic-water": "Bacteriostatic Water",
   "ss-31": "SS-31",
   sermorelin: "Sermorelin",
+  "aod-9604": "AOD-9604",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -207,6 +217,8 @@ function resolveSpoke(slug: string) {
   if (ss31) return { spoke: ss31, compound: "ss-31" as const };
   const sermorelin = getSermorelinSpoke(slug);
   if (sermorelin) return { spoke: sermorelin, compound: "sermorelin" as const };
+  const aod = getAodSpoke(slug);
+  if (aod) return { spoke: aod, compound: "aod-9604" as const };
   return null;
 }
 
@@ -228,6 +240,7 @@ export async function generateStaticParams() {
     ...bacSpokes.map((s) => ({ slug: s.slug })),
     ...ss31Spokes.map((s) => ({ slug: s.slug })),
     ...sermorelinSpokes.map((s) => ({ slug: s.slug })),
+    ...aodSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -499,6 +512,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "aod-9604") {
+    const all = getAodRows();
+    let sorted = aodSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg") {
+      sorted = aodSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = aodSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -551,7 +578,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                 ? getSs31Stats()
                                 : compound === "sermorelin"
                                   ? getSermorelinStats()
-                                  : getTrizStats();
+                                  : compound === "aod-9604"
+                                    ? getAodStats()
+                                    : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
   const compoundName = COMPOUND_NAMES[compound];
@@ -586,7 +615,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                 ? SS_31_SPOKES
                                 : compound === "sermorelin"
                                   ? SERMORELIN_SPOKES
-                                  : TIRZ_SPOKES;
+                                  : compound === "aod-9604"
+                                    ? AOD_SPOKES
+                                    : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
   // FAQPage schema

@@ -34,6 +34,7 @@ import {
   getSermorelinStats,
   type SermorelinStats,
 } from "@/data/sermorelin-silo";
+import { AOD_SPOKES, getAodStats, type AodStats } from "@/data/aod-9604-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -204,6 +205,14 @@ export const SILOS: Silo[] = [
     spokes: SERMORELIN_SPOKES as unknown as SiloSpoke[],
     getStats: () => getSermorelinStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "aod-9604",
+    name: "AOD-9604",
+    blurb:
+      "hGH fragment 176-191 buying guides — verified UK suppliers, lowest price per mg, full price comparison and TrustScore rankings.",
+    spokes: AOD_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getAodStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -221,4 +230,5 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
 
 export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats, BacStats, Ss31Stats };
 export type { SermorelinStats };
+export type { AodStats };
 export type { GhkStats };
