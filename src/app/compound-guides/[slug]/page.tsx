@@ -604,7 +604,9 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
       inStock: best.inStock,
       verified: best.verified,
       goUrl: `/go/${best.vendorSlug}/${compound}`,
-      imageUrl: `/images/products/${best.vendorSlug}/${compound}.webp`,
+      imageUrl: null,
+      vendorSlugFallback: best.vendorSlug,
+      compoundSlugFallback: compound,
     };
   })();
 

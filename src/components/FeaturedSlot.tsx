@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 /**
@@ -29,6 +30,8 @@ export interface FeaturedSlotData {
   verified: boolean;
   goUrl: string;
   imageUrl?: string | null;
+  vendorSlugFallback?: string;
+  compoundSlugFallback?: string;
 }
 
 export default function FeaturedSlot({ data }: { data: FeaturedSlotData }) {
@@ -44,7 +47,52 @@ export default function FeaturedSlot({ data }: { data: FeaturedSlotData }) {
     verified,
     goUrl,
     imageUrl,
+    vendorSlugFallback,
+    compoundSlugFallback,
   } = data;
+
+  // Resolve the product image with the same fallback chain ProductImage uses,
+  // so we never render a broken <img>.
+  const [resolvedImg, setResolvedImg] = useState<string | null>(imageUrl || null);
+
+  useEffect(() => {
+    if (imageUrl) {
+      setResolvedImg(imageUrl);
+      return;
+    }
+    if (!vendorSlugFallback || !compoundSlugFallback) return;
+
+    let cancelled = false;
+    const base = `/images/products/${vendorSlugFallback}/${compoundSlugFallback}`;
+    const candidates = [
+      `${base}.webp`,
+      `${base}.png`,
+      `${base}.jpg`,
+      `/images/vendors/${vendorSlugFallback}.png`,
+      `/images/vendors/${vendorSlugFallback}.webp`,
+      `/images/vendors/${vendorSlugFallback}.svg`,
+      `/images/compounds/${compoundSlugFallback}.png`,
+    ];
+
+    (async () => {
+      for (const url of candidates) {
+        if (cancelled) return;
+        try {
+          const res = await fetch(url, { method: "HEAD" });
+          if (res.ok) {
+            if (!cancelled) setResolvedImg(url);
+            return;
+          }
+        } catch {
+          /* try next */
+        }
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [imageUrl, vendorSlugFallback, compoundSlugFallback]);
 
   const wasPrice = price > 0 ? price * 1.18 : null;
   const saveAmount = wasPrice !== null ? wasPrice - price : null;
@@ -74,9 +122,9 @@ export default function FeaturedSlot({ data }: { data: FeaturedSlotData }) {
         {/* body: image + info */}
         <div className="relative z-[2] flex gap-[13px] items-start">
           <div className="flex-none w-[74px] h-[96px] rounded-[10px] border border-slate-200 bg-[radial-gradient(circle_at_50%_32%,#fff,#eef2ff_65%,#e2e8f0)] flex items-center justify-center overflow-hidden">
-            {imageUrl ? (
+            {resolvedImg ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={imageUrl} alt={compoundName} className="w-full h-full object-contain p-1" />
+              <img src={resolvedImg} alt={compoundName} className="w-full h-full object-contain p-1" />
             ) : (
               <span className="text-[9px] text-slate-400 font-bold tracking-wide text-center px-1">
                 {vendorName}
