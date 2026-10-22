@@ -22427,5 +22427,50 @@
     "destUrl": "https://sterlingpeptides.co.uk/product/kpv/",
     "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/kpv",
     "visitorId": "0fe38362bd73ab9e"
+  },
+  {
+    "ts": "2026-10-22T22:26:28.668Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/epithalon",
+    "visitorId": "c99d0c8970cab127"
+  },
+  {
+    "ts": "2026-10-22T22:36:10.971Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://peptidesuk.com/follistatin-344/",
+    "visitorId": "8d294a1527411291"
+  },
+  {
+    "ts": "2026-10-22T22:39:51.807Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://chromapeptides.co.uk/product/glow/",
+    "visitorId": "af0b3097971c6fcb"
+  },
+  {
+    "ts": "2026-10-22T22:46:21.987Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://chromapeptides.co.uk/product/thymosin-alpha-1/",
+    "visitorId": "60795777847360d7"
+  },
+  {
+    "ts": "2026-10-22T22:53:18.435Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/",
+    "visitorId": "5fe013588207fa95"
   }
 ]
