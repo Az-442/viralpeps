@@ -22491,5 +22491,52 @@
     "compoundSlug": "klow",
     "destUrl": "https://reta-uk.com/products/klow",
     "visitorId": "55ba427bcb0946c1"
+  },
+  {
+    "ts": "2026-10-22T23:20:31.740Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/go/leolab/aod-9604",
+    "visitorId": "48804cefeab51ba6"
+  },
+  {
+    "ts": "2026-10-22T23:27:56.441Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://everythingpeptides.co.uk/products/vip",
+    "visitorId": "e1ecbd5df882b61f"
+  },
+  {
+    "ts": "2026-10-22T23:34:47.764Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "1c5c899f4a8977e4"
+  },
+  {
+    "ts": "2026-10-22T23:41:25.983Z",
+    "type": "vendor-site",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "destUrl": "https://armapeptideshop.com",
+    "refPage": "https://www.viralpeps.co.uk/go/arma-peptides",
+    "visitorId": "1101619fbc4c9b5c"
+  },
+  {
+    "ts": "2026-10-22T23:48:25.999Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pslabs.uk/products/ghk-cu-100mg",
+    "refPage": "https://www.viralpeps.co.uk/go/ps-labs/ghk-cu",
+    "visitorId": "7f27cd3437d1ea4b"
   }
 ]
