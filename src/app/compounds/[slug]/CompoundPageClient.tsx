@@ -759,17 +759,6 @@ export default function CompoundPageClient({
         </div>
       </div>
 
-      {INFO_CONTENT_TABS.map((tab) => (
-        <section key={tab.id} id={`profile-${tab.id}`} className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6 scroll-mt-24">
-          <div className="px-5 md:px-6 pt-5 md:pt-6 pb-2 border-b border-gray-100 bg-gray-50">
-            <h2 className="text-xl font-bold text-gray-900">{compound.name} — {tab.label}</h2>
-          </div>
-          <div className="p-5 md:p-6">
-            {tabContent[tab.id]}
-          </div>
-        </section>
-      ))}
-
       {/* ===== PRICE COMPARISON TABLE (Desktop) ===== */}
       <div id="pricing-table" className="hidden md:block bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
         <div className="overflow-x-auto">
@@ -1073,6 +1062,18 @@ export default function CompoundPageClient({
             )}
           </div>
         )}
+
+      {/* ===== RESEARCH PROFILE — flat H2 sections (no tabs, fully indexable) ===== */}
+      {INFO_CONTENT_TABS.map((tab) => (
+        <section key={tab.id} id={`profile-${tab.id}`} className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6 scroll-mt-24">
+          <div className="px-5 md:px-6 pt-5 md:pt-6 pb-2 border-b border-gray-100 bg-gray-50">
+            <h2 className="text-xl font-bold text-gray-900">{compound.name} — {tab.label}</h2>
+          </div>
+          <div className="p-5 md:p-6">
+            {tabContent[tab.id]}
+          </div>
+        </section>
+      ))}
 
       {/* FAQ accordion — below price comparison list, matches FAQPage schema */}
       {faqEntries.length > 0 && (
