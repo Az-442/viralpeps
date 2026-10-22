@@ -82,6 +82,16 @@ type TabId = (typeof INFO_TABS)[number]["id"];
 // Content tabs only (prices handled separately as a flat intro block)
 const INFO_CONTENT_TABS = INFO_TABS.filter((t) => t.id !== "prices");
 
+// HYBRID split: high-value sections always visible; minor sections behind tabs.
+// Every tabbed panel is still rendered in the DOM (CSS-hidden) so all copy is indexable.
+const ALWAYS_VISIBLE_IDS = ["overview", "molecular", "dosing", "safety"] as const;
+const ALWAYS_VISIBLE_TABS = INFO_CONTENT_TABS.filter((t) =>
+  (ALWAYS_VISIBLE_IDS as readonly string[]).includes(t.id)
+);
+const TABBED_TABS = INFO_CONTENT_TABS.filter(
+  (t) => !(ALWAYS_VISIBLE_IDS as readonly string[]).includes(t.id)
+);
+
 // ── Price per mg helper ──
 function calcPricePerMg(price: string, dosage?: string): number | null {
   if (!dosage) return null;
@@ -129,7 +139,7 @@ export default function CompoundPageClient({
   uniqueSuppliers: number;
   totalProducts: number;
 }) {
-  const [activeTab, setActiveTab] = useState<TabId>("prices");
+  const [activeTab, setActiveTab] = useState<TabId>(TABBED_TABS[0].id as TabId);
   const [selectedDosage, setSelectedDosage] = useState("all");
   const [sortBy, setSortBy] = useState<"price-low" | "price-high" | "rating">("rating");
   const [selectedVendors, setSelectedVendors] = useState<Set<string>>(new Set());
@@ -195,8 +205,8 @@ export default function CompoundPageClient({
       // Update URL without reload
       window.history.pushState(null, "", `#${hash}`);
     }
-    // Smooth scroll to the tab panel container
-    const el = document.getElementById("profile-tab-panel");
+    // Smooth scroll to the tabbed section container
+    const el = document.getElementById("profile-tabbed-section");
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -1063,8 +1073,9 @@ export default function CompoundPageClient({
           </div>
         )}
 
-      {/* ===== RESEARCH PROFILE — flat H2 sections (no tabs, fully indexable) ===== */}
-      {INFO_CONTENT_TABS.map((tab) => (
+      {/* ===== RESEARCH PROFILE — HYBRID: key sections always visible, minor sections in tabs ===== */}
+      {/* Always-visible high-value sections (fully indexable) */}
+      {ALWAYS_VISIBLE_TABS.map((tab) => (
         <section key={tab.id} id={`profile-${tab.id}`} className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6 scroll-mt-24">
           <div className="px-5 md:px-6 pt-5 md:pt-6 pb-2 border-b border-gray-100 bg-gray-50">
             <h2 className="text-xl font-bold text-gray-900">{compound.name} — {tab.label}</h2>
@@ -1074,6 +1085,43 @@ export default function CompoundPageClient({
           </div>
         </section>
       ))}
+
+      {/* Tabbed minor sections — ALL panels rendered in the DOM, inactive ones CSS-hidden */}
+      <div id="profile-tabbed-section" className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6 scroll-mt-24">
+        <div className="p-5 md:p-6 bg-gray-50 border-b border-gray-200">
+          <h2 className="text-xl font-bold text-gray-900 mb-3">{compound.name} — Further Research Detail</h2>
+          <div className="flex flex-wrap gap-2" role="tablist">
+            {TABBED_TABS.map((tab) => (
+              <button
+                key={tab.id}
+                role="tab"
+                aria-selected={activeTab === tab.id}
+                aria-controls={`profile-panel-${tab.id}`}
+                onClick={() => handleTabClick(tab.id as TabId)}
+                className={`whitespace-nowrap px-4 py-2 text-sm font-semibold rounded-full transition-all ${
+                  activeTab === tab.id
+                    ? "bg-blue-600 text-white shadow-sm"
+                    : "bg-white text-gray-600 border border-gray-200 hover:bg-gray-100 hover:text-gray-800"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {TABBED_TABS.map((tab) => (
+          <div
+            key={tab.id}
+            id={`profile-panel-${tab.id}`}
+            role="tabpanel"
+            className={activeTab === tab.id ? "p-5 md:p-6" : "hidden"}
+          >
+            <h3 className="text-lg font-bold text-gray-900 mb-4">{tab.label}</h3>
+            {tabContent[tab.id]}
+          </div>
+        ))}
+      </div>
 
       {/* FAQ accordion — below price comparison list, matches FAQPage schema */}
       {faqEntries.length > 0 && (
