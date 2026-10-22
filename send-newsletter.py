@@ -17,7 +17,7 @@ import urllib.error
 from datetime import date
 
 ENV = "/Users/time4you/viralpeps/.env.local"
-HTML = "/Users/time4you/viralpeps/newsletter-email.html"
+HTML = "/Users/time4you/viralpeps/newsletter-2026-10-19.html"
 SEGMENT = "193155917484656413"  # All Subscribers
 API = "https://connect.mailerlite.com/api"
 

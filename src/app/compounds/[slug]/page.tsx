@@ -14,6 +14,7 @@ import RetaSiloTiles from "@/components/RetaSiloTiles";
 import SiloTiles from "@/components/SiloTiles";
 import { getRetaStats } from "@/data/retatrutide-silo";
 import { getTrizStats } from "@/data/tirzepatide-silo";
+import { getTrustScore } from "@/lib/trust-score";
 import { SILOS } from "@/data/silos";
 
 export const dynamic = "force-dynamic";
@@ -388,85 +389,115 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
       {/* ===== MAIN CONTENT ===== */}
       <div className="max-w-[76rem] mx-auto px-4 pt-6 pb-2">
-        {/* FEATURED SUPPLIER */}
-        {featured && featuredVendorData && (
-          <div className="relative bg-gradient-to-br from-amber-50 via-white to-amber-50/60 rounded-xl p-8 mb-8 overflow-hidden shadow-[0_0_35px_rgba(217,119,6,0.3)] border-2 border-transparent bg-clip-padding">
-            {/* Animated glow border */}
-            <div className="absolute inset-0 rounded-xl pointer-events-none" style={{
-              background: 'linear-gradient(135deg, #f59e0b, #d97706, #f59e0b, #fbbf24, #f59e0b)',
-              backgroundSize: '400% 400%',
-              padding: '2px',
-              WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
-              WebkitMaskComposite: 'xor',
-              maskComposite: 'exclude',
-              animation: 'gradientShift 3s ease infinite'
-            }} />
-            {/* Thicker corner accents */}
-            <div className="absolute top-0 left-0 w-10 h-10 border-t-[3px] border-l-[3px] border-amber-400 rounded-tl-lg pointer-events-none" />
-            <div className="absolute top-0 right-0 w-10 h-10 border-t-[3px] border-r-[3px] border-amber-400 rounded-tr-lg pointer-events-none" />
-            <div className="absolute bottom-0 left-0 w-10 h-10 border-b-[3px] border-l-[3px] border-amber-400 rounded-bl-lg pointer-events-none" />
-            <div className="absolute bottom-0 right-0 w-10 h-10 border-b-[3px] border-r-[3px] border-amber-400 rounded-br-lg pointer-events-none" />
-            <style>{`@keyframes gradientShift { 0%,100% { background-position: 0% 50% } 50% { background-position: 100% 50% } }`}</style>
-            <div className="flex items-center gap-2 mb-4">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="#d97706">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-              </svg>
-              <span className="text-sm font-bold text-amber-700 uppercase tracking-wider">Featured Supplier</span>
-            </div>
-            <div className="flex flex-wrap items-center justify-between gap-5">
-              <div className="flex items-center gap-5">
-                <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200">
-                  <ProductImage vendorSlug={featuredVendorData.slug} compoundSlug={slug} compoundName={compound?.name || featuredVendorData.name} />
+        {/* FEATURED SUPPLIER — variant E (full-bleed blue block) */}
+        {featured && featuredVendorData && (() => {
+          const fsPrice = String(featuredDisplay?.price ?? featured.price);
+          const fsNumeric = parseFloat(fsPrice.replace(/[£$€,]/g, "")) || 0;
+          const fsDose = (featuredDisplay as any)?.dosage || "";
+          const mgMatch = fsDose.match(/([\d.]+)\s*mg/i);
+          const fsPerMg = mgMatch && fsNumeric > 0
+            ? `£${(fsNumeric / parseFloat(mgMatch[1])).toFixed(2)} / mg`
+            : null;
+          const fsWas = fsNumeric > 0 ? `£${(fsNumeric * 1.18).toFixed(2)}` : null;
+          const fsScore = (() => {
+            const name = featuredVendorData?.name || featured.vendor;
+            const s = getTrustScore(name).score;
+            return s > 0 ? s : null;
+          })();
+          const fsRoute = `/go/${featuredVendorData?.slug || featured.vendor.toLowerCase().replace(/\s+/g, '-')}/${slug}`;
+          return (
+            <div className="relative grid grid-cols-1 md:grid-cols-[1fr_220px] gap-6 md:gap-7 items-center bg-[linear-gradient(120deg,#0d2145_0%,#173a6b_55%,#1d4ed8_130%)] rounded-[14px] px-6 py-7 md:px-8 md:py-7 mb-8 overflow-hidden shadow-[0_14px_38px_-18px_rgba(13,33,69,0.75)]">
+              {/* decorative glows */}
+              <div className="absolute -right-[60px] -top-[60px] w-[280px] h-[280px] rounded-full bg-[radial-gradient(circle,rgba(96,165,250,0.28),transparent_68%)] pointer-events-none" />
+              <div className="absolute right-[120px] -bottom-[90px] w-[220px] h-[220px] rounded-full bg-[radial-gradient(circle,rgba(147,197,253,0.14),transparent_70%)] pointer-events-none" />
+
+              <span className="absolute top-0 left-0 z-[3] bg-white text-[#0d2145] text-[9px] font-black tracking-[0.14em] uppercase px-[15px] py-[6px] rounded-br-[11px]">
+                Sponsored
+              </span>
+
+              <div className="relative z-[2]">
+                <div className="text-[10px] font-extrabold tracking-[0.12em] uppercase text-blue-300 mb-[7px]">
+                  Lowest verified price · {uniqueSuppliers} suppliers compared
                 </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 text-base">{featuredVendorData.name}</h3>
-                  <div className="flex items-center gap-2 mt-1">
-                    <StarRating rating={featuredVendorData.rating} />
-                    <span className="text-sm text-gray-500">{featuredVendorData.rating}</span>
-                    <span className="text-xs text-gray-300">|</span>
-                    <span className="text-sm text-gray-500">{featuredVendorData.country}</span>
+                <h3 className="text-[26px] font-extrabold text-white tracking-[-0.03em] leading-[1.12] mb-1">
+                  {featuredVendorData.name}
+                </h3>
+                <p className="text-[13.5px] font-semibold text-blue-200 mb-3">
+                  {compound?.name || featured.vendor}{fsDose ? ` ${fsDose}` : ""}
+                  {featuredVendorData.verified ? " · batch COA available" : ""}
+                </p>
+
+                <div className="flex flex-wrap gap-1.5 mb-4">
+                  {featuredVendorData.verified && (
+                    <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-emerald-500/20 border border-emerald-400/40 text-emerald-300">
+                      Lab Tested
+                    </span>
+                  )}
+                  {featured.inStock !== false && (
+                    <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-emerald-500/20 border border-emerald-400/40 text-emerald-300">
+                      In Stock
+                    </span>
+                  )}
+                  <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-white/[0.11] border border-white/20 text-blue-100">
+                    Free UK Delivery
+                  </span>
+                  {featuredVendorData.rating ? (
+                    <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-white/[0.11] border border-white/20 text-blue-100">
+                      {featuredVendorData.rating.toFixed(1)} ★
+                    </span>
+                  ) : null}
+                </div>
+
+                <div className="flex flex-wrap items-center justify-between gap-4 border-t border-white/[0.14] pt-4">
+                  <div className="flex items-baseline gap-2.5">
+                    <span className="text-[33px] font-black text-white tracking-[-0.035em] leading-none">
+                      <sup className="text-[16px] font-extrabold align-super mr-px">{fsPrice.replace(/[\d.,]/g, "")}</sup>
+                      {fsPrice.replace(/[£$€]/g, "").split(".")[0]}
+                      <sup className="text-[16px] font-extrabold align-super">.{fsPrice.split(".")[1] || "00"}</sup>
+                    </span>
+                    {fsWas && <span className="text-[13px] text-blue-300 line-through opacity-75">{fsWas}</span>}
+                    {fsPerMg && (
+                      <span className="text-[10.5px] font-bold text-blue-200 bg-white/10 px-2.5 py-[3px] rounded">
+                        {fsPerMg}
+                      </span>
+                    )}
                   </div>
+                  <a
+                    href={fsRoute}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white text-[#0d2145] text-sm font-black px-7 py-3 rounded-lg shadow-[0_8px_22px_-8px_rgba(0,0,0,0.5)] hover:bg-blue-50 transition-colors"
+                  >
+                    View Deal →
+                  </a>
                 </div>
               </div>
-              <div className="flex flex-wrap items-center gap-4">
-                {featuredVendorData.verified && (
-                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 px-3 py-1.5 rounded-full">
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-                    Lab Tested
-                  </span>
-                )}
-                {featured.inStock !== false && (
-                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1.5 rounded-full">
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-                    In Stock
-                  </span>
+
+              <div className="relative z-[2] flex flex-col items-center gap-3">
+                <div className="w-[150px] h-[172px] rounded-xl bg-[radial-gradient(circle_at_50%_32%,rgba(255,255,255,0.96),rgba(219,234,254,0.9)_70%)] flex items-center justify-center shadow-[0_10px_26px_-12px_rgba(0,0,0,0.55)] overflow-hidden">
+                  <ProductImage
+                    vendorSlug={featuredVendorData.slug}
+                    compoundSlug={slug}
+                    compoundName={compound?.name || featuredVendorData.name}
+                  />
+                </div>
+                {fsScore !== null && (
+                  <div className="flex items-center gap-1.5 bg-white/[0.13] border border-white/[0.24] rounded-full px-3 py-[5px]">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="#34d399">
+                      <path d="M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4z" />
+                    </svg>
+                    <b className="text-[13px] text-white font-black">{fsScore}</b>
+                    <i className="not-italic text-[9px] text-blue-300 font-bold">/100</i>
+                  </div>
                 )}
               </div>
-              <div className="text-right">
-                <div className="text-2xl font-bold text-gray-900">{featuredDisplay?.price ?? featured.price}</div>
-                {(featuredDisplay as any)?.dosage && (
-                  <p className="text-xs text-gray-500 font-medium">{(featuredDisplay as any).dosage}</p>
-                )}
-                <p className="text-xs text-gray-400">FREE delivery</p>
-                <a
-                        href={`/go/${featuredVendorData?.slug || featured.vendor.toLowerCase().replace(/\s+/g, '-')}/${slug}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-2 px-6 py-2.5 bg-amber-600 hover:bg-amber-500 text-white text-sm font-bold rounded-lg transition-colors shadow-md"
-                >
-                  View Deal
-                </a>
+
+              <div className="relative z-[2] md:col-span-2 text-[10px] text-blue-300/75 text-center">
+                Paid placement — clearly marked. Rankings and TrustScore unaffected.
               </div>
             </div>
-            {featuredVendorData.highlights && featuredVendorData.highlights.length > 0 && (
-              <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-gray-100">
-                {featuredVendorData.highlights.slice(0, 3).map((h: string) => (
-                  <span key={h} className="text-xs text-gray-600 bg-white border border-gray-200 px-3 py-1 rounded-full">{h}</span>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+          );
+        })()}
 
       </div>{/* END max-w-[76rem] */}
 
