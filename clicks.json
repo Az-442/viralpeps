@@ -21836,5 +21836,72 @@
     "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "a9fdf0683ba41226"
+  },
+  {
+    "ts": "2026-10-22T15:07:38.385Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-2",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-22T15:07:42.159Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-2",
+    "visitorId": "aa12f971d069f877"
+  },
+  {
+    "ts": "2026-10-22T15:12:14.178Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "adipotide-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/adipotide/vial",
+    "refPage": "https://www.viralpeps.co.uk/go/express-peptides/adipotide-vial-express",
+    "visitorId": "cd0b735c64f824fa"
+  },
+  {
+    "ts": "2026-10-22T15:27:33.565Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/mots-c-40/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0f56823e5d12a7c8"
+  },
+  {
+    "ts": "2026-10-22T15:33:00.202Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "97170dc54b4f21c5"
+  },
+  {
+    "ts": "2026-10-22T15:33:03.648Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://midshirelabs.co.uk/products/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6166b1c56ecd825d"
+  },
+  {
+    "ts": "2026-10-22T15:34:41.745Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ss-31-pen-express",
+    "destUrl": "https://alphamino.co.uk/shop/ss-31/",
+    "visitorId": "bdbf09604ea044c6"
   }
 ]
