@@ -456,8 +456,8 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   ) : null}
                 </div>
 
-                <div className="flex flex-wrap items-center justify-between gap-4 border-t border-white/[0.14] pt-4">
-                  <div className="flex items-baseline gap-2.5">
+                <div className="flex flex-wrap items-end justify-between gap-5 border-t border-white/[0.14] pt-5">
+                  <div className="flex items-baseline gap-2.5 flex-wrap">
                     <span className="text-[42px] font-black text-white tracking-[-0.035em] leading-none">
                       <sup className="text-[20px] font-extrabold align-super mr-px">{fsPrice.replace(/[\d.,]/g, "")}</sup>
                       {fsPrice.replace(/[£$€]/g, "").split(".")[0]}
@@ -474,9 +474,15 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     href={fsRoute}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white text-[#0d2145] text-base font-black px-9 py-4 rounded-xl shadow-[0_10px_28px_-8px_rgba(0,0,0,0.55)] hover:bg-blue-50 transition-colors"
+                    style={{
+                      background: "linear-gradient(180deg,#22c55e 0%,#16a34a 100%)",
+                      boxShadow:
+                        "0 10px 26px -8px rgba(22,163,74,0.7), 0 1px 0 rgba(255,255,255,0.28) inset",
+                    }}
+                    className="flex items-center justify-center gap-2 min-w-[196px] h-[52px] px-8 rounded-xl text-white text-base font-black tracking-[0.01em] hover:brightness-110 active:brightness-95 transition self-end"
                   >
-                    View Deal →
+                    View Deal
+                    <span aria-hidden="true" className="text-[17px] leading-none">→</span>
                   </a>
                 </div>
               </div>
