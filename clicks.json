@@ -21593,5 +21593,69 @@
     "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "1e81c329e3e4c1fb"
+  },
+  {
+    "ts": "2026-10-22T09:44:46.752Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/rt3-5mg/",
+    "visitorId": "a50b5433668018e0"
+  },
+  {
+    "ts": "2026-10-22T09:51:03.345Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "959d91631996601b"
+  },
+  {
+    "ts": "2026-10-22T09:52:15.316Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "4fe7b36d0e9a5126"
+  },
+  {
+    "ts": "2026-10-22T10:03:23.469Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://purepeptidesuk.com/product/follistatin-344-1mg/",
+    "visitorId": "65613c25af3c8a7c"
+  },
+  {
+    "ts": "2026-10-22T10:03:25.243Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://purepeptidesuk.com/product/follistatin-344-1mg/",
+    "visitorId": "917d46be12415554"
+  },
+  {
+    "ts": "2026-10-22T10:03:27.862Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://purepeptidesuk.com/product/follistatin-344-1mg/",
+    "visitorId": "f60d138bb195419d"
+  },
+  {
+    "ts": "2026-10-22T10:16:27.068Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://midshirelabs.co.uk/products/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8e36a7d38c4546c5"
   }
 ]
