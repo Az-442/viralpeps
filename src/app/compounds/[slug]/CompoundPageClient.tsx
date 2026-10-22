@@ -131,7 +131,7 @@ export default function CompoundPageClient({
 }) {
   const [activeTab, setActiveTab] = useState<TabId>("prices");
   const [selectedDosage, setSelectedDosage] = useState("all");
-  const [sortBy, setSortBy] = useState<"price-low" | "price-high" | "rating">("price-low");
+  const [sortBy, setSortBy] = useState<"price-low" | "price-high" | "rating">("rating");
   const [selectedVendors, setSelectedVendors] = useState<Set<string>>(new Set());
   // FAQ accordion — first item open by default
   const [openFaq, setOpenFaq] = useState<number | null>(0);
@@ -709,9 +709,9 @@ export default function CompoundPageClient({
               onChange={(e) => setSortBy(e.target.value as typeof sortBy)}
               className="text-base border border-gray-300 rounded-lg px-3 py-2 bg-white text-gray-700 outline-none focus:border-blue-500"
             >
+              <option value="rating">TrustScore: High to Low</option>
               <option value="price-low">Price: Low to High</option>
               <option value="price-high">Price: High to Low</option>
-              <option value="rating">Supplier Rating</option>
             </select>
           </div>
 
