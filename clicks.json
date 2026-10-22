@@ -21958,5 +21958,23 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://vialverse.com/peptides/nad",
     "visitorId": "de3c453b8564bfeb"
+  },
+  {
+    "ts": "2026-10-22T17:50:47.181Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://vialverse.com/peptides/ll-37",
+    "visitorId": "75c3f6dd5faf9f50"
+  },
+  {
+    "ts": "2026-10-22T18:02:43.941Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bionikpeptides.com/products/mots-c",
+    "visitorId": "cae003c9ef86c77f"
   }
 ]
