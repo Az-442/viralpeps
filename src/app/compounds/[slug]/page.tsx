@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // Keyword-rich SEO title per compound (fallback to generic)
   const seoTitles: Record<string, string> = {
     semaglutide: "Semaglutide UK: Compare Prices & Buy Semaglutide Peptide (Ozempic Analogue)",
-    tirzepatide: "Tirzepatide UK: Compare Prices & Buy Tirzepatide Peptide (Mounjaro Analogue)",
+    tirzepatide: "Tirzepatide Price UK 2026: Cost Per mg, Kit & Supplier | ViralPeps",
     "bpc-157": "BPC-157 UK: Compare Prices & Buy BPC-157 Peptide (Tissue Repair)",
     retatrutide: "Retatrutide UK: Compare Prices & Buy Retatrutide Peptide (GLP-1/GIP/Glucagon Triple Agonist)",
     "tb-500": "TB-500 UK: Compare Prices & Buy TB-500 Peptide (Thymosin Beta-4 Fragment)",
@@ -86,19 +86,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
   const title = seoTitles[slug] || `${compound.name} | UK Prices`;
 
+  // Per-compound meta description overrides (150-160 chars target)
+  const seoDescriptions: Record<string, string> = {
+    tirzepatide:
+      "Compare Tirzepatide prices across 91 verified UK suppliers. Cost per mg, kit sizes, purity and stock levels checked daily. From £14.75, ≥98% purity.",
+  };
+  const description =
+    seoDescriptions[slug] ||
+    (compound.sources.length > 0
+      ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
+      : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`);
+
   return {
     title,
-    description: compound.sources.length > 0
-      ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
-      : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`,
+    description,
     alternates: {
       canonical: `https://www.viralpeps.co.uk/compounds/${slug}`,
     },
     openGraph: {
       title,
-      description: compound.sources.length > 0
-        ? `Compare ${compound.name} prices from ${compound.sources.length} verified UK suppliers, from £${minPrice.toFixed(2)}. Purity ${compound.purity}. Checked pricing, updated daily.`
-        : `${compound.name}: research peptide specs, purity and CAS info, plus which UK suppliers currently stock it - compared on ViralPeps.`,
+      description,
     },
   };
 }
@@ -291,7 +298,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
               {/* Title + subtitle */}
               <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
-                {compound.name} Price Comparison
+                {slug === "tirzepatide"
+                  ? "Tirzepatide Price UK: Compare Cost Per mg, Kit & Supplier"
+                  : `${compound.name} Price Comparison`}
               </h1>
               <p className="text-blue-200 text-sm md:text-base max-w-2xl leading-relaxed mb-5">
                 Compare live {compound.name} prices from every UK supplier — side-by-side in seconds so you never overpay.

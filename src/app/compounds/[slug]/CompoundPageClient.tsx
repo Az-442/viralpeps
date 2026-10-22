@@ -79,6 +79,9 @@ const INFO_TABS = [
 
 type TabId = (typeof INFO_TABS)[number]["id"];
 
+// Content tabs only (prices handled separately as a flat intro block)
+const INFO_CONTENT_TABS = INFO_TABS.filter((t) => t.id !== "prices");
+
 // ── Price per mg helper ──
 function calcPricePerMg(price: string, dosage?: string): number | null {
   if (!dosage) return null;
@@ -716,74 +719,56 @@ export default function CompoundPageClient({
         </div>
       </div>
 
-      {/* ===== INFO TABS (15% bigger) ===== */}
+      {/* ===== RESEARCH PROFILE — flat H2 sections (no tabs, fully indexable) ===== */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
-        {/* Tab navigation - pill style */}
-        <div className="p-5 md:p-6 bg-gray-50 border-b border-gray-200">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">{compound.name} Research Profile</h2>
-          <div className="flex flex-wrap gap-2" role="tablist">
-            {INFO_TABS.map((tab) => (
-              <button
-                key={tab.id}
-                role="tab"
-                aria-selected={activeTab === tab.id}
-                onClick={() => handleTabClick(tab.id)}
-                className={`whitespace-nowrap px-4 py-2 text-sm font-semibold rounded-full transition-all ${
-                  activeTab === tab.id
-                    ? "bg-blue-600 text-white shadow-sm"
-                    : "bg-white text-gray-600 border border-gray-200 hover:bg-gray-100 hover:text-gray-800"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Tab content */}
-        <div className="p-5 md:p-6" role="tabpanel" id="profile-tab-panel">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">{compound.name} — {INFO_TABS.find(t => t.id === activeTab)?.label}</h2>
-          {activeTab === "prices" ? (
-            <div>
-              <p className="text-base text-gray-500 mb-3">
-                Compare {productCount} prices for {compound.name}. Cheapest: <strong className="text-green-600">&pound;{minPrice.toFixed(2)}</strong>. Average: <strong>&pound;{avgPrice.toFixed(2)}</strong>.
-              </p>
-              {selectedVendors.size > 0 && (
-                <div className={`mb-4 p-4 rounded-lg border-2 transition-all ${
-                  isCompareMode
-                    ? 'bg-indigo-50 border-indigo-300 shadow-md'
-                    : 'bg-blue-50 border-blue-200'
-                }`}>
-                  <div className="flex items-center justify-between mb-2">
-                    <p className="text-base font-bold text-indigo-700">
-                      {isCompareMode ? (
-                        <>🔍 {selectedVendors.size} suppliers being compared — table filtered below</>
-                      ) : (
-                        <>{selectedVendors.size} supplier selected — select another to compare</>
-                      )}
-                    </p>
-                  </div>
-                  {isCompareMode && (
-                    <div className="flex flex-wrap gap-2">
-                      {Array.from(selectedVendors).map((name) => {
-                        const v = vendors.find((x) => x.name === name);
-                        return (
-                          <span key={name} className="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-700 bg-indigo-100 border border-indigo-200 px-2.5 py-1 rounded-full">
-                            {v?.name || name}
-                            <button onClick={() => toggleVendor(name)} className="text-indigo-400 hover:text-indigo-600 ml-0.5">&times;</button>
-                          </span>
-                        );
-                      })}
-                    </div>
+        <div className="p-5 md:p-6">
+          <h2 className="text-xl font-bold text-gray-900 mb-2">{compound.name} Price Comparison</h2>
+          <p className="text-base text-gray-500">
+            Compare {productCount} prices for {compound.name}. Cheapest: <strong className="text-green-600">&pound;{minPrice.toFixed(2)}</strong>. Average: <strong>&pound;{avgPrice.toFixed(2)}</strong>.
+          </p>
+          {selectedVendors.size > 0 && (
+            <div className={`mt-4 p-4 rounded-lg border-2 transition-all ${
+              isCompareMode
+                ? 'bg-indigo-50 border-indigo-300 shadow-md'
+                : 'bg-blue-50 border-blue-200'
+            }`}>
+              <div className="flex items-center justify-between mb-2">
+                <p className="text-base font-bold text-indigo-700">
+                  {isCompareMode ? (
+                    <>🔍 {selectedVendors.size} suppliers being compared — table filtered below</>
+                  ) : (
+                    <>{selectedVendors.size} supplier selected — select another to compare</>
                   )}
+                </p>
+              </div>
+              {isCompareMode && (
+                <div className="flex flex-wrap gap-2">
+                  {Array.from(selectedVendors).map((name) => {
+                    const v = vendors.find((x) => x.name === name);
+                    return (
+                      <span key={name} className="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-700 bg-indigo-100 border border-indigo-200 px-2.5 py-1 rounded-full">
+                        {v?.name || name}
+                        <button onClick={() => toggleVendor(name)} className="text-indigo-400 hover:text-indigo-600 ml-0.5">&times;</button>
+                      </span>
+                    );
+                  })}
                 </div>
               )}
             </div>
-          ) : (
-            tabContent[activeTab]
           )}
         </div>
       </div>
+
+      {INFO_CONTENT_TABS.map((tab) => (
+        <section key={tab.id} id={`profile-${tab.id}`} className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6 scroll-mt-24">
+          <div className="px-5 md:px-6 pt-5 md:pt-6 pb-2 border-b border-gray-100 bg-gray-50">
+            <h2 className="text-xl font-bold text-gray-900">{compound.name} — {tab.label}</h2>
+          </div>
+          <div className="p-5 md:p-6">
+            {tabContent[tab.id]}
+          </div>
+        </section>
+      ))}
 
       {/* ===== PRICE COMPARISON TABLE (Desktop) ===== */}
       <div id="pricing-table" className="hidden md:block bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
