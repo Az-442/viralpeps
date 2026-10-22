@@ -584,13 +584,25 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                     : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
-  // Featured slot (silo hero, top-right). Highest TrustScore row, tie-break cheapest.
+  // Featured slot (silo hero, top-right). Pinned to the paid placement vendor
+  // where one exists for this compound; otherwise highest TrustScore, tie-break cheapest.
   const featuredSlotData = (() => {
     if (!rows.length) return null;
-    const best = [...rows].sort(
-      (a, b) =>
-        (b.trustScore ?? 0) - (a.trustScore ?? 0) || a.price - b.price
-    )[0];
+    const SPONSORED_VENDORS: Record<string, string> = {
+      retatrutide: "united-peptides",
+      tirzepatide: "united-peptides",
+    };
+    const pinnedSlug = SPONSORED_VENDORS[compound];
+    const pinned = pinnedSlug
+      ? [...rows]
+          .filter((r) => r.vendorSlug === pinnedSlug)
+          .sort((a, b) => a.price - b.price)[0]
+      : undefined;
+    const best =
+      pinned ||
+      [...rows].sort(
+        (a, b) => (b.trustScore ?? 0) - (a.trustScore ?? 0) || a.price - b.price
+      )[0];
     if (!best) return null;
     return {
       vendorName: best.vendor,

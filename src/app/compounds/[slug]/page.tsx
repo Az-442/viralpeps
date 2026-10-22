@@ -195,11 +195,19 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       : undefined;
   // Optional per-source override so the featured card can lead with a specific
   // dose (e.g. Retatrutide 40mg) while the price table keeps its own ordering.
+  // If the vendor has no listing at the override dose, fall back to the real
+  // pack name so we never label a 20mg listing as 40mg.
   const featuredDisplay = (() => {
     if (!featured) return featured;
     const fv: any = featuredVendor;
     const override = fv?.featuredDosage;
-    if (!override) return featured;
+    const realDose =
+      (featured as any).dosage ||
+      (featured as any).note ||
+      (Array.isArray((featured as any).options) ? (featured as any).options[0]?.size : null);
+    if (!override) {
+      return realDose ? { ...(featured as any), dosage: realDose } : featured;
+    }
     const opts = (featured as any).options;
     const match = Array.isArray(opts)
       ? opts.find((o: any) => o.size === override)
@@ -207,7 +215,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     if (match) {
       return { ...(featured as any), price: match.price, dosage: match.size };
     }
-    return featured;
+    return realDose ? { ...(featured as any), dosage: realDose } : featured;
   })();
   // Find the vendor data (paid or random)
   const featuredVendorData = featuredVendor || (featured ? vendors.find(v => v.name === featured.vendor) : undefined);
