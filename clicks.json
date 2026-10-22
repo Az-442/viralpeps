@@ -22061,5 +22061,15 @@
     "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500",
     "refPage": "https://www.viralpeps.co.uk/go/peptigen-labs/nad-plus",
     "visitorId": "80b7cc2768c950da"
+  },
+  {
+    "ts": "2026-10-22T20:15:44.115Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/go/leolab/tesamorelin",
+    "visitorId": "ac8ff0ae0df2b541"
   }
 ]
