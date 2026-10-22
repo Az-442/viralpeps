@@ -425,7 +425,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
               <div className="relative z-[2]">
                 <div className="text-[11px] font-extrabold tracking-[0.13em] uppercase text-blue-300 mb-[9px]">
-                  Lowest verified price · {uniqueSuppliers} suppliers compared
+                  Sponsored placement · {uniqueSuppliers} suppliers compared
                 </div>
                 <h3 className="text-[32px] font-extrabold text-white tracking-[-0.03em] leading-[1.1] mb-1.5">
                   {featuredVendorData.name}
