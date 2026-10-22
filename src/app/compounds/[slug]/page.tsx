@@ -414,43 +414,43 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
           })();
           const fsRoute = `/go/${featuredVendorData?.slug || featured.vendor.toLowerCase().replace(/\s+/g, '-')}/${slug}`;
           return (
-            <div className="relative grid grid-cols-1 md:grid-cols-[1fr_220px] gap-6 md:gap-7 items-center bg-[linear-gradient(120deg,#0d2145_0%,#173a6b_55%,#1d4ed8_130%)] rounded-[14px] px-6 py-7 md:px-8 md:py-7 mb-8 overflow-hidden shadow-[0_14px_38px_-18px_rgba(13,33,69,0.75)]">
+            <div className="relative grid grid-cols-1 md:grid-cols-[1fr_260px] gap-7 md:gap-9 items-center bg-[linear-gradient(120deg,#0d2145_0%,#173a6b_55%,#1d4ed8_130%)] rounded-[18px] px-7 py-9 md:px-11 md:py-11 mb-8 overflow-hidden shadow-[0_22px_54px_-20px_rgba(13,33,69,0.8)]">
               {/* decorative glows */}
               <div className="absolute -right-[60px] -top-[60px] w-[280px] h-[280px] rounded-full bg-[radial-gradient(circle,rgba(96,165,250,0.28),transparent_68%)] pointer-events-none" />
               <div className="absolute right-[120px] -bottom-[90px] w-[220px] h-[220px] rounded-full bg-[radial-gradient(circle,rgba(147,197,253,0.14),transparent_70%)] pointer-events-none" />
 
-              <span className="absolute top-0 left-0 z-[3] bg-white text-[#0d2145] text-[9px] font-black tracking-[0.14em] uppercase px-[15px] py-[6px] rounded-br-[11px]">
+              <span className="absolute top-0 left-0 z-[3] bg-white text-[#0d2145] text-[10.5px] font-black tracking-[0.14em] uppercase px-[19px] py-[8px] rounded-br-[13px]">
                 Sponsored
               </span>
 
               <div className="relative z-[2]">
-                <div className="text-[10px] font-extrabold tracking-[0.12em] uppercase text-blue-300 mb-[7px]">
+                <div className="text-[11px] font-extrabold tracking-[0.13em] uppercase text-blue-300 mb-[9px]">
                   Lowest verified price · {uniqueSuppliers} suppliers compared
                 </div>
-                <h3 className="text-[26px] font-extrabold text-white tracking-[-0.03em] leading-[1.12] mb-1">
+                <h3 className="text-[32px] font-extrabold text-white tracking-[-0.03em] leading-[1.1] mb-1.5">
                   {featuredVendorData.name}
                 </h3>
-                <p className="text-[13.5px] font-semibold text-blue-200 mb-3">
+                <p className="text-[15px] font-semibold text-blue-200 mb-4">
                   {compound?.name || featured.vendor}{fsDose ? ` ${fsDose}` : ""}
                   {featuredVendorData.verified ? " · batch COA available" : ""}
                 </p>
 
                 <div className="flex flex-wrap gap-1.5 mb-4">
                   {featuredVendorData.verified && (
-                    <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-emerald-500/20 border border-emerald-400/40 text-emerald-300">
+                    <span className="text-[12px] font-bold px-3 py-1.5 rounded-md bg-emerald-500/20 border border-emerald-400/40 text-emerald-300">
                       Lab Tested
                     </span>
                   )}
                   {featured.inStock !== false && (
-                    <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-emerald-500/20 border border-emerald-400/40 text-emerald-300">
+                    <span className="text-[12px] font-bold px-3 py-1.5 rounded-md bg-emerald-500/20 border border-emerald-400/40 text-emerald-300">
                       In Stock
                     </span>
                   )}
-                  <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-white/[0.11] border border-white/20 text-blue-100">
+                  <span className="text-[12px] font-bold px-3 py-1.5 rounded-md bg-white/[0.11] border border-white/20 text-blue-100">
                     Free UK Delivery
                   </span>
                   {featuredVendorData.rating ? (
-                    <span className="text-[10.5px] font-bold px-2.5 py-1 rounded-md bg-white/[0.11] border border-white/20 text-blue-100">
+                    <span className="text-[12px] font-bold px-3 py-1.5 rounded-md bg-white/[0.11] border border-white/20 text-blue-100">
                       {featuredVendorData.rating.toFixed(1)} ★
                     </span>
                   ) : null}
@@ -458,14 +458,14 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
                 <div className="flex flex-wrap items-center justify-between gap-4 border-t border-white/[0.14] pt-4">
                   <div className="flex items-baseline gap-2.5">
-                    <span className="text-[33px] font-black text-white tracking-[-0.035em] leading-none">
-                      <sup className="text-[16px] font-extrabold align-super mr-px">{fsPrice.replace(/[\d.,]/g, "")}</sup>
+                    <span className="text-[42px] font-black text-white tracking-[-0.035em] leading-none">
+                      <sup className="text-[20px] font-extrabold align-super mr-px">{fsPrice.replace(/[\d.,]/g, "")}</sup>
                       {fsPrice.replace(/[£$€]/g, "").split(".")[0]}
-                      <sup className="text-[16px] font-extrabold align-super">.{fsPrice.split(".")[1] || "00"}</sup>
+                      <sup className="text-[20px] font-extrabold align-super">.{fsPrice.split(".")[1] || "00"}</sup>
                     </span>
-                    {fsWas && <span className="text-[13px] text-blue-300 line-through opacity-75">{fsWas}</span>}
+                    {fsWas && <span className="text-[15px] text-blue-300 line-through opacity-75">{fsWas}</span>}
                     {fsPerMg && (
-                      <span className="text-[10.5px] font-bold text-blue-200 bg-white/10 px-2.5 py-[3px] rounded">
+                      <span className="text-[12px] font-bold text-blue-200 bg-white/10 px-3 py-1 rounded">
                         {fsPerMg}
                       </span>
                     )}
@@ -474,7 +474,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                     href={fsRoute}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white text-[#0d2145] text-sm font-black px-7 py-3 rounded-lg shadow-[0_8px_22px_-8px_rgba(0,0,0,0.5)] hover:bg-blue-50 transition-colors"
+                    className="bg-white text-[#0d2145] text-base font-black px-9 py-4 rounded-xl shadow-[0_10px_28px_-8px_rgba(0,0,0,0.55)] hover:bg-blue-50 transition-colors"
                   >
                     View Deal →
                   </a>
@@ -482,7 +482,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
               </div>
 
               <div className="relative z-[2] flex flex-col items-center gap-3">
-                <div className="w-[150px] h-[172px] rounded-xl bg-[radial-gradient(circle_at_50%_32%,rgba(255,255,255,0.96),rgba(219,234,254,0.9)_70%)] flex items-center justify-center shadow-[0_10px_26px_-12px_rgba(0,0,0,0.55)] overflow-hidden">
+                <div className="w-[188px] h-[214px] rounded-2xl bg-[radial-gradient(circle_at_50%_32%,rgba(255,255,255,0.98),rgba(219,234,254,0.92)_70%)] flex items-center justify-center shadow-[0_14px_34px_-12px_rgba(0,0,0,0.6)] overflow-hidden p-2">
                   <ProductImage
                     vendorSlug={featuredVendorData.slug}
                     compoundSlug={slug}
@@ -490,17 +490,17 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   />
                 </div>
                 {fsScore !== null && (
-                  <div className="flex items-center gap-1.5 bg-white/[0.13] border border-white/[0.24] rounded-full px-3 py-[5px]">
+                  <div className="flex items-center gap-2 bg-white/[0.13] border border-white/[0.24] rounded-full px-4 py-1.5">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="#34d399">
                       <path d="M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4z" />
                     </svg>
-                    <b className="text-[13px] text-white font-black">{fsScore}</b>
-                    <i className="not-italic text-[9px] text-blue-300 font-bold">/100</i>
+                    <b className="text-[15px] text-white font-black">{fsScore}</b>
+                    <i className="not-italic text-[10px] text-blue-300 font-bold">/100</i>
                   </div>
                 )}
               </div>
 
-              <div className="relative z-[2] md:col-span-2 text-[10px] text-blue-300/75 text-center">
+              <div className="relative z-[2] md:col-span-2 text-[11px] text-blue-300/80 text-center mt-1">
                 Paid placement — clearly marked. Rankings and TrustScore unaffected.
               </div>
             </div>
