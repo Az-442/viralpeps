@@ -1651,6 +1651,148 @@ verified with `esummary` before use.
 
 ---
 
+## ✅ DONE — AOD-9604 SILO (commit `680c1fb4`)
+
+Queue note: all 5 originally-queued compounds (Semaglutide, Semax, Selank, Ipamorelin, MOTS-c)
+were already in `silos.ts`, as were the 11 later additions. Per SOP Step 0 the next compound was
+picked on **verified UK autocomplete demand**, not source count. AOD-9604 was harvested head to
+head against KPV (76 sources), Epitalon (72), DSIP (72), Glow (67), Melanotan II (65), PT-141 (53)
+and CJC-1295 (52) — AOD-9604 returned the only real UK buying-intent signal of the group. Built
+per the locked SOP. Deploy verified live 2026-10-22.
+
+**Live URLs (all 200, verified with real rendered content):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-aod-9604-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-aod-9604-uk
+- https://www.viralpeps.co.uk/compound-guides/aod-9604-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-aod-9604-online-uk
+- https://www.viralpeps.co.uk/compound-guides/aod-9604-for-sale-uk
+- https://www.viralpeps.co.uk/compound-guides/best-aod-9604-peptide
+
+**Verified metrics (LIVE, not local):** rendered words 2,423–3,637 (all ≥1,200) · titles 41–44
+chars · descriptions 156–158 chars · focus keyword in H1 + intro[0] of all 6 (normalised for the
+hyphen/space form) · price rows 25 / 15 / 63 / 20 / 25 / 63 · **49 unique live go-links, all
+resolving 302/308, 0 broken** (all 49 swept individually on production) · hub tiles present on
+`/compounds/aod-9604` (all 6 spoke links) · index lists AOD-9604 and all 6 spokes · all 6 in
+sitemap · `npx tsc --noEmit` 0 errors · `npm run build` clean (308 static pages).
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-22)
+
+⚠️ **Five of the six default modifiers returned ZERO UK results for AOD-9604** — substituted, as
+the SOP requires. AOD-9604 is not a GLP-1, so the GLP-1 modifier set does not transfer (same
+pattern as Semax, Selank, Ipamorelin, MOTS-c, BPC-157, SS-31 and Sermorelin). The hyphenated form
+(`aod-9604`) barely autocompletes at all; the spaced form (`aod 9604`) carries the real signal, so
+both were harvested.
+
+| Modifier | Result |
+|---|---|
+| `where to buy aod 9604 uk` | ⚠️ **0 results** → substituted `aod 9604 where to buy` (**exact #1**; also `aod 9604 peptide where to buy` #1, `aod 9604 where to buy online` #1, `aod 9604 peptide where to buy online`) + UK-form `where to buy aod 9604 uk` returns `where to buy aod 9604` and `where to buy peptides uk` |
+| `cheapest aod 9604 uk` | ⚠️ **0 results** → substituted `cheapest aod 9604` (**exact #1**) + UK-form `aod 9604 uk price` (#1 under `aod 9604 uk `) |
+| `aod 9604 price comparison uk` | ⚠️ **0 results** → substituted `aod 9604 price` (real hits: `aod 9604 peptide price`, `aod 9604 peptide price in usa`, `aod-9604 5mg price`) + UK-form `aod 9604 uk price` |
+| `buy aod 9604 online uk` | ⚠️ **0 results** (`aod 9604 online uk` and `aod 9604 buy online uk` also 0) → substituted `buy aod 9604 uk` (real hit under `buy aod 9604 `) + `aod 9604 buy uk` (real hit under `aod 9604 uk `) + `aod 9604 peptide buy uk` |
+| `aod 9604 uk supplier` | ⚠️ **0 results** (`aod 9604 supplier uk` / `aod 9604 suppliers uk` / `aod9604 supplier uk` also 0). **`aod 9604 uk stockists` was also tested and returned 0** → substituted **`aod 9604 for sale uk`** (UK-form hit `aod 9604 peptide buy uk` #1), backed by the real base term `aod 9604 for sale` (**exact #1**, plus `aod 9604 peptide for sale`, `aod 9604 10mg for sale`, `aod 9604 capsules for sale`, `aod 9604 oral for sale`) |
+| `best aod 9604 peptide` | **exact match #1** — passed |
+
+Corroborating hits: `aod9604 uk`, `aod 9604 uk peptides`, `aod 9604 uk research vial 10mg`,
+`aod 9604 uk price`, `aod 9604 peptide uk`, `aod 9604 peptide buy uk`, `aod 9604 peptide pen uk`,
+`aod 9604 tablets uk`, `aod 9604 oral uk`, `aod 9604 nasal spray uk`, `aod9604 peptide uk`,
+`aod9604 buy uk`, `aod 9604 peptide uk price`, `aod 9604 supplier` (bare, non-UK — real).
+
+### ⚠️ Spoke 5 substitution detail
+No supplier-intent phrasing exists for AOD-9604 in UK autocomplete. `aod 9604 uk supplier`,
+`aod 9604 supplier uk`, `aod 9604 suppliers uk` and `aod 9604 uk stockists` all returned 0, so the
+planned `aod-9604-uk-stockists` slug was **dropped before build** and spoke 5 shipped as
+**`aod-9604-for-sale-uk`** (the same fallback used for Selank, Ipamorelin and TB-500). The bare
+`aod 9604 supplier` is a real hit, so the page still earns a supplier-intent section internally.
+
+### Collision check (KW Phase 1)
+`grep -niE "aod|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`:
+- line 84 `aod-9604-suppliers-uk` → **informational intent, KEPT** (not a shopping-intent
+  duplicate of any spoke; it becomes an article that links into the hub + spokes).
+- line 133 `aod-9604-vs-mots-c` → **distinct (vs intent), KEPT.**
+- lines 34/89/123 `where-to-buy-peptides-uk`, `where-to-buy-tirzepatide-uk`, `cheapest-peptides-uk`
+  → pillar pages, no clash.
+**No plan collisions — nothing removed.**
+
+### Data
+- 63 display rows from 57 master sources + 4 child variant entries (`aod-9604-vial-express`,
+  `aod-9604-pen-express`, `aod-9604-5mg`, `sterling-aod-9604`) → **49 unique suppliers**,
+  lowest £18.90, highest £142.00, average £44.36, best per mg **£2.84** (Eva Peptide UK, 10-vial
+  kit), 9 pack sizes.
+- Uses the `vendorSlugFor()` helper (the Semax fix) — 9 of the 50 vendor names would have
+  mismatched on a synthesised slug (`Dr P Research`→`dr-peptides`, `HelixCore`→`helix-core`,
+  `Kensington Labs UK`→`kensington-labs`, `PeptideLabUK`→`peptide-lab-uk`, `Eva Peptide UK`→
+  `eva-peptide`, `LeoLab Peptides UK`→`leolab`, `Ascend Peptides UK`→`ascend-peptides`,
+  `Peptides Specialist UK`→`peptidespecialist`, `Research Peptides UK`→`research-peptide-uk`) —
+  **0 broken go-links**.
+- Uses the `goCompoundSlug` row field (the BPC-157 fix): `Research Peptides UK` and
+  `Evolve Peptides` appear only on child entries, so their rows resolve `/go/` at `aod-9604-5mg`.
+- **12 of 63 rows publish no mg figure** and correctly render "—" per mg (rank bottom, not dropped).
+- **1 junk price dropped:** `Peptides UK` carries the literal `£—`; `parsePrice` returns NaN and
+  the row is excluded rather than shown as £0.
+- **De-dupe on vendor + price + pack** (NOT URL): Express Peptides lists the same vial and pen on
+  both the master entry and its own child entries with different URLs. URL-keyed de-dupe (the
+  Sermorelin approach) would have left 2 visible phantom duplicates. 8 vendors legitimately show
+  multiple rows (multi-pack); all survive.
+
+### ⚠️ DATA BUG FOUND (NOT fixed — out of scope, one-concern rule)
+The `aod-9604` entry in `compounds.json` records the **wrong sequence and length**:
+- `sequence: "LAGLEDESILEAQTWPEEEQK"` — that is the AOD9401 structural domain, not the sold
+  compound (PMID 11116208 covers AOD9401).
+- `description` / `longDescription` say "15-amino acid fragment, residues 177-191". AOD-9604 is a
+  **16-residue** fragment, **YLRIVQCRSVEGSCGF**, with a disulfide bridge, MW **1815.10**, CAS
+  221231-10-3 (confirmed against PubChem-style specs and multiple independent supplier/catalogue
+  references; the `molarMass` field already says 1814.0, which is consistent with 16 residues).
+The silo copy states the correct 16-residue facts and never reuses the wrong sequence. **TODO:
+fix `compounds.json` sequence/description in a separate data-maintenance pass** — the hub page
+still renders the incorrect sequence.
+
+### PubMed sources used (all harvested via esearch, every ID verified with esummary)
+- 11146367 — Metabolic studies of a synthetic lipolytic domain (AOD9604) of hGH (Horm Res 2000)
+- 11673763 — Increase of fat oxidation and weight loss in obese mice with hGH or a modified C-terminal fragment (Int J Obes 2001)
+- 11713213 — hGH and its lipolytic fragment (AOD9604) in obese mice and beta(3)-AR knock-out mice (Endocrinology 2001)
+- 10950816 — Effects of oral administration of a synthetic fragment of hGH on lipid metabolism (Am J Physiol Endocrinol Metab 2000)
+- 11116208 — Molecular and cellular actions of a structural domain of hGH (AOD9401) in Zucker fatty rats (J Mol Endocrinol 2000)
+- 8358331 — Antilipogenic action of synthetic C-terminal sequence 177-191 of hGH (Biochem Mol Biol Int 1993)
+- 8118430 — Effect of an antilipogenic fragment of hGH on glucose transport in rat adipocytes (Biochem Mol Biol Int 1993)
+- 7987248 — Reduction of cumulative body weight gain and adipose tissue mass in obese mice, hGH 177-191 (Biochem Mol Biol Int 1994)
+- 6307153 — Regulation of glycogen synthase activity by a C-terminal part sequence of hGH (Arch Biochem Biophys 1983)
+- 6751009 — Effect of C-terminal chain shortening on insulin-antagonistic activity of hGH 177-191 (Acta Endocrinol 1982)
+- 373464 — Effect of synthetic C-terminal fragments of hGH on glucose oxidation by isolated islets (Am J Physiol 1979)
+- 214153 — Effects of part sequences of hGH on in vivo hepatic glycogen metabolism in the rat (Biochim Biophys Acta 1978)
+- 645904 — Hyperglycemic action of synthetic C-terminal fragments of hGH (Am J Physiol 1978)
+- 26275694 — Intra-articular AOD9604 ± hyaluronic acid in a rabbit osteoarthritis model (Ann Clin Lab Sci 2015)
+- 25208511 — Detection and in vitro metabolism of AOD9604 (Drug Test Anal 2015)
+- 24124033 — AOD-9604 does not influence the WADA hGH isoform immunoassay (Drug Test Anal 2013)
+- 24906629 — Analytical approaches for emerging therapeutics and non-approved drugs in doping controls (J Pharm Biomed Anal 2014)
+- 25382550 — Detecting peptidic drugs, drug candidates and analogs in sports doping (Expert Rev Proteomics 2014)
+- 16931496 — Potential role of new therapies in modifying cardiovascular risk in overweight patients (Obesity 2006)
+- 16625817 — Obesity drugs in clinical development (Curr Opin Investig Drugs 2006)
+- 16859393 — Investigational therapies in the treatment of obesity (Expert Opin Investig Drugs 2006)
+- 17971763 — Review of antiobesity drugs and new compounds in clinical development (Postepy Hig Med Dosw 2007)
+- 42395176 — Performance-enhancing peptides modulating the GH-IGF1 axis (Front Endocrinol 2026)
+- 41966639 — Safety and Efficacy of Approved and Unapproved Peptide Therapies (Sports Med 2026)
+- 41490200 — Therapeutic Peptides in Orthopaedics (JAAOS Glob Res Rev 2026)
+
+⚠️ **Rejected after esummary:** 16912056 (returned by the `growth hormone fragment obesity 2007`
+probe — it resolved to a **preptin** paper, not AOD-9604). PMID 22435392 and 15134286 were found
+but not used (review notes, no added value).
+
+⚠️ **Tip for the next builder:** bare `AOD9604` as an NCBI term returns only ~12 records and the
+top hits are doping-analytics papers. The useful metabolism literature sits under
+`hGH fragment 177-191`, `AOD9604 lipolysis` and the older `C-terminal fragments of hGH` phrasing.
+There is **no PubMed-indexed human RCT** for AOD-9604 — the phase 2 obesity programme is
+documented only in company announcements and contemporaneous drug-development reviews (16625817,
+16859393, 17971763). Do not invent a trial PMID for it.
+
+### Files changed
+`src/data/aod-9604-silo.ts` (new) · `src/data/aod-9604-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (compound-aware switch for 17 compounds) ·
+`src/app/compounds/[slug]/page.tsx` (hub tile block, `bg-indigo-100` to continue the section
+rotation). Sitemap auto-includes via the registry (verified live: all 6 spokes present).
+
+---
+
 ## Pitfalls (carry these into every build)
 
 - **Never build `/<compound>-uk`** — the hub owns it. (Error made 15 Sep 2026.)
