@@ -86,7 +86,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     cerebrolysin: "Cerebrolysin UK: Compare Prices & Buy Cerebrolysin Peptide (Neurotrophic Peptide Complex)",
     survodutide: "Survodutide UK: Compare Prices & Buy Survodutide Peptide (GLP-1/Glucagon Dual Agonist)",
     mazdutide: "Mazdutide UK: Compare Prices & Buy Mazdutide Peptide (GLP-1/Glucagon Dual Agonist)",
-    hcg: "HCG UK: Compare Prices & Buy HCG Peptide (Human Chorionic Gonadotropin)",
+    hcg: "HCG Price UK: Compare Cost Per IU, Kit & Supplier",
     "ahk-cu": "AHK-Cu UK: Compare Prices & Buy AHK-Cu Peptide (Copper Peptide for Skin & Repair)",
     "kisspeptin-10": "Kisspeptin-10 UK: Compare Prices & Buy Kisspeptin-10 Peptide (Reproductive Hormone)",
     "follistatin-344": "Follistatin-344 UK: Compare Prices & Buy Follistatin 344 Peptide (Myostatin Inhibitor)",
