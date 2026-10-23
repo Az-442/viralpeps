@@ -25336,5 +25336,51 @@
     "compoundSlug": "mots-c-10mg",
     "destUrl": "https://purepeptidesuk.com/product/mots-c-10mg/",
     "visitorId": "55fd5529a2faf879"
+  },
+  {
+    "ts": "2026-10-23T18:10:53.537Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "glp-3",
+    "destUrl": "https://britishpeptidelabs.com/products/glp-3",
+    "visitorId": "7e7cf4c992e73baf"
+  },
+  {
+    "ts": "2026-10-23T18:16:40.840Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "59b9634fb887c3f7"
+  },
+  {
+    "ts": "2026-10-23T18:20:38.815Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://mypepbiotech.co.uk/product/tirzepatide-10mg/",
+    "visitorId": "059511e9738133a0"
+  },
+  {
+    "ts": "2026-10-23T18:30:19.041Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://armapeptideshop.com/product/cjc-1295-no-dac-10mg-peptide/",
+    "visitorId": "5fe013588207fa95"
+  },
+  {
+    "ts": "2026-10-23T18:31:56.509Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg",
+    "visitorId": "917d46be12415554"
   }
 ]
