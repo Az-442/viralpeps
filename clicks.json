@@ -24061,5 +24061,125 @@
     "destUrl": "https://evolvepeptides.uk/products/tesamorelin-5mg",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "bc072519c94235a1"
+  },
+  {
+    "ts": "2026-10-23T03:41:28.687Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://cmsrlabs.co/product/retatrutide-10mg/",
+    "visitorId": "6ed35fe723fedf3c"
+  },
+  {
+    "ts": "2026-10-23T03:42:47.743Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bionikpeptides.com/products/igf-1-lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1fb334a5d1917f61"
+  },
+  {
+    "ts": "2026-10-23T03:42:51.190Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bionikpeptides.com/products/igf-1-lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "149ad929a2835ed5"
+  },
+  {
+    "ts": "2026-10-23T03:43:51.650Z",
+    "type": "product",
+    "vendorSlug": "ukpeptides",
+    "vendorName": "UKPeptides.org",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://ukpeptides.org/buy/tb-500-5mg",
+    "visitorId": "65067fb3432d9178"
+  },
+  {
+    "ts": "2026-10-23T03:47:49.172Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://biopeptides-uk.com/product/acetic-acid-10ml/",
+    "visitorId": "ed62b16c5a1b27df"
+  },
+  {
+    "ts": "2026-10-23T03:50:56.321Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://retaresearch.co/products/cjc-1295-no-dac-ipamorelin-mix",
+    "visitorId": "18958b9979d7eb47"
+  },
+  {
+    "ts": "2026-10-23T03:56:45.065Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://anglopeptides.com/product/klow-blend-80mg-vial-batch-107-research-peptide/",
+    "visitorId": "b533d70285c6327d"
+  },
+  {
+    "ts": "2026-10-23T03:57:16.053Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptidelabuk.co.uk/product/nad-500mg-research-compound/",
+    "visitorId": "a0309e347a41a37e"
+  },
+  {
+    "ts": "2026-10-23T03:58:26.913Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.revexa.co.uk/product-page/melanotan-2-10mg",
+    "visitorId": "6c4b37508f92ff72"
+  },
+  {
+    "ts": "2026-10-23T03:58:27.823Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://supplypeptides.co.uk/products/tb-500",
+    "visitorId": "a7f385986f731bc2"
+  },
+  {
+    "ts": "2026-10-23T03:58:39.041Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://supplypeptides.co.uk/products/tb-500",
+    "visitorId": "473770403db54d25"
+  },
+  {
+    "ts": "2026-10-23T04:00:33.155Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.flexpeptides.co.uk/products/glutathione-1500mg",
+    "visitorId": "9cd77ae14823d94a"
+  },
+  {
+    "ts": "2026-10-23T04:03:23.137Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-2",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "804eb98060792a9f"
   }
 ]
