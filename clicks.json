@@ -25559,5 +25559,88 @@
     "compoundSlug": "epitalon",
     "destUrl": "https://armapeptideshop.com/product/epithalon-10mg-premium-research-peptide/",
     "visitorId": "0f3ca20b9f87fb7e"
+  },
+  {
+    "ts": "2026-10-23T20:33:12.078Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ghrp-2-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ghrp-2/pen",
+    "visitorId": "842f7deecf52774e"
+  },
+  {
+    "ts": "2026-10-23T20:37:37.667Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidespecialist.co.uk/product/ipamorelin/",
+    "visitorId": "68f6631fa9221ef9"
+  },
+  {
+    "ts": "2026-10-23T20:40:34.351Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/",
+    "visitorId": "5092ecb51f51654e"
+  },
+  {
+    "ts": "2026-10-23T20:42:17.881Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://bionikpeptides.com/products/ara-290",
+    "visitorId": "ccffaba203121337"
+  },
+  {
+    "ts": "2026-10-23T20:45:25.242Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.apex-pharma.co.uk/product/ss-31-10mg/",
+    "visitorId": "151a148c1f335300"
+  },
+  {
+    "ts": "2026-10-23T20:47:14.355Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ss-31-10mg-elamipretide",
+    "visitorId": "9855564913d05ba1"
+  },
+  {
+    "ts": "2026-10-23T20:52:37.729Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptidespecialist.co.uk/product/melanotan-ii/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist/melanotan-ii",
+    "visitorId": "c87c260f1b8a90bb"
+  },
+  {
+    "ts": "2026-10-23T21:00:15.246Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://chromapeptides.co.uk/product/selank/",
+    "visitorId": "f1df479a9103c81d"
+  },
+  {
+    "ts": "2026-10-23T21:07:37.649Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://armapeptideshop.com/product/nad-600mg-research-coenzyme/",
+    "refPage": "https://www.viralpeps.co.uk/go/arma-peptides/nad-plus",
+    "visitorId": "5c3a158fd4629077"
   }
 ]
