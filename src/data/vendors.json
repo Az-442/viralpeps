@@ -5478,5 +5478,51 @@
       },
       "checkedAt": "2026-10-22T00:40:39.244Z"
     }
+  },
+  {
+    "id": "global-bio-research",
+    "name": "Global Bio Research",
+    "slug": "global-bio-research",
+    "website": "https://globalbioresearch.co",
+    "rating": 4.2,
+    "verified": true,
+    "country": "UK",
+    "description": "Multi-region research compound supplier with locally held UK stock and domestic dispatch (Mon/Wed/Fri) by express courier. Every product is supplied as a lyophilised vial for laboratory research only.",
+    "highlights": [
+      "Local UK stock, domestic dispatch",
+      "Mon / Wed / Fri dispatch",
+      "Express & overnight local couriers",
+      "Research use only"
+    ],
+    "shipping": [
+      "UK (express & overnight local couriers, tracking included)",
+      "International (local stock in AU, NZ, Bali, PH, BR)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-10-23",
+    "labTested": false,
+    "email": "hello@globalbioresearch.co",
+    "deliveryDetails": "Mon/Wed/Fri dispatch from local warehouse; express & overnight couriers with tracking. Delivery time and cost depend on address/courier; no free-delivery threshold stated.",
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": null,
+        "ruo": "All products supplied for research use only",
+        "reviews": null,
+        "shipping": "Monday · Wednesday · Friday dispatch. Tracking sent. Express & overnight shipping",
+        "contact": "hello@globalbioresearch.co"
+      },
+      "checkedAt": "2026-10-23T00:35:00.000Z",
+      "note": "rendered SPA — signals verified in real browser (site is a JS app; raw HTML is a shell)"
+    }
   }
 ]
