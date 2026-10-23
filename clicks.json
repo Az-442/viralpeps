@@ -25784,5 +25784,52 @@
     "destUrl": "https://chromapeptides.co.uk/product/dsip/",
     "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/dsip",
     "visitorId": "2d6d0facdee1769c"
+  },
+  {
+    "ts": "2026-10-23T22:52:44.348Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "f5176bb2006d0aa6"
+  },
+  {
+    "ts": "2026-10-23T22:52:51.122Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "d0c01c4c692511ca"
+  },
+  {
+    "ts": "2026-10-23T22:54:28.853Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc157-tb-10-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "db2d868df9e380ae"
+  },
+  {
+    "ts": "2026-10-23T23:07:39.367Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d156a933bebf6e8e"
+  },
+  {
+    "ts": "2026-10-23T23:15:39.188Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/",
+    "visitorId": "34b2c5caed6c8c71"
   }
 ]
