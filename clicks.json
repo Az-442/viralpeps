@@ -24931,5 +24931,121 @@
     "compoundSlug": "dsip",
     "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/dsip/",
     "visitorId": "7eed42f6304e796d"
+  },
+  {
+    "ts": "2026-10-23T05:09:47.953Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://peptideslabuk.com/product/thymalin/",
+    "visitorId": "8e788b41cddebe62"
+  },
+  {
+    "ts": "2026-10-23T05:10:01.766Z",
+    "type": "vendor-site",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "destUrl": "https://pgnalabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/pgna-labs",
+    "visitorId": "675b0126a4f67171"
+  },
+  {
+    "ts": "2026-10-23T05:15:18.771Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ghk-cu/",
+    "visitorId": "ef41e15c5ea43f6f"
+  },
+  {
+    "ts": "2026-10-23T05:15:20.028Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "destUrl": "https://peptx.co.uk",
+    "visitorId": "cbaf47b1b8bc72a9"
+  },
+  {
+    "ts": "2026-10-23T05:17:03.128Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://allmypeptides.com/product/dsip/",
+    "visitorId": "d54d2dbbe9bce246"
+  },
+  {
+    "ts": "2026-10-23T05:17:30.039Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ss-31-10mg/",
+    "visitorId": "f485b2eb2a51319f"
+  },
+  {
+    "ts": "2026-10-23T05:17:43.081Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://novavitality.co.uk/product/b12/",
+    "visitorId": "76ee3154c411f614"
+  },
+  {
+    "ts": "2026-10-23T05:23:53.088Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ghk-cu-100mg-2/",
+    "visitorId": "ee8f0717ae142158"
+  },
+  {
+    "ts": "2026-10-23T05:24:28.106Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://crownpeptides.co.uk/shop/crown/nad-research-compound/",
+    "visitorId": "ce8adc71f8758c0a"
+  },
+  {
+    "ts": "2026-10-23T05:25:46.478Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://supplypeptides.co.uk/products/nad",
+    "visitorId": "47fddf88865e610e"
+  },
+  {
+    "ts": "2026-10-23T05:28:54.891Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://zentra-peptides.com/product/ss-31/",
+    "visitorId": "35fb593fc05a7cfa"
+  },
+  {
+    "ts": "2026-10-23T05:33:17.060Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-mots-c-10mg",
+    "destUrl": "https://purepeptidesuk.com/product/prem-mots-c-10mg/",
+    "visitorId": "6fff1b3054a778a2"
+  },
+  {
+    "ts": "2026-10-23T05:39:37.892Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/",
+    "visitorId": "76a5c5da5418ae0b"
   }
 ]
