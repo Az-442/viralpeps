@@ -6314,6 +6314,540 @@
     ]
   },
   {
+    "id": "igf-1-lr3",
+    "name": "IGF-1 LR3",
+    "slug": "igf-1-lr3",
+    "aliases": [
+      "Long R3 IGF-1",
+      "Insulin-like Growth Factor-1 Long Arginine 3",
+      "igf-1-lr3-1mg",
+      "igf-1-lr3-100mcg",
+      "igf-1-long-r3-1mg",
+      "igf1-lr3-1mg",
+      "igf1-lr3-vial-express",
+      "igf1-lr3-pen-express"
+    ],
+    "category": "growth-hormone",
+    "description": "IGF-1 LR3 is a synthetic 83-amino acid analogue of human IGF-1 with an arginine substitution at position three and an N-terminal extension. It has significantly reduced binding to IGF-binding proteins, resulting in a much longer half-life and greater bioavailability than native IGF-1.",
+    "mechanism": "IGF-1 receptor agonist. Promotes protein synthesis, nitrogen retention, and cell proliferation. The LR3 modification reduces IGFBP binding affinity by 1000-fold, extending half-life to approximately 20-30 hours vs 10-12 minutes for native IGF-1.",
+    "cas": "67763-96-6",
+    "molarMass": "9142.5 g/mol",
+    "sequence": "MFPAMPLSSLFNGPRTLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA",
+    "purity": "≥98%",
+    "form": "Lyophilized powder",
+    "halfLife": "20-30 hours",
+    "researchAreas": [
+      "Muscle growth",
+      "Recovery",
+      "Anti-aging",
+      "Insulin sensitivity",
+      "Nerve regeneration"
+    ],
+    "commonDosages": [
+      "20-60 mcg/day",
+      "40-80 mcg post-workout"
+    ],
+    "sources": [
+      {
+        "vendor": "PGNA Labs",
+        "url": "https://pgnalabs.co.uk/product/igf-1lr3",
+        "price": "£38.00",
+        "inStock": true,
+        "image": "/images/products/pgna-labs/igf-1lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Research Peptides",
+        "url": "https://www.researchpeptides.co.uk/product-page/igf-lr3-1mg",
+        "price": "£39.95",
+        "inStock": true,
+        "image": "/images/products/research-peptides-uk-main/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+        "price": "£44.99",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-des-vial-express.webp"
+      },
+      {
+        "vendor": "UK Peptides",
+        "url": "https://ukpeptides.com/catalog/igf-1-lr3",
+        "price": "£45.99",
+        "inStock": true,
+        "options": [
+          {
+            "size": "1 mg vial",
+            "price": "£45.99"
+          }
+        ],
+        "image": "/images/products/uk-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/peptides-igf-1-lr3-100/",
+        "price": "£10.00",
+        "inStock": true,
+        "image": "/images/products/pure-peptides-uk/igf-1-lr3-100mcg.webp"
+      },
+      {
+        "vendor": "Tide Labs",
+        "url": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+        "price": "£56.00",
+        "inStock": true,
+        "image": "/images/products/tide-labs/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Raccoon Peptides",
+        "url": "https://www.raccoonpeptides.com/peptides/41-igf-1lr3-1mg.html",
+        "price": "£27.40",
+        "inStock": true,
+        "image": "https://www.raccoonpeptides.com/70-home_default/igf-1lr3-1mg.jpg",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Kensington Labs UK",
+        "url": "https://www.kensingtonlabs.co.uk/product/igf-1lr3-1mg/",
+        "price": "£34.95",
+        "inStock": true,
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Peptides Lab UK",
+        "url": "https://peptideslabuk.com/product/igf-1lr3/",
+        "price": "£39.99",
+        "inStock": true,
+        "image": "https://peptideslabuk.com/wp-content/uploads/2025/07/IGF-1LR3_1mg-1-470x588.jpg",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Biohack Peptides",
+        "url": "https://biohackpeptides.co.uk/product/igf-1lr3-1mg-3ml-bac-water/",
+        "price": "£29.99",
+        "inStock": true,
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "New Wave Peptides",
+        "url": "https://newwavepeptides.co.uk/buy-peptide/peptides/igf-1lr3-peptide",
+        "price": "£55.00",
+        "inStock": true,
+        "image": "/images/products/new-wave-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Pure Peptides UK",
+        "url": "https://purepeptidesuk.com/product/igf-1-long-r3-1mg/",
+        "price": "£49.00",
+        "inStock": true,
+        "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/igf-long-r3-1mg-front.png"
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/vial",
+        "price": "£50.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-lr3-vial-express.webp"
+      },
+      {
+        "vendor": "Express Peptides",
+        "url": "https://www.expresspeptides.co.uk/product/igf1-lr3/pen",
+        "price": "£69.00",
+        "inStock": true,
+        "image": "/images/products/express-peptides/igf1-lr3-pen-express.webp"
+      },
+      {
+        "vendor": "Research Peptides UK",
+        "url": "https://researchpeptide.co.uk/product/igf-1-lr3-1mg/",
+        "price": "£59.99",
+        "inStock": true,
+        "image": "/images/products/research-peptide-uk/igf-1-lr3-1mg.webp"
+      },
+      {
+        "vendor": "Bluewell Peptides",
+        "url": "https://bluewellpeptides.com/product/igf1-lr3-1mg/",
+        "price": "£59.95",
+        "inStock": true,
+        "image": "/images/products/bluewell-peptides/igf1-lr3-1mg.png",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Proforma Peptides",
+        "url": "https://www.proformapeptides.co.uk/product/igf-1-lr3-10x100mcg/",
+        "price": "£149.99",
+        "inStock": true,
+        "image": "/images/products/proforma-peptides/igf-1-lr3.webp",
+        "dosage": "100mcg"
+      },
+      {
+        "vendor": "XL Peptides",
+        "url": "https://xlpeptides.com/product/igf-1-lr3-1mg/",
+        "price": "£34.99",
+        "inStock": true,
+        "image": "/images/products/xl-peptides/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Chroma Peptides",
+        "url": "https://chromapeptides.co.uk/product/igf-1-lr3/",
+        "price": "£43.37",
+        "inStock": true,
+        "image": "/images/products/chroma-peptides/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Peptides UK",
+        "url": "https://peptidesuk.com/igf-1-lr3/",
+        "inStock": true,
+        "price": "£—",
+        "image": "/images/products/peptides-uk/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Be Better Peptides",
+        "url": "https://bebetterpeptides.com/products/igf1-lr3-1mg",
+        "price": "£39.99",
+        "inStock": true,
+        "image": null,
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Premio Peptides",
+        "url": "https://premiopeptides.co.uk/compounds/igf-1-lr3",
+        "price": "£199.99",
+        "inStock": true,
+        "image": "/images/products/premio-peptides/igf-1-lr3.png"
+      },
+      {
+        "vendor": "Stratford Peptides",
+        "url": "https://www.stratfordpeptides.com/products/no-product",
+        "price": "£39.89",
+        "inStock": false,
+        "image": "/images/products/stratford-peptides/igf-1-lr3.png"
+      },
+      {
+        "vendor": "Ascend Peptides UK",
+        "url": "https://ascendpeptidesuk.com/products/igf-1-lr3/",
+        "price": "£38.99",
+        "inStock": true,
+        "dosage": "1mg",
+        "image": "https://ascendpeptidesuk.com/wp-content/uploads/2026/05/11-IGF-1-LR3-1mg.webp"
+      },
+      {
+        "vendor": "Astra Labs",
+        "url": "https://astralabs.co.uk/product/igf-1-lr3-1mg/",
+        "price": "£49.99",
+        "inStock": true,
+        "image": "https://astralabs.co.uk/wp-content/uploads/2026/06/igf-1-lr3-1mg-research-vial-uk-astra-labs-400x400.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Octagon Peptides",
+        "url": "https://octagonpeptides.co.uk/product/igf-1-lr3/",
+        "price": "£40.00",
+        "inStock": true,
+        "image": "/images/products/octagon-peptides/igf-1-lr3.png",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Midshire Labs",
+        "url": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+        "price": "£40.00",
+        "inStock": true,
+        "dosage": "1mg",
+        "image": "/images/products/midshirelabs/IGF-1LR3-1mg.png"
+      },
+      {
+        "vendor": "Chilton Labs",
+        "url": "https://chiltonlabs.co.uk/product/igf-1-lr3-1mg-vial/",
+        "price": "£32.29",
+        "inStock": true,
+        "image": "/images/products/chilton-labs/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Lab77 Peptides",
+        "url": "https://lab77peptides.uk/peptides/igf1-lr3?format=vial&size=1mg",
+        "price": "£33.00",
+        "inStock": true,
+        "dosage": "1mg",
+        "image": "/images/products/lab77-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Prime Peptides",
+        "url": "https://www.prime-peptides.co.uk/product/igf-1-lr3/",
+        "price": "",
+        "inStock": true,
+        "image": "/images/products/prime-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "UK Peptide Lab",
+        "url": "https://ukpeptidelab.co.uk/product/igf-1-lr3",
+        "price": "£49.99",
+        "inStock": true,
+        "dosage": "1mg",
+        "image": "/images/products/uk-peptide-lab/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "Alphamino",
+        "url": "https://alphamino.co.uk/shop/alp_l3/",
+        "price": "£48.00",
+        "inStock": false,
+        "image": "/images/products/alphamino/igf-1-lr3.webp",
+        "dosage": "1mg-2mg"
+      },
+      {
+        "vendor": "FORM Peptides",
+        "url": "https://formpeptides.co.uk/catalogue/product/igf-1-lr3-1mg",
+        "price": "£40.00",
+        "inStock": true,
+        "image": "/images/products/form-peptides/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Crown Peptides",
+        "url": "https://crownpeptides.co.uk/shop/crown/igf-1-lr3/",
+        "price": "£59.99",
+        "inStock": true,
+        "image": "/images/products/crown-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "RETA UK",
+        "url": "https://reta-uk.com/products/igf-lr3",
+        "price": "£75.00",
+        "inStock": true,
+        "image": "/images/products/reta-uk/igf-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Tested Peptides",
+        "url": "https://www.testedpeptides.co.uk/product/igf-1-lr3-1mg/",
+        "price": "£39.99",
+        "inStock": true,
+        "image": "/images/products/tested-peptides/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "SupplyPeptides",
+        "url": "https://supplypeptides.co.uk/products/igf-lr3",
+        "price": "£75.00",
+        "inStock": true,
+        "dosage": "1mg",
+        "image": "/images/products/supply-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "PeptidesX",
+        "url": "https://www.peptidesx.uk/product/igf-1-lr3/",
+        "price": "£39.95",
+        "inStock": true,
+        "dosage": "1mg",
+        "image": "/images/products/peptidesx/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "BuyReta",
+        "url": "https://www.buyreta.co.uk/product/igf-lr3-1mg-uk",
+        "price": "£22.00",
+        "inStock": true,
+        "image": "/images/products/buyreta/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Peptides Online UK",
+        "url": "https://www.peptidesonline.uk/shop/igf-1-lr3/",
+        "price": "£39.95",
+        "inStock": true,
+        "image": "/images/products/peptides-online-uk/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "BioPlex Peptides",
+        "url": "https://bioplexpeptides.co.uk/products/igf-1-lr3-1mg-insulin-like-growth-factor-1",
+        "price": "£44.99",
+        "inStock": true,
+        "image": "/images/products/bioplex-peptides/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Zentra Peptides UK",
+        "url": "https://zentra-peptides.com/product/igf-1-lr3/",
+        "price": "£39.99",
+        "inStock": true,
+        "image": "/images/products/zentra-peptides/igf-1-lr3.webp"
+      },
+      {
+        "vendor": "ApexPure",
+        "url": "https://apexpure.co.uk/product/igf-1-lr3-uk/",
+        "price": "£44.99",
+        "inStock": true,
+        "image": "/images/products/apexpure/igf-1-lr3-1mg.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Revexa",
+        "url": "https://www.revexa.co.uk/product-page/igf-1-lr3-1mg",
+        "price": "£42.99",
+        "inStock": true,
+        "image": "/images/products/revexa/igf-1-lr3-1mg.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "VialVerse",
+        "url": "https://vialverse.com/peptides/igf-1-lr3",
+        "price": "£30.00",
+        "inStock": true,
+        "image": "/images/products/vialverse/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Peptides UK 4U",
+        "url": "https://peptidesuk4u.co.uk/product/igf-1-lr3-1mg",
+        "price": "£49.99",
+        "inStock": true,
+        "image": "/images/products/peptides-uk-4u/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Bionik Peptides",
+        "url": "https://bionikpeptides.com/products/igf-1-lr3",
+        "price": "£35.00",
+        "inStock": true,
+        "image": "/images/products/bionik-peptides/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "JGPep+",
+        "url": "https://jgpeptidesplus.com/product/igf-1-lr3-1mg",
+        "price": "£45.00",
+        "inStock": true,
+        "image": "/images/products/jgpeptidesplus/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "UKPeptides.org",
+        "url": "https://ukpeptides.org/buy/igf-1-lr3-1mg",
+        "price": "£44.99",
+        "inStock": true,
+        "image": "/images/products/ukpeptides/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Phoenix BioLabs",
+        "url": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
+        "price": "£49.99",
+        "inStock": true,
+        "image": "/images/products/phoenix-biolabs/lr3-1mg-research-compound.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Pyrox Labs",
+        "url": "https://pyroxlabs.co.uk/product/igf-1-lr3-1mg/",
+        "price": "£39.99",
+        "inStock": false,
+        "image": "/images/products/pyrox-labs/igf-1-lr3-1mg.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Everything Peptides",
+        "price": "£52.45",
+        "url": "https://everythingpeptides.co.uk/products/igf-1lr3",
+        "inStock": true,
+        "dosage": "1mg",
+        "image": "/images/products/everything-peptides/igf-1-lr3.png"
+      },
+      {
+        "vendor": "British Peptide Labs",
+        "url": "https://britishpeptidelabs.com/products/igf-1-lr3",
+        "price": "£85.00",
+        "inStock": true,
+        "image": "/images/products/british-peptide-labs/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "AllMyPeptides",
+        "url": "https://allmypeptides.com/product/igf-1-lr3/",
+        "price": "£34.39",
+        "inStock": false,
+        "image": "/images/products/allmypeptides/igf-1-lr3.png",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "NovaVitality",
+        "url": "https://novavitality.co.uk/product/igf1lr3/",
+        "price": "£50.00",
+        "inStock": false,
+        "image": "/images/products/novavitality/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Reta Research",
+        "url": "https://retaresearch.co/products/igf-lr3",
+        "price": "£75.00",
+        "inStock": true,
+        "image": "/images/products/reta-research/igf-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Optimus Labs",
+        "url": "https://optimuslabs.co.uk/product/igf-1-lr3/",
+        "price": "£29.50",
+        "inStock": true,
+        "image": "/images/products/optimus-labs/igf-1-lr3.webp",
+        "dosage": "1mg"
+      },
+      {
+        "vendor": "Arma Peptides",
+        "url": "https://armapeptideshop.com/product/igf-1ir3-1mg/",
+        "price": "£70.00",
+        "inStock": false,
+        "image": "/images/products/arma-peptides/igf-1-lr3-1mg-pen.webp",
+        "dosage": "1mg pen"
+      },
+      {
+        "vendor": "Peptides Specialist UK",
+        "url": "https://peptidespecialist.co.uk/product/igf-1-lr3-1mg-peptide-pen/",
+        "price": "£180.00",
+        "inStock": true,
+        "image": "/images/products/peptidespecialist/igf-1-lr3-1mg-pen.webp",
+        "dosage": "1mg",
+        "form": "Peptide Pen"
+      },
+      {
+        "vendor": "UK-Peptides.com",
+        "url": "https://www.uk-peptides.com/igf1-lr3-1mg",
+        "price": "£59.00",
+        "inStock": true,
+        "image": "/images/products/uk-peptides-com/igf-1-lr3-1mg.webp",
+        "dosage": "1mg"
+      }
+    ],
+    "longDescription": "## Overview\n\nIGF-1 LR3 (Long Arginine 3 insulin-like growth factor-1) is a synthetic 83-amino-acid analogue of human IGF-1, engineered for reduced binding to IGF-binding proteins. The modifications — an N-terminal extension and an arginine substitution at position 3 — lower its affinity for IGFBPs by roughly a thousandfold. Native IGF-1 is rapidly sequestered by IGFBPs and cleared within minutes; LR3 largely escapes this sequestration, which gives it a substantially longer effective half-life and a far greater free fraction in experimental systems. In research it is used wherever sustained IGF-1 receptor activation is the variable of interest rather than transient, pulsatile exposure, and it is a common tool compound in studies of the insulin/IGF signalling axis. It is a disulphide-bonded protein rather than a short peptide, which makes correct folding — and its documentation — central to any meaningful purity claim.\n## Mechanism of Action\n\nIGF-1 LR3 exerts its effects by binding to the IGF-1 receptor (IGF-1R), a receptor tyrosine kinase that activates the PI3K/Akt and MAPK/ERK signalling cascades. This leads to increased protein synthesis through mTOR activation, enhanced nitrogen retention, inhibited protein breakdown (through FoxO phosphorylation), and promotion of cell proliferation and survival. The reduced binding to IGFBPs (particularly IGFBP-3, the most abundant circulating binding protein) means that a much larger proportion of administered peptide remains free and biologically active — a critical advantage over native IGF-1. IGF-1 LR3 also exhibits some cross-reactivity with the insulin receptor, though with lower affinity, potentially contributing to improved insulin sensitivity in certain research contexts.\n\n## Research & Clinical Data\n\nResearch studies have demonstrated that IGF-1 LR3 significantly enhances muscle protein synthesis and promotes myoblast proliferation and differentiation in vitro. Animal studies report improved muscle regeneration following injury, enhanced nerve regeneration after peripheral nerve damage, and increased bone density in models of osteoporosis. The extended half-life of 20–30 hours allows for once or twice daily dosing schedules, compared to the impractical continuous infusion required for native IGF-1. Clinical applications for IGF-1 deficiency, muscle wasting diseases, and metabolic disorders continue to be explored.\n\n## Dosage & Administration\n\nCommon research dosages for IGF-1 LR3 range from 20–60 mcg per day for general research purposes, with post-workout protocols of 40–80 mcg used in muscle growth studies. Due to its 20–30 hour half-life, once or twice daily administration is sufficient. Subcutaneous or intramuscular injection are both used in research protocols. The peptide should be reconstituted with bacteriostatic water (or dilute acetic acid for optimal stability) and stored at 2–8°C after reconstitution.\n\n## Safety & Legal\n\nIGF-1 LR3 is for research purposes only. Potential risks associated with IGF-1 pathway activation include hypoglycaemia (due to insulin receptor cross-reactivity), acromegaly-like effects with chronic use, and theoretical concerns regarding cell proliferation in susceptible tissues. The lyophilised powder should be stored at -20°C and protected from light and moisture.\n\n\nThe engineering of IGF-1 LR3 addressed a fundamental challenge in growth factor therapeutics: the rapid clearance of IGF-1 due to its high-affinity binding to a family of six binding proteins (IGFBPs) present in plasma at molar excess. Native IGF-1 has a half-life of only 10–12 minutes because it is rapidly sequestered by IGFBPs, primarily IGFBP-3. The R3 substitution (arginine for glutamic acid at position 3) reduces affinity for all IGFBPs by approximately 1000-fold, while the N-terminal extension further enhances this property.\n\nThe implications of this reduced IGFBP binding extend beyond pharmacokinetics. IGFBPs not only transport IGF-1 in the circulation but also modulate its interaction with the IGF-1 receptor. Some IGFBPs can potentiate or inhibit IGF-1 signalling in a tissue-specific manner. By circumventing these regulatory proteins, IGF-1 LR3 provides a more direct and uniform activation of the IGF-1 receptor across different target tissues — which may be advantageous for some research applications but could also bypass important physiological regulatory mechanisms.\n\nResearch has demonstrated that IGF-1 LR3 is particularly effective in promoting muscle protein synthesis. Studies in animal models show increased muscle mass and fibre cross-sectional area with IGF-1 LR3 treatment, even in the absence of resistance exercise. The peptide also promotes satellite cell activation and myonuclear accretion, suggesting it may enhance the regenerative capacity of skeletal muscle — a finding with implications for sarcopenia and muscle-wasting conditions.\n\nFor research use, IGF-1 LR3 requires careful handling due to its susceptibility to oxidation and aggregation. Reconstitution with dilute acetic acid (rather than bacteriostatic water) can improve stability. The peptide should be stored at -20°C as lyophilised powder and used promptly after reconstitution. UK researchers should source from vendors who provide purity analysis and storage recommendations specific to this peptide.\n\n## Purity, Analytical Standard and Verification\n\nIGF-1 LR3 is an 83-residue protein with three disulphide bonds, which makes correct folding central to whether the material is biologically meaningful. Research-grade preparations are conventionally specified at 98% or higher by HPLC, with identity confirmed by mass spectrometry at approximately 9.1 kDa and, ideally, reducing and non-reducing SDS-PAGE to show correct disulphide pairing. Because a misfolded preparation can report high chromatographic purity while lacking activity, documentation for this compound should be scrutinised more closely than for a short linear peptide. A lot-specific certificate with a mass confirmation and a batch number matching the vial is the minimum standard.\n\n## Storage, Reconstitution and Stability\n\nLyophilised IGF-1 LR3 is normally stored refrigerated or frozen per the supplier's label, protected from light and moisture. Reconstituted solutions are markedly less stable and are typically refrigerated and used within a short window; repeated freeze-thaw cycles are particularly damaging to a disulphide-bonded protein of this size. Gentle swirling rather than shaking, and avoiding foaming, reduce aggregation risk. Because aggregation can occur without an obvious visual change, researchers should follow the stated storage conditions and avoid holding working stock solutions long term.\n\n## Legal and Research Status in the UK\n\nIGF-1 LR3 is not a licensed medicine in the UK and is not authorised for human use. In a research context it is a laboratory reagent, and its regulatory treatment differs from licensed prescription medicines. UK institutions may require local approval before procurement. ViralPeps is a comparison site and does not stock, sell or supply any compound; pricing shown is aggregated from third-party listings for comparison only and constitutes no offer of sale.\n\n## How to Compare Suppliers\n\nCompare price per milligram, then documentation. Vial sizes are typically small (often 100 micrograms to 1 mg), so per-milligram figures reveal large differences that headline prices hide. Check for a lot-specific certificate of analysis with mass spectrometry or SDS-PAGE confirmation, stated storage conditions, batch traceability and a clear research-use-only statement. For a disulphide-bonded protein, a supplier who cannot evidence correct folding has not demonstrated the product is what it says it is.",
+    "faq": [
+      {
+        "question": "What is IGF-1 LR3 used for in research?",
+        "answer": "Published work examines IGF-1 LR3 in models of muscle protein synthesis and satellite cell activation, cell proliferation and differentiation, glucose and lipid metabolism, neuronal survival, and tissue repair. It is also used as a tool to study IGF-1 receptor signalling where sustained rather than transient activation is wanted. Most evidence is preclinical, and human clinical data is limited."
+      },
+      {
+        "question": "How does IGF-1 LR3 differ from ordinary IGF-1?",
+        "answer": "IGF-1 LR3 has an N-terminal extension and an arginine substitution at position 3, which lowers its affinity for IGF-binding proteins by roughly a thousandfold. Native IGF-1 is rapidly sequestered by IGFBPs and cleared within minutes; LR3 largely escapes this, giving a longer effective half-life (commonly cited in the order of 20–30 hours) and a greater free fraction in experimental systems."
+      },
+      {
+        "question": "What purity and testing should be expected?",
+        "answer": "Research-grade material should be stated at 98% or higher by HPLC, with mass spectrometry confirming a mass near 9.1 kDa and, ideally, SDS-PAGE under reducing and non-reducing conditions showing correct disulphide pairing. Because a misfolded protein can pass a purity test while lacking activity, the folding evidence matters. Ask for a lot-specific, dated certificate with a batch number matching the vial."
+      },
+      {
+        "question": "Why is price per milligram important for IGF-1 LR3?",
+        "answer": "Vials are usually small — commonly 100 micrograms up to 1 mg — so headline prices are hard to compare directly. A £30 vial of 100 micrograms costs £300 per milligram; the same price for 1 mg is ten times better value. Converting every listing to cost per milligram puts suppliers on a like-for-like footing before documentation quality is assessed."
+      },
+      {
+        "question": "Is IGF-1 LR3 legal in the UK?",
+        "answer": "IGF-1 LR3 is not a licensed medicine in the UK and is not authorised for human use; it is treated as a laboratory research reagent, and UK institutions may require local approval before purchase. ViralPeps does not stock, sell or supply any compound; the pricing shown is aggregated from third-party listings purely for comparison and is not an offer to sell."
+      },
+      {
+        "question": "How can I verify IGF-1 LR3 purity and lab testing from a UK supplier?",
+        "answer": "Request the lot-specific certificate of analysis and the underlying chromatograms rather than a summary sheet, and check the batch number matches the vial. HPLC should show the stated purity percentage, and mass spectrometry should confirm a mass near 9.1 kDa. Ideally the file includes SDS-PAGE under reducing and non-reducing conditions to evidence correct disulphide pairing. Where a supplier offers no lot-level data, treat the purity claim as unverified."
+      }
+    ],
+    "storage": "Lyophilised: refrigerate or freeze per supplier label, protect from light and moisture. Reconstituted: refrigerate, use within a short window; avoid freeze-thaw and shaking."
+  },
+  {
     "id": "igf-1-des",
     "name": "IGF-1 DES",
     "slug": "igf-1-des",
