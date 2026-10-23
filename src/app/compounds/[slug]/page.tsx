@@ -34,9 +34,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const compound = compounds.find((c) => c.slug === slug);
   if (!compound) return {};
-  const minPrice = Math.min(
-    ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
-  );
+  const validPrices = compound.sources
+    .map((s) => parseFloat(String(s.price).replace(/[£$€,\s]/g, "")))
+    .filter((n) => Number.isFinite(n) && n > 0);
+  const minPrice = validPrices.length ? Math.min(...validPrices) : 0;
 
   // Keyword-rich SEO title per compound (fallback to generic)
   const seoTitles: Record<string, string> = {
@@ -162,15 +163,25 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     redirect(`/compounds/${(compound as any).redirect}`);
   }
 
-  const minPrice = Math.min(
-    ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
-  );
-  const maxPrice = Math.max(
-    ...compound.sources.map((s) => parseFloat(s.price.replace(/[£$€,]/g, "")) || 0)
-  );
-  const avgPrice = compound.sources.reduce((sum, s) => {
-    return sum + (parseFloat(s.price.replace(/[£$€,]/g, "")) || 0);
-  }, 0) / compound.sources.length;
+  const validPrices = compound.sources
+    .map((s) => parseFloat(String(s.price).replace(/[£$€,\s]/g, "")))
+    .filter((n) => Number.isFinite(n) && n > 0);
+  const minPrice = validPrices.length ? Math.min(...validPrices) : 0;
+  const maxPrice = validPrices.length ? Math.max(...validPrices) : 0;
+  const avgPrice = validPrices.length
+    ? validPrices.reduce((sum, n) => sum + n, 0) / validPrices.length
+    : 0;
+
+  // Human-readable H1 per compound (falls back to a natural template)
+  const h1Titles: Record<string, string> = {
+    tirzepatide: "Tirzepatide Price UK: Compare Cost Per mg, Kit & Supplier",
+    retatrutide: "Retatrutide Price UK: Compare Cost Per mg & Supplier",
+    "bpc-157": "BPC-157 Price UK: Compare Cost Per mg, Kit & Supplier",
+    hcg: "HCG Price UK: Compare Cost Per IU, Kit & Supplier",
+    "igf-1-lr3": "IGF-1 LR3 Price UK: Compare Cost Per mg & Supplier",
+    "cjc-1295-ipamorelin":
+      "CJC-1295 + Ipamorelin Price UK: Compare Cost Per mg & Supplier",
+  };
 
   // Sort vendors: featured first (by flagged vendor), then verified, then by price
   const isFeaturedOn = (v: any, s: string) =>
@@ -321,9 +332,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
 
               {/* Title + subtitle */}
               <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
-                {slug === "tirzepatide"
-                  ? "Tirzepatide Price UK: Compare Cost Per mg, Kit & Supplier"
-                  : `${compound.name} Price Comparison`}
+                {h1Titles[slug] || `${compound.name} Price UK: Compare Prices & Suppliers`}
               </h1>
               <p className="text-blue-200 text-sm md:text-base max-w-2xl leading-relaxed mb-5">
                 Compare live {compound.name} prices from every UK supplier — side-by-side in seconds so you never overpay.

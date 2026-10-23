@@ -160,7 +160,9 @@ import {
   AOD_SPOKES,
 } from "@/data/aod-9604-silo";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-static";
+export const dynamicParams = true;
+export const revalidate = 3600;
 
 type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604";
 
