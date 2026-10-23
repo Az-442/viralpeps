@@ -25504,5 +25504,60 @@
     "destUrl": "https://reta-uk.com/products/eloralintide",
     "refPage": "https://www.viralpeps.co.uk/go/reta-uk/eloralintide",
     "visitorId": "0265ba66fb745732"
+  },
+  {
+    "ts": "2026-10-23T20:03:12.146Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://fatpigpeptides.co.uk/product/ara-290-10mg/",
+    "visitorId": "0d2fce44e813ce1e"
+  },
+  {
+    "ts": "2026-10-23T20:14:07.601Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://www.buyreta.co.uk/product/5-amino-1mq-uk",
+    "visitorId": "c4b5c55a3cfb8cdc"
+  },
+  {
+    "ts": "2026-10-23T20:14:09.520Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://midshirelabs.co.uk/products/dsip/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "2eb012df6ea08be9"
+  },
+  {
+    "ts": "2026-10-23T20:22:51.614Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://armapeptideshop.com/product/cjc-1295-with-dac-5mg/",
+    "visitorId": "d1c04e5def787ae1"
+  },
+  {
+    "ts": "2026-10-23T20:25:47.843Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+    "destUrl": "https://www.buyreta.co.uk/product/tesamorelin-ipamorelin-uk",
+    "visitorId": "27cc66731e793d6e"
+  },
+  {
+    "ts": "2026-10-23T20:30:19.101Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://armapeptideshop.com/product/epithalon-10mg-premium-research-peptide/",
+    "visitorId": "0f3ca20b9f87fb7e"
   }
 ]
