@@ -25642,5 +25642,71 @@
     "destUrl": "https://armapeptideshop.com/product/nad-600mg-research-coenzyme/",
     "refPage": "https://www.viralpeps.co.uk/go/arma-peptides/nad-plus",
     "visitorId": "5c3a158fd4629077"
+  },
+  {
+    "ts": "2026-10-23T21:15:13.680Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidespecialist.co.uk/product/mots-c/",
+    "visitorId": "21b20c45d6ffcc44"
+  },
+  {
+    "ts": "2026-10-23T21:22:38.077Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://leolab.co.uk/peptides/ghk-cu/",
+    "visitorId": "254d4d1cb81f6855"
+  },
+  {
+    "ts": "2026-10-23T21:22:44.377Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://leolab.co.uk/peptides/ghk-cu/",
+    "visitorId": "e8e5c7f23cfe48ed"
+  },
+  {
+    "ts": "2026-10-23T21:30:24.939Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://chromapeptides.co.uk/product/pt-141-bremelanotide/",
+    "visitorId": "4015cf0e0d2cf948"
+  },
+  {
+    "ts": "2026-10-23T21:32:42.528Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biohackerxlab.com/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "baa5429d0c3d30bf"
+  },
+  {
+    "ts": "2026-10-23T21:37:38.297Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://supplypeptides.co.uk/products/semax",
+    "refPage": "https://www.viralpeps.co.uk/go/supply-peptides/semax",
+    "visitorId": "1d2adf43488c7e22"
+  },
+  {
+    "ts": "2026-10-23T21:40:58.013Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://www.peptidesx.uk/product/ghrp-2/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d1223ff812f65581"
   }
 ]
