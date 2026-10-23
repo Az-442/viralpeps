@@ -23959,5 +23959,49 @@
     "destUrl": "https://lab77peptides.uk/peptides/hcg?format=vial&size=10000iu",
     "refPage": "https://www.viralpeps.co.uk/go/lab77-peptides/hcg",
     "visitorId": "4756a782d202b234"
+  },
+  {
+    "ts": "2026-10-23T03:11:39.997Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "7e82d9475580b985"
+  },
+  {
+    "ts": "2026-10-23T03:15:10.684Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bionikpeptides.com/products/sermorelin",
+    "visitorId": "d3f87e6c84e13a78"
+  },
+  {
+    "ts": "2026-10-23T03:15:13.529Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bionikpeptides.com/products/sermorelin",
+    "visitorId": "da17def630b8c81d"
+  },
+  {
+    "ts": "2026-10-23T03:15:17.567Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://bionikpeptides.com/products/sermorelin",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-23T03:38:35.745Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://peptideslabuk.com/product/hgh-fragments/",
+    "visitorId": "144db88f4df72cac"
   }
 ]
