@@ -24003,5 +24003,63 @@
     "compoundSlug": "fragment-176-191",
     "destUrl": "https://peptideslabuk.com/product/hgh-fragments/",
     "visitorId": "144db88f4df72cac"
+  },
+  {
+    "ts": "2026-10-23T03:25:08.290Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cjc-1295-dac-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-cjc-1295-dac-5mg",
+    "visitorId": "4e2c8735c5e96844"
+  },
+  {
+    "ts": "2026-10-23T03:32:46.814Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://anglopeptides.com/product/glow-blend-peptide-70mg-vial-batch-103-research-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5a4cb65594ce0676"
+  },
+  {
+    "ts": "2026-10-23T03:39:07.521Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/ara-290",
+    "visitorId": "b0ee42997841f9be"
+  },
+  {
+    "ts": "2026-10-23T03:41:36.248Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://www.buyreta.co.uk/product/mots-c-40mg-uk",
+    "visitorId": "0de10b9ac6d35b3a"
+  },
+  {
+    "ts": "2026-10-23T03:41:40.459Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cardiogen-research-peptide",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cardiogen-20mg-aedr-peptide-bioregulator",
+    "visitorId": "31893790c0d65381"
+  },
+  {
+    "ts": "2026-10-23T03:49:04.191Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://evolvepeptides.uk/products/tesamorelin-5mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bc072519c94235a1"
   }
 ]
