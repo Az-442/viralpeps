@@ -16873,5 +16873,272 @@ slug: 'bpc-157-for-recovery',
   ],
 },
 
+'glow-peptide-uk-guide': {
+  slug: 'glow-peptide-uk-guide',
+  compoundSlug: 'glow',
+  pullQuote: 'GLOW is three peptides with three different molecular weights, three different mechanisms and, on the UK listings tracked here, at least five different stated compositions under one name. Before the blend means anything, the arithmetic has to close.',
+  quickInfo: [
+    { label: 'What GLOW Is', value: 'A freeze-dried research blend of GHK-Cu, BPC-157 and TB-500' },
+    { label: 'Component Classes', value: 'Copper tripeptide (GHK-Cu), gastric pentadecapeptide (BPC-157), thymosin beta-4 fragment (TB-500)' },
+    { label: 'Listings Tracked', value: '79 listings across 71 UK vendors (October 2026)' },
+    { label: 'Headline Price Range', value: '£24.90 to £140.00 per vial' },
+    { label: 'Dominant Presentation', value: '70mg total blend mass — 44 of the numeric listings' },
+    { label: 'Stated Compositions Vary', value: 'From BPC 5mg + TB 5mg + GHK-Cu 25mg up to BPC 10mg + TB 10mg + GHK-Cu 50mg, plus unstated variants' },
+    { label: 'Licensed Status', value: 'None. Sold as research reagents only. No human use, no dosing.' },
+    { label: 'The Core Problem', value: 'Three compounds in one vial means one certificate covering three identities — and most listings document one' },
+  ],
+  sections: [
+    {
+      title: 'GLOW Peptide UK: What the Name Actually Refers To',
+      body: 'GLOW is not a molecule. It is a product name applied to a freeze-dried blend of three peptides that are sold separately across the whole UK market: the copper tripeptide GHK-Cu, the gastric pentadecapeptide BPC-157, and TB-500, itself a fragment of the protein thymosin beta-4.\n\nThe three are grouped because their published preclinical work sits in adjacent territory — connective tissue, extracellular matrix, cell migration — and because a single vial is more convenient to handle in a laboratory than three. That grouping is a packaging decision, not a pharmacological finding. There is no published clinical trial of the GLOW blend as a blend. There is published work on each component individually, and how far that work transfers to a combined preparation is a research question, not a settled fact.\n\nIt is worth being precise about the name for a second reason: "GLOW" competes on UK shelves with a near-identical product called KLOW, which adds KPV as a fourth component. They are separate catalogue entries with separate listings and separate prices. If you are comparing, make sure you are comparing the same three-component product against the same three-component product.\n\n[**Compare GLOW prices across UK suppliers →**](/compounds/glow)',
+    },
+    {
+      title: 'The Three Components, Separately',
+      body: 'Each component is a well-characterised research peptide in its own right, and the individual guides cover them at length. The short version of what each one is studied for is below — the point being that they act through entirely different routes, which is exactly why the blend is hard to verify.',
+      table: {
+        header: ['Component', 'Class', 'Molecular weight', 'Primary research territory'],
+        rows: [
+          ['GHK-Cu', 'Copper-binding tripeptide (Gly-His-Lys)', '~340 Da peptide; ~403 Da as the copper complex', 'Collagen synthesis, extracellular matrix gene expression, skin remodelling'],
+          ['BPC-157', 'Gastric pentadecapeptide, 15 residues', '~1419 Da', 'Angiogenesis, GI integrity, tendon and tissue repair models'],
+          ['TB-500', 'Synthetic fragment of thymosin beta-4', '~889 Da for the 7-residue Ac-LKKTETQ fragment; ~4963 Da for the full 43-residue protein', 'Actin regulation, cell migration, wound repair'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'Why molecular weight matters more than usual here',
+          body: 'Those three numbers span roughly an order of magnitude, and that is the whole verification problem in one line. A certificate for a single peptide states a theoretical mass and an observed mass; a single peak confirms a single species. In a three-component blend, a reverse-phase HPLC trace should show three principal peaks at three separate retention times, and a mass spectrometry result should show three distinct masses. A certificate that reports one purity percentage and one mass for a three-peptide product has not described the product.'
+        },
+        {
+          title: 'GHK-Cu is the one that behaves differently',
+          body: 'GHK-Cu is a chelate, not a plain peptide — the copper ion is part of the defined complex. That introduces verification questions the other two do not have: whether the copper is bound or merely present in the same vial, and what the copper content is relative to peptide content. The [**GHK-Cu research summary**](/research/ghkcu-research-summary) and the [**GHK-Cu vs AHK-Cu comparison**](/research/ghk-cu-vs-ahk-cu) cover the copper-binding end of the molecule and why the residue next to the binding site changes the market. Read those before assuming the GHK-Cu component of a blend is documented the same way the BPC-157 is.'
+        }
+      ]
+    },
+    {
+      title: 'The UK Market: 79 Listings, One Price Band, Several Compositions',
+      body: 'The GLOW category on ViralPeps currently tracks 79 listings from 71 distinct vendors, with headline prices from £24.90 to £140.00. That spread is wide, but it is not random, and understanding what drives it is more useful than the range itself.\n\nThe dominant presentation is a 70mg total blend mass — 44 of the listings that state a numeric quantity. A 70mg GLOW typically breaks down as GHK-Cu 50mg plus BPC-157 10mg plus TB-500 10mg. The next most common format is a 60mg vial. A handful of listings state a 35mg or 140mg variant, and a small number state the composition explicitly as a component list rather than a total.\n\nThat last category is the one to look for. A listing that says "BPC 10mg + TB 10mg + GHK 50mg" has told you what you are buying. A listing that says "70mg" has told you the total and left you to infer the split — and a listing that says "blend" or "5mg+5mg" has told you almost nothing.\n\nNote also that the spread in price is far wider than the spread in composition. The same nominal 70mg blend is sold from the low £40s to £140 depending on vendor, presentation and how much documentation is attached. That is a 3x gap on nominally the same product, which is the clearest sign that this is a market where the specification, not the molecule, sets the price. The [**GLOW compound page**](/compounds/glow) carries the live table.',
+    },
+    {
+      title: 'The Arithmetic Problem: Total Mass Is Not Peptide Mass',
+      body: 'The single most common error in reading a GLOW listing is treating "70mg" as 70mg of peptide. It is 70mg of freeze-dried powder, and a blended vial contains more than the three actives.\n\nConsider the arithmetic a supplier would need to publish for a properly specified blend. If the vial holds GHK-Cu 50mg, BPC-157 10mg and TB-500 10mg, the peptide content is 70mg only if nothing else is in the cake. In practice, blended lyophilised products usually include a bulking agent or buffer component, and the declared total may be the sum of the actives or may include the excipient — the two are not distinguished on most listings.\n\nThis matters when you do the cost-per-milligram calculation that the [**staircase of vial sizes**](/research/staircase-of-vial-sizes) guide recommends for single compounds. On a blend, the divisor is contested. A £69.99 70mg GLOW works out at £1.00/mg of total powder; if the GHK-Cu is 50mg of the 70mg, then only 71% of that mass is the peptide you were most interested in. The honest comparison on a blend is cost per stated milligram of each named component, and most listings do not give you the data to compute it.\n\nThe practical consequence: a cheaper 70mg listing is not necessarily better value than a dearer one, because the cheapest listings are exactly where the composition goes unstated.',
+      subsections: [
+        {
+          title: 'The unstated-composition listings',
+          body: 'Of the 79 listings tracked, the ones that state "blend", "5mg+5mg" or leave the quantity to the title are the ones you cannot price at all. This is the same structural problem the [**buy research peptides UK**](/research/buy-research-peptides-uk) procurement sequence opens with — roughly a quarter of the whole catalogue states no usable quantity — but on blends it bites harder, because even a stated total does not tell you the split. Two rules follow. First, drop any listing that will not state component masses before you compare. Second, when you do compare, compare on the same stated composition, not on the same total.'
+        }
+      ]
+    },
+    {
+      title: 'Reconstitution: Three Peptides, One Solvent Volume',
+      body: 'A blend introduces a handling problem that single-peptide vials do not have, and it is worth stating plainly even though this guide gives no dosing protocols.\n\nWhen you reconstitute a single lyophilised peptide with bacteriostatic water, the volume you add determines the concentration of one known entity. When you reconstitute a three-component blend, the same volume determines three concentrations simultaneously — and because the three components are present in very different masses, their resulting concentrations are very different too. A vial with 50mg GHK-Cu and 10mg each of BPC-157 and TB-500 added to a given volume produces a solution where the GHK-Cu concentration is five times the other two. You cannot adjust the ratio; it was set by the fill.\n\nTwo further points follow. The three peptides have different molecular weights and different solubilities, and there is no guarantee that all three dissolve at the same rate or stay in solution identically — a cloudy or incompletely dissolving blend is a signal worth recording. And once reconstituted, the stability of the mixture is governed by the least stable component, not the average. The [**bacteriostatic water guide**](/research/bacteriostatic-water-guide) covers the solvent side of this properly.\n\nFor research design, the implication is that a blend removes a degree of freedom. If your model needs independent control of the three concentrations, three single-compound vials give you that control and a blend does not.',
+    },
+    {
+      title: 'What to Check on a GLOW Certificate of Analysis',
+      body: 'A single-peptide certificate has a recognisable shape: identity by mass spectrometry, purity by reverse-phase HPLC, a batch number, a date, a named laboratory. A blend certificate has to do all of that three times over, and most do not.\n\nHere is the checklist this guide applies, in order of how often it fails:\n\n**1. Three masses, not one.** The mass spectrometry section should report observed against theoretical mass for GHK-Cu (including the copper complex), BPC-157 and TB-500 separately. One mass for a three-peptide vial is not a certificate for the product.\n\n**2. Three peaks on the chromatogram.** The HPLC trace should show the three principal components resolving at distinct retention times. A single dominant peak on a blend is either a co-elution problem or a product that is not what it claims.\n\n**3. A net peptide content figure.** Purity by HPLC is a percentage of the chromatogram area, expressed on a peptide basis. It says nothing about how much peptide is in the vial relative to the powder mass. Ask for net peptide content separately — it is the number that answers "how much is actually here".\n\n**4. Copper content, if GHK-Cu is claimed.** For a copper peptide, the copper is part of the specification. A certificate that reports GHK-Cu mass but not copper content has documented half the complex.\n\n**5. Batch match to the vial in your hand.** The batch number on the certificate must match the batch number printed on the vial. A certificate for a different lot is a certificate for a different product, however good it looks.\n\nThe [**how to read a COA**](/research/how-to-read-a-coa) guide works through the document line by line, and the [**high purity research peptides**](/research/high-purity-research-peptides) article explains why a purity percentage alone is the least informative number on the page.',
+    },
+    {
+      title: 'Buying GLOW in the UK: A Sequence, Not a Shortlist',
+      body: 'ViralPeps is a comparison site. We do not hold stock, we do not test products and we do not sell vials, so this section is a method rather than a recommendation of any particular vendor.\n\nThe sequence that avoids the expensive mistakes:\n\n**Start with the composition, not the price.** Decide which GHK-Cu / BPC-157 / TB-500 split you actually need for the model. Only listings that state component masses survive this step, and that will remove a meaningful share of the 79.\n\n**Then normalise.** Compute cost per stated milligram of each component for the listings that survived. Two listings at the same total price with different compositions are not comparable until you do this.\n\n**Then shortlist three vendors and request a batch-matched certificate from all three.** Not a sample certificate from the website — the certificate for the batch that would ship. The [**choosing a UK supplier**](/research/choosing-a-uk-supplier) guide and the [**UK peptide comparison site**](/research/uk-peptide-comparison-site) explain what a comparison site can and cannot verify, which is useful context for reading our own tables.\n\n**Then compare the certificates against each other.** With three in hand, the differences become obvious. One will have three masses. One will have one. One will name a laboratory; one will not. That comparison is worth more than any review score.\n\nFor the individual components, the relevant guides are the [**BPC-157 research summary**](/research/bpc157-research-summary), the [**TB-500 deep dive**](/research/tb-500-deep-dive) and the [**TB-500 suppliers UK**](/research/tb-500-suppliers-uk) market guide. For blends more generally, the [**KLOW research summary**](/research/klow-research-summary) covers the four-component variant, and the [**Wolverine Stack summary**](/research/wolverine-stack-bpc157-tb500-blend-research-summary) covers the BPC-157 plus TB-500 pairing without the copper peptide.',
+    }
+  ],
+  faq: [
+    {
+      question: 'What is in a GLOW peptide vial?',
+      answer: 'GLOW is a freeze-dried research blend of three peptides: GHK-Cu (a copper-binding tripeptide), BPC-157 (a 15-residue gastric pentadecapeptide) and TB-500 (a fragment of thymosin beta-4). The most common UK presentation is 70mg total — typically GHK-Cu 50mg, BPC-157 10mg and TB-500 10mg — but stated compositions vary between vendors.'
+    },
+    {
+      question: 'Is GLOW the same as KLOW?',
+      answer: 'No. GLOW is a three-component blend of GHK-Cu, BPC-157 and TB-500. KLOW adds KPV, a short anti-inflammatory tripeptide, as a fourth component. They are separate products with separate listings and prices, and a certificate for one does not describe the other.'
+    },
+    {
+      question: 'Why does a GLOW certificate need three masses?',
+      answer: 'Because the vial contains three chemically distinct peptides with molecular weights spanning roughly 340 to 1400 Da. Identity for a single peptide is established by one observed-versus-theoretical mass. For a blend, identity requires a mass and a chromatographic peak for each component. A single purity figure and a single mass has not described a three-peptide product.'
+    },
+    {
+      question: 'Does 70mg on the label mean 70mg of peptide?',
+      answer: 'Not necessarily. The figure is the total fill mass of the powder. It may be the sum of the three actives, or it may include a bulking agent or buffer component, and most listings do not distinguish the two. Ask for net peptide content, which is the figure that states how much peptide the vial actually contains.'
+    },
+    {
+      question: 'Can ViralPeps tell me which GLOW supplier is best?',
+      answer: 'No. ViralPeps is a comparison site: we do not hold stock, sell vials or test products ourselves. We aggregate published listings and pricing, and we document what a certificate should contain. The purchasing decision, and the verification of any batch, rests with the buyer.'
+    }
+  ],
+  references: [
+    'Pickart L. The human tri-peptide GHK and copper in skin repair. J Biomater Sci Polym Ed. 2008. PMID 18444246',
+    'Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide. Molecules. 2018. PMID 30127342',
+    'Sikiric P, et al. Stable gastric pentadecapeptide BPC-157: angiogenic and cytoprotective activity. Peptides. 2012. PMID 22944822',
+    'Sikiric P, et al. BPC-157 and gastric mucosal cytoprotection. Dig Dis Sci. 2010. PMID 20503100',
+    'Huff T, Muller CSG, Otto AM, Netzker R, Hannappel E. Beta-thymosins and cell migration. Int J Biochem Cell Biol. 2001. PMID 11554685',
+    'Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta-4: actin-sequestering protein. Trends Mol Med. 2005. PMID 16260195',
+    'Malinda KM, et al. Thymosin beta-4 stimulates wound repair. J Invest Dermatol. 1999. PMID 10504443',
+    'Gruber HE, et al. Thymosin beta-4 and tendon healing. J Appl Physiol. 2012. PMID 22582257',
+    'ViralPeps catalogue data — 79 GLOW listings across 71 vendors, October 2026 snapshot. Composition and price distributions computed from compounds.json.',
+  ],
+},
+'peptide-suppliers-uk-guide': {
+  slug: 'peptide-suppliers-uk-guide',
+  pullQuote: 'There is no such thing as "the UK peptide supplier market". There are four markets sharing a checkout page: a handful of broad catalogue vendors, a long tail of small specialists, a price-floor tier that competes on nothing but cost, and a documentation tier that competes on nothing but paper.',
+  quickInfo: [
+    { label: 'Vendors Tracked', value: '112 UK-facing research peptide suppliers (October 2026)' },
+    { label: 'Catalogue Size', value: '411 compounds and roughly 3,580 listings across those vendors' },
+    { label: 'Largest Catalogue', value: 'Express Peptides — 155 price points, from £7.50' },
+    { label: 'Second Largest', value: 'Pure Peptides UK — 142 price points, from £7.50' },
+    { label: 'Freeze-Dried Presentations', value: 'Vials from 2mg to 100mg+, plus multi-vial packs and blends' },
+    { label: 'Licensed Status', value: 'None sold as medicines. All sold as research reagents for laboratory use.' },
+    { label: 'What This Guide Is Not', value: 'A ranking of suppliers, or a recommendation of any vendor. ViralPeps does not sell or test.' },
+  ],
+  sections: [
+    {
+      title: 'Why a Single "UK Peptide Suppliers" List Misleads',
+      body: 'Search for UK peptide suppliers and you will find dozens of listicles, most of them describing a slice of the market — the recovery vendors, the skin-and-hair vendors, the weight-management vendors — and presenting that slice as the whole. The problem is structural: the compounds a vendor carries tell you what aisle they built their marketing around, not how reliable they are. A vendor with 150 listings and a vendor with 8 are both "UK peptide suppliers", and they are barely the same kind of business.\n\nThis guide takes the other approach. It describes the market as it distributes across all 112 vendors tracked here, then narrows to the questions that actually distinguish one supplier from another. Market structure first, compound category second.\n\nFor category-specific lists there are already dedicated guides — [**recovery peptide suppliers**](/research/recovery-peptide-suppliers-uk), [**skin and hair peptide suppliers**](/research/skin-hair-peptide-suppliers-uk), [**longevity peptide suppliers**](/research/longevity-peptide-suppliers-uk), [**weight loss peptide suppliers**](/research/weight-loss-peptide-suppliers-uk) and [**cognitive peptide suppliers**](/research/cognitive-peptide-suppliers-uk). Each covers its aisle properly. None of them is the whole market, which is why this page exists.',
+    },
+    {
+      title: 'The Market by Catalogue Breadth',
+      body: 'Catalogue breadth is the first useful axis, because it measures operational capability rather than marketing. A vendor with 150 listings has repeated a process — sourcing, filling, labelling, listing, shipping — 150 times. That is evidence of a real business. It is not evidence of quality, and this guide does not treat it as such.\n\nThese figures are the live counts from the ViralPeps vendor data, not estimates:',
+      table: {
+        header: ['Supplier', 'Listings tracked', 'Entry price', 'Position in the market'],
+        rows: [
+          ['Express Peptides', '155', '£7.50', 'Broadest catalogue — full-range generalist'],
+          ['Pure Peptides UK', '142', '£7.50', 'Near-equal breadth — full-range generalist'],
+          ['Dr P Research', '86', '£9.99', 'Large mid-market generalist'],
+          ['Tide Labs', '75', '£5.52', 'Large catalogue, aggressive floor pricing'],
+          ['Raccoon Peptides', '74', '£3.75', 'Large catalogue, lowest entry price tracked'],
+          ['Sterling Peptides', '73', '—', 'Large mid-market generalist'],
+          ['Research Peptides UK', '73', '—', 'Large mid-market generalist'],
+          ['Pioneer Peptides', '67', '£3.00', 'Large catalogue, low entry price'],
+          ['Kensington Labs UK', '65', '—', 'Mid-large generalist'],
+          ['UK Peptides', '58', '—', 'Long-established generalist'],
+        ]
+      },
+      subsections: [
+        {
+          title: 'The long tail is long',
+          body: 'Ten vendors account for the largest catalogues, but there are 112 tracked in total and the distribution has a long tail — many vendors carry a single digit number of listings, often concentrated in one compound family. That tail is not automatically worse. A specialist with eight listings across a narrow compound family may hold better documentation than a generalist with 150 SKUs. What the tail does mean is that a vendor-level rating is almost meaningless on its own: a 4.7 average built on eight reviews is a different object from a 4.4 built on two hundred.'
+        }
+      ]
+    },
+    {
+      title: 'Four Tiers, and What Each One Is Optimised For',
+      body: 'Reading the vendor data by price, breadth and documentation produces four recognisable tiers. Almost every tracking anomaly in this market is a tier confusion — comparing a documentation-tier price against a price-floor-tier price and concluding one is a rip-off.\n\n**Tier one: broad catalogue generalists.** Express Peptides and Pure Peptides UK at 155 and 142 listings anchor this tier. They compete on range and convenience: one order, most compounds, one shipping cost. Their per-compound pricing is competitive but rarely the floor, because range has a cost.\n\n**Tier two: price-floor vendors.** Raccoon Peptides at £3.75, Pioneer Peptides at £3.00, Tide Labs at £5.52. These set the market floor on common compounds and, as the [**recovery suppliers guide**](/research/recovery-peptide-suppliers-uk) notes, they are genuinely usable — the recovery market is deep enough that you can get a batch certificate and still pay near the floor. The tier breaks down when you need a compound nobody else stocks.\n\n**Tier three: documentation-tier vendors.** These charge a premium and publish more paper: named laboratories, batch-specific certificates, third-party testing programmes. Whether the premium is worth it depends entirely on whether the certificate is batch-matched to the vial you receive — an unbatched certificate is a marketing asset, not a quality control record. The [**high purity research peptides**](/research/high-purity-research-peptides) article explains what the documentation should contain and where purity claims mislead.\n\n**Tier four: specialists and niche brands.** Vendors built around one compound family — copper peptides and skincare-adjacent brands, bioregulator specialists, or single-compound shops. They are the only source for thin compounds, and they are also where naming conventions drift furthest from the underlying molecule.\n\nNone of these tiers is "the good one". The [**UK peptide comparison site**](/research/uk-peptide-comparison-site) article sets out how ranking formulas are built and why an affiliate-commission component exists in most of them, including an honest account of what a comparison site cannot verify.',
+    },
+    {
+      title: 'Prices: Why the Same Compound Runs From £8 to £350',
+      body: 'Across the catalogue, the same nominal compound routinely appears at prices that differ by more than an order of magnitude. GHK-Cu runs from about £7.85 to £350.00, BPC-157 from £10.95 to £130.00, TB-500 up to £199.99 on a listing that does not state a vial mass.\n\nAlmost none of that spread is the peptide itself. It decomposes into four drivers:\n\n**Vial size.** The dominant driver, and the one most often missed. On a cheap-to-synthesise molecule the vial, label and shipment are a large share of the total cost, so price per milligram falls steeply as vials get bigger. The [**staircase of vial sizes**](/research/staircase-of-vial-sizes) tests this across 67 compounds and finds the cheapest sticker price is not the cheapest peptide on 49 of them. GHK-Cu shows a 13x gap between the small-vial rate and the bulk rate.\n\n**Stated versus unstated mass.** A listing with no quantity cannot be priced per milligram at all, and those listings are not clustered in the cheap end. About 27% of the catalogue states no usable quantity — see the [**buy research peptides UK**](/research/buy-research-peptides-uk) sequence for what that does to a comparison.\n\n**Documentation depth.** Batch-tested vials with a named laboratory cost more than untested ones and are priced for it. That premium is legitimate. It is also routinely claimed by vendors who do not publish the corresponding certificate.\n\n**Naming drift.** TB-500, TB4 and thymosin beta-4 are regularly treated as synonyms, when they describe a 43-residue protein and two different fragments. A listing priced like the full protein and filled like the 7-residue fragment is not a price anomaly; it is a specification problem. The [**TB-500 deep dive**](/research/tb-500-deep-dive) works through the four names and three molecules.',
+    },
+    {
+      title: 'The Four Questions That Actually Separate Suppliers',
+      body: 'Strip away marketing and tier, and four questions do most of the work. They are answerable before you buy and they are not answerable from a review score.\n\n**1. Will they state the fill quantity, in milligrams, on the product page?** Not in a range and not only in the title — a single number. If not, the vendor has decided that you cannot compare — which is a statement about their confidence in the listing.\n\n**2. Will they send a batch-matched certificate before purchase?** Not a sample certificate, and not a library of certificates from previous lots. The one for the lot that would ship, with a batch number you can check against the vial on arrival.\n\n**3. Does the certificate name the testing laboratory and the method?** Reverse-phase HPLC with the detection wavelength stated, plus mass spectrometry with observed and theoretical mass. A purity percentage with no method and no mass has established neither purity nor identity.\n\n**4. What is the declared research-use status?** Research-use-only framing should be unambiguous on the product page, not buried in terms. A vendor selling a research reagent with wellness-style marketing has told you which of the two customer bases it is actually optimised for.\n\nThe [**choosing a UK supplier**](/research/choosing-a-uk-supplier) guide turns these into a scoring sheet, and [**where to buy peptides UK**](/research/where-to-buy-peptides-uk) covers the practical geography of ordering and delivery.\n\nOne structural caution: the rating shown against any supplier on this site reflects tracked listings, auto-check results and published documentation. It is not a lab result and it is not a recommendation. ViralPeps does not hold stock and does not test products; the [**comparison site guide**](/research/uk-peptide-comparison-site) is explicit about the four things no comparison site can verify.',
+    },
+    {
+      title: 'Compound-by-Compound, Not Vendor-by-Vendor',
+      body: 'The last point is the one that changes how you use any supplier list. Supplier quality is not a fixed property across a catalogue — it is a property of a listing. A vendor can have excellent documentation on the compounds it sells in volume and thin documentation on the long tail, because batch testing is a cost per lot and the tail has less traffic to amortise it against.\n\nSo the useful comparison is a compound page, not a vendor page. Each compound page here aggregates every UK listing for that compound with price, vial size, vendor and stated documentation, which lets you see the vendor spread on the exact product you intend to buy. The [**GLOW peptide guide**](/research/glow-peptide-uk-guide) and the [**pure peptides UK**](/research/pure-peptides-uk-guide) guide both work through what to check when the product has multiple components or a purity claim attached.\n\nStart with the compound. Shortlist three vendors within about 20% on cost per milligram. Request all three certificates. Compare them against each other rather than against a review. That sequence is slower than picking the cheapest table row and it is the only one that closes the loop between what was tested and what arrives.',
+    }
+  ],
+  faq: [
+    {
+      question: 'How many peptide suppliers are there in the UK?',
+      answer: 'ViralPeps tracks 112 UK-facing research peptide suppliers, carrying 411 compounds and roughly 3,580 listings in the October 2026 snapshot. Catalogue breadth varies from a handful of listings to 155. This counts research reagent vendors, and none of them sells licensed medicines.'
+    },
+    {
+      question: 'Which UK peptide supplier has the largest catalogue?',
+      answer: 'Express Peptides carries the widest catalogue tracked, with 155 price points and an entry price of £7.50, followed closely by Pure Peptides UK at 142. Catalogue breadth evidences operational capability, not product quality — those are separate questions and neither is answered by listing count.'
+    },
+    {
+      question: 'Why is the same peptide £8 from one supplier and £350 from another?',
+      answer: 'Mostly vial size. Price per milligram falls steeply as vials get larger, so a small vial can be several times the per-milligram rate of a bulk pack. Secondary drivers are documentation depth (batch-tested, named-laboratory certificates), stated versus unstated fill mass, and naming drift between related molecules such as TB-500 and thymosin beta-4.'
+    },
+    {
+      question: 'Does ViralPeps sell peptides or test the suppliers it lists?',
+      answer: 'No. ViralPeps is a comparison site. We aggregate published vendor listings, pricing and documentation status. We do not hold stock, sell vials or laboratory-test products ourselves, and a listing here is not a recommendation or an endorsement of any supplier.'
+    }
+  ],
+  references: [
+    'ViralPeps catalogue data — 112 vendors, 411 compounds, circa 3,580 listings, October 2026 snapshot. Vendor listing counts computed from vendors.json and compounds.json.',
+    'Medicines and Healthcare products Regulatory Agency (MHRA) — UK regulator for medicines and medical devices. https://www.mhra.gov.uk/',
+    'European Medicines Agency — ICH Q2(R2) Validation of Analytical Procedures; ICH Q6A Specifications for chemical substances. https://www.ema.europa.eu/en/human-regulatory-overview/research-development/scientific-guidelines/ich-guidelines',
+    'Huff T, Muller CSG, Otto AM, Netzker R, Hannappel E. Beta-thymosins and cell migration. Int J Biochem Cell Biol. 2001. PMID 11554685',
+    'Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta-4: actin-sequestering protein. Trends Mol Med. 2005. PMID 16260195',
+  ],
+},
+'pure-peptides-uk-guide': {
+  slug: 'pure-peptides-uk-guide',
+  pullQuote: 'Purity is the only number on a peptide listing that can be both true and uninformative at the same time. A 99.4% figure from a valid HPLC run on a correctly identified peptide is a good result. The same figure printed on a listing whose certificate has no mass, no method and no batch number means nothing at all.',
+  quickInfo: [
+    { label: 'What "Pure" Should Mean', value: 'Correct molecular identity, stated purity by a stated method, and a stated net peptide content — all three, batch-matched' },
+    { label: 'Identity Test', value: 'Mass spectrometry: observed mass within about 0.1% of theoretical mass for the stated sequence' },
+    { label: 'Purity Test', value: 'Reverse-phase HPLC, usually 214 or 220 nm, reported as chromatogram area percentage' },
+    { label: 'Content Test', value: 'Net peptide content (mass of peptide ÷ mass of powder) — almost never published' },
+    { label: 'What HPLC Cannot See', value: 'Counterions (TFA), residual solvents, water content, elemental impurities, bacterial endotoxin, sterility' },
+    { label: 'Underdosing', value: 'A short fill can pass every certificate test, because a certificate describes a sample from the batch, not the mass in your vial' },
+    { label: 'Position', value: 'ViralPeps does not test products, hold stock or sell vials. This is a verification method, not a recommendation.' },
+  ],
+  sections: [
+    {
+      title: 'Pure Peptides UK: The Word That Does the Most Work and Says the Least',
+      body: '"Pure" is the most heavily used adjective in the UK research peptide market and the least defined. It appears in vendor names, in page titles, in banner copy and on certificates, and it is used to mean at least four different things: a high percentage on a chromatogram, a peptide that is chemically what the label says, a vial that contains the quantity printed on it, and a product free of contaminants that HPLC cannot detect.\n\nThose are four separate claims. A certificate can establish one and say nothing about the other three. This guide takes them in order — identity, purity, content, contaminants — and then covers the failure mode no certificate can catch: the vial that is accurately described by paper and still short on material.\n\nIt is deliberately not a list of "the purest suppliers". ViralPeps does not test vials. What we can do is show you what a defensible purity claim looks like, and where the language breaks down. The [**high purity research peptides**](/research/high-purity-research-peptides) article covers the statistical picture across the catalogue; this one is the practical method.',
+    },
+    {
+      title: 'Identity Before Purity: The Mass Spectrometry Test',
+      body: 'Purity is meaningless without identity. A vial that is 99% pure something is not a pure peptide — it is pure something. The first question is not "how pure" but "what is it".\n\nIn practice, identity is established by mass spectrometry. The theoretical mass of a peptide is calculable from its sequence: sum the residue masses, add water for the termini, and account for any modifications (an acetyl cap, an amide C-terminus, a disulfide bridge, a fatty acid chain, a copper ion in the case of GHK-Cu). The observed mass from the instrument is then compared against the expected figure, typically with a tolerance of around 0.1% for a small peptide.\n\nThis is the check that catches the most consequential failure in the market — a vial labelled with the wrong molecule. The catalogue has several compounds where the naming itself describes different molecules: TB-500 covers a 43-residue protein and two shorter fragments with different masses; CJC-1295 covers both the DAC-conjugated form and the unconjugated modified GRF(1-29), which differ by the entire linker. A certificate that reports an observed mass lets you settle that question. A certificate with no mass leaves it open, and no purity percentage can close it.\n\nThe [**TB-500 deep dive**](/research/tb-500-deep-dive) and the [**CJC-1295 suppliers UK**](/research/cjc-1295-suppliers-uk) guide both show the arithmetic on real listings, including what the correct mass should be and how far some certificates sit from it.',
+    },
+    {
+      title: 'Purity by Reverse-Phase HPLC: What the Percentage Measures',
+      body: 'The second test is chromatographic purity, almost always by reverse-phase HPLC. The sample is injected onto a hydrophobic column, the peptides are eluted with a gradient of increasing organic solvent, and a UV detector — usually set at 214 nm or 220 nm, where the peptide bond absorbs — records the elution profile.\n\nThe reported purity is the area of the main peak as a percentage of total peak area. That is a relative measure, and the implications are worth spelling out:\n\n**It measures what absorbs at that wavelength.** 214 nm detects the peptide backbone, which is exactly why it is used — almost every species in a peptide sample absorbs there. It is a sensitive and broadly fair measure and it is the right default.\n\n**It does not count anything that does not elute as a peak.** Salts, counterions, water and many solvents pass through the column effectively undetected.\n\n**It is area, not mass.** Different species have different molar extinction coefficients at 214 nm, so peak area is a proxy for quantity rather than a measurement of it. For closely related impurity species — a deletion sequence, an oxidised variant — the proxy is reasonable. For structurally dissimilar contaminants it is not.\n\n**The integration is a judgement.** Where a peak is defined, where the baseline is drawn, and how small a shoulder is counted are analytical decisions. Two laboratories can produce different numbers from the same material, and both can be defensible. That is why the method statement matters as much as the figure: column chemistry, gradient, wavelength, flow rate, integration threshold.\n\nA purity figure above about 98% by this method is a genuinely good result for a synthesised peptide. The [**high purity research peptides**](/research/high-purity-research-peptides) article notes that roughly 160 of the 410 compounds in this catalogue advertise a ≥99% purity, which is a claim worth seeing the underlying run for.',
+    },
+    {
+      title: 'The Number Nobody Publishes: Net Peptide Content',
+      body: 'Here is the gap between "pure" and "how much". A lyophilised peptide vial contains more than peptide: residual water, trifluoroacetate counterion from the purification step, and often a bulking agent such as mannitol. Net peptide content is the mass of peptide divided by the mass of powder — and on some preparations it is substantially below 100%.\n\nA certificate can report 99% HPLC purity and a net peptide content of 80%. Both figures are accurate and they describe different things: the material in the vial is 99% pure peptide by chromatogram area, and the powder is 80% peptide by mass. A vial sold as 10mg that contains 8mg of peptide is not mislabelled if the label refers to total powder mass; it is simply not what most buyers assume.\n\nThis is the single most useful figure to request and the one most often absent. When you ask a vendor for net peptide content and receive a purity percentage back, the question has not been answered. Related figures worth having are water content (Karl Fischer titration) and residual TFA, both of which reduce the proportion of the powder that is the peptide you ordered.\n\nThe compound pages here list stated purity where vendors publish one; they do not invent a content figure that was never supplied. The [**how to read a COA**](/research/how-to-read-a-coa) guide maps each of these fields to the line on a real certificate.',
+      subsections: [
+        {
+          title: 'Why the salt form changes the arithmetic',
+          body: 'Peptides are commonly supplied as the acetate or TFA salt, and the counterion contributes to the mass. Trifluoroacetate is the usual residue from reverse-phase purification with TFA-containing mobile phases, and it is also a known irritant in cell-culture work at sufficient concentration, which is why some vendors sell acetate-exchanged material at a premium. If a certificate states a mass but not the salt form, the figure cannot be reconciled against a theoretical peptide mass without assuming which counterion is present.'
+        }
+      ]
+    },
+    {
+      title: 'What HPLC Cannot See',
+      body: 'A clean chromatogram is a statement about what absorbs at 214 nm and elutes off a C18 column. It is silent on several categories of problem, and a serious verification process names them explicitly:\n\n**Elemental impurities and residual metals.** Relevant where a catalyst or a copper chelate is involved — GHK-Cu is the obvious case, where copper is part of the product and its quantity is a specification in its own right.\n\n**Residual solvents.** Synthesis and purification use organic solvents, and the permitted residual levels are governed by recognised guidance rather than by HPLC area percentage.\n\n**Water content.** Lyophilised material is hygroscopic. A vial that has absorbed water weighs more, contains less peptide per milligram of powder, and degrades faster. Karl Fischer titration measures it; a chromatogram does not.\n\n**Bacterial endotoxin.** Measured by LAL or rFC assay, expressed in endotoxin units. It is not a purity matter and it is not visible on any chromatogram, but it is the contaminant most relevant to any cell-based work.\n\n**Sterility.** A separate test, and one that research-grade suppliers frequently do not run. Research-use-only vials are not sterile products unless a sterility test says so.\n\nNone of this means a peptide is suspect because a certificate omits these. It means the certificate establishes a narrower claim than the word "pure" implies. If your use case depends on endotoxin or sterility, those have to be asked for by name, on the specific batch.',
+    },
+    {
+      title: 'How to Spot an Underdosed Vial',
+      body: 'This is the failure mode that survives every document check. An underdosed vial is one that contains less peptide than the label states, and it can pass identity, purity and even content testing — because those tests are run on a sample the vendor selects, while the vial you receive is a different unit from the same lot, or from a lot the certificate does not describe.\n\nThere are two distinct mechanisms and they need separating.\n\n**Short fill.** The vial is filled with less powder than the stated mass. A 10mg vial that contains 7mg of powder is short by 30% before any purity question arises. This is a manufacturing and quality-control issue and it is invisible unless you weigh the vial, which is only meaningful if you know the tare mass of the empty vial and the density of the fill.\n\n**Short peptide in a full fill.** The vial is filled to mass, but the powder contains less peptide — residual water, a high counterion load, or a bulking agent making up the difference. This shows up only in a net peptide content figure, which is why that number matters so much.\n\nThe signs available to a buyer without a laboratory:\n\n- **Reconstitution volume behaving unexpectedly.** If the cake dissolves to a visibly different volume or concentration than an equivalent vial from a better-documented batch, record it. It is a weak signal, but a consistent pattern is worth acting on.\n- **No stated fill mass anywhere on the listing.** The catalogue-wide figure is that about 27% of listings state no usable quantity. An unstated mass is the cheapest possible way to avoid a short-fill complaint.\n- **A price far below the market floor for the stated mass.** On a cheap peptide the floor is set by the cost of goods, so a listing well below it is either selling a smaller fill, a smaller vial size dressed up in the title, or a different molecule. See the [**staircase of vial sizes**](/research/staircase-of-vial-sizes) for how vial size distorts apparent value.\n- **A certificate with no batch number, or a batch number that does not match the vial.** The most reliable single indicator. If the paper cannot be tied to the unit in your hand, every other figure on it describes something else.\n- **A blend or multi-component product with a single purity figure.** For a three-peptide blend such as [**GLOW**](/research/glow-peptide-uk-guide), a single mass and a single peak cannot describe three identities, and the same weakness that hides composition easily hides an underfill.\n\nThe only definitive check is independent testing of the actual vial, which is expensive and seldom proportionate for a single purchase. The proportionate approach is to buy only where the documentation chain is complete and batch-matched, because a vendor who can produce that chain is a vendor whose fill process is under control for the same reason.',
+    },
+    {
+      title: 'A Verification Sequence for UK Buyers',
+      body: 'Put together, the checks form a sequence. Each step is cheap and each one eliminates listings before you spend money on the next.\n\n**Step one — require a stated fill mass in milligrams.** Drop anything that states a range or nothing. This is the filter in the [**buy research peptides UK**](/research/buy-research-peptides-uk) guide and it removes more than a quarter of the catalogue at no cost.\n\n**Step two — require a batch-matched certificate for the lot that would ship.** Not a sample, not a library, not a certificate from a previous lot. The batch number must match the vial.\n\n**Step three — check the certificate has a mass.** Observed versus theoretical, for the correct molecule. If the compound has naming ambiguity — TB-500, CJC-1295, any blend — this is the step that decides whether the product is what the title says.\n\n**Step four — check the purity figure has a method.** Reverse-phase HPLC, wavelength stated, method named. A number with no method is not a measurement you can assess.\n\n**Step five — ask for net peptide content.** The answer, or the absence of one, tells you how the vendor thinks about their own specification.\n\n**Step six — ask for the contaminant tests your work needs.** Endotoxin, sterility, water content, residual solvents, copper content for a copper peptide. Ask by name, for the batch.\n\nThe [**choosing a UK supplier**](/research/choosing-a-uk-supplier) guide turns this into a vendor scoring sheet. For compound-specific context, the [**BPC-157 research summary**](/research/bpc157-research-summary), [**GHK-Cu research summary**](/research/ghkcu-research-summary) and [**retatrutide research summary**](/research/retatrutide-research-summary) cover the published literature for three of the most commonly requested compounds.\n\nOne framing note to close on. Purity is a property of a batch, verified by a document, tied to a specific vial. It is not a property of a brand, and it cannot be inferred from a vendor name, a page headline or a review score. Any supplier offering "pure peptides" without a batch-matched certificate is offering an adjective.',
+    }
+  ],
+  faq: [
+    {
+      question: 'What does 99% purity actually mean on a peptide certificate?',
+      answer: 'It is the area of the main peak on a reverse-phase HPLC chromatogram as a percentage of total peak area, usually at 214 or 220 nm. It measures what absorbs at that wavelength and elutes off the column. It says nothing about net peptide content, counterions, water content, residual solvents, endotoxin or sterility.'
+    },
+    {
+      question: 'What is net peptide content and why does it matter?',
+      answer: 'Net peptide content is the mass of peptide divided by the total mass of powder. A vial can be 99% pure by HPLC and only 80% peptide by mass once water, counterion and bulking agent are counted. It is the figure that answers how much peptide is actually in the vial, and it is rarely published.'
+    },
+    {
+      question: 'How can I tell if a peptide vial is underdosed?',
+      answer: 'You cannot confirm it from a certificate, because a certificate describes a sample from a batch rather than the unit in your hand. The practical indicators are an absent fill mass on the listing, a price well below the market floor for the stated mass, and a certificate with no batch number or one that does not match the vial. Definitive confirmation requires independent testing of the actual vial.'
+    },
+    {
+      question: 'Does mass spectrometry prove a peptide is pure?',
+      answer: 'No. Mass spectrometry establishes identity — that the molecule present matches the expected mass for the stated sequence. Purity is a separate measurement, normally by HPLC. A certificate needs both: an observed mass to confirm what the material is, and a chromatogram to show how much of it there is relative to other species.'
+    },
+    {
+      question: 'Does ViralPeps test peptide purity?',
+      answer: 'No. ViralPeps is a comparison site. We aggregate vendor listings, pricing and published documentation status. We do not hold stock, sell vials or operate a laboratory, and no purity figure on this site is a ViralPeps test result.'
+    }
+  ],
+  references: [
+    'European Medicines Agency — ICH Q2(R2) Validation of Analytical Procedures; ICH Q6A Specifications: Test Procedures and Acceptance Criteria. https://www.ema.europa.eu/en/human-regulatory-overview/research-development/scientific-guidelines/ich-guidelines',
+    'United States Pharmacopeia — general chapters on chromatographic separation and peptide-related impurities (method context for reverse-phase HPLC and mass confirmation).',
+    'Medicines and Healthcare products Regulatory Agency (MHRA) — UK regulator for medicines and medical devices. https://www.mhra.gov.uk/',
+    'Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide. Molecules. 2018. PMID 30127342',
+    'Goldstein AL, Hannappel E, Kleinman HK. Thymosin beta-4: actin-sequestering protein. Trends Mol Med. 2005. PMID 16260195',
+    'ViralPeps catalogue data — 411 compounds and circa 3,580 listings, October 2026 snapshot. Purity-claim and stated-quantity counts computed from compounds.json.',
+  ],
+},
 };
+
 export default content;
