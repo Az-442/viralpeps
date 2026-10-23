@@ -25831,5 +25831,62 @@
     "compoundSlug": "vip",
     "destUrl": "https://purepeptidesuk.com/product/vasoactive-intestinal-peptide-vip-5mg/",
     "visitorId": "34b2c5caed6c8c71"
+  },
+  {
+    "ts": "2026-10-23T23:16:36.767Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "06c9561031d84040"
+  },
+  {
+    "ts": "2026-10-23T23:16:40.529Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://tidelabs.co.uk/products/ghrp-2",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1d97d54bf70bb614"
+  },
+  {
+    "ts": "2026-10-23T23:28:00.095Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "372b99319f813e3c"
+  },
+  {
+    "ts": "2026-10-23T23:30:40.072Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://purepeptidesuk.com/product/epitalon-10mg/",
+    "visitorId": "f485b2eb2a51319f"
+  },
+  {
+    "ts": "2026-10-23T23:30:47.133Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://purepeptidesuk.com/product/epitalon-10mg/",
+    "visitorId": "4b3dba80bce33b77"
+  },
+  {
+    "ts": "2026-10-23T23:52:55.215Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidespecialist.co.uk/product/pt-141/",
+    "visitorId": "c1474ca000cdd512"
   }
 ]
