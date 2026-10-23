@@ -23931,5 +23931,23 @@
     "compoundSlug": "selank",
     "destUrl": "https://olresearch.co.uk/product/selank-5mg/",
     "visitorId": "760dfb6461f7ee83"
+  },
+  {
+    "ts": "2026-10-23T02:57:38.875Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://armapeptideshop.com/product/bac-water-10ml/",
+    "visitorId": "dc51e84cc75e6391"
+  },
+  {
+    "ts": "2026-10-23T03:18:35.367Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://armapeptideshop.com/product/melanotan-2-nasal-spray-10mg/",
+    "visitorId": "e21f4337e185eabf"
   }
 ]
