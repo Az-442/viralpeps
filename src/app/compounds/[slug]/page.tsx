@@ -43,26 +43,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const seoTitles: Record<string, string> = {
     semaglutide: "Semaglutide UK: Compare Prices & Buy Semaglutide Peptide (Ozempic Analogue)",
     tirzepatide: "Tirzepatide Price UK 2026: Cost Per mg, Kit & Supplier | ViralPeps",
-    "bpc-157": "BPC-157 UK: Compare Prices & Buy BPC-157 Peptide (Tissue Repair)",
+    "bpc-157": "BPC-157 Price UK: Compare Cost Per mg & Suppliers",
     retatrutide: "Retatrutide UK: Compare Prices & Buy Retatrutide Peptide (GLP-1/GIP/Glucagon Triple Agonist)",
-    "tb-500": "TB-500 UK: Compare Prices & Buy TB-500 Peptide (Thymosin Beta-4 Fragment)",
-    "melanotan-ii": "Melanotan II UK: Compare Prices & Buy Melanotan 2 Peptide (Tanning Research)",
+    "tb-500": "TB-500 Price UK: Compare Cost Per mg & Verified Suppliers",
+    "melanotan-ii": "Melanotan II Price UK: Compare Cost Per mg & Suppliers",
     "cjc-1295": "CJC-1295 UK: Compare Prices & Buy CJC-1295 Peptide (GHRH Analogue with DAC)",
     ipamorelin: "Ipamorelin UK: Compare Prices & Buy Ipamorelin Peptide (GH Secretagogue)",
     "ghk-cu": "GHK-Cu UK: Compare Prices & Buy GHK-Cu Peptide (Copper Tripeptide for Skin & Repair)",
     glutathione: "Glutathione UK: Compare Prices & Buy Glutathione Peptide (Master Antioxidant)",
     "pt-141": "PT-141 (Bremelanotide) UK: Compare Prices & Buy PT-141 Peptide (Libido Research)",
     semax: "Semax UK: Compare Prices & Buy Semax Peptide (Nootropic for Cognitive Research)",
-    selank: "Selank UK: Compare Prices & Buy Selank Peptide (Anxiolytic Nootropic)",
+    selank: "Selank Price UK: Compare Cost Per mg & Verified Suppliers",
     "mots-c": "MOTS-c UK: Compare Prices & Buy MOTS-c Peptide (Mitochondrial Peptide)",
     gonadorelin: "Gonadorelin UK: Compare Prices & Buy Gonadorelin Peptide (GnRH Analogue)",
     sermorelin: "Sermorelin UK: Compare Prices & Buy Sermorelin Peptide (GRF 1-29 GH Secretagogue)",
     tesamorelin: "Tesamorelin UK: Compare Prices & Buy Tesamorelin Peptide (GHRH Analogue for Belly Fat & GH)",
     "5-amino-1mq": "5-Amino-1MQ UK: Compare Prices & Buy 5-Amino-1MQ (NNMT Inhibitor)",
     cagrilintide: "Cagrilintide UK: Compare Prices & Buy Cagrilintide Peptide (Amylin Analogue)",
-    epitalon: "Epitalon UK: Compare Prices & Buy Epitalon Peptide (Telomerase Activator)",
+    epitalon: "Epitalon Price UK: Compare Cost Per mg & Suppliers",
     "thymosin-alpha-1": "Thymosin Alpha-1 UK: Compare Prices & Buy Thymosin Alpha-1 Peptide (Immune Support)",
-    "ghrp-2": "GHRP-2 UK: Compare Prices & Buy GHRP-2 Peptide (GH Secretagogue)",
+    "ghrp-2": "GHRP-2 Price UK: Compare Cost Per mg & Verified Suppliers",
     oxytocin: "Oxytocin UK: Compare Prices & Buy Oxytocin Peptide (Love & Social Bonding Hormone)",
     "aod-9604": "AOD-9604 UK: Compare Prices & Buy AOD-9604 Peptide (HGH Fragment Fat Loss)",
     kpv: "KPV UK: Compare Prices & Buy KPV Peptide (Anti-Inflammatory Tripeptide)",
@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     "fragment-176-191": "HGH Fragment 176-191 UK: Compare Prices & Buy Fragment 176-191 Peptide (Fat Loss)",
     "ghrp-6": "GHRP-6 UK: Compare Prices & Buy GHRP-6 Peptide (GH Secretagogue & Appetite)",
     hexarelin: "Hexarelin UK: Compare Prices & Buy Hexarelin Peptide (Potent GH Secretagogue)",
-    "igf-1-lr3": "IGF-1 LR3 UK: Compare Prices & Buy IGF-1 Long R3 Peptide (Muscle Growth)",
+    "igf-1-lr3": "IGF-1 LR3 Price UK: Compare Cost Per mg & Suppliers",
     "igf-1-des": "IGF-1 DES UK: Compare Prices & Buy IGF-1 DES Peptide (Short-Acting IGF)",
     mgf: "MGF UK: Compare Prices & Buy MGF Peptide (Mechano Growth Factor for Muscle Repair)",
     "peg-mgf": "PEG-MGF UK: Compare Prices & Buy PEG-MGF Peptide (Long-Acting Mechano Growth Factor)",
@@ -98,10 +98,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
   const title = seoTitles[slug] || `${compound.name} | UK Prices`;
 
-  // Per-compound meta description overrides (150-160 chars target)
+  // Per-compound meta description overrides (155-160 chars target)
   const seoDescriptions: Record<string, string> = {
     tirzepatide:
       "Compare Tirzepatide prices across 91 verified UK suppliers. Cost per mg, kit sizes, purity and stock levels checked daily. From £14.75, ≥98% purity.",
+    "bpc-157":
+      "Compare BPC-157 prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    "tb-500":
+      "Compare TB-500 prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    "melanotan-ii":
+      "Compare Melanotan II prices per mg across all verified UK suppliers. Live stock, purity levels and cost per mg checked daily. Cheapest UK source, fully ranked.",
+    epitalon:
+      "Compare Epitalon prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source now.",
+    "igf-1-lr3":
+      "Compare IGF-1 LR3 prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source now.",
+    hcg:
+      "Compare HCG prices across every verified UK supplier. Live stock, purity levels and cost per IU checked daily. Find the cheapest verified UK source right now.",
+    selank:
+      "Compare Selank prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    "ghrp-2":
+      "Compare GHRP-2 prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
   };
   const description =
     seoDescriptions[slug] ||
