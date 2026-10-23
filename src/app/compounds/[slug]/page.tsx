@@ -19,7 +19,15 @@ import { SILOS } from "@/data/silos";
 import RelatedCompounds from "@/components/RelatedCompounds";
 import { classForSlug, getRelated } from "@/data/compound-classes";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-static";
+export const dynamicParams = true;
+export const revalidate = 3600;
+
+export async function generateStaticParams() {
+  return (compounds as Array<{ slug: string; redirect?: string }>)
+    .filter((c) => !c.redirect)
+    .map((c) => ({ slug: c.slug }));
+}
 
 // Generate dynamic metadata
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
