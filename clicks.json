@@ -25382,5 +25382,99 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg",
     "visitorId": "917d46be12415554"
+  },
+  {
+    "ts": "2026-10-23T18:32:00.125Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg",
+    "visitorId": "da17def630b8c81d"
+  },
+  {
+    "ts": "2026-10-23T18:32:02.420Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://biotideuk.com/products/ipamorelin-10-mg",
+    "visitorId": "7ea75a94fb667d3b"
+  },
+  {
+    "ts": "2026-10-23T18:32:10.327Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4b62a2dcb7ccc6af"
+  },
+  {
+    "ts": "2026-10-23T18:32:24.412Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "42d4cce5475bab49"
+  },
+  {
+    "ts": "2026-10-23T18:34:02.466Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "adde8cac0c0e5404"
+  },
+  {
+    "ts": "2026-10-23T18:36:46.643Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "29aa0ae47462e4e4"
+  },
+  {
+    "ts": "2026-10-23T18:45:23.803Z",
+    "type": "product",
+    "vendorSlug": "port-peptides",
+    "vendorName": "Port Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://portpeptides.co.uk/peptides/tirzepatide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bb54bf3d1f416f64"
+  },
+  {
+    "ts": "2026-10-23T18:45:34.197Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "19b34a27e98d8762"
+  },
+  {
+    "ts": "2026-10-23T18:52:39.472Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/45-kpv-10mg.html",
+    "visitorId": "55fd5529a2faf879"
+  },
+  {
+    "ts": "2026-10-23T19:04:14.868Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.proformapeptides.co.uk/collections/all-products/",
+    "visitorId": "74d7f58f555cd511"
   }
 ]
