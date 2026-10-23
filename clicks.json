@@ -25201,5 +25201,15 @@
     "vendorName": "Brit Peptides",
     "destUrl": "https://britpeptides.co.uk",
     "visitorId": "e0143c000002b1c6"
+  },
+  {
+    "ts": "2026-10-23T06:12:57.653Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "tesamorelin-2mg",
+    "destUrl": "https://www.uk-peptides.com/uk-tesamorelin-peptide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4d73a410e910c015"
   }
 ]
