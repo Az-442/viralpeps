@@ -24181,5 +24181,94 @@
     "destUrl": "https://bionikpeptides.com/products/ghrp-2",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "804eb98060792a9f"
+  },
+  {
+    "ts": "2026-10-23T03:40:03.768Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://bionikpeptides.com/products/klow-blend",
+    "visitorId": "6ecd79fa92c87698"
+  },
+  {
+    "ts": "2026-10-23T03:46:40.269Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-semaglutide-uk/",
+    "visitorId": "6e0c5b30ced67501"
+  },
+  {
+    "ts": "2026-10-23T03:53:20.334Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/24-cjc-1295-no-dac-10mg.html",
+    "visitorId": "60a9229aa9aae816"
+  },
+  {
+    "ts": "2026-10-23T04:01:20.886Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://redpandapeptides.co.uk/product/mt-2-10mg/",
+    "visitorId": "613ba2577f581182"
+  },
+  {
+    "ts": "2026-10-23T04:01:21.218Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ghrp-6/",
+    "visitorId": "77a933f629b86b30"
+  },
+  {
+    "ts": "2026-10-23T04:01:22.839Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://chiltonlabs.co.uk/product/ghrp-6-5mg-vial/",
+    "visitorId": "3169371f048cd77c"
+  },
+  {
+    "ts": "2026-10-23T04:01:36.444Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://redpandapeptides.co.uk/product/mt-2-10mg/",
+    "visitorId": "2341626014253b5e"
+  },
+  {
+    "ts": "2026-10-23T04:07:24.930Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://oplabs.co.uk/product/hgh-frag-176-191-2mg/",
+    "visitorId": "359e469a2b8f3bed"
+  },
+  {
+    "ts": "2026-10-23T04:08:12.044Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "visitorId": "8755ada2b310db4a"
+  },
+  {
+    "ts": "2026-10-23T04:08:42.203Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidepal.co.uk/products/glow",
+    "visitorId": "7ac6100288bc77a6"
   }
 ]
