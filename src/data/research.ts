@@ -1156,8 +1156,8 @@ export const guides: ResearchArticle[] = [
   tags: ['cjc-1295', 'sermorelin', 'comparison', 'ghrh', 'dac', 'grf-1-29', 'gh'],
 },
 {
-  title: 'KPV Suppliers UK: How to Verify a Vendor Before You Buy',
-  desc: 'A supplier guide to KPV in the UK - how the tripeptide supply market is structured, the three vendor types and what each actually documents, and a five-step verification checklist covering batch-matched certificates of analysis, named testing laboratories, company identity, research-use labelling and price-per-milligram comparison. Plus why KPV spread is wider than its cost of goods justifies.',
+  title: 'How to Verify a KPV Supplier in the UK: Five Checks',
+  desc: 'How to verify a KPV vendor in the UK: the three supplier types, what each documents, and five checks covering batch-matched COAs and named testing laboratories.',
   category: 'Articles',
   section: 'research-hub',
   compound: 'KPV',
@@ -1317,8 +1317,8 @@ export const guides: ResearchArticle[] = [
     tags: ["cardiogen", "aedr", "suppliers", "uk", "khavinson", "bioregulator", "coa", "purity", "price-comparison"],
   },
   {
-    title: "Buy Melanotan II UK: 46 Vendors, a £14.99 Floor and Why the Legal Position Matters",
-    desc: "Melanotan II is stocked by 46 UK vendors and is not a licensed medicine here. The real price band, the cost-per-milligram arithmetic that reverses the sticker ranking, the verification checks that matter, and why cosmetic product copy is the fastest filter in this market.",
+    title: "Melanotan II UK Law: Why It Is Not a Licensed Medicine",
+    desc: "Melanotan II is stocked by 46 UK vendors and holds no marketing authorisation anywhere. What UK law says on unlicensed peptides, and what it means for buyers.",
     category: "Guide",
     section: "research-hub",
     compound: "Melanotan 2",
@@ -1579,8 +1579,8 @@ export const guides: ResearchArticle[] = [
     tags: ["follistatin-344", "mgf", "mechano-growth-factor", "myostatin", "igf-1ec", "comparison", "muscle", "growth-hormone"],
   },
   {
-    title: "Selank Suppliers UK: Prices, Vendor Verification and the Nasal Spray Trap",
-    desc: "A supplier guide to Selank in the UK - 83 tracked listings across 72 vendors from GBP 7.50 to GBP 199.99, and what that price spread actually means. The four strands of the mechanism, the honest state of the human evidence, how to verify a vendor in a market where the same molecule sells at a 26x range, and why the nasal spray presentation and the lyophilised vial are not interchangeable.",
+    title: "How to Verify a Selank Supplier in the UK: Six Checks",
+    desc: "How to verify a Selank vendor in the UK: batch-matched COAs, named testing labs and research-use labelling before ordering, plus why a nasal spray is not a vial",
     category: "Articles",
     section: "research-hub",
     compound: "Selank",
@@ -1624,8 +1624,8 @@ export const guides: ResearchArticle[] = [
     tags: ["survodutide", "glp-1", "glucagon", "weight-loss", "obesity", "masld", "liver-fat", "visceral-fat", "phsae-3", "synchronize", "for", "metabolic"],
   },
   {
-    title: "Melanotan II Suppliers UK: 56 Vendors, a £14.75 Floor and an MHRA Warning",
-    desc: "Melanotan II is the most widely supplied peptide in the UK catalogue and the one carrying the most explicit regulatory warning. Why the tanning hormone is cheap and everywhere, the priapism and dermatological case reports in the peer-reviewed literature, the MHRA advisory against it, and the six verification traps — cosmetic substitutions, missing certificates, near-duplicate vendor names — that matter more than price on a compound this popular.",
+    title: "Melanotan II Legal Status UK: The MHRA Warning Explained",
+    desc: "Melanotan II is the most widely supplied peptide in the UK catalogue and carries the most explicit regulatory warning. What the MHRA advisory says about it.",
     category: "Guide",
     section: "research-hub",
     compound: "Melanotan II",
@@ -1646,8 +1646,8 @@ export const guides: ResearchArticle[] = [
     tags: ["kpv", "inflammation", "colitis", "ibd", "nf-kb", "pept1", "anti-inflammatory", "alpha-msh", "gut-health", "for", "immune"],
   },
   {
-    title: "Epitalon Suppliers UK: 55 Vendors, a \u00a310.99 Floor and an Evidence Problem",
-    desc: "Epitalon is the cheapest longevity compound in the UK catalogue and the one whose telomerase reputation most outruns its literature. What the Khavinson 2003 fibroblast study actually showed, why the 2025 Brunel replication both confirms and complicates the telomere claim, the single-mouse-strain lifespan data, and the honest state of the human evidence. Plus the market: 55 vendors, 67 listings from \u00a310.99, and the five verification traps that matter more than price on a molecule this cheap.",
+    title: "How to Verify an Epitalon Supplier in the UK: Five Traps",
+    desc: "How to verify an Epitalon vendor in the UK: five traps that matter more than price on a molecule this cheap, from cosmetic substitutions to mismatched COAs.",
     category: "Guide",
     section: "research-hub",
     compound: "Epitalon",
@@ -1760,8 +1760,8 @@ export const guides: ResearchArticle[] = [
   },
 
   {
-    title: 'Where to Buy KPV in the UK: What a Tripeptide Should Cost',
-    desc: 'A purchase-decision guide to buying KPV in the UK — why a three-amino-acid peptide spans £12.75 to £199.99, what a batch-specific COA must show, and the five verification questions to ask before ordering.',
+    title: 'KPV Cost Per mg UK: What a Tripeptide Should Actually Cost',
+    desc: 'Why a three-amino-acid KPV peptide spans £12.75 to £199.99 for the same 10mg vial, how to work out cost per milligram across 69 listings, and where the ceiling.',
     category: 'Guide',
     section: 'research-hub',
     compound: 'KPV',
@@ -1934,8 +1934,8 @@ export const guides: ResearchArticle[] = [
     tags: ["survodutide", "suppliers", "uk", "sourcing", "verification", "coa", "gcgr", "glp-1", "incretin", "bi-456906", "price-comparison", "research-hub"],
   },
   {
-    title: "Buy Epitalon UK: Cost Per Milligram, Vial Size and the Five Buying Traps",
-    desc: "A purchasing guide to epitalon in the UK \\u2014 57 vendors, 69 listings and a GBP 10.99 floor, with the headline 18x spread reduced to a far narrower 4.1x once quantity is held constant. Why 17 listings state no vial size at all, which presentation is actually the best value, the five recurring traps from cosmetic serums to near-duplicate vendor names, and the line-by-line certificate checklist.",
+    title: "Epitalon Cost Per mg UK: Why the 18x Spread Is Fiction",
+    desc: "Epitalon spans 18x on paper but 4.1x once quantity is held constant. How to normalise cost per milligram across 69 UK listings, and which vial size is best.",
     category: "Guide",
     section: "research-hub",
     compound: "Epitalon",
