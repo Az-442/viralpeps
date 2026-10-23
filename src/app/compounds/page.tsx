@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import { PEPTIDE_COUNT, SUPPLIER_COUNT, TOTAL_PRODUCTS } from "@/data/stats";
 import { HOMEPAGE_CATEGORY_GROUPS, CATEGORY_LABELS } from "@/data/categories";
 import { JsonLd, itemList } from "@/components/JsonLd";
+import CompoundClassIndex from "@/components/CompoundClassIndex";
 
 // ── Helpers ──
 function calcMinPrice(sources: { price: string }[]): number {
@@ -507,6 +508,9 @@ export default function CompoundsPage() {
           )}
         </div>
       </section>
+
+      {/* ── FULL PEPTIDE INDEX BY CLASS (server-rendered, crawlable) ── */}
+      <CompoundClassIndex compounds={compounds as any} />
 
       {/* ── WHY VIRALPEPS ── */}
       <section className="bg-blue-50 border-t border-blue-200">

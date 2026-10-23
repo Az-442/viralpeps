@@ -16,6 +16,8 @@ import { getRetaStats } from "@/data/retatrutide-silo";
 import { getTrizStats } from "@/data/tirzepatide-silo";
 import { getTrustScore } from "@/lib/trust-score";
 import { SILOS } from "@/data/silos";
+import RelatedCompounds from "@/components/RelatedCompounds";
+import { classForSlug, getRelated } from "@/data/compound-classes";
 
 export const dynamic = "force-dynamic";
 
@@ -259,6 +261,10 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     const mb = parseInt(b.replace(/[^0-9]/g, ""));
     return ma - mb;
   });
+
+  // Internal linking: class + 3-4 sibling compounds from the same class
+  const compoundClass = classForSlug(slug);
+  const relatedCompounds = getRelated(slug, compounds as any[]);
 
   // Retatrutide silo tile stats — only computed on the retatrutide hub page.
   const retaStats = slug === "retatrutide" ? getRetaStats() : null;
@@ -514,6 +520,13 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         })()}
 
       </div>{/* END max-w-[76rem] */}
+
+      {/* ===== RELATED PEPTIDES — class siblings (internal links) ===== */}
+      <RelatedCompounds
+        currentName={compound.name}
+        group={compoundClass}
+        related={relatedCompounds}
+      />
 
       {/* ===== DYNAMIC STATS BAR (full-width) ===== */}
       <div className="w-full bg-gradient-to-r from-[#0b1a2e] via-[#162d50] to-[#0f1f38] shadow-lg mb-6">
