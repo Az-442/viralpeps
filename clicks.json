@@ -27682,5 +27682,86 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://peptidesuk.com/bpc-157/",
     "visitorId": "7fbc33f78fd8bcef"
+  },
+  {
+    "ts": "2026-10-24T09:30:17.830Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://armapeptideshop.com/product/glow-70mg/",
+    "visitorId": "5ca307ed0e069296"
+  },
+  {
+    "ts": "2026-10-24T09:37:59.875Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://precision-peptides.shop/product/tb-500-10mg/",
+    "visitorId": "9eefe29dc58463d2"
+  },
+  {
+    "ts": "2026-10-24T09:45:11.726Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://reta-uk.com/products/tesamorelin",
+    "visitorId": "1b730f8b441a579b"
+  },
+  {
+    "ts": "2026-10-24T09:47:11.329Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "visitorId": "12537b0bcc2ce4a7"
+  },
+  {
+    "ts": "2026-10-24T09:47:24.955Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/semaglutide",
+    "visitorId": "12537b0bcc2ce4a7"
+  },
+  {
+    "ts": "2026-10-24T09:49:23.338Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/semaglutide",
+    "visitorId": "cfbcf30f414d3933"
+  },
+  {
+    "ts": "2026-10-24T09:49:56.988Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/semaglutide-30mg",
+    "visitorId": "f4c25efd572d257c"
+  },
+  {
+    "ts": "2026-10-24T09:52:44.368Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://reta-uk.com/products/semax",
+    "visitorId": "da64046669f7b806"
+  },
+  {
+    "ts": "2026-10-24T09:59:23.955Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://biotideuk.com/products/melanotan-1-10-mg",
+    "visitorId": "8bd2783627114c45"
   }
 ]
