@@ -26738,5 +26738,50 @@
     "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
     "refPage": "https://www.viralpeps.co.uk/go/alphamino/ghk-cu-50mg",
     "visitorId": "f2110df0e759e5f5"
+  },
+  {
+    "ts": "2026-10-24T08:07:53.604Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/tesamorelin-10mg/",
+    "visitorId": "5f014346bb704b01"
+  },
+  {
+    "ts": "2026-10-24T08:15:07.850Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "2e37bc7a79f38796"
+  },
+  {
+    "ts": "2026-10-24T08:15:14.270Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://leolab.co.uk/peptides/mots-c/",
+    "visitorId": "c4e6de3799c76807"
+  },
+  {
+    "ts": "2026-10-24T08:22:46.243Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-nad-100mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/nad-100mg/",
+    "visitorId": "b9a3bfb7f95a7b9a"
+  },
+  {
+    "ts": "2026-10-24T08:31:01.731Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://retaresearch.co/products/igf-lr3",
+    "visitorId": "29a80b2b97b13a6d"
   }
 ]
