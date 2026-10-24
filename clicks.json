@@ -26547,5 +26547,120 @@
     "compoundSlug": "sterling-ghk-cu-50mg",
     "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu-50mg/",
     "visitorId": "27eebd4569356a3c"
+  },
+  {
+    "ts": "2026-10-24T05:39:56.938Z",
+    "type": "vendor-site",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "destUrl": "https://drpresearch.co.uk",
+    "visitorId": "82b11ddda64c80e3"
+  },
+  {
+    "ts": "2026-10-24T05:41:44.269Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.na-peptides.co.uk/product/retatrutide-20mg-uk/",
+    "visitorId": "8a5da3a4da52089e"
+  },
+  {
+    "ts": "2026-10-24T05:45:10.404Z",
+    "type": "vendor-site",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "destUrl": "https://precision-peptides.shop",
+    "visitorId": "eada90073076057e"
+  },
+  {
+    "ts": "2026-10-24T05:49:47.409Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidesshopuk.com/product/reta-20/",
+    "visitorId": "8a5da3a4da52089e"
+  },
+  {
+    "ts": "2026-10-24T05:51:54.990Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/retatrutide-10mg/",
+    "visitorId": "8a5da3a4da52089e"
+  },
+  {
+    "ts": "2026-10-24T05:52:37.770Z",
+    "type": "vendor-site",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "destUrl": "https://armapeptideshop.com",
+    "refPage": "https://www.viralpeps.co.uk/go/arma-peptides",
+    "visitorId": "f8e263cef4e3297c"
+  },
+  {
+    "ts": "2026-10-24T05:55:10.184Z",
+    "type": "product",
+    "vendorSlug": "na-peptides",
+    "vendorName": "N&A Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.na-peptides.co.uk/product/retatrutide-20mg-uk/",
+    "visitorId": "ac4d3f78a86f25ba"
+  },
+  {
+    "ts": "2026-10-24T06:00:12.727Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidespecialist.co.uk/product/tesamorelin/",
+    "visitorId": "0413188dae0bdb21"
+  },
+  {
+    "ts": "2026-10-24T06:00:26.721Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidespecialist.co.uk/product/tesamorelin/",
+    "visitorId": "ba4fcf950774bdc4"
+  },
+  {
+    "ts": "2026-10-24T06:07:31.887Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "mgf",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-mgf-2mg/",
+    "visitorId": "bdbf09604ea044c6"
+  },
+  {
+    "ts": "2026-10-24T06:07:34.738Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "mgf",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-mgf-2mg/",
+    "visitorId": "2a07a161836dc1ed"
+  },
+  {
+    "ts": "2026-10-24T06:07:37.960Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://optimuslabs.co.uk/product/bacteriostatic-water/",
+    "visitorId": "95d90fbf23034412"
+  },
+  {
+    "ts": "2026-10-24T06:22:42.094Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "melatonin-10mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/melatonin-10mg/",
+    "visitorId": "54ebf1cf6a7400af"
   }
 ]
