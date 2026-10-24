@@ -26234,5 +26234,70 @@
     "destUrl": "https://phoenixbiolabs.net/shop/cjc-with-dac-5mg/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "2d1200150102966e"
+  },
+  {
+    "ts": "2026-10-24T02:52:12.777Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://tidelabs.co.uk/products/thymalin",
+    "visitorId": "991308c7dcc41e74"
+  },
+  {
+    "ts": "2026-10-24T03:00:13.997Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "hexarelin-2mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/hexarelin-2mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/hexarelin-2mg-research-peptides-uk",
+    "visitorId": "be54618b615d35b7"
+  },
+  {
+    "ts": "2026-10-24T03:03:03.083Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "vip",
+    "destUrl": "https://peptideslabuk.com/product/vip/",
+    "visitorId": "91c7d617d0c029f0"
+  },
+  {
+    "ts": "2026-10-24T03:07:04.176Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ipam-tesa-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ipamorelin-tesamorelin/pen",
+    "visitorId": "c1ac63ff2bc87d21"
+  },
+  {
+    "ts": "2026-10-24T03:07:38.169Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://midshirelabs.co.uk/products/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/go/midshire-labs/aod-9604",
+    "visitorId": "49cb1cbbd097f4aa"
+  },
+  {
+    "ts": "2026-10-24T03:15:07.669Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptidespecialist.co.uk/product/kisspeptin/",
+    "visitorId": "c4b5b4b93497b954"
+  },
+  {
+    "ts": "2026-10-24T03:21:24.829Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4",
+    "visitorId": "d3f87e6c84e13a78"
   }
 ]
