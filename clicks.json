@@ -27837,5 +27837,50 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://reta-uk.com/products/mots-c",
     "visitorId": "896ae519d85bf9c2"
+  },
+  {
+    "ts": "2026-10-24T11:07:44.659Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c",
+    "visitorId": "83cd9efd706b6a9e"
+  },
+  {
+    "ts": "2026-10-24T11:15:13.856Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-slu-pp-332-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/slu-pp-332-5mg/",
+    "visitorId": "9f78a81522d8e9ea"
+  },
+  {
+    "ts": "2026-10-24T11:22:42.972Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kpv",
+    "destUrl": "https://vialverse.com/peptides/kpv",
+    "visitorId": "d8e2ea403c8f80f8"
+  },
+  {
+    "ts": "2026-10-24T11:30:22.930Z",
+    "type": "vendor-site",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "destUrl": "https://www.proformapeptides.co.uk",
+    "visitorId": "4a78b6e973852a51"
+  },
+  {
+    "ts": "2026-10-24T11:57:40.138Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "638faeae786d822e"
   }
 ]
