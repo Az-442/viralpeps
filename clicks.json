@@ -27772,5 +27772,70 @@
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
     "visitorId": "4ead142e08660699"
+  },
+  {
+    "ts": "2026-10-24T10:30:26.502Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "visitorId": "f1bb568de637e3d0"
+  },
+  {
+    "ts": "2026-10-24T10:30:28.796Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/62-pt-141-10mg.html",
+    "visitorId": "f1bb568de637e3d0"
+  },
+  {
+    "ts": "2026-10-24T10:37:41.024Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://everythingpeptides.co.uk/products/vip",
+    "visitorId": "3d867e691176c976"
+  },
+  {
+    "ts": "2026-10-24T10:45:07.837Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "nad-250mg",
+    "destUrl": "https://peptidesuk.com/nad-250mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-uk/nad-250mg",
+    "visitorId": "4504fc2751ad8072"
+  },
+  {
+    "ts": "2026-10-24T10:52:38.257Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://momentumpeptides.com/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/go/momentum-peptides/ghk-cu",
+    "visitorId": "29c1e4a1c31e3a3e"
+  },
+  {
+    "ts": "2026-10-24T11:00:07.808Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://optimuslabs.co.uk/product/tesamorelin/",
+    "visitorId": "7bae47d308d17cc5"
+  },
+  {
+    "ts": "2026-10-24T11:07:37.738Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://reta-uk.com/products/mots-c",
+    "visitorId": "896ae519d85bf9c2"
   }
 ]
