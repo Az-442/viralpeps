@@ -25908,5 +25908,127 @@
     "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
     "refPage": "https://www.viralpeps.co.uk/go/leolab/tesamorelin",
     "visitorId": "7beeec6030b2110a"
+  },
+  {
+    "ts": "2026-10-24T00:43:02.160Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://redpandapeptides.co.uk/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3346daca16d8e19e"
+  },
+  {
+    "ts": "2026-10-24T00:43:04.529Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://redpandapeptides.co.uk/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "511b4973704ef6e1"
+  },
+  {
+    "ts": "2026-10-24T00:44:48.639Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://phoenixbiolabs.net/shop/epitalon-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "840217d9e3f23b28"
+  },
+  {
+    "ts": "2026-10-24T00:45:19.417Z",
+    "type": "vendor-site",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "destUrl": "https://lab77peptides.uk",
+    "visitorId": "cb7a3d2d5e6065f2"
+  },
+  {
+    "ts": "2026-10-24T00:52:53.473Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://midshirelabs.co.uk/products/vitamin-b12/",
+    "visitorId": "92381c79155074e0"
+  },
+  {
+    "ts": "2026-10-24T00:52:59.957Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://midshirelabs.co.uk/products/vitamin-b12/",
+    "visitorId": "e73901ba965819c4"
+  },
+  {
+    "ts": "2026-10-24T00:53:02.492Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://midshirelabs.co.uk/products/vitamin-b12/",
+    "visitorId": "e73901ba965819c4"
+  },
+  {
+    "ts": "2026-10-24T01:00:45.385Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "aicar-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/aicar/",
+    "visitorId": "ca90fca3849188d5"
+  },
+  {
+    "ts": "2026-10-24T01:01:52.292Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "5-amino-1mq-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/5-amino-1mq/pen",
+    "visitorId": "3d295fae96de1559"
+  },
+  {
+    "ts": "2026-10-24T01:03:34.564Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "53dd43cd74d24701"
+  },
+  {
+    "ts": "2026-10-24T01:04:10.815Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://phoenixbiolabs.net/shop/glutathione-1500mg-prefilled-premixed-pen-research-compound-copy/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e2dd8dd49d0cb7a5"
+  },
+  {
+    "ts": "2026-10-24T01:07:37.541Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidespecialist.co.uk/product/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist/aod-9604",
+    "visitorId": "2973aecb963f96ff"
+  },
+  {
+    "ts": "2026-10-24T01:15:07.985Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "destUrl": "https://peptidespecialist.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist",
+    "visitorId": "1f685ba37345e475"
   }
 ]
