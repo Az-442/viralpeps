@@ -27891,5 +27891,51 @@
     "compoundSlug": "klow",
     "destUrl": "https://sterlingpeptides.co.uk/product/klow-80mg/",
     "visitorId": "51a0e7d2cc670c60"
+  },
+  {
+    "ts": "2026-10-24T12:22:41.687Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://biopeptides-uk.com/product/klow-80mg-bpc-157-ghk-cu-tb-500-kpv/",
+    "visitorId": "98d66cdfcfa7dc5d"
+  },
+  {
+    "ts": "2026-10-24T12:30:07.820Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://chromapeptides.co.uk/product/hgh-fragment-176-191/",
+    "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/fragment-176-191",
+    "visitorId": "6fc0cfe818d2a94b"
+  },
+  {
+    "ts": "2026-10-24T12:35:00.219Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "07cd926700c168aa"
+  },
+  {
+    "ts": "2026-10-24T12:35:09.376Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "72d1a061b2ab6c40"
+  },
+  {
+    "ts": "2026-10-24T12:37:52.762Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptidespecialist.co.uk/product/tesa-ipa-blend/",
+    "visitorId": "4eaf100aae9bea5b"
   }
 ]
