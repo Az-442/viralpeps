@@ -26030,5 +26030,81 @@
     "destUrl": "https://peptidespecialist.co.uk",
     "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist",
     "visitorId": "1f685ba37345e475"
+  },
+  {
+    "ts": "2026-10-24T01:22:44.639Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://purepeptidesuk.com/product/acetic-acid-10ml/",
+    "visitorId": "ddff508cc0cdc620"
+  },
+  {
+    "ts": "2026-10-24T01:22:53.325Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://purepeptidesuk.com/product/acetic-acid-10ml/",
+    "visitorId": "9f7b380fc1d1491e"
+  },
+  {
+    "ts": "2026-10-24T01:28:46.569Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c0941f726814f839"
+  },
+  {
+    "ts": "2026-10-24T01:28:51.569Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://midshirelabs.co.uk/products/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fd22cc14715859ae"
+  },
+  {
+    "ts": "2026-10-24T01:34:12.667Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/thymalin-5mg",
+    "visitorId": "ac5df98b7d069474"
+  },
+  {
+    "ts": "2026-10-24T01:37:37.563Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://armapeptideshop.com/product/sermorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/arma-peptides/sermorelin",
+    "visitorId": "822eb1677f4229b0"
+  },
+  {
+    "ts": "2026-10-24T01:43:26.631Z",
+    "type": "product",
+    "vendorSlug": "peptides-next-day",
+    "vendorName": "PeptidesNextDay",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://peptidesnextday.co.uk/product/thymalin-2mg/",
+    "visitorId": "8b1bc209dd5893f7"
+  },
+  {
+    "ts": "2026-10-24T01:48:07.540Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://phoenixbiolabs.net/shop/5-amino-1mq/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "43e59bb644c6a699"
   }
 ]
