@@ -26681,5 +26681,62 @@
     "compoundSlug": "semaglutide",
     "destUrl": "https://evapeptide.co.uk/product/buy-semaglutide-uk/",
     "visitorId": "1849648edc691c10"
+  },
+  {
+    "ts": "2026-10-24T07:30:12.742Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "1c5c899f4a8977e4"
+  },
+  {
+    "ts": "2026-10-24T07:30:18.026Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "472eedbfb1051ade"
+  },
+  {
+    "ts": "2026-10-24T07:30:20.850Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "472eedbfb1051ade"
+  },
+  {
+    "ts": "2026-10-24T07:37:37.470Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-10mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/alphamino/mots-c-10mg",
+    "visitorId": "7beeec6030b2110a"
+  },
+  {
+    "ts": "2026-10-24T07:45:08.503Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptidespecialist.co.uk/product/glow-blend/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist/glow",
+    "visitorId": "8dcfbe89de308ab2"
+  },
+  {
+    "ts": "2026-10-24T08:00:14.503Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-50mg",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/alphamino/ghk-cu-50mg",
+    "visitorId": "f2110df0e759e5f5"
   }
 ]
