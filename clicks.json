@@ -26390,5 +26390,62 @@
     "destUrl": "https://olresearch.co.uk/product/ipamorelin-10mg/",
     "refPage": "https://www.viralpeps.co.uk/go/ol-research/ipamorelin",
     "visitorId": "3c1b74adf3420d39"
+  },
+  {
+    "ts": "2026-10-24T04:00:32.283Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://polygonpeptides.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/polygon-peptides/kpv",
+    "visitorId": "4756a782d202b234"
+  },
+  {
+    "ts": "2026-10-24T04:03:10.990Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vip",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vip-5mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "c4b5c55a3cfb8cdc"
+  },
+  {
+    "ts": "2026-10-24T04:07:42.482Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptidespecialist.co.uk/product/kpv/",
+    "visitorId": "891a1f460cb9b8c1"
+  },
+  {
+    "ts": "2026-10-24T04:15:43.177Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britpeptides.co.uk/product/tesamorelin/",
+    "visitorId": "d96dc9d84ae7a05d"
+  },
+  {
+    "ts": "2026-10-24T04:22:37.618Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://novavitality.co.uk/product/ss-31/",
+    "refPage": "https://www.viralpeps.co.uk/go/novavitality/ss-31",
+    "visitorId": "d10c2d6bd7469800"
+  },
+  {
+    "ts": "2026-10-24T04:23:47.016Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "68ec2a78906ce76c"
   }
 ]
