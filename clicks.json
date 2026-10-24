@@ -28497,5 +28497,41 @@
     "destUrl": "https://peptidespecialist.co.uk/product/semax/",
     "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist/semax",
     "visitorId": "2525d9727545e066"
+  },
+  {
+    "ts": "2026-10-24T19:40:40.978Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://britpeptides.co.uk/product/semax/",
+    "visitorId": "3b6f3ae147981f9a"
+  },
+  {
+    "ts": "2026-10-24T19:47:58.132Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "bpc-157-10mg-the-peptide-company",
+    "destUrl": "https://thepeptidecompany.co.uk/product/bpc-157/",
+    "visitorId": "6e507fe9a55c2cd5"
+  },
+  {
+    "ts": "2026-10-24T19:55:16.467Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "hgh-97",
+    "destUrl": "https://armapeptideshop.com/product/hgh-100-iu/",
+    "visitorId": "8bc5d9ba27a90f10"
+  },
+  {
+    "ts": "2026-10-24T20:02:56.409Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://fatpigpeptides.co.uk/product/bacteriostatic-water-3ml-10ml/",
+    "visitorId": "f15cbb1d0ef1c864"
   }
 ]
