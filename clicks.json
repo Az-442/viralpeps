@@ -28110,5 +28110,32 @@
     "destUrl": "https://researchpeptide.co.uk/product/ghk-cu/",
     "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/ghk-cu-research-peptides-uk",
     "visitorId": "24c06218150e5892"
+  },
+  {
+    "ts": "2026-10-24T14:22:54.826Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-2-pralmorelin-5mg",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-2-pralmorelin-5mg/",
+    "visitorId": "7fbc33f78fd8bcef"
+  },
+  {
+    "ts": "2026-10-24T14:37:38.082Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://armapeptideshop.com/product/aod-9604-5mg/",
+    "visitorId": "f8002ed56fd47ee1"
+  },
+  {
+    "ts": "2026-10-24T14:52:37.436Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghrp-6-5mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-5mg/",
+    "visitorId": "3ed340692d32a984"
   }
 ]
