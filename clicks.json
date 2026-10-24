@@ -28551,5 +28551,52 @@
     "compoundSlug": "ghk-cu-pen-express",
     "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
     "visitorId": "ac851aa205bf9948"
+  },
+  {
+    "ts": "2026-10-24T21:08:49.632Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://armapeptideshop.com/product/mots-c-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/arma-peptides/mots-c",
+    "visitorId": "fcd3aeab62b7d198"
+  },
+  {
+    "ts": "2026-10-24T21:16:01.056Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptidesuk4u.co.uk/product/cjc-1295-ipamorelin-blend",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-uk-4u/cjc-1295-ipamorelin-blend",
+    "visitorId": "0cd94f5cc020b603"
+  },
+  {
+    "ts": "2026-10-24T21:23:23.535Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://chromapeptides.co.uk/product/igf-1-lr3/",
+    "visitorId": "b9a3bfb7f95a7b9a"
+  },
+  {
+    "ts": "2026-10-24T21:30:43.786Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ss-31-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ss-31/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/ss-31-research-peptides-uk",
+    "visitorId": "2525d9727545e066"
+  },
+  {
+    "ts": "2026-10-24T21:34:05.698Z",
+    "type": "vendor-site",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "destUrl": "https://biohackerxlab.com",
+    "visitorId": "d653518b956cc642"
   }
 ]
