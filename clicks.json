@@ -26456,5 +26456,96 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://pepnova.uk/",
     "visitorId": "7064a7e0c3428399"
+  },
+  {
+    "ts": "2026-10-24T05:00:38.568Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://pslabs.uk/products/glow-70mg",
+    "visitorId": "8e28015c920c4196"
+  },
+  {
+    "ts": "2026-10-24T05:01:18.970Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptideslabuk.com/product/nad/",
+    "visitorId": "c3f4ddba3000b40c"
+  },
+  {
+    "ts": "2026-10-24T05:02:09.702Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/epitalon/",
+    "visitorId": "21b77c8e2d1a97bd"
+  },
+  {
+    "ts": "2026-10-24T05:07:37.818Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://biopeptides-uk.com/product/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/bio-peptides-uk/selank",
+    "visitorId": "df7c2bf9375e7bc7"
+  },
+  {
+    "ts": "2026-10-24T05:12:25.151Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://purepeptidesuk.com/product/semax-5mg/",
+    "visitorId": "ab1bec900b1434f4"
+  },
+  {
+    "ts": "2026-10-24T05:12:35.923Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://purepeptidesuk.com/product/semax-5mg/",
+    "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-24T05:12:38.582Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://purepeptidesuk.com/product/semax-5mg/",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-24T05:15:14.941Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidespecialist.co.uk/product/thymosin-alpha-1-30mg-peptide-pen/",
+    "visitorId": "c686fa53a5c69ca6"
+  },
+  {
+    "ts": "2026-10-24T05:22:41.635Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://lab77peptides.uk/peptides/bpc157?format=vial&size=10mg",
+    "visitorId": "65529e17348f8dba"
+  },
+  {
+    "ts": "2026-10-24T05:37:41.268Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-ghk-cu-50mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "27eebd4569356a3c"
   }
 ]
