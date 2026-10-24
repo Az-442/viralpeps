@@ -619,6 +619,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
     const SPONSORED_VENDORS: Record<string, string> = {
       retatrutide: "united-peptides",
       tirzepatide: "united-peptides",
+      semaglutide: "united-peptides",
     };
     const pinnedSlug = SPONSORED_VENDORS[compound];
     const pinned = pinnedSlug
