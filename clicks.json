@@ -28363,5 +28363,53 @@
     "destUrl": "https://armapeptideshop.com/product/kisspeptin-10mg/",
     "refPage": "https://www.viralpeps.co.uk/go/arma-peptides/kisspeptin-10",
     "visitorId": "c458332554b744b5"
+  },
+  {
+    "ts": "2026-10-24T18:05:31.356Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidespecialist.co.uk/product/tb-500/",
+    "visitorId": "832d1985eb7f6de1"
+  },
+  {
+    "ts": "2026-10-24T18:12:19.400Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptidespecialist.co.uk/product/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist/epitalon",
+    "visitorId": "77848ca801fb6dcf"
+  },
+  {
+    "ts": "2026-10-24T18:20:03.111Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://armapeptideshop.com/product/tirzepatide-30mg/",
+    "visitorId": "500c8cb5b6f84c79"
+  },
+  {
+    "ts": "2026-10-24T18:27:01.796Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/nad-plus",
+    "visitorId": "bf9b2dcf481abb81"
+  },
+  {
+    "ts": "2026-10-24T18:34:31.972Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://kingstonpeptides.com/en/products/reta",
+    "refPage": "https://www.viralpeps.co.uk/go/kingston-peptides/retatrutide",
+    "visitorId": "70e7298b2acdb208"
   }
 ]
