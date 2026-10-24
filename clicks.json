@@ -28026,5 +28026,70 @@
     "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/",
     "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/pt-141-bremelanotide",
     "visitorId": "091112afe8233e02"
+  },
+  {
+    "ts": "2026-10-24T13:22:38.427Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ll-37-5mg-research-only-peptide-for-laboratory-use-only/",
+    "refPage": "https://www.viralpeps.co.uk/go/dr-peptides/ll-37",
+    "visitorId": "899ba32c9bac6959"
+  },
+  {
+    "ts": "2026-10-24T13:30:08.547Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "chonliten",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-chonliten-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/dr-peptides/chonliten",
+    "visitorId": "1d3487385098cf43"
+  },
+  {
+    "ts": "2026-10-24T13:37:53.070Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://midshirelabs.co.uk/products/cartalax/",
+    "visitorId": "b7324c1e18c4555b"
+  },
+  {
+    "ts": "2026-10-24T13:37:57.337Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidesx.uk/product/glow-blend/",
+    "visitorId": "7a48a2b7df58f062"
+  },
+  {
+    "ts": "2026-10-24T13:38:02.981Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://midshirelabs.co.uk/products/cartalax/",
+    "visitorId": "10fd06fd94c4a4cf"
+  },
+  {
+    "ts": "2026-10-24T13:38:07.018Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://midshirelabs.co.uk/products/cartalax/",
+    "visitorId": "10fd06fd94c4a4cf"
+  },
+  {
+    "ts": "2026-10-24T13:45:18.117Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac-2mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/cjc-1295-with-dac-2mg/",
+    "visitorId": "4d5c73a6b4f501c2"
   }
 ]
