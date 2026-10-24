@@ -26299,5 +26299,96 @@
     "compoundSlug": "tb-500",
     "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4",
     "visitorId": "d3f87e6c84e13a78"
+  },
+  {
+    "ts": "2026-10-24T03:22:53.054Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "mgf",
+    "destUrl": "https://bioplexpeptides.co.uk/products/mgf-2mg-mechano-growth-factor-igf-1ec-peptide",
+    "visitorId": "3c12338b49380ad3"
+  },
+  {
+    "ts": "2026-10-24T03:30:20.469Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vitamin-b12",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vitamin-b12-10ml-research-solution-for-laboratory-use-only/",
+    "visitorId": "ab3fcb9bca6eea68"
+  },
+  {
+    "ts": "2026-10-24T03:33:23.570Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-cjc-1295-w-o-dac-5mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "1c12aa356ecd456e"
+  },
+  {
+    "ts": "2026-10-24T03:38:02.757Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://chromapeptides.co.uk/product/tesamorelin/",
+    "visitorId": "5dc3cbbbe41dd027"
+  },
+  {
+    "ts": "2026-10-24T03:41:22.335Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bluewellpeptides.com/product/epithalon-10mg-peptide/",
+    "visitorId": "91c7d617d0c029f0"
+  },
+  {
+    "ts": "2026-10-24T03:45:13.930Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackpeptides.co.uk/product/ghk-cu-peptide-50mg-vial-high-purity-copper-peptide-for-research/",
+    "visitorId": "f476efaae38a9019"
+  },
+  {
+    "ts": "2026-10-24T03:49:07.247Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-24T03:49:09.703Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin",
+    "visitorId": "6271fdbe03fc462d"
+  },
+  {
+    "ts": "2026-10-24T03:49:12.719Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hexarelin-5mg-ghrp-examorelin",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-24T03:52:37.534Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://olresearch.co.uk/product/ipamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/ol-research/ipamorelin",
+    "visitorId": "3c1b74adf3420d39"
   }
 ]
