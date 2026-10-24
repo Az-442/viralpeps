@@ -28193,5 +28193,51 @@
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://leolab.co.uk/peptides/pt-141/",
     "visitorId": "4f2127c09e11bb07"
+  },
+  {
+    "ts": "2026-10-24T15:49:19.309Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "a8fa2e5494350aca"
+  },
+  {
+    "ts": "2026-10-24T16:04:00.924Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://armapeptideshop.com/product/peg-mgf-5mg/",
+    "visitorId": "ce60ab8ca7b68d8e"
+  },
+  {
+    "ts": "2026-10-24T16:04:04.841Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://peptidesshopuk.com/product/wolv-20/",
+    "visitorId": "ab1bec900b1434f4"
+  },
+  {
+    "ts": "2026-10-24T16:10:31.919Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://alphamino.co.uk/shop/bac-water/",
+    "refPage": "https://www.viralpeps.co.uk/go/alphamino/bacteriostatic-water",
+    "visitorId": "822eb1677f4229b0"
+  },
+  {
+    "ts": "2026-10-24T16:29:55.594Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/",
+    "visitorId": "c25b03056de35358"
   }
 ]
