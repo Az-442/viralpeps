@@ -28478,5 +28478,24 @@
     "destUrl": "https://www.prime-peptides.co.uk/product/bpc-157-tb500/",
     "refPage": "https://www.viralpeps.co.uk/go/prime-peptides/bpc-5mg-tb-5mg",
     "visitorId": "36a2c702fd74d103"
+  },
+  {
+    "ts": "2026-10-24T18:41:48.689Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.testedpeptides.co.uk/product/nad-500mg/",
+    "visitorId": "462a3563be6254bd"
+  },
+  {
+    "ts": "2026-10-24T19:33:13.500Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidespecialist.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist/semax",
+    "visitorId": "2525d9727545e066"
   }
 ]
