@@ -28137,5 +28137,24 @@
     "compoundSlug": "ghrp-6-5mg-research-peptides-uk",
     "destUrl": "https://researchpeptide.co.uk/product/ghrp-6-5mg/",
     "visitorId": "3ed340692d32a984"
+  },
+  {
+    "ts": "2026-10-24T14:45:09.296Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tb-500-10mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tb-500-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/sterling-tb-500-10mg",
+    "visitorId": "7dfefd305f73ef7c"
+  },
+  {
+    "ts": "2026-10-24T15:00:41.711Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://biopeptides-uk.com/product/sermorelin-10mg/",
+    "visitorId": "0c2807f686f9628b"
   }
 ]
