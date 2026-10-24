@@ -29185,5 +29185,69 @@
     "destUrl": "https://optimuslabs.co.uk/product/tb-500/",
     "refPage": "https://www.viralpeps.co.uk/go/optimus-labs/tb-500",
     "visitorId": "ff2910f5d5958213"
+  },
+  {
+    "ts": "2026-10-24T23:13:46.958Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptidespecialist.co.uk/product/nad/",
+    "visitorId": "55e45ecff4d08b9b"
+  },
+  {
+    "ts": "2026-10-24T23:21:04.051Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://jgpeptidesplus.com/product/cagrilintide-5mg/",
+    "visitorId": "151a148c1f335300"
+  },
+  {
+    "ts": "2026-10-24T23:28:20.063Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidespecialist.co.uk/product/bacteriostatic-water/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidespecialist/bacteriostatic-water",
+    "visitorId": "e4f3ada947ac2bc6"
+  },
+  {
+    "ts": "2026-10-24T23:35:44.057Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+    "visitorId": "5fa9bde838dec202"
+  },
+  {
+    "ts": "2026-10-24T23:35:48.959Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+    "visitorId": "fcc22604dd754259"
+  },
+  {
+    "ts": "2026-10-24T23:35:51.423Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://midshirelabs.co.uk/products/igf-1lr3-1mg/",
+    "visitorId": "fcc22604dd754259"
+  },
+  {
+    "ts": "2026-10-24T23:42:58.842Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "visitorId": "74b6ec08985e7762"
   }
 ]
