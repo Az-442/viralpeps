@@ -3269,5 +3269,34 @@
       "coa": "certificate of analys",
       "review": null
     }
+  },
+  "peptides-next-day": {
+    "slug": "peptides-next-day",
+    "website": "https://peptidesnextday.co.uk",
+    "checkedAt": "2026-10-24T00:33:07.348Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "coa",
+      "ruo": null,
+      "review": null,
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "buy peptides uk | fast tracked uk dispatch - peptidesnextday"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "coa",
+      "ruo": null,
+      "status": 200
+    },
+    "secondary": {
+      "probed": 4,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "coa",
+      "review": null
+    }
   }
 }

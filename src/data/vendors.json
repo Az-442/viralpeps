@@ -5524,5 +5524,50 @@
       "checkedAt": "2026-10-23T00:35:00.000Z",
       "note": "rendered SPA — signals verified in real browser (site is a JS app; raw HTML is a shell)"
     }
+  },
+  {
+    "id": "peptides-next-day",
+    "name": "PeptidesNextDay",
+    "slug": "peptides-next-day",
+    "website": "https://peptidesnextday.co.uk",
+    "rating": 4.2,
+    "verified": true,
+    "country": "UK",
+    "description": "UK research peptide supplier (trading name of Dantix Systems Ltd) dispatching same day on orders placed before 3pm. Catalogue spans 70+ lyophilised peptides including bioregulators, GH secretagogues and metabolic research compounds, supplied for laboratory research only.",
+    "highlights": [
+      "Same-day dispatch before 3pm (Mon–Fri)",
+      "Royal Mail First Class & Special Delivery",
+      "UK-only delivery",
+      "Research use only"
+    ],
+    "shipping": [
+      "UK only — Royal Mail First Class £4.95 (1–2 working days)",
+      "Royal Mail Special Delivery by 1pm £9.95 (tracked)"
+    ],
+    "payment": [
+      "Cards",
+      "Bank transfer"
+    ],
+    "lastTested": "2026-10-24",
+    "labTested": false,
+    "email": "orders@peptidesnextday.co.uk",
+    "deliveryDetails": "UK addresses only. Royal Mail First Class £4.95 (usually 1–2 working days, not guaranteed) or Royal Mail Special Delivery Guaranteed by 1pm £9.95 (tracked). Free-delivery threshold: not stated. Orders paid before 3pm Mon–Fri dispatched same working day; plain unbranded packaging.",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-24T00:33:07.348Z"
+    }
   }
 ]
