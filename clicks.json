@@ -27937,5 +27937,94 @@
     "compoundSlug": "cjc-1295-ipamorelin-blend",
     "destUrl": "https://peptidespecialist.co.uk/product/tesa-ipa-blend/",
     "visitorId": "4eaf100aae9bea5b"
+  },
+  {
+    "ts": "2026-10-24T12:38:08.253Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://peptidespecialist.co.uk/product/tesa-ipa-blend/",
+    "visitorId": "236c23013ccab014"
+  },
+  {
+    "ts": "2026-10-24T12:40:46.318Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "71f140659560a008"
+  },
+  {
+    "ts": "2026-10-24T12:51:20.582Z",
+    "type": "vendor-site",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "destUrl": "https://allmypeptides.com",
+    "visitorId": "b7c3e8a8c1a00a03"
+  },
+  {
+    "ts": "2026-10-24T12:53:21.754Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "a8bf94578c956395"
+  },
+  {
+    "ts": "2026-10-24T12:55:30.890Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.uk-peptides.com/10ml-bacteriostatic-water",
+    "visitorId": "0e51a2336026a380"
+  },
+  {
+    "ts": "2026-10-24T13:00:20.241Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/retatrutide",
+    "visitorId": "3c1b74adf3420d39"
+  },
+  {
+    "ts": "2026-10-24T13:01:13.543Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "db3f0d0ee853271f"
+  },
+  {
+    "ts": "2026-10-24T13:06:56.739Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klotho",
+    "destUrl": "https://bionikpeptides.com/products/klotho",
+    "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-24T13:07:06.253Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "klotho",
+    "destUrl": "https://bionikpeptides.com/products/klotho",
+    "visitorId": "7ea75a94fb667d3b"
+  },
+  {
+    "ts": "2026-10-24T13:15:08.388Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://sterlingpeptides.co.uk/product/pt-141-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/pt-141-bremelanotide",
+    "visitorId": "091112afe8233e02"
   }
 ]
