@@ -31626,5 +31626,53 @@
     "destUrl": "https://armapeptideshop.com/product/ghrp-6-5mg-peptide/",
     "refPage": "https://www.viralpeps.co.uk/go/arma-peptides/ghrp-6",
     "visitorId": "2bd52d4dca6d3fdd"
+  },
+  {
+    "ts": "2026-10-25T03:08:50.378Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://armapeptideshop.com/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/arma-peptides/tesamorelin",
+    "visitorId": "039925ceb2618d3f"
+  },
+  {
+    "ts": "2026-10-25T03:16:22.970Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidespecialist.co.uk/product/selank/",
+    "visitorId": "8740470cb8d6457e"
+  },
+  {
+    "ts": "2026-10-25T03:23:19.928Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptx.co.uk/single-vials/kpv",
+    "refPage": "https://www.viralpeps.co.uk/go/peptx/kpv",
+    "visitorId": "91f2350e71062223"
+  },
+  {
+    "ts": "2026-10-25T03:30:44.276Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptidesuk4u.co.uk/product/kpv-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-uk-4u/kpv",
+    "visitorId": "f353341eb6747201"
+  },
+  {
+    "ts": "2026-10-25T03:42:00.474Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/epitalon-5mg",
+    "visitorId": "5235f70883c40a95"
   }
 ]
