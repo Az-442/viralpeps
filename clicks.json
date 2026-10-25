@@ -535,5 +535,297 @@
     "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "9021dc1ad63155bb"
+  },
+  {
+    "ts": "2026-10-25T21:03:55.745Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9fa2dc4e754ded23"
+  },
+  {
+    "ts": "2026-10-25T21:07:08.389Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://bionikpeptides.com/products/bac-water",
+    "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-25T21:08:12.688Z",
+    "type": "vendor-site",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "destUrl": "https://thepeptidecode.co.uk",
+    "visitorId": "66b33eb59790042e"
+  },
+  {
+    "ts": "2026-10-25T21:10:59.963Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "66b33eb59790042e"
+  },
+  {
+    "ts": "2026-10-25T21:11:11.447Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "a4124b101c8618ac"
+  },
+  {
+    "ts": "2026-10-25T21:12:12.350Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "a4124b101c8618ac"
+  },
+  {
+    "ts": "2026-10-25T21:12:39.549Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://britishpeptidelabs.com/products/semaglutide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "13d40bbd8475c56d"
+  },
+  {
+    "ts": "2026-10-25T21:14:11.487Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://reta-uk.com/products/bacteriorastic-water-10ml",
+    "visitorId": "2974c41fcb27836c"
+  },
+  {
+    "ts": "2026-10-25T21:14:35.441Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "2f60c30ff2d990c6"
+  },
+  {
+    "ts": "2026-10-25T21:15:32.429Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "lipo-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/lipo-c-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "06398ec4ae4700e3"
+  },
+  {
+    "ts": "2026-10-25T21:20:20.101Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://jgpeptidesplus.com/product/pt141-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/jgpeptidesplus/pt-141-bremelanotide",
+    "visitorId": "309fe8433263e305"
+  },
+  {
+    "ts": "2026-10-25T21:22:01.153Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://kingstonpeptides.com/en/products/wolverine-bpc-157-tb-500",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7f4187173e8f5819"
+  },
+  {
+    "ts": "2026-10-25T21:32:53.383Z",
+    "type": "vendor-site",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "destUrl": "https://pyroxlabs.co.uk",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:53.523Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:53.701Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/sm1-20mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:53.859Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://pyroxlabs.co.uk/product/bpc-157-10mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:54.034Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pyroxlabs.co.uk/product/melanotan-ii-10mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:54.180Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/rt3-5mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:54.316Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://pyroxlabs.co.uk/product/igf-1-lr3-1mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:54.464Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://pyroxlabs.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:54.619Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pyroxlabs.co.uk/product/mots-c-40mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:54.773Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://pyroxlabs.co.uk/product/ss-31-50mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:54.922Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pyroxlabs.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:55.140Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://pyroxlabs.co.uk/product/semax-10mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:55.276Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://pyroxlabs.co.uk/product/selank-10mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:55.597Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://pyroxlabs.co.uk/product/kisspeptin-10-10mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:55.750Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://pyroxlabs.co.uk/product/dsip-10mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:55.983Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "glow",
+    "destUrl": "https://pyroxlabs.co.uk/product/glow-70-blend-70mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:56.116Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pyroxlabs.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:56.325Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://pyroxlabs.co.uk/product/nad-500mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:32:56.469Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://pyroxlabs.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg5mg/",
+    "visitorId": "62e8f9477d652dc2"
+  },
+  {
+    "ts": "2026-10-25T21:42:00.324Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/semaglutide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f2212428e226b385"
   }
 ]
