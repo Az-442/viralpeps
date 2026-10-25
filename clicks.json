@@ -32069,5 +32069,87 @@
     "vendorName": "Momentum Peptides",
     "destUrl": "https://momentumpeptides.com",
     "visitorId": "ee25fc549d58856f"
+  },
+  {
+    "ts": "2026-10-25T07:24:25.901Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/",
+    "visitorId": "ee25fc549d58856f"
+  },
+  {
+    "ts": "2026-10-25T07:26:02.371Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://zentra-peptides.com/product/ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/go/zentra-peptides/ipamorelin",
+    "visitorId": "6fc0cfe818d2a94b"
+  },
+  {
+    "ts": "2026-10-25T07:33:08.207Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/retatrutide",
+    "visitorId": "d30d84b379e2b2a7"
+  },
+  {
+    "ts": "2026-10-25T07:33:08.793Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://bluewellpeptides.com/product/pt-141-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/bluewell-peptides/pt-141-bremelanotide",
+    "visitorId": "98bfe294c1777f4e"
+  },
+  {
+    "ts": "2026-10-25T07:34:05.706Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "4c2510b5b5db116b"
+  },
+  {
+    "ts": "2026-10-25T07:40:45.108Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://vialverse.com/peptides/slu-pp-332",
+    "visitorId": "4bb14bfd667cea90"
+  },
+  {
+    "ts": "2026-10-25T07:47:51.843Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://peptx.co.uk/single-vials/ahk-cu",
+    "visitorId": "01982443a7eb3351"
+  },
+  {
+    "ts": "2026-10-25T07:50:12.953Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "db3f0d0ee853271f"
+  },
+  {
+    "ts": "2026-10-25T07:55:29.278Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://zentra-peptides.com/product/cjc-1295-with-dac/",
+    "visitorId": "45bd3abecb01c8ee"
   }
 ]
