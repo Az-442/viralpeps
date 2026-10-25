@@ -32985,5 +32985,63 @@
     "vendorName": "VialVerse",
     "destUrl": "https://vialverse.com",
     "visitorId": "75cea88370669078"
+  },
+  {
+    "ts": "2026-10-25T15:52:57.147Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "pt-141-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/pt-141/pen",
+    "visitorId": "c0c2416c715bf454"
+  },
+  {
+    "ts": "2026-10-25T16:01:43.975Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://armapeptideshop.com/product/bpc-157-tb500-blend-20mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "125f1e1c7769c923"
+  },
+  {
+    "ts": "2026-10-25T16:09:51.648Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.novapeptide.co.uk/product/the-wolverine-stack-bpc-157-and-tb-500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "aed350c4d8c82024"
+  },
+  {
+    "ts": "2026-10-25T16:11:52.699Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://retaresearch.co/products/bpc-157-tb-500-mix",
+    "refPage": "https://www.google.com/",
+    "visitorId": "feef3ac920d29b2a"
+  },
+  {
+    "ts": "2026-10-25T16:13:59.020Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.novapeptide.co.uk/product/the-wolverine-stack-bpc-157-and-tb-500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ed2e64485e1e00d5"
+  },
+  {
+    "ts": "2026-10-25T16:26:55.722Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://evolvepeptides.uk/products/pt141",
+    "visitorId": "1d538fd248307fb8"
   }
 ]
