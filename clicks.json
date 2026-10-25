@@ -827,5 +827,62 @@
     "destUrl": "https://everythingpeptides.co.uk/products/semaglutide",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "f2212428e226b385"
+  },
+  {
+    "ts": "2026-10-25T21:42:03.996Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://everythingpeptides.co.uk/products/semaglutide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1706f7223742e62d"
+  },
+  {
+    "ts": "2026-10-25T21:46:54.826Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://britishpeptidelabs.com/products/pt-141",
+    "visitorId": "659437c855157988"
+  },
+  {
+    "ts": "2026-10-25T22:01:25.038Z",
+    "type": "product",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://www.flexpeptides.co.uk/products/kisspeptin-5mg",
+    "visitorId": "3df80b85d136935e"
+  },
+  {
+    "ts": "2026-10-25T22:08:00.774Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0068a243955dc44f"
+  },
+  {
+    "ts": "2026-10-25T22:09:28.100Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://kensingtonlabs.co.uk/product/kisspeptin-5mg/",
+    "visitorId": "c4b5c55a3cfb8cdc"
+  },
+  {
+    "ts": "2026-10-25T22:12:19.298Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "645b55abc7e413fd"
   }
 ]
