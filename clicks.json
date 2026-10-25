@@ -32362,5 +32362,33 @@
     "destUrl": "https://bionikpeptides.com/products/kisspeptin",
     "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/kisspeptin",
     "visitorId": "deaa5560b90b8773"
+  },
+  {
+    "ts": "2026-10-25T09:16:01.735Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://bionikpeptides.com/products/igf-1-lr3",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/igf-1-lr3",
+    "visitorId": "3e506e2191306b07"
+  },
+  {
+    "ts": "2026-10-25T09:38:07.451Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bluewellpeptides.com/product/kpv-10mg-peptide/",
+    "visitorId": "659437c855157988"
+  },
+  {
+    "ts": "2026-10-25T09:45:48.844Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bluewellpeptides.com/product/fftp-adipotide-5mg-peptide/",
+    "visitorId": "6ac04813d9449ad0"
   }
 ]
