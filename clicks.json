@@ -901,5 +901,59 @@
     "vendorName": "Alphamino",
     "destUrl": "https://alphamino.co.uk",
     "visitorId": "c3dfa4e2bb178fd1"
+  },
+  {
+    "ts": "2026-10-25T22:21:26.749Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "c06a13aeccc8318b"
+  },
+  {
+    "ts": "2026-10-25T22:22:18.750Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-oral",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "c3dfa4e2bb178fd1"
+  },
+  {
+    "ts": "2026-10-25T22:31:53.731Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/",
+    "visitorId": "923b00467f0b1e09"
+  },
+  {
+    "ts": "2026-10-25T22:40:18.948Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://biohackpeptides.co.uk/product/kisspeptin-peptide-5mg-3ml-bac-water/",
+    "visitorId": "088a389f55c5a114"
+  },
+  {
+    "ts": "2026-10-25T22:40:19.908Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://chromapeptides.co.uk/product/cjc-1295-no-dac/",
+    "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/cjc-1295-no-dac",
+    "visitorId": "302a711329b8414b"
+  },
+  {
+    "ts": "2026-10-25T22:52:22.447Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "kisspeptin-nasal-spray",
+    "destUrl": "https://ukpeptides.com/catalog/kisspeptin-nasal-spray",
+    "visitorId": "923b00467f0b1e09"
   }
 ]
