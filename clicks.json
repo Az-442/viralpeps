@@ -260,5 +260,42 @@
     "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "895262c3f7b80b8f"
+  },
+  {
+    "ts": "2026-10-25T18:40:20.291Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.peptidesx.uk/product/pt-141/",
+    "visitorId": "3caf0d255f54ea60"
+  },
+  {
+    "ts": "2026-10-25T18:45:22.022Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg-peptide/",
+    "refPage": "https://viralpeps.co.uk/compounds/cjc-1295-with-dac",
+    "visitorId": "284ef5c169dfeeb2"
+  },
+  {
+    "ts": "2026-10-25T18:52:42.625Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bundle-super-stack",
+    "destUrl": "https://purepeptidesuk.com/product/bundle-super-stack/",
+    "refPage": "https://viralpeps.co.uk/compounds/bundle-super-stack",
+    "visitorId": "8eb7c0c284aaa212"
+  },
+  {
+    "ts": "2026-10-25T19:00:20.184Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "destUrl": "https://www.uk-peptides.com",
+    "visitorId": "60178c53eb3adee6"
   }
 ]
