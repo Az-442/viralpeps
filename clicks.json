@@ -376,5 +376,15 @@
     "destUrl": "https://peptx.co.uk/single-vials/semaglutide",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "02114d55a6cf4c07"
+  },
+  {
+    "ts": "2026-10-25T20:26:50.837Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://pslabs.uk/products/pt-141-bremelanotide-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/ps-labs/pt-141-bremelanotide",
+    "visitorId": "5890cd52e3a601c0"
   }
 ]
