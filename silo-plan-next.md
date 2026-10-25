@@ -101,6 +101,107 @@ Sitemap auto-includes the 6 spokes + hub index via the SILOS registry — no edi
 
 ---
 
+## ✅ DONE — PT-141 (BREMELANOTIDE) SILO (commit `1fa6ff37`)
+
+Queue item 7 of the 22 Oct 2026 Tier-1 list. Built per the locked SOP. Deploy verified live 2026-10-25.
+
+**Live URLs (all 200, verified):**
+- https://www.viralpeps.co.uk/compound-guides/where-to-buy-pt-141-uk
+- https://www.viralpeps.co.uk/compound-guides/cheapest-pt-141-uk
+- https://www.viralpeps.co.uk/compound-guides/pt-141-price-comparison-uk
+- https://www.viralpeps.co.uk/compound-guides/buy-pt-141-online-uk
+- https://www.viralpeps.co.uk/compound-guides/pt-141-uk-supplier
+- https://www.viralpeps.co.uk/compound-guides/best-pt-141-peptide
+
+**Verified metrics:** rendered words 2,165–2,740 (all ≥1,200) · titles 44–53 chars ·
+descriptions 155–160 chars · focus keyword in H1 + intro[0] · 69 unique live go-links on the
+full comparison spoke (spot-checked, all 302 with a browser UA) · hub tiles present on
+`/compounds/pt-141-bremelanotide` (6 compound-guides tiles) · index lists PT-141 ·
+12 pt-141 URLs in sitemap · `npx tsc --noEmit` 0 errors · `npm run build` clean (816 pages).
+
+### Why PT-141 was chosen
+Queue order is survodutide → mazdutide → hcg → oxytocin-nasal-spray → cjc-1295-ipamorelin →
+hmg-75iu → pt-141. **survodutide has only 5 sources**, mazdutide 7, hcg 8, oxytocin-nasal-spray 1 —
+all below the SOP's ~20-source floor for a meaningful table, and mazdutide already has an
+uncommitted `mazdutide-silo.ts` from another pass. cjc-1295-ipamorelin and hmg-75iu do not exist
+as master compounds under those slugs. **PT-141 has 73 master sources** (+ child variants),
+which is why it was the first queue entry that clears Step 0.
+
+### Autocomplete evidence (Google UK, pulled live 2026-10-25)
+
+⚠️ **Four of the six default modifiers returned ZERO UK results** — substituted, as the SOP requires.
+
+| Modifier | Result |
+|---|---|
+| `where to buy pt-141 uk` | ⚠️ **0** (and `where to buy pt 141 uk` = 0) → substituted `where can i buy pt 141` (#1 `where can i buy pt 141 peptide`) + `best place to buy pt 141 peptide` (exact #1) |
+| `cheapest pt-141 uk` | ⚠️ **0** → substituted `pt 141 cheapest` → returns `pt 141 prices`, `pt 141 best price`, **`cheapest pt 141`** (#3) |
+| `pt-141 price comparison uk` | ⚠️ **0** → substituted `pt-141 price` → `pt 141 price`, `pt 141 peptide price`, `pt 141 10mg price`, `pt 141 bremelanotide price` |
+| `buy pt-141 online uk` | **2 real hits incl. `pt 141 peptide buy online uk` (exact)** — passed |
+| `pt-141 uk supplier` | ⚠️ **0** (`pt 141 uk supplier` and `pt 141 supplier uk` also 0) → substituted `pt 141 suppliers` (#1, plus `pt 141 manufacturer`, `pt 141 vendors`, `pt 141 providers`) — non-UK-qualified only |
+| `best pt-141 peptide` | **`best pt 141 peptide` exact #1** — passed |
+
+Corroborating hits: `pt 141 uk`, `pt 141 uk peptides`, `pt 141 uk buy`, `pt 141 bremelanotide uk`,
+`pt 141 pen uk`, `pt 141 nasal uk`, `pt 141 spray uk`, `pt 141 peptide buy uk`,
+`pt 141 peptide uk reddit`, `pt 141 for sale uk`, `pt 141 peptide for sale uk`,
+`buy bremelanotide uk`, `bremelanotide for sale uk`, `bremelanotide nasal spray uk`.
+Note: Google resolves the hyphenated form for base probes but the **spaced form `pt 141`** for
+every UK-modifier probe — both forms were harvested.
+
+### Collision check (KW Phase 1)
+`grep -niE "pt-141|pt 141|bremelanotide|where-to-buy|cheapest" ~/viralpeps/kw-phase-1-list.md`
+returned **zero PT-141 / Bremelanotide matches.** Only unrelated pillar rows:
+`where-to-buy-peptides-uk` (34), `where-to-buy-tirzepatide-uk` (89), `cheapest-peptides-uk` (123).
+**No plan collisions — nothing removed.**
+
+### Data
+- 73 master sources + child variants (`pt-141-10mg`, `pt-141-pen-express`,
+  `sterling-pt-141-10mg`) folded in → **69 unique live listings**.
+- Uses `vendorSlugFor()` (the Semax fix) — real slugs from `vendors.json`, so **0 broken go-links**.
+- 3 sources carry `options[]` arrays (UK Peptides, Dr P Research, Phoenix BioLabs) — expanded per pack.
+- 1 source has a junk price (`Peptides UK`, `£—`) — dropped rather than rendered as £0.00.
+- `tableMode: "full"` on the comparison spoke maps to the **per-mg sort** (PT-141's headline
+  question is value, and a 73-row table sorted by raw price is unreadable).
+
+### Molecular identity — verified via PubChem REST (not inherited)
+- **Bremelanotide**: CID 9941379 · C50H68N14O10 · MW 1025.2 · CAS **189691-06-3** (free base).
+- **Bremelanotide acetate**: CID 91971505 · C52H72N14O12 · MW 1085.2 · CAS **1607799-13-2**.
+- Residue pattern confirmed from PubChem synonyms: Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-OH,
+  lactam bridge Asp↔Lys. PT-141 is the D-Phe epimer of the Melanotan II core — the ring closure
+  is what differentiates its receptor profile. This is the salt-form angle no competitor covers.
+
+### PMIDs used (all resolved via NCBI E-utilities esummary — none drafted from memory)
+- 31599840 — Bremelanotide for HSDD: Two Randomized Phase 3 Trials (Obstet Gynecol 2019)
+- 31599847 — Long-Term Safety and Efficacy of Bremelanotide for HSDD (Obstet Gynecol 2019)
+- 35230162 — Prespecified and Integrated Subgroup Analyses, RECONNECT Phase 3 (J Womens Health 2022)
+- 36242769 — An evaluation of bremelanotide injection for HSDD (Expert Opin Pharmacother 2023)
+- 38767282 — Pharmacotherapy of HSDD in Premenopausal Women (Ann Pharmacother 2025)
+- 39793696 — Female Syrian hamster analyses of bremelanotide (Neuropharmacology 2025)
+- 42254382 — Clinical trial evidence, emerging pharmacotherapies for HSDD (Front Med 2026)
+- 42485063 — Comprehensive characterization of bremelanotide acetate + degradants by LC-HRMS/MS (Anal Methods 2026)
+- 42862021 — Peptides in urology and sexual medicine: narrative review (Sex Med Rev 2026)
+- 25096243 — Melanocortin receptor agonists in male and female sexual dysfunctions (Expert Opin Investig Drugs 2014)
+- 23121206 — Melanotan II injection: systemic toxicity and rhabdomyolysis (Clin Toxicol 2012)
+
+⚠️ **NCBI silently throttles**: a 6-query burst returned **HTTP 429**. Throttle esearch/esummary
+to one call every 2 seconds, or batch the IDs into a single esummary request.
+
+### ⚠️ Pitfall — `/go/` link probing returns 404/403/429 to non-browser UAs
+Testing `/go/` links with a plain Python/urllib UA gives **404** even when the route works, and
+**403/429** when the click-guard throttles. Verified live: `eva-peptide`, `nilah-labs`,
+`peptide-lab-uk` all return **302** to a Chrome UA. Do NOT report these as broken links —
+re-test with `curl -A 'Mozilla/5.0 ... Chrome/120 ...'`, 2s apart. This is the same
+rate-sensitivity already documented for the Semax silo, now confirmed as UA-dependent too.
+
+### Files changed
+`src/data/pt-141-silo.ts` (new) · `src/data/pt-141-spokes.ts` (new) ·
+`src/data/silos.ts` (registry entry + `Pt141Stats` type export) ·
+`src/app/compound-guides/[slug]/page.tsx` (imports, `CompoundKey`, `COMPOUND_NAMES`,
+`resolveSpoke`, `generateStaticParams`, `tableData`, stats ternary, featured-slot switch,
+spoke manifest) · `src/app/compounds/[slug]/page.tsx` (hub tile block).
+Sitemap auto-includes via the registry — no edit needed (verified: 12 pt-141 URLs live).
+
+---
+
 ## ✅ DONE — SEMAX SILO (commit `a627fc5e`)
 
 Queue item 3 of 5. Built per the locked SOP. Deploy verified live 2026-10-01.
