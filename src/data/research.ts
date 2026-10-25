@@ -1986,6 +1986,31 @@ export const guides: ResearchArticle[] = [
     minutes: 10,
     tags: ["price-comparison", "cost-per-milligram", "vial-size", "peptide-prices", "uk", "market-structure", "ghk-cu", "mots-c", "bpc-157", "tb-500", "research-hub"],
   },
+
+  {
+    title: "Thymosin Alpha-1 Research Guide: The 42-Dalton Tell",
+    desc: "A 28-residue fragment where N-terminal acetylation is the key identity test. TLR2/9 signalling, dendritic-cell IDO, and the phase 3 sepsis trial that failed.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Thymosin Alpha-1",
+    slug: "thymosin-alpha-1-research-guide",
+    image: "thymosin-alpha-1-research-guide",
+    minutes: 12,
+    tags: ["thymosin-alpha-1", "thymalfasin", "ta1", "immunology", "tlr9", "dendritic-cells", "ido", "prothymosin", "research-hub", "peptide-research"],
+  },
+
+  {
+    title: "Thymosin Alpha-1 UK Price Per mg: 42 Listings",
+    desc: "Vial-size bands for 33 UK listings, a £2.20 to £28.00 per mg spread, why the cheapest sticker is not the cheapest milligram, and the 42-dalton identity check.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Thymosin Alpha-1",
+    slug: "thymosin-alpha-1-uk-price-guide",
+    image: "thymosin-alpha-1-uk-price-guide",
+    minutes: 11,
+    tags: ["thymosin-alpha-1", "price-per-mg", "uk", "sourcing", "suppliers", "certificate-of-analysis", "thymalfasin", "cost-per-milligram", "research-hub", "buy"],
+  },
+
 ];
 
 export const compoundList: string[] = [
