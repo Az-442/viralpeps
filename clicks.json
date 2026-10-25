@@ -32653,5 +32653,51 @@
     "destUrl": "https://www.revexa.co.uk/product-page/pinealon-10mg-neuroprotective-research-tripeptide",
     "refPage": "https://www.viralpeps.co.uk/go/revexa/pinealon",
     "visitorId": "2e33ee92694c0314"
+  },
+  {
+    "ts": "2026-10-25T12:49:20.349Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://precision-peptides.shop/product/bpc-157-research-peptide-10mg/",
+    "visitorId": "396b1868770cb6f2"
+  },
+  {
+    "ts": "2026-10-25T12:56:30.048Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://precision-peptides.shop/product/ll-37-5mg-no-packaging/",
+    "visitorId": "45bd3abecb01c8ee"
+  },
+  {
+    "ts": "2026-10-25T13:03:55.300Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://armapeptideshop.com/product/pt-141-10mg/",
+    "visitorId": "ef85d7b9af292ba6"
+  },
+  {
+    "ts": "2026-10-25T13:11:07.736Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "cjc-1295-dac",
+    "destUrl": "https://bioplexpeptides.co.uk/products/cjc-1295-dac-5mg-ghrh",
+    "visitorId": "a8cab285a53135d0"
+  },
+  {
+    "ts": "2026-10-25T13:18:32.144Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ara-290-16mg",
+    "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/ara-290-16mg",
+    "visitorId": "d01af90fe94767f0"
   }
 ]
