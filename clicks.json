@@ -32288,5 +32288,60 @@
     "compoundSlug": "vip",
     "destUrl": "https://bionikpeptides.com/products/vip",
     "visitorId": "718ab3931bbeeb47"
+  },
+  {
+    "ts": "2026-10-25T08:35:42.241Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "visitorId": "e7799fb7abc5ca03"
+  },
+  {
+    "ts": "2026-10-25T08:36:38.655Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/",
+    "visitorId": "f4956d203c39b0f2"
+  },
+  {
+    "ts": "2026-10-25T08:46:48.177Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://pioneerpeptides.co.uk/products/acetic-acid-water-aa/",
+    "visitorId": "a3a48d1add8d60ad"
+  },
+  {
+    "ts": "2026-10-25T08:49:50.966Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://zentra-peptides.com/product/bpc-157-tb-500-research-blend/",
+    "visitorId": "212f78490044962d"
+  },
+  {
+    "ts": "2026-10-25T08:51:46.457Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://armapeptideshop.com/product/dsip-5mg-premium-research-peptide/",
+    "visitorId": "578614ae6d2fc57b"
+  },
+  {
+    "ts": "2026-10-25T09:09:08.131Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://vialverse.com/peptides/bpc-157-tb-500",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/bpc-157-tb-500",
+    "visitorId": "ccfd1389759dfb19"
   }
 ]
