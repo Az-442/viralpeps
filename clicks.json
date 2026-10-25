@@ -893,5 +893,13 @@
     "compoundSlug": "klow",
     "destUrl": "https://biohackpeptides.co.uk/product/klow-blend-peptide-80mg-3ml-bac-water/",
     "visitorId": "0d30e0b92f7ad531"
+  },
+  {
+    "ts": "2026-10-25T22:18:51.127Z",
+    "type": "vendor-site",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "destUrl": "https://alphamino.co.uk",
+    "visitorId": "c3dfa4e2bb178fd1"
   }
 ]
