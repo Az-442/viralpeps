@@ -32473,5 +32473,42 @@
     "compoundSlug": "l-carnitine",
     "destUrl": "https://peptx.co.uk/single-vials/l-carnitine",
     "visitorId": "97963f064cf557f9"
+  },
+  {
+    "ts": "2026-10-25T10:44:14.399Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptx.co.uk/single-vials/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/go/peptx/ipamorelin",
+    "visitorId": "50cde19a79a5c333"
+  },
+  {
+    "ts": "2026-10-25T10:59:25.560Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bluewellpeptides.com/product/nad-500mg/",
+    "visitorId": "8e04e0fb8f8b344f"
+  },
+  {
+    "ts": "2026-10-25T11:06:25.597Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://peptx.co.uk/single-vials/semaglutide",
+    "visitorId": "2c723099f2d5b39b"
+  },
+  {
+    "ts": "2026-10-25T11:07:46.635Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://vialverse.com/peptides/ghk-cu",
+    "visitorId": "05b2b78ce792ab50"
   }
 ]
