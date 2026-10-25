@@ -32408,5 +32408,42 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://olresearch.co.uk/product/r3ta-20mg/",
     "visitorId": "76bff635b8af73f2"
+  },
+  {
+    "ts": "2026-10-25T10:07:45.115Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://bionikpeptides.com/products/tirzepatide",
+    "visitorId": "9ebc07fb3ee00c00"
+  },
+  {
+    "ts": "2026-10-25T10:22:18.996Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pepnova.uk/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8ed53d29c3733010"
+  },
+  {
+    "ts": "2026-10-25T10:22:29.979Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://vialverse.com/peptides/survodutide",
+    "visitorId": "55ba427bcb0946c1"
+  },
+  {
+    "ts": "2026-10-25T10:36:57.580Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptx.co.uk/single-vials/ghk-cu",
+    "visitorId": "d804e261811422d6"
   }
 ]
