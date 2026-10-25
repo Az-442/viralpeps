@@ -32445,5 +32445,33 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://peptx.co.uk/single-vials/ghk-cu",
     "visitorId": "d804e261811422d6"
+  },
+  {
+    "ts": "2026-10-25T10:15:06.651Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "glow",
+    "destUrl": "https://www.peptidesx.uk/product/glow-blend/",
+    "visitorId": "92d5d6e2140e4445"
+  },
+  {
+    "ts": "2026-10-25T10:29:32.246Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-gh-stack",
+    "destUrl": "https://bionikpeptides.com/products/w1-muscle-building-bundle",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/bundle-gh-stack",
+    "visitorId": "4ee3128b03b1e5bb"
+  },
+  {
+    "ts": "2026-10-25T10:51:37.423Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://peptx.co.uk/single-vials/l-carnitine",
+    "visitorId": "97963f064cf557f9"
   }
 ]
