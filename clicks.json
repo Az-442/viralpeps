@@ -386,5 +386,154 @@
     "destUrl": "https://pslabs.uk/products/pt-141-bremelanotide-10mg",
     "refPage": "https://www.viralpeps.co.uk/go/ps-labs/pt-141-bremelanotide",
     "visitorId": "5890cd52e3a601c0"
+  },
+  {
+    "ts": "2026-10-25T20:28:19.423Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://purepeptidesuk.com/product/vesugen-20mg/",
+    "refPage": "https://viralpeps.co.uk/compounds/vesugen",
+    "visitorId": "486a01fe3c05fcc0"
+  },
+  {
+    "ts": "2026-10-25T20:32:59.748Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://fatpigpeptides.co.uk/product/glp-3-reta-40-mg-research-pen/",
+    "visitorId": "3cefbc5c216eaaab"
+  },
+  {
+    "ts": "2026-10-25T20:33:28.266Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/retatrutide-10mg/",
+    "visitorId": "3cefbc5c216eaaab"
+  },
+  {
+    "ts": "2026-10-25T20:34:21.630Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-60-capsules",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-60-capsules/",
+    "visitorId": "9e51397caa140538"
+  },
+  {
+    "ts": "2026-10-25T20:35:16.056Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "a72092924c414a23"
+  },
+  {
+    "ts": "2026-10-25T20:36:41.388Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://reta-uk.com/products/bacteriorastic-water-10ml",
+    "visitorId": "fdf95a165596f4a5"
+  },
+  {
+    "ts": "2026-10-25T20:42:36.915Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "visitorId": "db74789e4c2273bd"
+  },
+  {
+    "ts": "2026-10-25T20:43:12.782Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "visitorId": "db74789e4c2273bd"
+  },
+  {
+    "ts": "2026-10-25T20:44:42.847Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "gagrilintide-5mg",
+    "destUrl": "https://evapeptide.co.uk/product/buy-cagrilintide-uk/",
+    "visitorId": "6dae9ac22bf17e2e"
+  },
+  {
+    "ts": "2026-10-25T20:49:21.591Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin",
+    "visitorId": "a8fa2e5494350aca"
+  },
+  {
+    "ts": "2026-10-25T20:51:15.415Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "tesofensine-500mcg-100-tablets",
+    "destUrl": "https://researchpeptide.co.uk/product/tesofensine-500mcg-100-tablets/",
+    "visitorId": "ac5df98b7d069474"
+  },
+  {
+    "ts": "2026-10-25T20:53:12.405Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d5833fa43826d8ab"
+  },
+  {
+    "ts": "2026-10-25T20:53:17.013Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c17e55462c934c7c"
+  },
+  {
+    "ts": "2026-10-25T20:53:26.450Z",
+    "type": "product",
+    "vendorSlug": "global-bio-research",
+    "vendorName": "Global Bio Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://globalbioresearch.co/shop/pt-141",
+    "refPage": "https://www.viralpeps.co.uk/go/global-bio-research/pt-141-bremelanotide",
+    "visitorId": "3c97b41937951f33"
+  },
+  {
+    "ts": "2026-10-25T20:54:50.693Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://reta-uk.com/products/bacteriorastic-water-10ml",
+    "visitorId": "a1d1b6d892645c7c"
+  },
+  {
+    "ts": "2026-10-25T21:03:45.340Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://midshirelabs.co.uk/products/hexarelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9021dc1ad63155bb"
   }
 ]
