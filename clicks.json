@@ -32931,5 +32931,59 @@
     "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "7f348d2dfee01c60"
+  },
+  {
+    "ts": "2026-10-25T15:16:23.007Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://britpeptides.co.uk/product/mots-c-10mg/",
+    "visitorId": "f5176bb2006d0aa6"
+  },
+  {
+    "ts": "2026-10-25T15:23:19.333Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/pen",
+    "visitorId": "ac0194119b78d672"
+  },
+  {
+    "ts": "2026-10-25T15:30:43.648Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "aicar",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-aicar-50mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "9d3d2e70e754e68f"
+  },
+  {
+    "ts": "2026-10-25T15:38:02.740Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://evapeptide.co.uk/product/buy-5-amino-1mq-uk/",
+    "refPage": "https://www.viralpeps.co.uk/go/eva-peptide/5-amino-1mq",
+    "visitorId": "4b507b40bd11a03b"
+  },
+  {
+    "ts": "2026-10-25T15:45:29.400Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.expresspeptides.co.uk/product/vip/pen",
+    "visitorId": "10821ca85981cae5"
+  },
+  {
+    "ts": "2026-10-25T15:47:39.539Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "75cea88370669078"
   }
 ]
