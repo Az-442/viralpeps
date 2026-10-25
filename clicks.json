@@ -31942,5 +31942,51 @@
     "compoundSlug": "5-amino-1mq-10mg",
     "destUrl": "https://evolvepeptides.uk/products/5-amino-1mq-10mg",
     "visitorId": "626b978031271615"
+  },
+  {
+    "ts": "2026-10-25T06:20:08.192Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://evolvepeptides.uk/products/pinealon-5mg",
+    "visitorId": "de5bfa8660fb3686"
+  },
+  {
+    "ts": "2026-10-25T06:27:19.150Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://evolvepeptides.uk/products/melanotan-10mg",
+    "visitorId": "d2356e14da75fcc5"
+  },
+  {
+    "ts": "2026-10-25T06:34:26.187Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "selank",
+    "destUrl": "https://helixcore.co.uk/products/selank",
+    "refPage": "https://www.viralpeps.co.uk/go/helix-core/selank",
+    "visitorId": "1cc9424a22eeaa88"
+  },
+  {
+    "ts": "2026-10-25T06:41:44.488Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://helixcore.co.uk/products/5-amino-1mq",
+    "refPage": "https://www.viralpeps.co.uk/go/helix-core/5-amino-1mq",
+    "visitorId": "553737a565f33b24"
+  },
+  {
+    "ts": "2026-10-25T06:49:28.267Z",
+    "type": "vendor-site",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "destUrl": "https://evolvepeptides.uk",
+    "visitorId": "5ea597085d7084f7"
   }
 ]
