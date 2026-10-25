@@ -32577,5 +32577,81 @@
     "destUrl": "https://vialverse.com/peptides/abaloparatide",
     "refPage": "https://www.viralpeps.co.uk/go/vialverse/abaloparatide",
     "visitorId": "85f0947471110ec6"
+  },
+  {
+    "ts": "2026-10-25T12:07:52.487Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/mt-2-10mg",
+    "visitorId": "7f254f2a3d6a4f86"
+  },
+  {
+    "ts": "2026-10-25T12:12:20.507Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-6",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/ghrp-6",
+    "visitorId": "f55aefa443ac23df"
+  },
+  {
+    "ts": "2026-10-25T12:19:43.904Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://bluewellpeptides.com/product/slu-pp-332-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/bluewell-peptides/slu-pp-332",
+    "visitorId": "c93e5fbd0290cd6b"
+  },
+  {
+    "ts": "2026-10-25T12:27:01.644Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://pioneerpeptides.co.uk/products/semax/",
+    "refPage": "https://www.viralpeps.co.uk/go/pioneer-peptides/semax",
+    "visitorId": "ac0b8d013046296f"
+  },
+  {
+    "ts": "2026-10-25T12:34:44.831Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "a8c982a5dccee263"
+  },
+  {
+    "ts": "2026-10-25T12:34:50.911Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "59729285f278b6a7"
+  },
+  {
+    "ts": "2026-10-25T12:34:53.503Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "59729285f278b6a7"
+  },
+  {
+    "ts": "2026-10-25T12:41:44.061Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://www.revexa.co.uk/product-page/pinealon-10mg-neuroprotective-research-tripeptide",
+    "refPage": "https://www.viralpeps.co.uk/go/revexa/pinealon",
+    "visitorId": "2e33ee92694c0314"
   }
 ]
