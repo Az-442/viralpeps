@@ -32343,5 +32343,24 @@
     "destUrl": "https://vialverse.com/peptides/bpc-157-tb-500",
     "refPage": "https://www.viralpeps.co.uk/go/vialverse/bpc-157-tb-500",
     "visitorId": "ccfd1389759dfb19"
+  },
+  {
+    "ts": "2026-10-25T09:01:39.884Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bluewellpeptides.com/product/epithalon-10mg-peptide/",
+    "visitorId": "c17a625dabd7e405"
+  },
+  {
+    "ts": "2026-10-25T09:30:43.799Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "kisspeptin",
+    "destUrl": "https://bionikpeptides.com/products/kisspeptin",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/kisspeptin",
+    "visitorId": "deaa5560b90b8773"
   }
 ]
