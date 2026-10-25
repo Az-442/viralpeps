@@ -32699,5 +32699,62 @@
     "destUrl": "https://purepeptidesuk.com/product/ara-290-16mg/",
     "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/ara-290-16mg",
     "visitorId": "d01af90fe94767f0"
+  },
+  {
+    "ts": "2026-10-25T13:25:31.818Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e894943b73f1e844"
+  },
+  {
+    "ts": "2026-10-25T13:25:59.240Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://oplabs.co.uk/product/bpc-157-5mg/",
+    "visitorId": "54ebf1cf6a7400af"
+  },
+  {
+    "ts": "2026-10-25T13:33:07.689Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://britpeptides.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/brit-peptides/kpv",
+    "visitorId": "3308e01491f9fc40"
+  },
+  {
+    "ts": "2026-10-25T13:40:43.751Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nilahlabs.co.uk/products/ghkcu",
+    "visitorId": "e58d2b33a650961e"
+  },
+  {
+    "ts": "2026-10-25T13:47:49.792Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://chromapeptides.co.uk/product/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/go/chroma-peptides/aod-9604",
+    "visitorId": "5379c7a7c3b48653"
+  },
+  {
+    "ts": "2026-10-25T13:55:18.371Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "klow",
+    "destUrl": "https://trutide.co.uk/product/klow-80mg/",
+    "visitorId": "091879f4aff753fd"
   }
 ]
