@@ -35,6 +35,7 @@ import {
   type SermorelinStats,
 } from "@/data/sermorelin-silo";
 import { AOD_SPOKES, getAodStats, type AodStats } from "@/data/aod-9604-silo";
+import { PT141_SPOKES, getPt141Stats, type Pt141Stats } from "@/data/pt-141-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -213,6 +214,14 @@ export const SILOS: Silo[] = [
     spokes: AOD_SPOKES as unknown as SiloSpoke[],
     getStats: () => getAodStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "pt-141-bremelanotide",
+    name: "PT-141",
+    blurb:
+      "Bremelanotide (PT-141) buying guides — verified UK suppliers, lowest price per mg, full price comparison, salt-form checks and TrustScore rankings.",
+    spokes: PT141_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getPt141Stats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -232,3 +241,4 @@ export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, Ipamorel
 export type { SermorelinStats };
 export type { AodStats };
 export type { GhkStats };
+export type { Pt141Stats };
