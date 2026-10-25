@@ -31821,5 +31821,108 @@
     "destUrl": "https://evolvepeptides.uk/products/tb-500-5mg",
     "refPage": "https://www.viralpeps.co.uk/go/evolve-peptides/tb-500",
     "visitorId": "1f685ba37345e475"
+  },
+  {
+    "ts": "2026-10-25T05:06:34.201Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f327aea92292f86e"
+  },
+  {
+    "ts": "2026-10-25T05:13:38.909Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://helixcore.co.uk/products/bpc-157-tb-500-blend",
+    "visitorId": "7f4af1a5a10e9d10"
+  },
+  {
+    "ts": "2026-10-25T05:21:20.196Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://evolvepeptides.uk/products/pt141",
+    "visitorId": "43cc124df1919531"
+  },
+  {
+    "ts": "2026-10-25T05:24:43.373Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "6db760a273c981b2"
+  },
+  {
+    "ts": "2026-10-25T05:27:43.458Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "3ebd25ee7bc0de25"
+  },
+  {
+    "ts": "2026-10-25T05:28:19.721Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://helixcore.co.uk/products/sermorelin",
+    "refPage": "https://www.viralpeps.co.uk/go/helix-core/sermorelin",
+    "visitorId": "c054c74844f8eae4"
+  },
+  {
+    "ts": "2026-10-25T05:31:07.742Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://evolvepeptides.uk/products/cjc-1295-no-dac-5mg",
+    "visitorId": "4dbe9ab08d6711ed"
+  },
+  {
+    "ts": "2026-10-25T05:32:46.749Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://retaresearch.co/products/sema",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c5c77b37ce737528"
+  },
+  {
+    "ts": "2026-10-25T05:32:48.014Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://retaresearch.co/products/sema",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5bc75b2f08a357e7"
+  },
+  {
+    "ts": "2026-10-25T05:35:53.681Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "semax-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/semax-5mg",
+    "visitorId": "840075c68e563b9f"
+  },
+  {
+    "ts": "2026-10-25T05:43:51.541Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://helixcore.co.uk/products/cjc-1295-with-dac",
+    "visitorId": "883f7a1b0b04702d"
   }
 ]
