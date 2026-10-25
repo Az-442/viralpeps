@@ -955,5 +955,35 @@
     "compoundSlug": "kisspeptin-nasal-spray",
     "destUrl": "https://ukpeptides.com/catalog/kisspeptin-nasal-spray",
     "visitorId": "923b00467f0b1e09"
+  },
+  {
+    "ts": "2026-10-25T23:03:28.419Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.peptidesonline.uk/shop/igf-1-lr3/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5d1b7272f956daf3"
+  },
+  {
+    "ts": "2026-10-25T23:07:14.459Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/go/leolab/aod-9604",
+    "visitorId": "c13b9b3157b647ed"
+  },
+  {
+    "ts": "2026-10-25T23:33:26.284Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/73-sermorelin-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/sermorelin",
+    "visitorId": "cdd8e1192c4acee1"
   }
 ]
