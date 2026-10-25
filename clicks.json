@@ -32197,5 +32197,96 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://redpandapeptides.co.uk/product/bacteriostatic-water-10ml/",
     "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-25T08:17:48.812Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://bluewellpeptides.com/product/vip-10mg-peptide/",
+    "visitorId": "4bb14bfd667cea90"
+  },
+  {
+    "ts": "2026-10-25T08:21:57.379Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://allmypeptides.com/product/retatrutide/",
+    "visitorId": "d6e387cd908110b0"
+  },
+  {
+    "ts": "2026-10-25T08:24:39.351Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptx.co.uk/single-vials/5-amino-1mq",
+    "visitorId": "daed3c4ed64fa180"
+  },
+  {
+    "ts": "2026-10-25T08:30:04.109Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "f80de336ecb057dd"
+  },
+  {
+    "ts": "2026-10-25T08:31:54.898Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://www.peptidesx.uk/product/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptidesx/epitalon",
+    "visitorId": "d2caf2722ec92b8b"
+  },
+  {
+    "ts": "2026-10-25T08:39:28.662Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "semax",
+    "destUrl": "https://vialverse.com/peptides/semax",
+    "visitorId": "7bbf5c53b07dcb1a"
+  },
+  {
+    "ts": "2026-10-25T08:40:55.100Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://purepeptidesuk.com/product/tesamorelin-2mg/",
+    "visitorId": "db3f0d0ee853271f"
+  },
+  {
+    "ts": "2026-10-25T08:44:04.861Z",
+    "type": "product",
+    "vendorSlug": "biohack-peptides",
+    "vendorName": "Biohack Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://biohackpeptides.co.uk/product/tesamorelin-peptide-5mg-3ml-bac-water/",
+    "visitorId": "b7c3e8a8c1a00a03"
+  },
+  {
+    "ts": "2026-10-25T08:44:25.867Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin",
+    "visitorId": "b7c3e8a8c1a00a03"
+  },
+  {
+    "ts": "2026-10-25T08:54:08.703Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://bionikpeptides.com/products/vip",
+    "visitorId": "718ab3931bbeeb47"
   }
 ]
