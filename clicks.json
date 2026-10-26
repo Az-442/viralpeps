@@ -2840,5 +2840,100 @@
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://peptx.co.uk/single-vials/5-amino-1mq",
     "visitorId": "e95e2a6348abf56b"
+  },
+  {
+    "ts": "2026-10-26T13:58:35.383Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6b0d368df0e80cdb"
+  },
+  {
+    "ts": "2026-10-26T14:01:39.481Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "methylene-blue",
+    "destUrl": "https://www.northpeptidesuk.com/products/methylene-blue/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "823ae8d0818ad857"
+  },
+  {
+    "ts": "2026-10-26T14:03:42.935Z",
+    "type": "vendor-site",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "destUrl": "https://purepeptidesuk.com",
+    "visitorId": "ac4d3f78a86f25ba"
+  },
+  {
+    "ts": "2026-10-26T14:08:53.127Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://optimuslabs.co.uk/product/ghk-cu/",
+    "visitorId": "284c85c2fecea386"
+  },
+  {
+    "ts": "2026-10-26T14:13:37.586Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://allmypeptides.com/product/wolverine-blend/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "259a0a455e443898"
+  },
+  {
+    "ts": "2026-10-26T14:15:13.937Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ccff470069e2173a"
+  },
+  {
+    "ts": "2026-10-26T14:17:50.227Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://allmypeptides.com/product/wolverine-blend/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "259a0a455e443898"
+  },
+  {
+    "ts": "2026-10-26T14:20:11.834Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://midshirelabs.co.uk/products/bpc157-tb500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1ed07e33238062d6"
+  },
+  {
+    "ts": "2026-10-26T14:25:11.098Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://britishpeptidelabs.com/products/selank",
+    "visitorId": "060eaf570bcc86e8"
+  },
+  {
+    "ts": "2026-10-26T14:30:27.450Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
+    "visitorId": "9fb3897c732901a1"
   }
 ]
