@@ -2448,5 +2448,51 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://peptigenlabs.co.uk/products/PL-NAD-500",
     "visitorId": "8d2d2c6624101f68"
+  },
+  {
+    "ts": "2026-10-26T08:37:58.579Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ovagen/",
+    "visitorId": "d3f87e6c84e13a78"
+  },
+  {
+    "ts": "2026-10-26T08:40:02.238Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ovagen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ovagen/",
+    "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-26T08:45:24.087Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://armapeptideshop.com/product/retatrutide-30mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c47b36f882a06dff"
+  },
+  {
+    "ts": "2026-10-26T08:56:08.493Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-aod-9604",
+    "destUrl": "https://sterlingpeptides.co.uk/product/aod-9604-peptide/",
+    "visitorId": "626b978031271615"
+  },
+  {
+    "ts": "2026-10-26T09:11:27.883Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://bionikpeptides.com/products/kpv",
+    "visitorId": "15a1816c5260192c"
   }
 ]
