@@ -1815,5 +1815,116 @@
     "destUrl": "https://polygonpeptides.co.uk/product/wolverine-blend-20mg/",
     "refPage": "https://www.google.com/",
     "visitorId": "9403a1fef370ecc8"
+  },
+  {
+    "ts": "2026-10-26T02:13:30.662Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "9179801ffed80ed3"
+  },
+  {
+    "ts": "2026-10-26T02:13:39.203Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "4bb75f6fcbe96b8e"
+  },
+  {
+    "ts": "2026-10-26T02:14:57.379Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghrp-6-acetate",
+    "visitorId": "390da4bdaf673c76"
+  },
+  {
+    "ts": "2026-10-26T02:16:52.006Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://polygonpeptides.co.uk/product/dsip-10mg/",
+    "visitorId": "6c6475d571b3371d"
+  },
+  {
+    "ts": "2026-10-26T02:16:52.795Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
+    "visitorId": "12e5e2b296aab401"
+  },
+  {
+    "ts": "2026-10-26T02:19:44.019Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.peptidesonline.uk/shop/melanotan-2/",
+    "visitorId": "a75d7316ad9da691"
+  },
+  {
+    "ts": "2026-10-26T02:20:27.379Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/selank-5mg",
+    "visitorId": "9323b0369058afc7"
+  },
+  {
+    "ts": "2026-10-26T02:21:02.794Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://everythingpeptides.co.uk/products/wolverine-stack",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7d9076608aa6d2f3"
+  },
+  {
+    "ts": "2026-10-26T02:24:48.845Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britishpeptidelabs.com/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3f2ae38af2177238"
+  },
+  {
+    "ts": "2026-10-26T02:26:24.532Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://phoenixbiolabs.net/shop/klow-blend-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5cf9ae816dce1757"
+  },
+  {
+    "ts": "2026-10-26T02:29:27.059Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghrp-6-acetate",
+    "visitorId": "4dbe9ab08d6711ed"
+  },
+  {
+    "ts": "2026-10-26T02:37:49.439Z",
+    "type": "vendor-site",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "destUrl": "https://phoenixbiolabs.net",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "70b27a4759b0e1e0"
   }
 ]
