@@ -3790,5 +3790,90 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.northpeptidesuk.com/products/ghk-cu/",
     "visitorId": "b8b5e075870533b8"
+  },
+  {
+    "ts": "2026-10-26T21:21:22.244Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/",
+    "visitorId": "54ebf1cf6a7400af"
+  },
+  {
+    "ts": "2026-10-26T21:24:19.546Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://zentra-peptides.com/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c7a3cefb0d35239c"
+  },
+  {
+    "ts": "2026-10-26T21:31:36.238Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://britishpeptidelabs.com/products/pt-141",
+    "refPage": "https://www.viralpeps.co.uk/go/british-peptide-labs/pt-141",
+    "visitorId": "b96c060cad3b7849"
+  },
+  {
+    "ts": "2026-10-26T21:39:33.565Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/ghk-cu-100mg/",
+    "visitorId": "e8f6b2fe3d5b0882"
+  },
+  {
+    "ts": "2026-10-26T21:41:59.923Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "nad-250mg",
+    "destUrl": "https://peptidesuk.com/nad-250mg/",
+    "visitorId": "c7317072538d3a21"
+  },
+  {
+    "ts": "2026-10-26T21:42:33.786Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f7dbe8a6b3b61242"
+  },
+  {
+    "ts": "2026-10-26T21:47:24.612Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "c5ed43520f262794"
+  },
+  {
+    "ts": "2026-10-26T21:50:06.167Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://unitedpeptides.co.uk/product/tirzepatide-60mg/",
+    "visitorId": "b2edad14c57edab2"
+  },
+  {
+    "ts": "2026-10-26T21:52:24.371Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/semaglutide",
+    "visitorId": "c2b67d8b4c45290b"
   }
 ]
