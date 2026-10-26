@@ -2130,5 +2130,81 @@
     "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "b99ef1200818254a"
+  },
+  {
+    "ts": "2026-10-26T04:53:33.160Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "64b5100649ee872c"
+  },
+  {
+    "ts": "2026-10-26T04:53:34.590Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bionikpeptides.com/products/bpc-157",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-26T04:53:42.378Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "visitorId": "6aa330cd51df5563"
+  },
+  {
+    "ts": "2026-10-26T05:00:55.789Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidehub.co.uk/product/tb-500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "68c085fd9296b7cc"
+  },
+  {
+    "ts": "2026-10-26T05:01:16.174Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidehub.co.uk/product/tb-500-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "9dd23752ba25aaf1"
+  },
+  {
+    "ts": "2026-10-26T05:05:35.439Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://peptidesshopuk.com/product/tira-20/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cfb8e7ea42f732a3"
+  },
+  {
+    "ts": "2026-10-26T05:05:51.433Z",
+    "type": "product",
+    "vendorSlug": "biohackerxlab",
+    "vendorName": "BIOHACKERxLAB",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biohackerxlab.com/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1f171d2c0758d6dd"
+  },
+  {
+    "ts": "2026-10-26T05:20:25.945Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html",
+    "visitorId": "ef980a4375ea532e"
   }
 ]
