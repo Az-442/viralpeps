@@ -3298,5 +3298,34 @@
       "coa": "coa",
       "review": null
     }
+  },
+  "novabiolabs": {
+    "slug": "novabiolabs",
+    "website": "https://novabiolabs.co.uk",
+    "checkedAt": "2026-10-26T00:32:28.540Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "review": "trustpilot",
+      "shipping": "free shipping",
+      "contact": "contact",
+      "title": "nova biolabs | research peptides — tirzepatide, retatrutide & more"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "hplc",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 3,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "hplc",
+      "review": null
+    }
   }
 }

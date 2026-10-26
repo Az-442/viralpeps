@@ -5569,5 +5569,47 @@
       },
       "checkedAt": "2026-10-24T00:33:07.348Z"
     }
+  },
+  {
+    "id": "novabiolabs",
+    "name": "Nova Biolabs",
+    "slug": "novabiolabs",
+    "website": "https://novabiolabs.co.uk",
+    "description": "UK research peptide supplier holding stock in the UK and dispatching same day on orders placed before 9am. Compounds are supplied as lyophilised vials with research-use-only labelling; vials ship via Royal Mail Tracked 24 and pre-filled pens via a separate standard-delivery courier.",
+    "verified": true,
+    "verifiedDate": "2026-10-26",
+    "delivery": "UK only · Royal Mail Tracked 24 on vials (same-day dispatch before 9am Mon–Sat) · pens ship free standard 3–5 working days · guaranteed next-day upgrade +£10",
+    "email": "info@novabiolabs.co.uk",
+    "rating": 4.5,
+    "reviews": 0,
+    "logo": "/images/vendors/novabiolabs.png",
+    "shipping": [
+      "Royal Mail Tracked 24",
+      "Same-day dispatch before 9am",
+      "Free standard delivery on pens",
+      "Next-day upgrade +£10"
+    ],
+    "payment": [
+      "Card"
+    ],
+    "lastTested": "2026-10-26",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "free shipping",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-26T00:32:28.540Z"
+    }
   }
 ]
