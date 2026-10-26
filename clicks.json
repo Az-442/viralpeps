@@ -1945,5 +1945,91 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://www.na-peptides.co.uk/product/retatrutide-20mg-uk/",
     "visitorId": "49e529c9451d05aa"
+  },
+  {
+    "ts": "2026-10-26T03:10:33.553Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/tb-500-10mg",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-26T03:10:37.192Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/tb-500-10mg",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-26T03:22:19.634Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://britishpeptidelabs.com/products/bpc-157-tb-500-mix",
+    "refPage": "https://www.google.com/",
+    "visitorId": "9106b7b29036bdaf"
+  },
+  {
+    "ts": "2026-10-26T03:24:16.872Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://ultimatepeptides.co.uk/tesamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "abc72d474c68708d"
+  },
+  {
+    "ts": "2026-10-26T03:31:23.153Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://ukpeptides.com/catalog/bpc-157-tb-500-blend",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ea079472dcd7e992"
+  },
+  {
+    "ts": "2026-10-26T03:31:57.657Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/bpc-157-tb500-blend/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ed2e64485e1e00d5"
+  },
+  {
+    "ts": "2026-10-26T03:33:36.143Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+    "visitorId": "aa60171a58174303"
+  },
+  {
+    "ts": "2026-10-26T03:33:46.320Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/tesamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0033686e1fffeb7b"
+  },
+  {
+    "ts": "2026-10-26T03:41:35.058Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://retaresearch.co/products/cagrilintide",
+    "visitorId": "7f254f2a3d6a4f86"
   }
 ]
