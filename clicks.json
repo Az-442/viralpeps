@@ -4146,5 +4146,14 @@
     "vendorName": "N&A Peptides",
     "destUrl": "https://www.na-peptides.co.uk",
     "visitorId": "6fb5b30be0d763b9"
+  },
+  {
+    "ts": "2026-10-26T23:49:15.541Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
+    "visitorId": "a8fa2e5494350aca"
   }
 ]
