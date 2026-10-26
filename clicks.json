@@ -3689,5 +3689,106 @@
     "destUrl": "https://www.revexa.co.uk/product-page/tesamorelin-research-grade-10mg",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "59ce0325b3a1d48b"
+  },
+  {
+    "ts": "2026-10-26T20:43:37.791Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://momentumpeptides.com/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3fe03f955edf5573"
+  },
+  {
+    "ts": "2026-10-26T20:44:09.336Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "226bd5d6c3236c74"
+  },
+  {
+    "ts": "2026-10-26T20:44:16.810Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "19dd300743d7bae6"
+  },
+  {
+    "ts": "2026-10-26T20:48:05.293Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://redpandapeptides.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "3c764376acaa9681"
+  },
+  {
+    "ts": "2026-10-26T20:50:16.361Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://sterlingpeptides.co.uk/product/kpv/",
+    "visitorId": "c1e37eaa38ba9729"
+  },
+  {
+    "ts": "2026-10-26T20:51:06.535Z",
+    "type": "product",
+    "vendorSlug": "ultimate-peptides",
+    "vendorName": "Ultimate Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://ultimatepeptides.co.uk/ghk-cu-10mg",
+    "visitorId": "f2f8b57936ed2ea6"
+  },
+  {
+    "ts": "2026-10-26T20:55:13.057Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.novapeptide.co.uk/product/ghk-cu/",
+    "visitorId": "a36699c63b54b659"
+  },
+  {
+    "ts": "2026-10-26T21:00:37.623Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "dcf5a2721ccc8710"
+  },
+  {
+    "ts": "2026-10-26T21:00:48.565Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "dcf5a2721ccc8710"
+  },
+  {
+    "ts": "2026-10-26T21:10:54.472Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "igf-1-1-3-1mg",
+    "destUrl": "https://researchpeptide.co.uk/product/igf-1-1-3-1mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/igf-1-1-3-1mg",
+    "visitorId": "a834e149400f1b5e"
+  },
+  {
+    "ts": "2026-10-26T21:20:15.656Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.northpeptidesuk.com/products/ghk-cu/",
+    "visitorId": "b8b5e075870533b8"
   }
 ]
