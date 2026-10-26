@@ -2611,5 +2611,25 @@
     "destUrl": "https://pgnalabs.co.uk/product/tesamorelin",
     "refPage": "https://www.viralpeps.co.uk/go/pgna-labs/tesamorelin",
     "visitorId": "cfdab8a9c15775be"
+  },
+  {
+    "ts": "2026-10-26T10:53:04.790Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://novavitality.co.uk/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "57d216a8243b4818"
+  },
+  {
+    "ts": "2026-10-26T11:13:05.941Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://biopeptides-uk.com/product/research-bundle-a-bpc157-10mg-tb500-10mg-peptide-vial-bundle/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "dfbf7cfe90051932"
   }
 ]
