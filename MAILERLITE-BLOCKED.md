@@ -50,6 +50,15 @@ Also: piping `curl` into `python3` is blocked by the security scanner — write 
   `POST /api/campaigns` → `403 "Not available on closed or terminated account"`).
   Weekly Price Drops NOT sent. Email rebuilt from live homepage data (8 deals, all
   compound links verified 200). Weekly cron continues to log this blocker each week.
+- 2026-10-26 (weekly Price Drops cron): terminated, nothing sent. **10th consecutive week blocked.**
+  `GET /api/account` → `200 status:"terminated"`, `updated_at` still frozen at `2026-08-14 18:08:38`.
+  `POST /api/campaigns` → `403 "Not available on closed or terminated account"`.
+  Groups confirmed alive: Price Drops `193000230078121276` = 5 active.
+  Email rebuilt from live homepage (8 deals, all 8 compound links verified 200 after following
+  308 → www redirect). Staged at `/Users/time4you/viralpeps/price-drops-email.html` (13,056 bytes).
+  **New reusable sender built: `/Users/time4you/viralpeps/send-price-drops.py`** — scrapes,
+  verifies links, builds HTML, checks account status, and only creates+sends if status == `active`.
+  Run `python3 send-price-drops.py --send`; it will send automatically the moment the account is restored.
 - 2026-10-19 (weekly ViralPeps NEWSLETTER cron): terminated, nothing sent.
   `GET /api/account` → `200 status:"terminated"`, updated_at still frozen at `2026-08-14 18:08:38`.
   `POST /api/campaigns` → `403 "Not available on closed or terminated account"`.

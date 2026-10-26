@@ -1,0 +1,669 @@
+/Users/time4you/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Checking 400 entries...
+
+[NO_PRICE ] Octagon Peptides         | Tirzepatide            |    £80.00 ->      None | https://octagonpeptides.co.uk/product/tirze-30-mg/
+[OK       ] Polygon Peptides         | Tirzepatide            |    £59.99 ->    £59.99 | https://polygonpeptides.co.uk/product/tr10/
+[NO_PRICE ] Lab77 Peptides           | Tirzepatide            |    £55.00 ->      None | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=10mg
+[NO_PRICE ] Lab77 Peptides           | Tirzepatide            |    £90.00 ->      None | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=20mg
+[NO_PRICE ] Lab77 Peptides           | Tirzepatide            |   £125.00 ->      None | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=30mg
+[NO_PRICE ] Lab77 Peptides           | Tirzepatide            |   £140.00 ->      None | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=40mg
+[NO_PRICE ] Lab77 Peptides           | Tirzepatide            |   £160.00 ->      None | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=60mg
+[NO_PRICE ] PeptX                    | Tirzepatide            |    £46.99 ->      None | https://peptx.co.uk/single-vials/tirzepatide
+[NO_PRICE ] Prime Peptides           | Tirzepatide            |    £49.99 ->      None | https://www.prime-peptides.co.uk/product/tirzepatide/
+[OK       ] FORM Peptides            | Tirzepatide            |   £185.00 ->   £185.00 | https://formpeptides.co.uk/catalogue/product/tirzepatide-10mg
+[NO_PRICE ] PepNOVA                  | Tirzepatide            |    £48.00 ->      None | https://pepnova.uk/
+[OK       ] APEX Biolabs             | Tirzepatide            |    £75.00 ->    £75.00 | https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/
+[NO_PRICE ] Momentum Peptides        | Tirzepatide            |    £79.95 ->      None | https://momentumpeptides.com/product/tirzepatide/
+[OK       ] ApexPure                 | Tirzepatide            |   £124.99 ->   £124.99 | https://apexpure.co.uk/product/tirzepatide-40mg-uk/
+[OK       ] ApexPure                 | Tirzepatide            |    £74.99 ->    £74.99 | https://apexpure.co.uk/product/tirzepatide-peptide-10mg/
+[NO_PRICE ] PS Labs                  | Tirzepatide            |    £60.00 ->      None | https://pslabs.uk/products/tz-glp1
+[OK       ] Revexa                   | Tirzepatide            |    £49.00 ->    £49.00 | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-10m
+[OK       ] Revexa                   | Tirzepatide            |    £69.00 ->    £69.00 | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-20m
+[OK       ] Revexa                   | Tirzepatide            |    £79.00 ->    £79.00 | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-30m
+[OK       ] Revexa                   | Tirzepatide            |    £89.00 ->    £89.00 | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-40m
+[OK       ] Revexa                   | Tirzepatide            |   £275.00 ->   £275.00 | https://www.revexa.co.uk/product-page/pack-of-5-tirzepatide-research
+[OK       ] Revexa                   | Tirzepatide            |   £345.00 ->   £345.00 | https://www.revexa.co.uk/product-page/pack-of-5-tirzepatide-research
+[OK       ] Peptides UK 4U           | Tirzepatide            |    £30.99 ->    £30.99 | https://peptidesuk4u.co.uk/product/tirzepatide
+[CHANGED  ] Peptides UK 4U           | Tirzepatide            |    £52.99 ->    £30.99 | https://peptidesuk4u.co.uk/product/tirzepatide
+[CHANGED  ] Peptides UK 4U           | Tirzepatide            |    £71.99 ->    £30.99 | https://peptidesuk4u.co.uk/product/tirzepatide
+[CHANGED  ] Peptides UK 4U           | Tirzepatide            |    £90.00 ->    £30.99 | https://peptidesuk4u.co.uk/product/tirzepatide
+[CHANGED  ] Peptides UK 4U           | Tirzepatide            |   £140.00 ->    £30.99 | https://peptidesuk4u.co.uk/product/tirzepatide
+[CHANGED  ] Peptides UK 4U           | Tirzepatide            |   £170.00 ->    £30.99 | https://peptidesuk4u.co.uk/product/tirzepatide
+[OK       ] United Peptides          | Tirzepatide            |   £169.99 ->   £169.99 | https://unitedpeptides.co.uk/product/tirzepatide-60mg/
+[OK       ] Pyrox Labs               | Tirzepatide            |   £109.99 ->   £107.99 | https://pyroxlabs.co.uk/product/tz2-60mg/
+[OK       ] Pyrox Labs               | Tirzepatide            |    £79.99 ->    £79.99 | https://pyroxlabs.co.uk/product/tz2-40mg/
+[OK       ] Pyrox Labs               | Tirzepatide            |    £49.99 ->    £49.99 | https://pyroxlabs.co.uk/product/tz2-20mg/
+[OK       ] Pyrox Labs               | Tirzepatide            |    £32.99 ->    £32.99 | https://pyroxlabs.co.uk/product/tz2-10mg/
+[OK       ] Pyrox Labs               | Tirzepatide            |    £24.99 ->    £24.99 | https://pyroxlabs.co.uk/product/tz2-5mg/
+[NO_PRICE ] British Peptide Labs     | Tirzepatide            |    £60.00 ->      None | https://britishpeptidelabs.com/products/tirzepatide
+[OK       ] N&A Peptides             | Tirzepatide            |    £65.00 ->    £65.00 | https://www.na-peptides.co.uk/product/tirzepatide-20mg-vial/
+[OK       ] N&A Peptides             | Tirzepatide            |    £95.00 ->    £95.00 | https://www.na-peptides.co.uk/product/tirzepatide-40mg-vial/
+[OK       ] N&A Peptides             | Tirzepatide            |    £75.00 ->    £75.00 | https://www.na-peptides.co.uk/product/tirzepatide-20mg-pen/
+[OK       ] N&A Peptides             | Tirzepatide            |   £105.00 ->   £105.00 | https://www.na-peptides.co.uk/product/tirzepatide-40mg-pen/
+[OK       ] N&A Peptides             | Tirzepatide            |   £135.00 ->   £135.00 | https://www.na-peptides.co.uk/product/tirzepatide-60mg-pen/
+[OK       ] North Peptides UK        | Tirzepatide            |    £39.00 ->    £39.00 | https://www.northpeptidesuk.com/products/tirzepatide/
+[OK       ] Peptide Shop UK          | Tirzepatide            |    £89.99 ->    £89.99 | https://peptidesshopuk.com/product/tira-20/
+[OK       ] Peptide Shop UK          | Tirzepatide            |    £99.99 ->    £99.99 | https://peptidesshopuk.com/product/tira-40/
+[OK       ] Arma Peptides            | Tirzepatide            |    £72.00 ->    £72.00 | https://armapeptideshop.com/product/tirzepatide-30mg/
+[NO_PRICE ] Port Peptides            | Tirzepatide            |    £50.00 ->      None | https://portpeptides.co.uk/peptides/tirzepatide/
+[NO_PRICE ] Port Peptides            | Tirzepatide            |    £80.00 ->      None | https://portpeptides.co.uk/peptides/tirzepatide/
+[NO_PRICE ] Port Peptides            | Tirzepatide            |   £100.00 ->      None | https://portpeptides.co.uk/peptides/tirzepatide/
+[NO_PRICE ] Port Peptides            | Tirzepatide            |   £120.00 ->      None | https://portpeptides.co.uk/peptides/tirzepatide/
+[OK       ] Nova Biolabs             | Tirzepatide            |    £30.00 ->    £30.00 | https://novabiolabs.co.uk/tirzepatide-10mg.html
+[OK       ] Nova Biolabs             | Tirzepatide            |    £44.00 ->    £44.00 | https://novabiolabs.co.uk/tirzepatide-20mg.html
+[OK       ] Nova Biolabs             | Tirzepatide            |    £60.00 ->    £60.00 | https://novabiolabs.co.uk/tirzepatide-40mg.html
+[OK       ] Nova Biolabs             | Tirzepatide            |    £75.00 ->    £75.00 | https://novabiolabs.co.uk/tirzepatide-60mg.html
+[NO_PRICE ] PeptX                    | Semaglutide            |    £42.99 ->      None | https://peptx.co.uk/single-vials/semaglutide
+[NO_PRICE ] PeptidesX                | Semaglutide            |    £49.99 ->      None | https://www.peptidesx.uk/product/semaglutide/
+[NO_PRICE ] PeptidesX                | Semaglutide            |    £69.99 ->      None | https://www.peptidesx.uk/product/semaglutide/
+[NO_PRICE ] PeptidesX                | Semaglutide            |   £129.99 ->      None | https://www.peptidesx.uk/product/semaglutide/
+[OK       ] ApexPure                 | Semaglutide            |    £59.99 ->    £59.99 | https://apexpure.co.uk/product/semaglutide-uk/
+[OK       ] Peptides UK 4U           | Semaglutide            |    £49.99 ->    £50.00 | https://peptidesuk4u.co.uk/product/semaglutide-30mg
+[CHANGED  ] Peptides UK 4U           | Semaglutide            |    £72.99 ->    £50.00 | https://peptidesuk4u.co.uk/product/semaglutide-30mg
+[CHANGED  ] Peptides UK 4U           | Semaglutide            |    £94.00 ->    £50.00 | https://peptidesuk4u.co.uk/product/semaglutide-30mg
+[OK       ] United Peptides          | Semaglutide            |    £69.99 ->    £69.99 | https://unitedpeptides.co.uk/product/semaglutide/
+[OK       ] Pyrox Labs               | Semaglutide            |    £46.99 ->    £46.99 | https://pyroxlabs.co.uk/product/sm1-20mg/
+[OK       ] Pyrox Labs               | Semaglutide            |    £31.00 ->    £31.00 | https://pyroxlabs.co.uk/product/sm1-10mg/
+[NO_PRICE ] British Peptide Labs     | Semaglutide            |    £48.00 ->      None | https://britishpeptidelabs.com/products/semaglutide
+[OK       ] Arma Peptides            | Semaglutide            |    £38.00 ->    £38.00 | https://armapeptideshop.com/product/semaglutide-5mg/
+[OK       ] Nova Biolabs             | Semaglutide            |    £40.00 ->    £40.00 | https://novabiolabs.co.uk/semaglutide-20mg.html
+[NO_PRICE ] PGNA Labs                | BPC-157                |    £24.00 ->      None | https://pgnalabs.co.uk/product/bpc-157
+[NO_PRICE ] UK Peptides              | BPC-157                |    £24.99 ->      None | https://ukpeptides.com/catalog/bpc-157
+[OK       ] Research Peptides        | BPC-157                |    £13.95 ->    £13.95 | https://www.researchpeptides.co.uk/product-page/bpc-157-5mg
+[OK       ] Pure Peptides UK         | BPC-157                |    £13.99 ->    £13.99 | https://purepeptidesuk.com/product/bpc-157-5mg/
+[OK       ] The Peptide Company      | BPC-157                |    £21.99 ->    £21.99 | https://thepeptidecompany.co.uk/product/bpc-157/
+[NO_PRICE ] Pure Peptides UK         | BPC-157                |    £19.50 ->      None | https://purepeptidesuk.com/product/prem-bpc-157-5mg/
+[NO_PRICE ] UK Peptides              | BPC-157                |    £39.99 ->      None | https://ukpeptides.com/catalog/bpc-157
+[NO_PRICE ] UK Peptides              | BPC-157                |    £49.99 ->      None | https://ukpeptides.com/catalog/bpc-157-nasal-spray
+[NO_PRICE ] Biohack Peptides         | BPC-157                |    £13.49 ->      None | https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/
+[NO_PRICE ] Biohack Peptides         | BPC-157                |    £24.99 ->      None | https://biohackpeptides.co.uk/product/bpc-157-peptide-10mg-3ml-bac-w
+[OK       ] New Wave Peptides        | BPC-157                |    £16.85 ->    £16.85 | https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-5mg-10mg
+[CHANGED  ] New Wave Peptides        | BPC-157                |    £29.50 ->    £16.85 | https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-5mg-10mg
+[OK       ] Bluewell Peptides        | BPC-157                |    £32.95 ->    £32.95 | https://bluewellpeptides.com/product/bpc-157-10mg-peptide/
+[OK       ] Anglo Peptides           | BPC-157                |    £28.99 ->    £28.99 | https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-researc
+[OK       ] Peptides UK              | BPC-157                |    £15.95 ->    £15.95 | https://peptidesuk.com/bpc-157/
+[OK       ] My Peptides              | BPC-157                |   £100.00 ->   £100.00 | https://my-peptides.co.uk/products/bpc-157
+[NO_PRICE ] Peptigen Labs            | BPC-157                |    £49.99 ->      None | https://peptigenlabs.co.uk/products/PL-BPC-10
+[OK       ] Premio Peptides          | BPC-157                |   £130.00 ->   £130.00 | https://premiopeptides.co.uk/compounds/bpc-157
+[NO_PRICE ] ThePeptideCode           | BPC-157                |    £22.99 ->      None | https://thepeptidecode.co.uk/products/bpc-157-10mg
+[NO_PRICE ] Nova Peptide             | BPC-157                |    £38.00 ->      None | https://www.novapeptide.co.uk/product/bpc157-10mg/
+[OK       ] Peptify UK               | BPC-157                |    £26.99 ->    £26.99 | https://www.peptifyuk.com/product/bpc-157-10mg
+[OK       ] Ascend Peptides UK       | BPC-157                |    £24.99 ->    £24.99 | https://ascendpeptidesuk.com/products/bpc-157/
+[OK       ] Precision Peptides       | BPC-157                |    £30.00 ->    £30.00 | https://precision-peptides.shop/product/bpc-157-research-peptide-10m
+[OK       ] Astra Labs               | BPC-157                |    £45.00 ->    £45.00 | https://astralabs.co.uk/product/bpc-157-tb-500-10mg-peptide/
+[OK       ] OL Research              | BPC-157                |    £22.50 ->    £22.50 | https://olresearch.co.uk/product/bpc-157-10mg/
+[NO_PRICE ] Octagon Peptides         | BPC-157                |    £30.00 ->      None | https://octagonpeptides.co.uk/product/bpc-157-10-mg/
+[OK       ] Polygon Peptides         | BPC-157                |    £29.99 ->    £29.99 | https://polygonpeptides.co.uk/product/bpc-157-10mg/
+[NO_PRICE ] Midshire Labs            | BPC-157                |    £15.00 ->      None | https://midshirelabs.co.uk/products/bpc157/
+[NO_PRICE ] Bio Peptides UK          | BPC-157                |    £34.99 ->      None | https://biopeptides-uk.com/product/bpc-157-10mg/
+[NO_PRICE ] Bio Peptides UK          | BPC-157                |    £55.90 ->      None | https://biopeptides-uk.com/product/bpc-157-20mg-2/
+[NO_PRICE ] Lab77 Peptides           | BPC-157                |    £28.00 ->      None | https://lab77peptides.uk/peptides/bpc157?format=vial&size=10mg
+[NO_PRICE ] Lab77 Peptides           | BPC-157                |    £50.00 ->      None | https://lab77peptides.uk/peptides/bpc157?format=vial&size=20mg
+[NO_PRICE ] PeptX                    | BPC-157                |    £27.99 ->      None | https://peptx.co.uk/single-vials/bpc-157
+[CHANGED  ] Prime Peptides           | BPC-157                |    £59.99 ->    £24.99 | https://www.prime-peptides.co.uk/product/bpc-157/
+[OK       ] Alphamino                | BPC-157                | £18.00–£30.00 ->    £18.00 | https://alphamino.co.uk/shop/bpc/
+[OK       ] FORM Peptides            | BPC-157                |    £16.00 ->    £16.00 | https://formpeptides.co.uk/catalogue/product/bpc-157-5mg
+[OK       ] Flex Peptides            | BPC-157                |    £15.95 ->    £15.95 | https://www.flexpeptides.co.uk/products/bpc-157-5mg
+[NO_PRICE ] Crown Peptides           | BPC-157                |    £20.00 ->      None | https://crownpeptides.co.uk/shop/research-peptides/bpc-157-research-
+[OK       ] Trutide                  | BPC-157                |    £39.95 ->    £39.95 | https://trutide.co.uk/product/bpc-157-10mg/
+[OK       ] Tested Peptides          | BPC-157                |    £29.99 ->    £29.99 | https://www.testedpeptides.co.uk/product/bpc-157-10mg/
+[OK       ] PeptidesX                | BPC-157                |    £15.99 ->    £15.99 | https://www.peptidesx.uk/product/bpc-157/
+[CHANGED  ] PeptidesX                | BPC-157                |    £29.99 ->    £15.99 | https://www.peptidesx.uk/product/bpc-157/
+[OK       ] BuyReta                  | BPC-157                |    £15.00 ->    £15.00 | https://www.buyreta.co.uk/product/bpc-157-uk
+[NO_PRICE ] Peptides Online UK       | BPC-157                |    £13.95 ->      None | https://www.peptidesonline.uk/shop/bpc-157/
+[NO_PRICE ] PepNOVA                  | BPC-157                |    £59.49 ->      None | https://pepnova.uk/
+[OK       ] OP Labs                  | BPC-157                |    £13.99 ->    £13.99 | https://oplabs.co.uk/product/bpc-157-5mg/
+[NO_PRICE ] Zentra Peptides UK       | BPC-157                |    £26.49 ->      None | https://zentra-peptides.com/product/bpc-157/
+[OK       ] APEX Biolabs             | BPC-157                |    £30.00 ->    £30.00 | https://www.apexbiolabs.co.uk/product/bpc-157/
+[NO_PRICE ] Momentum Peptides        | BPC-157                |    £34.95 ->      None | https://momentumpeptides.com/product/bpc-157-10mg/
+[OK       ] Apex Pharma              | BPC-157                |    £25.00 ->    £25.00 | https://www.apex-pharma.co.uk/product/bpc-10mg/
+[NO_PRICE ] LeoLab Peptides UK       | BPC-157                |    £25.00 ->      None | https://leolab.co.uk/peptides/bpc-157/
+[OK       ] SPX Labs                 | BPC-157                |    £19.99 ->    £19.99 | https://spxlabs.co.uk/product/bpc-157-uk-10mg/
+[OK       ] HelixCore                | BPC-157                |    £14.99 ->    £14.99 | https://helixcore.co.uk/products/bpc-157
+[OK       ] Aegis Peptides           | BPC-157                |    £14.99 ->    £14.99 | https://aegispeptidesuk.co.uk/product/bpc-157/
+[CHANGED  ] Aegis Peptides           | BPC-157                |    £24.99 ->    £14.99 | https://aegispeptidesuk.co.uk/product/bpc-157/
+[OK       ] ApexPure                 | BPC-157                |    £24.99 ->    £24.99 | https://apexpure.co.uk/product/bpc-157-peptide-5mg/
+[OK       ] Advanced Peptides UK     | BPC-157                |    £70.00 ->    £70.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared
+[OK       ] Advanced Peptides UK     | BPC-157                |    £30.00 ->    £30.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/bp
+[OK       ] Pioneer Peptides         | BPC-157                |    £12.00 ->    £12.00 | https://pioneerpeptides.co.uk/products/bpc-157/
+[CHANGED  ] Pioneer Peptides         | BPC-157                |    £20.00 ->    £12.00 | https://pioneerpeptides.co.uk/products/bpc-157/
+[CHANGED  ] Pioneer Peptides         | BPC-157                |    £35.00 ->    £12.00 | https://pioneerpeptides.co.uk/products/bpc-157/
+[DELISTED ] PS Labs                  | BPC-157                |    £25.00 ->      None | https://pslabs.uk/products/bpc-157-10mg
+[OK       ] Fat Pig Peptides         | BPC-157                |    £17.99 ->    £17.99 | https://fatpigpeptides.co.uk/product/bpc-157/
+[OK       ] Claripep                 | BPC-157                |    £38.00 ->    £38.00 | https://claripep.co.uk/product/bpc-157-10mg/
+[CHANGED  ] Revexa                   | BPC-157                |    £25.00 ->    £18.00 | https://www.revexa.co.uk/product-page/bpc-157-5mg
+[OK       ] Revexa                   | BPC-157                |    £25.00 ->    £25.00 | https://www.revexa.co.uk/product-page/bpc-157-10mg
+[CHANGED  ] VialVerse                | BPC-157                |    £19.00 ->    £17.99 | https://vialverse.com/peptides/bpc-157
+[NO_PRICE ] Kings BioLabs            | BPC-157                |    £18.00 ->      None | https://www.kingsbiolabs.co.uk/bpc-157
+[OK       ] Peptides UK 4U           | BPC-157                |    £16.99 ->    £16.99 | https://peptidesuk4u.co.uk/product/bpc-157-10mg
+[CHANGED  ] Peptides UK 4U           | BPC-157                |    £29.99 ->    £16.99 | https://peptidesuk4u.co.uk/product/bpc-157-10mg
+[CHANGED  ] BIOHACKERxLAB            | BPC-157                |    £12.99 ->    £40.00 | https://biohackerxlab.com/product/bpc-157/
+[CHANGED  ] BIOHACKERxLAB            | BPC-157                |    £16.99 ->    £40.00 | https://biohackerxlab.com/product/bpc-157/
+[CHANGED  ] UKPeptides.org           | BPC-157                |    £15.99 ->    £16.95 | https://ukpeptides.org/buy/bpc-157-5mg
+[CHANGED  ] UKPeptides.org           | BPC-157                |    £22.99 ->    £16.95 | https://ukpeptides.org/buy/bpc-157-5mg
+[CHANGED  ] UKPeptides.org           | BPC-157                |    £34.99 ->    £16.95 | https://ukpeptides.org/buy/bpc-157-5mg
+[OK       ] Phoenix BioLabs          | BPC-157                |    £34.99 ->    £34.99 | https://phoenixbiolabs.net/shop/bpc300-tested-99/
+[OK       ] Phoenix BioLabs          | BPC-157                |    £64.99 ->    £64.99 | https://phoenixbiolabs.net/shop/bpc157-20-tested-99-copy/
+[OK       ] Phoenix BioLabs          | BPC-157                |    £24.99 ->    £24.99 | https://phoenixbiolabs.net/shop/bpc157-10-tested-99-copy/
+[OK       ] Phoenix BioLabs          | BPC-157                |    £14.99 ->    £14.99 | https://phoenixbiolabs.net/shop/bpc157-tested-99/
+[OK       ] Phoenix BioLabs          | BPC-157                |   £114.99 ->   £114.99 | https://phoenixbiolabs.net/shop/bpc-157-40mg-premixed-prefilled-pen-
+[OK       ] Pyrox Labs               | BPC-157                |    £27.99 ->    £27.99 | https://pyroxlabs.co.uk/product/bpc-157-10mg/
+[OK       ] Pyrox Labs               | BPC-157                |    £17.99 ->    £17.99 | https://pyroxlabs.co.uk/product/bpc-157-5mg/
+[OK       ] British Peptide Labs     | BPC-157                |    £29.95 ->    £30.00 | https://britishpeptidelabs.com/products/bpc-157
+[CHANGED  ] AllMyPeptides            | BPC-157                |    £21.49 ->    £27.99 | https://allmypeptides.com/product/bpc-157/
+[OK       ] Peptide Global           | BPC-157                |    £24.99 ->    £24.99 | https://peptideglobal.co.uk/product/bpc-157-5mg-vial/
+[OK       ] Peptide Global           | BPC-157                |    £34.99 ->    £34.99 | https://peptideglobal.co.uk/product/bpc-157-10mg-vial/
+[OK       ] Kingston Peptides        | BPC-157                |    £13.00 ->    £13.00 | https://kingstonpeptides.com/en/products/bpc-157
+[OK       ] N&A Peptides             | BPC-157                |    £35.00 ->    £35.00 | https://www.na-peptides.co.uk/product/bpc-157-10mg-research-peptide/
+[OK       ] NovaVitality             | BPC-157                |    £25.00 ->    £25.00 | https://novavitality.co.uk/product/bpc-157/
+[OK       ] Nova Peptide Lab         | BPC-157                |    £38.00 ->    £38.00 | https://novapeptidelab.co.uk/product/bpc-157-research-peptide/
+[OK       ] North Peptides UK        | BPC-157                |    £25.00 ->    £25.00 | https://www.northpeptidesuk.com/products/bpc-157/
+[OK       ] Optimus Labs             | BPC-157                |    £19.50 ->    £19.50 | https://optimuslabs.co.uk/product/bpc-157/
+[OK       ] PeptideHub               | BPC-157                |    £27.95 ->    £27.95 | https://peptidehub.co.uk/product/bpc-157-10mg/
+[OK       ] Arma Peptides            | BPC-157                |    £16.00 ->    £16.00 | https://armapeptideshop.com/product/bpc-157-5mg/
+[OK       ] Peptides Specialist UK   | BPC-157                |    £40.00 ->    £40.00 | https://peptidespecialist.co.uk/product/bpc-157/
+[OK       ] Peptides Specialist UK   | BPC-157                |   £130.00 ->   £130.00 | https://peptidespecialist.co.uk/product/bpc-157-15mg-peptide-pen/
+[OK       ] PeptidesNextDay          | BPC-157                |    £14.00 ->    £14.00 | https://peptidesnextday.co.uk/product/bpc-157-5mg/
+[OK       ] HiPeptides               | BPC-157                |    £24.99 ->    £24.99 | https://hipeptides.co.uk/catalog/bpc-157
+[NO_PRICE ] PGNA Labs                | TB-500                 |    £30.00 ->      None | https://pgnalabs.co.uk/product/tb-500
+[NO_PRICE ] UK Peptides              | TB-500                 |    £49.99 ->      None | https://ukpeptides.com/catalog/tb500-theymalin
+[OK       ] Research Peptides        | TB-500                 |    £24.95 ->    £24.95 | https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-
+[NO_PRICE ] Pure Peptides UK         | TB-500                 |    £16.00 ->      None | https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/
+[OK       ] Pure Peptides UK         | TB-500                 |    £26.99 ->    £26.99 | https://purepeptidesuk.com/product/premium-thymosin-beta-4-2mg-tb500
+[OK       ] Pure Peptides UK         | TB-500                 |    £59.99 ->    £59.99 | https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500-1/
+[NO_PRICE ] Pure Peptides UK         | TB-500                 |    £36.00 ->      None | https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/
+[NO_PRICE ] UK Peptides              | TB-500                 |    £89.98 ->      None | https://ukpeptides.com/catalog/tb500-theymalin
+[OK       ] Research Peptides UK     | TB-500                 |    £11.95 ->    £11.95 | https://www.researchpeptides.co.uk/product-page/tb-500-2mg-thymosin-
+[OK       ] Research Peptides UK     | TB-500                 |    £24.95 ->    £24.95 | https://www.researchpeptides.co.uk/product-page/tb-500-5mg-thymosin-
+[OK       ] Kensington Labs UK       | TB-500                 |    £19.95 ->    £19.95 | https://www.kensingtonlabs.co.uk/product/tb500-10mg/
+[CHANGED  ] Kensington Labs UK       | TB-500                 |    £24.95 ->    £19.95 | https://www.kensingtonlabs.co.uk/product/tb500-10mg/
+[NO_PRICE ] Biohack Peptides         | TB-500                 |    £18.99 ->      None | https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-pu
+[NO_PRICE ] Biohack Peptides         | TB-500                 |    £28.99 ->      None | https://biohackpeptides.co.uk/product/tb500-peptide-10mg-3ml-bac-wat
+[NO_PRICE ] New Wave Peptides        | TB-500                 |    £27.50 ->      None | https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-b
+[NO_PRICE ] New Wave Peptides        | TB-500                 |    £47.50 ->      None | https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-b
+[OK       ] Bluewell Peptides        | TB-500                 |    £24.95 ->    £24.95 | https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/
+[OK       ] Anglo Peptides           | TB-500                 |    £30.00 ->    £30.00 | https://anglopeptides.com/product/tb-500-10mg-research-peptide-batch
+[OK       ] Peptides UK              | TB-500                 |    £29.95 ->    £29.95 | https://peptidesuk.com/tb500-5mg/
+[NO_STORED] Peptides UK              | TB-500                 |        £— ->    £14.95 | https://peptidesuk.com/tb500-2mg/
+[OK       ] My Peptides              | TB-500                 |   £100.00 ->   £100.00 | https://my-peptides.co.uk/products/tb-500
+[NO_PRICE ] Peptigen Labs            | TB-500                 |    £39.99 ->      None | https://peptigenlabs.co.uk/products/PL-TB5-5
+[OK       ] Premio Peptides          | TB-500                 |   £199.99 ->   £199.99 | https://premiopeptides.co.uk/compounds/tb-500
+[NO_PRICE ] Nova Peptide             | TB-500                 |    £38.00 ->      None | https://www.novapeptide.co.uk/product/tb500-10mg/
+[OK       ] Peptify UK               | TB-500                 |    £24.99 ->    £24.99 | https://www.peptifyuk.com/product/tb-500-5mg
+[OK       ] Ascend Peptides UK       | TB-500                 |    £29.99 ->    £29.99 | https://ascendpeptidesuk.com/products/tb-500/
+[OK       ] Precision Peptides       | TB-500                 |    £30.00 ->    £30.00 | https://precision-peptides.shop/product/tb-500-10mg/
+[OK       ] OL Research              | TB-500                 |    £24.30 ->    £24.30 | https://olresearch.co.uk/product/tb-500-10mg/
+[NO_PRICE ] Octagon Peptides         | TB-500                 |    £35.00 ->      None | https://octagonpeptides.co.uk/product/tb-500-10-mg/
+[NO_PRICE ] Bio Peptides UK          | TB-500                 |    £39.00 ->      None | https://biopeptides-uk.com/product/tb-500-10mg/
+[NO_PRICE ] Lab77 Peptides           | TB-500                 |    £33.00 ->      None | https://lab77peptides.uk/peptides/tb500?format=vial&size=10mg
+[NO_PRICE ] Lab77 Peptides           | TB-500                 |    £61.00 ->      None | https://lab77peptides.uk/peptides/tb500?format=vial&size=20mg
+[OK       ] UK Peptide Lab           | TB-500                 |    £23.99 ->    £23.99 | https://ukpeptidelab.co.uk/product/tb-500
+[OK       ] Alphamino                | TB-500                 | £20.00–£30.00 ->    £20.00 | https://alphamino.co.uk/shop/tb-500-research-grade-peptide/
+[OK       ] FORM Peptides            | TB-500                 |    £25.00 ->    £25.00 | https://formpeptides.co.uk/catalogue/product/tb-500-5mg
+[OK       ] Flex Peptides            | TB-500                 |    £19.95 ->    £19.95 | https://www.flexpeptides.co.uk/products/tb-500-5mg
+[OK       ] Flex Peptides            | TB-500                 |    £19.95 ->    £19.95 | https://www.flexpeptides.co.uk/products/tb-500-10mg
+[NO_PRICE ] Crown Peptides           | TB-500                 |    £25.00 ->      None | https://crownpeptides.co.uk/shop/research-peptides/tb-500/
+[OK       ] Tested Peptides          | TB-500                 |    £29.99 ->    £29.99 | https://www.testedpeptides.co.uk/product/tb-500-10mg/
+[OK       ] SupplyPeptides           | TB-500                 |    £25.00 ->    £25.00 | https://supplypeptides.co.uk/products/tb-500
+[OK       ] PeptidesX                | TB-500                 |    £15.99 ->    £15.99 | https://www.peptidesx.uk/product/tb-500/
+[CHANGED  ] PeptidesX                | TB-500                 |    £29.99 ->    £15.99 | https://www.peptidesx.uk/product/tb-500/
+[CHANGED  ] PeptidesX                | TB-500                 |    £49.99 ->    £15.99 | https://www.peptidesx.uk/product/tb-500/
+[OK       ] BuyReta                  | TB-500                 |    £21.00 ->    £21.00 | https://www.buyreta.co.uk/product/tb500-10mg-uk
+[NO_PRICE ] Peptides Online UK       | TB-500                 |    £15.95 ->      None | https://www.peptidesonline.uk/shop/tb-500/
+[OK       ] OP Labs                  | TB-500                 |    £18.40 ->    £18.40 | https://oplabs.co.uk/product/tb-500-5mg/
+[NO_PRICE ] Zentra Peptides UK       | TB-500                 |    £30.49 ->      None | https://zentra-peptides.com/product/tb-500/
+[OK       ] APEX Biolabs             | TB-500                 |    £23.00 ->    £23.00 | https://www.apexbiolabs.co.uk/product/tb-500/
+[NO_PRICE ] Momentum Peptides        | TB-500                 |    £34.95 ->      None | https://momentumpeptides.com/product/tb-500-10mg/
+[OK       ] Apex Pharma              | TB-500                 |    £40.00 ->    £40.00 | https://www.apex-pharma.co.uk/product/tb-500-10mg/
+[NO_PRICE ] LeoLab Peptides UK       | TB-500                 |    £55.00 ->      None | https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/
+[OK       ] SPX Labs                 | TB-500                 |    £19.99 ->    £19.99 | https://spxlabs.co.uk/product/tb-500-uk-5mg/
+[OK       ] HelixCore                | TB-500                 |    £15.99 ->    £15.99 | https://helixcore.co.uk/products/tb-500
+[OK       ] Aegis Peptides           | TB-500                 |    £24.99 ->    £24.99 | https://aegispeptidesuk.co.uk/product/tb-500/
+[CHANGED  ] Aegis Peptides           | TB-500                 |    £44.99 ->    £24.99 | https://aegispeptidesuk.co.uk/product/tb-500/
+[OK       ] ApexPure                 | TB-500                 |    £27.99 ->    £27.99 | https://apexpure.co.uk/product/tb-500-uk/
+[OK       ] Advanced Peptides UK     | TB-500                 |    £35.00 ->    £35.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/tb
+[CHANGED  ] Pioneer Peptides         | TB-500                 |    £20.00 ->    £22.00 | https://pioneerpeptides.co.uk/products/tb-500/
+[CHANGED  ] Pioneer Peptides         | TB-500                 |    £40.00 ->    £22.00 | https://pioneerpeptides.co.uk/products/tb-500/
+[DELISTED ] PS Labs                  | TB-500                 |    £30.00 ->      None | https://pslabs.uk/products/tb-500-10mg
+[CHANGED  ] Fat Pig Peptides         | TB-500                 |    £22.00 ->    £17.99 | https://fatpigpeptides.co.uk/product/tb500-5mg-10mg/
+[CHANGED  ] Revexa                   | TB-500                 |    £37.00 ->    £19.00 | https://www.revexa.co.uk/product-page/tb-500-5mg
+[OK       ] Revexa                   | TB-500                 |    £39.00 ->    £39.00 | https://www.revexa.co.uk/product-page/tb-500-10mg
+[OK       ] VialVerse                | TB-500                 |    £24.00 ->    £24.00 | https://vialverse.com/peptides/tb-500
+[NO_PRICE ] Kings BioLabs            | TB-500                 |    £25.00 ->      None | https://www.kingsbiolabs.co.uk/tb-500
+[CHANGED  ] BIOHACKERxLAB            | TB-500                 |    £14.99 ->    £70.00 | https://biohackerxlab.com/product/tb-500/
+[CHANGED  ] BIOHACKERxLAB            | TB-500                 |    £19.99 ->    £70.00 | https://biohackerxlab.com/product/tb-500/
+[OK       ] UKPeptides.org           | TB-500                 |    £23.99 ->    £23.99 | https://ukpeptides.org/buy/tb-500-5mg
+[OK       ] Phoenix BioLabs          | TB-500                 |    £49.99 ->    £49.99 | https://phoenixbiolabs.net/shop/tb5-tablets-300mcg-per-tablet-60-tab
+[OK       ] Phoenix BioLabs          | TB-500                 |    £37.99 ->    £37.99 | https://phoenixbiolabs.net/shop/tb-500-10mg-99-purity/
+[OK       ] Phoenix BioLabs          | TB-500                 |    £25.99 ->    £25.99 | https://phoenixbiolabs.net/shop/tb-500-5mg-99-purity/
+[OK       ] British Peptide Labs     | TB-500                 |    £75.00 ->    £75.00 | https://britishpeptidelabs.com/products/tb-500
+[CHANGED  ] AllMyPeptides            | TB-500                 |    £22.49 ->    £27.49 | https://allmypeptides.com/product/tb-500/
+[OK       ] Peptide Global           | TB-500                 |    £32.99 ->    £32.99 | https://peptideglobal.co.uk/product/tb-500-5mg-vial/
+[OK       ] Peptide Global           | TB-500                 |    £49.99 ->    £49.99 | https://peptideglobal.co.uk/product/tb-500-10mg-vial/
+[OK       ] Kingston Peptides        | TB-500                 |    £12.00 ->    £12.00 | https://kingstonpeptides.com/en/products/tb-500
+[OK       ] N&A Peptides             | TB-500                 |    £27.50 ->    £27.50 | https://www.na-peptides.co.uk/product/tb500-10mg/
+[OK       ] NovaVitality             | TB-500                 |    £50.00 ->    £50.00 | https://novavitality.co.uk/product/tb-500/
+[OK       ] Nova Peptide Lab         | TB-500                 |    £38.00 ->    £38.00 | https://novapeptidelab.co.uk/product/tb-500-10mg/
+[OK       ] Nova Peptide Lab         | TB-500                 |    £80.00 ->    £80.00 | https://novapeptidelab.co.uk/product/tb-500-pen/
+[OK       ] North Peptides UK        | TB-500                 |    £50.00 ->    £50.00 | https://www.northpeptidesuk.com/products/tb-500/
+[OK       ] Optimus Labs             | TB-500                 |    £24.50 ->    £24.50 | https://optimuslabs.co.uk/product/tb-500/
+[OK       ] PeptideHub               | TB-500                 |    £44.95 ->    £44.95 | https://peptidehub.co.uk/product/tb-500-10mg/
+[OK       ] Arma Peptides            | TB-500                 |    £35.00 ->    £35.00 | https://armapeptideshop.com/product/tb500-10mg/
+[OK       ] Peptides Specialist UK   | TB-500                 |    £40.00 ->    £40.00 | https://peptidespecialist.co.uk/product/tb-500/
+[OK       ] Peptides Specialist UK   | TB-500                 |   £150.00 ->   £150.00 | https://peptidespecialist.co.uk/product/tb-500-thymosin-beta-4-15mg-
+[OK       ] PeptidesNextDay          | TB-500                 |    £26.00 ->    £26.00 | https://peptidesnextday.co.uk/product/thymosin-beta-4-5mg-tb500/
+[OK       ] HiPeptides               | TB-500                 |    £39.99 ->    £39.99 | https://hipeptides.co.uk/catalog/tb-500
+[NO_PRICE ] UK Peptides              | Melanotan II           |    £15.00 ->      None | https://ukpeptides.com/catalog/melanotan-ii
+[NO_PRICE ] UK Peptides              | Melanotan II           |    £15.00 ->      None | https://ukpeptides.com/catalog/melanotan-ii
+[NO_PRICE ] UK Peptides              | Melanotan II           |    £29.99 ->      None | https://ukpeptides.com/catalog/melanotan-ii
+[OK       ] Research Peptides UK     | Melanotan II           |    £30.00 ->    £30.00 | https://researchpeptide.co.uk/product/mt-2-melanotan-2-acetate-10mg/
+[OK       ] Bluewell Peptides        | Melanotan II           |    £22.95 ->    £22.95 | https://bluewellpeptides.com/product/melanotan-2-mt2-10mg/
+[OK       ] My Peptides              | Melanotan II           |   £100.00 ->   £100.00 | https://my-peptides.co.uk/products/melanotan-2
+[OK       ] Premio Peptides          | Melanotan II           |   £199.99 ->   £199.99 | https://premiopeptides.co.uk/compounds/melanotan-ii
+[NO_PRICE ] ThePeptideCode           | Melanotan II           |    £14.99 ->      None | https://thepeptidecode.co.uk/products/melanotan-ii-10mg
+[NO_PRICE ] Nova Peptide             | Melanotan II           |    £26.00 ->      None | https://www.novapeptide.co.uk/product/melanotan-ii/
+[OK       ] Ascend Peptides UK       | Melanotan II           |    £15.00 ->    £14.99 | https://ascendpeptidesuk.com/products/m2/
+[OK       ] Precision Peptides       | Melanotan II           |    £15.00 ->    £15.00 | https://precision-peptides.shop/product/melanotan-ii-10mg/
+[OK       ] Polygon Peptides         | Melanotan II           |    £24.99 ->    £24.99 | https://polygonpeptides.co.uk/product/mt2-10mg/
+[OK       ] Alphamino                | Melanotan II           |    £22.50 ->    £21.50 | https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/
+[OK       ] FORM Peptides            | Melanotan II           |    £15.00 ->    £15.00 | https://formpeptides.co.uk/catalogue/product/melanotan-ii-10mg
+[NO_PRICE ] PGNA Labs                | Melanotan II           |    £17.00 ->      None | https://pgnalabs.co.uk/product/mt-2
+[OK       ] OL Research              | Melanotan II           |    £18.00 ->    £18.00 | https://olresearch.co.uk/product/melanotan-ii-10mg/
+[NO_PRICE ] Octagon Peptides         | Melanotan II           |    £25.00 ->      None | https://octagonpeptides.co.uk/product/mt-2-10-mg/
+[NO_PRICE ] Lab77 Peptides           | Melanotan II           |    £39.00 ->      None | https://lab77peptides.uk/peptides/mt2?format=vial&size=10mg
+[NO_PRICE ] Crown Peptides           | Melanotan II           |    £29.99 ->      None | https://crownpeptides.co.uk/shop/research-peptides/melanotan-2/
+[OK       ] SupplyPeptides           | Melanotan II           |    £20.00 ->    £20.00 | https://supplypeptides.co.uk/products/melanotan-2
+[OK       ] PeptidesX                | Melanotan II           |    £24.95 ->    £24.95 | https://www.peptidesx.uk/product/melanotan-2/
+[OK       ] BuyReta                  | Melanotan II           |    £19.00 ->    £19.00 | https://www.buyreta.co.uk/product/mt-2-uk
+[OK       ] Peptides Online UK       | Melanotan II           |    £24.95 ->    £24.95 | https://www.peptidesonline.uk/shop/melanotan-2/
+[OK       ] APEX Biolabs             | Melanotan II           |    £24.00 ->    £24.00 | https://www.apexbiolabs.co.uk/product/melanotan-ii-10mg/
+[NO_PRICE ] Momentum Peptides        | Melanotan II           |    £24.95 ->      None | https://momentumpeptides.com/product/melanotan-2-10-mg/
+[OK       ] Aegis Peptides           | Melanotan II           |    £24.99 ->    £24.99 | https://aegispeptidesuk.co.uk/product/mt-2/
+[OK       ] Advanced Peptides UK     | Melanotan II           |    £45.00 ->    £45.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared
+[DELISTED ] PS Labs                  | Melanotan II           |    £20.00 ->      None | https://pslabs.uk/products/mt-2-10mg
+[OK       ] Fat Pig Peptides         | Melanotan II           |    £19.99 ->    £19.99 | https://fatpigpeptides.co.uk/product/mt-2-melanotan-ii-acetate-10mg/
+[OK       ] Revexa                   | Melanotan II           |    £22.00 ->    £22.00 | https://www.revexa.co.uk/product-page/melanotan-2-10mg
+[OK       ] Peptides UK 4U           | Melanotan II           |    £25.99 ->    £25.99 | https://peptidesuk4u.co.uk/product/mt2-10mg
+[OK       ] Ultimate Peptides        | Melanotan II           |    £25.00 ->    £25.00 | https://ultimatepeptides.co.uk/melanotan-ii-10mg-nasal
+[CHANGED  ] UKPeptides.org           | Melanotan II           |    £19.99 ->    £24.99 | https://ukpeptides.org/buy/mt-2-10mg
+[OK       ] Pyrox Labs               | Melanotan II           |    £26.59 ->    £26.59 | https://pyroxlabs.co.uk/product/melanotan-ii-10mg/
+[OK       ] British Peptide Labs     | Melanotan II           |    £30.00 ->    £30.00 | https://britishpeptidelabs.com/products/mt2
+[OK       ] AllMyPeptides            | Melanotan II           |    £17.99 ->    £17.99 | https://allmypeptides.com/product/melanotan-2/
+[OK       ] Peptide Global           | Melanotan II           |    £70.00 ->    £70.00 | https://peptideglobal.co.uk/product/mt2-pen/
+[OK       ] Kingston Peptides        | Melanotan II           |    £14.00 ->    £14.00 | https://kingstonpeptides.com/en/products/melanotan-ii
+[OK       ] NovaVitality             | Melanotan II           |    £15.00 ->    £15.00 | https://novavitality.co.uk/product/melanotan-2/
+[OK       ] Peptide Shop UK          | Melanotan II           |    £29.99 ->    £29.99 | https://peptidesshopuk.com/product/mt2-10mg/
+[OK       ] Arma Peptides            | Melanotan II           |    £25.00 ->    £25.00 | https://armapeptideshop.com/product/melanotan-2-nasal-spray-10mg/
+[OK       ] Peptides Specialist UK   | Melanotan II           |    £30.00 ->    £30.00 | https://peptidespecialist.co.uk/product/melanotan-ii/
+[OK       ] Peptides Specialist UK   | Melanotan II           |   £190.00 ->   £190.00 | https://peptidespecialist.co.uk/product/melanotan-ii-30mg-peptide-pe
+[NO_PRICE ] Global Bio Research      | Melanotan II           |    £99.99 ->      None | https://globalbioresearch.co/shop/melanotan-2
+[OK       ] PeptidesNextDay          | Melanotan II           |    £20.00 ->    £20.00 | https://peptidesnextday.co.uk/product/melanotan-ii-10mg/
+[OK       ] Nova Biolabs             | Melanotan II           |    £20.00 ->    £20.00 | https://novabiolabs.co.uk/mt2-10mg.html
+[OK       ] HiPeptides               | Melanotan II           |    £29.99 ->    £29.99 | https://hipeptides.co.uk/catalog/melanotan-ii
+[OK       ] Research Peptides        | GHRP-2                 |     £7.95 ->     £7.95 | https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg
+[NO_PRICE ] UK Peptides              | GHRP-2                 |    £49.99 ->      None | https://ukpeptides.com/catalog/ghrp-2
+[NO_PRICE ] Pure Peptides UK         | GHRP-2                 |     £9.50 ->      None | https://purepeptidesuk.com/product/ghrp-2-5mg/
+[OK       ] Pure Peptides UK         | GHRP-2                 |    £16.00 ->    £16.00 | https://purepeptidesuk.com/product/premium-ghrp-2-5mg/
+[OK       ] Research Peptides UK     | GHRP-2                 |     £7.95 ->     £7.95 | https://www.researchpeptides.co.uk/product-page/ghrp-2-5mg
+[OK       ] Kensington Labs UK       | GHRP-2                 |    £20.90 ->    £20.90 | https://www.kensingtonlabs.co.uk/product/ghrp-2-acetate-10mg/
+[NO_STORED] Peptides UK              | GHRP-2                 |        £— ->    £18.95 | https://peptidesuk.com/ghrp2-10mg/
+[OK       ] Precision Peptides       | GHRP-2                 |    £20.00 ->    £20.00 | https://precision-peptides.shop/product/ghrp-2-10mg/
+[CHANGED  ] Midshire Labs            | GHRP-2                 |    £15.00 ->    £13.00 | https://midshirelabs.co.uk/products/ghrp-2/
+[NO_PRICE ] Bio Peptides UK          | GHRP-2                 |    £33.16 ->      None | https://biopeptides-uk.com/product/ghrp-2-10mg/
+[OK       ] PeptidesX                | GHRP-2                 |     £9.99 ->     £9.99 | https://www.peptidesx.uk/product/ghrp-2/
+[CHANGED  ] PeptidesX                | GHRP-2                 |    £18.99 ->     £9.99 | https://www.peptidesx.uk/product/ghrp-2/
+[CHANGED  ] Peptides Online UK       | GHRP-2                 |     £9.95 ->     £5.95 | https://www.peptidesonline.uk/shop/ghrp-2/
+[OK       ] OP Labs                  | GHRP-2                 |     £9.99 ->     £9.99 | https://oplabs.co.uk/product/ghrp-2-10mg/
+[OK       ] LeoLab Peptides UK       | GHRP-2                 |    £30.00 ->    £30.00 | https://leolab.co.uk/peptides/ghrp-2/
+[CHANGED  ] Pioneer Peptides         | GHRP-2                 |    £15.00 ->    £10.50 | https://pioneerpeptides.co.uk/products/ghrp-2/
+[OK       ] VialVerse                | GHRP-2                 |    £17.00 ->    £17.00 | https://vialverse.com/peptides/ghrp-2
+[OK       ] PeptidesNextDay          | GHRP-2                 |     £8.00 ->     £8.00 | https://peptidesnextday.co.uk/product/ghrp-2-5mg/
+[OK       ] PeptidesNextDay          | GHRP-2                 |    £15.00 ->    £15.00 | https://peptidesnextday.co.uk/product/ghrp-2-10mg/
+[OK       ] HiPeptides               | GHRP-2                 |    £29.99 ->    £29.99 | https://hipeptides.co.uk/catalog/ghrp-2
+[NO_PRICE ] UK Peptides              | AOD-9604               |    £68.00 ->      None | https://ukpeptides.com/catalog/aod-9604
+[OK       ] Kensington Labs UK       | AOD-9604               |    £39.90 ->    £39.90 | https://www.kensingtonlabs.co.uk/product/aod9604-5mg/
+[OK       ] Bluewell Peptides        | AOD-9604               |    £52.95 ->    £52.95 | https://bluewellpeptides.com/product/aod-9604-5mg-peptide/
+[OK       ] Anglo Peptides           | AOD-9604               |    £45.00 ->    £45.00 | https://anglopeptides.com/product/aod-9604-5mg-research-peptide/
+[NO_STORED] Peptides UK              | AOD-9604               |        £— ->    £24.95 | https://peptidesuk.com/aod-9604/
+[NO_PRICE ] Nova Peptide             | AOD-9604               |    £48.00 ->      None | https://www.novapeptide.co.uk/product/aod-9604/
+[OK       ] Ascend Peptides UK       | AOD-9604               |    £39.99 ->    £39.99 | https://ascendpeptidesuk.com/products/aod-9604-10mg/
+[OK       ] Ascend Peptides UK       | AOD-9604               |    £24.99 ->    £24.99 | https://ascendpeptidesuk.com/products/aod-9604/
+[OK       ] Precision Peptides       | AOD-9604               |    £55.00 ->    £55.00 | https://precision-peptides.shop/product/aod-9604-10mg/
+[OK       ] OL Research              | AOD-9604               |    £36.75 ->    £36.75 | https://olresearch.co.uk/product/aod9604-5mg/
+[NO_PRICE ] Octagon Peptides         | AOD-9604               |    £35.00 ->      None | https://octagonpeptides.co.uk/product/aod-9604-5-mg/
+[OK       ] Midshire Labs            | AOD-9604               |    £25.00 ->    £25.00 | https://midshirelabs.co.uk/products/aod-9604/
+[NO_PRICE ] Bio Peptides UK          | AOD-9604               |    £52.24 ->      None | https://biopeptides-uk.com/product/aod-9604-5mg/
+[OK       ] FORM Peptides            | AOD-9604               |    £30.00 ->    £30.00 | https://formpeptides.co.uk/catalogue/product/aod-9604-5mg
+[OK       ] Flex Peptides            | AOD-9604               |    £49.95 ->    £49.95 | https://www.flexpeptides.co.uk/products/aod9604-10mg
+[NO_PRICE ] Crown Peptides           | AOD-9604               |    £35.00 ->      None | https://crownpeptides.co.uk/shop/research-peptides/aod-9604/
+[OK       ] Tested Peptides          | AOD-9604               |    £44.99 ->    £44.99 | https://www.testedpeptides.co.uk/product/aod-9604-5mg-peptide/
+[OK       ] BuyReta                  | AOD-9604               |    £39.00 ->    £39.00 | https://www.buyreta.co.uk/product/aod-9604-uk
+[OK       ] OP Labs                  | AOD-9604               |    £19.90 ->    £19.90 | https://oplabs.co.uk/product/aod9604-2mg/
+[OK       ] APEX Biolabs             | AOD-9604               |    £28.00 ->    £28.00 | https://www.apexbiolabs.co.uk/product/aod-9604/
+[OK       ] LeoLab Peptides UK       | AOD-9604               |    £75.00 ->    £75.00 | https://leolab.co.uk/peptides/aod-9604/
+[OK       ] HelixCore                | AOD-9604               |    £22.99 ->    £22.99 | https://helixcore.co.uk/products/aod-9604
+[OK       ] ApexPure                 | AOD-9604               |    £26.99 ->    £26.99 | https://apexpure.co.uk/product/aod-9604-peptide-9604-5mg/
+[CHANGED  ] Pioneer Peptides         | AOD-9604               |    £25.00 ->    £27.00 | https://pioneerpeptides.co.uk/products/aod-9604/
+[CHANGED  ] Pioneer Peptides         | AOD-9604               |    £40.00 ->    £27.00 | https://pioneerpeptides.co.uk/products/aod-9604/
+[CHANGED  ] Pioneer Peptides         | AOD-9604               |    £75.00 ->    £27.00 | https://pioneerpeptides.co.uk/products/aod-9604/
+[OK       ] VialVerse                | AOD-9604               |    £20.00 ->    £20.00 | https://vialverse.com/peptides/aod-9604
+[OK       ] Peptides UK 4U           | AOD-9604               |    £53.99 ->    £53.99 | https://peptidesuk4u.co.uk/product/aod-9604-10mg
+[OK       ] Phoenix BioLabs          | AOD-9604               |    £49.99 ->    £49.99 | https://phoenixbiolabs.net/shop/lr3-1mg-research-compound-copy/
+[OK       ] NovaVitality             | AOD-9604               |    £50.00 ->    £50.00 | https://novavitality.co.uk/product/aod-9604/
+[OK       ] Nova Peptide Lab         | AOD-9604               |    £48.00 ->    £48.00 | https://novapeptidelab.co.uk/product/aod-9604-research-peptide-uk/
+[OK       ] Arma Peptides            | AOD-9604               |    £30.00 ->    £30.00 | https://armapeptideshop.com/product/aod-9604-5mg/
+[OK       ] Peptides Specialist UK   | AOD-9604               |    £50.00 ->    £50.00 | https://peptidespecialist.co.uk/product/aod-9604/
+[OK       ] PeptidesNextDay          | AOD-9604               |    £44.00 ->    £44.00 | https://peptidesnextday.co.uk/product/aod-9604-5mg/
+[OK       ] PeptidesNextDay          | AOD-9604               |    £22.00 ->    £22.00 | https://peptidesnextday.co.uk/product/aod-9604-2mg/
+[OK       ] HiPeptides               | AOD-9604               |    £39.99 ->    £39.99 | https://hipeptides.co.uk/catalog/aod-9604
+[NO_PRICE ] UK Peptides              | Retatrutide            |    £94.99 ->      None | https://ukpeptides.com/catalog/retatrutide
+[NO_PRICE ] Peptigen Labs            | Retatrutide            |    £69.99 ->      None | https://peptigenlabs.co.uk/products/PL-RET-10
+[OK       ] Premio Peptides          | Retatrutide            |   £169.99 ->   £169.99 | https://premiopeptides.co.uk/compounds/retatrutide
+[NO_PRICE ] Peptigen Labs            | Retatrutide            |    £99.99 ->      None | https://peptigenlabs.co.uk/products/PL-RET-20
+[NO_PRICE ] Peptigen Labs            | Retatrutide            |   £139.99 ->      None | https://peptigenlabs.co.uk/products/PL-RET-30
+[DELISTED ] ThePeptideCode           | Retatrutide            |    £68.39 ->      None | https://thepeptidecode.co.uk/products/retatrutide-20mg-99-69-purity
+[DELISTED ] ThePeptideCode           | Retatrutide            |    £90.00 ->      None | https://thepeptidecode.co.uk/products/retatrutide-30mg
+[NO_PRICE ] OL Research              | Retatrutide            |    £81.00 ->      None | https://olresearch.co.uk/product/r3ta-20mg/
+[NO_PRICE ] OL Research              | Retatrutide            |   £126.00 ->      None | https://olresearch.co.uk/product/r3ta-30mg/
+[OK       ] Polygon Peptides         | Retatrutide            |    £69.99 ->    £69.99 | https://polygonpeptides.co.uk/product/rt10/
+[NO_PRICE ] Lab77 Peptides           | Retatrutide            |    £60.00 ->      None | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=10mg
+[NO_PRICE ] Lab77 Peptides           | Retatrutide            |   £108.00 ->      None | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=20mg
+[NO_PRICE ] Lab77 Peptides           | Retatrutide            |   £144.00 ->      None | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=30mg
+[NO_PRICE ] Lab77 Peptides           | Retatrutide            |   £168.00 ->      None | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=40mg
+[NO_PRICE ] Lab77 Peptides           | Retatrutide            |   £198.00 ->      None | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=60mg
+[NO_PRICE ] PeptX                    | Retatrutide            |    £43.99 ->      None | https://peptx.co.uk/single-vials/retatrutide
+[OK       ] Prime Peptides           | Retatrutide            |    £89.99 ->    £89.99 | https://www.prime-peptides.co.uk/product/retatrutide/
+[OK       ] UK Peptide Lab           | Retatrutide            |    £59.99 ->    £59.99 | https://ukpeptidelab.co.uk/product/retatrutide
+[OK       ] UK Peptide Lab           | Retatrutide            |    £99.99 ->    £99.99 | https://ukpeptidelab.co.uk/product/retatrutide-20mg
+[OK       ] UK Peptide Lab           | Retatrutide            |   £134.99 ->   £134.99 | https://ukpeptidelab.co.uk/product/retatrutide-30mg
+[OK       ] FORM Peptides            | Retatrutide            |   £200.00 ->   £200.00 | https://formpeptides.co.uk/catalogue/product/retatrutide-10mg
+[NO_PRICE ] Momentum Peptides        | Retatrutide            |    £79.95 ->      None | https://momentumpeptides.com/product/retatrutide/
+[OK       ] Apex Pharma              | Retatrutide            |    £80.00 ->    £80.00 | https://www.apex-pharma.co.uk/product/reta-20mg/
+[OK       ] Apex Pharma              | Retatrutide            |   £140.00 ->   £140.00 | https://www.apex-pharma.co.uk/product/reta-40mg/
+[NO_PRICE ] LeoLab Peptides UK       | Retatrutide            |    £75.00 ->      None | https://leolab.co.uk/peptides/retatrutide/
+[OK       ] SPX Labs                 | Retatrutide            |    £40.00 ->    £38.99 | https://spxlabs.co.uk/product/retatrutide-uk-10mg/
+[OK       ] SPX Labs                 | Retatrutide            |    £40.00 ->    £38.99 | https://spxlabs.co.uk/product/retatrutide-uk-20mg/
+[NO_PRICE ] Aegis Peptides           | Retatrutide            |    £59.99 ->      None | https://aegispeptidesuk.co.uk/product/retatrutide-10mg/
+[NO_PRICE ] Aegis Peptides           | Retatrutide            |    £89.99 ->      None | https://aegispeptidesuk.co.uk/product/retatrutide-20mg/
+[NO_PRICE ] Aegis Peptides           | Retatrutide            |   £119.99 ->      None | https://aegispeptidesuk.co.uk/product/retatrutide-30mg/
+[NO_PRICE ] Aegis Peptides           | Retatrutide            |   £159.99 ->      None | https://aegispeptidesuk.co.uk/product/retatrutide-40mg/
+[NO_PRICE ] Aegis Peptides           | Retatrutide            |   £119.99 ->      None | https://aegispeptidesuk.co.uk/product/retatrutide-20mg-pen/
+[NO_PRICE ] Aegis Peptides           | Retatrutide            |   £189.99 ->      None | https://aegispeptidesuk.co.uk/product/retatrutide-40mg-pen/
+[OK       ] ApexPure                 | Retatrutide            |   £142.99 ->   £142.99 | https://apexpure.co.uk/product/retatrutide-20mg-uk/
+[OK       ] ApexPure                 | Retatrutide            |   £135.99 ->   £135.99 | https://apexpure.co.uk/product/retatrutide-40mg-uk-2/
+[OK       ] ApexPure                 | Retatrutide            |    £89.99 ->    £89.99 | https://apexpure.co.uk/product/retatrutide-peptide-10mg/
+[OK       ] ApexPure                 | Retatrutide            |   £159.99 ->   £159.99 | https://apexpure.co.uk/product/retatrutide-40mg-uk/
+[OK       ] Advanced Peptides UK     | Retatrutide            |   £210.00 ->   £210.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/glp-3-40
+[OK       ] Advanced Peptides UK     | Retatrutide            |   £150.00 ->   £150.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared
+[NO_PRICE ] PS Labs                  | Retatrutide            |    £40.00 ->      None | https://pslabs.uk/products/rt-glp3
+[OK       ] Fat Pig Peptides         | Retatrutide            |   £180.00 ->   £179.99 | https://fatpigpeptides.co.uk/product/glp-3-reta-40-mg-research-pen/
+[OK       ] Revexa                   | Retatrutide            |    £69.00 ->    £69.00 | https://www.revexa.co.uk/product-page/copy-of-retatrutide-research-g
+[OK       ] Revexa                   | Retatrutide            |   £105.00 ->   £105.00 | https://www.revexa.co.uk/product-page/20mg-retatrutide-research-grad
+[OK       ] Revexa                   | Retatrutide            |   £115.00 ->   £115.00 | https://www.revexa.co.uk/product-page/30mg-retatrutide-research-grad
+[OK       ] Revexa                   | Retatrutide            |   £125.00 ->   £125.00 | https://www.revexa.co.uk/product-page/40mg-retatrutide-research-grad
+
+=== SUMMARY ===
+CHANGED: 41
+DELISTED: 5
+NO_PRICE: 106
+NO_STORED: 3
+OK: 245
+
+CHANGED (41):
+  Peptides UK 4U | Tirzepatide | £52.99 -> £30.99 (-41.5%) [meta] | https://peptidesuk4u.co.uk/product/tirzepatide
+  Peptides UK 4U | Tirzepatide | £71.99 -> £30.99 (-57.0%) [meta] | https://peptidesuk4u.co.uk/product/tirzepatide
+  Peptides UK 4U | Tirzepatide | £90.00 -> £30.99 (-65.6%) [meta] | https://peptidesuk4u.co.uk/product/tirzepatide
+  Peptides UK 4U | Tirzepatide | £140.00 -> £30.99 (-77.9%) [meta] | https://peptidesuk4u.co.uk/product/tirzepatide
+  Peptides UK 4U | Tirzepatide | £170.00 -> £30.99 (-81.8%) [meta] | https://peptidesuk4u.co.uk/product/tirzepatide
+  Peptides UK 4U | Semaglutide | £72.99 -> £50.00 (-31.5%) [meta] | https://peptidesuk4u.co.uk/product/semaglutide-30mg
+  Peptides UK 4U | Semaglutide | £94.00 -> £50.00 (-46.8%) [meta] | https://peptidesuk4u.co.uk/product/semaglutide-30mg
+  New Wave Peptides | BPC-157 | £29.50 -> £16.85 (-42.9%) [jsonld-gbp] | https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-5mg-10mg
+  Prime Peptides | BPC-157 | £59.99 -> £24.99 (-58.3%) [jsonld-gbp] | https://www.prime-peptides.co.uk/product/bpc-157/
+  PeptidesX | BPC-157 | £29.99 -> £15.99 (-46.7%) [jsonld-gbp] | https://www.peptidesx.uk/product/bpc-157/
+  Aegis Peptides | BPC-157 | £24.99 -> £14.99 (-40.0%) [jsonld-gbp] | https://aegispeptidesuk.co.uk/product/bpc-157/
+  Pioneer Peptides | BPC-157 | £20.00 -> £12.00 (-40.0%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/bpc-157/
+  Pioneer Peptides | BPC-157 | £35.00 -> £12.00 (-65.7%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/bpc-157/
+  Revexa | BPC-157 | £25.00 -> £18.00 (-28.0%) [jsonld-gbp] | https://www.revexa.co.uk/product-page/bpc-157-5mg
+  VialVerse | BPC-157 | £19.00 -> £17.99 (-5.3%) [meta] | https://vialverse.com/peptides/bpc-157
+  Peptides UK 4U | BPC-157 | £29.99 -> £16.99 (-43.4%) [meta] | https://peptidesuk4u.co.uk/product/bpc-157-10mg
+  BIOHACKERxLAB | BPC-157 | £12.99 -> £40.00 (+207.9%) [jsonld-gbp] | https://biohackerxlab.com/product/bpc-157/
+  BIOHACKERxLAB | BPC-157 | £16.99 -> £40.00 (+135.4%) [jsonld-gbp] | https://biohackerxlab.com/product/bpc-157/
+  UKPeptides.org | BPC-157 | £15.99 -> £16.95 (+6.0%) [jsonld-gbp] | https://ukpeptides.org/buy/bpc-157-5mg
+  UKPeptides.org | BPC-157 | £22.99 -> £16.95 (-26.3%) [jsonld-gbp] | https://ukpeptides.org/buy/bpc-157-5mg
+  UKPeptides.org | BPC-157 | £34.99 -> £16.95 (-51.6%) [jsonld-gbp] | https://ukpeptides.org/buy/bpc-157-5mg
+  AllMyPeptides | BPC-157 | £21.49 -> £27.99 (+30.2%) [woo-price] | https://allmypeptides.com/product/bpc-157/
+  Kensington Labs UK | TB-500 | £24.95 -> £19.95 (-20.0%) [jsonld-gbp] | https://www.kensingtonlabs.co.uk/product/tb500-10mg/
+  PeptidesX | TB-500 | £29.99 -> £15.99 (-46.7%) [jsonld-gbp] | https://www.peptidesx.uk/product/tb-500/
+  PeptidesX | TB-500 | £49.99 -> £15.99 (-68.0%) [jsonld-gbp] | https://www.peptidesx.uk/product/tb-500/
+  Aegis Peptides | TB-500 | £44.99 -> £24.99 (-44.5%) [jsonld-gbp] | https://aegispeptidesuk.co.uk/product/tb-500/
+  Pioneer Peptides | TB-500 | £20.00 -> £22.00 (+10.0%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/tb-500/
+  Pioneer Peptides | TB-500 | £40.00 -> £22.00 (-45.0%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/tb-500/
+  Fat Pig Peptides | TB-500 | £22.00 -> £17.99 (-18.2%) [jsonld-gbp] | https://fatpigpeptides.co.uk/product/tb500-5mg-10mg/
+  Revexa | TB-500 | £37.00 -> £19.00 (-48.6%) [jsonld-gbp] | https://www.revexa.co.uk/product-page/tb-500-5mg
+  BIOHACKERxLAB | TB-500 | £14.99 -> £70.00 (+367.0%) [jsonld-gbp] | https://biohackerxlab.com/product/tb-500/
+  BIOHACKERxLAB | TB-500 | £19.99 -> £70.00 (+250.2%) [jsonld-gbp] | https://biohackerxlab.com/product/tb-500/
+  AllMyPeptides | TB-500 | £22.49 -> £27.49 (+22.2%) [woo-price] | https://allmypeptides.com/product/tb-500/
+  UKPeptides.org | Melanotan II | £19.99 -> £24.99 (+25.0%) [jsonld-gbp] | https://ukpeptides.org/buy/mt-2-10mg
+  Midshire Labs | GHRP-2 | £15.00 -> £13.00 (-13.3%) [jsonld-gbp] | https://midshirelabs.co.uk/products/ghrp-2/
+  PeptidesX | GHRP-2 | £18.99 -> £9.99 (-47.4%) [jsonld-gbp] | https://www.peptidesx.uk/product/ghrp-2/
+  Peptides Online UK | GHRP-2 | £9.95 -> £5.95 (-40.2%) [data-price] | https://www.peptidesonline.uk/shop/ghrp-2/
+  Pioneer Peptides | GHRP-2 | £15.00 -> £10.50 (-30.0%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/ghrp-2/
+  Pioneer Peptides | AOD-9604 | £25.00 -> £27.00 (+8.0%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/aod-9604/
+  Pioneer Peptides | AOD-9604 | £40.00 -> £27.00 (-32.5%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/aod-9604/
+  Pioneer Peptides | AOD-9604 | £75.00 -> £27.00 (-64.0%) [jsonld-gbp] | https://pioneerpeptides.co.uk/products/aod-9604/
+
+DELISTED (5):
+  PS Labs | BPC-157 | HTTP 404 | https://pslabs.uk/products/bpc-157-10mg
+  PS Labs | TB-500 | HTTP 404 | https://pslabs.uk/products/tb-500-10mg
+  PS Labs | Melanotan II | HTTP 404 | https://pslabs.uk/products/mt-2-10mg
+  ThePeptideCode | Retatrutide | HTTP 404 | https://thepeptidecode.co.uk/products/retatrutide-20mg-99-69-purity
+  ThePeptideCode | Retatrutide | HTTP 404 | https://thepeptidecode.co.uk/products/retatrutide-30mg
+
+NO PRICE FOUND (106):
+  Octagon Peptides | Tirzepatide | no-price-markup | https://octagonpeptides.co.uk/product/tirze-30-mg/
+  Lab77 Peptides | Tirzepatide | ambiguous-jsonld ([55.0, 90.0, 125.0, 140.0, 160.0, 175.0]) | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=10mg
+  Lab77 Peptides | Tirzepatide | ambiguous-jsonld ([55.0, 90.0, 125.0, 140.0, 160.0, 175.0]) | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=20mg
+  Lab77 Peptides | Tirzepatide | ambiguous-jsonld ([55.0, 90.0, 125.0, 140.0, 160.0, 175.0]) | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=30mg
+  Lab77 Peptides | Tirzepatide | ambiguous-jsonld ([55.0, 90.0, 125.0, 140.0, 160.0, 175.0]) | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=40mg
+  Lab77 Peptides | Tirzepatide | ambiguous-jsonld ([55.0, 90.0, 125.0, 140.0, 160.0, 175.0]) | https://lab77peptides.uk/peptides/tirzepatide?format=vial&size=60mg
+  PeptX | Tirzepatide | no-price-markup | https://peptx.co.uk/single-vials/tirzepatide
+  Prime Peptides | Tirzepatide | no-price-markup | https://www.prime-peptides.co.uk/product/tirzepatide/
+  PepNOVA | Tirzepatide | no-price-markup | https://pepnova.uk/
+  Momentum Peptides | Tirzepatide | no-price-markup | https://momentumpeptides.com/product/tirzepatide/
+  PS Labs | Tirzepatide | no-price-markup | https://pslabs.uk/products/tz-glp1
+  British Peptide Labs | Tirzepatide | ambiguous-jsonld ([60.0, 90.0, 120.0]) | https://britishpeptidelabs.com/products/tirzepatide
+  Port Peptides | Tirzepatide | ambiguous-jsonld ([50.0, 55.0, 75.0, 80.0, 85.0, 100.0]) | https://portpeptides.co.uk/peptides/tirzepatide/
+  Port Peptides | Tirzepatide | ambiguous-jsonld ([50.0, 55.0, 75.0, 80.0, 85.0, 100.0]) | https://portpeptides.co.uk/peptides/tirzepatide/
+  Port Peptides | Tirzepatide | ambiguous-jsonld ([50.0, 55.0, 75.0, 80.0, 85.0, 100.0]) | https://portpeptides.co.uk/peptides/tirzepatide/
+  Port Peptides | Tirzepatide | ambiguous-jsonld ([50.0, 55.0, 75.0, 80.0, 85.0, 100.0]) | https://portpeptides.co.uk/peptides/tirzepatide/
+  PeptX | Semaglutide | no-price-markup | https://peptx.co.uk/single-vials/semaglutide
+  PeptidesX | Semaglutide | no-price-markup | https://www.peptidesx.uk/product/semaglutide/
+  PeptidesX | Semaglutide | no-price-markup | https://www.peptidesx.uk/product/semaglutide/
+  PeptidesX | Semaglutide | no-price-markup | https://www.peptidesx.uk/product/semaglutide/
+  British Peptide Labs | Semaglutide | ambiguous-jsonld ([50.0, 59.0]) | https://britishpeptidelabs.com/products/semaglutide
+  PGNA Labs | BPC-157 | no-price-markup | https://pgnalabs.co.uk/product/bpc-157
+  UK Peptides | BPC-157 | no-price-markup | https://ukpeptides.com/catalog/bpc-157
+  Pure Peptides UK | BPC-157 | no-price-markup | https://purepeptidesuk.com/product/prem-bpc-157-5mg/
+  UK Peptides | BPC-157 | no-price-markup | https://ukpeptides.com/catalog/bpc-157
+  UK Peptides | BPC-157 | no-price-markup | https://ukpeptides.com/catalog/bpc-157-nasal-spray
+  Biohack Peptides | BPC-157 | no-price-markup | https://biohackpeptides.co.uk/product/bpc-157-peptide-5mg/
+  Biohack Peptides | BPC-157 | no-price-markup | https://biohackpeptides.co.uk/product/bpc-157-peptide-10mg-3ml-bac-water/
+  Peptigen Labs | BPC-157 | no-price-markup | https://peptigenlabs.co.uk/products/PL-BPC-10
+  ThePeptideCode | BPC-157 | ambiguous-jsonld ([14.99, 26.98, 38.22]) | https://thepeptidecode.co.uk/products/bpc-157-10mg
+  Nova Peptide | BPC-157 | no-price-markup | https://www.novapeptide.co.uk/product/bpc157-10mg/
+  Octagon Peptides | BPC-157 | no-price-markup | https://octagonpeptides.co.uk/product/bpc-157-10-mg/
+  Midshire Labs | BPC-157 | ambiguous-jsonld ([15.0, 23.0, 32.0]) | https://midshirelabs.co.uk/products/bpc157/
+  Bio Peptides UK | BPC-157 | no-price-markup | https://biopeptides-uk.com/product/bpc-157-10mg/
+  Bio Peptides UK | BPC-157 | no-price-markup | https://biopeptides-uk.com/product/bpc-157-20mg-2/
+  Lab77 Peptides | BPC-157 | ambiguous-jsonld ([28.0, 50.0, 63.0, 85.0, 125.0]) | https://lab77peptides.uk/peptides/bpc157?format=vial&size=10mg
+  Lab77 Peptides | BPC-157 | ambiguous-jsonld ([28.0, 50.0, 63.0, 85.0, 125.0]) | https://lab77peptides.uk/peptides/bpc157?format=vial&size=20mg
+  PeptX | BPC-157 | no-price-markup | https://peptx.co.uk/single-vials/bpc-157
+  Crown Peptides | BPC-157 | ambiguous-jsonld ([19.99, 32.99, 56.98, 84.96, 94.03, 140.21]) | https://crownpeptides.co.uk/shop/research-peptides/bpc-157-research-peptide/
+  Peptides Online UK | BPC-157 | ambiguous-jsonld ([13.95, 24.95]) | https://www.peptidesonline.uk/shop/bpc-157/
+  PepNOVA | BPC-157 | no-price-markup | https://pepnova.uk/
+  Zentra Peptides UK | BPC-157 | ambiguous-jsonld ([15.95, 26.49]) | https://zentra-peptides.com/product/bpc-157/
+  Momentum Peptides | BPC-157 | no-price-markup | https://momentumpeptides.com/product/bpc-157-10mg/
+  LeoLab Peptides UK | BPC-157 | ambiguous-jsonld ([25.0, 40.0, 60.0]) | https://leolab.co.uk/peptides/bpc-157/
+  Kings BioLabs | BPC-157 | no-price-markup | https://www.kingsbiolabs.co.uk/bpc-157
+  PGNA Labs | TB-500 | no-price-markup | https://pgnalabs.co.uk/product/tb-500
+  UK Peptides | TB-500 | no-price-markup | https://ukpeptides.com/catalog/tb500-theymalin
+  Pure Peptides UK | TB-500 | no-price-markup | https://purepeptidesuk.com/product/thymosin-beta-4-2mg-tb500/
+  Pure Peptides UK | TB-500 | no-price-markup | https://purepeptidesuk.com/product/thymosin-beta-4-5mg-tb500/
+  UK Peptides | TB-500 | no-price-markup | https://ukpeptides.com/catalog/tb500-theymalin
+  Biohack Peptides | TB-500 | no-price-markup | https://biohackpeptides.co.uk/product/tb500-peptide-5mg-vial-high-purity-for-research-use/
+  Biohack Peptides | TB-500 | no-price-markup | https://biohackpeptides.co.uk/product/tb500-peptide-10mg-3ml-bac-water/
+  New Wave Peptides | TB-500 | jsonld-gbp | https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-beta-4-5mg-10mg-research-peptide
+  New Wave Peptides | TB-500 | jsonld-gbp | https://newwavepeptides.co.uk/buy-peptide/peptides/tb-500-thymosin-beta-4-5mg-10mg-research-peptide
+  Peptigen Labs | TB-500 | no-price-markup | https://peptigenlabs.co.uk/products/PL-TB5-5
+  Nova Peptide | TB-500 | no-price-markup | https://www.novapeptide.co.uk/product/tb500-10mg/
+  Octagon Peptides | TB-500 | no-price-markup | https://octagonpeptides.co.uk/product/tb-500-10-mg/
+  Bio Peptides UK | TB-500 | no-price-markup | https://biopeptides-uk.com/product/tb-500-10mg/
+  Lab77 Peptides | TB-500 | ambiguous-jsonld ([33.0, 61.0, 68.0, 96.0, 145.0]) | https://lab77peptides.uk/peptides/tb500?format=vial&size=10mg
+  Lab77 Peptides | TB-500 | ambiguous-jsonld ([33.0, 61.0, 68.0, 96.0, 145.0]) | https://lab77peptides.uk/peptides/tb500?format=vial&size=20mg
+  Crown Peptides | TB-500 | ambiguous-jsonld ([24.99, 37.99, 71.23, 106.21, 108.28, 161.46]) | https://crownpeptides.co.uk/shop/research-peptides/tb-500/
+  Peptides Online UK | TB-500 | ambiguous-jsonld ([15.95, 25.95, 35.95]) | https://www.peptidesonline.uk/shop/tb-500/
+  Zentra Peptides UK | TB-500 | ambiguous-jsonld ([15.0, 30.0]) | https://zentra-peptides.com/product/tb-500/
+  Momentum Peptides | TB-500 | no-price-markup | https://momentumpeptides.com/product/tb-500-10mg/
+  LeoLab Peptides UK | TB-500 | ambiguous-jsonld ([55.0, 100.0]) | https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/
+  Kings BioLabs | TB-500 | no-price-markup | https://www.kingsbiolabs.co.uk/tb-500
+  UK Peptides | Melanotan II | no-price-markup | https://ukpeptides.com/catalog/melanotan-ii
+  UK Peptides | Melanotan II | no-price-markup | https://ukpeptides.com/catalog/melanotan-ii
+  UK Peptides | Melanotan II | no-price-markup | https://ukpeptides.com/catalog/melanotan-ii
+  ThePeptideCode | Melanotan II | ambiguous-jsonld ([18.99, 34.18, 48.42]) | https://thepeptidecode.co.uk/products/melanotan-ii-10mg
+  Nova Peptide | Melanotan II | no-price-markup | https://www.novapeptide.co.uk/product/melanotan-ii/
+  PGNA Labs | Melanotan II | no-price-markup | https://pgnalabs.co.uk/product/mt-2
+  Octagon Peptides | Melanotan II | no-price-markup | https://octagonpeptides.co.uk/product/mt-2-10-mg/
+  Lab77 Peptides | Melanotan II | ambiguous-jsonld ([39.0, 74.0]) | https://lab77peptides.uk/peptides/mt2?format=vial&size=10mg
+  Crown Peptides | Melanotan II | ambiguous-jsonld ([31.99, 91.18, 135.96, 239.93]) | https://crownpeptides.co.uk/shop/research-peptides/melanotan-2/
+  Momentum Peptides | Melanotan II | no-price-markup | https://momentumpeptides.com/product/melanotan-2-10-mg/
+  Global Bio Research | Melanotan II | no-price-markup | https://globalbioresearch.co/shop/melanotan-2
+  UK Peptides | GHRP-2 | no-price-markup | https://ukpeptides.com/catalog/ghrp-2
+  Pure Peptides UK | GHRP-2 | no-price-markup | https://purepeptidesuk.com/product/ghrp-2-5mg/
+  Bio Peptides UK | GHRP-2 | no-price-markup | https://biopeptides-uk.com/product/ghrp-2-10mg/
+  UK Peptides | AOD-9604 | no-price-markup | https://ukpeptides.com/catalog/aod-9604
+  Nova Peptide | AOD-9604 | no-price-markup | https://www.novapeptide.co.uk/product/aod-9604/
+  Octagon Peptides | AOD-9604 | no-price-markup | https://octagonpeptides.co.uk/product/aod-9604-5-mg/
+  Bio Peptides UK | AOD-9604 | no-price-markup | https://biopeptides-uk.com/product/aod-9604-5mg/
+  Crown Peptides | AOD-9604 | ambiguous-jsonld ([34.99, 99.73, 148.71, 279.92]) | https://crownpeptides.co.uk/shop/research-peptides/aod-9604/
+  UK Peptides | Retatrutide | no-price-markup | https://ukpeptides.com/catalog/retatrutide
+  Peptigen Labs | Retatrutide | no-price-markup | https://peptigenlabs.co.uk/products/PL-RET-10
+  Peptigen Labs | Retatrutide | no-price-markup | https://peptigenlabs.co.uk/products/PL-RET-20
+  Peptigen Labs | Retatrutide | no-price-markup | https://peptigenlabs.co.uk/products/PL-RET-30
+  OL Research | Retatrutide | no-price-markup | https://olresearch.co.uk/product/r3ta-20mg/
+  OL Research | Retatrutide | no-price-markup | https://olresearch.co.uk/product/r3ta-30mg/
+  Lab77 Peptides | Retatrutide | ambiguous-jsonld ([60.0, 95.0, 108.0, 143.0, 144.0, 168.0]) | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=10mg
+  Lab77 Peptides | Retatrutide | ambiguous-jsonld ([60.0, 95.0, 108.0, 143.0, 144.0, 168.0]) | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=20mg
+  Lab77 Peptides | Retatrutide | ambiguous-jsonld ([60.0, 95.0, 108.0, 143.0, 144.0, 168.0]) | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=30mg
+  Lab77 Peptides | Retatrutide | ambiguous-jsonld ([60.0, 95.0, 108.0, 143.0, 144.0, 168.0]) | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=40mg
+  Lab77 Peptides | Retatrutide | ambiguous-jsonld ([60.0, 95.0, 108.0, 143.0, 144.0, 168.0]) | https://lab77peptides.uk/peptides/retatrutide?format=vial&size=60mg
+  PeptX | Retatrutide | no-price-markup | https://peptx.co.uk/single-vials/retatrutide
+  Momentum Peptides | Retatrutide | no-price-markup | https://momentumpeptides.com/product/retatrutide/
+  LeoLab Peptides UK | Retatrutide | ambiguous-jsonld ([75.0, 100.0, 125.0, 175.0, 235.0, 295.0]) | https://leolab.co.uk/peptides/retatrutide/
+  Aegis Peptides | Retatrutide | no-price-markup | https://aegispeptidesuk.co.uk/product/retatrutide-10mg/
+  Aegis Peptides | Retatrutide | no-price-markup | https://aegispeptidesuk.co.uk/product/retatrutide-20mg/
+  Aegis Peptides | Retatrutide | no-price-markup | https://aegispeptidesuk.co.uk/product/retatrutide-30mg/
+  Aegis Peptides | Retatrutide | no-price-markup | https://aegispeptidesuk.co.uk/product/retatrutide-40mg/
+  Aegis Peptides | Retatrutide | no-price-markup | https://aegispeptidesuk.co.uk/product/retatrutide-20mg-pen/
+  Aegis Peptides | Retatrutide | no-price-markup | https://aegispeptidesuk.co.uk/product/retatrutide-40mg-pen/
+  PS Labs | Retatrutide | no-price-markup | https://pslabs.uk/products/rt-glp3
+
+OUT OF STOCK markers (98):
+  Revexa | Tirzepatide | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-10mg
+  Revexa | Tirzepatide | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-20mg
+  Revexa | Tirzepatide | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-30mg
+  Revexa | Tirzepatide | https://www.revexa.co.uk/product-page/tirzepatide-research-grade-40mg
+  Revexa | Tirzepatide | https://www.revexa.co.uk/product-page/pack-of-5-tirzepatide-research-grade-20mg
+  Revexa | Tirzepatide | https://www.revexa.co.uk/product-page/pack-of-5-tirzepatide-research-grade-40mg
+  Pyrox Labs | Tirzepatide | https://pyroxlabs.co.uk/product/tz2-60mg/
+  Pyrox Labs | Tirzepatide | https://pyroxlabs.co.uk/product/tz2-40mg/
+  Pyrox Labs | Tirzepatide | https://pyroxlabs.co.uk/product/tz2-20mg/
+  Pyrox Labs | Tirzepatide | https://pyroxlabs.co.uk/product/tz2-10mg/
+  Pyrox Labs | Tirzepatide | https://pyroxlabs.co.uk/product/tz2-5mg/
+  Arma Peptides | Tirzepatide | https://armapeptideshop.com/product/tirzepatide-30mg/
+  United Peptides | Semaglutide | https://unitedpeptides.co.uk/product/semaglutide/
+  Pyrox Labs | Semaglutide | https://pyroxlabs.co.uk/product/sm1-20mg/
+  Pyrox Labs | Semaglutide | https://pyroxlabs.co.uk/product/sm1-10mg/
+  Arma Peptides | Semaglutide | https://armapeptideshop.com/product/semaglutide-5mg/
+  Bluewell Peptides | BPC-157 | https://bluewellpeptides.com/product/bpc-157-10mg-peptide/
+  Anglo Peptides | BPC-157 | https://anglopeptides.com/product/bpc-157-10mg-new-batch-107-research-peptide/
+  Premio Peptides | BPC-157 | https://premiopeptides.co.uk/compounds/bpc-157
+  Astra Labs | BPC-157 | https://astralabs.co.uk/product/bpc-157-tb-500-10mg-peptide/
+  Alphamino | BPC-157 | https://alphamino.co.uk/shop/bpc/
+  OP Labs | BPC-157 | https://oplabs.co.uk/product/bpc-157-5mg/
+  Apex Pharma | BPC-157 | https://www.apex-pharma.co.uk/product/bpc-10mg/
+  Aegis Peptides | BPC-157 | https://aegispeptidesuk.co.uk/product/bpc-157/
+  Aegis Peptides | BPC-157 | https://aegispeptidesuk.co.uk/product/bpc-157/
+  Advanced Peptides UK | BPC-157 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/bpc-157-20mg/
+  Advanced Peptides UK | BPC-157 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/bpc-157-10mg/
+  Claripep | BPC-157 | https://claripep.co.uk/product/bpc-157-10mg/
+  Revexa | BPC-157 | https://www.revexa.co.uk/product-page/bpc-157-5mg
+  Revexa | BPC-157 | https://www.revexa.co.uk/product-page/bpc-157-10mg
+  BIOHACKERxLAB | BPC-157 | https://biohackerxlab.com/product/bpc-157/
+  BIOHACKERxLAB | BPC-157 | https://biohackerxlab.com/product/bpc-157/
+  Phoenix BioLabs | BPC-157 | https://phoenixbiolabs.net/shop/bpc300-tested-99/
+  Pyrox Labs | BPC-157 | https://pyroxlabs.co.uk/product/bpc-157-10mg/
+  Pyrox Labs | BPC-157 | https://pyroxlabs.co.uk/product/bpc-157-5mg/
+  British Peptide Labs | BPC-157 | https://britishpeptidelabs.com/products/bpc-157
+  AllMyPeptides | BPC-157 | https://allmypeptides.com/product/bpc-157/
+  NovaVitality | BPC-157 | https://novavitality.co.uk/product/bpc-157/
+  Optimus Labs | BPC-157 | https://optimuslabs.co.uk/product/bpc-157/
+  Arma Peptides | BPC-157 | https://armapeptideshop.com/product/bpc-157-5mg/
+  PeptidesNextDay | BPC-157 | https://peptidesnextday.co.uk/product/bpc-157-5mg/
+  Kensington Labs UK | TB-500 | https://www.kensingtonlabs.co.uk/product/tb500-10mg/
+  Kensington Labs UK | TB-500 | https://www.kensingtonlabs.co.uk/product/tb500-10mg/
+  Bluewell Peptides | TB-500 | https://bluewellpeptides.com/product/tb-500-thymosin-beta-4-5mg/
+  Anglo Peptides | TB-500 | https://anglopeptides.com/product/tb-500-10mg-research-peptide-batch-108/
+  Premio Peptides | TB-500 | https://premiopeptides.co.uk/compounds/tb-500
+  Alphamino | TB-500 | https://alphamino.co.uk/shop/tb-500-research-grade-peptide/
+  OP Labs | TB-500 | https://oplabs.co.uk/product/tb-500-5mg/
+  Apex Pharma | TB-500 | https://www.apex-pharma.co.uk/product/tb-500-10mg/
+  Aegis Peptides | TB-500 | https://aegispeptidesuk.co.uk/product/tb-500/
+  Aegis Peptides | TB-500 | https://aegispeptidesuk.co.uk/product/tb-500/
+  Advanced Peptides UK | TB-500 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/tb500-10mg/
+  Revexa | TB-500 | https://www.revexa.co.uk/product-page/tb-500-5mg
+  Revexa | TB-500 | https://www.revexa.co.uk/product-page/tb-500-10mg
+  BIOHACKERxLAB | TB-500 | https://biohackerxlab.com/product/tb-500/
+  BIOHACKERxLAB | TB-500 | https://biohackerxlab.com/product/tb-500/
+  British Peptide Labs | TB-500 | https://britishpeptidelabs.com/products/tb-500
+  AllMyPeptides | TB-500 | https://allmypeptides.com/product/tb-500/
+  Kingston Peptides | TB-500 | https://kingstonpeptides.com/en/products/tb-500
+  NovaVitality | TB-500 | https://novavitality.co.uk/product/tb-500/
+  Optimus Labs | TB-500 | https://optimuslabs.co.uk/product/tb-500/
+  Arma Peptides | TB-500 | https://armapeptideshop.com/product/tb500-10mg/
+  PeptidesNextDay | TB-500 | https://peptidesnextday.co.uk/product/thymosin-beta-4-5mg-tb500/
+  Bluewell Peptides | Melanotan II | https://bluewellpeptides.com/product/melanotan-2-mt2-10mg/
+  Premio Peptides | Melanotan II | https://premiopeptides.co.uk/compounds/melanotan-ii
+  Alphamino | Melanotan II | https://alphamino.co.uk/shop/mt-ii-research-grade-peptide/
+  Peptides Online UK | Melanotan II | https://www.peptidesonline.uk/shop/melanotan-2/
+  Aegis Peptides | Melanotan II | https://aegispeptidesuk.co.uk/product/mt-2/
+  Advanced Peptides UK | Melanotan II | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/melanotan-2/
+  Revexa | Melanotan II | https://www.revexa.co.uk/product-page/melanotan-2-10mg
+  Ultimate Peptides | Melanotan II | https://ultimatepeptides.co.uk/melanotan-ii-10mg-nasal
+  Pyrox Labs | Melanotan II | https://pyroxlabs.co.uk/product/melanotan-ii-10mg/
+  British Peptide Labs | Melanotan II | https://britishpeptidelabs.com/products/mt2
+  NovaVitality | Melanotan II | https://novavitality.co.uk/product/melanotan-2/
+  Arma Peptides | Melanotan II | https://armapeptideshop.com/product/melanotan-2-nasal-spray-10mg/
+  PeptidesNextDay | Melanotan II | https://peptidesnextday.co.uk/product/melanotan-ii-10mg/
+  Kensington Labs UK | GHRP-2 | https://www.kensingtonlabs.co.uk/product/ghrp-2-acetate-10mg/
+  Peptides Online UK | GHRP-2 | https://www.peptidesonline.uk/shop/ghrp-2/
+  OP Labs | GHRP-2 | https://oplabs.co.uk/product/ghrp-2-10mg/
+  LeoLab Peptides UK | GHRP-2 | https://leolab.co.uk/peptides/ghrp-2/
+  PeptidesNextDay | GHRP-2 | https://peptidesnextday.co.uk/product/ghrp-2-5mg/
+  PeptidesNextDay | GHRP-2 | https://peptidesnextday.co.uk/product/ghrp-2-10mg/
+  Kensington Labs UK | AOD-9604 | https://www.kensingtonlabs.co.uk/product/aod9604-5mg/
+  Bluewell Peptides | AOD-9604 | https://bluewellpeptides.com/product/aod-9604-5mg-peptide/
+  Anglo Peptides | AOD-9604 | https://anglopeptides.com/product/aod-9604-5mg-research-peptide/
+  OP Labs | AOD-9604 | https://oplabs.co.uk/product/aod9604-2mg/
+  NovaVitality | AOD-9604 | https://novavitality.co.uk/product/aod-9604/
+  Arma Peptides | AOD-9604 | https://armapeptideshop.com/product/aod-9604-5mg/
+  PeptidesNextDay | AOD-9604 | https://peptidesnextday.co.uk/product/aod-9604-5mg/
+  PeptidesNextDay | AOD-9604 | https://peptidesnextday.co.uk/product/aod-9604-2mg/
+  SPX Labs | Retatrutide | https://spxlabs.co.uk/product/retatrutide-uk-10mg/
+  SPX Labs | Retatrutide | https://spxlabs.co.uk/product/retatrutide-uk-20mg/
+  Advanced Peptides UK | Retatrutide | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/glp-3-40mg-2/
+  Advanced Peptides UK | Retatrutide | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/glp-3-20mg/
+  Revexa | Retatrutide | https://www.revexa.co.uk/product-page/copy-of-retatrutide-research-grade
+  Revexa | Retatrutide | https://www.revexa.co.uk/product-page/20mg-retatrutide-research-grade
+  Revexa | Retatrutide | https://www.revexa.co.uk/product-page/30mg-retatrutide-research-grade
+  Revexa | Retatrutide | https://www.revexa.co.uk/product-page/40mg-retatrutide-research-grade

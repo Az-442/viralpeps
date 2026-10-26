@@ -1,0 +1,707 @@
+/Users/time4you/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Checking 400 entries...
+
+[OK       ] Bluewell Peptides        | Ipamorelin           |    £32.95 ->    £32.95 | https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/
+[OK       ] Anglo Peptides           | Ipamorelin           |    £29.99 ->    £29.99 | https://anglopeptides.com/product/ipamorelin-10mg-batch-168-rese
+[ERROR    ] Peptides UK              | Ipamorelin           |    £20.95 ->      None | https://peptidesuk.com/ipamorelin-5mg/
+[OK       ] My Peptides              | Ipamorelin           |   £100.00 ->   £100.00 | https://my-peptides.co.uk/products/ipamorelin
+[NO_PRICE ] Peptigen Labs            | Ipamorelin           |    £29.99 ->      None | https://peptigenlabs.co.uk/products/PL-IPA-5
+[OK       ] Premio Peptides          | Ipamorelin           |   £199.99 ->   £199.99 | https://premiopeptides.co.uk/compounds/ipamorelin
+[NO_PRICE ] Nova Peptide             | Ipamorelin           |    £40.00 ->      None | https://www.novapeptide.co.uk/product/ipamorelin/
+[NO_PRICE ] Peptify UK               | Ipamorelin           |    £29.99 ->      None | https://www.peptifyuk.com/product/ipamorelin-10mg
+[OK       ] Ascend Peptides UK       | Ipamorelin           |    £24.99 ->    £24.99 | https://ascendpeptidesuk.com/products/ipamorelin-10mg/
+[OK       ] Ascend Peptides UK       | Ipamorelin           |    £14.99 ->    £14.99 | https://ascendpeptidesuk.com/products/ipamorelin/
+[OK       ] Precision Peptides       | Ipamorelin           |    £30.00 ->    £30.00 | https://precision-peptides.shop/product/ipamorelin-10mg/
+[OK       ] OL Research              | Ipamorelin           |    £26.25 ->    £26.25 | https://olresearch.co.uk/product/ipamorelin-10mg/
+[NO_PRICE ] Octagon Peptides         | Ipamorelin           |    £35.00 ->      None | https://octagonpeptides.co.uk/product/ipamorelin-10-mg/
+[REDIRECTED] Polygon Peptides         | Ipamorelin           |    £29.99 ->      None | https://polygonpeptides.co.uk/product/ipamorelin-10mg/
+[NO_PRICE ] Midshire Labs            | Ipamorelin           |    £45.00 ->      None | https://midshirelabs.co.uk/products/ipamorelin/
+[NO_PRICE ] Bio Peptides UK          | Ipamorelin           |    £25.99 ->      None | https://biopeptides-uk.com/product/ipamorelin-10mg/
+[NO_PRICE ] Lab77 Peptides           | Ipamorelin           |    £33.00 ->      None | https://lab77peptides.uk/peptides/ipamorelin?format=vial&size=10
+[REDIRECTED] Prime Peptides           | Ipamorelin           |    £39.99 ->      None | https://www.prime-peptides.co.uk/product/ipamorelin-5mg/
+[OK       ] FORM Peptides            | Ipamorelin           |    £28.00 ->    £28.00 | https://formpeptides.co.uk/catalogue/product/ipamorelin-5mg
+[OK       ] Flex Peptides            | Ipamorelin           |    £23.95 ->    £23.95 | https://www.flexpeptides.co.uk/products/ipamorelin-10mg
+[NO_PRICE ] Crown Peptides           | Ipamorelin           |    £29.99 ->      None | https://crownpeptides.co.uk/shop/research-peptides/ipamorelin/
+[OK       ] Tested Peptides          | Ipamorelin           |    £19.99 ->    £19.99 | https://www.testedpeptides.co.uk/product/ipamorelin-5-mg/
+[OK       ] SupplyPeptides           | Ipamorelin           |    £45.00 ->    £45.00 | https://supplypeptides.co.uk/products/ipamorelin
+[OK       ] PeptidesX                | Ipamorelin           |    £19.99 ->    £19.99 | https://www.peptidesx.uk/product/ipamorelin/
+[NO_PRICE ] BuyReta                  | Ipamorelin           |    £55.00 ->      None | https://www.buyreta.co.uk/product/ipamorelin-10mg-uk
+[OK       ] Peptides Online UK       | Ipamorelin           |    £19.95 ->    £19.95 | https://www.peptidesonline.uk/shop/ipamorelin/
+[OK       ] OP Labs                  | Ipamorelin           |    £15.52 ->    £15.52 | https://oplabs.co.uk/product/ipamorelin-5mg/
+[CHANGED  ] Zentra Peptides UK       | Ipamorelin           |    £33.99 ->    £29.95 | https://zentra-peptides.com/product/ipamorelin/
+[NO_PRICE ] APEX Biolabs             | Ipamorelin           |    £20.00 ->      None | https://www.apexbiolabs.co.uk/product/ipamorelin/
+[OK       ] Apex Pharma              | Ipamorelin           |    £55.00 ->    £55.00 | https://www.apex-pharma.co.uk/product/ipamorelin-10mg/
+[OK       ] LeoLab Peptides UK       | Ipamorelin           |    £25.00 ->    £25.00 | https://leolab.co.uk/peptides/ipamorelin-5mg/
+[OK       ] SPX Labs                 | Ipamorelin           |    £19.98 ->    £19.98 | https://spxlabs.co.uk/product/ipamorelin-uk-5mg/
+[DELISTED ] HelixCore                | Ipamorelin           |    £18.99 ->      None | https://helixcore.co.uk/products/ipamorelin
+[OK       ] ApexPure                 | Ipamorelin           |    £24.99 ->    £24.99 | https://apexpure.co.uk/product/ipamorelin-peptide-5mg/
+[OK       ] Advanced Peptides UK     | Ipamorelin           |    £90.00 ->    £90.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prep
+[NO_PRICE ] Pioneer Peptides         | Ipamorelin           |    £17.00 ->      None | https://pioneerpeptides.co.uk/products/ipamorelin/
+[NO_PRICE ] Pioneer Peptides         | Ipamorelin           |    £20.00 ->      None | https://pioneerpeptides.co.uk/products/ipamorelin/
+[NO_PRICE ] Pioneer Peptides         | Ipamorelin           |    £30.00 ->      None | https://pioneerpeptides.co.uk/products/ipamorelin/
+[GATED    ] PS Labs                  | Ipamorelin           |    £25.00 ->      None | https://pslabs.uk/products/ipamorelin-10mg
+[NO_PRICE ] Fat Pig Peptides         | Ipamorelin           |    £19.99 ->      None | https://fatpigpeptides.co.uk/product/ipamorelin-5mg-10mg/
+[NO_PRICE ] Claripep                 | Ipamorelin           |    £38.00 ->      None | https://claripep.co.uk/product/ipamorelin-10mg/
+[OK       ] Revexa                   | Ipamorelin           |    £35.00 ->    £35.00 | https://www.revexa.co.uk/product-page/ipamorelin-10mg
+[NO_PRICE ] VialVerse                | Ipamorelin           |    £24.00 ->      None | https://vialverse.com/peptides/ipamorelin
+[NO_PRICE ] PeptX                    | Ipamorelin           |    £19.99 ->      None | https://peptx.co.uk/single-vials/ipamorelin
+[OK       ] Peptides UK 4U           | Ipamorelin           |    £45.00 ->    £45.00 | https://peptidesuk4u.co.uk/product/ipamorelin-10mg
+[NO_PRICE ] Ultimate Peptides        | Ipamorelin           |    £25.00 ->      None | https://ultimatepeptides.co.uk/ipamorelin-10mg
+[CHANGED  ] BIOHACKERxLAB            | Ipamorelin           |     £9.99 ->    £50.00 | https://biohackerxlab.com/product/ipamorelin/
+[CHANGED  ] BIOHACKERxLAB            | Ipamorelin           |    £19.99 ->    £60.00 | https://biohackerxlab.com/product/ipamorelin/
+[REDIRECTED] Phoenix BioLabs          | Ipamorelin           |    £34.99 ->      None | https://phoenixbiolabs.net/shop/ipamorelin-10/
+[REDIRECTED] Phoenix BioLabs          | Ipamorelin           |    £19.99 ->      None | https://phoenixbiolabs.net/shop/ipamorelin-5mg-vial-research-com
+[OK       ] British Peptide Labs     | Ipamorelin           |    £55.00 ->    £55.00 | https://britishpeptidelabs.com/products/ipamorelin
+[NO_PRICE ] AllMyPeptides            | Ipamorelin           |    £20.49 ->      None | https://allmypeptides.com/product/ipamorelin/
+[NO_PRICE ] Peptide Global           | Ipamorelin           |   £110.00 ->      None | https://peptideglobal.co.uk/product/ipamorelin-pen/
+[OK       ] Peptide Global           | Ipamorelin           |    £24.99 ->    £24.99 | https://peptideglobal.co.uk/product/ipamorelin-5mg-vial/
+[OK       ] Peptide Global           | Ipamorelin           |    £39.99 ->    £39.99 | https://peptideglobal.co.uk/product/ipamorelin-10mg-vial/
+[OK       ] NovaVitality             | Ipamorelin           |    £25.00 ->    £25.00 | https://novavitality.co.uk/product/ipamorelin/
+[OK       ] Nova Peptide Lab         | Ipamorelin           |    £40.00 ->    £40.00 | https://novapeptidelab.co.uk/product/ipamorelin-research-peptide
+[OK       ] North Peptides UK        | Ipamorelin           |    £25.00 ->    £25.00 | https://www.northpeptidesuk.com/products/ipamorelin/
+[OK       ] Optimus Labs             | Ipamorelin           |    £17.50 ->    £17.50 | https://optimuslabs.co.uk/product/ipamorelin/
+[OK       ] Peptide Shop UK          | Ipamorelin           |    £34.99 ->    £34.99 | https://peptidesshopuk.com/product/ipam-10/
+[OK       ] PeptideHub               | Ipamorelin           |    £29.95 ->    £29.95 | https://peptidehub.co.uk/product/ipamorelin-10mg/
+[OK       ] Arma Peptides            | Ipamorelin           |    £39.00 ->    £39.00 | https://armapeptideshop.com/product/ipamorelin-10mg-2/
+[OK       ] Peptides Specialist UK   | Ipamorelin           |    £40.00 ->    £40.00 | https://peptidespecialist.co.uk/product/ipamorelin/
+[OK       ] Peptides Specialist UK   | Ipamorelin           |   £130.00 ->   £130.00 | https://peptidespecialist.co.uk/product/ipamorelin-15mg-peptide-
+[OK       ] PeptidesNextDay          | Ipamorelin           |    £17.00 ->    £17.00 | https://peptidesnextday.co.uk/product/ipamorelin-5mg/
+[OK       ] PeptidesNextDay          | Ipamorelin           |     £8.00 ->     £8.00 | https://peptidesnextday.co.uk/product/ipamorelin-2mg/
+[NO_PRICE ] HiPeptides               | Ipamorelin           |    £39.99 ->      None | https://hipeptides.co.uk/catalog/ipamorelin
+[NO_PRICE ] UK Peptides              | GHRP-6               |    £49.99 ->      None | https://ukpeptides.com/catalog/ghrp-6
+[OK       ] Research Peptides        | GHRP-6               |     £7.95 ->     £7.95 | https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg
+[NO_PRICE ] Pure Peptides UK         | GHRP-6               |     £9.50 ->      None | https://purepeptidesuk.com/product/ghrp-6-5/
+[OK       ] Pure Peptides UK         | GHRP-6               |    £16.00 ->    £16.00 | https://purepeptidesuk.com/product/premium-ghrp-6-5mg/
+[OK       ] Research Peptides UK     | GHRP-6               |     £7.95 ->     £7.95 | https://www.researchpeptides.co.uk/product-page/ghrp-6-5mg
+[REDIRECTED] Kensington Labs UK       | GHRP-6               |    £17.90 ->      None | https://www.kensingtonlabs.co.uk/product/ghrp-6-acetate-5mg/
+[NO_STORED] Peptides UK              | GHRP-6               |        £— ->    £18.95 | https://peptidesuk.com/ghrp6-10mg/
+[OK       ] Precision Peptides       | GHRP-6               |    £20.00 ->    £20.00 | https://precision-peptides.shop/product/ghrp-6-10mg/
+[NO_PRICE ] Midshire Labs            | GHRP-6               |    £15.00 ->      None | https://midshirelabs.co.uk/products/ghrp-6/
+[NO_PRICE ] Bio Peptides UK          | GHRP-6               |    £19.90 ->      None | https://biopeptides-uk.com/product/ghrp-6-10mg/
+[NO_PRICE ] Crown Peptides           | GHRP-6               |    £29.99 ->      None | https://crownpeptides.co.uk/shop/research-peptides/ghrp-6-resear
+[OK       ] Tested Peptides          | GHRP-6               |    £16.99 ->    £16.99 | https://www.testedpeptides.co.uk/product/ghrp-6-10-mg-research-p
+[OK       ] PeptidesX                | GHRP-6               |     £9.99 ->     £9.99 | https://www.peptidesx.uk/product/ghrp-6/
+[OK       ] PeptidesX                | GHRP-6               |    £18.99 ->    £18.99 | https://www.peptidesx.uk/product/ghrp-6/
+[OK       ] Peptides Online UK       | GHRP-6               |     £9.95 ->     £9.95 | https://www.peptidesonline.uk/shop/ghrp-6/
+[OK       ] OP Labs                  | GHRP-6               |     £9.50 ->     £9.50 | https://oplabs.co.uk/product/ghrp-6-5mg/
+[OK       ] LeoLab Peptides UK       | GHRP-6               |    £30.00 ->    £30.00 | https://leolab.co.uk/peptides/ghrp-6/
+[OK       ] HelixCore                | GHRP-6               |    £10.99 ->    £10.99 | https://helixcore.co.uk/products/ghrp-6
+[OK       ] ApexPure                 | GHRP-6               |    £21.99 ->    £21.99 | https://apexpure.co.uk/product/ghrp-6-uk/
+[NO_PRICE ] Pioneer Peptides         | GHRP-6               |    £15.00 ->      None | https://pioneerpeptides.co.uk/products/ghrp-6/
+[NO_PRICE ] VialVerse                | GHRP-6               |    £14.00 ->      None | https://vialverse.com/peptides/ghrp-6
+[OK       ] Optimus Labs             | GHRP-6               |    £12.50 ->    £12.50 | https://optimuslabs.co.uk/product/ghrp-6/
+[OK       ] Arma Peptides            | GHRP-6               |    £10.00 ->    £10.00 | https://armapeptideshop.com/product/ghrp-6-5mg-peptide/
+[OK       ] PeptidesNextDay          | GHRP-6               |     £8.00 ->     £8.00 | https://peptidesnextday.co.uk/product/ghrp-6-5mg/
+[OK       ] PeptidesNextDay          | GHRP-6               |    £15.00 ->    £15.00 | https://peptidesnextday.co.uk/product/ghrp-6-10mg/
+[NO_PRICE ] HiPeptides               | GHRP-6               |    £39.99 ->      None | https://hipeptides.co.uk/catalog/ghrp-6
+[NO_PRICE ] PGNA Labs                | PT-141 (Bremelanotid |    £17.00 ->      None | https://pgnalabs.co.uk/product/pt-141
+[NO_PRICE ] UK Peptides              | PT-141 (Bremelanotid |    £29.99 ->      None | https://ukpeptides.com/catalog/pt-141
+[OK       ] Research Peptides        | PT-141 (Bremelanotid |    £16.95 ->    £16.95 | https://www.researchpeptides.co.uk/product-page/pt-141-10mg
+[OK       ] Pure Peptides UK         | PT-141 (Bremelanotid |    £20.00 ->    £20.00 | https://purepeptidesuk.com/product/pt-141-bremelanotide-10mg/
+[OK       ] Pure Peptides UK         | PT-141 (Bremelanotid |    £20.00 ->    £20.00 | https://purepeptidesuk.com/product/pt-141-bremelanotide-10mg/
+[OK       ] Research Peptides UK     | PT-141 (Bremelanotid |    £16.95 ->    £16.95 | https://www.researchpeptides.co.uk/product-page/pt-141-10mg
+[REDIRECTED] Kensington Labs UK       | PT-141 (Bremelanotid |    £29.95 ->      None | https://www.kensingtonlabs.co.uk/product/pt-141-10mg/
+[NO_PRICE ] Biohack Peptides         | PT-141 (Bremelanotid |    £17.99 ->      None | https://biohackpeptides.co.uk/product/pt-141-peptide-10mg-3ml-ba
+[OK       ] Bluewell Peptides        | PT-141 (Bremelanotid |    £20.95 ->    £20.95 | https://bluewellpeptides.com/product/pt-141-10mg-peptide/
+[NO_STORED] Peptides UK              | PT-141 (Bremelanotid |        £— ->    £19.95 | https://peptidesuk.com/pt-141/
+[OK       ] My Peptides              | PT-141 (Bremelanotid |   £100.00 ->   £100.00 | https://my-peptides.co.uk/products/pt-141
+[OK       ] Premio Peptides          | PT-141 (Bremelanotid |   £199.99 ->   £199.99 | https://premiopeptides.co.uk/compounds/pt-141
+[NO_PRICE ] Nova Peptide             | PT-141 (Bremelanotid |    £30.00 ->      None | https://www.novapeptide.co.uk/product/pt-141-vial/
+[OK       ] Precision Peptides       | PT-141 (Bremelanotid |    £20.00 ->    £20.00 | https://precision-peptides.shop/product/pt-141-10mg-no-packaging
+[OK       ] OL Research              | PT-141 (Bremelanotid |    £17.10 ->    £17.10 | https://olresearch.co.uk/product/pt-141-10mg/
+[NO_PRICE ] Octagon Peptides         | PT-141 (Bremelanotid |    £30.00 ->      None | https://octagonpeptides.co.uk/product/pt-141-10-mg/
+[OK       ] Polygon Peptides         | PT-141 (Bremelanotid |    £19.99 ->    £19.99 | https://polygonpeptides.co.uk/product/pt-141/
+[CHANGED  ] Midshire Labs            | PT-141 (Bremelanotid |    £20.00 ->    £17.00 | https://midshirelabs.co.uk/products/pt-141/
+[NO_PRICE ] Bio Peptides UK          | PT-141 (Bremelanotid |    £25.00 ->      None | https://biopeptides-uk.com/product/pt-141-10mg/
+[NO_PRICE ] Crown Peptides           | PT-141 (Bremelanotid |    £29.99 ->      None | https://crownpeptides.co.uk/shop/research-peptides/pt-141/
+[OK       ] SupplyPeptides           | PT-141 (Bremelanotid |    £30.00 ->    £30.00 | https://supplypeptides.co.uk/products/pt-141
+[NO_PRICE ] BuyReta                  | PT-141 (Bremelanotid |    £40.00 ->      None | https://www.buyreta.co.uk/product/pt-141-10mg-uk
+[OK       ] Peptides Online UK       | PT-141 (Bremelanotid |    £19.95 ->    £19.95 | https://www.peptidesonline.uk/shop/pt-141/
+[OK       ] APEX Biolabs             | PT-141 (Bremelanotid |    £30.00 ->    £30.00 | https://www.apexbiolabs.co.uk/product/pt-141/
+[OK       ] LeoLab Peptides UK       | PT-141 (Bremelanotid |    £40.00 ->    £40.00 | https://leolab.co.uk/peptides/pt-141/
+[OK       ] ApexPure                 | PT-141 (Bremelanotid |    £29.99 ->    £29.99 | https://apexpure.co.uk/product/pt-141-bremelanotide-peptide-10mg
+[CHANGED  ] Revexa                   | PT-141 (Bremelanotid |    £24.99 ->    £19.00 | https://www.revexa.co.uk/product-page/pt-141-10mg-melanocortin-r
+[OK       ] Peptides UK 4U           | PT-141 (Bremelanotid |    £19.99 ->    £19.99 | https://peptidesuk4u.co.uk/product/pt-141-10mg
+[OK       ] AllMyPeptides            | PT-141 (Bremelanotid |    £20.49 ->    £20.49 | https://allmypeptides.com/product/pt-141/
+[OK       ] NovaVitality             | PT-141 (Bremelanotid |    £15.00 ->    £15.00 | https://novavitality.co.uk/product/pt-141/
+[OK       ] PeptideHub               | PT-141 (Bremelanotid |    £20.95 ->    £20.95 | https://peptidehub.co.uk/product/pt-141-10mg/
+[NO_PRICE ] PeptX                    | PT-141 (Bremelanotid |    £23.99 ->      None | https://peptx.co.uk/single-vials/pt-141
+[OK       ] UK Peptide Lab           | PT-141 (Bremelanotid |    £20.99 ->    £20.99 | https://ukpeptidelab.co.uk/product/pt-141
+[OK       ] FORM Peptides            | PT-141 (Bremelanotid |    £20.00 ->    £20.00 | https://formpeptides.co.uk/catalogue/product/pt-141-10mg
+[OK       ] PeptidesX                | PT-141 (Bremelanotid |    £19.95 ->    £19.95 | https://www.peptidesx.uk/product/pt-141/
+[OK       ] HelixCore                | PT-141 (Bremelanotid |    £21.99 ->    £21.99 | https://helixcore.co.uk/products/pt-141
+[OK       ] Advanced Peptides UK     | PT-141 (Bremelanotid |    £60.00 ->    £60.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prep
+[OK       ] VialVerse                | PT-141 (Bremelanotid |    £19.00 ->    £19.00 | https://vialverse.com/peptides/pt-141
+[REDIRECTED] Phoenix BioLabs          | PT-141 (Bremelanotid |    £44.99 ->      None | https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-p
+[OK       ] British Peptide Labs     | PT-141 (Bremelanotid |    £40.00 ->    £40.00 | https://britishpeptidelabs.com/products/pt-141
+[OK       ] Peptide Shop UK          | PT-141 (Bremelanotid |    £19.99 ->    £19.99 | https://peptidesshopuk.com/product/pt-10/
+[OK       ] Arma Peptides            | PT-141 (Bremelanotid |    £16.00 ->    £16.00 | https://armapeptideshop.com/product/pt-141-10mg/
+[OK       ] Peptides Specialist UK   | PT-141 (Bremelanotid |    £30.00 ->    £30.00 | https://peptidespecialist.co.uk/product/pt-141/
+[GATED    ] PS Labs                  | PT-141 (Bremelanotid |    £20.00 ->      None | https://pslabs.uk/products/pt-141-bremelanotide-10mg
+[DELISTED ] UK-Peptides.com          | PT-141 (Bremelanotid |    £21.00 ->      None | https://www.uk-peptides.com/pt-141-bremelanotide
+[NO_PRICE ] Global Bio Research      | PT-141 (Bremelanotid |   £119.99 ->      None | https://globalbioresearch.co/shop/pt-141
+[OK       ] PeptidesNextDay          | PT-141 (Bremelanotid |    £17.00 ->    £17.00 | https://peptidesnextday.co.uk/product/pt-141-bremelanotide-10mg/
+[NO_PRICE ] HiPeptides               | PT-141 (Bremelanotid |    £29.99 ->      None | https://hipeptides.co.uk/catalog/pt-141
+[NO_PRICE ] UK Peptides              | Kisspeptin-10        |    £49.99 ->      None | https://ukpeptides.com/catalog/kisspeptin
+[OK       ] Pure Peptides UK         | Kisspeptin-10        |    £21.50 ->    £21.50 | https://purepeptidesuk.com/product/kisspeptin-5mg/
+[OK       ] Kensington Labs UK       | Kisspeptin-10        |    £29.95 ->    £29.95 | https://kensingtonlabs.co.uk/product/kisspeptin-10mg/
+[OK       ] Bluewell Peptides        | Kisspeptin-10        |    £39.95 ->    £39.95 | https://bluewellpeptides.com/product/kisspeptin-10-10mg-peptide/
+[NO_PRICE ] Peptigen Labs            | Kisspeptin-10        |    £39.99 ->      None | https://peptigenlabs.co.uk/products/PL-KISS-10
+[OK       ] Premio Peptides          | Kisspeptin-10        |   £199.99 ->   £199.99 | https://premiopeptides.co.uk/compounds/kisspeptin-10
+[NO_PRICE ] Nova Peptide             | Kisspeptin-10        |    £30.00 ->      None | https://www.novapeptide.co.uk/product/kisspeptin/
+[NO_PRICE ] Octagon Peptides         | Kisspeptin-10        |    £30.00 ->      None | https://octagonpeptides.co.uk/product/kisspeptin-10-mg/
+[NO_PRICE ] Midshire Labs            | Kisspeptin-10        |    £30.00 ->      None | https://midshirelabs.co.uk/products/kisspeptin/
+[NO_PRICE ] Bio Peptides UK          | Kisspeptin-10        |    £33.00 ->      None | https://biopeptides-uk.com/product/kisspeptin-10mg/
+[NO_PRICE ] Lab77 Peptides           | Kisspeptin-10        |    £33.00 ->      None | https://lab77peptides.uk/peptides/kisspeptin10?format=vial&size=
+[OK       ] UK Peptide Lab           | Kisspeptin-10        |    £34.99 ->    £34.99 | https://ukpeptidelab.co.uk/product/kisspeptin-10
+[OK       ] Tested Peptides          | Kisspeptin-10        |    £37.99 ->    £37.99 | https://www.testedpeptides.co.uk/product/kissptin-10-10mg/
+[NO_PRICE ] BuyReta                  | Kisspeptin-10        |    £30.00 ->      None | https://www.buyreta.co.uk/product/kisspeptin-10-uk
+[OK       ] APEX Biolabs             | Kisspeptin-10        |    £30.00 ->    £30.00 | https://www.apexbiolabs.co.uk/product/kisspeptin-10mg/
+[OK       ] LeoLab Peptides UK       | Kisspeptin-10        |    £40.00 ->    £40.00 | https://leolab.co.uk/peptides/kisspeptin/
+[OK       ] HelixCore                | Kisspeptin-10        |    £17.99 ->    £17.99 | https://helixcore.co.uk/products/kisspeptin-10
+[NO_PRICE ] Pioneer Peptides         | Kisspeptin-10        |    £25.00 ->      None | https://pioneerpeptides.co.uk/products/kisspeptin-10/
+[NO_PRICE ] Pioneer Peptides         | Kisspeptin-10        |    £34.00 ->      None | https://pioneerpeptides.co.uk/products/kisspeptin-10/
+[GATED    ] PS Labs                  | Kisspeptin-10        |    £30.00 ->      None | https://pslabs.uk/products/kisspeptin-10mg
+[CHANGED  ] Revexa                   | Kisspeptin-10        |    £29.00 ->    £25.00 | https://www.revexa.co.uk/product-page/kisspeptin-5mg-gnrh-pathwa
+[NO_PRICE ] VialVerse                | Kisspeptin-10        |    £29.00 ->      None | https://vialverse.com/peptides/kisspeptin-10
+[OK       ] Pyrox Labs               | Kisspeptin-10        |    £36.99 ->    £36.99 | https://pyroxlabs.co.uk/product/kisspeptin-10-10mg/
+[OK       ] AllMyPeptides            | Kisspeptin-10        |    £19.99 ->    £19.99 | https://allmypeptides.com/product/kisspeptin-10/
+[OK       ] Peptide Global           | Kisspeptin-10        |    £27.99 ->    £27.99 | https://peptideglobal.co.uk/product/kisspeptin-10-5mg-vial/
+[OK       ] NovaVitality             | Kisspeptin-10        |    £22.50 ->    £22.50 | https://novavitality.co.uk/product/kisspeptin/
+[OK       ] PeptideHub               | Kisspeptin-10        |    £24.95 ->    £24.95 | https://peptidehub.co.uk/product/kisspeptin-10-5mg/
+[OK       ] Arma Peptides            | Kisspeptin-10        |    £30.00 ->    £30.00 | https://armapeptideshop.com/product/kisspeptin-10mg/
+[OK       ] Peptides Specialist UK   | Kisspeptin-10        |    £30.00 ->    £30.00 | https://peptidespecialist.co.uk/product/kisspeptin/
+[OK       ] Peptides Specialist UK   | Kisspeptin-10        |   £150.00 ->   £150.00 | https://peptidespecialist.co.uk/product/kisspeptin-15mg-peptide-
+[OK       ] PeptidesNextDay          | Kisspeptin-10        |    £24.00 ->    £24.00 | https://peptidesnextday.co.uk/product/kisspeptin-10-5mg/
+[NO_PRICE ] HiPeptides               | Kisspeptin-10        |    £49.99 ->      None | https://hipeptides.co.uk/catalog/kisspeptin
+[OK       ] Bluewell Peptides        | Cerebrolysin         |    £32.95 ->    £32.95 | https://bluewellpeptides.com/product/cerebrolysin-60mg/
+[OK       ] VialVerse                | P21                  |    £32.00 ->    £32.00 | https://vialverse.com/peptides/p21
+[OK       ] Advanced Peptides UK     | Dihexa               |    £40.00 ->    £40.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/dihe
+[OK       ] Advanced Peptides UK     | Dihexa               |    £35.00 ->    £35.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vial
+[OK       ] PeptidesNextDay          | Dihexa               |    £47.00 ->    £47.00 | https://peptidesnextday.co.uk/product/dihexa-10mg/
+[NO_PRICE ] UK Peptides              | BPC-157 / TB-500 Mix |    £44.99 ->      None | https://ukpeptides.com/catalog/bpc-157-tb-500-blend
+[NO_PRICE ] Pure Peptides UK         | BPC-157 / TB-500 Mix |    £49.00 ->      None | https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/
+[REDIRECTED] Kensington Labs UK       | BPC-157 / TB-500 Mix |    £29.95 ->      None | https://www.kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10m
+[REDIRECTED] Kensington Labs UK       | BPC-157 / TB-500 Mix |    £29.95 ->      None | https://www.kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10m
+[REDIRECTED] Kensington Labs UK       | BPC-157 / TB-500 Mix |    £29.95 ->      None | https://www.kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10m
+[NO_PRICE ] Biohack Peptides         | BPC-157 / TB-500 Mix |    £23.99 ->      None | https://biohackpeptides.co.uk/product/bpc-157-tb500-peptide-blen
+[NO_PRICE ] Biohack Peptides         | BPC-157 / TB-500 Mix |    £39.99 ->      None | https://biohackpeptides.co.uk/product/bpc-157-tb500-peptide-blen
+[OK       ] New Wave Peptides        | BPC-157 / TB-500 Mix |    £45.00 ->    £45.00 | https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-
+[OK       ] Bluewell Peptides        | BPC-157 / TB-500 Mix |    £79.95 ->    £79.95 | https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/
+[NO_PRICE ] Anglo Peptides           | BPC-157 / TB-500 Mix |    £55.00 ->      None | https://anglopeptides.com/product/bpc-157-tb4-blend-10mg10mg-bat
+[REDIRECTED] ThePeptideCode           | BPC-157 / TB-500 Mix |    £42.99 ->      None | https://thepeptidecode.co.uk/products/bpc-157-tb-500-blend
+[NO_PRICE ] Nova Peptide             | BPC-157 / TB-500 Mix |    £69.00 ->      None | https://www.novapeptide.co.uk/product/the-wolverine-stack-bpc-15
+[NO_PRICE ] Peptify UK               | BPC-157 / TB-500 Mix |    £59.99 ->      None | https://www.peptifyuk.com/product/bpc-157-tb500-blend-20mg
+[OK       ] Precision Peptides       | BPC-157 / TB-500 Mix |    £30.00 ->    £30.00 | https://precision-peptides.shop/product/bpc-tb500-10mg-blend/
+[OK       ] Polygon Peptides         | BPC-157 / TB-500 Mix |    £59.99 ->    £59.99 | https://polygonpeptides.co.uk/product/wolverine-blend-20mg/
+[NO_PRICE ] Midshire Labs            | BPC-157 / TB-500 Mix |    £40.00 ->      None | https://midshirelabs.co.uk/products/bpc157-tb500/
+[NO_PRICE ] Bio Peptides UK          | BPC-157 / TB-500 Mix |    £75.00 ->      None | https://biopeptides-uk.com/product/research-bundle-a-bpc157-10mg
+[OK       ] Trutide                  | BPC-157 / TB-500 Mix |    £69.95 ->    £69.95 | https://trutide.co.uk/product/wolverine/
+[NO_PRICE ] PepNOVA                  | BPC-157 / TB-500 Mix |    £88.00 ->      None | https://pepnova.uk/
+[OK       ] OP Labs                  | BPC-157 / TB-500 Mix |    £26.90 ->    £26.90 | https://oplabs.co.uk/product/bpc157-tb500-blend-10mg/
+[NO_PRICE ] APEX Biolabs             | BPC-157 / TB-500 Mix |    £40.00 ->      None | https://www.apexbiolabs.co.uk/product/bpc-157-tb500-blend/
+[OK       ] ApexPure                 | BPC-157 / TB-500 Mix |   £129.99 ->   £129.99 | https://apexpure.co.uk/product/bpc-157-tb-500-blend-uk/
+[NO_PRICE ] Fat Pig Peptides         | BPC-157 / TB-500 Mix |    £44.99 ->      None | https://fatpigpeptides.co.uk/product/wolverine-peptide-blend/
+[NO_PRICE ] Peptides UK 4U           | BPC-157 / TB-500 Mix |    £50.00 ->      None | https://peptidesuk4u.co.uk/product/the-wolverine-stack-bpc-157-t
+[OK       ] British Peptide Labs     | BPC-157 / TB-500 Mix |    £60.00 ->    £60.00 | https://britishpeptidelabs.com/products/bpc-157-tb-500-mix
+[NO_PRICE ] AllMyPeptides            | BPC-157 / TB-500 Mix |    £39.99 ->      None | https://allmypeptides.com/product/wolverine-blend/
+[NO_PRICE ] Kingston Peptides        | BPC-157 / TB-500 Mix |    £21.00 ->      None | https://kingstonpeptides.com/en/products/wolverine-bpc-157-tb-50
+[OK       ] Nova Peptide Lab         | BPC-157 / TB-500 Mix |    £69.00 ->    £69.00 | https://novapeptidelab.co.uk/product/the-wolverine-stack-bpc-157
+[OK       ] Nova Peptide Lab         | BPC-157 / TB-500 Mix |   £100.00 ->   £100.00 | https://novapeptidelab.co.uk/product/wolverine-stack-pen/
+[NO_PRICE ] Lab77 Peptides           | BPC-157 / TB-500 Mix |    £65.00 ->      None | https://lab77peptides.uk/peptides/wolverine-stack?format=vial&si
+[OK       ] Peptide Shop UK          | BPC-157 / TB-500 Mix |   £119.99 ->   £119.99 | https://peptidesshopuk.com/product/wolv-20/
+[OK       ] Arma Peptides            | BPC-157 / TB-500 Mix |    £69.00 ->    £69.00 | https://armapeptideshop.com/product/bpc-157-tb500-blend-20mg/
+[OK       ] Peptides Specialist UK   | BPC-157 / TB-500 Mix |    £80.00 ->    £80.00 | https://peptidespecialist.co.uk/product/the-wolverine-stack-bpc-
+[OK       ] Peptides Specialist UK   | BPC-157 / TB-500 Mix |   £210.00 ->   £210.00 | https://peptidespecialist.co.uk/product/bpc-157-7-5mg-tb500-7-5m
+[OK       ] Kensington Labs UK       | Gonadorelin          |    £34.90 ->    £34.90 | https://kensingtonlabs.co.uk/product/gonadorelin-5mg/
+[NO_PRICE ] BuyReta                  | Gonadorelin          |    £14.00 ->      None | https://www.buyreta.co.uk/product/gonadorelin-uk
+[NO_PRICE ] UK Peptides              | DSIP (Delta Sleep-In |    £49.99 ->      None | https://ukpeptides.com/catalog/dsip-nasal-spray
+[OK       ] Research Peptides        | DSIP (Delta Sleep-In |    £11.95 ->    £11.95 | https://www.researchpeptides.co.uk/product-page/dsip-5mg
+[NO_PRICE ] Pure Peptides UK         | DSIP (Delta Sleep-In |    £15.00 ->      None | https://purepeptidesuk.com/product/dsip-5mg/
+[NO_PRICE ] Pure Peptides UK         | DSIP (Delta Sleep-In |    £15.00 ->      None | https://purepeptidesuk.com/product/dsip-5mg/
+[NO_PRICE ] UK Peptides              | DSIP (Delta Sleep-In |    £49.99 ->      None | https://ukpeptides.com/catalog/dsip-nasal-spray
+[OK       ] Research Peptides UK     | DSIP (Delta Sleep-In |    £11.95 ->    £11.95 | https://www.researchpeptides.co.uk/product-page/dsip-5mg
+[REDIRECTED] Kensington Labs UK       | DSIP (Delta Sleep-In |    £24.95 ->      None | https://www.kensingtonlabs.co.uk/product/dsip-5mg/
+[OK       ] New Wave Peptides        | DSIP (Delta Sleep-In |    £32.00 ->    £32.00 | https://newwavepeptides.co.uk/buy-peptide/peptides/dsip-delta-sl
+[NO_PRICE ] Research Peptides UK     | DSIP (Delta Sleep-In |    £20.00 ->      None | https://researchpeptide.co.uk/product/dsip-delta-sleep-inducing-
+[CHANGED  ] Bluewell Peptides        | DSIP (Delta Sleep-In |    £16.95 ->    £35.95 | https://bluewellpeptides.com/product/dsip-15mg-peptide/
+[NO_STORED] Peptides UK              | DSIP (Delta Sleep-In |        £— ->    £14.95 | https://peptidesuk.com/dsip/
+[OK       ] Premio Peptides          | DSIP (Delta Sleep-In |   £199.99 ->   £199.99 | https://premiopeptides.co.uk/compounds/dsip
+[OK       ] Precision Peptides       | DSIP (Delta Sleep-In |    £15.00 ->    £15.00 | https://precision-peptides.shop/product/dsip-delta-sleep-inducin
+[NO_PRICE ] Octagon Peptides         | DSIP (Delta Sleep-In |    £25.00 ->      None | https://octagonpeptides.co.uk/product/dsip-10-mg/
+[OK       ] Polygon Peptides         | DSIP (Delta Sleep-In |    £29.99 ->    £29.99 | https://polygonpeptides.co.uk/product/dsip-10mg/
+[NO_PRICE ] Midshire Labs            | DSIP (Delta Sleep-In |    £15.00 ->      None | https://midshirelabs.co.uk/products/dsip/
+[NO_PRICE ] Bio Peptides UK          | DSIP (Delta Sleep-In |    £49.50 ->      None | https://biopeptides-uk.com/product/dsip-15mg/
+[NO_PRICE ] Lab77 Peptides           | DSIP (Delta Sleep-In |    £39.00 ->      None | https://lab77peptides.uk/peptides/dsip?format=vial&size=10mg
+[OK       ] FORM Peptides            | DSIP (Delta Sleep-In |    £25.00 ->    £25.00 | https://formpeptides.co.uk/catalogue/product/dsip-5mg
+[OK       ] Tested Peptides          | DSIP (Delta Sleep-In |    £15.99 ->    £15.99 | https://www.testedpeptides.co.uk/product/dsip-5-mg-research-pept
+[NO_PRICE ] UK Peptide Lab           | DSIP (Delta Sleep-In |    £13.99 ->      None | https://ukpeptidelab.co.uk/product/dsip
+[NO_PRICE ] Crown Peptides           | DSIP (Delta Sleep-In |    £24.99 ->      None | https://crownpeptides.co.uk/shop/research-peptides/dsip/
+[OK       ] PeptidesX                | DSIP (Delta Sleep-In |    £14.95 ->    £14.95 | https://www.peptidesx.uk/product/dsip/
+[NO_PRICE ] BuyReta                  | DSIP (Delta Sleep-In |    £20.00 ->      None | https://www.buyreta.co.uk/product/dsip-uk
+[OK       ] Peptides Online UK       | DSIP (Delta Sleep-In |    £14.95 ->    £14.95 | https://www.peptidesonline.uk/shop/dsip/
+[OK       ] OP Labs                  | DSIP (Delta Sleep-In |    £13.95 ->    £13.95 | https://oplabs.co.uk/product/dsip-5mg/
+[NO_PRICE ] APEX Biolabs             | DSIP (Delta Sleep-In |    £25.00 ->      None | https://www.apexbiolabs.co.uk/product/dsip-10mg/
+[OK       ] LeoLab Peptides UK       | DSIP (Delta Sleep-In |    £25.00 ->    £25.00 | https://leolab.co.uk/peptides/dsip/
+[OK       ] HelixCore                | DSIP (Delta Sleep-In |    £15.99 ->    £15.99 | https://helixcore.co.uk/products/dsip
+[NO_PRICE ] Pioneer Peptides         | DSIP (Delta Sleep-In |    £10.00 ->      None | https://pioneerpeptides.co.uk/products/dsip/
+[NO_PRICE ] Pioneer Peptides         | DSIP (Delta Sleep-In |    £15.00 ->      None | https://pioneerpeptides.co.uk/products/dsip/
+[NO_PRICE ] Pioneer Peptides         | DSIP (Delta Sleep-In |    £20.00 ->      None | https://pioneerpeptides.co.uk/products/dsip/
+[GATED    ] PS Labs                  | DSIP (Delta Sleep-In |    £25.00 ->      None | https://pslabs.uk/products/dsip-10mg
+[CHANGED  ] Revexa                   | DSIP (Delta Sleep-In |    £20.00 ->    £18.00 | https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-induc
+[OK       ] Revexa                   | DSIP (Delta Sleep-In |    £29.00 ->    £29.00 | https://www.revexa.co.uk/product-page/dsip-10mg-delta-sleep-indu
+[NO_PRICE ] VialVerse                | DSIP (Delta Sleep-In |    £12.00 ->      None | https://vialverse.com/peptides/dsip
+[NO_PRICE ] PeptX                    | DSIP (Delta Sleep-In |    £19.99 ->      None | https://peptx.co.uk/single-vials/dsip
+[NO_PRICE ] Kings BioLabs            | DSIP (Delta Sleep-In |    £40.00 ->      None | https://www.kingsbiolabs.co.uk/dsip
+[OK       ] Peptides UK 4U           | DSIP (Delta Sleep-In |    £29.99 ->    £29.99 | https://peptidesuk4u.co.uk/product/dsip-15mg
+[OK       ] UKPeptides.org           | DSIP (Delta Sleep-In |    £13.99 ->    £13.95 | https://ukpeptides.org/buy/dsip-5mg
+[REDIRECTED] Phoenix BioLabs          | DSIP (Delta Sleep-In |    £34.99 ->      None | https://phoenixbiolabs.net/shop/dsip-10mg/
+[OK       ] Pyrox Labs               | DSIP (Delta Sleep-In |    £25.32 ->    £25.32 | https://pyroxlabs.co.uk/product/dsip-10mg/
+[OK       ] Pyrox Labs               | DSIP (Delta Sleep-In |    £15.99 ->    £15.99 | https://pyroxlabs.co.uk/product/dsip-5mg/
+[NO_PRICE ] AllMyPeptides            | DSIP (Delta Sleep-In |    £12.49 ->      None | https://allmypeptides.com/product/dsip/
+[OK       ] Peptide Global           | DSIP (Delta Sleep-In |    £22.99 ->    £22.99 | https://peptideglobal.co.uk/product/dsip-5mg-vial/
+[OK       ] NovaVitality             | DSIP (Delta Sleep-In |    £20.00 ->    £20.00 | https://novavitality.co.uk/product/dsip/
+[OK       ] PeptideHub               | DSIP (Delta Sleep-In |    £19.95 ->    £19.95 | https://peptidehub.co.uk/product/dsip-5mg/
+[OK       ] Arma Peptides            | DSIP (Delta Sleep-In |    £15.00 ->    £15.00 | https://armapeptideshop.com/product/dsip-5mg-premium-research-pe
+[NO_PRICE ] HiPeptides               | DSIP (Delta Sleep-In |    £29.99 ->      None | https://hipeptides.co.uk/catalog/dsip
+[NO_PRICE ] UK Peptides              | Oxytocin             |    £20.00 ->      None | https://ukpeptides.com/catalog/oxytocin
+[NO_PRICE ] UK Peptides              | Oxytocin             |    £20.00 ->      None | https://ukpeptides.com/catalog/oxytocin
+[NO_PRICE ] UK Peptides              | Oxytocin             |    £49.99 ->      None | https://ukpeptides.com/catalog/oxytocin
+[REDIRECTED] Kensington Labs UK       | Oxytocin             |    £29.90 ->      None | https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/
+[OK       ] Bluewell Peptides        | Oxytocin             |    £39.95 ->    £39.95 | https://bluewellpeptides.com/product/oxytocin-acetate-10mg-pepti
+[OK       ] Premio Peptides          | Oxytocin             |   £199.99 ->   £199.99 | https://premiopeptides.co.uk/compounds/oxytocin
+[NO_PRICE ] Octagon Peptides         | Oxytocin             |    £25.00 ->      None | https://octagonpeptides.co.uk/product/oxytocin-5-mg/
+[NO_PRICE ] Bio Peptides UK          | Oxytocin             |    £28.00 ->      None | https://biopeptides-uk.com/product/oxytocin-2mg/
+[NO_PRICE ] BuyReta                  | Oxytocin             |    £24.00 ->      None | https://www.buyreta.co.uk/product/oxytocin-uk
+[OK       ] Zentra Peptides UK       | Oxytocin             |    £29.95 ->    £29.95 | https://zentra-peptides.com/product/oxytocin/
+[CHANGED  ] Midshire Labs            | Oxytocin             |    £25.00 ->    £14.00 | https://midshirelabs.co.uk/products/oxytocin/
+[OK       ] NovaVitality             | Oxytocin             |    £15.00 ->    £15.00 | https://novavitality.co.uk/product/oxytocin-acetate/
+[OK       ] PeptidesNextDay          | Oxytocin             |    £23.00 ->    £23.00 | https://peptidesnextday.co.uk/product/oxytocin-5mg/
+[NO_PRICE ] HiPeptides               | Oxytocin             |    £20.00 ->      None | https://hipeptides.co.uk/catalog/oxytocin
+[NO_PRICE ] PGNA Labs                | Glow                 |    £64.00 ->      None | https://pgnalabs.co.uk/product/glow
+[NO_PRICE ] UK Peptides              | Glow                 |    £69.99 ->      None | https://ukpeptides.com/catalog/glow
+[REDIRECTED] Kensington Labs UK       | Glow                 |    £69.90 ->      None | https://www.kensingtonlabs.co.uk/product/glow-blend-70mg/
+[NO_PRICE ] Biohack Peptides         | Glow                 |    £59.99 ->      None | https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3m
+[OK       ] New Wave Peptides        | Glow                 |    £62.50 ->    £62.50 | https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-
+[OK       ] Bluewell Peptides        | Glow                 |    £82.95 ->    £82.95 | https://bluewellpeptides.com/product/bpc-157-tb-500-ghk-cu-glow-
+[NO_PRICE ] Anglo Peptides           | Glow                 |    £65.00 ->      None | https://anglopeptides.com/product/glow-blend-peptide-70mg-vial-b
+[REDIRECTED] ThePeptideCode           | Glow                 |    £90.00 ->      None | https://thepeptidecode.co.uk/products/glow70-peptide-pen
+[NO_PRICE ] Nova Peptide             | Glow                 |    £80.00 ->      None | https://www.novapeptide.co.uk/product/glow-blend/
+[REDIRECTED] Peptify UK               | Glow                 |    £55.99 ->      None | https://www.peptifyuk.com/product/glow-blend-70mg
+[OK       ] Precision Peptides       | Glow                 |    £62.50 ->    £62.50 | https://precision-peptides.shop/product/glow-70mg/
+[OK       ] OL Research              | Glow                 |    £58.50 ->    £58.50 | https://olresearch.co.uk/product/glow-70mg/
+[OK       ] Polygon Peptides         | Glow                 |    £69.99 ->    £69.99 | https://polygonpeptides.co.uk/product/glow-70-70mg/
+[CHANGED  ] Midshire Labs            | Glow                 |    £50.00 ->    £30.00 | https://midshirelabs.co.uk/products/glow50/
+[NO_PRICE ] Bio Peptides UK          | Glow                 |    £89.00 ->      None | https://biopeptides-uk.com/product/glow-70mg/
+[REDIRECTED] Prime Peptides           | Glow                 |    £69.99 ->      None | https://www.prime-peptides.co.uk/product/glow-blend/
+[CHANGED  ] Alphamino                | Glow                 |    £55.00 ->    £52.00 | https://alphamino.co.uk/shop/glow-research-peptide/
+[OK       ] SupplyPeptides           | Glow                 |    £50.00 ->    £50.00 | https://supplypeptides.co.uk/products/glow
+[OK       ] PeptidesX                | Glow                 |    £64.95 ->    £64.95 | https://www.peptidesx.uk/product/glow-blend/
+[NO_PRICE ] BuyReta                  | Glow                 |    £95.00 ->      None | https://www.buyreta.co.uk/product/glow-uk
+[OK       ] Peptides Online UK       | Glow                 |    £64.95 ->    £64.95 | https://www.peptidesonline.uk/shop/glow-blend/
+[OK       ] Zentra Peptides UK       | Glow                 |    £46.99 ->    £46.99 | https://zentra-peptides.com/product/glow-blend-bpc-157-tb-500-gh
+[NO_PRICE ] APEX Biolabs             | Glow                 |    £69.99 ->      None | https://www.apexbiolabs.co.uk/product/glow-blend/
+[OK       ] HelixCore                | Glow                 |    £49.99 ->    £49.99 | https://helixcore.co.uk/products/glow-research-blend
+[OK       ] Aegis Peptides           | Glow                 |    £59.99 ->    £59.99 | https://aegispeptidesuk.co.uk/product/glow/
+[OK       ] ApexPure                 | Glow                 |    £85.99 ->    £85.99 | https://apexpure.co.uk/product/glow-blend-uk/
+[OK       ] Advanced Peptides UK     | Glow                 |   £130.00 ->   £130.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prep
+[GATED    ] PS Labs                  | Glow                 |    £60.00 ->      None | https://pslabs.uk/products/glow-70mg
+[OK       ] Fat Pig Peptides         | Glow                 |    £54.99 ->    £54.99 | https://fatpigpeptides.co.uk/product/glow-blend-70mg/
+[NO_PRICE ] VialVerse                | Glow                 |    £44.00 ->      None | https://vialverse.com/peptides/glow-blend
+[OK       ] Peptides UK 4U           | Glow                 |    £59.99 ->    £59.99 | https://peptidesuk4u.co.uk/product/glow
+[NO_PRICE ] Ultimate Peptides        | Glow                 |    £45.00 ->      None | https://ultimatepeptides.co.uk/glow-70
+[CHANGED  ] Midshire Labs            | Glow                 |    £65.00 ->    £45.00 | https://midshirelabs.co.uk/products/glow70/
+[OK       ] UKPeptides.org           | Glow                 |    £59.99 ->    £59.99 | https://ukpeptides.org/buy/glow-70mg
+[REDIRECTED] Phoenix BioLabs          | Glow                 |   £109.99 ->      None | https://phoenixbiolabs.net/shop/glow-blend-tested-99/
+[REDIRECTED] Phoenix BioLabs          | Glow                 |    £99.99 ->      None | https://phoenixbiolabs.net/shop/glow-blend-p-tested-99/
+[REDIRECTED] Phoenix BioLabs          | Glow                 |    £57.99 ->      None | https://phoenixbiolabs.net/shop/glow-tested-99-copy/
+[NO_PRICE ] Pyrox Labs               | Glow                 |    £49.99 ->      None | https://pyroxlabs.co.uk/product/glow-70-blend-70mg/
+[OK       ] AllMyPeptides            | Glow                 |    £49.49 ->    £49.49 | https://allmypeptides.com/product/glow-blend/
+[OK       ] Peptide Global           | Glow                 |   £140.00 ->   £140.00 | https://peptideglobal.co.uk/product/glow-peptide-pen/
+[OK       ] Kingston Peptides        | Glow                 |    £39.00 ->    £39.00 | https://kingstonpeptides.com/en/products/glow-bpc-157-tb-500-ghk
+[OK       ] Peptide Shop UK          | Glow                 |    £99.99 ->    £99.99 | https://peptidesshopuk.com/product/glow-70/
+[OK       ] Arma Peptides            | Glow                 |    £59.00 ->    £59.00 | https://armapeptideshop.com/product/glow-70mg/
+[OK       ] Peptides Specialist UK   | Glow                 |    £85.00 ->    £85.00 | https://peptidespecialist.co.uk/product/glow-blend/
+[OK       ] UK Peptide Lab           | Glow                 |    £59.99 ->    £59.99 | https://ukpeptidelab.co.uk/product/glow
+[OK       ] North Peptides UK        | Glow                 |    £50.00 ->    £50.00 | https://www.northpeptidesuk.com/products/glow-stack/
+[NO_PRICE ] Pure Peptides UK         | Glow                 |   £139.96 ->      None | https://purepeptidesuk.com/product/bundle-glow-stack/
+[OK       ] Research Peptides UK     | Glow                 |    £45.00 ->    £45.00 | https://researchpeptide.co.uk/product/glow-blend-ghk-cu-bpc157-t
+[NO_PRICE ] Pioneer Peptides         | Glow                 |    £75.00 ->      None | https://pioneerpeptides.co.uk/products/glow-blend/
+[OK       ] NovaVitality             | Glow                 |    £55.00 ->    £55.00 | https://novavitality.co.uk/product/bpc-157-tb-500-ghk-cu-mixture
+[NO_PRICE ] Nova Peptide Lab         | Glow                 |    £80.00 ->      None | https://novapeptidelab.co.uk/product/glow-70mg-blend/
+[NO_PRICE ] Global Bio Research      | Glow                 |   £299.99 ->      None | https://globalbioresearch.co/shop/glow
+[OK       ] Nova Biolabs             | Glow                 |    £50.00 ->    £50.00 | https://novabiolabs.co.uk/glow.html
+[NO_PRICE ] HiPeptides               | Glow                 |    £69.99 ->      None | https://hipeptides.co.uk/catalog/glow
+[NO_PRICE ] UK Peptides              | KLOW                 |    £60.00 ->      None | https://ukpeptides.com/catalog/kglow25
+[NO_PRICE ] Biohack Peptides         | KLOW                 |    £69.99 ->      None | https://biohackpeptides.co.uk/product/klow-blend-peptide-80mg-3m
+[NO_PRICE ] New Wave Peptides        | KLOW                 |    £79.95 ->      None | https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-tb-50
+[OK       ] Bluewell Peptides        | KLOW                 |    £94.95 ->    £94.95 | https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-k
+[OK       ] Anglo Peptides           | KLOW                 |    £80.00 ->    £80.00 | https://anglopeptides.com/product/klow-blend-80mg-vial-batch-107
+[NO_PRICE ] Peptify UK               | KLOW                 |    £79.99 ->      None | https://www.peptifyuk.com/product/klow-blend-80mg
+[OK       ] Precision Peptides       | KLOW                 |    £75.00 ->    £75.00 | https://precision-peptides.shop/product/klow-80mg/
+[OK       ] OL Research              | KLOW                 |    £72.00 ->    £72.00 | https://olresearch.co.uk/product/klow-80mg/
+[OK       ] Polygon Peptides         | KLOW                 |    £84.99 ->    £84.99 | https://polygonpeptides.co.uk/product/klow-80mg/
+[NO_PRICE ] Midshire Labs            | KLOW                 |    £75.00 ->      None | https://midshirelabs.co.uk/products/klow80/
+[NO_PRICE ] Bio Peptides UK          | KLOW                 |    £99.00 ->      None | https://biopeptides-uk.com/product/klow-80mg-bpc-157-ghk-cu-tb-5
+[REDIRECTED] Prime Peptides           | KLOW                 |    £60.00 ->      None | https://www.prime-peptides.co.uk/product/klow-blend-peptide/
+[OK       ] Alphamino                | KLOW                 |    £57.00 ->    £57.00 | https://alphamino.co.uk/shop/klow-stack/
+[OK       ] Trutide                  | KLOW                 |    £89.95 ->    £89.95 | https://trutide.co.uk/product/klow-80mg/
+[OK       ] SupplyPeptides           | KLOW                 |    £55.00 ->    £55.00 | https://supplypeptides.co.uk/products/klow
+[NO_PRICE ] BuyReta                  | KLOW                 |   £110.00 ->      None | https://www.buyreta.co.uk/product/klow-80mg-uk
+[NO_PRICE ] PepNOVA                  | KLOW                 |   £143.20 ->      None | https://pepnova.uk/
+[NO_PRICE ] APEX Biolabs             | KLOW                 |    £84.99 ->      None | https://www.apexbiolabs.co.uk/product/klow-80mg/
+[OK       ] Aegis Peptides           | KLOW                 |    £79.99 ->    £79.99 | https://aegispeptidesuk.co.uk/product/klow/
+[OK       ] Aegis Peptides           | KLOW                 |   £109.99 ->   £109.99 | https://aegispeptidesuk.co.uk/product/klow-80mg-pen/
+[OK       ] Advanced Peptides UK     | KLOW                 |    £80.00 ->    £80.00 | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vial
+[GATED    ] PS Labs                  | KLOW                 |    £70.00 ->      None | https://pslabs.uk/products/klow-80mg
+[OK       ] Fat Pig Peptides         | KLOW                 |    £59.79 ->    £59.79 | https://fatpigpeptides.co.uk/product/klow-80mg-blend/
+[NO_PRICE ] VialVerse                | KLOW                 |    £52.00 ->      None | https://vialverse.com/peptides/klow-blend
+[NO_PRICE ] PeptX                    | KLOW                 |    £63.99 ->      None | https://peptx.co.uk/single-vials/klow-blend
+[OK       ] Peptides UK 4U           | KLOW                 |    £79.99 ->    £79.99 | https://peptidesuk4u.co.uk/product/klow
+[CHANGED  ] UKPeptides.org           | KLOW                 |    £69.99 ->    £79.99 | https://ukpeptides.org/buy/klow-80mg
+[REDIRECTED] Phoenix BioLabs          | KLOW                 |    £72.99 ->      None | https://phoenixbiolabs.net/shop/klow-blend-tested-99/
+[REDIRECTED] Phoenix BioLabs          | KLOW                 |   £139.99 ->      None | https://phoenixbiolabs.net/shop/klow-blend-pen/
+[OK       ] British Peptide Labs     | KLOW                 |   £110.00 ->   £110.00 | https://britishpeptidelabs.com/products/klow
+[OK       ] AllMyPeptides            | KLOW                 |    £58.49 ->    £58.49 | https://allmypeptides.com/product/klow-blend/
+[OK       ] Peptide Global           | KLOW                 |   £160.00 ->   £160.00 | https://peptideglobal.co.uk/product/klow-pen/
+[OK       ] N&A Peptides             | KLOW                 |    £60.00 ->    £60.00 | https://www.na-peptides.co.uk/product/klow-peptide-80mg/
+[OK       ] N&A Peptides             | KLOW                 |    £70.00 ->    £70.00 | https://www.na-peptides.co.uk/product/klow-80mg-pen/
+[OK       ] Optimus Labs             | KLOW                 |    £52.50 ->    £52.50 | https://optimuslabs.co.uk/product/klow-80mg/
+[OK       ] Peptide Shop UK          | KLOW                 |    £74.99 ->    £74.99 | https://peptidesshopuk.com/product/klow/
+[NO_PRICE ] Port Peptides            | KLOW                 |    £90.00 ->      None | https://portpeptides.co.uk/peptides/klow-blend/
+[OK       ] UK Peptide Lab           | KLOW                 |    £79.99 ->    £79.99 | https://ukpeptidelab.co.uk/product/klow
+[OK       ] North Peptides UK        | KLOW                 |    £60.00 ->    £60.00 | https://www.northpeptidesuk.com/products/klow-stack/
+[OK       ] Research Peptides UK     | KLOW                 |    £79.00 ->    £79.00 | https://researchpeptide.co.uk/product/klow-blend-ghk-cu-bpc157-t
+[NO_PRICE ] Pioneer Peptides         | KLOW                 |    £90.00 ->      None | https://pioneerpeptides.co.uk/products/klow-blend/
+[OK       ] NovaVitality             | KLOW                 |    £75.00 ->    £75.00 | https://novavitality.co.uk/product/ghk-cu-tb-500-bpc-157-kpv-mix
+[OK       ] Nova Biolabs             | KLOW                 |    £70.00 ->    £70.00 | https://novabiolabs.co.uk/klow-80mg.html
+[NO_PRICE ] HiPeptides               | KLOW                 |    £60.00 ->      None | https://hipeptides.co.uk/catalog/kglow25
+[NO_PRICE ] UK Peptides              | Mazdutide            |    £89.99 ->      None | https://ukpeptides.com/catalog/mazdutide
+[ERROR    ] VialVerse                | Mazdutide            |    £52.00 ->      None | https://vialverse.com/peptides/mazdutide
+[NO_PRICE ] PeptX                    | Mazdutide            |    £27.99 ->      None | https://peptx.co.uk/single-vials/mazdutide
+[NO_PRICE ] Peptides UK 4U           | Mazdutide            |    £62.00 ->      None | https://peptidesuk4u.co.uk/product/mazdutide-10mg
+[NO_PRICE ] HiPeptides               | Mazdutide            |    £79.99 ->      None | https://hipeptides.co.uk/catalog/mazdutide
+[NO_PRICE ] UK Peptides              | SNAP-8               |    £49.99 ->      None | https://ukpeptides.com/catalog/snap-8
+[OK       ] Research Peptides        | SNAP-8               |    £10.95 ->    £10.95 | https://www.researchpeptides.co.uk/product-page/snap-8-10mg
+[NO_PRICE ] Pure Peptides UK         | SNAP-8               |    £21.95 ->      None | https://purepeptidesuk.com/product/snap-8-10mg/
+[REDIRECTED] Kensington Labs UK       | SNAP-8               |    £19.95 ->      None | https://www.kensingtonlabs.co.uk/product/snap-8-10mg/
+[OK       ] Bluewell Peptides        | SNAP-8               |    £21.95 ->    £21.95 | https://bluewellpeptides.com/product/snap-8-10mg-peptide/
+[NO_PRICE ] Anglo Peptides           | SNAP-8               |    £22.00 ->      None | https://anglopeptides.com/product/snap-8-10mg-research-peptide/
+[NO_STORED] Peptides UK              | SNAP-8               |        £— ->    £14.95 | https://peptidesuk.com/snap-8-10mg/
+[OK       ] OL Research              | SNAP-8               |    £17.10 ->    £17.10 | https://olresearch.co.uk/product/snap-8-10mg/
+[NO_PRICE ] Bio Peptides UK          | SNAP-8               |    £23.00 ->      None | https://biopeptides-uk.com/product/snap-8-10mg/
+[NO_PRICE ] BuyReta                  | SNAP-8               |    £18.00 ->      None | https://www.buyreta.co.uk/product/snap-8-uk
+[OK       ] Zentra Peptides UK       | SNAP-8               |    £19.95 ->    £19.95 | https://zentra-peptides.com/product/snap-8/
+[OK       ] ApexPure                 | SNAP-8               |    £21.99 ->    £21.99 | https://apexpure.co.uk/product/snap-8-peptide-10mg/
+[CHANGED  ] Revexa                   | SNAP-8               |    £22.99 ->    £18.00 | https://www.revexa.co.uk/product-page/snap-8-10mg
+[NO_PRICE ] VialVerse                | SNAP-8               |    £16.00 ->      None | https://vialverse.com/peptides/snap-8
+[OK       ] Midshire Labs            | SNAP-8               |    £20.00 ->    £20.00 | https://midshirelabs.co.uk/products/snap-8/
+[OK       ] NovaVitality             | SNAP-8               |    £14.50 ->    £14.50 | https://novavitality.co.uk/product/snap-8/
+[OK       ] PeptidesNextDay          | SNAP-8               |    £18.00 ->    £18.00 | https://peptidesnextday.co.uk/product/snap-8-10mg/
+[NO_PRICE ] HiPeptides               | SNAP-8               |    £49.99 ->      None | https://hipeptides.co.uk/catalog/snap-8
+[NO_PRICE ] PGNA Labs                | Bacteriostatic Water |     £9.00 ->      None | https://pgnalabs.co.uk/product/bac-water
+[NO_PRICE ] PGNA Labs                | Bacteriostatic Water |     £3.50 ->      None | https://pgnalabs.co.uk/product/bac-water
+
+=== SUMMARY ===
+CHANGED: 14
+DELISTED: 2
+ERROR: 2
+GATED: 6
+NO_PRICE: 140
+NO_STORED: 4
+OK: 207
+REDIRECTED: 25
+
+CHANGED (14):
+  Zentra Peptides UK | Ipamorelin | 10mg | £33.99 -> £29.95 (-11.9%) [variation] | https://zentra-peptides.com/product/ipamorelin/
+  BIOHACKERxLAB | Ipamorelin | 5mg | £9.99 -> £50.00 (+400.5%) [variation] | https://biohackerxlab.com/product/ipamorelin/
+  BIOHACKERxLAB | Ipamorelin | 10mg | £19.99 -> £60.00 (+200.2%) [variation] | https://biohackerxlab.com/product/ipamorelin/
+  Midshire Labs | PT-141 (Bremelanotide) | 10mg | £20.00 -> £17.00 (-15.0%) [jsonld] | https://midshirelabs.co.uk/products/pt-141/
+  Revexa | PT-141 (Bremelanotide) | 10mg | £24.99 -> £19.00 (-24.0%) [jsonld] | https://www.revexa.co.uk/product-page/pt-141-10mg-melanocortin-receptor-research-peptide
+  Revexa | Kisspeptin-10 | 5mg | £29.00 -> £25.00 (-13.8%) [jsonld] | https://www.revexa.co.uk/product-page/kisspeptin-5mg-gnrh-pathway-research-compound
+  Bluewell Peptides | DSIP (Delta Sleep-Inducing Peptide) | 5mg | £16.95 -> £35.95 (+112.1%) [jsonld] | https://bluewellpeptides.com/product/dsip-15mg-peptide/
+  Revexa | DSIP (Delta Sleep-Inducing Peptide) | 5mg | £20.00 -> £18.00 (-10.0%) [jsonld] | https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-inducing-peptide
+  Midshire Labs | Oxytocin | 2mg | £25.00 -> £14.00 (-44.0%) [jsonld] | https://midshirelabs.co.uk/products/oxytocin/
+  Midshire Labs | Glow | 50mg | £50.00 -> £30.00 (-40.0%) [jsonld] | https://midshirelabs.co.uk/products/glow50/
+  Alphamino | Glow | 70mg | £55.00 -> £52.00 (-5.5%) [jsonld] | https://alphamino.co.uk/shop/glow-research-peptide/
+  Midshire Labs | Glow | 70mg | £65.00 -> £45.00 (-30.8%) [jsonld] | https://midshirelabs.co.uk/products/glow70/
+  UKPeptides.org | KLOW | 80mg | £69.99 -> £79.99 (+14.3%) [jsonld] | https://ukpeptides.org/buy/klow-80mg
+  Revexa | SNAP-8 | 10mg | £22.99 -> £18.00 (-21.7%) [jsonld] | https://www.revexa.co.uk/product-page/snap-8-10mg
+
+DELISTED (2):
+  HelixCore | Ipamorelin | HTTP 404 | https://helixcore.co.uk/products/ipamorelin
+  UK-Peptides.com | PT-141 (Bremelanotide) | HTTP 404 | https://www.uk-peptides.com/pt-141-bremelanotide
+
+ERRORS (2):
+  Peptides UK | Ipamorelin | HTTP 520 | https://peptidesuk.com/ipamorelin-5mg/
+  VialVerse | Mazdutide | HTTP 503 | https://vialverse.com/peptides/mazdutide
+
+GATED / LOGIN-WALLED (6):
+  PS Labs | Ipamorelin | redirected to login/account page: https://pslabs.uk/my-account-2/?ps_return=https%3A%2F%2Fpslabs.uk%2Fproduct%2Fipamorelin-1 | https://pslabs.uk/products/ipamorelin-10mg
+  PS Labs | PT-141 (Bremelanotide) | redirected to login/account page: https://pslabs.uk/my-account-2/?ps_return=https%3A%2F%2Fpslabs.uk%2Fproduct%2Fpt-141-breme | https://pslabs.uk/products/pt-141-bremelanotide-10mg
+  PS Labs | Kisspeptin-10 | redirected to login/account page: https://pslabs.uk/my-account-2/?ps_return=https%3A%2F%2Fpslabs.uk%2Fproduct%2Fkisspeptin-1 | https://pslabs.uk/products/kisspeptin-10mg
+  PS Labs | DSIP (Delta Sleep-Inducing Peptide) | redirected to login/account page: https://pslabs.uk/my-account-2/?ps_return=https%3A%2F%2Fpslabs.uk%2Fproduct%2Fdsip-10mg%2F | https://pslabs.uk/products/dsip-10mg
+  PS Labs | Glow | redirected to login/account page: https://pslabs.uk/my-account-2/?ps_return=https%3A%2F%2Fpslabs.uk%2Fproduct%2Fglow-70mg%2F | https://pslabs.uk/products/glow-70mg
+  PS Labs | KLOW | redirected to login/account page: https://pslabs.uk/my-account-2/?ps_return=https%3A%2F%2Fpslabs.uk%2Fproduct%2Fklow-80mg%2F | https://pslabs.uk/products/klow-80mg
+
+REDIRECTED (25):
+  Polygon Peptides | Ipamorelin | -> https://polygonpeptides.co.uk/product/product-ipamorelin-10mg/ | https://polygonpeptides.co.uk/product/ipamorelin-10mg/
+  Prime Peptides | Ipamorelin | -> https://prime-peptides.co.uk/product/ipamorelin-5mg/ | https://www.prime-peptides.co.uk/product/ipamorelin-5mg/
+  Phoenix BioLabs | Ipamorelin | -> https://phoenixbiolabs.net/shop/ipamorelin-10/?v=7885444af42e | https://phoenixbiolabs.net/shop/ipamorelin-10/
+  Phoenix BioLabs | Ipamorelin | -> https://phoenixbiolabs.net/shop/ipamorelin-5mg-vial-research-compound/?v=7885444af42e | https://phoenixbiolabs.net/shop/ipamorelin-5mg-vial-research-compound/
+  Kensington Labs UK | GHRP-6 | -> https://kensingtonlabs.co.uk/product/ghrp-6-acetate-5mg/ | https://www.kensingtonlabs.co.uk/product/ghrp-6-acetate-5mg/
+  Kensington Labs UK | PT-141 (Bremelanotide) | -> https://kensingtonlabs.co.uk/product/pt-141-10mg/ | https://www.kensingtonlabs.co.uk/product/pt-141-10mg/
+  Phoenix BioLabs | PT-141 (Bremelanotide) | -> https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/?v=78 | https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/
+  Kensington Labs UK | BPC-157 / TB-500 Mix | -> https://kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10mg/ | https://www.kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10mg/
+  Kensington Labs UK | BPC-157 / TB-500 Mix | -> https://kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10mg/ | https://www.kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10mg/
+  Kensington Labs UK | BPC-157 / TB-500 Mix | -> https://kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10mg/ | https://www.kensingtonlabs.co.uk/product/bpc-157-tb500-blend-10mg/
+  ThePeptideCode | BPC-157 / TB-500 Mix | -> https://www.thepeptidecode.co.uk/products/bpc-157-tb-500-blend | https://thepeptidecode.co.uk/products/bpc-157-tb-500-blend
+  Kensington Labs UK | DSIP (Delta Sleep-Inducing Peptide) | -> https://kensingtonlabs.co.uk/product/dsip-5mg/ | https://www.kensingtonlabs.co.uk/product/dsip-5mg/
+  Phoenix BioLabs | DSIP (Delta Sleep-Inducing Peptide) | -> https://phoenixbiolabs.net/shop/dsip-10mg/?v=7885444af42e | https://phoenixbiolabs.net/shop/dsip-10mg/
+  Kensington Labs UK | Oxytocin | -> https://kensingtonlabs.co.uk/product/oxytocin-10mg/ | https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/
+  Kensington Labs UK | Glow | -> https://kensingtonlabs.co.uk/product/glow-blend-70mg/ | https://www.kensingtonlabs.co.uk/product/glow-blend-70mg/
+  ThePeptideCode | Glow | -> https://www.thepeptidecode.co.uk/products/glow70-peptide-pen | https://thepeptidecode.co.uk/products/glow70-peptide-pen
+  Peptify UK | Glow | -> https://www.peptifyuk.com/products/all/ | https://www.peptifyuk.com/product/glow-blend-70mg
+  Prime Peptides | Glow | -> https://prime-peptides.co.uk/product/glow-blend/ | https://www.prime-peptides.co.uk/product/glow-blend/
+  Phoenix BioLabs | Glow | -> https://phoenixbiolabs.net/shop/glow-blend-tested-99/?v=7885444af42e | https://phoenixbiolabs.net/shop/glow-blend-tested-99/
+  Phoenix BioLabs | Glow | -> https://phoenixbiolabs.net/shop/glow-blend-p-tested-99/?v=7885444af42e | https://phoenixbiolabs.net/shop/glow-blend-p-tested-99/
+  Phoenix BioLabs | Glow | -> https://phoenixbiolabs.net/shop/glow-tested-99-copy/?v=7885444af42e | https://phoenixbiolabs.net/shop/glow-tested-99-copy/
+  Prime Peptides | KLOW | -> https://prime-peptides.co.uk/product/klow-blend-peptide/ | https://www.prime-peptides.co.uk/product/klow-blend-peptide/
+  Phoenix BioLabs | KLOW | -> https://phoenixbiolabs.net/shop/klow-blend-tested-99/?v=7885444af42e | https://phoenixbiolabs.net/shop/klow-blend-tested-99/
+  Phoenix BioLabs | KLOW | -> https://phoenixbiolabs.net/shop/klow-blend-pen/?v=7885444af42e | https://phoenixbiolabs.net/shop/klow-blend-pen/
+  Kensington Labs UK | SNAP-8 | -> https://kensingtonlabs.co.uk/product/snap-8-10mg/ | https://www.kensingtonlabs.co.uk/product/snap-8-10mg/
+
+NO PRICE / AMBIGUOUS (140):
+  Peptigen Labs | Ipamorelin | 5mg | no price markup found | https://peptigenlabs.co.uk/products/PL-IPA-5
+  Nova Peptide | Ipamorelin | - | no price markup found | https://www.novapeptide.co.uk/product/ipamorelin/
+  Peptify UK | Ipamorelin | 10mg | page covers multiple sizes (5mg/10mg), single price 29.99 | https://www.peptifyuk.com/product/ipamorelin-10mg
+  Octagon Peptides | Ipamorelin | 10mg | no price markup found | https://octagonpeptides.co.uk/product/ipamorelin-10-mg/
+  Midshire Labs | Ipamorelin | 10mg | page covers multiple sizes (10MG/10MG), single price 25.0 | https://midshirelabs.co.uk/products/ipamorelin/
+  Bio Peptides UK | Ipamorelin | 10mg | no price markup found | https://biopeptides-uk.com/product/ipamorelin-10mg/
+  Lab77 Peptides | Ipamorelin | 10mg | ambiguous GBP offers [33.0, 68.0, 110.0, 130.0] | https://lab77peptides.uk/peptides/ipamorelin?format=vial&size=10mg
+  Crown Peptides | Ipamorelin | - | ambiguous GBP offers [21.99, 41.99, 62.68, 93.46, 119.68, 167.96] | https://crownpeptides.co.uk/shop/research-peptides/ipamorelin/
+  BuyReta | Ipamorelin | 10mg | no price markup found | https://www.buyreta.co.uk/product/ipamorelin-10mg-uk
+  APEX Biolabs | Ipamorelin | - | 2 variant prices, source has no dosage | https://www.apexbiolabs.co.uk/product/ipamorelin/
+  Pioneer Peptides | Ipamorelin | 2mg | no price markup found | https://pioneerpeptides.co.uk/products/ipamorelin/
+  Pioneer Peptides | Ipamorelin | 5mg | no price markup found | https://pioneerpeptides.co.uk/products/ipamorelin/
+  Pioneer Peptides | Ipamorelin | 10mg | no price markup found | https://pioneerpeptides.co.uk/products/ipamorelin/
+  Fat Pig Peptides | Ipamorelin | - | 2 variant prices, source has no dosage | https://fatpigpeptides.co.uk/product/ipamorelin-5mg-10mg/
+  Claripep | Ipamorelin | 10mg | page covers multiple sizes (5mg/10mg), single price 38.0 | https://claripep.co.uk/product/ipamorelin-10mg/
+  VialVerse | Ipamorelin | 10mg | ambiguous GBP offers [9.99, 24.0] | https://vialverse.com/peptides/ipamorelin
+  PeptX | Ipamorelin | 5mg | no price markup found | https://peptx.co.uk/single-vials/ipamorelin
+  Ultimate Peptides | Ipamorelin | 10mg | page covers multiple sizes (10mg/20mg), single price 25.0 | https://ultimatepeptides.co.uk/ipamorelin-10mg
+  AllMyPeptides | Ipamorelin | 10mg | ambiguous GBP offers [15.49, 20.49] | https://allmypeptides.com/product/ipamorelin/
+  Peptide Global | Ipamorelin | 20mg | page covers multiple sizes (5 mg/10 mg), single price 110.0 | https://peptideglobal.co.uk/product/ipamorelin-pen/
+  HiPeptides | Ipamorelin | https://api.hipeptides.co.uk/static/ipamorelin-tek-1788205949-hp1.webp | page covers multiple sizes (5 mg/5 mg), single price 39.99 | https://hipeptides.co.uk/catalog/ipamorelin
+  UK Peptides | GHRP-6 | - | no price markup found | https://ukpeptides.com/catalog/ghrp-6
+  Pure Peptides UK | GHRP-6 | - | no price markup found | https://purepeptidesuk.com/product/ghrp-6-5/
+  Midshire Labs | GHRP-6 | 10mg | page covers multiple sizes (10MG/10MG), single price 13.0 | https://midshirelabs.co.uk/products/ghrp-6/
+  Bio Peptides UK | GHRP-6 | 10mg | no price markup found | https://biopeptides-uk.com/product/ghrp-6-10mg/
+  Crown Peptides | GHRP-6 | - | ambiguous GBP offers [29.99, 85.48, 127.46, 224.93] | https://crownpeptides.co.uk/shop/research-peptides/ghrp-6-research-peptide/
+  Pioneer Peptides | GHRP-6 | 5mg | no price markup found | https://pioneerpeptides.co.uk/products/ghrp-6/
+  VialVerse | GHRP-6 | 10mg | page covers multiple sizes (5mg/10mg), single price 14.0 | https://vialverse.com/peptides/ghrp-6
+  HiPeptides | GHRP-6 | https://api.hipeptides.co.uk/static/private-1782048057932-1782048057932-hf_20260621_131733_6deddbb6-66e9-460e-a96f-0a719e3f72aa-p5-hp1.webp | page covers multiple sizes (5 mg/5 mg), single price 39.99 | https://hipeptides.co.uk/catalog/ghrp-6
+  PGNA Labs | PT-141 (Bremelanotide) | 10mg | no price markup found | https://pgnalabs.co.uk/product/pt-141
+  UK Peptides | PT-141 (Bremelanotide) | - | no price markup found | https://ukpeptides.com/catalog/pt-141
+  Biohack Peptides | PT-141 (Bremelanotide) | 10mg | no price markup found | https://biohackpeptides.co.uk/product/pt-141-peptide-10mg-3ml-bac-water/
+  Nova Peptide | PT-141 (Bremelanotide) | - | no price markup found | https://www.novapeptide.co.uk/product/pt-141-vial/
+  Octagon Peptides | PT-141 (Bremelanotide) | 10mg | no price markup found | https://octagonpeptides.co.uk/product/pt-141-10-mg/
+  Bio Peptides UK | PT-141 (Bremelanotide) | 10mg | no price markup found | https://biopeptides-uk.com/product/pt-141-10mg/
+  Crown Peptides | PT-141 (Bremelanotide) | - | ambiguous GBP offers [24.99, 71.23, 106.21, 187.43] | https://crownpeptides.co.uk/shop/research-peptides/pt-141/
+  BuyReta | PT-141 (Bremelanotide) | 10mg | no price markup found | https://www.buyreta.co.uk/product/pt-141-10mg-uk
+  PeptX | PT-141 (Bremelanotide) | 10mg | no price markup found | https://peptx.co.uk/single-vials/pt-141
+  Global Bio Research | PT-141 (Bremelanotide) | 10mg | no price markup found | https://globalbioresearch.co/shop/pt-141
+  HiPeptides | PT-141 (Bremelanotide) | https://api.hipeptides.co.uk/static/pt-141-tek-1788205949-hp1.webp | page covers multiple sizes (5 mg/5 mg), single price 29.99 | https://hipeptides.co.uk/catalog/pt-141
+  UK Peptides | Kisspeptin-10 | - | no price markup found | https://ukpeptides.com/catalog/kisspeptin
+  Peptigen Labs | Kisspeptin-10 | 10mg | no price markup found | https://peptigenlabs.co.uk/products/PL-KISS-10
+  Nova Peptide | Kisspeptin-10 | - | no price markup found | https://www.novapeptide.co.uk/product/kisspeptin/
+  Octagon Peptides | Kisspeptin-10 | 10mg | no price markup found | https://octagonpeptides.co.uk/product/kisspeptin-10-mg/
+  Midshire Labs | Kisspeptin-10 | 10mg | no variant matched dosage '10mg' (have ['10-mg', '5-mg']) | https://midshirelabs.co.uk/products/kisspeptin/
+  Bio Peptides UK | Kisspeptin-10 | 10mg | no price markup found | https://biopeptides-uk.com/product/kisspeptin-10mg/
+  Lab77 Peptides | Kisspeptin-10 | 10mg | ambiguous GBP offers [33.0, 68.0, 105.0, 125.0] | https://lab77peptides.uk/peptides/kisspeptin10?format=vial&size=10mg
+  BuyReta | Kisspeptin-10 | 5mg | no price markup found | https://www.buyreta.co.uk/product/kisspeptin-10-uk
+  Pioneer Peptides | Kisspeptin-10 | 5mg | no price markup found | https://pioneerpeptides.co.uk/products/kisspeptin-10/
+  Pioneer Peptides | Kisspeptin-10 | 10mg | no price markup found | https://pioneerpeptides.co.uk/products/kisspeptin-10/
+  VialVerse | Kisspeptin-10 | 10mg | page covers multiple sizes (10mg/50mg), single price 29.0 | https://vialverse.com/peptides/kisspeptin-10
+  HiPeptides | Kisspeptin-10 | https://api.hipeptides.co.uk/static/kisspeptin-tek-1788205949-hp1.webp | page covers multiple sizes (5 mg/5 mg), single price 49.99 | https://hipeptides.co.uk/catalog/kisspeptin
+  UK Peptides | BPC-157 / TB-500 Mix | - | no price markup found | https://ukpeptides.com/catalog/bpc-157-tb-500-blend
+  Pure Peptides UK | BPC-157 / TB-500 Mix | - | no price markup found | https://purepeptidesuk.com/product/bpc-157-5mg-tb500-5mg/
+  Biohack Peptides | BPC-157 / TB-500 Mix | 10mg | no price markup found | https://biohackpeptides.co.uk/product/bpc-157-tb500-peptide-blend-10mg-vial-research-grade/
+  Biohack Peptides | BPC-157 / TB-500 Mix | 20mg | no price markup found | https://biohackpeptides.co.uk/product/bpc-157-tb500-peptide-blend-20mg-3ml-bac-water/
+  Anglo Peptides | BPC-157 / TB-500 Mix | 10mg+10mg | page covers multiple sizes (5mg/5mg), single price 55.0 | https://anglopeptides.com/product/bpc-157-tb4-blend-10mg10mg-batch-103-research-peptide/
+  Nova Peptide | BPC-157 / TB-500 Mix | - | no price markup found | https://www.novapeptide.co.uk/product/the-wolverine-stack-bpc-157-and-tb-500/
+  Peptify UK | BPC-157 / TB-500 Mix | 20mg | page covers multiple sizes (5mg/10mg), single price 59.99 | https://www.peptifyuk.com/product/bpc-157-tb500-blend-20mg
+  Midshire Labs | BPC-157 / TB-500 Mix | 10mg+10mg | page covers multiple sizes (10mg/10mg), single price 32.0 | https://midshirelabs.co.uk/products/bpc157-tb500/
+  Bio Peptides UK | BPC-157 / TB-500 Mix | 10mg | no price markup found | https://biopeptides-uk.com/product/research-bundle-a-bpc157-10mg-tb500-10mg-peptide-vial-bundle/
+  PepNOVA | BPC-157 / TB-500 Mix | 20mg | no price markup found | https://pepnova.uk/
+  APEX Biolabs | BPC-157 / TB-500 Mix | 10mg | no variant matched dosage '10mg' (have ['Research Pen', 'Vial']) | https://www.apexbiolabs.co.uk/product/bpc-157-tb500-blend/
+  Fat Pig Peptides | BPC-157 / TB-500 Mix | - | 2 variant prices, source has no dosage | https://fatpigpeptides.co.uk/product/wolverine-peptide-blend/
+  Peptides UK 4U | BPC-157 / TB-500 Mix | BPC-157 10mg + TB-500 10mg | page covers multiple sizes (50mg/100mg), single price 50.0 | https://peptidesuk4u.co.uk/product/the-wolverine-stack-bpc-157-tb-500
+  AllMyPeptides | BPC-157 / TB-500 Mix | 20mg | ambiguous GBP offers [24.99, 39.99] | https://allmypeptides.com/product/wolverine-blend/
+  Kingston Peptides | BPC-157 / TB-500 Mix | BPC 5mg + TB 5mg | page covers multiple sizes (5mg/5mg), single price 21.0 | https://kingstonpeptides.com/en/products/wolverine-bpc-157-tb-500
+  Lab77 Peptides | BPC-157 / TB-500 Mix | 10mg/10mg | ambiguous GBP offers [65.0, 100.0, 150.0, 210.0] | https://lab77peptides.uk/peptides/wolverine-stack?format=vial&size=10mg/10mg
+  BuyReta | Gonadorelin | 2mg | no price markup found | https://www.buyreta.co.uk/product/gonadorelin-uk
+  UK Peptides | DSIP (Delta Sleep-Inducing Peptide) | - | no price markup found | https://ukpeptides.com/catalog/dsip-nasal-spray
+  Pure Peptides UK | DSIP (Delta Sleep-Inducing Peptide) | - | no price markup found | https://purepeptidesuk.com/product/dsip-5mg/
+  Pure Peptides UK | DSIP (Delta Sleep-Inducing Peptide) | 5mg | no price markup found | https://purepeptidesuk.com/product/dsip-5mg/
+  UK Peptides | DSIP (Delta Sleep-Inducing Peptide) | 10mg | no price markup found | https://ukpeptides.com/catalog/dsip-nasal-spray
+  Research Peptides UK | DSIP (Delta Sleep-Inducing Peptide) | - | 1 variant prices, source has no dosage | https://researchpeptide.co.uk/product/dsip-delta-sleep-inducing-peptide/
+  Octagon Peptides | DSIP (Delta Sleep-Inducing Peptide) | 10mg | no price markup found | https://octagonpeptides.co.uk/product/dsip-10-mg/
+  Midshire Labs | DSIP (Delta Sleep-Inducing Peptide) | 10mg | no variant matched dosage '10mg' (have ['10-mg', '5-mg']) | https://midshirelabs.co.uk/products/dsip/
+  Bio Peptides UK | DSIP (Delta Sleep-Inducing Peptide) | 15mg | no price markup found | https://biopeptides-uk.com/product/dsip-15mg/
+  Lab77 Peptides | DSIP (Delta Sleep-Inducing Peptide) | 10mg | ambiguous GBP offers [39.0, 74.0] | https://lab77peptides.uk/peptides/dsip?format=vial&size=10mg
+  UK Peptide Lab | DSIP (Delta Sleep-Inducing Peptide) | 5mg | page covers multiple sizes (5mg/10mg), single price 13.95 | https://ukpeptidelab.co.uk/product/dsip
+  Crown Peptides | DSIP (Delta Sleep-Inducing Peptide) | - | ambiguous GBP offers [24.99, 39.99, 71.23, 106.21, 113.98, 169.96] | https://crownpeptides.co.uk/shop/research-peptides/dsip/
+  BuyReta | DSIP (Delta Sleep-Inducing Peptide) | 5mg | no price markup found | https://www.buyreta.co.uk/product/dsip-uk
+  APEX Biolabs | DSIP (Delta Sleep-Inducing Peptide) | 10mg | no variant matched dosage '10mg' (have ['Research Pen', 'Vial']) | https://www.apexbiolabs.co.uk/product/dsip-10mg/
+  Pioneer Peptides | DSIP (Delta Sleep-Inducing Peptide) | 2mg | no price markup found | https://pioneerpeptides.co.uk/products/dsip/
+  Pioneer Peptides | DSIP (Delta Sleep-Inducing Peptide) | 5mg | no price markup found | https://pioneerpeptides.co.uk/products/dsip/
+  Pioneer Peptides | DSIP (Delta Sleep-Inducing Peptide) | 10mg | no price markup found | https://pioneerpeptides.co.uk/products/dsip/
+  VialVerse | DSIP (Delta Sleep-Inducing Peptide) | 5mg | ambiguous GBP offers [11.99, 16.99] | https://vialverse.com/peptides/dsip
+  PeptX | DSIP (Delta Sleep-Inducing Peptide) | 5mg | no price markup found | https://peptx.co.uk/single-vials/dsip
+  Kings BioLabs | DSIP (Delta Sleep-Inducing Peptide) | 10mg | no price markup found | https://www.kingsbiolabs.co.uk/dsip
+  AllMyPeptides | DSIP (Delta Sleep-Inducing Peptide) | 5mg | ambiguous GBP offers [12.49, 19.99, 32.99] | https://allmypeptides.com/product/dsip/
+  HiPeptides | DSIP (Delta Sleep-Inducing Peptide) | https://api.hipeptides.co.uk/static/dsip-tek-1788205949-hp1.webp | page covers multiple sizes (5 mg/5 mg), single price 29.99 | https://hipeptides.co.uk/catalog/dsip
+  UK Peptides | Oxytocin | - | no price markup found | https://ukpeptides.com/catalog/oxytocin
+  UK Peptides | Oxytocin | 2mg | no price markup found | https://ukpeptides.com/catalog/oxytocin
+  UK Peptides | Oxytocin | 10mg | no price markup found | https://ukpeptides.com/catalog/oxytocin
+  Octagon Peptides | Oxytocin | 5mg | no price markup found | https://octagonpeptides.co.uk/product/oxytocin-5-mg/
+  Bio Peptides UK | Oxytocin | 2mg | no price markup found | https://biopeptides-uk.com/product/oxytocin-2mg/
+  BuyReta | Oxytocin | 5mg | no price markup found | https://www.buyreta.co.uk/product/oxytocin-uk
+  HiPeptides | Oxytocin | https://api.hipeptides.co.uk/static/oxytocin-tek-1788205949-hp1.webp | page covers multiple sizes (5 mg/5 mg), single price 20.0 | https://hipeptides.co.uk/catalog/oxytocin
+  PGNA Labs | Glow | BPC 10mg + TB 10mg + GHK 50mg | no price markup found | https://pgnalabs.co.uk/product/glow
+  UK Peptides | Glow | - | no price markup found | https://ukpeptides.com/catalog/glow
+  Biohack Peptides | Glow | 70mg | no price markup found | https://biohackpeptides.co.uk/product/glow-blend-peptide-70mg-3ml-bac-water/
+  Anglo Peptides | Glow | 70mg | page covers multiple sizes (10mg/10 mg), single price 65.0 | https://anglopeptides.com/product/glow-blend-peptide-70mg-vial-batch-103-research-peptide/
+  Nova Peptide | Glow | - | no price markup found | https://www.novapeptide.co.uk/product/glow-blend/
+  Bio Peptides UK | Glow | 70mg | no price markup found | https://biopeptides-uk.com/product/glow-70mg/
+  BuyReta | Glow | 70mg | no price markup found | https://www.buyreta.co.uk/product/glow-uk
+  APEX Biolabs | Glow | 70mg | no variant matched dosage '70mg' (have ['Vial', 'Research Pen']) | https://www.apexbiolabs.co.uk/product/glow-blend/
+  VialVerse | Glow | 70mg | page covers multiple sizes (5mg/10mg), single price 44.0 | https://vialverse.com/peptides/glow-blend
+  Ultimate Peptides | Glow | 70mg | page covers multiple sizes (10mg/20mg), single price 45.0 | https://ultimatepeptides.co.uk/glow-70
+  Pyrox Labs | Glow | 70mg | page covers multiple sizes (10mg/10mg), single price 49.99 | https://pyroxlabs.co.uk/product/glow-70-blend-70mg/
+  Pure Peptides UK | Glow | - | no price markup found | https://purepeptidesuk.com/product/bundle-glow-stack/
+  Pioneer Peptides | Glow | 70mg | no price markup found | https://pioneerpeptides.co.uk/products/glow-blend/
+  Nova Peptide Lab | Glow | 70mg | page covers multiple sizes (50mg/10mg), single price 80.0 | https://novapeptidelab.co.uk/product/glow-70mg-blend/
+  Global Bio Research | Glow | 70mg | no price markup found | https://globalbioresearch.co/shop/glow
+  HiPeptides | Glow | https://api.hipeptides.co.uk/static/private-1788203109936-1788203109936-e0fa314d-322e-47f6-92fc-2dced9d5dc76-hp1.webp | no price markup found | https://hipeptides.co.uk/catalog/glow
+  UK Peptides | KLOW | - | no price markup found | https://ukpeptides.com/catalog/kglow25
+  Biohack Peptides | KLOW | 80mg | no price markup found | https://biohackpeptides.co.uk/product/klow-blend-peptide-80mg-3ml-bac-water/
+  New Wave Peptides | KLOW | 80mg | no price markup found | https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-tb-500-ghk-cu-kpv-80mg
+  Peptify UK | KLOW | 80mg | page covers multiple sizes (5mg/10mg), single price 79.99 | https://www.peptifyuk.com/product/klow-blend-80mg
+  Midshire Labs | KLOW | 80mg | page covers multiple sizes (5MG/5MG), single price 55.0 | https://midshirelabs.co.uk/products/klow80/
+  Bio Peptides UK | KLOW | 80mg | no price markup found | https://biopeptides-uk.com/product/klow-80mg-bpc-157-ghk-cu-tb-500-kpv/
+  BuyReta | KLOW | 80mg | no price markup found | https://www.buyreta.co.uk/product/klow-80mg-uk
+  PepNOVA | KLOW | 80mg | no price markup found | https://pepnova.uk/
+  APEX Biolabs | KLOW | 80mg | no variant matched dosage '80mg' (have ['Research Pen', 'Vial']) | https://www.apexbiolabs.co.uk/product/klow-80mg/
+  VialVerse | KLOW | 80mg | page covers multiple sizes (5mg/5mg), single price 52.0 | https://vialverse.com/peptides/klow-blend
+  PeptX | KLOW | 80mg | no price markup found | https://peptx.co.uk/single-vials/klow-blend
+  Port Peptides | KLOW | 80mg | ambiguous GBP offers [90.0, 95.0, 110.0] | https://portpeptides.co.uk/peptides/klow-blend/
+  Pioneer Peptides | KLOW | 80mg | no price markup found | https://pioneerpeptides.co.uk/products/klow-blend/
+  HiPeptides | KLOW | https://api.hipeptides.co.uk/static/private-1788203127504-1788203127504-58266968-32bf-4424-96a8-3d9e1ceae0db-hp1.webp | no price markup found | https://hipeptides.co.uk/catalog/kglow25
+  UK Peptides | Mazdutide | - | no price markup found | https://ukpeptides.com/catalog/mazdutide
+  PeptX | Mazdutide | 10mg | no price markup found | https://peptx.co.uk/single-vials/mazdutide
+  Peptides UK 4U | Mazdutide | 10mg | page covers multiple sizes (10mg/20mg), single price 62.0 | https://peptidesuk4u.co.uk/product/mazdutide-10mg
+  HiPeptides | Mazdutide | https://api.hipeptides.co.uk/static/mazdutide-tek-1788205949-hp1.webp | no price markup found | https://hipeptides.co.uk/catalog/mazdutide
+  UK Peptides | SNAP-8 | - | no price markup found | https://ukpeptides.com/catalog/snap-8
+  Pure Peptides UK | SNAP-8 | - | no price markup found | https://purepeptidesuk.com/product/snap-8-10mg/
+  Anglo Peptides | SNAP-8 | 10mg | page covers multiple sizes (10mg/10 mg), single price 22.0 | https://anglopeptides.com/product/snap-8-10mg-research-peptide/
+  Bio Peptides UK | SNAP-8 | 10mg | no price markup found | https://biopeptides-uk.com/product/snap-8-10mg/
+  BuyReta | SNAP-8 | 10mg | no price markup found | https://www.buyreta.co.uk/product/snap-8-uk
+  VialVerse | SNAP-8 | 10mg | page covers multiple sizes (5mg/5mg), single price 16.0 | https://vialverse.com/peptides/snap-8
+  HiPeptides | SNAP-8 | https://api.hipeptides.co.uk/static/snap-8-tek-1788205949-hp1.webp | page covers multiple sizes (5 mg/5 mg), single price 49.99 | https://hipeptides.co.uk/catalog/snap-8
+  PGNA Labs | Bacteriostatic Water | 10ml | no price markup found | https://pgnalabs.co.uk/product/bac-water
+  PGNA Labs | Bacteriostatic Water | 3ml | no price markup found | https://pgnalabs.co.uk/product/bac-water
+
+OUT OF STOCK markers (90):
+  Bluewell Peptides | Ipamorelin | 5mg | https://bluewellpeptides.com/product/ipamorelin-10mg-peptide/
+  Anglo Peptides | Ipamorelin | 10mg | https://anglopeptides.com/product/ipamorelin-10mg-batch-168-research-peptide/
+  Premio Peptides | Ipamorelin | - | https://premiopeptides.co.uk/compounds/ipamorelin
+  Peptides Online UK | Ipamorelin | 5mg | https://www.peptidesonline.uk/shop/ipamorelin/
+  OP Labs | Ipamorelin | 5mg | https://oplabs.co.uk/product/ipamorelin-5mg/
+  Apex Pharma | Ipamorelin | 10mg | https://www.apex-pharma.co.uk/product/ipamorelin-10mg/
+  Advanced Peptides UK | Ipamorelin | 10mg | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/ipamorelin-10mg/
+  Revexa | Ipamorelin | 10mg | https://www.revexa.co.uk/product-page/ipamorelin-10mg
+  BIOHACKERxLAB | Ipamorelin | 5mg | https://biohackerxlab.com/product/ipamorelin/
+  BIOHACKERxLAB | Ipamorelin | 10mg | https://biohackerxlab.com/product/ipamorelin/
+  British Peptide Labs | Ipamorelin | 10mg | https://britishpeptidelabs.com/products/ipamorelin
+  NovaVitality | Ipamorelin | 5mg | https://novavitality.co.uk/product/ipamorelin/
+  Optimus Labs | Ipamorelin | 10mg | https://optimuslabs.co.uk/product/ipamorelin/
+  Arma Peptides | Ipamorelin | 10mg | https://armapeptideshop.com/product/ipamorelin-10mg-2/
+  PeptidesNextDay | Ipamorelin | 5mg | https://peptidesnextday.co.uk/product/ipamorelin-5mg/
+  PeptidesNextDay | Ipamorelin | 2mg | https://peptidesnextday.co.uk/product/ipamorelin-2mg/
+  Peptides Online UK | GHRP-6 | 5mg | https://www.peptidesonline.uk/shop/ghrp-6/
+  OP Labs | GHRP-6 | 5mg | https://oplabs.co.uk/product/ghrp-6-5mg/
+  LeoLab Peptides UK | GHRP-6 | - | https://leolab.co.uk/peptides/ghrp-6/
+  Optimus Labs | GHRP-6 | 10mg | https://optimuslabs.co.uk/product/ghrp-6/
+  Arma Peptides | GHRP-6 | 5mg | https://armapeptideshop.com/product/ghrp-6-5mg-peptide/
+  PeptidesNextDay | GHRP-6 | 5mg | https://peptidesnextday.co.uk/product/ghrp-6-5mg/
+  PeptidesNextDay | GHRP-6 | 10mg | https://peptidesnextday.co.uk/product/ghrp-6-10mg/
+  Bluewell Peptides | PT-141 (Bremelanotide) | 10mg | https://bluewellpeptides.com/product/pt-141-10mg-peptide/
+  Premio Peptides | PT-141 (Bremelanotide) | - | https://premiopeptides.co.uk/compounds/pt-141
+  Peptides Online UK | PT-141 (Bremelanotide) | 10mg | https://www.peptidesonline.uk/shop/pt-141/
+  Revexa | PT-141 (Bremelanotide) | 10mg | https://www.revexa.co.uk/product-page/pt-141-10mg-melanocortin-receptor-research-peptide
+  NovaVitality | PT-141 (Bremelanotide) | 10mg | https://novavitality.co.uk/product/pt-141/
+  UK Peptide Lab | PT-141 (Bremelanotide) | 10mg | https://ukpeptidelab.co.uk/product/pt-141
+  Advanced Peptides UK | PT-141 (Bremelanotide) | 10mg | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/pt-141-10mg/
+  British Peptide Labs | PT-141 (Bremelanotide) | 10mg | https://britishpeptidelabs.com/products/pt-141
+  Arma Peptides | PT-141 (Bremelanotide) | 10mg | https://armapeptideshop.com/product/pt-141-10mg/
+  PeptidesNextDay | PT-141 (Bremelanotide) | 10mg | https://peptidesnextday.co.uk/product/pt-141-bremelanotide-10mg/
+  Kensington Labs UK | Kisspeptin-10 | 10mg | https://kensingtonlabs.co.uk/product/kisspeptin-10mg/
+  Bluewell Peptides | Kisspeptin-10 | 10mg | https://bluewellpeptides.com/product/kisspeptin-10-10mg-peptide/
+  Premio Peptides | Kisspeptin-10 | - | https://premiopeptides.co.uk/compounds/kisspeptin-10
+  Revexa | Kisspeptin-10 | 5mg | https://www.revexa.co.uk/product-page/kisspeptin-5mg-gnrh-pathway-research-compound
+  Pyrox Labs | Kisspeptin-10 | 10mg | https://pyroxlabs.co.uk/product/kisspeptin-10-10mg/
+  AllMyPeptides | Kisspeptin-10 | 10mg | https://allmypeptides.com/product/kisspeptin-10/
+  NovaVitality | Kisspeptin-10 | 10mg | https://novavitality.co.uk/product/kisspeptin/
+  Arma Peptides | Kisspeptin-10 | 10mg | https://armapeptideshop.com/product/kisspeptin-10mg/
+  PeptidesNextDay | Kisspeptin-10 | 5mg | https://peptidesnextday.co.uk/product/kisspeptin-10-5mg/
+  Bluewell Peptides | Cerebrolysin | 60mg | https://bluewellpeptides.com/product/cerebrolysin-60mg/
+  Advanced Peptides UK | Dihexa | 10mg/5ml | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/dihexa-10mg-5ml/
+  Advanced Peptides UK | Dihexa | 10mg | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/dihexa-10mg/
+  PeptidesNextDay | Dihexa | 10mg | https://peptidesnextday.co.uk/product/dihexa-10mg/
+  Bluewell Peptides | BPC-157 / TB-500 Mix | 20mg | https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/
+  Trutide | BPC-157 / TB-500 Mix | 20mg | https://trutide.co.uk/product/wolverine/
+  OP Labs | BPC-157 / TB-500 Mix | 10mg | https://oplabs.co.uk/product/bpc157-tb500-blend-10mg/
+  British Peptide Labs | BPC-157 / TB-500 Mix | 20mg | https://britishpeptidelabs.com/products/bpc-157-tb-500-mix
+  Arma Peptides | BPC-157 / TB-500 Mix | 20mg | https://armapeptideshop.com/product/bpc-157-tb500-blend-20mg/
+  Kensington Labs UK | Gonadorelin | 5mg | https://kensingtonlabs.co.uk/product/gonadorelin-5mg/
+  Bluewell Peptides | DSIP (Delta Sleep-Inducing Peptide) | 5mg | https://bluewellpeptides.com/product/dsip-15mg-peptide/
+  Peptides UK | DSIP (Delta Sleep-Inducing Peptide) | - | https://peptidesuk.com/dsip/
+  Premio Peptides | DSIP (Delta Sleep-Inducing Peptide) | - | https://premiopeptides.co.uk/compounds/dsip
+  Peptides Online UK | DSIP (Delta Sleep-Inducing Peptide) | 5mg | https://www.peptidesonline.uk/shop/dsip/
+  OP Labs | DSIP (Delta Sleep-Inducing Peptide) | 5mg | https://oplabs.co.uk/product/dsip-5mg/
+  Revexa | DSIP (Delta Sleep-Inducing Peptide) | 5mg | https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-inducing-peptide
+  Revexa | DSIP (Delta Sleep-Inducing Peptide) | 10mg | https://www.revexa.co.uk/product-page/dsip-10mg-delta-sleep-inducing-peptide
+  Pyrox Labs | DSIP (Delta Sleep-Inducing Peptide) | 10mg | https://pyroxlabs.co.uk/product/dsip-10mg/
+  Pyrox Labs | DSIP (Delta Sleep-Inducing Peptide) | 5mg | https://pyroxlabs.co.uk/product/dsip-5mg/
+  NovaVitality | DSIP (Delta Sleep-Inducing Peptide) | 10mg | https://novavitality.co.uk/product/dsip/
+  Arma Peptides | DSIP (Delta Sleep-Inducing Peptide) | 5mg | https://armapeptideshop.com/product/dsip-5mg-premium-research-peptide/
+  Bluewell Peptides | Oxytocin | 10mg | https://bluewellpeptides.com/product/oxytocin-acetate-10mg-peptide/
+  Premio Peptides | Oxytocin | - | https://premiopeptides.co.uk/compounds/oxytocin
+  NovaVitality | Oxytocin | 10mg | https://novavitality.co.uk/product/oxytocin-acetate/
+  PeptidesNextDay | Oxytocin | 5mg | https://peptidesnextday.co.uk/product/oxytocin-5mg/
+  Bluewell Peptides | Glow | 70mg | https://bluewellpeptides.com/product/bpc-157-tb-500-ghk-cu-glow-blend/
+  Peptides Online UK | Glow | 70mg | https://www.peptidesonline.uk/shop/glow-blend/
+  Aegis Peptides | Glow | 70mg | https://aegispeptidesuk.co.uk/product/glow/
+  Advanced Peptides UK | Glow | 70mg | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/glow-blend-70mg/
+  Peptide Shop UK | Glow | 70mg | https://peptidesshopuk.com/product/glow-70/
+  UK Peptide Lab | Glow | 70mg | https://ukpeptidelab.co.uk/product/glow
+  NovaVitality | Glow | 70mg | https://novavitality.co.uk/product/bpc-157-tb-500-ghk-cu-mixture-70mg/
+  Bluewell Peptides | KLOW | 80mg | https://bluewellpeptides.com/product/klow-blend-bpc-157-tb-500-kpv-ghk-cu-80mg/
+  Anglo Peptides | KLOW | 80mg | https://anglopeptides.com/product/klow-blend-80mg-vial-batch-107-research-peptide/
+  Polygon Peptides | KLOW | - | https://polygonpeptides.co.uk/product/klow-80mg/
+  Alphamino | KLOW | 80mg | https://alphamino.co.uk/shop/klow-stack/
+  Trutide | KLOW | 80mg | https://trutide.co.uk/product/klow-80mg/
+  Aegis Peptides | KLOW | 80mg | https://aegispeptidesuk.co.uk/product/klow/
+  Aegis Peptides | KLOW | 80mg pen | https://aegispeptidesuk.co.uk/product/klow-80mg-pen/
+  Advanced Peptides UK | KLOW | 80mg | https://advancedpeptidesuk.co.uk/shop/all-research-peptides/vials/klow-80mg/
+  British Peptide Labs | KLOW | 80mg | https://britishpeptidelabs.com/products/klow
+  Optimus Labs | KLOW | 80mg | https://optimuslabs.co.uk/product/klow-80mg/
+  UK Peptide Lab | KLOW | 80mg | https://ukpeptidelab.co.uk/product/klow
+  NovaVitality | KLOW | 70mg | https://novavitality.co.uk/product/ghk-cu-tb-500-bpc-157-kpv-mixture-70mg/
+  Bluewell Peptides | SNAP-8 | 10mg | https://bluewellpeptides.com/product/snap-8-10mg-peptide/
+  Revexa | SNAP-8 | 10mg | https://www.revexa.co.uk/product-page/snap-8-10mg
+  NovaVitality | SNAP-8 | 10mg | https://novavitality.co.uk/product/snap-8/
+  PeptidesNextDay | SNAP-8 | 10mg | https://peptidesnextday.co.uk/product/snap-8-10mg/
