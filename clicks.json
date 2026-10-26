@@ -2050,5 +2050,85 @@
     "compoundSlug": "pt-141-bremelanotide",
     "destUrl": "https://armapeptideshop.com/product/pt-141-10mg/",
     "visitorId": "0c4a71b494629bc1"
+  },
+  {
+    "ts": "2026-10-26T04:05:57.976Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://novapeptidelab.co.uk/product/the-wolverine-stack-bpc-157-tb-500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "f836915f303374f7"
+  },
+  {
+    "ts": "2026-10-26T04:07:50.387Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d6dda58685d6eb77"
+  },
+  {
+    "ts": "2026-10-26T04:07:53.619Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "54353b91b4492be9"
+  },
+  {
+    "ts": "2026-10-26T04:15:50.106Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://lab77peptides.uk/peptides/wolverine-stack?format=vial&size=10mg/10mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0593b38b12d13fa1"
+  },
+  {
+    "ts": "2026-10-26T04:16:07.810Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://armapeptideshop.com/product/semaglutide-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e2e79e89c8054982"
+  },
+  {
+    "ts": "2026-10-26T04:18:21.116Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://phoenixbiolabs.net/shop/slu-pp-332-tablets/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "64e838a34e3462a7"
+  },
+  {
+    "ts": "2026-10-26T04:26:49.855Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://leolab.co.uk/peptides/semax/",
+    "refPage": "https://www.viralpeps.co.uk/go/leolab/semax",
+    "visitorId": "2058537745b57d29"
+  },
+  {
+    "ts": "2026-10-26T04:43:40.027Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b99ef1200818254a"
   }
 ]
