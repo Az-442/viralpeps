@@ -2216,5 +2216,91 @@
     "destUrl": "https://pslabs.uk/products/bpc-157-10mg",
     "refPage": "https://www.viralpeps.co.uk/go/ps-labs/bpc-157",
     "visitorId": "4770ab7f208885e4"
+  },
+  {
+    "ts": "2026-10-26T05:53:22.365Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/sermorelin-5mg",
+    "visitorId": "d9fcd2a54f28c78d"
+  },
+  {
+    "ts": "2026-10-26T05:53:24.686Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/sermorelin-5mg",
+    "visitorId": "2a07a161836dc1ed"
+  },
+  {
+    "ts": "2026-10-26T05:53:30.140Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/sermorelin-5mg",
+    "visitorId": "5383747e1519190c"
+  },
+  {
+    "ts": "2026-10-26T05:58:38.989Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://phoenixbiolabs.net/shop/ghk-cu-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c5bdb0cdd8a0d1a3"
+  },
+  {
+    "ts": "2026-10-26T06:08:25.881Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "refPage": "https://www.google.com/",
+    "visitorId": "c80c67ea543fc7d7"
+  },
+  {
+    "ts": "2026-10-26T06:13:55.041Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5afecb8252c5c64e"
+  },
+  {
+    "ts": "2026-10-26T06:14:12.394Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://anglopeptides.com/product/bpc-157-tb4-blend-10mg10mg-batch-103-research-peptide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "37b0cfa6402ce344"
+  },
+  {
+    "ts": "2026-10-26T06:15:57.090Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://tidelabs.co.uk/products/bpc-157-tb-500-blend",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d63bc935acd2c606"
+  },
+  {
+    "ts": "2026-10-26T06:28:03.483Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "7ea75a94fb667d3b"
   }
 ]
