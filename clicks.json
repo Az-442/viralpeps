@@ -2745,5 +2745,91 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
     "visitorId": "998a2ec65a9f904d"
+  },
+  {
+    "ts": "2026-10-26T12:53:54.956Z",
+    "type": "product",
+    "vendorSlug": "buyreta",
+    "vendorName": "BuyReta",
+    "compoundSlug": "klow",
+    "destUrl": "https://www.buyreta.co.uk/product/klow-80mg-uk",
+    "visitorId": "b1119536a4447c74"
+  },
+  {
+    "ts": "2026-10-26T13:12:11.949Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/nad-500mg/",
+    "visitorId": "62a4cae5ffa5f8ac"
+  },
+  {
+    "ts": "2026-10-26T13:14:22.228Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "visitorId": "cac63a39588e12fd"
+  },
+  {
+    "ts": "2026-10-26T13:14:25.035Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://allmypeptides.com/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a554f27cd6c189ab"
+  },
+  {
+    "ts": "2026-10-26T13:14:28.300Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://allmypeptides.com/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "81c8249ae32bb9e3"
+  },
+  {
+    "ts": "2026-10-26T13:14:48.400Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://peptidespecialist.co.uk/product/the-wolverine-stack-bpc-157-tb-500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "989b158c6bc53b76"
+  },
+  {
+    "ts": "2026-10-26T13:19:45.604Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://peptidespecialist.co.uk/product/the-wolverine-stack-bpc-157-tb-500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "5afecb8252c5c64e"
+  },
+  {
+    "ts": "2026-10-26T13:20:37.127Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.peptifyuk.com/product/bpc-157-tb500-blend-20mg",
+    "refPage": "https://www.google.com/",
+    "visitorId": "8702f9ff8a622ca2"
+  },
+  {
+    "ts": "2026-10-26T13:24:16.318Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptideglobal.co.uk/product/tesamorelin-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9188fcfa76eca3d8"
   }
 ]
