@@ -2523,5 +2523,74 @@
     "destUrl": "https://rawpeptides.co.uk/product/bpc157-10mg-tb500-10mg/",
     "refPage": "https://www.google.com/",
     "visitorId": "209fbb4886a2c99d"
+  },
+  {
+    "ts": "2026-10-26T09:25:55.278Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://rawpeptides.co.uk/product/bpc157-10mg-tb500-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "debe3b675851db2b"
+  },
+  {
+    "ts": "2026-10-26T09:27:41.839Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidesshopuk.com/product/reta-20/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c10df8a3d72bec25"
+  },
+  {
+    "ts": "2026-10-26T09:38:57.604Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "23446ddabf1eb7d8"
+  },
+  {
+    "ts": "2026-10-26T09:42:31.532Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://redpandapeptides.co.uk/product/ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fdaa001bc58bc117"
+  },
+  {
+    "ts": "2026-10-26T09:42:35.452Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://redpandapeptides.co.uk/product/ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "166a091c0220d1aa"
+  },
+  {
+    "ts": "2026-10-26T09:46:50.004Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://pyroxlabs.co.uk/product/sm1-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pyrox-labs/semaglutide",
+    "visitorId": "822eb1677f4229b0"
+  },
+  {
+    "ts": "2026-10-26T09:59:52.073Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "shb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-shb-10mg-research-solutionfor-laboratory-use-only/",
+    "visitorId": "65613c25af3c8a7c"
   }
 ]
