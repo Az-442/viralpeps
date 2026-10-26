@@ -2329,5 +2329,105 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://precision-peptides.shop/product/bacteriostatic-water-10ml/",
     "visitorId": "ce60ab8ca7b68d8e"
+  },
+  {
+    "ts": "2026-10-26T06:59:28.980Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://precision-peptides.shop/product/bacteriostatic-water-10ml/",
+    "visitorId": "2469a6590ba551c0"
+  },
+  {
+    "ts": "2026-10-26T06:59:35.041Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://precision-peptides.shop/product/bacteriostatic-water-10ml/",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-26T07:04:04.594Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://retaresearch.co/products/tesamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7f8825bf04207e74"
+  },
+  {
+    "ts": "2026-10-26T07:04:08.762Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://retaresearch.co/products/tesamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "295f15458c8d10a6"
+  },
+  {
+    "ts": "2026-10-26T07:06:56.998Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://www.uk-peptides.com/pt-141-bremelanotide",
+    "visitorId": "71402baaece539eb"
+  },
+  {
+    "ts": "2026-10-26T07:21:03.703Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "visitorId": "1177f0c2dc376806"
+  },
+  {
+    "ts": "2026-10-26T07:21:20.154Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "visitorId": "1177f0c2dc376806"
+  },
+  {
+    "ts": "2026-10-26T07:21:32.007Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://cmsrlabs.co/product/semaglutide-10mg/",
+    "visitorId": "1177f0c2dc376806"
+  },
+  {
+    "ts": "2026-10-26T07:21:38.252Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://cmsrlabs.co/product/retatrutide-10mg/",
+    "visitorId": "1177f0c2dc376806"
+  },
+  {
+    "ts": "2026-10-26T07:22:06.401Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "1177f0c2dc376806"
+  },
+  {
+    "ts": "2026-10-26T07:30:33.122Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.expresspeptides.co.uk/product/bpc-157-tb-500/vial",
+    "refPage": "https://www.google.com/",
+    "visitorId": "7455b3e0c1d86196"
   }
 ]
