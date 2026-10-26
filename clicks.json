@@ -3153,5 +3153,71 @@
     "compoundSlug": "selank",
     "destUrl": "https://leolab.co.uk/peptides/selank/",
     "visitorId": "5e9ce85360dd1cbb"
+  },
+  {
+    "ts": "2026-10-26T17:13:03.475Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "aab9575553cba7ee"
+  },
+  {
+    "ts": "2026-10-26T17:17:47.672Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://biopeptides-uk.com/product/ghk-cu-50mg/",
+    "visitorId": "52828ec3967d02e6"
+  },
+  {
+    "ts": "2026-10-26T17:23:00.290Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/25-cjc-1295-with-dac-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/cjc-1295-with-dac",
+    "visitorId": "0e243f0e569de785"
+  },
+  {
+    "ts": "2026-10-26T17:23:33.603Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://fatpigpeptides.co.uk/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "daf1dde43e179d6e"
+  },
+  {
+    "ts": "2026-10-26T17:33:24.177Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://sterlingpeptides.co.uk/product/hgh-frag-176-191-peptide-uk/",
+    "refPage": "https://www.viralpeps.co.uk/go/sterling-peptides/fragment-176-191",
+    "visitorId": "0ebc1edf684c1f4a"
+  },
+  {
+    "ts": "2026-10-26T17:42:31.448Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidesuk.com/ghk-cu/",
+    "visitorId": "334d54ee1b1484f6"
+  },
+  {
+    "ts": "2026-10-26T17:42:54.679Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/",
+    "visitorId": "d9a9ecbdcb8117d4"
   }
 ]
