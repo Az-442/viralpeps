@@ -1971,7 +1971,7 @@
       {
         "vendor": "Revexa",
         "url": "https://www.revexa.co.uk/product-page/bpc-157-5mg",
-        "price": "£25.00",
+        "price": "£18.00",
         "inStock": true,
         "image": "/images/products/revexa/bpc-157-5mg.webp",
         "dosage": "5mg"
@@ -2035,7 +2035,7 @@
       {
         "vendor": "BIOHACKERxLAB",
         "url": "https://biohackerxlab.com/product/bpc-157/",
-        "price": "£12.99",
+        "price": "£40.00",
         "inStock": true,
         "image": "/images/products/biohackerxlab/bpc-157.webp",
         "dosage": "5mg"
@@ -2043,7 +2043,7 @@
       {
         "vendor": "BIOHACKERxLAB",
         "url": "https://biohackerxlab.com/product/bpc-157/",
-        "price": "£16.99",
+        "price": "£50.00",
         "inStock": true,
         "image": "/images/products/biohackerxlab/bpc-157.webp",
         "dosage": "10mg"
@@ -3093,7 +3093,7 @@
       {
         "vendor": "Revexa",
         "url": "https://www.revexa.co.uk/product-page/tb-500-5mg",
-        "price": "£37.00",
+        "price": "£19.00",
         "inStock": true,
         "image": "/images/products/revexa/tb-500-5mg.webp",
         "dosage": "5mg"
@@ -3141,7 +3141,7 @@
       {
         "vendor": "BIOHACKERxLAB",
         "url": "https://biohackerxlab.com/product/tb-500/",
-        "price": "£14.99",
+        "price": "£70.00",
         "inStock": true,
         "image": "/images/products/biohackerxlab/tb-500.webp",
         "dosage": "5mg"
@@ -3149,7 +3149,7 @@
       {
         "vendor": "BIOHACKERxLAB",
         "url": "https://biohackerxlab.com/product/tb-500/",
-        "price": "£19.99",
+        "price": "£110.00",
         "inStock": true,
         "image": "/images/products/biohackerxlab/tb-500.webp",
         "dosage": "10mg"
@@ -3804,7 +3804,7 @@
       {
         "vendor": "UKPeptides.org",
         "url": "https://ukpeptides.org/buy/mt-2-10mg",
-        "price": "£19.99",
+        "price": "£24.99",
         "inStock": true,
         "image": "/images/products/ukpeptides/melanotan-ii.webp",
         "dosage": "10mg"
@@ -5639,7 +5639,7 @@
       {
         "vendor": "BIOHACKERxLAB",
         "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£24.99",
+        "price": "£60.00",
         "inStock": true,
         "image": "/images/products/biohackerxlab/retatrutide.webp",
         "dosage": "10mg"
@@ -5647,7 +5647,7 @@
       {
         "vendor": "BIOHACKERxLAB",
         "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£49.99",
+        "price": "£80.00",
         "inStock": true,
         "image": "/images/products/biohackerxlab/retatrutide.webp",
         "dosage": "20mg"
@@ -5895,7 +5895,7 @@
       {
         "vendor": "Nova Peptide Lab",
         "url": "https://novapeptidelab.co.uk/product/retatrutide-research-peptide-uk/",
-        "price": "£80.00",
+        "price": "£120.00",
         "inStock": true,
         "image": "/images/products/nova-peptide-lab/retatrutide.webp",
         "dosage": "20mg"
@@ -6734,7 +6734,7 @@
       {
         "vendor": "Octagon Peptides",
         "url": "https://octagonpeptides.co.uk/product/igf-1-lr3/",
-        "price": "£40.00",
+        "price": "£60.00",
         "inStock": true,
         "image": "/images/products/octagon-peptides/igf-1-lr3.png",
         "dosage": "1mg"
