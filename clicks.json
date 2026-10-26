@@ -2994,5 +2994,54 @@
     "destUrl": "https://peptidespecialist.co.uk/product/tb-500/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "d16e190de19c8a51"
+  },
+  {
+    "ts": "2026-10-26T15:53:50.210Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://cmsrlabs.co/product/selank-5mg/",
+    "visitorId": "c2ea1778cce84d56"
+  },
+  {
+    "ts": "2026-10-26T15:54:53.014Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "8399d80f8f85c471"
+  },
+  {
+    "ts": "2026-10-26T16:04:21.810Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidespecialist.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ef6450c99d608641"
+  },
+  {
+    "ts": "2026-10-26T16:09:24.607Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://midshirelabs.co.uk/products/cagrilintide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/midshire-labs/sterling-cagrilintide-10mg",
+    "visitorId": "c7dc7543158e48de"
+  },
+  {
+    "ts": "2026-10-26T16:20:55.034Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/klow-blend.html",
+    "refPage": "https://www.viralpeps.co.uk/go/grey-matter-peptides/klow",
+    "visitorId": "223d708e6f9af5ac"
   }
 ]
