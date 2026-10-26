@@ -93,6 +93,21 @@ const TABBED_TABS = INFO_CONTENT_TABS.filter(
 );
 
 // ── Price per mg helper ──
+/**
+ * A scraped `dosage` field is usually a pack size ("10mg") but the scraper
+ * sometimes writes an image URL or a bare path there (HiPeptides in
+ * particular). Those are not dosages: rendering them puts a raw
+ * "https://…webp" string on the page and into the size filter. Anything
+ * that is not a size label returns undefined and simply is not rendered.
+ */
+function cleanDosage(dosage?: string): string | undefined {
+  const raw = String(dosage ?? "").trim();
+  if (!raw) return undefined;
+  if (/^(https?:\/\/|\/|www\.)/i.test(raw)) return undefined;
+  if (/\.(webp|jpe?g|png|gif|svg|avif)(\?|$)/i.test(raw)) return undefined;
+  return raw;
+}
+
 function calcPricePerMg(price: string, dosage?: string): number | null {
   if (!dosage) return null;
   const priceNum = parseFloat(price.replace(/[£$€,]/g, ""));
@@ -224,9 +239,9 @@ export default function CompoundPageClient({
     // Filter by dosage (when we have dosage data per source)
     if (selectedDosage !== "all") {
       // Skip filtering if no source has dosage data yet
-      const hasDosageData = list.some((s: any) => s.dosage);
+      const hasDosageData = list.some((s: any) => cleanDosage(s.dosage));
       if (hasDosageData) {
-        list = list.filter((s: any) => s.dosage === selectedDosage);
+        list = list.filter((s: any) => cleanDosage(s.dosage) === selectedDosage);
       }
     }
 
@@ -847,8 +862,8 @@ export default function CompoundPageClient({
                               })()}
                             </Link>
                           </div>
-                          {(s as any).dosage && (
-                            <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded mt-1 inline-block">{(s as any).dosage}</span>
+                          {cleanDosage((s as any).dosage) && (
+                            <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded mt-1 inline-block">{cleanDosage((s as any).dosage)}</span>
                           )}
                         </div>
                       </div>
@@ -994,8 +1009,8 @@ export default function CompoundPageClient({
                         );
                       })()}
                     </span>
-                    {(s as any).dosage && (
-                      <span className="text-[11px] text-gray-500 bg-gray-100 px-1.5 py-0.5 rounded">{(s as any).dosage}</span>
+                    {cleanDosage((s as any).dosage) && (
+                      <span className="text-[11px] text-gray-500 bg-gray-100 px-1.5 py-0.5 rounded">{cleanDosage((s as any).dosage)}</span>
                     )}
                     {ppm !== null && (
                       <span className="text-[11px] text-gray-400">&pound;{ppm.toFixed(2)}/mg</span>

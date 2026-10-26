@@ -21,6 +21,17 @@ import { classForSlug, getRelated } from "@/data/compound-classes";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
+
+/**
+ * A scraped `dosage` is usually a pack size ("10mg") but the scraper
+ * occasionally writes an image URL there (HiPeptides in particular). A URL is
+ * not a vial size: rendering it puts a raw "https://…webp" string on the page
+ * and turns it into a size-filter option. Non-size values are dropped here.
+ */
+const isSizeLabel = (v: string): boolean =>
+  !!v &&
+  !/^(https?:\/\/|\/|www\.)/i.test(v) &&
+  !/\.(webp|jpe?g|png|gif|svg|avif)(\?|$)/i.test(v);
 export const revalidate = 3600;
 
 export async function generateStaticParams() {
@@ -288,9 +299,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     })),
   };
 
-  // Collect unique vial sizes from sources
+  // Collect unique vial sizes from sources (see isSizeLabel at module scope)
   const allDosages = [...new Set(
-    compound.sources.map((s: any) => (s as any).dosage || "").filter(Boolean)
+    compound.sources.map((s: any) => String((s as any).dosage || "").trim()).filter(isSizeLabel)
   )].sort((a, b) => {
     const ma = parseInt(a.replace(/[^0-9]/g, ""));
     const mb = parseInt(b.replace(/[^0-9]/g, ""));
@@ -440,7 +451,9 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         {featured && featuredVendorData && (() => {
           const fsPrice = String(featuredDisplay?.price ?? featured.price);
           const fsNumeric = parseFloat(fsPrice.replace(/[£$€,]/g, "")) || 0;
-          const fsDose = (featuredDisplay as any)?.dosage || "";
+          // Guard against a scraped dosage that is actually an image URL.
+          const fsDoseRaw = String((featuredDisplay as any)?.dosage || "");
+          const fsDose = isSizeLabel(fsDoseRaw) ? fsDoseRaw : "";
           const mgMatch = fsDose.match(/([\d.]+)\s*mg/i);
           const fsPerMg = mgMatch && fsNumeric > 0
             ? `£${(fsNumeric / parseFloat(mgMatch[1])).toFixed(2)} / mg`
@@ -753,6 +766,14 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
       )}
 
       {slug === "pt-141-bremelanotide" && activeSilo && (
+        <div className="bg-indigo-100 border-t border-gray-100 py-12">
+          <div className="max-w-[76rem] mx-auto px-4">
+            <SiloTiles silo={activeSilo} />
+          </div>
+        </div>
+      )}
+
+      {slug === "mazdutide" && activeSilo && (
         <div className="bg-indigo-100 border-t border-gray-100 py-12">
           <div className="max-w-[76rem] mx-auto px-4">
             <SiloTiles silo={activeSilo} />
