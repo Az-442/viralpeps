@@ -5611,5 +5611,47 @@
       },
       "checkedAt": "2026-10-26T00:32:28.540Z"
     }
+  },
+  {
+    "id": "hipeptides",
+    "name": "HiPeptides",
+    "slug": "hipeptides",
+    "website": "https://hipeptides.co.uk",
+    "description": "UK research peptide supplier holding its own stock in a −20°C controlled facility and dispatching same day before 12:00. Compounds are supplied as lyophilised vials with batch-specific third-party COAs (Janoshik and independent labs), plus a range of nasal sprays and multi-compound research kits. Free tracked delivery on every UK order.",
+    "verified": true,
+    "verifiedDate": "2026-10-26",
+    "delivery": "Free Royal Mail Tracked on every UK order, no minimum spend · same-day dispatch before 12:00 · next working day UK · international 3–10 business days",
+    "email": "support@hipeptides.co.uk",
+    "rating": 4.5,
+    "reviews": 0,
+    "logo": "/images/vendors/hipeptides.png",
+    "shipping": [
+      "Royal Mail Tracked",
+      "Free UK delivery on all orders",
+      "Same-day dispatch before 12:00",
+      "International shipping"
+    ],
+    "payment": [
+      "Card"
+    ],
+    "lastTested": "2026-10-26",
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-26T01:34:09.946Z"
+    }
   }
 ]

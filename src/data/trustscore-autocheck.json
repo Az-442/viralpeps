@@ -3327,5 +3327,33 @@
       "coa": "hplc",
       "review": null
     }
+  },
+  "hipeptides": {
+    "slug": "hipeptides",
+    "website": "https://hipeptides.co.uk",
+    "checkedAt": "2026-10-26T01:34:09.946Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "review": "trustpilot",
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "buy research peptides online | uk supplier| hipeptides"
+    },
+    "product": {
+      "fetched": false,
+      "coa": null,
+      "ruo": null
+    },
+    "secondary": {
+      "probed": 4,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "certificate of analys",
+      "review": "trustpilot"
+    }
   }
 }
