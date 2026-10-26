@@ -320,11 +320,12 @@ def main():
     ap.add_argument("--only-slug", default=None)
     ap.add_argument("--hosts-file", default=None)
     ap.add_argument("--workers", type=int, default=10)
+    ap.add_argument("--offset", type=int, default=0)
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
 
     data = json.load(open(COMPOUNDS))
-    work = build_work(data, args)[: args.limit]
+    work = build_work(data, args)[args.offset: args.offset + args.limit]
     print(f"Checking {len(work)} entries...\n", flush=True)
 
     results = []
