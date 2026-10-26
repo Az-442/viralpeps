@@ -3052,5 +3052,106 @@
     "compoundSlug": "dsip",
     "destUrl": "https://chromapeptides.co.uk/product/dsip/",
     "visitorId": "02f38445104f9414"
+  },
+  {
+    "ts": "2026-10-26T16:42:17.680Z",
+    "type": "product",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://anglopeptides.com/product/ghk-cu-100mg-new-batch-106-research-peptide/",
+    "visitorId": "fbfe77aad01d8dd3"
+  },
+  {
+    "ts": "2026-10-26T16:50:43.298Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ghk-cu-50mg-research-only-peptide-for-laboratory-use-only-coa-in-images/",
+    "visitorId": "e4414f9b56d5f5be"
+  },
+  {
+    "ts": "2026-10-26T16:52:38.511Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "4c5dc7d8624cb453"
+  },
+  {
+    "ts": "2026-10-26T16:52:44.793Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "e00408786ab1d082"
+  },
+  {
+    "ts": "2026-10-26T16:53:06.570Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://chromapeptides.co.uk/product/selank/",
+    "visitorId": "9a83403e19a7c767"
+  },
+  {
+    "ts": "2026-10-26T16:54:37.084Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://jgpeptidesplus.com/product/tesamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ac6e6f48e4b6224e"
+  },
+  {
+    "ts": "2026-10-26T17:02:26.588Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://chromapeptides.co.uk/product/cartalax/",
+    "visitorId": "5349587001c479cc"
+  },
+  {
+    "ts": "2026-10-26T17:03:28.092Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidesshopuk.com/product/tesa-5/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "589b5b9dfe0ba3bf"
+  },
+  {
+    "ts": "2026-10-26T17:07:46.207Z",
+    "type": "product",
+    "vendorSlug": "peptide-global",
+    "vendorName": "Peptide Global",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideglobal.co.uk/product/ghk-cu-pen/",
+    "visitorId": "09e3921c28c927bc"
+  },
+  {
+    "ts": "2026-10-26T17:11:14.289Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://sterlingpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "2750b60947f1395c"
+  },
+  {
+    "ts": "2026-10-26T17:12:52.334Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "visitorId": "5e9ce85360dd1cbb"
   }
 ]
