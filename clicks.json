@@ -2311,5 +2311,23 @@
     "compoundSlug": "oxytocin",
     "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
     "visitorId": "d0ada1eab9bcea4d"
+  },
+  {
+    "ts": "2026-10-26T06:40:27.035Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/58-oxytocin-10mg.html",
+    "visitorId": "caf47ba7761a3479"
+  },
+  {
+    "ts": "2026-10-26T06:59:22.809Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://precision-peptides.shop/product/bacteriostatic-water-10ml/",
+    "visitorId": "ce60ab8ca7b68d8e"
   }
 ]
