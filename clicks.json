@@ -3311,5 +3311,134 @@
     "destUrl": "https://spxlabs.co.uk/product/ghk-cu-uk-50mg/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "213a55719bff00e9"
+  },
+  {
+    "ts": "2026-10-26T18:35:30.324Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "ghk-cu-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/ghk-cu-research-peptides-uk",
+    "visitorId": "2d28afc5536e816b"
+  },
+  {
+    "ts": "2026-10-26T18:40:50.832Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pgnalabs.co.uk/product/ghk-cu",
+    "visitorId": "c2ea1778cce84d56"
+  },
+  {
+    "ts": "2026-10-26T18:42:02.318Z",
+    "type": "product",
+    "vendorSlug": "octagon-peptides",
+    "vendorName": "Octagon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://octagonpeptides.co.uk/product/ghk-cu-100-mg/",
+    "visitorId": "411b990f26de848d"
+  },
+  {
+    "ts": "2026-10-26T18:42:31.862Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://chromapeptides.co.uk/product/ghk-cu/",
+    "visitorId": "a36699c63b54b659"
+  },
+  {
+    "ts": "2026-10-26T18:44:10.452Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://retaresearch.co/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "741b556a207abf96"
+  },
+  {
+    "ts": "2026-10-26T18:44:13.172Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://retaresearch.co/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1e5607034fcbd261"
+  },
+  {
+    "ts": "2026-10-26T18:45:17.955Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://phoenixbiolabs.net/shop/ghk-cu-tested-99/",
+    "visitorId": "f6aeb587b57c6735"
+  },
+  {
+    "ts": "2026-10-26T18:46:00.482Z",
+    "type": "product",
+    "vendorSlug": "lab77-peptides",
+    "vendorName": "Lab77 Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://lab77peptides.uk/peptides/mt2?format=vial&size=10mg",
+    "visitorId": "3393a7c92c864bbf"
+  },
+  {
+    "ts": "2026-10-26T18:46:27.261Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://precision-peptides.shop/product/ghk-cu-100mg/",
+    "visitorId": "c721268ad4c6e1e7"
+  },
+  {
+    "ts": "2026-10-26T18:54:57.164Z",
+    "type": "product",
+    "vendorSlug": "grey-matter-peptides",
+    "vendorName": "Grey Matter Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://greymatterpeptides.co.uk/peptides/ghk-cu.html",
+    "visitorId": "7b1859a02a9ccc54"
+  },
+  {
+    "ts": "2026-10-26T18:56:22.099Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://armapeptideshop.com/product/sermorelin-10mg/",
+    "visitorId": "48f5522c6db5a25a"
+  },
+  {
+    "ts": "2026-10-26T18:56:35.499Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://novapeptidelab.co.uk/product/ghk-cu-peptide-uk/",
+    "visitorId": "4396d34ff2e19e8c"
+  },
+  {
+    "ts": "2026-10-26T18:59:36.416Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://helixcore.co.uk/products/ghk-cu",
+    "visitorId": "dcb9839b2138231e"
+  },
+  {
+    "ts": "2026-10-26T19:08:47.084Z",
+    "type": "product",
+    "vendorSlug": "tested-peptides",
+    "vendorName": "Tested Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.testedpeptides.co.uk/product/ghk-cu-100mg/",
+    "visitorId": "357f3947f05dfe74"
   }
 ]
