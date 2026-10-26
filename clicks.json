@@ -3219,5 +3219,87 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://polygonpeptides.co.uk/product/ghk-cu-100mg/",
     "visitorId": "d9a9ecbdcb8117d4"
+  },
+  {
+    "ts": "2026-10-26T17:42:56.281Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://fatpigpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "e4414f9b56d5f5be"
+  },
+  {
+    "ts": "2026-10-26T17:43:42.149Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://purepeptidesuk.com/product/epitalon-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/epitalon",
+    "visitorId": "48804cefeab51ba6"
+  },
+  {
+    "ts": "2026-10-26T17:45:30.142Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html",
+    "visitorId": "a1d1b6d892645c7c"
+  },
+  {
+    "ts": "2026-10-26T17:47:09.767Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/ghk-cu-50mg",
+    "visitorId": "bd1c5b707d12a85a"
+  },
+  {
+    "ts": "2026-10-26T17:48:19.303Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://purepeptidesuk.com/product/premium-ghk-cu-50mg/",
+    "visitorId": "e5ca2265efbd1f09"
+  },
+  {
+    "ts": "2026-10-26T17:53:44.910Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://tidelabs.co.uk/products/ghk-cu",
+    "visitorId": "1de2da78a43ffcdb"
+  },
+  {
+    "ts": "2026-10-26T17:54:09.507Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-cjc-1295-dac-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg/",
+    "visitorId": "31e23d31ec3f523c"
+  },
+  {
+    "ts": "2026-10-26T18:04:28.074Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "hexarelin-2mg-research-peptides-uk",
+    "destUrl": "https://researchpeptide.co.uk/product/hexarelin-2mg/",
+    "visitorId": "795b3f3c0666f4bd"
+  },
+  {
+    "ts": "2026-10-26T18:14:56.457Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "acetic-acid-10ml",
+    "destUrl": "https://purepeptidesuk.com/product/acetic-acid-10ml/",
+    "visitorId": "05073c33c3289afe"
   }
 ]
