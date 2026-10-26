@@ -2011,6 +2011,30 @@ export const guides: ResearchArticle[] = [
     tags: ["thymosin-alpha-1", "price-per-mg", "uk", "sourcing", "suppliers", "certificate-of-analysis", "thymalfasin", "cost-per-milligram", "research-hub", "buy"],
   },
 
+  {
+    title: "IGF-1 LR3 Research Guide: The Half-Life That Went Backwards",
+    desc: "An 83-residue IGF-1 analogue whose potency comes from bioavailability, not duration. It corrects the 20-30 hour half-life claim the ranking pages all repeat.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "IGF-1 LR3",
+    slug: "igf-1-lr3-research-guide",
+    image: "igf-1-lr3-research-guide",
+    minutes: 12,
+    tags: ["igf-1-lr3", "long-r3-igf-1", "igfbp", "igf-1-receptor", "pi3k-akt", "growth-hormone-axis", "bioprocessing", "research-hub", "peptide-research"],
+  },
+
+  {
+    title: "IGF-1 LR3 UK Price Per mg: 62 Listings",
+    desc: "62 UK listings, 45 priceable, £22.00 to £180.00 per mg in the 1mg band. Why a 10x100mcg pack costs 68 times more, and how to read a COA for a protein chain.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "IGF-1 LR3",
+    slug: "igf-1-lr3-uk-price-guide",
+    image: "igf-1-lr3-uk-price-guide",
+    minutes: 11,
+    tags: ["igf-1-lr3", "price-per-mg", "uk", "sourcing", "suppliers", "certificate-of-analysis", "cost-per-milligram", "disulfide", "research-hub", "buy"],
+  },
+
 ];
 
 export const compoundList: string[] = [
