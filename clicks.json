@@ -3875,5 +3875,157 @@
     "destUrl": "https://www.raccoonpeptides.com/peptides/70-semaglutide-5mg.html",
     "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/semaglutide",
     "visitorId": "c2b67d8b4c45290b"
+  },
+  {
+    "ts": "2026-10-26T21:53:29.117Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "5cd4d5cf788c7094"
+  },
+  {
+    "ts": "2026-10-26T21:54:04.136Z",
+    "type": "product",
+    "vendorSlug": "peptides-next-day",
+    "vendorName": "PeptidesNextDay",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidesnextday.co.uk/product/bpc-157-5mg/",
+    "visitorId": "a6953120d1b7ec3e"
+  },
+  {
+    "ts": "2026-10-26T22:03:03.855Z",
+    "type": "product",
+    "vendorSlug": "apex-pharma",
+    "vendorName": "Apex Pharma",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.apex-pharma.co.uk/product/nad-100mg/",
+    "visitorId": "a96bacdc8234db5c"
+  },
+  {
+    "ts": "2026-10-26T22:04:25.784Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "17d1ba7558d442cd"
+  },
+  {
+    "ts": "2026-10-26T22:04:50.528Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "07ae4ae14cdfca33"
+  },
+  {
+    "ts": "2026-10-26T22:06:42.314Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptideslabuk.com/product/ghk-cu/",
+    "visitorId": "2b46f15780c2fb59"
+  },
+  {
+    "ts": "2026-10-26T22:07:02.901Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britishpeptidelabs.com/products/ghk-cu",
+    "visitorId": "c2ea1778cce84d56"
+  },
+  {
+    "ts": "2026-10-26T22:07:39.481Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://thepeptidecode.co.uk/products/retatrutide-20mg-99-69-purity",
+    "visitorId": "17d1ba7558d442cd"
+  },
+  {
+    "ts": "2026-10-26T22:08:17.945Z",
+    "type": "product",
+    "vendorSlug": "novabiolabs",
+    "vendorName": "Nova Biolabs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://novabiolabs.co.uk/retatrutide-10mg.html",
+    "visitorId": "17d1ba7558d442cd"
+  },
+  {
+    "ts": "2026-10-26T22:09:44.073Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "531e34ecde99cd77"
+  },
+  {
+    "ts": "2026-10-26T22:11:11.196Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "d1c2dc11ba29ecf3"
+  },
+  {
+    "ts": "2026-10-26T22:13:06.695Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/37-glutathione-1500mg.html",
+    "visitorId": "ea28f53afa46f465"
+  },
+  {
+    "ts": "2026-10-26T22:13:13.811Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/37-glutathione-1500mg.html",
+    "visitorId": "92e3e6df73162daa"
+  },
+  {
+    "ts": "2026-10-26T22:13:16.883Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/37-glutathione-1500mg.html",
+    "visitorId": "92e3e6df73162daa"
+  },
+  {
+    "ts": "2026-10-26T22:15:02.829Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "2e78a4d415f50e85"
+  },
+  {
+    "ts": "2026-10-26T22:17:51.219Z",
+    "type": "product",
+    "vendorSlug": "form-peptides",
+    "vendorName": "FORM Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://formpeptides.co.uk/catalogue/product/ghk-cu-50mg",
+    "visitorId": "fd7ef6c66243ebb6"
+  },
+  {
+    "ts": "2026-10-26T22:23:26.931Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://britishpeptidelabs.com/products/tesamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b062d9968807305d"
   }
 ]
