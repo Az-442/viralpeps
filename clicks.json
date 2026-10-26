@@ -3561,5 +3561,123 @@
     "compoundSlug": "ghk-cu",
     "destUrl": "https://www.stratfordpeptides.com/products/ghk-cu",
     "visitorId": "83c143c45e7ec6b3"
+  },
+  {
+    "ts": "2026-10-26T19:45:41.475Z",
+    "type": "product",
+    "vendorSlug": "brit-peptides",
+    "vendorName": "Brit Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://britpeptides.co.uk/product/ghk-cu/",
+    "visitorId": "a4256f5e4208de97"
+  },
+  {
+    "ts": "2026-10-26T19:48:00.644Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://pslabs.uk/products/kisspeptin-10mg",
+    "refPage": "https://www.viralpeps.co.uk/go/ps-labs/kisspeptin-10",
+    "visitorId": "aa98b37075ad21cc"
+  },
+  {
+    "ts": "2026-10-26T19:49:25.428Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/ghk-cu/",
+    "visitorId": "9fb3897c732901a1"
+  },
+  {
+    "ts": "2026-10-26T19:51:17.193Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghk-cu",
+    "visitorId": "2559ace2d260158e"
+  },
+  {
+    "ts": "2026-10-26T19:55:11.421Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pslabs.uk/products/ghk-cu-100mg",
+    "visitorId": "0e96e6414790e4e4"
+  },
+  {
+    "ts": "2026-10-26T19:58:34.356Z",
+    "type": "product",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://reta-uk.com/products/ipamorelin",
+    "visitorId": "08ae844bdf777ef1"
+  },
+  {
+    "ts": "2026-10-26T19:59:18.447Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "visitorId": "c9c4f0786d058df7"
+  },
+  {
+    "ts": "2026-10-26T20:02:24.509Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/ghk-cu/",
+    "visitorId": "44e94b0941999943"
+  },
+  {
+    "ts": "2026-10-26T20:03:07.267Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ghk-cu/",
+    "visitorId": "eebace4e2015a401"
+  },
+  {
+    "ts": "2026-10-26T20:03:37.834Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://optimuslabs.co.uk/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1a4553c3a7ae6972"
+  },
+  {
+    "ts": "2026-10-26T20:08:45.597Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://kingstonpeptides.com/en/products/ghk-cu",
+    "visitorId": "02027ab527643602"
+  },
+  {
+    "ts": "2026-10-26T20:09:09.290Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "l-carnitine-600mg",
+    "destUrl": "https://researchpeptide.co.uk/product/l-carnitine-600mg/",
+    "visitorId": "806a3003646b3bc8"
+  },
+  {
+    "ts": "2026-10-26T20:19:10.112Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://chromapeptides.co.uk/product/hgh-fragment-176-191/",
+    "visitorId": "2c2c1077ac43e181"
   }
 ]
