@@ -5365,5 +5365,198 @@
     "destUrl": "https://bluewellpeptides.com/product/ll-37-5mg-peptide/",
     "refPage": "https://www.viralpeps.co.uk/go/bluewell-peptides/ll-37",
     "visitorId": "799fef934b7ad6db"
+  },
+  {
+    "ts": "2026-10-27T02:01:57.160Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://optimuslabs.co.uk/product/5-amino-1mq/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "373da9e4231205a2"
+  },
+  {
+    "ts": "2026-10-27T02:03:49.073Z",
+    "type": "vendor-site",
+    "vendorSlug": "reta-uk",
+    "vendorName": "RETA UK",
+    "destUrl": "https://reta-uk.com",
+    "visitorId": "358d2519a09d879d"
+  },
+  {
+    "ts": "2026-10-27T02:04:21.400Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptidesshopuk.com/product/klow/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "50ea21645a81c9be"
+  },
+  {
+    "ts": "2026-10-27T02:04:34.446Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "klow",
+    "destUrl": "https://peptidesshopuk.com/product/klow/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4e7a9e3a31e23520"
+  },
+  {
+    "ts": "2026-10-27T02:05:30.098Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "358d2519a09d879d"
+  },
+  {
+    "ts": "2026-10-27T02:11:40.742Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-super-stack",
+    "destUrl": "https://bionikpeptides.com/products/weight-loss",
+    "visitorId": "7bbf5c53b07dcb1a"
+  },
+  {
+    "ts": "2026-10-27T02:13:21.916Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ea1dd525f34b3b98"
+  },
+  {
+    "ts": "2026-10-27T02:13:26.465Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://leolab.co.uk/peptides/selank/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "547e5d416fd569ab"
+  },
+  {
+    "ts": "2026-10-27T02:17:24.339Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidesshopuk.com/product/tesa-5/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4e7a9e3a31e23520"
+  },
+  {
+    "ts": "2026-10-27T02:18:36.012Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-27T02:18:37.869Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "d9fcd2a54f28c78d"
+  },
+  {
+    "ts": "2026-10-27T02:18:39.536Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/69-selank-10mg.html",
+    "visitorId": "0404926f368ff544"
+  },
+  {
+    "ts": "2026-10-27T02:21:42.614Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://vialverse.com/peptides/mazdutide",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/mazdutide",
+    "visitorId": "191d05b886578941"
+  },
+  {
+    "ts": "2026-10-27T02:21:54.397Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://armapeptideshop.com/product/mots-c-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "798a77b68cbbea06"
+  },
+  {
+    "ts": "2026-10-27T02:22:45.186Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6cef961e11858e7f"
+  },
+  {
+    "ts": "2026-10-27T02:22:51.007Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e855464e696caaff"
+  },
+  {
+    "ts": "2026-10-27T02:24:24.907Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://optimuslabs.co.uk/product/thymalin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "abc6664b272c6385"
+  },
+  {
+    "ts": "2026-10-27T02:27:25.164Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://armapeptideshop.com/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "038094b5e36f3306"
+  },
+  {
+    "ts": "2026-10-27T02:30:22.431Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://armapeptideshop.com/product/ghk-cu-50mg-copper-peptide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "3e8ff6ebb65fbced"
+  },
+  {
+    "ts": "2026-10-27T02:31:59.571Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "selank",
+    "destUrl": "https://vialverse.com/peptides/selank",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/selank",
+    "visitorId": "f93d8bb85a03f9f5"
   }
 ]
