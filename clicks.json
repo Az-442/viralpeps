@@ -8065,5 +8065,129 @@
     "compoundSlug": "dsip",
     "destUrl": "https://bionikpeptides.com/products/dsip",
     "visitorId": "cda34abc6f1b8088"
+  },
+  {
+    "ts": "2026-10-27T14:16:16.530Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://bionikpeptides.com/products/dsip",
+    "visitorId": "cda34abc6f1b8088"
+  },
+  {
+    "ts": "2026-10-27T14:16:20.712Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://bionikpeptides.com/products/dsip",
+    "visitorId": "7f254f2a3d6a4f86"
+  },
+  {
+    "ts": "2026-10-27T14:16:29.055Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "b7-33",
+    "destUrl": "https://kensingtonlabs.co.uk/product/b7-33-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/kensington-labs/b7-33",
+    "visitorId": "e8a2de9ffd14c204"
+  },
+  {
+    "ts": "2026-10-27T14:24:35.079Z",
+    "type": "vendor-site",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "destUrl": "https://oplabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6bc013af4f9638a2"
+  },
+  {
+    "ts": "2026-10-27T14:27:03.397Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://premiopeptides.co.uk/compounds/kpv",
+    "visitorId": "4015cf0e0d2cf948"
+  },
+  {
+    "ts": "2026-10-27T14:27:23.313Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/tesamorelin-10/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "901aac90e8591c27"
+  },
+  {
+    "ts": "2026-10-27T14:35:14.878Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://everythingpeptides.co.uk/products/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "eb488a833d6d77a0"
+  },
+  {
+    "ts": "2026-10-27T14:35:29.480Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://everythingpeptides.co.uk/products/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0e911584897db5ee"
+  },
+  {
+    "ts": "2026-10-27T14:37:17.993Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vilon-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/",
+    "visitorId": "7384a771eb735692"
+  },
+  {
+    "ts": "2026-10-27T14:37:26.689Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "vilon-20mg",
+    "destUrl": "https://purepeptidesuk.com/product/vilon-20mg/",
+    "visitorId": "d029e58206518348"
+  },
+  {
+    "ts": "2026-10-27T14:44:37.835Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bionikpeptides.com/products/nad",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cd8fe2f30c83ee6b"
+  },
+  {
+    "ts": "2026-10-27T14:44:42.149Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://bionikpeptides.com/products/nad",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c35a2a51cb317799"
+  },
+  {
+    "ts": "2026-10-27T14:47:36.467Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-company",
+    "vendorName": "The Peptide Company",
+    "compoundSlug": "semax",
+    "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk/go/the-peptide-company/semax",
+    "visitorId": "c13b9b3157b647ed"
   }
 ]
