@@ -8410,5 +8410,77 @@
     "destUrl": "https://bionikpeptides.com/products/cagrilintide",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "cab861e1241bb51a"
+  },
+  {
+    "ts": "2026-10-27T16:52:54.793Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bionikpeptides.com/products/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "48ccfb17d3488f01"
+  },
+  {
+    "ts": "2026-10-27T17:01:33.441Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidespecialist.co.uk/product/mots-c/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1ebc1ad8ed6aacf4"
+  },
+  {
+    "ts": "2026-10-27T17:05:38.252Z",
+    "type": "vendor-site",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "destUrl": "https://midshirelabs.co.uk",
+    "visitorId": "936d87040a854905"
+  },
+  {
+    "ts": "2026-10-27T17:10:47.586Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "016ed1d30e3dbe82"
+  },
+  {
+    "ts": "2026-10-27T17:12:08.191Z",
+    "type": "vendor-site",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "destUrl": "https://bionikpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "09f5c1ad3cab8fb5"
+  },
+  {
+    "ts": "2026-10-27T17:12:12.789Z",
+    "type": "vendor-site",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "destUrl": "https://bionikpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1fb4235527d86c40"
+  },
+  {
+    "ts": "2026-10-27T17:12:20.732Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "352d6b6ea33d0294"
+  },
+  {
+    "ts": "2026-10-27T17:23:04.474Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://everythingpeptides.co.uk/products/ghrp-6-acetate",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "189bb765258a7468"
   }
 ]
