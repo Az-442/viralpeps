@@ -10245,5 +10245,15 @@
     "destUrl": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
     "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/dsip",
     "visitorId": "42d60b0a79e1216e"
+  },
+  {
+    "ts": "2026-10-27T23:52:33.946Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://leolab.co.uk/peptides/tb500-thymosin-b4-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "98141c4ee2bc6acf"
   }
 ]
