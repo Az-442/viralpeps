@@ -5558,5 +5558,186 @@
     "destUrl": "https://vialverse.com/peptides/selank",
     "refPage": "https://www.viralpeps.co.uk/go/vialverse/selank",
     "visitorId": "f93d8bb85a03f9f5"
+  },
+  {
+    "ts": "2026-10-27T02:32:21.169Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "destUrl": "https://peptidehub.co.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "339a3f49603ce6a5"
+  },
+  {
+    "ts": "2026-10-27T02:37:17.939Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://everythingpeptides.co.uk/products/mots-c",
+    "visitorId": "5235f70883c40a95"
+  },
+  {
+    "ts": "2026-10-27T02:37:19.775Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://everythingpeptides.co.uk/products/mots-c",
+    "visitorId": "9855564913d05ba1"
+  },
+  {
+    "ts": "2026-10-27T02:37:30.398Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://purepeptidesuk.com/product/bpc-157-5mg/",
+    "visitorId": "82b11ddda64c80e3"
+  },
+  {
+    "ts": "2026-10-27T02:42:25.427Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://bionikpeptides.com/products/w2-energy-performance",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/bundle-mito-stack",
+    "visitorId": "6c2cec72e71fc759"
+  },
+  {
+    "ts": "2026-10-27T02:43:09.858Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6cef961e11858e7f"
+  },
+  {
+    "ts": "2026-10-27T02:43:14.983Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "29236cc613096701"
+  },
+  {
+    "ts": "2026-10-27T02:51:10.787Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptidesshopuk.com/product/nad-1000/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "2133ac226c4a91f4"
+  },
+  {
+    "ts": "2026-10-27T02:52:53.130Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://bionikpeptides.com/products/retatrutide",
+    "visitorId": "2e37bc7a79f38796"
+  },
+  {
+    "ts": "2026-10-27T02:55:48.748Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "destUrl": "https://peptidesshopuk.com",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "fe1966ad751109ec"
+  },
+  {
+    "ts": "2026-10-27T02:55:59.068Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ss-31-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "9502a41b917f2409"
+  },
+  {
+    "ts": "2026-10-27T02:56:01.370Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ss-31-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-27T02:56:06.708Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ss-31-10mg-research-peptide-for-laboratory-use-only/",
+    "visitorId": "7ea75a94fb667d3b"
+  },
+  {
+    "ts": "2026-10-27T02:56:37.606Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://everythingpeptides.co.uk/products/glow-blend-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "80067234ac6c95a2"
+  },
+  {
+    "ts": "2026-10-27T02:56:40.838Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://everythingpeptides.co.uk/products/glow-blend-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "69a596b9ed871255"
+  },
+  {
+    "ts": "2026-10-27T02:57:50.935Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptidehub.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "10930e001533d1eb"
+  },
+  {
+    "ts": "2026-10-27T02:58:09.607Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptidehub.co.uk/product/kpv-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "85e5a431ca1df5b8"
+  },
+  {
+    "ts": "2026-10-27T02:58:15.650Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://peptidehub.co.uk/product/cjc-1295-dac-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "55391f4fac0670e5"
+  },
+  {
+    "ts": "2026-10-27T03:03:12.357Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bluewellpeptides.com/product/mots-c-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/bluewell-peptides/mots-c",
+    "visitorId": "f6045951e8fda26d"
   }
 ]
