@@ -9820,5 +9820,430 @@
     "compoundSlug": "thymosin-beta-4-tb500-5mg",
     "destUrl": "https://www.uk-peptides.com/tb500-peptide-5mg",
     "visitorId": "3af61e1f7565a375"
+  },
+  {
+    "ts": "2026-10-27T22:35:42.253Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157-5mg-tb500-5mg",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc157-tb-10-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bea5440bd8d91361"
+  },
+  {
+    "ts": "2026-10-27T22:40:21.492Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://sterlingpeptides.co.uk/product/cjc-1295-with-dac-5mg-peptide/",
+    "visitorId": "e92d3d2eb5a36ae3"
+  },
+  {
+    "ts": "2026-10-27T22:43:18.445Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "db60294634e94993"
+  },
+  {
+    "ts": "2026-10-27T22:43:20.438Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://leolab.co.uk/peptides/nad/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b72dc860d92cf826"
+  },
+  {
+    "ts": "2026-10-27T22:43:24.687Z",
+    "type": "product",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.uk-peptides.com/cjc-1295-mod-grf",
+    "visitorId": "c4b5c55a3cfb8cdc"
+  },
+  {
+    "ts": "2026-10-27T22:55:49.657Z",
+    "type": "vendor-site",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "destUrl": "https://optimuslabs.co.uk",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:49.820Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://optimuslabs.co.uk/product/bpc-157/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:49.967Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://optimuslabs.co.uk/product/tb-500/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:50.137Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://optimuslabs.co.uk/product/igf-1-lr3/",
+    "visitorId": "cc3107128fe3fd8e"
+  },
+  {
+    "ts": "2026-10-27T22:55:50.278Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://optimuslabs.co.uk/product/tesamorelin/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:50.455Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://optimuslabs.co.uk/product/mots-c/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:50.611Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://optimuslabs.co.uk/product/ss-31/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:50.769Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://optimuslabs.co.uk/product/ghk-cu/",
+    "visitorId": "cc3107128fe3fd8e"
+  },
+  {
+    "ts": "2026-10-27T22:55:50.934Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "kpv",
+    "destUrl": "https://optimuslabs.co.uk/product/kpv/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:51.090Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://optimuslabs.co.uk/product/thymosin-alpha-1/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:51.239Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://optimuslabs.co.uk/product/epitalon/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:51.387Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://optimuslabs.co.uk/product/semax/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:51.538Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "selank",
+    "destUrl": "https://optimuslabs.co.uk/product/selank/",
+    "visitorId": "cc3107128fe3fd8e"
+  },
+  {
+    "ts": "2026-10-27T22:55:51.691Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://optimuslabs.co.uk/product/ipamorelin/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:51.825Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://optimuslabs.co.uk/product/ghrp-6/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:51.974Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "klow",
+    "destUrl": "https://optimuslabs.co.uk/product/klow-80mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:52.112Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://optimuslabs.co.uk/product/bacteriostatic-water/",
+    "visitorId": "cc3107128fe3fd8e"
+  },
+  {
+    "ts": "2026-10-27T22:55:52.837Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://optimuslabs.co.uk/product/nad/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:52.986Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://optimuslabs.co.uk/product/5-amino-1mq/",
+    "visitorId": "cc3107128fe3fd8e"
+  },
+  {
+    "ts": "2026-10-27T22:55:53.126Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://optimuslabs.co.uk/product/thymalin-10mg/",
+    "visitorId": "cc3107128fe3fd8e"
+  },
+  {
+    "ts": "2026-10-27T22:55:53.340Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://optimuslabs.co.uk/product/cjc-1295-without-dac/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:53.526Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "destUrl": "https://peptidehub.co.uk",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:53.684Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidehub.co.uk/product/bpc-157-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:53.825Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidehub.co.uk/product/tb-500-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:53.966Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "cjc-1295",
+    "destUrl": "https://peptidehub.co.uk/product/cjc-1295-dac-5mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:54.099Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidehub.co.uk/product/tesamorelin-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:54.230Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidehub.co.uk/product/mots-c-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:54.368Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://peptidehub.co.uk/product/ss-31-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:54.508Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidehub.co.uk/product/ghk-cu-50mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:54.635Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "kpv",
+    "destUrl": "https://peptidehub.co.uk/product/kpv-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:54.792Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidehub.co.uk/product/thymosin-alpha-1-5mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:54.933Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptidehub.co.uk/product/epitalon-10mg-2/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:55.069Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidehub.co.uk/product/semax-5mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:55.226Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidehub.co.uk/product/selank-5mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:55.362Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://peptidehub.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:55.524Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidehub.co.uk/product/pt-141-10mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:55.665Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://peptidehub.co.uk/product/kisspeptin-10-5mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:55.817Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptidehub.co.uk/product/dsip-5mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:55.952Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidehub.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:55:56.087Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://peptidehub.co.uk/product/nad-500mg/",
+    "visitorId": "9140b1f29be7f061"
+  },
+  {
+    "ts": "2026-10-27T22:56:19.480Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "semax",
+    "destUrl": "https://peptidespecialist.co.uk/product/semax/",
+    "visitorId": "46ab59f43f6b2ca2"
+  },
+  {
+    "ts": "2026-10-27T23:12:06.142Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/dsip-5mg",
+    "refPage": "https://www.viralpeps.co.uk/go/research-peptide-uk/dsip",
+    "visitorId": "42d60b0a79e1216e"
   }
 ]
