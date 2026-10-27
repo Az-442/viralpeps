@@ -7670,5 +7670,82 @@
     "compoundSlug": "pnc-27",
     "destUrl": "https://bluewellpeptides.com/product/pnc-27-5mg-peptide/",
     "visitorId": "704c987fbae29a06"
+  },
+  {
+    "ts": "2026-10-27T10:28:36.470Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "kisspeptin-10",
+    "destUrl": "https://bluewellpeptides.com/product/kisspeptin-10-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/bluewell-peptides/kisspeptin-10",
+    "visitorId": "a97acecb6775baf5"
+  },
+  {
+    "ts": "2026-10-27T10:33:02.372Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bionikpeptides.com/products/epitalon",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "88dee08b6e8b0aab"
+  },
+  {
+    "ts": "2026-10-27T10:33:05.992Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://bionikpeptides.com/products/epitalon",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7ab6627aeebd8feb"
+  },
+  {
+    "ts": "2026-10-27T10:36:10.999Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "semax",
+    "destUrl": "https://phoenixbiolabs.net/shop/semax-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "145dfd2bf4fc7963"
+  },
+  {
+    "ts": "2026-10-27T10:39:13.836Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://pioneerpeptides.co.uk/products/selank/",
+    "visitorId": "eaade5a9fc079eee"
+  },
+  {
+    "ts": "2026-10-27T10:45:22.109Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidespecialist.co.uk/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fc41a9e4c1aa7caf"
+  },
+  {
+    "ts": "2026-10-27T10:49:18.244Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bionikpeptides.com/products/5-amino-1mq",
+    "visitorId": "394ad1e45938657b"
+  },
+  {
+    "ts": "2026-10-27T10:59:42.435Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-GLUT-600",
+    "visitorId": "23ae1a64c5481c7b"
   }
 ]
