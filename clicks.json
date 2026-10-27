@@ -7947,5 +7947,94 @@
     "destUrl": "https://bionikpeptides.com/products/cerebrolysin",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "75d063f67c2a805d"
+  },
+  {
+    "ts": "2026-10-27T13:24:38.498Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cerebrolysin",
+    "destUrl": "https://bionikpeptides.com/products/cerebrolysin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "86c4c9cdf74e868a"
+  },
+  {
+    "ts": "2026-10-27T13:25:02.594Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/bpc-157-10mg",
+    "visitorId": "fb2c82cae4b5849f"
+  },
+  {
+    "ts": "2026-10-27T13:29:46.549Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "304524b023e80857"
+  },
+  {
+    "ts": "2026-10-27T13:35:06.206Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "nad-500mg",
+    "destUrl": "https://purepeptidesuk.com/product/nad-plus-500mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/pure-peptides-uk/nad-500mg",
+    "visitorId": "a97acecb6775baf5"
+  },
+  {
+    "ts": "2026-10-27T13:44:59.326Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1c9787b39a8cafa6"
+  },
+  {
+    "ts": "2026-10-27T13:45:02.902Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6b51630b5630ac27"
+  },
+  {
+    "ts": "2026-10-27T13:52:39.608Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "840217d9e3f23b28"
+  },
+  {
+    "ts": "2026-10-27T13:52:40.893Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt2-melanotan-2-acetate-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3cabc68569c2f85e"
+  },
+  {
+    "ts": "2026-10-27T13:54:43.684Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "15d9f2bbc0ae3474"
   }
 ]
