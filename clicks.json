@@ -5248,5 +5248,122 @@
     "destUrl": "https://optimuslabs.co.uk/product/nad/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "d19c18500dfbaa44"
+  },
+  {
+    "ts": "2026-10-27T01:30:28.485Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://vialverse.com/peptides/nad",
+    "visitorId": "7d19daabd559dc63"
+  },
+  {
+    "ts": "2026-10-27T01:30:34.361Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "dsip",
+    "destUrl": "https://peptidehub.co.uk/product/dsip-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "f6424f2344cafde6"
+  },
+  {
+    "ts": "2026-10-27T01:33:13.088Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidesshopuk.com/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "37eea9ea03d0298b"
+  },
+  {
+    "ts": "2026-10-27T01:35:36.402Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidehub.co.uk/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0b36e7a22b340ee6"
+  },
+  {
+    "ts": "2026-10-27T01:40:45.926Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidehub.co.uk/product/ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "760409dbfd278b68"
+  },
+  {
+    "ts": "2026-10-27T01:40:46.098Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://zentra-peptides.com/product/igf-1-lr3/",
+    "visitorId": "9f78a81522d8e9ea"
+  },
+  {
+    "ts": "2026-10-27T01:50:52.160Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "adamax",
+    "destUrl": "https://bluewellpeptides.com/product/adamax-10mg-peptide/",
+    "visitorId": "1e0c8f31045233e7"
+  },
+  {
+    "ts": "2026-10-27T01:53:27.532Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidehub.co.uk/product/thymosin-alpha-1-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d55a5a652e65470e"
+  },
+  {
+    "ts": "2026-10-27T01:53:47.852Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidehub.co.uk/product/thymosin-alpha-1-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "8622d54a7cacd86f"
+  },
+  {
+    "ts": "2026-10-27T01:54:46.245Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://armapeptideshop.com/product/nad-600mg-research-coenzyme/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d9ba0f09d98b3d22"
+  },
+  {
+    "ts": "2026-10-27T01:59:04.100Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidesshopuk.com/product/mot10/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c15f71fe46e2ef2e"
+  },
+  {
+    "ts": "2026-10-27T02:01:00.521Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bluewellpeptides.com/product/ll-37-5mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/go/bluewell-peptides/ll-37",
+    "visitorId": "799fef934b7ad6db"
   }
 ]
