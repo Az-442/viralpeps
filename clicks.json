@@ -8189,5 +8189,23 @@
     "destUrl": "https://thepeptidecompany.co.uk/product/semax/",
     "refPage": "https://www.viralpeps.co.uk/go/the-peptide-company/semax",
     "visitorId": "c13b9b3157b647ed"
+  },
+  {
+    "ts": "2026-10-27T15:08:33.598Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://everythingpeptides.co.uk/products/oxytocin-acetate",
+    "visitorId": "bea4d7a991c53f4b"
+  },
+  {
+    "ts": "2026-10-27T15:22:18.464Z",
+    "type": "product",
+    "vendorSlug": "nova-peptide-lab",
+    "vendorName": "Nova Peptide Lab",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://novapeptidelab.co.uk/product/5-amino-1mq-research-compound/",
+    "visitorId": "3c3b671beb260a01"
   }
 ]
