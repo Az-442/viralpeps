@@ -8332,5 +8332,83 @@
     "compoundSlug": "bacteriostatic-water",
     "destUrl": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/",
     "visitorId": "89329f47b9420c58"
+  },
+  {
+    "ts": "2026-10-27T16:23:42.951Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptidespecialist.co.uk/product/igf-1-lr3-1mg-peptide-pen/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6cd475b7efd73c6a"
+  },
+  {
+    "ts": "2026-10-27T16:24:21.738Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ahk-cu-100mg/",
+    "visitorId": "7ea75a94fb667d3b"
+  },
+  {
+    "ts": "2026-10-27T16:24:28.489Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-ahk-cu-100mg/",
+    "visitorId": "6271fdbe03fc462d"
+  },
+  {
+    "ts": "2026-10-27T16:40:30.655Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://armapeptideshop.com/product/melanotan-2-nasal-spray-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "4cf8c739c8b24b02"
+  },
+  {
+    "ts": "2026-10-27T16:41:33.758Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://armapeptideshop.com/product/semaglutide-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "0f4dd556a48b0e7c"
+  },
+  {
+    "ts": "2026-10-27T16:45:02.104Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://armapeptideshop.com/product/tb500-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d0ef201b9196b1f8"
+  },
+  {
+    "ts": "2026-10-27T16:47:50.591Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "selank",
+    "destUrl": "https://phoenixbiolabs.net/shop/selank-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d0fae1759a5d10a1"
+  },
+  {
+    "ts": "2026-10-27T16:52:50.355Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bionikpeptides.com/products/cagrilintide",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cab861e1241bb51a"
   }
 ]
