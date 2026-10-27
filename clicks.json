@@ -7297,5 +7297,149 @@
     "destUrl": "https://armapeptideshop.com/product/glow-70mg/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "342262638238a74d"
+  },
+  {
+    "ts": "2026-10-27T08:43:50.343Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://phoenixbiolabs.net/shop/nadpen-1000mg-premixed-prefilled/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f655db4902fc57ec"
+  },
+  {
+    "ts": "2026-10-27T08:45:00.912Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bionikpeptides.com/products/ll-37",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/ll-37",
+    "visitorId": "db154a80c7b067f3"
+  },
+  {
+    "ts": "2026-10-27T08:45:20.549Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "visitorId": "53c507dff7c7601c"
+  },
+  {
+    "ts": "2026-10-27T08:45:38.233Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://armapeptideshop.com/product/bac-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "2751befaa2d1f949"
+  },
+  {
+    "ts": "2026-10-27T08:47:23.841Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://armapeptideshop.com/product/dsip-5mg-premium-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "43123eafeebac30f"
+  },
+  {
+    "ts": "2026-10-27T08:53:25.794Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://everythingpeptides.co.uk/products/glutathione",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "baea90fbf83d4e07"
+  },
+  {
+    "ts": "2026-10-27T08:53:27.207Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://everythingpeptides.co.uk/products/glutathione",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ef868990cc5f9b52"
+  },
+  {
+    "ts": "2026-10-27T08:54:24.830Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://armapeptideshop.com/product/hcg-5000iu/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7c54fc9bd4e04761"
+  },
+  {
+    "ts": "2026-10-27T08:55:47.540Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://bionikpeptides.com/products/hexarelin",
+    "visitorId": "7b98ed5ab6c8954e"
+  },
+  {
+    "ts": "2026-10-27T09:04:13.634Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin",
+    "visitorId": "fdf95a165596f4a5"
+  },
+  {
+    "ts": "2026-10-27T09:04:21.816Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin",
+    "visitorId": "a8c3d7d385befd60"
+  },
+  {
+    "ts": "2026-10-27T09:04:26.499Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin",
+    "visitorId": "eb036e9a9010b1ee"
+  },
+  {
+    "ts": "2026-10-27T09:05:42.840Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "bpc-157-5mg",
+    "destUrl": "https://evolvepeptides.uk/products/bpc-157-5mg",
+    "refPage": "https://www.viralpeps.co.uk/go/evolve-peptides/bpc-157-5mg",
+    "visitorId": "2ec4a2d416993ac8"
+  },
+  {
+    "ts": "2026-10-27T09:09:15.668Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://optimuslabs.co.uk/product/igf-1-lr3/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "a32cf76931281c3d"
+  },
+  {
+    "ts": "2026-10-27T09:14:03.739Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://oplabs.co.uk/product/ara-290-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4dc9b8314448f6a9"
   }
 ]
