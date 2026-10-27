@@ -8735,5 +8735,180 @@
     "compoundSlug": "mots-c",
     "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/vial",
     "visitorId": "a9423ce606a2c279"
+  },
+  {
+    "ts": "2026-10-27T18:53:40.955Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "orexin-b",
+    "destUrl": "https://bionikpeptides.com/products/orexin-b",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d0fbb30765a983ba"
+  },
+  {
+    "ts": "2026-10-27T18:53:46.135Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "orexin-b",
+    "destUrl": "https://bionikpeptides.com/products/orexin-b",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "050bc84d30da3c47"
+  },
+  {
+    "ts": "2026-10-27T18:56:06.159Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/78-survodutide-10mg.html",
+    "refPage": "https://www.viralpeps.co.uk/go/raccoon-peptides/survodutide",
+    "visitorId": "a4236910a19162b7"
+  },
+  {
+    "ts": "2026-10-27T19:01:34.332Z",
+    "type": "vendor-site",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "destUrl": "https://armapeptideshop.com",
+    "refPage": "https://www.google.com/",
+    "visitorId": "257a2c87f1736737"
+  },
+  {
+    "ts": "2026-10-27T19:03:13.465Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bionikpeptides.com/products/selank",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bb2f212987b1b359"
+  },
+  {
+    "ts": "2026-10-27T19:03:15.673Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://bionikpeptides.com/products/selank",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e2896b7ee34babf5"
+  },
+  {
+    "ts": "2026-10-27T19:10:47.458Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "f50674af5189d9b7"
+  },
+  {
+    "ts": "2026-10-27T19:12:11.219Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://everythingpeptides.co.uk/products/ss-31",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bb3cf7e953111375"
+  },
+  {
+    "ts": "2026-10-27T19:12:15.895Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://everythingpeptides.co.uk/products/ss-31",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d0be593efda11179"
+  },
+  {
+    "ts": "2026-10-27T19:12:35.649Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://peptidesuk.com/aod-9604/",
+    "visitorId": "118eaefb592897d2"
+  },
+  {
+    "ts": "2026-10-27T19:13:08.507Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://bionikpeptides.com/products/hcg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ebe7bdadf491b6fc"
+  },
+  {
+    "ts": "2026-10-27T19:13:12.735Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "hcg",
+    "destUrl": "https://bionikpeptides.com/products/hcg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5de9844fcee826b5"
+  },
+  {
+    "ts": "2026-10-27T19:13:36.883Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0119942a38206e34"
+  },
+  {
+    "ts": "2026-10-27T19:13:43.631Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://leolab.co.uk/peptides/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4f1b323d5e7f4c39"
+  },
+  {
+    "ts": "2026-10-27T19:13:50.575Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://bionikpeptides.com/products/thymalin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b773f48cccc880c2"
+  },
+  {
+    "ts": "2026-10-27T19:13:53.115Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://bionikpeptides.com/products/thymalin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "37200107c51aa81a"
+  },
+  {
+    "ts": "2026-10-27T19:19:17.086Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://unitedpeptides.co.uk/product/tirzepatide-60mg/",
+    "visitorId": "c0d033e81feb094c"
+  },
+  {
+    "ts": "2026-10-27T19:21:49.107Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://spxlabs.co.uk/product/tesamorelin-uk-10mg/",
+    "visitorId": "7bb7f1e072fbd0cd"
   }
 ]
