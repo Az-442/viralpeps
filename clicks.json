@@ -6019,5 +6019,160 @@
     "destUrl": "https://peptidehub.co.uk/product/ss-31-10mg/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "0419aa40baa441a2"
+  },
+  {
+    "ts": "2026-10-27T04:26:00.947Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://vialverse.com/peptides/cjc-1295-ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/cjc-1295-ipamorelin-blend",
+    "visitorId": "ec3624f4364ec094"
+  },
+  {
+    "ts": "2026-10-27T04:27:35.976Z",
+    "type": "vendor-site",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "destUrl": "https://armapeptideshop.com",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "63eff47d9a4dc7eb"
+  },
+  {
+    "ts": "2026-10-27T04:27:49.167Z",
+    "type": "vendor-site",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "destUrl": "https://armapeptideshop.com",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e8f952b25b777974"
+  },
+  {
+    "ts": "2026-10-27T04:36:30.290Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://pioneerpeptides.co.uk/products/bac-water/",
+    "visitorId": "a0e461296dcc1fa5"
+  },
+  {
+    "ts": "2026-10-27T04:37:02.366Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "hgh-97",
+    "destUrl": "https://peptidesshopuk.com/product/hgh/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "1e640643f6d0039e"
+  },
+  {
+    "ts": "2026-10-27T04:38:40.483Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://bionikpeptides.com/products/oxytocin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cf06ff2caebf2272"
+  },
+  {
+    "ts": "2026-10-27T04:38:43.003Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://bionikpeptides.com/products/oxytocin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4b1d87f4698205f1"
+  },
+  {
+    "ts": "2026-10-27T04:39:55.515Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidesshopuk.com/product/gc-100/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "9b8cab8ce4fe467d"
+  },
+  {
+    "ts": "2026-10-27T04:40:02.719Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.revexa.co.uk/product-page/bacteriostatic-water",
+    "visitorId": "7c46e00c592a4cdd"
+  },
+  {
+    "ts": "2026-10-27T04:46:46.720Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://peptx.co.uk/single-vials/pe-22-28",
+    "visitorId": "7b98ed5ab6c8954e"
+  },
+  {
+    "ts": "2026-10-27T04:49:44.230Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidehub.co.uk/product/pt-141-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "5cdaf1a3e78f6514"
+  },
+  {
+    "ts": "2026-10-27T04:51:12.058Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://everythingpeptides.co.uk/products/pinealon",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3183391420399cea"
+  },
+  {
+    "ts": "2026-10-27T04:51:13.963Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://everythingpeptides.co.uk/products/pinealon",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d55a1884c9fd5e95"
+  },
+  {
+    "ts": "2026-10-27T04:52:53.719Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://everythingpeptides.co.uk/products/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3262fd2544e5a803"
+  },
+  {
+    "ts": "2026-10-27T04:52:55.843Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://everythingpeptides.co.uk/products/ipamorelin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cb0056197a976c32"
+  },
+  {
+    "ts": "2026-10-27T04:59:10.358Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://armapeptideshop.com/product/cjc-1295-no-dac-10mg-peptide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b539bb8170b9265a"
   }
 ]
