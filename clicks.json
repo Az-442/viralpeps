@@ -7900,5 +7900,52 @@
     "destUrl": "https://everythingpeptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/go/everything-peptides",
     "visitorId": "e6a6ab05ee8044f6"
+  },
+  {
+    "ts": "2026-10-27T13:04:10.676Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://everythingpeptides.co.uk/products/cagrilintide",
+    "visitorId": "a90e295659b3e515"
+  },
+  {
+    "ts": "2026-10-27T13:05:00.703Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://biopeptides-uk.com/product/kpv-10mg/",
+    "visitorId": "b48c5d382f51b0ed"
+  },
+  {
+    "ts": "2026-10-27T13:14:18.297Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://apexpure.co.uk/product/snap-8-peptide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/apexpure/snap-8",
+    "visitorId": "67a3db620c681476"
+  },
+  {
+    "ts": "2026-10-27T13:20:40.856Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
+    "visitorId": "1a79bbe07f0fadb6"
+  },
+  {
+    "ts": "2026-10-27T13:24:35.987Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cerebrolysin",
+    "destUrl": "https://bionikpeptides.com/products/cerebrolysin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "75d063f67c2a805d"
   }
 ]
