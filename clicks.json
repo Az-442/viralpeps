@@ -6882,5 +6882,130 @@
     "destUrl": "https://armapeptideshop.com/product/selank-10mg-research-peptide/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "b414747b46b1f67d"
+  },
+  {
+    "ts": "2026-10-27T06:10:10.468Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aicar",
+    "destUrl": "https://bionikpeptides.com/products/aicar",
+    "visitorId": "9d3d2e70e754e68f"
+  },
+  {
+    "ts": "2026-10-27T06:10:27.009Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "semax",
+    "destUrl": "https://optimuslabs.co.uk/product/semax/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c15f71fe46e2ef2e"
+  },
+  {
+    "ts": "2026-10-27T06:11:10.225Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "f539b2e55449e6b8"
+  },
+  {
+    "ts": "2026-10-27T06:14:27.907Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://optimuslabs.co.uk/product/epitalon/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "1726e2e7c6838ee7"
+  },
+  {
+    "ts": "2026-10-27T06:16:49.454Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://optimuslabs.co.uk/product/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7823cf36ad1f56de"
+  },
+  {
+    "ts": "2026-10-27T06:20:00.654Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://vialverse.com/peptides/hexarelin",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/hexarelin",
+    "visitorId": "ac0b8d013046296f"
+  },
+  {
+    "ts": "2026-10-27T06:24:19.570Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bionikpeptides.com/products/cartalax",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cc1e112eccedf6c5"
+  },
+  {
+    "ts": "2026-10-27T06:24:23.437Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cartalax",
+    "destUrl": "https://bionikpeptides.com/products/cartalax",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "cc799918ecbf1016"
+  },
+  {
+    "ts": "2026-10-27T06:28:09.335Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidesshopuk.com/product/pt-10/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "faf8580b6ee1cc49"
+  },
+  {
+    "ts": "2026-10-27T06:28:45.809Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://peptidesshopuk.com/product/mt1-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "78c02aba9312fcf7"
+  },
+  {
+    "ts": "2026-10-27T06:32:35.373Z",
+    "type": "vendor-site",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "destUrl": "https://spxlabs.co.uk",
+    "visitorId": "4c8c5f3b7df666f0"
+  },
+  {
+    "ts": "2026-10-27T06:34:25.008Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://evolvepeptides.uk/products/tesamorelin-5mg",
+    "refPage": "https://www.viralpeps.co.uk/go/evolve-peptides/tesamorelin",
+    "visitorId": "3c1b74adf3420d39"
+  },
+  {
+    "ts": "2026-10-27T06:42:23.949Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://pioneerpeptides.co.uk/products/ghrp-6/",
+    "visitorId": "ad81a3770b2fcdb8"
   }
 ]
