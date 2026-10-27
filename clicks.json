@@ -5749,5 +5749,72 @@
     "destUrl": "https://peptidehub.co.uk/product/ipamorelin-10mg/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "8d496b692ae7c202"
+  },
+  {
+    "ts": "2026-10-27T03:23:55.043Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://vialverse.com/peptides/5-amino-1mq",
+    "visitorId": "46d1debf10db99b7"
+  },
+  {
+    "ts": "2026-10-27T03:34:36.076Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://bionikpeptides.com/products/cagrilintide",
+    "visitorId": "6518366a59a6f78a"
+  },
+  {
+    "ts": "2026-10-27T03:37:11.316Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://armapeptideshop.com/product/igf-1ir3-1mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "85945f207cc27b1b"
+  },
+  {
+    "ts": "2026-10-27T03:39:22.927Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "cagrilintide",
+    "destUrl": "https://peptidesshopuk.com/product/cag-10/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "546d57589b1d97e3"
+  },
+  {
+    "ts": "2026-10-27T03:41:00.303Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://armapeptideshop.com/product/tesamorelin-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "094c51125314d2f0"
+  },
+  {
+    "ts": "2026-10-27T03:44:36.923Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://pioneerpeptides.co.uk/products/sermorelin-acetate/",
+    "refPage": "https://www.viralpeps.co.uk/go/pioneer-peptides/sermorelin",
+    "visitorId": "d393193a6025d407"
+  },
+  {
+    "ts": "2026-10-27T03:52:49.456Z",
+    "type": "vendor-site",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "destUrl": "https://optimuslabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c29aa83ad662b702"
   }
 ]
