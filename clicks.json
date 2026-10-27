@@ -7229,5 +7229,73 @@
     "destUrl": "https://optimuslabs.co.uk/product/ipamorelin/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "13b04fc0d8590309"
+  },
+  {
+    "ts": "2026-10-27T08:20:13.232Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides-com",
+    "vendorName": "UK-Peptides.com",
+    "destUrl": "https://www.uk-peptides.com",
+    "refPage": "https://www.google.com/",
+    "visitorId": "4d567e029ec4fe9b"
+  },
+  {
+    "ts": "2026-10-27T08:22:55.782Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bionikpeptides.com/products/vesugen",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0f4485ee0701cad9"
+  },
+  {
+    "ts": "2026-10-27T08:23:10.225Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://bionikpeptides.com/products/vesugen",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4851ff7559af50df"
+  },
+  {
+    "ts": "2026-10-27T08:24:30.794Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://vialverse.com/peptides/ll-37",
+    "visitorId": "3545590738acbee0"
+  },
+  {
+    "ts": "2026-10-27T08:28:34.066Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptidehub.co.uk/product/epitalon-10mg-2/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "85e5a431ca1df5b8"
+  },
+  {
+    "ts": "2026-10-27T08:34:43.224Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://peptx.co.uk/single-vials/mt-1",
+    "refPage": "https://www.viralpeps.co.uk/go/peptx/melanotan-i",
+    "visitorId": "99ffcd81f5e05371"
+  },
+  {
+    "ts": "2026-10-27T08:39:59.312Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://armapeptideshop.com/product/glow-70mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "342262638238a74d"
   }
 ]
