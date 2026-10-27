@@ -2035,6 +2035,30 @@ export const guides: ResearchArticle[] = [
     tags: ["igf-1-lr3", "price-per-mg", "uk", "sourcing", "suppliers", "certificate-of-analysis", "cost-per-milligram", "disulfide", "research-hub", "buy"],
   },
 
+
+  {
+    title: "Fragment 176-191 Research Guide: Phe vs Tyr, 16 Daltons Apart",
+    desc: "Two molecules sold under one name, 16 daltons apart. What the 1978 hyperglycaemia paper actually measured, and what the beta-3 knockout study really concluded.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Fragment 176-191",
+    slug: "fragment-176-191-research-guide",
+    image: "fragment-176-191-research-guide",
+    minutes: 12,
+    tags: ["fragment-176-191", "hgh-frag", "aod-9604", "lipolysis", "beta-3-adrenergic", "growth-hormone-axis", "research-hub", "peptide-research"],
+  },
+
+  {
+    title: "Fragment 176-191 UK Price Per mg: 24 Listings, Only 10 Priced",
+    desc: "Only 10 of 24 UK listings state a mass you can price. Those ten run £3.99 to £7.20 per mg at a median of £5.90, and the 2mg vial loses to the 5mg every time.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Fragment 176-191",
+    slug: "fragment-176-191-uk-price-guide",
+    image: "fragment-176-191-uk-price-guide",
+    minutes: 11,
+    tags: ["fragment-176-191", "hgh-frag", "price-comparison", "cost-per-milligram", "vial-size", "peptide-prices", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
