@@ -8629,5 +8629,92 @@
     "destUrl": "https://everythingpeptides.co.uk/products/semax",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "0119942a38206e34"
+  },
+  {
+    "ts": "2026-10-27T17:54:06.458Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://everythingpeptides.co.uk/products/semax",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ef0899d2ac40a446"
+  },
+  {
+    "ts": "2026-10-27T18:00:16.424Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://armapeptideshop.com/product/retatrutide-30mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "1f5b4a9c7eb065ad"
+  },
+  {
+    "ts": "2026-10-27T18:03:20.816Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://everythingpeptides.co.uk/products/l-carnitine",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "dddd276b256eca55"
+  },
+  {
+    "ts": "2026-10-27T18:03:21.750Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://everythingpeptides.co.uk/products/l-carnitine",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "25a692088f970a57"
+  },
+  {
+    "ts": "2026-10-27T18:06:39.694Z",
+    "type": "product",
+    "vendorSlug": "global-bio-research",
+    "vendorName": "Global Bio Research",
+    "compoundSlug": "semax",
+    "destUrl": "https://globalbioresearch.co/shop/semax",
+    "refPage": "https://viralpeps.co.uk/",
+    "visitorId": "f515ae65e6827345"
+  },
+  {
+    "ts": "2026-10-27T18:08:06.070Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://leolab.co.uk/peptides/pt-141/",
+    "refPage": "https://www.viralpeps.co.uk/go/leolab/pt-141-bremelanotide",
+    "visitorId": "914d1962d5d80d57"
+  },
+  {
+    "ts": "2026-10-27T18:23:37.833Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7c90dc1c8b0e1c3f"
+  },
+  {
+    "ts": "2026-10-27T18:23:42.559Z",
+    "type": "vendor-site",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "destUrl": "https://everythingpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fe54a22a8fbe44ee"
+  },
+  {
+    "ts": "2026-10-27T18:24:51.439Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://midshirelabs.co.uk/products/vesugen/",
+    "visitorId": "9f78a81522d8e9ea"
   }
 ]
