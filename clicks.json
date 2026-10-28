@@ -13917,5 +13917,88 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://vialverse.com/peptides/retatrutide",
     "visitorId": "073685ada061faa3"
+  },
+  {
+    "ts": "2026-10-28T20:07:17.711Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/91-vip-10mg.html",
+    "visitorId": "0413188dae0bdb21"
+  },
+  {
+    "ts": "2026-10-28T20:07:23.725Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/91-vip-10mg.html",
+    "visitorId": "7e292d0b2f0eea01"
+  },
+  {
+    "ts": "2026-10-28T20:07:26.115Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/91-vip-10mg.html",
+    "visitorId": "7e292d0b2f0eea01"
+  },
+  {
+    "ts": "2026-10-28T20:13:56.583Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://leolab.co.uk/peptides/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f2c74c89b14507f4"
+  },
+  {
+    "ts": "2026-10-28T20:14:02.585Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://leolab.co.uk/peptides/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "17c6c971f4e50ab7"
+  },
+  {
+    "ts": "2026-10-28T20:26:41.805Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://spxlabs.co.uk/product/ghk-cu-uk-50mg/",
+    "visitorId": "0e323e2b61c0fc7f"
+  },
+  {
+    "ts": "2026-10-28T20:27:49.391Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidelabuk.co.uk/product/pt-141-10mg-research-peptide/",
+    "visitorId": "1a327803245bd0ab"
+  },
+  {
+    "ts": "2026-10-28T20:28:05.214Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://peptidelabuk.co.uk/product/pt-141-10mg-research-peptide/",
+    "visitorId": "138869ec1ce791e8"
+  },
+  {
+    "ts": "2026-10-28T20:42:14.378Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "klow",
+    "destUrl": "https://vialverse.com/peptides/klow-blend",
+    "visitorId": "7e976132ef5ef511"
   }
 ]
