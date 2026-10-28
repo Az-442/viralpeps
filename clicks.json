@@ -13227,5 +13227,101 @@
     "destUrl": "https://xlpeptides.com/product/wolverine-stack/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "3e48a3c318c7e254"
+  },
+  {
+    "ts": "2026-10-28T13:52:18.370Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://allmypeptides.com/product/ipamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/go/allmypeptides/ipamorelin",
+    "visitorId": "b7edfb2564824616"
+  },
+  {
+    "ts": "2026-10-28T13:55:54.271Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "dsip",
+    "destUrl": "https://phoenixbiolabs.net/shop/dsip-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "dd4d63497971ef0f"
+  },
+  {
+    "ts": "2026-10-28T14:01:48.115Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://armapeptideshop.com/product/peg-mgf-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "fa7cb395074dbb48"
+  },
+  {
+    "ts": "2026-10-28T14:02:36.992Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cortagen-research-peptide",
+    "destUrl": "https://bionikpeptides.com/products/cortagen",
+    "visitorId": "092d9389aeb54e27"
+  },
+  {
+    "ts": "2026-10-28T14:02:39.740Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cortagen-research-peptide",
+    "destUrl": "https://bionikpeptides.com/products/cortagen",
+    "visitorId": "74d7f58f555cd511"
+  },
+  {
+    "ts": "2026-10-28T14:02:45.763Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "cortagen-research-peptide",
+    "destUrl": "https://bionikpeptides.com/products/cortagen",
+    "visitorId": "7ea75a94fb667d3b"
+  },
+  {
+    "ts": "2026-10-28T14:06:45.435Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "3484d5ad6078f263"
+  },
+  {
+    "ts": "2026-10-28T14:06:48.702Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "e9aae4fe373609f1"
+  },
+  {
+    "ts": "2026-10-28T14:06:49.750Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0760baa4c0714525"
+  },
+  {
+    "ts": "2026-10-28T14:08:47.630Z",
+    "type": "product",
+    "vendorSlug": "proforma-peptides",
+    "vendorName": "Proforma Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
+    "visitorId": "08ae844bdf777ef1"
   }
 ]
