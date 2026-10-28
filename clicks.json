@@ -13113,5 +13113,119 @@
     "destUrl": "https://armapeptideshop.com/product/aod-9604-5mg/",
     "refPage": "https://www.google.com/",
     "visitorId": "fe76473df185c914"
+  },
+  {
+    "ts": "2026-10-28T13:12:35.334Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://phoenixbiolabs.net/shop/mots-c-40/",
+    "visitorId": "dc51e84cc75e6391"
+  },
+  {
+    "ts": "2026-10-28T13:20:29.799Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://www.northpeptidesuk.com/products/pinealon/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "919dcb16b7c1ac80"
+  },
+  {
+    "ts": "2026-10-28T13:20:34.993Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "peg-mgf",
+    "destUrl": "https://bioplexpeptides.co.uk/products/peg-mgf-2mg-mechano-growth-factor",
+    "refPage": "https://www.viralpeps.co.uk/go/bioplex-peptides/peg-mgf",
+    "visitorId": "0bc3e17f6dc47255"
+  },
+  {
+    "ts": "2026-10-28T13:23:09.552Z",
+    "type": "product",
+    "vendorSlug": "premio-peptides",
+    "vendorName": "Premio Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://premiopeptides.co.uk/compounds/igf-1-lr3",
+    "visitorId": "9ec501336ccbc388"
+  },
+  {
+    "ts": "2026-10-28T13:27:40.761Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://trutide.co.uk/product/wolverine/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "bad61f3fe5e3a725"
+  },
+  {
+    "ts": "2026-10-28T13:31:31.984Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "d9fcd2a54f28c78d"
+  },
+  {
+    "ts": "2026-10-28T13:31:35.685Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-28T13:31:39.295Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5a51e19dd48701aa"
+  },
+  {
+    "ts": "2026-10-28T13:31:39.329Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "b48c5d382f51b0ed"
+  },
+  {
+    "ts": "2026-10-28T13:31:49.862Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "acdf48c61caa2f9d"
+  },
+  {
+    "ts": "2026-10-28T13:37:14.046Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "glutathione-peptide",
+    "destUrl": "https://researchpeptide.co.uk/product/glutathione-peptide/",
+    "visitorId": "98d66cdfcfa7dc5d"
+  },
+  {
+    "ts": "2026-10-28T13:38:17.342Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://xlpeptides.com/product/wolverine-stack/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "3e48a3c318c7e254"
   }
 ]
