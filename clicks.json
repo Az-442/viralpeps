@@ -14126,5 +14126,94 @@
     "compoundSlug": "pnc-27",
     "destUrl": "https://vialverse.com/peptides/pnc-27",
     "visitorId": "a12019afec3707fa"
+  },
+  {
+    "ts": "2026-10-28T21:51:50.905Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://retaresearch.co/products/igf-lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "db27bd66e1d83f83"
+  },
+  {
+    "ts": "2026-10-28T21:52:05.753Z",
+    "type": "product",
+    "vendorSlug": "reta-research",
+    "vendorName": "Reta Research",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://retaresearch.co/products/igf-lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "788db1ebc3e46fed"
+  },
+  {
+    "ts": "2026-10-28T21:53:31.588Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bionikpeptides.com/products/ll-37",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "69d4177bbaf38f56"
+  },
+  {
+    "ts": "2026-10-28T21:53:42.309Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bionikpeptides.com/products/ll-37",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "22f54ae914857339"
+  },
+  {
+    "ts": "2026-10-28T21:55:28.777Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://everythingpeptides.co.uk/products/tb500",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7ad24d149da70408"
+  },
+  {
+    "ts": "2026-10-28T21:55:32.684Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://everythingpeptides.co.uk/products/tb500",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1b540f2505004be1"
+  },
+  {
+    "ts": "2026-10-28T22:10:49.624Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://chromapeptides.co.uk/product/cjc-1295-no-dac/",
+    "visitorId": "99d9eb99ea4876ac"
+  },
+  {
+    "ts": "2026-10-28T22:17:46.261Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://phoenixbiolabs.net/shop/bacteriostatic-sterile-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "503f0a5ac3ec560e"
+  },
+  {
+    "ts": "2026-10-28T22:25:34.500Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://bionikpeptides.com/products/matrixyl",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e3cb695366d76bed"
   }
 ]
