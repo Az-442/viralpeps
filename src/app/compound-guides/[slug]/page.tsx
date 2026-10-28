@@ -177,12 +177,21 @@ import {
   sortByTrust as mazSortByTrust,
   MAZ_SPOKES,
 } from "@/data/mazdutide-silo";
+import { spokes as survSpokes, getSpoke as getSurvSpoke } from "@/data/survodutide-spokes";
+import {
+  getSurvRows,
+  getSurvStats,
+  survSortByPrice,
+  survSortByPricePerMg,
+  survSortByTrust,
+  SURV_SPOKES,
+} from "@/data/survodutide-silo";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
 export const revalidate = 3600;
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -204,6 +213,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   "aod-9604": "AOD-9604",
   "pt-141-bremelanotide": "PT-141",
   mazdutide: "Mazdutide",
+  survodutide: "Survodutide",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -246,6 +256,8 @@ function resolveSpoke(slug: string) {
   if (pt141) return { spoke: pt141, compound: "pt-141-bremelanotide" as const };
   const maz = getMazSpoke(slug);
   if (maz) return { spoke: maz, compound: "mazdutide" as const };
+  const surv = getSurvSpoke(slug);
+  if (surv) return { spoke: surv, compound: "survodutide" as const };
   return null;
 }
 
@@ -270,6 +282,7 @@ export async function generateStaticParams() {
     ...aodSpokes.map((s) => ({ slug: s.slug })),
     ...pt141Spokes.map((s) => ({ slug: s.slug })),
     ...mazSpokes.map((s) => ({ slug: s.slug })),
+    ...survSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -583,6 +596,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "survodutide") {
+    const all = getSurvRows();
+    let sorted = survSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg" || spoke.tableMode === "full") {
+      sorted = survSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = survSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -641,6 +668,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? getPt141Stats()
                                     : compound === "mazdutide"
                                       ? getMazStats()
+                                    : compound === "survodutide"
+                                      ? getSurvStats()
                                     : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
@@ -671,6 +700,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         case "aod-9604": return getAodRows();
         case "pt-141-bremelanotide": return getPt141Rows();
         case "mazdutide": return getMazRows();
+        case "survodutide": return getSurvRows();
         default: return rows;
       }
     })();
@@ -749,6 +779,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? PT141_SPOKES
                                     : compound === "mazdutide"
                                       ? MAZ_SPOKES
+                                    : compound === "survodutide"
+                                      ? SURV_SPOKES
                                     : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 

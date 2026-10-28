@@ -37,6 +37,7 @@ import {
 import { AOD_SPOKES, getAodStats, type AodStats } from "@/data/aod-9604-silo";
 import { PT141_SPOKES, getPt141Stats, type Pt141Stats } from "@/data/pt-141-silo";
 import { MAZ_SPOKES, getMazStats, type MazStats } from "@/data/mazdutide-silo";
+import { SURV_SPOKES, getSurvStats, type SurvStats } from "@/data/survodutide-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -231,6 +232,14 @@ export const SILOS: Silo[] = [
     spokes: MAZ_SPOKES as unknown as SiloSpoke[],
     getStats: () => getMazStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "survodutide",
+    name: "Survodutide",
+    blurb:
+      "Survodutide (BI 456906) buying guides — verified UK suppliers, lowest price per mg, full price comparison, pack-size checks and TrustScore rankings.",
+    spokes: SURV_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getSurvStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -252,3 +261,4 @@ export type { AodStats };
 export type { GhkStats };
 export type { Pt141Stats };
 export type { MazStats };
+export type { SurvStats };
