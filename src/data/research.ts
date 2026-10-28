@@ -2059,6 +2059,31 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["fragment-176-191", "hgh-frag", "price-comparison", "cost-per-milligram", "vial-size", "peptide-prices", "uk", "research-hub"],
   },
+
+
+  {
+    title: "HCG Research Guide: The Hormone With No Molecular Formula",
+    desc: "hCG has no molecular formula and no fixed molecular mass. So what is actually in the vial? The measured 5.8-day half-life, and the four molecules sold as hCG.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "HCG",
+    slug: "hcg-research-guide",
+    image: "hcg-research-guide",
+    minutes: 12,
+    tags: ["hcg", "human-chorionic-gonadotropin", "glycoprotein", "lh-receptor", "reproductive-endocrinology", "research-hub", "peptide-research"],
+  },
+
+  {
+    title: "HCG UK Price Per IU: 10 Listings, One Broken Column",
+    desc: "Ten UK listings priced in IU, because hCG has no mass to divide by at all. The market spans just 2.2 times, and the 10,000 IU vial halves the rate per unit.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "HCG",
+    slug: "hcg-uk-price-guide",
+    image: "hcg-uk-price-guide",
+    minutes: 11,
+    tags: ["hcg", "price-per-iu", "uk", "sourcing", "suppliers", "certificate-of-analysis", "glycoprotein", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
