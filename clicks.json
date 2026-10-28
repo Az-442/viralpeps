@@ -11201,5 +11201,156 @@
     "destUrl": "https://peptidespecialist.co.uk/product/tb-500/",
     "refPage": "https://www.google.com/",
     "visitorId": "353b87f85198101e"
+  },
+  {
+    "ts": "2026-10-28T02:07:51.340Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://phoenixbiolabs.net/shop/sermorelin-5mg-vial-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d1144e1915c516f7"
+  },
+  {
+    "ts": "2026-10-28T02:10:27.399Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidespecialist.co.uk/product/tb-500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ccc05f7075516dc3"
+  },
+  {
+    "ts": "2026-10-28T02:13:04.148Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "652e702653b651a4"
+  },
+  {
+    "ts": "2026-10-28T02:20:09.452Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bionikpeptides.com/products/aod-9604",
+    "visitorId": "f2a138f3f946ea44"
+  },
+  {
+    "ts": "2026-10-28T02:20:10.190Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg",
+    "visitorId": "7d3ec607a5f3ba5b"
+  },
+  {
+    "ts": "2026-10-28T02:20:10.684Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "86230ad5d293706b"
+  },
+  {
+    "ts": "2026-10-28T02:20:12.267Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bionikpeptides.com/products/aod-9604",
+    "visitorId": "b73211521c422adc"
+  },
+  {
+    "ts": "2026-10-28T02:20:12.348Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg",
+    "visitorId": "2469a6590ba551c0"
+  },
+  {
+    "ts": "2026-10-28T02:20:13.857Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://bionikpeptides.com/products/aod-9604",
+    "visitorId": "ce60ab8ca7b68d8e"
+  },
+  {
+    "ts": "2026-10-28T02:20:14.593Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://www.stratfordpeptides.com/products/semax-10mg",
+    "visitorId": "86e7d90ec76c62b0"
+  },
+  {
+    "ts": "2026-10-28T02:21:13.255Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/20-bpc-157-5mg-tb-500-5mg.html",
+    "visitorId": "86230ad5d293706b"
+  },
+  {
+    "ts": "2026-10-28T02:24:05.621Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://armapeptideshop.com/product/pt-141-10mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "b9849edd176f4c20"
+  },
+  {
+    "ts": "2026-10-28T02:33:54.387Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ac03733a9de5fedc"
+  },
+  {
+    "ts": "2026-10-28T02:33:54.910Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cc19b3b445a0f075"
+  },
+  {
+    "ts": "2026-10-28T02:33:55.446Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://peptideslabuk.com/product/bpc-10mg-tb-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0e4db80b66247f51"
+  },
+  {
+    "ts": "2026-10-28T02:37:50.790Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidesx.uk/product/ghk-cu/",
+    "visitorId": "b792e682f50e0fde"
   }
 ]
