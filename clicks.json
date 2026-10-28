@@ -13586,5 +13586,91 @@
     "vendorName": "AllMyPeptides",
     "destUrl": "https://allmypeptides.com",
     "visitorId": "389004b448f95a17"
+  },
+  {
+    "ts": "2026-10-28T16:37:53.681Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/semaglutide/",
+    "visitorId": "656936a124739931"
+  },
+  {
+    "ts": "2026-10-28T16:39:12.081Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://oplabs.co.uk/product/tb-500-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3346daca16d8e19e"
+  },
+  {
+    "ts": "2026-10-28T16:42:06.124Z",
+    "type": "product",
+    "vendorSlug": "novabiolabs",
+    "vendorName": "Nova Biolabs",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://novabiolabs.co.uk/glutathione-1500mg.html",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "c02e9039b9547c8b"
+  },
+  {
+    "ts": "2026-10-28T16:46:58.159Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "6a409eca81cf722e"
+  },
+  {
+    "ts": "2026-10-28T16:51:56.501Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bionikpeptides.com/products/mots-c",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "b8fdf6cc6b5c50be"
+  },
+  {
+    "ts": "2026-10-28T16:52:09.761Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://bionikpeptides.com/products/mots-c",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f2e6cc095b4beb06"
+  },
+  {
+    "ts": "2026-10-28T17:02:09.282Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bionikpeptides.com/products/hgh-fragment-176-191",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "940cdc2080dbc8da"
+  },
+  {
+    "ts": "2026-10-28T17:02:10.854Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bionikpeptides.com/products/hgh-fragment-176-191",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "edba2e9341d0cf9a"
+  },
+  {
+    "ts": "2026-10-28T17:22:34.147Z",
+    "type": "product",
+    "vendorSlug": "peptides-next-day",
+    "vendorName": "PeptidesNextDay",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptidesnextday.co.uk/product/melanotan-ii-10mg/",
+    "visitorId": "e58d2b33a650961e"
   }
 ]
