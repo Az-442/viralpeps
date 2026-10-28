@@ -14063,5 +14063,59 @@
     "destUrl": "https://zentra-peptides.com/product/tesamorelin/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "c4fbd829b76a9b7d"
+  },
+  {
+    "ts": "2026-10-28T21:14:21.084Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "visitorId": "45bd0ec5ba9fcdae"
+  },
+  {
+    "ts": "2026-10-28T21:19:25.811Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://vialverse.com/peptides/hexarelin",
+    "visitorId": "711f2fc6b6335bb3"
+  },
+  {
+    "ts": "2026-10-28T21:20:37.820Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://oplabs.co.uk/product/cjc-1295-with-dac-2mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d8bbd128276ccc4a"
+  },
+  {
+    "ts": "2026-10-28T21:22:18.009Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "visitorId": "86f3bec3e4494d39"
+  },
+  {
+    "ts": "2026-10-28T21:33:07.633Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "survodutide",
+    "destUrl": "https://vialverse.com/peptides/survodutide",
+    "visitorId": "fa76fb7c55c66c1a"
+  },
+  {
+    "ts": "2026-10-28T21:42:27.357Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://britishpeptidelabs.com/products/igf-1-lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9510ba7745f81d66"
   }
 ]
