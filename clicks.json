@@ -13747,5 +13747,72 @@
     "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "1b2e3ccdaec8ab18"
+  },
+  {
+    "ts": "2026-10-28T18:42:12.786Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://kingstonpeptides.com/en/products/ghk-cu",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d47eed68d5259c23"
+  },
+  {
+    "ts": "2026-10-28T18:44:45.902Z",
+    "type": "product",
+    "vendorSlug": "peptides-next-day",
+    "vendorName": "PeptidesNextDay",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidesnextday.co.uk/product/thymosin-alpha-1-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/go/peptides-next-day/thymosin-alpha-1",
+    "visitorId": "8dcfbe89de308ab2"
+  },
+  {
+    "ts": "2026-10-28T18:51:18.626Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://polygonpeptides.co.uk/product/ahk-cu-100mg/",
+    "visitorId": "8d1697ba6079769b"
+  },
+  {
+    "ts": "2026-10-28T18:54:12.540Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "0f38aaf24ce57d49"
+  },
+  {
+    "ts": "2026-10-28T18:56:50.219Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "6eb0fab3163ddb57"
+  },
+  {
+    "ts": "2026-10-28T19:05:21.283Z",
+    "type": "product",
+    "vendorSlug": "bio-pulse-peptides",
+    "vendorName": "Bio Pulse Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://biopulsepeptides.co.uk/shop/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk/go/bio-pulse-peptides/mots-c",
+    "visitorId": "373bbe6c5704f466"
+  },
+  {
+    "ts": "2026-10-28T19:12:27.274Z",
+    "type": "product",
+    "vendorSlug": "peptide-lab-uk",
+    "vendorName": "PeptideLabUK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://peptidelabuk.co.uk/product/tesamorelin-10mg-research-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9eaecc732412eb3f"
   }
 ]
