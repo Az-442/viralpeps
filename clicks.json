@@ -11783,5 +11783,152 @@
     "compoundSlug": "hgh-191aa-the-peptide-company",
     "destUrl": "https://fatpigpeptides.co.uk/product/hgh191aa-somatrophin/",
     "visitorId": "530893d3b264a1fb"
+  },
+  {
+    "ts": "2026-10-28T05:32:03.924Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidespecialist.co.uk/product/thymosin-alpha-1-30mg-peptide-pen/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "6c401411a116790a"
+  },
+  {
+    "ts": "2026-10-28T05:33:14.882Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://everythingpeptides.co.uk/products/thymosin-alpha-1",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a9603f203867dafa"
+  },
+  {
+    "ts": "2026-10-28T05:33:19.335Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://everythingpeptides.co.uk/products/thymosin-alpha-1",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a2adbb8581a17b6e"
+  },
+  {
+    "ts": "2026-10-28T05:34:39.413Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "glutathione",
+    "destUrl": "https://peptx.co.uk/single-vials/glutathione",
+    "visitorId": "0d5e5a627d8b24c8"
+  },
+  {
+    "ts": "2026-10-28T05:36:16.621Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.northpeptidesuk.com/products/retatrutide/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "bec024fd099f45c0"
+  },
+  {
+    "ts": "2026-10-28T05:36:53.140Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "acth-1-39",
+    "destUrl": "https://bionikpeptides.com/products/acth-1-391",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3adc7ef302ae0059"
+  },
+  {
+    "ts": "2026-10-28T05:36:56.489Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "acth-1-39",
+    "destUrl": "https://bionikpeptides.com/products/acth-1-391",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "42dcc54ff0e6ac48"
+  },
+  {
+    "ts": "2026-10-28T05:39:29.972Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://phoenixbiolabs.net/shop/ghk-cu-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ea0aac016fae966a"
+  },
+  {
+    "ts": "2026-10-28T05:39:41.342Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://vialverse.com/peptides/mazdutide",
+    "visitorId": "c089d9f600c651d0"
+  },
+  {
+    "ts": "2026-10-28T05:50:14.616Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "807af4f326a9dec0"
+  },
+  {
+    "ts": "2026-10-28T05:55:03.614Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://leolab.co.uk/peptides/pt-141/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d2d16fc35f30462b"
+  },
+  {
+    "ts": "2026-10-28T05:55:12.253Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://leolab.co.uk/peptides/pt-141/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1b341b40bd74d008"
+  },
+  {
+    "ts": "2026-10-28T05:58:59.589Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://everythingpeptides.co.uk/products/igf-1lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "768d608396c3f952"
+  },
+  {
+    "ts": "2026-10-28T05:59:07.653Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://everythingpeptides.co.uk/products/igf-1lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c4528603d80287a2"
+  },
+  {
+    "ts": "2026-10-28T06:04:12.209Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://leolab.co.uk/peptides/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "53dd43cd74d24701"
   }
 ]
