@@ -11082,5 +11082,124 @@
     "destUrl": "https://www.northpeptidesuk.com/products/semax/",
     "refPage": "https://www.google.com/",
     "visitorId": "ca3ce8524410587d"
+  },
+  {
+    "ts": "2026-10-28T01:37:03.615Z",
+    "type": "vendor-site",
+    "vendorSlug": "global-bio-research",
+    "vendorName": "Global Bio Research",
+    "destUrl": "https://globalbioresearch.co",
+    "refPage": "https://viralpeps.co.uk/",
+    "visitorId": "bc85f2f4b6c66a8b"
+  },
+  {
+    "ts": "2026-10-28T01:39:59.673Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://armapeptideshop.com/product/glow-70mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "17f6507784f99af4"
+  },
+  {
+    "ts": "2026-10-28T01:41:45.608Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bionikpeptides.com/products/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6cef961e11858e7f"
+  },
+  {
+    "ts": "2026-10-28T01:41:48.244Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://bionikpeptides.com/products/bpc-157",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d2e6f1276c90d58b"
+  },
+  {
+    "ts": "2026-10-28T01:41:54.863Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://armapeptideshop.com/product/bpc-157-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "d25450b0de121781"
+  },
+  {
+    "ts": "2026-10-28T01:42:40.797Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://everythingpeptides.co.uk/products/thymalin-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5c74b04afc5570c5"
+  },
+  {
+    "ts": "2026-10-28T01:42:43.167Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://everythingpeptides.co.uk/products/thymalin-x-10-vials",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "71d3dabba1f4427d"
+  },
+  {
+    "ts": "2026-10-28T01:45:09.049Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "glow",
+    "destUrl": "https://armapeptideshop.com/product/glow-70mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "74e0eadd1adb55c2"
+  },
+  {
+    "ts": "2026-10-28T01:45:35.223Z",
+    "type": "product",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://armapeptideshop.com/product/bpc-157-5mg/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "cee4d5ba01b30db9"
+  },
+  {
+    "ts": "2026-10-28T01:53:10.827Z",
+    "type": "product",
+    "vendorSlug": "polygon-peptides",
+    "vendorName": "Polygon Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://polygonpeptides.co.uk/product/wolverine-blend-20mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b34be415ddade9b6"
+  },
+  {
+    "ts": "2026-10-28T02:04:19.861Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://oplabs.co.uk/product/bpc157-tb500-blend-10mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "5998831099b5a16a"
+  },
+  {
+    "ts": "2026-10-28T02:06:01.353Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://peptidespecialist.co.uk/product/tb-500/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "353b87f85198101e"
   }
 ]
