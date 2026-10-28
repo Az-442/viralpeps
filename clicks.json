@@ -11667,5 +11667,121 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://redpandapeptides.co.uk/product/retatrutide-10mg/",
     "visitorId": "bf59daa8d6b2cbf0"
+  },
+  {
+    "ts": "2026-10-28T05:02:06.472Z",
+    "type": "product",
+    "vendorSlug": "aegis-peptides",
+    "vendorName": "Aegis Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://aegispeptidesuk.co.uk/product/retatrutide-10mg/",
+    "visitorId": "bf59daa8d6b2cbf0"
+  },
+  {
+    "ts": "2026-10-28T05:02:19.720Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/retatrutide",
+    "visitorId": "bf59daa8d6b2cbf0"
+  },
+  {
+    "ts": "2026-10-28T05:07:27.368Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://bionikpeptides.com/products/w2-energy-performance",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3adc7ef302ae0059"
+  },
+  {
+    "ts": "2026-10-28T05:07:32.033Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-mito-stack",
+    "destUrl": "https://bionikpeptides.com/products/w2-energy-performance",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "adcab9ef3e3d736f"
+  },
+  {
+    "ts": "2026-10-28T05:20:08.847Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://pepnova.uk/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "ad79393fc86b32f5"
+  },
+  {
+    "ts": "2026-10-28T05:23:05.642Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bionikpeptides.com/products/snap-8",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5ac37cae0c99b546"
+  },
+  {
+    "ts": "2026-10-28T05:23:09.599Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "snap-8",
+    "destUrl": "https://bionikpeptides.com/products/snap-8",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d69ba8a3805f2f36"
+  },
+  {
+    "ts": "2026-10-28T05:23:43.221Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://redpandapeptides.co.uk/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4371a071342702bb"
+  },
+  {
+    "ts": "2026-10-28T05:23:51.773Z",
+    "type": "product",
+    "vendorSlug": "red-panda-peptides",
+    "vendorName": "Red Panda Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://redpandapeptides.co.uk/product/bacteriostatic-water-10ml/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "efc93677e5bf5cbb"
+  },
+  {
+    "ts": "2026-10-28T05:28:10.103Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidespecialist.co.uk/product/thymosin-alpha-1-30mg-peptide-pen/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "fd720df45e4b7d81"
+  },
+  {
+    "ts": "2026-10-28T05:29:54.104Z",
+    "type": "vendor-site",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "destUrl": "https://phoenixbiolabs.net",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "23b35f2d3f284c62"
+  },
+  {
+    "ts": "2026-10-28T05:31:17.119Z",
+    "type": "product",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "compoundSlug": "hgh-191aa-the-peptide-company",
+    "destUrl": "https://fatpigpeptides.co.uk/product/hgh191aa-somatrophin/",
+    "visitorId": "530893d3b264a1fb"
   }
 ]
