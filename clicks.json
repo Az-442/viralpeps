@@ -11608,5 +11608,55 @@
     "destUrl": "https://peptidespecialist.co.uk/product/igf-1-lr3-1mg-peptide-pen/",
     "refPage": "https://www.google.com/",
     "visitorId": "bda1d5d100d5fbf3"
+  },
+  {
+    "ts": "2026-10-28T04:10:08.175Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptidespecialist.co.uk/product/igf-1-lr3-1mg-peptide-pen/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "9403a1fef370ecc8"
+  },
+  {
+    "ts": "2026-10-28T04:19:39.366Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://allmypeptides.com/product/wolverine-blend/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "b2e2c92b851edf8c"
+  },
+  {
+    "ts": "2026-10-28T04:27:13.075Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://supplypeptides.co.uk/products/igf-lr3",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a01f673c65d0cf5c"
+  },
+  {
+    "ts": "2026-10-28T04:27:31.437Z",
+    "type": "product",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://kingstonpeptides.com/en/products/wolverine-bpc-157-tb-500",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "85674153595821f1"
+  },
+  {
+    "ts": "2026-10-28T04:36:23.802Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://everythingpeptides.co.uk/products/wolverine-stack",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "7235cd00d59b0260"
   }
 ]
