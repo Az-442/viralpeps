@@ -13682,5 +13682,70 @@
     "destUrl": "https://leolab.co.uk/peptides/semax/",
     "refPage": "https://www.viralpeps.co.uk/go/leolab/semax",
     "visitorId": "0ebc1edf684c1f4a"
+  },
+  {
+    "ts": "2026-10-28T18:11:41.792Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "hgh-191aa-the-peptide-company",
+    "destUrl": "https://bionikpeptides.com/products/hgh-191aa-somatropin",
+    "visitorId": "a8fa2e5494350aca"
+  },
+  {
+    "ts": "2026-10-28T18:19:40.929Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://vialverse.com/peptides/ghrp-6",
+    "visitorId": "54dd6f1a3c72f66b"
+  },
+  {
+    "ts": "2026-10-28T18:21:18.395Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://phoenixbiolabs.net/shop/pt-141-10mg-prefilled-premixed-pen-research-compound/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f646610ce220c9b2"
+  },
+  {
+    "ts": "2026-10-28T18:24:35.723Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "d3fcdfe2b68b17f4"
+  },
+  {
+    "ts": "2026-10-28T18:24:43.067Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
+    "visitorId": "1fb350cac2a157e0"
+  },
+  {
+    "ts": "2026-10-28T18:29:49.151Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://www.expresspeptides.co.uk/product/ahk-cu/pen",
+    "visitorId": "3c764376acaa9681"
+  },
+  {
+    "ts": "2026-10-28T18:36:38.046Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://phoenixbiolabs.net/shop/bpc300-tested-99/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1b2e3ccdaec8ab18"
   }
 ]
