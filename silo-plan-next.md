@@ -1894,6 +1894,19 @@ rotation). Sitemap auto-includes via the registry (verified live: all 6 spokes p
 
 ---
 
+## ✅ DONE — SURVODUTIDE SILO (commit `05c63762` + hub tiles `ee795ddd`)
+
+- **Compound:** survodutide (BI 456906) — Tier 1, first unbuilt item in the queue.
+- **Spokes:** where-to-buy-survodutide-uk · cheapest-survodutide-uk ·
+  survodutide-price-comparison-uk · buy-survodutide-online-uk ·
+  survodutide-uk-supplier · best-survodutide-peptide
+- **Words (rendered):** 1767 / 1579 / 1540 / 1620 / 1557 / 1539
+- **Modifiers:** all 6 target modifiers returned UK results — no substitution.
+- **Wiring:** `src/data/survodutide-silo.ts` (data layer, prices live from compounds.json),
+  `src/data/survodutide-spokes.ts`, `silos.ts` registry, `/compound-guides/[slug]` compound key +
+  stats + table modes + generateStaticParams, `/compounds/[slug]` SiloTiles block. Sitemap auto.
+- **Note:** `compound-tabs.tsx` already had a verified survodutide tab entry (line 4946) — no change needed.
+
 ## Pitfalls (carry these into every build)
 
 - **Never build `/<compound>-uk`** — the hub owns it. (Error made 15 Sep 2026.)
