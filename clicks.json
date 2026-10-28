@@ -14000,5 +14000,68 @@
     "compoundSlug": "klow",
     "destUrl": "https://vialverse.com/peptides/klow-blend",
     "visitorId": "7e976132ef5ef511"
+  },
+  {
+    "ts": "2026-10-28T20:44:51.825Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://vialverse.com/peptides/bpc-157",
+    "visitorId": "c03f4fbaf774a410"
+  },
+  {
+    "ts": "2026-10-28T20:48:30.421Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "3f53352df5aee913"
+  },
+  {
+    "ts": "2026-10-28T20:48:54.717Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "visitorId": "d3effc259ace9a7c"
+  },
+  {
+    "ts": "2026-10-28T20:49:48.125Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://rawpeptides.co.uk/product/semaglutide-30mg/",
+    "visitorId": "f9cb6697f2030a3c"
+  },
+  {
+    "ts": "2026-10-28T21:00:24.690Z",
+    "type": "vendor-site",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "destUrl": "https://www.raccoonpeptides.com",
+    "visitorId": "0a58f0cae8d729ce"
+  },
+  {
+    "ts": "2026-10-28T21:08:58.360Z",
+    "type": "product",
+    "vendorSlug": "peptides-next-day",
+    "vendorName": "PeptidesNextDay",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://peptidesnextday.co.uk/product/vesugen-10mg/",
+    "visitorId": "39fb1cbed5808035"
+  },
+  {
+    "ts": "2026-10-28T21:12:24.053Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://zentra-peptides.com/product/tesamorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c4fbd829b76a9b7d"
   }
 ]
