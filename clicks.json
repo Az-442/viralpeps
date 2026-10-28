@@ -11930,5 +11930,113 @@
     "destUrl": "https://leolab.co.uk/peptides/retatrutide/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "53dd43cd74d24701"
+  },
+  {
+    "ts": "2026-10-28T06:04:21.409Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://leolab.co.uk/peptides/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "48fb6c67e02549e4"
+  },
+  {
+    "ts": "2026-10-28T06:10:12.572Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://vialverse.com/peptides/nad",
+    "visitorId": "e54f71b829a0f84c"
+  },
+  {
+    "ts": "2026-10-28T06:14:21.841Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "4c8a984f35bb1953"
+  },
+  {
+    "ts": "2026-10-28T06:19:10.407Z",
+    "type": "product",
+    "vendorSlug": "peptify-uk",
+    "vendorName": "Peptify UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://www.peptifyuk.com/product/bpc-157-tb500-blend-20mg",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0e7d0c167f42648d"
+  },
+  {
+    "ts": "2026-10-28T06:24:22.224Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f19d83d7fc82244f"
+  },
+  {
+    "ts": "2026-10-28T06:24:27.254Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "aa6cdbcd9699dae8"
+  },
+  {
+    "ts": "2026-10-28T06:24:31.236Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "aicar",
+    "destUrl": "https://vialverse.com/peptides/aicar",
+    "visitorId": "8d6cd66501ccdde1"
+  },
+  {
+    "ts": "2026-10-28T06:24:40.098Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "humanin",
+    "destUrl": "https://bionikpeptides.com/products/humanin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c7a0ef70c84f9627"
+  },
+  {
+    "ts": "2026-10-28T06:33:01.248Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://everythingpeptides.co.uk/products/wolverine-stack",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "55f95a4547c04b41"
+  },
+  {
+    "ts": "2026-10-28T06:33:03.066Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://everythingpeptides.co.uk/products/wolverine-stack",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9c92c43974395082"
+  },
+  {
+    "ts": "2026-10-28T06:38:09.193Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://bionikpeptides.com/products/gdf-8",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3262fd2544e5a803"
   }
 ]
