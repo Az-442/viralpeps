@@ -1918,3 +1918,27 @@ rotation). Sitemap auto-includes via the registry (verified live: all 6 spokes p
 - **One content cluster at a time** — don't run a silo build alongside a blog cluster push.
 - **Verify on the live URL** before reporting done (Azar's rule).
 - Competitor `peptidesupermarket.co.uk` is Cloudflare-protected — not visually verifiable.
+
+## ✅ DONE — HCG SILO (28 Oct 2026)
+
+- **Compound:** hcg — Tier 1, first unbuilt item after supervodutide/mazdutide.
+- **Spokes:** where-to-buy-hcg-uk · cheapest-hcg-uk · hcg-price-comparison-uk ·
+  buy-hcg-online-uk · hcg-supplier-uk · best-hcg-peptide
+- **Word counts:** 2,749 · 2,085 · 1,943 · 2,052 · 1,960 · 2,007 (all ≥1,200, zero overlap).
+- **Autocomplete substitutions (Google UK, 28 Oct):** every generic modifier returned an
+  EMPTY array for "hcg" — `where to buy hcg uk` 0, `hcg price comparison uk` 0,
+  `buy hcg online uk` 0, `cheapest hcg uk` 2 off-topic. Substituted with the probes that
+  DO return data: `hcg peptides uk` → `buy hcg peptides uk`; `where can i buy hcg` →
+  `where can i buy hcg peptide`; `cheapest hcg` → `cheapest hcg online`; `hcg price uk`
+  → `hcg price uk` / `hcg 5000iu price`; `buy hcg uk` → `buy hcg uk reddit`;
+  `hcg supplier uk` PASSED exact; `best hcg peptide` PASSED exact.
+- **Data:** `src/data/hcg-silo.ts` — IU-dosed model (`perIu` = price per 1,000 IU), no per-mg
+  column (hCG has no mass to divide by). Child entry `hcg-human-chorionic-gonadotropin`
+  (compareSlug "hcg") folded in. Pack labels sanitised (image URL in `dosage` → "—").
+- **Content:** `src/data/hcg-spokes.ts` + `hcg-spokes-01..06.ts` + `hcg-spokes-types.ts`.
+- **Shared-component change:** `SiloTiles` and the `/compound-guides/[slug]` stats strip +
+  `PriceTable` row mapping now fall back to `bestPerIu` / `perIuLabel` when present, so
+  IU-dosed compounds render a rate instead of "£0.00". Non-IU compounds unchanged.
+- **Rule 0 respected:** no CAS, no formula, no MW anywhere — hCG is a biological
+  (CGA P01215 + CGB P01233 heterodimer). Prescription-only status stated in all 6 spokes.
+- **Next in queue:** oxytocin-nasal-spray (Tier 1, 1 source only — verify demand before building).

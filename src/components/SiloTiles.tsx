@@ -27,11 +27,14 @@ const ICONS: Record<string, React.ReactNode> = {
 };
 
 function metricFor(metric: string, stats: SiloStats): { label: string; value: string } {
+  // IU-dosed compounds (hCG) publish bestPerIu instead of bestPerMg. Prefer it
+  // wherever it exists so the tile never renders "£0.00" from a missing field.
+  const bestRate = (stats as any).bestPerIu ?? stats.bestPerMg;
   switch (metric) {
     case "perMg":
       return {
-        label: "best per mg",
-        value: stats.bestPerMg !== null ? `£${stats.bestPerMg.toFixed(2)}` : "—",
+        label: (stats as any).bestPerIu != null ? "best per 1k IU" : "best per mg",
+        value: bestRate != null ? `£${Number(bestRate).toFixed(2)}` : "—",
       };
     case "range":
       return {

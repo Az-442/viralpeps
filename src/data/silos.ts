@@ -38,6 +38,7 @@ import { AOD_SPOKES, getAodStats, type AodStats } from "@/data/aod-9604-silo";
 import { PT141_SPOKES, getPt141Stats, type Pt141Stats } from "@/data/pt-141-silo";
 import { MAZ_SPOKES, getMazStats, type MazStats } from "@/data/mazdutide-silo";
 import { SURV_SPOKES, getSurvStats, type SurvStats } from "@/data/survodutide-silo";
+import { HCG_SPOKES, getHcgStats, type HcgStats } from "@/data/hcg-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -240,6 +241,14 @@ export const SILOS: Silo[] = [
     spokes: SURV_SPOKES as unknown as SiloSpoke[],
     getStats: () => getSurvStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "hcg",
+    name: "hCG",
+    blurb:
+      "hCG buying guides — verified UK research suppliers, lowest price per 1,000 IU, full IU price comparison, batch and CoA checks and TrustScore rankings.",
+    spokes: HCG_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getHcgStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -255,7 +264,7 @@ export function getSiloForSpoke(slug: string): { silo: Silo; spoke: SiloSpoke } 
   return null;
 }
 
-export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats, BacStats, Ss31Stats };
+export type { RetaStats, TrizStats, SemaStats, SemaxStats, SelankStats, IpamorelinStats, MotsCStats, BpcStats, IgfStats, TbStats, TesaStats, NadStats, BacStats, Ss31Stats, HcgStats };
 export type { SermorelinStats };
 export type { AodStats };
 export type { GhkStats };

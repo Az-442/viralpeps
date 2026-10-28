@@ -3,7 +3,7 @@ import Link from "next/link";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import BreadcrumbList from "@/components/BreadcrumbList";
-import PriceTable from "@/components/PriceTable";
+import PriceTable, { type PriceTableRow } from "@/components/PriceTable";
 import FeaturedSlot from "@/components/FeaturedSlot";
 import { SILOS, type SiloSpoke } from "@/data/silos";
 import { spokes as retaSpokes, getSpoke as getRetaSpoke, type Spoke } from "@/data/retatrutide-spokes";
@@ -178,6 +178,7 @@ import {
   MAZ_SPOKES,
 } from "@/data/mazdutide-silo";
 import { spokes as survSpokes, getSpoke as getSurvSpoke } from "@/data/survodutide-spokes";
+import { spokes as hcgSpokes, getSpoke as getHcgSpoke } from "@/data/hcg-spokes";
 import {
   getSurvRows,
   getSurvStats,
@@ -186,12 +187,20 @@ import {
   survSortByTrust,
   SURV_SPOKES,
 } from "@/data/survodutide-silo";
+import {
+  getHcgRows,
+  getHcgStats,
+  sortByPrice as hcgSortByPrice,
+  sortByPricePerIu as hcgSortByPricePerIu,
+  sortByTrust as hcgSortByTrust,
+  HCG_SPOKES,
+} from "@/data/hcg-silo";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
 export const revalidate = 3600;
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -214,6 +223,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   "pt-141-bremelanotide": "PT-141",
   mazdutide: "Mazdutide",
   survodutide: "Survodutide",
+  hcg: "hCG",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -258,6 +268,8 @@ function resolveSpoke(slug: string) {
   if (maz) return { spoke: maz, compound: "mazdutide" as const };
   const surv = getSurvSpoke(slug);
   if (surv) return { spoke: surv, compound: "survodutide" as const };
+  const hcg = getHcgSpoke(slug);
+  if (hcg) return { spoke: hcg, compound: "hcg" as const };
   return null;
 }
 
@@ -283,6 +295,7 @@ export async function generateStaticParams() {
     ...pt141Spokes.map((s) => ({ slug: s.slug })),
     ...mazSpokes.map((s) => ({ slug: s.slug })),
     ...survSpokes.map((s) => ({ slug: s.slug })),
+    ...hcgSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -610,6 +623,21 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "hcg") {
+    // hCG is dosed in IU, so the "perMg" mode maps to the per-1,000-IU ranking.
+    const all = getHcgRows();
+    let sorted = hcgSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg" || spoke.tableMode === "full") {
+      sorted = hcgSortByPricePerIu(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = hcgSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -670,6 +698,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? getMazStats()
                                     : compound === "survodutide"
                                       ? getSurvStats()
+                                    : compound === "hcg"
+                                      ? getHcgStats()
                                     : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
@@ -701,6 +731,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         case "pt-141-bremelanotide": return getPt141Rows();
         case "mazdutide": return getMazRows();
         case "survodutide": return getSurvRows();
+        case "hcg": return getHcgRows();
         default: return rows;
       }
     })();
@@ -729,7 +760,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
       compoundName: COMPOUND_NAMES[compound] || compound,
       pack: best.pack,
       price: best.price,
-      perMg: best.perMg,
+      perMg: ((best as any).perMg ?? (best as any).perIu ?? null) as any,
       trustScore: best.trustScore,
       rating: null,
       inStock: best.inStock,
@@ -781,6 +812,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? MAZ_SPOKES
                                     : compound === "survodutide"
                                       ? SURV_SPOKES
+                                    : compound === "hcg"
+                                      ? HCG_SPOKES
                                     : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 
@@ -905,8 +938,12 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
             { label: "Suppliers", value: String(stats.suppliers) },
             { label: "Lowest price", value: `£${stats.minPrice.toFixed(2)}` },
             {
-              label: "Best per mg",
-              value: stats.bestPerMg !== null ? `£${stats.bestPerMg.toFixed(2)}` : "—",
+              // IU-dosed compounds (hCG) publish bestPerIu instead of bestPerMg.
+              label: (stats as any).bestPerIu != null ? "Best per 1k IU" : "Best per mg",
+              value: (() => {
+                const rate = (stats as any).bestPerIu ?? (stats as any)["bestPerMg"];
+                return rate != null ? `£${Number(rate).toFixed(2)}` : "—";
+              })(),
             },
             { label: "Pack sizes", value: String(stats.packs) },
           ].map((s) => (
@@ -922,7 +959,14 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         {/* ── LIVE PRICE TABLE (shared component) ── */}
         <div id="price-table" className="mb-12">
           <PriceTable
-            rows={rows}
+            rows={
+              // hCG rows carry perIuLabel (IU-dosed) instead of perMgLabel —
+              // map it onto the shared shape so the rate column renders.
+              (rows as any[]).map((r) => ({
+                ...r,
+                perMgLabel: r.perMgLabel ?? r.perIuLabel ?? "—",
+              })) as unknown as PriceTableRow[]
+            }
             heading={spoke.tableHeading}
             compoundSlug={compound}
             bestKey={bestKey}
