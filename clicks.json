@@ -13323,5 +13323,92 @@
     "compoundSlug": "ipamorelin",
     "destUrl": "https://www.proformapeptides.co.uk/product/ipamorelin-10mg/",
     "visitorId": "08ae844bdf777ef1"
+  },
+  {
+    "ts": "2026-10-28T14:15:42.855Z",
+    "type": "vendor-site",
+    "vendorSlug": "claripep",
+    "vendorName": "Claripep",
+    "destUrl": "https://claripep.co.uk",
+    "visitorId": "26302c0b94034e0d"
+  },
+  {
+    "ts": "2026-10-28T14:22:26.342Z",
+    "type": "product",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
+    "visitorId": "b5d9bc4bdaaaff24"
+  },
+  {
+    "ts": "2026-10-28T14:24:31.043Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidespecialist.co.uk/product/bacteriostatic-water/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "ac0883ddb78cff22"
+  },
+  {
+    "ts": "2026-10-28T14:29:05.929Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bionikpeptides.com/products/thymosin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "3fe03f955edf5573"
+  },
+  {
+    "ts": "2026-10-28T14:29:12.465Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://bionikpeptides.com/products/thymosin",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "50e14a373656c63b"
+  },
+  {
+    "ts": "2026-10-28T14:29:28.603Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://peptidespecialist.co.uk/product/bacteriostatic-water/",
+    "refPage": "https://www.google.com/",
+    "visitorId": "54d388d2cc4fa37e"
+  },
+  {
+    "ts": "2026-10-28T14:34:48.913Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://britishpeptidelabs.com/products/bpc-157-tb-500-mix",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "8c6c1fc0018e1e24"
+  },
+  {
+    "ts": "2026-10-28T14:37:13.411Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://mypepbiotech.co.uk/product/bpc-157-tb-500-20mg-vial-wolverine-stack/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "1009e063d2acc281"
+  },
+  {
+    "ts": "2026-10-28T14:41:08.306Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-wolverine-stack-research-blend-bpc-157-10mg-tb500-10mg-total-20mg-research-material-for-laboratory-use-only/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "279995d73e60accc"
   }
 ]
