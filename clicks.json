@@ -15334,5 +15334,115 @@
     "compoundSlug": "thymulin",
     "destUrl": "https://vialverse.com/peptides/thymulin",
     "visitorId": "3dfea9b7555b6ee2"
+  },
+  {
+    "ts": "2026-10-29T04:57:51.614Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://peptidespecialist.co.uk/product/the-wolverine-stack-bpc-157-tb-500/",
+    "visitorId": "5c1519d0848b362b"
+  },
+  {
+    "ts": "2026-10-29T04:57:52.298Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://trutide.co.uk/product/wolverine/",
+    "visitorId": "e11f5089a873f4b3"
+  },
+  {
+    "ts": "2026-10-29T04:57:52.711Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://allmypeptides.com/product/wolverine-blend/",
+    "visitorId": "7c46e00c592a4cdd"
+  },
+  {
+    "ts": "2026-10-29T04:57:52.764Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://pepnova.uk/",
+    "visitorId": "e26f0f6dd8dd9c05"
+  },
+  {
+    "ts": "2026-10-29T05:10:12.603Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://xlpeptides.com/product/tesamorelin-5mg/",
+    "visitorId": "654413e9fbe2170b"
+  },
+  {
+    "ts": "2026-10-29T05:11:00.031Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://vialverse.com/peptides/mots-c",
+    "visitorId": "9505f8e1ab1ae11f"
+  },
+  {
+    "ts": "2026-10-29T05:13:03.243Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://precision-peptides.shop/product/selank-10mg/",
+    "visitorId": "81c28877cf90756d"
+  },
+  {
+    "ts": "2026-10-29T05:13:08.573Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://precision-peptides.shop/product/selank-10mg/",
+    "visitorId": "86230ad5d293706b"
+  },
+  {
+    "ts": "2026-10-29T05:13:14.387Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://precision-peptides.shop/product/selank-10mg/",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-29T05:15:03.848Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://leolab.co.uk/peptides/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "984dfdf59439817e"
+  },
+  {
+    "ts": "2026-10-29T05:15:07.550Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://leolab.co.uk/peptides/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "5b6eabc42dbde370"
+  },
+  {
+    "ts": "2026-10-29T05:25:39.325Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/research-peptide-uk",
+    "visitorId": "9a4cdbd4b1074e38"
   }
 ]
