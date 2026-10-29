@@ -18448,5 +18448,14 @@
     "destUrl": "https://leolab.co.uk/peptides/kpv/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "23caeafd12fc1d7d"
+  },
+  {
+    "ts": "2026-10-29T21:25:21.890Z",
+    "type": "product",
+    "vendorSlug": "peptidehub",
+    "vendorName": "PeptideHub",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidehub.co.uk/product/selank-5mg/",
+    "visitorId": "c2fe245c5bc65637"
   }
 ]
