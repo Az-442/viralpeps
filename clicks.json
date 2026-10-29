@@ -18180,5 +18180,135 @@
     "compoundSlug": "dsip",
     "destUrl": "https://precision-peptides.shop/product/dsip-delta-sleep-inducing-peptide-5mg/",
     "visitorId": "65ae57f3adb600c5"
+  },
+  {
+    "ts": "2026-10-29T19:38:47.751Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://precision-peptides.shop/product/dsip-delta-sleep-inducing-peptide-5mg/",
+    "visitorId": "da762ad4150c09e6"
+  },
+  {
+    "ts": "2026-10-29T19:38:50.757Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "dsip",
+    "destUrl": "https://precision-peptides.shop/product/dsip-delta-sleep-inducing-peptide-5mg/",
+    "visitorId": "dccaa814ba1184b3"
+  },
+  {
+    "ts": "2026-10-29T19:40:51.368Z",
+    "type": "vendor-site",
+    "vendorSlug": "astra-labs",
+    "vendorName": "Astra Labs",
+    "destUrl": "https://astralabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/astra-labs",
+    "visitorId": "b2d4484cfbc140a3"
+  },
+  {
+    "ts": "2026-10-29T19:42:06.202Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9c5d994e6a0cc02d"
+  },
+  {
+    "ts": "2026-10-29T19:42:12.721Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://leolab.co.uk/peptides/aod-9604/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c11f7e030b376c52"
+  },
+  {
+    "ts": "2026-10-29T19:52:13.934Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f57dae3229e50e9f"
+  },
+  {
+    "ts": "2026-10-29T19:52:17.604Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://leolab.co.uk/peptides/ghrp-6/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "28c71a94dc987a0a"
+  },
+  {
+    "ts": "2026-10-29T19:55:00.825Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "502dd9b496b93163"
+  },
+  {
+    "ts": "2026-10-29T19:55:03.418Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "c9b25d79f1cdf535"
+  },
+  {
+    "ts": "2026-10-29T19:55:08.459Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/34-ghk-cu-50mg.html",
+    "visitorId": "42cc7614a7fb226c"
+  },
+  {
+    "ts": "2026-10-29T20:03:55.274Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+    "visitorId": "749f7a705d8a535b"
+  },
+  {
+    "ts": "2026-10-29T20:04:09.538Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "klow",
+    "destUrl": "https://alphamino.co.uk/shop/klow-stack/",
+    "visitorId": "d0546ea152d6269e"
+  },
+  {
+    "ts": "2026-10-29T20:06:16.988Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://everythingpeptides.co.uk/products/tirzepatide",
+    "visitorId": "32a5124afbe06b91"
+  },
+  {
+    "ts": "2026-10-29T20:16:20.497Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial",
+    "visitorId": "f3d5f5ce5e0e078b"
   }
 ]
