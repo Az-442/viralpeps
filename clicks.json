@@ -18484,5 +18484,68 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
     "visitorId": "8b0f05a78581df62"
+  },
+  {
+    "ts": "2026-10-29T22:08:45.314Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/",
+    "visitorId": "8b0f05a78581df62"
+  },
+  {
+    "ts": "2026-10-29T22:10:04.405Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://novavitality.co.uk/product/sermorelin/",
+    "visitorId": "6667d85e59f7c82e"
+  },
+  {
+    "ts": "2026-10-29T22:14:52.748Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "0800a40697a2ecae"
+  },
+  {
+    "ts": "2026-10-29T22:14:54.837Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "0800a40697a2ecae"
+  },
+  {
+    "ts": "2026-10-29T22:22:16.871Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://helixcore.co.uk/products/sermorelin",
+    "visitorId": "b38e3346fde7c6bb"
+  },
+  {
+    "ts": "2026-10-29T22:30:22.894Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptides",
+    "vendorName": "UK Peptides",
+    "destUrl": "https://ukpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/uk-peptides",
+    "visitorId": "29f20cdda7756670"
+  },
+  {
+    "ts": "2026-10-29T22:38:26.477Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://midshirelabs.co.uk/products/amino-1mq-t/",
+    "visitorId": "e35f2ee6518c7c87"
   }
 ]
