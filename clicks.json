@@ -17137,5 +17137,124 @@
     "destUrl": "https://leolab.co.uk/peptides/cjc-1295-with-dac/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "deaeb44c6c029c49"
+  },
+  {
+    "ts": "2026-10-29T15:27:30.694Z",
+    "type": "vendor-site",
+    "vendorSlug": "united-peptides",
+    "vendorName": "United Peptides",
+    "destUrl": "https://unitedpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/united-peptides",
+    "visitorId": "b477cefe36005901"
+  },
+  {
+    "ts": "2026-10-29T15:28:23.474Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://vialverse.com/peptides/cjc-1295-no-dac",
+    "visitorId": "8943c4da82b40751"
+  },
+  {
+    "ts": "2026-10-29T15:30:30.293Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg",
+    "visitorId": "e2dc87bdecf6ea14"
+  },
+  {
+    "ts": "2026-10-29T15:30:33.112Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg",
+    "visitorId": "686b082263ee0c10"
+  },
+  {
+    "ts": "2026-10-29T15:30:36.541Z",
+    "type": "product",
+    "vendorSlug": "be-better-peptides",
+    "vendorName": "Be Better Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bebetterpeptides.com/products/5-amino-1mq-5mg",
+    "visitorId": "af939959d6a2a45e"
+  },
+  {
+    "ts": "2026-10-29T15:38:35.570Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://tidelabs.co.uk/products/igf1-lr3-1mg",
+    "visitorId": "0daf14b5218d2da6"
+  },
+  {
+    "ts": "2026-10-29T15:40:35.037Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptideslabuk.com/product/mt-2-melanotan-2-acetate/",
+    "visitorId": "6c816fcbc34c620d"
+  },
+  {
+    "ts": "2026-10-29T15:40:36.181Z",
+    "type": "vendor-site",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "destUrl": "https://appliedpeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/applied-peptides",
+    "visitorId": "f1170fc8d2936f8f"
+  },
+  {
+    "ts": "2026-10-29T15:40:37.303Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptideslabuk.com/product/mt-2-melanotan-2-acetate/",
+    "visitorId": "488ec44e93680a4b"
+  },
+  {
+    "ts": "2026-10-29T15:40:42.062Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptideslabuk.com/product/mt-2-melanotan-2-acetate/",
+    "visitorId": "ed968f73feda5664"
+  },
+  {
+    "ts": "2026-10-29T15:40:52.453Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptideslabuk.com/product/mt-2-melanotan-2-acetate/",
+    "visitorId": "68c90d1b6b38c7cf"
+  },
+  {
+    "ts": "2026-10-29T15:52:56.340Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://peptidespecialist.co.uk/product/thymosin-alpha-1-30mg-peptide-pen/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "0ae95bbe195da541"
+  },
+  {
+    "ts": "2026-10-29T16:04:09.345Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "selank",
+    "destUrl": "https://peptidespecialist.co.uk/product/selank/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "67bc01402bd1a79d"
   }
 ]
