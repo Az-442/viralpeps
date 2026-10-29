@@ -16745,5 +16745,58 @@
     "destUrl": "https://peptidespecialist.co.uk/product/nad/",
     "refPage": "https://www.viralpeps.co.uk",
     "visitorId": "70ca2cb14c4f3657"
+  },
+  {
+    "ts": "2026-10-29T12:55:08.878Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "destUrl": "https://peptideslabuk.com",
+    "visitorId": "9c702d88abf753d9"
+  },
+  {
+    "ts": "2026-10-29T13:06:01.221Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-7",
+    "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-29T13:06:05.387Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-7",
+    "visitorId": "a1d1b6d892645c7c"
+  },
+  {
+    "ts": "2026-10-29T13:06:10.302Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "gonadorelin",
+    "destUrl": "https://bionikpeptides.com/products/ghrp-7",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-29T13:16:04.470Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin-cjc-1295-bundle/",
+    "visitorId": "e17e0c18b871cc15"
+  },
+  {
+    "ts": "2026-10-29T13:22:26.323Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/24-cjc-1295-no-dac-10mg.html",
+    "visitorId": "527536d429295550"
   }
 ]
