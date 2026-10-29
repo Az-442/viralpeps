@@ -16122,5 +16122,95 @@
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://pgnalabs.co.uk/product/igf-1lr3",
     "visitorId": "4b68c76b23c4a05c"
+  },
+  {
+    "ts": "2026-10-29T09:28:35.998Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://xlpeptides.com/product/ipamorelin/",
+    "visitorId": "d4545bfe6d8b16d9"
+  },
+  {
+    "ts": "2026-10-29T09:29:49.159Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/selank/",
+    "visitorId": "396b1868770cb6f2"
+  },
+  {
+    "ts": "2026-10-29T09:38:11.789Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://bionikpeptides.com/products/semaglutide",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-29T09:38:23.328Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://bionikpeptides.com/products/semaglutide",
+    "visitorId": "6066e8ccf69361af"
+  },
+  {
+    "ts": "2026-10-29T09:48:58.396Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "destUrl": "https://peptidespecialist.co.uk",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "3a821373ea3b98ec"
+  },
+  {
+    "ts": "2026-10-29T09:50:18.422Z",
+    "type": "product",
+    "vendorSlug": "tide-labs",
+    "vendorName": "Tide Labs",
+    "compoundSlug": "pinealon",
+    "destUrl": "https://tidelabs.co.uk/products/pinealon-research-peptide",
+    "visitorId": "91b46cd4399649a4"
+  },
+  {
+    "ts": "2026-10-29T09:51:18.127Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://vialverse.com/peptides/matrixyl",
+    "visitorId": "54a55777dc3f135e"
+  },
+  {
+    "ts": "2026-10-29T09:51:31.976Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "matrixyl-3000",
+    "destUrl": "https://vialverse.com/peptides/matrixyl",
+    "visitorId": "cae5edb0e66e3c0c"
+  },
+  {
+    "ts": "2026-10-29T09:51:32.337Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "teriparatide",
+    "destUrl": "https://vialverse.com/peptides/teriparatide",
+    "visitorId": "8e7317374f3c8502"
+  },
+  {
+    "ts": "2026-10-29T10:09:13.265Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/79-tb-500-10mg.html",
+    "visitorId": "3a33f0a48ea2033d"
   }
 ]
