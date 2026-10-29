@@ -2084,6 +2084,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["hcg", "price-per-iu", "uk", "sourcing", "suppliers", "certificate-of-analysis", "glycoprotein", "research-hub"],
   },
+
+  {
+    title: "GHRP-2 Research Guide: The Peptide That Became a Blood Test",
+    desc: "GHRP-2's evidence base is diagnostic, not therapeutic. The 4.5-fold vs 79-fold GHRH-receptor result, the five-day attenuation study, and the 3x potency myth.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "GHRP-2",
+    slug: "ghrp-2-research-guide",
+    image: "ghrp-2-research-guide",
+    minutes: 13,
+    tags: ["ghrp-2", "pralmorelin", "growth-hormone", "ghrelin-receptor", "ghs-r1a", "pituitary-testing", "research-hub", "peptide-research"],
+  },
+
+  {
+    title: "GHRP-2 UK Price Per mg: £1.00 to £4.45, One Premium Trick",
+    desc: "33 UK listings but only 27 state a mass. Sticker prices span 5.7x and per-mg just 4.5x, and one vendor sells the same 5mg vial at two very different prices.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "GHRP-2",
+    slug: "ghrp-2-uk-price-guide",
+    image: "ghrp-2-uk-price-guide",
+    minutes: 12,
+    tags: ["ghrp-2", "pralmorelin", "price-comparison", "cost-per-milligram", "vial-size", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
