@@ -14311,5 +14311,40 @@
     "compoundSlug": "mazdutide",
     "destUrl": "https://www.raccoonpeptides.com/peptides/49-mazdutide-10mg.html",
     "visitorId": "772fdb084c9e878d"
+  },
+  {
+    "ts": "2026-10-28T23:38:16.511Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+    "visitorId": "c930385a600b2720"
+  },
+  {
+    "ts": "2026-10-28T23:43:01.265Z",
+    "type": "product",
+    "vendorSlug": "spx-labs",
+    "vendorName": "SPX Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://spxlabs.co.uk/product/tesamorelin-uk-10mg/",
+    "visitorId": "4d7ef43d2b000d3a"
+  },
+  {
+    "ts": "2026-10-28T23:57:22.871Z",
+    "type": "vendor-site",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "destUrl": "https://vialverse.com",
+    "visitorId": "5cdcc958351d99de"
+  },
+  {
+    "ts": "2026-10-29T00:06:40.065Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "tesamorelin-ipamorelin",
+    "destUrl": "https://vialverse.com/peptides/tesamorelin-ipamorelin",
+    "visitorId": "d6e3f7a82dbb342b"
   }
 ]
