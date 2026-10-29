@@ -16654,5 +16654,86 @@
     "compoundSlug": "glutathione",
     "destUrl": "https://vialverse.com/peptides/glutathione",
     "visitorId": "e01047fd50bffa01"
+  },
+  {
+    "ts": "2026-10-29T12:10:22.703Z",
+    "type": "vendor-site",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "destUrl": "https://rawpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/raw-peptides",
+    "visitorId": "44da56b1dfc9289f"
+  },
+  {
+    "ts": "2026-10-29T12:13:30.651Z",
+    "type": "vendor-site",
+    "vendorSlug": "flex-peptides",
+    "vendorName": "Flex Peptides",
+    "destUrl": "https://www.flexpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/flex-peptides",
+    "visitorId": "ef39e5011b95f519"
+  },
+  {
+    "ts": "2026-10-29T12:14:09.393Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://pioneerpeptides.co.uk/products/sermorelin-acetate/",
+    "visitorId": "93dbf70a5f1cd648"
+  },
+  {
+    "ts": "2026-10-29T12:20:25.202Z",
+    "type": "vendor-site",
+    "vendorSlug": "kings-bio-labs",
+    "vendorName": "Kings BioLabs",
+    "destUrl": "https://www.kingsbiolabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/kings-bio-labs",
+    "visitorId": "149abc53a7d2aba5"
+  },
+  {
+    "ts": "2026-10-29T12:21:20.266Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://evolvepeptides.uk/products/melanotan-10mg",
+    "visitorId": "f44c33e67b6d81fe"
+  },
+  {
+    "ts": "2026-10-29T12:21:23.438Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://evolvepeptides.uk/products/melanotan-10mg",
+    "visitorId": "ad276da0c692d34d"
+  },
+  {
+    "ts": "2026-10-29T12:21:26.449Z",
+    "type": "product",
+    "vendorSlug": "evolve-peptides",
+    "vendorName": "Evolve Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://evolvepeptides.uk/products/melanotan-10mg",
+    "visitorId": "fde9b6d3c2bed92a"
+  },
+  {
+    "ts": "2026-10-29T12:35:01.880Z",
+    "type": "product",
+    "vendorSlug": "op-labs",
+    "vendorName": "OP Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://oplabs.co.uk/product/bacteriostatic-water-10ml/",
+    "visitorId": "6e0a63864b1100e6"
+  },
+  {
+    "ts": "2026-10-29T12:36:36.638Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "glow",
+    "destUrl": "https://ukpeptidelab.co.uk/product/glow",
+    "visitorId": "338328b6b55bbb55"
   }
 ]
