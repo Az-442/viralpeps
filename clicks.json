@@ -14405,5 +14405,44 @@
     "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound-copy/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "36ae7b8b6e4d6e4e"
+  },
+  {
+    "ts": "2026-10-29T01:37:41.096Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "cjc-1295-with-dac",
+    "destUrl": "https://phoenixbiolabs.net/shop/cjc-with-dac-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a5f5a5366fd755e2"
+  },
+  {
+    "ts": "2026-10-29T01:55:02.366Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://phoenixbiolabs.net/shop/5-amino-1mq/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "f8422f8f5f4516d3"
+  },
+  {
+    "ts": "2026-10-29T01:56:45.971Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "kpv",
+    "destUrl": "https://vialverse.com/peptides/kpv",
+    "refPage": "https://www.viralpeps.co.uk/go/vialverse/kpv",
+    "visitorId": "649be94ac235ebf8"
+  },
+  {
+    "ts": "2026-10-29T02:08:24.722Z",
+    "type": "product",
+    "vendorSlug": "peptidesx",
+    "vendorName": "PeptidesX",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.peptidesx.uk/product/ghk-cu/",
+    "visitorId": "c9cc4ab7c9502295"
   }
 ]
