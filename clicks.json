@@ -15682,5 +15682,125 @@
     "compoundSlug": "dsip",
     "destUrl": "https://helixcore.co.uk/products/dsip",
     "visitorId": "b036ac2f8aac30c5"
+  },
+  {
+    "ts": "2026-10-29T06:40:37.978Z",
+    "type": "vendor-site",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "destUrl": "https://www.northpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/north-peptides-uk",
+    "visitorId": "2792a7365ef83bec"
+  },
+  {
+    "ts": "2026-10-29T06:45:13.190Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://www.peptidesonline.uk/shop/bpc-157/",
+    "visitorId": "e1f1c2b2e384822c"
+  },
+  {
+    "ts": "2026-10-29T06:47:49.882Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "mots-c-40mg",
+    "destUrl": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
+    "visitorId": "8371dfad4671ba9a"
+  },
+  {
+    "ts": "2026-10-29T06:54:52.046Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptidespecialist.co.uk/product/mots-c/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "639821dbdbd65e08"
+  },
+  {
+    "ts": "2026-10-29T06:55:20.462Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://precision-peptides.shop/product/bpc-tb500-10mg-blend/",
+    "visitorId": "da17def630b8c81d"
+  },
+  {
+    "ts": "2026-10-29T06:55:24.541Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://precision-peptides.shop/product/bpc-tb500-10mg-blend/",
+    "visitorId": "bdbf09604ea044c6"
+  },
+  {
+    "ts": "2026-10-29T07:03:01.269Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://evapeptide.co.uk/product/buy-hgh-fragment-176-191-uk/",
+    "visitorId": "caafba8ba79a8b43"
+  },
+  {
+    "ts": "2026-10-29T07:03:06.088Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://evapeptide.co.uk/product/buy-hgh-fragment-176-191-uk/",
+    "visitorId": "1a2c84c569d3110d"
+  },
+  {
+    "ts": "2026-10-29T07:03:10.275Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://evapeptide.co.uk/product/buy-hgh-fragment-176-191-uk/",
+    "visitorId": "d1247cf580e4d81c"
+  },
+  {
+    "ts": "2026-10-29T07:03:55.799Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "19d555a4e74a21f7"
+  },
+  {
+    "ts": "2026-10-29T07:04:09.785Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0787f437d7bb417a"
+  },
+  {
+    "ts": "2026-10-29T07:05:45.417Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-5-amino-1-mq-50mg-research-only-peptide-for-laboratory-use-only/",
+    "visitorId": "dc1d606ac48e910e"
+  },
+  {
+    "ts": "2026-10-29T07:14:34.430Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://vialverse.com/peptides/ghk-cu",
+    "visitorId": "f32b9379caff9fcd"
   }
 ]
