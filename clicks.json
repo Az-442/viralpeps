@@ -17404,5 +17404,178 @@
     "compoundSlug": "igf-1-lr3",
     "destUrl": "https://peptidespecialist.co.uk/product/igf-1-lr3-1mg-peptide-pen/",
     "visitorId": "f076d2e594b77c10"
+  },
+  {
+    "ts": "2026-10-29T17:24:18.226Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://vialverse.com/peptides/ss-31",
+    "visitorId": "70e9e819857441e7"
+  },
+  {
+    "ts": "2026-10-29T17:27:31.410Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://phoenixbiolabs.net/shop/5-amino-1mq/",
+    "visitorId": "5f1ed3e70dcefb6a"
+  },
+  {
+    "ts": "2026-10-29T17:27:45.561Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://phoenixbiolabs.net/shop/5-amino-1mq/",
+    "visitorId": "9d2483e67c59c000"
+  },
+  {
+    "ts": "2026-10-29T17:29:27.649Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "visitorId": "72d9d6b0005eaea4"
+  },
+  {
+    "ts": "2026-10-29T17:29:35.191Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "visitorId": "09b5552e088a0694"
+  },
+  {
+    "ts": "2026-10-29T17:29:39.256Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://bioplexpeptides.co.uk/products/5-amino-1mq-5mg-methyl-iodide",
+    "visitorId": "1535fb186cedf471"
+  },
+  {
+    "ts": "2026-10-29T17:31:35.016Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/sermorelin/",
+    "visitorId": "68512bb0f3bba1aa"
+  },
+  {
+    "ts": "2026-10-29T17:31:35.185Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "visitorId": "7fc7aa752d967d9a"
+  },
+  {
+    "ts": "2026-10-29T17:31:36.943Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "visitorId": "a4c1abeb8b87af43"
+  },
+  {
+    "ts": "2026-10-29T17:31:39.138Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/56-nad-500mg.html",
+    "visitorId": "ceeb634b5eea5d71"
+  },
+  {
+    "ts": "2026-10-29T17:31:49.294Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/sermorelin/",
+    "visitorId": "2d9301f8e5ed84cb"
+  },
+  {
+    "ts": "2026-10-29T17:34:37.699Z",
+    "type": "vendor-site",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "destUrl": "https://ascendpeptidesuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/ascend-peptides",
+    "visitorId": "f4b5873831b50349"
+  },
+  {
+    "ts": "2026-10-29T17:39:44.739Z",
+    "type": "vendor-site",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "destUrl": "https://biotideuk.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/biotide-uk",
+    "visitorId": "a036b058773ddfa0"
+  },
+  {
+    "ts": "2026-10-29T17:41:43.155Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://precision-peptides.shop/product/5-amino-1mq-50mg/",
+    "visitorId": "8bd2783627114c45"
+  },
+  {
+    "ts": "2026-10-29T17:41:45.312Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://precision-peptides.shop/product/5-amino-1mq-50mg/",
+    "visitorId": "5a642a36ed7acd25"
+  },
+  {
+    "ts": "2026-10-29T17:41:47.972Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://precision-peptides.shop/product/5-amino-1mq-50mg/",
+    "visitorId": "070c5e782e0a10a3"
+  },
+  {
+    "ts": "2026-10-29T17:44:34.998Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7092efdc33d97e4e"
+  },
+  {
+    "ts": "2026-10-29T17:44:44.555Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://midshirelabs.co.uk/products/epithalon/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "bda2fd6e02570e8e"
+  },
+  {
+    "ts": "2026-10-29T17:47:44.298Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://vialverse.com/peptides/ghrp-2",
+    "visitorId": "9e7fff41cc3537c5"
   }
 ]
