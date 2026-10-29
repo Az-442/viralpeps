@@ -18385,5 +18385,68 @@
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://biopeptides-uk.com/product/5-amino-1mq-5mg/",
     "visitorId": "528a24187f34ea94"
+  },
+  {
+    "ts": "2026-10-29T20:54:02.210Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://vialverse.com/peptides/retatrutide",
+    "visitorId": "05650d03e24aa579"
+  },
+  {
+    "ts": "2026-10-29T21:02:39.158Z",
+    "type": "vendor-site",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "destUrl": "https://evapeptide.co.uk",
+    "visitorId": "521748354b1fd14d"
+  },
+  {
+    "ts": "2026-10-29T21:04:02.177Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pgnalabs.co.uk/product/mt-2",
+    "visitorId": "e33b815172310ca9"
+  },
+  {
+    "ts": "2026-10-29T21:06:35.279Z",
+    "type": "product",
+    "vendorSlug": "british-peptide-labs",
+    "vendorName": "British Peptide Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://britishpeptidelabs.com/products/pt-141",
+    "visitorId": "10f296dfe142a888"
+  },
+  {
+    "ts": "2026-10-29T21:07:06.296Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/melanotan-ii-10mg/",
+    "visitorId": "b2bae1620673c522"
+  },
+  {
+    "ts": "2026-10-29T21:15:17.136Z",
+    "type": "vendor-site",
+    "vendorSlug": "anglo-peptides",
+    "vendorName": "Anglo Peptides",
+    "destUrl": "https://anglopeptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/anglo-peptides",
+    "visitorId": "bcafaffc4e63c923"
+  },
+  {
+    "ts": "2026-10-29T21:21:48.784Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://leolab.co.uk/peptides/kpv/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "23caeafd12fc1d7d"
   }
 ]
