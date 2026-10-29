@@ -16086,5 +16086,41 @@
     "compoundSlug": "tesamorelin-10mg",
     "destUrl": "https://purepeptidesuk.com/product/tesamorelin-10mg/",
     "visitorId": "37963e8ab7bbedd0"
+  },
+  {
+    "ts": "2026-10-29T09:09:48.577Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/hgh-frag-176-191-2mg",
+    "visitorId": "e245a620c2e3b4c7"
+  },
+  {
+    "ts": "2026-10-29T09:10:11.228Z",
+    "type": "product",
+    "vendorSlug": "xl-peptides",
+    "vendorName": "XL Peptides",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://xlpeptides.com/product/oxytocin-2mg/",
+    "visitorId": "64ae5403d24e1341"
+  },
+  {
+    "ts": "2026-10-29T09:18:22.704Z",
+    "type": "vendor-site",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "destUrl": "https://www.expresspeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/express-peptides",
+    "visitorId": "aa447f289a5cfa60"
+  },
+  {
+    "ts": "2026-10-29T09:27:29.783Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://pgnalabs.co.uk/product/igf-1lr3",
+    "visitorId": "4b68c76b23c4a05c"
   }
 ]
