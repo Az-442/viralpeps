@@ -18310,5 +18310,80 @@
     "compoundSlug": "sermorelin",
     "destUrl": "https://www.expresspeptides.co.uk/product/sermorelin-acetate/vial",
     "visitorId": "f3d5f5ce5e0e078b"
+  },
+  {
+    "ts": "2026-10-29T20:18:25.997Z",
+    "type": "vendor-site",
+    "vendorSlug": "arma-peptides",
+    "vendorName": "Arma Peptides",
+    "destUrl": "https://armapeptideshop.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/arma-peptides",
+    "visitorId": "29bd2b12bc96ea61"
+  },
+  {
+    "ts": "2026-10-29T20:20:23.082Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://novavitality.co.uk/product/l-carnitine/",
+    "visitorId": "36fb3292204c9e0d"
+  },
+  {
+    "ts": "2026-10-29T20:21:29.362Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://vialverse.com/peptides/cjc-1295-no-dac",
+    "visitorId": "7802f64e53f03ab9"
+  },
+  {
+    "ts": "2026-10-29T20:21:52.936Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://allmypeptides.com/product/tb-500/",
+    "visitorId": "6271fdbe03fc462d"
+  },
+  {
+    "ts": "2026-10-29T20:30:13.331Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "fdfbe3b10345fb7c"
+  },
+  {
+    "ts": "2026-10-29T20:30:14.610Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://mypepbiotech.co.uk/product/semaglutide-20mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e26f0f6dd8dd9c05"
+  },
+  {
+    "ts": "2026-10-29T20:40:28.918Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://olresearch.co.uk/product/copper-ghk-cu-50mg/",
+    "refPage": "https://viralpeps.co.uk/",
+    "visitorId": "afa2bb37f5e07bf3"
+  },
+  {
+    "ts": "2026-10-29T20:48:53.057Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://biopeptides-uk.com/product/5-amino-1mq-5mg/",
+    "visitorId": "528a24187f34ea94"
   }
 ]
