@@ -14356,5 +14356,54 @@
     "destUrl": "https://bionikpeptides.com/products/pe-22-28",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "0570ab5638fc3dfa"
+  },
+  {
+    "ts": "2026-10-29T00:55:19.820Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "pe-22-28",
+    "destUrl": "https://bionikpeptides.com/products/pe-22-28",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "29fa762f3c0176fc"
+  },
+  {
+    "ts": "2026-10-29T01:15:45.618Z",
+    "type": "product",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.revexa.co.uk/product-page/kpv-10mg",
+    "visitorId": "d3c2f98833f1e4bd"
+  },
+  {
+    "ts": "2026-10-29T01:22:09.954Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-super-stack",
+    "destUrl": "https://bionikpeptides.com/products/weight-loss",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0c546956c9e6cefa"
+  },
+  {
+    "ts": "2026-10-29T01:22:11.990Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "bundle-super-stack",
+    "destUrl": "https://bionikpeptides.com/products/weight-loss",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "49b9d404a5a0f3b6"
+  },
+  {
+    "ts": "2026-10-29T01:35:06.695Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound-copy/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "36ae7b8b6e4d6e4e"
   }
 ]
