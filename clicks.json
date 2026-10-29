@@ -15581,5 +15581,97 @@
     "compoundSlug": "sermorelin",
     "destUrl": "https://ascendpeptidesuk.com/products/sermorelin-5mg/",
     "visitorId": "4921302b22ffcece"
+  },
+  {
+    "ts": "2026-10-29T05:57:10.878Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://ascendpeptidesuk.com/products/sermorelin-5mg/",
+    "visitorId": "5bc917ef2b400a41"
+  },
+  {
+    "ts": "2026-10-29T05:57:28.210Z",
+    "type": "product",
+    "vendorSlug": "ascend-peptides",
+    "vendorName": "Ascend Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://ascendpeptidesuk.com/products/sermorelin-5mg/",
+    "visitorId": "6e0fa0f211ab447e"
+  },
+  {
+    "ts": "2026-10-29T06:03:37.905Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "follistatin-344",
+    "destUrl": "https://bionikpeptides.com/products/follistatin",
+    "refPage": "https://www.viralpeps.co.uk/go/bionik-peptides/follistatin-344",
+    "visitorId": "790237c524c6762d"
+  },
+  {
+    "ts": "2026-10-29T06:04:05.926Z",
+    "type": "product",
+    "vendorSlug": "peptide-shop-uk",
+    "vendorName": "Peptide Shop UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://peptidesshopuk.com/product/mt2-10mg/",
+    "visitorId": "eaefa93824116333"
+  },
+  {
+    "ts": "2026-10-29T06:04:06.129Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://helixcore.co.uk/products/mt-1",
+    "visitorId": "fe3d49bbce8686d4"
+  },
+  {
+    "ts": "2026-10-29T06:15:15.253Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptidespecialist.co.uk/product/5-amino-1mq/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d13317ef9fb9d7f6"
+  },
+  {
+    "ts": "2026-10-29T06:15:24.972Z",
+    "type": "vendor-site",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "destUrl": "https://www.kensingtonlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/kensington-labs",
+    "visitorId": "8ac4a74fdbcbea02"
+  },
+  {
+    "ts": "2026-10-29T06:18:19.032Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://pyroxlabs.co.uk/product/melanotan-ii-10mg/",
+    "visitorId": "efa5d6feb9a5e35c"
+  },
+  {
+    "ts": "2026-10-29T06:24:51.314Z",
+    "type": "product",
+    "vendorSlug": "imperial-peptides",
+    "vendorName": "Imperial Peptides UK",
+    "compoundSlug": "kpv",
+    "destUrl": "https://www.imperialpeptides.co.uk/products/kpv-10mg",
+    "visitorId": "6bcff31be95f24c1"
+  },
+  {
+    "ts": "2026-10-29T06:35:50.989Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "adamax",
+    "destUrl": "https://vialverse.com/peptides/adamax",
+    "visitorId": "e03001e235bc11e4"
   }
 ]
