@@ -15993,5 +15993,89 @@
     "compoundSlug": "bac-water-10ml-the-peptide-company",
     "destUrl": "https://thepeptidecompany.co.uk/product/10ml-bacteriostatic-water/",
     "visitorId": "4bb14bfd667cea90"
+  },
+  {
+    "ts": "2026-10-29T07:50:44.482Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "dsip",
+    "destUrl": "https://ukpeptidelab.co.uk/product/dsip",
+    "visitorId": "0d521d2d5819c519"
+  },
+  {
+    "ts": "2026-10-29T07:51:44.982Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://bluewellpeptides.com/product/bpc-157-tb-500-20mg-blend/",
+    "visitorId": "da17def630b8c81d"
+  },
+  {
+    "ts": "2026-10-29T07:55:43.392Z",
+    "type": "product",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://zentra-peptides.com/product/ahk-cu/",
+    "refPage": "https://www.google.com.hk/",
+    "visitorId": "7256e8e16c733b4e"
+  },
+  {
+    "ts": "2026-10-29T07:55:43.410Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://biotideuk.com/products/tirzepatide",
+    "refPage": "https://www.google.com.hk/",
+    "visitorId": "713f8684e2b39d35"
+  },
+  {
+    "ts": "2026-10-29T08:06:04.064Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://helixcore.co.uk/products/5-amino-1mq",
+    "visitorId": "acdcccca2f932955"
+  },
+  {
+    "ts": "2026-10-29T08:06:11.999Z",
+    "type": "product",
+    "vendorSlug": "biotide-uk",
+    "vendorName": "BioTide UK",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://biotideuk.com/products/ahk-cu-100-mg",
+    "refPage": "https://www.google.com.hk/",
+    "visitorId": "74e5eb65d113c59d"
+  },
+  {
+    "ts": "2026-10-29T08:07:12.338Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "vip",
+    "destUrl": "https://crownpeptides.co.uk/shop/research-peptides/vip/",
+    "visitorId": "8f83ebb84eba6f1d"
+  },
+  {
+    "ts": "2026-10-29T08:11:22.552Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "slu-pp-332",
+    "destUrl": "https://vialverse.com/peptides/slu-pp-332",
+    "visitorId": "7c529a9469f52aea"
+  },
+  {
+    "ts": "2026-10-29T08:22:22.508Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu-100mg-the-peptide-company",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "visitorId": "bcd8cf93795d13e0"
   }
 ]
