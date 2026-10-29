@@ -17577,5 +17577,142 @@
     "compoundSlug": "ghrp-2",
     "destUrl": "https://vialverse.com/peptides/ghrp-2",
     "visitorId": "9e7fff41cc3537c5"
+  },
+  {
+    "ts": "2026-10-29T17:51:48.267Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "94771f6840ac2918"
+  },
+  {
+    "ts": "2026-10-29T17:51:49.613Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "d0b1c63cfe659fb9"
+  },
+  {
+    "ts": "2026-10-29T17:51:53.023Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/14-ara-290-16mg.html",
+    "visitorId": "8aa6d39022a4c873"
+  },
+  {
+    "ts": "2026-10-29T17:52:28.751Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a6a033244ab158a4"
+  },
+  {
+    "ts": "2026-10-29T17:52:34.068Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://leolab.co.uk/peptides/ss-31/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "800a1bc715a7a511"
+  },
+  {
+    "ts": "2026-10-29T17:52:39.575Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "dsip",
+    "destUrl": "https://vialverse.com/peptides/dsip",
+    "visitorId": "c69715e05be55873"
+  },
+  {
+    "ts": "2026-10-29T18:00:07.920Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "visitorId": "660364a764d49778"
+  },
+  {
+    "ts": "2026-10-29T18:00:12.908Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "visitorId": "bdbf09604ea044c6"
+  },
+  {
+    "ts": "2026-10-29T18:00:17.822Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "destUrl": "https://www.peptidepal.co.uk",
+    "visitorId": "0b173ade02507f75"
+  },
+  {
+    "ts": "2026-10-29T18:01:54.298Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "thymosin-alpha1-vial-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/thymosin-alpha-1/vial",
+    "visitorId": "f7a6228975c4d96e"
+  },
+  {
+    "ts": "2026-10-29T18:03:02.152Z",
+    "type": "product",
+    "vendorSlug": "hipeptides",
+    "vendorName": "HiPeptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://hipeptides.co.uk/catalog/igf-1-lr3",
+    "visitorId": "5f7b4e30a4aa6f02"
+  },
+  {
+    "ts": "2026-10-29T18:03:41.464Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://cmsrlabs.co/product/semaglutide-10mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7510140a4bd07335"
+  },
+  {
+    "ts": "2026-10-29T18:05:30.399Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "67b23e835417be52"
+  },
+  {
+    "ts": "2026-10-29T18:05:34.486Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "thymulin",
+    "destUrl": "https://midshirelabs.co.uk/products/thymulin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9e37f136c1311986"
+  },
+  {
+    "ts": "2026-10-29T18:18:01.523Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-vesugen/",
+    "visitorId": "b29e3f0bc56c2087"
   }
 ]
