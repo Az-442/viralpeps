@@ -23005,5 +23005,41 @@
     "compoundSlug": "melanotan-ii",
     "destUrl": "https://www.peptidepal.co.uk/products/mt2",
     "visitorId": "828b33a33d7d1a7a"
+  },
+  {
+    "ts": "2026-10-30T10:00:24.307Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bioplexpeptides.co.uk/products/adipotide-5mg-ftpp",
+    "visitorId": "86305632a4972ff0"
+  },
+  {
+    "ts": "2026-10-30T10:14:03.401Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://everythingpeptides.co.uk/products/l-carnitine",
+    "visitorId": "915b1d34badd3d37"
+  },
+  {
+    "ts": "2026-10-30T10:22:33.835Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "l-carnitine",
+    "destUrl": "https://www.expresspeptides.co.uk/product/l-carnitine/vial",
+    "visitorId": "6cab2edcf9d65219"
+  },
+  {
+    "ts": "2026-10-30T10:25:36.673Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://momentumpeptides.com/product/melanotan-2-10-mg/",
+    "visitorId": "4f81dfb2596105c0"
   }
 ]
