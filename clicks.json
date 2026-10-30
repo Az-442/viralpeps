@@ -24013,5 +24013,114 @@
     "destUrl": "https://oplabs.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/op-labs",
     "visitorId": "934eed60eca192bc"
+  },
+  {
+    "ts": "2026-10-30T15:32:55.387Z",
+    "type": "product",
+    "vendorSlug": "momentum-peptides",
+    "vendorName": "Momentum Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://momentumpeptides.com/product/retatrutide/",
+    "visitorId": "e47f90942942d75f"
+  },
+  {
+    "ts": "2026-10-30T15:33:28.897Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "selank",
+    "destUrl": "https://supplypeptides.co.uk/products/selank",
+    "visitorId": "911c67df375524c8"
+  },
+  {
+    "ts": "2026-10-30T15:38:55.425Z",
+    "type": "vendor-site",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "destUrl": "https://ukpeptidelab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/uk-peptide-lab",
+    "visitorId": "591519a6d3f2f8e9"
+  },
+  {
+    "ts": "2026-10-30T15:41:50.866Z",
+    "type": "product",
+    "vendorSlug": "peptx",
+    "vendorName": "PeptX",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://peptx.co.uk/single-vials/mots-c",
+    "visitorId": "05073c33c3289afe"
+  },
+  {
+    "ts": "2026-10-30T15:41:58.653Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/ss-31-10mg/",
+    "visitorId": "16e6e96429326269"
+  },
+  {
+    "ts": "2026-10-30T15:50:05.527Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "glow",
+    "destUrl": "https://vialverse.com/peptides/glow-blend",
+    "visitorId": "840075c68e563b9f"
+  },
+  {
+    "ts": "2026-10-30T15:58:16.523Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "62f0123e8f900855"
+  },
+  {
+    "ts": "2026-10-30T15:58:18.494Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "6b6f9bef42fb3495"
+  },
+  {
+    "ts": "2026-10-30T15:58:22.117Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "6b4c877edb7baf6a"
+  },
+  {
+    "ts": "2026-10-30T15:58:25.409Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "32848a0733977f9b"
+  },
+  {
+    "ts": "2026-10-30T15:58:28.253Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/63-retatrutide-10mg.html",
+    "visitorId": "32848a0733977f9b"
+  },
+  {
+    "ts": "2026-10-30T16:03:51.618Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://jgpeptidesplus.com/product/semaglutide-10mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "978c3eca4861565b"
   }
 ]
