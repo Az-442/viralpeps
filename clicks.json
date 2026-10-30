@@ -23438,5 +23438,122 @@
     "compoundSlug": "dsip",
     "destUrl": "https://www.peptidesonline.uk/shop/dsip/",
     "visitorId": "69e5e8d642a0b092"
+  },
+  {
+    "ts": "2026-10-30T12:22:52.708Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "klow",
+    "destUrl": "https://vialverse.com/peptides/klow-blend",
+    "visitorId": "ac5df98b7d069474"
+  },
+  {
+    "ts": "2026-10-30T12:22:55.222Z",
+    "type": "product",
+    "vendorSlug": "peptides-online-uk",
+    "vendorName": "Peptides Online UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.peptidesonline.uk/shop/dsip/",
+    "visitorId": "641604afaa56fd22"
+  },
+  {
+    "ts": "2026-10-30T12:24:30.839Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "semax",
+    "destUrl": "https://helixcore.co.uk/products/semax",
+    "visitorId": "02b15f18c21ffb28"
+  },
+  {
+    "ts": "2026-10-30T12:30:43.389Z",
+    "type": "product",
+    "vendorSlug": "port-peptides",
+    "vendorName": "Port Peptides",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://portpeptides.co.uk/peptides/bacteriostatic-water/",
+    "visitorId": "dd2abf97090b19f6"
+  },
+  {
+    "ts": "2026-10-30T12:30:44.328Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.northpeptidesuk.com/products/tirzepatide/",
+    "visitorId": "50fe06d253a47eca"
+  },
+  {
+    "ts": "2026-10-30T12:33:36.077Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://helixcore.co.uk/products/ara-290",
+    "visitorId": "589700f99d0228d7"
+  },
+  {
+    "ts": "2026-10-30T12:34:56.196Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "oxytocin",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/oxytocin-10mg/",
+    "visitorId": "640bec1491c3c709"
+  },
+  {
+    "ts": "2026-10-30T12:41:40.250Z",
+    "type": "product",
+    "vendorSlug": "precision-peptides",
+    "vendorName": "Precision Peptides",
+    "compoundSlug": "klow",
+    "destUrl": "https://precision-peptides.shop/product/klow-80mg/",
+    "visitorId": "ff4edc22659fa1fa"
+  },
+  {
+    "ts": "2026-10-30T12:42:13.600Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "kpv",
+    "destUrl": "https://helixcore.co.uk/products/kpv",
+    "visitorId": "a51dfc6287d7dfe8"
+  },
+  {
+    "ts": "2026-10-30T12:47:56.932Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://researchpeptide.co.uk/product/gdf-8/",
+    "visitorId": "5c1519d0848b362b"
+  },
+  {
+    "ts": "2026-10-30T12:47:59.812Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "gdf-8",
+    "destUrl": "https://researchpeptide.co.uk/product/gdf-8/",
+    "visitorId": "a4c1abeb8b87af43"
+  },
+  {
+    "ts": "2026-10-30T12:51:19.143Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "foxo4-dr1",
+    "destUrl": "https://pioneerpeptides.co.uk/products/foxo4-dri/",
+    "visitorId": "e7e007b1f7a02616"
+  },
+  {
+    "ts": "2026-10-30T12:53:58.937Z",
+    "type": "product",
+    "vendorSlug": "everything-peptides",
+    "vendorName": "Everything Peptides",
+    "compoundSlug": "melanotan-i",
+    "destUrl": "https://everythingpeptides.co.uk/products/mt1-melanotan-1-acetate-peptide-vials",
+    "visitorId": "34bdd7ff691e339d"
   }
 ]
