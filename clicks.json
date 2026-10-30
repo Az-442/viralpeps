@@ -23159,5 +23159,122 @@
     "compoundSlug": "ghrp-2",
     "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin",
     "visitorId": "7610bc89ec47a4d6"
+  },
+  {
+    "ts": "2026-10-30T11:12:23.377Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "a124f2767f67c4fe"
+  },
+  {
+    "ts": "2026-10-30T11:12:26.256Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "e4c8f74a1e91aa3d"
+  },
+  {
+    "ts": "2026-10-30T11:12:28.546Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "5512908c5d02f251"
+  },
+  {
+    "ts": "2026-10-30T11:12:36.965Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "17141cd1dd798947"
+  },
+  {
+    "ts": "2026-10-30T11:12:41.977Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ll-37",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ll-37-5mg-cathelicidin",
+    "visitorId": "69e6cffc9be6dd76"
+  },
+  {
+    "ts": "2026-10-30T11:12:42.501Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/86-tirzepatide-10mg.html",
+    "visitorId": "17141cd1dd798947"
+  },
+  {
+    "ts": "2026-10-30T11:13:28.771Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://phoenixbiolabs.net/shop/lr3-1mg-research-compound/",
+    "visitorId": "2b46150d7bec4f46"
+  },
+  {
+    "ts": "2026-10-30T11:20:32.514Z",
+    "type": "vendor-site",
+    "vendorSlug": "zentra-peptides",
+    "vendorName": "Zentra Peptides UK",
+    "destUrl": "https://zentra-peptides.com",
+    "refPage": "https://www.viralpeps.co.uk/vendors/zentra-peptides",
+    "visitorId": "828b33a33d7d1a7a"
+  },
+  {
+    "ts": "2026-10-30T11:22:05.830Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://helixcore.co.uk/products/bacteriostatic-water",
+    "visitorId": "01abfece31a3a1d1"
+  },
+  {
+    "ts": "2026-10-30T11:22:21.610Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "tb-500",
+    "destUrl": "https://bioplexpeptides.co.uk/products/tb500-10mg-thymosin-beta-4",
+    "visitorId": "47be46b878d69f35"
+  },
+  {
+    "ts": "2026-10-30T11:28:37.973Z",
+    "type": "product",
+    "vendorSlug": "kensington-labs",
+    "vendorName": "Kensington Labs UK",
+    "compoundSlug": "dsip",
+    "destUrl": "https://www.kensingtonlabs.co.uk/product/dsip-5mg/",
+    "visitorId": "77ab0be99275b545"
+  },
+  {
+    "ts": "2026-10-30T11:30:45.457Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://helixcore.co.uk/products/aod-9604",
+    "visitorId": "cb703be9107a4919"
+  },
+  {
+    "ts": "2026-10-30T11:32:23.254Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "fragment-176-191",
+    "destUrl": "https://bioplexpeptides.co.uk/products/hgh-fragment-176-191-5mg-ghrp",
+    "visitorId": "816b75e59263e62b"
   }
 ]
