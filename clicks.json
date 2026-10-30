@@ -24325,5 +24325,86 @@
     "vendorName": "PeptideLabUK",
     "destUrl": "https://peptidelabuk.co.uk",
     "visitorId": "4554294e7764fae5"
+  },
+  {
+    "ts": "2026-10-30T17:57:07.994Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.peptidepal.co.uk/products/bacteriostatic-water",
+    "visitorId": "72ea7638a682687e"
+  },
+  {
+    "ts": "2026-10-30T17:57:10.023Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.peptidepal.co.uk/products/bacteriostatic-water",
+    "visitorId": "853e9cbc55c120f8"
+  },
+  {
+    "ts": "2026-10-30T17:57:13.235Z",
+    "type": "product",
+    "vendorSlug": "peptide-pal",
+    "vendorName": "Peptide Pal",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://www.peptidepal.co.uk/products/bacteriostatic-water",
+    "visitorId": "ac28699f57c07afb"
+  },
+  {
+    "ts": "2026-10-30T17:57:28.153Z",
+    "type": "product",
+    "vendorSlug": "peptides-next-day",
+    "vendorName": "PeptidesNextDay",
+    "compoundSlug": "sermorelin-grf-1-29-5mg",
+    "destUrl": "https://peptidesnextday.co.uk/product/sermorelin-grf-1-29-5mg/",
+    "visitorId": "4c5dc7d8624cb453"
+  },
+  {
+    "ts": "2026-10-30T18:01:15.092Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html",
+    "visitorId": "76f8825779c19f18"
+  },
+  {
+    "ts": "2026-10-30T18:01:16.909Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html",
+    "visitorId": "a43b65de0961598f"
+  },
+  {
+    "ts": "2026-10-30T18:01:23.893Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/42-ipamorelin-10mg.html",
+    "visitorId": "eb28e7d15f20575c"
+  },
+  {
+    "ts": "2026-10-30T18:08:09.999Z",
+    "type": "product",
+    "vendorSlug": "hipeptides",
+    "vendorName": "HiPeptides",
+    "compoundSlug": "kpv",
+    "destUrl": "https://hipeptides.co.uk/catalog/kpv",
+    "visitorId": "23ae1a64c5481c7b"
+  },
+  {
+    "ts": "2026-10-30T18:23:31.736Z",
+    "type": "product",
+    "vendorSlug": "allmypeptides",
+    "vendorName": "AllMyPeptides",
+    "compoundSlug": "cjc-1295-ipamorelin-blend",
+    "destUrl": "https://allmypeptides.com/product/cjc-1295-(no-dac)/",
+    "visitorId": "6e3524c8255ed6c5"
   }
 ]
