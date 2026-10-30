@@ -22914,5 +22914,78 @@
     "destUrl": "https://hipeptides.co.uk/catalog/thymalin",
     "refPage": "https://www.google.com/",
     "visitorId": "276bd46281829f49"
+  },
+  {
+    "ts": "2026-10-30T08:45:53.410Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "bpc-157-5mg",
+    "destUrl": "https://alphamino.co.uk/shop/bpc/",
+    "visitorId": "1a77f885ad2d1262"
+  },
+  {
+    "ts": "2026-10-30T08:49:07.628Z",
+    "type": "product",
+    "vendorSlug": "vialverse",
+    "vendorName": "VialVerse",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://vialverse.com/peptides/ss-31",
+    "visitorId": "b063b9e91cbf5979"
+  },
+  {
+    "ts": "2026-10-30T08:51:52.654Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "mazdutide",
+    "destUrl": "https://peptidesuk4u.co.uk/product/mazdutide-10mg",
+    "visitorId": "8b1bc209dd5893f7"
+  },
+  {
+    "ts": "2026-10-30T08:58:07.565Z",
+    "type": "product",
+    "vendorSlug": "port-peptides",
+    "vendorName": "Port Peptides",
+    "compoundSlug": "cjc-1295-ipamorelin",
+    "destUrl": "https://portpeptides.co.uk/peptides/cjc-ipa-no-dac/",
+    "visitorId": "82b11ddda64c80e3"
+  },
+  {
+    "ts": "2026-10-30T09:00:15.830Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://www.expresspeptides.co.uk/product/igf1-des/vial",
+    "visitorId": "1aa6c7d2947e362a"
+  },
+  {
+    "ts": "2026-10-30T09:05:44.285Z",
+    "type": "product",
+    "vendorSlug": "jgpeptidesplus",
+    "vendorName": "JGPep+",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://jgpeptidesplus.com/product/ghk-cu-50mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "172d475cdc246058"
+  },
+  {
+    "ts": "2026-10-30T09:13:09.225Z",
+    "type": "product",
+    "vendorSlug": "research-peptides-uk-main",
+    "vendorName": "Research Peptides",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/ipamorelin-2mg",
+    "visitorId": "6dc66cf582c613b2"
+  },
+  {
+    "ts": "2026-10-30T09:16:46.408Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://nupex.co.uk/products/nad-supplement-uk-research-grade-peptide",
+    "visitorId": "d8bdee34732664a1"
   }
 ]
