@@ -5654,5 +5654,57 @@
       },
       "checkedAt": "2026-10-26T01:34:09.946Z"
     }
+  },
+  {
+    "id": "total-peptides",
+    "name": "Total Peptides",
+    "slug": "total-peptides",
+    "website": "https://totalpeptides.uk",
+    "rating": null,
+    "verified": false,
+    "founded": null,
+    "country": "UK",
+    "description": "UK research peptide supplier and the trading name of Total Peptides Limited (Companies House no. 17454125). Peptides are supplied strictly for laboratory and in-vitro research use only — never for human or veterinary consumption — and every order requires a research-use confirmation at checkout. Product pages carry per-compound purity and storage detail, and batch summary cards are published on the Lab Reports page. Orders placed before 2pm Monday–Friday are dispatched the same working day from a UK dispatch point via Royal Mail Tracked, usually arriving in 1–3 working days, with a free re-ship guarantee if a parcel does not arrive. Payment is by bank via Open Banking, approved inside your own banking app.",
+    "highlights": [
+      "UK company — Total Peptides Limited, Companies House no. 17454125",
+      "Strictly in-vitro laboratory research use only — research-use confirmation at checkout",
+      "Royal Mail Tracked on every order",
+      "Same-day dispatch on orders before 2pm Mon–Fri",
+      "Free UK delivery over £50 (£4.99 flat below that)",
+      "Free re-ship guarantee if a tracked order does not arrive",
+      "Batch summary cards published on the Lab Reports page",
+      "Pay by bank via Open Banking — approved in your own banking app"
+    ],
+    "shipping": [
+      "Same-day dispatch on orders placed before 2pm Mon–Fri",
+      "Royal Mail Tracked on every order",
+      "£4.99 flat rate, free UK delivery over £50",
+      "Usually delivered within 1–3 working days",
+      "UK addresses only — no international shipping",
+      "Free re-ship if tracking shows no movement 3 working days past expected delivery"
+    ],
+    "payment": [
+      "Pay by bank via Open Banking"
+    ],
+    "lastTested": "",
+    "labTested": true,
+    "email": "info@totalpeptides.uk",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "coa",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-10-30T16:12:18.995Z"
+    }
   }
 ]

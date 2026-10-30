@@ -60,7 +60,7 @@ const peptideCount = PEPTIDE_COUNT;
 const verifiedCount = vendors.filter((v) => v.verified).length;
 const freeShippingCount = vendors.filter((v) => v.shipping?.some((s) => s.toLowerCase().includes("free"))).length;
 const labTestedCount = vendors.filter((v) => v.labTested).length;
-const avgRating = (vendors.reduce((sum, v) => sum + v.rating, 0) / vendors.length).toFixed(1);
+const avgRating = (vendors.reduce((sum, v) => sum + (v.rating ?? 0), 0) / vendors.length).toFixed(1);
 
 export default function VendorsPage() {
   const [search, setSearch] = useState("");
