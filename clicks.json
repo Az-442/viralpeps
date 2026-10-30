@@ -20286,5 +20286,200 @@
     "compoundSlug": "aod-9604",
     "destUrl": "https://chromapeptides.co.uk/product/aod-9604/",
     "visitorId": "dfa7105b54f633dc"
+  },
+  {
+    "ts": "2026-10-30T03:31:30.438Z",
+    "type": "product",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://www.researchpeptides.co.uk/product-page/sermorelin-2mg",
+    "visitorId": "85e642b88e1e910b"
+  },
+  {
+    "ts": "2026-10-30T03:33:08.618Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6077372ca7c6ad50"
+  },
+  {
+    "ts": "2026-10-30T03:33:11.464Z",
+    "type": "product",
+    "vendorSlug": "nupex",
+    "vendorName": "Nupex",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://nupex.co.uk/products/ghk-cu-peptide-research",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "49e830fca92a30d0"
+  },
+  {
+    "ts": "2026-10-30T03:33:30.022Z",
+    "type": "vendor-site",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "destUrl": "https://peptigenlabs.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/peptigen-labs",
+    "visitorId": "75a4bc398e3e214d"
+  },
+  {
+    "ts": "2026-10-30T03:36:48.866Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "5fd0c89f08bd9868"
+  },
+  {
+    "ts": "2026-10-30T03:36:56.864Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://leolab.co.uk/peptides/bpc-157/",
+    "visitorId": "1634b8d0a9acf6c2"
+  },
+  {
+    "ts": "2026-10-30T03:39:50.670Z",
+    "type": "product",
+    "vendorSlug": "peptides-next-day",
+    "vendorName": "PeptidesNextDay",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidesnextday.co.uk/product/bpc-157-5mg/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "d4448f876e0cda54"
+  },
+  {
+    "ts": "2026-10-30T03:44:42.027Z",
+    "type": "product",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://www.prime-peptides.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "57107aaeba526e1c"
+  },
+  {
+    "ts": "2026-10-30T03:45:02.540Z",
+    "type": "product",
+    "vendorSlug": "applied-peptides",
+    "vendorName": "Applied Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://appliedpeptides.com/store/ols/products/tesamorelin-10mg",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "1a4b9dbc1d4daad3"
+  },
+  {
+    "ts": "2026-10-30T03:45:50.969Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "visitorId": "9d3d2e70e754e68f"
+  },
+  {
+    "ts": "2026-10-30T03:45:56.972Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "visitorId": "a9f67f9d32e38eb6"
+  },
+  {
+    "ts": "2026-10-30T03:50:29.917Z",
+    "type": "product",
+    "vendorSlug": "supply-peptides",
+    "vendorName": "SupplyPeptides",
+    "compoundSlug": "semax",
+    "destUrl": "https://supplypeptides.co.uk/products/semax",
+    "visitorId": "afe4965d41777fc2"
+  },
+  {
+    "ts": "2026-10-30T03:52:50.434Z",
+    "type": "product",
+    "vendorSlug": "hipeptides",
+    "vendorName": "HiPeptides",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://hipeptides.co.uk/catalog/ghrp-6",
+    "visitorId": "fb202669038c110c"
+  },
+  {
+    "ts": "2026-10-30T03:52:50.476Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://apexpure.co.uk/product/ghrp-6-uk/",
+    "visitorId": "6e108fe8e3fe337a"
+  },
+  {
+    "ts": "2026-10-30T03:53:01.040Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://apexpure.co.uk/product/ghrp-6-uk/",
+    "visitorId": "210a1daef6576dbe"
+  },
+  {
+    "ts": "2026-10-30T03:53:18.490Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "ghrp-6",
+    "destUrl": "https://apexpure.co.uk/product/ghrp-6-uk/",
+    "visitorId": "fc668c14de7dba96"
+  },
+  {
+    "ts": "2026-10-30T03:53:47.916Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://evapeptide.co.uk/product/buy-thymosin-alpha-1-uk/",
+    "visitorId": "528a24187f34ea94"
+  },
+  {
+    "ts": "2026-10-30T03:53:51.319Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://evapeptide.co.uk/product/buy-thymosin-alpha-1-uk/",
+    "visitorId": "1ec33c7fabaef1de"
+  },
+  {
+    "ts": "2026-10-30T03:53:54.315Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://evapeptide.co.uk/product/buy-thymosin-alpha-1-uk/",
+    "visitorId": "d0bf89088c589752"
+  },
+  {
+    "ts": "2026-10-30T03:54:43.322Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://chromapeptides.co.uk/product/ghk-cu/",
+    "visitorId": "7a8551498df4845b"
+  },
+  {
+    "ts": "2026-10-30T03:57:53.340Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://midshirelabs.co.uk/products/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "d0045d8d1823a49f"
   }
 ]
