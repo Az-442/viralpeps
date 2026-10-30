@@ -10,6 +10,33 @@
  *
  * Only suppliers verified by ViralPeps get a score. Optional data-position:
  * bottom-right (default) | bottom-left | top-right | top-left.
+ *
+ * ---------------------------------------------------------------------------
+ * CRAWLABLE BACKLINK (v3 — 30 Oct 2026)
+ * ---------------------------------------------------------------------------
+ * v2 put its only outbound <a> inside the hover card, which is display:none
+ * until a user hovers. A link that only exists in the live DOM after a JS
+ * interaction is weak-to-invisible for crawlers.
+ *
+ * v3 fixes that two ways:
+ *
+ * 1. STATIC ANCHOR — the moment this script executes it inserts a real
+ *    <a href="https://www.viralpeps.co.uk/vendors/SLUG"> into the page body,
+ *    in normal flow, with `rel="noopener"` only (NOT nofollow, NOT sponsored).
+ *    It is present in the rendered DOM immediately, needs no hover, is a
+ *    followable link, and carries descriptive anchor text.
+ *
+ * 2. NOSCRIPT FALLBACK — a <noscript> copy of the same anchor is inserted too,
+ *    so the link is present even when JavaScript is disabled or fails.
+ *
+ * Why not server-rendered HTML? The installer pastes a <script> tag, so there
+ * is no HTML of ours on their page. The script executes in <head> (it is
+ * `defer`, so effectively before DOMContentLoaded) and must therefore wait for
+ * <body> itself. `defer` guarantees parentNode === <head> here.
+ *
+ * The anchor is deliberately visible-but-subtle (footer credit), NOT hidden:
+ * hidden links are treated as deceptive by Google and can earn a manual action
+ * against BOTH sites.
  */
 (function () {
   var script = document.currentScript;
@@ -17,13 +44,58 @@
   var position = (script && script.getAttribute("data-position")) || "bottom-right";
 
   if (!supplier) {
-    console.warn("[TrustScore] Missing data-supplier attribute. Example:", 
+    console.warn("[TrustScore] Missing data-supplier attribute. Example:",
       '<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="uk-peptides" defer></script>');
     return;
   }
 
   var BASE = "https://www.viralpeps.co.uk";
+  var PROFILE_URL = BASE + "/vendors/" + encodeURIComponent(supplier);
   var API = BASE + "/api/trust-score?slug=" + encodeURIComponent(supplier);
+
+  function injectStaticBacklink(scoreText) {
+    // Real, crawlable <a href> in normal document flow. rel="noopener" only —
+    // this link IS meant to pass equity, so no nofollow / sponsored.
+    var a = document.createElement("a");
+    a.href = PROFILE_URL;
+    a.className = "ts-static-backlink";
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener");
+    a.setAttribute("aria-label",
+      "Verified research supplier profile: independent TrustScore from ViralPeps");
+    a.textContent = scoreText
+      ? "Verified research supplier \u2014 independent TrustScore " + scoreText + " on ViralPeps"
+      : "Verified research supplier \u2014 independent TrustScore on ViralPeps";
+    // Visible but unobtrusive: a footer credit line, not a hidden link.
+    a.style.cssText =
+      "display:block;position:relative;z-index:1;margin:10px auto;" +
+      "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;" +
+      "font-size:11px;line-height:1.5;color:#6b7280;text-decoration:none;text-align:center;" +
+      "max-width:520px;padding:0 12px;";
+    a.addEventListener("mouseenter", function () { a.style.textDecoration = "underline"; });
+    a.addEventListener("mouseleave", function () { a.style.textDecoration = "none"; });
+
+    // <noscript> copy — present even if JS never runs on a later page load.
+    var ns = document.createElement("noscript");
+    ns.innerHTML = '<a href="' + PROFILE_URL + '" rel="noopener">' +
+      'Verified research supplier \u2014 independent TrustScore on ViralPeps</a>';
+
+    // The script is `defer`, so it runs with parentNode === <head>. Append to
+    // <body> when it exists, otherwise wait for DOMContentLoaded.
+    function place() {
+      var mount = document.body || document.documentElement;
+      mount.appendChild(a);
+      mount.appendChild(ns);
+      a.setAttribute("data-ts-backlink", "1");
+    }
+    if (document.body) {
+      place();
+    } else if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", place);
+    } else {
+      place();
+    }
+  }
 
   var posStyles = {
     "bottom-right": { bottom: "18px", right: "18px" },
@@ -56,6 +128,9 @@
   styleEl.textContent = css;
   (document.head || document.documentElement).appendChild(styleEl);
 
+  // Static backlink first — it must not depend on the API call succeeding.
+  injectStaticBacklink(null);
+
   // Fetch the score
   fetch(API)
     .then(function (r) { return r.json(); })
@@ -72,10 +147,16 @@
   function render(data) {
     var isVerified = data.domainVerified === true || data.embedEnabled === true;
 
+    // Upgrade the static backlink with the real score once it is known.
+    var existing = document.querySelector("a.ts-static-backlink");
+    if (existing && data.score) {
+      existing.textContent = "Verified research supplier \u2014 independent TrustScore " +
+        data.score + "/" + data.max + " on ViralPeps";
+    }
+
     // Floating badge
     var badge = document.createElement("div");
     badge.id = "tsBadge";
-    var ticks = Array.isArray(data.ticks) ? data.ticks.length : 0;
     badge.innerHTML =
       shieldSVG(26) +
       '<span>TrustScore&nbsp;<b>' + data.score + '</b>/' + data.max + '</span>' +
