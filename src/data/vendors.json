@@ -4444,6 +4444,8 @@
     ],
     "lastTested": "2026-09-30",
     "labTested": true,
+    "domainVerified": true,
+    "embedEnabled": true,
     "contactNote": "Contact page publishes service@jgpeptidesplus.com, WhatsApp +44 7438 930755 (described as the fastest response route), an affiliate portal and a contact form; response time stated as within 24 hours Mon-Fri. Organization JSON-LD on the site also lists email service@jgpeptidesplus.com and address Nobel House, 4 Queensway, Redhill, RH1 1TY, United Kingdom. Catalogue pages state JGPep+ UK fulfilment. Individual product pages confirm payment routes (Stripe card or Fena Open Banking) and 'Research use only - not for human use'. Terms/returns/FAQ pages available.",
     "_autoChecks": {
       "live": true,
