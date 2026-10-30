@@ -24157,5 +24157,14 @@
     "vendorName": "Total Peptides",
     "destUrl": "https://totalpeptides.uk",
     "visitorId": "51fca493fee61c95"
+  },
+  {
+    "ts": "2026-10-30T17:09:33.155Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://peptideslabuk.com/product/igf-1lr3/",
+    "visitorId": "b2f91c33fd2cb7a7"
   }
 ]
