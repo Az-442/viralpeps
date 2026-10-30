@@ -3384,5 +3384,63 @@
       "coa": "certificate of analys",
       "review": null
     }
+  },
+  "molexa": {
+    "slug": "molexa",
+    "website": "https://molexa.co.uk",
+    "checkedAt": "2026-10-30T16:33:23.273Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "third-party test",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "home - molexa"
+    },
+    "product": {
+      "fetched": true,
+      "coa": null,
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 5,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracking",
+      "coa": "coa",
+      "review": null
+    }
+  },
+  "elite-peptides": {
+    "slug": "elite-peptides",
+    "website": "https://elitepeptides.uk",
+    "checkedAt": "2026-10-30T16:33:36.606Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "third-party test",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "home - elitepeptides"
+    },
+    "product": {
+      "fetched": true,
+      "coa": null,
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 5,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracking",
+      "coa": "coa",
+      "review": null
+    }
   }
 }
