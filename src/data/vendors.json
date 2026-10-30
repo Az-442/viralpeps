@@ -3276,25 +3276,24 @@
     "verified": false,
     "founded": 2025,
     "country": "UK",
-    "description": "UK-based research peptide supplier offering an HPLC & MS tested range of laboratory-grade compounds for in-vitro research use only. Every batch is independently third-party tested to ≥98% RP-HPLC purity with public batch certificates and lot-specific Certificates of Analysis on request. Core-range chromatograms are published online. Dispatched same-working-day (order before 1pm Mon–Fri) from UK domestic stock via Royal Mail Tracked 24, with free UK shipping over £100. Real-human WhatsApp/email support.",
+    "description": "UK supplier of research peptides and calibrated peptide pens for in-vitro laboratory research use only. Every vial and pen is clearly labelled with its strength and batch number. Supplier batch summary cards are available on our Quality page.",
     "highlights": [
-      "HPLC & MS tested — ≥98% purity guaranteed",
-      "Public 3rd-party analytical batch certificates",
-      "Lot-specific COA on request",
-      "Same-day dispatch (order before 1pm Mon–Fri)",
-      "Free UK shipping over £100 (Royal Mail Tracked 24)",
-      "UK domestic stock — no customs delays",
-      "Real human UK support (WhatsApp/email)"
+      "UK supplier of research peptides and calibrated peptide pens",
+      "In-vitro laboratory research use only",
+      "Every vial and pen labelled with strength and batch number",
+      "Supplier batch summary cards on the Quality page",
+      "Same-day dispatch on weekday orders before 2pm",
+      "Royal Mail Tracked — free UK delivery over £75",
+      "Pay by Bank (Fena) and bank transfer"
     ],
     "shipping": [
-      "UK Royal Mail Tracked 24 (same-day dispatch before 1pm Mon-Fri, free over £100)"
+      "Same-day dispatch on weekday orders placed before 2pm",
+      "Royal Mail Tracked",
+      "Free UK delivery over £75"
     ],
     "payment": [
-      "Cards (Stripe)",
-      "Open Banking (Fena)",
-      "Direct Bank Transfer (BACS)",
-      "Apple Pay",
-      "Google Pay"
+      "Pay by Bank (Fena)",
+      "Bank transfer"
     ],
     "lastTested": "",
     "labTested": true,
@@ -3314,7 +3313,9 @@
         "contact": "contact"
       },
       "checkedAt": "2026-10-22T00:38:12.207Z"
-    }
+    },
+    "email": "contact@mypepbiotech.co.uk",
+    "phone": "07377 162602"
   },
   {
     "id": "leolab",
