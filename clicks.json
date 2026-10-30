@@ -20194,5 +20194,97 @@
     "compoundSlug": "snap-8",
     "destUrl": "https://peptidesnextday.co.uk/product/snap-8-10mg/",
     "visitorId": "eefa53ea905785d8"
+  },
+  {
+    "ts": "2026-10-30T03:07:53.876Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "7cee9aa75c1320b7"
+  },
+  {
+    "ts": "2026-10-30T03:07:58.002Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://leolab.co.uk/peptides/sermorelin/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ea4f83d969f01766"
+  },
+  {
+    "ts": "2026-10-30T03:14:07.470Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/85-thymulin-10mg.html",
+    "visitorId": "c77a9723a59b97dd"
+  },
+  {
+    "ts": "2026-10-30T03:14:10.727Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/85-thymulin-10mg.html",
+    "visitorId": "6ca7fb6a0f3e3a04"
+  },
+  {
+    "ts": "2026-10-30T03:14:13.487Z",
+    "type": "product",
+    "vendorSlug": "raccoon-peptides",
+    "vendorName": "Raccoon Peptides",
+    "compoundSlug": "thymalin",
+    "destUrl": "https://www.raccoonpeptides.com/peptides/85-thymulin-10mg.html",
+    "visitorId": "8f103ea8844ae829"
+  },
+  {
+    "ts": "2026-10-30T03:16:29.882Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/",
+    "visitorId": "2974c41fcb27836c"
+  },
+  {
+    "ts": "2026-10-30T03:16:31.709Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/",
+    "visitorId": "326a2c35ed1c260a"
+  },
+  {
+    "ts": "2026-10-30T03:16:34.326Z",
+    "type": "product",
+    "vendorSlug": "raw-peptides",
+    "vendorName": "Raw Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/",
+    "visitorId": "b20d42af0d3c09c0"
+  },
+  {
+    "ts": "2026-10-30T03:22:21.437Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "ahk-cu",
+    "destUrl": "https://novavitality.co.uk/product/ahk-cu/",
+    "visitorId": "06d67681699ad8ff"
+  },
+  {
+    "ts": "2026-10-30T03:27:51.597Z",
+    "type": "product",
+    "vendorSlug": "chroma-peptides",
+    "vendorName": "Chroma Peptides",
+    "compoundSlug": "aod-9604",
+    "destUrl": "https://chromapeptides.co.uk/product/aod-9604/",
+    "visitorId": "dfa7105b54f633dc"
   }
 ]
