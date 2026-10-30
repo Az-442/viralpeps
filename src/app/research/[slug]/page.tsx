@@ -4,6 +4,7 @@ import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
 import { guides, ResearchArticle } from "@/data/research";
 import researchContent from "@/data/research-content";
+import { dsipContent } from "@/data/research-content-dsip";
 import compounds from "@/data/compounds.json";
 
 /** Set of compound page slugs that actually exist (avoids internal 404s). */
@@ -171,7 +172,7 @@ export default async function ResearchArticlePage({
 }) {
   const { slug } = await params;
   const guide = guides.find((g) => g.slug === slug);
-  const content = researchContent[slug];
+  const content = researchContent[slug] ?? dsipContent[slug];
 
   if (!guide || !content) {
     notFound();

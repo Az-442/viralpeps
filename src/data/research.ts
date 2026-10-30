@@ -2108,6 +2108,30 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ["ghrp-2", "pralmorelin", "price-comparison", "cost-per-milligram", "vial-size", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "DSIP Research Guide: A Receptor Nobody Ever Found",
+    desc: "DSIP's three human sleep trials all concluded the effect was weak. What the 1978 sequence, the receptor vacuum and the aggregation problem actually show.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "DSIP",
+    slug: "dsip-research-guide",
+    image: "dsip-research-guide",
+    minutes: 14,
+    tags: ["dsip", "delta-sleep-inducing-peptide", "sleep-research", "nonapeptide", "neuroendocrine", "receptor", "research-hub", "peptide-research"],
+  },
+
+  {
+    title: "DSIP UK Price Per mg: £2.00 to £4.99, Not £9.99 to £199.99",
+    desc: "Twenty-nine UK vendors sell 5 mg DSIP. Per milligram the real spread is 2.5-fold, and the biggest premium in the market is the pen, not the peptide.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "DSIP",
+    slug: "dsip-uk-price-guide",
+    image: "dsip-uk-price-guide",
+    minutes: 12,
+    tags: ["dsip", "delta-sleep-inducing-peptide", "price-comparison", "cost-per-milligram", "vial-size", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
