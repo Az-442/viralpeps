@@ -23848,5 +23848,79 @@
     "destUrl": "https://novavitality.co.uk/product/ghk-cu/",
     "refPage": "https://www.viralpeps.co.uk/",
     "visitorId": "71e567adc61bb1a8"
+  },
+  {
+    "ts": "2026-10-30T14:21:53.108Z",
+    "type": "vendor-site",
+    "vendorSlug": "kingston-peptides",
+    "vendorName": "Kingston Peptides",
+    "destUrl": "https://kingstonpeptides.com",
+    "visitorId": "3377ab12ba9d157f"
+  },
+  {
+    "ts": "2026-10-30T14:29:43.411Z",
+    "type": "product",
+    "vendorSlug": "stratford-peptides",
+    "vendorName": "Stratford Peptides",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://www.stratfordpeptides.com/products/tesamorelin",
+    "visitorId": "80a6252f7ad8f0f8"
+  },
+  {
+    "ts": "2026-10-30T14:34:29.566Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidespecialist.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "63432083d05e0366"
+  },
+  {
+    "ts": "2026-10-30T14:34:37.760Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://peptidespecialist.co.uk/product/ghk-cu/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "9fa8a7421f1ff1a2"
+  },
+  {
+    "ts": "2026-10-30T14:38:58.754Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "mots-c-pen-express",
+    "destUrl": "https://www.expresspeptides.co.uk/product/mots-c/pen",
+    "visitorId": "8fcfa475432c4b61"
+  },
+  {
+    "ts": "2026-10-30T14:45:51.778Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-pt-141-uk/",
+    "visitorId": "60beed3f57aeda1a"
+  },
+  {
+    "ts": "2026-10-30T14:47:58.190Z",
+    "type": "product",
+    "vendorSlug": "pioneer-peptides",
+    "vendorName": "Pioneer Peptides",
+    "compoundSlug": "mots-c",
+    "destUrl": "https://pioneerpeptides.co.uk/products/mots-c/",
+    "visitorId": "0316b14d8feca415"
+  },
+  {
+    "ts": "2026-10-30T14:52:16.218Z",
+    "type": "product",
+    "vendorSlug": "novabiolabs",
+    "vendorName": "Nova Biolabs",
+    "compoundSlug": "semaglutide",
+    "destUrl": "https://novabiolabs.co.uk/semaglutide-20mg.html",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "de3e7cdd53502db8"
   }
 ]
