@@ -18840,5 +18840,140 @@
     "vendorName": "VialVerse",
     "destUrl": "https://vialverse.com",
     "visitorId": "f33b20aefce20ae7"
+  },
+  {
+    "ts": "2026-10-30T00:10:57.318Z",
+    "type": "vendor-site",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "destUrl": "https://cmsrlabs.co",
+    "refPage": "https://www.viralpeps.co.uk/vendors/cmsr-labs",
+    "visitorId": "717970c1214ef50d"
+  },
+  {
+    "ts": "2026-10-30T00:12:50.904Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg",
+    "visitorId": "e085c581222aa2c6"
+  },
+  {
+    "ts": "2026-10-30T00:12:54.922Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg",
+    "visitorId": "6271fdbe03fc462d"
+  },
+  {
+    "ts": "2026-10-30T00:12:58.947Z",
+    "type": "product",
+    "vendorSlug": "new-wave-peptides",
+    "vendorName": "New Wave Peptides",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://newwavepeptides.co.uk/buy-peptide/peptides/bpc-157-10mg-tb-500-10mg",
+    "visitorId": "28efc25bbfd8cd8c"
+  },
+  {
+    "ts": "2026-10-30T00:15:57.823Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://midshirelabs.co.uk/products/pancragen/",
+    "visitorId": "0e13f68025f6c3c5"
+  },
+  {
+    "ts": "2026-10-30T00:15:58.824Z",
+    "type": "vendor-site",
+    "vendorSlug": "nova-peptide",
+    "vendorName": "Nova Peptide",
+    "destUrl": "https://www.novapeptide.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/nova-peptide",
+    "visitorId": "a446b95252e23238"
+  },
+  {
+    "ts": "2026-10-30T00:15:59.263Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://midshirelabs.co.uk/products/pancragen/",
+    "visitorId": "35c4c682351dce04"
+  },
+  {
+    "ts": "2026-10-30T00:16:00.776Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "pancragen",
+    "destUrl": "https://midshirelabs.co.uk/products/pancragen/",
+    "visitorId": "144dada458e7b268"
+  },
+  {
+    "ts": "2026-10-30T00:17:00.999Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/sermorelin-5mg",
+    "visitorId": "419da799bc0f3e5e"
+  },
+  {
+    "ts": "2026-10-30T00:17:02.735Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/sermorelin-5mg",
+    "visitorId": "beecf8168afbdb92"
+  },
+  {
+    "ts": "2026-10-30T00:17:09.661Z",
+    "type": "product",
+    "vendorSlug": "kyro-labs-peptides",
+    "vendorName": "KyroLabs Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://kyrolabspeptides.co.uk/products/sermorelin-5mg",
+    "visitorId": "778753b07087bc50"
+  },
+  {
+    "ts": "2026-10-30T00:23:33.689Z",
+    "type": "product",
+    "vendorSlug": "trutide",
+    "vendorName": "Trutide",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://trutide.co.uk/product/nad-1000mg/",
+    "visitorId": "21b77c8e2d1a97bd"
+  },
+  {
+    "ts": "2026-10-30T00:26:11.715Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e7ac47d7678e9354"
+  },
+  {
+    "ts": "2026-10-30T00:26:16.143Z",
+    "type": "vendor-site",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "destUrl": "https://leolab.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "4544ab374b3d6916"
+  },
+  {
+    "ts": "2026-10-30T00:35:01.129Z",
+    "type": "product",
+    "vendorSlug": "mypep-biotech",
+    "vendorName": "MyPep Biotech",
+    "compoundSlug": "bpc-157-tb-500-mix",
+    "destUrl": "https://mypepbiotech.co.uk/product/bpc-157-tb-500-20mg-vial-wolverine-stack/",
+    "visitorId": "108e31a4bd78bd60"
   }
 ]
