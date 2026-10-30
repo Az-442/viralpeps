@@ -101,14 +101,14 @@ async function getCurrentFile(): Promise<{ content: string; sha?: string } | { o
   return { content, sha: data.sha };
 }
 
-function parseRows(content: string): StoredClickRow[] {
+function parseRows(content: string): StoredClickRow[] | null {
   try {
     const arr = JSON.parse(content);
     if (Array.isArray(arr)) return arr;
+    return null;
   } catch {
-    /* fall through */
+    return null;
   }
-  return [];
 }
 
 /** Read-modify-write the buffered rows into clicks.json. Never throws. */
@@ -126,7 +126,15 @@ async function flush(): Promise<boolean> {
       return false;
     }
 
-    const rows = parseRows(file.content);
+    const parsed = parseRows(file.content);
+    if (parsed === null) {
+      // corrupt/unreadable file — DO NOT overwrite it with just this batch,
+      // that is exactly how 3,744 rows were destroyed on 25 Oct 2026.
+      buffer = batch.concat(buffer);
+      console.warn("[click-logger] clicks.json unparseable — batch re-buffered, refusing to overwrite");
+      return false;
+    }
+    const rows = parsed;
     rows.push(...batch);
 
     const newContent = `${JSON.stringify(rows, null, 2)}\n`;
@@ -149,9 +157,15 @@ async function flush(): Promise<boolean> {
       body: JSON.stringify(body),
     });
 
-    if (!res.ok && res.status !== 409) {
-      // 409 = concurrent update — another writer already moved the branch.
-      // Re-buffer so the batch is not silently lost.
+    if (res.status === 409) {
+      // Concurrent write — another instance moved the branch between our read
+      // and our PUT. Re-buffer and retry on the next interval; NEVER treat a
+      // conflict as success, or the batch is silently discarded.
+      buffer = batch.concat(buffer);
+      console.warn("[click-logger] 409 conflict — batch re-buffered for retry");
+      return false;
+    }
+    if (!res.ok) {
       buffer = batch.concat(buffer);
       console.warn("[click-logger] push failed", res.status);
       return false;
