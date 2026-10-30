@@ -20839,5 +20839,178 @@
     "destUrl": "https://retaresearch.co",
     "refPage": "https://www.viralpeps.co.uk/vendors/reta-research",
     "visitorId": "1c2609b601a1b04a"
+  },
+  {
+    "ts": "2026-10-30T05:33:27.390Z",
+    "type": "product",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "compoundSlug": "ss-31",
+    "destUrl": "https://biopeptides-uk.com/product/ss-31-50mg/",
+    "visitorId": "2c2c1077ac43e181"
+  },
+  {
+    "ts": "2026-10-30T05:38:55.867Z",
+    "type": "product",
+    "vendorSlug": "hipeptides",
+    "vendorName": "HiPeptides",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://hipeptides.co.uk/catalog/5-amino-1mq",
+    "visitorId": "4046bc5e402382a4"
+  },
+  {
+    "ts": "2026-10-30T05:38:56.179Z",
+    "type": "product",
+    "vendorSlug": "peptidespecialist",
+    "vendorName": "Peptides Specialist UK",
+    "compoundSlug": "5-amino-1mq",
+    "destUrl": "https://peptidespecialist.co.uk/product/5-amino-1mq/",
+    "visitorId": "2455f2be28833e4d"
+  },
+  {
+    "ts": "2026-10-30T05:42:04.974Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "sterling-tesamorelin-5mg",
+    "destUrl": "https://sterlingpeptides.co.uk/product/tesamorelin-5mg/",
+    "visitorId": "659437c855157988"
+  },
+  {
+    "ts": "2026-10-30T05:44:43.228Z",
+    "type": "product",
+    "vendorSlug": "alphamino",
+    "vendorName": "Alphamino",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "c1143108a002218c"
+  },
+  {
+    "ts": "2026-10-30T05:51:07.105Z",
+    "type": "product",
+    "vendorSlug": "apexpure",
+    "vendorName": "ApexPure",
+    "compoundSlug": "cjc-1295-no-dac",
+    "destUrl": "https://apexpure.co.uk/product/cjc-1295-no-dac-peptide-5mg/",
+    "visitorId": "1455eade95173e5e"
+  },
+  {
+    "ts": "2026-10-30T05:51:57.735Z",
+    "type": "product",
+    "vendorSlug": "bionik-peptides",
+    "vendorName": "Bionik Peptides",
+    "compoundSlug": "liraglutide",
+    "destUrl": "https://bionikpeptides.com/products/liraglutide",
+    "visitorId": "6d724364f809f238"
+  },
+  {
+    "ts": "2026-10-30T05:54:03.114Z",
+    "type": "product",
+    "vendorSlug": "crown-peptides",
+    "vendorName": "Crown Peptides",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://crownpeptides.co.uk/shop/crown/sermorelin/",
+    "visitorId": "97e3cacd49431c62"
+  },
+  {
+    "ts": "2026-10-30T05:56:05.937Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "shb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-shb-10mg-research-solutionfor-laboratory-use-only/",
+    "visitorId": "d8a109c6ad1a43b9"
+  },
+  {
+    "ts": "2026-10-30T05:56:06.731Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "shb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-shb-10mg-research-solutionfor-laboratory-use-only/",
+    "visitorId": "fde9b6d3c2bed92a"
+  },
+  {
+    "ts": "2026-10-30T05:56:10.267Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "shb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-shb-10mg-research-solutionfor-laboratory-use-only/",
+    "visitorId": "fd131e52671aa50c"
+  },
+  {
+    "ts": "2026-10-30T05:56:13.815Z",
+    "type": "product",
+    "vendorSlug": "dr-peptides",
+    "vendorName": "Dr P Research",
+    "compoundSlug": "shb-solution",
+    "destUrl": "https://drpresearch.co.uk/product/dr-p-shb-10mg-research-solutionfor-laboratory-use-only/",
+    "visitorId": "f8f8efc5b85c642d"
+  },
+  {
+    "ts": "2026-10-30T05:59:08.864Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/",
+    "visitorId": "4e0d92fa0885cf8c"
+  },
+  {
+    "ts": "2026-10-30T05:59:10.601Z",
+    "type": "vendor-site",
+    "vendorSlug": "fat-pig-peptides",
+    "vendorName": "Fat Pig Peptides",
+    "destUrl": "https://fatpigpeptides.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/fat-pig-peptides",
+    "visitorId": "10268165a25707cf"
+  },
+  {
+    "ts": "2026-10-30T05:59:11.373Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/",
+    "visitorId": "fb5b77cff3f7a58c"
+  },
+  {
+    "ts": "2026-10-30T05:59:17.096Z",
+    "type": "product",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/",
+    "visitorId": "482030a5f649ff83"
+  },
+  {
+    "ts": "2026-10-30T06:00:06.562Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "glow",
+    "destUrl": "https://peptideslabuk.com/product/tb10mg-bpc10mg-ghk50mg/",
+    "visitorId": "7ce06eec799feb69"
+  },
+  {
+    "ts": "2026-10-30T06:00:28.794Z",
+    "type": "product",
+    "vendorSlug": "pepnova",
+    "vendorName": "PepNOVA",
+    "compoundSlug": "ghk-cu",
+    "destUrl": "https://pepnova.uk/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "e668ad2a9b8fafda"
+  },
+  {
+    "ts": "2026-10-30T06:01:51.686Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "eloralintide",
+    "destUrl": "https://pslabs.uk/products/eloralintide",
+    "visitorId": "0c1dcbcb87bce133"
   }
 ]
