@@ -23050,5 +23050,114 @@
     "destUrl": "https://www.na-peptides.co.uk",
     "refPage": "https://www.viralpeps.co.uk/vendors/na-peptides",
     "visitorId": "b35c20ffd5f623e6"
+  },
+  {
+    "ts": "2026-10-30T10:31:01.526Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://chiltonlabs.co.uk/product/bpc-157-10mg-vial/",
+    "visitorId": "f7577e1575994f92"
+  },
+  {
+    "ts": "2026-10-30T10:36:48.717Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://peptideslabuk.com/product/sermorelin-acetate/",
+    "visitorId": "f005fef16a40ebd1"
+  },
+  {
+    "ts": "2026-10-30T10:36:50.205Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://peptideslabuk.com/product/sermorelin-acetate/",
+    "visitorId": "e56ba4e5fdd6b5ec"
+  },
+  {
+    "ts": "2026-10-30T10:36:54.731Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://peptideslabuk.com/product/sermorelin-acetate/",
+    "visitorId": "7d775a96984c6f11"
+  },
+  {
+    "ts": "2026-10-30T10:36:58.247Z",
+    "type": "product",
+    "vendorSlug": "peptides-lab-uk",
+    "vendorName": "Peptides Lab UK",
+    "compoundSlug": "sermorelin",
+    "destUrl": "https://peptideslabuk.com/product/sermorelin-acetate/",
+    "visitorId": "a19905399b55da09"
+  },
+  {
+    "ts": "2026-10-30T10:42:03.752Z",
+    "type": "product",
+    "vendorSlug": "bluewell-peptides",
+    "vendorName": "Bluewell Peptides",
+    "compoundSlug": "adipotide-ftpp-5mg",
+    "destUrl": "https://bluewellpeptides.com/product/fftp-adipotide-5mg-peptide/",
+    "visitorId": "3c4fa81993214798"
+  },
+  {
+    "ts": "2026-10-30T10:44:52.512Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk",
+    "vendorName": "Peptides UK",
+    "compoundSlug": "igf-1-des",
+    "destUrl": "https://peptidesuk.com/igf-1-des/",
+    "visitorId": "34232b6a2d23a8ee"
+  },
+  {
+    "ts": "2026-10-30T10:54:03.029Z",
+    "type": "product",
+    "vendorSlug": "advanced-peptides-uk",
+    "vendorName": "Advanced Peptides UK",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://advancedpeptidesuk.co.uk/shop/all-research-peptides/prepared-research-cartridges/melanotan-2/",
+    "visitorId": "6763a1d4b2189378"
+  },
+  {
+    "ts": "2026-10-30T10:54:05.995Z",
+    "type": "vendor-site",
+    "vendorSlug": "revexa",
+    "vendorName": "Revexa",
+    "destUrl": "https://www.revexa.co.uk",
+    "refPage": "https://www.viralpeps.co.uk/vendors/revexa",
+    "visitorId": "ae0bab3195444a25"
+  },
+  {
+    "ts": "2026-10-30T10:55:02.886Z",
+    "type": "product",
+    "vendorSlug": "novavitality",
+    "vendorName": "NovaVitality",
+    "compoundSlug": "mgf",
+    "destUrl": "https://novavitality.co.uk/product/mgf/",
+    "visitorId": "50e43ffa64676201"
+  },
+  {
+    "ts": "2026-10-30T10:55:29.596Z",
+    "type": "product",
+    "vendorSlug": "port-peptides",
+    "vendorName": "Port Peptides",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://portpeptides.co.uk/peptides/tirzepatide/",
+    "refPage": "https://www.viralpeps.co.uk",
+    "visitorId": "cdd8ae242feebd5d"
+  },
+  {
+    "ts": "2026-10-30T11:01:54.380Z",
+    "type": "product",
+    "vendorSlug": "bioplex-peptides",
+    "vendorName": "BioPlex Peptides",
+    "compoundSlug": "ghrp-2",
+    "destUrl": "https://bioplexpeptides.co.uk/products/ghrp-2-10mg-pralmorelin",
+    "visitorId": "7610bc89ec47a4d6"
   }
 ]
