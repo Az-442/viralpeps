@@ -21012,5 +21012,107 @@
     "compoundSlug": "eloralintide",
     "destUrl": "https://pslabs.uk/products/eloralintide",
     "visitorId": "0c1dcbcb87bce133"
+  },
+  {
+    "ts": "2026-10-30T06:02:32.666Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://leolab.co.uk/peptides/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "ca1267c8d3669e28"
+  },
+  {
+    "ts": "2026-10-30T06:02:44.009Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://leolab.co.uk/peptides/retatrutide/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "a6dd0a58b0f2ea66"
+  },
+  {
+    "ts": "2026-10-30T06:05:54.023Z",
+    "type": "vendor-site",
+    "vendorSlug": "bio-peptides-uk",
+    "vendorName": "Bio Peptides UK",
+    "destUrl": "https://biopeptides-uk.com",
+    "visitorId": "dad5ae8cb73ddff8"
+  },
+  {
+    "ts": "2026-10-30T06:08:55.537Z",
+    "type": "product",
+    "vendorSlug": "sterling-peptides",
+    "vendorName": "Sterling Peptides",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://sterlingpeptides.co.uk/product/bpc-157/",
+    "visitorId": "5e5d6741a07092db"
+  },
+  {
+    "ts": "2026-10-30T06:15:30.077Z",
+    "type": "product",
+    "vendorSlug": "the-peptide-code",
+    "vendorName": "ThePeptideCode",
+    "compoundSlug": "melanotan-ii",
+    "destUrl": "https://thepeptidecode.co.uk/products/melanotan-ii-10mg",
+    "visitorId": "f377f3335b4bb892"
+  },
+  {
+    "ts": "2026-10-30T06:17:39.088Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://midshirelabs.co.uk/products/cagrilintide-10mg/",
+    "visitorId": "3ed8b50c217467cc"
+  },
+  {
+    "ts": "2026-10-30T06:17:44.907Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://midshirelabs.co.uk/products/cagrilintide-10mg/",
+    "visitorId": "4b35912cfcdcff82"
+  },
+  {
+    "ts": "2026-10-30T06:17:47.759Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "sterling-cagrilintide-10mg",
+    "destUrl": "https://midshirelabs.co.uk/products/cagrilintide-10mg/",
+    "visitorId": "4b35912cfcdcff82"
+  },
+  {
+    "ts": "2026-10-30T06:24:35.749Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "6c9e8b112a1238e9"
+  },
+  {
+    "ts": "2026-10-30T06:24:43.385Z",
+    "type": "product",
+    "vendorSlug": "leolab",
+    "vendorName": "LeoLab Peptides UK",
+    "compoundSlug": "ipamorelin",
+    "destUrl": "https://leolab.co.uk/peptides/ipamorelin-5mg/",
+    "refPage": "https://www.viralpeps.co.uk/",
+    "visitorId": "0018b8b603624e14"
+  },
+  {
+    "ts": "2026-10-30T06:32:46.588Z",
+    "type": "product",
+    "vendorSlug": "peptides-uk-4u",
+    "vendorName": "Peptides UK 4U",
+    "compoundSlug": "bpc-157",
+    "destUrl": "https://peptidesuk4u.co.uk/product/bpc-157-10mg",
+    "visitorId": "ab8bc7343e5df5cd"
   }
 ]
