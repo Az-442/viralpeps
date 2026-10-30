@@ -198,7 +198,7 @@ import {
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg";
 

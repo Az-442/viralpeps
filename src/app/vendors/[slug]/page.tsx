@@ -15,7 +15,7 @@ import { JsonLd, vendorOrganization } from "@/components/JsonLd";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export async function generateStaticParams() {
   return (vendors as Array<{ slug: string }>).map((v) => ({ slug: v.slug }));

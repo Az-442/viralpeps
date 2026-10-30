@@ -17,7 +17,7 @@ function compoundHref(slug?: string): string | null {
   return COMPOUND_SLUGS.has(slug) ? `/compounds/${slug}` : null;
 }
 
-export const dynamic = "force-dynamic";
+export const revalidate = 86400;
 
 export async function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }));

@@ -32,7 +32,7 @@ const isSizeLabel = (v: string): boolean =>
   !!v &&
   !/^(https?:\/\/|\/|www\.)/i.test(v) &&
   !/\.(webp|jpe?g|png|gif|svg|avif)(\?|$)/i.test(v);
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export async function generateStaticParams() {
   return (compounds as Array<{ slug: string; redirect?: string }>)

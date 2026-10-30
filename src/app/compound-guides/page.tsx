@@ -5,7 +5,7 @@ import BreadcrumbList from "@/components/BreadcrumbList";
 import SiloTiles from "@/components/SiloTiles";
 import { SILOS } from "@/data/silos";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Peptide Buying Guides UK: Price Comparison & Supplier Research",
