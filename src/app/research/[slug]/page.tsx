@@ -5,6 +5,18 @@ import Footer from "@/components/Footer";
 import { guides, ResearchArticle } from "@/data/research";
 import researchContent from "@/data/research-content";
 import { dsipContent } from "@/data/research-content-dsip";
+import { aicarContent } from "@/data/research-content-aicar";
+import { aicarPriceContent } from "@/data/research-content-aicar-price";
+import { hexarelinContent } from "@/data/research-content-hexarelin";
+import { hexarelinPriceContent } from "@/data/research-content-hexarelin-price";
+
+const EXTRA_CONTENT = {
+  ...dsipContent,
+  ...aicarContent,
+  ...aicarPriceContent,
+  ...hexarelinContent,
+  ...hexarelinPriceContent,
+};
 import compounds from "@/data/compounds.json";
 
 /** Set of compound page slugs that actually exist (avoids internal 404s). */
@@ -172,7 +184,7 @@ export default async function ResearchArticlePage({
 }) {
   const { slug } = await params;
   const guide = guides.find((g) => g.slug === slug);
-  const content = researchContent[slug] ?? dsipContent[slug];
+  const content = researchContent[slug] ?? EXTRA_CONTENT[slug];
 
   if (!guide || !content) {
     notFound();

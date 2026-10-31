@@ -2132,6 +2132,54 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ["dsip", "delta-sleep-inducing-peptide", "price-comparison", "cost-per-milligram", "vial-size", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "AICAR Research Guide: A Nucleoside, Not a Peptide",
+    desc: "AICAR is sold as a peptide and is not one. Two CAS numbers for two molecules, and the only large human trial was stopped for futility after 3,080 patients.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "AICAR",
+    slug: "aicar-research-guide",
+    image: "aicar-research-guide",
+    minutes: 13,
+    tags: ["aicar", "acadesine", "aica-ribonucleotide", "ampk", "nucleoside", "small-molecule", "research-hub", "peptide-research"],
+  },
+
+  {
+    title: "AICAR UK Price Per mg: 29p to 80p, Pack Size Rules",
+    desc: "Eleven UK AICAR listings span £16.95 to £39.99 for 50 mg. Per milligram the spread is 2.8-fold, and the 100 mg vials are quietly the best value.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "AICAR",
+    slug: "aicar-uk-price-guide",
+    image: "aicar-uk-price-guide",
+    minutes: 11,
+    tags: ["aicar", "acadesine", "price-comparison", "cost-per-milligram", "vial-size", "certificate-of-analysis", "uk", "research-hub"],
+  },
+
+  {
+    title: "Hexarelin Research Guide: Two Receptors, One Rat Story",
+    desc: "The GH arm was measured in humans in 1994 and holds up. The cardiac arm is rodent work on a receptor that constricts coronary arteries. What each shows.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Hexarelin",
+    slug: "hexarelin-research-guide",
+    image: "hexarelin-research-guide",
+    minutes: 13,
+    tags: ["hexarelin", "examorelin", "ghrp", "growth-hormone", "secretagogue", "cd36", "cardiac", "research-hub"],
+  },
+
+  {
+    title: "Hexarelin UK Price Per mg: £3.95 to £20, Pack Size Wins",
+    desc: "Sixteen UK hexarelin listings across four pack sizes span £3.95 to £20.00 per milligram. The 5 mg vial is the efficient unit, not the cheapest sticker.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Hexarelin",
+    slug: "hexarelin-uk-price-guide",
+    image: "hexarelin-uk-price-guide",
+    minutes: 11,
+    tags: ["hexarelin", "examorelin", "price-comparison", "cost-per-milligram", "vial-size", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
