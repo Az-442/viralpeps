@@ -5819,5 +5819,88 @@
       },
       "checkedAt": "2026-10-30T16:33:23.273Z"
     }
+  },
+  {
+    "id": "loldarx",
+    "name": "LOLDARX Research",
+    "slug": "loldarx",
+    "website": "https://loldarx.com",
+    "rating": 3.0,
+    "verified": false,
+    "country": "UK",
+    "description": "UK peptide information and weight-loss support site. Publishes educational content on peptide terminology and everyday habits. No online catalogue, no published prices and no checkout — enquiries are handled over WhatsApp.",
+    "highlights": [
+      "Educational content only",
+      "No online catalogue",
+      "WhatsApp contact",
+      "No published pricing"
+    ],
+    "shipping": [
+      "Enquire via WhatsApp"
+    ],
+    "payment": [
+      "Enquire via WhatsApp"
+    ],
+    "labTested": false,
+    "_autoChecks": {
+      "live": true,
+      "coa": false,
+      "ruo": true,
+      "reviews": false,
+      "shipping": false,
+      "contact": true,
+      "productPageFetched": false,
+      "evidence": {
+        "coa": null,
+        "ruo": "for laboratory research use only",
+        "reviews": null,
+        "shipping": null,
+        "contact": "https://loldarx.com"
+      },
+      "checkedAt": "2026-10-31T14:36:24.000Z",
+      "note": "No catalogue — added as informational profile only, appears in the supplier directory with zero price rows."
+    }
+  },
+  {
+    "id": "rierink",
+    "name": "Rierink Compounds",
+    "slug": "rierink",
+    "website": "https://rierink.com",
+    "rating": 3.5,
+    "verified": false,
+    "country": "EU",
+    "description": "European research peptide supplier shipping from within the EU. Catalogue covers incretin, metabolic, longevity and cosmetic research compounds with lot numbers that resolve to a published certificate where one is on file. Prices are quoted in EUR only.",
+    "highlights": [
+      "EU-based dispatch",
+      "Lot-number COA lookup",
+      "38 research compounds",
+      "Prices in EUR only"
+    ],
+    "shipping": [
+      "EU",
+      "International"
+    ],
+    "payment": [
+      "Card"
+    ],
+    "labTested": true,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": false,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "lot-number certificate lookup on site",
+        "ruo": "FOR LABORATORY RESEARCH USE ONLY. NOT A MEDICINE. NOT FOR HUMAN OR VETERINARY USE.",
+        "reviews": null,
+        "shipping": "ships within 24h / pre-order 1-2 weeks",
+        "contact": "https://rierink.com/en"
+      },
+      "checkedAt": "2026-10-31T14:36:30.000Z",
+      "note": "39 compounds catalogued. Price rows deliberately NOT added: site quotes EUR only (e.g. Tirzepatide 40mg = €80.99). VP formats all prices as GBP and sorts on GBP, so a EUR figure would render €80.99 as £80.99 (~15% understated) and rank in the wrong position. Awaiting GBP pricing or an FX-conversion decision."
+    }
   }
 ]
