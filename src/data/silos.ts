@@ -39,6 +39,7 @@ import { PT141_SPOKES, getPt141Stats, type Pt141Stats } from "@/data/pt-141-silo
 import { MAZ_SPOKES, getMazStats, type MazStats } from "@/data/mazdutide-silo";
 import { SURV_SPOKES, getSurvStats, type SurvStats } from "@/data/survodutide-silo";
 import { HCG_SPOKES, getHcgStats, type HcgStats } from "@/data/hcg-silo";
+import { CJC_SPOKES, getCjcStats, type CjcStats } from "@/data/cjc-1295-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -249,6 +250,14 @@ export const SILOS: Silo[] = [
     spokes: HCG_SPOKES as unknown as SiloSpoke[],
     getStats: () => getHcgStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "cjc-1295",
+    name: "CJC-1295",
+    blurb:
+      "CJC-1295 buying guides — verified UK suppliers, lowest price per mg, full price table, DAC vs no-DAC checks and TrustScore rankings.",
+    spokes: CJC_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getCjcStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -271,3 +280,4 @@ export type { GhkStats };
 export type { Pt141Stats };
 export type { MazStats };
 export type { SurvStats };
+export type { CjcStats };

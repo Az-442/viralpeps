@@ -179,6 +179,7 @@ import {
 } from "@/data/mazdutide-silo";
 import { spokes as survSpokes, getSpoke as getSurvSpoke } from "@/data/survodutide-spokes";
 import { spokes as hcgSpokes, getSpoke as getHcgSpoke } from "@/data/hcg-spokes";
+import { spokes as cjcSpokes, getSpoke as getCjcSpoke } from "@/data/cjc-1295-spokes";
 import {
   getSurvRows,
   getSurvStats,
@@ -195,12 +196,19 @@ import {
   sortByTrust as hcgSortByTrust,
   HCG_SPOKES,
 } from "@/data/hcg-silo";
+import {
+  getCjcRows,
+  getCjcStats,
+  sortByPrice as cjcSortByPrice,
+  sortByPricePerMg as cjcSortByPricePerMg,
+  sortByTrust as cjcSortByTrust,
+} from "@/data/cjc-1295-silo";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
 export const revalidate = 86400;
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg" | "cjc-1295";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -224,6 +232,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   mazdutide: "Mazdutide",
   survodutide: "Survodutide",
   hcg: "hCG",
+  "cjc-1295": "CJC-1295",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -270,6 +279,8 @@ function resolveSpoke(slug: string) {
   if (surv) return { spoke: surv, compound: "survodutide" as const };
   const hcg = getHcgSpoke(slug);
   if (hcg) return { spoke: hcg, compound: "hcg" as const };
+  const cjc = getCjcSpoke(slug);
+  if (cjc) return { spoke: cjc, compound: "cjc-1295" as const };
   return null;
 }
 
@@ -296,6 +307,7 @@ export async function generateStaticParams() {
     ...mazSpokes.map((s) => ({ slug: s.slug })),
     ...survSpokes.map((s) => ({ slug: s.slug })),
     ...hcgSpokes.map((s) => ({ slug: s.slug })),
+    ...cjcSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -638,6 +650,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "cjc-1295") {
+    const all = getCjcRows();
+    let sorted = cjcSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg" || spoke.tableMode === "full") {
+      sorted = cjcSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = cjcSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -700,6 +726,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? getSurvStats()
                                     : compound === "hcg"
                                       ? getHcgStats()
+                                    : compound === "cjc-1295"
+                                      ? getCjcStats()
                                     : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
@@ -732,6 +760,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         case "mazdutide": return getMazRows();
         case "survodutide": return getSurvRows();
         case "hcg": return getHcgRows();
+        case "cjc-1295": return getCjcRows();
         default: return rows;
       }
     })();
