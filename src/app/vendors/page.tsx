@@ -65,7 +65,7 @@ const avgRating = (vendors.reduce((sum, v) => sum + (v.rating ?? 0), 0) / vendor
 export default function VendorsPage() {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<"all" | "verified" | "free-shipping" | "lab-tested">("all");
-  const [sort, setSort] = useState<"a-z" | "rating" | "products">("a-z");
+  const [sort, setSort] = useState<"a-z" | "rating" | "products">("rating");
 
   const filtered = vendors.filter((v) => {
     const name = v.name.toLowerCase();
