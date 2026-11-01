@@ -9,6 +9,8 @@ import { aicarContent } from "@/data/research-content-aicar";
 import { aicarPriceContent } from "@/data/research-content-aicar-price";
 import { hexarelinContent } from "@/data/research-content-hexarelin";
 import { hexarelinPriceContent } from "@/data/research-content-hexarelin-price";
+import { snap8Content } from "@/data/research-content-snap-8";
+import { snap8PriceContent } from "@/data/research-content-snap-8-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -16,6 +18,8 @@ const EXTRA_CONTENT = {
   ...aicarPriceContent,
   ...hexarelinContent,
   ...hexarelinPriceContent,
+  ...snap8Content,
+  ...snap8PriceContent,
 };
 import compounds from "@/data/compounds.json";
 

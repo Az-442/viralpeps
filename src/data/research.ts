@@ -2180,6 +2180,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["hexarelin", "examorelin", "price-comparison", "cost-per-milligram", "vial-size", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "SNAP-8 Research Guide: Assembly Blocker, Not a Dissolver",
+    desc: "SNAP-8 stops the SNARE complex being built, not breaking it apart. Both human trials used multi-ingredient patches. Where the evidence stops.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "SNAP-8",
+    slug: "snap-8-research-guide",
+    image: "snap-8-research-guide",
+    minutes: 13,
+    tags: ["snap-8", "acetyl-octapeptide-3", "snare", "snap-25", "cosmetic-peptide", "research-hub"],
+  },
+
+  {
+    title: "SNAP-8 UK Price Per mg: £1.43 to £3.00, One Pack Size",
+    desc: "Eighteen UK SNAP-8 vials all sell 10 mg, so the 2.1× spread is pure vendor pricing. What a certificate should resolve, and why averages mislead.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "SNAP-8",
+    slug: "snap-8-uk-price-guide",
+    image: "snap-8-uk-price-guide",
+    minutes: 11,
+    tags: ["snap-8", "acetyl-octapeptide-3", "price-comparison", "cost-per-milligram", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
