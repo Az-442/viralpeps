@@ -39,6 +39,7 @@ import { PT141_SPOKES, getPt141Stats, type Pt141Stats } from "@/data/pt-141-silo
 import { MAZ_SPOKES, getMazStats, type MazStats } from "@/data/mazdutide-silo";
 import { SURV_SPOKES, getSurvStats, type SurvStats } from "@/data/survodutide-silo";
 import { HCG_SPOKES, getHcgStats, type HcgStats } from "@/data/hcg-silo";
+import { OX_SPOKES, getOxStats, type OxStats } from "@/data/oxytocin-nasal-spray-silo";
 import { CJC_SPOKES, getCjcStats, type CjcStats } from "@/data/cjc-1295-silo";
 
 /**
@@ -258,6 +259,14 @@ export const SILOS: Silo[] = [
     spokes: CJC_SPOKES as unknown as SiloSpoke[],
     getStats: () => getCjcStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "oxytocin-nasal-spray",
+    name: "Oxytocin Nasal Spray",
+    blurb:
+      "Oxytocin nasal spray buying guides — verified UK suppliers, lowest price per bottle, full price comparison, CoA and batch checks and TrustScore rankings.",
+    spokes: OX_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getOxStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -281,3 +290,4 @@ export type { Pt141Stats };
 export type { MazStats };
 export type { SurvStats };
 export type { CjcStats };
+export type { OxStats };

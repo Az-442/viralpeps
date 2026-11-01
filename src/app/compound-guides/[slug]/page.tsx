@@ -180,6 +180,7 @@ import {
 import { spokes as survSpokes, getSpoke as getSurvSpoke } from "@/data/survodutide-spokes";
 import { spokes as hcgSpokes, getSpoke as getHcgSpoke } from "@/data/hcg-spokes";
 import { spokes as cjcSpokes, getSpoke as getCjcSpoke } from "@/data/cjc-1295-spokes";
+import { spokes as oxSpokes, getSpoke as getOxSpoke } from "@/data/oxytocin-nasal-spray-spokes";
 import {
   getSurvRows,
   getSurvStats,
@@ -203,12 +204,19 @@ import {
   sortByPricePerMg as cjcSortByPricePerMg,
   sortByTrust as cjcSortByTrust,
 } from "@/data/cjc-1295-silo";
+import {
+  getOxRows,
+  getOxStats,
+  sortByPrice as oxSortByPrice,
+  sortByPricePerMg as oxSortByPricePerMg,
+  sortByTrust as oxSortByTrust,
+} from "@/data/oxytocin-nasal-spray-silo";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
 export const revalidate = 86400;
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg" | "cjc-1295";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg" | "cjc-1295" | "oxytocin-nasal-spray";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -233,6 +241,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   survodutide: "Survodutide",
   hcg: "hCG",
   "cjc-1295": "CJC-1295",
+  "oxytocin-nasal-spray": "Oxytocin Nasal Spray",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -281,6 +290,8 @@ function resolveSpoke(slug: string) {
   if (hcg) return { spoke: hcg, compound: "hcg" as const };
   const cjc = getCjcSpoke(slug);
   if (cjc) return { spoke: cjc, compound: "cjc-1295" as const };
+  const ox = getOxSpoke(slug);
+  if (ox) return { spoke: ox, compound: "oxytocin-nasal-spray" as const };
   return null;
 }
 
@@ -308,6 +319,7 @@ export async function generateStaticParams() {
     ...survSpokes.map((s) => ({ slug: s.slug })),
     ...hcgSpokes.map((s) => ({ slug: s.slug })),
     ...cjcSpokes.map((s) => ({ slug: s.slug })),
+    ...oxSpokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -664,6 +676,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "oxytocin-nasal-spray") {
+    const all = getOxRows();
+    let sorted = oxSortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg" || spoke.tableMode === "full") {
+      sorted = oxSortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = oxSortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -728,6 +754,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? getHcgStats()
                                     : compound === "cjc-1295"
                                       ? getCjcStats()
+                                    : compound === "oxytocin-nasal-spray"
+                                      ? getOxStats()
                                     : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
@@ -761,6 +789,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         case "survodutide": return getSurvRows();
         case "hcg": return getHcgRows();
         case "cjc-1295": return getCjcRows();
+        case "oxytocin-nasal-spray": return getOxRows();
         default: return rows;
       }
     })();
