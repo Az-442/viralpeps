@@ -168,14 +168,6 @@
         "dosage": "60mg"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-tirzepatide-uk/",
-        "price": "£47.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/tirzepatide.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Raw Peptides",
         "url": "https://rawpeptides.co.uk/product/tirzepatide-2-5mg/",
         "price": "£110.00",
@@ -954,14 +946,6 @@
         "dosage": "20mg"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-semaglutide-uk/",
-        "price": "£21.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/semaglutide.png",
-        "dosage": "2mg×10vials"
-      },
-      {
         "vendor": "Raw Peptides",
         "url": "https://rawpeptides.co.uk/product/semaglutide-30mg/",
         "price": "£119.99",
@@ -976,30 +960,6 @@
         "inStock": true,
         "image": "/images/products/peptx/semaglutide.webp",
         "dosage": "20mg"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/semaglutide/",
-        "price": "£49.99",
-        "inStock": true,
-        "dosage": "5mg",
-        "image": "/images/products/peptidesx/semaglutide.webp"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/semaglutide/",
-        "price": "£69.99",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/peptidesx/semaglutide-10mg.webp"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/semaglutide/",
-        "price": "£129.99",
-        "inStock": true,
-        "dosage": "20mg",
-        "image": "/images/products/peptidesx/semaglutide-20mg.webp"
       },
       {
         "vendor": "PepNOVA",
@@ -1513,14 +1473,6 @@
         "inStock": true,
         "image": "/images/products/my-peptides/bpc-157.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-bpc-157-uk/",
-        "price": "£52.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/bpc-157.png",
-        "dosage": "5mg×10vials"
       },
       {
         "vendor": "Be Better Peptides",
@@ -2742,14 +2694,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-tb500-uk/",
-        "price": "£105.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/tb500.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Peptigen Labs",
         "url": "https://peptigenlabs.co.uk/products/PL-TB5-5",
         "price": "£39.99",
@@ -3598,14 +3542,6 @@
         "inStock": true,
         "image": "/images/products/my-peptides/melanotan-ii.webp",
         "dosage": "20mg"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-melanotan-2-uk/",
-        "price": "£42.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/melanotan-2.png",
-        "dosage": "10mg×10vials"
       },
       {
         "vendor": "Premio Peptides",
@@ -4597,14 +4533,6 @@
         "image": "/images/products/peptides-uk/aod-9604.webp"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-aod9604-uk/",
-        "price": "£142.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/aod9604.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Be Better Peptides",
         "url": "https://bebetterpeptides.com/products/aod-9604-5mg",
         "price": "£24.99",
@@ -5096,14 +5024,6 @@
         "inStock": true,
         "image": "/images/products/cmsr-labs/retatrutide.webp",
         "dosage": "5mg"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-retatrutide-uk/",
-        "price": "£74.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/retatrutide.png",
-        "dosage": "5mg×10vials"
       },
       {
         "vendor": "Peptigen Labs",
@@ -6354,14 +6274,6 @@
         "inStock": true,
         "image": "/images/products/my-peptides/cjc-1295.webp",
         "dosage": "3mg"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-cjc-1295-dac-uk/",
-        "price": "£57.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/cjc-1295-dac.png",
-        "dosage": "2mg×10vials"
       },
       {
         "vendor": "Be Better Peptides",
@@ -7620,14 +7532,6 @@
         "inStock": true,
         "image": "/images/products/my-peptides/tesamorelin.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-tesamorelin-uk/",
-        "price": "£136.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/tesamorelin.png",
-        "dosage": "5mg×10vials"
       },
       {
         "vendor": "Premio Peptides",
@@ -9075,14 +8979,6 @@
         "image": "/images/products/my-peptides/mots-c.webp"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-mots-c-uk/",
-        "price": "£84.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/mots-c.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Peptigen Labs",
         "url": "https://peptigenlabs.co.uk/products/PL-MOTS-10",
         "price": "£44.99",
@@ -10155,14 +10051,6 @@
         "dosage": "50mg"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-ss-31-uk/",
-        "price": "£120.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/ss-31.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Peptigen Labs",
         "url": "https://peptigenlabs.co.uk/products/PL-SS31-10",
         "price": "£39.99",
@@ -10993,14 +10881,6 @@
         "inStock": true,
         "dosage": "60mg",
         "image": "/images/products/my-peptides/ghk-cu.webp"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-ghk-cu-uk/",
-        "price": "£52.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/ghk-cu.png",
-        "dosage": "50mg×10vials"
       },
       {
         "vendor": "Be Better Peptides",
@@ -12794,14 +12674,6 @@
         "image": "/images/products/peptides-uk/thymosin-alpha-1.webp"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-thymosin-alpha-1-uk/",
-        "price": "£110.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/thymosin-alpha-1.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Premio Peptides",
         "url": "https://premiopeptides.co.uk/compounds/thymosin-alpha-1",
         "price": "£199.99",
@@ -13248,14 +13120,6 @@
         "price": "£—",
         "dosage": "10mg",
         "image": "/images/products/peptides-uk/epitalon.webp"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-epithalon-uk/",
-        "price": "£42.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/epithalon.png",
-        "dosage": "10mg×10vials"
       },
       {
         "vendor": "Be Better Peptides",
@@ -15830,14 +15694,6 @@
         "image": "/images/products/peptides-uk/fragment-176-191.webp"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-hgh-fragment-176-191-uk/",
-        "price": "£63.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/hgh-fragment.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Be Better Peptides",
         "url": "https://bebetterpeptides.com/products/buy-hgh-fragment-176-191-5mg",
         "price": "£23.99",
@@ -16367,14 +16223,6 @@
         "inStock": true,
         "dosage": "6mg",
         "image": "/images/products/my-peptides/ipamorelin.webp"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-ipamorelin-uk/",
-        "price": "£52.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/ipamorelin.png",
-        "dosage": "5mg×10vials"
       },
       {
         "vendor": "Be Better Peptides",
@@ -17638,14 +17486,6 @@
         "inStock": true,
         "dosage": "10mg",
         "image": "/images/products/my-peptides/pt-141-bremelanotide.webp"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-pt-141-uk/",
-        "price": "£36.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/pt-141.png",
-        "dosage": "10mg×10vials"
       },
       {
         "vendor": "Premio Peptides",
@@ -25467,14 +25307,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-5-amino-1mq-uk/",
-        "price": "£90.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/5-amino-1mq.png",
-        "dosage": "10mg×10vials"
-      },
-      {
         "vendor": "Be Better Peptides",
         "url": "https://bebetterpeptides.com/products/5-amino-1mq-5mg",
         "price": "£24.99",
@@ -32326,14 +32158,6 @@
         "dosage": "5mg"
       },
       {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-cjc-1295-no-dac-uk/",
-        "price": "£47.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/cjc-1295-no-dac.png",
-        "dosage": "5mg×10vials"
-      },
-      {
         "vendor": "Octagon Peptides",
         "url": "https://octagonpeptides.co.uk/product/cjc-no-dac-5-mg/",
         "price": "£27.50",
@@ -36119,14 +35943,6 @@
         "price": "£59.99",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/gagrilintide-5mg.webp"
-      },
-      {
-        "vendor": "Eva Peptide UK",
-        "url": "https://evapeptide.co.uk/product/buy-cagrilintide-uk/",
-        "price": "£142.00",
-        "inStock": true,
-        "image": "/images/products/eva-peptide/cagrilintide.png",
-        "dosage": "5mg×10vials"
       }
     ],
     "faq": [],
