@@ -2204,6 +2204,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["snap-8", "acetyl-octapeptide-3", "price-comparison", "cost-per-milligram", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "HMG Research Guide: No CAS, No Formula, No MW",
+    desc: "HMG is a urinary extract with no CAS, formula or molecular weight, and its LH activity is mostly hCG. What a 2024 composition analysis changes for research use.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "HMG",
+    slug: "hmg-research-guide",
+    image: "hmg-research-guide",
+    minutes: 14,
+    tags: ["hmg", "menotropin", "human-menopausal-gonadotropin", "fsh", "lh", "hcg", "research-hub"],
+  },
+
+  {
+    title: "HMG UK Price Per IU: £36.00 to £60.00, One Supplier",
+    desc: "Two UK HMG listings, one supplier, £0.48 to £0.80 per IU. Why HMG is priced per IU not per mg, what the £24 pen premium buys, and what a spec should state.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "HMG",
+    slug: "hmg-uk-price-guide",
+    image: "hmg-uk-price-guide",
+    minutes: 11,
+    tags: ["hmg", "menotropin", "price-comparison", "cost-per-iu", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [

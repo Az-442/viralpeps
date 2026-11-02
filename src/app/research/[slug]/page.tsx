@@ -11,6 +11,8 @@ import { hexarelinContent } from "@/data/research-content-hexarelin";
 import { hexarelinPriceContent } from "@/data/research-content-hexarelin-price";
 import { snap8Content } from "@/data/research-content-snap-8";
 import { snap8PriceContent } from "@/data/research-content-snap-8-price";
+import { hmgContent } from "@/data/research-content-hmg";
+import { hmgPriceContent } from "@/data/research-content-hmg-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -20,6 +22,8 @@ const EXTRA_CONTENT = {
   ...hexarelinPriceContent,
   ...snap8Content,
   ...snap8PriceContent,
+  ...hmgContent,
+  ...hmgPriceContent,
 };
 import compounds from "@/data/compounds.json";
 
