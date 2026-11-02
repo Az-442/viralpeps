@@ -5825,7 +5825,7 @@
     "name": "LOLDARX Research",
     "slug": "loldarx",
     "website": "https://loldarx.com",
-    "rating": 3.0,
+    "rating": 3,
     "verified": false,
     "country": "UK",
     "description": "UK peptide information and weight-loss support site. Publishes educational content on peptide terminology and everyday habits. No online catalogue, no published prices and no checkout — enquiries are handled over WhatsApp.",
@@ -5901,6 +5901,48 @@
       },
       "checkedAt": "2026-10-31T14:36:30.000Z",
       "note": "39 compounds catalogued. Price rows deliberately NOT added: site quotes EUR only (e.g. Tirzepatide 40mg = €80.99). VP formats all prices as GBP and sorts on GBP, so a EUR figure would render €80.99 as £80.99 (~15% understated) and rank in the wrong position. Awaiting GBP pricing or an FX-conversion decision."
+    }
+  },
+  {
+    "id": "omnichems",
+    "name": "Omnichems",
+    "slug": "omnichems",
+    "website": "https://omnichems.co.uk",
+    "rating": null,
+    "verified": false,
+    "country": "UK",
+    "description": "UK-based research peptide and capsule supplier with domestic fulfilment from UK stock. Catalogue is deliberately small (17 products) and every listing states a labelled strength plus a stated dispatch window; published sample reports are available where a batch has one on file, with the sample limits shown rather than summarised away. Standard vials are 10mg, with a capsule line covering SLU-PP-332 from 250mcg up to 20mg.",
+    "highlights": [
+      "UK-based domestic fulfilment",
+      "Free UK tracked shipping over £35",
+      "Published sample reports where available",
+      "17 products: peptides and capsules",
+      "Under 24h dispatch window"
+    ],
+    "shipping": [
+      "UK"
+    ],
+    "payment": [
+      "Card"
+    ],
+    "labTested": true,
+    "founded": null,
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": true,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analys",
+        "ruo": "research use only",
+        "reviews": "trustpilot",
+        "shipping": "tracked",
+        "contact": "contact"
+      },
+      "checkedAt": "2026-11-02T01:34:37.489Z"
     }
   }
 ]

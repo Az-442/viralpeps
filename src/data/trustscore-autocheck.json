@@ -3442,5 +3442,34 @@
       "coa": "coa",
       "review": null
     }
+  },
+  "omnichems": {
+    "slug": "omnichems",
+    "website": "https://omnichems.co.uk",
+    "checkedAt": "2026-11-02T01:34:37.489Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "review": "trustpilot",
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "buy research peptides uk | 99%+ purity, coa | omnichems"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 5,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "certificate of analys",
+      "review": "trustpilot"
+    }
   }
 }
