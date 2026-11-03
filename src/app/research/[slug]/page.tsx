@@ -13,6 +13,8 @@ import { snap8Content } from "@/data/research-content-snap-8";
 import { snap8PriceContent } from "@/data/research-content-snap-8-price";
 import { hmgContent } from "@/data/research-content-hmg";
 import { hmgPriceContent } from "@/data/research-content-hmg-price";
+import { klowContent } from "@/data/research-content-klow";
+import { klowPriceContent } from "@/data/research-content-klow-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -24,6 +26,8 @@ const EXTRA_CONTENT = {
   ...snap8PriceContent,
   ...hmgContent,
   ...hmgPriceContent,
+  ...klowContent,
+  ...klowPriceContent,
 };
 import compounds from "@/data/compounds.json";
 

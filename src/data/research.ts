@@ -2228,6 +2228,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["hmg", "menotropin", "price-comparison", "cost-per-iu", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "KLOW Research Guide",
+    desc: "KLOW is a four-peptide formulation with no CAS or formula of its own. Verified identity for BPC-157, GHK-Cu, TB-500 and KPV, and what the blend does not show.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "KLOW",
+    slug: "klow-research-guide",
+    image: "klow-research-guide",
+    minutes: 14,
+    tags: ["klow", "glow", "bpc-157", "ghk-cu", "tb-500", "kpv", "peptide-blend", "research-hub"],
+  },
+
+  {
+    title: "KLOW UK Price Per mg: £52.00 to £143.20",
+    desc: "Sixty-five UK KLOW sources, £0.65 to £1.79 per mg for an identical 80 mg blend. Why the spread exists, how to read a blend COA, and what a fair price looks like.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "KLOW",
+    slug: "klow-uk-price-guide",
+    image: "klow-uk-price-guide",
+    minutes: 11,
+    tags: ["klow", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
