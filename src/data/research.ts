@@ -2252,6 +2252,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["klow", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "Mazdutide Research Guide: Trials and Identity",
+    desc: "Two China approvals and five phase 3 trials — none on a research vial. PubChem-verified identity, the unpublished sequence, and what the data cannot show.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Mazdutide",
+    slug: "mazdutide-research-guide",
+    image: "mazdutide-research-guide",
+    minutes: 13,
+    tags: ["mazdutide", "ly3305677", "ibi362", "glp-1", "glucagon", "dual-agonist", "research-hub"],
+  },
+
+  {
+    title: "Mazdutide UK Price Per mg",
+    desc: "Eight UK mazdutide listings, all 10 mg, from £27.99 to £110.99 — £2.80 to £11.10 per mg. Why the spread exists and how to read a lot-specific COA first.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Mazdutide",
+    slug: "mazdutide-uk-price-guide",
+    image: "mazdutide-uk-price-guide",
+    minutes: 11,
+    tags: ["mazdutide", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [

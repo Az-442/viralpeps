@@ -15,6 +15,8 @@ import { hmgContent } from "@/data/research-content-hmg";
 import { hmgPriceContent } from "@/data/research-content-hmg-price";
 import { klowContent } from "@/data/research-content-klow";
 import { klowPriceContent } from "@/data/research-content-klow-price";
+import { mazdutideContent } from "@/data/research-content-mazdutide";
+import { mazdutidePriceContent } from "@/data/research-content-mazdutide-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -28,6 +30,8 @@ const EXTRA_CONTENT = {
   ...hmgPriceContent,
   ...klowContent,
   ...klowPriceContent,
+  ...mazdutideContent,
+  ...mazdutidePriceContent,
 };
 import compounds from "@/data/compounds.json";
 
