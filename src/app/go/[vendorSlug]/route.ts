@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
+import { allowClick } from "@/lib/click-rate-limit";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -17,19 +18,29 @@ export async function GET(
     return NextResponse.json({ error: "Vendor not found" }, { status: 404 });
   }
 
-  // Log the outbound click (site visit to the vendor's homepage/website)
-  // BEFORE redirecting — humans only. Bots still get redirected normally.
+  // Log the outbound click (visit to the vendor's website) BEFORE redirecting.
+  // Three gates, cheapest first: bot detection (headers), then behavioural
+  // rate limiting (debounce + ceilings). Bots and suppressed clicks still get
+  // redirected normally — they are simply not counted.
   try {
     const bot = detectBot(request.headers);
     if (!bot.isBot) {
-      await logClick({
-        type: "vendor-site",
-        vendorSlug,
-        vendorName: vendor.name,
-        destUrl: vendor.website,
-        refPage: request.headers.get("referer") || undefined,
-        visitorId: visitorId(request.headers),
-      });
+      const vid = visitorId(request.headers);
+      const ip =
+        request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+        request.headers.get("x-real-ip") ||
+        "0.0.0.0";
+      const verdict = allowClick(vid, ip, `site:${vendorSlug}`);
+      if (verdict.allow) {
+        await logClick({
+          type: "vendor-site",
+          vendorSlug,
+          vendorName: vendor.name,
+          destUrl: vendor.website,
+          refPage: request.headers.get("referer") || undefined,
+          visitorId: vid,
+        });
+      }
     }
   } catch {
     /* never block the redirect on a logging failure */

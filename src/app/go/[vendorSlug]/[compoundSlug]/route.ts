@@ -3,6 +3,7 @@ import compoundsData from "@/data/compounds.json";
 import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
+import { allowClick } from "@/lib/click-rate-limit";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -55,15 +56,25 @@ export async function GET(
   try {
     const bot = detectBot(request.headers);
     if (!bot.isBot) {
-      await logClick({
-        type: "product",
-        vendorSlug,
-        vendorName: vendor.name,
-        compoundSlug: compound.slug,
-        destUrl: match.url,
-        refPage: request.headers.get("referer") || undefined,
-        visitorId: visitorId(request.headers),
-      });
+      const vid = visitorId(request.headers);
+      const ip =
+        request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+        request.headers.get("x-real-ip") ||
+        "0.0.0.0";
+      // Debounce per (visitor, vendor+compound): repeat clicks on the same
+      // product collapse to one, and rate ceilings stop scrapers.
+      const verdict = allowClick(vid, ip, `product:${vendorSlug}:${compound.slug}`);
+      if (verdict.allow) {
+        await logClick({
+          type: "product",
+          vendorSlug,
+          vendorName: vendor.name,
+          compoundSlug: compound.slug,
+          destUrl: match.url,
+          refPage: request.headers.get("referer") || undefined,
+          visitorId: vid,
+        });
+      }
     }
   } catch {
     /* never block the redirect on a logging failure */
