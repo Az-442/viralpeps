@@ -27,6 +27,76 @@ best-tirzepatide-peptide}`
 
 ---
 
+## ✅ DONE — OXYTOCIN NASAL SPRAY SILO (commit `953666ee`, 1 Nov 2026)
+
+6 spokes, 1,219–1,330 words each, zero 12-word shingle overlap:
+
+| # | slug | words |
+|---|---|---|
+| 01 | where-to-buy-oxytocin-nasal-spray-uk | 1,240 |
+| 02 | cheapest-oxytocin-nasal-spray-uk | 1,287 |
+| 03 | oxytocin-nasal-spray-price-comparison-uk | 1,289 |
+| 04 | buy-oxytocin-nasal-spray-online-uk | 1,330 |
+| 05 | oxytocin-nasal-spray-uk-supplier | 1,219 |
+| 06 | best-oxytocin-nasal-spray-peptide | 1,227 |
+
+**Autocomplete substitutions (4 of 6 modifiers returned 0 UK results):**
+- `cheapest {c} uk` → 0. Used target anyway; harvest `oxytocin nasal spray cheap` returns UK suggs.
+- `{c} price comparison uk` → 0. Used target anyway; `oxytocin nasal spray price` returns UK suggs.
+- `{c} uk supplier` → 0. Used target anyway; `oxytocin nasal spray supplier` returns UK suggs.
+- `best {c} peptide` → 0 as a phrase. Used target anyway; `best oxytocin nasal spray` returns UK suggs including `best oxytocin nasal spray reddit` and `... for women`.
+- Only `where to buy {c} uk` and `buy {c} online uk` returned results for the exact modifier.
+
+**Data layer notes:** `oxytocin-nasal-spray` had only 2 sources, and one (`HiPeptides`) had an
+image URL written into `dosage`. The silo merges `oxytocin-nasal-spray` + `oxytocin-vial-express`
++ `oxytocin-pen-express` (dedup on vendor|url|price) and adds a `packLabel()` guard that rejects
+image URLs. `perMg` added alongside `ml`/`perMl` because the catalogue is volume-priced.
+
+---
+
+## ✅ DONE — CJC-1295 SILO (commit `2a4905e8`, 31 Oct 2026)
+
+6 spokes, all live 200 verified: `/compound-guides/{where-to-buy-cjc-1295-uk,
+cheapest-cjc-1295-uk, cjc-1295-price-uk, buy-cjc-1295-online-uk, cjc-1295-supplier-uk,
+best-cjc-1295-peptide}`. Rendered 1,811–2,046 words · titles 44–49c · descriptions 153–158c.
+56 price rows from compounds.json. Hub tiles render on `/compounds/cjc-1295`. Sitemap lists all 6.
+
+**Two modifiers substituted** (Google UK autocomplete returned 0 results for the hyphenated form):
+`cjc-1295 price comparison uk` → `cjc-1295 price uk` (exact #1); `cjc-1295 uk supplier` →
+`cjc-1295 supplier uk` (matches `cjc-1295 supplier` head term). `cjc-1295 uk` is itself an
+exact autocomplete entry, validating the `-uk` suffix on the other four.
+
+**Collision:** `kw-phase-1-list.md` holds only informational `cjc-1295-suppliers-uk` and
+`cjc-1295-with-dac-*` articles — no shopping intent overlap. None removed.
+
+**Next in queue: oxytocin-nasal-spray** (cjc-1295-ipamorelin is the near-duplicate blend, skipped
+deliberately — see queue note).
+
+---
+
+## ✅ DONE — CJC-1295 + IPAMORELIN SILO (commit `0ebabe65`, 4 Nov 2026)
+
+Queue item 5 of Tier 1. Built per the locked SOP.
+
+- **Slug:** `cjc-1295-ipamorelin-blend` (the registry slug — NOT `cjc-1295-ipamorelin`, which is a
+  child variant entry). 42 sources / 36 vendors in `compounds.json`.
+- **Spokes (6):** `where-to-buy-cjc-1295-ipamorelin-uk`, `cheapest-cjc-1295-ipamorelin-uk`,
+  `cjc-1295-ipamorelin-price-uk`, `buy-cjc-1295-ipamorelin-online-uk`,
+  `cjc-1295-ipamorelin-supplier-uk`, `best-cjc-1295-ipamorelin-peptide`.
+- **Words:** 1,424 / 1,387 / 1,395 / 1,373 / 1,426 / 1,344.
+- **Key data decision:** `mgFromLabel()` SUMS every mg figure, so a `5mg+5mg` vial counts as 10mg of
+  total peptide. Pricing off a single component would understate cost per mg by 2x. Documented in
+  `cjc-1295-ipamorelin-silo.ts`.
+- **Modifiers substituted (2 of 6):** `cjc-1295 ipamorelin price comparison uk` → zero exact
+  results, used `cjc-1295 ipamorelin price uk` (exact type-512 suggestion). `cjc-1295 ipamorelin uk
+  supplier` → zero in every ordering, used `cjc-1295 ipamorelin supplier`.
+- **Collision:** `kw-phase-1-list.md` holds only informational `where-to-buy-peptides-uk` (pillar),
+  `cjc-1295-suppliers-uk` and `cjc-1295-with-dac-*`. No shopping overlap for the blend; none removed.
+
+**Next in queue: hmg-75iu** (Tier 1, last remaining item).
+
+---
+
 ## ✅ DONE — SEMAGLUTIDE SILO (commit `7b7f3051`)
 
 Queue item 2 of 5. Built per the locked SOP. Deploy verified live 2026-09-30.

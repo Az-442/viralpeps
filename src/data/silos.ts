@@ -41,6 +41,11 @@ import { SURV_SPOKES, getSurvStats, type SurvStats } from "@/data/survodutide-si
 import { HCG_SPOKES, getHcgStats, type HcgStats } from "@/data/hcg-silo";
 import { OX_SPOKES, getOxStats, type OxStats } from "@/data/oxytocin-nasal-spray-silo";
 import { CJC_SPOKES, getCjcStats, type CjcStats } from "@/data/cjc-1295-silo";
+import {
+  CJC_IPA_SPOKES,
+  getCjcIpaStats,
+  type CjcIpaStats,
+} from "@/data/cjc-1295-ipamorelin-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -266,6 +271,14 @@ export const SILOS: Silo[] = [
       "Oxytocin nasal spray buying guides — verified UK suppliers, lowest price per bottle, full price comparison, CoA and batch checks and TrustScore rankings.",
     spokes: OX_SPOKES as unknown as SiloSpoke[],
     getStats: () => getOxStats() as unknown as SiloStats,
+  },
+  {
+    compoundSlug: "cjc-1295-ipamorelin-blend",
+    name: "CJC-1295 + Ipamorelin",
+    blurb:
+      "CJC-1295 + Ipamorelin blend buying guides — verified UK suppliers, lowest price per mg of total vial content, full price table, CoA and batch-ratio checks and TrustScore rankings.",
+    spokes: CJC_IPA_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getCjcIpaStats() as unknown as SiloStats,
   },
 ];
 
