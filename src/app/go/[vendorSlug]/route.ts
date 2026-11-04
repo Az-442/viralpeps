@@ -46,5 +46,10 @@ export async function GET(
     /* never block the redirect on a logging failure */
   }
 
-  return NextResponse.redirect(vendor.website, 302);
+  const res = NextResponse.redirect(vendor.website, 302);
+  // Keep these redirect URLs out of the search index and stop passing link
+  // equity to supplier sites. noindex requires crawlers to fetch the URL, so
+  // robots.txt Disallow would be contradictory and is deliberately NOT used.
+  res.headers.set("X-Robots-Tag", "noindex, nofollow");
+  return res;
 }

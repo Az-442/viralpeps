@@ -81,5 +81,10 @@ export async function GET(
   }
 
   // 6. 302 redirect to the supplier's product page
-  return NextResponse.redirect(match.url, 302);
+  const res = NextResponse.redirect(match.url, 302);
+  // Keep these redirect URLs out of the search index and stop passing link
+  // equity to supplier product pages. noindex requires crawlers to fetch the
+  // URL, so robots.txt Disallow would be contradictory and is NOT used.
+  res.headers.set("X-Robots-Tag", "noindex, nofollow");
+  return res;
 }

@@ -114,7 +114,7 @@ export default function RetaPriceTable({
                     <Link
                       href={`/go/${row.vendorSlug}/retatrutide`}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="inline-block text-[12px] font-bold text-blue-600 border border-blue-200 bg-white px-[13px] py-[6px] rounded-lg hover:bg-blue-50"
                     >
                       Visit →
