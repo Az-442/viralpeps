@@ -17,6 +17,8 @@ import { klowContent } from "@/data/research-content-klow";
 import { klowPriceContent } from "@/data/research-content-klow-price";
 import { mazdutideContent } from "@/data/research-content-mazdutide";
 import { mazdutidePriceContent } from "@/data/research-content-mazdutide-price";
+import { gonadorelinContent } from "@/data/research-content-gonadorelin";
+import { gonadorelinPriceContent } from "@/data/research-content-gonadorelin-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -32,6 +34,8 @@ const EXTRA_CONTENT = {
   ...klowPriceContent,
   ...mazdutideContent,
   ...mazdutidePriceContent,
+  ...gonadorelinContent,
+  ...gonadorelinPriceContent,
 };
 import compounds from "@/data/compounds.json";
 

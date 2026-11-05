@@ -2276,6 +2276,29 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["mazdutide", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
   },
+  {
+    title: "Gonadorelin Research Guide: GnRH Pharmacology",
+    desc: "The native GnRH decapeptide, PubChem-verified identity, and why delivery pattern rather than dose decides whether it drives or suppresses the reproductive axis.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Gonadorelin",
+    slug: "gonadorelin-research-guide",
+    image: "gonadorelin-research-guide",
+    minutes: 14,
+    tags: ["gonadorelin", "gnrh", "lhrh", "pituitary", "reproductive-axis", "research-hub"],
+  },
+
+  {
+    title: "Gonadorelin UK Price Per mg",
+    desc: "Six UK gonadorelin listings from \u00a39.75 to \u00a342.99 \u2014 \u00a34.88 to \u00a38.60 per mg. Why the spread is vial size, and how to read a lot-specific COA.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Gonadorelin",
+    slug: "gonadorelin-uk-price-guide",
+    image: "gonadorelin-uk-price-guide",
+    minutes: 11,
+    tags: ["gonadorelin", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
