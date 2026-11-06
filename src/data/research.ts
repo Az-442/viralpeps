@@ -2299,6 +2299,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["gonadorelin", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "GHRP-6 Research Guide: The Original Secretagogue",
+    desc: "GHRP-6 was designed before anyone knew its receptor. PubChem-verified identity, the ACTH/cortisol bundle, and where the evidence stops.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "GHRP-6",
+    slug: "ghrp-6-research-guide",
+    image: "ghrp-6-research-guide",
+    minutes: 14,
+    tags: ["ghrp-6", "ghrelin", "ghs-r1a", "growth-hormone", "secretagogue", "research-hub"],
+  },
+
+  {
+    title: "GHRP-6 UK Price Per mg",
+    desc: "Thirty-two UK GHRP-6 listings, £7.95 to £49.99 for 5 mg — £1.59 to £10.00 per mg. Why the spread exists and how to read a lot-matched COA.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "GHRP-6",
+    slug: "ghrp-6-uk-price-guide",
+    image: "ghrp-6-uk-price-guide",
+    minutes: 11,
+    tags: ["ghrp-6", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [

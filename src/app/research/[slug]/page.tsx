@@ -19,6 +19,8 @@ import { mazdutideContent } from "@/data/research-content-mazdutide";
 import { mazdutidePriceContent } from "@/data/research-content-mazdutide-price";
 import { gonadorelinContent } from "@/data/research-content-gonadorelin";
 import { gonadorelinPriceContent } from "@/data/research-content-gonadorelin-price";
+import { ghrp6Content } from "@/data/research-content-ghrp-6";
+import { ghrp6PriceContent } from "@/data/research-content-ghrp-6-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -36,6 +38,8 @@ const EXTRA_CONTENT = {
   ...mazdutidePriceContent,
   ...gonadorelinContent,
   ...gonadorelinPriceContent,
+  ...ghrp6Content,
+  ...ghrp6PriceContent,
 };
 import compounds from "@/data/compounds.json";
 
