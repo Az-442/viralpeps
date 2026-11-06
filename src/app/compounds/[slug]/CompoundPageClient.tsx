@@ -85,6 +85,27 @@ const INFO_CONTENT_TABS = INFO_TABS.filter((t) => t.id !== "prices");
 // HYBRID split: high-value sections always visible; minor sections behind tabs.
 // Every tabbed panel is still rendered in the DOM (CSS-hidden) so all copy is indexable.
 const ALWAYS_VISIBLE_IDS = ["overview", "molecular", "dosing", "safety"] as const;
+
+// Per-compound H2 overrides for the always-visible profile sections.
+// Default heading is `${compound.name} — ${tab.label}`, which repeats the
+// compound name with no keyword behind it. These add the search term that is
+// actually ranking for the compound without changing page structure.
+const H2_OVERRIDES: Record<string, Record<string, string>> = {
+  survodutide: {
+    prices: "Survodutide Price Comparison UK",
+    overview: "Survodutide — Price Per mg",
+    molecular: "Survodutide — Buy Survodutide UK",
+    dosing: "Survodutide — Dosing & Research",
+    safety: "Survodutide — Safety & Side Effects",
+  },
+  mazdutide: {
+    prices: "Mazdutide Price Comparison UK",
+    overview: "Mazdutide — Price Per mg",
+    molecular: "Mazdutide — Buy Mazdutide UK",
+    dosing: "Mazdutide — Dosing & Research",
+    safety: "Mazdutide — Safety & Side Effects",
+  },
+};
 const ALWAYS_VISIBLE_TABS = INFO_CONTENT_TABS.filter((t) =>
   (ALWAYS_VISIBLE_IDS as readonly string[]).includes(t.id)
 );
@@ -747,7 +768,7 @@ export default function CompoundPageClient({
       {/* ===== RESEARCH PROFILE — flat H2 sections (no tabs, fully indexable) ===== */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
         <div className="p-5 md:p-6">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">{compound.name} Price Comparison</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-2">{H2_OVERRIDES[compound.slug]?.prices || `${compound.name} Price Comparison`}</h2>
           <p className="text-base text-gray-500">
             Compare {productCount} prices for {compound.name}. Cheapest: <strong className="text-green-600">&pound;{minPrice.toFixed(2)}</strong>. Average: <strong>&pound;{avgPrice.toFixed(2)}</strong>.
           </p>
@@ -1093,7 +1114,7 @@ export default function CompoundPageClient({
       {ALWAYS_VISIBLE_TABS.map((tab) => (
         <section key={tab.id} id={`profile-${tab.id}`} className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6 scroll-mt-24">
           <div className="px-5 md:px-6 pt-5 md:pt-6 pb-2 border-b border-gray-100 bg-gray-50">
-            <h2 className="text-xl font-bold text-gray-900">{compound.name} — {tab.label}</h2>
+            <h2 className="text-xl font-bold text-gray-900">{H2_OVERRIDES[compound.slug]?.[tab.id] || `${compound.name} — ${tab.label}`}</h2>
           </div>
           <div className="p-5 md:p-6">
             {tabContent[tab.id]}

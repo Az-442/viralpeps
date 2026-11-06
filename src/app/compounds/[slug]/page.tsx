@@ -95,8 +95,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     pinealon: "Pinealon UK: Compare Prices & Buy Pinealon Peptide (Synthetic Tripeptide)",
     dihexa: "Dihexa UK: Compare Prices & Buy Dihexa Peptide (Synaptogenesis & Cognition)",
     cerebrolysin: "Cerebrolysin UK: Compare Prices & Buy Cerebrolysin Peptide (Neurotrophic Peptide Complex)",
-    survodutide: "Survodutide UK: Compare Prices & Buy Survodutide Peptide (GLP-1/Glucagon Dual Agonist)",
-    mazdutide: "Mazdutide UK: Compare Prices & Buy Mazdutide Peptide (GLP-1/Glucagon Dual Agonist)",
+    survodutide: "Survodutide Price UK: Compare 5 Suppliers & Cost Per mg",
+    mazdutide: "Mazdutide Price UK: Compare 8 Suppliers & Cost Per mg",
     hcg: "HCG Price UK: Compare Cost Per IU, Kit & Supplier",
     "ahk-cu": "AHK-Cu UK: Compare Prices & Buy AHK-Cu Peptide (Copper Peptide for Skin & Repair)",
     "kisspeptin-10": "Kisspeptin-10 UK: Compare Prices & Buy Kisspeptin-10 Peptide (Reproductive Hormone)",
@@ -129,6 +129,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       "Compare Selank prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
     "ghrp-2":
       "Compare GHRP-2 prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    survodutide:
+      "Compare Survodutide prices from 5 verified UK suppliers, from £39.00 per vial. Cost per mg, purity and stock checked daily. See the cheapest UK source now.",
+    mazdutide:
+      "Compare Mazdutide prices from 8 verified UK suppliers, from £27.99 per 10mg vial. Cost per mg, purity and stock checked daily. See the cheapest UK source now.",
   };
   const description =
     seoDescriptions[slug] ||
@@ -208,6 +212,8 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
     "igf-1-lr3": "IGF-1 LR3 Price UK: Compare Cost Per mg & Supplier",
     "cjc-1295-ipamorelin":
       "CJC-1295 + Ipamorelin Price UK: Compare Cost Per mg & Supplier",
+    survodutide: "Survodutide Price UK: Compare Cost Per mg & Supplier",
+    mazdutide: "Mazdutide Price UK: Compare Cost Per mg & Supplier",
   };
 
   // Sort vendors: featured first (by flagged vendor), then verified, then by price
