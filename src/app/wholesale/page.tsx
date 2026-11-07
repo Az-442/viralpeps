@@ -178,7 +178,7 @@ export default function WholesalePage() {
               <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200 font-extrabold text-xl text-blue-600">LD</div>
               <div className="min-w-0 flex-1">
                 <h3 className="font-semibold text-gray-900 text-base">Labsource Distribution</h3>
-                <div className="flex items-center gap-2 mt-0.5"><span className="text-amber-500 text-sm">★ 4.8</span><span className="text-xs text-gray-500">UK</span></div>
+                <div className="flex items-center gap-2 mt-0.5"><span className="inline-flex items-center gap-1 text-xs font-bold text-gray-900 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full">TrustScore 85</span><span className="text-xs text-gray-500">UK</span></div>
                 <div className="flex flex-wrap items-center gap-1.5 mt-2">
                   <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full"><svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>Wholesale Verified</span>
                   <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full"><svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" /></svg>COA</span>
@@ -195,7 +195,7 @@ export default function WholesalePage() {
               <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200 font-extrabold text-xl text-purple-600">PW</div>
               <div className="min-w-0 flex-1">
                 <h3 className="font-semibold text-gray-900 text-base">Peptide Wholesale Co</h3>
-                <div className="flex items-center gap-2 mt-0.5"><span className="text-amber-500 text-sm">★ 4.6</span><span className="text-xs text-gray-500">UK</span></div>
+                <div className="flex items-center gap-2 mt-0.5"><span className="inline-flex items-center gap-1 text-xs font-bold text-gray-900 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full">TrustScore 85</span><span className="text-xs text-gray-500">UK</span></div>
                 <div className="flex flex-wrap items-center gap-1.5 mt-2">
                   <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full"><svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>Wholesale Verified</span>
                 </div>
