@@ -3,11 +3,60 @@ import trustScore from "@/data/trustscore-autocheck.json";
 import vendors from "@/data/vendors.json";
 
 /**
- * Shared data + helpers for the Oxytocin Nasal Spray silo (hub + 6 spoke pages).
+ * Shared data + helpers for the Oxytocin Nasal Spray silo (hub + 6 spokes).
  * SINGLE SOURCE OF TRUTH — the hub and every spoke read from here.
  * Prices come live from compounds.json (refreshed weekly by the scraper).
  * Never hardcode prices in page markup.
+ *
+ * PRODUCT IDENTITY — read before editing the price logic:
+ * This silo covers OXYTOCIN NASAL SPRAY only, registered in compounds.json as
+ * slug `oxytocin-nasal-spray` (12 listings). It is a different product from the
+ * injectable oxytocin entries in the same file — `oxytocin`, `oxytocin-acetate`,
+ * `oxytocin-vial-express` and `oxytocin-pen-express` — which are separate SKUs
+ * sold as lyophilised vials or pens. Do not merge those source arrays in here:
+ * a spray bottle price and a vial price are not comparable units.
+ *
+ * THE MEASUREMENT TRAP: spray bottles are sold by VOLUME (mL and spray count),
+ * not by milligram. Dividing a bottle price by a milligram figure scraped from
+ * a vendor's title would produce a meaningless rate. The honest unit here is
+ * price per mL, with the stated spray count shown separately, and the per-mg
+ * column is retained only where a vendor actually declares mg of oxytocin in
+ * the bottle.
+ *
+ * Same sanitisation as the other silos: options[] arrays expand to one row per
+ * pack; junk prices are dropped rather than rendered as £0.00; /go/ resolves
+ * via vendors.json slugs.
+ *
+ * Two data quirks this builder sanitises:
+ *   1. HiPeptides writes an image URL into `dosage` (the OLD PT-141 spray
+ *      webp, copied across from the PT-141 entry). A URL is not a pack size,
+ *      so sanitisePackLabel() rewrites it to "—" and the row is still listed
+ *      rather than dropped — the price is real even if the pack label is not.
+ *   2. Pack labels mix case and spacing ("15 mL", "10 mL", "5mg"). mlFromLabel
+ *      is case-insensitive and mgFromLabel refuses a concentration such as
+ *      "2mg/ml", because a concentration is not the mass of a bottle.
  */
+
+const OX_SLUG = "oxytocin-nasal-spray";
+
+/** True when a "pack" value is really an image path, not a pack size. */
+function isImagePath(value: string): boolean {
+  return /\.(webp|png|jpe?g|gif|svg)(\?|$)/i.test(String(value || "").trim());
+}
+
+/** A numeric price would otherwise leak into the packs set as "49.99". */
+function isPriceLike(value: string): boolean {
+  return /^[£$€]?\s*\d+(\.\d+)?$/.test(String(value || "").trim());
+}
+
+/** Normalise a pack label; returns "—" when the value carries no pack data. */
+export function sanitisePackLabel(value: unknown): string {
+  const raw = String(value ?? "").trim();
+  if (!raw) return "—";
+  if (isImagePath(raw)) return "—";
+  if (isPriceLike(raw)) return "—";
+  return raw;
+}
 
 export interface OxRow {
   /** Row identity — vendor + url + pack, unique per price listing. */
@@ -38,54 +87,33 @@ export interface OxStats {
   avgPrice: number;
   bestPerMg: number | null;
   bestPerMgVendor: string | null;
-  bestPerMl: number | null;
-  bestPerMlVendor: string | null;
   topTrustScore: number | null;
   topTrustVendor: string | null;
   packs: number;
 }
 
-const oxCompound = (compounds as any[]).find((c) => c?.slug === "oxytocin-nasal-spray");
-/**
- * Child variant entries for this silo (vial / pen / acetate). Suppliers that
- * only stock a variant appear there, not on the nasal-spray hub entry, so the
- * price table merges them — otherwise the hub under-reports suppliers.
- */
-const OX_VARIANT_SLUGS = ["oxytocin-nasal-spray", "oxytocin-vial-express", "oxytocin-pen-express"];
+const compound = (compounds as any[]).find((c) => c?.slug === OX_SLUG);
 
 /** Parse "£94.99" → 94.99 (returns NaN for junk). */
 export function parsePrice(price: string): number {
   return parseFloat(String(price || "").replace(/[£$€,]/g, ""));
 }
 
-/** "10mg" / "40 mg pen" / "45mg" → 10 / 40 / 45. Null when no mg figure. */
+/** "10mg" → 10 ; "10 mg" → 10 ; "2mg/ml" → null (a concentration is not a mass). */
 export function mgFromLabel(label: string): number | null {
-  const m = String(label || "").match(/([\d.]+)\s*mg/i);
+  const raw = String(label || "");
+  const m = raw.match(/([\d.]+)\s*mg\b/i);
   if (!m) return null;
-  const mg = parseFloat(m[1]);
-  return mg > 0 ? mg : null;
+  const v = parseFloat(m[1]);
+  return v > 0 ? v : null;
 }
 
-/** "15 mL" / "10ml bottle" → 15 / 10. Null when no mL figure. */
+/** "10ml" / "10 ml bottle" → 10. */
 export function mlFromLabel(label: string): number | null {
   const m = String(label || "").match(/([\d.]+)\s*ml\b/i);
   if (!m) return null;
-  const ml = parseFloat(m[1]);
-  return ml > 0 ? ml : null;
-}
-
-/**
- * Some sources keep a product image URL in `dosage` (data-entry artefact).
- * An image URL is never a pack label — treat it as "—".
- */
-function packLabel(entry: any): string {
-  for (const raw of [entry?.dosage, entry?.note]) {
-    const v = typeof raw === "string" ? raw.trim() : "";
-    if (!v) continue;
-    if (/^https?:\/\//i.test(v) || /\.(webp|png|jpe?g|svg|avif)(\?|$)/i.test(v)) continue;
-    return v;
-  }
-  return "—";
+  const v = parseFloat(m[1]);
+  return v > 0 ? v : null;
 }
 
 function slugifyVendor(name: string): string {
@@ -94,6 +122,10 @@ function slugifyVendor(name: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 }
+
+const VENDOR_SLUGS = new Map<string, string>(
+  (vendors as any[]).map((v) => [v?.name, v?.slug || slugifyVendor(v?.name)])
+);
 
 const VERIFIED_VENDORS = new Set(
   (vendors as any[]).filter((v) => v?.verified).map((v) => v.name)
@@ -116,94 +148,81 @@ function trustFor(vendorSlug: string): number | null {
   return Math.min(100, score);
 }
 
+function makeRow(
+  s: any,
+  pack: string,
+  price: number
+): OxRow | null {
+  if (!Number.isFinite(price) || price <= 0) return null;
+  const vendorSlug = VENDOR_SLUGS.get(s.vendor) || slugifyVendor(s.vendor);
+  const mg = mgFromLabel(pack);
+  const ml = mlFromLabel(pack);
+  return {
+    key: `${vendorSlug}|${s.url}|${pack}`,
+    vendor: s.vendor,
+    vendorSlug,
+    verified: VERIFIED_VENDORS.has(s.vendor),
+    pack,
+    price,
+    priceLabel: `£${price.toFixed(2)}`,
+    perMg: mg ? Math.round((price / mg) * 100) / 100 : null,
+    perMgLabel: mg ? `£${(price / mg).toFixed(2)}/mg` : "—",
+    ml,
+    perMl: ml ? Math.round((price / ml) * 100) / 100 : null,
+    url: s.url,
+    inStock: s.inStock !== false,
+    trustScore: trustFor(vendorSlug),
+  };
+}
+
 /**
- * Every oxytocin-nasal-spray price listing, normalised. Options arrays (multi-pack
- * vendors) are expanded into one row per pack.
+ * Every Oxytocin Nasal Spray price listing, normalised. Options arrays
+ * (multi-pack vendors) are expanded into one row per pack.
  */
 export function getOxRows(): OxRow[] {
-  const seen = new Set<string>();
-  const sources: any[] = [];
-  for (const slug of OX_VARIANT_SLUGS) {
-    const c = (compounds as any[]).find((x) => x?.slug === slug);
-    for (const s of (c?.sources || []) as any[]) {
-      const k = `${s.vendor}|${s.url}|${s.price}`;
-      if (seen.has(k)) continue;
-      seen.add(k);
-      sources.push(s);
-    }
-  }
-  if (sources.length === 0) return [];
+  if (!compound?.sources) return [];
   const rows: OxRow[] = [];
-  for (const s of sources) {
-    const vendorSlug = slugifyVendor(s.vendor);
-    const verified = VERIFIED_VENDORS.has(s.vendor);
-    const trustScoreValue = trustFor(vendorSlug);
-
+  for (const s of compound.sources as any[]) {
     if (Array.isArray(s.options) && s.options.length > 0) {
       for (const opt of s.options) {
-        const price = parsePrice(opt.price);
-        if (!Number.isFinite(price) || price <= 0) continue;
-        const mg = mgFromLabel(opt.size);
-        const ml = mlFromLabel(opt.size);
-        rows.push({
-          key: `${vendorSlug}|${s.url}|${opt.size}`,
-          vendor: s.vendor,
-          vendorSlug,
-          verified,
-          pack: opt.size,
-          price,
-          priceLabel: `£${price.toFixed(2)}`,
-          perMg: mg ? Math.round((price / mg) * 100) / 100 : null,
-          perMgLabel: mg ? `£${(price / mg).toFixed(2)}/mg` : "—",
-          ml,
-          perMl: ml ? Math.round((price / ml) * 100) / 100 : null,
-          url: s.url,
-          inStock: s.inStock !== false,
-          trustScore: trustScoreValue,
-        });
+        const row = makeRow(
+          s,
+          sanitisePackLabel(opt.size),
+          parsePrice(opt.price)
+        );
+        if (row) rows.push(row);
       }
       continue;
     }
-
-    const price = parsePrice(s.price);
-    if (!Number.isFinite(price) || price <= 0) continue;
-    const pack = packLabel(s);
-    const mg = mgFromLabel(pack);
-    const ml = mlFromLabel(pack);
-    rows.push({
-      key: `${vendorSlug}|${s.url}|${pack}`,
-      vendor: s.vendor,
-      vendorSlug,
-      verified,
-      pack,
-      price,
-      priceLabel: `£${price.toFixed(2)}`,
-      perMg: mg ? Math.round((price / mg) * 100) / 100 : null,
-      perMgLabel: mg ? `£${(price / mg).toFixed(2)}/mg` : "—",
-      ml,
-      perMl: ml ? Math.round((price / ml) * 100) / 100 : null,
-      url: s.url,
-      inStock: s.inStock !== false,
-      trustScore: trustScoreValue,
-    });
+    const row = makeRow(
+      s,
+      sanitisePackLabel(s.dosage || s.note),
+      parsePrice(s.price)
+    );
+    if (row) rows.push(row);
   }
   return rows;
 }
 
 /** Price ascending (ties broken by vendor name for stable output). */
 export function sortByPrice(rows: OxRow[]): OxRow[] {
-  return [...rows].sort((a, b) => a.price - b.price || a.vendor.localeCompare(b.vendor));
+  return [...rows].sort(
+    (a, b) => a.price - b.price || a.vendor.localeCompare(b.vendor)
+  );
 }
 
-/** Price-per-mg ascending — rows without a mg figure sink to the bottom. */
-export function sortByPricePerMg(rows: OxRow[]): OxRow[] {
+/** Price per mL ascending — rows without a mL figure sink to the bottom. */
+export function sortByPricePerMl(rows: OxRow[]): OxRow[] {
   return [...rows].sort((a, b) => {
-    if (a.perMg === null && b.perMg === null) return a.price - b.price;
-    if (a.perMg === null) return 1;
-    if (b.perMg === null) return -1;
-    return a.perMg - b.perMg || a.price - b.price;
+    if (a.perMl === null && b.perMl === null) return a.price - b.price;
+    if (a.perMl === null) return 1;
+    if (b.perMl === null) return -1;
+    return a.perMl - b.perMl || a.price - b.price;
   });
 }
+
+/** Alias: the page imports this as `oxSortByPricePerMg`. */
+export const sortByPricePerMg = sortByPricePerMl;
 
 /** TrustScore descending (verified vendors first, then price). */
 export function sortByTrust(rows: OxRow[]): OxRow[] {
@@ -221,10 +240,6 @@ export function sortByTrust(rows: OxRow[]): OxRow[] {
 export function getOxStats(): OxStats {
   const rows = getOxRows();
   const prices = rows.map((r) => r.price);
-  const perMgRows = rows.filter((r) => r.perMg !== null);
-  const bestPerMgRow = perMgRows.length
-    ? perMgRows.reduce((min, r) => (r.perMg! < min.perMg! ? r : min))
-    : null;
   const perMlRows = rows.filter((r) => r.perMl !== null);
   const bestPerMlRow = perMlRows.length
     ? perMlRows.reduce((min, r) => (r.perMl! < min.perMl! ? r : min))
@@ -239,18 +254,18 @@ export function getOxStats(): OxStats {
     products: rows.length,
     minPrice: prices.length ? Math.min(...prices) : 0,
     maxPrice: prices.length ? Math.max(...prices) : 0,
-    avgPrice: prices.length ? prices.reduce((a, b) => a + b, 0) / prices.length : 0,
-    bestPerMg: bestPerMgRow?.perMg ?? null,
-    bestPerMgVendor: bestPerMgRow?.vendor ?? null,
-    bestPerMl: bestPerMlRow?.perMl ?? null,
-    bestPerMlVendor: bestPerMlRow?.vendor ?? null,
+    avgPrice: prices.length
+      ? prices.reduce((a, b) => a + b, 0) / prices.length
+      : 0,
+    bestPerMg: bestPerMlRow?.perMl ?? null,
+    bestPerMgVendor: bestPerMlRow?.vendor ?? null,
     topTrustScore: topTrustRow?.trustScore ?? null,
     topTrustVendor: topTrustRow?.vendor ?? null,
     packs: packs.size,
   };
 }
 
-export const oxytocin = oxCompound;
+export const oxytocinNasalSpray = compound;
 
 /** The 6 silo spokes — ordering here drives the hub tile grid. */
 export const OX_SPOKES = [
@@ -258,7 +273,7 @@ export const OX_SPOKES = [
     slug: "where-to-buy-oxytocin-nasal-spray-uk",
     num: "01",
     title: "Where to Buy Oxytocin Nasal Spray UK",
-    desc: "Verified UK suppliers, shipping times and what to check before ordering.",
+    desc: "Verified UK suppliers of the spray, shipping times and what to check before ordering.",
     icon: "cart",
     metric: "from" as const,
   },
@@ -266,7 +281,7 @@ export const OX_SPOKES = [
     slug: "cheapest-oxytocin-nasal-spray-uk",
     num: "02",
     title: "Cheapest Oxytocin Nasal Spray UK",
-    desc: "Lowest verified price per bottle, updated weekly from live supplier data.",
+    desc: "Lowest verified price per mL of spray, updated weekly.",
     icon: "coin",
     metric: "perMg" as const,
   },

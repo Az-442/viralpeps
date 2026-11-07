@@ -583,3 +583,7 @@ export const spokes: Spoke[] = [
 export function getSpoke(slug: string): Spoke | undefined {
   return spokes.find((s) => s.slug === slug);
 }
+
+/** The page imports the lookup as `getOxSpoke`. */
+export const getOxSpoke = getSpoke;
+
