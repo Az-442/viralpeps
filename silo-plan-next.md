@@ -54,6 +54,26 @@ image URLs. `perMg` added alongside `ml`/`perMl` because the catalogue is volume
 
 ---
 
+## ⚠️ RE-RUN 7 NOV — OXYTOCIN SILO DATA LAYER REPAIRED (commit `1b79b229`)
+
+The 1 Nov build (`953666ee`) was **not actually live**: `silos.ts`, the route imports and the
+6 spokes existed, but `oxytocin-nasal-spray-silo.ts` still exported the old `perMl`-less API
+and `oxytocin-nasal-spray-spokes.ts` had no `getOxSpoke` export, so the page could not compile
+against it. This run rewrote the silo data layer (slug-scoped lookup, `sanitisePackLabel()` guard
+for HiPeptides' image URL in `dosage`, `sortByPricePerMg` + `getOxSpoke` aliases) and shipped it.
+Build passes, `next start` sweep: all 6 spokes 200 with live price rows, hub 200 with tiles.
+Spoke word counts (this run): 1,342–1,450.
+
+**Next compound in queue: `hmg`** (Tier 1). NOTE for that run: Google UK autocomplete returned
+**zero** results for every HMG shopping modifier (`where to buy hmg uk`, `cheapest hmg uk`,
+`buy hmg online uk`, `hmg uk supplier`, `best hmg peptide`, `hmg 75iu uk`); the only live cluster
+is informational (`hmg 75iu` → peptide/injection/dosage), and it collides with firearms terms
+("hmg ammo"). Demand is thin and only 1 supplier (Arma Peptides, 2 rows, £36/£60). Consider
+skipping to `pt-141-bremelanotide`... which is already built — the real next unbuilt Tier 1
+item is none; move to Tier 2 `melanotan-ii` (silo file exists but is not wired/registered).
+
+---
+
 ## ✅ DONE — CJC-1295 SILO (commit `2a4905e8`, 31 Oct 2026)
 
 6 spokes, all live 200 verified: `/compound-guides/{where-to-buy-cjc-1295-uk,
