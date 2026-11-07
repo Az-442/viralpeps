@@ -2323,6 +2323,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["ghrp-6", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "Pramipexole Research Guide: The Not-A-Peptide",
+    desc: "A licence-only D2/D3 agonist sold beside peptides. Verified identity, the 5-fold D3 figure that replaces the wrong one, and a failed phase 3 ALS programme.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Pramipexole",
+    slug: "pramipexole-research-guide",
+    image: "pramipexole-research-guide",
+    minutes: 14,
+    tags: ["pramipexole", "dopamine", "d3-receptor", "neuroprotection", "parkinsons", "restless-legs", "research-hub"],
+  },
+
+  {
+    title: "Pramipexole UK Price Per mg",
+    desc: "No UK supplier stocks it — pramipexole is prescription-only here. Verified tablet prices of £0.19–£0.55 per 0.088 mg, and the base-to-salt 1.43× arithmetic.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Pramipexole",
+    slug: "pramipexole-uk-price-guide",
+    image: "pramipexole-uk-price-guide",
+    minutes: 11,
+    tags: ["pramipexole", "price-comparison", "cost-per-mg", "prescription-only", "uk", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
