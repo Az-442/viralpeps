@@ -156,6 +156,23 @@ export default function WholesalePage() {
         </div>
 
         <div className="grid grid-cols-1 gap-4">
+          <a href="https://unitedpeptides.co.uk/wholesale/" target="_blank" rel="noopener" className="bg-white border-2 border-black rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group">
+            <div className="flex items-start gap-4">
+              <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200 font-extrabold text-xl text-blue-600">UP</div>
+              <div className="min-w-0 flex-1">
+                <h3 className="font-semibold text-gray-900 text-base">United Peptides</h3>
+                <div className="flex items-center gap-2 mt-0.5"><span className="text-xs text-gray-500">UK</span></div>
+                <div className="flex flex-wrap items-center gap-1.5 mt-2">
+                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full"><svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>Wholesale Verified</span>
+                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-green-700 bg-green-50 px-1.5 py-0.5 rounded-full"><svg width="8" height="8" viewBox="0 0 24 24" fill="#16a34a"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" /></svg>COA</span>
+                </div>
+                <p className="text-xs text-gray-500 mt-1.5">Bulk peptides &amp; peptide pens</p>
+                <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">UK research supplier · Trade pricing on request</p>
+              </div>
+              <div className="flex flex-col items-end gap-0.5 flex-shrink-0 pt-0.5"><span className="text-xs font-semibold text-blue-600 group-hover:underline mt-2 whitespace-nowrap">View &rarr;</span></div>
+            </div>
+          </a>
+
           <a href="#apply" onClick={(e) => { e.preventDefault(); document.getElementById("bizName")?.focus(); document.getElementById("apply")?.scrollIntoView({ behavior: "smooth" }); }} className="bg-white border border-black rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group">
             <div className="flex items-start gap-4">
               <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200 font-extrabold text-xl text-blue-600">LD</div>
@@ -190,7 +207,7 @@ export default function WholesalePage() {
           </a>
         </div>
 
-        <p className="text-xs text-gray-400 mt-4 text-center">Wholesale suppliers shown for illustration. Directory is invite-only and populated on approval.</p>
+        <p className="text-xs text-gray-400 mt-4 text-center">Directory is invite-only and populated on approval.</p>
       </section>
 
       {/* APPLY FORM */}
