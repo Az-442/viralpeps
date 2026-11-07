@@ -67,7 +67,7 @@ export default function WholesaleRetatrutidePage() {
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <a href="#suppliers" className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 text-white rounded-lg text-sm font-bold hover:opacity-95 transition">Compare trade suppliers</a>
-              <a href="#buyer-checklist" className="px-5 py-3 bg-white border border-black rounded-lg text-sm font-semibold text-gray-900 hover:bg-gray-50 transition">Read the buyer checklist</a>
+              <Link href="/wholesale" className="px-5 py-3 bg-white border border-black rounded-lg text-sm font-semibold text-gray-900 hover:bg-gray-50 transition">All wholesale suppliers</Link>
             </div>
             <div className="flex flex-wrap items-center gap-2 mt-5">
               <span className="text-[11px] text-gray-400 font-semibold uppercase tracking-wider">Screened for:</span>
@@ -154,19 +154,6 @@ export default function WholesaleRetatrutidePage() {
               <div className="flex flex-col items-end gap-0.5 flex-shrink-0 pt-0.5"><span className="text-xs font-semibold text-blue-600 group-hover:underline mt-2 whitespace-nowrap">View &rarr;</span></div>
             </div>
           </a>
-
-          <a href="/wholesale" className="bg-white border border-black rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group">
-            <div className="flex items-start gap-4">
-              <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden bg-gray-50 border border-gray-200 font-extrabold text-xl text-purple-600">VP</div>
-              <div className="min-w-0 flex-1">
-                <h3 className="font-semibold text-gray-900 text-base">Full wholesale directory</h3>
-                <div className="flex items-center gap-2 mt-0.5"><span className="text-xs text-gray-500">ViralPeps</span></div>
-                <p className="text-xs text-gray-500 mt-1.5">Every approved bulk supplier, not just retatrutide</p>
-                <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">Screened trade sellers across all compounds</p>
-              </div>
-              <div className="flex flex-col items-end gap-0.5 flex-shrink-0 pt-0.5"><span className="text-xs font-semibold text-blue-600 group-hover:underline mt-2 whitespace-nowrap">View &rarr;</span></div>
-            </div>
-          </a>
         </div>
 
         <div className="mt-6 bg-white border border-black rounded-xl p-4 flex items-start gap-3">
@@ -174,43 +161,6 @@ export default function WholesaleRetatrutidePage() {
           <div>
             <p className="text-sm font-semibold text-gray-900">Trade pricing is not published by any supplier on this page.</p>
             <p className="text-sm text-gray-600 mt-0.5">Rates depend on volume, pack format and order regularity, so each supplier quotes per enquiry. ViralPeps does not take a commission on any trade order.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* BUYER CHECKLIST */}
-      <section id="buyer-checklist" className="py-10 max-w-[76rem] mx-auto px-4 border-t border-gray-100">
-        <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-1.5 bg-gray-800 border border-gray-700 rounded-full px-2.5 py-0.5 mb-2">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="#22c55e"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-            <span className="text-[10px] font-bold text-white uppercase tracking-wider">Buyer Checklist</span>
-          </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Five questions that separate a real supplier from a reseller</h2>
-          <p className="text-base text-gray-700 leading-relaxed mb-6">
-            Ask all five before you place a first bulk retatrutide order. A supplier with good answers to all five is worth a premium. A supplier who is evasive on any one of them is not worth a discount.
-          </p>
-
-          <div className="space-y-4">
-            <div className="bg-white border border-black rounded-xl p-5">
-              <h3 className="font-bold text-gray-900 mb-1.5">1. Is the stock physically held in the UK?</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">Held stock means same-working-day dispatch, domestic tracking and a batch you can trace. Drop-shipping means customs exposure, unpredictable lead times and no ability to verify the batch before it reaches you.</p>
-            </div>
-            <div className="bg-white border border-black rounded-xl p-5">
-              <h3 className="font-bold text-gray-900 mb-1.5">2. Is there a certificate of analysis for this specific lot?</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">Not &ldquo;a certificate&rdquo; &mdash; a certificate naming the lot number being shipped, with a purity figure and a named third-party laboratory. A certificate from a different batch tells you nothing about what is in the box.</p>
-            </div>
-            <div className="bg-white border border-black rounded-xl p-5">
-              <h3 className="font-bold text-gray-900 mb-1.5">3. What is the actual dispatch turnaround, in writing?</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">Vague promises of &ldquo;fast dispatch&rdquo; are worthless. Ask for a cut-off time and a working-day figure in writing. If they cannot commit to one, they are sourcing after you order.</p>
-            </div>
-            <div className="bg-white border border-black rounded-xl p-5">
-              <h3 className="font-bold text-gray-900 mb-1.5">4. What is the minimum order quantity, and does the rate change with volume?</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">A low headline rate attached to a high MOQ is usually worse value than a mid-range rate with a sensible floor. Get the MOQ and the volume break points in the same message as the price.</p>
-            </div>
-            <div className="bg-white border border-black rounded-xl p-5">
-              <h3 className="font-bold text-gray-900 mb-1.5">5. Is there a named UK entity and a written research-use-only policy?</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">A trading name and a contact form is not an entity. You want a company name, an address, and a stated policy that material is supplied strictly for laboratory research use only. Those three things are what you rely on if something goes wrong.</p>
-            </div>
           </div>
         </div>
       </section>
