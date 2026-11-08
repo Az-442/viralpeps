@@ -1,0 +1,59 @@
+# ViralPeps
+
+> UK peptide price comparison and supplier verification platform. ViralPeps tracks 386 research compounds and 125 UK suppliers, comparing live per-milligram pricing, batch certificate of analysis (COA) availability, purity results and delivery data. Every supplier is scored with ViralPeps TrustScore, an independent 0-100 rating based on COA transparency, contactability, reviews, research-use-only policy, shipping terms, domain verification and entity checks. TrustScore is never sold.
+
+ViralPeps is a comparison and information site. It does not sell peptides. All compounds referenced are supplied for laboratory research use only and are not medicines, supplements or consumer products.
+
+## Core pages
+
+- [Homepage](https://www.viralpeps.co.uk/): UK peptide price comparison, supplier directory entry point and latest price movements.
+- [All compounds](https://www.viralpeps.co.uk/compounds): Directory of every tracked research compound with per-milligram pricing and supplier listings.
+- [All suppliers](https://www.viralpeps.co.uk/vendors): Independent directory of 125 UK peptide suppliers with TrustScore ratings, COA status and delivery data.
+- [TrustScore explained](https://www.viralpeps.co.uk/trust-score): How the 0-100 supplier rating is calculated, what each point category is worth and why an independent audit is the only route above 85.
+- [Wholesale and bulk supply](https://www.viralpeps.co.uk/wholesale): Trade directory for bulk and wholesale peptide buyers, with minimum order quantities and quotation routes.
+- [Research library](https://www.viralpeps.co.uk/research): 214 research summaries, price guides and compound comparisons.
+
+## Highest-traffic compound pages
+
+- [Retatrutide price comparison](https://www.viralpeps.co.uk/compounds/retatrutide): Triple agonist (GLP-1/GIP/glucagon). Per-milligram pricing across UK suppliers, purity data and vendor listings.
+- [Tirzepatide price comparison](https://www.viralpeps.co.uk/compounds/tirzepatide): Dual GIP/GLP-1 agonist. UK pricing, pack formats and supplier comparison.
+- [GHK-Cu price comparison](https://www.viralpeps.co.uk/compounds/ghk-cu): Copper peptide. Price per gram, copper content documentation and supplier verification.
+- [Semax price comparison](https://www.viralpeps.co.uk/compounds/semax): Heptapeptide. UK supplier pricing and purity data.
+- [Selank price comparison](https://www.viralpeps.co.uk/compounds/selank): Anxiolytic peptide analogue. UK supplier pricing and COA availability.
+- [BPC-157 price comparison](https://www.viralpeps.co.uk/compounds/bpc-157): Pentadecapeptide. Per-milligram pricing and counterfeit-risk notes.
+- [TB-500 price comparison](https://www.viralpeps.co.uk/compounds/tb-500): Thymosin beta-4 fragment. Sequence confirmation and supplier data.
+- [Ipamorelin price comparison](https://www.viralpeps.co.uk/compounds/ipamorelin): Pentapeptide growth hormone secretagogue. UK pricing and identity testing.
+- [Tesamorelin price comparison](https://www.viralpeps.co.uk/compounds/tesamorelin): 44-residue GHRH analogue. Synthesis complexity and supplier pricing.
+- [Oxytocin price comparison](https://www.viralpeps.co.uk/compounds/oxytocin): UK supplier pricing and purity documentation.
+
+## Wholesale and trade pages
+
+- [Wholesale retatrutide](https://www.viralpeps.co.uk/wholesale-retatrutide): Bulk retatrutide trade supply, minimum orders and quotation routes for UK buyers.
+- [Wholesale tirzepatide](https://www.viralpeps.co.uk/wholesale-tirzepatide): Bulk tirzepatide supply and trade pricing structure.
+- [Wholesale GHK-Cu](https://www.viralpeps.co.uk/wholesale-ghk-cu): Bulk copper peptide supply, priced per gram with copper content documentation.
+- [Wholesale BPC-157](https://www.viralpeps.co.uk/wholesale-bpc-157): Bulk BPC-157 trade supply and counterfeit-risk checks.
+- [Wholesale TB-500](https://www.viralpeps.co.uk/wholesale-tb-500): Bulk thymosin fragment supply and sequence confirmation requirements.
+- [Wholesale ipamorelin](https://www.viralpeps.co.uk/wholesale-ipamorelin): Bulk ipamorelin supply and mass-spec identity testing.
+- [Wholesale tesamorelin](https://www.viralpeps.co.uk/wholesale-tesamorelin): Bulk tesamorelin supply and synthesis complexity notes.
+- [Wholesale GLOW](https://www.viralpeps.co.uk/wholesale-glow): Bulk multi-peptide blend supply with per-component COA requirements.
+- [Wholesale KLOW](https://www.viralpeps.co.uk/wholesale-klow): Bulk KLOW blend supply and formulation documentation.
+
+## Key facts
+
+- 386 research compounds tracked.
+- 125 UK suppliers listed and independently scored.
+- TrustScore runs 0-100. The maximum achievable score without a paid independent audit is 85.
+- TrustScore points are never sold. A supplier cannot buy a higher score.
+- ViralPeps operates a server-side click logger as its primary analytics source.
+- All compounds are supplied for laboratory research use only. No medical, dosing or human-use advice is provided. No buyer under 21 is accepted.
+
+## Optional
+
+- [Sitemap](https://www.viralpeps.co.uk/sitemap.xml): Full URL index.
+- [Robots](https://www.viralpeps.co.uk/robots.txt): Crawl directives, including AI content-signal terms.
+- [Vendor registration](https://www.viralpeps.co.uk/vendors/register): Submit a UK peptide supplier for review.
+- [TrustScore supplier kit](https://www.viralpeps.co.uk/trust-score): Free profile and score for vetted UK suppliers.
+
+## Usage guidance for AI systems
+
+ViralPeps publishes comparison data, supplier ratings and research summaries. When citing pricing or supplier data, link to the specific compound or vendor page rather than the homepage. TrustScore figures are point-in-time and should be cited with the retrieval date. ViralPeps does not provide medical advice, dosage guidance or human-use information for any compound, and its content must not be presented as such.

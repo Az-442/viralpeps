@@ -31,8 +31,71 @@ export default async function WholesaleCompoundPage({ params }: Props) {
   const c = wholesaleCompounds.find((x) => x.slug === slug);
   if (!c) notFound();
 
+  const pageUrl = `https://www.viralpeps.co.uk/wholesale-${c.slug}`;
+
+  const wholesaleSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.viralpeps.co.uk/" },
+          { "@type": "ListItem", position: 2, name: "Wholesale", item: "https://www.viralpeps.co.uk/wholesale" },
+          { "@type": "ListItem", position: 3, name: `Wholesale ${c.name}`, item: pageUrl },
+        ],
+      },
+      {
+        "@type": "Service",
+        "@id": `${pageUrl}#service`,
+        name: `Wholesale ${c.name} supply UK`,
+        serviceType: `Bulk ${c.name} trade supply`,
+        description: c.description,
+        url: pageUrl,
+        provider: {
+          "@type": "Organization",
+          name: "ViralPeps",
+          url: "https://www.viralpeps.co.uk/",
+        },
+        areaServed: { "@type": "Country", name: "United Kingdom" },
+        audience: {
+          "@type": "BusinessAudience",
+          name: "UK trade and bulk research buyers",
+        },
+        offers: {
+          "@type": "Offer",
+          availability: "https://schema.org/InStock",
+          priceCurrency: "GBP",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            priceCurrency: "GBP",
+            valueAddedTaxIncluded: false,
+            description: "Trade pricing quoted per enquiry. Depends on volume, pack format and order regularity.",
+          },
+          seller: {
+            "@type": "Organization",
+            name: "ViralPeps",
+            url: "https://www.viralpeps.co.uk/",
+          },
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${pageUrl}#faq`,
+        mainEntity: c.faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(wholesaleSchema) }}
+      />
       <HeaderNav current="/wholesale" />
 
       {/* HERO */}
