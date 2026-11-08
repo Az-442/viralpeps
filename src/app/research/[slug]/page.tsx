@@ -23,6 +23,8 @@ import { ghrp6Content } from "@/data/research-content-ghrp-6";
 import { ghrp6PriceContent } from "@/data/research-content-ghrp-6-price";
 import { pramipexoleContent } from "@/data/research-content-pramipexole";
 import { pramipexolePriceContent } from "@/data/research-content-pramipexole-price";
+import { pinealonContent } from "@/data/research-content-pinealon";
+import { pinealonPriceContent } from "@/data/research-content-pinealon-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -44,6 +46,8 @@ const EXTRA_CONTENT = {
   ...ghrp6PriceContent,
   ...pramipexoleContent,
   ...pramipexolePriceContent,
+  ...pinealonContent,
+  ...pinealonPriceContent,
 };
 import compounds from "@/data/compounds.json";
 

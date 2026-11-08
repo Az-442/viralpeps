@@ -2347,6 +2347,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["pramipexole", "price-comparison", "cost-per-mg", "prescription-only", "uk", "research-hub"],
   },
+
+  {
+    title: "Pinealon Research Guide: The EDR Tripeptide",
+    desc: "Verified identity for the Glu-Asp-Arg tripeptide, the net-charge error that rival pages make, one internal negative result, and the 2023 transporter screen.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Pinealon",
+    slug: "pinealon-research-guide",
+    image: "pinealon-research-guide",
+    minutes: 13,
+    tags: ["pinealon", "edr-peptide", "bioregulator", "neuroprotection", "khavinson", "research-hub"],
+  },
+
+  {
+    title: "Pinealon UK Price Per mg: What a Vial Costs",
+    desc: "19 identical 10 mg vials priced £17.50 to £40.00, with a median of £2.70 per milligram, and why the 20 mg fill can still beat most of the smaller listings.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Pinealon",
+    slug: "pinealon-uk-price-guide",
+    image: "pinealon-uk-price-guide",
+    minutes: 11,
+    tags: ["pinealon", "price-comparison", "cost-per-mg", "uk", "coa", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
