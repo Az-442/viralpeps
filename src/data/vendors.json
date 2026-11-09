@@ -5944,5 +5944,49 @@
       },
       "checkedAt": "2026-11-02T01:34:37.489Z"
     }
+  },
+  {
+    "id": "genopept",
+    "name": "GenoPept",
+    "slug": "genopept",
+    "website": "https://genopept.co.uk",
+    "rating": null,
+    "verified": false,
+    "country": "UK",
+    "description": "UK-domiciled research peptide supplier with domestic stock and tracked dispatch. Catalogue covers GLP-1 metabolic compounds (retatrutide, tirzepatide, semaglutide, cagrilintide, mazdutide, survodutide), growth hormone secretagogues, GHRH and IGF research references, plus a wide Khavinson short-peptide and cosmetic-peptide range. 95 listed products, most in multiple strengths, each batch identified against a third-party certificate of analysis. Checkout supports card and cryptocurrency, with a stated 10% crypto discount.",
+    "highlights": [
+      "UK stock, tracked Royal Mail dispatch",
+      "Batch-identified, third-party COA per batch",
+      "95 products across multiple strengths",
+      "Next working day delivery £10, free over £200",
+      "Card and cryptocurrency accepted"
+    ],
+    "shipping": [
+      "UK (next working day £10, free over £200; international wholesale only)"
+    ],
+    "payment": [
+      "Card",
+      "Cryptocurrency"
+    ],
+    "labTested": true,
+    "founded": null,
+    "email": "info@genopept.co.uk",
+    "_autoChecks": {
+      "live": true,
+      "coa": true,
+      "ruo": true,
+      "reviews": false,
+      "shipping": true,
+      "contact": true,
+      "productPageFetched": true,
+      "evidence": {
+        "coa": "certificate of analysis",
+        "ruo": "research use only",
+        "reviews": null,
+        "shipping": "tracked royal mail",
+        "contact": "info@genopept.co.uk"
+      },
+      "checkedAt": "2026-11-09T07:00:00.000Z"
+    }
   }
 ]
