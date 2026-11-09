@@ -25,6 +25,8 @@ import { pramipexoleContent } from "@/data/research-content-pramipexole";
 import { pramipexolePriceContent } from "@/data/research-content-pramipexole-price";
 import { pinealonContent } from "@/data/research-content-pinealon";
 import { pinealonPriceContent } from "@/data/research-content-pinealon-price";
+import { glutathioneContent } from "@/data/research-content-glutathione";
+import { glutathionePriceContent } from "@/data/research-content-glutathione-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -48,6 +50,8 @@ const EXTRA_CONTENT = {
   ...pramipexolePriceContent,
   ...pinealonContent,
   ...pinealonPriceContent,
+  ...glutathioneContent,
+  ...glutathionePriceContent,
 };
 import compounds from "@/data/compounds.json";
 

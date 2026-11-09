@@ -2371,6 +2371,30 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["pinealon", "price-comparison", "cost-per-mg", "uk", "coa", "research-hub"],
   },
+
+  {
+    title: "Glutathione Research Guide: GSH and the Trials",
+    desc: "Verified identity for the gamma-linked tripeptide, the mechanism in three enzyme systems, and the two null randomised trials that competitor pages never report.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Glutathione",
+    slug: "glutathione-research-guide",
+    image: "glutathione-research-guide",
+    minutes: 15,
+    tags: ["glutathione", "gsh", "gssg", "redox", "antioxidant", "glutathione-peroxidase", "research-hub"],
+  },
+
+  {
+    title: "Glutathione UK Price Per mg: 1500 mg Vials",
+    desc: "20 UK 1500 mg glutathione vials priced from £19.99 to £89.00, a median of £26.32 per gram, and what a fair price looks like at each of the four fill sizes.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Glutathione",
+    slug: "glutathione-uk-price-guide",
+    image: "glutathione-uk-price-guide",
+    minutes: 12,
+    tags: ["glutathione", "price-comparison", "cost-per-mg", "uk", "coa", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [
