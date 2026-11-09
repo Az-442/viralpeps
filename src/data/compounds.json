@@ -3552,14 +3552,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/melanotan-2-10mg/",
-        "price": "£18.99",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/melanotan-ii.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "Chroma Peptides",
         "url": "https://chromapeptides.co.uk/product/melanotan-2-mt-ii/",
         "price": "£24.45",
@@ -4224,22 +4216,6 @@
         "inStock": true,
         "image": "/images/products/chilton-labs/ghrp-2.webp",
         "dosage": "5mg"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/ghrp-2/",
-        "price": "£9.99",
-        "inStock": true,
-        "dosage": "5mg",
-        "image": "/images/products/peptidesx/ghrp-2.webp"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/ghrp-2/",
-        "price": "£18.99",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/peptidesx/ghrp-2-10mg.webp"
       },
       {
         "vendor": "Peptides Online UK",
@@ -5114,22 +5090,6 @@
         "dosage": "30mg"
       },
       {
-        "vendor": "ThePeptideCode",
-        "url": "https://thepeptidecode.co.uk/products/retatrutide-20mg-99-69-purity",
-        "price": "£68.39",
-        "inStock": true,
-        "image": "/images/products/the-peptide-code/retatrutide-20mg.jpg",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "ThePeptideCode",
-        "url": "https://thepeptidecode.co.uk/products/retatrutide-30mg",
-        "price": "£90.00",
-        "inStock": true,
-        "image": "/images/products/the-peptide-code/retatrutide-30mg.png",
-        "dosage": "30mg"
-      },
-      {
         "vendor": "Raw Peptides",
         "url": "https://rawpeptides.co.uk/product/retatrutide-20mg/",
         "price": "£150.00",
@@ -5417,20 +5377,6 @@
         "price": "£75.00",
         "inStock": true,
         "image": "/images/products/leolab/retatrutide.webp"
-      },
-      {
-        "vendor": "SPX Labs",
-        "url": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/spx-labs/retatrutide.webp"
-      },
-      {
-        "vendor": "SPX Labs",
-        "url": "https://spxlabs.co.uk/product/retatrutide-uk-20mg/",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/spx-labs/retatrutide-20mg.webp"
       },
       {
         "vendor": "Aegis Peptides",
@@ -6079,12 +6025,6 @@
         "inStock": true,
         "image": "/images/products/novabiolabs/retatrutide-60mg.webp",
         "dosage": "60mg"
-      },
-      {
-        "vendor": "Total Peptides",
-        "url": "https://www.totalpeptides.uk/products/glp3",
-        "price": "28.99",
-        "image": "/images/products/total-peptides/retatrutide.webp"
       },
       {
         "vendor": "Molexa",
@@ -7580,14 +7520,6 @@
         "inStock": true,
         "image": "/images/products/proforma-peptides/tesamorelin.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/tesamorelin-5mg/",
-        "price": "£27.99",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/tesamorelin.webp",
-        "dosage": "5mg"
       },
       {
         "vendor": "Chroma Peptides",
@@ -13863,14 +13795,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/semax-10mg/",
-        "price": "£7.50",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/semax.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "Chroma Peptides",
         "url": "https://chromapeptides.co.uk/product/semax/",
         "price": "£40.95",
@@ -14736,14 +14660,6 @@
         "price": "£24.99",
         "inStock": true,
         "image": "/images/products/proforma-peptides/selank.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/selank-10mg/",
-        "price": "£7.50",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/selank.webp",
         "dosage": "10mg"
       },
       {
@@ -16077,14 +15993,6 @@
         "dosage": "5mg"
       },
       {
-        "vendor": "VialVerse",
-        "url": "https://vialverse.com/peptides/hexarelin",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/vialverse/hexarelin.webp",
-        "dosage": "3mg"
-      },
-      {
         "vendor": "Bionik Peptides",
         "url": "https://bionikpeptides.com/products/hexarelin",
         "price": "£13.00",
@@ -17303,22 +17211,6 @@
         "inStock": true,
         "image": "/images/products/tested-peptides/ghrp-6.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/ghrp-6/",
-        "price": "£9.99",
-        "inStock": true,
-        "dosage": "5mg",
-        "image": "/images/products/peptidesx/ghrp-6.webp"
-      },
-      {
-        "vendor": "PeptidesX",
-        "url": "https://www.peptidesx.uk/product/ghrp-6/",
-        "price": "£18.99",
-        "inStock": true,
-        "dosage": "10mg",
-        "image": "/images/products/peptidesx/ghrp-6-10mg.webp"
       },
       {
         "vendor": "Peptides Online UK",
@@ -20738,13 +20630,6 @@
         "image": "/images/products/ps-labs/glow.webp"
       },
       {
-        "vendor": "Fat Pig Peptides",
-        "url": "https://fatpigpeptides.co.uk/product/glow-blend-70mg/",
-        "price": "£54.99",
-        "inStock": true,
-        "image": "/images/products/fat-pig-peptides/glow.webp"
-      },
-      {
         "vendor": "KyroLabs Peptides",
         "url": "https://kyrolabspeptides.co.uk/products/glow-70mg-bpc-157-10mg-ghk-cu-50mg-tb-500-10mg",
         "price": "£64.99",
@@ -22141,14 +22026,6 @@
         "inStock": true,
         "image": "/images/products/bluewell-peptides/bacteriostatic-mixing-water-3ml.png",
         "dosage": "3ml"
-      },
-      {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/bacteriostatic-water-10ml/",
-        "price": "£8.50",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/bacteriostatic-water.webp",
-        "dosage": "10ml"
       },
       {
         "vendor": "Chroma Peptides",
@@ -25248,14 +25125,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "VialVerse",
-        "url": "https://vialverse.com/peptides/slu-pp-332",
-        "price": "£27.00",
-        "inStock": true,
-        "image": "/images/products/vialverse/slu-pp-332.webp",
-        "dosage": "5mg"
-      },
-      {
         "vendor": "Bionik Peptides",
         "url": "https://bionikpeptides.com/products/slu-pp-332",
         "price": "£43.00",
@@ -26725,14 +26594,6 @@
         "dosage": "100mg"
       },
       {
-        "vendor": "VialVerse",
-        "url": "https://vialverse.com/peptides/aicar",
-        "price": "£34.00",
-        "inStock": true,
-        "image": "/images/products/vialverse/aicar.webp",
-        "dosage": "50mg"
-      },
-      {
         "vendor": "Bionik Peptides",
         "url": "https://bionikpeptides.com/products/aicar",
         "price": "£50.00",
@@ -27841,14 +27702,6 @@
         "price": "£21.99",
         "inStock": true,
         "image": "/images/products/apexpure/matrixyl-3000-10mg.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "VialVerse",
-        "url": "https://vialverse.com/peptides/matrixyl",
-        "price": "£32.00",
-        "inStock": true,
-        "image": "/images/products/vialverse/matrixyl-3000.webp",
         "dosage": "10mg"
       },
       {
@@ -29043,13 +28896,6 @@
         "price": "£30.00",
         "inStock": true,
         "image": "/images/products/ps-labs/5-amino-1mq-50mg.webp"
-      },
-      {
-        "vendor": "Fat Pig Peptides",
-        "url": "https://fatpigpeptides.co.uk/product/5-amino-1mq-50mg/",
-        "price": "£54.99",
-        "inStock": true,
-        "image": "/images/products/fat-pig-peptides/5-amino-1mq-50mg.webp"
       }
     ],
     "faq": [],
@@ -40439,14 +40285,6 @@
         "price": "£45.00",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/mt-1-melanotan-1-acetate-10mg.webp"
-      },
-      {
-        "vendor": "XL Peptides",
-        "url": "https://xlpeptides.com/product/melanotan-1-10mg/",
-        "price": "£19.99",
-        "inStock": true,
-        "image": "/images/products/xl-peptides/mt-1-melanotan-1-acetate-10mg.webp",
-        "dosage": "10mg"
       },
       {
         "vendor": "Chroma Peptides",

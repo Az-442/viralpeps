@@ -1,0 +1,359 @@
+[
+  {
+    "vendor": "United Peptides",
+    "compound": "Tirzepatide",
+    "dosage": "60mg",
+    "old": "£169.99",
+    "new": "£179.99"
+  },
+  {
+    "vendor": "Pyrox Labs",
+    "compound": "Semaglutide",
+    "dosage": "20mg",
+    "old": "£46.99",
+    "new": "£40.99"
+  },
+  {
+    "vendor": "PeptidesX",
+    "compound": "BPC-157",
+    "dosage": "10mg",
+    "old": "£29.99",
+    "new": "£27.95"
+  },
+  {
+    "vendor": "N&A Peptides",
+    "compound": "BPC-157",
+    "dosage": "10mg",
+    "old": "£35.00",
+    "new": "£30.00"
+  },
+  {
+    "vendor": "Optimus Labs",
+    "compound": "BPC-157",
+    "dosage": "10mg",
+    "old": "£19.50",
+    "new": "£16.50"
+  },
+  {
+    "vendor": "PeptidesX",
+    "compound": "TB-500",
+    "dosage": "10mg",
+    "old": "£49.99",
+    "new": "£27.95"
+  },
+  {
+    "vendor": "SPX Labs",
+    "compound": "TB-500",
+    "dosage": null,
+    "old": "£19.99",
+    "new": "£24.99"
+  },
+  {
+    "vendor": "Optimus Labs",
+    "compound": "TB-500",
+    "dosage": "10mg",
+    "old": "£24.50",
+    "new": "£18.50"
+  },
+  {
+    "vendor": "Midshire Labs",
+    "compound": "GHRP-2",
+    "dosage": "10mg",
+    "old": "£15.00",
+    "new": "£13.00"
+  },
+  {
+    "vendor": "Pyrox Labs",
+    "compound": "Retatrutide",
+    "dosage": "10mg",
+    "old": "£57.99",
+    "new": "£50.99"
+  },
+  {
+    "vendor": "AllMyPeptides",
+    "compound": "Retatrutide",
+    "dosage": "10mg",
+    "old": "£42.99",
+    "new": "£40.49"
+  },
+  {
+    "vendor": "N&A Peptides",
+    "compound": "Retatrutide",
+    "dosage": "50mg",
+    "old": "£120.00",
+    "new": "£130.00"
+  },
+  {
+    "vendor": "N&A Peptides",
+    "compound": "Retatrutide",
+    "dosage": "20mg pen",
+    "old": "£90.00",
+    "new": "£100.00"
+  },
+  {
+    "vendor": "N&A Peptides",
+    "compound": "Retatrutide",
+    "dosage": "40mg pen",
+    "old": "£130.00",
+    "new": "£140.00"
+  },
+  {
+    "vendor": "N&A Peptides",
+    "compound": "Retatrutide",
+    "dosage": "60mg pen",
+    "old": "£160.00",
+    "new": "£170.00"
+  },
+  {
+    "vendor": "Phoenix BioLabs",
+    "compound": "Sermorelin",
+    "dosage": "5mg",
+    "old": "£34.99",
+    "new": "£27.99"
+  },
+  {
+    "vendor": "PeptidesX",
+    "compound": "MOTS-c",
+    "dosage": "10mg",
+    "old": "£28.99",
+    "new": "£25.95"
+  },
+  {
+    "vendor": "PeptidesX",
+    "compound": "SS-31",
+    "dosage": "10mg",
+    "old": "£39.95",
+    "new": "£42.95"
+  },
+  {
+    "vendor": "Optimus Labs",
+    "compound": "GHK-Cu",
+    "dosage": "50mg",
+    "old": "£18.50",
+    "new": "£14.50"
+  },
+  {
+    "vendor": "Everything Peptides",
+    "compound": "KPV",
+    "dosage": "10mg",
+    "old": "£12.75",
+    "new": "£8.20"
+  },
+  {
+    "vendor": "PeptidesX",
+    "compound": "Epitalon",
+    "dosage": "10mg",
+    "old": "£19.99",
+    "new": "£17.95"
+  },
+  {
+    "vendor": "PeptidesX",
+    "compound": "Semax",
+    "dosage": "10mg",
+    "old": "£29.99",
+    "new": "£27.95"
+  },
+  {
+    "vendor": "Everything Peptides",
+    "compound": "Semax",
+    "dosage": "5mg",
+    "old": "£9.45",
+    "new": "£8.20"
+  },
+  {
+    "vendor": "Zentra Peptides UK",
+    "compound": "Selank",
+    "dosage": "10mg",
+    "old": "£28.49",
+    "new": "£26.99"
+  },
+  {
+    "vendor": "Midshire Labs",
+    "compound": "ARA-290",
+    "dosage": "5mg",
+    "old": "£35.00",
+    "new": "£32.00"
+  },
+  {
+    "vendor": "SPX Labs",
+    "compound": "Ipamorelin",
+    "dosage": null,
+    "old": "£19.98",
+    "new": "£21.99"
+  },
+  {
+    "vendor": "UK Peptide Lab",
+    "compound": "KLOW",
+    "dosage": "80mg",
+    "old": "£79.99",
+    "new": "£69.99"
+  },
+  {
+    "vendor": "Zentra Peptides UK",
+    "compound": "NAD+",
+    "dosage": "500mg",
+    "old": "£80.00",
+    "new": "£42.95"
+  },
+  {
+    "vendor": "Revexa",
+    "compound": "NAD+",
+    "dosage": "500mg",
+    "old": "£65.00",
+    "new": "£59.00"
+  },
+  {
+    "vendor": "Revexa",
+    "compound": "NAD+",
+    "dosage": "1000mg",
+    "old": "£99.00",
+    "new": "£89.00"
+  },
+  {
+    "vendor": "Midshire Labs",
+    "compound": "CJC-1295 + Ipamorelin Blend",
+    "dosage": "5mg+5mg",
+    "old": "£40.00",
+    "new": "£35.00"
+  },
+  {
+    "vendor": "PeptidesX",
+    "compound": "CJC-1295 + Ipamorelin Blend",
+    "dosage": "5mg",
+    "old": "£39.99",
+    "new": "£42.95"
+  },
+  {
+    "vendor": "Alphamino",
+    "compound": "Glow Nasal Spray",
+    "dosage": null,
+    "old": "£55.00",
+    "new": "£52.00"
+  },
+  {
+    "vendor": "Revexa",
+    "compound": "Pinealon 10mg",
+    "dosage": "10mg",
+    "old": "£28.00",
+    "new": "£20.00"
+  },
+  {
+    "vendor": "Revexa",
+    "compound": "5-Amino-1MQ 50mg",
+    "dosage": "10mg",
+    "old": "£25.00",
+    "new": "£20.00"
+  },
+  {
+    "vendor": "UKPeptides.org",
+    "compound": "Glutathione 1500mg",
+    "dosage": "1500mg",
+    "old": "£34.99",
+    "new": "£38.99"
+  },
+  {
+    "vendor": "Zentra Peptides UK",
+    "compound": "AHK-Cu",
+    "dosage": "50mg",
+    "old": "£28.99",
+    "new": "£26.95"
+  },
+  {
+    "vendor": "Revexa",
+    "compound": "AHK-Cu",
+    "dosage": "50mg",
+    "old": "£24.99",
+    "new": "£19.00"
+  },
+  {
+    "vendor": "Midshire Labs",
+    "compound": "Ovagen 20mg",
+    "dosage": "20mg",
+    "old": "£40.00",
+    "new": "£30.00"
+  },
+  {
+    "vendor": "Midshire Labs",
+    "compound": "N-Acetyl Selank Amidate 10mg",
+    "dosage": "10mg",
+    "old": "£30.00",
+    "new": "£27.00"
+  },
+  {
+    "vendor": "Midshire Labs",
+    "compound": "Cardiogen",
+    "dosage": "20mg",
+    "old": "£50.00",
+    "new": "£40.00"
+  },
+  {
+    "vendor": "Zentra Peptides UK",
+    "compound": "CJC-1295 (no DAC)",
+    "dosage": "10mg",
+    "old": "£38.99",
+    "new": "£34.95"
+  },
+  {
+    "vendor": "SPX Labs",
+    "compound": "CJC-1295 (no DAC)",
+    "dosage": null,
+    "old": "£18.99",
+    "new": "£22.99"
+  },
+  {
+    "vendor": "Research Peptides UK",
+    "compound": "Tesofensine 500mcg (100 Tablets)",
+    "dosage": null,
+    "old": "£99.00",
+    "new": "£120.00"
+  },
+  {
+    "vendor": "Research Peptides UK",
+    "compound": "CJC-1295 No DAC 5mg, Ipamorelin 5mg (10mg Blend)",
+    "dosage": null,
+    "old": "£90.00",
+    "new": "£80.00"
+  },
+  {
+    "vendor": "Research Peptides UK",
+    "compound": "MK-677 / Ibutamoren 10mg (100 Tablets)",
+    "dosage": null,
+    "old": "£70.00",
+    "new": "£95.00"
+  },
+  {
+    "vendor": "UK Peptide Lab",
+    "compound": "GHK-CU",
+    "dosage": "100mg",
+    "old": "£34.99",
+    "new": "£32.99"
+  },
+  {
+    "vendor": "Research Peptides UK",
+    "compound": "BPC 5mg + TB 5mg",
+    "dosage": null,
+    "old": "£40.00",
+    "new": "£30.00"
+  },
+  {
+    "vendor": "Zentra Peptides UK",
+    "compound": "BPC-157 + TB-500",
+    "dosage": "20mg",
+    "old": "£53.99",
+    "new": "£45.99"
+  },
+  {
+    "vendor": "SPX Labs",
+    "compound": "BPC-157 + TB-500",
+    "dosage": null,
+    "old": "£24.99",
+    "new": "£32.99"
+  },
+  {
+    "vendor": "Midshire Labs",
+    "compound": "Thymulin",
+    "dosage": "10mg",
+    "old": "£30.00",
+    "new": "£23.00"
+  }
+]

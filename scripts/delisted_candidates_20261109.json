@@ -1,0 +1,956 @@
+[
+ {
+  "vendor": "JGPep+",
+  "compound": "Tirzepatide",
+  "slug": "tirzepatide",
+  "url": "https://jgpeptidesplus.com/product/tirz-40mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Semaglutide",
+  "slug": "semaglutide",
+  "url": "https://jgpeptidesplus.com/product/semaglutide-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "BPC-157",
+  "slug": "bpc-157",
+  "url": "https://www.buyreta.co.uk/product/bpc-157-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "BPC-157",
+  "slug": "bpc-157",
+  "url": "https://jgpeptidesplus.com/product/bpc-157-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "BPC-157",
+  "slug": "bpc-157",
+  "url": "https://phoenixbiolabs.net/shop/bpc-157-40mg-premixed-prefilled-pen-40mg-research-compound/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "TB-500",
+  "slug": "tb-500",
+  "url": "https://www.buyreta.co.uk/product/tb500-10mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "XL Peptides",
+  "compound": "Melanotan II",
+  "slug": "melanotan-ii",
+  "url": "https://xlpeptides.com/product/melanotan-2-10mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Melanotan II",
+  "slug": "melanotan-ii",
+  "url": "https://www.buyreta.co.uk/product/mt-2-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "PeptidesX",
+  "compound": "GHRP-2",
+  "slug": "ghrp-2",
+  "url": "https://www.peptidesx.uk/product/ghrp-2/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "PeptidesX",
+  "compound": "GHRP-2",
+  "slug": "ghrp-2",
+  "url": "https://www.peptidesx.uk/product/ghrp-2/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "AOD-9604",
+  "slug": "aod-9604",
+  "url": "https://www.buyreta.co.uk/product/aod-9604-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "ThePeptideCode",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://thepeptidecode.co.uk/products/retatrutide-20mg-99-69-purity",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "ThePeptideCode",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://thepeptidecode.co.uk/products/retatrutide-30mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "SPX Labs",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://spxlabs.co.uk/product/retatrutide-uk-10mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "SPX Labs",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://spxlabs.co.uk/product/retatrutide-uk-20mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-5mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-10mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-15mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-20mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-30mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-40mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Total Peptides",
+  "compound": "Retatrutide",
+  "slug": "retatrutide",
+  "url": "https://www.totalpeptides.uk/products/glp3",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "CJC-1295",
+  "slug": "cjc-1295",
+  "url": "https://jgpeptidesplus.com/product/cjc-1295-no-dac-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "IGF-1 LR3",
+  "slug": "igf-1-lr3",
+  "url": "https://www.buyreta.co.uk/product/igf-lr3-1mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "IGF-1 LR3",
+  "slug": "igf-1-lr3",
+  "url": "https://jgpeptidesplus.com/product/igf-1-lr3-1mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "XL Peptides",
+  "compound": "Tesamorelin",
+  "slug": "tesamorelin",
+  "url": "https://xlpeptides.com/product/tesamorelin-5mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Tesamorelin",
+  "slug": "tesamorelin",
+  "url": "https://www.buyreta.co.uk/product/tesamorelin-10mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "Pyrox Labs",
+  "compound": "Tesamorelin",
+  "slug": "tesamorelin",
+  "url": "https://pyroxlabs.co.uk/product/tesamorelin-5mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Sermorelin",
+  "slug": "sermorelin",
+  "url": "https://www.buyreta.co.uk/product/sermorelin-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "MOTS-c",
+  "slug": "mots-c",
+  "url": "https://www.buyreta.co.uk/product/mots-c-40mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "MOTS-c",
+  "slug": "mots-c",
+  "url": "https://jgpeptidesplus.com/product/mots-c-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "MOTS-c",
+  "slug": "mots-c",
+  "url": "https://phoenixbiolabs.net/shop/mots-c-40/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "SS-31",
+  "slug": "ss-31",
+  "url": "https://www.buyreta.co.uk/product/ss31-50mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "Pyrox Labs",
+  "compound": "SS-31",
+  "slug": "ss-31",
+  "url": "https://pyroxlabs.co.uk/product/ss-31-50mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "GHK-Cu",
+  "slug": "ghk-cu",
+  "url": "https://www.buyreta.co.uk/product/ghk-cu-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "GHK-Cu",
+  "slug": "ghk-cu",
+  "url": "https://phoenixbiolabs.net/shop/ghk-cu-100mg-research-peptide-formulation-copy/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "GHK-Cu",
+  "slug": "ghk-cu",
+  "url": "https://phoenixbiolabs.net/shop/ghk-cu-50mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "KPV",
+  "slug": "kpv",
+  "url": "https://www.buyreta.co.uk/product/kpv-oral-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "KPV",
+  "slug": "kpv",
+  "url": "https://www.buyreta.co.uk/product/kpv-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Thymosin Alpha-1",
+  "slug": "thymosin-alpha-1",
+  "url": "https://www.buyreta.co.uk/product/thymosin-alpha-1-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Thymosin Alpha-1",
+  "slug": "thymosin-alpha-1",
+  "url": "https://jgpeptidesplus.com/product/thymosin-alpha-1-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "XL Peptides",
+  "compound": "Semax",
+  "slug": "semax",
+  "url": "https://xlpeptides.com/product/semax-10mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Semax",
+  "slug": "semax",
+  "url": "https://www.buyreta.co.uk/product/semax-30mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Semax",
+  "slug": "semax",
+  "url": "https://jgpeptidesplus.com/product/semax-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "XL Peptides",
+  "compound": "Selank",
+  "slug": "selank",
+  "url": "https://xlpeptides.com/product/selank-10mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Selank",
+  "slug": "selank",
+  "url": "https://www.buyreta.co.uk/product/selank-10-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "ARA-290",
+  "slug": "ara-290",
+  "url": "https://www.buyreta.co.uk/product/ara-290-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "BPC-157 (Oral)",
+  "slug": "bpc-157-oral",
+  "url": "https://www.buyreta.co.uk/product/bpc-157-oral-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "VialVerse",
+  "compound": "Hexarelin",
+  "slug": "hexarelin",
+  "url": "https://vialverse.com/peptides/hexarelin",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Ipamorelin",
+  "slug": "ipamorelin",
+  "url": "https://www.buyreta.co.uk/product/ipamorelin-10mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Ipamorelin",
+  "slug": "ipamorelin",
+  "url": "https://jgpeptidesplus.com/product/ipamorelin-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "PeptidesX",
+  "compound": "GHRP-6",
+  "slug": "ghrp-6",
+  "url": "https://www.peptidesx.uk/product/ghrp-6/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "PeptidesX",
+  "compound": "GHRP-6",
+  "slug": "ghrp-6",
+  "url": "https://www.peptidesx.uk/product/ghrp-6/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "PT-141 (Bremelanotide)",
+  "slug": "pt-141-bremelanotide",
+  "url": "https://www.buyreta.co.uk/product/pt-141-10mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "PT-141 (Bremelanotide)",
+  "slug": "pt-141-bremelanotide",
+  "url": "https://jgpeptidesplus.com/product/pt141-10mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Kisspeptin-10",
+  "slug": "kisspeptin-10",
+  "url": "https://www.buyreta.co.uk/product/kisspeptin-10-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Gonadorelin",
+  "slug": "gonadorelin",
+  "url": "https://www.buyreta.co.uk/product/gonadorelin-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "DSIP (Delta Sleep-Inducing Peptide)",
+  "slug": "dsip",
+  "url": "https://www.buyreta.co.uk/product/dsip-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Oxytocin",
+  "slug": "oxytocin",
+  "url": "https://www.buyreta.co.uk/product/oxytocin-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Glow",
+  "slug": "glow",
+  "url": "https://www.buyreta.co.uk/product/glow-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "Fat Pig Peptides",
+  "compound": "Glow",
+  "slug": "glow",
+  "url": "https://fatpigpeptides.co.uk/product/glow-blend-70mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Glow",
+  "slug": "glow",
+  "url": "https://jgpeptidesplus.com/product/glow-70mg",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "KLOW",
+  "slug": "klow",
+  "url": "https://www.buyreta.co.uk/product/klow-80mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "SNAP-8",
+  "slug": "snap-8",
+  "url": "https://www.buyreta.co.uk/product/snap-8-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "XL Peptides",
+  "compound": "Bacteriostatic Water",
+  "slug": "bacteriostatic-water",
+  "url": "https://xlpeptides.com/product/bacteriostatic-water-10ml/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Bacteriostatic Water",
+  "slug": "bacteriostatic-water",
+  "url": "https://www.buyreta.co.uk/product/bac-water-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Bacteriostatic Water",
+  "slug": "bacteriostatic-water",
+  "url": "https://www.buyreta.co.uk/product/hospira-bac-water-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "SPX Labs",
+  "compound": "Bacteriostatic Water",
+  "slug": "bacteriostatic-water",
+  "url": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "NAD+",
+  "slug": "nad-plus",
+  "url": "https://www.buyreta.co.uk/product/nad-plus-500mg-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "NAD+",
+  "slug": "nad-plus",
+  "url": "https://jgpeptidesplus.com/product/nad-plus-500mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Pyrox Labs",
+  "compound": "NAD+",
+  "slug": "nad-plus",
+  "url": "https://pyroxlabs.co.uk/product/nad-500mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "CJC-1295 + Ipamorelin Blend",
+  "slug": "cjc-1295-ipamorelin-blend",
+  "url": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Pyrox Labs",
+  "compound": "CJC-1295 + Ipamorelin Blend",
+  "slug": "cjc-1295-ipamorelin-blend",
+  "url": "https://pyroxlabs.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg5mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Lipo-C 10ml Research Solution",
+  "slug": "lipo-c",
+  "url": "https://jgpeptidesplus.com/product/lipo-c-booster-10ml",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Pinealon 10mg",
+  "slug": "pinealon",
+  "url": "https://www.buyreta.co.uk/product/pinealon-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "SLU-PP-332 5mg",
+  "slug": "slu-pp-332",
+  "url": "https://www.buyreta.co.uk/product/slu-pp-332-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "VialVerse",
+  "compound": "SLU-PP-332 5mg",
+  "slug": "slu-pp-332",
+  "url": "https://vialverse.com/peptides/slu-pp-332",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "5-Amino-1MQ 50mg",
+  "slug": "5-amino-1mq",
+  "url": "https://www.buyreta.co.uk/product/5-amino-1mq-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "5-Amino-1MQ 50mg",
+  "slug": "5-amino-1mq",
+  "url": "https://jgpeptidesplus.com/product/5-amino-1mq-5mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "5-Amino-1MQ 50mg",
+  "slug": "5-amino-1mq",
+  "url": "https://jgpeptidesplus.com/product/5-amino-1mq-10mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "5-Amino-1MQ 50mg",
+  "slug": "5-amino-1mq",
+  "url": "https://phoenixbiolabs.net/shop/5-amino-1-mq-pen/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "LL-37 5mg",
+  "slug": "ll-37",
+  "url": "https://www.buyreta.co.uk/product/ll-37-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "VIP 5mg",
+  "slug": "vip",
+  "url": "https://www.buyreta.co.uk/product/vip-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "VialVerse",
+  "compound": "AICAR 50mg",
+  "slug": "aicar",
+  "url": "https://vialverse.com/peptides/aicar",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Glutathione 1500mg",
+  "slug": "glutathione",
+  "url": "https://www.buyreta.co.uk/product/glutathione-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "AHK-Cu",
+  "slug": "ahk-cu",
+  "url": "https://www.buyreta.co.uk/product/ahk-cu-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "Midshire Labs",
+  "compound": "Vitamin B12 10ml Research Solution",
+  "slug": "vitamin-b12",
+  "url": "https://midshirelabs.co.uk/products/vitamin-b12/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Cartalax 20mg",
+  "slug": "cartalax",
+  "url": "https://www.buyreta.co.uk/product/cartalax-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "VialVerse",
+  "compound": "Matrixyl 3000 20mg",
+  "slug": "matrixyl-3000",
+  "url": "https://vialverse.com/peptides/matrixyl",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Ovagen 20mg",
+  "slug": "ovagen",
+  "url": "https://www.buyreta.co.uk/product/ovagen-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Testagen 10mg",
+  "slug": "testagen",
+  "url": "https://www.buyreta.co.uk/product/testagen-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "ACE-031 1mg",
+  "slug": "ace-031-1mg",
+  "url": "https://www.buyreta.co.uk/product/ace-031-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Acetic Acid 10ml",
+  "slug": "acetic-acid-10ml",
+  "url": "https://www.buyreta.co.uk/product/aa-water-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Acetic Acid 10ml",
+  "slug": "acetic-acid-10ml",
+  "url": "https://jgpeptidesplus.com/product/acetic-acid-water-3ml/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "JGPep+",
+  "compound": "Acetic Acid 10ml",
+  "slug": "acetic-acid-10ml",
+  "url": "https://jgpeptidesplus.com/product/acetic-acid-water-10ml/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Fat Pig Peptides",
+  "compound": "5-Amino-1MQ 50mg",
+  "slug": "5-amino-1mq-50mg",
+  "url": "https://fatpigpeptides.co.uk/product/5-amino-1mq-50mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "BPC-157 5mg + TB500 5mg",
+  "slug": "bpc-157-5mg-tb500-5mg",
+  "url": "https://phoenixbiolabs.net/shop/bpc157-tb-10-tested-99/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "BPC-157 5mg + TB500 5mg",
+  "slug": "bpc-157-5mg-tb500-5mg",
+  "url": "https://phoenixbiolabs.net/shop/bpc157-tb-40-tested-99/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "CJC-1295 (no DAC)",
+  "slug": "cjc-1295-no-dac",
+  "url": "https://www.buyreta.co.uk/product/cjc-1295-no-dac-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Tesamorelin 13mg | Ipamorelin 3mg (16mg Blend)",
+  "slug": "tesamorelin-13mg-ipamorelin-3mg-16mg-blend",
+  "url": "https://www.buyreta.co.uk/product/tesamorelin-ipamorelin-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "MK-677 / Ibutamoren 10mg (100 Tablets)",
+  "slug": "mk-677-ibutamoren-10mg-100-tablets",
+  "url": "https://www.buyreta.co.uk/product/mk-677-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "Selank + Semax Blend",
+  "slug": "selank-semax-blend",
+  "url": "https://phoenixbiolabs.net/shop/selank-semax-pen/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "XL Peptides",
+  "compound": "Melanotan I",
+  "slug": "melanotan-i",
+  "url": "https://xlpeptides.com/product/melanotan-1-10mg/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "Melanotan I",
+  "slug": "melanotan-i",
+  "url": "https://www.buyreta.co.uk/product/melanotan-1-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "BuyReta",
+  "compound": "BPC-157 + TB-500",
+  "slug": "bpc-157-tb-500",
+  "url": "https://www.buyreta.co.uk/product/bpc-tb500-mix-uk",
+  "status": 200,
+  "nf": true,
+  "oos": false
+ },
+ {
+  "vendor": "Phoenix BioLabs",
+  "compound": "Tesamorelin + Ipamorelin",
+  "slug": "tesamorelin-ipamorelin",
+  "url": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/",
+  "status": 404,
+  "nf": false,
+  "oos": false
+ }
+]
