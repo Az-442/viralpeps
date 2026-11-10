@@ -46,6 +46,7 @@ import {
   getCjcIpaStats,
   type CjcIpaStats,
 } from "@/data/cjc-1295-ipamorelin-silo";
+import { HMG_SPOKES, getHmgStats, type HmgStats } from "@/data/hmg-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -280,6 +281,14 @@ export const SILOS: Silo[] = [
     spokes: CJC_IPA_SPOKES as unknown as SiloSpoke[],
     getStats: () => getCjcIpaStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "hmg",
+    name: "HMG",
+    blurb:
+      "HMG (menotropin) buying guides — verified UK suppliers, lowest price per 1,000 IU, full comparison, FSH/LH identity checks and TrustScore rankings.",
+    spokes: HMG_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getHmgStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -304,3 +313,4 @@ export type { MazStats };
 export type { SurvStats };
 export type { CjcStats };
 export type { OxStats };
+export type { HmgStats };
