@@ -2395,6 +2395,30 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ["glutathione", "price-comparison", "cost-per-mg", "uk", "coa", "research-hub"],
   },
+
+  {
+    title: "Humanin Research Guide: Identity, Mechanism, Evidence",
+    desc: "Verified identity for the 24-amino-acid mitochondrial peptide, the FPRL1 receptor, and why no human trial exists — including the errors top pages copy.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Humanin",
+    slug: "humanin-research-guide",
+    image: "humanin-research-guide",
+    minutes: 14,
+    tags: ["humanin", "mdp", "mitochondrial-peptide", "neuroprotection", "longevity", "research-hub"],
+  },
+
+  {
+    title: "Humanin UK Price Per mg: A Market of Two",
+    desc: "Two UK humanin listings — £49.00 to £80.00 per 10 mg. Why the spread is what it is, the 2687.2 vs 2801.3 COA trap, and what a fair price looks like.",
+    category: "Guide",
+    section: "research-hub",
+    compound: "Humanin",
+    slug: "humanin-uk-price-guide",
+    image: "humanin-uk-price-guide",
+    minutes: 11,
+    tags: ["humanin", "price-comparison", "cost-per-mg", "uk", "coa", "research-hub"],
+  },
 ];
 
 export const compoundList: string[] = [

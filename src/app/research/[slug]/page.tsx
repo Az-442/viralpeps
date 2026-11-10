@@ -27,6 +27,8 @@ import { pinealonContent } from "@/data/research-content-pinealon";
 import { pinealonPriceContent } from "@/data/research-content-pinealon-price";
 import { glutathioneContent } from "@/data/research-content-glutathione";
 import { glutathionePriceContent } from "@/data/research-content-glutathione-price";
+import { humaninContent } from "@/data/research-content-humanin";
+import { humaninPriceContent } from "@/data/research-content-humanin-price";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -52,6 +54,8 @@ const EXTRA_CONTENT = {
   ...pinealonPriceContent,
   ...glutathioneContent,
   ...glutathionePriceContent,
+  ...humaninContent,
+  ...humaninPriceContent,
 };
 import compounds from "@/data/compounds.json";
 
