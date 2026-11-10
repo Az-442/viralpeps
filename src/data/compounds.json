@@ -18643,104 +18643,6 @@
     ]
   },
   {
-    "id": "noopept",
-    "name": "Noopept",
-    "slug": "noopept",
-    "aliases": [
-      "Noopept",
-      "N-phenylacetyl-L-prolylglycine ethyl ester",
-      "GVS-111"
-    ],
-    "category": "anti-aging",
-    "description": "Noopept is a synthetic dipeptide nootropic (cycloprolylglycine analogue) developed in Russia with potent cognitive-enhancing and neuroprotective properties. It is approximately 1000 times more potent than piracetam on a molar basis and has been studied for memory improvement, anxiety reduction, and neuroprotection.",
-    "mechanism": "Modulates AMPA and NMDA glutamate receptor signalling, enhances BDNF and NGF expression, and increases acetylcholine release in the hippocampus and cortex. It also upregulates the expression of neurotrophin-3 (NT-3) and promotes hippocampal neurogenesis, providing both acute cognitive enhancement and long-term neuroprotection.",
-    "cas": "157115-85-0",
-    "molarMass": "334.4 g/mol",
-    "sequence": "N-phenylacetyl-L-prolylglycine ethyl ester",
-    "purity": "≥99%",
-    "form": "Tablets / powder",
-    "halfLife": "~30 minutes (active metabolites longer)",
-    "researchAreas": [
-      "Cognitive enhancement",
-      "Memory",
-      "Neuroprotection",
-      "Anxiety",
-      "Alzheimer's",
-      "Stroke recovery"
-    ],
-    "commonDosages": [
-      "10-30 mg/day",
-      "10-20 mg 2x/day sublingual"
-    ],
-    "sources": [],
-    "longDescription": ""
-  },
-  {
-    "id": "phenylpiracetam",
-    "name": "Phenylpiracetam",
-    "slug": "phenylpiracetam",
-    "aliases": [
-      "Phenotropil",
-      "Carphedon",
-      "Phenylpiracetam"
-    ],
-    "category": "cognitive",
-    "description": "Phenylpiracetam is a phenylated analogue of piracetam developed in Russia as a cognitive enhancer and psychostimulant. It is known for its potent nootropic effects, physical performance enhancement, and its unique ability to increase resistance to cold, pain, and stress (actoprotective properties).",
-    "mechanism": "Modulates nicotinic acetylcholine receptors and AMPA-type glutamate receptors, enhancing cholinergic neurotransmission in the prefrontal cortex and hippocampus. It also acts as a dopamine reuptake inhibitor and increases GABA-B receptor density, contributing to its anxiolytic and stimulant properties. Improves cerebral blood flow and glucose utilisation.",
-    "cas": "77472-70-9",
-    "molarMass": "274.4 g/mol",
-    "sequence": "4-phenylpiracetam (small molecule, not a peptide)",
-    "purity": "≥99%",
-    "form": "Tablets / powder",
-    "halfLife": "3-5 hours",
-    "researchAreas": [
-      "Cognitive enhancement",
-      "Physical performance",
-      "Psychostimulation",
-      "Neuroprotection",
-      "Stress resistance"
-    ],
-    "commonDosages": [
-      "100-200 mg/day",
-      "100 mg 1-2x/day"
-    ],
-    "sources": [],
-    "longDescription": ""
-  },
-  {
-    "id": "pramipexole",
-    "name": "Pramipexole",
-    "slug": "pramipexole",
-    "aliases": [
-      "Mirapex",
-      "Sifrol",
-      "PPX"
-    ],
-    "category": "cognitive",
-    "description": "Pramipexole is a D2/D3 dopamine receptor agonist used clinically in the treatment of Parkinson's disease and restless legs syndrome. In research contexts, it is studied for its neuroprotective effects, cognitive modulation, and potential applications in depression, bipolar disorder, and addiction.",
-    "mechanism": "Selective full agonist at dopamine D2 and D3 receptors with highest affinity for D3. It activates G-protein-coupled inwardly rectifying potassium (GIRK) channels and inhibits adenylyl cyclase. The D3 selectivity is of particular interest in neuropsychiatric research as D3 receptors are concentrated in the limbic system.",
-    "cas": "104632-26-0",
-    "molarMass": "211.3 g/mol",
-    "sequence": "N/A (small molecule, not a peptide)",
-    "purity": "≥99%",
-    "form": "Tablets / powder",
-    "halfLife": "8-12 hours",
-    "researchAreas": [
-      "Parkinson's",
-      "Dopamine research",
-      "Neuroprotection",
-      "Depression",
-      "Cognitive function",
-      "Addiction"
-    ],
-    "commonDosages": [
-      "0.125-0.5 mg/day",
-      "0.125-0.25 mg 3x/day"
-    ],
-    "sources": [],
-    "longDescription": ""
-  },
-  {
     "id": "bpc-157-tb-500-mix",
     "name": "BPC-157 / TB-500 Mix",
     "slug": "bpc-157-tb-500-mix",
@@ -36478,7 +36380,8 @@
     "researchAreas": [],
     "commonDosages": [],
     "longDescription": "",
-    "mechanism": ""
+    "mechanism": "",
+    "redirect": "igf-1-lr3"
   },
   {
     "id": "nad-250mg",
