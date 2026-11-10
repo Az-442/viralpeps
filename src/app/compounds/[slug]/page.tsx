@@ -531,7 +531,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
                   <a
                     href={fsRoute}
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel="noopener nofollow"
                     style={{
                       background: "linear-gradient(180deg,#22c55e 0%,#16a34a 100%)",
                       boxShadow:

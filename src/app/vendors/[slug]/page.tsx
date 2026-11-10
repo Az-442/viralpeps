@@ -313,7 +313,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                 <Link
                   href={`/go/${vendor.slug}`}
                   target="_blank"
-                  rel="noopener noreferrer nofollow"
+                  rel="noopener nofollow"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-all shadow-lg shadow-blue-600/25 hover:shadow-blue-500/40"
                 >
                   <LightningIcon />
@@ -456,7 +456,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                       <a
                         href={`/go/${slug}/${c.slug}`}
                         target="_blank"
-                        rel="noopener noreferrer nofollow"
+                        rel="noopener nofollow"
                         className="px-3.5 py-1.5 sm:px-4 sm:py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-lg transition-colors shadow-sm whitespace-nowrap"
                       >
                         View Deal →
@@ -556,7 +556,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
                       <a
                         href={vendor.coaUrl}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener"
                         className="text-sm font-bold text-blue-600 hover:text-blue-500 underline underline-offset-2"
                       >
                         View certificates →

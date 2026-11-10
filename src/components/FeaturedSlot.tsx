@@ -198,7 +198,7 @@ export default function FeaturedSlot({ data }: { data: FeaturedSlotData }) {
         <a
           href={goUrl}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener"
           className="relative z-[2] block w-full mt-3 text-center bg-[linear-gradient(180deg,#f59e0b,#d97706)] text-white text-[13px] font-extrabold tracking-[0.02em] px-4 py-[11px] rounded-[9px] shadow-[0_6px_16px_-6px_rgba(217,119,6,0.8)] hover:brightness-105 transition"
         >
           View Deal →

@@ -947,7 +947,7 @@ export default function CompoundPageClient({
                       <a
                         href={`/go/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}/${compound.slug}`}
                         target="_blank"
-                        rel="noopener noreferrer nofollow"
+                        rel="noopener nofollow"
                         onClick={(e) => e.stopPropagation()}
                         className="inline-flex items-center gap-1 text-sm font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-full transition-colors"
                       >
@@ -1082,7 +1082,7 @@ export default function CompoundPageClient({
                   <a
                     href={`/go/${vendor?.slug || s.vendor.toLowerCase().replace(/\s+/g, '-')}/${compound.slug}`}
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel="noopener nofollow"
                     onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center gap-1 text-[13px] font-bold text-white bg-blue-600 hover:bg-blue-500 active:bg-blue-700 px-4 py-2 rounded-lg transition-colors shadow-sm flex-shrink-0"
                   >
