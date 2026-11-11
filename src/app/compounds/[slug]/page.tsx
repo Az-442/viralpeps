@@ -106,6 +106,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     "cjc-1295-ipamorelin-blend": "CJC-1295 + Ipamorelin Blend UK: Compare Prices & Buy CJC/Ipamorelin Peptide Stack",
     "selank-semax-blend": "Selank + Semax Blend UK: Compare Prices & Buy Selank-Semax Peptide Stack",
     "melanotan-i": "Melanotan I UK: Compare Prices & Buy Melanotan 1 Peptide (Tanning Research)",
+    aicar: "AICAR UK: Compare Prices & Buy AICAR Peptide (AMPK Activator)",
+    tesofensine: "Tesofensine UK: Compare Prices & Buy Tesofensine (SNDRI Appetite)",
+    pramipexole: "Pramipexole UK: Compare Prices & Buy Pramipexole (Dopamine Agonist)",
   };
   const title = seoTitles[slug] || `${compound.name} | UK Prices`;
 
@@ -133,6 +136,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       "Compare Survodutide prices from 5 verified UK suppliers, from £39.00 per vial. Cost per mg, purity and stock checked daily. See the cheapest UK source now.",
     mazdutide:
       "Compare Mazdutide prices from 8 verified UK suppliers, from £27.99 per 10mg vial. Cost per mg, purity and stock checked daily. See the cheapest UK source now.",
+    aicar:
+      "Compare AICAR prices per mg across every verified UK supplier. AMPK activator for metabolic & endurance research, live stock, purity and price checked daily.",
+    tesofensine:
+      "Compare Tesofensine prices across every verified UK supplier. SNDRI for appetite & metabolic research, with live stock, purity and price checked daily, ranked.",
+    pramipexole:
+      "Compare Pramipexole prices across every verified UK supplier. Dopamine D2/D3 agonist for neuroscience research, with live stock, purity and price checked daily.",
   };
   const description =
     seoDescriptions[slug] ||
