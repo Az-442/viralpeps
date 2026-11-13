@@ -109,6 +109,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     aicar: "AICAR UK: Compare Prices & Buy AICAR Peptide (AMPK Activator)",
     tesofensine: "Tesofensine UK: Compare Prices & Buy Tesofensine (SNDRI Appetite)",
     pramipexole: "Pramipexole UK: Compare Prices & Buy Pramipexole (Dopamine Agonist)",
+    "cjc-1295-ipamorelin": "CJC-1295 + Ipamorelin Price UK: Compare Cost Per mg & Suppliers",
+    hmg: "HMG Price UK: Compare Cost Per IU, Kit & Supplier",
+    "hgh-97": "HGH-97 Price UK: Compare Cost Per mg & Suppliers",
+    klow: "KLOW Price UK: Compare Cost Per mg & Suppliers",
+    "melatonin-10mg": "Melatonin 10mg Price UK: Compare Cost & Suppliers",
+    "kisspeptin-nasal-spray": "Kisspeptin Nasal Spray Price UK: Compare Cost & Suppliers",
+    "bpc-157-tb-500-nasal-spray": "BPC-157 + TB-500 Nasal Spray Price UK: Compare Cost & Suppliers",
+    "glow-nasal-spray": "Glow Nasal Spray Price UK: Compare Cost & Suppliers",
+    "pt-141-bremelanotide": "PT-141 Price UK: Compare Cost Per mg & Suppliers",
   };
   const title = seoTitles[slug] || `${compound.name} | UK Prices`;
 
@@ -142,6 +151,44 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       "Compare Tesofensine prices across every verified UK supplier. SNDRI for appetite & metabolic research, with live stock, purity and price checked daily, ranked.",
     pramipexole:
       "Compare Pramipexole prices across every verified UK supplier. Dopamine D2/D3 agonist for neuroscience research, with live stock, purity and price checked daily.",
+    "pt-141-bremelanotide":
+      "Compare PT-141 prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    "fragment-176-191":
+      "Compare HGH Fragment 176-191 prices per mg across every verified UK supplier. Fat-loss research peptide with live stock, purity and cost per mg checked daily.",
+    "thymosin-alpha-1":
+      "Compare Thymosin Alpha-1 prices per mg across every verified UK supplier. Immune-support peptide with live stock, purity levels and cost per mg checked daily.",
+    "cjc-1295-ipamorelin":
+      "Compare CJC-1295 + Ipamorelin prices per mg across every verified UK supplier. GH secretagogue stack with live stock, purity and cost per mg checked daily.",
+    "ghrp-6":
+      "Compare GHRP-6 prices per mg across every verified UK supplier. GH secretagogue, live stock, purity and cost per mg checked daily. Cheapest UK source, ranked.",
+    gonadorelin:
+      "Compare Gonadorelin prices per mg across every verified UK supplier. GnRH analogue, live stock, purity and cost per mg checked daily. Cheapest UK source now.",
+    hmg:
+      "Compare HMG prices per IU across every verified UK supplier. Fertility research hormone, live stock, purity and cost per IU checked daily. Cheapest source.",
+    kpv:
+      "Compare KPV prices per mg across every verified UK supplier. Anti-inflammatory tripeptide, live stock, purity and cost per mg checked daily. Cheapest source.",
+    ipamorelin:
+      "Compare Ipamorelin prices per mg across every verified UK supplier. GH secretagogue with live stock, purity and cost per mg checked daily. Cheapest UK source.",
+    "mots-c":
+      "Compare MOTS-c prices per mg across every verified UK supplier. Mitochondrial peptide, live stock, purity and cost per mg checked daily. Cheapest UK source.",
+    "kisspeptin-10":
+      "Compare Kisspeptin-10 prices per mg across every verified UK supplier. Reproductive hormone peptide with live stock, purity and cost per mg checked every day.",
+    retatrutide:
+      "Compare Retatrutide prices per mg across every verified UK supplier. Triple GLP-1 agonist, live stock, purity and cost per mg checked daily. Cheapest source.",
+    "hgh-97":
+      "Compare HGH-97 prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    klow:
+      "Compare KLOW prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    oxytocin:
+      "Compare Oxytocin prices per mg across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source now.",
+    "melatonin-10mg":
+      "Compare Melatonin 10mg prices across every verified UK supplier. Live stock, purity levels and cost per mg checked daily. Find the cheapest UK source right now.",
+    "kisspeptin-nasal-spray":
+      "Compare Kisspeptin nasal spray prices across every verified UK supplier. Live stock, purity and cost per spray checked daily. Find the cheapest UK source now.",
+    "bpc-157-tb-500-nasal-spray":
+      "Compare BPC-157 + TB-500 nasal spray prices across every verified UK supplier. Live stock, purity levels and cost per spray checked daily. Cheapest UK source.",
+    "glow-nasal-spray":
+      "Compare Glow nasal spray prices across every verified UK supplier. Live stock, purity and cost per spray checked daily. Find the cheapest UK source right now.",
   };
   const description =
     seoDescriptions[slug] ||
