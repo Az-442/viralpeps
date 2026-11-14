@@ -1,111 +1,119 @@
+import { redirect, notFound } from "next/navigation";
+import { cookies } from "next/headers";
 import { sql } from "@vercel/postgres";
-import { notFound } from "next/navigation";
+import { findSellerBySession } from "@/lib/seller-auth";
+import { getTrustScore } from "@/lib/trust-score";
+import vendorsData from "@/data/vendors.json";
+import compoundsData from "@/data/compounds.json";
+import SellerDashboard from "@/components/seller/SellerDashboard";
+import type { SaleRow } from "@/components/seller/SellerDashboard";
 
 export const dynamic = "force-dynamic";
 
-// Seller dashboard — per-supplier stats. Keyed by vendor slug (no auth yet —
-// the slug itself identifies the supplier; add a login before public use).
-
-function fmtMoney(n: number | string | null): string {
-  const v = Number(n ?? 0);
-  return v.toLocaleString("en-GB", { style: "currency", currency: "GBP" });
-}
+const COOKIE = "vp_seller_session";
 
 export default async function SellerPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const token = (await cookies()).get(COOKIE)?.value ?? null;
+  const seller = await findSellerBySession(token);
 
-  const meta = await sql`
-    SELECT
-      (SELECT max(vendor_name) FROM clicks WHERE vendor_slug = ${slug}) AS vendor_name,
-      (SELECT count(*) FROM clicks WHERE vendor_slug = ${slug})::int AS clicks,
-      (SELECT count(*) FROM sales WHERE vendor_slug = ${slug})::int AS sales,
-      (SELECT COALESCE(sum(commission_amount), 0)::float FROM sales WHERE vendor_slug = ${slug}) AS commission,
-      (SELECT COALESCE(sum(order_value), 0)::float FROM sales WHERE vendor_slug = ${slug}) AS revenue
-  `;
-  const m = meta.rows[0];
-  if (Number(m.clicks) === 0 && Number(m.sales) === 0) {
-    notFound();
+  if (!seller) {
+    redirect(`/sellers/login?next=${encodeURIComponent(`/sellers/${slug}`)}`);
   }
-  const name = m.vendor_name || slug;
+  if (seller.slug !== slug) {
+    // Logged in as a different seller — don't let them read someone else's page.
+    redirect(`/sellers/${seller.slug}`);
+  }
 
-  const recentClicks = await sql`
-    SELECT compound_slug, ref_page, created_at
+  // Vendor record (TrustScore + listing data) keyed by slug.
+  const vendor = (vendorsData as any[]).find((v) => v.slug === slug);
+  if (!vendor) notFound();
+  const trust = getTrustScore(vendor.name);
+
+  // Clicks — all-time totals + 30-day window.
+  const clicks = await sql`
+    SELECT click_type, compound_slug, ref_page, visitor_id, created_at
     FROM clicks WHERE vendor_slug = ${slug}
-    ORDER BY created_at DESC LIMIT 20
+    ORDER BY created_at DESC LIMIT 500
+  `;
+  const clickRows = clicks.rows as Array<{
+    click_type: string;
+    compound_slug: string | null;
+    ref_page: string | null;
+    visitor_id: string | null;
+    created_at: string;
+  }>;
+
+  const totals = await sql`
+    SELECT
+      count(*)::int AS clicks_all,
+      count(DISTINCT visitor_id)::int AS visitors_all,
+      count(*) FILTER (WHERE created_at > now() - interval '30 days')::int AS clicks_30,
+      count(DISTINCT visitor_id) FILTER (WHERE created_at > now() - interval '30 days')::int AS visitors_30
+    FROM clicks WHERE vendor_slug = ${slug}
+  `;
+  const t = totals.rows[0];
+
+  const sales = await sql`
+    SELECT order_id, order_value, currency, customer_type, commission_amount, created_at
+    FROM sales WHERE vendor_slug = ${slug}
+    ORDER BY created_at DESC LIMIT 100
   `;
 
-  const recentSales = await sql`
-    SELECT order_id, order_value, commission_amount, customer_type, created_at
-    FROM sales WHERE vendor_slug = ${slug}
-    ORDER BY created_at DESC LIMIT 20
+  // Products — this seller's listings across the comparison site.
+  type Source = { vendor: string; url?: string; price?: string; inStock?: boolean; image?: string };
+  type Compound = { name: string; slug: string; sources: Source[] };
+  const products: Array<{
+    compoundSlug: string;
+    compoundName: string;
+    price: string;
+    inStock: boolean;
+    url: string;
+  }> = [];
+  for (const c of compoundsData as Compound[]) {
+    for (const s of c.sources || []) {
+      if (s.vendor === vendor.name) {
+        products.push({
+          compoundSlug: c.slug,
+          compoundName: c.name,
+          price: s.price ?? "",
+          inStock: s.inStock !== false,
+          url: s.url ?? "",
+        });
+      }
+    }
+  }
+
+  // Click count per product (for the products table).
+  const perProduct = await sql`
+    SELECT compound_slug, count(*)::int AS n
+    FROM clicks WHERE vendor_slug = ${slug} AND compound_slug IS NOT NULL
+    GROUP BY compound_slug
   `;
+  const productClicks: Record<string, number> = {};
+  for (const r of perProduct.rows) productClicks[r.compound_slug] = r.n;
 
   return (
-    <main style={{ fontFamily: "system-ui, sans-serif", padding: "2rem", maxWidth: 960, margin: "0 auto" }}>
-      <h1 style={{ fontSize: "1.5rem", fontWeight: 700 }}>{name}</h1>
-      <p style={{ color: "#555" }}>Your referral performance.</p>
-
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1rem", margin: "1.5rem 0" }}>
-        {[
-          ["Clicks", m.clicks],
-          ["Sales", m.sales],
-          ["Commission", fmtMoney(m.commission)],
-          ["Referred revenue", fmtMoney(m.revenue)],
-        ].map(([label, val]) => (
-          <div key={label} style={{ border: "1px solid #e5e7eb", borderRadius: 8, padding: "1rem" }}>
-            <div style={{ fontSize: ".8rem", color: "#6b7280" }}>{label}</div>
-            <div style={{ fontSize: "1.4rem", fontWeight: 700 }}>{val}</div>
-          </div>
-        ))}
-      </div>
-
-      <h2 style={{ fontSize: "1.1rem", fontWeight: 600, margin: "1.5rem 0 .5rem" }}>Recent clicks</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
-        <thead>
-          <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
-            <th style={{ padding: ".4rem" }}>Compound</th>
-            <th style={{ padding: ".4rem" }}>Page</th>
-            <th style={{ padding: ".4rem" }}>When</th>
-          </tr>
-        </thead>
-        <tbody>
-          {recentClicks.rows.length === 0 ? (
-            <tr><td colSpan={3} style={{ padding: "1rem", color: "#9ca3af" }}>No clicks yet.</td></tr>
-          ) : recentClicks.rows.map((r, i) => (
-            <tr key={i} style={{ borderBottom: "1px solid #f3f4f6" }}>
-              <td style={{ padding: ".4rem" }}>{r.compound_slug || "—"}</td>
-              <td style={{ padding: ".4rem", color: "#6b7280" }}>{r.ref_page || "—"}</td>
-              <td style={{ padding: ".4rem" }}>{new Date(r.created_at).toLocaleString("en-GB")}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-
-      <h2 style={{ fontSize: "1.1rem", fontWeight: 600, margin: "1.5rem 0 .5rem" }}>Recent sales</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
-        <thead>
-          <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
-            <th style={{ padding: ".4rem" }}>Order</th>
-            <th style={{ padding: ".4rem" }}>Value</th>
-            <th style={{ padding: ".4rem" }}>Commission</th>
-            <th style={{ padding: ".4rem" }}>Customer</th>
-            <th style={{ padding: ".4rem" }}>When</th>
-          </tr>
-        </thead>
-        <tbody>
-          {recentSales.rows.length === 0 ? (
-            <tr><td colSpan={5} style={{ padding: "1rem", color: "#9ca3af" }}>No sales yet.</td></tr>
-          ) : recentSales.rows.map((r, i) => (
-            <tr key={i} style={{ borderBottom: "1px solid #f3f4f6" }}>
-              <td style={{ padding: ".4rem" }}>{r.order_id}</td>
-              <td style={{ padding: ".4rem" }}>{fmtMoney(r.order_value)}</td>
-              <td style={{ padding: ".4rem" }}>{fmtMoney(r.commission_amount)}</td>
-              <td style={{ padding: ".4rem" }}>{r.customer_type || "—"}</td>
-              <td style={{ padding: ".4rem" }}>{new Date(r.created_at).toLocaleString("en-GB")}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </main>
+    <SellerDashboard
+      slug={slug}
+      name={vendor.name}
+      trustScore={trust.score}
+      trustTicks={trust.ticks}
+      commissionRate={seller.commission_rate == null ? 20 : Number(seller.commission_rate)}
+      apiKey={seller.api_key ?? ""}
+      email={seller.email}
+      stats={{
+        clicks30: t.clicks_30,
+        visitors30: t.visitors_30,
+        clicksAll: t.clicks_all,
+        visitorsAll: t.visitors_all,
+        activeProducts: products.filter((p) => p.inStock).length,
+        totalProducts: products.length,
+      }}
+      clicks={clickRows}
+      sales={sales.rows as unknown as SaleRow[]}
+      products={products}
+      productClicks={productClicks}
+    />
   );
 }
