@@ -3,6 +3,7 @@ import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
 import { allowClick } from "@/lib/click-rate-limit";
+import { isVendorDead, bestAlternativeVendor } from "@/lib/vendor-alternative";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -44,6 +45,21 @@ export async function GET(
     }
   } catch {
     /* never block the redirect on a logging failure */
+  }
+
+  // Re-route: if this supplier's site is down, send the visitor to the best
+  // live alternative (via an honest "offline" interstitial) instead of a dead
+  // page.
+  if (isVendorDead(vendorSlug)) {
+    const alt = bestAlternativeVendor(vendorSlug);
+    const p = new URLSearchParams({ vendor: vendor.name });
+    if (alt) {
+      p.set("alt", alt.name);
+      p.set("altPath", `/go/${alt.slug}`);
+    }
+    const res = NextResponse.redirect(new URL(`/go/down?${p.toString()}`, request.url), 302);
+    res.headers.set("X-Robots-Tag", "noindex, nofollow");
+    return res;
   }
 
   const res = NextResponse.redirect(vendor.website, 302);

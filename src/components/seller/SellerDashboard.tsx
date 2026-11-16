@@ -1,76 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, type ReactNode } from "react";
 import SellerProfile from "./SellerProfile";
-
-// ── Icon set (Lucide-style line icons, no emoji) ────────────────────────
-const iconProps = {
-  viewBox: "0 0 24 24",
-  fill: "none",
-  stroke: "currentColor",
-  strokeWidth: 2,
-  strokeLinecap: "round" as const,
-  strokeLinejoin: "round" as const,
-  className: "w-[18px] h-[18px] shrink-0",
-  "aria-hidden": true,
-};
-
-function DashboardIcon() {
-  return (
-    <svg {...iconProps}>
-      <rect x="3" y="3" width="7" height="9" rx="1" />
-      <rect x="14" y="3" width="7" height="5" rx="1" />
-      <rect x="14" y="12" width="7" height="9" rx="1" />
-      <rect x="3" y="16" width="7" height="5" rx="1" />
-    </svg>
-  );
-}
-
-function PackageIcon() {
-  return (
-    <svg {...iconProps}>
-      <path d="m7.5 4.27 9 5.15" />
-      <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
-      <path d="m3.3 7 8.7 5 8.7-5" />
-      <path d="M12 22V12" />
-    </svg>
-  );
-}
-
-function ShieldIcon() {
-  return (
-    <svg {...iconProps}>
-      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1 1 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-      <path d="m9 12 2 2 4-4" />
-    </svg>
-  );
-}
-
-function BrandHexagon() {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="w-5 h-5 text-blue-600 shrink-0"
-      aria-hidden="true"
-    >
-      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
-      <path d="M12 7.5v9" />
-      <path d="m8.5 10 7 4" />
-      <path d="m15.5 10-7 4" />
-    </svg>
-  );
-}
-
-const NAV_ITEMS = [
-  { id: "overview", label: "Dashboard", Icon: DashboardIcon },
-  { id: "products", label: "Products", Icon: PackageIcon },
-  { id: "profile", label: "Profile & TrustScore", Icon: ShieldIcon },
-] as const;
+import TrustScoreIcon from "../TrustScoreIcon";
 
 export interface ClickRow {
   click_type: string;
@@ -104,6 +36,197 @@ const RANGES = [
   { label: "All time", days: 0 },
 ] as const;
 
+type Tab =
+  | "dashboard"
+  | "analytics"
+  | "ranking"
+  | "products"
+  | "badge"
+  | "price-feed"
+  | "affiliate"
+  | "profile"
+  | "invoices"
+  | "documents"
+  | "terms";
+
+// ── Icon set (Lucide-style line icons, no emoji) ────────────────────────
+const iconProps = {
+  viewBox: "0 0 24 24",
+  fill: "none",
+  stroke: "currentColor",
+  strokeWidth: 2,
+  strokeLinecap: "round" as const,
+  strokeLinejoin: "round" as const,
+  className: "w-[18px] h-[18px] shrink-0",
+  "aria-hidden": true,
+};
+
+function Ic({ children }: { children: ReactNode }) {
+  return <svg {...iconProps}>{children}</svg>;
+}
+
+const DashboardIcon = () => (
+  <Ic>
+    <rect x="3" y="3" width="7" height="9" rx="1" />
+    <rect x="14" y="3" width="7" height="5" rx="1" />
+    <rect x="14" y="12" width="7" height="9" rx="1" />
+    <rect x="3" y="16" width="7" height="5" rx="1" />
+  </Ic>
+);
+
+const AnalyticsIcon = () => (
+  <Ic>
+    <path d="M3 3v18h18" />
+    <path d="M18 17V9" />
+    <path d="M13 17V5" />
+    <path d="M8 17v-3" />
+  </Ic>
+);
+
+const SearchIcon = () => (
+  <Ic>
+    <circle cx="11" cy="11" r="8" />
+    <path d="m21 21-4.3-4.3" />
+  </Ic>
+);
+
+const PackageIcon = () => (
+  <Ic>
+    <path d="m7.5 4.27 9 5.15" />
+    <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+    <path d="m3.3 7 8.7 5 8.7-5" />
+    <path d="M12 22V12" />
+  </Ic>
+);
+
+const BadgeIcon = () => (
+  <Ic>
+    <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+    <path d="m9 12 2 2 4-4" />
+  </Ic>
+);
+
+const FileTextIcon = () => (
+  <Ic>
+    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+    <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+    <path d="M10 9H8" />
+    <path d="M16 13H8" />
+    <path d="M16 17H8" />
+  </Ic>
+);
+
+const NetworkIcon = () => (
+  <Ic>
+    <circle cx="18" cy="5" r="3" />
+    <circle cx="6" cy="12" r="3" />
+    <circle cx="18" cy="19" r="3" />
+    <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+    <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
+  </Ic>
+);
+
+const ShieldIcon = () => (
+  <Ic>
+    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1 1 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+    <path d="m9 12 2 2 4-4" />
+  </Ic>
+);
+
+const ReceiptIcon = () => (
+  <Ic>
+    <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" />
+    <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+    <path d="M12 17.5v-11" />
+  </Ic>
+);
+
+const ScaleIcon = () => (
+  <Ic>
+    <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+    <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+    <path d="M7 21h10" />
+    <path d="M12 3v18" />
+    <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+  </Ic>
+);
+
+const LifeBuoyIcon = () => (
+  <Ic>
+    <circle cx="12" cy="12" r="10" />
+    <path d="m4.93 4.93 4.24 4.24" />
+    <path d="m14.83 9.17 4.24-4.24" />
+    <path d="m14.83 14.83 4.24 4.24" />
+    <path d="m9.17 14.83-4.24 4.24" />
+    <circle cx="12" cy="12" r="4" />
+  </Ic>
+);
+
+const ArrowLeftIcon = () => (
+  <Ic>
+    <path d="m12 19-7-7 7-7" />
+    <path d="M19 12H5" />
+  </Ic>
+);
+
+const SparklesIcon = () => (
+  <Ic>
+    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
+  </Ic>
+);
+
+function BrandHexagon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-6 h-6 text-blue-600 shrink-0"
+      aria-hidden="true"
+    >
+      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+      <path d="M12 7.5v9" />
+      <path d="m8.5 10 7 4" />
+      <path d="m15.5 10-7 4" />
+    </svg>
+  );
+}
+
+const NAV_SECTIONS = [
+  {
+    label: "Overview",
+    items: [
+      { id: "dashboard", label: "Dashboard", Icon: DashboardIcon },
+      { id: "analytics", label: "Analytics", Icon: AnalyticsIcon },
+      { id: "ranking", label: "Search Ranking", Icon: SearchIcon },
+    ],
+  },
+  {
+    label: "Your listing",
+    items: [
+      { id: "products", label: "Products", Icon: PackageIcon },
+      { id: "badge", label: "Website Badge", Icon: BadgeIcon },
+      { id: "price-feed", label: "Price Feed", Icon: FileTextIcon },
+    ],
+  },
+  {
+    label: "Growth",
+    items: [{ id: "affiliate", label: "Affiliate Network", Icon: NetworkIcon }],
+  },
+  {
+    label: "Account",
+    items: [
+      { id: "profile", label: "Profile & TrustScore", Icon: ShieldIcon },
+      { id: "invoices", label: "Invoices", Icon: ReceiptIcon },
+      { id: "documents", label: "Documents", Icon: FileTextIcon },
+      { id: "terms", label: "Terms & Conditions", Icon: ScaleIcon },
+    ],
+  },
+] as const;
+
 function fmtMoney(n: number | string | null): string {
   const v = Number(n ?? 0);
   return v.toLocaleString("en-GB", { style: "currency", currency: "GBP" });
@@ -121,6 +244,18 @@ function timeAgo(iso: string): string {
   if (days < 7) return `${days}d ago`;
   const w = Math.floor(days / 7);
   return w < 5 ? `${w}w ago` : new Date(iso).toLocaleDateString("en-GB");
+}
+
+function Placeholder({ title, desc }: { title: string; desc: string }) {
+  return (
+    <div className="bg-white border border-gray-200 rounded-xl p-12 text-center">
+      <div className="mx-auto w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-blue-500 mb-4">
+        <FileTextIcon />
+      </div>
+      <h2 className="font-semibold text-gray-900">{title}</h2>
+      <p className="text-sm text-gray-400 mt-1 max-w-md mx-auto">{desc}</p>
+    </div>
+  );
 }
 
 export default function SellerDashboard(props: {
@@ -146,7 +281,8 @@ export default function SellerDashboard(props: {
 }) {
   const [rangeDays, setRangeDays] = useState(30);
   const [productFilter, setProductFilter] = useState<string>("all");
-  const [tab, setTab] = useState<"overview" | "products" | "profile">("overview");
+  const [tab, setTab] = useState<Tab>("dashboard");
+  const [copied, setCopied] = useState(false);
 
   const cutoff = useMemo(() => {
     if (rangeDays === 0) return 0;
@@ -182,8 +318,7 @@ export default function SellerDashboard(props: {
       map.set(k, (map.get(k) ?? 0) + 1);
     }
     const keys = [...map.keys()].sort();
-    const last = keys.slice(-days).map((k) => ({ k, n: map.get(k) ?? 0 }));
-    return last;
+    return keys.slice(-days).map((k) => ({ k, n: map.get(k) ?? 0 }));
   }, [clicksInRange, rangeDays]);
   const maxBar = Math.max(1, ...bars.map((b) => b.n));
 
@@ -196,7 +331,12 @@ export default function SellerDashboard(props: {
     }));
   }, [props.products, props.productClicks]);
 
-  // TrustScore band colour.
+  // Top products by clicks (for the analytics tab).
+  const topProducts = useMemo(
+    () => [...productList].sort((a, b) => b.count - a.count).slice(0, 10),
+    [productList]
+  );
+
   const band =
     props.trustScore >= 86
       ? "text-emerald-600"
@@ -208,10 +348,61 @@ export default function SellerDashboard(props: {
       ? "text-orange-500"
       : "text-rose-500";
 
+  const embedSnippet = `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
+
+  function copyEmbed() {
+    navigator.clipboard?.writeText(embedSnippet).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }
+
+  const statCards = (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
+      {[
+        ["Clicks", filteredClicks.length, `${props.stats.clicksAll} all time`],
+        ["Unique visitors", visitorsInRange, "distinct people"],
+        ["Affiliate clicks", affiliateClicks, "tracked outbound"],
+        ["Active products", props.stats.activeProducts, `${props.stats.totalProducts} total`],
+      ].map(([label, val, sub]) => (
+        <div key={label as string} className="bg-white border border-gray-200 rounded-xl p-4">
+          <div className="text-xs text-gray-500">{label}</div>
+          <div className="text-2xl font-bold mt-1">{val}</div>
+          <div className="text-xs text-gray-400 mt-0.5">{sub}</div>
+        </div>
+      ))}
+    </div>
+  );
+
+  const clickActivity = (
+    <div className="bg-white border border-gray-200 rounded-xl p-5 mb-5">
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="font-semibold">Click activity</h2>
+        <span className="text-xs text-gray-400">per day · {RANGES.find((r) => r.days === rangeDays)?.label.toLowerCase()}</span>
+      </div>
+      {bars.length === 0 ? (
+        <p className="text-sm text-gray-400 py-6">No clicks in this period.</p>
+      ) : (
+        <div className="flex items-end gap-1 h-32">
+          {bars.map((b) => (
+            <div key={b.k} className="flex-1 flex flex-col items-center gap-1">
+              <div
+                className="w-full bg-blue-600 rounded-t"
+                style={{ height: `${Math.max(4, (b.n / maxBar) * 100)}%` }}
+                title={`${b.k}: ${b.n}`}
+              />
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       {/* ── Sidebar ── */}
-      <aside className="fixed inset-y-0 left-0 w-60 bg-white border-r border-gray-200 flex flex-col">
+      <aside className="fixed inset-y-0 left-0 w-64 bg-white border-r border-gray-200 flex flex-col overflow-y-auto">
+        {/* Brand */}
         <div className="px-4 py-5 border-b border-gray-100">
           <div className="flex items-center gap-2">
             <BrandHexagon />
@@ -221,31 +412,76 @@ export default function SellerDashboard(props: {
             </div>
           </div>
         </div>
-        <nav className="flex-1 px-2 py-3 space-y-0.5 text-sm">
-          {NAV_ITEMS.map(({ id, label, Icon }) => (
-            <button
-              key={id}
-              onClick={() => setTab(id)}
-              className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left ${
-                tab === id ? "bg-blue-50 text-blue-700 font-medium" : "text-gray-600 hover:bg-gray-50"
-              }`}
-            >
-              <Icon /> {label}
-            </button>
+
+        {/* Supplier selection */}
+        <div className="px-3 pt-3">
+          <div className="bg-gray-50 border border-gray-100 rounded-lg px-3 py-2.5 flex items-center gap-2.5">
+            <div className="w-7 h-7 rounded-full bg-blue-600 text-white text-[11px] font-semibold flex items-center justify-center shrink-0">
+              {props.name.charAt(0)}
+            </div>
+            <div className="min-w-0">
+              <div className="text-sm font-medium text-gray-800 truncate">{props.name}</div>
+              <a
+                href={`/vendors/${props.slug}`}
+                className="text-[11px] text-blue-600 hover:underline inline-flex items-center gap-0.5"
+              >
+                View public listing <span aria-hidden>↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Nav */}
+        <nav className="flex-1 px-2 py-3 text-sm">
+          {NAV_SECTIONS.map((section) => (
+            <div key={section.label} className="mt-2 first:mt-0">
+              <div className="px-3 pb-1 text-[10px] font-semibold tracking-widest text-gray-400 uppercase">
+                {section.label}
+              </div>
+              {section.items.map(({ id, label, Icon }) => (
+                <button
+                  key={id}
+                  onClick={() => setTab(id)}
+                  className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left ${
+                    tab === id ? "bg-blue-50 text-blue-700 font-medium" : "text-gray-600 hover:bg-gray-50"
+                  }`}
+                >
+                  <Icon /> {label}
+                </button>
+              ))}
+            </div>
           ))}
         </nav>
-        <div className="px-3 py-4 border-t border-gray-100 text-xs text-gray-500 space-y-2">
-          <a href={`/vendors/${props.slug}`} className="block text-blue-600 hover:underline">
-            View public listing ↗
+
+        {/* Get Featured CTA */}
+        <div className="px-3 pb-2">
+          <a
+            href="/contact"
+            className="flex items-center justify-center gap-1.5 bg-[#0b1a2e] text-white text-sm font-medium px-3 py-2.5 rounded-lg hover:bg-[#12243c]"
+          >
+            <span className="text-amber-400"><SparklesIcon /></span>
+            Get Featured
+          </a>
+        </div>
+
+        {/* Footer */}
+        <div className="px-3 py-3 border-t border-gray-100 text-xs text-gray-500 space-y-1">
+          <a href="/contact" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-500">
+            <LifeBuoyIcon /> Support
+          </a>
+          <a href="/" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-500">
+            <ArrowLeftIcon /> Back to Site
           </a>
           <form action="/api/sellers/logout" method="POST">
-            <button className="text-gray-400 hover:text-gray-600">Sign out</button>
+            <button className="w-full flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-left text-gray-400">
+              Sign out
+            </button>
           </form>
         </div>
       </aside>
 
       {/* ── Main ── */}
-      <div className="ml-60 p-6">
+      <div className="ml-64 p-6">
         {/* Hero */}
         <div className="rounded-2xl bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] text-white p-6 mb-5">
           <div className="flex items-start justify-between gap-4 flex-wrap">
@@ -281,46 +517,9 @@ export default function SellerDashboard(props: {
           </div>
         </div>
 
-        {tab === "overview" && (
+        {tab === "dashboard" && (
           <>
-            {/* Stat cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
-              {[
-                ["Clicks", filteredClicks.length, `${props.stats.clicksAll} all time`],
-                ["Unique visitors", visitorsInRange, "distinct people"],
-                ["Affiliate clicks", affiliateClicks, "tracked outbound"],
-                ["Active products", props.stats.activeProducts, `${props.stats.totalProducts} total`],
-              ].map(([label, val, sub]) => (
-                <div key={label as string} className="bg-white border border-gray-200 rounded-xl p-4">
-                  <div className="text-xs text-gray-500">{label}</div>
-                  <div className="text-2xl font-bold mt-1">{val}</div>
-                  <div className="text-xs text-gray-400 mt-0.5">{sub}</div>
-                </div>
-              ))}
-            </div>
-
-            {/* Click activity */}
-            <div className="bg-white border border-gray-200 rounded-xl p-5 mb-5">
-              <div className="flex items-center justify-between mb-3">
-                <h2 className="font-semibold">Click activity</h2>
-                <span className="text-xs text-gray-400">per day · {RANGES.find((r) => r.days === rangeDays)?.label.toLowerCase()}</span>
-              </div>
-              {bars.length === 0 ? (
-                <p className="text-sm text-gray-400 py-6">No clicks in this period.</p>
-              ) : (
-                <div className="flex items-end gap-1 h-32">
-                  {bars.map((b) => (
-                    <div key={b.k} className="flex-1 flex flex-col items-center gap-1">
-                      <div
-                        className="w-full bg-blue-600 rounded-t"
-                        style={{ height: `${Math.max(4, (b.n / maxBar) * 100)}%` }}
-                        title={`${b.k}: ${b.n}`}
-                      />
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
+            {statCards}
 
             {/* TrustScore */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
@@ -426,6 +625,48 @@ export default function SellerDashboard(props: {
           </>
         )}
 
+        {tab === "analytics" && (
+          <>
+            {statCards}
+            {clickActivity}
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <div className="px-5 py-3 border-b border-gray-100">
+                <h2 className="font-semibold">Top products</h2>
+                <div className="text-xs text-gray-400">by clicks this period</div>
+              </div>
+              {topProducts.length === 0 ? (
+                <p className="px-5 py-6 text-sm text-gray-400">No product clicks yet.</p>
+              ) : (
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-left text-xs text-gray-400 border-b border-gray-100">
+                      <th className="px-5 py-2 font-medium">Product</th>
+                      <th className="px-5 py-2 font-medium">Clicks</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {topProducts.map((p) => (
+                      <tr key={p.slug} className="border-b border-gray-50">
+                        <td className="px-5 py-2">
+                          <a href={`/compounds/${p.slug}`} className="hover:underline">{p.name}</a>
+                        </td>
+                        <td className="px-5 py-2">{p.count}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+            </div>
+          </>
+        )}
+
+        {tab === "ranking" && (
+          <Placeholder
+            title="Search ranking"
+            desc="Where your listings rank for buyer searches. This is coming soon — we'll show your keyword positions here."
+          />
+        )}
+
         {tab === "products" && (
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
             <div className="px-5 py-3 border-b border-gray-100 flex items-center justify-between">
@@ -476,6 +717,61 @@ export default function SellerDashboard(props: {
           </div>
         )}
 
+        {tab === "badge" && (
+          <div className="bg-white border border-gray-200 rounded-xl p-6">
+            <div className="flex items-start gap-5">
+              <TrustScoreIcon className="w-14 h-14 shrink-0" />
+              <div>
+                <h2 className="font-semibold text-lg">Your TrustScore badge</h2>
+                <p className="text-sm text-gray-500 mt-1">
+                  Install this on your site and link it back to ViralPeps to earn the{" "}
+                  <span className="font-medium text-gray-700">Domain (+15)</span> signal. We verify
+                  it once live.
+                </p>
+                <div className="mt-2 inline-flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-medium rounded-full px-3 py-1">
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                  {props.trustScore}/100 · {props.trustTicks.length ? props.trustTicks.join(" · ") : "No signals yet"}
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <div className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">
+                Embed code
+              </div>
+              <div className="relative">
+                <pre className="bg-gray-900 text-gray-100 text-xs rounded-lg p-4 overflow-x-auto leading-relaxed">
+                  <code>{embedSnippet}</code>
+                </pre>
+                <button
+                  onClick={copyEmbed}
+                  className="absolute top-2 right-2 text-xs bg-white/10 hover:bg-white/20 text-white rounded-md px-2.5 py-1"
+                >
+                  {copied ? "Copied ✓" : "Copy"}
+                </button>
+              </div>
+              <p className="text-xs text-gray-400 mt-2">
+                Paste it in your site&apos;s <code className="bg-gray-100 px-1 rounded">{"<head>"}</code> or
+                footer. The badge floats bottom-right and links back to your listing.
+              </p>
+            </div>
+          </div>
+        )}
+
+        {tab === "price-feed" && (
+          <Placeholder
+            title="Price feed"
+            desc="A live price export (CSV/JSON) of your listed products for your own site and ad tools. Coming soon."
+          />
+        )}
+
+        {tab === "affiliate" && (
+          <Placeholder
+            title="Affiliate network"
+            desc="Refer other suppliers and earn commission on sales they generate. This is on our roadmap."
+          />
+        )}
+
         {tab === "profile" && (
           <SellerProfile
             slug={props.slug}
@@ -484,6 +780,32 @@ export default function SellerDashboard(props: {
             apiKey={props.apiKey}
             trustScore={props.trustScore}
             trustTicks={props.trustTicks}
+          />
+        )}
+
+        {tab === "invoices" && (
+          <Placeholder
+            title="Invoices"
+            desc="Your billing history and invoices will appear here."
+          />
+        )}
+
+        {tab === "documents" && (
+          <div className="bg-white border border-gray-200 rounded-xl p-12 text-center">
+            <div className="mx-auto w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-blue-500 mb-4">
+              <FileTextIcon />
+            </div>
+            <h2 className="font-semibold text-gray-900">Nothing to sign</h2>
+            <p className="text-sm text-gray-400 mt-1 max-w-sm mx-auto">
+              When we send you an order form or agreement it appears here, ready to read and sign.
+            </p>
+          </div>
+        )}
+
+        {tab === "terms" && (
+          <Placeholder
+            title="Terms & Conditions"
+            desc="Your supplier agreement and platform terms will be available here."
           />
         )}
       </div>

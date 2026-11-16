@@ -4,6 +4,7 @@ import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
 import { allowClick } from "@/lib/click-rate-limit";
+import { isVendorDead, bestAlternativeForCompound } from "@/lib/vendor-alternative";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -78,6 +79,21 @@ export async function GET(
     }
   } catch {
     /* never block the redirect on a logging failure */
+  }
+
+  // Re-route: if this supplier's site is down, send the visitor to the best
+  // live alternative for this compound (via an honest "offline" interstitial).
+  if (isVendorDead(vendorSlug)) {
+    const alt = bestAlternativeForCompound(compound, vendor.name);
+    const p = new URLSearchParams({ vendor: vendor.name });
+    if (compound.name) p.set("compound", compound.name);
+    if (alt) {
+      p.set("alt", alt.name);
+      p.set("altPath", `/go/${alt.slug}/${compound.slug}`);
+    }
+    const res = NextResponse.redirect(new URL(`/go/down?${p.toString()}`, request.url), 302);
+    res.headers.set("X-Robots-Tag", "noindex, nofollow");
+    return res;
   }
 
   // 6. 302 redirect to the supplier's product page
