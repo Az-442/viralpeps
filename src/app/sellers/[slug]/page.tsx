@@ -12,6 +12,15 @@ export const dynamic = "force-dynamic";
 
 const COOKIE = "vp_seller_session";
 
+// Postgres returns TIMESTAMPTZ as a Date object, which fails Next.js RSC
+// serialization when passed to a client component. Normalise to ISO strings.
+function toIso(v: unknown): string {
+  if (v == null) return "";
+  if (typeof v === "string") return v;
+  if (v instanceof Date) return v.toISOString();
+  return String(v);
+}
+
 export default async function SellerPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const token = (await cookies()).get(COOKIE)?.value ?? null;
@@ -33,13 +42,19 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
     FROM clicks WHERE vendor_slug = ${slug}
     ORDER BY created_at DESC LIMIT 500
   `;
-  const clickRows = clicks.rows as Array<{
+  const clickRows = (clicks.rows as Array<{
     click_type: string;
     compound_slug: string | null;
     ref_page: string | null;
     visitor_id: string | null;
-    created_at: string;
-  }>;
+    created_at: unknown;
+  }>).map((c) => ({
+    click_type: c.click_type,
+    compound_slug: c.compound_slug,
+    ref_page: c.ref_page,
+    visitor_id: c.visitor_id,
+    created_at: toIso(c.created_at),
+  }));
 
   const totals = await sql`
     SELECT
@@ -56,6 +71,14 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
     FROM sales WHERE vendor_slug = ${slug}
     ORDER BY created_at DESC LIMIT 100
   `;
+  const saleRows = (sales.rows as Array<Record<string, unknown>>).map((s) => ({
+    order_id: String(s.order_id ?? ""),
+    order_value: s.order_value ?? 0,
+    currency: s.currency ?? null,
+    customer_type: s.customer_type ?? null,
+    commission_amount: s.commission_amount ?? null,
+    created_at: toIso(s.created_at),
+  })) as unknown as SaleRow[];
 
   type Source = { vendor: string; url?: string; price?: string; inStock?: boolean; image?: string };
   type Compound = { name: string; slug: string; sources: Source[] };
@@ -106,7 +129,7 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
         totalProducts: products.length,
       }}
       clicks={clickRows}
-      sales={sales.rows as unknown as SaleRow[]}
+      sales={saleRows}
       products={products}
       productClicks={productClicks}
     />
