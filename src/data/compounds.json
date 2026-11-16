@@ -1485,7 +1485,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/bpc-157",
-        "price": "£100.00",
+        "price": "£60.00",
         "inStock": true,
         "image": "/images/products/my-peptides/bpc-157.webp",
         "dosage": "10mg"
@@ -1702,7 +1702,7 @@
       {
         "vendor": "Trutide",
         "url": "https://trutide.co.uk/product/bpc-157-10mg/",
-        "price": "£39.95",
+        "price": "£24.95",
         "inStock": true,
         "image": "/images/products/trutide/bpc-157.webp",
         "dosage": "10mg"
@@ -2328,7 +2328,7 @@
       {
         "vendor": "Omnichems",
         "url": "https://omnichems.co.uk/product/bpc-157-10mg-mana-buffs/",
-        "price": "79.99",
+        "price": "£27.99",
         "inStock": true,
         "image": "/images/products/omnichems/bpc-157.webp",
         "dosage": "10mg"
@@ -2712,7 +2712,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/tb-500",
-        "price": "£100.00",
+        "price": "£60.00",
         "inStock": true,
         "image": "/images/products/my-peptides/tb-500.webp",
         "dosage": "10mg"
@@ -3135,7 +3135,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/tb-500",
-        "price": "£24.00",
+        "price": "£29.99",
         "inStock": true,
         "image": "/images/products/vialverse/tb-500.webp",
         "dosage": "10mg"
@@ -3562,7 +3562,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/melanotan-2",
-        "price": "£100.00",
+        "price": "£65.00",
         "inStock": true,
         "image": "/images/products/my-peptides/melanotan-ii.webp",
         "dosage": "20mg"
@@ -3880,7 +3880,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/melanotan-2/",
-        "price": "£17.99",
+        "price": "£13.49",
         "inStock": true,
         "image": "/images/products/allmypeptides/melanotan-ii.png",
         "dosage": "10mg"
@@ -5627,7 +5627,7 @@
       {
         "vendor": "United Peptides",
         "url": "https://unitedpeptides.co.uk/product/retatrutide-40mg/",
-        "price": "£149.99",
+        "price": "£159.99",
         "inStock": true,
         "image": "https://unitedpeptides.co.uk/wp-content/uploads/2026/09/retatrutide-40mg-box-front.jpg",
         "dosage": "20mg",
@@ -6274,7 +6274,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/cjc-1295",
-        "price": "£100.00",
+        "price": "£60.00",
         "inStock": true,
         "image": "/images/products/my-peptides/cjc-1295.webp",
         "dosage": "3mg"
@@ -6947,7 +6947,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/igf-1-lr3",
-        "price": "£30.00",
+        "price": "£41.99",
         "inStock": true,
         "image": "/images/products/vialverse/igf-1-lr3.webp",
         "dosage": "1mg"
@@ -7019,7 +7019,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/igf-1-lr3/",
-        "price": "£34.39",
+        "price": "£25.79",
         "inStock": false,
         "image": "/images/products/allmypeptides/igf-1-lr3.png",
         "dosage": "1mg"
@@ -7540,7 +7540,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/tesamorelin",
-        "price": "£125.00",
+        "price": "£87.50",
         "inStock": true,
         "image": "/images/products/my-peptides/tesamorelin.webp",
         "dosage": "10mg"
@@ -8993,7 +8993,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/mots-c-32",
-        "price": "£100.00",
+        "price": "£87.50",
         "inStock": true,
         "image": "/images/products/my-peptides/mots-c.webp",
         "dosage": "32mg"
@@ -9386,7 +9386,7 @@
       {
         "vendor": "SPX Labs",
         "url": "https://spxlabs.co.uk/product/mots-c-uk-10mg/",
-        "price": "£16.99",
+        "price": "£26.99",
         "inStock": true,
         "image": "/images/products/spx-labs/mots-c.webp"
       },
@@ -10432,7 +10432,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/ss-31/",
-        "price": "£26.99",
+        "price": "£20.24",
         "inStock": true,
         "image": "/images/products/allmypeptides/ss-31.png",
         "dosage": "10mg"
@@ -10921,7 +10921,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/ghk-cu",
-        "price": "£100.00",
+        "price": "£65.00",
         "inStock": true,
         "dosage": "60mg",
         "image": "/images/products/my-peptides/ghk-cu.webp"
@@ -11146,7 +11146,7 @@
       {
         "vendor": "Trutide",
         "url": "https://trutide.co.uk/product/ghk-cu-100mg/",
-        "price": "£44.95",
+        "price": "£39.95",
         "inStock": true,
         "image": "/images/products/trutide/ghk-cu.webp",
         "dosage": "100mg"
@@ -11630,7 +11630,7 @@
       {
         "vendor": "Nilah Labs",
         "url": "https://nilahlabs.co.uk/products/ghkcu",
-        "price": "£38.95",
+        "price": "£24.95",
         "inStock": true,
         "image": "/images/products/nilah-labs/ghk-cu.webp",
         "dosage": "100mg"
@@ -11944,7 +11944,7 @@
       {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/kpv-5mg/",
-        "price": "£21.50",
+        "price": "£18.98",
         "inStock": true,
         "image": "/images/products/pure-peptides-uk/kpv-5mg.webp"
       },
@@ -11971,7 +11971,7 @@
       },
       {
         "vendor": "Pure Peptides UK",
-        "price": "£21.50",
+        "price": "£18.98",
         "url": "https://purepeptidesuk.com/product/kpv-5mg/",
         "inStock": true,
         "dosage": "5mg"
@@ -12105,7 +12105,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/kpv",
-        "price": "£100.00",
+        "price": "£70.00",
         "inStock": true,
         "dosage": "12mg",
         "image": "/images/products/my-peptides/kpv.webp"
@@ -12411,7 +12411,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/kpv/",
-        "price": "£25.49",
+        "price": "£19.12",
         "inStock": true,
         "image": "/images/products/allmypeptides/kpv.png",
         "dosage": "10mg"
@@ -12831,7 +12831,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/thymosin-alpha-1",
-        "price": "£54.00",
+        "price": "£39.99",
         "inStock": true,
         "image": "/images/products/vialverse/thymosin-alpha-1.webp",
         "dosage": "10mg"
@@ -13464,7 +13464,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/epithalon/",
-        "price": "£22.49",
+        "price": "£16.87",
         "inStock": false,
         "image": "/images/products/allmypeptides/epitalon.png",
         "dosage": "10mg"
@@ -15750,7 +15750,7 @@
       {
         "vendor": "Research Peptides UK",
         "url": "https://researchpeptide.co.uk/product/hgh-fragment-176-191-10mg/",
-        "price": "£59.99",
+        "price": "£45.00",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/hgh-fragment-176-191-10mg.webp"
       },
@@ -16311,7 +16311,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/ipamorelin",
-        "price": "£100.00",
+        "price": "£60.00",
         "inStock": true,
         "dosage": "6mg",
         "image": "/images/products/my-peptides/ipamorelin.webp"
@@ -17574,7 +17574,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/pt-141",
-        "price": "£100.00",
+        "price": "£65.00",
         "inStock": true,
         "dosage": "10mg",
         "image": "/images/products/my-peptides/pt-141-bremelanotide.webp"
@@ -17760,7 +17760,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/pt-141/",
-        "price": "£20.49",
+        "price": "£15.37",
         "inStock": true,
         "image": "/images/products/allmypeptides/pt-141-bremelanotide.png",
         "dosage": "10mg"
@@ -18260,7 +18260,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/kisspeptin-10",
-        "price": "£29.00",
+        "price": "£24.99",
         "inStock": true,
         "image": "/images/products/vialverse/kisspeptin-10.webp",
         "dosage": "10mg"
@@ -18284,7 +18284,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/kisspeptin-10/",
-        "price": "£19.99",
+        "price": "£14.99",
         "inStock": true,
         "image": "/images/products/allmypeptides/kisspeptin-10.png",
         "dosage": "10mg"
@@ -18514,7 +18514,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/p21",
-        "price": "£32.00",
+        "price": "£47.99",
         "inStock": true,
         "image": "/images/products/vialverse/p21.webp",
         "dosage": "10mg"
@@ -18913,7 +18913,7 @@
       {
         "vendor": "Trutide",
         "url": "https://trutide.co.uk/product/wolverine/",
-        "price": "£69.95",
+        "price": "£49.95",
         "inStock": true,
         "image": "/images/products/trutide/wolverine.webp",
         "dosage": "20mg"
@@ -19410,7 +19410,7 @@
       {
         "vendor": "Bluewell Peptides",
         "url": "https://bluewellpeptides.com/product/dsip-15mg-peptide/",
-        "price": "£16.95",
+        "price": "£35.95",
         "inStock": true,
         "image": "/images/products/bluewell-peptides/dsip-5-peptide.png",
         "dosage": "5mg"
@@ -20652,7 +20652,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/glow-blend/",
-        "price": "£49.49",
+        "price": "£37.12",
         "inStock": true,
         "image": "/images/products/allmypeptides/glow.png",
         "dosage": "70mg"
@@ -20716,7 +20716,7 @@
       {
         "vendor": "UK Peptide Lab",
         "url": "https://ukpeptidelab.co.uk/product/glow",
-        "price": "£59.99",
+        "price": "£53.99",
         "inStock": true,
         "dosage": "70mg",
         "image": "/images/products/uk-peptide-lab/glow-stack.webp"
@@ -20732,7 +20732,7 @@
       {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/bundle-glow-stack/",
-        "price": "£139.96",
+        "price": "£130.88",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Glow-Stack.jpg"
       },
@@ -21035,7 +21035,7 @@
       {
         "vendor": "Trutide",
         "url": "https://trutide.co.uk/product/klow-80mg/",
-        "price": "£89.95",
+        "price": "£64.95",
         "inStock": true,
         "image": "/images/products/trutide/klow.webp",
         "dosage": "80mg"
@@ -21152,7 +21152,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/klow-blend",
-        "price": "£52.00",
+        "price": "£54.99",
         "inStock": true,
         "image": "/images/products/vialverse/klow.webp",
         "dosage": "80mg"
@@ -21232,7 +21232,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/klow-blend/",
-        "price": "£58.49",
+        "price": "£43.87",
         "inStock": true,
         "image": "/images/products/allmypeptides/klow.png",
         "dosage": "80mg"
@@ -21454,7 +21454,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/mazdutide",
-        "price": "£52.00",
+        "price": "£59.99",
         "inStock": true,
         "image": "/images/products/vialverse/mazdutide.webp",
         "dosage": "10mg"
@@ -22121,7 +22121,7 @@
       {
         "vendor": "SPX Labs",
         "url": "https://spxlabs.co.uk/product/bacteriostatic-water-uk-10ml/",
-        "price": "£5.00",
+        "price": "£6.99",
         "inStock": true,
         "image": "/images/products/spx-labs/bacteriostatic-water.webp"
       },
@@ -22364,7 +22364,7 @@
       {
         "vendor": "Kingston Peptides",
         "url": "https://kingstonpeptides.com/en/products/bacteriostatic-water",
-        "price": "£3.00",
+        "price": "£1.00",
         "inStock": true,
         "image": "/images/products/kingston-peptides/bacteriostatic-water.webp",
         "dosage": "10ml"
@@ -22756,7 +22756,7 @@
       {
         "vendor": "My Peptides",
         "url": "https://my-peptides.co.uk/products/nad-kit",
-        "price": "£295.00",
+        "price": "£118.00",
         "inStock": true,
         "dosage": "1000mg",
         "image": "/images/products/my-peptides/nad-plus.webp"
@@ -22880,7 +22880,7 @@
       {
         "vendor": "Alphamino",
         "url": "https://alphamino.co.uk/shop/nad-research-grade/",
-        "price": "£33.50–£55.00",
+        "price": "£29.99",
         "inStock": true,
         "image": "/images/products/alphamino/nad-plus.webp",
         "dosage": "500mg-1000mg"
@@ -22919,7 +22919,7 @@
       {
         "vendor": "Tested Peptides",
         "url": "https://www.testedpeptides.co.uk/product/nad-500mg/",
-        "price": "£74.99",
+        "price": "£59.99",
         "inStock": true,
         "image": "/images/products/tested-peptides/nad-plus.webp",
         "dosage": "500mg"
@@ -23245,7 +23245,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/nad-plus/",
-        "price": "£37.99",
+        "price": "£28.49",
         "inStock": true,
         "image": "/images/products/allmypeptides/nad-plus.png",
         "dosage": "500mg"
@@ -23856,7 +23856,7 @@
       {
         "vendor": "Trutide",
         "url": "https://trutide.co.uk/product/cjc-1295-no-dac-ipamorelin-10mg/",
-        "price": "£44.95",
+        "price": "£39.95",
         "inStock": true,
         "image": "/images/products/trutide/cjc-1295-ipamorelin-blend.webp",
         "dosage": "10mg"
@@ -23984,7 +23984,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/cjc-1295-(no-dac)/",
-        "price": "£37.99",
+        "price": "£28.49",
         "inStock": true,
         "image": "/images/products/allmypeptides/cjc-1295-ipamorelin-blend.png",
         "dosage": "10mg"
@@ -25045,7 +25045,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/slu-pp-332/",
-        "price": "£23.99",
+        "price": "£17.99",
         "inStock": false,
         "image": "/images/products/allmypeptides/slu-pp-332.png",
         "dosage": "5mg"
@@ -25644,7 +25644,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/5-amino-1mq/",
-        "price": "£53.49",
+        "price": "£40.12",
         "inStock": true,
         "image": "/images/products/allmypeptides/5-amino-1mq.png",
         "dosage": "50mg"
@@ -25907,7 +25907,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/ll-37",
-        "price": "£30.00",
+        "price": "£27.99",
         "inStock": true,
         "image": "/images/products/vialverse/ll-37.webp",
         "dosage": "5mg"
@@ -25931,7 +25931,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/ll-37/",
-        "price": "£31.49",
+        "price": "£23.62",
         "inStock": false,
         "image": "/images/products/allmypeptides/ll-37.png",
         "dosage": "10mg"
@@ -26505,7 +26505,7 @@
       },
       {
         "vendor": "Everything Peptides",
-        "price": "£16.95",
+        "price": "£15.15",
         "url": "https://everythingpeptides.co.uk/products/aicar",
         "inStock": true,
         "dosage": "50mg",
@@ -26600,7 +26600,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/adamax",
-        "price": "£42.00",
+        "price": "£49.99",
         "inStock": true,
         "image": "/images/products/vialverse/adamax.webp",
         "dosage": "10mg"
@@ -27090,7 +27090,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/pe-22-28",
-        "price": "£32.00",
+        "price": "£29.99",
         "inStock": true,
         "image": "/images/products/vialverse/pe-22-28.webp",
         "dosage": "10mg"
@@ -28512,7 +28512,7 @@
       {
         "vendor": "BioPlex Peptides",
         "url": "https://bioplexpeptides.co.uk/products/ace-031-1mg-fc-fusion-protein",
-        "price": "£38.99",
+        "price": "£53.99",
         "inStock": true,
         "image": "/images/products/bioplex-peptides/ace-031.webp",
         "dosage": "1mg"
@@ -29046,7 +29046,7 @@
       {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/bundle-gh-stack/",
-        "price": "£106.74",
+        "price": "£99.79",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/ppuk-bundle-pack-3.png"
       },
@@ -29084,7 +29084,7 @@
       {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/bundle-premium-gh-stack/",
-        "price": "£150.98",
+        "price": "£131.81",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Premium-Bundle-Pack-3-1.jpg"
       }
@@ -29118,7 +29118,7 @@
       {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/bundle-super-stack/",
-        "price": "£204.47",
+        "price": "£184.13",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2024/10/PPUK-Bundle-Super-Stack.jpg"
       },
@@ -29159,7 +29159,7 @@
       {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/bundle-mito-stack/",
-        "price": "£100.00",
+        "price": "£93.49",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/09/PPUK-Bundle-Mitro-Stack.jpg"
       },
@@ -30008,7 +30008,7 @@
       {
         "vendor": "Pure Peptides UK",
         "url": "https://purepeptidesuk.com/product/premium-mod-grf-5mg/",
-        "price": "£46.50",
+        "price": "£41.50",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/premium-modified-grf-1-29-5mg-front.png"
       }
@@ -39088,7 +39088,7 @@
       {
         "vendor": "VialVerse",
         "url": "https://vialverse.com/peptides/survodutide",
-        "price": "£40.00",
+        "price": "£44.99",
         "inStock": true,
         "image": "/images/products/vialverse/survodutide.webp",
         "dosage": "10mg"
@@ -40053,7 +40053,7 @@
       {
         "vendor": "Elite Peptides",
         "url": "https://elitepeptides.uk/product/cjc-1295-w-o-dac-ipamorelin-10mg-10mg/",
-        "price": "23.39",
+        "price": "£48.99",
         "image": "/images/products/elite-peptides/cjc-1295-ipamorelin.webp"
       },
       {
@@ -40285,7 +40285,7 @@
       {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/melanotan-1/",
-        "price": "£17.49",
+        "price": "£13.12",
         "inStock": true,
         "image": "/images/products/allmypeptides/melanotan-i.png",
         "dosage": "10mg"
@@ -40293,7 +40293,7 @@
       {
         "vendor": "N&A Peptides",
         "url": "https://www.na-peptides.co.uk/product/mt-1-10mg-vial/",
-        "price": "£20.00",
+        "price": "£21.99",
         "inStock": true,
         "image": "/images/products/na-peptides/melanotan-i.jpg",
         "dosage": "10mg"
