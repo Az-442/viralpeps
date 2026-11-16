@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 
-export default function VendorDownPage() {
+function DownContent() {
   const sp = useSearchParams();
   const vendor = sp.get("vendor") || "This supplier";
   const compound = sp.get("compound");
@@ -66,5 +66,13 @@ export default function VendorDownPage() {
         </a>
       </div>
     </main>
+  );
+}
+
+export default function VendorDownPage() {
+  return (
+    <Suspense fallback={null}>
+      <DownContent />
+    </Suspense>
   );
 }
