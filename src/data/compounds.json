@@ -422,13 +422,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/tz-glp1",
-        "price": "£60.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/tirzepatide.webp"
-      },
-      {
         "vendor": "Revexa",
         "url": "https://www.revexa.co.uk/product-page/tirzepatide-research-grade-10mg",
         "price": "£49.00",
@@ -577,14 +570,6 @@
         "inStock": true,
         "image": "/images/products/bionik-peptides/tirzepatide.webp",
         "dosage": "20mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/tirz-40mg/",
-        "price": "£160.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/tirzepatide.webp",
-        "dosage": "40mg"
       },
       {
         "vendor": "JGPep+",
@@ -1038,14 +1023,6 @@
         "inStock": true,
         "image": "/images/products/bionik-peptides/semaglutide.webp",
         "dosage": "50mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/semaglutide-10mg",
-        "price": "£35.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/semaglutide.webp",
-        "dosage": "10mg"
       },
       {
         "vendor": "Pyrox Labs",
@@ -1931,13 +1908,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/bpc-157-10mg",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/bpc-157.webp"
-      },
-      {
         "vendor": "Fat Pig Peptides",
         "url": "https://fatpigpeptides.co.uk/product/bpc-157/",
         "price": "£17.99",
@@ -2025,30 +1995,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/bpc-157/",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/bpc-157.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/bpc-157/",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/bpc-157.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/bpc-157-10mg",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/bpc-157.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "UKPeptides.org",
         "url": "https://ukpeptides.org/buy/bpc-157-5mg",
         "price": "£15.99",
@@ -2103,14 +2049,6 @@
         "inStock": true,
         "image": "/images/products/phoenix-biolabs/bpc157-tested-99.webp",
         "dosage": "5mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/bpc-157-40mg-premixed-prefilled-pen-40mg-research-compound/",
-        "price": "£114.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/bpc-157-40mg-premixed-prefilled-pen-40mg-research-compound.webp",
-        "dosage": "40mg pen"
       },
       {
         "vendor": "Pyrox Labs",
@@ -2835,14 +2773,6 @@
         "image": "/images/products/uk-peptide-lab/tb-500.webp"
       },
       {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/",
-        "price": "£20.00–£30.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/tb-500.webp",
-        "dosage": "5mg-10mg"
-      },
-      {
         "vendor": "FORM Peptides",
         "url": "https://formpeptides.co.uk/catalogue/product/tb-500-5mg",
         "price": "£25.00",
@@ -3095,13 +3025,6 @@
         "image": "/images/products/evolve-peptides/tb-500.webp"
       },
       {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/tb-500-10mg",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/tb-500.webp"
-      },
-      {
         "vendor": "Fat Pig Peptides",
         "url": "https://fatpigpeptides.co.uk/product/tb500-5mg-10mg/",
         "price": "£22.00",
@@ -3162,22 +3085,6 @@
         "price": "£35.00",
         "inStock": true,
         "image": "/images/products/bionik-peptides/tb-500.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/tb-500/",
-        "price": "£70.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/tb-500.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/tb-500/",
-        "price": "£110.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/tb-500.webp",
         "dosage": "10mg"
       },
       {
@@ -3790,13 +3697,6 @@
         "price": "£17.99",
         "inStock": true,
         "image": "/images/products/evolve-peptides/melanotan-ii.webp"
-      },
-      {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/mt-2-10mg",
-        "price": "£20.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/melanotan-ii.webp"
       },
       {
         "vendor": "Fat Pig Peptides",
@@ -5475,13 +5375,6 @@
         "dosage": "20mg"
       },
       {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/rt-glp3",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/retatrutide.webp"
-      },
-      {
         "vendor": "Fat Pig Peptides",
         "url": "https://fatpigpeptides.co.uk/product/glp-3-reta-40-mg-research-pen/",
         "price": "£180.00",
@@ -5649,102 +5542,6 @@
         "inStock": true,
         "image": "/images/products/bionik-peptides/retatrutide.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£60.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/retatrutide.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£80.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/retatrutide.webp",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£74.99",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/retatrutide.webp",
-        "dosage": "30mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£99.99",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/retatrutide.webp",
-        "dosage": "40mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£124.99",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/retatrutide.webp",
-        "dosage": "50mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/retatrutide/",
-        "price": "£149.99",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/retatrutide.webp",
-        "dosage": "60mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/retatrutide-5mg/",
-        "price": "£39.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/retatrutide.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/retatrutide-10mg/",
-        "price": "£65.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/retatrutide.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/retatrutide-15mg/",
-        "price": "£89.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/retatrutide.webp",
-        "dosage": "15mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/retatrutide-20mg/",
-        "price": "£99.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/retatrutide.webp",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/retatrutide-30mg/",
-        "price": "£120.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/retatrutide.webp",
-        "dosage": "30mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/retatrutide-40mg/",
-        "price": "£140.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/retatrutide.webp",
-        "dosage": "40mg"
       },
       {
         "vendor": "UKPeptides.org",
@@ -6491,14 +6288,6 @@
         "dosage": "5mg"
       },
       {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/cjc-1295-no-dac-10mg",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/cjc-1295.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "Peptide Global",
         "url": "https://peptideglobal.co.uk/product/cjc-1295-no-dac-5mg-vial/",
         "price": "£34.99",
@@ -6966,14 +6755,6 @@
         "price": "£35.00",
         "inStock": true,
         "image": "/images/products/bionik-peptides/igf-1-lr3.webp",
-        "dosage": "1mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/igf-1-lr3-1mg",
-        "price": "£45.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/igf-1-lr3.webp",
         "dosage": "1mg"
       },
       {
@@ -7999,22 +7780,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/tesamorelin/",
-        "price": "£90.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/tesamorelin.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/tesamorelin/",
-        "price": "£130.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/tesamorelin.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "JGPep+",
         "url": "https://jgpeptidesplus.com/product/tesamorelin-10mg",
         "price": "£65.00",
@@ -8045,14 +7810,6 @@
         "inStock": true,
         "image": "/images/products/pyrox-labs/tesamorelin-10mg.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "Pyrox Labs",
-        "url": "https://pyroxlabs.co.uk/product/tesamorelin-5mg/",
-        "price": "£27.50",
-        "inStock": false,
-        "image": "/images/products/pyrox-labs/tesamorelin-5mg.webp",
-        "dosage": "5mg"
       },
       {
         "vendor": "Everything Peptides",
@@ -9194,14 +8951,6 @@
         "image": "/images/products/prime-peptides/mots-c.webp"
       },
       {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£23.50",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp",
-        "dosage": "5mg-10mg"
-      },
-      {
         "vendor": "FORM Peptides",
         "url": "https://formpeptides.co.uk/catalogue/product/mots-c-10mg",
         "price": "£25.00",
@@ -9541,44 +9290,12 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/mots-c/",
-        "price": "£60.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/mots-c.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/mots-c/",
-        "price": "£90.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/mots-c.webp",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/mots-c-10mg",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/mots-c.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "UKPeptides.org",
         "url": "https://ukpeptides.org/buy/mots-c-10mg",
         "price": "£24.99",
         "inStock": true,
         "image": "/images/products/ukpeptides/mots-c.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/mots-c-40/",
-        "price": "£89.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/mots-c-40.webp",
-        "dosage": "40mg"
       },
       {
         "vendor": "Phoenix BioLabs",
@@ -10406,14 +10123,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "Pyrox Labs",
-        "url": "https://pyroxlabs.co.uk/product/ss-31-50mg/",
-        "price": "£69.99",
-        "inStock": false,
-        "image": "/images/products/pyrox-labs/ss-31-50mg.webp",
-        "dosage": "50mg"
-      },
-      {
         "vendor": "Everything Peptides",
         "price": "£20.75",
         "url": "https://everythingpeptides.co.uk/products/ss-31",
@@ -11105,14 +10814,6 @@
         "image": "/images/products/prime-peptides/ghk-cu.webp"
       },
       {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp",
-        "dosage": "50mg-100mg"
-      },
-      {
         "vendor": "FORM Peptides",
         "url": "https://formpeptides.co.uk/catalogue/product/ghk-cu-50mg",
         "price": "£30.00",
@@ -11476,22 +11177,6 @@
         "dosage": "100mg"
       },
       {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/ghk-cu/",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/ghk-cu.webp",
-        "dosage": "50mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/ghk-cu/",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/ghk-cu.webp",
-        "dosage": "100mg"
-      },
-      {
         "vendor": "JGPep+",
         "url": "https://jgpeptidesplus.com/product/ghk-cu-50mg/",
         "price": "£20.00",
@@ -11538,22 +11223,6 @@
         "inStock": true,
         "image": "/images/products/phoenix-biolabs/ghk100-tested-99.webp",
         "dosage": "100mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/ghk-cu-100mg-research-peptide-formulation-copy/",
-        "price": "£79.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/ghk-cu-100mg-research-peptide-formulation-copy.webp",
-        "dosage": "200mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/ghk-cu-50mg/",
-        "price": "£24.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/ghk-cu-50mg.webp",
-        "dosage": "50mg"
       },
       {
         "vendor": "Phoenix BioLabs",
@@ -12861,14 +12530,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/thymosin-alpha-1-10mg",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/thymosin-alpha-1.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "Everything Peptides",
         "price": "£29.25",
         "url": "https://everythingpeptides.co.uk/products/thymosin-alpha-1",
@@ -13428,22 +13089,6 @@
         "inStock": true,
         "image": "/images/products/bionik-peptides/epitalon.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/epitalon/",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/epitalon.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/epitalon/",
-        "price": "£120.00",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/epitalon.webp",
-        "dosage": "50mg"
       },
       {
         "vendor": "Phoenix BioLabs",
@@ -14188,14 +13833,6 @@
         "price": "£30.00",
         "inStock": true,
         "image": "/images/products/bionik-peptides/semax.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/semax-10mg",
-        "price": "£35.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/semax.webp",
         "dosage": "10mg"
       },
       {
@@ -16737,30 +16374,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/ipamorelin/",
-        "price": "£9.99",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/ipamorelin.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "BIOHACKERxLAB",
-        "url": "https://biohackerxlab.com/product/ipamorelin/",
-        "price": "£19.99",
-        "inStock": true,
-        "image": "/images/products/biohackerxlab/ipamorelin.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/ipamorelin-10mg",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/ipamorelin.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "Phoenix BioLabs",
         "url": "https://phoenixbiolabs.net/shop/ipamorelin-10/",
         "price": "£34.99",
@@ -17874,14 +17487,6 @@
         "price": "£20.00",
         "inStock": true,
         "image": "/images/products/bionik-peptides/pt-141.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/pt141-10mg",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/pt-141.webp",
         "dosage": "10mg"
       },
       {
@@ -19673,13 +19278,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/dsip-10mg",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/dsip.webp"
-      },
-      {
         "vendor": "Revexa",
         "url": "https://www.revexa.co.uk/product-page/dsip-5mg-delta-sleep-inducing-peptide",
         "price": "£18.00",
@@ -20594,14 +20192,6 @@
         ]
       },
       {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/glow-70mg",
-        "price": "£75.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/glow.webp",
-        "dosage": "70mg"
-      },
-      {
         "vendor": "UKPeptides.org",
         "url": "https://ukpeptides.org/buy/glow-70mg",
         "price": "£59.99",
@@ -20808,14 +20398,6 @@
         "url": "https://molexa.co.uk/product/glow-70mg/",
         "price": "48.99",
         "image": "/images/products/molexa/glow.webp"
-      },
-      {
-        "vendor": "Omnichems",
-        "url": "https://omnichems.co.uk/product/glow-50mg/",
-        "price": "59.99",
-        "inStock": true,
-        "image": "/images/products/omnichems/glow.webp",
-        "dosage": "50mg"
       },
       {
         "vendor": "GenoPept",
@@ -23164,14 +22746,6 @@
       },
       {
         "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/nad-plus-500mg/",
-        "price": "£50.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/nad-plus.webp",
-        "dosage": "500mg"
-      },
-      {
-        "vendor": "JGPep+",
         "url": "https://jgpeptidesplus.com/product/nad-plus-1000mg/",
         "price": "£80.00",
         "inStock": true,
@@ -23216,14 +22790,6 @@
         "price": "£69.99",
         "inStock": true,
         "image": "/images/products/phoenix-biolabs/nad-500mg-research-compound.webp",
-        "dosage": "500mg"
-      },
-      {
-        "vendor": "Pyrox Labs",
-        "url": "https://pyroxlabs.co.uk/product/nad-500mg/",
-        "price": "£32.99",
-        "inStock": false,
-        "image": "/images/products/pyrox-labs/nad-500mg.webp",
         "dosage": "500mg"
       },
       {
@@ -23966,22 +23532,6 @@
         "dosage": "10mg"
       },
       {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/",
-        "price": "£109.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/cjc-1295-no-dac-and-ipamorelin-pen.webp",
-        "dosage": "20mg"
-      },
-      {
-        "vendor": "Pyrox Labs",
-        "url": "https://pyroxlabs.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg5mg/",
-        "price": "£45.99",
-        "inStock": false,
-        "image": "/images/products/pyrox-labs/cjc-1295-no-dac-ipamorelin-5mg5mg.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "AllMyPeptides",
         "url": "https://allmypeptides.com/product/cjc-1295-(no-dac)/",
         "price": "£28.49",
@@ -24495,14 +24045,6 @@
         "inStock": false,
         "image": "/images/products/bionik-peptides/mic-lipo-c-with-b12.webp",
         "dosage": "2mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/lipo-c-booster-10ml",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/lipo-c.webp",
-        "dosage": "10ml"
       },
       {
         "vendor": "Phoenix BioLabs",
@@ -25594,36 +25136,12 @@
         "dosage": "50mg"
       },
       {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/5-amino-1mq-5mg/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/5-amino-1mq.webp",
-        "dosage": "5mg"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/5-amino-1mq-10mg/",
-        "price": "£38.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/5-amino-1mq.webp",
-        "dosage": "10mg"
-      },
-      {
         "vendor": "Phoenix BioLabs",
         "url": "https://phoenixbiolabs.net/shop/5-amino-1mq/",
         "price": "£89.99",
         "inStock": false,
         "image": "/images/products/phoenix-biolabs/5-amino-1mq.webp",
         "dosage": "50mg capsules"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/5-amino-1-mq-pen/",
-        "price": "£99.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/5-amino-1-mq-pen.webp",
-        "dosage": "100mg"
       },
       {
         "vendor": "Phoenix BioLabs",
@@ -27364,14 +26882,6 @@
         "image": "/images/products/dr-peptides/vitamin-b12.webp"
       },
       {
-        "vendor": "Midshire Labs",
-        "url": "https://midshirelabs.co.uk/products/vitamin-b12/",
-        "price": "£17.00",
-        "inStock": true,
-        "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/Vitamin-B12-1mg-ml.png",
-        "dosage": "1mg/ml"
-      },
-      {
         "vendor": "NovaVitality",
         "url": "https://novavitality.co.uk/product/b12/",
         "price": "£10.00",
@@ -28623,22 +28133,6 @@
         "dosage": "3ml"
       },
       {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/acetic-acid-water-3ml/",
-        "price": "£5.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/acetic-acid-water.webp",
-        "dosage": "3ml"
-      },
-      {
-        "vendor": "JGPep+",
-        "url": "https://jgpeptidesplus.com/product/acetic-acid-water-10ml/",
-        "price": "£15.00",
-        "inStock": true,
-        "image": "/images/products/jgpeptidesplus/acetic-acid-water.webp",
-        "dosage": "10ml"
-      },
-      {
         "vendor": "Peptide Global",
         "url": "https://peptideglobal.co.uk/product/acetic-acid-water-10ml/",
         "price": "£9.99",
@@ -28982,22 +28476,6 @@
         "inStock": false,
         "image": "/images/products/ultimate-peptides/bpc-157-tb-500-bundle.webp",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/bpc157-tb-10-tested-99/",
-        "price": "£39.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/bpc157-tb-10-tested-99.webp",
-        "dosage": "10mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/bpc157-tb-40-tested-99/",
-        "price": "£139.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/bpc157-tb-40-tested-99.webp",
-        "dosage": "20mg"
       },
       {
         "vendor": "Phoenix BioLabs",
@@ -29373,13 +28851,6 @@
         "price": "£33.00",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp"
       }
     ],
     "faq": [],
@@ -29411,13 +28882,6 @@
         "price": "£26.00",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/ghk-cu-50mg-front.png"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp"
       },
       {
         "vendor": "Claripep",
@@ -30042,13 +29506,6 @@
         "price": "£19.50",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/mots-c-5mg-front.png"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -30088,13 +29545,6 @@
         "inStock": true,
         "image": "/images/products/bio-peptides-uk/mots-c-10mg.png",
         "dosage": "10mg"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       },
       {
         "vendor": "Evolve Peptides",
@@ -30140,13 +29590,6 @@
         "price": "£35.99",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/nc/catalog/cropped-image-coming-soon-768x768.png"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -30186,13 +29629,6 @@
         "inStock": true,
         "image": "/images/products/bio-peptides-uk/mots-c-40mg.png",
         "dosage": "40mg"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -30224,13 +29660,6 @@
         "price": "£40.00",
         "inStock": true,
         "image": "https://purepeptidesuk.com/wp-content/uploads/2025/04/nad-plus-500mg-front.png"
-      },
-      {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/nad-500mg",
-        "price": "£30.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/nad-500mg.webp"
       },
       {
         "vendor": "Fat Pig Peptides",
@@ -30578,13 +30007,6 @@
         "price": "£28.00",
         "inStock": true,
         "image": "/images/products/alphamino/ss-31.webp"
-      },
-      {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/ss31-10mg",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/ss-31-10mg.webp"
       }
     ],
     "faq": [],
@@ -30715,13 +30137,6 @@
         "price": "£52.50",
         "inStock": true,
         "image": "/images/products/alphamino/tesamorelin.webp"
-      },
-      {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/tesamorelin-10mg",
-        "price": "£40.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/tesamorelin-10mg.webp"
       }
     ],
     "faq": [],
@@ -31968,13 +31383,6 @@
         "price": "£27.49",
         "inStock": true,
         "image": "/images/products/tide-labs/mots-c.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -32702,14 +32110,6 @@
         "dosage": "5mg"
       },
       {
-        "vendor": "PeptidesNextDay",
-        "url": "https://peptidesnextday.co.uk/product/cjc-1295-mod-grf-1-29-without-dac-2mg/",
-        "price": "£10.00",
-        "inStock": true,
-        "image": "/images/products/peptides-next-day/cjc-1295-mod-grf-1-29-without-dac-2mg.webp",
-        "dosage": "2mg"
-      },
-      {
         "vendor": "GenoPept",
         "url": "https://genopept.co.uk/product/cjc-1295-no-dac/",
         "price": "£14.00",
@@ -32846,13 +32246,6 @@
         "price": "£21.99",
         "inStock": true,
         "image": "/images/products/imperial-peptides/tb-500-5mg-imperial.jpg"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/",
-        "price": "£20.00–£30.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/tb-500.webp"
       }
     ],
     "faq": [],
@@ -32981,13 +32374,6 @@
         "price": "£15.99",
         "inStock": true,
         "image": "/images/products/imperial-peptides/ghk-cu-50mg-imperial.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp"
       }
     ],
     "faq": [],
@@ -33098,13 +32484,6 @@
         "price": "£25.99",
         "inStock": true,
         "image": "/images/products/imperial-peptides/mots-c-10mg-imperial.jpg"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -33384,13 +32763,6 @@
         "price": "£32.00",
         "inStock": true,
         "image": "/images/products/express-peptides/tb-500-vial-express.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/",
-        "price": "£20.00–£30.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/tb-500.webp"
       }
     ],
     "faq": [],
@@ -34487,13 +33859,6 @@
         "price": "£22.00",
         "inStock": true,
         "image": "/images/products/express-peptides/mots-c-vial-express.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -34525,13 +33890,6 @@
         "price": "£46.00",
         "inStock": true,
         "image": "/images/products/express-peptides/mots-c-pen-express.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -34981,13 +34339,6 @@
         "price": "£26.00",
         "inStock": true,
         "image": "/images/products/express-peptides/ghk-cu-vial-express.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp"
       }
     ],
     "faq": [],
@@ -35019,13 +34370,6 @@
         "price": "£49.00",
         "inStock": true,
         "image": "/images/products/express-peptides/ghk-cu-pen-express.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp"
       }
     ],
     "faq": [],
@@ -35726,13 +35070,6 @@
         "price": "£25.00 – £120.00",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/kpv-10mg.webp"
-      },
-      {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/kpv-10mg",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/kpv-10mg.webp"
       }
     ],
     "faq": [],
@@ -36666,13 +36003,6 @@
         "inStock": true,
         "dosage": "50mg",
         "image": "/images/products/uk-peptide-lab/ghk-cu.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp"
       }
     ],
     "faq": [],
@@ -37213,13 +36543,6 @@
         "price": "£25.00",
         "inStock": true,
         "image": "/images/products/research-peptide-uk/mots-c-mitochondrial-derived-peptide.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": [],
@@ -37825,13 +37148,6 @@
         "price": "£34.99",
         "inStock": true,
         "image": "/images/products/the-peptide-company/ghk-cu-100mg-the-peptide-company.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/",
-        "price": "£24.50–£35.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/ghk-cu.webp"
       }
     ],
     "faq": []
@@ -38000,13 +37316,6 @@
         "inStock": true,
         "dosage": "40mg",
         "image": "/images/products/uk-peptide-lab/mots-c.webp"
-      },
-      {
-        "vendor": "Alphamino",
-        "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/",
-        "price": "£25.00",
-        "inStock": true,
-        "image": "/images/products/alphamino/mots-c.webp"
       }
     ],
     "faq": []
@@ -39598,14 +38907,6 @@
         "dosage": "5mg+5mg"
       },
       {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/selank-semax-pen/",
-        "price": "£99.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/selank-semax-pen.webp",
-        "dosage": "20mg"
-      },
-      {
         "vendor": "GenoPept",
         "url": "https://genopept.co.uk/product/semax-selank-blend-20mg/",
         "price": "£35.00",
@@ -40252,13 +39553,6 @@
         "image": "/images/products/peptide-pal/melanotan-i.webp"
       },
       {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/mt-1-10mg",
-        "price": "£20.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/melanotan-i.webp"
-      },
-      {
         "vendor": "PeptX",
         "url": "https://peptx.co.uk/single-vials/mt-1",
         "price": "£20.99",
@@ -40465,13 +39759,6 @@
         "inStock": true,
         "image": "/images/products/pioneer-peptides/bpc-157-tb-500-blend.webp",
         "dosage": "30mg"
-      },
-      {
-        "vendor": "PS Labs",
-        "url": "https://pslabs.uk/products/bpc-157-tb-500-blend-20mg",
-        "price": "£55.00",
-        "inStock": true,
-        "image": "/images/products/ps-labs/bpc-157-tb-500.webp"
       },
       {
         "vendor": "KyroLabs Peptides",
@@ -40800,14 +40087,6 @@
         "inStock": true,
         "image": "https://midshirelabs.co.uk/wp-content/uploads/2026/04/Tesamoreling-Ipamorelin.png",
         "dosage": "10mg+5mg"
-      },
-      {
-        "vendor": "Phoenix BioLabs",
-        "url": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/",
-        "price": "£219.99",
-        "inStock": true,
-        "image": "/images/products/phoenix-biolabs/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy.webp",
-        "dosage": "40mg"
       },
       {
         "vendor": "Phoenix BioLabs",

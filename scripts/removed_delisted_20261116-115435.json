@@ -1,0 +1,660 @@
+[
+ {
+  "slug": "tirzepatide",
+  "name": "Tirzepatide",
+  "vendor": "PS Labs",
+  "price": "\u00a360.00",
+  "url": "https://pslabs.uk/products/tz-glp1"
+ },
+ {
+  "slug": "tirzepatide",
+  "name": "Tirzepatide",
+  "vendor": "JGPep+",
+  "price": "\u00a3160.00",
+  "url": "https://jgpeptidesplus.com/product/tirz-40mg/"
+ },
+ {
+  "slug": "semaglutide",
+  "name": "Semaglutide",
+  "vendor": "JGPep+",
+  "price": "\u00a335.00",
+  "url": "https://jgpeptidesplus.com/product/semaglutide-10mg"
+ },
+ {
+  "slug": "bpc-157",
+  "name": "BPC-157",
+  "vendor": "PS Labs",
+  "price": "\u00a325.00",
+  "url": "https://pslabs.uk/products/bpc-157-10mg"
+ },
+ {
+  "slug": "bpc-157",
+  "name": "BPC-157",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a340.00",
+  "url": "https://biohackerxlab.com/product/bpc-157/"
+ },
+ {
+  "slug": "bpc-157",
+  "name": "BPC-157",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a350.00",
+  "url": "https://biohackerxlab.com/product/bpc-157/"
+ },
+ {
+  "slug": "bpc-157",
+  "name": "BPC-157",
+  "vendor": "JGPep+",
+  "price": "\u00a340.00",
+  "url": "https://jgpeptidesplus.com/product/bpc-157-10mg"
+ },
+ {
+  "slug": "bpc-157",
+  "name": "BPC-157",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a3114.99",
+  "url": "https://phoenixbiolabs.net/shop/bpc-157-40mg-premixed-prefilled-pen-40mg-research-compound/"
+ },
+ {
+  "slug": "tb-500",
+  "name": "TB-500",
+  "vendor": "Alphamino",
+  "price": "\u00a320.00\u2013\u00a330.00",
+  "url": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
+ },
+ {
+  "slug": "tb-500",
+  "name": "TB-500",
+  "vendor": "PS Labs",
+  "price": "\u00a330.00",
+  "url": "https://pslabs.uk/products/tb-500-10mg"
+ },
+ {
+  "slug": "tb-500",
+  "name": "TB-500",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a370.00",
+  "url": "https://biohackerxlab.com/product/tb-500/"
+ },
+ {
+  "slug": "tb-500",
+  "name": "TB-500",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a3110.00",
+  "url": "https://biohackerxlab.com/product/tb-500/"
+ },
+ {
+  "slug": "melanotan-ii",
+  "name": "Melanotan II",
+  "vendor": "PS Labs",
+  "price": "\u00a320.00",
+  "url": "https://pslabs.uk/products/mt-2-10mg"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "PS Labs",
+  "price": "\u00a340.00",
+  "url": "https://pslabs.uk/products/rt-glp3"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a360.00",
+  "url": "https://biohackerxlab.com/product/retatrutide/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a380.00",
+  "url": "https://biohackerxlab.com/product/retatrutide/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a374.99",
+  "url": "https://biohackerxlab.com/product/retatrutide/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a399.99",
+  "url": "https://biohackerxlab.com/product/retatrutide/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a3124.99",
+  "url": "https://biohackerxlab.com/product/retatrutide/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a3149.99",
+  "url": "https://biohackerxlab.com/product/retatrutide/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "JGPep+",
+  "price": "\u00a339.00",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-5mg/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "JGPep+",
+  "price": "\u00a365.00",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-10mg/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "JGPep+",
+  "price": "\u00a389.00",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-15mg/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "JGPep+",
+  "price": "\u00a399.00",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-20mg/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "JGPep+",
+  "price": "\u00a3120.00",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-30mg/"
+ },
+ {
+  "slug": "retatrutide",
+  "name": "Retatrutide",
+  "vendor": "JGPep+",
+  "price": "\u00a3140.00",
+  "url": "https://jgpeptidesplus.com/product/retatrutide-40mg/"
+ },
+ {
+  "slug": "cjc-1295",
+  "name": "CJC-1295",
+  "vendor": "JGPep+",
+  "price": "\u00a340.00",
+  "url": "https://jgpeptidesplus.com/product/cjc-1295-no-dac-10mg"
+ },
+ {
+  "slug": "igf-1-lr3",
+  "name": "IGF-1 LR3",
+  "vendor": "JGPep+",
+  "price": "\u00a345.00",
+  "url": "https://jgpeptidesplus.com/product/igf-1-lr3-1mg"
+ },
+ {
+  "slug": "tesamorelin",
+  "name": "Tesamorelin",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a390.00",
+  "url": "https://biohackerxlab.com/product/tesamorelin/"
+ },
+ {
+  "slug": "tesamorelin",
+  "name": "Tesamorelin",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a3130.00",
+  "url": "https://biohackerxlab.com/product/tesamorelin/"
+ },
+ {
+  "slug": "tesamorelin",
+  "name": "Tesamorelin",
+  "vendor": "Pyrox Labs",
+  "price": "\u00a327.50",
+  "url": "https://pyroxlabs.co.uk/product/tesamorelin-5mg/"
+ },
+ {
+  "slug": "mots-c",
+  "name": "MOTS-c",
+  "vendor": "Alphamino",
+  "price": "\u00a323.50",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c",
+  "name": "MOTS-c",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a360.00",
+  "url": "https://biohackerxlab.com/product/mots-c/"
+ },
+ {
+  "slug": "mots-c",
+  "name": "MOTS-c",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a390.00",
+  "url": "https://biohackerxlab.com/product/mots-c/"
+ },
+ {
+  "slug": "mots-c",
+  "name": "MOTS-c",
+  "vendor": "JGPep+",
+  "price": "\u00a340.00",
+  "url": "https://jgpeptidesplus.com/product/mots-c-10mg"
+ },
+ {
+  "slug": "mots-c",
+  "name": "MOTS-c",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a389.99",
+  "url": "https://phoenixbiolabs.net/shop/mots-c-40/"
+ },
+ {
+  "slug": "ss-31",
+  "name": "SS-31",
+  "vendor": "Pyrox Labs",
+  "price": "\u00a369.99",
+  "url": "https://pyroxlabs.co.uk/product/ss-31-50mg/"
+ },
+ {
+  "slug": "ghk-cu",
+  "name": "GHK-Cu",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "ghk-cu",
+  "name": "GHK-Cu",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a340.00",
+  "url": "https://biohackerxlab.com/product/ghk-cu/"
+ },
+ {
+  "slug": "ghk-cu",
+  "name": "GHK-Cu",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a350.00",
+  "url": "https://biohackerxlab.com/product/ghk-cu/"
+ },
+ {
+  "slug": "ghk-cu",
+  "name": "GHK-Cu",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a379.99",
+  "url": "https://phoenixbiolabs.net/shop/ghk-cu-100mg-research-peptide-formulation-copy/"
+ },
+ {
+  "slug": "ghk-cu",
+  "name": "GHK-Cu",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a324.99",
+  "url": "https://phoenixbiolabs.net/shop/ghk-cu-50mg/"
+ },
+ {
+  "slug": "thymosin-alpha-1",
+  "name": "Thymosin Alpha-1",
+  "vendor": "JGPep+",
+  "price": "\u00a330.00",
+  "url": "https://jgpeptidesplus.com/product/thymosin-alpha-1-10mg"
+ },
+ {
+  "slug": "epitalon",
+  "name": "Epitalon",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a350.00",
+  "url": "https://biohackerxlab.com/product/epitalon/"
+ },
+ {
+  "slug": "epitalon",
+  "name": "Epitalon",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a3120.00",
+  "url": "https://biohackerxlab.com/product/epitalon/"
+ },
+ {
+  "slug": "semax",
+  "name": "Semax",
+  "vendor": "JGPep+",
+  "price": "\u00a335.00",
+  "url": "https://jgpeptidesplus.com/product/semax-10mg"
+ },
+ {
+  "slug": "ipamorelin",
+  "name": "Ipamorelin",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a39.99",
+  "url": "https://biohackerxlab.com/product/ipamorelin/"
+ },
+ {
+  "slug": "ipamorelin",
+  "name": "Ipamorelin",
+  "vendor": "BIOHACKERxLAB",
+  "price": "\u00a319.99",
+  "url": "https://biohackerxlab.com/product/ipamorelin/"
+ },
+ {
+  "slug": "ipamorelin",
+  "name": "Ipamorelin",
+  "vendor": "JGPep+",
+  "price": "\u00a340.00",
+  "url": "https://jgpeptidesplus.com/product/ipamorelin-10mg"
+ },
+ {
+  "slug": "pt-141-bremelanotide",
+  "name": "PT-141 (Bremelanotide)",
+  "vendor": "JGPep+",
+  "price": "\u00a330.00",
+  "url": "https://jgpeptidesplus.com/product/pt141-10mg"
+ },
+ {
+  "slug": "dsip",
+  "name": "DSIP (Delta Sleep-Inducing Peptide)",
+  "vendor": "PS Labs",
+  "price": "\u00a325.00",
+  "url": "https://pslabs.uk/products/dsip-10mg"
+ },
+ {
+  "slug": "glow",
+  "name": "Glow",
+  "vendor": "JGPep+",
+  "price": "\u00a375.00",
+  "url": "https://jgpeptidesplus.com/product/glow-70mg"
+ },
+ {
+  "slug": "glow",
+  "name": "Glow",
+  "vendor": "Omnichems",
+  "price": "59.99",
+  "url": "https://omnichems.co.uk/product/glow-50mg/"
+ },
+ {
+  "slug": "nad-plus",
+  "name": "NAD+",
+  "vendor": "JGPep+",
+  "price": "\u00a350.00",
+  "url": "https://jgpeptidesplus.com/product/nad-plus-500mg/"
+ },
+ {
+  "slug": "nad-plus",
+  "name": "NAD+",
+  "vendor": "Pyrox Labs",
+  "price": "\u00a332.99",
+  "url": "https://pyroxlabs.co.uk/product/nad-500mg/"
+ },
+ {
+  "slug": "cjc-1295-ipamorelin-blend",
+  "name": "CJC-1295 + Ipamorelin Blend",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a3109.99",
+  "url": "https://phoenixbiolabs.net/shop/cjc-1295-no-dac-and-ipamorelin-pen/"
+ },
+ {
+  "slug": "cjc-1295-ipamorelin-blend",
+  "name": "CJC-1295 + Ipamorelin Blend",
+  "vendor": "Pyrox Labs",
+  "price": "\u00a345.99",
+  "url": "https://pyroxlabs.co.uk/product/cjc-1295-no-dac-ipamorelin-5mg5mg/"
+ },
+ {
+  "slug": "lipo-c",
+  "name": "Lipo-C 10ml Research Solution",
+  "vendor": "JGPep+",
+  "price": "\u00a330.00",
+  "url": "https://jgpeptidesplus.com/product/lipo-c-booster-10ml"
+ },
+ {
+  "slug": "5-amino-1mq",
+  "name": "5-Amino-1MQ 50mg",
+  "vendor": "JGPep+",
+  "price": "\u00a325.00",
+  "url": "https://jgpeptidesplus.com/product/5-amino-1mq-5mg/"
+ },
+ {
+  "slug": "5-amino-1mq",
+  "name": "5-Amino-1MQ 50mg",
+  "vendor": "JGPep+",
+  "price": "\u00a338.00",
+  "url": "https://jgpeptidesplus.com/product/5-amino-1mq-10mg/"
+ },
+ {
+  "slug": "5-amino-1mq",
+  "name": "5-Amino-1MQ 50mg",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a399.99",
+  "url": "https://phoenixbiolabs.net/shop/5-amino-1-mq-pen/"
+ },
+ {
+  "slug": "vitamin-b12",
+  "name": "Vitamin B12 10ml Research Solution",
+  "vendor": "Midshire Labs",
+  "price": "\u00a317.00",
+  "url": "https://midshirelabs.co.uk/products/vitamin-b12/"
+ },
+ {
+  "slug": "acetic-acid-10ml",
+  "name": "Acetic Acid 10ml",
+  "vendor": "JGPep+",
+  "price": "\u00a35.00",
+  "url": "https://jgpeptidesplus.com/product/acetic-acid-water-3ml/"
+ },
+ {
+  "slug": "acetic-acid-10ml",
+  "name": "Acetic Acid 10ml",
+  "vendor": "JGPep+",
+  "price": "\u00a315.00",
+  "url": "https://jgpeptidesplus.com/product/acetic-acid-water-10ml/"
+ },
+ {
+  "slug": "bpc-157-5mg-tb500-5mg",
+  "name": "BPC-157 5mg + TB500 5mg",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a339.99",
+  "url": "https://phoenixbiolabs.net/shop/bpc157-tb-10-tested-99/"
+ },
+ {
+  "slug": "bpc-157-5mg-tb500-5mg",
+  "name": "BPC-157 5mg + TB500 5mg",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a3139.99",
+  "url": "https://phoenixbiolabs.net/shop/bpc157-tb-40-tested-99/"
+ },
+ {
+  "slug": "premium-ghk-cu-50mg",
+  "name": "Premium GHK-Cu 50mg",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "ghk-cu-50mg",
+  "name": "GHK-Cu 50mg",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-5mg",
+  "name": "MOTS-c 5mg",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-10mg",
+  "name": "MOTS-c 10mg",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "premium-mots-c-10mg",
+  "name": "Premium MOTS-c 10mg",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-40mg",
+  "name": "MOTS-c 40mg",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "nad-500mg",
+  "name": "NAD+",
+  "vendor": "PS Labs",
+  "price": "\u00a330.00",
+  "url": "https://pslabs.uk/products/nad-500mg"
+ },
+ {
+  "slug": "ss-31-10mg",
+  "name": "SS-31 10mg",
+  "vendor": "PS Labs",
+  "price": "\u00a325.00",
+  "url": "https://pslabs.uk/products/ss31-10mg"
+ },
+ {
+  "slug": "tesamorelin-10mg",
+  "name": "Tesamorelin 10mg",
+  "vendor": "PS Labs",
+  "price": "\u00a340.00",
+  "url": "https://pslabs.uk/products/tesamorelin-10mg"
+ },
+ {
+  "slug": "mots-c-research-peptide",
+  "name": "MOTS-c",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "cjc-1295-no-dac",
+  "name": "CJC-1295 (no DAC)",
+  "vendor": "PeptidesNextDay",
+  "price": "\u00a310.00",
+  "url": "https://peptidesnextday.co.uk/product/cjc-1295-mod-grf-1-29-without-dac-2mg/"
+ },
+ {
+  "slug": "tb-500-5mg-imperial",
+  "name": "TB-500 5mg",
+  "vendor": "Alphamino",
+  "price": "\u00a320.00\u2013\u00a330.00",
+  "url": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
+ },
+ {
+  "slug": "ghk-cu-50mg-imperial",
+  "name": "GHK-Cu 50mg (Unlabelled)",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-10mg-imperial",
+  "name": "MOTS-C 10mg",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "tb-500-vial-express",
+  "name": "TB-500 5mg",
+  "vendor": "Alphamino",
+  "price": "\u00a320.00\u2013\u00a330.00",
+  "url": "https://alphamino.co.uk/shop/tb-500-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-vial-express",
+  "name": "MOTS-C 5mg",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-pen-express",
+  "name": "MOTS-C Pre-mixed Pen 5mg",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "ghk-cu-vial-express",
+  "name": "GHK-Cu 50mg",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "ghk-cu-pen-express",
+  "name": "GHK-Cu Pre-mixed Pen 50mg",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "kpv-10mg",
+  "name": "KPV 10mg",
+  "vendor": "PS Labs",
+  "price": "\u00a325.00",
+  "url": "https://pslabs.uk/products/kpv-10mg"
+ },
+ {
+  "slug": "ghk-cu-research-peptides-uk",
+  "name": "GHK-CU",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-mitochondrial-derived-peptide",
+  "name": "MOTS-C",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "ghk-cu-100mg-the-peptide-company",
+  "name": "GHK-Cu 100mg",
+  "vendor": "Alphamino",
+  "price": "\u00a324.50\u2013\u00a335.00",
+  "url": "https://alphamino.co.uk/shop/ghk-cu-research-grade-peptide/"
+ },
+ {
+  "slug": "mots-c-the-peptide-company",
+  "name": "MOTS-c",
+  "vendor": "Alphamino",
+  "price": "\u00a325.00",
+  "url": "https://alphamino.co.uk/shop/motsc-research-grade-peptide/"
+ },
+ {
+  "slug": "selank-semax-blend",
+  "name": "Selank + Semax Blend",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a399.99",
+  "url": "https://phoenixbiolabs.net/shop/selank-semax-pen/"
+ },
+ {
+  "slug": "melanotan-i",
+  "name": "Melanotan I",
+  "vendor": "PS Labs",
+  "price": "\u00a320.00",
+  "url": "https://pslabs.uk/products/mt-1-10mg"
+ },
+ {
+  "slug": "bpc-157-tb-500",
+  "name": "BPC-157 + TB-500",
+  "vendor": "PS Labs",
+  "price": "\u00a355.00",
+  "url": "https://pslabs.uk/products/bpc-157-tb-500-blend-20mg"
+ },
+ {
+  "slug": "tesamorelin-ipamorelin",
+  "name": "Tesamorelin + Ipamorelin",
+  "vendor": "Phoenix BioLabs",
+  "price": "\u00a3219.99",
+  "url": "https://phoenixbiolabs.net/shop/tesamorelin-ipamorelin-40mg-dual-research-peptide-formulation-copy/"
+ }
+]
