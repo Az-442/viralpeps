@@ -4,7 +4,8 @@ import vendorsData from "@/data/vendors.json";
 
 export const dynamic = "force-dynamic";
 
-// Owner dashboard — all registered sellers + their TrustScore + account data.
+// Owner dashboard — full network view: every supplier's referral performance
+// (clicks, sales, commission, revenue) plus the registered-seller accounts.
 // NOTE: no auth yet (unlinked URL). Add an admin key before public exposure.
 
 type Vendor = { slug: string; name: string };
@@ -55,13 +56,29 @@ export default async function AdminPage() {
   const perfMap: Record<string, any> = {};
   for (const r of perVendor.rows) perfMap[r.vendor_slug] = r;
 
+  // Full network performance: every vendor in vendors.json, joined with clicks/sales.
+  const network = (vendorsData as Vendor[])
+    .map((v) => {
+      const p = perfMap[v.slug];
+      return {
+        slug: v.slug,
+        name: v.name,
+        trust: getTrustScore(v.name).score,
+        clicks: p?.clicks ?? 0,
+        sales: p?.sales ?? 0,
+        commission: p?.commission ?? 0,
+        revenue: p?.revenue ?? 0,
+      };
+    })
+    .sort((a, b) => b.clicks - a.clicks || b.revenue - a.revenue || a.name.localeCompare(b.name));
+
   return (
     <main style={{ fontFamily: "system-ui, sans-serif", background: "#f9fafb", minHeight: "100vh" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "2rem 1.5rem" }}>
         <div className="flex items-center justify-between">
           <div>
             <h1 style={{ fontSize: "1.6rem", fontWeight: 700 }}>ViralPeps — Affiliate Network</h1>
-            <p style={{ color: "#555" }}>Registered suppliers, TrustScore and referral performance.</p>
+            <p style={{ color: "#555" }}>Supplier referral performance, TrustScore and registered seller accounts.</p>
           </div>
         </div>
 
@@ -79,6 +96,46 @@ export default async function AdminPage() {
           ))}
         </div>
 
+        {/* Full network performance table */}
+        <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden", marginBottom: "1.5rem" }}>
+          <div style={{ padding: "1rem 1.25rem", borderBottom: "1px solid #f3f4f6" }}>
+            <h2 style={{ fontSize: "1.1rem", fontWeight: 600 }}>Network performance — all suppliers</h2>
+            <div style={{ fontSize: ".8rem", color: "#9ca3af" }}>{network.length} suppliers, sorted by clicks</div>
+          </div>
+          <div style={{ maxHeight: 560, overflowY: "auto" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+              <thead>
+                <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left", position: "sticky", top: 0, background: "#fff" }}>
+                  <th style={{ padding: ".6rem 1.25rem" }}>Supplier</th>
+                  <th style={{ padding: ".6rem 1rem" }}>TrustScore</th>
+                  <th style={{ padding: ".6rem 1rem" }}>Clicks</th>
+                  <th style={{ padding: ".6rem 1rem" }}>Sales</th>
+                  <th style={{ padding: ".6rem 1rem" }}>Commission</th>
+                  <th style={{ padding: ".6rem 1rem" }}>Revenue</th>
+                </tr>
+              </thead>
+              <tbody>
+                {network.map((v) => (
+                  <tr key={v.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
+                    <td style={{ padding: ".6rem 1.25rem" }}>
+                      <span style={{ fontWeight: 600 }}>{v.name}</span>
+                      <div style={{ color: "#9ca3af", fontSize: ".75rem" }}>{v.slug}</div>
+                    </td>
+                    <td style={{ padding: ".6rem 1rem" }}>
+                      <span className={scoreBand(v.trust)} style={{ fontWeight: 700 }}>{v.trust}</span>
+                    </td>
+                    <td style={{ padding: ".6rem 1rem" }}>{v.clicks}</td>
+                    <td style={{ padding: ".6rem 1rem" }}>{v.sales}</td>
+                    <td style={{ padding: ".6rem 1rem" }}>{fmtMoney(v.commission)}</td>
+                    <td style={{ padding: ".6rem 1rem" }}>{fmtMoney(v.revenue)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* Registered seller accounts */}
         <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
           <div style={{ padding: "1rem 1.25rem", borderBottom: "1px solid #f3f4f6" }}>
             <h2 style={{ fontSize: "1.1rem", fontWeight: 600 }}>Registered sellers</h2>
