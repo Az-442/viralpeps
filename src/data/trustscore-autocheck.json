@@ -2,16 +2,16 @@
   "uk-peptides": {
     "slug": "uk-peptides",
     "website": "https://ukpeptides.com",
-    "checkedAt": "2026-10-22T00:33:55.674Z",
+    "checkedAt": "2026-11-16T17:36:39.192Z",
     "live": true,
     "home": {
       "status": 200,
-      "coa": null,
+      "coa": "certificate of analys",
       "ruo": "research use only",
-      "review": null,
-      "shipping": null,
-      "contact": null,
-      "title": null
+      "review": "trustpilot",
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "research peptides uk | buy uk peptides online | hipeptides"
     },
     "product": {
       "fetched": false,
@@ -19,25 +19,25 @@
       "ruo": null
     },
     "secondary": {
-      "probed": 7,
-      "contact": null,
+      "probed": 4,
+      "contact": "contact",
       "ruo": "research use only",
-      "shipping": null,
-      "coa": null,
-      "review": null
+      "shipping": "tracked",
+      "coa": "certificate of analys",
+      "review": "trustpilot"
     }
   },
   "pure-peptides-uk": {
     "slug": "pure-peptides-uk",
     "website": "https://purepeptidesuk.com",
-    "checkedAt": "2026-10-22T00:33:56.757Z",
+    "checkedAt": "2026-11-16T17:36:40.455Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "certificate of analys",
       "ruo": "research use only",
       "review": "trustpilot",
-      "shipping": "tracking",
+      "shipping": "tracked",
       "contact": "contact",
       "title": "peptides | pure peptides uk"
     },
@@ -53,13 +53,13 @@
       "ruo": "research use only",
       "shipping": "tracked",
       "coa": "certificate of analys",
-      "review": "reviews.io"
+      "review": null
     }
   },
   "sterling-peptides": {
     "slug": "sterling-peptides",
     "website": "https://sterlingpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:33:57.245Z",
+    "checkedAt": "2026-11-16T17:36:41.009Z",
     "live": false,
     "home": {
       "status": 0,
@@ -80,25 +80,26 @@
   "research-peptide-uk": {
     "slug": "research-peptide-uk",
     "website": "https://researchpeptide.co.uk",
-    "checkedAt": "2026-10-22T00:33:57.268Z",
+    "checkedAt": "2026-11-16T17:36:41.025Z",
     "live": true,
     "home": {
-      "status": 202,
-      "coa": null,
-      "ruo": null,
-      "review": null,
-      "shipping": null,
-      "contact": null,
-      "title": null
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
+      "review": "trustpilot",
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "buy research peptides uk - 99% pure british peptides"
     },
     "product": {
-      "fetched": false,
+      "fetched": true,
       "coa": null,
-      "ruo": null
+      "ruo": "research use only",
+      "status": 200
     },
     "secondary": {
-      "probed": 7,
-      "contact": "contact",
+      "probed": 0,
+      "contact": null,
       "ruo": null,
       "shipping": null,
       "coa": null,
@@ -108,7 +109,7 @@
   "imperial-peptides": {
     "slug": "imperial-peptides",
     "website": "https://www.imperialpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:33:58.377Z",
+    "checkedAt": "2026-11-16T17:36:48.424Z",
     "live": true,
     "home": {
       "status": 200,
@@ -137,7 +138,7 @@
   "tide-labs": {
     "slug": "tide-labs",
     "website": "https://tidelabs.co.uk",
-    "checkedAt": "2026-10-22T00:34:00.107Z",
+    "checkedAt": "2026-11-16T17:36:49.702Z",
     "live": true,
     "home": {
       "status": 200,
@@ -158,7 +159,7 @@
       "probed": 1,
       "contact": "contact",
       "ruo": "research use only",
-      "shipping": "tracked",
+      "shipping": "tracking",
       "coa": "hplc",
       "review": null
     }
@@ -166,7 +167,7 @@
   "express-peptides": {
     "slug": "express-peptides",
     "website": "https://www.expresspeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:00.744Z",
+    "checkedAt": "2026-11-16T17:36:50.324Z",
     "live": false,
     "home": {
       "status": 0,
@@ -187,7 +188,7 @@
   "dr-peptides": {
     "slug": "dr-peptides",
     "website": "https://drpresearch.co.uk",
-    "checkedAt": "2026-10-22T00:34:00.915Z",
+    "checkedAt": "2026-11-16T17:36:50.489Z",
     "live": true,
     "home": {
       "status": 200,
@@ -216,7 +217,7 @@
   "the-peptide-company": {
     "slug": "the-peptide-company",
     "website": "https://thepeptidecompany.co.uk",
-    "checkedAt": "2026-10-22T00:34:10.126Z",
+    "checkedAt": "2026-11-16T17:37:01.629Z",
     "live": true,
     "home": {
       "status": 200,
@@ -245,7 +246,7 @@
   "research-peptides-uk-main": {
     "slug": "research-peptides-uk-main",
     "website": "https://www.researchpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:17.166Z",
+    "checkedAt": "2026-11-16T17:37:03.218Z",
     "live": true,
     "home": {
       "status": 200,
@@ -274,7 +275,7 @@
   "raccoon-peptides": {
     "slug": "raccoon-peptides",
     "website": "https://www.raccoonpeptides.com",
-    "checkedAt": "2026-10-22T00:34:17.804Z",
+    "checkedAt": "2026-11-16T17:37:03.968Z",
     "live": false,
     "home": {
       "status": 403,
@@ -302,7 +303,7 @@
   "kensington-labs": {
     "slug": "kensington-labs",
     "website": "https://www.kensingtonlabs.co.uk",
-    "checkedAt": "2026-10-22T00:34:18.137Z",
+    "checkedAt": "2026-11-16T17:37:04.389Z",
     "live": true,
     "home": {
       "status": 200,
@@ -331,7 +332,7 @@
   "peptides-lab-uk": {
     "slug": "peptides-lab-uk",
     "website": "https://peptideslabuk.com",
-    "checkedAt": "2026-10-22T00:34:20.218Z",
+    "checkedAt": "2026-11-16T17:37:06.501Z",
     "live": false,
     "home": {
       "status": 0,
@@ -352,7 +353,7 @@
   "biohack-peptides": {
     "slug": "biohack-peptides",
     "website": "https://biohackpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:20.247Z",
+    "checkedAt": "2026-11-16T17:37:06.606Z",
     "live": true,
     "home": {
       "status": 200,
@@ -381,7 +382,7 @@
   "brit-peptides": {
     "slug": "brit-peptides",
     "website": "https://britpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:26.930Z",
+    "checkedAt": "2026-11-16T17:37:14.326Z",
     "live": false,
     "home": {
       "status": 503,
@@ -409,7 +410,7 @@
   "new-wave-peptides": {
     "slug": "new-wave-peptides",
     "website": "https://newwavepeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:38.800Z",
+    "checkedAt": "2026-11-16T17:37:21.832Z",
     "live": true,
     "home": {
       "status": 200,
@@ -430,14 +431,14 @@
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "tracking",
-      "coa": "janoshik",
+      "coa": "coa",
       "review": null
     }
   },
   "bluewell-peptides": {
     "slug": "bluewell-peptides",
     "website": "https://bluewellpeptides.com",
-    "checkedAt": "2026-10-22T00:34:39.829Z",
+    "checkedAt": "2026-11-16T17:37:22.949Z",
     "live": true,
     "home": {
       "status": 200,
@@ -466,7 +467,7 @@
   "anglo-peptides": {
     "slug": "anglo-peptides",
     "website": "https://anglopeptides.com",
-    "checkedAt": "2026-10-22T00:34:43.172Z",
+    "checkedAt": "2026-11-16T17:37:26.637Z",
     "live": true,
     "home": {
       "status": 200,
@@ -495,7 +496,7 @@
   "cmsr-labs": {
     "slug": "cmsr-labs",
     "website": "https://cmsrlabs.co",
-    "checkedAt": "2026-10-22T00:34:44.286Z",
+    "checkedAt": "2026-11-16T17:37:27.721Z",
     "live": true,
     "home": {
       "status": 200,
@@ -524,7 +525,7 @@
   "proforma-peptides": {
     "slug": "proforma-peptides",
     "website": "https://www.proformapeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:48.600Z",
+    "checkedAt": "2026-11-16T17:37:31.975Z",
     "live": true,
     "home": {
       "status": 200,
@@ -553,16 +554,16 @@
   "xl-peptides": {
     "slug": "xl-peptides",
     "website": "https://xlpeptides.com",
-    "checkedAt": "2026-10-22T00:34:53.124Z",
+    "checkedAt": "2026-11-16T17:37:32.426Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
       "ruo": "research use only",
       "review": null,
-      "shipping": "tracking",
+      "shipping": "tracked",
       "contact": "contact",
-      "title": "xl peptides | research peptides uk \u2013 bpc-157, tb-500, ghk-cu"
+      "title": "buy peptides uk | research peptides | xl peptides"
     },
     "product": {
       "fetched": true,
@@ -574,7 +575,7 @@
       "probed": 4,
       "contact": "contact",
       "ruo": "research use only",
-      "shipping": "tracking",
+      "shipping": "tracked",
       "coa": "certificate of analys",
       "review": null
     }
@@ -582,7 +583,7 @@
   "chroma-peptides": {
     "slug": "chroma-peptides",
     "website": "https://chromapeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:54.554Z",
+    "checkedAt": "2026-11-16T17:37:32.812Z",
     "live": false,
     "home": {
       "status": 0,
@@ -603,35 +604,36 @@
   "peptides-uk": {
     "slug": "peptides-uk",
     "website": "https://peptidesuk.com",
-    "checkedAt": "2026-10-22T00:34:54.569Z",
+    "checkedAt": "2026-11-16T17:37:32.830Z",
     "live": true,
     "home": {
-      "status": 202,
-      "coa": null,
-      "ruo": null,
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
       "review": null,
-      "shipping": null,
-      "contact": null,
-      "title": null
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "peptides uk | buy research peptides online"
     },
     "product": {
-      "fetched": false,
-      "coa": null,
-      "ruo": null
+      "fetched": true,
+      "coa": "coa",
+      "ruo": "research use only",
+      "status": 200
     },
     "secondary": {
-      "probed": 7,
+      "probed": 4,
       "contact": "contact",
-      "ruo": null,
-      "shipping": null,
-      "coa": null,
+      "ruo": "research use only",
+      "shipping": "tracking",
+      "coa": "coa",
       "review": null
     }
   },
   "my-peptides": {
     "slug": "my-peptides",
     "website": "https://my-peptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:55.125Z",
+    "checkedAt": "2026-11-16T17:37:33.269Z",
     "live": true,
     "home": {
       "status": 200,
@@ -640,7 +642,7 @@
       "review": null,
       "shipping": "tracked",
       "contact": "contact",
-      "title": "buy research peptides uk \u2014 pre-mixed vials | my peptides"
+      "title": "buy research peptides uk — pre-mixed vials | my peptides"
     },
     "product": {
       "fetched": true,
@@ -660,7 +662,7 @@
   "eva-peptide": {
     "slug": "eva-peptide",
     "website": "https://evapeptide.co.uk",
-    "checkedAt": "2026-10-22T00:34:56.032Z",
+    "checkedAt": "2026-11-16T17:37:34.207Z",
     "live": true,
     "home": {
       "status": 200,
@@ -668,8 +670,8 @@
       "ruo": null,
       "review": null,
       "shipping": null,
-      "contact": "email",
-      "title": "parked domain name on hostinger dns system"
+      "contact": "support",
+      "title": "evapeptide.co.uk"
     },
     "product": {
       "fetched": false,
@@ -677,8 +679,8 @@
       "ruo": null
     },
     "secondary": {
-      "probed": 0,
-      "contact": null,
+      "probed": 1,
+      "contact": "support",
       "ruo": null,
       "shipping": null,
       "coa": null,
@@ -688,7 +690,7 @@
   "be-better-peptides": {
     "slug": "be-better-peptides",
     "website": "https://bebetterpeptides.com",
-    "checkedAt": "2026-10-22T00:34:56.185Z",
+    "checkedAt": "2026-11-16T17:37:34.398Z",
     "live": true,
     "home": {
       "status": 200,
@@ -709,7 +711,7 @@
       "probed": 3,
       "contact": "contact",
       "ruo": null,
-      "shipping": "tracked",
+      "shipping": "tracking",
       "coa": "coa",
       "review": null
     }
@@ -717,7 +719,7 @@
   "peptigen-labs": {
     "slug": "peptigen-labs",
     "website": "https://peptigenlabs.co.uk",
-    "checkedAt": "2026-10-22T00:34:58.285Z",
+    "checkedAt": "2026-11-16T17:37:36.145Z",
     "live": true,
     "home": {
       "status": 200,
@@ -745,7 +747,7 @@
   "premio-peptides": {
     "slug": "premio-peptides",
     "website": "https://premiopeptides.co.uk",
-    "checkedAt": "2026-10-22T00:34:59.095Z",
+    "checkedAt": "2026-11-16T17:37:36.844Z",
     "live": true,
     "home": {
       "status": 200,
@@ -754,7 +756,7 @@
       "review": null,
       "shipping": "tracked",
       "contact": "contact",
-      "title": "premio peptides | uk research peptide supplier \u2014 same-day dispatch, coa included"
+      "title": "premio peptides | uk research peptide supplier — same-day dispatch, coa included"
     },
     "product": {
       "fetched": false,
@@ -773,7 +775,7 @@
   "the-peptide-code": {
     "slug": "the-peptide-code",
     "website": "https://thepeptidecode.co.uk",
-    "checkedAt": "2026-10-22T00:35:00.304Z",
+    "checkedAt": "2026-11-16T17:37:37.662Z",
     "live": true,
     "home": {
       "status": 200,
@@ -802,16 +804,16 @@
   "raw-peptides": {
     "slug": "raw-peptides",
     "website": "https://rawpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:35:11.595Z",
+    "checkedAt": "2026-11-16T17:37:39.846Z",
     "live": false,
     "home": {
-      "status": 429,
+      "status": 503,
       "coa": null,
-      "ruo": null,
+      "ruo": "research use only",
       "review": null,
-      "shipping": null,
-      "contact": null,
-      "title": "429 too many requests"
+      "shipping": "tracking",
+      "contact": "email",
+      "title": "high-purity research peptides uk | raw peptides"
     },
     "product": {
       "fetched": false,
@@ -819,7 +821,7 @@
       "ruo": null
     },
     "secondary": {
-      "probed": 7,
+      "probed": 0,
       "contact": null,
       "ruo": null,
       "shipping": null,
@@ -830,7 +832,7 @@
   "nova-peptide": {
     "slug": "nova-peptide",
     "website": "https://www.novapeptide.co.uk",
-    "checkedAt": "2026-10-22T00:35:45.520Z",
+    "checkedAt": "2026-11-16T17:37:41.898Z",
     "live": true,
     "home": {
       "status": 200,
@@ -839,7 +841,7 @@
       "review": null,
       "shipping": "tracked",
       "contact": "contact",
-      "title": "nova peptide | premium research peptides uk \u2014 lab-tested &amp; 99% purity guaranteed"
+      "title": "nova peptide | premium research peptides uk — lab-tested &amp; 99% purity guaranteed"
     },
     "product": {
       "fetched": true,
@@ -859,7 +861,7 @@
   "stratford-peptides": {
     "slug": "stratford-peptides",
     "website": "https://www.stratfordpeptides.com",
-    "checkedAt": "2026-10-22T00:35:48.968Z",
+    "checkedAt": "2026-11-16T17:37:45.532Z",
     "live": true,
     "home": {
       "status": 200,
@@ -888,7 +890,7 @@
   "peptify-uk": {
     "slug": "peptify-uk",
     "website": "https://www.peptifyuk.com",
-    "checkedAt": "2026-10-22T00:35:50.263Z",
+    "checkedAt": "2026-11-16T17:37:46.780Z",
     "live": true,
     "home": {
       "status": 200,
@@ -897,7 +899,7 @@
       "review": "trustpilot",
       "shipping": "tracked",
       "contact": "contact",
-      "title": "peptify uk \u2014 research peptides | 99%+ hplc + coa per batch"
+      "title": "peptify uk — research peptides | 99%+ hplc + coa per batch"
     },
     "product": {
       "fetched": true,
@@ -917,14 +919,14 @@
   "ascend-peptides": {
     "slug": "ascend-peptides",
     "website": "https://ascendpeptidesuk.com",
-    "checkedAt": "2026-10-22T00:35:50.801Z",
+    "checkedAt": "2026-11-16T17:37:47.276Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "certificate of analys",
       "ruo": "research use only",
       "review": "trustpilot",
-      "shipping": "tracking",
+      "shipping": "tracked",
       "contact": "contact",
       "title": "uk research peptide supplier | ascend peptides uk"
     },
@@ -946,7 +948,7 @@
   "precision-peptides": {
     "slug": "precision-peptides",
     "website": "https://precision-peptides.shop",
-    "checkedAt": "2026-10-22T00:35:54.678Z",
+    "checkedAt": "2026-11-16T17:37:47.890Z",
     "live": true,
     "home": {
       "status": 200,
@@ -975,7 +977,7 @@
   "astra-labs": {
     "slug": "astra-labs",
     "website": "https://astralabs.co.uk",
-    "checkedAt": "2026-10-22T00:36:01.546Z",
+    "checkedAt": "2026-11-16T17:37:52.693Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1003,7 +1005,7 @@
   "ol-research": {
     "slug": "ol-research",
     "website": "https://olresearch.co.uk",
-    "checkedAt": "2026-10-22T00:36:02.370Z",
+    "checkedAt": "2026-11-16T17:37:53.309Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1017,13 +1019,13 @@
     "product": {
       "fetched": true,
       "coa": null,
-      "ruo": "research purposes",
+      "ruo": "research use only",
       "status": 200
     },
     "secondary": {
       "probed": 5,
       "contact": "contact",
-      "ruo": "research purposes",
+      "ruo": "research use only",
       "shipping": "tracking",
       "coa": "third-party test",
       "review": "trustpilot"
@@ -1032,7 +1034,7 @@
   "octagon-peptides": {
     "slug": "octagon-peptides",
     "website": "https://octagonpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:36:05.165Z",
+    "checkedAt": "2026-11-16T17:37:55.391Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1061,25 +1063,25 @@
   "polygon-peptides": {
     "slug": "polygon-peptides",
     "website": "https://polygonpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:36:16.103Z",
+    "checkedAt": "2026-11-16T17:38:00.225Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
       "ruo": "research use only",
       "review": null,
-      "shipping": "tracking",
+      "shipping": "tracked",
       "contact": "contact",
       "title": "research peptides uk | polygon peptides"
     },
     "product": {
       "fetched": true,
       "coa": null,
-      "ruo": null,
+      "ruo": "research use only",
       "status": 200
     },
     "secondary": {
-      "probed": 5,
+      "probed": 6,
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "tracked",
@@ -1090,7 +1092,7 @@
   "midshire-labs": {
     "slug": "midshire-labs",
     "website": "https://midshirelabs.co.uk",
-    "checkedAt": "2026-10-22T00:36:22.387Z",
+    "checkedAt": "2026-11-16T17:38:00.775Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1099,7 +1101,7 @@
       "review": "trustpilot",
       "shipping": "tracked",
       "contact": "contact",
-      "title": "research peptides uk | bpc-157, tb500 &amp; more | midshire labs"
+      "title": "buy research peptides uk | midshire labs"
     },
     "product": {
       "fetched": true,
@@ -1119,7 +1121,7 @@
   "bio-peptides-uk": {
     "slug": "bio-peptides-uk",
     "website": "https://biopeptides-uk.com",
-    "checkedAt": "2026-10-22T00:36:36.168Z",
+    "checkedAt": "2026-11-16T17:38:14.543Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1147,7 +1149,7 @@
   "chilton-labs": {
     "slug": "chilton-labs",
     "website": "https://chiltonlabs.co.uk",
-    "checkedAt": "2026-10-22T00:36:44.142Z",
+    "checkedAt": "2026-11-16T17:38:16.380Z",
     "live": false,
     "home": {
       "status": 0,
@@ -1168,7 +1170,7 @@
   "lab77-peptides": {
     "slug": "lab77-peptides",
     "website": "https://lab77peptides.uk",
-    "checkedAt": "2026-10-22T00:36:44.219Z",
+    "checkedAt": "2026-11-16T17:38:16.436Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1196,7 +1198,7 @@
   "bio-pulse-peptides": {
     "slug": "bio-pulse-peptides",
     "website": "https://biopulsepeptides.co.uk",
-    "checkedAt": "2026-10-22T00:36:44.532Z",
+    "checkedAt": "2026-11-16T17:38:16.904Z",
     "live": false,
     "home": {
       "status": 0,
@@ -1217,7 +1219,7 @@
   "peptx": {
     "slug": "peptx",
     "website": "https://peptx.co.uk",
-    "checkedAt": "2026-10-22T00:36:44.588Z",
+    "checkedAt": "2026-11-16T17:38:16.927Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1246,7 +1248,7 @@
   "prime-peptides": {
     "slug": "prime-peptides",
     "website": "https://www.prime-peptides.co.uk",
-    "checkedAt": "2026-10-22T00:36:45.251Z",
+    "checkedAt": "2026-11-16T17:38:18.022Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1275,7 +1277,7 @@
   "uk-peptide-lab": {
     "slug": "uk-peptide-lab",
     "website": "https://ukpeptidelab.co.uk",
-    "checkedAt": "2026-10-22T00:36:47.184Z",
+    "checkedAt": "2026-11-16T17:38:18.462Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1284,7 +1286,7 @@
       "review": null,
       "shipping": "tracked",
       "contact": "contact",
-      "title": "buy peptides uk \u00b7 lab-tested research | uk peptide lab"
+      "title": "peptides uk: lab-tested research peptides | uk peptide lab"
     },
     "product": {
       "fetched": true,
@@ -1304,7 +1306,7 @@
   "alphamino": {
     "slug": "alphamino",
     "website": "https://alphamino.co.uk",
-    "checkedAt": "2026-10-22T00:36:47.633Z",
+    "checkedAt": "2026-11-16T17:38:19.020Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1333,7 +1335,7 @@
   "form-peptides": {
     "slug": "form-peptides",
     "website": "https://formpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:36:52.802Z",
+    "checkedAt": "2026-11-16T17:38:26.884Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1342,7 +1344,7 @@
       "review": null,
       "shipping": "tracking",
       "contact": "contact",
-      "title": "form peptides | uk research peptides, verified \u226598% purity, uk dispatch"
+      "title": "form peptides | uk research peptides, verified ≥98% purity, uk dispatch"
     },
     "product": {
       "fetched": true,
@@ -1362,7 +1364,7 @@
   "flex-peptides": {
     "slug": "flex-peptides",
     "website": "https://www.flexpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:36:53.761Z",
+    "checkedAt": "2026-11-16T17:38:29.297Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1391,7 +1393,7 @@
   "crown-peptides": {
     "slug": "crown-peptides",
     "website": "https://crownpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:36:54.255Z",
+    "checkedAt": "2026-11-16T17:38:29.780Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1409,7 +1411,7 @@
       "status": 200
     },
     "secondary": {
-      "probed": 5,
+      "probed": 4,
       "contact": "contact",
       "ruo": "research purposes",
       "shipping": "tracking",
@@ -1420,36 +1422,28 @@
   "reta-uk": {
     "slug": "reta-uk",
     "website": "https://reta-uk.com",
-    "checkedAt": "2026-10-22T00:36:55.033Z",
+    "checkedAt": "2026-11-16T17:38:31.025Z",
     "live": false,
     "home": {
-      "status": 402,
+      "status": 0,
       "coa": null,
       "ruo": null,
       "review": null,
       "shipping": null,
-      "contact": "contact",
-      "title": "store unavailable"
+      "contact": null,
+      "title": null
     },
     "product": {
-      "fetched": true,
+      "fetched": false,
       "coa": null,
-      "ruo": null,
-      "status": 402
+      "ruo": null
     },
-    "secondary": {
-      "probed": 0,
-      "contact": null,
-      "ruo": null,
-      "shipping": null,
-      "coa": null,
-      "review": null
-    }
+    "error": "fetch failed"
   },
   "pgna-labs": {
     "slug": "pgna-labs",
     "website": "https://pgnalabs.co.uk",
-    "checkedAt": "2026-10-22T00:36:55.318Z",
+    "checkedAt": "2026-11-16T17:38:31.065Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1477,7 +1471,7 @@
   "trutide": {
     "slug": "trutide",
     "website": "https://trutide.co.uk",
-    "checkedAt": "2026-10-22T00:36:57.099Z",
+    "checkedAt": "2026-11-16T17:38:32.353Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1490,8 +1484,8 @@
     },
     "product": {
       "fetched": true,
-      "coa": "hplc",
-      "ruo": "research use only",
+      "coa": null,
+      "ruo": null,
       "status": 200
     },
     "secondary": {
@@ -1499,14 +1493,14 @@
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "tracked",
-      "coa": "hplc",
+      "coa": "certificate of analys",
       "review": null
     }
   },
   "tested-peptides": {
     "slug": "tested-peptides",
     "website": "https://www.testedpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:37:00.781Z",
+    "checkedAt": "2026-11-16T17:38:32.631Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1515,7 +1509,7 @@
       "review": null,
       "shipping": "tracking",
       "contact": "contact",
-      "title": "tested peptides uk | high-purity research peptides \u2013 99% lab-tested"
+      "title": "tested peptides uk | high-purity research peptides – 99% lab-tested"
     },
     "product": {
       "fetched": true,
@@ -1535,7 +1529,7 @@
   "applied-peptides": {
     "slug": "applied-peptides",
     "website": "https://appliedpeptides.com",
-    "checkedAt": "2026-10-22T00:37:11.970Z",
+    "checkedAt": "2026-11-16T17:38:43.184Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1564,7 +1558,7 @@
   "supply-peptides": {
     "slug": "supply-peptides",
     "website": "https://supplypeptides.co.uk",
-    "checkedAt": "2026-10-22T00:37:26.267Z",
+    "checkedAt": "2026-11-16T17:38:56.991Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1573,13 +1567,13 @@
       "review": "trustpilot",
       "shipping": "tracked",
       "contact": "contact",
-      "title": "supplypeptides | research peptides uk \u2014 hplc-tested, coa published"
+      "title": "supplypeptides | research peptides uk — hplc-tested, coa published"
     },
     "product": {
       "fetched": true,
       "coa": "coa",
       "ruo": null,
-      "status": 429
+      "status": 200
     },
     "secondary": {
       "probed": 6,
@@ -1593,7 +1587,7 @@
   "peptidesx": {
     "slug": "peptidesx",
     "website": "https://www.peptidesx.uk",
-    "checkedAt": "2026-10-22T00:37:28.123Z",
+    "checkedAt": "2026-11-16T17:38:58.264Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1622,14 +1616,14 @@
   "buyreta": {
     "slug": "buyreta",
     "website": "https://www.buyreta.co.uk",
-    "checkedAt": "2026-10-22T00:37:33.194Z",
+    "checkedAt": "2026-11-16T17:39:04.000Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": null,
       "ruo": "research use only",
       "review": null,
-      "shipping": "tracking",
+      "shipping": "tracked",
       "contact": "contact",
       "title": "buyreta | premium research peptides"
     },
@@ -1651,7 +1645,7 @@
   "peptides-online-uk": {
     "slug": "peptides-online-uk",
     "website": "https://www.peptidesonline.uk",
-    "checkedAt": "2026-10-22T00:37:34.259Z",
+    "checkedAt": "2026-11-16T17:39:05.083Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1680,7 +1674,7 @@
   "united-peptides": {
     "slug": "united-peptides",
     "website": "https://unitedpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:37:40.161Z",
+    "checkedAt": "2026-11-16T17:39:14.495Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1709,7 +1703,7 @@
   "pepnova": {
     "slug": "pepnova",
     "website": "https://pepnova.uk",
-    "checkedAt": "2026-10-22T00:37:43.913Z",
+    "checkedAt": "2026-11-16T17:39:14.975Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1718,7 +1712,7 @@
       "review": null,
       "shipping": null,
       "contact": null,
-      "title": "pepnova | buy research peptides uk \u2014 bpc-157, ghk-cu, retatrutide, semaglutide"
+      "title": "pepnova | buy research peptides uk — bpc-157, ghk-cu, retatrutide, semaglutide"
     },
     "product": {
       "fetched": true,
@@ -1738,7 +1732,7 @@
   "bioplex-peptides": {
     "slug": "bioplex-peptides",
     "website": "https://bioplexpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:37:44.410Z",
+    "checkedAt": "2026-11-16T17:39:15.680Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1767,14 +1761,14 @@
   "op-labs": {
     "slug": "op-labs",
     "website": "https://oplabs.co.uk",
-    "checkedAt": "2026-10-22T00:37:46.017Z",
+    "checkedAt": "2026-11-16T17:39:18.431Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
       "ruo": "research use only",
-      "review": "trustpilot",
-      "shipping": "tracking",
+      "review": null,
+      "shipping": "tracked",
       "contact": "support",
       "title": "home - op labs (formerly oxford peptides)"
     },
@@ -1788,15 +1782,15 @@
       "probed": 4,
       "contact": "contact",
       "ruo": "research use only",
-      "shipping": "tracking",
+      "shipping": "tracked",
       "coa": "coa",
-      "review": "trustpilot"
+      "review": null
     }
   },
   "zentra-peptides": {
     "slug": "zentra-peptides",
     "website": "https://zentra-peptides.com",
-    "checkedAt": "2026-10-22T00:37:49.863Z",
+    "checkedAt": "2026-11-16T17:39:20.657Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1817,15 +1811,15 @@
       "probed": 6,
       "contact": "contact",
       "ruo": "for research purposes",
-      "shipping": "tracking",
+      "shipping": "tracked",
       "coa": "certificate of analys",
-      "review": "trustpilot"
+      "review": null
     }
   },
   "apex-biolabs": {
     "slug": "apex-biolabs",
     "website": "https://www.apexbiolabs.co.uk",
-    "checkedAt": "2026-10-22T00:37:52.560Z",
+    "checkedAt": "2026-11-16T17:39:21.158Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1854,7 +1848,7 @@
   "momentum-peptides": {
     "slug": "momentum-peptides",
     "website": "https://momentumpeptides.com",
-    "checkedAt": "2026-10-22T00:37:54.293Z",
+    "checkedAt": "2026-11-16T17:39:22.950Z",
     "live": true,
     "home": {
       "status": 200,
@@ -1882,14 +1876,14 @@
   "peptide-lab-uk": {
     "slug": "peptide-lab-uk",
     "website": "https://peptidelabuk.co.uk",
-    "checkedAt": "2026-10-22T00:37:56.771Z",
+    "checkedAt": "2026-11-16T17:39:26.692Z",
     "live": false,
     "home": {
       "status": 403,
       "coa": null,
       "ruo": null,
       "review": null,
-      "shipping": null,
+      "shipping": "dhl",
       "contact": null,
       "title": "just a moment..."
     },
@@ -1899,7 +1893,7 @@
       "ruo": null
     },
     "secondary": {
-      "probed": 7,
+      "probed": 0,
       "contact": null,
       "ruo": null,
       "shipping": null,
@@ -1910,7 +1904,7 @@
   "grey-matter-peptides": {
     "slug": "grey-matter-peptides",
     "website": "https://greymatterpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:37:57.117Z",
+    "checkedAt": "2026-11-16T17:39:26.759Z",
     "live": false,
     "home": {
       "status": 0,
@@ -1931,14 +1925,14 @@
   "biotide-uk": {
     "slug": "biotide-uk",
     "website": "https://biotideuk.com",
-    "checkedAt": "2026-10-22T00:37:57.140Z",
+    "checkedAt": "2026-11-16T17:39:26.779Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "certificate of analys",
       "ruo": "research use only",
       "review": null,
-      "shipping": "tracked",
+      "shipping": "tracking",
       "contact": "contact",
       "title": " research peptides uk | biotide uk | laboratory research "
     },
@@ -1952,7 +1946,7 @@
       "probed": 3,
       "contact": "contact",
       "ruo": "laboratory use",
-      "shipping": "tracked",
+      "shipping": "tracking",
       "coa": "coa",
       "review": null
     }
@@ -1960,37 +1954,45 @@
   "apex-pharma": {
     "slug": "apex-pharma",
     "website": "https://www.apex-pharma.co.uk",
-    "checkedAt": "2026-10-22T00:37:58.448Z",
-    "live": false,
+    "checkedAt": "2026-11-16T17:39:28.270Z",
+    "live": true,
     "home": {
-      "status": 0,
-      "coa": null,
-      "ruo": null,
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
       "review": null,
-      "shipping": null,
-      "contact": null,
-      "title": null
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "retatrutide pen uk | buy reta pen &amp; vials | apex pharma"
     },
     "product": {
-      "fetched": false,
-      "coa": null,
-      "ruo": null
+      "fetched": true,
+      "coa": "coa",
+      "ruo": "research use only",
+      "status": 200
     },
-    "error": "This operation was aborted"
+    "secondary": {
+      "probed": 3,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracking",
+      "coa": "coa",
+      "review": null
+    }
   },
   "nupex": {
     "slug": "nupex",
     "website": "https://nupex.co.uk",
-    "checkedAt": "2026-10-22T00:38:10.456Z",
+    "checkedAt": "2026-11-16T17:39:38.522Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
       "ruo": "research use only",
       "review": null,
-      "shipping": "tracked",
+      "shipping": "tracking",
       "contact": "contact",
-      "title": " nupex | uk\u2019s trusted source for research peptides &amp; capsules "
+      "title": " nupex | uk’s trusted source for research peptides &amp; capsules "
     },
     "product": {
       "fetched": true,
@@ -2002,7 +2004,7 @@
       "probed": 5,
       "contact": "contact",
       "ruo": "for research purposes",
-      "shipping": "tracked",
+      "shipping": "tracking",
       "coa": "coa",
       "review": null
     }
@@ -2010,12 +2012,12 @@
   "mypep-biotech": {
     "slug": "mypep-biotech",
     "website": "https://mypepbiotech.co.uk",
-    "checkedAt": "2026-10-22T00:38:12.207Z",
+    "checkedAt": "2026-11-16T17:39:40.069Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
-      "ruo": "in-vitro",
+      "ruo": "research use only",
       "review": null,
       "shipping": "tracked",
       "contact": "contact",
@@ -2023,23 +2025,23 @@
     },
     "product": {
       "fetched": true,
-      "coa": "hplc",
+      "coa": "coa",
       "ruo": "research use only",
       "status": 200
     },
     "secondary": {
-      "probed": 0,
-      "contact": null,
-      "ruo": null,
-      "shipping": null,
-      "coa": null,
+      "probed": 2,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "coa",
       "review": null
     }
   },
   "leolab": {
     "slug": "leolab",
     "website": "https://leolab.co.uk",
-    "checkedAt": "2026-10-22T00:38:15.699Z",
+    "checkedAt": "2026-11-16T17:39:41.061Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2048,7 +2050,7 @@
       "review": null,
       "shipping": "tracking",
       "contact": "contact",
-      "title": "leolab\u2122 peptides uk | buy uk peptides | 99% purity"
+      "title": "leolab™ peptides uk | buy uk peptides | 99% purity"
     },
     "product": {
       "fetched": false,
@@ -2067,13 +2069,13 @@
   "spx-labs": {
     "slug": "spx-labs",
     "website": "https://spxlabs.co.uk",
-    "checkedAt": "2026-10-22T00:38:17.629Z",
+    "checkedAt": "2026-11-16T17:39:41.413Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
       "ruo": "research use only",
-      "review": "trustpilot",
+      "review": null,
       "shipping": "tracking",
       "contact": "contact",
       "title": "peptides uk | research peptides &amp; compounds | spx labs"
@@ -2090,13 +2092,13 @@
       "ruo": "research use only",
       "shipping": "tracked",
       "coa": "coa",
-      "review": "trustpilot"
+      "review": null
     }
   },
   "helix-core": {
     "slug": "helix-core",
     "website": "https://helixcore.co.uk",
-    "checkedAt": "2026-10-22T00:38:19.370Z",
+    "checkedAt": "2026-11-16T17:39:47.487Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2125,36 +2127,35 @@
   "aegis-peptides": {
     "slug": "aegis-peptides",
     "website": "https://aegispeptidesuk.co.uk",
-    "checkedAt": "2026-10-22T00:38:19.829Z",
-    "live": true,
+    "checkedAt": "2026-11-16T17:39:48.020Z",
+    "live": false,
     "home": {
-      "status": 200,
-      "coa": "third-party test",
-      "ruo": "research purposes",
-      "review": "trustpilot",
-      "shipping": "tracked",
-      "contact": "contact",
-      "title": "aegis peptides | uk research peptide supplier | 99%+ purity"
+      "status": 429,
+      "coa": null,
+      "ruo": null,
+      "review": null,
+      "shipping": null,
+      "contact": null,
+      "title": "429 too many requests"
     },
     "product": {
-      "fetched": true,
+      "fetched": false,
       "coa": null,
-      "ruo": "research purposes",
-      "status": 200
+      "ruo": null
     },
     "secondary": {
-      "probed": 4,
-      "contact": "contact",
-      "ruo": "research purposes",
-      "shipping": "tracked",
+      "probed": 7,
+      "contact": null,
+      "ruo": null,
+      "shipping": null,
       "coa": null,
-      "review": "trustpilot"
+      "review": null
     }
   },
   "apexpure": {
     "slug": "apexpure",
     "website": "https://apexpure.co.uk",
-    "checkedAt": "2026-10-22T00:38:33.424Z",
+    "checkedAt": "2026-11-16T17:40:04.717Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2163,7 +2164,7 @@
       "review": null,
       "shipping": "tracking",
       "contact": "contact",
-      "title": "apexpure | research peptides uk \u2014 certified purity &amp; coas"
+      "title": "apexpure | research peptides uk — certified purity &amp; coas"
     },
     "product": {
       "fetched": true,
@@ -2183,7 +2184,7 @@
   "peptide-pal": {
     "slug": "peptide-pal",
     "website": "https://www.peptidepal.co.uk",
-    "checkedAt": "2026-10-22T00:38:37.628Z",
+    "checkedAt": "2026-11-16T17:40:06.065Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2192,7 +2193,7 @@
       "review": null,
       "shipping": "tracked",
       "contact": "contact",
-      "title": " peptide pal \u2014 research-grade peptides uk | coa tested, 99%+ purity "
+      "title": " peptide pal — research-grade peptides uk | coa tested, 99%+ purity "
     },
     "product": {
       "fetched": true,
@@ -2212,7 +2213,7 @@
   "advanced-peptides-uk": {
     "slug": "advanced-peptides-uk",
     "website": "https://advancedpeptidesuk.co.uk",
-    "checkedAt": "2026-10-22T00:38:39.427Z",
+    "checkedAt": "2026-11-16T17:40:07.485Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2241,7 +2242,7 @@
   "pioneer-peptides": {
     "slug": "pioneer-peptides",
     "website": "https://pioneerpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:38:40.780Z",
+    "checkedAt": "2026-11-16T17:40:08.087Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2254,12 +2255,12 @@
     },
     "product": {
       "fetched": true,
-      "coa": "certificate of analys",
+      "coa": "coa",
       "ruo": "research use only",
       "status": 200
     },
     "secondary": {
-      "probed": 5,
+      "probed": 6,
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "tracked",
@@ -2270,7 +2271,7 @@
   "evolve-peptides": {
     "slug": "evolve-peptides",
     "website": "https://evolvepeptides.uk",
-    "checkedAt": "2026-10-22T00:38:42.842Z",
+    "checkedAt": "2026-11-16T17:40:10.448Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2299,35 +2300,36 @@
   "ps-labs": {
     "slug": "ps-labs",
     "website": "https://pslabs.uk",
-    "checkedAt": "2026-10-22T00:38:44.417Z",
+    "checkedAt": "2026-11-16T17:40:11.985Z",
     "live": true,
     "home": {
-      "status": 202,
-      "coa": null,
-      "ruo": null,
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
       "review": null,
-      "shipping": null,
-      "contact": null,
-      "title": null
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "atom labs"
     },
     "product": {
-      "fetched": false,
+      "fetched": true,
       "coa": null,
-      "ruo": null
+      "ruo": null,
+      "status": 200
     },
     "secondary": {
-      "probed": 7,
+      "probed": 5,
       "contact": "contact",
-      "ruo": null,
-      "shipping": null,
-      "coa": null,
+      "ruo": "research use only",
+      "shipping": "tracking",
+      "coa": "coa",
       "review": null
     }
   },
   "fat-pig-peptides": {
     "slug": "fat-pig-peptides",
     "website": "https://fatpigpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:38:44.764Z",
+    "checkedAt": "2026-11-16T17:40:15.159Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2356,16 +2358,16 @@
   "claripep": {
     "slug": "claripep",
     "website": "https://claripep.co.uk",
-    "checkedAt": "2026-10-22T00:38:48.188Z",
+    "checkedAt": "2026-11-16T17:40:15.731Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "certificate of analys",
-      "ruo": null,
+      "ruo": "research use only",
       "review": null,
-      "shipping": "tracking",
+      "shipping": "tracked",
       "contact": "contact",
-      "title": "home - claripep"
+      "title": "claripep | independently verified research peptides, uk"
     },
     "product": {
       "fetched": true,
@@ -2377,7 +2379,7 @@
       "probed": 6,
       "contact": "contact",
       "ruo": "research use only",
-      "shipping": "tracking",
+      "shipping": "tracked",
       "coa": "certificate of analys",
       "review": null
     }
@@ -2385,7 +2387,7 @@
   "kyro-labs-peptides": {
     "slug": "kyro-labs-peptides",
     "website": "https://kyrolabspeptides.co.uk",
-    "checkedAt": "2026-10-22T00:38:53.832Z",
+    "checkedAt": "2026-11-16T17:40:16.163Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2414,7 +2416,7 @@
   "revexa": {
     "slug": "revexa",
     "website": "https://www.revexa.co.uk",
-    "checkedAt": "2026-10-22T00:38:55.102Z",
+    "checkedAt": "2026-11-16T17:40:17.617Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2443,40 +2445,40 @@
   "vialverse": {
     "slug": "vialverse",
     "website": "https://vialverse.com",
-    "checkedAt": "2026-10-22T00:39:04.398Z",
+    "checkedAt": "2026-11-16T17:40:18.678Z",
     "live": true,
     "home": {
       "status": 200,
-      "coa": "certificate of analys",
+      "coa": "coa",
       "ruo": "research use only",
       "review": "trustpilot",
       "shipping": "tracked",
       "contact": "contact",
-      "title": "research peptides uk | uk peptide supplier | vialverse"
+      "title": "vialverse | uk research peptides &amp; laboratory compounds"
     },
     "product": {
       "fetched": true,
-      "coa": "certificate of analys",
+      "coa": "coa",
       "ruo": "research use only",
       "status": 200
     },
     "secondary": {
-      "probed": 4,
+      "probed": 5,
       "contact": "contact",
       "ruo": "research use only",
-      "shipping": "tracked",
-      "coa": "certificate of analys",
+      "shipping": "tracking",
+      "coa": "coa",
       "review": "trustpilot"
     }
   },
   "kings-bio-labs": {
     "slug": "kings-bio-labs",
     "website": "https://www.kingsbiolabs.co.uk",
-    "checkedAt": "2026-10-22T00:39:05.967Z",
+    "checkedAt": "2026-11-16T17:40:20.702Z",
     "live": true,
     "home": {
       "status": 200,
-      "coa": "certificate of analys",
+      "coa": "coa",
       "ruo": "research use only",
       "review": "trustpilot",
       "shipping": null,
@@ -2493,14 +2495,14 @@
       "contact": "contact",
       "ruo": "research use only",
       "shipping": null,
-      "coa": "certificate of analys",
+      "coa": "coa",
       "review": null
     }
   },
   "red-panda-peptides": {
     "slug": "red-panda-peptides",
     "website": "https://redpandapeptides.co.uk",
-    "checkedAt": "2026-10-22T00:39:06.456Z",
+    "checkedAt": "2026-11-16T17:40:21.216Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2529,36 +2531,35 @@
   "peptides-uk-4u": {
     "slug": "peptides-uk-4u",
     "website": "https://peptidesuk4u.co.uk",
-    "checkedAt": "2026-10-22T00:39:09.136Z",
+    "checkedAt": "2026-11-16T17:40:21.564Z",
     "live": true,
     "home": {
       "status": 200,
-      "coa": "certificate of analys",
-      "ruo": "research use only",
-      "review": null,
-      "shipping": "tracked",
-      "contact": "email",
-      "title": "peptides uk \u2014 buy research peptide vials | retatrutide uk stock"
-    },
-    "product": {
-      "fetched": true,
       "coa": null,
       "ruo": null,
-      "status": 200
+      "review": null,
+      "shipping": null,
+      "contact": null,
+      "title": "website takedown notice - lovable trust & safety"
+    },
+    "product": {
+      "fetched": false,
+      "coa": null,
+      "ruo": null
     },
     "secondary": {
-      "probed": 2,
-      "contact": "contact",
-      "ruo": "research use only",
-      "shipping": "tracked",
-      "coa": "coa",
+      "probed": 7,
+      "contact": null,
+      "ruo": null,
+      "shipping": null,
+      "coa": null,
       "review": null
     }
   },
   "ultimate-peptides": {
     "slug": "ultimate-peptides",
     "website": "https://ultimatepeptides.co.uk",
-    "checkedAt": "2026-10-22T00:39:11.358Z",
+    "checkedAt": "2026-11-16T17:40:22.456Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2587,16 +2588,16 @@
   "uk-peptides-com": {
     "slug": "uk-peptides-com",
     "website": "https://www.uk-peptides.com",
-    "checkedAt": "2026-10-22T00:39:11.813Z",
+    "checkedAt": "2026-11-16T17:40:23.381Z",
     "live": true,
     "home": {
       "status": 200,
-      "coa": "coa",
-      "ruo": "research use only",
+      "coa": null,
+      "ruo": null,
       "review": null,
-      "shipping": "royal mail",
-      "contact": "contact",
-      "title": "buy research peptides uk | next-day delivery \u2014 uk peptides"
+      "shipping": null,
+      "contact": "email",
+      "title": "uk peptides — thank you"
     },
     "product": {
       "fetched": false,
@@ -2604,25 +2605,25 @@
       "ruo": null
     },
     "secondary": {
-      "probed": 4,
-      "contact": "contact",
-      "ruo": "research use only",
-      "shipping": "tracked",
-      "coa": "certificate of analys",
+      "probed": 0,
+      "contact": null,
+      "ruo": null,
+      "shipping": null,
+      "coa": null,
       "review": null
     }
   },
   "bionik-peptides": {
     "slug": "bionik-peptides",
     "website": "https://bionikpeptides.com",
-    "checkedAt": "2026-10-22T00:39:14.398Z",
+    "checkedAt": "2026-11-16T17:40:23.589Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "certificate of analys",
       "ruo": "research use only",
       "review": null,
-      "shipping": "tracked",
+      "shipping": "tracking",
       "contact": "contact",
       "title": "premium research peptides uk | high-purity biohacking &amp; longevity comp"
     },
@@ -2644,25 +2645,24 @@
   "biohackerxlab": {
     "slug": "biohackerxlab",
     "website": "https://biohackerxlab.com",
-    "checkedAt": "2026-10-22T00:39:15.983Z",
+    "checkedAt": "2026-11-16T17:40:26.321Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": null,
       "ruo": null,
       "review": null,
-      "shipping": "tracking",
-      "contact": "email",
-      "title": "biohackerxlab"
+      "shipping": null,
+      "contact": null,
+      "title": "index of /"
     },
     "product": {
-      "fetched": true,
+      "fetched": false,
       "coa": null,
-      "ruo": null,
-      "status": 200
+      "ruo": null
     },
     "secondary": {
-      "probed": 0,
+      "probed": 7,
       "contact": null,
       "ruo": null,
       "shipping": null,
@@ -2673,7 +2673,7 @@
   "jgpeptidesplus": {
     "slug": "jgpeptidesplus",
     "website": "https://jgpeptidesplus.com",
-    "checkedAt": "2026-10-22T00:39:18.874Z",
+    "checkedAt": "2026-11-16T17:40:28.576Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2691,7 +2691,7 @@
       "status": 200
     },
     "secondary": {
-      "probed": 4,
+      "probed": 3,
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "tracking",
@@ -2702,13 +2702,13 @@
   "ukpeptides": {
     "slug": "ukpeptides",
     "website": "https://ukpeptides.org",
-    "checkedAt": "2026-10-22T00:39:23.184Z",
+    "checkedAt": "2026-11-16T17:40:41.975Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "certificate of analys",
       "ruo": "research use only",
-      "review": "trustpilot",
+      "review": null,
       "shipping": "tracked",
       "contact": "contact",
       "title": "uk peptides | buy research peptides, next day delivery"
@@ -2724,34 +2724,42 @@
       "ruo": "research use only",
       "shipping": "tracked",
       "coa": "certificate of analys",
-      "review": "trustpilot"
+      "review": null
     }
   },
   "phoenix-biolabs": {
     "slug": "phoenix-biolabs",
     "website": "https://phoenixbiolabs.net",
-    "checkedAt": "2026-10-22T00:39:24.653Z",
-    "live": false,
+    "checkedAt": "2026-11-16T17:40:42.960Z",
+    "live": true,
     "home": {
-      "status": 0,
-      "coa": null,
-      "ruo": null,
+      "status": 200,
+      "coa": "coa",
+      "ruo": "for research purposes",
       "review": null,
-      "shipping": null,
-      "contact": null,
-      "title": null
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "premium lab-tested research compounds uk | phoenix biolabs"
     },
     "product": {
-      "fetched": false,
-      "coa": null,
-      "ruo": null
+      "fetched": true,
+      "coa": "coa",
+      "ruo": "for research purposes",
+      "status": 200
     },
-    "error": "This operation was aborted"
+    "secondary": {
+      "probed": 3,
+      "contact": "contact",
+      "ruo": "for research purposes",
+      "shipping": "tracking",
+      "coa": "coa",
+      "review": null
+    }
   },
   "pyrox-labs": {
     "slug": "pyrox-labs",
     "website": "https://pyroxlabs.co.uk",
-    "checkedAt": "2026-10-22T00:39:36.660Z",
+    "checkedAt": "2026-11-16T17:40:43.435Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2780,14 +2788,14 @@
   "everything-peptides": {
     "slug": "everything-peptides",
     "website": "https://everythingpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:39:40.081Z",
+    "checkedAt": "2026-11-16T17:40:46.883Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
       "ruo": "research use only",
       "review": "reviews.io",
-      "shipping": "tracked",
+      "shipping": "tracking",
       "contact": "contact",
       "title": " buy peptides online uk | uk peptide supplier | everything peptides "
     },
@@ -2809,7 +2817,7 @@
   "british-peptide-labs": {
     "slug": "british-peptide-labs",
     "website": "https://britishpeptidelabs.com",
-    "checkedAt": "2026-10-22T00:39:41.096Z",
+    "checkedAt": "2026-11-16T17:40:48.150Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2818,7 +2826,7 @@
       "review": "trustpilot",
       "shipping": "tracked",
       "contact": "contact",
-      "title": "buy research peptides uk | \u226599% purity | british peptide labs"
+      "title": "buy research peptides uk | ≥99% purity | british peptide labs"
     },
     "product": {
       "fetched": true,
@@ -2838,16 +2846,16 @@
   "allmypeptides": {
     "slug": "allmypeptides",
     "website": "https://allmypeptides.com",
-    "checkedAt": "2026-10-22T00:39:44.420Z",
+    "checkedAt": "2026-11-16T17:40:50.113Z",
     "live": true,
     "home": {
       "status": 200,
-      "coa": "certificate of analys",
+      "coa": "coa",
       "ruo": "research use only",
       "review": "trustpilot",
       "shipping": "tracking",
       "contact": "contact",
-      "title": "research peptides uk | allmypeptides"
+      "title": "research peptides | allmypeptides"
     },
     "product": {
       "fetched": true,
@@ -2867,7 +2875,7 @@
   "peptide-global": {
     "slug": "peptide-global",
     "website": "https://peptideglobal.co.uk",
-    "checkedAt": "2026-10-22T00:39:45.249Z",
+    "checkedAt": "2026-11-16T17:40:52.474Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2880,7 +2888,7 @@
     },
     "product": {
       "fetched": true,
-      "coa": "independent lab",
+      "coa": "coa",
       "ruo": "research use only",
       "status": 200
     },
@@ -2889,14 +2897,14 @@
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "tracked",
-      "coa": "independent lab",
+      "coa": "coa",
       "review": null
     }
   },
   "nilah-labs": {
     "slug": "nilah-labs",
     "website": "https://nilahlabs.co.uk",
-    "checkedAt": "2026-10-22T00:39:46.302Z",
+    "checkedAt": "2026-11-16T17:40:53.863Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2925,20 +2933,20 @@
   "kingston-peptides": {
     "slug": "kingston-peptides",
     "website": "https://kingstonpeptides.com",
-    "checkedAt": "2026-10-22T00:39:47.638Z",
+    "checkedAt": "2026-11-16T17:40:56.547Z",
     "live": true,
     "home": {
       "status": 200,
       "coa": "coa",
       "ruo": null,
-      "review": null,
+      "review": "trustpilot",
       "shipping": "tracking",
       "contact": "contact",
       "title": "kingston peptides - premium research compounds for scient..."
     },
     "product": {
       "fetched": true,
-      "coa": "coa",
+      "coa": "certificate of analys",
       "ruo": null,
       "status": 200
     },
@@ -2948,13 +2956,13 @@
       "ruo": "in vitro",
       "shipping": "tracking",
       "coa": "coa",
-      "review": null
+      "review": "trustpilot"
     }
   },
   "na-peptides": {
     "slug": "na-peptides",
     "website": "https://www.na-peptides.co.uk",
-    "checkedAt": "2026-10-22T00:39:48.344Z",
+    "checkedAt": "2026-11-16T17:41:14.252Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2983,7 +2991,7 @@
   "novavitality": {
     "slug": "novavitality",
     "website": "https://novavitality.co.uk",
-    "checkedAt": "2026-10-22T00:39:55.288Z",
+    "checkedAt": "2026-11-16T17:41:24.664Z",
     "live": true,
     "home": {
       "status": 200,
@@ -2992,7 +3000,7 @@
       "review": null,
       "shipping": "tracking",
       "contact": "contact",
-      "title": "novavitality &#8211; uk-supplied ruo peptides \u2014 documented, responsibly supplied"
+      "title": "novavitality &#8211; uk-supplied ruo peptides — documented, responsibly supplied"
     },
     "product": {
       "fetched": true,
@@ -3012,7 +3020,7 @@
   "nova-peptide-lab": {
     "slug": "nova-peptide-lab",
     "website": "https://novapeptidelab.co.uk",
-    "checkedAt": "2026-10-22T00:39:55.617Z",
+    "checkedAt": "2026-11-16T17:41:25.199Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3041,7 +3049,7 @@
   "reta-research": {
     "slug": "reta-research",
     "website": "https://retaresearch.co",
-    "checkedAt": "2026-10-22T00:40:00.108Z",
+    "checkedAt": "2026-11-16T17:41:34.019Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3062,7 +3070,7 @@
       "probed": 6,
       "contact": "contact",
       "ruo": "research use only",
-      "shipping": "tracked",
+      "shipping": "tracking",
       "coa": "certificate of analys",
       "review": null
     }
@@ -3070,7 +3078,7 @@
   "north-peptides-uk": {
     "slug": "north-peptides-uk",
     "website": "https://www.northpeptidesuk.com",
-    "checkedAt": "2026-10-22T00:40:01.346Z",
+    "checkedAt": "2026-11-16T17:41:35.663Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3099,7 +3107,7 @@
   "optimus-labs": {
     "slug": "optimus-labs",
     "website": "https://optimuslabs.co.uk",
-    "checkedAt": "2026-10-22T00:40:01.991Z",
+    "checkedAt": "2026-11-16T17:41:35.981Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3128,7 +3136,7 @@
   "peptide-shop-uk": {
     "slug": "peptide-shop-uk",
     "website": "https://peptidesshopuk.com",
-    "checkedAt": "2026-10-22T00:40:11.455Z",
+    "checkedAt": "2026-11-16T17:41:37.139Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3157,7 +3165,7 @@
   "peptidehub": {
     "slug": "peptidehub",
     "website": "https://peptidehub.co.uk",
-    "checkedAt": "2026-10-22T00:40:19.907Z",
+    "checkedAt": "2026-11-16T17:41:40.878Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3186,7 +3194,7 @@
   "arma-peptides": {
     "slug": "arma-peptides",
     "website": "https://armapeptideshop.com",
-    "checkedAt": "2026-10-22T00:40:21.541Z",
+    "checkedAt": "2026-11-16T17:41:42.411Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3215,7 +3223,7 @@
   "peptidespecialist": {
     "slug": "peptidespecialist",
     "website": "https://peptidespecialist.co.uk",
-    "checkedAt": "2026-10-22T00:40:35.422Z",
+    "checkedAt": "2026-11-16T17:41:55.385Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3244,7 +3252,7 @@
   "port-peptides": {
     "slug": "port-peptides",
     "website": "https://portpeptides.co.uk",
-    "checkedAt": "2026-10-22T00:40:39.244Z",
+    "checkedAt": "2026-11-16T17:41:56.576Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3270,14 +3278,35 @@
       "review": null
     }
   },
+  "global-bio-research": {
+    "slug": "global-bio-research",
+    "website": "https://globalbioresearch.co",
+    "checkedAt": "2026-11-16T17:41:57.176Z",
+    "live": false,
+    "home": {
+      "status": 0,
+      "coa": null,
+      "ruo": null,
+      "review": null,
+      "shipping": null,
+      "contact": null,
+      "title": null
+    },
+    "product": {
+      "fetched": false,
+      "coa": null,
+      "ruo": null
+    },
+    "error": "fetch failed"
+  },
   "peptides-next-day": {
     "slug": "peptides-next-day",
     "website": "https://peptidesnextday.co.uk",
-    "checkedAt": "2026-10-24T00:33:07.348Z",
+    "checkedAt": "2026-11-16T17:41:57.224Z",
     "live": true,
     "home": {
       "status": 200,
-      "coa": "coa",
+      "coa": "certificate of analys",
       "ruo": null,
       "review": null,
       "shipping": "tracked",
@@ -3286,7 +3315,7 @@
     },
     "product": {
       "fetched": true,
-      "coa": "coa",
+      "coa": "certificate of analys",
       "ruo": null,
       "status": 200
     },
@@ -3295,14 +3324,14 @@
       "contact": "contact",
       "ruo": "research use only",
       "shipping": "tracked",
-      "coa": "coa",
+      "coa": "certificate of analys",
       "review": null
     }
   },
   "novabiolabs": {
     "slug": "novabiolabs",
     "website": "https://novabiolabs.co.uk",
-    "checkedAt": "2026-10-26T00:32:28.540Z",
+    "checkedAt": "2026-11-16T17:41:59.622Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3311,7 +3340,7 @@
       "review": "trustpilot",
       "shipping": "free shipping",
       "contact": "contact",
-      "title": "nova biolabs | research peptides \u2014 tirzepatide, retatrutide & more"
+      "title": "nova biolabs | research peptides — tirzepatide, retatrutide & more"
     },
     "product": {
       "fetched": true,
@@ -3331,7 +3360,7 @@
   "hipeptides": {
     "slug": "hipeptides",
     "website": "https://hipeptides.co.uk",
-    "checkedAt": "2026-10-26T01:34:09.946Z",
+    "checkedAt": "2026-11-16T17:42:02.944Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3340,7 +3369,7 @@
       "review": "trustpilot",
       "shipping": "tracked",
       "contact": "contact",
-      "title": "buy research peptides online | uk supplier| hipeptides"
+      "title": "research peptides uk | buy uk peptides online | hipeptides"
     },
     "product": {
       "fetched": false,
@@ -3359,7 +3388,7 @@
   "total-peptides": {
     "slug": "total-peptides",
     "website": "https://totalpeptides.uk",
-    "checkedAt": "2026-10-30T16:12:18.995Z",
+    "checkedAt": "2026-11-16T17:42:03.776Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3385,39 +3414,10 @@
       "review": null
     }
   },
-  "molexa": {
-    "slug": "molexa",
-    "website": "https://molexa.co.uk",
-    "checkedAt": "2026-10-30T16:33:23.273Z",
-    "live": true,
-    "home": {
-      "status": 200,
-      "coa": "third-party test",
-      "ruo": "research use only",
-      "review": null,
-      "shipping": "tracking",
-      "contact": "contact",
-      "title": "home - molexa"
-    },
-    "product": {
-      "fetched": true,
-      "coa": null,
-      "ruo": "research use only",
-      "status": 200
-    },
-    "secondary": {
-      "probed": 5,
-      "contact": "contact",
-      "ruo": "research use only",
-      "shipping": "tracking",
-      "coa": "coa",
-      "review": null
-    }
-  },
   "elite-peptides": {
     "slug": "elite-peptides",
     "website": "https://elitepeptides.uk",
-    "checkedAt": "2026-10-30T16:33:36.606Z",
+    "checkedAt": "2026-11-16T17:42:05.363Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3443,10 +3443,95 @@
       "review": null
     }
   },
+  "molexa": {
+    "slug": "molexa",
+    "website": "https://molexa.co.uk",
+    "checkedAt": "2026-11-16T17:42:22.765Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "third-party test",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracking",
+      "contact": "contact",
+      "title": "home - molexa"
+    },
+    "product": {
+      "fetched": true,
+      "coa": null,
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 5,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracking",
+      "coa": "coa",
+      "review": null
+    }
+  },
+  "loldarx": {
+    "slug": "loldarx",
+    "website": "https://loldarx.com",
+    "checkedAt": "2026-11-16T17:42:24.754Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": null,
+      "ruo": null,
+      "review": null,
+      "shipping": null,
+      "contact": "contact",
+      "title": "loldarx research | product catalogue"
+    },
+    "product": {
+      "fetched": false,
+      "coa": null,
+      "ruo": null
+    },
+    "secondary": {
+      "probed": 0,
+      "contact": null,
+      "ruo": null,
+      "shipping": null,
+      "coa": null,
+      "review": null
+    }
+  },
+  "rierink": {
+    "slug": "rierink",
+    "website": "https://rierink.com",
+    "checkedAt": "2026-11-16T17:42:24.870Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "coa",
+      "ruo": "research use only",
+      "review": "trustpilot",
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "laboratory research peptides · rierink compounds"
+    },
+    "product": {
+      "fetched": false,
+      "coa": null,
+      "ruo": null
+    },
+    "secondary": {
+      "probed": 5,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "coa",
+      "review": "trustpilot"
+    }
+  },
   "omnichems": {
     "slug": "omnichems",
     "website": "https://omnichems.co.uk",
-    "checkedAt": "2026-11-02T01:34:37.489Z",
+    "checkedAt": "2026-11-16T17:42:29.533Z",
     "live": true,
     "home": {
       "status": 200,
@@ -3470,6 +3555,35 @@
       "shipping": "tracked",
       "coa": "certificate of analys",
       "review": "trustpilot"
+    }
+  },
+  "genopept": {
+    "slug": "genopept",
+    "website": "https://genopept.co.uk",
+    "checkedAt": "2026-11-16T17:42:35.065Z",
+    "live": true,
+    "home": {
+      "status": 200,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "review": null,
+      "shipping": "tracked",
+      "contact": "contact",
+      "title": "research peptides uk | hplc-verified | genopept"
+    },
+    "product": {
+      "fetched": true,
+      "coa": "certificate of analys",
+      "ruo": "research use only",
+      "status": 200
+    },
+    "secondary": {
+      "probed": 6,
+      "contact": "contact",
+      "ruo": "research use only",
+      "shipping": "tracked",
+      "coa": "certificate of analys",
+      "review": null
     }
   }
 }

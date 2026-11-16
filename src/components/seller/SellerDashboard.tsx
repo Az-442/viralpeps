@@ -3,6 +3,75 @@
 import { useState, useMemo } from "react";
 import SellerProfile from "./SellerProfile";
 
+// ── Icon set (Lucide-style line icons, no emoji) ────────────────────────
+const iconProps = {
+  viewBox: "0 0 24 24",
+  fill: "none",
+  stroke: "currentColor",
+  strokeWidth: 2,
+  strokeLinecap: "round" as const,
+  strokeLinejoin: "round" as const,
+  className: "w-[18px] h-[18px] shrink-0",
+  "aria-hidden": true,
+};
+
+function DashboardIcon() {
+  return (
+    <svg {...iconProps}>
+      <rect x="3" y="3" width="7" height="9" rx="1" />
+      <rect x="14" y="3" width="7" height="5" rx="1" />
+      <rect x="14" y="12" width="7" height="9" rx="1" />
+      <rect x="3" y="16" width="7" height="5" rx="1" />
+    </svg>
+  );
+}
+
+function PackageIcon() {
+  return (
+    <svg {...iconProps}>
+      <path d="m7.5 4.27 9 5.15" />
+      <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+      <path d="m3.3 7 8.7 5 8.7-5" />
+      <path d="M12 22V12" />
+    </svg>
+  );
+}
+
+function ShieldIcon() {
+  return (
+    <svg {...iconProps}>
+      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1 1 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+      <path d="m9 12 2 2 4-4" />
+    </svg>
+  );
+}
+
+function BrandHexagon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-5 h-5 text-blue-600 shrink-0"
+      aria-hidden="true"
+    >
+      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+      <path d="M12 7.5v9" />
+      <path d="m8.5 10 7 4" />
+      <path d="m15.5 10-7 4" />
+    </svg>
+  );
+}
+
+const NAV_ITEMS = [
+  { id: "overview", label: "Dashboard", Icon: DashboardIcon },
+  { id: "products", label: "Products", Icon: PackageIcon },
+  { id: "profile", label: "Profile & TrustScore", Icon: ShieldIcon },
+] as const;
+
 export interface ClickRow {
   click_type: string;
   compound_slug: string | null;
@@ -145,7 +214,7 @@ export default function SellerDashboard(props: {
       <aside className="fixed inset-y-0 left-0 w-60 bg-white border-r border-gray-200 flex flex-col">
         <div className="px-4 py-5 border-b border-gray-100">
           <div className="flex items-center gap-2">
-            <span className="text-blue-600 text-xl">✦</span>
+            <BrandHexagon />
             <div>
               <div className="font-semibold text-sm leading-tight">Supplier Portal</div>
               <div className="text-[10px] tracking-widest text-gray-400">VIRALPEPS</div>
@@ -153,19 +222,15 @@ export default function SellerDashboard(props: {
           </div>
         </div>
         <nav className="flex-1 px-2 py-3 space-y-0.5 text-sm">
-          {[
-            ["overview", "Dashboard", "🏠"],
-            ["products", "Products", "📦"],
-            ["profile", "Profile & TrustScore", "🛡️"],
-          ].map(([id, label, icon]) => (
+          {NAV_ITEMS.map(({ id, label, Icon }) => (
             <button
               key={id}
-              onClick={() => setTab(id as typeof tab)}
-              className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-left ${
+              onClick={() => setTab(id)}
+              className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left ${
                 tab === id ? "bg-blue-50 text-blue-700 font-medium" : "text-gray-600 hover:bg-gray-50"
               }`}
             >
-              <span>{icon}</span> {label}
+              <Icon /> {label}
             </button>
           ))}
         </nav>
@@ -208,7 +273,7 @@ export default function SellerDashboard(props: {
               >
                 {RANGES.map((r) => (
                   <option key={r.days} value={r.days}>
-                    📅 {r.label}
+                    {r.label}
                   </option>
                 ))}
               </select>
