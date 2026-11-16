@@ -8,6 +8,15 @@ export const dynamic = "force-dynamic";
 type Vendor = { slug: string; name: string };
 
 export default async function AdminPage() {
+  // Data window (first/last click) so the owner knows the covered period.
+  const range = await sql`
+    SELECT min(created_at) AS min_ts, max(created_at) AS max_ts FROM clicks
+  `;
+  const rng = range.rows[0];
+  const dataRange = rng?.min_ts
+    ? `${new Date(rng.min_ts).toLocaleDateString("en-GB")} — ${new Date(rng.max_ts).toLocaleDateString("en-GB")}`
+    : "—";
+
   // Per-vendor click aggregates across four date windows.
   const clicks = await sql`
     SELECT
@@ -90,5 +99,5 @@ export default async function AdminPage() {
     };
   });
 
-  return <AdminDashboard vendors={vendors} sellers={sellers} />;
+  return <AdminDashboard vendors={vendors} sellers={sellers} dataRange={dataRange} />;
 }

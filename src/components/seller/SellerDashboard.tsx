@@ -351,7 +351,7 @@ export default function SellerDashboard(props: {
                             {c.click_type === "vendor-site" ? "Affiliate" : "Product"}
                           </span>
                         </td>
-                        <td className="px-5 py-2 text-gray-500">{timeAgo(c.created_at)}</td>
+                        <td className="px-5 py-2 text-gray-500" suppressHydrationWarning>{timeAgo(c.created_at)}</td>
                       </tr>
                     ))}
                   </tbody>

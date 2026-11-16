@@ -59,9 +59,11 @@ function band(s: number): string {
 export default function AdminDashboard({
   vendors,
   sellers,
+  dataRange,
 }: {
   vendors: VendorPerf[];
   sellers: SellerAccount[];
+  dataRange?: string;
 }) {
   const [tab, setTab] = useState<"network" | "sellers">("network");
   const [win, setWin] = useState<WinKey>("All");
@@ -156,7 +158,10 @@ export default function AdminDashboard({
         {tab === "network" ? (
           <>
             <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Network performance</h1>
-            <p style={{ color: "#6b7280", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>Every supplier&apos;s referral clicks, sales and commission.</p>
+            <p style={{ color: "#6b7280", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+              Every supplier&apos;s referral clicks, sales and commission.{" "}
+              <span style={{ color: "#9ca3af" }}>Click data: {dataRange || "—"}</span>
+            </p>
 
             {/* Stat cards */}
             <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: ".9rem", marginBottom: "1.2rem" }}>
