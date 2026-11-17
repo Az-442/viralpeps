@@ -573,17 +573,16 @@ export default function SellerDashboard(props: {
                 <div className="relative w-32 h-32 shrink-0">
                   <svg viewBox="0 0 100 100" className="w-full h-full">
                     <defs>
-                      <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#2563eb" />
-                        <stop offset="50%" stopColor="#6366f1" />
-                        <stop offset="100%" stopColor="#7c3aed" />
+                      <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stopColor="#4f46e5" />
+                        <stop offset="100%" stopColor="#2563eb" />
                       </linearGradient>
                     </defs>
-                    <circle cx="50" cy="50" r="50" fill="#0b1a2e" />
-                    <circle cx="50" cy="50" r="42" fill="none" stroke="#1e293b" strokeWidth="10" />
+                    <circle cx="50" cy="50" r="50" fill="url(#tsBg)" />
+                    <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="10" />
                     <circle
                       cx="50" cy="50" r="42" fill="none"
-                      stroke="url(#tsGrad)"
+                      stroke="#ffffff"
                       strokeWidth="10" strokeLinecap="round"
                       strokeDasharray={`${props.trustScore * 2.64} 264`}
                       transform="rotate(-90 50 50)"
@@ -591,7 +590,7 @@ export default function SellerDashboard(props: {
                   </svg>
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
                     <span className="text-3xl font-bold text-white leading-none">{props.trustScore}</span>
-                    <span className="text-[9px] font-semibold tracking-wider text-slate-300 mt-0.5">/ 100</span>
+                    <span className="text-[9px] font-semibold tracking-wider text-white/80 mt-0.5">/ 100</span>
                   </div>
                 </div>
                 <div>
@@ -599,7 +598,6 @@ export default function SellerDashboard(props: {
                   <div className="text-sm text-gray-900">
                     {props.trustTicks.length ? props.trustTicks.join(" · ") : "No signals verified yet"}
                   </div>
-                  <div className="text-xs text-gray-600 mt-1">This is what buyers see next to your listing.</div>
                 </div>
               </div>
               <div className="bg-white border border-gray-200 rounded-xl p-5">
