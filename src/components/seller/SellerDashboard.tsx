@@ -315,7 +315,7 @@ export default function SellerDashboard(props: {
   const affiliateClicksAll = props.clicks.filter((c) => c.click_type === "vendor-site").length;
   const totalCommissionAll = props.sales.reduce((acc, s) => acc + Number(s.commission_amount ?? 0), 0);
 
-  // Bar chart: clicks per day over the range (max 30 bars).
+  // Bar chart: continuous daily series over the range (accurate time axis).
   const bars = useMemo(() => {
     const days = rangeDays === 0 ? 30 : rangeDays;
     const map = new Map<string, number>();
@@ -323,8 +323,18 @@ export default function SellerDashboard(props: {
       const k = c.created_at.slice(0, 10);
       map.set(k, (map.get(k) ?? 0) + 1);
     }
-    const keys = [...map.keys()].sort();
-    return keys.slice(-days).map((k) => ({ k, n: map.get(k) ?? 0 }));
+    const now = Date.now();
+    const out: { k: string; n: number; label: string }[] = [];
+    for (let i = days - 1; i >= 0; i--) {
+      const d = new Date(now - i * 86400000);
+      const k = d.toISOString().slice(0, 10);
+      out.push({
+        k,
+        n: map.get(k) ?? 0,
+        label: d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }),
+      });
+    }
+    return out;
   }, [clicksInRange, rangeDays]);
   const maxBar = Math.max(1, ...bars.map((b) => b.n));
 
@@ -731,10 +741,17 @@ export default function SellerDashboard(props: {
               {bars.length === 0 ? (
                 <p className="text-sm text-gray-600 py-6">No clicks in this period.</p>
               ) : (
-                <div className="flex items-end gap-1.5 h-36">
+                <div className="flex items-end gap-1 h-36">
                   {bars.map((b) => (
                     <div key={b.k} className="flex-1 h-full flex flex-col justify-end">
-                      <div className="w-full bg-blue-700 rounded-t" style={{ height: `${Math.max(6, (b.n / maxBar) * 100)}%` }} title={`${b.k}: ${b.n}`} />
+                      <div className="w-full bg-blue-700 rounded-t" style={{ height: b.n === 0 ? "0px" : `${Math.max(6, (b.n / maxBar) * 100)}%` }} title={`${b.label}: ${b.n} click${b.n === 1 ? "" : "s"}`} />
+                    </div>
+                  ))}
+                </div>
+                <div className="flex gap-1 mt-1.5">
+                  {bars.map((b, i) => (
+                    <div key={b.k} className="flex-1 text-center text-[9px] text-gray-500 truncate">
+                      {i % Math.max(1, Math.ceil(bars.length / 8)) === 0 ? b.label : ""}
                     </div>
                   ))}
                 </div>
