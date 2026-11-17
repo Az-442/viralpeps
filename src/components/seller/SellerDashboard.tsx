@@ -343,17 +343,6 @@ export default function SellerDashboard(props: {
     [productList]
   );
 
-  const band =
-    props.trustScore >= 86
-      ? "text-emerald-600"
-      : props.trustScore >= 65
-      ? "text-emerald-500"
-      : props.trustScore >= 45
-      ? "text-amber-500"
-      : props.trustScore >= 30
-      ? "text-orange-500"
-      : "text-rose-500";
-
   const embedSnippet = `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
 
   function copyEmbed() {
@@ -581,19 +570,26 @@ export default function SellerDashboard(props: {
             {/* TrustScore */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
               <div className="bg-white border border-gray-200 rounded-xl p-5 flex items-center gap-5">
-                <div className="relative w-28 h-28 shrink-0">
+                <div className="relative w-32 h-32 shrink-0">
                   <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
-                    <circle cx="50" cy="50" r="42" fill="none" stroke="#e5e7eb" strokeWidth="10" />
+                    <defs>
+                      <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stopColor="#2563eb" />
+                        <stop offset="50%" stopColor="#6366f1" />
+                        <stop offset="100%" stopColor="#7c3aed" />
+                      </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="42" fill="none" stroke="#eef2f7" strokeWidth="11" />
                     <circle
                       cx="50" cy="50" r="42" fill="none"
-                      stroke={props.trustScore >= 45 ? "#10b981" : "#f59e0b"}
-                      strokeWidth="10" strokeLinecap="round"
+                      stroke="url(#tsGrad)"
+                      strokeWidth="11" strokeLinecap="round"
                       strokeDasharray={`${props.trustScore * 2.64} 264`}
                     />
                   </svg>
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
-                    <span className={`text-2xl font-bold ${band}`}>{props.trustScore}</span>
-                    <span className="text-[9px] text-gray-600">OUT OF 100</span>
+                    <span className="text-3xl font-bold text-gray-900">{props.trustScore}</span>
+                    <span className="text-[9px] font-semibold tracking-wider text-gray-600">/ 100</span>
                   </div>
                 </div>
                 <div>
@@ -605,19 +601,19 @@ export default function SellerDashboard(props: {
                 </div>
               </div>
               <div className="bg-white border border-gray-200 rounded-xl p-5">
-                <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center justify-between mb-4">
                   <h2 className="font-semibold">What makes up your score</h2>
                   <a href="/trust-score" className="text-xs text-blue-600 hover:underline">How it works →</a>
                 </div>
-                <ul className="text-sm space-y-1.5">
+                <div className="space-y-3">
                   {[
-                    ["Lab-Tested (COA)", "+25"],
-                    ["Contact", "+15"],
-                    ["Reviews", "+10"],
-                    ["Compliant (RUO)", "+10"],
-                    ["Shipping", "+10"],
-                    ["Domain (badge)", "+15"],
-                    ["Entity audit", "+15"],
+                    ["Lab-Tested (COA)", 25],
+                    ["Contact", 15],
+                    ["Reviews", 10],
+                    ["Compliant (RUO)", 10],
+                    ["Shipping", 10],
+                    ["Domain (badge)", 15],
+                    ["Entity audit", 15],
                   ].map(([label, pts]) => {
                     const has = props.trustTicks.some((t) => {
                       const tl = t.toLowerCase();
@@ -627,17 +623,26 @@ export default function SellerDashboard(props: {
                       }
                       return ll.startsWith(tl) || tl.startsWith(ll);
                     });
+                    const w = Math.round(((pts as number) / 25) * 100);
                     return (
-                      <li key={label} className="flex items-center justify-between">
-                        <span className="flex items-center gap-2">
-                          <span className={has ? "text-emerald-500" : "text-rose-500"}>{has ? "✓" : "✕"}</span>
-                          {label}
-                        </span>
-                        <span className="text-gray-600 text-xs">{pts}</span>
-                      </li>
+                      <div key={label as string}>
+                        <div className="flex items-center justify-between text-xs mb-1">
+                          <span className="flex items-center gap-1.5 font-medium text-gray-900">
+                            <span className={has ? "text-emerald-500" : "text-gray-400"}>{has ? "✓" : "✕"}</span>
+                            {label}
+                          </span>
+                          <span className="text-gray-600 font-semibold">+{pts}</span>
+                        </div>
+                        <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className={`h-full rounded-full ${has ? "bg-gradient-to-r from-emerald-400 to-emerald-500" : "bg-gray-200"}`}
+                            style={{ width: `${w}%` }}
+                          />
+                        </div>
+                      </div>
                     );
                   })}
-                </ul>
+                </div>
                 <div className="mt-4 bg-blue-50 border border-blue-100 rounded-lg p-3 text-sm">
                   <div className="font-medium text-blue-800">Looking to increase your score?</div>
                   <div className="text-blue-600 text-xs mt-0.5">
