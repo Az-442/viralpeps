@@ -307,7 +307,8 @@ export default function SellerDashboard(props: {
     [filteredClicks]
   );
 
-  const affiliateClicks = filteredClicks.filter((c) => c.click_type === "vendor-site").length;
+  const websiteClicks = filteredClicks.filter((c) => c.click_type === "vendor-site").length;
+  const productClicks = filteredClicks.filter((c) => c.click_type === "product").length;
 
   // Bar chart: clicks per day over the range (max 30 bars).
   const bars = useMemo(() => {
@@ -360,10 +361,10 @@ export default function SellerDashboard(props: {
   const statCards = (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
       {[
-        ["Clicks", filteredClicks.length, `${props.stats.clicksAll} all time`],
+        ["Total clicks", filteredClicks.length, `${props.stats.clicksAll} all time`],
         ["Unique visitors", visitorsInRange, "distinct people"],
-        ["Affiliate clicks", affiliateClicks, "tracked outbound"],
-        ["Active products", props.stats.activeProducts, `${props.stats.totalProducts} total`],
+        ["Website clicks", websiteClicks, "visits to your site"],
+        ["Product clicks", productClicks, "product page visits"],
       ].map(([label, val, sub]) => (
         <div key={label as string} className="bg-white border border-gray-200 rounded-xl p-4">
           <div className="text-xs text-gray-500">{label}</div>
@@ -520,6 +521,30 @@ export default function SellerDashboard(props: {
         {tab === "dashboard" && (
           <>
             {statCards}
+
+            {/* Affiliate program */}
+            <div className="bg-white border border-gray-200 rounded-xl p-5 mb-5">
+              <div className="flex items-center justify-between mb-2">
+                <h2 className="font-semibold">Affiliate program</h2>
+                <span className="text-xs bg-amber-50 text-amber-700 border border-amber-200 rounded-full px-2.5 py-0.5">
+                  Coming soon
+                </span>
+              </div>
+              <p className="text-sm text-gray-500">
+                Earn {props.commissionRate}% commission on every sale you refer. Your affiliate
+                clicks and payouts will be tracked here once you join.
+              </p>
+              <div className="grid grid-cols-2 gap-4 mt-4">
+                <div className="bg-gray-50 border border-gray-100 rounded-lg p-3">
+                  <div className="text-xs text-gray-500">Affiliate clicks</div>
+                  <div className="text-2xl font-bold mt-1 text-gray-300">—</div>
+                </div>
+                <div className="bg-gray-50 border border-gray-100 rounded-lg p-3">
+                  <div className="text-xs text-gray-500">Commission earned</div>
+                  <div className="text-2xl font-bold mt-1 text-gray-300">—</div>
+                </div>
+              </div>
+            </div>
 
             {/* TrustScore */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
