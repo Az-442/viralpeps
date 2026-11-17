@@ -283,6 +283,7 @@ export default function SellerDashboard(props: {
   const [productFilter, setProductFilter] = useState<string>("all");
   const [tab, setTab] = useState<Tab>("dashboard");
   const [copied, setCopied] = useState(false);
+  const [joinState, setJoinState] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   const cutoff = useMemo(() => {
     if (rangeDays === 0) return 0;
@@ -356,6 +357,17 @@ export default function SellerDashboard(props: {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
+  }
+
+  async function joinAffiliate() {
+    if (joinState === "sending" || joinState === "sent") return;
+    setJoinState("sending");
+    try {
+      const r = await fetch("/api/sellers/join-affiliate", { method: "POST" });
+      setJoinState(r.ok ? "sent" : "error");
+    } catch {
+      setJoinState("error");
+    }
   }
 
   const statCards = (
@@ -526,9 +538,25 @@ export default function SellerDashboard(props: {
             <div className="bg-white border border-gray-200 rounded-xl p-5 mb-5">
               <div className="flex items-center justify-between mb-2">
                 <h2 className="font-semibold">Affiliate program</h2>
-                <span className="text-xs bg-amber-50 text-amber-700 border border-amber-200 rounded-full px-2.5 py-0.5">
-                  Coming soon
-                </span>
+                <button
+                  onClick={joinAffiliate}
+                  disabled={joinState === "sending" || joinState === "sent"}
+                  className={`text-xs font-medium px-3 py-1.5 rounded-lg ${
+                    joinState === "sent"
+                      ? "bg-emerald-50 text-emerald-700 border border-emerald-200 cursor-default"
+                      : joinState === "error"
+                      ? "bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100"
+                      : "bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-60"
+                  }`}
+                >
+                  {joinState === "sent"
+                    ? "Request sent ✓"
+                    : joinState === "sending"
+                    ? "Sending…"
+                    : joinState === "error"
+                    ? "Retry"
+                    : "Join program"}
+                </button>
               </div>
               <p className="text-sm text-gray-500">
                 Earn {props.commissionRate}% commission on every sale you refer. Your affiliate
