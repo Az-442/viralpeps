@@ -160,8 +160,11 @@ export function detectBot(
   if (requireReferrer) {
     if (!referer) return { isBot: true, reason: "no-referrer" };
     let host = "";
+    let pathname = "";
     try {
-      host = new URL(referer).hostname.toLowerCase();
+      const u = new URL(referer);
+      host = u.hostname.toLowerCase();
+      pathname = u.pathname;
     } catch {
       return { isBot: true, reason: "malformed-referrer" };
     }
@@ -170,6 +173,14 @@ export function detectBot(
       host === "www.viralpeps.co.uk" ||
       host.endsWith(".viralpeps.co.uk");
     if (!okHost) return { isBot: true, reason: `offsite-referrer:${host}` };
+    // 13 Nov 2026 hole: the scraper sent a BARE homepage referrer — correct
+    // host, no path (`https://www.viralpeps.co.uk` with no slash, or the
+    // no-www variant). /go/ links only exist on specific pages (/compounds/*,
+    // /vendors/*, /compound-guides/*, /wholesale*), never the homepage root,
+    // so a bare-homepage referrer is a spoof, not a genuine click.
+    if (pathname === "" || pathname === "/") {
+      return { isBot: true, reason: "bare-homepage-referrer" };
+    }
   }
 
   return { isBot: false };
