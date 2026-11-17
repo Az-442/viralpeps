@@ -575,8 +575,8 @@ export default function SellerDashboard(props: {
                     <defs>
                       <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" stopColor="#2563eb" />
-                        <stop offset="50%" stopColor="#6366f1" />
-                        <stop offset="100%" stopColor="#7c3aed" />
+                        <stop offset="50%" stopColor="#4f46e5" />
+                        <stop offset="100%" stopColor="#9333ea" />
                       </linearGradient>
                     </defs>
                     <circle cx="50" cy="50" r="42" fill="none" stroke="#eef2f7" strokeWidth="11" />
@@ -605,15 +605,15 @@ export default function SellerDashboard(props: {
                   <h2 className="font-semibold">What makes up your score</h2>
                   <a href="/trust-score" className="text-xs text-blue-600 hover:underline">How it works →</a>
                 </div>
-                <div className="space-y-3">
+                <ul className="text-sm space-y-1.5">
                   {[
-                    ["Lab-Tested (COA)", 25],
-                    ["Contact", 15],
-                    ["Reviews", 10],
-                    ["Compliant (RUO)", 10],
-                    ["Shipping", 10],
-                    ["Domain (badge)", 15],
-                    ["Entity audit", 15],
+                    ["Lab-Tested (COA)", "+25"],
+                    ["Contact", "+15"],
+                    ["Reviews", "+10"],
+                    ["Compliant (RUO)", "+10"],
+                    ["Shipping", "+10"],
+                    ["Domain (badge)", "+15"],
+                    ["Entity audit", "+15"],
                   ].map(([label, pts]) => {
                     const has = props.trustTicks.some((t) => {
                       const tl = t.toLowerCase();
@@ -623,26 +623,17 @@ export default function SellerDashboard(props: {
                       }
                       return ll.startsWith(tl) || tl.startsWith(ll);
                     });
-                    const w = Math.round(((pts as number) / 25) * 100);
                     return (
-                      <div key={label as string}>
-                        <div className="flex items-center justify-between text-xs mb-1">
-                          <span className="flex items-center gap-1.5 font-medium text-gray-900">
-                            <span className={has ? "text-emerald-500" : "text-gray-400"}>{has ? "✓" : "✕"}</span>
-                            {label}
-                          </span>
-                          <span className="text-gray-600 font-semibold">+{pts}</span>
-                        </div>
-                        <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
-                          <div
-                            className={`h-full rounded-full ${has ? "bg-gradient-to-r from-emerald-400 to-emerald-500" : "bg-gray-200"}`}
-                            style={{ width: `${w}%` }}
-                          />
-                        </div>
-                      </div>
+                      <li key={label} className="flex items-center justify-between">
+                        <span className="flex items-center gap-2">
+                          <span className={has ? "text-emerald-500" : "text-rose-500"}>{has ? "✓" : "✕"}</span>
+                          {label}
+                        </span>
+                        <span className="text-gray-900 text-xs">{pts}</span>
+                      </li>
                     );
                   })}
-                </div>
+                </ul>
                 <div className="mt-4 bg-blue-50 border border-blue-100 rounded-lg p-3 text-sm">
                   <div className="font-medium text-blue-800">Looking to increase your score?</div>
                   <div className="text-blue-600 text-xs mt-0.5">
