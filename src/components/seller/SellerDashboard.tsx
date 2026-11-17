@@ -285,6 +285,7 @@ export default function SellerDashboard(props: {
   const [tab, setTab] = useState<Tab>("dashboard");
   const [copied, setCopied] = useState(false);
   const [joinState, setJoinState] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [hoverBar, setHoverBar] = useState<{ x: number; y: number; label: string; n: number } | null>(null);
 
   const cutoff = useMemo(() => {
     if (rangeDays === 0) return 0;
@@ -762,11 +763,18 @@ export default function SellerDashboard(props: {
                             height: b.n === 0 ? "3px" : `${Math.max(8, (b.n / maxBar) * 100)}%`,
                             background: b.n === 0 ? "#e5e7eb" : "#1d4ed8",
                           }}
-                          title={`${b.label}: ${b.n} click${b.n === 1 ? "" : "s"}`}
+                          onMouseEnter={(e) => setHoverBar({ x: e.clientX, y: e.clientY, label: b.label, n: b.n })}
+                          onMouseMove={(e) => setHoverBar({ x: e.clientX, y: e.clientY, label: b.label, n: b.n })}
+                          onMouseLeave={() => setHoverBar(null)}
                         />
                       </div>
                     ))}
                   </div>
+                  {hoverBar && (
+                    <div style={{ position: "fixed", left: hoverBar.x, top: hoverBar.y - 34, transform: "translateX(-50%)", background: "#111827", color: "#fff", padding: "3px 9px", borderRadius: 6, fontSize: "12px", fontWeight: 600, pointerEvents: "none", zIndex: 50, whiteSpace: "nowrap", boxShadow: "0 4px 12px rgba(0,0,0,0.18)" }}>
+                      {hoverBar.label} · {hoverBar.n} click{hoverBar.n === 1 ? "" : "s"}
+                    </div>
+                  )}
                   <div className="flex gap-1 mt-1.5">
                     {bars.map((b, i) => (
                       <div key={b.k} className="flex-1 text-center text-[9px] text-gray-500 truncate">
@@ -777,7 +785,7 @@ export default function SellerDashboard(props: {
                 </>
               )}
               <div className="flex flex-wrap gap-x-5 gap-y-1 mt-4 pt-3 border-t border-gray-100 text-xs text-gray-600">
-                <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-blue-700 inline-block" /> Comparison pages {productClicks}</span>
+                <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-blue-700 inline-block" /> Comparison pages {clicksInRange.length}</span>
                 <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-teal-400 inline-block" /> Featured spots 0</span>
                 <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-amber-400 inline-block" /> Banners 0</span>
                 <span className="flex items-center gap-1.5 text-gray-400">⟳ Previous period 0</span>
