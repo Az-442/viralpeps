@@ -745,7 +745,14 @@ export default function SellerDashboard(props: {
                   <div className="flex items-end gap-1 h-36">
                     {bars.map((b) => (
                       <div key={b.k} className="flex-1 h-full flex flex-col justify-end">
-                        <div className="w-full bg-blue-700 rounded-t" style={{ height: b.n === 0 ? "0px" : `${Math.max(6, (b.n / maxBar) * 100)}%` }} title={`${b.label}: ${b.n} click${b.n === 1 ? "" : "s"}`} />
+                        <div
+                          className="w-full rounded-t"
+                          style={{
+                            height: b.n === 0 ? "3px" : `${Math.max(8, (b.n / maxBar) * 100)}%`,
+                            background: b.n === 0 ? "#e5e7eb" : "#1d4ed8",
+                          }}
+                          title={`${b.label}: ${b.n} click${b.n === 1 ? "" : "s"}`}
+                        />
                       </div>
                     ))}
                   </div>
